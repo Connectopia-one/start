@@ -1,0 +1,101 @@
+{
+ "vak": "Economie",
+ "titel": "Marktvormen en het monopolie",
+ "onder": "Hoe het aantal aanbieders de prijs bepaalt, en hoe een monopolist zijn beste hoeveelheid kiest.",
+ "secties": [
+  {
+   "kop": "Marktvormen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Hoe er op een markt geconcurreerd wordt, hangt vooral af van <strong>het aantal marktpartijen</strong> en van <strong>de toetredingsmogelijkheden</strong>: hoe gemakkelijk een nieuwe aanbieder kan beginnen. Ook <strong>markttransparantie</strong> speelt mee: kopers en verkopers hebben een goed overzicht van prijzen en kwaliteit."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">marktvorm</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">aanbieders</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">invloed op de prijs</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">atomische markt (volkomen concurrentie)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zoveel kleine aanbieders dat niemand de prijs kan beïnvloeden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geen: prijsnemer</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">monopolistische concurrentie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">veel aanbieders van gelijkaardige maar verschillende producten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een beetje</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">oligopolie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">enkele grote aanbieders</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">veel</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">monopolie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">één aanbieder van een product zonder goede vervangers</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">groot: prijszetter</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een monopolie ontstaat bijvoorbeeld als <strong>één spoorbedrijf als enige een net mag uitbaten</strong> of als <strong>een farmabedrijf een patent heeft op een geneesmiddel</strong>. De toetredingsmogelijkheden voor nieuwe aanbieders zijn dan <strong>klein</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Kosten op een rij",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">afkorting</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">betekenis</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">TCK</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">totale constante kosten: veranderen niet als de productie verandert</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">TVK</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">totale variabele kosten: stijgen met de productie</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">TK</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">totale kosten = TCK + TVK</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">GK</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gemiddelde kosten = TK / Q = GCK + GVK</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">GCK</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gemiddelde constante kosten = TCK / Q; dalen als Q stijgt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">GVK</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gemiddelde variabele kosten = TVK / Q</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">MK</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">marginale kosten: de extra kosten van één stuk meer maken</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Voorbeeld: TCK = 200 en TVK = 400 bij 20 stuks. Dan is GK = 600 / 20 = <strong>30</strong>. Kost 10 stuks 500 euro en 11 stuks 540 euro, dan zijn de marginale kosten van het elfde stuk <strong>40 euro</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De MK-curve verloopt meestal <strong>eerst dalend, daarna stijgend</strong>, en ze snijdt de GK-curve <strong>in haar laagste punt</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "De opbrengsten van een monopolist",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een monopolist is een <strong>prijszetter</strong>: hij kiest zelf de prijs. Maar hij kan niet eender welke prijs vragen en toch evenveel verkopen. Zijn <strong>prijsafzetcurve is dalend</strong>: het is de vraagcurve van de hele markt."
+    },
+    {
+     "soort": "kader",
+     "html": "<p>Prijsafzetcurve <strong>P = 100 − 2Q</strong>.</p><ul><li>Totale opbrengst: TO = P · Q = <strong>100Q − 2Q²</strong>.</li><li>Gemiddelde opbrengst: GO = TO / Q = P. Bij een monopolist is GO <strong>gelijk aan de prijs</strong>.</li><li>Marginale opbrengst: <strong>MO = 100 − 4Q</strong>. De MO-curve ligt <strong>onder</strong> de prijsafzetcurve en daalt <strong>twee keer zo snel</strong>. MO is dus <strong>niet</strong> gelijk aan de prijs.</li><li>TO is het grootst waar MO = 0, dus bij <strong>Q = 25</strong>.</li></ul>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij volkomen concurrentie is het anders: daar zijn de marginale opbrengsten van een producent <strong>gelijk aan de marktprijs</strong>, want hij kan zoveel verkopen als hij wil aan die prijs."
+    }
+   ]
+  },
+  {
+   "kop": "De optimale productiegrootte",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een monopolist maakt de meeste winst <strong>waar MO = MK</strong>. Dat is niet de hoeveelheid met de grootste totale opbrengst: hij moet ook naar zijn kosten kijken."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 340 230\" width=\"340\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"156.0,88.4 156.0,158.8 268.0,158.8\" fill=\"#c17f2b\" fill-opacity=\".22\" stroke=\"none\"/><line x1=\"44\" y1=\"14\" x2=\"44\" y2=\"194\" stroke=\"#23291f\" stroke-width=\"1.8\"/><line x1=\"44\" y1=\"194\" x2=\"328\" y2=\"194\" stroke=\"#23291f\" stroke-width=\"1.8\"/><text x=\"42.0\" y=\"12.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#6b7260\">prijs</text><text x=\"328.0\" y=\"210.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#6b7260\">hoeveelheid</text><line x1=\"44.0\" y1=\"18.0\" x2=\"296.0\" y2=\"176.4\" stroke=\"#2f5d50\" stroke-width=\"2.2\"/><text x=\"301.0\" y=\"180.4\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#2f5d50\">P</text><line x1=\"44.0\" y1=\"18.0\" x2=\"170.0\" y2=\"176.4\" stroke=\"#c17f2b\" stroke-width=\"2.2\"/><text x=\"175.0\" y=\"180.4\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#c17f2b\">MO</text><line x1=\"44.0\" y1=\"158.8\" x2=\"324.0\" y2=\"158.8\" stroke=\"#6b7260\" stroke-width=\"2.2\" stroke-dasharray=\"6 4\"/><text x=\"329.0\" y=\"162.8\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#6b7260\">MK</text><line x1=\"44.0\" y1=\"88.4\" x2=\"156.0\" y2=\"88.4\" stroke=\"#6b7260\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><line x1=\"156.0\" y1=\"194.0\" x2=\"156.0\" y2=\"88.4\" stroke=\"#6b7260\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><circle cx=\"156.0\" cy=\"88.4\" r=\"3.6\" fill=\"#23291f\"/><text x=\"162.0\" y=\"82.4\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#23291f\">monopolie</text><line x1=\"44.0\" y1=\"158.8\" x2=\"268.0\" y2=\"158.8\" stroke=\"#6b7260\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><line x1=\"268.0\" y1=\"194.0\" x2=\"268.0\" y2=\"158.8\" stroke=\"#6b7260\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><circle cx=\"268.0\" cy=\"158.8\" r=\"3.6\" fill=\"#23291f\"/></svg>",
+     "onderschrift": "P = 100 − 2Q, MO = 100 − 4Q, MK = 20. Het gekleurde driehoekje is het welvaartsverlies."
+    },
+    {
+     "soort": "kader",
+     "html": "<p><strong>Rekenvoorbeeld.</strong> P = 100 − 2Q en MK = 20.</p><ul><li>MO = MK: 100 − 4Q = 20, dus <strong>Q = 20</strong>.</li><li>De prijs lees je af <strong>boven het snijpunt van MO en MK, op de prijsafzetcurve</strong>: P = 100 − 2 · 20 = <strong>60</strong>.</li><li>Winst = (P − GK) · Q. Met GK = 30: (60 − 30) · 20 = <strong>600</strong>. In de grafiek is dat de rechthoek tussen de prijs en de GK, over de breedte van de verkochte hoeveelheid.</li></ul>"
+    }
+   ]
+  },
+  {
+   "kop": "Monopolie tegenover volkomen concurrentie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij volkomen concurrentie zou de prijs gelijk zijn aan MK: 100 − 2Q = 20, dus <strong>Q = 40</strong> en P = 20. De monopolist vraagt dus <strong>een hogere prijs voor een kleinere hoeveelheid</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Daardoor <strong>daalt het consumentensurplus</strong>. Een deel ervan gaat naar de monopolist, en een deel verdwijnt helemaal: het <strong>welvaartsverlies</strong>, de welvaart die niemand krijgt, niet de consument en niet de producent. Hier is dat de driehoek ½ · (40 − 20) · (60 − 20) = <strong>400</strong>. Het gaat dus niet zo dat er producentensurplus naar de consument gaat; het omgekeerde gebeurt."
+    },
+    {
+     "soort": "weetje",
+     "html": "Daarom vinden economen een monopolie ongunstig voor de welvaart: er wordt minder verhandeld aan een hogere prijs dan bij volkomen concurrentie."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Marktvorm hangt af van het aantal aanbieders en de toetredingsmogelijkheden.",
+  "Monopolie: één aanbieder, geen goede vervangers, prijszetter, dalende prijsafzetcurve.",
+  "GK = GCK + GVK; GCK daalt als Q stijgt; MK snijdt GK in haar laagste punt.",
+  "Bij P = a − bQ is MO = a − 2bQ: onder de prijsafzetcurve, twee keer zo steil.",
+  "Optimale productie: MO = MK; de prijs lees je af op de prijsafzetcurve. Winst = (P − GK) · Q.",
+  "Monopolie: hogere prijs, kleinere hoeveelheid, minder consumentensurplus en een welvaartsverlies."
+ ]
+}

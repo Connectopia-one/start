@@ -1,0 +1,100 @@
+{
+ "vak": "Wiskunde basis",
+ "titel": "Machtswortels, machten en logaritmen",
+ "onder": "Wortels als machten schrijven, rekenen met rationale exponenten, en de logaritme als de exponent die je zoekt.",
+ "secties": [
+  {
+   "kop": "Machtswortels",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De \\(n\\)-de machtswortel van \\(a\\) is het getal dat tot de \\(n\\)-de macht \\(a\\) geeft. \\(\\sqrt[3]{64}=4\\) want \\(4^{3}=64\\), en \\(\\sqrt[4]{81}=3\\) want \\(3^{4}=81\\). Een kubus met inhoud \\(343\\ \\text{cm}^{3}\\) heeft een ribbe van \\(\\sqrt[3]{343}=7\\) cm."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\"></th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">oneven \\(n\\)</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">even \\(n\\)</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">positief getal</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\sqrt[3]{8}=2\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\sqrt[4]{16}=2\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">negatief getal</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bestaat: \\(\\sqrt[3]{-125}=-5\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bestaat <strong>niet</strong> in \\(\\mathbb{R}\\): \\(\\sqrt[4]{-16}\\)</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Met je rekentoestel: \\(\\sqrt[5]{200}\\approx 2{,}89\\). Let op: een wortel van een som is <strong>niet</strong> de som van de wortels. \\(\\sqrt{9+16}=\\sqrt{25}=5\\), maar \\(\\sqrt{9}+\\sqrt{16}=7\\). Een product mag je wel samen nemen: \\(\\sqrt[3]{2}\\cdot\\sqrt[3]{4}=\\sqrt[3]{8}=2\\). En \\(\\left(\\sqrt[3]{5}\\right)^{3}=5\\)."
+    }
+   ]
+  },
+  {
+   "kop": "Machten met een rationale exponent",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<p style='text-align:center'><strong>\\(a^{\\frac{m}{n}}=\\sqrt[n]{a^{m}}\\)</strong> en <strong>\\(a^{-n}=\\dfrac{1}{a^{n}}\\)</strong> (met \\(a>0\\))</p>"
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">schrijfwijze</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">is gelijk aan</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\sqrt[5]{x^{3}}\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(x^{\\frac{3}{5}}\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(7^{\\frac{2}{3}}\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\sqrt[3]{7^{2}}\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(8^{\\frac{2}{3}}\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\left(\\sqrt[3]{8}\\right)^{2}=2^{2}=4\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(16^{-\\frac{1}{2}}\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\dfrac{1}{\\sqrt{16}}=\\dfrac{1}{4}\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\dfrac{1}{\\sqrt[4]{x^{3}}}\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(x^{-\\frac{3}{4}}\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(2^{\\frac{1}{2}}\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\sqrt{2}\\), en dus <strong>niet</strong> \\(\\dfrac{1}{2^{2}}\\)</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een negatieve exponent betekent <strong>omkeren</strong>. Een breuk als exponent betekent <strong>een wortel</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Rekenregels",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">regel</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(a^{m}\\cdot a^{n}=a^{m+n}\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(a^{\\frac{1}{2}}\\cdot a^{\\frac{1}{3}}=a^{\\frac{5}{6}}\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\dfrac{a^{m}}{a^{n}}=a^{m-n}\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\dfrac{b^{\\frac{5}{2}}}{b^{\\frac{1}{2}}}=b^{2}\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\left(a^{m}\\right)^{n}=a^{m\\cdot n}\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\left(x^{\\frac{3}{4}}\\right)^{2}=x^{\\frac{3}{2}}\\)</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Zo kan je ook wortels met verschillende wortelexponenten samen nemen: \\(\\sqrt{a}\\cdot\\sqrt[3]{a}=a^{\\frac{1}{2}}\\cdot a^{\\frac{1}{3}}=a^{\\frac{5}{6}}=\\sqrt[6]{a^{5}}\\)."
+    },
+    {
+     "soort": "tekst",
+     "html": "Welk getal is het grootst? Reken ze om: \\(27^{\\frac{2}{3}}=\\left(\\sqrt[3]{27}\\right)^{2}=9\\) is groter dan bijvoorbeeld \\(16^{\\frac{1}{2}}=4\\) of \\(32^{\\frac{1}{5}}=2\\)."
+    }
+   ]
+  },
+  {
+   "kop": "De logaritme",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<p style='text-align:center'><strong>\\(\\log_{a}x=y\\iff a^{y}=x\\)</strong></p><p>De logaritme is <strong>de exponent die je zoekt</strong>. Het grondtal \\(a\\) is positief en niet \\(1\\), en \\(x\\) is positief.</p>"
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">opgave</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">denk</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">antwoord</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\log_{2}32\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(2^{?}=32\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(5\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\log 1000\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(10^{?}=1000\\) (\\(\\log\\) zonder grondtal = grondtal \\(10\\))</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(3\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\log_{3}\\dfrac{1}{9}\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(3^{?}=\\dfrac{1}{9}=3^{-2}\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(-2\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\log_{5}1\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(5^{?}=1\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(0\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\log_{4}2\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(4^{?}=2\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\tfrac{1}{2}\\), dus niet \\(2\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\log_{2}(-8)\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(2^{?}\\) is nooit negatief</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bestaat niet in \\(\\mathbb{R}\\)</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Het getal <strong>\\(e\\approx 2{,}718\\)</strong> is het grondtal van de <strong>natuurlijke logaritme</strong> \\(\\ln\\). Zo is \\(\\ln e^{4}=4\\)."
+    }
+   ]
+  },
+  {
+   "kop": "Rekenregels voor logaritmen",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">regel</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\log_{a}(x\\cdot y)=\\log_{a}x+\\log_{a}y\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\log_{6}4+\\log_{6}9=\\log_{6}36=2\\); \\(\\log 2+\\log 5=\\log 10=1\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\log_{a}\\dfrac{x}{y}=\\log_{a}x-\\log_{a}y\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\log_{2}48-\\log_{2}3=\\log_{2}16=4\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\log_{a}x^{r}=r\\log_{a}x\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\log_{a}x^{5}=5\\log_{a}x\\); \\(\\ln x^{2}=2\\ln x\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\log_{a}x=\\dfrac{\\log x}{\\log a}\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\log_{3}20=\\dfrac{\\log 20}{\\log 3}\\approx 2{,}73\\)</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Die laatste regel heb je nodig op een rekentoestel dat enkel \\(\\log\\) en \\(\\ln\\) kent. Opgelet: \\(\\dfrac{\\log 8}{\\log 2}=\\log_{2}8=3\\), en dat is <strong>niet</strong> \\(\\log 4\\)."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een exponentiële vergelijking los je zo op: uit \\(2^{x}=10\\) volgt \\(x=\\log_{2}10=\\dfrac{\\log 10}{\\log 2}\\approx 3{,}32\\)."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "\\(\\sqrt[n]{a}\\) met even \\(n\\) bestaat niet voor negatieve \\(a\\); met oneven \\(n\\) wel.",
+  "\\(a^{\\frac{m}{n}}=\\sqrt[n]{a^{m}}\\) en \\(a^{-n}=\\dfrac{1}{a^{n}}\\).",
+  "Exponenten: optellen bij vermenigvuldigen, aftrekken bij delen, vermenigvuldigen bij een macht van een macht.",
+  "\\(\\log_{a}x=y\\) betekent \\(a^{y}=x\\); \\(\\log\\) heeft grondtal \\(10\\), \\(\\ln\\) grondtal \\(e\\).",
+  "\\(\\log(xy)=\\log x+\\log y\\), \\(\\log\\frac{x}{y}=\\log x-\\log y\\), \\(\\log x^{r}=r\\log x\\).",
+  "\\(\\log_{a}x=\\dfrac{\\log x}{\\log a}\\)."
+ ]
+}

@@ -1,0 +1,101 @@
+{
+ "vak": "Economie",
+ "titel": "De conjunctuur, conjunctuurindicatoren en de begroting",
+ "onder": "Hoe de economie op en neer golft, hoe je dat vooraf ziet aankomen, en wat het doet met de begroting.",
+ "secties": [
+  {
+   "kop": "Trend en conjunctuur",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>trend</strong> is <strong>de groeilijn op lange termijn</strong>. De <strong>conjunctuur</strong> zijn <strong>de schommelingen van de economische activiteit rond die trend</strong>."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 420 230\" width=\"420\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"44\" y1=\"14\" x2=\"44\" y2=\"194\" stroke=\"#23291f\" stroke-width=\"1.8\"/><line x1=\"44\" y1=\"194\" x2=\"408\" y2=\"194\" stroke=\"#23291f\" stroke-width=\"1.8\"/><text x=\"42.0\" y=\"12.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#6b7260\">reëel bbp</text><text x=\"408.0\" y=\"210.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#6b7260\">tijd</text><line x1=\"44.0\" y1=\"155.3\" x2=\"404.0\" y2=\"76.1\" stroke=\"#6b7260\" stroke-width=\"1.6\" stroke-dasharray=\"6 4\"/><polyline points=\"44.0,155.3 47.6,152.2 51.2,149.0 54.8,146.0 58.4,143.0 62.0,140.1 65.6,137.2 69.2,134.5 72.8,132.0 76.4,129.6 80.0,127.3 83.6,125.3 87.2,123.4 90.8,121.7 94.4,120.3 98.0,119.0 101.6,118.0 105.2,117.2 108.8,116.6 112.4,116.3 116.0,116.1 119.6,116.2 123.2,116.5 126.8,116.9 130.4,117.6 134.0,118.4 137.6,119.4 141.2,120.5 144.8,121.7 148.4,123.0 152.0,124.4 155.6,125.9 159.2,127.4 162.8,129.0 166.4,130.5 170.0,132.1 173.6,133.5 177.2,135.0 180.8,136.3 184.4,137.6 188.0,138.7 191.6,139.7 195.2,140.5 198.8,141.2 202.4,141.7 206.0,142.0 209.6,142.1 213.2,141.9 216.8,141.6 220.4,141.1 224.0,140.3 227.6,139.3 231.2,138.1 234.8,136.7 238.4,135.0 242.0,133.2 245.6,131.2 249.2,128.9 252.8,126.6 256.4,124.0 260.0,121.3 263.6,118.5 267.2,115.6 270.8,112.6 274.4,109.6 278.0,106.5 281.6,103.3 285.2,100.2 288.8,97.1 292.4,94.0 296.0,91.0 299.6,88.1 303.2,85.2 306.8,82.5 310.4,79.9 314.0,77.5 317.6,75.2 321.2,73.1 324.8,71.3 328.4,69.6 332.0,68.1 335.6,66.8 339.2,65.7 342.8,64.9 346.4,64.3 350.0,63.9 353.6,63.7 357.2,63.8 360.8,64.0 364.4,64.5 368.0,65.1 371.6,65.9 375.2,66.8 378.8,67.9 382.4,69.1 386.0,70.4 389.6,71.9 393.2,73.3 396.8,74.8 400.4,76.4 404.0,77.9\" fill=\"none\" stroke=\"#2f5d50\" stroke-width=\"2.4\"/><text x=\"389.6\" y=\"95.2\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#6b7260\">trend</text><circle cx=\"103.4\" cy=\"117.6\" r=\"3.4\" fill=\"#c17f2b\"/><text x=\"103.4\" y=\"108.6\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#23291f\">boom</text><circle cx=\"162.8\" cy=\"129.0\" r=\"3.4\" fill=\"#c17f2b\"/><text x=\"162.8\" y=\"120.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#23291f\">recessie</text><circle cx=\"222.2\" cy=\"140.7\" r=\"3.4\" fill=\"#c17f2b\"/><text x=\"222.2\" y=\"157.7\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#23291f\">depressie</text><circle cx=\"281.6\" cy=\"103.3\" r=\"3.4\" fill=\"#c17f2b\"/><text x=\"281.6\" y=\"120.3\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#23291f\">herstel</text></svg>",
+     "onderschrift": "De conjunctuurgolf rond de trend."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">fase</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat gebeurt er</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">expansie (opgaande fase)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sterke groei, hoge investeringen, dalende werkloosheid</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">boom</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het <strong>hoogtepunt</strong>: hoogconjunctuur, soms overbesteding</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">crisis</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een plotse en scherpe omslag naar een neergang</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">recessie / contractie (neergaande fase)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het reëel bbp daalt <strong>twee kwartalen na elkaar</strong>; de werkloosheid stijgt en de faillissementen nemen toe</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">depressie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het <strong>dieptepunt</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">herstel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">volgt op de depressie: de groei komt terug</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Tijdens een <strong>hoogconjunctuur stijgen</strong> de investeringen meestal, ze dalen niet."
+    }
+   ]
+  },
+  {
+   "kop": "Potentieel bbp en outputkloof",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het <strong>potentieel bbp</strong> is <strong>wat de economie normaal kan produceren</strong>. De <strong>outputkloof</strong> is <strong>het verschil tussen het reëel bbp en het potentieel bbp</strong>."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">situatie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">outputkloof</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">onderbesteding</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">negatief</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de vraag is kleiner dan wat de economie kan produceren</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bestedingsevenwicht</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ongeveer nul</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vraag en productiecapaciteit zijn in evenwicht</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">overbesteding</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">positief</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de vraag is groter dan de productiecapaciteit, met prijsstijgingen tot gevolg</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Reëel bbp 480 en potentieel bbp 500 (miljard euro): een <strong>negatieve outputkloof van 20</strong>, dus onderbesteding."
+    }
+   ]
+  },
+  {
+   "kop": "Waar komen de conjunctuurschommelingen vandaan?",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">verklaring</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">oorzaak</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">exogene verklaring</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">van <strong>buiten</strong> de economie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een pandemie, een oorlog die de olieprijs doet stijgen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">endogene verklaring</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>binnen</strong> de economie zelf</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bedrijven die te veel investeren en daarna moeten afbouwen</td></tr></table>"
+    }
+   ]
+  },
+  {
+   "kop": "Conjunctuurindicatoren",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">soort</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">betekenis</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeelden</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">voorlopend</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verandert <strong>voor</strong> de economie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">consumentenvertrouwen, ondernemersvertrouwen, beursindices</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gelijklopend</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verandert <strong>samen met</strong> de economie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de industriële productie</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">achterlopend</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verandert <strong>na</strong> de economie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de werkloosheid</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Kwalitatieve</strong> indicatoren meten verwachtingen en gevoelens, via enquêtes: het consumenten- en het ondernemersvertrouwen. <strong>Kwantitatieve</strong> indicatoren tellen iets, zoals <strong>het aantal faillissementen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Beursindices</strong> stijgen vaak al voor de economie zich herstelt. Daalt het <strong>ondernemersvertrouwen</strong> sterk, dan verwacht je de komende maanden <strong>minder investeringen en minder groei</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "De begroting",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<p style=\"text-align:center\"><strong>begrotingssaldo = overheidsinkomsten − overheidsuitgaven</strong></p>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Ontvangt de overheid 280 miljard en geeft ze 300 miljard uit, dan is het saldo <strong>−20</strong>: een <strong>begrotingstekort</strong>. Bij een <strong>begrotingsoverschot</strong> ontvangt de overheid meer dan ze uitgeeft. Een tekort moet de overheid lenen, dus de staatsschuld <strong>stijgt</strong>."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">overheidsinkomsten</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeelden</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">directe belastingen (fiscaal)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">personenbelasting, vennootschapsbelasting</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">indirecte belastingen (fiscaal)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">btw, accijnzen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sociale bijdragen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bijdragen voor de sociale zekerheid</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">niet-fiscale inkomsten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de verkoop van een overheidsgebouw</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Overheidsuitgaven zijn bijvoorbeeld <strong>de lonen van leerkrachten</strong>, uitkeringen en investeringen in wegen. Tijdens een recessie <strong>verslechtert</strong> het begrotingssaldo: <strong>minder belastinginkomsten en meer uitkeringen</strong>."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Trend = groeilijn op lange termijn; conjunctuur = schommelingen eromheen.",
+  "Expansie → boom (hoogtepunt) → recessie → depressie (dieptepunt) → herstel.",
+  "Recessie: reëel bbp daalt twee kwartalen na elkaar.",
+  "Outputkloof = reëel − potentieel bbp; negatief = onderbesteding, positief = overbesteding.",
+  "Voorlopend: vertrouwen, beurs. Achterlopend: werkloosheid. Exogeen = van buiten, endogeen = van binnen.",
+  "Begrotingssaldo = inkomsten − uitgaven; in een recessie verslechtert het."
+ ]
+}

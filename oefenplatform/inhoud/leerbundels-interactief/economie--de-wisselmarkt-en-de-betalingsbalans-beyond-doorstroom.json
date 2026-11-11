@@ -1,0 +1,98 @@
+{
+ "vak": "Economie",
+ "titel": "De wisselmarkt en de betalingsbalans",
+ "onder": "Hoe de koers van de euro tot stand komt, wat die koers doet met de handel, en hoe een land zijn rekening met het buitenland bijhoudt.",
+ "secties": [
+  {
+   "kop": "De wisselmarkt",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Op de wisselmarkt (valutamarkt) worden munten verhandeld. Het is een markt met <strong>volkomen concurrentie</strong>: <strong>veel kopers en verkopers van een homogeen product</strong>. Actief zijn onder meer <strong>exporteurs en importeurs</strong>, <strong>beleggers en speculanten</strong>, toeristen en centrale banken."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wie vraagt euro's?</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wie biedt euro's aan?</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Amerikaanse bedrijven die Belgische producten kopen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Belgische bedrijven die Amerikaanse producten kopen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een Japanse toerist in Brugge</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een Belgische toerist in Japan (die vraagt yen)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">buitenlandse beleggers in Europese aandelen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Europese beleggers in Amerikaanse aandelen</td></tr></table>"
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 330 220\" width=\"330\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"44\" y1=\"14\" x2=\"44\" y2=\"184\" stroke=\"#23291f\" stroke-width=\"1.8\"/><line x1=\"44\" y1=\"184\" x2=\"318\" y2=\"184\" stroke=\"#23291f\" stroke-width=\"1.8\"/><text x=\"42.0\" y=\"12.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#6b7260\">koers in dollar</text><text x=\"318.0\" y=\"200.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#6b7260\">hoeveelheid euro</text><line x1=\"71.0\" y1=\"34.6\" x2=\"260.0\" y2=\"150.8\" stroke=\"#6b7260\" stroke-width=\"2.2\" stroke-dasharray=\"6 4\"/><text x=\"265.0\" y=\"154.8\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#6b7260\">V</text><line x1=\"125.0\" y1=\"34.6\" x2=\"314.0\" y2=\"150.8\" stroke=\"#2f5d50\" stroke-width=\"2.2\"/><text x=\"319.0\" y=\"154.8\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#2f5d50\">V′</text><line x1=\"71.0\" y1=\"150.8\" x2=\"287.0\" y2=\"34.6\" stroke=\"#c17f2b\" stroke-width=\"2.2\"/><text x=\"292.0\" y=\"38.6\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#c17f2b\">A</text><line x1=\"44.0\" y1=\"96.5\" x2=\"171.7\" y2=\"96.5\" stroke=\"#6b7260\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><line x1=\"171.7\" y1=\"184.0\" x2=\"171.7\" y2=\"96.5\" stroke=\"#6b7260\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><circle cx=\"171.7\" cy=\"96.5\" r=\"3.6\" fill=\"#23291f\"/><line x1=\"44.0\" y1=\"81.1\" x2=\"200.6\" y2=\"81.1\" stroke=\"#6b7260\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><line x1=\"200.6\" y1=\"184.0\" x2=\"200.6\" y2=\"81.1\" stroke=\"#6b7260\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><circle cx=\"200.6\" cy=\"81.1\" r=\"3.6\" fill=\"#23291f\"/></svg>",
+     "onderschrift": "De vraag naar euro stijgt: de vraagcurve schuift naar rechts en de koers stijgt."
+    }
+   ]
+  },
+  {
+   "kop": "Appreciatie en depreciatie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Gaat de koers EUR/USD van 1,10 naar 1,20, dan krijg je meer dollar voor een euro: de euro <strong>apprecieert</strong>. Daalt de koers, dan <strong>deprecieert</strong> de euro."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\"></th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Europese producten voor Amerikanen</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Amerikaanse producten voor Europeanen</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">gevolg</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">euro apprecieert</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">duurder</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">goedkoper</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">export daalt, import stijgt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">euro deprecieert</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">goedkoper</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">duurder</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">export stijgt, import daalt</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "<ul><li>1 euro = 1,25 dollar: een product van 80 euro kost een Amerikaan 80 · 1,25 = <strong>100 dollar</strong>.</li><li>1 euro = 1,10 dollar: een factuur van 5 500 dollar kost een Belgische importeur 5 500 / 1,10 = <strong>5 000 euro</strong>.</li></ul>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>wisselkoersrisico</strong> is het risico dat een koerswijziging verlies oplevert. Een exporteur die later in dollar betaald wordt, <strong>wint</strong> als de dollar intussen stijgt: hij krijgt dan meer euro's."
+    }
+   ]
+  },
+  {
+   "kop": "Waarom verandert de koers?",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">gebeurtenis</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">gevolg voor de euro</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hogere inflatie in de eurozone dan in de VS</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">deprecieert</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de ECB verhoogt de rente</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vraag naar euro stijgt: apprecieert</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de rente in de eurozone daalt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">deprecieert</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het inkomen in de VS stijgt: Amerikanen kopen meer Europese producten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">apprecieert</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het inkomen in de eurozone stijgt: Europeanen importeren meer, het aanbod van euro stijgt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">deprecieert</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">consumenten wereldwijd verkiezen Europese producten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">apprecieert</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">speculanten verwachten een stijging en kopen nu euro's</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">stijgt al</td></tr></table>"
+    }
+   ]
+  },
+  {
+   "kop": "Vlottende of vaste koersen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>vlottende wisselkoers</strong> wordt <strong>vrij bepaald door vraag en aanbod</strong>; de regering bepaalt hem niet elke dag. Een <strong>vaste wisselkoers</strong> geeft bedrijven <strong>minder wisselkoersrisico</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "De betalingsbalans",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De betalingsbalans is het overzicht van <strong>alle transacties van een land met het buitenland</strong>. Ze bestaat uit drie deelrekeningen: de <strong>lopende rekening</strong>, de <strong>kapitaalrekening</strong> en de <strong>financiële rekening</strong>."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">deelrekening</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">post</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">lopende rekening</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">goederen (= de handelsbalans)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een Belgisch bedrijf verkoopt machines aan Duitsland</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">diensten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een Nederlandse toerist betaalt een hotel in Brugge</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">primaire inkomens</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dividend dat een Belg krijgt van een buitenlands bedrijf</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">secundaire inkomens</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een werknemer stuurt geld naar familie in Marokko</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">financiële rekening</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">beleggingen en investeringen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een Belg koopt Amerikaanse aandelen; een Belgisch bedrijf bouwt een fabriek in Polen</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een groot <strong>tekort op de lopende rekening</strong> kan bij vlottende koersen de munt doen <strong>depreciëren</strong>. Die depreciatie kan dan weer helpen om het tekort te verkleinen, want de export wordt goedkoper."
+    }
+   ]
+  },
+  {
+   "kop": "Internationale instellingen",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">instelling</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">taak</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">IMF (Internationaal Monetair Fonds)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">landen met betalingsbalansproblemen helpen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Wereldbank</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">armoede bestrijden met ontwikkelingsleningen (ze bepaalt geen wisselkoersen)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">OESO</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">onderzoek en beleidsadvies voor haar lidstaten</td></tr></table>"
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Wie euro's nodig heeft, vraagt euro's; wie euro's omwisselt in een andere munt, biedt euro's aan.",
+  "Appreciatie: de euro wordt duurder; export daalt, import stijgt. Depreciatie: omgekeerd.",
+  "Hogere rente of meer vraag naar Europese producten: euro apprecieert. Hogere inflatie: euro deprecieert.",
+  "Vlottend: vraag en aanbod. Vast: minder wisselkoersrisico.",
+  "Betalingsbalans: lopende rekening (goederen, diensten, primaire en secundaire inkomens), kapitaal- en financiële rekening.",
+  "IMF helpt bij betalingsbalansproblemen, Wereldbank bestrijdt armoede, OESO geeft advies."
+ ]
+}

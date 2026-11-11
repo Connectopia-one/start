@@ -1,0 +1,86 @@
+{
+ "vak": "Bedrijfswetenschappen en recht",
+ "titel": "Aankopen boeken: facturen, kortingen, kosten en btw",
+ "onder": "Een aankoopfactuur ontleden en boeken met het MAR: handelskorting, financiële korting, bijkomende kosten, verpakking, btw en creditnota's.",
+ "secties": [
+  {
+   "kop": "De basisregels van de dubbele boekhouding",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">soort rekening</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">stijging (+)</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">daling (−)</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">actief (A)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">debet</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">credit</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">passief (P)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">credit</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">debet</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kost (K)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">debet</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">opbrengst (O)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">credit</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"></td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "In een correcte boeking is het <strong>totaal debet altijd gelijk aan het totaal credit</strong>: dat is het principe van de dubbele boekhouding. Een rekeningnummer uit het MAR (minimumindelingsschema) bestaat op het examen uit <strong>vijf</strong> cijfers, bijvoorbeeld 60400 Aankopen handelsgoederen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>journaal</strong> zet alle boekingen in één lijst, in de volgorde van de datum. Het <strong>grootboek</strong> ordent de boekingen per rekening: elke rekening heeft een debet- en een creditkant, zoals een T-rekening."
+    },
+    {
+     "soort": "tekst",
+     "html": "In een <strong>redeneerschema</strong> redeneer je per rekening voor je boekt: rekeningnummer, soort rekening (A, P, K of O), plus of min, debet of credit. De soort wordt op het examen niet beoordeeld; enkel nummer, bedrag en D of C tellen."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">rekening</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">soort</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">+ of −</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">D of C</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">60400 Aankopen handelsgoederen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">K</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">+</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">D</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">41100 Terug te vorderen btw</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">A (vordering op de staat)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">+</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">D</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">44000 Leveranciers</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">P (schuld, klasse 4: op ten hoogste een jaar)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">+</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">C</td></tr></table>"
+    }
+   ]
+  },
+  {
+   "kop": "Welke rekening, en kortingen en kosten op de factuur",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">aankoop</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">rekening</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">handelsgoederen (om door te verkopen)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">60400 Aankopen handelsgoederen: een kost, klasse 6</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">energie (elektriciteit), huur van het magazijn, telefoon, kantoorpapier</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">klasse 61, diensten en diverse goederen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een computer, een machine, een bestelwagen: gebruik je meerdere jaren</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een rekening van klasse 2, vaste activa</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de btw op elke aankoopfactuur, ook bij een investering</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">41100 Terug te vorderen btw (niet 45100 Te betalen btw)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de schuld</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">44000 Leveranciers</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "<ul><li><strong>Handelskorting</strong>: zie je op de factuur en verlaagt meteen het aankoopbedrag. Je boekt het nettobedrag op 60400, niet apart op een opbrengstrekening.</li><li><strong>Bijkomende kosten</strong> op de factuur (vervoerskosten, verzekering tijdens het vervoer) horen bij de aankoopwaarde en verhogen het bedrag op 60400.</li><li><strong>Financiële korting</strong> (korting voor contante betaling): hangt af van wanneer je betaalt. De btw wordt berekend alsof de korting gebruikt wordt, maar je boekt de factuur aan het volle bedrag: de korting is nog niet verworven. Pas bij de betaling blijkt of je ze gebruikt.</li><li><strong>Terugstuurbare verpakking</strong>: zonder btw (je krijgt het bedrag terug als je ze terugstuurt). Ze komt op een aparte regel, als vordering op de leverancier.</li></ul>"
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">factuur</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">berekening</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">handelsgoederen 2 000 euro, handelskorting 10 %</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2 000 · 0,90 = 1 800 euro</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">handelsgoederen 5 000 euro, handelskorting 10 %, vervoer 100 euro</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">4 500 + 100 = 4 600 euro op 60400</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">netto 1 000 euro, financiële korting 2 %, btw 21 %</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">btw op 1 000 − 20 = 980 euro: 980 · 0,21 = 205,80 euro; 44000: 1 000 + 205,80 = 1 205,80 euro</td></tr></table>"
+    }
+   ]
+  },
+  {
+   "kop": "Voorbeeld: aankoopfactuur",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Handelsgoederen 3 000 euro, handelskorting 5 %, btw 21 %, geen financiële korting. Netto: 3 000 · 0,95 = 2 850 euro. Btw: 2 850 · 0,21 = 598,50 euro."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">rekening</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">naam</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">debet</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">credit</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">60400</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Aankopen handelsgoederen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2 850,00</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">41100</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Terug te vorderen btw</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">598,50</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">44000</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">&nbsp;&nbsp;&nbsp;&nbsp;aan Leveranciers</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">3 448,50</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een gewone aankoopfactuur staan 60400 en 41100 dus <strong>debet</strong> en 44000 Leveranciers <strong>credit</strong>. Bij een factuur voor huur boek je debet een rekening van klasse 61 en 41100; de schuld komt credit op 44000."
+    }
+   ]
+  },
+  {
+   "kop": "Inkomende creditnota",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Stuur je handelsgoederen terug, dan krijg je een <strong>creditnota</strong>. Die <strong>verlaagt</strong> de schuld: 44000 staat debet; de aankoop en de terug te vorderen btw dalen en staan credit. Voorbeeld: 200 euro handelsgoederen terug, btw 21 %:"
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">rekening</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">naam</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">debet</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">credit</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">44000</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Leveranciers</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">242,00</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">60400</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">&nbsp;&nbsp;&nbsp;&nbsp;aan Aankopen handelsgoederen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">200,00</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">41100</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">&nbsp;&nbsp;&nbsp;&nbsp;aan Terug te vorderen btw</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">42,00</td></tr></table>"
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Actief en kost +: debet. Passief en opbrengst +: credit. Totaal debet = totaal credit.",
+  "60400 handelsgoederen, klasse 61 diensten, klasse 2 investeringen, 41100 btw, 44000 leveranciers.",
+  "Handelskorting en bijkomende kosten zitten in het bedrag op 60400.",
+  "Financiële korting: btw op het bedrag na korting, maar de factuur aan het volle bedrag boeken.",
+  "Creditnota: omgekeerde boeking, 44000 debet."
+ ]
+}

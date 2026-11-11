@@ -1,0 +1,78 @@
+{
+ "vak": "Bedrijfswetenschappen en recht",
+ "titel": "Human-resources-management",
+ "onder": "Het beleid rond de medewerkers: instroom, doorstroom en uitstroom, belonen en motiveren, en hr-KPI's.",
+ "secties": [
+  {
+   "kop": "Wat is hrm?",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Human-resources-management</strong> (hrm) is het beleid rond de medewerkers, van aanwerven en opleiden tot belonen en afscheid nemen: de hele loopbaan, niet enkel de aanwerving. Het is belangrijk voor het totale bedrijfsbeleid: de juiste mensen maken de strategie waar. Taken van de hr-afdeling: personeel aanwerven, opleidingen organiseren, loonbeleid, evaluaties en welzijn op het werk."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 76\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0.0\" y=\"6\" width=\"139.3\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"69.7\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">instroom</text><path d=\"M144.33333333333334 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"165.3\" y=\"6\" width=\"139.3\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"235.0\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">doorstroom</text><path d=\"M309.6666666666667 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"330.7\" y=\"6\" width=\"139.3\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"400.3\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">uitstroom</text></svg>",
+     "onderschrift": "De drie fasen."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">fase</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">instrumenten</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">instroom</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">werving (mensen aantrekken om te solliciteren), selectie (de beste kandidaat kiezen; eerst werven, dan selecteren), onthaalbeleid (nieuwe medewerkers goed laten starten, zodat ze niet snel vertrekken)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">doorstroom</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">groeien binnen de onderneming: opleiding en loopbaanplanning, functioneringsgesprek (hoe loopt het werk, hoe kan de werknemer groeien)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">uitstroom</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het vertrek: pensioen, ontslag, outplacement (begeleiding van een ontslagen werknemer naar een nieuwe job), exitgesprek (waarom vertrekken mensen?)</td></tr></table>"
+    }
+   ]
+  },
+  {
+   "kop": "Werving en selectie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij <strong>interne werving</strong> werf je iemand uit het eigen bedrijf aan: die kent het bedrijf al. Een <strong>uitzendkantoor</strong> kan helpen bij de werving door kandidaten te zoeken en voor te stellen."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">selectietool</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">uitleg</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">interview</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een gesprek, bv. met de leidinggevende en iemand van hr: de meest gebruikte tool</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">proef of test</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">test de kennis of vaardigheden</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">assessment</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">praktijkopdrachten, zoals een rollenspel of een postbakoefening</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">referentie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">informatie vragen aan een vorige werkgever, altijd met toestemming van de kandidaat</td></tr></table>"
+    }
+   ]
+  },
+  {
+   "kop": "Belonen en motiveren",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">financiële beloning</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">niet-financiële motivatie</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">loonsverhoging, bonus op basis van prestaties, winstdeelname, premies en commissies</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">erkenning en waardering van de leidinggevende, verantwoordelijkheid, uitdaging</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">extralegale voordelen: maaltijdcheques, ecocheques</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">thuiswerken mogelijk maken</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "In een <strong>cafetariaplan</strong> kies je zelf voordelen uit een pakket, bijvoorbeeld een fiets, extra vakantie of een smartphone in plaats van een deel van de bonus: een beloning op maat motiveert meer. Werknemers die zich gewaardeerd voelen, blijven meestal langer: dat verlaagt het personeelsverloop."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Duurzaam hr-beleid</strong>: medewerkers lang gezond en gemotiveerd laten werken, met werkbaar werk, levenslang leren en aandacht voor welzijn."
+    }
+   ]
+  },
+  {
+   "kop": "Hr-KPI's",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>hr-KPI</strong> (key performance indicator) is een cijfer dat het hr-beleid meet, zodat je het kan bijsturen: cijfers tonen of maatregelen werken. Voorbeelden: personeelsverloop, ziekteverzuim, opleidingsuren per werknemer, tevredenheid."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">KPI</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">formule</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">personeelsverloop</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vertrokken werknemers / gemiddeld aantal werknemers · 100</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">20 / 200 = 10 %</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ziekteverzuim</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zieke werknemers op een gemiddelde dag / aantal werknemers · 100</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">3 / 50 = 6 %</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een hoog ziekteverzuim is geen positief signaal: het kan wijzen op slechte werkomstandigheden of te veel werkdruk. Vertrekken veel jonge werknemers na een jaar, dan kan een beter onthaal en loopbaanplan helpen: ze voelen zich sneller thuis en zien groeikansen."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Instroom (werving, selectie, onthaal), doorstroom (opleiding, loopbaan, functioneringsgesprek), uitstroom (outplacement, exitgesprek).",
+  "Selectietools: interview, test, assessment, referentie.",
+  "Financieel (bonus, loonsverhoging, cheques) en niet-financieel (erkenning, verantwoordelijkheid, thuiswerk); cafetariaplan.",
+  "Personeelsverloop = vertrokken / gemiddeld aantal · 100."
+ ]
+}

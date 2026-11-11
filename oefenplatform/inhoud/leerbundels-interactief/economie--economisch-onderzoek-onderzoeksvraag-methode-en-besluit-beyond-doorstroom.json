@@ -1,0 +1,93 @@
+{
+ "vak": "Economie",
+ "titel": "Economisch onderzoek: onderzoeksvraag, methode en besluit",
+ "onder": "Hoe je zelf een economisch onderzoek opzet, van een goede vraag tot een eerlijk besluit.",
+ "secties": [
+  {
+   "kop": "De onderzoekscyclus",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 520 76\" width=\"520\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0.0\" y=\"6\" width=\"83.2\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"41.6\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">oriënteren</text><text x=\"41.6\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">de vraag</text><path d=\"M88.2 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"109.2\" y=\"6\" width=\"83.2\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"150.8\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">voorbereiden</text><text x=\"150.8\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">de methode</text><path d=\"M197.4 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"218.4\" y=\"6\" width=\"83.2\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"260.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">uitvoeren</text><text x=\"260.0\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">de gegevens</text><path d=\"M306.6 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"327.6\" y=\"6\" width=\"83.2\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"369.2\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">rapporteren</text><text x=\"369.2\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">het verslag</text><path d=\"M415.8 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"436.8\" y=\"6\" width=\"83.2\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"478.4\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">reflecteren</text><text x=\"478.4\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">terugblikken</text></svg>",
+     "onderschrift": "De vijf fasen van de onderzoekscyclus."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">fase</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat doe je</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">oriënteren</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je verkent het onderwerp en <strong>formuleert je onderzoeksvraag</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">voorbereiden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je <strong>kiest je methode</strong> en maakt een planning</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">uitvoeren</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je verzamelt en verwerkt de gegevens</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rapporteren</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je verwerkt je resultaten in een <strong>verslag of presentatie</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">reflecteren</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je kijkt terug: wat ging goed en wat kan beter?</td></tr></table>"
+    }
+   ]
+  },
+  {
+   "kop": "Een goede onderzoeksvraag",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">eis</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">betekenis</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">zo niet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">open</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">niet te beantwoorden met ja of nee</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Is de jeugdwerkloosheid gestegen?</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">objectief</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geen mening in de vraag</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Waarom is de btw op energie veel te hoog?</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">enkelvoudig</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">één vraag tegelijk</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Hoe evolueerde de inflatie en waarom stegen de lonen?</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">onderzoekbaar</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je kan ze met gegevens beantwoorden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Wat zou de werkloosheid zijn als de euro nooit had bestaan?</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">haalbaar</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">te beantwoorden met de tijd en middelen die je hebt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">alle bedrijven van Europa bevragen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">relevant</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">levert nuttige kennis op voor een bepaalde doelgroep</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"></td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een goed voorbeeld: <em>Hoe evolueerde de jeugdwerkloosheid in Limburg sinds 2020?</em>"
+    }
+   ]
+  },
+  {
+   "kop": "Methodes",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\"></th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">betekenis</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kwantitatief onderzoek</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">onderzoek <strong>met cijfers</strong>, vaak bij veel mensen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kwalitatief onderzoek</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">onderzoek naar <strong>het waarom</strong>, diepgaand bij weinig mensen</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Je kan beide <strong>combineren</strong> in één onderzoek."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">methode</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">soort</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">deskresearch (bureauonderzoek, literatuuronderzoek)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>bestaande</strong> gegevens opzoeken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">cijfers van Statbel en de Nationale Bank</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">enquête</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">fieldresearch: elke deelnemer krijgt <strong>dezelfde vragen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Hoeveel euro zakgeld krijg je per maand?</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">interview</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">fieldresearch: diepgaand gesprek, goed voor het waarom</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">waarom kiezen jongeren voor een bijbaan?</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">observatie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">fieldresearch: je <strong>kijkt</strong> naar gedrag, zonder vragen te stellen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een week klanten tellen aan de zelfscankassa</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">experiment</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">fieldresearch: je verandert één ding en vergelijkt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een prijs aanpassen in de helft van de filialen</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een interview is dus niet geschikt om duizenden mensen te bevragen. Een <strong>gesuggereerde vraag</strong> zoals 'Vind jij ook dat de prijzen te hoog zijn?' maakt een enquête minder objectief."
+    }
+   ]
+  },
+  {
+   "kop": "Populatie, steekproef en variabelen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>populatie</strong> is <strong>de hele groep waarover je iets wil weten</strong>. Een <strong>steekproef</strong> is <strong>het deel van de populatie dat je bevraagt</strong>. Ze is <strong>representatief</strong> als ze een goede afspiegeling is van de populatie. Wil je iets weten over Limburgse jongeren en bevraag je enkel je eigen klas, dan is je steekproef niet representatief. En uit 10 mensen kan je geen besluit trekken over heel België."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>variabele</strong> is <strong>een kenmerk dat verschillende waarden kan aannemen</strong>. Onderzoek je of de prijs van frisdrank invloed heeft op de verkochte hoeveelheid, dan is <strong>de prijs</strong> de onafhankelijke variabele en de hoeveelheid de afhankelijke."
+    },
+    {
+     "soort": "weetje",
+     "html": "Als twee variabelen samen stijgen, bewijst dat <strong>niet</strong> dat de ene de oorzaak is van de andere. In de zomer stijgen de verkoop van ijsjes en het aantal zonnebrandflessen samen, maar het ene veroorzaakt het andere niet."
+    }
+   ]
+  },
+  {
+   "kop": "Het besluit en de bronnen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "In het besluit staat <strong>een antwoord op de onderzoeksvraag</strong> en <strong>de beperkingen van het onderzoek</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Vermeld altijd je bronnen: zo kan <strong>de lezer je gegevens nakijken</strong> en toon je <strong>welk werk van anderen komt</strong>."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Oriënteren → voorbereiden → uitvoeren → rapporteren → reflecteren.",
+  "Een goede onderzoeksvraag is open, objectief, enkelvoudig, onderzoekbaar, haalbaar en relevant.",
+  "Kwantitatief = cijfers; kwalitatief = het waarom.",
+  "Deskresearch = bestaande gegevens; fieldresearch = enquête, interview, observatie, experiment.",
+  "Een representatieve steekproef weerspiegelt de populatie; samen stijgen is geen oorzaak.",
+  "Besluit: antwoord + beperkingen. Altijd bronnen vermelden."
+ ]
+}

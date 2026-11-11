@@ -1,0 +1,95 @@
+{
+ "vak": "Bedrijfswetenschappen en recht",
+ "titel": "Verkopen, betalingen en geldbewegingen boeken",
+ "onder": "Verkoopfacturen, uitgaande creditnota's, dagontvangsten, betalingen via bank en kas, en interne overboekingen.",
+ "secties": [
+  {
+   "kop": "De verkoopfactuur",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">rekening</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">kant</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">40000 Handelsdebiteuren</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de klant moet nog betalen: je vordering stijgt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">debet</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">70000 Verkopen handelsgoederen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een opbrengst (klasse 7)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">credit</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">45100 Te betalen btw</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">btw die je moet doorstorten aan de staat: een schuld, geen opbrengst</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">credit</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>handelskorting</strong> verlaagt meteen het bedrag op 70000: je boekt niet eerst bruto en dan de korting apart. Doorgerekende <strong>vervoerskosten</strong> horen bij de maatstaf van heffing: ook daarop komt btw, aan het tarief van de goederen. <strong>Terugstuurbare verpakking</strong> staat op een aparte regel, zonder btw: de klant krijgt het bedrag terug als hij ze terugbrengt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Voorbeeld: 4 000 euro handelsgoederen, handelskorting 5 %, btw 21 %. Netto 4 000 · 0,95 = 3 800 euro; btw 3 800 · 0,21 = 798 euro."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">rekening</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">naam</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">debet</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">credit</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">40000</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Handelsdebiteuren</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">4 598,00</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">70000</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">&nbsp;&nbsp;&nbsp;&nbsp;aan Verkopen handelsgoederen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">3 800,00</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">45100</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">&nbsp;&nbsp;&nbsp;&nbsp;aan Te betalen btw</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">798,00</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Met financiële korting:</strong> netto 2 000 euro, 2 % korting mogelijk. De btw wordt berekend alsof de korting gebruikt wordt: op 2 000 − 40 = 1 960 euro, dus 411,60 euro. Op 40000 komt het volle bedrag: 2 000 + 411,60 = 2 411,60 euro."
+    }
+   ]
+  },
+  {
+   "kop": "Uitgaande creditnota",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Stuurt een klant goederen terug, dan maakt de verkoper een <strong>uitgaande creditnota</strong> (voor de klant is het een inkomende). De verkoop en de te betalen btw dalen (debet), de vordering op de klant daalt (credit). Voorbeeld: 300 euro goederen, btw 21 %:"
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">rekening</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">naam</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">debet</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">credit</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">70000</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Verkopen handelsgoederen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">300,00</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">45100</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Te betalen btw</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">63,00</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">40000</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">&nbsp;&nbsp;&nbsp;&nbsp;aan Handelsdebiteuren</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">363,00</td></tr></table>"
+    }
+   ]
+  },
+  {
+   "kop": "Dagontvangsten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Dagontvangsten</strong> zijn kleinhandelsverkopen zonder factuur: een bakker verkoopt brood aan de toog en noteert het totaal van de dag. Niet elke klant krijgt een factuur. De btw zit in het bedrag: deel door 1,21. 1 210 / 1,21 = 1 000 euro verkoop en 210 euro btw; 2 420 / 1,21 = 2 000 euro, btw 420 euro. In contanten staat <strong>57000 Kassen</strong> debet."
+    }
+   ]
+  },
+  {
+   "kop": "Betalingen via bank en kas",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">verrichting</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">debet</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">credit</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een klant betaalt via de bank</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">55000 Kredietinstellingen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">40000 Handelsdebiteuren</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een klant betaalt contant aan de kassa (121 euro)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">57000 Kassen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">40000 Handelsdebiteuren</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je betaalt een leverancier via de bank</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">44000 Leveranciers (de schuld daalt)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">55000 Kredietinstellingen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een postzegel betaald uit de kas</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kostenrekening</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">57000 Kassen</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een contante betaling uit of in de kas boek je met een <strong>kasstuk</strong>: elk kasdocument toont een ontvangst of een uitgave in contanten."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Financiële korting bij de betaling.</strong> Een klant betaalt een factuur van 1 205,80 euro binnen de termijn met 2 % op 1 000 euro: 1 205,80 − 20 = 1 185,80 euro. 40000 staat credit voor het volle bedrag (de volledige vordering verdwijnt), 55000 debet voor het betaalde bedrag. De toegekende financiële korting is voor de verkoper een <strong>kost</strong> (hij ontvangt minder geld dan de vordering): die 20 euro staat debet. Betaalt de klant na de kortingstermijn, dan verliest hij de korting en betaalt hij het volle bedrag."
+    }
+   ]
+  },
+  {
+   "kop": "Interne overboekingen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>58000 Interne overboekingen</strong> is een tussenrekening voor geld tussen bank en kas. Kas en bank boeken elk in hun eigen dagboek; via 58000 boek je dezelfde verrichting niet twee keer. Je haalt 500 euro van de bank voor de kas:"
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">boeking</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">debet</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">credit</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bankuittreksel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">58000 Interne overboekingen 500</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">55000 Kredietinstellingen 500 (de bank daalt)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kasstuk</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">57000 Kassen 500</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">58000 Interne overboekingen 500</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Na beide boekingen is het saldo van 58000 nul: het geld is enkel van plaats veranderd. Het totaal van de liquide middelen verandert niet. Breng je geld van de kas naar de bank, dan gebruik je 57000 Kassen, 58000 en 55000 Kredietinstellingen."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Verkoopfactuur: 40000 debet; 70000 en 45100 credit.",
+  "Btw op een verkoop is een schuld aan de staat, geen opbrengst.",
+  "Uitgaande creditnota: 70000 en 45100 debet, 40000 credit.",
+  "Dagontvangsten: bedrag / 1,21 = verkoop zonder btw; 57000 Kassen debet.",
+  "Bank ↔ kas altijd via 58000; daarna is 58000 nul."
+ ]
+}

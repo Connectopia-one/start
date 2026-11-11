@@ -1,0 +1,92 @@
+{
+ "vak": "Bedrijfswetenschappen en recht",
+ "titel": "Marketingstrategie en de marketingmix",
+ "onder": "De 4 P's en de 4 C's, soorten markten en goederen, merken, de productlevenscyclus, prijs, distributie, online marketing en de customer journey.",
+ "secties": [
+  {
+   "kop": "Marketingmix en doelgroep",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>doelgroep</strong> is de groep klanten die je wil bereiken. Een duidelijke doelgroep helpt om de marketingmix goed af te stemmen. Een <strong>buyer persona</strong> is een uitgewerkt profiel van een typische klant, met naam, leeftijd, interesses en noden: zo communiceer je gerichter."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">4 P's (de onderneming)</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">4 C's (vanuit de klant)</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">vraag</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">product</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">customer (value)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">welke waarde krijgt de klant?</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">prijs</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">cost</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">alle kosten voor de klant, niet enkel de prijs: ook tijd, verplaatsing en moeite</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">plaats</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">convenience</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hoe gemakkelijk kan de klant het product krijgen?</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">promotie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">communication</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hoe praat je met de klant?</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">vorm</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">betekenis</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">B2B</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">business to business</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kantoormeubelen verkopen aan bedrijven</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">B2C</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">business to consumer</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een supermarkt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">C2C</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">consumer to consumer</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je oude fiets via een tweedehandssite aan een particulier verkopen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">C2B</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">consumer to business</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een foto aanbieden aan een fotobank</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>E-commerce</strong> is kopen en verkopen via het internet: webshops en online platformen."
+    }
+   ]
+  },
+  {
+   "kop": "Product",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">soort goed</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">kenmerk</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">convenience goed (gemaksgoed)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vaak en zonder vergelijken gekocht</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een pak melk</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">shopping goed</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je vergelijkt prijzen en merken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een wasmachine</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">unsought goed (ongezocht)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">koop je niet uit jezelf</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een uitvaartverzekering</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">industrieel goed</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">door bedrijven gekocht om verder te produceren</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">grondstoffen, machines</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>breedte</strong> van een assortiment is het aantal productgroepen, de <strong>diepte</strong> het aantal varianten binnen een productgroep. Een <strong>A-merk</strong> is een bekend fabrikantenmerk, meestal duurder. Een <strong>winkelmerk</strong> is een merk van de winkelketen zelf, als standaard-, budget- en biolijn. <strong>Multibrands</strong>: verschillende merken voor dezelfde productgroep, om verschillende doelgroepen aan te spreken. <strong>Lijnextensie</strong>: een nieuwe variant in dezelfde productgroep onder dezelfde naam (een nieuwe smaak chips). <strong>Merkextensie</strong>: het merk stapt in een nieuwe productgroep (een chocolademerk dat ijsjes uitbrengt)."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 76\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0.0\" y=\"6\" width=\"73.2\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"36.6\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">ontwikkeling</text><path d=\"M78.2 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"99.2\" y=\"6\" width=\"73.2\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"135.8\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">introductie</text><path d=\"M177.4 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"198.4\" y=\"6\" width=\"73.2\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"235.0\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">groei</text><path d=\"M276.6 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"297.6\" y=\"6\" width=\"73.2\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"334.2\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">volwassenheid</text><path d=\"M375.8 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"396.8\" y=\"6\" width=\"73.2\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"433.4\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">neergang</text></svg>",
+     "onderschrift": "De productlevenscyclus: ontwikkeling, introductiefase, groeifase, volwassenheidsfase en neergangsfase."
+    },
+    {
+     "soort": "tekst",
+     "html": "In de <strong>introductiefase</strong> is de omzet laag en zijn de reclamekosten hoog: het product moet nog bekend raken. In de <strong>groeifase</strong> stijgt de omzet het snelst. In de <strong>neergangsfase</strong> daalt de omzet."
+    }
+   ]
+  },
+  {
+   "kop": "Prijs en plaats",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">prijsstrategie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">uitleg</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">penetratieprijs</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">laag starten om snel marktaandeel te winnen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">afroomprijsstrategie (afromen)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een nieuw product eerst duur voor wie het meteen wil; daarna zakt de prijs voor een breder publiek</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">distributie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">uitleg</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">intensief</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zo veel mogelijk verkooppunten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">frisdrank in elke supermarkt, tankstation en automaat</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">selectief</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een beperkt aantal geschikte verkooppunten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">elektronica bij gespecialiseerde winkels</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">exclusief</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">heel weinig verkooppunten, versterkt het luxebeeld</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">luxehorloges in enkele winkels per land</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Pushstrategie</strong>: het product via de tussenhandel naar de klant duwen, bijvoorbeeld met extra korting voor winkels die het opnemen. <strong>Pullstrategie</strong>: de producent richt zijn reclame rechtstreeks op de consument, die dan zelf in de winkel naar het product vraagt."
+    }
+   ]
+  },
+  {
+   "kop": "Promotie online en de customer journey",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>SEO</strong> (search engine optimization): hoger komen in de gewone zoekresultaten door goede inhoud en techniek, onbetaald. <strong>SEA</strong> (search engine advertising): betaalde advertenties in een zoekmachine, je betaalt per klik. Ze betekenen dus niet hetzelfde."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 76\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0.0\" y=\"6\" width=\"73.2\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"36.6\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">bewustwording</text><path d=\"M78.2 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"99.2\" y=\"6\" width=\"73.2\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"135.8\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">overweging</text><path d=\"M177.4 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"198.4\" y=\"6\" width=\"73.2\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"235.0\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">aankoop</text><path d=\"M276.6 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"297.6\" y=\"6\" width=\"73.2\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"334.2\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">service</text><path d=\"M375.8 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"396.8\" y=\"6\" width=\"73.2\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"433.4\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">loyaliteit</text></svg>",
+     "onderschrift": "De customer journey (klantreis)."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>customer journey</strong> is de reeks fasen die een klant doorloopt, van het eerste contact tot terugkomen. Wie reviews leest en prijzen vergelijkt, zit in de fase <strong>overweging</strong>. Een <strong>touchpoint</strong> is elk contactmoment tussen klant en merk: een advertentie, een website, de kassa, de klantendienst. In de fase service (hulp na de aankoop) zijn de klantendienst en een handleiding touchpoints. Een klantenkaart met spaarpunten speelt in op <strong>loyaliteit</strong>."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "4 P's: product, prijs, plaats, promotie; 4 C's vanuit de klant: customer, cost, convenience, communication.",
+  "Convenience, shopping, unsought en industriële goederen.",
+  "Lijnextensie: nieuwe variant; merkextensie: nieuwe productgroep.",
+  "Penetratieprijs laag, afromen hoog; distributie intensief, selectief, exclusief.",
+  "SEO onbetaald, SEA betaald. Customer journey: bewustwording, overweging, aankoop, service, loyaliteit."
+ ]
+}

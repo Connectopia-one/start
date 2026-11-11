@@ -1,0 +1,106 @@
+{
+ "vak": "Economie",
+ "titel": "Prijsregulering, quota, belastingen en subsidies",
+ "onder": "Wat er gebeurt als de overheid ingrijpt op een markt, en wie daarvoor betaalt.",
+ "secties": [
+  {
+   "kop": "Waarom grijpt de overheid in?",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Soms vindt de overheid <strong>de marktprijs of de hoeveelheid niet wenselijk</strong>: huren die te hoog zijn, boeren die te weinig verdienen, een product dat ongezond is. Ze kan dan ingrijpen met een maximumprijs, een minimumprijs, een quotum, een belasting of een subsidie."
+    },
+    {
+     "soort": "kader",
+     "html": "<p>In dit thema rekenen we telkens met dezelfde markt:</p><p style=\"text-align:center\"><strong>Q<sub>v</sub> = 100 − P</strong> en <strong>Q<sub>a</sub> = P − 20</strong>, met evenwicht <strong>P = 60</strong> en <strong>Q = 40</strong>.</p>"
+    }
+   ]
+  },
+  {
+   "kop": "Maximumprijs en minimumprijs",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>maximumprijs</strong> heeft enkel effect <strong>als ze onder de evenwichtsprijs ligt</strong>. Een maximumprijs boven de evenwichtsprijs verandert niets."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 330 230\" width=\"330\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"125.0,70.8 125.0,106.0 152.0,88.4\" fill=\"#c17f2b\" fill-opacity=\".22\" stroke=\"none\"/><line x1=\"44\" y1=\"14\" x2=\"44\" y2=\"194\" stroke=\"#23291f\" stroke-width=\"1.8\"/><line x1=\"44\" y1=\"194\" x2=\"318\" y2=\"194\" stroke=\"#23291f\" stroke-width=\"1.8\"/><text x=\"42.0\" y=\"12.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#6b7260\">prijs</text><text x=\"318.0\" y=\"210.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#6b7260\">hoeveelheid</text><line x1=\"44.0\" y1=\"18.0\" x2=\"314.0\" y2=\"194.0\" stroke=\"#2f5d50\" stroke-width=\"2.2\"/><text x=\"319.0\" y=\"198.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#2f5d50\">V</text><line x1=\"44.0\" y1=\"158.8\" x2=\"260.0\" y2=\"18.0\" stroke=\"#c17f2b\" stroke-width=\"2.2\"/><text x=\"265.0\" y=\"22.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#c17f2b\">A</text><line x1=\"44.0\" y1=\"106.0\" x2=\"233.0\" y2=\"106.0\" stroke=\"#6b7260\" stroke-width=\"2.2\" stroke-dasharray=\"6 4\"/><text x=\"238.0\" y=\"110.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#6b7260\">max 50</text><line x1=\"44.0\" y1=\"106.0\" x2=\"125.0\" y2=\"106.0\" stroke=\"#6b7260\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><line x1=\"125.0\" y1=\"194.0\" x2=\"125.0\" y2=\"106.0\" stroke=\"#6b7260\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><circle cx=\"125.0\" cy=\"106.0\" r=\"3.6\" fill=\"#23291f\"/><line x1=\"44.0\" y1=\"106.0\" x2=\"179.0\" y2=\"106.0\" stroke=\"#6b7260\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><line x1=\"179.0\" y1=\"194.0\" x2=\"179.0\" y2=\"106.0\" stroke=\"#6b7260\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><circle cx=\"179.0\" cy=\"106.0\" r=\"3.6\" fill=\"#23291f\"/></svg>",
+     "onderschrift": "Bij 50 bieden producenten 30 aan en willen kopers 50: een tekort van 20."
+    },
+    {
+     "soort": "kader",
+     "html": "<p><strong>Maximumprijs van 50.</strong></p><ul><li>Q<sub>v</sub> = 100 − 50 = 50 en Q<sub>a</sub> = 50 − 20 = 30: een <strong>tekort</strong> van <strong>20</strong>.</li><li>Er wordt maar <strong>30</strong> verhandeld, minder dan in het evenwicht. Bij Q = 30 willen kopers 70 betalen. Het welvaartsverlies is de driehoek ½ · (40 − 30) · (70 − 50) = <strong>100</strong>.</li></ul>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Gevolgen van een maximumprijs: <strong>wachtrijen</strong> (er zijn meer kopers dan goederen aan die prijs) en een <strong>zwarte markt</strong>. Een maximumhuurprijs ver onder de marktprijs geeft op lange termijn <strong>minder huurwoningen en lange wachtlijsten</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>minimumprijs</strong> heeft enkel effect <strong>als ze boven de evenwichtsprijs ligt</strong>. Ze wordt vaak gebruikt om <strong>producenten, zoals landbouwers, te beschermen</strong>. Bij een minimumprijs van 70 is Q<sub>v</sub> = 30 en Q<sub>a</sub> = 50: een <strong>overschot</strong> van <strong>20</strong>. Er wordt minder verhandeld dan in het evenwicht, dus de totale welvaart stijgt <strong>niet</strong>. Het overschot <strong>koopt de overheid vaak op</strong> en slaat ze op of verwerkt ze."
+    }
+   ]
+  },
+  {
+   "kop": "Een productiequotum",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>productiequotum</strong> is <strong>een maximale hoeveelheid die mag worden geproduceerd</strong>. Ligt het onder de evenwichtshoeveelheid, dan <strong>stijgt de prijs en wordt er minder verhandeld</strong>, met een welvaartsverlies."
+    },
+    {
+     "soort": "tekst",
+     "html": "Quotum van 30: kopers willen dan 100 − 30 = <strong>70</strong> betalen. Volgens hun aanbodcurve zouden de producenten bij 30 stuks maar 50 vragen. <strong>De producenten met een quotum winnen</strong>: ze krijgen een hogere prijs."
+    }
+   ]
+  },
+  {
+   "kop": "Een belasting per stuk",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Indirecte belastingen</strong> zijn belastingen op goederen, zoals <strong>de btw</strong> en <strong>accijnzen op tabak</strong>. Een belasting per stuk bij de producent doet de aanbodcurve <strong>naar boven (naar links)</strong> verschuiven, met het bedrag van de belasting. Niet naar rechts."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 330 230\" width=\"330\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"138.5,79.6 138.5,97.2 152.0,88.4\" fill=\"#c17f2b\" fill-opacity=\".22\" stroke=\"none\"/><line x1=\"44\" y1=\"14\" x2=\"44\" y2=\"194\" stroke=\"#23291f\" stroke-width=\"1.8\"/><line x1=\"44\" y1=\"194\" x2=\"318\" y2=\"194\" stroke=\"#23291f\" stroke-width=\"1.8\"/><text x=\"42.0\" y=\"12.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#6b7260\">prijs</text><text x=\"318.0\" y=\"210.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#6b7260\">hoeveelheid</text><line x1=\"44.0\" y1=\"18.0\" x2=\"314.0\" y2=\"194.0\" stroke=\"#2f5d50\" stroke-width=\"2.2\"/><text x=\"319.0\" y=\"198.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#2f5d50\">V</text><line x1=\"44.0\" y1=\"158.8\" x2=\"260.0\" y2=\"18.0\" stroke=\"#6b7260\" stroke-width=\"2.2\" stroke-dasharray=\"6 4\"/><text x=\"265.0\" y=\"22.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#6b7260\">A</text><line x1=\"44.0\" y1=\"141.2\" x2=\"233.0\" y2=\"18.0\" stroke=\"#c17f2b\" stroke-width=\"2.2\"/><text x=\"238.0\" y=\"22.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#c17f2b\">A + t</text><line x1=\"44.0\" y1=\"79.6\" x2=\"138.5\" y2=\"79.6\" stroke=\"#6b7260\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><line x1=\"138.5\" y1=\"194.0\" x2=\"138.5\" y2=\"79.6\" stroke=\"#6b7260\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><circle cx=\"138.5\" cy=\"79.6\" r=\"3.6\" fill=\"#23291f\"/><text x=\"144.5\" y=\"73.6\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#23291f\">65</text><line x1=\"44.0\" y1=\"97.2\" x2=\"138.5\" y2=\"97.2\" stroke=\"#6b7260\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><line x1=\"138.5\" y1=\"194.0\" x2=\"138.5\" y2=\"97.2\" stroke=\"#6b7260\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><circle cx=\"138.5\" cy=\"97.2\" r=\"3.6\" fill=\"#23291f\"/><text x=\"144.5\" y=\"91.2\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#23291f\">55</text></svg>",
+     "onderschrift": "Belasting 10: de koper betaalt 65, de producent houdt 55 over."
+    },
+    {
+     "soort": "kader",
+     "html": "<p><strong>Belasting van 10 euro per stuk.</strong> Het nieuwe aanbod is Q<sub>a</sub> = P − 30.</p><ul><li>100 − P = P − 30, dus de koper betaalt <strong>P = 65</strong> en Q = <strong>35</strong>.</li><li>De producent houdt per stuk 65 − 10 = <strong>55</strong> over.</li><li>De overheid ontvangt 10 · 35 = <strong>350</strong>. Die ontvangsten zijn <strong>geen</strong> welvaartsverlies: ze gaan naar de overheid.</li><li>Welvaartsverlies: de driehoek tussen vraag en aanbod, van de nieuwe tot de oude hoeveelheid: ½ · (40 − 35) · 10 = <strong>25</strong>.</li></ul>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Wie draagt de belasting? Hier allebei de helft: de koper 5 meer, de producent 5 minder. De consument draagt dus niet altijd alles. Is de vraag <strong>heel inelastisch</strong>, dan dragen <strong>de consumenten</strong> het grootste deel. Is de vraag <strong>heel elastisch</strong>, dan <strong>de producenten</strong>. Hoe <strong>elastischer</strong> vraag en aanbod, hoe <strong>groter</strong> het welvaartsverlies."
+    }
+   ]
+  },
+  {
+   "kop": "Een subsidie per stuk",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een subsidie per stuk aan de producent doet de aanbodcurve <strong>naar rechts</strong> schuiven: <strong>een lagere prijs en een grotere hoeveelheid</strong>. De consumenten betalen minder dan in het oorspronkelijke evenwicht."
+    },
+    {
+     "soort": "tekst",
+     "html": "Subsidie van 10: het nieuwe aanbod is Q<sub>a</sub> = P − 10. 100 − P = P − 10 geeft P = 55 en <strong>Q = 45</strong>. De subsidie kost de overheid 10 · 45 = <strong>450</strong>."
+    },
+    {
+     "soort": "weetje",
+     "html": "Ook een subsidie veroorzaakt op een competitieve markt zonder externe effecten een welvaartsverlies: er wordt meer gemaakt dan wat kopers waard vinden."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Maximumprijs werkt enkel onder het evenwicht: tekort, wachtrijen, zwarte markt.",
+  "Minimumprijs werkt enkel boven het evenwicht: overschot, vaak opgekocht door de overheid.",
+  "Quotum onder het evenwicht: hogere prijs, minder verhandeld, welvaartsverlies.",
+  "Belasting per stuk: aanbod naar boven/links; koper betaalt meer, producent houdt minder over.",
+  "Belastingontvangsten zijn geen welvaartsverlies; het verlies is de driehoek tussen oude en nieuwe hoeveelheid.",
+  "Inelastische vraag: de consument draagt het meest. Subsidie: aanbod naar rechts, lagere prijs."
+ ]
+}

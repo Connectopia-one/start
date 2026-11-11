@@ -1,0 +1,62 @@
+{
+ "vak": "Bedrijfswetenschappen en recht",
+ "titel": "Relationele databanken",
+ "onder": "Tabellen, sleutels en relaties, veldeigenschappen en gegevenstypes, en query's in Access.",
+ "secties": [
+  {
+   "kop": "Tabellen en sleutels",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>relationele databank</strong> bestaat uit tabellen die via relaties verbonden zijn: je koppelt ze met sleutels. Een Access-databank bevat tabellen, query's, formulieren (om gegevens gemakkelijk in te voeren en te bekijken) en rapporten (om overzichtelijk af te drukken, niet om in te voeren)."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>record</strong> is één rij, een <strong>veld</strong> een kolom (bv. Postcode). De <strong>primaire sleutel</strong> is een veld dat elk record uniek maakt, bv. een klantnummer: twee records mogen nooit dezelfde waarde hebben. Ze is vaak een getal of AutoNummering, niet altijd tekst."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 112\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"30\" y=\"10\" width=\"150\" height=\"80\" rx=\"6\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.4\"/><rect x=\"30\" y=\"10\" width=\"150\" height=\"24\" rx=\"6\" fill=\"#2f5d50\" fill-opacity=\".16\"/><text x=\"105.0\" y=\"27.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#23291f\">Klanten</text><text x=\"40.0\" y=\"52.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#23291f\">🔑 Klantnummer</text><text x=\"40.0\" y=\"70.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#23291f\">Naam</text><text x=\"40.0\" y=\"88.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#23291f\">Gemeente</text><rect x=\"290\" y=\"10\" width=\"150\" height=\"98\" rx=\"6\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.4\"/><rect x=\"290\" y=\"10\" width=\"150\" height=\"24\" rx=\"6\" fill=\"#2f5d50\" fill-opacity=\".16\"/><text x=\"365.0\" y=\"27.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#23291f\">Bestellingen</text><text x=\"300.0\" y=\"52.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#23291f\">🔑 Bestelnummer</text><text x=\"300.0\" y=\"70.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#23291f\">Klantnummer</text><text x=\"300.0\" y=\"88.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#23291f\">Datum</text><text x=\"300.0\" y=\"106.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#23291f\">Bedrag</text><path d=\"M180,48 C235,48 235,66 290,66\" fill=\"none\" stroke=\"#c17f2b\" stroke-width=\"2\"/><text x=\"188.0\" y=\"42.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#c17f2b\">1</text><text x=\"276.0\" y=\"60.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#c17f2b\">∞</text></svg>",
+     "onderschrift": "Een één-op-veel-relatie: een klant plaatst veel bestellingen, een bestelling hoort bij één klant."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">begrip</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">uitleg</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">één-op-veel-relatie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de primaire tabel (Klanten) staat aan de 'één'-kant; haar primaire sleutel komt als veld terug in de gerelateerde tabel (Bestellingen)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">één-op-één-relatie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bij elk record hoort hoogstens één record in de andere tabel, bv. een werknemer en zijn badge</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">referentiële integriteit</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de koppeling blijft kloppen: geen bestelling voor een onbestaande klant, en een klant met bestellingen blijft staan</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">redundantie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dezelfde gegevens op meerdere plaatsen; vermijden door gegevens over meerdere tabellen te splitsen (een klantadres maar één keer)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gegevensintegriteit</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de gegevens zijn juist, volledig en consistent; validatieregels, vereiste velden en referentiële integriteit helpen</td></tr></table>"
+    }
+   ]
+  },
+  {
+   "kop": "Gegevenstypes en veldeigenschappen",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">gegeven</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">gegevenstype</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geboortedatum</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Datum/tijd (Access kan ermee rekenen en sorteren)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">prijs in euro</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Valuta (rekent nauwkeurig met bedragen)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">telefoonnummer</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Korte tekst (je rekent er niet mee en een voorloopnul zou verdwijnen)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">'Betaald' ja of nee</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Ja/nee</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">volgnummer</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">AutoNummering</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">veldeigenschap</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat ze doet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vereist</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het veld mag niet leeg blijven</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">validatieregel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">controleert of een waarde mag, bv. Aantal > 0; de validatietekst verschijnt bij een fout</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">invoermasker</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">legt vast hoe je moet invoeren, bv. een postcode met vier cijfers</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">standaardwaarde</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wordt automatisch ingevuld, bv. Land = België</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bijschrift</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de tekst die als kolomnaam getoond wordt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">veldlengte (veldgrootte)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het maximum aantal tekens, bv. 4 voor een Belgische postcode</td></tr></table>"
+    }
+   ]
+  },
+  {
+   "kop": "Query's en filters",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">query</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat ze doet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">selectiequery</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">selecteert en sorteert zonder iets te wijzigen; met een criterium (bv. 'Hasselt' in het veld Gemeente) beperk je de records</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">totaalquery</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">groepeert en rekent: som, gemiddelde, aantal, maximum, minimum. Bv. het aantal bestellingen per klant, of per categorie de totale omzet (één rij per groep)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bijwerkquery (actie)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wijzigt bestaande gegevens, bv. alle prijzen + 5 %</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tabelmaakquery (actie)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">maakt van een selectie een nieuwe tabel, bv. enkel de klanten uit Limburg</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">toevoegquery (actie)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">voegt records toe aan een bestaande tabel</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verwijderquery (actie)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verwijdert records die aan een voorwaarde voldoen, bv. bestellingen van vóór 2020; dat is definitief</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>filter</strong> toont enkel de records die aan de voorwaarde voldoen; de andere blijven bewaard. Met een <strong>selectiefilter</strong> klik je een waarde aan en zie je alle records met dezelfde waarde, bv. dezelfde postcode."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Record = rij, veld = kolom; de primaire sleutel is uniek.",
+  "Eén-op-veel: de sleutel van de primaire tabel komt terug in de gerelateerde tabel.",
+  "Referentiële integriteit: geen bestelling zonder bestaande klant. Splitsen tegen redundantie.",
+  "Selectiequery wijzigt niets; actiequery's: bijwerk, tabelmaak, toevoeg, verwijder.",
+  "Formulier om in te voeren, rapport om af te drukken."
+ ]
+}

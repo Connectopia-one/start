@@ -1,0 +1,94 @@
+{
+ "vak": "Wiskunde basis",
+ "titel": "Bedrijfswetenschappen: matrices, grafen en stelsels",
+ "onder": "Rekenen met matrices, overgangsmatrices en grafen, en stelsels oplossen met Gauss-Jordan.",
+ "secties": [
+  {
+   "kop": "Matrices",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een matrix met \\(m\\) rijen en \\(n\\) kolommen heeft <strong>dimensie</strong> \\(m\\times n\\). Het element \\(a_{ij}\\) staat op rij \\(i\\), kolom \\(j\\): in \\(A=\\begin{bmatrix}4&7&1\\\\2&5&9\\end{bmatrix}\\) (dimensie \\(2\\times 3\\)) is \\(a_{23}=9\\). Twee matrices zijn <strong>gelijk</strong> als ze dezelfde dimensie hebben en alle overeenkomstige elementen gelijk zijn."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">soort</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">eenheidsmatrix van orde 2</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(I=\\begin{bmatrix}1&0\\\\0&1\\end{bmatrix}\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">diagonaalmatrix</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\begin{bmatrix}3&0\\\\0&-2\\end{bmatrix}\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">symmetrische matrix (\\(A^{T}=A\\)), niet altijd diagonaal</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\begin{bmatrix}1&5\\\\5&2\\end{bmatrix}\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">getransponeerde: rijen worden kolommen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\begin{bmatrix}1&2&3\\\\4&5&6\\end{bmatrix}^{T}=\\begin{bmatrix}1&4\\\\2&5\\\\3&6\\end{bmatrix}\\)</td></tr></table>"
+    }
+   ]
+  },
+  {
+   "kop": "Rekenen met matrices",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">bewerking</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">regel</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">optellen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">enkel bij dezelfde dimensie, element per element</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\begin{bmatrix}1&2\\\\3&4\\end{bmatrix}+\\begin{bmatrix}5&0\\\\-1&2\\end{bmatrix}=\\begin{bmatrix}6&2\\\\2&6\\end{bmatrix}\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">met een getal</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">elk element</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(3\\begin{bmatrix}2&-1\\\\0&4\\end{bmatrix}=\\begin{bmatrix}6&-3\\\\0&12\\end{bmatrix}\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tegengestelde</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">symmetrisch element voor de optelling</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(-A\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vermenigvuldigen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rij maal kolom; \\((m\\times n)\\cdot(n\\times p)\\) geeft \\(m\\times p\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\begin{bmatrix}1&2\\\\0&3\\end{bmatrix}\\begin{bmatrix}4\\\\5\\end{bmatrix}=\\begin{bmatrix}14\\\\15\\end{bmatrix}\\)</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "<ul><li>\\(A\\cdot B\\) bestaat enkel als het aantal kolommen van \\(A\\) gelijk is aan het aantal rijen van \\(B\\). Een \\(2\\times 3\\)-matrix kan je dus niet met zichzelf vermenigvuldigen.</li><li>Meestal is \\(A\\cdot B\\neq B\\cdot A\\), ook bij vierkante matrices.</li><li>\\(A\\cdot B\\) kan de nulmatrix zijn terwijl \\(A\\) en \\(B\\) dat niet zijn.</li><li>\\(A(B+C)=AB+AC\\) en \\((AB)^{T}=B^{T}A^{T}\\).</li><li>\\(A=\\begin{bmatrix}2&0\\\\1&1\\end{bmatrix}\\): \\(A^{2}=\\begin{bmatrix}4&0\\\\3&1\\end{bmatrix}\\), want rij \\(2\\) maal kolom \\(1\\) is \\(1\\cdot 2+1\\cdot 1=3\\).</li><li>Omzet van \\(10\\) broden aan \\(3\\) euro en \\(4\\) taarten aan \\(12\\) euro: \\(\\begin{bmatrix}10&4\\end{bmatrix}\\cdot\\begin{bmatrix}3\\\\12\\end{bmatrix}=78\\) euro.</li></ul>"
+    }
+   ]
+  },
+  {
+   "kop": "Overgangsmatrices en grafen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>overgangsmatrix</strong> (Markov-matrix) \\(T\\) geeft de kansen om van een toestand (kolom) naar een andere (rij) te gaan: elke <strong>kolom</strong> telt op tot \\(1\\). De toestand na \\(n\\) stappen is \\(T^{n}\\cdot X_{0}\\). Een <strong>evenwichtstoestand</strong> \\(X\\) verandert niet meer: \\(T\\cdot X=X\\). Ook bij een migratiematrix verhuist er dan nog wel iemand: er verhuizen evenveel mensen, maar evenveel in beide richtingen."
+    },
+    {
+     "soort": "kader",
+     "html": "<p>\\(T=\\begin{bmatrix}0{,}8&0{,}3\\\\0{,}2&0{,}7\\end{bmatrix}\\), \\(X_{0}=\\begin{bmatrix}100\\\\100\\end{bmatrix}\\): \\(T\\cdot X_{0}=\\begin{bmatrix}80+30\\\\20+70\\end{bmatrix}=\\begin{bmatrix}110\\\\90\\end{bmatrix}\\).</p>"
+    },
+    {
+     "soort": "tekst",
+     "html": "In een <strong>Lesliematrix</strong> staan op de eerste rij de vruchtbaarheidscijfers van elke leeftijdsklasse, en daaronder de overlevingskansen."
+    },
+    {
+     "soort": "tekst",
+     "html": "In de <strong>verbindingsmatrix</strong> \\(M\\) van een graaf staat een \\(1\\) op plaats \\((i,j)\\) als er een rechtstreekse verbinding (pijl) is tussen de knopen, van knoop \\(i\\) naar knoop \\(j\\). \\(M^{2}\\) telt de wegen van lengte \\(2\\). De graaf met \\(A\\to B\\), \\(B\\to C\\), \\(C\\to A\\) heeft \\(M=\\begin{bmatrix}0&1&0\\\\0&0&1\\\\1&0&0\\end{bmatrix}\\): drie enen."
+    }
+   ]
+  },
+  {
+   "kop": "Stelsels met Gauss-Jordan",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Je schrijft een stelsel als <strong>uitgebreide coëfficiëntenmatrix</strong>: \\(\\begin{cases}2x+y=5\\\\x-3y=1\\end{cases}\\) wordt \\(\\left[\\begin{array}{cc|c}2&1&5\\\\1&-3&1\\end{array}\\right]\\)."
+    },
+    {
+     "soort": "kader",
+     "html": "<p><strong>Elementaire rijoperaties</strong> (twee elementen binnen een rij wisselen hoort er niet bij):</p><ul><li>twee rijen van plaats wisselen;</li><li>een rij vermenigvuldigen met een getal dat niet \\(0\\) is;</li><li>bij een rij een veelvoud van een andere rij optellen.</li></ul>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Je werkt tot de <strong>rijcanonieke vorm</strong>: elke leidende coëfficiënt is \\(1\\), met nullen erboven en eronder, en de leidende enen schuiven naar rechts op."
+    },
+    {
+     "soort": "kader",
+     "html": "<p>\\(\\begin{cases}x+y=7\\\\x-y=1\\end{cases}\\): \\(\\left[\\begin{array}{cc|c}1&1&7\\\\1&-1&1\\end{array}\\right]\\xrightarrow{R_{2}-R_{1}}\\left[\\begin{array}{cc|c}1&1&7\\\\0&-2&-6\\end{array}\\right]\\xrightarrow{R_{2}:(-2)}\\left[\\begin{array}{cc|c}1&1&7\\\\0&1&3\\end{array}\\right]\\xrightarrow{R_{1}-R_{2}}\\left[\\begin{array}{cc|c}1&0&4\\\\0&1&3\\end{array}\\right]\\): \\(x=4\\), \\(y=3\\).</p>"
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">eindmatrix</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">soort stelsel</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">oplossing</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\left[\\begin{array}{cc|c}1&0&2\\\\0&1&-1\\end{array}\\right]\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bepaald: precies één oplossing</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(V=\\{(2,-1)\\}\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rij \\(\\left[\\begin{array}{ccc|c}0&0&0&4\\end{array}\\right]\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>strijdig</strong> (\\(0=4\\))</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(V=\\varnothing\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\left[\\begin{array}{ccc|c}1&0&2&3\\\\0&1&-1&1\\\\0&0&0&0\\end{array}\\right]\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">onbepaald met één vrijheidsgraad</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(z=r\\): \\(V=\\{(3-2r,\\ 1+r,\\ r)\\mid r\\in\\mathbb{R}\\}\\)</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een nulrij \\(\\left[\\begin{array}{ccc|c}0&0&0&0\\end{array}\\right]\\) (\\(0=0\\)) maakt een stelsel dus <strong>niet</strong> strijdig."
+    },
+    {
+     "soort": "tekst",
+     "html": "Toepassing: een bakker met \\(30\\) kg bloem en \\(10\\) uur maakt broden \\(x\\) (\\(0{,}5\\) kg, \\(0{,}1\\) uur) en taarten \\(y\\) (\\(1\\) kg, \\(0{,}5\\) uur). Als hij alles opgebruikt: \\(\\begin{cases}0{,}5x+y=30\\\\0{,}1x+0{,}5y=10\\end{cases}\\)."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Dimensie \\(m\\times n\\); \\(a_{ij}\\) op rij \\(i\\), kolom \\(j\\).",
+  "Product: rij maal kolom; \\((m\\times n)(n\\times p)=m\\times p\\); meestal \\(AB\\neq BA\\).",
+  "Overgangsmatrix: kolommen tellen op tot \\(1\\); \\(X_{n}=T^{n}X_{0}\\); evenwicht \\(TX=X\\).",
+  "Verbindingsmatrix: \\(M^{2}\\) telt wegen van lengte \\(2\\).",
+  "Gauss-Jordan: bepaald, strijdig (0 = getal) of onbepaald (nulrij, vrije parameter)."
+ ]
+}

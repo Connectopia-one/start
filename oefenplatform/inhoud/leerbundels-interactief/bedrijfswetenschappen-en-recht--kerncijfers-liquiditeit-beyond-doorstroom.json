@@ -1,0 +1,68 @@
+{
+ "vak": "Bedrijfswetenschappen en recht",
+ "titel": "Kerncijfers: liquiditeit",
+ "onder": "Kan de onderneming haar schulden op korte termijn betalen? Current ratio, quick ratio, klanten- en leverancierskrediet, omlooptijd van de voorraad.",
+ "secties": [
+  {
+   "kop": "Liquiditeit in ruime en enge zin",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>liquiditeit</strong> meet of een onderneming haar schulden op <strong>korte termijn</strong> kan betalen. Quick ratio en klantenkrediet horen bij de liquiditeit; solvabiliteit en rendabiliteit zijn andere groepen kerncijfers."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">kerncijfer</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">formule</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">current ratio (liquiditeit in ruime zin)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">courante activa / vreemd vermogen op korte termijn</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">300 000 / 200 000 = 1,5; 240 000 / 160 000 = 1,5</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">quick ratio (liquiditeit in enge zin, acid test)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">(vorderingen op ten hoogste een jaar + geldbeleggingen + liquide middelen) / vreemd vermogen op korte termijn, dus <strong>zonder de voorraden</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">(300 000 − 100 000) / 250 000 = 0,8; (80 000 + 20 000 + 25 000) / 100 000 = 1,25</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "<ul><li>Groter dan 1 is gunstig: meer courante activa dan kortlopende schulden. Een current ratio van 0,7 betekent dat de kortlopende schulden groter zijn dan de courante activa.</li><li>De quick ratio laat de voorraden weg, want die moeten eerst nog verkocht worden. Ze is dus altijd kleiner dan of gelijk aan de current ratio. Bij 0,8 dekken de snelle middelen maar 80 % van de kortlopende schulden.</li><li>Een heel hoge current ratio (bv. 4) heeft ook een gevaar: er zit te veel geld vast in voorraad of kas, en middelen die stilliggen brengen weinig op.</li><li>De current ratio en het nettobedrijfskapitaal gebruiken dezelfde balansposten: de current ratio is een verhouding, het NBK een verschil. Een negatief NBK gaat samen met een current ratio kleiner dan 1.</li><li>Een lening op lange termijn om voorraad te kopen <strong>verbetert</strong> de current ratio: de courante activa stijgen, de kortlopende schulden niet.</li></ul>"
+    }
+   ]
+  },
+  {
+   "kop": "Termijnen in dagen",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">kerncijfer</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">formule</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">klantenkrediet: hoeveel dagen klanten gemiddeld nodig hebben om te betalen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">handelsvorderingen / (omzet · 1,21) · 365</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">60 500 / (500 000 · 1,21) · 365 = 36,5 dagen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">leverancierskrediet: hoeveel dagen de onderneming wacht om haar leveranciers te betalen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">handelsschulden / (aankopen · 1,21) · 365</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">48 400 / 484 000 · 365 = 36,5 dagen; 24 200 / 242 000 · 365 ≈ 37 dagen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">omlooptijd van de voorraad: hoeveel dagen goederen gemiddeld in voorraad blijven</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gemiddelde voorraad / kostprijs verkochte goederen · 365</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">50 000 / 365 000 · 365 = 50 dagen</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij klanten- en leverancierskrediet tel je de <strong>btw</strong> bij de omzet of de aankopen, omdat de vorderingen en schulden inclusief btw zijn: zo vergelijk je bedragen van dezelfde soort."
+    },
+    {
+     "soort": "kader",
+     "html": "<ul><li>Hoe korter het klantenkrediet, hoe sneller het geld binnenkomt. Stijgt het, dan betalen klanten trager en verslechtert de liquiditeit. Een winkel die enkel contant verkoopt, heeft ongeveer 0 dagen klantenkrediet.</li><li>Klantenkrediet 60 dagen bij een betalingstermijn van 30 dagen: klanten betalen gemiddeld te laat. Maatregelen: herinneringen sturen, korting geven bij snelle betaling, of <strong>factoring</strong> (de factor betaalt de vordering meteen, zodat het klantenkrediet in feite korter wordt).</li><li>Een langer leverancierskrediet is gunstig zolang de relatie goed blijft. Veel langer dan de afgesproken termijn kan de relatie met leveranciers schaden.</li><li>Hoe hoger de omlooptijd van de voorraad, hoe langer het geld vastzit: slecht voor de liquiditeit.</li></ul>"
+    }
+   ]
+  },
+  {
+   "kop": "Netto te financieren periode",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<p style='text-align:center'><strong>netto te financieren periode = omlooptijd voorraad + klantenkrediet − leverancierskrediet</strong></p>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Het is de periode die de onderneming zelf moet financieren. 40 + 30 − 45 = 25 dagen; 60 + 45 − 30 = 75 dagen. Korter is gunstiger: de onderneming moet minder lang zelf de kosten voorschieten. Verkort het klantenkrediet van 50 naar 35 dagen, dan daalt de netto te financieren periode met 15 dagen."
+    },
+    {
+     "soort": "tekst",
+     "html": "De liquiditeit verbeteren: klanten sneller laten betalen en minder voorraad aanhouden. Let op: een onderneming met winst kan toch een liquiditeitsprobleem hebben, want winst is niet hetzelfde als geld op de bank."
+    },
+    {
+     "soort": "weetje",
+     "html": "Vergelijk kerncijfers best met bedrijven uit dezelfde sector, omdat normen per sector verschillen. Een supermarkt heeft bijvoorbeeld een heel kort klantenkrediet."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Current ratio = CA / VVKT; quick ratio = (CA − voorraden) / VVKT. Groter dan 1 is gunstig.",
+  "Klantenkrediet = vorderingen / (omzet · 1,21) · 365; leverancierskrediet = schulden / (aankopen · 1,21) · 365.",
+  "Omlooptijd voorraad = gemiddelde voorraad / kostprijs verkochte goederen · 365.",
+  "Netto te financieren periode = voorraad + klanten − leveranciers. Korter is beter."
+ ]
+}

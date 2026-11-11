@@ -1,0 +1,75 @@
+{
+ "vak": "Bedrijfswetenschappen en recht",
+ "titel": "Financieringsvormen",
+ "onder": "Eigen of vreemd vermogen, lange of korte termijn: welke financiering past bij welke nood?",
+ "secties": [
+  {
+   "kop": "Eigen vermogen",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">vorm</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">uitleg</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zelffinanciering (autofinanciering)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">winst niet uitkeren maar in de onderneming laten: het eigen vermogen stijgt via de reserves. Ook afschrijvingen zorgen voor middelen die in de onderneming blijven</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kapitaalsverhoging</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de eigenaars of nieuwe aandeelhouders brengen geld in</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Voordeel</strong>: geen interest (wel verwachten de aandeelhouders een vergoeding, bijvoorbeeld dividend) en de schuldgraad daalt. <strong>Nadelen van een kapitaalsverhoging</strong>: als nieuwe aandeelhouders instappen, wordt de zeggenschap van de oude verdeeld, en de winst wordt over meer aandelen verdeeld."
+    }
+   ]
+  },
+  {
+   "kop": "Vreemd vermogen op lange termijn",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">vorm</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">uitleg</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">investeringskrediet</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een lening op lange termijn voor bijvoorbeeld machines, afgelost over de levensduur van de investering</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hypothecaire lening</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">om onroerende goederen te financieren, meestal over vijftien tot twintig jaar. De <strong>waarborg</strong> is het gebouw of de grond: kan de onderneming niet betalen, dan kan de bank het goed laten verkopen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">obligatielening</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een lening bij het publiek via schuldbewijzen: beleggers kopen obligaties en krijgen jaarlijks interest. Zo haal je veel geld op zonder zeggenschap af te staan: obligatiehouders zijn schuldeisers, geen eigenaars</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Voordeel</strong> van vreemd vermogen: de interest is fiscaal aftrekbaar als kost (verlaagt de belastbare winst). <strong>Nadeel</strong>: je moet interest betalen en terugbetalen, ook als het slecht gaat. Hoe meer vreemd vermogen, hoe hoger de schuldgraad."
+    }
+   ]
+  },
+  {
+   "kop": "Vreemd vermogen op korte termijn",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">vorm</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">uitleg</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kaskrediet</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je mag tijdelijk onder nul gaan op je zichtrekening: <strong>flexibel</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">straight loan</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een korte lening: vast bedrag, vaste periode. Je krijgt het volledige bedrag in één keer en betaalt terug op de vervaldag: <strong>niet flexibel</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">leverancierskrediet</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je mag de leverancier later betalen en gebruikt het geld intussen zelf. Niet altijd gratis: wie de korting voor snelle betaling misloopt, betaalt in feite een prijs voor het krediet</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">factoring</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je verkoopt je vorderingen op klanten aan een gespecialiseerde firma, de factor. Die betaalt meteen het grootste deel en int ze zelf. Je krijgt sneller geld, maar betaalt een vergoeding</td></tr></table>"
+    }
+   ]
+  },
+  {
+   "kop": "Leasing en de crowd",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">vorm</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">uitleg</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">financiële leasing</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een huurcontract met aankoopoptie op het einde: de leasingnemer draagt de risico's en kan op het einde eigenaar worden, meestal voor een klein bedrag</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">operationele leasing</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de leasinggever blijft eigenaar en zorgt vaak voor onderhoud, zoals bij bedrijfswagens</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">crowdfunding</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">veel mensen geven elk een klein bedrag; vaak krijgen de gevers een product of tegenprestatie (een gift of voorverkoop). Past bij een start-up met een origineel product en weinig eigen geld, die via een platform meteen interesse kan testen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">crowdlending</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">veel particulieren lenen geld aan een onderneming en krijgen interest: een lening, geen gift</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Voordeel van leasing: je betaalt niet meteen het volle bedrag, maar een periodieke vergoeding, en houdt geld vrij voor andere zaken."
+    }
+   ]
+  },
+  {
+   "kop": "Kiezen: de gouden balansregel",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Langdurende activa financier je best met vermogen op lange termijn</strong>; een tijdelijke nood financier je op korte termijn."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">nood</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">past het best</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een bakkerij wil een nieuwe oven van 40 000 euro (gaat jaren mee)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een investeringskrediet</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een winkel heeft in december tijdelijk extra voorraad nodig</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een kaskrediet of straight loan</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een gebouw</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een hypothecaire lening, geen straight loan</td></tr></table>"
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Eigen vermogen: zelffinanciering en kapitaalsverhoging (geen interest, wel zeggenschap delen).",
+  "Lange termijn: investeringskrediet, hypothecaire lening, obligatielening.",
+  "Korte termijn: kaskrediet (flexibel), straight loan (vast), leverancierskrediet, factoring.",
+  "Crowdfunding: gift of voorverkoop. Crowdlending: lening met interest.",
+  "Gouden balansregel: lang met lang, kort met kort."
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "vak": "Wiskunde basis",
+ "titel": "Steekproeven, samenhang en causaliteit",
+ "onder": "Hoe je een eerlijke steekproef trekt, welke fouten erin kunnen sluipen, en waarom samenhang nog geen oorzaak is.",
+ "secties": [
+  {
+   "kop": "Populatie, steekproef en variabele",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een onderzoeker wil weten hoeveel uur Vlaamse jongeren van \\(16\\) jaar slapen en bevraagt er \\(800\\)."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">begrip</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">in dat voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">populatie: de hele groep waarover je iets wil weten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">alle Vlaamse jongeren van \\(16\\) jaar</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">steekproef: het deel dat je bevraagt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de \\(800\\) bevraagde jongeren</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">variabele: wat je meet</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het aantal uren slaap</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een steekproef is <strong>representatief</strong> als ze de populatie goed weerspiegelt, zodat je besluiten mag doortrekken."
+    }
+   ]
+  },
+  {
+   "kop": "Soorten steekproeven",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">soort</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">enkelvoudig aselecte steekproef (EAS)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">elke groep van die grootte heeft evenveel kans om gekozen te worden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">alle \\(1000\\) leerlingen nummeren en met een toevalsgenerator \\(50\\) verschillende nummers trekken</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vrijwillige respons</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wie wil, doet mee</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een online stemming in een krant over een nieuw zwembad</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">opportunistische steekproef</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wie toevallig makkelijk bereikbaar is</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mensen die in de bibliotheek zitten</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Randomisatie</strong>: het toeval bepaalt wie in de steekproef komt. Dat is de beste bescherming tegen vertekening."
+    },
+    {
+     "soort": "kader",
+     "html": "<p><strong>Vertekende steekproeven</strong></p><ul><li>Mensen in een bibliotheek zeggen niets over hoeveel <em>alle</em> Vlamingen lezen.</li><li>Voetbalsupporters aan een stadion zeggen niets over hoeveel Belgen voetbal kijken.</li><li>Enkel overdag naar vaste nummers bellen: werkende mensen en jongeren bereik je amper.</li><li>Te veel mensen met een hoog inkomen: het besluit <strong>overschat</strong> het gemiddeld inkomen.</li></ul>"
+    }
+   ]
+  },
+  {
+   "kop": "Fouten",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\"></th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">steekproeffout</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">niet-steekproeffout</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wat</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het toevallige verschil tussen steekproef en populatie, omdat je maar een deel bevraagt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een fout in de manier van werken</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">voorbeelden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">deze steekproef heeft toevallig iets meer langslapers</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mensen antwoorden niet eerlijk over hun inkomen; een sturende vraag zoals 'Bent u het ermee eens dat de gevaarlijke snelweg eindelijk veiliger moet?'; vrijwillige respons</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">grotere steekproef helpt?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>ja</strong>, bij een aselecte steekproef</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>nee</strong></td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Variabiliteit van steekproeven</strong>: verschillende steekproeven uit dezelfde populatie geven telkens een iets ander resultaat. Twee goede aselecte steekproeven geven dus bijna nooit exact hetzelfde."
+    }
+   ]
+  },
+  {
+   "kop": "Samenhang of causaliteit?",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij <strong>samenhang</strong> gaan twee variabelen samen op of af. Bij <strong>causaliteit</strong> <strong>veroorzaakt</strong> de ene de andere. Een sterke samenhang bewijst nog geen oorzaak, en er is ook niet altijd een duidelijke oorzaak en gevolg."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">verklaring</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>derde verborgen variabele</strong> beïnvloedt allebei</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ijsjes en verdrinkingen (warm weer); ooievaars en baby's (hoe landelijk); brandweerlieden en schade (grootte van de brand); schoenmaat en leesvaardigheid bij kinderen (leeftijd); chocolade en Nobelprijzen (rijkdom)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>omwisseling van oorzaak en gevolg</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wie ziek is, gaat naar de dokter (niet omgekeerd); misschien maakt geluk dat je meer sport</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>toeval</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">films met een acteur en verdrinkingen in een zwembad; verdwijnt vaak bij nieuwe gegevens</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>causaliteit</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">harder op het gaspedaal, sneller rijden; roken veroorzaakt longkanker (met veel onderzoek aangetoond)</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Causaliteit toon je het best aan met een <strong>experiment waarbij het toeval beslist wie de behandeling krijgt</strong>. Zie je enkel dat leerlingen met meer boeken thuis betere punten halen, of dat kinderen die ontbijten beter scoren, vraag je je af of er een derde variabele achter zit, zoals een regelmatig gezinsleven."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Populatie = alle; steekproef = een deel; variabele = wat je meet.",
+  "EAS: elke groep heeft evenveel kans. Vrijwillige respons en opportunistische steekproeven zijn vertekend.",
+  "Steekproeffout: toeval, kleiner bij een grotere steekproef. Niet-steekproeffout: fout in de aanpak, groter maken helpt niet.",
+  "Samenhang is geen causaliteit: denk aan een derde variabele, omgekeerde richting of toeval.",
+  "Causaliteit toon je aan met een gerandomiseerd experiment."
+ ]
+}

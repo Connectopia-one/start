@@ -1,0 +1,62 @@
+{
+ "vak": "Bedrijfswetenschappen en recht",
+ "titel": "Ondernemingsvormen vergelijken",
+ "onder": "Eenmanszaak, maatschap, bv, nv en cv naast elkaar: oprichting, aansprakelijkheid, aandelen, belasting en boekhouding.",
+ "secties": [
+  {
+   "kop": "Met of zonder rechtspersoonlijkheid",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>eenmanszaak</strong> vallen de onderneming en de ondernemer samen: er is <strong>geen eigen rechtspersoonlijkheid</strong>. Ook een <strong>maatschap</strong> is geen rechtspersoon. Een maatschap is een overeenkomst tussen minstens twee personen, vaak vrije beroepen die samenwerken, bijvoorbeeld artsen. Zonder rechtspersoonlijkheid ben je <strong>onbeperkt</strong> aansprakelijk: ook met je privévermogen (je huis, je spaargeld)."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>bv</strong>, <strong>nv</strong> en <strong>cv</strong> zijn vennootschappen <strong>met rechtspersoonlijkheid</strong>. Ze bieden <strong>beperkte aansprakelijkheid</strong>: een aandeelhouder kan hoogstens zijn inbreng verliezen; zijn privévermogen blijft beschermd tegen de schuldeisers van de vennootschap."
+    }
+   ]
+  },
+  {
+   "kop": "De vormen naast elkaar",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\"></th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">eenmanszaak</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">maatschap</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">bv</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">nv</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">cv</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">oprichters</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">één</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">minstens twee</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">minstens één</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">minstens één</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">minstens drie</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">oprichting</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">inschrijving in de Kruispuntbank van Ondernemingen, geen akte</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">onderhandse akte mag</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">authentieke akte bij de notaris</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">authentieke akte bij de notaris</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">authentieke akte bij de notaris</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">minimumkapitaal</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geen (wel toereikend aanvangsvermogen en financieel plan)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">61 500 euro</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">aansprakelijkheid</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">onbeperkt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">onbeperkt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">beperkt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">beperkt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">beperkt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">aandelen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">–</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">–</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">standaard beperkt overdraagbaar; statuten kunnen dat vrijer maken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">in principe vrij overdraagbaar</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">beperkt overdraagbaar (standaard enkel naar andere aandeelhouders)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">belasting op de winst</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">personenbelasting (progressief)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">personenbelasting van de vennoten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vennootschapsbelasting</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vennootschapsbelasting</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vennootschapsbelasting</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">boekhouding</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bij kleine omzet een vereenvoudigde of enkelvoudige boekhouding</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dubbele boekhouding</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dubbele boekhouding</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dubbele boekhouding</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">jaarrekening</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">moet geen jaarrekening neerleggen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bij de Nationale Bank</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bij de Nationale Bank</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bij de Nationale Bank</td></tr></table>"
+    }
+   ]
+  },
+  {
+   "kop": "Wat je moet onthouden per vorm",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<ul><li><strong>bv:</strong> sinds het Wetboek van vennootschappen en verenigingen <strong>geen minimumkapitaal</strong> meer (vroeger 18 550 euro). In de plaats: een <strong>toereikend aanvangsvermogen en een financieel plan</strong>. Gaat de bv binnen drie jaar failliet met een duidelijk ontoereikend aanvangsvermogen, dan kunnen de oprichters aansprakelijk gesteld worden: <strong>oprichtersaansprakelijkheid</strong>. Zonder andere regeling in de statuten moeten de andere aandeelhouders akkoord gaan als je aandelen aan buitenstaanders wil overdragen.</li><li><strong>nv:</strong> de enige met een minimumkapitaal (61 500 euro). Eén oprichter volstaat. De aandelen zijn vrij overdraagbaar: dat is nodig voor een <strong>beursnotering</strong>, dus past de nv bij een grote onderneming die naar de beurs wil.</li><li><strong>cv (coöperatieve vennootschap):</strong> een samenwerking met een coöperatief doel: minstens drie oprichters, geen minimumkapitaal, beperkte aansprakelijkheid. De aandelen zijn beperkt overdraagbaar, zodat de samenwerking tussen de leden behouden blijft.</li><li><strong>maatschap:</strong> eenvoudig op te richten en fiscaal transparant: elke vennoot geeft zijn deel van de winst aan in zijn personenbelasting. Geen minimumkapitaal.</li></ul>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een vennootschap betaalt zelf <strong>vennootschapsbelasting</strong> (venb). De winst van een eenmanszaak is inkomen van de ondernemer: <strong>progressieve personenbelasting</strong>, dus hoe hoger de winst, hoe hoger het tarief op de hoogste schijf. De balanscentrale van de Nationale Bank maakt de jaarrekeningen openbaar."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Nadeel</strong> van een vennootschap tegenover een eenmanszaak: meer administratie en kosten bij de oprichting (notaris, dubbele boekhouding, jaarrekening)."
+    }
+   ]
+  },
+  {
+   "kop": "Kiezen",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">situatie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">beste vorm</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">waarom</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">iemand start alleen en wil haar privévermogen beschermen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bv</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kan met één oprichter, beperkte aansprakelijkheid (een cv vraagt drie oprichters)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een vriendengroep met een coöperatief doel, zonder groot startkapitaal</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">cv</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">samenwerking, geen minimumkapitaal, beperkte aansprakelijkheid</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een grote onderneming die naar de beurs wil</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nv</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vrij overdraagbare aandelen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">artsen die samenwerken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">maatschap</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">eenvoudig en fiscaal transparant</td></tr></table>"
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Geen rechtspersoonlijkheid (eenmanszaak, maatschap): onbeperkt aansprakelijk, personenbelasting.",
+  "bv, nv, cv: rechtspersoon, beperkte aansprakelijkheid, vennootschapsbelasting, dubbele boekhouding, jaarrekening bij de Nationale Bank.",
+  "Enkel de nv heeft een minimumkapitaal: 61 500 euro. De bv heeft een toereikend aanvangsvermogen en een financieel plan.",
+  "Oprichters: bv en nv minstens één, cv minstens drie, maatschap minstens twee.",
+  "Aandelen: nv vrij, bv standaard beperkt, cv het meest beperkt."
+ ]
+}

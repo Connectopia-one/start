@@ -1,0 +1,100 @@
+{
+ "vak": "Economie",
+ "titel": "Inkomenselasticiteit, de aanbodcurve en de elasticiteit van het aanbod",
+ "onder": "Hoe de vraag reageert op het inkomen, en hoe sterk producenten reageren op de prijs.",
+ "secties": [
+  {
+   "kop": "De inkomenselasticiteit van de vraag",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<p style=\"text-align:center\"><strong>E<sub>y</sub> = procentuele verandering van de gevraagde hoeveelheid / procentuele verandering van het inkomen</strong></p>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Stijgt het inkomen met 5 % en de vraag naar restaurantbezoeken met 10 %, dan is de inkomenselasticiteit 10 / 5 = <strong>2</strong>. Is de inkomenselasticiteit van brood 0,2 en stijgt het inkomen met 10 %, dan stijgt de vraag naar brood met 0,2 × 10 = <strong>2 %</strong>."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">inkomenselasticiteit</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">soort goed</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kleiner dan 0 (negatief)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">inferieur goed</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">busritten, als mensen met meer geld een auto kopen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">indifferent goed: de vraag verandert niet als het inkomen verandert</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zout</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tussen 0 en 1</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">noodzakelijk goed</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">brood, elektriciteit</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">groter dan 1</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">luxegoed</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een verre vakantie, restaurantbezoeken</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Noodzakelijke goederen</strong> en <strong>luxegoederen</strong> zijn allebei <strong>normale goederen</strong>: de vraag stijgt als het inkomen stijgt. Een goed met een inkomenselasticiteit van 0,8 is dus noodzakelijk, geen luxe."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>inferieur goed</strong> is <strong>geen</strong> goed van slechte kwaliteit dat niemand wil. Het is een goed dat je minder koopt als je meer verdient, omdat je dan iets anders kiest. Stijgt het inkomen met 10 % en daalt de vraag naar busritten met 3 %, dan zijn busritten een inferieur goed. Een goed kan voor de ene consument normaal zijn en voor een andere inferieur."
+    }
+   ]
+  },
+  {
+   "kop": "De aanbodcurve",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een gewone aanbodcurve verloopt <strong>stijgend: bij een hogere prijs wil men meer aanbieden</strong>. Bij volkomen concurrentie leid je de individuele aanbodcurve van een producent af uit <strong>het stijgende deel van de marginale kostencurve</strong>. Elk punt op die curve is <strong>de optimale productiegrootte bij die prijs</strong>. Ligt de prijs <strong>onder het minimum van de gemiddelde variabele kosten</strong>, dan biedt de producent op korte termijn niets aan."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>collectieve aanbod</strong> vind je door <strong>bij elke prijs de aangeboden hoeveelheden van alle producenten op te tellen</strong>. Bieden drie bakkers bij 3 euro 40, 50 en 30 broden aan, dan is het collectieve aanbod <strong>120</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Stijgt de marktprijs van tomaten, dan is er een <strong>beweging op</strong> de aanbodcurve, geen verschuiving. De curve zelf verschuift door andere oorzaken:"
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">naar rechts (meer aanbod)</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">naar links (minder aanbod)</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een nieuwe, goedkopere productietechniek</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de prijs van grondstoffen stijgt sterk</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">er komen meer producenten bij</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">producenten stoppen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een subsidie per geproduceerd stuk</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een belasting per stuk</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een uitzonderlijk goede oogst</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een strenge vorst vernielt de appeloogst</td></tr></table>"
+    }
+   ]
+  },
+  {
+   "kop": "De prijselasticiteit van het aanbod",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<p style=\"text-align:center\"><strong>E<sub>a</sub> = procentuele verandering van de aangeboden hoeveelheid / procentuele verandering van de prijs</strong></p>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Prijs en aangeboden hoeveelheid bewegen in dezelfde richting, dus de elasticiteit van het aanbod is <strong>meestal positief</strong>. Stijgt de prijs met 8 % en de aangeboden hoeveelheid met 4 %, dan is E<sub>a</sub> = 4 / 8 = <strong>0,5</strong>. Is E<sub>a</sub> = 1,5 en stijgt de prijs met 6 %, dan stijgt de hoeveelheid met <strong>9 %</strong>."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">E<sub>a</sub></th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">naam</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">curve</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">groter dan 1, bv. 2</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">elastisch</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vlak</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">unitair elastisch</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bv. een rechte door de oorsprong</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kleiner dan 1</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">inelastisch</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">steil</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">perfect inelastisch</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verticaal</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">oneindig</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">perfect elastisch</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">horizontaal</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij dezelfde schaal wijst een <strong>vlakkere</strong> aanbodcurve op een elastischer aanbod. Een voorbeeld van een perfect inelastisch aanbod: <strong>de zitplaatsen in een uitverkocht stadion op de dag van de match</strong>. Er kunnen er niet meer bij, wat de prijs ook is."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het aanbod is elastischer als <strong>de producent voorraad heeft</strong> of als er <strong>vrije productiecapaciteit</strong> is. Op <strong>lange termijn</strong> is het aanbod elastischer dan op korte termijn: een bedrijf kan dan een nieuwe fabriek bouwen."
+    }
+   ]
+  },
+  {
+   "kop": "Wat als de vraag stijgt?",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<div style=\"display:flex;gap:18px;align-items:flex-end;justify-content:center;flex-wrap:wrap;\"><div><svg viewBox=\"0 0 220 170\" width=\"220\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"44\" y1=\"14\" x2=\"44\" y2=\"134\" stroke=\"#23291f\" stroke-width=\"1.8\"/><line x1=\"44\" y1=\"134\" x2=\"208\" y2=\"134\" stroke=\"#23291f\" stroke-width=\"1.8\"/><text x=\"42.0\" y=\"12.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#6b7260\">prijs</text><text x=\"208.0\" y=\"150.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#6b7260\">hoeveelheid</text><line x1=\"60.0\" y1=\"41.2\" x2=\"156.0\" y2=\"110.8\" stroke=\"#2f5d50\" stroke-width=\"2.2\"/><text x=\"161.0\" y=\"114.8\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#2f5d50\">V</text><line x1=\"92.0\" y1=\"29.6\" x2=\"188.0\" y2=\"99.2\" stroke=\"#6b7260\" stroke-width=\"2.2\" stroke-dasharray=\"6 4\"/><text x=\"193.0\" y=\"103.2\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#6b7260\">V′</text><line x1=\"60.0\" y1=\"76.0\" x2=\"188.0\" y2=\"76.0\" stroke=\"#c17f2b\" stroke-width=\"2.2\"/><text x=\"193.0\" y=\"80.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#c17f2b\">A</text><line x1=\"44.0\" y1=\"76.0\" x2=\"108.0\" y2=\"76.0\" stroke=\"#6b7260\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><line x1=\"108.0\" y1=\"134.0\" x2=\"108.0\" y2=\"76.0\" stroke=\"#6b7260\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><circle cx=\"108.0\" cy=\"76.0\" r=\"3.6\" fill=\"#23291f\"/><line x1=\"44.0\" y1=\"76.0\" x2=\"140.0\" y2=\"76.0\" stroke=\"#6b7260\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><line x1=\"140.0\" y1=\"134.0\" x2=\"140.0\" y2=\"76.0\" stroke=\"#6b7260\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><circle cx=\"140.0\" cy=\"76.0\" r=\"3.6\" fill=\"#23291f\"/><text x=\"134.0\" y=\"12.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#234539\">perfect elastisch</text></svg></div><div><svg viewBox=\"0 0 220 170\" width=\"220\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"44\" y1=\"14\" x2=\"44\" y2=\"134\" stroke=\"#23291f\" stroke-width=\"1.8\"/><line x1=\"44\" y1=\"134\" x2=\"208\" y2=\"134\" stroke=\"#23291f\" stroke-width=\"1.8\"/><text x=\"42.0\" y=\"12.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#6b7260\">prijs</text><text x=\"208.0\" y=\"150.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#6b7260\">hoeveelheid</text><line x1=\"60.0\" y1=\"41.2\" x2=\"156.0\" y2=\"110.8\" stroke=\"#2f5d50\" stroke-width=\"2.2\"/><text x=\"161.0\" y=\"114.8\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#2f5d50\">V</text><line x1=\"92.0\" y1=\"29.6\" x2=\"188.0\" y2=\"99.2\" stroke=\"#6b7260\" stroke-width=\"2.2\" stroke-dasharray=\"6 4\"/><text x=\"193.0\" y=\"103.2\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#6b7260\">V′</text><line x1=\"124.0\" y1=\"122.4\" x2=\"124.0\" y2=\"29.6\" stroke=\"#c17f2b\" stroke-width=\"2.2\"/><text x=\"129.0\" y=\"33.6\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#c17f2b\">A</text><line x1=\"44.0\" y1=\"87.6\" x2=\"124.0\" y2=\"87.6\" stroke=\"#6b7260\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><line x1=\"124.0\" y1=\"134.0\" x2=\"124.0\" y2=\"87.6\" stroke=\"#6b7260\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><circle cx=\"124.0\" cy=\"87.6\" r=\"3.6\" fill=\"#23291f\"/><line x1=\"44.0\" y1=\"64.4\" x2=\"124.0\" y2=\"64.4\" stroke=\"#6b7260\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><line x1=\"124.0\" y1=\"134.0\" x2=\"124.0\" y2=\"64.4\" stroke=\"#6b7260\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><circle cx=\"124.0\" cy=\"64.4\" r=\"3.6\" fill=\"#23291f\"/><text x=\"134.0\" y=\"12.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#234539\">perfect inelastisch</text></svg></div></div>",
+     "onderschrift": "Links stijgt enkel de hoeveelheid, rechts enkel de prijs."
+    },
+    {
+     "soort": "tekst",
+     "html": "Hoe <strong>inelastischer het aanbod</strong>, hoe sterker de prijs stijgt als de vraag stijgt. Bij een <strong>perfect elastisch</strong> aanbod stijgt de hoeveelheid en blijft de prijs gelijk. Bij een <strong>perfect inelastisch</strong> aanbod stijgt de prijs en blijft de hoeveelheid gelijk."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "E_y = % verandering hoeveelheid / % verandering inkomen.",
+  "Negatief: inferieur. 0: indifferent. Tussen 0 en 1: noodzakelijk. Groter dan 1: luxe.",
+  "De aanbodcurve stijgt; ze is het stijgende deel van de marginale kostencurve boven de minimale GVK.",
+  "Eigen prijs: beweging op de curve. Techniek, aantal producenten, grondstofprijzen, subsidies: verschuiving.",
+  "E_a = % verandering aangeboden hoeveelheid / % verandering prijs; meestal positief.",
+  "Verticaal = perfect inelastisch, horizontaal = perfect elastisch; op lange termijn elastischer."
+ ]
+}

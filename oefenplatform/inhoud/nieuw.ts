@@ -41,6 +41,12 @@ export const nieuwTekst = {
 export const updates: Update[] = [
   {
     datum: "11 november 2026",
+    titel: "Leerbundels en oefenbundels voor drie vakken in Beyond",
+    tekst:
+      "In Beyond doorstroom krijgen economie, wiskunde basis en bedrijfswetenschappen en recht bij elk hoofdstuk een leerbundel, een oefenbundel met een antwoordblad achteraan en een klikbare leerbundel om stap voor stap door te nemen. Alle bundels hebben een witte achtergrond, zodat ze thuis makkelijk af te drukken zijn.",
+  },
+  {
+    datum: "11 november 2026",
     titel: "Klikbare leerbundels bij wiskunde, en meer oefenbundels",
     tekst:
       "Bij wiskunde in Boost en Beyond doorstroom stonden de klikbare leerbundels wel klaar, maar je kon ze niet openen. Nu staat bij elk hoofdstuk de knop naar de leerbundel. We zetten ook oefenbundels op papier bij Nederlands in Spark, aardrijkskunde en biologie in Boost, en Frans en welzijnswetenschappen in Beyond.",

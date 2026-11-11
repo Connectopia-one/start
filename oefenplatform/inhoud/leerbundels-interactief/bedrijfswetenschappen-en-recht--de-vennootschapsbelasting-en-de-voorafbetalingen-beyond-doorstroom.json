@@ -1,0 +1,74 @@
+{
+ "vak": "Bedrijfswetenschappen en recht",
+ "titel": "De vennootschapsbelasting en de voorafbetalingen",
+ "onder": "Hoe een vennootschap belast wordt, het verschil met een eenmanszaak, en hoe voorafbetalingen een vermeerdering vermijden.",
+ "secties": [
+  {
+   "kop": "Grondslag en tarief",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een vennootschap betaalt vennootschapsbelasting op haar <strong>belastbare winst</strong> van het boekjaar, niet op de omzet: omzet is de verkoop, winst is wat er overblijft na de kosten. Het tarief is <strong>vast</strong> (niet progressief), met een <strong>verlaagd tarief</strong> op een eerste schijf voor kleine vennootschappen die aan bepaalde voorwaarden voldoen."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">berekening</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">belasting</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">winst 80 000 euro, tarief 25 %</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">80 000 · 0,25</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">20 000 euro</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">winst 60 000 euro, tarief 20 %</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">60 000 · 0,20</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">12 000 euro</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kleine vennootschap, winst 150 000 euro: 20 % op de eerste 100 000 euro, 25 % op de rest</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">20 000 + 50 000 · 0,25 = 20 000 + 12 500</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">32 500 euro</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">idem, winst 200 000 euro</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">20 000 + 100 000 · 0,25</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">45 000 euro</td></tr></table>"
+    }
+   ]
+  },
+  {
+   "kop": "Boekjaar en aanslagjaar",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het <strong>boekjaar</strong> is de periode van twaalf maanden waarover de boekhouding loopt. Het kan samenvallen met het kalenderjaar, maar dat hoeft niet. Zowel de vennootschapsbelasting als de personenbelasting gebruiken het begrip <strong>aanslagjaar</strong>: bij de personenbelasting volgt het op het inkomstenjaar, bij de vennootschapsbelasting hangt het af van de datum waarop het boekjaar afsluit."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">boekjaar</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">afsluiting</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">aanslagjaar</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1 januari tot 31 december 2026</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">op 31 december: het volgende jaar</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2027</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1 juli 2025 tot 30 juni 2026</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">niet op 31 december: het jaar van de afsluiting</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2026</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1 april 2026 tot 31 maart 2027</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">niet op 31 december: het jaar van de afsluiting</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2027</td></tr></table>"
+    }
+   ]
+  },
+  {
+   "kop": "Eenmanszaak of vennootschap",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\"></th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">eenmanszaak</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">vennootschap</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">belasting</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">personenbelasting, geen eigen aangifte vennootschapsbelasting</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vennootschapsbelasting</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">grondslag</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zijn totale belastbare inkomen: de winst telt samen met zijn andere inkomsten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de belastbare winst</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tarief</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">progressief: bij stijgende winst stijgt het gemiddelde tarief, want een groter deel valt in de hogere schijven (tot 50 %)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vast tarief</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">voorafbetalingen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kan ook voorafbetalen; voordeel heet een bonificatie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">voorafbetalingen verlagen de vermeerdering</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>hoge winst</strong> (bijvoorbeeld 120 000 euro) kan een vennootschap voordeliger zijn: het vaste tarief ligt lager dan de hoogste schijven van de personenbelasting. Vergelijk je beide, kijk dan naar de grondslag van de belasting, de progressiviteit en de voorafbetalingen."
+    }
+   ]
+  },
+  {
+   "kop": "Voorafbetalingen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Voorafbetalingen</strong> (VA) zijn voorschotten op de belasting tijdens het jaar zelf, geen extra belasting: ze worden verrekend met de belasting die je verschuldigd bent. Bij een boekjaar gelijk aan het kalenderjaar zijn er <strong>vier</strong> vervaldagen: <strong>10 april, 10 juli, 10 oktober en 20 december</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Wie te weinig voorafbetaalt, krijgt een <strong>belastingvermeerdering</strong>. Wie niets voorafbetaalt, betaalt de volledige belasting pas na de aanslag, plus die vermeerdering. Elke voorafbetaling geeft een voordeel: een percentage dat daalt naarmate ze later in het jaar valt. Een vroege voorafbetaling telt dus zwaarder: de eerste verlaagt de vermeerdering het meest. Meer en vroeger voorafbetalen verlaagt de vermeerdering."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">geval</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">vermeerdering</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voordeel VA</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">over</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">belasting 20 000 euro, geen VA, 9 %</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">20 000 · 0,09 = 1 800</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1 800 euro</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">belasting 20 000 euro, VA1 15 000 euro aan 12 %</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1 800</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">15 000 · 0,12 = 1 800</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0 euro</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">belasting 40 000 euro, VA1 10 000 aan 12 %, VA2 10 000 aan 10 %</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">40 000 · 0,09 = 3 600</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1 200 + 1 000 = 2 200</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1 400 euro</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "In de vennootschapsbelasting daalt de vermeerdering hoogstens tot <strong>nul</strong>: je krijgt er geen geld bij. In de personenbelasting kan een zelfstandige wel een <strong>bonificatie</strong> krijgen: een voordeel, geen boete. Een startende kleine vennootschap krijgt de eerste drie boekjaren geen vermeerdering, om starters te helpen."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Vennootschapsbelasting: vast tarief op de belastbare winst; verlaagd tarief enkel voor kleine vennootschappen.",
+  "Personenbelasting: progressief op het totale belastbare inkomen.",
+  "Aanslagjaar: afsluiting op 31 december geeft het jaar erna, anders het jaar van de afsluiting.",
+  "Vier voorafbetalingen: 10 april, 10 juli, 10 oktober, 20 december. Vroeger = meer voordeel.",
+  "Vermeerdering − voordeel van de VA, hoogstens tot nul."
+ ]
+}

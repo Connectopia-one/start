@@ -1,0 +1,95 @@
+{
+ "vak": "Wiskunde basis",
+ "titel": "Bedrijfswetenschappen: exponentiële en goniometrische vergelijkingen",
+ "onder": "Vergelijkingen met een onbekende in de exponent of in een sinus algebraïsch oplossen.",
+ "secties": [
+  {
+   "kop": "Exponentiële vergelijkingen met hetzelfde grondtal",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Schrijf beide leden als macht van hetzelfde getal."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">vergelijking</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">oplossing</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(2^{x}=64\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(2^{x}=2^{6}\\), dus \\(x=6\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(3^{x}=\\frac{1}{27}\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(3^{x}=3^{-3}\\), dus \\(x=-3\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(10^{x}=0{,}001\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(x=-3\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(9^{x}=3\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(3^{2x}=3^{1}\\), dus \\(x=\\frac{1}{2}\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(5\\cdot 2^{x}-40=0\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(2^{x}=8\\), \\(V=\\{3\\}\\)</td></tr></table>"
+    }
+   ]
+  },
+  {
+   "kop": "Exponentiële vergelijkingen met een logaritme",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Lukt dat niet, zet dan de macht alleen en neem de logaritme met dat grondtal. \\(a^{x}=k\\) (met \\(k>0\\)) geeft \\(x=\\log_{a}k\\)."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">vergelijking</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">exact</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">benaderd</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(2^{x}=7\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(x=\\log_{2}7\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(2{,}81\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(e^{x}=5\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(x=\\ln 5\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(1{,}61\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(1{,}2^{x}-2=0\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(x=\\log_{1{,}2}2\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(3{,}80\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(2000\\cdot 1{,}03^{t}=3000\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(t=\\log_{1{,}03}1{,}5\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(13{,}7\\)</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Opgelet: \\(3\\cdot 2^{x}\\) is <strong>niet</strong> \\(6^{x}\\). Deel eerst door \\(3\\): \\(3\\cdot 2^{x}=24\\) geeft \\(2^{x}=8\\). Zo ook \\(2\\cdot 3^{x}=18\\): \\(3^{x}=9\\), \\(x=2\\), en niet hetzelfde als \\(6^{x}=18\\)."
+    },
+    {
+     "soort": "tekst",
+     "html": "Is \\(b>0\\) en \\(c>0\\), dan heeft \\(b\\cdot a^{x}+c=0\\) <strong>geen</strong> oplossing: \\(4\\cdot 1{,}5^{x}+3=0\\) geeft \\(V=\\varnothing\\). Bij \\(a>1\\) en \\(k>1\\) is \\(\\log_{a}k\\) positief."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Groei en verval</strong>"
+    },
+    {
+     "soort": "kader",
+     "html": "<ul><li>Verdubbelingstijd: los \\(a^{t}=2\\) op.</li><li>Een stof halveert elke \\(5\\) jaar: \\(80\\cdot 0{,}5^{t/5}=10\\) geeft \\(0{,}5^{t/5}=\\frac{1}{8}\\), \\(\\frac{t}{5}=3\\), dus \\(t=15\\) jaar.</li><li>\\(50\\,000\\) inwoners, \\(-4\\%\\) per jaar: \\(50\\,000\\cdot 0{,}96^{t}<40\\,000\\) geeft \\(t>\\log_{0{,}96}0{,}8\\approx 5{,}47\\): na \\(6\\) jaar.</li></ul>"
+    }
+   ]
+  },
+  {
+   "kop": "Goniometrische vergelijkingen",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<p style='text-align:center'><strong>\\(\\sin x=\\sin\\alpha\\iff x=\\alpha+k\\cdot 2\\pi\\) of \\(x=\\pi-\\alpha+k\\cdot 2\\pi\\)</strong>, met \\(k\\in\\mathbb{Z}\\)</p>"
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 268\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"5\" y=\"4\" width=\"460\" height=\"242\" rx=\"7\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/>\n<line x1=\"107.0\" y1=\"128.0\" x2=\"363.0\" y2=\"128.0\" stroke=\"#23291f\" stroke-width=\"1.4\"/>\n<line x1=\"235.0\" y1=\"10.0\" x2=\"235.0\" y2=\"246.0\" stroke=\"#23291f\" stroke-width=\"1.4\"/>\n<circle cx=\"235.0\" cy=\"128.0\" r=\"94.0\" fill=\"none\" stroke=\"#234539\" stroke-width=\"1.8\"/>\n<circle cx=\"329.0\" cy=\"128.0\" r=\"2.6\" fill=\"#6b7260\"/>\n<text x=\"345.0\" y=\"120.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">0</text>\n<circle cx=\"235.0\" cy=\"34.0\" r=\"2.6\" fill=\"#6b7260\"/>\n<text x=\"251.0\" y=\"28.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">π/2</text>\n<circle cx=\"141.0\" cy=\"128.0\" r=\"2.6\" fill=\"#6b7260\"/>\n<text x=\"127.0\" y=\"120.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">π</text>\n<circle cx=\"235.0\" cy=\"222.0\" r=\"2.6\" fill=\"#6b7260\"/>\n<text x=\"255.0\" y=\"238.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">3π/2</text>\n<line x1=\"235.0\" y1=\"128.0\" x2=\"292.9\" y2=\"53.9\" stroke=\"#234539\" stroke-width=\"2\"/>\n<text x=\"259.9\" y=\"85.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#234539\">1</text>\n<circle cx=\"292.9\" cy=\"53.9\" r=\"4\" fill=\"#234539\"/>\n<text x=\"300.9\" y=\"45.9\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#234539\">P</text>\n<line x1=\"292.9\" y1=\"53.9\" x2=\"292.9\" y2=\"128.0\" stroke=\"#6b7260\" stroke-width=\"1.2\" stroke-dasharray=\"4 3\"/>\n<line x1=\"292.9\" y1=\"53.9\" x2=\"235.0\" y2=\"53.9\" stroke=\"#6b7260\" stroke-width=\"1.2\" stroke-dasharray=\"4 3\"/>\n<line x1=\"235.0\" y1=\"128.0\" x2=\"292.9\" y2=\"128.0\" stroke=\"#c17f2b\" stroke-width=\"3.2\"/>\n<line x1=\"235.0\" y1=\"128.0\" x2=\"235.0\" y2=\"53.9\" stroke=\"#2f5d50\" stroke-width=\"3.2\"/>\n<text x=\"263.9\" y=\"144.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#c17f2b\">cos α</text>\n<text x=\"227.0\" y=\"95.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#2f5d50\">sin α</text>\n<path d=\"M261.0 128.0 A 26 26 0 0 0 251.0 107.5\" fill=\"none\" stroke=\"#6b7260\" stroke-width=\"1.2\"/>\n<text x=\"269.0\" y=\"116.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">α</text>\n<text x=\"235.0\" y=\"262.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">het beeldpunt P heeft de cosinus als x en de sinus als y</text></svg>",
+     "onderschrift": "Twee punten op de cirkel liggen even hoog: \\(\\alpha\\) en \\(\\pi-\\alpha\\)."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">vergelijking</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">oplossingen in \\([0,2\\pi]\\)</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\sin x=\\frac{1}{2}\\) of \\(2\\sin x-1=0\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\frac{\\pi}{6}\\) en \\(\\frac{5\\pi}{6}\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\sin x=-1\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">enkel \\(\\frac{3\\pi}{2}\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(2\\sin x+\\sqrt{3}=0\\), dus \\(\\sin x=-\\frac{\\sqrt{3}}{2}\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\frac{4\\pi}{3}\\) en \\(\\frac{5\\pi}{3}\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\sin x=-0{,}5\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\frac{7\\pi}{6}\\) en \\(\\frac{11\\pi}{6}\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\sin x+1=1\\), dus \\(\\sin x=0\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(0\\), \\(\\pi\\) en \\(2\\pi\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\sin x=0{,}3\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\approx 0{,}30\\) en \\(\\pi-0{,}30\\approx 2{,}84\\) (geen in het derde kwadrant)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(3\\sin x=4\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geen: \\(\\sin x=\\frac{4}{3}>1\\)</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Zet je rekentoestel in <strong>radialen</strong> als je de oplossing in radialen wil."
+    },
+    {
+     "soort": "kader",
+     "html": "<ul><li>\\(\\sin x=\\frac{\\sqrt{2}}{2}\\): \\(x=\\frac{\\pi}{4}+k\\cdot 2\\pi\\) of \\(x=\\frac{3\\pi}{4}+k\\cdot 2\\pi\\).</li><li>\\(\\sin 2x=1\\): \\(2x=\\frac{\\pi}{2}+k\\cdot 2\\pi\\), dus \\(x=\\frac{\\pi}{4}+k\\pi\\). De oplossingen liggen \\(\\pi\\) uit elkaar; in \\([0,\\pi]\\) enkel \\(\\frac{\\pi}{4}\\).</li><li>\\(\\sin\\left(x-\\frac{\\pi}{4}\\right)=0\\): \\(x-\\frac{\\pi}{4}=k\\pi\\), dus \\(x=\\frac{\\pi}{4}+k\\pi\\).</li></ul>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een goniometrische vergelijking met een oplossing heeft op \\(\\mathbb{R}\\) <strong>oneindig veel</strong> oplossingen. De algemene vorm is \\(a\\sin b(x-c)+d=0\\), zoals \\(4\\sin 3(x-1)+2=0\\)."
+    }
+   ]
+  },
+  {
+   "kop": "Toepassingen",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<p><strong>Getij:</strong> \\(h(t)=2\\sin\\left(\\frac{\\pi}{6}t\\right)+3\\).</p><ul><li>\\(h=4\\): \\(\\sin\\left(\\frac{\\pi}{6}t\\right)=\\frac{1}{2}\\), \\(\\frac{\\pi}{6}t=\\frac{\\pi}{6}\\): voor het eerst na \\(1\\) uur.</li><li>\\(h=5\\): \\(\\sin\\left(\\frac{\\pi}{6}t\\right)=1\\), \\(\\frac{\\pi}{6}t=\\frac{\\pi}{2}\\): na \\(3\\) uur.</li></ul><p><strong>Reuzenrad:</strong> \\(h(t)=10\\sin\\left(\\frac{\\pi}{5}(t-2{,}5)\\right)+12\\). Op \\(12\\) m als de sinus \\(0\\) is: voor het eerst bij \\(t=2{,}5\\) min.</p>"
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Zelfde grondtal: exponenten gelijkstellen. Anders: \\(a^{x}=k\\Rightarrow x=\\log_{a}k\\).",
+  "Eerst de macht alleen zetten; \\(b\\cdot a^{x}\\) is niet \\((ba)^{x}\\).",
+  "\\(a^{x}\\) is altijd positief: \\(a^{x}=\\) negatief getal heeft geen oplossing.",
+  "\\(\\sin x=\\sin\\alpha\\): \\(x=\\alpha+k2\\pi\\) of \\(x=\\pi-\\alpha+k2\\pi\\).",
+  "\\(\\sin x\\) ligt tussen \\(-1\\) en \\(1\\); rekentoestel in radialen."
+ ]
+}

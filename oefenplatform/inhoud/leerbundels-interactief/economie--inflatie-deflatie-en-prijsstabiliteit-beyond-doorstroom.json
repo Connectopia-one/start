@@ -1,0 +1,93 @@
+{
+ "vak": "Economie",
+ "titel": "Inflatie, deflatie en prijsstabiliteit",
+ "onder": "Waarom prijzen stijgen of dalen, hoe je dat meet, en wat de ECB en de overheid ertegen doen.",
+ "secties": [
+  {
+   "kop": "Begrippen",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">begrip</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">betekenis</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">inflatie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>algemene en aanhoudende</strong> stijging van het prijspeil</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">deflatie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een algemene daling van het prijspeil</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">stagflatie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">inflatie samen met een stilstaande economie en werkloosheid</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">krimpflatie (shrinkflation)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de verpakking wordt kleiner, de prijs blijft gelijk</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">beknibbelflatie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de kwaliteit of service daalt, de prijs blijft gelijk</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Krimpflatie zie je dus <strong>niet</strong> aan een hogere prijs op het etiket. Een fles shampoo die van 500 ml naar 400 ml gaat voor dezelfde prijs, is per milliliter <strong>25 %</strong> duurder geworden (500 / 400 = 1,25)."
+    }
+   ]
+  },
+  {
+   "kop": "Soorten inflatie",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">soort</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">oorzaak</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bestedingsinflatie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de vraag is groter dan wat er geproduceerd kan worden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sterk stijgende overheidsuitgaven tijdens een hoogconjunctuur</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kosteninflatie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">lonen en grondstoffen worden duurder en bedrijven rekenen dat door</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een loonstijging in de bouw</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">importinflatie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ingevoerde goederen worden duurder</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de prijs van ingevoerd aardgas verdubbelt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">monetaire inflatie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de geldhoeveelheid stijgt sneller dan de productie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een land dat geld bijdrukt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">conjuncturele inflatie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">volgt de hoog- en laagconjunctuur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">structurele inflatie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">blijvende kenmerken van een economie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">weinig concurrentie, automatische koppelingen</td></tr></table>"
+    }
+   ]
+  },
+  {
+   "kop": "De ruilvergelijking van Fisher",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<p style=\"text-align:center\"><strong>M · V = P · T</strong></p><p>M = geldhoeveelheid, V = <strong>omloopsnelheid van het geld</strong>, P = prijspeil, T = het aantal transacties.</p>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Blijven V en T gelijk en verdubbelt de geldhoeveelheid, dan <strong>verdubbelt het prijspeil</strong>. Zo verklaart Fisher monetaire inflatie."
+    }
+   ]
+  },
+  {
+   "kop": "Inflatie meten",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">index</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">meet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">consumptieprijsindex (CPI)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de prijzen van wat gezinnen kopen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">HICP</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geharmoniseerde CPI, om de inflatie <strong>tussen EU-landen te vergelijken</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gezondheidsindex</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de CPI <strong>zonder tabak, alcohol, benzine en diesel</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">afgevlakte gezondheidsindex</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het gemiddelde van de laatste vier maanden</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">spilindex</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een drempel: overschrijdt de afgevlakte gezondheidsindex hem, dan worden uitkeringen en ambtenarenlonen aangepast</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bbp-deflator</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de prijzen van <strong>alles wat in een land geproduceerd wordt</strong>, ook investeringsgoederen en overheidsdiensten</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "<p style=\"text-align:center\"><strong>inflatie = (nieuwe index − oude index) / oude index · 100</strong></p><ul><li>CPI van 120 naar 126: 6 / 120 · 100 = <strong>5 %</strong>.</li><li>CPI van 150 naar 147: −3 / 150 · 100 = <strong>−2 %</strong> (deflatie).</li></ul>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Voor de loonindexering gebruikt België de gezondheidsindex, <strong>om te vermijden dat duurdere tabak, alcohol en brandstof de lonen opdrijven</strong>. De spilindex heeft niets met beurskoersen te maken."
+    }
+   ]
+  },
+  {
+   "kop": "Gevolgen",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<ul><li>Inflatie van 3 % en een loon dat niet stijgt: de <strong>koopkracht daalt met ongeveer 3 %</strong>.</li><li>Bij een onverwacht hoge inflatie verliezen <strong>spaarders met een lage rente</strong> en <strong>mensen met een vast inkomen dat niet geïndexeerd wordt</strong>.</li><li>Stijgen de prijzen sneller dan in het buitenland, dan wordt de <strong>export duurder</strong> en daalt de concurrentiekracht.</li><li>Bij <strong>deflatie</strong> stellen consumenten aankopen vaak uit, wat de economie verder afremt. Een schuld met vaste rente wordt dan <strong>zwaarder</strong> om te dragen, niet lichter. Oorzaken van deflatie zijn bijvoorbeeld een sterke daling van de vraag in een crisis of sterk dalende grondstofprijzen.</li></ul>"
+    }
+   ]
+  },
+  {
+   "kop": "Prijsstabiliteit",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>ECB</strong> streeft een inflatie na van <strong>2 % op middellange termijn</strong>. Is de inflatie te hoog, dan <strong>verhoogt ze de beleidsrente</strong>. De ECB kan de btw in België niet verlagen: dat doet de nationale overheid."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">prijsbeleid van de overheid</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rechtstreeks</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een maximumprijs voor energie vastleggen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">onrechtstreeks</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de btw op energie verlagen, meer concurrentie op een markt toelaten</td></tr></table>"
+    },
+    {
+     "soort": "weetje",
+     "html": "Stagflatie is lastig: een renteverhoging remt de inflatie af, maar remt ook de groei. Ze kan niet tegelijk tegen de inflatie en voor meer groei werken."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Inflatie: algemene en aanhoudende prijsstijging. Deflatie: algemene daling. Stagflatie: inflatie + stilstand.",
+  "Bestedings-, kosten-, import-, monetaire, conjuncturele en structurele inflatie.",
+  "Fisher: M · V = P · T.",
+  "Inflatie = (nieuw − oud) / oud · 100. Gezondheidsindex zonder tabak, alcohol en brandstof.",
+  "ECB: 2 % op middellange termijn; te hoge inflatie → rente omhoog.",
+  "Inflatie treft spaarders en vaste inkomens; deflatie maakt schulden zwaarder."
+ ]
+}

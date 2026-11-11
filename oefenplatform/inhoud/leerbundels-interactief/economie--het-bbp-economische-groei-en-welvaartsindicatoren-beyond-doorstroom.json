@@ -1,0 +1,135 @@
+{
+ "vak": "Economie",
+ "titel": "Het bbp, economische groei en welvaartsindicatoren",
+ "onder": "Hoe je het bbp op drie manieren berekent, wat reële groei is, en wat het bbp niet meet.",
+ "secties": [
+  {
+   "kop": "Wat het bbp is",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het <strong>bruto binnenlands product (bbp)</strong> is <strong>de waarde van alle finale goederen en diensten die een jaar lang in een land gemaakt worden</strong>. 'Binnenlands' wil zeggen: alles wat binnen de grenzen geproduceerd wordt, wie het ook maakt. Een <strong>Nederlander die in Antwerpen werkt</strong>, draagt dus bij aan het Belgische bbp."
+    },
+    {
+     "soort": "tekst",
+     "html": "In België publiceert de <strong>Nationale Bank van België</strong> de officiële cijfers over het bbp."
+    }
+   ]
+  },
+  {
+   "kop": "Drie berekeningswijzen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Je kan het bbp op drie manieren berekenen. Ze komen op hetzelfde uit, omdat elke euro die besteed wordt, voor iemand een inkomen is en bij iemand toegevoegde waarde."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">benadering</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat je optelt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bestedingsbenadering</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bbp = C + I + G + (X − M)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">inkomensbenadering</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de lonen, interesten, huren en winsten</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">productiebenadering</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de toegevoegde waarde van alle bedrijven</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "In de <strong>bestedingsbenadering</strong> tellen aankopen van finale goederen mee: een gezin dat een nieuwe fiets koopt (C), een bedrijf dat een nieuwe machine koopt (I)."
+    }
+   ]
+  },
+  {
+   "kop": "Toegevoegde waarde en de bedrijfskolom",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>bruto toegevoegde waarde</strong> is de omzet min de aankopen bij andere bedrijven. Een bakker die brood verkoopt voor 50 000 euro en voor 20 000 euro bloem en andere grondstoffen kocht, heeft een bruto toegevoegde waarde van <strong>30 000 euro</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Trek je daar de <strong>afschrijvingen</strong> af, de slijtage van zijn oven bijvoorbeeld, dan krijg je de <strong>netto toegevoegde waarde</strong>. Met 5 000 euro afschrijvingen is dat <strong>25 000 euro</strong>. Het verschil tussen bruto en netto zijn dus de afschrijvingen."
+    },
+    {
+     "soort": "tekst",
+     "html": "In een <strong>bedrijfskolom</strong> mag je de omzetten van elke schakel <strong>niet</strong> optellen: dan tel je het hout drie keer. De boswachter verkoopt hout voor 100, de zagerij planken voor 250, de meubelmaker de tafel voor 600. De toegevoegde waarden zijn 100, 150 en 350, samen <strong>600</strong>: precies de waarde van het finale product."
+    }
+   ]
+  },
+  {
+   "kop": "Factorprijzen en marktprijzen, bbp en bnp",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het <strong>bbp tegen factorprijzen</strong> is wat de productiefactoren verdienen. Het <strong>bbp tegen marktprijzen</strong> is wat de koper betaalt. Je gaat van het eerste naar het tweede door de <strong>indirecte belastingen erbij te tellen en de subsidies af te trekken</strong>. Met 480 tegen factorprijzen, 70 indirecte belastingen en 10 subsidies is het bbp tegen marktprijzen 480 + 70 − 10 = <strong>540</strong>. Omdat de belastingen meestal groter zijn dan de subsidies, is het bbp tegen marktprijzen meestal groter."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>bruto nationaal product (bnp)</strong> kijkt naar de inwoners in plaats van naar het grondgebied. Het telt wel de <strong>inkomens die inwoners verdienen in het buitenland</strong>:"
+    },
+    {
+     "soort": "kader",
+     "html": "<p style=\"text-align:center\"><strong>bnp = bbp + primaire inkomens uit het buitenland − primaire inkomens naar het buitenland</strong></p>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Trek je van het bnp de afschrijvingen af, dan krijg je het netto nationaal product. Het <strong>nationaal inkomen</strong> is <strong>het netto nationaal product tegen factorkosten</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Nominaal en reëel bbp",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het <strong>nominaal bbp</strong> rekent in de prijzen van dat jaar. Het kan dus ook stijgen omdat alles duurder werd, zonder dat er meer geproduceerd wordt. Het <strong>reëel bbp</strong> is <strong>het bbp in constante prijzen</strong>: de prijsstijging is eruit gehaald."
+    },
+    {
+     "soort": "tekst",
+     "html": "Stijgt het nominaal bbp met 5 % en de prijzen met 3 %, dan groeide het reëel bbp met <strong>ongeveer 2 %</strong>. Wil je weten of de economie echt groeide, dan <strong>vergelijk je het reëel bbp van beide jaren</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Innovatie</strong> heet een motor van economische groei: <strong>nieuwe technieken laten toe met dezelfde middelen meer of betere producten te maken</strong>. Innovatie is ook een <strong>disruptieve factor</strong>: een vernieuwing kan bestaande bedrijven of beroepen overbodig maken."
+    }
+   ]
+  },
+  {
+   "kop": "Bbp per capita: wat het wel en niet zegt",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Om welvaart te vergelijken, gebruik je het <strong>bbp per capita</strong>, omdat <strong>landen verschillend veel inwoners hebben</strong>. Een bbp van 600 miljard euro en 12 miljoen inwoners geeft 600 000 000 000 / 12 000 000 = <strong>50 000 euro</strong> per inwoner."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het bbp per capita heeft tekortkomingen:"
+    },
+    {
+     "soort": "kader",
+     "html": "<ul><li>het zegt <strong>niets over hoe het inkomen verdeeld is</strong>: een hoger bbp per capita betekent dus niet altijd dat de meeste inwoners er beter aan toe zijn;</li><li><strong>onbetaald werk</strong> zoals vrijwilligerswerk of <strong>een ouder die thuis voor de kinderen zorgt</strong>, telt niet mee;</li><li>het houdt <strong>geen rekening met de schade aan het milieu</strong>;</li><li>herstel na een ramp telt als productie: <strong>het opruimen na een overstroming doet het bbp stijgen</strong>.</li></ul>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Welvaart</strong> en <strong>welzijn</strong> zijn in de economie niet hetzelfde. Welvaart gaat over de materiële behoeften die je met geld kan vervullen; welzijn is ruimer: gezondheid, vrije tijd, geluk, een veilige omgeving."
+    }
+   ]
+  },
+  {
+   "kop": "Andere welvaartsindicatoren",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">indicator</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat ze meet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">HDI (Human Development Index)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">levensverwachting, onderwijs en inkomen per inwoner</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">BNG (Bruto Nationaal Geluk)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geluk en welzijn; bekend gemaakt door Bhutan</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">MEW (Measure of Economic Welfare)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">past het bbp aan voor vrije tijd, onbetaald werk en schade</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Better Life Index (OESO)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je kiest zelf hoe zwaar elk onderdeel doorweegt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">SDG Dashboard en SDG Index</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hoe ver een land staat met het halen van de duurzame ontwikkelingsdoelen</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>HDI</strong> en het <strong>BNG</strong> meten meer dan alleen materiële welvaart. Een land met een gemiddeld bbp per capita kan zo toch een hoge HDI hebben, als levensverwachting en onderwijs goed scoren."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Bbp: de waarde van alle finale goederen en diensten die een jaar lang in een land gemaakt worden.",
+  "Drie benaderingen: bestedingen (C + I + G + X − M), inkomens (lonen, interesten, huren, winsten), productie (toegevoegde waarde).",
+  "Bruto min afschrijvingen is netto. Tel in een bedrijfskolom de toegevoegde waarden op, niet de omzetten.",
+  "Marktprijzen = factorprijzen + indirecte belastingen − subsidies.",
+  "Bnp telt ook de inkomens van inwoners uit het buitenland.",
+  "Reëel bbp = bbp in constante prijzen; reële groei ≈ nominale groei − inflatie.",
+  "Bbp per capita mist verdeling, onbetaald werk en milieuschade; HDI, BNG, MEW en Better Life Index meten breder."
+ ]
+}

@@ -1,0 +1,75 @@
+{
+ "vak": "Bedrijfswetenschappen en recht",
+ "titel": "De balans voor financiële analyse",
+ "onder": "De balans herschikken naar lange en korte termijn, het nettobedrijfskapitaal, en verticale en horizontale analyse.",
+ "secties": [
+  {
+   "kop": "De herschikte balans",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Voor een financiële analyse herschik je de balans om <strong>lange en korte termijn</strong> duidelijk te scheiden. Zo kan je liquiditeit en solvabiliteit beoordelen. Op de balans is het totaal van de activa altijd gelijk aan het totaal van de passiva: elke bezitting is gefinancierd met eigen of vreemd vermogen."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 230\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"45\" y=\"20\" width=\"145\" height=\"120\" fill=\"#2f5d50\" fill-opacity=\".16\" stroke=\"#2f5d50\" stroke-width=\"1.4\"/><text x=\"117.5\" y=\"80.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#23291f\">langdurende activa</text><text x=\"117.5\" y=\"94.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">langer dan een jaar</text><rect x=\"45\" y=\"140\" width=\"145\" height=\"80\" fill=\"#c17f2b\" fill-opacity=\".16\" stroke=\"#c17f2b\" stroke-width=\"1.4\"/><text x=\"117.5\" y=\"180.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#23291f\">courante activa</text><text x=\"117.5\" y=\"194.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">binnen het jaar</text><rect x=\"210\" y=\"20\" width=\"145\" height=\"65\" fill=\"#2f5d50\" fill-opacity=\".16\" stroke=\"#2f5d50\" stroke-width=\"1.4\"/><text x=\"282.5\" y=\"56.5\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#23291f\">eigen vermogen</text><rect x=\"210\" y=\"85\" width=\"145\" height=\"35\" fill=\"#2f5d50\" fill-opacity=\".16\" stroke=\"#2f5d50\" stroke-width=\"1.4\"/><text x=\"282.5\" y=\"106.5\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#23291f\">vreemd vermogen LT</text><rect x=\"210\" y=\"120\" width=\"145\" height=\"100\" fill=\"#c17f2b\" fill-opacity=\".16\" stroke=\"#c17f2b\" stroke-width=\"1.4\"/><text x=\"282.5\" y=\"170.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#23291f\">vreemd vermogen KT</text><text x=\"282.5\" y=\"184.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">binnen het jaar</text><text x=\"117.5\" y=\"12.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#6b7260\">ACTIVA</text><text x=\"282.5\" y=\"12.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#6b7260\">PASSIVA</text><path d=\"M363,20 h6 v100 h-6\" fill=\"none\" stroke=\"#23291f\" stroke-width=\"1.2\"/><text x=\"373.0\" y=\"68.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#23291f\">permanent</text><text x=\"373.0\" y=\"81.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#23291f\">vermogen</text><rect x=\"45\" y=\"120\" width=\"310\" height=\"20\" fill=\"#2f5d50\" fill-opacity=\".10\" stroke=\"#2f5d50\" stroke-dasharray=\"4 3\"/><text x=\"39.0\" y=\"133.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#2f5d50\">NBK</text></svg>",
+     "onderschrift": "Het nettobedrijfskapitaal (NBK) is het stuk courante activa dat met permanent vermogen gefinancierd is."
+    }
+   ]
+  },
+  {
+   "kop": "Wat hoort waar?",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">post</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat hoort erbij</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">langdurende activa</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bezittingen die langer dan een jaar blijven: terreinen en gebouwen, machines, vorderingen op meer dan een jaar</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">courante activa</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">voorraden (binnen het jaar verkocht of gebruikt), vorderingen op ten hoogste een jaar (op klanten), geldbeleggingen, liquide middelen (het geld op de bankrekening, direct beschikbaar)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">eigen vermogen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het kapitaal, de reserves (winst die in de onderneming blijft), de overgedragen winst (van de eigenaars)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vreemd vermogen op lange termijn</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een hypothecaire lening over 20 jaar, een obligatielening op tien jaar (behalve het deel dat binnen het jaar vervalt)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vreemd vermogen op korte termijn</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">schulden aan leveranciers, te betalen btw: binnen het jaar te betalen</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Permanent vermogen</strong> = eigen vermogen + vreemd vermogen op lange termijn: het blijft langer dan een jaar ter beschikking. 150 000 + 100 000 = 250 000 euro. Vuistregel: financier langdurende activa met permanent vermogen, want wat lang in het bedrijf blijft, financier je met vermogen dat lang blijft."
+    }
+   ]
+  },
+  {
+   "kop": "Het nettobedrijfskapitaal",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<p style='text-align:center'><strong>NBK = permanent vermogen − langdurende activa = courante activa − vreemd vermogen op korte termijn</strong></p>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Langs de bovenkant of de onderkant van de balans krijg je altijd hetzelfde. 300 000 − 250 000 = 50 000 euro; of 180 000 − 120 000 = 60 000 euro. Een <strong>positief</strong> NBK betekent dat een deel van de courante activa met permanent vermogen gefinancierd is: gezond. Een <strong>negatief</strong> NBK betekent dat langdurende activa deels met kortlopende schulden gefinancierd zijn: meestal een risico."
+    }
+   ]
+  },
+  {
+   "kop": "Verticale en horizontale analyse",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\"></th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">verticale analyse</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">horizontale analyse</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wat</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">elke post als % van het balanstotaal, binnen één balans van één jaar</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de evolutie van een post over de jaren</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">formule</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">post / balanstotaal · 100</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">(nieuw − oud) / oud · 100</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">voorbeeld</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">eigen vermogen 200 000 op 500 000: 40 %; liquide middelen 30 000 op 600 000: 5 %</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">voorraad 40 000 → 50 000: +25 %; omzet 1 000 000 → 900 000: −10 %; 80 000 → 60 000: −25 %</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sterk punt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">alle activaposten samen = 100 %; je kan bedrijven van verschillende grootte beter vergelijken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je ziet trends</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Stijgt in de verticale analyse het aandeel van de schulden op korte termijn, dan steunt de onderneming meer op kortlopende schulden. Dat kan druk zetten op de liquiditeit."
+    }
+   ]
+  },
+  {
+   "kop": "Waar vind je de cijfers?",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De jaarrekeningen van Belgische vennootschappen vind je gratis in de <strong>balanscentrale van de Nationale Bank</strong>. Uit een gepubliceerde jaarrekening kan je zelf kerncijfers berekenen; op het examen krijg je een jaarrekening en een formularium. Een beperking: een balans is een <strong>momentopname</strong>, meestal op 31 december."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Langdurend = langer dan een jaar; courant = binnen het jaar.",
+  "Permanent vermogen = eigen vermogen + vreemd vermogen op lange termijn.",
+  "NBK = permanent vermogen − langdurende activa = courante activa − VV korte termijn. Positief is gezond.",
+  "Verticaal: % van het balanstotaal. Horizontaal: evolutie over de jaren."
+ ]
+}

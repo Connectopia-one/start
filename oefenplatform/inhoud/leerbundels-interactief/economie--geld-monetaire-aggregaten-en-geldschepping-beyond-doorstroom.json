@@ -1,0 +1,96 @@
+{
+ "vak": "Economie",
+ "titel": "Geld, monetaire aggregaten en geldschepping",
+ "onder": "Waarvoor geld dient, welke soorten er zijn, en hoe banken nieuw geld maken.",
+ "secties": [
+  {
+   "kop": "Waarom geld?",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij <strong>ruilhandel</strong> zonder geld moest je <strong>iemand vinden die wilde wat jij had</strong> en die tegelijk had wat jij wilde. Geld lost dat op. Papieren biljetten hebben zelf weinig waarde: mensen aanvaarden ze omdat <strong>ze vertrouwen dat anderen ze ook aanvaarden</strong>."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">functie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ruil- en betaalmiddel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je betaalt een broodje</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">waardemeter en rekeneenheid</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">elke prijs staat in euro, zodat je kan vergelijken</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">spaar- en beleggingsmiddel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je zet elke maand 50 euro opzij</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kredietmiddel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een bank leent geld aan een gezin dat een huis koopt</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>hoge inflatie</strong> tast vooral de functie als <strong>spaarmiddel</strong> aan: je gespaarde geld wordt minder waard."
+    }
+   ]
+  },
+  {
+   "kop": "Soorten geld",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">soort</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">chartaal geld</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">munten en bankbiljetten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het briefje van 20 in je portefeuille</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">giraal geld</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tegoeden op zichtrekeningen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">betalen met je bankkaart</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">quasigeld</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tegoeden die je snel kan omzetten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een spaarrekening, een termijnrekening van zes maanden</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">e-money</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">elektronisch geld op een kaart of in een app</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een prepaid betaalkaart</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">cryptovaluta</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">digitale munten zonder centrale bank</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bitcoin</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een spaarrekening is dus <strong>geen</strong> giraal geld maar quasigeld. In de eurozone is <strong>giraal geld</strong> het grootste deel van M1, niet het chartale geld."
+    },
+    {
+     "soort": "tekst",
+     "html": "Cryptovaluta worden <strong>niet</strong> uitgegeven door de Europese Centrale Bank en zijn <strong>geen wettig betaalmiddel</strong> in België: een winkel moet ze niet aanvaarden. Bitcoin is ook een slechte <strong>waardemeter</strong>, want <strong>de waarde schommelt sterk</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Monetaire aggregaten",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">aggregaat</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">inhoud</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">M1</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">chartaal geld + giraal geld (zichtrekeningen)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">M2</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">M1 + secundaire liquiditeiten (zoals spaar- en korte termijnrekeningen)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">M3</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">M2 + nog wat minder liquide tegoeden: het <strong>ruimste</strong> aggregaat</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Elk aggregaat bevat het vorige, dus M1 is het kleinst. De zichtrekeningen zitten in <strong>M1, M2 en M3</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Geldsubstitutie en geldschepping",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Geldsubstitutie</strong> is <strong>een soort geld omzetten in een andere soort</strong>. Er ontstaat <strong>geen</strong> nieuw geld."
+    },
+    {
+     "soort": "kader",
+     "html": "<ul><li>Je stort 100 euro aan biljetten op je zichtrekening: chartaal wordt giraal, <strong>M1 blijft gelijk</strong>.</li><li>Je haalt 50 euro af aan de automaat: ook geldsubstitutie.</li><li>Je zet 1 000 euro van je zichtrekening op je spaarrekening: <strong>M1 daalt</strong>, <strong>M2 blijft gelijk</strong> (het geld zit nog altijd in M2).</li></ul>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Geldschepping</strong> is <strong>het ontstaan van nieuw geld</strong>. <strong>Commerciële banken scheppen giraal geld met kredieten</strong>. Geeft een bank een lening van 10 000 euro en zet ze dat bedrag op de zichtrekening van de klant, dan <strong>stijgt M1 met 10 000 euro</strong>. Een woonkrediet of een investeringskrediet voor een bedrijf zijn dus geldschepping."
+    },
+    {
+     "soort": "tekst",
+     "html": "Omgekeerd: als een lening wordt <strong>terugbetaald</strong>, <strong>verdwijnt</strong> er giraal geld. Geeft een bank 1 miljoen euro nieuwe kredieten terwijl klanten 400 000 euro terugbetalen, dan stijgt het girale geld met <strong>600 000 euro</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "De centrale bank",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "In de eurozone geeft <strong>het Eurosysteem</strong> (de ECB en de nationale centrale banken) de bankbiljetten uit. De centrale bank is <strong>de bank van de banken</strong>. Ze <strong>stuurt de geldhoeveelheid bij met de rente</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Commerciële banken kunnen niet onbeperkt geld scheppen: <strong>ze moeten reserves en kapitaal aanhouden</strong>."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Functies: ruil- en betaalmiddel, waardemeter, spaarmiddel, kredietmiddel.",
+  "Chartaal = munten en biljetten; giraal = zichtrekeningen; quasigeld = snel om te zetten tegoeden.",
+  "M1 = chartaal + giraal; M2 = M1 + secundaire liquiditeiten; M3 is het ruimst.",
+  "Geldsubstitutie: een soort geld in een andere, geen nieuw geld.",
+  "Geldschepping: banken scheppen giraal geld met kredieten; terugbetalen doet geld verdwijnen.",
+  "Het Eurosysteem geeft biljetten uit; de centrale bank stuurt bij met de rente."
+ ]
+}

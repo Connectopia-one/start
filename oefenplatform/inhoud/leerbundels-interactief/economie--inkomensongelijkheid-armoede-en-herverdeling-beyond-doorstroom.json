@@ -1,0 +1,114 @@
+{
+ "vak": "Economie",
+ "titel": "Inkomensongelijkheid, armoede en herverdeling",
+ "onder": "Hoe je ongelijkheid en armoede meet, en hoe de overheid inkomen herverdeelt.",
+ "secties": [
+  {
+   "kop": "Twee soorten inkomensverdeling",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\"></th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">toont</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">personele inkomensverdeling</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hoe het inkomen verdeeld is over <strong>personen of gezinnen</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">categoriale inkomensverdeling</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hoe het inkomen verdeeld is over <strong>de productiefactoren</strong> (loon, intrest, huur, winst)</td></tr></table>"
+    }
+   ]
+  },
+  {
+   "kop": "De Lorenzcurve",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 300 230\" width=\"300\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"284.0,18.0 284.0,18.0 236.0,88.4 188.0,130.6 140.0,162.3 92.0,183.4 44.0,194.0 44.0,194.0\" fill=\"#c17f2b\" fill-opacity=\".22\" stroke=\"none\"/><line x1=\"44\" y1=\"14\" x2=\"44\" y2=\"194\" stroke=\"#23291f\" stroke-width=\"1.8\"/><line x1=\"44\" y1=\"194\" x2=\"288\" y2=\"194\" stroke=\"#23291f\" stroke-width=\"1.8\"/><text x=\"42.0\" y=\"12.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#6b7260\">% inkomen</text><text x=\"288.0\" y=\"210.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#6b7260\">% bevolking</text><line x1=\"44.0\" y1=\"194.0\" x2=\"284.0\" y2=\"18.0\" stroke=\"#6b7260\" stroke-width=\"2.2\" stroke-dasharray=\"6 4\"/><line x1=\"44.0\" y1=\"194.0\" x2=\"92.0\" y2=\"183.4\" stroke=\"#2f5d50\" stroke-width=\"2.2\"/><line x1=\"92.0\" y1=\"183.4\" x2=\"140.0\" y2=\"162.3\" stroke=\"#2f5d50\" stroke-width=\"2.2\"/><line x1=\"140.0\" y1=\"162.3\" x2=\"188.0\" y2=\"130.6\" stroke=\"#2f5d50\" stroke-width=\"2.2\"/><line x1=\"188.0\" y1=\"130.6\" x2=\"236.0\" y2=\"88.4\" stroke=\"#2f5d50\" stroke-width=\"2.2\"/><line x1=\"236.0\" y1=\"88.4\" x2=\"284.0\" y2=\"18.0\" stroke=\"#2f5d50\" stroke-width=\"2.2\"/></svg>",
+     "onderschrift": "Stippellijn: de diagonaal van perfecte gelijkheid. Het gekleurde vlak toont de ongelijkheid."
+    },
+    {
+     "soort": "tekst",
+     "html": "Op de assen van een Lorenzcurve staan <strong>het cumulatieve percentage van de bevolking</strong> (van arm naar rijk) en <strong>het cumulatieve percentage van het inkomen</strong>. Een punt (20 %, 6 %) betekent: de armste 20 % heeft samen 6 % van het inkomen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>perfect gelijke</strong> verdeling valt de curve <strong>samen met de diagonaal</strong>: de armste 20 % heeft dan 20 % van het inkomen. Hoe <strong>verder van de diagonaal</strong>, hoe <strong>ongelijker</strong>. Herverdeelt de overheid van rijk naar arm, dan <strong>schuift de curve dichter naar de diagonaal</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "De Gini-coëfficiënt",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<p style=\"text-align:center\"><strong>Gini = oppervlakte tussen diagonaal en Lorenzcurve / oppervlakte onder de diagonaal</strong></p>"
+    },
+    {
+     "soort": "tekst",
+     "html": "De oppervlakte onder de diagonaal is 0,5. Is de oppervlakte tussen diagonaal en curve 0,15, dan is de Gini 0,15 / 0,5 = <strong>0,3</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Gini <strong>0</strong> betekent <strong>perfecte gelijkheid</strong>, Gini dicht bij <strong>1</strong> een <strong>grote ongelijkheid</strong>. Land X met 0,26 is gelijker dan land Y met 0,45. Stijgt de Gini jaar na jaar, dan <strong>neemt de ongelijkheid toe</strong>. België heeft in vergelijking met veel andere landen een <strong>relatief lage</strong> Gini."
+    },
+    {
+     "soort": "weetje",
+     "html": "Een lage Gini zegt niets over hoe rijk een land is. Een land kan een lage Gini hebben en toch arm zijn: iedereen heeft dan ongeveer even weinig."
+    }
+   ]
+  },
+  {
+   "kop": "Oorzaken van ongelijkheid",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Oorzaken zijn onder meer <strong>verschillen in opleiding en beroep</strong> en <strong>verschillen in vermogen</strong>: vermogen levert zelf inkomen op (huur, intrest, dividend). Ook <strong>het sociaal milieu</strong> speelt mee, via <strong>kansen op onderwijs, netwerk en steun thuis</strong>. De <strong>genderloonkloof</strong> is het verschil in gemiddeld loon tussen mannen en vrouwen."
+    }
+   ]
+  },
+  {
+   "kop": "Armoede meten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Armoede en ongelijkheid zijn <strong>niet hetzelfde</strong>. Ongelijkheid gaat over verschillen, armoede over wie te weinig heeft."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">indicator</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">meet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">AROP</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">risico op monetaire armoede: inkomen <strong>onder 60 % van het mediaaninkomen</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">SMSD</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ernstige materiële en sociale deprivatie: je kan je basisdingen niet veroorloven</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">LWI</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gezinnen met een lage werkintensiteit</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">AROPE</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wie met <strong>minstens één van de drie</strong> te maken heeft</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een AROP van 13 % betekent dat 13 % van de bevolking onder de armoedegrens leeft. Men gebruikt het <strong>mediaaninkomen</strong> en niet het gemiddelde, omdat <strong>de mediaan minder reageert op enkele hoge inkomens</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Herverdeling",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>personenbelasting</strong> in België is <strong>progressief</strong>: <strong>elke hogere inkomensschijf krijgt een hoger tarief</strong>. Hogere inkomens betalen dus een groter percentage, en dat verkleint de ongelijkheid. Een <strong>vlaktaks</strong>, waarbij iedereen hetzelfde percentage betaalt, doet dat minder sterk."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>sociale zekerheid</strong> telt <strong>zeven takken</strong>: pensioenen, werkloosheid, ziekte- en invaliditeitsverzekering, arbeidsongevallen, beroepsziekten, gezinsbijslag en jaarlijkse vakantie."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">principe</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">betekenis</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verzekeringsprincipe</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wie bijdraagt, is verzekerd tegen risico's</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">solidariteitsprincipe</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de sterkste schouders dragen de zwaarste lasten</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\"></th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vervangingsinkomen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een werkloosheidsuitkering, een pensioen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">aanvulling op het inkomen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de gezinsbijslag (het Groeipakket)</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Tegen armoede helpen ook een <strong>leefloon</strong> voor wie geen inkomen heeft en <strong>sociale woningen</strong>. Door belastingen en sociale zekerheid <strong>daalt de Gini</strong>."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Personele verdeling: over personen. Categoriale verdeling: over productiefactoren.",
+  "Lorenzcurve: cumulatief % bevolking tegen % inkomen; hoe verder van de diagonaal, hoe ongelijker.",
+  "Gini = oppervlakte tussen diagonaal en curve / 0,5; 0 = gelijk, dicht bij 1 = zeer ongelijk.",
+  "AROP: onder 60 % van het mediaaninkomen. AROPE: AROP, SMSD of LWI.",
+  "Progressieve belasting en sociale zekerheid (7 takken) verkleinen de ongelijkheid.",
+  "Pensioen en werkloosheidsuitkering vervangen inkomen; gezinsbijslag vult aan."
+ ]
+}

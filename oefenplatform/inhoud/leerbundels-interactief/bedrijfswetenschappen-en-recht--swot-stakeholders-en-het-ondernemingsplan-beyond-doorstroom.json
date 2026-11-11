@@ -1,0 +1,74 @@
+{
+ "vak": "Bedrijfswetenschappen en recht",
+ "titel": "SWOT, stakeholders en het ondernemingsplan",
+ "onder": "De positie van een onderneming onderzoeken, de belangen van stakeholders kennen, en een idee uitwerken in een ondernemingsplan.",
+ "secties": [
+  {
+   "kop": "De SWOT-analyse",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 230\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"80.0\" y=\"26.0\" width=\"181.0\" height=\"94.0\" rx=\"8\" fill=\"#2f5d50\" fill-opacity=\".14\" stroke=\"#2f5d50\" stroke-width=\"1.4\"/><text x=\"170.5\" y=\"71.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12.5\" font-weight=\"600\" fill=\"#23291f\">S: sterktes</text><text x=\"170.5\" y=\"88.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">strengths</text><rect x=\"265.0\" y=\"26.0\" width=\"181.0\" height=\"94.0\" rx=\"8\" fill=\"#c17f2b\" fill-opacity=\".14\" stroke=\"#c17f2b\" stroke-width=\"1.4\"/><text x=\"355.5\" y=\"71.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12.5\" font-weight=\"600\" fill=\"#23291f\">W: zwaktes</text><text x=\"355.5\" y=\"88.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">weaknesses</text><rect x=\"80.0\" y=\"124.0\" width=\"181.0\" height=\"94.0\" rx=\"8\" fill=\"#2f5d50\" fill-opacity=\".14\" stroke=\"#2f5d50\" stroke-width=\"1.4\"/><text x=\"170.5\" y=\"169.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12.5\" font-weight=\"600\" fill=\"#23291f\">O: kansen</text><text x=\"170.5\" y=\"186.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">opportunities</text><rect x=\"265.0\" y=\"124.0\" width=\"181.0\" height=\"94.0\" rx=\"8\" fill=\"#c17f2b\" fill-opacity=\".14\" stroke=\"#c17f2b\" stroke-width=\"1.4\"/><text x=\"355.5\" y=\"169.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12.5\" font-weight=\"600\" fill=\"#23291f\">T: bedreigingen</text><text x=\"355.5\" y=\"186.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">threats</text><text x=\"72.0\" y=\"78.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#6b7260\">intern</text><text x=\"72.0\" y=\"176.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#6b7260\">extern</text><text x=\"172.5\" y=\"17.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#6b7260\">positief</text><text x=\"357.5\" y=\"17.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#6b7260\">negatief</text></svg>",
+     "onderschrift": "Sterktes en zwaktes gaan over de onderneming zelf, kansen en bedreigingen komen uit de omgeving."
+    },
+    {
+     "soort": "tekst",
+     "html": "Kansen en bedreigingen kan de onderneming niet zelf bepalen: ze komen uit de omgeving en ze kan er enkel op reageren. Het <strong>doel</strong> van een SWOT-analyse is strategische keuzes onderbouwen: je combineert sterktes met kansen en zoekt oplossingen voor zwaktes en bedreigingen. Ook een vzw of een school kan een SWOT-analyse maken."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">in de SWOT</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een bakkerij heeft zeer ervaren bakkers</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sterkte</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een verouderde website; te weinig parkeerplaatsen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zwakte (intern)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een nieuwe subsidie voor duurzame investeringen; e-bikes worden steeds populairder</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kans</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een nieuwe concurrent opent een winkel in dezelfde straat</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bedreiging</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een kledingwinkel verkoopt goed online en steeds meer mensen kopen online</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een sterkte en een kans</td></tr></table>"
+    }
+   ]
+  },
+  {
+   "kop": "Stakeholders",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>stakeholder</strong> is iemand met een belang bij de onderneming. <strong>Intern</strong>: werknemers en de eigenaars. <strong>Extern</strong>: klanten, leveranciers, buren, de overheid, de bank."
+    },
+    {
+     "soort": "tekst",
+     "html": "Stakeholders kunnen <strong>tegenstrijdige belangen</strong> hebben: aandeelhouders willen veel winst of meer dividend, werknemers hogere lonen, buurtbewoners minder geluidsoverlast van een fabriek. Een bank is een schuldeiser en verwacht vooral dat leningen en interest terugbetaald worden."
+    }
+   ]
+  },
+  {
+   "kop": "Missie, visie en strategie",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">begrip</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">betekenis</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">missie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">waarom de onderneming bestaat en wat ze doet; blijft lang hetzelfde</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">'Wij bakken elke dag vers brood met lokale granen.'</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">visie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">waar ze in de toekomst wil staan: een toekomstbeeld, niet hoe ze er vandaag voor staat</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">'Wij willen in 2030 de meest duurzame bakkerij van Limburg zijn.'</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">strategie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het plan om van de missie naar de visie te gaan</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">doelen en acties, die wel elk jaar kunnen veranderen</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "De bedrijfsstrategie hangt af van de doelgroep, de concurrentie, de producten, de middelen en de omgeving. Een strategie houdt dus rekening met de omgeving. <strong>Actuele ontwikkelingen</strong> beïnvloeden de strategie: een strengere wet op verpakkingen voor een producent van plastic flessen, of sterk stijgende energieprijzen, waarop een bedrijf kan beslissen te investeren in zonnepanelen."
+    }
+   ]
+  },
+  {
+   "kop": "Het ondernemingsplan",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "In een <strong>ondernemingsplan</strong> (businessplan) beschrijft een starter zijn idee, de markt, de organisatie en de financiën. Zo toetst hij zijn idee en overtuigt hij financiers: banken vragen het vaak voor ze een lening geven."
+    },
+    {
+     "soort": "kader",
+     "html": "<ul><li>voorstelling van de ondernemer, het product en de markt;</li><li>een <strong>marketingplan</strong>;</li><li>een <strong>financieel plan</strong>: de verwachte omzet, kosten en financiering, met een openingsbalans, een resultatenbegroting en een liquiditeitsbegroting. Bij de oprichting van een bv is het verplicht.</li></ul>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>marktonderzoek</strong> helpt om de vraag in te schatten en de omzet beter te voorspellen: wie de klanten zijn, wat de concurrenten doen, prijzen en trends. Het bestaat uit <strong>deskresearch</strong> (bestaande gegevens opzoeken) en <strong>fieldresearch</strong> (zelf nieuwe verzamelen), bijvoorbeeld een enquête bij mogelijke klanten over wat ze willen en wat ze willen betalen."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "SWOT: sterktes en zwaktes intern, kansen en bedreigingen extern.",
+  "Stakeholders: intern (werknemers, eigenaars) en extern (klanten, buren, overheid, bank); belangen kunnen botsen.",
+  "Missie = waarom we bestaan; visie = toekomstbeeld; strategie = de weg ertussen.",
+  "Ondernemingsplan met marketingplan en financieel plan; marktonderzoek: desk- en fieldresearch."
+ ]
+}

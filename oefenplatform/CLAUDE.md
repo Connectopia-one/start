@@ -22,3 +22,10 @@ de enquête of een review. Geen namen van ouders of kinderen (de pagina is
 publiek), geen woorden als "fiche" of "commit". Puur technisch werk dat
 niemand ziet, hoeft er niet op. Toon het vakje aan Kim samen met de rest,
 voor het live gaat.
+
+# Vaste regel: bundels op witte achtergrond
+
+Kim, 27 september en 11 november 2026: elke leerbundel, oefenbundel en
+uitleg- of extra bundel krijgt een witte achtergrond, nooit beige of crème.
+Ouders drukken ze thuis af en een gekleurd blad kost inkt. Laat `--paper`
+in `inhoud/leerbundels/bron/stijl.css` en `oefen.css` dus op `#ffffff`.

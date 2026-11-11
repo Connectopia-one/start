@@ -1,0 +1,143 @@
+{
+ "vak": "Economie",
+ "titel": "De economische kringloop en de macro-economische identiteiten",
+ "onder": "Vijf actoren, drie markten, en de gelijkheden waarmee je ontbrekende cijfers uitrekent.",
+ "secties": [
+  {
+   "kop": "Vijf actoren en drie markten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "In de 2de graad zag je de eenvoudige kringloop met gezinnen, bedrijven en overheid. De <strong>uitgebreide economische kringloop</strong> heeft er <strong>vijf actoren</strong>: <strong>gezinnen, bedrijven, overheid, financiële instellingen en buitenland</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Die actoren ontmoeten elkaar op markten. Gezinnen bieden hun <strong>arbeid</strong> aan op de <strong>arbeidsmarkt</strong>. Ze kopen goederen en diensten op de <strong>productmarkt</strong>. Een bedrijf dat geld leent voor een nieuwe fabriek, doet dat op de <strong>kapitaalmarkt</strong>."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">markt</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat er verhandeld wordt</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wie vraagt, wie biedt aan</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">arbeidsmarkt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">arbeid</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bedrijven en overheid vragen, gezinnen bieden aan</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">productmarkt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">goederen en diensten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gezinnen, bedrijven en overheid kopen er allemaal; bedrijven verkopen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kapitaalmarkt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">spaargeld en kredieten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">spaarders bieden aan, wie investeert leent</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Op de productmarkt zijn dus <strong>gezinnen, bedrijven en de overheid</strong> actief: gezinnen kopen voor hun consumptie, bedrijven kopen machines en grondstoffen, de overheid koopt bijvoorbeeld wegenwerken."
+    }
+   ]
+  },
+  {
+   "kop": "Twee stromen, altijd tegengesteld",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 258\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"14\" y=\"24\" width=\"140\" height=\"100\" rx=\"11\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"84.0\" y=\"50.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#234539\">de gezinnen</text><rect x=\"316\" y=\"24\" width=\"140\" height=\"100\" rx=\"11\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"386.0\" y=\"50.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#234539\">de bedrijven</text><text x=\"235.0\" y=\"35.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">arbeid</text><path d=\"M166 40 H304 l-7 -4 m7 4 l-7 4\" stroke=\"#2f5d50\" stroke-width=\"1.8\" fill=\"none\" stroke-linecap=\"round\"/><text x=\"235.0\" y=\"57.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">loon</text><path d=\"M304 62 H166 l7 -4 m-7 4 l7 4\" stroke=\"#c17f2b\" stroke-width=\"1.8\" fill=\"none\" stroke-linecap=\"round\"/><text x=\"235.0\" y=\"79.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">goederen en diensten</text><path d=\"M304 84 H166 l7 -4 m-7 4 l7 4\" stroke=\"#c17f2b\" stroke-width=\"1.8\" fill=\"none\" stroke-linecap=\"round\"/><text x=\"235.0\" y=\"101.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">je betaling</text><path d=\"M166 106 H304 l-7 -4 m7 4 l-7 4\" stroke=\"#2f5d50\" stroke-width=\"1.8\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"60\" y=\"186\" width=\"350\" height=\"56\" rx=\"11\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.8\"/><text x=\"235.0\" y=\"210.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#234539\">de overheid</text><text x=\"235.0\" y=\"228.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">int belastingen en geeft voorzieningen terug</text><path d=\"M72 128 V182 l-4 -7 m4 7 l4 -7\" stroke=\"#2f5d50\" stroke-width=\"1.6\" fill=\"none\" stroke-linecap=\"round\"/><text x=\"82.0\" y=\"142.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">belastingen</text><path d=\"M150 182 V128 l-4 7 m4 -7 l4 7\" stroke=\"#234539\" stroke-width=\"1.6\" fill=\"none\" stroke-linecap=\"round\"/><text x=\"160.0\" y=\"174.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">uitkeringen</text><path d=\"M398 128 V182 l-4 -7 m4 7 l4 -7\" stroke=\"#2f5d50\" stroke-width=\"1.6\" fill=\"none\" stroke-linecap=\"round\"/><text x=\"388.0\" y=\"142.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">belastingen</text><path d=\"M320 182 V128 l-4 7 m4 -7 l4 7\" stroke=\"#234539\" stroke-width=\"1.6\" fill=\"none\" stroke-linecap=\"round\"/><text x=\"310.0\" y=\"174.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">wegen en scholen</text></svg>",
+     "onderschrift": "De kringloop: tegenover elke reële stroom staat een geldstroom."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>reële stroom</strong> bestaat uit goederen, diensten en productiefactoren zoals arbeid. Een reële stroom is dus <strong>geen stroom van geld</strong>. De <strong>geldstroom</strong> is de betaling ervoor en loopt in de <strong>omgekeerde richting</strong> van de goederen- en dienstenstroom."
+    },
+    {
+     "soort": "tekst",
+     "html": "Werkt iemand bij een bedrijf, dan gaat <strong>arbeid van het gezin naar het bedrijf</strong> en gaat het <strong>loon van het bedrijf naar het gezin</strong>."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">van</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">naar</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">geldstroom</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gezinnen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">overheid</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">belastingen en sociale bijdragen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">overheid</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gezinnen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">uitkeringen en lonen van ambtenaren</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">buitenland</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">België</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">betalingen voor de Belgische export</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">België</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">buitenland</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">betalingen voor de import</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>financiële instellingen</strong> zijn de <strong>schakel tussen wie spaart en wie investeert</strong>: ze nemen spaargeld in en lenen het uit."
+    }
+   ]
+  },
+  {
+   "kop": "Wat de letters betekenen",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">letter</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">betekenis</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Y</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het nationaal inkomen (of de productie)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">C</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">consumptie van de gezinnen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">S</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sparen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">T</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">belastingen (en sociale bijdragen)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">I</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">investeringen van bedrijven: machines, gebouwen, voorraden</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">G</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">overheidsbestedingen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">X en M</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">export en import</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">NX = X − M</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de netto-export</td></tr></table>"
+    },
+    {
+     "soort": "weetje",
+     "html": "<strong>Investeringen (I)</strong> zijn in de economie aankopen van kapitaalgoederen door bedrijven, zoals een machine of een fabriek. Een gezin dat aandelen koopt, investeert in het dagelijkse spraakgebruik, maar in de kringloop is dat sparen."
+    }
+   ]
+  },
+  {
+   "kop": "De identiteiten: wat binnenkomt, gaat ook buiten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij elke actor is <strong>wat binnenkomt gelijk aan wat buitengaat</strong>. Daarom kan je de kringloop gebruiken om <strong>ontbrekende cijfers te berekenen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Langs de kant van de gezinnen</strong>: het inkomen gaat naar belastingen, consumptie en sparen. <strong>Y = T + C + S</strong>. Een gezin dat 50 000 euro verdient, 15 000 euro belastingen betaalt en 30 000 euro consumeert, spaart 50 000 − 15 000 − 30 000 = <strong>5 000 euro</strong>. Zo vind je ook C: met Y = 1 000, T = 300 en S = 150 is C = 1 000 − 300 − 150 = <strong>550</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Langs de kant van de bestedingen</strong>: alles wat geproduceerd wordt, wordt door iemand gekocht. <strong>Y = C + I + G + (X − M)</strong>. Met C = 600, I = 200, G = 250, X = 400 en M = 350 is Y = 600 + 200 + 250 + 50 = <strong>1 100</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>stijging van de import</strong> doet, als de rest gelijk blijft, het binnenlands inkomen Y <strong>dalen</strong>: dat geld wordt in het buitenland besteed."
+    },
+    {
+     "soort": "tekst",
+     "html": "Koopt een Belgisch bedrijf een machine in Duitsland, dan is dat in de kringloop van België <strong>een investering (I) én een import (M)</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "In een <strong>gesloten economie zonder overheid</strong> zijn er alleen gezinnen en bedrijven. Dan geldt <strong>S = I</strong>: wat gespaard wordt, wordt via de banken geïnvesteerd."
+    }
+   ]
+  },
+  {
+   "kop": "De drie saldi",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij de financiële instellingen komt alles samen. Daar geldt <strong>S + T = I + G + X − M</strong>. Schuif je de termen wat op, dan krijg je:"
+    },
+    {
+     "soort": "kader",
+     "html": "<p style=\"text-align:center;font-size:12pt\"><strong>(S − I) + (T − G) = (X − M)</strong></p><table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">saldo</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">naam</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">positief betekent</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">S − I</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het spaarsaldo van de particuliere sector</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de particulieren sparen meer dan ze investeren</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">T − G</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het begrotingssaldo van de overheid</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de overheid ontvangt meer dan ze uitgeeft (overschot)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">X − M</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het handelsbalanssaldo</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het land exporteert meer dan het importeert</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "De saldi van de particuliere sector en de overheid zijn <strong>samen gelijk aan het handelsbalanssaldo</strong>. Uit de cijfers van een kringloop kan je dus het spaarsaldo, het begrotingssaldo en het handelsbalanssaldo afleiden."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>begrotingssaldo is negatief</strong> als de overheid meer uitgeeft dan ze ontvangt. T = 400 en G = 420 betekent een <strong>begrotingstekort van 20</strong>. Een <strong>negatief handelsbalanssaldo</strong> betekent dat een land <strong>meer importeert dan het exporteert</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Voorbeelden. S = 300, I = 250, T = 400, G = 420 geeft (300 − 250) + (400 − 420) = 50 − 20 = <strong>X − M = 30</strong>. Is het spaarsaldo +40 en het handelsbalanssaldo +10, dan is T − G = 10 − 40 = <strong>−30</strong>. Met I = 200, G = 300, X = 500, M = 450 en T = 280 vind je S uit S + 280 = 200 + 300 + 50, dus <strong>S = 270</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een land kan dus een <strong>overheidstekort</strong> hebben en toch een <strong>positief handelsbalanssaldo</strong>, als de particuliere sector veel meer spaart dan ze investeert. En omgekeerd: heeft een land een <strong>handelsoverschot</strong>, dan moeten de particuliere sector en de overheid samen meer sparen dan er geïnvesteerd en besteed wordt."
+    }
+   ]
+  },
+  {
+   "kop": "Wat het model niet ziet",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het klassieke kringloopmodel telt alleen wat met geld betaald wordt. Een <strong>tekortkoming</strong> is dat het <strong>de grenzen van grondstoffen en het afval negeert</strong>. Ook <strong>vervuiling en afval</strong> en <strong>onbetaald werk zoals mantelzorg</strong> zitten er niet in. In het thema over alternatieve economische modellen zie je hoe economen dat proberen op te lossen."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Vijf actoren: gezinnen, bedrijven, overheid, financiële instellingen en buitenland.",
+  "Arbeid op de arbeidsmarkt, goederen op de productmarkt, leningen op de kapitaalmarkt.",
+  "De geldstroom loopt tegengesteld aan de reële stroom.",
+  "Gezinnen: Y = T + C + S. Bestedingen: Y = C + I + G + (X − M).",
+  "(S − I) + (T − G) = (X − M): spaarsaldo plus begrotingssaldo is het handelsbalanssaldo.",
+  "Zonder overheid en buitenland geldt S = I.",
+  "Het model negeert grondstoffen, afval en onbetaald werk."
+ ]
+}

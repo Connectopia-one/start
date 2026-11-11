@@ -1,0 +1,105 @@
+{
+ "vak": "Bedrijfswetenschappen en recht",
+ "titel": "Eindejaarsverrichtingen en de saldibalans",
+ "onder": "Afschrijvingen, voorraadwijziging, voorzieningen, overlopende rekeningen, de belasting en de bestemming van het resultaat, tot aan de jaarrekening.",
+ "secties": [
+  {
+   "kop": "Van proefbalans tot jaarrekening",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 76\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0.0\" y=\"6\" width=\"98.0\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"49.0\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">proefbalans</text><path d=\"M103.0 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"124.0\" y=\"6\" width=\"98.0\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"173.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">inventaris-</text><text x=\"173.0\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">verrichtingen</text><path d=\"M227.0 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"248.0\" y=\"6\" width=\"98.0\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"297.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">definitieve</text><text x=\"297.0\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">saldibalans</text><path d=\"M351.0 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"372.0\" y=\"6\" width=\"98.0\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"421.0\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">jaarrekening</text></svg>",
+     "onderschrift": "De volgorde aan het einde van het boekjaar."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>proefbalans</strong> is een overzicht van alle rekeningen met totalen en saldi: je controleert of totaal debet en totaal credit gelijk zijn. Dan volgen de eindejaarsboekingen (inventarisverrichtingen). Pas daarna maak je de <strong>definitieve saldibalans</strong>, die per rekening het saldo toont. Daaruit haal je de <strong>jaarrekening</strong>: de <strong>balans</strong> (activa en passiva), de <strong>resultatenrekening</strong> (de kostenrekeningen en de opbrengstrekeningen) en een toelichting."
+    }
+   ]
+  },
+  {
+   "kop": "Afschrijvingen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>afschrijving</strong> spreidt de kost van een investering over de jaren dat je ze gebruikt. Ze is een <strong>kost zonder uitgave</strong>: er gaat geen geld van de bank. Daarom telt ze mee in de cashflow. <strong>Lineair</strong> afschrijven (de lineaire afschrijving) betekent elk jaar hetzelfde bedrag, ook in het laatste jaar."
+    },
+    {
+     "soort": "kader",
+     "html": "<p style='text-align:center'><strong>jaarlijkse afschrijving = (aanschafwaarde − restwaarde) / gebruiksduur</strong></p><p style='text-align:center'><strong>boekwaarde</strong> (nettoboekwaarde) = aanschafwaarde − geboekte afschrijvingen</p>"
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">investering</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">afschrijving per jaar</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">machine 50 000 euro, 5 jaar, geen restwaarde</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">50 000 / 5 = 10 000 euro</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bestelwagen 36 000 euro, restwaarde 6 000 euro, 5 jaar</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">(36 000 − 6 000) / 5 = 6 000 euro</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">computer 3 000 euro, 3 jaar</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1 000 euro; boekwaarde na 2 jaar: 3 000 − 2 · 1 000 = 1 000 euro</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een afschrijving verlaagt de boekwaarde. Na de volledige gebruiksduur is de boekwaarde gelijk aan de restwaarde."
+    }
+   ]
+  },
+  {
+   "kop": "Voorraadwijziging",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<p style='text-align:center'><strong>voorraadwijziging = eindvoorraad − beginvoorraad</strong><br><strong>kostprijs van de verkochte goederen = aankopen + beginvoorraad − eindvoorraad</strong></p>"
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">aankopen</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">beginvoorraad</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">eindvoorraad</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorraadwijziging</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">kostprijs verkochte goederen</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">50 000</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">8 000</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">10 000</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">toename van 2 000</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">48 000</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">40 000</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">12 000</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">9 000</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">afname van 3 000</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">43 000</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Stijgt de voorraad, dan verlaagt de voorraadwijziging de kosten van het jaar: een deel van de aankopen is nog niet verkocht. Een <strong>daling</strong> van de voorraad <strong>verlaagt</strong> de winst: er werd meer verkocht dan aangekocht, dus de kost van de verkochte goederen stijgt."
+    }
+   ]
+  },
+  {
+   "kop": "Voorzieningen en schulden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>voorziening voor risico's en kosten</strong> is een bedrag opzij voor een <strong>waarschijnlijk</strong> verlies, bijvoorbeeld voor een lopend geschil of een grote herstelling. Het bedrag is nog niet zeker. Het aanleggen is een <strong>kost</strong>, geboekt in het jaar waarin het risico ontstaat."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het deel van een lening dat binnen het jaar vervalt, gaat van groep 17 naar groep 42. Zo toont de balans wat er op korte termijn betaald moet worden."
+    }
+   ]
+  },
+  {
+   "kop": "Overlopende rekeningen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Overlopende rekeningen zorgen ervoor dat kosten en opbrengsten in het juiste boekjaar komen: het principe van de <strong>periodetoerekening</strong>."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">rekening</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">betekenis</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">balans</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">over te dragen kosten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">al betaald, hoort bij het volgende jaar</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verzekering voor 12 maanden betaald op 1 oktober: januari tot september (9 maanden) hoort bij volgend jaar</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">actief (een soort vordering)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">toe te rekenen kosten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kost van dit jaar, nog te betalen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">elektriciteit van december, gefactureerd in januari</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">passief (schuld)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">over te dragen opbrengsten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">al ontvangen, hoort bij het volgende jaar</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een klant betaalt in december al de huur voor januari</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">passief</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verkregen opbrengsten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">opbrengst van dit jaar, later ontvangen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">interest op een spaarrekening van dit jaar, volgend jaar gestort</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">actief</td></tr></table>"
+    }
+   ]
+  },
+  {
+   "kop": "Belasting en bestemming van het resultaat",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De geraamde <strong>belasting op het resultaat</strong> boek je als kost in groep 67. Winst voor belasting 100 000 euro aan 25 %: 25 000 euro. De voorafbetalingen stonden op een vordering op de fiscus (een voorschot dat later verrekend wordt): bij 18 000 euro voorafbetalingen moet er nog 7 000 euro betaald worden."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>bestemming van het resultaat</strong>: beslissen wat er met de winst gebeurt. De winst kan naar <strong>reserves</strong>, naar <strong>dividenden</strong> of naar <strong>overgedragen winst</strong> (naar het volgende jaar). Dividenden zijn een verdeling van de winst, <strong>geen kost</strong>. Na de bestemming is de winst van het jaar helemaal verdeeld: elke euro krijgt een bestemming."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Lineaire afschrijving = (aanschafwaarde − restwaarde) / gebruiksduur; een kost zonder uitgave.",
+  "Kostprijs verkochte goederen = aankopen + beginvoorraad − eindvoorraad.",
+  "Voorziening: waarschijnlijk verlies, bedrag nog onzeker, een kost.",
+  "Over te dragen kosten en verkregen opbrengsten: actief. Toe te rekenen kosten en over te dragen opbrengsten: passief.",
+  "Proefbalans → eindejaarsboekingen → definitieve saldibalans → jaarrekening (balans, resultatenrekening, toelichting)."
+ ]
+}

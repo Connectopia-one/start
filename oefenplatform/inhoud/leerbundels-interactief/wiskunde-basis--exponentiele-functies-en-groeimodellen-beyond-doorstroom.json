@@ -1,0 +1,110 @@
+{
+ "vak": "Wiskunde basis",
+ "titel": "Exponentiële functies en groeimodellen",
+ "onder": "De grafiek van a tot de x, groeifactoren, en rekenen met groei en verval.",
+ "secties": [
+  {
+   "kop": "De functie a tot de x",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 320 220\" width=\"320\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"26.0\" y1=\"14\" x2=\"26.0\" y2=\"196\" stroke=\"#ece7db\" stroke-width=\"1\"/><line x1=\"60.8\" y1=\"14\" x2=\"60.8\" y2=\"196\" stroke=\"#ece7db\" stroke-width=\"1\"/><line x1=\"95.5\" y1=\"14\" x2=\"95.5\" y2=\"196\" stroke=\"#ece7db\" stroke-width=\"1\"/><line x1=\"130.2\" y1=\"14\" x2=\"130.2\" y2=\"196\" stroke=\"#ece7db\" stroke-width=\"1\"/><line x1=\"165.0\" y1=\"14\" x2=\"165.0\" y2=\"196\" stroke=\"#ece7db\" stroke-width=\"1\"/><line x1=\"199.8\" y1=\"14\" x2=\"199.8\" y2=\"196\" stroke=\"#ece7db\" stroke-width=\"1\"/><line x1=\"234.5\" y1=\"14\" x2=\"234.5\" y2=\"196\" stroke=\"#ece7db\" stroke-width=\"1\"/><line x1=\"269.2\" y1=\"14\" x2=\"269.2\" y2=\"196\" stroke=\"#ece7db\" stroke-width=\"1\"/><line x1=\"304.0\" y1=\"14\" x2=\"304.0\" y2=\"196\" stroke=\"#ece7db\" stroke-width=\"1\"/><line x1=\"26\" y1=\"196.0\" x2=\"304\" y2=\"196.0\" stroke=\"#ece7db\" stroke-width=\"1\"/><line x1=\"26\" y1=\"175.8\" x2=\"304\" y2=\"175.8\" stroke=\"#ece7db\" stroke-width=\"1\"/><line x1=\"26\" y1=\"155.6\" x2=\"304\" y2=\"155.6\" stroke=\"#ece7db\" stroke-width=\"1\"/><line x1=\"26\" y1=\"135.3\" x2=\"304\" y2=\"135.3\" stroke=\"#ece7db\" stroke-width=\"1\"/><line x1=\"26\" y1=\"115.1\" x2=\"304\" y2=\"115.1\" stroke=\"#ece7db\" stroke-width=\"1\"/><line x1=\"26\" y1=\"94.9\" x2=\"304\" y2=\"94.9\" stroke=\"#ece7db\" stroke-width=\"1\"/><line x1=\"26\" y1=\"74.7\" x2=\"304\" y2=\"74.7\" stroke=\"#ece7db\" stroke-width=\"1\"/><line x1=\"26\" y1=\"54.4\" x2=\"304\" y2=\"54.4\" stroke=\"#ece7db\" stroke-width=\"1\"/><line x1=\"26\" y1=\"34.2\" x2=\"304\" y2=\"34.2\" stroke=\"#ece7db\" stroke-width=\"1\"/><line x1=\"26\" y1=\"14.0\" x2=\"304\" y2=\"14.0\" stroke=\"#ece7db\" stroke-width=\"1\"/><line x1=\"26\" y1=\"175.8\" x2=\"310\" y2=\"175.8\" stroke=\"#23291f\" stroke-width=\"1.5\"/><text x=\"312.0\" y=\"179.8\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#23291f\">x</text><line x1=\"165.0\" y1=\"8\" x2=\"165.0\" y2=\"196\" stroke=\"#23291f\" stroke-width=\"1.5\"/><text x=\"170.0\" y=\"12.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#23291f\">y</text><text x=\"199.8\" y=\"187.8\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">1</text><text x=\"160.0\" y=\"158.6\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">1</text><clipPath id=\"c140291969864576\"><rect x=\"26\" y=\"14\" width=\"278\" height=\"182\"/></clipPath><polyline clip-path=\"url(#c140291969864576)\" points=\"26.0,174.5 26.9,174.5 27.9,174.5 28.8,174.4 29.7,174.4 30.6,174.4 31.6,174.4 32.5,174.3 33.4,174.3 34.3,174.3 35.3,174.3 36.2,174.2 37.1,174.2 38.0,174.2 39.0,174.1 39.9,174.1 40.8,174.1 41.8,174.0 42.7,174.0 43.6,174.0 44.5,173.9 45.5,173.9 46.4,173.9 47.3,173.8 48.2,173.8 49.2,173.8 50.1,173.7 51.0,173.7 51.9,173.7 52.9,173.6 53.8,173.6 54.7,173.5 55.7,173.5 56.6,173.5 57.5,173.4 58.4,173.4 59.4,173.3 60.3,173.3 61.2,173.2 62.1,173.2 63.1,173.1 64.0,173.1 64.9,173.0 65.8,173.0 66.8,172.9 67.7,172.9 68.6,172.8 69.6,172.8 70.5,172.7 71.4,172.7 72.3,172.6 73.3,172.5 74.2,172.5 75.1,172.4 76.0,172.3 77.0,172.3 77.9,172.2 78.8,172.2 79.7,172.1 80.7,172.0 81.6,171.9 82.5,171.9 83.5,171.8 84.4,171.7 85.3,171.7 86.2,171.6 87.2,171.5 88.1,171.4 89.0,171.3 89.9,171.3 90.9,171.2 91.8,171.1 92.7,171.0 93.6,170.9 94.6,170.8 95.5,170.7 96.4,170.6 97.4,170.5 98.3,170.4 99.2,170.3 100.1,170.2 101.1,170.1 102.0,170.0 102.9,169.9 103.8,169.8 104.8,169.7 105.7,169.6 106.6,169.5 107.5,169.3 108.5,169.2 109.4,169.1 110.3,169.0 111.3,168.9 112.2,168.7 113.1,168.6 114.0,168.5 115.0,168.3 115.9,168.2 116.8,168.0 117.7,167.9 118.7,167.8 119.6,167.6 120.5,167.5 121.4,167.3 122.4,167.1 123.3,167.0 124.2,166.8 125.2,166.6 126.1,166.5 127.0,166.3 127.9,166.1 128.9,165.9 129.8,165.8 130.7,165.6 131.6,165.4 132.6,165.2 133.5,165.0 134.4,164.8 135.3,164.6 136.3,164.4 137.2,164.2 138.1,163.9 139.1,163.7 140.0,163.5 140.9,163.3 141.8,163.0 142.8,162.8 143.7,162.6 144.6,162.3 145.5,162.1 146.5,161.8 147.4,161.5 148.3,161.3 149.2,161.0 150.2,160.7 151.1,160.5 152.0,160.2 153.0,159.9 153.9,159.6 154.8,159.3 155.7,159.0 156.7,158.7 157.6,158.3 158.5,158.0 159.4,157.7 160.4,157.3 161.3,157.0 162.2,156.6 163.1,156.3 164.1,155.9 165.0,155.6 165.9,155.2 166.9,154.8 167.8,154.4 168.7,154.0 169.6,153.6 170.6,153.2 171.5,152.8 172.4,152.3 173.3,151.9 174.3,151.4 175.2,151.0 176.1,150.5 177.0,150.1 178.0,149.6 178.9,149.1 179.8,148.6 180.8,148.1 181.7,147.6 182.6,147.0 183.5,146.5 184.5,146.0 185.4,145.4 186.3,144.8 187.2,144.3 188.2,143.7 189.1,143.1 190.0,142.5 190.9,141.8 191.9,141.2 192.8,140.6 193.7,139.9 194.7,139.2 195.6,138.6 196.5,137.9 197.4,137.2 198.4,136.4 199.3,135.7 200.2,135.0 201.1,134.2 202.1,133.4 203.0,132.6 203.9,131.8 204.8,131.0 205.8,130.2 206.7,129.3 207.6,128.5 208.6,127.6 209.5,126.7 210.4,125.8 211.3,124.8 212.3,123.9 213.2,122.9 214.1,121.9 215.0,120.9 216.0,119.9 216.9,118.8 217.8,117.8 218.7,116.7 219.7,115.6 220.6,114.5 221.5,113.3 222.5,112.2 223.4,111.0 224.3,109.8 225.2,108.5 226.2,107.3 227.1,106.0 228.0,104.7 228.9,103.4 229.9,102.0 230.8,100.7 231.7,99.3 232.6,97.8 233.6,96.4 234.5,94.9 235.4,93.4 236.4,91.8 237.3,90.3 238.2,88.7 239.1,87.1 240.1,85.4 241.0,83.7 241.9,82.0 242.8,80.2 243.8,78.5 244.7,76.7 245.6,74.8 246.5,72.9 247.5,71.0 248.4,69.0 249.3,67.1 250.3,65.0 251.2,63.0 252.1,60.9 253.0,58.7 254.0,56.5 254.9,54.3 255.8,52.0 256.7,49.7 257.7,47.4 258.6,45.0 259.5,42.5 260.4,40.1 261.4,37.5 262.3,34.9 263.2,32.3 264.2,29.6 265.1,26.9 266.0,24.1 266.9,21.3 267.9,18.4 268.8,15.5 269.7,12.5 270.6,9.5 271.6,6.3 272.5,3.2 273.4,-0.0 274.3,-3.3 275.3,-6.7 276.2,-10.1 277.1,-13.5 278.1,-17.1 279.0,-20.7 279.9,-24.3 280.8,-28.0 281.8,-31.9 282.7,-35.7 283.6,-39.7 284.5,-43.7 285.5,-47.8 286.4,-52.0 287.3,-56.2 288.2,-60.5 289.2,-64.9 290.1,-69.4 291.0,-74.0 292.0,-78.7 292.9,-83.4 293.8,-88.2 294.7,-93.2 295.7,-98.2 296.6,-103.3 297.5,-108.5 298.4,-113.8 299.4,-119.2 300.3,-124.7 301.2,-130.3 302.1,-136.0 303.1,-141.9 304.0,-147.8\" fill=\"none\" stroke=\"#2f5d50\" stroke-width=\"2.3\"/><text x=\"266.8\" y=\"24.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2f5d50\">2^x</text><polyline clip-path=\"url(#c140291969864576)\" points=\"26.0,-147.8 26.9,-141.9 27.9,-136.0 28.8,-130.3 29.7,-124.7 30.6,-119.2 31.6,-113.8 32.5,-108.5 33.4,-103.3 34.3,-98.2 35.3,-93.2 36.2,-88.2 37.1,-83.4 38.0,-78.7 39.0,-74.0 39.9,-69.4 40.8,-64.9 41.8,-60.5 42.7,-56.2 43.6,-52.0 44.5,-47.8 45.5,-43.7 46.4,-39.7 47.3,-35.7 48.2,-31.9 49.2,-28.0 50.1,-24.3 51.0,-20.7 51.9,-17.1 52.9,-13.5 53.8,-10.1 54.7,-6.7 55.7,-3.3 56.6,-0.0 57.5,3.2 58.4,6.3 59.4,9.5 60.3,12.5 61.2,15.5 62.1,18.4 63.1,21.3 64.0,24.1 64.9,26.9 65.8,29.6 66.8,32.3 67.7,34.9 68.6,37.5 69.6,40.1 70.5,42.5 71.4,45.0 72.3,47.4 73.3,49.7 74.2,52.0 75.1,54.3 76.0,56.5 77.0,58.7 77.9,60.9 78.8,63.0 79.7,65.0 80.7,67.1 81.6,69.0 82.5,71.0 83.5,72.9 84.4,74.8 85.3,76.7 86.2,78.5 87.2,80.2 88.1,82.0 89.0,83.7 89.9,85.4 90.9,87.1 91.8,88.7 92.7,90.3 93.6,91.8 94.6,93.4 95.5,94.9 96.4,96.4 97.4,97.8 98.3,99.3 99.2,100.7 100.1,102.0 101.1,103.4 102.0,104.7 102.9,106.0 103.8,107.3 104.8,108.5 105.7,109.8 106.6,111.0 107.5,112.2 108.5,113.3 109.4,114.5 110.3,115.6 111.3,116.7 112.2,117.8 113.1,118.8 114.0,119.9 115.0,120.9 115.9,121.9 116.8,122.9 117.7,123.9 118.7,124.8 119.6,125.8 120.5,126.7 121.4,127.6 122.4,128.5 123.3,129.3 124.2,130.2 125.2,131.0 126.1,131.8 127.0,132.6 127.9,133.4 128.9,134.2 129.8,135.0 130.7,135.7 131.6,136.4 132.6,137.2 133.5,137.9 134.4,138.6 135.3,139.2 136.3,139.9 137.2,140.6 138.1,141.2 139.1,141.8 140.0,142.5 140.9,143.1 141.8,143.7 142.8,144.3 143.7,144.8 144.6,145.4 145.5,146.0 146.5,146.5 147.4,147.0 148.3,147.6 149.2,148.1 150.2,148.6 151.1,149.1 152.0,149.6 153.0,150.1 153.9,150.5 154.8,151.0 155.7,151.4 156.7,151.9 157.6,152.3 158.5,152.8 159.4,153.2 160.4,153.6 161.3,154.0 162.2,154.4 163.1,154.8 164.1,155.2 165.0,155.6 165.9,155.9 166.9,156.3 167.8,156.6 168.7,157.0 169.6,157.3 170.6,157.7 171.5,158.0 172.4,158.3 173.3,158.7 174.3,159.0 175.2,159.3 176.1,159.6 177.0,159.9 178.0,160.2 178.9,160.5 179.8,160.7 180.8,161.0 181.7,161.3 182.6,161.5 183.5,161.8 184.5,162.1 185.4,162.3 186.3,162.6 187.2,162.8 188.2,163.0 189.1,163.3 190.0,163.5 190.9,163.7 191.9,163.9 192.8,164.2 193.7,164.4 194.7,164.6 195.6,164.8 196.5,165.0 197.4,165.2 198.4,165.4 199.3,165.6 200.2,165.8 201.1,165.9 202.1,166.1 203.0,166.3 203.9,166.5 204.8,166.6 205.8,166.8 206.7,167.0 207.6,167.1 208.6,167.3 209.5,167.5 210.4,167.6 211.3,167.8 212.3,167.9 213.2,168.0 214.1,168.2 215.0,168.3 216.0,168.5 216.9,168.6 217.8,168.7 218.7,168.9 219.7,169.0 220.6,169.1 221.5,169.2 222.5,169.3 223.4,169.5 224.3,169.6 225.2,169.7 226.2,169.8 227.1,169.9 228.0,170.0 228.9,170.1 229.9,170.2 230.8,170.3 231.7,170.4 232.6,170.5 233.6,170.6 234.5,170.7 235.4,170.8 236.4,170.9 237.3,171.0 238.2,171.1 239.1,171.2 240.1,171.3 241.0,171.3 241.9,171.4 242.8,171.5 243.8,171.6 244.7,171.7 245.6,171.7 246.5,171.8 247.5,171.9 248.4,171.9 249.3,172.0 250.3,172.1 251.2,172.2 252.1,172.2 253.0,172.3 254.0,172.3 254.9,172.4 255.8,172.5 256.7,172.5 257.7,172.6 258.6,172.7 259.5,172.7 260.4,172.8 261.4,172.8 262.3,172.9 263.2,172.9 264.2,173.0 265.1,173.0 266.0,173.1 266.9,173.1 267.9,173.2 268.8,173.2 269.7,173.3 270.6,173.3 271.6,173.4 272.5,173.4 273.4,173.5 274.3,173.5 275.3,173.5 276.2,173.6 277.1,173.6 278.1,173.7 279.0,173.7 279.9,173.7 280.8,173.8 281.8,173.8 282.7,173.8 283.6,173.9 284.5,173.9 285.5,173.9 286.4,174.0 287.3,174.0 288.2,174.0 289.2,174.1 290.1,174.1 291.0,174.1 292.0,174.2 292.9,174.2 293.8,174.2 294.7,174.3 295.7,174.3 296.6,174.3 297.5,174.3 298.4,174.4 299.4,174.4 300.3,174.4 301.2,174.4 302.1,174.5 303.1,174.5 304.0,174.5\" fill=\"none\" stroke=\"#c17f2b\" stroke-width=\"2.3\"/><text x=\"300.0\" y=\"168.5\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#c17f2b\">(1/2)^x</text><circle cx=\"165.0\" cy=\"155.6\" r=\"3.6\" fill=\"#23291f\"/><text x=\"171.0\" y=\"149.6\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#23291f\">(0, 1)</text></svg>",
+     "onderschrift": "\\(2^{x}\\) stijgt, \\(\\left(\\tfrac{1}{2}\\right)^{x}\\) daalt. Ze snijden elkaar in \\((0,1)\\)."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">kenmerk</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">\\(f(x)=a^{x}\\) met \\(a>0\\), \\(a\\neq 1\\)</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vast punt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\((0,1)\\), want \\(a^{0}=1\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">domein</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\mathbb{R}\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bereik</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(]0,+\\infty[\\): de grafiek snijdt de \\(x\\)-as nooit</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">asymptoot</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">horizontaal: \\(y=0\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">stijgend</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">als \\(a>1\\): toenemende stijging</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dalend</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">als \\(0<a<1\\): afnemende daling</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij \\(3\\cdot 2^{x}\\) gaat \\(f(x)\\to 0\\) als \\(x\\to-\\infty\\). Gaat de grafiek van \\(a^{x}\\) door \\((1,6)\\), dan is \\(a^{1}=6\\), dus \\(a=6\\)."
+    }
+   ]
+  },
+  {
+   "kop": "Transformaties",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorschrift</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat gebeurt er</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">asymptoot en bereik</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(2^{x}+4\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(4\\) naar boven</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(y=4\\); bereik \\(]4,+\\infty[\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(5\\cdot 2^{x}-3\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">uitrekking met factor \\(5\\), \\(3\\) naar beneden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(y=-3\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(-3^{x}\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">spiegeling rond de \\(x\\)-as</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(y=0\\); bereik \\(]-\\infty,0[\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(3\\cdot 2^{x}-1\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verticale uitrekking met factor \\(3\\), \\(1\\) naar beneden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(y=-1\\)</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "\\(-2\\cdot 3^{x}\\) is <strong>dalend</strong>: de spiegeling draait het stijgen om. \\(4\\cdot 3^{x}+2\\) snijdt de \\(y\\)-as in \\(4\\cdot 1+2=6\\)."
+    },
+    {
+     "soort": "tekst",
+     "html": "\\(2^{x}+c\\) heeft enkel een nulwaarde als \\(c\\) negatief is: \\(2^{x}+(-8)=0\\) geeft \\(2^{x}=8\\), \\(x=3\\)."
+    },
+    {
+     "soort": "weetje",
+     "html": "\\(2\\cdot 5^{x}\\) is niet hetzelfde als \\(10^{x}\\): bij \\(x=2\\) is het eerste \\(50\\), het tweede \\(100\\)."
+    }
+   ]
+  },
+  {
+   "kop": "Groeifactor",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">procent per periode</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">groeifactor</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(+4\\%\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(1{,}04\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(+7\\%\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(1{,}07\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(-15\\%\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(0{,}85\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(-10\\%\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(0{,}9\\)</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een exponentieel groeimodel heeft de vorm <strong>\\(N(t)=b\\cdot g^{t}\\)</strong>: \\(b\\) is de <strong>beginwaarde</strong>, \\(g\\) de groeifactor. \\(K(t)=1500\\cdot 1{,}02^{t}\\) start bij \\(1500\\) euro. In \\(N(t)=300\\cdot 0{,}9^{t}\\) neemt \\(N\\) elke tijdseenheid met \\(10\\%\\) af."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Samengestelde intrest</strong>: \\(2000\\) euro aan \\(3\\%\\) geeft \\(B(t)=2000\\cdot 1{,}03^{t}\\). Bij <strong>enkelvoudige intrest</strong> komt er elk jaar hetzelfde bedrag bij: dat is <strong>lineaire</strong> groei."
+    }
+   ]
+  },
+  {
+   "kop": "Welke groei?",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">tabel</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">kijk naar</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">groei</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(3, 7, 11, 15\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de <strong>verschillen</strong> zijn gelijk (\\(+4\\))</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">lineair</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(500, 550, 605, 665{,}5\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de <strong>quotiënten</strong> zijn gelijk (\\(\\times 1{,}1\\))</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">exponentieel met \\(g=1{,}1\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(5, 15, 45, 135\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\times 3\\), start \\(5\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(f(x)=5\\cdot 3^{x}\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(1, 2, 5, 10\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verschillen en quotiënten wisselen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">niet lineair en niet exponentieel</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een lineair model \\(ax+b\\) heeft een gelijk <strong>verschil</strong> per tijdseenheid, geen gelijke groeifactor."
+    }
+   ]
+  },
+  {
+   "kop": "Groeifactor over een andere periode",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<ul><li>\\(21\\%\\) per twee jaar: \\(g^{2}=1{,}21\\), dus per jaar \\(g=\\sqrt{1{,}21}=1{,}1\\).</li><li>\\(1{,}02\\) per maand: per jaar \\(1{,}02^{12}\\approx 1{,}268\\).</li><li>\\(10\\%\\) per jaar is na twee jaar \\(1{,}1^{2}=1{,}21\\): \\(21\\%\\), dus <strong>niet</strong> \\(20\\%\\).</li></ul>"
+    }
+   ]
+  },
+  {
+   "kop": "Halveringstijd en verdubbelingstijd",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>halveringstijd</strong> is de tijd waarna nog de helft over is. \\(80\\) mg met een halveringstijd van \\(8\\) dagen: na \\(24\\) dagen (drie keer halveren) blijft \\(80\\to 40\\to 20\\to 10\\) mg over."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>verdubbelingstijd</strong> bij \\(5\\%\\) per jaar: \\(1{,}05^{t}=2\\), dus \\(t=\\log_{1{,}05}2=\\dfrac{\\log 2}{\\log 1{,}05}\\approx 14{,}2\\) jaar. Die tijd hangt <strong>niet</strong> af van de beginwaarde."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een stad van \\(80\\,000\\) inwoners krimpt \\(2\\%\\) per jaar: na \\(5\\) jaar \\(80\\,000\\cdot 0{,}98^{5}\\approx 72\\,314\\)."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "\\(a^{x}\\) gaat door \\((0,1)\\), bereik \\(]0,+\\infty[\\), asymptoot \\(y=0\\).",
+  "\\(a>1\\): stijgend; \\(0<a<1\\): dalend.",
+  "\\(+p\\%\\) geeft groeifactor \\(1+\\frac{p}{100}\\); \\(-p\\%\\) geeft \\(1-\\frac{p}{100}\\).",
+  "\\(N(t)=b\\cdot g^{t}\\): \\(b\\) is de beginwaarde.",
+  "Gelijke verschillen: lineair. Gelijke quotiënten: exponentieel.",
+  "Verdubbelingstijd: \\(g^{t}=2\\), dus \\(t=\\log_{g}2\\)."
+ ]
+}

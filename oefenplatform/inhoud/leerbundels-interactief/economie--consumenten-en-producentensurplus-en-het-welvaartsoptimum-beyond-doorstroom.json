@@ -1,0 +1,88 @@
+{
+ "vak": "Economie",
+ "titel": "Consumenten- en producentensurplus en het welvaartsoptimum",
+ "onder": "Wie wint er bij een markt, hoeveel, en waarom het evenwicht het beste punt is.",
+ "secties": [
+  {
+   "kop": "Twee soorten surplus",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het begrip consumentensurplus werd voor het eerst gebruikt door <strong>Alfred Marshall</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>consumentensurplus</strong> is <strong>het verschil tussen wat consumenten maximaal willen betalen en de marktprijs</strong>. Wil je maximaal 15 euro betalen voor een concertticket en betaal je 9 euro, dan is je consumentensurplus <strong>6 euro</strong>. Een consument die net de marktprijs wil betalen, heeft een surplus van nul. Het consumentensurplus is dus <strong>niet</strong> het bedrag dat consumenten aan de producenten betalen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>producentensurplus</strong> is <strong>het verschil tussen de marktprijs en de minimumprijs waarvoor producenten willen verkopen</strong>. Wil een producent minimaal 4 euro en verkoopt hij voor 9 euro, dan is zijn surplus <strong>5 euro</strong>. Het producentensurplus is <strong>niet hetzelfde als de winst</strong>: de vaste kosten zijn er niet van afgetrokken."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 320 220\" width=\"320\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"44.0,84.4 44.0,150.8 148.0,84.4\" fill=\"#c17f2b\" fill-opacity=\".22\" stroke=\"none\"/><polygon points=\"44.0,18.0 44.0,84.4 148.0,84.4\" fill=\"#2f5d50\" fill-opacity=\".22\" stroke=\"none\"/><line x1=\"44\" y1=\"14\" x2=\"44\" y2=\"184\" stroke=\"#23291f\" stroke-width=\"1.8\"/><line x1=\"44\" y1=\"184\" x2=\"308\" y2=\"184\" stroke=\"#23291f\" stroke-width=\"1.8\"/><text x=\"42.0\" y=\"12.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#6b7260\">prijs</text><text x=\"308.0\" y=\"200.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#6b7260\">hoeveelheid</text><text x=\"78.7\" y=\"66.3\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#23291f\">CS</text><text x=\"78.7\" y=\"110.5\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#23291f\">PS</text><line x1=\"44.0\" y1=\"18.0\" x2=\"304.0\" y2=\"184.0\" stroke=\"#2f5d50\" stroke-width=\"2.2\"/><text x=\"309.0\" y=\"188.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#2f5d50\">V</text><line x1=\"44.0\" y1=\"150.8\" x2=\"252.0\" y2=\"18.0\" stroke=\"#c17f2b\" stroke-width=\"2.2\"/><text x=\"257.0\" y=\"22.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#c17f2b\">A</text><line x1=\"44.0\" y1=\"84.4\" x2=\"148.0\" y2=\"84.4\" stroke=\"#6b7260\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><line x1=\"148.0\" y1=\"184.0\" x2=\"148.0\" y2=\"84.4\" stroke=\"#6b7260\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><circle cx=\"148.0\" cy=\"84.4\" r=\"3.6\" fill=\"#23291f\"/><text x=\"154.0\" y=\"78.4\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#23291f\">E</text></svg>",
+     "onderschrift": "CS ligt onder de vraagcurve en boven de prijs, PS boven de aanbodcurve en onder de prijs."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>totale welvaart</strong> op een markt zonder overheid is de som van het consumentensurplus en het producentensurplus. Uit het evenwicht halen dus <strong>consumenten die meer wilden betalen dan de prijs</strong> en <strong>producenten die voor minder wilden verkopen dan de prijs</strong> voordeel."
+    }
+   ]
+  },
+  {
+   "kop": "Rekenen met driehoeken",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij rechte curven is elk surplus een driehoek: <strong>½ · basis · hoogte</strong>. De basis is de verhandelde hoeveelheid, de hoogte het verschil tussen de prijs en het punt waar de curve de prijsas snijdt."
+    },
+    {
+     "soort": "kader",
+     "html": "<p><strong>Voorbeeld 1.</strong> Vraag P = 100 − Q, aanbod P = 20 + Q.</p><ul><li>Evenwicht: 100 − Q = 20 + Q, dus 2Q = 80 en <strong>Q = 40</strong>, P = 60.</li><li>CS = ½ · 40 · (100 − 60) = <strong>800</strong>.</li><li>PS = ½ · 40 · (60 − 20) = <strong>800</strong>.</li><li>Totale welvaart = <strong>1 600</strong>.</li></ul>"
+    },
+    {
+     "soort": "kader",
+     "html": "<p><strong>Voorbeeld 2.</strong> Vraag Q<sub>v</sub> = 120 − 2P, aanbod Q<sub>a</sub> = 3P − 30.</p><ul><li>Evenwicht: 120 − 2P = 3P − 30, dus 5P = 150 en <strong>P = 30</strong>, Q = 60.</li><li>Q<sub>v</sub> = 0 bij P = 60: vanaf <strong>60</strong> wil niemand nog kopen.</li><li>Q<sub>a</sub> = 0 bij P = 10.</li><li>CS = ½ · 60 · (60 − 30) = <strong>900</strong>; PS = ½ · 60 · (30 − 10) = <strong>600</strong>; samen <strong>1 500</strong>.</li></ul>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Zo ook: de marktprijs is 50, de vraagcurve snijdt de prijsas bij 80 en er worden 30 stuks verhandeld. CS = ½ · 30 · 30 = <strong>450</strong>. Snijdt de aanbodcurve de prijsas bij 20, dan is PS = ½ · 30 · 30 = <strong>450</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Wanneer stijgt of daalt het surplus?",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<ul><li>De marktprijs <strong>daalt</strong> terwijl de curves gelijk blijven en er meer verhandeld wordt: het consumentensurplus <strong>stijgt</strong>. Stijgt de prijs, dan wordt het consumentensurplus <strong>kleiner</strong>.</li><li>De vraag stijgt (vraagcurve naar rechts): het producentensurplus <strong>stijgt</strong>.</li><li>Een technologische vooruitgang die het aanbod vergroot, kan zowel consumenten als producenten meer surplus geven.</li><li>De aanbodcurve verschuift naar links: de totale welvaart daalt meestal.</li></ul>"
+    }
+   ]
+  },
+  {
+   "kop": "Het welvaartsoptimum",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij volkomen concurrentie is de totale welvaart het grootst <strong>in het marktevenwicht</strong>. Ligt de prijs boven of onder de evenwichtsprijs, dan wordt er minder verhandeld en is de totale welvaart kleiner. Er gaat welvaart verloren omdat <strong>er ruilen niet plaatsvinden waarbij koper en verkoper allebei voordeel zouden hebben</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>Pareto-optimum</strong>: <strong>niemand kan beter worden zonder dat iemand anders slechter wordt</strong>. Een <strong>Pareto-verbetering</strong> maakt minstens één persoon beter af zonder iemand slechter af te maken. Bij volkomen concurrentie is het marktevenwicht een Pareto-optimum. Maar een Pareto-optimum is <strong>niet altijd rechtvaardig</strong>: ook een zeer ongelijke verdeling kan efficiënt zijn."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Adam Smith</strong> sprak van <strong>de onzichtbare hand</strong>: wie zijn eigenbelang volgt, dient via de markt ook het algemeen belang. Volgens Smith zorgt dus de markt voor het welvaartsoptimum, en niet een overheid die overal ingrijpt."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "CS = maximale betalingsbereidheid − marktprijs; PS = marktprijs − minimale verkoopprijs.",
+  "CS ligt onder de vraagcurve en boven de prijs, PS boven de aanbodcurve en onder de prijs.",
+  "Totale welvaart = CS + PS; een driehoek bereken je met ½ · basis · hoogte.",
+  "PS is niet hetzelfde als winst; CS is niet wat je betaalt.",
+  "Bij volkomen concurrentie is de welvaart het grootst in het evenwicht: een Pareto-optimum.",
+  "Pareto-efficiënt is niet hetzelfde als rechtvaardig. Smith: de onzichtbare hand."
+ ]
+}

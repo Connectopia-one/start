@@ -1,0 +1,118 @@
+{
+ "vak": "Economie",
+ "titel": "De vraagcurve en de prijselasticiteit van de vraag",
+ "onder": "Van één consument naar de hele markt, en hoe sterk de vraag reageert op de prijs.",
+ "secties": [
+  {
+   "kop": "De vraagcurve",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een gewone vraagcurve verloopt <strong>dalend: hoe hoger de prijs, hoe kleiner de gevraagde hoeveelheid</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>individuele vraagcurve</strong> leid je af uit de optimale goederencombinatie van één consument: <strong>je laat de prijs van een goed veranderen en noteert telkens de gekozen hoeveelheid</strong>. De <strong>collectieve vraagcurve</strong> (de marktvraag) vind je door <strong>bij elke prijs de gevraagde hoeveelheden van alle consumenten op te tellen</strong>. Vraagt An bij 4 euro 3 stuks, Bram 5 en Charlotte 2, dan is de collectieve vraag bij 4 euro <strong>10 stuks</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Beweging op de curve of verschuiving van de curve?",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Verandert de <strong>prijs van het goed zelf</strong>, dan is er een <strong>beweging op de vraagcurve</strong>: de curve blijft liggen, je schuift er langs naar een ander punt. Stijgt de prijs van koffie, dan beweeg je op de vraagcurve van koffie."
+    },
+    {
+     "soort": "tekst",
+     "html": "Verandert iets anders, dan <strong>verschuift</strong> de hele curve. Een daling van het inkomen geeft dus geen beweging op de curve, maar een verschuiving."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 300 210\" width=\"300\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"44\" y1=\"14\" x2=\"44\" y2=\"174\" stroke=\"#23291f\" stroke-width=\"1.8\"/><line x1=\"44\" y1=\"174\" x2=\"288\" y2=\"174\" stroke=\"#23291f\" stroke-width=\"1.8\"/><text x=\"42.0\" y=\"12.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#6b7260\">prijs</text><text x=\"288.0\" y=\"190.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#6b7260\">hoeveelheid</text><line x1=\"68.0\" y1=\"33.6\" x2=\"236.0\" y2=\"142.8\" stroke=\"#2f5d50\" stroke-width=\"2.2\"/><text x=\"241.0\" y=\"146.8\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#2f5d50\">V</text><line x1=\"116.0\" y1=\"33.6\" x2=\"284.0\" y2=\"142.8\" stroke=\"#6b7260\" stroke-width=\"2.2\" stroke-dasharray=\"6 4\"/><text x=\"289.0\" y=\"146.8\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#6b7260\">V′</text></svg>",
+     "onderschrift": "Naar rechts: bij elke prijs wordt er meer gevraagd."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">de vraagcurve van een normaal goed verschuift naar rechts als ...</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">naar links als ...</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het inkomen van de consumenten stijgt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het inkomen daalt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het goed populairder wordt, bv. door een goede reclamecampagne</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het goed uit de mode raakt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de prijs van een substituut stijgt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de prijs van een substituut daalt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de prijs van een complementair goed daalt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de prijs van een complementair goed stijgt</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Substituten</strong> vervangen elkaar, zoals boter en margarine. Stijgt de prijs van boter sterk, dan <strong>verschuift de vraagcurve van margarine naar rechts</strong>. <strong>Complementaire goederen</strong> gebruik je samen, zoals een printer en inkt. Daalt de prijs van smartphones, dan verschuift de vraagcurve van smartphonehoesjes naar rechts. Stijgt de prijs van een complementair goed, dan daalt de vraag naar het goed zelf."
+    }
+   ]
+  },
+  {
+   "kop": "De prijselasticiteit van de vraag",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>prijselasticiteit van de vraag</strong> zegt hoe sterk de gevraagde hoeveelheid reageert op een prijsverandering:"
+    },
+    {
+     "soort": "kader",
+     "html": "<p style=\"text-align:center\"><strong>E<sub>p</sub> = procentuele verandering van de gevraagde hoeveelheid / procentuele verandering van de prijs</strong></p>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Omdat prijs en hoeveelheid tegengesteld bewegen, is de uitkomst negatief. Voorbeelden:"
+    },
+    {
+     "soort": "kader",
+     "html": "<ul><li>De prijs stijgt met 10 %, de hoeveelheid daalt met 20 %: E = −20 / 10 = <strong>−2</strong>.</li><li>De prijs daalt van 10 naar 8 euro (−20 %), de hoeveelheid stijgt van 100 naar 110 (+10 %): E = 10 / −20 = <strong>−0,5</strong>.</li><li>De prijs stijgt van 20 naar 22 euro (+10 %), de hoeveelheid daalt van 500 naar 450 (−10 %): E = <strong>−1</strong>.</li><li>Omgekeerd: E = −1,5 en de prijs stijgt met 4 %, dan daalt de hoeveelheid met 1,5 × 4 = <strong>6 %</strong>.</li></ul>"
+    }
+   ]
+  },
+  {
+   "kop": "Elastisch, inelastisch en de omzet",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">elasticiteit (zonder teken)</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">naam</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">prijs omhoog, dan de omzet ...</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">groter dan 1</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">elastisch</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">daalt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gelijk aan 1</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">unitair elastisch</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">blijft ongeveer gelijk</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kleiner dan 1, bv. −0,4</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">inelastisch</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">stijgt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">perfect inelastisch: verticale curve</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">stijgt evenredig</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">oneindig</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">perfect elastisch: horizontale curve</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">valt weg</td></tr></table>"
+    },
+    {
+     "soort": "figuur",
+     "html": "<div style=\"display:flex;gap:18px;align-items:flex-end;justify-content:center;flex-wrap:wrap;\"><div><svg viewBox=\"0 0 200 160\" width=\"200\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"44\" y1=\"14\" x2=\"44\" y2=\"124\" stroke=\"#23291f\" stroke-width=\"1.8\"/><line x1=\"44\" y1=\"124\" x2=\"188\" y2=\"124\" stroke=\"#23291f\" stroke-width=\"1.8\"/><text x=\"42.0\" y=\"12.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#6b7260\">prijs</text><text x=\"188.0\" y=\"140.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#6b7260\">hoeveelheid</text><line x1=\"114.0\" y1=\"28.6\" x2=\"114.0\" y2=\"113.4\" stroke=\"#2f5d50\" stroke-width=\"2.2\"/><text x=\"119.0\" y=\"117.4\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#2f5d50\">V</text><text x=\"124.0\" y=\"12.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#234539\">perfect inelastisch</text></svg></div><div><svg viewBox=\"0 0 200 160\" width=\"200\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"44\" y1=\"14\" x2=\"44\" y2=\"124\" stroke=\"#23291f\" stroke-width=\"1.8\"/><line x1=\"44\" y1=\"124\" x2=\"188\" y2=\"124\" stroke=\"#23291f\" stroke-width=\"1.8\"/><text x=\"42.0\" y=\"12.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#6b7260\">prijs</text><text x=\"188.0\" y=\"140.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#6b7260\">hoeveelheid</text><line x1=\"58.0\" y1=\"71.0\" x2=\"170.0\" y2=\"71.0\" stroke=\"#2f5d50\" stroke-width=\"2.2\"/><text x=\"175.0\" y=\"75.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#2f5d50\">V</text><text x=\"124.0\" y=\"12.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#234539\">perfect elastisch</text></svg></div></div>",
+     "onderschrift": "Links: E = 0, de hoeveelheid verandert nooit. Rechts: bij een hogere prijs verkoop je niets meer."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een perfect inelastische vraag heeft dus een elasticiteit van <strong>0</strong>, niet −1. Die vraag wordt het minst beïnvloed door een prijsstijging. Een perfect elastische vraag komt voor bij <strong>een producent die heel veel concurrenten heeft met hetzelfde product</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij dezelfde schaal wijst een <strong>steilere vraagcurve</strong> op een minder elastische vraag. Langs een rechte, dalende vraagcurve <strong>verandert de elasticiteit</strong>: bovenaan is de vraag elastisch, onderaan inelastisch."
+    },
+    {
+     "soort": "tekst",
+     "html": "Daalt de prijs met 5 % en stijgt de hoeveelheid met 5 %, dan blijft de omzet ongeveer gelijk. Wil een <strong>bioscoop</strong> meer omzet terwijl de vraag naar tickets elastisch is, dan <strong>verlaagt ze best de prijs</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Waarom is de ene vraag elastischer dan de andere?",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">de vraag is elastischer als ...</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeelden</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">er veel alternatieven zijn</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een merk frisdrank met veel concurrenten in de winkel</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het product een groot deel van het budget inneemt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een auto, een reis</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het een luxeproduct is</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">juwelen, een citytrip</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je lang de tijd hebt om je aan te passen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">op lange termijn eerder dan op korte termijn</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">de vraag is inelastisch als ...</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeelden</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het een eerste levensbehoefte is</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">brood, elektriciteit</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">er geen alternatief is</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">insuline voor een diabetespatiënt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">er een verslavingseffect is</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sigaretten</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het maar een klein deel van het budget inneemt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zout</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Daarom werkt het als een overheid de <strong>accijns op tabak</strong> verhoogt om meer belastinginkomsten te krijgen: de vraag is inelastisch, dus <strong>de verkoop daalt maar weinig</strong>."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "De vraagcurve daalt. De marktvraag is de som van de individuele vragen bij elke prijs.",
+  "Prijs van het goed zelf: beweging op de curve. Inkomen, mode, substituten, complementen: verschuiving.",
+  "E = % verandering hoeveelheid / % verandering prijs; meestal negatief.",
+  "Elastisch (> 1): prijs omhoog, omzet omlaag. Inelastisch (< 1): prijs omhoog, omzet omhoog. Unitair: omzet gelijk.",
+  "Perfect inelastisch = verticaal (E = 0), perfect elastisch = horizontaal.",
+  "Elastischer bij veel alternatieven, groot budgetaandeel, luxe en op lange termijn."
+ ]
+}

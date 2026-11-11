@@ -1,0 +1,109 @@
+{
+ "vak": "Economie",
+ "titel": "Het inkomensevenwicht, de multiplicator en het AV-AA-schema",
+ "onder": "Hoe de bestedingen het inkomen bepalen, waarom een extra uitgave meer oplevert dan zichzelf, en hoe schokken prijzen en productie veranderen.",
+ "secties": [
+  {
+   "kop": "Het vereenvoudigd model",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "In het vereenvoudigd model van een gesloten economie blijven <strong>de prijzen, de geldhoeveelheid en de rente constant</strong>. Het evenwichtsinkomen wordt dan bepaald door de <strong>effectieve vraag</strong>: de bestedingen <strong>waarvoor ook koopkracht is</strong>. Er is <strong>inkomensevenwicht</strong> als de effectieve vraag gelijk is aan het inkomen Y."
+    },
+    {
+     "soort": "kader",
+     "html": "<p><strong>Voorbeeld.</strong> C = 50 + 0,8Y en I = 100 (zonder overheid).</p><ul><li>Evenwicht: Y = C + I = 50 + 0,8Y + 100, dus 0,2Y = 150 en <strong>Y = 750</strong>.</li><li>De <strong>marginale consumptiequote</strong> is <strong>0,8</strong>: van elke extra euro inkomen wordt 80 cent besteed. De marginale spaarquote is 0,2.</li></ul>"
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 330 230\" width=\"330\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"44\" y1=\"14\" x2=\"44\" y2=\"194\" stroke=\"#23291f\" stroke-width=\"1.8\"/><line x1=\"44\" y1=\"194\" x2=\"318\" y2=\"194\" stroke=\"#23291f\" stroke-width=\"1.8\"/><text x=\"42.0\" y=\"12.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#6b7260\">bestedingen</text><text x=\"318.0\" y=\"210.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#6b7260\">inkomen Y</text><line x1=\"44.0\" y1=\"194.0\" x2=\"314.0\" y2=\"18.0\" stroke=\"#6b7260\" stroke-width=\"2.2\" stroke-dasharray=\"6 4\"/><text x=\"319.0\" y=\"22.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#6b7260\">45°</text><line x1=\"44.0\" y1=\"141.2\" x2=\"314.0\" y2=\"70.8\" stroke=\"#2f5d50\" stroke-width=\"2.2\"/><text x=\"319.0\" y=\"74.8\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#2f5d50\">C + I</text><line x1=\"44.0\" y1=\"114.8\" x2=\"314.0\" y2=\"44.4\" stroke=\"#c17f2b\" stroke-width=\"2.2\"/><text x=\"319.0\" y=\"48.4\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#c17f2b\">C + I′</text><line x1=\"44.0\" y1=\"106.0\" x2=\"179.0\" y2=\"106.0\" stroke=\"#6b7260\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><line x1=\"179.0\" y1=\"194.0\" x2=\"179.0\" y2=\"106.0\" stroke=\"#6b7260\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><circle cx=\"179.0\" cy=\"106.0\" r=\"3.6\" fill=\"#23291f\"/><text x=\"185.0\" y=\"100.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#23291f\">Y</text><line x1=\"44.0\" y1=\"62.0\" x2=\"246.5\" y2=\"62.0\" stroke=\"#6b7260\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><line x1=\"246.5\" y1=\"194.0\" x2=\"246.5\" y2=\"62.0\" stroke=\"#6b7260\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><circle cx=\"246.5\" cy=\"62.0\" r=\"3.6\" fill=\"#23291f\"/><text x=\"252.5\" y=\"56.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#23291f\">Y′</text></svg>",
+     "onderschrift": "Op de 45°-lijn zijn de bestedingen gelijk aan Y. Stijgen de investeringen, dan schuift de bestedingslijn omhoog."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>45°-lijn</strong> toont <strong>de punten waar de bestedingen gelijk zijn aan Y</strong>. Het evenwicht ligt waar de bestedingslijn die lijn snijdt. Stijgen de autonome investeringen, dan <strong>schuift de bestedingslijn omhoog en stijgt het evenwichtsinkomen</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "De multiplicator",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<p style=\"text-align:center\"><strong>multiplicator = 1 / (1 − marginale consumptiequote)</strong></p><p>Gaat het om extra investeringen, dan spreek je van de <strong>investeringsmultiplicator</strong>; het verschijnsel zelf heet het <strong>multiplicatoreffect</strong>.</p>"
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">marginale consumptiequote</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">multiplicator</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0,8</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1 / 0,2 = <strong>5</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0,75</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1 / 0,25 = <strong>4</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0,9</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1 / 0,1 = <strong>10</strong> (niet 0,9)</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Stijgen de autonome investeringen met 20 bij een multiplicator van 5, dan stijgt het inkomen met <strong>100</strong>. Verhoogt de overheid haar uitgaven met 10 miljard bij een multiplicator van 2,5, dan stijgt het inkomen met <strong>25 miljard</strong>. Het werkt ook omgekeerd: een daling van de investeringen doet het inkomen met <strong>meer</strong> dan die daling dalen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Waarom meer? <strong>De uitgave wordt inkomen voor anderen, die verder besteden.</strong> Maar bij elke ronde lekt er iets weg:"
+    },
+    {
+     "soort": "kader",
+     "html": "<ul><li>het <strong>spaarlek</strong>: het deel van het extra inkomen dat gespaard wordt;</li><li>het <strong>belastinglek</strong>: het deel van het extra inkomen voor belastingen.</li></ul><p>Hoe groter de marginale spaarquote, hoe <strong>kleiner</strong> de multiplicator. Met belastingen erbij is de multiplicator dus <strong>kleiner</strong> dan zonder.</p>"
+    }
+   ]
+  },
+  {
+   "kop": "Het AV-AA-schema",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Op de assen staan <strong>het algemeen prijspeil</strong> en <strong>het reëel bbp</strong>. Hier mogen de prijzen wel veranderen."
+    },
+    {
+     "soort": "figuur",
+     "html": "<div style=\"display:flex;gap:18px;align-items:flex-end;justify-content:center;flex-wrap:wrap;\"><div><svg viewBox=\"0 0 240 190\" width=\"240\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"44\" y1=\"14\" x2=\"44\" y2=\"154\" stroke=\"#23291f\" stroke-width=\"1.8\"/><line x1=\"44\" y1=\"154\" x2=\"228\" y2=\"154\" stroke=\"#23291f\" stroke-width=\"1.8\"/><text x=\"42.0\" y=\"12.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#6b7260\">prijspeil</text><text x=\"228.0\" y=\"170.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#6b7260\">reëel bbp</text><line x1=\"62.0\" y1=\"31.6\" x2=\"188.0\" y2=\"126.8\" stroke=\"#2f5d50\" stroke-width=\"2.2\"/><text x=\"193.0\" y=\"130.8\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#2f5d50\">AV</text><line x1=\"98.0\" y1=\"31.6\" x2=\"224.0\" y2=\"126.8\" stroke=\"#6b7260\" stroke-width=\"2.2\" stroke-dasharray=\"6 4\"/><text x=\"229.0\" y=\"130.8\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#6b7260\">AV′</text><line x1=\"62.0\" y1=\"126.8\" x2=\"206.0\" y2=\"31.6\" stroke=\"#c17f2b\" stroke-width=\"2.2\"/><text x=\"211.0\" y=\"35.6\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#c17f2b\">AA</text><line x1=\"44.0\" y1=\"82.3\" x2=\"129.1\" y2=\"82.3\" stroke=\"#6b7260\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><line x1=\"129.1\" y1=\"154.0\" x2=\"129.1\" y2=\"82.3\" stroke=\"#6b7260\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><circle cx=\"129.1\" cy=\"82.3\" r=\"3.6\" fill=\"#23291f\"/><line x1=\"44.0\" y1=\"69.7\" x2=\"148.4\" y2=\"69.7\" stroke=\"#6b7260\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><line x1=\"148.4\" y1=\"154.0\" x2=\"148.4\" y2=\"69.7\" stroke=\"#6b7260\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><circle cx=\"148.4\" cy=\"69.7\" r=\"3.6\" fill=\"#23291f\"/></svg></div><div><svg viewBox=\"0 0 240 190\" width=\"240\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"44\" y1=\"14\" x2=\"44\" y2=\"154\" stroke=\"#23291f\" stroke-width=\"1.8\"/><line x1=\"44\" y1=\"154\" x2=\"228\" y2=\"154\" stroke=\"#23291f\" stroke-width=\"1.8\"/><text x=\"42.0\" y=\"12.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#6b7260\">prijspeil</text><text x=\"228.0\" y=\"170.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#6b7260\">reëel bbp</text><line x1=\"62.0\" y1=\"31.6\" x2=\"188.0\" y2=\"126.8\" stroke=\"#2f5d50\" stroke-width=\"2.2\"/><text x=\"193.0\" y=\"130.8\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#2f5d50\">AV</text><line x1=\"62.0\" y1=\"126.8\" x2=\"206.0\" y2=\"31.6\" stroke=\"#c17f2b\" stroke-width=\"2.2\"/><text x=\"211.0\" y=\"35.6\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#c17f2b\">AA</text><line x1=\"44.0\" y1=\"106.4\" x2=\"170.0\" y2=\"23.4\" stroke=\"#6b7260\" stroke-width=\"2.2\" stroke-dasharray=\"6 4\"/><text x=\"175.0\" y=\"27.4\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#6b7260\">AA′</text><line x1=\"44.0\" y1=\"82.3\" x2=\"129.1\" y2=\"82.3\" stroke=\"#6b7260\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><line x1=\"129.1\" y1=\"154.0\" x2=\"129.1\" y2=\"82.3\" stroke=\"#6b7260\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><circle cx=\"129.1\" cy=\"82.3\" r=\"3.6\" fill=\"#23291f\"/><line x1=\"44.0\" y1=\"65.2\" x2=\"106.5\" y2=\"65.2\" stroke=\"#6b7260\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><line x1=\"106.5\" y1=\"154.0\" x2=\"106.5\" y2=\"65.2\" stroke=\"#6b7260\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><circle cx=\"106.5\" cy=\"65.2\" r=\"3.6\" fill=\"#23291f\"/></svg></div></div>",
+     "onderschrift": "Links een positieve vraagschok: AV naar rechts, prijspeil en bbp stijgen. Rechts een negatieve aanbodschok: AA naar links, hogere prijzen en minder productie."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">curve</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">verloop</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">AV (aggregatieve vraag)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>dalend</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">AA op korte termijn</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>stijgend</strong>: bij een hoger prijspeil wordt er meer geproduceerd</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">AA op lange termijn</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>verticaal</strong> bij het potentieel bbp</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Het macro-economisch evenwicht op korte termijn ligt <strong>op het snijpunt van AV en AA op korte termijn</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Schokken",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">schok</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">gevolg</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">positieve vraagschok</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">meer bestedingen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">AV naar rechts: prijspeil en reëel bbp stijgen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">negatieve vraagschok</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het consumentenvertrouwen stort in</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">AV naar links</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">negatieve aanbodschok</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de olieprijs stijgt fors</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">AA naar links: kan leiden tot <strong>stagflatie</strong>, hogere prijzen en minder productie</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">positieve aanbodschok</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een technologische doorbraak</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">AA naar rechts</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Op lange termijn, met een verticale AA-curve, keert na een positieve vraagschok <strong>het bbp terug naar het potentieel</strong> en <strong>blijft het prijspeil hoger</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Beleid",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\"></th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">budgettair beleid</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">monetair beleid</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de overheden (federaal, Vlaams ...)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">voor België: de <strong>Europese Centrale Bank</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">middel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">uitgaven en belastingen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de rente</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">expansief</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">meer investeren in wegen en scholen, belastingen verlagen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de rente verlagen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">effect van expansief</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">AV naar rechts</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">AV naar rechts</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>renteverhoging</strong> is een <strong>restrictief</strong> monetair beleid, en een restrictief beleid doet de AV-curve naar <strong>links</strong> schuiven. De Vlaamse regering kan de rente in de eurozone niet zelf verlagen: dat doet enkel de ECB."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Inkomensevenwicht: effectieve vraag = Y. Bij C = a + cY en I: Y = (a + I) / (1 − c).",
+  "Multiplicator = 1 / (1 − marginale consumptiequote); lekken (sparen, belastingen) maken hem kleiner.",
+  "AV daalt; AA stijgt op korte termijn en is verticaal op lange termijn.",
+  "Vraagschok: AV verschuift. Aanbodschok: AA verschuift; olieprijs omhoog kan stagflatie geven.",
+  "Budgettair beleid: uitgaven en belastingen. Monetair beleid: rente, door de ECB."
+ ]
+}

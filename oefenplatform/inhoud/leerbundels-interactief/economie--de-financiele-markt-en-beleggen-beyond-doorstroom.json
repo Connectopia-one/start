@@ -1,0 +1,96 @@
+{
+ "vak": "Economie",
+ "titel": "De financiële markt en beleggen",
+ "onder": "Waar spaargeld en kredieten samenkomen, en welke beleggingen er zijn.",
+ "secties": [
+  {
+   "kop": "De markt van financiële middelen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Op de markt van financiële middelen komen spaarders en ontleners samen. De prijs op die markt is <strong>de intrest</strong> (de rente)."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\"></th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">aanbod</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">spaarders</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gezinnen die sparen, pensioenfondsen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vraag</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ontleners</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gezinnen die een huis kopen, bedrijven die investeren, de overheid</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "<ul><li>Gezinnen gaan <strong>meer sparen</strong>: het aanbod stijgt en <strong>de rente daalt</strong>.</li><li>De overheid <strong>leent veel meer</strong> om een tekort te financieren: de vraag stijgt en <strong>de rente stijgt</strong>.</li></ul>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Banken</strong> staan tussen spaarders en kredietnemers: ze <strong>verzamelen spaargeld en lenen het uit</strong>. Een <strong>pensioenfonds</strong> of een verzekeraar is een <strong>professionele belegger</strong>. Een particulier die zelf aandelen koopt, is dat <strong>niet</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Geldmarkt en kapitaalmarkt",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\"></th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">betekenis</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geldmarkt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geld voor <strong>korte</strong> termijn (tot een jaar)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kapitaalmarkt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geld voor <strong>lange</strong> termijn, zoals aandelen en obligaties</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">primaire markt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>nieuwe</strong> effecten worden uitgegeven, bv. een bedrijf dat naar de beurs gaat</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">secundaire markt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">beleggers verhandelen <strong>bestaande</strong> effecten onder elkaar, bv. de beurs</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "De beurs hoort dus bij de <strong>kapitaalmarkt</strong>, niet bij de geldmarkt."
+    }
+   ]
+  },
+  {
+   "kop": "Obligaties en aandelen",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\"></th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">obligatie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">aandeel</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wat</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>lening met rente</strong> aan een bedrijf of overheid</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>deel van de eigendom</strong> van een bedrijf</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kenmerken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een looptijd en een rentevoet (coupon)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">stemrecht, eventueel dividend</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rendement</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de coupon, en de koers</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>dividend</strong> en een <strong>koersstijging</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">risico</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kleiner, maar niet nul</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">groter: <strong>de koersen schommelen sterker</strong></td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Stijgt de marktrente</strong>, dan <strong>daalt de koers</strong> van een bestaande obligatie met vaste rente: nieuwe obligaties geven meer, dus wil niemand nog de volle prijs betalen voor de oude. Het rendement van een obligatie hangt af van <strong>de evolutie van de marktrente</strong> en van <strong>de kredietwaardigheid van de uitgever</strong>. Een obligatie is dus niet zonder risico."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het rendement van een aandeel hangt vooral af van <strong>de verwachte winst van het bedrijf</strong>. Een bedrijf is <strong>niet verplicht</strong> om elk jaar dividend uit te keren."
+    }
+   ]
+  },
+  {
+   "kop": "Fondsen en verzekeringen",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">product</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">beleggingsfonds (ICB)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een fonds dat geld van veel beleggers samen belegt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bevek / bevak</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bevek: veranderlijk kapitaal; bevak: vast kapitaal</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ETF</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een indexfonds dat je, zoals een aandeel, op elk moment op de beurs verhandelt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">obligatiefonds</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">belegt in obligaties: meestal het minst risicovol</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gemengd fonds</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">belegt in aandelen én obligaties</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Tak21-verzekering</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gewaarborgd kapitaal met een gewaarborgde rente</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Tak23-verzekering</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rendement hangt af van beleggingsfondsen, <strong>zonder kapitaalgarantie</strong>: je kan minder terugkrijgen</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Wie zeker wil zijn dat hij zijn inleg terugkrijgt, kiest best een <strong>Tak21</strong>. Beleggers <strong>spreiden</strong> hun geld over verschillende beleggingen <strong>om het risico te beperken</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Duurzaam beleggen",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">letter</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">staat voor</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">E</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Environment (milieu)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">weinig uitstoot</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">S</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Social</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kinderarbeid bij leveranciers weren</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">G</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Governance (bestuur)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een onafhankelijke raad van bestuur, eerlijke beloning van de top</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>ESG-score</strong> van een fonds zegt <strong>hoe duurzaam de bedrijven zijn</strong> waarin het belegt. Beleggingen in bedrijven met <strong>hoge uitstoot</strong> of <strong>corruptieschandalen</strong> verlagen de score. Duurzaam beleggen betekent dus dat je niet enkel naar het hoogste rendement kijkt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Heet een fonds 'groen' maar belegt het grotendeels in olie en gas, dan spreek je van <strong>greenwashing</strong>."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "De prijs op de markt van financiële middelen is de intrest; meer sparen doet de rente dalen, meer lenen doet ze stijgen.",
+  "Geldmarkt: korte termijn. Kapitaalmarkt: lange termijn. Primair: nieuwe effecten. Secundair: bestaande (beurs).",
+  "Obligatie = lening met rente; stijgt de marktrente, dan daalt haar koers.",
+  "Aandeel = eigendom; rendement via dividend en koersstijging; riskanter.",
+  "Tak21: kapitaal gewaarborgd. Tak23: geen garantie. ETF: indexfonds op de beurs.",
+  "ESG = Environment, Social, Governance; greenwashing = groen lijken zonder het te zijn."
+ ]
+}

@@ -1,0 +1,106 @@
+{
+ "vak": "Economie",
+ "titel": "Monopolistische concurrentie, oligopolie en speltheorie",
+ "onder": "De marktvormen tussen volkomen concurrentie en monopolie, en hoe bedrijven elkaars zetten voorspellen.",
+ "secties": [
+  {
+   "kop": "Monopolistische concurrentie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij monopolistische concurrentie zijn er <strong>veel aanbieders van gelijkaardige maar verschillende producten</strong>. Denk aan honderden restaurants in een stad, elk met een eigen keuken en sfeer. De toetredingsdrempels zijn <strong>laag</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Omdat elk product een beetje anders is, heeft elke aanbieder <strong>een dalende prijsafzetcurve</strong>. Bedrijven doen veel aan <strong>reclame</strong>, om hun product te onderscheiden van dat van de concurrent."
+    },
+    {
+     "soort": "kader",
+     "html": "<ul><li><strong>Korte termijn:</strong> zoals een monopolist produceert hij waar <strong>MO = MK</strong>, en hij kan winst maken.</li><li><strong>Lange termijn:</strong> door die winst <strong>treden nieuwe aanbieders toe</strong>, tot de winst verdwenen is. De prijsafzetcurve raakt dan de GK-curve: <strong>de prijs is gelijk aan de gemiddelde kosten, dus de winst is nul</strong>.</li></ul>"
+    }
+   ]
+  },
+  {
+   "kop": "Oligopolie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij een oligopolie zijn er <strong>enkele grote aanbieders die van elkaar afhankelijk zijn</strong>, met <strong>hoge toetredingsdrempels</strong>. Voorbeelden: de drie grote operatoren voor mobiele abonnementen in België, of twee grote vliegtuigbouwers die de wereldmarkt verdelen. Oligopolisten houden bij elke beslissing <strong>rekening met de reactie van hun concurrenten</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Monopolie, oligopolie en monopolistische concurrentie hebben iets gemeen: <strong>de aanbieders hebben wat invloed op de prijs</strong> en <strong>de prijsafzetcurve van een aanbieder daalt</strong>. De meest elastische prijsafzetcurve voor één aanbieder vind je bij <strong>volkomen concurrentie</strong>: die is horizontaal."
+    }
+   ]
+  },
+  {
+   "kop": "De geknikte prijsafzetcurve",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 320 220\" width=\"320\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"44\" y1=\"14\" x2=\"44\" y2=\"184\" stroke=\"#23291f\" stroke-width=\"1.8\"/><line x1=\"44\" y1=\"184\" x2=\"308\" y2=\"184\" stroke=\"#23291f\" stroke-width=\"1.8\"/><text x=\"42.0\" y=\"12.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#6b7260\">prijs</text><text x=\"308.0\" y=\"200.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#6b7260\">hoeveelheid</text><line x1=\"44.0\" y1=\"67.8\" x2=\"174.0\" y2=\"84.4\" stroke=\"#2f5d50\" stroke-width=\"2.2\"/><line x1=\"174.0\" y1=\"84.4\" x2=\"239.0\" y2=\"167.4\" stroke=\"#2f5d50\" stroke-width=\"2.2\"/><text x=\"244.0\" y=\"171.4\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#2f5d50\">P</text><line x1=\"44.0\" y1=\"67.8\" x2=\"174.0\" y2=\"101.0\" stroke=\"#c17f2b\" stroke-width=\"2.2\"/><line x1=\"174.0\" y1=\"130.9\" x2=\"210.4\" y2=\"174.0\" stroke=\"#c17f2b\" stroke-width=\"2.2\"/><text x=\"215.4\" y=\"178.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#c17f2b\">MO</text><line x1=\"174.0\" y1=\"101.0\" x2=\"174.0\" y2=\"130.9\" stroke=\"#6b7260\" stroke-width=\"2.2\" stroke-dasharray=\"6 4\"/><line x1=\"44.0\" y1=\"84.4\" x2=\"174.0\" y2=\"84.4\" stroke=\"#6b7260\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><line x1=\"174.0\" y1=\"184.0\" x2=\"174.0\" y2=\"84.4\" stroke=\"#6b7260\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><circle cx=\"174.0\" cy=\"84.4\" r=\"3.6\" fill=\"#23291f\"/><text x=\"180.0\" y=\"78.4\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#23291f\">knik</text></svg>",
+     "onderschrift": "Boven de knik is de vraag elastisch, eronder inelastisch. De MO-curve maakt een sprong."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij oligopolie is er vaak <strong>prijsstarheid</strong>: de prijs blijft lang gelijk, ook als de kosten veranderen. De verklaring is de <strong>geknikte prijsafzetcurve</strong>: <strong>concurrenten volgen wel een prijsdaling, maar geen prijsstijging</strong>."
+    },
+    {
+     "soort": "kader",
+     "html": "<ul><li>Verhoogt één bedrijf zijn prijs, dan volgen de anderen niet en verliest het veel klanten: <strong>boven de knik is de vraag elastisch</strong>.</li><li>Verlaagt het de prijs, dan volgen de anderen meteen en wint het weinig klanten: <strong>onder de knik is de vraag inelastisch</strong>.</li><li>Door de knik maakt <strong>de MO-curve een sprong</strong>. Schuift de MK-curve een beetje, dan snijdt ze MO nog altijd in die sprong: de prijs verandert niet.</li></ul>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Zo verklaar je ook twee tankstations naast elkaar: verlaagt het ene de prijs, dan volgt het andere meteen; verhoogt het de prijs, dan volgt het andere niet."
+    }
+   ]
+  },
+  {
+   "kop": "Kartels",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>kartel</strong> is <strong>een afspraak tussen aanbieders over prijzen of markten</strong>. In de Europese Unie zijn kartelafspraken <strong>verboden</strong>, ook als ze geheim blijven."
+    }
+   ]
+  },
+  {
+   "kop": "Speltheorie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Speltheorie bestudeert beslissingen waarbij <strong>je uitkomst afhangt van wat de ander doet</strong>. Ze is dus vooral nuttig bij oligopolie, niet bij volkomen concurrentie."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">begrip</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">betekenis</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">best-response strategie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de beste keuze voor een speler, gegeven wat de andere speler doet</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dominante strategie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een strategie die het beste is, wat de andere speler ook doet</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Nash-evenwicht</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geen speler wint iets door in zijn eentje te veranderen; niemand heeft spijt van zijn keuze, gegeven wat de ander deed</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gevangenendilemma</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">eigenbelang leidt tot een slechtere uitkomst voor beide</td></tr></table>"
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"border-collapse:collapse;margin:0 auto;font-size:10.5pt;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 10px;color:#234539;font-weight:600;\"></th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 10px;color:#234539;font-weight:600;\">B hoog</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 10px;color:#234539;font-weight:600;\">B laag</th></tr><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 10px;color:#234539;font-weight:600;\">A hoog</th><td style=\"border:1px solid #e4ded0;padding:6px 10px;text-align:center;\">10 ; 10</td><td style=\"border:1px solid #e4ded0;padding:6px 10px;text-align:center;\">2 ; 15</td></tr><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 10px;color:#234539;font-weight:600;\">A laag</th><td style=\"border:1px solid #e4ded0;padding:6px 10px;text-align:center;\">15 ; 2</td><td style=\"border:1px solid #e4ded0;padding:6px 10px;text-align:center;\">5 ; 5</td></tr></table>",
+     "onderschrift": "Winst van A ; winst van B bij een hoge of lage prijs."
+    },
+    {
+     "soort": "kader",
+     "html": "<ul><li>Kiest B hoog, dan is laag het beste voor A (15 &gt; 10). Kiest B laag, dan ook (5 &gt; 2). Laag is dus een <strong>dominante strategie</strong> voor A, en net zo voor B.</li><li>Het <strong>Nash-evenwicht</strong> is <strong>beide laag</strong>: elk 5.</li><li>Samen zouden ze meer halen met beide hoog (elk 10). Het Nash-evenwicht geeft dus <strong>niet</strong> de hoogste winst samen: dat is het gevangenendilemma.</li></ul>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Zo verklaart speltheorie waarom bedrijven <strong>een kartel willen</strong>: samen een hoge prijs afspreken levert elk meer op dan het Nash-evenwicht. En ook waarom een kartel <strong>vaak niet stabiel</strong> is: <strong>elk lid wint erbij door stiekem een lagere prijs te vragen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een spel kan ook een Nash-evenwicht hebben <strong>zonder</strong> dat een speler een dominante strategie heeft."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Monopolistische concurrentie: veel aanbieders, verschillende producten, lage drempels; op lange termijn winst nul.",
+  "Oligopolie: enkele grote aanbieders, hoge drempels, afhankelijk van elkaars reactie.",
+  "Geknikte prijsafzetcurve: een daling wordt gevolgd, een stijging niet; daardoor prijsstarheid.",
+  "Een kartel is een prijs- of marktafspraak en is in de EU verboden.",
+  "Dominante strategie: altijd de beste. Nash-evenwicht: niemand wint iets door alleen te veranderen.",
+  "Gevangenendilemma: eigenbelang geeft beide een slechtere uitkomst; daarom zijn kartels onstabiel."
+ ]
+}

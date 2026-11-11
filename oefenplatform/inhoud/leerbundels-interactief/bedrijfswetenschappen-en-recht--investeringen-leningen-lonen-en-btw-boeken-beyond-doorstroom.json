@@ -1,0 +1,77 @@
+{
+ "vak": "Bedrijfswetenschappen en recht",
+ "titel": "Investeringen, leningen, lonen en btw boeken",
+ "onder": "Een investering op krediet, een lening en haar aflossing, de loonsynthese en de btw-verrekening.",
+ "secties": [
+  {
+   "kop": "Investeringen en leningen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een machine wordt gekocht en betaald met een lening van de bank: dat zijn <strong>twee</strong> verrichtingen en dus twee boekingen, de factuur en de lening. Bij een investering op krediet staat de rekening van het vast actief <strong>debet</strong> (een actief dat stijgt), met 41100 voor de btw en 44000 credit."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een lening van 50 000 euro over vijf jaar (een <strong>investeringskrediet</strong>) is <strong>vreemd vermogen</strong>: geld dat je moet terugbetalen. Je boekt ze in rekeninggroep <strong>17 Schulden op meer dan een jaar</strong>. Als de bank het bedrag stort, staat 55000 Kredietinstellingen debet. Een lening ontvangen verhoogt de omzet niet: het is geen verkoop."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">moment</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">boeking</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de bank stort de lening</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">55000 Kredietinstellingen debet, 17 Schulden op meer dan een jaar credit</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">einde van het jaar</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het deel dat binnen het jaar vervalt, verhuist naar groep 42 (schulden op meer dan een jaar die binnen het jaar vervallen): bij 100 000 euro in vijf gelijke delen is dat 20 000 euro</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">aflossing: 10 000 kapitaal en 1 500 interest</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">42 debet 10 000 (de schuld daalt), 65 Financiële kosten debet 1 500, 55000 credit 11 500</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Het kapitaal terugbetalen is <strong>geen kost</strong>: bank en schuld dalen allebei, het eigen vermogen blijft gelijk. Enkel de <strong>interest</strong> is een kost: een financiële kost, groep 65."
+    }
+   ]
+  },
+  {
+   "kop": "Lonen",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">begrip</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">uitleg</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">brutoloon</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een kost voor de werkgever: groep 62 Bezoldigingen en sociale lasten (niet 60400)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">RSZ werknemer</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ingehouden op het brutoloon, bv. 13,07 %: 3 000 · 0,1307 = 392,10 euro</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bedrijfsvoorheffing</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ingehouden op het loon; een schuld van de werkgever aan de fiscus, die hij doorstort</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nettoloon</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">brutoloon − RSZ werknemer − bedrijfsvoorheffing: wat de werknemer echt op zijn rekening krijgt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">werkgeversbijdrage RSZ</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">betaalt de werkgever <strong>bovenop</strong> het brutoloon: een extra kost, niet afgehouden van het loon. 25 % op 4 000 euro: totale loonkost 5 000 euro</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verplicht voorschot</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">voor <strong>arbeiders</strong>: een deel van het loon halverwege de maand, later afgetrokken van het nettoloon. Bedienden worden maandelijks betaald</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "<ul><li>Bruto 2 500, RSZ 326,75, voorheffing 400: netto 2 500 − 326,75 − 400 = <strong>1 773,25 euro</strong>.</li><li>Bruto 2 000, RSZ 261,40, voorheffing 300, voorschot 600: netto 1 438,60, nog uit te betalen <strong>838,60 euro</strong>.</li></ul>"
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>loonsynthese</strong> is het overzicht van alle lonen van de maand: brutolonen, inhoudingen, werkgeversbijdragen en netto. Veel kleine werkgevers laten ze maken door een <strong>sociaal secretariaat</strong>."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">debet: kosten van de werkgever</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">credit: schulden</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">brutolonen (groep 62)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ingehouden bedrijfsvoorheffing (aan de fiscus)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">werkgeversbijdragen RSZ (groep 62)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">RSZ-bijdragen van werknemer en werkgever (groep 45), samen doorgestort aan de RSZ</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nettoloon: schuld aan het personeel</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Ingehouden voorheffing en voorschot zijn geen extra kosten. Bij de uitbetaling van de nettolonen via de bank daalt de schuld aan het personeel (debet) en staat 55000 Kredietinstellingen credit. De factuur van het sociaal secretariaat is een dienst: klasse 61, met de btw op 41100 Terug te vorderen btw. Bij de betaling ervan staat 44000 debet en 55000 credit."
+    }
+   ]
+  },
+  {
+   "kop": "Btw-verrekening en -vereffening",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij de <strong>btw-verrekening</strong> boek je de te betalen en de terug te vorderen btw tegen elkaar weg (wegboeken): 45100 Te betalen btw staat debet, 41100 Terug te vorderen btw credit. Het saldo toont of je de staat moet betalen of geld terugkrijgt."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">45100 te betalen</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">41100 terug te vorderen</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">gevolg</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">8 000 euro</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">5 000 euro</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de onderneming stort 3 000 euro</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">4 000 euro</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">6 000 euro</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de staat moet 2 000 euro terugbetalen: er is meer btw betaald bij aankopen dan aangerekend bij verkopen</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij de <strong>btw-vereffening</strong> betaalt de onderneming het saldo aan de staat met een overschrijving naar de FOD Financiën: 45100 debet, 55000 credit."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Lening: groep 17; deel dat binnen het jaar vervalt naar groep 42. Interest = kost (groep 65), aflossing niet.",
+  "Nettoloon = bruto − RSZ werknemer − bedrijfsvoorheffing.",
+  "Loonsynthese: brutoloon en werkgeversbijdragen debet (kosten), inhoudingen en netto credit (schulden).",
+  "Verplicht voorschot: enkel arbeiders.",
+  "Btw-verrekening: 45100 debet, 41100 credit; het saldo betaal je of krijg je terug."
+ ]
+}

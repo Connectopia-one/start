@@ -1,0 +1,64 @@
+{
+ "vak": "Bedrijfswetenschappen en recht",
+ "titel": "Kerncijfers: solvabiliteit en rendabiliteit",
+ "onder": "Kan de onderneming haar schulden op lange termijn dragen, en hoeveel brengt het vermogen op? Met de financiële hefboom.",
+ "secties": [
+  {
+   "kop": "Solvabiliteit en schuldgraad",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>solvabiliteit</strong> meet of een onderneming op <strong>lange termijn</strong> haar schulden kan dragen: haar financiële onafhankelijkheid. De solvabiliteit en de schuldgraad horen bij de solvabiliteitskerncijfers; je berekent ze allebei met gegevens van de balans."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">kerncijfer</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">formule</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">solvabiliteit</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">eigen vermogen / totaal vermogen · 100</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">400 000 / 1 000 000 = 40 %; 500 000 / 800 000 = 62,5 %</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">schuldgraad</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vreemd vermogen / totaal vermogen · 100</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">700 000 / 1 000 000 = 70 %; 450 000 / 900 000 = 50 %</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "<ul><li>Solvabiliteit en schuldgraad zijn samen <strong>100 %</strong> (spiegelbeeld): solvabiliteit 25 % geeft schuldgraad 75 %. Zonder vreemd vermogen is de solvabiliteit 100 %.</li><li>Hoe meer schulden, hoe <strong>afhankelijker</strong> van de schuldeisers. Een schuldgraad van 90 % is geen teken van een sterke onderneming.</li><li>Een lage solvabiliteit maakt het moeilijker om een nieuwe lening te krijgen: de bank ziet meer risico. Vraagt de bank minstens 30 % en is het 250 000 / 1 000 000 = 25 %, dan is de solvabiliteit te laag.</li><li><strong>Verbeteren</strong>: winst in de onderneming houden als reserve, of een kapitaalsverhoging doen: beide verhogen het eigen vermogen. Verlies verlaagt het eigen vermogen, dus de solvabiliteit daalt.</li><li>Een onderneming kan winstgevend zijn en toch een lage solvabiliteit hebben, als ze veel winst maakt met veel geleend geld.</li></ul>"
+    }
+   ]
+  },
+  {
+   "kop": "Rendabiliteit",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Rendabiliteit gaat over <strong>winst</strong>, liquiditeit over het betalen van schulden op korte termijn: ze betekenen niet hetzelfde."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">kerncijfer</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">formule</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rendabiliteit van het eigen vermogen (REV): het rendement voor de aandeelhouders</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nettowinst na belasting / eigen vermogen · 100</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">30 000 / 200 000 = 15 %; 50 000 / 400 000 = 12,5 %</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rendabiliteit van het totaal vermogen (RTV): hoe goed de onderneming al haar middelen inzet</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">(winst na belasting + interestkosten) / totaal vermogen · 100</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">(40 000 + 20 000) / 600 000 = 10 %</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij de REV neem je de nettowinst na belasting: wat echt voor de eigenaars is. In de teller van de RTV neem je het resultaat <strong>vóór interestkosten</strong>, want het totaal vermogen komt van eigenaars én schuldeisers: beiden krijgen een vergoeding, winst en interest. Een belegger vergelijkt de REV met de rente op een spaarrekening om te zien of het risico van beleggen loont: een aandeel is riskanter, dus de REV moet hoger liggen."
+    }
+   ]
+  },
+  {
+   "kop": "De financiële hefboom",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>financiële hefboom</strong> is het effect van lenen op het rendement van de eigenaars. Om te weten of een lening het rendement verhoogt, vergelijk je de <strong>RTV met de interestvoet</strong>."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">situatie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">hefboom</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">als de onderneming meer leent</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">RTV hoger dan de interestvoet (8 % tegen 5 %): het vermogen brengt meer op dan de interest</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">positief</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de REV stijgt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">RTV gelijk aan de interestvoet</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">neutraal</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">lenen verandert niets</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">RTV lager dan de interestvoet (4 % tegen 6 %)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">negatief</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de REV daalt: het geleende geld kost meer dan het opbrengt</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>hefboomfactor</strong> = REV / RTV. 18 / 12 = 1,5: groter dan 1, dus een positieve hefboom. Meer lenen verhoogt dus <strong>niet altijd</strong> de REV."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Solvabiliteit = EV / TV; schuldgraad = VV / TV; samen 100 %.",
+  "REV = nettowinst na belasting / EV.",
+  "RTV = (winst na belasting + interest) / TV.",
+  "Hefboom positief als RTV > interestvoet; hefboomfactor = REV / RTV."
+ ]
+}

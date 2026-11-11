@@ -1,0 +1,94 @@
+{
+ "vak": "Economie",
+ "titel": "Marktmacht, marktfalen, externe effecten en publieke goederen",
+ "onder": "Wanneer de vrije markt niet tot het beste resultaat leidt, en wat de overheid dan kan doen.",
+ "secties": [
+  {
+   "kop": "Marktfalen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Er is <strong>marktfalen</strong> als de vrije markt niet tot de grootste welvaart leidt. Oorzaken zijn <strong>marktmacht</strong>, <strong>externe effecten</strong>, <strong>asymmetrische informatie</strong> en <strong>publieke goederen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Marktmacht</strong> (zoals bij een monopolie) zorgt ervoor dat <strong>er minder verhandeld wordt aan een hogere prijs</strong>. Een <strong>patent of octrooi</strong> geeft zo'n tijdelijke marktmacht: de overheid geeft het <strong>om uitvinders tijdelijk te belonen</strong>. Een patent zorgt dus net voor <strong>minder</strong> concurrentie op de markt van die uitvinding."
+    }
+   ]
+  },
+  {
+   "kop": "Externe effecten",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\"></th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">negatief extern effect</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">positief extern effect</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wat</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">schade aan derden die niet in de marktprijs zit</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">voordeel voor derden dat niet in de marktprijs zit</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">voorbeeld</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een fabriek die de lucht vervuilt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bijen van een imker die ook de buren bestuiven; een vaccin dat ook niet-gevaccineerden beschermt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vrije markt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">produceert <strong>te veel</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">produceert <strong>te weinig</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">overheid</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Pigouviaanse heffing, emissierechten, normen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">subsidies, gratis aanbieden</td></tr></table>"
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 340 230\" width=\"340\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"128.0,70.8 156.0,53.2 156.0,88.4\" fill=\"#c17f2b\" fill-opacity=\".22\" stroke=\"none\"/><line x1=\"44\" y1=\"14\" x2=\"44\" y2=\"194\" stroke=\"#23291f\" stroke-width=\"1.8\"/><line x1=\"44\" y1=\"194\" x2=\"328\" y2=\"194\" stroke=\"#23291f\" stroke-width=\"1.8\"/><text x=\"42.0\" y=\"12.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#6b7260\">prijs</text><text x=\"328.0\" y=\"210.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#6b7260\">hoeveelheid</text><line x1=\"44.0\" y1=\"18.0\" x2=\"324.0\" y2=\"194.0\" stroke=\"#2f5d50\" stroke-width=\"2.2\"/><text x=\"329.0\" y=\"198.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#2f5d50\">V</text><line x1=\"44.0\" y1=\"158.8\" x2=\"254.0\" y2=\"26.8\" stroke=\"#6b7260\" stroke-width=\"2.2\" stroke-dasharray=\"6 4\"/><text x=\"259.0\" y=\"30.8\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#6b7260\">privé</text><line x1=\"44.0\" y1=\"123.6\" x2=\"178.4\" y2=\"39.1\" stroke=\"#c17f2b\" stroke-width=\"2.2\"/><text x=\"183.4\" y=\"43.1\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#c17f2b\">maatsch.</text><line x1=\"44.0\" y1=\"70.8\" x2=\"128.0\" y2=\"70.8\" stroke=\"#6b7260\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><line x1=\"128.0\" y1=\"194.0\" x2=\"128.0\" y2=\"70.8\" stroke=\"#6b7260\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><circle cx=\"128.0\" cy=\"70.8\" r=\"3.6\" fill=\"#23291f\"/><text x=\"134.0\" y=\"64.8\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#23291f\">optimum</text><line x1=\"44.0\" y1=\"88.4\" x2=\"156.0\" y2=\"88.4\" stroke=\"#6b7260\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><line x1=\"156.0\" y1=\"194.0\" x2=\"156.0\" y2=\"88.4\" stroke=\"#6b7260\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><circle cx=\"156.0\" cy=\"88.4\" r=\"3.6\" fill=\"#23291f\"/><text x=\"162.0\" y=\"82.4\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#23291f\">markt</text></svg>",
+     "onderschrift": "Privé = de kost voor de producent, maatsch. = de maatschappelijke kost, met de schade aan derden erbij. De markt produceert tot het snijpunt met de privékost. Het welvaartsverlies is de driehoek voorbij het maatschappelijk optimum."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een negatief extern effect is de <strong>maatschappelijke kost hoger dan de privékost</strong> van de producent. De vervuiler betaalt op een vrije markt <strong>niet</strong> automatisch voor de schade aan de buren. Daardoor is de vrije marktprijs <strong>te laag</strong> en wordt er te veel geproduceerd. Het welvaartsverlies ligt <strong>in de driehoek voorbij het maatschappelijk optimum</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Wat kan de overheid doen?",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<ul><li><strong>Pigouviaanse heffing:</strong> een belasting <strong>gelijk aan de schade aan derden</strong>. Veroorzaakt elk stuk 5 euro schade, dan is de heffing 5 euro per stuk. <strong>De prijs stijgt en de hoeveelheid daalt</strong>, tot het maatschappelijk optimum. Zo <strong>verkleint</strong> het welvaartsverlies.</li><li><strong>Emissiehandel:</strong> bedrijven <strong>kopen en verkopen beperkte uitstootrechten</strong>. Wie goedkoop minder kan uitstoten, verkoopt zijn rechten. Zo wordt de uitstoot verminderd <strong>waar dat het goedkoopst kan</strong>.</li><li><strong>Regulering:</strong> bijvoorbeeld een <strong>uitstootnorm voor nieuwe auto's</strong>.</li><li><strong>Subsidies</strong> voor positieve externe effecten.</li></ul>"
+    }
+   ]
+  },
+  {
+   "kop": "Asymmetrische informatie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Er is <strong>asymmetrische informatie</strong> als <strong>de ene partij meer weet dan de andere</strong>. Een verkoper van een tweedehandsauto kent de gebreken, de koper niet. Kopers willen dan niet veel betalen, en daardoor kunnen <strong>goede producten van de markt verdwijnen</strong>. De overheid beperkt dat met <strong>etiketten, keuringen en garanties</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Publieke goederen",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">soort goed</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">rivaliserend?</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">uitsluitbaar?</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">privaat goed</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ja</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ja</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een broodje</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zuiver publiek goed</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nee</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nee</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">straatverlichting, landsverdediging, een dijk die een stad beschermt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">quasipubliek goed</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">deels</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">deels</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">onderwijs</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Niet-rivaliserend</strong>: als ik het gebruik, kan jij het nog evengoed gebruiken. <strong>Niet-uitsluitbaar</strong>: wie niet betaalt, kan je niet tegenhouden. De vrije markt biedt zuiver publieke goederen daarom niet of te weinig aan: <strong>niemand kan verplicht worden te betalen, dus mensen liften mee</strong>. Een <strong>meelifter</strong> (free rider) is iemand die gebruikt zonder te betalen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>collectieve behoefte</strong> is een behoefte die je <strong>best samen invult</strong>, zoals veiligheid. Daarom zorgt de overheid ervoor, betaald met belastingen."
+    }
+   ]
+  },
+  {
+   "kop": "Mededinging bewaken",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Belgische Mededingingsautoriteit (BMA)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">spoort kartels en machtsmisbruik op en kan boetes opleggen voor prijsafspraken</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Dienst voor Mededinging (FOD Economie)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bewaakt eerlijke concurrentie in België</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Europese Commissie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">voert het antitrustbeleid van de EU uit</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Het Europese mededingingsrecht verbiedt <strong>kartelafspraken tussen bedrijven</strong> en <strong>misbruik van een dominante positie</strong>. Een groot marktaandeel op zich is <strong>niet</strong> verboden; het misbruik ervan wel."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Marktfalen: marktmacht, externe effecten, asymmetrische informatie, publieke goederen.",
+  "Negatief extern effect: te veel geproduceerd, prijs te laag. Positief: te weinig geproduceerd.",
+  "Pigouviaanse heffing = de schade aan derden per stuk; emissiehandel verdeelt beperkte uitstootrechten.",
+  "Asymmetrische informatie: de ene partij weet meer; etiketten, keuringen en garanties helpen.",
+  "Zuiver publiek goed: niet-rivaliserend en niet-uitsluitbaar; meeliften; de overheid zorgt ervoor.",
+  "BMA en Europese Commissie bestraffen kartels en misbruik van een dominante positie."
+ ]
+}

@@ -1,0 +1,91 @@
+{
+ "vak": "Economie",
+ "titel": "Internationale handel en samenwerkingsverbanden",
+ "onder": "Hoe landen samenwerken, hoe je de handel van een land meet, en waarom bedrijven productie verplaatsen.",
+ "secties": [
+  {
+   "kop": "Vijf stappen van samenwerking",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Van minst naar meest verregaand. Elke stap bevat alles van de vorige, plus iets nieuws."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">stap</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat komt erbij</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1. vrijhandelszone</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geen invoerrechten onderling; elk land kiest <strong>zelf</strong> zijn tarieven naar buiten</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2. douane-unie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>gemeenschappelijk buitentarief</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">3. gemeenschappelijke markt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>vrij verkeer</strong> van goederen, diensten, personen en kapitaal</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">4. economische unie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de landen stemmen ook hun <strong>economisch beleid</strong> op elkaar af</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">5. monetaire unie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>één munt</strong> met één centrale bank</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>Europese Unie</strong> is minstens een gemeenschappelijke markt; de eurozone is een monetaire unie. De <strong>vier vrijheden</strong> van de Europese interne markt zijn het vrij verkeer van goederen, diensten, personen en kapitaal."
+    }
+   ]
+  },
+  {
+   "kop": "Gevolgen van samenwerking",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<ul><li>Invoerrechten vallen weg, dus <strong>goederen uit de partnerlanden worden goedkoper</strong>.</li><li><strong>Meer concurrentie</strong>, <strong>grotere afzetmarkten en schaalvoordelen</strong>.</li><li><strong>Handelsverlegging</strong> bij een douane-unie: landen kopen bij een lid van de unie, ook als een land buiten de unie goedkoper produceert.</li><li>Een monetaire unie geeft bedrijven <strong>geen wisselkoersrisico en geen wisselkosten</strong>. Maar een land kan zijn munt niet meer <strong>devalueren</strong> om goedkoper te exporteren.</li></ul>"
+    }
+   ]
+  },
+  {
+   "kop": "De handelsbalans",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>handelsbalans</strong> is het overzicht van de <strong>export en de import</strong> van een land. Het saldo is export min import."
+    },
+    {
+     "soort": "kader",
+     "html": "<ul><li>Export 300, import 260: saldo <strong>+40</strong>, een <strong>handelsoverschot</strong>.</li><li>Export 420, import 450: saldo <strong>−30</strong>, een <strong>handelstekort</strong>: het land importeert meer dan het exporteert.</li></ul>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Daalt de export terwijl de rest gelijk blijft, dan <strong>daalt</strong> het saldo. Een handelstekort kan ontstaan doordat <strong>de eigen producten duur zijn tegenover buitenlandse</strong>. Duurt het lang, dan <strong>moet het land lenen bij het buitenland</strong>. Een handelsoverschot is ook niet altijd en zonder uitzondering goed (andere landen hebben dan een tekort, en de eigen munt kan duur worden)."
+    }
+   ]
+  },
+  {
+   "kop": "Uitvoerquote en invoerquote",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<p style=\"text-align:center\"><strong>uitvoerquote = export / bbp · 100</strong> &nbsp;·&nbsp; <strong>invoerquote = import / bbp · 100</strong></p>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Bbp 500 en import 400: invoerquote <strong>80 %</strong>. Bbp 600 en export 480: uitvoerquote <strong>80 %</strong>. Stijgt de import bij een gelijk bbp, dan stijgt de invoerquote."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een hoge quote wijst op een <strong>open economie</strong>. België is zo'n open economie. Grote landen zoals de Verenigde Staten hebben meestal een <strong>lagere</strong> quote dan kleine landen. Land B met een invoerquote van 85 % is opener dan land A met 20 %."
+    },
+    {
+     "soort": "weetje",
+     "html": "Een uitvoerquote kan <strong>groter zijn dan 100 %</strong>: de export bevat ook ingevoerde onderdelen, en die tellen niet mee in het bbp. Statistieken over de Belgische buitenlandse handel vind je bij het <strong>Agentschap voor Buitenlandse Handel</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Productie verplaatsen",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">begrip</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">betekenis</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">outsourcing</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een taak <strong>uitbesteden aan een ander bedrijf</strong>, in binnen- of buitenland</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de boekhouding laten doen door een kantoor</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">offshoring</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">productie verplaatsen naar een <strong>ver land</strong>, vooral voor <strong>lagere loonkosten</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">van België naar China</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nearshoring</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">productie verplaatsen naar een land <strong>dichterbij</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">van China naar Portugal</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">reshoring</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">productie <strong>terughalen</strong> naar het eigen land</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">terug naar België</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Redenen voor reshoring zijn onder meer <strong>hoge transportkosten</strong> en <strong>problemen in de toeleveringsketen</strong>."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Vrijhandelszone → douane-unie → gemeenschappelijke markt → economische unie → monetaire unie.",
+  "Douane-unie: gemeenschappelijk buitentarief. Gemeenschappelijke markt: vier vrijheden.",
+  "Handelsbalans = export − import; negatief = handelstekort.",
+  "Uitvoerquote = export / bbp · 100; hoge quotes = open economie (België).",
+  "Outsourcing: uitbesteden. Offshoring: ver weg. Nearshoring: dichterbij. Reshoring: terug."
+ ]
+}

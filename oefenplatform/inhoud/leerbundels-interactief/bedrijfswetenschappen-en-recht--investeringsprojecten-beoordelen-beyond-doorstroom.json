@@ -1,0 +1,86 @@
+{
+ "vak": "Bedrijfswetenschappen en recht",
+ "titel": "Investeringsprojecten beoordelen",
+ "onder": "Soorten investeringen, de cashflow, en drie methodes om een project te beoordelen: terugverdientijd, ROI en netto contante waarde.",
+ "secties": [
+  {
+   "kop": "Soorten investeringen",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">soort</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vervangingsinvestering</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een versleten machine vervangen door een gelijkaardige: de capaciteit blijft gelijk</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">uitbreidingsinvestering</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een tweede productielijn om meer te maken: de capaciteit stijgt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rationalisatie-investering</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een robot die het werk goedkoper maakt: kosten besparen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">materieel / immaterieel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een machine kan je vastnemen; een softwarelicentie niet, maar ze heeft waarde voor meerdere jaren: immaterieel</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">financiële investering</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">aandelen van een ander bedrijf kopen: een belegging, geen machine of gebouw</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">desinvestering</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een investering verkopen of afstoten, bv. een oude machine verkopen</td></tr></table>"
+    }
+   ]
+  },
+  {
+   "kop": "De cashflow",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<p style='text-align:center'><strong>cashflow = nettowinst + afschrijvingen</strong></p>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Afschrijvingen verlagen de winst, maar er gaat geen geld uit: een kost zonder uitgave. Daarom tel je ze terug bij de winst op. De cashflow is dus <strong>niet</strong> gelijk aan de nettowinst. 12 000 + 8 000 = 20 000 euro. Investering 40 000 euro over 4 jaar zonder restwaarde: afschrijving 10 000 euro; met nettowinst 5 000 euro is de cashflow 15 000 euro. Met restwaarde: (20 000 − 4 000) / 4 = 4 000 euro afschrijving per jaar."
+    },
+    {
+     "soort": "tekst",
+     "html": "In een <strong>cashflowtabel</strong> staan de cashflow per jaar en de <strong>gecumuleerde cashflow</strong> (de som tot en met dat jaar). Die toont wanneer de investering terugverdiend is."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">jaar</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">cashflow</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">gecumuleerde cashflow</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">investering 100 000</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">40 000</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">40 000</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nog 60 000</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">35 000</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">75 000</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nog 25 000</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">3</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">25 000</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">100 000</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">terugverdiend na 3 jaar</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">4</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">20 000</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">120 000</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"></td></tr></table>"
+    }
+   ]
+  },
+  {
+   "kop": "Terugverdientijd en ROI",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>terugverdientijd</strong> is de tijd tot de cashflows de investering terugbetalen. Gelijke cashflows: investering / cashflow, bv. 60 000 / 20 000 = 3 jaar."
+    },
+    {
+     "soort": "kader",
+     "html": "<ul><li>Investering 50 000, cashflows 20 000 per jaar: na 2 jaar 40 000 terug; de resterende 10 000 is de helft van jaar 3: <strong>2,5 jaar</strong>.</li><li>Investering 80 000, cashflows 30 000: na 2 jaar 60 000; 20 000 / 30 000 = 2/3 jaar = 8 maanden: <strong>2 jaar en 8 maanden</strong>.</li></ul>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Hoe korter, hoe sneller het geld terug is en hoe minder lang het vastzit: een goede maatstaf voor het <strong>risico</strong>. <strong>Nadeel</strong>: ze houdt geen rekening met de cashflows na de terugverdientijd. Twee projecten met dezelfde terugverdientijd zijn dus niet altijd even goed."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>return on investment (ROI)</strong> meet de gemiddelde winst in procent van de investering: gemiddelde jaarlijkse nettowinst / investering · 100. 15 000 / 100 000 = 15 %. Totale winst 20 000 over 5 jaar op 50 000: 4 000 / 50 000 = 8 %. Een hogere ROI is gunstiger; vergelijk ze met de rente op een lening of een andere belegging."
+    }
+   ]
+  },
+  {
+   "kop": "De netto contante waarde",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een euro vandaag is meer waard dan een euro binnen vijf jaar, want je kan hem beleggen: de <strong>tijdswaarde van geld</strong>. Daarom <strong>verdisconteer</strong> je toekomstige cashflows naar vandaag."
+    },
+    {
+     "soort": "kader",
+     "html": "<p style='text-align:center'><strong>contante waarde = cashflow / (1 + r)<sup>n</sup></strong> &nbsp;&nbsp; <strong>NCW = som van de contante waarden − investering</strong></p>"
+    },
+    {
+     "soort": "kader",
+     "html": "<ul><li>11 000 euro over één jaar aan 10 %: 11 000 / 1,10 = 10 000 euro.</li><li>12 100 euro over twee jaar aan 10 %: 12 100 / 1,10² = 12 100 / 1,21 = 10 000 euro.</li><li>Investering 30 000, contante waarde van de cashflows 32 500: NCW = 2 500 euro.</li></ul>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een project is aanvaardbaar als de <strong>NCW positief</strong> is: dan brengt het meer op dan de gevraagde rente. Project A (+2 000) kies je boven project B (−1 000). Een negatieve NCW betekent niet altijd verlies in de boekhouding: het project kan winst maken, maar minder dan de vereiste rente. Voor de NCW heb je de cashflows per jaar, de rentevoet en het investeringsbedrag nodig. De rentevoet is vaak de rente op een lening of het rendement van een andere belegging. Bij een <strong>hogere</strong> rentevoet zijn toekomstige cashflows minder waard: de NCW <strong>daalt</strong>. De NCW houdt als enige van de drie methodes rekening met de tijdswaarde van geld en is daarom nauwkeuriger."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Vervanging, uitbreiding, rationalisatie; materieel, immaterieel, financieel.",
+  "Cashflow = nettowinst + afschrijvingen.",
+  "Terugverdientijd: hoe snel terug (risico), maar negeert latere cashflows.",
+  "ROI = gemiddelde nettowinst / investering.",
+  "NCW = contante waarde van de cashflows − investering; positief = aanvaardbaar."
+ ]
+}
