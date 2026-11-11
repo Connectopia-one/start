@@ -24,7 +24,7 @@ VRAGEN = [
         "vraag": "Waarover ging de Koningskwestie na de Tweede Wereldoorlog?",
         "opties": [
             "Of Leopold III na zijn houding in de oorlog nog koning mocht blijven",
-            "Welke zoon van Leopold III de troon zou mogen bestijgen",
+            "Welke zoon van Leopold III de troon na de oorlog zou mogen bestijgen",
             "Of België na de oorlog nog wel een koning nodig had",
             "Of de koning nog het recht had om ministers te benoemen",
         ],
@@ -42,7 +42,7 @@ VRAGEN = [
         "vraag": "Waarover ging de Schoolstrijd van 1950 tot 1958?",
         "opties": [
             "Hoeveel geld de staat aan het vrije onderwijs mocht geven",
-            "Vanaf welke leeftijd kinderen naar school moesten gaan",
+            "Vanaf welke leeftijd kinderen verplicht naar de lagere school moesten gaan",
             "In welke taal er in de Brusselse scholen lesgegeven werd",
             "Of meisjes en jongens samen in één klas mochten zitten",
         ],
@@ -54,7 +54,7 @@ VRAGEN = [
         "vraag": "Wat stelt het Atomium eigenlijk voor?",
         "opties": [
             "Een kristal van ijzer, miljarden keren vergroot",
-            "Een molecule water met haar waterstofatomen",
+            "Een molecule water met haar twee waterstofatomen en één zuurstofatoom",
             "Het zonnestelsel met de zon in het midden",
             "Een atoom uranium zoals in een kerncentrale",
         ],
@@ -110,7 +110,7 @@ VRAGEN = [
         "opties": [
             "Dat België een federale staat is van gemeenschappen en gewesten",
             "Dat België een koninkrijk is met een erfelijke koning",
-            "Dat België drie officiële talen heeft op zijn grondgebied",
+            "Dat België drie officiële talen heeft op zijn grondgebied, elk met eigen rechten",
             "Dat België voor altijd een neutraal land wil blijven",
         ],
         "antwoord": 0,
@@ -146,7 +146,7 @@ VRAGEN = [
         "vraag": "Waarom heet Brussel vaak de hoofdstad van Europa?",
         "opties": [
             "De Commissie en de Raad van de Europese Unie zetelen er",
-            "Het Europees Parlement vergadert er als enige plaats",
+            "Het Europees Parlement vergadert er als enige plaats, het hele jaar door",
             "De euro wordt er gedrukt voor alle deelnemende landen",
             "Het is de grootste stad van de Europese Unie",
         ],
@@ -170,7 +170,7 @@ VRAGEN = [
         "vraag": "Welke feestdag wordt op 11 juli gevierd, en waaraan herinnert die?",
         "opties": [
             "De Vlaamse feestdag, naar de Guldensporenslag van 1302",
-            "De Waalse feestdag, naar de opstand tegen Nederland",
+            "De Waalse feestdag, naar de opstand tegen het Nederlandse leger in 1830",
             "De nationale feestdag, naar de eed van Leopold I",
             "De feestdag van de Duitstalige Gemeenschap",
         ],
@@ -182,7 +182,7 @@ VRAGEN = [
         "vraag": "België was in 1951 en 1957 mede-oprichter van wat later de Europese Unie werd. Waarom wilden die landen samenwerken?",
         "opties": [
             "Landen die samen handelen en produceren, voeren minder snel oorlog",
-            "Europa wilde met één munt beginnen om sneller te kunnen betalen",
+            "Europa wilde met één munt beginnen om sneller en goedkoper te kunnen betalen",
             "De Verenigde Staten verplichtten hen ertoe na de wereldoorlog",
             "De landen wilden samen een leger vormen tegen de Sovjet-Unie",
         ],

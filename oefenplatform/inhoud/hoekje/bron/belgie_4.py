@@ -54,7 +54,7 @@ VRAGEN = [
         "vraag": "Bij Ieper werd in april 1915 voor het eerst op grote schaal gifgas ingezet. Welk gas was dat?",
         "opties": [
             "Chloorgas, dat als een groengele wolk aanwoei",
-            "Mosterdgas, ook yperiet genoemd",
+            "Mosterdgas, ook yperiet genoemd naar de stad zelf",
             "Koolstofmonoxide uit de loopgraafkachels",
             "Blauwzuurgas in granaten van de artillerie",
         ],
@@ -151,7 +151,7 @@ VRAGEN = [
         "opties": [
             "Hergé, die eigenlijk Georges Remi heette",
             "Peyo, die ook de Smurfen tekende",
-            "Willy Vandersteen van Suske en Wiske",
+            "Willy Vandersteen, de tekenaar van Suske en Wiske",
             "Morris, de tekenaar van Lucky Luke",
         ],
         "antwoord": 0,

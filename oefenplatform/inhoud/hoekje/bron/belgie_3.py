@@ -48,7 +48,7 @@ VRAGEN = [
         "vraag": "Waartegen kwamen de boeren in 1798 in opstand tijdens de Boerenkrijg?",
         "opties": [
             "Tegen de Franse bezetter, vooral om de verplichte legerdienst",
-            "Tegen de Nederlandse koning, om de hoge belasting op graan",
+            "Tegen de Nederlandse koning, om de hoge belasting op graan en op brood",
             "Tegen de eigen adel, die te veel pacht voor de grond vroeg",
             "Tegen de stedelingen, die de prijzen op de markt bepaalden",
         ],

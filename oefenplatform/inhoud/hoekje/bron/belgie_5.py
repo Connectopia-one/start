@@ -33,7 +33,7 @@ VRAGEN = [
         "vraag": r"In \(891\) versloeg de Oost-Frankische koning Arnulf bij Leuven een leger. Wie waren zijn tegenstanders?",
         "opties": [
             "Vikingen, die al jaren langs de rivieren plunderden",
-            "Romeinen, die hun oude gebied wilden heroveren",
+            "Romeinen, die hun oude gebied in het noorden wilden heroveren",
             "Spanjaarden, die de Nederlanden kwamen bezetten",
             "Hunnen, die vanuit het oosten Europa binnenvielen",
         ],

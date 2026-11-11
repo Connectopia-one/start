@@ -76,7 +76,7 @@ VRAGEN = [
         "vraag": "Waar draaide de industriële revolutie in de negentiende eeuw vooral in ons land?",
         "opties": [
             "In Wallonië, rond de steenkool en de staalfabrieken",
-            "In Vlaanderen, rond de haven en de scheepsbouw",
+            "In Vlaanderen, rond de haven van Antwerpen en de scheepsbouw",
             "In Brussel, rond de banken en de handelshuizen",
             "In de Kempen, rond de glas- en de zinkfabrieken",
         ],
@@ -178,7 +178,7 @@ VRAGEN = [
         "vraag": "Hoe kwamen Eupen en Sankt Vith na de Eerste Wereldoorlog bij België?",
         "opties": [
             "Duitsland moest ze afstaan bij het Verdrag van Versailles",
-            "De inwoners kochten zich met een grote volkslening vrij",
+            "De inwoners kochten zich met een grote volkslening vrij van het Duitse bestuur",
             "Nederland ruilde ze met België voor een stuk Limburg",
             "Ze hadden al sinds 1830 bij België gehoord",
         ],
@@ -208,7 +208,7 @@ VRAGEN = [
         "vraag": "Welke twee zaken botsten in de negentiende eeuw in de Belgische politiek het hardst?",
         "opties": [
             "De katholieken en de liberalen, vooral over het onderwijs",
-            "De Vlamingen en de Walen, vooral over de taalgrens",
+            "De Vlamingen en de Walen, vooral over de taalgrens en het gerecht",
             "De koning en het parlement, vooral over het leger",
             "De boeren en de handelaars, vooral over de graanprijs",
         ],
