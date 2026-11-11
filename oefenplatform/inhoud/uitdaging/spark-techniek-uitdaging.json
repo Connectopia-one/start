@@ -1,0 +1,379 @@
+{
+  "hoofdstukken": [
+    {
+      "titel": "Uitdaging — alles door elkaar",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "casus": "Noor bouwt een nachtlampje voor haar kamer. Het lampje moet vanzelf aangaan als het donker wordt en mag maar weinig stroom verbruiken. Ze gebruikt een batterij van 9 volt, een lichtsensor, een kleine chip die beslist, een LED en een weerstand. Het kastje maakt ze uit hout. De onderdelen schroeft ze vast, zodat ze de batterij later kan vervangen.",
+          "vragen": [
+            {
+              "type": "sorteren",
+              "vraag": "Is dit onderdeel van het nachtlampje input, verwerking of output?",
+              "kolommen": [
+                "Input",
+                "Verwerking",
+                "Output"
+              ],
+              "items": [
+                [
+                  "de lichtsensor",
+                  "Input"
+                ],
+                [
+                  "een drukknop om het lampje aan te zetten",
+                  "Input"
+                ],
+                [
+                  "de chip die beslist of het donker is",
+                  "Verwerking"
+                ],
+                [
+                  "de LED",
+                  "Output"
+                ]
+              ],
+              "uitleg": "Een sensor of druktoets geeft input, de chip verwerkt, en de LED doet iets: dat is de output, de actuator."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Waarom zit er een weerstand bij de LED?",
+              "opties": [
+                "Hij maakt de stroom sterker, zodat het fel brandt.",
+                "Hij zet de gelijkspanning om in wisselspanning.",
+                "Hij meet hoeveel licht er in de kamer is.",
+                "Hij remt de stroom, zodat de LED niet stukgaat."
+              ],
+              "antwoord": 3,
+              "uitleg": "Een weerstand remt de stroom. Zonder weerstand loopt er te veel stroom door de LED en brandt ze door."
+            },
+            {
+              "type": "waarofniet",
+              "vraag": "De batterij van Noor levert wisselspanning.",
+              "antwoord": false,
+              "uitleg": "Een batterij is een gelijkspanningsbron. Een generator levert wisselspanning."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Waarom schroeft Noor de onderdelen vast in plaats van ze te lijmen?",
+              "opties": [
+                "Een schroef kan je later weer losmaken.",
+                "Lijm houdt niet op hout.",
+                "Schroeven geleiden de stroom.",
+                "Lijm is altijd giftig."
+              ],
+              "antwoord": 0,
+              "uitleg": "Een schroefverbinding is losneembaar, lijmen niet. Zo kan Noor de batterij later vervangen."
+            },
+            {
+              "type": "volgorde",
+              "vraag": "Zet de vijf fasen van het technisch proces in de juiste volgorde, zoals Noor ze doorloopt.",
+              "opties": [
+                "Het probleem onderzoeken",
+                "Ontwerpen",
+                "Maken",
+                "In gebruik nemen en testen",
+                "Evalueren"
+              ],
+              "uitleg": "Eerst het probleem en de criteria, dan ontwerpen, maken, testen en evalueren. Voldoet het niet, dan keer je terug naar ontwerpen of maken."
+            }
+          ]
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Tandwiel A drijft B aan, en B drijft C aan. Klik op het tandwiel dat het snelst ronddraait.",
+          "afbeelding_url": "/examenvormen/techniek-spark/drie-tandwielen.svg",
+          "zones": [
+            [
+              53,
+              28,
+              15,
+              40
+            ]
+          ],
+          "uitleg": "Groot drijft klein aan, dus het wordt telkens sneller. Het kleinste tandwiel, C met 10 tanden, draait het snelst."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het rekje dat niet scheef kan trekken als je er opzij tegen duwt.",
+          "afbeelding_url": "/examenvormen/techniek-spark/drie-rekjes.svg",
+          "zones": [
+            [
+              37,
+              10,
+              26,
+              80
+            ]
+          ],
+          "uitleg": "Een rechthoek trekt scheef. Met een schuine balk erin maak je twee driehoeken, en een driehoek vervormt niet. Een horizontale balk helpt niet."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Welke kracht werkt vooral op elk onderdeel?",
+          "paren": [
+            [
+              "de ophangkabel van een brug",
+              "trek"
+            ],
+            [
+              "een pilaar onder een dak",
+              "druk"
+            ],
+            [
+              "een schroevendraaier die je ronddraait",
+              "torsie"
+            ],
+            [
+              "een plank waarop je in het midden staat",
+              "buiging"
+            ]
+          ],
+          "extra": [
+            "wrijving"
+          ],
+          "uitleg": "Een kabel wordt uitgerokken (trek), een pilaar samengeduwd (druk), een schroevendraaier verdraaid (torsie) en een plank buigt door (buiging)."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is elk metaal ferro of non-ferro?",
+          "rijen": [
+            "staal",
+            "aluminium",
+            "koper",
+            "gietijzer",
+            "lood"
+          ],
+          "antwoord": [
+            0,
+            1,
+            1,
+            0,
+            1
+          ],
+          "uitleg": "Ferro bevat ijzer, wordt aangetrokken door een magneet en kan roesten. Aluminium, koper en lood bevatten geen ijzer.",
+          "kolommen": [
+            "Ferro",
+            "Non-ferro"
+          ]
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Spanning meet je in [[*volt|ampère|watt]], stroomsterkte in [[*ampère|volt|ohm]] en vermogen in [[*watt|ohm|volt]].",
+          "uitleg": "Spanning U in volt, stroomsterkte I in ampère, weerstand R in ohm en vermogen P in watt."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Een windmolen zet [[bewegingsenergie]] om in [[elektrische energie]]. Bij een gloeilamp gaat veel energie verloren als [[warmte]].",
+          "extra": [
+            "chemische energie",
+            "geluid",
+            "potentiële energie"
+          ],
+          "uitleg": "Een windmolen maakt van beweging elektriciteit. Een gloeilamp geeft licht, maar het grootste deel wordt niet-nuttige warmte."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Kan je deze verbinding later weer losmaken?",
+          "kolommen": [
+            "Losneembaar",
+            "Niet losneembaar"
+          ],
+          "items": [
+            [
+              "bout en moer",
+              "Losneembaar"
+            ],
+            [
+              "rits",
+              "Losneembaar"
+            ],
+            [
+              "klittenband",
+              "Losneembaar"
+            ],
+            [
+              "magneet",
+              "Losneembaar"
+            ],
+            [
+              "lassen",
+              "Niet losneembaar"
+            ],
+            [
+              "lijmen",
+              "Niet losneembaar"
+            ],
+            [
+              "solderen",
+              "Niet losneembaar"
+            ]
+          ],
+          "uitleg": "Bout en moer, schroef, rits, klittenband en magneet maak je los. Lassen, lijmen en solderen niet zonder iets kapot te maken."
+        },
+        {
+          "type": "open",
+          "vraag": "Leg uit waarom er staal in een betonnen balk zit die moet doorbuigen.",
+          "antwoord": "Beton verdraagt veel druk maar weinig trek. Als een balk doorbuigt, wordt de onderkant uitgerokken: daar werkt trek. Het staal vangt die trekkracht op, zodat de balk niet scheurt. Dat heet gewapend beton.",
+          "uitleg": "Gewapend beton is beton met staal erin. Staal is goed voor trek, beton voor druk."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Tandwiel A met 10 tanden drijft tandwiel B met 30 tanden aan. A draait 6 keer rond. Hoeveel keer draait B rond?",
+          "opties": [
+            "18 keer",
+            "3 keer",
+            "2 keer",
+            "6 keer"
+          ],
+          "antwoord": 2,
+          "uitleg": "B heeft drie keer zoveel tanden, dus draait het drie keer trager. 6 gedeeld door 3 is 2."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel liter past er in een bak van 2 dm lang, 3 dm breed en 5 dm hoog? Antwoord met een getal.",
+          "antwoord": "30",
+          "uitleg": "Volume balk = l · b · h = 2 · 3 · 5 = 30 dm³. 1 dm³ is 1 liter, dus 30 liter."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In een serieschakeling blijven de andere lampjes branden als er één stukgaat.",
+          "antwoord": false,
+          "uitleg": "In serie is er maar één weg voor de stroom: één lampje stuk en alles is uit. In parallel branden de andere door."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom hangen de lampjes van een kerstboom het best in parallel?",
+          "opties": [
+            "Dan branden ze allemaal veel feller.",
+            "Als er één stukgaat, branden de andere door.",
+            "Dan is er maar één draad nodig.",
+            "Dan heb je geen stekker meer nodig."
+          ],
+          "antwoord": 1,
+          "uitleg": "In parallel heeft elk lampje zijn eigen weg voor de stroom. Eén lampje stuk en de rest blijft branden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Met welke proef weet je of een metaal ferro of non-ferro is?",
+          "opties": [
+            "met de geleidingsproef",
+            "met de onderdompelingsmethode",
+            "met de breekproef",
+            "met de magneetproef"
+          ],
+          "antwoord": 3,
+          "uitleg": "Een magneet trekt ferrometalen aan. De geleidingsproef zegt alleen of iets een metaal is."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Koelen en invriezen doden de bacteriën in voedsel.",
+          "antwoord": false,
+          "uitleg": "Koelen remt de bacteriën, invriezen legt ze stil. Geen van beide doodt ze. Daarvoor heb je warmte nodig, zoals bij pasteuriseren."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Op een pot yoghurt staat 'te gebruiken tot'. Wat betekent dat?",
+          "opties": [
+            "Het gaat om veiligheid: na die datum eet je het niet meer.",
+            "Het gaat om smaak: na die datum is het minder lekker.",
+            "Het gaat om de prijs: na die datum is het in solden.",
+            "Het gaat om de verpakking: die mag dan bij het pmd."
+          ],
+          "antwoord": 0,
+          "uitleg": "Te gebruiken tot gaat over veiligheid. Ten minste houdbaar tot gaat over kwaliteit: daarna kan het nog goed zijn."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een EN-poort krijgt aan de ene ingang 1 en aan de andere 0. Wat is de uitgang? Antwoord met 0 of 1.",
+          "antwoord": "0",
+          "uitleg": "Een EN-poort geeft alleen 1 als álle ingangen 1 zijn. Hier is één ingang 0, dus de uitgang is 0."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een OF-poort krijgt aan de ene ingang 0 en aan de andere 1. Wat is de uitgang? Antwoord met 0 of 1.",
+          "antwoord": "1",
+          "uitleg": "Een OF-poort geeft al 1 zodra één ingang 1 is."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De waarheidstabel van een poort met twee ingangen heeft vier rijen.",
+          "antwoord": true,
+          "uitleg": "Twee ingangen geven vier mogelijkheden: 00, 01, 10 en 11."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een tekening staat op schaal 2:1. Wat betekent dat?",
+          "opties": [
+            "De tekening is half zo groot als het voorwerp.",
+            "De tekening is even groot als het voorwerp.",
+            "De tekening is dubbel zo groot als het voorwerp.",
+            "Het voorwerp is dubbel zo groot als de tekening."
+          ],
+          "antwoord": 2,
+          "uitleg": "2:1 betekent: 2 cm op de tekening is 1 cm in het echt. De tekening is dus vergroot."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je wil een doosje uit één stuk karton knippen en plooien. Welke tekening heb je nodig?",
+          "opties": [
+            "een isometrisch perspectief",
+            "een ontvouwing",
+            "een conceptschets",
+            "een detailontwerp"
+          ],
+          "antwoord": 1,
+          "uitleg": "Een ontvouwing is het platte patroon van het voorwerp: precies wat je uit het karton knipt voor je plooit."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een stoel met een brede voet en een laag zwaartepunt valt minder snel om.",
+          "antwoord": true,
+          "uitleg": "Een brede voet en een laag zwaartepunt maken een constructie stabieler."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Met welk gereedschap haal je de isolatie van een elektrische draad?",
+          "opties": [
+            "met een zijsnijtang",
+            "met een soldeerbout",
+            "met een kroonsteentje",
+            "met een striptang"
+          ],
+          "antwoord": 3,
+          "uitleg": "Een striptang stript de draad. Een zijsnijtang knipt, een soldeerbout verbindt met tin en een kroonsteentje klemt draden vast."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Beitsen kleurt het hout, maar je ziet de nerf nog.",
+          "antwoord": true,
+          "uitleg": "Beits legt geen dekkende laag: het kleurt het hout en de nerf blijft zichtbaar."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke van deze is een algoritme?",
+          "opties": [
+            "een foto van een taart",
+            "een lijst met je lievelingsgerechten",
+            "een recept met genummerde stappen",
+            "een prijskaartje in de winkel"
+          ],
+          "antwoord": 2,
+          "uitleg": "Een algoritme is een stappenplan met instructies in een vaste volgorde, zoals een recept."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke energiebron is hernieuwbaar, maar levert niet altijd evenveel?",
+          "opties": [
+            "aardgas",
+            "wind",
+            "steenkool",
+            "aardolie"
+          ],
+          "antwoord": 1,
+          "uitleg": "Wind raakt niet op, maar het waait niet altijd even hard. Aardgas, steenkool en aardolie zijn fossiel."
+        }
+      ]
+    }
+  ]
+}

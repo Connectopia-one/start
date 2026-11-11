@@ -1,0 +1,350 @@
+{
+  "hoofdstukken": [
+    {
+      "titel": "Uitdaging — alles door elkaar",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "casus": "Lees de mail. 'Hi Emma, I'm having a party for my twelfth birthday on Saturday 14 June. It starts at half past two in the afternoon and finishes at six. We are going to play games in the garden, so bring some old clothes! My house is at 12 Park Road, next to the library. Could you please let me know before Wednesday if you can come? Bye, Lily'",
+          "vragen": [
+            {
+              "type": "meerkeuze",
+              "vraag": "Hoe laat begint het feest?",
+              "opties": [
+                "om half twee 's middags",
+                "om half drie 's middags",
+                "om twee uur 's middags",
+                "om zes uur 's avonds"
+              ],
+              "antwoord": 1,
+              "uitleg": "Half past two is half drie: dertig minuten na twee uur. Om zes uur (six) is het feest gedaan."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Waarom moet Emma oude kleren meebrengen?",
+              "opties": [
+                "Het wordt een verkleedfeest met thema.",
+                "Ze gaan samen een muur schilderen.",
+                "Ze gaan spelletjes spelen in de tuin.",
+                "Het gaat de hele dag regenen."
+              ],
+              "antwoord": 2,
+              "uitleg": "Lily schrijft: we are going to play games in the garden, so bring some old clothes. So geeft het gevolg aan."
+            },
+            {
+              "type": "tabel",
+              "vraag": "Lees elke uitspraak over de mail. Is ze juist of fout?",
+              "rijen": [
+                "Lily wordt twaalf jaar.",
+                "Het feest is op een zondag.",
+                "Lily woont naast de bibliotheek.",
+                "Emma moet vóór woensdag laten weten of ze komt.",
+                "Het is een formele mail."
+              ],
+              "antwoord": [
+                true,
+                false,
+                true,
+                true,
+                false
+              ],
+              "uitleg": "Twelfth birthday is de twaalfde verjaardag. Saturday is zaterdag. A library is een bibliotheek. Hi en Bye maken de mail informeel."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "Lily begint haar mail met [[*Hi Emma|Dear Mrs Smith]] en sluit af met [[*Bye|Kind regards]]. Dat maakt het een [[*informele|formele]] mail. Met [[*Could you please|You must]] vraagt ze iets op een beleefde manier.",
+              "uitleg": "Hi en Bye zijn informeel, Dear Mr of Mrs en Kind regards zijn neutraal. Could you please is de beleefde vorm."
+            }
+          ]
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de klok die twenty to nine aanwijst.",
+          "afbeelding_url": "/examenvormen/engels-spark/vier-klokken.svg",
+          "zones": [
+            [
+              51,
+              2,
+              23,
+              96
+            ]
+          ],
+          "uitleg": "Twenty to nine is twintig minuten vóór negen uur, dus 8.40 uur. To is ervoor, past is erover. Klok C staat op 8.40 uur."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Een Brit zegt: 'My flat is on the first floor.' Klik op die verdieping.",
+          "afbeelding_url": "/examenvormen/engels-spark/gebouw-verdiepingen.svg",
+          "zones": [
+            [
+              20,
+              56,
+              60,
+              20
+            ]
+          ],
+          "uitleg": "In het Brits Engels is de first floor de eerste verdieping, één trap hoger dan de begane grond (ground floor). In Amerika is first floor net de begane grond."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke vraag over de piano is juist?",
+          "opties": [
+            "Does she plays the piano?",
+            "Do she play the piano?",
+            "Does she play the piano?",
+            "Does she play piano the?"
+          ],
+          "antwoord": 2,
+          "uitleg": "In een vraag verhuist de -s van she naar does. Daarna blijft het werkwoord kaal: does she play."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "The film was very [[*boring|bored]], so I was [[*bored|boring]] after ten minutes.",
+          "uitleg": "Een film is boring (saai). Jij bent bored: je verveelt je."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Yesterday I [[went]] to the shop and [[bought]] some bread. I [[saw]] my teacher there.",
+          "extra": [
+            "goed",
+            "buyed",
+            "seen"
+          ],
+          "uitleg": "Yesterday vraagt de past simple: go–went, buy–bought, see–saw. Buyed en goed bestaan niet, en seen gebruik je niet zonder have."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elk signaalwoord aan wat het aangeeft.",
+          "paren": [
+            [
+              "first",
+              "een volgorde"
+            ],
+            [
+              "because",
+              "een oorzaak"
+            ],
+            [
+              "so",
+              "een gevolg"
+            ],
+            [
+              "however",
+              "een tegenstelling"
+            ]
+          ],
+          "extra": [
+            "een voorbeeld"
+          ],
+          "uitleg": "First – then – finally geeft een volgorde, because een oorzaak, so een gevolg, but en however een tegenstelling."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Kan je dit tellen of niet? Sleep elk woord naar de juiste kolom.",
+          "kolommen": [
+            "Telbaar",
+            "Ontelbaar"
+          ],
+          "items": [
+            [
+              "apple",
+              "Telbaar"
+            ],
+            [
+              "chair",
+              "Telbaar"
+            ],
+            [
+              "sandwich",
+              "Telbaar"
+            ],
+            [
+              "book",
+              "Telbaar"
+            ],
+            [
+              "bread",
+              "Ontelbaar"
+            ],
+            [
+              "water",
+              "Ontelbaar"
+            ],
+            [
+              "rice",
+              "Ontelbaar"
+            ],
+            [
+              "advice",
+              "Ontelbaar"
+            ]
+          ],
+          "uitleg": "Bread, water, rice en advice tel je niet: je zegt two slices of bread, nooit two breads. Een appel, stoel, boterham of boek tel je wel."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet de delen van een nette mail aan een leerkracht in de juiste volgorde.",
+          "opties": [
+            "Dear Mr Jones,",
+            "Een inleiding: waarom je schrijft",
+            "Het middenstuk met je vraag",
+            "Kind regards,",
+            "Je naam"
+          ],
+          "uitleg": "Aanhef, inleiding, midden, slotgroet en dan je naam. Dear Mr Jones en Kind regards zijn de neutrale vormen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan met één Engels woord: 'My aunt's son is my ...'",
+          "antwoord": "cousin",
+          "uitleg": "Het kind van je tante of oom is je cousin. Dat woord geldt voor een neef én voor een nicht."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Zet in het meervoud met één Engels woord: one knife, two ...",
+          "antwoord": "knives",
+          "uitleg": "Bij knife wordt de f een v: knife – knives."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul a of an in: '... hour'",
+          "antwoord": "an",
+          "uitleg": "A of an hangt af van de klank. De h van hour hoor je niet, dus begint het met een klinkerklank: an hour."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In New York zegt het weerbericht dat het 86 graden is. Hoe komt dat?",
+          "opties": [
+            "In New York is het bijna altijd heel heet.",
+            "In de VS tellen ze de afstand in miles.",
+            "Het weerbericht meet de temperatuur in de zon.",
+            "De VS meten de temperatuur in Fahrenheit."
+          ],
+          "antwoord": 3,
+          "uitleg": "De VS meten in Fahrenheit en in miles. 86 graden Fahrenheit is een warme zomerdag, geen kokend water."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In het Verenigd Koninkrijk en in Ierland rijden de auto's links.",
+          "antwoord": true,
+          "uitleg": "In het VK en in Ierland rijden ze links, in de VS rechts zoals bij ons."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een Amerikaan die chips bestelt, krijgt frieten.",
+          "antwoord": false,
+          "uitleg": "In Amerika zijn chips de chips uit een zakje. In Groot-Brittannië zijn chips frieten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Met welk voorvoegsel maak je possible ontkennend?",
+          "opties": [
+            "un-",
+            "im-",
+            "dis-",
+            "in-"
+          ],
+          "antwoord": 1,
+          "uitleg": "Possible wordt impossible. Un-, im- en dis- ontkennen allemaal een woord, maar elk woord heeft zijn eigen voorvoegsel."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is a return ticket?",
+          "opties": [
+            "een kaartje voor enkele reis",
+            "een kaartje dat je terugbetaald krijgt",
+            "een kaartje heen en terug",
+            "een kaartje voor de terugreis alleen"
+          ],
+          "antwoord": 2,
+          "uitleg": "A return ticket is heen en terug. A single ticket is enkele reis."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In 'The dog wags it's tail' staat it's juist geschreven.",
+          "antwoord": false,
+          "uitleg": "It's betekent it is. Van hem of van haar is its, zonder apostrof: the dog wags its tail."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin over een boek is juist?",
+          "opties": [
+            "This is mine book.",
+            "This book is my.",
+            "These book is mine.",
+            "This book is mine."
+          ],
+          "antwoord": 3,
+          "uitleg": "Voor een naamwoord staat my (my book), alleen staat mine (it is mine). Bij één boek hoort this, niet these."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin over twee fietsen is juist?",
+          "opties": [
+            "My bike is better than yours.",
+            "My bike is more better than yours.",
+            "My bike is gooder than yours.",
+            "My bike is more good than yours."
+          ],
+          "antwoord": 0,
+          "uitleg": "Good wordt better, en dan zet je er nooit nog more voor."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Je zegt 'I play the piano', maar 'I play tennis' zonder the.",
+          "antwoord": true,
+          "uitleg": "Bij een muziekinstrument zet je the, bij een sport niet."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe zeg je 12 uur 's nachts in het Engels? Antwoord met één woord.",
+          "antwoord": "midnight",
+          "uitleg": "Middernacht is midnight. Twaalf uur 's middags is noon."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin vertelt wat er nu op dit moment bezig is?",
+          "opties": [
+            "It rains a lot in Belgium.",
+            "Look! It is raining.",
+            "It rained yesterday.",
+            "It will rain tomorrow."
+          ],
+          "antwoord": 1,
+          "uitleg": "Iets dat nu bezig is, zet je in de present continuous: it is raining. It rains a lot is een gewoonte."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Afraid gebruik je met of: 'I am afraid of spiders.'",
+          "antwoord": true,
+          "uitleg": "Je zegt altijd afraid of, nooit afraid from."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Lees: 'Tom has a little dog. It sleeps in the kitchen.' Naar wie of wat verwijst it?",
+          "opties": [
+            "naar de hond",
+            "naar Tom",
+            "naar de keuken",
+            "naar het bed"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een verwijswoord wijst naar het dichtstbijzijnde passende woord ervóór: a little dog."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "'He goes to school by foot' is juist Engels.",
+          "antwoord": false,
+          "uitleg": "Met de fiets, de auto of de trein is by bike, by car, by train. Te voet is on foot."
+        },
+        {
+          "type": "open",
+          "vraag": "Schrijf een korte uitnodiging in het Engels (twee of drie zinnen) voor een filmavond bij jou thuis. Zeg wanneer, waar en waarvoor.",
+          "antwoord": "Hi Sam, would you like to come to a film night at my house on Friday at seven o'clock? I live at 5 Station Street. Let me know if you can come! Bye, Noor",
+          "uitleg": "Een uitnodiging zegt wanneer, waar en waarvoor. Would you like…? is de beleefde manier om iemand uit te nodigen."
+        }
+      ]
+    }
+  ]
+}

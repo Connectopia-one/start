@@ -1,0 +1,43 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 360' width='800' height='360'>
+<rect width='800' height='360' fill='#ffffff'/>
+<rect x='0' y='0' width='800' height='45' fill='#e8eee3'/>
+<rect x='0' y='0' width='60' height='360' fill='#e8eee3'/>
+<text x='134' y='30' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='18' font-weight='700' fill='#2b2b2b'>A</text>
+<text x='282' y='30' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='18' font-weight='700' fill='#2b2b2b'>B</text>
+<text x='430' y='30' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='18' font-weight='700' fill='#2b2b2b'>C</text>
+<text x='578' y='30' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='18' font-weight='700' fill='#2b2b2b'>D</text>
+<text x='726' y='30' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='18' font-weight='700' fill='#2b2b2b'>E</text>
+<text x='30' y='75' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='18' font-weight='700' fill='#2b2b2b'>1</text>
+<text x='30' y='120' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='18' font-weight='700' fill='#2b2b2b'>2</text>
+<text x='30' y='165' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='18' font-weight='700' fill='#2b2b2b'>3</text>
+<text x='30' y='210' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='18' font-weight='700' fill='#2b2b2b'>4</text>
+<text x='30' y='255' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='18' font-weight='700' fill='#2b2b2b'>5</text>
+<text x='30' y='300' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='18' font-weight='700' fill='#2b2b2b'>6</text>
+<text x='30' y='345' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='18' font-weight='700' fill='#2b2b2b'>7</text>
+<line x1='60' y1='0' x2='60' y2='360' stroke='#b9b9b9'/>
+<line x1='208' y1='0' x2='208' y2='360' stroke='#b9b9b9'/>
+<line x1='356' y1='0' x2='356' y2='360' stroke='#b9b9b9'/>
+<line x1='504' y1='0' x2='504' y2='360' stroke='#b9b9b9'/>
+<line x1='652' y1='0' x2='652' y2='360' stroke='#b9b9b9'/>
+<line x1='800' y1='0' x2='800' y2='360' stroke='#b9b9b9'/>
+<line x1='0' y1='45' x2='800' y2='45' stroke='#b9b9b9'/>
+<line x1='0' y1='90' x2='800' y2='90' stroke='#b9b9b9'/>
+<line x1='0' y1='135' x2='800' y2='135' stroke='#b9b9b9'/>
+<line x1='0' y1='180' x2='800' y2='180' stroke='#b9b9b9'/>
+<line x1='0' y1='225' x2='800' y2='225' stroke='#b9b9b9'/>
+<line x1='0' y1='270' x2='800' y2='270' stroke='#b9b9b9'/>
+<line x1='0' y1='315' x2='800' y2='315' stroke='#b9b9b9'/>
+<line x1='0' y1='360' x2='800' y2='360' stroke='#b9b9b9'/>
+<text x='70' y='75' font-family='Nunito, Arial, sans-serif' font-size='18' fill='#2b2b2b'>Maand</text>
+<text x='218' y='75' font-family='Nunito, Arial, sans-serif' font-size='18' fill='#2b2b2b'>Zakgeld</text>
+<text x='366' y='75' font-family='Nunito, Arial, sans-serif' font-size='18' fill='#2b2b2b'>Uitgaven</text>
+<text x='70' y='120' font-family='Nunito, Arial, sans-serif' font-size='18' fill='#2b2b2b'>januari</text>
+<text x='218' y='120' font-family='Nunito, Arial, sans-serif' font-size='18' fill='#2b2b2b'>30</text>
+<text x='366' y='120' font-family='Nunito, Arial, sans-serif' font-size='18' fill='#2b2b2b'>18</text>
+<text x='70' y='165' font-family='Nunito, Arial, sans-serif' font-size='18' fill='#2b2b2b'>februari</text>
+<text x='218' y='165' font-family='Nunito, Arial, sans-serif' font-size='18' fill='#2b2b2b'>30</text>
+<text x='366' y='165' font-family='Nunito, Arial, sans-serif' font-size='18' fill='#2b2b2b'>22</text>
+<text x='70' y='210' font-family='Nunito, Arial, sans-serif' font-size='18' fill='#2b2b2b'>maart</text>
+<text x='218' y='210' font-family='Nunito, Arial, sans-serif' font-size='18' fill='#2b2b2b'>30</text>
+<text x='366' y='210' font-family='Nunito, Arial, sans-serif' font-size='18' fill='#2b2b2b'>15</text>
+</svg>

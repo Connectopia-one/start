@@ -41,10 +41,10 @@ export const nieuwTekst = {
 export const updates: Update[] = [
   {
     datum: "11 november 2026",
-    titel: "Uitdaging bij aardrijkskunde Spark, zoals op het examen",
+    titel: "Vier nieuwe uitdagingen in Spark, zoals op het examen",
     tekst:
-      "Aardrijkskunde Spark heeft nu ook een uitdagingshoofdstuk: 30 vragen over alle hoofdstukken door elkaar, in de vormen van het examen van de Examencommissie. Je vult een tabel in, kiest uit keuzelijsten, sleept woorden, koppelt, sorteert, klikt op een kaart met hoogtelijnen en een klimatogram, en schrijft een kort antwoord.",
-    link: { tekst: "Naar aardrijkskunde Spark", href: "/niveaus/spark/aardrijkskunde" },
+      "Aardrijkskunde, Engels, samenleving en economie en techniek in Spark hebben nu ook een uitdagingshoofdstuk: telkens 30 vragen over alle hoofdstukken door elkaar, in de vormen van het examen van de Examencommissie. Je vult een tabel in, kiest uit keuzelijsten, sleept woorden, koppelt, sorteert, leest een casus, klikt op een prent en schrijft een kort antwoord.",
+    link: { tekst: "Naar Spark", href: "/niveaus/spark" },
   },
   {
     datum: "11 november 2026",

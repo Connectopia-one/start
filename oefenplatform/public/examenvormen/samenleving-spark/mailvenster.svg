@@ -1,0 +1,15 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 420' width='800' height='420'>
+<rect width='800' height='420' fill='#ffffff'/>
+<rect x='10' y='10' width='780' height='400' rx='12' fill='#f7f7f7' stroke='#2b2b2b' stroke-width='2'/>
+<rect x='10' y='10' width='780' height='46' rx='12' fill='#2f4a22'/>
+<text x='30' y='41' font-family='Nunito, Arial, sans-serif' font-size='20' font-weight='700' fill='#ffffff'>Nieuw bericht</text>
+<text x='30' y='96' font-family='Nunito, Arial, sans-serif' font-size='18' fill='#2b2b2b'>Aan:</text>
+<rect x='150' y='70' width='620' height='36' rx='6' fill='#ffffff' stroke='#b9b9b9'/>
+<text x='30' y='141' font-family='Nunito, Arial, sans-serif' font-size='18' fill='#2b2b2b'>CC:</text>
+<rect x='150' y='115' width='620' height='36' rx='6' fill='#ffffff' stroke='#b9b9b9'/>
+<text x='30' y='186' font-family='Nunito, Arial, sans-serif' font-size='18' fill='#2b2b2b'>BCC:</text>
+<rect x='150' y='160' width='620' height='36' rx='6' fill='#ffffff' stroke='#b9b9b9'/>
+<text x='30' y='231' font-family='Nunito, Arial, sans-serif' font-size='18' fill='#2b2b2b'>Onderwerp:</text>
+<rect x='150' y='205' width='620' height='36' rx='6' fill='#ffffff' stroke='#b9b9b9'/>
+<rect x='30' y='255' width='740' height='140' rx='6' fill='#ffffff' stroke='#b9b9b9'/>
+</svg>

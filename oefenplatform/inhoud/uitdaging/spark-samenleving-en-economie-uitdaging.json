@@ -1,0 +1,378 @@
+{
+  "hoofdstukken": [
+    {
+      "titel": "Uitdaging — alles door elkaar",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "casus": "Lotte is dertien. Ze krijgt elke maand 30 euro zakgeld. Voor haar verjaardag kreeg ze één keer 50 euro van haar oma. Elke maand betaalt ze 10 euro voor haar gsm-abonnement, en ze geeft ongeveer 8 euro uit aan snoep en tijdschriften. In een webshop ziet ze sneakers van 90 euro, met de melding: 'Nog maar 2 paar! Deze aanbieding eindigt over 10 minuten.'",
+          "vragen": [
+            {
+              "type": "sorteren",
+              "vraag": "Sleep elk bedrag van Lotte naar de juiste kolom.",
+              "kolommen": [
+                "Terugkerende inkomst",
+                "Toevallige inkomst",
+                "Vaste uitgave",
+                "Variabele uitgave"
+              ],
+              "items": [
+                [
+                  "30 euro zakgeld per maand",
+                  "Terugkerende inkomst"
+                ],
+                [
+                  "50 euro van oma",
+                  "Toevallige inkomst"
+                ],
+                [
+                  "10 euro gsm-abonnement",
+                  "Vaste uitgave"
+                ],
+                [
+                  "snoep en tijdschriften",
+                  "Variabele uitgave"
+                ]
+              ],
+              "uitleg": "Zakgeld komt elke maand terug, het geld van oma één keer. Het abonnement is elke maand hetzelfde (vast), wat ze aan snoep uitgeeft, verschilt (variabel)."
+            },
+            {
+              "type": "invultekst",
+              "vraag": "Hoeveel euro houdt Lotte elke maand over van haar zakgeld als ze haar gewone uitgaven betaald heeft? Antwoord met een getal.",
+              "antwoord": "12",
+              "uitleg": "30 euro zakgeld min 10 euro voor de gsm en 8 euro voor snoep en tijdschriften is 12 euro. Dat kan ze sparen."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Wat zijn 'Nog maar 2 paar!' en 'eindigt over 10 minuten'?",
+              "opties": [
+                "eerlijke informatie over de voorraad",
+                "een wettelijke regel voor elke webshop",
+                "verkooptrucs met schaarste en tijdsdruk",
+                "de bedenktijd die de winkel je geeft"
+              ],
+              "antwoord": 2,
+              "uitleg": "Schaarste (nog maar 2) en tijdsdruk (nog 10 minuten) moeten je snel doen kopen, zonder na te denken of je het echt nodig hebt."
+            },
+            {
+              "type": "waarofniet",
+              "vraag": "Als Lotte de sneakers online koopt, heeft ze veertien dagen bedenktijd.",
+              "antwoord": true,
+              "uitleg": "Bij een aankoop online heb je veertien dagen bedenktijd. In een gewone winkel niet."
+            }
+          ]
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Je stuurt een mail naar veertig ouders die elkaar niet kennen. Klik op het vak waar je hun adressen zet, zodat niemand de andere adressen ziet.",
+          "afbeelding_url": "/examenvormen/samenleving-spark/mailvenster.svg",
+          "zones": [
+            [
+              2,
+              37,
+              96,
+              11
+            ]
+          ],
+          "uitleg": "Adressen in BCC ziet niemand anders. Adressen in Aan en CC ziet iedereen die de mail krijgt."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik in het rekenblad op de cel met de uitgaven van februari.",
+          "afbeelding_url": "/examenvormen/samenleving-spark/rekenblad.svg",
+          "zones": [
+            [
+              44.5,
+              37.5,
+              18.5,
+              12.5
+            ]
+          ],
+          "uitleg": "De uitgaven staan in kolom C, februari staat in rij 3. Het celadres is dus C3."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke formule telt de cellen B2 tot en met B6 op?",
+          "opties": [
+            "SOM(B2:B6)",
+            "=SOM(B2:B6)",
+            "=SOM(B2+B6)",
+            "=B2:B6"
+          ],
+          "antwoord": 1,
+          "uitleg": "Elke formule begint met een gelijkheidsteken. De dubbele punt betekent tot en met: B2:B6 is het hele bereik."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elke macht aan wie ze uitoefent.",
+          "paren": [
+            [
+              "De wetgevende macht",
+              "het parlement"
+            ],
+            [
+              "De uitvoerende macht",
+              "de regering"
+            ],
+            [
+              "De rechterlijke macht",
+              "de rechters"
+            ]
+          ],
+          "extra": [
+            "de koning"
+          ],
+          "uitleg": "Het parlement maakt de wetten, de regering voert ze uit, de rechters spreken recht. De koning is staatshoofd, maar bestuurt niet."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Wie is bevoegd? Kies voor elke taak het juiste bestuursniveau.",
+          "rijen": [
+            "onderwijs",
+            "milieu",
+            "defensie",
+            "cultuur",
+            "mobiliteit",
+            "pensioenen"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Een gemeenschap gaat over personen en taal (onderwijs, cultuur, welzijn). Een gewest over grondgebied (milieu, wonen, mobiliteit). Justitie, defensie en pensioenen zijn federaal.",
+          "kolommen": [
+            "Gemeenschap",
+            "Gewest",
+            "Federale overheid"
+          ]
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "In een gemeente beslist de [[*gemeenteraad|deputatie|provincieraad]]. Het [[*college van burgemeester en schepenen|Vlaams Parlement|federaal parlement]] voert uit. In een provincie wordt de [[*gouverneur|burgemeester|schepen]] benoemd en niet verkozen.",
+          "uitleg": "Op elk niveau beslist een verkozen raad en voert een bestuur uit. In de gemeente zijn dat de gemeenteraad en het college. De gouverneur van een provincie wordt benoemd."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet de vier stappen van eerste hulp in de juiste volgorde.",
+          "opties": [
+            "Zorgen voor veiligheid",
+            "De toestand van het slachtoffer beoordelen",
+            "Hulp raadplegen, bijvoorbeeld 112 bellen",
+            "Verdere hulp verlenen"
+          ],
+          "uitleg": "Eerst veiligheid, zodat er geen tweede slachtoffer valt. Dan kijk je hoe het met het slachtoffer gaat, haal je hulp en help je verder."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Bij pesten gebeurt het [[herhaaldelijk]] en is er een [[machtsverschil]]. Bij plagen gaat het [[over en weer]].",
+          "extra": [
+            "één keer",
+            "toevallig",
+            "per ongeluk"
+          ],
+          "uitleg": "Plagen gaat over en weer en blijft leuk voor iedereen. Pesten gaat één kant op, herhaalt zich en er is een machtsverschil."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "In welke sector werkt elk van deze?",
+          "kolommen": [
+            "Primair",
+            "Secundair",
+            "Tertiair",
+            "Quartair"
+          ],
+          "items": [
+            [
+              "een visser",
+              "Primair"
+            ],
+            [
+              "een akkerbouwer",
+              "Primair"
+            ],
+            [
+              "een autofabriek",
+              "Secundair"
+            ],
+            [
+              "een staalbedrijf",
+              "Secundair"
+            ],
+            [
+              "een kapper",
+              "Tertiair"
+            ],
+            [
+              "een bank",
+              "Tertiair"
+            ],
+            [
+              "de politie",
+              "Quartair"
+            ],
+            [
+              "een openbare school",
+              "Quartair"
+            ]
+          ],
+          "uitleg": "Primair haalt grondstoffen, secundair verwerkt ze, tertiair levert diensten met winst, quartair diensten zonder winstoogmerk."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Iemand ligt bewusteloos op de grond, maar ademt normaal. De omgeving is veilig. Wat doe je?",
+          "opties": [
+            "rechtop zetten en water laten drinken",
+            "op de rug laten liggen en weggaan om hulp",
+            "in stabiele zijligging leggen, 112 bellen en blijven",
+            "flink door elkaar schudden tot hij wakker wordt"
+          ],
+          "antwoord": 2,
+          "uitleg": "Bewusteloos maar normaal ademend: stabiele zijligging, zodat de luchtweg vrij blijft. Dan bel je 112 en blijf je bij het slachtoffer."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je belt 112. Wat doe je pas op het einde van het gesprek?",
+          "opties": [
+            "inleggen",
+            "zeggen waar het is",
+            "zeggen wat er gebeurd is",
+            "zeggen hoeveel slachtoffers er zijn"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je zegt waar, wat, hoeveel slachtoffers en in welke toestand. Je legt nooit als eerste neer: de hulpdienst zegt wanneer het gesprek gedaan is."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Op een verse brandwonde leg je best meteen ijs, rechtstreeks op de huid.",
+          "antwoord": false,
+          "uitleg": "Een brandwonde koel je tien tot twintig minuten met lauw stromend water. IJs op de blote huid beschadigt ze nog meer."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In een land zijn er elke vijf jaar verkiezingen, maar er mag maar één partij meedoen. Wat voor land is dat?",
+          "opties": [
+            "een democratie",
+            "een dictatuur",
+            "een gemeenschap",
+            "een gewest"
+          ],
+          "antwoord": 1,
+          "uitleg": "In een dictatuur zijn er soms verkiezingen, maar ze zijn niet vrij. Vrije verkiezingen zijn een van de principes van een democratie."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In België worden de rechters verkozen door het volk.",
+          "antwoord": false,
+          "uitleg": "Rechters worden benoemd, niet verkozen. Zo staan ze los van de politieke partijen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een overheid geeft meer uit dan ze ontvangt. Wat is het gevolg?",
+          "opties": [
+            "Ze moet lenen, en dat kost rente.",
+            "Ze moet minder belastingen vragen.",
+            "Ze krijgt het verschil vanzelf terug.",
+            "Ze moet de bedrijven sluiten."
+          ],
+          "antwoord": 0,
+          "uitleg": "Wie meer uitgeeft dan hij ontvangt, moet het verschil lenen. Op een lening betaal je rente."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Iemand verliest zijn werk en krijgt een werkloosheidsuitkering. Wat voor uitkering is dat?",
+          "opties": [
+            "een aanvullende uitkering",
+            "een vervangingsuitkering",
+            "een investeringsgoed",
+            "een consumentengoed"
+          ],
+          "antwoord": 1,
+          "uitleg": "Een vervangingsuitkering komt in de plaats van een loon. Een aanvullende uitkering komt bovenop een loon."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je wil een bestand op je computer houden en er ook een exemplaar van op je usb-stick zetten. Wat doe je?",
+          "opties": [
+            "verplaatsen",
+            "herbenoemen",
+            "kopiëren",
+            "verwijderen"
+          ],
+          "antwoord": 2,
+          "uitleg": "Kopiëren laat het origineel staan. Verplaatsen haalt het weg op de oude plaats."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Je krijgt een sms met een link om 'je pakje te volgen', maar het is oplichting. Hoe heet die vorm van fraude? Antwoord met één woord.",
+          "antwoord": "smishing",
+          "uitleg": "Phishing gaat via mail, smishing via sms, quishing via een QR-code en vishing via de telefoon."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "'Zomer2026' is een sterk wachtwoord.",
+          "antwoord": false,
+          "uitleg": "Er staat geen speciaal teken in, en het is makkelijk te raden. Een sterk wachtwoord heeft 8 tot 24 karakters met een hoofdletter, een kleine letter, een cijfer en een teken."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je ziet dat iemand je bankkaart misbruikt heeft. Wat doe je eerst?",
+          "opties": [
+            "aangifte doen bij de politie",
+            "de kaart blokkeren en je bank verwittigen",
+            "een nieuw wachtwoord kiezen voor je mail",
+            "wachten tot het volgende rekeninguittreksel"
+          ],
+          "antwoord": 1,
+          "uitleg": "Eerst blokkeren en je bank verwittigen, zodat er niet nog meer geld verdwijnt. Daarna doe je aangifte."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe heet de tekenopmaak waarmee je de 2 in m² hoger zet? Antwoord met één woord.",
+          "antwoord": "superscript",
+          "uitleg": "Superscript zet een teken hoger (m²), subscript lager (H₂O)."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een omstaander die meelacht met een pestkop, helpt het pesten mee in stand houden.",
+          "antwoord": true,
+          "uitleg": "Wie meelacht, geeft de pestkop publiek en steun. Zo blijft het pesten duren."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wanneer telt toestemming?",
+          "opties": [
+            "Als iemand na lang aandringen toch ja zegt.",
+            "Als de oudste van de twee beslist.",
+            "Als niemand uitdrukkelijk nee zegt.",
+            "Als ze vrijwillig en gelijkwaardig gegeven wordt."
+          ],
+          "antwoord": 3,
+          "uitleg": "Toestemming telt alleen als ze vrijwillig en gelijkwaardig is. Onder druk telt ze niet, en geen nee is nog geen ja."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Brussel hoort bij de provincie Vlaams-Brabant.",
+          "antwoord": false,
+          "uitleg": "België heeft tien provincies, en Brussel hoort bij geen enkele."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij elke goederenstroom in de economische kringloop loopt er meestal een geldstroom in de omgekeerde richting.",
+          "antwoord": true,
+          "uitleg": "Gezinnen leveren arbeid en krijgen loon. Bedrijven leveren goederen en krijgen er geld voor."
+        },
+        {
+          "type": "open",
+          "vraag": "Leg uit waarom de drie machten in een democratie gescheiden zijn. Geef een voorbeeld.",
+          "antwoord": "Als de machten gescheiden zijn, kunnen ze elkaar controleren en kan niemand alle macht in handen nemen. Een voorbeeld: de regering mag zelf geen wetten maken, dat doet het parlement. En een rechter kan een minister veroordelen als die de wet overtreedt.",
+          "uitleg": "Wetgevend is het parlement, uitvoerend de regering en rechterlijk de rechters. Ze houden elkaar in evenwicht."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 320' width='800' height='320'>
+<rect width='800' height='320' fill='#ffffff'/>
+<rect x='60' y='40' width='180' height='200' fill='none' stroke='#6b4a2b' stroke-width='10'/>
+<text x='150' y='290' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='26' font-weight='800' fill='#2f4a22'>A</text>
+<rect x='310' y='40' width='180' height='200' fill='none' stroke='#6b4a2b' stroke-width='10'/>
+<line x1='310' y1='240' x2='490' y2='40' stroke='#6b4a2b' stroke-width='10'/>
+<text x='400' y='290' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='26' font-weight='800' fill='#2f4a22'>B</text>
+<rect x='560' y='40' width='180' height='200' fill='none' stroke='#6b4a2b' stroke-width='10'/>
+<line x1='560' y1='140' x2='740' y2='140' stroke='#6b4a2b' stroke-width='10'/>
+<text x='650' y='290' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='26' font-weight='800' fill='#2f4a22'>C</text>
+</svg>
