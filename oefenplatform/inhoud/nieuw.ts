@@ -41,6 +41,13 @@ export const nieuwTekst = {
 export const updates: Update[] = [
   {
     datum: "11 november 2026",
+    titel: "Nieuwe begrippenarena: uitdagingshoek",
+    tekst:
+      "Bij de educatieve spellen staat nu ook een begrippenarena voor de uitdagingshoek, met vier thema's: de ruimte, coderen en computers, de geschiedenis van België, en paradoxen en weetjes. Je oefent de begrippen in met een quiz, memory, raketgalgje, flitskaarten of bingo. In het sorteerspel kies je bijvoorbeeld tussen planeet en maan, of tussen feit en fabel.",
+    link: { tekst: "Naar de spellen", href: "/extras/spellen" },
+  },
+  {
+    datum: "11 november 2026",
     titel: "Nieuwe begrippenarena: mens en samenleving",
     tekst:
       "Bij de educatieve spellen staat nu een begrippenarena voor de vakken over mens en samenleving: samenleving en economie, sociale en gedragswetenschappen, kunstbeschouwing en filosofie, gezondheid, zorg en welzijn, ontwikkeling en pedagogisch handelen, en filosofie en recht. Nieuw is het sorteerspel: je legt een uitspraak of voorbeeld in de juiste bak, zoals het juiste stadium van Piaget of de juiste macht.",
