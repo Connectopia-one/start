@@ -16,7 +16,7 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="In 'De buurvrouw wast haar auto' — wie of wat doet er iets?",
-        opties=["de buurvrouw", "haar auto", "wast", "haar"],
+        opties=["de buurvrouw", "haar auto, want die wordt gewassen", "wast", "haar"],
         antwoord=0,
         uitleg="Het onderwerp vind je met 'wie of wat' plus het werkwoord: wie wast? De buurvrouw.",
     ),
@@ -63,7 +63,7 @@ DEEL1 = [
         vraag="Welk zinsdeel zegt waar, wanneer of hoe iets gebeurt?",
         opties=[
             "De bijwoordelijke bepaling",
-            "Het onderwerp",
+            "Het onderwerp, dat zegt wie of wat iets doet",
             "Het lijdend voorwerp",
             "De persoonsvorm",
         ],
@@ -137,7 +137,7 @@ DEEL1 = [
         vraag="Wat is een enkelvoudige zin?",
         opties=[
             "Een zin met één persoonsvorm",
-            "Een zin met één woord",
+            "Een zin met één woord, zoals een uitroep",
             "Een korte zin",
             "Een zin zonder komma",
         ],
@@ -252,7 +252,7 @@ DEEL2 = [
         vraag="Welke zin bevat een meewerkend voorwerp?",
         opties=[
             "Ze stuurde haar vriendin een kaartje.",
-            "Ze stuurde een kaartje.",
+            "Ze stuurde een kaartje naar haar vriendin.",
             "Ze fietste naar huis.",
             "Ze was moe.",
         ],
@@ -307,8 +307,8 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Welke zinssoort is 'Zou je het raam even willen sluiten?'",
         opties=[
-            "Een vragende zin die eigenlijk een vraag om iets te doen is",
-            "Een bevelende zin",
+            "Een vragende zin die eigenlijk om iets vraagt",
+            "Een bevelende zin, want je moet het raam sluiten",
             "Een uitroepende zin",
             "Een ontkennende zin",
         ],
@@ -338,7 +338,7 @@ DEEL2 = [
         vraag="In 'De kinderen kregen van de directeur een diploma' — wat is het meewerkend voorwerp?",
         opties=[
             "Er is er geen; 'van de directeur' is een bepaling",
-            "van de directeur",
+            "van de directeur, want hij geeft het diploma",
             "een diploma",
             "de kinderen",
         ],
@@ -349,8 +349,8 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Waarom is 'De regering hebben een beslissing genomen' fout?",
         opties=[
-            "'De regering' is enkelvoud, dus moet het 'heeft' zijn",
-            "'Beslissing' moet in het meervoud",
+            "'De regering' is enkelvoud, dus 'heeft'",
+            "'Beslissing' moet in het meervoud, want een regering neemt er veel",
             "'Genomen' is fout gespeld",
             "Er ontbreekt een komma",
         ],
@@ -386,8 +386,8 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Waarom helpt zinsontleding je bij het schrijven?",
         opties=[
-            "Omdat je er lange zinnen mee kan controleren op congruentie en samenhang",
-            "Omdat je dan mooiere woorden kiest",
+            "Omdat je er lange zinnen mee kan nakijken op samenhang",
+            "Omdat je dan mooiere en moeilijkere woorden kiest",
             "Omdat je dan sneller typt",
             "Omdat het op het examen apart getest wordt",
         ],

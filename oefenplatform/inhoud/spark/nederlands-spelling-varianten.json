@@ -598,7 +598,7 @@
             "Om een opsomming of een citaat aan te kondigen",
             "Om een zin af te sluiten",
             "Om een vraag te stellen",
-            "Om twee woorden aan elkaar te plakken"
+            "Om twee woorden aan elkaar te plakken tot één nieuw samengesteld woord"
           ],
           "antwoord": 0,
           "uitleg": "'Neem mee: je boek, je pen en je agenda.' Na de dubbele punt komt wat aangekondigd werd."
@@ -698,8 +698,8 @@
           "type": "meerkeuze",
           "vraag": "Waarom schrijf je 'zee-eend' met een koppelteken?",
           "opties": [
-            "Omdat er anders drie e's botsen en je het woord verkeerd leest",
-            "Omdat het twee dieren zijn",
+            "Omdat er anders drie e's botsen",
+            "Omdat het om twee dieren gaat die samen één woord vormen",
             "Omdat het een lang woord is",
             "Omdat het een eigennaam is"
           ],
@@ -1266,8 +1266,8 @@
           "type": "meerkeuze",
           "vraag": "Je hebt je tekst geschreven en de spellingcontrole meldt niets. Wat doe je?",
           "opties": [
-            "Je leest zelf na op werkwoordsvormen en op woorden die bestaan maar hier fout zijn",
-            "Je dient meteen in",
+            "Je leest zelf na op werkwoordsvormen en op bestaande woorden die hier fout zijn",
+            "Je dient meteen in, want de spellingcontrole vond niets",
             "Je verandert alles wat onderstreept staat",
             "Je zet er nog wat komma's bij"
           ],

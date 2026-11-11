@@ -32,7 +32,7 @@ DEEL1 = [
         vraag="Wat zijn de personages van een verhaal?",
         opties=[
             "De figuren die in het verhaal voorkomen",
-            "De plaatsen waar het verhaal speelt",
+            "De plaatsen waar het verhaal zich afspeelt",
             "De hoofdstukken",
             "De woorden die rijmen",
         ],
@@ -44,7 +44,7 @@ DEEL1 = [
         vraag="Wat bedoelen we met de ruimte van een verhaal?",
         opties=[
             "De plaats waar het verhaal zich afspeelt",
-            "De tijd die het verhaal duurt",
+            "De tijd die het verhaal duurt, van begin tot einde",
             "Het aantal bladzijden",
             "De naam van de schrijver",
         ],
@@ -99,8 +99,8 @@ DEEL1 = [
         type="meerkeuze",
         vraag="Wat is een vergelijking in taal?",
         opties=[
-            "Twee dingen naast elkaar zetten met 'als' of 'zoals'",
-            "Twee woorden die rijmen",
+            "Twee dingen vergelijken met 'als' of 'zoals'",
+            "Twee woorden die rijmen op het einde van een regel",
             "Een woord met twee betekenissen",
             "Een zin zonder werkwoord",
         ],
@@ -135,8 +135,8 @@ DEEL1 = [
         type="meerkeuze",
         vraag="Waarom gebruikt een dichter rijm en ritme?",
         opties=[
-            "Om zijn tekst te laten klinken en beter te laten hangen",
-            "Omdat dat verplicht is in een gedicht",
+            "Om de tekst te laten klinken en te laten hangen",
+            "Omdat rijm en ritme verplicht zijn in elk gedicht",
             "Om de tekst korter te maken",
             "Om moeilijke woorden te vermijden",
         ],
@@ -148,7 +148,7 @@ DEEL1 = [
         vraag="Je leest een blog waarin iemand vertelt over zijn reis door Noorwegen. Wat is dat?",
         opties=[
             "Non-fictie, verteld als een verhaal",
-            "Fictie",
+            "Fictie, want het is verteld als een verhaal",
             "Een handleiding",
             "Een recensie",
         ],
@@ -179,7 +179,7 @@ DEEL1 = [
         vraag="Welke vraag helpt je om je beleving van een boek te verwoorden?",
         opties=[
             "Waarom herken je je wel of niet in een personage?",
-            "Hoeveel bladzijden telt het boek?",
+            "Hoeveel bladzijden en hoofdstukken telt het boek?",
             "In welk jaar is het gedrukt?",
             "Wie is de uitgever?",
         ],
@@ -207,9 +207,9 @@ DEEL2 = [
         type="meerkeuze",
         vraag="In een verhaal blijft het hoofdpersonage rustig terwijl iedereen in paniek raakt. Wat leer je daaruit over dat personage?",
         opties=[
-            "Iets over zijn karakter, zonder dat het er letterlijk staat",
+            "Iets over zijn karakter, zonder dat het er staat",
             "Niets",
-            "Dat het verhaal fictie is",
+            "Dat het verhaal fictie is, want zo reageert niemand echt",
             "Dat het verhaal in de zomer speelt",
         ],
         antwoord=0,
@@ -220,7 +220,7 @@ DEEL2 = [
         vraag="Een verhaal begint met de laatste gebeurtenis en vertelt daarna hoe het zover kwam. Wat doet de schrijver?",
         opties=[
             "Hij speelt met de tijd, met een terugblik",
-            "Hij verandert de ruimte",
+            "Hij verandert de ruimte waarin het verhaal zich afspeelt",
             "Hij gebruikt beeldspraak",
             "Hij schrijft non-fictie",
         ],
@@ -282,7 +282,7 @@ DEEL2 = [
         vraag="Een gedicht gebruikt korte regels, witruimte en herhaling. Waarover gaat dat?",
         opties=[
             "Over de vorm, die de betekenis mee draagt",
-            "Over de spelling",
+            "Over de spelling van de woorden die de dichter kiest",
             "Over de spreektaal",
             "Over de bronvermelding",
         ],
@@ -298,7 +298,7 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Je vertelt op het examen over een boek. Welke uitspraak is het sterkst?",
-        opties=["Ik herkende mezelf in Sam, omdat hij ook niet durfde te zeggen wat hij dacht.", "Het was wel oké.", "Ik vond het niks.", "Het boek telt 224 bladzijden en het heeft een harde kaft met een foto erop."],
+        opties=["Ik herkende mezelf in Sam, omdat hij ook niet zei wat hij dacht.", "Het was wel oké.", "Ik vond het niks.", "Het boek telt 224 bladzijden en het heeft een harde kaft met een foto erop."],
         antwoord=0,
         uitleg="Je beleving verwoorden betekent: zeggen wat je raakte en waarom, met een voorbeeld erbij.",
     ),
@@ -307,7 +307,7 @@ DEEL2 = [
         vraag="In een verhaal verandert de ruimte van een drukke stad naar een verlaten huis. Wat doet dat met het verhaal?",
         opties=[
             "Het verandert de sfeer en de spanning",
-            "Het verandert de spelling",
+            "Het verandert de spelling van de woorden die de schrijver kiest",
             "Het maakt het verhaal non-fictie",
             "Het verandert niets",
         ],
@@ -331,7 +331,7 @@ DEEL2 = [
         vraag="Een strip vertelt veel zonder woorden. Waarmee doet hij dat?",
         opties=[
             "Met beeld: gezichten, kaders en kleuren",
-            "Met voetnoten",
+            "Met voetnoten onderaan elke bladzijde die alles uitleggen",
             "Met tussentitels",
             "Met een inhoudstafel",
         ],
@@ -348,8 +348,8 @@ DEEL2 = [
         type="meerkeuze",
         vraag="'Hij kreeg het op zijn heupen.' Wat doe je als je deze uitdrukking niet kent?",
         opties=[
-            "Je leidt de betekenis af uit de situatie in de tekst",
-            "Je leest de zin letterlijk",
+            "Je leidt de betekenis af uit de situatie",
+            "Je leest de zin letterlijk en zoekt wat heupen met boosheid te maken hebben",
             "Je slaat het hoofdstuk over",
             "Je verandert de zin",
         ],
@@ -381,7 +381,7 @@ DEEL2 = [
         vraag="Waarom zeggen twee lezers soms iets heel anders over hetzelfde gedicht?",
         opties=[
             "Omdat een literaire tekst ruimte laat voor interpretatie",
-            "Omdat een van de twee zich vergist",
+            "Omdat een van de twee zich vergist en het gedicht niet begrepen heeft",
             "Omdat gedichten geen betekenis hebben",
             "Omdat het gedicht fout geschreven is",
         ],

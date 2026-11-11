@@ -78,8 +78,8 @@ DEEL1 = [
         type="meerkeuze",
         vraag="Wat is een literaire tekst?",
         opties=[
-            "Een tekst met een esthetische waarde, die vaak inspeelt op je gevoel",
-            "Elke tekst die in een boek staat",
+            "Een tekst met esthetische waarde, die inspeelt op je gevoel",
+            "Elke tekst die in een boek staat, ook een kookboek of een atlas",
             "Een tekst met veel moeilijke woorden",
             "Een tekst zonder afbeeldingen",
         ],
@@ -129,7 +129,7 @@ DEEL1 = [
         vraag="Een hotelbeoordeling op een reissite hoort bij welke soort tekst?",
         opties=[
             "Een tekst waarin iemand zijn mening geeft",
-            "Een informatieve tekst",
+            "Een informatieve tekst over het hotel",
             "Een literaire tekst",
             "Een instructie",
         ],
@@ -208,7 +208,7 @@ DEEL1 = [
         vraag="Je leest een schoolreglement. Wat voor tekst is dat?",
         opties=[
             "Een tekst die je zegt hoe het hoort",
-            "Een verhalende tekst",
+            "Een verhalende tekst over het leven op school",
             "Een literaire tekst",
             "Een recensie",
         ],
@@ -248,7 +248,7 @@ DEEL2 = [
         vraag="Je stuurt over diezelfde bus een bericht vol geïrriteerde emoji's naar je beste vriendin. Waarom is dat gepast en naar je leerkracht niet?",
         opties=[
             "Omdat de ontvanger en het register anders zijn",
-            "Omdat emoji's altijd fout zijn",
+            "Omdat emoji's in elk bericht altijd fout en onbeleefd zijn",
             "Omdat het kanaal hetzelfde blijft",
             "Omdat de boodschap anders is",
         ],
@@ -259,9 +259,9 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Een bedrijf maakt een filmpje dat eruitziet als een reportage, maar het gaat over hun eigen product. Wat is dat?",
         opties=[
-            "Een publireportage: reclame die zich voordoet als informatie",
+            "Een publireportage: reclame vermomd als informatie",
             "Een gewone reportage",
-            "Een instructiefilmpje",
+            "Een instructiefilmpje dat uitlegt hoe je het product gebruikt",
             "Een recensie",
         ],
         antwoord=0,
@@ -277,8 +277,8 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Je moet een zoekertje schrijven om je oude gsm te verkopen. Wat is je doel?",
         opties=[
-            "Informatie geven én iemand overtuigen om te kopen",
-            "Alleen een verhaal vertellen",
+            "Informatie geven én iemand overtuigen",
+            "Alleen een verhaal vertellen over hoe je de gsm kocht",
             "Alleen instructies geven",
             "Je mening geven over gsm's",
         ],
@@ -307,9 +307,9 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Een tekst begint met 'Beste ouders,' en eindigt met 'Met vriendelijke groeten, de directie'. Wat leid je daaruit af?",
         opties=[
-            "De ontvangers zijn de ouders en de zender is de school",
+            "De ontvangers zijn de ouders, de zender is de school",
             "De zender is een leerling",
-            "Het is een literaire tekst",
+            "Het is een literaire tekst, want hij begint met een aanspreking",
             "Het kanaal is een telefoongesprek",
         ],
         antwoord=0,
@@ -369,7 +369,7 @@ DEEL2 = [
         vraag="Je schrijft een mail aan de gemeente over een kapot voetpad. Welk register kies je?",
         opties=[
             "Formeel, met 'u' en een nette slotgroet",
-            "Informeel, met emoji's",
+            "Informeel, met emoji's om het luchtig te houden",
             "Dialect",
             "Jongerentaal",
         ],
@@ -391,7 +391,7 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Een campagne wil dat je minder snel rijdt. Wat is de ontvanger?",
-        opties=["De bestuurders", "De overheid", "Het affiche", "De snelheid"],
+        opties=["De bestuurders", "De overheid die de campagne betaalt", "Het affiche", "De snelheid"],
         antwoord=0,
         uitleg="De overheid is de zender, het affiche het kanaal, de bestuurders zijn de ontvangers.",
     ),
@@ -412,8 +412,8 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Waarom is het nuttig om te weten met welke tekstsoort je te maken hebt?",
         opties=[
-            "Je weet dan wat je mag verwachten en waarop je moet letten",
-            "Je hoeft de tekst dan niet meer te lezen",
+            "Je weet dan wat je mag verwachten en waarop je let",
+            "Je hoeft de tekst dan niet meer helemaal te lezen",
             "Je kent dan meteen alle moeilijke woorden",
             "Je weet dan hoe lang de tekst is",
         ],

@@ -18,7 +18,7 @@ DEEL1 = [
         vraag="Je stuurt een bericht naar je beste vriend en een mail naar de directeur. Wat verandert er?",
         opties=[
             "De toon en de woordkeuze: het register",
-            "Alleen de lengte",
+            "Alleen de lengte van het filmpje verschilt",
             "Niets",
             "Alleen de spelling",
         ],
@@ -42,8 +42,8 @@ DEEL1 = [
         type="meerkeuze",
         vraag="Wat is tussentaal?",
         opties=[
-            "Taal die tussen dialect en standaardtaal in zit",
-            "Een taal uit een ander land",
+            "Taal tussen dialect en standaardtaal in",
+            "Een taal uit een ander land die hier gesproken wordt",
             "De taal van een vertaling",
             "Geschreven taal zonder leestekens",
         ],
@@ -93,7 +93,7 @@ DEEL1 = [
         vraag="Waardoor wordt jongerentaal sterk beïnvloed?",
         opties=[
             "Door andere talen, zoals het Engels",
-            "Door de spellingregels",
+            "Door de spellingregels die elk jaar veranderen",
             "Door het woordenboek",
             "Door de grammatica van het Latijn",
         ],
@@ -128,7 +128,7 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Je typt op een forum een hele zin IN HOOFDLETTERS. Hoe komt dat over?",
-        opties=["Schreeuwerig en storend", "Vriendelijk", "Grappig", "Formeel"],
+        opties=["Schreeuwerig en storend", "Vriendelijk en enthousiast", "Grappig", "Formeel"],
         antwoord=0,
         uitleg="Hoofdletters worden online gelezen als roepen. Dat is een effect van non-verbale communicatie in geschreven taal.",
     ),
@@ -163,7 +163,7 @@ DEEL1 = [
         vraag="Je schrijft aan je oma die niets van computers weet, over een probleem met haar tablet. Wat doe je?",
         opties=[
             "Je vermijdt vaktaal en legt uit in gewone woorden",
-            "Je gebruikt alle technische termen",
+            "Je gebruikt alle technische termen, zodat het correct is",
             "Je schrijft in jongerentaal",
             "Je schrijft in dialect",
         ],
@@ -183,7 +183,7 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Je solliciteert per mail voor een vakantiejob. Welke aanhef kies je?",
-        opties=["Geachte heer of mevrouw", "Hey!", "Dag maat", "Hallo jullie"],
+        opties=["Geachte heer of mevrouw", "Hey, ik wou even vragen!", "Dag maat", "Hallo jullie"],
         antwoord=0,
         uitleg="Een sollicitatie is de formeelste situatie die je op dit niveau tegenkomt: aanhef, 'u' en een nette slotgroet.",
     ),
@@ -203,8 +203,8 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Twee vrienden spreken onder elkaar dialect, maar schakelen over op Standaardnederlands als er iemand bijkomt die het niet begrijpt. Wat tonen ze daarmee?",
         opties=[
-            "Dat je je taalvariëteit aanpast aan je gesprekspartner",
-            "Dat dialect fout is",
+            "Dat je je taal aanpast aan je gesprekspartner",
+            "Dat dialect fout is en je het beter niet spreekt",
             "Dat standaardtaal moeilijker is",
             "Dat ze geen dialect kennen",
         ],
@@ -215,9 +215,9 @@ DEEL2 = [
         type="meerkeuze",
         vraag="'Ik heb mijn gsm in de auto laten liggen' tegenover 'Ik heb mijn mobieltje in de auto laten liggen'. Wat is hier aan de hand?",
         opties=[
-            "Een verschil tussen Belgisch-Nederlands en Nederlands-Nederlands",
+            "Een verschil tussen Belgisch- en Nederlands-Nederlands",
             "Een spellingfout",
-            "Een verschil tussen dialect en standaardtaal",
+            "Een verschil tussen dialect en standaardtaal in Vlaanderen",
             "Jongerentaal",
         ],
         antwoord=0,
@@ -252,7 +252,7 @@ DEEL2 = [
         vraag="Je geeft een spreekbeurt en kijkt de hele tijd naar je blad. Welk effect heeft dat?",
         opties=[
             "Je publiek haakt af, want er is geen contact",
-            "Je klinkt deskundiger",
+            "Je klinkt deskundiger, want je leest alles foutloos voor",
             "Je spreekt vlotter",
             "Het maakt geen verschil",
         ],

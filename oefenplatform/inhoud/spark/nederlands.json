@@ -24,7 +24,7 @@
           "opties": [
             "De belangrijkste boodschap, in één zin",
             "Het eerste woord van de titel",
-            "Alles wat er in de tekst staat",
+            "Alles wat er in de tekst staat, kort samengevat",
             "De mening van de lezer"
           ],
           "antwoord": 0,
@@ -73,10 +73,10 @@
           "type": "meerkeuze",
           "vraag": "Wat zijn de hoofdpunten van een tekst?",
           "opties": [
-            "De inhoudelijke elementen die de hoofdgedachte ondersteunen",
+            "De elementen die de hoofdgedachte ondersteunen",
             "De moeilijke woorden",
             "De zinnen met een uitroepteken",
-            "De tussentitels, letterlijk overgeschreven"
+            "De tussentitels, letterlijk overgeschreven in dezelfde volgorde"
           ],
           "antwoord": 0,
           "uitleg": "De hoofdpunten zijn de stukken inhoud waarmee de tekst zijn hoofdgedachte waarmaakt."
@@ -128,7 +128,7 @@
           "type": "meerkeuze",
           "vraag": "Je zoekt in een lange tekst het antwoord op één bepaalde vraag. Wat noteer je?",
           "opties": [
-            "Alleen de informatie die met je vraag te maken heeft",
+            "Alleen wat met je vraag te maken heeft",
             "De hele tekst, voor het geval dat",
             "Enkel de eerste alinea",
             "De woorden die je niet kent"
@@ -201,7 +201,7 @@
             "sluikstort kost stad 200 000 euro/jaar",
             "de reporter praatte snel",
             "sluikstorten is niet fijn",
-            "de reportage duurde acht minuten"
+            "de reportage duurde acht minuten en had mooie beelden"
           ],
           "antwoord": 0,
           "uitleg": "Een bruikbare notitie bevat concrete informatie uit de tekst, niet je indruk van de spreker."
@@ -210,9 +210,9 @@
           "type": "meerkeuze",
           "vraag": "Wat is het verschil tussen het onderwerp en de hoofdgedachte?",
           "opties": [
-            "Het onderwerp is waarover het gaat, de hoofdgedachte is wat de tekst daarover zegt",
+            "Het onderwerp is waarover het gaat, de hoofdgedachte wat de tekst erover zegt",
             "Er is geen verschil",
-            "Het onderwerp staat altijd in de titel, de hoofdgedachte nooit",
+            "Het onderwerp staat altijd in de titel, de hoofdgedachte staat er nooit in",
             "De hoofdgedachte is korter dan het onderwerp"
           ],
           "antwoord": 0,
@@ -371,7 +371,7 @@
           "opties": [
             "De hoofdgedachte en de belangrijkste hoofdpunten",
             "De eerste vijf zinnen van de tekst",
-            "Alle cijfers uit de tekst",
+            "Alle cijfers uit de tekst, want die zijn het belangrijkst",
             "De moeilijkste woorden met hun betekenis"
           ],
           "antwoord": 0,
@@ -399,8 +399,8 @@
           "type": "meerkeuze",
           "vraag": "In een tekst over voedselverspilling staat: 'In ons land gooit een gezin gemiddeld 60 kilo eten per jaar weg.' Wat is dit?",
           "opties": [
-            "Een hoofdpunt met een cijfer dat het ondersteunt",
-            "De hoofdgedachte van de tekst",
+            "Een hoofdpunt met een cijfer erbij",
+            "De hoofdgedachte van de hele tekst over voedselverspilling",
             "Het onderwerp",
             "Een mening"
           ],
@@ -419,7 +419,7 @@
           "opties": [
             "Je eigen oordeel over de stem van de spreker",
             "De cijfers die de spreker noemt",
-            "De oorzaken die hij opsomt",
+            "De oorzaken die hij opsomt, in de volgorde waarin hij ze noemt",
             "Het besluit dat hij trekt"
           ],
           "antwoord": 0,
@@ -445,9 +445,9 @@
           "type": "meerkeuze",
           "vraag": "Je hebt de hoofdgedachte gevonden, maar één alinea past er niet bij. Wat doe je?",
           "opties": [
-            "Je herleest die alinea: misschien is het een tegenargument of een nuance",
+            "Je herleest die alinea: misschien is het een tegenargument",
             "Je schrapt de alinea uit je samenvatting",
-            "Je verandert de hoofdgedachte in die van die ene alinea",
+            "Je verandert de hoofdgedachte in die van die ene alinea die niet past",
             "Je stopt met lezen"
           ],
           "antwoord": 0,
@@ -534,8 +534,8 @@
           "type": "meerkeuze",
           "vraag": "Wat is een literaire tekst?",
           "opties": [
-            "Een tekst met een esthetische waarde, die vaak inspeelt op je gevoel",
-            "Elke tekst die in een boek staat",
+            "Een tekst met esthetische waarde, die inspeelt op je gevoel",
+            "Elke tekst die in een boek staat, ook een kookboek of een atlas",
             "Een tekst met veel moeilijke woorden",
             "Een tekst zonder afbeeldingen"
           ],
@@ -585,7 +585,7 @@
           "vraag": "Een hotelbeoordeling op een reissite hoort bij welke soort tekst?",
           "opties": [
             "Een tekst waarin iemand zijn mening geeft",
-            "Een informatieve tekst",
+            "Een informatieve tekst over het hotel",
             "Een literaire tekst",
             "Een instructie"
           ],
@@ -669,7 +669,7 @@
           "vraag": "Je leest een schoolreglement. Wat voor tekst is dat?",
           "opties": [
             "Een tekst die je zegt hoe het hoort",
-            "Een verhalende tekst",
+            "Een verhalende tekst over het leven op school",
             "Een literaire tekst",
             "Een recensie"
           ],
@@ -716,7 +716,7 @@
           "vraag": "Je stuurt over diezelfde bus een bericht vol geïrriteerde emoji's naar je beste vriendin. Waarom is dat gepast en naar je leerkracht niet?",
           "opties": [
             "Omdat de ontvanger en het register anders zijn",
-            "Omdat emoji's altijd fout zijn",
+            "Omdat emoji's in elk bericht altijd fout en onbeleefd zijn",
             "Omdat het kanaal hetzelfde blijft",
             "Omdat de boodschap anders is"
           ],
@@ -727,9 +727,9 @@
           "type": "meerkeuze",
           "vraag": "Een bedrijf maakt een filmpje dat eruitziet als een reportage, maar het gaat over hun eigen product. Wat is dat?",
           "opties": [
-            "Een publireportage: reclame die zich voordoet als informatie",
+            "Een publireportage: reclame vermomd als informatie",
             "Een gewone reportage",
-            "Een instructiefilmpje",
+            "Een instructiefilmpje dat uitlegt hoe je het product gebruikt",
             "Een recensie"
           ],
           "antwoord": 0,
@@ -745,8 +745,8 @@
           "type": "meerkeuze",
           "vraag": "Je moet een zoekertje schrijven om je oude gsm te verkopen. Wat is je doel?",
           "opties": [
-            "Informatie geven én iemand overtuigen om te kopen",
-            "Alleen een verhaal vertellen",
+            "Informatie geven én iemand overtuigen",
+            "Alleen een verhaal vertellen over hoe je de gsm kocht",
             "Alleen instructies geven",
             "Je mening geven over gsm's"
           ],
@@ -779,9 +779,9 @@
           "type": "meerkeuze",
           "vraag": "Een tekst begint met 'Beste ouders,' en eindigt met 'Met vriendelijke groeten, de directie'. Wat leid je daaruit af?",
           "opties": [
-            "De ontvangers zijn de ouders en de zender is de school",
+            "De ontvangers zijn de ouders, de zender is de school",
             "De zender is een leerling",
-            "Het is een literaire tekst",
+            "Het is een literaire tekst, want hij begint met een aanspreking",
             "Het kanaal is een telefoongesprek"
           ],
           "antwoord": 0,
@@ -846,7 +846,7 @@
           "vraag": "Je schrijft een mail aan de gemeente over een kapot voetpad. Welk register kies je?",
           "opties": [
             "Formeel, met 'u' en een nette slotgroet",
-            "Informeel, met emoji's",
+            "Informeel, met emoji's om het luchtig te houden",
             "Dialect",
             "Jongerentaal"
           ],
@@ -874,7 +874,7 @@
           "vraag": "Een campagne wil dat je minder snel rijdt. Wat is de ontvanger?",
           "opties": [
             "De bestuurders",
-            "De overheid",
+            "De overheid die de campagne betaalt",
             "Het affiche",
             "De snelheid"
           ],
@@ -903,8 +903,8 @@
           "type": "meerkeuze",
           "vraag": "Waarom is het nuttig om te weten met welke tekstsoort je te maken hebt?",
           "opties": [
-            "Je weet dan wat je mag verwachten en waarop je moet letten",
-            "Je hoeft de tekst dan niet meer te lezen",
+            "Je weet dan wat je mag verwachten en waarop je let",
+            "Je hoeft de tekst dan niet meer helemaal te lezen",
             "Je kent dan meteen alle moeilijke woorden",
             "Je weet dan hoe lang de tekst is"
           ],
@@ -1029,7 +1029,7 @@
           "vraag": "Waarom is het belangrijk te weten of informatie recent is?",
           "opties": [
             "Omdat cijfers en afspraken snel verouderen",
-            "Omdat oude teksten altijd fout zijn",
+            "Omdat oude teksten altijd fout zijn, hoe goed ze ook geschreven zijn",
             "Omdat nieuwe teksten altijd juist zijn",
             "Omdat dat niets uitmaakt"
           ],
@@ -1080,8 +1080,8 @@
           "type": "meerkeuze",
           "vraag": "Wat is een standpunt?",
           "opties": [
-            "Het oordeel dat iemand inneemt over een kwestie",
-            "Een feit met een cijfer erbij",
+            "Het oordeel dat iemand heeft over een kwestie",
+            "Een feit met een cijfer erbij, zoals een percentage",
             "De titel van een tekst",
             "De eerste alinea"
           ],
@@ -1113,7 +1113,7 @@
             "Een vast, te algemeen beeld van een groep mensen",
             "Een spellingregel",
             "Een tekstsoort",
-            "Een manier om een tekst in te delen"
+            "Een manier om een tekst in te delen in inleiding, kern en slot"
           ],
           "antwoord": 0,
           "uitleg": "'Wie dialect spreekt, is minder slim' is zo'n vast beeld. Het klopt niet en het is oneerlijk tegenover mensen."
@@ -1122,10 +1122,10 @@
           "type": "meerkeuze",
           "vraag": "Je leest een tekst en je twijfelt of hij klopt. Wat doe je?",
           "opties": [
-            "Je zoekt dezelfde informatie bij een andere, betrouwbare bron",
+            "Je zoekt dezelfde informatie bij een andere bron",
             "Je deelt hem toch maar, voor het geval dat",
             "Je gelooft de langste versie",
-            "Je kijkt hoeveel likes hij heeft"
+            "Je kijkt hoeveel likes en reacties hij gekregen heeft"
           ],
           "antwoord": 0,
           "uitleg": "Informatie nakijken bij een tweede bron is de eenvoudigste controle. Likes zeggen niets over juistheid."
@@ -1173,7 +1173,7 @@
           "vraag": "In een tekst staat: 'Uit onderzoek van de KU Leuven (2025) blijkt dat 62 % van de leerlingen te weinig slaapt.' Wat maakt die zin sterk?",
           "opties": [
             "Hij noemt zijn bron en het jaartal",
-            "Hij bevat een groot getal",
+            "Hij bevat een groot getal dat indruk maakt",
             "Hij staat vetgedrukt",
             "Hij is lang"
           ],
@@ -1236,7 +1236,7 @@
           "vraag": "Iemand zegt: 'Gsm's moeten weg op school, want uit onderzoek blijkt dat leerlingen dan beter opletten.' Wat is het argument?",
           "opties": [
             "Uit onderzoek blijkt dat leerlingen beter opletten",
-            "Gsm's moeten weg op school",
+            "Gsm's moeten weg op school, want dat is beter voor iedereen",
             "Onderzoek is belangrijk",
             "Leerlingen hebben gsm's"
           ],
@@ -1281,7 +1281,7 @@
           "vraag": "Een tekst over elektrische steps komt van een fabrikant van steps. Wat doe je met de informatie?",
           "opties": [
             "Je gebruikt ze, maar zoekt de nadelen elders op",
-            "Je gooit ze helemaal weg",
+            "Je gooit ze helemaal weg, want een fabrikant liegt altijd",
             "Je neemt ze zonder meer over",
             "Je kijkt alleen naar de foto's"
           ],
@@ -1299,7 +1299,7 @@
           "vraag": "Wat is een voorbeeld van stereotypering in een tekst?",
           "opties": [
             "'Zoals alle tieners hangt ook hij de hele dag aan zijn scherm.'",
-            "'Drie op de tien tieners slapen minder dan acht uur.'",
+            "'Drie op de tien tieners slapen op schooldagen minder dan acht uur.'",
             "'De school start om 8.30 uur.'",
             "'Hij fietst elke dag naar school.'"
           ],
@@ -1316,7 +1316,7 @@
           "type": "meerkeuze",
           "vraag": "Twee betrouwbare teksten spreken elkaar tegen. Wat doe je?",
           "opties": [
-            "Je kijkt naar de datum, de bronnen en wat ze precies onderzocht hebben",
+            "Je kijkt naar de datum, de bronnen en wat ze onderzocht hebben",
             "Je kiest de tekst die het vlotst leest, want die is het duidelijkst",
             "Je kiest de tekst die jouw mening bevestigt",
             "Je gebruikt geen van beide"
@@ -1356,7 +1356,7 @@
           "type": "meerkeuze",
           "vraag": "Waarom zou je een bericht niet doorsturen als je niet zeker weet of het klopt?",
           "opties": [
-            "Omdat je dan zelf helpt verspreiden wat misschien onjuist is",
+            "Omdat je dan zelf iets verspreidt wat misschien onjuist is",
             "Omdat doorsturen verboden is",
             "Omdat je het bericht daarna zelf niet meer kan terugvinden",
             "Omdat je dan geen likes krijgt"
@@ -1393,8 +1393,8 @@
           "type": "meerkeuze",
           "vraag": "Wat doet de inleiding van een tekst?",
           "opties": [
-            "Ze wekt je belangstelling en zegt waarover de tekst gaat",
-            "Ze vat alles samen wat je gelezen hebt",
+            "Ze wekt je interesse en zegt waarover de tekst gaat",
+            "Ze vat alles samen wat je in de tekst gelezen hebt",
             "Ze geeft het laatste argument",
             "Ze somt de bronnen op"
           ],
@@ -1443,7 +1443,7 @@
           "vraag": "Welk verband geeft het woord 'maar' aan?",
           "opties": [
             "Een tegenstelling",
-            "Een gevolg",
+            "Een gevolg van wat ervoor staat",
             "Een reden",
             "Een voorbeeld"
           ],
@@ -1479,7 +1479,7 @@
           "vraag": "Wat is een verwijswoord?",
           "opties": [
             "Een woord dat terugverwijst naar iets dat al genoemd is",
-            "Een woord dat een tegenstelling aankondigt",
+            "Een woord dat een tegenstelling aankondigt, zoals 'maar' of 'toch'",
             "Een woord met een hoofdletter",
             "Een woord uit een andere taal"
           ],
@@ -1578,7 +1578,7 @@
           "vraag": "Waarom gebruikt een instructie vaak 'ten eerste, ten tweede, ten slotte'?",
           "opties": [
             "Omdat de volgorde van de stappen belangrijk is",
-            "Omdat het mooi staat",
+            "Omdat het mooi staat en de tekst er verzorgd uitziet",
             "Omdat instructies altijd lang zijn",
             "Omdat dat verplicht is"
           ],
@@ -1597,7 +1597,7 @@
           "vraag": "'De gemeente plaatste camera's. Toch bleef het sluikstorten doorgaan.' Welk verband leggen die zinnen?",
           "opties": [
             "Een tegenstelling",
-            "Een reden",
+            "Een reden voor het sluikstorten",
             "Een opsomming",
             "Een voorbeeld"
           ],
@@ -1609,7 +1609,7 @@
           "vraag": "'Er kwamen meer fietsers. Daardoor was er minder file.' Welk verband is dat?",
           "opties": [
             "Oorzaak en gevolg",
-            "Tegenstelling",
+            "Tegenstelling tussen twee feiten",
             "Vergelijking",
             "Tijd"
           ],
@@ -1692,8 +1692,8 @@
           "type": "meerkeuze",
           "vraag": "Je krijgt vier losse alinea's en moet er een tekst van maken. Waaraan zie je welke alinea de inleiding is?",
           "opties": [
-            "Ze stelt het onderwerp voor en kondigt aan waarover het zal gaan",
-            "Ze is de langste",
+            "Ze stelt het onderwerp voor en kondigt aan waarover het gaat",
+            "Ze is de langste van de vier alinea's",
             "Ze bevat de meeste cijfers",
             "Ze staat in het vet"
           ],
@@ -1704,8 +1704,8 @@
           "type": "meerkeuze",
           "vraag": "'Ten eerste is het goedkoper. Ten tweede is het sneller. Ten slotte is het gezonder.' Wat doet deze schrijver?",
           "opties": [
-            "Hij somt argumenten op in een duidelijke volgorde",
-            "Hij vertelt een verhaal",
+            "Hij somt argumenten op in volgorde",
+            "Hij vertelt een verhaal in de juiste volgorde",
             "Hij geeft instructies",
             "Hij spreekt zichzelf tegen"
           ],
@@ -1736,7 +1736,7 @@
           "opties": [
             "De zinnen hangen niet samen: er zijn geen verbanden",
             "De zinnen zijn te lang",
-            "Er staan te veel signaalwoorden in",
+            "Er staan te veel signaalwoorden in, zodat de tekst zwaar leest",
             "De spelling klopt niet"
           ],
           "antwoord": 0,
@@ -1768,8 +1768,8 @@
           "type": "meerkeuze",
           "vraag": "Je schrijft een betoog. Waar zet je je sterkste argument het best?",
           "opties": [
-            "Vooraan of helemaal achteraan, waar het opvalt",
-            "Ergens in het midden",
+            "Vooraan of achteraan, waar het opvalt",
+            "Ergens in het midden, zodat het niet te veel opvalt",
             "In een voetnoot",
             "In de titel"
           ],
@@ -1787,7 +1787,7 @@
           "vraag": "'Bovendien kost het minder.' Wat doet 'bovendien' hier?",
           "opties": [
             "Er komt nog een argument bij",
-            "Er volgt een tegenstelling",
+            "Er volgt een tegenstelling met het vorige",
             "Er volgt een besluit",
             "Er volgt een voorbeeld"
           ],
@@ -1810,8 +1810,8 @@
           "type": "meerkeuze",
           "vraag": "Waarom let je bij een luistertekst extra op signaalwoorden?",
           "opties": [
-            "Omdat je niet kan terugbladeren en ze je zeggen wat er komt",
-            "Omdat ze altijd luider uitgesproken worden",
+            "Omdat je niet kan terugbladeren en ze zeggen wat er komt",
+            "Omdat ze altijd luider en trager uitgesproken worden dan andere woorden",
             "Omdat ze de moeilijkste woorden zijn",
             "Omdat er anders geen structuur is"
           ],
@@ -1883,7 +1883,7 @@
             "Wat je verkoopt, in welke staat, en hoe men je bereikt",
             "Je hele muziekgeschiedenis",
             "Een gedicht over gitaren",
-            "De prijs van een nieuwe gitaar in de winkel"
+            "De prijs van een nieuwe gitaar in de winkel, om te tonen dat de jouwe goedkoop is"
           ],
           "antwoord": 0,
           "uitleg": "Informatie geven betekent: alles wat de ontvanger nodig heeft, en niets meer."
@@ -1977,9 +1977,9 @@
           "type": "meerkeuze",
           "vraag": "Wat doe je als je tijdens het spreken een woord niet vindt?",
           "opties": [
-            "Je omschrijft het met andere woorden en gaat verder",
+            "Je omschrijft het met andere woorden",
             "Je stopt met praten",
-            "Je herhaalt tien keer hetzelfde woord",
+            "Je herhaalt tien keer hetzelfde woord tot het je te binnen schiet",
             "Je begint helemaal opnieuw"
           ],
           "antwoord": 0,
@@ -2032,7 +2032,7 @@
           "vraag": "Je krijgt de opdracht: 'Schrijf een mail aan de sportclub om je in te schrijven.' Wat is je doel?",
           "opties": [
             "Informatie geven en vragen",
-            "Een verhaal vertellen",
+            "Een verhaal vertellen over je sport",
             "Iemand overtuigen",
             "Een gedicht schrijven"
           ],
@@ -2051,7 +2051,7 @@
           "vraag": "Je hebt je tekst af. Waarop let je bij het nalezen?",
           "opties": [
             "Of de boodschap helder, gepast, correct en vlot is",
-            "Of de tekst precies honderd woorden telt",
+            "Of de tekst precies honderd woorden telt, niet meer en niet minder",
             "Of je lievelingswoord erin staat",
             "Of er een foto bij staat"
           ],
@@ -2065,7 +2065,7 @@
             "Zien of je het juiste woord gebruikt hebt",
             "Een tikfout in een woord aanduiden",
             "Een ontbrekende letter opmerken",
-            "Een onbekend woord markeren"
+            "Een onbekend woord markeren dat niet in het woordenboek staat"
           ],
           "antwoord": 0,
           "uitleg": "'Word' in plaats van 'wordt' of 'hij ligt' in plaats van 'hij legt': dat zijn bestaande woorden, dus de controle zwijgt."
@@ -2075,7 +2075,7 @@
           "vraag": "Hoe begin je een gesprek met iemand die je niet kent?",
           "opties": [
             "Je groet, stelt jezelf voor en zegt waarvoor je komt",
-            "Je begint meteen over je probleem",
+            "Je begint meteen over je probleem, want dan verlies je geen tijd",
             "Je wacht tot de ander iets zegt",
             "Je stuurt eerst een bericht"
           ],
@@ -2161,7 +2161,7 @@
           "type": "meerkeuze",
           "vraag": "Je spreekopdracht duurt twee minuten. Hoe bereid je die voor?",
           "opties": [
-            "Met kernwoorden op een blad, niet met een volledig uitgeschreven tekst",
+            "Met kernwoorden op een blad, niet met een uitgeschreven tekst",
             "Door alles woord voor woord van buiten te leren",
             "Door niets voor te bereiden",
             "Door een tekst voor te lezen van je scherm"
@@ -2207,8 +2207,8 @@
           "type": "meerkeuze",
           "vraag": "Je schrijft een recensie van een film voor de schoolkrant. Wat hoort er zeker in?",
           "opties": [
-            "Je mening, met argumenten en voorbeelden uit de film",
-            "Het volledige verhaal, met het einde erbij",
+            "Je mening, met argumenten uit de film",
+            "Het volledige verhaal, met het einde en de verrassingen erbij",
             "Alleen een cijfer op tien",
             "De namen van alle acteurs"
           ],
@@ -2264,9 +2264,9 @@
           "type": "meerkeuze",
           "vraag": "Waarom lees je je mail nog eens na vóór je hem verstuurt?",
           "opties": [
-            "Omdat je hem niet meer kan terughalen en fouten je boodschap verzwakken",
+            "Omdat je hem niet kan terughalen en fouten je boodschap verzwakken",
             "Omdat dat verplicht is",
-            "Omdat een mail met fouten door de ontvanger vaak niet geopend wordt",
+            "Omdat een mail met fouten door de ontvanger vaak meteen gewist en niet gelezen wordt",
             "Omdat je dan meer woorden hebt"
           ],
           "antwoord": 0,
@@ -2284,7 +2284,7 @@
           "vraag": "Je stuurt een bericht naar je beste vriend en een mail naar de directeur. Wat verandert er?",
           "opties": [
             "De toon en de woordkeuze: het register",
-            "Alleen de lengte",
+            "Alleen de lengte van het filmpje verschilt",
             "Niets",
             "Alleen de spelling"
           ],
@@ -2313,8 +2313,8 @@
           "type": "meerkeuze",
           "vraag": "Wat is tussentaal?",
           "opties": [
-            "Taal die tussen dialect en standaardtaal in zit",
-            "Een taal uit een ander land",
+            "Taal tussen dialect en standaardtaal in",
+            "Een taal uit een ander land die hier gesproken wordt",
             "De taal van een vertaling",
             "Geschreven taal zonder leestekens"
           ],
@@ -2377,7 +2377,7 @@
           "vraag": "Waardoor wordt jongerentaal sterk beïnvloed?",
           "opties": [
             "Door andere talen, zoals het Engels",
-            "Door de spellingregels",
+            "Door de spellingregels die elk jaar veranderen",
             "Door het woordenboek",
             "Door de grammatica van het Latijn"
           ],
@@ -2419,7 +2419,7 @@
           "vraag": "Je typt op een forum een hele zin IN HOOFDLETTERS. Hoe komt dat over?",
           "opties": [
             "Schreeuwerig en storend",
-            "Vriendelijk",
+            "Vriendelijk en enthousiast",
             "Grappig",
             "Formeel"
           ],
@@ -2471,7 +2471,7 @@
           "vraag": "Je schrijft aan je oma die niets van computers weet, over een probleem met haar tablet. Wat doe je?",
           "opties": [
             "Je vermijdt vaktaal en legt uit in gewone woorden",
-            "Je gebruikt alle technische termen",
+            "Je gebruikt alle technische termen, zodat het correct is",
             "Je schrijft in jongerentaal",
             "Je schrijft in dialect"
           ],
@@ -2502,7 +2502,7 @@
           "vraag": "Je solliciteert per mail voor een vakantiejob. Welke aanhef kies je?",
           "opties": [
             "Geachte heer of mevrouw",
-            "Hey!",
+            "Hey, ik wou even vragen!",
             "Dag maat",
             "Hallo jullie"
           ],
@@ -2529,8 +2529,8 @@
           "type": "meerkeuze",
           "vraag": "Twee vrienden spreken onder elkaar dialect, maar schakelen over op Standaardnederlands als er iemand bijkomt die het niet begrijpt. Wat tonen ze daarmee?",
           "opties": [
-            "Dat je je taalvariëteit aanpast aan je gesprekspartner",
-            "Dat dialect fout is",
+            "Dat je je taal aanpast aan je gesprekspartner",
+            "Dat dialect fout is en je het beter niet spreekt",
             "Dat standaardtaal moeilijker is",
             "Dat ze geen dialect kennen"
           ],
@@ -2541,9 +2541,9 @@
           "type": "meerkeuze",
           "vraag": "'Ik heb mijn gsm in de auto laten liggen' tegenover 'Ik heb mijn mobieltje in de auto laten liggen'. Wat is hier aan de hand?",
           "opties": [
-            "Een verschil tussen Belgisch-Nederlands en Nederlands-Nederlands",
+            "Een verschil tussen Belgisch- en Nederlands-Nederlands",
             "Een spellingfout",
-            "Een verschil tussen dialect en standaardtaal",
+            "Een verschil tussen dialect en standaardtaal in Vlaanderen",
             "Jongerentaal"
           ],
           "antwoord": 0,
@@ -2581,7 +2581,7 @@
           "vraag": "Je geeft een spreekbeurt en kijkt de hele tijd naar je blad. Welk effect heeft dat?",
           "opties": [
             "Je publiek haakt af, want er is geen contact",
-            "Je klinkt deskundiger",
+            "Je klinkt deskundiger, want je leest alles foutloos voor",
             "Je spreekt vlotter",
             "Het maakt geen verschil"
           ],
@@ -2756,7 +2756,7 @@
           "vraag": "Wat zijn de personages van een verhaal?",
           "opties": [
             "De figuren die in het verhaal voorkomen",
-            "De plaatsen waar het verhaal speelt",
+            "De plaatsen waar het verhaal zich afspeelt",
             "De hoofdstukken",
             "De woorden die rijmen"
           ],
@@ -2768,7 +2768,7 @@
           "vraag": "Wat bedoelen we met de ruimte van een verhaal?",
           "opties": [
             "De plaats waar het verhaal zich afspeelt",
-            "De tijd die het verhaal duurt",
+            "De tijd die het verhaal duurt, van begin tot einde",
             "Het aantal bladzijden",
             "De naam van de schrijver"
           ],
@@ -2833,8 +2833,8 @@
           "type": "meerkeuze",
           "vraag": "Wat is een vergelijking in taal?",
           "opties": [
-            "Twee dingen naast elkaar zetten met 'als' of 'zoals'",
-            "Twee woorden die rijmen",
+            "Twee dingen vergelijken met 'als' of 'zoals'",
+            "Twee woorden die rijmen op het einde van een regel",
             "Een woord met twee betekenissen",
             "Een zin zonder werkwoord"
           ],
@@ -2872,8 +2872,8 @@
           "type": "meerkeuze",
           "vraag": "Waarom gebruikt een dichter rijm en ritme?",
           "opties": [
-            "Om zijn tekst te laten klinken en beter te laten hangen",
-            "Omdat dat verplicht is in een gedicht",
+            "Om de tekst te laten klinken en te laten hangen",
+            "Omdat rijm en ritme verplicht zijn in elk gedicht",
             "Om de tekst korter te maken",
             "Om moeilijke woorden te vermijden"
           ],
@@ -2885,7 +2885,7 @@
           "vraag": "Je leest een blog waarin iemand vertelt over zijn reis door Noorwegen. Wat is dat?",
           "opties": [
             "Non-fictie, verteld als een verhaal",
-            "Fictie",
+            "Fictie, want het is verteld als een verhaal",
             "Een handleiding",
             "Een recensie"
           ],
@@ -2921,7 +2921,7 @@
           "vraag": "Welke vraag helpt je om je beleving van een boek te verwoorden?",
           "opties": [
             "Waarom herken je je wel of niet in een personage?",
-            "Hoeveel bladzijden telt het boek?",
+            "Hoeveel bladzijden en hoofdstukken telt het boek?",
             "In welk jaar is het gedrukt?",
             "Wie is de uitgever?"
           ],
@@ -2963,9 +2963,9 @@
           "type": "meerkeuze",
           "vraag": "In een verhaal blijft het hoofdpersonage rustig terwijl iedereen in paniek raakt. Wat leer je daaruit over dat personage?",
           "opties": [
-            "Iets over zijn karakter, zonder dat het er letterlijk staat",
+            "Iets over zijn karakter, zonder dat het er staat",
             "Niets",
-            "Dat het verhaal fictie is",
+            "Dat het verhaal fictie is, want zo reageert niemand echt",
             "Dat het verhaal in de zomer speelt"
           ],
           "antwoord": 0,
@@ -2976,7 +2976,7 @@
           "vraag": "Een verhaal begint met de laatste gebeurtenis en vertelt daarna hoe het zover kwam. Wat doet de schrijver?",
           "opties": [
             "Hij speelt met de tijd, met een terugblik",
-            "Hij verandert de ruimte",
+            "Hij verandert de ruimte waarin het verhaal zich afspeelt",
             "Hij gebruikt beeldspraak",
             "Hij schrijft non-fictie"
           ],
@@ -3055,7 +3055,7 @@
           "vraag": "Een gedicht gebruikt korte regels, witruimte en herhaling. Waarover gaat dat?",
           "opties": [
             "Over de vorm, die de betekenis mee draagt",
-            "Over de spelling",
+            "Over de spelling van de woorden die de dichter kiest",
             "Over de spreektaal",
             "Over de bronvermelding"
           ],
@@ -3072,7 +3072,7 @@
           "type": "meerkeuze",
           "vraag": "Je vertelt op het examen over een boek. Welke uitspraak is het sterkst?",
           "opties": [
-            "Ik herkende mezelf in Sam, omdat hij ook niet durfde te zeggen wat hij dacht.",
+            "Ik herkende mezelf in Sam, omdat hij ook niet zei wat hij dacht.",
             "Het was wel oké.",
             "Ik vond het niks.",
             "Het boek telt 224 bladzijden en het heeft een harde kaft met een foto erop."
@@ -3085,7 +3085,7 @@
           "vraag": "In een verhaal verandert de ruimte van een drukke stad naar een verlaten huis. Wat doet dat met het verhaal?",
           "opties": [
             "Het verandert de sfeer en de spanning",
-            "Het verandert de spelling",
+            "Het verandert de spelling van de woorden die de schrijver kiest",
             "Het maakt het verhaal non-fictie",
             "Het verandert niets"
           ],
@@ -3113,7 +3113,7 @@
           "vraag": "Een strip vertelt veel zonder woorden. Waarmee doet hij dat?",
           "opties": [
             "Met beeld: gezichten, kaders en kleuren",
-            "Met voetnoten",
+            "Met voetnoten onderaan elke bladzijde die alles uitleggen",
             "Met tussentitels",
             "Met een inhoudstafel"
           ],
@@ -3130,8 +3130,8 @@
           "type": "meerkeuze",
           "vraag": "'Hij kreeg het op zijn heupen.' Wat doe je als je deze uitdrukking niet kent?",
           "opties": [
-            "Je leidt de betekenis af uit de situatie in de tekst",
-            "Je leest de zin letterlijk",
+            "Je leidt de betekenis af uit de situatie",
+            "Je leest de zin letterlijk en zoekt wat heupen met boosheid te maken hebben",
             "Je slaat het hoofdstuk over",
             "Je verandert de zin"
           ],
@@ -3173,7 +3173,7 @@
           "vraag": "Waarom zeggen twee lezers soms iets heel anders over hetzelfde gedicht?",
           "opties": [
             "Omdat een literaire tekst ruimte laat voor interpretatie",
-            "Omdat een van de twee zich vergist",
+            "Omdat een van de twee zich vergist en het gedicht niet begrepen heeft",
             "Omdat gedichten geen betekenis hebben",
             "Omdat het gedicht fout geschreven is"
           ],
@@ -3796,7 +3796,7 @@
             "Om een opsomming of een citaat aan te kondigen",
             "Om een zin af te sluiten",
             "Om een vraag te stellen",
-            "Om twee woorden aan elkaar te plakken"
+            "Om twee woorden aan elkaar te plakken tot één nieuw samengesteld woord"
           ],
           "antwoord": 0,
           "uitleg": "'Neem mee: je boek, je pen en je agenda.' Na de dubbele punt komt wat aangekondigd werd."
@@ -3896,8 +3896,8 @@
           "type": "meerkeuze",
           "vraag": "Waarom schrijf je 'zee-eend' met een koppelteken?",
           "opties": [
-            "Omdat er anders drie e's botsen en je het woord verkeerd leest",
-            "Omdat het twee dieren zijn",
+            "Omdat er anders drie e's botsen",
+            "Omdat het om twee dieren gaat die samen één woord vormen",
             "Omdat het een lang woord is",
             "Omdat het een eigennaam is"
           ],
@@ -4464,8 +4464,8 @@
           "type": "meerkeuze",
           "vraag": "Je hebt je tekst geschreven en de spellingcontrole meldt niets. Wat doe je?",
           "opties": [
-            "Je leest zelf na op werkwoordsvormen en op woorden die bestaan maar hier fout zijn",
-            "Je dient meteen in",
+            "Je leest zelf na op werkwoordsvormen en op bestaande woorden die hier fout zijn",
+            "Je dient meteen in, want de spellingcontrole vond niets",
             "Je verandert alles wat onderstreept staat",
             "Je zet er nog wat komma's bij"
           ],
@@ -4547,7 +4547,7 @@
           "vraag": "Wat doet een bijvoeglijk naamwoord?",
           "opties": [
             "Het zegt iets over een zelfstandig naamwoord",
-            "Het vervangt een naam",
+            "Het vervangt een naam, zoals 'hij' of 'zij'",
             "Het verbindt twee zinnen",
             "Het geeft een aantal aan"
           ],
@@ -4687,7 +4687,7 @@
           "vraag": "Wat doet een voegwoord?",
           "opties": [
             "Het verbindt woorden of zinnen met elkaar",
-            "Het beschrijft een zelfstandig naamwoord",
+            "Het beschrijft een zelfstandig naamwoord, zoals 'groot' of 'mooi'",
             "Het geeft een gevoel weer",
             "Het staat altijd vooraan"
           ],
@@ -4925,7 +4925,7 @@
           "vraag": "Wat is een samenstelling?",
           "opties": [
             "Een woord dat uit twee bestaande woorden bestaat",
-            "Een woord met een voorvoegsel",
+            "Een woord met een voorvoegsel zoals be-, ge- of ver-",
             "Een woord in het meervoud",
             "Een verkleinwoord"
           ],
@@ -5092,8 +5092,8 @@
           "type": "meerkeuze",
           "vraag": "In 'Deze fiets is nieuw' en 'Deze is nieuw' — wat is het verschil voor het woord 'deze'?",
           "opties": [
-            "In de eerste zin hoort het bij een naamwoord, in de tweede staat het er alleen",
-            "In de eerste zin is het een lidwoord",
+            "In de eerste zin hoort het bij een naamwoord, in de tweede niet",
+            "In de eerste zin is het een lidwoord, in de tweede een aanwijzend voornaamwoord",
             "In de tweede zin is het een werkwoord",
             "Er is geen verschil"
           ],
@@ -5189,9 +5189,9 @@
           "type": "meerkeuze",
           "vraag": "Wat is het verschil tussen een bijvoeglijk naamwoord en een bijwoord?",
           "opties": [
-            "Een bijvoeglijk naamwoord hoort bij een zelfstandig naamwoord, een bijwoord bij een werkwoord of een hele zin",
+            "Een bijvoeglijk naamwoord hoort bij een naamwoord, een bijwoord bij een werkwoord of zin",
             "Een bijwoord is altijd korter",
-            "Een bijvoeglijk naamwoord staat altijd achteraan",
+            "Een bijvoeglijk naamwoord staat altijd achteraan in de zin, een bijwoord vooraan",
             "Er is geen verschil"
           ],
           "antwoord": 0,
@@ -5333,7 +5333,7 @@
           "type": "meerkeuze",
           "vraag": "Waarom gebruik je synoniemen in een tekst?",
           "opties": [
-            "Om je tekst levendig te maken en herhaling te vermijden",
+            "Om herhaling te vermijden",
             "Om je tekst langer te maken",
             "Omdat dat verplicht is",
             "Om moeilijker te klinken"
@@ -5346,7 +5346,7 @@
           "vraag": "'Voetbalclub' bestaat uit hoeveel woorden?",
           "opties": [
             "Drie: voet, bal en club",
-            "Twee: voetbal en club",
+            "Twee: voetbal en club, want voetbal is één woord",
             "Eén",
             "Vier"
           ],
@@ -5620,8 +5620,8 @@
           "type": "meerkeuze",
           "vraag": "In 'Wat een lawaai!' — welke woordsoort is 'wat'?",
           "opties": [
-            "Een vragend voornaamwoord, hier in een uitroep",
-            "Een lidwoord",
+            "Een vragend voornaamwoord in een uitroep",
+            "Een lidwoord dat bij 'lawaai' hoort",
             "Een voegwoord",
             "Een telwoord"
           ],
@@ -5701,10 +5701,10 @@
           "type": "meerkeuze",
           "vraag": "Waarom is het handig om de woordsoorten te kennen?",
           "opties": [
-            "Omdat je er spellingregels en zinsbouw mee kan toepassen",
+            "Omdat je er spelling en zinsbouw mee kan toepassen",
             "Omdat je dan sneller leest",
             "Omdat je dan geen woordenboek meer nodig hebt",
-            "Omdat het op het examen los gevraagd wordt"
+            "Omdat het op het examen altijd als aparte vraag gevraagd wordt"
           ],
           "antwoord": 0,
           "uitleg": "Wie ziet dat 'wordt' een werkwoord is, weet welke regel geldt. Woordsoorten zijn ondersteunende kennis, geen doel op zich."
@@ -5721,7 +5721,7 @@
           "vraag": "In 'De buurvrouw wast haar auto' — wie of wat doet er iets?",
           "opties": [
             "de buurvrouw",
-            "haar auto",
+            "haar auto, want die wordt gewassen",
             "wast",
             "haar"
           ],
@@ -5886,7 +5886,7 @@
           "vraag": "Welk zinsdeel zegt waar, wanneer of hoe iets gebeurt?",
           "opties": [
             "De bijwoordelijke bepaling",
-            "Het onderwerp",
+            "Het onderwerp, dat zegt wie of wat iets doet",
             "Het lijdend voorwerp",
             "De persoonsvorm"
           ],
@@ -6133,7 +6133,7 @@
           "vraag": "Wat is een enkelvoudige zin?",
           "opties": [
             "Een zin met één persoonsvorm",
-            "Een zin met één woord",
+            "Een zin met één woord, zoals een uitroep",
             "Een korte zin",
             "Een zin zonder komma"
           ],
@@ -6406,7 +6406,7 @@
           "vraag": "Welke zin bevat een meewerkend voorwerp?",
           "opties": [
             "Ze stuurde haar vriendin een kaartje.",
-            "Ze stuurde een kaartje.",
+            "Ze stuurde een kaartje naar haar vriendin.",
             "Ze fietste naar huis.",
             "Ze was moe."
           ],
@@ -6654,8 +6654,8 @@
           "type": "meerkeuze",
           "vraag": "Welke zinssoort is 'Zou je het raam even willen sluiten?'",
           "opties": [
-            "Een vragende zin die eigenlijk een vraag om iets te doen is",
-            "Een bevelende zin",
+            "Een vragende zin die eigenlijk om iets vraagt",
+            "Een bevelende zin, want je moet het raam sluiten",
             "Een uitroepende zin",
             "Een ontkennende zin"
           ],
@@ -6688,7 +6688,7 @@
           "vraag": "In 'De kinderen kregen van de directeur een diploma' — wat is het meewerkend voorwerp?",
           "opties": [
             "Er is er geen; 'van de directeur' is een bepaling",
-            "van de directeur",
+            "van de directeur, want hij geeft het diploma",
             "een diploma",
             "de kinderen"
           ],
@@ -6734,8 +6734,8 @@
           "type": "meerkeuze",
           "vraag": "Waarom is 'De regering hebben een beslissing genomen' fout?",
           "opties": [
-            "'De regering' is enkelvoud, dus moet het 'heeft' zijn",
-            "'Beslissing' moet in het meervoud",
+            "'De regering' is enkelvoud, dus 'heeft'",
+            "'Beslissing' moet in het meervoud, want een regering neemt er veel",
             "'Genomen' is fout gespeld",
             "Er ontbreekt een komma"
           ],
@@ -6846,8 +6846,8 @@
           "type": "meerkeuze",
           "vraag": "Waarom helpt zinsontleding je bij het schrijven?",
           "opties": [
-            "Omdat je er lange zinnen mee kan controleren op congruentie en samenhang",
-            "Omdat je dan mooiere woorden kiest",
+            "Omdat je er lange zinnen mee kan nakijken op samenhang",
+            "Omdat je dan mooiere en moeilijkere woorden kiest",
             "Omdat je dan sneller typt",
             "Omdat het op het examen apart getest wordt"
           ],

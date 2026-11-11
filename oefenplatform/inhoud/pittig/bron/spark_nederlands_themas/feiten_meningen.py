@@ -43,7 +43,7 @@ VRAGEN = [
         type="meerkeuze",
         vraag="Een artikel over de prijs van schoolmateriaal heeft een auteur, verschijnt bij een bekende krant en noemt zijn bronnen. Het is wel van 2009. Je zoekt de prijzen van nu. Wat besluit je?",
         opties=[
-            "Het kan betrouwbaar zijn, maar de prijzen zijn waarschijnlijk verouderd.",
+            "Het kan betrouwbaar zijn, maar de prijzen zijn wellicht verouderd.",
             "Het is onbetrouwbaar, want een oud artikel is altijd fout.",
             "Het is perfect bruikbaar, want het noemt zijn bronnen netjes.",
             "Het is nepnieuws, want het staat niet meer op de voorpagina.",
@@ -55,7 +55,7 @@ VRAGEN = [
         type="meerkeuze",
         vraag="Je maakt een opdracht over Vlaamse scholen. Je vindt een degelijk onderzoek met bron en jaartal, maar het gaat over scholen in Nederland. Wat is het juiste besluit?",
         opties=[
-            "Het onderzoek kan correct zijn en toch niet bruikbaar voor jouw opdracht.",
+            "Het onderzoek kan correct zijn en toch niet bruikbaar voor jou.",
             "Het onderzoek is onbetrouwbaar, omdat het uit een ander land komt.",
             "Je neemt de cijfers zonder meer over, want het onderzoek is degelijk.",
             "Je mag het niet gebruiken, want onderzoek is altijd een mening.",

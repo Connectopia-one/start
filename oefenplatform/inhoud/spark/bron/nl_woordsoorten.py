@@ -32,7 +32,7 @@ DEEL1 = [
         vraag="Wat doet een bijvoeglijk naamwoord?",
         opties=[
             "Het zegt iets over een zelfstandig naamwoord",
-            "Het vervangt een naam",
+            "Het vervangt een naam, zoals 'hij' of 'zij'",
             "Het verbindt twee zinnen",
             "Het geeft een aantal aan",
         ],
@@ -64,7 +64,7 @@ DEEL1 = [
         vraag="Wat doet een voegwoord?",
         opties=[
             "Het verbindt woorden of zinnen met elkaar",
-            "Het beschrijft een zelfstandig naamwoord",
+            "Het beschrijft een zelfstandig naamwoord, zoals 'groot' of 'mooi'",
             "Het geeft een gevoel weer",
             "Het staat altijd vooraan",
         ],
@@ -129,7 +129,7 @@ DEEL1 = [
         vraag="Wat is een samenstelling?",
         opties=[
             "Een woord dat uit twee bestaande woorden bestaat",
-            "Een woord met een voorvoegsel",
+            "Een woord met een voorvoegsel zoals be-, ge- of ver-",
             "Een woord in het meervoud",
             "Een verkleinwoord",
         ],
@@ -176,8 +176,8 @@ DEEL2 = [
         type="meerkeuze",
         vraag="In 'Deze fiets is nieuw' en 'Deze is nieuw' — wat is het verschil voor het woord 'deze'?",
         opties=[
-            "In de eerste zin hoort het bij een naamwoord, in de tweede staat het er alleen",
-            "In de eerste zin is het een lidwoord",
+            "In de eerste zin hoort het bij een naamwoord, in de tweede niet",
+            "In de eerste zin is het een lidwoord, in de tweede een aanwijzend voornaamwoord",
             "In de tweede zin is het een werkwoord",
             "Er is geen verschil",
         ],
@@ -202,9 +202,9 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Wat is het verschil tussen een bijvoeglijk naamwoord en een bijwoord?",
         opties=[
-            "Een bijvoeglijk naamwoord hoort bij een zelfstandig naamwoord, een bijwoord bij een werkwoord of een hele zin",
+            "Een bijvoeglijk naamwoord hoort bij een naamwoord, een bijwoord bij een werkwoord of zin",
             "Een bijwoord is altijd korter",
-            "Een bijvoeglijk naamwoord staat altijd achteraan",
+            "Een bijvoeglijk naamwoord staat altijd achteraan in de zin, een bijwoord vooraan",
             "Er is geen verschil",
         ],
         antwoord=0,
@@ -245,7 +245,7 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Waarom gebruik je synoniemen in een tekst?",
         opties=[
-            "Om je tekst levendig te maken en herhaling te vermijden",
+            "Om herhaling te vermijden",
             "Om je tekst langer te maken",
             "Omdat dat verplicht is",
             "Om moeilijker te klinken",
@@ -256,7 +256,7 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="'Voetbalclub' bestaat uit hoeveel woorden?",
-        opties=["Drie: voet, bal en club", "Twee: voetbal en club", "Eén", "Vier"],
+        opties=["Drie: voet, bal en club", "Twee: voetbal en club, want voetbal is één woord", "Eén", "Vier"],
         antwoord=0,
         uitleg="Samenstellingen kunnen uit meer dan twee delen bestaan. Voetbal is zelf al een samenstelling.",
     ),
@@ -304,8 +304,8 @@ DEEL2 = [
         type="meerkeuze",
         vraag="In 'Wat een lawaai!' — welke woordsoort is 'wat'?",
         opties=[
-            "Een vragend voornaamwoord, hier in een uitroep",
-            "Een lidwoord",
+            "Een vragend voornaamwoord in een uitroep",
+            "Een lidwoord dat bij 'lawaai' hoort",
             "Een voegwoord",
             "Een telwoord",
         ],
@@ -336,10 +336,10 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Waarom is het handig om de woordsoorten te kennen?",
         opties=[
-            "Omdat je er spellingregels en zinsbouw mee kan toepassen",
+            "Omdat je er spelling en zinsbouw mee kan toepassen",
             "Omdat je dan sneller leest",
             "Omdat je dan geen woordenboek meer nodig hebt",
-            "Omdat het op het examen los gevraagd wordt",
+            "Omdat het op het examen altijd als aparte vraag gevraagd wordt",
         ],
         antwoord=0,
         uitleg="Wie ziet dat 'wordt' een werkwoord is, weet welke regel geldt. Woordsoorten zijn ondersteunende kennis, geen doel op zich.",

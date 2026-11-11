@@ -55,8 +55,8 @@ VRAGEN = [
         vraag="'Je mag mee op uitstap, indien je toestemmingsformulier ondertekend is.' Welk verband legt 'indien'?",
         opties=[
             "Een voorwaarde",
-            "Een reden",
-            "Een gevolg",
+            "Een reden voor het sluikstorten",
+            "Een gevolg van wat ervoor staat",
             "Een toevoeging",
         ],
         antwoord=0,

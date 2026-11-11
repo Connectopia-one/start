@@ -42,7 +42,7 @@ VRAGEN = [
         type="meerkeuze",
         vraag="Een dokter zegt tegen een kind van tien: 'Je diagnose is een contusie.' Het kind begrijpt er niets van. Wat liep er mis?",
         opties=[
-            "De dokter gebruikte vakjargon tegenover iemand die het vak niet kent.",
+            "De dokter gebruikte vakjargon tegenover iemand die het niet kent.",
             "De dokter sprak dialect in plaats van Standaardnederlands.",
             "De dokter sprak tussentaal, en dat begrijpen kinderen niet.",
             "De dokter koos een te informeel register voor een patiënt.",
@@ -116,7 +116,7 @@ VRAGEN = [
         vraag="Tijdens je spreekbeurt merk je dat je klasgenoten wegkijken en onrustig worden. Wat doe je het best?",
         opties=[
             "Je kijkt hen aan en vraagt of iets niet duidelijk is.",
-            "Je praat sneller, dan ben je eerder klaar.",
+            "Je praat sneller, dan ben je eerder klaar en zijn ze weer rustig.",
             "Je leest de rest letterlijk van je blad voor.",
             "Je negeert het en gaat precies zo verder.",
         ],

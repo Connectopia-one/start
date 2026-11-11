@@ -42,8 +42,8 @@ VRAGEN = [
         type="meerkeuze",
         vraag="Een stukje uit je aardrijkskundeboek legt uit hoe een rivier een vallei uitslijt. Welke soort tekst is dat?",
         opties=[
-            "Een informatieve tekst",
-            "Een instructieve tekst, want je leert er iets uit",
+            "Een informatieve tekst over het hotel",
+            "Een instructie die uitlegt hoe je het boek moet lezen",
             "Een verhalende tekst, want het gebeurt stap voor stap",
             "Een tekst waarin de auteur zijn mening geeft",
         ],
@@ -127,7 +127,7 @@ VRAGEN = [
         type="meerkeuze",
         vraag="Waarom is een stukje uit een leerboek geen instructieve tekst, ook al leer je er veel uit?",
         opties=[
-            "Het informeert je, maar zegt je niet welke stappen je moet zetten.",
+            "Het informeert je, maar zegt niet welke stappen je moet zetten.",
             "Het staat in een boek, en instructies staan nooit in een boek.",
             "Het is te lang, want een instructie telt maar een paar regels.",
             "Het heeft geen zender, want er staat geen auteur bij vermeld.",

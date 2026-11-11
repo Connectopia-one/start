@@ -54,7 +54,7 @@ VRAGEN = [
         type="meerkeuze",
         vraag="Een verhaal begint met: 'Ik lag al drie dagen in het ziekenhuis.' Daarna vertelt de ik-figuur hoe hij van zijn fiets viel. Wat klopt?",
         opties=[
-            "De schrijver speelt met de tijd: de val wordt pas na het ziekenhuis verteld.",
+            "De schrijver speelt met de tijd: de val wordt pas later verteld.",
             "Het verhaal is waargebeurd, want het staat in de ik-vorm.",
             "De gebeurtenissen worden verteld in de volgorde waarin ze gebeurden.",
             "De ruimte is de belangrijkste bouwsteen, want het speelt in een ziekenhuis.",
@@ -106,7 +106,7 @@ VRAGEN = [
             "Hij zegt waarom, met een voorbeeld uit het boek.",
             "Hij zegt het met meer nadruk en overtuiging.",
             "Hij verandert zijn mening in een positieve.",
-            "Hij noemt hoeveel bladzijden het boek telt.",
+            "Hij noemt hoeveel bladzijden het boek telt en wie het geschreven heeft.",
         ],
         antwoord=0,
         uitleg="Je mag een boek saai vinden, zolang je uitlegt waarom. Een sterke uitspraak zegt wat je raakte of stoorde én waarom, met een voorbeeld erbij.",
@@ -128,7 +128,7 @@ VRAGEN = [
         vraag="Je schrijft een kort verhaal over een jongen op kamp. Van begin tot eind loopt alles perfect. Wat ontbreekt er?",
         opties=[
             "Een probleem dat de verhaallijn op gang brengt",
-            "Een bronnenlijst met de boeken die je las",
+            "Een bronnenlijst met de boeken die je las om het verhaal te schrijven",
             "Een tweede hoofdpersonage naast de jongen",
             "Een vergelijking met 'als' of 'zoals'",
         ],

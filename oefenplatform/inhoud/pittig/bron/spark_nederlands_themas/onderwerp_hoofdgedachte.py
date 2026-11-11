@@ -18,7 +18,7 @@ VRAGEN = [
         type="meerkeuze",
         vraag="Lees: 'Onze school wil de frisdrankautomaat weghalen. Leerlingen drinken nu gemiddeld twee blikjes per dag. Wie veel suiker drinkt, kan zich slechter concentreren. Bovendien liggen de lege blikjes overal op de speelplaats. Er komt daarom een waterfontein in de plaats.' Wat is de hoofdgedachte?",
         opties=[
-            "De automaat maakt plaats voor water, omdat frisdrank ongezond is en afval geeft.",
+            "De automaat maakt plaats voor water: frisdrank is ongezond en geeft afval.",
             "Leerlingen drinken op school gemiddeld twee blikjes frisdrank per dag.",
             "De frisdrankautomaat op school",
             "Lege blikjes liggen overal verspreid op de speelplaats van de school.",
@@ -140,7 +140,7 @@ VRAGEN = [
         type="meerkeuze",
         vraag="Tekst A zegt dat een schoolmoestuin gezond eten oplevert. Tekst B zegt dat leerlingen er leren samenwerken. Jouw vraag is: 'Wat levert een schoolmoestuin op?' Wat doe je?",
         opties=[
-            "Je neemt uit allebei wat op je vraag antwoordt en legt dat naast elkaar.",
+            "Je neemt uit allebei wat op je vraag antwoordt.",
             "Je kiest tekst A, want gezond eten is belangrijker dan samenwerken.",
             "Je besluit dat een van beide fout is, want ze zeggen iets anders.",
             "Je laat allebei de teksten vallen, want ze spreken elkaar tegen.",
@@ -152,7 +152,7 @@ VRAGEN = [
         type="meerkeuze",
         vraag="Een tekst heeft deze hoofdpunten: wie fietst, beweegt elke dag; in de ochtendspits sta je met de auto stil; een fiets kost veel minder dan brandstof. Welke zin is de beste hoofdgedachte?",
         opties=[
-            "Met de fiets naar school is gezonder, sneller en goedkoper dan met de auto.",
+            "Met de fiets naar school is gezonder, sneller en goedkoper.",
             "Fietsen naar school",
             "In de ochtendspits sta je met de auto vaak een hele tijd stil.",
             "Een auto kost per maand veel meer geld dan een gewone fiets.",

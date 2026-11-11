@@ -35,8 +35,8 @@ DEEL1 = [
         type="meerkeuze",
         vraag="Wat doet de inleiding van een tekst?",
         opties=[
-            "Ze wekt je belangstelling en zegt waarover de tekst gaat",
-            "Ze vat alles samen wat je gelezen hebt",
+            "Ze wekt je interesse en zegt waarover de tekst gaat",
+            "Ze vat alles samen wat je in de tekst gelezen hebt",
             "Ze geeft het laatste argument",
             "Ze somt de bronnen op",
         ],
@@ -78,7 +78,7 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Welk verband geeft het woord 'maar' aan?",
-        opties=["Een tegenstelling", "Een gevolg", "Een reden", "Een voorbeeld"],
+        opties=["Een tegenstelling", "Een gevolg van wat ervoor staat", "Een reden", "Een voorbeeld"],
         antwoord=0,
         uitleg="'Maar', 'toch' en 'hoewel' zetten twee dingen tegenover elkaar.",
     ),
@@ -106,7 +106,7 @@ DEEL1 = [
         vraag="Wat is een verwijswoord?",
         opties=[
             "Een woord dat terugverwijst naar iets dat al genoemd is",
-            "Een woord dat een tegenstelling aankondigt",
+            "Een woord dat een tegenstelling aankondigt, zoals 'maar' of 'toch'",
             "Een woord met een hoofdletter",
             "Een woord uit een andere taal",
         ],
@@ -182,7 +182,7 @@ DEEL1 = [
         vraag="Waarom gebruikt een instructie vaak 'ten eerste, ten tweede, ten slotte'?",
         opties=[
             "Omdat de volgorde van de stappen belangrijk is",
-            "Omdat het mooi staat",
+            "Omdat het mooi staat en de tekst er verzorgd uitziet",
             "Omdat instructies altijd lang zijn",
             "Omdat dat verplicht is",
         ],
@@ -195,14 +195,14 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="'De gemeente plaatste camera's. Toch bleef het sluikstorten doorgaan.' Welk verband leggen die zinnen?",
-        opties=["Een tegenstelling", "Een reden", "Een opsomming", "Een voorbeeld"],
+        opties=["Een tegenstelling", "Een reden voor het sluikstorten", "Een opsomming", "Een voorbeeld"],
         antwoord=0,
         uitleg="'Toch' zegt: je zou iets anders verwachten. Dat is een tegenstelling.",
     ),
     dict(
         type="meerkeuze",
         vraag="'Er kwamen meer fietsers. Daardoor was er minder file.' Welk verband is dat?",
-        opties=["Oorzaak en gevolg", "Tegenstelling", "Vergelijking", "Tijd"],
+        opties=["Oorzaak en gevolg", "Tegenstelling tussen twee feiten", "Vergelijking", "Tijd"],
         antwoord=0,
         uitleg="'Daardoor', 'dus' en 'zodat' wijzen op een gevolg van wat ervoor staat.",
     ),
@@ -262,8 +262,8 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Je krijgt vier losse alinea's en moet er een tekst van maken. Waaraan zie je welke alinea de inleiding is?",
         opties=[
-            "Ze stelt het onderwerp voor en kondigt aan waarover het zal gaan",
-            "Ze is de langste",
+            "Ze stelt het onderwerp voor en kondigt aan waarover het gaat",
+            "Ze is de langste van de vier alinea's",
             "Ze bevat de meeste cijfers",
             "Ze staat in het vet",
         ],
@@ -274,8 +274,8 @@ DEEL2 = [
         type="meerkeuze",
         vraag="'Ten eerste is het goedkoper. Ten tweede is het sneller. Ten slotte is het gezonder.' Wat doet deze schrijver?",
         opties=[
-            "Hij somt argumenten op in een duidelijke volgorde",
-            "Hij vertelt een verhaal",
+            "Hij somt argumenten op in volgorde",
+            "Hij vertelt een verhaal in de juiste volgorde",
             "Hij geeft instructies",
             "Hij spreekt zichzelf tegen",
         ],
@@ -301,7 +301,7 @@ DEEL2 = [
         opties=[
             "De zinnen hangen niet samen: er zijn geen verbanden",
             "De zinnen zijn te lang",
-            "Er staan te veel signaalwoorden in",
+            "Er staan te veel signaalwoorden in, zodat de tekst zwaar leest",
             "De spelling klopt niet",
         ],
         antwoord=0,
@@ -329,8 +329,8 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Je schrijft een betoog. Waar zet je je sterkste argument het best?",
         opties=[
-            "Vooraan of helemaal achteraan, waar het opvalt",
-            "Ergens in het midden",
+            "Vooraan of achteraan, waar het opvalt",
+            "Ergens in het midden, zodat het niet te veel opvalt",
             "In een voetnoot",
             "In de titel",
         ],
@@ -348,7 +348,7 @@ DEEL2 = [
         vraag="'Bovendien kost het minder.' Wat doet 'bovendien' hier?",
         opties=[
             "Er komt nog een argument bij",
-            "Er volgt een tegenstelling",
+            "Er volgt een tegenstelling met het vorige",
             "Er volgt een besluit",
             "Er volgt een voorbeeld",
         ],
@@ -366,8 +366,8 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Waarom let je bij een luistertekst extra op signaalwoorden?",
         opties=[
-            "Omdat je niet kan terugbladeren en ze je zeggen wat er komt",
-            "Omdat ze altijd luider uitgesproken worden",
+            "Omdat je niet kan terugbladeren en ze zeggen wat er komt",
+            "Omdat ze altijd luider en trager uitgesproken worden dan andere woorden",
             "Omdat ze de moeilijkste woorden zijn",
             "Omdat er anders geen structuur is",
         ],

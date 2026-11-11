@@ -90,7 +90,7 @@ VRAGEN = [
         type="meerkeuze",
         vraag="De opdracht vraagt een mail van hoogstens 100 woorden. Je schrijft er 250, zonder fouten. Waarom is dat toch een probleem?",
         opties=[
-            "Je volgt de opdracht niet, en te veel tekst leidt af van je boodschap.",
+            "Je volgt de opdracht niet, en te veel tekst leidt af.",
             "Het is geen probleem, zolang alles wat je schrijft maar klopt.",
             "Een lange mail wordt nooit gelezen, hoe goed hij ook is.",
             "Het is alleen een probleem als je er spelfouten in maakt.",

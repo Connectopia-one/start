@@ -105,7 +105,7 @@ DEEL1 = [
         vraag="Waarom is het belangrijk te weten of informatie recent is?",
         opties=[
             "Omdat cijfers en afspraken snel verouderen",
-            "Omdat oude teksten altijd fout zijn",
+            "Omdat oude teksten altijd fout zijn, hoe goed ze ook geschreven zijn",
             "Omdat nieuwe teksten altijd juist zijn",
             "Omdat dat niets uitmaakt",
         ],
@@ -153,8 +153,8 @@ DEEL1 = [
         type="meerkeuze",
         vraag="Wat is een standpunt?",
         opties=[
-            "Het oordeel dat iemand inneemt over een kwestie",
-            "Een feit met een cijfer erbij",
+            "Het oordeel dat iemand heeft over een kwestie",
+            "Een feit met een cijfer erbij, zoals een percentage",
             "De titel van een tekst",
             "De eerste alinea",
         ],
@@ -181,7 +181,7 @@ DEEL1 = [
             "Een vast, te algemeen beeld van een groep mensen",
             "Een spellingregel",
             "Een tekstsoort",
-            "Een manier om een tekst in te delen",
+            "Een manier om een tekst in te delen in inleiding, kern en slot",
         ],
         antwoord=0,
         uitleg="'Wie dialect spreekt, is minder slim' is zo'n vast beeld. Het klopt niet en het is oneerlijk tegenover mensen.",
@@ -190,10 +190,10 @@ DEEL1 = [
         type="meerkeuze",
         vraag="Je leest een tekst en je twijfelt of hij klopt. Wat doe je?",
         opties=[
-            "Je zoekt dezelfde informatie bij een andere, betrouwbare bron",
+            "Je zoekt dezelfde informatie bij een andere bron",
             "Je deelt hem toch maar, voor het geval dat",
             "Je gelooft de langste versie",
-            "Je kijkt hoeveel likes hij heeft",
+            "Je kijkt hoeveel likes en reacties hij gekregen heeft",
         ],
         antwoord=0,
         uitleg="Informatie nakijken bij een tweede bron is de eenvoudigste controle. Likes zeggen niets over juistheid.",
@@ -232,7 +232,7 @@ DEEL2 = [
         vraag="In een tekst staat: 'Uit onderzoek van de KU Leuven (2025) blijkt dat 62 % van de leerlingen te weinig slaapt.' Wat maakt die zin sterk?",
         opties=[
             "Hij noemt zijn bron en het jaartal",
-            "Hij bevat een groot getal",
+            "Hij bevat een groot getal dat indruk maakt",
             "Hij staat vetgedrukt",
             "Hij is lang",
         ],
@@ -282,7 +282,7 @@ DEEL2 = [
         vraag="Iemand zegt: 'Gsm's moeten weg op school, want uit onderzoek blijkt dat leerlingen dan beter opletten.' Wat is het argument?",
         opties=[
             "Uit onderzoek blijkt dat leerlingen beter opletten",
-            "Gsm's moeten weg op school",
+            "Gsm's moeten weg op school, want dat is beter voor iedereen",
             "Onderzoek is belangrijk",
             "Leerlingen hebben gsm's",
         ],
@@ -319,7 +319,7 @@ DEEL2 = [
         vraag="Een tekst over elektrische steps komt van een fabrikant van steps. Wat doe je met de informatie?",
         opties=[
             "Je gebruikt ze, maar zoekt de nadelen elders op",
-            "Je gooit ze helemaal weg",
+            "Je gooit ze helemaal weg, want een fabrikant liegt altijd",
             "Je neemt ze zonder meer over",
             "Je kijkt alleen naar de foto's",
         ],
@@ -337,7 +337,7 @@ DEEL2 = [
         vraag="Wat is een voorbeeld van stereotypering in een tekst?",
         opties=[
             "'Zoals alle tieners hangt ook hij de hele dag aan zijn scherm.'",
-            "'Drie op de tien tieners slapen minder dan acht uur.'",
+            "'Drie op de tien tieners slapen op schooldagen minder dan acht uur.'",
             "'De school start om 8.30 uur.'",
             "'Hij fietst elke dag naar school.'",
         ],
@@ -353,7 +353,7 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Twee betrouwbare teksten spreken elkaar tegen. Wat doe je?",
-        opties=["Je kijkt naar de datum, de bronnen en wat ze precies onderzocht hebben", "Je kiest de tekst die het vlotst leest, want die is het duidelijkst", "Je kiest de tekst die jouw mening bevestigt", "Je gebruikt geen van beide"],
+        opties=["Je kijkt naar de datum, de bronnen en wat ze onderzocht hebben", "Je kiest de tekst die het vlotst leest, want die is het duidelijkst", "Je kiest de tekst die jouw mening bevestigt", "Je gebruikt geen van beide"],
         antwoord=0,
         uitleg="Vaak gaan ze over een andere periode of een andere groep. Wie kijkt naar wat er precies gemeten is, ziet het verschil.",
     ),
@@ -379,7 +379,7 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Waarom zou je een bericht niet doorsturen als je niet zeker weet of het klopt?",
-        opties=["Omdat je dan zelf helpt verspreiden wat misschien onjuist is", "Omdat doorsturen verboden is", "Omdat je het bericht daarna zelf niet meer kan terugvinden", "Omdat je dan geen likes krijgt"],
+        opties=["Omdat je dan zelf iets verspreidt wat misschien onjuist is", "Omdat doorsturen verboden is", "Omdat je het bericht daarna zelf niet meer kan terugvinden", "Omdat je dan geen likes krijgt"],
         antwoord=0,
         uitleg="Wie deelt, wordt zelf een zender. Eerst nakijken, dan pas doorsturen.",
     ),
