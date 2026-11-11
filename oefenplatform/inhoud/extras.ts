@@ -127,6 +127,7 @@ export const spellen: Spel[] = [
   { slug: "begrippenarena-wiskunde", icoon: "📐", titel: "Begrippenarena Wiskunde" },
   { slug: "begrippenarena-economie", icoon: "📊", titel: "Begrippenarena Economie" },
   { slug: "begrippenarena-aardrijkskunde", icoon: "🌋", titel: "Begrippenarena Aardrijkskunde" },
+  { slug: "begrippenarena-nederlands", icoon: "📚", titel: "Begrippenarena Nederlands" },
   { slug: "wiskunde-dimensie", icoon: "🤖", titel: "De Wiskunde-dimensie" },
   /* Prikkelarme spellen voor het lager (Kim, 9 november 2026): geen klok,
      geen geluid, geen punten, een rustige tip bij een fout. */
@@ -159,6 +160,9 @@ const zesSpellen =
 const zevenSpellenAk =
   "In zeven spellen: een quiz, memory, raad het begrip, vulkaangalgje, flitskaarten, bingo en fotoraden met echte foto's.";
 
+const zevenSpellenNl =
+  "In zeven spellen: een quiz, memory, raad het begrip, boekengalgje, flitskaarten, bingo en de zinsdelenjager, waarin je zelf het gevraagde zinsdeel aantikt.";
+
 export const spelKaarten: SpelKaart[] = [
   /* Lagere school */
   {
@@ -181,6 +185,13 @@ export const spelKaarten: SpelKaart[] = [
     niveau: "🌱 Start · 5de en 6de leerjaar",
     niveauInSpel: "start",
     tekst: `Kaartlezen, België en Europa en de wereld: van legende en windroos tot polders, oase en Europese Unie. ${zevenSpellenAk}`,
+  },
+  {
+    spel: "begrippenarena-nederlands",
+    school: "lager",
+    niveau: "🧱 Basis en 🌱 Start · 5de en 6de leerjaar",
+    niveauInSpel: "lager",
+    tekst: `De taalwoorden van de lagere school, van hoofdgedachte en persoonsvorm tot fabel en cliffhanger. ${zevenSpellenNl}`,
   },
   {
     spel: "wiskunde-dimensie",
@@ -248,6 +259,13 @@ export const spelKaarten: SpelKaart[] = [
     tekst: `Honderdzestig begrippen uit de tien leerbundels aardrijkskunde van Spark, van kaart lezen en klimaatzones tot verwering en Geopunt. ${zevenSpellenAk}`,
   },
   {
+    spel: "begrippenarena-nederlands",
+    school: "middelbaar",
+    niveau: "✨ Spark · 1ste en 2de middelbaar",
+    niveauInSpel: "spark",
+    tekst: `Honderd begrippen uit de tien leerbundels Nederlands van Spark, van tekstsoorten en signaalwoorden tot beeldspraak en zinsdelen. ${zevenSpellenNl}`,
+  },
+  {
     spel: "woordenarena-engels",
     school: "middelbaar",
     niveau: "✨ Spark · 1ste en 2de middelbaar",
@@ -268,7 +286,14 @@ export const spelKaarten: SpelKaart[] = [
     niveau: "🚀 Boost · 2de graad, doorstroom en dubbele finaliteit",
     niveauInSpel: "boost",
     tekst: `Ruim honderdtwintig begrippen, van bevolking en migratie tot mondialisering, duurzaamheid en het versterkte broeikaseffect. ${zevenSpellenAk}`,
+  },  {
+    spel: "begrippenarena-nederlands",
+    school: "middelbaar",
+    niveau: "🚀 Boost · 2de graad, doorstroom en dubbele finaliteit",
+    niveauInSpel: "boost",
+    tekst: `Ruim honderdvijfentwintig begrippen, van ruis en framing tot woordsoorten, zinsdelen, vertelperspectief en rijmschema's. ${zevenSpellenNl}`,
   },
+
   {
     spel: "begrippenarena-economie",
     school: "middelbaar",
@@ -323,7 +348,14 @@ export const spelKaarten: SpelKaart[] = [
     niveau: "🌍 Beyond · 3de graad, doorstroom en dubbele finaliteit",
     niveauInSpel: "beyond",
     tekst: `Ruim tweehonderddertig begrippen in eenentwintig hoofdstukken, van het heelal en de atmosfeer tot platentektoniek, gesteenten en ruimtelijke ordening. ${zevenSpellenAk}`,
+  },  {
+    spel: "begrippenarena-nederlands",
+    school: "middelbaar",
+    niveau: "🌍 Beyond · 3de graad, doorstroom en dubbele finaliteit",
+    niveauInSpel: "beyond",
+    tekst: `Honderdvijfenvijftig begrippen in negentien hoofdstukken, van drogredenen en stijlfiguren tot literaire stromingen, semantiek en zinsbouw. ${zevenSpellenNl}`,
   },
+
 
 ];
 

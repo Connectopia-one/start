@@ -41,6 +41,13 @@ export const nieuwTekst = {
 export const updates: Update[] = [
   {
     datum: "11 november 2026",
+    titel: "Nieuwe begrippenarena: Nederlands",
+    tekst:
+      "Bij de educatieve spellen staat nu ook een begrippenarena Nederlands, voor Basis, Start, Spark, Boost en Beyond. Je oefent de taalwoorden uit de leerbundels in met een quiz, memory, galgje, flitskaarten of bingo. Nieuw is de zinsdelenjager: je krijgt een zin en tikt zelf de persoonsvorm, het onderwerp of een ander zinsdeel aan.",
+    link: { tekst: "Naar de spellen", href: "/extras/spellen" },
+  },
+  {
+    datum: "11 november 2026",
     titel: "Nieuwe begrippenarena: aardrijkskunde",
     tekst:
       "Bij de educatieve spellen staat nu ook een begrippenarena aardrijkskunde, voor Start, Spark, Boost en Beyond. Je oefent de begrippen uit de leerbundels in met een quiz, memory, galgje, flitskaarten of bingo, alleen of met de hele klas. Nieuw is fotoraden: je ziet een echte foto van bijvoorbeeld de toendra, de polders of een vulkaan en kiest het juiste begrip.",
