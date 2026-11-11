@@ -38,7 +38,7 @@ DEEL1 = [
         vraag="Waar staan de vijf P's van duurzame ontwikkeling voor?",
         opties=[
             "Planet, People, Prosperity, Peace en Partnership",
-            "Planet, Power, Progress, Peace en Production",
+            "Planet, People, Progress, Prosperity en Participation",
             "People, Plants, Property, Peace en Policy",
             "Planet, People, Politics, Power en Production",
         ],
@@ -123,7 +123,7 @@ DEEL1 = [
         vraag="Waarom staat Partnership als een aparte P tussen de vijf?",
         opties=[
             "Geen enkel land lost deze problemen alleen op",
-            "Alleen bedrijven kunnen de doelen bereiken",
+            "Alleen bedrijven kunnen de doelen bereiken, niet de regeringen",
             "Partnership vervangt de rol van regeringen",
             "Samenwerken is enkel nodig binnen Europa",
         ],
@@ -285,7 +285,7 @@ DEEL2 = [
         vraag="Wat is het duurzame voordeel van reconversie tegenover een nieuw terrein aansnijden?",
         opties=[
             "De grond werd al gebruikt, dus er gaat geen open ruimte verloren",
-            "De grond is altijd goedkoper dan een stuk onbebouwde grond",
+            "De grond is altijd goedkoper dan een stuk onbebouwde grond aan de rand van het dorp",
             "Er zijn voor zo'n terrein nooit vergunningen voor nodig",
             "De bouwwerken duren er altijd korter dan bij nieuwbouw",
         ],
@@ -334,7 +334,7 @@ DEEL2 = [
         vraag="Waarom is bodemdegradatie een probleem voor de lange termijn?",
         opties=[
             "Herstel duurt tientallen jaren, verlies gaat in enkele seizoenen",
-            "De bodem verandert erdoor stilaan van klimaatzone",
+            "De bodem verandert erdoor stilaan van klimaatzone, van gematigd naar droog",
             "De bodem wordt er na enkele jaren sneller vruchtbaar van",
             "Ze treft enkel de bodems die in de poolstreken liggen",
         ],

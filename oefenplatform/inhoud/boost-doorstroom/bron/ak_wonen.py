@@ -122,7 +122,7 @@ DEEL1 = [
         vraag="Twee gebieden hebben dezelfde bevolkingsdichtheid, maar in het ene wonen alle mensen in drie steden en in het andere overal verspreid. Wat besluit je?",
         opties=[
             "Een gemiddelde dichtheid verbergt hoe mensen echt verspreid zitten",
-            "De dichtheid van een van de twee gebieden is verkeerd berekend",
+            "De dichtheid van een van de twee gebieden is gewoon verkeerd berekend",
             "Het gebied met de drie steden heeft een hogere dichtheid",
             "Beide gebieden hebben evenveel inwoners in totaal wonen",
         ],
@@ -165,7 +165,7 @@ DEEL1 = [
         opties=[
             "Ze liggen vaak in rivierdalen, delta's en langs kusten",
             "Ze liggen vaak in hooggebergte boven de boomgrens",
-            "Ze liggen vaak midden in de grote woestijngordels",
+            "Ze liggen vaak midden in de grote woestijngordels van de aarde",
             "Ze liggen vaak in de poolstreken rond de poolcirkel",
         ],
         antwoord=0,
@@ -266,8 +266,8 @@ DEEL2 = [
         vraag="Land A heeft een HDI van 0,92, land B een HDI van 0,48. Wat mag je daaruit besluiten?",
         opties=[
             "In land A leven mensen gemiddeld langer en gaan ze langer naar school",
-            "In land A wonen meer mensen dan in land B in totaal",
-            "In land A is de bevolkingsdichtheid hoger dan in land B",
+            "In land A wonen in totaal meer mensen dan in land B, en is de bevolking ook jonger",
+            "In land A is de bevolkingsdichtheid een stuk hoger dan in land B",
             "In land A groeit de bevolking sneller dan in land B",
         ],
         antwoord=0,
@@ -284,7 +284,7 @@ DEEL2 = [
         vraag="Waarom verschilt de ontwikkelingsgraad zo sterk tussen landen?",
         opties=[
             "Er spelen samen historische, politieke en economische oorzaken",
-            "Het hangt bijna volledig af van het klimaat van het land",
+            "Het hangt bijna volledig af van het klimaat en de neerslag in het land",
             "Het hangt bijna volledig af van de oppervlakte van het land",
             "Het verschil komt haast alleen door het aantal inwoners",
         ],

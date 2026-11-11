@@ -89,7 +89,7 @@ DEEL1 = [
         vraag="Wat is terreinkartering?",
         opties=[
             "Op het terrein zelf noteren wat je waar ziet, op een kaart",
-            "Een bestaande kaart van de gemeente natekenen op schaal",
+            "Een bestaande kaart van de gemeente natekenen op een kleinere schaal",
             "Een luchtfoto van boven het terrein laten maken",
             "De coördinaten van het terrein online opzoeken",
         ],
@@ -107,7 +107,7 @@ DEEL1 = [
         vraag="Op het examen krijg je een filmpje van een terreinoefening in plaats van echt terreinwerk. Wat moet je daarmee doen?",
         opties=[
             "De informatie eruit halen die je onderzoek nodig heeft",
-            "Het filmpje zo letterlijk mogelijk navertellen",
+            "Het filmpje zo letterlijk mogelijk navertellen, van begin tot einde",
             "De duur van het filmpje in minuten noteren",
             "De naam van de maker van het filmpje opzoeken",
         ],
@@ -125,7 +125,7 @@ DEEL1 = [
         vraag="Wat toont een systeemdenkschema in een onderzoek?",
         opties=[
             "Hoe de elementen van je onderzoek met elkaar samenhangen",
-            "In welke volgorde je de bronnen hebt geraadpleegd",
+            "In welke volgorde je de bronnen hebt geraadpleegd tijdens je onderzoek",
             "Hoeveel tijd elk onderdeel van je onderzoek kostte",
             "Welke kaartlagen het mooist naast elkaar staan",
         ],
@@ -204,7 +204,7 @@ DEEL1 = [
         vraag="Waarom is het belangrijk om bij elke bron het jaartal te noteren?",
         opties=[
             "Een verouderde kaart kan de toestand van nu verkeerd tonen",
-            "Zonder jaartal werkt de legende van de kaart niet",
+            "Zonder jaartal werkt de legende van de kaart niet meer zoals het hoort",
             "Oude bronnen mogen nooit gebruikt worden",
             "Het jaartal bepaalt de schaal van de kaart",
         ],
@@ -237,7 +237,7 @@ DEEL2 = [
         vraag="Waarvoor gebruik je de zoekbalk in Geopunt?",
         opties=[
             "Om een adres of coördinaten op de kaart te vinden",
-            "Om de legende van de kaartlaag te openen",
+            "Om de legende van de kaartlaag te openen en te lezen",
             "Om een afstand op de kaart op te meten",
             "Om een kaartlaag transparant te maken",
         ],
@@ -286,7 +286,7 @@ DEEL2 = [
         vraag="Waarom zou je een kaartlaag transparant maken?",
         opties=[
             "Om twee lagen tegelijk te kunnen vergelijken",
-            "Om de kaart sneller te laten openen",
+            "Om de kaart sneller te laten openen op een trage computer",
             "Om de legende van de laag te verbergen",
             "Om de schaal van de kaart te vergroten",
         ],

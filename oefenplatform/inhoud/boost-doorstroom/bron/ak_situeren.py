@@ -183,7 +183,7 @@ DEEL1 = [
         vraag="Waarom vraagt de examencommissie om absoluut te situeren op 1° nauwkeurig en niet nauwkeuriger?",
         opties=[
             "Eén graad is met een gewone atlas nog goed af te lezen",
-            "Nauwkeuriger meten lukt alleen met satellietbeelden",
+            "Nauwkeuriger meten lukt alleen met dure satellietbeelden",
             "Eén graad komt op elke plaats neer op één kilometer",
             "Onder één graad worden de coördinaten onbetrouwbaar",
         ],
@@ -284,7 +284,7 @@ DEEL2 = [
         vraag="Wat is een mentale kaart?",
         opties=[
             "Het beeld dat iemand in zijn hoofd heeft van een gebied",
-            "Een kaart die alleen op een scherm te bekijken is",
+            "Een kaart die alleen op een scherm te bekijken is, niet op papier",
             "Een kaart waarop enkel het reliëf ingetekend staat",
             "Een kaart die je uit je hoofd moet kunnen natekenen",
         ],
@@ -363,7 +363,7 @@ DEEL2 = [
         vraag="Je moet uitzoeken welke gemeenten last hebben van overstromingsgevaar. Welke kaartlaag kies je?",
         opties=[
             "Een thematische kaart met de overstromingsgevoelige gebieden",
-            "Een toeristische kaart met de bezienswaardigheden erop",
+            "Een toeristische kaart met de bezienswaardigheden en de wandelroutes erop",
             "Een politieke kaart met de provinciegrenzen aangeduid",
             "Een wegenkaart met alle genummerde wegen van het land",
         ],

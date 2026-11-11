@@ -167,7 +167,7 @@
           "vraag": "Waarom vraagt de examencommissie om absoluut te situeren op 1° nauwkeurig en niet nauwkeuriger?",
           "opties": [
             "Eén graad is met een gewone atlas nog goed af te lezen",
-            "Nauwkeuriger meten lukt alleen met satellietbeelden",
+            "Nauwkeuriger meten lukt alleen met dure satellietbeelden",
             "Eén graad komt op elke plaats neer op één kilometer",
             "Onder één graad worden de coördinaten onbetrouwbaar"
           ],
@@ -280,7 +280,7 @@
           "vraag": "Wat is een mentale kaart?",
           "opties": [
             "Het beeld dat iemand in zijn hoofd heeft van een gebied",
-            "Een kaart die alleen op een scherm te bekijken is",
+            "Een kaart die alleen op een scherm te bekijken is, niet op papier",
             "Een kaart waarop enkel het reliëf ingetekend staat",
             "Een kaart die je uit je hoofd moet kunnen natekenen"
           ],
@@ -365,7 +365,7 @@
           "vraag": "Je moet uitzoeken welke gemeenten last hebben van overstromingsgevaar. Welke kaartlaag kies je?",
           "opties": [
             "Een thematische kaart met de overstromingsgevoelige gebieden",
-            "Een toeristische kaart met de bezienswaardigheden erop",
+            "Een toeristische kaart met de bezienswaardigheden en de wandelroutes erop",
             "Een politieke kaart met de provinciegrenzen aangeduid",
             "Een wegenkaart met alle genummerde wegen van het land"
           ],
@@ -565,7 +565,7 @@
           "vraag": "Twee gebieden hebben dezelfde bevolkingsdichtheid, maar in het ene wonen alle mensen in drie steden en in het andere overal verspreid. Wat besluit je?",
           "opties": [
             "Een gemiddelde dichtheid verbergt hoe mensen echt verspreid zitten",
-            "De dichtheid van een van de twee gebieden is verkeerd berekend",
+            "De dichtheid van een van de twee gebieden is gewoon verkeerd berekend",
             "Het gebied met de drie steden heeft een hogere dichtheid",
             "Beide gebieden hebben evenveel inwoners in totaal wonen"
           ],
@@ -608,7 +608,7 @@
           "opties": [
             "Ze liggen vaak in rivierdalen, delta's en langs kusten",
             "Ze liggen vaak in hooggebergte boven de boomgrens",
-            "Ze liggen vaak midden in de grote woestijngordels",
+            "Ze liggen vaak midden in de grote woestijngordels van de aarde",
             "Ze liggen vaak in de poolstreken rond de poolcirkel"
           ],
           "antwoord": 0,
@@ -725,8 +725,8 @@
           "vraag": "Land A heeft een HDI van 0,92, land B een HDI van 0,48. Wat mag je daaruit besluiten?",
           "opties": [
             "In land A leven mensen gemiddeld langer en gaan ze langer naar school",
-            "In land A wonen meer mensen dan in land B in totaal",
-            "In land A is de bevolkingsdichtheid hoger dan in land B",
+            "In land A wonen in totaal meer mensen dan in land B, en is de bevolking ook jonger",
+            "In land A is de bevolkingsdichtheid een stuk hoger dan in land B",
             "In land A groeit de bevolking sneller dan in land B"
           ],
           "antwoord": 0,
@@ -743,7 +743,7 @@
           "vraag": "Waarom verschilt de ontwikkelingsgraad zo sterk tussen landen?",
           "opties": [
             "Er spelen samen historische, politieke en economische oorzaken",
-            "Het hangt bijna volledig af van het klimaat van het land",
+            "Het hangt bijna volledig af van het klimaat en de neerslag in het land",
             "Het hangt bijna volledig af van de oppervlakte van het land",
             "Het verschil komt haast alleen door het aantal inwoners"
           ],
@@ -1179,7 +1179,7 @@
           "vraag": "Wat betekent vergrijzing?",
           "opties": [
             "Het aandeel ouderen in de bevolking neemt toe",
-            "Het aantal inwoners van een land neemt af",
+            "Het aantal inwoners van een land neemt af door emigratie",
             "Het aantal geboorten per vrouw neemt toe",
             "Het aandeel mensen in de stad neemt toe"
           ],
@@ -1335,7 +1335,7 @@
           "vraag": "Een land heeft een negatief migratiesaldo en veel vertrek van jonge, opgeleide mensen. Welke gevolgen verwacht je?",
           "opties": [
             "De bevolking veroudert en er verdwijnt kennis uit het land",
-            "De bevolking verjongt en de arbeidsmarkt wordt krapper",
+            "De bevolking verjongt en de arbeidsmarkt wordt krapper voor de jongeren",
             "De bevolkingsdichtheid stijgt en de HDI stijgt mee",
             "Het geboortecijfer stijgt en de vergrijzing neemt af"
           ],
@@ -1354,8 +1354,8 @@
           "vraag": "Waarom trekken steden mensen aan?",
           "opties": [
             "Er is meer werk, onderwijs en voorzieningen bij elkaar",
-            "Er is meer open ruimte en groen per inwoner",
-            "De woningen zijn er bijna altijd goedkoper",
+            "Er is meer open ruimte en groen per inwoner dan op het platteland",
+            "De woningen zijn er bijna altijd goedkoper dan in een dorp in de buurt",
             "Er is er minder verkeer en minder lawaai"
           ],
           "antwoord": 0,
@@ -1571,7 +1571,7 @@
           "vraag": "Een bedrijf kiest voor een terrein vlak bij een snelwegafrit buiten de stad. Waarom?",
           "opties": [
             "Grond is er goedkoper en bereikbaar voor vrachtwagens",
-            "De bevolkingsdichtheid is er hoger dan in de stad",
+            "De bevolkingsdichtheid is er hoger dan in de stad zelf",
             "De werknemers wonen er allemaal op wandelafstand",
             "Er gelden daar geen regels over bodemgebruik meer"
           ],
@@ -1789,7 +1789,7 @@
           "vraag": "Je vergelijkt twee luchtfoto's van dezelfde gemeente uit 1970 en nu. Waaraan zie je verstedelijking het snelst?",
           "opties": [
             "Aan de oppervlakte die bebouwd en verhard is",
-            "Aan de kleur van de daken op de foto's",
+            "Aan de kleur van de daken op de twee luchtfoto's",
             "Aan de hoogte waarop de foto genomen is",
             "Aan het aantal wolken boven de gemeente"
           ],
@@ -1826,7 +1826,7 @@
           "vraag": "Waarom kiest een bedrijf voor dagbouw als dat kan?",
           "opties": [
             "Het is goedkoper en veiliger dan ondergronds werken",
-            "Het levert altijd zuiverder erts op dan een mijn",
+            "Het levert altijd zuiverder erts op dan een mijn onder de grond",
             "Het is beter voor het landschap dan een mijn",
             "Het mag alleen zo in landen met een hoge HDI"
           ],
@@ -1844,8 +1844,8 @@
           "vraag": "In welk land wordt veruit het meeste kobalt ontgonnen?",
           "opties": [
             "De Democratische Republiek Congo",
-            "Noorwegen",
-            "Japan",
+            "Noorwegen, met zijn grote mijnen in het hoge noorden",
+            "Japan, dat de meeste batterijen ter wereld maakt",
             "Nieuw-Zeeland"
           ],
           "antwoord": 0,
@@ -1937,7 +1937,7 @@
           "vraag": "Wat is het verschil tussen traditionele en moderne ontginning?",
           "opties": [
             "Traditioneel gebeurt met handkracht, modern met machines",
-            "Traditioneel levert altijd meer op dan modern",
+            "Traditioneel levert altijd meer op dan modern, omdat er meer mensen werken",
             "Traditioneel gebeurt boven de grond, modern eronder",
             "Traditioneel is altijd duurzamer dan modern"
           ],
@@ -1955,7 +1955,7 @@
           "vraag": "Een land met grote olievoorraden raakt in oorlog. Wat verwacht je met de productie?",
           "opties": [
             "Ze valt terug, want investeerders en werknemers vertrekken",
-            "Ze stijgt, want oorlog vraagt meer brandstof",
+            "Ze stijgt, want het leger heeft in oorlogstijd meer brandstof nodig",
             "Ze blijft gelijk, want de olie zit gewoon in de grond",
             "Ze stijgt, want de prijzen gaan bij oorlog omhoog"
           ],
@@ -2069,7 +2069,7 @@
           "vraag": "Waarom liggen de grote chemische bedrijven van ons land in en rond de haven van Antwerpen?",
           "opties": [
             "Grondstoffen komen er per schip binnen en producten weer buiten",
-            "De bodem is er het meest vruchtbaar van het land",
+            "De bodem is er het meest vruchtbaar van het land, wat de bedrijven nodig hebben",
             "Het klimaat is er milder dan in de rest van het land",
             "De bevolkingsdichtheid is er het laagst van het land"
           ],
@@ -2106,7 +2106,7 @@
           "vraag": "Wat wordt bedoeld met de-industrialisatie?",
           "opties": [
             "Industrie verdwijnt uit een streek die er sterk op draaide",
-            "Industrie breidt zich uit naar het platteland toe",
+            "Industrie breidt zich uit van de stad naar het platteland toe",
             "Industrie schakelt over op hernieuwbare energie",
             "Industrie wordt door de overheid overgenomen"
           ],
@@ -2186,7 +2186,7 @@
           "vraag": "Waaraan herken je op een kaart een gebied met zware industrie?",
           "opties": [
             "Grote bedrijventerreinen bij een haven, spoor of kanaal",
-            "Kleine winkels verspreid over de dorpskernen",
+            "Kleine winkels die verspreid liggen over de verschillende dorpskernen",
             "Grote aaneengesloten bossen zonder bebouwing",
             "Veel kleine akkers met hagen ertussen"
           ],
@@ -2298,7 +2298,7 @@
           "opties": [
             "Het is er warm en er valt veel neerslag in het groeiseizoen",
             "De bodem bestaat er vooral uit droog woestijnzand",
-            "Het reliëf is er overal hooggebergte boven de boomgrens",
+            "Het reliëf is er overal hooggebergte, ver boven de boomgrens",
             "Er is er nauwelijks arbeidskracht beschikbaar"
           ],
           "antwoord": 0,
@@ -2334,7 +2334,7 @@
           "vraag": "Waarom is de zwarte aarde van Oekraïne zo geschikt voor graanteelt?",
           "opties": [
             "Ze is heel vruchtbaar en houdt water goed vast",
-            "Ze ligt op grote hoogte in een bergketen",
+            "Ze ligt op grote hoogte in een bergketen met veel neerslag",
             "Ze bestaat bijna volledig uit los zand",
             "Ze is het hele jaar door bevroren"
           ],
@@ -2494,8 +2494,8 @@
           "vraag": "Wat wordt bedoeld met de dienstensector?",
           "opties": [
             "Werk waarbij men geen goederen maakt maar diensten levert",
-            "Werk in de landbouw en de visserij samen",
-            "Werk in de fabrieken en op bouwwerven",
+            "Werk in de landbouw en de visserij samen, zowel op het land als op zee",
+            "Werk in de fabrieken en op bouwwerven waar men iets maakt of bouwt",
             "Werk waarbij men grondstoffen ontgint"
           ],
           "antwoord": 0,
@@ -2540,7 +2540,7 @@
           "vraag": "Waarom ligt wintersporttoerisme vooral in hooggebergte?",
           "opties": [
             "Daar ligt lang genoeg sneeuw om een seizoen te draaien",
-            "Daar is de bevolkingsdichtheid het hoogst",
+            "Daar is de bevolkingsdichtheid het hoogst, dus zijn er veel klanten in de buurt",
             "Daar is de bodem het meest vruchtbaar",
             "Daar liggen de meeste luchthavens van Europa"
           ],
@@ -2664,7 +2664,7 @@
           "vraag": "Waarom liggen veel grote distributiecentra langs autosnelwegen in plaats van in de stad?",
           "opties": [
             "Grond is er goedkoper en vrachtwagens geraken er vlot weg",
-            "Klanten komen er hun bestelling liever zelf ophalen",
+            "Klanten komen er hun bestelling liever zelf ophalen met de auto",
             "De bevolkingsdichtheid is er hoger dan in de stad",
             "De grond is er vruchtbaarder dan in de stad"
           ],
@@ -2676,7 +2676,7 @@
           "vraag": "Een bron toont dat een land vooral grondstoffen uitvoert en afgewerkte producten invoert. Wat besluit je?",
           "opties": [
             "De bewerking en de winst gebeuren grotendeels elders",
-            "Het land heeft een hoge Human Development Index",
+            "Het land heeft een hoge Human Development Index (HDI)",
             "Het land heeft een groot overschot op zijn handel",
             "Het land ligt noodzakelijk in de gematigde zone"
           ],
@@ -2713,9 +2713,9 @@
           "vraag": "Wat betekent mondialisering?",
           "opties": [
             "Landen en mensen raken wereldwijd steeds meer met elkaar verweven",
-            "Landen sluiten zich steeds meer van elkaar af",
+            "Landen sluiten zich steeds meer van elkaar af en handelen minder met elkaar",
             "De wereldbevolking verhuist naar de grote steden",
-            "Elk land maakt steeds meer zijn eigen producten"
+            "Elk land maakt steeds meer zijn eigen producten en voert bijna niets meer in"
           ],
           "antwoord": 0,
           "uitleg": "Handel, geld, mensen, ideeën en informatie bewegen sneller en verder dan ooit. Wat aan de ene kant van de wereld gebeurt, wordt daardoor aan de andere kant voelbaar."
@@ -2820,7 +2820,7 @@
           "vraag": "Waarom laten bedrijven hun productie vaak in andere landen uitvoeren?",
           "opties": [
             "Lonen, belastingen en regels liggen daar vaak lager",
-            "De klanten wonen daar bijna allemaal",
+            "De klanten wonen daar bijna allemaal, dus het transport is kort",
             "Het klimaat is daar altijd gunstiger",
             "De grondstoffen liggen daar altijd in de bodem"
           ],
@@ -2854,7 +2854,7 @@
           "vraag": "Wat wordt bedoeld met outsourcing?",
           "opties": [
             "Werk uitbesteden aan een bedrijf in een ander land",
-            "Een eigen fabriek bouwen in het eigen land",
+            "Een eigen fabriek bouwen in het eigen land, dicht bij de klanten",
             "Producten invoeren uit een buurland",
             "Een bedrijf helemaal sluiten zonder vervanging"
           ],
@@ -2893,7 +2893,7 @@
           "vraag": "Welke rol speelt een zeehaven in de mondialisering?",
           "opties": [
             "Ze is een knooppunt waar wereldstromen samenkomen",
-            "Ze bepaalt de wereldprijs van de goederen",
+            "Ze bepaalt de wereldprijs van de goederen die er binnenkomen",
             "Ze vervangt het wegtransport volledig",
             "Ze beperkt de handel met andere werelddelen"
           ],
@@ -2942,7 +2942,7 @@
           "vraag": "Wat is het belangrijkste doel van de Verenigde Naties?",
           "opties": [
             "Vrede en samenwerking tussen bijna alle landen ter wereld",
-            "Een gemeenschappelijke munt voor alle lidstaten",
+            "Een gemeenschappelijke munt voor alle lidstaten, zoals de euro in Europa",
             "Een gezamenlijk leger voor Europa en Noord-Amerika",
             "Vrijhandel tussen de landen van Zuid-Amerika"
           ],
@@ -2997,9 +2997,9 @@
           "vraag": "Wat is landgrabbing?",
           "opties": [
             "Buitenlandse bedrijven of staten kopen grote stukken landbouwgrond op",
-            "Boeren voegen hun percelen samen tot grotere velden",
+            "Boeren uit eenzelfde streek voegen hun kleine percelen samen tot grotere velden",
             "Een overheid onteigent grond voor een nieuwe autoweg",
-            "Landbouwgrond wordt verkaveld voor nieuwe woningen"
+            "Landbouwgrond wordt door de gemeente verkaveld om er nieuwe woningen op te bouwen"
           ],
           "antwoord": 0,
           "uitleg": "Het gebeurt vooral in landen met een lagere ontwikkelingsgraad en zwakke eigendomsregels. Lokale boeren verliezen er soms grond die hun familie al generaties bewerkt."
@@ -3036,7 +3036,7 @@
           "vraag": "Waarom gebruiken landen handel soms als politiek drukmiddel?",
           "opties": [
             "Omdat de tegenpartij afhankelijk is van die goederen",
-            "Omdat handel geen invloed heeft op de economie",
+            "Omdat handel geen invloed heeft op de economie van het andere land",
             "Omdat invoerrechten door de VN verplicht zijn",
             "Omdat elk land al zijn eigen goederen kan maken"
           ],
@@ -3100,7 +3100,7 @@
           "opties": [
             "De lokale bevolking verliest grond die ze zelf bewerkte",
             "De grond wordt er daarna nooit meer bewerkt",
-            "Het gebeurt uitsluitend in landen met een hoge HDI",
+            "Het gebeurt uitsluitend in landen met een hoge HDI en veel vruchtbare grond",
             "Het is bij internationaal verdrag volledig verboden"
           ],
           "antwoord": 0,
@@ -3117,7 +3117,7 @@
           "vraag": "Je onderzoekt de ruimtelijke gevolgen van mondialisering in je eigen streek. Waar let je op?",
           "opties": [
             "Distributiecentra, winkelketens en leegstaande fabrieken",
-            "De geografische coördinaten van het gemeentehuis",
+            "De geografische coördinaten van het gemeentehuis en de kerk",
             "De hoogte van de hoogste heuvel van de streek",
             "De stand van de zon op de middag van de meting"
           ],
@@ -3129,7 +3129,7 @@
           "vraag": "Waarom heeft mondialisering ook een keerzijde voor de plaatselijke cultuur?",
           "opties": [
             "Het wereldwijde aanbod verdringt eigen gewoonten en talen",
-            "Landen mogen hun eigen taal niet meer gebruiken",
+            "Landen mogen hun eigen taal niet meer gebruiken in het onderwijs",
             "Elk land moet dezelfde feestdagen gaan vieren",
             "Musea worden verplicht buitenlandse kunst te tonen"
           ],
@@ -3166,7 +3166,7 @@
           "vraag": "Waar staan de vijf P's van duurzame ontwikkeling voor?",
           "opties": [
             "Planet, People, Prosperity, Peace en Partnership",
-            "Planet, Power, Progress, Peace en Production",
+            "Planet, People, Progress, Prosperity en Participation",
             "People, Plants, Property, Peace en Policy",
             "Planet, People, Politics, Power en Production"
           ],
@@ -3257,7 +3257,7 @@
           "vraag": "Waarom staat Partnership als een aparte P tussen de vijf?",
           "opties": [
             "Geen enkel land lost deze problemen alleen op",
-            "Alleen bedrijven kunnen de doelen bereiken",
+            "Alleen bedrijven kunnen de doelen bereiken, niet de regeringen",
             "Partnership vervangt de rol van regeringen",
             "Samenwerken is enkel nodig binnen Europa"
           ],
@@ -3439,7 +3439,7 @@
           "vraag": "Wat is het duurzame voordeel van reconversie tegenover een nieuw terrein aansnijden?",
           "opties": [
             "De grond werd al gebruikt, dus er gaat geen open ruimte verloren",
-            "De grond is altijd goedkoper dan een stuk onbebouwde grond",
+            "De grond is altijd goedkoper dan een stuk onbebouwde grond aan de rand van het dorp",
             "Er zijn voor zo'n terrein nooit vergunningen voor nodig",
             "De bouwwerken duren er altijd korter dan bij nieuwbouw"
           ],
@@ -3496,7 +3496,7 @@
           "vraag": "Waarom is bodemdegradatie een probleem voor de lange termijn?",
           "opties": [
             "Herstel duurt tientallen jaren, verlies gaat in enkele seizoenen",
-            "De bodem verandert erdoor stilaan van klimaatzone",
+            "De bodem verandert erdoor stilaan van klimaatzone, van gematigd naar droog",
             "De bodem wordt er na enkele jaren sneller vruchtbaar van",
             "Ze treft enkel de bodems die in de poolstreken liggen"
           ],
@@ -3686,7 +3686,7 @@
           "vraag": "Wat is de stralingsbalans van de aarde?",
           "opties": [
             "De verhouding tussen binnenkomende en uitgaande straling",
-            "De hoeveelheid zonlicht die de evenaar per dag krijgt",
+            "De hoeveelheid zonlicht die de evenaar per dag krijgt, gemeten in uren",
             "Het verschil in temperatuur tussen dag en nacht",
             "De dikte van de atmosfeer boven een bepaalde plaats"
           ],
@@ -3698,7 +3698,7 @@
           "vraag": "Wat betekent albedo?",
           "opties": [
             "Hoeveel straling een oppervlak terugkaatst",
-            "Hoeveel warmte een oppervlak vasthoudt",
+            "Hoeveel warmte een oppervlak vasthoudt tijdens de nacht",
             "Hoeveel water een bodem kan opnemen",
             "Hoeveel CO₂ er in de lucht aanwezig is"
           ],
@@ -3774,7 +3774,7 @@
           "vraag": "Waarom houden de oceanen de opwarming voorlopig af?",
           "opties": [
             "Ze nemen een groot deel van de extra warmte en CO₂ op",
-            "Ze kaatsen het zonlicht bijna volledig terug",
+            "Ze kaatsen het zonlicht bijna volledig terug naar de ruimte",
             "Ze geven zelf geen enkele warmte af aan de lucht",
             "Ze bevatten geen koolstof in opgeloste vorm"
           ],
@@ -3851,7 +3851,7 @@
           "vraag": "Waarom stijgt de zeespiegel door de opwarming?",
           "opties": [
             "Water zet uit als het warmer wordt, en landijs smelt erbij",
-            "Er valt wereldwijd meer regen dan er verdampt",
+            "Er valt wereldwijd meer regen dan er verdampt, waardoor de oceanen voller lopen",
             "De oceaanbodem komt door de warmte omhoog",
             "Rivieren voeren meer water aan dan vroeger"
           ],
@@ -3982,7 +3982,7 @@
           "vraag": "Wat betekent een terugkoppeling in het klimaatsysteem?",
           "opties": [
             "Een gevolg dat zijn eigen oorzaak versterkt of verzwakt",
-            "Een meting die achteraf wordt bijgesteld",
+            "Een meting die achteraf wordt bijgesteld omdat het meettoestel fout stond",
             "Een klimaatmodel dat naar het verleden kijkt",
             "Een afspraak tussen landen over de uitstoot"
           ],
@@ -4000,7 +4000,7 @@
           "vraag": "Je krijgt een grafiek van de CO₂-hoeveelheid in de lucht sinds 1960. Waarop let je bij het lezen?",
           "opties": [
             "De eenheid, de schaal van de assen en de gemeten periode",
-            "De kleur van de lijn en de breedte van de grafiek",
+            "De kleur van de lijn en de breedte van de grafiek op het blad",
             "De naam van de persoon die de grafiek tekende",
             "Het lettertype waarin de titel geschreven staat"
           ],
@@ -4012,9 +4012,9 @@
           "vraag": "Waarom treft de opwarming niet elk land even hard?",
           "opties": [
             "Ligging, reliëf en welvaart bepalen mee hoe kwetsbaar een land is",
-            "Alleen landen op het noordelijk halfrond warmen op",
+            "Alleen landen op het noordelijk halfrond warmen op, de andere koelen af",
             "Alleen landen langs de evenaar merken er iets van",
-            "De opwarming volgt precies de landsgrenzen op de kaart"
+            "De opwarming volgt precies de landsgrenzen op de kaart, en niet het reliëf"
           ],
           "antwoord": 0,
           "uitleg": "Een laaggelegen deltastaat met weinig middelen loopt veel meer risico dan een bergland met een hoge HDI. Wie het minst uitstootte, draagt vaak de zwaarste gevolgen."
@@ -4107,7 +4107,7 @@
           "vraag": "Wat is terreinkartering?",
           "opties": [
             "Op het terrein zelf noteren wat je waar ziet, op een kaart",
-            "Een bestaande kaart van de gemeente natekenen op schaal",
+            "Een bestaande kaart van de gemeente natekenen op een kleinere schaal",
             "Een luchtfoto van boven het terrein laten maken",
             "De coördinaten van het terrein online opzoeken"
           ],
@@ -4129,7 +4129,7 @@
           "vraag": "Op het examen krijg je een filmpje van een terreinoefening in plaats van echt terreinwerk. Wat moet je daarmee doen?",
           "opties": [
             "De informatie eruit halen die je onderzoek nodig heeft",
-            "Het filmpje zo letterlijk mogelijk navertellen",
+            "Het filmpje zo letterlijk mogelijk navertellen, van begin tot einde",
             "De duur van het filmpje in minuten noteren",
             "De naam van de maker van het filmpje opzoeken"
           ],
@@ -4147,7 +4147,7 @@
           "vraag": "Wat toont een systeemdenkschema in een onderzoek?",
           "opties": [
             "Hoe de elementen van je onderzoek met elkaar samenhangen",
-            "In welke volgorde je de bronnen hebt geraadpleegd",
+            "In welke volgorde je de bronnen hebt geraadpleegd tijdens je onderzoek",
             "Hoeveel tijd elk onderdeel van je onderzoek kostte",
             "Welke kaartlagen het mooist naast elkaar staan"
           ],
@@ -4234,7 +4234,7 @@
           "vraag": "Waarom is het belangrijk om bij elke bron het jaartal te noteren?",
           "opties": [
             "Een verouderde kaart kan de toestand van nu verkeerd tonen",
-            "Zonder jaartal werkt de legende van de kaart niet",
+            "Zonder jaartal werkt de legende van de kaart niet meer zoals het hoort",
             "Oude bronnen mogen nooit gebruikt worden",
             "Het jaartal bepaalt de schaal van de kaart"
           ],
@@ -4271,7 +4271,7 @@
           "vraag": "Waarvoor gebruik je de zoekbalk in Geopunt?",
           "opties": [
             "Om een adres of coördinaten op de kaart te vinden",
-            "Om de legende van de kaartlaag te openen",
+            "Om de legende van de kaartlaag te openen en te lezen",
             "Om een afstand op de kaart op te meten",
             "Om een kaartlaag transparant te maken"
           ],
@@ -4324,7 +4324,7 @@
           "vraag": "Waarom zou je een kaartlaag transparant maken?",
           "opties": [
             "Om twee lagen tegelijk te kunnen vergelijken",
-            "Om de kaart sneller te laten openen",
+            "Om de kaart sneller te laten openen op een trage computer",
             "Om de legende van de laag te verbergen",
             "Om de schaal van de kaart te vergroten"
           ],

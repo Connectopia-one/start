@@ -24,9 +24,9 @@ DEEL1 = [
         vraag="Wat betekent mondialisering?",
         opties=[
             "Landen en mensen raken wereldwijd steeds meer met elkaar verweven",
-            "Landen sluiten zich steeds meer van elkaar af",
+            "Landen sluiten zich steeds meer van elkaar af en handelen minder met elkaar",
             "De wereldbevolking verhuist naar de grote steden",
-            "Elk land maakt steeds meer zijn eigen producten",
+            "Elk land maakt steeds meer zijn eigen producten en voert bijna niets meer in",
         ],
         antwoord=0,
         uitleg="Handel, geld, mensen, ideeën en informatie bewegen sneller en verder dan ooit. Wat aan de ene kant van de wereld gebeurt, wordt daardoor aan de andere kant voelbaar.",
@@ -122,7 +122,7 @@ DEEL1 = [
         vraag="Waarom laten bedrijven hun productie vaak in andere landen uitvoeren?",
         opties=[
             "Lonen, belastingen en regels liggen daar vaak lager",
-            "De klanten wonen daar bijna allemaal",
+            "De klanten wonen daar bijna allemaal, dus het transport is kort",
             "Het klimaat is daar altijd gunstiger",
             "De grondstoffen liggen daar altijd in de bodem",
         ],
@@ -153,7 +153,7 @@ DEEL1 = [
         vraag="Wat wordt bedoeld met outsourcing?",
         opties=[
             "Werk uitbesteden aan een bedrijf in een ander land",
-            "Een eigen fabriek bouwen in het eigen land",
+            "Een eigen fabriek bouwen in het eigen land, dicht bij de klanten",
             "Producten invoeren uit een buurland",
             "Een bedrijf helemaal sluiten zonder vervanging",
         ],
@@ -189,7 +189,7 @@ DEEL1 = [
         vraag="Welke rol speelt een zeehaven in de mondialisering?",
         opties=[
             "Ze is een knooppunt waar wereldstromen samenkomen",
-            "Ze bepaalt de wereldprijs van de goederen",
+            "Ze bepaalt de wereldprijs van de goederen die er binnenkomen",
             "Ze vervangt het wegtransport volledig",
             "Ze beperkt de handel met andere werelddelen",
         ],
@@ -234,7 +234,7 @@ DEEL2 = [
         vraag="Wat is het belangrijkste doel van de Verenigde Naties?",
         opties=[
             "Vrede en samenwerking tussen bijna alle landen ter wereld",
-            "Een gemeenschappelijke munt voor alle lidstaten",
+            "Een gemeenschappelijke munt voor alle lidstaten, zoals de euro in Europa",
             "Een gezamenlijk leger voor Europa en Noord-Amerika",
             "Vrijhandel tussen de landen van Zuid-Amerika",
         ],
@@ -284,9 +284,9 @@ DEEL2 = [
         vraag="Wat is landgrabbing?",
         opties=[
             "Buitenlandse bedrijven of staten kopen grote stukken landbouwgrond op",
-            "Boeren voegen hun percelen samen tot grotere velden",
+            "Boeren uit eenzelfde streek voegen hun kleine percelen samen tot grotere velden",
             "Een overheid onteigent grond voor een nieuwe autoweg",
-            "Landbouwgrond wordt verkaveld voor nieuwe woningen",
+            "Landbouwgrond wordt door de gemeente verkaveld om er nieuwe woningen op te bouwen",
         ],
         antwoord=0,
         uitleg="Het gebeurt vooral in landen met een lagere ontwikkelingsgraad en zwakke eigendomsregels. Lokale boeren verliezen er soms grond die hun familie al generaties bewerkt.",
@@ -320,7 +320,7 @@ DEEL2 = [
         vraag="Waarom gebruiken landen handel soms als politiek drukmiddel?",
         opties=[
             "Omdat de tegenpartij afhankelijk is van die goederen",
-            "Omdat handel geen invloed heeft op de economie",
+            "Omdat handel geen invloed heeft op de economie van het andere land",
             "Omdat invoerrechten door de VN verplicht zijn",
             "Omdat elk land al zijn eigen goederen kan maken",
         ],
@@ -372,7 +372,7 @@ DEEL2 = [
         opties=[
             "De lokale bevolking verliest grond die ze zelf bewerkte",
             "De grond wordt er daarna nooit meer bewerkt",
-            "Het gebeurt uitsluitend in landen met een hoge HDI",
+            "Het gebeurt uitsluitend in landen met een hoge HDI en veel vruchtbare grond",
             "Het is bij internationaal verdrag volledig verboden",
         ],
         antwoord=0,
@@ -389,7 +389,7 @@ DEEL2 = [
         vraag="Je onderzoekt de ruimtelijke gevolgen van mondialisering in je eigen streek. Waar let je op?",
         opties=[
             "Distributiecentra, winkelketens en leegstaande fabrieken",
-            "De geografische coördinaten van het gemeentehuis",
+            "De geografische coördinaten van het gemeentehuis en de kerk",
             "De hoogte van de hoogste heuvel van de streek",
             "De stand van de zon op de middag van de meting",
         ],
@@ -401,7 +401,7 @@ DEEL2 = [
         vraag="Waarom heeft mondialisering ook een keerzijde voor de plaatselijke cultuur?",
         opties=[
             "Het wereldwijde aanbod verdringt eigen gewoonten en talen",
-            "Landen mogen hun eigen taal niet meer gebruiken",
+            "Landen mogen hun eigen taal niet meer gebruiken in het onderwijs",
             "Elk land moet dezelfde feestdagen gaan vieren",
             "Musea worden verplicht buitenlandse kunst te tonen",
         ],

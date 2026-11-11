@@ -39,7 +39,7 @@ DEEL1 = [
         vraag="Waarom kiest een bedrijf voor dagbouw als dat kan?",
         opties=[
             "Het is goedkoper en veiliger dan ondergronds werken",
-            "Het levert altijd zuiverder erts op dan een mijn",
+            "Het levert altijd zuiverder erts op dan een mijn onder de grond",
             "Het is beter voor het landschap dan een mijn",
             "Het mag alleen zo in landen met een hoge HDI",
         ],
@@ -57,8 +57,8 @@ DEEL1 = [
         vraag="In welk land wordt veruit het meeste kobalt ontgonnen?",
         opties=[
             "De Democratische Republiek Congo",
-            "Noorwegen",
-            "Japan",
+            "Noorwegen, met zijn grote mijnen in het hoge noorden",
+            "Japan, dat de meeste batterijen ter wereld maakt",
             "Nieuw-Zeeland",
         ],
         antwoord=0,
@@ -138,7 +138,7 @@ DEEL1 = [
         vraag="Wat is het verschil tussen traditionele en moderne ontginning?",
         opties=[
             "Traditioneel gebeurt met handkracht, modern met machines",
-            "Traditioneel levert altijd meer op dan modern",
+            "Traditioneel levert altijd meer op dan modern, omdat er meer mensen werken",
             "Traditioneel gebeurt boven de grond, modern eronder",
             "Traditioneel is altijd duurzamer dan modern",
         ],
@@ -156,7 +156,7 @@ DEEL1 = [
         vraag="Een land met grote olievoorraden raakt in oorlog. Wat verwacht je met de productie?",
         opties=[
             "Ze valt terug, want investeerders en werknemers vertrekken",
-            "Ze stijgt, want oorlog vraagt meer brandstof",
+            "Ze stijgt, want het leger heeft in oorlogstijd meer brandstof nodig",
             "Ze blijft gelijk, want de olie zit gewoon in de grond",
             "Ze stijgt, want de prijzen gaan bij oorlog omhoog",
         ],
@@ -257,7 +257,7 @@ DEEL2 = [
         vraag="Waarom liggen de grote chemische bedrijven van ons land in en rond de haven van Antwerpen?",
         opties=[
             "Grondstoffen komen er per schip binnen en producten weer buiten",
-            "De bodem is er het meest vruchtbaar van het land",
+            "De bodem is er het meest vruchtbaar van het land, wat de bedrijven nodig hebben",
             "Het klimaat is er milder dan in de rest van het land",
             "De bevolkingsdichtheid is er het laagst van het land",
         ],
@@ -289,7 +289,7 @@ DEEL2 = [
         vraag="Wat wordt bedoeld met de-industrialisatie?",
         opties=[
             "Industrie verdwijnt uit een streek die er sterk op draaide",
-            "Industrie breidt zich uit naar het platteland toe",
+            "Industrie breidt zich uit van de stad naar het platteland toe",
             "Industrie schakelt over op hernieuwbare energie",
             "Industrie wordt door de overheid overgenomen",
         ],
@@ -358,7 +358,7 @@ DEEL2 = [
         vraag="Waaraan herken je op een kaart een gebied met zware industrie?",
         opties=[
             "Grote bedrijventerreinen bij een haven, spoor of kanaal",
-            "Kleine winkels verspreid over de dorpskernen",
+            "Kleine winkels die verspreid liggen over de verschillende dorpskernen",
             "Grote aaneengesloten bossen zonder bebouwing",
             "Veel kleine akkers met hagen ertussen",
         ],

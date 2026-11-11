@@ -161,7 +161,7 @@ VERVANGINGEN.update(
             vraag="Je vergelijkt twee kaarten van de bevolkingsdichtheid van hetzelfde land. Waarop let je eerst?",
             opties=[
                 "Op het jaartal en op de klassen van de legende",
-                "Op de kleur die de kaartmaker gekozen heeft",
+                "Op de kleur die de kaartmaker voor elke klasse gekozen heeft",
                 "Op het formaat waarop de kaart afgedrukt is",
                 "Op de taal waarin de titel geschreven staat",
             ],
@@ -393,7 +393,7 @@ VERVANGINGEN.update(
             vraag="Uit een land vertrekken veel jonge, opgeleide mensen en er komen er weinig bij. Welke gevolgen verwacht je?",
             opties=[
                 "De bevolking veroudert en er verdwijnt kennis uit het land",
-                "De bevolking verjongt en de arbeidsmarkt wordt krapper",
+                "De bevolking verjongt en de arbeidsmarkt wordt krapper voor de jongeren",
                 "Het geboortecijfer stijgt en de vergrijzing neemt af",
                 "De bevolkingsdichtheid stijgt in het hele land",
             ],
@@ -544,7 +544,7 @@ VERVANGINGEN.update(
             vraag="Waarom kiest een bedrijf voor dagbouw als dat kan?",
             opties=[
                 "Het is goedkoper en veiliger dan ondergronds werken",
-                "Het levert altijd zuiverder erts op dan een mijn",
+                "Het levert altijd zuiverder erts op dan een mijn onder de grond",
                 "Het is beter voor het landschap dan een mijn",
                 "Het kan alleen in gebieden zonder bergen",
             ],
@@ -715,7 +715,7 @@ VERVANGINGEN.update(
             vraag="Wat is het belangrijkste doel van de Verenigde Naties?",
             opties=[
                 "Vrede en samenwerking tussen bijna alle landen ter wereld",
-                "Een gemeenschappelijke munt voor alle lidstaten",
+                "Een gemeenschappelijke munt voor alle lidstaten, zoals de euro in Europa",
                 "Een gezamenlijk leger voor Europa en Noord-Amerika",
                 "Een gezamenlijke markt voor Zuid-Amerika",
             ],
@@ -766,7 +766,7 @@ VERVANGINGEN.update(
             opties=[
                 "De lokale bevolking verliest grond die ze zelf bewerkte",
                 "De grond wordt er daarna nooit meer bewerkt",
-                "Het gebeurt uitsluitend in Europese landen",
+                "Het gebeurt uitsluitend in Europese landen met veel vruchtbare grond",
                 "Het is bij internationaal verdrag volledig verboden",
             ],
             antwoord=0,
@@ -811,7 +811,7 @@ VERVANGINGEN.update(
             vraag="Wat gebeurt er bij industrialisatie van een streek?",
             opties=[
                 "Er komt fabrieksactiviteit bij, met werk en met ruimtebeslag",
-                "De fabrieken verdwijnen uit de streek, met werk en al",
+                "De fabrieken verdwijnen uit de streek, met hun werk en hun arbeiders",
                 "De open ruimte in de streek neemt elk jaar toe",
                 "De landbouwbedrijven in de streek worden kleiner",
             ],
@@ -823,7 +823,7 @@ VERVANGINGEN.update(
             vraag="Wat is het duurzame voordeel van bouwen op een oud bedrijfsterrein tegenover een nieuw terrein aansnijden?",
             opties=[
                 "De grond werd al gebruikt, dus er gaat geen open ruimte verloren",
-                "De grond is altijd goedkoper dan een stuk onbebouwde grond",
+                "De grond is altijd goedkoper dan een stuk onbebouwde grond aan de rand van het dorp",
                 "Er zijn voor zo'n terrein nooit vergunningen voor nodig",
                 "De bouwwerken duren er altijd korter dan bij nieuwbouw",
             ],
@@ -942,7 +942,7 @@ VERVANGINGEN.update(
             vraag="Welk gevolg heeft de opwarming voor de gletsjers in het hooggebergte?",
             opties=[
                 "Ze krimpen, en de rivieren krijgen in de zomer minder water",
-                "Ze groeien, want er valt meer sneeuw in de winter",
+                "Ze groeien, want er valt in de winter meer sneeuw op de toppen",
                 "Ze blijven gelijk, want in de bergen is het altijd koud",
                 "Ze schuiven naar beneden, de valleien in",
             ],
@@ -968,7 +968,7 @@ VERVANGINGEN.update(
             vraag="Wat betekent een terugkoppeling in het klimaatsysteem?",
             opties=[
                 "Een gevolg dat zijn eigen oorzaak versterkt of verzwakt",
-                "Een meting die achteraf wordt bijgesteld",
+                "Een meting die achteraf wordt bijgesteld omdat het meettoestel fout stond",
                 "Een klimaatmodel dat naar het verleden kijkt",
                 "Een afspraak tussen landen over de uitstoot",
             ],
@@ -980,9 +980,9 @@ VERVANGINGEN.update(
             vraag="Waarom treft de opwarming niet elk land even hard?",
             opties=[
                 "Ligging, reliëf en welvaart bepalen mee hoe kwetsbaar een land is",
-                "Alleen landen op het noordelijk halfrond warmen op",
+                "Alleen landen op het noordelijk halfrond warmen op, de andere koelen af",
                 "Alleen landen langs de evenaar merken er iets van",
-                "De opwarming volgt precies de landsgrenzen op de kaart",
+                "De opwarming volgt precies de landsgrenzen op de kaart, en niet het reliëf",
             ],
             antwoord=0,
             uitleg="Een laaggelegen deltastaat met weinig middelen loopt veel meer risico dan een bergland dat zich kan beschermen. Wie het minst uitstootte, draagt vaak de zwaarste gevolgen.",

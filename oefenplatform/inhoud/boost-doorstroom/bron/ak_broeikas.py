@@ -108,7 +108,7 @@ DEEL1 = [
         vraag="Wat is de stralingsbalans van de aarde?",
         opties=[
             "De verhouding tussen binnenkomende en uitgaande straling",
-            "De hoeveelheid zonlicht die de evenaar per dag krijgt",
+            "De hoeveelheid zonlicht die de evenaar per dag krijgt, gemeten in uren",
             "Het verschil in temperatuur tussen dag en nacht",
             "De dikte van de atmosfeer boven een bepaalde plaats",
         ],
@@ -120,7 +120,7 @@ DEEL1 = [
         vraag="Wat betekent albedo?",
         opties=[
             "Hoeveel straling een oppervlak terugkaatst",
-            "Hoeveel warmte een oppervlak vasthoudt",
+            "Hoeveel warmte een oppervlak vasthoudt tijdens de nacht",
             "Hoeveel water een bodem kan opnemen",
             "Hoeveel CO₂ er in de lucht aanwezig is",
         ],
@@ -192,7 +192,7 @@ DEEL1 = [
         vraag="Waarom houden de oceanen de opwarming voorlopig af?",
         opties=[
             "Ze nemen een groot deel van de extra warmte en CO₂ op",
-            "Ze kaatsen het zonlicht bijna volledig terug",
+            "Ze kaatsen het zonlicht bijna volledig terug naar de ruimte",
             "Ze geven zelf geen enkele warmte af aan de lucht",
             "Ze bevatten geen koolstof in opgeloste vorm",
         ],
@@ -257,7 +257,7 @@ DEEL2 = [
         vraag="Waarom stijgt de zeespiegel door de opwarming?",
         opties=[
             "Water zet uit als het warmer wordt, en landijs smelt erbij",
-            "Er valt wereldwijd meer regen dan er verdampt",
+            "Er valt wereldwijd meer regen dan er verdampt, waardoor de oceanen voller lopen",
             "De oceaanbodem komt door de warmte omhoog",
             "Rivieren voeren meer water aan dan vroeger",
         ],
@@ -373,7 +373,7 @@ DEEL2 = [
         vraag="Wat betekent een terugkoppeling in het klimaatsysteem?",
         opties=[
             "Een gevolg dat zijn eigen oorzaak versterkt of verzwakt",
-            "Een meting die achteraf wordt bijgesteld",
+            "Een meting die achteraf wordt bijgesteld omdat het meettoestel fout stond",
             "Een klimaatmodel dat naar het verleden kijkt",
             "Een afspraak tussen landen over de uitstoot",
         ],
@@ -391,7 +391,7 @@ DEEL2 = [
         vraag="Je krijgt een grafiek van de CO₂-hoeveelheid in de lucht sinds 1960. Waarop let je bij het lezen?",
         opties=[
             "De eenheid, de schaal van de assen en de gemeten periode",
-            "De kleur van de lijn en de breedte van de grafiek",
+            "De kleur van de lijn en de breedte van de grafiek op het blad",
             "De naam van de persoon die de grafiek tekende",
             "Het lettertype waarin de titel geschreven staat",
         ],
@@ -403,9 +403,9 @@ DEEL2 = [
         vraag="Waarom treft de opwarming niet elk land even hard?",
         opties=[
             "Ligging, reliëf en welvaart bepalen mee hoe kwetsbaar een land is",
-            "Alleen landen op het noordelijk halfrond warmen op",
+            "Alleen landen op het noordelijk halfrond warmen op, de andere koelen af",
             "Alleen landen langs de evenaar merken er iets van",
-            "De opwarming volgt precies de landsgrenzen op de kaart",
+            "De opwarming volgt precies de landsgrenzen op de kaart, en niet het reliëf",
         ],
         antwoord=0,
         uitleg="Een laaggelegen deltastaat met weinig middelen loopt veel meer risico dan een bergland met een hoge HDI. Wie het minst uitstootte, draagt vaak de zwaarste gevolgen.",

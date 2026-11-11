@@ -26,8 +26,8 @@ DEEL1 = [
         vraag="Waarom trekken steden mensen aan?",
         opties=[
             "Er is meer werk, onderwijs en voorzieningen bij elkaar",
-            "Er is meer open ruimte en groen per inwoner",
-            "De woningen zijn er bijna altijd goedkoper",
+            "Er is meer open ruimte en groen per inwoner dan op het platteland",
+            "De woningen zijn er bijna altijd goedkoper dan in een dorp in de buurt",
             "Er is er minder verkeer en minder lawaai",
         ],
         antwoord=0,
@@ -214,7 +214,7 @@ DEEL1 = [
         vraag="Een bedrijf kiest voor een terrein vlak bij een snelwegafrit buiten de stad. Waarom?",
         opties=[
             "Grond is er goedkoper en bereikbaar voor vrachtwagens",
-            "De bevolkingsdichtheid is er hoger dan in de stad",
+            "De bevolkingsdichtheid is er hoger dan in de stad zelf",
             "De werknemers wonen er allemaal op wandelafstand",
             "Er gelden daar geen regels over bodemgebruik meer",
         ],
@@ -408,7 +408,7 @@ DEEL2 = [
         vraag="Je vergelijkt twee luchtfoto's van dezelfde gemeente uit 1970 en nu. Waaraan zie je verstedelijking het snelst?",
         opties=[
             "Aan de oppervlakte die bebouwd en verhard is",
-            "Aan de kleur van de daken op de foto's",
+            "Aan de kleur van de daken op de twee luchtfoto's",
             "Aan de hoogte waarop de foto genomen is",
             "Aan het aantal wolken boven de gemeente",
         ],

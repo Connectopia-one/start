@@ -59,7 +59,7 @@ DEEL1 = [
         opties=[
             "Het is er warm en er valt veel neerslag in het groeiseizoen",
             "De bodem bestaat er vooral uit droog woestijnzand",
-            "Het reliëf is er overal hooggebergte boven de boomgrens",
+            "Het reliëf is er overal hooggebergte, ver boven de boomgrens",
             "Er is er nauwelijks arbeidskracht beschikbaar",
         ],
         antwoord=0,
@@ -90,7 +90,7 @@ DEEL1 = [
         vraag="Waarom is de zwarte aarde van Oekraïne zo geschikt voor graanteelt?",
         opties=[
             "Ze is heel vruchtbaar en houdt water goed vast",
-            "Ze ligt op grote hoogte in een bergketen",
+            "Ze ligt op grote hoogte in een bergketen met veel neerslag",
             "Ze bestaat bijna volledig uit los zand",
             "Ze is het hele jaar door bevroren",
         ],
@@ -229,8 +229,8 @@ DEEL2 = [
         vraag="Wat wordt bedoeld met de dienstensector?",
         opties=[
             "Werk waarbij men geen goederen maakt maar diensten levert",
-            "Werk in de landbouw en de visserij samen",
-            "Werk in de fabrieken en op bouwwerven",
+            "Werk in de landbouw en de visserij samen, zowel op het land als op zee",
+            "Werk in de fabrieken en op bouwwerven waar men iets maakt of bouwt",
             "Werk waarbij men grondstoffen ontgint",
         ],
         antwoord=0,
@@ -272,7 +272,7 @@ DEEL2 = [
         vraag="Waarom ligt wintersporttoerisme vooral in hooggebergte?",
         opties=[
             "Daar ligt lang genoeg sneeuw om een seizoen te draaien",
-            "Daar is de bevolkingsdichtheid het hoogst",
+            "Daar is de bevolkingsdichtheid het hoogst, dus zijn er veel klanten in de buurt",
             "Daar is de bodem het meest vruchtbaar",
             "Daar liggen de meeste luchthavens van Europa",
         ],
@@ -382,7 +382,7 @@ DEEL2 = [
         vraag="Waarom liggen veel grote distributiecentra langs autosnelwegen in plaats van in de stad?",
         opties=[
             "Grond is er goedkoper en vrachtwagens geraken er vlot weg",
-            "Klanten komen er hun bestelling liever zelf ophalen",
+            "Klanten komen er hun bestelling liever zelf ophalen met de auto",
             "De bevolkingsdichtheid is er hoger dan in de stad",
             "De grond is er vruchtbaarder dan in de stad",
         ],
@@ -394,7 +394,7 @@ DEEL2 = [
         vraag="Een bron toont dat een land vooral grondstoffen uitvoert en afgewerkte producten invoert. Wat besluit je?",
         opties=[
             "De bewerking en de winst gebeuren grotendeels elders",
-            "Het land heeft een hoge Human Development Index",
+            "Het land heeft een hoge Human Development Index (HDI)",
             "Het land heeft een groot overschot op zijn handel",
             "Het land ligt noodzakelijk in de gematigde zone",
         ],

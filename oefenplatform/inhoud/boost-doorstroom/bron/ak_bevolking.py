@@ -280,7 +280,7 @@ DEEL2 = [
         vraag="Wat betekent vergrijzing?",
         opties=[
             "Het aandeel ouderen in de bevolking neemt toe",
-            "Het aantal inwoners van een land neemt af",
+            "Het aantal inwoners van een land neemt af door emigratie",
             "Het aantal geboorten per vrouw neemt toe",
             "Het aandeel mensen in de stad neemt toe",
         ],
@@ -417,7 +417,7 @@ DEEL2 = [
         vraag="Een land heeft een negatief migratiesaldo en veel vertrek van jonge, opgeleide mensen. Welke gevolgen verwacht je?",
         opties=[
             "De bevolking veroudert en er verdwijnt kennis uit het land",
-            "De bevolking verjongt en de arbeidsmarkt wordt krapper",
+            "De bevolking verjongt en de arbeidsmarkt wordt krapper voor de jongeren",
             "De bevolkingsdichtheid stijgt en de HDI stijgt mee",
             "Het geboortecijfer stijgt en de vergrijzing neemt af",
         ],
