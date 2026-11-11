@@ -31,7 +31,7 @@ DEEL1 = [
         vraag="Wat wordt bedoeld met interne oorzaken van de Germaanse migraties?",
         opties=[
             "redenen binnen de Germaanse samenlevingen zelf, zoals bevolkingsgroei en gebrek aan landbouwgrond",
-            "oorlogen die binnen het Romeinse Rijk gevoerd werden tussen keizers en tegenkeizers onderling",
+            "oorlogen die binnen het Romeinse Rijk zelf gevoerd werden tussen de keizers en de tegenkeizers onderling",
             "de verplaatsing van de hoofdstad van het Romeinse Rijk van Rome naar Constantinopel",
             "beslissingen van de Romeinse keizer over wie er binnen de grenzen mocht komen wonen",
         ],
@@ -105,7 +105,7 @@ DEEL1 = [
         opties=[
             "langs de benedenloop van de Rijn",
             "in Noord-Afrika",
-            "op het Iberisch schiereiland",
+            "op het Iberisch schiereiland, ten zuiden van de Pyreneeën",
             "in Zuid-Italië",
         ],
         antwoord=0,
@@ -140,7 +140,7 @@ DEEL1 = [
         vraag="Wat houdt het Frankische erfrecht in?",
         opties=[
             "het rijk wordt bij de dood van de koning onder zijn zonen verdeeld",
-            "de oudste zoon erft het hele rijk, zijn broers krijgen niets",
+            "de oudste zoon erft het hele rijk, zijn jongere broers krijgen helemaal niets",
             "de adel kiest na elke koning zelf wie de volgende wordt",
             "het rijk gaat bij de dood van de koning naar de Kerk over",
         ],
@@ -183,7 +183,7 @@ DEEL1 = [
         opties=[
             "de hoogste ambtenaar aan het hof, die in naam van de koning bestuurde",
             "de bisschop van de hoofdstad, die de koning moest kronen",
-            "een boer die het koninklijke domein bewerkte en de opbrengst afgaf",
+            "een boer die het koninklijke domein bewerkte en de volledige opbrengst aan de koning afgaf",
             "de aanvoerder van de troepen die de paus in Rome beschermden",
         ],
         antwoord=0,
@@ -200,7 +200,7 @@ DEEL1 = [
         vraag="Wat betekent het dat de Franken een gemengde samenleving vormden?",
         opties=[
             "Germaanse en Gallo-Romeinse gewoonten bestonden naast elkaar en vermengden zich",
-            "iedereen in het rijk sprak vanaf het begin één en dezelfde taal",
+            "iedereen in het rijk sprak vanaf het begin één en dezelfde taal, het Latijn van de kerk",
             "er woonden van elke bevolkingsgroep precies evenveel mensen in het rijk",
             "de koning was zelf half Romein en half Frank, van vaders- en moederszijde",
         ],
@@ -348,7 +348,7 @@ DEEL2 = [
         vraag="Welk gevolg hadden die invallen voor de macht in het rijk?",
         opties=[
             "de bevolking zocht bescherming bij de lokale heer, wat het centrale gezag verzwakte",
-            "de koning werd juist machtiger, omdat hij de verdediging van het hele rijk leidde",
+            "de koning werd juist machtiger, omdat hij zelf de verdediging van het hele rijk leidde",
             "de paus nam het wereldlijke bestuur van het rijk voor enkele tientallen jaren over",
             "de steden namen samen de verdediging van het hele rijk op zich, met eigen legers",
         ],
@@ -362,7 +362,7 @@ DEEL2 = [
             "onder de Karolingers werd ze eerst sterker, om daarna opnieuw te verbrokkelen",
             "ze was onder de Merovingers altijd sterker dan onder de Karolingers na hen",
             "ze bleef bij de twee geslachten precies even groot, van begin tot einde",
-            "ze was bij allebei volledig in handen van de paus, die de koning aanstelde",
+            "ze was bij allebei volledig in handen van de paus, die elke nieuwe koning zelf aanstelde",
         ],
         antwoord=0,
         uitleg="Karel de Grote bouwde een centraal bestuur uit, maar het erfrecht, de invallen en de macht van de graven ondergroeven dat weer.",
@@ -398,7 +398,7 @@ DEEL2 = [
             "omdat het antwoord afhangt van wat je onder Europa verstaat en welke bronnen je kiest",
             "omdat er over Karel de Grote zelf geen enkele geschreven bron bewaard gebleven is",
             "omdat niemand vandaag nog met zekerheid weet in welke eeuw hij geleefd heeft",
-            "omdat de vraag over de toekomst van Europa gaat en niet over het verleden ervan",
+            "omdat de vraag over de toekomst van Europa gaat en helemaal niet over het verleden ervan",
         ],
         antwoord=0,
         uitleg="Zo'n vraag beantwoord je met argumenten uit bronnen, die je tegen elkaar afweegt. Er is geen enkel getal dat ze beslecht.",

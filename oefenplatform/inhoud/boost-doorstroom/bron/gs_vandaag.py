@@ -156,7 +156,7 @@ DEEL1 = [
         vraag="Waarom moet je beeldvorming met voorzichtigheid bekijken?",
         opties=[
             "omdat een beeld altijd door iemand gemaakt is, met keuzes en blinde vlekken",
-            "omdat alle historici liegen over wat er in het verleden gebeurd is",
+            "omdat alle historici zonder uitzondering liegen over wat er in het verleden gebeurd is",
             "omdat het verleden in werkelijkheid helemaal niet bestaan heeft",
             "omdat bronnen uit het verleden nooit lang genoeg bewaard blijven",
         ],
@@ -187,7 +187,7 @@ DEEL1 = [
         opties=[
             "nagaan of een uitspraak over een hele groep op meer dan enkele gevallen steunt",
             "een lange tekst korter maken zonder de inhoud ervan te veranderen",
-            "alle beschikbare bronnen samenvoegen tot één doorlopend verhaal",
+            "alle beschikbare bronnen over een onderwerp samenvoegen tot één doorlopend verhaal",
             "uit wat je gelezen hebt een besluit over iedereen samen trekken",
         ],
         antwoord=0,
@@ -381,7 +381,7 @@ DEEL2 = [
         vraag="Waarom kijk je bij een cultuuruiting ook naar de maatschappelijke context?",
         opties=[
             "die verklaart mee waarom juist dit onderwerp en deze bedoeling gekozen werden",
-            "die bepaalt het formaat waarop het werk gemaakt moest worden",
+            "die bepaalt enkel het formaat en het materiaal waarop het werk gemaakt moest worden",
             "die bepaalt de bewaarplaats waar het werk vandaag te zien is",
             "die heeft op het onderwerp en de bedoeling geen enkele invloed",
         ],
@@ -401,7 +401,7 @@ DEEL2 = [
             "dat een beeld van het verleden gemaakt is, en dat je mag vragen door wie",
             "dat het verleden op geen enkele manier gekend kan worden",
             "dat alle bronnen uit het verleden liegen over wat er gebeurd is",
-            "dat enkel de jaartallen tellen en al de rest bijzaak is",
+            "dat enkel de jaartallen echt tellen en dat al de rest van het verhaal bijzaak is",
         ],
         antwoord=0,
         uitleg="Niet alles is even waar, en niet niets is kenbaar. Maar wat je te horen krijgt, komt altijd ergens vandaan.",

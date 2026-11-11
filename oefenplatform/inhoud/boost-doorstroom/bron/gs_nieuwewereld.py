@@ -47,7 +47,7 @@ DEEL1 = [
             "het astrolabium",
             "het kompas",
             "de zandloper",
-            "het roer",
+            "het roer achteraan het schip",
         ],
         antwoord=0,
         uitleg="Je meet er de hoogte van de zon of van een ster mee. Het kompas geeft enkel de richting aan, de zandloper enkel de tijd.",
@@ -332,7 +332,7 @@ DEEL2 = [
         vraag="Wat is het vruchtwisselstelsel?",
         opties=[
             "elk jaar een ander gewas op hetzelfde veld, zodat er geen braakland meer nodig is",
-            "elk jaar een derde van alle grond laten rusten, zodat de bodem kan herstellen",
+            "elk jaar een derde van alle akkergrond braak laten liggen, zodat de bodem kan herstellen",
             "elk jaar precies hetzelfde gewas zaaien, zodat de boer er ervaring mee opbouwt",
             "elk jaar de velden een tijd onder water zetten om het onkruid te verdrijven",
         ],

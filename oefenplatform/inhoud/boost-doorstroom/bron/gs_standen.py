@@ -18,7 +18,7 @@ DEEL1 = [
             "de geestelijkheid, de adel en de derde stand",
             "de koningen, de ridders en de boeren",
             "de rijken, de middenstand en de armen",
-            "de vrijen, de horigen en de slaven",
+            "de vrije burgers, de horige boeren en de slaven",
         ],
         antwoord=0,
         uitleg="Wie bidt, wie strijdt en wie werkt. Die driedeling is een voorstelling van de samenleving, opgeschreven door de eerste stand zelf.",
@@ -194,7 +194,7 @@ DEEL1 = [
         opties=[
             "ze is opgeschreven door geestelijken, die er zelf bovenaan in staan",
             "ze is pas in de 19de eeuw bedacht, lang na de middeleeuwen zelf",
-            "ze werd door de tijdgenoten zelf nooit geloofd of ernstig genomen",
+            "ze werd door de tijdgenoten zelf nooit echt geloofd of ernstig genomen, ook niet door de adel",
             "ze is niet in het Latijn geschreven maar in een latere volkstaal",
         ],
         antwoord=0,
@@ -258,7 +258,7 @@ DEEL2 = [
         opties=[
             "goederen en arbeid worden steeds vaker met geld betaald in plaats van in natura",
             "iedereen in de stad en op het platteland krijgt voortaan precies evenveel geld",
-            "de koning laat geen munten meer slaan en verbiedt het gebruik van muntgeld",
+            "de koning laat geen munten meer slaan en verbiedt overal in het land het gebruik van muntgeld",
             "men ruilt helemaal niets meer en iedereen maakt alles voor zichzelf alleen",
         ],
         antwoord=0,

@@ -53,7 +53,7 @@ DEEL1 = [
         opties=[
             "een primaire bron komt uit de tijd zelf, een secundaire is er later over gemaakt",
             "een primaire bron is geschreven, een secundaire is getekend of geschilderd",
-            "een primaire bron is altijd betrouwbaar, een secundaire nooit helemaal",
+            "een primaire bron is altijd betrouwbaar, een secundaire bron is dat nooit helemaal",
             "een primaire bron is kort en bondig, een secundaire lang en uitvoerig",
         ],
         antwoord=0,
@@ -102,7 +102,7 @@ DEEL1 = [
             "wie iets vertelt, doet dat vanuit zijn eigen plaats, tijd en belangen",
             "een bron mag de bewaarplaats waar ze ligt niet zomaar verlaten",
             "een bron hoort altijd bij één vaste periode en bij geen andere",
-            "een historicus mag over een onderwerp maar één standpunt innemen",
+            "een historicus mag over een onderwerp maar één standpunt innemen, en dat nooit meer wijzigen",
         ],
         antwoord=0,
         uitleg="Een Spaanse en een Nederlandse bron over Alva zijn daar het schoolvoorbeeld van. Geen van beide liegt noodzakelijk.",
@@ -120,7 +120,7 @@ DEEL1 = [
             "bepalen hoeveel de bron vandaag waard is",
             "bepalen waar en wanneer ze ontstond",
             "bepalen welke soort bron het is",
-            "bepalen voor wie ze gemaakt is",
+            "bepalen voor welk publiek de bron oorspronkelijk gemaakt is",
         ],
         antwoord=0,
         uitleg="De veilingwaarde zegt niets over het verleden. De drie andere punten vormen de context waarin alles wat volgt gelezen moet worden.",
@@ -154,7 +154,7 @@ DEEL1 = [
         vraag="Waarom zijn archeologische bronnen belangrijk voor periodes met weinig geschriften?",
         opties=[
             "ze vertellen over het dagelijkse leven van mensen die zelf niet schreven",
-            "ze zijn altijd volledig bewaard, zodat er niets van ontbreekt",
+            "ze zijn altijd volledig en ongeschonden bewaard, zodat er niets van ontbreekt",
             "ze hebben nooit enige interpretatie nodig en spreken voor zich",
             "ze dateren zichzelf, zodat je er geen onderzoek voor hoeft te doen",
         ],
@@ -172,7 +172,7 @@ DEEL1 = [
         vraag="Wat doe je in stap 3 van de bronnenanalyse?",
         opties=[
             "je interpreteert de bron: je legt uit hoe context en standplaats de inhoud bepalen",
-            "je zoekt de bron op in een archief of in een verzameling van bronnen",
+            "je zoekt de bron op in een archief, een bibliotheek of in een verzameling van bronnen",
             "je vertaalt de bron naar het Nederlands van vandaag, zin per zin",
             "je bewaart de bron op een veilige plaats zodat ze niet verloren gaat",
         ],
@@ -260,7 +260,7 @@ DEEL2 = [
         opties=[
             "uit één of enkele gevallen een besluit over het geheel trekken",
             "een lange tekst korter maken zonder de inhoud te veranderen",
-            "een bron vertalen uit de taal waarin ze geschreven werd",
+            "een bron vertalen uit de oude taal waarin ze oorspronkelijk geschreven werd",
             "een jaartal afronden naar de eeuw waarin het gevallen is",
         ],
         antwoord=0,
@@ -350,7 +350,7 @@ DEEL2 = [
         opties=[
             "een gebeurtenis of bron begrijpen vanuit de tijd waarin ze thuishoort",
             "een gebeurtenis uit het verleden in het heden van vandaag plaatsen",
-            "een bron netjes in een archief opbergen met een nummer erbij",
+            "een bron netjes in een archief opbergen, met een nummer en een korte beschrijving erbij",
             "een gebeurtenis zo nauwkeurig mogelijk in het juiste jaar dateren",
         ],
         antwoord=0,
@@ -367,7 +367,7 @@ DEEL2 = [
         vraag="Hoe formuleer je in stap 4 een antwoord op de historische vraag?",
         opties=[
             "je kiest informatie uit de bronnen en staaft je antwoord met argumenten",
-            "je vat elke bron kort samen en zet die samenvattingen onder elkaar",
+            "je vat elke bron kort samen en zet die samenvattingen dan netjes onder elkaar",
             "je kiest de bron die je het beste bevalt en schrijft die gewoon over",
             "je geeft je eigen mening zonder naar de bronnen te verwijzen",
         ],
@@ -385,7 +385,7 @@ DEEL2 = [
         vraag="Je onderzoekt hoe bloedig de Slag bij Hastings verliep. Welke bron weegt daarbij het zwaarst?",
         opties=[
             "de bronnen samen, na vergelijking en weging van hun betrouwbaarheid",
-            "het lofdicht dat een tijdgenoot op de overwinnaar geschreven heeft",
+            "het lofdicht dat een tijdgenoot kort na de slag op de overwinnaar geschreven heeft",
             "een roman over de slag, geschreven in onze eigen eeuw",
             "de bron die het hoogste aantal doden van allemaal noemt",
         ],
@@ -397,7 +397,7 @@ DEEL2 = [
         vraag="Waarom volstaat het niet om één bron te gebruiken voor een antwoord?",
         opties=[
             "elke bron is standplaatsgebonden en onvolledig, samen dekken ze elkaars blinde vlekken",
-            "één enkele bron is altijd door een latere kopiist vervalst of verminkt",
+            "één enkele bron is altijd wel door een latere kopiist vervalst of zwaar verminkt geraakt",
             "de leerkracht vraagt er nu eenmaal meer dan één voor elke opdracht",
             "één enkele bron is altijd te kort om er iets uit af te kunnen leiden",
         ],

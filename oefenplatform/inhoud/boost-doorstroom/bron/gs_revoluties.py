@@ -36,7 +36,7 @@ DEEL1 = [
         opties=[
             "wie geen vertegenwoordigers in het parlement heeft, mag er ook niet belast worden",
             "belastingen moeten in een vrije samenleving volledig worden afgeschaft",
-            "enkel de koning zelf mag belastingen heffen, en nooit een parlement",
+            "enkel de koning zelf mag belastingen heffen, en nooit een parlement dat door het volk verkozen is",
             "elke burger bepaalt zelf hoeveel belasting hij dat jaar zal betalen",
         ],
         antwoord=0,
@@ -146,7 +146,7 @@ DEEL1 = [
             "de standen met hun voorrechten maken plaats voor burgers die gelijk zijn voor de wet",
             "er komt naast de bestaande koning nog een tweede koning bij in het land",
             "de landbouw verdwijnt volledig en iedereen gaat in de nijverheid werken",
-            "de adel groeit uit tot de grootste bevolkingsgroep van het hele land",
+            "de adel groeit uit tot de grootste bevolkingsgroep van het hele land, groter dan de boeren",
         ],
         antwoord=0,
         uitleg="Ongelijkheid verdwijnt daarmee niet: rijkdom vervangt geboorte als scheidslijn. Maar de ongelijkheid staat niet langer in de wet.",
@@ -269,7 +269,7 @@ DEEL2 = [
         opties=[
             "de technieken groeiden geleidelijk, maar de manier van werken veranderde ingrijpend",
             "alles veranderde op één dag, zowel de techniek als de manier van werken",
-            "er veranderde eigenlijk niets, men deed hetzelfde werk als altijd",
+            "er veranderde eigenlijk helemaal niets, men deed in de fabriek hetzelfde werk als altijd",
             "enkel de lonen veranderden, het werk zelf bleef precies hetzelfde",
         ],
         antwoord=0,
@@ -401,7 +401,7 @@ DEEL2 = [
         vraag="Waarom spreekt men van een revolutie, ook al duurde de industrialisatie meer dan een eeuw?",
         opties=[
             "omdat de gevolgen zo diep ingrijpen dat de samenleving er een andere van wordt",
-            "omdat er in die jaren in heel Europa zwaar gevochten werd om de fabrieken",
+            "omdat er in die jaren in heel Europa zwaar en lang gevochten werd om de nieuwe fabrieken",
             "omdat er in die jaren in Groot-Brittannië een koning werd afgezet",
             "omdat het allemaal bijzonder snel ging, op enkele jaren tijd",
         ],

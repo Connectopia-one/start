@@ -20,7 +20,7 @@ DEEL1 = [
         opties=[
             "missionarissen bekeerden eerst de vorst, en daarna zijn volk",
             "elk gezin koos vrij en persoonlijk voor het nieuwe geloof",
-            "Romeinse soldaten legden het overal met geweld op",
+            "Romeinse soldaten legden het overal met geweld op, dorp na dorp",
             "het kwam mee met de handelaars uit Azië",
         ],
         antwoord=0,
@@ -37,7 +37,7 @@ DEEL1 = [
         vraag="Hoe was de katholieke Kerk in de middeleeuwen opgebouwd?",
         opties=[
             "als een piramide met de paus bovenaan, dan bisschoppen en pastoors",
-            "als een vereniging waarin elke gelovige evenveel te zeggen had",
+            "als een vereniging waarin elke gelovige, man of vrouw, evenveel te zeggen had",
             "als een aantal losse kerken zonder onderling verband",
             "als een onderdeel van het leger van de koning",
         ],
@@ -76,7 +76,7 @@ DEEL1 = [
             "een geloofsopvatting die van de leer van de Kerk afwijkt",
             "het weigeren van belastingen aan de koning",
             "het spreken van een andere taal dan het Latijn",
-            "het verlaten van je geboortedorp zonder toestemming",
+            "het verlaten van je geboortedorp zonder toestemming van je heer",
         ],
         antwoord=0,
         uitleg="Omdat geloof en samenleving samenvielen, werd afwijken van de leer ook als een aanval op de orde zelf gezien.",
@@ -104,7 +104,7 @@ DEEL1 = [
         vraag="Waarvoor diende christelijke kunst voor wie niet kon lezen?",
         opties=[
             "als een verhaal in beeld: glasramen, beelden en muurschilderingen vertelden de Bijbel",
-            "als versiering zonder verdere betekenis, enkel bedoeld om de muren op te vrolijken",
+            "als versiering zonder verdere betekenis, enkel bedoeld om de kale muren wat op te vrolijken",
             "als bewijs van de rijkdom van de bouwheer, en verder als niets anders dan dat",
             "als een geheimtaal die enkel de monniken van het klooster konden ontcijferen",
         ],
@@ -153,7 +153,7 @@ DEEL1 = [
         opties=[
             "omdat ze bij de eersten waren die met olieverf zo gedetailleerd schilderden",
             "omdat hun werk ruw en onafgewerkt is in vergelijking met wat later kwam",
-            "omdat ze enkel met houtskool tekenden en nooit met verf hebben gewerkt",
+            "omdat ze enkel met houtskool tekenden en nooit met verf of met olie hebben gewerkt",
             "omdat ze uit een primitieve samenleving kwamen zonder steden of handel",
         ],
         antwoord=0,
@@ -381,7 +381,7 @@ DEEL2 = [
             "de Franse koning regeert steeds meer alleen, de Engelse steeds meer met een parlement",
             "de Franse koning heeft een parlement naast zich, de Engelse regeert helemaal alleen",
             "ze worden allebei door de adel van hun land verkozen bij elke troonopvolging",
-            "geen van beiden heeft aan het einde van de middeleeuwen nog enige echte macht",
+            "geen van beiden heeft aan het einde van de middeleeuwen nog enige echte macht over zijn land",
         ],
         antwoord=0,
         uitleg="Die twee wegen lopen eeuwen later nog door: Frankrijk eindigt bij een absolute vorst, Engeland bij een koning die met het parlement moet rekenen.",

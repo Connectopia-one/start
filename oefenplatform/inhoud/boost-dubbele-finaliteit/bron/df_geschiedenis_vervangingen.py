@@ -26,7 +26,7 @@ VERVANGINGEN = {
         vraag="Welk product hoort bij de langeafstandshandel en niet bij de lokale handel?",
         opties=[
             "specerijen die van heel ver uit Azië worden aangevoerd",
-            "brood dat de bakker in de straat zelf gebakken heeft",
+            "brood dat de bakker in de straat zelf gebakken heeft met graan van hier",
             "groenten die de boer uit het dorp op de markt brengt",
             "brandhout dat men in het bos naast de stad gaat halen",
         ],
@@ -74,7 +74,7 @@ VERVANGINGEN = {
         vraag="Waarom was Bagdad in de middeleeuwen een kruispunt van internationale handel?",
         opties=[
             "de stad lag waar de routes tussen Azië, Afrika en Europa samenkwamen",
-            "de stad lag aan de Atlantische Oceaan en beheerste de zeeroutes",
+            "de stad lag aan de Atlantische Oceaan en beheerste zo alle zeeroutes naar het westen",
             "de stad lag midden in Europa en was er de grootste van allemaal",
             "de stad lag naast de zilvermijnen waar alle munten gemaakt werden",
         ],

@@ -23,7 +23,7 @@ DEEL1 = [
             "in de rijke Italiaanse steden",
             "aan het Franse hof",
             "in de Duitse kloosters",
-            "in de Engelse universiteiten",
+            "in de Engelse universiteiten van Oxford en Cambridge",
         ],
         antwoord=0,
         uitleg="Florence, Venetië en Rome hadden het geld, de handelscontacten en de Romeinse resten om op verder te bouwen.",
@@ -59,7 +59,7 @@ DEEL1 = [
         opties=[
             "men ging zelf waarnemen en proeven doen in plaats van oude teksten te geloven",
             "men stopte met alle onderzoek en hield zich enkel nog met kunst bezig",
-            "men baseerde zich voortaan enkel op de Bijbel en op geen enkele andere bron",
+            "men baseerde zich voortaan enkel op de Bijbel en op geen enkele andere bron of waarneming",
             "men liet de wiskunde helemaal vallen omdat ze uit de oudheid kwam",
         ],
         antwoord=0,
@@ -118,7 +118,7 @@ DEEL1 = [
         vraag="Wat leerde Luther over hoe een mens gered wordt?",
         opties=[
             "door het geloof alleen, en door de Bijbel als enige bron",
-            "door goede werken te doen en genoeg aflaten te kopen",
+            "door goede werken te doen en genoeg aflaten bij de Kerk te kopen",
             "door de paus in alles te gehoorzamen, ook in de leer",
             "door minstens één keer een verre pelgrimstocht te maken",
         ],
@@ -150,7 +150,7 @@ DEEL1 = [
         opties=[
             "in Noord-Europa: de Duitse vorstendommen, Scandinavië, Engeland, Schotland",
             "in Zuid-Europa: vooral in Spanje en Portugal, tot in hun koloniën toe",
-            "in Italië, waar het van Rome uit over het hele schiereiland uitwaaierde",
+            "in Italië, waar het van Rome uit over het hele schiereiland en de eilanden uitwaaierde",
             "in Ierland, waar het de oudste kloosters van het eiland overnam",
         ],
         antwoord=0,
@@ -191,7 +191,7 @@ DEEL1 = [
         vraag="Waarom is het humanisme een voorwaarde voor de Reformatie?",
         opties=[
             "humanisten lazen de Bijbel in de brontaal en zagen dat de vertaling niet klopte",
-            "humanisten wilden zelf een nieuwe kerk stichten naast de bestaande",
+            "humanisten wilden zelf een nieuwe kerk stichten, naast en tegenover de bestaande kerk",
             "humanisten schaften het Latijn af als taal van Kerk en geleerdheid",
             "humanisten verboden aan gewone gelovigen het lezen van de Bijbel",
         ],
@@ -248,7 +248,7 @@ DEEL2 = [
         vraag="Waarom behoort de David van Michelangelo tot de renaissance?",
         opties=[
             "het naakte lichaam is naar de natuur bestudeerd, in rustige klassieke verhoudingen",
-            "het beeld is van brons gegoten, een techniek die pas in die eeuw uitgevonden werd",
+            "het beeld is van brons gegoten, een techniek die pas in die eeuw in Florence uitgevonden werd",
             "het beeld toont een heilige met een aureool, zoals dat in die tijd hoorde",
             "het beeld is bedoeld voor een graf en toont daarom een liggende figuur",
         ],
@@ -340,7 +340,7 @@ DEEL2 = [
         opties=[
             "gebogen gevels, zuilen en veel beeldhouwwerk",
             "spitsbogen en luchtbogen",
-            "dikke muren met kleine rondboogvensters",
+            "dikke muren met kleine rondboogvensters en zware pijlers",
             "gladde betonnen vlakken",
         ],
         antwoord=0,
@@ -382,7 +382,7 @@ DEEL2 = [
         opties=[
             "de renaissance toont de wereld zoals het oog ze ziet, de middeleeuwen zoals de betekenis ze ordent",
             "de middeleeuwen kenden helemaal geen kunst, de renaissance vond ze opnieuw uit",
-            "de renaissance gebruikte geen enkel godsdienstig onderwerp, de middeleeuwen alleen maar",
+            "de renaissance gebruikte geen enkel godsdienstig onderwerp meer, de middeleeuwen bijna alleen maar",
             "de middeleeuwen werkten enkel in marmer, de renaissance enkel in hout en verf",
         ],
         antwoord=0,
@@ -401,7 +401,7 @@ DEEL2 = [
             "mens- en wereldbeeld, geloof, wetenschap en kunst veranderen alle vier tegelijk",
             "de bevolking van Europa verdween bijna volledig in de loop van die eeuwen",
             "er werd in die eeuwen niets meer gebouwd, noch kerken noch stadhuizen",
-            "het Latijn werd overal afgeschaft als taal van de Kerk en van de geleerden",
+            "het Latijn werd overal en voorgoed afgeschaft als taal van de Kerk en van de geleerden",
         ],
         antwoord=0,
         uitleg="Toch blijft veel doorlopen: de standen, de landbouw, de macht van de vorsten. Een breuk in het ene domein is nog geen breuk in alle.",
