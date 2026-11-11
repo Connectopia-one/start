@@ -34,7 +34,7 @@ VRAGEN = [
             "Het is weg, want dat geheugen heeft stroom nodig om te onthouden",
             "Het blijft staan, want dat geheugen bewaart alles zonder stroom",
             "Het wordt automatisch naar de harde schijf weggeschreven",
-            "Het blijft nog een paar uur bewaard en verdwijnt dan langzaam",
+            "Het blijft nog een paar uur bewaard en verdwijnt dan langzaam vanzelf",
         ],
         "antwoord": 0,
         "uitleg": "RAM is het werkblad van de computer: razendsnel, maar leeg zodra de stroom wegvalt. De harde schijf of SSD is de kast waar alles bewaard blijft. Daarom ben je een niet-opgeslagen tekst kwijt bij een stroompanne.",
@@ -44,7 +44,7 @@ VRAGEN = [
         "vraag": "Wat is de taak van de processor in een computer?",
         "opties": [
             "Instructies één voor één uitvoeren, miljarden keren per seconde",
-            "Alle bestanden en foto's veilig op de lange termijn bewaren",
+            "Alle bestanden en foto's veilig op de lange termijn bewaren, ook zonder stroom",
             "Het beeld naar het scherm sturen en de kleuren juist zetten",
             "De verbinding met het internet openhouden en gegevens ophalen",
         ],
@@ -86,7 +86,7 @@ VRAGEN = [
         "vraag": "Een functie die zichzelf oproept zonder stopvoorwaarde. Wat gebeurt er?",
         "opties": [
             "De stapel loopt vol en het programma valt stil met een foutmelding",
-            "Het programma blijft rustig draaien maar geeft nooit een antwoord",
+            "Het programma blijft rustig draaien maar geeft nooit een antwoord terug",
             "De computer merkt het en slaat de functie vanzelf over",
             "Het programma wordt trager maar komt er uiteindelijk toch uit",
         ],
@@ -116,7 +116,7 @@ VRAGEN = [
         "vraag": "Hoe slaat een computer de kleur van één beeldpunt meestal op?",
         "opties": [
             "Als drie getallen: hoeveel rood, hoeveel groen en hoeveel blauw",
-            "Als één getal dat naar een vaste lijst van kleurnamen verwijst",
+            "Als één getal dat naar een vaste lijst van kleurnamen in het geheugen verwijst",
             "Als de golflengte van het licht dat die kleur zou uitstralen",
             "Als een mengsel van geel, blauw en rood, zoals bij verf",
         ],
@@ -134,7 +134,7 @@ VRAGEN = [
         "vraag": "Wat doet een compiler?",
         "opties": [
             "Code die mensen schrijven omzetten naar taal die de machine snapt",
-            "Fouten in een lopend programma opsporen terwijl het draait",
+            "Fouten in een lopend programma opsporen terwijl het draait en ze melden",
             "Een programma kleiner maken zodat het minder plaats inneemt",
             "De code netjes uitlijnen zodat ze leesbaarder wordt",
         ],
@@ -176,7 +176,7 @@ VRAGEN = [
         "vraag": "Wat is een universele Turingmachine?",
         "opties": [
             "Een bedachte machine die elke andere machine kan nabootsen",
-            "De eerste computer die tijdens de oorlog echt gebouwd is",
+            "De eerste computer die tijdens de Tweede Wereldoorlog echt gebouwd is",
             "Een machine die kan beslissen of een programma ooit stopt",
             "Een test om te zien of een computer menselijk overkomt",
         ],

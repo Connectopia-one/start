@@ -37,7 +37,7 @@ VRAGEN = [
         "opties": [
             "De maan draait in precies dezelfde tijd rond zichzelf als rond ons",
             "De maan draait helemaal niet rond haar eigen as, ze staat stil",
-            "De achterkant ligt altijd in de schaduw en is daarom niet te zien",
+            "De achterkant ligt altijd in de schaduw en is daarom vanaf hier niet te zien",
             "Onze dampkring buigt het licht van de achterkant van de maan weg",
         ],
         "antwoord": 0,
@@ -156,7 +156,7 @@ VRAGEN = [
         "vraag": "Wat gebeurt er binnen enkele miljarden jaren met onze zon als haar waterstof op raakt?",
         "opties": [
             "Ze zwelt op tot een rode reus en laat daarna een witte dwerg achter",
-            "Ze ontploft als een supernova en laat een zwart gat achter",
+            "Ze ontploft als een supernova en laat een zwart gat of een neutronenster achter",
             "Ze dooft langzaam uit en blijft als een koude gasbol hangen",
             "Ze trekt samen tot een neutronenster ter grootte van een stad",
         ],
@@ -174,7 +174,7 @@ VRAGEN = [
         "vraag": "Hoe vinden sterrenkundigen de meeste planeten bij andere sterren?",
         "opties": [
             "Ze meten hoe de ster even iets minder fel wordt als de planeet ervoor schuift",
-            "Ze fotograferen de planeet rechtstreeks met een heel grote telescoop",
+            "Ze fotograferen de planeet rechtstreeks met een heel grote telescoop op een berg",
             "Ze vangen het licht op dat de planeet zelf de ruimte in stuurt",
             "Ze luisteren naar de radiogolven die zo'n planeet voortdurend uitzendt",
         ],
@@ -187,7 +187,7 @@ VRAGEN = [
         "opties": [
             "De aantrekkingskracht van vooral de maan, en in mindere mate de zon",
             "De wind die het zeewater twee keer per dag heen en weer duwt",
-            "Het draaien van de aarde, waardoor het water naar de rand slingert",
+            "Het draaien van de aarde, waardoor het water naar de rand van de oceaan slingert",
             "Het smelten en weer aangroeien van het ijs op de twee polen",
         ],
         "antwoord": 0,

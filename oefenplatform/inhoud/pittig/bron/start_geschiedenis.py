@@ -85,7 +85,7 @@ TIJDLIJN = [
     {
         "type": "meerkeuze",
         "vraag": "In een film over de middeleeuwen draagt een ridder een polshorloge. Hoe noem je zo'n fout?",
-        "opties": ["een anachronisme", "een kroniek", "een tijdvak", "een generatie"],
+        "opties": ["een anachronisme", "een kroniek uit de middeleeuwen", "een tijdvak", "een generatie"],
         "antwoord": 0,
         "uitleg": "Een anachronisme is iets dat in de verkeerde tijd staat. Het polshorloge bestond pas eeuwen later.",
     },
@@ -178,7 +178,7 @@ OUDHEID = [
         "vraag": "Waarom konden er pas steden ontstaan nadat de mensen aan landbouw begonnen?",
         "opties": [
             "er was voor het eerst meer voedsel dan men zelf opat",
-            "omdat men toen pas stenen huizen kon bouwen",
+            "omdat men toen pas stevige stenen huizen met daken kon bouwen",
             "omdat het klimaat toen veel warmer werd",
             "omdat men toen het wiel uitvond",
         ],
@@ -366,7 +366,7 @@ MODERN = [
     {
         "type": "meerkeuze",
         "vraag": "De industriële revolutie begon in Engeland. Welke uitvinding was daarvoor het belangrijkst?",
-        "opties": ["de stoommachine", "de auto", "de gloeilamp", "de telefoon"],
+        "opties": ["de stoommachine", "de auto", "de elektrische gloeilamp", "de telefoon"],
         "antwoord": 0,
         "uitleg": "De stoommachine gaf kracht die niet van mensen, dieren, wind of water kwam. Daardoor konden fabrieken overal staan en draaien wanneer men wilde.",
     },
@@ -389,7 +389,7 @@ MODERN = [
             "een heer gaf grond in ruil voor trouw en krijgsdienst",
             "een boer leende geld van de kerk",
             "een koning leende zijn kroon uit",
-            "een ambachtsman leende gereedschap van zijn gilde",
+            "een ambachtsman leende gereedschap van zijn gilde voor een jaar",
         ],
         "antwoord": 0,
         "uitleg": "De koning gaf land aan zijn leenmannen, die hem daarvoor trouw zwoeren en soldaten leverden. Zo hield men een rijk bij elkaar zonder geld of ambtenaren.",
@@ -461,7 +461,7 @@ MODERN = [
         "vraag": "Wat betekent het dat België een constitutionele monarchie is?",
         "opties": [
             "er is een koning, maar de grondwet en het parlement bepalen",
-            "de koning beslist alles alleen, zoals vroeger de vorsten",
+            "de koning beslist alles helemaal alleen, zoals vroeger de vorsten",
             "het volk kiest om de vier jaar een nieuwe koning",
             "er is geen koning meer",
         ],
@@ -481,7 +481,7 @@ MODERN = [
             "veel mensen trokken van het platteland naar de steden",
             "de steden liepen net leeg",
             "er kwamen vooral kastelen bij",
-            "mensen bleven precies wonen waar ze altijd woonden",
+            "mensen bleven precies wonen waar hun ouders altijd woonden",
         ],
         "antwoord": 0,
         "uitleg": "De fabrieken stonden in de steden, dus daar was werk. Steden als Gent en Luik groeiden razendsnel, met woningnood en ziekte tot gevolg.",

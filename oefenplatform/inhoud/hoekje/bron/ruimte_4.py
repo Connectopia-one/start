@@ -42,7 +42,7 @@ VRAGEN = [
         "opties": [
             "Hoe verder weg een stelsel staat, hoe sneller het zich verwijdert",
             "Hoe verder weg een stelsel staat, hoe trager het zich verwijdert",
-            "Alle stelsels verwijderen zich met exact dezelfde vaste snelheid",
+            "Alle stelsels verwijderen zich met exact dezelfde vaste snelheid van ons",
             "De snelheid hangt niet af van de afstand maar van de massa",
         ],
         "antwoord": 0,
@@ -89,7 +89,7 @@ VRAGEN = [
         "vraag": "Waarom lanceert Europa zijn raketten liefst vanuit Frans-Guyana, vlak bij de evenaar?",
         "opties": [
             "Daar draait de grond het snelst mee, en dat geeft de raket een gratis duw",
-            "Daar is de zwaartekracht een flink stuk zwakker dan bij ons in Europa",
+            "Daar is de zwaartekracht een flink stuk zwakker dan bij ons in Europa, wel de helft",
             "Daar is de lucht veel dunner, dus de raket botst op minder luchtdeeltjes",
             "Daar staat de zon recht boven de raket, en dat geeft haar extra energie",
         ],

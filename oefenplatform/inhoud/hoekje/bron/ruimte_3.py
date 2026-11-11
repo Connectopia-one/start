@@ -37,7 +37,7 @@ VRAGEN = [
         "opties": [
             "Uit het puin van een botsing met een jonge planeet ter grootte van Mars",
             "De aarde ving een rondzwervende planetoïde in met haar zwaartekracht",
-            "De jonge aarde draaide zo snel dat er een stuk van afgeslingerd werd",
+            "De jonge aarde draaide zo snel dat er een groot stuk van afgeslingerd werd",
             "De maan en de aarde ontstonden apart, uit dezelfde stofwolk",
         ],
         "antwoord": 0,
@@ -73,7 +73,7 @@ VRAGEN = [
         "opties": [
             "De Oortwolk, een reusachtige bol van ijzige kometen rondom alles",
             "De asteroïdengordel met brokken steen tussen Mars en Jupiter",
-            "Een vlakke ring van stof die alleen in het baanvlak ligt",
+            "Een vlakke ring van stof die alleen in het baanvlak van de planeten ligt",
             "De rand van het heelal, waar de ruimte zelf ophoudt",
         ],
         "antwoord": 0,
@@ -85,7 +85,7 @@ VRAGEN = [
         "opties": [
             "Een neutronenster met een onvoorstelbaar sterk magnetisch veld",
             "Een planeet die volledig uit magnetisch ijzererts bestaat",
-            "Een zwart gat dat sterren naar zich toe trekt met magnetisme",
+            "Een zwart gat dat sterren naar zich toe trekt met zijn sterke magnetisme",
             "Een ster met twee magnetische polen die om elkaar draaien",
         ],
         "antwoord": 0,

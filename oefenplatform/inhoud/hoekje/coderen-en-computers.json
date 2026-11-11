@@ -42,7 +42,7 @@
             "Het is weg, want dat geheugen heeft stroom nodig om te onthouden",
             "Het blijft staan, want dat geheugen bewaart alles zonder stroom",
             "Het wordt automatisch naar de harde schijf weggeschreven",
-            "Het blijft nog een paar uur bewaard en verdwijnt dan langzaam"
+            "Het blijft nog een paar uur bewaard en verdwijnt dan langzaam vanzelf"
           ],
           "antwoord": 0,
           "uitleg": "RAM is het werkblad van de computer: razendsnel, maar leeg zodra de stroom wegvalt. De harde schijf of SSD is de kast waar alles bewaard blijft. Daarom ben je een niet-opgeslagen tekst kwijt bij een stroompanne."
@@ -52,7 +52,7 @@
           "vraag": "Wat is de taak van de processor in een computer?",
           "opties": [
             "Instructies één voor één uitvoeren, miljarden keren per seconde",
-            "Alle bestanden en foto's veilig op de lange termijn bewaren",
+            "Alle bestanden en foto's veilig op de lange termijn bewaren, ook zonder stroom",
             "Het beeld naar het scherm sturen en de kleuren juist zetten",
             "De verbinding met het internet openhouden en gegevens ophalen"
           ],
@@ -94,7 +94,7 @@
           "vraag": "Een functie die zichzelf oproept zonder stopvoorwaarde. Wat gebeurt er?",
           "opties": [
             "De stapel loopt vol en het programma valt stil met een foutmelding",
-            "Het programma blijft rustig draaien maar geeft nooit een antwoord",
+            "Het programma blijft rustig draaien maar geeft nooit een antwoord terug",
             "De computer merkt het en slaat de functie vanzelf over",
             "Het programma wordt trager maar komt er uiteindelijk toch uit"
           ],
@@ -124,7 +124,7 @@
           "vraag": "Hoe slaat een computer de kleur van één beeldpunt meestal op?",
           "opties": [
             "Als drie getallen: hoeveel rood, hoeveel groen en hoeveel blauw",
-            "Als één getal dat naar een vaste lijst van kleurnamen verwijst",
+            "Als één getal dat naar een vaste lijst van kleurnamen in het geheugen verwijst",
             "Als de golflengte van het licht dat die kleur zou uitstralen",
             "Als een mengsel van geel, blauw en rood, zoals bij verf"
           ],
@@ -142,7 +142,7 @@
           "vraag": "Wat doet een compiler?",
           "opties": [
             "Code die mensen schrijven omzetten naar taal die de machine snapt",
-            "Fouten in een lopend programma opsporen terwijl het draait",
+            "Fouten in een lopend programma opsporen terwijl het draait en ze melden",
             "Een programma kleiner maken zodat het minder plaats inneemt",
             "De code netjes uitlijnen zodat ze leesbaarder wordt"
           ],
@@ -184,7 +184,7 @@
           "vraag": "Wat is een universele Turingmachine?",
           "opties": [
             "Een bedachte machine die elke andere machine kan nabootsen",
-            "De eerste computer die tijdens de oorlog echt gebouwd is",
+            "De eerste computer die tijdens de Tweede Wereldoorlog echt gebouwd is",
             "Een machine die kan beslissen of een programma ooit stopt",
             "Een test om te zien of een computer menselijk overkomt"
           ],
@@ -221,7 +221,7 @@
           "vraag": "Waarover gaat de beroemde vraag P versus NP?",
           "opties": [
             "Of alles wat snel te controleren is, ook snel op te lossen is",
-            "Of een computer ooit even slim kan worden als een mens",
+            "Of een computer ooit even slim kan worden als een mens, of zelfs slimmer",
             "Of er een grens is aan hoe snel een processor kan worden",
             "Of elk programma uiteindelijk vanzelf tot een einde komt"
           ],
@@ -259,7 +259,7 @@
             "Het nummer waaraan een toestel op het netwerk te herkennen is",
             "De naam van een website zoals je die in de balk typt",
             "Het wachtwoord waarmee je op een draadloos netwerk raakt",
-            "Het serienummer dat de fabrikant in je toestel gebrand heeft"
+            "Het serienummer dat de fabrikant bij het maken in je toestel gebrand heeft"
           ],
           "antwoord": 0,
           "uitleg": "Zonder zo'n nummer weet het netwerk niet waar het antwoord naartoe moet, zoals een brief zonder adres. Een DNS-server vertaalt de naam die jij typt naar dat nummer. Het serienummer van je netwerkkaart is iets anders: dat heet een MAC-adres."
@@ -287,7 +287,7 @@
           "vraag": "Je moet een miljoen namen sorteren. Welke aanpak is veruit de snelste?",
           "opties": [
             "De lijst telkens in twee helften splitsen en die samenvoegen",
-            "Telkens twee buren vergelijken en ze eventueel omwisselen",
+            "Telkens twee buren vergelijken en ze eventueel omwisselen, tot alles klopt",
             "Steeds de kleinste van de rest zoeken en vooraan zetten",
             "De namen één voor één op hun juiste plaats tussenschuiven"
           ],
@@ -317,7 +317,7 @@
           "vraag": "Een QR-code blijft leesbaar, ook als er een stuk van weg is. Hoe komt dat?",
           "opties": [
             "Er zit foutcorrectie in: de gegevens staan er meermaals in verwerkt",
-            "De scanner raadt de ontbrekende stukjes op basis van de vorm",
+            "De scanner raadt de ontbrekende stukjes op basis van de vorm en de kleur",
             "De zwarte vierkanten in de hoeken bevatten de hele boodschap",
             "Een QR-code bevat zo weinig tekst dat een stukje volstaat"
           ],
@@ -335,7 +335,7 @@
           "vraag": "Wat betekent het dat een programma open source is?",
           "opties": [
             "Iedereen mag de broncode inkijken, gebruiken en aanpassen",
-            "Het programma is altijd gratis en mag nooit geld kosten",
+            "Het programma is altijd gratis en mag nooit ook maar één euro kosten",
             "Het programma werkt op elk besturingssysteem dat bestaat",
             "De makers geven geen ondersteuning bij problemen"
           ],
@@ -395,7 +395,7 @@
           "vraag": "Wat is het handigste aan een functie in een programma?",
           "opties": [
             "Je schrijft een stuk werk één keer en gebruikt het overal opnieuw",
-            "Je programma wordt er automatisch sneller door bij het draaien",
+            "Je programma wordt er automatisch sneller door bij het draaien en opstarten",
             "De computer onthoudt de uitkomst en hoeft nooit te herrekenen",
             "Je code neemt er minder plaats mee in op de harde schijf"
           ],
@@ -458,7 +458,7 @@
             "Verander één tekentje in de invoer en de uitvoer is volledig anders",
             "Hoe meer mensen tegelijk hashen, hoe trager de berekening wordt",
             "Een hash wordt langer naarmate je er meer tekst in stopt",
-            "Twee bijna gelijke invoeren geven ook een bijna gelijke uitvoer"
+            "Twee bijna gelijke invoeren geven ook een bijna gelijke uitvoer, op één teken na"
           ],
           "antwoord": 0,
           "uitleg": "Precies dat maakt een hash bruikbaar: aan de uitkomst valt niets af te leiden over wat erin ging, ook niet als je duizend kleine variaties probeert. Vandaar dat wachtwoorden zo bewaard worden. Dat twee bijna gelijke invoeren een bijna gelijke uitvoer geven, is net het tegenovergestelde en zou een hash waardeloos maken."
@@ -511,7 +511,7 @@
           "opties": [
             "Een afgesproken manier waarop programma's elkaar iets kunnen vragen",
             "Een taal waarin je websites schrijft, net zoals je HTML gebruikt",
-            "Een beveiligd stuk geheugen waar wachtwoorden bewaard worden",
+            "Een beveiligd stuk geheugen waar alle wachtwoorden van de gebruikers bewaard worden",
             "Een programma dat automatisch fouten uit je code haalt"
           ],
           "antwoord": 0,
@@ -534,7 +534,7 @@
           "vraag": "Waarom heeft een computer een cache?",
           "opties": [
             "Om iets wat net gebruikt werd dichtbij te houden, want ophalen kost tijd",
-            "Om bestanden veilig te bewaren als de stroom uitvalt",
+            "Om bestanden veilig te bewaren als de stroom plots uitvalt of de computer crasht",
             "Om te vermijden dat twee programma's tegelijk hetzelfde doen",
             "Om alle gegevens kleiner te maken zodat er meer op past"
           ],
@@ -558,7 +558,7 @@
           "vraag": "Wat is phishing?",
           "opties": [
             "Een bericht dat zich voordoet als iemand die je vertrouwt",
-            "Een programma dat je toetsaanslagen stiekem meeschrijft",
+            "Een programma dat je toetsaanslagen stiekem meeschrijft en doorstuurt",
             "Een aanval waarbij een site met verkeer wordt platgelegd",
             "Een fout in een programma waardoor gegevens uitlekken"
           ],
@@ -570,7 +570,7 @@
           "vraag": "Waarom is een code uit een app of per sms zo'n goede extra beveiliging?",
           "opties": [
             "Wie je wachtwoord steelt, heeft je telefoon daarmee nog niet",
-            "Zo'n code is veel langer en dus veel moeilijker te raden",
+            "Zo'n code is veel langer dan een wachtwoord en dus veel moeilijker te raden",
             "De code wordt versleuteld verstuurd en je wachtwoord niet",
             "Je hoeft je wachtwoord daardoor niet meer te onthouden"
           ],
@@ -602,7 +602,7 @@
             "Met Unicode, dat aan elk teken ter wereld een eigen nummer geeft",
             "Met een aparte lettertypefabriek voor elke taal op aarde",
             "Door de tekens als kleine afbeeldingen mee te sturen",
-            "Door elk teken om te zetten naar het dichtstbijzijnde Latijnse"
+            "Door elk teken om te zetten naar het dichtstbijzijnde Latijnse letterteken"
           ],
           "antwoord": 0,
           "uitleg": "De oude ASCII-tabel had maar \\(128\\) plaatsen: genoeg voor Engels, niet voor de wereld. Unicode telt er intussen meer dan \\(150\\,000\\), van het Egyptische hiërogliefenschrift tot een avocado. Daarom kun je in één bericht Nederlands, Arabisch en een smiley mengen."

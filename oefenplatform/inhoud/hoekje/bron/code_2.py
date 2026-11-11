@@ -12,7 +12,7 @@ VRAGEN = [
         "vraag": "Waarover gaat de beroemde vraag P versus NP?",
         "opties": [
             "Of alles wat snel te controleren is, ook snel op te lossen is",
-            "Of een computer ooit even slim kan worden als een mens",
+            "Of een computer ooit even slim kan worden als een mens, of zelfs slimmer",
             "Of er een grens is aan hoe snel een processor kan worden",
             "Of elk programma uiteindelijk vanzelf tot een einde komt",
         ],
@@ -50,7 +50,7 @@ VRAGEN = [
             "Het nummer waaraan een toestel op het netwerk te herkennen is",
             "De naam van een website zoals je die in de balk typt",
             "Het wachtwoord waarmee je op een draadloos netwerk raakt",
-            "Het serienummer dat de fabrikant in je toestel gebrand heeft",
+            "Het serienummer dat de fabrikant bij het maken in je toestel gebrand heeft",
         ],
         "antwoord": 0,
         "uitleg": "Zonder zo'n nummer weet het netwerk niet waar het antwoord naartoe moet, zoals een brief zonder adres. Een DNS-server vertaalt de naam die jij typt naar dat nummer. Het serienummer van je netwerkkaart is iets anders: dat heet een MAC-adres.",
@@ -78,7 +78,7 @@ VRAGEN = [
         "vraag": "Je moet een miljoen namen sorteren. Welke aanpak is veruit de snelste?",
         "opties": [
             "De lijst telkens in twee helften splitsen en die samenvoegen",
-            "Telkens twee buren vergelijken en ze eventueel omwisselen",
+            "Telkens twee buren vergelijken en ze eventueel omwisselen, tot alles klopt",
             "Steeds de kleinste van de rest zoeken en vooraan zetten",
             "De namen één voor één op hun juiste plaats tussenschuiven",
         ],
@@ -108,7 +108,7 @@ VRAGEN = [
         "vraag": "Een QR-code blijft leesbaar, ook als er een stuk van weg is. Hoe komt dat?",
         "opties": [
             "Er zit foutcorrectie in: de gegevens staan er meermaals in verwerkt",
-            "De scanner raadt de ontbrekende stukjes op basis van de vorm",
+            "De scanner raadt de ontbrekende stukjes op basis van de vorm en de kleur",
             "De zwarte vierkanten in de hoeken bevatten de hele boodschap",
             "Een QR-code bevat zo weinig tekst dat een stukje volstaat",
         ],
@@ -126,7 +126,7 @@ VRAGEN = [
         "vraag": "Wat betekent het dat een programma open source is?",
         "opties": [
             "Iedereen mag de broncode inkijken, gebruiken en aanpassen",
-            "Het programma is altijd gratis en mag nooit geld kosten",
+            "Het programma is altijd gratis en mag nooit ook maar één euro kosten",
             "Het programma werkt op elk besturingssysteem dat bestaat",
             "De makers geven geen ondersteuning bij problemen",
         ],
@@ -186,7 +186,7 @@ VRAGEN = [
         "vraag": "Wat is het handigste aan een functie in een programma?",
         "opties": [
             "Je schrijft een stuk werk één keer en gebruikt het overal opnieuw",
-            "Je programma wordt er automatisch sneller door bij het draaien",
+            "Je programma wordt er automatisch sneller door bij het draaien en opstarten",
             "De computer onthoudt de uitkomst en hoeft nooit te herrekenen",
             "Je code neemt er minder plaats mee in op de harde schijf",
         ],

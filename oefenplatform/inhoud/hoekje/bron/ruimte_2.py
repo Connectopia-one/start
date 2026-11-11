@@ -36,7 +36,7 @@ VRAGEN = [
         "vraag": "Wat is een pulsar?",
         "opties": [
             "Een snel tollende neutronenster die regelmatige pulsen uitzendt",
-            "Een ster die om de zoveel jaar opzwelt en weer inkrimpt",
+            "Een ster die om de zoveel jaar opzwelt en weer inkrimpt, zoals een hart",
             "Een zwart gat dat op vaste tijden een wolk gas uitspuwt",
             "Een planeet die het licht van zijn ster regelmatig onderbreekt",
         ],
@@ -48,7 +48,7 @@ VRAGEN = [
         "vraag": "Wat is een quasar?",
         "opties": [
             "De felle kern van een ver stelsel, gevoed door een zwaar zwart gat",
-            "Een ster die zo zwaar is dat ze in enkele jaren opbrandt",
+            "Een ster die zo zwaar is dat ze in enkele jaren volledig opbrandt en ontploft",
             "Een wolk gas die het licht van een heel stelsel weerkaatst",
             "Het punt in de ruimte waar twee sterrenstelsels elkaar raken",
         ],
@@ -168,7 +168,7 @@ VRAGEN = [
         "vraag": "De Melkweg en het Andromedastelsel komen op elkaar af. Wat gebeurt er dan met de sterren?",
         "opties": [
             "Bijna geen enkele ster zal een andere raken, er is te veel ruimte tussen",
-            "Het merendeel van de sterren zal frontaal op elkaar botsen",
+            "Het merendeel van de sterren zal frontaal op elkaar botsen en samen ontploffen",
             "Alle sterren worden samen één enkele, heel zware superster",
             "De sterren van het kleinste stelsel worden de ruimte in geslingerd",
         ],
@@ -204,7 +204,7 @@ VRAGEN = [
         "vraag": "Waarom ziet de ruimte er zwart uit, ook waar de zon volop schijnt?",
         "opties": [
             "Er zweeft bijna niets dat het zonlicht naar je oog kan terugkaatsen",
-            "De zon schijnt in de ruimte veel zwakker dan in onze dampkring",
+            "De zon schijnt in de ruimte veel zwakker dan in onze dampkring, omdat er geen lucht is",
             "Het licht van de zon gaat daar meteen verloren in de zwaartekracht",
             "Zwarte gaten verderop slorpen al het licht van de sterren op",
         ],

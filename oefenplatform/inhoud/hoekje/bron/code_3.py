@@ -33,7 +33,7 @@ VRAGEN = [
             "Verander één tekentje in de invoer en de uitvoer is volledig anders",
             "Hoe meer mensen tegelijk hashen, hoe trager de berekening wordt",
             "Een hash wordt langer naarmate je er meer tekst in stopt",
-            "Twee bijna gelijke invoeren geven ook een bijna gelijke uitvoer",
+            "Twee bijna gelijke invoeren geven ook een bijna gelijke uitvoer, op één teken na",
         ],
         "antwoord": 0,
         "uitleg": "Precies dat maakt een hash bruikbaar: aan de uitkomst valt niets af te leiden over wat erin ging, ook niet als je duizend kleine variaties probeert. Vandaar dat wachtwoorden zo bewaard worden. Dat twee bijna gelijke invoeren een bijna gelijke uitvoer geven, is net het tegenovergestelde en zou een hash waardeloos maken.",
@@ -86,7 +86,7 @@ VRAGEN = [
         "opties": [
             "Een afgesproken manier waarop programma's elkaar iets kunnen vragen",
             "Een taal waarin je websites schrijft, net zoals je HTML gebruikt",
-            "Een beveiligd stuk geheugen waar wachtwoorden bewaard worden",
+            "Een beveiligd stuk geheugen waar alle wachtwoorden van de gebruikers bewaard worden",
             "Een programma dat automatisch fouten uit je code haalt",
         ],
         "antwoord": 0,
@@ -109,7 +109,7 @@ VRAGEN = [
         "vraag": "Waarom heeft een computer een cache?",
         "opties": [
             "Om iets wat net gebruikt werd dichtbij te houden, want ophalen kost tijd",
-            "Om bestanden veilig te bewaren als de stroom uitvalt",
+            "Om bestanden veilig te bewaren als de stroom plots uitvalt of de computer crasht",
             "Om te vermijden dat twee programma's tegelijk hetzelfde doen",
             "Om alle gegevens kleiner te maken zodat er meer op past",
         ],
@@ -133,7 +133,7 @@ VRAGEN = [
         "vraag": "Wat is phishing?",
         "opties": [
             "Een bericht dat zich voordoet als iemand die je vertrouwt",
-            "Een programma dat je toetsaanslagen stiekem meeschrijft",
+            "Een programma dat je toetsaanslagen stiekem meeschrijft en doorstuurt",
             "Een aanval waarbij een site met verkeer wordt platgelegd",
             "Een fout in een programma waardoor gegevens uitlekken",
         ],
@@ -145,7 +145,7 @@ VRAGEN = [
         "vraag": "Waarom is een code uit een app of per sms zo'n goede extra beveiliging?",
         "opties": [
             "Wie je wachtwoord steelt, heeft je telefoon daarmee nog niet",
-            "Zo'n code is veel langer en dus veel moeilijker te raden",
+            "Zo'n code is veel langer dan een wachtwoord en dus veel moeilijker te raden",
             "De code wordt versleuteld verstuurd en je wachtwoord niet",
             "Je hoeft je wachtwoord daardoor niet meer te onthouden",
         ],
@@ -177,7 +177,7 @@ VRAGEN = [
             "Met Unicode, dat aan elk teken ter wereld een eigen nummer geeft",
             "Met een aparte lettertypefabriek voor elke taal op aarde",
             "Door de tekens als kleine afbeeldingen mee te sturen",
-            "Door elk teken om te zetten naar het dichtstbijzijnde Latijnse",
+            "Door elk teken om te zetten naar het dichtstbijzijnde Latijnse letterteken",
         ],
         "antwoord": 0,
         "uitleg": r"De oude ASCII-tabel had maar \(128\) plaatsen: genoeg voor Engels, niet voor de wereld. Unicode telt er intussen meer dan \(150\,000\), van het Egyptische hiërogliefenschrift tot een avocado. Daarom kun je in één bericht Nederlands, Arabisch en een smiley mengen.",
