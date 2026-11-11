@@ -33,7 +33,7 @@ VRAGEN = [
             "In de natuur vind je op één plek niet genoeg eten voor zoveel monden",
             "Ze konden met niet meer dan enkele tientallen mensen samen praten",
             "Grotere groepen werden verboden door de leider van de groep",
-            "Ze hadden geen vuur om voor zoveel mensen te koken",
+            "Ze hadden geen vuur om voor zoveel mensen te koken, want vuur was nog onbekend",
         ],
         antwoord=0,
         uitleg="Wie van jacht en verzamelen leeft, eet wat de natuur in de buurt geeft. Dat is te weinig voor een grote groep. Pas met landbouw en een overschot konden veel mensen op één plek samenwonen.",
@@ -86,7 +86,7 @@ VRAGEN = [
         vraag="Een strip toont prehistorische mensen die alleen mammoeten jagen en alleen vlees eten. Wat klopt daar niet aan?",
         opties=[
             "Verzameld plantaardig voedsel leverde vaak meer op dan de jacht",
-            "Prehistorische mensen aten helemaal geen vlees, alleen planten",
+            "Prehistorische mensen aten helemaal geen vlees, alleen planten en noten",
             "Op mammoeten werd pas gejaagd nadat de landbouw ontstaan was",
             "Prehistorische mensen leefden alleen van vis uit de rivieren",
         ],

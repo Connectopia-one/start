@@ -39,8 +39,11 @@ _pittig = importlib.util.module_from_spec(_spec)
 _spec.loader.exec_module(_pittig)
 EXAMENVORMEN = _pittig.EXAMENVORMEN
 
-SPELING = 5
-GRENS_LANGSTE = 0.4
+# Kim 11/11/2026: hoogbegaafde kinderen zien meteen als het juiste antwoord
+# vaak het langste is. Daarom telt elke keer dat het juiste antwoord het
+# langste is (geen speling meer) en mag dat hoogstens 30 % van de keren.
+SPELING = 0
+GRENS_LANGSTE = 0.3
 WAAR_ONDER, WAAR_BOVEN = 0.35, 0.65
 
 

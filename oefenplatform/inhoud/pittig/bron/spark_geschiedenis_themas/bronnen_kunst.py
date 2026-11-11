@@ -7,7 +7,7 @@ VRAGEN = [
         vraag="Een historicus schrijft vandaag een boek over Romeinse soldaten, op basis van brieven die zij zelf schreven. Wat voor bron is dat boek?",
         opties=[
             "Een secundaire bron, want het is later gemaakt op basis van andere bronnen",
-            "Een primaire bron, want het steunt volledig op primaire bronnen",
+            "Een primaire bron, want het steunt volledig op brieven van de soldaten zelf",
             "Een primaire bron, want een historicus schrijft alleen betrouwbare boeken",
             "Geen bron, want alleen voorwerpen uit de grond tellen als bron",
         ],
@@ -75,7 +75,7 @@ VRAGEN = [
         vraag="Wat was vermoedelijk de echte uitkomst van de slag bij Kadesj, en waarop steunt dat vermoeden?",
         opties=[
             "Onbeslist: beide partijen claimden de zege en sloten kort daarna vrede",
-            "Een zege voor Ramses, want hij liet het op tempelmuren uithouwen",
+            "Een zege voor Ramses, want hij liet zijn overwinning op tempelmuren uithouwen",
             "Een zege voor de Hettieten, want hun bronnen zijn betrouwbaarder",
             "Dat weten we helemaal niet, want er bestaan geen bronnen over",
         ],
@@ -89,7 +89,7 @@ VRAGEN = [
             "Rekening houden met zijn standplaats en de tekst naast andere bronnen leggen",
             "Hem geloven, want hij leefde in die tijd en kende dat volk dus goed",
             "De tekst weggooien, want een bron die overdrijft is waardeloos",
-            "Besluiten dat dat volk echt wild was, want hij is een tijdgenoot",
+            "Besluiten dat dat volk echt wild was, want hij is een tijdgenoot van dat volk",
         ],
         antwoord=0,
         uitleg="De schrijver kijkt vanuit zijn eigen tijd, plaats en positie, net als Herodotos met zijn barbaren. Zo'n tekst zegt veel over hoe Romeinen naar anderen keken. Of het klopt, ga je na door andere bronnen ernaast te leggen.",
@@ -148,7 +148,7 @@ VRAGEN = [
         vraag="Een historicus in het jaar 2500 vindt een game uit onze tijd over de Romeinen. Waarover vertelt die game hem het meest?",
         opties=[
             "Over wat mensen in onze tijd spannend vonden aan Rome",
-            "Over hoe de Romeinen echt leefden en vochten",
+            "Over hoe de Romeinen echt leefden en vochten in hun legers",
             "Over niets, want een game is nooit een bron",
             "Over de Romeinse keizers die de game lieten maken",
         ],

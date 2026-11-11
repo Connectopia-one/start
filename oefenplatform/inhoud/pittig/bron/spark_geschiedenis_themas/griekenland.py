@@ -38,7 +38,7 @@ VRAGEN = [
         type="meerkeuze",
         vraag="In Sparta waren de heloten veruit in de meerderheid. Welk gevolg had dat voor de Spartanen?",
         opties=[
-            "Ze vreesden een opstand en bleven daarom alles op het leger richten",
+            "Ze vreesden een opstand en richtten daarom alles op het leger",
             "Ze gaven de heloten stemrecht om een opstand te voorkomen",
             "Ze moesten zelf het land bewerken, want de heloten weigerden dat",
             "Ze werden een maritieme samenleving die leefde van haar vloot",
@@ -50,10 +50,10 @@ VRAGEN = [
         type="meerkeuze",
         vraag="Een oude tekst zegt dat een Griekse tiran erg geliefd was bij het gewone volk. Kan dat kloppen?",
         opties=[
-            "Ja, een tiran was een alleenheerser die de macht gegrepen had, niet vanzelf een wreed iemand",
+            "Ja, een tiran was een alleenheerser die de macht gegrepen had, niet per se wreed",
             "Nee, een tiran was per definitie wreed, dus de tekst moet verkeerd zijn",
             "Nee, want tirannen werden door het volk verkozen en dus nooit geliefd",
-            "Ja, want een tiran was een priester van Zeus en dus altijd geliefd",
+            "Ja, want een tiran was een priester van Zeus en daarom altijd geliefd bij het volk",
         ],
         antwoord=0,
         uitleg="Bij de Grieken betekende tiran: iemand die alleen heerste nadat hij de macht gegrepen had. Het woord betekende nog niet vanzelf wreed. Je mag dus niet de betekenis van vandaag in de oude tekst lezen.",
@@ -76,7 +76,7 @@ VRAGEN = [
         vraag="Een tempel heeft zuilen met krullen bovenaan het kapiteel. Welke stijl is dat, en hoe oud is die stijl tegenover de andere twee?",
         opties=[
             "Ionisch, jonger dan de Dorische en ouder dan de Korintische",
-            "Korintisch, de jongste en de rijkst versierde van de drie",
+            "Korintisch, de jongste en de rijkst versierde van de drie stijlen",
             "Dorisch, de oudste en de meest sobere van de drie stijlen",
             "Ionisch, de oudste van de drie, nog vóór de Dorische",
         ],
@@ -131,8 +131,8 @@ VRAGEN = [
         type="meerkeuze",
         vraag="Waarom bleken de antwoorden van het orakel van Delphi achteraf bijna altijd te kloppen?",
         opties=[
-            "Ze waren vaak dubbelzinnig, zodat ze op meer dan één manier uitkwamen",
-            "De priesters wachtten met antwoorden tot de gebeurtenis voorbij was",
+            "Ze waren dubbelzinnig, zodat ze op meer dan één manier uitkwamen",
+            "De priesters wachtten met antwoorden tot de gebeurtenis helemaal voorbij was",
             "Zeus zelf sprak er en wist alles wat er ging gebeuren",
             "Wie een fout antwoord kreeg, mocht het nooit aan iemand vertellen",
         ],

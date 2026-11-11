@@ -11,7 +11,7 @@
           "opties": [
             "Hij onderzoekt het verleden aan de hand van bronnen",
             "Hij graaft voorwerpen op uit de grond",
-            "Hij schrijft verhalen die zich vroeger afspelen",
+            "Hij schrijft verhalen die zich vroeger afspelen, zoals historische romans",
             "Geen van deze antwoorden"
           ],
           "antwoord": 0,
@@ -80,7 +80,7 @@
           "vraag": "Wat betekent het structuurbegrip chronologie?",
           "opties": [
             "De volgorde van gebeurtenissen in de tijd",
-            "De oorzaak van een gebeurtenis",
+            "De oorzaak van een gebeurtenis en wat eruit volgde",
             "De plaats waar iets gebeurde"
           ],
           "antwoord": 0,
@@ -289,8 +289,8 @@
           "vraag": "Welke gebeurtenis geldt als het scharnierpunt tussen de klassieke oudheid en de middeleeuwen?",
           "opties": [
             "De ondergang van het West-Romeinse Rijk",
-            "De dood van Alexander de Grote",
-            "De stichting van Rome"
+            "De dood van Alexander de Grote in Babylon",
+            "De stichting van Rome door Romulus en Remus"
           ],
           "antwoord": 0,
           "uitleg": "De ondergang van het West-Romeinse Rijk in 476 wordt gebruikt als het einde van de klassieke oudheid."
@@ -322,7 +322,7 @@
           "vraag": "Historici noemen de overgang naar de landbouw soms een evolutie en soms een revolutie. Hoe komt dat?",
           "opties": [
             "De gevolgen waren enorm, maar de verandering zelf duurde duizenden jaren",
-            "De ene helft van Europa noemt het anders dan de andere",
+            "De ene helft van Europa noemt het anders dan de andere helft",
             "Omdat men niet weet wanneer de landbouw begon"
           ],
           "antwoord": 0,
@@ -333,7 +333,7 @@
           "vraag": "Wat bedoelen historici als ze zeggen dat de westerse periodisering tijdsgebonden is?",
           "opties": [
             "De grenzen tussen periodes zijn gekozen door mensen en kunnen veranderen",
-            "Elke periode duurt precies even lang",
+            "Elke periode duurt precies even lang, zodat je ze makkelijk kan vergelijken",
             "Er zijn te weinig jaartallen bekend"
           ],
           "antwoord": 0,
@@ -359,7 +359,7 @@
           "vraag": "Het spijkerschrift ontstond in Mesopotamië rond 3300 v.C. Wat toont dat over de periodisering?",
           "opties": [
             "Dat de prehistorie niet overal op hetzelfde moment eindigt",
-            "Dat het schrift overal tegelijk werd uitgevonden",
+            "Dat het schrift overal ter wereld tegelijk werd uitgevonden",
             "Dat de prehistorie nooit echt geëindigd is"
           ],
           "antwoord": 0,
@@ -522,8 +522,8 @@
           "type": "meerkeuze",
           "vraag": "Hoe leefden de allereerste mensachtigen aan voedsel voor ze konden jagen?",
           "opties": [
-            "Ze aten alleen plantaardig voedsel",
-            "Ze verzamelden planten en aten vlees van reeds gestorven dieren",
+            "Ze aten alleen plantaardig voedsel dat ze onderweg vonden",
+            "Ze verzamelden planten en aten vlees van gestorven dieren",
             "Ze hielden vee"
           ],
           "antwoord": 1,
@@ -562,7 +562,7 @@
           "type": "meerkeuze",
           "vraag": "Waarom was gekookt of geroosterd voedsel belangrijk voor de mens?",
           "opties": [
-            "Het smaakte alleen maar beter",
+            "Het smaakte alleen maar beter, verder maakte het geen verschil",
             "Het was beter verteerbaar en veiliger om te eten",
             "Het kon jarenlang bewaard worden"
           ],
@@ -644,7 +644,7 @@
           "opties": [
             "Iedereen deed precies hetzelfde",
             "Er was een verdeling van taken binnen de groep",
-            "Alleen de kinderen verzamelden voedsel"
+            "Alleen de kinderen verzamelden voedsel, de volwassenen jaagden"
           ],
           "antwoord": 1,
           "uitleg": "Er was een taakverdeling in de groep. Het verzamelde plantaardig voedsel leverde vaak het grootste deel van de maaltijd."
@@ -779,7 +779,7 @@
           "opties": [
             "Voedsel dat bederft",
             "Meer voedsel dan de boer zelf nodig heeft",
-            "Land dat niet bewerkt wordt"
+            "Land dat niet bewerkt wordt omdat het te droog of te nat is"
           ],
           "antwoord": 1,
           "uitleg": "Een overschot is voedsel dat overblijft. Dat kan je bewaren of ruilen, en daar begint de handel."
@@ -806,8 +806,8 @@
           "type": "meerkeuze",
           "vraag": "Welk verband bestaat er tussen de landbouw en het ontstaan van steden?",
           "opties": [
-            "Landbouw leverde overschotten op, waardoor grotere groepen op één plaats konden leven",
-            "Steden bestonden al voor de landbouw",
+            "Landbouw leverde overschotten op, waardoor grote groepen op één plaats konden leven",
+            "Steden bestonden al lang voor de landbouw, de boeren trokken er later naartoe",
             "Boeren bouwden zelf de eerste steden om hun oogst en hun vee veilig in op te bergen"
           ],
           "antwoord": 0,
@@ -817,7 +817,7 @@
           "type": "meerkeuze",
           "vraag": "Waarom noemen historici de overgang naar de landbouw een revolutie?",
           "opties": [
-            "Omdat er oorlog over gevoerd werd",
+            "Omdat er oorlog over gevoerd werd tussen boeren en jagers",
             "Omdat bijna alles aan het leven van de mens erdoor veranderde",
             "Omdat het in één generatie gebeurde"
           ],
@@ -829,7 +829,7 @@
           "vraag": "Welk gevolg had de landbouw voor het bezit?",
           "opties": [
             "Bezit verdween, want in een dorp werd voortaan alles samen gedeeld en samen bewaard",
-            "Mensen konden voorraden en grond bezitten, waardoor verschillen in rijkdom ontstonden",
+            "Mensen konden voorraden en grond bezitten, zo ontstonden verschillen in rijkdom",
             "Bezit bleef precies gelijk verdeeld"
           ],
           "antwoord": 1,
@@ -877,8 +877,8 @@
           "vraag": "Waarom noemen historici de agrarische revolutie tegelijk een evolutie?",
           "opties": [
             "Omdat de verandering zich over duizenden jaren uitspreidde",
-            "Omdat ze zonder gevolgen bleef",
-            "Omdat ze maar in één dorp plaatsvond"
+            "Omdat ze zonder gevolgen bleef voor de manier van leven",
+            "Omdat ze maar in één dorp plaatsvond en elders onbekend bleef"
           ],
           "antwoord": 0,
           "uitleg": "De verspreiding van de landbouw over Europa duurde millennia. Naar tempo gemeten ging het dus heel traag."
@@ -1087,8 +1087,8 @@
           "vraag": "Uit wat groeide het eerste schrift?",
           "opties": [
             "Uit beeldschrift: tekeningetjes van het ding zelf",
-            "Uit het alfabet",
-            "Uit getallen alleen"
+            "Uit het alfabet, dat de Feniciërs al veel eerder kenden",
+            "Uit getallen alleen, zonder enig teken voor een woord"
           ],
           "antwoord": 0,
           "uitleg": "Eerst tekende men het voorwerp. Die tekeningen werden steeds schematischer, tot er tekens overbleven die je niet meer als plaatje herkent."
@@ -1152,7 +1152,7 @@
           "opties": [
             "Om ziektes tegen te gaan",
             "Omdat de dode zijn lichaam nodig had in het hiernamaals",
-            "Om plaats te besparen in de graven"
+            "Om plaats te besparen in de graven, zodat er meer doden in één piramide pasten"
           ],
           "antwoord": 1,
           "uitleg": "Zij geloofden dat het leven verderging na de dood, en dat de overledene daarvoor zijn lichaam nodig had. Daarom bleef het bewaard."
@@ -1251,7 +1251,7 @@
           "type": "meerkeuze",
           "vraag": "Waarom ontstond het schrift in de eerste plaats?",
           "opties": [
-            "Om verhalen en gedichten vast te leggen",
+            "Om verhalen en gedichten over de goden vast te leggen",
             "Om te administreren: hoeveel graan, hoeveel vee, van wie",
             "Om brieven naar het buitenland te sturen"
           ],
@@ -1317,8 +1317,8 @@
           "type": "meerkeuze",
           "vraag": "Wat is een tempeleconomie?",
           "opties": [
-            "Een economie waarin de tempel de oogst inzamelt, opslaat en herverdeelt",
-            "Een economie waarin alleen priesters mochten handeldrijven",
+            "Een economie waarin de tempel de oogst inzamelt en herverdeelt",
+            "Een economie waarin alleen priesters mochten handeldrijven met andere steden",
             "Een economie zonder landbouw"
           ],
           "antwoord": 0,
@@ -1329,8 +1329,8 @@
           "vraag": "Hoe dreef men handel in een tijd zonder munten?",
           "opties": [
             "Met ruilhandel: goederen tegen goederen",
-            "Met papiergeld",
-            "Er was helemaal geen handel"
+            "Met papiergeld dat de tempels uitgaven",
+            "Er was helemaal geen handel tussen de dorpen"
           ],
           "antwoord": 0,
           "uitleg": "Men ruilde graan, vee, metaal of stoffen tegen elkaar. Geld als munt komt pas veel later, in de klassieke oudheid."
@@ -1379,7 +1379,7 @@
           "vraag": "Waarom is het graf van Toetanchamon zo beroemd, hoewel hij een onbelangrijke farao was?",
           "opties": [
             "Het was bijna onaangeroerd toen het gevonden werd",
-            "Het is het grootste graf van Egypte",
+            "Het is het grootste graf van Egypte, groter dan de piramides",
             "Hij regeerde het langst"
           ],
           "antwoord": 0,
@@ -1407,8 +1407,8 @@
           "vraag": "Hoe merk je de sociale ongelijkheid in Mesopotamië aan de bronnen?",
           "opties": [
             "Er zijn helemaal geen bronnen over gewone mensen bewaard, alleen over koningen",
-            "Wetten en documenten geven verschillende groepen verschillende rechten en straffen",
-            "Iedereen kreeg dezelfde straf"
+            "Wetten geven verschillende groepen verschillende rechten en straffen",
+            "Iedereen kreeg dezelfde straf, of hij nu rijk of arm was"
           ],
           "antwoord": 1,
           "uitleg": "In de geschreven bronnen hangt je straf, je vergoeding en je aandeel af van de groep waartoe je behoort. De ongelijkheid stond dus letterlijk in de wet."
@@ -1491,7 +1491,7 @@
           "vraag": "Rond welke zee lag het oude Griekenland?",
           "opties": [
             "De Middellandse Zee",
-            "De Noordzee",
+            "De Noordzee en het Kanaal",
             "De Rode Zee"
           ],
           "antwoord": 0,
@@ -1503,7 +1503,7 @@
           "opties": [
             "Mensen leefden in kleine gebieden die van elkaar gescheiden waren",
             "Iedereen woonde samen in één grote stad",
-            "Niemand kon er wonen"
+            "Niemand kon er wonen, daarom trok iedereen naar de kusten van Klein-Azië"
           ],
           "antwoord": 0,
           "uitleg": "Bergen en zee maakten reizen moeilijk. Elke vallei of kuststrook werd zo een wereldje op zich."
@@ -1543,7 +1543,7 @@
           "vraag": "Waar staat Sparta vooral om bekend?",
           "opties": [
             "Zijn leger en zijn harde opvoeding",
-            "Zijn theaters",
+            "Zijn theaters en zijn grote toneelschrijvers",
             "Zijn handelsvloot"
           ],
           "antwoord": 0,
@@ -1583,7 +1583,7 @@
           "vraag": "Wie mocht er in Athene meestemmen?",
           "opties": [
             "Vrije mannen die burger waren",
-            "Iedereen die er woonde",
+            "Iedereen die er woonde, ook vrouwen en vreemdelingen",
             "Enkel de rijkste families"
           ],
           "antwoord": 0,
@@ -1748,7 +1748,7 @@
           "vraag": "Wat was een tiran bij de Grieken?",
           "opties": [
             "Een alleenheerser die de macht gegrepen had",
-            "Een verkozen rechter",
+            "Een verkozen rechter van de volksvergadering",
             "Een priester van Zeus"
           ],
           "antwoord": 0,
@@ -1783,7 +1783,7 @@
           "vraag": "Wie vochten er tegen elkaar in de Perzische oorlogen?",
           "opties": [
             "De Griekse stadstaten tegen het Perzische Rijk",
-            "Athene tegen Sparta",
+            "Athene tegen Sparta, om de macht in Griekenland",
             "Rome tegen Carthago"
           ],
           "antwoord": 0,
@@ -1820,7 +1820,7 @@
           "vraag": "Wat was het gevolg van de Peloponnesische oorlog?",
           "opties": [
             "De Griekse stadstaten kwamen er verzwakt uit",
-            "Athene werd nog machtiger",
+            "Athene werd nog machtiger en heerste over heel Griekenland",
             "Er kwam één Griekse koning"
           ],
           "antwoord": 0,
@@ -1831,7 +1831,7 @@
           "vraag": "Waarom trokken Grieken weg om kolonies te stichten?",
           "opties": [
             "Er was te weinig vruchtbare grond voor een groeiende bevolking",
-            "Ze werden verbannen door de goden",
+            "Ze werden verbannen door de goden na een slechte voorspelling in Delphi",
             "Ze zochten sneeuw"
           ],
           "antwoord": 0,
@@ -1842,7 +1842,7 @@
           "vraag": "Welk cultureel gevolg had de Griekse kolonisatie?",
           "opties": [
             "Griekse taal, goden en gewoonten verspreidden zich rond de Middellandse Zee",
-            "De Grieken vergaten hun eigen taal",
+            "De Grieken vergaten hun eigen taal en namen die van de buren over",
             "Er kwam één munt en één taal voor alle volkeren rond de Middellandse Zee"
           ],
           "antwoord": 0,
@@ -1853,8 +1853,8 @@
           "vraag": "Wie waren de heloten in Sparta?",
           "opties": [
             "Onvrije landbouwers die voor de Spartanen werkten",
-            "De verkozen leiders",
-            "De priesters van de tempel"
+            "De verkozen leiders die de volksvergadering voorzaten",
+            "De priesters van de tempel van Apollo in de stad"
           ],
           "antwoord": 0,
           "uitleg": "Zij bewerkten het land, zodat de Spartanen zich volledig op het leger konden richten. Ze waren veruit in de meerderheid."
@@ -1914,8 +1914,8 @@
           "vraag": "Wat is het verschil tussen archaïsche en klassieke Griekse beeldhouwkunst?",
           "opties": [
             "Klassieke beelden staan natuurlijker en lijken te bewegen",
-            "Archaïsche beelden zijn van goud",
-            "Klassieke beelden zijn kleiner"
+            "Archaïsche beelden zijn van goud en klassieke van marmer",
+            "Klassieke beelden zijn kleiner en staan altijd binnen in de tempel"
           ],
           "antwoord": 0,
           "uitleg": "Archaïsche beelden staan stijf rechtop en glimlachen star. Klassieke beelden verplaatsen hun gewicht op één been."
@@ -1935,9 +1935,9 @@
           "type": "meerkeuze",
           "vraag": "Wie was Alexander de Grote?",
           "opties": [
-            "Een Macedonische koning die een wereldrijk veroverde tot in India",
+            "Een Macedonische koning die een rijk veroverde tot in India",
             "De eerste keizer van Rome, die het hele Griekse gebied veroverde",
-            "Een Atheense filosoof"
+            "Een Atheense filosoof die les gaf aan de jonge koningen van Sparta"
           ],
           "antwoord": 0,
           "uitleg": "Hij was een leerling van Aristoteles en veroverde in een tiental jaar het hele Perzische Rijk."
@@ -2012,7 +2012,7 @@
           "vraag": "Wat vertelt de stichtingsmythe van Rome?",
           "opties": [
             "Romulus en Remus werden als baby's grootgebracht door een wolvin",
-            "De stad werd gebouwd door Zeus",
+            "De stad werd gebouwd door Zeus, de oppergod van de Grieken en de Romeinen",
             "De stad kwam uit de zee"
           ],
           "antwoord": 0,
@@ -2052,7 +2052,7 @@
           "vraag": "Wat was de senaat?",
           "opties": [
             "De raad van oud-bestuurders die grote invloed had",
-            "Het leger van Rome",
+            "Het leger van Rome, met de generaals aan het hoofd",
             "Een tempel"
           ],
           "antwoord": 0,
@@ -2081,7 +2081,7 @@
           "vraag": "Wie waren de patriciërs?",
           "opties": [
             "De oude rijke adellijke families",
-            "De slaven",
+            "De slaven die op de landgoederen werkten",
             "De soldaten uit de provincies"
           ],
           "antwoord": 0,
@@ -2143,7 +2143,7 @@
           "opties": [
             "In een amfitheater, zoals het Colosseum",
             "In een tempel",
-            "Op het forum"
+            "Op het forum, midden tussen de winkels en de rechtbanken"
           ],
           "antwoord": 0,
           "uitleg": "Een amfitheater is rondom gebouwd, zodat iedereen zicht had op het midden."
@@ -2249,9 +2249,9 @@
           "type": "meerkeuze",
           "vraag": "Waarom koos de republiek voor twee consuls, elk voor één jaar?",
           "opties": [
-            "Zodat niemand alleen en langdurig alle macht zou krijgen",
-            "Omdat er te veel werk was voor één persoon",
-            "Omdat de goden het zo wilden"
+            "Zodat niemand alleen en lang alle macht zou krijgen",
+            "Omdat er te veel werk was voor één persoon in zo'n grote stad",
+            "Omdat de goden het zo wilden, volgens de priesters"
           ],
           "antwoord": 0,
           "uitleg": "Ze konden elkaars beslissingen tegenhouden. Alleen in uiterste nood benoemde men tijdelijk één dictator."
@@ -2261,7 +2261,7 @@
           "vraag": "Wat deed de volksvergadering in de republiek?",
           "opties": [
             "Ze koos de magistraten en stemde over wetten",
-            "Ze bestuurde het leger",
+            "Ze bestuurde het leger en koos de generaals voor elke oorlog",
             "Ze sprak recht over de keizer"
           ],
           "antwoord": 0,
@@ -2299,7 +2299,7 @@
           "opties": [
             "Een groot landgoed dat met slaven bewerkt werd",
             "Een Romeinse tempel gewijd aan de huisgoden",
-            "Een soort belasting"
+            "Een soort belasting die boeren op hun oogst betaalden"
           ],
           "antwoord": 0,
           "uitleg": "De oorlogen leverden zoveel krijgsgevangenen op dat slavenarbeid spotgoedkoop werd."
@@ -2309,7 +2309,7 @@
           "vraag": "Welk gevolg hadden de latifundia voor de kleine boer?",
           "opties": [
             "Hij kon niet concurreren en trok verarmd naar de stad",
-            "Hij werd rijk",
+            "Hij werd rijk, want hij kon zijn graan aan de landgoederen verkopen",
             "Hij mocht geen graan meer telen"
           ],
           "antwoord": 0,
@@ -2320,7 +2320,7 @@
           "vraag": "Wat was een triumviraat?",
           "opties": [
             "Een samenwerking van drie machtige mannen",
-            "Een tempel voor drie goden",
+            "Een tempel voor drie goden op het Capitool",
             "Een legerafdeling"
           ],
           "antwoord": 0,
@@ -2331,7 +2331,7 @@
           "vraag": "Waarom ging de republiek uiteindelijk ten onder?",
           "opties": [
             "Door burgeroorlogen en legers die trouw waren aan hun generaal in plaats van aan de staat",
-            "Door een aardbeving",
+            "Door een aardbeving die de senaat en het forum in één keer verwoestte",
             "Omdat het volk om een koning vroeg en de senaat die wens zonder enig verzet inwilligde"
           ],
           "antwoord": 0,
@@ -2342,7 +2342,7 @@
           "vraag": "Hoe noemde Augustus zichzelf, in plaats van koning?",
           "opties": [
             "Princeps, de eerste burger",
-            "Farao",
+            "Farao van Rome en Egypte",
             "Consul voor het leven"
           ],
           "antwoord": 0,
@@ -2352,7 +2352,7 @@
           "type": "meerkeuze",
           "vraag": "Wat betekent Pax Romana?",
           "opties": [
-            "Romeinse vrede: een lange periode van rust in het rijk",
+            "Romeinse vrede: een lange periode van rust",
             "Romeinse wet: het wetboek dat in het hele rijk gold",
             "Romeinse weg"
           ],
@@ -2382,7 +2382,7 @@
           "vraag": "Wat was de keizerscultus?",
           "opties": [
             "De keizer werd als goddelijk vereerd",
-            "Een feest voor de senaat",
+            "Een feest voor de senaat na een overwinning",
             "Een belasting op tempels"
           ],
           "antwoord": 0,
@@ -2424,7 +2424,7 @@
           "vraag": "Wat valt op aan Romeinse portretbeelden?",
           "opties": [
             "Ze tonen de mens zoals hij was, met rimpels en al",
-            "Ze tonen iedereen als jonge god",
+            "Ze tonen iedereen als jonge god met een perfect lichaam",
             "Ze hebben geen gezicht"
           ],
           "antwoord": 0,
@@ -2467,7 +2467,7 @@
           "type": "meerkeuze",
           "vraag": "Waarom is 476 n.C. een scharnierpunt in de geschiedenis?",
           "opties": [
-            "Het West-Romeinse Rijk valt, en daarmee begint volgens de indeling de middeleeuwen",
+            "Het West-Romeinse Rijk valt, en volgens de indeling beginnen de middeleeuwen",
             "Rome wordt gesticht, en vanaf dat jaar telden de Romeinen hun eigen jaartelling",
             "Caesar wordt vermoord"
           ],
@@ -2480,7 +2480,7 @@
           "opties": [
             "Ze keken naar voortekens, zoals de vlucht van vogels",
             "Ze lazen het Dodenboek",
-            "Ze vroegen het aan het orakel van Delphi",
+            "Ze vroegen het telkens aan het orakel van Delphi in Griekenland",
             "Ze telden de sterren in een ziggurat"
           ],
           "antwoord": 0,
@@ -2498,7 +2498,7 @@
           "opties": [
             "het gezag over zijn vrouw, zijn kinderen en zijn slaven",
             "enkel het recht om te stemmen",
-            "de taak om het huishouden te doen",
+            "de taak om het hele huishouden te doen en de maaltijden te koken",
             "geen enkele macht over zijn kinderen"
           ],
           "antwoord": 0,
@@ -2516,7 +2516,7 @@
           "vraag": "Een historicus was er zelf niet bij. Waaruit leidt hij het verleden dan af?",
           "opties": [
             "Uit alles wat er van vroeger overblijft",
-            "Uit zijn fantasie",
+            "Uit zijn fantasie en wat hij zelf logisch vindt",
             "Uit wat mensen vandaag denken"
           ],
           "antwoord": 0,
@@ -2551,7 +2551,7 @@
           "vraag": "Wat is een primaire bron?",
           "opties": [
             "Een bron die uit de tijd zelf komt",
-            "Een bron die het belangrijkst is",
+            "Een bron die het belangrijkst is voor jouw onderzoek",
             "Een bron die je als eerste leest"
           ],
           "antwoord": 0,
@@ -2562,7 +2562,7 @@
           "vraag": "Wat is een secundaire bron?",
           "opties": [
             "Een bron die later gemaakt is op basis van andere bronnen",
-            "Een bron van minder belang",
+            "Een bron van minder belang, die je pas op het einde van je onderzoek leest",
             "Een bron zonder maker"
           ],
           "antwoord": 0,
@@ -2629,7 +2629,7 @@
           "vraag": "Wat is een ooggetuige?",
           "opties": [
             "Iemand die het zelf gezien heeft",
-            "Iemand die erover gelezen heeft",
+            "Iemand die er later over gelezen heeft",
             "Iemand die het onderzoekt"
           ],
           "antwoord": 0,
@@ -2646,7 +2646,7 @@
           "vraag": "Wat is een tijdgenoot?",
           "opties": [
             "Iemand die in dezelfde tijd leefde, ook al was hij er niet bij",
-            "Iemand die het later onderzocht",
+            "Iemand die het later onderzocht met bronnen uit die tijd",
             "Iemand van dezelfde leeftijd als jij"
           ],
           "antwoord": 0,
@@ -2678,7 +2678,7 @@
           "vraag": "Waarom wil een historicus weten wie een bron gemaakt heeft?",
           "opties": [
             "Omdat elke maker vanuit zijn eigen positie en belang vertelt",
-            "Omdat hij anders niet mag citeren",
+            "Omdat hij anders niet mag citeren uit die bron in zijn eigen boek",
             "Om de maker te kunnen betalen"
           ],
           "antwoord": 0,
@@ -2688,8 +2688,8 @@
           "type": "meerkeuze",
           "vraag": "Wat is het verschil tussen het verleden en de geschiedenis?",
           "opties": [
-            "Het verleden is alles wat gebeurd is; geschiedenis is het verhaal dat historici erover maken",
-            "Er is geen verschil",
+            "Het verleden is alles wat gebeurd is; geschiedenis is het verhaal erover",
+            "Er is geen verschil, het zijn twee woorden voor alles wat voorbij is",
             "Het verleden is korter dan de geschiedenis"
           ],
           "antwoord": 0,
@@ -2699,9 +2699,9 @@
           "type": "meerkeuze",
           "vraag": "Wat kan een kunstwerk een historicus vertellen?",
           "opties": [
-            "Hoe mensen toen naar zichzelf en naar de wereld keken",
-            "Enkel hoe goed de kunstenaar kon tekenen",
-            "Niets"
+            "Hoe mensen toen naar zichzelf en de wereld keken",
+            "Enkel hoe goed de kunstenaar kon tekenen en schilderen",
+            "Niets, want een kunstwerk is verzonnen en dus geen bron"
           ],
           "antwoord": 0,
           "uitleg": "Wat mensen afbeelden, en hoe ze het afbeelden, verraadt wat zij belangrijk vonden."
@@ -2771,8 +2771,8 @@
           "type": "meerkeuze",
           "vraag": "Wat is het verschil tussen bruikbaar en betrouwbaar?",
           "opties": [
-            "Bruikbaar = ze geeft antwoord op jouw vraag; betrouwbaar = wat erin staat klopt",
-            "Het is hetzelfde",
+            "Bruikbaar: ze antwoordt op jouw vraag; betrouwbaar: wat erin staat klopt",
+            "Het is hetzelfde, beide woorden betekenen dat je de bron mag gebruiken",
             "Bruikbaar betekent dat ze oud is, betrouwbaar dat ze pas geleden gemaakt werd"
           ],
           "antwoord": 0,
@@ -2783,7 +2783,7 @@
           "vraag": "Wanneer is een bron onbruikbaar, ook al klopt alles wat erin staat?",
           "opties": [
             "Als ze niets zegt over de vraag die jij onderzoekt",
-            "Als ze in een andere taal geschreven is",
+            "Als ze in een andere taal geschreven is dan het Nederlands",
             "Als ze te oud is"
           ],
           "antwoord": 0,
@@ -2827,8 +2827,8 @@
           "vraag": "De Griekse schrijver Herodotos noemt de Perzen 'barbaren'. Wat bedoelde hij daarmee?",
           "opties": [
             "Mensen die geen Grieks spraken",
-            "Wrede en domme mensen",
-            "Soldaten te paard"
+            "Wrede en domme mensen zonder beschaving",
+            "Soldaten die te paard vochten"
           ],
           "antwoord": 0,
           "uitleg": "Voor de Grieken was het gewoon 'niet-Grieks'. Het woord klonk naar hun oren als onverstaanbaar gebrabbel."
@@ -2838,7 +2838,7 @@
           "vraag": "Waarom is dat woord een goed voorbeeld van standplaatsgebondenheid?",
           "opties": [
             "Wij lezen 'barbaar' als onbeschaafd, terwijl de Grieken iets anders bedoelden",
-            "Omdat Herodotos loog",
+            "Omdat Herodotos loog over de Perzen om de Grieken moed te geven",
             "Omdat het woord uit het Perzisch komt en dus vreemd klonk in Griekse oren"
           ],
           "antwoord": 0,
@@ -2849,7 +2849,7 @@
           "vraag": "Heb jij zelf ook standplaatsgebondenheid?",
           "opties": [
             "Ja, jouw achtergrond kleurt mee hoe jij het verleden ziet",
-            "Nee, alleen mensen uit vroeger tijden",
+            "Nee, alleen mensen uit vroeger tijden hadden daar last van",
             "Nee, alleen historici"
           ],
           "antwoord": 0,
@@ -2871,7 +2871,7 @@
           "vraag": "Waarom liet Ramses zijn 'overwinning' op tempelmuren uithouwen?",
           "opties": [
             "Om aan zijn eigen volk te tonen hoe machtig hij was",
-            "Om de Hettieten te informeren",
+            "Om de Hettieten te laten weten dat de oorlog voorbij was",
             "Om historici te helpen"
           ],
           "antwoord": 0,
@@ -2917,8 +2917,8 @@
           "vraag": "Wat bedoelt men met 'meerdere perspectieven hanteren'?",
           "opties": [
             "Hetzelfde voorval bekijken vanuit verschillende betrokkenen",
-            "Veel bronnen lezen over verschillende periodes",
-            "Meerdere antwoorden geven op dezelfde vraag"
+            "Veel bronnen lezen over verschillende periodes en landen",
+            "Meerdere antwoorden geven op dezelfde vraag, zodat er altijd één juist is"
           ],
           "antwoord": 0,
           "uitleg": "De slaaf, de soldaat en de keizer beleefden hetzelfde rijk. Hun verhalen erover lopen ver uiteen."
@@ -3000,7 +3000,7 @@
           "vraag": "Suetonius schreef meer dan honderd jaar na de dood van Julius Caesar over hem. Wat betekent dat voor zijn verslag?",
           "opties": [
             "Hij was geen ooggetuige en moest steunen op andere bronnen",
-            "Zijn verslag is daarom volledig betrouwbaar",
+            "Zijn verslag is daarom volledig betrouwbaar, want hij had alle tijd om na te denken",
             "Hij was een ooggetuige van de moord",
             "Zijn tekst is daardoor geen historische bron"
           ],

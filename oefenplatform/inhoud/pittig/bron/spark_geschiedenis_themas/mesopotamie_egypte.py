@@ -19,7 +19,7 @@ VRAGEN = [
         vraag="Archeologen vinden in Uruk een heel oud kleitablet met alleen getallen en namen van boeren. Wat is het het meest waarschijnlijk?",
         opties=[
             "Een lijst van graanleveringen, een stuk boekhouding",
-            "Een gedicht over de goden van de stad Uruk",
+            "Een gedicht over de goden van de stad Uruk en hun tempels",
             "Een brief van de koning van Uruk aan de farao",
             "Een verzameling spreuken voor het hiernamaals",
         ],
@@ -30,7 +30,7 @@ VRAGEN = [
         type="meerkeuze",
         vraag="Welke uitspraak over het bestuur in Mesopotamië en Egypte klopt?",
         opties=[
-            "Mesopotamië had stadstaten met elk een eigen bestuur, Egypte één rijk onder de farao",
+            "Mesopotamië had stadstaten met een eigen bestuur, Egypte één rijk onder de farao",
             "Mesopotamië had één koning over alle steden, Egypte bestond uit losse stadstaten",
             "Beide gebieden werden door één farao bestuurd, die als een god op aarde gold",
             "Beide gebieden bestonden uit stadstaten die voortdurend oorlog voerden met elkaar",
@@ -44,7 +44,7 @@ VRAGEN = [
         opties=[
             "Niemand kon die twee schriften lezen, dus er was geen vertrekpunt",
             "De steen was dan te klein geweest om de hele tekst op te zetten",
-            "Champollion had dan eerst het spijkerschrift moeten ontcijferen",
+            "Champollion had dan eerst het spijkerschrift van Mesopotamië moeten ontcijferen",
             "Er was dan geen probleem, want demotisch werd nog overal gelezen",
         ],
         antwoord=0,
@@ -93,7 +93,7 @@ VRAGEN = [
         vraag="Een handelaar in Ur verkoopt hout dat hij van ver gehaald heeft. Munten bestaan nog niet. Hoe rekent hij af?",
         opties=[
             "In een vaste maat graan of zilver, gewogen op een weegschaal",
-            "Met munten die de koning van Ur voor zijn stad liet slaan",
+            "Met munten die de koning van Ur voor zijn eigen stad liet slaan",
             "Met kleitabletten die de tempel als papiergeld uitgaf",
             "Hij krijgt niets, want handel mocht alleen tussen tempels",
         ],
@@ -141,7 +141,7 @@ VRAGEN = [
         vraag="Waarom groeide uit irrigatielandbouw vanzelf een bestuur met macht?",
         opties=[
             "Iemand moest het graafwerk organiseren en beslissen wie eerst water kreeg",
-            "De rivier was eigendom van de farao, die er belasting op vroeg",
+            "De rivier was eigendom van de farao, die er belasting op vroeg aan iedereen",
             "Boeren kozen elk jaar een koning om voor de regen te bidden",
             "De priesters hadden de kanalen gegraven en vroegen er geld voor",
         ],
