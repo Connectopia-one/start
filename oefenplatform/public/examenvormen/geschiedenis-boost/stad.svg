@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<path d="M0 560 C 200 520, 350 600, 520 560 S 820 520, 1000 570 L1000 640 L0 640 Z" fill="#a9cbe6"/>
+<path d="M40 600 q40 -12 80 0 M420 615 q40 -12 80 0 M800 600 q40 -12 80 0" stroke="#fff" stroke-width="4" fill="none"/>
+<path d="M610 585 l90 0 l-15 22 l-60 0 z" fill="#6b4f2a"/><line x1="655" y1="585" x2="655" y2="545" stroke="#6b4f2a" stroke-width="4"/><polygon points="657,548 690,580 657,580" fill="#fff" stroke="#6b4f2a" stroke-width="2"/>
+<rect x="70" y="40" width="860" height="470" rx="60" fill="#f4efe2" stroke="#8a7a5a" stroke-width="16"/>
+<rect x="250" y="250" width="420" height="200" fill="#e4dcc6" stroke="#b5a888" stroke-width="2"/>
+<rect x="280" y="320" width="300" height="100" fill="#d9c49a" stroke="#6b4f2a" stroke-width="3"/>
+<polygon points="270,320 430,280 590,320" fill="#9c6b3f"/>
+<rect x="295" y="355" width="18" height="40" rx="9" fill="#6b4f2a"/>
+<rect x="335" y="355" width="18" height="40" rx="9" fill="#6b4f2a"/>
+<rect x="375" y="355" width="18" height="40" rx="9" fill="#6b4f2a"/>
+<rect x="415" y="355" width="18" height="40" rx="9" fill="#6b4f2a"/>
+<rect x="455" y="355" width="18" height="40" rx="9" fill="#6b4f2a"/>
+<rect x="495" y="355" width="18" height="40" rx="9" fill="#6b4f2a"/>
+<rect x="535" y="355" width="18" height="40" rx="9" fill="#6b4f2a"/>
+<rect x="405" y="130" width="50" height="190" fill="#d9c49a" stroke="#6b4f2a" stroke-width="3"/>
+<polygon points="398,130 430,80 462,130" fill="#4d6b8a"/>
+<circle cx="430" cy="170" r="14" fill="#fff" stroke="#6b4f2a" stroke-width="3"/>
+<rect x="700" y="160" width="160" height="110" fill="#e8e1cf" stroke="#6b4f2a" stroke-width="3"/>
+<polygon points="690,160 780,120 870,160" fill="#9c6b3f"/>
+<rect x="740" y="80" width="40" height="80" fill="#e8e1cf" stroke="#6b4f2a" stroke-width="3"/>
+<polygon points="735,80 760,40 785,80" fill="#9c6b3f"/>
+<line x1="760" y1="40" x2="760" y2="14" stroke="#6b4f2a" stroke-width="4"/><line x1="750" y1="24" x2="770" y2="24" stroke="#6b4f2a" stroke-width="4"/>
+<circle cx="780" cy="205" r="18" fill="#a9cbe6" stroke="#6b4f2a" stroke-width="3"/>
+<rect x="110" y="130" width="46" height="40" fill="#c9b48a" stroke="#6b4f2a" stroke-width="2"/><polygon points="106,130 133,110 160,130" fill="#b06f4a"/>
+<rect x="170" y="130" width="46" height="40" fill="#c9b48a" stroke="#6b4f2a" stroke-width="2"/><polygon points="166,130 193,110 220,130" fill="#b06f4a"/>
+<rect x="110" y="420" width="46" height="40" fill="#c9b48a" stroke="#6b4f2a" stroke-width="2"/><polygon points="106,420 133,400 160,420" fill="#b06f4a"/>
+<rect x="170" y="420" width="46" height="40" fill="#c9b48a" stroke="#6b4f2a" stroke-width="2"/><polygon points="166,420 193,400 220,420" fill="#b06f4a"/>
+<rect x="720" y="400" width="46" height="40" fill="#c9b48a" stroke="#6b4f2a" stroke-width="2"/><polygon points="716,400 743,380 770,400" fill="#b06f4a"/>
+<rect x="780" y="400" width="46" height="40" fill="#c9b48a" stroke="#6b4f2a" stroke-width="2"/><polygon points="776,400 803,380 830,400" fill="#b06f4a"/>
+<rect x="840" y="400" width="46" height="40" fill="#c9b48a" stroke="#6b4f2a" stroke-width="2"/><polygon points="836,400 863,380 890,400" fill="#b06f4a"/>
+<rect x="230" y="130" width="46" height="40" fill="#c9b48a" stroke="#6b4f2a" stroke-width="2"/><polygon points="226,130 253,110 280,130" fill="#b06f4a"/>
+<rect x="560" y="130" width="46" height="40" fill="#c9b48a" stroke="#6b4f2a" stroke-width="2"/><polygon points="556,130 583,110 610,130" fill="#b06f4a"/>
+<rect x="470" y="490" width="60" height="36" fill="#8a7a5a"/><rect x="487" y="500" width="26" height="26" rx="12" fill="#3a2a1a"/>
+<circle cx="480" cy="215" r="28" fill="#2f4a22" stroke="#fff" stroke-width="4"/><text x="480" y="226" font-size="30" font-weight="bold" text-anchor="middle" fill="#fff">A</text>
+<circle cx="330" cy="470" r="28" fill="#2f4a22" stroke="#fff" stroke-width="4"/><text x="330" y="481" font-size="30" font-weight="bold" text-anchor="middle" fill="#fff">B</text>
+<circle cx="890" cy="230" r="28" fill="#2f4a22" stroke="#fff" stroke-width="4"/><text x="890" y="241" font-size="30" font-weight="bold" text-anchor="middle" fill="#fff">C</text>
+<text x="80" y="30" font-size="18" fill="#555">Schema van een middeleeuwse stad, geen kaart.</text>
+</svg>

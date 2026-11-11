@@ -135,6 +135,126 @@ def invallen():
     d.append("</svg>")
     (UIT / "invallen.svg").write_text("\n".join(d) + "\n", encoding="utf-8")
 
+# ---------------------------------------------------------------- tijdlijn 1000-1500
+def x_jaar3(jaar):
+    return X0 + (jaar - 1000) / 500 * (X1 - X0)
+
+
+def zone_jaar3(van, tot):
+    """Klikvak in procent van jaar van tot jaar tot."""
+    return [round(x_jaar3(van) / B * 100, 1), 25, round((x_jaar3(tot) - x_jaar3(van)) / B * 100, 1), 55]
+
+
+def tijdlijn_1000_1500():
+    d = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {B} {H}" width="{B}" height="{H}" font-family="Arial, sans-serif">',
+         f'<rect width="{B}" height="{H}" fill="{ACHTER}"/>',
+         f'<line x1="{X0}" y1="110" x2="{X1}" y2="110" stroke="{GROEN}" stroke-width="5"/>',
+         f'<polygon points="{X1},98 {X1+24},110 {X1},122" fill="{GROEN}"/>']
+    for j in range(1000, 1501, 10):
+        x = x_jaar3(j)
+        if j % 100 == 0:
+            d.append(f'<line x1="{x:.1f}" y1="92" x2="{x:.1f}" y2="128" stroke="{GROEN}" stroke-width="4"/>')
+            d.append(f'<text x="{x:.1f}" y="166" font-size="28" text-anchor="middle" fill="{DONKER}">{j}</text>')
+        elif j % 50 == 0:
+            d.append(f'<line x1="{x:.1f}" y1="98" x2="{x:.1f}" y2="122" stroke="{GROEN}" stroke-width="2.5"/>')
+        else:
+            d.append(f'<line x1="{x:.1f}" y1="104" x2="{x:.1f}" y2="116" stroke="{GROEN}" stroke-width="1.2"/>')
+    d.append(f'<text x="{X0}" y="50" font-size="22" fill="{DONKER}">Een groot streepje om de 100 jaar, een middelgroot om de 50, een klein om de 10 jaar</text>')
+    d.append("</svg>")
+    (UIT / "tijdlijn-1000-1500.svg").write_text("\n".join(d) + "\n", encoding="utf-8")
+
+
+def letter(x, y, l):
+    return (f'<circle cx="{x}" cy="{y}" r="28" fill="{GROEN}" stroke="#fff" stroke-width="4"/>'
+            f'<text x="{x}" y="{y + 11}" font-size="30" font-weight="bold" text-anchor="middle" fill="#fff">{l}</text>')
+
+
+# ---------------------------------------------------------------- domein
+# Schema, geen kaart. A = vroonland, B = hoevenland, C = bos, D = molen en oven.
+# Klikvak vroonland: 30-62 % breed, 32-94 % hoog.
+DOMEIN_W, DOMEIN_H = 1000, 620
+
+
+def domein():
+    W, Hh = DOMEIN_W, DOMEIN_H
+    d = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {Hh}" width="{W}" height="{Hh}" font-family="Arial, sans-serif">',
+         f'<rect width="{W}" height="{Hh}" fill="{ACHTER}"/>',
+         # bos bovenaan
+         f'<rect x="20" y="20" width="960" height="150" rx="20" fill="#d6e4c6" stroke="{GROEN}" stroke-width="3"/>']
+    for i in range(16):
+        x = 60 + i * 58
+        y = 80 + (i % 2) * 40
+        d.append(f'<rect x="{x - 4}" y="{y + 18}" width="8" height="22" fill="#6b4f2a"/><circle cx="{x}" cy="{y}" r="24" fill="#5f8a45"/>')
+    # molen en oven links
+    d += [f'<rect x="20" y="200" width="260" height="400" rx="20" fill="#f4efe2" stroke="{GROEN}" stroke-width="3"/>',
+          '<rect x="70" y="330" width="90" height="90" fill="#c9b48a" stroke="#6b4f2a" stroke-width="3"/>',
+          '<polygon points="60,330 115,280 170,330" fill="#9c6b3f"/>',
+          '<g stroke="#6b4f2a" stroke-width="10" stroke-linecap="round"><line x1="115" y1="300" x2="115" y2="230"/><line x1="115" y1="300" x2="185" y2="300"/><line x1="115" y1="300" x2="115" y2="370"/><line x1="115" y1="300" x2="45" y2="300"/></g>',
+          '<rect x="150" y="470" width="100" height="70" rx="30" fill="#b9805a" stroke="#6b4f2a" stroke-width="3"/>',
+          '<rect x="185" y="505" width="30" height="35" rx="12" fill="#3a2a1a"/>',
+          '<path d="M200 470 q-10 -25 5 -45" stroke="#999" stroke-width="5" fill="none"/>']
+    # vroonland midden: groot veld met voren
+    d.append(f'<rect x="300" y="200" width="320" height="400" rx="20" fill="#efe0a6" stroke="{GROEN}" stroke-width="3"/>')
+    for y in range(225, 590, 24):
+        d.append(f'<line x1="320" y1="{y}" x2="600" y2="{y}" stroke="#c9b06a" stroke-width="3"/>')
+    # hoevenland rechts: vier smalle stroken, elk met een huisje
+    d.append(f'<rect x="640" y="200" width="340" height="400" rx="20" fill="#e6ecd8" stroke="{GROEN}" stroke-width="3"/>')
+    for i in range(4):
+        x = 650 + i * 82
+        d.append(f'<rect x="{x}" y="290" width="72" height="300" fill="#efe0a6" stroke="#c9b06a" stroke-width="2"/>')
+        d.append(f'<rect x="{x + 16}" y="235" width="40" height="34" fill="#c9b48a" stroke="#6b4f2a" stroke-width="2"/><polygon points="{x + 10},235 {x + 36},212 {x + 62},235" fill="#9c6b3f"/>')
+    d += [letter(460, 400, "A"), letter(810, 440, "B"), letter(500, 95, "C"), letter(230, 250, "D"),
+          f'<text x="980" y="614" font-size="18" text-anchor="end" fill="#555">Schema van een domein, geen kaart.</text>',
+          "</svg>"]
+    (UIT / "domein.svg").write_text("\n".join(d) + "\n", encoding="utf-8")
+
+
+# ---------------------------------------------------------------- stad
+# Schema van een middeleeuwse stad. A = belfort, B = lakenhalle, C = kathedraal.
+# De rivier loopt onderaan: klikvak 0-100 % breed, 84-100 % hoog.
+STAD_W, STAD_H = 1000, 640
+
+
+def stad():
+    W, Hh = STAD_W, STAD_H
+    d = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {Hh}" width="{W}" height="{Hh}" font-family="Arial, sans-serif">',
+         f'<rect width="{W}" height="{Hh}" fill="{ACHTER}"/>',
+         # rivier
+         '<path d="M0 560 C 200 520, 350 600, 520 560 S 820 520, 1000 570 L1000 640 L0 640 Z" fill="#a9cbe6"/>',
+         '<path d="M40 600 q40 -12 80 0 M420 615 q40 -12 80 0 M800 600 q40 -12 80 0" stroke="#fff" stroke-width="4" fill="none"/>',
+         # boot
+         '<path d="M610 585 l90 0 l-15 22 l-60 0 z" fill="#6b4f2a"/><line x1="655" y1="585" x2="655" y2="545" stroke="#6b4f2a" stroke-width="4"/><polygon points="657,548 690,580 657,580" fill="#fff" stroke="#6b4f2a" stroke-width="2"/>',
+         # stadsmuur
+         f'<rect x="70" y="40" width="860" height="470" rx="60" fill="#f4efe2" stroke="#8a7a5a" stroke-width="16"/>',
+         # markt
+         '<rect x="250" y="250" width="420" height="200" fill="#e4dcc6" stroke="#b5a888" stroke-width="2"/>',
+         # lakenhalle: lang laag gebouw
+         '<rect x="280" y="320" width="300" height="100" fill="#d9c49a" stroke="#6b4f2a" stroke-width="3"/>',
+         '<polygon points="270,320 430,280 590,320" fill="#9c6b3f"/>']
+    for i in range(7):
+        d.append(f'<rect x="{295 + i * 40}" y="355" width="18" height="40" rx="9" fill="#6b4f2a"/>')
+    # belfort: hoge smalle toren midden op de lakenhalle, zonder kruis
+    d += ['<rect x="405" y="130" width="50" height="190" fill="#d9c49a" stroke="#6b4f2a" stroke-width="3"/>',
+          '<polygon points="398,130 430,80 462,130" fill="#4d6b8a"/>',
+          '<circle cx="430" cy="170" r="14" fill="#fff" stroke="#6b4f2a" stroke-width="3"/>',
+          # kathedraal rechtsboven met kruis
+          '<rect x="700" y="160" width="160" height="110" fill="#e8e1cf" stroke="#6b4f2a" stroke-width="3"/>',
+          '<polygon points="690,160 780,120 870,160" fill="#9c6b3f"/>',
+          '<rect x="740" y="80" width="40" height="80" fill="#e8e1cf" stroke="#6b4f2a" stroke-width="3"/>',
+          '<polygon points="735,80 760,40 785,80" fill="#9c6b3f"/>',
+          '<line x1="760" y1="40" x2="760" y2="14" stroke="#6b4f2a" stroke-width="4"/><line x1="750" y1="24" x2="770" y2="24" stroke="#6b4f2a" stroke-width="4"/>',
+          '<circle cx="780" cy="205" r="18" fill="#a9cbe6" stroke="#6b4f2a" stroke-width="3"/>']
+    # huizen
+    for x, y in [(110, 110), (170, 110), (110, 400), (170, 400), (720, 380), (780, 380), (840, 380), (230, 110), (560, 110)]:
+        d.append(f'<rect x="{x}" y="{y + 20}" width="46" height="40" fill="#c9b48a" stroke="#6b4f2a" stroke-width="2"/><polygon points="{x - 4},{y + 20} {x + 23},{y} {x + 50},{y + 20}" fill="#b06f4a"/>')
+    # stadspoort onderaan in de muur
+    d += ['<rect x="470" y="490" width="60" height="36" fill="#8a7a5a"/><rect x="487" y="500" width="26" height="26" rx="12" fill="#3a2a1a"/>',
+          letter(500, 100, "A") if False else letter(480, 215, "A"), letter(330, 470, "B"), letter(890, 230, "C"),
+          f'<text x="80" y="30" font-size="18" fill="#555">Schema van een middeleeuwse stad, geen kaart.</text>',
+          "</svg>"]
+    (UIT / "stad.svg").write_text("\n".join(d) + "\n", encoding="utf-8")
+
+
 
 if __name__ == "__main__":
     UIT.mkdir(parents=True, exist_ok=True)
@@ -142,6 +262,10 @@ if __name__ == "__main__":
     schaalniveaus()
     tijdlijn_400_1000()
     invallen()
+    tijdlijn_1000_1500()
+    domein()
+    stad()
+    print("1000-1500 11de eeuw", zone_jaar3(1000, 1100), "1347", zone_jaar3(1337, 1357))
     for j in (476, 751, 800, 843):
         print('400-1000', j, zone_jaar2(j))
     print('Vlaanderen', zones_ring('het graafschap Vlaanderen'))
