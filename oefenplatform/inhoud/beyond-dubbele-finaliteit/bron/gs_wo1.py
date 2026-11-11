@@ -29,7 +29,7 @@ DEEL1 = [
         vraag="Wat was de aanleiding van de Eerste Wereldoorlog?",
         opties=[
             "de moord op de Oostenrijkse troonopvolger in Sarajevo",
-            "de inval van het Duitse leger in België in augustus",
+            "de inval van het Duitse leger in België in augustus van dat jaar",
             "de revolutie van de arbeiders in het Russische rijk",
             "de weigering van Frankrijk om Elzas af te staan",
         ],
@@ -59,7 +59,7 @@ DEEL1 = [
         vraag="Waarom viel het Duitse leger in augustus 1914 België binnen?",
         opties=[
             "om Frankrijk langs het noorden snel te kunnen verslaan",
-            "om de Belgische steenkoolmijnen in handen te krijgen",
+            "om de Belgische steenkoolmijnen en de haven van Antwerpen in handen te krijgen",
             "om de Belgische koning van zijn troon te stoten",
             "om Congo van de Belgische staat af te nemen",
         ],
@@ -206,7 +206,7 @@ DEEL1 = [
         vraag="Waarom noemt men de Eerste Wereldoorlog een wereldoorlog?",
         opties=[
             "er werd ook buiten Europa gevochten en kolonies werden ingezet",
-            "alle landen van de wereld hebben eraan deelgenomen",
+            "alle landen van de wereld hebben eraan deelgenomen, zonder één uitzondering",
             "de oorlog werd uitsluitend op de wereldzeeën uitgevochten",
             "de oorlog begon tegelijk in alle werelddelen van de aarde",
         ],
@@ -315,7 +315,7 @@ DEEL2 = [
         vraag="Waar werd in 1919 het vredesverdrag met Duitsland gesloten?",
         opties=[
             "in Versailles, bij Parijs",
-            "in Wenen, in Oostenrijk",
+            "in Wenen, de hoofdstad van Oostenrijk",
             "in Berlijn, in Duitsland",
             "in Londen, in Engeland",
         ],

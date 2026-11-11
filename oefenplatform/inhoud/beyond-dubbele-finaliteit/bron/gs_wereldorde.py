@@ -82,7 +82,7 @@ DEEL1 = [
         opties=[
             "Amerikaanse steun voor de heropbouw van West-Europa",
             "Sovjetsteun voor de heropbouw van Oost-Europa",
-            "een plan om Duitsland in vier zones te verdelen",
+            "een plan van de geallieerden om Duitsland in vier zones te verdelen",
             "een plan om de Verenigde Naties op te richten",
         ],
         antwoord=0,
@@ -129,7 +129,7 @@ DEEL1 = [
         vraag="Waarom werd in 1961 de Berlijnse Muur gebouwd?",
         opties=[
             "om de vlucht van inwoners naar het westen te stoppen",
-            "om West-Berlijn tegen een aanval te beschermen",
+            "om West-Berlijn tegen een aanval van de Sovjet-Unie te beschermen",
             "om de stad tegen een overstroming te beveiligen",
             "om de grens met Polen vast te leggen",
         ],
@@ -201,7 +201,7 @@ DEEL1 = [
         vraag="Je ziet een kaart van Europa uit 1960 met een dikke lijn van de Oostzee tot de Adriatische Zee. Wat stelt die voor?",
         opties=[
             "het ijzeren gordijn tussen de twee blokken",
-            "de frontlijn van de Tweede Wereldoorlog",
+            "de frontlijn van de Tweede Wereldoorlog in 1945",
             "de grens van het Romeinse Rijk",
             "de taalgrens van het Europese vasteland",
         ],
@@ -252,7 +252,7 @@ DEEL2 = [
         vraag="Wat gebeurde er in 1956 in Hongarije en in 1968 in Tsjechoslowakije?",
         opties=[
             "pogingen tot hervorming werden door sovjettroepen beëindigd",
-            "beide landen verlieten het Warschaupact zonder gevolgen",
+            "beide landen verlieten het Warschaupact zonder enig gevolg of ingrijpen",
             "beide landen werden lid van de NAVO en van de EEG",
             "beide landen kregen van Moskou een eigen koers toegewezen",
         ],
@@ -324,7 +324,7 @@ DEEL2 = [
         vraag="Wat gebeurde er in 1991 met de Sovjet-Unie?",
         opties=[
             "zij viel uiteen in vijftien onafhankelijke staten",
-            "zij veranderde haar naam in Russische Federatie",
+            "zij veranderde enkel haar naam in Russische Federatie",
             "zij trad toe tot de NAVO en de Europese Unie",
             "zij bezette opnieuw de landen van Oost-Europa",
         ],

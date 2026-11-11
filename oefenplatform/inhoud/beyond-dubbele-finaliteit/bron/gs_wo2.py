@@ -27,7 +27,7 @@ DEEL1 = [
         vraag="Wat is een blitzkrieg?",
         opties=[
             "een snelle aanval met tanks, vliegtuigen en motorvoertuigen",
-            "een oorlog die jarenlang in loopgraven wordt uitgevochten",
+            "een oorlog die jarenlang in loopgraven wordt uitgevochten, zonder te bewegen",
             "een oorlog die uitsluitend in de lucht wordt gevoerd",
             "een aanval met bombardementen en daarna een belegering",
         ],
@@ -216,7 +216,7 @@ DEEL2 = [
         vraag="Wat betekent het woord Holocaust of Shoah?",
         opties=[
             "de systematische vernietiging van de Joden van Europa",
-            "de bombardementen op de Duitse en Britse steden",
+            "de bombardementen op de Duitse en Britse steden tijdens de oorlog",
             "de verplichte tewerkstelling van Europese arbeiders",
             "de vlucht van miljoenen mensen uit hun eigen land",
         ],
@@ -242,7 +242,7 @@ DEEL2 = [
         vraag="Wat was een getto in de bezette gebieden in Oost-Europa?",
         opties=[
             "een afgesloten wijk waar Joden gedwongen moesten wonen",
-            "een kamp waar krijgsgevangenen werden vastgehouden",
+            "een kamp waar krijgsgevangenen van het front werden vastgehouden",
             "een fabriek waar dwangarbeiders moesten werken",
             "een wijk die bij een bombardement verwoest was",
         ],
@@ -284,7 +284,7 @@ DEEL2 = [
         vraag="Van waar in België werden de Joden naar de kampen gedeporteerd?",
         opties=[
             "uit de Dossinkazerne in Mechelen",
-            "uit het Noordstation in Brussel",
+            "uit het Noordstation in Brussel, per trein",
             "uit de haven van Antwerpen",
             "uit de citadel van Luik",
         ],
@@ -298,7 +298,7 @@ DEEL2 = [
             "meer dan vijfentwintigduizend mensen",
             "ongeveer tweehonderd mensen",
             "ongeveer tweeduizend mensen",
-            "meer dan een half miljoen mensen",
+            "meer dan een half miljoen mensen, uit alle steden",
         ],
         antwoord=0,
         uitleg="Slechts een kleine minderheid van hen heeft de oorlog overleefd.",
@@ -408,7 +408,7 @@ DEEL2 = [
         vraag="Je leest een getuigenis van een overlevende van Auschwitz, zestig jaar na de feiten. Hoe ga je ermee om?",
         opties=[
             "als een waardevolle bron, die je naast documenten en cijfers legt",
-            "als een bron die je verwerpt, want het geheugen bedriegt altijd",
+            "als een bron die je verwerpt, want het geheugen bedriegt na zoveel jaren altijd",
             "als een bron die alle andere bronnen overbodig maakt",
             "als een bron zonder waarde, want ze is niet van die tijd zelf",
         ],

@@ -65,7 +65,7 @@ DEEL1 = [
         vraag="Hoe werd het rubber in de Vrijstaat ingezameld?",
         opties=[
             "dorpen moesten onder dwang een vastgelegde hoeveelheid leveren",
-            "arbeiders deden het vrijwillig tegen een afgesproken loon",
+            "arbeiders deden het vrijwillig tegen een afgesproken en eerlijk loon",
             "Europese arbeiders werden daarvoor uit België overgebracht",
             "machines in grote fabrieken deden dat werk in de plaats",
         ],
@@ -109,7 +109,7 @@ DEEL1 = [
         vraag="Wat is de chicotte die in de Vrijstaat werd gebruikt?",
         opties=[
             "een zweep van gedroogde huid, gebruikt om te straffen",
-            "een werktuig om het rubber uit de lianen te tappen",
+            "een werktuig om het rubber uit de lianen in het woud te tappen",
             "een boot waarmee men de Congostroom kon bevaren",
             "een munt waarmee men de arbeiders uitbetaalde",
         ],
@@ -194,7 +194,7 @@ DEEL1 = [
         vraag="Je ziet een foto uit 1904 van een Congolese man met een verminkte hand. Wat zegt die bron?",
         opties=[
             "dat verminking als straf of als bewijsstuk werd gebruikt",
-            "dat de man bij het rubbertappen een ongeluk heeft gehad",
+            "dat de man bij het rubbertappen in het woud een ongeluk heeft gehad",
             "dat het beeld later in een studio in scène is gezet",
             "dat de Belgische staat dit toen al verboden had",
         ],
@@ -338,7 +338,7 @@ DEEL2 = [
         vraag="Wanneer kwamen er in Congo de eerste universiteiten?",
         opties=[
             "in de jaren vijftig, kort voor de onafhankelijkheid",
-            "in 1908, meteen bij de overname door België",
+            "in 1908, meteen bij de overname van de kolonie door België",
             "in de jaren twintig, na de Eerste Wereldoorlog",
             "pas na de onafhankelijkheid van het land",
         ],

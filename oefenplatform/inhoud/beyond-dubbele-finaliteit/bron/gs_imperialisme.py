@@ -52,7 +52,7 @@ DEEL1 = [
         vraag="Welke politieke oorzaak had het modern imperialisme?",
         opties=[
             "een grote mogendheid wilde niet achterblijven bij haar rivalen",
-            "een grote mogendheid wilde haar eigen leger kunnen afschaffen",
+            "een grote mogendheid wilde haar eigen grondwet en parlement ook in Afrika invoeren",
             "een grote mogendheid wilde haar grondwet in Afrika invoeren",
             "een grote mogendheid wilde haar kolonies aan Europa afgeven",
         ],
@@ -83,7 +83,7 @@ DEEL1 = [
         opties=[
             "een gebied dat door een vreemde staat bestuurd wordt",
             "een gebied dat met een vreemde staat handel drijft",
-            "een gebied dat zijn eigen vorst en wetten behoudt",
+            "een gebied dat zijn eigen vorst, wetten en leger volledig behoudt",
             "een gebied dat door de Volkenbond bestuurd wordt",
         ],
         antwoord=0,
@@ -192,7 +192,7 @@ DEEL1 = [
         vraag="Je leest een tekst uit 1890 over de plicht van de blanke man om andere volken te leiden. Hoe lees je dat?",
         opties=[
             "als een rechtvaardiging van de overheersing van die tijd",
-            "als een betrouwbare beschrijving van die andere volken",
+            "als een betrouwbare en neutrale beschrijving van die andere volken",
             "als een tekst van een tegenstander van het imperialisme",
             "als een wetenschappelijk bewijs voor ongelijke volken",
         ],
@@ -220,7 +220,7 @@ DEEL2 = [
         vraag="Wat gebeurde er op de Conferentie van Berlijn van 1884 en 1885?",
         opties=[
             "de mogendheden maakten afspraken over de verdeling van Afrika",
-            "de mogendheden gaven Afrika zijn onafhankelijkheid terug",
+            "de mogendheden gaven Afrika er zijn onafhankelijkheid terug, land per land",
             "de mogendheden verdeelden Europa na de val van Napoleon",
             "de mogendheden richtten daar de Volkenbond op",
         ],
@@ -244,7 +244,7 @@ DEEL2 = [
         vraag="Wie kreeg op de Conferentie van Berlijn het Congobekken toegewezen?",
         opties=[
             "koning Leopold II als persoonlijk bezit",
-            "de Belgische staat als gewone kolonie",
+            "de Belgische staat, als een gewone kolonie",
             "Groot-Brittannië als protectoraat",
             "Frankrijk als invloedssfeer",
         ],
@@ -263,7 +263,7 @@ DEEL2 = [
         opties=[
             "bijna het hele werelddeel, op twee staten na",
             "ongeveer de helft van het hele werelddeel",
-            "enkel de kusten en de grote riviermondingen",
+            "enkel de kusten en de grote riviermondingen, niet het binnenland",
             "nog geen kwart van het hele werelddeel",
         ],
         antwoord=0,

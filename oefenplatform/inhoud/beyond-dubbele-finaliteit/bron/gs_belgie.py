@@ -27,7 +27,7 @@ DEEL1 = [
         vraag="Waarom maakten de mogendheden van het Noorden en het Zuiden één staat?",
         opties=[
             "om een sterke buffer tegen Frankrijk te vormen",
-            "om de twee volken één taal te laten spreken",
+            "om de twee volken na de val van Napoleon één taal te laten spreken",
             "om de industrie van het Zuiden af te breken",
             "om de paus meer invloed in Europa te geven",
         ],
@@ -150,7 +150,7 @@ DEEL1 = [
         vraag="Wat gebeurde er in september 1830 in het Warandepark in Brussel?",
         opties=[
             "vrijwilligers verdreven de Nederlandse troepen uit de stad",
-            "de Nederlandse troepen sloegen de opstand volledig neer",
+            "de Nederlandse troepen sloegen de opstand er volledig en meteen neer",
             "het Nationaal Congres schreef daar de grondwet uit",
             "koning Leopold I legde daar zijn eed op de grondwet af",
         ],
@@ -294,7 +294,7 @@ DEEL2 = [
         vraag="Waarom zocht het Nationaal Congres een vorst uit het buitenland?",
         opties=[
             "om de nieuwe staat door de mogendheden erkend te krijgen",
-            "om in België zelf geen koning te moeten aanstellen",
+            "om in België zelf geen koning uit de eigen adel te moeten aanstellen",
             "om de taalstrijd in het land te kunnen beëindigen",
             "om de steenkoolmijnen in Wallonië te laten uitbaten",
         ],
@@ -306,7 +306,7 @@ DEEL2 = [
         vraag="Wat deed Willem I in augustus 1831, kort na de eedaflegging van Leopold I?",
         opties=[
             "hij viel België met zijn leger opnieuw binnen",
-            "hij erkende de onafhankelijkheid van België",
+            "hij erkende meteen de onafhankelijkheid van België",
             "hij riep zichzelf tot koning van België uit",
             "hij vroeg de paus om tussen beide te komen",
         ],
@@ -318,7 +318,7 @@ DEEL2 = [
         vraag="Welke rol speelde de Conferentie van Londen bij het ontstaan van België?",
         opties=[
             "de mogendheden regelden daar de erkenning en de grenzen",
-            "de Belgen schreven daar hun eigen grondwet uit",
+            "de Belgen schreven daar zelf, met de mogendheden, hun eigen grondwet uit",
             "de Belgen kozen daar hun eerste koning uit",
             "de paus erkende daar de nieuwe staat als katholiek",
         ],
@@ -342,7 +342,7 @@ DEEL2 = [
         vraag="Wanneer erkende Willem I de onafhankelijkheid van België?",
         opties=[
             "in 1839, acht jaar na de eedaflegging van Leopold I",
-            "in 1830, nog voor het Nationaal Congres bijeenkwam",
+            "in 1830, nog voor het Nationaal Congres in Brussel bijeenkwam",
             "in 1831, op de dag dat Leopold I de eed aflegde",
             "in 1914, toen de Duitsers het land binnenvielen",
         ],

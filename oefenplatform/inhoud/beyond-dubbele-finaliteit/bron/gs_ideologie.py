@@ -28,7 +28,7 @@ DEEL1 = [
         vraag="Wat is volgens het marxisme de motor van de geschiedenis?",
         opties=[
             "de strijd tussen de klassen om de productiemiddelen",
-            "de wil van de vorsten en hun oorlogen om gebied",
+            "de wil van de vorsten en hun oorlogen om gebied en om macht",
             "de vooruitgang van de wetenschap en de techniek",
             "de godsdienst en haar greep op het dagelijks leven",
         ],
@@ -46,7 +46,7 @@ DEEL1 = [
         vraag="Wat bedoelt Marx met de meerwaarde?",
         opties=[
             "het verschil tussen wat de arbeid opbrengt en wat het loon kost",
-            "de winst die een handelaar op de verkoop van goederen maakt",
+            "de winst die een handelaar op de verkoop van goederen aan de klanten maakt",
             "de belasting die de staat op de winst van de fabriek heft",
             "de rente die een bank op een lening aan de fabriek vraagt",
         ],
@@ -271,7 +271,7 @@ DEEL2 = [
         vraag="Hoe organiseerde de christelijke arbeidersbeweging zich in België?",
         opties=[
             "met eigen vakbonden, ziekenkassen en verenigingen",
-            "met één partij die ook de socialisten omvatte",
+            "met één grote partij die ook de socialisten en de liberalen omvatte",
             "zonder vakbonden, want die wees zij volledig af",
             "met een eigen leger naast dat van de staat",
         ],
@@ -307,7 +307,7 @@ DEEL2 = [
         vraag="Welke migratie hoort bij de industrialisering van de negentiende eeuw zelf?",
         opties=[
             "de trek van het platteland naar de industriesteden",
-            "de trek van de steden terug naar het platteland",
+            "de trek van de steden terug naar het platteland en de dorpen",
             "de trek van Marokkanen en Turken naar België",
             "de trek van Belgen naar de Duitse mijnstreek",
         ],
@@ -319,7 +319,7 @@ DEEL2 = [
         vraag="Waarom sloot België na 1945 akkoorden om arbeiders uit het buitenland te halen?",
         opties=[
             "er waren voor de mijnen en de heropbouw te weinig arbeiders",
-            "er waren in België te veel werklozen om aan werk te helpen",
+            "er waren in België te veel werklozen om allemaal aan werk te helpen",
             "de mogendheden verplichtten België daartoe met een verdrag",
             "de mijnen in België waren toen juist allemaal gesloten",
         ],

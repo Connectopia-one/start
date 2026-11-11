@@ -83,7 +83,7 @@ DEEL1 = [
         opties=[
             "de leden heffen geen invoerrechten op elkaars goederen",
             "de leden heffen wel invoerrechten op elkaars goederen",
-            "de leden gebruiken allemaal dezelfde munt",
+            "de leden gebruiken allemaal dezelfde munt en dezelfde centrale bank",
             "de leden hebben samen één leger en één politie",
         ],
         antwoord=0,

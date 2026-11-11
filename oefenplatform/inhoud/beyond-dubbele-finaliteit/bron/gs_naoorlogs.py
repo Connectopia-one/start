@@ -27,7 +27,7 @@ DEEL1 = [
         vraag="Waarover ging de koningskwestie na de Tweede Wereldoorlog?",
         opties=[
             "over de houding van Leopold III tijdens de bezetting",
-            "over de vraag of België nog een koning nodig had",
+            "over de vraag of België na de oorlog nog wel een koning nodig had",
             "over de taal die de koning moest gebruiken",
             "over het bezit van de koning in Congo",
         ],
@@ -222,7 +222,7 @@ DEEL2 = [
         vraag="Waarvoor staat de wereldtentoonstelling van 1958 in Brussel?",
         opties=[
             "voor het geloof in de vooruitgang na de oorlog",
-            "voor het begin van de crisis in de industrie",
+            "voor het begin van de grote crisis in de steenkool- en staalindustrie",
             "voor het einde van de Belgische kolonie Congo",
             "voor de eerste staatshervorming van het land",
         ],
@@ -300,7 +300,7 @@ DEEL2 = [
         vraag="Wat gebeurde er in 1990 in België met abortus?",
         opties=[
             "het werd onder voorwaarden uit het strafrecht gehaald",
-            "het werd voor het eerst volledig strafbaar gemaakt",
+            "het werd voor het eerst volledig en zonder uitzondering strafbaar gemaakt",
             "het werd in de grondwet als een recht ingeschreven",
             "het werd door de koning volledig verboden",
         ],
@@ -312,7 +312,7 @@ DEEL2 = [
         vraag="Wat besliste België in 2003?",
         opties=[
             "koppels van hetzelfde geslacht mochten huwen",
-            "het huwelijk werd voor iedereen afgeschaft",
+            "het burgerlijk huwelijk werd voor iedereen afgeschaft",
             "de scheiding werd uit de wet gehaald",
             "de adoptie werd voor iedereen verboden",
         ],
@@ -397,7 +397,7 @@ DEEL2 = [
         opties=[
             "de communautaire breuklijn weegt nog, de godsdienstige minder",
             "de drie breuklijnen zijn alle drie volledig verdwenen",
-            "de godsdienstige breuklijn is de belangrijkste gebleven",
+            "de godsdienstige breuklijn is de belangrijkste van de drie gebleven, tot vandaag",
             "er is sinds 1945 geen enkele nieuwe breuklijn bijgekomen",
         ],
         antwoord=0,

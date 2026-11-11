@@ -15,7 +15,7 @@ DEEL1 = [
         vraag="Waarover gingen de Opiumoorlogen in de negentiende eeuw?",
         opties=[
             "Groot-Brittannië dwong China zijn markt voor handel te openen",
-            "China viel Groot-Brittannië aan om zijn kolonies af te nemen",
+            "China viel Groot-Brittannië aan om zijn kolonies in Azië af te nemen",
             "China en Japan vochten over het bezit van Korea",
             "Groot-Brittannië en Frankrijk vochten over Hongkong",
         ],
@@ -205,7 +205,7 @@ DEEL1 = [
             "dat tijdgenoten China als te verdelen gebied beschouwden",
             "dat China toen een bondgenoot van Europa was geworden",
             "dat China in 1900 de sterkste mogendheid ter wereld was",
-            "dat de mogendheden China met rust wilden laten",
+            "dat de mogendheden China met rust wilden laten en zijn grenzen eerbiedigden",
         ],
         antwoord=0,
         uitleg="Een spotprent is een bron over hoe men dacht. Dat beeld van een verdeelbare cake zegt genoeg.",
@@ -242,7 +242,7 @@ DEEL2 = [
         vraag="Wat was het gevolg van de Grote Sprong Voorwaarts?",
         opties=[
             "een hongersnood die tientallen miljoenen mensen het leven kostte",
-            "een snelle stijging van de welvaart op het Chinese platteland",
+            "een snelle stijging van de welvaart en de voedselproductie op het Chinese platteland",
             "een vrije markt met veel buitenlandse bedrijven in China",
             "het einde van de communistische partij in China",
         ],
@@ -284,7 +284,7 @@ DEEL2 = [
         vraag="Wat kenmerkt het Chinese model na 1978?",
         opties=[
             "een markteconomie onder leiding van één partij",
-            "een vrije markt met vrije verkiezingen erbij",
+            "een vrije markt, met vrije verkiezingen en meerdere partijen erbij",
             "een geplande economie zoals onder Mao",
             "een economie zonder enige buitenlandse handel",
         ],
@@ -308,7 +308,7 @@ DEEL2 = [
         vraag="Wat gebeurde er in juni 1989 op het Tiananmenplein in Peking?",
         opties=[
             "een betoging voor meer vrijheid werd met geweld beëindigd",
-            "de communistische partij werd er afgezet door het leger",
+            "de communistische partij werd er door het leger en de studenten afgezet",
             "de economische hervormingen werden er afgekondigd",
             "Hongkong werd er weer bij China gevoegd",
         ],

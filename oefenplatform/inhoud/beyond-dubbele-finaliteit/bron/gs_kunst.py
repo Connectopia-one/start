@@ -94,7 +94,7 @@ DEEL1 = [
         vraag="Waarom is een historisch schilderij geen betrouwbaar verslag van de gebeurtenis?",
         opties=[
             "het is vaak later gemaakt en met een bedoeling",
-            "het is altijd door een ooggetuige gemaakt",
+            "het is altijd door een ooggetuige ter plaatse gemaakt",
             "het bevat nooit enige historische informatie",
             "het is altijd kleiner dan de werkelijkheid",
         ],
@@ -202,7 +202,7 @@ DEEL1 = [
         vraag="Waarom zet een historicus een kunstwerk naast andere bronnen?",
         opties=[
             "om te toetsen wat het werk wel en niet kan aantonen",
-            "om de prijs van het werk juist te kunnen schatten",
+            "om de prijs van het werk op de kunstmarkt juist te kunnen schatten",
             "om de kleuren van het werk beter te kunnen zien",
             "om de maker van het werk te kunnen ontmaskeren",
         ],
@@ -229,7 +229,7 @@ DEEL2 = [
         vraag="Wat kenmerkt het realisme in de kunst van de negentiende eeuw?",
         opties=[
             "het gewone leven en de arbeid worden zonder opsmuk getoond",
-            "de helden en de vorsten worden zo groot mogelijk getoond",
+            "de helden en de vorsten worden zo groot en zo edel mogelijk getoond",
             "het onderwerp verdwijnt volledig uit het werk",
             "enkel bijbelse en mythologische verhalen worden getoond",
         ],
@@ -319,7 +319,7 @@ DEEL2 = [
         vraag="Hoe gebruikte een totalitair regime de kunst?",
         opties=[
             "als propaganda, met een voorgeschreven stijl en inhoud",
-            "als een volledig vrije zaak van de kunstenaar zelf",
+            "als een volledig vrije zaak van de kunstenaar zelf, zonder enige inmenging",
             "als een handelsproduct voor de buitenlandse markt",
             "als iets dat volledig verboden werd in het land",
         ],
@@ -397,7 +397,7 @@ DEEL2 = [
         vraag="Je vergelijkt een realistisch werk uit 1870 met een abstract werk uit 1930. Welk verschil valt op?",
         opties=[
             "het eerste toont mensen, het tweede vorm en kleur",
-            "het eerste is abstract, het tweede is herkenbaar",
+            "het eerste is volledig abstract, het tweede is net herkenbaar",
             "beide werken tonen uitsluitend vorsten en helden",
             "beide werken zijn zonder enige kleur gemaakt",
         ],

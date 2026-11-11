@@ -129,7 +129,7 @@ DEEL1 = [
         vraag="Waarom stond Congo er in 1960 slecht voor om zichzelf te besturen?",
         opties=[
             "er waren amper Congolezen met een universitair diploma",
-            "er waren geen scholen voor Congolese kinderen geweest",
+            "er waren nooit scholen geweest voor Congolese kinderen, nergens in het land",
             "er waren geen grondstoffen in de bodem te vinden",
             "er was geen enkele politieke partij in het land",
         ],
@@ -141,7 +141,7 @@ DEEL1 = [
         vraag="Wat weet je over de toespraak van Lumumba op de plechtigheid van 30 juni 1960?",
         opties=[
             "hij sprak openlijk over het onrecht van de koloniale tijd",
-            "hij bedankte België voor zijn beschavingswerk in Congo",
+            "hij bedankte België uitvoerig voor zijn beschavingswerk in Congo",
             "hij vroeg België om nog dertig jaar te blijven besturen",
             "hij kondigde er de afscheiding van Katanga aan",
         ],
@@ -216,7 +216,7 @@ DEEL2 = [
         vraag="Wat gebeurde er kort na de onafhankelijkheid van Congo in juli 1960?",
         opties=[
             "het leger kwam in opstand en Katanga scheidde zich af",
-            "het land werd meteen een stabiele democratie",
+            "het land werd meteen een stabiele democratie met een sterk parlement",
             "België nam het bestuur van het land weer over",
             "de Verenigde Naties maakten Congo hun mandaatgebied",
         ],
@@ -252,7 +252,7 @@ DEEL2 = [
         vraag="Wat gebeurde er begin 1961 met Patrice Lumumba?",
         opties=[
             "hij werd afgezet, gevangengenomen en vermoord",
-            "hij vluchtte naar België en bleef daar wonen",
+            "hij vluchtte naar België en bleef daar tot zijn dood wonen",
             "hij bleef tot 1965 de premier van het land",
             "hij werd door de Verenigde Naties beschermd",
         ],
@@ -396,7 +396,7 @@ DEEL2 = [
         vraag="Je vergelijkt Belgisch Congo van 1950 met Congo van 1965. Welk verschil valt op?",
         opties=[
             "het bestuur lag eerst in Brussel en daarna bij één man in het land",
-            "het bestuur lag in beide jaren bij een verkozen parlement",
+            "het bestuur lag in beide jaren bij een verkozen parlement in Leopoldstad",
             "het bestuur lag in beide jaren volledig bij de Verenigde Naties",
             "het bestuur lag eerst bij de Congolezen en daarna bij België",
         ],
@@ -410,7 +410,7 @@ DEEL2 = [
             "grenzen, economie en bestuur dragen er nog de sporen van",
             "de koloniale tijd is sinds 1960 volledig uitgewist",
             "Congo heeft sinds 1960 geen eigen regering meer gehad",
-            "België bestuurt het land nog altijd in de praktijk",
+            "België bestuurt het land in de praktijk nog altijd vanuit Brussel",
         ],
         antwoord=0,
         uitleg="Een economie op de uitvoer van ertsen, grenzen uit Berlijn en een zwakke staat: dat erf je niet weg.",

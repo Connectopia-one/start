@@ -140,7 +140,7 @@ DEEL1 = [
         opties=[
             "om de handel niet van de Nederlandse waterwegen af te laten hangen",
             "om de werkloze arbeiders van het platteland een loon te geven",
-            "om de steenkool van de Kempen naar de kust te kunnen brengen",
+            "om de steenkool van de Kempen sneller naar de havens aan de kust te kunnen brengen",
             "om het leger van de koning sneller te kunnen laten oprukken",
         ],
         antwoord=0,
@@ -302,7 +302,7 @@ DEEL2 = [
         vraag="Wat is een kartel?",
         opties=[
             "een afspraak tussen bedrijven over prijzen of markten",
-            "een vereniging van arbeiders die hun loon verdedigt",
+            "een vereniging van arbeiders die samen hun loon en hun werkuren verdedigt",
             "een lening die een bank aan een fabrikant geeft",
             "een belasting op de invoer van vreemde goederen",
         ],

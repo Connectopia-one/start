@@ -46,7 +46,7 @@ DEEL1 = [
         vraag="Wie behoorde tot de kleine burgerij?",
         opties=[
             "winkeliers, ambachtslui en lagere bedienden",
-            "bankiers, fabrikanten en grote handelaars",
+            "bankiers, fabrikanten en grote handelaars uit de steden",
             "mijnwerkers, spinners en dagloners",
             "graven, baronnen en hun grondbezitters",
         ],
@@ -59,7 +59,7 @@ DEEL1 = [
         opties=[
             "de vraag wat er met de armoede van de arbeiders moest gebeuren",
             "de vraag welke taal het bestuur van het land moest gebruiken",
-            "de vraag of de kerk of de staat de scholen mocht inrichten",
+            "de vraag of de kerk of de staat de scholen in het land mocht inrichten",
             "de vraag welke mogendheid de kolonies mocht besturen",
         ],
         antwoord=0,
@@ -300,7 +300,7 @@ DEEL2 = [
         vraag="Waarom was het algemeen stemrecht de kerneis van de arbeidersbeweging?",
         opties=[
             "zonder stemrecht kon zij geen sociale wetten laten stemmen",
-            "zonder stemrecht mocht zij geen vakbond meer oprichten",
+            "zonder stemrecht mocht zij geen vakbond of ziekenkas meer oprichten",
             "zonder stemrecht mochten arbeiders niet naar school",
             "zonder stemrecht mochten arbeiders geen winkel openen",
         ],
@@ -324,7 +324,7 @@ DEEL2 = [
         vraag="Wat betekent het algemeen meervoudig stemrecht?",
         opties=[
             "elke man stemt, en sommigen krijgen extra stemmen",
-            "elke man en elke vrouw krijgt precies één stem",
+            "elke man en elke vrouw krijgt precies één stem, zonder uitzondering",
             "enkel wie genoeg belasting betaalt, mag stemmen",
             "elke gemeente krijgt één stem bij de verkiezing",
         ],

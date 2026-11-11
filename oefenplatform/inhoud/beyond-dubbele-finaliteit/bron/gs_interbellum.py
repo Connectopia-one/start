@@ -328,7 +328,7 @@ DEEL2 = [
         vraag="Welke politiek volgden Frankrijk en Groot-Brittannië tegenover Hitler voor 1939?",
         opties=[
             "zij gaven toe in de hoop zo een oorlog te vermijden",
-            "zij vielen Duitsland bij de eerste schending aan",
+            "zij vielen Duitsland meteen aan bij de eerste schending van het verdrag",
             "zij sloten een bondgenootschap met Duitsland",
             "zij lieten de Volkenbond Duitsland bezetten",
         ],

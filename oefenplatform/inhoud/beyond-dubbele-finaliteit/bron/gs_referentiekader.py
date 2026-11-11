@@ -85,7 +85,7 @@ DEEL1 = [
         opties=[
             "het economische domein",
             "het politieke domein",
-            "het culturele domein",
+            "het culturele domein van de vooruitgang",
             "het sociale domein",
         ],
         antwoord=0,
@@ -162,7 +162,7 @@ DEEL1 = [
         vraag="Waarom laat het einde van de Tweede Wereldoorlog een nieuwe historische periode beginnen?",
         opties=[
             "de machtsverhoudingen in de wereld werden grondig anders",
-            "er werd op die dag een nieuwe tijdrekening ingevoerd",
+            "er werd op die dag in heel de wereld een nieuwe tijdrekening ingevoerd",
             "de oorlog eindigde precies op een rond jaartal",
             "historici hadden daar al in 1900 over beslist",
         ],
@@ -244,7 +244,7 @@ DEEL2 = [
         vraag="Wat betekent het dat een begin- en einddatum van een periode symbolisch is?",
         opties=[
             "de datum staat voor een verandering die veel langer duurde",
-            "de datum is verzonnen en er gebeurde toen helemaal niets",
+            "de datum is verzonnen en er gebeurde toen in werkelijkheid helemaal niets",
             "de datum staat in geen enkele bewaarde bron vermeld",
             "de datum verandert met elke nieuwe studie",
         ],
@@ -310,7 +310,7 @@ DEEL2 = [
         vraag="Waarom situeer je de eerste industriële revolutie in de regio's met steenkool en ijzererts?",
         opties=[
             "steenkool en ijzererts waren nodig voor stoom en staal",
-            "daar woonden de rijkste fabrikanten van het land",
+            "daar woonden de rijkste fabrikanten en bankiers van het hele land",
             "daar lag in elk land ook de hoofdstad van het bestuur",
             "daar was het klimaat het warmst en het droogst",
         ],

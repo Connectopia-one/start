@@ -94,7 +94,7 @@ DEEL1 = [
         vraag="Wat is een anachronisme?",
         opties=[
             "iets uit een andere tijd in een verkeerde tijd plaatsen",
-            "een bron die in een vreemde taal is opgetekend",
+            "een bron die in een vreemde taal, zoals het Latijn, is opgetekend",
             "een bron waarvan de naam van de auteur onbekend is",
             "een bron die door twee verschillende mensen gemaakt is",
         ],
@@ -106,7 +106,7 @@ DEEL1 = [
         vraag="Wat betekent het dat je een bron in zijn context moet lezen?",
         opties=[
             "je leest ze met de tijd en de omstandigheden erbij",
-            "je leest ze met de ogen en de kennis van vandaag",
+            "je leest ze met de ogen, de waarden en de kennis van vandaag",
             "je leest ze zonder iets over de auteur te weten",
             "je leest ze alleen in een moderne vertaling",
         ],
@@ -130,7 +130,7 @@ DEEL1 = [
         vraag="Waarom vermeld je altijd waar je een bron gevonden hebt?",
         opties=[
             "zodat anderen je werk kunnen nagaan en controleren",
-            "zodat je tekst wat langer en voller wordt",
+            "zodat je tekst wat langer en voller wordt voor de punten",
             "zodat je de bron zelf niet meer hoeft te lezen",
             "zodat je zelf als de auteur mag doorgaan",
         ],
@@ -190,7 +190,7 @@ DEEL1 = [
         vraag="Je onderzoekt hoe de bezetter in 1942 over het verzet sprak. Welke bron past daarbij het best?",
         opties=[
             "een krant die onder censuur van de bezetter verscheen",
-            "een studie van een historicus die in 1990 verscheen",
+            "een studie van een historicus over de bezetting die in 1990 verscheen",
             "een dagboek van iemand die bij het verzet zat",
             "een handboek voor het middelbaar van vandaag",
         ],
@@ -337,7 +337,7 @@ DEEL2 = [
         vraag="Waarom is een beeld vandaag geen bewijs meer op zichzelf?",
         opties=[
             "beelden kunnen bewerkt of volledig gemaakt worden",
-            "beelden worden nooit in kranten gebruikt",
+            "beelden worden nooit in kranten of in handboeken gebruikt",
             "beelden zijn altijd ouder dan hun gebeurtenis",
             "beelden kunnen niet opgeslagen worden",
         ],

@@ -52,7 +52,7 @@ DEEL1 = [
         vraag="Waarom beschrijven twee ooggetuigen dezelfde gebeurtenis anders?",
         opties=[
             "elk van hen stond elders en had een ander belang",
-            "een van de twee moet noodzakelijk liegen",
+            "een van de twee moet noodzakelijk liegen over wat er gebeurd is",
             "een ooggetuige vergeet na een tijd altijd alles",
             "de gebeurtenis is twee keer gebeurd",
         ],
@@ -82,7 +82,7 @@ DEEL1 = [
         vraag="Wat is een stereotype?",
         opties=[
             "een vast, vereenvoudigd beeld van een hele groep",
-            "een bron waarvan de auteur onbekend gebleven is",
+            "een bron waarvan de auteur en de datum onbekend gebleven zijn",
             "een gebeurtenis die zich steeds blijft herhalen",
             "een oude drukletter uit een letterkast",
         ],
@@ -289,7 +289,7 @@ DEEL2 = [
         vraag="Waarover gaat de vraag naar teruggave van voorwerpen uit koloniale musea?",
         opties=[
             "over voorwerpen die in de koloniale tijd zijn weggehaald",
-            "over voorwerpen die musea aan elkaar uitlenen",
+            "over voorwerpen die musea aan elkaar uitlenen voor een tentoonstelling",
             "over voorwerpen die bij opgravingen hier gevonden zijn",
             "over voorwerpen die in de oorlog verloren zijn gegaan",
         ],
@@ -343,7 +343,7 @@ DEEL2 = [
         vraag="Waarom studeren we geschiedenis als het over voorbije tijden gaat?",
         opties=[
             "om te begrijpen hoe het heden geworden is wat het is",
-            "om de gebeurtenissen van de toekomst te voorspellen",
+            "om de gebeurtenissen van de toekomst zo nauwkeurig mogelijk te voorspellen",
             "om vast te stellen dat niets ooit verandert",
             "om enkel data en namen te kunnen opsommen",
         ],

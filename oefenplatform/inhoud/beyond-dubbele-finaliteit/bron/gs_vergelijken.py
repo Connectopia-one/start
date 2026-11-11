@@ -94,7 +94,7 @@ DEEL1 = [
         vraag="Wat is het verschil tussen een supranationale en een intergouvernementele organisatie?",
         opties=[
             "een supranationale organisatie kan beslissingen opleggen aan de lidstaten",
-            "een supranationale organisatie heeft meer leden dan een andere",
+            "een supranationale organisatie heeft altijd meer leden dan een intergouvernementele",
             "een intergouvernementele organisatie bestaat enkel in Europa",
             "een intergouvernementele organisatie heeft geen eigen gebouw",
         ],
@@ -148,7 +148,7 @@ DEEL1 = [
         vraag="Wat betekent cultuurvermenging?",
         opties=[
             "elementen van twee culturen groeien samen tot iets nieuws",
-            "de ene cultuur verdringt de andere volledig",
+            "de ene cultuur verdringt de andere volledig, tot er niets meer van overblijft",
             "de twee culturen blijven volledig gescheiden",
             "een cultuur verdwijnt zonder spoor",
         ],
@@ -179,7 +179,7 @@ DEEL1 = [
         vraag="Je vergelijkt de staatsvorm onder Mao met de staatsvorm in China vandaag. Wat is de belangrijkste gelijkenis?",
         opties=[
             "in beide gevallen heeft één partij de macht in handen",
-            "in beide gevallen zijn er vrije verkiezingen",
+            "in beide gevallen zijn er vrije verkiezingen met meerdere partijen",
             "in beide gevallen is de economie volledig gepland",
             "in beide gevallen is er geen leider",
         ],
@@ -232,7 +232,7 @@ DEEL2 = [
             "bij de economische kenmerken",
             "bij de politieke kenmerken",
             "bij de sociale kenmerken",
-            "bij de culturele kenmerken",
+            "bij de culturele kenmerken van een samenleving",
         ],
         antwoord=0,
         uitleg="Ze gaat over kopen, verkopen, vraag en aanbod, en dus over de economie.",
@@ -392,7 +392,7 @@ DEEL2 = [
         vraag="Je vergelijkt twee samenlevingen uit dezelfde periode. Wat levert dat op dat een vergelijking tussen periodes niet oplevert?",
         opties=[
             "je ziet dat eenzelfde tijd heel verschillende samenlevingen kan dragen",
-            "je ziet hoe iets in de tijd veranderde",
+            "je ziet hoe iets in de loop van de tijd stap voor stap veranderde, van periode tot periode",
             "je ziet welke periode de beste was",
             "je ziet hoe lang een periode duurde",
         ],
