@@ -152,7 +152,7 @@ DEEL1 = [
     dict(type="waarofniet",
          vraag="Volgens Sartre ligt er een vaste menselijke natuur klaar voor je geboren wordt.",
          antwoord=False,
-         uitleg="Niet waar. Bij hem gaat de existentie aan de essentie voorbij: je maakt jezelf "
+         uitleg="Niet waar. Bij hem gaat de existentie aan de essentie vooraf: je maakt jezelf "
                 "door te handelen."),
     dict(type="waarofniet",
          vraag="Kwade trouw bij Sartre is liegen tegen iemand anders.",
@@ -202,7 +202,7 @@ DEEL2 = [
     dict(type="meerkeuze",
          vraag="Waarom is de visie van Foucault lastig voor het idee van een vrije keuze?",
          opties=["ook wat jij wil, is mee gevormd door de wereld waarin je bent opgegroeid",
-                 "ook wat jij wil, ligt in je hersenen vast van bij je geboorte",
+                 "ook wat jij wil, ligt in je hersenen vast van bij je geboorte en verandert nooit",
                  "ook wat jij wil, wordt door de overheid rechtstreeks opgelegd",
                  "ook wat jij wil, is volledig toeval en dus zonder enige grond"],
          antwoord=0,

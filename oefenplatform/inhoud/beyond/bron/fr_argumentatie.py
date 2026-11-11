@@ -170,7 +170,7 @@ DEEL2 = [
     dict(type="meerkeuze",
          vraag="Wat is een drogreden?",
          opties=["een argument dat overtuigend lijkt maar niet deugt",
-                 "een argument dat niemand ooit overtuigt",
+                 "een argument dat niemand ooit echt overtuigt, hoe goed het ook is",
                  "een argument waarvan de premissen onwaar zijn",
                  "een argument dat van een verkeerde bron komt"],
          antwoord=0,

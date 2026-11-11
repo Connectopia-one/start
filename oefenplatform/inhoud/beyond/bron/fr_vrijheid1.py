@@ -29,7 +29,7 @@ DEEL1 = [
     dict(type="meerkeuze",
          vraag="Wat is het verschil tussen lot en toeval?",
          opties=["een lot ligt vast en heeft een richting, toeval had even goed anders kunnen zijn",
-                 "een lot overkomt je plots, toeval is wat je zelf in de hand hebt gehad",
+                 "een lot overkomt je plots en zonder reden, toeval is wat je zelf in de hand hebt gehad",
                  "een lot gaat over de toekomst, toeval gaat enkel over wat al voorbij is",
                  "een lot geldt voor een volk en toeval geldt altijd voor één enkel mens"],
          antwoord=0,
