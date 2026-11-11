@@ -17,7 +17,7 @@ DEEL1 = [
         type="meerkeuze",
         vraag="Wat is een prikkel?",
         opties=[
-            "een verandering in of rond het lichaam die een reactie kan uitlokken",
+            "een verandering in of rond het lichaam die een reactie uitlokt",
             "de beweging van een spier nadat de hersenen een bevel gaven",
             "een boodschapperstof die door een klier in het bloed komt",
             "de kracht waarmee een zenuw tegen een spiervezel aan duwt",
@@ -83,7 +83,7 @@ DEEL1 = [
         type="meerkeuze",
         vraag="Je raakt een hete pan aan en trekt je hand weg nog voor je de pijn voelt. Hoe verklaar je dat?",
         opties=[
-            "het ruggemerg stuurt de spier al aan terwijl de boodschap nog naar de hersenen onderweg is",
+            "het ruggemerg stuurt de spier al aan voor de boodschap de hersenen bereikt",
             "de hand beweegt op eigen kracht, zonder dat er een zenuw bij te pas komt",
             "de huid trekt zich samen en duwt de hand zo van de pan weg",
             "de pijnreceptoren sturen rechtstreeks een bevel naar de spier zonder zenuwcel",
@@ -113,10 +113,10 @@ DEEL1 = [
         type="meerkeuze",
         vraag="Wat is de toeschietreflex?",
         opties=[
-            "de melk begint te vloeien zodra een baby aan de borst zuigt",
+            "de melk begint te vloeien zodra een baby zuigt",
             "het ooglid knippert zodra er iets naar het oog toe komt",
             "de maag trekt samen zodra er voedsel in komt",
-            "de huid krijgt kippenvel zodra het koud wordt",
+            "de huid krijgt kippenvel zodra het koud wordt en de haartjes rechtop gaan staan",
         ],
         antwoord=0,
         uitleg="Het zuigen is de prikkel, de melkklier is de effector. Het is een voorbeeld van een reflex waarbij ook een hormoon meespeelt.",
@@ -150,7 +150,7 @@ DEEL1 = [
         type="meerkeuze",
         vraag="Waarom heeft een receptor een drempelwaarde?",
         opties=[
-            "een te zwakke prikkel levert geen signaal op, zodat het lichaam niet op elk detail reageert",
+            "een te zwakke prikkel geeft geen signaal, zodat je niet op elk detail reageert",
             "een receptor kan maar één keer per dag een prikkel doorgeven",
             "een receptor moet eerst door een hormoon aangezet worden",
             "een receptor geeft enkel bij warmte een signaal door",
@@ -188,7 +188,7 @@ DEEL1 = [
         opties=[
             "een geleerde reactie op een prikkel die eerst niets betekende",
             "een reflex die de hond al bij de geboorte had",
-            "een reactie die volledig door hormonen geregeld wordt",
+            "een reactie die volledig door hormonen geregeld wordt, zonder dat de hond iets leert",
             "een gedraging die zonder receptor tot stand komt",
         ],
         antwoord=0,
@@ -237,7 +237,7 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Wat is vooral de taak van de kleine hersenen?",
         opties=[
-            "het afstemmen van bewegingen en het bewaren van het evenwicht",
+            "bewegingen afstemmen en het evenwicht bewaren",
             "het bewaren van herinneringen uit je vroege kindertijd",
             "het regelen van de ademhaling en de hartslag",
             "het opvangen van geluidsprikkels uit het binnenoor",
@@ -286,10 +286,10 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Wat doet de myelineschede rond een axon?",
         opties=[
-            "ze isoleert het axon zodat de impuls er sneller langs gaat",
+            "ze isoleert het axon zodat de impuls sneller gaat",
             "ze maakt de neurotransmitters aan die het neuron afgeeft",
             "ze vangt de prikkels op die van de huid komen",
-            "ze verbindt het neuron met een bloedvat voor de voeding",
+            "ze verbindt het neuron met een bloedvat dat de voeding en de zuurstof aanbrengt",
         ],
         antwoord=0,
         uitleg="De myelineschede werkt als een isolatielaag. Daardoor springt de impuls van knoop naar knoop en gaat hij veel sneller.",
@@ -306,7 +306,7 @@ DEEL2 = [
         opties=[
             "de cel van Schwann",
             "de witte bloedcel",
-            "de sluitcel",
+            "de sluitcel van een huidmondje",
             "de bètacel",
         ],
         antwoord=0,
@@ -322,7 +322,7 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Wat gebeurt er in een synaps tussen twee neuronen?",
         opties=[
-            "het eindknopje geeft een stof af die aan een receptor op de volgende cel bindt",
+            "het eindknopje geeft een stof af die bindt op de volgende cel",
             "de twee cellen groeien aan elkaar vast zodat er stroom door kan",
             "de impuls springt als een vonk door de lucht tussen de cellen",
             "de twee celkernen wisselen hun erfelijk materiaal uit",
@@ -364,7 +364,7 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Waarom gaat een impuls langs een gemyeliniseerd axon sneller dan langs een kaal axon?",
         opties=[
-            "de impuls springt van knoop tot knoop in plaats van elk stukje membraan te doorlopen",
+            "de impuls springt van knoop tot knoop",
             "het gemyeliniseerde axon is altijd veel korter dan een kaal axon",
             "de myelineschede duwt de impuls met samentrekkingen vooruit",
             "het gemyeliniseerde axon gebruikt licht in plaats van elektriciteit",
@@ -382,7 +382,7 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Een ziekte tast de myelineschede van zenuwen aan. Welk gevolg verwacht je?",
         opties=[
-            "de signalen gaan trager door, waardoor bewegen en voelen moeilijker wordt",
+            "de signalen gaan trager door, waardoor bewegen en voelen moeilijker gaan",
             "de neuronen maken meer dendrieten aan en de reactie wordt sneller",
             "de hersenen nemen de rol van de ontbrekende schede zelf over",
             "er verandert niets, want de impuls loopt even goed langs een kaal axon",

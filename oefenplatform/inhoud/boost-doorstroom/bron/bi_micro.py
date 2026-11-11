@@ -15,7 +15,7 @@ DEEL1 = [
         type="meerkeuze",
         vraag="Wat betekent biodiversiteit?",
         opties=[
-            "de verscheidenheid aan leven, van genen over soorten tot ecosystemen",
+            "de verscheidenheid aan leven, van genen tot ecosystemen",
             "het aantal diersoorten dat binnen de grenzen van een land leeft",
             "de hoeveelheid planten die in een land jaarlijks geoogst wordt",
             "het aantal soorten dat in de dierentuinen van een land te zien is",
@@ -39,7 +39,7 @@ DEEL1 = [
         type="meerkeuze",
         vraag="Wanneer horen twee organismen tot dezelfde soort?",
         opties=[
-            "als ze zich onderling kunnen voortplanten en vruchtbare nakomelingen krijgen",
+            "als ze samen vruchtbare nakomelingen kunnen krijgen",
             "als ze er van buiten precies hetzelfde uitzien",
             "als ze in hetzelfde gebied naast elkaar leven",
             "als ze van hetzelfde voedsel leven",
@@ -63,7 +63,7 @@ DEEL1 = [
         type="meerkeuze",
         vraag="Waarom is variatie binnen een soort belangrijk?",
         opties=[
-            "bij een ziekte of een verandering overleven er altijd nog individuen",
+            "bij een ziekte of verandering overleven er nog individuen",
             "een soort met variatie heeft meer nakomelingen per worp",
             "variatie laat twee soorten in elkaar overgaan",
             "variatie maakt alle individuen even sterk",
@@ -100,7 +100,7 @@ DEEL1 = [
         type="meerkeuze",
         vraag="Waarom is het versnipperen van een leefgebied schadelijk, ook als de totale oppervlakte gelijk blijft?",
         opties=[
-            "kleine groepen raken van elkaar gescheiden, waardoor de variatie in hun erfelijk materiaal afneemt",
+            "kleine groepen raken gescheiden, waardoor hun erfelijke variatie afneemt",
             "kleine stukken natuur krijgen per vierkante meter minder zonlicht te verwerken",
             "versnipperde stukken hebben per soort minder vruchtbare bodem beschikbaar",
             "soorten in kleine stukken krijgen meer nakomelingen dan de bodem kan dragen",
@@ -155,7 +155,7 @@ DEEL1 = [
         type="meerkeuze",
         vraag="Waarom gebruiken biologen wetenschappelijke namen in plaats van volkse namen?",
         opties=[
-            "een volkse naam verschilt per streek en per taal, een wetenschappelijke naam niet",
+            "een volkse naam verschilt per streek en per taal",
             "een wetenschappelijke naam is altijd korter dan de volkse naam van die soort",
             "volkse namen bestaan enkel voor dieren en niet voor planten of schimmels",
             "een wetenschappelijke naam zegt hoeveel exemplaren er van die soort zijn",
@@ -173,9 +173,9 @@ DEEL1 = [
         type="meerkeuze",
         vraag="Een vijver wordt gedempt om een parking te bouwen. Welk gevolg voor de biodiversiteit verwacht je?",
         opties=[
-            "de soorten die van water afhangen verdwijnen uit het gebied",
+            "de soorten die van water afhangen verdwijnen",
             "de soorten verhuizen allemaal naar de volgende vijver",
-            "de biodiversiteit stijgt, want er komt meer open ruimte",
+            "de biodiversiteit stijgt, want er komt meer open ruimte voor nieuwe soorten",
             "er verandert niets zolang er elders nog vijvers zijn",
         ],
         antwoord=0,
@@ -206,7 +206,7 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Wat is een micro-organisme?",
         opties=[
-            "een levend wezen dat te klein is om met het blote oog te zien",
+            "een levend wezen dat te klein is voor het blote oog",
             "een deeltje dat nog kleiner is dan een molecule water",
             "een cel die zich niet meer kan delen en dus niet groeit",
             "een organisme dat enkel in water en nooit op het land leeft",
@@ -231,7 +231,7 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Waarom is een virus geen gewoon levend wezen?",
         opties=[
-            "het heeft geen eigen stofwisseling en kan zich enkel in een gastheercel vermeerderen",
+            "het heeft geen eigen stofwisseling en vermeerdert zich enkel in een gastheercel",
             "het is veel groter dan een bacterie en past daarom in geen enkele gastheercel",
             "het bestaat uit meerdere cellen die elk geen echte celkern hebben",
             "het kan buiten een levend lichaam geen ogenblik blijven bestaan",
@@ -291,10 +291,10 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Wat is de rol van bacteriën en schimmels in een ecosysteem?",
         opties=[
-            "ze breken dood materiaal af en maken de mineralen weer vrij",
+            "ze breken dood materiaal af en maken mineralen weer vrij",
             "ze maken met behulp van licht hun eigen voedsel aan",
             "ze jagen op de kleine dieren die in de bodem leven",
-            "ze slaan koolstofdioxide uit de lucht op in hun celwand",
+            "ze slaan koolstofdioxide uit de lucht op in hun celwand, zoals bomen dat doen",
         ],
         antwoord=0,
         uitleg="Zonder reducenten bleven de mineralen in dood blad en kadavers opgesloten. Zij maken de kringloop rond.",
@@ -339,7 +339,7 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Hoe werkt een vaccin?",
         opties=[
-            "het laat het lichaam antistoffen en afweercellen aanmaken zonder dat je ziek wordt",
+            "het laat het lichaam afweer opbouwen zonder dat je ziek wordt",
             "het doodt alle bacteriën die zich op dat ogenblik in het lichaam bevinden",
             "het geeft kant-en-klare antistoffen mee die iemand anders al gemaakt heeft",
             "het verhoogt de lichaamstemperatuur zodat de ziektekiemen eraan sterven",
@@ -357,7 +357,7 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Waarom is handen wassen zo doeltreffend tegen besmetting?",
         opties=[
-            "zeep en water halen de micro-organismen van de huid, voor ze in het lichaam raken",
+            "zeep en water halen de micro-organismen van de huid",
             "zeep doodt de virussen die al in het bloed van de handen en de armen zitten",
             "warm water laat de huid zelf antistoffen tegen indringers maken",
             "handen wassen verhoogt de weerstand van het hele lichaam tegen ziekte",
@@ -375,7 +375,7 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Waarom kan een bacterie zich zo snel vermeerderen?",
         opties=[
-            "ze deelt zich in twee, en in gunstige omstandigheden kan dat elk half uur",
+            "ze deelt zich in twee, in gunstige omstandigheden elk half uur",
             "ze krijgt bij elke deling honderden nakomelingen tegelijk, niet twee",
             "ze vermeerdert zich zonder enig voedsel of vocht op te nemen",
             "ze deelt zich enkel bij een temperatuur onder het vriespunt",
@@ -387,7 +387,7 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Je laat een restje soep een nacht op het aanrecht staan. Waarom is dat af te raden?",
         opties=[
-            "bij kamertemperatuur delen bacteriën zich snel tot er onveilige aantallen zijn",
+            "bij kamertemperatuur delen bacteriën zich snel tot onveilige aantallen",
             "soep verliest bij kamertemperatuur al haar voedingsstoffen en vitaminen",
             "bacteriën kunnen enkel in koude soep groeien en nergens anders in",
             "de soep neemt bacteriën uit de lucht op die er niet meer uit weggaan",

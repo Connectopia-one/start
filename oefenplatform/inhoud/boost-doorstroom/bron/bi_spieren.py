@@ -19,7 +19,7 @@ DEEL1 = [
         opties=[
             "skeletspierweefsel, glad spierweefsel en hartspierweefsel",
             "skeletspierweefsel, kraakbeenweefsel en beenweefsel",
-            "glad spierweefsel, peesweefsel en gewrichtsbanden",
+            "glad spierweefsel, peesweefsel en de gewrichtsbanden rond de knie",
             "hartspierweefsel, zenuwweefsel en vetweefsel",
         ],
         antwoord=0,
@@ -53,7 +53,7 @@ DEEL1 = [
         type="meerkeuze",
         vraag="Wat is een antagonistisch spierpaar?",
         opties=[
-            "twee spieren die tegengesteld werken, zoals de buiger en de strekker van de arm",
+            "twee spieren die tegengesteld werken, zoals buiger en strekker",
             "twee spieren die altijd samen samentrekken en dus dezelfde beweging maken",
             "een spier en de pees waarmee hij aan het bot van een gewricht vastzit",
             "een spier die aan twee botten tegelijk vastzit en er geen tegenspeler heeft",
@@ -101,7 +101,7 @@ DEEL1 = [
         type="meerkeuze",
         vraag="Hoe wordt een sarcomeer korter?",
         opties=[
-            "de myosinefilamenten trekken de actinefilamenten naar het midden toe",
+            "myosine trekt de actinefilamenten naar het midden toe",
             "de actinefilamenten worden zelf korter en dikker",
             "de Z-platen lossen op en vormen zich op een nieuwe plaats",
             "er komt vocht bij, waardoor het sarcomeer opbolt",
@@ -119,10 +119,10 @@ DEEL1 = [
         type="meerkeuze",
         vraag="Wat zie je in een spiervezel onder de microscoop als een donkere band?",
         opties=[
-            "de zone waar de dikke myosinefilamenten liggen",
+            "de zone met de dikke myosinefilamenten",
             "de zone waar enkel actinefilamenten liggen",
             "de Z-plaat zelf, van opzij gezien",
-            "de pees die aan de spiervezel vastzit",
+            "de pees die aan de spiervezel vastzit, van opzij gezien",
         ],
         antwoord=0,
         uitleg="Waar de dikke filamenten liggen, gaat minder licht door en ziet het donker. In de lichte band liggen alleen de dunne actinefilamenten.",
@@ -192,7 +192,7 @@ DEEL1 = [
         type="meerkeuze",
         vraag="Je houdt een boek stil in je uitgestrekte hand, en na een tijd begint je arm te trillen. Hoe verklaar je dat?",
         opties=[
-            "de spiervezels werken in ploegen en de overgangen vallen bij vermoeidheid niet meer gelijk",
+            "de spiervezels werken in ploegen en lossen elkaar bij vermoeidheid slecht af",
             "de botten in je arm beginnen door het gewicht van het boek lichtjes te buigen",
             "de pees laat tijdelijk los van het bot en schiet er daarna weer tegenaan",
             "de sarcomeren worden steeds langer tot de spiervezel uiteindelijk scheurt",
@@ -207,7 +207,7 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Wat is het verschil tussen een klier met afvoergang en een klier zonder afvoergang?",
         opties=[
-            "een klier zonder afvoergang geeft haar stof rechtstreeks aan het bloed af",
+            "een klier zonder afvoergang geeft haar stof aan het bloed af",
             "een klier zonder afvoergang maakt zelf helemaal geen stoffen aan",
             "een klier met afvoergang zit altijd in of net onder de hersenen",
             "een klier met afvoergang werkt enkel bij kinderen en valt later stil",
@@ -261,9 +261,9 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Wat doet insuline?",
         opties=[
-            "het laat de cellen glucose uit het bloed opnemen, zodat het bloedglucosegehalte daalt",
+            "het laat de cellen glucose uit het bloed opnemen",
             "het laat de lever glucose aan het bloed afgeven, zodat het gehalte stijgt",
-            "het verhoogt de hartslag bij een schrikreactie",
+            "het verhoogt de hartslag en de ademhaling bij een schrikreactie of bij gevaar",
             "het laat de huidmondjes van een plant sluiten",
         ],
         antwoord=0,
@@ -297,10 +297,10 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Wat is er bij diabetes type 1 aan de hand?",
         opties=[
-            "de bètacellen maken geen of te weinig insuline meer aan",
+            "de bètacellen maken te weinig of geen insuline meer",
             "de alfacellen maken te veel glucagon aan",
             "de lever kan geen glucose meer opslaan",
-            "de darmen nemen geen glucose meer op uit het eten",
+            "de darmen nemen geen glucose meer op uit het eten, zodat het bloed tekortkomt",
         ],
         antwoord=0,
         uitleg="Bij type 1 zijn de bètacellen beschadigd, vaak door het eigen afweersysteem. Daarom moet de insuline van buiten toegediend worden.",
@@ -370,7 +370,7 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Waarom is het zinvol dat het zenuwstelsel en het hormonale stelsel samenwerken?",
         opties=[
-            "het zenuwstelsel reageert snel en kort, de hormonen houden de reactie langer aan",
+            "het zenuwstelsel reageert snel, de hormonen houden de reactie langer aan",
             "ze doen precies hetzelfde, dus is er een reserve",
             "hormonen kunnen geen enkele spier bereiken",
             "het zenuwstelsel werkt enkel bij dag en de hormonen enkel bij nacht",

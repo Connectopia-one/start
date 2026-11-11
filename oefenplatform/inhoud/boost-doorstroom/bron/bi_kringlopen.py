@@ -87,9 +87,9 @@ DEEL1 = [
         type="meerkeuze",
         vraag="Waarom staat er bij een hevige regen sneller water op een verharde straat dan op een weide?",
         opties=[
-            "het water kan niet in de bodem dringen en loopt meteen oppervlakkig weg",
+            "het water kan niet in de bodem en loopt meteen weg",
             "er valt op een straat meer regen dan op een weide",
-            "verharding laat het water sneller verdampen",
+            "verharding laat het water sneller verdampen, zodat het blijft staan",
             "een weide houdt helemaal geen water tegen",
         ],
         antwoord=0,
@@ -100,7 +100,7 @@ DEEL1 = [
         vraag="Waarom kunnen planten het stikstofgas uit de lucht niet rechtstreeks gebruiken?",
         opties=[
             "de binding in het stikstofgasmolecule is te sterk",
-            "stikstofgas komt niet in de bodem terecht",
+            "stikstofgas komt nooit in de bodem terecht, want het blijft hoog in de lucht",
             "planten hebben geen stikstof nodig",
             "stikstofgas lost niet op in water",
         ],
@@ -135,9 +135,9 @@ DEEL1 = [
         type="meerkeuze",
         vraag="Wat is eutrofiëring van een vijver?",
         opties=[
-            "overbemesting laat de algen woekeren en de zuurstof instorten",
+            "overbemesting laat de algen woekeren en de zuurstof dalen",
             "de vijver droogt uit door de hoge temperatuur",
-            "de vijver verliest al zijn mineralen door de regen",
+            "de vijver verliest al zijn mineralen door de regen, waardoor er niets meer groeit",
             "de vijver wordt zuurder door de neerslag",
         ],
         antwoord=0,
@@ -240,7 +240,7 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Wat is de draagkracht van een gebied?",
         opties=[
-            "het aantal individuen dat een gebied blijvend kan onderhouden",
+            "hoeveel individuen een gebied blijvend kan onderhouden",
             "het gewicht dat de bodem van een gebied kan dragen",
             "het aantal soorten dat ooit in het gebied geleefd heeft",
             "de hoeveelheid energie die de zon er levert",
@@ -294,8 +294,8 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Wat is de ecologische niche van een soort?",
         opties=[
-            "het geheel van omstandigheden en rollen waarin die soort kan leven",
-            "de plaats waar het nest van die soort ligt",
+            "alle omstandigheden en rollen waarin die soort kan leven",
+            "de plaats waar het nest van die soort ligt en waar de jongen opgroeien",
             "het aantal individuen van die soort in een gebied",
             "de soort die er het dichtst bij verwant is",
         ],
@@ -312,8 +312,8 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Wat is een indicatorsoort?",
         opties=[
-            "een soort waarvan de aanwezigheid iets zegt over de toestand van het milieu",
-            "de soort met het grootste aantal individuen in een gebied",
+            "een soort die iets zegt over de toestand van het milieu",
+            "de soort met het grootste aantal individuen in een gebied, zoals gras op een weide",
             "de soort die het langst in een gebied leeft",
             "de soort die bovenaan de voedselketen staat",
         ],

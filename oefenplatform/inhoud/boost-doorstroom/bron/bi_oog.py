@@ -89,7 +89,7 @@ DEEL1 = [
         vraag="Wat is de taak van het vaatvlies?",
         opties=[
             "het netvlies van bloed voorzien en strooilicht wegnemen",
-            "de lens van vorm doen veranderen bij het scherpstellen",
+            "de lens van vorm doen veranderen bij het scherpstellen op een voorwerp dichtbij",
             "het oog vochtig houden met tranen",
             "de oogbol in zijn kas doen draaien",
         ],
@@ -112,10 +112,10 @@ DEEL1 = [
         type="meerkeuze",
         vraag="Waarom heeft het hoornvlies geen bloedvaten?",
         opties=[
-            "bloedvaten zouden het licht tegenhouden en het zicht wazig maken",
+            "bloedvaten zouden het licht tegenhouden",
             "het hoornvlies heeft geen voeding en geen zuurstof nodig",
             "bloedvaten passen niet in zo'n dunne laag",
-            "het hoornvlies krijgt zijn voeding uit de tranen alleen",
+            "het hoornvlies krijgt zijn voeding uit de tranen alleen en heeft dus geen bloed nodig",
         ],
         antwoord=0,
         uitleg="Het hoornvlies moet volkomen doorzichtig blijven, dus mogen er geen vaten door. Het haalt zijn voeding uit het kamervocht en de tranen.",
@@ -185,10 +185,10 @@ DEEL1 = [
         type="meerkeuze",
         vraag="Waarom knippert een oog een paar keer per minuut?",
         opties=[
-            "om het tranenvocht gelijk over het hoornvlies te verdelen",
+            "om het tranenvocht over het hoornvlies te verdelen",
             "om de lens opnieuw op haar plaats te duwen",
             "om het netvlies even rust te geven van het licht",
-            "om het kamervocht door de voorste kamer te laten stromen",
+            "om het kamervocht door de voorste en de achterste kamer van het oog te laten stromen",
         ],
         antwoord=0,
         uitleg="Knipperen strijkt een vers laagje tranenvocht over het oog. Dat houdt het hoornvlies vochtig en spoelt stof weg.",
@@ -260,8 +260,8 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Waarom merk je in het dagelijks leven niets van je blinde vlek?",
         opties=[
-            "het andere oog ziet dat stukje wel, en de hersenen vullen de rest aan",
-            "de blinde vlek ligt zo klein dat er nooit licht op valt",
+            "het andere oog ziet dat stukje wel, de hersenen vullen aan",
+            "de blinde vlek ligt zo klein en zo ver opzij dat er nooit licht op valt",
             "de oogzenuw geeft dat stukje van het beeld toch door",
             "de blinde vlek bestaat enkel bij mensen met een oogafwijking",
         ],
@@ -326,7 +326,7 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Wat is ouderdomsverziendheid?",
         opties=[
-            "de lens wordt met de jaren stijver, waardoor accommoderen moeilijker wordt",
+            "de lens wordt met de jaren stijver, zodat accommoderen moeilijker gaat",
             "het netvlies verliest met de jaren al zijn staafjes aan de zijkanten",
             "de pupil kan met de jaren niet meer vernauwen bij fel zonlicht",
             "de oogzenuw wordt met de jaren steeds korter en trekt aan het netvlies",
@@ -344,7 +344,7 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Wat is astigmatisme?",
         opties=[
-            "het hoornvlies of de lens is onregelmatig gekromd, waardoor lijnen vervormen",
+            "het hoornvlies of de lens is onregelmatig gekromd",
             "de pupil blijft altijd even groot, ook in het donker en in de volle zon",
             "het netvlies laat op één plek los van het vaatvlies dat eronder ligt",
             "de twee ogen kijken niet in dezelfde richting en zien elk iets anders",
@@ -362,7 +362,7 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Waarom zie je met twee ogen diepte en met één oog veel minder?",
         opties=[
-            "elk oog ziet het voorwerp vanuit een iets andere hoek en de hersenen leggen die beelden samen",
+            "elk oog ziet het voorwerp vanuit een iets andere hoek",
             "elk oog ziet een andere kleur en uit die twee kleuren samen halen de hersenen de afstand",
             "het ene oog ziet scherp en het andere ziet wazig, en dat verschil verraadt de afstand",
             "met twee ogen valt er twee keer zoveel licht op elk netvlies, dus zie je meer detail",

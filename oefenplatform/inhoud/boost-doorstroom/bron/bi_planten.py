@@ -19,7 +19,7 @@ DEEL1 = [
         type="meerkeuze",
         vraag="Wat betekent homeostase bij een plant?",
         opties=[
-            "haar inwendig milieu binnen nauwe grenzen houden terwijl de omgeving verandert",
+            "haar inwendig milieu binnen grenzen houden als de omgeving verandert",
             "haar bladeren afwerpen van zodra de temperatuur buiten begint te dalen",
             "haar wortels zo diep mogelijk door de lagen van de bodem laten groeien",
             "haar groei helemaal stilleggen zodra er een periode van droogte aanbreekt",
@@ -140,8 +140,8 @@ DEEL1 = [
         type="meerkeuze",
         vraag="Waarom is de transpiratie niet enkel verlies voor de plant?",
         opties=[
-            "ze trekt water en mineralen mee omhoog en koelt het blad af",
-            "ze maakt in het blad rechtstreeks nieuwe suikers aan",
+            "ze trekt water en mineralen omhoog en koelt het blad",
+            "ze maakt in het blad rechtstreeks nieuwe suikers aan uit het water dat verdampt",
             "ze zorgt ervoor dat de wortels zich kunnen vertakken",
             "ze geeft de bladeren hun groene kleur in de zomer",
         ],
@@ -176,9 +176,9 @@ DEEL1 = [
         type="meerkeuze",
         vraag="Een plant staat in de volle zon en de bodem droogt uit. Wat gebeurt er achtereenvolgens?",
         opties=[
-            "de huidmondjes sluiten, de transpiratie daalt en de fotosynthese vertraagt",
+            "de huidmondjes sluiten, de transpiratie daalt, de fotosynthese vertraagt",
             "de huidmondjes gaan verder open en de fotosynthese versnelt",
-            "de worteldruk stijgt zodat de plant meer water uit de lucht haalt",
+            "de worteldruk stijgt zodat de plant meer water uit de lucht en de bodem haalt",
             "de vacuolen vullen zich extra ver zodat de plant stevig blijft",
         ],
         antwoord=0,
@@ -312,7 +312,7 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Wat is een fotoreceptor bij een plant?",
         opties=[
-            "een structuur die licht opvangt en zo een prikkel doorgeeft",
+            "een structuur die licht opvangt en een prikkel doorgeeft",
             "een klier die suikers rechtstreeks in de bodem afgeeft",
             "een cel die de temperatuur van de bodem meet",
             "een opening waardoor water uit het blad ontsnapt",
@@ -361,7 +361,7 @@ DEEL2 = [
         vraag="Wat doet abscisinezuur bij droogte?",
         opties=[
             "het laat de huidmondjes sluiten zodat de plant water spaart",
-            "het laat de huidmondjes verder opengaan voor meer koeling",
+            "het laat de huidmondjes verder opengaan, zodat het blad beter kan afkoelen",
             "het versnelt de bloei zodat er snel zaden gevormd worden",
             "het zet de wortels aan om zich boven de grond te vertakken",
         ],

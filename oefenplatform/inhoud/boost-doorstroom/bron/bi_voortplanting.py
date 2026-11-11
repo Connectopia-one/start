@@ -78,7 +78,7 @@ DEEL1 = [
         type="meerkeuze",
         vraag="Wat gebeurt er in de dagen na de bevruchting?",
         opties=[
-            "de zygote deelt zich herhaaldelijk en reist naar de baarmoeder om in te nestelen",
+            "de zygote deelt zich en reist naar de baarmoeder om in te nestelen",
             "de zygote blijft in de eileider liggen tot de geboorte",
             "de zygote keert terug naar de eierstok",
             "de zygote wordt in de vagina door de vruchtwand omgeven",
@@ -96,7 +96,7 @@ DEEL1 = [
         type="meerkeuze",
         vraag="Wat is de taak van de placenta?",
         opties=[
-            "stoffen uitwisselen tussen het bloed van de moeder en dat van het kind",
+            "stoffen uitwisselen tussen het bloed van moeder en kind",
             "het bloed van de moeder en van het kind met elkaar vermengen",
             "de baarmoeder bij de bevalling doen samentrekken",
             "de eicellen bewaren tot de puberteit",
@@ -133,8 +133,8 @@ DEEL1 = [
         type="meerkeuze",
         vraag="Wat is de functie van het vruchtwater?",
         opties=[
-            "het beschermt het kind tegen stoten en houdt de temperatuur gelijk",
-            "het voorziet het kind van al zijn zuurstof",
+            "het beschermt het kind tegen stoten en houdt de warmte gelijk",
+            "het voorziet het kind van al zijn zuurstof, zodat de longen nog niet moeten werken",
             "het houdt de baarmoeder op zijn plaats in de buik",
             "het voert de afvalstoffen van de moeder af",
         ],
@@ -193,7 +193,7 @@ DEEL1 = [
         type="meerkeuze",
         vraag="Een paar wil weten wanneer de kans op zwangerschap het grootst is. Wat is biologisch het antwoord?",
         opties=[
-            "rond de ovulatie, want de eicel is maar een korte tijd bevruchtbaar",
+            "rond de ovulatie, want de eicel leeft maar kort",
             "tijdens de menstruatie, want dan is de baarmoeder leeg",
             "altijd even groot, want de eicel is de hele maand aanwezig",
             "vlak voor de menstruatie, want dan is het slijmvlies het dikst",
@@ -226,7 +226,7 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Wat gebeurt er in de folliculaire fase?",
         opties=[
-            "een follikel rijpt en het baarmoederslijmvlies wordt opnieuw opgebouwd",
+            "een follikel rijpt en het slijmvlies wordt opnieuw opgebouwd",
             "het baarmoederslijmvlies wordt met wat bloed afgestoten",
             "het geel lichaam geeft grote hoeveelheden progesteron af",
             "de bevruchte eicel nestelt zich in de baarmoeder in",
@@ -316,7 +316,7 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Wat gebeurt er met het geel lichaam als er wel een bevruchting en innesteling is?",
         opties=[
-            "het blijft nog weken progesteron afgeven zodat het slijmvlies behouden blijft",
+            "het blijft progesteron afgeven zodat het slijmvlies blijft",
             "het verdwijnt meteen, want een beginnende zwangerschap heeft het niet nodig",
             "het groeit in de wand van de baarmoeder uit tot de placenta",
             "het laat een tweede eicel vrijkomen uit dezelfde eierstok",
@@ -328,10 +328,10 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Een cyclus duurt bij iemand 32 dagen in plaats van 28. Welke fase is dan meestal langer?",
         opties=[
-            "de folliculaire fase, want die kan sterk in lengte verschillen",
+            "de folliculaire fase, want die verschilt sterk in lengte",
             "de luteale fase, want die duurt bij iedereen anders",
             "de menstruatiefase, want die duurt dan twee weken",
-            "geen enkele, de cyclus is bij iedereen precies 28 dagen",
+            "geen enkele, want de cyclus is bij iedereen precies 28 dagen lang",
         ],
         antwoord=0,
         uitleg="De luteale fase ligt vrij vast rond veertien dagen, omdat het geel lichaam ongeveer zo lang leeft. De rijping van de follikel varieert wel.",
@@ -346,8 +346,8 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Hoe werkt de gecombineerde anticonceptiepil?",
         opties=[
-            "de hormonen erin remmen de hypofyse, zodat er geen ovulatie komt",
-            "ze maakt de baarmoeder ondoordringbaar voor zaadcellen",
+            "de hormonen erin remmen de hypofyse, dus geen ovulatie",
+            "ze maakt de baarmoeder ondoordringbaar voor zaadcellen tijdens de hele cyclus",
             "ze verwijdert de eicellen uit de eierstok",
             "ze verkort de cyclus tot zeven dagen",
         ],
@@ -383,7 +383,7 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Iemand met een onregelmatige cyclus wil de ovulatie opsporen. Waarom is enkel de kalender onvoldoende?",
         opties=[
-            "de folliculaire fase varieert, dus valt de ovulatie niet elke maand op dezelfde dag",
+            "de folliculaire fase varieert, dus de ovulatie valt niet altijd op dezelfde dag",
             "de ovulatie valt altijd op dag veertien, ook bij een onregelmatige cyclus",
             "de kalender zegt niets over het aantal eicellen in de eierstok",
             "de menstruatie begint bij een onregelmatige cyclus zonder hormonen",
