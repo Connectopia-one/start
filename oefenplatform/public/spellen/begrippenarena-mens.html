@@ -1,0 +1,1384 @@
+<!doctype html><html lang="nl"><head><meta charset="utf-8"><title>Begrippenarena Mens en samenleving</title><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Young+Serif&display=swap">
+<style>
+/* Layout: één scherm voor het digibord. Menu (niveau → hoofdstuk → spel) en een speelvlak met vaste scorebalk bovenaan. */
+:root {
+  --bg: #eceee9;
+  --surface: #ffffff;
+  --sunk: #e1e4de;
+  --ink: #1d2330;
+  --muted: #586070;
+  --line: #cfd4cc;
+  --oker: #a8650f;
+  --oker-soft: #f3e3c7;
+  --lapis: #274a8c;
+  --lapis-soft: #dbe4f5;
+  --ok: #23774a;
+  --ok-soft: #d6efe0;
+  --bad: #b23a33;
+  --bad-soft: #f6dcd9;
+  --t1: #274a8c; --t2: #a8650f; --t3: #7a3f99; --t4: #1f7a6a;
+  --font-display: "Young Serif", Georgia, "Times New Roman", serif;
+  --font-body: "Atkinson Hyperlegible", "Segoe UI", system-ui, sans-serif;
+  --radius: 14px;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #12161d; --surface: #1c222c; --sunk: #252c38; --ink: #ecebe6; --muted: #a2a9b6; --line: #333b49;
+    --oker: #e6a54f; --oker-soft: #3b2f1c; --lapis: #94b3ef; --lapis-soft: #22304b;
+    --ok: #63c98f; --ok-soft: #1c3a2a; --bad: #f08a80; --bad-soft: #43231f;
+    --t1: #94b3ef; --t2: #e6a54f; --t3: #c99be3; --t4: #6fd1bd;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #12161d; --surface: #1c222c; --sunk: #252c38; --ink: #ecebe6; --muted: #a2a9b6; --line: #333b49;
+  --oker: #e6a54f; --oker-soft: #3b2f1c; --lapis: #94b3ef; --lapis-soft: #22304b;
+  --ok: #63c98f; --ok-soft: #1c3a2a; --bad: #f08a80; --bad-soft: #43231f;
+  --t1: #94b3ef; --t2: #e6a54f; --t3: #c99be3; --t4: #6fd1bd;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body {
+  background: var(--bg); color: var(--ink);
+  font-family: var(--font-body); font-size: 17px; line-height: 1.45;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 20px 48px;
+}
+.wrap { max-width: 1180px; margin: 0 auto; display: flex; flex-direction: column; gap: 22px; }
+h1, h2, h3 { font-family: var(--font-display); font-weight: 400; margin: 0; text-wrap: balance; }
+button { font: inherit; color: inherit; cursor: pointer; }
+button:focus-visible, input:focus-visible { outline: 3px solid var(--oker); outline-offset: 2px; }
+.label { font-size: 0.78rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); font-weight: 700; }
+
+/* header */
+.top { display: flex; flex-wrap: wrap; align-items: end; justify-content: space-between; gap: 14px 24px; }
+.brand h1 { font-size: clamp(1.9rem, 4vw, 2.8rem); line-height: 1.05; }
+.brand h1 span { color: var(--oker); }
+.brand p { margin: 6px 0 0; color: var(--muted); max-width: 60ch; }
+.seg { display: inline-flex; background: var(--sunk); border-radius: 999px; padding: 4px; gap: 4px; flex-wrap: wrap; }
+.seg button { border: 0; background: transparent; padding: 9px 16px; border-radius: 999px; font-weight: 700; color: var(--muted); }
+.seg button[aria-pressed="true"] { background: var(--surface); color: var(--ink); box-shadow: 0 1px 3px rgba(0,0,0,.15); }
+
+/* chapters */
+.chapters { display: flex; flex-wrap: wrap; gap: 10px; }
+.chip { border: 2px solid var(--line); background: var(--surface); border-radius: 999px; padding: 9px 16px; font-weight: 700; display: inline-flex; gap: 8px; align-items: center; }
+.chip small { font-weight: 400; color: var(--muted); font-variant-numeric: tabular-nums; }
+.chip[aria-pressed="true"] { border-color: var(--lapis); background: var(--lapis-soft); }
+
+/* game cards */
+.games { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+@media (max-width: 860px) { .games { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 520px) { .games { grid-template-columns: 1fr; } }
+.game-card { text-align: left; border: 2px solid var(--line); background: var(--surface); border-radius: var(--radius); padding: 18px 18px 16px; display: grid; grid-template-columns: 56px 1fr; gap: 4px 14px; align-items: start; transition: transform .12s, border-color .12s; }
+.game-card:hover { border-color: var(--oker); transform: translateY(-2px); }
+.game-card svg { grid-row: span 2; width: 56px; height: 56px; }
+.game-card h3 { font-size: 1.3rem; }
+.game-card p { margin: 0; color: var(--muted); font-size: 0.95rem; }
+.ic-a { fill: var(--oker); } .ic-b { fill: var(--lapis); } .ic-s { fill: none; stroke: var(--ink); stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; } .ic-bg { fill: var(--sunk); }
+
+/* teams */
+.panel { background: var(--surface); border: 2px solid var(--line); border-radius: var(--radius); padding: 16px 18px; display: flex; flex-direction: column; gap: 12px; }
+.team-row { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+.team-input { display: flex; align-items: center; gap: 8px; background: var(--sunk); border-radius: 10px; padding: 6px 10px; min-width: 0; }
+.team-input i { width: 14px; height: 14px; border-radius: 50%; flex: none; }
+.team-input input { border: 0; background: transparent; font: inherit; font-weight: 700; width: 9.5em; min-width: 0; color: var(--ink); }
+.linkbtn { border: 0; background: none; color: var(--lapis); font-weight: 700; padding: 6px 4px; text-decoration: underline; text-underline-offset: 3px; }
+
+/* game screen */
+.bar { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--bg); padding-block: 8px; display: flex; flex-wrap: wrap; gap: 10px 16px; align-items: center; justify-content: space-between; border-bottom: 2px solid var(--line); }
+.bar .where { display: flex; flex-direction: column; min-width: 0; }
+.bar .where strong { font-family: var(--font-display); font-weight: 400; font-size: 1.35rem; line-height: 1.1; }
+.btn { border: 2px solid var(--ink); background: var(--surface); border-radius: 12px; padding: 10px 18px; font-weight: 700; }
+.btn.primary { background: var(--ink); color: var(--bg); }
+.btn.oker { background: var(--oker); border-color: var(--oker); color: var(--bg); }
+.btn.ghost { border-color: var(--line); }
+.btn:disabled { opacity: .4; cursor: default; }
+.scores { display: flex; flex-wrap: wrap; gap: 8px; }
+.score { display: flex; align-items: center; gap: 6px; border: 2px solid var(--line); background: var(--surface); border-radius: 12px; padding: 4px 6px 4px 12px; font-weight: 700; }
+.score .n { font-family: var(--font-display); font-size: 1.4rem; min-width: 1.6ch; text-align: center; font-variant-numeric: tabular-nums; }
+.score.turn { border-color: var(--tc); box-shadow: 0 0 0 3px color-mix(in srgb, var(--tc) 30%, transparent); }
+.score .dot { width: 12px; height: 12px; border-radius: 50%; background: var(--tc); }
+.score .pm { border: 0; background: var(--sunk); border-radius: 8px; width: 28px; height: 28px; font-weight: 700; }
+.stage { display: flex; flex-direction: column; gap: 18px; align-items: stretch; }
+.turnline { font-weight: 700; color: var(--muted); }
+.turnline b { color: var(--tc, var(--ink)); }
+.prompt { background: var(--surface); border: 2px solid var(--line); border-radius: var(--radius); padding: clamp(18px, 3vw, 34px); font-size: clamp(1.3rem, 2.8vw, 2.1rem); line-height: 1.3; font-family: var(--font-display); text-wrap: balance; min-height: 4.5em; display: flex; align-items: center; }
+.prompt.term { justify-content: center; text-align: center; font-size: clamp(2rem, 5.5vw, 3.8rem); }
+.options { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+@media (max-width: 620px) { .options { grid-template-columns: 1fr; } }
+.opt { border: 2px solid var(--line); background: var(--surface); border-radius: var(--radius); padding: 16px 18px; text-align: left; font-size: clamp(1.05rem, 2vw, 1.4rem); font-weight: 700; display: flex; gap: 14px; align-items: center; min-width: 0; }
+.opt .k { flex: none; width: 2em; height: 2em; border-radius: 50%; display: grid; place-items: center; background: var(--sunk); font-size: .85em; }
+.opt.long { font-weight: 400; font-size: clamp(0.98rem, 1.6vw, 1.15rem); }
+.opt:hover:not(:disabled) { border-color: var(--lapis); }
+.opt.right { border-color: var(--ok); background: var(--ok-soft); }
+.opt.wrong { border-color: var(--bad); background: var(--bad-soft); }
+.opt:disabled { cursor: default; }
+.feedback { font-size: 1.15rem; font-weight: 700; min-height: 1.5em; }
+.feedback.good { color: var(--ok); } .feedback.badc { color: var(--bad); }
+.row { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+.row.end { justify-content: flex-end; }
+.progress { font-variant-numeric: tabular-nums; color: var(--muted); font-weight: 700; }
+
+/* memory */
+.mem { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; }
+.mcard { position: relative; border: 2px solid var(--line); border-radius: 12px; min-height: 120px; padding: 10px; background: var(--lapis); color: var(--bg); display: grid; place-items: center; text-align: center; font-weight: 700; overflow-wrap: anywhere; }
+.mcard .back { font-family: var(--font-display); font-size: 2rem; opacity: .55; }
+.mcard.open { background: var(--surface); color: var(--ink); }
+.mcard.open.w { font-family: var(--font-display); font-weight: 400; font-size: clamp(1.05rem, 2vw, 1.5rem); }
+.mcard.open.d { font-weight: 400; font-size: clamp(.8rem, 1.3vw, 1rem); background: var(--oker-soft); }
+.mcard.done { border-color: var(--tc); box-shadow: inset 0 0 0 3px var(--tc); }
+.mcard.miss { border-color: var(--bad); }
+@media (max-width: 520px) { .mem { gap: 6px; } .mcard { min-height: 92px; padding: 6px; } }
+
+/* raad */
+.hints { display: flex; flex-direction: column; gap: 10px; }
+.hint { display: grid; grid-template-columns: 2.4em 1fr; gap: 12px; align-items: center; background: var(--surface); border: 2px solid var(--line); border-radius: var(--radius); padding: 14px 16px; font-size: clamp(1.1rem, 2.2vw, 1.6rem); }
+.hint .num { width: 2.2em; height: 2.2em; border-radius: 50%; display: grid; place-items: center; background: var(--oker); color: var(--bg); font-weight: 700; font-size: .8em; }
+.hint.hidden-h { color: var(--muted); border-style: dashed; background: transparent; }
+.pattern { font-family: ui-monospace, "Cascadia Mono", Menlo, monospace; letter-spacing: .25em; }
+.answer { text-align: center; font-family: var(--font-display); font-size: clamp(2rem, 5vw, 3.4rem); color: var(--ok); }
+
+/* galgje */
+.hang { display: grid; grid-template-columns: minmax(0, 1fr) 260px; gap: 20px; align-items: start; }
+@media (max-width: 760px) { .hang { grid-template-columns: 1fr; } .hang svg { max-width: 220px; margin: 0 auto; } }
+.slots { display: flex; flex-wrap: wrap; gap: 8px 6px; justify-content: center; font-family: var(--font-display); font-size: clamp(1.6rem, 4vw, 2.8rem); }
+.slot { min-width: 1.05em; text-align: center; border-bottom: 4px solid var(--ink); line-height: 1.2; }
+.slot.gap { border-bottom-color: transparent; min-width: .5em; }
+.slot.lost { color: var(--bad); }
+.keys { display: flex; flex-wrap: wrap; gap: 6px; justify-content: center; }
+.key { width: 2.6em; height: 2.6em; border: 2px solid var(--line); background: var(--surface); border-radius: 10px; font-weight: 700; font-size: 1.05rem; }
+.key.hit { background: var(--ok-soft); border-color: var(--ok); }
+.key.miss { background: var(--bad-soft); border-color: var(--bad); opacity: .6; }
+.temple .piece { fill: var(--oker); transition: opacity .3s; }
+.temple .piece.lava { fill: var(--lapis); }
+.temple .piece.rook { fill: var(--muted); opacity: .55; }
+.temple .ghost { fill: none; stroke: var(--line); stroke-width: 2; stroke-dasharray: 4 4; }
+.sort { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 16px; }
+.sort .opt { justify-content: center; font-size: clamp(1.2rem, 2.6vw, 1.7rem); font-family: var(--font-display); padding: 22px; }
+.lives { text-align: center; font-weight: 700; color: var(--muted); }
+
+/* flitskaarten */
+.flash { perspective: 1400px; }
+.flash-inner { position: relative; min-height: 300px; transition: transform .5s; transform-style: preserve-3d; cursor: pointer; }
+.flash.flipped .flash-inner { transform: rotateY(180deg); }
+.face { position: absolute; inset: 0; backface-visibility: hidden; border-radius: 20px; border: 2px solid var(--line); background: var(--surface); padding: 28px; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; gap: 14px; }
+.face.back-f { transform: rotateY(180deg); background: var(--oker-soft); }
+.face .big { font-family: var(--font-display); font-size: clamp(2rem, 6vw, 4rem); line-height: 1.1; }
+.face .def { font-size: clamp(1.2rem, 2.6vw, 1.9rem); line-height: 1.35; max-width: 34ch; }
+.face .tip { color: var(--muted); font-size: clamp(1rem, 1.8vw, 1.25rem); }
+
+/* bingo */
+.wall { display: flex; flex-wrap: wrap; gap: 8px; }
+.wall span { background: var(--surface); border: 2px solid var(--line); border-radius: 10px; padding: 6px 12px; font-weight: 700; font-size: clamp(1rem, 1.8vw, 1.3rem); }
+.wall span.called { background: var(--ok-soft); border-color: var(--ok); }
+.howto { margin: 0; padding-left: 1.2em; color: var(--muted); }
+.howto li + li { margin-top: 4px; }
+
+/* lijst */
+.tablewrap { overflow-x: auto; background: var(--surface); border: 2px solid var(--line); border-radius: var(--radius); }
+table { border-collapse: collapse; width: 100%; min-width: 560px; }
+th, td { text-align: left; padding: 10px 14px; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { font-size: .78rem; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+td:first-child { font-weight: 700; white-space: nowrap; }
+td.x { color: var(--muted); }
+
+.endbox { background: var(--surface); border: 2px solid var(--line); border-radius: var(--radius); padding: 28px; text-align: center; display: flex; flex-direction: column; gap: 14px; align-items: center; }
+.endbox h2 { font-size: clamp(1.8rem, 4vw, 2.6rem); }
+.note { color: var(--muted); font-size: .92rem; }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+
+<div class="wrap" id="app"></div>
+
+<script>
+// Begrippen per hoofdstuk: [begrip, uitleg, extra tip]. Gehaald uit de leerbundels van Connectopia (Kim, 11/11/2026):
+// samenleving en economie, sociale en gedragswetenschappen, kunstbeschouwing en filosofie, gezondheid, zorg en welzijn,
+// ontwikkeling en pedagogisch handelen, filosofie en recht. Elk vak is een niveau.
+const DATA = {
+  se_spark: { label: "SPARK · Samenleving en economie", chapters: [
+    { id: "se-identiteit", title: "Ik ben wie ik ben", terms: [
+      ["identiteit","Het geheel van wat jou tot die ene persoon maakt.","Lichaam, karakter, afkomst, groepen."],
+      ["persoonlijke identiteit","Je identiteit als persoon.","Wat jou uniek maakt."],
+      ["groepsidentiteit","Je identiteit door de groepen waar je deel van uitmaakt.","Je club, je klas, je familie."],
+      ["imago","Het beeld dat anderen van je hebben.","Niet hetzelfde als wie je echt bent."],
+      ["ID-cirkel","Een tekening waarin je de elementen van je identiteit rond jezelf zet.","Ook identiteitscirkel."],
+      ["subcultuur","Een kleinere groep binnen de samenleving met een eigen stijl.","Eigen kleren, muziek en woorden."],
+      ["solidariteit","Opkomen voor en helpen van anderen, ook als je er zelf niets aan hebt.","Geld inzamelen voor een medeleerling."],
+      ["discriminatie","Iemand anders behandelen omwille van wie hij is of waar hij vandaan komt.","Nooit gevraagd worden voor een groepswerk."]
+    ]},
+    { id: "se-samenleven", title: "Ik leef samen met anderen", terms: [
+      ["diversiteit","Mensen in een samenleving verschillen van elkaar.","Moeilijk én waardevol."],
+      ["meningsverschil","Twee mensen denken anders over iets en zeggen dat tegen elkaar.","Iets anders dan pesten."],
+      ["omstaander","Wie pesten ziet gebeuren en niets doet.","Naast de gepeste en de pester."],
+      ["basisemoties","Blijdschap, verdriet, angst en woede.","Er zijn er vier."],
+      ["mentale grens","De grens van wat je van binnen nog aankan.","Naast je lichamelijke grens."],
+      ["zelfrespect","Je bewaakt ook je eigen grenzen.","Niet alleen die van anderen."],
+      ["toestemming","Allebei akkoord en allebei goed erbij.","Onder druk telt ze niet."],
+      ["gelijkwaardigheid","Er is geen machtsverschil tussen twee mensen.","Een voorwaarde voor respectvol omgaan."]
+    ]},
+    { id: "se-ehbo", title: "Eerste hulp bij ongevallen", terms: [
+      ["eerste hulp","De tijd overbruggen tot de hulpdiensten er zijn en zorgen dat het niet erger wordt.","Je geneest het slachtoffer niet."],
+      ["gevarendriehoek","Een rode driehoek om de plaats van een ongeval op de weg veilig te maken.","Veiligheid eerst."],
+      ["112","Het noodnummer voor een ambulance of de brandweer.","Ga er niet van uit dat iemand al belde."],
+      ["stabiele zijligging","Een houding voor wie niet reageert maar wel normaal ademt, zodat de luchtweg vrij blijft.","Braaksel kan weglopen."],
+      ["rugslagen","Stevige slagen met de hiel van je hand tussen de schouderbladen.","Bij een ernstige verslikking."],
+      ["buikstoot","Een stevige ruk naar binnen en naar boven onder de ribben.","Niet bij een baby."],
+      ["verstuiking","De banden rond een gewricht zijn gerekt.","Rust, koelen, drukverband, hoog leggen."],
+      ["breuk","Het bot zelf is gebroken.","Niet verplaatsen."],
+      ["brandwonde","Een wonde door hitte, die je tien tot twintig minuten met lauw stromend water koelt.","Vastgekleefde kleren laten zitten."]
+    ]},
+    { id: "se-democratie", title: "Democratie en dictatuur", terms: [
+      ["democratie","Een bestuursvorm waarin het volk regeert.","Grieks: demos is volk, kratos is macht."],
+      ["democratische rechtsstaat","Een staat met verkiezingen, gescheiden machten en grondrechten.","Meer dan alleen verkiezingen."],
+      ["wetgevende macht","Het parlement, dat de wetten maakt en stemt.","Eén van de drie machten."],
+      ["uitvoerende macht","De regering, die de wetten in de praktijk brengt.","Eén van de drie machten."],
+      ["rechterlijke macht","De rechters, die recht spreken in rechtbanken en hoven.","Benoemd, niet verkozen."],
+      ["scheiding der machten","De drie machten zijn in handen van verschillende personen.","Zodat niemand alle macht heeft."],
+      ["stemplicht","Je moet gaan stemmen, al kies je zelf op wie.","In België."],
+      ["dictatuur","Een autoritair regime waarin één persoon of groep alle macht heeft.","Verkiezingen zijn er schijn."],
+      ["inspraak","Je mening telt mee in een beslissing die ook over jou gaat.","Niet: jouw voorstel wint altijd."]
+    ]},
+    { id: "se-belgie", title: "Hoe België bestuurd wordt", terms: [
+      ["gemeenteraad","De verkozen raad die de beslissingen van de gemeente neemt.","Het dichtst bij de inwoners."],
+      ["schepencollege","Het college van burgemeester en schepenen: het dagelijks bestuur van de gemeente.","Voert uit."],
+      ["omgevingsvergunning","De toelating van de gemeente om bijvoorbeeld te bouwen.","Voor een carport."],
+      ["provincie","Een bestuursniveau tussen gemeente en gewest; België telt er tien.","Brussel hoort bij geen enkele."],
+      ["gouverneur","De voorzitter van de deputatie van een provincie, benoemd en niet verkozen.","Eén per provincie."],
+      ["gemeenschap","Een deelstaat die bevoegd is voor wat met mensen te maken heeft, zoals onderwijs.","Vlaamse, Franse, Duitstalige."],
+      ["gewest","Een deelstaat die bevoegd is voor wat grondgebonden is, zoals natuur.","Vlaams, Waals, Brussels."],
+      ["decreet","De wet van een gemeenschap of een gewest.","Gemaakt door het Vlaams Parlement."],
+      ["federale overheid","Het bestuur voor wat voor het hele land geldt.","Justitie, leger, pensioenen."],
+      ["staatshoofd","De koning, die het land niet zelf bestuurt.","In België."]
+    ]},
+    { id: "se-kringloop", title: "De economische kringloop", terms: [
+      ["economische kringloop","Het schema van de stromen tussen gezinnen, bedrijven en de overheid.","Drie spelers."],
+      ["goederenstroom","Een product dat van de ene speler naar de andere gaat.","Brood van bakker naar gezin."],
+      ["dienstenstroom","Een prestatie die geleverd wordt.","Knippen, vervoeren."],
+      ["geldstroom","Geld dat van de ene speler naar de andere gaat.","Loon, betaling."],
+      ["consument","Wie goederen en diensten koopt om zelf te gebruiken.","Jij in de winkel."],
+      ["producent","Een bedrijf dat goederen of diensten maakt en levert.","De bakker."],
+      ["handelsbedrijf","Koopt producten in en verkoopt ze zonder ze te bewerken.","Een supermarkt."],
+      ["non-profitorganisatie","Een organisatie zonder winst als doel.","Een jeugdbeweging, een ziekenfonds."],
+      ["terugkerende inkomsten","Inkomsten die regelmatig binnenkomen.","Loon, pensioen, groeipakket."]
+    ]},
+    { id: "se-overheid", title: "De overheid in de economie", terms: [
+      ["belastingen","Geld dat gezinnen en bedrijven aan de overheid betalen.","Voor wegen, scholen, ziekenhuizen."],
+      ["btw","Een belasting die al in de prijs van een product zit.","Belasting over de toegevoegde waarde."],
+      ["begrotingstekort","De overheid geeft meer uit dan ze ontvangt.","Ze moet lenen."],
+      ["procent","Per honderd.","30 van 100 is 30 %."],
+      ["sociale ongelijkheid","Mensen hebben niet dezelfde kansen en middelen.","Rustige plek voor huiswerk of niet."],
+      ["sociale zekerheid","Het systeem dat opvangt wat mensen niet zelf kunnen dragen.","Bij ziekte, werkloosheid, ouderdom."],
+      ["solidariteitsprincipe","Wie kan, draagt bij; wie het nodig heeft, wordt geholpen.","De basis van de sociale zekerheid."],
+      ["vervangingsuitkering","Geld dat een verloren inkomen vervangt.","Werkloosheidsuitkering."],
+      ["sociaal tarief","Een lagere prijs voor wie weinig verdient.","Een aanvullende maatregel."]
+    ]},
+    { id: "se-financien", title: "Ik beheer mijn financiën", terms: [
+      ["gecreëerde behoefte","Een behoefte die van buitenaf opgewekt wordt, bijvoorbeeld door reclame.","Niet altijd slecht."],
+      ["budgetplan","Een overzicht van je inkomsten en je uitgaven.","Helpt je sparen."],
+      ["buffer","Een spaarpot voor onvoorziene uitgaven.","Elke maand een klein bedrag opzij."],
+      ["lening","Geld dat je krijgt en later moet terugbetalen.","Langer lenen kost meer."],
+      ["rente","De prijs die je betaalt om geld te mogen lenen.","Ook wat je krijgt op je spaarrekening."],
+      ["schuld","Wat je nog moet terugbetalen.","Na een lening."],
+      ["schuldenspiraal","Je leent om je andere afbetalingen te betalen.","Steeds dieper in de schuld."],
+      ["bedenktijd","Veertien dagen om een online aankoop terug te sturen.","Bij een webshop."],
+      ["phishing","Een vals bericht of mail die je gegevens of codes wil bemachtigen.","Klik niet op de link."]
+    ]},
+    { id: "se-digitaal", title: "Digitaal communiceren en bestanden", terms: [
+      ["aanhef","De begroeting bovenaan een mail.","Geachte mevrouw."],
+      ["Verkenner","Het programma van Windows om mappen en bestanden te beheren.","Bestandsbeheer."],
+      ["kopiëren","Een bestand dupliceren, zodat het origineel blijft staan.","Bij verplaatsen niet."],
+      ["mappenstructuur","Mappen in duidelijke lagen, van algemeen naar specifiek.","School, vak, schooljaar."],
+      ["downloaden","Een bestand van het internet naar je toestel halen.","Een werkblad van de schoolsite."],
+      ["uploaden","Een bestand van je toestel op het internet zetten.","Een taak op het leerplatform."],
+      ["back-up","Een reservekopie op een andere plaats.","Voor als het origineel verloren gaat."],
+      ["cloudopslag","Je bestanden bewaren op een server die je via het internet bereikt.","OneDrive, Google Drive."]
+    ]},
+    { id: "se-office", title: "Word, Excel, PowerPoint en veilig online", terms: [
+      ["alinea","Een stuk tekst dat eindigt waar je op Enter duwt.","Krijgt dezelfde opmaak."],
+      ["subscript","Een teken kleiner en lager zetten.","H2O."],
+      ["superscript","Een teken kleiner en hoger zetten.","m²."],
+      ["uitvullen","Een alinea links én rechts recht laten aansluiten op de marge.","Geen rafelige rand."],
+      ["voettekst","Tekst die onderaan elke pagina herhaald wordt.","Het paginanummer."],
+      ["getalnotatie","De manier waarop Excel een getal toont.","Valuta, percentage, datum."],
+      ["KISS-principe","Keep it short and simple: korte dia's met weinig tekst.","Zeven regels van zeven woorden."],
+      ["smishing","Internetfraude via een sms.","Familie van phishing."],
+      ["quishing","Internetfraude via een QR-code die naar een valse website leidt.","Familie van phishing."],
+      ["tweestapsverificatie","Inloggen met je wachtwoord én een tweede bevestiging.","Een code op je gsm."]
+    ]}
+  ]},
+  sgw_boost: { label: "BOOST · Sociale en gedragswetenschappen", chapters: [
+    { id: "sb-ontw", title: "Ontwikkeling en de fysieke ontwikkeling", terms: [
+      ["groeien","De zuiver lichamelijke toename: langer, zwaarder, groter.","Er komt letterlijk lichaam bij."],
+      ["rijpen","Wat vanzelf komt, zonder dat je het oefent.","De eerste tandjes."],
+      ["leren","Wat er door ervaring en oefening bij komt.","Leren fietsen."],
+      ["prenatale fase","De fase vóór de geboorte, waarin alle organen gevormd worden.","De kortste fase van de levensloop."],
+      ["adolescentie","De fase tussen de kindertijd en de volwassenheid.","Het zelfbeeld schommelt het meest."],
+      ["nature","De erfelijkheid: alles wat in je genen meekomt.","Tegenover nurture."],
+      ["nurture","Alles wat de omgeving aanbrengt.","School, buurt, taal thuis."],
+      ["zelfbepaling","De mens kiest ook zelf, binnen zijn mogelijkheden.","De derde factor naast nature en nurture."],
+      ["groeispurt","Een periode van heel snelle lichamelijke groei.","Daarna even onhandig."],
+      ["sensomotorisch","De samenwerking van zintuigen en beweging.","Een baby onderzoekt met zijn mond."],
+      ["grijpreflex","Een baby sluit vanzelf zijn vingers rond je vinger.","Een babyreflex."],
+      ["fijne motoriek","Kleine, precieze bewegingen van handen en vingers.","Knippen, rijgen, schrijven."]
+    ]},
+    { id: "sb-piaget", title: "Piaget en Kohlberg", terms: [
+      ["objectpermanentie","Weten dat iets blijft bestaan als je het niet ziet.","Sensomotorisch stadium."],
+      ["symbolisch denken","Eén ding staat voor een ander.","Een blokje wordt een auto."],
+      ["egocentrisme","Bij Piaget: je nog niet kunnen voorstellen hoe iets er van een andere plaats uitziet.","Geen egoïsme, een denkgrens."],
+      ["animisme","Een kleuter denkt dat dingen leven en gevoelens hebben.","De stoute tafel."],
+      ["conservatie","Weten dat de hoeveelheid blijft als de vorm verandert.","De bol klei en de worst."],
+      ["concreet-operationeel stadium","Logisch denken lukt, maar met een concreet beeld.","Breuken met pizzastukken."],
+      ["hypothetisch denken","Denken in als-dan.","Formeel-operationeel stadium."],
+      ["moreel dilemma","Een keuze zonder goed antwoord waarbij beide keuzes iets kosten.","Het dilemma van Heinz."],
+      ["pre-conventioneel","Het stadium van Kohlberg waarin straf en beloning het gedrag sturen.","Ik word anders gestraft."],
+      ["conventioneel","Het stadium van Kohlberg waarin de regels en de groep tellen.","Het staat zo in de wet."],
+      ["post-conventioneel","Het stadium van Kohlberg waarin eigen beginselen zwaar wegen.","Een wet kan onrechtvaardig zijn."]
+    ]},
+    { id: "sb-hechting", title: "Sociale ontwikkeling, hechting en Erikson", terms: [
+      ["emotieregulatie","Je gevoel kunnen sturen, zonder het te onderdrukken.","Rustig worden, uitstellen."],
+      ["mijlpaal","Een stap in de ontwikkeling die de meeste kinderen zetten.","De eerste glimlach."],
+      ["parallel spel","Peuters spelen naast elkaar, maar nog apart.","Vóór het samen spelen."],
+      ["prosociaal gedrag","Gedrag dat anderen helpt.","Helpen, delen, troosten."],
+      ["gehechtheid","Een duurzame band met een verzorger.","Ook als de verzorger even weg is."],
+      ["veilige hechting","Een kind durft te verkennen omdat het weet dat het kan terugkeren.","De veilige haven."],
+      ["scheidingsangst","De angst van een baby als zijn verzorger weggaat.","Een normaal gevolg van hechting."],
+      ["vertrouwen versus wantrouwen","Het conflict van Erikson in de babytijd.","De kracht is hoop."],
+      ["identiteit versus identiteitsverwarring","Het conflict van Erikson in de adolescentie.","De kracht is trouw."],
+      ["generativiteit","Zorg en aandacht voor wie na jou komt.","Tegenover stagnatie."],
+      ["integriteit","Bij Erikson: met vrede terugkijken op je leven.","Tegenover wanhoop."]
+    ]},
+    { id: "sb-persoon", title: "Persoonlijkheid en zelfconcept", terms: [
+      ["persoonlijkheid","Het geheel dat je uniek maakt: een vast patroon in denken, voelen en doen.","Identiteit, karakter, temperament."],
+      ["karakter","De trekken die je gedrag kleuren.","Zorgvuldigheid, openheid."],
+      ["temperament","De aangeboren grondtoon van iemand.","Niet aangeleerd."],
+      ["big five","Het bekendste model van vijf persoonlijkheidstrekken.","Elke trek is een schaal."],
+      ["zelfconcept","Het hele beeld dat je van jezelf hebt.","Zelfbeeld, zelfwaardering, self-efficacy, body-image."],
+      ["zelfbeeld","Wat je denkt dat je bent.","Ik ben verlegen."],
+      ["zelfwaardering","Hoeveel waarde je jezelf als persoon geeft.","Stuurt wat je durft."],
+      ["self-efficacy","Het geloof dat je een bepaalde taak aankan.","Een begrip van Bandura."],
+      ["body-image","Hoe je over je lichaam denkt.","Klopt niet altijd met de werkelijkheid."],
+      ["vertekend zelfbeeld","Een zelfbeeld dat afwijkt van de werkelijkheid, door onder- of overschatting.","Niet realistisch."]
+    ]},
+    { id: "sb-emotie", title: "Emoties, motivatie en attributies", terms: [
+      ["emotie","Een kortdurende reactie op iets.","Korter dan een stemming."],
+      ["fysiologische component","Wat je lichaam doet bij een emotie.","Je hartslag gaat omhoog."],
+      ["intrinsieke motivatie","Motivatie van binnenuit.","Iets graag doen."],
+      ["extrinsieke motivatie","Motivatie van buitenaf.","Een beloning, een punt."],
+      ["ondermijningseffect","Een beloning maakt de zin van binnenuit kleiner.","Betaald worden voor je hobby."],
+      ["vermijdingsgedrag","Gedrag waarmee je iets uit de weg gaat.","Niets doen uit angst om te falen."],
+      ["toenaderingsgedrag","Gedrag waarmee je iets nastreeft of behoudt.","Tegenover vermijdingsgedrag."],
+      ["attributie","De verklaring die je geeft waarom iets lukte of mislukte.","Pech of te weinig geoefend?"],
+      ["interne attributie","Een verklaring die bij jezelf ligt.","Ik heb goed geoefend."],
+      ["externe attributie","Een verklaring die buiten jezelf ligt.","De toets was te moeilijk."]
+    ]},
+    { id: "sb-cultuur", title: "Cultuur en socialisatie", terms: [
+      ["cultuur","Alles wat een groep deelt en doorgeeft.","Aangeleerd, niet aangeboren."],
+      ["waarde","Een ideaal, iets wat je belangrijk vindt.","Eerlijkheid."],
+      ["norm","Een gedragsregel die uit een waarde volgt.","Je liegt niet."],
+      ["ritueel","Een vaste handeling die een overgang in het leven markeert.","Huwelijk, begrafenis."],
+      ["etnocentrisme","Een andere cultuur beoordelen vanuit je eigen cultuur.","Je eigen gewoontes als normaal nemen."],
+      ["cultuurschok","Verwarring in een vreemde cultuur.","Wat vanzelf sprak, klopt niet meer."],
+      ["dominante cultuur","De cultuur van de meerderheid.","Tegenover een subcultuur."],
+      ["socialisatie","Cultuur leren en doorgeven.","Duurt een leven lang."],
+      ["primaire socialisatie","De eerste en diepste socialisatie, vooral in het gezin.","Wat je in je eerste jaren leert."],
+      ["enculturatie","Je eigen cultuur binnenkrijgen.","Tegenover acculturatie."],
+      ["acculturatie","Een andere cultuur overnemen.","Bij contact tussen culturen."],
+      ["anticiperende socialisatie","Je voorbereiden op een toekomstige rol.","Vóór de rol begint."]
+    ]},
+    { id: "sb-groepen", title: "Instituties en sociale groepen", terms: [
+      ["sociale institutie","Een vaste groep met een taak in de samenleving.","Gezin, school, rechtssysteem."],
+      ["verborgen leerstof","Wat een school meegeeft zonder dat er een les over gaat.","Op tijd komen, samenwerken."],
+      ["peergroep","De groep leeftijdsgenoten.","Kledij om erbij te horen."],
+      ["massamedia","Media die je bereiken zonder rechtstreeks contact.","Tertiaire socialisatie."],
+      ["primaire groep","Een kleine, hechte groep met persoonlijk contact.","Het gezin."],
+      ["secundaire groep","Een grote groep met een doel en weinig persoonlijk contact.","Een bedrijf, een vakbond."],
+      ["formele groep","Een groep met vaste regels, rollen en soms statuten.","Een sportclub."],
+      ["informele groep","Een groep die spontaan ontstaat, zonder vaste regels.","De pauzegroep."],
+      ["sociale categorie","Mensen met een gemeenschappelijk kenmerk, zonder contact of gedeeld gevoel.","Alle linkshandigen. Typologie van Merton."],
+      ["collectiviteit","Mensen zonder persoonlijk contact maar met gedeelde waarden.","Supporters van een ploeg."],
+      ["samenzijn","Mensen die alleen door plaats en moment verbonden zijn.","Wachtenden aan een bushalte."]
+    ]},
+    { id: "sb-status", title: "Positie, rol en status", terms: [
+      ["sociale positie","De plaats die iemand in een groep of samenleving inneemt.","Dochter, leerling, voorzitter."],
+      ["toegewezen positie","Een positie die je niet kiest.","Je leeftijd, je geslacht."],
+      ["verworven positie","Een positie die je zelf behaalt.","Arts worden na je studie."],
+      ["sociale rol","Het gedrag dat bij een positie hoort.","Wat men je ziet doen."],
+      ["rolverwachting","Wat anderen verwachten van iemand in een positie.","Een leerkracht verbetert eerlijk."],
+      ["rollenset","Alle rollen bij één positie.","Leerkracht tegenover leerlingen, ouders, directie."],
+      ["rollenconflict","Verwachtingen die met elkaar botsen.","Intern of extern."],
+      ["sociale status","Het aanzien van een positie.","Anderen kennen ze toe."],
+      ["kenniskring","Je netwerk van mensen die je kan bellen voor een job of advies.","Een statusfactor."],
+      ["sociale overerving","Het doorgeven van een positie van ouder naar kind.","Ook reproductie."],
+      ["sociale mobiliteit","Van positie veranderen op de maatschappelijke ladder.","Opwaarts of neerwaarts."]
+    ]}
+  ]},
+  kf_boost: { label: "BOOST · Kunstbeschouwing en filosofie", chapters: [
+    { id: "kb-kunst", title: "Kunst, cultuur en de kunstvormen", terms: [
+      ["cultuur","Alles wat een groep heeft gemaakt en overdraagt aan de volgende generatie.","Natuur is geen cultuur."],
+      ["cultuuruiting","Iets wat mensen maakten en doorgeven, ook als het geen kunst is.","Elke kunstuiting is er ook een."],
+      ["kunstcriteria","De vijf argumenten om te bespreken of iets kunst is.","Een werk moet ze niet alle vijf halen."],
+      ["vakmanschap","Het kunstcriterium over techniek, tijd en moeilijkheid.","Hoe moeilijk is het na te maken?"],
+      ["esthetische waarde","Het kunstcriterium over schoonheid, dat sterk verschuift in de tijd.","De impressionisten werden eerst uitgelachen."],
+      ["podiumkunsten","Kunstvormen die in de tijd gebeuren en daarna voorbij zijn.","Theater, dans, muziek."],
+      ["architectuur","De kunstvorm die meebouwt aan de ruimte waarin mensen leven.","Kunst die je binnengaat."],
+      ["design","De kunstvorm die vorm geeft aan voorwerpen.","Een stoel, een affiche."],
+      ["samengestelde kunstvorm","Een werk waarin meerdere kunsten samenkomen.","Een film, een opera."]
+    ]},
+    { id: "kb-periodes", title: "Kunstperiodes en stromingen", terms: [
+      ["functionele kunst","Kunst die een doel diende.","De dode begeleiden in Egypte."],
+      ["piramide","Het koningsgraf bij uitstek in het oude Egypte.","Later de Vallei der Koningen."],
+      ["venusbeeldjes","Kleine prehistorische vrouwenfiguurtjes in steen, been of ivoor.","Prehistorische beeldhouwkunst."],
+      ["renaissance","Wedergeboorte van de klassieke oudheid in de kunst.","Rust, symmetrie, strak perspectief."],
+      ["humanisme","Een visie die de mens en zijn kunnen centraal zet.","Hoort bij de renaissance."],
+      ["lijnperspectief","Diepte geven aan een schilderij met lijnen die in één verdwijnpunt samenkomen.","Uitgevonden in de renaissance."],
+      ["barok","Een stroming met diagonale beweging en hard lichtcontrast.","Rubens."],
+      ["romantiek","Een stroming vol gevoel en overweldigende natuur.","Een stormachtige zee met een klein schip."],
+      ["realisme","Een stroming die het gewone leven zonder opsmuk toont.","Zware veldarbeid."],
+      ["conceptuele kunst","Kunst waarin het idee zwaarder weegt dan het ambacht.","Hedendaagse kunst."],
+      ["japonisme","De invloed van Japanse prenten op westerse kunstenaars in de 19de eeuw.","Geen Japanse stroming."]
+    ]},
+    { id: "kb-analyse", title: "Inhoud, context en vormgeving", terms: [
+      ["onderwerp","Wat er op een kunstwerk te zien is.","Een landschap, een portret."],
+      ["functie","Waarvoor een kunstwerk diende.","Macht tonen, versieren."],
+      ["context","De tijd, plaats en samenleving waarin een werk ontstond.","Verklaart de inhoud."],
+      ["richtvragen","De vier vragen waarmee je een kunstwerk analyseert, van zien naar begrijpen.","Hoe, wat, waarvoor, waar."],
+      ["kleurcontrast","Een tegenstelling tussen kleuren.","Licht-donker, warm-koud, complementair."],
+      ["symbolisch kleurgebruik","Een kleur die voor iets staat.","Blauw voor Maria."],
+      ["fresco","Een muurschildering op natte kalk.","Een techniek van de schilderkunst."],
+      ["skeletbouw","Een bouwtechniek die draagt met een geraamte in plaats van met muren.","Architectuur."]
+    ]},
+    { id: "kb-filo", title: "Wat is filosofie?", terms: [
+      ["verwondering","Je verbazen over het gewone: het beginpunt van alle filosofie.","Niet de komeet, maar de stoel."],
+      ["kennisleer","Het nadenken over hoe betrouwbaar je kennis is.","Wat weet ik eigenlijk?"],
+      ["mythe","Een verhaal dat met goden en helden verklaart waarom de wereld is zoals ze is.","De boze berggod."],
+      ["Milete","De Griekse havenstad in Klein-Azië waar de westerse filosofie ontstond.","Ideeën kwamen er samen."],
+      ["natuurfilosofen","De eerste Griekse filosofen, die de natuur zonder goden verklaarden.","Thales, Heraclitus, Pythagoras."],
+      ["Thales","De eerste westerse filosoof, die één natuurlijk grondbeginsel zocht.","Uit Milete."],
+      ["weetvraag","Een vraag die je kan opzoeken.","Hoe laat is het?"],
+      ["meningsvraag","Een vraag waarop volstaat wat je vindt.","Vind jij dit mooi?"],
+      ["filosofische vraag","Een fundamentele, niet-empirische en open vraag die je met argumenten onderzoekt.","Ook denkvraag."],
+      ["metafysica","Het filosofische domein dat voorbij gaat wat je kan zien en meten.","Meta betekent voorbij."],
+      ["esthetica","Het filosofische domein over schoonheid en kunst.","Moet kunst mooi zijn?"],
+      ["signaalwoord","Een woord dat een verband aangeeft.","Daarom, toch, bovendien."]
+    ]},
+    { id: "kb-mens", title: "Lichaam en geest, mens en dier", terms: [
+      ["dualisme","De visie dat lichaam en geest twee aparte dingen zijn.","Plato, Descartes."],
+      ["monisme","De visie dat lichaam en geest één geheel vormen.","Aristoteles staat er dichtbij."],
+      ["Plato","Filosoof uit Athene voor wie de ziel gevangen is in het lichaam.","De ziel is onsterfelijk."],
+      ["Aristoteles","Leerling van Plato voor wie de ziel de vorm van het lichaam is.","Zonder lichaam geen ziel."],
+      ["Descartes","Franse filosoof van ik denk, dus ik ben.","Geest en stof zijn apart."],
+      ["antropologie","Het filosofische domein over wat de mens is.","Wat onderscheidt mens van dier?"],
+      ["Peter Singer","Filosoof voor wie dierenleed even zwaar weegt als mensenleed.","Ook over armoede en hulp."]
+    ]},
+    { id: "kb-ethiek", title: "Ethiek", terms: [
+      ["gevolgenethiek","Een daad is goed als de gevolgen goed zijn.","Ook utilitarisme. Bentham, Mill."],
+      ["plichtethiek","Een daad is goed of fout op zich, los van de gevolgen.","Kant: nooit martelen."],
+      ["utilitarisme","De stroming die leed tegen geluk afweegt.","Zoveel mogelijk geluk voor zoveel mogelijk mensen."],
+      ["moreel dilemma","Een keuze tussen twee opties die beide iets waardevols kosten.","Er is geen pijnloze keuze."],
+      ["waarde","Een doel of ideaal dat je belangrijk vindt.","De norm is de regel ernaartoe."],
+      ["norm","Een concrete regel die uit een waarde volgt.","Verschilt per cultuur."],
+      ["vrijheid","In de ethiek: kunnen kiezen en die keuze verantwoorden.","Niet: doen wat je wil."],
+      ["drogreden","Een argument dat niet geldig is maar wel overtuigend klinkt.","Bij ethische discussies."],
+      ["zelfbeschikking","Zelf beslissen over je lichaam en je leven.","Ook autonomie."],
+      ["genderidentiteit","Hoe iemand zichzelf ervaart als man, vrouw of anders.","Niet wat anderen denken."]
+    ]}
+  ]},
+  gzw: { label: "BOOST DF · Gezondheid, zorg en welzijn", chapters: [
+    { id: "gz-waarnemen", title: "Waarnemen, zintuigen en zenuwstelsel", terms: [
+      ["prikkel","Een verandering in of buiten je lichaam die je lichaam kan opmerken.","Inwendig of uitwendig."],
+      ["endocriene klier","Een klier die haar stof rechtstreeks aan het bloed afgeeft.","Endocrien is naar binnen."],
+      ["exocriene klier","Een klier die haar stof afgeeft via een kanaal.","Een zweetklier."],
+      ["umami","De hartige basissmaak.","Bouillon, kaas, tomaat."],
+      ["staafjes","Cellen in het netvlies die in het donker zien, maar geen kleur.","Tegenover de kegeltjes."],
+      ["kegeltjes","Cellen in het netvlies die kleur zien en het beeld scherp maken.","Werken bij veel licht."],
+      ["buis van Eustachius","Verbindt het middenoor met de keel en houdt de druk gelijk.","Ploppen in het vliegtuig."],
+      ["hertz","De eenheid van de toonhoogte: trillingen per seconde.","Luidheid is decibel."],
+      ["ligament","Een band die twee botten met elkaar verbindt.","Een pees verbindt spier en bot."],
+      ["agonist","De spier die een beweging uitvoert.","De antagonist doet het omgekeerde."],
+      ["neuron","Een zenuwcel.","Dendrieten, cellichaam, axon."],
+      ["synaps","De plaats waar twee neuronen de impuls doorgeven.","Met een neurotransmitter."],
+      ["reflexboog","De weg van een impuls bij een reflex, van receptor tot effector.","Zonder dat je beslist."]
+    ]},
+    { id: "gz-gezond", title: "Gezondheid, ziek zijn en eerste hulp", terms: [
+      ["ICF","Een model dat het functioneren bekijkt vanuit de gezondheidstoestand, het ik en de omgeving.","Naast de elf patronen van Gordon."],
+      ["externe factor","Iets buiten de persoon dat zijn functioneren beïnvloedt.","De trap voor een rolstoel."],
+      ["symptoom","Een teken van ziek zijn.","Koorts, braken, vermoeidheid."],
+      ["hooikoorts","De allergie voor pollen.","In de lente."],
+      ["soa","Seksueel overdraagbare aandoening.","Afkorting."],
+      ["fractuur","Een botbreuk.","Letsel aan het bot."],
+      ["ontwrichting","Een bot dat uit de kom schoot.","Laat het gewricht in die stand."],
+      ["AED","Een toestel dat bij een hartstilstand een schok geeft en zelf uitlegt wat je moet doen.","Voor iedereen bedoeld."],
+      ["gezondheidsbevordering","De gezondheid van mensen versterken en beschermen.","Niet genezen."],
+      ["lege calorieën","Energie zonder voedingsstoffen.","Frisdrank, snoep."],
+      ["sedentair gedrag","Stilzitten.","Geen vorm van bewegen."],
+      ["slaaphygiëne","Gewoonten die zorgen dat je goed slaapt.","Vast uur, donkere en koele kamer."]
+    ]},
+    { id: "gz-voeding", title: "Voeding en voedselveiligheid", terms: [
+      ["voedingsmiddel","Wat je eet.","Een boterham."],
+      ["voedingsstoffen","De stoffen in je eten die het lichaam nodig heeft; er zijn er zeven.","Koolhydraten, eiwitten, vetten, ..."],
+      ["voedselveiligheid","Eten zonder gevaar: je kan er niet ziek van worden.","Hygiëne en bewaren."],
+      ["kruisbesmetting","Kiemen die van het ene voedingsmiddel naar het andere overgaan.","Via handen, mes of plank."],
+      ["HACCP","Een reeks richtlijnen die de gevaren bij voedselbereiding opspoort en afdekt.","Voedselveiligheid in de keuken."],
+      ["FIFO","First in, first out: wat eerst binnenkwam, gebruik je eerst.","Oude boodschappen vooraan."],
+      ["THT","Ten minste houdbaar tot: daarna kan de kwaliteit minder zijn.","Eerst kijken en ruiken."],
+      ["TGT","Te gebruiken tot: daarna is het product niet meer veilig.","Een harde grens."],
+      ["voedselverspilling","Eten weggooien dat nog goed was.","Kost ook geld."],
+      ["Ladder van Lansink","Een rangorde voor afval, van voorkomen tot verbranden.","Preventie staat bovenaan."]
+    ]},
+    { id: "gz-wonen", title: "Interieurzorg en linnenzorg", terms: [
+      ["interieurzorg","De zorg voor de woon- en leefomgeving.","Ruimtes, voorwerpen, planten."],
+      ["bezettingsgraad","Hoeveel mensen een ruimte gebruiken.","Bepaalt hoe vaak je poetst."],
+      ["poetsnorm","Wat de bewoner proper vindt.","Verschilt van persoon tot persoon."],
+      ["onzichtbaar vuil","Vuil dat je niet ziet, zoals kiemen.","Niet minder gevaarlijk."],
+      ["cirkel van Sinner","De vier factoren van schoonmaken: tijd, chemie, temperatuur en mechanische handeling.","Meer van één, minder van een ander."],
+      ["nazorg","De laatste stap van schoonmaken: het materiaal proper maken en opbergen.","Klaar voor de volgende keer."],
+      ["dosering","De hoeveelheid product die je moet gebruiken.","Staat op het etiket."],
+      ["ventileren","Verse lucht binnenlaten om vocht en schadelijke stoffen af te voeren.","Tegen schimmel."],
+      ["linnenzorg","Sorteren, wassen, drogen, strijken en klein verstelwerk.","Een huishoudelijke taak."],
+      ["wasteken","Het getal in het kuipje: de hoogste temperatuur waarop je mag wassen.","Koeler mag altijd."],
+      ["toerental","De snelheid waarmee de machine het water uit de was zwiert.","Bij het centrifugeren."]
+    ]}
+  ]},
+  oph: { label: "BOOST DF · Ontwikkeling en pedagogisch handelen", chapters: [
+    { id: "op-welzijn", title: "Welzijn en gezondheid", terms: [
+      ["welzijn","Tevreden zijn, ook over hoe je leeft.","Niet alleen over wat je hebt."],
+      ["gezondheid","Een toestand van volledig fysiek, psychisch en sociaal welbevinden.","Meer dan niet ziek zijn."],
+      ["mantelzorger","Een naaste die zorg opneemt uit betrokkenheid, geen opgeleide beroepskracht.","Een dochter die haar vader helpt."],
+      ["zelfzorg","Wat je zelf doet om gezond te blijven.","Bepaalt een groot deel van je gezondheid."],
+      ["leefstijl","Wat je doet: eten, bewegen, roken, slapen.","Een gezondheidsdeterminant."],
+      ["drijfveren","Je motivatie, gewoonten en gevoelens.","Tegenover competenties en context."],
+      ["gezondheidsgedrag","Alles wat je doet of laat met gevolgen voor je gezondheid.","Bewegen, gezond eten."]
+    ]},
+    { id: "op-ontw", title: "De ontwikkeling van kind tot oudere", terms: [
+      ["groeicurve","Een lijn die de lengte of het gewicht van een kind uitzet tegenover zijn leeftijd.","Vergelijkt met leeftijdsgenoten."],
+      ["grove motoriek","De grote bewegingen van armen, benen en romp.","Ontwikkelt zich voor de fijne."],
+      ["pincetgreep","De greep met duim en wijsvinger.","Een erwtje oppakken."],
+      ["centratie","Op één kenmerk letten.","Het glas is hoger, maar ook smaller."],
+      ["concreet denken","Logisch denken over dingen die je kan zien of vastnemen.","Rekenen met blokjes."],
+      ["coöperatief spel","Samen spelen naar één doel, met verdeelde rollen.","Vanaf de lagere school."],
+      ["groepsdruk","De invloed van de groep op je gedrag.","Kan ook positief zijn."],
+      ["sensitieve responsiviteit","De signalen van een baby zien, juist begrijpen en er snel op ingaan.","Bouwt vertrouwen."],
+      ["primair verouderen","Het natuurlijke verouderen dat bij iedereen gebeurt.","Secundair komt door de leefstijl."],
+      ["dementie","Een ziekte waarbij het geheugen zo achteruitgaat dat het dagelijkse leven verstoord wordt.","Meer dan vergeetachtigheid."],
+      ["legenestsyndroom","Het gevoel van leegte als de kinderen het huis uit zijn.","Boemerangkinderen keren terug."],
+      ["rouw","Het verdriet na een verlies.","Verloopt bij iedereen anders."]
+    ]},
+    { id: "op-observeren", title: "Observeren, rapporteren en gedrag", terms: [
+      ["waarnemen","Informatie opnemen met je zintuigen.","Gebeurt zomaar."],
+      ["observeren","Doelgericht en systematisch waarnemen.","Je weet waarop je let."],
+      ["observatieschema","Een lijst met vooraf bepaalde punten die je aanduidt of scoort.","Tegenover een verslag."],
+      ["observatieverslag","Een tekst waarin je in woorden beschrijft wat je zag en hoorde.","Je bevindingen."],
+      ["rapporteren","Doorgeven wat je zag, mondeling of schriftelijk, intern of extern.","Schriftelijk blijft bestaan."],
+      ["gedrag","Alles wat een mens doet, zegt, denkt en voelt.","Ook wat je niet ziet."],
+      ["behoefte","Iets wat je nodig hebt.","Niet hetzelfde als een wens."],
+      ["zelfactualisatie","Worden wie je kan zijn en je talenten gebruiken.","Ook zelfontplooiing."],
+      ["affectie","Warmte en liefde.","Een basisbehoefte."]
+    ]},
+    { id: "op-communicatie", title: "Communiceren en feedback", terms: [
+      ["non-verbale communicatie","Alles behalve de woorden zelf: houding, gezicht, stemtoon, gebaren.","Zegt vaak meer dan woorden."],
+      ["kleine aanmoedigingen","Een knikje, een hm of een ja om te tonen dat je meeluistert.","Actief luisteren."],
+      ["LSD","Luisteren, samenvatten en doorvragen.","Een gesprekstechniek."],
+      ["feedback","Zeggen wat je opvalt, zodat de ander ermee verder kan.","Positief of negatief."],
+      ["ik-boodschap","Een boodschap waarin je over jezelf spreekt.","Ik schrik als er geroepen wordt."],
+      ["verzoek","Een vraag om iets te doen waarop de ander ook nee mag zeggen.","Geen eis."],
+      ["geweldloze communicatie","Direct, doeltreffend, emotioneel, empathisch en respectvol communiceren.","Ook verbindend communiceren."],
+      ["herstelgerichte vragen","Vragen om samen een oplossing te vinden na een conflict.","Iedereen krijgt zijn verhaal."]
+    ]},
+    { id: "op-spel", title: "Vrije tijd, spel en activiteiten", terms: [
+      ["vrije tijd","De tijd die je zelf invult.","Na school, werk en verplichtingen."],
+      ["vrij spel","Spel dat het kind zelf kiest en verzint.","Leert kiezen en onderhandelen."],
+      ["expressie","Jezelf uitdrukken in beweging, taal, beeld of muziek.","Er zijn vijf vormen."],
+      ["fantasiespel","In een rol kruipen en doen alsof.","Leert inleven."],
+      ["ADL-activiteiten","Activiteiten van het dagelijks leven, zoals wassen en koken.","Houden iemand zelfstandig."],
+      ["kwaliteitsbewust handelen","Veilig, hygiënisch, ergonomisch, economisch en duurzaam werken.","Snelheid is geen kwaliteit."]
+    ]}
+  ]},
+  sgw_beyond: { label: "BEYOND · Sociale en gedragswetenschappen", chapters: [
+    { id: "sy-ontw", title: "Ontwikkelingspsychologie en de benaderingen", terms: [
+      ["levensloop","Alle fasen van een leven, van vóór de geboorte tot de late volwassenheid.","De fiche noemt negen fasen."],
+      ["epigenetica","Welke genen aan of uit staan, terwijl het DNA zelf hetzelfde blijft.","De omgeving schakelt genen."],
+      ["psychodynamisch","Krachten binnen in iemand zetten de ontwikkeling in beweging.","Freud, Erikson."],
+      ["fixatie","Met een stuk van jezelf in een vroegere fase blijven hangen.","Volgens Freud."],
+      ["klassieke conditionering","Leren door een prikkel te koppelen aan een reactie.","Pavlov en zijn hond."],
+      ["operante conditionering","Leren door de gevolgen van gedrag.","Skinner: het S-R-C-schema."],
+      ["modelleren","Leren door anderen na te doen.","Ook imitatieleren. Bandura."],
+      ["Bobo doll experiment","Kinderen die een volwassene een pop zagen slaan, sloegen daarna zelf ook.","Bandura."],
+      ["episodisch geheugen","Het geheugen voor wat je zelf meemaakte.","Waar was je toen?"],
+      ["procedureel geheugen","Het geheugen voor vaardigheden.","Fietsen zonder nadenken."],
+      ["client centered","Bij Rogers staat de persoon zelf in het midden.","Humanistische benadering."],
+      ["microsysteem","De omgeving waarin het kind zelf zit, met directe interacties.","Bronfenbrenner: gezin, klas."],
+      ["exosysteem","Een omgeving die het kind indirect beïnvloedt.","Het werk van de ouders."]
+    ]},
+    { id: "sy-sociaal", title: "Sociale psychologie", terms: [
+      ["sociale cognitie","De manier waarop we over mensen nadenken.","Attitude, attributie, dissonantie."],
+      ["attitude","Een houding tegenover iets of iemand.","Denken, voelen en geneigd zijn te handelen."],
+      ["fundamentele attributiefout","Bij anderen de persoon de schuld geven, bij jezelf de situatie.","Hij is lui, ik had pech."],
+      ["locus","Bij Weiner: ligt de oorzaak in de persoon of erbuiten?","Latijn voor plaats."],
+      ["cognitieve dissonantie","De spanning als je gedrag en je houding niet samengaan.","Je past vaker je houding aan."],
+      ["ingroup","De groep waartoe je behoort: wij.","Tegenover de outgroup."],
+      ["sociaal parasiteren","Minder je best doen in een groep.","Social loafing."],
+      ["groepsdenken","Een groep neemt een slechte beslissing om eensgezind te blijven.","Geef iemand de rol van tegenspreker."],
+      ["informatief conformisme","Je past je aan omdat je denkt dat de groep het beter weet.","Sherif."],
+      ["normatief conformisme","Je past je aan om erbij te horen, ook als je weet dat de groep fout zit.","Asch."],
+      ["gehoorzaamheid","Gedrag aanpassen op bevel van een autoriteit.","Milgram en de witte jas."]
+    ]},
+    { id: "sy-persoon", title: "Persoonlijkheidspsychologie", terms: [
+      ["trek","De neiging tot een bepaald gedrag.","Niet elk moment vriendelijk."],
+      ["dispositionele attributie","De oorzaak van gedrag bij de persoon leggen.","Dispositie is geneigdheid."],
+      ["BIS","Het remsysteem van het brein: voorzichtig en gevoelig voor straf.","Behavioral inhibition system."],
+      ["verdringing","Een pijnlijke herinnering wordt weggeduwd naar het onbewuste.","Freud."],
+      ["Über-ich","Het strenge deel van de persoonlijkheid volgens Freud.","Het geweten."],
+      ["Ich","Het deel dat onderhandelt tussen driften en geweten.","Volgens Freud."],
+      ["locus of control","Waar iemand de controle over zijn leven ziet liggen.","Rotter: een vaste eigenschap."],
+      ["behoeftepiramide","Maslows motivatietheorie met zelfactualisatie bovenaan.","Eerst de basisbehoeften."],
+      ["congruentie","Bij Rogers: je echte en je ideale zelf liggen dicht genoeg bij elkaar.","De afstand is leefbaar."],
+      ["centrale trekken","De trekken die iemand het best beschrijven.","Allport: behulpzaam, ordelijk."],
+      ["neuroticisme","Het lage uiteinde van emotionele stabiliteit.","Een factor van de big five."],
+      ["HEXACO","Een persoonlijkheidsmodel met zes factoren, met integriteit als extra.","Honesty-humility."]
+    ]},
+    { id: "sy-opvoeden", title: "Opvoeden en pedagogiek", terms: [
+      ["pedagogiek","De wetenschap van het opvoeden.","Kind, opvoeder, omgeving."],
+      ["gedragsmatige controle","Duidelijke regels en toezicht op gedrag.","Meestal gunstig."],
+      ["psychologische controle","Controle die het kind raakt in zijn gevoel van eigenwaarde.","Meestal schadelijk."],
+      ["autoritair","Een opvoedingsstijl die streng is zonder warmte.","Bijna het tegendeel van autoritatief."],
+      ["autoritatief","Een opvoedingsstijl die streng is met warmte en uitleg.","Pakt het best uit."],
+      ["permissief","Een opvoedingsstijl met warmte maar zonder regels.","Laat alles toe."],
+      ["nieuwe autoriteit","De opvoeder verzet zich zonder het gevecht aan te gaan en staat er niet alleen.","Geen zachtere autoriteit."],
+      ["risicofactor","Iets wat de kans op problemen groter maakt.","Geen voorspelling."],
+      ["balansmodel","Zet draagkracht en draaglast op een weegschaal.","Bakker et al."],
+      ["kansarmoede","Achterstand op meerdere terreinen tegelijk.","Wonen, gezondheid, werk, onderwijs."],
+      ["orthopedagogiek","Pedagogiek voor wie extra ondersteuning nodig heeft.","Bij een beperking."],
+      ["VOS","Een verontrustende opvoedingssituatie, waarin de ontwikkeling van een kind bedreigd is.","Er is hulp nodig."]
+    ]},
+    { id: "sy-communicatie", title: "Communicatieve vaardigheden", terms: [
+      ["empathie","Je in de ander verplaatsen zonder het over te nemen.","Geen medelijden."],
+      ["reflecteren","Het gevoel van de ander teruggeven in je eigen woorden.","Met een gevoelswoord."],
+      ["parafraseren","De inhoud van wat de ander zei teruggeven in je eigen woorden.","Over de inhoud."],
+      ["4G-model","Gedrag, gevoel, gevolg en gewenst gedrag benoemen.","Voor feedback."],
+      ["waarneming","Wat een camera zou zien, zonder oordeel.","De afwas staat er nog."]
+    ]},
+    { id: "sy-sociologie", title: "Sociologie en media", terms: [
+      ["functionalisme","Elk onderdeel van de samenleving heeft een functie in het geheel.","Parsons."],
+      ["symbolisch interactionisme","De visie dat mensen betekenis geven in hun onderlinge interactie.","Mead."],
+      ["referentiegroep","De groep waarmee je je vergelijkt.","Niet noodzakelijk je eigen groep."],
+      ["sociale stratificatie","De gelaagdheid van een samenleving.","Ongelijke toegang tot geld en aanzien."],
+      ["cultureel kapitaal","Kennis, smaak en taal die je van thuis meekrijgt en die op school helpen.","Bourdieu."],
+      ["SES","Sociaal-economische status: opleiding, beroep en inkomen samen.","Niet alleen inkomen."],
+      ["intergenerationele mobiliteit","Stijgen of dalen tegenover je ouders.","Inter is tussen."],
+      ["meritocratie","Een samenleving waarin je plaats bepaald wordt door je verdienste.","Talent en inzet."],
+      ["matheüseffect","Wie al heeft, krijgt er nog bij.","Voordelen stapelen zich op."],
+      ["sociale uitsluiting","Niet kunnen meedoen aan wat in een samenleving gewoon is.","Geen netwerk, geen uitnodiging."],
+      ["mediatisering","De logica van de media gaat ook buiten de media gelden.","Politiek op maat van een kort fragment."],
+      ["vierde macht","De media, die de drie staatsmachten controleren.","Geen staatsmacht."],
+      ["injectienaaldtheorie","De media spuiten een boodschap in een passief publiek.","Achterhaald."],
+      ["cultivatietheorie","Veel tv kijken kleurt langzaam je beeld van de wereld.","Gerbner."],
+      ["framing","Het kader waarin een boodschap verteld wordt.","Zit in de boodschap zelf."],
+      ["stereotype","Vaste eigenschappen die aan een hele groep gehangen worden.","Kan leiden tot vooroordeel."]
+    ]},
+    { id: "sy-vraagstuk", title: "Vraagstukken en onderzoek", terms: [
+      ["maatschappelijk vraagstuk","Een kwestie die een hele samenleving aangaat en geen eenvoudige oplossing heeft.","Meningen verschillen."],
+      ["individualisering","Mensen gaan minder in vaste verbanden en meer als individu door het leven.","Meer eigen keuzes."],
+      ["rationalisering","Steeds meer geregeld volgens berekening, efficiëntie en regels.","Minder volgens traditie."],
+      ["onderzoekscyclus","De weg die een onderzoek aflegt, van oriënteren tot rapporteren.","Het besluit roept nieuwe vragen op."],
+      ["deskresearch","Onderzoek met bestaande bronnen.","Bijna altijd de eerste stap."],
+      ["correlatie","Twee dingen die samen bewegen.","Een verband is geen oorzaak."]
+    ]}
+  ]},
+  filorecht: { label: "BEYOND · Filosofie en recht", chapters: [
+    { id: "fr-kennis", title: "Filosofie, kennis en wetenschap", terms: [
+      ["filosofie","Letterlijk: liefde voor de wijsheid.","Filo en sofia."],
+      ["kenleer","Het domein van de filosofie over wat wij kunnen weten.","Ook kennisleer."],
+      ["grotallegorie","Plato's verhaal over gevangenen die schaduwen voor de werkelijkheid houden.","De bekendste vertelling over kennis."],
+      ["rationalisme","De visie dat echte kennis uit het verstand komt.","Descartes."],
+      ["methodische twijfel","Met opzet aan alles twijfelen om te zien wat zeker overblijft.","Descartes: ik denk, dus ik ben."],
+      ["empirisme","De visie dat kennis uit de zintuiglijke ervaring komt.","Locke, Hume."],
+      ["demarcatieprobleem","Waar trek je de grens tussen wetenschap en pseudowetenschap?","Popper."],
+      ["verificatie","Een uitspraak is wetenschappelijk als je ze kan bevestigen.","Het eerste antwoord."],
+      ["falsificatie","Een uitspraak is wetenschappelijk als je kan zeggen welke waarneming haar zou weerleggen.","Popper."]
+    ]},
+    { id: "fr-mens", title: "Lichaam, geest en vrijheid", terms: [
+      ["monisme","Er is maar één werkelijkheid; lichaam en geest zijn er twee kanten van.","Parmenides, Spinoza."],
+      ["dualisme","Lichaam en geest zijn twee aparte werkelijkheden.","Plato, Descartes."],
+      ["exclusief menselijk","Bij de mens en bij geen enkel ander wezen.","Emoties? De rede?"],
+      ["determinisme","Alles ligt vast door voorafgaande oorzaken.","Van determineren: vastleggen."],
+      ["kwade trouw","Bij Sartre: doen alsof je niet kon kiezen.","Je verschuilen achter je rol."],
+      ["gedoemd tot vrijheid","Sartre: de mens moet kiezen en draagt zelf de gevolgen.","Vrijheid als last."],
+      ["disciplinering","Mensen worden gevormd en gestuurd, meestal zonder geweld.","Foucault."]
+    ]},
+    { id: "fr-ethiek", title: "Ethiek en geluk", terms: [
+      ["utilitarisme","Een daad is goed als ze het meeste geluk oplevert.","Van utilitas: nut."],
+      ["soortisme","Het vooroordeel dat enkel de eigen soort meetelt.","Singer."],
+      ["categorische imperatief","Kants onvoorwaardelijke morele regel: handel zo dat je regel een algemene wet kan zijn.","Zonder als-dan."],
+      ["deugdethiek","Een ethiek die vraagt wat een goed mens zou doen.","Aristoteles."],
+      ["deugd","Het midden tussen een tekort en een overdaad.","Moed tussen lafheid en overmoed."],
+      ["kardinale deugden","De vier hoofddeugden.","Van cardo: spil."],
+      ["zorgethiek","Een ethiek die vertrekt van mensen die kwetsbaar en van elkaar afhankelijk zijn.","Zorg staat centraal."],
+      ["eudaimonia","Bij Aristoteles: geluk als bloeien, je leven goed en volledig leven.","Over een heel leven."],
+      ["drogreden","Een argument dat overtuigend lijkt maar niet deugt.","Beroep op de natuur."]
+    ]},
+    { id: "fr-recht", title: "Rechtsstaat en justitie", terms: [
+      ["rechtsstaat","Een staat waarin ook de overheid zelf aan het recht gebonden is.","Bescherming van de burger."],
+      ["scheiding der machten","Wetten maken, uitvoeren en recht spreken liggen in verschillende handen.","Controle en evenwicht."],
+      ["vermoeden van onschuld","Een verdachte is onschuldig tot een rechter anders beslist.","Een verdachte is geen dader."],
+      ["deontologie","De beroepsregels die een beroepsgroep voor zichzelf opstelt.","Bovenop de wet."],
+      ["pro deo advocaat","Een gratis of goedkope advocaat voor wie weinig verdient.","Tweedelijnsbijstand."],
+      ["justitiehuis","Een dienst die mensen begeleidt en informeert in juridische zaken.","Geen rechtbank."],
+      ["vonnis","De uitspraak van een rechtbank.","Van een hof heet het een arrest."],
+      ["arrest","De uitspraak van een hof.","Hof van beroep, Hof van Cassatie."],
+      ["misdrijf","Een gedraging die de wet strafbaar stelt.","Strafrecht."],
+      ["seponeren","Het parket beslist geen proces te starten.","Geen vrijspraak."],
+      ["onderzoeksrechter","Een rechter die een strafonderzoek leidt.","Kan iemand aanhouden."],
+      ["beschuldigde","Wie voor het hof van assisen staat.","Geen beklaagde."]
+    ]}
+  ]},
+  se_beyond: { label: "BEYOND · Samenleving en economie", chapters: [
+    { id: "sy-identiteit", title: "Identiteit en diversiteit", terms: [
+      ["relationele identiteit","Identiteit is wie je bent in verhouding tot anderen.","Ook dynamisch."],
+      ["supranationaal","Boven het niveau van één land.","Je Europeaan voelen."],
+      ["verbondenheid","Het gevoel ergens bij te horen en erkend te worden.","Een factor van identiteit."],
+      ["wij-zij-denken","Mensen indelen in een eigen groep en een andere groep.","Kan leiden tot discriminatie."],
+      ["mensbeeld","De manier waarop je naar de mens en zijn aard kijkt.","Is de mens goed, vrij?"],
+      ["wereldbeeld","De manier waarop je naar de wereld als geheel kijkt.","Niet hetzelfde als je mensbeeld."],
+      ["inclusie","Mensen erbij halen.","Tegenover exclusie."],
+      ["referentiekader","Het geheel van ervaringen en waarden waarmee je iets beoordeelt.","Iedereen heeft er een."],
+      ["racisme","Discriminatie op basis van afkomst of huidskleur.","Eén vorm van discriminatie."],
+      ["pesten","Herhaald en gericht kwetsend gedrag tegen dezelfde persoon.","Met een machtsverschil."]
+    ]},
+    { id: "sy-ehbo", title: "Eerste hulp en reanimatie", terms: [
+      ["kneuzing","Een letsel waarbij weefsel beschadigd is door een slag of stoot.","Geen breuk."],
+      ["antigifcentrum","Het nummer voor een vergiftiging zonder bewustzijnsverlies.","Bewusteloos: bel 112."],
+      ["reanimatie","Borstcompressies en beademing bij een hartstilstand.","Bellen komt eerst."],
+      ["borstcompressies","Ritmisch duwen op het borstbeen om het bloed te laten rondgaan.","Doorgaan tot de ambulance er is."],
+      ["AED","Automatische externe defibrillator: herstelt het hartritme met een stroomstoot.","Voor iedereen bedoeld."]
+    ]},
+    { id: "sy-overheid", title: "Overheid en sociale zekerheid", terms: [
+      ["indirecte belasting","Een belasting die in de prijs van een product zit.","De btw."],
+      ["bedrijfsvoorheffing","Een belasting die je werkgever vooraf van je loon afhoudt.","Een directe belasting."],
+      ["collectieve behoeften","Behoeften waar de hele samenleving gebruik van maakt.","Wegen, veiligheid."],
+      ["RSZ","De Rijksdienst voor Sociale Zekerheid.","Int de sociale bijdragen."],
+      ["vervangingsinkomen","Een bedrag dat een weggevallen loon vervangt.","Werkloosheid, ziekte, pensioen."],
+      ["overlevingspensioen","Het pensioen voor de achterblijvende partner.","Tegenover het rustpensioen."],
+      ["herverdeling","Middelen verschuiven van sterkere naar zwakkere schouders.","Tegen sociale ongelijkheid."],
+      ["progressieve belasting","Wie meer verdient, betaalt een hoger percentage.","Via belastingschijven."]
+    ]},
+    { id: "sy-markt", title: "De markt en arbeid", terms: [
+      ["evenwichtsprijs","De prijs waarbij vraag en aanbod gelijk zijn.","Geen overschot, geen tekort."],
+      ["tekort","De vraag is groter dan het aanbod.","De prijs stijgt."],
+      ["accijns","Een extra belasting op bepaalde producten.","Brandstof, tabak, alcohol."],
+      ["arbeidsovereenkomst","De afspraak tussen één werknemer en zijn werkgever.","Loon, uren, taken."],
+      ["arbeidsreglement","De regels die voor iedereen in het bedrijf gelden.","Niet persoonlijk."],
+      ["overloon","Een toeslag bovenop het gewone loon voor overwerk.","Bij overuren."],
+      ["brutoloon","Het loon voor er iets van afgehouden wordt.","Staat op je contract."],
+      ["nettoloon","Het bedrag dat je werkelijk op je rekening krijgt.","Na RSZ en voorheffing."],
+      ["loonkost","Het brutoloon plus de eigen bijdrage van de werkgever aan de RSZ.","Hoger dan het bruto."],
+      ["CPBW","Comité voor Preventie en Bescherming op het Werk.","Overleg in het bedrijf."],
+      ["student@work","De plek waar je ziet hoeveel uren studentenarbeid je nog hebt.","Geen vacaturesite."]
+    ]},
+    { id: "sy-geld", title: "Krediet, budget, sparen en verzekeren", terms: [
+      ["totale kostprijs","De prijs na korting, met alle bijkomende kosten en de btw.","Niet altijd de prijs op het etiket."],
+      ["JKP","Het jaarlijks kostenpercentage van een krediet.","Het enige getal om kredieten eerlijk te vergelijken."],
+      ["terugbetalingscapaciteit","Het bedrag dat je maandelijks kan afbetalen zonder in de problemen te komen.","Bij een lening."],
+      ["financieringskost","Wat het lenen bovenop de aankoopkost kost.","De totale rente."],
+      ["samengestelde rente","Rente die je ook op de rente van vorige jaren krijgt.","Rente op rente."],
+      ["inflatie","De algemene stijging van de prijzen, waardoor geld minder waard wordt.","Je koopkracht daalt."],
+      ["obligatie","Een belegging waarbij je geld leent aan een bedrijf of overheid.","Je bent schuldeiser."],
+      ["aandeel","Een stukje eigendom van een bedrijf.","Je bent mede-eigenaar."],
+      ["beleggingsfonds","Een mand van beleggingen.","Spreidt het risico."],
+      ["polis","Het contract van een verzekering.","Wie, waartegen, hoeveel."],
+      ["premie","Wat je betaalt om verzekerd te zijn.","Van jou naar de verzekeraar."],
+      ["franchise","Het deel van de schade dat je zelf draagt.","Bij een verzekering."]
+    ]},
+    { id: "sy-ict", title: "ICT en veilig online", terms: [
+      ["vulgreep","Het vierkantje rechtsonder in een selectie in Excel.","Om door te trekken."],
+      ["absoluut adresseren","Een celverwijzing die niet verschuift als je een formule kopieert.","Met dollartekens: $A$1."],
+      ["VERT.ZOEKEN","Een Excel-functie die naar beneden in een kolom zoekt.","Vert is verticaal."],
+      ["diasorteerder","De weergave in PowerPoint waarin je dia's versleept.","Volgorde aanpassen."],
+      ["hand-out","Een afdruk van je dia's voor het publiek.","De notitiepagina is voor jou."],
+      ["auteursrecht","Het recht van de maker om over zijn werk te beslissen.","Geen vermelding is niet vrij."],
+      ["creative commons","Een licentie waarmee de maker vooraf toelating geeft, onder voorwaarden.","Vaak: naamsvermelding."],
+      ["nepnieuws","Onjuiste berichten die met opzet als echt nieuws verspreid worden.","De opzet maakt het verschil."],
+      ["netiquette","De omgangsregels voor hoe je je online gedraagt.","Net en etiquette."]
+    ]}
+  ]},
+};
+
+// Sorteerspel: elk voorbeeld hoort in één bak.
+const SORT = {
+  se_spark: [
+    { vraag: "Welke macht?", bakken: ["wetgevend", "uitvoerend", "rechterlijk"], items: [["het parlement", 0], ["een volksvertegenwoordiger", 0], ["de regering", 1], ["een minister", 1], ["een rechter", 2], ["de rechtbank", 2]] },
+    { vraag: "Wie is bevoegd?", bakken: ["gemeente", "gemeenschap", "gewest", "federaal"], items: [["een nieuwe identiteitskaart", 0], ["het huisvuil ophalen", 0], ["onderwijs", 1], ["cultuur", 1], ["natuur", 2], ["openbaar vervoer en wegen", 2], ["het leger", 3], ["justitie", 3], ["de pensioenen", 3]] },
+    { vraag: "Wat voor bedrijf?", bakken: ["productiebedrijf", "handelsbedrijf", "dienstenbedrijf"], items: [["een autofabriek", 0], ["een brouwerij", 0], ["een supermarkt", 1], ["een groothandel", 1], ["een kapper", 2], ["een bank", 2], ["een taxibedrijf", 2]] }
+  ],
+  sgw_boost: [
+    { vraag: "Welk stadium van Piaget?", bakken: ["sensomotorisch", "pre-operationeel", "concreet-operationeel", "formeel-operationeel"], items: [["objectpermanentie", 0], ["intentioneel handelen", 0], ["animisme", 1], ["egocentrisme", 1], ["magisch denken", 1], ["seriatie", 2], ["conservatie begrijpen", 2], ["hypothetisch denken", 3], ["abstract denken", 3]] },
+    { vraag: "Welk stadium van Kohlberg?", bakken: ["pre-conventioneel", "conventioneel", "post-conventioneel"], items: [["Ik word anders gestraft.", 0], ["Ik krijg er iets voor terug.", 0], ["Het staat zo in de wet.", 1], ["Zo hoort het nu eenmaal.", 1], ["Anders ben ik geen goede vriend.", 1], ["Een wet kan onrechtvaardig zijn.", 2], ["Menselijke waardigheid gaat voor.", 2]] },
+    { vraag: "Toegewezen of verworven positie?", bakken: ["toegewezen", "verworven"], items: [["dochter zijn", 0], ["zestien jaar zijn", 0], ["jongste van het gezin", 0], ["arts", 1], ["voorzitter van een club", 1], ["kapitein van de ploeg", 1]] },
+    { vraag: "Intrinsiek of extrinsiek gemotiveerd?", bakken: ["intrinsiek", "extrinsiek"], items: [["tekenen omdat je het graag doet", 0], ["lezen uit nieuwsgierigheid", 0], ["studeren voor een beloning", 1], ["je kamer opruimen voor zakgeld", 1], ["sporten voor een medaille", 1]] }
+  ],
+  kf_boost: [
+    { vraag: "Welke soort vraag?", bakken: ["weetvraag", "meningsvraag", "filosofische vraag"], items: [["Hoe laat is het?", 0], ["Hoeveel inwoners heeft België?", 0], ["Vind je deze film goed?", 1], ["Welke kleur vind je het mooist?", 1], ["Wat is tijd eigenlijk?", 2], ["Is straf nodig om te leren?", 2], ["Maakt geld gelukkig?", 2]] },
+    { vraag: "Gevolgenethiek of plichtethiek?", bakken: ["gevolgenethiek", "plichtethiek"], items: [["Zoveel mogelijk geluk voor zoveel mogelijk mensen.", 0], ["Geef geld zolang het meer leed voorkomt dan het kost.", 0], ["Je mag nooit martelen, ook niet om tien mensen te redden.", 1], ["Liegen mag nooit, ook niet om bestwil.", 1]] },
+    { vraag: "Welke stroming?", bakken: ["renaissance", "barok", "romantiek", "realisme"], items: [["rust, symmetrie en strak perspectief", 0], ["diagonale beweging en hard lichtcontrast", 1], ["Rubens", 1], ["een stormachtige zee vol gevoel", 2], ["zware veldarbeid zonder opsmuk", 3]] }
+  ],
+  gzw: [
+    { vraag: "Levert deze voedingsstof energie?", bakken: ["energie", "geen energie"], items: [["koolhydraten", 0], ["vetten", 0], ["eiwitten", 0], ["water", 1], ["vitaminen", 1], ["mineralen", 1], ["vezels", 1]] },
+    { vraag: "Welk letsel?", bakken: ["botbreuk", "verstuiking", "ontwrichting"], items: [["het bot zelf is gebroken", 0], ["een fractuur", 0], ["de banden rond een gewricht zijn gerekt", 1], ["het bot schoot uit de kom", 2]] },
+    { vraag: "Inwendige of uitwendige prikkel?", bakken: ["inwendig", "uitwendig"], items: [["dorst", 0], ["honger", 0], ["buikpijn", 0], ["lawaai", 1], ["fel licht", 1], ["kou", 1]] }
+  ],
+  oph: [
+    { vraag: "Verbaal of non-verbaal?", bakken: ["verbaal", "non-verbaal"], items: [["de woorden die je zegt", 0], ["een geschreven bericht", 0], ["je stemtoon", 1], ["een gebaar", 1], ["je gezichtsuitdrukking", 1], ["je lichaamshouding", 1]] },
+    { vraag: "Behoefte of wens?", bakken: ["behoefte", "wens"], items: [["slaap", 0], ["eten en drinken", 0], ["veiligheid", 0], ["affectie", 0], ["een nieuwe gsm", 1], ["merkschoenen", 1], ["een reis naar zee", 1]] },
+    { vraag: "Grove of fijne motoriek?", bakken: ["grove motoriek", "fijne motoriek"], items: [["kruipen", 0], ["stappen", 0], ["klimmen", 0], ["knippen", 1], ["rijgen", 1], ["de pincetgreep", 1], ["schrijven", 1]] }
+  ],
+  sgw_beyond: [
+    { vraag: "Welke opvoedingsstijl?", bakken: ["autoritair", "autoritatief", "permissief", "onverschillig"], items: [["streng zonder warmte", 0], ["streng met warmte en uitleg", 1], ["warm maar legt niets op", 2], ["is er niet voor het kind", 3]] },
+    { vraag: "Welk geheugen?", bakken: ["episodisch", "semantisch", "procedureel"], items: [["weten waar je was toen je het nieuws hoorde", 0], ["je eerste schooldag", 0], ["Brussel is de hoofdstad van België", 1], ["de betekenis van een woord", 1], ["fietsen zonder nadenken", 2], ["veters strikken", 2]] },
+    { vraag: "Welke onderzoeker?", bakken: ["Pavlov", "Skinner", "Bandura", "Asch"], items: [["klassieke conditionering", 0], ["de hond en de bel", 0], ["het S-R-C-schema", 1], ["operante conditionering", 1], ["het Bobo doll experiment", 2], ["zelfeffectiviteit", 2], ["normatief conformisme", 3]] }
+  ],
+  filorecht: [
+    { vraag: "Welke ethische stroming?", bakken: ["gevolgenethiek", "plichtethiek", "deugdethiek"], items: [["Bentham", 0], ["Mill", 0], ["Singer", 0], ["Kant", 1], ["de categorische imperatief", 1], ["Aristoteles", 2], ["het midden tussen tekort en overdaad", 2]] },
+    { vraag: "Rationalist of empirist?", bakken: ["rationalisme", "empirisme"], items: [["Descartes", 0], ["Plato", 0], ["kennis komt uit het verstand", 0], ["Locke", 1], ["Hume", 1], ["kennis komt uit de ervaring", 1]] },
+    { vraag: "Welke uitspraak of procedure?", bakken: ["vonnis", "arrest"], items: [["uitspraak van een rechtbank", 0], ["uitspraak van de politierechtbank", 0], ["uitspraak van een hof van beroep", 1], ["uitspraak van het Hof van Cassatie", 1]] }
+  ],
+  se_beyond: [
+    { vraag: "Directe of indirecte belasting?", bakken: ["direct", "indirect"], items: [["personenbelasting", 0], ["bedrijfsvoorheffing", 0], ["vennootschapsbelasting", 0], ["btw", 1], ["accijns op brandstof", 1]] },
+    { vraag: "Vervangingsinkomen of aanvullend?", bakken: ["vervangingsinkomen", "aanvullend"], items: [["werkloosheidsuitkering", 0], ["rustpensioen", 0], ["ziekte-uitkering", 0], ["vakantiegeld", 1], ["groeipakket", 1]] },
+    { vraag: "Wat ben je als belegger?", bakken: ["schuldeiser", "mede-eigenaar"], items: [["je koopt een obligatie", 0], ["je leent geld aan de overheid", 0], ["je koopt een aandeel", 1], ["je deelt in de winst van het bedrijf", 1]] }
+  ]
+};
+
+const GAMES = [
+  { id: "quiz", name: "Quiz", desc: "Lees de uitleg en kies het juiste begrip uit vier. Teams spelen om beurten.", icon: '<rect class="ic-bg" x="2" y="2" width="52" height="52" rx="12"/><rect class="ic-b" x="10" y="12" width="36" height="8" rx="3"/><rect class="ic-s" x="10" y="26" width="16" height="9" rx="3"/><rect class="ic-a" x="30" y="26" width="16" height="9" rx="3"/><rect class="ic-s" x="10" y="39" width="16" height="9" rx="3"/><rect class="ic-s" x="30" y="39" width="16" height="9" rx="3"/>' },
+  { id: "memory", name: "Memory", desc: "Zoek het begrip en zijn uitleg. Wie een paar vindt, mag nog eens.", icon: '<rect class="ic-bg" x="2" y="2" width="52" height="52" rx="12"/><rect class="ic-b" x="9" y="10" width="17" height="22" rx="3"/><rect class="ic-a" x="30" y="10" width="17" height="22" rx="3"/><rect class="ic-s" x="9" y="36" width="17" height="12" rx="3"/><rect class="ic-s" x="30" y="36" width="17" height="12" rx="3"/>' },
+  { id: "raad", name: "Raad het begrip", desc: "Tot drie hints na elkaar. Hoe sneller je het raadt, hoe meer punten.", icon: '<rect class="ic-bg" x="2" y="2" width="52" height="52" rx="12"/><circle class="ic-a" cx="28" cy="24" r="12"/><path class="ic-s" d="M24 21a4 4 0 1 1 5 4v3"/><circle cx="29" cy="32" r="1.6" class="ic-b"/><path class="ic-s" d="M14 46h28"/>' },
+  { id: "galgje", name: "Huizengalgje", desc: "Galgje met een huis: raad de letters voor het huis af is en de schoorsteen rookt.", icon: '<rect class="ic-bg" x="2" y="2" width="52" height="52" rx="12"/><path class="ic-a" d="M10 28 L28 12 L46 28 Z"/><rect class="ic-b" x="14" y="28" width="28" height="18"/><rect class="ic-s" x="24" y="34" width="8" height="12"/>' },
+  { id: "flits", name: "Flitskaarten", desc: "Toon een begrip, laat de klas uitleggen en draai de kaart om.", icon: '<rect class="ic-bg" x="2" y="2" width="52" height="52" rx="12"/><rect class="ic-s" x="14" y="10" width="30" height="22" rx="4" transform="rotate(8 29 21)"/><rect class="ic-a" x="10" y="18" width="30" height="22" rx="4"/><path class="ic-s" d="M17 29h16" style="stroke:#fff"/>' },
+  { id: "bingo", name: "Begrippenbingo", desc: "Leerlingen kiezen woorden voor hun rooster. Jij leest de uitleg voor.", icon: '<rect class="ic-bg" x="2" y="2" width="52" height="52" rx="12"/><path class="ic-s" d="M10 10h36v36H10zM22 10v36M34 10v36M10 22h36M10 34h36"/><circle class="ic-a" cx="16" cy="16" r="4"/><circle class="ic-a" cx="28" cy="28" r="4"/><circle class="ic-b" cx="40" cy="40" r="4"/>' },
+  { id: "sorteer", name: "Sorteerspel", desc: "Een voorbeeld, een uitspraak of een naam: in welke bak hoort het? Welke macht, welk stadium, welke stroming.", icon: '<rect class="ic-bg" x="2" y="2" width="52" height="52" rx="12"/><rect class="ic-a" x="6" y="30" width="44" height="6" rx="3"/><rect class="ic-b" x="20" y="16" width="14" height="12" rx="2"/><rect class="ic-s" x="8" y="40" width="16" height="10" rx="2"/><rect class="ic-s" x="32" y="40" width="16" height="10" rx="2"/>' },
+];
+
+// ---------- state ----------
+const S = {
+  level: "se_spark",
+  chapter: "se-identiteit",
+  teams: [ { name: "Jij", score: 0 } ],
+  alleen: true, // Kim, 9/11/2026: kinderen oefenen thuis vaak alleen, dus "Alleen" is de standaard.
+  turn: 0,
+  view: "menu",
+  game: null
+};
+try {
+  const saved = JSON.parse(localStorage.getItem("begrippenarena-mens") || "null");
+  if (saved && DATA[saved.level]) {
+    S.level = saved.level;
+    if (DATA[saved.level].chapters.some(c => c.id === saved.chapter) || saved.chapter === "mix") S.chapter = saved.chapter;
+    if (typeof saved.alleen === "boolean") S.alleen = saved.alleen;
+    if (S.alleen) S.teams = [{ name: "Jij", score: 0 }];
+    else if (Array.isArray(saved.teams) && saved.teams.length) S.teams = saved.teams.slice(0, 4).map(t => ({ name: String(t.name || "Team").slice(0, 24), score: 0 }));
+  }
+} catch (e) {}
+// Vanaf de pagina Leuke extra's opent het spel meteen op het juiste niveau: ?niveau=spark (Kim, 9/11/2026).
+try {
+  const gevraagd = new URLSearchParams(location.search).get("niveau");
+  if (gevraagd && DATA[gevraagd] && gevraagd !== S.level) { S.level = gevraagd; S.chapter = DATA[gevraagd].chapters[0].id; }
+} catch (e) {}
+function save() {
+  try { localStorage.setItem("begrippenarena-mens", JSON.stringify({ level: S.level, chapter: S.chapter, alleen: S.alleen, teams: S.teams.map(t => ({ name: t.name })) })); } catch (e) {}
+}
+
+const $app = document.getElementById("app");
+const esc = s => String(s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const shuffle = a => { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
+const fold = s => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toUpperCase();
+const teamColor = i => `var(--t${i + 1})`;
+
+function chapterTitle() {
+  if (S.chapter === "mix") return "Alle hoofdstukken";
+  return DATA[S.level].chapters.find(c => c.id === S.chapter).title;
+}
+function currentTerms(raw) {
+  const chs = S.chapter === "mix" ? DATA[S.level].chapters : DATA[S.level].chapters.filter(c => c.id === S.chapter);
+  const seen = new Set(), out = [];
+  chs.forEach(c => c.terms.forEach(([w, d, x]) => {
+    const k = w.toLowerCase();
+    if (seen.has(k)) return;
+    seen.add(k);
+    out.push(raw ? { w, d, x: x || "" } : { w, d: mask(d, w), x: x ? mask(x, w) : "" });
+  }));
+  return out;
+}
+// Verberg het begrip zelf als het in de uitleg of tip staat.
+function mask(text, w) {
+  const re = new RegExp(w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"), "gi");
+  return text.replace(re, "…");
+}
+
+// ---------- teams ----------
+function award(i, pts) { if (S.teams[i]) { S.teams[i].score = Math.max(0, S.teams[i].score + pts); } }
+function nextTurn() { if (S.teams.length) S.turn = (S.turn + 1) % S.teams.length; }
+function scoresHTML(showTurn) {
+  return `<div class="scores" aria-label="Scores">${S.teams.map((t, i) => `
+    <div class="score ${showTurn && i === S.turn ? "turn" : ""}" style="--tc:${teamColor(i)}">
+      <span class="dot"></span><span>${esc(t.name)}</span><span class="n" aria-live="polite">${t.score}</span>
+      <button class="pm" data-pm="${i}" data-d="-1" aria-label="Punt eraf voor ${esc(t.name)}">−</button>
+      <button class="pm" data-pm="${i}" data-d="1" aria-label="Punt erbij voor ${esc(t.name)}">+</button>
+    </div>`).join("")}</div>`;
+}
+function turnHTML() {
+  if (S.teams.length < 2) return "";
+  return `<div class="turnline" style="--tc:${teamColor(S.turn)}">Aan de beurt: <b>${esc(S.teams[S.turn].name)}</b></div>`;
+}
+function awardRow(label, pts, onDone) {
+  const id = "aw" + Math.random().toString(36).slice(2, 7);
+  setTimeout(() => {
+    document.querySelectorAll(`[data-aw="${id}"]`).forEach(b => b.onclick = () => {
+      const i = +b.dataset.i;
+      if (i >= 0) award(i, pts);
+      onDone(i);
+    });
+  });
+  if (S.alleen) return `<div class="row"><span class="label">Had je het juist?</span><button class="btn" data-aw="${id}" data-i="0" style="border-color:${teamColor(0)}">Ja, +${pts}</button><button class="btn ghost" data-aw="${id}" data-i="-1">Nee, nog niet</button></div>`;
+  const btns = S.teams.map((t, i) => `<button class="btn" data-aw="${id}" data-i="${i}" style="border-color:${teamColor(i)}">${esc(t.name)} +${pts}</button>`).join("");
+  return `<div class="row"><span class="label">${label}</span>${btns}<button class="btn ghost" data-aw="${id}" data-i="-1">Niemand</button></div>`;
+}
+
+// ---------- alleen spelen ----------
+// Andere uitleg bij de spellen als je alleen speelt. Bingo heeft iemand nodig die voorleest, dus dat valt dan weg.
+function alleenTekst(g) {
+  if (!S.alleen) return g;
+  const d = {
+    quiz: g.desc.replace(" Teams spelen om beurten.", ""),
+    memory: g.desc.replace(" Wie een paar vindt, mag nog eens.", ""),
+    flits: "Bekijk de kaart en zeg zelf wat het betekent. Draai ze daarna om en kijk of je juist was.",
+  }[g.id];
+  return d ? { ...g, desc: d } : g;
+}
+
+// ---------- menu ----------
+function renderMenu() {
+  S.view = "menu";
+  const lvl = DATA[S.level];
+  const chips = lvl.chapters.map(c => `<button class="chip" data-ch="${c.id}" aria-pressed="${S.chapter === c.id}">${esc(c.title)} <small>${c.terms.length}</small></button>`).join("")
+    + `<button class="chip" data-ch="mix" aria-pressed="${S.chapter === "mix"}">Alle hoofdstukken door elkaar</button>`;
+  const games = GAMES.filter(g => !(S.alleen && g.id === "bingo")).map(g => alleenTekst(g)).map(g => `<button class="game-card" data-game="${g.id}"><svg viewBox="0 0 56 56" aria-hidden="true">${g.icon}</svg><h3>${g.name}</h3><p>${g.desc}</p></button>`).join("");
+  const teams = S.teams.map((t, i) => `<label class="team-input"><i style="background:${teamColor(i)}"></i><input id="team-${i}" value="${esc(t.name)}" maxlength="24" aria-label="Naam team ${i + 1}"></label>`).join("");
+  $app.innerHTML = `
+    <header class="top">
+      <div class="brand">
+        <div class="label">Mens en samenleving · begrippen inoefenen</div>
+        <h1>Begrippen<span>arena</span></h1>
+        <p>Kies een hoofdstuk en een spel. Alle spellen gebruiken de begrippen uit de leerbundels, dus je kan ze vrij afwisselen.</p>
+      </div>
+      <div class="seg" role="group" aria-label="Niveau">
+        ${Object.entries(DATA).map(([k, v]) => `<button data-lvl="${k}" aria-pressed="${S.level === k}">${esc(v.label)}</button>`).join("")}
+      </div>
+    </header>
+    <section style="display:flex;flex-direction:column;gap:10px">
+      <div class="label">1 · Hoofdstuk</div>
+      <div class="chapters">${chips}</div>
+    </section>
+    <section style="display:flex;flex-direction:column;gap:10px">
+      <div class="row" style="justify-content:space-between"><div class="label">2 · Spel</div><button class="linkbtn" data-list>Bekijk de begrippenlijst (${currentTerms().length})</button></div>
+      <div class="games">${games}</div>
+    </section>
+    <section class="panel">
+      <div class="row" style="justify-content:space-between">
+        <div class="label">Wie speelt er?</div>
+        <div class="seg" role="group" aria-label="Wie speelt er">${[0, 1, 2, 3, 4].map(n => `<button data-nt="${n}" aria-pressed="${n === 0 ? S.alleen : !S.alleen && S.teams.length === n}">${n === 0 ? "Alleen" : n === 1 ? "Hele klas" : n + " teams"}</button>`).join("")}</div>
+      </div>
+      ${S.alleen ? `<p style="margin:0">Je speelt alleen. Je verdient punten voor jezelf. Begrippenbingo staat er niet bij, want daar heb je iemand voor nodig die voorleest.</p>` : `<div class="team-row">${teams}</div>`}
+      <div class="row" style="justify-content:space-between">
+        ${scoresHTML(false)}
+        <button class="linkbtn" data-reset>Scores op nul</button>
+      </div>
+    </section>`;
+  $app.querySelectorAll("[data-lvl]").forEach(b => b.onclick = () => { S.level = b.dataset.lvl; S.chapter = DATA[S.level].chapters[0].id; save(); renderMenu(); });
+  $app.querySelectorAll("[data-ch]").forEach(b => b.onclick = () => { S.chapter = b.dataset.ch; save(); renderMenu(); });
+  $app.querySelectorAll("[data-game]").forEach(b => b.onclick = () => startGame(b.dataset.game));
+  $app.querySelector("[data-list]").onclick = () => startGame("lijst");
+  $app.querySelectorAll("[data-nt]").forEach(b => b.onclick = () => {
+    const n = +b.dataset.nt;
+    if (n === 0) { S.alleen = true; S.teams = [{ name: "Jij", score: 0 }]; S.turn = 0; save(); renderMenu(); return; }
+    if (S.alleen) { S.alleen = false; S.teams = [{ name: "Klas", score: 0 }]; }
+    while (S.teams.length < n) S.teams.push({ name: "Team " + (S.teams.length + 1), score: 0 });
+    S.teams = S.teams.slice(0, n);
+    if (n === 1 && /^Team \d$/.test(S.teams[0].name)) S.teams[0].name = "Klas";
+    if (n > 1 && S.teams[0].name === "Klas") S.teams[0].name = "Team 1";
+    S.turn = 0; save(); renderMenu();
+  });
+  if (!S.alleen) S.teams.forEach((t, i) => { const inp = document.getElementById("team-" + i); inp.oninput = () => { t.name = inp.value || "Team " + (i + 1); save(); }; inp.onchange = renderMenu; });
+  $app.querySelector("[data-reset]").onclick = () => { S.teams.forEach(t => t.score = 0); renderMenu(); };
+  bindPM();
+}
+function bindPM() {
+  $app.querySelectorAll("[data-pm]").forEach(b => b.onclick = () => { award(+b.dataset.pm, +b.dataset.d); refreshScores(); });
+}
+function refreshScores() {
+  const el = $app.querySelector(".scores");
+  if (!el) return;
+  el.outerHTML = scoresHTML(S.view === "game" && S.game && S.game.turnBased);
+  bindPM();
+}
+
+// ---------- game shell ----------
+function shell(gameName, inner) {
+  return `
+    <div class="bar">
+      <div class="where"><span class="label">${esc(DATA[S.level].label)} · ${esc(chapterTitle())}</span><strong>${gameName}</strong></div>
+      ${scoresHTML(S.game && S.game.turnBased)}
+      <button class="btn ghost" data-back>← Menu</button>
+    </div>
+    <div class="stage">${inner}</div>`;
+}
+function mount(gameName, inner) {
+  $app.innerHTML = shell(gameName, inner);
+  $app.querySelector("[data-back]").onclick = () => { document.onkeydown = null; renderMenu(); };
+  bindPM();
+}
+function startGame(id) {
+  S.view = "game";
+  document.onkeydown = null;
+  const terms = currentTerms(id === "lijst");
+  ({ quiz: Quiz, memory: Memory, raad: Raad, galgje: Galgje, flits: Flits, bingo: Bingo, sorteer: Sorteerband, lijst: Lijst })[id](terms);
+  window.scrollTo(0, 0);
+}
+function endScreen(title, sub, again) {
+  S.game.turnBased = false;
+  const best = Math.max(...S.teams.map(t => t.score));
+  const winners = S.teams.filter(t => t.score === best && best > 0).map(t => t.name);
+  const line = S.alleen ? `Je hebt ${S.teams[0].score} ${S.teams[0].score === 1 ? "punt" : "punten"}.` : S.teams.length > 1 && winners.length ? (winners.length > 1 ? "Gelijkspel tussen " + winners.join(" en ") : winners[0] + " staat voor") : "";
+  mount(title, `<div class="endbox"><div class="label">Klaar</div><h2>${esc(sub)}</h2>${line ? `<p style="font-size:1.2rem;margin:0">${esc(line)}</p>` : ""}<div class="row" style="justify-content:center"><button class="btn primary" data-again>Nog een ronde</button><button class="btn ghost" data-menu>Ander spel kiezen</button></div></div>`);
+  $app.querySelector("[data-again]").onclick = again;
+  $app.querySelector("[data-menu]").onclick = renderMenu;
+}
+
+// ---------- quiz ----------
+function Quiz(terms, opts) {
+  const reverse = opts && opts.reverse || false;
+  const qs = shuffle(terms).slice(0, Math.min(10, terms.length));
+  S.game = { turnBased: S.teams.length > 1 };
+  let i = 0;
+  function q() {
+    const t = qs[i];
+    const others = shuffle(terms.filter(o => o.w !== t.w)).slice(0, 3);
+    const options = shuffle([t, ...others]);
+    const prompt = reverse ? `<div class="prompt term">${esc(t.w)}</div>` : `<div class="prompt">${esc(t.d)}</div>`;
+    mount("Quiz", `
+      <div class="row" style="justify-content:space-between">
+        <span class="progress">Vraag ${i + 1} van ${qs.length}</span>
+        ${turnHTML()}
+        <button class="linkbtn" data-rev>${reverse ? "Speel: uitleg → begrip" : "Speel omgekeerd: begrip → uitleg"}</button>
+      </div>
+      <div class="label">${reverse ? "Welke uitleg past bij dit begrip?" : "Welk begrip past bij deze uitleg?"}</div>
+      ${prompt}
+      <div class="options">${options.map((o, k) => `<button class="opt ${reverse ? "long" : ""}" data-o="${k}"><span class="k">${"ABCD"[k]}</span><span>${esc(reverse ? o.d : o.w)}</span></button>`).join("")}</div>
+      <div class="row" style="justify-content:space-between"><div class="feedback" aria-live="polite"></div><button class="btn primary" data-next hidden>${i + 1 < qs.length ? "Volgende vraag →" : "Bekijk de uitslag"}</button></div>`);
+    $app.querySelector("[data-rev]").onclick = () => Quiz(terms, { reverse: !reverse });
+    const btns = [...$app.querySelectorAll(".opt")];
+    const answer = k => {
+      if (btns[0].disabled) return;
+      const ok = options[k] === t;
+      btns.forEach((b, j) => { b.disabled = true; if (options[j] === t) b.classList.add("right"); });
+      const fb = $app.querySelector(".feedback");
+      if (ok) { award(S.turn, 1); fb.textContent = S.teams.length > 1 ? `Juist! +1 voor ${S.teams[S.turn].name}` : "Juist!"; fb.className = "feedback good"; }
+      else { btns[k].classList.add("wrong"); fb.textContent = `Helaas. Het juiste antwoord is: ${t.w}`; fb.className = "feedback badc"; }
+      refreshScores();
+      const nx = $app.querySelector("[data-next]"); nx.hidden = false; nx.focus();
+    };
+    btns.forEach((b, k) => b.onclick = () => answer(k));
+    $app.querySelector("[data-next]").onclick = () => { nextTurn(); i++; if (i < qs.length) q(); else endScreen("Quiz", "De quiz is gedaan", () => Quiz(terms, { reverse })); };
+    document.onkeydown = e => {
+      const k = "abcd".indexOf(e.key.toLowerCase()); const n = "1234".indexOf(e.key);
+      if (k >= 0 && k < btns.length) answer(k); else if (n >= 0 && n < btns.length) answer(n);
+    };
+  }
+  q();
+}
+
+// ---------- sorteerband ----------
+function Sorteerband() {
+  const sets = SORT[S.level] || Object.values(SORT)[0];
+  const pool = shuffle(sets.flatMap(s => s.items.map(([naam, bak]) => ({ naam, bak, s }))));
+  const qs = pool.slice(0, Math.min(12, pool.length));
+  S.game = { turnBased: S.teams.length > 1 };
+  let i = 0;
+  function q() {
+    const t = qs[i];
+    mount("Sorteerspel", `
+      <div class="row" style="justify-content:space-between">
+        <span class="progress">Voorbeeld ${i + 1} van ${qs.length}</span>
+        ${turnHTML()}
+        <span class="label">${esc(t.s.vraag)}</span>
+      </div>
+      <div class="prompt term">${esc(t.naam)}</div>
+      <div class="sort">${t.s.bakken.map((b, g) => `<button class="opt" data-g="${g}">${esc(b)}</button>`).join("")}</div>
+      <div class="row" style="justify-content:space-between"><div class="feedback" aria-live="polite"></div><button class="btn primary" data-next hidden>${i + 1 < qs.length ? "Volgende →" : "Bekijk de uitslag"}</button></div>`);
+    const btns = [...$app.querySelectorAll("[data-g]")];
+    const answer = g => {
+      if (!btns[g] || btns[0].disabled) return;
+      const ok = g === t.bak;
+      btns.forEach((b, j) => { b.disabled = true; if (j === t.bak) b.classList.add("right"); });
+      const fb = $app.querySelector(".feedback");
+      const juist = `${t.naam.replace(/[.?!]$/, "")}: ${t.s.bakken[t.bak]}`;
+      if (ok) { award(S.turn, 1); fb.textContent = (S.teams.length > 1 ? `Juist! +1 voor ${S.teams[S.turn].name}. ` : "Juist. ") + juist; fb.className = "feedback good"; }
+      else { btns[g].classList.add("wrong"); fb.textContent = `Helaas. ${juist}.`; fb.className = "feedback badc"; }
+      refreshScores();
+      const nx = $app.querySelector("[data-next]"); nx.hidden = false; nx.focus();
+    };
+    btns.forEach((b, g) => b.onclick = () => answer(g));
+    $app.querySelector("[data-next]").onclick = () => { nextTurn(); i++; if (i < qs.length) q(); else endScreen("Sorteerspel", "Alles is gesorteerd", Sorteerband); };
+    document.onkeydown = e => { const n = parseInt(e.key, 10); if (n >= 1 && n <= btns.length) answer(n - 1); };
+  }
+  q();
+}
+
+// ---------- memory ----------
+function Memory(terms, opts) {
+  const pairs = Math.min(opts && opts.pairs || 8, terms.length);
+  const pick = shuffle(terms).slice(0, pairs);
+  const cards = shuffle(pick.flatMap((t, p) => [{ p, kind: "w", text: t.w }, { p, kind: "d", text: t.d }]));
+  S.game = { turnBased: S.teams.length > 1 };
+  let open = [], found = 0, owner = {}, waiting = false;
+  function draw() {
+    mount("Memory", `
+      <div class="row" style="justify-content:space-between">
+        <span class="progress">${found} van ${pairs} paren gevonden</span>
+        ${turnHTML()}
+        <div class="row"><span class="label">Paren</span>${[6, 8].map(n => `<button class="btn ${n === pairs ? "primary" : "ghost"}" data-pairs="${n}">${n}</button>`).join("")}</div>
+      </div>
+      <div class="mem">${cards.map((c, k) => {
+        const isOpen = open.includes(k) || owner[c.p] !== undefined;
+        const cls = ["mcard", isOpen ? "open " + c.kind : "", owner[c.p] !== undefined ? "done" : "", waiting && open.includes(k) ? "miss" : ""].join(" ");
+        const style = owner[c.p] !== undefined && owner[c.p] >= 0 ? `style="--tc:${teamColor(owner[c.p])}"` : `style="--tc:var(--ok)"`;
+        return `<button class="${cls}" ${style} data-c="${k}" aria-label="${isOpen ? esc(c.text) : "Gesloten kaart " + (k + 1)}">${isOpen ? esc(c.text) : '<span class="back">?</span>'}</button>`;
+      }).join("")}</div>
+      <div class="row" style="justify-content:space-between"><div class="feedback" aria-live="polite">${waiting ? "Geen paar." : ""}</div><button class="btn primary" data-flip ${waiting ? "" : "hidden"}>Kaarten omdraaien${S.teams.length > 1 ? " · volgend team" : ""}</button></div>
+      <p class="note">Blauwe kaarten zijn nog dicht. Een begrip hoort bij de uitleg op een oranje kaart.</p>`);
+    $app.querySelectorAll("[data-pairs]").forEach(b => b.onclick = () => Memory(terms, { pairs: +b.dataset.pairs }));
+    $app.querySelectorAll("[data-c]").forEach(b => b.onclick = () => flip(+b.dataset.c));
+    const fl = $app.querySelector("[data-flip]"); if (fl) fl.onclick = () => { open = []; waiting = false; nextTurn(); draw(); };
+  }
+  function flip(k) {
+    if (waiting || open.includes(k) || owner[cards[k].p] !== undefined) return;
+    open.push(k);
+    if (open.length === 2) {
+      const [a, b] = open.map(n => cards[n]);
+      if (a.p === b.p) {
+        owner[a.p] = S.teams.length ? S.turn : -1; award(S.turn, 1); found++; open = [];
+        if (found === pairs) { draw(); setTimeout(() => endScreen("Memory", "Alle paren zijn gevonden", () => Memory(terms, { pairs })), 900); return; }
+      } else waiting = true;
+    }
+    draw();
+  }
+  draw();
+}
+
+// ---------- raad het begrip ----------
+function Raad(terms) {
+  const rounds = shuffle(terms).slice(0, Math.min(10, terms.length));
+  S.game = { turnBased: false };
+  let i = 0;
+  function pattern(w) { return [...w].map((ch, k) => k === 0 ? ch.toUpperCase() : (/\p{L}/u.test(ch) ? "_" : (ch === " " ? "  " : ch))).join(" "); }
+  function round() {
+    const t = rounds[i];
+    const hints = [{ txt: t.d, lab: "Uitleg" }];
+    if (t.x) hints.push({ txt: t.x, lab: "Extra tip" });
+    const letters = [...t.w].filter(c => /\p{L}/u.test(c)).length;
+    hints.push({ txt: `<span class="pattern">${esc(pattern(t.w))}</span><br><small class="note">${letters} letters</small>`, lab: "Letters", raw: true });
+    let shown = 1, revealed = false;
+    function draw() {
+      const pts = Math.max(1, hints.length - shown + 1);
+      mount("Raad het begrip", `
+        <div class="row" style="justify-content:space-between"><span class="progress">Begrip ${i + 1} van ${rounds.length}</span><span class="label">Nu raden = ${pts} ${pts === 1 ? "punt" : "punten"}</span></div>
+        <div class="hints">${hints.map((h, k) => k < shown || revealed
+          ? `<div class="hint"><span class="num">${k + 1}</span><div><div class="label">${h.lab}</div>${h.raw ? h.txt : esc(h.txt)}</div></div>`
+          : `<div class="hint hidden-h"><span class="num" style="background:var(--line)">${k + 1}</span><div>Hint ${k + 1} is nog verborgen</div></div>`).join("")}</div>
+        ${revealed ? `<div class="answer">${esc(t.w)}</div>` : ""}
+        ${revealed ? `<div class="row end"><button class="btn primary" data-nextr>${i + 1 < rounds.length ? "Volgend begrip →" : "Bekijk de uitslag"}</button></div>`
+          : `<div class="row"><button class="btn oker" data-hint ${shown >= hints.length ? "disabled" : ""}>Volgende hint</button><button class="btn" data-show>Toon antwoord</button></div>
+             ${awardRow("Goed geraden door", pts, () => { revealed = true; refreshAfter(); })}`}`);
+      const h = $app.querySelector("[data-hint]"); if (h) h.onclick = () => { shown++; draw(); };
+      const s = $app.querySelector("[data-show]"); if (s) s.onclick = () => { revealed = true; draw(); };
+      const n = $app.querySelector("[data-nextr]"); if (n) n.onclick = () => { i++; if (i < rounds.length) round(); else endScreen("Raad het begrip", "Alle begrippen zijn geraden", () => Raad(terms)); };
+    }
+    function refreshAfter() { draw(); }
+    draw();
+  }
+  round();
+}
+
+// ---------- galgje / huis ----------
+function Galgje(terms, used) {
+  used = used || new Set();
+  const pool = terms.filter(t => !used.has(t.w) && [...t.w].filter(c => /\p{L}/u.test(c)).length >= 3);
+  if (!pool.length) { used.clear(); return Galgje(terms, used); }
+  const t = shuffle(pool)[0]; used.add(t.w);
+  const MAX = 8;
+  const target = [...t.w];
+  const guessed = new Set(); let wrong = 0, done = false, won = false;
+  S.game = { turnBased: S.teams.length > 1 };
+  const isLetter = c => /\p{L}/u.test(c);
+  const allFound = () => target.every(c => !isLetter(c) || guessed.has(fold(c)));
+  function temple() {
+    // 8 stukken: grond, muren, dak, deur, twee ramen, schoorsteen, rook
+    const p = [
+      ["", `<rect x="36" y="198" width="168" height="10" rx="3"/>`],
+      ["", `<rect x="62" y="110" width="116" height="88"/>`],
+      ["lava", `<path d="M48 112 L120 50 L192 112 Z"/>`],
+      ["lava", `<rect x="106" y="150" width="28" height="48" rx="3"/>`],
+      ["rook", `<rect x="74" y="128" width="24" height="22" rx="2"/>`],
+      ["rook", `<rect x="142" y="128" width="24" height="22" rx="2"/>`],
+      ["", `<rect x="152" y="58" width="16" height="34"/>`],
+      ["rook", `<path d="M160 50 a8 8 0 1 1 10 -12 a8 8 0 1 1 12 -6 a6 6 0 0 1 -4 12 Z"/>`]
+    ];
+    return `<svg class="temple" viewBox="0 0 240 216" role="img" aria-label="${wrong} van ${MAX} stukken van het huis staan er">
+      ${p.map(([c, s], k) => s.replace(/^<(rect|path)/, `<$1 class="${k < wrong ? "piece " + c : "ghost"}"`)).join("")}
+    </svg>`;
+  }
+  function draw() {
+    const slots = target.map(c => {
+      if (c === " ") return `<span class="slot gap"> </span>`;
+      if (!isLetter(c)) return `<span class="slot">${esc(c)}</span>`;
+      const show = guessed.has(fold(c)) || done;
+      return `<span class="slot ${done && !guessed.has(fold(c)) ? "lost" : ""}">${show ? esc(c.toUpperCase()) : "&nbsp;"}</span>`;
+    }).join("");
+    const keys = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("").map(L => {
+      const inWord = target.some(c => fold(c) === L);
+      const cls = guessed.has(L) ? (inWord ? "hit" : "miss") : "";
+      return `<button class="key ${cls}" data-k="${L}" ${guessed.has(L) || done ? "disabled" : ""}>${L}</button>`;
+    }).join("");
+    mount("Huizengalgje", `
+      ${done ? "" : `<div class="row" style="justify-content:space-between">${turnHTML()}<span class="label">Raad letter per letter, of zeg het hele begrip</span></div>`}
+      <div class="hang">
+        <div class="stage">
+          <div class="prompt" style="min-height:0;font-size:clamp(1.1rem,2.2vw,1.6rem)"><div><div class="label" style="font-family:var(--font-body)">Uitleg</div>${esc(t.d)}</div></div>
+          <div class="slots" aria-live="polite">${slots}</div>
+          ${done ? `<div class="feedback ${won ? "good" : "badc"}" style="text-align:center;font-size:1.4rem">${won ? "Geraden!" : "Het huis is af. Het begrip was: " + esc(t.w)}</div>` : `<div class="keys">${keys}</div>`}
+          ${done ? (won && S.teams.length && !S.alleen ? awardRow("Punt voor", 2, () => next()) : `<div class="row end"><button class="btn primary" data-nw>Nieuw begrip →</button></div>`)
+                 : `<div class="row end"><button class="btn" data-solve>Iemand weet het hele begrip</button></div>`}
+        </div>
+        <div>${temple()}<div class="lives">${MAX - wrong} foute letters over</div></div>
+      </div>`);
+    $app.querySelectorAll("[data-k]").forEach(b => b.onclick = () => guess(b.dataset.k));
+    const sv = $app.querySelector("[data-solve]"); if (sv) sv.onclick = () => { target.forEach(c => isLetter(c) && guessed.add(fold(c))); done = true; won = true; draw(); };
+    const nw = $app.querySelector("[data-nw]"); if (nw) nw.onclick = next;
+  }
+  function next() { nextTurn(); Galgje(terms, used); }
+  function guess(L) {
+    if (done || guessed.has(L)) return;
+    guessed.add(L);
+    if (!target.some(c => fold(c) === L)) { wrong++; nextTurn(); }
+    if (allFound()) { done = true; won = true; if (S.alleen) award(0, 2); }
+    else if (wrong >= MAX) { done = true; }
+    draw();
+  }
+  document.onkeydown = e => { if (/^[a-z]$/i.test(e.key) && !e.ctrlKey && !e.metaKey && document.activeElement.tagName !== "INPUT") guess(e.key.toUpperCase()); };
+  draw();
+}
+
+// ---------- flitskaarten ----------
+function Flits(terms, opts) {
+  const defFirst = opts && opts.defFirst || false;
+  let deck = shuffle(terms), i = 0, flipped = false;
+  S.game = { turnBased: false };
+  function draw() {
+    const t = deck[i];
+    const front = defFirst ? `<div class="def">${esc(t.d)}</div>` : `<div class="big">${esc(t.w)}</div>`;
+    const back = defFirst ? `<div class="big">${esc(t.w)}</div>${t.x ? `<div class="tip">${esc(t.x)}</div>` : ""}` : `<div class="def">${esc(t.d)}</div>${t.x ? `<div class="tip">Tip: ${esc(t.x)}</div>` : ""}`;
+    mount("Flitskaarten", `
+      <div class="row" style="justify-content:space-between"><span class="progress">Kaart ${i + 1} van ${deck.length}</span>
+        <button class="linkbtn" data-mode>${defFirst ? "Toon eerst het begrip" : "Toon eerst de uitleg"}</button></div>
+      <div class="flash ${flipped ? "flipped" : ""}"><div class="flash-inner" data-turn role="button" tabindex="0" aria-label="Kaart omdraaien">
+        <div class="face"><div class="label">${defFirst ? "Welk begrip is dit?" : "Wat betekent dit?"}</div>${front}</div>
+        <div class="face back-f"><div class="label">${defFirst ? "Begrip" : "Uitleg"}</div>${back}</div>
+      </div></div>
+      <div class="row" style="justify-content:center">
+        <button class="btn ghost" data-prev ${i === 0 ? "disabled" : ""}>← Vorige</button>
+        <button class="btn oker" data-flipc>Draai om</button>
+        <button class="btn primary" data-nextc ${i + 1 >= deck.length ? "disabled" : ""}>Volgende →</button>
+        <button class="btn ghost" data-shuf>Schudden</button>
+      </div>
+      <p class="note" style="text-align:center">Spatiebalk draait de kaart, pijltjes gaan naar de vorige of volgende.</p>`);
+    const turn = () => { flipped = !flipped; $app.querySelector(".flash").classList.toggle("flipped", flipped); };
+    $app.querySelector("[data-turn]").onclick = turn;
+    $app.querySelector("[data-flipc]").onclick = turn;
+    $app.querySelector("[data-prev]").onclick = () => { if (i > 0) { i--; flipped = false; draw(); } };
+    $app.querySelector("[data-nextc]").onclick = () => { if (i + 1 < deck.length) { i++; flipped = false; draw(); } };
+    $app.querySelector("[data-shuf]").onclick = () => { deck = shuffle(terms); i = 0; flipped = false; draw(); };
+    $app.querySelector("[data-mode]").onclick = () => Flits(terms, { defFirst: !defFirst });
+    document.onkeydown = e => {
+      if (e.key === " ") { e.preventDefault(); turn(); }
+      else if (e.key === "ArrowRight") $app.querySelector("[data-nextc]").click();
+      else if (e.key === "ArrowLeft") $app.querySelector("[data-prev]").click();
+    };
+  }
+  draw();
+}
+
+// ---------- bingo ----------
+function Bingo(terms, opts) {
+  const size = opts && opts.size || 3;
+  const max = size === 3 ? 18 : 28;
+  const set = opts && opts.set || shuffle(terms).slice(0, Math.min(max, terms.length));
+  S.game = { turnBased: false };
+  let order = null, i = -1, showCalled = false;
+  function setup() {
+    mount("Begrippenbingo", `
+      <div class="panel">
+        <div class="row" style="justify-content:space-between">
+          <div class="label">Stap 1 · Rooster maken</div>
+          <div class="seg" role="group" aria-label="Grootte">${[3, 4].map(n => `<button data-size="${n}" aria-pressed="${n === size}">${n} × ${n}</button>`).join("")}</div>
+        </div>
+        <ol class="howto">
+          <li>Iedereen tekent een rooster van ${size} bij ${size} vakjes.</li>
+          <li>Kies ${size * size} begrippen uit de lijst hieronder en schrijf er één in elk vakje.</li>
+          <li>Jij leest telkens een uitleg voor. Wie het begrip op zijn rooster heeft, kruist het aan.</li>
+          <li>Een volle rij, kolom of diagonaal? Roep BINGO en lees je begrippen voor.</li>
+        </ol>
+      </div>
+      <div class="wall">${set.map(t => `<span>${esc(t.w)}</span>`).join("")}</div>
+      <div class="row" style="justify-content:space-between">
+        <button class="btn ghost" data-newset>Andere begrippen kiezen</button>
+        <button class="btn primary" data-start>Start de bingo →</button>
+      </div>`);
+    $app.querySelectorAll("[data-size]").forEach(b => b.onclick = () => Bingo(terms, { size: +b.dataset.size }));
+    $app.querySelector("[data-newset]").onclick = () => Bingo(terms, { size });
+    $app.querySelector("[data-start]").onclick = () => { order = shuffle(set); i = 0; play(); };
+  }
+  function play() {
+    const t = order[i];
+    const called = order.slice(0, i + 1);
+    mount("Begrippenbingo", `
+      <div class="row" style="justify-content:space-between"><span class="progress">Uitleg ${i + 1} van ${order.length}</span><button class="linkbtn" data-setup>Terug naar de woordenlijst</button></div>
+      <div class="prompt">${esc(t.d)}</div>
+      <div class="row" style="justify-content:space-between">
+        <button class="btn" data-check>${showCalled ? "Verberg de afgeroepen begrippen" : "Controleer een bingo"}</button>
+        <button class="btn primary" data-nextb ${i + 1 >= order.length ? "disabled" : ""}>Volgende uitleg →</button>
+      </div>
+      ${showCalled ? `<div class="label">Al afgeroepen (groen)</div><div class="wall">${set.map(s => `<span class="${called.includes(s) ? "called" : ""}">${esc(s.w)}</span>`).join("")}</div>` : ""}`);
+    $app.querySelector("[data-nextb]").onclick = () => { if (i + 1 < order.length) { i++; play(); } };
+    $app.querySelector("[data-check]").onclick = () => { showCalled = !showCalled; play(); };
+    $app.querySelector("[data-setup]").onclick = setup;
+    document.onkeydown = e => { if (e.key === "ArrowRight") $app.querySelector("[data-nextb]").click(); };
+  }
+  setup();
+}
+
+// ---------- lijst ----------
+function Lijst(terms) {
+  S.game = { turnBased: false };
+  const sorted = terms.slice().sort((a, b) => a.w.localeCompare(b.w, "nl"));
+  mount("Begrippenlijst", `
+    <p class="note" style="margin:0">${terms.length} begrippen. In de spellen wordt het begrip zelf in de uitleg vervangen door “…”, zodat het antwoord niet verklapt wordt.</p>
+    <div class="tablewrap"><table><thead><tr><th>Begrip</th><th>Uitleg</th><th>Extra tip</th></tr></thead>
+    <tbody>${sorted.map(t => `<tr><td>${esc(t.w)}</td><td>${esc(t.d)}</td><td class="x">${esc(t.x)}</td></tr>`).join("")}</tbody></table></div>`);
+}
+
+renderMenu();
+</script>
+
+</body></html>
