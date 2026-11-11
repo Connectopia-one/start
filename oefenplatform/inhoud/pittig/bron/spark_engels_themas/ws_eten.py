@@ -70,7 +70,7 @@ VRAGEN = [
         vraag="Je wil een tijdschrift kopen. Welke zin klopt?",
         opties=[
             "I buy a magazine at the newsagent's.",
-            "I buy a magazine at the butcher's.",
+            "I buy a magazine at the butcher's on the corner.",
             "I buy a magazine at the library.",
             "I buy a magazine at the chemist's.",
         ],

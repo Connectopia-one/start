@@ -77,7 +77,7 @@ def controleer(titel: str, nummer: int, vraag: dict):
         lijst = antwoord if isinstance(antwoord, list) else [antwoord]
         if not lijst or any(not isinstance(a, str) or not a.strip() for a in lijst):
             raise SystemExit(f"{plek} heeft geen ingevuld antwoord")
-        if len(antwoord.split()) > 3:
+        if any(len(a.split()) > 3 for a in lijst):
             raise SystemExit(f"{plek} heeft een te lang invulantwoord: {antwoord!r}")
     else:
         raise SystemExit(f"{plek} heeft een onbekend type: {soort}")

@@ -210,7 +210,7 @@ DEEL2 = [
     dict(type="meerkeuze",
          vraag="Je leest: 'The books on the table are mine.' Waarom staat er 'are' en niet 'is'?",
          opties=["het onderwerp 'the books' is meervoud",
-                 "omdat er 'on the table' bij staat",
+                 "omdat er 'on the table' achteraan bij staat",
                  "omdat 'mine' meervoud is",
                  "omdat de zin lang is"],
          antwoord=0,

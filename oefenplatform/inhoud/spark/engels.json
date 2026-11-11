@@ -90,7 +90,7 @@
           "vraag": "Je leest: 'The school trip to London costs 180 euros. Please pay before 15 March. The bus leaves at 6 a.m.' Je moet weten hoeveel het kost. Hoe lees je zo'n tekst?",
           "opties": [
             "Je zoekt gericht naar het bedrag.",
-            "Je leest elk woord traag.",
+            "Je leest elk woord traag en aandachtig.",
             "Je vertaalt de hele tekst.",
             "Je leest alleen de laatste zin."
           ],
@@ -126,7 +126,7 @@
           "vraag": "Boven een tekst staat 'Teenagers and screens', met een foto van een gsm erbij. Wat doe je het best vóór je begint te lezen?",
           "opties": [
             "Je kijkt naar de titel en de foto en denkt na waarover het gaat.",
-            "Je zoekt eerst alle onbekende woorden op in het woordenboek.",
+            "Je zoekt eerst alle onbekende woorden op in een groot woordenboek.",
             "Je vertaalt de eerste zin woord voor woord.",
             "Je leest de tekst van achter naar voor."
           ],
@@ -178,7 +178,7 @@
           "vraag": "Op een affiche staat: 'School party — Saturday 14 June, from 2 p.m., in the playground.' Waar gaat het feest door?",
           "opties": [
             "op de speelplaats",
-            "in de sportzaal",
+            "in de sportzaal van de school",
             "in het park",
             "in de eetzaal"
           ],
@@ -326,7 +326,7 @@
           "vraag": "Je leest een blog: 'We arrived in Scotland on Monday. It rained all week, but the mountains were beautiful.' Wat is de hoofdgedachte?",
           "opties": [
             "De reis naar Schotland was mooi ondanks de regen.",
-            "Het regent vaak in Schotland.",
+            "Het regent vaak in Schotland, ook midden in de zomer.",
             "De schrijver kwam aan op maandag.",
             "Bergen zijn mooier dan steden."
           ],
@@ -396,7 +396,7 @@
           "vraag": "Je krijgt op het examen een tekst met een woord dat je niet kent. Wanneer zoek je dat woord op in het digitale woordenboek?",
           "opties": [
             "als je de tekst zonder dat woord niet begrijpt",
-            "bij elk woord dat je niet kent",
+            "bij elk woord dat je niet meteen kent, ook de kleine",
             "nooit, dat mag niet",
             "alleen bij het laatste woord"
           ],
@@ -528,7 +528,7 @@
           "vraag": "Je leest: 'My cousins live in Wales. They have a farm there.' Waarnaar verwijzen 'they' en 'there'?",
           "opties": [
             "they naar de neven en nichten, there naar Wales",
-            "they naar de boerderij, there naar de neven",
+            "they naar de boerderij, there naar de neven en nichten",
             "they naar Wales, there naar de boerderij",
             "they naar de schrijver, there naar het huis"
           ],
@@ -583,7 +583,7 @@
           "vraag": "Je leest op een verpakking: 'Keep in a dry place. Use before the date on the box.' Voor wie is die tekst bedoeld?",
           "opties": [
             "voor wie het product koopt",
-            "voor de fabrikant",
+            "voor de fabrikant die het product maakt",
             "voor de postbode",
             "voor de winkelier alleen"
           ],
@@ -635,7 +635,7 @@
           "vraag": "Je leest een interview met een zwemster in een schoolkrant. Waarom is die tekst gemaakt?",
           "opties": [
             "om informatie over haar te geven",
-            "om iets te verkopen",
+            "om je iets te verkopen in de schoolwinkel",
             "om je iets te leren koken",
             "om een verhaal te verzinnen"
           ],
@@ -682,7 +682,7 @@
           "vraag": "Je leest: 'Mix the eggs and the sugar. Next, add the flour.' Wat voor tekst is dit, en waaraan zie je dat?",
           "opties": [
             "prescriptief, want het zegt wat je moet doen",
-            "informatief, want het geeft nieuwe feiten",
+            "informatief, want het geeft nieuwe feiten over eieren en suiker",
             "narratief, want er gebeurt iets na elkaar",
             "literair, want het roept gevoelens op"
           ],
@@ -779,7 +779,7 @@
           "vraag": "Je leest: 'The teacher was unhappy with the noise.' Je kent 'unhappy' niet. Hoe vind je de betekenis?",
           "opties": [
             "je herkent happy met un- ervoor, dus niet blij",
-            "je kijkt naar het laatste deel -py",
+            "je kijkt naar het laatste deel -py van het woord",
             "je vertaalt het als 'onmogelijk'",
             "je slaat het woord gewoon over"
           ],
@@ -815,7 +815,7 @@
           "vraag": "Je leest een kortverhaal dat stopt met: 'And then the door slowly opened...' Welke opdracht kan je hierbij krijgen?",
           "opties": [
             "een geloofwaardig einde verzinnen",
-            "de zinnen overschrijven",
+            "de zinnen van het verhaal overschrijven",
             "de woorden alfabetisch zetten",
             "de tekst luidop voorlezen"
           ],
@@ -827,7 +827,7 @@
           "vraag": "Je leest: 'I could not stop reading. The main character felt just like me.' Waarover gaat deze reactie?",
           "opties": [
             "dat de lezer zich herkent in een personage",
-            "dat het boek te lang is voor de lezer",
+            "dat het boek veel te lang is voor de gewone lezer",
             "dat de schrijver een fout heeft gemaakt",
             "dat de kaft mooi is uitgegeven"
           ],
@@ -920,7 +920,7 @@
           "vraag": "Je wil iemand uitnodigen op je verjaardag. Welke zin past?",
           "opties": [
             "Would you like to come to my party?",
-            "You have to come to my party.",
+            "You have to come to my party next Saturday.",
             "I am going to my own party.",
             "My party was last Saturday."
           ],
@@ -1012,7 +1012,7 @@
           "vraag": "Je schrijft een mail om iets te vragen. Welke zin is het beleefdst?",
           "opties": [
             "Could you please send me the form?",
-            "Send me the form now.",
+            "Send me the form now, I need it today.",
             "I want the form.",
             "Give me that form."
           ],
@@ -1078,7 +1078,7 @@
           "vraag": "Waarom lees je je tekst nog eens na voor je hem afgeeft?",
           "opties": [
             "om te kijken of alles helder en vlot is",
-            "om hem langer te maken",
+            "om hem langer te maken voor meer punten",
             "om de woorden te tellen",
             "om de kleur aan te passen"
           ],
@@ -1116,7 +1116,7 @@
           "vraag": "Je wil bedanken voor een cadeau. Welke zin past in een kaartje?",
           "opties": [
             "Thank you so much for the present!",
-            "I did not like your present.",
+            "I did not really like your present at all.",
             "Where did you buy the present?",
             "The present is in my room."
           ],
@@ -1242,7 +1242,7 @@
           "vraag": "Je wil iets voorstellen aan een vriend. Welke zin past?",
           "opties": [
             "Shall we go to the cinema?",
-            "I went to the cinema.",
+            "I went to the cinema last weekend.",
             "The cinema was closed.",
             "He likes the cinema."
           ],
@@ -1310,7 +1310,7 @@
           "vraag": "Je leest: 'Remember: in the UK, cars drive on the left.' Wat leer je hieruit over het Verenigd Koninkrijk?",
           "opties": [
             "ze rijden aan de linkerkant van de weg",
-            "ze rijden aan de rechterkant",
+            "ze rijden aan de rechterkant, zoals in België",
             "er rijden geen auto's in steden",
             "er zijn geen verkeersregels"
           ],
@@ -1364,7 +1364,7 @@
           "vraag": "Je leest een Britse tekst: 'Take the lift to the first floor.' Waar kom je uit als je in een Brits gebouw naar 'the first floor' gaat?",
           "opties": [
             "één verdieping boven de begane grond",
-            "op de begane grond",
+            "op de begane grond, vlak bij de ingang",
             "in de kelder",
             "op het dak"
           ],
@@ -1418,7 +1418,7 @@
           "vraag": "Je leest een Amerikaanse tekst met 'color', 'theater' en 'traveling'. Wat valt op?",
           "opties": [
             "het is Amerikaanse spelling",
-            "het zijn schrijffouten",
+            "het zijn schrijffouten van de auteur",
             "het zijn oude woorden",
             "het is jongerentaal"
           ],
@@ -1436,7 +1436,7 @@
           "vraag": "Je leest: 'In Australia, Christmas falls in the middle of summer.' Hoe kan dat?",
           "opties": [
             "Australië ligt op het zuidelijk halfrond",
-            "Australië viert Kerstmis in juni",
+            "Australië viert Kerstmis in juni, in de winter",
             "in Australië bestaat er geen winter",
             "de tekst maakt een fout"
           ],
@@ -1472,7 +1472,7 @@
           "vraag": "Je leest: 'People here always queue politely at the bus stop.' Waarover gaat deze zin?",
           "opties": [
             "over een gewoonte in het dagelijkse leven",
-            "over de dienstregeling van de bus",
+            "over de dienstregeling van de bus in de stad",
             "over de prijs van een ticket",
             "over het weer bij de halte"
           ],
@@ -1502,7 +1502,7 @@
           "vraag": "Je leest: 'British pupils often wear a school uniform.' Wat leer je hieruit?",
           "opties": [
             "over de gewoontes op school in het VK",
-            "over de prijs van kleren in het VK",
+            "over de prijs van kleren en schoenen in het VK",
             "over de lessen op een Britse school",
             "over het weer in het VK"
           ],
@@ -1603,7 +1603,7 @@
           "vraag": "Je leest een verhaal over een meisje dat verhuist en niemand kent. Je schrijft: 'I know this feeling, because I moved too.' Wat doe je hier?",
           "opties": [
             "je herkent jezelf in het personage",
-            "je vat het verhaal samen",
+            "je vat het verhaal in een paar zinnen samen",
             "je verbetert de schrijver",
             "je vertaalt het verhaal"
           ],
@@ -1621,7 +1621,7 @@
           "vraag": "Je leest een strip zonder woorden, alleen tekeningen. Hoe kan je die toch begrijpen?",
           "opties": [
             "door de gezichten en de lichaamstaal te lezen",
-            "door de kleuren te tellen",
+            "door de kleuren op elke bladzijde van de strip te tellen",
             "door de tekenaar op te zoeken",
             "door de laatste tekening over te slaan"
           ],
@@ -1633,7 +1633,7 @@
           "vraag": "Je leest: 'The old house was watching them with its broken windows.' Wat doet de schrijver hier?",
           "opties": [
             "hij geeft het huis menselijke trekken",
-            "hij geeft de afmetingen van het huis",
+            "hij geeft de afmetingen en de kleur van het huis",
             "hij legt uit hoe je ramen herstelt",
             "hij vertelt wie er woonde"
           ],
@@ -1693,7 +1693,7 @@
           "vraag": "Je leest een kortverhaal en schrijft: 'The end surprised me, because I expected the brother to come back.' Wat doe je?",
           "opties": [
             "je vertelt hoe de tekst op jou overkwam",
-            "je verbetert een spelfout",
+            "je verbetert een spelfout in de laatste zin",
             "je telt de personages",
             "je vertaalt de titel"
           ],
@@ -1782,7 +1782,7 @@
           "vraag": "Je leest: 'He is an only child.' Wat betekent dat?",
           "opties": [
             "hij heeft geen broers of zussen",
-            "hij is nog heel jong",
+            "hij is nog heel jong, jonger dan de anderen",
             "hij is het jongste kind",
             "hij woont alleen"
           ],
@@ -1836,7 +1836,7 @@
           "vraag": "Je leest: 'I have a sore throat and a headache.' Wat heeft deze persoon?",
           "opties": [
             "keelpijn en hoofdpijn",
-            "buikpijn en koorts",
+            "buikpijn en een beetje koorts",
             "tandpijn en rugpijn",
             "oorpijn en hoest"
           ],
@@ -1912,7 +1912,7 @@
           "vraag": "Je leest: 'She is in her early twenties.' Hoe oud is ze ongeveer?",
           "opties": [
             "een jaar of 20 tot 23",
-            "ongeveer 12 jaar",
+            "ongeveer 12 jaar, nog op de lagere school",
             "ongeveer 30 jaar",
             "ouder dan 50 jaar"
           ],
@@ -2115,7 +2115,7 @@
           "vraag": "Je leest op een formulier: 'Place of birth'. Wat vul je daar in?",
           "opties": [
             "de plaats waar je geboren bent",
-            "je huidige adres",
+            "je huidige adres met de postcode",
             "je geboortedatum",
             "de naam van je school"
           ],
@@ -2149,7 +2149,7 @@
           "vraag": "Je leest: 'He is really looking forward to the holiday.' Hoe voelt hij zich?",
           "opties": [
             "hij kijkt er hard naar uit",
-            "hij ziet ertegen op",
+            "hij ziet er een beetje tegen op",
             "hij is het vergeten",
             "hij vindt het saai"
           ],
@@ -2161,7 +2161,7 @@
           "vraag": "Je schrijft over je gevoel na een slechte toets. Welke zin past het best?",
           "opties": [
             "I was really disappointed with my mark.",
-            "My mark was written on paper.",
+            "My mark was written on paper in red ink.",
             "The test started at nine o'clock.",
             "There were twenty questions."
           ],
@@ -2302,7 +2302,7 @@
           "vraag": "Je leest: 'She was wearing a red jumper and jeans.' Wat had ze aan?",
           "opties": [
             "een rode trui en een jeansbroek",
-            "een rood hemd en een rok",
+            "een rood hemd en een korte zwarte rok",
             "een rode jas en laarzen",
             "een rode sjaal en een muts"
           ],
@@ -2342,7 +2342,7 @@
           "vraag": "Je leest: 'I brush my teeth and get dressed.' Waarover gaat deze zin?",
           "opties": [
             "over de dagelijkse bezigheden",
-            "over het weer",
+            "over het weer van de voorbije week",
             "over de school",
             "over een feest"
           ],
@@ -2397,7 +2397,7 @@
           "vraag": "Je leest in een recept: 'Add two spoons of sugar.' Wat moet je toevoegen?",
           "opties": [
             "twee lepels suiker",
-            "twee kopjes melk",
+            "twee kopjes warme melk",
             "twee glazen water",
             "twee sneden brood"
           ],
@@ -2663,7 +2663,7 @@
           "vraag": "Je leest op je uurrooster: 'Maths, Geography, PE.' Welk vak is PE?",
           "opties": [
             "lichamelijke opvoeding",
-            "plastische opvoeding",
+            "plastische opvoeding of tekenen",
             "praktische economie",
             "Engelse poëzie"
           ],
@@ -2751,7 +2751,7 @@
           "vraag": "Je leest: 'He plays the guitar in a band.' Wat doet hij?",
           "opties": [
             "hij speelt gitaar in een groep",
-            "hij luistert naar muziek",
+            "hij luistert graag naar muziek van een band",
             "hij zingt in een koor",
             "hij danst op een feest"
           ],
@@ -2818,7 +2818,7 @@
           "vraag": "In een opdracht staat: 'Write about 80 words.' Wat verwacht men?",
           "opties": [
             "een tekst van ongeveer 80 woorden",
-            "precies 80 zinnen",
+            "precies 80 zinnen, niet meer en niet minder",
             "een tekst over het getal 80",
             "80 losse woorden op een rij"
           ],
@@ -2924,7 +2924,7 @@
           "vraag": "Je leest: 'He works from nine to five in an office.' Wat weet je over zijn werk?",
           "opties": [
             "hij werkt overdag op kantoor",
-            "hij werkt 's nachts thuis",
+            "hij werkt 's nachts thuis aan zijn computer",
             "hij werkt in het weekend",
             "hij werkt in de bouw"
           ],
@@ -2976,7 +2976,7 @@
           "vraag": "Je leest: 'Follow us on social media for more news.' Wat vraagt deze zin?",
           "opties": [
             "hen volgen op sociale media",
-            "hen een mail sturen",
+            "hen een mail sturen met je vragen",
             "hen opbellen",
             "hun winkel bezoeken"
           ],
@@ -2988,7 +2988,7 @@
           "vraag": "Je leest: 'I downloaded the app yesterday.' Wat deed deze persoon?",
           "opties": [
             "de app binnengehaald",
-            "de app verwijderd",
+            "de app verwijderd van zijn gsm",
             "de app gemaakt",
             "de app verkocht"
           ],
@@ -3095,7 +3095,7 @@
           "vraag": "Je leest een weerbericht: 'Tomorrow will be cloudy with some showers.' Wat voor weer wordt het?",
           "opties": [
             "bewolkt met buien",
-            "zonnig en warm",
+            "zonnig en warm, de hele dag",
             "koud met sneeuw",
             "mistig en droog"
           ],
@@ -3195,7 +3195,7 @@
           "vraag": "Je leest: 'She is from Scotland, so she is Scottish.' Wat is het verschil tussen die twee woorden?",
           "opties": [
             "Scotland is het land, Scottish de nationaliteit",
-            "Scotland is de taal, Scottish het land",
+            "Scotland is de taal die men er spreekt, Scottish het land",
             "Scotland is een stad, Scottish een streek",
             "er is geen verschil tussen de twee"
           ],
@@ -3362,7 +3362,7 @@
           "vraag": "Je leest: 'We stayed in a small hotel near the beach.' Waar sliepen ze?",
           "opties": [
             "in een klein hotel bij het strand",
-            "in een tent in het bos",
+            "in een tent in het bos bij een rivier",
             "bij familie in de stad",
             "in een huis aan een meer"
           ],
@@ -4033,7 +4033,7 @@
           "vraag": "Je leest: 'Which film do you prefer?' Waarnaar vraagt 'which'?",
           "opties": [
             "een keuze uit een beperkte groep",
-            "de reden van iets",
+            "de reden waarom iemand iets doet",
             "de plaats van iets",
             "het tijdstip van iets"
           ],
@@ -5701,7 +5701,7 @@
           "vraag": "Je leest: 'The books on the table are mine.' Waarom staat er 'are' en niet 'is'?",
           "opties": [
             "het onderwerp 'the books' is meervoud",
-            "omdat er 'on the table' bij staat",
+            "omdat er 'on the table' achteraan bij staat",
             "omdat 'mine' meervoud is",
             "omdat de zin lang is"
           ],

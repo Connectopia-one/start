@@ -117,7 +117,7 @@ VRAGEN = [
         vraag="Je leest in een krant: 'Teenagers who look at screens late at night sleep less well.' Welk besluit mag je uit die zin trekken?",
         opties=[
             "Tieners die laat naar een scherm kijken, slapen minder goed.",
-            "Tieners halen slechtere punten als ze naar schermen kijken.",
+            "Tieners halen slechtere punten op school als ze vaak naar schermen kijken.",
             "Alle tieners slapen te weinig, ook zonder een scherm.",
             "Overdag naar een scherm kijken is ook slecht voor de slaap.",
         ],

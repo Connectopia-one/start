@@ -110,7 +110,7 @@ DEEL1 = [
          uitleg="Whose = van wie. Verwar het niet met who's, dat 'who is' betekent."),
     dict(type="meerkeuze",
          vraag="Je leest: 'Which film do you prefer?' Waarnaar vraagt 'which'?",
-         opties=["een keuze uit een beperkte groep", "de reden van iets",
+         opties=["een keuze uit een beperkte groep", "de reden waarom iemand iets doet",
                  "de plaats van iets", "het tijdstip van iets"],
          antwoord=0,
          uitleg="Which gebruik je als er een beperkte keuze is: which colour, red or blue? What is opener: what films do you like?"),
