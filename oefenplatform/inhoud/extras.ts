@@ -182,6 +182,14 @@ const zevenSpellenHoek =
 export const spelKaarten: SpelKaart[] = [
   /* Lagere school */
   {
+    spel: "woordenarena-engels",
+    school: "lager",
+    niveau: "🌱 Start · 5de en 6de leerjaar",
+    niveauInSpel: "start",
+    tekst:
+      "Ruim tachtig Engelse woorden en zinnetjes uit de leerbundels van Start: dagen, kleuren, familie, je lichaam, jezelf voorstellen en wat je zegt in de klas. In zes spellen.",
+  },
+  {
     spel: "begrippenarena-wiskunde",
     school: "lager",
     niveau: "🧱 Basis en 🌱 Start · 5de en 6de leerjaar",
@@ -323,6 +331,22 @@ export const spelKaarten: SpelKaart[] = [
     niveauInSpel: "spark",
     tekst:
       "Bijna tweehonderd Engelse woorden uit de leerbundels van Spark, met de valse vrienden, Brits tegenover Amerikaans en de onregelmatige werkwoorden. In zes spellen.",
+  },
+  {
+    spel: "woordenarena-engels",
+    school: "middelbaar",
+    niveau: "🚀 Boost · ook dubbele finaliteit",
+    niveauInSpel: "boost",
+    tekst:
+      "Ruim honderd Engelse woorden uit de woordvelden van Boost: gevoelens en gezondheid, thuis en kleding, school en beroepen, reizen en winkelen. In zes spellen.",
+  },
+  {
+    spel: "woordenarena-engels",
+    school: "middelbaar",
+    niveau: "🌍 Beyond · ook dubbele finaliteit",
+    niveauInSpel: "beyond",
+    tekst:
+      "Bijna tweehonderdvijftig Engelse woorden uit de woordvelden van Beyond, van wonen en gezondheid tot werk, geld, kunst, politiek en wetenschap. In zes spellen.",
   },
   {
     spel: "begrippenarena-wiskunde",

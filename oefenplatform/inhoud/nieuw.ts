@@ -41,6 +41,13 @@ export const nieuwTekst = {
 export const updates: Update[] = [
   {
     datum: "11 november 2026",
+    titel: "Woordenarena Engels voor alle niveaus",
+    tekst:
+      "De woordenarena Engels was er alleen voor Spark. Nu kies je bovenaan ook Start, Boost of Beyond, telkens met de woorden uit de leerbundels van dat niveau. Boost en Beyond gelden ook voor de dubbele finaliteit.",
+    link: { tekst: "Naar de spellen", href: "/extras/spellen" },
+  },
+  {
+    datum: "11 november 2026",
     titel: "Nieuwe begrippenarena: uitdagingshoek",
     tekst:
       "Bij de educatieve spellen staat nu ook een begrippenarena voor de uitdagingshoek, met vier thema's: de ruimte, coderen en computers, de geschiedenis van België, en paradoxen en weetjes. Je oefent de begrippen in met een quiz, memory, raketgalgje, flitskaarten of bingo. In het sorteerspel kies je bijvoorbeeld tussen planeet en maan, of tussen feit en fabel.",
