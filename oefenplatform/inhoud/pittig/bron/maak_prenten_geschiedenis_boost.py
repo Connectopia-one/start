@@ -493,6 +493,31 @@ def stappenplan():
     (UIT / "stappenplan.svg").write_text("\n".join(d) + "\n", encoding="utf-8")
 
 
+# ---------------------------------------------------------------- standbeeld
+# Een bedacht standbeeld: A groot en rechtop op de sokkel met opgestoken arm,
+# B en C klein en geknield aan de voet. Klikvak A: 38-62 % breed, 4-62 % hoog.
+def standbeeld():
+    W, Hh = 800, 640
+    brons = "#6f6a5a"
+    d = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {Hh}" width="{W}" height="{Hh}" font-family="Arial, sans-serif">',
+         f'<rect width="{W}" height="{Hh}" fill="#e3eef7"/>',
+         '<rect x="0" y="560" width="800" height="80" fill="#d9d2bf"/>',
+         '<rect x="290" y="390" width="220" height="180" fill="#cfc8b4" stroke="#8a826c" stroke-width="4"/>',
+         '<rect x="270" y="370" width="260" height="28" fill="#bfb7a0"/>',
+         # A
+         f'<circle cx="400" cy="80" r="34" fill="{brons}"/>',
+         f'<path d="M360 120 h80 l15 140 h-25 l-10 110 h-40 l-10 -110 h-25 z" fill="{brons}"/>',
+         f'<path d="M440 130 l70 -80 l18 14 l-68 86 z" fill="{brons}"/>',
+         f'<path d="M360 130 l-40 90 l18 8 l40 -84 z" fill="{brons}"/>',
+         # B en C: klein en geknield
+         f'<circle cx="215" cy="470" r="20" fill="{brons}"/><path d="M190 495 h50 l10 45 h-30 l-5 25 h-35 z" fill="{brons}"/>',
+         f'<circle cx="590" cy="470" r="20" fill="{brons}"/><path d="M565 495 h50 l5 70 h-35 l-5 -25 h-25 z" fill="{brons}"/>',
+         letter(480, 250, "A"), letter(150, 470, "B"), letter(655, 470, "C"),
+         f'<text x="790" y="630" font-size="18" text-anchor="end" fill="#555">Een bedacht standbeeld.</text>',
+         "</svg>"]
+    (UIT / "standbeeld.svg").write_text("\n".join(d) + "\n", encoding="utf-8")
+
+
 
 if __name__ == "__main__":
     UIT.mkdir(parents=True, exist_ok=True)
@@ -513,6 +538,7 @@ if __name__ == "__main__":
     ottomaanse_rijk()
     bronvormen()
     stappenplan()
+    standbeeld()
     print("1453", zone_jaar4(1448, 1458), "Suleyman", zone_jaar4(1520, 1566))
     print("1776", zone_jaar5(1773, 1779), "1789", zone_jaar5(1786, 1792), "1750", zone_jaar5(1740, 1760))
     print("1688", zone_jaar4(1683, 1693), "1566", zone_jaar4(1561, 1571), "80j", zone_jaar4(1568, 1648))

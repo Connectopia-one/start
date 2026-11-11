@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 640" width="800" height="640" font-family="Arial, sans-serif">
+<rect width="800" height="640" fill="#e3eef7"/>
+<rect x="0" y="560" width="800" height="80" fill="#d9d2bf"/>
+<rect x="290" y="390" width="220" height="180" fill="#cfc8b4" stroke="#8a826c" stroke-width="4"/>
+<rect x="270" y="370" width="260" height="28" fill="#bfb7a0"/>
+<circle cx="400" cy="80" r="34" fill="#6f6a5a"/>
+<path d="M360 120 h80 l15 140 h-25 l-10 110 h-40 l-10 -110 h-25 z" fill="#6f6a5a"/>
+<path d="M440 130 l70 -80 l18 14 l-68 86 z" fill="#6f6a5a"/>
+<path d="M360 130 l-40 90 l18 8 l40 -84 z" fill="#6f6a5a"/>
+<circle cx="215" cy="470" r="20" fill="#6f6a5a"/><path d="M190 495 h50 l10 45 h-30 l-5 25 h-35 z" fill="#6f6a5a"/>
+<circle cx="590" cy="470" r="20" fill="#6f6a5a"/><path d="M565 495 h50 l5 70 h-35 l-5 -25 h-25 z" fill="#6f6a5a"/>
+<circle cx="480" cy="250" r="28" fill="#2f4a22" stroke="#fff" stroke-width="4"/><text x="480" y="261" font-size="30" font-weight="bold" text-anchor="middle" fill="#fff">A</text>
+<circle cx="150" cy="470" r="28" fill="#2f4a22" stroke="#fff" stroke-width="4"/><text x="150" y="481" font-size="30" font-weight="bold" text-anchor="middle" fill="#fff">B</text>
+<circle cx="655" cy="470" r="28" fill="#2f4a22" stroke="#fff" stroke-width="4"/><text x="655" y="481" font-size="30" font-weight="bold" text-anchor="middle" fill="#fff">C</text>
+<text x="790" y="630" font-size="18" text-anchor="end" fill="#555">Een bedacht standbeeld.</text>
+</svg>

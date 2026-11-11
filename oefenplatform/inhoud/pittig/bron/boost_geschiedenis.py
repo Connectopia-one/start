@@ -27,6 +27,7 @@ THEMAS = [
     ("revoluties", "Amerika, Frankrijk en de industriële omwenteling"),
     ("ottomanen_vergelijken", "Het Ottomaanse Rijk en samenlevingen vergelijken"),
     ("bronnen_redeneren", "Redeneren met historische bronnen"),
+    ("beeldvorming", "Beeldvorming en het verleden vandaag"),
 ]
 
 HOOFDSTUKKEN = [

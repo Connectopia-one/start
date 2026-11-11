@@ -4698,6 +4698,475 @@
           ]
         }
       ]
+    },
+    {
+      "titel": "Beeldvorming en het verleden vandaag — pittig",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat bedoelen we met historische beeldvorming?",
+          "opties": [
+            "Een beeld van het verleden, opgebouwd uit bronnen",
+            "Een volledige en vaststaande weergave van alles wat ooit gebeurd is",
+            "De verzameling van alle schilderijen en standbeelden over vroeger",
+            "Een verhaal over vroeger dat een schrijver zonder bronnen verzint"
+          ],
+          "antwoord": 0,
+          "uitleg": "Wij hebben het verleden zelf niet meer, wel bronnen. Wat iemand daaruit opbouwt, is een beeld."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Een beeld van het verleden is altijd een [[constructie]]. Wie het maakt, [[selecteert]] bronnen, leidt er informatie uit af, [[interpreteert]] en zoekt [[samenhang]].",
+          "extra": [
+            "kopie",
+            "vergeet",
+            "toeval"
+          ],
+          "uitleg": "Kiezen, afleiden, interpreteren en samenhang zoeken: elke stap is een keuze van de maker."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt elke uitspraak over hoe een beeld van het verleden tot stand komt?",
+          "rijen": [
+            "Wat er destijds gebeurde, ligt vast.",
+            "Wat er destijds gebeurde, is volledig kenbaar.",
+            "Een pas ontdekte bron kan het beeld veranderen.",
+            "Nieuwe vragen aan oude bronnen kunnen het beeld veranderen.",
+            "Een beeld dat later verandert, was vroeger dus een leugen."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "De gebeurtenis zelf ligt vast, maar we kennen ze nooit helemaal. Nieuwe bronnen en nieuwe vragen schuiven het beeld op, zonder dat het oude beeld bewust gelogen was."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Twee historici schrijven over dezelfde opstand en komen tot een ander beeld. Wat is de meest waarschijnlijke verklaring?",
+          "opties": [
+            "Ze gebruikten andere bronnen of stelden andere vragen",
+            "Een van beiden heeft zeker slordig gewerkt en moet zijn boek intrekken",
+            "Het verleden zelf verandert telkens als er een nieuw boek over verschijnt",
+            "Historici kiezen hun besluit vooraf en zoeken er pas daarna bronnen bij"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een verschil is normaal. Pas als een beeld de bronnen tegenspreekt, is er een echt probleem."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Gaat het hier om de persoonlijke of de maatschappelijke context van wie een beeld maakt?",
+          "kolommen": [
+            "Persoonlijk",
+            "Maatschappelijk"
+          ],
+          "items": [
+            [
+              "de afkomst van de maker",
+              "Persoonlijk"
+            ],
+            [
+              "het geloof van de maker",
+              "Persoonlijk"
+            ],
+            [
+              "het beroep van de maker",
+              "Persoonlijk"
+            ],
+            [
+              "het land is in oorlog",
+              "Maatschappelijk"
+            ],
+            [
+              "wie het geld voor het onderzoek geeft",
+              "Maatschappelijk"
+            ],
+            [
+              "het jaar waarin een schoolboek gedrukt wordt",
+              "Maatschappelijk"
+            ]
+          ],
+          "uitleg": "Afkomst, geloof en beroep horen bij de maker zelf. Oorlog, geldschieters en de tijd waarin een boek verschijnt, horen bij de samenleving rond die maker."
+        },
+        {
+          "casus": "In 1099 nemen de kruisvaarders Jeruzalem in. Daarover bestaan Arabische kronieken en westerse (Latijnse) kronieken. Ze vertellen allebei over het bloedbad dat volgde.",
+          "vragen": [
+            {
+              "type": "meerkeuze",
+              "vraag": "Welk beeld van de Franken geven de Arabische bronnen?",
+              "opties": [
+                "Ruwe, gewelddadige indringers van ver weg",
+                "Beschaafde bevrijders die door God gestuurd waren",
+                "Vredige handelaars die kwamen om specerijen te kopen",
+                "Ongewapende pelgrims die de weg kwijt waren"
+              ],
+              "antwoord": 0,
+              "uitleg": "Voor wie in de stad woonde, waren de Franken vreemde, wrede veroveraars."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Hoe vertellen westerse kronieken hetzelfde bloedbad?",
+              "opties": [
+                "Als een door God gewild succes",
+                "Als een schandaal waarvoor de paus zich later verontschuldigde",
+                "Als een ongeluk waar niemand echt schuld aan had",
+                "Ze zwijgen er helemaal over, alsof het nooit gebeurd is"
+              ],
+              "antwoord": 0,
+              "uitleg": "Hetzelfde geweld wordt aan de westerse kant een overwinning van het geloof."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Waarom verschillen die twee soorten bronnen vooral?",
+              "opties": [
+                "Hun makers stonden aan een andere kant",
+                "De Arabische schrijvers waren er niet bij en verzonnen alles",
+                "Latijnse teksten zijn moeilijk en werden later slecht vertaald",
+                "De ene groep schreef op perkament, de andere op papier"
+              ],
+              "antwoord": 0,
+              "uitleg": "Standplaatsgebondenheid: wie aan een andere kant staat, ziet dezelfde gebeurtenis anders."
+            }
+          ]
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de tijdlijn op het jaar waarin de kruisvaarders Jeruzalem innemen.",
+          "afbeelding_url": "/examenvormen/geschiedenis-boost/tijdlijn-1000-1500.svg",
+          "zones": [
+            [
+              20.7,
+              25,
+              3.5,
+              55
+            ]
+          ],
+          "uitleg": "Jeruzalem werd ingenomen in 1099, tijdens de eerste kruistocht."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Karel de Grote kreeg in de loop van de tijd verschillende beelden. Welk beeld hoort bij welke blik?",
+          "paren": [
+            [
+              "wie kijkt naar wat landen vandaag samenbrengt",
+              "vader van Europa"
+            ],
+            [
+              "wie kijkt naar zijn oorlogen tegen Saksen en Longobarden",
+              "Frankische veroveraar"
+            ],
+            [
+              "wie kijkt vanuit de oostelijke helft van zijn rijk, later een eigen land",
+              "Duits keizer"
+            ]
+          ],
+          "extra": [
+            "Romeins senator"
+          ],
+          "uitleg": "De vraag die je stelt, bepaalt het antwoord. Frankrijk en Duitsland claimden hem allebei, en na 1945 werd hij het symbool van Europese eenheid."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Dit portret van Karel de Grote werd rond 1512 geschilderd voor de stad Neurenberg, zo'n 700 jaar na zijn dood. Wat leer je er vooral uit?",
+          "opties": [
+            "Hoe men hem rond 1500 wilde zien",
+            "Hoe Karel er echt uitzag, want de schilder kende oude portretten van hem",
+            "Welke kleren en wapens de Franken rond het jaar 800 echt droegen",
+            "Dat Karel de Grote zelf in Neurenberg geboren en begraven werd"
+          ],
+          "antwoord": 0,
+          "uitleg": "De schilder heeft Karel nooit gezien. Het portret toont vooral hoe een Duitse stad rond 1500 een machtige keizer wilde voorstellen.",
+          "afbeelding_url": "/examenvormen/geschiedenis-boost/karel-de-grote-durer.jpg"
+        },
+        {
+          "type": "tabel",
+          "vraag": "Je krijgt een beeld van het verleden voorgeschoteld, bijvoorbeeld in een documentaire. Is dit een nuttige vraag om te stellen?",
+          "rijen": [
+            "Wie maakte dit, en wanneer?",
+            "Op welke bronnen steunt het?",
+            "Wat wordt er niet verteld?",
+            "Wie gaf de opdracht?",
+            "Hoeveel kijkers heeft het gehad?"
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Wie, wanneer, welke bronnen, wat ontbreekt en wie betaalde: zo zie je de keuzes achter het beeld. Hoe populair iets is, zegt niets over hoe juist het is."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom is het nuttig te weten wie de opdracht gaf voor een beeld van het verleden?",
+          "opties": [
+            "De opdrachtgever bepaalt vaak mee wat verteld en verzwegen wordt",
+            "Je kan de opdrachtgever dan zelf vragen of alles in het werk echt klopt",
+            "Een werk zonder bekende opdrachtgever mag je nooit als bron gebruiken",
+            "De opdrachtgever was meestal ook zelf de schilder of de schrijver van het werk"
+          ],
+          "antwoord": 0,
+          "uitleg": "Wie betaalt, wil vaak een bepaald beeld. Daarom weeg je een werk af tegen de belangen van wie het bestelde."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Iemand zegt: 'De middeleeuwer geloofde dat de aarde plat was.' Wat is daar vooral mis mee?",
+          "opties": [
+            "Het is een veralgemening die niet klopt",
+            "Niets, dat staat zo in elke middeleeuwse kroniek en elk kloosterboek",
+            "Het woord aarde bestond in de middeleeuwen nog niet, dus het is een anachronisme",
+            "Het klopt voor de boeren, maar niet voor de geleerden in de kloosters"
+          ],
+          "antwoord": 0,
+          "uitleg": "Geleerden wisten in de middeleeuwen dat de aarde rond is. De uitspraak steunt niet op bronnen en wordt toch voortdurend herhaald."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je komt in een oude bron een stereotype tegen over een volk. Wat doe je ermee?",
+          "opties": [
+            "Je benoemt het en analyseert het",
+            "Je neemt het over, want de maker leefde toen en wist het dus beter",
+            "Je schrapt de hele bron uit je onderzoek, want ze is onbruikbaar",
+            "Je past de tekst van de bron aan zodat het stereotype verdwijnt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Ook een stereotype vertelt iets: over hoe de maker naar die groep keek. Je neemt het alleen niet over als feit."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Ook een standbeeld doet aan beeldvorming. Klik op de figuur die de maker het belangrijkst wilde laten lijken.",
+          "afbeelding_url": "/examenvormen/geschiedenis-boost/standbeeld.svg",
+          "zones": [
+            [
+              38.0,
+              5.0,
+              30.0,
+              55.0
+            ]
+          ],
+          "uitleg": "Figuur A staat hoog, is groot en heeft een krachtig gebaar. Hoe groot iemand is en waar hij staat, is een keuze van de maker."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Bekijk het standbeeld opnieuw. Klopt elke uitspraak?",
+          "rijen": [
+            "De kleine, knielende figuren lijken ondergeschikt.",
+            "Het beeld toont neutraal hoe het er echt aan toe ging.",
+            "Het helpt te weten wie het beeld bestelde en wanneer.",
+            "Houding en grootte zijn keuzes van de maker."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            true
+          ],
+          "uitleg": "Een standbeeld is geen foto. Grootte, houding en plaats vertellen wie de maker belangrijk vond.",
+          "afbeelding_url": "/examenvormen/geschiedenis-boost/standbeeld.svg"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Dit grote schilderij van de Guldensporenslag (1302) werd gemaakt in 1836. Wat toont het vooral?",
+          "opties": [
+            "Hoe men 1302 vijf eeuwen later wilde zien",
+            "Een betrouwbaar ooggetuigenverslag van wie er in 1302 meevocht",
+            "Hoe de Franse ridders hun eigen nederlaag later herdachten",
+            "Welke wapens en kleren de Vlamingen op het slagveld droegen"
+          ],
+          "antwoord": 0,
+          "uitleg": "De schilder leefde vijf eeuwen later, in een jong België dat een eigen verleden zocht. Het schilderij is een bron over 1836, meer dan over 1302.",
+          "afbeelding_url": "/examenvormen/geschiedenis-boost/guldensporenslag-de-keyser.jpg"
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Vlaamsgezinden geven de Guldensporenslag de betekenis van een Vlaamse overwinning op een [[vreemde overheerser]]. Die betekenis kreeg de slag pas in de [[19de]] eeuw. Voor de tijdgenoten was het vooral een [[sociale en politieke]] strijd.",
+          "extra": [
+            "godsdienstige",
+            "14de",
+            "naburige bondgenoot"
+          ],
+          "uitleg": "De taalkundige en nationale betekenis komt er vijfhonderd jaar later bij. In 1302 ging het om ambachten, graaf en koning."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Op welke dag valt de feestdag van de Vlaamse Gemeenschap? Schrijf de dag en de maand.",
+          "antwoord": [
+            "11 juli",
+            "elf juli"
+          ],
+          "uitleg": "Op 11 juli, naar de Guldensporenslag van 11 juli 1302. Die keuze werd pas in de 20ste eeuw gemaakt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat bedoelen we als we zeggen dat een herdenking iets vertelt over het heden?",
+          "opties": [
+            "Wat men herdenkt en hoe, hangt af van wat men nu belangrijk vindt",
+            "Een herdenking vertelt precies hoe de gebeurtenis zelf verlopen is",
+            "Herdenkingen gaan alleen over gebeurtenissen van de laatste tien jaar",
+            "Een herdenking verandert nooit, want de datum van de gebeurtenis ligt vast"
+          ],
+          "antwoord": 0,
+          "uitleg": "Dat de Vlaamse feestdag pas in de 20ste eeuw gekozen werd, zegt iets over die 20ste eeuw."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt elke uitspraak over de lagen van identiteit?",
+          "rijen": [
+            "Je kan je tegelijk Vlaams en Belgisch voelen.",
+            "Je levensbeschouwing is ook een laag van je identiteit.",
+            "Je sociaaleconomische positie speelt mee in wie je bent.",
+            "Wie zich westers voelt, kan geen andere laag hebben.",
+            "Een mens moet uiteindelijk kiezen voor één laag."
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false,
+            false
+          ],
+          "uitleg": "Vlaams, Belgisch, westers of niet-westers, sociaaleconomisch, levensbeschouwelijk: die lagen sluiten elkaar niet uit."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom beoordeel je het verleden niet met de maatstaf van vandaag?",
+          "opties": [
+            "Dan begrijp je niet waarom iets toen vanzelfsprekend leek",
+            "Omdat alles wat mensen vroeger deden, in hun tijd ook goed was",
+            "Omdat begrijpen en goedkeuren eigenlijk hetzelfde zijn",
+            "Omdat mensen van vroeger geen eigen waarden of regels hadden"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je probeert eerst te begrijpen vanuit de tijd zelf. Begrijpen is niet hetzelfde als goedkeuren."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet de stappen om een kunst- of cultuuruiting te analyseren in de juiste volgorde.",
+          "opties": [
+            "Informatie verzamelen over tijd, ruimte, maker en soort",
+            "Beschrijven wat je letterlijk ziet of hoort",
+            "Onderwerp, doelpubliek en bedoeling bepalen",
+            "Je analyse verwoorden"
+          ],
+          "uitleg": "Eerst de context, dan kijken, dan pas duiden, en ten slotte opschrijven."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Zoek je dit op in stap 1 van de kunstanalyse, of hoort het daar niet?",
+          "kolommen": [
+            "Stap 1",
+            "Niet in stap 1"
+          ],
+          "items": [
+            [
+              "wanneer en waar het gemaakt is",
+              "Stap 1"
+            ],
+            [
+              "wie de maker is",
+              "Stap 1"
+            ],
+            [
+              "de titel en de soort uiting",
+              "Stap 1"
+            ],
+            [
+              "welke kleuren en welk licht er gebruikt zijn",
+              "Niet in stap 1"
+            ],
+            [
+              "wat het vandaag op een veiling zou opbrengen",
+              "Niet in stap 1"
+            ]
+          ],
+          "uitleg": "Kleuren en licht beschrijf je in stap 2. De verkoopprijs hoort in geen enkele stap."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Welke bedoeling past het best bij elke kunst- of cultuuruiting?",
+          "paren": [
+            [
+              "een spotprent die een minister belachelijk maakt",
+              "bekritiseren"
+            ],
+            [
+              "behangpapier met een herhaald bloemenmotief",
+              "decoreren"
+            ],
+            [
+              "een volkslied dat op feestdagen gezongen wordt",
+              "identiteit vormgeven"
+            ],
+            [
+              "een bord in een museum over een opgegraven pot",
+              "informeren"
+            ],
+            [
+              "een stoel van een bekende ontwerper",
+              "praktisch gebruiken"
+            ]
+          ],
+          "extra": [
+            "verkopen"
+          ],
+          "uitleg": "Vaak zijn er meerdere bedoelingen tegelijk, maar hier springt er telkens één uit. Verkopen staat niet in de lijst van bedoelingen."
+        },
+        {
+          "casus": "In 1650 wordt in een Antwerpse kerk een groot Mariabeeld geplaatst. Het is vol beweging: wapperende kleren, gouden stralen en een breed gebaar naar de gelovigen.",
+          "vragen": [
+            {
+              "type": "meerkeuze",
+              "vraag": "Welke bedoelingen passen het best bij dit beeld? (meerdere antwoorden)",
+              "opties": [
+                "Bevestigen",
+                "Schoonheid creëren",
+                "Entertainen",
+                "Verkopen"
+              ],
+              "antwoord": [
+                0,
+                1
+              ],
+              "uitleg": "Het beeld bevestigt het katholieke geloof en wil ontroeren door zijn schoonheid. Amusement is niet het doel, en verkopen staat niet in de lijst van bedoelingen."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Welke gebeurtenis uit de maatschappelijke context verklaart mee waarom juist hier zo'n beeld komt?",
+              "opties": [
+                "De Beeldenstorm, bijna een eeuw eerder",
+                "De Guldensporenslag van 1302 in Kortrijk",
+                "De Franse Revolutie en het einde van de adel",
+                "De eerste stoommachines in de Antwerpse haven"
+              ],
+              "antwoord": 0,
+              "uitleg": "In 1566 werden kerken leeggehaald. Een prachtig nieuw Mariabeeld is daar een antwoord op."
+            },
+            {
+              "type": "open",
+              "vraag": "Leg uit hoe de vorm van het beeld zijn bedoeling ondersteunt. Gebruik twee of drie zinnen.",
+              "antwoord": "De beweging, het goud en het grote gebaar moeten de gelovige meeslepen. Zo laat het beeld het geloof voelen in plaats van het uit te leggen, wat de Contrareformatie wilde.",
+              "uitleg": "Een goed antwoord verbindt wat je ziet (beweging, licht, gebaar) met de bedoeling (overtuigen, het geloof versterken)."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je ziet op sociale media een filmpje over een oude gebeurtenis. Wat neem je uit dit thema mee?",
+          "opties": [
+            "Je vraagt wie het maakte, met welke bronnen, voor wie en waarom",
+            "Je gelooft het als het veel gedeeld wordt, want dan hebben velen het nagekeken",
+            "Je gelooft niets, want filmpjes over het verleden zijn altijd verzonnen",
+            "Je kijkt alleen of de beelden mooi en scherp genoeg gemaakt zijn"
+          ],
+          "antwoord": 0,
+          "uitleg": "Dezelfde vragen als bij een oude bron. Voorzichtig zijn is iets anders dan niets geloven."
+        }
+      ]
     }
   ]
 }
