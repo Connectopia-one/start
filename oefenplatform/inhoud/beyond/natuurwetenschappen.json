@@ -191,7 +191,7 @@
           "vraag": "Een plantencel ligt in zuiver water. Wat gebeurt er?",
           "opties": [
             "de cel neemt water op en wordt stevig of turgescent",
-            "de cel verliest water en haar celwand barst open",
+            "de cel verliest water en haar celwand barst daardoor open",
             "de cel verandert helemaal niet van toestand",
             "de cel breekt haar vacuole volledig af"
           ],
@@ -351,7 +351,7 @@
           "vraag": "Waarom staan de cellen van het palissadeparenchym dicht tegen elkaar onder de bovenkant van het blad?",
           "opties": [
             "omdat daar het meeste licht binnenvalt voor de fotosynthese",
-            "omdat daar het meeste water uit het blad verdampt",
+            "omdat daar het meeste water uit het blad verdampt via de huidmondjes",
             "omdat daar de huidmondjes het dichtst bij elkaar liggen",
             "omdat daar de zwaarste delen van het blad hangen"
           ],
@@ -375,7 +375,7 @@
           "vraag": "Welke taak vervult de schors of cortex in een wortel?",
           "opties": [
             "opslag en transport van stoffen tussen de huid en de vaatbundel",
-            "de aanmaak van bladgroenkorrels voor de fotosynthese",
+            "de aanmaak van bladgroenkorrels voor de fotosynthese in de wortel",
             "het opvangen van het zonlicht voor de hele plant",
             "het afsluiten van de wortel tegen elke wateropname"
           ],
@@ -387,7 +387,7 @@
           "vraag": "Wat is het verband tussen de bouw en de functie van een zaadcel?",
           "opties": [
             "de staart maakt ze beweeglijk en de kleine kop draagt het erfelijk materiaal",
-            "de dikke celwand beschermt het erfelijk materiaal tegen uitdroging en kou",
+            "de dikke celwand beschermt het erfelijk materiaal tegen uitdroging, kou en zuur",
             "de grote vacuole levert de voedselvoorraad voor de hele bevruchting",
             "de vele chloroplasten leveren de energie voor de beweging naar de eicel"
           ],
@@ -433,7 +433,7 @@
           "vraag": "Wat kenmerkt een autotroof organisme?",
           "opties": [
             "het bouwt zijn eigen organische stoffen uit anorganische stoffen op",
-            "het haalt zijn organische stoffen volledig uit andere organismen",
+            "het haalt zijn organische stoffen volledig uit andere organismen die het opeet",
             "het heeft voor zijn groei geen enkele energiebron nodig",
             "het breekt uitsluitend dode resten van andere organismen af"
           ],
@@ -451,7 +451,7 @@
           "vraag": "Waarom noemt men ATP de energiemunt van de cel?",
           "opties": [
             "omdat de cel er haar energie in kleine, bruikbare porties mee rondgeeft",
-            "omdat de cel er haar erfelijk materiaal volledig in bewaart",
+            "omdat de cel er haar erfelijk materiaal volledig in bewaart en doorgeeft",
             "omdat de cel er haar afvalstoffen mee naar buiten brengt",
             "omdat de cel er haar celwand mee opbouwt en herstelt"
           ],
@@ -556,7 +556,7 @@
           "vraag": "Waarom kan een plant met uitsluitend groen licht nauwelijks aan fotosynthese doen?",
           "opties": [
             "omdat chlorofyl groen licht grotendeels weerkaatst in plaats van opneemt",
-            "omdat groen licht de huidmondjes van het blad meteen dichtduwt",
+            "omdat groen licht de huidmondjes van het blad meteen dichtduwt en zo CO₂ tegenhoudt",
             "omdat groen licht het water in de bladcellen doet bevriezen",
             "omdat groen licht de celwand van de bladcellen beschadigt"
           ],
@@ -773,7 +773,7 @@
           "vraag": "Wat bedoelt men met opwaarts transport in een plant?",
           "opties": [
             "het vervoer van water en mineralen van de wortel naar het blad",
-            "het vervoer van suikers van het blad naar de wortel toe",
+            "het vervoer van suikers van het blad naar de wortel toe, via de bastvaten",
             "het vervoer van zuurstof van de lucht naar de bodem toe",
             "het vervoer van zetmeel van de bloem naar de bladeren"
           ],
@@ -792,7 +792,7 @@
           "opties": [
             "om het aanwezige zetmeel uit de bladeren te laten verdwijnen",
             "om de plant volledig te laten uitdrogen voor de proef",
-            "om alle bladgroenkorrels uit het blad te verwijderen",
+            "om alle bladgroenkorrels uit het blad te verwijderen voor de proef begint",
             "om de huidmondjes voorgoed te laten dichtgroeien"
           ],
           "antwoord": 0,
@@ -822,7 +822,7 @@
           "opties": [
             "koolstofdioxide",
             "zuurstofgas",
-            "stikstofgas",
+            "stikstofgas uit de lucht",
             "waterstofgas"
           ],
           "antwoord": 0,
@@ -841,7 +841,7 @@
             "de producten van de ene zijn de grondstoffen van de andere",
             "ze gebruiken allebei precies dezelfde grondstoffen",
             "ze leveren allebei precies dezelfde eindproducten op",
-            "ze kunnen allebei enkel in het volle donker doorgaan"
+            "ze kunnen allebei enkel in het volle donker doorgaan, dus vooral 's nachts"
           ],
           "antwoord": 0,
           "uitleg": "Fotosynthese maakt glucose en zuurstof uit koolstofdioxide en water; de celademhaling doet het omgekeerde. Samen vormen ze een kringloop."
@@ -981,7 +981,7 @@
           "vraag": "Wat doen natural killer cellen?",
           "opties": [
             "ze doorboren geïnfecteerde en kwaadaardige lichaamscellen",
-            "ze maken grote hoeveelheden antistoffen aan",
+            "ze maken grote hoeveelheden antistoffen aan tegen elk nieuw antigeen",
             "ze slaan het antigeen van elke infectie voorgoed op",
             "ze vervoeren koolstofdioxide naar de longen toe"
           ],
@@ -993,7 +993,7 @@
           "vraag": "Wat is een antigeen?",
           "opties": [
             "een lichaamsvreemde stof die een afweerreactie uitlokt",
-            "een eiwit dat door een B-lymfocyt gemaakt wordt",
+            "een eiwit dat door een B-lymfocyt gemaakt en in het bloed afgegeven wordt",
             "een orgaan waarin de lymfocyten rijpen",
             "een signaalstof die de bloedvaten verwijdt"
           ],
@@ -1029,7 +1029,7 @@
           "vraag": "Wat is de taak van een dendritische cel?",
           "opties": [
             "een stuk van de indringer aan de lymfocyten tonen",
-            "de bloedvaten rond de wonde laten verwijden",
+            "de bloedvaten rond de wonde laten verwijden en rood kleuren",
             "de rode bloedcellen van zuurstof voorzien",
             "de huid na een wonde volledig herstellen"
           ],
@@ -1120,7 +1120,7 @@
           "vraag": "Wat doet een cytotoxische T-lymfocyt?",
           "opties": [
             "hij brengt een besmette lichaamscel tot afsterven",
-            "hij maakt antistoffen tegen het antigeen aan",
+            "hij maakt zelf antistoffen tegen het antigeen aan en scheidt ze af",
             "hij vormt het slijmvlies in de luchtwegen",
             "hij slaat elk antigeen in het beenmerg op"
           ],
@@ -1174,7 +1174,7 @@
           "vraag": "Wat is immunisatie?",
           "opties": [
             "het verwerven van bescherming tegen een bepaalde ziekteverwekker",
-            "het volledig uitschakelen van de eigen afweer van het lichaam",
+            "het volledig en blijvend uitschakelen van de eigen afweer van het lichaam",
             "het verwijderen van alle lymfeknopen uit het lichaam",
             "het meten van de temperatuur tijdens een infectie"
           ],
@@ -1213,7 +1213,7 @@
           "vraag": "Welk voorbeeld is kunstmatige passieve immunisatie?",
           "opties": [
             "serumtherapie met kant-en-klare antistoffen",
-            "een vaccin met verzwakte ziekteverwekkers",
+            "een vaccin met verzwakte ziekteverwekkers via een prik",
             "het doormaken van een waterpokkeninfectie",
             "antistoffen die door de placenta gaan"
           ],
@@ -1243,7 +1243,7 @@
           "vraag": "Waarom beschermt een vaccinatiecampagne ook mensen die zelf niet gevaccineerd zijn?",
           "opties": [
             "omdat de ziekteverwekker veel minder kans krijgt om zich te verspreiden",
-            "omdat het vaccin via de lucht ook op anderen overgaat",
+            "omdat het vaccin via de adem en de lucht ook op anderen in de buurt overgaat",
             "omdat niet-gevaccineerden vanzelf antistoffen aanmaken",
             "omdat de ziekteverwekker na een vaccin ongevaarlijk wordt"
           ],
@@ -1256,7 +1256,7 @@
           "opties": [
             "hij toont een stukje van de bacterie op zijn membraan",
             "hij verlaat het lichaam meteen via de huid",
-            "hij wordt daarna zelf tot een B-lymfocyt omgevormd",
+            "hij wordt daarna zelf tot een B-lymfocyt omgevormd in het beenmerg",
             "hij slaat de bacterie levenslang ongeschonden op"
           ],
           "antwoord": 0,
@@ -1300,7 +1300,7 @@
             "rond de eisprong, ongeveer in het midden van de cyclus",
             "enkel tijdens de eerste dag van de menstruatie",
             "enkel in de laatste dagen voor de menstruatie",
-            "op elk willekeurig moment van de hele cyclus"
+            "op elk willekeurig moment van de hele cyclus, ook tijdens de menstruatie"
           ],
           "antwoord": 0,
           "uitleg": "De eicel leeft na de eisprong maar ongeveer een dag. Zaadcellen overleven enkele dagen, dus het vruchtbare venster ligt rond die eisprong."
@@ -1335,7 +1335,7 @@
           "opties": [
             "beletten dat er nog een tweede zaadcel binnendringt",
             "de eicel meteen naar de eierstok terugbrengen",
-            "de zaadcel van zijn staart en kop ontdoen",
+            "de binnengedrongen zaadcel van zijn staart en zijn middenstuk ontdoen",
             "de baarmoederwand volledig laten afbreken"
           ],
           "antwoord": 0,
@@ -1586,7 +1586,7 @@
           "opties": [
             "wegens het risico op besmetting met de toxoplasmoseparasiet",
             "wegens het risico op een tekort aan ijzer in het bloed",
-            "wegens het risico op een te snelle groei van de vrucht",
+            "wegens het risico op een te snelle groei van de vrucht in de eerste maanden",
             "wegens het risico op een te hoge inname van foliumzuur"
           ],
           "antwoord": 0,
@@ -1604,7 +1604,7 @@
           "opties": [
             "blijvende schade bij een kind door alcoholgebruik tijdens de zwangerschap",
             "een tijdelijke reactie van de moeder op alcohol na de bevalling",
-            "een allergie van de vrucht voor de suikers in alcoholische dranken",
+            "een allergie van de ongeboren vrucht voor de suikers in alcoholische dranken",
             "een tekort aan foliumzuur bij een moeder die veel sport"
           ],
           "antwoord": 0,
@@ -1647,7 +1647,7 @@
             "de bevruchting gebeurt buiten het lichaam in het laboratorium",
             "er wordt zaad in de baarmoeder van de vrouw ingebracht",
             "er wordt één zaadcel rechtstreeks in de eicel gespoten",
-            "er wordt een eicel van een donor ingevroren bewaard"
+            "er wordt een eicel van een donor ingevroren en jarenlang in een labo bewaard"
           ],
           "antwoord": 0,
           "uitleg": "Bij IVF worden eicellen en zaadcellen in een schaaltje samengebracht. Een embryo dat zich ontwikkelt, wordt daarna in de baarmoeder geplaatst."
@@ -1657,7 +1657,7 @@
           "vraag": "Waarin verschilt ICSI van gewone in-vitrofertilisatie?",
           "opties": [
             "er wordt één zaadcel rechtstreeks in de eicel ingebracht",
-            "er wordt geen enkele eicel uit de eierstok gehaald",
+            "er wordt geen enkele eicel uit de eierstok van de vrouw gehaald",
             "de bevruchting gebeurt volledig in de eileider zelf",
             "er wordt uitsluitend met een donoreicel gewerkt"
           ],
@@ -1930,7 +1930,7 @@
           "vraag": "Wat is de G0-fase?",
           "opties": [
             "een rusttoestand waarin een cel niet meer deelt",
-            "de fase waarin de chromatiden uit elkaar gaan",
+            "de fase waarin de chromatiden uit elkaar naar de polen gaan",
             "de fase waarin het cytoplasma zich splitst",
             "de fase waarin het DNA verdubbeld wordt"
           ],
@@ -2005,7 +2005,7 @@
           "vraag": "Wat is het belang van de mitose?",
           "opties": [
             "groei en herstel met cellen die genetisch identiek zijn",
-            "het vormen van haploïde geslachtscellen met variatie",
+            "het vormen van haploïde geslachtscellen met veel genetische variatie",
             "het halveren van het aantal chromosomen per cel",
             "het mengen van het erfelijk materiaal van twee ouders"
           ],
@@ -2129,7 +2129,7 @@
           "vraag": "Waarom koos Mendel de erwtenplant voor zijn kruisingsproeven?",
           "opties": [
             "omdat die zich makkelijk zelf bestuift en duidelijke kenmerken heeft",
-            "omdat die het grootste aantal chromosomen van alle planten heeft",
+            "omdat die het grootste aantal chromosomen van alle planten in de tuin heeft",
             "omdat die het hele jaar door bloemen van dezelfde kleur geeft",
             "omdat die zich uitsluitend door stekken laat vermeerderen"
           ],
@@ -2490,7 +2490,7 @@
           "vraag": "In een stamboom hebben twee ouders zonder het kenmerk een dochter met dat kenmerk. Wat besluit je?",
           "opties": [
             "het kenmerk is recessief en niet geslachtsgebonden",
-            "het kenmerk is dominant en niet geslachtsgebonden",
+            "het kenmerk is dominant en ligt niet op een geslachtschromosoom",
             "het kenmerk ligt zeker op het Y-chromosoom",
             "het kenmerk kan alleen bij jongens voorkomen"
           ],
@@ -2557,7 +2557,7 @@
           "vraag": "Wat is een gen?",
           "opties": [
             "een stuk DNA met de code voor één product, meestal een eiwit",
-            "een volledig chromosoom met al zijn eiwitten erbij",
+            "een volledig chromosoom met al zijn eiwitten en histonen erbij",
             "een enkele stikstofbase in een streng van het DNA",
             "een ribosoom waarop de eiwitten gemaakt worden"
           ],
@@ -2647,7 +2647,7 @@
           "vraag": "Wat doet een tRNA-molecule?",
           "opties": [
             "het brengt met zijn anticodon het juiste aminozuur aan",
-            "het schrijft het gen van het DNA over naar RNA",
+            "het schrijft de code van het gen in de kern van het DNA over naar RNA",
             "het knipt de introns uit het pre-mRNA weg",
             "het verpakt het eiwit in een transportblaasje"
           ],
@@ -2697,7 +2697,7 @@
             "een substitutie",
             "een deletie",
             "een insertie",
-            "een inversie"
+            "een frameshiftmutatie"
           ],
           "antwoord": 0,
           "uitleg": "Bij een substitutie verandert er één letter. Soms verandert het aminozuur daardoor, soms niet, want de code is gedegenereerd."
@@ -2777,7 +2777,7 @@
           "vraag": "Hoe is het genetisch materiaal van een bacterie opgebouwd?",
           "opties": [
             "één ringvormig chromosoom, vaak met plasmiden ernaast",
-            "drieëntwintig paar chromosomen in een echte kern",
+            "drieëntwintig paar chromosomen in een echte kern met een kernmembraan",
             "uitsluitend losse plasmiden zonder enig chromosoom",
             "een dubbele helix die uit RNA is opgebouwd"
           ],
@@ -2807,7 +2807,7 @@
           "vraag": "Wat is transductie?",
           "opties": [
             "genoverdracht tussen bacteriën door een bacteriofaag",
-            "genoverdracht van een plant naar een bodembacterie",
+            "genoverdracht van een plant naar een bodembacterie via de wortels",
             "het aflezen van een gen tot een bruikbaar eiwit",
             "het doorknippen van DNA met een restrictie-enzym"
           ],
@@ -2842,7 +2842,7 @@
             "omdat twee stukken met dezelfde overhang op elkaar passen",
             "omdat ze het DNA tegen elk ander enzym beschermen",
             "omdat ze het gen meteen tot een bruikbaar eiwit aflezen",
-            "omdat ze de bacterie veel sneller laten delen dan anders"
+            "omdat ze de bacterie veel sneller laten delen dan anders het geval zou zijn"
           ],
           "antwoord": 0,
           "uitleg": "Knip je het plasmide en het donor-DNA met hetzelfde enzym, dan hebben ze dezelfde overhang. Ligase plakt ze daarna definitief vast."
@@ -2877,7 +2877,7 @@
           "opties": [
             "bij cisgeen komt het gen uit dezelfde of een kruisbare soort",
             "bij cisgeen komt het gen altijd uit een heel andere soort",
-            "bij transgeen wordt er juist een gen weggehaald",
+            "bij transgeen wordt er juist een gen weggehaald uit het DNA van de soort",
             "bij transgeen verandert er niets aan het erfelijk materiaal"
           ],
           "antwoord": 0,
@@ -2894,7 +2894,7 @@
           "vraag": "Waarvoor dient een PCR?",
           "opties": [
             "een klein stukje DNA miljoenen keren kopiëren",
-            "DNA-fragmenten op lengte uit elkaar halen",
+            "DNA-fragmenten in een gel volgens hun lengte uit elkaar halen",
             "een gen blijvend in het genoom veranderen",
             "een eiwit uit een cel zuiver afscheiden"
           ],
@@ -2906,7 +2906,7 @@
           "vraag": "Wat gebeurt er bij gelelektroforese?",
           "opties": [
             "DNA-fragmenten worden door een elektrisch veld op lengte gescheiden",
-            "DNA-fragmenten worden in een buisje miljoenen keren gekopieerd",
+            "DNA-fragmenten worden in een buisje met een enzym miljoenen keren gekopieerd",
             "DNA-fragmenten worden met ligase aan elkaar geplakt",
             "DNA-fragmenten worden tot losse basen afgebroken"
           ],
@@ -2964,7 +2964,7 @@
           "opties": [
             "omdat die bacterie van nature DNA in plantencellen inbouwt",
             "omdat dat plasmide uit een plant zelf gehaald wordt",
-            "omdat dat plasmide op zijn eentje tot een plant uitgroeit",
+            "omdat dat plasmide op zijn eentje tot een volledige nieuwe plant uitgroeit",
             "omdat die bacterie enkel in een laboratorium kan leven"
           ],
           "antwoord": 0,
@@ -2990,7 +2990,7 @@
             "de verandering van de erfelijke eigenschappen van een populatie over generaties",
             "de groei van één enkel organisme van bevruchte eicel tot volwassen dier",
             "de aanpassing van één individu aan de koude in de loop van één winter",
-            "de verhuizing van een soort naar een ander werelddeel in de loop van een jaar"
+            "de verhuizing van een hele soort naar een ander werelddeel in de loop van een paar jaar"
           ],
           "antwoord": 0,
           "uitleg": "Evolutie speelt zich af op het niveau van de populatie en over generaties heen. Een individu evolueert niet; het leeft en plant zich voort of niet."
@@ -3202,7 +3202,7 @@
           "vraag": "Wat beweerde Lamarck?",
           "opties": [
             "dat verworven eigenschappen aan de nakomelingen doorgegeven worden",
-            "dat enkel de best aangepaste individuen zich kunnen voortplanten",
+            "dat enkel de best aangepaste individuen zich kunnen voortplanten en overleven",
             "dat soorten sinds hun ontstaan nooit meer veranderd zijn",
             "dat mutaties de enige bron van alle variatie in een soort zijn"
           ],
@@ -3269,7 +3269,7 @@
           "vraag": "Wat gebeurde er met de peper-en-zoutvlinder tijdens de industriële revolutie?",
           "opties": [
             "de donkere vorm werd talrijker omdat ze op beroete bomen minder opviel",
-            "de lichte vorm werd talrijker omdat ze beter tegen de rook kon",
+            "de lichte vorm werd talrijker omdat ze beter tegen de rook van de fabrieken kon",
             "beide vormen verdwenen volledig uit de streek rond de fabrieken",
             "de vlinders veranderden tijdens hun eigen leven van kleur"
           ],
@@ -3294,7 +3294,7 @@
           "opties": [
             "het toeval dat vooral in kleine populaties allelfrequenties verschuift",
             "het uitwisselen van allelen tussen twee aparte populaties",
-            "de voorkeur van wijfjes voor een bepaald kenmerk bij een partner",
+            "de voorkeur van de wijfjes voor een bepaald opvallend kenmerk bij een partner",
             "het ontstaan van helemaal nieuwe allelen door een mutatie"
           ],
           "antwoord": 0,
@@ -3317,7 +3317,7 @@
           "vraag": "Wat bedoelt men met de fitness van een fenotype?",
           "opties": [
             "hoeveel vruchtbare nakomelingen het gemiddeld oplevert",
-            "hoe sterk en gespierd het dier in kwestie is",
+            "hoe sterk en gespierd het dier in kwestie is in vergelijking met de rest",
             "hoe lang het individu in totaal in leven blijft",
             "hoe snel het dier over een korte afstand loopt"
           ],
@@ -3330,7 +3330,7 @@
           "opties": [
             "als ze onder natuurlijke omstandigheden geen vruchtbaar nageslacht meer geven",
             "als ze in twee duidelijk verschillende gebieden van de wereld leven",
-            "als ze een duidelijk verschillende kleur of een andere grootte hebben",
+            "als ze een duidelijk verschillende kleur, vorm, grootte of een ander gedrag hebben",
             "als ze ander voedsel eten dan elkaar in hetzelfde gebied"
           ],
           "antwoord": 0,
@@ -3343,7 +3343,7 @@
             "geografische isolatie",
             "gedragsisolatie",
             "temporele isolatie",
-            "gametische isolatie"
+            "postzygotische isolatie"
           ],
           "antwoord": 0,
           "uitleg": "Een berg, een rivier of een zeearm maakt contact fysiek onmogelijk. Daardoor stopt de gene flow en kunnen de populaties uit elkaar groeien."
@@ -3407,7 +3407,7 @@
           "vraag": "Wat is adaptatie?",
           "opties": [
             "een erfelijk kenmerk dat een organisme beter doet passen bij zijn omgeving",
-            "de gewoonte die een dier in de loop van zijn eigen leven aanleert",
+            "de gewoonte die een dier in de loop van zijn eigen leven aanleert en gebruikt",
             "de verhuizing van een hele soort naar een heel nieuw gebied",
             "het toeval dat een allel uit een kleine populatie laat verdwijnen"
           ],
@@ -3495,7 +3495,7 @@
           "vraag": "Waarom noemt men een stuk brood met veel vezels een trage suiker?",
           "opties": [
             "omdat de glucose er traag uit vrijkomt en de bloedsuiker minder piekt",
-            "omdat het in het geheel geen glucose of andere suiker bevat",
+            "omdat het in het geheel geen glucose, zetmeel of enige andere suiker bevat",
             "omdat het pas enkele dagen na het eten verteerd raakt",
             "omdat het in de maag eerst volledig tot vet omgezet wordt"
           ],
@@ -3531,7 +3531,7 @@
           "vraag": "Wat kenmerkt een onverzadigd vetzuur?",
           "opties": [
             "het bevat een of meer dubbele bindingen in zijn koolstofketen",
-            "het bevat uitsluitend enkelvoudige bindingen in zijn keten",
+            "het bevat uitsluitend enkelvoudige bindingen in zijn lange koolstofketen",
             "het bevat helemaal geen koolstofatomen in zijn keten",
             "het bevat altijd precies drie glycerolmoleculen"
           ],
@@ -3551,7 +3551,7 @@
             "omdat het een waterminnende kop en waterafstotende staarten heeft",
             "omdat het helemaal uit waterminnende delen bestaat",
             "omdat het helemaal uit waterafstotende delen bestaat",
-            "omdat het zich in water volledig oplost tot losse atomen"
+            "omdat het zich in water volledig oplost tot losse atomen en ionen"
           ],
           "antwoord": 0,
           "uitleg": "In water keren de koppen zich naar buiten en de staarten naar elkaar toe. Zo vormt zich vanzelf een dubbellaag."
@@ -3724,7 +3724,7 @@
           "vraag": "Wat gebeurt er met een eiwit dat te sterk verhit wordt?",
           "opties": [
             "het verliest zijn vorm en daarmee zijn werking",
-            "het wordt tot losse suikers afgebroken",
+            "het wordt tot losse suikers en vetzuren afgebroken",
             "het krijgt er vanzelf een subeenheid bij",
             "het verandert in een onverzadigd vetzuur"
           ],
@@ -3802,7 +3802,7 @@
           "vraag": "Wat gebeurt er bij een hydrolysereactie?",
           "opties": [
             "een binding wordt met behulp van water verbroken",
-            "een binding wordt gelegd waarbij water vrijkomt",
+            "een binding wordt gelegd waarbij er een watermolecule vrijkomt",
             "een molecule wordt tot zijn atomen verhit",
             "een molecule neemt een extra vetzuur op"
           ],
@@ -3838,7 +3838,7 @@
           "vraag": "Waarom werkt een enzym maar op één bepaalde stof?",
           "opties": [
             "omdat de vorm van zijn actieve plaats op die stof past",
-            "omdat het enzym die stof uit zichzelf aanmaakt",
+            "omdat het enzym die stof uit zichzelf aanmaakt en meteen gebruikt",
             "omdat het enzym enkel bij die stof in de cel zit",
             "omdat die stof het enzym van vorm doet veranderen"
           ],
@@ -3857,7 +3857,7 @@
           "vraag": "Hoe druk je de snelheid van een chemische reactie uit?",
           "opties": [
             "als de verandering van een concentratie per tijdseenheid",
-            "als de massa van het product dat ontstaan is",
+            "als de totale massa van het product dat na afloop ontstaan is",
             "als het verschil in temperatuur tussen begin en einde",
             "als het volume van het vat waarin de reactie gebeurt"
           ],
@@ -3966,7 +3966,7 @@
           "opties": [
             "de deeltjes bewegen sneller, dus botsen vaker en harder",
             "er komen door de warmte nieuwe deeltjes bij",
-            "de activeringsenergie van de reactie daalt",
+            "de activeringsenergie van de reactie daalt sterk bij verwarming",
             "de deeltjes worden door de warmte kleiner"
           ],
           "antwoord": 0,
@@ -3983,7 +3983,7 @@
           "vraag": "Je laat eenzelfde hoeveelheid kalk reageren met zuur, één keer als brokjes en één keer als poeder. Wat zie je?",
           "opties": [
             "het poeder reageert sneller, maar geeft evenveel gas",
-            "het poeder reageert sneller en geeft ook meer gas",
+            "het poeder reageert sneller en geeft daardoor ook meer gas",
             "de brokjes reageren sneller omdat ze zwaarder zijn",
             "er is geen verschil, want het is dezelfde stof"
           ],
@@ -4094,7 +4094,7 @@
             "als het verschil tussen de energie van de producten en die van de reagentia",
             "als de hoogte van de top van het diagram boven de reagentia",
             "als de hoogte van de top van het diagram boven de producten",
-            "als de som van de energie van de reagentia en van de producten"
+            "als de som van de energie van de reagentia en van de producten samen genomen"
           ],
           "antwoord": 0,
           "uitleg": "De reactie-energie is het hoogteverschil tussen begin en einde. De hoogte van de top boven de reagentia is de activeringsenergie."
@@ -4189,7 +4189,7 @@
           "opties": [
             "ze laten reacties bij lichaamstemperatuur snel genoeg verlopen",
             "ze verwarmen het lichaam tot boven de veertig graden",
-            "ze zorgen dat een reactie meer product oplevert dan mogelijk",
+            "ze zorgen dat een reactie meer product oplevert dan anders mogelijk zou zijn",
             "ze vervangen de reagentia die het lichaam niet heeft"
           ],
           "antwoord": 0,
@@ -4201,7 +4201,7 @@
           "opties": [
             "de kinetische energie van de deeltjes",
             "de tijd die de reactie al bezig is",
-            "de concentratie van de reagentia",
+            "de concentratie van de reagentia in het mengsel",
             "de massa van de botsende deeltjes"
           ],
           "antwoord": 0,
@@ -4230,7 +4230,7 @@
           "vraag": "Een katalysator zet in de Boltzmannverdeling de streep van de activeringsenergie naar links. Wat volgt daaruit?",
           "opties": [
             "meer deeltjes hebben genoeg energie om te reageren",
-            "de deeltjes bewegen vanaf dan allemaal sneller",
+            "de deeltjes bewegen vanaf dan allemaal sneller door het mengsel",
             "er zijn minder botsingen per seconde nodig",
             "de temperatuur van het mengsel stijgt mee"
           ],
@@ -4273,7 +4273,7 @@
           "vraag": "Een proef verloopt te traag en je mag de stoffen niet opwarmen. Wat probeer je nog?",
           "opties": [
             "een katalysator toevoegen of de stof fijner verdelen",
-            "het reactievat in een groter vat overgieten",
+            "het reactievat in een groter vat overgieten zodat er meer ruimte is",
             "wachten tot de concentratie vanzelf stijgt",
             "de reactie in het donker laten doorgaan"
           ],
@@ -4465,7 +4465,7 @@
             "om zeker te zijn dat het andere reagens volledig reageert",
             "om de reactie-energie van de reactie kleiner te maken",
             "om de activeringsenergie van de reactie te doen zakken",
-            "om van de reactie in het vat een evenwicht te maken"
+            "om van de aflopende reactie in het vat een evenwichtsreactie te maken"
           ],
           "antwoord": 0,
           "uitleg": "Met een overmaat kan het limiterend reagens niets anders dan opgebruikt worden. Zo haal je er zoveel product uit als mogelijk."
@@ -4475,7 +4475,7 @@
           "vraag": "In het evenwicht van ijzerthiocyanaat is de oplossing bloedrood. Wat zegt die kleur?",
           "opties": [
             "dat er een duidelijke hoeveelheid gekleurd product aanwezig is",
-            "dat de reagentia allemaal volledig opgebruikt zijn",
+            "dat de reagentia allemaal volledig opgebruikt zijn en enkel het product overblijft",
             "dat de reactie van het begin af aan niet verlopen is",
             "dat de twee snelheden allebei tot nul gezakt zijn"
           ],
@@ -4493,7 +4493,7 @@
           "vraag": "Welk beeld hoort bij een aflopende reactie op een concentratie-tijdgrafiek?",
           "opties": [
             "de lijn van een reagens zakt tot op de horizontale as",
-            "alle lijnen lopen op het einde vlak maar boven de as",
+            "alle lijnen lopen op het einde vlak, maar telkens wat boven de as",
             "alle lijnen blijven van begin tot einde horizontaal",
             "de lijn van het product zakt naar de horizontale as"
           ],
@@ -4571,7 +4571,7 @@
             "het evenwicht wordt sneller bereikt, maar ligt niet anders",
             "het evenwicht verschuift naar de kant van de producten",
             "het evenwicht verschuift naar de kant van de reagentia",
-            "het evenwicht wordt een aflopende reactie"
+            "het evenwicht verdwijnt en de reactie wordt een aflopende reactie"
           ],
           "antwoord": 0,
           "uitleg": "Hij verlaagt de activeringsenergie van de heen- en de terugreactie even veel. Daarom veranderen de eindconcentraties niet."
@@ -4600,7 +4600,7 @@
           "opties": [
             "het evenwicht schuift naar rechts, naar de kant met minder gasdeeltjes",
             "het evenwicht schuift naar links, naar de kant met meer gasdeeltjes",
-            "het evenwicht blijft onveranderd, want er komt niets bij",
+            "het evenwicht blijft onveranderd, want er komt niets bij en er gaat niets af",
             "het evenwicht wordt een aflopende reactie naar rechts"
           ],
           "antwoord": 0,
@@ -4638,7 +4638,7 @@
           "vraag": "Je voegt reagens toe aan een evenwicht. Wat gebeurt er met de snelheid van de heenreactie meteen na die toevoeging?",
           "opties": [
             "die stijgt eerst en zakt daarna naar de nieuwe evenwichtswaarde",
-            "die zakt eerst en stijgt daarna weer",
+            "die zakt eerst even en stijgt daarna weer tot boven de oude waarde",
             "die blijft de hele tijd precies gelijk",
             "die wordt eerst nul en start daarna opnieuw"
           ],
@@ -4737,7 +4737,7 @@
             "het bevat enkel koolstof en waterstof, met enkelvoudige bindingen",
             "het bevat een dubbele binding tussen twee koolstofatomen",
             "het bevat een OH-groep aan een koolstofatoom",
-            "het bevat een COOH-groep aan het einde van de keten"
+            "het bevat een COOH-groep aan het einde van een lange, rechte koolstofketen"
           ],
           "antwoord": 0,
           "uitleg": "Alkanen zijn verzadigd: alle bindingen tussen de koolstofatomen zijn enkelvoudig. Een dubbele binding maakt er een alkeen van."
@@ -4790,7 +4790,7 @@
           "opties": [
             "bij een aldehyde staat de carbonylgroep aan het uiteinde van de keten",
             "bij een aldehyde zit er geen zuurstof in de molecule",
-            "bij een keton staat de carbonylgroep aan het uiteinde van de keten",
+            "bij een keton staat de carbonylgroep altijd aan het uiteinde van de koolstofketen",
             "bij een keton is er geen koolstofketen aanwezig"
           ],
           "antwoord": 0,
@@ -4842,7 +4842,7 @@
             "een tekening met lijnen, waarbij elke hoek een koolstofatoom is",
             "een tekening waarin elk atoom met zijn symbool staat",
             "een formule waarin alleen het aantal atomen staat",
-            "een tekening van de molecule in drie dimensies"
+            "een tekening van de molecule in drie dimensies, met bolletjes en staafjes"
           ],
           "antwoord": 0,
           "uitleg": "De koolstof- en waterstofatomen worden niet geschreven, enkel de lijnen tussen de atomen. Daardoor zie je de vorm van de keten meteen."
@@ -4852,7 +4852,7 @@
           "vraag": "Wat is het verschil tussen een uitgebreide en een beknopte structuurformule?",
           "opties": [
             "in de uitgebreide staat elke binding getekend, in de beknopte niet",
-            "in de uitgebreide staan alleen de koolstofatomen",
+            "in de uitgebreide staan alleen de koolstofatomen, zonder de waterstofatomen",
             "in de beknopte staat de molecule in drie dimensies",
             "in de beknopte staan er meer atomen dan in de uitgebreide"
           ],
@@ -5212,7 +5212,7 @@
           "opties": [
             "een kleine molecule, meestal water",
             "een vrij elektron",
-            "een stukje van de koolstofketen",
+            "een stukje van de koolstofketen van het monomeer",
             "een halogeenatoom"
           ],
           "antwoord": 0,
@@ -5289,7 +5289,7 @@
           "vraag": "Waarom kan je een thermoharder niet opnieuw smelten?",
           "opties": [
             "de ketens zitten met veel crosslinks aan elkaar vast",
-            "de ketens zijn veel te kort om te bewegen",
+            "de ketens zijn veel te kort om ten opzichte van elkaar te bewegen",
             "de ketens bevatten te veel dubbele bindingen",
             "de ketens zijn met water aan elkaar gebonden"
           ],
@@ -5410,7 +5410,7 @@
           "vraag": "Waarom zit er nanotitaandioxide of nanozinkoxide in zonnecrème?",
           "opties": [
             "het houdt UV-licht tegen en blijft toch doorzichtig",
-            "het maakt de crème geurig en aangenaam zacht",
+            "het maakt de crème geurig en aangenaam zacht op de huid",
             "het laat de huid veel sneller bruin worden",
             "het doodt alle bacteriën op de huid af"
           ],
@@ -5468,7 +5468,7 @@
           "opties": [
             "afval verwerken tot iets van lagere kwaliteit",
             "afval verwerken tot iets van hogere waarde",
-            "afval verbranden om energie te winnen",
+            "afval verbranden in een oven om er energie uit te winnen",
             "afval ongewijzigd opnieuw gebruiken"
           ],
           "antwoord": 0,
@@ -5534,7 +5534,7 @@
           "opties": [
             "gemaakt uit plantaardige of dierlijke grondstoffen",
             "door bacteriën en schimmels volledig af te breken",
-            "geschikt om in een composthoop te verdwijnen",
+            "geschikt om in een composthoop of in de natuur te verdwijnen",
             "gemaakt zonder ook maar enige uitstoot van CO₂"
           ],
           "antwoord": 0,
@@ -5574,7 +5574,7 @@
             "licht vervuild water van bad, lavabo of wasmachine",
             "zuiver water dat je zonder risico kan drinken",
             "water dat rechtstreeks uit het toilet komt",
-            "water met nanodeeltjes in opgelost"
+            "water met heel veel nanodeeltjes en zware metalen in opgelost"
           ],
           "antwoord": 0,
           "uitleg": "Wit water is drinkbaar water en zwart water komt uit het toilet. Grijs water kan je vaak nog gebruiken om door te spoelen of te kuisen."
@@ -5820,7 +5820,7 @@
             "het doekje is geladen en trekt het stof door influentie aan",
             "het doekje is vochtig en kleeft daardoor aan het stof vast",
             "het doekje is magnetisch en het stof bevat genoeg ijzer",
-            "het doekje duwt de lucht weg en zuigt het stof zo mee"
+            "het doekje duwt de lucht weg en zuigt het stof zo met de luchtstroom mee"
           ],
           "antwoord": 0,
           "uitleg": "Door de wrijving bij het poetsen raakt het doekje geladen. Dat is een van de toepassingen van elektrostatica in technische systemen."
@@ -6062,7 +6062,7 @@
           "vraag": "Waarom werkt poedercoating met geladen poeder?",
           "opties": [
             "het poeder wordt naar het tegengesteld geladen metaal getrokken",
-            "het geladen poeder wordt door de warmte vastgehouden",
+            "het geladen poeder wordt door de warmte van de oven op het metaal vastgehouden",
             "het geladen poeder is veel zwaarder dan gewoon poeder",
             "het geladen poeder lost in het metaal van het werkstuk op"
           ],
@@ -6075,7 +6075,7 @@
           "opties": [
             "zo haalt een tegengesteld geladen plaat ze uit de lucht",
             "zo worden ze lichter en blijven ze beter zweven",
-            "zo worden ze door de ventilator veel beter gemengd",
+            "zo worden ze door de ventilator veel beter gemengd met de schone lucht",
             "zo vallen ze vanzelf naar de bodem van het toestel"
           ],
           "antwoord": 0,
@@ -6121,7 +6121,7 @@
             "uit de kringstroom en de spin van de elektronen",
             "uit de beweging van de protonen in de kern",
             "uit de lading van de neutronen in de kern",
-            "uit de trillingen van het hele kristalrooster"
+            "uit de trillingen van het hele kristalrooster bij kamertemperatuur"
           ],
           "antwoord": 0,
           "uitleg": "Een draaiend en om de kern lopend elektron werkt als een kleine stroomkring. Veel van die stroompjes samen in dezelfde zin geven een weissgebied."
@@ -6158,7 +6158,7 @@
           "vraag": "Wat is het verschil tussen een permanente magneet en een elektromagneet?",
           "opties": [
             "een elektromagneet werkt enkel zolang er stroom door loopt",
-            "een elektromagneet heeft geen noord- en zuidpool",
+            "een elektromagneet heeft geen noord- en zuidpool, enkel een middenpunt",
             "een permanente magneet trekt enkel koper aan",
             "een permanente magneet werkt enkel bij hoge temperatuur"
           ],
@@ -6172,7 +6172,7 @@
             "om het magnetisch veld van de spoel veel sterker te maken",
             "om de stroom door de spoel te doen stijgen",
             "om de spoel tegen opwarming te beschermen",
-            "om het veld van richting te laten veranderen"
+            "om het veld bij elke wisseling van de stroom van richting te laten veranderen"
           ],
           "antwoord": 0,
           "uitleg": "De weissgebieden in de kern richten zich naar het veld van de spoel en versterken het. Met dezelfde stroom krijg je dus een veel sterkere magneet."
@@ -6263,7 +6263,7 @@
           "vraag": "Waarvoor gebruik je de rechterhandregel bij een spoel?",
           "opties": [
             "om uit de stroomzin te bepalen waar de noordpool ligt",
-            "om de grootte van de stroom te berekenen",
+            "om de grootte van de stroom door de windingen van de spoel te berekenen",
             "om de weerstand van de spoel te meten",
             "om het aantal windingen te tellen"
           ],
@@ -6502,7 +6502,7 @@
           "opties": [
             "een winding draait in een magnetisch veld, dus verandert de flux voortdurend",
             "een magneet wordt steeds sterker gemaakt en weer zwakker",
-            "een weerstand wordt voortdurend warmer en kouder",
+            "een weerstand wordt voortdurend warmer en kouder, en zet zo warmte om in spanning",
             "een batterij wordt heel snel aan- en uitgeschakeld"
           ],
           "antwoord": 0,
@@ -6519,7 +6519,7 @@
           "vraag": "Je laat een magneet door een koperen buis vallen en hij valt veel trager dan verwacht. Waarom?",
           "opties": [
             "de wervelstromen in het koper maken een veld dat de val tegenwerkt",
-            "koper is ferromagnetisch en trekt de magneet omhoog",
+            "koper is ferromagnetisch en trekt de magneet daardoor naar de wand van de buis",
             "de magneet wordt door de wrijving met het koper afgeremd",
             "de lucht in de buis kan niet snel genoeg weg"
           ],
@@ -6573,7 +6573,7 @@
             "de richting van de snelheid",
             "de grootte van de snelheid",
             "de massa van het voorwerp",
-            "de omtrek van de cirkel"
+            "de straal en de omtrek van de cirkel"
           ],
           "antwoord": 0,
           "uitleg": "De grootte van de snelheid blijft gelijk, maar de richting draait mee met de baan. Omdat snelheid een vector is, is er dus wel een versnelling."
@@ -6758,7 +6758,7 @@
           "opties": [
             "een eenparig vertraagde rechtlijnige beweging",
             "een eenparig rechtlijnige beweging",
-            "een eenparig cirkelvormige beweging",
+            "een eenparig cirkelvormige beweging rond een vast punt",
             "een beweging zonder enige versnelling"
           ],
           "antwoord": 0,
@@ -6776,7 +6776,7 @@
           "vraag": "Wat zegt de eerste wet van Newton?",
           "opties": [
             "zonder resulterende kracht blijft de snelheid van een lichaam gelijk",
-            "de kracht is het product van massa en versnelling",
+            "de kracht is het product van de massa en de versnelling van een lichaam",
             "elke kracht heeft een even grote tegengestelde kracht",
             "een lichaam valt altijd met dezelfde versnelling"
           ],
@@ -6853,7 +6853,7 @@
           "opties": [
             "de kracht waarmee de muur even hard tegen jou duwt",
             "de zwaartekracht die op jou werkt",
-            "de wrijvingskracht van je schoenen op de vloer",
+            "de wrijvingskracht van je schoenen op de vloer onder je",
             "de normaalkracht van de vloer op jou"
           ],
           "antwoord": 0,
@@ -6924,7 +6924,7 @@
           "opties": [
             "je ontbindt ze in een x-component en een y-component",
             "je laat ze gewoon weg uit de berekening",
-            "je verandert ze in een even grote verticale kracht",
+            "je verandert ze in een even grote verticale kracht die naar beneden wijst",
             "je telt ze twee keer, een keer per richting"
           ],
           "antwoord": 0,
@@ -6942,7 +6942,7 @@
           "opties": [
             "ze wijst in dezelfde zin als de versnelling",
             "ze wijst tegen de versnelling in",
-            "ze staat loodrecht op de versnelling",
+            "ze staat altijd loodrecht op de richting van de versnelling",
             "ze is altijd gelijk aan nul"
           ],
           "antwoord": 0,
@@ -7002,7 +7002,7 @@
             "de grootste uitwijking vanuit de evenwichtsstand",
             "het aantal volledige trillingen per seconde",
             "de tijd die één volledige trilling duurt",
-            "de afstand tussen twee toppen van de golf"
+            "de afstand tussen twee opeenvolgende toppen van de golf"
           ],
           "antwoord": 0,
           "uitleg": "Op een y(t)-grafiek lees je ze af als de hoogte van een top boven de evenwichtslijn. Ze zegt niets over hoe snel de trilling gaat."
@@ -7191,7 +7191,7 @@
             "de deeltjes bewegen in de trilrichting, de golf reist in de andere",
             "de golf reist in de trilrichting, de deeltjes in de andere",
             "de twee richtingen zijn altijd precies dezelfde",
-            "de twee richtingen staan altijd loodrecht op elkaar"
+            "de twee richtingen staan altijd loodrecht op elkaar, bij elke soort golf"
           ],
           "antwoord": 0,
           "uitleg": "Bij een transversale golf staan ze loodrecht op elkaar, bij een longitudinale golf liggen ze in dezelfde richting. Daarom is dat verschil belangrijk."
@@ -7263,7 +7263,7 @@
           "vraag": "Waaraan zie je op een y(t)-grafiek het verschil tussen een viool en een fluit die dezelfde toon spelen?",
           "opties": [
             "aan de vorm van het patroon, dus aan de klankkleur",
-            "aan de hoogte van de toppen",
+            "aan de hoogte van de toppen, dus aan de luidheid van de toon",
             "aan de afstand tussen de toppen",
             "aan de hoogte van de evenwichtslijn"
           ],
@@ -7451,7 +7451,7 @@
           "vraag": "Wat voor soort golf is een elektromagnetische golf?",
           "opties": [
             "een transversale golf die geen middenstof nodig heeft",
-            "een longitudinale golf die lucht nodig heeft",
+            "een longitudinale golf die lucht of een andere middenstof nodig heeft",
             "een transversale golf die enkel in water reist",
             "een longitudinale golf die enkel in metaal reist"
           ],
@@ -7581,7 +7581,7 @@
           "opties": [
             "hoe diep ze in materie kan binnendringen",
             "hoe sterk ze een kleur kan geven",
-            "hoe snel ze in vacuüm beweegt",
+            "hoe snel ze in vacuüm of in lucht vooruit beweegt",
             "hoeveel golven er per seconde passeren"
           ],
           "antwoord": 0,
@@ -7592,7 +7592,7 @@
           "vraag": "Waarom gebruikt men radiogolven voor communicatie over grote afstand?",
           "opties": [
             "ze dragen ver en worden niet snel geabsorbeerd",
-            "ze hebben de hoogste energie van het spectrum",
+            "ze hebben de hoogste energie en frequentie van het hele spectrum",
             "ze kunnen door lood en beton heen",
             "ze zijn met het oog goed te zien"
           ],
@@ -7604,7 +7604,7 @@
           "vraag": "Waarom gebruikt een magnetron microgolven?",
           "opties": [
             "de watermoleculen in het eten nemen die energie goed op",
-            "microgolven hebben de hoogste energie van het spectrum",
+            "microgolven hebben de hoogste energie van het hele elektromagnetische spectrum",
             "microgolven maken het eten zichtbaar warm van kleur",
             "microgolven dringen door lood en beton heen"
           ],
@@ -7659,7 +7659,7 @@
           "vraag": "Waarom is uv-straling gevaarlijker voor je huid dan zichtbaar licht?",
           "opties": [
             "uv heeft meer energie per golf en kan in cellen schade aanrichten",
-            "uv heeft een veel grotere golflengte dan licht",
+            "uv heeft een veel grotere golflengte dan licht en dringt daardoor dieper in",
             "uv beweegt veel sneller dan zichtbaar licht",
             "uv wordt door de huid helemaal weerkaatst"
           ],
@@ -7886,7 +7886,7 @@
           "vraag": "Je vindt een toestel dat met onzichtbare straling bacteriën doodt in een waterleiding. Welke straling is dat?",
           "opties": [
             "ultraviolette straling",
-            "infraroodstraling",
+            "infrarode warmtestraling",
             "microgolven",
             "radiogolven"
           ],
@@ -7906,7 +7906,7 @@
           "opties": [
             "het aantal protonen plus het aantal neutronen",
             "het aantal protonen van de kern alleen",
-            "het aantal neutronen van de kern alleen",
+            "het aantal neutronen van de kern alleen, zonder de protonen",
             "het aantal elektronen rond de kern"
           ],
           "antwoord": 0,
@@ -7973,7 +7973,7 @@
           "vraag": "Welke twee krachten strijden met elkaar in een atoomkern?",
           "opties": [
             "de sterke kernkracht en de afstoting van de protonen",
-            "de zwaartekracht en de magnetische veldkracht",
+            "de zwaartekracht tussen de kerndeeltjes en de magnetische veldkracht",
             "de wrijvingskracht en de normaalkracht",
             "de veerkracht en de spankracht van een koord"
           ],
@@ -7985,7 +7985,7 @@
           "vraag": "Wanneer is een lichte kern met Z kleiner dan \\(20\\) doorgaans stabiel?",
           "opties": [
             "als er ongeveer evenveel neutronen als protonen zijn",
-            "als er veel meer neutronen dan protonen in zitten",
+            "als er veel meer neutronen dan protonen in de kern zitten",
             "als er veel meer protonen dan neutronen in zitten",
             "als er in de kern helemaal geen neutronen zitten"
           ],
@@ -8132,7 +8132,7 @@
           "vraag": "Wat is kernfusie?",
           "opties": [
             "twee lichte kernen die tot één zwaardere kern samensmelten",
-            "een zware kern die in twee lichtere kernen uiteenvalt",
+            "een zware kern die in twee lichtere kernen uiteenvalt en neutronen uitstoot",
             "een kern die een elektron uitstoot",
             "een kern die een foton uitzendt"
           ],
@@ -8173,7 +8173,7 @@
           "opties": [
             "ze vangen neutronen weg en regelen zo de kettingreactie",
             "ze voeren voortdurend nieuwe splijtstof aan",
-            "ze koelen het water in het reactorvat af",
+            "ze koelen het water in het reactorvat af zodat het niet gaat koken",
             "ze wekken rechtstreeks de elektrische stroom op"
           ],
           "antwoord": 0,
@@ -8202,7 +8202,7 @@
             "volgens de intensiteit en de duur van de straling",
             "volgens het gewicht en de kleur van het afval",
             "volgens de prijs en het volume van het afval",
-            "volgens de temperatuur en de druk bij de berging"
+            "volgens de temperatuur en de druk bij de berging onder de grond"
           ],
           "antwoord": 0,
           "uitleg": "Zo krijg je laagactief, middelactief en hoogactief afval, elk kortlevend of langlevend. Daaruit volgen de drie bergingscategorieën A, B en C."
@@ -8326,7 +8326,7 @@
             "ze geeft al haar energie in een heel klein stukje weefsel af",
             "ze dringt veel dieper in het lichaam door dan de andere",
             "ze heeft geen lading en wordt daardoor niet tegengehouden",
-            "ze heeft een veel langere halveringstijd dan de andere"
+            "ze heeft een veel langere halveringstijd dan de andere soorten straling"
           ],
           "antwoord": 0,
           "uitleg": "Alle energie komt in een heel klein stukje weefsel terecht. Daardoor is de schade bij dezelfde geabsorbeerde dosis veel groter."
@@ -8433,7 +8433,7 @@
           "vraag": "Wat is het meetbereik van een meetinstrument?",
           "opties": [
             "de kleinste en de grootste waarde die het kan meten",
-            "de kleinste verandering die het nog kan tonen",
+            "de kleinste verandering die het op het scherm nog kan tonen",
             "de tijd die het instrument nodig heeft om te meten",
             "de hoeveelheid stroom die het instrument gebruikt"
           ],
@@ -8530,7 +8530,7 @@
           "vraag": "Waarom zet je een meetinstrument uit als je niet meet?",
           "opties": [
             "om energie te sparen en de batterij te ontzien",
-            "om het instrument nauwkeuriger te maken",
+            "om het instrument bij de volgende meting nauwkeuriger te maken",
             "om het bereik van het instrument te vergroten",
             "om de gemeten waarde vast te zetten"
           ],
@@ -8869,7 +8869,7 @@
           "opties": [
             "de onafhankelijke variabele",
             "de afhankelijke variabele",
-            "de constante variabele",
+            "de constante of gecontroleerde variabele",
             "de conclusie"
           ],
           "antwoord": 0,
@@ -8886,7 +8886,7 @@
           "vraag": "Waarom herhaal je een meting meerdere keren?",
           "opties": [
             "om toevallige meetfouten te zien en uit te vlakken",
-            "om de hypothese zeker juist te laten uitkomen",
+            "om de hypothese die je vooraf opstelde zeker juist te laten uitkomen",
             "om het onderzoek langer te doen duren",
             "om minder materiaal te hoeven gebruiken"
           ],
@@ -9208,7 +9208,7 @@
           "vraag": "Je hebt twee ontwerpen die allebei werken. Hoe kies je?",
           "opties": [
             "door ze naast je criteria te leggen en te vergelijken",
-            "door het ontwerp te kiezen dat er het mooist uitziet",
+            "door het ontwerp te kiezen dat er het mooist en het netst uitziet",
             "door het ontwerp te kiezen dat je als eerste bedacht",
             "door het ontwerp te kiezen met de langste uitleg"
           ],

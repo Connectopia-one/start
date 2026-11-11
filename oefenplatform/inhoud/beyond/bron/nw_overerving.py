@@ -13,7 +13,7 @@ DEEL1 = [
         vraag="Waarom koos Mendel de erwtenplant voor zijn kruisingsproeven?",
         opties=[
             "omdat die zich makkelijk zelf bestuift en duidelijke kenmerken heeft",
-            "omdat die het grootste aantal chromosomen van alle planten heeft",
+            "omdat die het grootste aantal chromosomen van alle planten in de tuin heeft",
             "omdat die het hele jaar door bloemen van dezelfde kleur geeft",
             "omdat die zich uitsluitend door stekken laat vermeerderen",
         ],
@@ -314,7 +314,7 @@ DEEL2 = [
         vraag="In een stamboom hebben twee ouders zonder het kenmerk een dochter met dat kenmerk. Wat besluit je?",
         opties=[
             "het kenmerk is recessief en niet geslachtsgebonden",
-            "het kenmerk is dominant en niet geslachtsgebonden",
+            "het kenmerk is dominant en ligt niet op een geslachtschromosoom",
             "het kenmerk ligt zeker op het Y-chromosoom",
             "het kenmerk kan alleen bij jongens voorkomen",
         ],

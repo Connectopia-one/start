@@ -62,7 +62,7 @@ DEEL1 = [
         "Waaruit bestaat het nierlichaampje of lichaampje van Malpighi?",
         [
             "de glomerulus met daarrond het kapsel van Bowman",
-            "de lus van Henle met de verzamelbuis eromheen",
+            "de lus van Henle met de verzamelbuis eromheen en de haarvaten",
             "de nierpiramide met daarin het nierbekken",
             "de bijnier met daaronder het nierkapsel",
         ],
@@ -172,7 +172,7 @@ DEEL2 = [
             "nuttige stoffen gaan uit het nierbuisje terug naar het bloed",
             "het bloed wordt in de glomerulus door de filter geperst",
             "afvalstoffen worden vanuit het bloed in het buisje gepompt",
-            "de urine wordt in de urineblaas verzameld en bewaard",
+            "de urine wordt in de urineblaas verzameld en daar een tijd bewaard tot je plast",
         ],
         0,
         "Bij resorptie haalt het lichaam water, glucose, aminozuren en zouten terug uit de voorurine, via diffusie, osmose en actief transport.",

@@ -72,7 +72,7 @@ DEEL1 = [
             "het percentage van het bloedvolume dat uit rode bloedcellen bestaat",
             "het aantal witte bloedcellen per liter bloed",
             "de hoeveelheid suiker die in het bloedplasma opgelost is",
-            "de druk waarmee het bloed tegen de wand van de slagaders duwt",
+            "de druk waarmee het bloed bij elke hartslag tegen de wand van de slagaders duwt",
         ],
         0,
         "Bij een gezonde volwassene is de hematocriet ongeveer 40 à 45 %. Dat is het deel van het bloed dat uit rode bloedcellen bestaat.",
@@ -83,7 +83,7 @@ DEEL1 = [
             "in de ijle lucht maken hun nieren meer EPO, zodat ze meer rode bloedcellen krijgen",
             "in de koude lucht verbranden ze meer vet en worden ze lichter",
             "op grote hoogte wordt hun bloed dunner, zodat het hart minder hard moet werken",
-            "op grote hoogte neemt het aantal witte bloedcellen toe en worden ze minder ziek",
+            "op grote hoogte neemt het aantal witte bloedcellen toe en worden ze minder snel ziek",
         ],
         0,
         "Op hoogte is er minder zuurstof, wat hypoxie veroorzaakt. De nieren maken dan meer EPO, de hematocriet stijgt en het bloed kan meer zuurstof vervoeren.",
@@ -136,7 +136,7 @@ DEEL1 = [
         "Welke uitspraak over EPO is juist?",
         [
             "het is een hormoon uit de nieren dat de aanmaak van rode bloedcellen stimuleert",
-            "het is een enzym uit de maag dat eiwitten afbreekt",
+            "het is een enzym uit de maag dat in een zuur midden de lange eiwitten in het voedsel afbreekt",
             "het is een witte bloedcel die bacteriën opeet",
             "het is een stollingsfactor die het stolsel stevig maakt",
         ],
@@ -159,7 +159,7 @@ DEEL1 = [
 DEEL2 = [
     M(
         "Wat is de hoofdtaak van de witte bloedcellen?",
-        ["de afweer tegen ziekteverwekkers", "het vervoer van zuurstof", "het dichten van wondjes", "het vervoer van voedingsstoffen"],
+        ["de afweer tegen ziekteverwekkers", "het vervoer van zuurstof", "het dichten van wondjes en het stelpen van bloed", "het vervoer van voedingsstoffen"],
         0,
         "Witte bloedcellen verdedigen het lichaam, onder meer door ziekteverwekkers op te eten of antilichamen te maken.",
     ),
@@ -218,7 +218,7 @@ DEEL2 = [
         [
             "trombine zet fibrinogeen om in fibrinedraden die het stolsel vormen",
             "fibrine zet trombine om in protrombine, dat het wondje dan sluit",
-            "bloedplaatjes zetten het albumine in het plasma om in hemoglobine",
+            "bloedplaatjes zetten het albumine in het plasma om in hemoglobine voor het stolsel",
             "antilichamen kleven de rode bloedcellen in de wonde aan elkaar",
         ],
         0,

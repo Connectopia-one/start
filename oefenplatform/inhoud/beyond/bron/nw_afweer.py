@@ -118,7 +118,7 @@ DEEL1 = [
         vraag="Wat doen natural killer cellen?",
         opties=[
             "ze doorboren geïnfecteerde en kwaadaardige lichaamscellen",
-            "ze maken grote hoeveelheden antistoffen aan",
+            "ze maken grote hoeveelheden antistoffen aan tegen elk nieuw antigeen",
             "ze slaan het antigeen van elke infectie voorgoed op",
             "ze vervoeren koolstofdioxide naar de longen toe",
         ],
@@ -130,7 +130,7 @@ DEEL1 = [
         vraag="Wat is een antigeen?",
         opties=[
             "een lichaamsvreemde stof die een afweerreactie uitlokt",
-            "een eiwit dat door een B-lymfocyt gemaakt wordt",
+            "een eiwit dat door een B-lymfocyt gemaakt en in het bloed afgegeven wordt",
             "een orgaan waarin de lymfocyten rijpen",
             "een signaalstof die de bloedvaten verwijdt",
         ],
@@ -161,7 +161,7 @@ DEEL1 = [
         vraag="Wat is de taak van een dendritische cel?",
         opties=[
             "een stuk van de indringer aan de lymfocyten tonen",
-            "de bloedvaten rond de wonde laten verwijden",
+            "de bloedvaten rond de wonde laten verwijden en rood kleuren",
             "de rode bloedcellen van zuurstof voorzien",
             "de huid na een wonde volledig herstellen",
         ],
@@ -242,7 +242,7 @@ DEEL2 = [
         vraag="Wat doet een cytotoxische T-lymfocyt?",
         opties=[
             "hij brengt een besmette lichaamscel tot afsterven",
-            "hij maakt antistoffen tegen het antigeen aan",
+            "hij maakt zelf antistoffen tegen het antigeen aan en scheidt ze af",
             "hij vormt het slijmvlies in de luchtwegen",
             "hij slaat elk antigeen in het beenmerg op",
         ],
@@ -291,7 +291,7 @@ DEEL2 = [
         vraag="Wat is immunisatie?",
         opties=[
             "het verwerven van bescherming tegen een bepaalde ziekteverwekker",
-            "het volledig uitschakelen van de eigen afweer van het lichaam",
+            "het volledig en blijvend uitschakelen van de eigen afweer van het lichaam",
             "het verwijderen van alle lymfeknopen uit het lichaam",
             "het meten van de temperatuur tijdens een infectie",
         ],
@@ -327,7 +327,7 @@ DEEL2 = [
         vraag="Welk voorbeeld is kunstmatige passieve immunisatie?",
         opties=[
             "serumtherapie met kant-en-klare antistoffen",
-            "een vaccin met verzwakte ziekteverwekkers",
+            "een vaccin met verzwakte ziekteverwekkers via een prik",
             "het doormaken van een waterpokkeninfectie",
             "antistoffen die door de placenta gaan",
         ],
@@ -357,7 +357,7 @@ DEEL2 = [
         vraag="Waarom beschermt een vaccinatiecampagne ook mensen die zelf niet gevaccineerd zijn?",
         opties=[
             "omdat de ziekteverwekker veel minder kans krijgt om zich te verspreiden",
-            "omdat het vaccin via de lucht ook op anderen overgaat",
+            "omdat het vaccin via de adem en de lucht ook op anderen in de buurt overgaat",
             "omdat niet-gevaccineerden vanzelf antistoffen aanmaken",
             "omdat de ziekteverwekker na een vaccin ongevaarlijk wordt",
         ],
@@ -370,7 +370,7 @@ DEEL2 = [
         opties=[
             "hij toont een stukje van de bacterie op zijn membraan",
             "hij verlaat het lichaam meteen via de huid",
-            "hij wordt daarna zelf tot een B-lymfocyt omgevormd",
+            "hij wordt daarna zelf tot een B-lymfocyt omgevormd in het beenmerg",
             "hij slaat de bacterie levenslang ongeschonden op",
         ],
         antwoord=0,

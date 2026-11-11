@@ -13,7 +13,7 @@ DEEL1 = [
         vraag="Wat is een gen?",
         opties=[
             "een stuk DNA met de code voor één product, meestal een eiwit",
-            "een volledig chromosoom met al zijn eiwitten erbij",
+            "een volledig chromosoom met al zijn eiwitten en histonen erbij",
             "een enkele stikstofbase in een streng van het DNA",
             "een ribosoom waarop de eiwitten gemaakt worden",
         ],
@@ -88,7 +88,7 @@ DEEL1 = [
         vraag="Wat doet een tRNA-molecule?",
         opties=[
             "het brengt met zijn anticodon het juiste aminozuur aan",
-            "het schrijft het gen van het DNA over naar RNA",
+            "het schrijft de code van het gen in de kern van het DNA over naar RNA",
             "het knipt de introns uit het pre-mRNA weg",
             "het verpakt het eiwit in een transportblaasje",
         ],
@@ -129,7 +129,7 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Wat is een puntmutatie waarbij één base vervangen wordt door een andere?",
-        opties=["een substitutie", "een deletie", "een insertie", "een inversie"],
+        opties=["een substitutie", "een deletie", "een insertie", "een frameshiftmutatie"],
         antwoord=0,
         uitleg="Bij een substitutie verandert er één letter. Soms verandert het aminozuur daardoor, soms niet, want de code is gedegenereerd.",
     ),
@@ -196,7 +196,7 @@ DEEL2 = [
         vraag="Hoe is het genetisch materiaal van een bacterie opgebouwd?",
         opties=[
             "één ringvormig chromosoom, vaak met plasmiden ernaast",
-            "drieëntwintig paar chromosomen in een echte kern",
+            "drieëntwintig paar chromosomen in een echte kern met een kernmembraan",
             "uitsluitend losse plasmiden zonder enig chromosoom",
             "een dubbele helix die uit RNA is opgebouwd",
         ],
@@ -226,7 +226,7 @@ DEEL2 = [
         vraag="Wat is transductie?",
         opties=[
             "genoverdracht tussen bacteriën door een bacteriofaag",
-            "genoverdracht van een plant naar een bodembacterie",
+            "genoverdracht van een plant naar een bodembacterie via de wortels",
             "het aflezen van een gen tot een bruikbaar eiwit",
             "het doorknippen van DNA met een restrictie-enzym",
         ],
@@ -258,7 +258,7 @@ DEEL2 = [
             "omdat twee stukken met dezelfde overhang op elkaar passen",
             "omdat ze het DNA tegen elk ander enzym beschermen",
             "omdat ze het gen meteen tot een bruikbaar eiwit aflezen",
-            "omdat ze de bacterie veel sneller laten delen dan anders",
+            "omdat ze de bacterie veel sneller laten delen dan anders het geval zou zijn",
         ],
         antwoord=0,
         uitleg="Knip je het plasmide en het donor-DNA met hetzelfde enzym, dan hebben ze dezelfde overhang. Ligase plakt ze daarna definitief vast.",
@@ -288,7 +288,7 @@ DEEL2 = [
         opties=[
             "bij cisgeen komt het gen uit dezelfde of een kruisbare soort",
             "bij cisgeen komt het gen altijd uit een heel andere soort",
-            "bij transgeen wordt er juist een gen weggehaald",
+            "bij transgeen wordt er juist een gen weggehaald uit het DNA van de soort",
             "bij transgeen verandert er niets aan het erfelijk materiaal",
         ],
         antwoord=0,
@@ -305,7 +305,7 @@ DEEL2 = [
         vraag="Waarvoor dient een PCR?",
         opties=[
             "een klein stukje DNA miljoenen keren kopiëren",
-            "DNA-fragmenten op lengte uit elkaar halen",
+            "DNA-fragmenten in een gel volgens hun lengte uit elkaar halen",
             "een gen blijvend in het genoom veranderen",
             "een eiwit uit een cel zuiver afscheiden",
         ],
@@ -317,7 +317,7 @@ DEEL2 = [
         vraag="Wat gebeurt er bij gelelektroforese?",
         opties=[
             "DNA-fragmenten worden door een elektrisch veld op lengte gescheiden",
-            "DNA-fragmenten worden in een buisje miljoenen keren gekopieerd",
+            "DNA-fragmenten worden in een buisje met een enzym miljoenen keren gekopieerd",
             "DNA-fragmenten worden met ligase aan elkaar geplakt",
             "DNA-fragmenten worden tot losse basen afgebroken",
         ],
@@ -372,7 +372,7 @@ DEEL2 = [
         opties=[
             "omdat die bacterie van nature DNA in plantencellen inbouwt",
             "omdat dat plasmide uit een plant zelf gehaald wordt",
-            "omdat dat plasmide op zijn eentje tot een plant uitgroeit",
+            "omdat dat plasmide op zijn eentje tot een volledige nieuwe plant uitgroeit",
             "omdat die bacterie enkel in een laboratorium kan leven",
         ],
         antwoord=0,

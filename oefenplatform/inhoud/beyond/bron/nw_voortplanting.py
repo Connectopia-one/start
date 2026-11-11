@@ -22,7 +22,7 @@ DEEL1 = [
             "rond de eisprong, ongeveer in het midden van de cyclus",
             "enkel tijdens de eerste dag van de menstruatie",
             "enkel in de laatste dagen voor de menstruatie",
-            "op elk willekeurig moment van de hele cyclus",
+            "op elk willekeurig moment van de hele cyclus, ook tijdens de menstruatie",
         ],
         antwoord=0,
         uitleg="De eicel leeft na de eisprong maar ongeveer een dag. Zaadcellen overleven enkele dagen, dus het vruchtbare venster ligt rond die eisprong.",
@@ -52,7 +52,7 @@ DEEL1 = [
         opties=[
             "beletten dat er nog een tweede zaadcel binnendringt",
             "de eicel meteen naar de eierstok terugbrengen",
-            "de zaadcel van zijn staart en kop ontdoen",
+            "de binnengedrongen zaadcel van zijn staart en zijn middenstuk ontdoen",
             "de baarmoederwand volledig laten afbreken",
         ],
         antwoord=0,
@@ -269,7 +269,7 @@ DEEL2 = [
         opties=[
             "wegens het risico op besmetting met de toxoplasmoseparasiet",
             "wegens het risico op een tekort aan ijzer in het bloed",
-            "wegens het risico op een te snelle groei van de vrucht",
+            "wegens het risico op een te snelle groei van de vrucht in de eerste maanden",
             "wegens het risico op een te hoge inname van foliumzuur",
         ],
         antwoord=0,
@@ -287,7 +287,7 @@ DEEL2 = [
         opties=[
             "blijvende schade bij een kind door alcoholgebruik tijdens de zwangerschap",
             "een tijdelijke reactie van de moeder op alcohol na de bevalling",
-            "een allergie van de vrucht voor de suikers in alcoholische dranken",
+            "een allergie van de ongeboren vrucht voor de suikers in alcoholische dranken",
             "een tekort aan foliumzuur bij een moeder die veel sport",
         ],
         antwoord=0,
@@ -325,7 +325,7 @@ DEEL2 = [
             "de bevruchting gebeurt buiten het lichaam in het laboratorium",
             "er wordt zaad in de baarmoeder van de vrouw ingebracht",
             "er wordt één zaadcel rechtstreeks in de eicel gespoten",
-            "er wordt een eicel van een donor ingevroren bewaard",
+            "er wordt een eicel van een donor ingevroren en jarenlang in een labo bewaard",
         ],
         antwoord=0,
         uitleg="Bij IVF worden eicellen en zaadcellen in een schaaltje samengebracht. Een embryo dat zich ontwikkelt, wordt daarna in de baarmoeder geplaatst.",
@@ -335,7 +335,7 @@ DEEL2 = [
         vraag="Waarin verschilt ICSI van gewone in-vitrofertilisatie?",
         opties=[
             "er wordt één zaadcel rechtstreeks in de eicel ingebracht",
-            "er wordt geen enkele eicel uit de eierstok gehaald",
+            "er wordt geen enkele eicel uit de eierstok van de vrouw gehaald",
             "de bevruchting gebeurt volledig in de eileider zelf",
             "er wordt uitsluitend met een donoreicel gewerkt",
         ],

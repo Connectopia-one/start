@@ -64,7 +64,7 @@ DEEL1 = [
         opties=[
             "de onafhankelijke variabele",
             "de afhankelijke variabele",
-            "de constante variabele",
+            "de constante of gecontroleerde variabele",
             "de conclusie",
         ],
         antwoord=0,
@@ -81,7 +81,7 @@ DEEL1 = [
         vraag="Waarom herhaal je een meting meerdere keren?",
         opties=[
             "om toevallige meetfouten te zien en uit te vlakken",
-            "om de hypothese zeker juist te laten uitkomen",
+            "om de hypothese die je vooraf opstelde zeker juist te laten uitkomen",
             "om het onderzoek langer te doen duren",
             "om minder materiaal te hoeven gebruiken",
         ],
@@ -366,7 +366,7 @@ DEEL2 = [
         vraag="Je hebt twee ontwerpen die allebei werken. Hoe kies je?",
         opties=[
             "door ze naast je criteria te leggen en te vergelijken",
-            "door het ontwerp te kiezen dat er het mooist uitziet",
+            "door het ontwerp te kiezen dat er het mooist en het netst uitziet",
             "door het ontwerp te kiezen dat je als eerste bedacht",
             "door het ontwerp te kiezen met de langste uitleg",
         ],

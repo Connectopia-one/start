@@ -157,7 +157,7 @@ DEEL1 = [
         vraag="Een plantencel ligt in zuiver water. Wat gebeurt er?",
         opties=[
             "de cel neemt water op en wordt stevig of turgescent",
-            "de cel verliest water en haar celwand barst open",
+            "de cel verliest water en haar celwand barst daardoor open",
             "de cel verandert helemaal niet van toestand",
             "de cel breekt haar vacuole volledig af",
         ],
@@ -290,7 +290,7 @@ DEEL2 = [
         vraag="Waarom staan de cellen van het palissadeparenchym dicht tegen elkaar onder de bovenkant van het blad?",
         opties=[
             "omdat daar het meeste licht binnenvalt voor de fotosynthese",
-            "omdat daar het meeste water uit het blad verdampt",
+            "omdat daar het meeste water uit het blad verdampt via de huidmondjes",
             "omdat daar de huidmondjes het dichtst bij elkaar liggen",
             "omdat daar de zwaarste delen van het blad hangen",
         ],
@@ -314,7 +314,7 @@ DEEL2 = [
         vraag="Welke taak vervult de schors of cortex in een wortel?",
         opties=[
             "opslag en transport van stoffen tussen de huid en de vaatbundel",
-            "de aanmaak van bladgroenkorrels voor de fotosynthese",
+            "de aanmaak van bladgroenkorrels voor de fotosynthese in de wortel",
             "het opvangen van het zonlicht voor de hele plant",
             "het afsluiten van de wortel tegen elke wateropname",
         ],
@@ -326,7 +326,7 @@ DEEL2 = [
         vraag="Wat is het verband tussen de bouw en de functie van een zaadcel?",
         opties=[
             "de staart maakt ze beweeglijk en de kleine kop draagt het erfelijk materiaal",
-            "de dikke celwand beschermt het erfelijk materiaal tegen uitdroging en kou",
+            "de dikke celwand beschermt het erfelijk materiaal tegen uitdroging, kou en zuur",
             "de grote vacuole levert de voedselvoorraad voor de hele bevruchting",
             "de vele chloroplasten leveren de energie voor de beweging naar de eicel",
         ],

@@ -169,7 +169,7 @@ DEEL1 = [
             "het doekje is geladen en trekt het stof door influentie aan",
             "het doekje is vochtig en kleeft daardoor aan het stof vast",
             "het doekje is magnetisch en het stof bevat genoeg ijzer",
-            "het doekje duwt de lucht weg en zuigt het stof zo mee",
+            "het doekje duwt de lucht weg en zuigt het stof zo met de luchtstroom mee",
         ],
         antwoord=0,
         uitleg="Door de wrijving bij het poetsen raakt het doekje geladen. Dat is een van de toepassingen van elektrostatica in technische systemen.",
@@ -376,7 +376,7 @@ DEEL2 = [
         vraag="Waarom werkt poedercoating met geladen poeder?",
         opties=[
             "het poeder wordt naar het tegengesteld geladen metaal getrokken",
-            "het geladen poeder wordt door de warmte vastgehouden",
+            "het geladen poeder wordt door de warmte van de oven op het metaal vastgehouden",
             "het geladen poeder is veel zwaarder dan gewoon poeder",
             "het geladen poeder lost in het metaal van het werkstuk op",
         ],
@@ -389,7 +389,7 @@ DEEL2 = [
         opties=[
             "zo haalt een tegengesteld geladen plaat ze uit de lucht",
             "zo worden ze lichter en blijven ze beter zweven",
-            "zo worden ze door de ventilator veel beter gemengd",
+            "zo worden ze door de ventilator veel beter gemengd met de schone lucht",
             "zo vallen ze vanzelf naar de bodem van het toestel",
         ],
         antwoord=0,

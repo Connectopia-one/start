@@ -29,7 +29,7 @@ DEEL1 = [
         opties=[
             "een kleine molecule, meestal water",
             "een vrij elektron",
-            "een stukje van de koolstofketen",
+            "een stukje van de koolstofketen van het monomeer",
             "een halogeenatoom",
         ],
         antwoord=0,
@@ -95,7 +95,7 @@ DEEL1 = [
         vraag="Waarom kan je een thermoharder niet opnieuw smelten?",
         opties=[
             "de ketens zitten met veel crosslinks aan elkaar vast",
-            "de ketens zijn veel te kort om te bewegen",
+            "de ketens zijn veel te kort om ten opzichte van elkaar te bewegen",
             "de ketens bevatten te veel dubbele bindingen",
             "de ketens zijn met water aan elkaar gebonden",
         ],
@@ -196,7 +196,7 @@ DEEL2 = [
         vraag="Waarom zit er nanotitaandioxide of nanozinkoxide in zonnecrème?",
         opties=[
             "het houdt UV-licht tegen en blijft toch doorzichtig",
-            "het maakt de crème geurig en aangenaam zacht",
+            "het maakt de crème geurig en aangenaam zacht op de huid",
             "het laat de huid veel sneller bruin worden",
             "het doodt alle bacteriën op de huid af",
         ],
@@ -241,7 +241,7 @@ DEEL2 = [
         opties=[
             "afval verwerken tot iets van lagere kwaliteit",
             "afval verwerken tot iets van hogere waarde",
-            "afval verbranden om energie te winnen",
+            "afval verbranden in een oven om er energie uit te winnen",
             "afval ongewijzigd opnieuw gebruiken",
         ],
         antwoord=0,
@@ -301,7 +301,7 @@ DEEL2 = [
         opties=[
             "gemaakt uit plantaardige of dierlijke grondstoffen",
             "door bacteriën en schimmels volledig af te breken",
-            "geschikt om in een composthoop te verdwijnen",
+            "geschikt om in een composthoop of in de natuur te verdwijnen",
             "gemaakt zonder ook maar enige uitstoot van CO₂",
         ],
         antwoord=0,
@@ -338,7 +338,7 @@ DEEL2 = [
             "licht vervuild water van bad, lavabo of wasmachine",
             "zuiver water dat je zonder risico kan drinken",
             "water dat rechtstreeks uit het toilet komt",
-            "water met nanodeeltjes in opgelost",
+            "water met heel veel nanodeeltjes en zware metalen in opgelost",
         ],
         antwoord=0,
         uitleg="Wit water is drinkbaar water en zwart water komt uit het toilet. Grijs water kan je vaak nog gebruiken om door te spoelen of te kuisen.",

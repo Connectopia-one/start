@@ -81,7 +81,7 @@ DEEL1 = [
         vraag="Wat is het meetbereik van een meetinstrument?",
         opties=[
             "de kleinste en de grootste waarde die het kan meten",
-            "de kleinste verandering die het nog kan tonen",
+            "de kleinste verandering die het op het scherm nog kan tonen",
             "de tijd die het instrument nodig heeft om te meten",
             "de hoeveelheid stroom die het instrument gebruikt",
         ],
@@ -166,7 +166,7 @@ DEEL1 = [
         vraag="Waarom zet je een meetinstrument uit als je niet meet?",
         opties=[
             "om energie te sparen en de batterij te ontzien",
-            "om het instrument nauwkeuriger te maken",
+            "om het instrument bij de volgende meting nauwkeuriger te maken",
             "om het bereik van het instrument te vergroten",
             "om de gemeten waarde vast te zetten",
         ],

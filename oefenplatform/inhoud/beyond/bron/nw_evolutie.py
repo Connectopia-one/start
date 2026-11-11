@@ -15,7 +15,7 @@ DEEL1 = [
             "de verandering van de erfelijke eigenschappen van een populatie over generaties",
             "de groei van één enkel organisme van bevruchte eicel tot volwassen dier",
             "de aanpassing van één individu aan de koude in de loop van één winter",
-            "de verhuizing van een soort naar een ander werelddeel in de loop van een jaar",
+            "de verhuizing van een hele soort naar een ander werelddeel in de loop van een paar jaar",
         ],
         antwoord=0,
         uitleg="Evolutie speelt zich af op het niveau van de populatie en over generaties heen. Een individu evolueert niet; het leeft en plant zich voort of niet.",
@@ -210,7 +210,7 @@ DEEL2 = [
         vraag="Wat beweerde Lamarck?",
         opties=[
             "dat verworven eigenschappen aan de nakomelingen doorgegeven worden",
-            "dat enkel de best aangepaste individuen zich kunnen voortplanten",
+            "dat enkel de best aangepaste individuen zich kunnen voortplanten en overleven",
             "dat soorten sinds hun ontstaan nooit meer veranderd zijn",
             "dat mutaties de enige bron van alle variatie in een soort zijn",
         ],
@@ -265,7 +265,7 @@ DEEL2 = [
         vraag="Wat gebeurde er met de peper-en-zoutvlinder tijdens de industriële revolutie?",
         opties=[
             "de donkere vorm werd talrijker omdat ze op beroete bomen minder opviel",
-            "de lichte vorm werd talrijker omdat ze beter tegen de rook kon",
+            "de lichte vorm werd talrijker omdat ze beter tegen de rook van de fabrieken kon",
             "beide vormen verdwenen volledig uit de streek rond de fabrieken",
             "de vlinders veranderden tijdens hun eigen leven van kleur",
         ],
@@ -290,7 +290,7 @@ DEEL2 = [
         opties=[
             "het toeval dat vooral in kleine populaties allelfrequenties verschuift",
             "het uitwisselen van allelen tussen twee aparte populaties",
-            "de voorkeur van wijfjes voor een bepaald kenmerk bij een partner",
+            "de voorkeur van de wijfjes voor een bepaald opvallend kenmerk bij een partner",
             "het ontstaan van helemaal nieuwe allelen door een mutatie",
         ],
         antwoord=0,
@@ -313,7 +313,7 @@ DEEL2 = [
         vraag="Wat bedoelt men met de fitness van een fenotype?",
         opties=[
             "hoeveel vruchtbare nakomelingen het gemiddeld oplevert",
-            "hoe sterk en gespierd het dier in kwestie is",
+            "hoe sterk en gespierd het dier in kwestie is in vergelijking met de rest",
             "hoe lang het individu in totaal in leven blijft",
             "hoe snel het dier over een korte afstand loopt",
         ],
@@ -326,7 +326,7 @@ DEEL2 = [
         opties=[
             "als ze onder natuurlijke omstandigheden geen vruchtbaar nageslacht meer geven",
             "als ze in twee duidelijk verschillende gebieden van de wereld leven",
-            "als ze een duidelijk verschillende kleur of een andere grootte hebben",
+            "als ze een duidelijk verschillende kleur, vorm, grootte of een ander gedrag hebben",
             "als ze ander voedsel eten dan elkaar in hetzelfde gebied",
         ],
         antwoord=0,
@@ -335,7 +335,7 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Twee populaties raken gescheiden door een nieuw gebergte. Welke isolatievorm is dat?",
-        opties=["geografische isolatie", "gedragsisolatie", "temporele isolatie", "gametische isolatie"],
+        opties=["geografische isolatie", "gedragsisolatie", "temporele isolatie", "postzygotische isolatie"],
         antwoord=0,
         uitleg="Een berg, een rivier of een zeearm maakt contact fysiek onmogelijk. Daardoor stopt de gene flow en kunnen de populaties uit elkaar groeien.",
     ),
@@ -383,7 +383,7 @@ DEEL2 = [
         vraag="Wat is adaptatie?",
         opties=[
             "een erfelijk kenmerk dat een organisme beter doet passen bij zijn omgeving",
-            "de gewoonte die een dier in de loop van zijn eigen leven aanleert",
+            "de gewoonte die een dier in de loop van zijn eigen leven aanleert en gebruikt",
             "de verhuizing van een hele soort naar een heel nieuw gebied",
             "het toeval dat een allel uit een kleine populatie laat verdwijnen",
         ],

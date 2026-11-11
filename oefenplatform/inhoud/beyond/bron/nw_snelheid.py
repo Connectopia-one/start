@@ -14,7 +14,7 @@ DEEL1 = [
         vraag="Hoe druk je de snelheid van een chemische reactie uit?",
         opties=[
             "als de verandering van een concentratie per tijdseenheid",
-            "als de massa van het product dat ontstaan is",
+            "als de totale massa van het product dat na afloop ontstaan is",
             "als het verschil in temperatuur tussen begin en einde",
             "als het volume van het vat waarin de reactie gebeurt",
         ],
@@ -112,7 +112,7 @@ DEEL1 = [
         opties=[
             "de deeltjes bewegen sneller, dus botsen vaker en harder",
             "er komen door de warmte nieuwe deeltjes bij",
-            "de activeringsenergie van de reactie daalt",
+            "de activeringsenergie van de reactie daalt sterk bij verwarming",
             "de deeltjes worden door de warmte kleiner",
         ],
         antwoord=0,
@@ -129,7 +129,7 @@ DEEL1 = [
         vraag="Je laat eenzelfde hoeveelheid kalk reageren met zuur, één keer als brokjes en één keer als poeder. Wat zie je?",
         opties=[
             "het poeder reageert sneller, maar geeft evenveel gas",
-            "het poeder reageert sneller en geeft ook meer gas",
+            "het poeder reageert sneller en geeft daardoor ook meer gas",
             "de brokjes reageren sneller omdat ze zwaarder zijn",
             "er is geen verschil, want het is dezelfde stof",
         ],
@@ -230,7 +230,7 @@ DEEL2 = [
             "als het verschil tussen de energie van de producten en die van de reagentia",
             "als de hoogte van de top van het diagram boven de reagentia",
             "als de hoogte van de top van het diagram boven de producten",
-            "als de som van de energie van de reagentia en van de producten",
+            "als de som van de energie van de reagentia en van de producten samen genomen",
         ],
         antwoord=0,
         uitleg="De reactie-energie is het hoogteverschil tussen begin en einde. De hoogte van de top boven de reagentia is de activeringsenergie.",
@@ -314,7 +314,7 @@ DEEL2 = [
         opties=[
             "ze laten reacties bij lichaamstemperatuur snel genoeg verlopen",
             "ze verwarmen het lichaam tot boven de veertig graden",
-            "ze zorgen dat een reactie meer product oplevert dan mogelijk",
+            "ze zorgen dat een reactie meer product oplevert dan anders mogelijk zou zijn",
             "ze vervangen de reagentia die het lichaam niet heeft",
         ],
         antwoord=0,
@@ -326,7 +326,7 @@ DEEL2 = [
         opties=[
             "de kinetische energie van de deeltjes",
             "de tijd die de reactie al bezig is",
-            "de concentratie van de reagentia",
+            "de concentratie van de reagentia in het mengsel",
             "de massa van de botsende deeltjes",
         ],
         antwoord=0,
@@ -355,7 +355,7 @@ DEEL2 = [
         vraag="Een katalysator zet in de Boltzmannverdeling de streep van de activeringsenergie naar links. Wat volgt daaruit?",
         opties=[
             "meer deeltjes hebben genoeg energie om te reageren",
-            "de deeltjes bewegen vanaf dan allemaal sneller",
+            "de deeltjes bewegen vanaf dan allemaal sneller door het mengsel",
             "er zijn minder botsingen per seconde nodig",
             "de temperatuur van het mengsel stijgt mee",
         ],
@@ -391,7 +391,7 @@ DEEL2 = [
         vraag="Een proef verloopt te traag en je mag de stoffen niet opwarmen. Wat probeer je nog?",
         opties=[
             "een katalysator toevoegen of de stof fijner verdelen",
-            "het reactievat in een groter vat overgieten",
+            "het reactievat in een groter vat overgieten zodat er meer ruimte is",
             "wachten tot de concentratie vanzelf stijgt",
             "de reactie in het donker laten doorgaan",
         ],

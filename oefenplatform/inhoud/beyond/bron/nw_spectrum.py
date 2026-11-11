@@ -15,7 +15,7 @@ DEEL1 = [
         vraag="Wat voor soort golf is een elektromagnetische golf?",
         opties=[
             "een transversale golf die geen middenstof nodig heeft",
-            "een longitudinale golf die lucht nodig heeft",
+            "een longitudinale golf die lucht of een andere middenstof nodig heeft",
             "een transversale golf die enkel in water reist",
             "een longitudinale golf die enkel in metaal reist",
         ],
@@ -115,7 +115,7 @@ DEEL1 = [
         opties=[
             "hoe diep ze in materie kan binnendringen",
             "hoe sterk ze een kleur kan geven",
-            "hoe snel ze in vacuüm beweegt",
+            "hoe snel ze in vacuüm of in lucht vooruit beweegt",
             "hoeveel golven er per seconde passeren",
         ],
         antwoord=0,
@@ -126,7 +126,7 @@ DEEL1 = [
         vraag="Waarom gebruikt men radiogolven voor communicatie over grote afstand?",
         opties=[
             "ze dragen ver en worden niet snel geabsorbeerd",
-            "ze hebben de hoogste energie van het spectrum",
+            "ze hebben de hoogste energie en frequentie van het hele spectrum",
             "ze kunnen door lood en beton heen",
             "ze zijn met het oog goed te zien",
         ],
@@ -138,7 +138,7 @@ DEEL1 = [
         vraag="Waarom gebruikt een magnetron microgolven?",
         opties=[
             "de watermoleculen in het eten nemen die energie goed op",
-            "microgolven hebben de hoogste energie van het spectrum",
+            "microgolven hebben de hoogste energie van het hele elektromagnetische spectrum",
             "microgolven maken het eten zichtbaar warm van kleur",
             "microgolven dringen door lood en beton heen",
         ],
@@ -181,7 +181,7 @@ DEEL1 = [
         vraag="Waarom is uv-straling gevaarlijker voor je huid dan zichtbaar licht?",
         opties=[
             "uv heeft meer energie per golf en kan in cellen schade aanrichten",
-            "uv heeft een veel grotere golflengte dan licht",
+            "uv heeft een veel grotere golflengte dan licht en dringt daardoor dieper in",
             "uv beweegt veel sneller dan zichtbaar licht",
             "uv wordt door de huid helemaal weerkaatst",
         ],
@@ -375,7 +375,7 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Je vindt een toestel dat met onzichtbare straling bacteriën doodt in een waterleiding. Welke straling is dat?",
-        opties=["ultraviolette straling", "infraroodstraling", "microgolven", "radiogolven"],
+        opties=["ultraviolette straling", "infrarode warmtestraling", "microgolven", "radiogolven"],
         antwoord=0,
         uitleg="Uv beschadigt het DNA van micro-organismen, zodat ze zich niet meer kunnen delen. Daarom gebruikt men het voor desinfectie van water en oppervlakken.",
     ),

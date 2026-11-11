@@ -10,7 +10,7 @@
           "vraag": "Wat is een enzym?",
           "opties": [
             "een eiwit dat een reactie versnelt zonder zelf verbruikt te worden",
-            "een vet dat energie opslaat voor later gebruik in de cel",
+            "een vet dat energie opslaat voor later gebruik in de cel of het weefsel",
             "een suiker die als bouwstof dient voor de celwand",
             "een hormoon dat via het bloed naar een doelorgaan reist"
           ],
@@ -65,7 +65,7 @@
           "vraag": "Hoe versnelt een enzym een reactie?",
           "opties": [
             "het verlaagt de activeringsenergie die nodig is om de reactie te starten",
-            "het levert zelf extra energie aan de reactie door op te branden",
+            "het levert zelf extra energie aan de reactie door zelf langzaam op te branden",
             "het verhoogt de temperatuur rond het substraat met enkele graden",
             "het verandert het eindproduct zodat er meer van ontstaat"
           ],
@@ -155,7 +155,7 @@
           "vraag": "Wat is het verschil tussen een co-enzym en een cofactor zoals een metaalion?",
           "opties": [
             "een co-enzym is een organische molecule, vaak afgeleid van een vitamine",
-            "een co-enzym is zelf een enzym dat de reactie van het eerste overneemt",
+            "een co-enzym is zelf een tweede enzym dat de reactie van het eerste overneemt",
             "een co-enzym werkt enkel buiten de cel, een cofactor enkel erbinnen",
             "een co-enzym remt het enzym, een cofactor helpt het enzym"
           ],
@@ -226,7 +226,7 @@
           "vraag": "Bij lage temperatuur werkt een enzym traag. Waarom?",
           "opties": [
             "de moleculen bewegen trager, zodat enzym en substraat elkaar minder vaak raken",
-            "het enzym is bij lage temperatuur gedenatureerd en blijvend beschadigd",
+            "het enzym is bij lage temperatuur gedenatureerd en daardoor blijvend beschadigd",
             "het substraat bevriest en kan daardoor niet in het actief centrum",
             "het actief centrum wordt bij kou groter en houdt het substraat niet vast"
           ],
@@ -282,7 +282,7 @@
             "ze stijgt eerst en bereikt dan een maximum, omdat alle enzymen bezet zijn",
             "ze blijft altijd evenredig stijgen met de hoeveelheid substraat",
             "ze daalt, omdat te veel substraat het enzym denatureert",
-            "ze verandert niet, want de snelheid hangt enkel van de temperatuur af"
+            "ze verandert niet, want de snelheid hangt enkel van de temperatuur en de pH af"
           ],
           "antwoord": 0,
           "uitleg": "Bij veel substraat zijn alle actieve centra voortdurend bezet. Dat heet verzadiging, en de snelheid blijft dan op haar maximum."
@@ -527,7 +527,7 @@
           "vraag": "Wat is vertering?",
           "opties": [
             "het afbreken van grote voedingsmoleculen tot kleine die opgenomen kunnen worden",
-            "het opnemen van de voedingsstoffen uit de darm in het bloed en de lymfe",
+            "het opnemen van de voedingsstoffen uit de dunne darm in het bloed en in de lymfevaten",
             "het verwijderen van de onverteerbare voedselresten langs de anus",
             "het opslaan van voedingsstoffen in de lever voor later gebruik"
           ],
@@ -603,7 +603,7 @@
           "vraag": "Waarom geeft de alvleesklier natriumwaterstofcarbonaat (NaHCO₃) af aan de twaalfvingerige darm?",
           "opties": [
             "om het zure maagsap te neutraliseren, zodat de darmenzymen kunnen werken",
-            "om de eiwitten in de darm af te breken tot losse aminozuren",
+            "om de eiwitten in de darm af te breken tot losse aminozuren en kleine peptiden",
             "om de vetten in de darm te emulgeren tot kleine druppeltjes",
             "om de bacteriën in de dunne darm te doden voor ze zich vermenigvuldigen"
           ],
@@ -691,7 +691,7 @@
           "vraag": "Wat is osmose?",
           "opties": [
             "water dat door een halfdoorlatend membraan naar de geconcentreerdste kant gaat",
-            "opgeloste deeltjes die met ATP tegen hun concentratieverschil in gaan",
+            "opgeloste deeltjes die met ATP tegen hun concentratieverschil in door het membraan gaan",
             "grote deeltjes die de cel opneemt door ze in een blaasje te sluiten",
             "zouten die een eiwitpomp in het membraan naar buiten de cel duwt"
           ],
@@ -755,7 +755,7 @@
           "vraag": "Hoe worden glycerol en vetzuren na opname in de darmepitheelcel verder vervoerd?",
           "opties": [
             "ze worden weer vetten, verpakt in lipoproteïnen, en gaan naar het lymfevat",
-            "ze gaan rechtstreeks via de leverpoortader naar de lever, net als glucose",
+            "ze gaan rechtstreeks via de leverpoortader naar de lever, net als glucose en aminozuren",
             "ze blijven in de darmepitheelcel opgeslagen tot ze daar verbrand worden",
             "ze verlaten het lichaam met de ontlasting zonder dat ze opgenomen worden"
           ],
@@ -825,7 +825,7 @@
           "opties": [
             "ze geven volume aan de darminhoud en houden de stoelgang vlot",
             "ze worden volledig verteerd tot glucose in de dunne darm",
-            "ze maken in de lever de gal aan voor de vertering van vetten",
+            "ze maken samen met de lever de gal aan voor de vertering van vetten",
             "ze breken in de maag de eiwitten af tot losse aminozuren"
           ],
           "antwoord": 0,
@@ -968,7 +968,7 @@
           "vraag": "Waaruit bestaat het nierlichaampje of lichaampje van Malpighi?",
           "opties": [
             "de glomerulus met daarrond het kapsel van Bowman",
-            "de lus van Henle met de verzamelbuis eromheen",
+            "de lus van Henle met de verzamelbuis eromheen en de haarvaten",
             "de nierpiramide met daarin het nierbekken",
             "de bijnier met daaronder het nierkapsel"
           ],
@@ -1134,7 +1134,7 @@
             "nuttige stoffen gaan uit het nierbuisje terug naar het bloed",
             "het bloed wordt in de glomerulus door de filter geperst",
             "afvalstoffen worden vanuit het bloed in het buisje gepompt",
-            "de urine wordt in de urineblaas verzameld en bewaard"
+            "de urine wordt in de urineblaas verzameld en daar een tijd bewaard tot je plast"
           ],
           "antwoord": 0,
           "uitleg": "Bij resorptie haalt het lichaam water, glucose, aminozuren en zouten terug uit de voorurine, via diffusie, osmose en actief transport."
@@ -1424,7 +1424,7 @@
             "het percentage van het bloedvolume dat uit rode bloedcellen bestaat",
             "het aantal witte bloedcellen per liter bloed",
             "de hoeveelheid suiker die in het bloedplasma opgelost is",
-            "de druk waarmee het bloed tegen de wand van de slagaders duwt"
+            "de druk waarmee het bloed bij elke hartslag tegen de wand van de slagaders duwt"
           ],
           "antwoord": 0,
           "uitleg": "Bij een gezonde volwassene is de hematocriet ongeveer 40 à 45 %. Dat is het deel van het bloed dat uit rode bloedcellen bestaat."
@@ -1436,7 +1436,7 @@
             "in de ijle lucht maken hun nieren meer EPO, zodat ze meer rode bloedcellen krijgen",
             "in de koude lucht verbranden ze meer vet en worden ze lichter",
             "op grote hoogte wordt hun bloed dunner, zodat het hart minder hard moet werken",
-            "op grote hoogte neemt het aantal witte bloedcellen toe en worden ze minder ziek"
+            "op grote hoogte neemt het aantal witte bloedcellen toe en worden ze minder snel ziek"
           ],
           "antwoord": 0,
           "uitleg": "Op hoogte is er minder zuurstof, wat hypoxie veroorzaakt. De nieren maken dan meer EPO, de hematocriet stijgt en het bloed kan meer zuurstof vervoeren."
@@ -1510,7 +1510,7 @@
           "vraag": "Welke uitspraak over EPO is juist?",
           "opties": [
             "het is een hormoon uit de nieren dat de aanmaak van rode bloedcellen stimuleert",
-            "het is een enzym uit de maag dat eiwitten afbreekt",
+            "het is een enzym uit de maag dat in een zuur midden de lange eiwitten in het voedsel afbreekt",
             "het is een witte bloedcel die bacteriën opeet",
             "het is een stollingsfactor die het stolsel stevig maakt"
           ],
@@ -1548,7 +1548,7 @@
           "opties": [
             "de afweer tegen ziekteverwekkers",
             "het vervoer van zuurstof",
-            "het dichten van wondjes",
+            "het dichten van wondjes en het stelpen van bloed",
             "het vervoer van voedingsstoffen"
           ],
           "antwoord": 0,
@@ -1635,7 +1635,7 @@
           "opties": [
             "trombine zet fibrinogeen om in fibrinedraden die het stolsel vormen",
             "fibrine zet trombine om in protrombine, dat het wondje dan sluit",
-            "bloedplaatjes zetten het albumine in het plasma om in hemoglobine",
+            "bloedplaatjes zetten het albumine in het plasma om in hemoglobine voor het stolsel",
             "antilichamen kleven de rode bloedcellen in de wonde aan elkaar"
           ],
           "antwoord": 0,
@@ -1763,7 +1763,7 @@
           "opties": [
             "vier: twee boezems en twee kamers",
             "twee: één boezem en één kamer",
-            "drie: twee boezems en één kamer",
+            "drie: twee boezems en één gemeenschappelijke kamer",
             "zes: drie boezems en drie kamers"
           ],
           "antwoord": 0,
@@ -1788,7 +1788,7 @@
             "de bovenste en de onderste holle ader",
             "de longaders uit beide longen",
             "de aorta met de aortaboog",
-            "de longslagader naar de longen"
+            "de longslagader die naar de longen loopt"
           ],
           "antwoord": 0,
           "uitleg": "Het bloed uit het lichaam komt via de bovenste en de onderste holle ader in de rechterboezem."
@@ -1930,7 +1930,7 @@
           "vraag": "Wat is het hartzakje of pericard?",
           "opties": [
             "een vlies rond het hart met wat vocht, zodat het vlot kan bewegen",
-            "de holte binnen in de linkerkamer waar het bloed verzameld wordt",
+            "de holte binnen in de linkerkamer waar het bloed verzameld wordt voor de aorta",
             "het buitenste deel van de aorta, vlak boven het hart",
             "het klepje tussen de rechterboezem en de rechterkamer"
           ],
@@ -2055,7 +2055,7 @@
           "vraag": "Wat registreert een elektrocardiogram of ECG?",
           "opties": [
             "de elektrische activiteit van het hart",
-            "de druk in de grote slagaders",
+            "de druk in de grote slagaders bij elke samentrekking",
             "de hoeveelheid zuurstof in het bloed",
             "het geluid van de hartkleppen"
           ],
@@ -2129,7 +2129,7 @@
             "een slagader heeft een dikke, gespierde wand, een ader een dunnere wand met kleppen",
             "een slagader heeft kleppen tegen terugstroming en een ader heeft er geen",
             "een ader heeft altijd een dikkere en meer gespierde wand dan de slagader ernaast",
-            "een slagader vervoert bloed naar het hart, een ader bloed van het hart weg"
+            "een slagader vervoert bloed naar het hart toe, een ader vervoert bloed van het hart weg"
           ],
           "antwoord": 0,
           "uitleg": "Slagaders moeten de hoge druk van het hart opvangen en hebben daarom een dikke wand. Aders hebben een lage druk, een dunnere wand en veneuze kleppen."
@@ -2267,7 +2267,7 @@
             "in het verlengde merg",
             "in de linkerkamer",
             "in de nieren",
-            "in de sinusknoop"
+            "in de sinusknoop van de rechterboezem"
           ],
           "antwoord": 0,
           "uitleg": "Het cardiovasculair centrum in het verlengde merg verwerkt de signalen van de baroreceptoren en stuurt het hart en de bloedvaten bij."
@@ -2293,7 +2293,7 @@
           "opties": [
             "het versnelt de hartslag en doet de bloeddruk stijgen",
             "het vertraagt de hartslag en doet de bloeddruk dalen",
-            "het zet de nieren aan om meer water uit te scheiden",
+            "het zet de nieren aan om meer water en zouten uit te scheiden",
             "het remt de werking van de sinusknoop volledig af"
           ],
           "antwoord": 0,
@@ -2444,7 +2444,7 @@
           "vraag": "Waarom stroomt het meeste weefselvocht aan het einde van een haarvat terug in het bloed?",
           "opties": [
             "de bloeddruk is daar gezakt en de plasma-eiwitten trekken water terug",
-            "de lymfevaten pompen het vocht met kracht terug in het haarvat",
+            "de lymfevaten pompen het overtollige vocht met kracht terug in het haarvat",
             "het hart zuigt het vocht terug tijdens elke diastole van de kamers",
             "de cellen stoten het overtollige vocht actief af met hun pompen"
           ],
@@ -2463,7 +2463,7 @@
           "opties": [
             "het overtollige weefselvocht terug in het bloed brengen",
             "de zuurstof van de longen naar de weefsels brengen",
-            "het bloed in de grote slagaders onder hoge druk houden",
+            "het bloed in de grote slagaders onder hoge druk houden tijdens de systole",
             "de urine van de nieren naar de urineblaas brengen"
           ],
           "antwoord": 0,
@@ -2591,7 +2591,7 @@
             "water, zouten, wat eiwitten en lymfocyten",
             "rode bloedcellen en bloedplaatjes",
             "verteringsenzymen en gal",
-            "ureum en urinezuur in hoge concentratie"
+            "ureum, urinezuur en andere afvalstoffen in hoge concentratie"
           ],
           "antwoord": 0,
           "uitleg": "Lymfe lijkt op weefselvocht. Er zitten geen rode bloedcellen in, wel lymfocyten. Na een vette maaltijd bevat de lymfe uit de darmen ook veel vetdeeltjes."
@@ -2678,7 +2678,7 @@
           "vraag": "Wat is de taak van het trilhaarepitheel met slijmcellen in de luchtwegen?",
           "opties": [
             "stof en ziektekiemen in slijm vangen en naar de keel afvoeren",
-            "zuurstof uit de lucht opnemen en aan het bloed geven",
+            "zuurstof uit de lucht opnemen en meteen aan het bloed in de haarvaten geven",
             "de luchtpijp stevig openhouden bij het inademen",
             "geluid maken wanneer de lucht langs de stembanden gaat"
           ],
@@ -2735,7 +2735,7 @@
             "de dunne ruimte met vocht tussen het longvlies en het borstvlies",
             "de holte binnen in de luchtpijp waar de lucht door stroomt",
             "de ruimte in het strottenhoofd waar de stembanden liggen",
-            "de holte tussen de neusschelpen in de neus"
+            "de holte tussen de neusschelpen in de neus, waar de lucht verwarmd wordt"
           ],
           "antwoord": 0,
           "uitleg": "Het longvlies bekleedt de long, het borstvlies de binnenkant van de borstkas. Het pleuravocht daartussen laat de long soepel meebewegen."
@@ -2745,7 +2745,7 @@
           "vraag": "Wat gebeurt er bij de inademing met de middenrifademhaling?",
           "opties": [
             "het middenrif trekt samen en wordt platter, zodat de borstholte groter wordt",
-            "het middenrif ontspant en bolt op, zodat de borstholte kleiner wordt",
+            "het middenrif ontspant en bolt op, zodat de borstholte kleiner wordt en lucht binnenstroomt",
             "de buikspieren duwen de longen omhoog en de lucht naar binnen",
             "de longen zuigen zich zelf vol lucht door hun eigen spieren"
           ],
@@ -2829,7 +2829,7 @@
           "vraag": "Waar zit het strottenhoofd?",
           "opties": [
             "tussen de keelholte en de luchtpijp, met de stembanden erin",
-            "tussen de luchtpijp en de bronchiën, onder het borstbeen",
+            "tussen de luchtpijp en de bronchiën, onder het borstbeen in de borstkas",
             "tussen de neusholte en de mondholte, achter het verhemelte",
             "tussen de longen en het middenrif, onder in de borstkas"
           ],
@@ -2954,7 +2954,7 @@
           "vraag": "Wat is een spirogram?",
           "opties": [
             "een grafiek van het volume lucht dat iemand in- en uitademt in de tijd",
-            "een grafiek van de elektrische activiteit van het hart",
+            "een grafiek van de elektrische activiteit van het hart tijdens de inspanning",
             "een foto van de longen gemaakt met röntgenstralen",
             "een meting van de hoeveelheid zuurstof in het bloed"
           ],
@@ -3022,7 +3022,7 @@
           "vraag": "Wat gebeurt er bij een astma-aanval?",
           "opties": [
             "de bronchiolen vernauwen en zwellen op, zodat ademen moeilijk gaat",
-            "de longblaasjes vullen zich met bloed door een gebarsten ader",
+            "de longblaasjes vullen zich met bloed door een gebarsten ader in de long",
             "het middenrif verlamt tijdelijk en de longen vallen samen",
             "de luchtpijp verstopt volledig door een stuk voedsel"
           ],
@@ -3034,7 +3034,7 @@
           "vraag": "Wat is mucoviscidose?",
           "opties": [
             "een erfelijke ziekte waarbij taai slijm de luchtwegen en de alvleesklier verstopt",
-            "een infectie van de longen door een virus dat via de lucht overgaat",
+            "een infectie van de longen door een virus dat via de lucht van mens op mens overgaat",
             "een allergie voor pollen die vooral in de lente voorkomt",
             "een ontsteking van de stembanden door te luid te roepen"
           ],

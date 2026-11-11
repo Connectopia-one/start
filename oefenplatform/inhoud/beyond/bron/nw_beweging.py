@@ -33,7 +33,7 @@ DEEL1 = [
             "de richting van de snelheid",
             "de grootte van de snelheid",
             "de massa van het voorwerp",
-            "de omtrek van de cirkel",
+            "de straal en de omtrek van de cirkel",
         ],
         antwoord=0,
         uitleg="De grootte van de snelheid blijft gelijk, maar de richting draait mee met de baan. Omdat snelheid een vector is, is er dus wel een versnelling.",
@@ -190,7 +190,7 @@ DEEL1 = [
         opties=[
             "een eenparig vertraagde rechtlijnige beweging",
             "een eenparig rechtlijnige beweging",
-            "een eenparig cirkelvormige beweging",
+            "een eenparig cirkelvormige beweging rond een vast punt",
             "een beweging zonder enige versnelling",
         ],
         antwoord=0,
@@ -204,7 +204,7 @@ DEEL2 = [
         vraag="Wat zegt de eerste wet van Newton?",
         opties=[
             "zonder resulterende kracht blijft de snelheid van een lichaam gelijk",
-            "de kracht is het product van massa en versnelling",
+            "de kracht is het product van de massa en de versnelling van een lichaam",
             "elke kracht heeft een even grote tegengestelde kracht",
             "een lichaam valt altijd met dezelfde versnelling",
         ],
@@ -271,7 +271,7 @@ DEEL2 = [
         opties=[
             "de kracht waarmee de muur even hard tegen jou duwt",
             "de zwaartekracht die op jou werkt",
-            "de wrijvingskracht van je schoenen op de vloer",
+            "de wrijvingskracht van je schoenen op de vloer onder je",
             "de normaalkracht van de vloer op jou",
         ],
         antwoord=0,
@@ -326,7 +326,7 @@ DEEL2 = [
         opties=[
             "je ontbindt ze in een x-component en een y-component",
             "je laat ze gewoon weg uit de berekening",
-            "je verandert ze in een even grote verticale kracht",
+            "je verandert ze in een even grote verticale kracht die naar beneden wijst",
             "je telt ze twee keer, een keer per richting",
         ],
         antwoord=0,
@@ -344,7 +344,7 @@ DEEL2 = [
         opties=[
             "ze wijst in dezelfde zin als de versnelling",
             "ze wijst tegen de versnelling in",
-            "ze staat loodrecht op de versnelling",
+            "ze staat altijd loodrecht op de richting van de versnelling",
             "ze is altijd gelijk aan nul",
         ],
         antwoord=0,

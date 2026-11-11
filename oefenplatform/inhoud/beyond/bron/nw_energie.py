@@ -13,7 +13,7 @@ DEEL1 = [
         vraag="Wat kenmerkt een autotroof organisme?",
         opties=[
             "het bouwt zijn eigen organische stoffen uit anorganische stoffen op",
-            "het haalt zijn organische stoffen volledig uit andere organismen",
+            "het haalt zijn organische stoffen volledig uit andere organismen die het opeet",
             "het heeft voor zijn groei geen enkele energiebron nodig",
             "het breekt uitsluitend dode resten van andere organismen af",
         ],
@@ -31,7 +31,7 @@ DEEL1 = [
         vraag="Waarom noemt men ATP de energiemunt van de cel?",
         opties=[
             "omdat de cel er haar energie in kleine, bruikbare porties mee rondgeeft",
-            "omdat de cel er haar erfelijk materiaal volledig in bewaart",
+            "omdat de cel er haar erfelijk materiaal volledig in bewaart en doorgeeft",
             "omdat de cel er haar afvalstoffen mee naar buiten brengt",
             "omdat de cel er haar celwand mee opbouwt en herstelt",
         ],
@@ -123,7 +123,7 @@ DEEL1 = [
         vraag="Waarom kan een plant met uitsluitend groen licht nauwelijks aan fotosynthese doen?",
         opties=[
             "omdat chlorofyl groen licht grotendeels weerkaatst in plaats van opneemt",
-            "omdat groen licht de huidmondjes van het blad meteen dichtduwt",
+            "omdat groen licht de huidmondjes van het blad meteen dichtduwt en zo CO₂ tegenhoudt",
             "omdat groen licht het water in de bladcellen doet bevriezen",
             "omdat groen licht de celwand van de bladcellen beschadigt",
         ],
@@ -305,7 +305,7 @@ DEEL2 = [
         vraag="Wat bedoelt men met opwaarts transport in een plant?",
         opties=[
             "het vervoer van water en mineralen van de wortel naar het blad",
-            "het vervoer van suikers van het blad naar de wortel toe",
+            "het vervoer van suikers van het blad naar de wortel toe, via de bastvaten",
             "het vervoer van zuurstof van de lucht naar de bodem toe",
             "het vervoer van zetmeel van de bloem naar de bladeren",
         ],
@@ -324,7 +324,7 @@ DEEL2 = [
         opties=[
             "om het aanwezige zetmeel uit de bladeren te laten verdwijnen",
             "om de plant volledig te laten uitdrogen voor de proef",
-            "om alle bladgroenkorrels uit het blad te verwijderen",
+            "om alle bladgroenkorrels uit het blad te verwijderen voor de proef begint",
             "om de huidmondjes voorgoed te laten dichtgroeien",
         ],
         antwoord=0,
@@ -346,7 +346,7 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Een gistcultuur in suikerwater laat belletjes opborrelen. Welk gas is dat?",
-        opties=["koolstofdioxide", "zuurstofgas", "stikstofgas", "waterstofgas"],
+        opties=["koolstofdioxide", "zuurstofgas", "stikstofgas uit de lucht", "waterstofgas"],
         antwoord=0,
         uitleg="Gist doet aan alcoholische gisting en geeft daarbij ethanol en koolstofdioxide af. Je kan het gas met kalkwater aantonen.",
     ),
@@ -363,7 +363,7 @@ DEEL2 = [
             "de producten van de ene zijn de grondstoffen van de andere",
             "ze gebruiken allebei precies dezelfde grondstoffen",
             "ze leveren allebei precies dezelfde eindproducten op",
-            "ze kunnen allebei enkel in het volle donker doorgaan",
+            "ze kunnen allebei enkel in het volle donker doorgaan, dus vooral 's nachts",
         ],
         antwoord=0,
         uitleg="Fotosynthese maakt glucose en zuurstof uit koolstofdioxide en water; de celademhaling doet het omgekeerde. Samen vormen ze een kringloop.",

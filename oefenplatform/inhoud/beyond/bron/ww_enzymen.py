@@ -13,7 +13,7 @@ DEEL1 = [
         "Wat is een enzym?",
         [
             "een eiwit dat een reactie versnelt zonder zelf verbruikt te worden",
-            "een vet dat energie opslaat voor later gebruik in de cel",
+            "een vet dat energie opslaat voor later gebruik in de cel of het weefsel",
             "een suiker die als bouwstof dient voor de celwand",
             "een hormoon dat via het bloed naar een doelorgaan reist",
         ],
@@ -46,7 +46,7 @@ DEEL1 = [
         "Hoe versnelt een enzym een reactie?",
         [
             "het verlaagt de activeringsenergie die nodig is om de reactie te starten",
-            "het levert zelf extra energie aan de reactie door op te branden",
+            "het levert zelf extra energie aan de reactie door zelf langzaam op te branden",
             "het verhoogt de temperatuur rond het substraat met enkele graden",
             "het verandert het eindproduct zodat er meer van ontstaat",
         ],
@@ -121,7 +121,7 @@ DEEL1 = [
         "Wat is het verschil tussen een co-enzym en een cofactor zoals een metaalion?",
         [
             "een co-enzym is een organische molecule, vaak afgeleid van een vitamine",
-            "een co-enzym is zelf een enzym dat de reactie van het eerste overneemt",
+            "een co-enzym is zelf een tweede enzym dat de reactie van het eerste overneemt",
             "een co-enzym werkt enkel buiten de cel, een cofactor enkel erbinnen",
             "een co-enzym remt het enzym, een cofactor helpt het enzym",
         ],
@@ -178,7 +178,7 @@ DEEL2 = [
         "Bij lage temperatuur werkt een enzym traag. Waarom?",
         [
             "de moleculen bewegen trager, zodat enzym en substraat elkaar minder vaak raken",
-            "het enzym is bij lage temperatuur gedenatureerd en blijvend beschadigd",
+            "het enzym is bij lage temperatuur gedenatureerd en daardoor blijvend beschadigd",
             "het substraat bevriest en kan daardoor niet in het actief centrum",
             "het actief centrum wordt bij kou groter en houdt het substraat niet vast",
         ],
@@ -224,7 +224,7 @@ DEEL2 = [
             "ze stijgt eerst en bereikt dan een maximum, omdat alle enzymen bezet zijn",
             "ze blijft altijd evenredig stijgen met de hoeveelheid substraat",
             "ze daalt, omdat te veel substraat het enzym denatureert",
-            "ze verandert niet, want de snelheid hangt enkel van de temperatuur af",
+            "ze verandert niet, want de snelheid hangt enkel van de temperatuur en de pH af",
         ],
         0,
         "Bij veel substraat zijn alle actieve centra voortdurend bezet. Dat heet verzadiging, en de snelheid blijft dan op haar maximum.",

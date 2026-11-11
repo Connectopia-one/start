@@ -58,7 +58,7 @@ DEEL1 = [
         "Wat is vertering?",
         [
             "het afbreken van grote voedingsmoleculen tot kleine die opgenomen kunnen worden",
-            "het opnemen van de voedingsstoffen uit de darm in het bloed en de lymfe",
+            "het opnemen van de voedingsstoffen uit de dunne darm in het bloed en in de lymfevaten",
             "het verwijderen van de onverteerbare voedselresten langs de anus",
             "het opslaan van voedingsstoffen in de lever voor later gebruik",
         ],
@@ -113,7 +113,7 @@ DEEL1 = [
         "Waarom geeft de alvleesklier natriumwaterstofcarbonaat (NaHCO₃) af aan de twaalfvingerige darm?",
         [
             "om het zure maagsap te neutraliseren, zodat de darmenzymen kunnen werken",
-            "om de eiwitten in de darm af te breken tot losse aminozuren",
+            "om de eiwitten in de darm af te breken tot losse aminozuren en kleine peptiden",
             "om de vetten in de darm te emulgeren tot kleine druppeltjes",
             "om de bacteriën in de dunne darm te doden voor ze zich vermenigvuldigen",
         ],
@@ -176,7 +176,7 @@ DEEL2 = [
         "Wat is osmose?",
         [
             "water dat door een halfdoorlatend membraan naar de geconcentreerdste kant gaat",
-            "opgeloste deeltjes die met ATP tegen hun concentratieverschil in gaan",
+            "opgeloste deeltjes die met ATP tegen hun concentratieverschil in door het membraan gaan",
             "grote deeltjes die de cel opneemt door ze in een blaasje te sluiten",
             "zouten die een eiwitpomp in het membraan naar buiten de cel duwt",
         ],
@@ -225,7 +225,7 @@ DEEL2 = [
         "Hoe worden glycerol en vetzuren na opname in de darmepitheelcel verder vervoerd?",
         [
             "ze worden weer vetten, verpakt in lipoproteïnen, en gaan naar het lymfevat",
-            "ze gaan rechtstreeks via de leverpoortader naar de lever, net als glucose",
+            "ze gaan rechtstreeks via de leverpoortader naar de lever, net als glucose en aminozuren",
             "ze blijven in de darmepitheelcel opgeslagen tot ze daar verbrand worden",
             "ze verlaten het lichaam met de ontlasting zonder dat ze opgenomen worden",
         ],
@@ -271,7 +271,7 @@ DEEL2 = [
         [
             "ze geven volume aan de darminhoud en houden de stoelgang vlot",
             "ze worden volledig verteerd tot glucose in de dunne darm",
-            "ze maken in de lever de gal aan voor de vertering van vetten",
+            "ze maken samen met de lever de gal aan voor de vertering van vetten",
             "ze breken in de maag de eiwitten af tot losse aminozuren",
         ],
         0,

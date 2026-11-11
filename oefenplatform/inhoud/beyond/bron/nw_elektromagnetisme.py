@@ -30,7 +30,7 @@ DEEL1 = [
             "uit de kringstroom en de spin van de elektronen",
             "uit de beweging van de protonen in de kern",
             "uit de lading van de neutronen in de kern",
-            "uit de trillingen van het hele kristalrooster",
+            "uit de trillingen van het hele kristalrooster bij kamertemperatuur",
         ],
         antwoord=0,
         uitleg="Een draaiend en om de kern lopend elektron werkt als een kleine stroomkring. Veel van die stroompjes samen in dezelfde zin geven een weissgebied.",
@@ -64,7 +64,7 @@ DEEL1 = [
         vraag="Wat is het verschil tussen een permanente magneet en een elektromagneet?",
         opties=[
             "een elektromagneet werkt enkel zolang er stroom door loopt",
-            "een elektromagneet heeft geen noord- en zuidpool",
+            "een elektromagneet heeft geen noord- en zuidpool, enkel een middenpunt",
             "een permanente magneet trekt enkel koper aan",
             "een permanente magneet werkt enkel bij hoge temperatuur",
         ],
@@ -78,7 +78,7 @@ DEEL1 = [
             "om het magnetisch veld van de spoel veel sterker te maken",
             "om de stroom door de spoel te doen stijgen",
             "om de spoel tegen opwarming te beschermen",
-            "om het veld van richting te laten veranderen",
+            "om het veld bij elke wisseling van de stroom van richting te laten veranderen",
         ],
         antwoord=0,
         uitleg="De weissgebieden in de kern richten zich naar het veld van de spoel en versterken het. Met dezelfde stroom krijg je dus een veel sterkere magneet.",
@@ -166,7 +166,7 @@ DEEL1 = [
         vraag="Waarvoor gebruik je de rechterhandregel bij een spoel?",
         opties=[
             "om uit de stroomzin te bepalen waar de noordpool ligt",
-            "om de grootte van de stroom te berekenen",
+            "om de grootte van de stroom door de windingen van de spoel te berekenen",
             "om de weerstand van de spoel te meten",
             "om het aantal windingen te tellen",
         ],
@@ -363,7 +363,7 @@ DEEL2 = [
         opties=[
             "een winding draait in een magnetisch veld, dus verandert de flux voortdurend",
             "een magneet wordt steeds sterker gemaakt en weer zwakker",
-            "een weerstand wordt voortdurend warmer en kouder",
+            "een weerstand wordt voortdurend warmer en kouder, en zet zo warmte om in spanning",
             "een batterij wordt heel snel aan- en uitgeschakeld",
         ],
         antwoord=0,
@@ -380,7 +380,7 @@ DEEL2 = [
         vraag="Je laat een magneet door een koperen buis vallen en hij valt veel trager dan verwacht. Waarom?",
         opties=[
             "de wervelstromen in het koper maken een veld dat de val tegenwerkt",
-            "koper is ferromagnetisch en trekt de magneet omhoog",
+            "koper is ferromagnetisch en trekt de magneet daardoor naar de wand van de buis",
             "de magneet wordt door de wrijving met het koper afgeremd",
             "de lucht in de buis kan niet snel genoeg weg",
         ],

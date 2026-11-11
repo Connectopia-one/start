@@ -54,7 +54,7 @@ DEEL1 = [
     ),
     M(
         "Waar ligt het cardiovasculair centrum dat de bloeddruk regelt?",
-        ["in het verlengde merg", "in de linkerkamer", "in de nieren", "in de sinusknoop"],
+        ["in het verlengde merg", "in de linkerkamer", "in de nieren", "in de sinusknoop van de rechterboezem"],
         0,
         "Het cardiovasculair centrum in het verlengde merg verwerkt de signalen van de baroreceptoren en stuurt het hart en de bloedvaten bij.",
     ),
@@ -74,7 +74,7 @@ DEEL1 = [
         [
             "het versnelt de hartslag en doet de bloeddruk stijgen",
             "het vertraagt de hartslag en doet de bloeddruk dalen",
-            "het zet de nieren aan om meer water uit te scheiden",
+            "het zet de nieren aan om meer water en zouten uit te scheiden",
             "het remt de werking van de sinusknoop volledig af",
         ],
         0,
@@ -175,7 +175,7 @@ DEEL2 = [
         "Waarom stroomt het meeste weefselvocht aan het einde van een haarvat terug in het bloed?",
         [
             "de bloeddruk is daar gezakt en de plasma-eiwitten trekken water terug",
-            "de lymfevaten pompen het vocht met kracht terug in het haarvat",
+            "de lymfevaten pompen het overtollige vocht met kracht terug in het haarvat",
             "het hart zuigt het vocht terug tijdens elke diastole van de kamers",
             "de cellen stoten het overtollige vocht actief af met hun pompen",
         ],
@@ -192,7 +192,7 @@ DEEL2 = [
         [
             "het overtollige weefselvocht terug in het bloed brengen",
             "de zuurstof van de longen naar de weefsels brengen",
-            "het bloed in de grote slagaders onder hoge druk houden",
+            "het bloed in de grote slagaders onder hoge druk houden tijdens de systole",
             "de urine van de nieren naar de urineblaas brengen",
         ],
         0,
@@ -296,7 +296,7 @@ DEEL2 = [
             "water, zouten, wat eiwitten en lymfocyten",
             "rode bloedcellen en bloedplaatjes",
             "verteringsenzymen en gal",
-            "ureum en urinezuur in hoge concentratie",
+            "ureum, urinezuur en andere afvalstoffen in hoge concentratie",
         ],
         0,
         "Lymfe lijkt op weefselvocht. Er zitten geen rode bloedcellen in, wel lymfocyten. Na een vette maaltijd bevat de lymfe uit de darmen ook veel vetdeeltjes.",

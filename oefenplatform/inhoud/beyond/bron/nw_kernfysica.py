@@ -15,7 +15,7 @@ DEEL1 = [
         opties=[
             "het aantal protonen plus het aantal neutronen",
             "het aantal protonen van de kern alleen",
-            "het aantal neutronen van de kern alleen",
+            "het aantal neutronen van de kern alleen, zonder de protonen",
             "het aantal elektronen rond de kern",
         ],
         antwoord=0,
@@ -69,7 +69,7 @@ DEEL1 = [
         vraag="Welke twee krachten strijden met elkaar in een atoomkern?",
         opties=[
             "de sterke kernkracht en de afstoting van de protonen",
-            "de zwaartekracht en de magnetische veldkracht",
+            "de zwaartekracht tussen de kerndeeltjes en de magnetische veldkracht",
             "de wrijvingskracht en de normaalkracht",
             "de veerkracht en de spankracht van een koord",
         ],
@@ -81,7 +81,7 @@ DEEL1 = [
         vraag=r"Wanneer is een lichte kern met Z kleiner dan \(20\) doorgaans stabiel?",
         opties=[
             "als er ongeveer evenveel neutronen als protonen zijn",
-            "als er veel meer neutronen dan protonen in zitten",
+            "als er veel meer neutronen dan protonen in de kern zitten",
             "als er veel meer protonen dan neutronen in zitten",
             "als er in de kern helemaal geen neutronen zitten",
         ],
@@ -205,7 +205,7 @@ DEEL2 = [
         vraag="Wat is kernfusie?",
         opties=[
             "twee lichte kernen die tot één zwaardere kern samensmelten",
-            "een zware kern die in twee lichtere kernen uiteenvalt",
+            "een zware kern die in twee lichtere kernen uiteenvalt en neutronen uitstoot",
             "een kern die een elektron uitstoot",
             "een kern die een foton uitzendt",
         ],
@@ -237,7 +237,7 @@ DEEL2 = [
         opties=[
             "ze vangen neutronen weg en regelen zo de kettingreactie",
             "ze voeren voortdurend nieuwe splijtstof aan",
-            "ze koelen het water in het reactorvat af",
+            "ze koelen het water in het reactorvat af zodat het niet gaat koken",
             "ze wekken rechtstreeks de elektrische stroom op",
         ],
         antwoord=0,
@@ -257,7 +257,7 @@ DEEL2 = [
             "volgens de intensiteit en de duur van de straling",
             "volgens het gewicht en de kleur van het afval",
             "volgens de prijs en het volume van het afval",
-            "volgens de temperatuur en de druk bij de berging",
+            "volgens de temperatuur en de druk bij de berging onder de grond",
         ],
         antwoord=0,
         uitleg="Zo krijg je laagactief, middelactief en hoogactief afval, elk kortlevend of langlevend. Daaruit volgen de drie bergingscategorieën A, B en C.",
@@ -356,7 +356,7 @@ DEEL2 = [
             "ze geeft al haar energie in een heel klein stukje weefsel af",
             "ze dringt veel dieper in het lichaam door dan de andere",
             "ze heeft geen lading en wordt daardoor niet tegengehouden",
-            "ze heeft een veel langere halveringstijd dan de andere",
+            "ze heeft een veel langere halveringstijd dan de andere soorten straling",
         ],
         antwoord=0,
         uitleg="Alle energie komt in een heel klein stukje weefsel terecht. Daardoor is de schade bij dezelfde geabsorbeerde dosis veel groter.",

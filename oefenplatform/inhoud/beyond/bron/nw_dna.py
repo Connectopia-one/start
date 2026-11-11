@@ -186,7 +186,7 @@ DEEL2 = [
         vraag="Wat is de G0-fase?",
         opties=[
             "een rusttoestand waarin een cel niet meer deelt",
-            "de fase waarin de chromatiden uit elkaar gaan",
+            "de fase waarin de chromatiden uit elkaar naar de polen gaan",
             "de fase waarin het cytoplasma zich splitst",
             "de fase waarin het DNA verdubbeld wordt",
         ],
@@ -253,7 +253,7 @@ DEEL2 = [
         vraag="Wat is het belang van de mitose?",
         opties=[
             "groei en herstel met cellen die genetisch identiek zijn",
-            "het vormen van haploïde geslachtscellen met variatie",
+            "het vormen van haploïde geslachtscellen met veel genetische variatie",
             "het halveren van het aantal chromosomen per cel",
             "het mengen van het erfelijk materiaal van twee ouders",
         ],

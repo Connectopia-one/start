@@ -69,7 +69,7 @@ DEEL1 = [
         vraag="Waarom noemt men een stuk brood met veel vezels een trage suiker?",
         opties=[
             "omdat de glucose er traag uit vrijkomt en de bloedsuiker minder piekt",
-            "omdat het in het geheel geen glucose of andere suiker bevat",
+            "omdat het in het geheel geen glucose, zetmeel of enige andere suiker bevat",
             "omdat het pas enkele dagen na het eten verteerd raakt",
             "omdat het in de maag eerst volledig tot vet omgezet wordt",
         ],
@@ -100,7 +100,7 @@ DEEL1 = [
         vraag="Wat kenmerkt een onverzadigd vetzuur?",
         opties=[
             "het bevat een of meer dubbele bindingen in zijn koolstofketen",
-            "het bevat uitsluitend enkelvoudige bindingen in zijn keten",
+            "het bevat uitsluitend enkelvoudige bindingen in zijn lange koolstofketen",
             "het bevat helemaal geen koolstofatomen in zijn keten",
             "het bevat altijd precies drie glycerolmoleculen",
         ],
@@ -120,7 +120,7 @@ DEEL1 = [
             "omdat het een waterminnende kop en waterafstotende staarten heeft",
             "omdat het helemaal uit waterminnende delen bestaat",
             "omdat het helemaal uit waterafstotende delen bestaat",
-            "omdat het zich in water volledig oplost tot losse atomen",
+            "omdat het zich in water volledig oplost tot losse atomen en ionen",
         ],
         antwoord=0,
         uitleg="In water keren de koppen zich naar buiten en de staarten naar elkaar toe. Zo vormt zich vanzelf een dubbellaag.",
@@ -268,7 +268,7 @@ DEEL2 = [
         vraag="Wat gebeurt er met een eiwit dat te sterk verhit wordt?",
         opties=[
             "het verliest zijn vorm en daarmee zijn werking",
-            "het wordt tot losse suikers afgebroken",
+            "het wordt tot losse suikers en vetzuren afgebroken",
             "het krijgt er vanzelf een subeenheid bij",
             "het verandert in een onverzadigd vetzuur",
         ],
@@ -331,7 +331,7 @@ DEEL2 = [
         vraag="Wat gebeurt er bij een hydrolysereactie?",
         opties=[
             "een binding wordt met behulp van water verbroken",
-            "een binding wordt gelegd waarbij water vrijkomt",
+            "een binding wordt gelegd waarbij er een watermolecule vrijkomt",
             "een molecule wordt tot zijn atomen verhit",
             "een molecule neemt een extra vetzuur op",
         ],
@@ -362,7 +362,7 @@ DEEL2 = [
         vraag="Waarom werkt een enzym maar op één bepaalde stof?",
         opties=[
             "omdat de vorm van zijn actieve plaats op die stof past",
-            "omdat het enzym die stof uit zichzelf aanmaakt",
+            "omdat het enzym die stof uit zichzelf aanmaakt en meteen gebruikt",
             "omdat het enzym enkel bij die stof in de cel zit",
             "omdat die stof het enzym van vorm doet veranderen",
         ],

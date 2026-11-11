@@ -12,7 +12,7 @@ from ww_hulp import I, M, W
 DEEL1 = [
     M(
         "Uit hoeveel holtes bestaat het menselijk hart?",
-        ["vier: twee boezems en twee kamers", "twee: één boezem en één kamer", "drie: twee boezems en één kamer", "zes: drie boezems en drie kamers"],
+        ["vier: twee boezems en twee kamers", "twee: één boezem en één kamer", "drie: twee boezems en één gemeenschappelijke kamer", "zes: drie boezems en drie kamers"],
         0,
         "Het hart heeft een linker- en een rechterboezem of atrium, en een linker- en een rechterkamer of ventrikel.",
     ),
@@ -24,7 +24,7 @@ DEEL1 = [
     ),
     M(
         "Welk bloedvat brengt zuurstofarm bloed uit het lichaam naar de rechterboezem?",
-        ["de bovenste en de onderste holle ader", "de longaders uit beide longen", "de aorta met de aortaboog", "de longslagader naar de longen"],
+        ["de bovenste en de onderste holle ader", "de longaders uit beide longen", "de aorta met de aortaboog", "de longslagader die naar de longen loopt"],
         0,
         "Het bloed uit het lichaam komt via de bovenste en de onderste holle ader in de rechterboezem.",
     ),
@@ -130,7 +130,7 @@ DEEL1 = [
         "Wat is het hartzakje of pericard?",
         [
             "een vlies rond het hart met wat vocht, zodat het vlot kan bewegen",
-            "de holte binnen in de linkerkamer waar het bloed verzameld wordt",
+            "de holte binnen in de linkerkamer waar het bloed verzameld wordt voor de aorta",
             "het buitenste deel van de aorta, vlak boven het hart",
             "het klepje tussen de rechterboezem en de rechterkamer",
         ],
@@ -225,7 +225,7 @@ DEEL2 = [
         "Wat registreert een elektrocardiogram of ECG?",
         [
             "de elektrische activiteit van het hart",
-            "de druk in de grote slagaders",
+            "de druk in de grote slagaders bij elke samentrekking",
             "de hoeveelheid zuurstof in het bloed",
             "het geluid van de hartkleppen",
         ],
@@ -292,7 +292,7 @@ DEEL2 = [
             "een slagader heeft een dikke, gespierde wand, een ader een dunnere wand met kleppen",
             "een slagader heeft kleppen tegen terugstroming en een ader heeft er geen",
             "een ader heeft altijd een dikkere en meer gespierde wand dan de slagader ernaast",
-            "een slagader vervoert bloed naar het hart, een ader bloed van het hart weg",
+            "een slagader vervoert bloed naar het hart toe, een ader vervoert bloed van het hart weg",
         ],
         0,
         "Slagaders moeten de hoge druk van het hart opvangen en hebben daarom een dikke wand. Aders hebben een lage druk, een dunnere wand en veneuze kleppen.",

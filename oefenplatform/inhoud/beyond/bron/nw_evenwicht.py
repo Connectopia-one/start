@@ -162,7 +162,7 @@ DEEL1 = [
             "om zeker te zijn dat het andere reagens volledig reageert",
             "om de reactie-energie van de reactie kleiner te maken",
             "om de activeringsenergie van de reactie te doen zakken",
-            "om van de reactie in het vat een evenwicht te maken",
+            "om van de aflopende reactie in het vat een evenwichtsreactie te maken",
         ],
         antwoord=0,
         uitleg="Met een overmaat kan het limiterend reagens niets anders dan opgebruikt worden. Zo haal je er zoveel product uit als mogelijk.",
@@ -172,7 +172,7 @@ DEEL1 = [
         vraag="In het evenwicht van ijzerthiocyanaat is de oplossing bloedrood. Wat zegt die kleur?",
         opties=[
             "dat er een duidelijke hoeveelheid gekleurd product aanwezig is",
-            "dat de reagentia allemaal volledig opgebruikt zijn",
+            "dat de reagentia allemaal volledig opgebruikt zijn en enkel het product overblijft",
             "dat de reactie van het begin af aan niet verlopen is",
             "dat de twee snelheden allebei tot nul gezakt zijn",
         ],
@@ -190,7 +190,7 @@ DEEL1 = [
         vraag="Welk beeld hoort bij een aflopende reactie op een concentratie-tijdgrafiek?",
         opties=[
             "de lijn van een reagens zakt tot op de horizontale as",
-            "alle lijnen lopen op het einde vlak maar boven de as",
+            "alle lijnen lopen op het einde vlak, maar telkens wat boven de as",
             "alle lijnen blijven van begin tot einde horizontaal",
             "de lijn van het product zakt naar de horizontale as",
         ],
@@ -256,7 +256,7 @@ DEEL2 = [
             "het evenwicht wordt sneller bereikt, maar ligt niet anders",
             "het evenwicht verschuift naar de kant van de producten",
             "het evenwicht verschuift naar de kant van de reagentia",
-            "het evenwicht wordt een aflopende reactie",
+            "het evenwicht verdwijnt en de reactie wordt een aflopende reactie",
         ],
         antwoord=0,
         uitleg="Hij verlaagt de activeringsenergie van de heen- en de terugreactie even veel. Daarom veranderen de eindconcentraties niet.",
@@ -285,7 +285,7 @@ DEEL2 = [
         opties=[
             "het evenwicht schuift naar rechts, naar de kant met minder gasdeeltjes",
             "het evenwicht schuift naar links, naar de kant met meer gasdeeltjes",
-            "het evenwicht blijft onveranderd, want er komt niets bij",
+            "het evenwicht blijft onveranderd, want er komt niets bij en er gaat niets af",
             "het evenwicht wordt een aflopende reactie naar rechts",
         ],
         antwoord=0,
@@ -320,7 +320,7 @@ DEEL2 = [
         vraag="Je voegt reagens toe aan een evenwicht. Wat gebeurt er met de snelheid van de heenreactie meteen na die toevoeging?",
         opties=[
             "die stijgt eerst en zakt daarna naar de nieuwe evenwichtswaarde",
-            "die zakt eerst en stijgt daarna weer",
+            "die zakt eerst even en stijgt daarna weer tot boven de oude waarde",
             "die blijft de hele tijd precies gelijk",
             "die wordt eerst nul en start daarna opnieuw",
         ],

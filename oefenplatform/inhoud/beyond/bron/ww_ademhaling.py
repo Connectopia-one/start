@@ -31,7 +31,7 @@ DEEL1 = [
         "Wat is de taak van het trilhaarepitheel met slijmcellen in de luchtwegen?",
         [
             "stof en ziektekiemen in slijm vangen en naar de keel afvoeren",
-            "zuurstof uit de lucht opnemen en aan het bloed geven",
+            "zuurstof uit de lucht opnemen en meteen aan het bloed in de haarvaten geven",
             "de luchtpijp stevig openhouden bij het inademen",
             "geluid maken wanneer de lucht langs de stembanden gaat",
         ],
@@ -71,7 +71,7 @@ DEEL1 = [
             "de dunne ruimte met vocht tussen het longvlies en het borstvlies",
             "de holte binnen in de luchtpijp waar de lucht door stroomt",
             "de ruimte in het strottenhoofd waar de stembanden liggen",
-            "de holte tussen de neusschelpen in de neus",
+            "de holte tussen de neusschelpen in de neus, waar de lucht verwarmd wordt",
         ],
         0,
         "Het longvlies bekleedt de long, het borstvlies de binnenkant van de borstkas. Het pleuravocht daartussen laat de long soepel meebewegen.",
@@ -80,7 +80,7 @@ DEEL1 = [
         "Wat gebeurt er bij de inademing met de middenrifademhaling?",
         [
             "het middenrif trekt samen en wordt platter, zodat de borstholte groter wordt",
-            "het middenrif ontspant en bolt op, zodat de borstholte kleiner wordt",
+            "het middenrif ontspant en bolt op, zodat de borstholte kleiner wordt en lucht binnenstroomt",
             "de buikspieren duwen de longen omhoog en de lucht naar binnen",
             "de longen zuigen zich zelf vol lucht door hun eigen spieren",
         ],
@@ -140,7 +140,7 @@ DEEL1 = [
         "Waar zit het strottenhoofd?",
         [
             "tussen de keelholte en de luchtpijp, met de stembanden erin",
-            "tussen de luchtpijp en de bronchiën, onder het borstbeen",
+            "tussen de luchtpijp en de bronchiën, onder het borstbeen in de borstkas",
             "tussen de neusholte en de mondholte, achter het verhemelte",
             "tussen de longen en het middenrif, onder in de borstkas",
         ],
@@ -230,7 +230,7 @@ DEEL2 = [
         "Wat is een spirogram?",
         [
             "een grafiek van het volume lucht dat iemand in- en uitademt in de tijd",
-            "een grafiek van de elektrische activiteit van het hart",
+            "een grafiek van de elektrische activiteit van het hart tijdens de inspanning",
             "een foto van de longen gemaakt met röntgenstralen",
             "een meting van de hoeveelheid zuurstof in het bloed",
         ],
@@ -279,7 +279,7 @@ DEEL2 = [
         "Wat gebeurt er bij een astma-aanval?",
         [
             "de bronchiolen vernauwen en zwellen op, zodat ademen moeilijk gaat",
-            "de longblaasjes vullen zich met bloed door een gebarsten ader",
+            "de longblaasjes vullen zich met bloed door een gebarsten ader in de long",
             "het middenrif verlamt tijdelijk en de longen vallen samen",
             "de luchtpijp verstopt volledig door een stuk voedsel",
         ],
@@ -290,7 +290,7 @@ DEEL2 = [
         "Wat is mucoviscidose?",
         [
             "een erfelijke ziekte waarbij taai slijm de luchtwegen en de alvleesklier verstopt",
-            "een infectie van de longen door een virus dat via de lucht overgaat",
+            "een infectie van de longen door een virus dat via de lucht van mens op mens overgaat",
             "een allergie voor pollen die vooral in de lente voorkomt",
             "een ontsteking van de stembanden door te luid te roepen",
         ],
