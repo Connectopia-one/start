@@ -102,8 +102,8 @@ DEEL1 = [
         vraag="Hoe vind je de persoonsvorm in een zin terug?",
         opties=[
             "je zet de zin in een andere tijd en kijkt welk werkwoord verandert",
-            "je neemt altijd het eerste werkwoord van de zin",
-            "je neemt altijd het langste werkwoord van de zin",
+            "je neemt altijd het eerste werkwoord van de zin, ook als er nog andere werkwoorden staan",
+            "je neemt altijd het langste werkwoord van de zin, want dat draagt de meeste betekenis",
             "je neemt het werkwoord dat achteraan staat",
         ],
         antwoord=0,
@@ -138,8 +138,8 @@ DEEL1 = [
         vraag="Waarom is 'De doos met oude boeken staan in de gang' fout?",
         opties=[
             "het onderwerp is enkelvoud, dus de persoonsvorm ook",
-            "'met' mag niet voor een meervoud staan",
-            "'oude' moet 'oud' zijn zonder e",
+            "'met' mag niet voor een meervoud staan, daar hoort 'van' te staan",
+            "'oude' moet 'oud' zijn zonder e, want 'boeken' is een het-woord",
             "de zin heeft geen lijdend voorwerp",
         ],
         antwoord=0,
@@ -325,9 +325,9 @@ DEEL2 = [
         vraag="Wat is het verschil tussen een samenstelling en een afleiding?",
         opties=[
             "bij een samenstelling kunnen beide delen los bestaan, bij een afleiding niet",
-            "een samenstelling is altijd langer dan een afleiding",
+            "een samenstelling is altijd langer dan een afleiding, omdat ze uit twee hele woorden bestaat",
             "een samenstelling komt alleen bij naamwoorden voor",
-            "een afleiding wordt altijd met een koppelteken geschreven",
+            "een afleiding wordt altijd met een koppelteken geschreven, een samenstelling aan elkaar",
         ],
         antwoord=0,
         uitleg="Deurklink bestaat uit deur en klink, allebei echte woorden. Leesbaar bestaat uit lees plus -baar, en -baar is geen woord.",

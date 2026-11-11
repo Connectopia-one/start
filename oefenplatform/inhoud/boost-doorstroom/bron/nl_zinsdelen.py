@@ -91,8 +91,8 @@ DEEL1 = [
         type="meerkeuze",
         vraag="Wat is het verschil tussen een werkwoordelijk en een naamwoordelijk gezegde?",
         opties=[
-            "een naamwoordelijk gezegde bevat een koppelwerkwoord en zegt iets over het onderwerp",
-            "een naamwoordelijk gezegde bestaat alleen uit naamwoorden zonder werkwoord",
+            "een naamwoordelijk gezegde heeft een koppelwerkwoord en zegt iets over het onderwerp",
+            "een naamwoordelijk gezegde bestaat alleen uit naamwoorden, zonder ook maar één werkwoord erin",
             "een werkwoordelijk gezegde staat altijd achteraan in de zin",
             "een werkwoordelijk gezegde komt alleen in bijzinnen voor",
         ],
@@ -128,7 +128,7 @@ DEEL1 = [
         vraag="Hoe vind je het lijdend voorwerp in een zin?",
         opties=[
             "je vraagt: wie of wat plus persoonsvorm plus onderwerp",
-            "je neemt het zinsdeel dat achteraan staat",
+            "je neemt het zinsdeel dat achteraan staat, na alle andere zinsdelen",
             "je neemt het zinsdeel met een voorzetsel ervoor",
             "je vraagt: waar of wanneer plus persoonsvorm",
         ],
@@ -170,9 +170,9 @@ DEEL1 = [
         vraag="Wat onderscheidt een voorzetselvoorwerp van een bijwoordelijke bepaling met een voorzetsel?",
         opties=[
             "bij een voorzetselvoorwerp ligt het voorzetsel vast bij het werkwoord",
-            "een voorzetselvoorwerp staat altijd vooraan in de zin",
+            "een voorzetselvoorwerp staat altijd vooraan in de zin, nog voor de persoonsvorm",
             "een bijwoordelijke bepaling bevat nooit een voorzetsel",
-            "een voorzetselvoorwerp bestaat uit precies twee woorden",
+            "een voorzetselvoorwerp bestaat uit precies twee woorden: het voorzetsel en een naamwoord",
         ],
         antwoord=0,
         uitleg="Je rekent óp iemand, je twijfelt áán iets. In 'hij zit op de bank' kan het voorzetsel wel wisselen, dus daar is het een bepaling.",
@@ -313,8 +313,8 @@ DEEL2 = [
         vraag="Waarom zeg je 'Morgen ga ik naar de markt' en niet 'Morgen ik ga naar de markt'?",
         opties=[
             "omdat de persoonsvorm in een hoofdzin op de tweede plaats blijft",
-            "omdat 'morgen' een bijzin inleidt",
-            "omdat het onderwerp nooit vooraan mag staan",
+            "omdat 'morgen' een bijzin inleidt en de persoonsvorm dan achteraan moet staan",
+            "omdat het onderwerp in een Nederlandse hoofdzin nooit vooraan mag staan",
             "omdat de zin anders in de verleden tijd zou staan",
         ],
         antwoord=0,
@@ -349,8 +349,8 @@ DEEL2 = [
         vraag="Wat verandert er als je 'De gemeente heeft het plein heraangelegd' in de lijdende vorm zet?",
         opties=[
             "'het plein' wordt het onderwerp en 'de gemeente' komt in een door-groep",
-            "de zin wordt vragend in plaats van mededelend",
-            "de zin verandert van verleden naar tegenwoordige tijd",
+            "de zin wordt vragend in plaats van mededelend, met de persoonsvorm helemaal vooraan",
+            "de zin verandert van de verleden tijd naar de tegenwoordige tijd, maar de rest blijft",
             "het werkwoord verdwijnt uit de zin",
         ],
         antwoord=0,
@@ -373,7 +373,7 @@ DEEL2 = [
         vraag="Waarom gebruiken ambtelijke teksten vaak de lijdende vorm?",
         opties=[
             "omdat je dan niet hoeft te zeggen wie iets gedaan heeft",
-            "omdat lijdende zinnen altijd korter zijn",
+            "omdat lijdende zinnen altijd korter en eenvoudiger zijn dan bedrijvende zinnen",
             "omdat de lijdende vorm minder spelfouten oplevert",
             "omdat een lijdende zin geen onderwerp nodig heeft",
         ],

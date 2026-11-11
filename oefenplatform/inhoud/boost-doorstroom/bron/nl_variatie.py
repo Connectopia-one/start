@@ -114,7 +114,7 @@ DEEL1 = [
         vraag="Waarom vermijd je jongerentaal in een sollicitatiegesprek?",
         opties=[
             "omdat ze in die situatie ongepast overkomt",
-            "omdat ze grammaticaal altijd fout is",
+            "omdat ze grammaticaal altijd fout is en vol schrijffouten staat",
             "omdat volwassenen ze nooit begrijpen",
             "omdat ze uit andere talen geleend is",
         ],
@@ -132,9 +132,9 @@ DEEL1 = [
         vraag="Waarom zet je in een klachtenmail beter geen rij uitroeptekens?",
         opties=[
             "omdat ze boos overkomen en de ontvanger in het defensief duwen",
-            "omdat uitroeptekens in het Nederlands niet bestaan",
+            "omdat uitroeptekens in het Nederlands alleen in verhalen en strips voorkomen",
             "omdat een mail geen leestekens mag bevatten",
-            "omdat je klacht dan geen feiten meer bevat",
+            "omdat je klacht dan geen feiten meer bevat, maar alleen nog gevoelens en meningen",
         ],
         antwoord=0,
         uitleg="Leestekens zijn ook toon. Wie zakelijk en concreet blijft, krijgt meestal sneller een oplossing.",
@@ -186,8 +186,8 @@ DEEL1 = [
         vraag="Welke afsluiting past bij een formele mail?",
         opties=[
             "Met vriendelijke groeten",
-            "Dikke kus",
-            "Later nog",
+            "Dikke kus en tot heel snel",
+            "Later nog, groetjes",
             "Ciao",
         ],
         antwoord=0,
@@ -213,9 +213,9 @@ DEEL2 = [
         vraag="Wat is standaardtaal?",
         opties=[
             "de variëteit die in het hele taalgebied als gepast geldt in formele situaties",
-            "de taal die de meeste mensen thuis met elkaar spreken",
+            "de taal die de meeste mensen in Vlaanderen en Nederland thuis met elkaar spreken",
             "de oudste vorm van het Nederlands, uit de middeleeuwen",
-            "de taal die alleen in Nederland en niet in Vlaanderen geldt",
+            "de taal die alleen in Nederland geldt en niet in Vlaanderen, waar men dialect spreekt",
         ],
         antwoord=0,
         uitleg="Standaardtaal is een afspraak, geen natuurwet. Ze is bruikbaar over heel het taalgebied heen.",
@@ -310,9 +310,9 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Waarom is oogcontact een cultuurgebonden gewoonte?",
         opties=[
-            "omdat dezelfde blik in de ene cultuur respect en in de andere brutaliteit betekent",
+            "omdat dezelfde blik in de ene cultuur beleefd is en in de andere brutaal",
             "omdat niet iedereen even goed ziet",
-            "omdat oogcontact enkel in gesprekken van dichtbij mogelijk is",
+            "omdat oogcontact enkel mogelijk is in gesprekken van dichtbij, en niet in een grote zaal",
             "omdat oogcontact geen deel uitmaakt van communicatie",
         ],
         antwoord=0,
@@ -329,7 +329,7 @@ DEEL2 = [
         vraag="Een West-Vlaming en een Limburger spreken elk hun dialect en verstaan elkaar nauwelijks. Wat toont dat?",
         opties=[
             "hoe ver regionale variëteiten uit elkaar kunnen liggen",
-            "dat een van de twee geen Nederlands spreekt",
+            "dat een van de twee eigenlijk geen Nederlands spreekt, maar een andere taal",
             "dat dialect geen taalvariëteit is",
             "dat standaardtaal in Vlaanderen niet bestaat",
         ],
@@ -387,7 +387,7 @@ DEEL2 = [
         opties=[
             "omdat de gekozen variëteit iets verraadt over zender en publiek",
             "omdat je dan weet hoeveel de tekst gekost heeft",
-            "omdat variëteiten de spelling van een tekst bepalen",
+            "omdat variëteiten de spelling van een tekst bepalen, en dus ook hoe je hem moet lezen",
             "omdat je dan het aantal alinea's kan voorspellen",
         ],
         antwoord=0,

@@ -774,7 +774,7 @@
           "opties": [
             "in de eerste zin is het voornaamwoord bijvoeglijk gebruikt, in de tweede zelfstandig",
             "in de eerste zin is het voornaamwoord bezittelijk, in de tweede persoonlijk",
-            "in de tweede zin ontbreekt het voornaamwoord helemaal",
+            "in de tweede zin ontbreekt het voornaamwoord helemaal en staat er enkel een lidwoord met een zelfstandig naamwoord",
             "in de tweede zin staat een aanwijzend voornaamwoord"
           ],
           "antwoord": 0,
@@ -990,9 +990,9 @@
           "vraag": "Waarom zijn verwijswoorden in een tekst meestal voornaamwoorden?",
           "opties": [
             "omdat een voornaamwoord een naamwoord vervangt dat eerder stond",
-            "omdat voornaamwoorden altijd vooraan de zin staan",
+            "omdat voornaamwoorden in een tekst altijd vooraan de zin of de alinea staan",
             "omdat voornaamwoorden de spelling vereenvoudigen",
-            "omdat voornaamwoorden nooit van vorm veranderen"
+            "omdat voornaamwoorden nooit van vorm veranderen, wat de tekst eenvoudiger maakt"
           ],
           "antwoord": 0,
           "uitleg": "Net daarom hoef je 'de burgemeester van onze gemeente' niet in elke zin te herhalen: 'hij' volstaat."
@@ -1194,8 +1194,8 @@
           "vraag": "Hoe vind je de persoonsvorm in een zin terug?",
           "opties": [
             "je zet de zin in een andere tijd en kijkt welk werkwoord verandert",
-            "je neemt altijd het eerste werkwoord van de zin",
-            "je neemt altijd het langste werkwoord van de zin",
+            "je neemt altijd het eerste werkwoord van de zin, ook als er nog andere werkwoorden staan",
+            "je neemt altijd het langste werkwoord van de zin, want dat draagt de meeste betekenis",
             "je neemt het werkwoord dat achteraan staat"
           ],
           "antwoord": 0,
@@ -1261,8 +1261,8 @@
           "vraag": "Waarom is 'De doos met oude boeken staan in de gang' fout?",
           "opties": [
             "het onderwerp is enkelvoud, dus de persoonsvorm ook",
-            "'met' mag niet voor een meervoud staan",
-            "'oude' moet 'oud' zijn zonder e",
+            "'met' mag niet voor een meervoud staan, daar hoort 'van' te staan",
+            "'oude' moet 'oud' zijn zonder e, want 'boeken' is een het-woord",
             "de zin heeft geen lijdend voorwerp"
           ],
           "antwoord": 0,
@@ -1863,9 +1863,9 @@
           "vraag": "Wat is het verschil tussen een samenstelling en een afleiding?",
           "opties": [
             "bij een samenstelling kunnen beide delen los bestaan, bij een afleiding niet",
-            "een samenstelling is altijd langer dan een afleiding",
+            "een samenstelling is altijd langer dan een afleiding, omdat ze uit twee hele woorden bestaat",
             "een samenstelling komt alleen bij naamwoorden voor",
-            "een afleiding wordt altijd met een koppelteken geschreven"
+            "een afleiding wordt altijd met een koppelteken geschreven, een samenstelling aan elkaar"
           ],
           "antwoord": 0,
           "uitleg": "Deurklink bestaat uit deur en klink, allebei echte woorden. Leesbaar bestaat uit lees plus -baar, en -baar is geen woord."
@@ -2302,8 +2302,8 @@
           "type": "meerkeuze",
           "vraag": "Wat is het verschil tussen een werkwoordelijk en een naamwoordelijk gezegde?",
           "opties": [
-            "een naamwoordelijk gezegde bevat een koppelwerkwoord en zegt iets over het onderwerp",
-            "een naamwoordelijk gezegde bestaat alleen uit naamwoorden zonder werkwoord",
+            "een naamwoordelijk gezegde heeft een koppelwerkwoord en zegt iets over het onderwerp",
+            "een naamwoordelijk gezegde bestaat alleen uit naamwoorden, zonder ook maar één werkwoord erin",
             "een werkwoordelijk gezegde staat altijd achteraan in de zin",
             "een werkwoordelijk gezegde komt alleen in bijzinnen voor"
           ],
@@ -2370,7 +2370,7 @@
           "vraag": "Hoe vind je het lijdend voorwerp in een zin?",
           "opties": [
             "je vraagt: wie of wat plus persoonsvorm plus onderwerp",
-            "je neemt het zinsdeel dat achteraan staat",
+            "je neemt het zinsdeel dat achteraan staat, na alle andere zinsdelen",
             "je neemt het zinsdeel met een voorzetsel ervoor",
             "je vraagt: waar of wanneer plus persoonsvorm"
           ],
@@ -2491,9 +2491,9 @@
           "vraag": "Wat onderscheidt een voorzetselvoorwerp van een bijwoordelijke bepaling met een voorzetsel?",
           "opties": [
             "bij een voorzetselvoorwerp ligt het voorzetsel vast bij het werkwoord",
-            "een voorzetselvoorwerp staat altijd vooraan in de zin",
+            "een voorzetselvoorwerp staat altijd vooraan in de zin, nog voor de persoonsvorm",
             "een bijwoordelijke bepaling bevat nooit een voorzetsel",
-            "een voorzetselvoorwerp bestaat uit precies twee woorden"
+            "een voorzetselvoorwerp bestaat uit precies twee woorden: het voorzetsel en een naamwoord"
           ],
           "antwoord": 0,
           "uitleg": "Je rekent óp iemand, je twijfelt áán iets. In 'hij zit op de bank' kan het voorzetsel wel wisselen, dus daar is het een bepaling."
@@ -2829,8 +2829,8 @@
           "vraag": "Waarom zeg je 'Morgen ga ik naar de markt' en niet 'Morgen ik ga naar de markt'?",
           "opties": [
             "omdat de persoonsvorm in een hoofdzin op de tweede plaats blijft",
-            "omdat 'morgen' een bijzin inleidt",
-            "omdat het onderwerp nooit vooraan mag staan",
+            "omdat 'morgen' een bijzin inleidt en de persoonsvorm dan achteraan moet staan",
+            "omdat het onderwerp in een Nederlandse hoofdzin nooit vooraan mag staan",
             "omdat de zin anders in de verleden tijd zou staan"
           ],
           "antwoord": 0,
@@ -2912,8 +2912,8 @@
           "vraag": "Wat verandert er als je 'De gemeente heeft het plein heraangelegd' in de lijdende vorm zet?",
           "opties": [
             "'het plein' wordt het onderwerp en 'de gemeente' komt in een door-groep",
-            "de zin wordt vragend in plaats van mededelend",
-            "de zin verandert van verleden naar tegenwoordige tijd",
+            "de zin wordt vragend in plaats van mededelend, met de persoonsvorm helemaal vooraan",
+            "de zin verandert van de verleden tijd naar de tegenwoordige tijd, maar de rest blijft",
             "het werkwoord verdwijnt uit de zin"
           ],
           "antwoord": 0,
@@ -2984,7 +2984,7 @@
           "vraag": "Waarom gebruiken ambtelijke teksten vaak de lijdende vorm?",
           "opties": [
             "omdat je dan niet hoeft te zeggen wie iets gedaan heeft",
-            "omdat lijdende zinnen altijd korter zijn",
+            "omdat lijdende zinnen altijd korter en eenvoudiger zijn dan bedrijvende zinnen",
             "omdat de lijdende vorm minder spelfouten oplevert",
             "omdat een lijdende zin geen onderwerp nodig heeft"
           ],
@@ -3066,10 +3066,10 @@
           "type": "meerkeuze",
           "vraag": "Wat bedoelen we met een woord met een veranderlijk woordbeeld?",
           "opties": [
-            "een woord waarvan de letters veranderen in een andere vorm, zoals huis en huizen",
+            "een woord waarvan de letters wisselen in een andere vorm, zoals huis en huizen",
             "een woord dat je op twee manieren mag spellen",
-            "een woord dat in de loop der eeuwen van betekenis veranderd is",
-            "een woord dat zowel enkelvoud als meervoud kan zijn"
+            "een woord dat in de loop der eeuwen van betekenis veranderd is, zoals vroeger en nu",
+            "een woord dat zowel enkelvoud als meervoud kan zijn zonder dat er iets aan verandert"
           ],
           "antwoord": 0,
           "uitleg": "De s wordt een z, de f wordt een v. Je hoort het verschil, en je schrijft het ook."
@@ -3613,7 +3613,7 @@
           "vraag": "Wanneer schrijf je een werkwoordsvorm met -dt?",
           "opties": [
             "bij de derde persoon enkelvoud van een stam die op d eindigt",
-            "bij elke verleden tijd van een sterk werkwoord",
+            "bij elke verleden tijd van een sterk werkwoord, zoals in 'hij vondt' of 'zij bondt'",
             "bij elk voltooid deelwoord met ge- ervoor",
             "bij de gebiedende wijs van een zwak werkwoord"
           ],
@@ -3632,8 +3632,8 @@
           "vraag": "Waarvoor gebruik je een dubbele punt?",
           "opties": [
             "om een opsomming, een verklaring of een citaat aan te kondigen",
-            "om een zin definitief af te sluiten",
-            "om een tussenzin aan beide kanten af te bakenen",
+            "om een zin definitief af te sluiten, net zoals een punt dat doet aan het einde",
+            "om een tussenzin aan beide kanten af te bakenen, zodat hij los van de rest staat",
             "om aan te geven dat een zin onafgemaakt blijft"
           ],
           "antwoord": 0,
@@ -3860,10 +3860,10 @@
           "type": "meerkeuze",
           "vraag": "Wat is een doffe klank?",
           "opties": [
-            "de onbeklemtoonde e, zoals in 'de' en in de laatste lettergreep van 'lopen'",
-            "een klinker die je extra lang aanhoudt",
+            "de onbeklemtoonde e, zoals in 'de' en achteraan in 'lopen'",
+            "een klinker die je extra lang aanhoudt, zoals in 'maan' of 'zee'",
             "een medeklinker die je nauwelijks hoort",
-            "de klank van twee klinkers na elkaar"
+            "de klank van twee klinkers na elkaar, zoals in 'ui' of 'ei'"
           ],
           "antwoord": 0,
           "uitleg": "Je hoort hem in bijna elk Nederlands woord van meer dan één lettergreep, en hij draagt nooit de klemtoon."
@@ -3929,7 +3929,7 @@
           "vraag": "Waarvoor dient intonatie?",
           "opties": [
             "om betekenis en gevoel mee te geven aan dezelfde woorden",
-            "om de spelling van een woord vast te leggen",
+            "om de spelling van een woord vast te leggen, zodat iedereen het hetzelfde schrijft",
             "om het aantal lettergrepen te bepalen",
             "om klinkers van medeklinkers te onderscheiden"
           ],
@@ -4083,7 +4083,7 @@
           "vraag": "Waarom staat er een komma in 'Hoewel het goot, gingen we toch buiten spelen'?",
           "opties": [
             "om de bijzin van de hoofdzin te scheiden",
-            "om een opsomming aan te kondigen",
+            "om een opsomming aan te kondigen die na de komma volgt",
             "om een citaat in te leiden",
             "om aan te geven dat de zin onaf is"
           ],

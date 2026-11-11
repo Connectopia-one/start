@@ -66,7 +66,7 @@ DEEL1 = [
         vraag="Je vindt een artikel zonder auteur en zonder datum. Wat besluit je daaruit?",
         opties=[
             "je kan twee belangrijke criteria niet nagaan",
-            "de tekst is zeker verzonnen",
+            "de tekst is zeker verzonnen door iemand die anoniem wil blijven",
             "de tekst is zeker betrouwbaar",
             "de tekst is zeker een publireportage",
         ],
@@ -120,7 +120,7 @@ DEEL1 = [
         vraag="Waarom telt het kanaal mee als je betrouwbaarheid inschat?",
         opties=[
             "omdat sommige kanalen redactionele controle hebben en andere niet",
-            "omdat een bericht op papier altijd waar is",
+            "omdat een bericht op papier altijd waar is, en een bericht op een scherm niet",
             "omdat een bericht op een scherm sneller geschreven is",
             "omdat het kanaal bepaalt wie de zender is",
         ],
@@ -156,7 +156,7 @@ DEEL1 = [
         vraag="Waarom is het nuttig te weten wie een onderzoek betaald heeft?",
         opties=[
             "omdat de opdrachtgever belang kan hebben bij de uitkomst",
-            "omdat onderzoek zonder geld nooit gebeurt",
+            "omdat onderzoek zonder geld nooit gebeurt, en het dus altijd betaald moet zijn",
             "omdat de opdrachtgever de tekst geschreven heeft",
             "omdat je dan weet hoe oud het onderzoek is",
         ],
@@ -193,9 +193,9 @@ DEEL1 = [
         vraag="Wat bedoel je met 'welke opvattingen en waardeoordelen bevat de tekst'?",
         opties=[
             "welke overtuigingen de schrijver als vanzelfsprekend aanneemt",
-            "hoeveel bronnen de schrijver onderaan vermeldt",
+            "hoeveel bronnen de schrijver onderaan vermeldt en hoe betrouwbaar die zijn",
             "welk kanaal de schrijver gekozen heeft",
-            "hoe recent de gegevens in de tekst zijn",
+            "hoe recent de gegevens in de tekst zijn en of ze nog kloppen met vandaag",
         ],
         antwoord=0,
         uitleg="Achter elke tekst zitten aannames. Wie ze herkent, ziet waar de schrijver vertrekt zonder het te bewijzen.",
@@ -213,9 +213,9 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Wat is framing?",
         opties=[
-            "een onderwerp in een bepaald kader zetten door je woordkeuze en invalshoek",
-            "een tekst opdelen in duidelijke alinea's met tussentitels",
-            "een bron citeren die je zelf niet gelezen hebt",
+            "een onderwerp in een kader zetten door je woordkeuze en invalshoek",
+            "een tekst opdelen in duidelijke alinea's met tussentitels, zodat de lezer houvast heeft",
+            "een bron citeren die je zelf niet gelezen hebt, maar die wel vaak aangehaald wordt",
             "een tekst schrijven zonder enige spelfout erin",
         ],
         antwoord=0,
@@ -275,7 +275,7 @@ DEEL2 = [
         vraag="Twee kranten berichten over dezelfde betoging: 'Duizenden op straat voor het klimaat' en 'Klimaatbetoging legt centrum lam'. Wat toont dat aan?",
         opties=[
             "dezelfde feiten kunnen heel verschillend geframed worden",
-            "een van de twee kranten heeft de feiten verzonnen",
+            "een van de twee kranten heeft de feiten gewoon verzonnen",
             "de eerste krant is betrouwbaar, de tweede niet",
             "framing komt alleen in reclame voor",
         ],
@@ -353,8 +353,8 @@ DEEL2 = [
         vraag="Waarom is een publireportage lastiger te herkennen dan een gewone reclamespot?",
         opties=[
             "omdat hij de vorm en de opmaak van een artikel leent",
-            "omdat hij altijd korter is dan een spot",
-            "omdat hij nooit een merknaam vermeldt",
+            "omdat hij altijd korter is dan een spot en daardoor sneller voorbij is",
+            "omdat hij nooit een merknaam of een logo vermeldt",
             "omdat hij enkel op papier verschijnt",
         ],
         antwoord=0,
@@ -378,7 +378,7 @@ DEEL2 = [
         vraag="Twee betrouwbare bronnen spreken elkaar tegen. Wat doe je?",
         opties=[
             "je zoekt een derde bron en vergelijkt hoe ze aan hun gegevens komen",
-            "je kiest de bron die het kortste artikel heeft",
+            "je kiest de bron die het kortste en eenvoudigste artikel heeft geschreven",
             "je gaat ervan uit dat allebei de bronnen onbetrouwbaar zijn",
             "je neemt het gemiddelde van de twee cijfers",
         ],

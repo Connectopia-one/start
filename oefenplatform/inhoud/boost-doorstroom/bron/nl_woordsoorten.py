@@ -273,7 +273,7 @@ DEEL2 = [
         opties=[
             "in de eerste zin is het voornaamwoord bijvoeglijk gebruikt, in de tweede zelfstandig",
             "in de eerste zin is het voornaamwoord bezittelijk, in de tweede persoonlijk",
-            "in de tweede zin ontbreekt het voornaamwoord helemaal",
+            "in de tweede zin ontbreekt het voornaamwoord helemaal en staat er enkel een lidwoord met een zelfstandig naamwoord",
             "in de tweede zin staat een aanwijzend voornaamwoord",
         ],
         antwoord=0,
@@ -375,9 +375,9 @@ DEEL2 = [
         vraag="Waarom zijn verwijswoorden in een tekst meestal voornaamwoorden?",
         opties=[
             "omdat een voornaamwoord een naamwoord vervangt dat eerder stond",
-            "omdat voornaamwoorden altijd vooraan de zin staan",
+            "omdat voornaamwoorden in een tekst altijd vooraan de zin of de alinea staan",
             "omdat voornaamwoorden de spelling vereenvoudigen",
-            "omdat voornaamwoorden nooit van vorm veranderen",
+            "omdat voornaamwoorden nooit van vorm veranderen, wat de tekst eenvoudiger maakt",
         ],
         antwoord=0,
         uitleg="Net daarom hoef je 'de burgemeester van onze gemeente' niet in elke zin te herhalen: 'hij' volstaat.",

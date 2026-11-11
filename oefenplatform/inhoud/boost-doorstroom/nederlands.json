@@ -62,7 +62,7 @@
           "vraag": "Wat bedoelen we met de context van een boodschap?",
           "opties": [
             "de situatie waarin de boodschap verstuurd en gelezen wordt",
-            "de woorden die de zender precies gekozen heeft",
+            "de woorden die de zender precies gekozen heeft om zijn boodschap over te brengen",
             "het gevoel dat de ontvanger achteraf overhoudt",
             "de drager waarlangs de boodschap verstuurd wordt"
           ],
@@ -212,7 +212,7 @@
           "vraag": "Waarom staat 'context' apart in het communicatiemodel?",
           "opties": [
             "omdat dezelfde zin in een andere situatie iets anders betekent",
-            "omdat elke tekst een inleiding, midden en slot heeft",
+            "omdat elke tekst een inleiding, een midden en een slot moet hebben",
             "omdat een boodschap altijd langs één kanaal reist",
             "omdat de zender de ontvanger meestal persoonlijk kent"
           ],
@@ -249,7 +249,7 @@
           "vraag": "Wat is het verschil tussen een opiniërende en een argumentatieve tekst?",
           "opties": [
             "een opiniërende tekst geeft vooral een oordeel, een argumentatieve bouwt het op",
-            "een opiniërende tekst verschijnt altijd in een krant of tijdschrift",
+            "een opiniërende tekst verschijnt altijd in een krant of een tijdschrift, nooit online",
             "een argumentatieve tekst is altijd langer dan een opiniërende tekst",
             "een argumentatieve tekst mag geen enkele mening van de schrijver bevatten"
           ],
@@ -547,7 +547,7 @@
           "vraag": "Je neemt notities bij een luistertekst. Wat is daarbij verstandig?",
           "opties": [
             "afkortingen en symbolen gebruiken in telegramstijl",
-            "elke zin letterlijk en volledig opschrijven",
+            "elke zin letterlijk en volledig opschrijven, zodat je niets mist",
             "pas achteraf uit je hoofd alles noteren",
             "alleen de woorden noteren die je niet kent"
           ],
@@ -829,7 +829,7 @@
           "vraag": "Waarom zijn signaalwoorden nuttig als je leest?",
           "opties": [
             "ze laten je de gedachtegang van de schrijver reconstrueren",
-            "ze vertellen je hoe lang de tekst nog duurt",
+            "ze vertellen je hoe lang de tekst nog duurt en hoeveel alinea's er nog volgen",
             "ze verraden welk register de schrijver gebruikt",
             "ze geven aan wie de zender van de tekst is"
           ],
@@ -919,10 +919,10 @@
           "type": "meerkeuze",
           "vraag": "Wat is het verschil tussen een stelling en een standpunt?",
           "opties": [
-            "de stelling staat ter discussie, het standpunt is de kant die jij kiest",
+            "de stelling staat ter discussie, het standpunt is de kant die je kiest",
             "de stelling is een feit, het standpunt is een mening",
-            "de stelling staat vooraan, het standpunt helemaal achteraan",
-            "de stelling is van de schrijver, het standpunt van de lezer"
+            "de stelling staat altijd vooraan in de tekst, het standpunt helemaal achteraan",
+            "de stelling is van de schrijver, het standpunt is altijd van de lezer van de tekst"
           ],
           "antwoord": 0,
           "uitleg": "'De schooldag moet later beginnen' is de stelling. Jij bent voor of tegen: dat is je standpunt."
@@ -1058,7 +1058,7 @@
           "vraag": "Waaraan merk je in een tekst dat de schrijver subjectief wordt?",
           "opties": [
             "aan waardewoorden zoals schitterend of belachelijk",
-            "aan het gebruik van jaartallen en getallen",
+            "aan het gebruik van jaartallen, getallen en percentages",
             "aan de indeling in korte alinea's",
             "aan de aanwezigheid van tussentitels"
           ],
@@ -1076,7 +1076,7 @@
           "vraag": "Waarom is het bij overtuigen belangrijk feiten en meningen uit elkaar te houden?",
           "opties": [
             "omdat je lezer anders niet weet wat hij kan nagaan",
-            "omdat meningen in een betoog verboden zijn",
+            "omdat meningen in een betoog verboden zijn en alleen feiten mogen tellen",
             "omdat feiten altijd korter zijn dan meningen",
             "omdat je anders geen conclusie mag trekken"
           ],
@@ -1189,8 +1189,8 @@
           "vraag": "'Jij hebt nooit gewerkt, dus over lonen moet jij zwijgen.' Wat is hier mis?",
           "opties": [
             "de persoon wordt aangevallen in plaats van het argument",
-            "er worden te veel cijfers gebruikt",
-            "de conclusie staat te vroeg in de tekst",
+            "er worden te veel cijfers gebruikt om het argument te onderbouwen",
+            "de conclusie staat te vroeg in de tekst, nog voor het argument zelf",
             "er wordt een vergelijking gemaakt die klopt"
           ],
           "antwoord": 0,
@@ -1420,7 +1420,7 @@
           "vraag": "Je vindt een artikel zonder auteur en zonder datum. Wat besluit je daaruit?",
           "opties": [
             "je kan twee belangrijke criteria niet nagaan",
-            "de tekst is zeker verzonnen",
+            "de tekst is zeker verzonnen door iemand die anoniem wil blijven",
             "de tekst is zeker betrouwbaar",
             "de tekst is zeker een publireportage"
           ],
@@ -1479,7 +1479,7 @@
           "vraag": "Waarom telt het kanaal mee als je betrouwbaarheid inschat?",
           "opties": [
             "omdat sommige kanalen redactionele controle hebben en andere niet",
-            "omdat een bericht op papier altijd waar is",
+            "omdat een bericht op papier altijd waar is, en een bericht op een scherm niet",
             "omdat een bericht op een scherm sneller geschreven is",
             "omdat het kanaal bepaalt wie de zender is"
           ],
@@ -1518,7 +1518,7 @@
           "vraag": "Waarom is het nuttig te weten wie een onderzoek betaald heeft?",
           "opties": [
             "omdat de opdrachtgever belang kan hebben bij de uitkomst",
-            "omdat onderzoek zonder geld nooit gebeurt",
+            "omdat onderzoek zonder geld nooit gebeurt, en het dus altijd betaald moet zijn",
             "omdat de opdrachtgever de tekst geschreven heeft",
             "omdat je dan weet hoe oud het onderzoek is"
           ],
@@ -1560,9 +1560,9 @@
           "vraag": "Wat bedoel je met 'welke opvattingen en waardeoordelen bevat de tekst'?",
           "opties": [
             "welke overtuigingen de schrijver als vanzelfsprekend aanneemt",
-            "hoeveel bronnen de schrijver onderaan vermeldt",
+            "hoeveel bronnen de schrijver onderaan vermeldt en hoe betrouwbaar die zijn",
             "welk kanaal de schrijver gekozen heeft",
-            "hoe recent de gegevens in de tekst zijn"
+            "hoe recent de gegevens in de tekst zijn en of ze nog kloppen met vandaag"
           ],
           "antwoord": 0,
           "uitleg": "Achter elke tekst zitten aannames. Wie ze herkent, ziet waar de schrijver vertrekt zonder het te bewijzen."
@@ -1587,9 +1587,9 @@
           "type": "meerkeuze",
           "vraag": "Wat is framing?",
           "opties": [
-            "een onderwerp in een bepaald kader zetten door je woordkeuze en invalshoek",
-            "een tekst opdelen in duidelijke alinea's met tussentitels",
-            "een bron citeren die je zelf niet gelezen hebt",
+            "een onderwerp in een kader zetten door je woordkeuze en invalshoek",
+            "een tekst opdelen in duidelijke alinea's met tussentitels, zodat de lezer houvast heeft",
+            "een bron citeren die je zelf niet gelezen hebt, maar die wel vaak aangehaald wordt",
             "een tekst schrijven zonder enige spelfout erin"
           ],
           "antwoord": 0,
@@ -1657,7 +1657,7 @@
           "vraag": "Twee kranten berichten over dezelfde betoging: 'Duizenden op straat voor het klimaat' en 'Klimaatbetoging legt centrum lam'. Wat toont dat aan?",
           "opties": [
             "dezelfde feiten kunnen heel verschillend geframed worden",
-            "een van de twee kranten heeft de feiten verzonnen",
+            "een van de twee kranten heeft de feiten gewoon verzonnen",
             "de eerste krant is betrouwbaar, de tweede niet",
             "framing komt alleen in reclame voor"
           ],
@@ -1743,8 +1743,8 @@
           "vraag": "Waarom is een publireportage lastiger te herkennen dan een gewone reclamespot?",
           "opties": [
             "omdat hij de vorm en de opmaak van een artikel leent",
-            "omdat hij altijd korter is dan een spot",
-            "omdat hij nooit een merknaam vermeldt",
+            "omdat hij altijd korter is dan een spot en daardoor sneller voorbij is",
+            "omdat hij nooit een merknaam of een logo vermeldt",
             "omdat hij enkel op papier verschijnt"
           ],
           "antwoord": 0,
@@ -1773,7 +1773,7 @@
           "vraag": "Twee betrouwbare bronnen spreken elkaar tegen. Wat doe je?",
           "opties": [
             "je zoekt een derde bron en vergelijkt hoe ze aan hun gegevens komen",
-            "je kiest de bron die het kortste artikel heeft",
+            "je kiest de bron die het kortste en eenvoudigste artikel heeft geschreven",
             "je gaat ervan uit dat allebei de bronnen onbetrouwbaar zijn",
             "je neemt het gemiddelde van de twee cijfers"
           ],
@@ -1933,7 +1933,7 @@
           "vraag": "Waarom vermijd je jongerentaal in een sollicitatiegesprek?",
           "opties": [
             "omdat ze in die situatie ongepast overkomt",
-            "omdat ze grammaticaal altijd fout is",
+            "omdat ze grammaticaal altijd fout is en vol schrijffouten staat",
             "omdat volwassenen ze nooit begrijpen",
             "omdat ze uit andere talen geleend is"
           ],
@@ -1954,9 +1954,9 @@
           "vraag": "Waarom zet je in een klachtenmail beter geen rij uitroeptekens?",
           "opties": [
             "omdat ze boos overkomen en de ontvanger in het defensief duwen",
-            "omdat uitroeptekens in het Nederlands niet bestaan",
+            "omdat uitroeptekens in het Nederlands alleen in verhalen en strips voorkomen",
             "omdat een mail geen leestekens mag bevatten",
-            "omdat je klacht dan geen feiten meer bevat"
+            "omdat je klacht dan geen feiten meer bevat, maar alleen nog gevoelens en meningen"
           ],
           "antwoord": 0,
           "uitleg": "Leestekens zijn ook toon. Wie zakelijk en concreet blijft, krijgt meestal sneller een oplossing."
@@ -2011,8 +2011,8 @@
           "vraag": "Welke afsluiting past bij een formele mail?",
           "opties": [
             "Met vriendelijke groeten",
-            "Dikke kus",
-            "Later nog",
+            "Dikke kus en tot heel snel",
+            "Later nog, groetjes",
             "Ciao"
           ],
           "antwoord": 0,
@@ -2042,9 +2042,9 @@
           "vraag": "Wat is standaardtaal?",
           "opties": [
             "de variëteit die in het hele taalgebied als gepast geldt in formele situaties",
-            "de taal die de meeste mensen thuis met elkaar spreken",
+            "de taal die de meeste mensen in Vlaanderen en Nederland thuis met elkaar spreken",
             "de oudste vorm van het Nederlands, uit de middeleeuwen",
-            "de taal die alleen in Nederland en niet in Vlaanderen geldt"
+            "de taal die alleen in Nederland geldt en niet in Vlaanderen, waar men dialect spreekt"
           ],
           "antwoord": 0,
           "uitleg": "Standaardtaal is een afspraak, geen natuurwet. Ze is bruikbaar over heel het taalgebied heen."
@@ -2159,9 +2159,9 @@
           "type": "meerkeuze",
           "vraag": "Waarom is oogcontact een cultuurgebonden gewoonte?",
           "opties": [
-            "omdat dezelfde blik in de ene cultuur respect en in de andere brutaliteit betekent",
+            "omdat dezelfde blik in de ene cultuur beleefd is en in de andere brutaal",
             "omdat niet iedereen even goed ziet",
-            "omdat oogcontact enkel in gesprekken van dichtbij mogelijk is",
+            "omdat oogcontact enkel mogelijk is in gesprekken van dichtbij, en niet in een grote zaal",
             "omdat oogcontact geen deel uitmaakt van communicatie"
           ],
           "antwoord": 0,
@@ -2181,7 +2181,7 @@
           "vraag": "Een West-Vlaming en een Limburger spreken elk hun dialect en verstaan elkaar nauwelijks. Wat toont dat?",
           "opties": [
             "hoe ver regionale variëteiten uit elkaar kunnen liggen",
-            "dat een van de twee geen Nederlands spreekt",
+            "dat een van de twee eigenlijk geen Nederlands spreekt, maar een andere taal",
             "dat dialect geen taalvariëteit is",
             "dat standaardtaal in Vlaanderen niet bestaat"
           ],
@@ -2254,7 +2254,7 @@
           "opties": [
             "omdat de gekozen variëteit iets verraadt over zender en publiek",
             "omdat je dan weet hoeveel de tekst gekost heeft",
-            "omdat variëteiten de spelling van een tekst bepalen",
+            "omdat variëteiten de spelling van een tekst bepalen, en dus ook hoe je hem moet lezen",
             "omdat je dan het aantal alinea's kan voorspellen"
           ],
           "antwoord": 0,
@@ -3036,7 +3036,7 @@
           "opties": [
             "in de eerste zin is het voornaamwoord bijvoeglijk gebruikt, in de tweede zelfstandig",
             "in de eerste zin is het voornaamwoord bezittelijk, in de tweede persoonlijk",
-            "in de tweede zin ontbreekt het voornaamwoord helemaal",
+            "in de tweede zin ontbreekt het voornaamwoord helemaal en staat er enkel een lidwoord met een zelfstandig naamwoord",
             "in de tweede zin staat een aanwijzend voornaamwoord"
           ],
           "antwoord": 0,
@@ -3252,9 +3252,9 @@
           "vraag": "Waarom zijn verwijswoorden in een tekst meestal voornaamwoorden?",
           "opties": [
             "omdat een voornaamwoord een naamwoord vervangt dat eerder stond",
-            "omdat voornaamwoorden altijd vooraan de zin staan",
+            "omdat voornaamwoorden in een tekst altijd vooraan de zin of de alinea staan",
             "omdat voornaamwoorden de spelling vereenvoudigen",
-            "omdat voornaamwoorden nooit van vorm veranderen"
+            "omdat voornaamwoorden nooit van vorm veranderen, wat de tekst eenvoudiger maakt"
           ],
           "antwoord": 0,
           "uitleg": "Net daarom hoef je 'de burgemeester van onze gemeente' niet in elke zin te herhalen: 'hij' volstaat."
@@ -3456,8 +3456,8 @@
           "vraag": "Hoe vind je de persoonsvorm in een zin terug?",
           "opties": [
             "je zet de zin in een andere tijd en kijkt welk werkwoord verandert",
-            "je neemt altijd het eerste werkwoord van de zin",
-            "je neemt altijd het langste werkwoord van de zin",
+            "je neemt altijd het eerste werkwoord van de zin, ook als er nog andere werkwoorden staan",
+            "je neemt altijd het langste werkwoord van de zin, want dat draagt de meeste betekenis",
             "je neemt het werkwoord dat achteraan staat"
           ],
           "antwoord": 0,
@@ -3523,8 +3523,8 @@
           "vraag": "Waarom is 'De doos met oude boeken staan in de gang' fout?",
           "opties": [
             "het onderwerp is enkelvoud, dus de persoonsvorm ook",
-            "'met' mag niet voor een meervoud staan",
-            "'oude' moet 'oud' zijn zonder e",
+            "'met' mag niet voor een meervoud staan, daar hoort 'van' te staan",
+            "'oude' moet 'oud' zijn zonder e, want 'boeken' is een het-woord",
             "de zin heeft geen lijdend voorwerp"
           ],
           "antwoord": 0,
@@ -4125,9 +4125,9 @@
           "vraag": "Wat is het verschil tussen een samenstelling en een afleiding?",
           "opties": [
             "bij een samenstelling kunnen beide delen los bestaan, bij een afleiding niet",
-            "een samenstelling is altijd langer dan een afleiding",
+            "een samenstelling is altijd langer dan een afleiding, omdat ze uit twee hele woorden bestaat",
             "een samenstelling komt alleen bij naamwoorden voor",
-            "een afleiding wordt altijd met een koppelteken geschreven"
+            "een afleiding wordt altijd met een koppelteken geschreven, een samenstelling aan elkaar"
           ],
           "antwoord": 0,
           "uitleg": "Deurklink bestaat uit deur en klink, allebei echte woorden. Leesbaar bestaat uit lees plus -baar, en -baar is geen woord."
@@ -4564,8 +4564,8 @@
           "type": "meerkeuze",
           "vraag": "Wat is het verschil tussen een werkwoordelijk en een naamwoordelijk gezegde?",
           "opties": [
-            "een naamwoordelijk gezegde bevat een koppelwerkwoord en zegt iets over het onderwerp",
-            "een naamwoordelijk gezegde bestaat alleen uit naamwoorden zonder werkwoord",
+            "een naamwoordelijk gezegde heeft een koppelwerkwoord en zegt iets over het onderwerp",
+            "een naamwoordelijk gezegde bestaat alleen uit naamwoorden, zonder ook maar één werkwoord erin",
             "een werkwoordelijk gezegde staat altijd achteraan in de zin",
             "een werkwoordelijk gezegde komt alleen in bijzinnen voor"
           ],
@@ -4632,7 +4632,7 @@
           "vraag": "Hoe vind je het lijdend voorwerp in een zin?",
           "opties": [
             "je vraagt: wie of wat plus persoonsvorm plus onderwerp",
-            "je neemt het zinsdeel dat achteraan staat",
+            "je neemt het zinsdeel dat achteraan staat, na alle andere zinsdelen",
             "je neemt het zinsdeel met een voorzetsel ervoor",
             "je vraagt: waar of wanneer plus persoonsvorm"
           ],
@@ -4753,9 +4753,9 @@
           "vraag": "Wat onderscheidt een voorzetselvoorwerp van een bijwoordelijke bepaling met een voorzetsel?",
           "opties": [
             "bij een voorzetselvoorwerp ligt het voorzetsel vast bij het werkwoord",
-            "een voorzetselvoorwerp staat altijd vooraan in de zin",
+            "een voorzetselvoorwerp staat altijd vooraan in de zin, nog voor de persoonsvorm",
             "een bijwoordelijke bepaling bevat nooit een voorzetsel",
-            "een voorzetselvoorwerp bestaat uit precies twee woorden"
+            "een voorzetselvoorwerp bestaat uit precies twee woorden: het voorzetsel en een naamwoord"
           ],
           "antwoord": 0,
           "uitleg": "Je rekent óp iemand, je twijfelt áán iets. In 'hij zit op de bank' kan het voorzetsel wel wisselen, dus daar is het een bepaling."
@@ -5091,8 +5091,8 @@
           "vraag": "Waarom zeg je 'Morgen ga ik naar de markt' en niet 'Morgen ik ga naar de markt'?",
           "opties": [
             "omdat de persoonsvorm in een hoofdzin op de tweede plaats blijft",
-            "omdat 'morgen' een bijzin inleidt",
-            "omdat het onderwerp nooit vooraan mag staan",
+            "omdat 'morgen' een bijzin inleidt en de persoonsvorm dan achteraan moet staan",
+            "omdat het onderwerp in een Nederlandse hoofdzin nooit vooraan mag staan",
             "omdat de zin anders in de verleden tijd zou staan"
           ],
           "antwoord": 0,
@@ -5174,8 +5174,8 @@
           "vraag": "Wat verandert er als je 'De gemeente heeft het plein heraangelegd' in de lijdende vorm zet?",
           "opties": [
             "'het plein' wordt het onderwerp en 'de gemeente' komt in een door-groep",
-            "de zin wordt vragend in plaats van mededelend",
-            "de zin verandert van verleden naar tegenwoordige tijd",
+            "de zin wordt vragend in plaats van mededelend, met de persoonsvorm helemaal vooraan",
+            "de zin verandert van de verleden tijd naar de tegenwoordige tijd, maar de rest blijft",
             "het werkwoord verdwijnt uit de zin"
           ],
           "antwoord": 0,
@@ -5246,7 +5246,7 @@
           "vraag": "Waarom gebruiken ambtelijke teksten vaak de lijdende vorm?",
           "opties": [
             "omdat je dan niet hoeft te zeggen wie iets gedaan heeft",
-            "omdat lijdende zinnen altijd korter zijn",
+            "omdat lijdende zinnen altijd korter en eenvoudiger zijn dan bedrijvende zinnen",
             "omdat de lijdende vorm minder spelfouten oplevert",
             "omdat een lijdende zin geen onderwerp nodig heeft"
           ],
@@ -5328,10 +5328,10 @@
           "type": "meerkeuze",
           "vraag": "Wat bedoelen we met een woord met een veranderlijk woordbeeld?",
           "opties": [
-            "een woord waarvan de letters veranderen in een andere vorm, zoals huis en huizen",
+            "een woord waarvan de letters wisselen in een andere vorm, zoals huis en huizen",
             "een woord dat je op twee manieren mag spellen",
-            "een woord dat in de loop der eeuwen van betekenis veranderd is",
-            "een woord dat zowel enkelvoud als meervoud kan zijn"
+            "een woord dat in de loop der eeuwen van betekenis veranderd is, zoals vroeger en nu",
+            "een woord dat zowel enkelvoud als meervoud kan zijn zonder dat er iets aan verandert"
           ],
           "antwoord": 0,
           "uitleg": "De s wordt een z, de f wordt een v. Je hoort het verschil, en je schrijft het ook."
@@ -5875,7 +5875,7 @@
           "vraag": "Wanneer schrijf je een werkwoordsvorm met -dt?",
           "opties": [
             "bij de derde persoon enkelvoud van een stam die op d eindigt",
-            "bij elke verleden tijd van een sterk werkwoord",
+            "bij elke verleden tijd van een sterk werkwoord, zoals in 'hij vondt' of 'zij bondt'",
             "bij elk voltooid deelwoord met ge- ervoor",
             "bij de gebiedende wijs van een zwak werkwoord"
           ],
@@ -5894,8 +5894,8 @@
           "vraag": "Waarvoor gebruik je een dubbele punt?",
           "opties": [
             "om een opsomming, een verklaring of een citaat aan te kondigen",
-            "om een zin definitief af te sluiten",
-            "om een tussenzin aan beide kanten af te bakenen",
+            "om een zin definitief af te sluiten, net zoals een punt dat doet aan het einde",
+            "om een tussenzin aan beide kanten af te bakenen, zodat hij los van de rest staat",
             "om aan te geven dat een zin onafgemaakt blijft"
           ],
           "antwoord": 0,
@@ -6122,10 +6122,10 @@
           "type": "meerkeuze",
           "vraag": "Wat is een doffe klank?",
           "opties": [
-            "de onbeklemtoonde e, zoals in 'de' en in de laatste lettergreep van 'lopen'",
-            "een klinker die je extra lang aanhoudt",
+            "de onbeklemtoonde e, zoals in 'de' en achteraan in 'lopen'",
+            "een klinker die je extra lang aanhoudt, zoals in 'maan' of 'zee'",
             "een medeklinker die je nauwelijks hoort",
-            "de klank van twee klinkers na elkaar"
+            "de klank van twee klinkers na elkaar, zoals in 'ui' of 'ei'"
           ],
           "antwoord": 0,
           "uitleg": "Je hoort hem in bijna elk Nederlands woord van meer dan één lettergreep, en hij draagt nooit de klemtoon."
@@ -6191,7 +6191,7 @@
           "vraag": "Waarvoor dient intonatie?",
           "opties": [
             "om betekenis en gevoel mee te geven aan dezelfde woorden",
-            "om de spelling van een woord vast te leggen",
+            "om de spelling van een woord vast te leggen, zodat iedereen het hetzelfde schrijft",
             "om het aantal lettergrepen te bepalen",
             "om klinkers van medeklinkers te onderscheiden"
           ],
@@ -6345,7 +6345,7 @@
           "vraag": "Waarom staat er een komma in 'Hoewel het goot, gingen we toch buiten spelen'?",
           "opties": [
             "om de bijzin van de hoofdzin te scheiden",
-            "om een opsomming aan te kondigen",
+            "om een opsomming aan te kondigen die na de komma volgt",
             "om een citaat in te leiden",
             "om aan te geven dat de zin onaf is"
           ],
@@ -6454,7 +6454,7 @@
           "vraag": "Wat is het verschil tussen een metafoor en een vergelijking?",
           "opties": [
             "bij een vergelijking staat er een woord als 'als' of 'zoals'",
-            "een metafoor is altijd langer dan een vergelijking",
+            "een metafoor is altijd langer dan een vergelijking, omdat ze meer uitlegt",
             "een vergelijking gebruik je alleen in poëzie",
             "een metafoor gebruikt altijd een dier als beeld"
           ],
@@ -6515,7 +6515,7 @@
           "vraag": "Wat betekent 'de kat uit de boom kijken'?",
           "opties": [
             "eerst afwachten hoe iets loopt voor je handelt",
-            "iemand betrappen op een leugen",
+            "iemand betrappen op een leugen terwijl hij het niet doorheeft",
             "een probleem uit de weg gaan",
             "iets doen zonder erbij na te denken"
           ],
@@ -6582,7 +6582,7 @@
           "vraag": "Wat doet de metafoor in 'een zee van tijd'?",
           "opties": [
             "ze laat de hoeveelheid tijd aanvoelen als iets eindeloos",
-            "ze zegt precies hoeveel uren er over zijn",
+            "ze zegt precies hoeveel uren er nog over zijn voor het einde van de dag",
             "ze maakt de zin objectiever dan zonder beeld",
             "ze vergelijkt twee zaken met het woordje 'als'"
           ],
@@ -6594,8 +6594,8 @@
           "vraag": "Waarom is 'hij gaf de pijp aan Maarten' lastig voor wie Nederlands leert?",
           "opties": [
             "omdat de betekenis niet uit de losse woorden af te leiden is",
-            "omdat er een naam in staat die niet bestaat",
-            "omdat de zin grammaticaal fout is",
+            "omdat er een naam in staat die niet bestaat in het Nederlands, alleen in het Fries",
+            "omdat de zin grammaticaal fout is en een Nederlander hem zo nooit zou zeggen",
             "omdat er twee werkwoorden in staan"
           ],
           "antwoord": 0,
@@ -6605,9 +6605,9 @@
           "type": "meerkeuze",
           "vraag": "Wat is het verschil tussen een uitdrukking en een spreekwoord?",
           "opties": [
-            "een spreekwoord is een volledige zin met een wijsheid, een uitdrukking een vaste woordgroep",
-            "een spreekwoord is altijd ouder dan een uitdrukking",
-            "een uitdrukking is figuurlijk, een spreekwoord letterlijk",
+            "een spreekwoord is een hele zin met een wijsheid, een uitdrukking niet",
+            "een spreekwoord is altijd ouder dan een uitdrukking en komt uit de Bijbel",
+            "een uitdrukking is figuurlijk bedoeld, een spreekwoord moet je letterlijk nemen",
             "een uitdrukking komt alleen in spreektaal voor"
           ],
           "antwoord": 0,
@@ -6763,7 +6763,7 @@
           "vraag": "Wat is taalhumor?",
           "opties": [
             "humor die uit de taal zelf komt, niet uit de situatie",
-            "humor die alleen kinderen begrijpen",
+            "humor die alleen kinderen begrijpen, omdat volwassenen te ernstig zijn",
             "humor waarbij iemand belachelijk gemaakt wordt",
             "humor die in elke taal hetzelfde werkt"
           ],
@@ -6781,7 +6781,7 @@
           "vraag": "Een columnist noemt een nieuwe wet 'een gedrocht'. Wat doet hij?",
           "opties": [
             "hij kiest een woord met een sterk negatieve gevoelswaarde",
-            "hij gebruikt een woord in zijn letterlijke betekenis",
+            "hij gebruikt een woord in zijn letterlijke betekenis, zonder bijklank",
             "hij maakt een woordspeling met een homoniem",
             "hij verzacht zijn oordeel met een eufemisme"
           ],
@@ -6809,8 +6809,8 @@
           "vraag": "Hoe herken je ironie in een geschreven tekst, waar je de toon niet hoort?",
           "opties": [
             "aan het verschil tussen wat er staat en wat je uit de context weet",
-            "aan het aantal uitroeptekens in de zin",
-            "aan de lengte van de zinnen",
+            "aan het aantal uitroeptekens en vraagtekens dat de schrijver in de zin zet",
+            "aan de lengte van de zinnen, want ironische zinnen zijn altijd heel kort en bondig",
             "aan het gebruik van hoofdletters"
           ],
           "antwoord": 0,
@@ -6821,7 +6821,7 @@
           "vraag": "Waarom kan je een uitdrukking meestal niet letterlijk vertalen?",
           "opties": [
             "omdat haar betekenis niet uit de losse woorden volgt",
-            "omdat uitdrukkingen altijd te lang zijn",
+            "omdat uitdrukkingen altijd te lang zijn om in een andere taal te passen",
             "omdat elke taal dezelfde uitdrukkingen heeft",
             "omdat uitdrukkingen geen werkwoord bevatten"
           ],
@@ -6833,7 +6833,7 @@
           "vraag": "Wat is het effect van een overdrijving in een tekst?",
           "opties": [
             "ze versterkt het gevoel, maar maakt de tekst subjectiever",
-            "ze maakt de tekst objectiever en controleerbaarder",
+            "ze maakt de tekst objectiever en controleerbaarder voor de lezer",
             "ze vervangt een ontbrekend argument door een feit",
             "ze verandert de woordsoort van het woord"
           ],
@@ -7079,7 +7079,7 @@
           "vraag": "Wat is een flashback?",
           "opties": [
             "een terugblik naar iets wat vóór het verhaalheden gebeurde",
-            "een sprong vooruit naar wat nog komen moet",
+            "een sprong vooruit naar wat nog komen moet, verder in het verhaal",
             "een hoofdstuk dat op een spannend moment afbreekt",
             "een verteller die alles weet van alle personages"
           ],
@@ -7090,9 +7090,9 @@
           "type": "meerkeuze",
           "vraag": "Wat is het verschil tussen verteltijd en vertelde tijd?",
           "opties": [
-            "verteltijd is hoe lang je leest, vertelde tijd hoeveel tijd er in het verhaal voorbijgaat",
-            "verteltijd is de tijd van de schrijver, vertelde tijd die van de lezer",
-            "verteltijd staat in de verleden tijd, vertelde tijd in de tegenwoordige",
+            "verteltijd is hoe lang je leest, vertelde tijd hoeveel tijd het verhaal beslaat",
+            "verteltijd is de tijd waarin de schrijver leefde, vertelde tijd die waarin de lezer leeft",
+            "verteltijd staat in de verleden tijd, vertelde tijd staat in de tegenwoordige tijd",
             "verteltijd hoort bij proza, vertelde tijd bij poëzie"
           ],
           "antwoord": 0,
@@ -7219,9 +7219,9 @@
           "vraag": "Wat is het verschil tussen een vertellende en een belevende ik-verteller?",
           "opties": [
             "de vertellende kijkt achteraf terug, de belevende staat er middenin",
-            "de vertellende is een volwassene, de belevende een kind",
+            "de vertellende is altijd een volwassene, de belevende altijd nog een kind",
             "de vertellende gebruikt 'hij', de belevende 'ik'",
-            "de vertellende kent de gedachten van alle personages"
+            "de vertellende kent de gedachten van alle personages, de belevende alleen de zijne"
           ],
           "antwoord": 0,
           "uitleg": "'Toen wist ik nog niet dat het mijn laatste zomer was' verraadt een vertellende ik: hij kent de afloop al."
@@ -7277,8 +7277,8 @@
           "vraag": "Waarom kan een symbolische ruimte meer betekenen dan gewoon een plaats?",
           "opties": [
             "omdat ze staat voor iets anders, zoals een muur voor een scheiding",
-            "omdat ze altijd in het buitenland ligt",
-            "omdat ze nooit beschreven wordt",
+            "omdat ze altijd in het buitenland ligt, ver weg van het dorp van het hoofdpersonage",
+            "omdat ze in het verhaal nooit echt beschreven wordt, zodat de lezer alles zelf invult",
             "omdat ze bepaalt wie de verteller is"
           ],
           "antwoord": 0,
@@ -7288,8 +7288,8 @@
           "type": "meerkeuze",
           "vraag": "Waarom kiest een schrijver soms voor een alwetende verteller?",
           "opties": [
-            "om de lezer meer te laten weten dan de personages zelf",
-            "om het verhaal korter te maken",
+            "om de lezer meer te laten weten dan de personages",
+            "om het verhaal korter te maken, omdat hij dan minder hoeft uit te leggen",
             "om te vermijden dat er dialoog nodig is",
             "om de chronologie te kunnen behouden"
           ],
@@ -7407,7 +7407,7 @@
           "vraag": "Wat is een enjambement?",
           "opties": [
             "een zin die doorloopt over het einde van de versregel heen",
-            "een regel die na elke strofe letterlijk terugkeert",
+            "een regel die na elke strofe letterlijk terugkeert in het gedicht",
             "een gedicht zonder vaste maat en zonder rijm",
             "een strofe die uit precies drie regels bestaat"
           ],
@@ -7447,7 +7447,7 @@
           "vraag": "Wat is een refrein?",
           "opties": [
             "een regel of strofe die telkens terugkeert in het gedicht",
-            "de laatste regel van een gedicht met de clou erin",
+            "de laatste regel van een gedicht, met de clou of de pointe erin",
             "een strofe van zes regels na een octaaf",
             "een zin die over de versregel heen doorloopt"
           ],
@@ -7517,8 +7517,8 @@
           "vraag": "Waarom gebruikt een dichter een enjambement?",
           "opties": [
             "om nadruk te leggen op het woord vlak voor en na de breuk",
-            "om het gedicht korter te maken",
-            "om een vast rijmschema te kunnen aanhouden",
+            "om het gedicht korter te maken, zodat het in minder strofen en minder regels past",
+            "om een vast rijmschema te kunnen aanhouden, ook als de zin daardoor vreemd wordt",
             "om aan te geven dat een strofe eindigt"
           ],
           "antwoord": 0,
@@ -7538,7 +7538,7 @@
             "een toneelstuk dat slecht afloopt voor de hoofdpersoon",
             "een toneelstuk waarin voortdurend gezongen wordt",
             "een kort toneelstuk met grove grappen erin",
-            "een toneelstuk zonder decor en zonder rekwisieten"
+            "een toneelstuk zonder decor en zonder rekwisieten op het podium"
           ],
           "antwoord": 0,
           "uitleg": "De hoofdpersoon gaat ten onder, vaak door een eigenschap die hem eerst juist groot maakte."
@@ -7652,7 +7652,7 @@
           "vraag": "Wat bedoelen we met de dubbele gelaagdheid van middeleeuwse literatuur?",
           "opties": [
             "een tekst over een belegerd kasteel kan ook over het hof maken gaan",
-            "een tekst wordt altijd in twee talen tegelijk geschreven",
+            "een tekst wordt altijd in twee talen tegelijk geschreven, in het Latijn en in de volkstaal",
             "een tekst heeft altijd twee vertellers naast elkaar",
             "een tekst speelt zich in twee verschillende tijden af"
           ],
@@ -7673,7 +7673,7 @@
           "vraag": "Waarmee confronteerde de realistische literatuur haar lezers?",
           "opties": [
             "met de wantoestanden in de maatschappij, zoals kinderarbeid",
-            "met de idealen van de ridder en zijn dame",
+            "met de idealen van de ridder en zijn dame, zoals in de oude hoofse romans",
             "met het gevoel van het eenzame, dromende individu",
             "met de verborgen betekenis van heilige getallen"
           ],
@@ -7691,7 +7691,7 @@
           "vraag": "Waarom is mimiek belangrijk op het toneel?",
           "opties": [
             "omdat een gezicht iets anders kan zeggen dan de woorden",
-            "omdat de zaal de woorden meestal niet verstaat",
+            "omdat de zaal de woorden meestal niet verstaat, zeker achteraan in de zaal",
             "omdat elke acteur dezelfde gebaren moet maken",
             "omdat mimiek de belichting vervangt"
           ],
@@ -7731,8 +7731,8 @@
           "vraag": "Waarom ga je na in welke mate een tekst relevant is voor onze samenleving?",
           "opties": [
             "omdat literatuur iets zegt over de wereld van toen en die van nu",
-            "omdat een oude tekst anders niet gelezen mag worden",
-            "omdat elke tekst evenveel over vandaag moet zeggen",
+            "omdat een oude tekst anders niet meer gelezen mag worden op school",
+            "omdat elke tekst evenveel over vandaag moet zeggen als over de tijd waarin hij ontstond",
             "omdat je anders het rijmschema niet kan bepalen"
           ],
           "antwoord": 0,

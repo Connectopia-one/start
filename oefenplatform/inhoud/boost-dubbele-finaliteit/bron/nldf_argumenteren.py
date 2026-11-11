@@ -79,7 +79,7 @@ DEEL1 = [
         vraag="Wat is een argument?",
         opties=[
             "een reden die je geeft om je standpunt te onderbouwen",
-            "een uitspraak waar je het niet mee eens bent",
+            "een uitspraak waar je het niet mee eens bent en die je wil weerleggen",
             "een vraag die je aan je gesprekspartner stelt",
             "een gevoel dat je bij het onderwerp hebt",
         ],
@@ -175,7 +175,7 @@ DEEL1 = [
         vraag="Waarom is het nuttig om in een tekst feiten van meningen te scheiden?",
         opties=[
             "omdat je dan ziet wat je kan nagaan en wat de schrijver vindt",
-            "omdat meningen in een tekst eigenlijk verboden zijn",
+            "omdat meningen in een tekst eigenlijk verboden zijn, behalve in een column",
             "omdat een tekst met meningen nooit een bron vermeldt",
             "omdat feiten altijd achteraan in de tekst staan",
         ],
@@ -328,7 +328,7 @@ DEEL2 = [
         vraag="Wat betekent oplossingsgericht reageren in een gesprek?",
         opties=[
             "samen zoeken naar iets waar jullie allebei mee verder kunnen",
-            "de ander laten praten en zelf niets meer inbrengen",
+            "de ander laten praten en zelf niets meer inbrengen tot het gesprek voorbij is",
             "je eigen voorstel herhalen tot de ander het overneemt",
             "het gesprek afbreken als jullie er niet uit geraken",
         ],
@@ -339,10 +339,10 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Je leest twee bronnen die elkaar tegenspreken over hetzelfde cijfer. Wat doe je?",
         opties=[
-            "nagaan wie de zender is, wanneer het geschreven is en welke bron hij gebruikt",
-            "de bron nemen die het best bij jouw standpunt past",
+            "nagaan wie de zender is, hoe recent het is en waar het cijfer vandaan komt",
+            "de bron nemen die het best bij jouw standpunt past, want die zal je tekst het meest steunen",
             "allebei de bronnen weglaten en zonder cijfers schrijven",
-            "het gemiddelde van de twee cijfers nemen en dat vermelden",
+            "het gemiddelde van de twee cijfers nemen en dat in je tekst vermelden als het juiste",
         ],
         antwoord=0,
         uitleg="Dat zijn precies de criteria waarmee je beoordeelt of een tekst betrouwbaar, correct en bruikbaar is.",

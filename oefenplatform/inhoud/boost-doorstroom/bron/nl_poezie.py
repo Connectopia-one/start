@@ -85,7 +85,7 @@ DEEL1 = [
         vraag="Wat is een enjambement?",
         opties=[
             "een zin die doorloopt over het einde van de versregel heen",
-            "een regel die na elke strofe letterlijk terugkeert",
+            "een regel die na elke strofe letterlijk terugkeert in het gedicht",
             "een gedicht zonder vaste maat en zonder rijm",
             "een strofe die uit precies drie regels bestaat",
         ],
@@ -116,7 +116,7 @@ DEEL1 = [
         vraag="Wat is een refrein?",
         opties=[
             "een regel of strofe die telkens terugkeert in het gedicht",
-            "de laatste regel van een gedicht met de clou erin",
+            "de laatste regel van een gedicht, met de clou of de pointe erin",
             "een strofe van zes regels na een octaaf",
             "een zin die over de versregel heen doorloopt",
         ],
@@ -172,8 +172,8 @@ DEEL1 = [
         vraag="Waarom gebruikt een dichter een enjambement?",
         opties=[
             "om nadruk te leggen op het woord vlak voor en na de breuk",
-            "om het gedicht korter te maken",
-            "om een vast rijmschema te kunnen aanhouden",
+            "om het gedicht korter te maken, zodat het in minder strofen en minder regels past",
+            "om een vast rijmschema te kunnen aanhouden, ook als de zin daardoor vreemd wordt",
             "om aan te geven dat een strofe eindigt",
         ],
         antwoord=0,
@@ -189,7 +189,7 @@ DEEL2 = [
             "een toneelstuk dat slecht afloopt voor de hoofdpersoon",
             "een toneelstuk waarin voortdurend gezongen wordt",
             "een kort toneelstuk met grove grappen erin",
-            "een toneelstuk zonder decor en zonder rekwisieten",
+            "een toneelstuk zonder decor en zonder rekwisieten op het podium",
         ],
         antwoord=0,
         uitleg="De hoofdpersoon gaat ten onder, vaak door een eigenschap die hem eerst juist groot maakte.",
@@ -279,7 +279,7 @@ DEEL2 = [
         vraag="Wat bedoelen we met de dubbele gelaagdheid van middeleeuwse literatuur?",
         opties=[
             "een tekst over een belegerd kasteel kan ook over het hof maken gaan",
-            "een tekst wordt altijd in twee talen tegelijk geschreven",
+            "een tekst wordt altijd in twee talen tegelijk geschreven, in het Latijn en in de volkstaal",
             "een tekst heeft altijd twee vertellers naast elkaar",
             "een tekst speelt zich in twee verschillende tijden af",
         ],
@@ -297,7 +297,7 @@ DEEL2 = [
         vraag="Waarmee confronteerde de realistische literatuur haar lezers?",
         opties=[
             "met de wantoestanden in de maatschappij, zoals kinderarbeid",
-            "met de idealen van de ridder en zijn dame",
+            "met de idealen van de ridder en zijn dame, zoals in de oude hoofse romans",
             "met het gevoel van het eenzame, dromende individu",
             "met de verborgen betekenis van heilige getallen",
         ],
@@ -315,7 +315,7 @@ DEEL2 = [
         vraag="Waarom is mimiek belangrijk op het toneel?",
         opties=[
             "omdat een gezicht iets anders kan zeggen dan de woorden",
-            "omdat de zaal de woorden meestal niet verstaat",
+            "omdat de zaal de woorden meestal niet verstaat, zeker achteraan in de zaal",
             "omdat elke acteur dezelfde gebaren moet maken",
             "omdat mimiek de belichting vervangt",
         ],
@@ -346,8 +346,8 @@ DEEL2 = [
         vraag="Waarom ga je na in welke mate een tekst relevant is voor onze samenleving?",
         opties=[
             "omdat literatuur iets zegt over de wereld van toen en die van nu",
-            "omdat een oude tekst anders niet gelezen mag worden",
-            "omdat elke tekst evenveel over vandaag moet zeggen",
+            "omdat een oude tekst anders niet meer gelezen mag worden op school",
+            "omdat elke tekst evenveel over vandaag moet zeggen als over de tijd waarin hij ontstond",
             "omdat je anders het rijmschema niet kan bepalen",
         ],
         antwoord=0,

@@ -27,10 +27,10 @@ DEEL1 = [
         type="meerkeuze",
         vraag="Wat is het verschil tussen een stelling en een standpunt?",
         opties=[
-            "de stelling staat ter discussie, het standpunt is de kant die jij kiest",
+            "de stelling staat ter discussie, het standpunt is de kant die je kiest",
             "de stelling is een feit, het standpunt is een mening",
-            "de stelling staat vooraan, het standpunt helemaal achteraan",
-            "de stelling is van de schrijver, het standpunt van de lezer",
+            "de stelling staat altijd vooraan in de tekst, het standpunt helemaal achteraan",
+            "de stelling is van de schrijver, het standpunt is altijd van de lezer van de tekst",
         ],
         antwoord=0,
         uitleg="'De schooldag moet later beginnen' is de stelling. Jij bent voor of tegen: dat is je standpunt.",
@@ -149,7 +149,7 @@ DEEL1 = [
         vraag="Waaraan merk je in een tekst dat de schrijver subjectief wordt?",
         opties=[
             "aan waardewoorden zoals schitterend of belachelijk",
-            "aan het gebruik van jaartallen en getallen",
+            "aan het gebruik van jaartallen, getallen en percentages",
             "aan de indeling in korte alinea's",
             "aan de aanwezigheid van tussentitels",
         ],
@@ -167,7 +167,7 @@ DEEL1 = [
         vraag="Waarom is het bij overtuigen belangrijk feiten en meningen uit elkaar te houden?",
         opties=[
             "omdat je lezer anders niet weet wat hij kan nagaan",
-            "omdat meningen in een betoog verboden zijn",
+            "omdat meningen in een betoog verboden zijn en alleen feiten mogen tellen",
             "omdat feiten altijd korter zijn dan meningen",
             "omdat je anders geen conclusie mag trekken",
         ],
@@ -261,8 +261,8 @@ DEEL2 = [
         vraag="'Jij hebt nooit gewerkt, dus over lonen moet jij zwijgen.' Wat is hier mis?",
         opties=[
             "de persoon wordt aangevallen in plaats van het argument",
-            "er worden te veel cijfers gebruikt",
-            "de conclusie staat te vroeg in de tekst",
+            "er worden te veel cijfers gebruikt om het argument te onderbouwen",
+            "de conclusie staat te vroeg in de tekst, nog voor het argument zelf",
             "er wordt een vergelijking gemaakt die klopt",
         ],
         antwoord=0,

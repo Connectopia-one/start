@@ -59,7 +59,7 @@ DEEL1 = [
         vraag="Wat bedoelen we met de context van een boodschap?",
         opties=[
             "de situatie waarin de boodschap verstuurd en gelezen wordt",
-            "de woorden die de zender precies gekozen heeft",
+            "de woorden die de zender precies gekozen heeft om zijn boodschap over te brengen",
             "het gevoel dat de ontvanger achteraf overhoudt",
             "de drager waarlangs de boodschap verstuurd wordt",
         ],
@@ -192,7 +192,7 @@ DEEL1 = [
         vraag="Waarom staat 'context' apart in het communicatiemodel?",
         opties=[
             "omdat dezelfde zin in een andere situatie iets anders betekent",
-            "omdat elke tekst een inleiding, midden en slot heeft",
+            "omdat elke tekst een inleiding, een midden en een slot moet hebben",
             "omdat een boodschap altijd langs één kanaal reist",
             "omdat de zender de ontvanger meestal persoonlijk kent",
         ],
@@ -220,7 +220,7 @@ DEEL2 = [
         vraag="Wat is het verschil tussen een opiniërende en een argumentatieve tekst?",
         opties=[
             "een opiniërende tekst geeft vooral een oordeel, een argumentatieve bouwt het op",
-            "een opiniërende tekst verschijnt altijd in een krant of tijdschrift",
+            "een opiniërende tekst verschijnt altijd in een krant of een tijdschrift, nooit online",
             "een argumentatieve tekst is altijd langer dan een opiniërende tekst",
             "een argumentatieve tekst mag geen enkele mening van de schrijver bevatten",
         ],

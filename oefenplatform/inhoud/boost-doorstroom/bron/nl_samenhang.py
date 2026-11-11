@@ -96,7 +96,7 @@ DEEL1 = [
         vraag="Je neemt notities bij een luistertekst. Wat is daarbij verstandig?",
         opties=[
             "afkortingen en symbolen gebruiken in telegramstijl",
-            "elke zin letterlijk en volledig opschrijven",
+            "elke zin letterlijk en volledig opschrijven, zodat je niets mist",
             "pas achteraf uit je hoofd alles noteren",
             "alleen de woorden noteren die je niet kent",
         ],
@@ -321,7 +321,7 @@ DEEL2 = [
         vraag="Waarom zijn signaalwoorden nuttig als je leest?",
         opties=[
             "ze laten je de gedachtegang van de schrijver reconstrueren",
-            "ze vertellen je hoe lang de tekst nog duurt",
+            "ze vertellen je hoe lang de tekst nog duurt en hoeveel alinea's er nog volgen",
             "ze verraden welk register de schrijver gebruikt",
             "ze geven aan wie de zender van de tekst is",
         ],

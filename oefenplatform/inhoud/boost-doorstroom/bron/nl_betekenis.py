@@ -55,7 +55,7 @@ DEEL1 = [
         vraag="Wat is het verschil tussen een metafoor en een vergelijking?",
         opties=[
             "bij een vergelijking staat er een woord als 'als' of 'zoals'",
-            "een metafoor is altijd langer dan een vergelijking",
+            "een metafoor is altijd langer dan een vergelijking, omdat ze meer uitlegt",
             "een vergelijking gebruik je alleen in poëzie",
             "een metafoor gebruikt altijd een dier als beeld",
         ],
@@ -104,7 +104,7 @@ DEEL1 = [
         vraag="Wat betekent 'de kat uit de boom kijken'?",
         opties=[
             "eerst afwachten hoe iets loopt voor je handelt",
-            "iemand betrappen op een leugen",
+            "iemand betrappen op een leugen terwijl hij het niet doorheeft",
             "een probleem uit de weg gaan",
             "iets doen zonder erbij na te denken",
         ],
@@ -149,7 +149,7 @@ DEEL1 = [
         vraag="Wat doet de metafoor in 'een zee van tijd'?",
         opties=[
             "ze laat de hoeveelheid tijd aanvoelen als iets eindeloos",
-            "ze zegt precies hoeveel uren er over zijn",
+            "ze zegt precies hoeveel uren er nog over zijn voor het einde van de dag",
             "ze maakt de zin objectiever dan zonder beeld",
             "ze vergelijkt twee zaken met het woordje 'als'",
         ],
@@ -161,8 +161,8 @@ DEEL1 = [
         vraag="Waarom is 'hij gaf de pijp aan Maarten' lastig voor wie Nederlands leert?",
         opties=[
             "omdat de betekenis niet uit de losse woorden af te leiden is",
-            "omdat er een naam in staat die niet bestaat",
-            "omdat de zin grammaticaal fout is",
+            "omdat er een naam in staat die niet bestaat in het Nederlands, alleen in het Fries",
+            "omdat de zin grammaticaal fout is en een Nederlander hem zo nooit zou zeggen",
             "omdat er twee werkwoorden in staan",
         ],
         antwoord=0,
@@ -172,9 +172,9 @@ DEEL1 = [
         type="meerkeuze",
         vraag="Wat is het verschil tussen een uitdrukking en een spreekwoord?",
         opties=[
-            "een spreekwoord is een volledige zin met een wijsheid, een uitdrukking een vaste woordgroep",
-            "een spreekwoord is altijd ouder dan een uitdrukking",
-            "een uitdrukking is figuurlijk, een spreekwoord letterlijk",
+            "een spreekwoord is een hele zin met een wijsheid, een uitdrukking niet",
+            "een spreekwoord is altijd ouder dan een uitdrukking en komt uit de Bijbel",
+            "een uitdrukking is figuurlijk bedoeld, een spreekwoord moet je letterlijk nemen",
             "een uitdrukking komt alleen in spreektaal voor",
         ],
         antwoord=0,
@@ -288,7 +288,7 @@ DEEL2 = [
         vraag="Wat is taalhumor?",
         opties=[
             "humor die uit de taal zelf komt, niet uit de situatie",
-            "humor die alleen kinderen begrijpen",
+            "humor die alleen kinderen begrijpen, omdat volwassenen te ernstig zijn",
             "humor waarbij iemand belachelijk gemaakt wordt",
             "humor die in elke taal hetzelfde werkt",
         ],
@@ -306,7 +306,7 @@ DEEL2 = [
         vraag="Een columnist noemt een nieuwe wet 'een gedrocht'. Wat doet hij?",
         opties=[
             "hij kiest een woord met een sterk negatieve gevoelswaarde",
-            "hij gebruikt een woord in zijn letterlijke betekenis",
+            "hij gebruikt een woord in zijn letterlijke betekenis, zonder bijklank",
             "hij maakt een woordspeling met een homoniem",
             "hij verzacht zijn oordeel met een eufemisme",
         ],
@@ -330,8 +330,8 @@ DEEL2 = [
         vraag="Hoe herken je ironie in een geschreven tekst, waar je de toon niet hoort?",
         opties=[
             "aan het verschil tussen wat er staat en wat je uit de context weet",
-            "aan het aantal uitroeptekens in de zin",
-            "aan de lengte van de zinnen",
+            "aan het aantal uitroeptekens en vraagtekens dat de schrijver in de zin zet",
+            "aan de lengte van de zinnen, want ironische zinnen zijn altijd heel kort en bondig",
             "aan het gebruik van hoofdletters",
         ],
         antwoord=0,
@@ -342,7 +342,7 @@ DEEL2 = [
         vraag="Waarom kan je een uitdrukking meestal niet letterlijk vertalen?",
         opties=[
             "omdat haar betekenis niet uit de losse woorden volgt",
-            "omdat uitdrukkingen altijd te lang zijn",
+            "omdat uitdrukkingen altijd te lang zijn om in een andere taal te passen",
             "omdat elke taal dezelfde uitdrukkingen heeft",
             "omdat uitdrukkingen geen werkwoord bevatten",
         ],
@@ -354,7 +354,7 @@ DEEL2 = [
         vraag="Wat is het effect van een overdrijving in een tekst?",
         opties=[
             "ze versterkt het gevoel, maar maakt de tekst subjectiever",
-            "ze maakt de tekst objectiever en controleerbaarder",
+            "ze maakt de tekst objectiever en controleerbaarder voor de lezer",
             "ze vervangt een ontbrekend argument door een feit",
             "ze verandert de woordsoort van het woord",
         ],

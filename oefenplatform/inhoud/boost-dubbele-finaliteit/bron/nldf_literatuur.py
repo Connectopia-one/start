@@ -67,7 +67,7 @@ DEEL1 = [
             "iemand die in het verhaal voorkomt en er iets doet",
             "de persoon die het boek geschreven heeft",
             "de lezer die zich in het verhaal herkent",
-            "de uitgeverij die het boek op de markt bracht",
+            "de uitgeverij die het boek op de markt bracht en verkoopt",
         ],
         antwoord=0,
         uitleg="De schrijver staat buiten het verhaal; de personages staan erin.",
@@ -77,7 +77,7 @@ DEEL1 = [
         vraag="Wat bedoelt men met de verhaallijn?",
         opties=[
             "de lijn van gebeurtenissen die het verhaal aflegt",
-            "de eerste zin waarmee het boek begint",
+            "de eerste zin waarmee het boek begint en die de toon zet",
             "het aantal bladzijden dat het boek telt",
             "de lijn tekst die op de achterflap staat",
         ],
@@ -113,7 +113,7 @@ DEEL1 = [
         vraag="Wat wordt bedoeld met de tijd van een verhaal?",
         opties=[
             "wanneer het verhaal speelt en hoeveel tijd het beslaat",
-            "hoe lang jij erover doet om het boek te lezen",
+            "hoe lang jij erover doet om het boek te lezen, van begin tot einde",
             "het jaar waarin het boek is uitgegeven",
             "de tijd waarin de werkwoorden staan",
         ],
@@ -191,8 +191,8 @@ DEEL1 = [
         vraag="Wat is het verschil tussen een gedicht en een lied?",
         opties=[
             "een lied is gemaakt om gezongen te worden, een gedicht niet per se",
-            "een gedicht rijmt altijd, een lied nooit",
-            "een lied is altijd korter dan een gedicht",
+            "een gedicht rijmt altijd op het einde van de regel, een lied rijmt eigenlijk nooit",
+            "een lied is altijd korter dan een gedicht, omdat het op muziek moet passen",
             "een gedicht is fictie, een lied is non-fictie",
         ],
         antwoord=0,
@@ -326,7 +326,7 @@ DEEL2 = [
         vraag="Een verhaal springt geregeld terug naar de jeugd van het hoofdpersonage. Wat zegt dat over de tijd?",
         opties=[
             "het verhaal wordt niet in chronologische volgorde verteld",
-            "het verhaal speelt zich af in de middeleeuwen",
+            "het verhaal speelt zich af in de middeleeuwen, ver voor de geboorte van de lezer",
             "het verhaal beslaat maar één enkele dag",
             "het verhaal is daardoor automatisch non-fictie",
         ],
@@ -356,7 +356,7 @@ DEEL2 = [
         vraag="Je krijgt een kortverhaal op het examen dat je nog nooit las. Wat doe je eerst?",
         opties=[
             "lezen wie erin voorkomt, waar het speelt en wat er gebeurt",
-            "meteen opschrijven of je het mooi vindt of niet",
+            "meteen opschrijven of je het mooi vindt of niet, nog voor je verder leest",
             "de moeilijke woorden allemaal opzoeken voor je begint",
             "tellen hoeveel alinea's de tekst heeft",
         ],
@@ -374,9 +374,9 @@ DEEL2 = [
         vraag="Wat maakt een tekst literair?",
         opties=[
             "hij heeft een esthetische waarde en speelt in op emoties",
-            "hij is langer dan tweehonderd bladzijden",
+            "hij is langer dan tweehonderd bladzijden en is uitgegeven als boek",
             "hij is minstens vijftig jaar oud",
-            "hij is geschreven door een bekende schrijver",
+            "hij is geschreven door een bekende schrijver die al eerder een prijs won",
         ],
         antwoord=0,
         uitleg="Een stand-upcomedyfragment kan literair zijn en een dik boek niet. Het gaat om wat de tekst doet.",
@@ -386,7 +386,7 @@ DEEL2 = [
         vraag="Waarom vraagt men je naar je eigen reactie op een boek, en niet enkel naar de inhoud?",
         opties=[
             "omdat lezen ook over jezelf gaat en je dat moet kunnen verwoorden",
-            "omdat de inhoud van een boek niet te controleren is",
+            "omdat de inhoud van een boek niet te controleren is door iemand die het niet gelezen heeft",
             "omdat een mening sneller te beoordelen is dan kennis",
             "omdat er anders te weinig vragen over het boek zijn",
         ],
@@ -404,8 +404,8 @@ DEEL2 = [
         vraag="Je wil zeggen wat het boek met je deed. Welke zin is het bruikbaarst in een gesprek?",
         opties=[
             "het slot liet me verward achter, omdat ik niet wist wie ik gelijk moest geven",
-            "het was een heel goed boek en ik raad het echt aan",
-            "het boek was spannend van de eerste tot de laatste bladzijde",
+            "het was een heel goed boek en ik raad het echt aan aan iedereen die graag leest",
+            "het boek was spannend van de eerste tot de laatste bladzijde, ik kon het niet wegleggen",
             "ik heb het in drie avonden uitgelezen zonder te stoppen",
         ],
         antwoord=0,

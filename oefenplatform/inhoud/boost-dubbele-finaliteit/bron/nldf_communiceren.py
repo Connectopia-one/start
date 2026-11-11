@@ -66,7 +66,7 @@ DEEL1 = [
         vraag="Wat is articulatie?",
         opties=[
             "hoe duidelijk je de klanken van je woorden vormt",
-            "hoe luid je spreekt in een grote ruimte",
+            "hoe luid je spreekt in een grote ruimte, zodat ook achteraan iedereen je hoort",
             "hoe je je zinnen laat stijgen en dalen",
             "hoe snel je door je tekst heen gaat",
         ],
@@ -132,8 +132,8 @@ DEEL1 = [
         vraag="Waarom let je op de lichaamstaal van je gesprekspartner?",
         opties=[
             "om in te schatten hoe je boodschap aankomt en daarop te reageren",
-            "om te kunnen zeggen of hij de waarheid spreekt",
-            "om te weten hoe lang het gesprek nog zal duren",
+            "om te kunnen zeggen of hij de waarheid spreekt of net iets voor je verbergt",
+            "om te weten hoe lang het gesprek nog zal duren, zodat je je tijd goed kan verdelen",
             "om te bepalen of hij ouder of jonger is dan jij",
         ],
         antwoord=0,
@@ -185,9 +185,9 @@ DEEL1 = [
         type="meerkeuze",
         vraag="Je spreekt heel snel omdat je zenuwachtig bent. Welk criterium komt daardoor in het gedrang?",
         opties=[
-            "je vlotheid en je verstaanbaarheid",
-            "je taakvoltooiing",
-            "je spelling",
+            "je vlotheid en verstaanbaarheid",
+            "je taakvoltooiing, want je tekst raakt niet af",
+            "je spelling en je woordkeuze",
             "je lay-out",
         ],
         antwoord=0,
@@ -198,9 +198,9 @@ DEEL1 = [
         vraag="Waarom pas je je taalgebruik aan je ontvanger aan?",
         opties=[
             "omdat dezelfde boodschap anders aankomt bij een vriend dan bij een directeur",
-            "omdat je bij een directeur altijd minder mag vertellen",
+            "omdat je bij een directeur altijd minder mag vertellen dan bij een vriend of familielid",
             "omdat je anders geen structuuraanduiders mag gebruiken",
-            "omdat een vriend geen formele taal zou verstaan",
+            "omdat een vriend geen formele taal zou verstaan, ook niet als je die heel duidelijk uitlegt",
         ],
         antwoord=0,
         uitleg="Je verandert niet wát je zegt maar hóé je het zegt: de toon, het register, de aanspreking.",
@@ -219,7 +219,7 @@ DEEL2 = [
         vraag="Wat betekent taakvoltooiing als criterium voor je tekst?",
         opties=[
             "je tekstdoel is bereikt en je boodschap komt volledig over",
-            "je hebt je tekst binnen de voorziene tijd afgewerkt",
+            "je hebt je tekst binnen de voorziene tijd afgewerkt en op tijd ingediend",
             "je hebt het gevraagde aantal woorden precies gehaald",
             "je hebt je tekst helemaal zonder fouten geschreven",
         ],
@@ -273,7 +273,7 @@ DEEL2 = [
         vraag="Je neemt notities bij een luistertekst. Waaraan moeten ze voldoen?",
         opties=[
             "ze sluiten aan bij de inhoud en zijn achteraf nog bruikbaar",
-            "ze zijn in volledige zinnen en netjes geschreven",
+            "ze zijn in volledige zinnen en netjes geschreven, zodat een ander ze ook kan lezen",
             "ze bevatten elk woord dat je gehoord hebt",
             "ze zijn korter dan tien regels",
         ],
@@ -309,7 +309,7 @@ DEEL2 = [
         vraag="Waarom maak je een spreek- of schrijfplan met kernwoorden?",
         opties=[
             "om de volgorde vast te leggen zonder al je zinnen uit te schrijven",
-            "om precies te weten hoeveel woorden je gaat gebruiken",
+            "om precies te weten hoeveel woorden je gaat gebruiken en hoe lang je zal spreken",
             "om de spelling van moeilijke woorden vooraf na te kijken",
             "om te vermijden dat je nog naar je publiek moet kijken",
         ],
@@ -387,9 +387,9 @@ DEEL2 = [
         vraag="Wat doe je voor je je tekst indient?",
         opties=[
             "grondig nalezen of de communicatie helder, gepast, correct en vlot is",
-            "tellen hoeveel signaalwoorden je gebruikt hebt",
+            "tellen hoeveel signaalwoorden je gebruikt hebt en er nog een paar bijzetten waar het kan",
             "de laatste alinea nog eens herhalen als slot",
-            "je tekst korter maken tot hij op één bladzijde past",
+            "je tekst korter maken tot hij op één bladzijde past, ook als er dan stukken wegvallen",
         ],
         antwoord=0,
         uitleg="Die vier woorden zijn precies waarop je tekst beoordeeld wordt. Lees hem na alsof je de ontvanger bent.",
