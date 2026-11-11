@@ -419,6 +419,13 @@ export const spelKaarten: SpelKaart[] = [
   },
 
   {
+    spel: "begrippenarena",
+    school: "middelbaar",
+    niveau: "🚀 Boost · ook dubbele finaliteit",
+    niveauInSpel: "boost",
+    tekst: `Ruim honderdveertig begrippen, van het referentiekader en de Franken tot de Verlichting, de industriële revolutie en werken met bronnen. ${zesSpellen}`,
+  },
+  {
     spel: "begrippenarena-economie",
     school: "middelbaar",
     niveau: "🚀 Boost · 2de graad (3de en 4de middelbaar)",
@@ -449,9 +456,9 @@ export const spelKaarten: SpelKaart[] = [
   {
     spel: "begrippenarena",
     school: "middelbaar",
-    niveau: "🌍 Beyond · 3de graad doorstroom (5de en 6de middelbaar)",
+    niveau: "🌍 Beyond · ook dubbele finaliteit",
     niveauInSpel: "beyond",
-    tekst: `Honderdzestig begrippen, van het referentiekader tot China, Israël-Palestina en de kunststromingen. ${zesSpellen}`,
+    tekst: `Honderdzestig begrippen, van het referentiekader tot China, Israël-Palestina en de kunststromingen. Ook bruikbaar voor Beyond dubbele finaliteit, dat grotendeels dezelfde hoofdstukken heeft. ${zesSpellen}`,
   },
   {
     spel: "begrippenarena-natuur",
