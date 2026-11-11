@@ -41,6 +41,13 @@ export const nieuwTekst = {
 export const updates: Update[] = [
   {
     datum: "11 november 2026",
+    titel: "Nieuwe woordenarena: Frans",
+    tekst:
+      "Bij de educatieve spellen staat nu ook een woordenarena Frans, voor Basis, Start, Spark, Boost en Beyond. Je oefent de Franse woorden uit de leerbundels in met een quiz, memory, galgje, flitskaarten of bingo. Nieuw is le of la?: je ziet een Frans woord en kiest of het mannelijk of vrouwelijk is.",
+    link: { tekst: "Naar de spellen", href: "/extras/spellen" },
+  },
+  {
+    datum: "11 november 2026",
     titel: "Nieuwe begrippenarena: Nederlands",
     tekst:
       "Bij de educatieve spellen staat nu ook een begrippenarena Nederlands, voor Basis, Start, Spark, Boost en Beyond. Je oefent de taalwoorden uit de leerbundels in met een quiz, memory, galgje, flitskaarten of bingo. Nieuw is de zinsdelenjager: je krijgt een zin en tikt zelf de persoonsvorm, het onderwerp of een ander zinsdeel aan.",
