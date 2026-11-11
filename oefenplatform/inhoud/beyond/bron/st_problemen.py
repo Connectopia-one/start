@@ -61,7 +61,7 @@ DEEL1 = [
         vraag="Wat is een opgave met context?",
         opties=[
             "een opgave die vertrekt van een concrete situatie uit de wereld rondom ons",
-            "een opgave die abstract en zuiver wiskundig is, zonder verhaal eromheen",
+            "een opgave die abstract en zuiver wiskundig is, zonder verhaal of situatie eromheen",
             "een opgave waarbij je het antwoord op een schrijftablet moet noteren",
             "een opgave waarvoor je de rekenapps van de examencommissie nodig hebt",
         ],
@@ -133,7 +133,7 @@ DEEL1 = [
         vraag="Welke aanpak hoort bij de heuristiek patronen en regelmaat ontdekken?",
         opties=[
             "je rekent enkele kleine gevallen uit en zoekt wat er telkens hetzelfde gaat",
-            "je zoekt in je cursus naar een vraagstuk dat op het jouwe lijkt",
+            "je zoekt in je cursus naar een vraagstuk dat op het jouwe lijkt en neemt die oplossing over",
             "je vraagt je af of de uitkomst die je kreeg redelijk is",
             "je zet de gegevens in een grafiek met de rekenapps erbij",
         ],
@@ -163,7 +163,7 @@ DEEL1 = [
         vraag="Een opgave vraagt naar het aantal mensen dat je minstens moet bevragen. Welke stap is hier het belangrijkst?",
         opties=[
             "demathematiseren, want je uitkomst moet een haalbaar aantal mensen worden",
-            "mathematiseren, want je moet de vraag in symbolen kunnen zetten",
+            "mathematiseren, want je moet de vraag eerst in symbolen en formules kunnen zetten",
             "reflecteren, want je moet je werkwijze nog eens kunnen uitleggen",
             "een plan maken, want je moet eerst de juiste formule kiezen",
         ],
@@ -181,7 +181,7 @@ DEEL1 = [
         vraag="Wat is het nut van variabelen invoeren bij een vraagstuk?",
         opties=[
             "je kan het verband tussen de gegevens opschrijven zonder alle getallen al te kennen",
-            "je hoeft daardoor geen tussenstappen meer op te schrijven in je antwoord",
+            "je hoeft daardoor geen tussenstappen meer op te schrijven in je antwoord op het examen",
             "je kan het antwoord meteen aflezen zonder nog iets te moeten berekenen",
             "je vermijdt daarmee dat je ergens in de oefening moet afronden",
         ],
@@ -214,7 +214,7 @@ DEEL2 = [
         vraag="Welke hulpmiddelen mag je gebruiken tijdens het examen statistiek?",
         opties=[
             "de rekenapps van de examencommissie en een online wetenschappelijk rekentoestel",
-            "je eigen grafisch rekentoestel en een samenvatting van één bladzijde",
+            "je eigen grafisch rekentoestel en een samenvatting van één bladzijde met de formules",
             "je smartphone, zolang je er enkel een rekenmachine op opent",
             "een laptop met een rekenblad waarin je zelf formules hebt gezet",
         ],
@@ -232,7 +232,7 @@ DEEL2 = [
         vraag="Wat betekent exact werken?",
         opties=[
             "je laat breuken, wortels en logaritmen staan in plaats van ze te benaderen",
-            "je noteert elk tussenresultaat met minstens vier cijfers na de komma",
+            "je noteert elk tussenresultaat met minstens vier cijfers na de komma, ook bij breuken",
             "je gebruikt voor elke berekening de rekenapps in plaats van hoofdrekenen",
             "je schrijft bij elke stap op welke formule je gebruikt hebt",
         ],
@@ -244,7 +244,7 @@ DEEL2 = [
         vraag="Waarvoor moet je ICT kunnen gebruiken bij statistiek?",
         opties=[
             "grafische voorstellingen maken, kengetallen berekenen en een onderzoek uitvoeren",
-            "enkel om de grafieken te tekenen, want rekenen moet altijd met de hand",
+            "enkel om de grafieken te tekenen, want rekenen moet op het examen altijd met de hand gebeuren",
             r"enkel om de \(p\)-waarde te berekenen, want dat kan niet met de hand",
             "voor alles, want bij statistiek hoef je niets meer zelf uit te rekenen",
         ],
@@ -316,7 +316,7 @@ DEEL2 = [
         vraag="Waarom werk je met zo nauwkeurig mogelijke tussenresultaten?",
         opties=[
             "omdat een afgerond tussenresultaat je eindantwoord verder van de waarheid brengt",
-            "omdat de verbeteraar anders niet ziet welke formule je gebruikt hebt",
+            "omdat de verbeteraar anders niet ziet welke formule je gebruikt hebt bij elke tussenstap",
             "omdat de rekenapps anders een foutmelding geven en opnieuw beginnen",
             "omdat je anders geen exacte waarde meer in je antwoord mag schrijven",
         ],
@@ -370,7 +370,7 @@ DEEL2 = [
         vraag="Waarom is een lijst met begrippen en notaties handig?",
         opties=[
             "omdat handboeken en websites verschillende symbolen gebruiken voor hetzelfde",
-            "omdat je die bijlage op het examen moet kunnen opzeggen uit het hoofd",
+            "omdat je die bijlage op het examen moet kunnen opzeggen uit het hoofd, zonder papier",
             "omdat de bijlage alle formules bevat die je anders zou moeten memoriseren",
             "omdat je anders niet weet welke hoofdstukken je moet studeren",
         ],

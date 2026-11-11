@@ -280,7 +280,7 @@ DEEL2 = [
         vraag="Hoe pak je een telprobleem met de voorwaarde minstens twee aan?",
         opties=[
             "je telt de gevallen met nul en met één en trekt die van het totaal af",
-            "je rekent enkel het geval met juist twee uit, dat is de ondergrens",
+            "je rekent enkel het geval met juist twee uit, want dat is de ondergrens van de vraag",
             "je vermenigvuldigt het totaal met twee, want twee is de drempel",
             "je telt de gevallen met twee en met drie op en stopt daar",
         ],

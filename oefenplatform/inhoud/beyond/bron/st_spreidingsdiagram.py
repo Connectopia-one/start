@@ -76,7 +76,7 @@ DEEL1 = [
         vraag="Wanneer is een verband recht evenredig?",
         opties=[
             "als de ene grootheid verdubbelt wanneer de andere verdubbelt",
-            "als de ene grootheid halveert wanneer de andere verdubbelt",
+            "als de ene grootheid halveert wanneer de andere verdubbelt, en omgekeerd",
             "als de punten in een parabool liggen in het diagram",
             "als de punten geen enkel patroon vormen in het diagram",
         ],
@@ -124,7 +124,7 @@ DEEL1 = [
         vraag="Hoe maak je een spreidingsdiagram?",
         opties=[
             "met ICT, dus met de rekenapps van de examencommissie",
-            "met de hand op millimeterpapier, want ICT mag niet",
+            "met de hand op millimeterpapier, want ICT mag niet bij dit onderdeel",
             "door de punten in een frequentietabel te groeperen",
             "door de twee variabelen eerst te standaardiseren",
         ],
@@ -154,7 +154,7 @@ DEEL1 = [
         vraag="Waarom teken je eerst een spreidingsdiagram vóór je een correlatiecoëfficiënt berekent?",
         opties=[
             "omdat r enkel iets zegt over een lineair verband en je de vorm wil zien",
-            "omdat een rekenapp zonder diagram geen r kan uitrekenen",
+            "omdat een rekenapp zonder diagram geen r kan uitrekenen uit de twee kolommen gegevens",
             "omdat je de uitschieters eerst moet verwijderen uit de gegevens",
             "omdat r anders groter dan één kan uitkomen in de berekening",
         ],
@@ -214,7 +214,7 @@ DEEL1 = [
         vraag="Een leerling zet in een diagram de schoolresultaten horizontaal en de studietijd verticaal. Wat zou je aanpassen?",
         opties=[
             "de assen omwisselen, want de studietijd is hier de onafhankelijke variabele",
-            "niets, de keuze van de assen is volledig vrij bij een puntenwolk",
+            "niets, de keuze van de assen is volledig vrij bij een puntenwolk en verandert niets aan het beeld",
             "de schoolresultaten eerst in groepen verdelen voor het diagram",
             "de twee variabelen standaardiseren voor hij ze uitzet",
         ],
@@ -229,7 +229,7 @@ DEEL2 = [
         vraag="Wat is een trendlijn in een spreidingsdiagram?",
         opties=[
             "de lijn die het verloop van de puntenwolk het best weergeeft",
-            "de lijn die alle punten van de wolk verbindt in volgorde",
+            "de lijn die alle punten van de wolk één voor één verbindt in volgorde",
             "de lijn door het kleinste en het grootste punt van de wolk",
             "de lijn die de wolk in twee gelijke helften verdeelt",
         ],
@@ -314,9 +314,9 @@ DEEL2 = [
         vraag="In de zomer worden er meer ijsjes verkocht en verdrinken er meer mensen. Wat besluit je?",
         opties=[
             "er is correlatie, maar de warmte verklaart beide en dus geen causaliteit",
-            "ijsjes eten maakt mensen onvoorzichtiger in het water",
+            "ijsjes eten maakt mensen onvoorzichtiger in het water, dus verdrinken ze vaker",
             "er is geen correlatie tussen de twee aantallen gemeten",
-            "verdrinkingen doen de verkoop van ijsjes stijgen",
+            "verdrinkingen doen de verkoop van ijsjes stijgen, omdat mensen dan troost zoeken",
         ],
         antwoord=0,
         uitleg="De warmte is hier de verborgen derde factor. Dit is het schoolvoorbeeld van correlatie zonder causaliteit.",
@@ -332,7 +332,7 @@ DEEL2 = [
         vraag="Een onderzoek vindt dat kinderen met grotere voeten beter kunnen lezen. Wat is de verklaring?",
         opties=[
             "de leeftijd verklaart beide, oudere kinderen zijn groter en lezen beter",
-            "grote voeten helpen bij het evenwicht tijdens het lezen",
+            "grote voeten helpen bij het evenwicht tijdens het lezen, waardoor kinderen langer kunnen lezen",
             "kinderen die goed lezen bewegen meer en krijgen grotere voeten",
             "er is geen correlatie, het onderzoek is verkeerd uitgevoerd",
         ],
@@ -368,7 +368,7 @@ DEEL2 = [
         vraag=r"De trendlijn van een onderzoek is \(y = 2x + 5\). Wat betekent de \(2\)?",
         opties=[
             "per eenheid die x stijgt, stijgt y met twee eenheden",
-            "de waarde van y is altijd twee keer zo groot als x",
+            "de waarde van y is altijd twee keer zo groot als de waarde van x",
             "er zijn twee variabelen in het onderzoek betrokken",
             "de correlatiecoëfficiënt is gelijk aan twee",
         ],
@@ -397,9 +397,9 @@ DEEL2 = [
         type="meerkeuze",
         vraag=r"Twee onderzoekers vinden r gelijk aan \(0{,}8\) maar hun puntenwolken zien er anders uit. Kan dat?",
         opties=[
-            "ja, hetzelfde getal kan bij verschillende vormen horen, daarom kijk je altijd naar het diagram",
-            "nee, hetzelfde getal betekent altijd dezelfde vorm van de wolk",
-            "nee, een van de twee heeft een rekenfout gemaakt bij de berekening",
+            "ja, hetzelfde getal kan bij verschillende vormen horen, daarom kijk je naar het diagram",
+            "nee, hetzelfde getal betekent altijd dezelfde vorm van de wolk, welke data je ook gebruikt",
+            "nee, een van de twee heeft een rekenfout gemaakt bij de berekening van de correlatiecoëfficiënt",
             "ja, maar enkel als de ene wolk meer punten bevat dan de andere",
         ],
         antwoord=0,
@@ -410,8 +410,8 @@ DEEL2 = [
         vraag="Een krant schrijft: wie meer melk drinkt, haalt hogere punten, dus drink melk. Wat zeg je?",
         opties=[
             "uit samenhang volgt geen oorzaak, misschien ontbijten die leerlingen simpelweg beter",
-            "de krant heeft gelijk, een sterke samenhang bewijst het verband",
-            "de krant moet eerst de correlatiecoëfficiënt in procent omzetten",
+            "de krant heeft gelijk, een sterke samenhang bewijst dat melk de resultaten verbetert",
+            "de krant moet eerst de correlatiecoëfficiënt in procent omzetten voor ze iets mag besluiten",
             "er kan geen samenhang zijn tussen melk en schoolresultaten",
         ],
         antwoord=0,

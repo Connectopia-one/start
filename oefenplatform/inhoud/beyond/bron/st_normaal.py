@@ -38,7 +38,7 @@ DEEL1 = [
         vraag=r"Wat betekent de notatie X ~ N(\(\mu\), \(\sigma\))?",
         opties=[
             r"X is normaal verdeeld met gemiddelde \(\mu\) en standaardafwijking \(\sigma\)",
-            r"X ligt tussen \(\mu\) en \(\sigma\)",
+            r"X ligt altijd tussen de waarden \(\mu\) en \(\sigma\), aan de rand van de verdeling",
             r"X is het gemiddelde van \(\mu\) metingen",
             r"X is normaal verdeeld met variantie \(\mu\) en gemiddelde \(\sigma\)",
         ],
@@ -230,9 +230,9 @@ DEEL2 = [
         vraag="Wat betekent een z-waarde van plus twee?",
         opties=[
             "de waarde ligt twee standaardafwijkingen boven het gemiddelde",
-            "de waarde is twee keer zo groot als het gemiddelde",
+            "de waarde is twee keer zo groot als het gemiddelde van de verdeling",
             r"de kans op die waarde is \(2\) procent",
-            "de waarde ligt twee eenheden boven het gemiddelde",
+            "de waarde ligt twee eenheden boven het gemiddelde, in de eenheid van de variabele",
         ],
         antwoord=0,
         uitleg="Een z-waarde drukt een afstand uit in standaardafwijkingen, niet in de eenheid van de meting.",
@@ -261,9 +261,9 @@ DEEL2 = [
         vraag="Waarom standaardiseert men een normale verdeling?",
         opties=[
             "om waarden uit verschillende verdelingen met elkaar te kunnen vergelijken",
-            "om de verdeling symmetrisch te maken",
+            "om de verdeling symmetrisch te maken, ook als ze eerst scheef was",
             "om de standaardafwijking kleiner te maken",
-            "om van een continue verdeling een discrete te maken",
+            "om van een continue verdeling een discrete verdeling te maken, zodat je kan tellen",
         ],
         antwoord=0,
         uitleg=r"Een score van zeventig op een toets zegt niets zonder \(\mu\) en \(\sigma\). De z-waarde maakt twee toetsen vergelijkbaar.",
@@ -291,7 +291,7 @@ DEEL2 = [
         vraag="Hoe bereken je op het examen een kans bij een normale verdeling?",
         opties=[
             r"met een rekenapp, waarbij je \(\mu\), \(\sigma\) en de grenzen invult",
-            "door de formule van de klokcurve met de hand te integreren",
+            "door de formule van de klokcurve met de hand te integreren tussen de twee grenzen",
             "door de vuistregel toe te passen, dat is de enige manier",
             "door het aantal waarden onder de grens te tellen",
         ],
@@ -309,8 +309,8 @@ DEEL2 = [
         vraag=r"De lengte van Belgische mannen volgt \(N(178; 7)\). Welke kans is het grootst?",
         opties=[
             r"de kans op een lengte tussen \(171\) en \(185\)",
-            r"de kans op een lengte boven \(192\)",
-            r"de kans op een lengte onder \(164\)",
+            r"de kans op een lengte boven \(192\), ver boven het gemiddelde",
+            r"de kans op een lengte onder \(164\), ver onder het gemiddelde",
             r"de kans op een lengte boven \(199\)",
         ],
         antwoord=0,

@@ -159,7 +159,7 @@ DEEL1 = [
         vraag=r"Een leerling vindt bij \(3\), \(5\), \(5\), \(6\), \(8\), \(9\), \(11\), \(11\), \(14\) een standaardafwijking van \(3{,}37\) terwijl er \(3{,}57\) verwacht werd. Wat gebeurde er?",
         opties=[
             r"hij nam de populatieversie \(\sigma\) in plaats van de steekproefversie s",
-            "hij vergat een van de negen waarden in te tikken in het rekenblad",
+            "hij vergat een van de negen waarden in te tikken in het rekenblad van de rekenapp",
             "hij nam de variantie in plaats van de standaardafwijking",
             "hij rondde te vroeg af in een van de tussenstappen",
         ],
@@ -298,7 +298,7 @@ DEEL2 = [
         vraag=r"Een leerling leest een correlatiecoëfficiënt van \(1{,}2\) af. Wat is er gebeurd?",
         opties=[
             "hij las een ander getal af, want r ligt altijd tussen min één en plus één",
-            "dat betekent een extra sterke samenhang tussen de twee variabelen",
+            "dat betekent een extra sterke samenhang tussen de twee variabelen, sterker dan bij r gelijk aan één",
             "hij moet het getal door honderd delen om r te krijgen",
             "hij heeft de twee kolommen verwisseld bij het intikken",
         ],
@@ -310,9 +310,9 @@ DEEL2 = [
         vraag="Je hebt twee kolommen in het rekenblad en wil de trendlijn zien. Wat is de werkwijze?",
         opties=[
             "de twee kolommen selecteren, een spreidingsdiagram maken en de lineaire trendlijn vragen",
-            "van elke kolom apart het gemiddelde nemen en die twee punten verbinden",
+            "van elke kolom apart het gemiddelde nemen en die twee punten met een rechte verbinden op de grafiek",
             "de kolommen optellen en de som in een lijndiagram zetten",
-            "de kolommen rangschikken en de eerste en de laatste waarde verbinden",
+            "de kolommen rangschikken en de eerste en de laatste waarde met een lijn verbinden",
         ],
         antwoord=0,
         uitleg="Het toestel geeft dan zelf het voorschrift. Kijk altijd eerst naar de puntenwolk: bij een kromme wolk is een rechte zinloos.",

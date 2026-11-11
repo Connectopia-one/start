@@ -45,7 +45,7 @@ DEEL1 = [
         vraag="Je krijgt een dataset van vijfduizend rijen. Wat doe je als tweede, na de onderzoeksvraag?",
         opties=[
             "de data verkennen met een grafiek en een paar kengetallen",
-            "meteen een hypothesetoets opstellen en uitvoeren",
+            "meteen een hypothesetoets opstellen en uitvoeren op alle variabelen",
             "de dataset in twee helften splitsen en vergelijken",
             "de uitschieters verwijderen voor je begint te rekenen",
         ],
@@ -57,7 +57,7 @@ DEEL1 = [
         vraag="Je wil weten of twee numerieke variabelen in je dataset samenhangen. Wat doe je?",
         opties=[
             "een spreidingsdiagram maken en de correlatiecoëfficiënt berekenen",
-            "van elke variabele een boxplot maken en de medianen vergelijken",
+            "van elke variabele een boxplot maken en de twee medianen met elkaar vergelijken",
             "een hypothesetoets uitvoeren op het gemiddelde van beide",
             "van beide variabelen de modus bepalen en vergelijken",
         ],
@@ -111,7 +111,7 @@ DEEL1 = [
         vraag="Je ziet in je verkenning een duidelijke uitschieter. Wat doe je eerst?",
         opties=[
             "nagaan of het een invoerfout of een echt bijzonder geval is",
-            "de uitschieter meteen verwijderen zodat je analyse klopt",
+            "de uitschieter meteen verwijderen zodat je analyse klopt en de grafiek mooier wordt",
             "de hele rij uit de dataset schrappen zonder te kijken",
             "de uitschieter vervangen door het gemiddelde van de rest",
         ],
@@ -177,7 +177,7 @@ DEEL1 = [
         vraag=r"Je vindt \(r = 0{,}78\) tussen twee variabelen in een dataset. Wat besluit je?",
         opties=[
             "er is een sterk positief lineair verband, maar geen oorzaak aangetoond",
-            "de ene variabele veroorzaakt duidelijk de verandering in de andere",
+            "de ene variabele veroorzaakt duidelijk de verandering in de andere variabele",
             r"er is helemaal geen verband tussen de twee, want \(0{,}78 < 1\)",
             "de twee variabelen zijn in feite identiek aan elkaar",
         ],
@@ -213,7 +213,7 @@ DEEL1 = [
         vraag="Een leerling berekent twintig kengetallen voor hij zijn vraag stelt. Wat zou je hem zeggen?",
         opties=[
             "begin bij je vraag, dan weet je welke twee of drie getallen je nodig hebt",
-            "twintig kengetallen zijn nooit genoeg voor een grote dataset",
+            "twintig kengetallen zijn nooit genoeg voor een grote dataset, hij moet er nog meer berekenen",
             "hij moet eerst alle grafieken maken en dan de getallen",
             "hij moet de kengetallen met de hand controleren na de rekenapp",
         ],
@@ -228,7 +228,7 @@ DEEL2 = [
         vraag="Wat betekent exact werken met een rekenapp?",
         opties=[
             "een wiskundige uitdrukking niet benaderen of afronden",
-            "met zoveel decimalen rekenen als je rekenapp toont",
+            "met zoveel decimalen rekenen als je rekenapp op het scherm toont",
             "elke tussenstap op twee decimalen afronden",
             "alle antwoorden in breukvorm noteren",
         ],
@@ -270,7 +270,7 @@ DEEL2 = [
         vraag=r"Je besluit uit je toets: ik verwerp \(H_{0}\) op het niveau van \(5\) procent. Wat moet er nog bij?",
         opties=[
             "wat dat betekent voor de onderzoeksvraag waarmee je begon",
-            "de volledige kansverdeling van je steekproefvariabele",
+            "de volledige kansverdeling van je steekproefvariabele, met alle tussenstappen",
             "het aantal decimalen dat je rekenapp gaf",
             "een tweede toets op een ander significantieniveau",
         ],
@@ -305,9 +305,9 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Waarom noteer je bij een open vraag je werkwijze en niet enkel het antwoord?",
         opties=[
-            "omdat het correcte gebruik van begrippen en notaties mee je resultaat bepaalt",
-            "omdat een rekenapp het antwoord soms verkeerd berekent",
-            "omdat de verbetering anders denkt dat je gegokt hebt",
+            "omdat het juiste gebruik van begrippen en notaties mee je resultaat bepaalt",
+            "omdat een rekenapp het antwoord soms verkeerd berekent als je de notatie niet invult",
+            "omdat de verbetering anders denkt dat je gegokt hebt en je antwoord dan niet telt",
             "omdat een antwoord zonder uitleg niet leesbaar is",
         ],
         antwoord=0,
@@ -385,8 +385,8 @@ DEEL2 = [
         vraag="Wat is het verschil tussen een opgave met context en een opgave zonder context?",
         opties=[
             "met context vertrekt ze van een concrete situatie, zonder context niet",
-            "met context mag je ICT gebruiken, zonder context niet",
-            "met context is ze altijd moeilijker dan zonder context",
+            "met context mag je ICT gebruiken, zonder context moet je alles met de hand doen",
+            "met context is ze altijd moeilijker dan zonder context, omdat er meer tekst bij staat",
             "zonder context hoef je je werkwijze niet te noteren",
         ],
         antwoord=0,
@@ -397,7 +397,7 @@ DEEL2 = [
         vraag=r"Je hebt een gemiddelde, een standaardafwijking, een \(p\)-waarde en een correlatiecoëfficiënt berekend. Wat zet je in je besluit?",
         opties=[
             "enkel de getallen die je onderzoeksvraag echt beantwoorden",
-            "alle vier de getallen, want je hebt ze berekend",
+            "alle vier de getallen, want je hebt ze berekend en dan moet je ze ook tonen",
             "enkel het getal met de kleinste waarde van de vier",
             r"enkel de \(p\)-waarde, want die beslist alles",
         ],

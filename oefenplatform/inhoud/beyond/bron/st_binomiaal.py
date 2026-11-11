@@ -195,7 +195,7 @@ DEEL1 = [
         vraag="Een leerling zegt dat de schoenmaat een continue kansvariabele is. Wat klopt daar niet aan?",
         opties=[
             "schoenmaten zijn losse getallen, dus de variabele is discreet",
-            "een schoenmaat is geen kansvariabele, want ze ligt vast",
+            "een schoenmaat is geen kansvariabele, want ze ligt vast voor elke persoon",
             "schoenmaten hebben geen kansverdeling, enkel een gemiddelde",
             "schoenmaten zijn wel continu, de leerling heeft dus gelijk",
         ],
@@ -210,7 +210,7 @@ DEEL2 = [
         vraag=r"Wat betekent de notatie X ~ B(\(n\), \(p\))?",
         opties=[
             r"X is binomiaal verdeeld met \(n\) experimenten en kans \(p\) op succes",
-            r"X ligt tussen \(n\) en \(p\) en is daar gelijkmatig verdeeld",
+            r"X ligt tussen \(n\) en \(p\) en is daar gelijkmatig over alle waarden verdeeld",
             r"X is het gemiddelde van \(n\) metingen met standaardafwijking \(p\)",
             r"X is de kans op \(n\) successen bij \(p\) experimenten",
         ],
@@ -259,8 +259,8 @@ DEEL2 = [
         vraag=r"Welke formule geeft \(P(X = k)\) bij X ~ B(\(n\), \(p\))?",
         opties=[
             r"\(C(n, k)\) maal \(p\) tot de \(k \cdot (1-p)\) tot de \((n-k)\)",
-            r"\(C(n, k)\) maal \(p \cdot (1-p)\)",
-            r"\(p\) tot de \(k \cdot (1-p)\) tot de \(n\)",
+            r"\(C(n, k)\) maal \(p\) tot de \(k\) maal \((1-p)\) tot de \(k\)",
+            r"\(C(n, k)\) maal \(p\) tot de \(n-k\) maal \((1-p)\) tot de \(k\)",
             r"\(n \cdot p\) tot de \(k : k\)",
         ],
         antwoord=0,

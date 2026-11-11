@@ -52,7 +52,7 @@
           "vraag": "Wat is een opgave met context?",
           "opties": [
             "een opgave die vertrekt van een concrete situatie uit de wereld rondom ons",
-            "een opgave die abstract en zuiver wiskundig is, zonder verhaal eromheen",
+            "een opgave die abstract en zuiver wiskundig is, zonder verhaal of situatie eromheen",
             "een opgave waarbij je het antwoord op een schrijftablet moet noteren",
             "een opgave waarvoor je de rekenapps van de examencommissie nodig hebt"
           ],
@@ -131,7 +131,7 @@
           "vraag": "Welke aanpak hoort bij de heuristiek patronen en regelmaat ontdekken?",
           "opties": [
             "je rekent enkele kleine gevallen uit en zoekt wat er telkens hetzelfde gaat",
-            "je zoekt in je cursus naar een vraagstuk dat op het jouwe lijkt",
+            "je zoekt in je cursus naar een vraagstuk dat op het jouwe lijkt en neemt die oplossing over",
             "je vraagt je af of de uitkomst die je kreeg redelijk is",
             "je zet de gegevens in een grafiek met de rekenapps erbij"
           ],
@@ -161,7 +161,7 @@
           "vraag": "Een opgave vraagt naar het aantal mensen dat je minstens moet bevragen. Welke stap is hier het belangrijkst?",
           "opties": [
             "demathematiseren, want je uitkomst moet een haalbaar aantal mensen worden",
-            "mathematiseren, want je moet de vraag in symbolen kunnen zetten",
+            "mathematiseren, want je moet de vraag eerst in symbolen en formules kunnen zetten",
             "reflecteren, want je moet je werkwijze nog eens kunnen uitleggen",
             "een plan maken, want je moet eerst de juiste formule kiezen"
           ],
@@ -181,7 +181,7 @@
           "vraag": "Wat is het nut van variabelen invoeren bij een vraagstuk?",
           "opties": [
             "je kan het verband tussen de gegevens opschrijven zonder alle getallen al te kennen",
-            "je hoeft daardoor geen tussenstappen meer op te schrijven in je antwoord",
+            "je hoeft daardoor geen tussenstappen meer op te schrijven in je antwoord op het examen",
             "je kan het antwoord meteen aflezen zonder nog iets te moeten berekenen",
             "je vermijdt daarmee dat je ergens in de oefening moet afronden"
           ],
@@ -218,7 +218,7 @@
           "vraag": "Welke hulpmiddelen mag je gebruiken tijdens het examen statistiek?",
           "opties": [
             "de rekenapps van de examencommissie en een online wetenschappelijk rekentoestel",
-            "je eigen grafisch rekentoestel en een samenvatting van één bladzijde",
+            "je eigen grafisch rekentoestel en een samenvatting van één bladzijde met de formules",
             "je smartphone, zolang je er enkel een rekenmachine op opent",
             "een laptop met een rekenblad waarin je zelf formules hebt gezet"
           ],
@@ -236,7 +236,7 @@
           "vraag": "Wat betekent exact werken?",
           "opties": [
             "je laat breuken, wortels en logaritmen staan in plaats van ze te benaderen",
-            "je noteert elk tussenresultaat met minstens vier cijfers na de komma",
+            "je noteert elk tussenresultaat met minstens vier cijfers na de komma, ook bij breuken",
             "je gebruikt voor elke berekening de rekenapps in plaats van hoofdrekenen",
             "je schrijft bij elke stap op welke formule je gebruikt hebt"
           ],
@@ -248,7 +248,7 @@
           "vraag": "Waarvoor moet je ICT kunnen gebruiken bij statistiek?",
           "opties": [
             "grafische voorstellingen maken, kengetallen berekenen en een onderzoek uitvoeren",
-            "enkel om de grafieken te tekenen, want rekenen moet altijd met de hand",
+            "enkel om de grafieken te tekenen, want rekenen moet op het examen altijd met de hand gebeuren",
             "enkel om de \\(p\\)-waarde te berekenen, want dat kan niet met de hand",
             "voor alles, want bij statistiek hoef je niets meer zelf uit te rekenen"
           ],
@@ -325,7 +325,7 @@
           "vraag": "Waarom werk je met zo nauwkeurig mogelijke tussenresultaten?",
           "opties": [
             "omdat een afgerond tussenresultaat je eindantwoord verder van de waarheid brengt",
-            "omdat de verbeteraar anders niet ziet welke formule je gebruikt hebt",
+            "omdat de verbeteraar anders niet ziet welke formule je gebruikt hebt bij elke tussenstap",
             "omdat de rekenapps anders een foutmelding geven en opnieuw beginnen",
             "omdat je anders geen exacte waarde meer in je antwoord mag schrijven"
           ],
@@ -381,7 +381,7 @@
           "vraag": "Waarom is een lijst met begrippen en notaties handig?",
           "opties": [
             "omdat handboeken en websites verschillende symbolen gebruiken voor hetzelfde",
-            "omdat je die bijlage op het examen moet kunnen opzeggen uit het hoofd",
+            "omdat je die bijlage op het examen moet kunnen opzeggen uit het hoofd, zonder papier",
             "omdat de bijlage alle formules bevat die je anders zou moeten memoriseren",
             "omdat je anders niet weet welke hoofdstukken je moet studeren"
           ],
@@ -785,7 +785,7 @@
           "vraag": "Je mag twee van de drie regels combineren in één opgave. Hoe pak je dat aan?",
           "opties": [
             "je splitst de opgave in stukken en kijkt per stuk of het en, of, of niet is",
-            "je kiest de regel die het grootste antwoord geeft, want dat is het totaal",
+            "je kiest de regel die het grootste antwoord geeft, want dat is altijd het totaal",
             "je gebruikt altijd eerst de somregel en daarna pas de productregel",
             "je rekent met alle drie de regels en neemt daarna het gemiddelde"
           ],
@@ -1188,7 +1188,7 @@
           "vraag": "Hoe pak je een telprobleem met de voorwaarde minstens twee aan?",
           "opties": [
             "je telt de gevallen met nul en met één en trekt die van het totaal af",
-            "je rekent enkel het geval met juist twee uit, dat is de ondergrens",
+            "je rekent enkel het geval met juist twee uit, want dat is de ondergrens van de vraag",
             "je vermenigvuldigt het totaal met twee, want twee is de drempel",
             "je telt de gevallen met twee en met drie op en stopt daar"
           ],
@@ -1434,7 +1434,7 @@
           "vraag": "Een leerling zegt dat de schoenmaat een continue kansvariabele is. Wat klopt daar niet aan?",
           "opties": [
             "schoenmaten zijn losse getallen, dus de variabele is discreet",
-            "een schoenmaat is geen kansvariabele, want ze ligt vast",
+            "een schoenmaat is geen kansvariabele, want ze ligt vast voor elke persoon",
             "schoenmaten hebben geen kansverdeling, enkel een gemiddelde",
             "schoenmaten zijn wel continu, de leerling heeft dus gelijk"
           ],
@@ -1453,7 +1453,7 @@
           "vraag": "Wat betekent de notatie X ~ B(\\(n\\), \\(p\\))?",
           "opties": [
             "X is binomiaal verdeeld met \\(n\\) experimenten en kans \\(p\\) op succes",
-            "X ligt tussen \\(n\\) en \\(p\\) en is daar gelijkmatig verdeeld",
+            "X ligt tussen \\(n\\) en \\(p\\) en is daar gelijkmatig over alle waarden verdeeld",
             "X is het gemiddelde van \\(n\\) metingen met standaardafwijking \\(p\\)",
             "X is de kans op \\(n\\) successen bij \\(p\\) experimenten"
           ],
@@ -1507,8 +1507,8 @@
           "vraag": "Welke formule geeft \\(P(X = k)\\) bij X ~ B(\\(n\\), \\(p\\))?",
           "opties": [
             "\\(C(n, k)\\) maal \\(p\\) tot de \\(k \\cdot (1-p)\\) tot de \\((n-k)\\)",
-            "\\(C(n, k)\\) maal \\(p \\cdot (1-p)\\)",
-            "\\(p\\) tot de \\(k \\cdot (1-p)\\) tot de \\(n\\)",
+            "\\(C(n, k)\\) maal \\(p\\) tot de \\(k\\) maal \\((1-p)\\) tot de \\(k\\)",
+            "\\(C(n, k)\\) maal \\(p\\) tot de \\(n-k\\) maal \\((1-p)\\) tot de \\(k\\)",
             "\\(n \\cdot p\\) tot de \\(k : k\\)"
           ],
           "antwoord": 0,
@@ -1784,9 +1784,9 @@
           "vraag": "Bij \\(X \\sim B(10; 0{,}4)\\) is E(X) gelijk aan vier. Wat betekent dat concreet?",
           "opties": [
             "doe je de reeks van tien vaak opnieuw, dan haal je gemiddeld vier successen",
-            "bij elke reeks van tien krijg je precies vier successen",
+            "bij elke reeks van tien krijg je precies vier successen, nooit meer en nooit minder",
             "de kans op vier successen is \\(40\\) procent",
-            "vier is de uitkomst met de kleinste kans van allemaal"
+            "vier is de uitkomst met de kleinste kans van allemaal, en daarom ook de verwachting"
           ],
           "antwoord": 0,
           "uitleg": "De verwachtingswaarde zegt iets over het gemiddelde van veel reeksen, niet over één reeks."
@@ -1850,7 +1850,7 @@
           "vraag": "Een winkel verkoopt per dag gemiddeld \\(2{,}4\\) fietsen. Een leerling zegt dat dat niet kan. Wat antwoord je?",
           "opties": [
             "een gemiddelde hoeft geen geheel getal te zijn, enkel de dagelijkse aantallen",
-            "de leerling heeft gelijk, het moet afgerond worden naar twee fietsen",
+            "de leerling heeft gelijk, het moet afgerond worden naar twee fietsen, want je verkoopt geen halve",
             "dat kan enkel als de winkel halve fietsen verkoopt",
             "dan is de kansvariabele continu in plaats van discreet"
           ],
@@ -1870,7 +1870,7 @@
           "opties": [
             "hoeveel de uitkomsten gemiddeld van de verwachtingswaarde afwijken",
             "het verschil tussen de grootste en de kleinste uitkomst",
-            "de kans dat de uitkomst gelijk is aan de verwachtingswaarde",
+            "de kans dat de uitkomst precies gelijk is aan de verwachtingswaarde",
             "hoeveel experimenten je moet doen voor een betrouwbaar resultaat"
           ],
           "antwoord": 0,
@@ -2061,8 +2061,8 @@
           "vraag": "Een leerling vindt bij \\(X \\sim B(40; 0{,}5)\\) een standaardafwijking van tien. Wat ging er mis?",
           "opties": [
             "de wortel is vergeten, want Var(X) is tien en de standaardafwijking ongeveer \\(3{,}16\\)",
-            "er is met \\(n\\) gerekend in plaats van met \\(p\\), het antwoord is twintig",
-            "de variantie is twee keer geteld, het antwoord is vijf",
+            "er is met \\(n\\) gerekend in plaats van met \\(p\\), en het juiste antwoord is dus twintig",
+            "de variantie is twee keer geteld, het juiste antwoord is dus vijf en niet tien",
             "er ging niets mis, tien is het juiste antwoord"
           ],
           "antwoord": 0,
@@ -2092,7 +2092,7 @@
           "vraag": "Wat betekent de notatie X ~ N(\\(\\mu\\), \\(\\sigma\\))?",
           "opties": [
             "X is normaal verdeeld met gemiddelde \\(\\mu\\) en standaardafwijking \\(\\sigma\\)",
-            "X ligt tussen \\(\\mu\\) en \\(\\sigma\\)",
+            "X ligt altijd tussen de waarden \\(\\mu\\) en \\(\\sigma\\), aan de rand van de verdeling",
             "X is het gemiddelde van \\(\\mu\\) metingen",
             "X is normaal verdeeld met variantie \\(\\mu\\) en gemiddelde \\(\\sigma\\)"
           ],
@@ -2313,9 +2313,9 @@
           "vraag": "Wat betekent een z-waarde van plus twee?",
           "opties": [
             "de waarde ligt twee standaardafwijkingen boven het gemiddelde",
-            "de waarde is twee keer zo groot als het gemiddelde",
+            "de waarde is twee keer zo groot als het gemiddelde van de verdeling",
             "de kans op die waarde is \\(2\\) procent",
-            "de waarde ligt twee eenheden boven het gemiddelde"
+            "de waarde ligt twee eenheden boven het gemiddelde, in de eenheid van de variabele"
           ],
           "antwoord": 0,
           "uitleg": "Een z-waarde drukt een afstand uit in standaardafwijkingen, niet in de eenheid van de meting."
@@ -2352,9 +2352,9 @@
           "vraag": "Waarom standaardiseert men een normale verdeling?",
           "opties": [
             "om waarden uit verschillende verdelingen met elkaar te kunnen vergelijken",
-            "om de verdeling symmetrisch te maken",
+            "om de verdeling symmetrisch te maken, ook als ze eerst scheef was",
             "om de standaardafwijking kleiner te maken",
-            "om van een continue verdeling een discrete te maken"
+            "om van een continue verdeling een discrete verdeling te maken, zodat je kan tellen"
           ],
           "antwoord": 0,
           "uitleg": "Een score van zeventig op een toets zegt niets zonder \\(\\mu\\) en \\(\\sigma\\). De z-waarde maakt twee toetsen vergelijkbaar."
@@ -2382,7 +2382,7 @@
           "vraag": "Hoe bereken je op het examen een kans bij een normale verdeling?",
           "opties": [
             "met een rekenapp, waarbij je \\(\\mu\\), \\(\\sigma\\) en de grenzen invult",
-            "door de formule van de klokcurve met de hand te integreren",
+            "door de formule van de klokcurve met de hand te integreren tussen de twee grenzen",
             "door de vuistregel toe te passen, dat is de enige manier",
             "door het aantal waarden onder de grens te tellen"
           ],
@@ -2400,8 +2400,8 @@
           "vraag": "De lengte van Belgische mannen volgt \\(N(178; 7)\\). Welke kans is het grootst?",
           "opties": [
             "de kans op een lengte tussen \\(171\\) en \\(185\\)",
-            "de kans op een lengte boven \\(192\\)",
-            "de kans op een lengte onder \\(164\\)",
+            "de kans op een lengte boven \\(192\\), ver boven het gemiddelde",
+            "de kans op een lengte onder \\(164\\), ver onder het gemiddelde",
             "de kans op een lengte boven \\(199\\)"
           ],
           "antwoord": 0,
@@ -2542,9 +2542,9 @@
           "vraag": "Wat betekent variabiliteit?",
           "opties": [
             "verschillende steekproeven uit dezelfde populatie geven verschillende resultaten",
-            "de waarden in een steekproef liggen ver van elkaar",
+            "de waarden in een steekproef liggen ver van elkaar, waardoor het gemiddelde schommelt",
             "het populatiegemiddelde verandert in de loop van de tijd",
-            "de meetinstrumenten geven elke keer een andere waarde"
+            "de meetinstrumenten geven elke keer een andere waarde, ook als je hetzelfde meet"
           ],
           "antwoord": 0,
           "uitleg": "Zo staat ze letterlijk in de bijlage. Bevraag je driehonderd andere mensen, dan krijg je een ander gemiddelde."
@@ -2581,7 +2581,7 @@
           "vraag": "Wat is een aselecte steekproef?",
           "opties": [
             "een steekproef waarbij elk lid van de populatie dezelfde kans heeft om gekozen te worden",
-            "een steekproef waarbij je de deelnemers zelf uitkiest op basis van hun antwoord",
+            "een steekproef waarbij je de deelnemers zelf uitkiest op basis van hun antwoord op een eerste vraag",
             "een steekproef van minstens dertig personen",
             "een steekproef waarvan het gemiddelde gelijk is aan dat van de populatie"
           ],
@@ -2593,7 +2593,7 @@
           "vraag": "Een onderzoeker vraagt alleen bezoekers van een sportclub hoeveel ze bewegen. Wat is het probleem?",
           "opties": [
             "de steekproef is niet representatief voor de hele bevolking",
-            "de steekproef is te klein om een gemiddelde te berekenen",
+            "de steekproef is te klein om er een betrouwbaar gemiddelde uit te berekenen",
             "er is geen populatiegemiddelde om mee te vergelijken",
             "bewegen is geen variabele die je kan meten"
           ],
@@ -2612,7 +2612,7 @@
           "opties": [
             "het kenmerk dat je bij elk element van de steekproef meet",
             "het aantal elementen in je steekproef",
-            "het verschil tussen de steekproef en de populatie",
+            "het verschil tussen de steekproef en de populatie waaruit ze getrokken werd",
             "de letter die je aan het gemiddelde geeft"
           ],
           "antwoord": 0,
@@ -2688,7 +2688,7 @@
           "vraag": "Een leerling schrijft dat het steekproefgemiddelde \\(\\mu\\) is. Waarom is dat fout?",
           "opties": [
             "\\(\\mu\\) staat voor het populatiegemiddelde, het steekproefgemiddelde is \\(\\bar{x}\\)",
-            "\\(\\mu\\) bestaat alleen bij een normale verdeling en niet bij een steekproef",
+            "\\(\\mu\\) bestaat alleen bij een normale verdeling en niet bij een steekproef uit de populatie",
             "\\(\\mu\\) is geen gemiddelde maar een standaardafwijking",
             "dat is niet fout, de twee symbolen mogen door elkaar gebruikt worden"
           ],
@@ -2709,7 +2709,7 @@
             "de verdeling van alle gemiddelden die je uit alle mogelijke steekproeven kan krijgen",
             "de verdeling van alle waarden in één steekproef",
             "de verdeling van de populatie zelf",
-            "de verdeling van de verschillen tussen de grootste en de kleinste waarde"
+            "de verdeling van de verschillen tussen de grootste en de kleinste waarde van elke steekproef"
           ],
           "antwoord": 0,
           "uitleg": "Neem je honderd steekproeven, dan krijg je honderd gemiddelden. Die vormen samen een verdeling."
@@ -2748,10 +2748,10 @@
           "type": "meerkeuze",
           "vraag": "Bij \\(n = 100\\) en \\(p\\) gelijk aan \\(0{,}2\\): zijn de voorwaarden voor de steekproefproportie voldaan?",
           "opties": [
-            "ja, want honderd is minstens dertig, \\(n \\cdot p\\) is twintig en \\(n \\cdot (1-p)\\) is tachtig",
-            "nee, want \\(n \\cdot p\\) is te klein",
+            "ja, want \\(n\\) is minstens dertig, \\(n \\cdot p = 20\\) en \\(n \\cdot (1-p) = 80\\)",
+            "nee, want \\(n \\cdot p\\) is te klein: het moet minstens de helft van \\(n\\) zijn, dus vijftig",
             "nee, want \\(p\\) is kleiner dan \\(0{,}5\\)",
-            "nee, want \\(n\\) moet minstens tweehonderd zijn"
+            "nee, want \\(n\\) moet minstens tweehonderd zijn voor je de normale benadering mag gebruiken"
           ],
           "antwoord": 0,
           "uitleg": "Alle drie de getallen halen hun drempel, dus je mag de normale benadering gebruiken."
@@ -2868,10 +2868,10 @@
           "type": "meerkeuze",
           "vraag": "Een onderzoeker heeft \\(n = 500\\) en \\(p\\) gelijk aan \\(0{,}03\\). Hoe controleert hij de derde voorwaarde?",
           "opties": [
-            "hij rekent vijfhonderd maal nul komma zevenennegentig uit en kijkt of dat minstens tien is",
+            "hij rekent \\(500 \\cdot 0{,}97\\) uit en kijkt of dat minstens tien is",
             "hij rekent vijfhonderd gedeeld door \\(0{,}03\\) uit",
             "hij kijkt of \\(0{,}03\\) groter is dan tien gedeeld door vijfhonderd",
-            "hij rekent de wortel uit vijfhonderd uit en vergelijkt met tien"
+            "hij rekent de wortel uit vijfhonderd uit en vergelijkt die met tien, want dat is de grens"
           ],
           "antwoord": 0,
           "uitleg": "Dat is \\(n \\cdot (1 - p)\\), hier \\(485\\). De tweede voorwaarde, \\(n \\cdot p\\), geeft vijftien. Allebei dus in orde."
@@ -2918,7 +2918,7 @@
           "vraag": "Wat is de nulhypothese bij een hypothesetoets?",
           "opties": [
             "de aanname die geldt zolang de data niet het tegendeel aantonen",
-            "de bewering die je zeker wil aantonen met je onderzoek",
+            "de bewering die je zeker wil aantonen met je onderzoek, en waarvoor je data verzamelt",
             "het gemiddelde dat je in je steekproef gevonden hebt",
             "de kans dat je besluit fout is bij dit onderzoek"
           ],
@@ -3000,9 +3000,9 @@
           "vraag": "Waarom zet men de bewering die men wil aantonen in \\(H_{1}\\) en niet in \\(H_{0}\\)?",
           "opties": [
             "omdat je enkel \\(H_{0}\\) kan verwerpen, en zo lever je bewijs voor \\(H_{1}\\)",
-            "omdat \\(H_{0}\\) altijd waar moet zijn in een toets",
+            "omdat \\(H_{0}\\) altijd waar moet zijn in een toets, en \\(H_{1}\\) altijd vals",
             "omdat \\(H_{1}\\) de kleinste kans van de twee heeft",
-            "omdat een rekenapp alleen met \\(H_{1}\\) kan rekenen"
+            "omdat een rekenapp alleen met \\(H_{1}\\) kan rekenen en niet met de nulhypothese"
           ],
           "antwoord": 0,
           "uitleg": "Een toets kan \\(H_{0}\\) verwerpen of niet verwerpen. Ze kan niets bewijzen, dus leg je je bewering aan de kant van \\(H_{1}\\)."
@@ -3011,9 +3011,9 @@
           "type": "meerkeuze",
           "vraag": "Een onderzoeker schrijft \\(H_{0}\\): \\(\\bar{x} = 20\\). Wat is daar fout aan?",
           "opties": [
-            "een hypothese gaat over de populatie, dus over \\(\\mu\\) en niet over het steekproefgemiddelde",
-            "het getal twintig is te klein voor een hypothese",
-            "\\(H_{0}\\) mag geen gelijkheid bevatten, enkel \\(H_{1}\\) mag dat",
+            "een hypothese gaat over de populatie, dus over \\(\\mu\\), niet over het steekproefgemiddelde",
+            "het getal twintig is te klein voor een hypothese, je hebt minstens dertig waarnemingen nodig",
+            "\\(H_{0}\\) mag geen gelijkheid bevatten, enkel \\(H_{1}\\) mag een gelijkheidsteken hebben",
             "er is niets fout, dat is een geldige nulhypothese"
           ],
           "antwoord": 0,
@@ -3051,8 +3051,8 @@
           "vraag": "Wat is er mis met de hypothese \\(H_{0}\\): \\(\\mu > 100\\)?",
           "opties": [
             "\\(H_{0}\\) moet een gelijkheid zijn, een ongelijkheid hoort in \\(H_{1}\\)",
-            "honderd is een te rond getal voor een hypothese",
-            "er ontbreekt een steekproefgrootte in de hypothese",
+            "honderd is een te rond getal voor een hypothese, dat wijst op een gok",
+            "er ontbreekt een steekproefgrootte in de hypothese, die moet je altijd vermelden",
             "er is niets mis, dat mag ook als nulhypothese"
           ],
           "antwoord": 0,
@@ -3126,7 +3126,7 @@
           "vraag": "Wanneer is een hypothesetoets tweezijdig?",
           "opties": [
             "als \\(H_{1}\\) zegt dat de waarde verschilt, zonder een richting te noemen",
-            "als \\(H_{1}\\) zegt dat de waarde groter is dan het getal in \\(H_{0}\\)",
+            "als \\(H_{1}\\) zegt dat de waarde groter is dan het getal in \\(H_{0}\\), in één richting",
             "als je twee steekproeven met elkaar vergelijkt",
             "als er twee voorwaarden uit het formularium gecontroleerd moeten worden"
           ],
@@ -3168,8 +3168,8 @@
           "vraag": "Wat controleer je nadat je \\(H_{0}\\) en \\(H_{1}\\) opgesteld hebt?",
           "opties": [
             "of de voorwaarden om de steekproevenverdeling te benaderen voldaan zijn",
-            "of de \\(p\\)-waarde kleiner is dan \\(0{,}05\\)",
-            "of je besluit overeenkomt met wat je verwacht had",
+            "of de \\(p\\)-waarde kleiner is dan \\(0{,}05\\), want enkel dan mag je verder rekenen",
+            "of je besluit overeenkomt met wat je vooraf verwacht had bij het opstellen van \\(H_{1}\\)",
             "of de steekproef groter is dan de populatie"
           ],
           "antwoord": 0,
@@ -3219,9 +3219,9 @@
           "vraag": "Waarom is een tweezijdige toets moeilijker om een verschil mee aan te tonen dan een eenzijdige?",
           "opties": [
             "omdat je het significantieniveau over twee staarten moet verdelen",
-            "omdat je twee keer zoveel data nodig hebt",
+            "omdat je twee keer zoveel data nodig hebt als bij een eenzijdige toets",
             "omdat de \\(p\\)-waarde dan altijd groter is dan één",
-            "omdat je dan twee nulhypothesen moet opstellen"
+            "omdat je dan twee nulhypothesen moet opstellen en ze allebei moet toetsen"
           ],
           "antwoord": 0,
           "uitleg": "Elke staart krijgt maar de helft van \\(\\alpha\\), dus de grens ligt verder weg en je hebt een groter verschil nodig."
@@ -3236,10 +3236,10 @@
           "type": "meerkeuze",
           "vraag": "Een slaagcijfer van \\(60\\) procent wordt getoetst met \\(n = 100\\). Is de proportievoorwaarde voldaan?",
           "opties": [
-            "ja, honderd is minstens dertig, \\(n \\cdot p\\) is zestig en \\(n \\cdot (1-p)\\) is veertig",
-            "nee, want \\(n \\cdot p\\) is te groot",
+            "ja, want \\(n\\) is minstens dertig, \\(n \\cdot p = 60\\) en \\(n \\cdot (1-p) = 40\\)",
+            "nee, want \\(n \\cdot p\\) is te groot: het mag niet meer dan de helft van \\(n\\) zijn",
             "nee, want \\(60\\) procent ligt te ver van de helft",
-            "ja, maar enkel omdat \\(p\\) groter is dan de helft"
+            "ja, maar enkel omdat \\(p\\) groter is dan de helft, anders zou het niet mogen"
           ],
           "antwoord": 0,
           "uitleg": "Alle drie de getallen halen hun drempel van dertig en tien."
@@ -3319,9 +3319,9 @@
           "vraag": "Een leerling schrijft \\(H_{0}\\): \\(\\mu = 50\\) en \\(H_{1}\\): \\(\\mu > 60\\). Wat is er mis?",
           "opties": [
             "\\(H_{0}\\) en \\(H_{1}\\) moeten samen alle mogelijkheden dekken en hetzelfde getal gebruiken",
-            "\\(H_{1}\\) mag geen groter dan bevatten bij een gemiddelde",
+            "\\(H_{1}\\) mag geen groter dan bevatten bij een gemiddelde, enkel een kleiner dan of een verschil",
             "het getal in \\(H_{1}\\) moet kleiner zijn dan dat in \\(H_{0}\\)",
-            "er is niets mis, de twee hypothesen sluiten elkaar uit"
+            "er is niets mis, de twee hypothesen sluiten elkaar uit en dat is het enige wat telt"
           ],
           "antwoord": 0,
           "uitleg": "Nu valt alles tussen vijftig en zestig buiten beide hypothesen. Gebruik in \\(H_{0}\\) en \\(H_{1}\\) hetzelfde getal."
@@ -3338,7 +3338,7 @@
           "vraag": "Wat is de \\(p\\)-waarde bij een hypothesetoets?",
           "opties": [
             "de kans op een resultaat dat minstens zo extreem is als \\(H_{0}\\) waar is",
-            "de kans dat de nulhypothese in werkelijkheid waar is, gegeven je data",
+            "de kans dat de nulhypothese in werkelijkheid waar is, gegeven de data uit je steekproef",
             "de kans dat het besluit dat je neemt achteraf het juiste blijkt",
             "de kans dat de alternatieve hypothese in werkelijkheid waar is"
           ],
@@ -3419,7 +3419,7 @@
           "vraag": "Een onderzoeker kiest \\(\\alpha\\) pas nadat hij de \\(p\\)-waarde kent. Waarom mag dat niet?",
           "opties": [
             "dan kan hij \\(\\alpha\\) zo kiezen dat zijn gewenste besluit uitkomt",
-            "dan wordt de \\(p\\)-waarde van zijn toets automatisch te groot",
+            "dan wordt de \\(p\\)-waarde van zijn toets automatisch te groot om iets te besluiten",
             "dan mag hij de rekenapps voor de berekening niet meer gebruiken",
             "dan moet hij verplicht overstappen op een tweezijdige toets"
           ],
@@ -3449,9 +3449,9 @@
           "vraag": "Een leerling schrijft: de \\(p\\)-waarde is \\(0{,}04\\), dus er is \\(4\\) procent kans dat \\(H_{0}\\) waar is. Wat is er mis?",
           "opties": [
             "de \\(p\\)-waarde is de kans op de data als \\(H_{0}\\) waar is, niet de kans dat \\(H_{0}\\) waar is",
-            "de \\(p\\)-waarde moet in procent uitgedrukt worden en niet als decimaal",
+            "de \\(p\\)-waarde moet in procent uitgedrukt worden en niet als decimaal getal tussen nul en één, zoals in een verslag",
             "\\(4\\) procent is te weinig om een besluit op te baseren",
-            "er is niets mis, dat is de juiste lezing van een \\(p\\)-waarde"
+            "er is niets mis, dat is de juiste lezing van een \\(p\\)-waarde bij een eenzijdige toets"
           ],
           "antwoord": 0,
           "uitleg": "De twee kansen zijn verschillende dingen. Dit is de meest gemaakte fout in heel de statistiek."
@@ -3489,7 +3489,7 @@
           "vraag": "Een onderzoek met honderdduizend deelnemers vindt een verschil van \\(0{,}1\\) procent met een \\(p\\)-waarde van \\(0{,}001\\). Wat besluit je?",
           "opties": [
             "het verschil is significant maar praktisch misschien onbelangrijk",
-            "het verschil is groot en belangrijk, want \\(p\\) is heel klein",
+            "het verschil is groot en belangrijk, want \\(p\\) is heel klein en dus zeker",
             "het verschil bestaat niet, want \\(0{,}1\\) procent is te klein",
             "de \\(p\\)-waarde is fout berekend bij zo'n grote steekproef"
           ],
@@ -3501,7 +3501,7 @@
           "vraag": "Hoe bereken je de \\(p\\)-waarde?",
           "opties": [
             "met de rekenapps, maar je noteert wel je werkwijze en je redenering",
-            "met de hand, want ICT is bij dit leerdoel niet toegelaten",
+            "met de hand, want ICT is bij dit leerdoel niet toegelaten op het examen",
             "door de vuistregel van achtenzestig procent toe te passen",
             "door het aantal extreme waarden in je steekproef te tellen"
           ],
@@ -3631,7 +3631,7 @@
           "vraag": "Een onderzoeker verwerpt \\(H_{0}\\) en schrijft: de nieuwe methode werkt beter. Wat moet hij er nog bij zeggen?",
           "opties": [
             "op welk significantieniveau hij dat besluit neemt",
-            "hoeveel kans er is dat \\(H_{0}\\) waar is",
+            "hoeveel kans er is dat \\(H_{0}\\) waar is, gegeven de data die hij gevonden heeft",
             "welk besluit hij liever had gekregen",
             "dat zijn besluit met zekerheid klopt"
           ],
@@ -3659,8 +3659,8 @@
           "vraag": "Een team toetst twintig verschillende verbanden op \\(\\alpha\\) gelijk aan \\(0{,}05\\) en vindt er één significant. Wat zeg je?",
           "opties": [
             "dat ene resultaat kan goed toeval zijn, want bij twintig toetsen verwacht je er één",
-            "dat ene resultaat is daardoor nog sterker bewezen",
-            "ze hadden \\(\\alpha\\) groter moeten nemen om meer te vinden",
+            "dat ene resultaat is daardoor nog sterker bewezen, want het kwam uit twintig verschillende toetsen",
+            "ze hadden \\(\\alpha\\) groter moeten nemen om meer significante resultaten te vinden",
             "twintig toetsen op dezelfde data mag altijd"
           ],
           "antwoord": 0,
@@ -3671,8 +3671,8 @@
           "vraag": "Hoe formuleer je een besluit na een toets correct?",
           "opties": [
             "op het niveau van \\(5\\) procent is er voldoende bewijs dat het gemiddelde hoger is",
-            "het is bewezen dat het gemiddelde hoger is",
-            "de nulhypothese heeft \\(5\\) procent kans om waar te zijn",
+            "het is nu bewezen dat het gemiddelde hoger is dan het getal uit de nulhypothese",
+            "de nulhypothese heeft \\(5\\) procent kans om waar te zijn, dus ze is zo goed als zeker fout",
             "het verschil is zeker geen toeval"
           ],
           "antwoord": 0,
@@ -3700,10 +3700,10 @@
           "type": "meerkeuze",
           "vraag": "Waarom is \\(H_{0}\\) niet verwerpen iets anders dan \\(H_{0}\\) aanvaarden?",
           "opties": [
-            "het kan ook aan een te kleine steekproef liggen in plaats van aan de waarheid van \\(H_{0}\\)",
+            "het kan ook aan een te kleine steekproef liggen, niet aan de waarheid van \\(H_{0}\\)",
             "\\(H_{0}\\) aanvaarden mag enkel bij een tweezijdige toets",
-            "\\(H_{0}\\) aanvaarden vraagt een \\(p\\)-waarde groter dan \\(0{,}5\\)",
-            "er is geen verschil, het zijn twee manieren om hetzelfde te zeggen"
+            "\\(H_{0}\\) aanvaarden vraagt een \\(p\\)-waarde groter dan \\(0{,}5\\), en niet groter dan \\(0{,}05\\)",
+            "er is geen verschil, het zijn twee manieren om precies hetzelfde besluit te formuleren"
           ],
           "antwoord": 0,
           "uitleg": "Geen bewijs vinden is geen bewijs van geen effect. Dat onderscheid wordt op het examen nagekeken."
@@ -3760,7 +3760,7 @@
           "vraag": "Wat is een betrouwbaarheidsinterval?",
           "opties": [
             "een interval dat met een bepaald niveau de populatiewaarde bevat",
-            "het interval waarin alle waarden van de steekproef liggen",
+            "het interval waarin alle waarden van de steekproef liggen, van klein naar groot",
             "het interval tussen het kleinste en het grootste gemeten getal",
             "het interval waarin precies de helft van de populatie valt"
           ],
@@ -3784,7 +3784,7 @@
           "vraag": "Wat betekent een betrouwbaarheidsniveau van vijfennegentig procent?",
           "opties": [
             "van alle zulke intervallen bevat vijfennegentig procent de populatiewaarde",
-            "vijfennegentig procent van de populatie ligt in dit interval",
+            "vijfennegentig procent van de hele populatie ligt binnen de grenzen van dit interval",
             "vijfennegentig procent van de steekproef ligt in dit interval",
             "de schatting is vijfennegentig procent nauwkeurig"
           ],
@@ -3840,8 +3840,8 @@
           "vraag": "Welke drie dingen bepalen de breedte van een betrouwbaarheidsinterval?",
           "opties": [
             "de steekproefgrootte, de standaardafwijking en het betrouwbaarheidsniveau",
-            "de populatiegrootte, het gemiddelde en de mediaan",
-            "het significantieniveau, de \\(p\\)-waarde en de nulhypothese",
+            "de populatiegrootte, het gemiddelde en de mediaan van de hele populatie samen",
+            "het significantieniveau, de \\(p\\)-waarde en de nulhypothese van de toets",
             "het aantal variabelen, de eenheid en het aantal decimalen"
           ],
           "antwoord": 0,
@@ -3852,9 +3852,9 @@
           "vraag": "Een partij haalt in een enquête \\(48\\) procent met een foutenmarge van \\(4\\) procent. Mag men zeggen dat ze geen meerderheid haalt?",
           "opties": [
             "nee, want het interval loopt van \\(44\\) tot \\(52\\) procent en vijftig zit erin",
-            "ja, want \\(48\\) is kleiner dan \\(50\\)",
+            "ja, want \\(48\\) is kleiner dan \\(50\\), dus de meerderheid steunt de partij niet",
             "ja, want de foutenmarge is kleiner dan het verschil",
-            "nee, want een enquête zegt nooit iets over een verkiezing"
+            "nee, want een enquête zegt nooit iets over een verkiezing, hoe groot ze ook is"
           ],
           "antwoord": 0,
           "uitleg": "Zodra \\(50\\) procent in het interval ligt, kan je niet besluiten of de partij er onder of boven zit."
@@ -3948,7 +3948,7 @@
           "vraag": "Een krant schrijft: de marge is \\(3\\) procent, dus het interval is \\(3\\) procent breed. Wat is er mis?",
           "opties": [
             "de marge gaat naar twee kanten, dus het interval is \\(6\\) procent breed",
-            "de marge moet altijd in absolute getallen en niet in procent",
+            "de marge moet altijd in absolute getallen staan en niet in procent, anders klopt de breedte niet",
             "een interval heeft geen breedte, enkel een midden",
             "er is niets mis, marge en breedte zijn hetzelfde"
           ],
@@ -4079,7 +4079,7 @@
             "een meerderheid is mogelijk maar niet aangetoond, want \\(50\\) is de ondergrens",
             "de partij haalt zeker een meerderheid",
             "de partij haalt zeker geen meerderheid",
-            "het interval is fout opgesteld, want \\(53\\) ligt niet precies in het midden"
+            "het interval is fout opgesteld, want \\(53\\) ligt niet precies in het midden van de grenzen"
           ],
           "antwoord": 0,
           "uitleg": "Precies op de grens kan je niets besluiten. Een voorzichtige lezing is hier het eerlijkst."
@@ -4103,8 +4103,8 @@
           "vraag": "Iemand zegt: mijn interval loopt van \\(40\\) tot \\(60\\), dus mijn onderzoek is mislukt. Wat zeg je?",
           "opties": [
             "het interval is breed, dus de steekproef was klein, maar het resultaat is niet fout",
-            "hij heeft gelijk, zo'n breed interval mag niet gepubliceerd worden",
-            "hij moet het betrouwbaarheidsniveau verhogen om het smaller te maken",
+            "hij heeft gelijk, zo'n breed interval mag niet gepubliceerd worden in een ernstig verslag",
+            "hij moet het betrouwbaarheidsniveau verhogen om het interval smaller te maken",
             "hij moet het midden als exact resultaat opgeven"
           ],
           "antwoord": 0,
@@ -4115,8 +4115,8 @@
           "vraag": "Wat is het verschil tussen een foutenmarge en een meetfout?",
           "opties": [
             "een foutenmarge komt van het steekproeven, een meetfout van het instrument",
-            "er is geen verschil, het zijn twee woorden voor hetzelfde",
-            "een meetfout is altijd groter dan een foutenmarge",
+            "er is geen verschil, het zijn twee woorden voor hetzelfde begrip uit de statistiek",
+            "een meetfout is altijd groter dan een foutenmarge, omdat toestellen nooit exact zijn",
             "een foutenmarge geldt alleen bij een gemiddelde"
           ],
           "antwoord": 0,
@@ -4157,8 +4157,8 @@
           "vraag": "Een rapport zegt: het interval bevat de steekproefwaarde, dus het klopt. Wat is er mis?",
           "opties": [
             "het interval ligt per constructie rond de steekproefwaarde, dat bewijst niets",
-            "het interval mag de steekproefwaarde niet bevatten",
-            "men moet eerst de \\(p\\)-waarde berekenen voor men dat mag zeggen",
+            "het interval mag de steekproefwaarde niet bevatten, anders is het onderzoek ongeldig",
+            "men moet eerst de \\(p\\)-waarde berekenen voor men dat mag zeggen over het interval",
             "er is niets mis, dat is een geldige controle"
           ],
           "antwoord": 0,
@@ -4218,7 +4218,7 @@
           "vraag": "Wanneer is een verband recht evenredig?",
           "opties": [
             "als de ene grootheid verdubbelt wanneer de andere verdubbelt",
-            "als de ene grootheid halveert wanneer de andere verdubbelt",
+            "als de ene grootheid halveert wanneer de andere verdubbelt, en omgekeerd",
             "als de punten in een parabool liggen in het diagram",
             "als de punten geen enkel patroon vormen in het diagram"
           ],
@@ -4270,7 +4270,7 @@
           "vraag": "Hoe maak je een spreidingsdiagram?",
           "opties": [
             "met ICT, dus met de rekenapps van de examencommissie",
-            "met de hand op millimeterpapier, want ICT mag niet",
+            "met de hand op millimeterpapier, want ICT mag niet bij dit onderdeel",
             "door de punten in een frequentietabel te groeperen",
             "door de twee variabelen eerst te standaardiseren"
           ],
@@ -4300,7 +4300,7 @@
           "vraag": "Waarom teken je eerst een spreidingsdiagram vóór je een correlatiecoëfficiënt berekent?",
           "opties": [
             "omdat r enkel iets zegt over een lineair verband en je de vorm wil zien",
-            "omdat een rekenapp zonder diagram geen r kan uitrekenen",
+            "omdat een rekenapp zonder diagram geen r kan uitrekenen uit de twee kolommen gegevens",
             "omdat je de uitschieters eerst moet verwijderen uit de gegevens",
             "omdat r anders groter dan één kan uitkomen in de berekening"
           ],
@@ -4367,7 +4367,7 @@
           "vraag": "Een leerling zet in een diagram de schoolresultaten horizontaal en de studietijd verticaal. Wat zou je aanpassen?",
           "opties": [
             "de assen omwisselen, want de studietijd is hier de onafhankelijke variabele",
-            "niets, de keuze van de assen is volledig vrij bij een puntenwolk",
+            "niets, de keuze van de assen is volledig vrij bij een puntenwolk en verandert niets aan het beeld",
             "de schoolresultaten eerst in groepen verdelen voor het diagram",
             "de twee variabelen standaardiseren voor hij ze uitzet"
           ],
@@ -4386,7 +4386,7 @@
           "vraag": "Wat is een trendlijn in een spreidingsdiagram?",
           "opties": [
             "de lijn die het verloop van de puntenwolk het best weergeeft",
-            "de lijn die alle punten van de wolk verbindt in volgorde",
+            "de lijn die alle punten van de wolk één voor één verbindt in volgorde",
             "de lijn door het kleinste en het grootste punt van de wolk",
             "de lijn die de wolk in twee gelijke helften verdeelt"
           ],
@@ -4479,9 +4479,9 @@
           "vraag": "In de zomer worden er meer ijsjes verkocht en verdrinken er meer mensen. Wat besluit je?",
           "opties": [
             "er is correlatie, maar de warmte verklaart beide en dus geen causaliteit",
-            "ijsjes eten maakt mensen onvoorzichtiger in het water",
+            "ijsjes eten maakt mensen onvoorzichtiger in het water, dus verdrinken ze vaker",
             "er is geen correlatie tussen de twee aantallen gemeten",
-            "verdrinkingen doen de verkoop van ijsjes stijgen"
+            "verdrinkingen doen de verkoop van ijsjes stijgen, omdat mensen dan troost zoeken"
           ],
           "antwoord": 0,
           "uitleg": "De warmte is hier de verborgen derde factor. Dit is het schoolvoorbeeld van correlatie zonder causaliteit."
@@ -4497,7 +4497,7 @@
           "vraag": "Een onderzoek vindt dat kinderen met grotere voeten beter kunnen lezen. Wat is de verklaring?",
           "opties": [
             "de leeftijd verklaart beide, oudere kinderen zijn groter en lezen beter",
-            "grote voeten helpen bij het evenwicht tijdens het lezen",
+            "grote voeten helpen bij het evenwicht tijdens het lezen, waardoor kinderen langer kunnen lezen",
             "kinderen die goed lezen bewegen meer en krijgen grotere voeten",
             "er is geen correlatie, het onderzoek is verkeerd uitgevoerd"
           ],
@@ -4536,7 +4536,7 @@
           "vraag": "De trendlijn van een onderzoek is \\(y = 2x + 5\\). Wat betekent de \\(2\\)?",
           "opties": [
             "per eenheid die x stijgt, stijgt y met twee eenheden",
-            "de waarde van y is altijd twee keer zo groot als x",
+            "de waarde van y is altijd twee keer zo groot als de waarde van x",
             "er zijn twee variabelen in het onderzoek betrokken",
             "de correlatiecoëfficiënt is gelijk aan twee"
           ],
@@ -4565,9 +4565,9 @@
           "type": "meerkeuze",
           "vraag": "Twee onderzoekers vinden r gelijk aan \\(0{,}8\\) maar hun puntenwolken zien er anders uit. Kan dat?",
           "opties": [
-            "ja, hetzelfde getal kan bij verschillende vormen horen, daarom kijk je altijd naar het diagram",
-            "nee, hetzelfde getal betekent altijd dezelfde vorm van de wolk",
-            "nee, een van de twee heeft een rekenfout gemaakt bij de berekening",
+            "ja, hetzelfde getal kan bij verschillende vormen horen, daarom kijk je naar het diagram",
+            "nee, hetzelfde getal betekent altijd dezelfde vorm van de wolk, welke data je ook gebruikt",
+            "nee, een van de twee heeft een rekenfout gemaakt bij de berekening van de correlatiecoëfficiënt",
             "ja, maar enkel als de ene wolk meer punten bevat dan de andere"
           ],
           "antwoord": 0,
@@ -4578,8 +4578,8 @@
           "vraag": "Een krant schrijft: wie meer melk drinkt, haalt hogere punten, dus drink melk. Wat zeg je?",
           "opties": [
             "uit samenhang volgt geen oorzaak, misschien ontbijten die leerlingen simpelweg beter",
-            "de krant heeft gelijk, een sterke samenhang bewijst het verband",
-            "de krant moet eerst de correlatiecoëfficiënt in procent omzetten",
+            "de krant heeft gelijk, een sterke samenhang bewijst dat melk de resultaten verbetert",
+            "de krant moet eerst de correlatiecoëfficiënt in procent omzetten voor ze iets mag besluiten",
             "er kan geen samenhang zijn tussen melk en schoolresultaten"
           ],
           "antwoord": 0,
@@ -5060,7 +5060,7 @@
           "vraag": "Waarom gebruikt men relatieve frequenties om twee datasets te vergelijken?",
           "opties": [
             "omdat datasets van verschillende grootte zo vergelijkbaar worden",
-            "omdat relatieve frequenties altijd grotere getallen geven",
+            "omdat relatieve frequenties altijd grotere getallen geven die je beter kan aflezen",
             "omdat absolute frequenties niet met ICT berekend kunnen worden",
             "omdat relatieve frequenties geen eenheid nodig hebben"
           ],
@@ -5141,7 +5141,7 @@
           "vraag": "Waarvoor dient de kolom met cumulatieve frequenties vooral?",
           "opties": [
             "om snel te zien hoeveel gegevens onder een grens liggen",
-            "om het gemiddelde van de dataset te berekenen",
+            "om het gemiddelde van de dataset te berekenen zonder alle waarden op te tellen",
             "om de modus van de dataset te bepalen",
             "om de standaardafwijking te kunnen uitrekenen"
           ],
@@ -5180,7 +5180,7 @@
           "vraag": "Een krant zet alleen absolute frequenties in een tabel met twee heel verschillend grote groepen. Wat is daar het probleem mee?",
           "opties": [
             "de lezer kan de twee groepen niet eerlijk vergelijken zonder percentages",
-            "absolute frequenties mogen niet in een krant gepubliceerd worden",
+            "absolute frequenties mogen niet in een krant gepubliceerd worden, alleen in een wetenschappelijk verslag",
             "absolute frequenties kunnen niet in een tabel gezet worden",
             "de lezer heeft dan ook de cumulatieve frequenties nodig"
           ],
@@ -5241,7 +5241,7 @@
           "vraag": "Waarom gebruik je het klassenmidden om een gemiddelde uit een gegroepeerde tabel te berekenen?",
           "opties": [
             "omdat je de afzonderlijke waarden niet meer kent en het midden de beste gok is",
-            "omdat het klassenmidden altijd gelijk is aan het echte gemiddelde",
+            "omdat het klassenmidden altijd precies gelijk is aan het echte gemiddelde van die klasse",
             "omdat het klassenmidden de modus van de klasse weergeeft",
             "omdat je anders door het aantal klassen zou moeten delen"
           ],
@@ -5267,7 +5267,7 @@
           "vraag": "Wat gaat er mis als je klassen laat overlappen, bijvoorbeeld van \\(10\\) tot \\(20\\) en van \\(20\\) tot \\(30\\)?",
           "opties": [
             "de waarde twintig past in twee klassen en wordt dubbel geteld",
-            "de som van de frequenties wordt automatisch kleiner",
+            "de som van de frequenties wordt automatisch kleiner dan het aantal gegevens",
             "de klassenbreedte is dan niet meer te berekenen",
             "het klassenmidden valt dan buiten de klasse"
           ],
@@ -5348,7 +5348,7 @@
           "vraag": "Een leerling maakt klassen van \\(0\\) tot \\(10\\), van \\(11\\) tot \\(20\\) en van \\(21\\) tot \\(30\\) voor een continue variabele. Wat is het probleem?",
           "opties": [
             "de waarden tussen \\(10\\) en \\(11\\) vallen in geen enkele klasse",
-            "de klassen zijn niet allemaal even breed gekozen",
+            "de klassen zijn niet allemaal even breed gekozen, wat bij een histogram verplicht is",
             "er zijn te weinig klassen voor een continue variabele",
             "het klassenmidden valt niet op een geheel getal"
           ],
@@ -5388,8 +5388,8 @@
           "vraag": "Je berekent uit een gegroepeerde tabel een gemiddelde van \\(34{,}2\\) terwijl de ruwe data \\(33{,}8\\) geeft. Wat zeg je?",
           "opties": [
             "dat is normaal, want het klassenmidden is een benadering van de echte waarden",
-            "er zit een rekenfout in een van de twee berekeningen",
-            "de gegroepeerde tabel is altijd nauwkeuriger dan de ruwe data",
+            "er zit een rekenfout in een van de twee berekeningen, want ze moeten exact gelijk zijn",
+            "de gegroepeerde tabel is altijd nauwkeuriger dan de ruwe data, dus die is juist",
             "de klassen waren te smal gekozen voor deze dataset"
           ],
           "antwoord": 0,
@@ -5519,7 +5519,7 @@
           "vraag": "Waarom kies je bij een continue variabele een histogram en geen staafdiagram?",
           "opties": [
             "omdat de aansluitende staven tonen dat de waarden doorlopen",
-            "omdat een staafdiagram geen verticale as mag hebben",
+            "omdat een staafdiagram geen verticale as mag hebben bij continue data",
             "omdat een histogram minder klassen nodig heeft",
             "omdat een staafdiagram enkel voor kleine datasets dient"
           ],
@@ -5598,7 +5598,7 @@
           "vraag": "Een leerling maakt een lijndiagram van het aantal leerlingen per studierichting. Wat zou je aanraden?",
           "opties": [
             "een staafdiagram, want tussen twee richtingen zit geen verloop",
-            "een histogram, want de richtingen zijn te groeperen",
+            "een histogram, want de richtingen zijn per graad of per school te groeperen",
             "een spreidingsdiagram, want er zijn twee variabelen",
             "niets aanpassen, een lijndiagram past bij elke dataset"
           ],
@@ -5647,7 +5647,7 @@
           "vraag": "Een histogram met één hoge staaf en veel lage staven rechts ervan. Hoe beschrijf je die verdeling?",
           "opties": [
             "scheef naar rechts, met een lange staart aan de rechterkant",
-            "scheef naar links, met een lange staart aan de linkerkant",
+            "scheef naar links, met een lange staart aan de linkerkant van het diagram",
             "symmetrisch rond het gemiddelde van de dataset",
             "klokvormig en dus geschikt voor een normale verdeling"
           ],
@@ -5659,9 +5659,9 @@
           "vraag": "Een staaf in een diagram torent ver boven de andere uit. Wat doe je volgens goede praktijk?",
           "opties": [
             "je zet de waarden boven de staven zodat de lezer de kleine ook kan lezen",
-            "je laat de hoge staaf weg zodat het beeld leesbaar blijft",
+            "je laat de hoge staaf weg zodat het beeld leesbaar blijft voor de kleinere waarden",
             "je maakt van de hoge staaf een stippellijn zonder getal",
-            "je verandert de eenheid zodat alle staven gelijk worden"
+            "je verandert de eenheid zodat alle staven ongeveer even hoog worden in het diagram"
           ],
           "antwoord": 0,
           "uitleg": "Door een uitschieter worden de andere staven piepklein. De getallen erbij houden het beeld eerlijk en leesbaar."
@@ -5686,7 +5686,7 @@
           "vraag": "Een lijndiagram toont een scherpe stijging, maar de tijdsas loopt van \\(2020\\) naar \\(2021\\) naar \\(2025\\). Wat is het probleem?",
           "opties": [
             "de afstanden op de tijdsas zijn ongelijk, dus de stijging is vertekend",
-            "een lijndiagram mag geen jaren op de horizontale as hebben",
+            "een lijndiagram mag geen jaren op de horizontale as hebben, enkel maanden of dagen",
             "er zijn te weinig punten om een lijn te tekenen",
             "de tijd hoort altijd op de verticale as te staan"
           ],
@@ -5698,9 +5698,9 @@
           "vraag": "Twee groepen worden met twee histogrammen vergeleken, maar de assen hebben een andere schaal. Wat doe je?",
           "opties": [
             "je maakt de assen gelijk, anders kan je de vormen niet vergelijken",
-            "je legt de twee histogrammen over elkaar in één beeld",
+            "je legt de twee histogrammen over elkaar in één beeld, met twee verschillende kleuren",
             "je vervangt ze door twee boxplots op aparte assen",
-            "je laat het zo, de vorm van elk histogram klopt apart"
+            "je laat het zo, de vorm van elk histogram klopt apart en dat is genoeg"
           ],
           "antwoord": 0,
           "uitleg": "Vergelijken kan alleen op dezelfde schaal. Anders lijkt de ene groep breder gespreid dan ze is."
@@ -5716,7 +5716,7 @@
           "vraag": "Een histogram met twee duidelijke toppen. Wat is de beste eerste gedachte?",
           "opties": [
             "er zitten misschien twee verschillende groepen in de data",
-            "de klassen zijn verkeerd berekend in het histogram",
+            "de klassen zijn verkeerd berekend in het histogram, waardoor er twee toppen ontstaan",
             "de normale verdeling past perfect bij deze data",
             "het gemiddelde ligt onder de laagste van de twee toppen"
           ],
@@ -5728,7 +5728,7 @@
           "vraag": "Waarom staat de nul bij een lijndiagram van de temperatuur niet altijd op de as?",
           "opties": [
             "bij een temperatuur is de nul geen natuurlijk nulpunt van de schaal",
-            "een lijndiagram mag nooit een nul op de as hebben staan",
+            "een lijndiagram mag nooit een nul op de verticale as hebben staan, bij geen enkele dataset",
             "de nul past niet in het beeld bij grote getallen",
             "een temperatuur wordt altijd relatief weergegeven"
           ],
@@ -5756,7 +5756,7 @@
           "vraag": "Een dotplot toont vier stippen boven de waarde zeven. Wat betekent dat?",
           "opties": [
             "de waarde zeven komt vier keer voor in de dataset",
-            "de waarde zeven is vier eenheden groot",
+            "de waarde zeven is vier eenheden groot in de gekozen meeteenheid",
             "er zijn vier waarden kleiner dan zeven",
             "het gemiddelde van de dataset is vier"
           ],
@@ -5768,7 +5768,7 @@
           "vraag": "Welke grafiek zou je kiezen om te laten zien dat één groep veel meer uitschieters heeft?",
           "opties": [
             "twee boxplots naast elkaar op dezelfde as",
-            "twee lijndiagrammen in hetzelfde beeld",
+            "twee lijndiagrammen in hetzelfde beeld, met elk een eigen kleur",
             "één staafdiagram met de twee groepen",
             "één spreidingsdiagram met beide groepen"
           ],
@@ -5939,7 +5939,7 @@
           "vraag": "Hoe bereken je het gemiddelde uit een frequentietabel?",
           "opties": [
             "je vermenigvuldigt elke waarde met haar frequentie en deelt door het totaal",
-            "je telt alle verschillende waarden op en deelt door hun aantal",
+            "je telt alle verschillende waarden op en deelt door hoeveel verschillende waarden er zijn",
             "je neemt de waarde met de grootste frequentie uit de tabel",
             "je telt alle frequenties op en deelt door het aantal rijen"
           ],
@@ -6036,7 +6036,7 @@
           "vraag": "Wat gebeurt er met het gemiddelde als er één enorme uitschieter bijkomt?",
           "opties": [
             "het schuift mee in de richting van de uitschieter",
-            "het blijft precies waar het was",
+            "het blijft precies waar het was, want het gemiddelde trekt zich niets aan van één waarde",
             "het schuift in de tegengestelde richting",
             "het wordt gelijk aan de uitschieter"
           ],
@@ -6117,8 +6117,8 @@
           "vraag": "Wanneer is het gemiddelde een goede keuze?",
           "opties": [
             "bij een redelijk symmetrische verdeling zonder grote uitschieters",
-            "bij een verdeling met een lange staart naar rechts",
-            "bij een niet-numerieke variabele zoals studierichting",
+            "bij een verdeling met een lange staart naar rechts en enkele uitschieters",
+            "bij een niet-numerieke variabele zoals studierichting of woonplaats",
             "altijd, want het gemiddelde gebruikt alle gegevens"
           ],
           "antwoord": 0,
@@ -6227,7 +6227,7 @@
           "vraag": "Een onderzoeker verwijdert alle uitschieters om een mooier gemiddelde te krijgen. Wat zeg je?",
           "opties": [
             "uitschieters verwijder je enkel met een reden, en je meldt het altijd",
-            "dat is de normale werkwijze bij elke statistische analyse",
+            "dat is de normale werkwijze bij elke statistische analyse met een grote dataset",
             "dat mag nooit, uitschieters blijven altijd in de dataset",
             "dan moet hij ook de kleinste waarden verwijderen voor het evenwicht"
           ],
@@ -6356,9 +6356,9 @@
           "vraag": "Wat betekent een interkwartielafstand van nul?",
           "opties": [
             "de middelste helft van de gegevens heeft allemaal dezelfde waarde",
-            "de dataset bevat geen enkele waarde",
+            "de dataset bevat geen enkele waarde, want de doos is leeg",
             "alle waarden in de dataset zijn verschillend",
-            "de mediaan ligt precies in het midden van het bereik"
+            "de mediaan ligt precies in het midden van het bereik, tussen minimum en maximum"
           ],
           "antwoord": 0,
           "uitleg": "\\(Q_{1}\\) en \\(Q_{3}\\) vallen dan samen. Dat gebeurt bij een dataset waar heel veel waarden gelijk zijn."
@@ -6368,7 +6368,7 @@
           "vraag": "Twee klassen hebben dezelfde mediaan maar klas A heeft een interkwartielafstand van \\(2\\) en klas B van \\(8\\). Wat besluit je?",
           "opties": [
             "de resultaten van klas B liggen veel verder uit elkaar",
-            "klas B heeft een hogere mediaan dan klas A",
+            "klas B heeft een hogere mediaan dan klas A, al is het verschil klein",
             "klas A heeft meer uitschieters dan klas B",
             "de twee klassen zijn niet te vergelijken"
           ],
@@ -6453,7 +6453,7 @@
           "vraag": "Wat meet de standaardafwijking van een dataset?",
           "opties": [
             "hoeveel de waarden gemiddeld van het gemiddelde afwijken",
-            "het verschil tussen de grootste en de kleinste waarde",
+            "het verschil tussen de grootste en de kleinste waarde van de dataset",
             "het verschil tussen het gemiddelde en de mediaan",
             "het aantal waarden dat boven het gemiddelde ligt"
           ],
@@ -6534,9 +6534,9 @@
           "vraag": "Wat is de vuistregel om een uitschieter in een boxplot aan te duiden?",
           "opties": [
             "een waarde die verder dan anderhalve interkwartielafstand buiten de doos ligt",
-            "een waarde die meer dan twee keer het gemiddelde bedraagt",
+            "een waarde die meer dan twee keer zo groot is als het gemiddelde van de dataset",
             "elke waarde die buiten de doos van de boxplot valt",
-            "de grootste en de kleinste waarde van elke dataset"
+            "de grootste en de kleinste waarde van elke dataset, ook als ze dicht bij de rest liggen"
           ],
           "antwoord": 0,
           "uitleg": "De snorharen stoppen bij die grens, en wat erbuiten valt, wordt als los punt getekend."
@@ -6591,9 +6591,9 @@
           "vraag": "Een dataset heeft een gemiddelde van \\(50\\) en een standaardafwijking van \\(2\\). Een waarde van \\(70\\) is dan wat?",
           "opties": [
             "een uitzonderlijke waarde, tien standaardafwijkingen boven het gemiddelde",
-            "een gewone waarde, want \\(70\\) ligt dicht bij \\(50\\)",
+            "een gewone waarde, want \\(70\\) ligt vrij dicht bij het gemiddelde van \\(50\\)",
             "precies de bovengrens van het normale bereik",
-            "onmogelijk, want \\(70\\) ligt buiten het bereik van de dataset"
+            "onmogelijk, want \\(70\\) ligt buiten het bereik van de dataset en kan dus niet voorkomen"
           ],
           "antwoord": 0,
           "uitleg": "Twintig gedeeld door twee is tien. Boven drie standaardafwijkingen is een waarde al heel zeldzaam."
@@ -6645,8 +6645,8 @@
           "vraag": "Een leerling meldt een standaardafwijking van min drie. Wat zeg je?",
           "opties": [
             "een standaardafwijking kan niet negatief zijn, er zit een rekenfout in",
-            "dat betekent dat de waarden onder het gemiddelde liggen",
-            "dat kan, bij een dalende reeks is de spreiding negatief",
+            "dat betekent dat de meeste waarden onder het gemiddelde liggen in de dataset",
+            "dat kan, bij een dalende reeks waarden is de spreiding van nature negatief",
             "hij moet het minteken weglaten en verder rekenen"
           ],
           "antwoord": 0,
@@ -6836,7 +6836,7 @@
           "vraag": "Een leerling vindt bij \\(3\\), \\(5\\), \\(5\\), \\(6\\), \\(8\\), \\(9\\), \\(11\\), \\(11\\), \\(14\\) een standaardafwijking van \\(3{,}37\\) terwijl er \\(3{,}57\\) verwacht werd. Wat gebeurde er?",
           "opties": [
             "hij nam de populatieversie \\(\\sigma\\) in plaats van de steekproefversie s",
-            "hij vergat een van de negen waarden in te tikken in het rekenblad",
+            "hij vergat een van de negen waarden in te tikken in het rekenblad van de rekenapp",
             "hij nam de variantie in plaats van de standaardafwijking",
             "hij rondde te vroeg af in een van de tussenstappen"
           ],
@@ -7021,7 +7021,7 @@
           "vraag": "Een leerling leest een correlatiecoëfficiënt van \\(1{,}2\\) af. Wat is er gebeurd?",
           "opties": [
             "hij las een ander getal af, want r ligt altijd tussen min één en plus één",
-            "dat betekent een extra sterke samenhang tussen de twee variabelen",
+            "dat betekent een extra sterke samenhang tussen de twee variabelen, sterker dan bij r gelijk aan één",
             "hij moet het getal door honderd delen om r te krijgen",
             "hij heeft de twee kolommen verwisseld bij het intikken"
           ],
@@ -7033,9 +7033,9 @@
           "vraag": "Je hebt twee kolommen in het rekenblad en wil de trendlijn zien. Wat is de werkwijze?",
           "opties": [
             "de twee kolommen selecteren, een spreidingsdiagram maken en de lineaire trendlijn vragen",
-            "van elke kolom apart het gemiddelde nemen en die twee punten verbinden",
+            "van elke kolom apart het gemiddelde nemen en die twee punten met een rechte verbinden op de grafiek",
             "de kolommen optellen en de som in een lijndiagram zetten",
-            "de kolommen rangschikken en de eerste en de laatste waarde verbinden"
+            "de kolommen rangschikken en de eerste en de laatste waarde met een lijn verbinden"
           ],
           "antwoord": 0,
           "uitleg": "Het toestel geeft dan zelf het voorschrift. Kijk altijd eerst naar de puntenwolk: bij een kromme wolk is een rechte zinloos."
@@ -7064,7 +7064,7 @@
           "vraag": "Je krijgt een dataset van vijfduizend rijen. Wat doe je als tweede, na de onderzoeksvraag?",
           "opties": [
             "de data verkennen met een grafiek en een paar kengetallen",
-            "meteen een hypothesetoets opstellen en uitvoeren",
+            "meteen een hypothesetoets opstellen en uitvoeren op alle variabelen",
             "de dataset in twee helften splitsen en vergelijken",
             "de uitschieters verwijderen voor je begint te rekenen"
           ],
@@ -7076,7 +7076,7 @@
           "vraag": "Je wil weten of twee numerieke variabelen in je dataset samenhangen. Wat doe je?",
           "opties": [
             "een spreidingsdiagram maken en de correlatiecoëfficiënt berekenen",
-            "van elke variabele een boxplot maken en de medianen vergelijken",
+            "van elke variabele een boxplot maken en de twee medianen met elkaar vergelijken",
             "een hypothesetoets uitvoeren op het gemiddelde van beide",
             "van beide variabelen de modus bepalen en vergelijken"
           ],
@@ -7134,7 +7134,7 @@
           "vraag": "Je ziet in je verkenning een duidelijke uitschieter. Wat doe je eerst?",
           "opties": [
             "nagaan of het een invoerfout of een echt bijzonder geval is",
-            "de uitschieter meteen verwijderen zodat je analyse klopt",
+            "de uitschieter meteen verwijderen zodat je analyse klopt en de grafiek mooier wordt",
             "de hele rij uit de dataset schrappen zonder te kijken",
             "de uitschieter vervangen door het gemiddelde van de rest"
           ],
@@ -7204,7 +7204,7 @@
           "vraag": "Je vindt \\(r = 0{,}78\\) tussen twee variabelen in een dataset. Wat besluit je?",
           "opties": [
             "er is een sterk positief lineair verband, maar geen oorzaak aangetoond",
-            "de ene variabele veroorzaakt duidelijk de verandering in de andere",
+            "de ene variabele veroorzaakt duidelijk de verandering in de andere variabele",
             "er is helemaal geen verband tussen de twee, want \\(0{,}78 < 1\\)",
             "de twee variabelen zijn in feite identiek aan elkaar"
           ],
@@ -7243,7 +7243,7 @@
           "vraag": "Een leerling berekent twintig kengetallen voor hij zijn vraag stelt. Wat zou je hem zeggen?",
           "opties": [
             "begin bij je vraag, dan weet je welke twee of drie getallen je nodig hebt",
-            "twintig kengetallen zijn nooit genoeg voor een grote dataset",
+            "twintig kengetallen zijn nooit genoeg voor een grote dataset, hij moet er nog meer berekenen",
             "hij moet eerst alle grafieken maken en dan de getallen",
             "hij moet de kengetallen met de hand controleren na de rekenapp"
           ],
@@ -7262,7 +7262,7 @@
           "vraag": "Wat betekent exact werken met een rekenapp?",
           "opties": [
             "een wiskundige uitdrukking niet benaderen of afronden",
-            "met zoveel decimalen rekenen als je rekenapp toont",
+            "met zoveel decimalen rekenen als je rekenapp op het scherm toont",
             "elke tussenstap op twee decimalen afronden",
             "alle antwoorden in breukvorm noteren"
           ],
@@ -7304,7 +7304,7 @@
           "vraag": "Je besluit uit je toets: ik verwerp \\(H_{0}\\) op het niveau van \\(5\\) procent. Wat moet er nog bij?",
           "opties": [
             "wat dat betekent voor de onderzoeksvraag waarmee je begon",
-            "de volledige kansverdeling van je steekproefvariabele",
+            "de volledige kansverdeling van je steekproefvariabele, met alle tussenstappen",
             "het aantal decimalen dat je rekenapp gaf",
             "een tweede toets op een ander significantieniveau"
           ],
@@ -7341,9 +7341,9 @@
           "type": "meerkeuze",
           "vraag": "Waarom noteer je bij een open vraag je werkwijze en niet enkel het antwoord?",
           "opties": [
-            "omdat het correcte gebruik van begrippen en notaties mee je resultaat bepaalt",
-            "omdat een rekenapp het antwoord soms verkeerd berekent",
-            "omdat de verbetering anders denkt dat je gegokt hebt",
+            "omdat het juiste gebruik van begrippen en notaties mee je resultaat bepaalt",
+            "omdat een rekenapp het antwoord soms verkeerd berekent als je de notatie niet invult",
+            "omdat de verbetering anders denkt dat je gegokt hebt en je antwoord dan niet telt",
             "omdat een antwoord zonder uitleg niet leesbaar is"
           ],
           "antwoord": 0,
@@ -7429,8 +7429,8 @@
           "vraag": "Wat is het verschil tussen een opgave met context en een opgave zonder context?",
           "opties": [
             "met context vertrekt ze van een concrete situatie, zonder context niet",
-            "met context mag je ICT gebruiken, zonder context niet",
-            "met context is ze altijd moeilijker dan zonder context",
+            "met context mag je ICT gebruiken, zonder context moet je alles met de hand doen",
+            "met context is ze altijd moeilijker dan zonder context, omdat er meer tekst bij staat",
             "zonder context hoef je je werkwijze niet te noteren"
           ],
           "antwoord": 0,
@@ -7441,7 +7441,7 @@
           "vraag": "Je hebt een gemiddelde, een standaardafwijking, een \\(p\\)-waarde en een correlatiecoëfficiënt berekend. Wat zet je in je besluit?",
           "opties": [
             "enkel de getallen die je onderzoeksvraag echt beantwoorden",
-            "alle vier de getallen, want je hebt ze berekend",
+            "alle vier de getallen, want je hebt ze berekend en dan moet je ze ook tonen",
             "enkel het getal met de kleinste waarde van de vier",
             "enkel de \\(p\\)-waarde, want die beslist alles"
           ],

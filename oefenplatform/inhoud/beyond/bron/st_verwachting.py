@@ -122,9 +122,9 @@ DEEL1 = [
         vraag=r"Bij \(X \sim B(10; 0{,}4)\) is E(X) gelijk aan vier. Wat betekent dat concreet?",
         opties=[
             "doe je de reeks van tien vaak opnieuw, dan haal je gemiddeld vier successen",
-            "bij elke reeks van tien krijg je precies vier successen",
+            "bij elke reeks van tien krijg je precies vier successen, nooit meer en nooit minder",
             r"de kans op vier successen is \(40\) procent",
-            "vier is de uitkomst met de kleinste kans van allemaal",
+            "vier is de uitkomst met de kleinste kans van allemaal, en daarom ook de verwachting",
         ],
         antwoord=0,
         uitleg="De verwachtingswaarde zegt iets over het gemiddelde van veel reeksen, niet over één reeks.",
@@ -177,7 +177,7 @@ DEEL1 = [
         vraag=r"Een winkel verkoopt per dag gemiddeld \(2{,}4\) fietsen. Een leerling zegt dat dat niet kan. Wat antwoord je?",
         opties=[
             "een gemiddelde hoeft geen geheel getal te zijn, enkel de dagelijkse aantallen",
-            "de leerling heeft gelijk, het moet afgerond worden naar twee fietsen",
+            "de leerling heeft gelijk, het moet afgerond worden naar twee fietsen, want je verkoopt geen halve",
             "dat kan enkel als de winkel halve fietsen verkoopt",
             "dan is de kansvariabele continu in plaats van discreet",
         ],
@@ -193,7 +193,7 @@ DEEL2 = [
         opties=[
             "hoeveel de uitkomsten gemiddeld van de verwachtingswaarde afwijken",
             "het verschil tussen de grootste en de kleinste uitkomst",
-            "de kans dat de uitkomst gelijk is aan de verwachtingswaarde",
+            "de kans dat de uitkomst precies gelijk is aan de verwachtingswaarde",
             "hoeveel experimenten je moet doen voor een betrouwbaar resultaat",
         ],
         antwoord=0,
@@ -358,8 +358,8 @@ DEEL2 = [
         vraag=r"Een leerling vindt bij \(X \sim B(40; 0{,}5)\) een standaardafwijking van tien. Wat ging er mis?",
         opties=[
             r"de wortel is vergeten, want Var(X) is tien en de standaardafwijking ongeveer \(3{,}16\)",
-            r"er is met \(n\) gerekend in plaats van met \(p\), het antwoord is twintig",
-            "de variantie is twee keer geteld, het antwoord is vijf",
+            r"er is met \(n\) gerekend in plaats van met \(p\), en het juiste antwoord is dus twintig",
+            "de variantie is twee keer geteld, het juiste antwoord is dus vijf en niet tien",
             "er ging niets mis, tien is het juiste antwoord",
         ],
         antwoord=0,

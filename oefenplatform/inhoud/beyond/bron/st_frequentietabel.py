@@ -84,7 +84,7 @@ DEEL1 = [
         vraag="Waarom gebruikt men relatieve frequenties om twee datasets te vergelijken?",
         opties=[
             "omdat datasets van verschillende grootte zo vergelijkbaar worden",
-            "omdat relatieve frequenties altijd grotere getallen geven",
+            "omdat relatieve frequenties altijd grotere getallen geven die je beter kan aflezen",
             "omdat absolute frequenties niet met ICT berekend kunnen worden",
             "omdat relatieve frequenties geen eenheid nodig hebben",
         ],
@@ -152,7 +152,7 @@ DEEL1 = [
         vraag="Waarvoor dient de kolom met cumulatieve frequenties vooral?",
         opties=[
             "om snel te zien hoeveel gegevens onder een grens liggen",
-            "om het gemiddelde van de dataset te berekenen",
+            "om het gemiddelde van de dataset te berekenen zonder alle waarden op te tellen",
             "om de modus van de dataset te bepalen",
             "om de standaardafwijking te kunnen uitrekenen",
         ],
@@ -183,7 +183,7 @@ DEEL1 = [
         vraag="Een krant zet alleen absolute frequenties in een tabel met twee heel verschillend grote groepen. Wat is daar het probleem mee?",
         opties=[
             "de lezer kan de twee groepen niet eerlijk vergelijken zonder percentages",
-            "absolute frequenties mogen niet in een krant gepubliceerd worden",
+            "absolute frequenties mogen niet in een krant gepubliceerd worden, alleen in een wetenschappelijk verslag",
             "absolute frequenties kunnen niet in een tabel gezet worden",
             "de lezer heeft dan ook de cumulatieve frequenties nodig",
         ],
@@ -235,7 +235,7 @@ DEEL2 = [
         vraag="Waarom gebruik je het klassenmidden om een gemiddelde uit een gegroepeerde tabel te berekenen?",
         opties=[
             "omdat je de afzonderlijke waarden niet meer kent en het midden de beste gok is",
-            "omdat het klassenmidden altijd gelijk is aan het echte gemiddelde",
+            "omdat het klassenmidden altijd precies gelijk is aan het echte gemiddelde van die klasse",
             "omdat het klassenmidden de modus van de klasse weergeeft",
             "omdat je anders door het aantal klassen zou moeten delen",
         ],
@@ -259,7 +259,7 @@ DEEL2 = [
         vraag=r"Wat gaat er mis als je klassen laat overlappen, bijvoorbeeld van \(10\) tot \(20\) en van \(20\) tot \(30\)?",
         opties=[
             "de waarde twintig past in twee klassen en wordt dubbel geteld",
-            "de som van de frequenties wordt automatisch kleiner",
+            "de som van de frequenties wordt automatisch kleiner dan het aantal gegevens",
             "de klassenbreedte is dan niet meer te berekenen",
             "het klassenmidden valt dan buiten de klasse",
         ],
@@ -332,7 +332,7 @@ DEEL2 = [
         vraag=r"Een leerling maakt klassen van \(0\) tot \(10\), van \(11\) tot \(20\) en van \(21\) tot \(30\) voor een continue variabele. Wat is het probleem?",
         opties=[
             r"de waarden tussen \(10\) en \(11\) vallen in geen enkele klasse",
-            "de klassen zijn niet allemaal even breed gekozen",
+            "de klassen zijn niet allemaal even breed gekozen, wat bij een histogram verplicht is",
             "er zijn te weinig klassen voor een continue variabele",
             "het klassenmidden valt niet op een geheel getal",
         ],
@@ -368,8 +368,8 @@ DEEL2 = [
         vraag=r"Je berekent uit een gegroepeerde tabel een gemiddelde van \(34{,}2\) terwijl de ruwe data \(33{,}8\) geeft. Wat zeg je?",
         opties=[
             "dat is normaal, want het klassenmidden is een benadering van de echte waarden",
-            "er zit een rekenfout in een van de twee berekeningen",
-            "de gegroepeerde tabel is altijd nauwkeuriger dan de ruwe data",
+            "er zit een rekenfout in een van de twee berekeningen, want ze moeten exact gelijk zijn",
+            "de gegroepeerde tabel is altijd nauwkeuriger dan de ruwe data, dus die is juist",
             "de klassen waren te smal gekozen voor deze dataset",
         ],
         antwoord=0,

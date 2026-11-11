@@ -287,7 +287,7 @@ DEEL2 = [
         vraag="Je mag twee van de drie regels combineren in één opgave. Hoe pak je dat aan?",
         opties=[
             "je splitst de opgave in stukken en kijkt per stuk of het en, of, of niet is",
-            "je kiest de regel die het grootste antwoord geeft, want dat is het totaal",
+            "je kiest de regel die het grootste antwoord geeft, want dat is altijd het totaal",
             "je gebruikt altijd eerst de somregel en daarna pas de productregel",
             "je rekent met alle drie de regels en neemt daarna het gemiddelde",
         ],

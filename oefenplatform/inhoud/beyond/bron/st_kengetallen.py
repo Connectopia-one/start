@@ -120,7 +120,7 @@ DEEL1 = [
         vraag="Hoe bereken je het gemiddelde uit een frequentietabel?",
         opties=[
             "je vermenigvuldigt elke waarde met haar frequentie en deelt door het totaal",
-            "je telt alle verschillende waarden op en deelt door hun aantal",
+            "je telt alle verschillende waarden op en deelt door hoeveel verschillende waarden er zijn",
             "je neemt de waarde met de grootste frequentie uit de tabel",
             "je telt alle frequenties op en deelt door het aantal rijen",
         ],
@@ -197,7 +197,7 @@ DEEL2 = [
         vraag="Wat gebeurt er met het gemiddelde als er één enorme uitschieter bijkomt?",
         opties=[
             "het schuift mee in de richting van de uitschieter",
-            "het blijft precies waar het was",
+            "het blijft precies waar het was, want het gemiddelde trekt zich niets aan van één waarde",
             "het schuift in de tegengestelde richting",
             "het wordt gelijk aan de uitschieter",
         ],
@@ -270,8 +270,8 @@ DEEL2 = [
         vraag="Wanneer is het gemiddelde een goede keuze?",
         opties=[
             "bij een redelijk symmetrische verdeling zonder grote uitschieters",
-            "bij een verdeling met een lange staart naar rechts",
-            "bij een niet-numerieke variabele zoals studierichting",
+            "bij een verdeling met een lange staart naar rechts en enkele uitschieters",
+            "bij een niet-numerieke variabele zoals studierichting of woonplaats",
             "altijd, want het gemiddelde gebruikt alle gegevens",
         ],
         antwoord=0,
@@ -368,7 +368,7 @@ DEEL2 = [
         vraag="Een onderzoeker verwijdert alle uitschieters om een mooier gemiddelde te krijgen. Wat zeg je?",
         opties=[
             "uitschieters verwijder je enkel met een reden, en je meldt het altijd",
-            "dat is de normale werkwijze bij elke statistische analyse",
+            "dat is de normale werkwijze bij elke statistische analyse met een grote dataset",
             "dat mag nooit, uitschieters blijven altijd in de dataset",
             "dan moet hij ook de kleinste waarden verwijderen voor het evenwicht",
         ],

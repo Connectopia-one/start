@@ -27,7 +27,7 @@ DEEL1 = [
         vraag=r"Wat is de \(p\)-waarde bij een hypothesetoets?",
         opties=[
             r"de kans op een resultaat dat minstens zo extreem is als \(H_{0}\) waar is",
-            "de kans dat de nulhypothese in werkelijkheid waar is, gegeven je data",
+            "de kans dat de nulhypothese in werkelijkheid waar is, gegeven de data uit je steekproef",
             "de kans dat het besluit dat je neemt achteraf het juiste blijkt",
             "de kans dat de alternatieve hypothese in werkelijkheid waar is",
         ],
@@ -105,7 +105,7 @@ DEEL1 = [
         vraag=r"Een onderzoeker kiest \(\alpha\) pas nadat hij de \(p\)-waarde kent. Waarom mag dat niet?",
         opties=[
             r"dan kan hij \(\alpha\) zo kiezen dat zijn gewenste besluit uitkomt",
-            r"dan wordt de \(p\)-waarde van zijn toets automatisch te groot",
+            r"dan wordt de \(p\)-waarde van zijn toets automatisch te groot om iets te besluiten",
             "dan mag hij de rekenapps voor de berekening niet meer gebruiken",
             "dan moet hij verplicht overstappen op een tweezijdige toets",
         ],
@@ -135,9 +135,9 @@ DEEL1 = [
         vraag=r"Een leerling schrijft: de \(p\)-waarde is \(0{,}04\), dus er is \(4\) procent kans dat \(H_{0}\) waar is. Wat is er mis?",
         opties=[
             r"de \(p\)-waarde is de kans op de data als \(H_{0}\) waar is, niet de kans dat \(H_{0}\) waar is",
-            r"de \(p\)-waarde moet in procent uitgedrukt worden en niet als decimaal",
+            r"de \(p\)-waarde moet in procent uitgedrukt worden en niet als decimaal getal tussen nul en één, zoals in een verslag",
             r"\(4\) procent is te weinig om een besluit op te baseren",
-            r"er is niets mis, dat is de juiste lezing van een \(p\)-waarde",
+            r"er is niets mis, dat is de juiste lezing van een \(p\)-waarde bij een eenzijdige toets",
         ],
         antwoord=0,
         uitleg="De twee kansen zijn verschillende dingen. Dit is de meest gemaakte fout in heel de statistiek.",
@@ -171,7 +171,7 @@ DEEL1 = [
         vraag=r"Een onderzoek met honderdduizend deelnemers vindt een verschil van \(0{,}1\) procent met een \(p\)-waarde van \(0{,}001\). Wat besluit je?",
         opties=[
             "het verschil is significant maar praktisch misschien onbelangrijk",
-            r"het verschil is groot en belangrijk, want \(p\) is heel klein",
+            r"het verschil is groot en belangrijk, want \(p\) is heel klein en dus zeker",
             r"het verschil bestaat niet, want \(0{,}1\) procent is te klein",
             r"de \(p\)-waarde is fout berekend bij zo'n grote steekproef",
         ],
@@ -183,7 +183,7 @@ DEEL1 = [
         vraag=r"Hoe bereken je de \(p\)-waarde?",
         opties=[
             "met de rekenapps, maar je noteert wel je werkwijze en je redenering",
-            "met de hand, want ICT is bij dit leerdoel niet toegelaten",
+            "met de hand, want ICT is bij dit leerdoel niet toegelaten op het examen",
             "door de vuistregel van achtenzestig procent toe te passen",
             "door het aantal extreme waarden in je steekproef te tellen",
         ],
@@ -301,7 +301,7 @@ DEEL2 = [
         vraag=r"Een onderzoeker verwerpt \(H_{0}\) en schrijft: de nieuwe methode werkt beter. Wat moet hij er nog bij zeggen?",
         opties=[
             "op welk significantieniveau hij dat besluit neemt",
-            r"hoeveel kans er is dat \(H_{0}\) waar is",
+            r"hoeveel kans er is dat \(H_{0}\) waar is, gegeven de data die hij gevonden heeft",
             "welk besluit hij liever had gekregen",
             "dat zijn besluit met zekerheid klopt",
         ],
@@ -325,8 +325,8 @@ DEEL2 = [
         vraag=r"Een team toetst twintig verschillende verbanden op \(\alpha\) gelijk aan \(0{,}05\) en vindt er één significant. Wat zeg je?",
         opties=[
             "dat ene resultaat kan goed toeval zijn, want bij twintig toetsen verwacht je er één",
-            "dat ene resultaat is daardoor nog sterker bewezen",
-            r"ze hadden \(\alpha\) groter moeten nemen om meer te vinden",
+            "dat ene resultaat is daardoor nog sterker bewezen, want het kwam uit twintig verschillende toetsen",
+            r"ze hadden \(\alpha\) groter moeten nemen om meer significante resultaten te vinden",
             "twintig toetsen op dezelfde data mag altijd",
         ],
         antwoord=0,
@@ -337,8 +337,8 @@ DEEL2 = [
         vraag="Hoe formuleer je een besluit na een toets correct?",
         opties=[
             r"op het niveau van \(5\) procent is er voldoende bewijs dat het gemiddelde hoger is",
-            "het is bewezen dat het gemiddelde hoger is",
-            r"de nulhypothese heeft \(5\) procent kans om waar te zijn",
+            "het is nu bewezen dat het gemiddelde hoger is dan het getal uit de nulhypothese",
+            r"de nulhypothese heeft \(5\) procent kans om waar te zijn, dus ze is zo goed als zeker fout",
             "het verschil is zeker geen toeval",
         ],
         antwoord=0,
@@ -366,10 +366,10 @@ DEEL2 = [
         type="meerkeuze",
         vraag=r"Waarom is \(H_{0}\) niet verwerpen iets anders dan \(H_{0}\) aanvaarden?",
         opties=[
-            r"het kan ook aan een te kleine steekproef liggen in plaats van aan de waarheid van \(H_{0}\)",
+            r"het kan ook aan een te kleine steekproef liggen, niet aan de waarheid van \(H_{0}\)",
             r"\(H_{0}\) aanvaarden mag enkel bij een tweezijdige toets",
-            r"\(H_{0}\) aanvaarden vraagt een \(p\)-waarde groter dan \(0{,}5\)",
-            "er is geen verschil, het zijn twee manieren om hetzelfde te zeggen",
+            r"\(H_{0}\) aanvaarden vraagt een \(p\)-waarde groter dan \(0{,}5\), en niet groter dan \(0{,}05\)",
+            "er is geen verschil, het zijn twee manieren om precies hetzelfde besluit te formuleren",
         ],
         antwoord=0,
         uitleg="Geen bewijs vinden is geen bewijs van geen effect. Dat onderscheid wordt op het examen nagekeken.",

@@ -136,7 +136,7 @@ DEEL1 = [
         vraag="Waarom kies je bij een continue variabele een histogram en geen staafdiagram?",
         opties=[
             "omdat de aansluitende staven tonen dat de waarden doorlopen",
-            "omdat een staafdiagram geen verticale as mag hebben",
+            "omdat een staafdiagram geen verticale as mag hebben bij continue data",
             "omdat een histogram minder klassen nodig heeft",
             "omdat een staafdiagram enkel voor kleine datasets dient",
         ],
@@ -208,7 +208,7 @@ DEEL1 = [
         vraag="Een leerling maakt een lijndiagram van het aantal leerlingen per studierichting. Wat zou je aanraden?",
         opties=[
             "een staafdiagram, want tussen twee richtingen zit geen verloop",
-            "een histogram, want de richtingen zijn te groeperen",
+            "een histogram, want de richtingen zijn per graad of per school te groeperen",
             "een spreidingsdiagram, want er zijn twee variabelen",
             "niets aanpassen, een lijndiagram past bij elke dataset",
         ],
@@ -253,7 +253,7 @@ DEEL2 = [
         vraag="Een histogram met één hoge staaf en veel lage staven rechts ervan. Hoe beschrijf je die verdeling?",
         opties=[
             "scheef naar rechts, met een lange staart aan de rechterkant",
-            "scheef naar links, met een lange staart aan de linkerkant",
+            "scheef naar links, met een lange staart aan de linkerkant van het diagram",
             "symmetrisch rond het gemiddelde van de dataset",
             "klokvormig en dus geschikt voor een normale verdeling",
         ],
@@ -265,9 +265,9 @@ DEEL2 = [
         vraag="Een staaf in een diagram torent ver boven de andere uit. Wat doe je volgens goede praktijk?",
         opties=[
             "je zet de waarden boven de staven zodat de lezer de kleine ook kan lezen",
-            "je laat de hoge staaf weg zodat het beeld leesbaar blijft",
+            "je laat de hoge staaf weg zodat het beeld leesbaar blijft voor de kleinere waarden",
             "je maakt van de hoge staaf een stippellijn zonder getal",
-            "je verandert de eenheid zodat alle staven gelijk worden",
+            "je verandert de eenheid zodat alle staven ongeveer even hoog worden in het diagram",
         ],
         antwoord=0,
         uitleg="Door een uitschieter worden de andere staven piepklein. De getallen erbij houden het beeld eerlijk en leesbaar.",
@@ -289,7 +289,7 @@ DEEL2 = [
         vraag=r"Een lijndiagram toont een scherpe stijging, maar de tijdsas loopt van \(2020\) naar \(2021\) naar \(2025\). Wat is het probleem?",
         opties=[
             "de afstanden op de tijdsas zijn ongelijk, dus de stijging is vertekend",
-            "een lijndiagram mag geen jaren op de horizontale as hebben",
+            "een lijndiagram mag geen jaren op de horizontale as hebben, enkel maanden of dagen",
             "er zijn te weinig punten om een lijn te tekenen",
             "de tijd hoort altijd op de verticale as te staan",
         ],
@@ -301,9 +301,9 @@ DEEL2 = [
         vraag="Twee groepen worden met twee histogrammen vergeleken, maar de assen hebben een andere schaal. Wat doe je?",
         opties=[
             "je maakt de assen gelijk, anders kan je de vormen niet vergelijken",
-            "je legt de twee histogrammen over elkaar in één beeld",
+            "je legt de twee histogrammen over elkaar in één beeld, met twee verschillende kleuren",
             "je vervangt ze door twee boxplots op aparte assen",
-            "je laat het zo, de vorm van elk histogram klopt apart",
+            "je laat het zo, de vorm van elk histogram klopt apart en dat is genoeg",
         ],
         antwoord=0,
         uitleg="Vergelijken kan alleen op dezelfde schaal. Anders lijkt de ene groep breder gespreid dan ze is.",
@@ -319,7 +319,7 @@ DEEL2 = [
         vraag="Een histogram met twee duidelijke toppen. Wat is de beste eerste gedachte?",
         opties=[
             "er zitten misschien twee verschillende groepen in de data",
-            "de klassen zijn verkeerd berekend in het histogram",
+            "de klassen zijn verkeerd berekend in het histogram, waardoor er twee toppen ontstaan",
             "de normale verdeling past perfect bij deze data",
             "het gemiddelde ligt onder de laagste van de twee toppen",
         ],
@@ -331,7 +331,7 @@ DEEL2 = [
         vraag="Waarom staat de nul bij een lijndiagram van de temperatuur niet altijd op de as?",
         opties=[
             "bij een temperatuur is de nul geen natuurlijk nulpunt van de schaal",
-            "een lijndiagram mag nooit een nul op de as hebben staan",
+            "een lijndiagram mag nooit een nul op de verticale as hebben staan, bij geen enkele dataset",
             "de nul past niet in het beeld bij grote getallen",
             "een temperatuur wordt altijd relatief weergegeven",
         ],
@@ -355,7 +355,7 @@ DEEL2 = [
         vraag="Een dotplot toont vier stippen boven de waarde zeven. Wat betekent dat?",
         opties=[
             "de waarde zeven komt vier keer voor in de dataset",
-            "de waarde zeven is vier eenheden groot",
+            "de waarde zeven is vier eenheden groot in de gekozen meeteenheid",
             "er zijn vier waarden kleiner dan zeven",
             "het gemiddelde van de dataset is vier",
         ],
@@ -367,7 +367,7 @@ DEEL2 = [
         vraag="Welke grafiek zou je kiezen om te laten zien dat één groep veel meer uitschieters heeft?",
         opties=[
             "twee boxplots naast elkaar op dezelfde as",
-            "twee lijndiagrammen in hetzelfde beeld",
+            "twee lijndiagrammen in hetzelfde beeld, met elk een eigen kleur",
             "één staafdiagram met de twee groepen",
             "één spreidingsdiagram met beide groepen",
         ],
