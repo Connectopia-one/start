@@ -118,7 +118,7 @@ VRAGEN = [
     mk(
         "Herbert Spencer bedacht de uitdrukking survival of the fittest. Hoe gebruikten sociaal darwinisten dat idee?",
         [
-            "Ze pasten de strijd om het bestaan uit de natuur toe op mensen, klassen en volkeren",
+            "Ze pasten de strijd om het bestaan toe op mensen, klassen en volkeren",
             "Ze wilden zieken en armen extra beschermen tegen de natuur",
             "Ze toonden aan dat alle volkeren even sterk zijn",
             "Ze bewezen dat dieren en mensen niets met elkaar te maken hebben",
@@ -251,7 +251,7 @@ VRAGEN = [
         [
             "Verf in tubes om buiten te schilderen en de fotografie",
             "De boekdrukkunst en het olieverf",
-            "Elektrisch licht in het atelier en de film",
+            "Elektrisch licht in het atelier en de eerste film met bewegende beelden",
             "De computer en de digitale camera",
         ],
         0,
@@ -281,7 +281,7 @@ VRAGEN = [
     mk(
         "Een Belgische schilder maakte een zeer precies geschilderde pijp, met eronder de zin Dit is geen pijp. Wat wilde hij tonen?",
         [
-            "Een schilderij van een pijp is zelf geen pijp, maar een voorstelling",
+            "Een geschilderde pijp is zelf geen pijp",
             "Dat roken ongezond is en verboden moest worden",
             "Dat hij niet goed genoeg kon tekenen om een pijp na te maken",
             "Dat het schilderij eigenlijk een landschap voorstelt",

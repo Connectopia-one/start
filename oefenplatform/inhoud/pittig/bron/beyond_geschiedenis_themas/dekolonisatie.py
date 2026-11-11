@@ -12,7 +12,7 @@ VRAGEN = [
         "Een journalist schrijft dat een land zich in de jaren zestig dekoloniseerde. Wat bedoelt hij?",
         [
             "Koloniën worden zelfstandige staten en maken zich los van hun kolonisator",
-            "Een kolonisator ruilt een kolonie met een andere Europese mogendheid",
+            "Een kolonisator ruilt een kolonie met een andere Europese mogendheid tegen geld of grond",
             "Europese landen kopen hun koloniën terug van de inwoners",
             "Een kolonie krijgt een nieuwe gouverneur uit het moederland",
         ],
@@ -59,7 +59,7 @@ VRAGEN = [
         "Na de onafhankelijkheid braken in veel Afrikaanse staten grensconflicten uit. Wat had daar het meest mee te maken?",
         [
             "Ze waren door de kolonisatoren getrokken, dwars door volkeren heen",
-            "Ze werden na de onafhankelijkheid elk jaar opnieuw vastgelegd",
+            "Ze werden na de onafhankelijkheid elk jaar opnieuw vastgelegd door een stemming",
             "Ze volgden precies de grenzen van de vroegere volkeren",
             "Ze waren door de Verenigde Naties bij loting toegewezen",
         ],
@@ -74,9 +74,9 @@ VRAGEN = [
     mk(
         "Waarom is de bijeenkomst in Bandung belangrijk voor de dekolonisatie?",
         [
-            "Aziatische en Afrikaanse landen kwamen er in 1955 samen tegen kolonialisme en blokvorming",
+            "Aziatische en Afrikaanse landen kwamen in 1955 samen tegen kolonialisme",
             "De Europese koloniale mogendheden verdeelden de rest van Afrika",
-            "De NAVO en het Warschaupact sloten er een vredesakkoord",
+            "De NAVO en het Warschaupact sloten er een vredesakkoord na de Koreaoorlog",
             "België en Congo legden er de datum van de onafhankelijkheid vast",
         ],
         0,
@@ -126,7 +126,7 @@ VRAGEN = [
     mk(
         "Waarom werd het AfricaMuseum in Tervuren grondig hertekend?",
         [
-            "Het bewaart de grote koloniale verzameling, en het koloniale geweld moest er een plaats krijgen",
+            "Het bewaart een grote koloniale verzameling, en het geweld moest een plaats krijgen",
             "Het gebouw werd door een brand verwoest en moest volledig opnieuw",
             "Het museum verhuisde in 2018 naar Kinshasa en kreeg daar een nieuw ontwerp",
             "Het museum toonde voortaan alleen nog Belgische kunst uit de 19de eeuw",
@@ -191,7 +191,7 @@ VRAGEN = [
         "Waartoe besloot een Belgische onderzoekscommissie in 2001 over de moord op Lumumba?",
         [
             "Tot een morele verantwoordelijkheid van Belgische regeringsleden",
-            "Dat België er op geen enkele manier bij betrokken was",
+            "Dat België er op geen enkele manier en op geen enkel moment bij betrokken was",
             "Dat Belgische ministers voor de rechter moesten verschijnen",
             "Dat de Verenigde Naties de enige schuldige waren",
         ],
@@ -223,8 +223,8 @@ VRAGEN = [
     mk(
         "Wat was er bijzonder aan de machtsoverdracht van 2019 in Congo?",
         [
-            "Voor het eerst ging de macht na verkiezingen van de ene president naar de andere",
-            "Voor het eerst nam een generaal de macht met een staatsgreep",
+            "Voor het eerst ging de macht na verkiezingen naar een andere president",
+            "Voor het eerst nam een generaal de macht met een staatsgreep in Kinshasa",
             "België benoemde opnieuw een gouverneur voor Congo",
             "Het oosten van het land scheidde zich af en werd een aparte staat",
         ],
@@ -258,10 +258,10 @@ VRAGEN = [
             mk(
                 "Wat is de beste manier om met deze twee bronnen om te gaan?",
                 [
-                    "Bekijken wie ze maakte, wanneer en waarom, en ze met andere bronnen vergelijken",
+                    "Bekijken wie ze maakte, wanneer en waarom, en vergelijken met andere bronnen",
                     "De oudste bron geloven, want die staat het dichtst bij de feiten",
                     "De nieuwste bron geloven, want nieuwe boeken hebben altijd gelijk",
-                    "Beide bronnen weggooien, want ze spreken elkaar tegen",
+                    "Beide bronnen weggooien, want ze spreken elkaar tegen en zijn dus allebei vals",
                 ],
                 0,
                 "Elke bron heeft een standplaats. Een tegenspraak is een aanwijzing om verder te zoeken.",

@@ -41,7 +41,7 @@ VRAGEN = [
     mk(
         "Hoe kwamen de Verenigde Staten in de oorlog terecht?",
         [
-            "Door de Japanse aanval op Pearl Harbor in december 1941",
+            "Door de Japanse aanval op Pearl Harbor in 1941",
             "Door de Duitse inval in Polen in september 1939",
             "Door de landing in Normandië in juni 1944",
             "Door de blokkade van Berlijn in het jaar 1948",
@@ -115,7 +115,7 @@ VRAGEN = [
         "Wat gebeurde er in 1943 bij Boortmeerbeek?",
         [
             "Drie verzetslieden brachten een deportatietrein tot stilstand",
-            "De geallieerden landden er met parachutisten",
+            "De geallieerden landden er met parachutisten om de Duitsers te verrassen",
             "Het Ardennenoffensief begon er met een Duitse aanval",
             "De Belgische regering keerde er terug uit Londen",
         ],
@@ -126,7 +126,7 @@ VRAGEN = [
         "Waarom was de bevrijding van Antwerpen in september 1944 zo belangrijk voor de geallieerden?",
         [
             "De haven bleef vrijwel onbeschadigd en redde de bevoorrading",
-            "Antwerpen was de hoofdstad van het bezette Duitsland",
+            "Antwerpen was de hoofdstad van het bezette Duitsland en het hoofdkwartier van de geallieerden",
             "De Duitse capitulatie werd er meteen ondertekend",
             "De koning bevond zich in Antwerpen en nam er de leiding",
         ],
@@ -137,7 +137,7 @@ VRAGEN = [
         "Een leerling zegt: \"In de oorlog was je ofwel collaborateur, ofwel verzetsstrijder.\" Wat is de beste reactie?",
         [
             "De meeste mensen probeerden vooral te overleven, en sommigen deden in vier jaar allebei iets",
-            "Klopt: elke Belg moest in 1940 kiezen en die keuze bleef vier jaar lang dezelfde",
+            "Klopt: elke Belg moest in 1940 kiezen en die keuze bleef vier jaar lang voor iedereen dezelfde",
             "Klopt: wie niet in het verzet zat, werd na de oorlog altijd als collaborateur veroordeeld",
             "Collaboratie en verzet bestonden in België niet, alleen in Frankrijk en Nederland",
         ],

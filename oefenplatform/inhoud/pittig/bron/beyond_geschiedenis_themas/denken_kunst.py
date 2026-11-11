@@ -11,7 +11,7 @@ VRAGEN = [
     mk(
         "Wat is het verschil tussen emancipatie en dekolonisatie?",
         [
-            "Emancipatie gaat over een groep binnen een samenleving, dekolonisatie over een land dat zich losmaakt",
+            "Emancipatie gaat over een groep in een samenleving, dekolonisatie over een land",
             "Emancipatie gaat over landen in Afrika, dekolonisatie over landen in Azië",
             "Emancipatie is gewelddadig, dekolonisatie gebeurt altijd via onderhandelingen",
             "Er is geen verschil: het zijn twee woorden voor hetzelfde proces",
@@ -71,7 +71,7 @@ VRAGEN = [
         "Wat gebeurde er toen in België de wet die abortus uit het strafrecht haalde, getekend moest worden?",
         [
             "Koning Boudewijn weigerde te tekenen en werd één dag in de onmogelijkheid tot regeren gesteld",
-            "Het parlement keurde de wet af, waarna er een volksraadpleging over georganiseerd werd",
+            "Het parlement keurde de wet af, waarna er een volksraadpleging over georganiseerd werd in het hele land",
             "De wet werd door de Europese Unie tegengehouden en pas tien jaar later goedgekeurd",
             "De koning tekende meteen, maar de regering viel nog dezelfde dag over de kwestie",
         ],
@@ -111,7 +111,7 @@ VRAGEN = [
                 "Wat volgde er op haar arrestatie?",
                 [
                     "Een busboycot van meer dan een jaar, geleid door Martin Luther King",
-                    "Een gewapende opstand die het leger moest neerslaan",
+                    "Een gewapende opstand die het leger met tanks en soldaten moest neerslaan",
                     "Een volksraadpleging over het openbaar vervoer in heel de VS",
                     "De onmiddellijke afschaffing van alle aparte scholen",
                 ],
@@ -237,7 +237,7 @@ VRAGEN = [
         "Waarom kon de popart pas na de Tweede Wereldoorlog ontstaan?",
         [
             "De naoorlogse welvaart bracht reclame, merken en massaproductie in elk huis",
-            "Voor de oorlog was het verboden om kunst te maken over alledaagse dingen",
+            "Voor de oorlog was het bij wet verboden om kunst te maken over alledaagse dingen uit de winkel",
             "Voor de oorlog bestond er nog geen enkele vorm van kleurendruk",
             "Na de oorlog wilden de musea enkel nog Amerikaanse kunst tonen",
         ],
@@ -257,7 +257,7 @@ VRAGEN = [
     ),
     mk(
         "Een nieuw gebouw combineert Griekse zuilen, een glazen gevel en een gotisch torentje. Welke stroming herken je?",
-        ["Het postmodernisme", "De minimal art", "De land art", "De popart"],
+        ["Het postmodernisme", "De minimal art", "De land art", "De popart van Warhol"],
         0,
         "Stijlen uit verschillende tijden worden door elkaar gebruikt en geciteerd.",
     ),

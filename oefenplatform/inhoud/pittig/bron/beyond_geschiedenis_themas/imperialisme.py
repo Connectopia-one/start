@@ -197,7 +197,7 @@ VRAGEN = [
         "De beeldvorming over Leopold II in België ging van koning-bouwer naar een veel kritischer blik. Wat betekent dat?",
         [
             "De feiten zijn niet veranderd, wel de vragen die men stelt en de bronnen die men laat spreken",
-            "Historici hebben ontdekt dat Leopold II in werkelijkheid nooit iets met Congo te maken had",
+            "Historici hebben ontdekt dat Leopold II in werkelijkheid nooit iets met Congo te maken had, het was zijn broer",
             "De feiten over de Congo-Vrijstaat zijn achteraf door nieuwe historici verzonnen",
             "Een kritische blik betekent dat men in België niets meer over hem mag zeggen",
         ],
@@ -246,7 +246,7 @@ VRAGEN = [
         "Een invloedssfeer is een lichtere vorm van overheersing dan een kolonie. Waarom?",
         [
             "De mogendheid maakt er de dienst uit zonder het gebied zelf te besturen",
-            "De mogendheid bestuurt het gebied rechtstreeks met eigen ambtenaren",
+            "De mogendheid bestuurt het gebied rechtstreeks met eigen ambtenaren en soldaten",
             "De bevolking kiest er zelf een Europese koning als staatshoofd",
             "Er is geen enkele buitenlandse invloed op handel of politiek",
         ],

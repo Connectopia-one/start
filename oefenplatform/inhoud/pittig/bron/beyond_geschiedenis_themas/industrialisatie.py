@@ -39,7 +39,7 @@ VRAGEN = [
     mk(
         "Waarom vergelijkt men het energiegebruik van de twee industriële revoluties?",
         [
-            "De overstap van kolen naar elektriciteit en olie veranderde waar fabrieken konden staan en wie de grootmachten werden",
+            "De overstap van kolen naar elektriciteit en olie veranderde waar fabrieken stonden",
             "Omdat beide revoluties precies dezelfde energiebron gebruikten, alleen in andere landen en in een andere eeuw",
             "Omdat men wil bewijzen dat de tweede revolutie minder energie nodig had dan de eerste, en dus zuiniger was",
             "Omdat energie het enige verschil is tussen beide revoluties; transport en organisatie bleven gelijk",
@@ -97,7 +97,7 @@ VRAGEN = [
     mk(
         "Een leerling besluit: \"Vlaanderen was in de 19de eeuw de industriële motor van België.\" Wat klopt er niet?",
         [
-            "De industrie lag vooral in Wallonië; Vlaanderen bleef langer landelijk, met Gent als uitzondering",
+            "De industrie lag vooral in Wallonië; Vlaanderen bleef langer landelijk",
             "Er was in de 19de eeuw in heel België nog geen enkele fabriek of mijn te vinden",
             "Vlaanderen had wel de meeste steenkoolmijnen, maar geen enkele textielfabriek",
             "Er klopt niets niet: Vlaanderen was toen al veel sterker geïndustrialiseerd",
@@ -114,7 +114,7 @@ VRAGEN = [
         "Wat onderscheidt een klassenmaatschappij van de standenmaatschappij die eraan voorafging?",
         [
             "Je plaats hangt af van je bezit en je plaats in de productie, niet van je geboorte",
-            "Je plaats hangt af van je geboorte, en niemand kan ooit van groep veranderen",
+            "Je plaats hangt af van je geboorte, en niemand kan ooit van groep of stand veranderen",
             "Iedereen heeft er precies evenveel bezit en hetzelfde inkomen",
             "Alleen de adel en de geestelijkheid hebben er nog rechten",
         ],
@@ -210,7 +210,7 @@ VRAGEN = [
     mk(
         "Waarom bleef de plattelandsvlucht in België deels uit?",
         [
-            "Goedkope werkmanskaarten lieten arbeiders op het platteland wonen en dagelijks naar de fabriek sporen",
+            "Goedkope werkmanskaarten lieten arbeiders op het platteland wonen",
             "De Belgische overheid verbood boeren om naar de stad te verhuizen, op straffe van gevangenis",
             "Er was in de 19de eeuw in de Belgische steden geen enkele fabriek waar je kon werken",
             "Alle Belgische fabrieken lagen midden op het platteland, ver van elke stad of spoorlijn",
@@ -243,7 +243,7 @@ VRAGEN = [
         "Een arbeider wil zijn loon verhogen. Wat doet een vakbond om dat te bereiken, wat een coöperatie niet doet?",
         [
             "Onderhandelen met de werkgever en eventueel staken",
-            "Samen goederen produceren en de winst verdelen",
+            "Samen goederen produceren en de winst eerlijk verdelen",
             "Samen sparen voor een uitkering bij ziekte",
             "Goedkoop brood verkopen in een eigen winkel",
         ],

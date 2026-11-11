@@ -39,7 +39,7 @@ VRAGEN = [
     mk(
         "Waarom laat men de hedendaagse tijd niet beginnen met het einde van de Eerste Wereldoorlog?",
         [
-            "Omdat de machtsverhoudingen pas na de volgende oorlog ingrijpend verschoven",
+            "Omdat de machtsverhoudingen pas na de volgende oorlog verschoven",
             "Omdat er na 1945 in Europa nergens nog oorlog gevoerd werd",
             "Omdat de Eerste Wereldoorlog buiten Europa niet gevoeld werd",
             "Omdat er van voor 1945 bijna geen geschreven bronnen bewaard zijn",
@@ -73,7 +73,7 @@ VRAGEN = [
             "Chronologie hoort bij de tijd en zegt niets over waar iets zich afspeelde",
             "Chronologie hoort bij de maatschappelijke domeinen en niet bij de tijd",
             "Mondiaal is geen structuurbegrip, het juiste woord is continentaal",
-            "Er loopt niets mis, chronologie situeert ook in de ruimte",
+            "Er loopt niets mis, want chronologie situeert iets ook in de ruimte en de tijd",
         ],
         0,
         "Chronologie ordent in de tijd. Om te tonen dat iets mondiaal was, heb je structuurbegrippen van de ruimte nodig.",
@@ -110,7 +110,7 @@ VRAGEN = [
         "Australië ligt op de wereldkaart helemaal in het oosten, en toch noemt men het een westers land. Wat leer je daaruit over het begrip westers?",
         [
             "Het wijst ook op een manier van samenleven, met eigen instellingen, mensbeeld en economie",
-            "Het wijst enkel op landen die ten westen van de nulmeridiaan liggen op de kaart",
+            "Het wijst enkel op landen die ten westen van de nulmeridiaan van Greenwich liggen op de kaart",
             "Het is een begrip uit de tijd, geen begrip uit de ruimte, en hoort bij chronologie",
             "Het is een fout van de kaartenmakers die men nooit heeft rechtgezet",
         ],
@@ -215,7 +215,7 @@ VRAGEN = [
             mk(
                 "Welke conclusie mag je hieruit trekken?",
                 [
-                    "Het boek periodiseert met andere kenmerken: wie periodiseert, kiest wat belangrijk is",
+                    "Het boek periodiseert met andere kenmerken: wie periodiseert, kiest",
                     "Het boek bevat een fout, want de 19de eeuw loopt altijd van 1801 tot 1900",
                     "Het boek bewijst dat de Franse Revolutie nooit heeft plaatsgevonden",
                     "Het boek gebruikt geen periodisering maar enkel een chronologie",

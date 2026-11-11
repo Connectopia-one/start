@@ -116,7 +116,7 @@ VRAGEN = [
         "Een leerling zegt: \"Een regime gebruikt ofwel propaganda, ofwel terreur.\" Wat is de beste verbetering?",
         [
             "Totalitaire regimes gebruiken ze naast elkaar: de ene hand lokt, de andere dreigt",
-            "Klopt: propaganda hoort enkel bij democratieën en terreur enkel bij dictaturen",
+            "Klopt: propaganda hoort enkel bij democratieën en terreur enkel bij dictaturen, nooit samen",
             "Klopt: Stalin gebruikte alleen terreur en Hitler gebruikte alleen propaganda",
             "Propaganda en terreur bestonden in de jaren dertig nog niet als begrip",
         ],
@@ -230,7 +230,7 @@ VRAGEN = [
     mk(
         "Waarom was het niet-aanvalspact van augustus 1939 tussen Duitsland en de Sovjet-Unie zo verrassend?",
         [
-            "Twee regimes die elkaar als aartsvijanden zagen, spraken een geheime verdeling van Polen af",
+            "Twee aartsvijanden spraken een geheime verdeling van Polen af",
             "Het waren twee democratieën die normaal nooit verdragen met elkaar sloten",
             "Het pact maakte een einde aan de Tweede Wereldoorlog nog voor die begon",
             "Het pact gaf Polen de garantie dat het nooit aangevallen zou worden",

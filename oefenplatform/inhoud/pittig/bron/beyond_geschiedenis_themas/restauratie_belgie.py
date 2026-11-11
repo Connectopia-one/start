@@ -84,7 +84,7 @@ VRAGEN = [
         "Waarom gingen liberalisme en nationalisme in de 19de eeuw vaak samen?",
         [
             "Allebei keerden ze zich tegen vorsten die zonder grondwet en zonder het volk regeerden",
-            "Allebei wilden ze de vorstenhuizen van voor 1789 weer stevig aan de macht brengen",
+            "Allebei wilden ze de vorstenhuizen van voor 1789 weer stevig en voorgoed aan de macht brengen",
             "Allebei werden ze krachtig gesteund door Metternich en het Congres van Wenen",
             "Allebei wilden ze dat de staat alle fabrieken en banken in handen nam",
         ],
@@ -106,7 +106,7 @@ VRAGEN = [
     mk(
         "In 1828 sloten katholieken en liberalen de unie der oppositie. Waarom is dat opvallend?",
         [
-            "Ze waren normaal elkaars tegenstanders, maar hadden een gemeenschappelijke vijand in Willem I",
+            "Ze waren normaal tegenstanders, maar hadden een gemeenschappelijke vijand in Willem I",
             "Ze waren het over alles eens en werkten al eeuwenlang nauw samen in het Zuiden",
             "Ze wilden allebei dat het Zuiden zo snel mogelijk bij Frankrijk zou horen",
             "Ze werden allebei door koning Willem I zelf gesteund en betaald",

@@ -11,7 +11,7 @@ VRAGEN = [
         "Een leerling zegt: \"Mijn handboek toont gewoon het verleden zoals het was.\" Wat is de beste reactie?",
         [
             "Het toont een beeld dat iemand opbouwde uit bronnen en interpretatie",
-            "Klopt, een handboek is altijd een exacte kopie van het verleden",
+            "Klopt, een handboek is altijd een exacte kopie van het verleden zoals het echt was",
             "Klopt, zolang het handboek recenter is dan de gebeurtenissen zelf",
             "Een handboek toont nooit iets over het verleden, alleen meningen",
         ],
@@ -76,7 +76,7 @@ VRAGEN = [
         "Een leerling schrijft: \"De mensen in 1850 waren slecht, want vandaag is kinderarbeid verboden.\" Wat loopt er mis?",
         [
             "Hij beoordeelt het verleden met de maatstaf van vandaag",
-            "Hij gebruikt te veel bronnen uit 1850",
+            "Hij gebruikt te veel bronnen uit 1850 en te weinig van vandaag",
             "Kinderarbeid bestond in 1850 nog niet",
             "Hij past de redeneerwijze actualiseren correct toe",
         ],
@@ -164,7 +164,7 @@ VRAGEN = [
     mk(
         "Wat is het grootste verschil tussen het imperialisme van de vroegmoderne tijd en dat van de negentiende eeuw?",
         [
-            "In de negentiende eeuw werd ook het binnenland bezet en bestuurd, eerder vooral de kust",
+            "In de negentiende eeuw werd ook het binnenland bezet, eerder vooral de kust",
             "In de vroegmoderne tijd ging het om grondstoffen, later alleen om prestige",
             "In de negentiende eeuw speelde Europa geen rol meer in Afrika",
             "Er is geen verschil: de middelen en de motieven waren precies dezelfde",
@@ -176,7 +176,7 @@ VRAGEN = [
         "Hoe vergelijk je de staatsvorm onder Mao met China vandaag het best?",
         [
             "Politieke continuïteit met één partij, naast een grondig veranderde economie",
-            "Volledige verandering: China werd een democratie met vrije verkiezingen",
+            "Volledige verandering: China werd een democratie met vrije verkiezingen en meerdere partijen",
             "Volledige continuïteit: zowel de politiek als de economie bleven gelijk",
             "Economische continuïteit, naast een totaal nieuwe politieke structuur",
         ],
@@ -195,7 +195,7 @@ VRAGEN = [
     ),
     mk(
         "Elk jaar op 11 november staan dorpen aan hun oorlogsmonument stil bij hun gesneuvelden. Welk begrip past daarbij?",
-        ["Een collectieve herinnering", "Een stereotypering", "Een veralgemening", "Een primaire bron"],
+        ["Een collectieve herinnering", "Een stereotypering", "Een veralgemening", "Een primaire bron uit de oorlog"],
         0,
         "Een vaste dag, een monument en een gedeelde betekenis: het gedeelde beeld dat een groep bewaart en doorgeeft.",
     ),
@@ -236,7 +236,7 @@ VRAGEN = [
             "Ook een meerderheid moet zich aan de wet en de grondrechten houden",
             "Een meerderheid mag in een democratie nooit wetten maken",
             "Alleen de koning mag over het stemrecht beslissen",
-            "Het kan wel, als de meerderheid groot genoeg is",
+            "Het kan wel, als de meerderheid groot genoeg is en het in de grondwet zet",
         ],
         0,
         "Daarom spreekt men van een rechtsstaat, en niet enkel van een democratie.",

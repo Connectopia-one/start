@@ -108,8 +108,8 @@
           "type": "meerkeuze",
           "vraag": "Wat bedoelt een historicus met ongelijktijdigheid?",
           "opties": [
-            "dezelfde ontwikkeling komt elders vroeger of later op gang",
-            "twee gebeurtenissen vallen toevallig samen",
+            "dezelfde ontwikkeling begint elders vroeger of later",
+            "twee gebeurtenissen vallen toevallig samen in hetzelfde jaar",
             "een bron is later geschreven dan de gebeurtenis",
             "een periode duurt ergens anders korter"
           ],
@@ -325,7 +325,7 @@
           "vraag": "Wat is een etnocentrische blik?",
           "opties": [
             "de eigen groep als maatstaf voor de rest nemen",
-            "de voorkeur voor de politieke geschiedenis",
+            "de voorkeur voor de politieke geschiedenis boven de rest",
             "het gebruik van maar één enkele soort bron",
             "het vermijden van jaartallen in een betoog"
           ],
@@ -373,7 +373,7 @@
           "vraag": "Een tekst noemt de middeleeuwen 'de donkere eeuwen'. Wat is daar het probleem mee?",
           "opties": [
             "er zit een morele maatstaf in verstopt",
-            "de periode is verkeerd gesitueerd",
+            "de periode is verkeerd gesitueerd in de tijd",
             "de term is te recent",
             "de term hoort bij een ander domein"
           ],
@@ -489,7 +489,7 @@
           "vraag": "Wat betekent het beginsel van de legitimiteit op dat congres?",
           "opties": [
             "de oude dynastieën hebben het rechtmatige gezag",
-            "elk volk mag zelf zijn bestuur kiezen",
+            "elk volk mag zelf kiezen door wie en hoe het bestuurd wordt",
             "een vorst moet de grondwet gehoorzamen",
             "de grenzen van 1789 blijven ongewijzigd"
           ],
@@ -501,7 +501,7 @@
           "vraag": "Welke staat richtte het congres op als buffer ten noorden van Frankrijk?",
           "opties": [
             "het Verenigd Koninkrijk der Nederlanden",
-            "de Republiek der Zeven Provinciën",
+            "de Republiek der Zeven Provinciën van vroeger",
             "het koninkrijk Pruisen aan de Rijn",
             "de Oostenrijkse Nederlanden opnieuw"
           ],
@@ -579,7 +579,7 @@
           "vraag": "Wat verstaat men onder een natie in het 19de-eeuwse nationalisme?",
           "opties": [
             "een groep met een gedeelde taal, cultuur en geschiedenis",
-            "iedereen die onder dezelfde vorst leeft",
+            "iedereen die onder dezelfde vorst leeft, welke taal hij ook spreekt",
             "de inwoners van één bepaalde provincie",
             "alle mensen van hetzelfde geloof samen"
           ],
@@ -591,7 +591,7 @@
           "vraag": "Wat is verbindend nationalisme?",
           "opties": [
             "losse staten van hetzelfde volk samenbrengen",
-            "zich losmaken uit een groter rijk",
+            "zich losmaken uit een groter rijk en zelf een staat vormen",
             "het eigen volk boven alle andere stellen",
             "koloniën veroveren in naam van de natie"
           ],
@@ -626,7 +626,7 @@
           "vraag": "Hoe reageerden de grote mogendheden op de revoluties van 1830 en 1848?",
           "opties": [
             "ze probeerden ze te onderdrukken of in te dammen",
-            "ze erkenden meteen elke nieuwe staat",
+            "ze erkenden meteen elke nieuwe staat die ontstond",
             "ze riepen een nieuw congres bijeen in Wenen",
             "ze voerden overal het algemeen stemrecht in"
           ],
@@ -822,7 +822,7 @@
           "vraag": "Hoe begon de Vlaamse beweging?",
           "opties": [
             "als een culturele beweging rond taal en letteren",
-            "als een politieke partij in het parlement",
+            "als een politieke partij in het Belgische parlement",
             "als een vakbond van Vlaamse arbeiders",
             "als een godsdienstige vereniging in de kerk"
           ],
@@ -855,7 +855,7 @@
           "vraag": "Wat was de Duitse Bond na 1815?",
           "opties": [
             "een los verband van zelfstandige Duitse staten",
-            "een eengemaakt keizerrijk onder Pruisen",
+            "een eengemaakt keizerrijk onder leiding van Pruisen",
             "een douane-unie zonder politieke afspraken",
             "een militair bondgenootschap met Frankrijk"
           ],
@@ -893,7 +893,7 @@
           "vraag": "Waar werd het Duitse Keizerrijk in 1871 uitgeroepen?",
           "opties": [
             "in de Spiegelzaal van Versailles",
-            "in de Rijksdag in Berlijn",
+            "in de Rijksdag in Berlijn, voor de verkozenen",
             "in de dom van Keulen",
             "op het slagveld bij Sedan"
           ],
@@ -1021,7 +1021,7 @@
           "vraag": "Wat houdt het economisch liberalisme in?",
           "opties": [
             "de overheid laat de economie zoveel mogelijk vrij",
-            "de overheid bepaalt de lonen en de prijzen",
+            "de overheid bepaalt de lonen en de prijzen van alles",
             "de fabrieken zijn eigendom van de arbeiders",
             "de handel met het buitenland wordt verboden"
           ],
@@ -1068,7 +1068,7 @@
           "vraag": "Wat is een vraagfactor bij de industrialisatie?",
           "opties": [
             "een groeiende bevolking die meer goederen koopt",
-            "de aanwezigheid van ijzererts in de bodem",
+            "de aanwezigheid van ijzererts en steenkool in de bodem",
             "arbeiders die van het platteland komen",
             "banken die kredieten verstrekken"
           ],
@@ -1115,7 +1115,7 @@
           "vraag": "Waarom vergelijkt men het energiegebruik van de eerste en de tweede industriële revolutie?",
           "opties": [
             "omdat de overstap van kolen naar elektriciteit en olie alles veranderde",
-            "omdat er in de tweede revolutie minder energie nodig was",
+            "omdat er in de tweede revolutie minder energie nodig was dan in de eerste",
             "omdat beide revoluties dezelfde brandstoffen gebruikten",
             "omdat energie in de eerste revolutie nog geen rol speelde"
           ],
@@ -1206,7 +1206,7 @@
             "de leden kopen of produceren samen en delen de winst",
             "de leden onderhandelen samen over hun loon",
             "de leden sparen samen voor ziekte en ongeval",
-            "de staat betaalt de leden een vergoeding"
+            "de staat betaalt de leden een vergoeding voor elk product dat ze maken"
           ],
           "antwoord": 0,
           "uitleg": "Een coöperatie is een eigen bedrijf van de leden, zoals de socialistische bakkerijen. Onderhandelen over loon is het werk van een vakbond."
@@ -1284,7 +1284,7 @@
           "vraag": "Welk stemrecht gold in België van 1831 tot 1893?",
           "opties": [
             "cijnskiesrecht voor wie genoeg belasting betaalde",
-            "algemeen enkelvoudig stemrecht voor mannen",
+            "algemeen enkelvoudig stemrecht voor alle volwassen mannen",
             "algemeen meervoudig stemrecht voor mannen",
             "stemrecht voor alle mannen en vrouwen samen"
           ],
@@ -1411,7 +1411,7 @@
           "vraag": "Welk motief voor imperialisme is economisch van aard?",
           "opties": [
             "goedkope grondstoffen voor de eigen fabrieken",
-            "prestige tegenover de andere mogendheden",
+            "prestige tegenover de andere Europese mogendheden",
             "het verspreiden van het christelijk geloof",
             "het in kaart brengen van onbekende streken"
           ],
@@ -1441,7 +1441,7 @@
           "vraag": "Welke regel sprak men op die conferentie af om aanspraak te maken op een gebied?",
           "opties": [
             "je moest het gebied werkelijk bezetten en besturen",
-            "je moest er als eerste geweest zijn",
+            "je moest er als eerste Europeaan voet aan wal gezet hebben",
             "je moest de bevolking om toestemming vragen",
             "je moest het gebied van een ander land kopen"
           ],
@@ -1478,7 +1478,7 @@
           "vraag": "Wat deed Japan vanaf de Meiji-restauratie van 1868?",
           "opties": [
             "het moderniseerde snel en werd zelf een koloniale macht",
-            "het sloot zich volledig af van de buitenwereld",
+            "het sloot zich volledig af van de buitenwereld en verbood alle handel",
             "het werd een kolonie van de Verenigde Staten",
             "het verdeelde zijn gebied onder Europese landen"
           ],
@@ -1535,8 +1535,8 @@
           "type": "meerkeuze",
           "vraag": "Wat betekent het dat koloniale grenzen vaak met een lat getrokken lijken?",
           "opties": [
-            "ze volgden Europese afspraken en geen bestaande samenlevingen",
-            "ze liepen altijd langs rivieren en bergen",
+            "ze volgden Europese afspraken, geen bestaande samenlevingen",
+            "ze liepen altijd langs rivieren en bergen die je op de kaart ziet",
             "ze werden door de lokale heersers bepaald",
             "ze bleven na de onafhankelijkheid ongewijzigd"
           ],
@@ -1555,7 +1555,7 @@
           "vraag": "Welke rol speelden missionarissen in de koloniën?",
           "opties": [
             "ze verspreidden het geloof en richtten scholen op",
-            "ze bestuurden de kolonie in naam van de koning",
+            "ze bestuurden de kolonie in naam van de koning en de regering",
             "ze baatten de grote mijnen uit",
             "ze onderhandelden de grenzen met andere landen"
           ],
@@ -1567,7 +1567,7 @@
           "vraag": "Wat is een invloedssfeer?",
           "opties": [
             "een gebied waar een mogendheid de dienst uitmaakt zonder het te besturen",
-            "een kolonie met een eigen gouverneur ter plaatse",
+            "een kolonie met een eigen gouverneur ter plaatse die door de koning benoemd wordt",
             "een streek waar twee landen samen besturen",
             "een handelspost die aan een bedrijf toebehoort"
           ],
@@ -1746,7 +1746,7 @@
           "vraag": "Hoe is de beeldvorming over Leopold II en Congo in België veranderd?",
           "opties": [
             "van koning-bouwer naar een veel kritischer blik",
-            "van omstreden naar algemeen bewonderd",
+            "van omstreden naar algemeen bewonderd door iedereen",
             "ze is al honderd jaar onveranderd gebleven",
             "ze was vanaf 1908 meteen kritisch"
           ],
@@ -1791,8 +1791,8 @@
           "type": "meerkeuze",
           "vraag": "Waarover gingen de Opiumoorlogen tussen China en Groot-Brittannië?",
           "opties": [
-            "over de Britse handel in opium die China wilde stoppen",
-            "over de grens tussen China en Brits-Indië",
+            "over de Britse opiumhandel die China wilde stoppen",
+            "over de grens tussen China en Brits-Indië in de Himalaya",
             "over het bezit van Taiwan",
             "over de bescherming van missionarissen"
           ],
@@ -1813,7 +1813,7 @@
           "vraag": "Waarom noemt men de verdragen die China na de Opiumoorlogen tekende ongelijke verdragen?",
           "opties": [
             "ze legden enkel aan China verplichtingen op",
-            "ze golden maar voor één jaar",
+            "ze golden maar voor één jaar en moesten dan opnieuw ondertekend worden",
             "ze waren door beide partijen afgedwongen",
             "ze werden nooit werkelijk uitgevoerd"
           ],
@@ -1831,7 +1831,7 @@
           "vraag": "Welk gevolg hadden de westerse contacten voor het Chinese keizerrijk?",
           "opties": [
             "het gezag van de keizer verzwakte en in 1912 viel het rijk",
-            "het keizerrijk werd sterker door de nieuwe handel",
+            "het keizerrijk werd sterker door de nieuwe handel met het Westen",
             "China sloot zich volledig af van het buitenland",
             "de keizer werd vervangen door een westerse gouverneur"
           ],
@@ -1850,7 +1850,7 @@
           "vraag": "In juni 1914 wordt in Sarajevo een Oostenrijkse troonopvolger doodgeschoten. Hoe heette hij?",
           "opties": [
             "Frans Ferdinand",
-            "Frans Jozef",
+            "Frans Jozef, de keizer zelf",
             "Wilhelm II",
             "Nicolaas II"
           ],
@@ -1862,7 +1862,7 @@
           "vraag": "Wat is het verschil tussen de aanleiding en de oorzaken van de Eerste Wereldoorlog?",
           "opties": [
             "de aanleiding is de vonk, de oorzaken zijn de opgestapelde spanningen",
-            "de aanleiding duurt langer dan de oorzaken",
+            "de aanleiding duurt langer dan de oorzaken, want ze begint eerder",
             "de aanleiding is economisch, de oorzaken zijn politiek",
             "er is geen verschil tussen die twee begrippen"
           ],
@@ -1919,7 +1919,7 @@
           "vraag": "Hoe ging de bewegingsoorlog van 1914 over in een loopgravenoorlog?",
           "opties": [
             "de opmars liep vast en beide legers groeven zich in",
-            "de legers kregen het bevel zich terug te trekken",
+            "de legers kregen het bevel zich terug te trekken tot achter de grens",
             "er kwam een wapenstilstand van enkele maanden",
             "de legers wachtten op de komst van de Amerikanen"
           ],
@@ -2014,7 +2014,7 @@
           "vraag": "Wat veranderde er tijdens de oorlog aan de plaats van vrouwen in de samenleving?",
           "opties": [
             "ze namen in de fabrieken het werk van de mannen over",
-            "ze kregen onmiddellijk algemeen stemrecht",
+            "ze kregen onmiddellijk algemeen stemrecht bij alle verkiezingen",
             "ze werden in grote getale naar het front gestuurd",
             "ze mochten niet meer buitenshuis werken"
           ],
@@ -2027,7 +2027,7 @@
           "vraag": "Welke rol speelde propaganda tijdens de Eerste Wereldoorlog?",
           "opties": [
             "ze moest de steun van de bevolking vasthouden",
-            "ze diende enkel om soldaten te ronselen",
+            "ze diende enkel om soldaten te ronselen in de koloniën",
             "ze werd pas na de oorlog ingezet",
             "ze was in alle landen bij wet verboden"
           ],
@@ -2144,7 +2144,7 @@
           "vraag": "Wat is een onbedoeld gevolg van het Verdrag van Versailles?",
           "opties": [
             "de voedingsbodem voor extreme partijen in Duitsland",
-            "de teruggave van Elzas-Lotharingen aan Frankrijk",
+            "de teruggave van Elzas-Lotharingen aan Frankrijk na de oorlog",
             "de beperking van het Duitse leger",
             "de oprichting van de Volkenbond"
           ],
@@ -2155,8 +2155,8 @@
           "type": "meerkeuze",
           "vraag": "Waarvoor werd de Volkenbond in 1920 opgericht?",
           "opties": [
-            "om conflicten tussen landen vreedzaam te beslechten",
-            "om de herstelbetalingen te innen",
+            "om conflicten tussen landen vreedzaam op te lossen",
+            "om de herstelbetalingen van Duitsland aan de overwinnaars te innen",
             "om de koloniën te verdelen",
             "om een gezamenlijk Europees leger te vormen"
           ],
@@ -2205,7 +2205,7 @@
           "vraag": "Welke rol speelde de Eerste Wereldoorlog in de Russische revoluties?",
           "opties": [
             "nederlagen en honger ondermijnden het gezag van de tsaar",
-            "de oorlog maakte de tsaar juist populairder",
+            "de oorlog maakte de tsaar juist populairder bij boeren en arbeiders",
             "Rusland bleef buiten de oorlog",
             "de oorlog bracht welvaart in de steden"
           ],
@@ -2226,8 +2226,8 @@
           "type": "meerkeuze",
           "vraag": "Wat gebeurde er bij de Februarirevolutie van 1917?",
           "opties": [
-            "de tsaar deed troonsafstand en er kwam een voorlopige regering",
-            "de bolsjewieken namen de macht over",
+            "de tsaar deed troonsafstand, er kwam een voorlopige regering",
+            "de bolsjewieken namen meteen de macht over in Petrograd en Moskou",
             "Rusland sloot vrede met Duitsland",
             "de Sovjet-Unie werd opgericht"
           ],
@@ -2318,7 +2318,7 @@
           "vraag": "Welk verband leg je tussen de Vrede van Versailles en de Tweede Wereldoorlog?",
           "opties": [
             "de wrok over het verdrag hielp Hitler aan steun",
-            "het verdrag verbood Duitsland elke regering",
+            "het verdrag verbood Duitsland elke eigen regering en elk leger",
             "het verdrag gaf Duitsland gebieden erbij",
             "er is geen enkel verband tussen beide"
           ],
@@ -2337,7 +2337,7 @@
           "vraag": "In oktober 1929 stort de beurs van New York in. Hoe noemt men die dagen?",
           "opties": [
             "de beurscrash van Wall Street",
-            "de grote inflatie",
+            "de grote inflatie van de dollar",
             "de bankenstaking",
             "de zwarte winter"
           ],
@@ -2366,7 +2366,7 @@
           "vraag": "Welk gevolg had de crisis van de jaren dertig in Europa?",
           "opties": [
             "massale werkloosheid en politieke radicalisering",
-            "een snelle groei van de wereldhandel",
+            "een snelle groei van de wereldhandel en de werkgelegenheid",
             "een daling van de werkloosheid in Duitsland",
             "het einde van alle protectionisme"
           ],
@@ -2433,7 +2433,7 @@
           "vraag": "Wat was het doel van de vijfjarenplannen vanaf 1928?",
           "opties": [
             "de zware industrie in hoog tempo uitbouwen",
-            "de landbouw aan de boeren teruggeven",
+            "de landbouw aan de boeren teruggeven, met privégrond",
             "de handel met het Westen uitbreiden",
             "de legerdienst afschaffen"
           ],
@@ -2468,7 +2468,7 @@
           "vraag": "Wat waren de goelags?",
           "opties": [
             "strafkampen waar gevangenen dwangarbeid verrichtten",
-            "de fabrieken van het eerste vijfjarenplan",
+            "de fabrieken van het eerste vijfjarenplan in Siberië",
             "de gemeenschapsboerderijen op het platteland",
             "de jeugdbewegingen van de communistische partij"
           ],
@@ -2486,7 +2486,7 @@
           "vraag": "Wat is een personencultus?",
           "opties": [
             "de leider wordt als onfeilbaar en haast bovenmenselijk voorgesteld",
-            "de bevolking mag de leider vrij bekritiseren",
+            "de bevolking mag de leider vrij bekritiseren in kranten en op straat",
             "de leider wordt om de vier jaar herkozen",
             "de partij kiest telkens een nieuwe leider"
           ],
@@ -2534,7 +2534,7 @@
           "vraag": "Waarom noemt men de kunst in de Sovjet-Unie onder Stalin socialistisch realisme?",
           "opties": [
             "ze moest de arbeider en de opbouw van het land verheerlijken",
-            "ze mocht enkel de werkelijkheid natekenen zoals ze was",
+            "ze mocht enkel de werkelijkheid natekenen zoals ze was, zonder boodschap",
             "ze was volledig abstract en zonder onderwerp",
             "ze werd door de kerk besteld en betaald"
           ],
@@ -2552,9 +2552,9 @@
           "type": "meerkeuze",
           "vraag": "Welk verband leg je tussen de crisis van 1929 en de opkomst van extreme partijen?",
           "opties": [
-            "werkloosheid en armoede maakten mensen vatbaar voor wie orde beloofde",
+            "werkloosheid en armoede maakten mensen vatbaar voor beloften van orde",
             "de crisis maakte de democratische partijen juist populairder",
-            "extreme partijen bestonden pas na de crisis",
+            "extreme partijen bestonden pas na de crisis en werden toen meteen opgericht",
             "er is geen verband tussen die twee"
           ],
           "antwoord": 0,
@@ -2655,7 +2655,7 @@
           "vraag": "Hoe bracht het naziregime de werkloosheid naar beneden?",
           "opties": [
             "met openbare werken en vooral met herbewapening",
-            "door de werklozen naar de koloniën te sturen",
+            "door de werklozen naar de koloniën in Afrika te sturen",
             "door de werkweek tot twintig uur te beperken",
             "door de fabrieken aan de arbeiders te geven"
           ],
@@ -2682,7 +2682,7 @@
           "vraag": "Wat bepaalden de Neurenbergse wetten van 1935?",
           "opties": [
             "Joden verloren hun burgerrechten en mochten niet meer huwen met niet-Joden",
-            "alle partijen behalve de NSDAP werden verboden en hun leiders opgepakt",
+            "alle partijen behalve de NSDAP werden verboden en hun leiders werden opgepakt en opgesloten",
             "het Duitse leger werd uitgebreid tot meer dan een miljoen manschappen",
             "de kerken verloren hun bezittingen en mochten geen scholen meer houden"
           ],
@@ -2876,7 +2876,7 @@
           "vraag": "Waardoor kwamen de Verenigde Staten in december 1941 in de oorlog terecht?",
           "opties": [
             "door de Japanse aanval op Pearl Harbor",
-            "door een Duitse landing in Amerika",
+            "door een Duitse landing aan de kust van Amerika",
             "door een oproep van de Volkenbond",
             "door de val van Frankrijk"
           ],
@@ -2946,7 +2946,7 @@
           "vraag": "Wat hebben de Eerste en de Tweede Wereldoorlog gemeen?",
           "opties": [
             "het zijn allebei totale oorlogen waarin de hele samenleving betrokken is",
-            "beide werden vooral in loopgraven aan het westfront uitgevochten",
+            "beide werden vooral in loopgraven aan het westfront in België en Frankrijk uitgevochten",
             "beide eindigden met een vredesverdrag in het paleis van Versailles",
             "beide bleven tot het Europese continent en zijn randen beperkt"
           ],
@@ -3025,7 +3025,7 @@
           "vraag": "Welke verklaring nam de jonge Verenigde Naties in 1948 aan, onder de indruk van wat er gebeurd was?",
           "opties": [
             "de Universele Verklaring van de Rechten van de Mens",
-            "het Handvest van de Atlantische Oceaan",
+            "het Handvest van de Atlantische Oceaan van Roosevelt en Churchill",
             "de Conventie van Genève over krijgsgevangenen",
             "de Verklaring van Versailles over oorlogsschuld"
           ],
@@ -3220,7 +3220,7 @@
           "vraag": "Genocide is het opzettelijk geheel of gedeeltelijk vernietigen van een nationale, etnische, raciale of religieuze groep. Is dat van toepassing op de Holocaust?",
           "opties": [
             "ja, want een hele bevolkingsgroep moest doelbewust verdwijnen",
-            "nee, want er vielen ook slachtoffers buiten die ene groep",
+            "nee, want er vielen ook slachtoffers buiten die ene bevolkingsgroep",
             "nee, want het gebeurde in oorlogstijd",
             "ja, maar enkel voor de slachtoffers in Duitsland zelf"
           ],
@@ -3237,8 +3237,8 @@
           "type": "meerkeuze",
           "vraag": "Waarom blijven getuigenissen van overlevenden zo belangrijk?",
           "opties": [
-            "ze geven de ervaring weer die cijfers niet kunnen tonen",
-            "ze vervangen het onderzoek van historici",
+            "ze tonen de ervaring die cijfers niet kunnen tonen",
+            "ze vervangen het onderzoek van historici, want ze waren er zelf bij",
             "ze zijn altijd volledig en nooit gekleurd",
             "ze zijn de enige bron die er nog over bestaat"
           ],
@@ -3330,8 +3330,8 @@
           "type": "meerkeuze",
           "vraag": "Wat zijn de duurzame ontwikkelingsdoelen van de VN?",
           "opties": [
-            "zeventien doelen die de wereld tegen 2030 wil halen",
-            "zeventien regels voor het voeren van oorlog",
+            "zeventien doelen voor de wereld tegen 2030",
+            "zeventien regels voor het voeren van oorlog tussen lidstaten",
             "zeven doelen over het klimaat alleen",
             "de vijf beginselen van de Veiligheidsraad"
           ],
@@ -3521,7 +3521,7 @@
           "vraag": "Waarover gingen de SALT-besprekingen van de jaren zeventig?",
           "opties": [
             "over het beperken van het aantal kernwapens",
-            "over de hereniging van Duitsland",
+            "over de hereniging van Oost- en West-Duitsland",
             "over de handel tussen oost en west",
             "over het statuut van Berlijn"
           ],
@@ -3688,7 +3688,7 @@
           "vraag": "Wie zetelt er in de Europese Raad?",
           "opties": [
             "de staatshoofden en regeringsleiders van de lidstaten",
-            "de vakministers van de lidstaten per thema",
+            "de vakministers van de lidstaten, per thema samengebracht",
             "de rechtstreeks verkozen volksvertegenwoordigers",
             "de commissarissen van het dagelijks bestuur"
           ],
@@ -3748,7 +3748,7 @@
           "type": "meerkeuze",
           "vraag": "Wat betekent dekolonisatie?",
           "opties": [
-            "koloniën worden zelfstandige staten en maken zich los van hun kolonisator",
+            "koloniën worden zelfstandige staten",
             "een land breidt zijn koloniën in Afrika en Azië verder uit",
             "twee koloniale mogendheden ruilen onderling hun gebieden",
             "een kolonie wordt opgedeeld in verschillende kleinere koloniën"
@@ -3806,7 +3806,7 @@
           "vraag": "Waarom zorgden de grenzen van de nieuwe Afrikaanse staten vaak voor conflicten?",
           "opties": [
             "ze waren door de kolonisatoren getrokken, dwars door volkeren heen",
-            "ze waren door de nieuwe staten zelf met de liniaal getrokken",
+            "ze waren door de nieuwe staten zelf met de liniaal getrokken na hun onafhankelijkheid",
             "ze waren door de Verenigde Naties na 1960 helemaal hertekend",
             "ze waren al eeuwen hetzelfde en lagen volledig vast"
           ],
@@ -3826,7 +3826,7 @@
           "vraag": "Wat is neokolonialisme?",
           "opties": [
             "economische overheersing van een land dat politiek wel onafhankelijk is",
-            "het opnieuw militair bezetten van een voormalige kolonie door Europa",
+            "het opnieuw militair bezetten van een voormalige kolonie door een Europees leger",
             "het stichten van nieuwe koloniën door jonge staten in Afrika",
             "het terugkeren van kolonisten naar het moederland na 1960"
           ],
@@ -3839,7 +3839,7 @@
           "vraag": "Wat gebeurde er op de conferentie van Bandung in 1955?",
           "opties": [
             "Aziatische en Afrikaanse landen kwamen samen tegen kolonialisme en blokvorming",
-            "de Europese mogendheden verdeelden Afrika onder elkaar in invloedssferen",
+            "de Europese mogendheden verdeelden Afrika onder elkaar in invloedssferen en koloniën",
             "de Verenigde Naties stemden over de onafhankelijkheid van alle koloniën",
             "de twee supermachten spraken over het beperken van hun kernwapens"
           ],
@@ -3852,7 +3852,7 @@
           "vraag": "Welk verband bestaat er tussen de dekolonisatie en de Koude Oorlog?",
           "opties": [
             "de twee supermachten probeerden de nieuwe staten naar hun kamp te trekken",
-            "de dekolonisatie was helemaal afgelopen voor de Koude Oorlog begon",
+            "de dekolonisatie was helemaal afgelopen voor de Koude Oorlog begon, al in de jaren dertig",
             "de twee supermachten spraken af om zich er allebei buiten te houden",
             "de Koude Oorlog speelde zich uitsluitend op Europese bodem af"
           ],
@@ -3994,7 +3994,7 @@
           "vraag": "Welke gebeurtenis in januari 1959 dwong België tot een snelle koerswijziging over Congo?",
           "opties": [
             "zware rellen in Leopoldstad, met tientallen doden en veel vernieling",
-            "een stemming in het Belgische parlement over de onafhankelijkheid",
+            "een stemming in het Belgische parlement over de onafhankelijkheid van de kolonie",
             "een uitspraak van het Internationaal Gerechtshof over de kolonie",
             "een beslissing van de Verenigde Naties om Congo over te nemen"
           ],
@@ -4106,7 +4106,7 @@
           "vraag": "Hoe zou je het bewind van Mobutu omschrijven?",
           "opties": [
             "een autoritair eenpartijbewind met veel corruptie en een persoonscultus",
-            "een parlementaire democratie met regelmatig wisselende regeringen",
+            "een parlementaire democratie met regelmatig wisselende regeringen en vrije pers",
             "een bestuur onder rechtstreeks toezicht van de Verenigde Naties",
             "een koninkrijk waarin de macht van vader op zoon werd doorgegeven"
           ],
@@ -4125,7 +4125,7 @@
           "opties": [
             "Laurent-Désiré Kabila",
             "Joseph Kabila",
-            "Félix Tshisekedi",
+            "Félix Tshisekedi, de huidige president",
             "Moïse Tshombe"
           ],
           "antwoord": 0,
@@ -4176,7 +4176,7 @@
           "vraag": "Waarom blijft de strijd om grondstoffen in Congo vandaag belangrijk?",
           "opties": [
             "kobalt en coltan uit Congo zitten in gsm's, laptops en elektrische auto's",
-            "Congo is vandaag de grootste graanleverancier van heel Europa",
+            "Congo is vandaag de grootste graanleverancier van heel Europa en van Noord-Afrika",
             "Congo bezit de grootste olievoorraden van het Afrikaanse continent",
             "Congo levert het meeste drinkwater aan de omringende landen"
           ],
@@ -4208,7 +4208,7 @@
           "vraag": "Wat spraken werkgevers en vakbonden af in het sociaal pact van 1944?",
           "opties": [
             "de grondslagen van een verplichte sociale zekerheid voor alle werknemers",
-            "een volledige vrijheid voor werkgevers om de lonen zelf te bepalen",
+            "een volledige vrijheid voor werkgevers om de lonen en de werkuren zelf te bepalen",
             "de afschaffing van de vakbonden ten voordele van één staatsorgaan",
             "een verbod op elke vorm van staking in de Belgische bedrijven"
           ],
@@ -4447,7 +4447,7 @@
           "type": "meerkeuze",
           "vraag": "Wat is een federale staat?",
           "opties": [
-            "een staat waarin de bevoegdheden verdeeld zijn over verschillende zelfstandige niveaus",
+            "een staat waarin de bevoegdheden over zelfstandige niveaus verdeeld zijn",
             "een staat waarin alle beslissingen door één centrale regering genomen worden",
             "een staat die samen met andere staten één gemeenschappelijke regering vormt",
             "een staat waarin het staatshoofd alle wetgevende macht in handen houdt"
@@ -4469,7 +4469,7 @@
           "vraag": "Wat kwam er met de staatshervorming van 1970 tot stand?",
           "opties": [
             "de cultuurgemeenschappen en de grondwettelijke vastlegging van de taalgebieden",
-            "de rechtstreekse verkiezing van het Vlaams Parlement door de kiezers",
+            "de rechtstreekse verkiezing van het Vlaams Parlement door de kiezers van Vlaanderen en Brussel",
             "de oprichting van het Brussels Hoofdstedelijk Gewest met eigen regering",
             "de overheveling van de kinderbijslag naar de deelstaten van het land"
           ],
@@ -4597,7 +4597,7 @@
           "vraag": "Wat bracht de zesde staatshervorming van 2011 tot 2014?",
           "opties": [
             "de overheveling van onder meer de kinderbijslag en delen van het arbeidsmarktbeleid",
-            "de omvorming van België van een federale staat terug naar een unitaire staat",
+            "de omvorming van België van een federale staat terug naar een unitaire staat met één regering",
             "de afschaffing van de gemeenschappen ten voordele van de drie gewesten",
             "de oprichting van een vierde gewest rond de hoofdstad van het land"
           ],
@@ -4664,7 +4664,7 @@
           "opties": [
             "de staatshervormingen zijn vooral antwoorden op de communautaire breuklijn",
             "de staatshervormingen volgden uit de levensbeschouwelijke breuklijn",
-            "de staatshervormingen hebben met de breuklijnen helemaal niets te maken",
+            "de staatshervormingen hebben met de breuklijnen in de Belgische samenleving helemaal niets te maken",
             "de staatshervormingen werden door de Europese Unie opgelegd aan België"
           ],
           "antwoord": 0,
@@ -4740,7 +4740,7 @@
           "type": "meerkeuze",
           "vraag": "Wat wordt bedoeld met het glazen plafond?",
           "opties": [
-            "een onzichtbare grens die vrouwen tegenhoudt om de hoogste functies te bereiken",
+            "een onzichtbare grens die vrouwen weghoudt uit de hoogste functies",
             "een wettelijk verbod op bepaalde beroepen voor vrouwen in de industrie",
             "een bovengrens aan het loon dat een werkgever mag uitbetalen",
             "een plafond op het aantal uren dat iemand per week mag werken"
@@ -4796,7 +4796,7 @@
           "vraag": "Wat gebeurde er in 1969 in de Stonewall Inn in New York?",
           "opties": [
             "bezoekers verzetten zich tegen een politieoptreden, wat het begin werd van de holebibeweging",
-            "er werd een groot internationaal congres over de gelijke rechten voor holebi's gehouden",
+            "er werd een groot internationaal congres over de gelijke rechten voor holebi's gehouden met duizenden deelnemers",
             "de Amerikaanse regering kondigde er een wet tegen discriminatie af",
             "een rechtbank sprak er voor het eerst een vonnis over discriminatie uit"
           ],
@@ -4814,7 +4814,7 @@
           "vraag": "Wat waren de Jim Crow-wetten in de Verenigde Staten?",
           "opties": [
             "wetten die zwarte en witte Amerikanen in het openbare leven van elkaar scheidden",
-            "wetten die de slavernij in de zuidelijke staten opnieuw invoerden",
+            "wetten die de slavernij in de zuidelijke staten opnieuw invoerden voor wie geen werk had",
             "wetten die zwarte Amerikanen het stemrecht uitdrukkelijk toekenden",
             "wetten die de immigratie vanuit Europa naar Amerika streng aan banden legden"
           ],
@@ -4838,7 +4838,7 @@
           "vraag": "Waar staat Martin Luther King voor in de burgerrechtenbeweging?",
           "opties": [
             "voor geweldloos verzet en voor gelijke rechten voor alle Amerikanen",
-            "voor gewapend verzet tegen de overheid van de zuidelijke staten",
+            "voor gewapend verzet tegen de overheid van de zuidelijke staten en hun politie",
             "voor een aparte zwarte staat binnen het grondgebied van Amerika",
             "voor een terugkeer van Afro-Amerikanen naar het continent Afrika"
           ],
@@ -4906,7 +4906,7 @@
           "vraag": "Waarom ontstond er vanaf de jaren vijftig een aparte jongerencultuur?",
           "opties": [
             "jongeren studeerden langer, verdienden zelf en vormden zo een eigen groep met eigen smaak",
-            "jongeren mochten vanaf dan voor het allereerst zelf hun partner en hun beroep kiezen",
+            "jongeren mochten vanaf dan voor het allereerst zelf hun partner en hun beroep kiezen, zonder ouders",
             "de overheid richtte overal jeugdhuizen op om jongeren bezig te houden",
             "de scholen voerden een uniform in dat jongeren onderling herkenbaar maakte"
           ],
@@ -4938,7 +4938,7 @@
           "type": "meerkeuze",
           "vraag": "Waartegen protesteerden studenten in mei 1968 in Parijs en elders?",
           "opties": [
-            "tegen het gezag van de oude orde, op de universiteit en in de maatschappij",
+            "tegen het gezag van de oude orde, op de universiteit en daarbuiten",
             "tegen de toetreding van hun land tot de Europese Gemeenschap",
             "tegen de invoering van een algemene dienstplicht voor studenten",
             "tegen de afschaffing van het inschrijvingsgeld aan de universiteit"
@@ -5037,7 +5037,7 @@
           "vraag": "Waaraan herken je een werk van Roy Lichtenstein?",
           "opties": [
             "aan de vergrote stripbeelden met de zichtbare drukstippen",
-            "aan de druipende verfvlekken over het hele doek",
+            "aan de druipende verfvlekken over het hele doek, zonder herkenbare vorm",
             "aan de strak geometrische vlakken in grijstinten",
             "aan de kinderlijke figuren met dikke zwarte lijnen"
           ],
@@ -5109,7 +5109,7 @@
           "vraag": "Wat is kenmerkend voor het postmodernisme in de kunst?",
           "opties": [
             "stijlen uit verschillende tijden worden door elkaar gebruikt en geciteerd",
-            "er wordt uitsluitend met de technieken van de oude meesters gewerkt",
+            "er wordt uitsluitend met de technieken van de oude meesters gewerkt, zoals in de renaissance",
             "alle kunstenaars volgen één gemeenschappelijk programma en manifest",
             "kunst mag enkel nog over godsdienstige onderwerpen gaan"
           ],
@@ -5150,7 +5150,7 @@
           "type": "meerkeuze",
           "vraag": "Welke vraag is het best afgebakend en dus het meest onderzoekbaar?",
           "opties": [
-            "hoe veranderde het werk van vrouwen in de Gentse textielfabrieken tussen 1880 en 1900",
+            "hoe veranderde het werk van vrouwen in Gentse textielfabrieken tussen 1880 en 1900",
             "hoe was het leven van de mensen vroeger in de hele wereld",
             "was de industriële revolutie nu eigenlijk goed of slecht voor iedereen",
             "wat gebeurde er allemaal in de negentiende eeuw op onze aardbol"
@@ -5227,7 +5227,7 @@
           "vraag": "Wat betekent standplaatsgebondenheid?",
           "opties": [
             "de maker van een bron kijkt vanuit zijn eigen positie, tijd en belangen",
-            "de bron is altijd bewaard gebleven op de plaats waar ze gemaakt werd",
+            "de bron is altijd bewaard gebleven op de plaats waar ze ooit gemaakt werd",
             "de bron mag alleen op de plaats van herkomst bestudeerd worden",
             "de maker van een bron heeft de gebeurtenis zelf meegemaakt"
           ],
@@ -5303,7 +5303,7 @@
           "vraag": "Wat bedoelt men met de mate van bewerking van een bron?",
           "opties": [
             "hoeveel er aan de bron veranderd is voor ze bij jou terechtkwam",
-            "hoe oud de bron is op het ogenblik dat je ze bestudeert",
+            "hoe oud de bron is op het ogenblik dat je ze in het archief bestudeert",
             "hoe lang een historicus aan het onderzoek gewerkt heeft",
             "hoeveel bronnen er over hetzelfde onderwerp bewaard zijn"
           ],
@@ -5431,7 +5431,7 @@
           "opties": [
             "of de bron het standpunt van één mens weergeeft of van een hele groep",
             "of de bron betrouwbaar genoeg is om te gebruiken",
-            "of de bron bewerkt of ingekort werd voordat ze gepubliceerd raakte",
+            "of de bron bewerkt of ingekort werd voordat ze gepubliceerd raakte in een krant",
             "of de bron rechtstreeks over het onderwerp gaat"
           ],
           "antwoord": 0,
@@ -5509,7 +5509,7 @@
           "vraag": "Twee bronnen over dezelfde staking spreken elkaar tegen. Wat doe je?",
           "opties": [
             "je onderzoekt de standplaats en de bedoeling van elke maker",
-            "je kiest meteen de bron die het best bij je mening past",
+            "je kiest meteen de bron die het best bij je eigen mening en je verwachting past",
             "je besluit dat de staking nooit heeft plaatsgevonden",
             "je laat beide bronnen weg uit je onderzoek"
           ],
@@ -5601,7 +5601,7 @@
           "vraag": "Wat is historische beeldvorming?",
           "opties": [
             "het beeld van het verleden dat iemand opbouwt uit bronnen en interpretatie",
-            "het verleden zoals het zich precies en volledig heeft afgespeeld",
+            "het verleden zoals het zich precies en volledig heeft afgespeeld, zonder enige keuze",
             "de verzameling foto's en schilderijen die uit een periode bewaard zijn",
             "de lijst van jaartallen die een leerling uit het hoofd moet kennen"
           ],
@@ -5646,7 +5646,7 @@
           "type": "meerkeuze",
           "vraag": "Wat is het verschil tussen een bedoeld en een onbedoeld gevolg?",
           "opties": [
-            "een bedoeld gevolg is wat de betrokkene wilde bereiken, een onbedoeld gevolg niet",
+            "bedoeld is wat de betrokkene wilde bereiken, onbedoeld niet",
             "een bedoeld gevolg gebeurt meteen, een onbedoeld gevolg pas veel later",
             "een bedoeld gevolg is positief, een onbedoeld gevolg is altijd negatief",
             "een bedoeld gevolg staat in de bronnen, een onbedoeld gevolg nooit"
@@ -5682,7 +5682,7 @@
           "type": "meerkeuze",
           "vraag": "Wat betekent de redeneerwijze actualiseren?",
           "opties": [
-            "een verband leggen tussen een gebeurtenis uit het verleden en de wereld van vandaag",
+            "een verband leggen tussen het verleden en de wereld van vandaag",
             "een bron uit het verleden in moderne spelling en taal herschrijven",
             "het verleden beoordelen alsof het zich vandaag had afgespeeld",
             "de meest recente gebeurtenissen als eerste in een tijdlijn zetten"
@@ -5695,7 +5695,7 @@
           "vraag": "Wat is historisch contextualiseren?",
           "opties": [
             "een gebeurtenis begrijpen vanuit de tijd en de omstandigheden waarin ze plaatsvond",
-            "een gebeurtenis beoordelen met de waarden en normen die wij vandaag hanteren",
+            "een gebeurtenis beoordelen met de waarden en normen die wij vandaag in onze samenleving hanteren",
             "een gebeurtenis in een rij met alle andere gebeurtenissen van die eeuw zetten",
             "een gebeurtenis uitleggen aan de hand van één enkele betrouwbare bron"
           ],
@@ -5749,7 +5749,7 @@
           "vraag": "Hoe beïnvloedt de standplaatsgebondenheid van een historicus zijn beeld van het verleden?",
           "opties": [
             "zijn tijd, zijn afkomst en zijn overtuiging sturen welke vragen hij stelt",
-            "zijn standplaats bepaalt alleen in welke taal hij zijn boek schrijft",
+            "zijn standplaats bepaalt alleen in welke taal en voor welk publiek hij zijn boek schrijft",
             "zijn standplaats heeft helemaal geen invloed op zijn onderzoek",
             "zijn standplaats maakt zijn onderzoek automatisch onbetrouwbaar"
           ],
@@ -5806,7 +5806,7 @@
           "vraag": "Waarom is het nuttig om meerdere perspectieven te hanteren?",
           "opties": [
             "omdat elke betrokken groep de gebeurtenis anders beleefde en anders vertelt",
-            "omdat de leerkracht in de opdracht nu eenmaal meerdere bronnen vraagt",
+            "omdat de leerkracht in de opdracht nu eenmaal meerdere bronnen en meerdere verhalen vraagt",
             "omdat je dan zeker weet welke van de versies de juiste versie is",
             "omdat een verhaal met meer stemmen eenvoudiger te onthouden valt"
           ],
@@ -5888,7 +5888,7 @@
           "vraag": "Welk verschil zie je tussen het imperialisme van de vroegmoderne tijd en dat van de negentiende eeuw?",
           "opties": [
             "in de negentiende eeuw werd het binnenland bezet en bestuurd, eerder vooral de kust",
-            "in de vroegmoderne tijd ging het alleen om Europa en niet om andere werelddelen",
+            "in de vroegmoderne tijd ging het alleen om Europa en niet om andere werelddelen of de zeeën",
             "in de negentiende eeuw waren er geen economische motieven meer in het spel",
             "in de vroegmoderne tijd waren er helemaal geen koloniën buiten Europa"
           ],
@@ -5958,7 +5958,7 @@
           "vraag": "Waarom veranderde de herinnering aan de Holocaust in de loop van de decennia?",
           "opties": [
             "overlevenden begonnen te spreken, er kwam onderzoek, en de samenleving stelde andere vragen",
-            "er werden na de jaren zestig helemaal geen nieuwe bronnen over gevonden",
+            "er werden na de jaren zestig helemaal geen nieuwe bronnen over gevonden, in geen enkel archief",
             "de Europese overheden legden samen één officiële versie van de feiten op aan iedereen",
             "de generatie die het meemaakte wilde dat er niets meer over gezegd werd"
           ],
@@ -5982,7 +5982,7 @@
           "vraag": "Waarom spreekt men van een rechtsstaat en niet enkel van een democratie?",
           "opties": [
             "omdat ook een verkozen meerderheid zich aan de wet en de grondrechten moet houden",
-            "omdat een democratie zonder rechtbanken helemaal niet kan bestaan",
+            "omdat een democratie zonder rechtbanken helemaal niet kan bestaan en dus geen democratie is",
             "omdat het woord democratie enkel over het stemrecht van de burgers zelf gaat",
             "omdat de rechters in zo'n staat door de kiezers verkozen worden"
           ],
@@ -6065,7 +6065,7 @@
           "vraag": "Welke twee partijen vochten vanaf 1927 een burgeroorlog uit in China?",
           "opties": [
             "de nationalisten van de Guomindang en de communisten",
-            "de keizerlijke familie en de Japanse bezetter",
+            "de keizerlijke familie en de Japanse bezetter in Mantsjoerije",
             "de liberalen en de katholieken van het zuiden",
             "de Britse handelaars en de Chinese boeren"
           ],
@@ -6157,7 +6157,7 @@
           "type": "meerkeuze",
           "vraag": "Wat bedoelt men met persoonsverheerlijking rond Mao?",
           "opties": [
-            "Mao werd voorgesteld als bijna heilig: zijn portret overal, zijn woorden als wet",
+            "Mao werd voorgesteld als bijna heilig: overal zijn portret, zijn woorden als wet",
             "Mao liet zich nooit fotograferen en leefde volledig in het geheim",
             "elke burger kon zelf een leider kiezen en die openlijk vereren",
             "Mao deelde de macht eerlijk met de andere leden van de partij"
@@ -6203,7 +6203,7 @@
           "type": "meerkeuze",
           "vraag": "Wat was een volkscommune?",
           "opties": [
-            "een reusachtige gemeenschap van boeren met gemeenschappelijke grond en keukens",
+            "een reusachtige gemeenschap van boeren met gedeelde grond en keukens",
             "een kleine privéboerderij die een gezin zelf mocht uitbaten",
             "een vereniging van buitenlandse handelaars in een Chinese havenstad",
             "een school waar kinderen het Rode Boekje van buiten leerden"
@@ -6238,7 +6238,7 @@
           "vraag": "Wie waren de Rode Gardisten?",
           "opties": [
             "jongeren die leraren, intellectuelen en partijleden aanvielen",
-            "soldaten die de grens met Taiwan bewaakten",
+            "soldaten die de grens met Taiwan bewaakten tegen een inval vanuit zee",
             "boeren die zich verzetten tegen de volkscommunes",
             "buitenlandse vrijwilligers die Mao kwamen helpen"
           ],
@@ -6332,7 +6332,7 @@
           "vraag": "Wat eisten de studenten en arbeiders op het Tienanmenplein in 1989?",
           "opties": [
             "persvrijheid, inspraak en een einde aan corruptie",
-            "de terugkeer van Mao en de volkscommunes",
+            "de terugkeer van Mao en de volkscommunes op het platteland",
             "de oorlog tegen Taiwan en de Verenigde Staten",
             "de afschaffing van alle buitenlandse handel"
           ],
@@ -6375,7 +6375,7 @@
           "vraag": "Wat is de Nieuwe Zijderoute?",
           "opties": [
             "een plan voor wegen, havens en spoorlijnen in tientallen landen",
-            "een oude karavaanweg die vandaag als museum bewaard wordt",
+            "een oude karavaanweg die vandaag als openluchtmuseum bewaard wordt voor toeristen",
             "een nieuwe wet die de zijdeproductie in China beperkt",
             "een toeristische route langs de Chinese Muur"
           ],
@@ -6427,7 +6427,7 @@
           "vraag": "Waarom kiezen sommige Afrikaanse regeringen voor Chinese leningen?",
           "opties": [
             "China stelt geen voorwaarden over mensenrechten of bestuur",
-            "Chinese leningen hoeven nooit terugbetaald te worden",
+            "Chinese leningen hoeven nooit terugbetaald te worden, ook niet na vele jaren",
             "China eist eerst vrije verkiezingen in het land",
             "westerse landen lenen nooit geld aan Afrika"
           ],
@@ -6526,7 +6526,7 @@
           "vraag": "Wat beloofde Groot-Brittannië in de Balfourverklaring van 1917?",
           "opties": [
             "steun voor een nationaal tehuis voor het Joodse volk in Palestina",
-            "een onafhankelijke Arabische staat in heel het Midden-Oosten",
+            "een onafhankelijke Arabische staat in heel het Midden-Oosten onder één koning",
             "de terugkeer van Palestina naar het Ottomaanse Rijk",
             "een verdeling van Palestina tussen Frankrijk en Egypte"
           ],
@@ -6590,7 +6590,7 @@
           "vraag": "Wat noemen Palestijnen de Nakba?",
           "opties": [
             "de vlucht en verdrijving van Palestijnen bij de stichting van Israël",
-            "de bouw van de afscheidingsbarrière op de Westelijke Jordaanoever",
+            "de bouw van de afscheidingsbarrière op de Westelijke Jordaanoever na de tweede intifada",
             "de ondertekening van de Oslo-akkoorden in het Witte Huis",
             "de oprichting van de PLO in het jaar 1964"
           ],
@@ -6617,7 +6617,7 @@
           "type": "meerkeuze",
           "vraag": "Wat vraagt VN-resolutie 242 na de oorlog van 1967?",
           "opties": [
-            "land voor vrede: terugtrekking uit bezet gebied in ruil voor erkenning",
+            "land voor vrede: terugtrekking in ruil voor erkenning",
             "de opheffing van de staat Israël en één Arabische staat",
             "een verbod op elke vorm van handel met de buurlanden",
             "de verhuizing van alle Palestijnen naar Jordanië"
@@ -6629,8 +6629,8 @@
           "type": "meerkeuze",
           "vraag": "Welk gevolg had de Jom Kipoeroorlog van 1973 in Europa?",
           "opties": [
-            "een oliecrisis, omdat Arabische olielanden minder olie uitvoerden",
-            "een golf van vluchtelingen naar België en Nederland",
+            "een oliecrisis, want Arabische landen voerden minder olie uit",
+            "een golf van vluchtelingen naar België en Nederland vanuit het Midden-Oosten",
             "de oprichting van de NAVO als antwoord op de oorlog",
             "het einde van de Europese Gemeenschap"
           ],
@@ -6641,9 +6641,9 @@
           "type": "meerkeuze",
           "vraag": "Wat is een intifada?",
           "opties": [
-            "een Palestijnse volksopstand tegen de Israëlische bezetting",
+            "een Palestijnse opstand tegen de bezetting",
             "een vredesakkoord tussen Israël en een buurland",
-            "een Israëlische nederzetting in bezet gebied",
+            "een Israëlische nederzetting in bezet gebied op de Westelijke Jordaanoever",
             "een resolutie van de Veiligheidsraad"
           ],
           "antwoord": 0,
@@ -6866,7 +6866,7 @@
             "meerdere perspectieven hanteren",
             "chronologisch ordenen",
             "continuïteit benoemen",
-            "synchroniciteit benoemen"
+            "Synchroniciteit benoemen tussen twee gebeurtenissen"
           ],
           "antwoord": 0,
           "uitleg": "Elke kant kijkt vanuit de eigen ervaring. Pas samen geven de bronnen een vollediger beeld."
@@ -6932,10 +6932,10 @@
           "type": "meerkeuze",
           "vraag": "Welk argument gebruikten voorstanders van de slavernij rond 1800?",
           "opties": [
-            "zonder slavenarbeid gaat de suikerhandel en onze welvaart ten onder",
+            "zonder slavenarbeid gaat de suikerhandel ten onder",
             "niemand kan eigendom zijn van een ander mens",
             "alle mensen zijn door God gelijk geschapen",
-            "elke mens heeft recht op vrijheid en een eigen gezin"
+            "elke mens heeft recht op vrijheid en een eigen gezin, wat hij ook doet"
           ],
           "antwoord": 0,
           "uitleg": "Economische belangen en eigendomsrecht stonden tegenover morele en religieuze argumenten.",
@@ -6989,7 +6989,7 @@
           "opties": [
             "de Verenigde Staten",
             "Nederland",
-            "Groot-Brittannië",
+            "Groot-Brittannië en zijn koloniën",
             "Frankrijk"
           ],
           "antwoord": 0,
@@ -7047,7 +7047,7 @@
           "type": "meerkeuze",
           "vraag": "Wat wilde de eugenetica?",
           "opties": [
-            "het erfelijk materiaal van een volk verbeteren door te bepalen wie kinderen mag krijgen",
+            "het erfelijk materiaal van een volk verbeteren door te bepalen wie kinderen krijgt",
             "alle ziektes genezen met nieuwe geneesmiddelen en vaccins",
             "de geschiedenis van de oudste volkeren van Europa onderzoeken",
             "ouders gratis kinderopvang en onderwijs geven"
@@ -7098,7 +7098,7 @@
           "vraag": "Hoe stelde de eugenetica zich voor op het logo van het congres van 1921?",
           "opties": [
             "als een wetenschap die steunt op vele andere wetenschappen",
-            "als een religieuze beweging met een eigen geloofsleer",
+            "als een religieuze beweging met een eigen geloofsleer en eigen priesters",
             "als een oude volkswijsheid van boeren",
             "als een kunststroming die de natuur afbeeldt"
           ],
@@ -7167,7 +7167,7 @@
           "vraag": "Wat toont het realisme?",
           "opties": [
             "het gewone leven zoals het is, zonder iets mooier te maken",
-            "dromen en het onderbewuste in onmogelijke combinaties",
+            "dromen en het onderbewuste in onmogelijke combinaties van dingen",
             "de indruk van licht op één bepaald moment van de dag",
             "helden en heiligen uit de oude verhalen en legendes"
           ],
@@ -7209,7 +7209,7 @@
           "vraag": "Wat drukt het expressionisme uit?",
           "opties": [
             "het innerlijke gevoel van de kunstenaar",
-            "de indruk van licht op één moment",
+            "de indruk van licht op één bepaald moment van de dag",
             "de werkelijkheid zo precies mogelijk",
             "beelden uit reclame en strips"
           ],
@@ -7265,7 +7265,7 @@
           "type": "meerkeuze",
           "vraag": "Hoe toont het kubisme een onderwerp?",
           "opties": [
-            "van meerdere kanten tegelijk, opgebroken in geometrische vlakken",
+            "van meerdere kanten tegelijk, in geometrische vlakken",
             "zoals het oog het op één moment in het licht ziet",
             "als een droom met onmogelijke combinaties van dingen",
             "zonder enige herkenbare vorm, enkel met kleur en lijn"
@@ -7351,8 +7351,8 @@
           "type": "meerkeuze",
           "vraag": "Wat doe je in stap 1 van het stappenplan?",
           "opties": [
-            "informatie verzamelen: tijd, ruimte, context, maker, titel en soort",
-            "beschrijven welke kleuren en vormen je ziet",
+            "informatie verzamelen: tijd, ruimte, context, maker, titel, soort",
+            "beschrijven welke kleuren, vormen en lijnen je op het werk ziet",
             "bepalen wat de bedoeling van de maker was",
             "je hele analyse in een eigen tekst verwoorden"
           ],
@@ -7382,7 +7382,7 @@
             "het onderwerp, het doelpubliek en de bedoeling",
             "de naam van de maker en het jaartal",
             "de materialen en de kleuren",
-            "de prijs van het werk op de kunstmarkt"
+            "de prijs van het werk op de kunstmarkt van vandaag"
           ],
           "antwoord": 0,
           "uitleg": "Wat, voor wie en waarom. In 3b leg je de samenhang met wat je ziet of hoort."
@@ -7494,7 +7494,7 @@
           "vraag": "Wat is een allegorie?",
           "opties": [
             "een idee voorgesteld als een persoon of figuur",
-            "een schilderij van een bestaand landschap",
+            "een schilderij van een bestaand landschap, zo getrouw mogelijk",
             "een gedicht met een vast rijmschema",
             "een portret van de opdrachtgever"
           ],
@@ -7506,7 +7506,7 @@
           "vraag": "Wat bedoelt men met de schikking van de beeldelementen?",
           "opties": [
             "de manier waarop de figuren en vormen geordend zijn",
-            "de prijs en de grootte van het kunstwerk",
+            "de prijs en de grootte van het kunstwerk in centimeter",
             "de volgorde waarin de schilder de kleuren kocht",
             "de plaats waar het werk in het museum hangt"
           ],
@@ -7635,7 +7635,7 @@
           "vraag": "Wat deden de vrouwen op De arenleesters?",
           "opties": [
             "ze raapten na de oogst achtergebleven aren op",
-            "ze maaiden het graan met een zeis",
+            "ze maaiden het graan met een zeis voor de grootgrondbezitter",
             "ze verkochten brood op de markt",
             "ze dansten op het oogstfeest"
           ],
@@ -7647,7 +7647,7 @@
           "vraag": "Wat maakt de schikking van De arenleesters duidelijk?",
           "opties": [
             "het verschil tussen de armen en de overvloed van anderen",
-            "dat de vrouwen eigenaar zijn van de rijke oogst",
+            "dat de vrouwen eigenaar zijn van de rijke oogst die achter hen ligt",
             "dat de oogst een feest is voor het hele dorp",
             "dat de man te paard de vrouwen komt helpen"
           ],
@@ -7665,7 +7665,7 @@
           "vraag": "Waarom vonden sommige kijkers De arenleesters in 1857 verontrustend?",
           "opties": [
             "ze vreesden een nieuwe opstand zoals in 1848",
-            "een wet verbood schilderijen over boeren",
+            "een wet verbood schilderijen over boeren in de officiële tentoonstelling",
             "Frankrijk was toen in oorlog met Engeland",
             "de graanhandel was verboden in Frankrijk"
           ],

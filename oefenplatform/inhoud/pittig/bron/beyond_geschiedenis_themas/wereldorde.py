@@ -31,7 +31,7 @@ VRAGEN = [
     mk(
         "Veertien landen van de Veiligheidsraad stemmen voor een vredesmissie, één vast lid stemt tegen. Wat gebeurt er?",
         [
-            "De beslissing gaat niet door, want één vast lid kan met zijn veto alles tegenhouden",
+            "De beslissing gaat niet door, want één vast lid kan een veto stellen",
             "De beslissing gaat door, want een ruime meerderheid van de landen is voor",
             "De Algemene Vergadering beslist dan in de plaats van de Veiligheidsraad",
             "Het Internationaal Gerechtshof moet de knoop doorhakken tussen beide",
@@ -198,7 +198,7 @@ VRAGEN = [
     mk(
         "Een krant schrijft: \"De Raad van Europa besliste gisteren over het Europese landbouwbeleid.\" Wat is er mis?",
         [
-            "De Raad van Europa hoort niet bij de EU; de krant verwart hem met een EU-instelling",
+            "De Raad van Europa hoort niet bij de EU; de krant verwart hem",
             "Er is niets mis: de Raad van Europa is het belangrijkste orgaan van de EU",
             "De Raad van Europa bestaat sinds het Verdrag van Lissabon niet meer",
             "Landbouw is een bevoegdheid van de Verenigde Naties en niet van Europa",
@@ -250,7 +250,7 @@ VRAGEN = [
                 "Waarom verschillen de twee bronnen zo sterk?",
                 [
                     "Elke maker kijkt vanuit het eigen kamp en de eigen belangen",
-                    "Een van de twee bronnen is gewoon vervalst",
+                    "Een van de twee bronnen is gewoon vervalst door de geheime dienst",
                     "Ze gaan over twee totaal verschillende gebeurtenissen",
                     "De Sovjetkrant had geen toegang tot het nieuws",
                 ],

@@ -171,7 +171,7 @@ VRAGEN = [
                 "Waarom is een Chinees schoolboek geen bruikbare bron om te weten wat er op 4 juni gebeurde?",
                 [
                     "De staat controleert wat erin staat en zwijgt de gebeurtenis dood",
-                    "Schoolboeken bevatten nooit informatie over geschiedenis",
+                    "Schoolboeken bevatten nooit informatie over geschiedenis, enkel over cultuur",
                     "Het is te lang na de feiten geschreven",
                     "Chinese schoolboeken zijn enkel in het Engels te krijgen",
                 ],

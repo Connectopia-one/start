@@ -122,7 +122,7 @@ VRAGEN = [
         "Wat bedoelt men met een intifada?",
         [
             "Een Palestijnse volksopstand tegen de Israëlische bezetting",
-            "Een vredesakkoord tussen Israël en een Arabisch buurland",
+            "Een vredesakkoord tussen Israël en een Arabisch buurland zoals Egypte",
             "Een Israëlische nederzetting in bezet gebied",
             "Een VN-resolutie die een wapenstilstand oplegt",
         ],

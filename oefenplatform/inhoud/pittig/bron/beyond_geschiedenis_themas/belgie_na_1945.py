@@ -12,7 +12,7 @@ VRAGEN = [
         "Wat legde het sociaal pact van 1944 vast, naast de grondslagen van een verplichte sociale zekerheid?",
         [
             "Het overleg tussen werkgevers en vakbonden",
-            "Het algemeen stemrecht voor vrouwen",
+            "Het algemeen stemrecht voor vrouwen bij alle verkiezingen",
             "De splitsing van de nationale partijen",
             "De financiering van het vrije onderwijs",
         ],

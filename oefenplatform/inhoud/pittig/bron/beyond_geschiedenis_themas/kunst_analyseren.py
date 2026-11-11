@@ -96,7 +96,7 @@ VRAGEN = [
         "Eugène Delacroix schilderde dit in 1830, in Parijs. Welke maatschappelijke context hoort er bij stap 1?",
         [
             "De Julirevolutie, waarin Parijzenaars de koning Karel X verdreven",
-            "De Franse Revolutie van 1789 en de bestorming van de Bastille",
+            "De Franse Revolutie van 1789 en de bestorming van de Bastille door het volk",
             "De Eerste Wereldoorlog en de slag aan de Marne",
             "De Commune van Parijs na de oorlog met Pruisen",
         ],
@@ -143,7 +143,7 @@ VRAGEN = [
         "De Franse staat kocht het schilderij in 1831, maar hing het al snel weg uit het zicht. Wat is de meest waarschijnlijke reden?",
         [
             "Een opstand verheerlijken was voor de nieuwe koning te gevaarlijk",
-            "Het schilderij was zwaar beschadigd geraakt bij het transport",
+            "Het schilderij was zwaar beschadigd geraakt bij het transport naar het museum",
             "Niemand in Parijs vond het schilderij mooi of interessant",
             "Het was te klein voor de zalen van het museum",
         ],
@@ -190,7 +190,7 @@ VRAGEN = [
     mk(
         "De Arenleesters hing in 1857 op de Salon, de grote kunsttentoonstelling in Parijs. Wie was daar het doelpubliek?",
         [
-            "Kunstkenners, critici en welgestelde kopers uit de stad",
+            "Kunstkenners, critici en welgestelde kopers",
             "De arme boerenvrouwen die op het doek staan",
             "Kinderen die er leerden lezen en schrijven",
             "Soldaten die op weg waren naar het front",
@@ -253,8 +253,8 @@ VRAGEN = [
             mk(
                 "Welke maatschappelijke context hoort bij deze film?",
                 [
-                    "De crisis van de jaren dertig en het werk aan de lopende band",
-                    "De Koude Oorlog en de wapenwedloop tussen de grootmachten",
+                    "de crisis van de jaren dertig en de lopende band",
+                    "De Koude Oorlog en de wapenwedloop tussen de grootmachten van oost en west",
                     "De dekolonisatie van Afrika en Azië na de oorlog",
                     "De val van de Berlijnse Muur",
                 ],
@@ -276,7 +276,7 @@ VRAGEN = [
         "Het lied We Shall Overcome werd in de jaren zestig massaal gezongen op betogingen in de Verenigde Staten. Welke bedoeling had het daar?",
         [
             "Moed geven in de strijd tegen rassenscheiding",
-            "Het publiek amuseren in de nachtclubs van New York",
+            "het publiek amuseren in de nachtclubs van New York",
             "De regering bevestigen in haar beleid",
             "Reclame maken voor een platenmaatschappij",
         ],
@@ -297,8 +297,8 @@ VRAGEN = [
     mk(
         "In het computerspel This War of Mine (2014) speel je geen soldaat, maar burgers die in een belegerde stad proberen te overleven. Welke bedoeling past daarbij het best?",
         [
-            "Laten voelen wat oorlog voor gewone mensen betekent",
-            "Spelers leren hoe je een leger leidt",
+            "laten voelen wat oorlog voor gewone mensen betekent",
+            "spelers leren hoe je een leger leidt en een oorlog wint",
             "Een oorlog verheerlijken als een avontuur",
             "Reclame maken voor het leger",
         ],

@@ -26,7 +26,7 @@ VRAGEN = [
         "Een leerling stelt de onderzoeksvraag: \"Was de Eerste Wereldoorlog verschrikkelijk?\" Wat is het grootste probleem?",
         [
             "Je kan ze met ja of nee afdoen, en ze is niet afgebakend",
-            "Er bestaan geen bronnen over de Eerste Wereldoorlog",
+            "Er bestaan geen bruikbare bronnen meer over de Eerste Wereldoorlog",
             "Een onderzoeksvraag mag nooit over een oorlog gaan",
             "De vraag is te kort om onderzoekbaar te zijn",
         ],
@@ -194,7 +194,7 @@ VRAGEN = [
                 "Je zoekt meer brieven van arbeiders uit 1890, maar vindt er veel minder dan van fabrikanten. Waarom?",
                 [
                     "Arme en ongeletterde groepen lieten minder geschreven bronnen na",
-                    "Arbeiders mochten in 1890 bij wet geen brieven schrijven",
+                    "Arbeiders mochten in 1890 bij wet geen brieven naar hun familie schrijven",
                     "Fabrikanten kochten alle brieven van arbeiders op",
                     "Brieven van arbeiders werden na 1945 allemaal vernietigd",
                 ],
