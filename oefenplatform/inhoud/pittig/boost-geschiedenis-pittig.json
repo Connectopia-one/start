@@ -2342,6 +2342,452 @@
           ]
         }
       ]
+    },
+    {
+      "titel": "Humanisme, Reformatie, renaissance en barok — pittig",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom ontstond het humanisme in steden zoals Florence, Venetië en Rome?",
+          "opties": [
+            "Ze hadden geld, handelscontacten en Romeinse resten om op voort te bouwen",
+            "De paus verplichtte alle geleerden om in die steden te gaan wonen",
+            "Er waren daar geen kloosters, dus kon men vrij nadenken",
+            "Ze lagen het verst van de Arabische wereld en haar invloed"
+          ],
+          "antwoord": 0,
+          "uitleg": "Rijke Italiaanse steden hadden het geld en de contacten, en de oudheid lag er letterlijk voor het oprapen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt elke uitspraak over de humanisten?",
+          "rijen": [
+            "Ze hadden belangstelling voor de mens en zijn mogelijkheden.",
+            "Ze grepen terug naar de Griekse en Romeinse oudheid.",
+            "Ze onderzochten de oorspronkelijke teksten kritisch.",
+            "Ze wilden het geloof afschaffen."
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "De meeste humanisten bleven gelovig. Ze wilden het geloof zuiveren, niet afschaffen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe heet het boek waarin Erasmus de misbruiken in Kerk en samenleving bespotte?",
+          "antwoord": [
+            "Lof der Zotheid",
+            "de Lof der Zotheid",
+            "Lof der zotheid"
+          ],
+          "uitleg": "In Lof der Zotheid pleitte Erasmus ook voor onderwijs en verdraagzaamheid."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke rol speelde de boekdrukkunst voor het humanisme?",
+          "opties": [
+            "Ideeën raakten veel sneller en wijder verspreid",
+            "Boeken mochten voortaan enkel nog in het Latijn",
+            "Monniken konden sneller overschrijven met een pen",
+            "Ze maakte de universiteiten overbodig"
+          ],
+          "antwoord": 0,
+          "uitleg": "Wat een monnik vroeger in maanden overschreef, rolde nu bij honderden van de pers."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat verandert er aan de wetenschappelijke methode?",
+          "opties": [
+            "Men gaat zelf waarnemen en proeven doen",
+            "Men gelooft voortaan enkel nog wat de Kerk zegt",
+            "Men leest de oude gezaghebbende teksten nog vaker en zorgvuldiger",
+            "Men laat wetenschap over aan de vorsten"
+          ],
+          "antwoord": 0,
+          "uitleg": "Men vertrouwt eigen waarneming en proeven meer dan oude gezaghebbende teksten."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Bekijk deze prent uit het boek van Vesalius. Klopt elke uitspraak?",
+          "rijen": [
+            "Vesalius ontleedde zelf lichamen.",
+            "Hij toonde dat de oude Griekse teksten niet in alles gelijk hadden.",
+            "De tekeningen zijn gemaakt naar eigen waarneming.",
+            "Hij nam de tekeningen over uit een middeleeuws handboek."
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Het echte nieuwe is dat je mag vaststellen dat Galenus zich vergiste, op basis van wat je zelf ziet.",
+          "afbeelding_url": "/examenvormen/geschiedenis-boost/vesalius-fabrica.jpg"
+        },
+        {
+          "type": "tabel",
+          "vraag": "Hoe beïnvloedde de Arabische wereld de westerse geneeskunde? Klopt elke uitspraak?",
+          "rijen": [
+            "Arabische handboeken, zoals die van Ibn Sina, werden aan de universiteiten gebruikt.",
+            "Griekse geneeskundige teksten kwamen via Arabische vertalingen terug.",
+            "De microscoop werd uitgevonden in Bagdad.",
+            "Kennis over geneesmiddelen en ziekenzorg kwam mee."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "De microscoop kwam uit de Nederlanden, in de 17de eeuw."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Was dit een oorzaak van de Reformatie of niet?",
+          "kolommen": [
+            "Oorzaak",
+            "Geen oorzaak"
+          ],
+          "items": [
+            [
+              "de aflaathandel",
+              "Oorzaak"
+            ],
+            [
+              "het rijke, wereldse leven van hoge geestelijken",
+              "Oorzaak"
+            ],
+            [
+              "de kritische lezing van de Bijbel door humanisten",
+              "Oorzaak"
+            ],
+            [
+              "een verbod op kerkbezoek",
+              "Geen oorzaak"
+            ]
+          ],
+          "uitleg": "Misbruiken in de Kerk en de kritische Bijbellezing waren oorzaken. Kerkbezoek werd nergens verboden."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de tijdlijn op het jaar waarin Luther zijn stellingen tegen de aflaathandel ophangt.",
+          "afbeelding_url": "/examenvormen/geschiedenis-boost/tijdlijn-1400-1800.svg",
+          "zones": [
+            [
+              29.4,
+              25,
+              2.2,
+              55
+            ]
+          ],
+          "uitleg": "Luther hing zijn stellingen op in 1517, in Wittenberg."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Luther kwam in verzet tegen de aflaten. Wat was zo'n aflaat?",
+          "opties": [
+            "Een kwijtschelding van straf voor zonden, die men ook kon kopen",
+            "Een verbod om de mis bij te wonen, opgelegd door de bisschop",
+            "Een belasting die de vorst hief op elke kerk in zijn gebied",
+            "Een boek waarin de priester de zonden van zijn parochie noteerde"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het geld diende onder meer voor de bouw van de Sint-Pietersbasiliek in Rome."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Luther leerde dat een mens gered wordt door [[*het geloof alleen|goede werken|het kopen van aflaten]] en dat [[*de Bijbel|de paus|het concilie]] de enige bron is. Daarmee kwam de bemiddelende rol van [[*de priesters|de vorsten|de kooplui]] op de helling.",
+          "uitleg": "Sola fide en sola scriptura: geloof alleen en de Bijbel alleen. Dan heb je de Kerk niet meer nodig als tussenpersoon."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat wilde Luther toen hij zijn stellingen ophing?",
+          "opties": [
+            "Een discussie, geen scheuring",
+            "Meteen een nieuwe Kerk stichten met hemzelf als paus",
+            "De Duitse keizer afzetten",
+            "Alle kloosters laten sluiten en de monniken verjagen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Hij wilde een discussie over de aflaathandel. De scheuring kwam later."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Hoort dit bij het calvinisme of bij de katholieke Kerk na het Concilie van Trente?",
+          "kolommen": [
+            "Calvinisme",
+            "Katholieke Kerk"
+          ],
+          "items": [
+            [
+              "predestinatie",
+              "Calvinisme"
+            ],
+            [
+              "een sobere eredienst zonder beelden",
+              "Calvinisme"
+            ],
+            [
+              "een kerk bestuurd door gekozen ouderlingen",
+              "Calvinisme"
+            ],
+            [
+              "seminaries die priesters opleiden",
+              "Katholieke Kerk"
+            ],
+            [
+              "een index van verboden boeken",
+              "Katholieke Kerk"
+            ]
+          ],
+          "uitleg": "Calvinisten geloven dat God vooraf bepaalt wie gered wordt, en kiezen voor soberheid en ouderlingen. De katholieke Kerk vernieuwde met seminaries en bewaakte wat men las."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe ontstond het anglicanisme?",
+          "opties": [
+            "Uit een politieke breuk: de koning wilde scheiden en de paus weigerde",
+            "Uit een lange discussie over de predestinatie onder Engelse geleerden",
+            "Uit een opstand van Engelse boeren tegen hun bisschoppen",
+            "Uit een verdrag tussen de paus en de Engelse koning"
+          ],
+          "antwoord": 0,
+          "uitleg": "Hendrik VIII maakte zichzelf hoofd van de Engelse Kerk toen de paus zijn scheiding weigerde."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom kozen sommige vorsten in Noord-Europa graag voor het protestantisme?",
+          "opties": [
+            "Wie zich van Rome losmaakte, kon de kerkelijke goederen in beslag nemen",
+            "Protestantse vorsten hoefden geen leger meer te onderhouden",
+            "De paus betaalde vorsten die protestant werden",
+            "Protestanten mochten als enigen handel drijven met Azië"
+          ],
+          "antwoord": 0,
+          "uitleg": "Losmaken van Rome bracht ook gronden en goederen op. Het protestantisme sloeg aan in de Duitse vorstendommen, Scandinavië, Engeland en Schotland."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Men zei: 'Erasmus legde het ei, en Luther broedde het uit.' Wat bedoelde men daarmee?",
+          "opties": [
+            "Het humanisme was een voorwaarde voor de Reformatie",
+            "Erasmus en Luther schreven samen één boek",
+            "Luther was een leerling van Erasmus aan de universiteit",
+            "Erasmus was tegen het humanisme, Luther ervoor"
+          ],
+          "antwoord": 0,
+          "uitleg": "Humanisten lazen de Bijbel in de oorspronkelijke taal en zagen dat de vertaling niet overal klopte. Daarop kon Luther verder bouwen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In welk maatschappelijk domein situeer je de Reformatie in de eerste plaats?",
+          "opties": [
+            "Het culturele domein",
+            "Het economische domein",
+            "Het demografische domein",
+            "Het ecologische domein"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het gaat in de eerste plaats over geloof, dus cultureel, al zette de Reformatie vorstendommen tegen elkaar op."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Het Concilie van Trente vergaderde met tussenpozen een kleine twintig jaar. Klik op de tijdlijn op die periode.",
+          "afbeelding_url": "/examenvormen/geschiedenis-boost/tijdlijn-1400-1800.svg",
+          "zones": [
+            [
+              36.6,
+              25,
+              3.9,
+              55
+            ]
+          ],
+          "uitleg": "Het concilie vergaderde van 1545 tot 1563."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt elke uitspraak over de Contrareformatie?",
+          "rijen": [
+            "Ze bestond enkel uit de vervolging van protestanten.",
+            "Nieuwe orden zoals de jezuïeten richtten scholen op.",
+            "De mis werd afgeschaft.",
+            "Wat het concilie besliste, bleef eeuwenlang gelden."
+          ],
+          "antwoord": [
+            false,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Er waren ook hervormingen van binnenuit. De mis werd net bevestigd en plechtiger gemaakt."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "De godsdienstige breuk had politieke gevolgen: godsdienstoorlogen in [[Frankrijk]], de Dertigjarige Oorlog in [[Duitsland]] en de Opstand in de [[Nederlanden]].",
+          "extra": [
+            "Spanje",
+            "Italië"
+          ],
+          "uitleg": "Overal in Europa zette de breuk vorsten en onderdanen tegen elkaar op."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Renaissance betekent letterlijk wedergeboorte. Wat werd er volgens de kunstenaars en geleerden herboren?",
+          "opties": [
+            "De klassieke oudheid van de Grieken en Romeinen",
+            "Het geloof van de eerste christenen",
+            "De macht van het Romeinse keizerrijk",
+            "De middeleeuwse kloosterkunst"
+          ],
+          "antwoord": 0,
+          "uitleg": "Kunstenaars en geleerden namen de Grieken en Romeinen opnieuw als voorbeeld."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Een renaissanceschilder wekt diepte op een plat vlak. Klik in deze tekening op het punt waar alle lijnen naartoe lopen.",
+          "afbeelding_url": "/examenvormen/geschiedenis-boost/perspectief.svg",
+          "zones": [
+            [
+              60.0,
+              35.0,
+              8.0,
+              13.0
+            ]
+          ],
+          "uitleg": "Dat is het verdwijnpunt. Dingen worden kleiner naarmate ze verder staan."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Waarom hoort de David van Michelangelo bij de renaissance? Klopt elke uitspraak?",
+          "rijen": [
+            "Het naakte lichaam is naar de natuur bestudeerd.",
+            "Het beeld heeft rustige, klassieke verhoudingen.",
+            "Het beeld is in brons gegoten.",
+            "David draagt een aureool als teken van heiligheid."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            false
+          ],
+          "uitleg": "Het is marmer, zonder aureool: de mens zelf is het onderwerp."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Hoort deze kunstenaar bij de Italiaanse renaissance of bij de barok?",
+          "kolommen": [
+            "Renaissance",
+            "Barok"
+          ],
+          "items": [
+            [
+              "Leonardo da Vinci",
+              "Renaissance"
+            ],
+            [
+              "Rafaël",
+              "Renaissance"
+            ],
+            [
+              "Rubens",
+              "Barok"
+            ],
+            [
+              "Bernini",
+              "Barok"
+            ]
+          ],
+          "uitleg": "De renaissance bloeit rond 1500, de barok vanaf ongeveer 1600."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het grootste verschil tussen renaissancekunst en middeleeuwse kunst?",
+          "opties": [
+            "De renaissance toont de wereld zoals het oog ze ziet",
+            "De renaissance gebruikt voor het eerst kleur",
+            "De middeleeuwen schilderden enkel op doek",
+            "De renaissance schilderde geen godsdienstige onderwerpen meer"
+          ],
+          "antwoord": 0,
+          "uitleg": "Op een middeleeuws paneel is de belangrijkste figuur het grootst, hoe ver hij ook staat."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe verschilden de Vlaamse primitieven van de Italiaanse schilders?",
+          "opties": [
+            "Ze gingen vooral voor het detail, met olieverf",
+            "Ze schilderden enkel portretten, nooit godsdienstige taferelen",
+            "Ze kenden geen olieverf en werkten met kalk op muren",
+            "Ze gingen vooral voor de klassieke verhoudingen van de oudheid"
+          ],
+          "antwoord": 0,
+          "uitleg": "Twee wegen naar de natuur toe: de Vlamingen het detail, de Italianen de klassieke verhoudingen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Bekijk dit schilderij uit een Antwerpse kerk, van rond 1610. Klopt elke uitspraak?",
+          "rijen": [
+            "Je ziet veel beweging en drama.",
+            "Er zijn sterke contrasten tussen licht en donker.",
+            "Rust en evenwicht overheersen.",
+            "Zo'n werk past bij de kunst van de Contrareformatie."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Beweging, drama en licht-donker zijn typisch voor de barok, de kunst waarmee de katholieke Kerk de kijker wilde raken.",
+          "afbeelding_url": "/examenvormen/geschiedenis-boost/kruisoprichting.jpg"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom lieten vorsten in de 17de eeuw hun paleizen vol barokkunst zetten?",
+          "opties": [
+            "Om hun macht en aanzien te tonen",
+            "Om te tonen hoe sober ze leefden",
+            "Om de protestanten in hun rijk gerust te stellen",
+            "Om geld te besparen op hun paleizen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Paleizen, tuinen en grote portretten moesten indruk maken. Soberheid was het laatste wat Versailles uitstraalde."
+        },
+        {
+          "casus": "Rond 1600 laat een rijke koopman een groot altaarstuk maken voor een kerk in Antwerpen. Hijzelf staat er geknield op, in een hoekje.",
+          "vragen": [
+            {
+              "type": "tabel",
+              "vraag": "Je gebruikt het altaarstuk als historische bron. Welke vragen helpen je verder? Klopt elke uitspraak?",
+              "rijen": [
+                "Wie betaalde het werk, en waarom?",
+                "Voor welke plaats en welk publiek werd het gemaakt?",
+                "Wat staat er bewust wel en niet op?",
+                "Hoeveel kostte de verf?"
+              ],
+              "antwoord": [
+                true,
+                true,
+                true,
+                false
+              ],
+              "uitleg": "Opdrachtgever, plaats, publiek en keuzes vertellen veel. De prijs van de verf brengt je niet ver."
+            },
+            {
+              "type": "open",
+              "vraag": "Waarom noemt men de vroegmoderne tijd een breuk met de middeleeuwen? Noem ook iets wat gewoon doorloopt.",
+              "antwoord": "Mens- en wereldbeeld, geloof, wetenschap en kunst veranderen alle vier tegelijk. Toch lopen de standen, de landbouw en de macht van de vorsten gewoon door.",
+              "uitleg": "Een goed antwoord noemt meerdere dingen die tegelijk veranderen, en minstens één continuïteit."
+            }
+          ]
+        }
+      ]
     }
   ]
 }

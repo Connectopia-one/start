@@ -341,6 +341,36 @@ def driehoekshandel():
     (UIT / "driehoekshandel.svg").write_text("\n".join(d) + "\n", encoding="utf-8")
 
 
+# ---------------------------------------------------------------- perspectief
+# Een plein met tegels en twee rijen bomen die naar één verdwijnpunt lopen.
+# Verdwijnpunt op (640, 250) in een tekening van 1000 x 600: klikvak 60-68 % breed, 35-48 % hoog.
+def perspectief():
+    W, Hh, vx, vy = 1000, 600, 640, 250
+    d = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {Hh}" width="{W}" height="{Hh}" font-family="Arial, sans-serif">',
+         f'<rect width="{W}" height="{vy}" fill="#e3eef7"/>',
+         f'<rect y="{vy}" width="{W}" height="{Hh - vy}" fill="#efe6cf"/>',
+         f'<line x1="0" y1="{vy}" x2="{W}" y2="{vy}" stroke="#8a7a5a" stroke-width="2"/>']
+    for x in range(-1400, 2600, 160):
+        d.append(f'<line x1="{x}" y1="{Hh}" x2="{vx}" y2="{vy}" stroke="#c9b48a" stroke-width="2"/>')
+    # dwarslijnen van de tegels: steeds dichter bij elkaar
+    t = 1.0
+    while t > 0.04:
+        y = vy + (Hh - vy) * t
+        d.append(f'<line x1="0" y1="{y:.1f}" x2="{W}" y2="{y:.1f}" stroke="#c9b48a" stroke-width="2"/>')
+        t *= 0.72
+    # twee rijen bomen
+    for kant in (-1, 1):
+        for i in range(6):
+            t = 0.95 * (0.7 ** i)
+            bx = vx + kant * 560 * t
+            by = vy + (Hh - vy) * t
+            h = 260 * t
+            d.append(f'<rect x="{bx - 5 * t:.1f}" y="{by - h * 0.45:.1f}" width="{10 * t + 1:.1f}" height="{h * 0.45:.1f}" fill="#6b4f2a"/>')
+            d.append(f'<circle cx="{bx:.1f}" cy="{by - h * 0.6:.1f}" r="{h * 0.25:.1f}" fill="#5f8a45"/>')
+    d.append("</svg>")
+    (UIT / "perspectief.svg").write_text("\n".join(d) + "\n", encoding="utf-8")
+
+
 
 if __name__ == "__main__":
     UIT.mkdir(parents=True, exist_ok=True)
@@ -355,6 +385,8 @@ if __name__ == "__main__":
     to_kaart()
     tijdlijn_1400_1800()
     driehoekshandel()
+    perspectief()
+    print("1517", zone_jaar4(1512, 1522), "Trente", zone_jaar4(1545, 1563))
     print("1492", zone_jaar4(1487, 1497), "1498", zone_jaar4(1493, 1503))
     print("1215", zone_jaar3(1205, 1225), "1291", zone_jaar3(1281, 1301))
     print("1000-1500 11de eeuw", zone_jaar3(1000, 1100), "1347", zone_jaar3(1337, 1357))
