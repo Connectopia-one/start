@@ -89,7 +89,7 @@ DEEL1 = [
         vraag="Wat is een persoonlijk referentiekader?",
         opties=[
             "het geheel van wat jouw blik op de wereld bepaalt",
-            "het geheel van afspraken in een gesprek",
+            "het geheel van afspraken die je in een gesprek maakt",
             "de lijst van vragen die je mag stellen",
             "het verslag dat je na een gesprek maakt",
         ],
@@ -101,7 +101,7 @@ DEEL1 = [
         vraag="Hoe beïnvloedt een persoonlijk referentiekader een gesprek?",
         opties=[
             "het bepaalt mee wat je opmerkt en hoe je het begrijpt",
-            "het maakt elk gesprek onmogelijk",
+            "het maakt elk gesprek tussen twee verschillende mensen onmogelijk",
             "het zorgt dat twee mensen hetzelfde horen",
             "het speelt alleen bij een moeilijk gesprek mee",
         ],
@@ -143,7 +143,7 @@ DEEL1 = [
         vraag="Wie hoort bij verbindend communiceren?",
         opties=[
             "Marshall B. Rosenberg",
-            "Thomas Gordon",
+            "Thomas Gordon, met zijn methode",
             "Carl Rogers",
             "Albert Bandura",
         ],
@@ -261,7 +261,7 @@ DEEL2 = [
         vraag="Wat is het verschil tussen oppervlakkig, inhoudelijk en actief luisteren?",
         opties=[
             "het verschil zit in hoeveel je met het verhaal doet",
-            "het verschil zit in hoe lang het gesprek duurt",
+            "het verschil zit in hoe lang het gesprek precies duurt",
             "het verschil zit in wie het gesprek begint",
             "het verschil zit in waar het gesprek doorgaat",
         ],
@@ -377,7 +377,7 @@ DEEL2 = [
         vraag="Welke boodschap is een ik-boodschap?",
         opties=[
             "als de vaat blijft staan, moet ik alles alleen doen, en dat maakt me moe",
-            "jij laat de vaat altijd staan, dat is typisch voor jou",
+            "jij laat de vaat altijd staan, dat is typisch voor jou en zo ben je nu eenmaal",
             "iedereen hier vindt dat jij te weinig doet in huis",
             "je zou beter eens leren hoe een huishouden werkt",
         ],
@@ -401,7 +401,7 @@ DEEL2 = [
         vraag="Waarvoor staan de vier G's van het 4G-model?",
         opties=[
             "gedrag, gevoel, gevolg en gewenst gedrag",
-            "gedrag, geduld, gevolg en gesprek",
+            "gedrag, geduld, gevolg en een gesprek achteraf",
             "gevoel, geduld, gevolg en grens",
             "gedrag, gevoel, grens en gesprek",
         ],
@@ -419,7 +419,7 @@ DEEL2 = [
         vraag="Wat is een goede manier om feedback te ontvangen?",
         opties=[
             "eerst laten uitspreken en doorvragen wat precies bedoeld wordt",
-            "onmiddellijk uitleggen waarom het niet jouw fout was",
+            "onmiddellijk uitleggen waarom het eigenlijk niet jouw fout was",
             "zwijgen en er daarna niet meer op terugkomen",
             "de feedback doorgeven aan iemand anders",
         ],
@@ -443,7 +443,7 @@ DEEL2 = [
         vraag="Je begeleidt een gesprek met iemand die boos binnenkomt. Welke techniek zet je als eerste in?",
         opties=[
             "actief luisteren, zodat de ander zich gehoord voelt",
-            "een ik-boodschap, zodat je grens duidelijk is",
+            "een ik-boodschap, zodat je eigen grens meteen duidelijk is",
             "feedback met het 4G-model over zijn toon",
             "doorvragen met gesloten vragen naar de feiten",
         ],

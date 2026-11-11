@@ -151,7 +151,7 @@ DEEL1 = [
         vraag="Een leerling in een vluchtwoning kan zich niet op school concentreren omdat hij niet weet waar hij volgende maand woont. Welke behoefte van Maslow is hier niet vervuld?",
         opties=[
             "de behoefte aan veiligheid en zekerheid",
-            "de behoefte aan waardering",
+            "de behoefte aan waardering door anderen",
             "de behoefte aan zelfontplooiing",
             "de lichamelijke behoeften",
         ],
@@ -238,7 +238,7 @@ DEEL2 = [
         vraag="Waar kijkt de systemische benadering van ontwikkeling naar?",
         opties=[
             "naar alles wat rond iemand staat en op hem inwerkt",
-            "naar de genen en de rijping van het lichaam",
+            "naar de genen en de rijping van het lichaam doorheen de jaren",
             "naar de krachten binnen in iemand",
             "naar het gedrag dat beloond of bestraft wordt",
         ],
@@ -406,7 +406,7 @@ DEEL2 = [
         vraag="Wat is het interiorisatieproces bij Vygotsky?",
         opties=[
             "wat eerst samen met anderen gebeurt, wordt eigen denken",
-            "wat eerst eigen denken is, wordt later samen gedaan",
+            "wat eerst eigen denken is, wordt later samen met anderen gedaan",
             "wat je leert, verdwijnt na een tijd weer",
             "wat je ziet, doe je onmiddellijk na",
         ],

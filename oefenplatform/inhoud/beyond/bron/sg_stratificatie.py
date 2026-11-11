@@ -70,7 +70,7 @@ DEEL1 = [
         vraag="Wat kenmerkt een kastenmaatschappij?",
         opties=[
             "je laag ligt bij de geboorte vast en verandert niet",
-            "je laag hangt af van je opleiding en van je werk",
+            "je laag hangt af van je opleiding en van je werk als volwassene",
             "je laag hangt af van je bezit en je inkomen",
             "je laag hangt af van je leeftijd",
         ],
@@ -392,7 +392,7 @@ DEEL2 = [
         vraag="Een onderzoeker vergelijkt twee scholen en vindt dat het verschil in resultaat vooral samenhangt met de thuissituatie van de leerlingen. Welk begrip gebruikt hij?",
         opties=[
             "de sociaal-economische status",
-            "de EGP-klassenindeling",
+            "de EGP-klassenindeling van de ouders",
             "de referentiegroep",
             "het stratificatiesysteem",
         ],

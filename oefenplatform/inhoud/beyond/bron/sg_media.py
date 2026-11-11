@@ -57,7 +57,7 @@ DEEL1 = [
         opties=[
             "je op de hoogte brengen van wat er gebeurt",
             "je iets bijleren over een onderwerp",
-            "je overtuigen van een standpunt",
+            "je overtuigen van een bepaald standpunt over de politiek",
             "je een product doen kopen",
         ],
         antwoord=0,
@@ -67,8 +67,8 @@ DEEL1 = [
         type="meerkeuze",
         vraag="Wat is de educatieve functie van media voor het individu?",
         opties=[
-            "je iets bijleren of een vaardigheid aanreiken",
-            "je op de hoogte houden van het nieuws",
+            "je iets bijleren of een vaardigheid geven",
+            "je op de hoogte houden van het nieuws in de wereld",
             "je een paar uur bezighouden",
             "je een product doen kopen",
         ],
@@ -80,7 +80,7 @@ DEEL1 = [
         vraag="Wat is de persuasieve functie van media voor het individu?",
         opties=[
             "je van een standpunt proberen te overtuigen",
-            "je op de hoogte brengen van het nieuws",
+            "je op de hoogte brengen van het nieuws van de dag",
             "je een paar uur bezighouden",
             "je iets bijleren over een onderwerp",
         ],
@@ -212,7 +212,7 @@ DEEL1 = [
         vraag="Wat is een risico van infotainment?",
         opties=[
             "de informatie wordt ondergeschikt aan het vermaak",
-            "de informatie wordt te moeilijk voor de kijker",
+            "de informatie wordt te moeilijk voor de gewone kijker",
             "het vermaak wordt ondergeschikt aan de reclame",
             "het programma wordt te kort om iets te zeggen",
         ],
@@ -265,7 +265,7 @@ DEEL2 = [
         vraag="Wat is de waakhondfunctie van de media?",
         opties=[
             "de macht in het oog houden en misbruik aan het licht brengen",
-            "de burger op de hoogte houden van het nieuws van de dag",
+            "de burger elke dag op de hoogte houden van het nieuws van de dag",
             "de mening van groepen in de samenleving laten horen",
             "de gewoonten van een samenleving doorgeven",
         ],
@@ -277,7 +277,7 @@ DEEL2 = [
         vraag="Wat is de spreekbuisfunctie van de media?",
         opties=[
             "groepen in de samenleving aan het woord laten",
-            "de macht in het oog houden en controleren",
+            "de macht in het oog houden en ze streng controleren",
             "zelf op onderzoek gaan naar feiten",
             "een standpunt in een commentaar geven",
         ],
@@ -289,7 +289,7 @@ DEEL2 = [
         vraag="Wat is de onderzoeksfunctie van de media?",
         opties=[
             "zelf feiten opzoeken die nog niet bekend zijn",
-            "doorgeven wat anderen al hebben meegedeeld",
+            "doorgeven wat anderen al eerder hebben meegedeeld",
             "een eigen mening over het nieuws geven",
             "de kijker een paar uur bezighouden",
         ],
@@ -313,7 +313,7 @@ DEEL2 = [
         vraag="Wat is de cultuuroverdrachtfunctie?",
         opties=[
             "gewoonten, taal en waarden van een samenleving doorgeven",
-            "de macht van een land in het oog houden",
+            "de macht van een land en zijn regering in het oog houden",
             "de burger bezighouden in zijn eigen vrije tijd",
             "mensen onderling met elkaar in contact brengen",
         ],
@@ -325,7 +325,7 @@ DEEL2 = [
         vraag="Wat is de sociale functie van massamedia?",
         opties=[
             "mensen verbinden en gespreksstof geven",
-            "mensen een paar uur bezighouden",
+            "mensen een paar uur ontspannen en bezighouden",
             "mensen een standpunt doen innemen",
             "mensen iets doen kopen",
         ],

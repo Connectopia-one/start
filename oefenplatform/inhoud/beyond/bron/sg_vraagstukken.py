@@ -151,7 +151,7 @@ DEEL1 = [
         vraag="Wat betekent diversiteit als maatschappelijk vraagstuk?",
         opties=[
             "samenleven met verschillen in taal, geloof, afkomst en meer",
-            "samenleven met mensen uit precies dezelfde groep",
+            "samenleven met mensen die allemaal uit precies dezelfde groep komen",
             "het aantal mensen dat naar een land migreert",
             "het aantal talen dat op school wordt gegeven",
         ],
@@ -163,7 +163,7 @@ DEEL1 = [
         vraag="Wat betekent samenlevingsvormen als maatschappelijk vraagstuk?",
         opties=[
             "de manieren waarop mensen samen een huishouden vormen",
-            "de manieren waarop landen met elkaar samenwerken",
+            "de manieren waarop landen met elkaar samenwerken in Europa",
             "de manieren waarop een school wordt bestuurd",
             "de manieren waarop media mensen verbinden",
         ],
@@ -176,7 +176,7 @@ DEEL1 = [
         opties=[
             "omdat de invloed van media zelf een vraagstuk geworden is",
             "omdat media over alle andere vraagstukken berichten",
-            "omdat media geen enkele invloed meer hebben",
+            "omdat media vandaag geen enkele invloed meer hebben op mensen",
             "omdat media enkel over politiek berichten",
         ],
         antwoord=0,
@@ -217,7 +217,7 @@ DEEL1 = [
         vraag="Waarom koppel je standpunten aan invalshoeken?",
         opties=[
             "omdat je dan ziet waarom mensen van mening verschillen",
-            "omdat je dan weet welk standpunt het juiste is",
+            "omdat je dan weet welk standpunt het enige juiste is in de discussie",
             "omdat elk standpunt maar één invalshoek kent",
             "omdat je dan geen bronnen meer nodig hebt",
         ],
@@ -255,8 +255,8 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Wat hoort bij het beschrijven van een maatschappelijk probleem?",
         opties=[
-            "voor wie, waarom, waar en hoe het ontstaan is",
-            "welke oplossing er het best bij past",
+            "voor wie, waarom, waar en hoe het ontstond",
+            "welke oplossing er het best bij past en wat die kost",
             "welke oorzaken je kan aanwijzen",
             "welke ideeën je zelf kan verzinnen",
         ],
@@ -268,7 +268,7 @@ DEEL2 = [
         vraag="Wat hoort bij het verklaren van een maatschappelijk probleem?",
         opties=[
             "meerdere oorzaken aanbrengen en ze indelen per invalshoek",
-            "één duidelijke oorzaak aanwijzen en de rest weglaten",
+            "één duidelijke oorzaak aanwijzen en alle andere oorzaken weglaten",
             "de context en de geschiedenis in kaart brengen",
             "de uitvoerbaarheid van een oplossing beoordelen",
         ],
@@ -293,7 +293,7 @@ DEEL2 = [
         opties=[
             "ook de ongewenste gevolgen van een aanpak benoemen",
             "enkel de voordelen van een aanpak opsommen",
-            "de oorzaken van het probleem opsommen",
+            "de oorzaken van het probleem nog eens op een rij zetten",
             "de ontstaansgeschiedenis beschrijven",
         ],
         antwoord=0,
@@ -412,7 +412,7 @@ DEEL2 = [
         vraag="Een leerling wil een idee beoordelen op duurzaamheid. Welke vraag past daarbij?",
         opties=[
             "houdt deze oplossing ook over tien jaar nog stand?",
-            "hoeveel kost deze oplossing vandaag?",
+            "hoeveel kost deze oplossing vandaag aan de overheid?",
             "hoeveel mensen vinden deze oplossing goed?",
             "hoe snel kan deze oplossing ingevoerd worden?",
         ],
@@ -436,7 +436,7 @@ DEEL2 = [
         vraag="Waarom staat redeneren met bewijs bij élke stap van het schema en niet alleen bij de laatste?",
         opties=[
             "omdat ook een beschrijving en een oorzaak onderbouwd moeten zijn",
-            "omdat alleen oplossingen bronnen nodig hebben",
+            "omdat alleen oplossingen bronnen nodig hebben, de rest is je eigen mening",
             "omdat bronnen alleen bij het evalueren tellen",
             "omdat een beschrijving nooit fout kan zijn",
         ],

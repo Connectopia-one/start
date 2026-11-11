@@ -81,7 +81,7 @@ DEEL1 = [
         vraag="Wat is een centrale trek bij Allport?",
         opties=[
             "een trek die je in veel situaties ziet terugkomen",
-            "een trek die het hele leven van iemand kleurt",
+            "een trek die het hele leven van iemand helemaal kleurt",
             "een trek die zelden naar buiten komt",
             "een trek die iemand alleen thuis laat zien",
         ],
@@ -159,7 +159,7 @@ DEEL1 = [
         vraag="Wat meet de as neuroticisme bij Eysenck?",
         opties=[
             "hoe gevoelig iemand voor stress en zorgen is",
-            "hoe sterk iemand gezelschap zoekt",
+            "hoe sterk iemand gezelschap en drukte opzoekt",
             "hoe open iemand voor nieuwe dingen staat",
             "hoe vriendelijk iemand in contact is",
         ],
@@ -272,7 +272,7 @@ DEEL2 = [
         vraag="Wat meet de factor openheid voor ervaringen in de Big Five?",
         opties=[
             "hoe graag iemand nieuwe dingen en ideeën opzoekt",
-            "hoe graag iemand onder mensen is",
+            "hoe graag iemand onder mensen is en gezelschap opzoekt",
             "hoe eerlijk iemand tegen anderen is",
             "hoe rustig iemand onder zware stress blijft",
         ],
@@ -417,7 +417,7 @@ DEEL2 = [
         vraag="Waarom is cross-cultureel onderzoek belangrijk voor een model als de Big Five?",
         opties=[
             "om na te gaan of de vijf factoren overal terugkomen",
-            "om na te gaan hoeveel mensen er hoog op scoren",
+            "om na te gaan hoeveel mensen er in elk land hoog op scoren",
             "om de vragenlijst korter te maken",
             "om een zesde factor te kunnen verwerpen",
         ],

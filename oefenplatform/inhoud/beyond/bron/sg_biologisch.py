@@ -30,7 +30,7 @@ DEEL1 = [
         vraag="Waar begint de biologische benadering van ontwikkeling?",
         opties=[
             "bij wat in het lichaam en de genen van iemand zit",
-            "bij wat iemand in zijn jeugd heeft meegemaakt",
+            "bij wat iemand in zijn jeugd allemaal heeft meegemaakt",
             "bij de belonigen en straffen die iemand krijgt",
             "bij de cultuur waarin iemand opgroeit",
         ],
@@ -120,7 +120,7 @@ DEEL1 = [
         vraag="Een onderzoeker legt uit dat baby's over de hele wereld bang worden van een plots hard geluid, omdat dat onze voorouders hielp overleven. Welke theorie gebruikt zij?",
         opties=[
             "de evolutionaire psychologie",
-            "de rijpingstheorie",
+            "de rijpingstheorie van Gesell",
             "de epigenetica",
             "de psychoanalyse",
         ],
@@ -174,7 +174,7 @@ DEEL1 = [
         vraag="Wat zeggen de drie theorieën van de biologische benadering samen over de derde basisvraag?",
         opties=[
             "ze leggen de nadruk op wat universeel is bij alle mensen",
-            "ze leggen de nadruk op wat per cultuur verschilt",
+            "ze leggen de nadruk op wat per cultuur en per tijd verschilt",
             "ze vinden de derde basisvraag niet van toepassing",
             "ze geven er alle drie precies hetzelfde antwoord op",
         ],
@@ -279,7 +279,7 @@ DEEL2 = [
         vraag="Wat is bij Freud een erogene lichaamszone?",
         opties=[
             "het lichaamsdeel waar in een fase de aandacht op ligt",
-            "het lichaamsdeel dat in een fase het snelst groeit",
+            "het lichaamsdeel dat in een fase het snelst en het sterkst groeit",
             "de plaats waar een kind het eerst pijn voelt",
             "de spier die in een fase als eerste rijpt",
         ],
@@ -291,7 +291,7 @@ DEEL2 = [
         vraag="Wat bedoelt Freud met een fixatie?",
         opties=[
             "iemand blijft met een stuk van zich in een vroegere fase hangen",
-            "iemand slaat een fase volledig over en gaat sneller verder",
+            "iemand slaat een fase volledig over en gaat zo veel sneller verder",
             "iemand doorloopt alle fasen precies op de gewone leeftijd",
             "iemand keert na elke fase even terug naar de vorige",
         ],
@@ -309,7 +309,7 @@ DEEL2 = [
         vraag="Wat is bij Erikson een crisis?",
         opties=[
             "een vraag of spanning die in een fase moet worden opgelost",
-            "een ramp die de hele ontwikkeling stilzet",
+            "een ramp die de hele verdere ontwikkeling van het kind stilzet",
             "een ziekte die in een bepaalde fase vaak voorkomt",
             "een fase die een kind beter zou overslaan",
         ],
@@ -321,7 +321,7 @@ DEEL2 = [
         vraag="Elke fase van Erikson heeft twee uitkomsten. Hoe heten die?",
         opties=[
             "de positieve en de negatieve pool",
-            "de open en de gesloten pool",
+            "de open en de gesloten pool van de fase",
             "de eerste en de tweede pool",
             "de hoge en de lage pool",
         ],
@@ -393,7 +393,7 @@ DEEL2 = [
         vraag="Een zestiger kijkt terug op zijn leven en vraagt zich af of het de moeite waard was. Bij welke theorie past dat het best?",
         opties=[
             "de psychosociale ontwikkelingstheorie van Erikson",
-            "de psychoanalyse van Freud",
+            "de psychoanalyse van Freud over het onbewuste en de driften",
             "de rijpingstheorie van Gesell",
             "de evolutionaire psychologie van Darwin",
         ],
@@ -417,7 +417,7 @@ DEEL2 = [
         vraag="Wat hebben de biologische en de psychodynamische benadering met elkaar gemeen?",
         opties=[
             "ze leggen het begin van ontwikkeling in het individu zelf",
-            "ze leggen het begin van ontwikkeling in de cultuur",
+            "ze leggen het begin van ontwikkeling in de cultuur rond het kind",
             "ze werken beide met bekrachtiging en straf",
             "ze vinden de levensloopfasen beide niet bruikbaar",
         ],

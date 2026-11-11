@@ -31,7 +31,7 @@ DEEL1 = [
         vraag="Wat is socialisatie?",
         opties=[
             "het proces waarin iemand de normen van zijn omgeving opneemt",
-            "het proces waarin iemand lichamelijk opgroeit",
+            "het proces waarin iemand lichamelijk opgroeit tot een volwassene",
             "het proces waarin iemand vrienden maakt",
             "het proces waarin een groep beslissingen neemt",
         ],
@@ -55,7 +55,7 @@ DEEL1 = [
         vraag="Wat is een sociale rol?",
         opties=[
             "het gedrag dat bij een positie verwacht wordt",
-            "de plaats die iemand in een geheel inneemt",
+            "de plaats die iemand in een groter geheel inneemt",
             "het aanzien dat aan een positie hangt",
             "de macht die iemand over anderen heeft",
         ],
@@ -133,7 +133,7 @@ DEEL1 = [
         vraag="Wat is secundaire socialisatie?",
         opties=[
             "de socialisatie op school, op het werk en in verenigingen",
-            "de socialisatie in het gezin van herkomst",
+            "de socialisatie in het gezin van herkomst, door ouders en broers",
             "de socialisatie door reclame en sociale media",
             "de socialisatie die nooit meer verandert",
         ],
@@ -145,7 +145,7 @@ DEEL1 = [
         vraag="Wat is tertiaire socialisatie?",
         opties=[
             "de socialisatie door media, vrije tijd en publieke ruimte",
-            "de socialisatie in het gezin van herkomst",
+            "de socialisatie in het gezin van herkomst, door de ouders",
             "de socialisatie op school en op het werk",
             "de socialisatie die enkel bij kinderen voorkomt",
         ],
@@ -211,7 +211,7 @@ DEEL1 = [
         vraag="Wat is een rolconflict?",
         opties=[
             "twee rollen van dezelfde persoon vragen iets anders",
-            "twee personen willen dezelfde rol opnemen",
+            "twee personen willen tegelijk dezelfde rol in de groep opnemen",
             "een rol past niet bij de status van de positie",
             "een rol wordt door de omgeving niet erkend",
         ],
@@ -244,7 +244,7 @@ DEEL2 = [
         vraag="Waar legt Emile Durkheim de nadruk op?",
         opties=[
             "op de invloed van instituties op het individu",
-            "op de betekenis die mensen samen maken",
+            "op de betekenis die mensen samen in gesprekken maken",
             "op de groep waarmee iemand zich vergelijkt",
             "op de biologische kant van de mens",
         ],
@@ -268,7 +268,7 @@ DEEL2 = [
         vraag="Wat betekent symbolisch interactionisme?",
         opties=[
             "mensen vormen zichzelf in de omgang via gedeelde symbolen",
-            "mensen worden gevormd door de instellingen boven hen",
+            "mensen worden van bovenaf gevormd door de instellingen boven hen",
             "mensen vergelijken zich met een groep van buitenaf",
             "mensen reageren alleen op belonen en straffen",
         ],
@@ -292,7 +292,7 @@ DEEL2 = [
         vraag="Wat is de kern van het functionalisme van Parsons?",
         opties=[
             "socialisatie houdt de samenleving aan het werk",
-            "socialisatie is een strijd tussen groepen",
+            "socialisatie is een voortdurende strijd tussen groepen",
             "socialisatie gebeurt alleen in gesprekken",
             "socialisatie heeft geen enkel nut",
         ],
@@ -316,7 +316,7 @@ DEEL2 = [
         vraag="Wat is een referentiegroep?",
         opties=[
             "de groep waarmee iemand zich vergelijkt",
-            "de groep waarvan iemand lid is",
+            "de groep waarvan iemand zelf echt lid is",
             "de groep die een instelling bestuurt",
             "de groep met de hoogste status",
         ],
@@ -359,7 +359,7 @@ DEEL2 = [
         opties=[
             "bij Mead, met het symbolisch interactionisme",
             "bij Parsons, met het functionalisme",
-            "bij Durkheim, met de instituties",
+            "bij Durkheim, met de instituties van de samenleving",
             "bij Merton, met de referentiegroepen",
         ],
         antwoord=0,
@@ -413,7 +413,7 @@ DEEL2 = [
         vraag="Wat is een bezwaar tegen een zuiver functionalistische visie op socialisatie?",
         opties=[
             "ze verklaart moeilijk waarom mensen tegen de orde ingaan",
-            "ze verklaart moeilijk waarom mensen de orde volgen",
+            "ze verklaart moeilijk waarom mensen de regels en de orde volgen",
             "ze laat de samenleving volledig buiten beschouwing",
             "ze werkt niet met sociale posities en rollen",
         ],
@@ -425,7 +425,7 @@ DEEL2 = [
         vraag="Waarom zijn vier visies nuttiger dan één?",
         opties=[
             "omdat elke visie een ander stuk van de werkelijkheid vat",
-            "omdat drie van de vier achterhaald zijn",
+            "omdat drie van de vier visies vandaag al lang achterhaald zijn",
             "omdat je er op het examen moet kiezen welke juist is",
             "omdat ze samen precies hetzelfde zeggen",
         ],

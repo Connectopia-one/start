@@ -52,7 +52,7 @@ DEEL1 = [
         vraag="Wat zit volgens Freud in het onbewuste?",
         opties=[
             "wat je niet kan oproepen maar wel doorwerkt",
-            "wat je op dit moment aan het denken bent",
+            "wat je op dit moment bewust aan het denken bent",
             "wat je met wat moeite kan oproepen",
             "wat je vandaag hebt meegemaakt",
         ],
@@ -64,7 +64,7 @@ DEEL1 = [
         vraag="Wat is het voorbewuste bij Freud?",
         opties=[
             "wat je niet denkt maar wel kan oproepen",
-            "wat je op dit moment denkt",
+            "wat je op dit moment bewust denkt en voelt",
             "wat je nooit kan oproepen",
             "wat je nog moet leren",
         ],
@@ -214,7 +214,7 @@ DEEL1 = [
         vraag="Waarom heet deze benadering psychodynamisch?",
         opties=[
             "omdat er krachten in beweging zijn binnen de persoon",
-            "omdat de persoonlijkheid elke dag verandert",
+            "omdat de persoonlijkheid elke dag opnieuw helemaal verandert",
             "omdat ze met meetbare getallen werkt",
             "omdat ze de omgeving als motor ziet",
         ],
@@ -226,7 +226,7 @@ DEEL1 = [
         vraag="Wat is het verband tussen de bewustzijnsniveaus en de persoonlijkheidsstructuur bij Freud?",
         opties=[
             "de drie delen werken op verschillende niveaus van bewustzijn",
-            "elk deel hoort bij precies één bewustzijnsniveau",
+            "elk deel hoort bij precies één bewustzijnsniveau, en bij geen ander",
             "de niveaus en de delen hebben niets met elkaar te maken",
             "de drie delen zitten alle drie volledig in het bewuste",
         ],
@@ -241,7 +241,7 @@ DEEL2 = [
         vraag="Wat is wederzijds determinisme bij Albert Bandura?",
         opties=[
             "persoon, omgeving en gedrag beïnvloeden elkaar alle drie",
-            "de omgeving bepaalt het gedrag van de persoon",
+            "de omgeving bepaalt helemaal alleen het gedrag van de persoon",
             "de persoon bepaalt zijn omgeving volledig zelf",
             "het gedrag ligt vast bij de geboorte",
         ],
@@ -277,7 +277,7 @@ DEEL2 = [
         vraag="Hoe kan zelfeffectiviteit tot een selffulfilling prophecy leiden?",
         opties=[
             "wie denkt dat hij het kan, probeert langer en slaagt vaker",
-            "wie denkt dat hij het kan, hoeft niet meer te oefenen",
+            "wie denkt dat hij het kan, hoeft daarna niet meer zo veel te oefenen",
             "wie denkt dat hij het niet kan, wordt harder aangepakt",
             "wie denkt dat hij het niet kan, krijgt meer hulp",
         ],

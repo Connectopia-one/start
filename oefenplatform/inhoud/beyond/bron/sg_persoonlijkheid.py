@@ -32,7 +32,7 @@ DEEL1 = [
         vraag="Wat is persoonlijkheid?",
         opties=[
             "het geheel van wat iemand kenmerkt en vrij stabiel blijft",
-            "de stemming waarin iemand op een bepaalde dag is",
+            "de stemming waarin iemand op een bepaalde dag of moment is",
             "de rol die iemand in een groep opneemt",
             "de mening die anderen over iemand hebben",
         ],
@@ -82,7 +82,7 @@ DEEL1 = [
         vraag="Wat zijn trekken of disposities?",
         opties=[
             "vaste eigenschappen die in veel situaties terugkomen",
-            "stemmingen die van dag tot dag wisselen",
+            "stemmingen die van dag tot dag en van uur tot uur wisselen",
             "regels die een groep aan haar leden oplegt",
             "doelen die iemand voor zichzelf stelt",
         ],
@@ -136,7 +136,7 @@ DEEL1 = [
         vraag="Wat bedoel je met de invloed van culturele factoren op persoonlijkheid?",
         opties=[
             "welke eigenschappen gewaardeerd worden, verschilt per cultuur",
-            "persoonlijkheid is in elke cultuur precies hetzelfde",
+            "persoonlijkheid is in elke cultuur precies hetzelfde opgebouwd",
             "cultuur bepaalt het temperament van een baby",
             "cultuur speelt alleen bij volwassenen een rol",
         ],
@@ -220,7 +220,7 @@ DEEL1 = [
         vraag="Waarom is het nuttig om persoonlijkheid in vijf elementen op te delen?",
         opties=[
             "omdat elke theorie vooral op een ander element inzet",
-            "omdat elk element bij een andere leeftijd hoort",
+            "omdat elk element bij een andere leeftijd van het leven hoort",
             "omdat je zo kan voorspellen wat iemand gaat doen",
             "omdat elk element in elke cultuur gelijk is",
         ],
@@ -349,7 +349,7 @@ DEEL2 = [
         vraag="Wat zegt Eysenck over iemand die introvert is?",
         opties=[
             "zijn brein staat al hoog in arousal en zoekt minder prikkels",
-            "zijn brein staat laag in arousal en zoekt meer prikkels",
+            "zijn brein staat laag in arousal en zoekt dus meer prikkels op",
             "zijn brein reageert niet op prikkels van buiten",
             "zijn brein wisselt elke dag van arousal",
         ],
@@ -361,7 +361,7 @@ DEEL2 = [
         vraag="Wat zegt Eysenck over iemand die extravert is?",
         opties=[
             "zijn brein staat laag in arousal en zoekt meer prikkels",
-            "zijn brein staat al hoog in arousal en zoekt rust",
+            "zijn brein staat al hoog in arousal en zoekt dus vooral rust",
             "zijn brein reageert niet op gezelschap",
             "zijn brein heeft geen vast arousalniveau",
         ],

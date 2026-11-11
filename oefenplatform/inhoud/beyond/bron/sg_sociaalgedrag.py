@@ -226,7 +226,7 @@ DEEL1 = [
         vraag="Waarom beoordeel je gedrag als prosociaal of antisociaal, en niet als goed of slecht?",
         opties=[
             "omdat de twee begrippen naar het effect op anderen kijken",
-            "omdat goed en slecht in de psychologie niet bestaan",
+            "omdat goed en slecht in de psychologie gewoon niet bestaan",
             "omdat alleen groepsgedrag beoordeeld mag worden",
             "omdat een attitude nooit goed of slecht kan zijn",
         ],
@@ -277,7 +277,7 @@ DEEL2 = [
         vraag="Wat is een externe of situationele attributie?",
         opties=[
             "de oorzaak bij de omstandigheden leggen",
-            "de oorzaak bij het karakter leggen",
+            "de oorzaak bij het karakter van de persoon leggen",
             "de oorzaak bij de inzet leggen",
             "de oorzaak bij het talent leggen",
         ],
@@ -313,7 +313,7 @@ DEEL2 = [
         vraag="Je bent zelf te laat en zegt: er was file. Een klasgenoot is te laat en je denkt: die is ongeorganiseerd. Welk verschijnsel is dit?",
         opties=[
             "de fundamentele attributiefout",
-            "cognitieve dissonantie",
+            "cognitieve dissonantie bij de klasgenoot",
             "een fixed mindset",
             "een normatief conformisme",
         ],
@@ -367,7 +367,7 @@ DEEL2 = [
         vraag="Een leerling zegt: ik ben nu eens niet goed in wiskunde, dat verandert toch nooit. Welke dimensie van Weiner hoor je vooral?",
         opties=[
             "de stabiliteit, want hij houdt de oorzaak voor onveranderlijk",
-            "de locus van controle, want hij legt het buiten zichzelf",
+            "de locus van controle, want hij legt het buiten zichzelf bij de leerkracht",
             "de controleerbaarheid, want hij kan er zelf iets aan doen",
             "de attitude, want hij heeft een mening over wiskunde",
         ],

@@ -120,7 +120,7 @@ DEEL1 = [
         vraag="Wat zegt de cultivatietheorie?",
         opties=[
             "veel kijken schuift je wereldbeeld naar het beeld op het scherm",
-            "veel kijken verandert je mening over één onderwerp",
+            "veel kijken verandert je mening over één onderwerp, maar enkel heel even",
             "veel kijken heeft op lange termijn geen gevolgen",
             "veel kijken maakt mensen vooral socialer",
         ],
@@ -162,7 +162,7 @@ DEEL1 = [
         vraag="Wat zegt de mediatiseringstheorie van Hjarvard?",
         opties=[
             "andere maatschappelijke velden schikken zich naar de media",
-            "de media schikken zich naar de andere velden",
+            "de media schikken zich naar de andere velden zoals politiek en sport",
             "de media hebben op de samenleving geen invloed",
             "de media beïnvloeden alleen zware kijkers",
         ],
@@ -255,7 +255,7 @@ DEEL2 = [
         vraag="Wat is priming?",
         opties=[
             "een eerdere prikkel die beïnvloedt hoe je iets daarna leest",
-            "een gebeurtenis in een bepaald kader zetten",
+            "een gebeurtenis in een bepaald kader zetten zodat je ze anders leest",
             "een gebeurtenis weglaten uit het nieuws",
             "een groep in een vast beeld duwen",
         ],
@@ -267,7 +267,7 @@ DEEL2 = [
         vraag="Wat is het selectieproces in de media?",
         opties=[
             "het kiezen van wat wel en niet in het nieuws komt",
-            "het kiezen van de kijkers waarop je mikt",
+            "het kiezen van de kijkers waarop je met je programma mikt",
             "het kiezen van een kader voor een bericht",
             "het kiezen van een woord voor een groep",
         ],
@@ -304,7 +304,7 @@ DEEL2 = [
         vraag="Wat is sociale categorisering?",
         opties=[
             "mensen in groepen indelen om de wereld te ordenen",
-            "mensen in het nieuws brengen met naam en foto",
+            "mensen in het nieuws brengen met hun naam en een foto",
             "mensen uit het nieuws weglaten",
             "mensen een eigen stem geven in de media",
         ],
@@ -346,7 +346,7 @@ DEEL2 = [
         vraag="Een reportage over één bende wekt bij de kijker de indruk dat iedereen uit die wijk zo is. Welk mechanisme is dit?",
         opties=[
             "stereotypering",
-            "priming",
+            "priming van de kijker",
             "framing",
             "cultivatie",
         ],
@@ -425,7 +425,7 @@ DEEL2 = [
         vraag="Een krant wil de naam van een verdachte publiceren. Welk spanningsveld speelt hier?",
         opties=[
             "persvrijheid tegenover het recht op privacy",
-            "persvrijheid tegenover de agendasetting",
+            "persvrijheid tegenover de agendasetting van de krant",
             "privacy tegenover de cultuuroverdracht",
             "censuur tegenover de waakhondfunctie",
         ],
@@ -437,7 +437,7 @@ DEEL2 = [
         vraag="Waarom weegt het recht op privacy bij een verdachte zwaarder dan bij een minister in functie?",
         opties=[
             "omdat een minister publieke verantwoordelijkheid draagt",
-            "omdat een verdachte geen enkel recht meer heeft",
+            "omdat een verdachte geen enkel recht meer heeft tot het proces",
             "omdat een minister geen privéleven heeft",
             "omdat een verdachte altijd schuldig is",
         ],

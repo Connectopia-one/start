@@ -59,7 +59,7 @@ DEEL1 = [
         opties=[
             "de rust als je denken en je doen bij elkaar passen",
             "de spanning als je denken en je doen wringen",
-            "de twijfel voor je een keuze maakt",
+            "de twijfel net voor je een moeilijke keuze maakt tussen twee dingen",
             "de spijt na een verkeerde keuze",
         ],
         antwoord=0,
@@ -203,7 +203,7 @@ DEEL1 = [
         vraag="Waarom is de theorie van Festinger nuttig om reclame te begrijpen?",
         opties=[
             "omdat een klant zijn aankoop achteraf goed wil praten",
-            "omdat een klant altijd de goedkoopste keuze maakt",
+            "omdat een klant altijd de goedkoopste keuze in de winkel maakt",
             "omdat een klant nooit twijfelt tussen twee merken",
             "omdat een klant zich door een groep laat sturen",
         ],
@@ -338,7 +338,7 @@ DEEL2 = [
         vraag="Wat is een ingroup?",
         opties=[
             "de groep waar iemand zichzelf bij rekent",
-            "de groep waar iemand buiten valt",
+            "de groep waar iemand zelf buiten valt of uit gezet wordt",
             "de groep die de beslissingen neemt",
             "de groep die het werk uitvoert",
         ],
@@ -386,7 +386,7 @@ DEEL2 = [
         vraag="Wat is social loafing?",
         opties=[
             "minder inzet leveren omdat je in een groep werkt",
-            "beter presteren omdat je in een groep werkt",
+            "beter presteren omdat je samen met anderen in een groep werkt",
             "je mening niet zeggen in een groep",
             "de groep volgen in haar beslissing",
         ],
@@ -404,7 +404,7 @@ DEEL2 = [
         vraag="Wat is groepsdenken?",
         opties=[
             "een groep neemt een slechte beslissing om eensgezind te blijven",
-            "een groep neemt een goede beslissing door goed te overleggen",
+            "een groep neemt een goede beslissing door rustig en lang te overleggen",
             "een groep laat elk lid afzonderlijk beslissen",
             "een groep verdeelt het werk over al haar leden",
         ],

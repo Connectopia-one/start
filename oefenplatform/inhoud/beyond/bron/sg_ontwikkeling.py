@@ -192,7 +192,7 @@ DEEL1 = [
         vraag="Waarom spreek je van levensloopfasen en niet alleen van kinderfasen?",
         opties=[
             "omdat een mens zich tot het einde van zijn leven ontwikkelt",
-            "omdat elke fase precies even lang duurt bij iedereen",
+            "omdat elke fase precies even lang duurt bij iedereen die opgroeit",
             "omdat kinderen zich sneller ontwikkelen dan volwassenen",
             "omdat alleen de eerste fasen met rijpen te maken hebben",
         ],
@@ -267,7 +267,7 @@ DEEL2 = [
         vraag="Lotte kan sinds kort haar boosheid in woorden zeggen in plaats van te slaan. Bij welk domein hoort dat vooral?",
         opties=[
             "de socio-emotionele ontwikkeling",
-            "de fysieke ontwikkeling",
+            "de fysieke ontwikkeling van het lichaam",
             "de morele ontwikkeling",
             "de cognitieve ontwikkeling",
         ],
@@ -333,7 +333,7 @@ DEEL2 = [
         vraag="Welke basisvraag gaat over de vraag of ontwikkeling in sprongen gaat of beetje bij beetje?",
         opties=[
             "continuïteit of discontinuïteit",
-            "nature of nurture",
+            "nature of nurture, aanleg of omgeving",
             "cultureel of universeel",
             "groeien of rijpen",
         ],
@@ -417,7 +417,7 @@ DEEL2 = [
         vraag="Een onderzoeker toont dat kinderen met dezelfde genen anders opgroeien in een ander gezin. Welke basisvraag onderzoekt hij?",
         opties=[
             "de rol van nature, nurture en zelfbepaling",
-            "continuïteit of discontinuïteit",
+            "continuïteit of discontinuïteit in de ontwikkeling",
             "cultureel bepaald of universeel",
             "groeien, rijpen of leren",
         ],

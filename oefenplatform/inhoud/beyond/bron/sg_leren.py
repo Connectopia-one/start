@@ -39,7 +39,7 @@ DEEL1 = [
         vraag="Waar kijkt de behavioristische benadering van ontwikkeling naar?",
         opties=[
             "naar gedrag dat je van buitenaf kan zien en meten",
-            "naar gedachten en gevoelens binnen in iemand",
+            "naar gedachten en gevoelens die binnen in iemand leven",
             "naar de genen en de rijping van het lichaam",
             "naar de cultuur waarin iemand opgroeit",
         ],
@@ -153,7 +153,7 @@ DEEL1 = [
         vraag="Wat betekenen positief en negatief bij de bekrachtiging en de straf van Skinner?",
         opties=[
             "toevoegen of wegnemen",
-            "leuk of niet leuk",
+            "leuk of niet leuk voor het kind",
             "vaak of zelden",
             "sterk of zwak",
         ],
@@ -294,7 +294,7 @@ DEEL2 = [
         vraag="Waarom is de theorie van Bandura een voorloper van de cognitieve benadering en geen zuiver behaviorisme?",
         opties=[
             "omdat leren bij hem ook zonder bekrachtiging gebeurt",
-            "omdat hij niet met proefpersonen werkte",
+            "omdat hij niet met proefpersonen werkte maar met dieren",
             "omdat hij alleen naar gedrag van dieren keek",
             "omdat hij geen enkele rol gaf aan de omgeving",
         ],

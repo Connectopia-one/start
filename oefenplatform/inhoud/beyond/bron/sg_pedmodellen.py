@@ -38,7 +38,7 @@ DEEL1 = [
         vraag="Wat is een pedagogische visie?",
         opties=[
             "een samenhangend idee over hoe je hoort op te voeden",
-            "een vaste reeks regels die elke ouder moet volgen",
+            "een vaste reeks regels die elke ouder thuis moet volgen",
             "een onderzoek naar het gedrag van één kind",
             "een lijst van toegestane opvoedingsmiddelen",
         ],
@@ -64,7 +64,7 @@ DEEL1 = [
         vraag="Waar legt de leer van Confucius de nadruk op in de opvoeding?",
         opties=[
             "op respect, deugd en het goede voorbeeld",
-            "op de vrije natuur van het kind",
+            "op de vrije natuur van het kind, zonder regels",
             "op de opvoeding door de staat",
             "op belonen en straffen",
         ],
@@ -106,7 +106,7 @@ DEEL1 = [
         vraag="Wat houdt de behoefteondersteunende opvoeding in?",
         opties=[
             "opvoeden dat ingaat op de basisbehoeften van een kind",
-            "opvoeden dat een kind alles geeft wat het vraagt",
+            "opvoeden dat een kind alles geeft wat het vraagt of wil hebben",
             "opvoeden dat met zo weinig regels mogelijk werkt",
             "opvoeden dat uitsluitend met belonen werkt",
         ],
@@ -118,7 +118,7 @@ DEEL1 = [
         vraag="Wat houdt de visie van de nieuwe autoriteit in?",
         opties=[
             "gezag door aanwezigheid en steun, niet door macht",
-            "gezag door strenger te straffen dan vroeger",
+            "gezag door strenger en sneller te straffen dan vroeger",
             "gezag volledig aan het kind overlaten",
             "gezag enkel bij de school leggen",
         ],
@@ -247,7 +247,7 @@ DEEL2 = [
         vraag="Wat is een opvoedingssituatie in een bijzondere context?",
         opties=[
             "een situatie waarin opvoeden extra vraagt van iedereen",
-            "een situatie waarin niemand het kind kan opvoeden",
+            "een situatie waarin niemand het kind nog echt kan opvoeden",
             "een situatie die alleen op school voorkomt",
             "een situatie waarin geen enkel model nog opgaat",
         ],
@@ -284,7 +284,7 @@ DEEL2 = [
         vraag="Welk paar bestaat uit twee leerstoornissen?",
         opties=[
             "dyslexie en dyscalculie",
-            "ADHD en ASS",
+            "ADHD en ASS, allebei bij jonge kinderen",
             "dyslexie en ADHD",
             "dyscalculie en ASS",
         ],
@@ -308,8 +308,8 @@ DEEL2 = [
         vraag="Wat bedoel je met maatschappelijke kwetsbaarheid?",
         opties=[
             "een gezin botst telkens op nadeel in de samenleving",
-            "een gezin wil geen hulp van buitenaf aanvaarden",
-            "een kind is lichamelijk kwetsbaar",
+            "een gezin wil geen enkele hulp van buitenaf aanvaarden",
+            "een kind is lichamelijk kwetsbaar en vaak ziek",
             "een kind heeft een leerstoornis",
         ],
         antwoord=0,
@@ -398,7 +398,7 @@ DEEL2 = [
         vraag="Waarvoor staan de vier variabelen in het model van Rink?",
         opties=[
             "kind, opvoeder, situationele context en situatietypes",
-            "kind, ouder, school en samenleving",
+            "kind, ouder, school en de samenleving rond het hele gezin",
             "kennis, oefening, steun en structuur",
             "kind, omgeving, school en tijd",
         ],
@@ -440,7 +440,7 @@ DEEL2 = [
         vraag="Waarom bekijk je een opvoedingssituatie in een bijzondere context met een model?",
         opties=[
             "omdat een model je alle kanten laat nagaan in plaats van één",
-            "omdat een model het probleem onmiddellijk oplost",
+            "omdat een model het probleem onmiddellijk en voorgoed oplost",
             "omdat een model zegt wie er schuld heeft",
             "omdat een model de hulp verplicht maakt",
         ],

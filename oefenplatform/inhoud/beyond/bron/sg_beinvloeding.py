@@ -70,7 +70,7 @@ DEEL1 = [
         vraag="Wat is conformisme?",
         opties=[
             "je gedrag aanpassen aan een groep, zonder dat iets gevraagd is",
-            "ja zeggen op een verzoek dat iemand je uitdrukkelijk stelt",
+            "ja zeggen op een verzoek dat iemand je uitdrukkelijk en vriendelijk stelt",
             "doen wat een gezagsfiguur je uitdrukkelijk beveelt",
             "je eigen mening volhouden tegen de groep in",
         ],
@@ -94,7 +94,7 @@ DEEL1 = [
         vraag="Wat is informatief conformisme?",
         opties=[
             "meegaan omdat je denkt dat de anderen het beter weten",
-            "meegaan omdat je bij de groep wil blijven horen",
+            "meegaan omdat je er graag bij de groep wil blijven horen",
             "meegaan omdat een gezagsfiguur het vraagt",
             "meegaan omdat je er iets voor terugkrijgt",
         ],
@@ -106,7 +106,7 @@ DEEL1 = [
         vraag="Wat is normatief conformisme?",
         opties=[
             "meegaan omdat je erbij wil horen en niet wil opvallen",
-            "meegaan omdat je denkt dat de groep het beter weet",
+            "meegaan omdat je denkt dat de groep het veel beter weet",
             "meegaan omdat de wet het voorschrijft",
             "meegaan omdat je er een beloning voor krijgt",
         ],
@@ -160,7 +160,7 @@ DEEL1 = [
         vraag="In het experiment van Solomon Asch moesten proefpersonen zeggen welke lijn even lang was als een voorbeeldlijn. Wat bleek?",
         opties=[
             "velen gaven een zichtbaar fout antwoord mee met de groep",
-            "velen gaven altijd hun eigen, juiste antwoord",
+            "velen gaven altijd hun eigen, juiste antwoord, ook in de groep",
             "velen weigerden nog te antwoorden in groep",
             "velen gaven een fout antwoord ook zonder groep",
         ],
@@ -214,7 +214,7 @@ DEEL1 = [
         vraag="Wat is assertiviteit als vorm van weerstand bieden?",
         opties=[
             "je eigen mening of grens rustig maar duidelijk zeggen",
-            "je eigen mening voor jezelf houden in de groep",
+            "je eigen mening voor jezelf houden in de groep om rust te bewaren",
             "openlijk tegen een gezagsfiguur ingaan",
             "je volledig door de groep laten sturen",
         ],
@@ -241,7 +241,7 @@ DEEL2 = [
         vraag="Wat is inwilliging?",
         opties=[
             "ja zeggen op een verzoek dat iemand je stelt",
-            "meegaan met een groep die niets vraagt",
+            "meegaan met een groep die je eigenlijk niets vraagt",
             "doen wat een gezagsfiguur beveelt",
             "je eigen grens duidelijk aangeven",
         ],
@@ -277,7 +277,7 @@ DEEL2 = [
         vraag="Hoe werkt de deur-in-het-gezicht-techniek?",
         opties=[
             "eerst een heel groot verzoek, daarna een kleiner",
-            "eerst een klein verzoek, daarna het grote",
+            "eerst een klein verzoek, daarna pas het grote verzoek",
             "eerst een akkoord, daarna een hogere prijs",
             "eerst een vraag, daarna een gratis geschenk",
         ],
@@ -337,7 +337,7 @@ DEEL2 = [
         vraag="Je spreekt een prijs af voor een tweedehandsfiets, en bij het betalen zegt de verkoper dat de verzending er nog bij komt. Welke techniek is dit?",
         opties=[
             "zodra-de-bal-aan-het-rollen-is",
-            "dat-is-nog-niet-alles",
+            "dat-is-nog-niet-alles-techniek",
             "voet-tussen-de-deur",
             "deur-in-het-gezicht",
         ],

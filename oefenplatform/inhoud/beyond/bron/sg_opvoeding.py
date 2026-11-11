@@ -67,7 +67,7 @@ DEEL1 = [
         vraag="Wat hoort bij het secundaire opvoedingsmilieu?",
         opties=[
             "de school, de opvang en de jeugdbeweging",
-            "het gezin en de naaste familie",
+            "het gezin, de naaste familie en de buren",
             "de reclame en de sociale media",
             "de wetten van een land",
         ],
@@ -79,7 +79,7 @@ DEEL1 = [
         vraag="Wat hoort bij het tertiaire opvoedingsmilieu?",
         opties=[
             "de media, de buurt en de vrije tijd",
-            "het gezin en de ouders",
+            "het gezin, de ouders en de grootouders",
             "de school en de leerkrachten",
             "de opvang en de onthaalmoeder",
         ],
@@ -133,7 +133,7 @@ DEEL1 = [
         vraag="Wat is gedragsmatige controle als opvoedingsdimensie?",
         opties=[
             "regels stellen en toezien op wat een kind doet",
-            "warm ingaan op wat een kind nodig heeft",
+            "warm ingaan op wat een kind op dat moment nodig heeft",
             "een kind sturen via schuldgevoel",
             "een kind alles zelf laten uitzoeken",
         ],
@@ -146,7 +146,7 @@ DEEL1 = [
         opties=[
             "een kind sturen via schuld, afkeuring of liefde intrekken",
             "een kind sturen via duidelijke regels en toezicht",
-            "een kind sturen via warmte en nabijheid",
+            "een kind sturen via warmte, nabijheid en veel aandacht voor zijn gevoel",
             "een kind helemaal niet sturen",
         ],
         antwoord=0,
@@ -310,7 +310,7 @@ DEEL2 = [
         vraag="Een ouder legt uit waarom de gsm om negen uur beneden ligt, luistert naar het bezwaar, en houdt de afspraak toch. Welke stijl is dit?",
         opties=[
             "democratisch-autoritatief",
-            "autoritair",
+            "autoritair, want hij legt de regel op",
             "permissief",
             "onverschillig",
         ],
@@ -402,8 +402,8 @@ DEEL2 = [
         vraag="Een ouder ruimt zelf altijd zijn bord af, zonder er iets over te zeggen, en het kind doet het na. Welk opvoedingsmiddel is dit?",
         opties=[
             "voorbeeldgedrag of modelleren",
-            "informatieoverdracht",
-            "gewoontevorming",
+            "informatieoverdracht aan het kind",
+            "gewoontevorming door herhaling",
             "aanmoedigen of stimuleren",
         ],
         antwoord=0,

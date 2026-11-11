@@ -28,7 +28,7 @@ DEEL1 = [
         vraag="Welke vier fasen heeft de onderzoekscyclus?",
         opties=[
             "oriënteren, voorbereiden, uitvoeren, rapporteren",
-            "lezen, schrijven, meten en daarna besluiten",
+            "lezen, schrijven, meten en daarna een besluit nemen",
             "vragen, antwoorden, controleren en besluiten",
             "plannen, meten, rekenen, voorstellen",
         ],
@@ -40,7 +40,7 @@ DEEL1 = [
         vraag="Wat gebeurt er in de fase oriënteren?",
         opties=[
             "je kiest een onderzoeksvraag of een hypothese",
-            "je verzamelt de gegevens die je nodig hebt",
+            "je verzamelt alle gegevens die je nodig zult hebben",
             "je schrijft het besluit van je onderzoek",
             "je kiest de methode waarmee je gaat werken",
         ],
@@ -64,7 +64,7 @@ DEEL1 = [
         vraag="Wat betekent het criterium enkelvoudig bij een onderzoeksvraag?",
         opties=[
             "de vraag gaat over één onderwerp of één probleem",
-            "de vraag is met één woord te beantwoorden",
+            "de vraag is met één enkel woord of getal te beantwoorden",
             "de vraag is door één persoon te onderzoeken",
             "de vraag heeft één juist antwoord",
         ],
@@ -76,7 +76,7 @@ DEEL1 = [
         vraag="Wat betekent het criterium objectief bij een onderzoeksvraag?",
         opties=[
             "de vraag verraadt geen eigen mening of overtuiging",
-            "de vraag is met cijfers te beantwoorden",
+            "de vraag is met cijfers en percentages te beantwoorden",
             "de vraag gaat over een goed meetbaar onderwerp",
             "de vraag is door iedereen te begrijpen",
         ],
@@ -166,7 +166,7 @@ DEEL1 = [
         vraag="Wat gebeurt er in de fase voorbereiden?",
         opties=[
             "je kiest je bronnen, je methode en je maakt een plan",
-            "je kiest je onderzoeksvraag en ook je hypothese",
+            "je kiest je onderzoeksvraag en ook je hypothese erbij",
             "je verzamelt en analyseert je gegevens",
             "je schrijft je conclusie en kijkt terug",
         ],
@@ -271,7 +271,7 @@ DEEL2 = [
         vraag="Wat is een goede conclusie bij een onderzoek?",
         opties=[
             "een antwoord op de onderzoeksvraag, uit de gegevens zelf",
-            "een samenvatting van alle gegevens die je verzamelde",
+            "een samenvatting van alle gegevens die je tijdens het onderzoek verzamelde",
             "een mening over het onderwerp van het onderzoek",
             "een lijst van bronnen die je gebruikt hebt",
         ],
@@ -283,7 +283,7 @@ DEEL2 = [
         vraag="Je krijgt op het examen verschillende conclusies bij één onderzoek. Wat moet je doen?",
         opties=[
             "de meest volledige kiezen en je keuze verantwoorden",
-            "de kortste kiezen, want die is het duidelijkst",
+            "de kortste kiezen, want die is altijd het duidelijkst",
             "ze alle vier overnemen in je antwoord",
             "een eigen conclusie schrijven in de plaats",
         ],
@@ -295,7 +295,7 @@ DEEL2 = [
         vraag="Een onderzoek levert een onverwacht resultaat op. Wat doe je dan?",
         opties=[
             "noteren welke elementen het resultaat beïnvloed hebben",
-            "het onderzoek van begin tot eind opnieuw uitvoeren",
+            "het onderzoek van begin tot eind nog eens opnieuw uitvoeren",
             "het resultaat uit het verslag weglaten",
             "een andere onderzoeksvraag kiezen",
         ],
@@ -349,7 +349,7 @@ DEEL2 = [
         vraag="Waarop kijk je als je de betrouwbaarheid van een bron evalueert?",
         opties=[
             "wie de bron maakte en met welk belang",
-            "hoeveel mensen de bron al deelden",
+            "hoeveel mensen de bron al deelden of leuk vonden",
             "hoe mooi de bron vormgegeven is",
             "hoe lang de bron precies is",
         ],

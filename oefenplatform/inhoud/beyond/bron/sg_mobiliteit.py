@@ -58,7 +58,7 @@ DEEL1 = [
         vraag="Wat is horizontale mobiliteit?",
         opties=[
             "van positie veranderen zonder te stijgen of te dalen",
-            "van positie veranderen en daarbij stijgen",
+            "van positie veranderen en daarbij een trede stijgen op de sociale ladder",
             "van positie veranderen en daarbij dalen",
             "van streek veranderen binnen een land",
         ],
@@ -70,7 +70,7 @@ DEEL1 = [
         vraag="Wat is verticale mobiliteit?",
         opties=[
             "van positie veranderen en daarbij stijgen of dalen",
-            "van positie veranderen op dezelfde hoogte",
+            "van positie veranderen op dezelfde hoogte van de ladder",
             "van woonplaats veranderen binnen een stad",
             "van beroep veranderen binnen hetzelfde bedrijf",
         ],
@@ -82,7 +82,7 @@ DEEL1 = [
         vraag="Wat is intragenerationele mobiliteit?",
         opties=[
             "beweging binnen het leven van één persoon",
-            "beweging tussen ouders en kinderen",
+            "beweging tussen de ouders en hun kinderen",
             "beweging tussen twee landen",
             "beweging tussen twee beroepsgroepen",
         ],
@@ -93,8 +93,8 @@ DEEL1 = [
         type="meerkeuze",
         vraag="Wat is intergenerationele mobiliteit?",
         opties=[
-            "beweging tussen de generatie van de ouders en die van de kinderen",
-            "beweging binnen het leven van één persoon",
+            "beweging tussen de generatie van de ouders en die van hun kinderen",
+            "beweging binnen het leven van één persoon, van zijn eerste tot zijn laatste job",
             "beweging tussen twee streken van een land",
             "beweging tussen twee opleidingen",
         ],
@@ -150,7 +150,7 @@ DEEL1 = [
         vraag="Waarom staat gender in de lijst van factoren die mobiliteit beïnvloeden?",
         opties=[
             "omdat vrouwen en mannen niet dezelfde loopbaankansen hebben",
-            "omdat vrouwen en mannen dezelfde loopbaankansen hebben",
+            "omdat vrouwen en mannen vandaag dezelfde loopbaankansen hebben",
             "omdat gender alleen bij een huwelijk meespeelt",
             "omdat gender in het recht een eigen stand vormt",
         ],
@@ -243,7 +243,7 @@ DEEL2 = [
         vraag="Wat bedoel je met de relatie tussen onderwijs en sociale ongelijkheid?",
         opties=[
             "onderwijs kan ongelijkheid verkleinen en ook doorgeven",
-            "onderwijs maakt alle ongelijkheid altijd kleiner",
+            "onderwijs maakt alle ongelijkheid altijd kleiner, bij iedereen",
             "onderwijs maakt alle ongelijkheid altijd groter",
             "onderwijs staat los van ongelijkheid",
         ],
@@ -375,7 +375,7 @@ DEEL2 = [
         vraag="Waarom is de sociaal-economische status van de ouders zo belangrijk in het onderzoek naar kansenongelijkheid op school?",
         opties=[
             "omdat ze sterk samenhangt met de resultaten van de kinderen",
-            "omdat ze het schoolreglement bepaalt",
+            "omdat ze bepaalt welk schoolreglement er voor het kind geldt",
             "omdat ze de keuze van de leerkracht vastlegt",
             "omdat ze bij elk gezin gelijk is",
         ],
@@ -387,7 +387,7 @@ DEEL2 = [
         vraag="Hoe kan onderwijs de ongelijkheid juist doorgeven in plaats van verkleinen?",
         opties=[
             "doordat de school de taal en gewoonten van één groep verwacht",
-            "doordat de school voor iedereen gratis is",
+            "doordat de school voor iedereen gratis is, ook voor wie rijk is",
             "doordat de school dezelfde vakken aan iedereen geeft",
             "doordat de school leerplicht oplegt",
         ],
@@ -405,7 +405,7 @@ DEEL2 = [
         vraag="Een onderzoeker wil weten of de mobiliteit in België de laatste dertig jaar gestegen is. Wat moet hij vergelijken?",
         opties=[
             "de positie van kinderen met die van hun ouders, per periode",
-            "de lonen van vandaag met die van dertig jaar terug",
+            "de lonen van vandaag vergelijken met de lonen van dertig jaar geleden",
             "het aantal verhuizingen per jaar",
             "het aantal diploma's dat uitgereikt wordt",
         ],
@@ -417,7 +417,7 @@ DEEL2 = [
         vraag="Waarom staat bij meritocratie altijd de vraag naar de startlijn?",
         opties=[
             "omdat verdienste alleen eerlijk weegt bij een gelijke start",
-            "omdat verdienste niets met de startlijn te maken heeft",
+            "omdat verdienste niets met de startlijn of de afkomst te maken heeft",
             "omdat iedereen in de praktijk gelijk start",
             "omdat de startlijn in het recht is vastgelegd",
         ],
