@@ -41,6 +41,13 @@ export const nieuwTekst = {
 export const updates: Update[] = [
   {
     datum: "11 november 2026",
+    titel: "Begrippenarena economie ook voor toegepaste economie",
+    tekst:
+      "In de begrippenarena economie kies je nu ook toegepaste economie van Boost dubbele finaliteit: bijna honderdveertig begrippen, van de balans, het MAR en de btw tot het rekenblad, printen en databanken.",
+    link: { tekst: "Naar de spellen", href: "/extras/spellen" },
+  },
+  {
+    datum: "11 november 2026",
     titel: "Begrippenarena natuurwetenschappen ook voor Boost en Beyond",
     tekst:
       "In de begrippenarena natuurwetenschappen kies je nu ook Boost of Beyond, met de begrippen uit biologie, chemie, fysica en natuurwetenschappen van dat niveau, ook voor de dubbele finaliteit. Spark en welzijnswetenschappen blijven zoals ze waren.",
