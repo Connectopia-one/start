@@ -40,6 +40,18 @@ export const nieuwTekst = {
 
 export const updates: Update[] = [
   {
+    datum: "13 november 2026",
+    titel: "Pittige hoofdstukken geschiedenis in Boost",
+    tekst:
+      "Geschiedenis in Boost heeft nu bij elk van de elf thema's een pittig hoofdstuk met dertig vragen, in de vormen van het examen van de Examencommissie: tabellen, slepen, koppelen, klikken op een kaart of tijdlijn en vragen bij echte prenten en schilderijen. Ook de juiste antwoorden bij wiskunde in Boost en bij wiskunde in Beyond dubbele finaliteit zijn niet langer vaak het langste antwoord.",
+  },
+  {
+    datum: "13 november 2026",
+    titel: "Knop naar de begrippenarena bij elk vak",
+    tekst:
+      "Op de pagina van elk vak staat nu bovenaan een knop naar de begrippenarena of woordenarena die erbij hoort. Het spel opent meteen op het juiste niveau, zodat je de begrippen van dat vak spelenderwijs kan oefenen.",
+  },
+  {
     datum: "12 november 2026",
     titel: "Foutenspeurder duidelijker",
     tekst:

@@ -21,6 +21,7 @@ import { sorteerHoofdstukken } from "@/lib/hoofdstukvolgorde";
 import { vakIcoon } from "@/lib/vakbeeld";
 import { vindVaknoot, vindWegwijzer } from "@/inhoud/vaknoten";
 import { isWelzijn } from "@/lib/welzijn";
+import { arenaKnop } from "@/inhoud/arenaPerVak";
 import { Zoekvak } from "@/components/Zoekvak";
 import { RichtingKeuze } from "@/components/RichtingKeuze";
 import { leerrichting, valtWeg } from "@/lib/leerrichting";
@@ -77,6 +78,9 @@ export default async function NiveauVakPage({
   // inhoud/vaknoten.ts, zodat aanpassen geen code vraagt.
   const noot = vindVaknoot(niveau.slug, vak.slug);
   const wegwijzer = vindWegwijzer(niveau.slug, vak.slug);
+  // Knop naar de begrippenarena van dit vak (Kim, 12 november 2026). Die
+  // spellen zijn gratis, dus de knop staat er ook zonder volledige toegang.
+  const arena = arenaKnop(niveau.slug, vak.slug);
 
   const { data: kinderen } = session
     ? await supabase
@@ -198,8 +202,9 @@ export default async function NiveauVakPage({
         {/* Febe vroeg in de enquête van november 2026 om een examen over het
             hele vak, terwijl dat er al was: onderaan, onder alle hoofdstukken.
             Daarom ook hier bovenaan, als korte wegwijzer. */}
-        {volledigeToegang && (
+        {(volledigeToegang || arena) && (
           <p className="mt-3 flex flex-wrap gap-2 text-sm">
+            {volledigeToegang && (<>
             <Link
               href={`/niveaus/${niveau.slug}/${vak.slug}/examen`}
               className="rounded-full border border-border bg-surface px-3 py-1 text-forest-dark transition hover:border-forest"
@@ -224,6 +229,15 @@ export default async function NiveauVakPage({
             >
               <span aria-hidden>📚</span> Hele cursus downloaden
             </a>
+            </>)}
+            {arena && (
+              <Link
+                href={arena.href}
+                className="rounded-full border border-border bg-surface px-3 py-1 text-forest-dark transition hover:border-forest"
+              >
+                <span aria-hidden>{arena.icoon}</span> {arena.tekst}
+              </Link>
+            )}
           </p>
         )}
 
