@@ -25,6 +25,20 @@ sys.path.insert(0, str(UIT.parent))
 from notatie import sluitend, zonder_notatie  # noqa: E402  (pad moet eerst klaarstaan)
 TITEL = "Uitdaging — alles door elkaar"
 
+# Vanaf ✨ Spark mag een uitdaging ook in de vormen van het examen van de
+# Examencommissie staan (Kim, 11 november 2026): tabel, keuzelijst, klikken op
+# een prent, casus ... Die vragen kijkt hetzelfde nakijkwerk na als bij de
+# pittige hoofdstukken (pittig/bron/bouw_pittig.py). Zo'n bron zet AANTAL
+# (meestal 30) en mag casusgroepen {"casus": ..., "vragen": [...]} bevatten.
+import importlib.util  # noqa: E402
+
+_spec = importlib.util.spec_from_file_location(
+    "bouw_pittig", UIT.parent / "pittig" / "bron" / "bouw_pittig.py"
+)
+_pittig = importlib.util.module_from_spec(_spec)
+_spec.loader.exec_module(_pittig)
+EXAMENVORMEN = _pittig.EXAMENVORMEN
+
 SPELING = 5
 GRENS_LANGSTE = 0.4
 WAAR_ONDER, WAAR_BOVEN = 0.35, 0.65
@@ -66,11 +80,14 @@ def narekenen(vraag):
 def nakijken(module, vragen):
     meldingen = []
     gezien = set()
-    for v in vragen:
+    for v in _pittig.plat(vragen):
         kop = v["vraag"][:60]
         if v["vraag"] in gezien:
             meldingen.append(f"{kop}: staat er twee keer in")
         gezien.add(v["vraag"])
+        if v["type"] in EXAMENVORMEN:
+            meldingen += _pittig.examenvorm(kop, v)
+            continue
         if not v.get("uitleg"):
             meldingen.append(f"{kop}: geen uitleg")
         if v["type"] == "meerkeuze":
@@ -85,7 +102,10 @@ def nakijken(module, vragen):
             if isinstance(v["antwoord"], list) and "wiskunde" in module:
                 meldingen.append(f"{kop}: bij wiskunde geen meerkeuze met meerdere antwoorden")
         elif v["type"] == "invultekst":
-            if not isinstance(v["antwoord"], str) or not v["antwoord"].strip():
+            a = v["antwoord"]
+            if not (isinstance(a, str) and a.strip()) and not (
+                isinstance(a, list) and a and all(isinstance(x, str) and x.strip() for x in a)
+            ):
                 meldingen.append(f"{kop}: invulantwoord ontbreekt")
             if v.get("opties"):
                 meldingen.append(f"{kop}: een invulvraag heeft geen opties")
@@ -100,6 +120,7 @@ def nakijken(module, vragen):
 
 def gokpatronen(vragen):
     meldingen = []
+    vragen = _pittig.plat(vragen)
     mk = [v for v in vragen if v["type"] == "meerkeuze"]
     langst = 0
     for v in mk:
@@ -129,8 +150,9 @@ def bouw(naam):
     module = importlib.import_module(f"bron.{naam}")
     vragen = [dict(v) for v in module.VRAGEN]
     meldingen = nakijken(naam, vragen) + gokpatronen(vragen)
-    if len(vragen) != 20:
-        meldingen.append(f"{len(vragen)} vragen in plaats van 20")
+    aantal = getattr(module, "AANTAL", 20)
+    if len(_pittig.plat(vragen)) != aantal:
+        meldingen.append(f"{len(_pittig.plat(vragen))} vragen in plaats van {aantal}")
     if meldingen:
         raise SystemExit(f"{naam} klopt nog niet:\n  - " + "\n  - ".join(meldingen))
     for v in vragen:
@@ -145,7 +167,7 @@ def bouw(naam):
         json.dumps(inhoud, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
     )
     soorten = {}
-    for v in vragen:
+    for v in _pittig.plat(vragen):
         soorten[v["type"]] = soorten.get(v["type"], 0) + 1
     print(f"{doel.name:34} {module.VAK:24} " +
           ", ".join(f"{a} {t}" for t, a in sorted(soorten.items())))

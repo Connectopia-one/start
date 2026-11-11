@@ -45,6 +45,7 @@ van veertig. De voortgang van de andere hoofdstukken blijft dus onaangeroerd.
 | `spark-geschiedenis-uitdaging.json` | Geschiedenis | ✨ Spark |
 | `spark-natuurwetenschappen-uitdaging.json` | Natuurwetenschappen | ✨ Spark |
 | `spark-frans-uitdaging.json` | Frans | ✨ Spark |
+| `spark-aardrijkskunde-uitdaging.json` | Aardrijkskunde | ✨ Spark (examenvorm, 30 vragen; prenten in public/examenvormen/aardrijkskunde-spark, eerst live zetten) |
 
 > **Let op bij wiskunde, Nederlands en geschiedenis.** Die drie vakken hebben
 > zowel bij 🌱 Start als bij ✨ Spark een hoofdstuk met dezelfde titel. Tot

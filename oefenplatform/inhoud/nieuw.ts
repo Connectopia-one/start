@@ -41,6 +41,13 @@ export const nieuwTekst = {
 export const updates: Update[] = [
   {
     datum: "11 november 2026",
+    titel: "Uitdaging bij aardrijkskunde Spark, zoals op het examen",
+    tekst:
+      "Aardrijkskunde Spark heeft nu ook een uitdagingshoofdstuk: 30 vragen over alle hoofdstukken door elkaar, in de vormen van het examen van de Examencommissie. Je vult een tabel in, kiest uit keuzelijsten, sleept woorden, koppelt, sorteert, klikt op een kaart met hoogtelijnen en een klimatogram, en schrijft een kort antwoord.",
+    link: { tekst: "Naar aardrijkskunde Spark", href: "/niveaus/spark/aardrijkskunde" },
+  },
+  {
+    datum: "11 november 2026",
     titel: "Frans in Start: pittige hoofdstukken en een uitdaging",
     tekst:
       "Frans in Start heeft nu, net als de andere vakken van Start, bij zes hoofdstukken een pittig broertje met 20 moeilijkere vragen, en een uitdagingshoofdstuk waarin alles door elkaar komt. Geen nieuwe leerstof: wel vragen met twee stappen, een fout die er juist uitziet of een Frans zinnetje om goed te lezen.",

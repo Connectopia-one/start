@@ -1,0 +1,19 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500' width='800' height='500'>
+<rect width='800' height='500' fill='#ffffff'/>
+<rect x='1' y='1' width='798' height='498' fill='none' stroke='#cfc6ad' stroke-width='2'/>
+<ellipse cx='420.0' cy='250' rx='300.0' ry='200' fill='none' stroke='#8a5a2b' stroke-width='2.5'/>
+<text x='606' y='90' font-family='Nunito, Arial, sans-serif' font-size='17' fill='#8a5a2b'>10 m</text>
+<ellipse cx='395.0' cy='250' rx='255.0' ry='168' fill='none' stroke='#8a5a2b' stroke-width='2.5'/>
+<text x='553' y='116' font-family='Nunito, Arial, sans-serif' font-size='17' fill='#8a5a2b'>20 m</text>
+<ellipse cx='370.0' cy='250' rx='210.0' ry='136' fill='none' stroke='#8a5a2b' stroke-width='2.5'/>
+<text x='500' y='141' font-family='Nunito, Arial, sans-serif' font-size='17' fill='#8a5a2b'>30 m</text>
+<ellipse cx='345.0' cy='250' rx='165.0' ry='104' fill='none' stroke='#8a5a2b' stroke-width='2.5'/>
+<text x='447' y='167' font-family='Nunito, Arial, sans-serif' font-size='17' fill='#8a5a2b'>40 m</text>
+<ellipse cx='320.0' cy='250' rx='120.0' ry='72' fill='none' stroke='#8a5a2b' stroke-width='2.5'/>
+<text x='394' y='192' font-family='Nunito, Arial, sans-serif' font-size='17' fill='#8a5a2b'>50 m</text>
+<circle cx='320.0' cy='250' r='5' fill='#2b2b2b'/>
+<text x='330.0' y='256' font-family='Nunito, Arial, sans-serif' font-size='18' fill='#2b2b2b'>top 54 m</text>
+<path d='M745 95 L760 55 L775 95 L760 85 Z' fill='#2f4a22'/>
+<text x='752' y='120' font-family='Nunito, Arial, sans-serif' font-size='20' font-weight='700' fill='#2f4a22'>N</text>
+<text x='20' y='485' font-family='Nunito, Arial, sans-serif' font-size='16' fill='#2b2b2b'>Hoogtelijnen om de 10 meter</text>
+</svg>
