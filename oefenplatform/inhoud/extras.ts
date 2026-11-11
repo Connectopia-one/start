@@ -454,6 +454,13 @@ export const spelKaarten: SpelKaart[] = [
     tekst: `Ruim tachtig begrippen bij het vak wiskunde basis, van functies, afgeleiden en rijen tot kansen, de normale verdeling en de extra's voor bedrijfswetenschappen. ${zesSpellen}`,
   },
   {
+    spel: "begrippenarena-wiskunde",
+    school: "middelbaar",
+    niveau: "🌍 Beyond · statistiek (5de en 6de middelbaar)",
+    niveauInSpel: "statistiek",
+    tekst: `Ruim zeventig begrippen statistiek, van telregels en de binomiale verdeling tot hypothesen toetsen, betrouwbaarheidsintervallen, correlatie en de boxplot. ${zesSpellen}`,
+  },
+  {
     spel: "begrippenarena",
     school: "middelbaar",
     niveau: "🌍 Beyond · ook dubbele finaliteit",
