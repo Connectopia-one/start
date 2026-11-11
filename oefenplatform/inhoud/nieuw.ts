@@ -41,6 +41,13 @@ export const nieuwTekst = {
 export const updates: Update[] = [
   {
     datum: "11 november 2026",
+    titel: "Pittige hoofdstukken bij economie in Beyond",
+    tekst:
+      "Bij elk van de twintig onderwerpen van algemene economie in Beyond doorstroom staat nu ook een pittig hoofdstuk met 30 moeilijkere vragen, zoals op het examen: klikken op een grafiek van vraag en aanbod, het juiste vak in een uitbetalingsmatrix aanduiden, rekenen met surplus, elasticiteit en de multiplicator, samenvattende tabellen invullen en casussen met meerdere vragen. Alle grafieken zijn zelf getekend.",
+    link: { tekst: "Naar economie", href: "/niveaus/beyond-doorstroom/economie" },
+  },
+  {
+    datum: "11 november 2026",
     titel: "Eén leerbundel per vak in Basis",
     tekst:
       "Bij Frans, Nederlands en wiskunde in Basis staat nu één leerbundel die alle onderwerpen van dat vak samenzet. Loop je vast bij een oefening, dan zoek je het onderwerp op en vind je er kort de uitleg en een voorbeeld. Je vindt de bundel bij elk hoofdstuk van het vak.",

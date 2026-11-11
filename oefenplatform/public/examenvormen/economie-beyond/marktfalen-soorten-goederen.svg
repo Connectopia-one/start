@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#fffdf7"/>
+<text x="650.0" y="125.0" font-size="23" text-anchor="middle" fill="#2f4a22" font-weight="bold">Rivaliserend?</text>
+<text x="170.0" y="378.0" font-size="23" text-anchor="middle" fill="#2f4a22" font-weight="bold">Uitsluitbaar?</text>
+<rect x="380.0" y="150.0" width="270.0" height="50.0" rx="0" fill="#eef3e6" stroke="#2f4a22" stroke-width="2"/>
+<text x="515.0" y="182.0" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">ja</text>
+<rect x="650.0" y="150.0" width="270.0" height="50.0" rx="0" fill="#eef3e6" stroke="#2f4a22" stroke-width="2"/>
+<text x="785.0" y="182.0" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">nee</text>
+<rect x="280.0" y="200.0" width="100.0" height="170.0" rx="0" fill="#eef3e6" stroke="#2f4a22" stroke-width="2"/>
+<text x="330.0" y="293.0" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">ja</text>
+<rect x="380.0" y="200.0" width="270.0" height="170.0" rx="0" fill="#fffdf7" stroke="#2f4a22" stroke-width="2"/>
+<rect x="650.0" y="200.0" width="270.0" height="170.0" rx="0" fill="#fffdf7" stroke="#2f4a22" stroke-width="2"/>
+<rect x="280.0" y="370.0" width="100.0" height="170.0" rx="0" fill="#eef3e6" stroke="#2f4a22" stroke-width="2"/>
+<text x="330.0" y="463.0" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">nee</text>
+<rect x="380.0" y="370.0" width="270.0" height="170.0" rx="0" fill="#fffdf7" stroke="#2f4a22" stroke-width="2"/>
+<rect x="650.0" y="370.0" width="270.0" height="170.0" rx="0" fill="#fffdf7" stroke="#2f4a22" stroke-width="2"/>
+<text x="500.0" y="30.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">Soorten goederen</text>
+</svg>

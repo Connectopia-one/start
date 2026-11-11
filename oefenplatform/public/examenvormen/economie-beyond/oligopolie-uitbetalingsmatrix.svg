@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#fffdf7"/>
+<text x="500.0" y="60.0" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Winst van Bakkerij Noord ; winst van Bakkerij Zuid (in duizend euro)</text>
+<text x="640.0" y="120.0" font-size="22" text-anchor="middle" fill="#2f4a22" font-weight="bold">Bakkerij Zuid</text>
+<text x="150.0" y="368.0" font-size="22" text-anchor="middle" fill="#2f4a22" font-weight="bold">Bakkerij Noord</text>
+<rect x="360.0" y="140.0" width="280.0" height="50.0" rx="0" fill="#eef3e6" stroke="#2f4a22" stroke-width="2"/>
+<text x="500.0" y="172.0" font-size="21" text-anchor="middle" fill="#24331b" font-weight="bold">hoge prijs</text>
+<rect x="640.0" y="140.0" width="280.0" height="50.0" rx="0" fill="#eef3e6" stroke="#2f4a22" stroke-width="2"/>
+<text x="780.0" y="172.0" font-size="21" text-anchor="middle" fill="#24331b" font-weight="bold">lage prijs</text>
+<rect x="230.0" y="190.0" width="130.0" height="170.0" rx="0" fill="#eef3e6" stroke="#2f4a22" stroke-width="2"/>
+<text x="295.0" y="282.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">hoge prijs</text>
+<rect x="360.0" y="190.0" width="280.0" height="170.0" rx="0" fill="#fffdf7" stroke="#2f4a22" stroke-width="2"/>
+<text x="500.0" y="287.0" font-size="36" text-anchor="middle" fill="#24331b" font-weight="bold">12 ; 12</text>
+<rect x="640.0" y="190.0" width="280.0" height="170.0" rx="0" fill="#fffdf7" stroke="#2f4a22" stroke-width="2"/>
+<text x="780.0" y="287.0" font-size="36" text-anchor="middle" fill="#24331b" font-weight="bold">3 ; 18</text>
+<rect x="230.0" y="360.0" width="130.0" height="170.0" rx="0" fill="#eef3e6" stroke="#2f4a22" stroke-width="2"/>
+<text x="295.0" y="452.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">lage prijs</text>
+<rect x="360.0" y="360.0" width="280.0" height="170.0" rx="0" fill="#fffdf7" stroke="#2f4a22" stroke-width="2"/>
+<text x="500.0" y="457.0" font-size="36" text-anchor="middle" fill="#24331b" font-weight="bold">18 ; 3</text>
+<rect x="640.0" y="360.0" width="280.0" height="170.0" rx="0" fill="#fffdf7" stroke="#2f4a22" stroke-width="2"/>
+<text x="780.0" y="457.0" font-size="36" text-anchor="middle" fill="#24331b" font-weight="bold">6 ; 6</text>
+<text x="500.0" y="30.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">Uitbetalingsmatrix van twee bakkerijen</text>
+</svg>

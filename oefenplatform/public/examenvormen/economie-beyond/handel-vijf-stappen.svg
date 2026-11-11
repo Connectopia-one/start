@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#fffdf7"/>
+<text x="500.0" y="70.0" font-size="24" text-anchor="middle" fill="#24331b" font-weight="bold">Vijf stappen van economische samenwerking</text>
+<text x="500.0" y="102.0" font-size="20" text-anchor="middle" fill="#24331b">van minst naar meest verregaand</text>
+<rect x="75.0" y="500.0" width="170.0" height="90.0" rx="0" fill="#eef3e6" stroke="#2f4a22" stroke-width="2.5"/>
+<text x="160.0" y="552.0" font-size="26" text-anchor="middle" fill="#2f4a22" font-weight="bold">stap 1</text>
+<rect x="245.0" y="410.0" width="170.0" height="180.0" rx="0" fill="#e2ebd8" stroke="#2f4a22" stroke-width="2.5"/>
+<text x="330.0" y="462.0" font-size="26" text-anchor="middle" fill="#2f4a22" font-weight="bold">stap 2</text>
+<rect x="415.0" y="320.0" width="170.0" height="270.0" rx="0" fill="#eef3e6" stroke="#2f4a22" stroke-width="2.5"/>
+<text x="500.0" y="372.0" font-size="26" text-anchor="middle" fill="#2f4a22" font-weight="bold">stap 3</text>
+<rect x="585.0" y="230.0" width="170.0" height="360.0" rx="0" fill="#e2ebd8" stroke="#2f4a22" stroke-width="2.5"/>
+<text x="670.0" y="282.0" font-size="26" text-anchor="middle" fill="#2f4a22" font-weight="bold">stap 4</text>
+<rect x="755.0" y="140.0" width="170.0" height="450.0" rx="0" fill="#eef3e6" stroke="#2f4a22" stroke-width="2.5"/>
+<text x="840.0" y="192.0" font-size="26" text-anchor="middle" fill="#2f4a22" font-weight="bold">stap 5</text>
+<line x1="65.0" y1="590.0" x2="935.0" y2="590.0" stroke="#2f4a22" stroke-width="3"/>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#fffdf7"/>
+<text x="500.0" y="90.0" font-size="26" text-anchor="middle" fill="#24331b" font-weight="bold">De vijf fasen van de onderzoekscyclus</text>
+<defs><marker id="pijl" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" refX="12" refY="7" orient="auto"><path d="M0,0 L14,7 L0,14 z" fill="#2f4a22"/></marker></defs>
+<rect x="40.0" y="250.0" width="150.0" height="130.0" rx="20" fill="#eef3e6" stroke="#2f4a22" stroke-width="3"/>
+<text x="115.0" y="323.0" font-size="26" text-anchor="middle" fill="#2f4a22" font-weight="bold">fase 1</text>
+<line x1="194" y1="315.0" x2="222" y2="315.0" stroke="#2f4a22" stroke-width="4" marker-end="url(#pijl)"/>
+<rect x="230.0" y="250.0" width="150.0" height="130.0" rx="20" fill="#eef3e6" stroke="#2f4a22" stroke-width="3"/>
+<text x="305.0" y="323.0" font-size="26" text-anchor="middle" fill="#2f4a22" font-weight="bold">fase 2</text>
+<line x1="384" y1="315.0" x2="412" y2="315.0" stroke="#2f4a22" stroke-width="4" marker-end="url(#pijl)"/>
+<rect x="420.0" y="250.0" width="150.0" height="130.0" rx="20" fill="#eef3e6" stroke="#2f4a22" stroke-width="3"/>
+<text x="495.0" y="323.0" font-size="26" text-anchor="middle" fill="#2f4a22" font-weight="bold">fase 3</text>
+<line x1="574" y1="315.0" x2="602" y2="315.0" stroke="#2f4a22" stroke-width="4" marker-end="url(#pijl)"/>
+<rect x="610.0" y="250.0" width="150.0" height="130.0" rx="20" fill="#eef3e6" stroke="#2f4a22" stroke-width="3"/>
+<text x="685.0" y="323.0" font-size="26" text-anchor="middle" fill="#2f4a22" font-weight="bold">fase 4</text>
+<line x1="764" y1="315.0" x2="792" y2="315.0" stroke="#2f4a22" stroke-width="4" marker-end="url(#pijl)"/>
+<rect x="800.0" y="250.0" width="150.0" height="130.0" rx="20" fill="#eef3e6" stroke="#2f4a22" stroke-width="3"/>
+<text x="875.0" y="323.0" font-size="26" text-anchor="middle" fill="#2f4a22" font-weight="bold">fase 5</text>
+</svg>
