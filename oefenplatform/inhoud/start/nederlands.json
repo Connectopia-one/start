@@ -11,7 +11,7 @@
             "woord voor woord",
             "zoekend, je speurt naar dat ene stukje",
             "hardop",
-            "helemaal opnieuw vanaf het begin"
+            "helemaal opnieuw vanaf het begin, elke regel"
           ],
           "antwoord": 1,
           "uitleg": "Als je maar een klein stukje informatie nodig hebt, scan je de tekst tot je het vindt."
@@ -81,7 +81,7 @@
           "vraag": "Wat doe je het best als je een moeilijk woord tegenkomt in een tekst?",
           "opties": [
             "de tekst wegleggen",
-            "het woord overslaan en niet meer aan denken",
+            "het woord overslaan en er niet meer aan denken, ook al begrijp je de zin dan niet",
             "kijken naar de zinnen errond om de betekenis te raden",
             "alleen naar de plaatjes kijken"
           ],
@@ -170,7 +170,7 @@
           "type": "meerkeuze",
           "vraag": "Waar let je op om te weten of informatie op het internet klopt?",
           "opties": [
-            "of de pagina mooi is",
+            "of de pagina mooi is en veel foto's bevat",
             "wie de tekst geschreven heeft en wanneer",
             "hoeveel kleuren er staan",
             "hoe lang de tekst is"
@@ -203,7 +203,7 @@
             "een feit kan je nagaan, een mening is wat iemand vindt",
             "er is geen verschil",
             "een mening is altijd juist",
-            "een feit staat altijd vooraan"
+            "een feit staat altijd vooraan in de tekst, een mening achteraan"
           ],
           "antwoord": 0,
           "uitleg": "Belgie heeft drie landstalen is een feit; Frans is het mooiste is een mening."
@@ -368,7 +368,7 @@
           "type": "meerkeuze",
           "vraag": "Wat zet je achteraan een opsomming in een zin?",
           "opties": [
-            "een punt",
+            "een punt na elk deel van de opsomming in de zin",
             "komma's tussen de delen en een punt achteraan",
             "alleen hoofdletters",
             "niets"
@@ -411,7 +411,7 @@
           "vraag": "Wat doe je als iemand anders aan het woord is in een gesprek?",
           "opties": [
             "luisteren en wachten tot hij klaar is",
-            "meteen onderbreken",
+            "meteen onderbreken als je iets wil zeggen",
             "wegkijken",
             "harder beginnen praten"
           ],
@@ -506,7 +506,7 @@
           "type": "meerkeuze",
           "vraag": "Wat doe je als je iets niet goed verstaan hebt?",
           "opties": [
-            "doen alsof je het begrepen hebt",
+            "doen alsof je het begrepen hebt, en verder knikken",
             "vriendelijk vragen om het te herhalen",
             "boos worden",
             "weglopen"
@@ -524,7 +524,7 @@
           "type": "meerkeuze",
           "vraag": "Je presenteert met een scherm erbij. Wat zet je het best op je dia?",
           "opties": [
-            "je hele tekst",
+            "je hele tekst, zodat je alles kan voorlezen",
             "enkele steekwoorden en een beeld",
             "niets",
             "alleen je naam"
@@ -931,7 +931,7 @@
           "vraag": "Wat betekent het gezegde 'de kat uit de boom kijken'?",
           "opties": [
             "eerst afwachten hoe iets loopt",
-            "snel beslissen",
+            "snel beslissen zonder na te denken",
             "iemand plagen",
             "heel hard werken"
           ],
@@ -1174,7 +1174,7 @@
           "vraag": "Wat betekent de uitdrukking 'een appeltje voor de dorst'?",
           "opties": [
             "iets opzij zetten voor later",
-            "honger hebben",
+            "heel veel honger hebben na het sporten",
             "ziek worden",
             "snel eten"
           ],
@@ -1364,7 +1364,7 @@
           "vraag": "Wat is rijm?",
           "opties": [
             "woorden die eindigen op dezelfde klank",
-            "woorden met dezelfde betekenis",
+            "woorden die precies dezelfde betekenis hebben",
             "woorden met veel lettergrepen",
             "woorden uit een andere taal"
           ],
@@ -1382,7 +1382,7 @@
           "vraag": "Wat is een mythe meestal?",
           "opties": [
             "een oud verhaal over goden en helden",
-            "een gebruiksaanwijzing",
+            "een gebruiksaanwijzing bij een nieuw toestel",
             "een krantenbericht",
             "een woordenlijst"
           ],
@@ -1413,7 +1413,7 @@
           "opties": [
             "een boek over vulkanen met echte foto's",
             "een sprookje",
-            "een verhaal over een draak",
+            "een verhaal over een draak in een kasteel",
             "een strip over superhelden"
           ],
           "antwoord": 0,
@@ -1430,7 +1430,7 @@
           "vraag": "Wat bedoelt men met de hoofdgedachte van een verhaal?",
           "opties": [
             "waar het verhaal in de kern over gaat",
-            "het eerste hoofdstuk",
+            "het eerste hoofdstuk van het boek, waar alles begint",
             "de naam van de schrijver",
             "het aantal bladzijden"
           ],
@@ -1448,7 +1448,7 @@
           "vraag": "Wat is een cliffhanger?",
           "opties": [
             "een einde dat je in spanning laat",
-            "het begin van een boek",
+            "het allereerste begin van een boek",
             "een soort gedicht",
             "een personage"
           ],

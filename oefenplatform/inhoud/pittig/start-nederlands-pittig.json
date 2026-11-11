@@ -74,7 +74,10 @@
         {
           "type": "invultekst",
           "vraag": "Hoe noem je de lijst vooraan in een boek waarop staat op welke bladzijde elk hoofdstuk begint? Antwoord met één woord.",
-          "antwoord": ["inhoudstafel", "inhoud"],
+          "antwoord": [
+            "inhoudstafel",
+            "inhoud"
+          ],
           "uitleg": "De inhoudstafel staat meestal vooraan. Achteraan vind je soms een register, waarin je op trefwoord zoekt."
         },
         {
@@ -275,7 +278,7 @@
           "vraag": "Je schrijft een verslag van een uitstap. Wat hoort niet in het besluit thuis?",
           "opties": [
             "de namen van alle deelnemers",
-            "wat je ervan vond",
+            "wat je ervan vond en waarom je dat vond",
             "een korte samenvatting",
             "wat je eruit geleerd hebt"
           ],
@@ -318,7 +321,7 @@
           "opties": [
             "het probleem en hoe het groeit",
             "hoe alles goedkomt",
-            "wie de personages zijn",
+            "wie de personages zijn en hoe ze eruitzien",
             "waar het verhaal speelt"
           ],
           "antwoord": 0,
@@ -354,7 +357,7 @@
           "vraag": "Je houdt een spreekbeurt en merkt dat de klas afhaakt. Wat doe je het best?",
           "opties": [
             "een vraag stellen of een voorbeeld geven",
-            "sneller praten om sneller klaar te zijn",
+            "sneller praten om sneller klaar te zijn met je beurt",
             "je tekst helemaal voorlezen",
             "gewoon harder roepen"
           ],
@@ -462,7 +465,7 @@
           "vraag": "Je belt naar de sportclub. Wat zeg je het eerst?",
           "opties": [
             "je naam en waarvoor je belt",
-            "of ze nog plaats hebben",
+            "of ze nog plaats hebben in een ploeg voor jou",
             "dat je het druk hebt",
             "niets, je wacht gewoon af"
           ],
@@ -510,7 +513,7 @@
           "vraag": "Je geeft een spreekbeurt over je hobby. Wat maakt ze het levendigst?",
           "opties": [
             "een eigen voorwerp of foto meebrengen",
-            "meer tekst op je dia's zetten",
+            "meer tekst op je dia's zetten zodat je alles kan aflezen",
             "sneller spreken",
             "je tekst uit het hoofd opzeggen"
           ],
@@ -553,7 +556,7 @@
           "vraag": "Welk woord is géén samenstelling?",
           "opties": [
             "vriendelijk",
-            "voetbal",
+            "voetbalwedstrijd",
             "tandarts",
             "huisdeur"
           ],
@@ -649,7 +652,7 @@
           "vraag": "Wat betekent “de puntjes op de i zetten”?",
           "opties": [
             "iets helemaal afwerken",
-            "iets snel afraffelen",
+            "iets snel afraffelen zonder er goed op te letten",
             "iets opnieuw beginnen",
             "iets doorgeven"
           ],
@@ -705,7 +708,7 @@
           "opties": [
             "een sage speelt op een echte plek, een sprookje niet",
             "een sprookje is altijd een stuk langer dan een sage",
-            "een sage rijmt altijd",
+            "een sage rijmt altijd, van de eerste tot de laatste zin",
             "er is geen verschil"
           ],
           "antwoord": 0,
@@ -729,7 +732,7 @@
           "opties": [
             "de maan krijgt menselijke trekken",
             "de zin bevat een rijm",
-            "de zin is een vergelijking",
+            "de zin is een vergelijking, want er staat \"als\" in",
             "de zin is een feit"
           ],
           "antwoord": 0,

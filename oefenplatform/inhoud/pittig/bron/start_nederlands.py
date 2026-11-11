@@ -267,7 +267,7 @@ SCHRIJVEN = [
         "vraag": "Je schrijft een verslag van een uitstap. Wat hoort niet in het besluit thuis?",
         "opties": [
             "de namen van alle deelnemers",
-            "wat je ervan vond",
+            "wat je ervan vond en waarom je dat vond",
             "een korte samenvatting",
             "wat je eruit geleerd hebt",
         ],
@@ -310,7 +310,7 @@ SCHRIJVEN = [
         "opties": [
             "het probleem en hoe het groeit",
             "hoe alles goedkomt",
-            "wie de personages zijn",
+            "wie de personages zijn en hoe ze eruitzien",
             "waar het verhaal speelt",
         ],
         "antwoord": 0,
@@ -342,7 +342,7 @@ SPREKEN = [
         "vraag": "Je houdt een spreekbeurt en merkt dat de klas afhaakt. Wat doe je het best?",
         "opties": [
             "een vraag stellen of een voorbeeld geven",
-            "sneller praten om sneller klaar te zijn",
+            "sneller praten om sneller klaar te zijn met je beurt",
             "je tekst helemaal voorlezen",
             "gewoon harder roepen",
         ],
@@ -450,7 +450,7 @@ SPREKEN = [
         "vraag": "Je belt naar de sportclub. Wat zeg je het eerst?",
         "opties": [
             "je naam en waarvoor je belt",
-            "of ze nog plaats hebben",
+            "of ze nog plaats hebben in een ploeg voor jou",
             "dat je het druk hebt",
             "niets, je wacht gewoon af",
         ],
@@ -498,7 +498,7 @@ SPREKEN = [
         "vraag": "Je geeft een spreekbeurt over je hobby. Wat maakt ze het levendigst?",
         "opties": [
             "een eigen voorwerp of foto meebrengen",
-            "meer tekst op je dia's zetten",
+            "meer tekst op je dia's zetten zodat je alles kan aflezen",
             "sneller spreken",
             "je tekst uit het hoofd opzeggen",
         ],
@@ -531,7 +531,7 @@ TAALSYSTEEM = [
     {
         "type": "meerkeuze",
         "vraag": "Welk woord is géén samenstelling?",
-        "opties": ["vriendelijk", "voetbal", "tandarts", "huisdeur"],
+        "opties": ["vriendelijk", "voetbalwedstrijd", "tandarts", "huisdeur"],
         "antwoord": 0,
         "uitleg": "Een samenstelling bestaat uit twee woorden die elk apart bestaan: voet + bal, tand + arts, huis + deur. Bij vriendelijk is -lijk een achtervoegsel, geen woord.",
     },
@@ -613,7 +613,7 @@ TAALSYSTEEM = [
     {
         "type": "meerkeuze",
         "vraag": "Wat betekent “de puntjes op de i zetten”?",
-        "opties": ["iets helemaal afwerken", "iets snel afraffelen", "iets opnieuw beginnen", "iets doorgeven"],
+        "opties": ["iets helemaal afwerken", "iets snel afraffelen zonder er goed op te letten", "iets opnieuw beginnen", "iets doorgeven"],
         "antwoord": 0,
         "uitleg": "De puntjes zijn het laatste kleine detail dat er nog bij moet. Wie ze zet, maakt iets helemaal af.",
     },
@@ -657,7 +657,7 @@ LITERATUUR = [
         "opties": [
             "een sage speelt op een echte plek, een sprookje niet",
             "een sprookje is altijd een stuk langer dan een sage",
-            "een sage rijmt altijd",
+            "een sage rijmt altijd, van de eerste tot de laatste zin",
             "er is geen verschil",
         ],
         "antwoord": 0,
@@ -681,7 +681,7 @@ LITERATUUR = [
         "opties": [
             "de maan krijgt menselijke trekken",
             "de zin bevat een rijm",
-            "de zin is een vergelijking",
+            "de zin is een vergelijking, want er staat \"als\" in",
             "de zin is een feit",
         ],
         "antwoord": 0,
