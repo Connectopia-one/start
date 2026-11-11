@@ -84,7 +84,7 @@
           "vraag": "Wat is kenmerkend voor een hydraat?",
           "opties": [
             "er zit kristalwater in het rooster",
-            "er zit waterstofgas in opgelost",
+            "er zit waterstofgas in het rooster opgelost",
             "het reageert heftig met water",
             "het lost niet op in water"
           ],
@@ -118,7 +118,7 @@
           "vraag": "Waaraan herken je een peroxide?",
           "opties": [
             "aan twee zuurstofatomen die aan elkaar gebonden zijn",
-            "aan een zuurstofatoom met een negatieve lading",
+            "aan een zuurstofatoom met een negatieve lading van min twee",
             "aan een hydroxidegroep naast een metaalion",
             "aan een zuurrest met drie zuurstofatomen"
           ],
@@ -692,7 +692,7 @@
           "vraag": "Wat betekent het als een koolstofketen verzadigd is?",
           "opties": [
             "er zitten enkel enkelvoudige bindingen tussen de koolstofatomen",
-            "er zit minstens één dubbele binding in de keten",
+            "er zit minstens één dubbele binding in de keten tussen twee koolstofatomen",
             "er zitten zoveel vertakkingen als mogelijk aan de keten",
             "er zitten geen andere elementen dan koolstof en waterstof in"
           ],
@@ -1041,7 +1041,7 @@
           "vraag": "Waarom is een vertakte keten vluchtiger dan een onvertakte met dezelfde formule?",
           "opties": [
             "de moleculen raken elkaar over een kleiner oppervlak",
-            "de moleculen zijn zwaarder dan de onvertakte",
+            "de moleculen zijn zwaarder dan de onvertakte van dezelfde lengte",
             "de moleculen vormen waterstofbruggen met elkaar",
             "de moleculen hebben een hogere molaire massa"
           ],
@@ -1092,7 +1092,7 @@
           "vraag": "Waarom heeft methaan geen isomeren?",
           "opties": [
             "er is maar één manier om één koolstof en vier waterstof te verbinden",
-            "er zitten te weinig waterstofatomen in de molecule om te vertakken",
+            "er zitten te weinig waterstofatomen in de molecule om nog te kunnen vertakken",
             "er zit geen functionele groep in de molecule",
             "er zit geen dubbele binding in de molecule"
           ],
@@ -1444,7 +1444,7 @@
           "vraag": "Waarvoor dient de diagonaalregel?",
           "opties": [
             "om de volgorde te vinden waarin de subniveaus gevuld worden",
-            "om het aantal elektronen in een subniveau te berekenen",
+            "om het aantal elektronen in elk subniveau van het atoom te berekenen",
             "om de lading van een mono-atomisch ion te voorspellen",
             "om de vorm van een orbitaal in de ruimte te bepalen"
           ],
@@ -1484,7 +1484,7 @@
           "vraag": "Wat toont de hokjesvoorstelling dat de exponentennotatie niet toont?",
           "opties": [
             "hoe de elektronen over de orbitalen verdeeld zijn, met hun spin",
-            "hoeveel elektronen er in elk subniveau van het atoom zitten",
+            "hoeveel elektronen er in elk subniveau van het atoom zitten, per hoofdniveau",
             "in welk blok van het periodiek systeem het element staat",
             "hoeveel protonen er in de kern van het atoom aanwezig zijn"
           ],
@@ -1513,7 +1513,7 @@
           "vraag": "Waarom eindigt de configuratie van chroom op 3d⁵ 4s¹ en niet op 3d⁴ 4s²?",
           "opties": [
             "een halfgevuld d-subniveau is stabieler dan een gewone vulling",
-            "een volledig gevuld s-subniveau is onmogelijk bij een metaal",
+            "een volledig gevuld s-subniveau is onmogelijk bij een metaal uit het d-blok",
             "het 4s-subniveau ligt bij chroom hoger in energie dan 4p",
             "het d-subniveau van chroom heeft maar vijf orbitalen vrij"
           ],
@@ -1694,7 +1694,7 @@
           "vraag": "Waarom zijn de edelgassen zo weinig reactief?",
           "opties": [
             "hun buitenste hoofdniveau is helemaal volgevuld",
-            "hun kern bevat te veel protonen om te reageren",
+            "hun kern bevat te veel protonen om nog te kunnen reageren",
             "hun elektronen zitten in een f-subniveau vast",
             "hun atomen zijn te groot om te kunnen binden"
           ],
@@ -1924,7 +1924,7 @@
           "vraag": "Waarom is de drievoudige binding van stikstofgas zo moeilijk te breken?",
           "opties": [
             "er moeten één sigma- en twee pi-bindingen samen verbroken worden",
-            "er zit een vrij elektronenpaar tussen de twee stikstofatomen",
+            "er zit een vrij elektronenpaar tussen de twee stikstofatomen, dat de binding vasthoudt",
             "de twee atomen liggen ver van elkaar in de molecule",
             "stikstof heeft een heel hoge elektronegatieve waarde"
           ],
@@ -1942,7 +1942,7 @@
           "vraag": "Wat betekent radiale symmetrie bij een sigma-binding?",
           "opties": [
             "de binding ziet er van alle kanten rond de as hetzelfde uit",
-            "de binding heeft boven en onder de as dezelfde vorm",
+            "de binding heeft boven en onder de as dezelfde vorm, zoals een pi-binding",
             "de binding heeft aan beide kernen evenveel elektronen",
             "de binding heeft dezelfde lengte in elke richting"
           ],
@@ -2322,7 +2322,7 @@
           "vraag": "Waarom is de bindingshoek in ammoniak kleiner dan in methaan?",
           "opties": [
             "ammoniak heeft een vrij elektronenpaar dat de bindingen samenduwt",
-            "ammoniak heeft een kleiner centraal atoom dan methaan",
+            "ammoniak heeft een kleiner centraal atoom dan methaan, dus minder plaats",
             "ammoniak heeft minder waterstofatomen om plaats te maken",
             "ammoniak heeft een dubbele binding naar het stikstofatoom"
           ],
@@ -2494,7 +2494,7 @@
           "vraag": "Wanneer is een binding tussen twee atomen polair?",
           "opties": [
             "als de twee atomen een verschillende elektronegatieve waarde hebben",
-            "als de twee atomen allebei een vrij elektronenpaar hebben",
+            "als de twee atomen allebei een vrij elektronenpaar hebben naast de binding",
             "als de binding uit een sigma- en een pi-binding bestaat",
             "als de twee atomen tot dezelfde groep van het systeem horen"
           ],
@@ -2558,7 +2558,7 @@
           "vraag": "Waarom kookt pentaan bij een hogere temperatuur dan butaan?",
           "opties": [
             "de langere keten geeft meer contact en dus sterkere londonkrachten",
-            "de langere keten vormt waterstofbruggen met haar buren",
+            "de langere keten vormt waterstofbruggen met haar buren in de vloeistof",
             "de langere keten is polair en butaan is apolair",
             "de langere keten heeft een dubbele binding erbij"
           ],
@@ -3132,7 +3132,7 @@
           "vraag": "Waarom vul je bij het maken van een oplossing aan tot de maatstreep en niet eerst het water af?",
           "opties": [
             "de opgeloste stof neemt zelf ook plaats in het eindvolume",
-            "het water verdampt tijdens het oplossen van de stof",
+            "het water verdampt tijdens het oplossen van de stof in de maatkolf",
             "de maatkolf is onnauwkeurig bij kleine volumes water",
             "de stof lost sneller op in een volle maatkolf"
           ],
@@ -3396,7 +3396,7 @@
           "vraag": "Wat is het limiterend reagens?",
           "opties": [
             "de stof die als eerste opgebruikt is en de reactie stopzet",
-            "de stof waarvan het meeste overblijft na de reactie",
+            "de stof waarvan het meeste overblijft nadat de reactie helemaal gestopt is",
             "de stof met de grootste coëfficiënt in de vergelijking",
             "de stof met de kleinste molaire massa in de reactie"
           ],
@@ -3621,7 +3621,7 @@
           "vraag": "Hoe druk je de snelheid van een reactie uit?",
           "opties": [
             "als de verandering van een concentratie per tijdseenheid",
-            "als de hoeveelheid product die in totaal ontstaat",
+            "als de hoeveelheid product die er in totaal ontstaat tot de reactie stopt",
             "als het aantal mol reagens dat je in de beker doet",
             "als de temperatuur waarbij de reactie op gang komt"
           ],
@@ -3633,7 +3633,7 @@
           "vraag": "Wat is een effectieve botsing?",
           "opties": [
             "een botsing met genoeg energie en de juiste stand om te reageren",
-            "een botsing waarbij de deeltjes gewoon van elkaar afketsen",
+            "een botsing waarbij de deeltjes gewoon van elkaar afketsen zonder te reageren",
             "een botsing tussen twee deeltjes van dezelfde soort stof",
             "een botsing die de temperatuur van het mengsel doet stijgen"
           ],
@@ -3856,7 +3856,7 @@
           "vraag": "Wat stelt de activeringsenergie in een energiediagram voor?",
           "opties": [
             "de energie die nodig is om de reactie op gang te brengen",
-            "de energie die bij de reactie vrijkomt als warmte",
+            "de energie die bij de reactie vrijkomt als warmte of als licht",
             "de energie van de reactieproducten samen",
             "het verschil in energie tussen begin en einde"
           ],
@@ -3868,7 +3868,7 @@
           "vraag": "Wat is het geactiveerd complex?",
           "opties": [
             "de onstabiele toestand op de top van het energiediagram",
-            "het reactieproduct dat als eerste gevormd wordt",
+            "het reactieproduct dat als eerste gevormd wordt in het mengsel",
             "de katalysator die tijdelijk aan het reagens bindt",
             "het mengsel van alle reagentia voor de reactie start"
           ],
@@ -3925,7 +3925,7 @@
           "vraag": "Hoe bepaal je de reactie-energie uit een energiediagram?",
           "opties": [
             "als het verschil in energie tussen producten en reagentia",
-            "als de hoogte van de top boven de reagentia",
+            "als de hoogte van de top boven de reagentia in het diagram",
             "als de hoogte van de top boven de producten",
             "als de som van de energie van alle stoffen samen"
           ],
@@ -4056,7 +4056,7 @@
           "vraag": "Waarom staat voedsel langer goed in de koelkast?",
           "opties": [
             "bij een lagere temperatuur verlopen de reacties van bederf trager",
-            "bij een lagere temperatuur stoppen alle reacties volledig",
+            "bij een lagere temperatuur stoppen alle reacties van bederf volledig",
             "bij een lagere temperatuur werkt elk enzym veel sneller",
             "bij een lagere temperatuur is er minder zuurstof aanwezig"
           ],
@@ -4085,7 +4085,7 @@
           "vraag": "Wat betekent het dat een chemisch evenwicht dynamisch is?",
           "opties": [
             "de heen- en de terugreactie blijven doorgaan, even snel",
-            "de twee reacties zijn beide volledig gestopt",
+            "de twee reacties zijn beide volledig gestopt zodra het evenwicht bereikt is",
             "de concentraties blijven voortdurend veranderen",
             "de reactie verloopt alleen van links naar rechts"
           ],
@@ -4124,7 +4124,7 @@
           "vraag": "Hoe kan je in het labo zien dat een reactie een evenwicht is en niet aflopend?",
           "opties": [
             "er blijft van elke beginstof iets over, hoelang je ook wacht",
-            "de reactie gaat sneller als je het mengsel verwarmt",
+            "de reactie gaat sneller als je het mengsel verwarmt op een bunsenbrander",
             "er komt een gas vrij tijdens het verloop van de reactie",
             "de kleur van het mengsel verandert tijdens de reactie"
           ],
@@ -4193,7 +4193,7 @@
           "vraag": "Het reactiequotiënt Q is kleiner dan de evenwichtsconstante K. Wat gebeurt er?",
           "opties": [
             "de reactie verloopt verder naar rechts, naar meer product",
-            "de reactie verloopt verder naar links, naar meer reagens",
+            "de reactie verloopt verder naar links, naar meer reagens in het mengsel",
             "het mengsel is al in evenwicht en verandert niet meer",
             "de evenwichtsconstante wordt groter tot ze gelijk zijn"
           ],
@@ -4211,7 +4211,7 @@
           "vraag": "Wat is de omzettingsgraad van een reactie?",
           "opties": [
             "het deel van een beginstof dat werkelijk gereageerd heeft",
-            "het deel van de energie dat tijdens de reactie vrijkomt",
+            "het deel van de energie dat tijdens de reactie vrijkomt als warmte",
             "de verhouding tussen de twee snelheden in het evenwicht",
             "de tijd die nodig is om het evenwicht te bereiken"
           ],
@@ -4223,7 +4223,7 @@
           "vraag": "Waarom zegt een hoge evenwichtsconstante niets over de snelheid?",
           "opties": [
             "K gaat over de verhouding in het evenwicht, niet over de weg ernaartoe",
-            "K is enkel gemeten bij hoge temperatuur en dus niet bruikbaar",
+            "K is enkel gemeten bij hoge temperatuur en is dus bij kamertemperatuur niet bruikbaar",
             "K hangt af van de activeringsenergie van de heenreactie",
             "K wordt groter zodra de reactie sneller begint te lopen"
           ],
@@ -4280,7 +4280,7 @@
           "vraag": "Een evenwicht heeft K gelijk aan \\(1\\). Wat weet je dan?",
           "opties": [
             "teller en noemer zijn in het evenwicht ongeveer even groot",
-            "het evenwicht ligt helemaal aan de kant van de producten",
+            "het evenwicht ligt helemaal aan de kant van de producten, rechts",
             "het evenwicht ligt helemaal aan de kant van de reagentia",
             "er is in het mengsel geen enkele reactie opgetreden"
           ],
@@ -4384,7 +4384,7 @@
           "vraag": "Je verhoogt de temperatuur van een exo-energetisch evenwicht. Welke kant gaat het op?",
           "opties": [
             "naar links, want de endo-energetische richting werkt de warmte weg",
-            "naar rechts, want een hogere temperatuur versnelt de heenreactie",
+            "naar rechts, want een hogere temperatuur versnelt altijd de heenreactie",
             "naar rechts, want de evenwichtsconstante wordt altijd groter",
             "het evenwicht verschuift niet, enkel de snelheid verandert"
           ],
@@ -4423,7 +4423,7 @@
           "vraag": "In het evenwicht N₂ + \\(3\\) H₂ ⇌ \\(2\\) NH₃ verhoog je de druk. Wat gebeurt er met de hoeveelheid ammoniak?",
           "opties": [
             "ze neemt toe, want rechts staan minder mol gas",
-            "ze neemt af, want rechts staan meer mol gas",
+            "ze neemt af, want rechts staan meer mol gas dan links",
             "ze blijft gelijk, want druk doet hier niets",
             "ze neemt eerst toe en daarna weer af"
           ],
@@ -4453,7 +4453,7 @@
           "vraag": "Waarom haalt men in de industrie het product voortdurend uit een evenwichtsmengsel?",
           "opties": [
             "zo blijft het evenwicht naar rechts werken en reageert er meer weg",
-            "zo wordt de evenwichtsconstante van de reactie groter",
+            "zo wordt de evenwichtsconstante van de reactie groter en blijft ze groot",
             "zo verloopt de reactie bij een lagere temperatuur",
             "zo hoeft er geen katalysator meer gebruikt te worden"
           ],
@@ -4727,7 +4727,7 @@
           "vraag": "Een amfolyt komt in water terecht. Hoe weet je welke reactie het meest waarschijnlijk is?",
           "opties": [
             "je vergelijkt zijn zuurconstante met zijn baseconstante",
-            "je kijkt welke reactie het snelste op gang komt",
+            "je kijkt welke reactie het snelste op gang komt in het water",
             "je kijkt hoeveel protonen het deeltje in totaal heeft",
             "je vergelijkt zijn molaire massa met die van water"
           ],
@@ -4826,7 +4826,7 @@
           "vraag": "Wat is de ionisatiegraad van een zuur?",
           "opties": [
             "het deel van de moleculen dat zijn proton heeft afgestaan",
-            "het aantal protonen dat één molecule kan afstaan",
+            "het aantal protonen dat één molecule van het zuur kan afstaan aan water",
             "de hoeveelheid zuur die je per liter water kan oplossen",
             "het verschil tussen de pH en de pKz van het zuur"
           ],
@@ -4865,7 +4865,7 @@
           "vraag": "Hoe werkt een zuurbase-indicator?",
           "opties": [
             "het is zelf een zwak zuur waarvan de twee vormen anders gekleurd zijn",
-            "het is een sterk zuur dat van kleur verandert bij verdunnen",
+            "het is een sterk zuur dat van kleur verandert bij verdunnen met water",
             "het meet de elektrische geleidbaarheid van de oplossing",
             "het reageert met het zout dat bij de neutralisatie ontstaat"
           ],
@@ -4900,7 +4900,7 @@
           "vraag": "Waarom is een oplossing van natriumacetaat basisch?",
           "opties": [
             "het acetaation is de geconjugeerde base van een zwak zuur",
-            "het natriumion neemt protonen op uit het water",
+            "het natriumion neemt protonen op uit het water en laat hydroxide over",
             "het acetaation staat protonen af aan het water",
             "het zout reageert met water tot natriumhydroxide"
           ],
@@ -5004,7 +5004,7 @@
           "vraag": "Wat is de pH van een oplossing?",
           "opties": [
             "de negatieve logaritme van de concentratie hydroxoniumionen",
-            "de negatieve logaritme van de concentratie hydroxide-ionen",
+            "de negatieve logaritme van de concentratie hydroxide-ionen in de oplossing",
             "de concentratie hydroxoniumionen in mol per liter",
             "het aantal mol zuur dat je in de oplossing gedaan hebt"
           ],
@@ -5142,7 +5142,7 @@
           "vraag": "Waarom gebruikt men een logaritmische schaal voor de zuurtegraad?",
           "opties": [
             "de concentraties liggen over heel veel machten van tien verspreid",
-            "de concentraties zijn anders niet te meten met een pH-meter",
+            "de concentraties zijn anders niet te meten met een gewone pH-meter",
             "de schaal moet van nul tot veertien lopen voor elke oplossing",
             "de pH is anders niet met een indicator te bepalen"
           ],
@@ -5469,7 +5469,7 @@
           "vraag": "Wat doet een buffer als je er een beetje sterk zuur bij giet?",
           "opties": [
             "de geconjugeerde base neemt de hydroxoniumionen weg",
-            "het zwakke zuur neemt de hydroxoniumionen weg",
+            "het zwakke zuur neemt de hydroxoniumionen weg uit de oplossing",
             "de pH daalt even sterk als in zuiver water",
             "het mengsel stopt met werken en valt uiteen"
           ],
@@ -5628,7 +5628,7 @@
           "vraag": "Je mengt een zwak zuur met een sterke base, maar niet genoeg base om alles weg te werken. Wat krijg je?",
           "opties": [
             "een buffer van het zwakke zuur met zijn geconjugeerde base",
-            "een neutrale oplossing van een zout in water",
+            "een neutrale oplossing van een zout in water, zonder enig zuur",
             "een sterk zure oplossing zonder bufferwerking",
             "een sterk basische oplossing met een overmaat base"
           ],
@@ -5640,7 +5640,7 @@
           "vraag": "Waarom buffert een mengsel van zoutzuur en natriumchloride niet?",
           "opties": [
             "het chloride-ion is een te zwakke base om protonen op te nemen",
-            "het chloride-ion is een te sterke base en neemt alles op",
+            "het chloride-ion is een te sterke base en neemt alle protonen op",
             "zoutzuur is te verdund om een buffer te kunnen vormen",
             "natriumchloride lost niet goed genoeg op in water"
           ],
@@ -5693,7 +5693,7 @@
           "vraag": "Waaraan zie je het equivalentiepunt op een titratiecurve?",
           "opties": [
             "aan de steile sprong in de pH, midden in het verloop",
-            "aan het vlakke begin van de kromme bij lage pH",
+            "aan het vlakke begin van de kromme bij lage pH, voor er base bij komt",
             "aan het vlakke einde van de kromme bij hoge pH",
             "aan het snijpunt van de kromme met de verticale as"
           ],
@@ -5770,7 +5770,7 @@
           "vraag": "Waarom mag de erlenmeyer nat zijn van water, en de buret niet?",
           "opties": [
             "water verandert het aantal mol in de erlenmeyer niet",
-            "water verdampt in de erlenmeyer tijdens de titratie",
+            "water verdampt in de erlenmeyer tijdens het titreren en verandert zo de meting",
             "de erlenmeyer heeft geen nauwkeurige schaal nodig",
             "water reageert alleen met het titrans uit de buret"
           ],
@@ -5966,7 +5966,7 @@
           "vraag": "Wat gebeurt er bij een oxidatie?",
           "opties": [
             "een deeltje staat elektronen af en zijn oxidatiegetal stijgt",
-            "een deeltje neemt elektronen op en zijn oxidatiegetal daalt",
+            "een deeltje neemt elektronen op en zijn oxidatiegetal daalt daardoor",
             "een deeltje staat een proton af aan een ander deeltje",
             "een deeltje neemt zuurstof op uit de lucht"
           ],
@@ -6126,7 +6126,7 @@
           "vraag": "Wat is de eerste stap bij het opstellen van een redoxvergelijking?",
           "opties": [
             "de oxidatiegetallen bepalen en zien welk atoom verandert",
-            "de vergelijking meteen uitbalanceren met coëfficiënten",
+            "de vergelijking meteen uitbalanceren met coëfficiënten voor elk deeltje",
             "water en hydroxoniumionen aan beide kanten bijzetten",
             "de normpotentialen van de twee koppels opzoeken"
           ],
@@ -6138,7 +6138,7 @@
           "vraag": "Waarom moet je de twee halfreacties met een factor vermenigvuldigen?",
           "opties": [
             "het aantal afgestane en opgenomen elektronen moet gelijk zijn",
-            "de coëfficiënten moeten zo klein mogelijk gehouden worden",
+            "de coëfficiënten moeten zo klein mogelijk gehouden worden in de vergelijking",
             "de lading van de hele vergelijking moet nul worden",
             "het aantal watermoleculen links en rechts moet gelijk zijn"
           ],
@@ -6178,7 +6178,7 @@
           "vraag": "Waarom wordt koper niet aangetast door zoutzuur?",
           "opties": [
             "het hydroxoniumion is een te zwakke oxidator voor koper",
-            "koper is een te zwakke oxidator voor het chloride-ion",
+            "koper is een te zwakke oxidator voor het chloride-ion in de oplossing",
             "zoutzuur is te verdund om koper aan te tasten",
             "koper vormt een laagje chloride dat de reactie stopt"
           ],
@@ -6478,7 +6478,7 @@
           "vraag": "Waarom moet elke halfcel haar eigen oplossing hebben?",
           "opties": [
             "anders reageren de twee koppels rechtstreeks, zonder stroom door de draad",
-            "anders kan de spanning van de cel niet gemeten worden",
+            "anders kan de spanning van de cel niet meer gemeten worden met een voltmeter",
             "anders lost de zoutbrug op in het mengsel van de twee",
             "anders slaat er aan beide elektroden metaal neer"
           ],
@@ -6602,7 +6602,7 @@
           "vraag": "Wat is een gedwongen reactie?",
           "opties": [
             "een reactie die enkel doorgaat met energie van buitenaf",
-            "een reactie die spontaan doorgaat en energie levert",
+            "een reactie die spontaan doorgaat en zelf energie levert aan de omgeving",
             "een reactie die stopt zodra het evenwicht bereikt is",
             "een reactie die enkel met een katalysator doorgaat"
           ],
@@ -6635,7 +6635,7 @@
           "vraag": "Waarom kan je gesmolten keukenzout elektrolyseren en vast keukenzout niet?",
           "opties": [
             "in de smelt kunnen de ionen bewegen, in het vaste rooster niet",
-            "de smelt geleidt met elektronen en het rooster met ionen",
+            "de smelt geleidt met elektronen en het vaste rooster geleidt met ionen",
             "het vaste rooster heeft te veel elektronen om te geleiden",
             "de smelt heeft een hogere temperatuur en reageert sneller"
           ],
@@ -6690,7 +6690,7 @@
           "vraag": "Waarom gebruikt men elektrolyse om aluminium te maken?",
           "opties": [
             "het aluminiumion is een te zwakke oxidator om spontaan te reageren",
-            "aluminium komt in de natuur voor als zuiver metaal",
+            "aluminium komt in de natuur gewoon voor als zuiver metaal in de bodem",
             "de reactie levert zelf genoeg spanning om door te gaan",
             "aluminium lost enkel op in een zure oplossing"
           ],
@@ -6702,7 +6702,7 @@
           "vraag": "Wat gebeurt er met de anode bij het verzilveren van een voorwerp?",
           "opties": [
             "de zilveren anode lost langzaam op in de oplossing",
-            "de zilveren anode wordt dikker tijdens het proces",
+            "de zilveren anode wordt dikker tijdens het proces van verzilveren",
             "de anode blijft onveranderd en doet niet mee",
             "de anode geeft zuurstofgas af aan de oplossing"
           ],
@@ -6739,7 +6739,7 @@
           "vraag": "Bij de elektrolyse van water ontstaat er waterstofgas en zuurstofgas. Waar ontstaat het waterstofgas?",
           "opties": [
             "aan de kathode, want daar gebeurt de reductie",
-            "aan de anode, want daar gebeurt de oxidatie",
+            "aan de anode, want daar gebeurt de oxidatie van het water",
             "in de zoutbrug tussen de twee elektroden",
             "aan beide elektroden in gelijke hoeveelheid"
           ],
@@ -6826,7 +6826,7 @@
           "vraag": "Wat gebeurt er bij het opladen van een accu?",
           "opties": [
             "de reactie wordt door een elektrolyse teruggeduwd",
-            "de twee elektroden worden van plaats gewisseld",
+            "de twee elektroden worden tijdens het laden van plaats gewisseld",
             "er wordt nieuwe elektrolyt in de cel gepompt",
             "de elektronen worden in de polen opgeslagen"
           ],
@@ -6881,7 +6881,7 @@
           "vraag": "Waarom staat er op een batterij een spanning in volt?",
           "opties": [
             "het is het verschil in normpotentiaal tussen de twee koppels",
-            "het is de hoeveelheid lading die de batterij kan leveren",
+            "het is de hoeveelheid lading die de batterij in totaal kan leveren voor ze leeg is",
             "het is de tijd die de batterij meegaat bij gebruik",
             "het is de temperatuur waarbij de batterij werkt"
           ],
@@ -6893,7 +6893,7 @@
           "vraag": "Waarom mag je een batterij niet kortsluiten?",
           "opties": [
             "de reactie loopt dan heel snel en de batterij wordt gevaarlijk warm",
-            "de polen wisselen dan van teken en de batterij laadt op",
+            "de polen wisselen dan van teken en de batterij laadt zichzelf weer op",
             "de elektrolyt verdampt dan en de batterij droogt uit",
             "de spanning stijgt dan tot boven de waarde op het etiket"
           ],
@@ -6911,7 +6911,7 @@
           "vraag": "Waarom horen oude batterijen bij het klein gevaarlijk afval?",
           "opties": [
             "ze bevatten zware metalen die in het milieu terechtkomen",
-            "ze bevatten nog genoeg spanning om brand te maken",
+            "ze bevatten nog genoeg spanning om in de vuilniswagen brand te maken",
             "ze zijn te zwaar voor de gewone vuilniszak",
             "ze bevatten glas dat de zakken kan openscheuren"
           ],
@@ -6948,7 +6948,7 @@
           "vraag": "Waarom verguldt of verzilvert men juwelen in plaats van ze volledig uit dat metaal te maken?",
           "opties": [
             "een dun laagje volstaat voor het uitzicht en kost veel minder",
-            "zuiver goud of zilver geleidt de stroom niet goed genoeg",
+            "zuiver goud of zilver geleidt de stroom niet goed genoeg om er een juweel van te maken",
             "een massief juweel zou te snel corroderen in de lucht",
             "goud en zilver zijn te zacht om een laagje te vormen"
           ],
@@ -6978,7 +6978,7 @@
           "vraag": "Waarom is een oplaadbare batterij op lange termijn goedkoper dan een gewone?",
           "opties": [
             "je kan de reactie honderden keren terugduwen met een lader",
-            "ze levert een veel hogere spanning per cel",
+            "ze levert een veel hogere spanning per cel dan een gewone wegwerpbatterij",
             "ze bevat geen zware metalen die ingezameld moeten worden",
             "ze raakt nooit leeg als je ze goed bewaart"
           ],
@@ -7047,7 +7047,7 @@
           "vraag": "Waarom roest een auto sneller aan de kust of in de winter?",
           "opties": [
             "zout maakt het water geleidend en versnelt de redoxreactie",
-            "zout reageert zelf met het ijzer tot ijzerchloride",
+            "zout reageert zelf rechtstreeks met het ijzer tot ijzerchloride",
             "zout haalt het zuurstofgas uit de lucht naar het metaal",
             "zout verhoogt de temperatuur van het natte oppervlak"
           ],
@@ -7102,7 +7102,7 @@
           "vraag": "Waarom roest een conservenblik juist op een kras in het tinlaagje?",
           "opties": [
             "tin is een zwakkere reductor, dus wordt het ijzer aangetast",
-            "tin houdt het water in de kras vast tegen het ijzer",
+            "tin houdt het water in de kras vast tegen het ijzer, zodat het sneller roest",
             "tin reageert met het ijzer op de plaats van de kras",
             "tin laat het zuurstofgas sneller door de kras heen"
           ],
@@ -7135,7 +7135,7 @@
           "vraag": "Waarom corrodeert aluminium in de praktijk zo weinig?",
           "opties": [
             "er vormt zich een dicht laagje oxide dat de rest afschermt",
-            "aluminium reageert niet met zuurstof uit de lucht",
+            "aluminium reageert helemaal niet met de zuurstof uit de lucht",
             "aluminium is een zwakkere reductor dan ijzer",
             "aluminium geleidt de stroom te goed om te oxideren"
           ],
@@ -7184,7 +7184,7 @@
           "vraag": "Waarom gaat een boiler langer mee met een anode van magnesium erin?",
           "opties": [
             "de anode wordt aangetast in plaats van de stalen wand",
-            "de anode warmt het water sneller op dan het staal",
+            "de anode warmt het water sneller op dan het staal van de wand",
             "de anode houdt het kalk uit het water tegen",
             "de anode maakt het water in de boiler basisch"
           ],
@@ -7338,7 +7338,7 @@
           "vraag": "Wat gebeurt er in de propagatiestappen?",
           "opties": [
             "een radicaal reageert en er ontstaat telkens een nieuw radicaal",
-            "er ontstaan twee radicalen uit één molecule halogeen",
+            "er ontstaan twee radicalen uit één molecule halogeen onder invloed van licht",
             "twee radicalen verdwijnen door samen te koppelen",
             "de reactie stopt doordat alle radicalen verbruikt zijn"
           ],
@@ -7393,7 +7393,7 @@
           "vraag": "Waarom reageert een alkaan niet met een elektrofiel?",
           "opties": [
             "een alkaan heeft geen plaats met veel elektronen om aan te vallen",
-            "een alkaan heeft te veel waterstofatomen in de weg staan",
+            "een alkaan heeft te veel waterstofatomen die in de weg staan voor een aanval",
             "een alkaan is te zwaar om door een elektrofiel geraakt te worden",
             "een alkaan heeft al een volledig gevulde dubbele binding"
           ],
@@ -7458,7 +7458,7 @@
           "vraag": "Waarom ondergaat benzeen een substitutie en geen additie met broom?",
           "opties": [
             "bij een additie zou de ring zijn stabiele elektronenwolk verliezen",
-            "bij een additie zou de ring te veel waterstofatomen krijgen",
+            "bij een additie zou de ring te veel waterstofatomen krijgen om nog stabiel te zijn",
             "benzeen heeft geen dubbele bindingen om een additie te doen",
             "benzeen is te zwaar om een additie te kunnen ondergaan"
           ],
@@ -7641,7 +7641,7 @@
           "vraag": "Welke verschillen zijn er tussen de chlorering van methaan en die van benzeen?",
           "opties": [
             "bij methaan valt een radicaal aan, bij benzeen een elektrofiel",
-            "bij methaan valt een nucleofiel aan, bij benzeen een radicaal",
+            "bij methaan valt een nucleofiel aan, bij benzeen een radicaal uit het licht",
             "bij methaan is er een katalysator nodig en bij benzeen niet",
             "bij methaan blijft de ring intact en bij benzeen niet"
           ],
@@ -7716,7 +7716,7 @@
           "vraag": "Waarom gebruikt men broomwater om te testen of een stof onverzadigd is?",
           "opties": [
             "het broom reageert weg en de bruine kleur verdwijnt",
-            "het broom maakt de oplossing bruiner dan ervoor",
+            "het broom maakt de oplossing nog bruiner dan ervoor",
             "het broom slaat neer als een vaste stof",
             "het broom maakt de oplossing zuurder te meten"
           ],
@@ -7862,7 +7862,7 @@
           "vraag": "Waarom is een additie aan een alkeen geen substitutie?",
           "opties": [
             "er gaat geen enkel atoom weg uit de molecule",
-            "er komt geen enkel atoom bij in de molecule",
+            "er komt geen enkel atoom bij in de molecule tijdens de reactie",
             "de keten wordt er korter van dan ervoor",
             "er komt water vrij tijdens de reactie"
           ],
@@ -8126,7 +8126,7 @@
           "vraag": "Wat is een polymeer?",
           "opties": [
             "een heel lange molecule van veel gelijke bouwstenen",
-            "een mengsel van twee verschillende kunststoffen",
+            "een mengsel van twee verschillende kunststoffen die samen gesmolten zijn",
             "een molecule met precies twee bouwstenen",
             "een kleine molecule die kan reageren tot een keten"
           ],
@@ -8138,7 +8138,7 @@
           "vraag": "Wat is kenmerkend voor een polymerisatie of polyadditie?",
           "opties": [
             "de dubbele bindingen gaan open en er komt geen bijproduct vrij",
-            "er komt bij elke koppeling een molecule water vrij",
+            "er komt bij elke koppeling van twee monomeren een molecule water vrij",
             "er wordt telkens een waterstofatoom vervangen door een groep",
             "er gaat bij elke koppeling een halogeen uit de keten"
           ],
@@ -8227,7 +8227,7 @@
           "vraag": "Hoe vind je het monomeer terug uit de structuur van een polymeer gemaakt door polyadditie?",
           "opties": [
             "je neemt het stukje dat zich herhaalt en zet de dubbele binding terug",
-            "je neemt het stukje dat zich herhaalt en voegt water toe",
+            "je neemt het stukje dat zich herhaalt en voegt er telkens water aan toe",
             "je neemt de hele keten en deelt haar massa door twee",
             "je neemt het einde van de keten met zijn zijgroepen"
           ],
@@ -8347,7 +8347,7 @@
           "vraag": "Wat is kenmerkend voor een thermoplast?",
           "opties": [
             "hij wordt zacht bij verwarmen en is opnieuw te vormen",
-            "hij ontleedt bij verwarmen zonder zacht te worden",
+            "hij ontleedt bij verwarmen meteen, zonder eerst zacht te worden",
             "hij veert terug in zijn vorm na het uitrekken",
             "hij heeft heel veel crosslinks tussen de ketens"
           ],
@@ -8381,7 +8381,7 @@
           "vraag": "Wat is kenmerkend voor een elastomeer?",
           "opties": [
             "hij vervormt onder een kracht en veert daarna terug",
-            "hij blijft in zijn nieuwe vorm staan na het buigen",
+            "hij blijft in zijn nieuwe vorm staan na het buigen of uitrekken",
             "hij smelt bij verwarmen tot een vloeistof",
             "hij heeft geen enkele crosslink tussen zijn ketens"
           ],
@@ -8518,7 +8518,7 @@
           "vraag": "Waarom zijn microplastics een probleem?",
           "opties": [
             "ze breken niet af en komen in het water en in de voedselketen terecht",
-            "ze lossen op in water en maken het zuurder",
+            "ze lossen op in water en maken het zuurder voor de vissen en de planten",
             "ze verdampen en komen zo in de lucht terecht",
             "ze reageren met zuurstof tot een giftig gas"
           ],
@@ -8660,7 +8660,7 @@
           "vraag": "Wat is een bottom-upmethode?",
           "opties": [
             "het materiaal opbouwen vanuit losse atomen of moleculen",
-            "het materiaal vermalen tot steeds kleinere stukjes",
+            "het materiaal vermalen tot steeds kleinere stukjes in een molen",
             "het materiaal wegetsen tot er een patroon overblijft",
             "het materiaal verhitten tot het uit zichzelf smelt"
           ],
@@ -8795,7 +8795,7 @@
           "vraag": "Waarom gebruikt men nanodeeltjes in zonnecrème?",
           "opties": [
             "ze houden uv-licht tegen en blijven toch doorzichtig op de huid",
-            "ze maken de crème witter en dus beter zichtbaar",
+            "ze maken de crème witter en dus beter zichtbaar op de huid van het kind",
             "ze doden de bacteriën op de huid tijdens het zonnen",
             "ze maken de huid sneller bruin dan zonder crème"
           ],
@@ -8829,7 +8829,7 @@
           "vraag": "Waarom is goud op nanomaat niet goudkleurig?",
           "opties": [
             "de elektronen in zo'n klein deeltje reageren anders op licht",
-            "het goud is op nanomaat met een andere stof vermengd",
+            "het goud is op nanomaat altijd met een andere stof vermengd, zoals zilver",
             "het goud wordt op nanomaat doorzichtig voor alle licht",
             "het goud oxideert op nanomaat tot een rood oxide"
           ],
@@ -8862,7 +8862,7 @@
           "vraag": "Waarom zijn nanodeeltjes in het lichaam een risico?",
           "opties": [
             "ze zijn zo klein dat ze tot in de cellen kunnen komen",
-            "ze zijn zo groot dat ze de bloedvaten verstoppen",
+            "ze zijn zo groot dat ze de kleine bloedvaten verstoppen",
             "ze lossen op in bloed en maken het zuurder",
             "ze geleiden de stroom van de zenuwen te snel door"
           ],
@@ -8884,7 +8884,7 @@
           "vraag": "Wat is een voordeel van een nanokatalysator in de industrie?",
           "opties": [
             "er is veel minder materiaal nodig voor hetzelfde effect",
-            "de reactie heeft geen activeringsenergie meer nodig",
+            "de reactie heeft dan helemaal geen activeringsenergie meer nodig",
             "het product komt er zuiverder uit zonder scheiden",
             "de reactie wordt exo-energetisch in plaats van endo"
           ],
@@ -8917,7 +8917,7 @@
           "vraag": "Waarom is een nanodeeltje van een metaal reactiever dan een blok van hetzelfde metaal?",
           "opties": [
             "er zit veel meer oppervlak per gram waar de reactie kan gebeuren",
-            "de atomen aan de binnenkant doen ook mee aan de reactie",
+            "de atomen aan de binnenkant van het deeltje doen ook mee aan de reactie",
             "het metaal heeft op nanomaat een ander oxidatiegetal",
             "het metaal heeft op nanomaat meer valentie-elektronen"
           ],
@@ -8966,7 +8966,7 @@
           "vraag": "Waarom schrijft men nano op het etiket van een cosmetisch product?",
           "opties": [
             "zo weet de koper dat er deeltjes op nanomaat in zitten",
-            "zo weet de koper dat het product biologisch is",
+            "zo weet de koper dat het product biologisch en natuurlijk is",
             "zo weet de koper dat het product goedkoper gemaakt is",
             "zo weet de koper dat het product niet getest is"
           ],
@@ -8978,7 +8978,7 @@
           "vraag": "Welke eigenschap maakt een koolstofnanobuis geschikt om een materiaal te versterken?",
           "opties": [
             "haar grote sterkte bij een heel klein gewicht",
-            "haar lage smeltpunt bij nanomaat",
+            "haar lage smeltpunt bij nanomaat, waardoor ze makkelijk te vormen is",
             "haar doorzichtigheid voor zichtbaar licht",
             "haar antibacteriële werking op het oppervlak"
           ],
@@ -9082,7 +9082,7 @@
           "vraag": "Wat is een keteneconomie?",
           "opties": [
             "een tussenvorm die veel hergebruikt maar toch nog afval overhoudt",
-            "een volledige kringloop waarin er helemaal geen afval meer is",
+            "een volledige kringloop waarin er helemaal geen afval meer is, van begin tot einde",
             "een rechte keten waarin elk product na gebruik gestort wordt",
             "een korte keten waarin elke grondstof uit de eigen streek komt"
           ],
@@ -9094,7 +9094,7 @@
           "vraag": "Wat is greenwashing?",
           "opties": [
             "een product groener voorstellen dan het in werkelijkheid is",
-            "een product grondig wassen voordat het gerecycleerd wordt",
+            "een product grondig wassen voordat het gerecycleerd wordt in een fabriek",
             "een product groen verven om het beter te laten opvallen",
             "een product groener maken door minder water te gebruiken"
           ],
@@ -9318,7 +9318,7 @@
           "vraag": "Wat is grijs water?",
           "opties": [
             "licht vervuild water van bad, wastafel en wasmachine",
-            "water uit het toilet met fecaliën en urine erin",
+            "water uit het toilet met fecaliën en urine erin, dat naar de riolering gaat",
             "zuiver drinkbaar water zoals het uit de kraan komt",
             "water dat na zuivering weer in de rivier belandt"
           ],
@@ -9471,7 +9471,7 @@
           "vraag": "Waarover gaat een H-zin op een etiket?",
           "opties": [
             "over het gevaar dat de stof zelf oplevert",
-            "over de voorzorg die je moet nemen",
+            "over de voorzorg die je moet nemen bij het gebruik van de stof",
             "over de hoeveelheid die in de fles zit",
             "over de houdbaarheid van het product"
           ],
@@ -9483,7 +9483,7 @@
           "vraag": "Waarover gaat een P-zin op een etiket?",
           "opties": [
             "over de voorzorg en wat je bij een ongeval doet",
-            "over het gevaar dat de stof zelf oplevert",
+            "over het gevaar dat de stof zelf oplevert voor mens en milieu",
             "over de prijs en de herkomst van het product",
             "over de plaats waar de stof gemaakt werd"
           ],
@@ -9507,7 +9507,7 @@
           "vraag": "Een pictogram toont een doodshoofd met twee gekruiste beenderen. Wat betekent het?",
           "opties": [
             "de stof is giftig, ook in een kleine hoeveelheid",
-            "de stof is bijtend voor huid en voor materiaal",
+            "de stof is bijtend voor de huid, de ogen en voor materiaal",
             "de stof kan ontploffen bij een harde schok",
             "de stof is schadelijk voor dieren in het water"
           ],
@@ -9568,7 +9568,7 @@
           "vraag": "Wat bedoelt men met het meetbereik van een instrument?",
           "opties": [
             "de kleinste en de grootste waarde die het kan meten",
-            "de kleinste stap die het nog kan onderscheiden",
+            "de kleinste stap die het instrument nog kan onderscheiden",
             "de afwijking tussen de meting en de echte waarde",
             "het aantal metingen dat je ermee kan doen"
           ],
@@ -9631,7 +9631,7 @@
           "vraag": "Een pictogram toont een boom en een dode vis. Wat betekent het?",
           "opties": [
             "de stof is schadelijk voor het leven in het water",
-            "de stof is giftig bij het inademen van de damp",
+            "de stof is giftig bij het inademen van de damp, ook in kleine hoeveelheid",
             "de stof tast de huid en de ogen zwaar aan",
             "de stof vat gemakkelijk vuur in open lucht"
           ],
@@ -9930,7 +9930,7 @@
           "vraag": "Wat is een hypothese?",
           "opties": [
             "een onderbouwd vermoeden dat je kan testen",
-            "een vaste conclusie na een reeks metingen",
+            "een vaste conclusie die je trekt na een hele reeks metingen",
             "een willekeurige gok zonder enige uitleg",
             "een vraag waarop het onderzoek antwoordt"
           ],
@@ -10081,7 +10081,7 @@
           "vraag": "Waarom noteer je bij een proef ook wat er misliep?",
           "opties": [
             "omdat dat de afwijking in je resultaat kan verklaren",
-            "omdat je anders geen punten op je verslag krijgt",
+            "omdat je anders geen punten op je verslag krijgt van de leerkracht",
             "omdat je de proef dan niet moet herhalen",
             "omdat je hypothese dan niet verworpen kan worden"
           ],
@@ -10142,7 +10142,7 @@
           "vraag": "Wat is een ontwerpvraag?",
           "opties": [
             "een vraag naar iets wat je moet maken of oplossen",
-            "een vraag naar een verband dat je wil meten",
+            "een vraag naar een verband dat je wil meten in het labo",
             "een vraag naar een mening over een toepassing",
             "een vraag naar een stof die nog niet bestaat"
           ],
@@ -10166,7 +10166,7 @@
           "vraag": "Wat is een randvoorwaarde bij een ontwerp?",
           "opties": [
             "een beperking waarbinnen je moet blijven werken",
-            "een eis waaraan het eindresultaat moet voldoen",
+            "een eis waaraan het eindresultaat van je ontwerp moet voldoen",
             "een vermoeden over hoe het ontwerp zal werken",
             "een meting waarmee je het ontwerp beoordeelt"
           ],
@@ -10193,7 +10193,7 @@
           "vraag": "Waarom splits je een ontwerpopdracht in deelproblemen?",
           "opties": [
             "omdat je elk stuk apart kan oplossen en testen",
-            "omdat je dan minder criteria moet opschrijven",
+            "omdat je dan minder criteria moet opschrijven in je verslag",
             "omdat je dan geen prototype meer nodig hebt",
             "omdat je dan sneller aan het bouwen kan gaan"
           ],
@@ -10339,7 +10339,7 @@
           "vraag": "Waarom hoort een risicoafweging bij een nieuw product?",
           "opties": [
             "omdat het voordeel moet opwegen tegen wat het kan kosten",
-            "omdat elk nieuw product bij de wet verboden zou zijn",
+            "omdat elk nieuw product zonder zo'n afweging bij de wet verboden zou zijn",
             "omdat het risico na een afweging volledig verdwijnt",
             "omdat de kostprijs daarmee meteen berekend wordt"
           ],

@@ -32,7 +32,7 @@ DEEL1 = [
         vraag="Wat doet een buffer als je er een beetje sterk zuur bij giet?",
         opties=[
             "de geconjugeerde base neemt de hydroxoniumionen weg",
-            "het zwakke zuur neemt de hydroxoniumionen weg",
+            "het zwakke zuur neemt de hydroxoniumionen weg uit de oplossing",
             "de pH daalt even sterk als in zuiver water",
             "het mengsel stopt met werken en valt uiteen",
         ],
@@ -183,7 +183,7 @@ DEEL1 = [
         vraag="Je mengt een zwak zuur met een sterke base, maar niet genoeg base om alles weg te werken. Wat krijg je?",
         opties=[
             "een buffer van het zwakke zuur met zijn geconjugeerde base",
-            "een neutrale oplossing van een zout in water",
+            "een neutrale oplossing van een zout in water, zonder enig zuur",
             "een sterk zure oplossing zonder bufferwerking",
             "een sterk basische oplossing met een overmaat base",
         ],
@@ -196,7 +196,7 @@ DEEL1 = [
         vraag="Waarom buffert een mengsel van zoutzuur en natriumchloride niet?",
         opties=[
             "het chloride-ion is een te zwakke base om protonen op te nemen",
-            "het chloride-ion is een te sterke base en neemt alles op",
+            "het chloride-ion is een te sterke base en neemt alle protonen op",
             "zoutzuur is te verdund om een buffer te kunnen vormen",
             "natriumchloride lost niet goed genoeg op in water",
         ],
@@ -246,7 +246,7 @@ DEEL2 = [
         vraag="Waaraan zie je het equivalentiepunt op een titratiecurve?",
         opties=[
             "aan de steile sprong in de pH, midden in het verloop",
-            "aan het vlakke begin van de kromme bij lage pH",
+            "aan het vlakke begin van de kromme bij lage pH, voor er base bij komt",
             "aan het vlakke einde van de kromme bij hoge pH",
             "aan het snijpunt van de kromme met de verticale as",
         ],
@@ -319,7 +319,7 @@ DEEL2 = [
         vraag="Waarom mag de erlenmeyer nat zijn van water, en de buret niet?",
         opties=[
             "water verandert het aantal mol in de erlenmeyer niet",
-            "water verdampt in de erlenmeyer tijdens de titratie",
+            "water verdampt in de erlenmeyer tijdens het titreren en verandert zo de meting",
             "de erlenmeyer heeft geen nauwkeurige schaal nodig",
             "water reageert alleen met het titrans uit de buret",
         ],

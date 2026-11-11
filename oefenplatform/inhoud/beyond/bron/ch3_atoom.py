@@ -99,7 +99,7 @@ DEEL1 = [
         vraag="Waarvoor dient de diagonaalregel?",
         opties=[
             "om de volgorde te vinden waarin de subniveaus gevuld worden",
-            "om het aantal elektronen in een subniveau te berekenen",
+            "om het aantal elektronen in elk subniveau van het atoom te berekenen",
             "om de lading van een mono-atomisch ion te voorspellen",
             "om de vorm van een orbitaal in de ruimte te bepalen",
         ],
@@ -139,7 +139,7 @@ DEEL1 = [
         vraag="Wat toont de hokjesvoorstelling dat de exponentennotatie niet toont?",
         opties=[
             "hoe de elektronen over de orbitalen verdeeld zijn, met hun spin",
-            "hoeveel elektronen er in elk subniveau van het atoom zitten",
+            "hoeveel elektronen er in elk subniveau van het atoom zitten, per hoofdniveau",
             "in welk blok van het periodiek systeem het element staat",
             "hoeveel protonen er in de kern van het atoom aanwezig zijn",
         ],
@@ -166,7 +166,7 @@ DEEL1 = [
         vraag="Waarom eindigt de configuratie van chroom op 3d⁵ 4s¹ en niet op 3d⁴ 4s²?",
         opties=[
             "een halfgevuld d-subniveau is stabieler dan een gewone vulling",
-            "een volledig gevuld s-subniveau is onmogelijk bij een metaal",
+            "een volledig gevuld s-subniveau is onmogelijk bij een metaal uit het d-blok",
             "het 4s-subniveau ligt bij chroom hoger in energie dan 4p",
             "het d-subniveau van chroom heeft maar vijf orbitalen vrij",
         ],
@@ -338,7 +338,7 @@ DEEL2 = [
         vraag="Waarom zijn de edelgassen zo weinig reactief?",
         opties=[
             "hun buitenste hoofdniveau is helemaal volgevuld",
-            "hun kern bevat te veel protonen om te reageren",
+            "hun kern bevat te veel protonen om nog te kunnen reageren",
             "hun elektronen zitten in een f-subniveau vast",
             "hun atomen zijn te groot om te kunnen binden",
         ],

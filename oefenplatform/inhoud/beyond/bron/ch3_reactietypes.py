@@ -120,7 +120,7 @@ DEEL1 = [
         vraag="Wat gebeurt er in de propagatiestappen?",
         opties=[
             "een radicaal reageert en er ontstaat telkens een nieuw radicaal",
-            "er ontstaan twee radicalen uit één molecule halogeen",
+            "er ontstaan twee radicalen uit één molecule halogeen onder invloed van licht",
             "twee radicalen verdwijnen door samen te koppelen",
             "de reactie stopt doordat alle radicalen verbruikt zijn",
         ],
@@ -174,7 +174,7 @@ DEEL1 = [
         vraag="Waarom reageert een alkaan niet met een elektrofiel?",
         opties=[
             "een alkaan heeft geen plaats met veel elektronen om aan te vallen",
-            "een alkaan heeft te veel waterstofatomen in de weg staan",
+            "een alkaan heeft te veel waterstofatomen die in de weg staan voor een aanval",
             "een alkaan is te zwaar om door een elektrofiel geraakt te worden",
             "een alkaan heeft al een volledig gevulde dubbele binding",
         ],
@@ -237,7 +237,7 @@ DEEL2 = [
         vraag="Waarom ondergaat benzeen een substitutie en geen additie met broom?",
         opties=[
             "bij een additie zou de ring zijn stabiele elektronenwolk verliezen",
-            "bij een additie zou de ring te veel waterstofatomen krijgen",
+            "bij een additie zou de ring te veel waterstofatomen krijgen om nog stabiel te zijn",
             "benzeen heeft geen dubbele bindingen om een additie te doen",
             "benzeen is te zwaar om een additie te kunnen ondergaan",
         ],
@@ -416,7 +416,7 @@ DEEL2 = [
         vraag="Welke verschillen zijn er tussen de chlorering van methaan en die van benzeen?",
         opties=[
             "bij methaan valt een radicaal aan, bij benzeen een elektrofiel",
-            "bij methaan valt een nucleofiel aan, bij benzeen een radicaal",
+            "bij methaan valt een nucleofiel aan, bij benzeen een radicaal uit het licht",
             "bij methaan is er een katalysator nodig en bij benzeen niet",
             "bij methaan blijft de ring intact en bij benzeen niet",
         ],

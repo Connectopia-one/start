@@ -19,7 +19,7 @@ DEEL1 = [
         vraag="Hoe druk je de snelheid van een reactie uit?",
         opties=[
             "als de verandering van een concentratie per tijdseenheid",
-            "als de hoeveelheid product die in totaal ontstaat",
+            "als de hoeveelheid product die er in totaal ontstaat tot de reactie stopt",
             "als het aantal mol reagens dat je in de beker doet",
             "als de temperatuur waarbij de reactie op gang komt",
         ],
@@ -32,7 +32,7 @@ DEEL1 = [
         vraag="Wat is een effectieve botsing?",
         opties=[
             "een botsing met genoeg energie en de juiste stand om te reageren",
-            "een botsing waarbij de deeltjes gewoon van elkaar afketsen",
+            "een botsing waarbij de deeltjes gewoon van elkaar afketsen zonder te reageren",
             "een botsing tussen twee deeltjes van dezelfde soort stof",
             "een botsing die de temperatuur van het mengsel doet stijgen",
         ],
@@ -238,7 +238,7 @@ DEEL2 = [
         vraag="Wat stelt de activeringsenergie in een energiediagram voor?",
         opties=[
             "de energie die nodig is om de reactie op gang te brengen",
-            "de energie die bij de reactie vrijkomt als warmte",
+            "de energie die bij de reactie vrijkomt als warmte of als licht",
             "de energie van de reactieproducten samen",
             "het verschil in energie tussen begin en einde",
         ],
@@ -251,7 +251,7 @@ DEEL2 = [
         vraag="Wat is het geactiveerd complex?",
         opties=[
             "de onstabiele toestand op de top van het energiediagram",
-            "het reactieproduct dat als eerste gevormd wordt",
+            "het reactieproduct dat als eerste gevormd wordt in het mengsel",
             "de katalysator die tijdelijk aan het reagens bindt",
             "het mengsel van alle reagentia voor de reactie start",
         ],
@@ -305,7 +305,7 @@ DEEL2 = [
         vraag="Hoe bepaal je de reactie-energie uit een energiediagram?",
         opties=[
             "als het verschil in energie tussen producten en reagentia",
-            "als de hoogte van de top boven de reagentia",
+            "als de hoogte van de top boven de reagentia in het diagram",
             "als de hoogte van de top boven de producten",
             "als de som van de energie van alle stoffen samen",
         ],
@@ -432,7 +432,7 @@ DEEL2 = [
         vraag="Waarom staat voedsel langer goed in de koelkast?",
         opties=[
             "bij een lagere temperatuur verlopen de reacties van bederf trager",
-            "bij een lagere temperatuur stoppen alle reacties volledig",
+            "bij een lagere temperatuur stoppen alle reacties van bederf volledig",
             "bij een lagere temperatuur werkt elk enzym veel sneller",
             "bij een lagere temperatuur is er minder zuurstof aanwezig",
         ],

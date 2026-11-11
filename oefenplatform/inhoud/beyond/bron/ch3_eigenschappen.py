@@ -72,7 +72,7 @@ DEEL1 = [
         vraag="Waarom is de bindingshoek in ammoniak kleiner dan in methaan?",
         opties=[
             "ammoniak heeft een vrij elektronenpaar dat de bindingen samenduwt",
-            "ammoniak heeft een kleiner centraal atoom dan methaan",
+            "ammoniak heeft een kleiner centraal atoom dan methaan, dus minder plaats",
             "ammoniak heeft minder waterstofatomen om plaats te maken",
             "ammoniak heeft een dubbele binding naar het stikstofatoom",
         ],
@@ -236,7 +236,7 @@ DEEL2 = [
         vraag="Wanneer is een binding tussen twee atomen polair?",
         opties=[
             "als de twee atomen een verschillende elektronegatieve waarde hebben",
-            "als de twee atomen allebei een vrij elektronenpaar hebben",
+            "als de twee atomen allebei een vrij elektronenpaar hebben naast de binding",
             "als de binding uit een sigma- en een pi-binding bestaat",
             "als de twee atomen tot dezelfde groep van het systeem horen",
         ],
@@ -302,7 +302,7 @@ DEEL2 = [
         vraag="Waarom kookt pentaan bij een hogere temperatuur dan butaan?",
         opties=[
             "de langere keten geeft meer contact en dus sterkere londonkrachten",
-            "de langere keten vormt waterstofbruggen met haar buren",
+            "de langere keten vormt waterstofbruggen met haar buren in de vloeistof",
             "de langere keten is polair en butaan is apolair",
             "de langere keten heeft een dubbele binding erbij",
         ],

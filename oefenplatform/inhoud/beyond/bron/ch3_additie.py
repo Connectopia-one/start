@@ -51,7 +51,7 @@ DEEL1 = [
         vraag="Waarom gebruikt men broomwater om te testen of een stof onverzadigd is?",
         opties=[
             "het broom reageert weg en de bruine kleur verdwijnt",
-            "het broom maakt de oplossing bruiner dan ervoor",
+            "het broom maakt de oplossing nog bruiner dan ervoor",
             "het broom slaat neer als een vaste stof",
             "het broom maakt de oplossing zuurder te meten",
         ],
@@ -196,7 +196,7 @@ DEEL1 = [
         vraag="Waarom is een additie aan een alkeen geen substitutie?",
         opties=[
             "er gaat geen enkel atoom weg uit de molecule",
-            "er komt geen enkel atoom bij in de molecule",
+            "er komt geen enkel atoom bij in de molecule tijdens de reactie",
             "de keten wordt er korter van dan ervoor",
             "er komt water vrij tijdens de reactie",
         ],

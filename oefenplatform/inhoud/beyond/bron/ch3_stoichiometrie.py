@@ -235,7 +235,7 @@ DEEL2 = [
         vraag="Wat is het limiterend reagens?",
         opties=[
             "de stof die als eerste opgebruikt is en de reactie stopzet",
-            "de stof waarvan het meeste overblijft na de reactie",
+            "de stof waarvan het meeste overblijft nadat de reactie helemaal gestopt is",
             "de stof met de grootste coëfficiënt in de vergelijking",
             "de stof met de kleinste molaire massa in de reactie",
         ],

@@ -409,7 +409,7 @@ DEEL2 = [
         vraag="Waarom vul je bij het maken van een oplossing aan tot de maatstreep en niet eerst het water af?",
         opties=[
             "de opgeloste stof neemt zelf ook plaats in het eindvolume",
-            "het water verdampt tijdens het oplossen van de stof",
+            "het water verdampt tijdens het oplossen van de stof in de maatkolf",
             "de maatkolf is onnauwkeurig bij kleine volumes water",
             "de stof lost sneller op in een volle maatkolf",
         ],

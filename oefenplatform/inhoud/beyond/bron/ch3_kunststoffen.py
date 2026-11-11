@@ -18,7 +18,7 @@ DEEL1 = [
         vraag="Wat is een polymeer?",
         opties=[
             "een heel lange molecule van veel gelijke bouwstenen",
-            "een mengsel van twee verschillende kunststoffen",
+            "een mengsel van twee verschillende kunststoffen die samen gesmolten zijn",
             "een molecule met precies twee bouwstenen",
             "een kleine molecule die kan reageren tot een keten",
         ],
@@ -31,7 +31,7 @@ DEEL1 = [
         vraag="Wat is kenmerkend voor een polymerisatie of polyadditie?",
         opties=[
             "de dubbele bindingen gaan open en er komt geen bijproduct vrij",
-            "er komt bij elke koppeling een molecule water vrij",
+            "er komt bij elke koppeling van twee monomeren een molecule water vrij",
             "er wordt telkens een waterstofatoom vervangen door een groep",
             "er gaat bij elke koppeling een halogeen uit de keten",
         ],
@@ -117,7 +117,7 @@ DEEL1 = [
         vraag="Hoe vind je het monomeer terug uit de structuur van een polymeer gemaakt door polyadditie?",
         opties=[
             "je neemt het stukje dat zich herhaalt en zet de dubbele binding terug",
-            "je neemt het stukje dat zich herhaalt en voegt water toe",
+            "je neemt het stukje dat zich herhaalt en voegt er telkens water aan toe",
             "je neemt de hele keten en deelt haar massa door twee",
             "je neemt het einde van de keten met zijn zijgroepen",
         ],
@@ -233,7 +233,7 @@ DEEL2 = [
         vraag="Wat is kenmerkend voor een thermoplast?",
         opties=[
             "hij wordt zacht bij verwarmen en is opnieuw te vormen",
-            "hij ontleedt bij verwarmen zonder zacht te worden",
+            "hij ontleedt bij verwarmen meteen, zonder eerst zacht te worden",
             "hij veert terug in zijn vorm na het uitrekken",
             "hij heeft heel veel crosslinks tussen de ketens",
         ],
@@ -266,7 +266,7 @@ DEEL2 = [
         vraag="Wat is kenmerkend voor een elastomeer?",
         opties=[
             "hij vervormt onder een kracht en veert daarna terug",
-            "hij blijft in zijn nieuwe vorm staan na het buigen",
+            "hij blijft in zijn nieuwe vorm staan na het buigen of uitrekken",
             "hij smelt bij verwarmen tot een vloeistof",
             "hij heeft geen enkele crosslink tussen zijn ketens",
         ],
@@ -399,7 +399,7 @@ DEEL2 = [
         vraag="Waarom zijn microplastics een probleem?",
         opties=[
             "ze breken niet af en komen in het water en in de voedselketen terecht",
-            "ze lossen op in water en maken het zuurder",
+            "ze lossen op in water en maken het zuurder voor de vissen en de planten",
             "ze verdampen en komen zo in de lucht terecht",
             "ze reageren met zuurstof tot een giftig gas",
         ],

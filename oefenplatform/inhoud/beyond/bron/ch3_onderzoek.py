@@ -31,7 +31,7 @@ DEEL1 = [
         vraag="Wat is een hypothese?",
         opties=[
             "een onderbouwd vermoeden dat je kan testen",
-            "een vaste conclusie na een reeks metingen",
+            "een vaste conclusie die je trekt na een hele reeks metingen",
             "een willekeurige gok zonder enige uitleg",
             "een vraag waarop het onderzoek antwoordt",
         ],
@@ -183,7 +183,7 @@ DEEL1 = [
         vraag="Waarom noteer je bij een proef ook wat er misliep?",
         opties=[
             "omdat dat de afwijking in je resultaat kan verklaren",
-            "omdat je anders geen punten op je verslag krijgt",
+            "omdat je anders geen punten op je verslag krijgt van de leerkracht",
             "omdat je de proef dan niet moet herhalen",
             "omdat je hypothese dan niet verworpen kan worden",
         ],
@@ -233,7 +233,7 @@ DEEL2 = [
         vraag="Wat is een ontwerpvraag?",
         opties=[
             "een vraag naar iets wat je moet maken of oplossen",
-            "een vraag naar een verband dat je wil meten",
+            "een vraag naar een verband dat je wil meten in het labo",
             "een vraag naar een mening over een toepassing",
             "een vraag naar een stof die nog niet bestaat",
         ],
@@ -259,7 +259,7 @@ DEEL2 = [
         vraag="Wat is een randvoorwaarde bij een ontwerp?",
         opties=[
             "een beperking waarbinnen je moet blijven werken",
-            "een eis waaraan het eindresultaat moet voldoen",
+            "een eis waaraan het eindresultaat van je ontwerp moet voldoen",
             "een vermoeden over hoe het ontwerp zal werken",
             "een meting waarmee je het ontwerp beoordeelt",
         ],
@@ -285,7 +285,7 @@ DEEL2 = [
         vraag="Waarom splits je een ontwerpopdracht in deelproblemen?",
         opties=[
             "omdat je elk stuk apart kan oplossen en testen",
-            "omdat je dan minder criteria moet opschrijven",
+            "omdat je dan minder criteria moet opschrijven in je verslag",
             "omdat je dan geen prototype meer nodig hebt",
             "omdat je dan sneller aan het bouwen kan gaan",
         ],
@@ -431,7 +431,7 @@ DEEL2 = [
         vraag="Waarom hoort een risicoafweging bij een nieuw product?",
         opties=[
             "omdat het voordeel moet opwegen tegen wat het kan kosten",
-            "omdat elk nieuw product bij de wet verboden zou zijn",
+            "omdat elk nieuw product zonder zo'n afweging bij de wet verboden zou zijn",
             "omdat het risico na een afweging volledig verdwijnt",
             "omdat de kostprijs daarmee meteen berekend wordt",
         ],

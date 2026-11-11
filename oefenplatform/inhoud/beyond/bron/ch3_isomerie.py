@@ -137,7 +137,7 @@ DEEL1 = [
         vraag="Waarom is een vertakte keten vluchtiger dan een onvertakte met dezelfde formule?",
         opties=[
             "de moleculen raken elkaar over een kleiner oppervlak",
-            "de moleculen zijn zwaarder dan de onvertakte",
+            "de moleculen zijn zwaarder dan de onvertakte van dezelfde lengte",
             "de moleculen vormen waterstofbruggen met elkaar",
             "de moleculen hebben een hogere molaire massa",
         ],
@@ -184,7 +184,7 @@ DEEL1 = [
         vraag="Waarom heeft methaan geen isomeren?",
         opties=[
             "er is maar één manier om één koolstof en vier waterstof te verbinden",
-            "er zitten te weinig waterstofatomen in de molecule om te vertakken",
+            "er zitten te weinig waterstofatomen in de molecule om nog te kunnen vertakken",
             "er zit geen functionele groep in de molecule",
             "er zit geen dubbele binding in de molecule",
         ],

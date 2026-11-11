@@ -19,7 +19,7 @@ DEEL1 = [
         vraag="Wat betekent het dat een chemisch evenwicht dynamisch is?",
         opties=[
             "de heen- en de terugreactie blijven doorgaan, even snel",
-            "de twee reacties zijn beide volledig gestopt",
+            "de twee reacties zijn beide volledig gestopt zodra het evenwicht bereikt is",
             "de concentraties blijven voortdurend veranderen",
             "de reactie verloopt alleen van links naar rechts",
         ],
@@ -52,7 +52,7 @@ DEEL1 = [
         vraag="Hoe kan je in het labo zien dat een reactie een evenwicht is en niet aflopend?",
         opties=[
             "er blijft van elke beginstof iets over, hoelang je ook wacht",
-            "de reactie gaat sneller als je het mengsel verwarmt",
+            "de reactie gaat sneller als je het mengsel verwarmt op een bunsenbrander",
             "er komt een gas vrij tijdens het verloop van de reactie",
             "de kleur van het mengsel verandert tijdens de reactie",
         ],
@@ -119,7 +119,7 @@ DEEL1 = [
         vraag="Het reactiequotiënt Q is kleiner dan de evenwichtsconstante K. Wat gebeurt er?",
         opties=[
             "de reactie verloopt verder naar rechts, naar meer product",
-            "de reactie verloopt verder naar links, naar meer reagens",
+            "de reactie verloopt verder naar links, naar meer reagens in het mengsel",
             "het mengsel is al in evenwicht en verandert niet meer",
             "de evenwichtsconstante wordt groter tot ze gelijk zijn",
         ],
@@ -138,7 +138,7 @@ DEEL1 = [
         vraag="Wat is de omzettingsgraad van een reactie?",
         opties=[
             "het deel van een beginstof dat werkelijk gereageerd heeft",
-            "het deel van de energie dat tijdens de reactie vrijkomt",
+            "het deel van de energie dat tijdens de reactie vrijkomt als warmte",
             "de verhouding tussen de twee snelheden in het evenwicht",
             "de tijd die nodig is om het evenwicht te bereiken",
         ],
@@ -151,7 +151,7 @@ DEEL1 = [
         vraag="Waarom zegt een hoge evenwichtsconstante niets over de snelheid?",
         opties=[
             "K gaat over de verhouding in het evenwicht, niet over de weg ernaartoe",
-            "K is enkel gemeten bij hoge temperatuur en dus niet bruikbaar",
+            "K is enkel gemeten bij hoge temperatuur en is dus bij kamertemperatuur niet bruikbaar",
             "K hangt af van de activeringsenergie van de heenreactie",
             "K wordt groter zodra de reactie sneller begint te lopen",
         ],
@@ -204,7 +204,7 @@ DEEL1 = [
         vraag=r"Een evenwicht heeft K gelijk aan \(1\). Wat weet je dan?",
         opties=[
             "teller en noemer zijn in het evenwicht ongeveer even groot",
-            "het evenwicht ligt helemaal aan de kant van de producten",
+            "het evenwicht ligt helemaal aan de kant van de producten, rechts",
             "het evenwicht ligt helemaal aan de kant van de reagentia",
             "er is in het mengsel geen enkele reactie opgetreden",
         ],
@@ -301,7 +301,7 @@ DEEL2 = [
         vraag="Je verhoogt de temperatuur van een exo-energetisch evenwicht. Welke kant gaat het op?",
         opties=[
             "naar links, want de endo-energetische richting werkt de warmte weg",
-            "naar rechts, want een hogere temperatuur versnelt de heenreactie",
+            "naar rechts, want een hogere temperatuur versnelt altijd de heenreactie",
             "naar rechts, want de evenwichtsconstante wordt altijd groter",
             "het evenwicht verschuift niet, enkel de snelheid verandert",
         ],
@@ -334,7 +334,7 @@ DEEL2 = [
         vraag=r"In het evenwicht N₂ + \(3\) H₂ ⇌ \(2\) NH₃ verhoog je de druk. Wat gebeurt er met de hoeveelheid ammoniak?",
         opties=[
             "ze neemt toe, want rechts staan minder mol gas",
-            "ze neemt af, want rechts staan meer mol gas",
+            "ze neemt af, want rechts staan meer mol gas dan links",
             "ze blijft gelijk, want druk doet hier niets",
             "ze neemt eerst toe en daarna weer af",
         ],
@@ -367,7 +367,7 @@ DEEL2 = [
         vraag="Waarom haalt men in de industrie het product voortdurend uit een evenwichtsmengsel?",
         opties=[
             "zo blijft het evenwicht naar rechts werken en reageert er meer weg",
-            "zo wordt de evenwichtsconstante van de reactie groter",
+            "zo wordt de evenwichtsconstante van de reactie groter en blijft ze groot",
             "zo verloopt de reactie bij een lagere temperatuur",
             "zo hoeft er geen katalysator meer gebruikt te worden",
         ],

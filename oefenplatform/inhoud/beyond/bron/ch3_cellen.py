@@ -150,7 +150,7 @@ DEEL1 = [
         vraag="Waarom moet elke halfcel haar eigen oplossing hebben?",
         opties=[
             "anders reageren de twee koppels rechtstreeks, zonder stroom door de draad",
-            "anders kan de spanning van de cel niet gemeten worden",
+            "anders kan de spanning van de cel niet meer gemeten worden met een voltmeter",
             "anders lost de zoutbrug op in het mengsel van de twee",
             "anders slaat er aan beide elektroden metaal neer",
         ],
@@ -266,7 +266,7 @@ DEEL2 = [
         vraag="Wat is een gedwongen reactie?",
         opties=[
             "een reactie die enkel doorgaat met energie van buitenaf",
-            "een reactie die spontaan doorgaat en energie levert",
+            "een reactie die spontaan doorgaat en zelf energie levert aan de omgeving",
             "een reactie die stopt zodra het evenwicht bereikt is",
             "een reactie die enkel met een katalysator doorgaat",
         ],
@@ -299,7 +299,7 @@ DEEL2 = [
         vraag="Waarom kan je gesmolten keukenzout elektrolyseren en vast keukenzout niet?",
         opties=[
             "in de smelt kunnen de ionen bewegen, in het vaste rooster niet",
-            "de smelt geleidt met elektronen en het rooster met ionen",
+            "de smelt geleidt met elektronen en het vaste rooster geleidt met ionen",
             "het vaste rooster heeft te veel elektronen om te geleiden",
             "de smelt heeft een hogere temperatuur en reageert sneller",
         ],
@@ -352,7 +352,7 @@ DEEL2 = [
         vraag="Waarom gebruikt men elektrolyse om aluminium te maken?",
         opties=[
             "het aluminiumion is een te zwakke oxidator om spontaan te reageren",
-            "aluminium komt in de natuur voor als zuiver metaal",
+            "aluminium komt in de natuur gewoon voor als zuiver metaal in de bodem",
             "de reactie levert zelf genoeg spanning om door te gaan",
             "aluminium lost enkel op in een zure oplossing",
         ],
@@ -365,7 +365,7 @@ DEEL2 = [
         vraag="Wat gebeurt er met de anode bij het verzilveren van een voorwerp?",
         opties=[
             "de zilveren anode lost langzaam op in de oplossing",
-            "de zilveren anode wordt dikker tijdens het proces",
+            "de zilveren anode wordt dikker tijdens het proces van verzilveren",
             "de anode blijft onveranderd en doet niet mee",
             "de anode geeft zuurstofgas af aan de oplossing",
         ],
@@ -398,7 +398,7 @@ DEEL2 = [
         vraag="Bij de elektrolyse van water ontstaat er waterstofgas en zuurstofgas. Waar ontstaat het waterstofgas?",
         opties=[
             "aan de kathode, want daar gebeurt de reductie",
-            "aan de anode, want daar gebeurt de oxidatie",
+            "aan de anode, want daar gebeurt de oxidatie van het water",
             "in de zoutbrug tussen de twee elektroden",
             "aan beide elektroden in gelijke hoeveelheid",
         ],

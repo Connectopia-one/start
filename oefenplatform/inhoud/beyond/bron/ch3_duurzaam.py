@@ -83,7 +83,7 @@ DEEL1 = [
         vraag="Wat is een keteneconomie?",
         opties=[
             "een tussenvorm die veel hergebruikt maar toch nog afval overhoudt",
-            "een volledige kringloop waarin er helemaal geen afval meer is",
+            "een volledige kringloop waarin er helemaal geen afval meer is, van begin tot einde",
             "een rechte keten waarin elk product na gebruik gestort wordt",
             "een korte keten waarin elke grondstof uit de eigen streek komt",
         ],
@@ -96,7 +96,7 @@ DEEL1 = [
         vraag="Wat is greenwashing?",
         opties=[
             "een product groener voorstellen dan het in werkelijkheid is",
-            "een product grondig wassen voordat het gerecycleerd wordt",
+            "een product grondig wassen voordat het gerecycleerd wordt in een fabriek",
             "een product groen verven om het beter te laten opvallen",
             "een product groener maken door minder water te gebruiken",
         ],
@@ -305,7 +305,7 @@ DEEL2 = [
         vraag="Wat is grijs water?",
         opties=[
             "licht vervuild water van bad, wastafel en wasmachine",
-            "water uit het toilet met fecaliën en urine erin",
+            "water uit het toilet met fecaliën en urine erin, dat naar de riolering gaat",
             "zuiver drinkbaar water zoals het uit de kraan komt",
             "water dat na zuivering weer in de rivier belandt",
         ],

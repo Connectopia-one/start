@@ -87,7 +87,7 @@ DEEL1 = [
         vraag="Wat is kenmerkend voor een hydraat?",
         opties=[
             "er zit kristalwater in het rooster",
-            "er zit waterstofgas in opgelost",
+            "er zit waterstofgas in het rooster opgelost",
             "het reageert heftig met water",
             "het lost niet op in water",
         ],
@@ -120,7 +120,7 @@ DEEL1 = [
         vraag="Waaraan herken je een peroxide?",
         opties=[
             "aan twee zuurstofatomen die aan elkaar gebonden zijn",
-            "aan een zuurstofatoom met een negatieve lading",
+            "aan een zuurstofatoom met een negatieve lading van min twee",
             "aan een hydroxidegroep naast een metaalion",
             "aan een zuurrest met drie zuurstofatomen",
         ],

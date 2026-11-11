@@ -236,7 +236,7 @@ DEEL2 = [
         vraag="Wat betekent het als een koolstofketen verzadigd is?",
         opties=[
             "er zitten enkel enkelvoudige bindingen tussen de koolstofatomen",
-            "er zit minstens één dubbele binding in de keten",
+            "er zit minstens één dubbele binding in de keten tussen twee koolstofatomen",
             "er zitten zoveel vertakkingen als mogelijk aan de keten",
             "er zitten geen andere elementen dan koolstof en waterstof in",
         ],

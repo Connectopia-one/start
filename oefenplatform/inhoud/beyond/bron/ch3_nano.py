@@ -105,7 +105,7 @@ DEEL1 = [
         vraag="Wat is een bottom-upmethode?",
         opties=[
             "het materiaal opbouwen vanuit losse atomen of moleculen",
-            "het materiaal vermalen tot steeds kleinere stukjes",
+            "het materiaal vermalen tot steeds kleinere stukjes in een molen",
             "het materiaal wegetsen tot er een patroon overblijft",
             "het materiaal verhitten tot het uit zichzelf smelt",
         ],
@@ -233,7 +233,7 @@ DEEL2 = [
         vraag="Waarom gebruikt men nanodeeltjes in zonnecrème?",
         opties=[
             "ze houden uv-licht tegen en blijven toch doorzichtig op de huid",
-            "ze maken de crème witter en dus beter zichtbaar",
+            "ze maken de crème witter en dus beter zichtbaar op de huid van het kind",
             "ze doden de bacteriën op de huid tijdens het zonnen",
             "ze maken de huid sneller bruin dan zonder crème",
         ],
@@ -266,7 +266,7 @@ DEEL2 = [
         vraag="Waarom is goud op nanomaat niet goudkleurig?",
         opties=[
             "de elektronen in zo'n klein deeltje reageren anders op licht",
-            "het goud is op nanomaat met een andere stof vermengd",
+            "het goud is op nanomaat altijd met een andere stof vermengd, zoals zilver",
             "het goud wordt op nanomaat doorzichtig voor alle licht",
             "het goud oxideert op nanomaat tot een rood oxide",
         ],
@@ -299,7 +299,7 @@ DEEL2 = [
         vraag="Waarom zijn nanodeeltjes in het lichaam een risico?",
         opties=[
             "ze zijn zo klein dat ze tot in de cellen kunnen komen",
-            "ze zijn zo groot dat ze de bloedvaten verstoppen",
+            "ze zijn zo groot dat ze de kleine bloedvaten verstoppen",
             "ze lossen op in bloed en maken het zuurder",
             "ze geleiden de stroom van de zenuwen te snel door",
         ],
@@ -319,7 +319,7 @@ DEEL2 = [
         vraag="Wat is een voordeel van een nanokatalysator in de industrie?",
         opties=[
             "er is veel minder materiaal nodig voor hetzelfde effect",
-            "de reactie heeft geen activeringsenergie meer nodig",
+            "de reactie heeft dan helemaal geen activeringsenergie meer nodig",
             "het product komt er zuiverder uit zonder scheiden",
             "de reactie wordt exo-energetisch in plaats van endo",
         ],
@@ -352,7 +352,7 @@ DEEL2 = [
         vraag="Waarom is een nanodeeltje van een metaal reactiever dan een blok van hetzelfde metaal?",
         opties=[
             "er zit veel meer oppervlak per gram waar de reactie kan gebeuren",
-            "de atomen aan de binnenkant doen ook mee aan de reactie",
+            "de atomen aan de binnenkant van het deeltje doen ook mee aan de reactie",
             "het metaal heeft op nanomaat een ander oxidatiegetal",
             "het metaal heeft op nanomaat meer valentie-elektronen",
         ],
@@ -398,7 +398,7 @@ DEEL2 = [
         vraag="Waarom schrijft men nano op het etiket van een cosmetisch product?",
         opties=[
             "zo weet de koper dat er deeltjes op nanomaat in zitten",
-            "zo weet de koper dat het product biologisch is",
+            "zo weet de koper dat het product biologisch en natuurlijk is",
             "zo weet de koper dat het product goedkoper gemaakt is",
             "zo weet de koper dat het product niet getest is",
         ],
@@ -411,7 +411,7 @@ DEEL2 = [
         vraag="Welke eigenschap maakt een koolstofnanobuis geschikt om een materiaal te versterken?",
         opties=[
             "haar grote sterkte bij een heel klein gewicht",
-            "haar lage smeltpunt bij nanomaat",
+            "haar lage smeltpunt bij nanomaat, waardoor ze makkelijk te vormen is",
             "haar doorzichtigheid voor zichtbaar licht",
             "haar antibacteriële werking op het oppervlak",
         ],

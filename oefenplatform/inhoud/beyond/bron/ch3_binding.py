@@ -120,7 +120,7 @@ DEEL1 = [
         vraag="Waarom is de drievoudige binding van stikstofgas zo moeilijk te breken?",
         opties=[
             "er moeten één sigma- en twee pi-bindingen samen verbroken worden",
-            "er zit een vrij elektronenpaar tussen de twee stikstofatomen",
+            "er zit een vrij elektronenpaar tussen de twee stikstofatomen, dat de binding vasthoudt",
             "de twee atomen liggen ver van elkaar in de molecule",
             "stikstof heeft een heel hoge elektronegatieve waarde",
         ],
@@ -140,7 +140,7 @@ DEEL1 = [
         vraag="Wat betekent radiale symmetrie bij een sigma-binding?",
         opties=[
             "de binding ziet er van alle kanten rond de as hetzelfde uit",
-            "de binding heeft boven en onder de as dezelfde vorm",
+            "de binding heeft boven en onder de as dezelfde vorm, zoals een pi-binding",
             "de binding heeft aan beide kernen evenveel elektronen",
             "de binding heeft dezelfde lengte in elke richting",
         ],

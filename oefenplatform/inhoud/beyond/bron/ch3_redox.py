@@ -84,7 +84,7 @@ DEEL1 = [
         vraag="Wat gebeurt er bij een oxidatie?",
         opties=[
             "een deeltje staat elektronen af en zijn oxidatiegetal stijgt",
-            "een deeltje neemt elektronen op en zijn oxidatiegetal daalt",
+            "een deeltje neemt elektronen op en zijn oxidatiegetal daalt daardoor",
             "een deeltje staat een proton af aan een ander deeltje",
             "een deeltje neemt zuurstof op uit de lucht",
         ],
@@ -232,7 +232,7 @@ DEEL2 = [
         vraag="Wat is de eerste stap bij het opstellen van een redoxvergelijking?",
         opties=[
             "de oxidatiegetallen bepalen en zien welk atoom verandert",
-            "de vergelijking meteen uitbalanceren met coëfficiënten",
+            "de vergelijking meteen uitbalanceren met coëfficiënten voor elk deeltje",
             "water en hydroxoniumionen aan beide kanten bijzetten",
             "de normpotentialen van de twee koppels opzoeken",
         ],
@@ -245,7 +245,7 @@ DEEL2 = [
         vraag="Waarom moet je de twee halfreacties met een factor vermenigvuldigen?",
         opties=[
             "het aantal afgestane en opgenomen elektronen moet gelijk zijn",
-            "de coëfficiënten moeten zo klein mogelijk gehouden worden",
+            "de coëfficiënten moeten zo klein mogelijk gehouden worden in de vergelijking",
             "de lading van de hele vergelijking moet nul worden",
             "het aantal watermoleculen links en rechts moet gelijk zijn",
         ],
@@ -285,7 +285,7 @@ DEEL2 = [
         vraag="Waarom wordt koper niet aangetast door zoutzuur?",
         opties=[
             "het hydroxoniumion is een te zwakke oxidator voor koper",
-            "koper is een te zwakke oxidator voor het chloride-ion",
+            "koper is een te zwakke oxidator voor het chloride-ion in de oplossing",
             "zoutzuur is te verdund om koper aan te tasten",
             "koper vormt een laagje chloride dat de reactie stopt",
         ],

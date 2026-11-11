@@ -51,7 +51,7 @@ DEEL1 = [
         vraag="Wat gebeurt er bij het opladen van een accu?",
         opties=[
             "de reactie wordt door een elektrolyse teruggeduwd",
-            "de twee elektroden worden van plaats gewisseld",
+            "de twee elektroden worden tijdens het laden van plaats gewisseld",
             "er wordt nieuwe elektrolyt in de cel gepompt",
             "de elektronen worden in de polen opgeslagen",
         ],
@@ -104,7 +104,7 @@ DEEL1 = [
         vraag="Waarom staat er op een batterij een spanning in volt?",
         opties=[
             "het is het verschil in normpotentiaal tussen de twee koppels",
-            "het is de hoeveelheid lading die de batterij kan leveren",
+            "het is de hoeveelheid lading die de batterij in totaal kan leveren voor ze leeg is",
             "het is de tijd die de batterij meegaat bij gebruik",
             "het is de temperatuur waarbij de batterij werkt",
         ],
@@ -117,7 +117,7 @@ DEEL1 = [
         vraag="Waarom mag je een batterij niet kortsluiten?",
         opties=[
             "de reactie loopt dan heel snel en de batterij wordt gevaarlijk warm",
-            "de polen wisselen dan van teken en de batterij laadt op",
+            "de polen wisselen dan van teken en de batterij laadt zichzelf weer op",
             "de elektrolyt verdampt dan en de batterij droogt uit",
             "de spanning stijgt dan tot boven de waarde op het etiket",
         ],
@@ -137,7 +137,7 @@ DEEL1 = [
         vraag="Waarom horen oude batterijen bij het klein gevaarlijk afval?",
         opties=[
             "ze bevatten zware metalen die in het milieu terechtkomen",
-            "ze bevatten nog genoeg spanning om brand te maken",
+            "ze bevatten nog genoeg spanning om in de vuilniswagen brand te maken",
             "ze zijn te zwaar voor de gewone vuilniszak",
             "ze bevatten glas dat de zakken kan openscheuren",
         ],
@@ -170,7 +170,7 @@ DEEL1 = [
         vraag="Waarom verguldt of verzilvert men juwelen in plaats van ze volledig uit dat metaal te maken?",
         opties=[
             "een dun laagje volstaat voor het uitzicht en kost veel minder",
-            "zuiver goud of zilver geleidt de stroom niet goed genoeg",
+            "zuiver goud of zilver geleidt de stroom niet goed genoeg om er een juweel van te maken",
             "een massief juweel zou te snel corroderen in de lucht",
             "goud en zilver zijn te zacht om een laagje te vormen",
         ],
@@ -203,7 +203,7 @@ DEEL1 = [
         vraag="Waarom is een oplaadbare batterij op lange termijn goedkoper dan een gewone?",
         opties=[
             "je kan de reactie honderden keren terugduwen met een lader",
-            "ze levert een veel hogere spanning per cel",
+            "ze levert een veel hogere spanning per cel dan een gewone wegwerpbatterij",
             "ze bevat geen zware metalen die ingezameld moeten worden",
             "ze raakt nooit leeg als je ze goed bewaart",
         ],
@@ -266,7 +266,7 @@ DEEL2 = [
         vraag="Waarom roest een auto sneller aan de kust of in de winter?",
         opties=[
             "zout maakt het water geleidend en versnelt de redoxreactie",
-            "zout reageert zelf met het ijzer tot ijzerchloride",
+            "zout reageert zelf rechtstreeks met het ijzer tot ijzerchloride",
             "zout haalt het zuurstofgas uit de lucht naar het metaal",
             "zout verhoogt de temperatuur van het natte oppervlak",
         ],
@@ -319,7 +319,7 @@ DEEL2 = [
         vraag="Waarom roest een conservenblik juist op een kras in het tinlaagje?",
         opties=[
             "tin is een zwakkere reductor, dus wordt het ijzer aangetast",
-            "tin houdt het water in de kras vast tegen het ijzer",
+            "tin houdt het water in de kras vast tegen het ijzer, zodat het sneller roest",
             "tin reageert met het ijzer op de plaats van de kras",
             "tin laat het zuurstofgas sneller door de kras heen",
         ],
@@ -352,7 +352,7 @@ DEEL2 = [
         vraag="Waarom corrodeert aluminium in de praktijk zo weinig?",
         opties=[
             "er vormt zich een dicht laagje oxide dat de rest afschermt",
-            "aluminium reageert niet met zuurstof uit de lucht",
+            "aluminium reageert helemaal niet met de zuurstof uit de lucht",
             "aluminium is een zwakkere reductor dan ijzer",
             "aluminium geleidt de stroom te goed om te oxideren",
         ],
@@ -398,7 +398,7 @@ DEEL2 = [
         vraag="Waarom gaat een boiler langer mee met een anode van magnesium erin?",
         opties=[
             "de anode wordt aangetast in plaats van de stalen wand",
-            "de anode warmt het water sneller op dan het staal",
+            "de anode warmt het water sneller op dan het staal van de wand",
             "de anode houdt het kalk uit het water tegen",
             "de anode maakt het water in de boiler basisch",
         ],

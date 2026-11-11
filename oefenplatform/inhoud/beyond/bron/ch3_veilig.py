@@ -18,7 +18,7 @@ DEEL1 = [
         vraag="Waarover gaat een H-zin op een etiket?",
         opties=[
             "over het gevaar dat de stof zelf oplevert",
-            "over de voorzorg die je moet nemen",
+            "over de voorzorg die je moet nemen bij het gebruik van de stof",
             "over de hoeveelheid die in de fles zit",
             "over de houdbaarheid van het product",
         ],
@@ -31,7 +31,7 @@ DEEL1 = [
         vraag="Waarover gaat een P-zin op een etiket?",
         opties=[
             "over de voorzorg en wat je bij een ongeval doet",
-            "over het gevaar dat de stof zelf oplevert",
+            "over het gevaar dat de stof zelf oplevert voor mens en milieu",
             "over de prijs en de herkomst van het product",
             "over de plaats waar de stof gemaakt werd",
         ],
@@ -57,7 +57,7 @@ DEEL1 = [
         vraag="Een pictogram toont een doodshoofd met twee gekruiste beenderen. Wat betekent het?",
         opties=[
             "de stof is giftig, ook in een kleine hoeveelheid",
-            "de stof is bijtend voor huid en voor materiaal",
+            "de stof is bijtend voor de huid, de ogen en voor materiaal",
             "de stof kan ontploffen bij een harde schok",
             "de stof is schadelijk voor dieren in het water",
         ],
@@ -116,7 +116,7 @@ DEEL1 = [
         vraag="Wat bedoelt men met het meetbereik van een instrument?",
         opties=[
             "de kleinste en de grootste waarde die het kan meten",
-            "de kleinste stap die het nog kan onderscheiden",
+            "de kleinste stap die het instrument nog kan onderscheiden",
             "de afwijking tussen de meting en de echte waarde",
             "het aantal metingen dat je ermee kan doen",
         ],
@@ -182,7 +182,7 @@ DEEL1 = [
         vraag="Een pictogram toont een boom en een dode vis. Wat betekent het?",
         opties=[
             "de stof is schadelijk voor het leven in het water",
-            "de stof is giftig bij het inademen van de damp",
+            "de stof is giftig bij het inademen van de damp, ook in kleine hoeveelheid",
             "de stof tast de huid en de ogen zwaar aan",
             "de stof vat gemakkelijk vuur in open lucht",
         ],

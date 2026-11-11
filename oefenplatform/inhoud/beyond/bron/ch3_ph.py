@@ -19,7 +19,7 @@ DEEL1 = [
         vraag="Wat is de pH van een oplossing?",
         opties=[
             "de negatieve logaritme van de concentratie hydroxoniumionen",
-            "de negatieve logaritme van de concentratie hydroxide-ionen",
+            "de negatieve logaritme van de concentratie hydroxide-ionen in de oplossing",
             "de concentratie hydroxoniumionen in mol per liter",
             "het aantal mol zuur dat je in de oplossing gedaan hebt",
         ],
@@ -152,7 +152,7 @@ DEEL1 = [
         vraag="Waarom gebruikt men een logaritmische schaal voor de zuurtegraad?",
         opties=[
             "de concentraties liggen over heel veel machten van tien verspreid",
-            "de concentraties zijn anders niet te meten met een pH-meter",
+            "de concentraties zijn anders niet te meten met een gewone pH-meter",
             "de schaal moet van nul tot veertien lopen voor elke oplossing",
             "de pH is anders niet met een indicator te bepalen",
         ],

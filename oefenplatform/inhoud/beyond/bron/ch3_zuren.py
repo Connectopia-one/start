@@ -192,7 +192,7 @@ DEEL1 = [
         vraag="Een amfolyt komt in water terecht. Hoe weet je welke reactie het meest waarschijnlijk is?",
         opties=[
             "je vergelijkt zijn zuurconstante met zijn baseconstante",
-            "je kijkt welke reactie het snelste op gang komt",
+            "je kijkt welke reactie het snelste op gang komt in het water",
             "je kijkt hoeveel protonen het deeltje in totaal heeft",
             "je vergelijkt zijn molaire massa met die van water",
         ],
@@ -288,7 +288,7 @@ DEEL2 = [
         vraag="Wat is de ionisatiegraad van een zuur?",
         opties=[
             "het deel van de moleculen dat zijn proton heeft afgestaan",
-            "het aantal protonen dat één molecule kan afstaan",
+            "het aantal protonen dat één molecule van het zuur kan afstaan aan water",
             "de hoeveelheid zuur die je per liter water kan oplossen",
             "het verschil tussen de pH en de pKz van het zuur",
         ],
@@ -321,7 +321,7 @@ DEEL2 = [
         vraag="Hoe werkt een zuurbase-indicator?",
         opties=[
             "het is zelf een zwak zuur waarvan de twee vormen anders gekleurd zijn",
-            "het is een sterk zuur dat van kleur verandert bij verdunnen",
+            "het is een sterk zuur dat van kleur verandert bij verdunnen met water",
             "het meet de elektrische geleidbaarheid van de oplossing",
             "het reageert met het zout dat bij de neutralisatie ontstaat",
         ],
@@ -355,7 +355,7 @@ DEEL2 = [
         vraag="Waarom is een oplossing van natriumacetaat basisch?",
         opties=[
             "het acetaation is de geconjugeerde base van een zwak zuur",
-            "het natriumion neemt protonen op uit het water",
+            "het natriumion neemt protonen op uit het water en laat hydroxide over",
             "het acetaation staat protonen af aan het water",
             "het zout reageert met water tot natriumhydroxide",
         ],
