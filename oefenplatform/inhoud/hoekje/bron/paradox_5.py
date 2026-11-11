@@ -20,7 +20,7 @@ VRAGEN = [
         "vraag": "Volgens de stelling van Banach en Tarski kun je in de wiskunde een bol in stukjes knippen en die anders samenleggen. Wat krijg je dan?",
         "opties": [
             "Twee bollen die elk precies even groot zijn als de eerste",
-            "Eén bol die precies half zo groot is als de eerste bol",
+            "Eén bol die precies half zo groot is als de eerste bol, en een tweede die even klein is",
             "Een kubus met exact dezelfde inhoud als de oude bol",
             "Een bol met een gat erin dat je nooit meer dicht krijgt",
         ],
@@ -68,7 +68,7 @@ VRAGEN = [
         "vraag": "De zin alle raven zijn zwart betekent logisch hetzelfde als: alles wat niet zwart is, is geen raaf. Wat volgt daar vreemd genoeg uit?",
         "opties": [
             "Een witte schoen zou een bewijsje zijn dat alle raven zwart zijn",
-            "Een zwarte kat zou bewijzen dat er toch ook witte raven bestaan",
+            "Een zwarte kat zou bewijzen dat er ergens toch ook witte raven bestaan",
             "Een zwarte raaf zou dan niets meer zeggen over de andere raven",
             "Een witte raaf zou dan mogen bestaan zonder de zin te breken",
         ],
@@ -104,7 +104,7 @@ VRAGEN = [
         "vraag": "Twee bewakers staan bij twee deuren: één naar de vrijheid, één naar de kerker. De ene liegt altijd, de andere spreekt altijd de waarheid, maar je weet niet wie wie is. Je mag één vraag stellen aan één bewaker. Welke vraag helpt?",
         "opties": [
             "Welke deur zou de andere bewaker aanwijzen? En dan neem je de andere deur",
-            "Ben jij de bewaker die altijd liegt? En dan neem je de deur achter hem",
+            "Ben jij de bewaker die altijd liegt? En dan neem je de deur die achter hem staat",
             "Welke deur leidt naar de vrijheid? En dan neem je precies die deur",
             "Is twee plus twee vier? En dan neem je de deur rechts als hij ja zegt",
         ],
@@ -140,7 +140,7 @@ VRAGEN = [
         "vraag": "Een mier valt van een hoge flat en wandelt beneden gewoon verder. Hoe komt dat?",
         "opties": [
             "Ze is zo licht voor haar oppervlak dat de lucht haar val sterk afremt",
-            "Ze heeft een hard pantser dat elke klap volledig voor haar opvangt",
+            "Ze heeft een hard pantser dat elke klap volledig opvangt, hoe hoog ze ook valt",
             "Lichte dingen worden door de aarde minder hard aangetrokken",
             "Ze zweeft mee op de warme lucht die langs de gevel opstijgt",
         ],
@@ -166,7 +166,7 @@ VRAGEN = [
             "De cellen die rood zien raken moe, dus de andere kleuren winnen even",
             "Je oog maakt zelf groen licht aan om het rode weer op te heffen",
             "De muur weerkaatst het tegenovergestelde van rood naar je oog",
-            "Je hersenen keren een beeld dat blijft hangen om naar de tegenkleur",
+            "Je hersenen keren een beeld dat blijft hangen altijd om naar de tegenkleur",
         ],
         "antwoord": 0,
         "uitleg": "In je netvlies zitten cellen voor rood, groen en blauw. Kijk je lang naar rood, dan raken de roodcellen even uitgeput. Wit licht bevat alle kleuren, maar nu reageren vooral de groen- en blauwcellen: je ziet een naschaduw in de tegenkleur. Na een paar tellen zijn de roodcellen bijgekomen en verdwijnt de vlek.",

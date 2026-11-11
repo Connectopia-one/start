@@ -12,7 +12,7 @@ VRAGEN = [
         "vraag": "De paradox van Olbers vraagt: als het heelal oneindig vol sterren staat, waarom is de nacht dan donker?",
         "opties": [
             "Het heelal is niet oneindig oud, dus niet alle sterlicht is hier al",
-            "Het stof tussen de sterren houdt het meeste licht onderweg tegen",
+            "Het stof tussen de sterren houdt het meeste licht onderweg tegen, zodat het hier niet raakt",
             "Er staan gewoon te weinig sterren om de hemel op te vullen",
             "Onze dampkring laat 's nachts maar een deel van het licht door",
         ],
@@ -24,7 +24,7 @@ VRAGEN = [
         "vraag": "Waarom bedacht Erwin Schrödinger zijn kat die tegelijk dood en levend zou zijn?",
         "opties": [
             "Om te tonen hoe raar het wordt als je kwantumregels op grote dingen loslaat",
-            "Om te bewijzen dat katten echt in twee toestanden tegelijk kunnen zijn",
+            "Om te bewijzen dat katten echt in twee toestanden tegelijk kunnen zijn, net als deeltjes",
             "Om uit te leggen hoe je met gif een deeltje kunt opmeten",
             "Om aan te tonen dat niemand ooit iets met zekerheid kan weten",
         ],
@@ -79,7 +79,7 @@ VRAGEN = [
         "opties": [
             "Wisselen, want dan win je in twee van de drie gevallen",
             "Blijven, want dan win je in twee van de drie gevallen",
-            "Het maakt niet uit: de kans is nu vijftig om vijftig",
+            "Het maakt niet uit: de kans is nu vijftig om vijftig voor elke deur",
             "Wisselen, maar alleen als je eerst de middelste koos",
         ],
         "antwoord": 0,
@@ -120,7 +120,7 @@ VRAGEN = [
         "vraag": "Je reist terug in de tijd en verhindert dat je grootouders elkaar ooit ontmoeten. Waarom is dat een paradox?",
         "opties": [
             "Dan word jij nooit geboren, en kun je dus ook niet terugreizen",
-            "Dan zou je twee keer op dezelfde plaats tegelijk bestaan",
+            "Dan zou je twee keer op dezelfde plaats tegelijk bestaan, als kind en als volwassene",
             "Dan zou je ouder worden dan je eigen grootouders zijn",
             "Dan verdwijnt de tijdmachine voordat je ermee vertrekt",
         ],
@@ -180,7 +180,7 @@ VRAGEN = [
         "vraag": "Waarom keert een spiegel links en rechts om, maar niet boven en onder?",
         "opties": [
             "Ze keert eigenlijk voor en achter om, wij draaien onszelf erbij",
-            "Onze ogen staan naast elkaar en niet boven elkaar",
+            "Onze ogen staan naast elkaar en niet boven elkaar, dus zien we links en rechts anders",
             "Het licht kaatst horizontaal anders dan verticaal",
             "Ze keert wel degelijk ook boven en onder om",
         ],
@@ -192,7 +192,7 @@ VRAGEN = [
         "vraag": "Hoe bewijst de wiskunde dat er oneindig veel priemgetallen zijn?",
         "opties": [
             "Door aan te nemen dat er eindig veel zijn en dan een nieuw te maken",
-            "Door ze allemaal op te sommen tot je niet meer verder kunt",
+            "Door ze allemaal op te sommen met een computer tot je niet meer verder kunt",
             "Door te tonen dat elk even getal er twee bevat",
             "Door te meten dat ze steeds dichter bij elkaar gaan liggen",
         ],
@@ -209,7 +209,7 @@ VRAGEN = [
         "type": "meerkeuze",
         "vraag": "De kosmische kalender perst de hele geschiedenis van het heelal in één jaar. Wanneer verschijnt de mens?",
         "opties": [
-            r"Pas in de laatste minuten van \(31\) december",
+            r"In de laatste minuten van \(31\) december",
             "Ergens rond het midden van de maand november",
             "Kort na de zomer, begin september",
             "Bij het begin van het jaar, in januari",

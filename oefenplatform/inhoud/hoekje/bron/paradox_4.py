@@ -29,7 +29,7 @@ VRAGEN = [
         "vraag": "Waarom zijn flamingo's roze?",
         "opties": [
             "Door kleurstoffen uit de garnalen en algen die ze eten",
-            "Door een rode kleurstof in hun bloed die doorschijnt",
+            "Door een rode kleurstof in hun bloed die door de dunne huid heen schijnt",
             "Ze worden roze geboren en verbleken daarna in de zon",
             "Door het zonlicht dat op hun witte veren weerkaatst",
         ],
@@ -77,7 +77,7 @@ VRAGEN = [
         "vraag": "In de oorlog onderzocht men waar teruggekeerde vliegtuigen kogelgaten hadden, om net daar pantser te zetten. Wat was er mis met dat plan?",
         "opties": [
             "Juist de vliegtuigen die níét terugkwamen, waren elders geraakt",
-            "Pantser maakt een vliegtuig te zwaar om te kunnen opstijgen",
+            "Pantser maakt een vliegtuig te zwaar om nog veilig te kunnen opstijgen",
             "Kogelgaten zeggen niets, want ze ontstaan ook bij de landing",
             "Men had veel meer vliegtuigen moeten tellen voor een besluit",
         ],
@@ -139,7 +139,7 @@ VRAGEN = [
             "Je zuigt niet, de luchtdruk duwt, en verder duwt die niet",
             "Het water wordt onderweg te zwaar om nog te bewegen",
             "Boven tien meter bevriest het water in het rietje",
-            "Je longen kunnen niet meer kracht zetten dan dat",
+            "Je longen kunnen niet meer kracht zetten dan dat, hoe getraind je ook bent",
         ],
         "antwoord": 0,
         "uitleg": "Zuigen betekent: lucht weghalen, zodat de luchtdruk buiten het water omhoog duwt. Die druk kan een kolom van ongeveer tien meter water dragen, en geen millimeter meer, hoe sterk je longen ook zijn. Daarom staan pompen voor diepe putten onderaan en zuigen ze niet van bovenaf.",

@@ -79,7 +79,7 @@ VRAGEN = [
         "vraag": "Waarom is het zo raar dat het heelal vandaag bijna alleen uit materie bestaat?",
         "opties": [
             "Bij de oerknal hoorde er evenveel antimaterie te ontstaan, en die is er niet",
-            "Materie kan volgens de natuurwetten helemaal niet uit het niets ontstaan",
+            "Materie kan volgens de natuurwetten helemaal niet uit het niets ontstaan, ook niet bij een oerknal",
             "Er zou veel meer materie moeten zijn dan we met telescopen kunnen zien",
             "Materie zou na al die tijd allang uit elkaar gevallen moeten zijn",
         ],
@@ -121,7 +121,7 @@ VRAGEN = [
         "vraag": "De pitten in een zonnebloem liggen in spiralen. Hoeveel zijn dat er meestal?",
         "opties": [
             r"Een getal uit de rij van Fibonacci, zoals \(34\) of \(55\)",
-            "Altijd precies twaalf, net als de uren op een klok",
+            "Altijd precies twaalf, net als de uren op een klok of de maanden van het jaar",
             "Een willekeurig aantal, dat per bloem verschilt",
             "Evenveel als het aantal blaadjes rond de bloem",
         ],
@@ -151,7 +151,7 @@ VRAGEN = [
         "vraag": "Waarom is de zee zout en een rivier niet?",
         "opties": [
             "Rivieren voeren voortdurend een beetje zout aan, en alleen water verdampt",
-            "Op de bodem van de zee liggen dikke lagen zout die oplossen",
+            "Op de bodem van de zee liggen dikke lagen zout die langzaam in het water oplossen",
             "Zeewater bevat zout omdat er zeedieren in leven die het aanmaken",
             "Regen boven zee is zouter dan regen boven het land",
         ],
@@ -163,7 +163,7 @@ VRAGEN = [
         "vraag": "Waarvoor dienen de strepen van een zebra volgens recent onderzoek vooral?",
         "opties": [
             "Ze houden bijtende vliegen weg, die er niet goed op kunnen landen",
-            "Ze maken de zebra onzichtbaar voor leeuwen in het hoge gras",
+            "Ze maken de zebra onzichtbaar voor leeuwen die in het hoge gras op de loer liggen",
             "Ze koelen het dier af doordat zwart en wit verschillend opwarmen",
             "Ze laten zebra's elkaar herkennen, want elk patroon is uniek",
         ],
@@ -211,7 +211,7 @@ VRAGEN = [
         "vraag": r"Eén op de \(1000\) mensen heeft een zeldzame ziekte. Een test zit er maar in \(1\) op de \(100\) gevallen naast. Je test positief. Hoe groot is de kans dat je de ziekte echt hebt?",
         "opties": [
             "Minder dan één op tien, want de meeste positieve testen zijn vals alarm",
-            "Ongeveer negenennegentig op honderd, want zo betrouwbaar is de test",
+            "Ongeveer negenennegentig op honderd, want zo betrouwbaar is de test zelf",
             "Ongeveer de helft, want je hebt het of je hebt het niet",
             "Ongeveer negen op tien, want één procent valt er telkens af",
         ],

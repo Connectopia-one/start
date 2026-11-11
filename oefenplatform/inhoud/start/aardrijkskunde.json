@@ -8,7 +8,7 @@
           "type": "meerkeuze",
           "vraag": "Waar wijst de naald van een kompas naar?",
           "opties": [
-            "het oosten",
+            "het oosten, waar de zon opkomt",
             "het noorden",
             "het zuiden",
             "het westen"
@@ -38,7 +38,7 @@
           "type": "meerkeuze",
           "vraag": "Wat vertelt de schaal op een kaart je?",
           "opties": [
-            "welke kleuren gebruikt zijn",
+            "welke kleuren er gebruikt zijn voor bos, water en steden",
             "hoeveel keer de werkelijkheid verkleind is",
             "de namen van de steden",
             "het weer"
@@ -92,7 +92,7 @@
           "type": "meerkeuze",
           "vraag": "Op een reliëfkaart betekent bruin meestal:",
           "opties": [
-            "laagland",
+            "laagland of polders",
             "hoogland of bergen",
             "zee",
             "woestijn"
@@ -141,7 +141,7 @@
           "vraag": "Waarvoor is een plattegrond van een stad vooral handig?",
           "opties": [
             "de weg vinden tussen de straten",
-            "het weer voorspellen",
+            "het weer voorspellen voor de volgende dagen",
             "de hoogte meten",
             "de bevolking tellen"
           ],
@@ -224,7 +224,7 @@
           "type": "meerkeuze",
           "vraag": "Welke rivier stroomt door Antwerpen?",
           "opties": [
-            "de Maas",
+            "de Maas, die ook door Luik stroomt",
             "de Schelde",
             "de Leie",
             "de Demer"
@@ -260,7 +260,7 @@
           "type": "meerkeuze",
           "vraag": "Hoe heet het hoogste punt van België?",
           "opties": [
-            "de Kemmelberg",
+            "de Kemmelberg in West-Vlaanderen",
             "het Signaal van Botrange",
             "de Mont Ventoux",
             "de Vaalserberg"
@@ -280,7 +280,7 @@
           "opties": [
             "Limburg",
             "West-Vlaanderen",
-            "Vlaams-Brabant",
+            "Vlaams-Brabant, rond de hoofdstad Brussel",
             "Antwerpen"
           ],
           "antwoord": 1,
@@ -345,8 +345,8 @@
           "vraag": "Waarvoor is de haven van Zeebrugge bekend?",
           "opties": [
             "zeeschepen en goederen",
-            "bergbeklimmen",
-            "wijnbouw",
+            "bergbeklimmen in de duinen",
+            "wijnbouw op de zandgrond",
             "skiën"
           ],
           "antwoord": 0,
@@ -363,7 +363,7 @@
           "vraag": "Welk landschap vind je vooral aan de Belgische kust?",
           "opties": [
             "duinen en strand",
-            "hoge bergen",
+            "hoge bergen met sneeuw",
             "woestijn",
             "regenwoud"
           ],
@@ -506,7 +506,7 @@
           "type": "meerkeuze",
           "vraag": "Welke zee ligt tussen Europa en Afrika?",
           "opties": [
-            "de Noordzee",
+            "de Noordzee, tussen België en Engeland",
             "de Middellandse Zee",
             "de Oostzee",
             "de Rode Zee"

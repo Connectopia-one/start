@@ -10,7 +10,7 @@
           "vraag": "De paradox van Olbers vraagt: als het heelal oneindig vol sterren staat, waarom is de nacht dan donker?",
           "opties": [
             "Het heelal is niet oneindig oud, dus niet alle sterlicht is hier al",
-            "Het stof tussen de sterren houdt het meeste licht onderweg tegen",
+            "Het stof tussen de sterren houdt het meeste licht onderweg tegen, zodat het hier niet raakt",
             "Er staan gewoon te weinig sterren om de hemel op te vullen",
             "Onze dampkring laat 's nachts maar een deel van het licht door"
           ],
@@ -22,7 +22,7 @@
           "vraag": "Waarom bedacht Erwin Schrödinger zijn kat die tegelijk dood en levend zou zijn?",
           "opties": [
             "Om te tonen hoe raar het wordt als je kwantumregels op grote dingen loslaat",
-            "Om te bewijzen dat katten echt in twee toestanden tegelijk kunnen zijn",
+            "Om te bewijzen dat katten echt in twee toestanden tegelijk kunnen zijn, net als deeltjes",
             "Om uit te leggen hoe je met gif een deeltje kunt opmeten",
             "Om aan te tonen dat niemand ooit iets met zekerheid kan weten"
           ],
@@ -77,7 +77,7 @@
           "opties": [
             "Wisselen, want dan win je in twee van de drie gevallen",
             "Blijven, want dan win je in twee van de drie gevallen",
-            "Het maakt niet uit: de kans is nu vijftig om vijftig",
+            "Het maakt niet uit: de kans is nu vijftig om vijftig voor elke deur",
             "Wisselen, maar alleen als je eerst de middelste koos"
           ],
           "antwoord": 0,
@@ -118,7 +118,7 @@
           "vraag": "Je reist terug in de tijd en verhindert dat je grootouders elkaar ooit ontmoeten. Waarom is dat een paradox?",
           "opties": [
             "Dan word jij nooit geboren, en kun je dus ook niet terugreizen",
-            "Dan zou je twee keer op dezelfde plaats tegelijk bestaan",
+            "Dan zou je twee keer op dezelfde plaats tegelijk bestaan, als kind en als volwassene",
             "Dan zou je ouder worden dan je eigen grootouders zijn",
             "Dan verdwijnt de tijdmachine voordat je ermee vertrekt"
           ],
@@ -178,7 +178,7 @@
           "vraag": "Waarom keert een spiegel links en rechts om, maar niet boven en onder?",
           "opties": [
             "Ze keert eigenlijk voor en achter om, wij draaien onszelf erbij",
-            "Onze ogen staan naast elkaar en niet boven elkaar",
+            "Onze ogen staan naast elkaar en niet boven elkaar, dus zien we links en rechts anders",
             "Het licht kaatst horizontaal anders dan verticaal",
             "Ze keert wel degelijk ook boven en onder om"
           ],
@@ -190,7 +190,7 @@
           "vraag": "Hoe bewijst de wiskunde dat er oneindig veel priemgetallen zijn?",
           "opties": [
             "Door aan te nemen dat er eindig veel zijn en dan een nieuw te maken",
-            "Door ze allemaal op te sommen tot je niet meer verder kunt",
+            "Door ze allemaal op te sommen met een computer tot je niet meer verder kunt",
             "Door te tonen dat elk even getal er twee bevat",
             "Door te meten dat ze steeds dichter bij elkaar gaan liggen"
           ],
@@ -207,7 +207,7 @@
           "type": "meerkeuze",
           "vraag": "De kosmische kalender perst de hele geschiedenis van het heelal in één jaar. Wanneer verschijnt de mens?",
           "opties": [
-            "Pas in de laatste minuten van \\(31\\) december",
+            "In de laatste minuten van \\(31\\) december",
             "Ergens rond het midden van de maand november",
             "Kort na de zomer, begin september",
             "Bij het begin van het jaar, in januari"
@@ -239,7 +239,7 @@
           "vraag": "Hoe krijgt een vliegtuigvleugel lift?",
           "opties": [
             "Hij duwt lucht naar beneden, en de lucht duwt even hard terug",
-            "De bovenkant is bol, dus daar moet de lucht sneller inhalen",
+            "De bovenkant is bol, dus daar moet de lucht sneller stromen om de onderkant in te halen",
             "De motoren blazen lucht onder de vleugel en tillen hem op",
             "De vleugel is lichter dan de lucht die hij verplaatst"
           ],
@@ -389,7 +389,7 @@
           "vraag": "Waarom zijn er wel groene vogels en kikkers, maar geen groene zoogdieren?",
           "opties": [
             "Haren kunnen geen groen pigment of structuurkleur maken",
-            "Zoogdieren leven bijna allemaal onder de grond",
+            "Zoogdieren leven bijna allemaal onder de grond, waar groen geen nut heeft",
             "Groen bloed zou te veel warmte vasthouden",
             "Zoogdieren zien zelf geen groen en hebben er niets aan"
           ],
@@ -510,7 +510,7 @@
           "vraag": "Waarom is het zo raar dat het heelal vandaag bijna alleen uit materie bestaat?",
           "opties": [
             "Bij de oerknal hoorde er evenveel antimaterie te ontstaan, en die is er niet",
-            "Materie kan volgens de natuurwetten helemaal niet uit het niets ontstaan",
+            "Materie kan volgens de natuurwetten helemaal niet uit het niets ontstaan, ook niet bij een oerknal",
             "Er zou veel meer materie moeten zijn dan we met telescopen kunnen zien",
             "Materie zou na al die tijd allang uit elkaar gevallen moeten zijn"
           ],
@@ -552,7 +552,7 @@
           "vraag": "De pitten in een zonnebloem liggen in spiralen. Hoeveel zijn dat er meestal?",
           "opties": [
             "Een getal uit de rij van Fibonacci, zoals \\(34\\) of \\(55\\)",
-            "Altijd precies twaalf, net als de uren op een klok",
+            "Altijd precies twaalf, net als de uren op een klok of de maanden van het jaar",
             "Een willekeurig aantal, dat per bloem verschilt",
             "Evenveel als het aantal blaadjes rond de bloem"
           ],
@@ -582,7 +582,7 @@
           "vraag": "Waarom is de zee zout en een rivier niet?",
           "opties": [
             "Rivieren voeren voortdurend een beetje zout aan, en alleen water verdampt",
-            "Op de bodem van de zee liggen dikke lagen zout die oplossen",
+            "Op de bodem van de zee liggen dikke lagen zout die langzaam in het water oplossen",
             "Zeewater bevat zout omdat er zeedieren in leven die het aanmaken",
             "Regen boven zee is zouter dan regen boven het land"
           ],
@@ -594,7 +594,7 @@
           "vraag": "Waarvoor dienen de strepen van een zebra volgens recent onderzoek vooral?",
           "opties": [
             "Ze houden bijtende vliegen weg, die er niet goed op kunnen landen",
-            "Ze maken de zebra onzichtbaar voor leeuwen in het hoge gras",
+            "Ze maken de zebra onzichtbaar voor leeuwen die in het hoge gras op de loer liggen",
             "Ze koelen het dier af doordat zwart en wit verschillend opwarmen",
             "Ze laten zebra's elkaar herkennen, want elk patroon is uniek"
           ],
@@ -642,7 +642,7 @@
           "vraag": "Eén op de \\(1000\\) mensen heeft een zeldzame ziekte. Een test zit er maar in \\(1\\) op de \\(100\\) gevallen naast. Je test positief. Hoe groot is de kans dat je de ziekte echt hebt?",
           "opties": [
             "Minder dan één op tien, want de meeste positieve testen zijn vals alarm",
-            "Ongeveer negenennegentig op honderd, want zo betrouwbaar is de test",
+            "Ongeveer negenennegentig op honderd, want zo betrouwbaar is de test zelf",
             "Ongeveer de helft, want je hebt het of je hebt het niet",
             "Ongeveer negen op tien, want één procent valt er telkens af"
           ],
@@ -673,7 +673,7 @@
           "vraag": "Waarom zijn flamingo's roze?",
           "opties": [
             "Door kleurstoffen uit de garnalen en algen die ze eten",
-            "Door een rode kleurstof in hun bloed die doorschijnt",
+            "Door een rode kleurstof in hun bloed die door de dunne huid heen schijnt",
             "Ze worden roze geboren en verbleken daarna in de zon",
             "Door het zonlicht dat op hun witte veren weerkaatst"
           ],
@@ -721,7 +721,7 @@
           "vraag": "In de oorlog onderzocht men waar teruggekeerde vliegtuigen kogelgaten hadden, om net daar pantser te zetten. Wat was er mis met dat plan?",
           "opties": [
             "Juist de vliegtuigen die níét terugkwamen, waren elders geraakt",
-            "Pantser maakt een vliegtuig te zwaar om te kunnen opstijgen",
+            "Pantser maakt een vliegtuig te zwaar om nog veilig te kunnen opstijgen",
             "Kogelgaten zeggen niets, want ze ontstaan ook bij de landing",
             "Men had veel meer vliegtuigen moeten tellen voor een besluit"
           ],
@@ -783,7 +783,7 @@
             "Je zuigt niet, de luchtdruk duwt, en verder duwt die niet",
             "Het water wordt onderweg te zwaar om nog te bewegen",
             "Boven tien meter bevriest het water in het rietje",
-            "Je longen kunnen niet meer kracht zetten dan dat"
+            "Je longen kunnen niet meer kracht zetten dan dat, hoe getraind je ook bent"
           ],
           "antwoord": 0,
           "uitleg": "Zuigen betekent: lucht weghalen, zodat de luchtdruk buiten het water omhoog duwt. Die druk kan een kolom van ongeveer tien meter water dragen, en geen millimeter meer, hoe sterk je longen ook zijn. Daarom staan pompen voor diepe putten onderaan en zuigen ze niet van bovenaf."
@@ -872,7 +872,7 @@
           "vraag": "Volgens de stelling van Banach en Tarski kun je in de wiskunde een bol in stukjes knippen en die anders samenleggen. Wat krijg je dan?",
           "opties": [
             "Twee bollen die elk precies even groot zijn als de eerste",
-            "Eén bol die precies half zo groot is als de eerste bol",
+            "Eén bol die precies half zo groot is als de eerste bol, en een tweede die even klein is",
             "Een kubus met exact dezelfde inhoud als de oude bol",
             "Een bol met een gat erin dat je nooit meer dicht krijgt"
           ],
@@ -920,7 +920,7 @@
           "vraag": "De zin alle raven zijn zwart betekent logisch hetzelfde als: alles wat niet zwart is, is geen raaf. Wat volgt daar vreemd genoeg uit?",
           "opties": [
             "Een witte schoen zou een bewijsje zijn dat alle raven zwart zijn",
-            "Een zwarte kat zou bewijzen dat er toch ook witte raven bestaan",
+            "Een zwarte kat zou bewijzen dat er ergens toch ook witte raven bestaan",
             "Een zwarte raaf zou dan niets meer zeggen over de andere raven",
             "Een witte raaf zou dan mogen bestaan zonder de zin te breken"
           ],
@@ -956,7 +956,7 @@
           "vraag": "Twee bewakers staan bij twee deuren: één naar de vrijheid, één naar de kerker. De ene liegt altijd, de andere spreekt altijd de waarheid, maar je weet niet wie wie is. Je mag één vraag stellen aan één bewaker. Welke vraag helpt?",
           "opties": [
             "Welke deur zou de andere bewaker aanwijzen? En dan neem je de andere deur",
-            "Ben jij de bewaker die altijd liegt? En dan neem je de deur achter hem",
+            "Ben jij de bewaker die altijd liegt? En dan neem je de deur die achter hem staat",
             "Welke deur leidt naar de vrijheid? En dan neem je precies die deur",
             "Is twee plus twee vier? En dan neem je de deur rechts als hij ja zegt"
           ],
@@ -992,7 +992,7 @@
           "vraag": "Een mier valt van een hoge flat en wandelt beneden gewoon verder. Hoe komt dat?",
           "opties": [
             "Ze is zo licht voor haar oppervlak dat de lucht haar val sterk afremt",
-            "Ze heeft een hard pantser dat elke klap volledig voor haar opvangt",
+            "Ze heeft een hard pantser dat elke klap volledig opvangt, hoe hoog ze ook valt",
             "Lichte dingen worden door de aarde minder hard aangetrokken",
             "Ze zweeft mee op de warme lucht die langs de gevel opstijgt"
           ],
@@ -1018,7 +1018,7 @@
             "De cellen die rood zien raken moe, dus de andere kleuren winnen even",
             "Je oog maakt zelf groen licht aan om het rode weer op te heffen",
             "De muur weerkaatst het tegenovergestelde van rood naar je oog",
-            "Je hersenen keren een beeld dat blijft hangen om naar de tegenkleur"
+            "Je hersenen keren een beeld dat blijft hangen altijd om naar de tegenkleur"
           ],
           "antwoord": 0,
           "uitleg": "In je netvlies zitten cellen voor rood, groen en blauw. Kijk je lang naar rood, dan raken de roodcellen even uitgeput. Wit licht bevat alle kleuren, maar nu reageren vooral de groen- en blauwcellen: je ziet een naschaduw in de tegenkleur. Na een paar tellen zijn de roodcellen bijgekomen en verdwijnt de vlek."

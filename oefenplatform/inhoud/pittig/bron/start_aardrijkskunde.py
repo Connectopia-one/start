@@ -62,7 +62,7 @@ KAARTLEZEN = [
         "vraag": "Waarvoor dienen hoogtelijnen op een kaart?",
         "opties": [
             "ze verbinden punten die even hoog liggen",
-            "ze tonen waar de wegen lopen",
+            "ze tonen waar de wegen en de spoorlijnen tussen de steden lopen",
             "ze geven de grenzen aan",
             "ze wijzen naar het noorden",
         ],
@@ -120,7 +120,7 @@ KAARTLEZEN = [
         "vraag": "Wat is het verschil tussen een plattegrond en een landkaart?",
         "opties": [
             "een plattegrond toont een klein gebied van bovenaf, heel gedetailleerd",
-            "een plattegrond toont het gebied van opzij, zoals een foto",
+            "een plattegrond toont het gebied van opzij, zoals een foto die je vanaf de straat neemt",
             "een landkaart is altijd kleiner van formaat",
             "een plattegrond heeft nooit een legende",
         ],
@@ -138,7 +138,7 @@ KAARTLEZEN = [
         "vraag": "Waarom staat er bij elke kaart een legende?",
         "opties": [
             "omdat elke kaart haar eigen tekens en kleuren gebruikt",
-            "omdat kaarten anders niet mooi zouden ogen op papier",
+            "omdat kaarten anders niet mooi zouden ogen als je ze afdrukt op papier",
             "omdat de schaal anders niet zou kloppen",
             "omdat dat nu eenmaal verplicht is",
         ],
@@ -186,7 +186,7 @@ BELGIE = [
         "vraag": "Waarom is Antwerpen zo'n belangrijke havenstad, hoewel ze niet aan zee ligt?",
         "opties": [
             "de Schelde is er diep genoeg voor zeeschepen",
-            "er loopt een kanaal naar de Noordzee",
+            "er loopt een breed kanaal van de stad rechtstreeks naar de Noordzee",
             "de stad ligt eigenlijk aan de Maas",
             "de haven ligt in werkelijkheid in Zeebrugge",
         ],
@@ -210,7 +210,7 @@ BELGIE = [
         "vraag": "Waarom liggen de oude industriegebieden van Wallonië vooral langs de Samber en de Maas?",
         "opties": [
             "daar lag de steenkool, en het water zorgde voor vervoer",
-            "daar is de grond het vruchtbaarst voor landbouw",
+            "daar is de grond het vruchtbaarst voor landbouw en veeteelt",
             "daar wonen sinds de middeleeuwen de meeste mensen",
             "daar is het klimaat een stuk zachter",
         ],
@@ -260,7 +260,7 @@ BELGIE = [
             "laaggelegen land dat op de zee gewonnen is",
             "een duin met struiken erop",
             "een stuk bos vlak achter de duinen",
-            "een beschutte haven voor vissersboten",
+            "een beschutte haven aan de kust voor de vissersboten van het dorp",
         ],
         "antwoord": 0,
         "uitleg": "Polders liggen laag, soms onder het zeeniveau, en worden droog gehouden met dijken en grachten. Het is vaak vruchtbare weidegrond.",
@@ -282,7 +282,7 @@ BELGIE = [
         "vraag": "Waarom heeft België drie gemeenschappen?",
         "opties": [
             "omdat er drie officiële talen zijn",
-            "omdat er drie gewesten zijn",
+            "omdat er drie gewesten zijn met elk een eigen hoofdstad",
             "omdat er drie grote steden zijn",
             "omdat er drie provincies zijn",
         ],
@@ -300,7 +300,7 @@ BELGIE = [
         "vraag": "Waarom regent het in de Ardennen meer dan aan de kust?",
         "opties": [
             "de lucht moet er over de heuvels omhoog en koelt dan af",
-            "de zee ligt er veel verder vandaan dan aan de kust",
+            "de zee ligt er veel verder vandaan, dus er komt meer vochtige lucht aan",
             "er staan veel meer bomen",
             "het ligt er dichter bij Frankrijk",
         ],
@@ -457,7 +457,7 @@ WERELD = [
         "vraag": "Waarom liggen de meeste grote steden aan een rivier of aan zee?",
         "opties": [
             "vervoer over water was altijd het goedkoopst",
-            "daar is het klimaat altijd een stuk warmer",
+            "daar is het klimaat altijd een stuk warmer dan in het binnenland",
             "daar is de lucht schoner",
             "daar waait er minder wind",
         ],

@@ -24,7 +24,7 @@ VRAGEN = [
         "vraag": "Hoe krijgt een vliegtuigvleugel lift?",
         "opties": [
             "Hij duwt lucht naar beneden, en de lucht duwt even hard terug",
-            "De bovenkant is bol, dus daar moet de lucht sneller inhalen",
+            "De bovenkant is bol, dus daar moet de lucht sneller stromen om de onderkant in te halen",
             "De motoren blazen lucht onder de vleugel en tillen hem op",
             "De vleugel is lichter dan de lucht die hij verplaatst",
         ],
@@ -174,7 +174,7 @@ VRAGEN = [
         "vraag": "Waarom zijn er wel groene vogels en kikkers, maar geen groene zoogdieren?",
         "opties": [
             "Haren kunnen geen groen pigment of structuurkleur maken",
-            "Zoogdieren leven bijna allemaal onder de grond",
+            "Zoogdieren leven bijna allemaal onder de grond, waar groen geen nut heeft",
             "Groen bloed zou te veel warmte vasthouden",
             "Zoogdieren zien zelf geen groen en hebben er niets aan",
         ],
