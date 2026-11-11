@@ -17,14 +17,30 @@ export default async function BeheerPage() {
   const [
     { count: vakkenCount },
     { count: betaaldCount },
-    { count: plusklasCount },
+    { data: gratisVanJou },
+    { data: codes },
     { count: meldingenCount },
     { count: weetjesCount },
     { count: enkelGratisCount },
   ] = await Promise.all([
     supabase.from("vakken").select("id", { count: "exact", head: true }),
-    supabase.from("betalingen").select("id", { count: "exact", head: true }).eq("status", "betaald"),
-    supabase.from("profiles").select("id", { count: "exact", head: true }).eq("is_plusklas", true),
+    /* Betaald = wie voor dit schooljaar betaald heeft (een gezin één keer,
+       ook als het daarnaast nog een code had). */
+    supabase
+      .from("profiles")
+      .select("id", { count: "exact", head: true })
+      .neq("role", "beheerder")
+      .eq("toegang_schooljaar", schooljaar),
+    /* Gratis volledige toegang die jij gaf: met een code (testgroep, plusklas,
+       school, vrienden) of met de hand bij Gezinnen. is_plusklas is in de
+       databank het vinkje voor al die gratis toegang, niet enkel de plusklas. */
+    supabase
+      .from("profiles")
+      .select("plusklas_code")
+      .neq("role", "beheerder")
+      .eq("is_plusklas", true)
+      .or(`toegang_schooljaar.is.null,toegang_schooljaar.neq.${schooljaar}`),
+    supabase.from("plusklas_codes").select("code, label"),
     supabase.from("meldingen").select("id", { count: "exact", head: true }).eq("afgehandeld", false),
     supabase.from("weetjes").select("id", { count: "exact", head: true }).eq("goedgekeurd", false),
     supabase
@@ -35,6 +51,17 @@ export default async function BeheerPage() {
       .or(`toegang_schooljaar.is.null,toegang_schooljaar.neq.${schooljaar}`),
   ]);
 
+  const labelVan = new Map((codes ?? []).map((c) => [c.code, c.label || c.code]));
+  const perGroep = new Map<string, number>();
+  for (const p of gratisVanJou ?? []) {
+    const groep = p.plusklas_code ? (labelVan.get(p.plusklas_code) ?? p.plusklas_code) : "zonder code";
+    perGroep.set(groep, (perGroep.get(groep) ?? 0) + 1);
+  }
+  const groepen = [...perGroep.entries()].sort(
+    (a, b) => (a[0] === "zonder code" ? 1 : b[0] === "zonder code" ? -1 : b[1] - a[1]),
+  );
+  const gratisCount = gratisVanJou?.length ?? 0;
+
   return (
     <>
       <Header naam={session.profile?.full_name} rol="beheerder" />
@@ -42,12 +69,17 @@ export default async function BeheerPage() {
         <h1 className="font-display text-2xl font-semibold text-ink">Beheer</h1>
         <p className="mt-1 text-sm text-ink-dim">
           {vakkenCount ?? 0} vak{(vakkenCount ?? 0) === 1 ? "" : "ken"} &middot; {betaaldCount ?? 0}{" "}
-          betaalde toegang{(betaaldCount ?? 0) === 1 ? "" : "en"} &middot; {plusklasCount ?? 0} plusklas-account
-          {(plusklasCount ?? 0) === 1 ? "" : "s"} &middot;{" "}
+          betaald &middot; {gratisCount} gratis toegang van jou &middot;{" "}
           <Link href="/beheer/gezinnen?toon=open" className="underline hover:text-ink">
             {enkelGratisCount ?? 0} enkel de gratis hoofdstukken
           </Link>
         </p>
+        {groepen.length > 0 && (
+          <p className="mt-1 text-sm text-ink-dim">
+            Gratis toegang van jou:{" "}
+            {groepen.map(([groep, aantal]) => `${aantal} ${groep}`).join(" · ")}
+          </p>
+        )}
 
         <div className="mt-8 grid gap-8 sm:grid-cols-2">
           <section>
