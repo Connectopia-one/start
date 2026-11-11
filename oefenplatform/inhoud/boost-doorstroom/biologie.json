@@ -9,7 +9,7 @@
           "type": "meerkeuze",
           "vraag": "Wat betekent homeostase bij een plant?",
           "opties": [
-            "haar inwendig milieu binnen nauwe grenzen houden terwijl de omgeving verandert",
+            "haar inwendig milieu binnen grenzen houden als de omgeving verandert",
             "haar bladeren afwerpen van zodra de temperatuur buiten begint te dalen",
             "haar wortels zo diep mogelijk door de lagen van de bodem laten groeien",
             "haar groei helemaal stilleggen zodra er een periode van droogte aanbreekt"
@@ -146,8 +146,8 @@
           "type": "meerkeuze",
           "vraag": "Waarom is de transpiratie niet enkel verlies voor de plant?",
           "opties": [
-            "ze trekt water en mineralen mee omhoog en koelt het blad af",
-            "ze maakt in het blad rechtstreeks nieuwe suikers aan",
+            "ze trekt water en mineralen omhoog en koelt het blad",
+            "ze maakt in het blad rechtstreeks nieuwe suikers aan uit het water dat verdampt",
             "ze zorgt ervoor dat de wortels zich kunnen vertakken",
             "ze geeft de bladeren hun groene kleur in de zomer"
           ],
@@ -186,9 +186,9 @@
           "type": "meerkeuze",
           "vraag": "Een plant staat in de volle zon en de bodem droogt uit. Wat gebeurt er achtereenvolgens?",
           "opties": [
-            "de huidmondjes sluiten, de transpiratie daalt en de fotosynthese vertraagt",
+            "de huidmondjes sluiten, de transpiratie daalt, de fotosynthese vertraagt",
             "de huidmondjes gaan verder open en de fotosynthese versnelt",
-            "de worteldruk stijgt zodat de plant meer water uit de lucht haalt",
+            "de worteldruk stijgt zodat de plant meer water uit de lucht en de bodem haalt",
             "de vacuolen vullen zich extra ver zodat de plant stevig blijft"
           ],
           "antwoord": 0,
@@ -350,7 +350,7 @@
           "type": "meerkeuze",
           "vraag": "Wat is een fotoreceptor bij een plant?",
           "opties": [
-            "een structuur die licht opvangt en zo een prikkel doorgeeft",
+            "een structuur die licht opvangt en een prikkel doorgeeft",
             "een klier die suikers rechtstreeks in de bodem afgeeft",
             "een cel die de temperatuur van de bodem meet",
             "een opening waardoor water uit het blad ontsnapt"
@@ -403,7 +403,7 @@
           "vraag": "Wat doet abscisinezuur bij droogte?",
           "opties": [
             "het laat de huidmondjes sluiten zodat de plant water spaart",
-            "het laat de huidmondjes verder opengaan voor meer koeling",
+            "het laat de huidmondjes verder opengaan, zodat het blad beter kan afkoelen",
             "het versnelt de bloei zodat er snel zaden gevormd worden",
             "het zet de wortels aan om zich boven de grond te vertakken"
           ],
@@ -433,7 +433,7 @@
           "type": "meerkeuze",
           "vraag": "Wat is een prikkel?",
           "opties": [
-            "een verandering in of rond het lichaam die een reactie kan uitlokken",
+            "een verandering in of rond het lichaam die een reactie uitlokt",
             "de beweging van een spier nadat de hersenen een bevel gaven",
             "een boodschapperstof die door een klier in het bloed komt",
             "de kracht waarmee een zenuw tegen een spiervezel aan duwt"
@@ -510,7 +510,7 @@
           "type": "meerkeuze",
           "vraag": "Je raakt een hete pan aan en trekt je hand weg nog voor je de pijn voelt. Hoe verklaar je dat?",
           "opties": [
-            "het ruggemerg stuurt de spier al aan terwijl de boodschap nog naar de hersenen onderweg is",
+            "het ruggemerg stuurt de spier al aan voor de boodschap de hersenen bereikt",
             "de hand beweegt op eigen kracht, zonder dat er een zenuw bij te pas komt",
             "de huid trekt zich samen en duwt de hand zo van de pan weg",
             "de pijnreceptoren sturen rechtstreeks een bevel naar de spier zonder zenuwcel"
@@ -540,10 +540,10 @@
           "type": "meerkeuze",
           "vraag": "Wat is de toeschietreflex?",
           "opties": [
-            "de melk begint te vloeien zodra een baby aan de borst zuigt",
+            "de melk begint te vloeien zodra een baby zuigt",
             "het ooglid knippert zodra er iets naar het oog toe komt",
             "de maag trekt samen zodra er voedsel in komt",
-            "de huid krijgt kippenvel zodra het koud wordt"
+            "de huid krijgt kippenvel zodra het koud wordt en de haartjes rechtop gaan staan"
           ],
           "antwoord": 0,
           "uitleg": "Het zuigen is de prikkel, de melkklier is de effector. Het is een voorbeeld van een reflex waarbij ook een hormoon meespeelt."
@@ -586,7 +586,7 @@
           "type": "meerkeuze",
           "vraag": "Waarom heeft een receptor een drempelwaarde?",
           "opties": [
-            "een te zwakke prikkel levert geen signaal op, zodat het lichaam niet op elk detail reageert",
+            "een te zwakke prikkel geeft geen signaal, zodat je niet op elk detail reageert",
             "een receptor kan maar één keer per dag een prikkel doorgeven",
             "een receptor moet eerst door een hormoon aangezet worden",
             "een receptor geeft enkel bij warmte een signaal door"
@@ -627,7 +627,7 @@
           "opties": [
             "een geleerde reactie op een prikkel die eerst niets betekende",
             "een reflex die de hond al bij de geboorte had",
-            "een reactie die volledig door hormonen geregeld wordt",
+            "een reactie die volledig door hormonen geregeld wordt, zonder dat de hond iets leert",
             "een gedraging die zonder receptor tot stand komt"
           ],
           "antwoord": 0,
@@ -691,7 +691,7 @@
           "type": "meerkeuze",
           "vraag": "Wat is vooral de taak van de kleine hersenen?",
           "opties": [
-            "het afstemmen van bewegingen en het bewaren van het evenwicht",
+            "bewegingen afstemmen en het evenwicht bewaren",
             "het bewaren van herinneringen uit je vroege kindertijd",
             "het regelen van de ademhaling en de hartslag",
             "het opvangen van geluidsprikkels uit het binnenoor"
@@ -749,10 +749,10 @@
           "type": "meerkeuze",
           "vraag": "Wat doet de myelineschede rond een axon?",
           "opties": [
-            "ze isoleert het axon zodat de impuls er sneller langs gaat",
+            "ze isoleert het axon zodat de impuls sneller gaat",
             "ze maakt de neurotransmitters aan die het neuron afgeeft",
             "ze vangt de prikkels op die van de huid komen",
-            "ze verbindt het neuron met een bloedvat voor de voeding"
+            "ze verbindt het neuron met een bloedvat dat de voeding en de zuurstof aanbrengt"
           ],
           "antwoord": 0,
           "uitleg": "De myelineschede werkt als een isolatielaag. Daardoor springt de impuls van knoop naar knoop en gaat hij veel sneller."
@@ -773,7 +773,7 @@
           "opties": [
             "de cel van Schwann",
             "de witte bloedcel",
-            "de sluitcel",
+            "de sluitcel van een huidmondje",
             "de bètacel"
           ],
           "antwoord": 0,
@@ -789,7 +789,7 @@
           "type": "meerkeuze",
           "vraag": "Wat gebeurt er in een synaps tussen twee neuronen?",
           "opties": [
-            "het eindknopje geeft een stof af die aan een receptor op de volgende cel bindt",
+            "het eindknopje geeft een stof af die bindt op de volgende cel",
             "de twee cellen groeien aan elkaar vast zodat er stroom door kan",
             "de impuls springt als een vonk door de lucht tussen de cellen",
             "de twee celkernen wisselen hun erfelijk materiaal uit"
@@ -838,7 +838,7 @@
           "type": "meerkeuze",
           "vraag": "Waarom gaat een impuls langs een gemyeliniseerd axon sneller dan langs een kaal axon?",
           "opties": [
-            "de impuls springt van knoop tot knoop in plaats van elk stukje membraan te doorlopen",
+            "de impuls springt van knoop tot knoop",
             "het gemyeliniseerde axon is altijd veel korter dan een kaal axon",
             "de myelineschede duwt de impuls met samentrekkingen vooruit",
             "het gemyeliniseerde axon gebruikt licht in plaats van elektriciteit"
@@ -856,7 +856,7 @@
           "type": "meerkeuze",
           "vraag": "Een ziekte tast de myelineschede van zenuwen aan. Welk gevolg verwacht je?",
           "opties": [
-            "de signalen gaan trager door, waardoor bewegen en voelen moeilijker wordt",
+            "de signalen gaan trager door, waardoor bewegen en voelen moeilijker gaan",
             "de neuronen maken meer dendrieten aan en de reactie wordt sneller",
             "de hersenen nemen de rol van de ontbrekende schede zelf over",
             "er verandert niets, want de impuls loopt even goed langs een kaal axon"
@@ -954,7 +954,7 @@
           "vraag": "Wat is de taak van het vaatvlies?",
           "opties": [
             "het netvlies van bloed voorzien en strooilicht wegnemen",
-            "de lens van vorm doen veranderen bij het scherpstellen",
+            "de lens van vorm doen veranderen bij het scherpstellen op een voorwerp dichtbij",
             "het oog vochtig houden met tranen",
             "de oogbol in zijn kas doen draaien"
           ],
@@ -981,10 +981,10 @@
           "type": "meerkeuze",
           "vraag": "Waarom heeft het hoornvlies geen bloedvaten?",
           "opties": [
-            "bloedvaten zouden het licht tegenhouden en het zicht wazig maken",
+            "bloedvaten zouden het licht tegenhouden",
             "het hoornvlies heeft geen voeding en geen zuurstof nodig",
             "bloedvaten passen niet in zo'n dunne laag",
-            "het hoornvlies krijgt zijn voeding uit de tranen alleen"
+            "het hoornvlies krijgt zijn voeding uit de tranen alleen en heeft dus geen bloed nodig"
           ],
           "antwoord": 0,
           "uitleg": "Het hoornvlies moet volkomen doorzichtig blijven, dus mogen er geen vaten door. Het haalt zijn voeding uit het kamervocht en de tranen."
@@ -1063,10 +1063,10 @@
           "type": "meerkeuze",
           "vraag": "Waarom knippert een oog een paar keer per minuut?",
           "opties": [
-            "om het tranenvocht gelijk over het hoornvlies te verdelen",
+            "om het tranenvocht over het hoornvlies te verdelen",
             "om de lens opnieuw op haar plaats te duwen",
             "om het netvlies even rust te geven van het licht",
-            "om het kamervocht door de voorste kamer te laten stromen"
+            "om het kamervocht door de voorste en de achterste kamer van het oog te laten stromen"
           ],
           "antwoord": 0,
           "uitleg": "Knipperen strijkt een vers laagje tranenvocht over het oog. Dat houdt het hoornvlies vochtig en spoelt stof weg."
@@ -1156,8 +1156,8 @@
           "type": "meerkeuze",
           "vraag": "Waarom merk je in het dagelijks leven niets van je blinde vlek?",
           "opties": [
-            "het andere oog ziet dat stukje wel, en de hersenen vullen de rest aan",
-            "de blinde vlek ligt zo klein dat er nooit licht op valt",
+            "het andere oog ziet dat stukje wel, de hersenen vullen aan",
+            "de blinde vlek ligt zo klein en zo ver opzij dat er nooit licht op valt",
             "de oogzenuw geeft dat stukje van het beeld toch door",
             "de blinde vlek bestaat enkel bij mensen met een oogafwijking"
           ],
@@ -1226,7 +1226,7 @@
           "type": "meerkeuze",
           "vraag": "Wat is ouderdomsverziendheid?",
           "opties": [
-            "de lens wordt met de jaren stijver, waardoor accommoderen moeilijker wordt",
+            "de lens wordt met de jaren stijver, zodat accommoderen moeilijker gaat",
             "het netvlies verliest met de jaren al zijn staafjes aan de zijkanten",
             "de pupil kan met de jaren niet meer vernauwen bij fel zonlicht",
             "de oogzenuw wordt met de jaren steeds korter en trekt aan het netvlies"
@@ -1244,7 +1244,7 @@
           "type": "meerkeuze",
           "vraag": "Wat is astigmatisme?",
           "opties": [
-            "het hoornvlies of de lens is onregelmatig gekromd, waardoor lijnen vervormen",
+            "het hoornvlies of de lens is onregelmatig gekromd",
             "de pupil blijft altijd even groot, ook in het donker en in de volle zon",
             "het netvlies laat op één plek los van het vaatvlies dat eronder ligt",
             "de twee ogen kijken niet in dezelfde richting en zien elk iets anders"
@@ -1262,7 +1262,7 @@
           "type": "meerkeuze",
           "vraag": "Waarom zie je met twee ogen diepte en met één oog veel minder?",
           "opties": [
-            "elk oog ziet het voorwerp vanuit een iets andere hoek en de hersenen leggen die beelden samen",
+            "elk oog ziet het voorwerp vanuit een iets andere hoek",
             "elk oog ziet een andere kleur en uit die twee kleuren samen halen de hersenen de afstand",
             "het ene oog ziet scherp en het andere ziet wazig, en dat verschil verraadt de afstand",
             "met twee ogen valt er twee keer zoveel licht op elk netvlies, dus zie je meer detail"
@@ -1372,10 +1372,10 @@
           "type": "meerkeuze",
           "vraag": "Wat doet de buis van Eustachius?",
           "opties": [
-            "ze verbindt het middenoor met de neus-keelholte om de druk gelijk te houden",
+            "ze verbindt het middenoor met de keel om de druk gelijk te houden",
             "ze brengt de trillingen van het trommelvel naar het slakkenhuis",
             "ze voert het oorsmeer uit de gehoorgang naar buiten",
-            "ze vangt de rotatie van het hoofd op"
+            "ze vangt de draaiing van het hoofd op en geeft die door aan de kleine hersenen"
           ],
           "antwoord": 0,
           "uitleg": "Zonder die buis zou het trommelvel bij elke drukverandering bollen. Daarom helpt slikken of gapen als je oren in een vliegtuig dichtzitten."
@@ -1424,10 +1424,10 @@
           "type": "meerkeuze",
           "vraag": "Waarom hoor je een hoge toon op een andere plaats in het slakkenhuis dan een lage toon?",
           "opties": [
-            "het membraan is niet overal even stijf, dus komt elke toonhoogte elders in trilling",
+            "het membraan is niet overal even stijf",
             "hoge tonen gaan sneller door de vloeistof dan lage tonen",
             "hoge tonen worden door de hamer en lage tonen door het aambeeld doorgegeven",
-            "het slakkenhuis draait voor een hoge toon in de andere richting"
+            "het slakkenhuis draait voor een hoge toon in de andere richting dan voor een lage"
           ],
           "antwoord": 0,
           "uitleg": "Bij het begin is het membraan smal en stijf, verderop breed en slap. Daardoor heeft elke plaats haar eigen toonhoogte."
@@ -1469,7 +1469,7 @@
           "type": "meerkeuze",
           "vraag": "Waarom hoort iemand met ouderdomsslechthorendheid vooral de hoge tonen minder?",
           "opties": [
-            "de haarcellen voor hoge tonen staan vooraan in het slakkenhuis en krijgen alle geluid te verwerken",
+            "de haarcellen voor hoge tonen staan vooraan en krijgen alle geluid te verwerken",
             "hoge tonen komen met de jaren niet meer door het trommelvel heen naar het middenoor",
             "de gehoorbeentjes groeien met de jaren aan elkaar vast en geven de trilling niet meer door",
             "de gehoorzenuw geeft hoge tonen enkel bij kinderen door en verliest dat vermogen later"
@@ -1487,7 +1487,7 @@
           "type": "meerkeuze",
           "vraag": "Hoe beschermt het oor zich tegen aanhoudend hard geluid?",
           "opties": [
-            "kleine spiertjes in het middenoor spannen de keten van beentjes zodat die minder doorgeeft",
+            "spiertjes in het middenoor spannen de beentjes zodat die minder doorgeven",
             "het trommelvel wordt dikker zolang het lawaai duurt en laat dan minder trilling door",
             "de gehoorgang sluit zich volledig af zolang het geluid boven een bepaalde grens blijft",
             "het slakkenhuis loopt tijdelijk leeg, zodat de golf de haarcellen niet meer bereikt"
@@ -1499,7 +1499,7 @@
           "type": "meerkeuze",
           "vraag": "Wat is oorsuizen of tinnitus?",
           "opties": [
-            "een geluid horen dat er van buiten niet is, vaak na gehoorschade",
+            "een geluid horen dat er van buiten niet is",
             "een oorontsteking met vocht achter het trommelvel",
             "het gevoel dat de kamer blijft draaien na een rondje",
             "het dichtzitten van de oren bij het landen van een vliegtuig"
@@ -1539,7 +1539,7 @@
             "de positiezin en de rotatiezin",
             "de tastzin en de pijnzin",
             "de kleurzin en de diepte",
-            "de reukzin en de smaakzin"
+            "de reukzin en de smaakzin, die samen werken"
           ],
           "antwoord": 0,
           "uitleg": "De positiezin zegt hoe je hoofd staat, de rotatiezin of en hoe het draait. Samen weet je waar je bent in de ruimte."
@@ -1557,7 +1557,7 @@
           "type": "meerkeuze",
           "vraag": "Waarom staan de drie kanaaltjes loodrecht op elkaar?",
           "opties": [
-            "zo kan elke draairichting van het hoofd opgevangen worden",
+            "zo kan elke draairichting opgevangen worden",
             "zo passen ze het best in de kleine ruimte van de schedel",
             "zo kan de vloeistof van het ene naar het andere stromen",
             "zo blijven de haarcellen in alle drie even koud"
@@ -1575,7 +1575,7 @@
           "type": "meerkeuze",
           "vraag": "Hoe merkt het oor dat je hoofd begint te draaien?",
           "opties": [
-            "de vloeistof blijft door haar traagheid achter en buigt de haarcellen om",
+            "de vloeistof blijft door haar traagheid achter en buigt de haarcellen",
             "de haarcellen voelen de luchtdruk in het middenoor stijgen",
             "de gehoorbeentjes kantelen mee met het hoofd",
             "het trommelvel bolt naar binnen bij elke draai"
@@ -1597,10 +1597,10 @@
           "type": "meerkeuze",
           "vraag": "Je draait een hele tijd rond en stopt plots. Waarom blijf je dan duizelig?",
           "opties": [
-            "de vloeistof draait nog door en meldt dus een draai die er niet meer is",
+            "de vloeistof draait nog door en meldt een draai die er niet meer is",
             "de haarcellen zijn door het draaien blijvend beschadigd",
             "het trommelvel heeft tijd nodig om terug te komen",
-            "de gehoorzenuw raakt bij draaien tijdelijk los van het slakkenhuis"
+            "de gehoorzenuw raakt bij lang draaien tijdelijk los van het slakkenhuis"
           ],
           "antwoord": 0,
           "uitleg": "Het kanaal staat stil, de vloeistof niet. Je ogen zeggen stil en je oor zegt draaien, en dat botsende bericht voelt als duizeligheid."
@@ -1609,7 +1609,7 @@
           "type": "meerkeuze",
           "vraag": "Wat meet de positiezin van het evenwichtsorgaan?",
           "opties": [
-            "de stand van je hoofd ten opzichte van de zwaartekracht",
+            "de stand van je hoofd tegenover de zwaartekracht",
             "de toonhoogte van het geluid dat binnenkomt",
             "de afstand tot het voorwerp waar je naar kijkt",
             "de temperatuur van de vloeistof in het slakkenhuis"
@@ -1660,8 +1660,8 @@
           "type": "meerkeuze",
           "vraag": "Welke rol spelen de kleine hersenen bij het evenwicht?",
           "opties": [
-            "ze leggen de signalen van oor, ogen en spieren samen en stemmen de beweging erop af",
-            "ze maken de vloeistof aan die in de kanaaltjes zit",
+            "ze leggen de signalen van oor, ogen en spieren samen",
+            "ze maken de vloeistof aan die in de drie halfcirkelvormige kanaaltjes zit",
             "ze vangen zelf de draaiing van het hoofd op",
             "ze regelen de luchtdruk in het middenoor"
           ],
@@ -1682,9 +1682,9 @@
           "type": "meerkeuze",
           "vraag": "Een danser draait snel rond en blijft toch recht. Hoe lukt dat?",
           "opties": [
-            "door oefening leren de hersenen de signalen van het oor anders te wegen",
+            "door oefening wegen de hersenen de signalen van het oor anders",
             "het evenwichtsorgaan van een danser heeft meer dan drie kanaaltjes",
-            "de vloeistof in de kanaaltjes wordt door oefening dikker",
+            "de vloeistof in de kanaaltjes wordt door jarenlange oefening dikker en trager",
             "een danser gebruikt het evenwichtsorgaan helemaal niet meer"
           ],
           "antwoord": 0,
@@ -1724,9 +1724,9 @@
           "type": "meerkeuze",
           "vraag": "Iemand stapt in het donker over een oneffen pad en struikelt sneller dan bij daglicht. Waarom?",
           "opties": [
-            "een van de drie bronnen van evenwichtsinformatie valt weg, dus wordt bijsturen moeilijker",
+            "een van de drie bronnen van evenwichtsinformatie valt weg",
             "het evenwichtsorgaan werkt in het donker helemaal niet",
-            "de haarcellen hebben licht nodig om een impuls op te wekken",
+            "de haarcellen in het evenwichtsorgaan hebben licht nodig om een impuls op te wekken",
             "de vloeistof in de kanaaltjes wordt in het donker stijver"
           ],
           "antwoord": 0,
@@ -1745,7 +1745,7 @@
           "opties": [
             "skeletspierweefsel, glad spierweefsel en hartspierweefsel",
             "skeletspierweefsel, kraakbeenweefsel en beenweefsel",
-            "glad spierweefsel, peesweefsel en gewrichtsbanden",
+            "glad spierweefsel, peesweefsel en de gewrichtsbanden rond de knie",
             "hartspierweefsel, zenuwweefsel en vetweefsel"
           ],
           "antwoord": 0,
@@ -1786,7 +1786,7 @@
           "type": "meerkeuze",
           "vraag": "Wat is een antagonistisch spierpaar?",
           "opties": [
-            "twee spieren die tegengesteld werken, zoals de buiger en de strekker van de arm",
+            "twee spieren die tegengesteld werken, zoals buiger en strekker",
             "twee spieren die altijd samen samentrekken en dus dezelfde beweging maken",
             "een spier en de pees waarmee hij aan het bot van een gewricht vastzit",
             "een spier die aan twee botten tegelijk vastzit en er geen tegenspeler heeft"
@@ -1838,7 +1838,7 @@
           "type": "meerkeuze",
           "vraag": "Hoe wordt een sarcomeer korter?",
           "opties": [
-            "de myosinefilamenten trekken de actinefilamenten naar het midden toe",
+            "myosine trekt de actinefilamenten naar het midden toe",
             "de actinefilamenten worden zelf korter en dikker",
             "de Z-platen lossen op en vormen zich op een nieuwe plaats",
             "er komt vocht bij, waardoor het sarcomeer opbolt"
@@ -1856,10 +1856,10 @@
           "type": "meerkeuze",
           "vraag": "Wat zie je in een spiervezel onder de microscoop als een donkere band?",
           "opties": [
-            "de zone waar de dikke myosinefilamenten liggen",
+            "de zone met de dikke myosinefilamenten",
             "de zone waar enkel actinefilamenten liggen",
             "de Z-plaat zelf, van opzij gezien",
-            "de pees die aan de spiervezel vastzit"
+            "de pees die aan de spiervezel vastzit, van opzij gezien"
           ],
           "antwoord": 0,
           "uitleg": "Waar de dikke filamenten liggen, gaat minder licht door en ziet het donker. In de lichte band liggen alleen de dunne actinefilamenten."
@@ -1942,7 +1942,7 @@
           "type": "meerkeuze",
           "vraag": "Je houdt een boek stil in je uitgestrekte hand, en na een tijd begint je arm te trillen. Hoe verklaar je dat?",
           "opties": [
-            "de spiervezels werken in ploegen en de overgangen vallen bij vermoeidheid niet meer gelijk",
+            "de spiervezels werken in ploegen en lossen elkaar bij vermoeidheid slecht af",
             "de botten in je arm beginnen door het gewicht van het boek lichtjes te buigen",
             "de pees laat tijdelijk los van het bot en schiet er daarna weer tegenaan",
             "de sarcomeren worden steeds langer tot de spiervezel uiteindelijk scheurt"
@@ -1961,7 +1961,7 @@
           "type": "meerkeuze",
           "vraag": "Wat is het verschil tussen een klier met afvoergang en een klier zonder afvoergang?",
           "opties": [
-            "een klier zonder afvoergang geeft haar stof rechtstreeks aan het bloed af",
+            "een klier zonder afvoergang geeft haar stof aan het bloed af",
             "een klier zonder afvoergang maakt zelf helemaal geen stoffen aan",
             "een klier met afvoergang zit altijd in of net onder de hersenen",
             "een klier met afvoergang werkt enkel bij kinderen en valt later stil"
@@ -2025,9 +2025,9 @@
           "type": "meerkeuze",
           "vraag": "Wat doet insuline?",
           "opties": [
-            "het laat de cellen glucose uit het bloed opnemen, zodat het bloedglucosegehalte daalt",
+            "het laat de cellen glucose uit het bloed opnemen",
             "het laat de lever glucose aan het bloed afgeven, zodat het gehalte stijgt",
-            "het verhoogt de hartslag bij een schrikreactie",
+            "het verhoogt de hartslag en de ademhaling bij een schrikreactie of bij gevaar",
             "het laat de huidmondjes van een plant sluiten"
           ],
           "antwoord": 0,
@@ -2064,10 +2064,10 @@
           "type": "meerkeuze",
           "vraag": "Wat is er bij diabetes type 1 aan de hand?",
           "opties": [
-            "de bètacellen maken geen of te weinig insuline meer aan",
+            "de bètacellen maken te weinig of geen insuline meer",
             "de alfacellen maken te veel glucagon aan",
             "de lever kan geen glucose meer opslaan",
-            "de darmen nemen geen glucose meer op uit het eten"
+            "de darmen nemen geen glucose meer op uit het eten, zodat het bloed tekortkomt"
           ],
           "antwoord": 0,
           "uitleg": "Bij type 1 zijn de bètacellen beschadigd, vaak door het eigen afweersysteem. Daarom moet de insuline van buiten toegediend worden."
@@ -2145,7 +2145,7 @@
           "type": "meerkeuze",
           "vraag": "Waarom is het zinvol dat het zenuwstelsel en het hormonale stelsel samenwerken?",
           "opties": [
-            "het zenuwstelsel reageert snel en kort, de hormonen houden de reactie langer aan",
+            "het zenuwstelsel reageert snel, de hormonen houden de reactie langer aan",
             "ze doen precies hetzelfde, dus is er een reserve",
             "hormonen kunnen geen enkele spier bereiken",
             "het zenuwstelsel werkt enkel bij dag en de hormonen enkel bij nacht"
@@ -2247,7 +2247,7 @@
           "type": "meerkeuze",
           "vraag": "Wat gebeurt er in de dagen na de bevruchting?",
           "opties": [
-            "de zygote deelt zich herhaaldelijk en reist naar de baarmoeder om in te nestelen",
+            "de zygote deelt zich en reist naar de baarmoeder om in te nestelen",
             "de zygote blijft in de eileider liggen tot de geboorte",
             "de zygote keert terug naar de eierstok",
             "de zygote wordt in de vagina door de vruchtwand omgeven"
@@ -2269,7 +2269,7 @@
           "type": "meerkeuze",
           "vraag": "Wat is de taak van de placenta?",
           "opties": [
-            "stoffen uitwisselen tussen het bloed van de moeder en dat van het kind",
+            "stoffen uitwisselen tussen het bloed van moeder en kind",
             "het bloed van de moeder en van het kind met elkaar vermengen",
             "de baarmoeder bij de bevalling doen samentrekken",
             "de eicellen bewaren tot de puberteit"
@@ -2314,8 +2314,8 @@
           "type": "meerkeuze",
           "vraag": "Wat is de functie van het vruchtwater?",
           "opties": [
-            "het beschermt het kind tegen stoten en houdt de temperatuur gelijk",
-            "het voorziet het kind van al zijn zuurstof",
+            "het beschermt het kind tegen stoten en houdt de warmte gelijk",
+            "het voorziet het kind van al zijn zuurstof, zodat de longen nog niet moeten werken",
             "het houdt de baarmoeder op zijn plaats in de buik",
             "het voert de afvalstoffen van de moeder af"
           ],
@@ -2377,7 +2377,7 @@
           "type": "meerkeuze",
           "vraag": "Een paar wil weten wanneer de kans op zwangerschap het grootst is. Wat is biologisch het antwoord?",
           "opties": [
-            "rond de ovulatie, want de eicel is maar een korte tijd bevruchtbaar",
+            "rond de ovulatie, want de eicel leeft maar kort",
             "tijdens de menstruatie, want dan is de baarmoeder leeg",
             "altijd even groot, want de eicel is de hele maand aanwezig",
             "vlak voor de menstruatie, want dan is het slijmvlies het dikst"
@@ -2418,7 +2418,7 @@
           "type": "meerkeuze",
           "vraag": "Wat gebeurt er in de folliculaire fase?",
           "opties": [
-            "een follikel rijpt en het baarmoederslijmvlies wordt opnieuw opgebouwd",
+            "een follikel rijpt en het slijmvlies wordt opnieuw opgebouwd",
             "het baarmoederslijmvlies wordt met wat bloed afgestoten",
             "het geel lichaam geeft grote hoeveelheden progesteron af",
             "de bevruchte eicel nestelt zich in de baarmoeder in"
@@ -2519,7 +2519,7 @@
           "type": "meerkeuze",
           "vraag": "Wat gebeurt er met het geel lichaam als er wel een bevruchting en innesteling is?",
           "opties": [
-            "het blijft nog weken progesteron afgeven zodat het slijmvlies behouden blijft",
+            "het blijft progesteron afgeven zodat het slijmvlies blijft",
             "het verdwijnt meteen, want een beginnende zwangerschap heeft het niet nodig",
             "het groeit in de wand van de baarmoeder uit tot de placenta",
             "het laat een tweede eicel vrijkomen uit dezelfde eierstok"
@@ -2531,10 +2531,10 @@
           "type": "meerkeuze",
           "vraag": "Een cyclus duurt bij iemand 32 dagen in plaats van 28. Welke fase is dan meestal langer?",
           "opties": [
-            "de folliculaire fase, want die kan sterk in lengte verschillen",
+            "de folliculaire fase, want die verschilt sterk in lengte",
             "de luteale fase, want die duurt bij iedereen anders",
             "de menstruatiefase, want die duurt dan twee weken",
-            "geen enkele, de cyclus is bij iedereen precies 28 dagen"
+            "geen enkele, want de cyclus is bij iedereen precies 28 dagen lang"
           ],
           "antwoord": 0,
           "uitleg": "De luteale fase ligt vrij vast rond veertien dagen, omdat het geel lichaam ongeveer zo lang leeft. De rijping van de follikel varieert wel."
@@ -2549,8 +2549,8 @@
           "type": "meerkeuze",
           "vraag": "Hoe werkt de gecombineerde anticonceptiepil?",
           "opties": [
-            "de hormonen erin remmen de hypofyse, zodat er geen ovulatie komt",
-            "ze maakt de baarmoeder ondoordringbaar voor zaadcellen",
+            "de hormonen erin remmen de hypofyse, dus geen ovulatie",
+            "ze maakt de baarmoeder ondoordringbaar voor zaadcellen tijdens de hele cyclus",
             "ze verwijdert de eicellen uit de eierstok",
             "ze verkort de cyclus tot zeven dagen"
           ],
@@ -2595,7 +2595,7 @@
           "type": "meerkeuze",
           "vraag": "Iemand met een onregelmatige cyclus wil de ovulatie opsporen. Waarom is enkel de kalender onvoldoende?",
           "opties": [
-            "de folliculaire fase varieert, dus valt de ovulatie niet elke maand op dezelfde dag",
+            "de folliculaire fase varieert, dus de ovulatie valt niet altijd op dezelfde dag",
             "de ovulatie valt altijd op dag veertien, ook bij een onregelmatige cyclus",
             "de kalender zegt niets over het aantal eicellen in de eierstok",
             "de menstruatie begint bij een onregelmatige cyclus zonder hormonen"
@@ -2614,7 +2614,7 @@
           "type": "meerkeuze",
           "vraag": "Wat betekent biodiversiteit?",
           "opties": [
-            "de verscheidenheid aan leven, van genen over soorten tot ecosystemen",
+            "de verscheidenheid aan leven, van genen tot ecosystemen",
             "het aantal diersoorten dat binnen de grenzen van een land leeft",
             "de hoeveelheid planten die in een land jaarlijks geoogst wordt",
             "het aantal soorten dat in de dierentuinen van een land te zien is"
@@ -2641,7 +2641,7 @@
           "type": "meerkeuze",
           "vraag": "Wanneer horen twee organismen tot dezelfde soort?",
           "opties": [
-            "als ze zich onderling kunnen voortplanten en vruchtbare nakomelingen krijgen",
+            "als ze samen vruchtbare nakomelingen kunnen krijgen",
             "als ze er van buiten precies hetzelfde uitzien",
             "als ze in hetzelfde gebied naast elkaar leven",
             "als ze van hetzelfde voedsel leven"
@@ -2669,7 +2669,7 @@
           "type": "meerkeuze",
           "vraag": "Waarom is variatie binnen een soort belangrijk?",
           "opties": [
-            "bij een ziekte of een verandering overleven er altijd nog individuen",
+            "bij een ziekte of verandering overleven er nog individuen",
             "een soort met variatie heeft meer nakomelingen per worp",
             "variatie laat twee soorten in elkaar overgaan",
             "variatie maakt alle individuen even sterk"
@@ -2715,7 +2715,7 @@
           "type": "meerkeuze",
           "vraag": "Waarom is het versnipperen van een leefgebied schadelijk, ook als de totale oppervlakte gelijk blijft?",
           "opties": [
-            "kleine groepen raken van elkaar gescheiden, waardoor de variatie in hun erfelijk materiaal afneemt",
+            "kleine groepen raken gescheiden, waardoor hun erfelijke variatie afneemt",
             "kleine stukken natuur krijgen per vierkante meter minder zonlicht te verwerken",
             "versnipperde stukken hebben per soort minder vruchtbare bodem beschikbaar",
             "soorten in kleine stukken krijgen meer nakomelingen dan de bodem kan dragen"
@@ -2779,7 +2779,7 @@
           "type": "meerkeuze",
           "vraag": "Waarom gebruiken biologen wetenschappelijke namen in plaats van volkse namen?",
           "opties": [
-            "een volkse naam verschilt per streek en per taal, een wetenschappelijke naam niet",
+            "een volkse naam verschilt per streek en per taal",
             "een wetenschappelijke naam is altijd korter dan de volkse naam van die soort",
             "volkse namen bestaan enkel voor dieren en niet voor planten of schimmels",
             "een wetenschappelijke naam zegt hoeveel exemplaren er van die soort zijn"
@@ -2797,9 +2797,9 @@
           "type": "meerkeuze",
           "vraag": "Een vijver wordt gedempt om een parking te bouwen. Welk gevolg voor de biodiversiteit verwacht je?",
           "opties": [
-            "de soorten die van water afhangen verdwijnen uit het gebied",
+            "de soorten die van water afhangen verdwijnen",
             "de soorten verhuizen allemaal naar de volgende vijver",
-            "de biodiversiteit stijgt, want er komt meer open ruimte",
+            "de biodiversiteit stijgt, want er komt meer open ruimte voor nieuwe soorten",
             "er verandert niets zolang er elders nog vijvers zijn"
           ],
           "antwoord": 0,
@@ -2838,7 +2838,7 @@
           "type": "meerkeuze",
           "vraag": "Wat is een micro-organisme?",
           "opties": [
-            "een levend wezen dat te klein is om met het blote oog te zien",
+            "een levend wezen dat te klein is voor het blote oog",
             "een deeltje dat nog kleiner is dan een molecule water",
             "een cel die zich niet meer kan delen en dus niet groeit",
             "een organisme dat enkel in water en nooit op het land leeft"
@@ -2868,7 +2868,7 @@
           "type": "meerkeuze",
           "vraag": "Waarom is een virus geen gewoon levend wezen?",
           "opties": [
-            "het heeft geen eigen stofwisseling en kan zich enkel in een gastheercel vermeerderen",
+            "het heeft geen eigen stofwisseling en vermeerdert zich enkel in een gastheercel",
             "het is veel groter dan een bacterie en past daarom in geen enkele gastheercel",
             "het bestaat uit meerdere cellen die elk geen echte celkern hebben",
             "het kan buiten een levend lichaam geen ogenblik blijven bestaan"
@@ -2940,10 +2940,10 @@
           "type": "meerkeuze",
           "vraag": "Wat is de rol van bacteriën en schimmels in een ecosysteem?",
           "opties": [
-            "ze breken dood materiaal af en maken de mineralen weer vrij",
+            "ze breken dood materiaal af en maken mineralen weer vrij",
             "ze maken met behulp van licht hun eigen voedsel aan",
             "ze jagen op de kleine dieren die in de bodem leven",
-            "ze slaan koolstofdioxide uit de lucht op in hun celwand"
+            "ze slaan koolstofdioxide uit de lucht op in hun celwand, zoals bomen dat doen"
           ],
           "antwoord": 0,
           "uitleg": "Zonder reducenten bleven de mineralen in dood blad en kadavers opgesloten. Zij maken de kringloop rond."
@@ -2995,7 +2995,7 @@
           "type": "meerkeuze",
           "vraag": "Hoe werkt een vaccin?",
           "opties": [
-            "het laat het lichaam antistoffen en afweercellen aanmaken zonder dat je ziek wordt",
+            "het laat het lichaam afweer opbouwen zonder dat je ziek wordt",
             "het doodt alle bacteriën die zich op dat ogenblik in het lichaam bevinden",
             "het geeft kant-en-klare antistoffen mee die iemand anders al gemaakt heeft",
             "het verhoogt de lichaamstemperatuur zodat de ziektekiemen eraan sterven"
@@ -3013,7 +3013,7 @@
           "type": "meerkeuze",
           "vraag": "Waarom is handen wassen zo doeltreffend tegen besmetting?",
           "opties": [
-            "zeep en water halen de micro-organismen van de huid, voor ze in het lichaam raken",
+            "zeep en water halen de micro-organismen van de huid",
             "zeep doodt de virussen die al in het bloed van de handen en de armen zitten",
             "warm water laat de huid zelf antistoffen tegen indringers maken",
             "handen wassen verhoogt de weerstand van het hele lichaam tegen ziekte"
@@ -3031,7 +3031,7 @@
           "type": "meerkeuze",
           "vraag": "Waarom kan een bacterie zich zo snel vermeerderen?",
           "opties": [
-            "ze deelt zich in twee, en in gunstige omstandigheden kan dat elk half uur",
+            "ze deelt zich in twee, in gunstige omstandigheden elk half uur",
             "ze krijgt bij elke deling honderden nakomelingen tegelijk, niet twee",
             "ze vermeerdert zich zonder enig voedsel of vocht op te nemen",
             "ze deelt zich enkel bij een temperatuur onder het vriespunt"
@@ -3043,7 +3043,7 @@
           "type": "meerkeuze",
           "vraag": "Je laat een restje soep een nacht op het aanrecht staan. Waarom is dat af te raden?",
           "opties": [
-            "bij kamertemperatuur delen bacteriën zich snel tot er onveilige aantallen zijn",
+            "bij kamertemperatuur delen bacteriën zich snel tot onveilige aantallen",
             "soep verliest bij kamertemperatuur al haar voedingsstoffen en vitaminen",
             "bacteriën kunnen enkel in koude soep groeien en nergens anders in",
             "de soep neemt bacteriën uit de lucht op die er niet meer uit weggaan"
@@ -3062,7 +3062,7 @@
           "type": "meerkeuze",
           "vraag": "Wat bedoelt een bioloog met gedrag?",
           "opties": [
-            "alles wat een dier doet als antwoord op prikkels van binnen of van buiten",
+            "alles wat een dier doet als antwoord op prikkels",
             "enkel de bewegingen die een dier met zijn skeletspieren maakt",
             "enkel wat een dier tijdens zijn leven van anderen leert",
             "de manier waarop een dier eruitziet en zich voortbeweegt"
@@ -3118,7 +3118,7 @@
           "type": "meerkeuze",
           "vraag": "Wat is gewenning als vorm van leren?",
           "opties": [
-            "een dier reageert steeds minder op een prikkel die telkens zonder gevolg blijft",
+            "een dier reageert minder op een prikkel die telkens zonder gevolg blijft",
             "een dier leert twee prikkels aan elkaar koppelen die altijd samen komen",
             "een dier leert iets nieuws door een soortgenoot na te doen",
             "een dier onthoudt een weg die het maar één keer gelopen heeft"
@@ -3164,7 +3164,7 @@
           "type": "meerkeuze",
           "vraag": "Waarom is geleerd gedrag een voordeel in een veranderende omgeving?",
           "opties": [
-            "het dier kan zijn gedrag bijstellen als de omstandigheden anders worden",
+            "het dier kan zijn gedrag bijstellen als de omstandigheden veranderen",
             "het dier hoeft dan geen aangeboren gedrag meer te hebben",
             "geleerd gedrag kost minder energie dan aangeboren gedrag",
             "geleerd gedrag wordt automatisch aan de nakomelingen doorgegeven"
@@ -3182,7 +3182,7 @@
           "type": "meerkeuze",
           "vraag": "Wat is een sleutelprikkel?",
           "opties": [
-            "een bepaalde prikkel die een vast gedragspatroon in gang zet",
+            "een bepaalde prikkel die een vast gedragspatroon start",
             "de sterkste prikkel die een dier in zijn leven ooit kreeg",
             "een prikkel die een dier eerst moet leren herkennen",
             "een prikkel die van binnen het lichaam van het dier komt"
@@ -3222,7 +3222,7 @@
           "type": "meerkeuze",
           "vraag": "Wat is inprenting?",
           "opties": [
-            "een jong dier legt in een korte gevoelige periode vast wie zijn ouder is",
+            "een jong dier legt in een korte periode vast wie zijn ouder is",
             "een dier leert na vele herhalingen een weg door het landschap onthouden",
             "een dier schrikt niet meer van een prikkel die zonder gevolg blijft",
             "een dier neemt het gedrag over van een soort die de zijne niet is"
@@ -3256,7 +3256,7 @@
           "type": "meerkeuze",
           "vraag": "Een hond gaat zitten zodra zijn baas een leeg koekjesdoosje laat ritselen. Hoe verklaar je dat?",
           "opties": [
-            "het geluid is door herhaling aan een belonend gevolg gekoppeld geraakt",
+            "het geluid is door herhaling aan een beloning gekoppeld",
             "zitten is bij honden een aangeboren reflex op elk soort geritsel",
             "de hond raakt gewend aan het geluid en reageert daarom met zitten",
             "de hond doet dit na van een andere hond die het hem voordeed"
@@ -3268,10 +3268,10 @@
           "type": "meerkeuze",
           "vraag": "Een onderzoeker wil weten of muizen een doolhof leren. Wat is de beste aanpak?",
           "opties": [
-            "de tijd per poging meten bij een groep muizen en kijken of die daalt",
+            "de tijd per poging meten bij een groep muizen",
             "één muis één keer door het hele doolhof laten lopen",
             "de muizen beschrijven zoals ze er van buiten uitzien",
-            "de muizen in het doolhof zetten zonder iets op te meten"
+            "de muizen in het doolhof zetten en kijken of ze er tevreden uitzien"
           ],
           "antwoord": 0,
           "uitleg": "Leren zie je aan een verbetering over herhaalde pogingen. Daarom meet je meerdere dieren en meerdere keren."
@@ -3324,7 +3324,7 @@
             "binnen een soort overlappen de behoeften volledig",
             "tussen soorten is er nooit competitie",
             "binnen een soort is er nooit competitie",
-            "tussen soorten gaat het altijd om nestplaatsen"
+            "tussen soorten gaat het altijd om nestplaatsen en nooit om voedsel"
           ],
           "antwoord": 0,
           "uitleg": "Soortgenoten eten hetzelfde, nestelen op dezelfde plaats en zoeken dezelfde partner. Hun behoeften overlappen dus volledig."
@@ -3410,10 +3410,10 @@
           "type": "meerkeuze",
           "vraag": "Wat is een nadeel van in een grote groep leven?",
           "opties": [
-            "er is meer competitie om voedsel en ziekten verspreiden zich sneller",
+            "meer competitie om voedsel, en ziekten verspreiden zich sneller",
             "een roofdier vindt de groep moeilijker terug",
             "de jongen worden minder goed beschermd",
-            "er is minder gelegenheid om een partner te vinden"
+            "er is minder gelegenheid om een partner te vinden, want iedereen lijkt op elkaar"
           ],
           "antwoord": 0,
           "uitleg": "Een groep is opvallender voor een roofdier, verbruikt het voedsel sneller en geeft ziekten makkelijk door. Daarom is er altijd een evenwicht tussen voor- en nadeel."
@@ -3469,7 +3469,7 @@
           "vraag": "Twee vogelsoorten eten insecten in dezelfde bomen, maar de ene zoekt in de kruin en de andere op de stam. Wat besluit je?",
           "opties": [
             "door het verschil in zoekplaats blijft de competitie beperkt",
-            "er is geen enkele competitie, want ze eten iets anders",
+            "er is geen enkele competitie, want ze eten elk een andere soort insect",
             "de ene soort zal de andere zeker verdringen",
             "ze vormen samen een symbiose"
           ],
@@ -3480,9 +3480,9 @@
           "type": "meerkeuze",
           "vraag": "Wat gebeurt er met een roofdierpopulatie als het aantal prooien sterk stijgt?",
           "opties": [
-            "de roofdieren nemen met wat vertraging ook toe, waarna de prooien weer dalen",
+            "de roofdieren nemen met wat vertraging toe, daarna dalen de prooien",
             "de roofdieren verdwijnen, want er is te veel keuze",
-            "er verandert niets, want roofdieren hangen niet van prooien af",
+            "er verandert niets, want roofdieren hangen niet van één prooisoort af",
             "de prooien blijven voor altijd in groot aantal"
           ],
           "antwoord": 0,
@@ -3505,7 +3505,7 @@
           "type": "meerkeuze",
           "vraag": "Wat is het verschil tussen een autotroof en een heterotroof organisme?",
           "opties": [
-            "een autotroof maakt zijn eigen organische stoffen, een heterotroof moet ze opnemen",
+            "een autotroof maakt zelf organische stoffen, een heterotroof neemt ze op",
             "een autotroof leeft in water en een heterotroof op het land",
             "een autotroof bestaat uit één cel en een heterotroof uit meer cellen",
             "een autotroof heeft geen energie nodig en een heterotroof wel"
@@ -3546,7 +3546,7 @@
           "vraag": "Wat levert de celademhaling op?",
           "opties": [
             "energie voor de cel, plus koolstofdioxide en water",
-            "glucose en zuurstofgas",
+            "glucose en zuurstofgas, die de cel daarna weer opslaat in haar vacuole",
             "lichtenergie en water",
             "glucose en koolstofdioxide"
           ],
@@ -3593,7 +3593,7 @@
           "opties": [
             "bij licht overheerst de fotosynthese, in het donker valt ze weg",
             "een plant ademt enkel in het donker en nooit bij daglicht",
-            "een plant doet fotosynthese ook in het donker, maar dan trager",
+            "een plant doet ook in het donker fotosynthese, maar dan veel trager dan overdag",
             "de huidmondjes staan in het donker helemaal dicht"
           ],
           "antwoord": 0,
@@ -3614,7 +3614,7 @@
           "vraag": "Wat levert alcoholgisting door gist op?",
           "opties": [
             "ethanol en koolstofdioxide",
-            "melkzuur en water",
+            "melkzuur en water, net als in een vermoeide spier",
             "glucose en zuurstofgas",
             "water en koolstofdioxide"
           ],
@@ -3674,8 +3674,8 @@
           "type": "meerkeuze",
           "vraag": "Wat doet een enzym in een cel?",
           "opties": [
-            "het versnelt een bepaalde omzetting zonder er zelf bij op te gaan",
-            "het levert de energie voor een omzetting",
+            "het versnelt een bepaalde omzetting zonder zelf op te gaan",
+            "het levert de energie voor een omzetting en wordt daarbij zelf afgebroken",
             "het vervoert stoffen door de celmembraan",
             "het slaat de erfelijke informatie op"
           ],
@@ -3704,10 +3704,10 @@
           "type": "meerkeuze",
           "vraag": "Diezelfde onderzoeker verdubbelt de lichtsterkte en ziet het aantal belletjes niet verder stijgen. Wat besluit je?",
           "opties": [
-            "een andere factor, zoals het koolstofdioxide, is nu de beperkende factor",
+            "een andere factor, zoals koolstofdioxide, remt nu",
             "de plant doet geen fotosynthese meer",
             "licht speelt geen rol bij de fotosynthese",
-            "de plant is door het licht beschadigd geraakt"
+            "de plant is door het felle licht beschadigd geraakt en maakt geen bladgroen meer"
           ],
           "antwoord": 0,
           "uitleg": "Het proces loopt maar zo snel als zijn krapste grondstof toelaat. Boven een bepaalde lichtsterkte wordt niet het licht maar iets anders de rem."
@@ -3726,7 +3726,7 @@
             "producenten, consumenten en reducenten",
             "planten, dieren en stenen",
             "jagers, prooien en vluchters",
-            "autotrofen, parasieten en gastheren"
+            "autotrofen, parasieten en gastheren die elkaar in evenwicht houden"
           ],
           "antwoord": 0,
           "uitleg": "Producenten maken organische stof, consumenten eten die, reducenten breken alles weer af. Zo loopt de materie rond."
@@ -3748,7 +3748,7 @@
             "een rij organismen waarin elk het volgende tot voedsel dient",
             "alle organismen die in één gebied leven",
             "de rij van alle stoffen in een plant",
-            "de weg van een stof door één organisme"
+            "de weg die één stof aflegt door één organisme, van de mond tot de darm"
           ],
           "antwoord": 0,
           "uitleg": "Een voedselketen begint bij een producent en gaat met pijlen naar wie wie eet. De pijl wijst in de richting waarin de energie gaat."
@@ -3877,8 +3877,8 @@
           "type": "meerkeuze",
           "vraag": "Wat is biomassa?",
           "opties": [
-            "de totale massa levend materiaal in een gebied of op een niveau",
-            "de hoeveelheid energie die de zon per dag levert",
+            "de totale massa levend materiaal in een gebied",
+            "de hoeveelheid energie die de zon per dag op een vierkante meter levert",
             "de massa van de bodem in een gebied",
             "het aantal soorten dat in een gebied voorkomt"
           ],
@@ -3913,7 +3913,7 @@
           "opties": [
             "de producenten vallen weg, en de consumenten erbij",
             "de consumenten gaan zelf fotosynthese doen",
-            "de reducenten nemen de rol van producent over",
+            "de reducenten nemen de rol van producent over en maken zelf voedsel aan",
             "er verandert niets zolang de zon blijft schijnen"
           ],
           "antwoord": 0,
@@ -3923,10 +3923,10 @@
           "type": "meerkeuze",
           "vraag": "Een landbouwer vergelijkt twee percelen: één met alleen maïs, één met een mengsel van gewassen. Wat verwacht je over het bodemleven?",
           "opties": [
-            "het mengsel geeft meer verschillende plantenresten, dus een rijker bodemleven",
+            "het mengsel geeft meer soorten plantenresten, dus meer bodemleven",
             "het bodemleven is in beide percelen precies gelijk",
             "alleen maïs geeft het rijkste bodemleven",
-            "bodemleven hangt enkel van de temperatuur af"
+            "bodemleven hangt enkel van de temperatuur en de neerslag in die streek af"
           ],
           "antwoord": 0,
           "uitleg": "Verschillende plantenresten voeden verschillende reducenten. Eén gewas voedt telkens dezelfde kleine groep."
@@ -4029,9 +4029,9 @@
           "type": "meerkeuze",
           "vraag": "Waarom staat er bij een hevige regen sneller water op een verharde straat dan op een weide?",
           "opties": [
-            "het water kan niet in de bodem dringen en loopt meteen oppervlakkig weg",
+            "het water kan niet in de bodem en loopt meteen weg",
             "er valt op een straat meer regen dan op een weide",
-            "verharding laat het water sneller verdampen",
+            "verharding laat het water sneller verdampen, zodat het blijft staan",
             "een weide houdt helemaal geen water tegen"
           ],
           "antwoord": 0,
@@ -4042,7 +4042,7 @@
           "vraag": "Waarom kunnen planten het stikstofgas uit de lucht niet rechtstreeks gebruiken?",
           "opties": [
             "de binding in het stikstofgasmolecule is te sterk",
-            "stikstofgas komt niet in de bodem terecht",
+            "stikstofgas komt nooit in de bodem terecht, want het blijft hoog in de lucht",
             "planten hebben geen stikstof nodig",
             "stikstofgas lost niet op in water"
           ],
@@ -4081,9 +4081,9 @@
           "type": "meerkeuze",
           "vraag": "Wat is eutrofiëring van een vijver?",
           "opties": [
-            "overbemesting laat de algen woekeren en de zuurstof instorten",
+            "overbemesting laat de algen woekeren en de zuurstof dalen",
             "de vijver droogt uit door de hoge temperatuur",
-            "de vijver verliest al zijn mineralen door de regen",
+            "de vijver verliest al zijn mineralen door de regen, waardoor er niets meer groeit",
             "de vijver wordt zuurder door de neerslag"
           ],
           "antwoord": 0,
@@ -4206,7 +4206,7 @@
           "type": "meerkeuze",
           "vraag": "Wat is de draagkracht van een gebied?",
           "opties": [
-            "het aantal individuen dat een gebied blijvend kan onderhouden",
+            "hoeveel individuen een gebied blijvend kan onderhouden",
             "het gewicht dat de bodem van een gebied kan dragen",
             "het aantal soorten dat ooit in het gebied geleefd heeft",
             "de hoeveelheid energie die de zon er levert"
@@ -4267,8 +4267,8 @@
           "type": "meerkeuze",
           "vraag": "Wat is de ecologische niche van een soort?",
           "opties": [
-            "het geheel van omstandigheden en rollen waarin die soort kan leven",
-            "de plaats waar het nest van die soort ligt",
+            "alle omstandigheden en rollen waarin die soort kan leven",
+            "de plaats waar het nest van die soort ligt en waar de jongen opgroeien",
             "het aantal individuen van die soort in een gebied",
             "de soort die er het dichtst bij verwant is"
           ],
@@ -4285,8 +4285,8 @@
           "type": "meerkeuze",
           "vraag": "Wat is een indicatorsoort?",
           "opties": [
-            "een soort waarvan de aanwezigheid iets zegt over de toestand van het milieu",
-            "de soort met het grootste aantal individuen in een gebied",
+            "een soort die iets zegt over de toestand van het milieu",
+            "de soort met het grootste aantal individuen in een gebied, zoals gras op een weide",
             "de soort die het langst in een gebied leeft",
             "de soort die bovenaan de voedselketen staat"
           ],
@@ -4429,7 +4429,7 @@
           "opties": [
             "je spreekt de persoon aan en schudt zacht",
             "je voelt meteen de hartslag in de hals",
-            "je houdt een spiegel voor de mond",
+            "je houdt een spiegel voor de mond en kijkt of hij beslaat",
             "je tilt de persoon rechtop"
           ],
           "antwoord": 0,
@@ -4447,7 +4447,7 @@
           "opties": [
             "je legt de persoon in stabiele zijligging en belt 112",
             "je begint met hartmassage",
-            "je zet de persoon rechtop tegen een muur",
+            "je zet de persoon rechtop tegen een muur zodat hij vrijer kan ademen",
             "je geeft de persoon water om bij te komen"
           ],
           "antwoord": 0,
@@ -4468,7 +4468,7 @@
           "vraag": "Waarom legt men een bewusteloos slachtoffer op de zij en niet op de rug?",
           "opties": [
             "op de rug kan de tong of braaksel de luchtweg afsluiten",
-            "op de zij komt het bloed sneller naar het hoofd",
+            "op de zij komt het bloed sneller naar het hoofd en wordt het slachtoffer wakker",
             "op de rug wordt het slachtoffer sneller koud",
             "op de zij kan het slachtoffer makkelijker praten"
           ],
@@ -4545,9 +4545,9 @@
           "type": "meerkeuze",
           "vraag": "Wat doet een AED?",
           "opties": [
-            "hij meet het hartritme en geeft enkel een schok als dat nodig is",
+            "hij meet het hartritme en schokt enkel als het nodig is",
             "hij geeft altijd een schok zodra je hem aanzet",
-            "hij vervangt de hartmassage volledig",
+            "hij vervangt de hartmassage volledig, zodat je zelf niets meer moet doen",
             "hij beademt het slachtoffer automatisch"
           ],
           "antwoord": 0,
@@ -4586,7 +4586,7 @@
           "vraag": "Je vindt iemand op straat die niet reageert en niet normaal ademt, en je staat er alleen voor. Wat doe je?",
           "opties": [
             "je belt 112 met de luidspreker aan en begint te reanimeren",
-            "je gaat eerst hulp zoeken in de huizen in de buurt",
+            "je gaat eerst hulp zoeken in de huizen in de buurt en komt dan terug",
             "je legt de persoon in stabiele zijligging en wacht af",
             "je brengt de persoon zelf naar het ziekenhuis"
           ],
@@ -4662,10 +4662,10 @@
           "type": "meerkeuze",
           "vraag": "Iemand verslikt zich en kan niet meer hoesten of spreken. Wat doe je?",
           "opties": [
-            "je geeft vijf slagen tussen de schouderbladen en daarna vijf buikstoten",
+            "vijf slagen tussen de schouderbladen, dan vijf buikstoten",
             "je geeft de persoon water om door te slikken",
             "je legt de persoon op de rug en begint te beademen",
-            "je wacht tot de persoon zelf weer begint te hoesten"
+            "je wacht tot de persoon zelf weer begint te hoesten en klopt dan op de rug"
           ],
           "antwoord": 0,
           "uitleg": "Afwisselend slaan en stoten tot het voorwerp eruit komt. Raakt de persoon buiten bewustzijn, dan start je met reanimeren."
@@ -4705,7 +4705,7 @@
           "type": "meerkeuze",
           "vraag": "Wat doe je bij een vermoedelijke botbreuk in een arm?",
           "opties": [
-            "je laat de arm zo liggen als hij ligt, steunt hem en belt hulp",
+            "je laat de arm liggen, steunt hem en belt hulp",
             "je trekt het bot weer recht",
             "je laat de persoon de arm bewegen om te zien hoe erg het is",
             "je bindt de arm zo stevig mogelijk af"
@@ -4723,8 +4723,8 @@
           "type": "meerkeuze",
           "vraag": "Iemand krijgt een epileptische aanval met schokken. Wat doe je?",
           "opties": [
-            "je zorgt dat de persoon zich niet kan stoten en legt iets zachts onder het hoofd",
-            "je houdt de persoon stevig vast tot de schokken stoppen",
+            "je zorgt dat de persoon zich niet stoot en legt iets zachts onder het hoofd",
+            "je houdt de persoon stevig vast tot de schokken stoppen, zodat hij niet valt",
             "je steekt iets tussen de tanden",
             "je geeft de persoon meteen iets te drinken"
           ],
@@ -4785,10 +4785,10 @@
           "type": "meerkeuze",
           "vraag": "Waarom is het nuttig dat zoveel mensen mogelijk kunnen reanimeren?",
           "opties": [
-            "de eerste minuten bepalen de kans om te overleven, en de hulpdiensten zijn er niet meteen",
+            "de eerste minuten tellen, en de hulpdiensten zijn er niet meteen",
             "de hulpdiensten komen dan niet meer ter plaatse",
             "reanimeren vervangt het ziekenhuis",
-            "zo hoeft er geen AED meer in gebouwen te hangen"
+            "zo hoeft er geen AED meer in openbare gebouwen en sporthallen te hangen"
           ],
           "antwoord": 0,
           "uitleg": "Zonder bloedtoevoer raken de hersenen in minuten beschadigd. Een omstaander overbrugt net die kostbare eerste minuten."
@@ -4797,10 +4797,10 @@
           "type": "meerkeuze",
           "vraag": "Je ziet een ongeval op de autosnelweg. Wat doe je eerst?",
           "opties": [
-            "je zorgt voor je eigen veiligheid: stilstaan op een veilige plek, een hesje aan, de knipperlichten aan",
+            "je zorgt eerst voor je eigen veiligheid: hesje aan, knipperlichten aan",
             "je loopt onmiddellijk naar de voertuigen toe",
             "je zet je wagen dwars over de rijstrook",
-            "je haalt de slachtoffers meteen uit hun auto"
+            "je haalt de slachtoffers meteen uit hun auto, want er kan brand uitbreken"
           ],
           "antwoord": 0,
           "uitleg": "Een helper die zelf aangereden wordt, maakt de toestand erger. Eigen veiligheid staat altijd eerst, ook als dat tijd kost."
@@ -4829,7 +4829,7 @@
           "vraag": "Wat is een hypothese?",
           "opties": [
             "een beredeneerde verwachting die je kan toetsen",
-            "het besluit dat je na het onderzoek opschrijft",
+            "het besluit dat je na het onderzoek opschrijft in je verslag",
             "een vermoeden dat altijd juist blijkt te zijn",
             "de lijst materialen die je nodig hebt"
           ],
@@ -4859,7 +4859,7 @@
             "de lengte van de plant na enkele weken",
             "de lichtsterkte van de lamp",
             "de hoeveelheid water die je geeft",
-            "de soort potgrond"
+            "de soort potgrond die je in alle bakjes gebruikt"
           ],
           "antwoord": 0,
           "uitleg": "De afhankelijke variabele is wat je meet en wat van je instelling afhangt. De lichtsterkte stel je zelf in, dus die is onafhankelijk."
@@ -4901,7 +4901,7 @@
           "vraag": "Waarom herhaal je een meting meerdere keren?",
           "opties": [
             "om de invloed van toeval en meetfouten te verkleinen",
-            "om het resultaat te laten kloppen met je hypothese",
+            "om het resultaat te laten kloppen met de hypothese die je vooraf opschreef",
             "om het onderzoek langer te laten duren",
             "om minder planten nodig te hebben"
           ],
@@ -4977,7 +4977,7 @@
             "twee planten zijn te weinig om toeval uit te sluiten",
             "licht heeft niets met groei te maken",
             "de hypothese was te duidelijk opgeschreven",
-            "de proef duurde te kort om een tabel te maken"
+            "de proef duurde te kort om de resultaten in een overzichtelijke tabel te zetten"
           ],
           "antwoord": 0,
           "uitleg": "Met twee planten kan één sterke of zwakke plant het hele resultaat bepalen. Meer exemplaren en een herhaling lossen dat op."
@@ -4986,7 +4986,7 @@
           "type": "meerkeuze",
           "vraag": "Een proef met twee groepen plantjes geeft een verschil in lengte, maar de ene groep stond ook warmer. Wat is het probleem?",
           "opties": [
-            "er veranderden twee factoren tegelijk, dus weet je de oorzaak niet",
+            "er veranderden twee factoren tegelijk, dus de oorzaak is onzeker",
             "er waren te weinig metingen per dag",
             "de hypothese was niet opgeschreven",
             "de lengtes zijn in centimeter gemeten in plaats van in millimeter"
@@ -5004,8 +5004,8 @@
           "type": "meerkeuze",
           "vraag": "Wat betekent STEM?",
           "opties": [
-            "wetenschappen, technologie, ingenieurswetenschappen en wiskunde",
-            "studie, techniek, elektronica en metaalbewerking samen",
+            "wetenschappen, technologie, ingenieurswetenschappen, wiskunde",
+            "studie, techniek, elektronica en metaalbewerking samen in één richting",
             "een vak waarin je enkel proeven doet",
             "het samengaan van sport, techniek en muziek"
           ],
@@ -5017,7 +5017,7 @@
           "vraag": "Een klas wil een oplossing ontwerpen om een vijver gezonder te maken. Wat is de goede eerste stap?",
           "opties": [
             "de huidige toestand meten, zodat je later kan vergelijken",
-            "meteen een filter bouwen en die in de vijver zetten",
+            "meteen een filter bouwen en die in de vijver zetten, want elke dag telt",
             "de mooiste oplossing kiezen en die uitwerken",
             "wachten tot de vijver van zelf verbetert"
           ],
@@ -5036,7 +5036,7 @@
           "vraag": "Wat kan je met een lichtmicroscoop bekijken?",
           "opties": [
             "cellen en hun grootste celonderdelen",
-            "losse atomen van een element",
+            "losse atomen van een element, zoals het zuurstofatoom",
             "virussen tot in hun details",
             "moleculen van water en zout"
           ],
@@ -5069,9 +5069,9 @@
           "type": "meerkeuze",
           "vraag": "Waarom begin je bij een microscoop met het zwakste objectief?",
           "opties": [
-            "het beeldveld is dan het grootst, zodat je je voorwerp makkelijker vindt",
+            "het beeldveld is dan het grootst, zodat je alles vindt",
             "het sterkste objectief werkt enkel met gekleurde preparaten",
-            "het zwakste objectief geeft het scherpste beeld",
+            "het zwakste objectief geeft het scherpste en het meest gedetailleerde beeld",
             "anders breekt het objectief altijd"
           ],
           "antwoord": 0,
@@ -5090,7 +5090,7 @@
             "om het preparaat vlak te houden en uitdrogen te voorkomen",
             "om het preparaat sterker te vergroten",
             "om het licht te kleuren",
-            "om het objectief te beschermen tegen krassen"
+            "om het objectief te beschermen tegen krassen als je te dicht bij het glaasje komt"
           ],
           "antwoord": 0,
           "uitleg": "Het dekglaasje drukt het preparaat tot één laagje en houdt het vocht erin. Daardoor is er maar één scherptevlak."
@@ -5139,7 +5139,7 @@
           "opties": [
             "de onafhankelijke variabele, die je zelf instelde",
             "de afhankelijke variabele, die je gemeten hebt",
-            "altijd de tijd, ook als die niet gevarieerd werd",
+            "altijd de tijd, ook als die niet gevarieerd werd tijdens de proef",
             "de grootste van de twee getallen"
           ],
           "antwoord": 0,
@@ -5200,7 +5200,7 @@
           "vraag": "Wat maakt een wetenschappelijke uitspraak anders dan een los vermoeden?",
           "opties": [
             "ze is getoetst en kan weerlegd worden",
-            "ze komt van iemand met een diploma",
+            "ze komt van iemand met een diploma in de wetenschappen",
             "ze staat in een boek afgedrukt",
             "ze wordt door veel mensen geloofd"
           ],
@@ -5214,7 +5214,7 @@
             "je kijkt of er een proef met controlegroep achter zit",
             "je neemt het over, want het stond op een website",
             "je verwerpt het meteen zonder te kijken",
-            "je vraagt wat de mening van je klas erover is"
+            "je vraagt wat de mening van je klas erover is en volgt de meerderheid"
           ],
           "antwoord": 0,
           "uitleg": "Je beoordeelt de opzet: hoeveel planten, welke controle, wie het onderzoek betaalde. Pas dan weet je wat de bewering waard is."
