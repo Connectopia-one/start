@@ -458,7 +458,7 @@ export const spelKaarten: SpelKaart[] = [
     school: "middelbaar",
     niveau: "🌍 Beyond · ook dubbele finaliteit",
     niveauInSpel: "beyond",
-    tekst: `Honderdzestig begrippen, van het referentiekader tot China, Israël-Palestina en de kunststromingen. Ook voor Beyond dubbele finaliteit: daar komen dezelfde hoofdstukken aan bod. ${zesSpellen}`,
+    tekst: `Honderdzestig begrippen, van het referentiekader tot China, Israël-Palestina en de kunststromingen. Ook bruikbaar voor Beyond dubbele finaliteit, dat grotendeels dezelfde hoofdstukken heeft. ${zesSpellen}`,
   },
   {
     spel: "begrippenarena-natuur",
