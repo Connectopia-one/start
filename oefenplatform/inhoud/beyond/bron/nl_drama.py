@@ -12,7 +12,7 @@ DEEL1 = [
         vraag="Wat kenmerkt een tragedie?",
         opties=[
             "de hoofdfiguur gaat onafwendbaar ten onder",
-            "de hoofdfiguur trouwt op het einde",
+            "de hoofdfiguur trouwt op het einde met de geliefde",
             "de personages zijn allemaal dieren",
             "het stuk duurt nooit langer dan een uur",
         ],
@@ -342,7 +342,7 @@ DEEL2 = [
         vraag="Wat is gestiek?",
         opties=[
             "de gebaren die een speler maakt",
-            "de uitdrukking op zijn gezicht",
+            "de uitdrukking op zijn gezicht en in zijn ogen",
             "de kleding die hij draagt",
             "het geluid dat hem begeleidt",
         ],

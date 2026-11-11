@@ -79,7 +79,7 @@ DEEL1 = [
         vraag="Wat is een pleonasme?",
         opties=[
             "een overbodige toevoeging die al in het woord zit",
-            "twee synoniemen die naast elkaar gebruikt worden",
+            "twee synoniemen die vlak naast elkaar in één zin gebruikt worden",
             "twee uitdrukkingen die door elkaar lopen",
             "een woord dat zijn eigen klank nabootst",
         ],
@@ -340,7 +340,7 @@ DEEL2 = [
         vraag="Waarom kiest een journalist bewust tussen 'betoger' en 'relschopper'?",
         opties=[
             "de connotatie stuurt het oordeel van de lezer",
-            "de twee woorden betekenen precies hetzelfde",
+            "de twee woorden betekenen precies hetzelfde, dus het maakt niets uit",
             "het ene woord is korter dan het andere",
             "het ene woord is ouder dan het andere",
         ],
@@ -376,7 +376,7 @@ DEEL2 = [
         vraag="Een tekst spreekt consequent over 'het probleem' in plaats van over 'de uitdaging'. Wat doet die keuze?",
         opties=[
             "ze kleurt hoe de lezer de zaak inschat",
-            "ze maakt de tekst korter en helderder",
+            "ze maakt de tekst korter, helderder en makkelijker leesbaar",
             "ze verandert de feiten in de tekst",
             "ze verbetert de spelling van de tekst",
         ],
@@ -388,7 +388,7 @@ DEEL2 = [
         vraag="Je schrijft een zakelijke tekst en twijfelt tussen twee synoniemen. Waar let je op?",
         opties=[
             "op de gevoelswaarde en op het register",
-            "op welk woord het langst is",
+            "op welk woord het langst en het meest plechtig is",
             "op welk woord het vaakst voorkomt",
             "op welk woord het oudst is",
         ],

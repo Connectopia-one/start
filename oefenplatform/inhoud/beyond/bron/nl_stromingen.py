@@ -16,7 +16,7 @@ DEEL1 = [
         vraag="Wat kenmerkt de hoofse literatuur van de middeleeuwen?",
         opties=[
             "de verheven liefde voor een onbereikbare vrouw",
-            "de spot met het gezag van de kerk",
+            "de spot met het gezag van de kerk en van de adel",
             "de nauwkeurige beschrijving van armoede",
             "de weergave van de gedachtestroom van een ik",
         ],
@@ -346,7 +346,7 @@ DEEL2 = [
         vraag="Wat is de neoromantiek?",
         opties=[
             "een hernieuwde aandacht voor gevoel en verbeelding",
-            "een terugkeer naar de klassieke oudheid",
+            "een terugkeer naar de klassieke oudheid en haar strenge vormen",
             "een stroming die enkel in het theater voorkomt",
             "een stroming die de wetenschap verheerlijkt",
         ],

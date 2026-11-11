@@ -146,7 +146,7 @@ DEEL1 = [
         vraag="Waarom is de standaardtaal nuttig in het onderwijs en het bestuur?",
         opties=[
             "iedereen in het taalgebied kan ze begrijpen",
-            "ze is mooier dan de andere variëteiten",
+            "ze is mooier en rijker dan de andere variëteiten van de taal",
             "ze is de oudste vorm van het Nederlands",
             "ze bevat minder woorden dan een dialect",
         ],
@@ -194,7 +194,7 @@ DEEL1 = [
         vraag="Waarom lijkt een ambtelijke tekst vaak moeilijk?",
         opties=[
             "de formuleringen zijn lang en onpersoonlijk",
-            "de tekst bevat te veel spelfouten",
+            "de tekst bevat te veel spelfouten en tikfouten",
             "de tekst is altijd in dialect geschreven",
             "de tekst is korter dan ze zou moeten zijn",
         ],
@@ -209,7 +209,7 @@ DEEL2 = [
         vraag="Wat is een taalregister?",
         opties=[
             "de toon die je kiest naargelang de situatie",
-            "de lijst met alle woorden die je kent",
+            "de lijst met alle woorden die je actief en passief kent",
             "de streek waaruit je taal afkomstig is",
             "de regels voor de spelling van werkwoorden",
         ],
@@ -258,7 +258,7 @@ DEEL2 = [
         vraag="Wat is het effect als je in een informele situatie plots standaardtaal gaat spreken?",
         opties=[
             "je schept afstand tussen jezelf en de ander",
-            "je wordt daardoor beter begrepen",
+            "je wordt daardoor beter en sneller begrepen",
             "je komt daardoor altijd vriendelijker over",
             "je maakt daardoor minder taalfouten",
         ],
@@ -312,7 +312,7 @@ DEEL2 = [
         vraag="Een smiley in een formele mail. Wat is het probleem?",
         opties=[
             "hij past niet bij het register van de mail",
-            "hij maakt de mail onleesbaar",
+            "hij maakt de mail onleesbaar op een computer",
             "hij verandert de spelling van de woorden",
             "hij is in het Nederlands niet toegelaten",
         ],
@@ -379,7 +379,7 @@ DEEL2 = [
         vraag="Een leerling schrijft een mail aan een leerkracht die begint met 'Hey'. Wat is het effect?",
         opties=[
             "de aanspreking botst met de verhouding",
-            "de mail wordt daardoor duidelijker",
+            "de mail wordt daardoor duidelijker en persoonlijker voor de leerkracht",
             "de mail bevat daardoor een spelfout",
             "de leerkracht kan de mail niet openen",
         ],

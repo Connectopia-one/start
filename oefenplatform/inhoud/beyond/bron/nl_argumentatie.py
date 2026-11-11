@@ -128,7 +128,7 @@ DEEL1 = [
         vraag="Wat maakt een argument sterk?",
         opties=[
             "het is waar, ter zake en belangrijk genoeg",
-            "het is lang en bevat moeilijke woorden",
+            "het is lang en bevat veel moeilijke woorden en vaktermen",
             "het staat helemaal vooraan in de tekst",
             "het wordt met stemverheffing gebracht",
         ],
@@ -146,7 +146,7 @@ DEEL1 = [
         vraag="Iemand beweert: 'Deze maatregel is onrechtvaardig.' Hoe kan je die uitspraak best beoordelen?",
         opties=[
             "je vraagt op welke argumenten ze steunt",
-            "je gaat ze na in een naslagwerk",
+            "je gaat ze na in een naslagwerk of een woordenboek",
             "je telt hoe vaak ze herhaald wordt",
             "je kijkt of ze netjes gespeld is",
         ],
@@ -246,7 +246,7 @@ DEEL2 = [
         vraag="'Iedereen vindt dit, dus het klopt.' Wat is er mis met die redenering?",
         opties=[
             "dat velen iets vinden maakt het nog niet waar",
-            "er staan geen cijfers bij om het te staven",
+            "er staan geen cijfers of percentages bij om het te staven",
             "de zin is te kort om een argument te zijn",
             "de zin bevat geen enkel signaalwoord",
         ],
@@ -312,7 +312,7 @@ DEEL2 = [
         vraag="In een gemeente steeg het aantal ooievaars én het aantal geboorten. Wat besluit je?",
         opties=[
             "er is samenhang, maar geen bewezen oorzaak",
-            "de ooievaars veroorzaken de geboorten",
+            "de ooievaars veroorzaken de geboorten, zoals het oude verhaal zegt",
             "de geboorten trekken ooievaars aan",
             "de cijfers moeten dan wel verkeerd zijn",
         ],

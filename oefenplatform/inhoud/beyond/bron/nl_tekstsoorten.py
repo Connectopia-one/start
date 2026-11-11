@@ -274,7 +274,7 @@ DEEL2 = [
         vraag="Welke vraag helpt je het best om een persuasieve tekst te herkennen?",
         opties=[
             "wat wil de zender dat ik doe of denk",
-            "hoeveel alinea's telt deze tekst",
+            "hoeveel alinea's en tussentitels telt deze tekst",
             "staan er moeilijke woorden in",
             "is de tekst recent gepubliceerd",
         ],

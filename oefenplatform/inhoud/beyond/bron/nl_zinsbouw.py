@@ -13,7 +13,7 @@ DEEL1 = [
         vraag="Wat is een zinsdeel?",
         opties=[
             "een groep woorden die samen één rol speelt",
-            "elk afzonderlijk woord van de zin",
+            "elk afzonderlijk woord van de zin, ook de lidwoorden",
             "de eerste helft van een samengestelde zin",
             "een zin die uit één woord bestaat",
         ],
@@ -49,7 +49,7 @@ DEEL1 = [
         vraag="Wat is het verschil tussen een actieve en een passieve zin?",
         opties=[
             "in een passieve zin ondergaat het onderwerp de handeling",
-            "een passieve zin is altijd langer dan een actieve",
+            "een passieve zin is altijd langer dan een actieve zin met dezelfde inhoud",
             "een passieve zin heeft nooit een onderwerp",
             "een actieve zin staat altijd in de tegenwoordige tijd",
         ],
@@ -79,7 +79,7 @@ DEEL1 = [
         vraag="Wat is onderschikking?",
         opties=[
             "een bijzin die afhangt van een hoofdzin",
-            "twee hoofdzinnen naast elkaar",
+            "twee hoofdzinnen die naast elkaar staan, met en of maar",
             "een zin zonder persoonsvorm",
             "een zin met een omgekeerde volgorde",
         ],
@@ -115,7 +115,7 @@ DEEL1 = [
         vraag="Wat is inversie?",
         opties=[
             "het onderwerp staat achter de persoonsvorm",
-            "de bijzin staat achter de hoofdzin",
+            "de bijzin staat achter de hoofdzin, na een komma",
             "het werkwoord staat helemaal achteraan",
             "de zin begint met een voegwoord",
         ],
@@ -127,7 +127,7 @@ DEEL1 = [
         vraag="Wat is een tangconstructie?",
         opties=[
             "twee bij elkaar horende delen staan ver uit elkaar",
-            "twee zinnen worden met een voegwoord verbonden",
+            "twee zinnen worden met een voegwoord met elkaar verbonden",
             "twee werkwoorden staan vlak na elkaar",
             "twee onderwerpen delen één persoonsvorm",
         ],
@@ -181,7 +181,7 @@ DEEL1 = [
         vraag="Waarom is variatie in zinsbouw een criterium bij schrijven?",
         opties=[
             "afwisseling houdt een tekst levendig",
-            "lange zinnen tellen zwaarder mee",
+            "lange zinnen tellen zwaarder mee bij de beoordeling",
             "korte zinnen zijn altijd beter",
             "de regels van de spelling eisen dat",
         ],
@@ -208,7 +208,7 @@ DEEL2 = [
         vraag="Hoe vind je het onderwerp van een zin?",
         opties=[
             "je vraagt wie of wat plus de persoonsvorm",
-            "je neemt het eerste woord van de zin",
+            "je neemt gewoon het eerste woord van de zin, vóór het werkwoord",
             "je neemt het woord na het werkwoord",
             "je neemt het langste zinsdeel",
         ],
@@ -274,7 +274,7 @@ DEEL2 = [
         vraag="Wat is het handelend voorwerp?",
         opties=[
             "de uitvoerder in een passieve zin, met door",
-            "het voorwerp dat de handeling ondergaat",
+            "het voorwerp dat de handeling ondergaat, zonder voorzetsel",
             "de persoon aan wie iets gegeven wordt",
             "het eerste zinsdeel van elke zin",
         ],

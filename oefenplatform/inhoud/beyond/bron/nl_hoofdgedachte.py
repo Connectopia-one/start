@@ -128,7 +128,7 @@ DEEL1 = [
         vraag="Wat betekent 'hoofd- en bijzaken onderscheiden' bij het lezen?",
         opties=[
             "zien wat de kern draagt en wat enkel illustreert",
-            "de eerste en de laatste alinea apart lezen",
+            "de eerste en de laatste alinea apart en heel grondig lezen",
             "de langste zinnen van de tekst aanduiden",
             "alle cijfers en eigennamen uit de tekst noteren",
         ],
@@ -228,7 +228,7 @@ DEEL2 = [
         vraag="Wat hoort niet in een samenvatting thuis?",
         opties=[
             "je eigen mening over het onderwerp",
-            "de hoofdgedachte van de tekst",
+            "de hoofdgedachte van de tekst in één zin",
             "de belangrijkste hoofdpunten",
             "de tekstverbanden tussen de delen",
         ],
@@ -276,7 +276,7 @@ DEEL2 = [
         vraag="Wat betekent het dat je informatie 'systematisch' verwerkt?",
         opties=[
             "je gaat volgens een vaste werkwijze te werk",
-            "je neemt elke zin van elke bron over",
+            "je neemt elke zin van elke bron letterlijk en volledig over",
             "je leest alles twee keer na elkaar",
             "je gebruikt enkel bronnen van het internet",
         ],
@@ -294,7 +294,7 @@ DEEL2 = [
         vraag="Je moet een tekst van duizend woorden samenvatten in honderd. Wat sneuvelt eerst?",
         opties=[
             "de voorbeelden en de anekdotes",
-            "de hoofdgedachte",
+            "de hoofdgedachte, want die herhaal je toch niet",
             "de verbanden tussen de delen",
             "het onderwerp van de tekst",
         ],

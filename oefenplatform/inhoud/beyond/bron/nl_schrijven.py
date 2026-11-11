@@ -25,7 +25,7 @@ DEEL1 = [
         vraag="Wat betekent het criterium taakvoltooiing?",
         opties=[
             "het tekstdoel is bereikt en de inhoud is volledig",
-            "de tekst is op tijd ingediend bij de examinator",
+            "de tekst is op tijd ingediend bij de examinator, met naam en datum",
             "de tekst telt het gevraagde aantal woorden",
             "de tekst bevat geen enkele spelfout",
         ],
@@ -388,7 +388,7 @@ DEEL2 = [
         vraag="Waarom lees je je tekst nog eens hardop voor je hem indient?",
         opties=[
             "je hoort dan waar de zinnen stroef lopen",
-            "je vindt dan alle spelfouten",
+            "je vindt dan zeker en vast alle spelfouten",
             "je tekst wordt daardoor een stuk korter",
             "je lay-out verbetert daardoor",
         ],

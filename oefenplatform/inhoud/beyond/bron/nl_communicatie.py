@@ -222,7 +222,7 @@ DEEL2 = [
         vraag="Wat is interne ruis?",
         opties=[
             "iets in de persoon zelf dat de boodschap hindert",
-            "achtergrondgeluid in de ruimte waar men praat",
+            "achtergrondgeluid in de ruimte waar men met elkaar praat",
             "een technische storing op de verbinding",
             "een slecht gekozen kanaal voor de boodschap",
         ],
@@ -355,7 +355,7 @@ DEEL2 = [
         vraag="Waarom staat het communicatiemodel op beide delen van het vak, zowel bij lezen als bij schrijven?",
         opties=[
             "elke boodschap heeft een zender en een ontvanger",
-            "het model geldt enkel voor geschreven teksten",
+            "het model geldt enkel voor geschreven teksten en niet voor gesprekken",
             "het model vervangt de regels van de spelling",
             "het model bepaalt de lengte van je antwoord",
         ],
@@ -379,7 +379,7 @@ DEEL2 = [
         vraag="Je schrijft een mail aan een onbekende instantie. Welke vragen stel je jezelf eerst?",
         opties=[
             "wat wil ik bereiken en wie leest dit",
-            "hoeveel alinea's zal ik gebruiken",
+            "hoeveel alinea's zal ik gebruiken en hoe lang wordt elke alinea",
             "welk lettertype staat het mooist",
             "hoe lang mag de mail worden",
         ],

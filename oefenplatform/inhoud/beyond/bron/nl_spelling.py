@@ -222,7 +222,7 @@ DEEL2 = [
         vraag="Waarvoor dient een trema?",
         opties=[
             "het laat zien dat een klinker apart gelezen wordt",
-            "het geeft aan dat een woord samengesteld werd",
+            "het geeft aan dat een woord uit twee delen samengesteld werd",
             "het vervangt een weggelaten letter",
             "het markeert de klemtoon binnen een woord",
         ],
@@ -276,7 +276,7 @@ DEEL2 = [
         vraag="Waarvoor gebruik je een dubbele punt?",
         opties=[
             "om een opsomming of een citaat aan te kondigen",
-            "om twee hoofdzinnen van elkaar te scheiden",
+            "om twee hoofdzinnen van elkaar te scheiden, zoals een komma",
             "om een vraag aan te duiden",
             "om een woord te benadrukken",
         ],
@@ -312,7 +312,7 @@ DEEL2 = [
         vraag="Wat is een uitspraakteken?",
         opties=[
             "een accent dat aangeeft hoe je iets uitspreekt",
-            "een teken dat het einde van een zin markeert",
+            "een teken dat het einde van een zin of vraag markeert",
             "een teken dat een citaat afbakent",
             "een teken dat twee woorden verbindt",
         ],
@@ -324,7 +324,7 @@ DEEL2 = [
         vraag="Waarvoor kan een accent nog dienen, naast de uitspraak?",
         opties=[
             "om nadruk te leggen op een woord",
-            "om het meervoud te vormen",
+            "om het meervoud van een woord te vormen",
             "om een werkwoord te vervoegen",
             "om een zin af te sluiten",
         ],
@@ -390,7 +390,7 @@ DEEL2 = [
         vraag="Je schrijft een formele brief. Wat doe je met de interpunctie?",
         opties=[
             "je past ze zorgvuldig en volgens de regels toe",
-            "je laat ze weg om de tekst vlotter te maken",
+            "je laat ze weg om de tekst vlotter en sneller leesbaar te maken",
             "je gebruikt vooral uitroeptekens voor nadruk",
             "je zet overal een komma waar je adem haalt",
         ],

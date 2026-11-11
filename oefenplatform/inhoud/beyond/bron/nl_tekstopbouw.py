@@ -115,7 +115,7 @@ DEEL1 = [
         vraag="Een tekst vertelt eerst wat er in 1950 gebeurde, dan in 1970, dan in 2000. Welk verband is dat?",
         opties=[
             "chronologisch",
-            "redengevend",
+            "redengevend, met oorzaak en gevolg",
             "vergelijkend",
             "doel-middel",
         ],
@@ -287,7 +287,7 @@ DEEL2 = [
         vraag="Wat is de toegevoegde waarde van een grafiek bij een tekst?",
         opties=[
             "ze maakt cijfers in één oogopslag vergelijkbaar",
-            "ze vervangt de noodzaak om de tekst te lezen",
+            "ze vervangt de noodzaak om de tekst zelf nog grondig te lezen",
             "ze maakt de tekst automatisch betrouwbaarder",
             "ze bewijst dat de schrijver onderzoek deed",
         ],
@@ -354,7 +354,7 @@ DEEL2 = [
         vraag="Waarom staat er in een instructie zo vaak 'ten eerste, ten tweede, tot slot'?",
         opties=[
             "de volgorde van de stappen moet duidelijk zijn",
-            "de tekst moet er langer door lijken",
+            "de tekst moet er langer en grondiger door lijken voor de lezer",
             "de schrijver moet zijn woordenschat tonen",
             "de lezer moet de tekst twee keer lezen",
         ],

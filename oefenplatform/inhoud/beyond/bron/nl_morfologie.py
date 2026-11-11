@@ -79,7 +79,7 @@ DEEL1 = [
         vraag="Hoe vorm je het meervoud van 'kind'?",
         opties=[
             "kinderen",
-            "kinds",
+            "kinds, zoals bij leenwoorden",
             "kinden",
             "kindes",
         ],
@@ -310,7 +310,7 @@ DEEL2 = [
         vraag="Hoe weet je of een zwak werkwoord -te of -de krijgt in de verleden tijd?",
         opties=[
             "je kijkt naar de laatste klank van de stam",
-            "je kijkt naar de lengte van het werkwoord",
+            "je kijkt naar de lengte van het werkwoord in lettergrepen",
             "je kijkt naar het onderwerp van de zin",
             "je kijkt of het werkwoord scheidbaar is",
         ],
@@ -340,7 +340,7 @@ DEEL2 = [
         vraag="Waarom is het onderscheid tussen stam en uitgang belangrijk?",
         opties=[
             "de spelling van werkwoorden hangt ervan af",
-            "de betekenis van de zin hangt ervan af",
+            "de betekenis van de hele zin hangt ervan af",
             "de woordvolgorde hangt ervan af",
             "de keuze van het lidwoord hangt ervan af",
         ],
@@ -376,7 +376,7 @@ DEEL2 = [
         vraag="Welke tijd gebruik je om iets te vertellen wat nu bezig is?",
         opties=[
             "de onvoltooid tegenwoordige tijd",
-            "de voltooid tegenwoordige tijd",
+            "de voltooid tegenwoordige tijd, met hebben of zijn",
             "de onvoltooid verleden tijd",
             "de voltooid verleden tijd",
         ],
@@ -388,7 +388,7 @@ DEEL2 = [
         vraag="Waarom variëren goede schrijvers met werkwoordstijden?",
         opties=[
             "de tijd stuurt hoe de lezer de gebeurtenis plaatst",
-            "een tekst moet alle zes de tijden bevatten",
+            "een tekst moet volgens de regels alle zes de werkwoordstijden bevatten",
             "variatie maakt de tekst automatisch korter",
             "de spellingregels verplichten die afwisseling",
         ],

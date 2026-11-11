@@ -49,7 +49,7 @@ DEEL1 = [
         vraag="Hoe kan taal mensen insluiten?",
         opties=[
             "wie dezelfde taal deelt, voelt zich deel van de groep",
-            "wie correcter spreekt, krijgt vanzelf meer vrienden",
+            "wie correcter spreekt, krijgt vanzelf meer vrienden in de klas en daarbuiten",
             "wie meer woorden kent, begrijpt alles sneller",
             "wie standaardtaal spreekt, hoort overal bij",
         ],
@@ -92,7 +92,7 @@ DEEL1 = [
         vraag="Waarom is inzicht in stereotypering nuttig?",
         opties=[
             "je merkt op wanneer je zelf te snel oordeelt",
-            "je leert daardoor een tweede taal sneller",
+            "je leert daardoor een tweede taal veel sneller en beter",
             "je spelt daardoor minder woorden verkeerd",
             "je schrijft daardoor kortere zinnen",
         ],
@@ -146,7 +146,7 @@ DEEL1 = [
         vraag="Een gemeente herschrijft haar brieven in eenvoudige taal. Wat wil ze bereiken?",
         opties=[
             "meer inwoners kunnen de brief begrijpen",
-            "de brieven worden daardoor korter",
+            "de brieven worden daardoor korter en goedkoper om te drukken",
             "de brieven ogen daardoor officiëler",
             "de gemeente spaart daarmee op papier",
         ],
@@ -258,7 +258,7 @@ DEEL2 = [
         vraag="Waarom let je tijdens een gesprek op de lichaamstaal van je gesprekspartner?",
         opties=[
             "je ziet eraan hoe je boodschap aankomt",
-            "je weet daardoor hoeveel hij weet",
+            "je weet daardoor precies hoeveel hij al weet over het onderwerp",
             "je kan daardoor sneller spreken",
             "je hoeft dan niet meer te luisteren",
         ],
@@ -276,7 +276,7 @@ DEEL2 = [
         vraag="Iemand zegt 'alles is in orde' met een gespannen stem en afgewende blik. Wat doe je met die boodschap?",
         opties=[
             "je weegt de woorden tegen de signalen af",
-            "je houdt je strikt aan de woorden",
+            "je houdt je strikt aan de woorden die hij uitspreekt",
             "je negeert de woorden volledig",
             "je vraagt hem om zijn zin te herhalen",
         ],
@@ -391,7 +391,7 @@ DEEL2 = [
         vraag="Je merkt dat je gesprekspartner achteruit leunt en wegkijkt. Wat doe je?",
         opties=[
             "je past je tempo of je onderwerp aan",
-            "je gaat luider verder met hetzelfde",
+            "je gaat luider en nadrukkelijker verder met hetzelfde",
             "je stopt het gesprek onmiddellijk",
             "je negeert het en praat door",
         ],

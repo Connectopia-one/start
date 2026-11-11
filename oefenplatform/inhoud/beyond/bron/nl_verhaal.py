@@ -24,7 +24,7 @@ DEEL1 = [
         vraag="Wat is een antiheld?",
         opties=[
             "een hoofdpersoon zonder heldhaftige eigenschappen",
-            "het personage dat de held tegenwerkt",
+            "het personage dat de held tegenwerkt, de tegenspeler",
             "een personage dat enkel in de flashback voorkomt",
             "een held die op het einde sterft",
         ],
@@ -276,7 +276,7 @@ DEEL2 = [
         vraag="Wat is het verschil tussen thema en motief?",
         opties=[
             "het thema is waar het over gaat, het motief keert terug",
-            "het thema staat vooraan, het motief achteraan",
+            "het thema staat vooraan in het boek, het motief helemaal achteraan",
             "het thema is verzonnen, het motief is echt gebeurd",
             "er is geen verschil tussen die twee begrippen",
         ],
@@ -288,7 +288,7 @@ DEEL2 = [
         vraag="Wat is een motto?",
         opties=[
             "een citaat dat vooraan in het boek staat",
-            "het hoogtepunt van de spanning",
+            "het hoogtepunt van de spanning in het verhaal",
             "de terugkerende gedachte in het boek",
             "het laatste zinnetje van het verhaal",
         ],

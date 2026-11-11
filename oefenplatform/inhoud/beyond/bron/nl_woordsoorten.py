@@ -181,7 +181,7 @@ DEEL1 = [
         vraag="In 'de deur van het huis' is 'van':",
         opties=[
             "een voorzetsel",
-            "een voegwoord",
+            "een voegwoord dat twee delen verbindt",
             "een bijwoord",
             "een lidwoord",
         ],

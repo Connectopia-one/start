@@ -79,7 +79,7 @@ DEEL1 = [
         vraag="Een kort, kernachtig uitgedrukte levenswijsheid in één of twee zinnen. Welk genre is dat?",
         opties=[
             "het aforisme",
-            "de anekdote",
+            "de anekdote uit het dagelijks leven",
             "de parabel",
             "de novelle",
         ],
@@ -183,7 +183,7 @@ DEEL1 = [
         vraag="Wat is het verschil tussen een parodie en een satire?",
         opties=[
             "een parodie imiteert een stijl, een satire hekelt een misstand",
-            "een parodie is kort, een satire beslaat altijd een heel boek",
+            "een parodie is kort, een satire beslaat altijd een heel boek of toneelstuk",
             "een parodie is bitter, een satire is onschuldig",
             "een parodie is in verzen, een satire in proza",
         ],

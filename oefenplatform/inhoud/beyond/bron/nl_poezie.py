@@ -14,7 +14,7 @@ DEEL1 = [
         vraag="Uit hoeveel verzen bestaat een sonnet?",
         opties=[
             "veertien",
-            "twaalf",
+            "twaalf, in drie kwatrijnen",
             "zestien",
             "tien",
         ],
@@ -147,7 +147,7 @@ DEEL1 = [
         vraag="Wat is een ballade?",
         opties=[
             "een verhalend gedicht, vaak met een refrein",
-            "een gedicht van precies drie verzen",
+            "een gedicht van precies drie verzen, zoals een haiku",
             "een gedicht zonder enig rijm",
             "een gedicht dat een voorwerp beschrijft",
         ],
@@ -183,7 +183,7 @@ DEEL1 = [
         vraag="Een rondeel valt op doordat?",
         opties=[
             "bepaalde verzen letterlijk terugkeren",
-            "er geen enkel rijmwoord in staat",
+            "er geen enkel rijmwoord in staat, van begin tot eind",
             "elk vers met dezelfde letter begint",
             "het altijd over de liefde gaat",
         ],
@@ -210,7 +210,7 @@ DEEL2 = [
         vraag="Wat is eindrijm?",
         opties=[
             "de laatste klanken van verzen die overeenkomen",
-            "de beginletters van woorden die overeenkomen",
+            "de beginletters van woorden die in één vers overeenkomen",
             "het aantal lettergrepen per vers",
             "de wending in het midden van een gedicht",
         ],
@@ -222,7 +222,7 @@ DEEL2 = [
         vraag="Wat is alliteratie?",
         opties=[
             "dezelfde beginklank bij opeenvolgende woorden",
-            "dezelfde eindklank bij opeenvolgende verzen",
+            "dezelfde eindklank bij opeenvolgende verzen van een strofe",
             "dezelfde klinker midden in de woorden",
             "dezelfde zin die telkens herhaald wordt",
         ],
@@ -342,7 +342,7 @@ DEEL2 = [
         vraag="In een gedicht staat: 'de wind / draagt wat de bomen / niet meer houden'. Wat valt op aan de vorm?",
         opties=[
             "de zin loopt over de versgrenzen heen",
-            "er is een strak rijmschema gebruikt",
+            "er is een strak rijmschema gebruikt, zoals aabb",
             "er staan vier verzen in deze strofe",
             "elk vers begint met dezelfde klank",
         ],
@@ -379,7 +379,7 @@ DEEL2 = [
         vraag="Waarom is het nuttig om een gedicht hardop te lezen?",
         opties=[
             "klank en ritme komen pas dan tot hun recht",
-            "je leest het dan automatisch sneller uit",
+            "je leest het dan automatisch sneller uit, zonder te haperen",
             "je hoeft de woorden dan niet te begrijpen",
             "je ziet dan hoeveel strofen er zijn",
         ],

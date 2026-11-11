@@ -24,7 +24,7 @@ DEEL1 = [
         vraag="Wat bedoelt men met vlotheid bij een spreekopdracht?",
         opties=[
             "je spreekt door zonder lange haperingen",
-            "je spreekt zo snel mogelijk",
+            "je spreekt zo snel mogelijk, zonder pauzes",
             "je gebruikt zo weinig mogelijk woorden",
             "je leest je tekst letterlijk voor",
         ],
@@ -60,7 +60,7 @@ DEEL1 = [
         vraag="Wat is het risico van je spreekbeurt volledig uitschrijven en voorlezen?",
         opties=[
             "je klinkt monotoon en verliest je publiek",
-            "je tekst wordt dan te kort",
+            "je tekst wordt dan veel te kort voor de tijd die je krijgt",
             "je maakt dan meer spelfouten",
             "je mag dan geen kernwoorden gebruiken",
         ],
@@ -90,7 +90,7 @@ DEEL1 = [
         vraag="Wat betekent intonatie?",
         opties=[
             "de melodie en de klemtoon in je zinnen",
-            "de snelheid waarmee je iets vertelt",
+            "de snelheid waarmee je iets vertelt, in woorden per minuut",
             "het volume van je stem",
             "de houding van je lichaam",
         ],
@@ -114,7 +114,7 @@ DEEL1 = [
         vraag="Je houdt een spreekbeurt over een maatschappelijk thema. Waarmee begin je het best?",
         opties=[
             "een inleiding die je onderwerp aankondigt",
-            "je besluit, zodat iedereen het al weet",
+            "je besluit, zodat iedereen meteen al weet waar je naartoe wil",
             "een lange opsomming van je bronnen",
             "een verontschuldiging voor je zenuwen",
         ],
@@ -144,7 +144,7 @@ DEEL1 = [
         vraag="Je merkt dat je publiek je niet volgt. Wat doe je?",
         opties=[
             "je herneemt het punt in andere woorden",
-            "je praat gewoon sneller verder",
+            "je praat gewoon wat sneller verder naar het einde",
             "je slaat de rest van je tekst over",
             "je begint je spreekbeurt opnieuw",
         ],
@@ -387,7 +387,7 @@ DEEL2 = [
         vraag="Waarom oefen je een spreekopdracht het best hardop?",
         opties=[
             "je hoort waar je struikelt en hoe lang je spreekt",
-            "je leert je tekst daardoor woordelijk vanbuiten",
+            "je leert je tekst daardoor woordelijk en foutloos vanbuiten",
             "je spreektempo wordt daardoor altijd hoger",
             "je hoeft dan geen kernwoorden meer te maken",
         ],

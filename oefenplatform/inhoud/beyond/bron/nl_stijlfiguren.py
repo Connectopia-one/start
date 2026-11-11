@@ -51,7 +51,7 @@ DEEL1 = [
         vraag="Wat is synesthesie?",
         opties=[
             "twee zintuigen door elkaar gebruiken in één beeld",
-            "twee zinnen die hetzelfde bouwpatroon volgen",
+            "twee zinnen die precies hetzelfde bouwpatroon volgen, na elkaar",
             "twee woorden die tegengesteld zijn aan elkaar",
             "twee betekenissen die in één woord samenvallen",
         ],
@@ -147,7 +147,7 @@ DEEL1 = [
         vraag="'Zij is zo stil als een steen.' Welke stijlfiguur is dat?",
         opties=[
             "een vergelijking",
-            "een metafoor",
+            "een metafoor, want het is beeldspraak",
             "een hyperbool",
             "een paradox",
         ],
@@ -183,7 +183,7 @@ DEEL1 = [
         vraag="Een reclame noemt een auto 'een roofdier op vier wielen'. Welke stijlfiguur?",
         opties=[
             "een metafoor",
-            "een litotes",
+            "een litotes, want het zwakt af",
             "een ellips",
             "een anafoor",
         ],
@@ -246,7 +246,7 @@ DEEL2 = [
         vraag="Wat is een antithese?",
         opties=[
             "twee tegengestelde zaken naast elkaar zetten",
-            "twee zinnen met dezelfde bouw na elkaar",
+            "twee zinnen met dezelfde bouw vlak na elkaar",
             "twee zinsdelen in omgekeerde volgorde",
             "twee betekenissen in één woord",
         ],
@@ -277,7 +277,7 @@ DEEL2 = [
         vraag="Wat is een chiasme?",
         opties=[
             "de volgorde van de zinsdelen wordt gespiegeld",
-            "de eerste woorden worden telkens herhaald",
+            "de eerste woorden van elk vers worden telkens letterlijk herhaald",
             "de zin eindigt zonder werkwoord",
             "de zin bevat een verborgen woordspeling",
         ],
@@ -313,7 +313,7 @@ DEEL2 = [
         vraag="'Ik sterf van de honger.' Welke stijlfiguur?",
         opties=[
             "een hyperbool",
-            "een litotes",
+            "een litotes, want het zwakt af",
             "een paradox",
             "een chiasme",
         ],

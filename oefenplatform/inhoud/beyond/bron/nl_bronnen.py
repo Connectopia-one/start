@@ -25,7 +25,7 @@ DEEL1 = [
         vraag="Een artikel vermeldt geen enkele auteur. Wat besluit je daaruit?",
         opties=[
             "het is een reden tot wantrouwen, geen bewijs",
-            "het artikel is zeker nepnieuws",
+            "het artikel is dan zeker nepnieuws en mag weg",
             "het artikel is zeker betrouwbaar",
             "het maakt niets uit voor de beoordeling",
         ],
@@ -91,7 +91,7 @@ DEEL1 = [
         vraag="Wat is het verschil tussen propaganda en reclame?",
         opties=[
             "propaganda wil je denken sturen, reclame je koopgedrag",
-            "propaganda is altijd onwaar, reclame altijd waar",
+            "propaganda is altijd onwaar, reclame is altijd waar en gecontroleerd",
             "propaganda staat in kranten, reclame op televisie",
             "propaganda noemt nooit een auteur, reclame wel",
         ],
