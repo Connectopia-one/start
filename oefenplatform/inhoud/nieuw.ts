@@ -41,6 +41,12 @@ export const nieuwTekst = {
 export const updates: Update[] = [
   {
     datum: "11 november 2026",
+    titel: "Eén leerbundel per vak in Basis",
+    tekst:
+      "Bij Frans, Nederlands en wiskunde in Basis staat nu één leerbundel die alle onderwerpen van dat vak samenzet. Loop je vast bij een oefening, dan zoek je het onderwerp op en vind je er kort de uitleg en een voorbeeld. Je vindt de bundel bij elk hoofdstuk van het vak.",
+  },
+  {
+    datum: "11 november 2026",
     titel: "Pittige hoofdstukken bij wiskunde basis",
     tekst:
       "Bij elk onderwerp van wiskunde basis voor Beyond doorstroom staat nu ook een pittig hoofdstuk met 30 moeilijkere vragen, zoals op het examen: klikken op een grafiek, een kansboom of een kruistabel, een samenvattende tabel invullen, en casussen met meerdere vragen. Ook de onderwerpen voor bedrijfswetenschappen kregen er een. Alle grafieken zijn zelf getekend. En in de Begrippenarena Wiskunde staat een nieuw niveau wiskunde basis, met ruim tachtig begrippen om spelend te herhalen.",
