@@ -55,6 +55,13 @@ export const updates: Update[] = [
   },
   {
     datum: "11 november 2026",
+    titel: "Duidelijkere uitleg bij verzamelingen",
+    tekst:
+      "Bij verzamelingen staat nu uitgelegd dat de schuine streep door het teken voor 'is geen element van' erbij hoort en 'niet' betekent. Bij de doorsnede van de even getallen en de veelvouden van 3 staat het kleinste gemeenschappelijk veelvoud nu in gewone woorden uitgelegd.",
+    opVraag: true,
+  },
+  {
+    datum: "11 november 2026",
     titel: "Nieuw hoofdstuk: werken met Geopunt",
     tekst:
       "Bij aardrijkskunde Spark staat een nieuw hoofdstuk over Geopunt, de online kaart van Vlaanderen. In 26 vragen leer je een adres zoeken, kaartlagen aanzetten en afstanden meten. Bij een aantal vragen klik je zelf op de juiste knop in een echt Geopunt-scherm.",

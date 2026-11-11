@@ -179,7 +179,7 @@ DEEL2 = [
         vraag=r"Wat is de doorsnede van de even getallen en de veelvouden van \(3\)?",
         opties=[r"De veelvouden van \(6\)", r"De veelvouden van \(2\)", "De lege verzameling"],
         antwoord=0,
-        uitleg=r"Een getal dat door \(2\) én door \(3\) deelbaar is, is deelbaar door \(6\): \(6\), \(12\), \(18\) … Dat is meteen het kleinste gemeenschappelijk veelvoud aan het werk.",
+        uitleg=r"Een getal dat door \(2\) én door \(3\) deelbaar is, is deelbaar door \(6\): \(6\), \(12\), \(18\) … \(6\) is het kleinste gemeenschappelijk veelvoud van \(2\) en \(3\): het kleinste getal dat in allebei de tafels zit.",
     ),
     dict(
         type="meerkeuze",
@@ -300,7 +300,7 @@ DEEL2 = [
         vraag=r"Hoe schrijf je wiskundig dat \(5\) niet in \(A\) zit?",
         opties=[r"\(5 \notin A\)", r"\(5 \in A\)", r"\(5 \not\subset A\)"],
         antwoord=0,
-        uitleg=r"Een streep door een teken betekent de ontkenning: \(\notin\) is 'is geen element van'. Het teken \(\not\subset\) gebruik je tussen twee verzamelingen.",
+        uitleg=r"Het teken \(\notin\) is het teken \(\in\) met een schuine streep erdoor. Die streep hoort erbij en betekent 'niet': \(5 \notin A\) lees je als '5 is geen element van A'. Het teken \(\not\subset\) gebruik je tussen twee verzamelingen.",
     ),
     dict(
         type="meerkeuze",
