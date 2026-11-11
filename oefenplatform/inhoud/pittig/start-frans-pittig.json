@@ -1,0 +1,1159 @@
+{
+  "hoofdstukken": [
+    {
+      "titel": "Woorden voor elke dag — pittig",
+      "niveau": "start",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Vandaag is het mercredi. Welke dag was het hier?",
+          "opties": [
+            "mardi",
+            "jeudi",
+            "lundi",
+            "vendredi"
+          ],
+          "antwoord": 0,
+          "uitleg": "Hier is gisteren. De dag vóór mercredi (woensdag) is mardi (dinsdag)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Demain, c'est samedi. Welke dag is het aujourd'hui?",
+          "opties": [
+            "dimanche",
+            "jeudi",
+            "vendredi",
+            "samedi"
+          ],
+          "antwoord": 2,
+          "uitleg": "Demain is morgen. Als morgen samedi (zaterdag) is, dan is het vandaag vendredi (vrijdag)."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Reken uit en schrijf het antwoord in het Frans: douze plus quatre.",
+          "antwoord": "seize",
+          "uitleg": "Douze is 12 en quatre is 4. Samen is dat 16, en 16 is seize."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Reken uit en schrijf het antwoord in het Frans: vingt min trois.",
+          "antwoord": [
+            "dix-sept",
+            "dix sept"
+          ],
+          "uitleg": "Vingt is 20. 20 min 3 is 17, en 17 schrijf je als dix-sept: tien-zeven, met een streepje."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk getal past niet in dit rijtje: deux, six, neuf, dix?",
+          "opties": [
+            "deux",
+            "six",
+            "neuf",
+            "dix"
+          ],
+          "antwoord": 2,
+          "uitleg": "Deux (2), six (6) en dix (10) zijn even getallen. Neuf (9) is oneven."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Cinquante is meer dan drie keer zo groot als quinze.",
+          "antwoord": true,
+          "uitleg": "Quinze is 15 en drie keer 15 is 45. Cinquante is 50, en dat is meer dan 45."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je mengt rouge en blanc. Welke kleur krijg je?",
+          "opties": [
+            "rose",
+            "gris",
+            "jaune",
+            "vert"
+          ],
+          "antwoord": 0,
+          "uitleg": "Rood (rouge) en wit (blanc) samen geeft roze: rose. Grijs (gris) krijg je met zwart en wit."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In 'une voiture verte' staat er een e achter vert. Wat vertelt die e je?",
+          "opties": [
+            "dat er meer dan één auto op straat staat",
+            "dat voiture een vrouwelijk woord is",
+            "dat de auto heel lichtgroen is",
+            "dat vert hier een werkwoord is"
+          ],
+          "antwoord": 1,
+          "uitleg": "Bij een vrouwelijk woord krijgt de kleur meestal een e: un chien vert, une voiture verte."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In welk seizoen vallen zowel juin als août?",
+          "opties": [
+            "le printemps",
+            "l'automne",
+            "l'hiver",
+            "l'été"
+          ],
+          "antwoord": 3,
+          "uitleg": "Juin, juillet en août zijn de zomermaanden: l'été."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke maand komt twee maanden na novembre?",
+          "opties": [
+            "décembre",
+            "février",
+            "janvier",
+            "octobre"
+          ],
+          "antwoord": 2,
+          "uitleg": "Na novembre komt décembre, en daarna begint het nieuwe jaar met janvier."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Mars komt vlak vóór avril, en mai komt vlak na avril.",
+          "antwoord": true,
+          "uitleg": "De volgorde is mars, avril, mai: maart, april, mei."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Wie in février jarig is, verjaart in de lente, le printemps.",
+          "antwoord": false,
+          "uitleg": "Février (februari) valt nog in de winter, l'hiver. De lente begint pas in mars."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Het is negen uur 's avonds en je gaat slapen. Wat zeg je tegen je ouders?",
+          "opties": [
+            "Bonjour !",
+            "Bonne nuit !",
+            "Au revoir !",
+            "Salut !"
+          ],
+          "antwoord": 1,
+          "uitleg": "Bonne nuit zeg je voor het slapengaan. Bonsoir is voor 's avonds als je iemand ziet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je stapt om zeven uur 's avonds een winkel binnen. Hoe groet je de verkoopster?",
+          "opties": [
+            "Bonsoir, madame !",
+            "Bonne nuit, madame !",
+            "Au revoir, madame !",
+            "Salut, madame !"
+          ],
+          "antwoord": 0,
+          "uitleg": "Als het avond is, zeg je bonsoir. Salut zeg je alleen tegen mensen die je goed kent, en au revoir bij het weggaan."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Tegen een verkoper die je niet kent, zeg je bij het binnenkomen best 'Salut !'.",
+          "antwoord": false,
+          "uitleg": "Salut is voor mensen die je goed kent. Tegen een onbekende zeg je bonjour of bonsoir."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je vraagt iets aan je beste vriend. Welke woorden passen daar het best bij?",
+          "opties": [
+            "s'il vous plaît",
+            "de rien",
+            "s'il te plaît",
+            "je vous en prie"
+          ],
+          "antwoord": 2,
+          "uitleg": "Tegen een vriend zeg je s'il te plaît. S'il vous plaît is de beleefde vorm, voor volwassenen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Iemand zegt 'Merci beaucoup !'. Welk antwoord is het beleefdst?",
+          "opties": [
+            "Au revoir.",
+            "Bonne nuit.",
+            "S'il te plaît.",
+            "Je vous en prie."
+          ],
+          "antwoord": 3,
+          "uitleg": "Op merci antwoord je met de rien of, wat beleefder, je vous en prie: graag gedaan."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul de reeks aan met één Frans woord: trente, quarante, cinquante, ...",
+          "antwoord": "soixante",
+          "uitleg": "De tientallen zijn trente (30), quarante (40), cinquante (50) en dan soixante (60)."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Douze is twee meer dan dix.",
+          "antwoord": true,
+          "uitleg": "Dix is 10 en douze is 12. Het verschil is dus 2."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Welk Frans woord betekent morgen? Het is het tegengestelde van hier.",
+          "antwoord": "demain",
+          "uitleg": "Hier is gisteren, aujourd'hui is vandaag en demain is morgen."
+        }
+      ]
+    },
+    {
+      "titel": "Mezelf voorstellen — pittig",
+      "niveau": "start",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin over je leeftijd is helemaal juist?",
+          "opties": [
+            "Je suis dix ans.",
+            "J'ai dix.",
+            "J'ai dix ans.",
+            "Je suis dix."
+          ],
+          "antwoord": 2,
+          "uitleg": "Je leeftijd zeg je met avoir én met het woord ans: j'ai dix ans, ik heb tien jaar."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Lina is een meisje uit Frankrijk. Wat zegt ze over zichzelf?",
+          "opties": [
+            "Je suis français.",
+            "Je suis française.",
+            "J'ai française.",
+            "Je m'appelle française."
+          ],
+          "antwoord": 1,
+          "uitleg": "Een nationaliteit gaat met être. Lina is een meisje, dus komt er een e achter: française."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan met één woord: 'Je m'appelle Noor et j'ai onze ...'",
+          "antwoord": "ans",
+          "uitleg": "Bij je leeftijd mag het woord ans (jaar) niet ontbreken: j'ai onze ans."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je zus heet Julie. Hoe stel je haar voor?",
+          "opties": [
+            "Mon sœur s'appelle Julie.",
+            "Mes sœur s'appelle Julie.",
+            "Ma sœur m'appelle Julie.",
+            "Ma sœur s'appelle Julie."
+          ],
+          "antwoord": 3,
+          "uitleg": "Sœur is vrouwelijk, dus ma. En het is zij die heet, dus s'appelle en niet m'appelle."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk woordje zet je voor 'parents'?",
+          "opties": [
+            "mon",
+            "ma",
+            "mes",
+            "me"
+          ],
+          "antwoord": 2,
+          "uitleg": "Parents zijn er meer dan één, dus mes: mes parents, mijn ouders."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Met 'Je viens de Belgique' vertel je waar je naartoe gaat.",
+          "antwoord": false,
+          "uitleg": "Je viens de … betekent ik kom uit … Het gaat dus over waar je vandaan komt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Iemand zegt: 'J'habite à Liège, mais je viens de Gand.' Wat weet je nu?",
+          "opties": [
+            "Hij woont in Gent en komt uit Luik.",
+            "Hij woont in Luik en komt uit Gent.",
+            "Hij gaat van Luik naar Gent.",
+            "Hij woont in Gent en in Luik."
+          ],
+          "antwoord": 1,
+          "uitleg": "J'habite à … is waar je woont, je viens de … is waar je vandaan komt. Mais betekent maar."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Tegen wie zeg je 'vous'?",
+          "opties": [
+            "tegen je kleine broer van zes jaar",
+            "tegen je beste vriendin",
+            "tegen de directeur van je school",
+            "tegen je eigen mama"
+          ],
+          "antwoord": 2,
+          "uitleg": "Vous is beleefd, voor volwassenen die je niet goed kent. Tegen familie en vrienden zeg je tu."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een meisje ontmoet je voor het eerst en schrijft 'Enchanté'. Welke letter moet zij er nog achter zetten?",
+          "antwoord": "e",
+          "uitleg": "Een meisje schrijft enchantée, met een e erbij, net zoals bij française."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In 'Je m'appelle' staat er een apostrof omdat appelle met een klinker begint.",
+          "antwoord": true,
+          "uitleg": "Me wordt m' voor een klinker: je m'appelle. Je me appelle schrijf je nooit."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je wil weten of je nieuwe klasgenoot broers en zussen heeft. Wat vraag je?",
+          "opties": [
+            "Tu es des frères et sœurs ?",
+            "Tu as des parents ?",
+            "Tu t'appelles frère ?",
+            "Tu as des frères et sœurs ?"
+          ],
+          "antwoord": 3,
+          "uitleg": "Tu as …? is heb jij …? Met tu es vraag je wie iemand is, niet wat hij heeft."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Iemand antwoordt op 'Ça va ?' met 'Ça va mal.' Wat bedoelt hij?",
+          "opties": [
+            "Het gaat niet goed.",
+            "Het gaat heel goed.",
+            "Hij heet Mal.",
+            "Hij is te laat."
+          ],
+          "antwoord": 0,
+          "uitleg": "Ça va bien is het gaat goed, ça va mal is het gaat niet goed."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "'Mes frères' betekent dat je meer dan één broer hebt.",
+          "antwoord": true,
+          "uitleg": "Mes zet je voor meer dan één: mes frères zijn je broers."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Je schrijft 'mon mère', want mère eindigt op een e.",
+          "antwoord": false,
+          "uitleg": "Mère is vrouwelijk, dus ma mère. Het gaat om het geslacht van het woord, niet om de laatste letter."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin betekent 'Ik ben Belg en ik woon in Hasselt'?",
+          "opties": [
+            "J'ai belge et j'habite à Hasselt.",
+            "Je suis belge et j'habite à Hasselt.",
+            "Je suis belge et je viens à Hasselt.",
+            "Je suis belge et j'ai Hasselt."
+          ],
+          "antwoord": 1,
+          "uitleg": "Een nationaliteit gaat met être (je suis belge) en wonen is habiter (j'habite à)."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul het ontbrekende woord in: 'Mon père et ma mère, ce sont mes ...'",
+          "antwoord": "parents",
+          "uitleg": "Je vader en je moeder samen zijn je ouders: mes parents."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Tom zegt: 'J'ai onze ans.' Zijn broer is twee jaar ouder. Wat zegt die broer?",
+          "opties": [
+            "J'ai neuf ans.",
+            "J'ai douze ans.",
+            "Je suis treize ans.",
+            "J'ai treize ans."
+          ],
+          "antwoord": 3,
+          "uitleg": "Onze is 11, twee jaar ouder is 13: treize. En je leeftijd zeg je met avoir: j'ai treize ans."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "'Enchanté' zeg je elke ochtend tegen je mama.",
+          "antwoord": false,
+          "uitleg": "Enchanté betekent aangenaam en zeg je alleen als je iemand voor het eerst ontmoet."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: 'Ma ... s'appelle Emma.' (mijn zus)",
+          "antwoord": [
+            "sœur",
+            "soeur"
+          ],
+          "uitleg": "Zus is sœur, met de letter œ. Ze is vrouwelijk, daarom staat er ma voor."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk antwoord past bij de vraag 'Comment tu t'appelles ?'",
+          "opties": [
+            "J'ai onze ans.",
+            "Je m'appelle Sam.",
+            "J'habite à Genk.",
+            "Ça va bien."
+          ],
+          "antwoord": 1,
+          "uitleg": "Comment tu t'appelles vraagt hoe je heet. Je antwoordt met je m'appelle en je naam."
+        }
+      ]
+    },
+    {
+      "titel": "Être en avoir — pittig",
+      "niveau": "start",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin betekent 'Zij hebben een zus' over twee meisjes?",
+          "opties": [
+            "Elles sont une sœur.",
+            "Elle a une sœur.",
+            "Elles ont une sœur.",
+            "Elles avez une sœur."
+          ],
+          "antwoord": 2,
+          "uitleg": "Hebben is avoir. Bij elles (meer dan één meisje) hoort ont."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In welke zin staat er een fout?",
+          "opties": [
+            "Il est gentil.",
+            "Tu est gentil.",
+            "Elle est gentille.",
+            "Tu es gentil."
+          ],
+          "antwoord": 1,
+          "uitleg": "Bij tu hoort es, zonder t. Est met t hoort bij il en elle."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: 'Nous ... soif.' (wij hebben dorst)",
+          "antwoord": "avons",
+          "uitleg": "Dorst hebben gaat met avoir, en bij nous hoort avons."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: 'Vous ... chaud ?' (hebben jullie het warm?)",
+          "antwoord": "avez",
+          "uitleg": "Het warm hebben gaat in het Frans met avoir. Bij vous hoort avez."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke vorm hoort in de zin 'Je ... fatigué.'?",
+          "opties": [
+            "suis",
+            "ai",
+            "es",
+            "a"
+          ],
+          "antwoord": 0,
+          "uitleg": "Moe zijn is een toestand, dus être. Bij je hoort suis: je suis fatigué."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke vorm hoort in de zin 'Elle ... douze ans.'?",
+          "opties": [
+            "est",
+            "as",
+            "a",
+            "es"
+          ],
+          "antwoord": 2,
+          "uitleg": "Je leeftijd gaat met avoir. Bij elle hoort a: elle a douze ans."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "'Ils sont' en 'ils ont' verschillen maar één letter, maar ze betekenen iets anders.",
+          "antwoord": true,
+          "uitleg": "Ils sont is zij zijn, ils ont is zij hebben. Eén letter s maakt het verschil."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In 'Tu as faim' gebruik je het werkwoord être.",
+          "antwoord": false,
+          "uitleg": "As is een vorm van avoir. Honger hebben gaat in het Frans met avoir."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe zeg je 'Wij zijn te laat'?",
+          "opties": [
+            "Nous avons en retard.",
+            "Nous sont en retard.",
+            "Nous êtes en retard.",
+            "Nous sommes en retard."
+          ],
+          "antwoord": 3,
+          "uitleg": "Te laat zijn gaat met être, en bij nous hoort sommes."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke twee dingen zeg je in het Frans allebei met avoir?",
+          "opties": [
+            "moe zijn en blij zijn",
+            "honger en je leeftijd",
+            "lief zijn en te laat zijn",
+            "Belg zijn en blij zijn"
+          ],
+          "antwoord": 1,
+          "uitleg": "Honger, dorst, koud, warm, gelijk en je leeftijd gaan met avoir. Moe, blij, lief en te laat gaan met être."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: 'Les enfants ... contents.' (de kinderen zijn blij)",
+          "antwoord": "sont",
+          "uitleg": "De kinderen zijn meer dan één, dus ils. Blij zijn gaat met être: ils sont."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je wil zeggen: 'Mijn broer heeft gelijk.' Welke zin klopt?",
+          "opties": [
+            "Mon frère est raison.",
+            "Mon frère as raison.",
+            "Mon frère a raison.",
+            "Ma frère a raison."
+          ],
+          "antwoord": 2,
+          "uitleg": "Gelijk hebben gaat met avoir. Mon frère is hij, dus a. Frère is mannelijk, dus mon."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "'Vous êtes' en 'vous avez' horen allebei bij vous.",
+          "antwoord": true,
+          "uitleg": "Vous êtes is jullie zijn (être), vous avez is jullie hebben (avoir)."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij je schrijf je j'ai, omdat ai met een klinker begint.",
+          "antwoord": true,
+          "uitleg": "Je wordt j' voor een klinker: j'ai, j'habite."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Mon père et moi: dat is nous. Welke vorm van être hoort erbij?",
+          "opties": [
+            "sont",
+            "sommes",
+            "êtes",
+            "est"
+          ],
+          "antwoord": 1,
+          "uitleg": "Je vader en jij samen zijn wij, nous. Bij nous hoort sommes."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Om 'ik heb het warm' te zeggen, zeg je 'je suis chaud'.",
+          "antwoord": false,
+          "uitleg": "Het warm hebben gaat met avoir: j'ai chaud."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin zegt hoe iemand is, en gaat dus met être?",
+          "opties": [
+            "Il a faim.",
+            "Il a onze ans.",
+            "Il a froid.",
+            "Il est gentil."
+          ],
+          "antwoord": 3,
+          "uitleg": "Lief zijn is een eigenschap, dus être. Honger, leeftijd en koud gaan met avoir."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: 'Tu ... froid ?' (heb je het koud?)",
+          "antwoord": "as",
+          "uitleg": "Koud hebben gaat met avoir. Bij tu hoort as."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel van deze zinnen zijn juist? 'Je suis faim.' 'Il a douze ans.' 'Nous sommes fatigués.'",
+          "opties": [
+            "één",
+            "drie",
+            "twee",
+            "geen enkele"
+          ],
+          "antwoord": 2,
+          "uitleg": "Je suis faim is fout, want honger gaat met avoir: j'ai faim. De twee andere zinnen kloppen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "'Elles sont' gebruik je als je het over één meisje hebt.",
+          "antwoord": false,
+          "uitleg": "Over één meisje zeg je elle est. Elles sont is voor meer dan één meisje."
+        }
+      ]
+    },
+    {
+      "titel": "De tegenwoordige tijd — pittig",
+      "niveau": "start",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke vorm van jouer hoort bij nous?",
+          "opties": [
+            "jouez",
+            "jouons",
+            "jouent",
+            "joues"
+          ],
+          "antwoord": 1,
+          "uitleg": "Haal -er weg en plak er -ons achter: nous jouons."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: 'Vous ... français ?' (van parler: spreken jullie Frans?)",
+          "antwoord": "parlez",
+          "uitleg": "Bij vous krijgt een werkwoord op -er de uitgang -ez: vous parlez."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: 'Ils ... une pomme.' (van manger)",
+          "antwoord": "mangent",
+          "uitleg": "Bij ils krijgt een werkwoord op -er de uitgang -ent: ils mangent."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke twee vormen klinken hetzelfde?",
+          "opties": [
+            "nous parlons en vous parlez",
+            "je parle en nous parlons",
+            "il parle en ils parlent",
+            "tu parles en vous parlez"
+          ],
+          "antwoord": 2,
+          "uitleg": "De uitgang -ent hoor je niet, dus ils parlent klinkt net als il parle."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In welke zin ontbreekt er een letter?",
+          "opties": [
+            "Je regarde la télé.",
+            "Elle regarde la télé.",
+            "Il regarde la télé.",
+            "Tu regarde la télé."
+          ],
+          "antwoord": 3,
+          "uitleg": "Bij tu krijgt het werkwoord een s: tu regardes."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "'Je vais jouer' betekent ik ga spelen: iets wat straks gebeurt.",
+          "antwoord": true,
+          "uitleg": "Aller plus een werkwoord is de nabije toekomst: je vais jouer, ik ga spelen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe zeg je 'Jullie gaan naar school'?",
+          "opties": [
+            "Vous allons à l'école.",
+            "Vous allez à l'école.",
+            "Vous vont à l'école.",
+            "Vous faites à l'école."
+          ],
+          "antwoord": 1,
+          "uitleg": "Gaan is aller, en bij vous hoort allez."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: 'Tu ... au parc ?' (van aller: ga jij naar het park?)",
+          "antwoord": "vas",
+          "uitleg": "Aller is onregelmatig: je vais, tu vas, il va."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke vorm van faire hoort bij vous?",
+          "opties": [
+            "font",
+            "fais",
+            "faites",
+            "faisez"
+          ],
+          "antwoord": 2,
+          "uitleg": "Vous faites is een uitzondering: geen -ez zoals bij de werkwoorden op -er."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "'Il fait beau' betekent hij maakt iets moois.",
+          "antwoord": false,
+          "uitleg": "Over het weer zegt het Frans il fait: il fait beau is het is mooi weer."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent 'Il fait froid et nous allons à la maison'?",
+          "opties": [
+            "Hij maakt het koud en we gaan naar huis.",
+            "Het is koud en jullie gaan naar huis.",
+            "Het is warm en we blijven thuis.",
+            "Het is koud en we gaan naar huis."
+          ],
+          "antwoord": 3,
+          "uitleg": "Il fait froid gaat over het weer: het is koud. Nous allons is wij gaan."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: 'Mes parents ... la cuisine.' (van faire)",
+          "antwoord": "font",
+          "uitleg": "Mijn ouders zijn ils, en bij ils hoort de vorm font."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "'Tu vas' en 'il va' zijn allebei vormen van aller.",
+          "antwoord": true,
+          "uitleg": "Aller gaat zo: je vais, tu vas, il va, nous allons, vous allez, ils vont."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin gaat over iets wat straks gebeurt?",
+          "opties": [
+            "Je regarde la télé.",
+            "Je vais regarder la télé.",
+            "Il fait froid à la maison.",
+            "Nous parlons français."
+          ],
+          "antwoord": 1,
+          "uitleg": "Je vais regarder is ik ga kijken: aller plus een werkwoord is de nabije toekomst."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke vorm bestaat niet?",
+          "opties": [
+            "ils vont",
+            "nous allons",
+            "ils allent",
+            "vous allez"
+          ],
+          "antwoord": 2,
+          "uitleg": "Aller is onregelmatig. Bij ils is het ils vont; ils allent bestaat niet."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij een werkwoord op -er krijgen je en il dezelfde uitgang.",
+          "antwoord": true,
+          "uitleg": "Je parle en il parle eindigen allebei op -e."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: 'J'... la radio.' (van écouter)",
+          "antwoord": [
+            "écoute",
+            "ecoute"
+          ],
+          "uitleg": "Je wordt j' voor een klinker. Bij je krijgt het werkwoord een e: j'écoute."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Ma sœur et moi: welke vorm van aller hoort erbij?",
+          "opties": [
+            "vont",
+            "allez",
+            "va",
+            "allons"
+          ],
+          "antwoord": 3,
+          "uitleg": "Je zus en jij samen zijn wij, nous. Bij nous hoort allons."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "'Vous faites' en 'vous parlez' eindigen allebei op -ez.",
+          "antwoord": false,
+          "uitleg": "Vous parlez eindigt op -ez, maar faire heeft een eigen vorm: vous faites."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In 'ils parlent' spreek je de -ent achteraan duidelijk uit.",
+          "antwoord": false,
+          "uitleg": "De uitgang -ent schrijf je wel, maar je hoort hem niet."
+        }
+      ]
+    },
+    {
+      "titel": "Zinnen bouwen — pittig",
+      "niveau": "start",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe maak je 'J'ai un chat' ontkennend?",
+          "opties": [
+            "Je n'ai pas un chat.",
+            "Je n'ai pas de chat.",
+            "Je ne ai pas de chat.",
+            "Je n'ai de chat pas."
+          ],
+          "antwoord": 1,
+          "uitleg": "Ne wordt n' voor een klinker, en na een ontkenning wordt un meestal de."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk lidwoord zet je voor 'école'?",
+          "opties": [
+            "le",
+            "la",
+            "l'",
+            "les"
+          ],
+          "antwoord": 2,
+          "uitleg": "École begint met een klinker. Dan wordt le of la tot l': l'école."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul un of une in: '... voiture rouge'",
+          "antwoord": "une",
+          "uitleg": "Voiture is vrouwelijk, want je zegt la voiture. Dus une voiture."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke woorden betekenen 'een zwarte hond'?",
+          "opties": [
+            "un noir chien",
+            "une chien noire",
+            "un chien noire",
+            "un chien noir"
+          ],
+          "antwoord": 3,
+          "uitleg": "Een kleur staat achter het woord. Chien is mannelijk, dus un en noir zonder e."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke woorden betekenen 'een groene tafel'?",
+          "opties": [
+            "une table verte",
+            "une table vert",
+            "un table verte",
+            "une verte table"
+          ],
+          "antwoord": 0,
+          "uitleg": "Table is vrouwelijk: une table. De kleur staat erachter en krijgt een e: verte."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In 'Je ne parle pas' staat het werkwoord tussen ne en pas.",
+          "antwoord": true,
+          "uitleg": "Ne … pas zet je rond het werkwoord: ne parle pas."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Maak een vraag van 'Tu as un frère.'",
+          "opties": [
+            "Est-ce tu as un frère ?",
+            "Est-ce que tu as un frère ?",
+            "Tu est-ce que as un frère ?",
+            "Est-ce que tu as un frère."
+          ],
+          "antwoord": 1,
+          "uitleg": "Zet est-ce que vooraan, laat de rest staan en eindig met een spatie en een vraagteken."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: '... est-ce que tu habites ?' (waar woon je?)",
+          "antwoord": [
+            "où",
+            "ou"
+          ],
+          "uitleg": "Waar is où, met een accent op de u."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is er fout aan 'Elle ne mange pas une pomme.'?",
+          "opties": [
+            "Ne moet hier n' worden.",
+            "Pas moet vóór mange staan.",
+            "Na ne … pas hoort de, niet une.",
+            "Er mag geen ne in staan."
+          ],
+          "antwoord": 2,
+          "uitleg": "Na een ontkenning wordt un of une meestal de: elle ne mange pas de pomme."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In 'Il n'a pas de chien' wordt ne tot n', omdat a een klinker is.",
+          "antwoord": true,
+          "uitleg": "Ne wordt n' voor een klinker: il n'a pas."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In het Frans zet je een spatie vóór een uitroepteken: 'Bonjour !'.",
+          "antwoord": true,
+          "uitleg": "Vóór een vraagteken en een uitroepteken staat in het Frans een spatie."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom staat er l'ami en niet le ami?",
+          "opties": [
+            "omdat ami een vrouwelijk woord is",
+            "omdat er meer dan één vriend is",
+            "omdat ami hier een werkwoord is",
+            "omdat ami met een klinker begint"
+          ],
+          "antwoord": 3,
+          "uitleg": "Voor een woord dat met een klinker begint, wordt le of la tot l'."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin betekent 'Ik spreek geen Engels, maar Frans'?",
+          "opties": [
+            "Je parle pas anglais, et français.",
+            "Je ne parle anglais pas, mais français.",
+            "Je ne parle pas anglais, mais français.",
+            "Je ne parle pas anglais, et pas français."
+          ],
+          "antwoord": 2,
+          "uitleg": "Ne … pas staat rond het werkwoord, en maar is mais."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Met est-ce que vooraan verandert de volgorde van de rest van de zin.",
+          "antwoord": false,
+          "uitleg": "Est-ce que zet je gewoon voor de zin. De rest blijft zoals hij was."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het meervoud van 'l'école'?",
+          "opties": [
+            "l'écoles",
+            "les écoles",
+            "la écoles",
+            "les école"
+          ],
+          "antwoord": 1,
+          "uitleg": "In het meervoud wordt l' tot les, en het woord krijgt een s: les écoles."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan met één woord: 'J'ai un chat ... un chien.' (en)",
+          "antwoord": "et",
+          "uitleg": "En is et: un chat et un chien."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Na ne … pas blijft un gewoon un: 'Je n'ai pas un stylo.'",
+          "antwoord": false,
+          "uitleg": "Na een ontkenning wordt un meestal de: je n'ai pas de stylo."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe vraag je 'Waarom ga je naar huis?'",
+          "opties": [
+            "Où est-ce que tu vas à la maison ?",
+            "Pourquoi est-ce tu vas à la maison ?",
+            "Pourquoi est-ce que tu va à la maison ?",
+            "Pourquoi est-ce que tu vas à la maison ?"
+          ],
+          "antwoord": 3,
+          "uitleg": "Waarom is pourquoi, daarna komt est-ce que, en bij tu hoort vas."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin over een blauwe auto is juist?",
+          "opties": [
+            "Elle a une voiture bleue.",
+            "Elle a une bleue voiture.",
+            "Elle a un voiture bleu.",
+            "Elle a une voiture bleu."
+          ],
+          "antwoord": 0,
+          "uitleg": "Voiture is vrouwelijk: une voiture. De kleur staat erachter en krijgt een e: bleue."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk lidwoord past bij 'livres'?",
+          "opties": [
+            "le",
+            "la",
+            "les",
+            "l'"
+          ],
+          "antwoord": 2,
+          "uitleg": "Livres staat in het meervoud, met een s. In het meervoud is het lidwoord altijd les."
+        }
+      ]
+    },
+    {
+      "titel": "Op school en onderweg — pittig",
+      "niveau": "start",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Je wil een boek lenen. Waar ga je naartoe?",
+          "opties": [
+            "à la librairie",
+            "à la boulangerie",
+            "à la bibliothèque",
+            "à la gare"
+          ],
+          "antwoord": 2,
+          "uitleg": "In la bibliothèque leen je boeken. In la librairie koop je ze."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Iemand zegt: 'Tournez à droite et allez tout droit.' Wat doe je?",
+          "opties": [
+            "eerst rechtdoor, dan rechts afslaan",
+            "eerst rechts afslaan, dan rechtdoor",
+            "twee keer rechts afslaan",
+            "eerst links afslaan, dan rechtdoor"
+          ],
+          "antwoord": 1,
+          "uitleg": "À droite is naar rechts, tout droit is rechtdoor. De volgorde staat in de zin."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe schrijf je het Franse woord voor potlood?",
+          "antwoord": "crayon",
+          "uitleg": "Een potlood is un crayon. Un stylo is een balpen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Met welk schoolgerief trek je een rechte lijn?",
+          "opties": [
+            "une trousse",
+            "un cartable",
+            "un livre",
+            "une règle"
+          ],
+          "antwoord": 3,
+          "uitleg": "Une règle is een lat. Une trousse is een pennenzak en un cartable een boekentas."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Je gaat 'à vélo' en 'à pied', maar 'en bus'.",
+          "antwoord": true,
+          "uitleg": "Met de fiets en te voet krijgen à, met de bus en de auto krijgen en."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin over de weg naar school is juist?",
+          "opties": [
+            "Je vais à l'école à voiture.",
+            "Je vais à l'école à bus.",
+            "Je vais à l'école en voiture.",
+            "Je vais à l'école en pied."
+          ],
+          "antwoord": 2,
+          "uitleg": "Met de auto is en voiture. Te voet is à pied en met de bus is en bus."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je begrijpt de verkoper niet goed. Wat zeg je?",
+          "opties": [
+            "C'est combien ?",
+            "Répétez, s'il vous plaît.",
+            "Tournez à gauche.",
+            "Ouvrez votre livre, s'il vous plaît."
+          ],
+          "antwoord": 1,
+          "uitleg": "Met répétez vraag je om iets te herhalen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Une librairie en une bibliothèque zijn twee woorden voor dezelfde plaats.",
+          "antwoord": false,
+          "uitleg": "In une librairie koop je boeken, in une bibliothèque leen je ze."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: 'Où est la ... ?' (waar is het station?)",
+          "antwoord": "gare",
+          "uitleg": "Het station is la gare."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je staat op een kruispunt en moet naar links. Wat zegt iemand die je de weg wijst?",
+          "opties": [
+            "Tournez à droite.",
+            "Allez tout droit.",
+            "Tournez tout droit.",
+            "Tournez à gauche."
+          ],
+          "antwoord": 3,
+          "uitleg": "Links is à gauche. À droite is rechts en tout droit is rechtdoor."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk woord hoort niet bij de andere drie?",
+          "opties": [
+            "un stylo",
+            "la gare",
+            "un crayon",
+            "une règle"
+          ],
+          "antwoord": 1,
+          "uitleg": "Een balpen, een potlood en een lat zijn schoolgerief. La gare is het station."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Als je leerkracht 'Ouvrez votre livre' zegt, moet je je boek dichtdoen.",
+          "antwoord": false,
+          "uitleg": "Ouvrez betekent open: je moet je boek openen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: 'À la ..., je joue avec mes amis.' (de speeltijd)",
+          "antwoord": [
+            "récréation",
+            "recreation"
+          ],
+          "uitleg": "De speeltijd is la récréation."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je bent in Parijs en wil een boek kopen. Waar ga je?",
+          "opties": [
+            "à la bibliothèque",
+            "à la boulangerie",
+            "à la librairie",
+            "à l'école"
+          ],
+          "antwoord": 2,
+          "uitleg": "Boeken koop je in la librairie, de boekhandel."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "'À droite' en 'tout droit' betekenen hetzelfde.",
+          "antwoord": false,
+          "uitleg": "À droite is naar rechts, tout droit is rechtdoor."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat zit er in une trousse?",
+          "opties": [
+            "un livre et un cartable",
+            "du pain et un livre",
+            "un vélo et une règle",
+            "un stylo et un crayon"
+          ],
+          "antwoord": 3,
+          "uitleg": "Une trousse is een pennenzak. Daar zitten een balpen en een potlood in."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Wiskunde schrijf je in het Frans in het meervoud: les mathématiques.",
+          "antwoord": true,
+          "uitleg": "Het schoolvak heet altijd les mathématiques, met een s."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent 'Je vais à la boulangerie à pied'?",
+          "opties": [
+            "Ik ga met de fiets naar de bakker.",
+            "Ik ga te voet naar de bakker.",
+            "Ik ga te voet naar de bibliotheek.",
+            "Ik ga met de auto naar de boekhandel."
+          ],
+          "antwoord": 1,
+          "uitleg": "La boulangerie is de bakkerij, à pied is te voet."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan met één woord: 'Je vais à l'école ... bus.'",
+          "antwoord": "en",
+          "uitleg": "Met de bus is en bus, net zoals en voiture."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Un crayon is een potlood.",
+          "antwoord": true,
+          "uitleg": "Un crayon is een potlood en un stylo een balpen."
+        }
+      ]
+    }
+  ]
+}

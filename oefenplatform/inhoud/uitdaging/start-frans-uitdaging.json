@@ -1,0 +1,197 @@
+{
+  "hoofdstukken": [
+    {
+      "titel": "Uitdaging — alles door elkaar",
+      "niveau": "start",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Lees: 'Je m'appelle Hugo. J'ai dix ans. J'ai une sœur et deux frères.' Hoeveel kinderen zijn er in het gezin van Hugo?",
+          "opties": [
+            "drie",
+            "vier",
+            "twee",
+            "vijf"
+          ],
+          "antwoord": 1,
+          "uitleg": "Hugo heeft een zus en twee broers. Hugo zelf telt ook mee, dus samen zijn ze met vier."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin bevat geen enkele fout?",
+          "opties": [
+            "Nous avons en retard et nous allons à l'école.",
+            "Nous sommes en retard et nous vont à l'école.",
+            "Nous sommes en retard et nous allons à l'école.",
+            "Nous sommes en retard et nous allez à l'école."
+          ],
+          "antwoord": 2,
+          "uitleg": "Te laat zijn gaat met être (nous sommes), en bij nous hoort de vorm allons van aller."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Lees: 'Aujourd'hui, c'est lundi. Demain, je vais au parc.' Op welke dag gaat de schrijver naar het park? Antwoord met het Franse woord.",
+          "antwoord": "mardi",
+          "uitleg": "Aujourd'hui is vandaag (lundi, maandag) en demain is morgen. De dag na lundi is mardi."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In 'Il fait froid et j'ai froid' staan twee verschillende werkwoorden.",
+          "antwoord": true,
+          "uitleg": "Over het weer zegt het Frans il fait (faire). Het zelf koud hebben gaat met avoir: j'ai froid."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Lees: 'Il pleut. Léa ne va pas au parc, elle regarde la télé.' Wat doet Léa?",
+          "opties": [
+            "Ze gaat naar het park.",
+            "Ze speelt in de regen.",
+            "Ze gaat naar school.",
+            "Ze kijkt tv."
+          ],
+          "antwoord": 3,
+          "uitleg": "Ne va pas betekent gaat niet. Léa blijft dus binnen en kijkt naar de televisie."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke vraag past bij het antwoord 'J'habite à Genk.'?",
+          "opties": [
+            "Quel âge as-tu ?",
+            "Où est-ce que tu habites ?",
+            "Comment tu t'appelles ?",
+            "Ça va ?"
+          ],
+          "antwoord": 1,
+          "uitleg": "J'habite à Genk vertelt waar je woont. Waar is où."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Reken uit en schrijf het antwoord in het Frans: dix plus dix.",
+          "antwoord": "vingt",
+          "uitleg": "Dix is 10. 10 plus 10 is 20, en dat is vingt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin over een broer is juist en ontkennend?",
+          "opties": [
+            "Elle ne a pas de frère.",
+            "Elle n'a pas un frère.",
+            "Elle n'a pas de frère.",
+            "Elle n'est pas de frère."
+          ],
+          "antwoord": 2,
+          "uitleg": "Ne wordt n' voor a, na pas komt de, en een broer hebben gaat met avoir."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Tegen je oma zeg je vous, omdat je haar heel goed kent.",
+          "antwoord": false,
+          "uitleg": "Tegen familie en mensen die je goed kent, zeg je tu. Vous is voor volwassenen die je niet goed kent."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Lees: 'Le samedi, je vais à la boulangerie à pied avec mon père.' Hoe gaan ze naar de bakker?",
+          "opties": [
+            "met de fiets",
+            "met de bus",
+            "te voet",
+            "met de auto"
+          ],
+          "antwoord": 2,
+          "uitleg": "À pied betekent te voet. Met de fiets zou à vélo zijn."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke kleur krijg je als je jaune en bleu mengt?",
+          "opties": [
+            "rouge",
+            "vert",
+            "gris",
+            "rose"
+          ],
+          "antwoord": 1,
+          "uitleg": "Geel (jaune) en blauw (bleu) samen geeft groen: vert."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: 'Mes frères ... douze ans.' (zij hebben)",
+          "antwoord": "ont",
+          "uitleg": "Je leeftijd gaat met avoir. Mes frères is ils, en bij ils hoort ont."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bonne nuit zeg je als je 's morgens op school aankomt.",
+          "antwoord": false,
+          "uitleg": "Bonne nuit zeg je voor het slapengaan. 's Morgens zeg je bonjour."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin gaat over het weer?",
+          "opties": [
+            "Il a faim.",
+            "Il est gentil.",
+            "Il va à l'école.",
+            "Il fait beau."
+          ],
+          "antwoord": 3,
+          "uitleg": "Over het weer zegt het Frans il fait: il fait beau is het is mooi weer."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Lees: 'Je m'appelle Anna. Je suis belge, mais je viens de France.' Wat klopt?",
+          "opties": [
+            "Anna is Frans en woont in België.",
+            "Anna is Belg maar komt uit Frankrijk.",
+            "Anna komt uit België en woont in Frankrijk.",
+            "Anna is Belg en is nooit in Frankrijk geweest."
+          ],
+          "antwoord": 1,
+          "uitleg": "Je suis belge is ik ben Belg, je viens de France is ik kom uit Frankrijk. Mais is maar."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In 'Les enfants jouent à la récréation' hoor je de -ent van jouent niet.",
+          "antwoord": true,
+          "uitleg": "De uitgang -ent schrijf je wel, maar je spreekt hem niet uit."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul het lidwoord aan: 'Où est ... gare ?'",
+          "antwoord": "la",
+          "uitleg": "Gare is vrouwelijk, dus la gare: waar is het station?"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Het is le 31 décembre. Welke maand begint morgen?",
+          "opties": [
+            "novembre",
+            "février",
+            "janvier",
+            "juin"
+          ],
+          "antwoord": 2,
+          "uitleg": "Décembre is de laatste maand. Daarna begint het nieuwe jaar met janvier."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "'Tu vas' en 'tu as' betekenen hetzelfde.",
+          "antwoord": false,
+          "uitleg": "Tu vas komt van aller (jij gaat), tu as komt van avoir (jij hebt)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin betekent 'Mijn ouders zijn niet thuis'?",
+          "opties": [
+            "Mes parents ne sont pas à la maison.",
+            "Mes parents n'ont pas à la maison.",
+            "Mon parents ne sont pas à la maison.",
+            "Mes parents sont pas à la maison."
+          ],
+          "antwoord": 0,
+          "uitleg": "Ouders zijn meer dan één, dus mes en sont. De ontkenning staat er rond: ne sont pas."
+        }
+      ]
+    }
+  ]
+}

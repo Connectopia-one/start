@@ -38,6 +38,7 @@ van veertig. De voortgang van de andere hoofdstukken blijft dus onaangeroerd.
 | `start-geschiedenis-uitdaging.json` | Geschiedenis | 🌱 Start |
 | `start-aardrijkskunde-uitdaging.json` | Aardrijkskunde | 🌱 Start |
 | `start-engels-uitdaging.json` | Engels | 🌱 Start |
+| `start-frans-uitdaging.json` | Frans | 🌱 Start |
 | `start-wetenschap-en-techniek-uitdaging.json` | Wetenschap en techniek | 🌱 Start |
 | `spark-wiskunde-uitdaging.json` | Wiskunde | ✨ Spark |
 | `spark-nederlands-uitdaging.json` | Nederlands | ✨ Spark |

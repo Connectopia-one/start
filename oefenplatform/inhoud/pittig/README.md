@@ -78,6 +78,7 @@ met het label **Moeilijker**. Geen kolom in de databank, dus **geen SQL**.
 |---------|-----|--------|-----------|
 | `start-wiskunde-pittig.json` | Wiskunde | 🌱 Start | **aan** |
 | `start-nederlands-pittig.json` | Nederlands | 🌱 Start | **aan** |
+| `start-frans-pittig.json` | Frans | 🌱 Start | **aan** |
 | `start-geschiedenis-pittig.json` | Geschiedenis | 🌱 Start | **aan** |
 | `start-aardrijkskunde-pittig.json` | Aardrijkskunde | 🌱 Start | **aan** |
 | `start-engels-pittig.json` | Engels | 🌱 Start | **aan** |

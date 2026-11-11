@@ -41,6 +41,13 @@ export const nieuwTekst = {
 export const updates: Update[] = [
   {
     datum: "11 november 2026",
+    titel: "Frans in Start: pittige hoofdstukken en een uitdaging",
+    tekst:
+      "Frans in Start heeft nu, net als de andere vakken van Start, bij zes hoofdstukken een pittig broertje met 20 moeilijkere vragen, en een uitdagingshoofdstuk waarin alles door elkaar komt. Geen nieuwe leerstof: wel vragen met twee stappen, een fout die er juist uitziet of een Frans zinnetje om goed te lezen.",
+    link: { tekst: "Naar Frans Start", href: "/niveaus/start/frans" },
+  },
+  {
+    datum: "11 november 2026",
     titel: "Nieuw hoofdstuk: werken met Geopunt",
     tekst:
       "Bij aardrijkskunde Spark staat een nieuw hoofdstuk over Geopunt, de online kaart van Vlaanderen. In 26 vragen leer je een adres zoeken, kaartlagen aanzetten en afstanden meten. Bij een aantal vragen klik je zelf op de juiste knop in een echt Geopunt-scherm.",
