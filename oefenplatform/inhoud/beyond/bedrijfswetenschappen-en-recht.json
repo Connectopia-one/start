@@ -76,7 +76,7 @@
           "vraag": "Welke akte is nodig om een bv op te richten?",
           "opties": [
             "een authentieke akte bij de notaris",
-            "een onderhandse akte",
+            "een onderhandse akte, getekend door de oprichters",
             "een mondelinge afspraak",
             "geen enkele akte"
           ],
@@ -222,7 +222,7 @@
           "vraag": "Wat vervangt bij de bv het vroegere minimumkapitaal?",
           "opties": [
             "een toereikend aanvangsvermogen en een financieel plan",
-            "een borg bij de bank",
+            "een borg die de oprichters bij de bank moeten storten voor de start",
             "een verzekering",
             "een handtekening van de burgemeester"
           ],
@@ -283,7 +283,7 @@
           "vraag": "Wat betekent beperkte aansprakelijkheid voor een aandeelhouder?",
           "opties": [
             "hij kan hoogstens zijn inbreng verliezen",
-            "hij betaalt geen belastingen",
+            "hij betaalt geen belastingen op zijn dividenden",
             "hij hoeft geen boekhouding te voeren",
             "hij mag geen winst ontvangen"
           ],
@@ -313,7 +313,7 @@
           "vraag": "Wat is een nadeel van een vennootschap tegenover een eenmanszaak?",
           "opties": [
             "meer administratie en kosten bij de oprichting",
-            "onbeperkte aansprakelijkheid",
+            "onbeperkte aansprakelijkheid met het privévermogen van de eigenaar",
             "geen rechtspersoonlijkheid",
             "progressieve personenbelasting op alle winst"
           ],
@@ -346,7 +346,7 @@
           "vraag": "Wie richt meestal een maatschap op?",
           "opties": [
             "vrije beroepen die samenwerken, bijvoorbeeld artsen",
-            "grote beursgenoteerde bedrijven",
+            "grote beursgenoteerde bedrijven met veel aandeelhouders",
             "één zelfstandige alleen",
             "de overheid"
           ],
@@ -374,7 +374,7 @@
           "vraag": "Wat geldt voor de jaarrekening van een eenmanszaak?",
           "opties": [
             "ze moet geen jaarrekening neerleggen bij de Nationale Bank",
-            "ze moet dezelfde jaarrekening neerleggen als een nv",
+            "ze moet dezelfde jaarrekening neerleggen als een nv, bij de Nationale Bank",
             "ze moet elke maand een jaarrekening maken",
             "ze mag geen balans opmaken"
           ],
@@ -512,7 +512,7 @@
           "vraag": "Wat is bedrijfsvoorheffing?",
           "opties": [
             "een voorschot op de belasting, ingehouden op je loon",
-            "een belasting die bedrijven op hun winst betalen",
+            "een belasting die bedrijven elk jaar op hun winst betalen",
             "de btw die op een factuur van een bedrijf staat",
             "een gift van een bedrijf aan een goed doel"
           ],
@@ -536,7 +536,7 @@
           "vraag": "Welke kosten kunnen ouders inbrengen in hun aangifte?",
           "opties": [
             "de kosten van kinderopvang",
-            "de kosten van een reis",
+            "de kosten van een reis met het hele gezin",
             "de kosten van kledij",
             "de kosten van een gsm"
           ],
@@ -875,7 +875,7 @@
           "vraag": "Wat zijn voorafbetalingen?",
           "opties": [
             "voorschotten op de belasting tijdens het jaar zelf",
-            "betalingen aan leveranciers vooraf",
+            "betalingen aan leveranciers vooraf, nog voor de levering",
             "kortingen bij snelle betaling",
             "een lening van de bank"
           ],
@@ -950,7 +950,7 @@
           "vraag": "Wat is de grondslag in de personenbelasting van een ondernemer met een eenmanszaak?",
           "opties": [
             "zijn totale belastbare inkomen",
-            "enkel de winst van de zaak",
+            "enkel de winst die de zaak dat jaar maakte",
             "de omzet",
             "het kapitaal van de zaak"
           ],
@@ -968,7 +968,7 @@
           "vraag": "Wat is een voordeel van een vennootschap bij een hoge winst?",
           "opties": [
             "het vaste tarief ligt lager dan de hoogste schijven",
-            "er is geen belasting",
+            "er is geen belasting op de winst van een vennootschap",
             "er is geen boekhouding nodig",
             "de winst is privé"
           ],
@@ -998,7 +998,7 @@
           "vraag": "Wat is een bonificatie?",
           "opties": [
             "een voordeel voor voorafbetalingen in de personenbelasting",
-            "een boete voor laattijdige betaling",
+            "een boete die je krijgt voor laattijdige betaling van de belasting",
             "een korting van de leverancier",
             "een premie voor nieuwe werknemers"
           ],
@@ -1108,7 +1108,7 @@
           "vraag": "Een ondernemer verdient 120 000 euro winst. Waarom kan een vennootschap voordeliger zijn?",
           "opties": [
             "het vaste tarief is lager dan zijn hoogste tarief",
-            "een vennootschap betaalt nooit belasting",
+            "een vennootschap betaalt nooit belasting op haar winst",
             "een vennootschap hoeft geen aangifte te doen",
             "de winst wordt dan privé"
           ],
@@ -1193,7 +1193,7 @@
           "vraag": "Wat is het gevolg van progressiviteit voor een eenmanszaak met stijgende winst?",
           "opties": [
             "het gemiddelde tarief stijgt",
-            "het tarief blijft gelijk",
+            "het tarief blijft gelijk, hoe hoog het inkomen ook wordt",
             "het tarief daalt",
             "de belasting verdwijnt"
           ],
@@ -1342,7 +1342,7 @@
           "vraag": "Een onderneming koopt een computer voor de boekhouding. Waar boek je die aankoop?",
           "opties": [
             "op een rekening van klasse 2, vaste activa",
-            "op 60400 Aankopen handelsgoederen",
+            "op 60400 Aankopen handelsgoederen, zoals een gewone aankoop",
             "op 70000 Verkopen",
             "op 57000 Kassen"
           ],
@@ -1393,7 +1393,7 @@
           "vraag": "Wat is het redeneerschema?",
           "opties": [
             "een tabel waarin je per rekening redeneert voor je boekt",
-            "het grootboek van het vorige jaar",
+            "het grootboek van het vorige jaar, met alle rekeningen erin",
             "de balans van de onderneming",
             "een lijst van alle klanten"
           ],
@@ -1494,7 +1494,7 @@
           "vraag": "Wat verandert er in de boeking als de leverancier ook terugstuurbare verpakking aanrekent?",
           "opties": [
             "er komt een aparte regel voor de verpakking, zonder btw",
-            "de verpakking gaat bij 60400 met btw",
+            "de verpakking gaat samen met de goederen bij 60400, met btw erbij",
             "de verpakking verlaagt de schuld",
             "er verandert niets"
           ],
@@ -1718,7 +1718,7 @@
           "vraag": "Wat zijn dagontvangsten?",
           "opties": [
             "kleinhandelsverkopen zonder factuur",
-            "de rente op de bank",
+            "de rente die de bank betaalt op de zichtrekening",
             "betalingen aan leveranciers",
             "de lonen van een dag"
           ],
@@ -1760,7 +1760,7 @@
           "vraag": "Wat is 58000 Interne overboekingen?",
           "opties": [
             "een tussenrekening voor geld tussen bank en kas",
-            "een rekening voor lonen",
+            "een rekening waarop je de lonen van het personeel boekt",
             "de rekening van de leveranciers",
             "een opbrengstrekening"
           ],
@@ -1814,7 +1814,7 @@
           "vraag": "Wat staat er op een verkoopfactuur met terugstuurbare verpakking?",
           "opties": [
             "een aparte regel voor de verpakking, zonder btw",
-            "de verpakking met 21 % btw",
+            "de verpakking samen met de goederen, met 21 % btw",
             "geen verpakking",
             "een financiële korting op de verpakking"
           ],
@@ -1924,7 +1924,7 @@
           "vraag": "Waarom gebruik je de tussenrekening 58000?",
           "opties": [
             "kas en bank boeken elk in hun eigen dagboek",
-            "om btw te berekenen",
+            "om de btw van de verkopen van de dag te berekenen",
             "om de winst te verhogen",
             "omdat de klant dat vraagt"
           ],
@@ -2094,7 +2094,7 @@
           "vraag": "Wat is het verplicht voorschot voor arbeiders?",
           "opties": [
             "een deel van het loon, halverwege de maand",
-            "een lening aan de werkgever",
+            "een lening die de werknemer aan de werkgever toestaat",
             "een premie aan het einde van het jaar",
             "de bijdrage aan de RSZ"
           ],
@@ -2112,7 +2112,7 @@
           "vraag": "Wat is de loonsynthese?",
           "opties": [
             "het overzicht van alle lonen van de maand",
-            "het contract van een werknemer",
+            "het arbeidscontract van een werknemer, met zijn loon",
             "de factuur van een leverancier",
             "een lijst met vakantiedagen"
           ],
@@ -2289,7 +2289,7 @@
           "vraag": "Wat gebeurt er met de RSZ-bijdragen van werknemer en werkgever?",
           "opties": [
             "de werkgever stort ze samen door aan de RSZ",
-            "de werknemer betaalt ze zelf",
+            "de werknemer betaalt ze zelf elk kwartaal aan de RSZ",
             "ze blijven in de onderneming",
             "ze gaan naar de vakbond"
           ],
@@ -2319,7 +2319,7 @@
           "vraag": "Te betalen btw 4 000 euro, terug te vorderen btw 6 000 euro. Wat is het gevolg?",
           "opties": [
             "de staat moet 2 000 euro terugbetalen",
-            "de onderneming betaalt 2 000 euro",
+            "de onderneming betaalt 2 000 euro aan de staat",
             "de onderneming betaalt 10 000 euro",
             "er gebeurt niets"
           ],
@@ -2522,7 +2522,7 @@
           "vraag": "Wat is een voorziening voor risico's en kosten?",
           "opties": [
             "een bedrag opzij voor een waarschijnlijk verlies",
-            "een voorraad grondstoffen",
+            "een voorraad grondstoffen voor een volgend boekjaar",
             "een korting voor klanten",
             "een lening van de bank"
           ],
@@ -2582,7 +2582,7 @@
           "vraag": "Wat is de proefbalans?",
           "opties": [
             "een overzicht van alle rekeningen met totalen en saldi",
-            "de balans van het vorige jaar",
+            "de balans van het vorige boekjaar, om mee te vergelijken",
             "een test voor de boekhouder",
             "de resultatenrekening"
           ],
@@ -2600,7 +2600,7 @@
           "vraag": "Wat gebeurt er met het deel van een lening dat binnen het jaar vervalt?",
           "opties": [
             "het gaat van groep 17 naar groep 42",
-            "het verdwijnt uit de boekhouding",
+            "het verdwijnt uit de boekhouding tot het betaald is",
             "het wordt een kost",
             "het gaat naar groep 70"
           ],
@@ -2722,7 +2722,7 @@
           "vraag": "Wat bedoelt men met de bestemming van het resultaat?",
           "opties": [
             "beslissen wat er met de winst gebeurt",
-            "de winst berekenen",
+            "de winst van het hele boekjaar berekenen",
             "de btw aangeven",
             "de lonen uitbetalen"
           ],
@@ -2797,7 +2797,7 @@
           "vraag": "Waarom maak je een saldibalans?",
           "opties": [
             "om per rekening het saldo te zien",
-            "om de klanten te betalen",
+            "om de klanten en de leveranciers te betalen",
             "om de btw te berekenen",
             "om de lonen te boeken"
           ],
@@ -2880,7 +2880,7 @@
           "vraag": "Wat is het permanent vermogen?",
           "opties": [
             "eigen vermogen plus schulden op lange termijn",
-            "enkel het eigen vermogen van de eigenaars",
+            "enkel het eigen vermogen dat de eigenaars inbrachten bij de start",
             "alle schulden samen, kort en lang",
             "de vaste activa plus de voorraden"
           ],
@@ -2928,7 +2928,7 @@
           "vraag": "Wat doe je bij een horizontale analyse?",
           "opties": [
             "de evolutie van een post over de jaren bekijken",
-            "elke post als % van het totaal uitdrukken",
+            "elke post als procent van het balanstotaal uitdrukken",
             "de balans optellen",
             "enkel de activa bekijken"
           ],
@@ -2968,7 +2968,7 @@
           "vraag": "Wat is het nettobedrijfskapitaal?",
           "opties": [
             "permanent vermogen min langdurende activa",
-            "eigen vermogen min schulden",
+            "eigen vermogen min alle schulden van de onderneming",
             "omzet min kosten",
             "kas plus bank"
           ],
@@ -3075,7 +3075,7 @@
           "vraag": "Welke post hoort bij het vreemd vermogen op lange termijn?",
           "opties": [
             "een obligatielening op tien jaar",
-            "een schuld aan de leverancier",
+            "een schuld aan de leverancier voor de goederen van vorige maand",
             "de te betalen btw",
             "de lonen van deze maand"
           ],
@@ -3087,7 +3087,7 @@
           "vraag": "Wat zegt een stijgend aandeel van de schulden op korte termijn in de verticale analyse?",
           "opties": [
             "de onderneming steunt meer op kortlopende schulden",
-            "de winst is gestegen",
+            "de winst is gestegen ten opzichte van het vorige boekjaar",
             "de voorraad is gedaald",
             "er is niets veranderd"
           ],
@@ -3202,7 +3202,7 @@
           "vraag": "Waarom herschik je de balans voor een financiële analyse?",
           "opties": [
             "om lange en korte termijn duidelijk te scheiden",
-            "om de btw te berekenen",
+            "om de btw van het hele boekjaar in één keer te berekenen",
             "om de lonen te zien",
             "om de winst te verhogen"
           ],
@@ -3257,7 +3257,7 @@
           "vraag": "Wat meet de liquiditeit van een onderneming?",
           "opties": [
             "of ze haar schulden op korte termijn kan betalen",
-            "of ze genoeg winst maakt op haar vermogen",
+            "of ze genoeg winst maakt op haar vermogen in het boekjaar",
             "of ze genoeg eigen vermogen heeft",
             "of ze genoeg personeel heeft voor de productie"
           ],
@@ -3357,7 +3357,7 @@
           "opties": [
             "hoeveel dagen de onderneming wacht om haar leveranciers te betalen",
             "hoeveel leveranciers de onderneming heeft",
-            "hoeveel dagen klanten nodig hebben om te betalen",
+            "hoeveel dagen klanten gemiddeld nodig hebben om hun facturen te betalen",
             "hoeveel korting de leverancier geeft"
           ],
           "antwoord": 0,
@@ -3462,7 +3462,7 @@
           "vraag": "Current ratio 0,7. Wat betekent dat?",
           "opties": [
             "de kortlopende schulden zijn groter dan de courante activa",
-            "de onderneming maakt verlies",
+            "de onderneming maakt verlies in het lopende boekjaar en de vorige jaren",
             "de onderneming heeft geen schulden",
             "de voorraad is te klein"
           ],
@@ -3504,7 +3504,7 @@
           "vraag": "Klantenkrediet 60 dagen, betalingstermijn op de factuur 30 dagen. Wat besluit je?",
           "opties": [
             "klanten betalen gemiddeld te laat",
-            "klanten betalen te vroeg",
+            "klanten betalen te vroeg, nog voor de factuur verstuurd is",
             "alles is in orde",
             "de leveranciers betalen te laat"
           ],
@@ -3960,7 +3960,7 @@
           "vraag": "Waarom vergelijkt een belegger de rendabiliteit van het eigen vermogen met de rente op een spaarrekening?",
           "opties": [
             "om te zien of het risico van beleggen loont",
-            "omdat de wet dat vraagt",
+            "omdat de wet dat vraagt bij elke belegging op de beurs",
             "omdat ze altijd gelijk zijn",
             "om de btw te berekenen"
           ],
@@ -4026,7 +4026,7 @@
           "vraag": "Een onderneming wil met een lening uitbreiden. Wat moet ze vergelijken om te weten of de lening het rendement voor de eigenaars verhoogt?",
           "opties": [
             "de rendabiliteit van het totaal vermogen en de interestvoet",
-            "de current ratio en de quick ratio",
+            "de current ratio en de quick ratio van de voorbije drie jaar",
             "het klantenkrediet en het leverancierskrediet",
             "de omzet en het aantal werknemers"
           ],
@@ -4108,7 +4108,7 @@
           "vraag": "Wat is een obligatielening?",
           "opties": [
             "een lening bij het publiek via schuldbewijzen",
-            "een lening van een bank voor een gebouw",
+            "een lening van een bank voor de aankoop van een gebouw",
             "een korte lening op de zichtrekening",
             "een gift van de overheid aan een bedrijf"
           ],
@@ -4150,7 +4150,7 @@
           "vraag": "Wat is een straight loan?",
           "opties": [
             "een korte lening: vast bedrag, vaste periode",
-            "een lening zonder interest van de overheid",
+            "een lening zonder interest die de overheid aan starters geeft",
             "een lening op dertig jaar voor een gebouw",
             "een gift van een vriend aan de onderneming"
           ],
@@ -4198,7 +4198,7 @@
           "vraag": "Wat is een nadeel van vreemd vermogen?",
           "opties": [
             "je moet interest betalen en terugbetalen",
-            "je verliest altijd zeggenschap",
+            "je verliest altijd een deel van de zeggenschap over je zaak",
             "je krijgt nooit genoeg geld",
             "het is verboden voor kleine bedrijven"
           ],
@@ -4318,7 +4318,7 @@
           "vraag": "Wat is een voordeel van een obligatielening voor de onderneming?",
           "opties": [
             "ze kan veel geld ophalen zonder zeggenschap af te staan",
-            "ze hoeft geen interest te betalen",
+            "ze hoeft geen interest te betalen aan de obligatiehouders",
             "ze moet het geld nooit terugbetalen",
             "ze krijgt nieuwe aandeelhouders"
           ],
@@ -4539,7 +4539,7 @@
           "vraag": "Wat is de terugverdientijd?",
           "opties": [
             "de tijd tot de cashflows de investering terugbetalen",
-            "de levensduur van de machine",
+            "de volledige levensduur van de machine, uitgedrukt in jaren",
             "de tijd tot de lening afbetaald is",
             "de tijd tot de eerste winst"
           ],
@@ -4578,7 +4578,7 @@
           "vraag": "Wat meet de return on investment (ROI)?",
           "opties": [
             "de gemiddelde winst in procent van de investering",
-            "de tijd om de investering terug te verdienen",
+            "de tijd die je nodig hebt om de investering terug te verdienen",
             "de waarde van toekomstige cashflows vandaag",
             "het aantal werknemers per machine"
           ],
@@ -4608,7 +4608,7 @@
           "vraag": "Wat is de netto contante waarde (NCW)?",
           "opties": [
             "de contante waarde van de cashflows min de investering",
-            "de som van alle cashflows zonder rente",
+            "de som van alle cashflows, zonder rekening te houden met rente",
             "de winst van het eerste jaar",
             "de restwaarde van de machine"
           ],
@@ -4851,7 +4851,7 @@
           "vraag": "Wat is een desinvestering?",
           "opties": [
             "een investering verkopen of afstoten",
-            "een investering in een nieuw land",
+            "een investering in een nieuw land of een nieuwe markt",
             "een investering zonder winst",
             "een investering met subsidie"
           ],
@@ -4990,7 +4990,7 @@
           "vraag": "Wat beschrijft de visie van een onderneming?",
           "opties": [
             "waar ze in de toekomst wil staan",
-            "wat ze vandaag verkoopt",
+            "wat ze vandaag verkoopt en aan welke klanten",
             "wie haar leveranciers zijn",
             "hoeveel ze vorig jaar verdiende"
           ],
@@ -5002,7 +5002,7 @@
           "vraag": "Wat is de strategie?",
           "opties": [
             "het plan om van de missie naar de visie te gaan",
-            "de lijst van alle klanten",
+            "de lijst van alle klanten en al hun bestellingen",
             "het organigram van de onderneming",
             "de jaarrekening van vorig jaar"
           ],
@@ -5041,7 +5041,7 @@
           "vraag": "Waarom stelt een starter een ondernemingsplan op?",
           "opties": [
             "om het idee te toetsen en financiers te overtuigen",
-            "omdat de vakbond het vraagt",
+            "omdat de vakbond het vraagt bij de start van elke zaak",
             "om de btw te berekenen",
             "om de lonen uit te betalen"
           ],
@@ -5063,7 +5063,7 @@
           "vraag": "Een strengere wet op verpakkingen komt eraan. Hoe noem je dat voor een producent van plastic flessen?",
           "opties": [
             "een actuele ontwikkeling die de strategie beïnvloedt",
-            "een sterkte van de onderneming",
+            "een sterkte van de onderneming zelf, die ze kan uitspelen",
             "een stakeholder",
             "een missie"
           ],
@@ -5151,7 +5151,7 @@
           "vraag": "Wat verwacht een bank als stakeholder vooral?",
           "opties": [
             "dat leningen en interest terugbetaald worden",
-            "dat de producten mooi zijn",
+            "dat de producten mooi zijn en goed verkopen in de winkels",
             "dat het personeel tevreden is",
             "dat de onderneming niet groeit"
           ],
@@ -5248,7 +5248,7 @@
           "vraag": "Wat is het doel van een SWOT-analyse?",
           "opties": [
             "strategische keuzes onderbouwen",
-            "de btw berekenen",
+            "de btw van het volgende kwartaal berekenen",
             "de lonen uitbetalen",
             "de boekhouding afsluiten"
           ],
@@ -5408,7 +5408,7 @@
           "vraag": "Wat zet de BCG-matrix tegen elkaar uit?",
           "opties": [
             "marktgroei en relatief marktaandeel",
-            "omzet en winst",
+            "omzet en winst van de voorbije vijf jaar",
             "kosten en opbrengsten",
             "lonen en personeel"
           ],
@@ -5584,7 +5584,7 @@
           "vraag": "Welke strategie past meestal bij een question mark?",
           "opties": [
             "kiezen: investeren of stoppen",
-            "melken zonder investeren",
+            "melken zonder nog te investeren in het product",
             "niets doen",
             "de prijs verdubbelen"
           ],
@@ -5644,7 +5644,7 @@
           "vraag": "Wat is het relatief marktaandeel?",
           "opties": [
             "je marktaandeel tegenover dat van de grootste concurrent",
-            "je omzet tegenover je kosten",
+            "je omzet tegenover je kosten van hetzelfde boekjaar, in procent",
             "je winst tegenover je eigen vermogen",
             "het aantal klanten per winkel"
           ],
@@ -5984,7 +5984,7 @@
           "vraag": "Wat is een buyer persona?",
           "opties": [
             "een uitgewerkt profiel van een typische klant",
-            "de verkoper in de winkel",
+            "de verkoper die in de winkel de klanten helpt",
             "de aankoper van een bedrijf",
             "een klant die altijd klaagt"
           ],
@@ -6008,7 +6008,7 @@
           "vraag": "Wat is SEA?",
           "opties": [
             "betaalde advertenties in een zoekmachine",
-            "gratis zoekresultaten verbeteren",
+            "gratis zoekresultaten verbeteren met de juiste trefwoorden",
             "een soort nieuwsbrief via e-mail",
             "een klantenkaart met spaarpunten"
           ],
@@ -6050,7 +6050,7 @@
           "vraag": "Wat is een touchpoint?",
           "opties": [
             "elk contactmoment tussen klant en merk",
-            "een knop op een tablet",
+            "een knop op een tablet of op het scherm van de kassa",
             "een korting bij de kassa",
             "de prijs van een product"
           ],
@@ -6095,7 +6095,7 @@
           "vraag": "Wat is een doelgroep?",
           "opties": [
             "de groep klanten die je wil bereiken",
-            "alle mensen in België",
+            "alle mensen in België, van jong tot oud",
             "de werknemers van de onderneming",
             "de aandeelhouders"
           ],
@@ -6211,7 +6211,7 @@
           "vraag": "Wie kan een flexi-job doen?",
           "opties": [
             "wie al 4/5 werkt elders, of gepensioneerden",
-            "enkel studenten tijdens de vakanties",
+            "enkel studenten tijdens de zomervakantie en de kerstvakantie",
             "enkel werklozen die een uitkering krijgen",
             "iedereen vanaf 12 jaar, zonder voorwaarden"
           ],
@@ -6271,7 +6271,7 @@
           "vraag": "Wat is verloren arbeidsuren met gewaarborgd dagloon?",
           "opties": [
             "loon voor een dag waarop het werk buiten zijn schuld stilvalt",
-            "de werknemer komt te laat en verliest daarvoor loon",
+            "de werknemer komt te laat op het werk en verliest daarvoor een deel van zijn loon",
             "de werknemer neemt een halve dag vakantie",
             "de werknemer legt het werk neer tijdens een staking"
           ],
@@ -6378,7 +6378,7 @@
           "vraag": "Wat is een verbrekingsvergoeding?",
           "opties": [
             "loon in plaats van de opzegtermijn te presteren",
-            "een premie bij het begin van het werk",
+            "een premie die je krijgt bij het begin van het werk",
             "het vakantiegeld",
             "de bedrijfsvoorheffing"
           ],
@@ -6558,7 +6558,7 @@
           "vraag": "Wat is supply chain management?",
           "opties": [
             "de hele keten van leverancier tot klant afstemmen",
-            "enkel de voorraad in één magazijn tellen",
+            "enkel de voorraad tellen in één magazijn van het bedrijf",
             "enkel de vrachtwagens van het bedrijf plannen",
             "de lonen van de magazijniers berekenen"
           ],
@@ -6582,7 +6582,7 @@
           "vraag": "Wat is supply management of het pushmodel?",
           "opties": [
             "produceren op basis van een voorspelling",
-            "pas produceren na een bestelling",
+            "pas beginnen produceren nadat er een bestelling binnen is",
             "enkel online verkopen",
             "zonder voorraad werken"
           ],
@@ -6600,7 +6600,7 @@
           "vraag": "Wat is een crossdockmagazijn?",
           "opties": [
             "goederen worden meteen overgeladen, zonder lange opslag",
-            "een magazijn voor lange opslag van grondstoffen",
+            "een magazijn voor de lange opslag van grondstoffen en onderdelen",
             "een magazijn van de overheid voor iedereen",
             "een magazijn naast de productielijn"
           ],
@@ -6705,7 +6705,7 @@
           "vraag": "Wat meet de Logistics Performance Index (LPI)?",
           "opties": [
             "hoe goed de logistiek van een land werkt",
-            "hoeveel winst een transportfirma maakt",
+            "hoeveel winst een transportfirma maakt per jaar",
             "het aantal vrachtwagens per inwoner",
             "de snelheid van één leverancier"
           ],
@@ -6723,7 +6723,7 @@
           "vraag": "Wat is de minimumvoorraad?",
           "opties": [
             "de buffer die er altijd moet zijn",
-            "de voorraad die al besteld is",
+            "de voorraad die al besteld is maar nog niet geleverd",
             "de grootste voorraad die past",
             "de voorraad die al verkocht is"
           ],
@@ -6745,7 +6745,7 @@
           "vraag": "Wat is outsourcing?",
           "opties": [
             "een taak uitbesteden aan een ander bedrijf",
-            "goederen uitvoeren naar het buitenland",
+            "goederen uitvoeren naar klanten in het buitenland",
             "personeel ontslaan in een crisis",
             "een nieuwe vestiging openen"
           ],
@@ -6770,7 +6770,7 @@
           "vraag": "Wat is logistiek management?",
           "opties": [
             "de goederenstroom in de eigen onderneming",
-            "de reclame voor een product",
+            "de reclame en de promotie voor een product",
             "de boekhouding van de onderneming",
             "de aanwerving van personeel"
           ],
@@ -6845,7 +6845,7 @@
           "vraag": "Wat is het klantorderontkoppelingspunt (KOOP)?",
           "opties": [
             "het punt vanaf waar op bestelling gewerkt wordt",
-            "de plaats waar de klant betaalt",
+            "de plaats in de winkel waar de klant zijn bestelling betaalt",
             "de datum van levering",
             "de afdeling klantendienst"
           ],
@@ -6875,7 +6875,7 @@
           "vraag": "Wat is parallelle productie?",
           "opties": [
             "verschillende producten op aparte lijnen naast elkaar",
-            "één product uit veel onderdelen",
+            "één product dat gemaakt wordt uit veel verschillende onderdelen",
             "veel producten uit één grondstof",
             "een product volledig op maat van één klant"
           ],
@@ -7115,7 +7115,7 @@
           "vraag": "Wat is een cafetariaplan?",
           "opties": [
             "je kiest zelf voordelen uit een pakket",
-            "een restaurant in het bedrijf",
+            "een restaurant in het bedrijf voor het personeel",
             "een plan om de kantine te verbouwen",
             "gratis koffie voor iedereen"
           ],
@@ -7194,7 +7194,7 @@
           "vraag": "Wat is een onthaalbeleid?",
           "opties": [
             "nieuwe medewerkers goed laten starten",
-            "klanten ontvangen aan de balie",
+            "klanten ontvangen aan de balie van het bedrijf",
             "bezoekers rondleiden in de fabriek",
             "de post sorteren"
           ],
@@ -7227,7 +7227,7 @@
           "vraag": "Waarom kiezen werkgevers soms voor een cafetariaplan?",
           "opties": [
             "werknemers kiezen wat bij hen past",
-            "het is verplicht voor elk bedrijf",
+            "het is wettelijk verplicht voor elk bedrijf in België",
             "de lonen dalen erdoor",
             "er zijn dan geen belastingen meer"
           ],
@@ -7297,7 +7297,7 @@
           "vraag": "Wat is een interne werving?",
           "opties": [
             "iemand uit het eigen bedrijf aanwerven",
-            "een vacature op een jobsite plaatsen",
+            "een vacature plaatsen op een grote jobsite",
             "een uitzendkantoor inschakelen",
             "een advertentie in de krant"
           ],
@@ -7336,7 +7336,7 @@
           "vraag": "Een bedrijf ziet dat veel jonge werknemers na een jaar vertrekken. Welk hr-instrument kan helpen?",
           "opties": [
             "een beter onthaal en loopbaanplan",
-            "meer reclame voor producten",
+            "meer reclame voor de producten van het bedrijf",
             "een grotere voorraad",
             "minder opleiding"
           ],
@@ -7430,7 +7430,7 @@
           "vraag": "Wat is een directe kost?",
           "opties": [
             "een kost die je aan één product toewijst",
-            "een kost die je snel betaalt",
+            "een kost die je snel betaalt, nog voor de vervaldag",
             "een kost voor de directeur",
             "een kost zonder factuur"
           ],
@@ -7442,7 +7442,7 @@
           "vraag": "Wat is een indirecte kost?",
           "opties": [
             "een kost die je over meerdere producten verdeelt",
-            "een kost die nooit betaald wordt",
+            "een kost die nooit betaald wordt aan iemand buiten het bedrijf",
             "een kost van een ander bedrijf",
             "een kost die je niet kent"
           ],
@@ -7454,7 +7454,7 @@
           "vraag": "Wat is een kostendrager?",
           "opties": [
             "het product waaraan je kosten toerekent",
-            "de afdeling die kosten maakt",
+            "de afdeling die de kosten maakt in het bedrijf",
             "de boekhouder van het bedrijf",
             "de vrachtwagen die goederen draagt"
           ],
@@ -7466,7 +7466,7 @@
           "vraag": "Wat is een kostenplaats?",
           "opties": [
             "een afdeling waar kosten gemaakt worden",
-            "het product dat verkocht wordt",
+            "het product dat de onderneming verkoopt aan haar klanten",
             "de plaats waar de factuur ligt",
             "een rekening bij de bank"
           ],
@@ -7524,7 +7524,7 @@
           "vraag": "Waar ligt het break-evenpunt in een grafiek?",
           "opties": [
             "waar de lijn van de totale opbrengsten de lijn van de totale kosten snijdt",
-            "waar de vaste kosten beginnen",
+            "waar de vaste kosten beginnen, helemaal links onderaan op de grafiek",
             "waar de omzet nul is",
             "waar de variabele kosten het hoogst zijn"
           ],
@@ -7774,7 +7774,7 @@
           "vraag": "Waarom is de eenvoudige opslagmethode minder nauwkeurig dan een kostenverdeelstaat?",
           "opties": [
             "ze verdeelt indirecte kosten met één percentage",
-            "ze negeert de directe kosten",
+            "ze negeert de directe kosten van het product helemaal",
             "ze gebruikt geen getallen",
             "ze werkt enkel voor diensten"
           ],
@@ -7805,7 +7805,7 @@
           "vraag": "Wat is een relationele databank?",
           "opties": [
             "tabellen die via relaties verbonden zijn",
-            "één grote tabel met alle gegevens",
+            "één grote tabel waarin alle gegevens samen in rijen staan",
             "een map met losse tekstbestanden",
             "een rekenblad met grafieken"
           ],
@@ -7832,7 +7832,7 @@
           "vraag": "Waarvoor dient een formulier in Access?",
           "opties": [
             "om gegevens gemakkelijk in te voeren en te bekijken",
-            "om gegevens af te drukken in een overzicht",
+            "om gegevens af te drukken in een overzichtelijk verslag",
             "om relaties te leggen",
             "om de databank te beveiligen"
           ],
@@ -7862,7 +7862,7 @@
           "vraag": "Wat is een primaire sleutel?",
           "opties": [
             "een veld dat elk record uniek maakt",
-            "het eerste veld van elke tabel",
+            "het eerste veld dat in elke tabel staat",
             "een wachtwoord van de databank",
             "het grootste getal in de tabel"
           ],
@@ -7964,7 +7964,7 @@
           "vraag": "Wat doet een validatieregel?",
           "opties": [
             "ze controleert of een waarde mag",
-            "ze maakt een kopie van de tabel",
+            "ze maakt elke avond automatisch een kopie van de tabel",
             "ze sorteert de gegevens",
             "ze telt de records"
           ],
@@ -8073,7 +8073,7 @@
           "vraag": "Een totaalquery groepeert per productcategorie en berekent de som van de omzet. Wat toont het resultaat?",
           "opties": [
             "per categorie de totale omzet",
-            "elke verkoop apart",
+            "elke verkoop apart, met de datum en de klant erbij",
             "enkel de grootste verkoop",
             "de namen van de klanten"
           ],
@@ -8109,7 +8109,7 @@
           "vraag": "Wat doet de veldeigenschap 'standaardwaarde'?",
           "opties": [
             "een waarde die automatisch ingevuld wordt",
-            "de grootste toegelaten waarde",
+            "de grootste waarde die in het veld toegelaten is",
             "de naam die bovenaan de kolom staat",
             "het aantal cijfers na de komma"
           ],
@@ -8121,7 +8121,7 @@
           "vraag": "Wat doet de veldeigenschap 'bijschrift'?",
           "opties": [
             "de tekst die als kolomnaam getoond wordt",
-            "een opmerking die verborgen blijft",
+            "een opmerking die verborgen blijft voor wie de tabel opent",
             "een controle op de invoer",
             "het gegevenstype van het veld"
           ],

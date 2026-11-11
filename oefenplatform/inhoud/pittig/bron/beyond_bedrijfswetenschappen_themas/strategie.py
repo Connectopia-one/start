@@ -36,7 +36,7 @@ VRAGEN = [
         "Een leerling zet \"Ons team spreekt vijf talen\" bij de kansen in de SWOT. Wat is er fout?",
         [
             "Het is een eigenschap van de onderneming zelf, dus een sterkte",
-            "Het is een bedreiging, want talen zijn duur",
+            "Het is een bedreiging, want talen leren en betalen kost de onderneming veel geld",
             "Er is niets fout: alles wat helpt, is een kans",
             "Het hoort niet in een SWOT, want het gaat over personeel",
         ],
@@ -47,7 +47,7 @@ VRAGEN = [
         "Waarom maak je eerst een SWOT-analyse voor je een strategie kiest?",
         [
             "Om sterktes te gebruiken voor kansen en zwaktes te beschermen tegen bedreigingen",
-            "Omdat de wet dat oplegt bij de oprichting van een vennootschap",
+            "Omdat de wet dat oplegt bij de oprichting van een vennootschap of een eenmanszaak",
             "Om de belastingen van het volgende jaar te berekenen",
             "Om de lonen van het personeel vast te leggen",
         ],
@@ -140,7 +140,7 @@ VRAGEN = [
         "Een starter vraagt een lening voor zijn foodtruck. Waarom vraagt de bank zijn ondernemingsplan?",
         [
             "Om te zien of het project haalbaar is en of hij de lening kan terugbetalen",
-            "Omdat de bank zelf mee de foodtruck wil uitbaten",
+            "Omdat de bank zelf mee de foodtruck wil uitbaten en de winst wil delen met de starter",
             "Om de belastingen van de starter te berekenen",
             "Omdat een ondernemingsplan de lening overbodig maakt",
         ],
@@ -284,7 +284,7 @@ VRAGEN = [
                 [
                     "Apothekers en winkeliers bevragen over hoe vaak ze iets laten leveren",
                     "Het aantal fietsen in België opzoeken",
-                    "Zijn vrienden vragen of ze graag fietsen",
+                    "Zijn vrienden en familie vragen of ze graag en vaak met de fiets rijden",
                     "Niets onderzoeken, want er is geen concurrent",
                 ],
                 0,

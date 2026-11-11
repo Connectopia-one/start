@@ -161,7 +161,7 @@ VRAGEN = [
         "Een bedrijf ziet dat veel nieuwe werknemers binnen het jaar vertrekken. Welke maatregel past het best?",
         [
             "Het onthaal en de begeleiding van nieuwe werknemers verbeteren",
-            "Enkel nog tijdelijke contracten aanbieden",
+            "Enkel nog tijdelijke contracten aanbieden aan alle nieuwe werknemers",
             "Stoppen met het meten van het personeelsverloop",
             "De selectie volledig overlaten aan toeval",
         ],
@@ -194,7 +194,7 @@ VRAGEN = [
         "Waarom is hrm belangrijk voor het hele bedrijfsbeleid?",
         [
             "Gemotiveerde en goed opgeleide mensen zijn nodig om de doelen te halen",
-            "Hrm bepaalt de verkoopprijs van alle producten",
+            "Hrm bepaalt de verkoopprijs van alle producten en diensten van het bedrijf",
             "Zonder hrm moet een bedrijf geen belastingen betalen",
             "Hrm is enkel belangrijk voor bedrijven met meer dan 1 000 werknemers",
         ],
@@ -223,7 +223,7 @@ VRAGEN = [
     ),
     mk(
         "Een werknemer krijgt elke maand 100 euro extra als zijn team de productiedoelen haalt. Welke beloning is dit?",
-        ["Een financiële beloning op basis van prestaties", "Een niet-financiële motivatie", "Een cafetariaplan", "Outplacement"],
+        ["Een financiële beloning op basis van prestaties", "Een niet-financiële motivatie, zoals erkenning van de baas", "Een cafetariaplan", "Outplacement"],
         0,
         "Het is geld, gekoppeld aan prestaties: een financiële beloningstechniek.",
     ),

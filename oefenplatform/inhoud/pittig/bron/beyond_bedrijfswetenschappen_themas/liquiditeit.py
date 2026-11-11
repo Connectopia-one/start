@@ -110,7 +110,7 @@ VRAGEN = [
         "Een onderneming heeft een current ratio van 1,6 en een quick ratio van 0,6. Wat besluit je?",
         [
             "Een groot deel van de courante activa zit vast in voorraad",
-            "De onderneming heeft veel geld op de bank",
+            "De onderneming heeft veel geld op de bank staan, meer dan ze nodig heeft",
             "De klanten betalen heel snel",
             "De onderneming heeft geen schulden op korte termijn",
         ],
@@ -137,7 +137,7 @@ VRAGEN = [
         "Een supermarkt heeft een negatieve netto te financieren periode. Hoe kan dat?",
         [
             "Klanten betalen meteen, en de leveranciers pas later",
-            "De supermarkt betaalt haar leveranciers vooraf",
+            "De supermarkt betaalt haar leveranciers vooraf, nog voor de levering",
             "De voorraad ligt maanden in de rekken",
             "De klanten krijgen lang krediet",
         ],
@@ -148,7 +148,7 @@ VRAGEN = [
         "Een onderneming wil haar netto te financieren periode met 10 dagen verkorten. Welke maatregel helpt?",
         [
             "Met de leveranciers 10 dagen langer betalingsuitstel afspreken",
-            "De klanten 10 dagen langer laten betalen",
+            "De klanten 10 dagen langer laten betalen voor hun bestellingen",
             "10 dagen meer voorraad aanhouden",
             "De leveranciers 10 dagen sneller betalen",
         ],
@@ -169,7 +169,7 @@ VRAGEN = [
         "Waarom gebruik je bij de omlooptijd van de voorraad de kostprijs van de verkochte goederen en niet de omzet?",
         [
             "De voorraad staat in de boeken aan aankoopprijs, niet aan verkoopprijs",
-            "De omzet bevat btw die je niet mag gebruiken",
+            "De omzet bevat btw die je niet mag gebruiken bij een ratio over de voorraad",
             "De kostprijs is altijd kleiner, zodat het cijfer mooier lijkt",
             "De omzet staat niet in de jaarrekening",
         ],

@@ -192,7 +192,7 @@ VRAGEN = [
         "Wat is het verschil tussen zorgverlof en tijdskrediet?",
         [
             "Zorgverlof dient om een familielid te verzorgen, tijdskrediet kan ook om andere redenen",
-            "Zorgverlof is altijd betaald door de werkgever, tijdskrediet nooit",
+            "Zorgverlof is altijd volledig betaald door de werkgever, tijdskrediet nooit, door niemand",
             "Tijdskrediet beëindigt de overeenkomst, zorgverlof schorst ze",
             "Er is geen verschil: het zijn twee namen voor hetzelfde",
         ],
@@ -228,7 +228,7 @@ VRAGEN = [
     ),
     mk(
         "Bij welke gebeurtenis heeft een werknemer recht op klein verlet?",
-        ["Het huwelijk van zijn dochter", "Een tandartsbezoek", "Een dag zonder bestellingen", "Een staking"],
+        ["Het huwelijk van zijn dochter", "Een tandartsbezoek tijdens de werkuren", "Een dag zonder bestellingen", "Een staking"],
         0,
         "Klein verlet is afwezigheid met behoud van loon bij bepaalde familiegebeurtenissen.",
     ),

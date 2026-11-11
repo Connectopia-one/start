@@ -77,7 +77,7 @@ VRAGEN = [
         "Waarom staat de naam van de klant niet in de tabel Bestellingen?",
         [
             "Om redundantie te vermijden: de naam staat één keer in Klanten",
-            "Omdat namen niet in een databank mogen",
+            "Omdat namen van personen om privacyredenen niet in een databank mogen staan",
             "Omdat Bestellingen geen tekstvelden mag hebben",
             "Omdat de naam de primaire sleutel is",
         ],
@@ -163,7 +163,7 @@ VRAGEN = [
         "In de tabel heet een veld Klantnr, maar in het formulier wil je 'Klantnummer' zien. Welke veldeigenschap stel je in, en wat doet ze?",
         [
             "Ze bepaalt welke naam je in formulieren boven het veld ziet",
-            "Ze bepaalt hoeveel tekens het veld mag bevatten",
+            "Ze bepaalt hoeveel tekens het veld mag bevatten, met een maximum",
             "Ze vult automatisch een waarde in",
             "Ze controleert of de invoer juist is",
         ],
@@ -201,7 +201,7 @@ VRAGEN = [
         "Je zet een filter op Gemeente = Genk in de tabel Klanten. Wat gebeurt er met de andere klanten?",
         [
             "Ze worden tijdelijk verborgen en blijven in de tabel",
-            "Ze worden definitief uit de tabel gewist",
+            "Ze worden definitief uit de tabel gewist en zijn niet meer terug te halen",
             "Ze worden naar een nieuwe tabel gekopieerd",
             "Hun gemeente wordt veranderd in Genk",
         ],

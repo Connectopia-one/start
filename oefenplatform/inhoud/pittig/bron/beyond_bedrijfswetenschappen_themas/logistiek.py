@@ -150,7 +150,7 @@ VRAGEN = [
         "Waarom heeft een bedrijf met een pullmodel meestal minder voorraad dan een bedrijf met een pushmodel?",
         [
             "Het produceert pas als er een bestelling is",
-            "Het mag wettelijk geen voorraad hebben",
+            "Het mag van de wet geen voorraad hebben in zijn magazijn",
             "Het verkoopt minder producten",
             "Het betaalt geen bewaarkosten",
         ],
@@ -199,7 +199,7 @@ VRAGEN = [
         [
             "Goede wegen en havens, een vlotte douane en betrouwbare leveringen",
             "Veel inwoners en een groot grondgebied",
-            "Een hoge winst van de transportbedrijven in dat land",
+            "Een hoge winst van alle transportbedrijven die in dat land gevestigd zijn",
             "Een lage prijs van diesel aan de pomp",
         ],
         0,
@@ -210,7 +210,7 @@ VRAGEN = [
         [
             "Logistiek gaat over de goederenstroom in één bedrijf, supply chain over de hele keten van leverancier tot klant",
             "Supply chain gaat enkel over de verkoop aan de klant",
-            "Logistiek gaat enkel over vrachtwagens, supply chain over schepen",
+            "Logistiek gaat enkel over de vrachtwagens van het bedrijf, supply chain over alle schepen en vliegtuigen in de wereld",
             "Er is geen verschil: het zijn twee namen voor hetzelfde",
         ],
         0,

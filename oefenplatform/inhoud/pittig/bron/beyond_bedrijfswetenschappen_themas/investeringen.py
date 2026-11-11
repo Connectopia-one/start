@@ -149,7 +149,7 @@ VRAGEN = [
         "Twee projecten hebben elk een NCW van 5 000 euro. Project A vraagt 20 000 euro investering, project B 200 000 euro. Welke vergelijking helpt om te kiezen?",
         [
             "De ROI of het rendement per geïnvesteerde euro",
-            "Enkel de NCW, want die is gelijk",
+            "Enkel de NCW, want die is gelijk en zegt dus alles wat je moet weten",
             "Enkel de investering: kies altijd de grootste",
             "De afschrijving van het eerste jaar",
         ],
@@ -196,7 +196,7 @@ VRAGEN = [
         "Waarom tel je de afschrijving op bij de nettowinst om de cashflow te vinden?",
         [
             "Ze verlaagde de winst, maar er ging geen geld voor buiten",
-            "Afschrijvingen zijn een opbrengst",
+            "Afschrijvingen zijn een opbrengst die de winst van het jaar verhoogt",
             "De fiscus betaalt de afschrijving terug",
             "Zo wordt de winst mooier voor de aandeelhouders",
         ],

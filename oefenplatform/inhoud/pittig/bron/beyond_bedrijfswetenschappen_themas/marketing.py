@@ -124,7 +124,7 @@ VRAGEN = [
         "Een nieuwe smartwatch komt op de markt aan een hoge prijs. Na een jaar daalt de prijs stap voor stap. Welke prijsstrategie is dit, en waarom werkt ze hier?",
         [
             "Afroomprijs: fans betalen eerst veel voor een vernieuwend product",
-            "Penetratieprijs: een lage prijs om snel veel klanten te winnen",
+            "Penetratieprijs: een lage prijs om snel heel veel klanten te winnen",
             "Penetratieprijs: de prijs daalt omdat het product mislukt",
             "Afroomprijs: de prijs blijft voor altijd hoog",
         ],
@@ -265,7 +265,7 @@ VRAGEN = [
                 "Hoe verandert haar distributie?",
                 [
                     "Van exclusief naar veel intensiever",
-                    "Van intensief naar exclusief",
+                    "Van intensief naar exclusief, met minder verkooppunten",
                     "Ze blijft gelijk",
                     "Van selectief naar enkel online",
                 ],

@@ -128,7 +128,7 @@ VRAGEN = [
         "Waarom gebruik je 58000 Interne overboekingen bij een storting van kas naar bank, in plaats van rechtstreeks 55000 debet en 57000 credit?",
         [
             "Kas en bank worden apart geboekt, vaak op een ander moment en van een ander stuk",
-            "Omdat er btw op een storting zit die apart moet staan",
+            "Omdat er btw op een storting zit die apart moet staan in de boekhouding van de onderneming",
             "Omdat 58000 een kostenrekening is",
             "Omdat de bank anders twee keer zou stijgen",
         ],

@@ -180,7 +180,7 @@ VRAGEN = [
         "Bij een verticale analyse stijgt het aandeel van het vreemd vermogen op korte termijn van 20 % naar 35 %, bij een gelijk balanstotaal. Wat besluit je?",
         [
             "De onderneming steunt meer op schulden die snel terug moeten",
-            "De onderneming werd rendabeler",
+            "De onderneming werd rendabeler in de loop van het jaar en verdiende meer",
             "Het eigen vermogen is zeker gestegen",
             "De onderneming verkocht een deel van haar machines",
         ],
@@ -217,7 +217,7 @@ VRAGEN = [
         "Een onderneming heeft langdurende activa van 800 000 euro, eigen vermogen 300 000 euro en vreemd vermogen op lange termijn 400 000 euro. Wat is het grootste probleem?",
         [
             "100 000 euro langdurende activa zijn met kortlopende schulden gefinancierd",
-            "Er is te veel eigen vermogen tegenover het vreemd vermogen",
+            "Er is te veel eigen vermogen tegenover het vreemd vermogen op lange termijn",
             "Het nettobedrijfskapitaal is te groot",
             "De onderneming heeft geen langdurende activa nodig",
         ],

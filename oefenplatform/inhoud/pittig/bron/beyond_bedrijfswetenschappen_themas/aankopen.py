@@ -148,7 +148,7 @@ VRAGEN = [
         "Waarom boek je terugstuurbare verpakking niet als kost?",
         [
             "Je krijgt het bedrag terug als je de verpakking terugstuurt",
-            "Verpakking is gratis en heeft geen waarde",
+            "Verpakking is gratis en heeft voor de onderneming geen waarde",
             "Verpakking is een investeringsgoed van klasse 2",
             "Het bedrag wordt bij de btw opgeteld",
         ],

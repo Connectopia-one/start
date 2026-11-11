@@ -152,7 +152,7 @@ VRAGEN = [
         "Een werknemer krijgt 1 000 euro opslag en valt daardoor voor een deel in een hogere schijf. Een collega zegt: \"Nu verdien je netto minder dan vroeger.\" Klopt dat?",
         [
             "Nee: enkel het stuk boven de grens krijgt het hogere tarief",
-            "Ja: het hele inkomen krijgt nu het hogere tarief",
+            "Ja: het hele inkomen krijgt nu het hogere tarief, ook het stuk eronder",
             "Ja: de belastingvrije som valt weg bij een opslag",
             "Nee: opslag wordt nooit belast in de personenbelasting",
         ],

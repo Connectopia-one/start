@@ -194,7 +194,7 @@ VRAGEN = [
         "Waarom is een heel lage solvabiliteit gevaarlijk, ook als de onderneming nu winst maakt?",
         [
             "Bij tegenvallende resultaten blijven de interest en de aflossingen wel verschuldigd",
-            "Een lage solvabiliteit betekent dat de onderneming geen klanten heeft",
+            "Een lage solvabiliteit betekent dat de onderneming nog geen vaste klanten heeft opgebouwd",
             "De fiscus belast ondernemingen met een lage solvabiliteit hoger",
             "Een lage solvabiliteit maakt de voorraad duurder",
         ],

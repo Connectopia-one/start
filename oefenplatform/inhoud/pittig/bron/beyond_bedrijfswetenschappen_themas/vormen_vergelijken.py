@@ -125,7 +125,7 @@ VRAGEN = [
         "Waarom kiest een ondernemer met een hoge winst vaak voor een vennootschap in plaats van een eenmanszaak?",
         [
             "Het tarief van de vennootschapsbelasting ligt lager dan de hoogste schijf van de personenbelasting",
-            "Een vennootschap hoeft nooit belasting te betalen op haar winst",
+            "Een vennootschap hoeft nooit belasting te betalen op de winst die ze in België maakt, hoe hoog die ook is",
             "Een vennootschap hoeft geen boekhouding bij te houden",
             "In een vennootschap moet je geen voorafbetalingen doen",
         ],

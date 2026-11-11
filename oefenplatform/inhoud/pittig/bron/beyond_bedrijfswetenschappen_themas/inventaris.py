@@ -218,7 +218,7 @@ VRAGEN = [
         [
             "Om de kost van de machine te spreiden over de jaren dat je ze gebruikt",
             "Om geld opzij te zetten op een spaarrekening voor een nieuwe machine",
-            "Omdat de fiscus dat geld elk jaar int",
+            "Omdat de fiscus dat geld elk jaar int bij de onderneming, samen met de belastingen",
             "Om de btw op de machine terug te vorderen",
         ],
         0,

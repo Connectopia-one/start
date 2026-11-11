@@ -170,7 +170,7 @@ VRAGEN = [
         "Een meubelmaker rekent voor al zijn producten hetzelfde opslagpercentage voor indirecte kosten. Wat is daar het nadeel van?",
         [
             "Ze rekent één percentage voor alle indirecte kosten, ongeacht welke afdeling ze veroorzaakt",
-            "Ze vergeet de directe kosten mee te tellen",
+            "Ze vergeet de directe kosten mee te tellen bij de kostprijs van elk product dat de meubelmaker verkoopt",
             "Ze is enkel toegelaten voor handelsbedrijven",
             "Ze rekent de winst twee keer mee",
         ],

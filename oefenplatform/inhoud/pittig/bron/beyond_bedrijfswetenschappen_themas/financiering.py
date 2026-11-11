@@ -140,7 +140,7 @@ VRAGEN = [
         "Een onderneming financiert een machine van twaalf jaar met een kaskrediet. Wat is het grootste risico?",
         [
             "Het kaskrediet moet terug lang voor de machine het geld heeft opgebracht",
-            "Een kaskrediet mag niet gebruikt worden voor een onderneming",
+            "Een kaskrediet mag wettelijk niet gebruikt worden door een onderneming met een machinepark",
             "De machine wordt eigendom van de bank",
             "De interest van een kaskrediet is fiscaal niet aftrekbaar",
         ],
@@ -161,7 +161,7 @@ VRAGEN = [
         "Waarom kan een starter met weinig eigen vermogen moeilijk een banklening krijgen?",
         [
             "De bank ziet weinig buffer om verliezen op te vangen en wil een waarborg",
-            "Banken lenen nooit aan nieuwe ondernemingen",
+            "Banken lenen nooit aan nieuwe ondernemingen zonder een lange geschiedenis",
             "Een starter mag wettelijk geen schulden hebben",
             "Een starter betaalt geen interest",
         ],
@@ -211,7 +211,7 @@ VRAGEN = [
         "Een belegger twijfelt tussen aandelen en obligaties van dezelfde nv. Wat krijgt hij als obligatiehouder?",
         [
             "Een vaste interest en zijn geld terug op de vervaldag, maar geen stemrecht",
-            "Stemrecht op de algemene vergadering en een deel van de winst",
+            "Stemrecht op de algemene vergadering en elk jaar een deel van de winst als dividend",
             "Een dividend dat elk jaar afhangt van de winst",
             "Een deel van de gebouwen als de nv stopt, vóór de banken",
         ],
@@ -251,7 +251,7 @@ VRAGEN = [
                 [
                     "De reserves gebruiken en de rest met een investeringskrediet",
                     "Alles met een kaskrediet",
-                    "Nieuwe aandeelhouders laten instappen voor het hele bedrag",
+                    "Nieuwe aandeelhouders laten instappen voor het hele bedrag van de bottellijn",
                     "Een straight loan van drie maanden",
                 ],
                 0,

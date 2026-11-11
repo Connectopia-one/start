@@ -62,7 +62,7 @@ VRAGEN = [
         "Waarom staat de waardepropositie in het midden van het canvas?",
         [
             "Alles links maakt ze mogelijk, alles rechts brengt ze bij de klant",
-            "Omdat ze de grootste kost van de onderneming is",
+            "Omdat ze de grootste kost van de onderneming is en dus het meeste aandacht vraagt",
             "Omdat ze enkel voor de aandeelhouders belangrijk is",
             "Omdat ze elke maand verandert",
         ],
@@ -146,7 +146,7 @@ VRAGEN = [
         "Een onderneming heeft enkel cash cows en dogs. Wat is het grootste gevaar op lange termijn?",
         [
             "Er komen geen nieuwe groeiproducten om de cash cows later te vervangen",
-            "Ze verdient vandaag te weinig geld",
+            "Ze verdient vandaag te weinig geld met haar producten om nog te overleven",
             "Ze investeert te veel in nieuwe producten",
             "De markt groeit te snel voor haar",
         ],
@@ -256,7 +256,7 @@ VRAGEN = [
                 "Welke beslissing past bij de chocolademelk in glazen fles?",
                 [
                     "Afbouwen of verkopen, tenzij ze om een andere reden nodig is",
-                    "Fors investeren in een grote reclamecampagne op televisie",
+                    "Fors investeren in een grote reclamecampagne op televisie en op sociale media",
                     "Een nieuwe fabriek bouwen enkel voor de glazen flessen",
                     "De productie verdubbelen",
                 ],

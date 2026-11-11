@@ -6,7 +6,7 @@ from bwr_hulp import M, W, I
 
 DEEL1 = [
     M("Wat meet de liquiditeit van een onderneming?",
-      ["of ze haar schulden op korte termijn kan betalen", "of ze genoeg winst maakt op haar vermogen", "of ze genoeg eigen vermogen heeft", "of ze genoeg personeel heeft voor de productie"], 0,
+      ["of ze haar schulden op korte termijn kan betalen", "of ze genoeg winst maakt op haar vermogen in het boekjaar", "of ze genoeg eigen vermogen heeft", "of ze genoeg personeel heeft voor de productie"], 0,
       "Liquiditeit gaat over de korte termijn."),
     M("Hoe bereken je de current ratio (liquiditeit in ruime zin)?",
       ["courante activa / vreemd vermogen op korte termijn", "eigen vermogen / totaal vermogen", "winst / eigen vermogen", "vreemd vermogen / eigen vermogen"], 0,
@@ -33,7 +33,7 @@ DEEL1 = [
     W("Bij de berekening van het klantenkrediet tel je de btw bij de omzet, omdat de vorderingen inclusief btw zijn.", True,
       "Zo vergelijk je bedragen van dezelfde soort."),
     M("Wat meet het leverancierskrediet?",
-      ["hoeveel dagen de onderneming wacht om haar leveranciers te betalen", "hoeveel leveranciers de onderneming heeft", "hoeveel dagen klanten nodig hebben om te betalen", "hoeveel korting de leverancier geeft"], 0,
+      ["hoeveel dagen de onderneming wacht om haar leveranciers te betalen", "hoeveel leveranciers de onderneming heeft", "hoeveel dagen klanten gemiddeld nodig hebben om hun facturen te betalen", "hoeveel korting de leverancier geeft"], 0,
       "Een langer leverancierskrediet is voor de onderneming gunstig, zolang de relatie goed blijft."),
     M("Handelsschulden 48 400 euro, aankopen 400 000 euro excl. btw, btw 21 %. Hoeveel dagen leverancierskrediet?",
       ["36,5 dagen", "44,2 dagen", "30 dagen", "48,4 dagen"], 0,
@@ -63,7 +63,7 @@ DEEL1 = [
 
 DEEL2 = [
     M("Current ratio 0,7. Wat betekent dat?",
-      ["de kortlopende schulden zijn groter dan de courante activa", "de onderneming maakt verlies", "de onderneming heeft geen schulden", "de voorraad is te klein"], 0,
+      ["de kortlopende schulden zijn groter dan de courante activa", "de onderneming maakt verlies in het lopende boekjaar en de vorige jaren", "de onderneming heeft geen schulden", "de voorraad is te klein"], 0,
       "Er is onvoldoende om de kortlopende schulden te dekken met courante activa."),
     W("Een negatief nettobedrijfskapitaal gaat samen met een current ratio kleiner dan 1.", True,
       "Allebei betekenen dat courante activa kleiner zijn dan de kortlopende schulden."),
@@ -74,7 +74,7 @@ DEEL2 = [
       ["1,25", "1.25"],
       "(80 000 + 20 000 + 25 000) / 100 000 = 1,25."),
     M("Klantenkrediet 60 dagen, betalingstermijn op de factuur 30 dagen. Wat besluit je?",
-      ["klanten betalen gemiddeld te laat", "klanten betalen te vroeg", "alles is in orde", "de leveranciers betalen te laat"], 0,
+      ["klanten betalen gemiddeld te laat", "klanten betalen te vroeg, nog voor de factuur verstuurd is", "alles is in orde", "de leveranciers betalen te laat"], 0,
       "Een maatregel kan zijn: herinneringen sturen of korting geven bij snelle betaling."),
     W("Een leverancierskrediet dat veel langer is dan de afgesproken termijn, kan de relatie met leveranciers schaden.", True,
       "De onderneming betaalt dan structureel te laat."),
