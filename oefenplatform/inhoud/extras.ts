@@ -128,6 +128,7 @@ export const spellen: Spel[] = [
   { slug: "begrippenarena-economie", icoon: "📊", titel: "Begrippenarena Economie" },
   { slug: "begrippenarena-aardrijkskunde", icoon: "🌋", titel: "Begrippenarena Aardrijkskunde" },
   { slug: "begrippenarena-nederlands", icoon: "📚", titel: "Begrippenarena Nederlands" },
+  { slug: "woordenarena-frans", icoon: "🥖", titel: "Woordenarena Frans" },
   { slug: "wiskunde-dimensie", icoon: "🤖", titel: "De Wiskunde-dimensie" },
   /* Prikkelarme spellen voor het lager (Kim, 9 november 2026): geen klok,
      geen geluid, geen punten, een rustige tip bij een fout. */
@@ -163,6 +164,9 @@ const zevenSpellenAk =
 const zevenSpellenNl =
   "In zeven spellen: een quiz, memory, raad het begrip, boekengalgje, flitskaarten, bingo en de zinsdelenjager, waarin je zelf het gevraagde zinsdeel aantikt.";
 
+const zevenSpellenFr =
+  "In zeven spellen: een quiz, memory, raad het woord, Eiffeltorengalgje, flitskaarten, bingo en le of la?, waarin je kiest of een woord mannelijk of vrouwelijk is.";
+
 export const spelKaarten: SpelKaart[] = [
   /* Lagere school */
   {
@@ -192,6 +196,13 @@ export const spelKaarten: SpelKaart[] = [
     niveau: "🧱 Basis en 🌱 Start · 5de en 6de leerjaar",
     niveauInSpel: "lager",
     tekst: `De taalwoorden van de lagere school, van hoofdgedachte en persoonsvorm tot fabel en cliffhanger. ${zevenSpellenNl}`,
+  },
+  {
+    spel: "woordenarena-frans",
+    school: "lager",
+    niveau: "🧱 Basis en 🌱 Start · 5de en 6de leerjaar",
+    niveauInSpel: "lager",
+    tekst: `Bijna honderdvijftig Franse woorden uit de leerbundels: de dagen, de familie, de school, de markt, de dieren en de zee. ${zevenSpellenFr}`,
   },
   {
     spel: "wiskunde-dimensie",
@@ -266,6 +277,13 @@ export const spelKaarten: SpelKaart[] = [
     tekst: `Honderd begrippen uit de tien leerbundels Nederlands van Spark, van tekstsoorten en signaalwoorden tot beeldspraak en zinsdelen. ${zevenSpellenNl}`,
   },
   {
+    spel: "woordenarena-frans",
+    school: "middelbaar",
+    niveau: "✨ Spark · 1ste en 2de middelbaar",
+    niveauInSpel: "spark",
+    tekst: `Ruim tweehonderdvijftig Franse woorden uit de leerbundels van Spark, van eten en drinken en de school tot mensen beschrijven en de tijd. ${zevenSpellenFr}`,
+  },
+  {
     spel: "woordenarena-engels",
     school: "middelbaar",
     niveau: "✨ Spark · 1ste en 2de middelbaar",
@@ -292,6 +310,13 @@ export const spelKaarten: SpelKaart[] = [
     niveau: "🚀 Boost · 2de graad, doorstroom en dubbele finaliteit",
     niveauInSpel: "boost",
     tekst: `Ruim honderdvijfentwintig begrippen, van ruis en framing tot woordsoorten, zinsdelen, vertelperspectief en rijmschema's. ${zevenSpellenNl}`,
+  },
+  {
+    spel: "woordenarena-frans",
+    school: "middelbaar",
+    niveau: "🚀 Boost · 2de graad, doorstroom en dubbele finaliteit",
+    niveauInSpel: "boost",
+    tekst: `Bijna tweehonderd Franse woorden, van op restaurant en de mens tot de samenleving en de woorden van de grammatica. ${zevenSpellenFr}`,
   },
 
   {
@@ -354,6 +379,13 @@ export const spelKaarten: SpelKaart[] = [
     niveau: "🌍 Beyond · 3de graad, doorstroom en dubbele finaliteit",
     niveauInSpel: "beyond",
     tekst: `Honderdvijfenvijftig begrippen in negentien hoofdstukken, van drogredenen en stijlfiguren tot literaire stromingen, semantiek en zinsbouw. ${zevenSpellenNl}`,
+  },
+  {
+    spel: "woordenarena-frans",
+    school: "middelbaar",
+    niveau: "🌍 Beyond · 3de graad, doorstroom en dubbele finaliteit",
+    niveauInSpel: "beyond",
+    tekst: `Vijfenzeventig Franse woorden voor literatuur, mens en samenleving, met verbindingswoorden en uitdrukkingen om je mening te geven. ${zevenSpellenFr}`,
   },
 
 
