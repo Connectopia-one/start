@@ -208,7 +208,7 @@ VRAGEN = [
             ["het streven van een staat om zijn macht over andere gebieden uit te breiden", "Imperialisme"],
             ["één vorm daarvan, met vestiging en bestuur ter plaatse", "Kolonialisme"],
         ],
-        ["Periodisering"],
+        ["Absolutisme"],
         "Kolonialisme is een vorm van imperialisme. De twee betekenen dus niet hetzelfde.",
     ),
     tabel(
@@ -274,7 +274,7 @@ VRAGEN = [
         [
             mk(
                 "Welke fout maakt de leerling in de eerste zin?",
-                ["Een anachronisme", "Een periodisering", "Een capitulatie", "Een vergelijking"],
+                ["Een anachronisme", "Een veralgemening", "Een capitulatie", "Een vergelijking"],
                 0,
                 "België bestond in 1302 nog niet. Iets in de verkeerde tijd plaatsen is een anachronisme.",
             ),
