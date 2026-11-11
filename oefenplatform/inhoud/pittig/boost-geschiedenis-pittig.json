@@ -3248,6 +3248,511 @@
           ]
         }
       ]
+    },
+    {
+      "titel": "Amerika, Frankrijk en de industriële omwenteling — pittig",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "sorteren",
+          "vraag": "Was dit een oorzaak van de Amerikaanse Revolutie of niet?",
+          "kolommen": [
+            "Oorzaak",
+            "Geen oorzaak"
+          ],
+          "items": [
+            [
+              "belastingen zonder vertegenwoordiging in Londen",
+              "Oorzaak"
+            ],
+            [
+              "Londen bepaalde met wie de kolonies mochten handelen",
+              "Oorzaak"
+            ],
+            [
+              "verlichte ideeën over vrijheid en natuurlijke rechten",
+              "Oorzaak"
+            ],
+            [
+              "een grote hongersnood in de kolonies",
+              "Geen oorzaak"
+            ]
+          ],
+          "uitleg": "Belastingen, handelsregels en verlichte ideeën. Van een hongersnood was geen sprake."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betwistten de kolonisten met de leuze no taxation without representation?",
+          "opties": [
+            "Niet de belasting zelf, maar wie ze mocht opleggen",
+            "Dat er ooit nog enige belasting op thee betaald moest worden",
+            "Dat de Engelse koning een katholiek geloof aanhing",
+            "Dat de kolonisten zelf soldaten moesten leveren aan Engeland"
+          ],
+          "antwoord": 0,
+          "uitleg": "Wie geen vertegenwoordigers in het parlement heeft, mag er ook niet belast worden. Dat is een politieke vraag."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de tijdlijn op het jaar waarin de Onafhankelijkheidsverklaring ondertekend wordt.",
+          "afbeelding_url": "/examenvormen/geschiedenis-boost/tijdlijn-1700-1900.svg",
+          "zones": [
+            [
+              36.9,
+              25,
+              2.6,
+              55
+            ]
+          ],
+          "uitleg": "Op 4 juli 1776, in Philadelphia."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt elke uitspraak over de Amerikaanse Onafhankelijkheidsverklaring?",
+          "rijen": [
+            "Ze stelt dat alle mensen met gelijke rechten geboren worden.",
+            "Ze noemt het recht op leven, vrijheid en het streven naar geluk.",
+            "Ze schafte meteen de slavernij af."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false
+          ],
+          "uitleg": "De slavernij bleef bestaan. Dat maakt de spanning in die tekst meteen zichtbaar."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt elke uitspraak over de nieuwe Amerikaanse staat?",
+          "rijen": [
+            "Het is een republiek met een verkozen president.",
+            "Bevoegdheden liggen bij de staten én bij de unie.",
+            "De grondwet scheidt de machten strikt.",
+            "Aan het hoofd staat een erfelijke koning."
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Een federale republiek met een strikte scheiding der machten, zonder koning."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wie kreeg volgens de eerste Amerikaanse grondwet geen stemrecht? (meerdere antwoorden)",
+          "opties": [
+            "Vrouwen",
+            "Tot slaaf gemaakte mensen",
+            "Inheemse volkeren",
+            "Witte mannen met bezit"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Vrouwen, tot slaaf gemaakte mensen en inheemse volkeren bleven uitgesloten. In veel staten moest je bezit hebben."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Was dit een oorzaak van de Franse Revolutie of niet?",
+          "kolommen": [
+            "Oorzaak",
+            "Geen oorzaak"
+          ],
+          "items": [
+            [
+              "de staatskas was leeg na dure oorlogen",
+              "Oorzaak"
+            ],
+            [
+              "de derde stand betaalde de belastingen maar had niets te zeggen",
+              "Oorzaak"
+            ],
+            [
+              "misoogsten deden de broodprijs stijgen",
+              "Oorzaak"
+            ],
+            [
+              "Frankrijk was bezet door een vreemd leger",
+              "Geen oorzaak"
+            ]
+          ],
+          "uitleg": "Geld, ongelijkheid en honger. Bezet was Frankrijk niet."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet deze stappen in de juiste volgorde.",
+          "opties": [
+            "De koning roept de Staten-Generaal samen om geld",
+            "De derde stand eist stemming per hoofd in plaats van per stand",
+            "De derde stand verklaart zich tot Nationale Vergadering",
+            "De Bastille wordt bestormd"
+          ],
+          "uitleg": "De vraag om geld liep uit de hand: de derde stand nam zelf het woord, en daarna volgde de straat."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Bekijk het schilderij van de bestorming van de Bastille. Klopt elke uitspraak?",
+          "rijen": [
+            "Het gebouw stond voor de willekeur van de koning.",
+            "Er zaten honderden politieke gevangenen opgesloten.",
+            "De bestorming werd een symbool van de revolutie."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Er zaten nauwelijks gevangenen, maar het gebouw stond voor de willekeur van de koning.",
+          "afbeelding_url": "/examenvormen/geschiedenis-boost/bestorming-bastille.jpg"
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de tijdlijn op het jaar waarin de Bastille bestormd wordt.",
+          "afbeelding_url": "/examenvormen/geschiedenis-boost/tijdlijn-1700-1900.svg",
+          "zones": [
+            [
+              42.5,
+              25,
+              2.6,
+              55
+            ]
+          ],
+          "uitleg": "Op 14 juli 1789."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt elke uitspraak over de Verklaring van de Rechten van de Mens en de Burger?",
+          "rijen": [
+            "Mensen worden vrij en gelijk in rechten geboren.",
+            "De soevereiniteit berust bij de natie.",
+            "Ze waarborgt de vrijheid van mening en van godsdienst.",
+            "Ze gaf vrouwen dezelfde politieke rechten als mannen."
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Vrouwen kregen geen gelijke politieke rechten. Daarom schreef een vrouw in 1791 een eigen verklaring."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Wie schreef in 1791 een eigen verklaring voor de rechten van de vrouw en werd twee jaar later onthoofd?",
+          "antwoord": [
+            "Olympe de Gouges",
+            "de Gouges"
+          ],
+          "uitleg": "Olympe de Gouges."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet de fasen van de Franse Revolutie in de juiste volgorde.",
+          "opties": [
+            "een grondwettelijke monarchie",
+            "een republiek met de Terreur",
+            "het Directoire",
+            "de machtsovername van Napoleon"
+          ],
+          "uitleg": "Een terugkeer naar het absolutisme van voor de revolutie kwam er nooit."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom is de Terreur een tegenspraak binnen de revolutie?",
+          "opties": [
+            "Een revolutie die rechtszekerheid wilde, liet mensen zonder proces terechtstellen",
+            "De Terreur gaf de koning zijn absolute macht van voor de revolutie volledig terug",
+            "Tijdens de Terreur werden de voorrechten van de adel opnieuw ingevoerd",
+            "Tijdens de Terreur werd niemand gestraft, zelfs niet wie echt iets misdaan had"
+          ],
+          "antwoord": 0,
+          "uitleg": "Duizenden werden zonder behoorlijk proces terechtgesteld. Robespierre eindigde onder dezelfde guillotine."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het grootste verschil tussen de Franse samenleving voor en na de revolutie?",
+          "opties": [
+            "Standen met voorrechten maken plaats voor burgers die gelijk zijn voor de wet",
+            "Na de revolutie is er geen enkele ongelijkheid meer tussen rijk en arm",
+            "Na de revolutie mag enkel nog de adel stemmen, de derde stand verliest elk recht",
+            "Na de revolutie is Frankrijk een land zonder wetten, rechtbanken of bestuur"
+          ],
+          "antwoord": 0,
+          "uitleg": "Ongelijkheid verdwijnt daarmee niet, maar ze staat niet langer in de wet."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Wat hebben de Amerikaanse en de Franse Revolutie gemeen? Klopt elke uitspraak?",
+          "rijen": [
+            "Allebei beroepen ze zich op verlichte ideeën.",
+            "Allebei verwerpen ze een gezag waarin de bevolking niet vertegenwoordigd is.",
+            "Allebei leggen ze rechten vast in een geschreven tekst.",
+            "Allebei eindigen ze met een keizer."
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Een keizer komt er enkel in Frankrijk, en pas achteraf."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe beïnvloedde de Amerikaanse Revolutie Frankrijk?",
+          "opties": [
+            "Franse officieren vochten mee en kwamen terug met de ideeën en het bewijs dat het kon",
+            "De Amerikanen stuurden een groot leger over zee om de Franse koning af te zetten",
+            "Ze had geen enkele invloed, want Frankrijk en Amerika hadden toen helemaal geen contact",
+            "De Franse koning nam de Amerikaanse grondwet over"
+          ],
+          "antwoord": 0,
+          "uitleg": "Onder wie Lafayette vocht in Amerika mee."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Is dit een blijvend spoor van het Franse bestuur in onze streken of niet?",
+          "kolommen": [
+            "Blijvend spoor",
+            "Geen spoor"
+          ],
+          "items": [
+            [
+              "de burgerlijke stand, waar geboorte en huwelijk geregistreerd worden",
+              "Blijvend spoor"
+            ],
+            [
+              "een wetboek aan de basis van ons burgerlijk recht",
+              "Blijvend spoor"
+            ],
+            [
+              "het metriek stelsel",
+              "Blijvend spoor"
+            ],
+            [
+              "het Nederlands als bestuurstaal",
+              "Geen spoor"
+            ]
+          ],
+          "uitleg": "Burgerlijke stand, wetboek en meter en kilogram bleven. Bestuurstaal werd het Frans."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de tijdlijn op de periode waarin de industriële revolutie in Groot-Brittannië begint.",
+          "afbeelding_url": "/examenvormen/geschiedenis-boost/tijdlijn-1700-1900.svg",
+          "zones": [
+            [
+              22.5,
+              25,
+              8.7,
+              55
+            ]
+          ],
+          "uitleg": "Vanaf ongeveer 1750. Het is een proces, geen gebeurtenis met een vaste datum."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt elke uitspraak over de industriële revolutie in België?",
+          "rijen": [
+            "België volgde als een van de eerste landen op het vasteland.",
+            "Ze groeide rond Luik, Charleroi en Gent.",
+            "In Seraing bouwde Cockerill een bedrijf dat zijn eigen machines maakte.",
+            "Ze begon in België nog vóór Groot-Brittannië."
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Groot-Brittannië ging voor, België volgde snel."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Hoort deze vernieuwing bij de eerste industriële revolutie of komt ze pas veel later?",
+          "kolommen": [
+            "Eerste industriële revolutie",
+            "Pas veel later"
+          ],
+          "items": [
+            [
+              "de stoommachine",
+              "Eerste industriële revolutie"
+            ],
+            [
+              "machines om te spinnen en te weven",
+              "Eerste industriële revolutie"
+            ],
+            [
+              "cokes in plaats van houtskool bij het ijzer",
+              "Eerste industriële revolutie"
+            ],
+            [
+              "de verbrandingsmotor",
+              "Pas veel later"
+            ]
+          ],
+          "uitleg": "Stoom, textielmachines en cokes. De verbrandingsmotor komt pas veel later."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Wat deed elke uitvinder met de stoommachine?",
+          "paren": [
+            [
+              "Newcomen",
+              "bouwde er een om water uit mijnen te pompen"
+            ],
+            [
+              "Watt",
+              "maakte ze veel zuiniger"
+            ]
+          ],
+          "extra": [
+            "bouwde er de eerste auto mee"
+          ],
+          "uitleg": "Een stoommachine zet warmte om in beweging."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Bekijk dit schilderij van gloeiende ijzerovens in de nacht. Waarom draaide alles in deze tijd op steenkool?",
+          "opties": [
+            "Ze stookte de stoomketels en maakte, als cokes, beter ijzer",
+            "Ze was de enige brandstof die de Kerk toeliet in de fabrieken",
+            "Ze werd uit de koloniën ingevoerd en was dus goedkoop",
+            "Ze verving het water als aandrijving van de molens"
+          ],
+          "antwoord": 0,
+          "uitleg": "Steenkool was de brandstof voor de stoom en voor het ijzer.",
+          "afbeelding_url": "/examenvormen/geschiedenis-boost/coalbrookdale.jpg"
+        },
+        {
+          "type": "tabel",
+          "vraag": "Hoe veranderde de organisatie van het werk? Klopt elke uitspraak?",
+          "rijen": [
+            "Het werk wordt opgesplitst in kleine, vaste handelingen.",
+            "Arbeiders werken samen in een fabriek in plaats van thuis.",
+            "Er wordt op vaste uren gewerkt, op het ritme van de machine.",
+            "Eén arbeider maakt een product van begin tot eind."
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Dat één arbeider alles van begin tot eind maakt, is net wat verdwijnt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een manufactuur wordt een fabriek. Wat is daarbij echt nieuw?",
+          "opties": [
+            "Machines doen het zware werk",
+            "Arbeiders werken voor het eerst samen op één en dezelfde plaats",
+            "Arbeiders werken voortaan thuis, met grondstof van een handelaar",
+            "Arbeiders krijgen voor het eerst een loon in geld in plaats van in natura"
+          ],
+          "antwoord": 0,
+          "uitleg": "Samen werken op één plaats deed men al in de manufactuur. Nieuw is de aandrijving, eerst water en daarna stoom."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Is dit een aanbodfactor of een vraagfactor van de industriële revolutie in Groot-Brittannië?",
+          "kolommen": [
+            "Aanbodfactor",
+            "Vraagfactor"
+          ],
+          "items": [
+            [
+              "steenkool en ijzererts in eigen bodem",
+              "Aanbodfactor"
+            ],
+            [
+              "kapitaal uit handel en koloniën",
+              "Aanbodfactor"
+            ],
+            [
+              "arbeidskrachten die vrijkwamen door landbouwvernieuwing",
+              "Aanbodfactor"
+            ],
+            [
+              "een groeiende bevolking thuis",
+              "Vraagfactor"
+            ],
+            [
+              "een groot koloniaal afzetgebied",
+              "Vraagfactor"
+            ]
+          ],
+          "uitleg": "Aanbod maakt de productie mogelijk, vraag gaat over wie het koopt. Je hebt beide nodig."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe hangen de enclosures samen met de fabrieken?",
+          "opties": [
+            "Kleine boeren werden van het land geduwd en belandden in de fabrieken",
+            "Op de omheinde velden werden de eerste grote fabrieken en arbeiderswijken gebouwd",
+            "De enclosures waren de mijnen die de steenkool voor de fabrieken leverden",
+            "De fabrieken maakten de hekken voor de enclosures"
+          ],
+          "antwoord": 0,
+          "uitleg": "Minder handen op het land betekent meer handen voor de fabriek."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom spreekt men van een revolutie, terwijl het meer dan een eeuw duurde?",
+          "opties": [
+            "De gevolgen grijpen zo diep in dat de samenleving een andere wordt",
+            "Het begon met een gewapende opstand van arbeiders tegen de fabriekseigenaars",
+            "Alle belangrijke machines werden in hetzelfde jaar in Engeland uitgevonden",
+            "De koning schafte in één dag de landbouw af"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het gaat niet om snelheid. De technieken groeiden geleidelijk, maar de manier van leven veranderde ingrijpend."
+        },
+        {
+          "casus": "Sara maakt een werkstuk over het leven van fabrieksarbeiders in de 19de eeuw.",
+          "vragen": [
+            {
+              "type": "tabel",
+              "vraag": "Welke bronnen helpen haar? Klopt elke uitspraak?",
+              "rijen": [
+                "verslagen van onderzoekscommissies over de arbeidsomstandigheden",
+                "cijfers over steenkoolproductie en bevolkingsgroei",
+                "kaarten met kolenvelden, kanalen en spoorlijnen",
+                "een roman die vorig jaar over die tijd verscheen"
+              ],
+              "antwoord": [
+                true,
+                true,
+                true,
+                false
+              ],
+              "uitleg": "Een hedendaagse roman is geen bron over die tijd zelf."
+            },
+            {
+              "type": "tabel",
+              "vraag": "Wat zal Sara vinden over de sociale gevolgen? Klopt elke uitspraak?",
+              "rijen": [
+                "De steden groeiden snel en raakten overbevolkt.",
+                "Er ontstond een nieuwe groep fabrieksarbeiders.",
+                "Kinderarbeid en werkdagen van meer dan twaalf uur waren gewoon.",
+                "De sociale ongelijkheid verdween."
+              ],
+              "antwoord": [
+                true,
+                true,
+                true,
+                false
+              ],
+              "uitleg": "De ongelijkheid kreeg een nieuwe vorm: fabriekseigenaars en loonarbeiders."
+            }
+          ]
+        }
+      ]
     }
   ]
 }

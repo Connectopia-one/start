@@ -24,6 +24,7 @@ THEMAS = [
     ("nieuwe_wereld", "De 'Nieuwe' Wereld en de driehoekshandel"),
     ("humanisme_barok", "Humanisme, Reformatie, renaissance en barok"),
     ("vorsten_verlichting", "Vorsten, opstand en de Verlichting"),
+    ("revoluties", "Amerika, Frankrijk en de industriële omwenteling"),
 ]
 
 HOOFDSTUKKEN = [

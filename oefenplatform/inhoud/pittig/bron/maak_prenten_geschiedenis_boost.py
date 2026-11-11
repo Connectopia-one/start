@@ -389,6 +389,34 @@ def nederlanden():
     (UIT / "nederlanden.svg").write_text("\n".join(d) + "\n", encoding="utf-8")
 
 
+# ---------------------------------------------------------------- tijdlijn 1700-1900
+def x_jaar5(jaar):
+    return X0 + (jaar - 1700) / 200 * (X1 - X0)
+
+
+def zone_jaar5(van, tot):
+    return [round(x_jaar5(van) / B * 100, 1), 25, round((x_jaar5(tot) - x_jaar5(van)) / B * 100, 1), 55]
+
+
+def tijdlijn_1700_1900():
+    d = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {B} {H}" width="{B}" height="{H}" font-family="Arial, sans-serif">',
+         f'<rect width="{B}" height="{H}" fill="{ACHTER}"/>',
+         f'<line x1="{X0}" y1="110" x2="{X1}" y2="110" stroke="{GROEN}" stroke-width="5"/>',
+         f'<polygon points="{X1},98 {X1+24},110 {X1},122" fill="{GROEN}"/>']
+    for j in range(1700, 1901, 5):
+        x = x_jaar5(j)
+        if j % 50 == 0:
+            d.append(f'<line x1="{x:.1f}" y1="92" x2="{x:.1f}" y2="128" stroke="{GROEN}" stroke-width="4"/>')
+            d.append(f'<text x="{x:.1f}" y="166" font-size="28" text-anchor="middle" fill="{DONKER}">{j}</text>')
+        elif j % 10 == 0:
+            d.append(f'<line x1="{x:.1f}" y1="98" x2="{x:.1f}" y2="122" stroke="{GROEN}" stroke-width="2.5"/>')
+        else:
+            d.append(f'<line x1="{x:.1f}" y1="104" x2="{x:.1f}" y2="116" stroke="{GROEN}" stroke-width="1.2"/>')
+    d.append(f'<text x="{X0}" y="50" font-size="22" fill="{DONKER}">Een groot streepje om de 50 jaar, een middelgroot om de 10, een klein om de 5 jaar</text>')
+    d.append("</svg>")
+    (UIT / "tijdlijn-1700-1900.svg").write_text("\n".join(d) + "\n", encoding="utf-8")
+
+
 
 if __name__ == "__main__":
     UIT.mkdir(parents=True, exist_ok=True)
@@ -405,6 +433,8 @@ if __name__ == "__main__":
     driehoekshandel()
     perspectief()
     nederlanden()
+    tijdlijn_1700_1900()
+    print("1776", zone_jaar5(1773, 1779), "1789", zone_jaar5(1786, 1792), "1750", zone_jaar5(1740, 1760))
     print("1688", zone_jaar4(1683, 1693), "1566", zone_jaar4(1561, 1571), "80j", zone_jaar4(1568, 1648))
     print("1517", zone_jaar4(1512, 1522), "Trente", zone_jaar4(1545, 1563))
     print("1492", zone_jaar4(1487, 1497), "1498", zone_jaar4(1493, 1503))
