@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 220" width="1000" height="220" font-family="Arial, sans-serif">
+<rect width="1000" height="220" fill="#ffffff"/>
+<defs><marker id="s" markerUnits="userSpaceOnUse" markerWidth="24" markerHeight="24" refX="16" refY="12" orient="auto"><polygon points="0,0 24,12 0,24" fill="#24331b"/></marker></defs>
+<rect x="20" y="40" width="200" height="140" rx="20" fill="#dde8cf" stroke="#2f4a22" stroke-width="4"/>
+<text x="120" y="125" font-size="40" text-anchor="middle" fill="#24331b">stap 1</text>
+<line x1="225" y1="110" x2="263" y2="110" stroke="#24331b" stroke-width="6" marker-end="url(#s)"/>
+<rect x="270" y="40" width="200" height="140" rx="20" fill="#dde8cf" stroke="#2f4a22" stroke-width="4"/>
+<text x="370" y="125" font-size="40" text-anchor="middle" fill="#24331b">stap 2</text>
+<line x1="475" y1="110" x2="513" y2="110" stroke="#24331b" stroke-width="6" marker-end="url(#s)"/>
+<rect x="520" y="40" width="200" height="140" rx="20" fill="#dde8cf" stroke="#2f4a22" stroke-width="4"/>
+<text x="620" y="125" font-size="40" text-anchor="middle" fill="#24331b">stap 3</text>
+<line x1="725" y1="110" x2="763" y2="110" stroke="#24331b" stroke-width="6" marker-end="url(#s)"/>
+<rect x="770" y="40" width="200" height="140" rx="20" fill="#dde8cf" stroke="#2f4a22" stroke-width="4"/>
+<text x="870" y="125" font-size="40" text-anchor="middle" fill="#24331b">stap 4</text>
+</svg>

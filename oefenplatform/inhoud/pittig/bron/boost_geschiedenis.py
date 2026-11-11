@@ -26,6 +26,7 @@ THEMAS = [
     ("vorsten_verlichting", "Vorsten, opstand en de Verlichting"),
     ("revoluties", "Amerika, Frankrijk en de industriële omwenteling"),
     ("ottomanen_vergelijken", "Het Ottomaanse Rijk en samenlevingen vergelijken"),
+    ("bronnen_redeneren", "Redeneren met historische bronnen"),
 ]
 
 HOOFDSTUKKEN = [

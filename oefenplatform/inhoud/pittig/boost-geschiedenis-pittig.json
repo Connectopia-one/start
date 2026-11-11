@@ -4226,6 +4226,478 @@
           ]
         }
       ]
+    },
+    {
+      "titel": "Redeneren met historische bronnen — pittig",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom stelt een historicus eerst een vraag en zoekt hij pas daarna bronnen?",
+          "opties": [
+            "Zonder vraag weet je niet waarnaar je in een bron moet kijken",
+            "Archieven laten enkel wie een vraag heeft binnen in de leeszaal",
+            "Bronnen veranderen van inhoud naargelang de vraag die je stelt",
+            "Een vraag stellen gaat sneller dan bronnen zoeken in een archief"
+          ],
+          "antwoord": 0,
+          "uitleg": "Dezelfde kloosterrekening geeft een ander antwoord aan wie naar voeding vraagt dan aan wie naar arbeid vraagt."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Wanneer is een historische vraag onderzoekbaar? Klopt elke uitspraak?",
+          "rijen": [
+            "Ze is afgebakend in tijd.",
+            "Ze is afgebakend in ruimte.",
+            "Ze is afgebakend binnen maatschappelijke domeinen.",
+            "Er bestaan bruikbare bronnen over.",
+            "Het antwoord past op één bladzijde."
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Tijd, ruimte, domein, het bestaan van bronnen en hun bruikbaarheid. De lengte van het antwoord speelt geen rol."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat ontbreekt vooral aan de vraag 'Welke rol speelden de Arabieren in de internationale handel?'",
+          "opties": [
+            "Een afbakening in tijd",
+            "Een afbakening in ruimte",
+            "Een afbakening binnen een maatschappelijk domein",
+            "Een vraagwoord"
+          ],
+          "antwoord": 0,
+          "uitleg": "Over welke eeuw gaat het? Handel is al een economisch domein, en de ruimte staat er ook in."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Hoort dit bij de eerste stap van de bronnenanalyse of niet?",
+          "kolommen": [
+            "Stap 1",
+            "Niet in stap 1"
+          ],
+          "items": [
+            [
+              "de bron situeren in tijd, ruimte en domein",
+              "Stap 1"
+            ],
+            [
+              "bepalen welke soort bron het is",
+              "Stap 1"
+            ],
+            [
+              "de maker contextualiseren",
+              "Stap 1"
+            ],
+            [
+              "het doelpubliek bepalen",
+              "Stap 1"
+            ],
+            [
+              "uitzoeken wat de bron vandaag waard is",
+              "Niet in stap 1"
+            ]
+          ],
+          "uitleg": "In stap 1 verzamel je informatie over de context. Wat een bron vandaag als voorwerp waard is, hoort in geen enkele stap."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je vindt een brief zonder datum en zonder bekende maker. Wat doe je?",
+          "opties": [
+            "Je noteert dat die gegevens ontbreken, de brief kan nog bruikbaar zijn",
+            "Je gooit de brief meteen weg, want hij is waardeloos",
+            "Je vult zelf een datum in die het best past bij je vraag",
+            "Je doet alsof de brief van een bekende ooggetuige komt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Ook vaststellen wat ontbreekt hoort bij stap 1. De bron kan bruikbaar blijven, als je weet dat dat gat er is."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Is dit een primaire of een secundaire bron over de Franse Revolutie?",
+          "kolommen": [
+            "Primair",
+            "Secundair"
+          ],
+          "items": [
+            [
+              "een dagboek uit 1789",
+              "Primair"
+            ],
+            [
+              "een pamflet dat in 1790 in Parijs verspreid werd",
+              "Primair"
+            ],
+            [
+              "een geschiedenisboek over 1789",
+              "Secundair"
+            ],
+            [
+              "een documentaire uit 2019",
+              "Secundair"
+            ]
+          ],
+          "uitleg": "Primair komt uit de tijd zelf, secundair is er later over gemaakt."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt elke uitspraak over primaire en secundaire bronnen?",
+          "rijen": [
+            "Een primaire bron is automatisch beter.",
+            "Een boek van een historicus is automatisch betrouwbaarder dan een ooggetuigenverslag.",
+            "Je beoordeelt elke bron apart."
+          ],
+          "antwoord": [
+            false,
+            false,
+            true
+          ],
+          "uitleg": "Primair of secundair zegt nog niets over de kwaliteit. Je beoordeelt elke bron apart."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Bekijk de vier vakjes. Welke vorm van bron staat er in elk vakje?",
+          "paren": [
+            [
+              "A",
+              "materiële bron"
+            ],
+            [
+              "B",
+              "geschreven bron"
+            ],
+            [
+              "C",
+              "audiovisuele bron"
+            ],
+            [
+              "D",
+              "mondelinge bron"
+            ]
+          ],
+          "extra": [
+            "denkbeeldige bron"
+          ],
+          "uitleg": "Een muntstuk of scherf is materieel, een brief geschreven, een film audiovisueel en een getuigenis mondeling. Een denkbeeldige bron bestaat niet: een bron is altijd iets wat echt bewaard bleef.",
+          "afbeelding_url": "/examenvormen/geschiedenis-boost/bronvormen.svg"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom zijn archeologische bronnen zo belangrijk voor periodes met weinig geschriften?",
+          "opties": [
+            "Ze vertellen over het dagelijkse leven van mensen die zelf niet schreven",
+            "Ze zijn altijd ouder en dus betrouwbaarder dan een geschreven tekst",
+            "Ze zijn de enige bronnen die een historicus mag aanraken",
+            "Ze vertellen precies wat de mensen toen dachten en geloofden"
+          ],
+          "antwoord": 0,
+          "uitleg": "Wie niet schreef, liet toch voorwerpen, gebouwen en scherven na."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het verschil tussen een ooggetuige en een tijdgenoot?",
+          "opties": [
+            "Een ooggetuige zag het zelf, een tijdgenoot leefde enkel in dezelfde tijd",
+            "Een tijdgenoot zag het zelf, een ooggetuige hoorde het van iemand anders",
+            "Er is geen verschil, het zijn twee woorden voor hetzelfde",
+            "Een ooggetuige schrijft altijd later dan een tijdgenoot"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een tijdgenoot was er daarom nog niet bij."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Wat wil je over de maker van een bron weten? Klopt elke uitspraak?",
+          "rijen": [
+            "wie het is: naam, beroep, afkomst",
+            "welke maatschappelijke positie hij innam",
+            "wie de opdracht gaf en met welk doel",
+            "hoeveel de bron vandaag op een veiling opbrengt"
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Maker, positie en opdrachtgever bepalen mee wat er verteld en verzwegen wordt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Met welke regels houd je rekening bij digitale bronnen?",
+          "opties": [
+            "Herkomst vermelden, auteursrecht respecteren en letten op privacy",
+            "Enkel bronnen gebruiken die meer dan honderd jaar oud zijn",
+            "Elke foto mag je vrij gebruiken zodra hij op het internet staat",
+            "Digitale bronnen hoef je nooit te vermelden"
+          ],
+          "antwoord": 0,
+          "uitleg": "Ethische, sociale en legale regels: herkomst, auteursrecht en privacy bij recent materiaal."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je het dat wie iets vertelt, dat doet vanuit zijn eigen plaats, tijd en belangen? Antwoord met één woord.",
+          "antwoord": [
+            "standplaatsgebondenheid",
+            "de standplaatsgebondenheid"
+          ],
+          "uitleg": "Standplaatsgebondenheid. Een Spaanse en een Nederlandse bron over Alva zijn het schoolvoorbeeld."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een bron is duidelijk vanuit één kant geschreven. Wat betekent dat voor jouw onderzoek?",
+          "opties": [
+            "Ze blijft nuttig: je leert er de blik van de maker uit kennen",
+            "Ze is waardeloos en je laat ze best helemaal weg",
+            "Ze is net de meest betrouwbare, want de maker was erbij betrokken",
+            "Je mag ze enkel gebruiken als niemand anders erover schreef"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een standpunt maakt een bron niet waardeloos. Integendeel, het vertelt je iets over de maker."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Twee bronnen spreken elkaar tegen. Wat doe je?",
+          "opties": [
+            "Je vergelijkt hun context, inhoud en betrouwbaarheid: het verschil is informatie",
+            "Je maakt er zo snel mogelijk één verhaal van en laat de rest weg",
+            "Je kiest de bron die het langst is, want die vertelt het meest",
+            "Je besluit dat de gebeurtenis waarschijnlijk nooit heeft plaatsgevonden"
+          ],
+          "antwoord": 0,
+          "uitleg": "Juist dat verschil is informatie. Je zoekt gelijkenissen en verschillen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarvan hangt de bruikbaarheid van een bron af?",
+          "opties": [
+            "Van jouw historische vraag",
+            "Van de ouderdom van de bron",
+            "Van het aantal bladzijden",
+            "Van de bekendheid van de maker"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een betrouwbare bron over een ander onderwerp is voor jouw vraag onbruikbaar."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Je vraag is: wat aten de monniken van een klooster? Je vindt de rekeningen van het klooster, met aankopen van vis, brood en bier, maar zonder het vlees van de eigen boerderij. Klopt elke uitspraak?",
+          "rijen": [
+            "De rekeningen geven rechtstreekse informatie over je vraag.",
+            "Ze geven maar een gedeeltelijk antwoord.",
+            "Omdat ze maar een deel beantwoorden, zijn ze waardeloos.",
+            "Je legt ze best naast andere bronnen."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Een bron die maar een deel beantwoordt, is nog niet waardeloos: je legt hem naast andere."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welke elementen uit de historische context kunnen de betrouwbaarheid van een bron beïnvloeden? Klopt elke uitspraak?",
+          "rijen": [
+            "De maker hing af van de persoon over wie hij schreef.",
+            "Er heerste censuur.",
+            "De bron werd pas lang na de feiten opgeschreven.",
+            "De tekst is erg lang."
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Afhankelijkheid, censuur en afstand in de tijd. De lengte van de tekst zegt niets."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Welk begrip om een bron kritisch te lezen past bij elke beschrijving?",
+          "paren": [
+            [
+              "uit één of enkele gevallen een besluit over het geheel trekken",
+              "Veralgemening"
+            ],
+            [
+              "een vast, te eenvoudig beeld van een hele groep mensen",
+              "Stereotype"
+            ],
+            [
+              "een mening die al vaststaat voor men de feiten bekeek",
+              "Vooroordeel"
+            ]
+          ],
+          "extra": [
+            "Anachronisme"
+          ],
+          "uitleg": "Drie manieren waarop een bron de werkelijkheid te eenvoudig voorstelt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat doe je in de laatste stap, als je een beargumenteerd antwoord formuleert?",
+          "opties": [
+            "Je kiest informatie uit de bronnen en staaft je antwoord met argumenten",
+            "Je vat elke bron apart samen, de een na de ander",
+            "Je schrijft je eigen mening op, zonder de bronnen te gebruiken",
+            "Je kopieert de langste bron, want die is het volledigst"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een samenvatting van elke bron is nog geen antwoord."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom volstaat één bron niet voor een goed antwoord?",
+          "opties": [
+            "Elke bron is onvolledig en vanuit één plaats gemaakt, samen dekken ze elkaars blinde vlekken",
+            "Eén bron is altijd vervalst",
+            "Leerkrachten willen nu eenmaal altijd minstens drie bronnen",
+            "Eén bron kan nooit over een gebeurtenis gaan"
+          ],
+          "antwoord": 0,
+          "uitleg": "Wat twee onafhankelijke bronnen allebei zeggen, staat sterker dan wat er in één staat."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Dit borduurwerk toont de Slag bij Hastings en werd gemaakt in opdracht van een halfbroer van de overwinnaar. Klopt elke uitspraak?",
+          "rijen": [
+            "De opdrachtgever hoorde bij de winnende kant.",
+            "Je legt het best naast andere bronnen over de slag.",
+            "Omdat het zo groot en zo mooi is, is het betrouwbaar.",
+            "Omdat het van één kant komt, is het waardeloos."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            false
+          ],
+          "uitleg": "Grootte of schoonheid zegt niets over betrouwbaarheid, en een standpunt maakt een bron niet waardeloos.",
+          "afbeelding_url": "/examenvormen/geschiedenis-boost/tapijt-van-bayeux.jpg"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je onderzoekt hoe bloedig de Slag bij Hastings verliep. Wat weegt het zwaarst?",
+          "opties": [
+            "De bronnen samen, na vergelijking en weging van hun betrouwbaarheid",
+            "Een lofdicht van een tijdgenoot op de overwinnaar",
+            "De oudste bron, wat die ook zegt",
+            "Het verslag met de grootste aantallen doden"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een lofdicht op de overwinnaar overdrijft met opzet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Kan er op een historische vraag meer dan één goed antwoord bestaan?",
+          "opties": [
+            "Ja, zolang elk antwoord door de bronnen gedragen wordt",
+            "Nee, er is altijd precies één juist antwoord",
+            "Ja, elke mening is evenveel waard, ook zonder bronnen",
+            "Nee, enkel historici mogen een antwoord geven"
+          ],
+          "antwoord": 0,
+          "uitleg": "Of Karel de Grote de vader van Europa is, hangt af van wat je onder Europa verstaat. Wat telt, is of je antwoord door de bronnen gedragen wordt."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Welke historische redeneerwijze past bij elke beschrijving?",
+          "paren": [
+            [
+              "een verband leggen tussen het verleden en vandaag",
+              "Actualiseren"
+            ],
+            [
+              "iets begrijpen vanuit de tijd waarin het thuishoort",
+              "Historisch contextualiseren"
+            ],
+            [
+              "aangeven welke mensen zelf iets in gang zetten",
+              "Agency benoemen"
+            ],
+            [
+              "elke uitspraak staven met informatie uit een bron",
+              "Bewijs gebruiken"
+            ]
+          ],
+          "extra": [
+            "Periodiseren"
+          ],
+          "uitleg": "Zonder bron is een uitspraak een mening. Het verleden overkwam mensen niet alleen, ze maakten het ook."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Columbus zocht een weg naar Azië en veroorzaakte de kolonisatie van Amerika. Wat voor gevolg is die kolonisatie?",
+          "opties": [
+            "Een onbedoeld gevolg",
+            "Een bedoeld gevolg",
+            "Een oorzaak",
+            "Een continuïteit"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een onbedoeld gevolg nastreefde niemand, maar het kwam er toch."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent meerdere perspectieven hanteren?",
+          "opties": [
+            "Verschillende standpunten kennen en tegen elkaar afwegen",
+            "Elk standpunt is evenveel waard, dus je hoeft niet te kiezen",
+            "Altijd het standpunt van de winnaar volgen",
+            "Enkel standpunten van vandaag gebruiken"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het betekent niet dat elk standpunt evenveel waard is, wel dat je ze kent en weegt."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Bekijk het stappenplan. In welke stap leg je uit hoe de context en het standpunt van de maker de inhoud bepalen? Klik op die stap.",
+          "afbeelding_url": "/examenvormen/geschiedenis-boost/stappenplan.svg",
+          "zones": [
+            [
+              51.0,
+              15.0,
+              22.0,
+              70.0
+            ]
+          ],
+          "uitleg": "Dat is stap 3: daarin interpreteer je de bronnen."
+        },
+        {
+          "casus": "Een kroniekschrijver die leefde van het geld van een graaf, schrijft over een opstand: 'Alle wevers zijn oproerig en lui. Ze kwamen in opstand omdat ze niet wilden werken.'",
+          "vragen": [
+            {
+              "type": "meerkeuze",
+              "vraag": "Welke fouten herken je in de eerste zin? (meerdere antwoorden)",
+              "opties": [
+                "Een veralgemening",
+                "Een stereotype",
+                "Een anachronisme",
+                "Een periodisering"
+              ],
+              "antwoord": [
+                0,
+                1
+              ],
+              "uitleg": "'Alle' maakt het een veralgemening, en de luie wever is een te eenvoudig beeld van een hele groep."
+            },
+            {
+              "type": "open",
+              "vraag": "Kan je deze bron toch gebruiken? Leg uit in twee of drie zinnen.",
+              "antwoord": "Ja, maar niet om te weten waarom de wevers echt in opstand kwamen. De maker hing af van de graaf, dus de bron toont vooral hoe de kant van de graaf naar de opstand keek. Ik leg ze naast een bron van de wevers zelf.",
+              "uitleg": "Een goed antwoord noemt de afhankelijkheid van de maker en zegt waarvoor de bron wél bruikbaar is."
+            }
+          ]
+        }
+      ]
     }
   ]
 }

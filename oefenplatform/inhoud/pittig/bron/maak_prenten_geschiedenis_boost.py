@@ -442,6 +442,57 @@ def ottomaanse_rijk():
     (UIT / "ottomaanse-rijk.svg").write_text("\n".join(d) + "\n", encoding="utf-8")
 
 
+# ---------------------------------------------------------------- bronvormen
+# Vier vakjes met een bron, zonder naam: A muntstuk en scherf, B brief,
+# C filmstrook, D microfoon met tekstballon.
+def bronvormen():
+    W, Hh = 1000, 300
+    d = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {Hh}" width="{W}" height="{Hh}" font-family="Arial, sans-serif">',
+         f'<rect width="{W}" height="{Hh}" fill="{ACHTER}"/>']
+    for i in range(4):
+        d.append(f'<rect x="{15 + i * 247}" y="15" width="230" height="270" rx="20" fill="#f4efe2" stroke="{GROEN}" stroke-width="3"/>')
+    # A: muntstuk en scherf
+    d += ['<circle cx="105" cy="150" r="52" fill="#d9b44a" stroke="#8a6d1f" stroke-width="5"/>',
+          '<circle cx="105" cy="150" r="38" fill="none" stroke="#8a6d1f" stroke-width="2"/>',
+          '<path d="M90 165 q15 -40 30 0 z" fill="#8a6d1f"/>',
+          '<path d="M160 190 l40 -20 l15 35 l-45 20 z" fill="#b9805a" stroke="#6b4f2a" stroke-width="3"/>']
+    # B: brief met lijnen en zegel
+    d += ['<rect x="300" y="80" width="140" height="170" fill="#fff" stroke="#6b4f2a" stroke-width="3"/>']
+    for y in range(105, 230, 18):
+        d.append(f'<line x1="315" y1="{y}" x2="{425 if y < 215 else 380}" y2="{y}" stroke="#555" stroke-width="3"/>')
+    d.append('<circle cx="415" cy="232" r="12" fill="#b03a2e"/>')
+    # C: filmstrook
+    d += ['<rect x="535" y="95" width="180" height="120" fill="#333"/>']
+    for x in range(545, 715, 22):
+        d.append(f'<rect x="{x}" y="102" width="12" height="10" fill="#fff"/><rect x="{x}" y="198" width="12" height="10" fill="#fff"/>')
+    d += ['<rect x="550" y="122" width="70" height="66" fill="#a9cbe6"/><rect x="632" y="122" width="70" height="66" fill="#a9cbe6"/>']
+    # D: microfoon en tekstballon
+    d += ['<rect x="800" y="130" width="40" height="70" rx="20" fill="#555"/>',
+          '<path d="M785 175 q35 50 70 0" stroke="#555" stroke-width="5" fill="none"/>',
+          '<line x1="820" y1="210" x2="820" y2="245" stroke="#555" stroke-width="5"/><line x1="795" y1="245" x2="845" y2="245" stroke="#555" stroke-width="5"/>',
+          '<path d="M860 70 h90 a15 15 0 0 1 15 15 v40 a15 15 0 0 1 -15 15 h-55 l-20 20 v-20 h-15 a15 15 0 0 1 -15 -15 v-40 a15 15 0 0 1 15 -15 z" fill="#fff" stroke="#555" stroke-width="3"/>',
+          '<text x="905" y="112" font-size="28" text-anchor="middle" fill="#555">…</text>']
+    d += [letter(45, 45, "A"), letter(292, 45, "B"), letter(539, 45, "C"), letter(786, 45, "D"), "</svg>"]
+    (UIT / "bronvormen.svg").write_text("\n".join(d) + "\n", encoding="utf-8")
+
+
+# ---------------------------------------------------------------- stappenplan
+# Vier genummerde stappen zonder uitleg. Klikvak stap 3: 51-73 % breed.
+def stappenplan():
+    W, Hh = 1000, 220
+    d = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {Hh}" width="{W}" height="{Hh}" font-family="Arial, sans-serif">',
+         f'<rect width="{W}" height="{Hh}" fill="{ACHTER}"/>',
+         '<defs><marker id="s" markerUnits="userSpaceOnUse" markerWidth="24" markerHeight="24" refX="16" refY="12" orient="auto"><polygon points="0,0 24,12 0,24" fill="#24331b"/></marker></defs>']
+    for i in range(4):
+        x = 20 + i * 250
+        d.append(f'<rect x="{x}" y="40" width="200" height="140" rx="20" fill="#dde8cf" stroke="{GROEN}" stroke-width="4"/>')
+        d.append(f'<text x="{x + 100}" y="125" font-size="40" text-anchor="middle" fill="{DONKER}">stap {i + 1}</text>')
+        if i < 3:
+            d.append(f'<line x1="{x + 205}" y1="110" x2="{x + 243}" y2="110" stroke="{DONKER}" stroke-width="6" marker-end="url(#s)"/>')
+    d.append("</svg>")
+    (UIT / "stappenplan.svg").write_text("\n".join(d) + "\n", encoding="utf-8")
+
+
 
 if __name__ == "__main__":
     UIT.mkdir(parents=True, exist_ok=True)
@@ -460,6 +511,8 @@ if __name__ == "__main__":
     nederlanden()
     tijdlijn_1700_1900()
     ottomaanse_rijk()
+    bronvormen()
+    stappenplan()
     print("1453", zone_jaar4(1448, 1458), "Suleyman", zone_jaar4(1520, 1566))
     print("1776", zone_jaar5(1773, 1779), "1789", zone_jaar5(1786, 1792), "1750", zone_jaar5(1740, 1760))
     print("1688", zone_jaar4(1683, 1693), "1566", zone_jaar4(1561, 1571), "80j", zone_jaar4(1568, 1648))
