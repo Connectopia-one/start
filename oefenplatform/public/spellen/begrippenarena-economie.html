@@ -191,7 +191,7 @@ td.x { color: var(--muted); }
 <div class="wrap" id="app"></div>
 
 <script>
-// Begrippen per hoofdstuk: [begrip, uitleg, extra tip]. Gehaald uit de hoofdstukken economie 🚀 Boost en 🌍 Beyond doorstroom, en bedrijfswetenschappen en recht 🌍 Beyond doorstroom, van Connectopia (9/11/2026).
+// Begrippen per hoofdstuk: [begrip, uitleg, extra tip]. Gehaald uit de hoofdstukken economie 🚀 Boost en 🌍 Beyond doorstroom, toegepaste economie 🚀 Boost dubbele finaliteit (11/11/2026), en bedrijfswetenschappen en recht 🌍 Beyond doorstroom, van Connectopia (9/11/2026).
 const DATA = {
   boost: { label: "BOOST · 2de graad", chapters: [
     { id: "b-behoefte", title: "Behoeften, goederen en de kringloop", terms: [
@@ -284,6 +284,165 @@ const DATA = {
       ["journaal", "Boek waarin verrichtingen in volgorde van datum staan.", "Chronologisch."],
       ["grootboek", "Verzameling van alle rekeningen.", "Per rekening een T-rekening."],
       ["redeneerschema", "Schema waarin je per rekening redeneert: soort, plus of min, debet of credit.", "Hulpmiddel om te boeken."]
+    ]}
+  ]},
+  toegepast: { label: "BOOST DF · toegepaste economie", chapters: [
+    { id: "t-boekhouden", title: "Boekhouden, balans en resultaat", terms: [
+      ["boekhouden", "Alle verrichtingen van een onderneming registreren.", "Elke aankoop, verkoop en betaling wordt genoteerd."],
+      ["verrichting", "Een feit met een gevolg in geld.", "Een aankoop, een verkoop, een betaling."],
+      ["jaarrekening", "Het jaarlijkse financiële verslag van een onderneming.", "Balans, resultatenrekening en toelichting."],
+      ["balans", "Overzicht van wat de zaak bezit en waarmee dat betaald is, op één moment.", "Actief links, passief rechts."],
+      ["resultatenrekening", "Overzicht van de kosten en de opbrengsten over een periode.", "Toont winst of verlies."],
+      ["toelichting", "Het deel van de jaarrekening met uitleg bij de cijfers.", "Het derde deel naast balans en resultatenrekening."],
+      ["actief", "De kant van de balans met wat de onderneming bezit.", "Staat links."],
+      ["passief", "De kant van de balans met waarmee het bezit betaald is.", "Eigen en vreemd vermogen, rechts."],
+      ["vaste activa", "Bezit dat de zaak langer dan een jaar houdt.", "Een gebouw, een machine."],
+      ["vlottende activa", "Bezit dat de zaak maar korte tijd houdt.", "Voorraad, geld op de bank."],
+      ["eigen vermogen", "Het geld van de eigenaars: het bezit min de schulden.", "De winst van het jaar komt erbij."],
+      ["vreemd vermogen", "De schulden van de onderneming.", "Een lening, de leveranciers."],
+      ["beginbalans", "De balans bij de start van het boekjaar.", "Is de eindbalans van vorig jaar."],
+      ["kost", "Wat de zaak verbruikt om te werken.", "Verlaagt het resultaat."],
+      ["opbrengst", "Wat de zaak verdient.", "Verhoogt het resultaat."],
+      ["bedrijfsresultaat", "Bedrijfsopbrengsten min bedrijfskosten.", "Het resultaat van de gewone werking."],
+      ["financieel resultaat", "Financiële opbrengsten min financiële kosten.", "Intresten, bankkosten."],
+      ["winst", "Het resultaat als de opbrengsten groter zijn dan de kosten.", "Bij een negatief verschil heet het verlies."],
+      ["omzet", "De opbrengst uit de verkopen van het jaar.", "Is niet hetzelfde als winst."],
+      ["afschrijving", "De kost van de slijtage van een vast actief, gespreid over de jaren.", "De aankoop zelf is geen kost."]
+    ]},
+    { id: "t-boeken", title: "Dubbel boekhouden en het MAR", terms: [
+      ["dubbel boekhouden", "Elke verrichting raakt twee rekeningen, voor hetzelfde bedrag.", "Debet bij de ene, credit bij de andere."],
+      ["debet", "De linkerkant van een rekening.", "Een kost of een actief stijgt aan deze kant."],
+      ["credit", "De rechterkant van een rekening.", "Een schuld of een opbrengst stijgt aan deze kant."],
+      ["rekening", "Een overzicht van de boekingen per soort.", "Bijvoorbeeld 550 Kredietinstellingen."],
+      ["saldo", "Het verschil tussen debet en credit van één rekening.", "Kan aan de linker- of de rechterkant uitkomen."],
+      ["journaal", "Lijst van alle boekingen in volgorde van datum.", "Het volgt de tijd."],
+      ["grootboek", "Dezelfde boekingen, gegroepeerd per rekening.", "Zo volg je het saldo per rekening."],
+      ["inventaris", "De opmeting van bezit en schulden op het einde van het jaar.", "Staaft de cijfers van de boekhouding."],
+      ["MAR", "Het minimum algemeen rekeningstelsel, de vaste lijst met rekeningnummers.", "Telt zeven klassen; je krijgt het op het examen."],
+      ["klasse", "Groep van rekeningen in het MAR met hetzelfde eerste cijfer.", "1 tot 5 op de balans, 6 en 7 in de resultatenrekening."],
+      ["redeneerschema", "De vaste manier om tot een boeking te komen.", "Met de letters A, P, K en O."],
+      ["handelsgoederen", "Goederen die je koopt om door te verkopen.", "Rekening 604 bij aankoop, 700 bij verkoop."],
+      ["handelsdebiteuren", "Wat klanten nog aan de onderneming moeten betalen.", "Rekening 400, een vordering."],
+      ["leveranciers", "De schuld van de onderneming aan wie haar goederen leverde.", "Rekening 440."],
+      ["kredietinstellingen", "De rekening voor de bankrekening van de zaak.", "Rekening 550."],
+      ["kas", "Het contante geld van de onderneming.", "Rekening 570; kan nooit negatief zijn."],
+      ["vordering", "Geld dat iemand anders de onderneming nog schuldig is.", "Een klant die op dertig dagen betaalt."],
+      ["boekingsregel", "Eén lijn van een boeking met rekeningnummer, bedrag en kant.", "Op het examen moet ze helemaal juist zijn."]
+    ]},
+    { id: "t-factuur", title: "Aankopen, verkopen en documenten", terms: [
+      ["prijsaanvraag", "Document waarmee de koper een prijs opvraagt.", "De eerste stap van een aankoop."],
+      ["offerte", "Het antwoord van de leverancier met zijn prijs.", "Verplicht de klant niet om te kopen."],
+      ["bestelbon", "Document dat de bestelling vastlegt.", "Komt na de offerte."],
+      ["leverbon", "Document dat bewijst wat er geleverd is.", "Vermeldt geen prijs."],
+      ["aankoopfactuur", "De vraag van de leverancier om te betalen.", "Bij de verkoper heet hetzelfde document verkoopfactuur."],
+      ["verkoopfactuur", "Factuur die de verkoper stuurt om betaald te worden.", "Doorlopend genummerd."],
+      ["creditnota", "Document dat een factuur rechtzet en het te betalen bedrag vermindert.", "Bijvoorbeeld bij een terugzending."],
+      ["diensten en diverse goederen", "Wat een zaak koopt en verbruikt om te kunnen werken.", "Elektriciteit, kantoorpapier, huur."],
+      ["investering", "Een aankoop voor lange termijn.", "Een machine of een bestelwagen."],
+      ["handelskorting", "Korting op de prijs, bijvoorbeeld bij een grote bestelling.", "Gaat eraf vóór de btw."],
+      ["financiële korting", "Korting als de klant snel betaalt.", "Ook vóór de btw."],
+      ["doorgerekende kosten", "Kosten die de verkoper aan de klant aanrekent.", "Bijvoorbeeld vervoer."],
+      ["terugstuurbare verpakking", "Verpakking die terug moet naar de verkoper.", "Telt niet mee in de maatstaf van heffing."],
+      ["bankrekeninguittreksel", "Overzicht van de bank met de bewegingen op de rekening.", "Een bewijsstuk voor de boekhouding."],
+      ["kasdocument", "Bewijs van een betaling met contant geld.", "Een kasticket, een ontvangstbewijs."],
+      ["bewijsstuk", "Document waarop een boeking steunt.", "Een factuur, een uittreksel."]
+    ]},
+    { id: "t-btw", title: "De btw", terms: [
+      ["btw", "Belasting op de toegevoegde waarde, die de eindklant draagt.", "In België 21, 12 of 6 procent."],
+      ["btw-tarief", "Het percentage btw op een goed of dienst.", "Standaard 21 procent, voeding meestal 6."],
+      ["maatstaf van heffing", "Het bedrag waarop de btw berekend wordt.", "Na korting, met doorgerekende kosten."],
+      ["verschuldigde btw", "De btw op je verkopen, die je aan de staat moet doorstorten.", "Komt in credit."],
+      ["aftrekbare btw", "De btw op je aankopen, die je mag terugvorderen.", "Komt in debet."],
+      ["btw-nummer", "Het kenmerk van een btw-plichtige.", "Staat op elke factuur."],
+      ["btw-plichtige", "Iemand die beroepshalve verkoopt en btw moet aanrekenen.", "Een particulier is het niet."],
+      ["btw-aangifte", "Afrekening met de staat over de btw van een periode.", "Elke maand of elk kwartaal."],
+      ["rooster", "Genummerd vak op de btw-aangifte.", "Je krijgt de nummers op het examen."],
+      ["btw-saldo", "Verschuldigde btw min aftrekbare btw.", "Positief: betalen. Negatief: terugkrijgen."]
+    ]},
+    { id: "t-afsluiting", title: "Afsluiten van het boekjaar", terms: [
+      ["proefbalans", "Lijst met de totalen debet en credit van elke rekening.", "Debet en credit moeten gelijk zijn."],
+      ["saldibalans", "Lijst met de saldo's van elke rekening.", "Geeft andere cijfers dan de proefbalans."],
+      ["eindejaarsverrichting", "Boeking bij de afsluiting van het boekjaar.", "Afschrijvingen, regularisaties, resultaat."],
+      ["regularisatie", "Het deel van een lange schuld dat binnen het jaar vervalt, verhuizen naar korte termijn.", "Zo klopt de balans beter."],
+      ["lineair afschrijven", "Elk jaar hetzelfde bedrag afschrijven.", "20 000 euro op 5 jaar is 4 000 per jaar."],
+      ["boekwaarde", "De waarde van een vast actief na aftrek van de afschrijvingen.", "Grond wordt niet afgeschreven."],
+      ["overdracht van het resultaat", "De winst of het verlies naar het eigen vermogen brengen.", "Gebeurt bij de afsluiting."],
+      ["eindbalans", "De balans op het einde van het boekjaar, na de eindejaarsverrichtingen.", "Wordt de beginbalans van volgend jaar."],
+      ["boekjaar", "De periode waarover de boekhouding afgesloten wordt.", "Meestal een kalenderjaar."]
+    ]},
+    { id: "t-tekst", title: "Tekstverwerking en presenteren", terms: [
+      ["sneltoets", "Toetsencombinatie om sneller te werken.", "Ctrl+A selecteert alles."],
+      ["tekenopmaak", "Opmaak die op de letters werkt.", "Lettertype, vet, cursief, superscript."],
+      ["alineaopmaak", "Opmaak die op hele alinea's werkt.", "Regelafstand, uitlijning, tabs."],
+      ["paginaopmaak", "Opmaak die op de bladzijde werkt.", "Marges, afdrukstand, kop- en voettekst."],
+      ["marge", "De witruimte rond de tekst op een bladzijde.", "Hoort bij de paginaopmaak."],
+      ["sectie", "Deel van een document met een eigen paginaopmaak.", "Bijvoorbeeld één liggende bladzijde."],
+      ["koptekst", "Tekst die bovenaan elke bladzijde herhaald wordt.", "Onderaan heet het voettekst."],
+      ["stijl", "Vaste opmaak die je in één keer aan alle titels geeft.", "Pas ze aan en alle titels volgen mee."],
+      ["sjabloon", "Een voorbereid document dat je telkens opnieuw gebruikt.", "Is iets anders dan een stijl."],
+      ["tekstterugloop", "Hoe de tekst rond een afbeelding loopt.", "Bijvoorbeeld Achter de tekst."],
+      ["alternatieve tekst", "Beschrijving van een afbeelding voor wie ze niet kan zien.", "Een voorleesprogramma leest ze voor."],
+      ["SmartArt", "Een kant-en-klaar schema in de tekstverwerker.", "Een organogram, een cyclus, een piramide."],
+      ["organogram", "Schema dat laat zien wie onder wie werkt.", "Afdelingen en hiërarchie."],
+      ["autocorrectie", "Functie die typfouten meteen rechtzet.", "Vraagt daarbij geen toestemming."],
+      ["dia", "Eén scherm met inhoud in een presentatie.", "Eén idee per scherm."],
+      ["KISS-principe", "De regel: houd het eenvoudig.", "Keep it simple."],
+      ["overgang", "De wissel tussen twee dia's.", "Een animatie is beweging binnen één dia."],
+      ["hand-out", "De dia's op papier voor het publiek.", "De notities zijn je eigen spiekblad."],
+      ["infographic", "Informatie in beeld met cijfers en tekeningen.", "Een mindmap werkt met takken."]
+    ]},
+    { id: "t-rekenblad", title: "Rekenblad, formules en grafieken", terms: [
+      ["cel", "Het vakje in een rekenblad waar je typt.", "Op het kruispunt van een rij en een kolom."],
+      ["celadres", "Eerst de letter van de kolom, dan het nummer van de rij.", "B3 is kolom B, rij 3."],
+      ["bereik", "Een groep cellen.", "A1:A10."],
+      ["werkblad", "Eén blad met rijen en kolommen in een rekenbladbestand.", "Met een naam op het tabblad."],
+      ["formulebalk", "Balk die toont wat er echt in de cel zit.", "Het naamvak toont het adres."],
+      ["formule", "Berekening in een cel die begint met een isgelijkteken.", "=(2+3)*4 geeft 20."],
+      ["getalnotatie", "Bepaalt hoe een getal getoond wordt.", "Muntnotatie, percentagenotatie."],
+      ["vulgreep", "Het blokje rechtsonder een cel om een reeks verder te zetten.", "Sleep het naar beneden."],
+      ["titels blokkeren", "De titelrij vastzetten zodat ze zichtbaar blijft bij scrollen.", "Handig bij een lange lijst."],
+      ["functie", "Kant-en-klare berekening met een naam en argumenten tussen haakjes.", "=SOM(A1:A5)."],
+      ["argument", "Wat tussen de haakjes van een functie staat.", "Bij SOM het bereik."],
+      ["ALS", "Functie die kiest tussen twee uitkomsten op basis van een voorwaarde.", "Test, waar, niet waar."],
+      ["VERT.ZOEKEN", "Functie die een waarde zoekt in de eerste kolom van een tabel.", "HORIZ.ZOEKEN zoekt in de eerste rij."],
+      ["relatieve celverwijzing", "Verwijzing die meeschuift bij het kopiëren.", "Gewoon C2."],
+      ["absolute celverwijzing", "Verwijzing die niet meeschuift bij het kopiëren.", "Met dollartekens: $C$2."],
+      ["lijngrafiek", "Grafiek die een evolutie in de tijd toont.", "De omzet per maand."],
+      ["kolomgrafiek", "Grafiek om waarden naast elkaar te vergelijken.", "Liggend heet het staafgrafiek."],
+      ["cirkeldiagram", "Grafiek die de delen van een geheel toont.", "Niet voor twintig categorieën."],
+      ["legende", "Toont welke kleur bij welke reeks hoort.", "Een grafiekelement."],
+      ["gegevensreeks", "Eén rij met waarden in een grafiek.", "Elke reeks krijgt een kleur."]
+    ]},
+    { id: "t-ict", title: "Printen, scannen en bestanden", terms: [
+      ["multifunctioneel toestel", "Printer, scanner en kopieerapparaat in één.", "Met papierlade en glasplaat."],
+      ["laserprinter", "Printer die met poeder (toner) werkt.", "Een inkjetprinter werkt met vloeibare inkt."],
+      ["afdrukbereik", "De keuze welke bladzijden je afdrukt.", "Bijvoorbeeld 2-5."],
+      ["afdrukwachtrij", "De lijst met afdrukopdrachten die wachten.", "Kijk hier als de printer niets doet."],
+      ["pdf", "Vast opgemaakt bestand dat je op elke computer opent.", "Een drukker krijgt liefst zo'n bestand."],
+      ["vlakbedscanner", "Scanner met een glasplaat en een deksel.", "Een handscanner sleep je zelf over het blad."],
+      ["resolutie", "Hoeveel detail een scan of afbeelding heeft.", "Hoger is scherper maar groter."],
+      ["OCR", "Optische tekenherkenning: tekst in een scan herkennen.", "Daarna kan je erin zoeken."],
+      ["map", "Plaats voor bestanden op de computer.", "Kan zelf weer onderverdelingen bevatten."],
+      ["pad", "Zegt waar een bestand staat.", "C:\\Boekhouding\\2026\\facturen."],
+      ["extensie", "Het deel achter de punt in een bestandsnaam.", ".docx, .xlsx, .pdf."],
+      ["prullenbak", "Plaats waar een gewist bestand eerst terechtkomt.", "Je kan het er nog uit halen."],
+      ["back-up", "Een tweede kopie om niets te verliezen.", "Offline op een externe schijf of online."],
+      ["cloudopslag", "Bestanden bewaren op een server via het internet.", "Je kan er overal aan."],
+      ["synchroniseren", "Een bestand op twee plaatsen gelijk houden.", "Wijzig je het op je laptop, dan ook in de cloud."],
+      ["uploaden", "Iets naar het internet zetten.", "Downloaden is iets ervan halen."],
+      ["bewaartermijn", "Hoe lang documenten bijgehouden moeten worden.", "Voor een boekhouding legt de wet ze vast."]
+    ]},
+    { id: "t-databank", title: "Databanken", terms: [
+      ["databank", "Een geordende verzameling gegevens.", "De gegevens staan er maar één keer in."],
+      ["tabel", "De plaats in een databank waar de gegevens staan.", "Met records en velden."],
+      ["record", "Eén rij met gegevens in een tabel.", "Bijvoorbeeld één klant."],
+      ["veld", "Eén soort gegeven in een tabel.", "Bijvoorbeeld de postcode."],
+      ["formulier", "Invulscherm om gegevens in de databank te zetten.", "Handiger dan in de tabel typen."],
+      ["query", "Een vraag aan de databank om gegevens op te vragen.", "Een selectievraag wijzigt niets."],
+      ["rapport", "Overzicht uit de databank om netjes af te drukken.", "Bijvoorbeeld een klantenlijst."],
+      ["gegevenstype", "Zegt wat er in een veld mag.", "Tekst, getal, datum."],
+      ["primaire sleutel", "Het veld dat elk record uniek maakt.", "Bijvoorbeeld een klantnummer."],
+      ["filter", "Toont enkel de records die aan een voorwaarde voldoen.", "Wijzigt de gegevens niet."]
     ]}
   ]},
   beyond: { label: "BEYOND · 3de graad", chapters: [
@@ -620,9 +779,7 @@ function renderMenu() {
         <p>Kies een hoofdstuk en een spel. Alle spellen gebruiken de begrippen uit de leerbundels, dus je kan ze vrij afwisselen.</p>
       </div>
       <div class="seg" role="group" aria-label="Niveau">
-        <button data-lvl="boost" aria-pressed="${S.level === "boost"}">BOOST · 2de graad</button>
-        <button data-lvl="beyond" aria-pressed="${S.level === "beyond"}">BEYOND · 3de graad</button>
-        <button data-lvl="bedrijf" aria-pressed="${S.level === "bedrijf"}">BEYOND · bedrijfswetenschappen</button>
+        ${Object.entries(DATA).map(([k, v]) => `<button data-lvl="${k}" aria-pressed="${S.level === k}">${esc(v.label)}</button>`).join("")}
       </div>
     </header>
     <section style="display:flex;flex-direction:column;gap:10px">

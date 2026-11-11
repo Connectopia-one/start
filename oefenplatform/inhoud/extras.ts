@@ -426,6 +426,13 @@ export const spelKaarten: SpelKaart[] = [
     tekst: `Bijna tachtig begrippen economie van de 2de graad, van behoeften en nut tot de marketingmix en dubbel boekhouden. ${zesSpellen}`,
   },
   {
+    spel: "begrippenarena-economie",
+    school: "middelbaar",
+    niveau: "🚀 Boost dubbele finaliteit · Toegepaste economie",
+    niveauInSpel: "toegepast",
+    tekst: `Bijna honderdveertig begrippen, van de balans, het MAR en de btw tot het rekenblad, printen, bestanden en databanken. ${zesSpellen}`,
+  },
+  {
     spel: "begrippenarena-wiskunde",
     school: "middelbaar",
     niveau: "🌍 Beyond · 3de graad (5de en 6de middelbaar)",
