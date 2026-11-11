@@ -93,7 +93,7 @@ DEEL1 = [
         vraag="Wanneer leg je iemand in stabiele zijligging?",
         opties=[
             "Als de persoon bewusteloos is maar wel normaal ademt",
-            "Als de persoon bewusteloos is en niet meer ademt",
+            "Als de persoon bewusteloos is en helemaal niet meer ademt",
             "Als de persoon bij bewustzijn is en veel pijn heeft",
             "Als de persoon een gebroken been heeft",
         ],
@@ -189,7 +189,7 @@ DEEL1 = [
         vraag="Iemand heeft een ongeval gehad en ligt op de rijweg, maar het verkeer rijdt gewoon door. Wat is hier de eerste zorg?",
         opties=[
             "De plaats veilig maken, bijvoorbeeld met een gevarendriehoek",
-            "Het slachtoffer meteen van de rijweg af slepen",
+            "Het slachtoffer meteen van de rijweg af slepen naar de stoep",
             "Foto's nemen van wat er precies gebeurd is",
             "Aan alle omstaanders vragen wie hier de schuld van heeft",
         ],
@@ -277,7 +277,7 @@ DEEL2 = [
         vraag="Wat doe je bij een wonde die hevig bloedt?",
         opties=[
             "Je drukt stevig op de wonde met een verband of een propere doek",
-            "Je spoelt de wonde uitgebreid met warm water uit de kraan",
+            "Je spoelt de wonde uitgebreid met warm water uit de kraan, zo lang als nodig",
             "Je laat de wonde open liggen zodat het bloed eruit kan lopen",
             "Je wrijft over de wonde zodat het bloed stolt",
         ],
@@ -301,7 +301,7 @@ DEEL2 = [
         vraag="Wat doe je bij een brandwonde?",
         opties=[
             "Tien tot twintig minuten koelen met lauw zacht stromend water",
-            "Een paar seconden koelen met ijsblokjes uit de diepvries",
+            "Een paar seconden koelen met ijsblokjes uit de diepvries, direct op de huid",
             "Er boter of tandpasta op smeren tegen de pijn",
             "De blaar meteen doorprikken zodat het vocht eruit kan",
         ],
@@ -343,7 +343,7 @@ DEEL2 = [
         vraag="Wat doe je bij een verstuikte enkel?",
         opties=[
             "Rust geven, koelen, een drukverband aanleggen en hoog leggen",
-            "Gewoon blijven doorlopen zodat het gewricht soepel blijft",
+            "Gewoon blijven doorlopen zodat het gewricht soepel en warm blijft",
             "De enkel warm inpakken met een kruik erbij",
             "Stevig masseren om de zwelling weg te duwen",
         ],
@@ -379,7 +379,7 @@ DEEL2 = [
         vraag="Iemand snijdt zich in de keuken en er stroomt veel bloed uit zijn hand. Wat is de eerste handeling?",
         opties=[
             "Stevig drukken op de wonde met een propere doek",
-            "Eerst een pleister zoeken in de kast",
+            "Eerst een pleister zoeken in de kast in de badkamer",
             "De hand onder heet water houden",
             "De wonde ontsmetten voor je iets anders doet",
         ],

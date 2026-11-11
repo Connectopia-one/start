@@ -45,7 +45,7 @@ VRAGEN = [
         vraag="Ilias heeft een goede winterjas. Na een filmpje van een influencer wil hij er nog een, in een andere kleur. Wat voor behoefte is die tweede jas?",
         opties=[
             "Een gecreëerde behoefte, want ze ontstond door de influencer",
-            "Een reële behoefte, want een winterjas heb je echt nodig",
+            "Een reële behoefte, want een warme winterjas heb je in de winter echt nodig",
             "Een reële behoefte, want het is nu eenmaal winter",
             "Geen behoefte, want hij heeft de jas nog niet gekocht",
         ],

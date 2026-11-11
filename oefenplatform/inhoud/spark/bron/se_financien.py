@@ -315,7 +315,7 @@ DEEL2 = [
         vraag="Wat is een prepaidkaart?",
         opties=[
             "Een kaart waarop je eerst geld zet en dan pas kan betalen",
-            "Een kaart die je pas na de aankoop moet opladen",
+            "Een kaart die je pas na de aankoop moet opladen, binnen de maand",
             "Een kaart waarmee je onbeperkt kan lenen bij de bank",
             "Een kaart die de winkel je gratis geeft als klant",
         ],

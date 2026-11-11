@@ -180,7 +180,7 @@ DEEL1 = [
         vraag="Op elk bestuursniveau vind je dezelfde twee soorten organen terug. Welke?",
         opties=[
             "Een verkozen raad die beslist, en een bestuur dat uitvoert",
-            "Een rechtbank die oordeelt, en een politie die optreedt",
+            "Een rechtbank die oordeelt, en een politie die optreedt op straat",
             "Een gouverneur die leidt, en een secretaris die schrijft",
             "Een partij die regeert, en een partij die toekijkt",
         ],
@@ -237,7 +237,7 @@ DEEL2 = [
         vraag="Waarover gaan de gemeenschappen?",
         opties=[
             "Over zaken die met personen en hun taal te maken hebben",
-            "Over zaken die met het grondgebied te maken hebben",
+            "Over zaken die met het grondgebied en de streek te maken hebben",
             "Over zaken die het hele land tegelijk aanbelangen",
             "Over zaken die alleen in één gemeente spelen",
         ],
@@ -354,7 +354,7 @@ DEEL2 = [
         vraag="Wat is een volksvertegenwoordiger?",
         opties=[
             "Iemand die verkozen is om in het parlement mee wetten te stemmen",
-            "Iemand die door de regering benoemd is om een dienst te leiden",
+            "Iemand die door de regering benoemd is om een dienst of een ministerie te leiden",
             "Iemand die als rechter uitspraak doet in naam van het volk",
             "Iemand die de bevolking vertegenwoordigt bij de gouverneur",
         ],
@@ -390,7 +390,7 @@ DEEL2 = [
         vraag="Welke uitspraak over de koning van België klopt?",
         opties=[
             "Hij is het staatshoofd, maar bestuurt het land niet zelf",
-            "Hij beslist welke wetten er gestemd worden",
+            "Hij beslist welke wetten er gestemd worden en welke niet",
             "Hij benoemt alle rechters van het land persoonlijk",
             "Hij wordt om de vijf jaar door de bevolking verkozen",
         ],

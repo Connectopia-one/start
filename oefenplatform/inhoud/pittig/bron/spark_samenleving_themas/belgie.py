@@ -69,7 +69,7 @@ VRAGEN = [
         opties=[
             "Bij je eigen gemeente Hasselt",
             "Bij de provincie Luxemburg",
-            "Bij de provincie Limburg",
+            "Bij de provincie Limburg, in het provinciehuis",
             "Bij de Vlaamse Regering",
         ],
         antwoord=0,
@@ -80,7 +80,7 @@ VRAGEN = [
         vraag="Welke uitspraak over Brussel klopt?",
         opties=[
             "Het is een gewest, maar het hoort bij geen enkele provincie",
-            "Het is een provincie, maar het is geen gewest",
+            "Het is een provincie, maar het is geen gewest van het land België",
             "Het is de elfde provincie van België",
             "Het hoort bij de provincie Vlaams-Brabant",
         ],
@@ -92,7 +92,7 @@ VRAGEN = [
         vraag="Het Vlaams Parlement stemt een decreet over het onderwijs. De federale regering is het er niet mee eens. Wat geldt?",
         opties=[
             "Het decreet geldt, want onderwijs is gemeenschapsmaterie",
-            "Een federale wet gaat altijd voor op een decreet",
+            "Een federale wet gaat altijd voor op een decreet van een gemeenschap",
             "De koning beslist welke van de twee regels geldt",
             "De provincie kiest welke regel ze wil toepassen",
         ],

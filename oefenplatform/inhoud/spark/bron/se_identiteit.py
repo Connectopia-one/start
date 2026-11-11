@@ -39,7 +39,7 @@ DEEL1 = [
         vraag="Je onderscheidt twee soorten identiteit. Welke twee?",
         opties=[
             "Persoonlijke identiteit en groepsidentiteit",
-            "Echte identiteit en valse identiteit",
+            "Echte identiteit en valse identiteit op sociale media",
             "Jonge identiteit en oude identiteit",
             "Openbare identiteit en geheime identiteit",
         ],
@@ -77,7 +77,7 @@ DEEL1 = [
             "Over zijn persoonlijke eigenschappen",
             "Over zijn biologische aspecten",
             "Over zijn familiale achtergrond",
-            "Over zijn subcultuur",
+            "Over zijn subcultuur en zijn vriendengroep",
         ],
         antwoord=0,
         uitleg="Geduldig, nieuwsgierig en verlegen zijn karaktertrekken. Die horen bij de laag van de persoonlijke eigenschappen.",
@@ -216,7 +216,7 @@ DEEL2 = [
         vraag="Waar gaat groepsidentiteit over?",
         opties=[
             "Over de groepen waar je deel van uitmaakt",
-            "Over je karakter en je gewoontes",
+            "Over je karakter, je gewoontes en je hobby's",
             "Over je lengte en je leeftijd",
             "Over het beeld dat anderen van je hebben",
             "Geen van deze antwoorden",
@@ -241,7 +241,7 @@ DEEL2 = [
         vraag="Iemand zegt: ik ben opgegroeid in Limburg en dat hoor je nog aan mijn accent. Over welke laag van groepsidentiteit gaat dat?",
         opties=[
             "Over de regio waar hij vandaan komt",
-            "Over zijn subcultuur",
+            "Over zijn subcultuur en zijn vrienden",
             "Over zijn sociale klasse",
             "Over zijn geloof of overtuiging",
         ],
@@ -259,7 +259,7 @@ DEEL2 = [
         vraag="Wat is een subcultuur?",
         opties=[
             "Een kleinere groep binnen de samenleving met een eigen stijl",
-            "Een cultuur die minder waard wordt gevonden dan een andere",
+            "Een cultuur die door de meeste mensen minder waard wordt gevonden dan een andere",
             "Een cultuur die ondergronds verboden is",
             "Een cultuur die maar één dag per jaar bestaat",
         ],
@@ -277,7 +277,7 @@ DEEL2 = [
         vraag="Hoe beïnvloeden persoonlijke identiteit en groepsidentiteit elkaar?",
         opties=[
             "In twee richtingen: de groep kleurt jou en jij de groep",
-            "Alleen in één richting: de groep bepaalt jou volledig",
+            "Alleen in één richting: de groep bepaalt jou volledig, wat je ook doet",
             "Alleen in één richting: jij bepaalt de groep volledig",
             "Ze hebben niets met elkaar te maken",
         ],
@@ -301,7 +301,7 @@ DEEL2 = [
         vraag="Wat is solidariteit?",
         opties=[
             "Elkaar steunen, ook als je er zelf niets bij wint",
-            "Alleen helpen wie jou eerder al geholpen heeft",
+            "Alleen helpen wie jou eerder al geholpen heeft, als wederdienst",
             "Ervoor zorgen dat iedereen hetzelfde denkt",
             "Zorgen dat je zelf vooruitkomt",
         ],
@@ -381,7 +381,7 @@ DEEL2 = [
         opties=[
             "Groepsidentiteit is gelaagd, dus je kan bij meerdere groepen horen",
             "Dat kan niet, je moet er altijd één kiezen",
-            "Dat kan alleen als je in twee landen tegelijk woont",
+            "Dat kan alleen als je in twee landen tegelijk woont en twee paspoorten hebt",
             "Dat betekent dat hij helemaal geen persoonlijke identiteit heeft",
         ],
         antwoord=0,

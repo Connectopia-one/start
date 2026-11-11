@@ -66,7 +66,7 @@ DEEL1 = [
         vraag="Wanneer kies je beter voor een e-mail dan voor een chatbericht?",
         opties=[
             "Als je iets formeel wil vragen en het moet worden bijgehouden",
-            "Als je heel snel een kort antwoord op één vraag nodig hebt",
+            "Als je heel snel een kort antwoord op één vraag nodig hebt van een collega",
             "Als je met meerdere mensen tegelijk wil praten en zien",
             "Als je gewoon iets grappigs wil doorsturen naar een vriend",
         ],
@@ -226,7 +226,7 @@ DEEL2 = [
         vraag="Wat is de Verkenner?",
         opties=[
             "Het programma waarmee je mappen en bestanden bekijkt en beheert",
-            "Het programma waarmee je op het internet surft",
+            "Het programma waarmee je op het internet surft en websites bekijkt",
             "Het programma waarmee je een tekst typt, opmaakt en afdrukt",
             "De plek waarin verwijderde bestanden terechtkomen",
         ],
@@ -250,7 +250,7 @@ DEEL2 = [
         vraag="Wat toont het detailvenster?",
         opties=[
             "Extra informatie over het bestand dat je geselecteerd hebt",
-            "De volledige boomstructuur van al je schijven en mappen",
+            "De volledige boomstructuur van al je schijven, mappen en submappen",
             "De inhoud van elke map op je computer tegelijk",
             "De knoppen waarmee je een bestand kan afdrukken",
         ],
@@ -262,7 +262,7 @@ DEEL2 = [
         vraag="Wat is een bestand?",
         opties=[
             "Een verzameling gegevens met een naam en een extensie",
-            "Een plaats waarin je andere gegevens kan bewaren",
+            "Een plaats waarin je andere bestanden en mappen kan bewaren",
             "Een programma dat je op je computer installeert",
             "Een kopie die je bewaart voor als er iets misgaat",
         ],

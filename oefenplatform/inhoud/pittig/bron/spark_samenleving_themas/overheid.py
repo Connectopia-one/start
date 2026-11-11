@@ -94,7 +94,7 @@ VRAGEN = [
         vraag="Een gemeente laat inschrijven voor de sportkampen alleen online, op een weekdag tijdens de werkuren. De regel is voor iedereen dezelfde, maar gezinnen die overdag werken, vallen vaak uit de boot. Welke oorzaak van sociale ongelijkheid zie je hier?",
         opties=[
             "Wetten en regels van de overheid",
-            "Discriminatie",
+            "Discriminatie door de gemeente of door de stad",
             "Gezondheid",
             "Gewoontes in een cultuur",
         ],

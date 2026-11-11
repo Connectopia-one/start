@@ -33,7 +33,7 @@ DEEL1 = [
         vraag="Wat is een goederenstroom?",
         opties=[
             "Het verplaatsen van een product van de ene speler naar de andere",
-            "Het geld dat van de ene speler naar de andere speler overgaat",
+            "Het geld dat van de ene speler naar de andere speler overgaat bij een aankoop",
             "Het aantal mensen dat in een bedrijf komt werken",
             "De volgorde waarin een bedrijf zijn taken afwerkt",
         ],
@@ -167,7 +167,7 @@ DEEL1 = [
         opties=[
             "De producten en grondstoffen worden er bewaard tot ze nodig zijn",
             "De klanten worden er ontvangen als ze langskomen",
-            "De reclamecampagnes worden er uitgedacht, gemaakt en opgevolgd",
+            "De reclamecampagnes worden er uitgedacht, gemaakt, verstuurd en opgevolgd",
             "De lonen van het personeel worden er berekend",
         ],
         antwoord=0,
@@ -273,7 +273,7 @@ DEEL2 = [
             "Er worden diensten geleverd zonder winstoogmerk",
             "Er worden grondstoffen uit de natuur gehaald",
             "Er worden producten in een fabriek gemaakt",
-            "Er worden goederen doorverkocht met winst",
+            "Er worden goederen doorverkocht met winst in een winkel",
         ],
         antwoord=0,
         uitleg="De quartaire sector zijn de niet-commerciële diensten: onderwijs, zorg, welzijn en het openbaar bestuur.",
@@ -295,7 +295,7 @@ DEEL2 = [
         vraag="Wat is een investeringsgoed?",
         opties=[
             "Een goed dat een bedrijf gebruikt om iets mee te maken",
-            "Een goed dat een gezin koopt om zelf op te gebruiken",
+            "Een goed dat een gezin koopt om zelf thuis op te gebruiken",
             "Een goed dat een winkel met korting verkoopt",
             "Een goed dat na één keer gebruiken weg is",
         ],
@@ -331,7 +331,7 @@ DEEL2 = [
         vraag="Wat doet een handelsbedrijf?",
         opties=[
             "Het koopt producten in en verkoopt ze zonder ze te bewerken",
-            "Het maakt zelf producten uit grondstoffen en materialen",
+            "Het maakt zelf producten uit grondstoffen en materialen in een fabriek",
             "Het levert alleen diensten en verkoopt geen producten",
             "Het deelt producten gratis uit zonder er winst op te maken",
         ],

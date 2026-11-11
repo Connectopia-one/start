@@ -186,7 +186,7 @@ DEEL1 = [
         vraag="De blonde jongen wijst met gestrekte arm naar de jongen die naar de grond kijkt, terwijl twee anderen meelachen. Wat doen die twee anderen?",
         opties=[
             "Ze doen mee, en daardoor gaat het pesten door",
-            "Ze komen tussen en maken er een einde aan",
+            "Ze komen tussen en maken er meteen een einde aan",
             "Ze hebben niets met de situatie te maken",
             "Ze halen er iemand bij die kan helpen",
         ],
@@ -204,7 +204,7 @@ DEEL1 = [
         vraag="Iemand zegt over deze prent: op een speelplaats hoort dit erbij, daar moet je niets van zeggen. Wat klopt daar niet aan?",
         opties=[
             "Dat iets vaak gebeurt, maakt het nog niet aanvaardbaar",
-            "Dat er op een speelplaats nooit iets gebeurt",
+            "Dat er op een speelplaats nooit echt iets ergs gebeurt",
             "Dat een speelplaats altijd een veilige plek is",
             "Dat leerlingen elkaar nooit uitlachen",
         ],
@@ -274,7 +274,7 @@ DEEL2 = [
         vraag="Waarom is samenleven in diversiteit soms moeilijk?",
         opties=[
             "Omdat verschillen kunnen leiden tot misverstanden en vooroordelen",
-            "Omdat mensen die verschillen elkaars taal nooit kunnen leren",
+            "Omdat mensen die verschillen elkaars taal en gewoontes nooit echt kunnen leren",
             "Omdat er wetten zijn die verschillen verbieden",
             "Omdat er dan niemand meer dezelfde gewoontes heeft",
         ],
@@ -286,7 +286,7 @@ DEEL2 = [
         vraag="Waarom kan samenleven in diversiteit ook waardevol zijn?",
         opties=[
             "Je leert manieren van doen kennen die je zelf niet had bedacht",
-            "Je moet nooit meer rekening houden met iemand anders",
+            "Je moet nooit meer rekening houden met iemand anders dan jezelf",
             "Iedereen gaat dan vanzelf net hetzelfde denken",
             "Er zijn dan minder regels nodig op school",
         ],
@@ -298,7 +298,7 @@ DEEL2 = [
         vraag="Wat is het verschil tussen plagen en pesten?",
         opties=[
             "Plagen gaat over en weer, pesten is één kant die de andere raakt",
-            "Plagen gebeurt op school, pesten gebeurt online",
+            "Plagen gebeurt op school, pesten gebeurt vooral online en anoniem",
             "Plagen doe je met woorden, pesten doe je met je handen",
             "Plagen doen kinderen, pesten doen volwassenen",
         ],
@@ -310,7 +310,7 @@ DEEL2 = [
         vraag="Wat is een meningsverschil?",
         opties=[
             "Twee mensen denken anders over iets en zeggen dat tegen elkaar",
-            "Eén persoon wordt telkens opnieuw belachelijk gemaakt",
+            "Eén persoon wordt telkens opnieuw belachelijk gemaakt door een groep",
             "Een groep sluit iemand bewust uit van een activiteit",
             "Iemand gebruikt zijn positie om een ander iets op te leggen",
         ],
@@ -322,7 +322,7 @@ DEEL2 = [
         vraag="Wat is groepsdruk?",
         opties=[
             "De druk om iets te doen omdat de groep het doet of verwacht",
-            "De druk die je voelt vlak voor een toets op school",
+            "De druk die je voelt vlak voor een toets of een examen op school",
             "De drukte op een speelplaats tijdens de middagpauze",
             "Het gewicht van een groep mensen op een klein oppervlak",
         ],
@@ -389,7 +389,7 @@ DEEL2 = [
         vraag="Welke basisemoties bestaan er?",
         opties=[
             "Blijdschap, verdriet, angst, woede",
-            "Honger, dorst, slaap, kou",
+            "Honger, dorst, slaap, kou, pijn en vermoeidheid",
             "Slim, dom, snel, traag",
             "Lawaai, stilte, licht, donker",
         ],

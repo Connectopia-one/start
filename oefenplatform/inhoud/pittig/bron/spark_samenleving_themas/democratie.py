@@ -7,7 +7,7 @@ VRAGEN = [
         vraag="Een rijke zakenman heeft gefraudeerd. De rechter legt hem geen straf op, omdat hij zo rijk en bekend is. Een arme man die hetzelfde deed, kreeg wel een straf. Welk principe wordt hier geschonden?",
         opties=[
             "De gelijkheid voor de wet",
-            "De persvrijheid",
+            "De persvrijheid van de kranten",
             "Het stemrecht",
             "De vrije verkiezingen",
         ],
@@ -68,7 +68,7 @@ VRAGEN = [
         vraag="De sportclub laat de leden stemmen over de nieuwe trainingsdag. Kobe stemt voor woensdag, maar de meerderheid kiest zaterdag, en het bestuur volgt de meerderheid. Had Kobe inspraak?",
         opties=[
             "Ja, zijn stem telde mee, ook al kreeg hij zijn zin niet",
-            "Nee, want zijn eigen voorstel werd niet uitgevoerd",
+            "Nee, want zijn eigen voorstel werd uiteindelijk niet uitgevoerd door de club",
             "Nee, want alleen het bestuur mag zoiets beslissen",
             "Alleen als het bestuur hem later toch zijn zin geeft",
         ],

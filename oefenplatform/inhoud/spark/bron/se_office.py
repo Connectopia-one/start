@@ -48,7 +48,7 @@ DEEL1 = [
         vraag="Wat is een alinea?",
         opties=[
             "Een stuk tekst dat eindigt waar je op Enter duwt",
-            "Een stuk tekst dat precies één regel lang is",
+            "Een stuk tekst dat precies één regel lang is, zonder punt",
             "Een stuk tekst dat op één pagina moet passen",
             "Een stuk tekst dat vetgedrukt begint en eindigt",
         ],
@@ -115,7 +115,7 @@ DEEL1 = [
         vraag="Wat komt er in een voettekst?",
         opties=[
             "Tekst die onderaan elke pagina herhaald wordt",
-            "Tekst die alleen op de laatste pagina staat",
+            "Tekst die alleen op de laatste pagina van het document staat",
             "Tekst die je met een opsomming laat beginnen",
             "Tekst die je bovenaan elke pagina zet",
         ],
@@ -170,7 +170,7 @@ DEEL1 = [
         vraag="Wat is een bereik in Excel?",
         opties=[
             "Een groep cellen die bij elkaar horen, zoals A1 tot A10",
-            "Het hoogste getal dat in een kolom voorkomt",
+            "Het hoogste getal dat in een kolom of in een rij van het blad voorkomt",
             "Het verschil tussen het grootste en het kleinste getal",
             "De breedte die een kolom maximaal kan hebben",
         ],
@@ -224,7 +224,7 @@ DEEL1 = [
         vraag="Waar houdt het KISS-principe van een presentatie rekening mee?",
         opties=[
             "Maximaal zeven regels per dia en zeven woorden per regel",
-            "Maximaal zeven dia's in een hele presentatie",
+            "Maximaal zeven dia's in een hele presentatie, met titel erbij",
             "Maximaal zeven kleuren op elke dia die je zelf maakt",
             "Maximaal zeven minuten spreken per presentatie",
         ],
@@ -251,7 +251,7 @@ DEEL2 = [
         vraag="Wat zijn haatberichten?",
         opties=[
             "Berichten die aanzetten tot haat tegen een persoon of een groep",
-            "Berichten die je per ongeluk naar de verkeerde persoon stuurt",
+            "Berichten die je per ongeluk naar de verkeerde persoon of groep stuurt",
             "Berichten die je met opzet in hoofdletters typt",
             "Berichten die een bedrijf ongevraagd naar je stuurt",
         ],
@@ -263,7 +263,7 @@ DEEL2 = [
         vraag="Wat is doxing?",
         opties=[
             "Iemands privégegevens online zetten zonder toestemming",
-            "Iemand volledig uitsluiten uit een groep of gesprek",
+            "Iemand volledig uitsluiten uit een groep, een chat of een gesprek",
             "Iemand publiek belachelijk maken met een foto",
             "Iemand vals nieuws doorsturen over een gebeurtenis",
         ],
@@ -391,7 +391,7 @@ DEEL2 = [
         opties=[
             "De mail negeren en zelf je zending nakijken bij de vervoerder",
             "Het bedrag betalen, want het is maar een paar euro",
-            "Op de link klikken om te zien waar hij precies naartoe gaat",
+            "Op de link klikken om te zien waar hij precies naartoe gaat, en dan beslissen",
             "Antwoorden met de vraag om welk pakje het gaat",
         ],
         antwoord=0,
@@ -414,7 +414,7 @@ DEEL2 = [
         vraag="Wat is tweestapsverificatie?",
         opties=[
             "Naast je wachtwoord geef je nog een tweede bewijs, zoals een code",
-            "Je typt je wachtwoord twee keer in om typfouten te vermijden",
+            "Je typt je wachtwoord twee keer na elkaar in om typfouten te vermijden",
             "Je hebt twee verschillende wachtwoorden voor dezelfde site",
             "Je verandert je wachtwoord elke twee maanden opnieuw",
         ],

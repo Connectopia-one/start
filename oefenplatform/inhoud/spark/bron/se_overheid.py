@@ -256,7 +256,7 @@ DEEL2 = [
         vraag="Twee kinderen met dezelfde punten gaan naar dezelfde school. Het ene heeft thuis een rustige plek en hulp bij het huiswerk, het andere niet. Wat zie je hier?",
         opties=[
             "Sociale ongelijkheid door verschil in kansen om te leren",
-            "Discriminatie door de school waar ze samen naartoe gaan",
+            "Discriminatie door de school waar ze samen naartoe gaan, door hun afkomst",
             "Een verschil in gezondheid tussen de twee kinderen",
             "Een regel van de overheid die ongelijk uitvalt",
         ],
@@ -304,7 +304,7 @@ DEEL2 = [
         vraag="Wat is een vervangingsuitkering?",
         opties=[
             "Geld dat in de plaats komt van een inkomen dat weggevallen is",
-            "Geld dat bovenop een inkomen komt om kosten te helpen dragen",
+            "Geld dat bovenop een inkomen komt om bepaalde kosten te helpen dragen, zoals kinderen",
             "Geld dat je moet terugbetalen zodra je weer werkt",
             "Geld dat een bedrijf aan zijn werknemers uitbetaalt",
         ],
@@ -329,7 +329,7 @@ DEEL2 = [
         vraag="Wat is een aanvullende uitkering?",
         opties=[
             "Geld dat bovenop het inkomen komt om bepaalde kosten te helpen dragen",
-            "Geld dat volledig in de plaats komt van een loon dat weggevallen is",
+            "Geld dat volledig in de plaats komt van een loon dat weggevallen is door ziekte",
             "Geld dat je van je werkgever krijgt bovenop je maandloon",
             "Geld dat je jaarlijks van de bank krijgt op je spaarrekening",
         ],

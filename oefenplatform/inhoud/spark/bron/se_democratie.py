@@ -48,7 +48,7 @@ DEEL1 = [
         vraag="Wat is een grondwet?",
         opties=[
             "De hoogste wet, waar alle andere wetten zich aan moeten houden",
-            "De wet die bepaalt wie welke grond in het land in bezit heeft",
+            "De wet die bepaalt wie welke grond en welke huizen in het land in bezit heeft",
             "De eerste wet die een nieuwe regering laat stemmen",
             "Een wet die om de vijf jaar volledig vervangen wordt",
         ],
@@ -60,7 +60,7 @@ DEEL1 = [
         vraag="Welke drie machten onderscheidt men in een rechtsstaat?",
         opties=[
             "De wetgevende, de uitvoerende en de rechterlijke macht",
-            "De koninklijke, de kerkelijke en de militaire macht",
+            "De koninklijke, de kerkelijke en de militaire macht van vroeger",
             "De federale, de regionale en de lokale macht",
             "De politieke, de economische en de sociale macht",
         ],
@@ -114,7 +114,7 @@ DEEL1 = [
         vraag="Waarom zijn de drie machten van elkaar gescheiden?",
         opties=[
             "Zodat ze elkaar kunnen controleren en niemand alle macht krijgt",
-            "Zodat het werk over meer mensen verdeeld raakt en sneller gaat",
+            "Zodat het werk over meer mensen verdeeld raakt en de beslissingen sneller gaan",
             "Zodat elke provincie zijn eigen macht kan uitoefenen",
             "Zodat de koning er niet meer bij betrokken hoeft te zijn",
         ],
@@ -156,7 +156,7 @@ DEEL1 = [
         vraag="Wat is persvrijheid?",
         opties=[
             "Journalisten mogen berichten zonder dat de overheid dat verbiedt",
-            "Kranten en nieuwssites zijn voor iedereen gratis te lezen",
+            "Kranten en nieuwssites zijn voor iedereen gratis te lezen, ook zonder abonnement",
             "Iedereen mag zelf een krant beginnen zonder ervoor te betalen",
             "De overheid schrijft zelf mee aan het nieuws van de dag",
         ],
@@ -238,7 +238,7 @@ DEEL2 = [
         vraag="Wat is een autoritair regime?",
         opties=[
             "Een bestuur waarin één persoon of groep alle macht heeft",
-            "Een bestuur waarin de bevolking om de vijf jaar kiest",
+            "Een bestuur waarin de bevolking om de vijf jaar kiest wie er regeert",
             "Een bestuur waarin de rechters alles beslissen",
             "Een bestuur waarin elke gemeente apart beslist",
         ],
@@ -323,7 +323,7 @@ DEEL2 = [
         vraag="Welke van deze is een plicht in België?",
         opties=[
             "Naar school gaan tot je achttien bent",
-            "Lid worden van een jeugdbeweging",
+            "Lid worden van een jeugdbeweging in je gemeente",
             "Elke zondag gaan sporten",
             "Een krant kopen bij elke verkiezing",
         ],

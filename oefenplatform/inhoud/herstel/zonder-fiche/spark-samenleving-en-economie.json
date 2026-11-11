@@ -29,7 +29,7 @@
      "vraag": "Je onderscheidt twee soorten identiteit. Welke twee?",
      "opties": [
       "Persoonlijke identiteit en groepsidentiteit",
-      "Echte identiteit en valse identiteit",
+      "Echte identiteit en valse identiteit op sociale media",
       "Jonge identiteit en oude identiteit",
       "Openbare identiteit en geheime identiteit"
      ],
@@ -70,7 +70,7 @@
       "Over zijn persoonlijke eigenschappen",
       "Over zijn biologische aspecten",
       "Over zijn familiale achtergrond",
-      "Over zijn subcultuur"
+      "Over zijn subcultuur en zijn vriendengroep"
      ],
      "antwoord": 0,
      "uitleg": "Geduldig, nieuwsgierig en verlegen zijn karaktertrekken. Die horen bij de laag van de persoonlijke eigenschappen."
@@ -227,7 +227,7 @@
      "vraag": "Waar gaat groepsidentiteit over?",
      "opties": [
       "Over de groepen waar je deel van uitmaakt",
-      "Over je karakter en je gewoontes",
+      "Over je karakter, je gewoontes en je hobby's",
       "Over je lengte en je leeftijd",
       "Over het beeld dat anderen van je hebben",
       "Geen van deze antwoorden"
@@ -255,7 +255,7 @@
      "vraag": "Iemand zegt: ik ben opgegroeid in Limburg en dat hoor je nog aan mijn accent. Over welke laag van groepsidentiteit gaat dat?",
      "opties": [
       "Over de regio waar hij vandaan komt",
-      "Over zijn subcultuur",
+      "Over zijn subcultuur en zijn vrienden",
       "Over zijn sociale klasse",
       "Over zijn geloof of overtuiging"
      ],
@@ -273,7 +273,7 @@
      "vraag": "Wat is een subcultuur?",
      "opties": [
       "Een kleinere groep binnen de samenleving met een eigen stijl",
-      "Een cultuur die minder waard wordt gevonden dan een andere",
+      "Een cultuur die door de meeste mensen minder waard wordt gevonden dan een andere",
       "Een cultuur die ondergronds verboden is",
       "Een cultuur die maar één dag per jaar bestaat"
      ],
@@ -291,7 +291,7 @@
      "vraag": "Hoe beïnvloeden persoonlijke identiteit en groepsidentiteit elkaar?",
      "opties": [
       "In twee richtingen: de groep kleurt jou en jij de groep",
-      "Alleen in één richting: de groep bepaalt jou volledig",
+      "Alleen in één richting: de groep bepaalt jou volledig, wat je ook doet",
       "Alleen in één richting: jij bepaalt de groep volledig",
       "Ze hebben niets met elkaar te maken"
      ],
@@ -315,7 +315,7 @@
      "vraag": "Wat is solidariteit?",
      "opties": [
       "Elkaar steunen, ook als je er zelf niets bij wint",
-      "Alleen helpen wie jou eerder al geholpen heeft",
+      "Alleen helpen wie jou eerder al geholpen heeft, als wederdienst",
       "Ervoor zorgen dat iedereen hetzelfde denkt",
       "Zorgen dat je zelf vooruitkomt"
      ],
@@ -398,7 +398,7 @@
      "opties": [
       "Groepsidentiteit is gelaagd, dus je kan bij meerdere groepen horen",
       "Dat kan niet, je moet er altijd één kiezen",
-      "Dat kan alleen als je in twee landen tegelijk woont",
+      "Dat kan alleen als je in twee landen tegelijk woont en twee paspoorten hebt",
       "Dat betekent dat hij helemaal geen persoonlijke identiteit heeft"
      ],
      "antwoord": 0,
@@ -473,7 +473,7 @@
      "vraag": "Waarom is samenleven in diversiteit soms moeilijk?",
      "opties": [
       "Omdat verschillen kunnen leiden tot misverstanden en vooroordelen",
-      "Omdat mensen die verschillen elkaars taal nooit kunnen leren",
+      "Omdat mensen die verschillen elkaars taal en gewoontes nooit echt kunnen leren",
       "Omdat er wetten zijn die verschillen verbieden",
       "Omdat er dan niemand meer dezelfde gewoontes heeft"
      ],
@@ -485,7 +485,7 @@
      "vraag": "Waarom kan samenleven in diversiteit ook waardevol zijn?",
      "opties": [
       "Je leert manieren van doen kennen die je zelf niet had bedacht",
-      "Je moet nooit meer rekening houden met iemand anders",
+      "Je moet nooit meer rekening houden met iemand anders dan jezelf",
       "Iedereen gaat dan vanzelf net hetzelfde denken",
       "Er zijn dan minder regels nodig op school"
      ],
@@ -497,7 +497,7 @@
      "vraag": "Wat is het verschil tussen plagen en pesten?",
      "opties": [
       "Plagen gaat over en weer, pesten is één kant die de andere raakt",
-      "Plagen gebeurt op school, pesten gebeurt online",
+      "Plagen gebeurt op school, pesten gebeurt vooral online en anoniem",
       "Plagen doe je met woorden, pesten doe je met je handen",
       "Plagen doen kinderen, pesten doen volwassenen"
      ],
@@ -509,7 +509,7 @@
      "vraag": "Wat is een meningsverschil?",
      "opties": [
       "Twee mensen denken anders over iets en zeggen dat tegen elkaar",
-      "Eén persoon wordt telkens opnieuw belachelijk gemaakt",
+      "Eén persoon wordt telkens opnieuw belachelijk gemaakt door een groep",
       "Een groep sluit iemand bewust uit van een activiteit",
       "Iemand gebruikt zijn positie om een ander iets op te leggen"
      ],
@@ -521,7 +521,7 @@
      "vraag": "Wat is groepsdruk?",
      "opties": [
       "De druk om iets te doen omdat de groep het doet of verwacht",
-      "De druk die je voelt vlak voor een toets op school",
+      "De druk die je voelt vlak voor een toets of een examen op school",
       "De drukte op een speelplaats tijdens de middagpauze",
       "Het gewicht van een groep mensen op een klein oppervlak"
      ],
@@ -591,7 +591,7 @@
      "vraag": "Welke basisemoties bestaan er?",
      "opties": [
       "Blijdschap, verdriet, angst, woede",
-      "Honger, dorst, slaap, kou",
+      "Honger, dorst, slaap, kou, pijn en vermoeidheid",
       "Slim, dom, snel, traag",
       "Lawaai, stilte, licht, donker"
      ],
@@ -766,7 +766,7 @@
      "vraag": "Wanneer leg je iemand in stabiele zijligging?",
      "opties": [
       "Als de persoon bewusteloos is maar wel normaal ademt",
-      "Als de persoon bewusteloos is en niet meer ademt",
+      "Als de persoon bewusteloos is en helemaal niet meer ademt",
       "Als de persoon bij bewustzijn is en veel pijn heeft",
       "Als de persoon een gebroken been heeft"
      ],
@@ -866,7 +866,7 @@
      "vraag": "Iemand heeft een ongeval gehad en ligt op de rijweg, maar het verkeer rijdt gewoon door. Wat is hier de eerste zorg?",
      "opties": [
       "De plaats veilig maken, bijvoorbeeld met een gevarendriehoek",
-      "Het slachtoffer meteen van de rijweg af slepen",
+      "Het slachtoffer meteen van de rijweg af slepen naar de stoep",
       "Foto's nemen van wat er precies gebeurd is",
       "Aan alle omstaanders vragen wie hier de schuld van heeft"
      ],
@@ -958,7 +958,7 @@
      "vraag": "Wat doe je bij een wonde die hevig bloedt?",
      "opties": [
       "Je drukt stevig op de wonde met een verband of een propere doek",
-      "Je spoelt de wonde uitgebreid met warm water uit de kraan",
+      "Je spoelt de wonde uitgebreid met warm water uit de kraan, zo lang als nodig",
       "Je laat de wonde open liggen zodat het bloed eruit kan lopen",
       "Je wrijft over de wonde zodat het bloed stolt"
      ],
@@ -985,7 +985,7 @@
      "vraag": "Wat doe je bij een brandwonde?",
      "opties": [
       "Tien tot twintig minuten koelen met lauw zacht stromend water",
-      "Een paar seconden koelen met ijsblokjes uit de diepvries",
+      "Een paar seconden koelen met ijsblokjes uit de diepvries, direct op de huid",
       "Er boter of tandpasta op smeren tegen de pijn",
       "De blaar meteen doorprikken zodat het vocht eruit kan"
      ],
@@ -1030,7 +1030,7 @@
      "vraag": "Wat doe je bij een verstuikte enkel?",
      "opties": [
       "Rust geven, koelen, een drukverband aanleggen en hoog leggen",
-      "Gewoon blijven doorlopen zodat het gewricht soepel blijft",
+      "Gewoon blijven doorlopen zodat het gewricht soepel en warm blijft",
       "De enkel warm inpakken met een kruik erbij",
       "Stevig masseren om de zwelling weg te duwen"
      ],
@@ -1066,7 +1066,7 @@
      "vraag": "Iemand snijdt zich in de keuken en er stroomt veel bloed uit zijn hand. Wat is de eerste handeling?",
      "opties": [
       "Stevig drukken op de wonde met een propere doek",
-      "Eerst een pleister zoeken in de kast",
+      "Eerst een pleister zoeken in de kast in de badkamer",
       "De hand onder heet water houden",
       "De wonde ontsmetten voor je iets anders doet"
      ],
@@ -1158,7 +1158,7 @@
      "vraag": "Wat is een grondwet?",
      "opties": [
       "De hoogste wet, waar alle andere wetten zich aan moeten houden",
-      "De wet die bepaalt wie welke grond in het land in bezit heeft",
+      "De wet die bepaalt wie welke grond en welke huizen in het land in bezit heeft",
       "De eerste wet die een nieuwe regering laat stemmen",
       "Een wet die om de vijf jaar volledig vervangen wordt"
      ],
@@ -1170,7 +1170,7 @@
      "vraag": "Welke drie machten onderscheidt men in een rechtsstaat?",
      "opties": [
       "De wetgevende, de uitvoerende en de rechterlijke macht",
-      "De koninklijke, de kerkelijke en de militaire macht",
+      "De koninklijke, de kerkelijke en de militaire macht van vroeger",
       "De federale, de regionale en de lokale macht",
       "De politieke, de economische en de sociale macht"
      ],
@@ -1224,7 +1224,7 @@
      "vraag": "Waarom zijn de drie machten van elkaar gescheiden?",
      "opties": [
       "Zodat ze elkaar kunnen controleren en niemand alle macht krijgt",
-      "Zodat het werk over meer mensen verdeeld raakt en sneller gaat",
+      "Zodat het werk over meer mensen verdeeld raakt en de beslissingen sneller gaan",
       "Zodat elke provincie zijn eigen macht kan uitoefenen",
       "Zodat de koning er niet meer bij betrokken hoeft te zijn"
      ],
@@ -1266,7 +1266,7 @@
      "vraag": "Wat is persvrijheid?",
      "opties": [
       "Journalisten mogen berichten zonder dat de overheid dat verbiedt",
-      "Kranten en nieuwssites zijn voor iedereen gratis te lezen",
+      "Kranten en nieuwssites zijn voor iedereen gratis te lezen, ook zonder abonnement",
       "Iedereen mag zelf een krant beginnen zonder ervoor te betalen",
       "De overheid schrijft zelf mee aan het nieuws van de dag"
      ],
@@ -1374,7 +1374,7 @@
      "vraag": "Wat is een goederenstroom?",
      "opties": [
       "Het verplaatsen van een product van de ene speler naar de andere",
-      "Het geld dat van de ene speler naar de andere speler overgaat",
+      "Het geld dat van de ene speler naar de andere speler overgaat bij een aankoop",
       "Het aantal mensen dat in een bedrijf komt werken",
       "De volgorde waarin een bedrijf zijn taken afwerkt"
      ],
@@ -1513,7 +1513,7 @@
      "opties": [
       "De producten en grondstoffen worden er bewaard tot ze nodig zijn",
       "De klanten worden er ontvangen als ze langskomen",
-      "De reclamecampagnes worden er uitgedacht, gemaakt en opgevolgd",
+      "De reclamecampagnes worden er uitgedacht, gemaakt, verstuurd en opgevolgd",
       "De lonen van het personeel worden er berekend"
      ],
      "antwoord": 0,
@@ -1840,7 +1840,7 @@
      "vraag": "Twee kinderen met dezelfde punten gaan naar dezelfde school. Het ene heeft thuis een rustige plek en hulp bij het huiswerk, het andere niet. Wat zie je hier?",
      "opties": [
       "Sociale ongelijkheid door verschil in kansen om te leren",
-      "Discriminatie door de school waar ze samen naartoe gaan",
+      "Discriminatie door de school waar ze samen naartoe gaan, door hun afkomst",
       "Een verschil in gezondheid tussen de twee kinderen",
       "Een regel van de overheid die ongelijk uitvalt"
      ],
@@ -1888,7 +1888,7 @@
      "vraag": "Wat is een vervangingsuitkering?",
      "opties": [
       "Geld dat in de plaats komt van een inkomen dat weggevallen is",
-      "Geld dat bovenop een inkomen komt om kosten te helpen dragen",
+      "Geld dat bovenop een inkomen komt om bepaalde kosten te helpen dragen, zoals kinderen",
       "Geld dat je moet terugbetalen zodra je weer werkt",
       "Geld dat een bedrijf aan zijn werknemers uitbetaalt"
      ],
@@ -1918,7 +1918,7 @@
      "vraag": "Wat is een aanvullende uitkering?",
      "opties": [
       "Geld dat bovenop het inkomen komt om bepaalde kosten te helpen dragen",
-      "Geld dat volledig in de plaats komt van een loon dat weggevallen is",
+      "Geld dat volledig in de plaats komt van een loon dat weggevallen is door ziekte",
       "Geld dat je van je werkgever krijgt bovenop je maandloon",
       "Geld dat je jaarlijks van de bank krijgt op je spaarrekening"
      ],
@@ -2364,7 +2364,7 @@
      "vraag": "Wat is een prepaidkaart?",
      "opties": [
       "Een kaart waarop je eerst geld zet en dan pas kan betalen",
-      "Een kaart die je pas na de aankoop moet opladen",
+      "Een kaart die je pas na de aankoop moet opladen, binnen de maand",
       "Een kaart waarmee je onbeperkt kan lenen bij de bank",
       "Een kaart die de winkel je gratis geeft als klant"
      ],
@@ -2538,7 +2538,7 @@
      "vraag": "Wanneer kies je beter voor een e-mail dan voor een chatbericht?",
      "opties": [
       "Als je iets formeel wil vragen en het moet worden bijgehouden",
-      "Als je heel snel een kort antwoord op één vraag nodig hebt",
+      "Als je heel snel een kort antwoord op één vraag nodig hebt van een collega",
       "Als je met meerdere mensen tegelijk wil praten en zien",
       "Als je gewoon iets grappigs wil doorsturen naar een vriend"
      ],
@@ -2717,7 +2717,7 @@
      "vraag": "Wat zijn haatberichten?",
      "opties": [
       "Berichten die aanzetten tot haat tegen een persoon of een groep",
-      "Berichten die je per ongeluk naar de verkeerde persoon stuurt",
+      "Berichten die je per ongeluk naar de verkeerde persoon of groep stuurt",
       "Berichten die je met opzet in hoofdletters typt",
       "Berichten die een bedrijf ongevraagd naar je stuurt"
      ],
@@ -2729,7 +2729,7 @@
      "vraag": "Wat is doxing?",
      "opties": [
       "Iemands privégegevens online zetten zonder toestemming",
-      "Iemand volledig uitsluiten uit een groep of gesprek",
+      "Iemand volledig uitsluiten uit een groep, een chat of een gesprek",
       "Iemand publiek belachelijk maken met een foto",
       "Iemand vals nieuws doorsturen over een gebeurtenis"
      ],
@@ -2862,7 +2862,7 @@
      "opties": [
       "De mail negeren en zelf je zending nakijken bij de vervoerder",
       "Het bedrag betalen, want het is maar een paar euro",
-      "Op de link klikken om te zien waar hij precies naartoe gaat",
+      "Op de link klikken om te zien waar hij precies naartoe gaat, en dan beslissen",
       "Antwoorden met de vraag om welk pakje het gaat"
      ],
      "antwoord": 0,
@@ -2889,7 +2889,7 @@
      "vraag": "Wat is tweestapsverificatie?",
      "opties": [
       "Naast je wachtwoord geef je nog een tweede bewijs, zoals een code",
-      "Je typt je wachtwoord twee keer in om typfouten te vermijden",
+      "Je typt je wachtwoord twee keer na elkaar in om typfouten te vermijden",
       "Je hebt twee verschillende wachtwoorden voor dezelfde site",
       "Je verandert je wachtwoord elke twee maanden opnieuw"
      ],
