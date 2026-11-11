@@ -47,13 +47,28 @@ const DEEL = /\s*—\s*deel\s*\d+$/i;
   dezelfde leerstof gaat, en "— deel 1" / "— deel 2" omdat een Spark-hoofdstuk
   in twee reeksen vragen is gesplitst maar één bundel heeft.
 */
+/*
+  Wiskunde gevorderd heet op het platform gewoon "Wiskunde" (vak-slug
+  "wiskunde"), maar de klikbare bundels van Boost en Beyond doorstroom zijn
+  gemaakt onder "wiskunde-gevorderd". Daardoor vond geen enkel hoofdstuk zijn
+  bundel (gevonden op 11 november 2026). Dubbele finaliteit heeft maar één
+  wiskunde en staat wel onder "wiskunde".
+*/
+const GEVORDERD = new Set(["boost-doorstroom", "beyond-doorstroom"]);
+
+function bundelVak(vakSlug: string, niveau: string): string {
+  return vakSlug === "wiskunde" && GEVORDERD.has(niveau)
+    ? "wiskunde-gevorderd"
+    : vakSlug;
+}
+
 export function bundelSleutel(
   vakSlug: string,
   hoofdstukTitel: string,
   niveau: string,
 ): string {
   const basis = hoofdstukTitel.replace(PITTIG, "").replace(DEEL, "");
-  return `${niveau}/${vakSlug}/${slugify(basis)}`;
+  return `${niveau}/${bundelVak(vakSlug, niveau)}/${slugify(basis)}`;
 }
 
 export async function laadKlikbareBundel(

@@ -40,6 +40,12 @@ export const nieuwTekst = {
 
 export const updates: Update[] = [
   {
+    datum: "11 november 2026",
+    titel: "Klikbare leerbundels bij wiskunde, en meer oefenbundels",
+    tekst:
+      "Bij wiskunde in Boost en Beyond doorstroom stonden de klikbare leerbundels wel klaar, maar je kon ze niet openen. Nu staat bij elk hoofdstuk de knop naar de leerbundel. We zetten ook oefenbundels op papier bij Nederlands in Spark, aardrijkskunde en biologie in Boost, en Frans en welzijnswetenschappen in Beyond.",
+  },
+  {
     datum: "10 november 2026",
     titel: "Na een fout zie je nu altijd wat juist was",
     tekst:
