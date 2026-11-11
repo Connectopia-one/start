@@ -131,6 +131,7 @@ export const spellen: Spel[] = [
   { slug: "woordenarena-frans", icoon: "🥖", titel: "Woordenarena Frans" },
   { slug: "begrippenarena-techniek", icoon: "⚙️", titel: "Begrippenarena Techniek" },
   { slug: "begrippenarena-mens", icoon: "🤝", titel: "Begrippenarena Mens en samenleving" },
+  { slug: "begrippenarena-uitdagingshoek", icoon: "🔭", titel: "Begrippenarena Uitdagingshoek" },
   { slug: "wiskunde-dimensie", icoon: "🤖", titel: "De Wiskunde-dimensie" },
   /* Prikkelarme spellen voor het lager (Kim, 9 november 2026): geen klok,
      geen geluid, geen punten, een rustige tip bij een fout. */
@@ -174,6 +175,9 @@ const zevenSpellenTech =
 
 const zevenSpellenMens =
   "In zeven spellen: een quiz, memory, raad het begrip, huizengalgje, flitskaarten, bingo en het sorteerspel, waarin je bijvoorbeeld een uitspraak bij het juiste stadium of de juiste macht legt.";
+
+const zevenSpellenHoek =
+  "In zeven spellen: een quiz, memory, raad het begrip, raketgalgje, flitskaarten, bingo en het sorteerspel, waarin je bijvoorbeeld kiest tussen planeet en maan of tussen feit en fabel.";
 
 export const spelKaarten: SpelKaart[] = [
   /* Lagere school */
@@ -466,7 +470,34 @@ export const spelKaarten: SpelKaart[] = [
     tekst: `Ruim vijftig begrippen, van identiteit en reanimatie tot belastingen, de markt, je loonfiche, krediet, beleggen en verzekeren. ${zevenSpellenMens}`,
   },
 
-
+  {
+    spel: "begrippenarena-uitdagingshoek",
+    school: "iedereen",
+    niveau: "🔭 Uitdagingshoek · De ruimte",
+    niveauInSpel: "ruimte",
+    tekst: `Bijna tachtig begrippen uit de uitdagingshoek, van lichtjaar en zwart gat tot zonnestorm, komeet en Joeri Gagarin. ${zevenSpellenHoek}`,
+  },
+  {
+    spel: "begrippenarena-uitdagingshoek",
+    school: "iedereen",
+    niveau: "🔭 Uitdagingshoek · Coderen en computers",
+    niveauInSpel: "code",
+    tekst: `Tachtig begrippen, van bit en byte tot algoritme, phishing, de Caesarcode en hexadecimale kleurcodes. ${zevenSpellenHoek}`,
+  },
+  {
+    spel: "begrippenarena-uitdagingshoek",
+    school: "iedereen",
+    niveau: "🔭 Uitdagingshoek · Geschiedenis van België",
+    niveauInSpel: "belgie",
+    tekst: `Bijna tachtig begrippen, van Ambiorix en Karel V tot de Belgische Revolutie, het IJzerfront en de staatshervormingen. ${zevenSpellenHoek}`,
+  },
+  {
+    spel: "begrippenarena-uitdagingshoek",
+    school: "iedereen",
+    niveau: "🔭 Uitdagingshoek · Paradoxen en weetjes",
+    niveauInSpel: "paradox",
+    tekst: `Bijna zeventig begrippen, van het hotel van Hilbert en de verjaardagsparadox tot overlevingsbias en het duivenhokprincipe. ${zevenSpellenHoek}`,
+  },
 ];
 
 export function vindSpel(slug: string) {
