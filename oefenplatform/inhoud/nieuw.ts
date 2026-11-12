@@ -40,6 +40,14 @@ export const nieuwTekst = {
 
 export const updates: Update[] = [
   {
+    datum: "12 november 2026",
+    titel: "Foutenspeurder duidelijker",
+    tekst:
+      "Bij de foutenspeurder staan nu bij elke opgave twee uitwerkingen: één juiste en één foute. Je tikt de juiste aan en leest waarom de andere fout is. Vroeger stonden de stappen onder elkaar, en na een foute stap was de volgende ook fout. Dat was verwarrend. Er kwam ook een nieuwe opgave bij.",
+    opVraag: true,
+    link: { tekst: "Naar de foutenspeurder", href: "/extras/foutenspeurder" },
+  },
+  {
     datum: "11 november 2026",
     titel: "Begrippenarena wiskunde ook voor statistiek",
     tekst:
