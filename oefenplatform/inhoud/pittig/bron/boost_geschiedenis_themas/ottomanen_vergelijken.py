@@ -169,7 +169,7 @@ VRAGEN = [
     met_prent(
         "suleymaniye.webp",
         sorteer(
-            "Bekijk de koepel van de Süleymaniye-moskee in Istanbul, van binnenuit. Is dit een kenmerk van Ottomaanse bouwkunst of niet?",
+            "Bekijk de Süleymaniye-moskee in Istanbul. Is dit een kenmerk van Ottomaanse bouwkunst of niet?",
             ["Ottomaans", "Niet Ottomaans"],
             [
                 ["grote koepels", "Ottomaans"],
