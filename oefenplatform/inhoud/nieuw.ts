@@ -43,7 +43,7 @@ export const updates: Update[] = [
     datum: "12 november 2026",
     titel: "Foutenspeurder duidelijker",
     tekst:
-      "Bij de foutenspeurder zoek je nu de stap waar de fout begint. Na een foute stap kloppen de volgende stappen ook niet, en dat was verwarrend. Tik je een latere stap aan, dan zegt het spel dat de fout al eerder begon. Een berekening met maar één stap kreeg er een stap bij.",
+      "Bij de foutenspeurder staan nu bij elke opgave twee uitwerkingen: één juiste en één foute. Je tikt de foute aan en leest waarom ze fout is. Vroeger stonden de stappen onder elkaar, en na een foute stap was de volgende ook fout. Dat was verwarrend. Er kwam ook een nieuwe opgave bij.",
     opVraag: true,
     link: { tekst: "Naar de foutenspeurder", href: "/extras/foutenspeurder" },
   },

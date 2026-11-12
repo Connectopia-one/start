@@ -7,18 +7,20 @@
 <!--
   Foutenspeurder — een prikkelarm spel van Connectopia (Kim, 9 november 2026).
 
-  Een berekening staat in stappen onder elkaar. Ergens loopt het mis, en
-  alles wat daarna komt rekent met die fout verder. Het kind tikt de stap
-  aan waar de fout begint (Kim, 12/11/2026, na een melding van een ouder) en leest daarna rustig waarom het fout is en hoe het
-  wel moet. Geen klok, geen geluid, geen punten.
+  Bij elke opgave staan twee uitwerkingen: één juiste en één foute. Het kind
+  tikt de foute aan en leest daarna rustig waarom ze fout is en hoe het wel
+  moet. Geen klok, geen geluid, geen punten. (Zo omgebouwd op vraag van Kim,
+  12/11/2026, na een melding van een ouder: met stappen onder elkaar waren
+  na een fout ook de volgende stappen fout, en dat verwarde.)
 
   De fouten bij breuken en procenten zijn de denkfouten van onze
   denkfoutenbladen, die gebaseerd zijn op het idee van de gratis werkbladen
   van Munan (munan.nl/gratis-werkbladen-groep-8). De oefeningen zelf zijn
   nieuw geschreven door Connectopia.
 
-  Een oefening bijzetten: zet een blokje bij in OEFENINGEN. stappen[0] is de
-  opgave (niet aan te tikken), fout is het nummer van de stap waar de fout begint.
+  Een oefening bijzetten: zet een blokje bij in OEFENINGEN met de opgave,
+  de foute en de juiste uitwerking en de uitleg. De volgorde van de twee
+  knoppen is elke keer willekeurig.
 -->
 <style>
   :root { --bg:#fbf6ea; --kaart:#fffdf7; --ink:#2f3a2a; --zacht:#6b7363; --groen:#2f4a22;
@@ -56,39 +58,41 @@
 <script>
 "use strict";
 const OEFENINGEN = [
-  { groep: "breuken", stappen: ["1/4 + 2/4", "= (1 + 2) / (4 + 4)", "= 3/8"], fout: 1,
+  { groep: "breuken", opgave: "1/4 + 2/4", fout: "(1 + 2) / (4 + 4) = 3/8", goed: "(1 + 2) / 4 = 3/4",
     uitleg: "De noemers mag je niet optellen. De stukken blijven even groot: vierden. Je telt enkel de tellers op: 1/4 + 2/4 = 3/4." },
-  { groep: "breuken", stappen: ["1/2 + 1/3", "= (1 + 1) / (2 + 3)", "= 2/5"], fout: 1,
+  { groep: "breuken", opgave: "1/2 + 1/3", fout: "(1 + 1) / (2 + 3) = 2/5", goed: "3/6 + 2/6 = 5/6",
     uitleg: "Je kan enkel stukken optellen die even groot zijn. Maak eerst gelijknamig: 1/2 = 3/6 en 1/3 = 2/6. Dan is 3/6 + 2/6 = 5/6." },
-  { groep: "breuken", stappen: ["3/4 − 1/2", "= 3/4 − 2/4", "= 1/2"], fout: 2,
-    uitleg: "De eerste stap is juist: 1/2 = 2/4. Daarna trek je enkel de tellers af en blijft de noemer 4: 3/4 − 2/4 = 1/4." },
-  { groep: "breuken", stappen: ["2/3 van 12", "= 12 : 2 × 3", "= 18"], fout: 1,
+  { groep: "breuken", opgave: "3/4 − 1/2", fout: "3/4 − 2/4 = 1/2", goed: "3/4 − 2/4 = 1/4",
+    uitleg: "1/2 = 2/4 klopt. Daarna trek je enkel de tellers af en blijft de noemer 4: 3/4 − 2/4 = 1/4." },
+  { groep: "breuken", opgave: "2/3 van 12", fout: "12 : 2 × 3 = 18", goed: "12 : 3 × 2 = 8",
     uitleg: "Je deelt eerst door de noemer en vermenigvuldigt dan met de teller: 12 : 3 = 4, en 4 × 2 = 8. Een deel van 12 kan nooit meer zijn dan 12." },
-  { groep: "breuken", stappen: ["Welke is groter: 1/3 of 1/5?", "5 is groter dan 3", "dus 1/5 is groter dan 1/3"], fout: 2,
-    uitleg: "Het klopt dat 5 groter is dan 3, maar hoe meer stukken, hoe kleiner elk stuk. Een taart in 3 stukken geeft grotere stukken dan in 5. Dus 1/3 is groter." },
-  { groep: "breuken", stappen: ["6/8 vereenvoudigen", "teller: 6 : 2 = 3", "noemer: 8 : 4 = 2", "= 3/2"], fout: 2,
+  { groep: "breuken", opgave: "Welke is groter: 1/3 of 1/5?", fout: "1/5, want 5 is groter dan 3", goed: "1/3, want in 3 stukken is elk stuk groter",
+    uitleg: "Hoe meer stukken, hoe kleiner elk stuk. Een taart in 3 stukken geeft grotere stukken dan in 5. Dus 1/3 is groter." },
+  { groep: "breuken", opgave: "6/8 vereenvoudigen", fout: "6 : 2 = 3 en 8 : 4 = 2, dus 3/2", goed: "6 : 2 = 3 en 8 : 2 = 4, dus 3/4",
     uitleg: "Teller en noemer deel je door hetzelfde getal. 6 : 2 = 3 en 8 : 2 = 4, dus 6/8 = 3/4." },
-  { groep: "procenten", stappen: ["20% van 50", "= 50 : 20", "= 2,5"], fout: 1,
+  { groep: "procenten", opgave: "20% van 50", fout: "50 : 20 = 2,5", goed: "50 : 100 × 20 = 10",
     uitleg: "20% betekent 20 honderdsten. Deel door 100 en vermenigvuldig met 20: 50 : 100 × 20 = 10." },
-  { groep: "procenten", stappen: ["Een spel kost 40 euro. Je krijgt 25% korting. Hoeveel betaal je?", "25% van 40 = 10", "Je betaalt 10 euro"], fout: 2,
-    uitleg: "De berekening is juist, maar 10 euro is de korting. Die trek je nog af van de prijs: 40 − 10 = 30 euro." },
-  { groep: "procenten", stappen: ["50% van 30", "= de helft van 30", "= 50"], fout: 2,
+  { groep: "procenten", opgave: "Een spel kost 40 euro. Je krijgt 25% korting. Hoeveel betaal je?", fout: "25% van 40 = 10, je betaalt 10 euro", goed: "25% van 40 = 10, je betaalt 40 − 10 = 30 euro",
+    uitleg: "10 euro is de korting. Die trek je nog af van de prijs: 40 − 10 = 30 euro." },
+  { groep: "procenten", opgave: "50% van 30", fout: "50% van 30 = 50", goed: "de helft van 30 = 15",
     uitleg: "50% is de helft. De helft van 30 is 15. Het antwoord kan niet groter zijn dan 30." },
-  { groep: "procenten", stappen: ["10% van 80", "= 80 : 100 × 10", "= 80"], fout: 2,
+  { groep: "procenten", opgave: "10% van 80", fout: "80 : 100 × 10 = 80", goed: "80 : 10 = 8",
     uitleg: "80 : 100 = 0,8 en 0,8 × 10 = 8. Korter: 10% is één tiende, en 80 : 10 = 8." },
-  { groep: "rekenen", stappen: ["3 + 4 × 2", "= 7 × 2", "= 14"], fout: 1,
+  { groep: "rekenen", opgave: "3 + 4 × 2", fout: "7 × 2 = 14", goed: "3 + 8 = 11",
     uitleg: "Eerst maal en gedeeld door, daarna plus en min: 4 × 2 = 8, en 3 + 8 = 11." },
-  { groep: "rekenen", stappen: ["2,5 × 10", "Bij × 10 zet je er een 0 achter", "= 2,50"], fout: 1,
-    uitleg: "Die regel werkt enkel bij gehele getallen. Een 0 achter de komma zetten verandert niets: 2,50 is nog altijd 2,5. Bij × 10 schuift de komma één plaats naar rechts: 2,5 × 10 = 25." },
-  { groep: "rekenen", stappen: ["4,7 + 2,35", "= 4,70 + 2,35", "= 6,05"], fout: 2,
-    uitleg: "De eerste stap is slim. Tel dan de honderdsten: 70 + 35 = 105 honderdsten, dat is 1,05. 4 + 2 + 1,05 = 7,05." },
-  { groep: "rekenen", stappen: ["600 : 30", "= 600 : 3 : 10", "= 2000"], fout: 2,
-    uitleg: "De eerste stap is juist. 600 : 3 = 200, en dan nog : 10 geeft 20." },
-  { groep: "rekenen", stappen: ["2,5 km in meter", "1 km = 100 m", "2,5 km = 250 m"], fout: 1,
+  { groep: "rekenen", opgave: "2 + 3 × 2", fout: "5 × 2 = 10", goed: "2 + 6 = 8",
+    uitleg: "Eerst maal, dan plus: 3 × 2 = 6, en 2 + 6 = 8." },
+  { groep: "rekenen", opgave: "2,5 × 10", fout: "2,5 × 10 = 2,50", goed: "2,5 × 10 = 25",
+    uitleg: "Een 0 achter de komma zetten verandert niets: 2,50 is nog altijd 2,5. Bij × 10 schuift de komma één plaats naar rechts: 25." },
+  { groep: "rekenen", opgave: "4,7 + 2,35", fout: "4,70 + 2,35 = 6,05", goed: "4,70 + 2,35 = 7,05",
+    uitleg: "Tel de honderdsten: 70 + 35 = 105 honderdsten, dat is 1,05. 4 + 2 + 1,05 = 7,05." },
+  { groep: "rekenen", opgave: "600 : 30", fout: "600 : 3 : 10 = 2000", goed: "600 : 3 : 10 = 20",
+    uitleg: "600 : 3 = 200, en dan nog : 10 geeft 20. Bij delen wordt het getal kleiner, niet groter." },
+  { groep: "rekenen", opgave: "2,5 km in meter", fout: "1 km = 100 m, dus 250 m", goed: "1 km = 1000 m, dus 2500 m",
     uitleg: "1 km = 1000 m. Dus 2,5 km = 2500 m." },
-  { groep: "rekenen", stappen: ["Van 9.45 u tot 10.20 u", "10.20 − 9.45 = 75", "Het duurt 75 minuten"], fout: 1,
+  { groep: "rekenen", opgave: "Van 9.45 u tot 10.20 u", fout: "10.20 − 9.45 = 75 minuten", goed: "15 min tot 10.00 u + 20 min = 35 minuten",
     uitleg: "Een uur heeft 60 minuten, geen 100. Reken in stukjes: van 9.45 u tot 10.00 u is 15 minuten, en tot 10.20 u nog 20. Samen 35 minuten." },
-  { groep: "rekenen", stappen: ["Omtrek van een rechthoek van 5 cm op 3 cm", "= 5 × 3", "= 15 cm"], fout: 1,
+  { groep: "rekenen", opgave: "Omtrek van een rechthoek van 5 cm op 3 cm", fout: "5 × 3 = 15 cm", goed: "5 + 3 + 5 + 3 = 16 cm",
     uitleg: "De omtrek is de rand rondom: 5 + 3 + 5 + 3 = 16 cm. Met 5 × 3 reken je de oppervlakte uit: 15 cm²." },
 ];
 const GROEPEN = { alles: "Alles door elkaar", breuken: "Breuken", procenten: "Procenten", rekenen: "Rekenen en meten" };
@@ -100,7 +104,7 @@ const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;",
 function start() {
   $app.innerHTML = `
     <h1>Foutenspeurder</h1>
-    <p class="zacht">In elke berekening loopt het ergens mis. Zoek de stap waar de fout begint. Geen klok, neem je tijd.</p>
+    <p class="zacht">Bij elke opgave staan twee uitwerkingen. Eén is juist, één is fout. Kan jij de foute vinden? Geen klok, neem je tijd.</p>
     <div class="blok">
       <div class="label">Kies waarmee je oefent</div>
       <div class="rij">${Object.entries(GROEPEN).map(([k, v]) => `<button class="hoofd" data-g="${k}">${v}</button>`).join("")}</div>
@@ -122,6 +126,7 @@ function speel(groep) {
       return;
     }
     const o = reeks[i];
+    const keuzes = schud([{ tekst: o.fout, fout: true }, { tekst: o.goed, fout: false }]);
     $app.innerHTML = `
       <div class="rij" style="justify-content:space-between">
         <div><h1>Foutenspeurder</h1><div class="teller">${GROEPEN[groep]} · berekening ${i + 1} van ${reeks.length}</div></div>
@@ -129,27 +134,24 @@ function speel(groep) {
       </div>
       <div class="blok">
         <div class="label">De opgave</div>
-        <div class="opgave">${esc(o.stappen[0])}</div>
-        <div class="label">Tik de stap aan waar de fout begint</div>
-        <div class="stappen">${o.stappen.slice(1).map((s, k) => `<button class="stap" data-k="${k + 1}">${esc(s)}</button>`).join("")}</div>
+        <div class="opgave">${esc(o.opgave)}</div>
+        <div class="label">Tik de foute uitwerking aan</div>
+        <div class="stappen">${keuzes.map(k => `<button class="stap" data-k="${k.fout ? 1 : 0}">${esc(k.tekst)}</button>`).join("")}</div>
         <div class="bericht" aria-live="polite"></div>
         <div class="rij" style="justify-content:flex-end;margin-top:12px"><button class="hoofd" data-volgende hidden>Volgende berekening</button></div>
       </div>`;
     $app.querySelector("[data-terug]").onclick = start;
     const $b = $app.querySelector(".bericht"), $v = $app.querySelector("[data-volgende]");
     $app.querySelectorAll("[data-k]").forEach(knop => knop.onclick = () => {
-      if (+knop.dataset.k === o.fout) {
+      if (knop.dataset.k === "1") {
         gevonden++;
         knop.classList.add("gevonden");
-        $app.querySelectorAll("[data-k]").forEach(k => k.disabled = true);
-        const na = o.fout < o.stappen.length - 1 ? " Wat daarna komt, rekent verder met die fout en klopt dus ook niet." : "";
-        $b.innerHTML = `<b>Gevonden.</b> ${esc(o.uitleg)}${na}`;
+        $app.querySelectorAll("[data-k]").forEach(k => { k.disabled = true; if (k.dataset.k === "0") k.classList.add("klopt"); });
+        $b.innerHTML = `<b>Gevonden.</b> ${esc(o.uitleg)}`;
         $v.hidden = false; $v.focus();
-      } else if (+knop.dataset.k > o.fout) {
-        $b.textContent = "Deze uitkomst klopt inderdaad niet, maar de fout begon al eerder. Zoek de stap waar het misgaat.";
       } else {
         knop.classList.add("klopt"); knop.disabled = true;
-        $b.textContent = "Deze stap klopt. Kijk nog eens rustig naar de andere stappen.";
+        $b.textContent = "Deze uitwerking klopt. Kijk nog eens rustig naar de andere.";
       }
     });
     $v.onclick = () => { i++; ronde(); };
