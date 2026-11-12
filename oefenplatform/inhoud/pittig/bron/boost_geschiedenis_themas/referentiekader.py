@@ -8,11 +8,11 @@ PRENTEN = [
     dict(bestand="schaalniveaus.svg", zelf=True,
          wat="Schema met vijf gebieden in elkaar: de wereld, Europa, het koninkrijk Frankrijk, het graafschap Vlaanderen, Kortrijk.",
          vragen="klikvraag op het regionale schaalniveau van de Guldensporenslag"),
-    dict(bestand="kaart-rijk-karel-v.jpg", zelf=False,
+    dict(bestand="kaart-rijk-karel-v.webp", zelf=False,
          wat="Historische kaart van het rijk van Karel V rond 1550, met de Nederlanden, Spanje, delen van Italië, het Heilige Roomse Rijk en de kolonies in Amerika in één kleur.",
          waar="Wikimedia Commons, zoek op 'Empire of Charles V map' (kies een kaart die vrij te gebruiken is), of een kaart uit een atlas die we mogen tonen.",
          vragen="tabelvraag: een gegeven in de ruimte situeren met een historische kaart"),
-    dict(bestand="portret-suleyman.jpg", zelf=False,
+    dict(bestand="portret-suleyman.webp", zelf=False,
          wat="Geschilderd portret van sultan Süleyman I (16de eeuw), bijvoorbeeld het portret uit de werkplaats van Titiaan in het Kunsthistorisches Museum in Wenen.",
          waar="Wikimedia Commons, zoek op 'Suleiman the Magnificent portrait Titian' (publiek domein).",
          vragen="meerkeuzevraag: in welke maatschappelijke domeinen hoort het portret"),
@@ -225,7 +225,7 @@ VRAGEN = [
         "Lokaal tot mondiaal zegt hoe groot een gebied is. Maritiem, ruraal, stedelijk en westers zeggen wat voor gebied het is.",
     ),
     met_prent(
-        "kaart-rijk-karel-v.jpg",
+        "kaart-rijk-karel-v.webp",
         tabel(
             "Bekijk de historische kaart van het rijk van Karel V rond 1550. Klopt elke uitspraak?",
             [
@@ -236,7 +236,6 @@ VRAGEN = [
             ],
             "Een historische kaart toont het gebied met de grenzen van toen. Leg je ze naast een kaart van vandaag, dan situeer je het rijk in de ruimte. Over belastingen zegt een kaart niets.",
         ),
-        volgt=True,
     ),
     mk(
         "Wat bedoelt men met westers?",
@@ -265,14 +264,13 @@ VRAGEN = [
         "Macht en bestuur zijn politiek, de verhouding tussen groepen sociaal, produceren en handelen economisch, geloof, kunst en wetenschap cultureel. E-commerce is economisch, hoe modern het ook klinkt.",
     ),
     met_prent(
-        "portret-suleyman.jpg",
+        "portret-suleyman.webp",
         mk(
             "Bekijk het geschilderde portret van sultan Süleyman I. In welke maatschappelijke domeinen hoort het? (meerdere antwoorden)",
             ["Het politieke domein", "Het culturele domein", "Het economische domein", "Het sociale domein"],
             [0, 1],
             "Het toont de macht van de sultan (politiek) en is een kunstwerk (cultureel). Met het economische of het sociale domein heeft het weinig te maken.",
         ),
-        volgt=True,
     ),
     keuze(
         "Het [[*geografische|politieke|sociale]] domein is geen maatschappelijk domein. Een handelsvloot die specerijen aanvoert, breng je onder bij het [[*economische|maritieme|militaire]] domein.",

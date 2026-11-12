@@ -8,11 +8,11 @@ PRENTEN = [
     dict(bestand="perspectief.svg", zelf=True,
          wat="Tekening van een plein met tegels en twee rijen bomen die naar één verdwijnpunt lopen.",
          vragen="klikvraag op het verdwijnpunt"),
-    dict(bestand="vesalius-fabrica.jpg", zelf=False,
+    dict(bestand="vesalius-fabrica.webp", zelf=False,
          wat="Een houtsnede uit De humani corporis fabrica van Vesalius (1543), bijvoorbeeld een spierfiguur of een geraamte.",
          waar="Wikimedia Commons, zoek op 'Vesalius Fabrica' (publiek domein).",
          vragen="tabelvraag over de nieuwe wetenschappelijke methode"),
-    dict(bestand="kruisoprichting.jpg", zelf=False,
+    dict(bestand="kruisoprichting.webp", zelf=False,
          wat="De Kruisoprichting van Rubens (rond 1610), Onze-Lieve-Vrouwekathedraal Antwerpen.",
          waar="Wikimedia Commons, zoek op 'Rubens Elevation of the Cross' (publiek domein).",
          vragen="tabelvraag over de kenmerken van de barok"),
@@ -71,7 +71,7 @@ VRAGEN = [
         "Men vertrouwt eigen waarneming en proeven meer dan oude gezaghebbende teksten.",
     ),
     met_prent(
-        "vesalius-fabrica.jpg",
+        "vesalius-fabrica.webp",
         tabel(
             "Bekijk deze prent uit het boek van Vesalius. Klopt elke uitspraak?",
             [
@@ -82,7 +82,6 @@ VRAGEN = [
             ],
             "Het echte nieuwe is dat je mag vaststellen dat Galenus zich vergiste, op basis van wat je zelf ziet.",
         ),
-        volgt=True,
     ),
     tabel(
         "Hoe beïnvloedde de Arabische wereld de westerse geneeskunde? Klopt elke uitspraak?",
@@ -271,7 +270,7 @@ VRAGEN = [
     ),
     # --- barok
     met_prent(
-        "kruisoprichting.jpg",
+        "kruisoprichting.webp",
         tabel(
             "Bekijk dit schilderij uit een Antwerpse kerk, van rond 1610. Klopt elke uitspraak?",
             [
@@ -282,7 +281,6 @@ VRAGEN = [
             ],
             "Beweging, drama en licht-donker zijn typisch voor de barok, de kunst waarmee de katholieke Kerk de kijker wilde raken.",
         ),
-        volgt=True,
     ),
     mk(
         "Waarom lieten vorsten in de 17de eeuw hun paleizen vol barokkunst zetten?",

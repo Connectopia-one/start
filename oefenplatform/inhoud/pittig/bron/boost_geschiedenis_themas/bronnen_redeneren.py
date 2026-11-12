@@ -8,7 +8,7 @@ PRENTEN = [
     dict(bestand="stappenplan.svg", zelf=True,
          wat="Vier genummerde stappen met pijlen ertussen.",
          vragen="klikvraag: in welke stap interpreteer je"),
-    dict(bestand="tapijt-van-bayeux.jpg", zelf=False,
+    dict(bestand="tapijt-van-bayeux.webp", zelf=False,
          wat="Een stuk uit het tapijt van Bayeux met de Slag bij Hastings (1066), bijvoorbeeld ruiters die aanvallen.",
          waar="Wikimedia Commons, zoek op 'Bayeux Tapestry Hastings' (publiek domein).",
          vragen="tabelvraag over betrouwbaarheid"),
@@ -234,9 +234,9 @@ VRAGEN = [
         "Wat twee onafhankelijke bronnen allebei zeggen, staat sterker dan wat er in één staat.",
     ),
     met_prent(
-        "tapijt-van-bayeux.jpg",
+        "tapijt-van-bayeux.webp",
         tabel(
-            "Dit borduurwerk toont de Slag bij Hastings en werd gemaakt in opdracht van een halfbroer van de overwinnaar. Klopt elke uitspraak?",
+            "Dit stuk uit een borduurwerk over de Slag bij Hastings (1066) werd gemaakt in opdracht van een halfbroer van de overwinnaar. Klopt elke uitspraak?",
             [
                 ("De opdrachtgever hoorde bij de winnende kant.", J),
                 ("Je legt het best naast andere bronnen over de slag.", J),
@@ -245,7 +245,6 @@ VRAGEN = [
             ],
             "Grootte of schoonheid zegt niets over betrouwbaarheid, en een standpunt maakt een bron niet waardeloos.",
         ),
-        volgt=True,
     ),
     mk(
         "Je onderzoekt hoe bloedig de Slag bij Hastings verliep. Wat weegt het zwaarst?",
@@ -306,10 +305,10 @@ VRAGEN = [
         "Een kroniekschrijver die leefde van het geld van een graaf, schrijft over een opstand: 'Alle wevers zijn oproerig en lui. Ze kwamen in opstand omdat ze niet wilden werken.'",
         [
             mk(
-                "Welke fouten herken je in de eerste zin? (meerdere antwoorden)",
-                ["Een veralgemening", "Een stereotype", "Een anachronisme", "Een periodisering"],
+                "Wat loopt er mis in de eerste zin? (meerdere antwoorden)",
+                ["Hij trekt een besluit over alle wevers", "Hij plakt een vast etiket op een hele groep", "Hij plaatst iets in de verkeerde tijd", "Hij deelt de tijd verkeerd in perioden in"],
                 [0, 1],
-                "'Alle' maakt het een veralgemening, en de luie wever is een te eenvoudig beeld van een hele groep.",
+                "Het woordje 'alle' spreekt over de hele groep, en de luie, oproerige wever is een vast, te eenvoudig beeld. Over tijd zegt de zin niets.",
             ),
             open_(
                 "Kan je deze bron toch gebruiken? Leg uit in twee of drie zinnen.",

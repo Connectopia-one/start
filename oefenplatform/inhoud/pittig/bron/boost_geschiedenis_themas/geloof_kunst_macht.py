@@ -11,7 +11,7 @@ PRENTEN = [
     dict(bestand="tijdlijn-1000-1500.svg", zelf=True,
          wat="Tijdlijn van 1000 tot 1500 (dezelfde als bij Standen, domein en stad).",
          vragen="klikvragen op 1215 en 1291"),
-    dict(bestand="lam-gods.jpg", zelf=False,
+    dict(bestand="lam-gods.webp", zelf=False,
          wat="Het Lam Gods van Jan en Hubert van Eyck (1432), Sint-Baafskathedraal Gent, het middenpaneel of het geopende retabel.",
          waar="Wikimedia Commons, zoek op 'Ghent Altarpiece' (publiek domein; de foto's van KIK-IRPA closertovaneyck zijn vrij te gebruiken).",
          vragen="tabelvraag over de Vlaamse primitieven"),
@@ -134,18 +134,17 @@ VRAGEN = [
         "Het verschil zit in de bouwtechniek. Draagt het geraamte het gewicht, dan kunnen er grote ramen in de muur.",
     ),
     met_prent(
-        "lam-gods.jpg",
+        "lam-gods.webp",
         tabel(
             "Bekijk dit werk van de gebroeders Van Eyck. Klopt elke uitspraak over de Vlaamse primitieven?",
             [
-                ("Ze schilderden als bij de eersten zo gedetailleerd met olieverf.", J),
+                ("Ze schilderden als een van de eersten zo gedetailleerd met olieverf.", J),
                 ("Primitief betekent hier dat hun werk onbeholpen was.", F),
                 ("Het werk toont hoe ver hun techniek al stond.", J),
                 ("Het werk is in de 19de eeuw gemaakt als kopie van een fresco.", F),
             ],
             "Primitief betekent hier eerste, niet onbeholpen. Dit is het Lam Gods in Gent, uit de 15de eeuw.",
         ),
-        volgt=True,
     ),
     # --- wereldbeeld en kennis
     dict(

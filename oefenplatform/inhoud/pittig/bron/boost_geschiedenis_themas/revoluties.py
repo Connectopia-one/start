@@ -5,11 +5,11 @@ PRENTEN = [
     dict(bestand="tijdlijn-1700-1900.svg", zelf=True,
          wat="Tijdlijn van 1700 tot 1900, een groot streepje om de vijftig jaar, een klein om de vijf jaar.",
          vragen="klikvragen op 1776, 1789 en het begin van de industriële revolutie"),
-    dict(bestand="bestorming-bastille.jpg", zelf=False,
+    dict(bestand="bestorming-bastille.webp", zelf=False,
          wat="Schilderij van de bestorming van de Bastille door Jean-Pierre Houël (1789).",
          waar="Wikimedia Commons, zoek op 'Prise de la Bastille Houel' (publiek domein).",
          vragen="tabelvraag over de Bastille"),
-    dict(bestand="coalbrookdale.jpg", zelf=False,
+    dict(bestand="coalbrookdale.webp", zelf=False,
          wat="Coalbrookdale by Night van Philip James de Loutherbourg (1801): ijzerovens die 's nachts gloeien.",
          waar="Wikimedia Commons, zoek op 'Coalbrookdale by Night' (publiek domein).",
          vragen="meerkeuzevraag over steenkool"),
@@ -94,7 +94,7 @@ VRAGEN = [
         "De vraag om geld liep uit de hand: de derde stand nam zelf het woord, en daarna volgde de straat.",
     ),
     met_prent(
-        "bestorming-bastille.jpg",
+        "bestorming-bastille.webp",
         tabel(
             "Bekijk het schilderij van de bestorming van de Bastille. Klopt elke uitspraak?",
             [
@@ -104,7 +104,6 @@ VRAGEN = [
             ],
             "Er zaten nauwelijks gevangenen, maar het gebouw stond voor de willekeur van de koning.",
         ),
-        volgt=True,
     ),
     klik(
         "Klik op de tijdlijn op het jaar waarin de Bastille bestormd wordt.",
@@ -227,7 +226,7 @@ VRAGEN = [
         "Een stoommachine zet warmte om in beweging.",
     ),
     met_prent(
-        "coalbrookdale.jpg",
+        "coalbrookdale.webp",
         mk(
             "Bekijk dit schilderij van gloeiende ijzerovens in de nacht. Waarom draaide alles in deze tijd op steenkool?",
             [
@@ -239,7 +238,6 @@ VRAGEN = [
             0,
             "Steenkool was de brandstof voor de stoom en voor het ijzer.",
         ),
-        volgt=True,
     ),
     tabel(
         "Hoe veranderde de organisatie van het werk? Klopt elke uitspraak?",

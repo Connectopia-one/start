@@ -8,11 +8,11 @@ PRENTEN = [
     dict(bestand="nederlanden.svg", zelf=True,
          wat="Schema van de Nederlanden in twee delen, A boven en B onder, met de zee links en een havenstad aan een rivier.",
          vragen="klikvraag: welk deel werd onafhankelijk"),
-    dict(bestand="lodewijk-xiv-rigaud.jpg", zelf=False,
+    dict(bestand="lodewijk-xiv-rigaud.webp", zelf=False,
          wat="Het staatsieportret van Lodewijk XIV door Hyacinthe Rigaud (1701).",
          waar="Wikimedia Commons, zoek op 'Louis XIV of France Rigaud' (publiek domein).",
          vragen="tabelvraag over Versailles en het absolutisme"),
-    dict(bestand="beeldenstorm-hogenberg.jpg", zelf=False,
+    dict(bestand="beeldenstorm-hogenberg.webp", zelf=False,
          wat="Prent van Frans Hogenberg van de Beeldenstorm van 1566 in een kerk.",
          waar="Wikimedia Commons, zoek op 'Beeldenstorm Hogenberg' (publiek domein).",
          vragen="tabelvraag over de Beeldenstorm"),
@@ -38,7 +38,7 @@ VRAGEN = [
         "Het droit divin. Wie zich dan tegen de koning verzet, verzet zich tegen God zelf.",
     ),
     met_prent(
-        "lodewijk-xiv-rigaud.jpg",
+        "lodewijk-xiv-rigaud.webp",
         tabel(
             "Bekijk het portret van de Zonnekoning. Waarvoor gebruikte hij zijn hof in Versailles? Klopt elke uitspraak?",
             [
@@ -49,7 +49,6 @@ VRAGEN = [
             ],
             "Versailles bond de adel, toonde macht en hield het bestuur dichtbij. De Staten-Generaal riep hij niet meer samen.",
         ),
-        volgt=True,
     ),
     mk(
         "Wat ondermijnde op lange termijn de absolute macht in Frankrijk?",
@@ -145,7 +144,7 @@ VRAGEN = [
         "De Beeldenstorm is van 1566. Hij begon in Steenvoorde en trok in enkele weken over de Nederlanden.",
     ),
     met_prent(
-        "beeldenstorm-hogenberg.jpg",
+        "beeldenstorm-hogenberg.webp",
         tabel(
             "Bekijk deze prent van Frans Hogenberg. Klopt elke uitspraak?",
             [
@@ -156,7 +155,6 @@ VRAGEN = [
             ],
             "De Beeldenstorm was voor Filips II het teken om in te grijpen.",
         ),
-        volgt=True,
     ),
     mk(
         "Een Spaanse bron noemt Alva de redder van orde en geloof, een Nederlandse bron de bloedhertog. Wat besluit je?",

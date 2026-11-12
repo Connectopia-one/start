@@ -8,7 +8,7 @@ PRENTEN = [
     dict(bestand="tijdlijn-1400-1800.svg", zelf=True,
          wat="Tijdlijn van 1400 tot 1800 (dezelfde als bij De 'Nieuwe' Wereld).",
          vragen="klikvragen op 1453 en op de regering van Süleyman"),
-    dict(bestand="suleymaniye.jpg", zelf=False,
+    dict(bestand="suleymaniye.webp", zelf=False,
          wat="Foto van de Süleymaniye-moskee in Istanbul, met koepels en minaretten, of van het blauw-witte tegelwerk binnenin.",
          waar="Wikimedia Commons, zoek op 'Süleymaniye Mosque' (kies een foto in het publiek domein of met vrije licentie en vermeld de fotograaf).",
          vragen="sorteervraag over Ottomaanse bouwkunst"),
@@ -167,9 +167,9 @@ VRAGEN = [
         "Het verval komt later en heeft meerdere oorzaken, ook de grootte van het rijk.",
     ),
     met_prent(
-        "suleymaniye.jpg",
+        "suleymaniye.webp",
         sorteer(
-            "Bekijk de Süleymaniye in Istanbul. Is dit een kenmerk van Ottomaanse bouwkunst of niet?",
+            "Bekijk de koepel van de Süleymaniye-moskee in Istanbul, van binnenuit. Is dit een kenmerk van Ottomaanse bouwkunst of niet?",
             ["Ottomaans", "Niet Ottomaans"],
             [
                 ["grote koepels", "Ottomaans"],
@@ -180,7 +180,6 @@ VRAGEN = [
             ],
             "Koepels, minaretten, sierschrift, patronen en tegelwerk. Mensenfiguren vermijdt men.",
         ),
-        volgt=True,
     ),
     # --- samenlevingen vergelijken
     sorteer(

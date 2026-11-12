@@ -10,11 +10,11 @@ PRENTEN = [
     dict(bestand=TL, zelf=True,
          wat="Tijdlijn van 1000 tot 1500 (dezelfde als bij Standen, domein en stad).",
          vragen="klikvraag: inname van Jeruzalem"),
-    dict(bestand="karel-de-grote-durer.jpg", zelf=False,
+    dict(bestand="karel-de-grote-durer.webp", zelf=False,
          wat="Het portret van Karel de Grote door Albrecht Dürer (rond 1512), met kroon, zwaard en rijksappel.",
          waar="Wikimedia Commons, zoek op 'Albrecht Dürer Emperor Charlemagne' (publiek domein).",
          vragen="meerkeuzevraag: wat leer je uit een portret dat 700 jaar later gemaakt is"),
-    dict(bestand="guldensporenslag-de-keyser.jpg", zelf=False,
+    dict(bestand="guldensporenslag-de-keyser.webp", zelf=False,
          wat="Het grote schilderij van de Guldensporenslag door Nicaise De Keyser (1836).",
          waar="Wikimedia Commons, zoek op 'Nicaise de Keyser Battle of the Golden Spurs' (publiek domein).",
          vragen="meerkeuzevraag: wat toont een 19de-eeuws schilderij van 1302"),
@@ -128,7 +128,7 @@ VRAGEN = [
         "De vraag die je stelt, bepaalt het antwoord. Frankrijk en Duitsland claimden hem allebei, en na 1945 werd hij het symbool van Europese eenheid.",
     ),
     met_prent(
-        "karel-de-grote-durer.jpg",
+        "karel-de-grote-durer.webp",
         mk(
             "Dit portret van Karel de Grote werd rond 1512 geschilderd voor de stad Neurenberg, zo'n 700 jaar na zijn dood. Wat leer je er vooral uit?",
             [
@@ -140,7 +140,6 @@ VRAGEN = [
             0,
             "De schilder heeft Karel nooit gezien. Het portret toont vooral hoe een Duitse stad rond 1500 een machtige keizer wilde voorstellen.",
         ),
-        volgt=True,
     ),
     tabel(
         "Je krijgt een beeld van het verleden voorgeschoteld, bijvoorbeeld in een documentaire. Is dit een nuttige vraag om te stellen?",
@@ -203,7 +202,7 @@ VRAGEN = [
     ), afbeelding_url=f"{MAP}/standbeeld.svg"),
     # --- verleden, heden, toekomst
     met_prent(
-        "guldensporenslag-de-keyser.jpg",
+        "guldensporenslag-de-keyser.webp",
         mk(
             "Dit grote schilderij van de Guldensporenslag (1302) werd gemaakt in 1836. Wat toont het vooral?",
             [
@@ -215,7 +214,6 @@ VRAGEN = [
             0,
             "De schilder leefde vijf eeuwen later, in een jong België dat een eigen verleden zocht. Het schilderij is een bron over 1836, meer dan over 1302.",
         ),
-        volgt=True,
     ),
     sleep(
         "Vlaamsgezinden geven de Guldensporenslag de betekenis van een Vlaamse overwinning op een [[vreemde overheerser]]. Die betekenis kreeg de slag pas in de [[19de]] eeuw. Voor de tijdgenoten was het vooral een [[sociale en politieke]] strijd.",

@@ -8,11 +8,11 @@ PRENTEN = [
     dict(bestand="driehoekshandel.svg", zelf=True,
          wat="Schema van de driehoekshandel: Europa, West-Afrika en Amerika met drie genummerde pijlen.",
          vragen="koppelvraag lading per pijl, klikvraag middenpassage"),
-    dict(bestand="pokken-florentijnse-codex.jpg", zelf=False,
+    dict(bestand="pokken-florentijnse-codex.webp", zelf=False,
          wat="Tekening uit de Florentijnse Codex (16de eeuw, gemaakt door Azteekse tekenaars) van zieke mensen met pokken.",
          waar="Wikimedia Commons, zoek op 'FlorentineCodex BK12 F54 smallpox' (publiek domein).",
          vragen="tabelvraag over de demografische inzinking en het standpunt van de bron"),
-    dict(bestand="slavenschip-brookes.jpg", zelf=False,
+    dict(bestand="slavenschip-brookes.webp", zelf=False,
          wat="De bekende doorsnede van het slavenschip Brookes (1788) met de mensen dicht opeen in het ruim.",
          waar="Wikimedia Commons, zoek op 'Slaveship Brookes' (publiek domein).",
          vragen="tabelvraag over de middenpassage"),
@@ -132,7 +132,7 @@ VRAGEN = [
         "Azteken, Inca's en Maya's. China bleef buiten hun bereik.",
     ),
     met_prent(
-        "pokken-florentijnse-codex.jpg",
+        "pokken-florentijnse-codex.webp",
         tabel(
             "Bekijk deze tekening uit de Florentijnse Codex, gemaakt door Azteekse tekenaars. Klopt elke uitspraak?",
             [
@@ -143,7 +143,6 @@ VRAGEN = [
             ],
             "Ziekten zoals pokken en mazelen waren de belangrijkste oorzaak; oorlog en dwangarbeid kwamen erbovenop. De tekenaars waren Azteken.",
         ),
-        volgt=True,
     ),
     inv(
         "Hoe heet het Spaanse systeem waarbij een kolonist arbeid mocht opeisen van de inheemse bevolking, in ruil voor bescherming en bekering? Antwoord met één woord.",
@@ -234,7 +233,7 @@ VRAGEN = [
         "De middenpassage is de oversteek van Afrika naar Amerika.",
     ),
     met_prent(
-        "slavenschip-brookes.jpg",
+        "slavenschip-brookes.webp",
         tabel(
             "Bekijk de doorsnede van het slavenschip Brookes. Klopt elke uitspraak?",
             [
@@ -245,7 +244,6 @@ VRAGEN = [
             ],
             "De overtocht was mensonterend en velen stierven. Wat op papier een handelsstroom is, gaat over mensen.",
         ),
-        volgt=True,
     ),
     mk(
         "Waaraan zie je dat de slavenhandel in Europa lang als een gewone handel gold?",

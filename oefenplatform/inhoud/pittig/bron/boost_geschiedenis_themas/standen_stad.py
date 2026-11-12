@@ -11,11 +11,11 @@ PRENTEN = [
     dict(bestand="tijdlijn-1000-1500.svg", zelf=True,
          wat="Tijdlijn van 1000 tot 1500, een groot streepje om de honderd jaar, een klein om de tien jaar.",
          vragen="klikvragen op de 11de eeuw en op het jaar van de pest"),
-    dict(bestand="drie-standen-miniatuur.jpg", zelf=False,
+    dict(bestand="drie-standen-miniatuur.webp", zelf=False,
          wat="Middeleeuwse miniatuur met een geestelijke, een ridder en een boer naast elkaar, uit het 13de-eeuwse handschrift Li livres dou santé (British Library, Sloane 2435).",
          waar="Wikimedia Commons, zoek op 'Cleric-Knight-Workman' (publiek domein).",
          vragen="tabelvraag over de prent als bron"),
-    dict(bestand="pest-doornik.jpg", zelf=False,
+    dict(bestand="pest-doornik.webp", zelf=False,
          wat="Miniatuur uit de kroniek van Gilles Li Muisis (rond 1350): inwoners van Doornik begraven pestslachtoffers.",
          waar="Wikimedia Commons, zoek op 'Burying Plague Victims of Tournai' (publiek domein).",
          vragen="tabelvraag over de gevolgen van de pest"),
@@ -42,7 +42,7 @@ VRAGEN = [
         "De geestelijkheid bad voor het zielenheil van allen, de adel beschermde met het zwaard, en de derde stand werkte en onderhield de twee andere. Handel drijven was geen taak in deze driedeling.",
     ),
     met_prent(
-        "drie-standen-miniatuur.jpg",
+        "drie-standen-miniatuur.webp",
         tabel(
             "Bekijk de miniatuur uit een 13de-eeuws handschrift met drie figuren naast elkaar. Klopt elke uitspraak?",
             [
@@ -53,7 +53,6 @@ VRAGEN = [
             ],
             "De driedeling werd opgeschreven en verbeeld door geestelijken. Een prent toont hoe zij de samenleving zagen, niet wat de boeren ervan vonden.",
         ),
-        volgt=True,
     ),
     sorteer(
         "Was dit een voorrecht van de adel of niet?",
@@ -257,7 +256,7 @@ VRAGEN = [
         "Vanaf 1347 sterft op enkele jaren tijd naar schatting een derde van de bevolking.",
     ),
     met_prent(
-        "pest-doornik.jpg",
+        "pest-doornik.webp",
         tabel(
             "Bekijk de miniatuur van inwoners van Doornik die slachtoffers van de pest begraven. Wat waren de gevolgen van de pest? Klopt elke uitspraak?",
             [
@@ -268,7 +267,6 @@ VRAGEN = [
             ],
             "Doordat zoveel mensen stierven, werd arbeid schaars. Daarom stegen de lonen en kwam grond leeg te liggen. De bevolking kromp.",
         ),
-        volgt=True,
     ),
     # --- stad en platteland
     casus(

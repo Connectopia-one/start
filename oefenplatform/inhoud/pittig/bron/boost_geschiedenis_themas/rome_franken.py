@@ -8,7 +8,7 @@ PRENTEN = [
     dict(bestand="invallen.svg", zelf=True,
          wat="Schema: het rijk van de Karolingers in het midden, drie pijlen A (noorden), B (zuiden) en C (oosten).",
          vragen="koppelvraag: welk volk viel binnen langs welke kant"),
-    dict(bestand="kroning-karel-de-grote.jpg", zelf=False,
+    dict(bestand="kroning-karel-de-grote.webp", zelf=False,
          wat="Middeleeuwse miniatuur van de keizerskroning van Karel de Grote door de paus, bijvoorbeeld die uit de Grandes Chroniques de France (14de eeuw).",
          waar="Wikimedia Commons, zoek op 'Coronation of Charlemagne Grandes Chroniques de France' (publiek domein).",
          vragen="tabelvraag over de domeinen en over de prent als bron"),
@@ -148,7 +148,7 @@ VRAGEN = [
         "Karel de Grote wordt in het jaar 800 in Rome tot keizer gekroond.",
     ),
     met_prent(
-        "kroning-karel-de-grote.jpg",
+        "kroning-karel-de-grote.webp",
         tabel(
             "Bekijk de middeleeuwse miniatuur van de keizerskroning van Karel de Grote. Klopt elke uitspraak?",
             [
@@ -159,7 +159,6 @@ VRAGEN = [
             ],
             "Een kroning gaat over macht (politiek) en is een godsdienstige plechtigheid (cultureel). Deze miniatuur is eeuwen later gemaakt. Buiten zijn eigen rijk gaf de keizerstitel vooral aanzien.",
         ),
-        volgt=True,
     ),
     tabel(
         "Welke middelen gebruikte Karel de Grote om zijn rijk te besturen? Klopt elke uitspraak?",
