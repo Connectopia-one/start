@@ -40,6 +40,14 @@ export const nieuwTekst = {
 
 export const updates: Update[] = [
   {
+    datum: "12 november 2026",
+    titel: "Foutenspeurder duidelijker",
+    tekst:
+      "Bij de foutenspeurder zoek je nu de stap waar de fout begint. Na een foute stap kloppen de volgende stappen ook niet, en dat was verwarrend. Tik je een latere stap aan, dan zegt het spel dat de fout al eerder begon. Een berekening met maar één stap kreeg er een stap bij.",
+    opVraag: true,
+    link: { tekst: "Naar de foutenspeurder", href: "/extras/foutenspeurder" },
+  },
+  {
     datum: "11 november 2026",
     titel: "Begrippenarena wiskunde ook voor statistiek",
     tekst:

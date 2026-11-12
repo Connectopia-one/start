@@ -7,8 +7,9 @@
 <!--
   Foutenspeurder — een prikkelarm spel van Connectopia (Kim, 9 november 2026).
 
-  Een berekening staat in stappen onder elkaar. Eén stap is fout. Het kind
-  tikt de foute stap aan en leest daarna rustig waarom het fout is en hoe het
+  Een berekening staat in stappen onder elkaar. Ergens loopt het mis, en
+  alles wat daarna komt rekent met die fout verder. Het kind tikt de stap
+  aan waar de fout begint (Kim, 12/11/2026, na een melding van een ouder) en leest daarna rustig waarom het fout is en hoe het
   wel moet. Geen klok, geen geluid, geen punten.
 
   De fouten bij breuken en procenten zijn de denkfouten van onze
@@ -17,7 +18,7 @@
   nieuw geschreven door Connectopia.
 
   Een oefening bijzetten: zet een blokje bij in OEFENINGEN. stappen[0] is de
-  opgave (niet aan te tikken), fout is het nummer van de foute stap.
+  opgave (niet aan te tikken), fout is het nummer van de stap waar de fout begint.
 -->
 <style>
   :root { --bg:#fbf6ea; --kaart:#fffdf7; --ink:#2f3a2a; --zacht:#6b7363; --groen:#2f4a22;
@@ -77,8 +78,8 @@ const OEFENINGEN = [
     uitleg: "80 : 100 = 0,8 en 0,8 × 10 = 8. Korter: 10% is één tiende, en 80 : 10 = 8." },
   { groep: "rekenen", stappen: ["3 + 4 × 2", "= 7 × 2", "= 14"], fout: 1,
     uitleg: "Eerst maal en gedeeld door, daarna plus en min: 4 × 2 = 8, en 3 + 8 = 11." },
-  { groep: "rekenen", stappen: ["2,5 × 10", "= 2,50"], fout: 1,
-    uitleg: "Een 0 achter de komma zetten verandert niets: 2,50 is nog altijd 2,5. Bij × 10 schuift de komma één plaats naar rechts: 2,5 × 10 = 25." },
+  { groep: "rekenen", stappen: ["2,5 × 10", "Bij × 10 zet je er een 0 achter", "= 2,50"], fout: 1,
+    uitleg: "Die regel werkt enkel bij gehele getallen. Een 0 achter de komma zetten verandert niets: 2,50 is nog altijd 2,5. Bij × 10 schuift de komma één plaats naar rechts: 2,5 × 10 = 25." },
   { groep: "rekenen", stappen: ["4,7 + 2,35", "= 4,70 + 2,35", "= 6,05"], fout: 2,
     uitleg: "De eerste stap is slim. Tel dan de honderdsten: 70 + 35 = 105 honderdsten, dat is 1,05. 4 + 2 + 1,05 = 7,05." },
   { groep: "rekenen", stappen: ["600 : 30", "= 600 : 3 : 10", "= 2000"], fout: 2,
@@ -99,7 +100,7 @@ const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;",
 function start() {
   $app.innerHTML = `
     <h1>Foutenspeurder</h1>
-    <p class="zacht">In elke berekening staat één foute stap. Kan jij hem vinden? Geen klok, neem je tijd.</p>
+    <p class="zacht">In elke berekening loopt het ergens mis. Zoek de stap waar de fout begint. Geen klok, neem je tijd.</p>
     <div class="blok">
       <div class="label">Kies waarmee je oefent</div>
       <div class="rij">${Object.entries(GROEPEN).map(([k, v]) => `<button class="hoofd" data-g="${k}">${v}</button>`).join("")}</div>
@@ -129,7 +130,7 @@ function speel(groep) {
       <div class="blok">
         <div class="label">De opgave</div>
         <div class="opgave">${esc(o.stappen[0])}</div>
-        <div class="label">Tik de stap aan die fout is</div>
+        <div class="label">Tik de stap aan waar de fout begint</div>
         <div class="stappen">${o.stappen.slice(1).map((s, k) => `<button class="stap" data-k="${k + 1}">${esc(s)}</button>`).join("")}</div>
         <div class="bericht" aria-live="polite"></div>
         <div class="rij" style="justify-content:flex-end;margin-top:12px"><button class="hoofd" data-volgende hidden>Volgende berekening</button></div>
@@ -141,8 +142,11 @@ function speel(groep) {
         gevonden++;
         knop.classList.add("gevonden");
         $app.querySelectorAll("[data-k]").forEach(k => k.disabled = true);
-        $b.innerHTML = `<b>Gevonden.</b> ${esc(o.uitleg)}`;
+        const na = o.fout < o.stappen.length - 1 ? " Wat daarna komt, rekent verder met die fout en klopt dus ook niet." : "";
+        $b.innerHTML = `<b>Gevonden.</b> ${esc(o.uitleg)}${na}`;
         $v.hidden = false; $v.focus();
+      } else if (+knop.dataset.k > o.fout) {
+        $b.textContent = "Deze uitkomst klopt inderdaad niet, maar de fout begon al eerder. Zoek de stap waar het misgaat.";
       } else {
         knop.classList.add("klopt"); knop.disabled = true;
         $b.textContent = "Deze stap klopt. Kijk nog eens rustig naar de andere stappen.";
