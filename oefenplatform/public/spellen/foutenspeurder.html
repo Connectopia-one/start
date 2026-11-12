@@ -8,8 +8,7 @@
   Foutenspeurder — een prikkelarm spel van Connectopia (Kim, 9 november 2026).
 
   Bij elke opgave staan twee uitwerkingen: één juiste en één foute. Het kind
-  tikt de foute aan en leest daarna rustig waarom ze fout is en hoe het wel
-  moet. Geen klok, geen geluid, geen punten. (Zo omgebouwd op vraag van Kim,
+  tikt de juiste aan en leest daarna rustig waarom de andere fout is. Geen klok, geen geluid, geen punten. (Zo omgebouwd op vraag van Kim,
   12/11/2026, na een melding van een ouder: met stappen onder elkaar waren
   na een fout ook de volgende stappen fout, en dat verwarde.)
 
@@ -47,6 +46,7 @@
   .stap { font-size:1.25rem; width:100%; font-variant-numeric:tabular-nums; }
   .stap.gevonden { background:var(--fout); border-color:#c9a77f; }
   .stap.klopt { color:var(--zacht); }
+  .stap.juist { background:#e3eedb; border-color:#9fbf8a; color:inherit; }
   .bericht { margin-top:14px; padding:12px 16px; border-radius:14px; background:var(--tip); }
   .bericht:empty { display:none; }
   .teller { font-size:.9rem; color:var(--zacht); }
@@ -104,7 +104,7 @@ const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;",
 function start() {
   $app.innerHTML = `
     <h1>Foutenspeurder</h1>
-    <p class="zacht">Bij elke opgave staan twee uitwerkingen. Eén is juist, één is fout. Kan jij de foute vinden? Geen klok, neem je tijd.</p>
+    <p class="zacht">Bij elke opgave staan twee uitwerkingen. Eén is juist, één is fout. Kan jij de juiste vinden? Geen klok, neem je tijd.</p>
     <div class="blok">
       <div class="label">Kies waarmee je oefent</div>
       <div class="rij">${Object.entries(GROEPEN).map(([k, v]) => `<button class="hoofd" data-g="${k}">${v}</button>`).join("")}</div>
@@ -135,7 +135,7 @@ function speel(groep) {
       <div class="blok">
         <div class="label">De opgave</div>
         <div class="opgave">${esc(o.opgave)}</div>
-        <div class="label">Tik de foute uitwerking aan</div>
+        <div class="label">Tik de juiste uitwerking aan</div>
         <div class="stappen">${keuzes.map(k => `<button class="stap" data-k="${k.fout ? 1 : 0}">${esc(k.tekst)}</button>`).join("")}</div>
         <div class="bericht" aria-live="polite"></div>
         <div class="rij" style="justify-content:flex-end;margin-top:12px"><button class="hoofd" data-volgende hidden>Volgende berekening</button></div>
@@ -143,15 +143,15 @@ function speel(groep) {
     $app.querySelector("[data-terug]").onclick = start;
     const $b = $app.querySelector(".bericht"), $v = $app.querySelector("[data-volgende]");
     $app.querySelectorAll("[data-k]").forEach(knop => knop.onclick = () => {
-      if (knop.dataset.k === "1") {
+      if (knop.dataset.k === "0") {
         gevonden++;
-        knop.classList.add("gevonden");
-        $app.querySelectorAll("[data-k]").forEach(k => { k.disabled = true; if (k.dataset.k === "0") k.classList.add("klopt"); });
-        $b.innerHTML = `<b>Gevonden.</b> ${esc(o.uitleg)}`;
+        knop.classList.add("juist");
+        $app.querySelectorAll("[data-k]").forEach(k => { k.disabled = true; if (k.dataset.k === "1") k.classList.add("gevonden"); });
+        $b.innerHTML = `<b>Juist.</b> De andere uitwerking is fout. ${esc(o.uitleg)}`;
         $v.hidden = false; $v.focus();
       } else {
-        knop.classList.add("klopt"); knop.disabled = true;
-        $b.textContent = "Deze uitwerking klopt. Kijk nog eens rustig naar de andere.";
+        knop.classList.add("gevonden"); knop.disabled = true;
+        $b.textContent = "Deze uitwerking is fout. Kijk nog eens rustig naar de andere.";
       }
     });
     $v.onclick = () => { i++; ronde(); };
