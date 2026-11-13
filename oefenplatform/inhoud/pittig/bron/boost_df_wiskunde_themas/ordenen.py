@@ -54,7 +54,7 @@ VRAGEN = [
         r"\(-2, -1, 0, 1, 2, 3, 4\): de \(-3\) hoort er niet bij, de \(4\) wel.",
     ),
     volgorde(
-        "Zet van klein naar groot.",
+        "Zet deze getallen van klein naar groot.",
         [r"\(-\tfrac{3}{4}\)", r"\(-0{,}7\)", r"\(-65\%\)", r"\(0{,}07\)", r"\(\tfrac{1}{8}\)"],
         r"\(-0{,}75 < -0{,}7 < -0{,}65 < 0{,}07 < 0{,}125\). Bij negatieve getallen is het getal met de grootste absolute waarde het kleinst.",
     ),

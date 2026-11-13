@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<defs><clipPath id="venster"><rect x="70" y="30" width="900" height="580"/></clipPath></defs>
+<rect width="1000" height="640" fill="#fffdf7"/>
+<line x1="70.0" y1="30" x2="70.0" y2="610" stroke="#e7e2d2" stroke-width="1"/>
+<line x1="151.8" y1="30" x2="151.8" y2="610" stroke="#e7e2d2" stroke-width="1"/>
+<line x1="233.6" y1="30" x2="233.6" y2="610" stroke="#e7e2d2" stroke-width="1"/>
+<line x1="315.5" y1="30" x2="315.5" y2="610" stroke="#e7e2d2" stroke-width="1"/>
+<line x1="397.3" y1="30" x2="397.3" y2="610" stroke="#e7e2d2" stroke-width="1"/>
+<line x1="479.1" y1="30" x2="479.1" y2="610" stroke="#e7e2d2" stroke-width="1"/>
+<line x1="560.9" y1="30" x2="560.9" y2="610" stroke="#e7e2d2" stroke-width="1"/>
+<line x1="642.7" y1="30" x2="642.7" y2="610" stroke="#e7e2d2" stroke-width="1"/>
+<line x1="724.5" y1="30" x2="724.5" y2="610" stroke="#e7e2d2" stroke-width="1"/>
+<line x1="806.4" y1="30" x2="806.4" y2="610" stroke="#e7e2d2" stroke-width="1"/>
+<line x1="888.2" y1="30" x2="888.2" y2="610" stroke="#e7e2d2" stroke-width="1"/>
+<line x1="970.0" y1="30" x2="970.0" y2="610" stroke="#e7e2d2" stroke-width="1"/>
+<line x1="70" y1="610.0" x2="970" y2="610.0" stroke="#e7e2d2" stroke-width="1"/>
+<line x1="70" y1="537.5" x2="970" y2="537.5" stroke="#e7e2d2" stroke-width="1"/>
+<line x1="70" y1="465.0" x2="970" y2="465.0" stroke="#e7e2d2" stroke-width="1"/>
+<line x1="70" y1="392.5" x2="970" y2="392.5" stroke="#e7e2d2" stroke-width="1"/>
+<line x1="70" y1="320.0" x2="970" y2="320.0" stroke="#e7e2d2" stroke-width="1"/>
+<line x1="70" y1="247.5" x2="970" y2="247.5" stroke="#e7e2d2" stroke-width="1"/>
+<line x1="70" y1="175.0" x2="970" y2="175.0" stroke="#e7e2d2" stroke-width="1"/>
+<line x1="70" y1="102.5" x2="970" y2="102.5" stroke="#e7e2d2" stroke-width="1"/>
+<line x1="70" y1="30.0" x2="970" y2="30.0" stroke="#e7e2d2" stroke-width="1"/>
+<line x1="70" y1="537.5" x2="970" y2="537.5" stroke="#24331b" stroke-width="2.5"/>
+<line x1="315.5" y1="30" x2="315.5" y2="610" stroke="#24331b" stroke-width="2.5"/>
+<polygon points="970,537.5 958,531.5 958,543.5" fill="#24331b"/>
+<polygon points="315.5,30 309.5,42 321.5,42" fill="#24331b"/>
+<text x="966.0" y="527.5" font-size="18" text-anchor="end" fill="#24331b" font-weight="bold">x</text>
+<text x="325.5" y="46.0" font-size="18" text-anchor="start" fill="#24331b" font-weight="bold">y</text>
+<line x1="151.8" y1="532.5" x2="151.8" y2="542.5" stroke="#24331b" stroke-width="2"/>
+<text x="151.8" y="561.5" font-size="16" text-anchor="middle" fill="#24331b">−2</text>
+<line x1="233.6" y1="532.5" x2="233.6" y2="542.5" stroke="#24331b" stroke-width="2"/>
+<text x="233.6" y="561.5" font-size="16" text-anchor="middle" fill="#24331b">−1</text>
+<line x1="397.3" y1="532.5" x2="397.3" y2="542.5" stroke="#24331b" stroke-width="2"/>
+<text x="397.3" y="561.5" font-size="16" text-anchor="middle" fill="#24331b">1</text>
+<line x1="479.1" y1="532.5" x2="479.1" y2="542.5" stroke="#24331b" stroke-width="2"/>
+<text x="479.1" y="561.5" font-size="16" text-anchor="middle" fill="#24331b">2</text>
+<line x1="560.9" y1="532.5" x2="560.9" y2="542.5" stroke="#24331b" stroke-width="2"/>
+<text x="560.9" y="561.5" font-size="16" text-anchor="middle" fill="#24331b">3</text>
+<line x1="642.7" y1="532.5" x2="642.7" y2="542.5" stroke="#24331b" stroke-width="2"/>
+<text x="642.7" y="561.5" font-size="16" text-anchor="middle" fill="#24331b">4</text>
+<line x1="724.5" y1="532.5" x2="724.5" y2="542.5" stroke="#24331b" stroke-width="2"/>
+<text x="724.5" y="561.5" font-size="16" text-anchor="middle" fill="#24331b">5</text>
+<line x1="806.4" y1="532.5" x2="806.4" y2="542.5" stroke="#24331b" stroke-width="2"/>
+<text x="806.4" y="561.5" font-size="16" text-anchor="middle" fill="#24331b">6</text>
+<line x1="888.2" y1="532.5" x2="888.2" y2="542.5" stroke="#24331b" stroke-width="2"/>
+<text x="888.2" y="561.5" font-size="16" text-anchor="middle" fill="#24331b">7</text>
+<line x1="310.5" y1="465.0" x2="320.5" y2="465.0" stroke="#24331b" stroke-width="2"/>
+<text x="305.5" y="471.0" font-size="16" text-anchor="end" fill="#24331b">1</text>
+<line x1="310.5" y1="392.5" x2="320.5" y2="392.5" stroke="#24331b" stroke-width="2"/>
+<text x="305.5" y="398.5" font-size="16" text-anchor="end" fill="#24331b">2</text>
+<line x1="310.5" y1="320.0" x2="320.5" y2="320.0" stroke="#24331b" stroke-width="2"/>
+<text x="305.5" y="326.0" font-size="16" text-anchor="end" fill="#24331b">3</text>
+<line x1="310.5" y1="247.5" x2="320.5" y2="247.5" stroke="#24331b" stroke-width="2"/>
+<text x="305.5" y="253.5" font-size="16" text-anchor="end" fill="#24331b">4</text>
+<line x1="310.5" y1="175.0" x2="320.5" y2="175.0" stroke="#24331b" stroke-width="2"/>
+<text x="305.5" y="181.0" font-size="16" text-anchor="end" fill="#24331b">5</text>
+<line x1="310.5" y1="102.5" x2="320.5" y2="102.5" stroke="#24331b" stroke-width="2"/>
+<text x="305.5" y="108.5" font-size="16" text-anchor="end" fill="#24331b">6</text>
+<text x="305.5" y="559.5" font-size="16" text-anchor="end" fill="#24331b">0</text>
+<circle cx="397.3" cy="465.0" r="7" fill="#24331b"/>
+<text x="409.3" y="453.0" font-size="18" text-anchor="start" fill="#24331b" font-weight="bold">A</text>
+<circle cx="642.7" cy="175.0" r="7" fill="#24331b"/>
+<text x="654.7" y="163.0" font-size="18" text-anchor="start" fill="#24331b" font-weight="bold">B</text>
+<circle cx="724.5" cy="175.0" r="7" fill="#24331b"/>
+<text x="736.5" y="163.0" font-size="18" text-anchor="start" fill="#24331b" font-weight="bold">C</text>
+<circle cx="806.4" cy="320.0" r="7" fill="#24331b"/>
+<text x="818.4" y="308.0" font-size="18" text-anchor="start" fill="#24331b" font-weight="bold">D</text>
+<circle cx="233.6" cy="175.0" r="7" fill="#24331b"/>
+<text x="245.6" y="163.0" font-size="18" text-anchor="start" fill="#24331b" font-weight="bold">E</text>
+<text x="500.0" y="22.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">Vijf punten in een assenstelsel</text>
+</svg>

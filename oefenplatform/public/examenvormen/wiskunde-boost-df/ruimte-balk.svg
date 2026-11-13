@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#fffdf7"/>
+<line x1="220" y1="520" x2="620" y2="520" stroke="#24331b" stroke-width="4"/>
+<line x1="620" y1="520" x2="800" y2="390" stroke="#24331b" stroke-width="4"/>
+<line x1="800" y1="390" x2="400" y2="390" stroke="#24331b" stroke-width="4" stroke-dasharray="10 8"/>
+<line x1="400" y1="390" x2="220" y2="520" stroke="#24331b" stroke-width="4" stroke-dasharray="10 8"/>
+<line x1="220" y1="270" x2="620" y2="270" stroke="#24331b" stroke-width="4"/>
+<line x1="620" y1="270" x2="800" y2="140" stroke="#24331b" stroke-width="4"/>
+<line x1="800" y1="140" x2="400" y2="140" stroke="#24331b" stroke-width="4"/>
+<line x1="400" y1="140" x2="220" y2="270" stroke="#24331b" stroke-width="4"/>
+<line x1="220" y1="520" x2="220" y2="270" stroke="#24331b" stroke-width="4"/>
+<line x1="620" y1="520" x2="620" y2="270" stroke="#24331b" stroke-width="4"/>
+<line x1="800" y1="390" x2="800" y2="140" stroke="#24331b" stroke-width="4"/>
+<line x1="400" y1="390" x2="400" y2="140" stroke="#24331b" stroke-width="4" stroke-dasharray="10 8"/>
+<circle cx="220" cy="520" r="6" fill="#24331b"/>
+<text x="196.0" y="548.0" font-size="26" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<circle cx="620" cy="520" r="6" fill="#24331b"/>
+<text x="640.0" y="548.0" font-size="26" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<circle cx="800" cy="390" r="6" fill="#24331b"/>
+<text x="826.0" y="400.0" font-size="26" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<circle cx="400" cy="390" r="6" fill="#24331b"/>
+<text x="374.0" y="418.0" font-size="26" text-anchor="middle" fill="#24331b" font-weight="bold">D</text>
+<circle cx="220" cy="270" r="6" fill="#24331b"/>
+<text x="194.0" y="262.0" font-size="26" text-anchor="middle" fill="#24331b" font-weight="bold">E</text>
+<circle cx="620" cy="270" r="6" fill="#24331b"/>
+<text x="634.0" y="256.0" font-size="26" text-anchor="middle" fill="#24331b" font-weight="bold">F</text>
+<circle cx="800" cy="140" r="6" fill="#24331b"/>
+<text x="822.0" y="130.0" font-size="26" text-anchor="middle" fill="#24331b" font-weight="bold">G</text>
+<circle cx="400" cy="140" r="6" fill="#24331b"/>
+<text x="378.0" y="126.0" font-size="26" text-anchor="middle" fill="#24331b" font-weight="bold">H</text>
+<text x="500.0" y="30.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">Balk ABCD.EFGH in cavalièreperspectief</text>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#fffdf7"/>
+<line x1="160.0" y1="520.0" x2="860.0" y2="520.0" stroke="#24331b" stroke-width="3"/>
+<line x1="160.0" y1="520.0" x2="160.0" y2="100.0" stroke="#24331b" stroke-width="3"/>
+<line x1="150.0" y1="520.0" x2="160.0" y2="520.0" stroke="#24331b" stroke-width="2"/>
+<text x="138.0" y="527.0" font-size="20" text-anchor="end" fill="#24331b">90 %</text>
+<line x1="150.0" y1="462.9" x2="160.0" y2="462.9" stroke="#24331b" stroke-width="2"/>
+<text x="138.0" y="469.9" font-size="20" text-anchor="end" fill="#24331b">91 %</text>
+<line x1="150.0" y1="405.7" x2="160.0" y2="405.7" stroke="#24331b" stroke-width="2"/>
+<text x="138.0" y="412.7" font-size="20" text-anchor="end" fill="#24331b">92 %</text>
+<line x1="150.0" y1="348.6" x2="160.0" y2="348.6" stroke="#24331b" stroke-width="2"/>
+<text x="138.0" y="355.6" font-size="20" text-anchor="end" fill="#24331b">93 %</text>
+<line x1="150.0" y1="291.4" x2="160.0" y2="291.4" stroke="#24331b" stroke-width="2"/>
+<text x="138.0" y="298.4" font-size="20" text-anchor="end" fill="#24331b">94 %</text>
+<line x1="150.0" y1="234.3" x2="160.0" y2="234.3" stroke="#24331b" stroke-width="2"/>
+<text x="138.0" y="241.3" font-size="20" text-anchor="end" fill="#24331b">95 %</text>
+<line x1="150.0" y1="177.1" x2="160.0" y2="177.1" stroke="#24331b" stroke-width="2"/>
+<text x="138.0" y="184.1" font-size="20" text-anchor="end" fill="#24331b">96 %</text>
+<line x1="150.0" y1="120.0" x2="160.0" y2="120.0" stroke="#24331b" stroke-width="2"/>
+<text x="138.0" y="127.0" font-size="20" text-anchor="end" fill="#24331b">97 %</text>
+<rect x="270.0" y="405.7" width="180.0" height="114.3" rx="0" fill="#b9b29c" stroke="#24331b" stroke-width="2"/>
+<text x="360.0" y="556.0" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Winkel A</text>
+<text x="360.0" y="393.7" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">92 %</text>
+<rect x="560.0" y="177.1" width="180.0" height="342.9" rx="0" fill="#2f4a22" stroke="#24331b" stroke-width="2"/>
+<text x="650.0" y="556.0" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Winkel B</text>
+<text x="650.0" y="165.1" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">96 %</text>
+<text x="500.0" y="600.0" font-size="20" text-anchor="middle" fill="#6b6b5a">Tevreden klanten</text>
+<text x="500.0" y="30.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">Reclame van winkel B: 'Veel meer tevreden klanten!'</text>
+</svg>

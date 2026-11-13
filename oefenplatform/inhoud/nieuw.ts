@@ -74,6 +74,12 @@ export const updates: Update[] = [
   },
   {
     datum: "13 november 2026",
+    titel: "Pittige hoofdstukken wiskunde in Boost dubbele finaliteit",
+    tekst:
+      "Wiskunde in Boost dubbele finaliteit heeft nu bij elk van de 13 onderwerpen een pittig hoofdstuk van 30 vragen. De vragen lijken op een echt examen: met grafieken, getallenassen en tekeningen waarop je moet klikken, tabellen invullen en vragen die samen bij één situatie horen.",
+  },
+  {
+    datum: "13 november 2026",
     titel: "Twee vragen duidelijker",
     tekst:
       "Bij techniek in Spark ging een vraag over het pictogram met pijlen in een driehoek, maar er bestaan twee zulke pictogrammen. De vraag zegt nu duidelijk welk je bedoelt. Bij geschiedenis in Start telt bij de vraag over de eeuw van de industriële revolutie nu ook \"19de\" of \"negentiende\" als juist.",
