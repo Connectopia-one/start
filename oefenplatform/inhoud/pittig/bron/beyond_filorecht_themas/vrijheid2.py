@@ -200,7 +200,7 @@ VRAGEN = [
         kolommen=["Juist", "Fout"],
     ),
     sorteer(
-        "Bij welke denker past deze uitspraak?",
+        "Welke twintigste-eeuwse denker hoort bij deze uitspraak?",
         ["Heidegger", "Sartre", "Foucault", "Frankfurt", "Verplaetse"],
         [
             ("Je leeft zoals men nu eenmaal leeft, zonder je leven zelf op je te nemen.", "Heidegger"),

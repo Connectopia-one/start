@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#fffdf7"/>
+<polygon points="500,62 40,600 960,600" fill="#f4f1e6" stroke="#b9b29c" stroke-width="2"/>
+<rect x="380.0" y="92.0" width="240.0" height="66.0" rx="14" fill="#eef3e6" stroke="#2f4a22" stroke-width="3"/>
+<text x="500.0" y="132.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">Hof van Cassatie</text>
+<rect x="225.0" y="212.0" width="250.0" height="66.0" rx="14" fill="#eef3e6" stroke="#2f4a22" stroke-width="3"/>
+<text x="350.0" y="252.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">Hof van beroep</text>
+<rect x="525.0" y="212.0" width="250.0" height="66.0" rx="14" fill="#eef3e6" stroke="#2f4a22" stroke-width="3"/>
+<text x="650.0" y="252.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">Hof van Assisen</text>
+<rect x="95.0" y="342.0" width="300.0" height="78.0" rx="14" fill="#eef3e6" stroke="#2f4a22" stroke-width="3"/>
+<text x="245.0" y="388.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">Rechtbank van eerste aanleg</text>
+<rect x="410.0" y="342.0" width="200.0" height="78.0" rx="14" fill="#eef3e6" stroke="#2f4a22" stroke-width="3"/>
+<text x="510.0" y="388.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">Arbeidsrechtbank</text>
+<rect x="625.0" y="342.0" width="280.0" height="78.0" rx="14" fill="#eef3e6" stroke="#2f4a22" stroke-width="3"/>
+<text x="765.0" y="388.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">Ondernemingsrechtbank</text>
+<rect x="210.0" y="482.0" width="260.0" height="72.0" rx="14" fill="#eef3e6" stroke="#2f4a22" stroke-width="3"/>
+<text x="340.0" y="525.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">Vredegerecht</text>
+<rect x="530.0" y="482.0" width="260.0" height="72.0" rx="14" fill="#eef3e6" stroke="#2f4a22" stroke-width="3"/>
+<text x="660.0" y="525.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">Politierechtbank</text>
+<text x="500.0" y="36.0" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">De gerechtelijke piramide (vereenvoudigd)</text>
+</svg>

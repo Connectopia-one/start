@@ -74,6 +74,12 @@ export const updates: Update[] = [
   },
   {
     datum: "13 november 2026",
+    titel: "Pittige hoofdstukken filosofie en recht in Beyond",
+    tekst:
+      "Filosofie en recht in Beyond doorstroom heeft nu bij elk van de 20 onderwerpen een pittig hoofdstuk van 30 vragen, in examenvorm: situaties uit het echte leven, tabellen, zinnen aanvullen en tekeningen van de rechtbanken en de rechtszaal waarop je moet klikken.",
+  },
+  {
+    datum: "13 november 2026",
     titel: "Pittige hoofdstukken wiskunde in Boost dubbele finaliteit",
     tekst:
       "Wiskunde in Boost dubbele finaliteit heeft nu bij elk van de 13 onderwerpen een pittig hoofdstuk van 30 vragen. De vragen lijken op een echt examen: met grafieken, getallenassen en tekeningen waarop je moet klikken, tabellen invullen en vragen die samen bij één situatie horen.",

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#fffdf7"/>
+<rect x="30" y="90" width="940" height="120" rx="18" fill="#efe9d8" stroke="#b9b29c" stroke-width="2"/>
+<rect x="60.0" y="110.0" width="230.0" height="80.0" rx="14" fill="#eef3e6" stroke="#2f4a22" stroke-width="3"/>
+<text x="175.0" y="157.0" font-size="21" text-anchor="middle" fill="#24331b" font-weight="bold">Openbaar ministerie</text>
+<rect x="385.0" y="110.0" width="230.0" height="80.0" rx="14" fill="#eef3e6" stroke="#2f4a22" stroke-width="3"/>
+<text x="500.0" y="157.0" font-size="21" text-anchor="middle" fill="#24331b" font-weight="bold">Rechter</text>
+<rect x="710.0" y="110.0" width="230.0" height="80.0" rx="14" fill="#eef3e6" stroke="#2f4a22" stroke-width="3"/>
+<text x="825.0" y="157.0" font-size="21" text-anchor="middle" fill="#24331b" font-weight="bold">Griffier</text>
+<rect x="385.0" y="270.0" width="230.0" height="80.0" rx="14" fill="#eef3e6" stroke="#2f4a22" stroke-width="3"/>
+<text x="500.0" y="317.0" font-size="21" text-anchor="middle" fill="#24331b" font-weight="bold">Getuige</text>
+<rect x="60.0" y="450.0" width="250.0" height="80.0" rx="14" fill="#eef3e6" stroke="#2f4a22" stroke-width="3"/>
+<text x="185.0" y="497.0" font-size="21" text-anchor="middle" fill="#24331b" font-weight="bold">Burgerlijke partij</text>
+<rect x="375.0" y="450.0" width="250.0" height="80.0" rx="14" fill="#eef3e6" stroke="#2f4a22" stroke-width="3"/>
+<text x="500.0" y="497.0" font-size="21" text-anchor="middle" fill="#24331b" font-weight="bold">Advocaat</text>
+<rect x="690.0" y="450.0" width="250.0" height="80.0" rx="14" fill="#eef3e6" stroke="#2f4a22" stroke-width="3"/>
+<text x="815.0" y="497.0" font-size="21" text-anchor="middle" fill="#24331b" font-weight="bold">Beklaagde</text>
+<text x="500.0" y="36.0" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Een strafzitting (vereenvoudigd)</text>
+</svg>

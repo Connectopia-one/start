@@ -16,7 +16,7 @@ def _instellingen():
     d = []
     for x, y, w, h, t in VAKKEN.values():
         d.append(s_vak(x, y, w, h, vul=LICHT, rand=GROEN, dikte=3, rond=18))
-        d.append(s_tekst(x + w / 2, y + h / 2 + 8, t, 24, vet=True))
+        d.append(s_tekst(x + w / 2, y + h / 2 + 8, t, 21 if len(t) > 16 else 24, vet=True))
     return d
 
 
