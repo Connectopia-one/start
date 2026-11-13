@@ -1,0 +1,243 @@
+"""Deugdethiek en zorgethiek — pittig (🌍 Beyond, filosofie en recht).
+
+Zoals in het gewone hoofdstuk: bij Foot enkel de familienaam.
+"""
+from .vormen import J, F, mk, inv, tabel, keuze, volgorde, koppel, sorteer, sleep, casus
+
+VRAGEN = [
+    koppel(
+        "Koppel elke denker aan zijn of haar bijdrage.",
+        [
+            ("Aristoteles", "vier kardinale deugden, en de deugd als het midden"),
+            ("Martha Nussbaum", "tien capaciteiten voor een menswaardig leven"),
+            ("David Hume", "natuurlijke en artificiële deugden"),
+            ("Foot", "een deugd vangt een zwakke plek in onze neigingen op"),
+            ("Carol Gilligan", "naast rechtvaardigheid ook een stem van zorg"),
+            ("Joan Tronto", "vier fasen van zorg"),
+        ],
+        ["het grootste geluk voor het grootste aantal"],
+        "De eerste vier horen bij de deugdethiek, Gilligan en Tronto bij de zorgethiek. Het grootste geluk voor het grootste aantal is Bentham.",
+    ),
+    tabel(
+        "Ligt deze houding in het midden, of is het een tekort of een overdaad?",
+        [
+            ("Lafheid", "Tekort"),
+            ("Moed", "Midden"),
+            ("Overmoed", "Overdaad"),
+            ("Gierigheid", "Tekort"),
+            ("Vrijgevigheid", "Midden"),
+            ("Verkwisting", "Overdaad"),
+        ],
+        "Bij Aristoteles ligt een deugd tussen een tekort en een overdaad: moed tussen lafheid en overmoed, vrijgevigheid tussen gierigheid en verkwisting.",
+        kolommen=["Tekort", "Midden", "Overdaad"],
+    ),
+    casus(
+        "Tijdens een uitstap valt een kind in een snelstromende rivier. Drie volwassenen reageren.\n"
+        "Pieter blijft aan de kant staan en doet niets.\n"
+        "Sara springt meteen in het water, al kan ze niet zwemmen.\n"
+        "Omar roept hulp, gooit een reddingsboei en houdt het kind in het oog.",
+        [
+            tabel("Hoe zou Aristoteles elke reactie noemen?",
+                  [("Pieter", "Lafheid"), ("Sara", "Overmoed"), ("Omar", "Moed")],
+                  "Moed is het juiste midden in deze situatie, tussen lafheid en overmoed.",
+                  kolommen=["Lafheid", "Moed", "Overmoed"]),
+            mk("Waarom is het midden bij Aristoteles geen gemiddelde?",
+               ["Omdat het altijd precies in het midden ligt tussen twee getallen",
+                "Omdat het afhangt van wat in deze situatie juist is",
+                "Omdat Aristoteles niet kon rekenen en dus geen gemiddelde kende",
+                "Omdat het midden voor iedereen en altijd hetzelfde is"], 1,
+               "Het midden is niet wat een groep gemiddeld doet, maar wat in deze situatie het juiste is."),
+            mk("Welke kardinale deugd heeft Omar hier ook nodig, naast moed?",
+               ["Verstandigheid", "Gierigheid", "Verkwisting of overdaad", "Lafheid"], 0,
+               "Verstandigheid laat hem inschatten wat werkt: hulp roepen en een boei gooien in plaats van zelf te springen."),
+        ],
+    ),
+    sleep(
+        "De vier kardinale deugden van Aristoteles zijn [[verstandigheid]], [[rechtvaardigheid]], moed en [[matigheid]]. Je verwerft ze door ze te [[oefenen]] tot ze een gewoonte worden.",
+        ["eerlijkheid", "zorg", "erven"],
+        "Kardinaal komt van cardo, spil. Deugd is bij Aristoteles een tweede natuur die je door doen opbouwt.",
+    ),
+    mk(
+        "Lotte wil een geduldig mens worden. Wat zou Aristoteles haar aanraden?",
+        ["Eén keer heel lang geduldig zijn, dan zit het er voor altijd in",
+         "Telkens opnieuw geduld oefenen tot het een gewoonte wordt",
+         "Een regel opschrijven en die uit het hoofd leren",
+         "Uitrekenen hoeveel geluk geduld oplevert"],
+        1,
+        "Deugd bouw je op door doen, zoals je een instrument leert bespelen.",
+    ),
+    casus(
+        "Bron: een fragment uit een beleidsnota. \"Een goed beleid zorgt ervoor dat elke burger gezond kan leven, zich veilig kan voelen, kan leren en denken, zijn gevoelens kan uiten, bij een groep kan horen, kan spelen en kan meebeslissen over zijn omgeving.\"",
+        [
+            mk("Bij welke denker sluit deze nota het best aan?",
+               ["Jeremy Bentham", "Nussbaum", "Immanuel Kant", "Carol Gilligan"], 1,
+               "Een lijst van wat elke mens moet kunnen om een menswaardig leven te leiden: de capaciteiten van Nussbaum."),
+            mk("Gaat het hier om prestaties of om mogelijkheden?",
+               ["Om prestaties die elke burger moet halen om mee te tellen",
+                "Om mogelijkheden",
+                "Om plichten die de burger tegenover de staat heeft",
+                "Om gevolgen die je moet optellen"], 1,
+               "Nussbaum spreekt over wat je moet kúnnen, niet over wat je moet doen of halen."),
+            mk("Waarom staat Nussbaum in dezelfde lijn als Aristoteles?",
+               ["Beiden vertrekken van wat een mens nodig heeft om goed te leven",
+                "Beiden zijn plichtethici die van een onvoorwaardelijke regel vertrekken",
+                "Beiden tellen genot en pijn op om te beslissen wat goed is",
+                "Beiden vinden dat moraal per cultuur verschilt"], 0,
+               "Haar capaciteiten zijn een moderne uitwerking van de vraag van Aristoteles: wat heeft een mens nodig om te bloeien?"),
+        ],
+    ),
+    sorteer(
+        "Is dit volgens Hume een natuurlijke of een artificiële deugd?",
+        ["Natuurlijk", "Artificieel"],
+        [
+            ("Medelijden met iemand die lijdt", "Natuurlijk"),
+            ("Vriendelijkheid tegenover een kind", "Natuurlijk"),
+            ("Rechtvaardigheid", "Artificieel"),
+            ("Je woord houden", "Artificieel"),
+        ],
+        "Natuurlijke deugden komen uit ons gevoel; artificiële vragen afspraken en instellingen die een samenleving opbouwde.",
+    ),
+    casus(
+        "Twee buren kunnen allebei goed met een computer werken. Een oude dame in de straat vraagt hulp bij haar mail.\n"
+        "Bart helpt haar graag en neemt er de tijd voor.\n"
+        "Kris zegt: \"Ik kan het wel, maar ik heb er geen zin in.\"",
+        [
+            mk("Welk kenmerk van een deugd volgens Foot toont het verschil tussen Bart en Kris?",
+               ["Een deugd zit in je wil, en niet enkel in je kunnen",
+                "Een deugd ligt altijd in het midden tussen twee uitersten",
+                "Een deugd ontstaat uit afspraken in een samenleving",
+                "Een deugd is een capaciteit van de lijst van Nussbaum"], 0,
+               "Beiden kunnen het. Alleen Bart wil het ook. Bij een vaardigheid volstaat het kunnen, bij een deugd niet."),
+            keuze(
+                "Kris heeft dus wel een [[*vaardigheid|deugd]], maar mist de [[*deugd|vaardigheid]] van hulpvaardigheid.",
+                "Een vaardigheid is kunnen; een deugd is ook willen.",
+            ),
+        ],
+    ),
+    mk(
+        "Foot zegt dat een deugd een zwakke plek in onze neigingen opvangt. Welk voorbeeld past daarbij?",
+        ["Moed is nodig omdat wij angst kennen",
+         "Rechtvaardigheid ontstaat uit afspraken over eigendom",
+         "Een deugd ligt tussen een tekort en een overdaad",
+         "Wie kan helpen maar niet wil, is niet deugdzaam"],
+        0,
+        "Waar geen bekoring of angst is, is geen deugd nodig. Moed vangt onze angst op, matigheid onze neiging om te veel te nemen.",
+    ),
+    tabel(
+        "Juist of fout over de deugdethiek?",
+        [
+            ("Ze kijkt eerder naar de persoon dan naar de losse daad.", J),
+            ("Ze geeft voor elke situatie een kant-en-klare regel.", F),
+            ("Men noemt ze universalistisch, omdat wat een mens nodig heeft om te bloeien grotendeels overal gelijk is.", J),
+            ("Een deugd kan je in één beslissing verwerven.", F),
+        ],
+        "De deugdethiek gaat over karakter, vraagt oefening en geeft geen kant-en-klare regel. Dat laatste is het bezwaar dat men haar maakt.",
+        kolommen=["Juist", "Fout"],
+    ),
+    casus(
+        "Een moeder moet kiezen: ze kan een avond vrijwilligerswerk doen in een opvang voor twintig daklozen, of thuisblijven bij haar zoon, die zich die dag erg slecht voelt.",
+        [
+            mk("Wat zou de zorgethiek benadrukken?",
+               ["Dat twintig mensen helpen per saldo meer geluk geeft",
+                "Dat haar band met haar zoon zelf moreel gewicht heeft",
+                "Dat ze een regel moet volgen die voor alle moeders kan gelden",
+                "Dat ze moet kiezen wat een moedig mens zou doen"], 1,
+               "De zorgethiek vertrekt van de concrete relatie. Partijdigheid tegenover wie van je afhangt, is er geen fout."),
+            mk("Welke benadering zou eerder naar de twintig daklozen wijzen?",
+               ["De zorgethiek", "De gevolgenethiek", "De deugdethiek van Foot", "Geen enkele"], 1,
+               "De gevolgenethiek telt het geluk van alle betrokkenen even zwaar, en twintig is meer dan één."),
+            mk("Waarin verschilt de zorgethiek hier van de gevolgen- en de plichtethiek?",
+               ["Ze kijkt van buitenaf en onpartijdig naar het geval",
+                "Ze vertrekt van deze mens en deze relatie",
+                "Ze telt het genot en de pijn van iedereen op",
+                "Ze zoekt een regel die voor alle mensen geldt"], 1,
+               "De andere twee kijken van buitenaf en onpartijdig; de zorgethiek begint bij een concrete band."),
+        ],
+    ),
+    mk(
+        "Wat verklaart dat de zorgethiek uit het feminisme gegroeid is?",
+        ["Omdat feministen vonden dat vrouwen geen zorg meer mochten geven",
+         "Zorg gold als vrouwenwerk en bleef in de ethiek onbekeken",
+         "Omdat Kant en Bentham allebei vrouwen waren",
+         "Omdat zorg enkel in gezinnen voorkomt en nooit in de samenleving"],
+        1,
+        "De ethiek vertrok lang van een onafhankelijke, redelijke burger. Wie afhankelijk was en wie voor hem zorgde, kwam in dat beeld niet voor.",
+    ),
+    casus(
+        "Bron: een vrij naverteld onderzoek. In een bekende test over moreel redeneren kregen kinderen een dilemma voorgelegd. Jongens redeneerden vaker met regels en rechten, meisjes vaker met relaties en wie er gekwetst kon worden. Volgens de test scoorden meisjes daardoor lager.",
+        [
+            mk("Welke conclusie trok Carol Gilligan uit zulke resultaten?",
+               ["Dat meisjes moreel minder ver ontwikkeld zijn dan jongens",
+                "Dat de maatstaf te eng was",
+                "Dat de test perfect was en geen verbetering nodig had",
+                "Dat jongens nooit aan relaties denken"], 1,
+               "Niet de meisjes schoten tekort, maar de maatstaf: er was maar één stem in beeld, die van rechtvaardigheid."),
+            mk("Welke stem bracht Gilligan naast die van rechtvaardigheid in beeld?",
+               ["De stem van het nut", "De stem van zorg", "De stem van de plicht", "De stem van het lot"], 1,
+               "Naast rechtvaardigheid speelt ook een stem van zorg mee. Daarmee legde ze een basis voor de zorgethiek."),
+        ],
+    ),
+    volgorde(
+        "Zet de vier fasen van zorg van Joan Tronto in de juiste volgorde.",
+        ["Zorgen om", "Zorgen voor", "Zorg verlenen", "Zorg ontvangen"],
+        "Eerst zie je dat er nood is, dan neem je verantwoordelijkheid op, dan verleen je de zorg, en ten slotte kijk je hoe ze aankomt.",
+    ),
+    tabel(
+        "Welke morele kwaliteit hoort bij elke fase van Tronto?",
+        [
+            ("Zorgen om", "Betrokkenheid"),
+            ("Zorgen voor", "Verantwoordelijkheid"),
+            ("Zorg verlenen", "Bekwaamheid"),
+            ("Zorg ontvangen", "Wederkerigheid"),
+        ],
+        "Opmerken vraagt betrokkenheid, opnemen vraagt verantwoordelijkheid, doen vraagt bekwaamheid, en luisteren naar wie de zorg krijgt vraagt wederkerigheid.",
+        kolommen=["Betrokkenheid", "Verantwoordelijkheid", "Bekwaamheid", "Wederkerigheid"],
+    ),
+    casus(
+        "In een woonzorgcentrum merkt een zorgkundige dat meneer Peeters 's nachts angstig is. Ze meldt het en de hoofdverpleegkundige maakt er een afspraak over: elke nacht gaat iemand twee keer bij hem langs. De nachtverpleger doet dat, maar weet niet goed hoe hij een angstige man moet geruststellen. Niemand vraagt meneer Peeters zelf of de bezoekjes helpen.",
+        [
+            mk("Welke fase van Tronto loopt goed bij de zorgkundige?",
+               ["Zorgen om", "Zorgen voor", "Zorg verlenen", "Zorg ontvangen"], 0,
+               "Ze merkt de nood op: zorgen om, met betrokkenheid."),
+            mk("Bij welke fase schiet de nachtverpleger tekort?",
+               ["Zorgen om", "Zorgen voor", "Zorg verlenen", "Zorg ontvangen"], 2,
+               "Hij doet het wel, maar kan het niet goed. Bij zorg verlenen hoort bekwaamheid."),
+            mk("Welke kwaliteit ontbreekt als niemand meneer Peeters zelf iets vraagt?",
+               ["Betrokkenheid", "Verantwoordelijkheid", "Bekwaamheid", "Wederkerigheid"], 3,
+               "Zorg is geen eenrichtingsstraat. De fase zorg ontvangen vraagt wederkerigheid: komt de zorg aan?"),
+        ],
+    ),
+    sorteer(
+        "Hoort dit bij de deugdethiek of bij de zorgethiek?",
+        ["Deugdethiek", "Zorgethiek"],
+        [
+            ("Wat voor mens wil ik zijn?", "Deugdethiek"),
+            ("Kardinale deugden", "Deugdethiek"),
+            ("Het juiste midden", "Deugdethiek"),
+            ("Mensen zijn kwetsbaar en van elkaar afhankelijk.", "Zorgethiek"),
+            ("Vier fasen van zorg", "Zorgethiek"),
+            ("Wortels in het feminisme", "Zorgethiek"),
+        ],
+        "De deugdethiek vertrekt van het karakter, de zorgethiek van de afhankelijkheid en de concrete relatie.",
+    ),
+    tabel(
+        "Juist of fout over de zorgethiek?",
+        [
+            ("Ze maakt afhankelijkheid tot een normaal deel van het menselijk leven.", J),
+            ("Ze vindt dat je iedereen even onpartijdig moet behandelen.", F),
+            ("Haar inzichten worden ook toegepast op onderwijs en beleid.", J),
+            ("Ze vertrekt van een algemene regel die voor iedereen geldt.", F),
+        ],
+        "De zorgethiek vertrekt van de concrete band en aanvaardt partijdigheid tegenover wie van je afhangt.",
+        kolommen=["Juist", "Fout"],
+    ),
+    keuze(
+        "Bij het onderscheid van Hume komt medelijden [[*vanzelf uit ons gevoel|uit afspraken]] en is het een [[*natuurlijke|artificiële]] deugd. Je woord houden vraagt een [[*afspraak in de samenleving|aangeboren gevoel]].",
+        "Natuurlijke deugden komen uit ons gevoel, artificiële uit afspraken en instellingen.",
+    ),
+    inv(
+        "Hoe heet de fase van Tronto die bij de kwaliteit verantwoordelijkheid hoort?",
+        ["zorgen voor"],
+        "Zorgen voor hoort bij verantwoordelijkheid: opmerken is niet genoeg, iemand moet het ook op zich nemen.",
+    ),
+]
