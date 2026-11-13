@@ -16,7 +16,7 @@ DEEL1 = [
         type="meerkeuze",
         vraag="Waarvoor gebruik je een boomdiagram?",
         opties=[
-            "om alle mogelijke uitkomsten van opeenvolgende keuzes te tonen",
+            "om alle uitkomsten van opeenvolgende keuzes te tonen",
             "om te tonen hoeveel elementen twee groepen gemeen hebben",
             "om gegevens in klassen te verdelen en te tellen",
             "om de spreiding van een reeks getallen te tonen",
@@ -28,7 +28,7 @@ DEEL1 = [
         type="meerkeuze",
         vraag="Wat zegt de productregel?",
         opties=[
-            "je vermenigvuldigt het aantal keuzes van elke stap met elkaar",
+            "je vermenigvuldigt het aantal keuzes per stap",
             "je telt het aantal keuzes van elke stap bij elkaar op",
             "je trekt de dubbels af van het totaal aantal keuzes",
             "je deelt het totaal door het aantal stappen",
@@ -46,7 +46,7 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Een slot heeft drie cijferschijven met elk de cijfers 0 tot en met 9. Hoeveel codes zijn er?",
-        opties=["1000", "30", "720", "100"],
+        opties=["\\(1000\\)", "\\(30\\), want drie schijven van tien cijfers", "\\(720\\)", "\\(100\\), want twee cijfers volstaan per schijf"],
         antwoord=0,
         uitleg="\\(10 \\cdot 10 \\cdot 10 = 1000\\). De cijfers mogen zich herhalen.",
     ),
@@ -68,7 +68,7 @@ DEEL1 = [
         type="meerkeuze",
         vraag="Wat is het verschil tussen trekken met en zonder terugleggen?",
         opties=[
-            "zonder terugleggen daalt het aantal keuzes bij elke stap",
+            "zonder terugleggen daalt het aantal keuzes per stap",
             "zonder terugleggen blijft het aantal keuzes gelijk",
             "met terugleggen is er maar één uitkomst mogelijk",
             "er is geen verschil in het aantal uitkomsten",
@@ -125,7 +125,7 @@ DEEL1 = [
         type="meerkeuze",
         vraag="Waarom tel je bij een boomdiagram de paden en niet de takken?",
         opties=[
-            "één pad van boven naar onder is één volledige uitkomst",
+            "één pad van boven naar onder is één uitkomst",
             "takken horen bij tussenstappen en tellen dubbel mee",
             "er zijn altijd evenveel paden als takken",
             "takken kan je niet tellen als er veel stappen zijn",
@@ -182,7 +182,7 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Waarvoor gebruik je een venndiagram?",
         opties=[
-            "om te tonen welke elementen twee groepen gemeen hebben",
+            "om te tonen wat twee groepen gemeen hebben",
             "om opeenvolgende keuzes in stappen uit te schrijven",
             "om de spreiding van meetwaarden te tonen",
             "om een verband tussen twee variabelen te tekenen",
@@ -218,7 +218,7 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Wat zegt de somregel bij twee groepen die elkaar overlappen?",
         opties=[
-            "tel de twee groepen op en trek de doorsnede er één keer af",
+            "tel beide groepen op en trek de doorsnede één keer af",
             "tel de twee groepen gewoon bij elkaar op",
             "tel de twee groepen op en tel de doorsnede erbij",
             "vermenigvuldig de twee groepen met elkaar",
@@ -244,7 +244,7 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Wat zegt de complementregel?",
         opties=[
-            "het aantal dat niet aan de voorwaarde voldoet is het geheel min het aantal dat er wel aan voldoet",
+            "wat niet aan de voorwaarde voldoet, is het geheel min wat er wel aan voldoet",
             "het aantal dat aan twee voorwaarden voldoet is het product van de twee aantallen",
             "het aantal in de doorsnede is de som van de twee groepen",
             "het geheel is altijd gelijk aan de som van de twee groepen",
@@ -256,7 +256,7 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Wanneer is het aantal in de vereniging gewoon de som van de twee groepen?",
         opties=[
-            "als de groepen disjunct zijn en dus niets gemeen hebben",
+            "als ze disjunct zijn en niets gemeen hebben",
             "als de ene groep volledig in de andere zit",
             "als de twee groepen even groot zijn",
             "als de doorsnede precies de helft is",
@@ -275,7 +275,7 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Waarom is het handig om eerst de doorsnede in te vullen in een venndiagram?",
         opties=[
-            "dan kan je de andere vakjes eruit afleiden zonder dubbel te tellen",
+            "zo leid je de andere vakjes af zonder dubbel te tellen",
             "dan hoef je het totaal niet meer te kennen",
             "dan valt de complementregel weg",
             "dan zijn de twee groepen automatisch disjunct",
@@ -301,7 +301,7 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Waarom is het soms sneller te tellen wat er niet aan de voorwaarde voldoet?",
         opties=[
-            "die groep is vaak veel kleiner, en het geheel min die groep geeft het antwoord",
+            "die groep is vaak veel kleiner: geheel min die groep",
             "die groep is altijd precies de helft van het geheel",
             "zo hoef je de productregel niet meer te gebruiken",
             "de doorsnede telt dan niet meer mee",

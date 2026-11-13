@@ -16,7 +16,7 @@ DEEL1 = [
         type="meerkeuze",
         vraag="Wat zegt de stelling van Pythagoras?",
         opties=[
-            r"in een rechthoekige driehoek is \(a^{2} + b^{2} = c^{2}\), met \(c\) de schuine zijde",
+            r"in een rechthoekige driehoek is \(a^{2} + b^{2} = c^{2}\), \(c\) is de schuine zijde",
             r"in elke driehoek is \(a^{2} + b^{2} = c^{2}\), met \(c\) de langste zijde",
             r"in een rechthoekige driehoek is \(a + b = c\), met \(c\) de schuine zijde",
             r"in elke driehoek is \(c = a + b\), met \(c\) de langste zijde",
@@ -106,7 +106,7 @@ DEEL1 = [
         type="meerkeuze",
         vraag="Waarom pas je bij een ruimtediagonaal Pythagoras twee keer toe?",
         opties=[
-            "eerst voor de diagonaal van het grondvlak, dan voor de diagonaal met de hoogte erbij",
+            "eerst voor de diagonaal van het grondvlak, dan met de hoogte erbij",
             "omdat een balk twee verschillende diagonalen heeft die je moet optellen",
             "omdat de stelling in de ruimte maar de helft van het resultaat geeft",
             "omdat je anders de eenheden niet kan omzetten naar meter",
@@ -119,9 +119,9 @@ DEEL1 = [
         vraag="Een televisie van \\(40\\) inch: wat wordt daarmee gemeten?",
         opties=[
             "de diagonaal van het scherm",
-            "de breedte van het scherm",
+            "de breedte van het scherm, van links naar rechts",
             "de hoogte van het scherm",
-            "de omtrek van het scherm",
+            "de omtrek van het hele scherm",
         ],
         antwoord=0,
         uitleg="Daarom kan je met Pythagoras en de beeldverhouding de echte breedte en hoogte uitrekenen.",

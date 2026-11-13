@@ -24,8 +24,8 @@ DEEL1 = [
         type="meerkeuze",
         vraag="Wanneer gebruik je de cosinusregel?",
         opties=[
-            "als je twee zijden en de ingesloten hoek kent, of alle drie de zijden",
-            "als je twee hoeken en één zijde kent",
+            "bij twee zijden en de ingesloten hoek, of bij drie zijden",
+            "als je twee hoeken en één zijde kent, zonder ingesloten hoek",
             "alleen als de driehoek ergens een rechte hoek bevat, en anders nooit",
             "als je enkel de drie hoeken kent",
         ],
@@ -60,7 +60,7 @@ DEEL1 = [
         type="meerkeuze",
         vraag="Waar moet je bij de sinusregel op letten in een stomphoekige driehoek?",
         opties=[
-            "je rekenmachine geeft de scherpe hoek terug, terwijl de stompe hoek de juiste kan zijn",
+            "je rekenmachine geeft de scherpe hoek, maar de stompe kan juist zijn",
             "de sinusregel geldt dan niet meer en je moet altijd overschakelen op de cosinusregel",
             "je moet de zijden eerst van groot naar klein ordenen",
             "de som van de hoeken is dan geen \\(180^\\circ\\) meer",
@@ -332,8 +332,8 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Wat betekent een vector ontbinden in zijn componenten?",
         opties=[
-            "hem schrijven als de som van een horizontale en een verticale vector",
-            "hem in twee even lange stukken verdelen",
+            "hem schrijven als som van een horizontale en een verticale vector",
+            "hem in twee even lange stukken verdelen langs zijn richting",
             "hem delen door zijn norm",
             "hem vervangen door zijn tegengestelde",
         ],

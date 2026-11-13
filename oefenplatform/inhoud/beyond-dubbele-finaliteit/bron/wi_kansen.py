@@ -252,8 +252,8 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Waarom is de complementregel hier handig: wat is de kans op minstens één zes bij vier worpen?",
-        opties=["omdat geen enkele zes makkelijker te tellen is", "omdat je dan niets hoeft te rekenen",
-                "omdat de kans dan groter wordt", "omdat je vier worpen hebt"],
+        opties=["omdat geen enkele zes makkelijker te tellen is", "omdat je dan helemaal niets meer hoeft te rekenen",
+                "omdat de kans op een zes dan groter wordt", "omdat je vier worpen hebt"],
         antwoord=0,
         uitleg=r"Minstens één zes is een hele stapel gevallen; geen enkele zes is er maar één, en daarna trek je af van \(1\).",
     ),
@@ -266,8 +266,8 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag=r"Een weerbericht zegt \(70\) procent kans op regen. Wat betekent dat?",
-        opties=["in zeven van de tien vergelijkbare dagen regent het", "het regent zeven uur",
-                "zeventig procent van het land wordt nat", "het regent zeker"],
+        opties=["in zeven van de tien vergelijkbare dagen regent het", "het regent die dag zeven uur aan een stuk",
+                "zeventig procent van het land wordt die dag nat", "het regent zeker"],
         antwoord=0,
         uitleg="Een kans slaat op hoe vaak iets gebeurt bij heel veel gelijkaardige gevallen.",
     ),

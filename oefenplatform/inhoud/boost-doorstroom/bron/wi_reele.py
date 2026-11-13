@@ -23,7 +23,7 @@ DEEL1 = [
         type="meerkeuze",
         vraag="Waarom kun je met breuken alleen niet elk punt op de getallenas aanduiden?",
         opties=[
-            r"omdat er lengtes bestaan die geen breuk zijn, zoals \(\sqrt{2}\)",
+            r"er bestaan lengtes die geen breuk zijn, zoals \(\sqrt{2}\)",
             "omdat breuken enkel tussen 0 en 1 kunnen liggen",
             "omdat een breuk altijd een begrensde decimale vorm heeft",
             "omdat de negatieve getallen geen plaats hebben bij de breuken",
@@ -132,7 +132,7 @@ DEEL1 = [
         opties=[
             r"de schuine zijde van een rechthoekige driehoek met zijden \(1\) en \(1\)",
             r"de oppervlakte van een rechthoek van \(3\) op \(4\) centimeter",
-            "de helft van een oneven geheel getal",
+            "de helft van een oneven geheel getal, zoals \\(7\\) gedeeld door \\(2\\)",
             "het verschil van twee natuurlijke getallen",
         ],
         antwoord=0,
@@ -142,7 +142,7 @@ DEEL1 = [
         type="meerkeuze",
         vraag=r"Welke uitspraak over \(\pi\) klopt?",
         opties=[
-            "het is irrationaal, dus geen enkele breuk geeft het exact weer",
+            "het is irrationaal: geen breuk geeft het exact weer",
             r"het is gelijk aan \(\tfrac{22}{7}\), maar dan afgerond",
             "het is rationaal, want je kan het tot op elk cijfer berekenen",
             "het is een geheel getal zodra je het afrondt op nul cijfers",
@@ -284,7 +284,7 @@ DEEL2 = [
         type="meerkeuze",
         vraag=r"Wat is er mis met \(\sqrt{9 + 16} = \sqrt{9} + \sqrt{16}\)?",
         opties=[
-            r"een wortel splitst niet over een som: \(\sqrt{25} = 5\), geen \(7\)",
+            r"een wortel splitst niet over een som: \(\sqrt{25} = 5\)",
             r"niets, want \(9\) en \(16\) zijn allebei volkomen kwadraten",
             r"de fout zit in \(16\), want \(\sqrt{16} \neq 4\)",
             "de volgorde klopt niet: eerst worteltrekken, dan optellen",

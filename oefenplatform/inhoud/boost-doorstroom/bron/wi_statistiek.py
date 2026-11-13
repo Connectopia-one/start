@@ -31,7 +31,7 @@ DEEL1 = [
         type="meerkeuze",
         vraag="Welke categorische gegevens zijn geordend?",
         opties=[
-            "de rapportscore als zeer goed, goed of zwak",
+            "de rapportscore zeer goed, goed of zwak",
             "de haarkleur van de leerlingen in de klas",
             "de gemeente waar iemand woont",
             "het merk van de fiets waarmee je komt",
@@ -93,10 +93,10 @@ DEEL1 = [
         type="meerkeuze",
         vraag="Waarvoor gebruik je een cirkeldiagram?",
         opties=[
-            "om het aandeel van elk deel in een geheel te tonen",
+            "om het aandeel van elk deel in het geheel te tonen",
             "om een verloop over de tijd heen te volgen",
             "om de spreiding rond het gemiddelde te tonen",
-            "om het aantal uitschieters te tellen",
+            "om het aantal uitschieters in de reeks te tellen",
         ],
         antwoord=0,
         uitleg="Alle sectoren samen zijn \\(100\\,\\%\\). Bij veel categorieën wordt het onleesbaar.",
@@ -105,7 +105,7 @@ DEEL1 = [
         type="meerkeuze",
         vraag="Wat lees je af op een boxplot?",
         opties=[
-            "de kleinste waarde, de drie kwartielen en de grootste waarde",
+            "minimum, de drie kwartielen en maximum",
             "het gemiddelde en de standaardafwijking",
             "de absolute frequentie van elke waarde",
             "het verloop van de gegevens door de tijd",
@@ -153,9 +153,9 @@ DEEL1 = [
         type="meerkeuze",
         vraag="Wat betekent het als een dotplot twee clusters toont?",
         opties=[
-            "de gegevens vallen uiteen in twee groepen met elk hun eigen niveau",
+            "de gegevens vallen uiteen in twee groepen",
             "de helft van de gegevens is verkeerd gemeten",
-            "de verdeling is perfect symmetrisch",
+            "de verdeling is perfect symmetrisch rond het gemiddelde",
             "er is precies één uitschieter in de reeks",
         ],
         antwoord=0,
@@ -210,7 +210,7 @@ DEEL2 = [
         type="meerkeuze",
         vraag=r"Hoe bereken je het rekenkundig gemiddelde \(\bar{x}\)?",
         opties=[
-            "de som van alle waarden gedeeld door het aantal waarden",
+            "de som van alle waarden gedeeld door hun aantal",
             "de middelste waarde van de gerangschikte reeks",
             "de waarde die het vaakst voorkomt in de reeks",
             "het verschil tussen de grootste en de kleinste waarde",
@@ -228,7 +228,7 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag=r"Wat is de mediaan van \(4,\ 6,\ 9,\ 11\)?",
-        opties=[r"\(7{,}5\)", r"\(6\)", r"\(9\)", r"\(7\)"],
+        opties=[r"\(7{,}5\)", r"\(6\), het tweede getal", r"\(9\), het derde getal", r"\(7\)"],
         antwoord=0,
         uitleg=r"Bij een even aantal neem je het gemiddelde van de twee middelste: \(\frac{6 + 9}{2} = 7{,}5\).",
     ),
@@ -243,7 +243,7 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Waarom is de mediaan bij lonen vaak eerlijker dan het gemiddelde?",
         opties=[
-            "een paar heel hoge lonen trekken het gemiddelde omhoog",
+            "enkele heel hoge lonen trekken het gemiddelde omhoog",
             "de mediaan is altijd groter dan het gemiddelde",
             "het gemiddelde kan je bij lonen niet berekenen",
             "de mediaan houdt rekening met alle uitschieters",
@@ -255,7 +255,7 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Wat is de variatiebreedte van een reeks?",
         opties=[
-            "het verschil tussen de grootste en de kleinste waarde",
+            "grootste waarde min kleinste waarde",
             "het verschil tussen het derde en het eerste kwartiel",
             "de gemiddelde afstand tot het rekenkundig gemiddelde",
             "de middelste waarde van de gerangschikte reeks",
@@ -269,7 +269,7 @@ DEEL2 = [
         opties=[
             "de waarde waaronder een kwart van de gegevens ligt",
             "de waarde waaronder de helft van de gegevens ligt",
-            "de kleinste waarde uit de hele reeks",
+            "de kleinste waarde uit de hele gerangschikte reeks",
             "het gemiddelde van het eerste kwart van de reeks",
         ],
         antwoord=0,

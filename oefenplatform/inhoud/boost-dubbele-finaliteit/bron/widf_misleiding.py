@@ -24,9 +24,9 @@ DEEL1 = [
         vraag=r"Een staafdiagram begint niet bij \(0\) maar bij \(90\). Wat doet dat met het beeld?",
         opties=[
             "kleine verschillen lijken veel groter dan ze zijn",
-            "grote verschillen lijken kleiner dan ze zijn",
+            "grote verschillen lijken kleiner dan ze werkelijk zijn",
             "de staven worden allemaal even hoog",
-            "er verandert niets aan het beeld",
+            "er verandert eigenlijk niets aan het beeld",
         ],
         antwoord=0,
         uitleg="Het onderste stuk van elke staaf is weggeknipt, dus wat overblijft verschilt "
@@ -45,8 +45,8 @@ DEEL1 = [
               r"loopt met gelijke tussenafstanden?",
         opties=[
             "gelijke afstanden staan niet voor gelijke verschillen",
-            r"een as mag geen \(0\) bevatten",
-            "er staan te weinig getallen op de as",
+            r"een as mag nooit bij \(0\) beginnen",
+            "er staan te weinig getallen op die as om iets af te lezen",
             "de getallen op de as zijn geen veelvouden van elkaar",
         ],
         antwoord=0,
@@ -57,7 +57,7 @@ DEEL1 = [
         vraag=r"Een grafiek slaat op de tijdas de jaren \(2019\) en \(2020\) over. Waarom is dat "
               r"misleidend?",
         opties=[
-            "de lijn loopt dan vlakker of steiler dan het verloop echt was",
+            "de lijn lijkt vlakker of steiler dan het echte verloop",
             "de grafiek wordt dan te breed om af te drukken",
             "de jaartallen staan dan niet meer alfabetisch",
             "er komen dan te veel punten op de lijn",
@@ -79,9 +79,9 @@ DEEL1 = [
               "én twee keer zo hoog is. Wat klopt daar niet aan?",
         opties=[
             "het lijkt vier keer zo groot in plaats van twee keer",
-            "het plaatje lijkt half zo groot",
+            "het plaatje lijkt half zo groot als het eigenlijk is",
             "het plaatje staat aan de verkeerde kant van de as",
-            "het plaatje mist een legende",
+            "het plaatje mist een legende met de juiste eenheden",
         ],
         antwoord=0,
         uitleg=r"Verdubbel je breedte én hoogte, dan wordt de oppervlakte \(2 \cdot 2 = 4\) keer "
@@ -120,7 +120,7 @@ DEEL1 = [
         type="meerkeuze",
         vraag="Een staafdiagram heeft staven die niet even breed zijn. Waarom is dat een probleem?",
         opties=[
-            "de bredere staven trekken meer aandacht dan hun waarde verdient",
+            "brede staven trekken meer aandacht dan hun waarde verdient",
             "de staven passen dan niet meer op het blad",
             r"de as kan dan niet bij \(0\) beginnen",
             "de staven mogen dan geen kleur meer hebben",
@@ -160,8 +160,8 @@ DEEL1 = [
         opties=[
             "ze lijkt steiler en de verandering lijkt heftiger",
             "ze lijkt vlakker en de verandering lijkt kleiner",
-            "ze verandert van richting",
-            "er verandert niets aan de indruk",
+            "ze verandert van richting en daalt in plaats van te stijgen",
+            "er verandert niets aan de indruk die de lijn geeft",
         ],
         antwoord=0,
         uitleg="Dezelfde cijfers in een smalle grafiek geven een dramatischer beeld. Dat heet "
@@ -177,7 +177,7 @@ DEEL1 = [
         type="meerkeuze",
         vraag="In een diagram staat bij de ene staaf 'omzet' en bij de andere 'winst'. Wat is daar mis mee?",
         opties=[
-            "het zijn twee verschillende grootheden die je niet naast elkaar zet",
+            "twee verschillende grootheden horen niet naast elkaar",
             "de staven staan in de verkeerde volgorde",
             "de woorden zijn te lang voor een diagram",
             "winst mag nooit in een staafdiagram",
@@ -210,9 +210,9 @@ DEEL1 = [
         vraag="Een grafiek toont de stijging van een aantal zonder te zeggen hoe groot de groep is. Waarom is dat lastig?",
         opties=[
             r"\(2\) naar \(4\) zegt iets anders bij \(10\) dan bij \(10\,000\) mensen",
-            "een aantal mag nooit in een grafiek",
+            "een aantal mag je nooit in een grafiek zetten",
             "een stijging is altijd positief nieuws voor de lezer",
-            "je kan een aantal niet afronden",
+            "je kan een aantal mensen niet afronden in een grafiek",
         ],
         antwoord=0,
         uitleg="Zonder het totaal weet je niet of het om een uitzondering of om een echte trend gaat.",
@@ -303,7 +303,7 @@ DEEL2 = [
         vraag=r"Dat bedrijf adverteert met 'bij ons verdien je gemiddeld \(4000\) euro'. Waarom is "
               r"dat misleidend?",
         opties=[
-            "omdat vier van de vijf werknemers veel minder verdienen",
+            "omdat de meeste werknemers veel minder verdienen",
             "omdat een gemiddelde nooit in een advertentie mag",
             r"omdat \(4000\) euro een te rond getal is om te kloppen",
             "omdat een bedrijf enkel brutolonen mag vermelden",
@@ -328,8 +328,8 @@ DEEL2 = [
         type="meerkeuze",
         vraag=r"Een reclame zegt: 'negen op de tien tandartsen raden dit aan'. Welke vraag stel je?",
         opties=[
-            "hoeveel tandartsen zijn er gevraagd en wie heeft de vraag gesteld",
-            "hoe duur het product is",
+            "hoeveel tandartsen zijn gevraagd en wie vroeg het",
+            "hoe duur het product is in vergelijking met andere",
             "of tandartsen wel getallen mogen gebruiken",
             r"of \(9\) een even getal is",
         ],
@@ -381,7 +381,7 @@ DEEL2 = [
         vraag=r"Een winkel adverteert met 'tot \(70\,\%\) korting'. Wat weet je zeker?",
         opties=[
             r"geen enkel artikel heeft meer dan \(70\,\%\) korting",
-            r"elk artikel heeft \(70\,\%\) korting",
+            r"elk artikel in de winkel heeft \(70\,\%\) korting",
             r"de meeste artikelen hebben \(70\,\%\) korting",
             r"de korting bedraagt gemiddeld \(70\,\%\)",
         ],
@@ -413,7 +413,7 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Waarom is het nuttig om bij een cijfer altijd te vragen wie het naar buiten brengt?",
         opties=[
-            "omdat wie belang heeft bij een uitkomst, de voorstelling kan kleuren",
+            "wie belang heeft bij een uitkomst, kan de voorstelling kleuren",
             "omdat cijfers van een bedrijf nooit kloppen",
             "omdat alleen de overheid cijfers mag publiceren",
             "omdat een cijfer zonder naam ongeldig is",

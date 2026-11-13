@@ -91,7 +91,7 @@ DEEL1 = [
         type="meerkeuze",
         vraag="Je kent een scherpe hoek en de aanliggende zijde, en je zoekt de schuine zijde. Wat reken je?",
         opties=[
-            "de aanliggende zijde gedeeld door de cosinus",
+            "aanliggende zijde gedeeld door cosinus",
             "de aanliggende zijde maal de cosinus",
             "de aanliggende zijde gedeeld door de sinus",
             "de aanliggende zijde maal de tangens",
@@ -124,7 +124,7 @@ DEEL1 = [
         type="meerkeuze",
         vraag="Waarom hangen deze verhoudingen enkel van de hoek af en niet van de grootte van de driehoek?",
         opties=[
-            "omdat driehoeken met dezelfde hoeken gelijkvormig zijn",
+            "driehoeken met dezelfde hoeken zijn gelijkvormig",
             "omdat elke rechthoekige driehoek even groot is",
             "omdat je de schuine zijde altijd op 1 zet",
             "omdat je de zijden toch afrondt op gehele getallen",
@@ -167,7 +167,7 @@ DEEL1 = [
         type="meerkeuze",
         vraag="Waarom kijk je voor je begint na of je rekentoestel op graden staat?",
         opties=[
-            "omdat je anders een fout antwoord krijgt bij een juiste berekening",
+            "anders klopt je uitkomst niet, ook al reken je juist",
             "omdat het toestel anders een foutmelding geeft",
             "omdat graden nauwkeuriger rekenen dan andere instellingen",
             "omdat een rechthoekige driehoek enkel in graden bestaat",
@@ -237,7 +237,7 @@ DEEL2 = [
         type="meerkeuze",
         vraag=r"Een weg heeft een hellingspercentage van \(8\,\%\). Wat betekent dat?",
         opties=[
-            r"je stijgt \(8\) meter over \(100\) meter horizontaal",
+            r"\(8\) m stijgen per \(100\) m horizontaal",
             r"je stijgt \(8\) meter over \(100\) meter weglengte",
             r"de hellingshoek is \(8^{\circ}\)",
             r"je stijgt \(8\) centimeter per meter weglengte",
@@ -327,7 +327,7 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Waarom maak je eerst een schets voor je begint te rekenen?",
         opties=[
-            "omdat je dan ziet welke zijde overstaand en welke aanliggend is",
+            "zo zie je welke zijde overstaand is en welke aanliggend",
             "omdat een schets op het examen verplicht is",
             "omdat je anders geen rekentoestel mag gebruiken",
             "omdat de tekening het antwoord al geeft",
@@ -339,7 +339,7 @@ DEEL2 = [
         type="meerkeuze",
         vraag=r"Je berekent een hoogte en je rekentoestel toont \(5{,}1962\). Waarom rond je pas op het einde af?",
         opties=[
-            "omdat afronden onderweg je eindantwoord verder doet afwijken",
+            "onderweg afronden doet je eindantwoord afwijken",
             "omdat het rekentoestel anders een fout geeft",
             "omdat een hoogte altijd op vier cijfers moet staan",
             "omdat je anders de eenheid vergeet te noteren",

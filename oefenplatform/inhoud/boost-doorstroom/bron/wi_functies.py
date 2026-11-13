@@ -46,7 +46,7 @@ DEEL1 = [
         type="meerkeuze",
         vraag="Wat is het domein van een functie?",
         opties=[
-            "de verzameling van alle \\(x\\)-waarden waarvoor de functie een waarde geeft",
+            "alle \\(x\\)-waarden waarvoor de functie een waarde geeft",
             "de verzameling van alle \\(y\\)-waarden die de functie aanneemt",
             "de verzameling van de nulwaarden van de functie",
             "de verzameling van alle punten op de grafiek",
@@ -58,7 +58,7 @@ DEEL1 = [
         type="meerkeuze",
         vraag="Wat is het bereik van een functie?",
         opties=[
-            "de verzameling van alle \\(y\\)-waarden die de functie aanneemt",
+            "alle \\(y\\)-waarden die de functie aanneemt",
             "de verzameling van alle \\(x\\)-waarden waarvoor ze bestaat",
             "de afstand tussen de kleinste en de grootste \\(x\\)-waarde",
             "het aantal snijpunten met de \\(x\\)-as",
@@ -73,7 +73,7 @@ DEEL1 = [
             "verwoording, tabel, grafiek en voorschrift",
             "formule, tekening, verhaal en schema",
             "grafiek, diagram, tabel en histogram",
-            "voorschrift, nulwaarde, top en domein",
+            "voorschrift, nulwaarde, top en domein van de functie",
         ],
         antwoord=0,
         uitleg="Je moet van elke vorm naar elke andere kunnen overstappen.",
@@ -120,10 +120,10 @@ DEEL1 = [
         type="meerkeuze",
         vraag="Wat is het verschil tussen een lineair en een recht evenredig verband?",
         opties=[
-            "een recht evenredig verband gaat door de oorsprong, een lineair verband niet noodzakelijk",
+            "recht evenredig gaat door de oorsprong, lineair niet noodzakelijk",
             "een lineair verband gaat door de oorsprong, een recht evenredig verband niet",
             "er is geen verschil tussen de twee",
-            "een lineair verband heeft altijd een negatieve helling",
+            "een lineair verband heeft altijd een negatieve helling, de andere niet",
         ],
         antwoord=0,
         uitleg=r"Bij \(y = 2x + 5\) is het verband lineair maar niet recht evenredig: bij nul kilometer betaal je al \(5\) euro.",
@@ -146,8 +146,8 @@ DEEL1 = [
         opties=[
             "niet-lineaire groei, want de verschillen worden groter",
             "lineaire groei, want de waarden stijgen elke stap",
-            "omgekeerd evenredige groei",
-            "constante groei zonder toename",
+            "omgekeerd evenredige groei, want \\(x\\) en \\(y\\) horen bij elkaar",
+            "constante groei zonder toename tussen de stappen",
         ],
         antwoord=0,
         uitleg=r"De verschillen zijn \(3\) en \(5\), dus geen rechte. Dit is het kwadratische verband \(y = x^{2}\).",
@@ -213,7 +213,7 @@ DEEL2 = [
         type="meerkeuze",
         vraag=r"Wat betekent de \(a\) in het voorschrift \(f(x) = ax + b\)?",
         opties=[
-            r"de richtingscoëfficiënt: hoeveel \(y\) stijgt per eenheid \(x\)",
+            r"de richtingscoëfficiënt: de stijging van \(y\) per eenheid \(x\)",
             "de hoogte waarop de rechte de \\(y\\)-as snijdt",
             "de \\(x\\)-waarde waar de rechte de \\(x\\)-as snijdt",
             "de hoek die de rechte met de \\(x\\)-as maakt, in graden",
@@ -226,7 +226,7 @@ DEEL2 = [
         vraag=r"Wat betekent de \(b\) in het voorschrift \(f(x) = ax + b\)?",
         opties=[
             "de \\(y\\)-waarde waar de rechte de verticale as snijdt",
-            "de helling van de rechte",
+            "de helling van de rechte ten opzichte van de horizontale as",
             "de nulwaarde van de functie",
             "het aantal snijpunten met de \\(x\\)-as",
         ],

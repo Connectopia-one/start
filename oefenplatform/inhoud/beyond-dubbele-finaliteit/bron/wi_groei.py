@@ -21,7 +21,7 @@ DEEL1 = [
         type="meerkeuze",
         vraag="Wat is het kenmerk van exponentiële groei?",
         opties=["je vermenigvuldigt elke tijdseenheid met dezelfde factor", "je telt elke tijdseenheid hetzelfde getal op",
-                "de waarde blijft gelijk", "de waarde wordt negatief"],
+                "de waarde blijft elke tijdseenheid gelijk", "de waarde wordt negatief"],
         antwoord=0,
         uitleg="Daardoor wordt het bedrag dat erbij komt zelf ook steeds groter.",
     ),
@@ -78,7 +78,7 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Welk groeimodel hoort bij enkelvoudige intrest?",
-        opties=["een lineair model", "een exponentieel model", "een dalend model", "geen van beide"],
+        opties=["een lineair model", "een exponentieel model", "een dalend model", "geen van beide modellen"],
         antwoord=0,
         uitleg="Elk jaar komt hetzelfde bedrag erbij, want je rekent telkens op het beginbedrag.",
     ),
@@ -125,7 +125,7 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag=r"Een rij getallen is \(20\), \(24\), \(28{,}8\) en \(34{,}56\). Welke groei is dat?",
-        opties=[r"exponentieel, factor \(1{,}2\)", r"lineair, telkens \(4\) erbij", r"exponentieel, factor \(4\)", "geen regelmaat"],
+        opties=[r"exponentieel, factor \(1{,}2\)", r"lineair, telkens \(4\) erbij", r"exponentieel, factor \(4\)", "geen regelmaat te vinden"],
         antwoord=0,
         uitleg=r"\(24 : 20\) is \(1{,}2\), en \(28{,}8 : 24\) ook. Het bedrag dat erbij komt, groeit mee.",
     ),
@@ -138,8 +138,8 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Waarom gebruik je een logaritme bij een groeimodel?",
-        opties=["om de tijd te vinden die in de exponent staat", "om de beginwaarde te vinden",
-                "om de grafiek te tekenen", "om het percentage om te rekenen"],
+        opties=["om de tijd te vinden die in de exponent staat", "om de beginwaarde van het model te vinden",
+                "om de grafiek te tekenen", "om het percentage om te rekenen naar een groeifactor"],
         antwoord=0,
         uitleg="De vraag na hoeveel jaar iets verdubbeld is, is een vraag naar de exponent.",
     ),
@@ -200,7 +200,7 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag=r"Twee modellen: het ene telt elke week \(10\) bij, het andere groeit met \(10\) procent per week. Welk haalt op lange termijn het andere in?",
-        opties=[r"het model met \(10\) procent", r"het model met \(10\) erbij", "ze blijven gelijk", "dat hangt van de tijd af"],
+        opties=[r"het model met \(10\) procent", r"het model met \(10\) erbij", "ze blijven op lange termijn aan elkaar gelijk", "dat hangt af van hoeveel weken je bekijkt"],
         antwoord=0,
         uitleg="Exponentiële groei wint altijd van lineaire groei, al kan dat even duren.",
     ),
@@ -226,7 +226,7 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag=r"Een bevolking groeit met \(2\) procent per jaar. Welke uitspraak klopt?",
-        opties=["het aantal mensen dat er per jaar bijkomt, groeit mee", "er komen elk jaar evenveel mensen bij",
+        opties=["het aantal mensen dat er per jaar bijkomt, groeit mee", "er komen elk jaar evenveel mensen bij als het jaar ervoor",
                 "de bevolking verdubbelt elk jaar", "de bevolking daalt"],
         antwoord=0,
         uitleg="Twee procent van een grotere bevolking is een groter aantal. Dat is het verschil met lineaire groei.",
@@ -247,7 +247,7 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag=r"Een tabel toont \(64\), \(48\), \(36\), \(27\). Welk model past?",
-        opties=[r"exponentieel, factor \(0{,}75\)", r"lineair, telkens \(16\) eraf", r"exponentieel, factor \(0{,}5\)", "geen van beide"],
+        opties=[r"exponentieel, factor \(0{,}75\)", r"lineair, telkens \(16\) eraf", r"exponentieel, factor \(0{,}5\)", "geen van beide modellen past"],
         antwoord=0,
         uitleg=r"\(48 : 64\) is \(0{,}75\), en \(36 : 48\) ook. Het verschil wordt steeds kleiner.",
     ),
@@ -266,8 +266,8 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag=r"Je kent de beginwaarde en de waarde na \(10\) jaar. Hoe vind je de groeifactor per jaar?",
-        opties=["de tiendemachtswortel uit hun verhouding", "het verschil delen door tien",
-                "de twee waarden optellen", "de logaritme van het verschil"],
+        opties=["de tiendemachtswortel uit hun verhouding", "het verschil van de twee waarden delen door tien",
+                "de twee waarden optellen", "de logaritme nemen van het verschil van de twee"],
         antwoord=0,
         uitleg="Tien gelijke stappen moeten samen de hele groei geven, dus je zoekt de tiende wortel.",
     ),

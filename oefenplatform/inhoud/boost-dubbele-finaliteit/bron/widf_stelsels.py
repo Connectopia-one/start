@@ -50,10 +50,10 @@ DEEL1 = [
         type="meerkeuze",
         vraag=r"Klopt het koppel \((4, 1)\) voor het stelsel \(x + y = 5\) en \(x - y = 3\)?",
         opties=[
-            "ja, want het klopt in allebei de vergelijkingen",
+            "ja, het klopt in beide vergelijkingen",
             "nee, want het klopt alleen in de eerste",
             "nee, want het klopt alleen in de tweede",
-            "nee, want er zijn geen oplossingen",
+            "nee, want dit stelsel heeft helemaal geen oplossingen",
         ],
         antwoord=0,
         uitleg=r"\(4 + 1 = 5\) en \(4 - 1 = 3\). Allebei kloppen, dus het koppel is de oplossing.",
@@ -62,7 +62,7 @@ DEEL1 = [
         type="meerkeuze",
         vraag="Wat doe je bij de substitutiemethode?",
         opties=[
-            "je schrijft één onbekende uit en vult die in de andere vergelijking in",
+            "je zondert één onbekende af en vult die in de andere in",
             "je telt de twee vergelijkingen bij elkaar op",
             "je tekent de twee rechten en leest het snijpunt af",
             "je stelt de twee rechterleden aan elkaar gelijk",
@@ -83,7 +83,7 @@ DEEL1 = [
         type="meerkeuze",
         vraag="Wat doe je bij de gelijkstellingsmethode?",
         opties=[
-            "je schrijft in allebei de vergelijkingen dezelfde onbekende uit en stelt die gelijk",
+            "je zondert in beide dezelfde onbekende af en stelt die gelijk",
             "je maakt de twee vergelijkingen even lang",
             "je vermenigvuldigt de twee vergelijkingen met elkaar",
             "je vervangt in beide vergelijkingen x door y",
@@ -109,7 +109,7 @@ DEEL1 = [
         type="meerkeuze",
         vraag="Waarom controleer je je oplossing achteraf in allebei de vergelijkingen?",
         opties=[
-            "omdat een koppel pas klopt als het in de twee vergelijkingen past",
+            "een koppel klopt pas als het in beide vergelijkingen past",
             "omdat de eerste vergelijking altijd de belangrijkste is",
             "omdat je anders de koppelvoorstelling niet mag opschrijven",
             "omdat het rekentoestel het anders niet aanvaardt",
@@ -144,7 +144,7 @@ DEEL1 = [
         type="meerkeuze",
         vraag=r"Twee kaarten en drie broodjes kosten \(13\) euro. Welke vergelijking hoort daarbij, "
               r"met \(k\) de prijs van een kaart en \(b\) die van een broodje?",
-        opties=[r"\(2k + 3b = 13\)", r"\(k + b = 13\)", r"\(2k = 3b\)", r"\(6kb = 13\)"],
+        opties=[r"\(2k + 3b = 13\)", r"\(k + b = 13\), want het gaat om één kaart en één broodje", r"\(2k = 3b\)", r"\(6kb = 13\)"],
         antwoord=0,
         uitleg="Het aantal stuks komt vóór de onbekende, en samen is dat het totaalbedrag.",
     ),
@@ -204,7 +204,7 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Wat doe je bij de combinatiemethode?",
         opties=[
-            "je telt de twee vergelijkingen op of trekt ze af zodat een onbekende wegvalt",
+            "je telt de vergelijkingen op of trekt ze af, zodat een onbekende wegvalt",
             "je vermenigvuldigt de twee vergelijkingen met elkaar",
             "je vult de ene vergelijking in de andere in",
             "je tekent de twee rechten in hetzelfde assenstelsel",
@@ -245,7 +245,7 @@ DEEL2 = [
         type="meerkeuze",
         vraag=r"Waarom is het stelsel \(x + y = 5\) en \(x + y = 8\) strijdig?",
         opties=[
-            r"omdat dezelfde som niet tegelijk \(5\) en \(8\) kan zijn",
+            r"dezelfde som kan niet tegelijk \(5\) en \(8\) zijn",
             r"omdat er geen coëfficiënten bij \(x\) staan",
             r"omdat \(5\) en \(8\) geen veelvouden van elkaar zijn",
             r"omdat er te weinig onbekenden zijn",
@@ -263,7 +263,7 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag=r"Hoeveel oplossingen heeft het stelsel \(x + y = 5\) en \(2x + 2y = 10\)?",
-        opties=["oneindig veel", "geen enkele", "precies één", "precies twee"],
+        opties=["oneindig veel", "geen enkele, het stelsel is strijdig", "precies één", "precies twee oplossingen"],
         antwoord=0,
         uitleg="De tweede vergelijking is de eerste maal twee. Ze zeggen hetzelfde, dus elk koppel "
                "dat aan de eerste voldoet, voldoet ook aan de tweede.",
@@ -348,9 +348,9 @@ DEEL2 = [
         type="meerkeuze",
         vraag=r"Je werkt een stelsel uit met combinatie en komt uit op \(0 = 0\). Wat betekent dat?",
         opties=[
-            "het stelsel heeft oneindig veel oplossingen",
+            "oneindig veel oplossingen",
             "het stelsel is strijdig",
-            r"\(x\) en \(y\) zijn allebei nul",
+            r"\(x\) en \(y\) zijn allebei gelijk aan nul",
             "je hebt een rekenfout gemaakt",
         ],
         antwoord=0,
@@ -374,7 +374,7 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Wanneer kies je best de combinatiemethode in plaats van substitutie?",
         opties=[
-            "als een onbekende in beide vergelijkingen dezelfde coëfficiënt heeft",
+            "als een onbekende in beide dezelfde coëfficiënt heeft",
             "als er in één vergelijking een onbekende alleen staat",
             "als de getallen breuken zijn",
             "als er maar één onbekende in het stelsel staat",

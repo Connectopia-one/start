@@ -22,7 +22,7 @@ DEEL1 = [
         type="meerkeuze",
         vraag="Wat is een stelsel van twee eerstegraadsvergelijkingen in twee onbekenden?",
         opties=[
-            r"twee vergelijkingen die tegelijk moeten kloppen voor dezelfde \(x\) en \(y\)",
+            r"twee vergelijkingen die samen moeten kloppen voor dezelfde \(x\) en \(y\)",
             "twee vergelijkingen waarvan je er zelf één mag kiezen",
             "een vergelijking die je in twee stappen moet oplossen",
             "twee vergelijkingen die na elkaar opgelost worden",
@@ -34,7 +34,7 @@ DEEL1 = [
         type="meerkeuze",
         vraag="Met welke drie methodes los je een stelsel algebraïsch op?",
         opties=[
-            "de combinatiemethode, de substitutiemethode en de gelijkstellingsmethode",
+            "combinatie, substitutie en gelijkstelling",
             "de grafische methode, de tabelmethode en de schattingsmethode",
             "de discriminantmethode, het ontbinden en het afzonderen",
             "de kop-staartmethode, de kruismethode en de balansmethode",
@@ -46,7 +46,7 @@ DEEL1 = [
         type="meerkeuze",
         vraag="Wat doe je bij de substitutiemethode?",
         opties=[
-            "je drukt één onbekende uit en vult die uitdrukking in de andere vergelijking in",
+            "je drukt één onbekende uit en vult die in de andere in",
             "je telt de twee vergelijkingen op zodat één onbekende wegvalt",
             "je stelt de twee rechterleden aan elkaar gelijk",
             "je tekent de twee rechten en leest het snijpunt af",
@@ -131,7 +131,7 @@ DEEL1 = [
         opties=[
             "het stelsel is onbepaald: elk punt van de rechte is een oplossing",
             "het stelsel is strijdig en heeft geen oplossing",
-            r"\(x\) en \(y\) zijn allebei nul",
+            r"\(x\) en \(y\) zijn allebei gelijk aan nul",
             "de twee rechten staan loodrecht op elkaar",
         ],
         antwoord=0,

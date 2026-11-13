@@ -82,9 +82,9 @@ DEEL1 = [
         vraag="Wat betekent het symbool \\(\\leq\\) tussen twee getallen?",
         opties=[
             "het linkergetal is kleiner dan of gelijk aan het rechter",
-            "het linkergetal is strikt kleiner dan het rechter",
+            "het linkergetal is strikt kleiner dan het rechtergetal",
             "het linkergetal is groter dan of gelijk aan het rechter",
-            "de twee getallen liggen even ver van nul",
+            "de twee getallen liggen precies even ver van nul",
         ],
         antwoord=0,
         uitleg="Het streepje onder het teken laat gelijkheid toe. Zonder streepje is het strikt.",
@@ -112,7 +112,7 @@ DEEL1 = [
         type="meerkeuze",
         vraag="Waarom rond je pas op het einde van een berekening af?",
         opties=[
-            "omdat afrondingsfouten anders bij elke tussenstap groter worden",
+            "anders worden de afrondingsfouten bij elke stap groter",
             "omdat je anders je rekenmachine niet meer mag gebruiken",
             "omdat een tussenresultaat nooit een komma mag bevatten",
             "omdat je wettelijk maar één keer mag afronden"        ],
@@ -180,7 +180,7 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Wat betekent het interval \\(\\left]2, 5\\right[\\)?",
         opties=[
-            "alle getallen strikt tussen \\(2\\) en \\(5\\), de grenzen niet meegerekend",
+            "alle getallen strikt tussen \\(2\\) en \\(5\\), zonder de grenzen",
             "alle getallen van \\(2\\) tot en met \\(5\\), de grenzen meegerekend",
             "alleen de gehele getallen \\(3\\) en \\(4\\)",
             "alle getallen kleiner dan \\(2\\) of groter dan \\(5\\)",
@@ -192,9 +192,9 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Wat betekent het interval \\(\\left[0, 1\\right]\\)?",
         opties=[
-            "alle getallen van \\(0\\) tot en met \\(1\\), allebei de grenzen inbegrepen",
+            "alle getallen van \\(0\\) tot en met \\(1\\), grenzen inbegrepen",
             "alle getallen strikt tussen \\(0\\) en \\(1\\)",
-            "alleen de twee getallen \\(0\\) en \\(1\\)",
+            "alleen de twee getallen \\(0\\) en \\(1\\) zelf, verder niets",
             "alle getallen kleiner dan of gelijk aan \\(1\\)",
         ],
         antwoord=0,
@@ -211,7 +211,7 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Waarom staat er bij oneindig altijd een haakje dat naar buiten wijst?",
         opties=[
-            "omdat oneindig geen getal is en er dus niet bij kan horen",
+            "oneindig is geen getal en kan er dus niet bij horen",
             "omdat oneindig te groot is om op te schrijven",
             "omdat het interval anders leeg zou zijn",
             "omdat dat alleen bij negatieve oneindig zo is",
@@ -297,7 +297,7 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Waarom gebruiken wetenschappers machten van tien?",
         opties=[
-            "omdat heel grote en heel kleine getallen zo leesbaar en vergelijkbaar blijven",
+            "zo blijven heel grote en heel kleine getallen leesbaar",
             "omdat een rekenmachine anders geen komma kan weergeven",
             "omdat het verplicht is bij elke meting met een toestel",
             "omdat je zo geen afrondingsfouten meer kan maken",

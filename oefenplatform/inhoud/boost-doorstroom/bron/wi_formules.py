@@ -21,7 +21,7 @@ DEEL1 = [
         type="meerkeuze",
         vraag="Welke eigenschap van gelijkheden gebruik je om bij beide leden hetzelfde getal op te tellen?",
         opties=[
-            "wat je links doet, moet je rechts ook doen, anders klopt de gelijkheid niet meer",
+            "wat je links doet, doe je rechts ook, anders klopt het niet meer",
             "je mag links iets optellen en rechts iets aftrekken, zolang het evenveel is",
             "je mag bij een gelijkheid alleen vermenigvuldigen, nooit optellen",
             "je mag enkel getallen optellen, nooit een uitdrukking met een letter",
@@ -129,10 +129,10 @@ DEEL1 = [
         type="meerkeuze",
         vraag=r"Wat betekent het dat een formule lineair is in \(x\)?",
         opties=[
-            r"\(x\) komt enkel in de eerste macht voor, zonder kwadraat of wortel",
+            r"\(x\) staat enkel in de eerste macht, zonder kwadraat of wortel",
             r"\(x\) staat altijd links van het gelijkheidsteken",
             "de grafiek gaat altijd door de oorsprong",
-            r"er staat precies één \(x\) in de hele formule",
+            r"er staat precies één \(x\) in de hele formule, nergens meer",
         ],
         antwoord=0,
         uitleg="De grafiek van een lineair verband is een rechte. Een zuiver kwadratisch verband geeft een parabool.",
@@ -165,7 +165,7 @@ DEEL1 = [
         type="meerkeuze",
         vraag="Waarom controleer je na het omvormen best met een getallenvoorbeeld?",
         opties=[
-            "omdat een tekenfout of een verkeerde bewerking zo meteen opvalt",
+            "zo valt een tekenfout of verkeerde bewerking meteen op",
             "omdat een formule pas geldt als je er getallen in gezet hebt",
             "omdat het examen dat verplicht bij elke omvorming",
             "omdat je anders geen rekenmachine mag gebruiken",
@@ -282,7 +282,7 @@ DEEL2 = [
         opties=[
             "het tekenverloop: waar staat de functie positief?",
             "het verloopschema: waar stijgt de functie?",
-            "de nulwaarde alleen, zonder verder te kijken",
+            "alleen de nulwaarde, zonder verder te kijken naar de rest",
             "het snijpunt met de y-as",
         ],
         antwoord=0,
@@ -305,9 +305,9 @@ DEEL2 = [
         vraag=r"Een vergelijking geeft \(0 = 0\). Wat besluit je?",
         opties=[
             r"elke waarde van \(x\) is een oplossing",
-            "er is geen enkele oplossing",
+            "er is geen enkele oplossing voor \\(x\\)",
             r"\(x = 0\)",
-            "de vergelijking is fout opgeschreven",
+            "de vergelijking is verkeerd opgeschreven",
         ],
         antwoord=0,
         uitleg=r"Er blijft een waarheid over, dus elke \(x\) voldoet.",
@@ -330,8 +330,8 @@ DEEL2 = [
         opties=[
             r"vanaf meer dan \(120\) minuten",
             r"vanaf meer dan \(60\) minuten",
-            r"vanaf meer dan \(40\) minuten",
-            "A is altijd duurder dan B",
+            r"vanaf meer dan \(40\) minuten bellen",
+            "A is altijd duurder dan B, hoe lang je ook belt",
         ],
         antwoord=0,
         uitleg=r"Stel \(20 + 0{,}1x < 8 + 0{,}2x\). Dan \(12 < 0{,}1x\), dus \(x > 120\).",
@@ -340,7 +340,7 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Hoe los je een eerstegraadsvergelijking grafisch op?",
         opties=[
-            "je tekent links en rechts als een functie en zoekt het snijpunt",
+            "je tekent beide leden als functie en zoekt het snijpunt",
             "je tekent enkel de linkerkant en leest de top af",
             "je berekent de oppervlakte tussen de twee rechten",
             "je zoekt waar de twee grafieken evenwijdig lopen",

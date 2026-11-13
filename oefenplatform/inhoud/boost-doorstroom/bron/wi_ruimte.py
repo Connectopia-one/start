@@ -46,7 +46,7 @@ DEEL1 = [
         type="meerkeuze",
         vraag="Welke ligging is mogelijk tussen een rechte en een vlak?",
         opties=[
-            "de rechte ligt in het vlak, is er evenwijdig mee, snijdt het of staat er loodrecht op",
+            "ze ligt erin, is evenwijdig, snijdt het of staat er loodrecht op",
             "de rechte kruist het vlak, of valt ermee samen in twee punten",
             "de rechte snijdt het vlak altijd, behalve als ze even lang zijn",
             "de rechte staat altijd loodrecht op het vlak of valt ermee samen",
@@ -65,7 +65,7 @@ DEEL1 = [
         type="meerkeuze",
         vraag="Wat is een ontwikkeling van een ruimtefiguur?",
         opties=[
-            "het platte patroon dat je krijgt als je de figuur openvouwt",
+            "het platte patroon van de opengevouwen figuur",
             "de tekening van de figuur in cavalièreperspectief",
             "de schaduw die de figuur op een vlak werpt",
             "de doorsnede van de figuur met een horizontaal vlak",
@@ -89,7 +89,7 @@ DEEL1 = [
         type="meerkeuze",
         vraag="Wat kenmerkt het cavalièreperspectief?",
         opties=[
-            "de zijvlakken lopen schuin weg, maar evenwijdige lijnen blijven evenwijdig",
+            "zijvlakken lopen schuin weg, evenwijdige lijnen blijven evenwijdig",
             "alle lijnen lopen naar één verdwijnpunt aan de horizon",
             "de figuur wordt getekend zoals een fototoestel ze ziet",
             "er wordt enkel met stippellijnen gewerkt, zonder volle lijnen",
@@ -136,7 +136,7 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Hoeveel ribben heeft een balk?",
-        opties=["twaalf", "acht", "zes", "vier"],
+        opties=["twaalf", "acht, want een balk heeft acht hoekpunten", "zes, want een balk heeft zes zijvlakken", "vier"],
         antwoord=0,
         uitleg="Een balk heeft \\(8\\) hoekpunten, \\(12\\) ribben en \\(6\\) zijvlakken.",
     ),
@@ -303,7 +303,7 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Waarom zijn twee gelijkvormige figuren niet noodzakelijk even groot?",
         opties=[
-            "omdat gelijkvormig enkel over de vorm gaat, niet over de afmetingen",
+            "gelijkvormig gaat over de vorm, niet over de afmetingen",
             "omdat gelijkvormige figuren altijd verschillende hoeken hebben",
             "omdat de factor altijd groter dan één moet zijn",
             "omdat gelijkvormig hetzelfde betekent als gelijk",

@@ -11,7 +11,7 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Wat vraag je als je de logaritme van een getal berekent?",
-        opties=["tot welke macht je het grondtal moet verheffen", "hoeveel keer het getal in het grondtal past",
+        opties=["tot welke macht je het grondtal verheft", "hoeveel keer het getal in het grondtal past",
                 "wat de wortel van het getal is", "hoeveel cijfers het getal heeft"],
         antwoord=0,
         uitleg="Een logaritme is de omgekeerde bewerking van machtsverheffen: ze geeft de exponent terug.",
@@ -236,8 +236,8 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Waarom gebruikt men een logaritmische schaal voor aardbevingen?",
-        opties=["omdat de krachten enorm uit elkaar liggen", "omdat de getallen negatief zijn",
-                "omdat er maar weinig aardbevingen zijn", "omdat de schaal anders te kort is"],
+        opties=["omdat de krachten enorm uit elkaar liggen", "omdat de gemeten getallen vaak negatief zijn",
+                "omdat er maar weinig aardbevingen zijn", "omdat een gewone schaal anders te kort zou zijn"],
         antwoord=0,
         uitleg="Met een logaritme breng je waarden die duizenden keren verschillen terug tot een handzame schaal.",
     ),

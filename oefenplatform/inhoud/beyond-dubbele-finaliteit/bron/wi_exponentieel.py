@@ -57,8 +57,8 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag=r"Waarom mag de groeifactor niet gelijk zijn aan \(1\)?",
-        opties=["dan blijft de functie constant", "dan wordt de functie negatief",
-                "dan bestaat de functie niet", "dan is de beginwaarde nul"],
+        opties=["dan blijft de functie constant", "dan wordt de functie vanaf een bepaald punt negatief",
+                "dan bestaat de functie niet", "dan is de beginwaarde automatisch nul"],
         antwoord=0,
         uitleg=r"Met groeifactor \(1\) verandert er niets meer, en dan heb je geen exponentiële functie maar een rechte.",
     ),
@@ -103,8 +103,8 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag=r"Wat gebeurt er met een dalende exponentiële functie als \(x\) heel groot wordt?",
-        opties=["ze kruipt naar nul toe zonder die te bereiken", "ze wordt negatief",
-                "ze bereikt nul en stopt", "ze gaat weer stijgen"],
+        opties=["ze kruipt naar nul toe zonder die te bereiken", "ze wordt vanaf een bepaalde \\(x\\) negatief",
+                "ze bereikt nul en stopt", "ze bereikt een laagste punt en gaat weer stijgen"],
         antwoord=0,
         uitleg="Je blijft met een factor kleiner dan één vermenigvuldigen, dus je komt er heel dicht bij, maar nooit op.",
     ),
@@ -246,7 +246,7 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag=r"Een rij is \(100\), \(110\), \(121\), \(133{,}1\). Welke soort groei is dat?",
-        opties=[r"exponentieel met factor \(1{,}1\)", r"lineair met \(10\) erbij", r"exponentieel met factor \(10\)", "geen van beide"],
+        opties=[r"exponentieel met factor \(1{,}1\)", r"lineair, telkens met \(10\) erbij", r"exponentieel met factor \(10\)", "geen van beide, er is geen regelmaat"],
         antwoord=0,
         uitleg=r"Elke stap is maal \(1{,}1\). De getallen die erbij komen groeien mee, en dat is typisch exponentieel.",
     ),
@@ -267,7 +267,7 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Je ziet een grafiek die traag begint en daarna steeds steiler omhoog schiet. Welk model past?",
-        opties=["een exponentieel model", "een lineair model", "een constante functie", "een dalende rechte"],
+        opties=["een exponentieel model", "een lineair model met een grote helling", "een constante functie", "een dalende rechte door de oorsprong"],
         antwoord=0,
         uitleg="Een rechte wordt nooit steiler. Die vorm is het handelsmerk van exponentiële groei.",
     ),

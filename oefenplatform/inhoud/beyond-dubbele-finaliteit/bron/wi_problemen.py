@@ -44,7 +44,7 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Een opgave die je niet aan één hoofdstuk kan koppelen en waarvoor je leerstof moet combineren, heet wat?",
-        opties=["een probleem", "een vraagstuk", "een context", "een voorschrift"],
+        opties=["een probleem", "een vraagstuk", "een context uit het dagelijks leven", "een voorschrift"],
         antwoord=0,
         uitleg="Bij een probleem kies je zelf de strategie; bij een vraagstuk weet je uit welk hoofdstuk je moet putten.",
     ),
@@ -76,7 +76,7 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="In een opgave staan veel getallen door elkaar. Welke strategie helpt het eerst?",
-        opties=["de gegevens in een tabel ordenen", "meteen beginnen rekenen", "het antwoord gokken", "de opgave overschrijven"],
+        opties=["de gegevens in een tabel ordenen", "meteen beginnen rekenen met alles", "een antwoord gokken en dan nakijken", "de opgave overschrijven"],
         antwoord=0,
         uitleg="Door de gegevens te ordenen zie je pas welke je hebt en welke je mist.",
     ),
@@ -134,7 +134,7 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag=r"Je berekent dat een auto \(540\) kilometer per uur rijdt. Wat doe je?",
-        opties=["je gaat je berekening na, want dat kan niet", "je noteert het zo", r"je rondt af naar \(500\)", "je deelt door twee"],
+        opties=["je gaat je berekening na, want dat kan niet", "je noteert de uitkomst zoals ze is", r"je rondt af naar \(500\) kilometer per uur", "je deelt door twee"],
         antwoord=0,
         uitleg="Reflecteren betekent ook dat je je uitkomst toetst aan de werkelijkheid. Een onmogelijke waarde wijst op een rekenfout.",
     ),
@@ -144,7 +144,7 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Wat is de tweede stap, meteen na het begrijpen van het probleem?",
-        opties=["een plan maken", "het plan uitvoeren", "reflecteren", "het antwoord opschrijven"],
+        opties=["een plan maken", "het plan uitvoeren", "reflecteren over de aanpak", "het antwoord opschrijven"],
         antwoord=0,
         uitleg="Eerst beslis je hoe je het gaat aanpakken, pas daarna begin je te rekenen.",
     ),
@@ -177,7 +177,7 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Een probleem gaat over een figuur die links en rechts hetzelfde is. Welke eigenschap gebruik je dan slim?",
-        opties=["de symmetrie", "de omtrek", "de schaal", "het gemiddelde"],
+        opties=["de symmetrie", "de omtrek", "de schaal van de tekening", "het gemiddelde"],
         antwoord=0,
         uitleg="Met symmetrie hoef je maar de helft uit te rekenen en verdubbel je daarna.",
     ),
@@ -196,7 +196,7 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Je speelt een kansspel honderd keer na om te zien hoe vaak je wint. Hoe heet die aanpak?",
-        opties=["simuleren", "terugrekenen", "mathematiseren", "afronden"],
+        opties=["simuleren", "terugrekenen", "mathematiseren", "afronden op het einde"],
         antwoord=0,
         uitleg="Je voert het vraagstuk zelf uit en kijkt wat er gebeurt. Dat geeft een schatting die je daarna kan narekenen.",
     ),
@@ -235,7 +235,7 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Wat doe je het eerst als je een lange opgave leest en meteen vastloopt?",
-        opties=["onderstrepen wat gegeven is en wat gevraagd wordt", "een willekeurige formule invullen", "de opgave overslaan", "het antwoord gokken"],
+        opties=["onderstrepen wat gegeven is en wat gevraagd wordt", "een willekeurige formule invullen en hopen dat het klopt", "de opgave overslaan en later terugkomen", "het antwoord gokken"],
         antwoord=0,
         uitleg="Het probleem begrijpen is de eerste stap. Wie niet weet wat gevraagd wordt, kan geen plan maken.",
     ),
@@ -248,7 +248,7 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Een opgave geeft een tabel met de winst per aantal stuks. Welke voorstelling maakt het verloop het snelst zichtbaar?",
-        opties=["een grafiek", "een lijst namen", "een cirkel", "een letter"],
+        opties=["een grafiek", "een lijst met namen", "een cirkel", "een letter"],
         antwoord=0,
         uitleg="Een grafiek toont in één oogopslag of iets stijgt, daalt of een top bereikt.",
     ),

@@ -65,7 +65,7 @@
           "opties": [
             "een probleem",
             "een vraagstuk",
-            "een context",
+            "een context uit het dagelijks leven",
             "een voorschrift"
           ],
           "antwoord": 0,
@@ -110,8 +110,8 @@
           "vraag": "In een opgave staan veel getallen door elkaar. Welke strategie helpt het eerst?",
           "opties": [
             "de gegevens in een tabel ordenen",
-            "meteen beginnen rekenen",
-            "het antwoord gokken",
+            "meteen beginnen rekenen met alles",
+            "een antwoord gokken en dan nakijken",
             "de opgave overschrijven"
           ],
           "antwoord": 0,
@@ -196,8 +196,8 @@
           "vraag": "Je berekent dat een auto \\(540\\) kilometer per uur rijdt. Wat doe je?",
           "opties": [
             "je gaat je berekening na, want dat kan niet",
-            "je noteert het zo",
-            "je rondt af naar \\(500\\)",
+            "je noteert de uitkomst zoals ze is",
+            "je rondt af naar \\(500\\) kilometer per uur",
             "je deelt door twee"
           ],
           "antwoord": 0,
@@ -216,7 +216,7 @@
           "opties": [
             "een plan maken",
             "het plan uitvoeren",
-            "reflecteren",
+            "reflecteren over de aanpak",
             "het antwoord opschrijven"
           ],
           "antwoord": 0,
@@ -268,7 +268,7 @@
           "opties": [
             "de symmetrie",
             "de omtrek",
-            "de schaal",
+            "de schaal van de tekening",
             "het gemiddelde"
           ],
           "antwoord": 0,
@@ -297,7 +297,7 @@
             "simuleren",
             "terugrekenen",
             "mathematiseren",
-            "afronden"
+            "afronden op het einde"
           ],
           "antwoord": 0,
           "uitleg": "Je voert het vraagstuk zelf uit en kijkt wat er gebeurt. Dat geeft een schatting die je daarna kan narekenen."
@@ -353,8 +353,8 @@
           "vraag": "Wat doe je het eerst als je een lange opgave leest en meteen vastloopt?",
           "opties": [
             "onderstrepen wat gegeven is en wat gevraagd wordt",
-            "een willekeurige formule invullen",
-            "de opgave overslaan",
+            "een willekeurige formule invullen en hopen dat het klopt",
+            "de opgave overslaan en later terugkomen",
             "het antwoord gokken"
           ],
           "antwoord": 0,
@@ -375,7 +375,7 @@
           "vraag": "Een opgave geeft een tabel met de winst per aantal stuks. Welke voorstelling maakt het verloop het snelst zichtbaar?",
           "opties": [
             "een grafiek",
-            "een lijst namen",
+            "een lijst met namen",
             "een cirkel",
             "een letter"
           ],
@@ -821,7 +821,7 @@
           "type": "meerkeuze",
           "vraag": "Wat vraag je als je de logaritme van een getal berekent?",
           "opties": [
-            "tot welke macht je het grondtal moet verheffen",
+            "tot welke macht je het grondtal verheft",
             "hoeveel keer het getal in het grondtal past",
             "wat de wortel van het getal is",
             "hoeveel cijfers het getal heeft"
@@ -1154,9 +1154,9 @@
           "vraag": "Waarom gebruikt men een logaritmische schaal voor aardbevingen?",
           "opties": [
             "omdat de krachten enorm uit elkaar liggen",
-            "omdat de getallen negatief zijn",
+            "omdat de gemeten getallen vaak negatief zijn",
             "omdat er maar weinig aardbevingen zijn",
-            "omdat de schaal anders te kort is"
+            "omdat een gewone schaal anders te kort zou zijn"
           ],
           "antwoord": 0,
           "uitleg": "Met een logaritme breng je waarden die duizenden keren verschillen terug tot een handzame schaal."
@@ -1252,8 +1252,8 @@
           "opties": [
             "de \\(x\\)-waarde van een snijpunt met de \\(x\\)-as",
             "de coördinaat van een snijpunt met de \\(x\\)-as",
-            "het snijpunt met de \\(y\\)-as",
-            "de kleinste functiewaarde"
+            "het snijpunt van de grafiek met de \\(y\\)-as",
+            "de kleinste functiewaarde van de grafiek"
           ],
           "antwoord": 0,
           "uitleg": "Een nulwaarde is één getal; een nulpunt is het hele koppel van coördinaten."
@@ -1305,9 +1305,9 @@
           "vraag": "Wat betekent een plusteken in het tekenverloop van een functie?",
           "opties": [
             "de grafiek ligt daar boven de \\(x\\)-as",
-            "de functie stijgt daar",
+            "de functie stijgt daar over het hele stuk",
             "de functie heeft daar een maximum",
-            "de functie bestaat daar niet"
+            "de functie bestaat daar niet en heeft geen beeld"
           ],
           "antwoord": 0,
           "uitleg": "Stijgen en dalen lees je niet in het tekenverloop maar in het verloopschema."
@@ -1325,7 +1325,7 @@
             "een maximum",
             "een minimum",
             "een nulwaarde",
-            "een asymptoot"
+            "een asymptoot van de grafiek"
           ],
           "antwoord": 0,
           "uitleg": "Links ervan stijgt de functie, rechts ervan daalt ze. Daar bereikt ze haar grootste waarde."
@@ -1381,8 +1381,8 @@
           "vraag": "De grafiek toont de winst in functie van het aantal geproduceerde stuks. Wat betekent een nulwaarde hier?",
           "opties": [
             "het aantal stuks waarbij de winst nul is",
-            "de hoogste winst",
-            "het aantal stuks dat je moet maken",
+            "de hoogste winst die je kan halen",
+            "het aantal stuks dat je minstens moet verkopen per dag",
             "de kostprijs per stuk"
           ],
           "antwoord": 0,
@@ -1458,7 +1458,7 @@
           "opties": [
             "de functie is daar niet gedefinieerd",
             "de grafiek snijdt daar de \\(x\\)-as",
-            "de functie heeft daar een maximum",
+            "de functie bereikt daar haar grootste waarde",
             "de functie is daar constant"
           ],
           "antwoord": 0,
@@ -1475,9 +1475,9 @@
           "vraag": "Een grafiek stijgt steeds steiler. Hoe noem je dat?",
           "opties": [
             "een toenemende stijging",
-            "een afnemende stijging",
-            "een toenemende daling",
-            "een constante functie"
+            "een afnemende stijging van de grafiek",
+            "een toenemende daling van de grafiek",
+            "een constante functie met een vaste waarde"
           ],
           "antwoord": 0,
           "uitleg": "Niet alleen de waarde groeit, ook de snelheid waarmee ze groeit."
@@ -1514,9 +1514,9 @@
           "vraag": "Een grafiek loopt van \\(x = 1\\) tot \\(x = 10\\) en nergens anders. Wat is het domein?",
           "opties": [
             "alle getallen van \\(1\\) tot en met \\(10\\)",
-            "alle getallen",
+            "alle reële getallen, ook buiten de grafiek",
             "alle getallen vanaf \\(1\\)",
-            "alleen \\(1\\) en \\(10\\)"
+            "alleen de twee randen \\(1\\) en \\(10\\)"
           ],
           "antwoord": 0,
           "uitleg": "Buiten dat stuk is er geen grafiek, dus daar heeft de functie geen waarde."
@@ -1526,9 +1526,9 @@
           "vraag": "De temperatuur in een koelkast schommelt elke twintig minuten tussen \\(3\\) en \\(6\\) graden. Wat is het bereik?",
           "opties": [
             "van \\(3\\) tot \\(6\\) graden",
-            "twintig minuten",
+            "elke twintig minuten opnieuw",
             "\\(3\\) graden",
-            "van \\(0\\) tot \\(20\\)"
+            "van \\(0\\) tot \\(20\\) minuten"
           ],
           "antwoord": 0,
           "uitleg": "Het bereik is de verzameling waarden die de functie aanneemt. Twintig minuten is de periode."
@@ -1553,8 +1553,8 @@
           "vraag": "Je hebt een tabel met waarden en wil er een grafiek van maken. Wat doe je?",
           "opties": [
             "de koppels als punten uitzetten en verbinden",
-            "de getallen optellen",
-            "het gemiddelde berekenen",
+            "alle getallen uit de tabel bij elkaar optellen",
+            "het gemiddelde van elke kolom berekenen",
             "de tabel omkeren"
           ],
           "antwoord": 0,
@@ -1571,9 +1571,9 @@
           "vraag": "De grafiek toont de tijd die je nodig hebt in functie van je snelheid. De grafiek daalt. Wat betekent dat?",
           "opties": [
             "sneller rijden betekent minder tijd",
-            "sneller rijden betekent meer tijd",
+            "sneller rijden betekent dat je meer tijd nodig hebt",
             "de tijd verandert niet",
-            "de snelheid is negatief"
+            "de snelheid is daar negatief geworden"
           ],
           "antwoord": 0,
           "uitleg": "Een dalende grafiek betekent dat de ene grootheid kleiner wordt als de andere groter wordt."
@@ -1619,7 +1619,7 @@
           "opties": [
             "de gemiddelde verandering over een interval",
             "de functiewaarde in één welbepaald punt",
-            "de oppervlakte onder de grafiek tot aan b",
+            "de oppervlakte onder de grafiek tot aan \\(b\\)",
             "het aantal nulwaarden in het interval"
           ],
           "antwoord": 0,
@@ -1684,7 +1684,7 @@
           "type": "meerkeuze",
           "vraag": "Wat is de grafische betekenis van het differentiequotiënt over een interval?",
           "opties": [
-            "de richtingscoëfficiënt van de rechte door de twee randpunten",
+            "de richtingscoëfficiënt van de rechte door de randpunten",
             "de hoogte van de grafiek halverwege het interval",
             "de oppervlakte onder de grafiek over dat hele interval",
             "de afstand tussen de twee randpunten van het interval"
@@ -1853,9 +1853,9 @@
           "vraag": "Twee grafieken lopen over hetzelfde interval, de ene steiler dan de andere. Wat weet je over hun differentiequotiënten?",
           "opties": [
             "de steilste heeft het grootste differentiequotiënt",
-            "ze zijn gelijk",
+            "ze zijn altijd aan elkaar gelijk",
             "de steilste heeft het kleinste",
-            "dat kan je niet zeggen"
+            "dat kan je zonder voorschrift niet zeggen"
           ],
           "antwoord": 0,
           "uitleg": "Steilheid en differentiequotiënt zijn hetzelfde verhaal: hoe steiler, hoe groter het getal."
@@ -1959,9 +1959,9 @@
           "vraag": "Waarom zegt men gemiddelde verandering en niet gewoon verandering?",
           "opties": [
             "omdat ze over een heel interval uitgesmeerd is",
-            "omdat ze altijd klein is",
+            "omdat die verandering altijd vrij klein is",
             "omdat ze altijd positief is",
-            "omdat er twee functies zijn"
+            "omdat er altijd twee functies tegelijk meespelen"
           ],
           "antwoord": 0,
           "uitleg": "Binnen het interval kan het sneller en trager gegaan zijn; het differentiequotiënt vlakt dat uit."
@@ -2080,9 +2080,9 @@
           "vraag": "Waarom mag de groeifactor niet gelijk zijn aan \\(1\\)?",
           "opties": [
             "dan blijft de functie constant",
-            "dan wordt de functie negatief",
+            "dan wordt de functie vanaf een bepaald punt negatief",
             "dan bestaat de functie niet",
-            "dan is de beginwaarde nul"
+            "dan is de beginwaarde automatisch nul"
           ],
           "antwoord": 0,
           "uitleg": "Met groeifactor \\(1\\) verandert er niets meer, en dan heb je geen exponentiële functie maar een rechte."
@@ -2146,9 +2146,9 @@
           "vraag": "Wat gebeurt er met een dalende exponentiële functie als \\(x\\) heel groot wordt?",
           "opties": [
             "ze kruipt naar nul toe zonder die te bereiken",
-            "ze wordt negatief",
+            "ze wordt vanaf een bepaalde \\(x\\) negatief",
             "ze bereikt nul en stopt",
-            "ze gaat weer stijgen"
+            "ze bereikt een laagste punt en gaat weer stijgen"
           ],
           "antwoord": 0,
           "uitleg": "Je blijft met een factor kleiner dan één vermenigvuldigen, dus je komt er heel dicht bij, maar nooit op."
@@ -2354,9 +2354,9 @@
           "vraag": "Een rij is \\(100\\), \\(110\\), \\(121\\), \\(133{,}1\\). Welke soort groei is dat?",
           "opties": [
             "exponentieel met factor \\(1{,}1\\)",
-            "lineair met \\(10\\) erbij",
+            "lineair, telkens met \\(10\\) erbij",
             "exponentieel met factor \\(10\\)",
-            "geen van beide"
+            "geen van beide, er is geen regelmaat"
           ],
           "antwoord": 0,
           "uitleg": "Elke stap is maal \\(1{,}1\\). De getallen die erbij komen groeien mee, en dat is typisch exponentieel."
@@ -2384,9 +2384,9 @@
           "vraag": "Je ziet een grafiek die traag begint en daarna steeds steiler omhoog schiet. Welk model past?",
           "opties": [
             "een exponentieel model",
-            "een lineair model",
+            "een lineair model met een grote helling",
             "een constante functie",
-            "een dalende rechte"
+            "een dalende rechte door de oorsprong"
           ],
           "antwoord": 0,
           "uitleg": "Een rechte wordt nooit steiler. Die vorm is het handelsmerk van exponentiële groei."
@@ -2422,7 +2422,7 @@
           "opties": [
             "je vermenigvuldigt elke tijdseenheid met dezelfde factor",
             "je telt elke tijdseenheid hetzelfde getal op",
-            "de waarde blijft gelijk",
+            "de waarde blijft elke tijdseenheid gelijk",
             "de waarde wordt negatief"
           ],
           "antwoord": 0,
@@ -2509,7 +2509,7 @@
             "een lineair model",
             "een exponentieel model",
             "een dalend model",
-            "geen van beide"
+            "geen van beide modellen"
           ],
           "antwoord": 0,
           "uitleg": "Elk jaar komt hetzelfde bedrag erbij, want je rekent telkens op het beginbedrag."
@@ -2578,7 +2578,7 @@
             "exponentieel, factor \\(1{,}2\\)",
             "lineair, telkens \\(4\\) erbij",
             "exponentieel, factor \\(4\\)",
-            "geen regelmaat"
+            "geen regelmaat te vinden"
           ],
           "antwoord": 0,
           "uitleg": "\\(24 : 20\\) is \\(1{,}2\\), en \\(28{,}8 : 24\\) ook. Het bedrag dat erbij komt, groeit mee."
@@ -2594,9 +2594,9 @@
           "vraag": "Waarom gebruik je een logaritme bij een groeimodel?",
           "opties": [
             "om de tijd te vinden die in de exponent staat",
-            "om de beginwaarde te vinden",
+            "om de beginwaarde van het model te vinden",
             "om de grafiek te tekenen",
-            "om het percentage om te rekenen"
+            "om het percentage om te rekenen naar een groeifactor"
           ],
           "antwoord": 0,
           "uitleg": "De vraag na hoeveel jaar iets verdubbeld is, is een vraag naar de exponent."
@@ -2691,8 +2691,8 @@
           "opties": [
             "het model met \\(10\\) procent",
             "het model met \\(10\\) erbij",
-            "ze blijven gelijk",
-            "dat hangt van de tijd af"
+            "ze blijven op lange termijn aan elkaar gelijk",
+            "dat hangt af van hoeveel weken je bekijkt"
           ],
           "antwoord": 0,
           "uitleg": "Exponentiële groei wint altijd van lineaire groei, al kan dat even duren."
@@ -2730,7 +2730,7 @@
           "vraag": "Een bevolking groeit met \\(2\\) procent per jaar. Welke uitspraak klopt?",
           "opties": [
             "het aantal mensen dat er per jaar bijkomt, groeit mee",
-            "er komen elk jaar evenveel mensen bij",
+            "er komen elk jaar evenveel mensen bij als het jaar ervoor",
             "de bevolking verdubbelt elk jaar",
             "de bevolking daalt"
           ],
@@ -2762,7 +2762,7 @@
             "exponentieel, factor \\(0{,}75\\)",
             "lineair, telkens \\(16\\) eraf",
             "exponentieel, factor \\(0{,}5\\)",
-            "geen van beide"
+            "geen van beide modellen past"
           ],
           "antwoord": 0,
           "uitleg": "\\(48 : 64\\) is \\(0{,}75\\), en \\(36 : 48\\) ook. Het verschil wordt steeds kleiner."
@@ -2788,9 +2788,9 @@
           "vraag": "Je kent de beginwaarde en de waarde na \\(10\\) jaar. Hoe vind je de groeifactor per jaar?",
           "opties": [
             "de tiendemachtswortel uit hun verhouding",
-            "het verschil delen door tien",
+            "het verschil van de twee waarden delen door tien",
             "de twee waarden optellen",
-            "de logaritme van het verschil"
+            "de logaritme nemen van het verschil van de twee"
           ],
           "antwoord": 0,
           "uitleg": "Tien gelijke stappen moeten samen de hele groei geven, dus je zoekt de tiende wortel."
@@ -3173,8 +3173,8 @@
           "vraag": "Waarom is de complementregel hier handig: wat is de kans op minstens één zes bij vier worpen?",
           "opties": [
             "omdat geen enkele zes makkelijker te tellen is",
-            "omdat je dan niets hoeft te rekenen",
-            "omdat de kans dan groter wordt",
+            "omdat je dan helemaal niets meer hoeft te rekenen",
+            "omdat de kans op een zes dan groter wordt",
             "omdat je vier worpen hebt"
           ],
           "antwoord": 0,
@@ -3191,8 +3191,8 @@
           "vraag": "Een weerbericht zegt \\(70\\) procent kans op regen. Wat betekent dat?",
           "opties": [
             "in zeven van de tien vergelijkbare dagen regent het",
-            "het regent zeven uur",
-            "zeventig procent van het land wordt nat",
+            "het regent die dag zeven uur aan een stuk",
+            "zeventig procent van het land wordt die dag nat",
             "het regent zeker"
           ],
           "antwoord": 0,
@@ -3216,9 +3216,9 @@
           "vraag": "Waarvoor gebruik je een kansboom?",
           "opties": [
             "om een experiment in opeenvolgende stappen te bekijken",
-            "om een gemiddelde te berekenen",
+            "om een gemiddelde van de uitkomsten te berekenen",
             "om een grafiek te tekenen",
-            "om een steekproef te trekken"
+            "om een steekproef uit de populatie te trekken"
           ],
           "antwoord": 0,
           "uitleg": "Elke stap wordt een nieuwe laag takken, zodat je ziet hoe de mogelijkheden zich vertakken."
@@ -3237,9 +3237,9 @@
           "type": "meerkeuze",
           "vraag": "Wat zegt de productregel bij een kansboom?",
           "opties": [
-            "de kans op een pad is het product van de kansen op zijn takken",
+            "de kans op een pad is het product van de takkansen",
             "de kans op een pad is de som van de kansen op zijn takken",
-            "de kans op een pad is de grootste kans op het pad",
+            "de kans op een pad is de grootste kans die op dat pad staat",
             "de kans op een pad is altijd \\(\\tfrac{1}{2}\\)"
           ],
           "antwoord": 0,
@@ -3599,9 +3599,9 @@
           "vraag": "Waarom staan de kansen in een kansboom bij de takken en niet bij de punten?",
           "opties": [
             "omdat een tak één stap in het experiment is",
-            "omdat een punt geen kans heeft",
+            "omdat een punt zelf nooit een kans kan hebben",
             "omdat dat mooier staat",
-            "omdat er anders te weinig plaats is"
+            "omdat er bij de punten anders te weinig plaats is"
           ],
           "antwoord": 0,
           "uitleg": "Elke tak is een keuze of een uitkomst van die stap, en die heeft een kans. Het punt is alleen het vertrek."
@@ -3656,7 +3656,7 @@
             "de hele populatie meten is vaak onmogelijk of te duur",
             "een steekproef geeft altijd een juister antwoord",
             "de populatie bestaat niet echt",
-            "dat is wettelijk verplicht"
+            "dat is bij elk onderzoek wettelijk verplicht"
           ],
           "antwoord": 0,
           "uitleg": "Het is een afweging: minder werk, maar wel onzekerheid over het besluit."
@@ -3710,9 +3710,9 @@
           "vraag": "Een enquête staat online en iedereen mag vrijwillig meedoen. Wat is het grootste gevaar?",
           "opties": [
             "alleen wie zich betrokken voelt, vult ze in",
-            "de vragen zijn te lang",
+            "de vragen zijn te lang en te moeilijk",
             "er doen te veel mensen mee",
-            "de populatie is te groot"
+            "de populatie is te groot om te bevragen"
           ],
           "antwoord": 0,
           "uitleg": "Mensen met een uitgesproken mening reageren veel vaker. Zo'n steekproef is niet aselect."
@@ -3797,8 +3797,8 @@
           "vraag": "Een peiling voorspelt een uitslag die er ver naast zit. Welke verklaring ligt het meest voor de hand?",
           "opties": [
             "de steekproef was niet representatief",
-            "de populatie is veranderd",
-            "wiskunde werkt hier niet",
+            "de populatie is sinds de peiling sterk veranderd",
+            "wiskunde werkt bij verkiezingen gewoon niet",
             "er waren te veel vragen"
           ],
           "antwoord": 0,
@@ -3822,9 +3822,9 @@
           "vraag": "Je wil weten wat klanten van een winkel vinden en vraagt het alleen aan wie iets kocht. Wat ontbreekt?",
           "opties": [
             "de mening van wie niets kocht",
-            "het aantal klanten",
+            "het totale aantal klanten van de winkel",
             "de openingsuren",
-            "de prijs van de producten"
+            "de prijs van de producten die ze kochten"
           ],
           "antwoord": 0,
           "uitleg": "Wie ontevreden wegliep, komt niet in je steekproef. Je beeld wordt dus te rooskleurig."
@@ -3849,7 +3849,7 @@
           "type": "meerkeuze",
           "vraag": "Wat is het voordeel van een grotere steekproef, als ze aselect is?",
           "opties": [
-            "het besluit wordt betrouwbaarder",
+            "het besluit is betrouwbaarder",
             "de populatie wordt er kleiner door",
             "de variabele verandert van betekenis",
             "er is geen enkel voordeel aan"
@@ -3919,7 +3919,7 @@
           "type": "meerkeuze",
           "vraag": "Een bedrijf onderzoekt de tevredenheid van zijn personeel en laat de baas de gesprekken voeren. Wat loopt er mis?",
           "opties": [
-            "mensen antwoorden minder eerlijk",
+            "men antwoordt minder eerlijk",
             "de populatie is daarvoor te klein",
             "de variabele is op die manier onmeetbaar",
             "er is hier geen enkel probleem"
@@ -3966,8 +3966,8 @@
           "opties": [
             "hoe werden die \\(40\\) mensen gekozen",
             "wat is \\(60\\) procent van \\(40\\)",
-            "hoe lang duurde de bevraging",
-            "wie betaalde het onderzoek"
+            "hoe lang duurde de bevraging van die mensen",
+            "wie betaalde het onderzoek en waarom"
           ],
           "antwoord": 0,
           "uitleg": "De manier van kiezen bepaalt of je het besluit mag veralgemenen. Dat weegt zwaarder dan het aantal."
@@ -3976,10 +3976,10 @@
           "type": "meerkeuze",
           "vraag": "Een school wil de mening van alle ouders en vraagt ze op de oudercontacten. Welke groep mist ze?",
           "opties": [
-            "de ouders die niet komen",
+            "wie niet komt",
             "de ouders die wel komen",
-            "de leerkrachten",
-            "de leerlingen"
+            "de leerkrachten van de school",
+            "de leerlingen van de school zelf"
           ],
           "antwoord": 0,
           "uitleg": "Net die groep verschilt vaak van de rest, bijvoorbeeld in betrokkenheid of in werkuren."
@@ -3995,9 +3995,9 @@
           "vraag": "Waarom vermelden onderzoekers hoe groot hun steekproef was?",
           "opties": [
             "omdat het iets zegt over de betrouwbaarheid",
-            "omdat dat verplicht is",
+            "omdat dat bij elk onderzoek verplicht is",
             "omdat de lezer het anders niet gelooft",
-            "omdat het de populatie bepaalt"
+            "omdat de grootte van de steekproef de populatie bepaalt"
           ],
           "antwoord": 0,
           "uitleg": "Samen met de manier van kiezen laat het je inschatten hoe zwaar je het besluit mag nemen."
@@ -4071,8 +4071,8 @@
           "vraag": "Kinderen met grotere voeten lezen beter. Wat is de verborgen variabele?",
           "opties": [
             "de leeftijd",
-            "het schoenmerk",
-            "de school",
+            "het merk van hun schoenen",
+            "de school waar ze zitten",
             "de lengte van het boek"
           ],
           "antwoord": 0,
@@ -4151,7 +4151,7 @@
             "ontbijten hangt samen met betere punten",
             "ontbijten veroorzaakt betere punten",
             "betere punten veroorzaken ontbijten",
-            "er is geen verband"
+            "er is helemaal geen verband tussen ontbijt en punten"
           ],
           "antwoord": 0,
           "uitleg": "Misschien speelt een rustiger gezinssituatie mee, en die zorgt voor allebei."
@@ -4245,7 +4245,7 @@
           "opties": [
             "wie hoofdpijn heeft, drinkt minder",
             "water drinken veroorzaakt hoofdpijn",
-            "hoofdpijn maakt een mens dorstig",
+            "hoofdpijn maakt een mens erg dorstig",
             "er is geen verband tussen beide"
           ],
           "antwoord": 0,
@@ -4300,7 +4300,7 @@
           "type": "meerkeuze",
           "vraag": "Men vindt dat scholen met meer computers betere resultaten halen. Welke verborgen variabele ligt voor de hand?",
           "opties": [
-            "het budget van de school",
+            "het budget",
             "het merk van de computers",
             "de kleur van de lokalen",
             "de afstand tot de school"
@@ -4313,9 +4313,9 @@
           "vraag": "Een artikel kopt: koffie verlengt je leven. Het onderzoek was een bevraging. Wat is je besluit?",
           "opties": [
             "dit toont samenhang, geen oorzaak",
-            "koffie is gezond voor iedereen",
-            "koffie is ongezond voor iedereen",
-            "het onderzoek is vervalst"
+            "koffie is gezond voor iedereen die het drinkt",
+            "koffie is ongezond voor iedereen die het drinkt",
+            "het onderzoek is zeker vervalst"
           ],
           "antwoord": 0,
           "uitleg": "Een bevraging neemt waar. Wie koffie drinkt, verschilt mogelijk ook op andere manieren."
@@ -4333,7 +4333,7 @@
             "de opzet bepaalt wat je mag besluiten",
             "de opzet bepaalt het gemiddelde",
             "de opzet bepaalt wie de populatie is",
-            "dat is alleen maar beleefdheid"
+            "dat is alleen maar een kwestie van beleefdheid"
           ],
           "antwoord": 0,
           "uitleg": "Een proef met controlegroep draagt veel verder dan een bevraging achteraf."
@@ -4391,7 +4391,7 @@
             "vragen hoe de gegevens verzameld zijn",
             "de uitkomst meteen geloven",
             "de uitkomst meteen afwijzen",
-            "de getallen zelf natellen"
+            "de getallen in het artikel zelf natellen"
           ],
           "antwoord": 0,
           "uitleg": "De opzet beslist of de conclusie draagt. De rekenkunde klopt meestal wel."
@@ -4406,7 +4406,7 @@
           "type": "meerkeuze",
           "vraag": "Men ziet dat leerlingen die veel huiswerk maken hogere punten halen. Welke verklaring is de voorzichtigste?",
           "opties": [
-            "er is samenhang, en de richting is nog onduidelijk",
+            "er is samenhang, de richting is nog onduidelijk",
             "huiswerk maken veroorzaakt hoge punten",
             "hoge punten veroorzaken meer huiswerk maken",
             "er is geen enkel verband tussen beide"
@@ -4426,8 +4426,8 @@
           "vraag": "Welke vorm heeft de grafiek van een normale verdeling?",
           "opties": [
             "een klok",
-            "een rechte",
-            "een trap",
+            "een rechte lijn",
+            "een trapje",
             "een cirkel"
           ],
           "antwoord": 0,
@@ -4448,8 +4448,8 @@
           "vraag": "Welke twee getallen leggen een normale verdeling helemaal vast?",
           "opties": [
             "het gemiddelde en de standaardafwijking",
-            "de kleinste en de grootste waarde",
-            "het aantal metingen en het gemiddelde",
+            "de kleinste en de grootste gemeten waarde",
+            "het aantal metingen en het gemiddelde ervan",
             "de mediaan en de modus"
           ],
           "antwoord": 0,
@@ -4473,8 +4473,8 @@
           "opties": [
             "de standaardafwijking",
             "het gemiddelde",
-            "het aantal metingen",
-            "de hoogte van de top"
+            "het totale aantal metingen",
+            "de hoogte van de top van de kromme"
           ],
           "antwoord": 0,
           "uitleg": "Een grotere standaardafwijking geeft een bredere en plattere klok; de waarden liggen verder uit elkaar."
@@ -4496,8 +4496,8 @@
           "vraag": "Twee Gausskrommen hebben hetzelfde gemiddelde, maar de ene is veel smaller. Wat weet je?",
           "opties": [
             "die smalle heeft de kleinste standaardafwijking",
-            "die smalle heeft het grootste gemiddelde",
-            "die smalle heeft meer metingen",
+            "die smalle heeft het grootste gemiddelde van de twee",
+            "die smalle steunt op veel meer metingen",
             "er is geen verschil"
           ],
           "antwoord": 0,
@@ -4530,8 +4530,8 @@
           "vraag": "Wat stelt de oppervlakte onder een stuk van de Gausskromme voor?",
           "opties": [
             "de kans dat een waarde in dat stuk valt",
-            "het aantal metingen in dat stuk",
-            "het gemiddelde van dat stuk",
+            "het aantal metingen dat precies in dat stuk ligt",
+            "het gemiddelde van de waarden in dat stuk",
             "de breedte van dat stuk"
           ],
           "antwoord": 0,
@@ -4561,7 +4561,7 @@
           "opties": [
             "\\(95\\) procent",
             "\\(68\\) procent",
-            "\\(50\\) procent",
+            "ongeveer \\(50\\) procent",
             "\\(100\\) procent"
           ],
           "antwoord": 0,
@@ -4578,9 +4578,9 @@
           "vraag": "Hoe beoordeel je of het model van de normale verdeling bij je gegevens past?",
           "opties": [
             "je kijkt of het histogram klokvormig is",
-            "je telt de metingen",
+            "je telt hoeveel metingen er in totaal zijn",
             "je berekent het grootste getal",
-            "je kijkt of er even veel metingen zijn"
+            "je kijkt of elke klasse even veel metingen heeft"
           ],
           "antwoord": 0,
           "uitleg": "Je kan er ook de dichtheidsfunctie met de geschatte waarden over tekenen en kijken hoe goed ze samenvallen."
@@ -4596,8 +4596,8 @@
           "vraag": "Je kent het gemiddelde en de standaardafwijking van je gegevens. Waarvoor gebruik je die?",
           "opties": [
             "als schatting van de twee getallen van de normale verdeling",
-            "om het aantal metingen te vinden",
-            "om de vorm van het histogram te veranderen",
+            "om te tellen hoeveel metingen je in totaal hebt gedaan",
+            "om de vorm van het histogram achteraf aan te passen",
             "om de populatie te kiezen"
           ],
           "antwoord": 0,
@@ -4609,7 +4609,7 @@
           "opties": [
             "met de rekenapps",
             "met een geodriehoek",
-            "uit het hoofd",
+            "uit het hoofd rekenen",
             "met een passer"
           ],
           "antwoord": 0,
@@ -4693,9 +4693,9 @@
           "vraag": "De vullijn van een machine is normaal verdeeld rond \\(500\\) gram. Wat betekent een kleine standaardafwijking hier?",
           "opties": [
             "de machine vult heel nauwkeurig",
-            "de machine vult te veel",
+            "de machine vult elke zak te vol",
             "de machine vult te weinig",
-            "de machine vult traag"
+            "de machine vult de zakken heel traag"
           ],
           "antwoord": 0,
           "uitleg": "De zakken wijken weinig van \\(500\\) gram af. Precies dat wil een fabrikant."
@@ -4751,9 +4751,9 @@
           "vraag": "Twee klassen hebben hetzelfde gemiddelde, maar de ene heeft een veel grotere standaardafwijking. Wat betekent dat?",
           "opties": [
             "in die klas liggen de punten verder uit elkaar",
-            "die klas is beter",
+            "die klas heeft gemiddeld betere punten gehaald",
             "die klas is groter",
-            "die klas heeft een hoger gemiddelde"
+            "die klas heeft een hoger gemiddelde dan de andere"
           ],
           "antwoord": 0,
           "uitleg": "Dezelfde top, maar een bredere klok: meer heel sterke én meer heel zwakke resultaten."
@@ -4763,9 +4763,9 @@
           "vraag": "Een fabrikant wil weten hoeveel procent van zijn zakken onder \\(490\\) gram zit. Wat berekent hij?",
           "opties": [
             "de oppervlakte onder de kromme links van \\(490\\)",
-            "het gemiddelde van alle zakken",
+            "het gemiddelde gewicht van alle zakken samen",
             "de standaardafwijking",
-            "het aantal zakken"
+            "het aantal zakken dat onder \\(490\\) gram zit"
           ],
           "antwoord": 0,
           "uitleg": "Een kans is een oppervlakte onder de Gausskromme, en die laat hij door de rekenapps uitrekenen."
@@ -4781,9 +4781,9 @@
           "vraag": "Waarom is de normale verdeling een continu model?",
           "opties": [
             "ze werkt met waarden die elke tussenwaarde kunnen aannemen",
-            "ze werkt alleen met gehele getallen",
+            "ze werkt alleen met gehele getallen zoals aantallen",
             "ze stopt nooit",
-            "ze is symmetrisch"
+            "ze is symmetrisch rond het gemiddelde"
           ],
           "antwoord": 0,
           "uitleg": "Lengte, gewicht en tijd kunnen elke waarde ertussen hebben. Daarom werk je met oppervlaktes en niet met losse kansen."

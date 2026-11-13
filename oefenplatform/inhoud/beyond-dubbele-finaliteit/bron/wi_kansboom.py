@@ -10,8 +10,8 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Waarvoor gebruik je een kansboom?",
-        opties=["om een experiment in opeenvolgende stappen te bekijken", "om een gemiddelde te berekenen",
-                "om een grafiek te tekenen", "om een steekproef te trekken"],
+        opties=["om een experiment in opeenvolgende stappen te bekijken", "om een gemiddelde van de uitkomsten te berekenen",
+                "om een grafiek te tekenen", "om een steekproef uit de populatie te trekken"],
         antwoord=0,
         uitleg="Elke stap wordt een nieuwe laag takken, zodat je ziet hoe de mogelijkheden zich vertakken.",
     ),
@@ -24,9 +24,9 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Wat zegt de productregel bij een kansboom?",
-        opties=["de kans op een pad is het product van de kansen op zijn takken",
+        opties=["de kans op een pad is het product van de takkansen",
                 "de kans op een pad is de som van de kansen op zijn takken",
-                "de kans op een pad is de grootste kans op het pad",
+                "de kans op een pad is de grootste kans die op dat pad staat",
                 r"de kans op een pad is altijd \(\tfrac{1}{2}\)"],
         antwoord=0,
         uitleg="Je volgt het pad en vermenigvuldigt onderweg alles wat je tegenkomt.",
@@ -266,8 +266,8 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Waarom staan de kansen in een kansboom bij de takken en niet bij de punten?",
-        opties=["omdat een tak één stap in het experiment is", "omdat een punt geen kans heeft",
-                "omdat dat mooier staat", "omdat er anders te weinig plaats is"],
+        opties=["omdat een tak één stap in het experiment is", "omdat een punt zelf nooit een kans kan hebben",
+                "omdat dat mooier staat", "omdat er bij de punten anders te weinig plaats is"],
         antwoord=0,
         uitleg="Elke tak is een keuze of een uitkomst van die stap, en die heeft een kans. Het punt is alleen het vertrek.",
     ),

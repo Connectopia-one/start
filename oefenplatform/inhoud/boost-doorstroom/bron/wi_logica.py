@@ -43,7 +43,7 @@ DEEL1 = [
         type="meerkeuze",
         vraag="Wat betekent het symbool \\(\\neg\\) voor een uitspraak \\(p\\)?",
         opties=[
-            "de negatie: de uitspraak die precies de omgekeerde waarheidswaarde heeft",
+            "de negatie: de omgekeerde waarheidswaarde",
             "de implicatie: als \\(p\\) waar is, dan volgt er iets anders uit",
             "de kwantor: \\(p\\) geldt voor alle waarden die je kan invullen",
             "de equivalentie: \\(p\\) en de andere uitspraak zijn altijd samen waar",
@@ -236,7 +236,7 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Wat doet een EN-poort in een schakeling?",
         opties=[
-            "ze geeft alleen een signaal door als beide ingangen een signaal krijgen",
+            "ze geeft enkel een signaal als beide ingangen er een krijgen",
             "ze geeft een signaal door zodra één van de ingangen een signaal krijgt",
             "ze keert het signaal om dat op haar ingang binnenkomt",
             "ze geeft alleen een signaal als geen van de ingangen iets krijgt",

@@ -44,7 +44,7 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Kinderen met grotere voeten lezen beter. Wat is de verborgen variabele?",
-        opties=["de leeftijd", "het schoenmerk", "de school", "de lengte van het boek"],
+        opties=["de leeftijd", "het merk van hun schoenen", "de school waar ze zitten", "de lengte van het boek"],
         antwoord=0,
         uitleg="Oudere kinderen hebben grotere voeten én lezen beter. De voeten doen niets aan het lezen.",
     ),
@@ -98,7 +98,7 @@ DEEL1 = [
         type="meerkeuze",
         vraag="Een krantenkop zegt: wie ontbijt haalt betere punten. Wat is de voorzichtige lezing?",
         opties=["ontbijten hangt samen met betere punten", "ontbijten veroorzaakt betere punten",
-                "betere punten veroorzaken ontbijten", "er is geen verband"],
+                "betere punten veroorzaken ontbijten", "er is helemaal geen verband tussen ontbijt en punten"],
         antwoord=0,
         uitleg="Misschien speelt een rustiger gezinssituatie mee, en die zorgt voor allebei.",
     ),
@@ -161,7 +161,7 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Een studie ziet dat wie meer water drinkt, minder hoofdpijn heeft. Welke omgekeerde verklaring is denkbaar?",
-        opties=["wie hoofdpijn heeft, drinkt minder", "water drinken veroorzaakt hoofdpijn", "hoofdpijn maakt een mens dorstig", "er is geen verband tussen beide"],
+        opties=["wie hoofdpijn heeft, drinkt minder", "water drinken veroorzaakt hoofdpijn", "hoofdpijn maakt een mens erg dorstig", "er is geen verband tussen beide"],
         antwoord=0,
         uitleg="Bij hoofdpijn blijft men liggen en drinkt men minder. Dan is het gevolg de oorzaak geworden.",
     ),
@@ -201,7 +201,7 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Men vindt dat scholen met meer computers betere resultaten halen. Welke verborgen variabele ligt voor de hand?",
-        opties=["het budget van de school", "het merk van de computers",
+        opties=["het budget", "het merk van de computers",
                 "de kleur van de lokalen", "de afstand tot de school"],
         antwoord=0,
         uitleg="Een rijkere school heeft meer computers én meer leerkrachten, kleinere klassen en meer materiaal.",
@@ -209,7 +209,7 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Een artikel kopt: koffie verlengt je leven. Het onderzoek was een bevraging. Wat is je besluit?",
-        opties=["dit toont samenhang, geen oorzaak", "koffie is gezond voor iedereen", "koffie is ongezond voor iedereen", "het onderzoek is vervalst"],
+        opties=["dit toont samenhang, geen oorzaak", "koffie is gezond voor iedereen die het drinkt", "koffie is ongezond voor iedereen die het drinkt", "het onderzoek is zeker vervalst"],
         antwoord=0,
         uitleg="Een bevraging neemt waar. Wie koffie drinkt, verschilt mogelijk ook op andere manieren.",
     ),
@@ -222,7 +222,7 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Waarom is het zinvol om bij een causale uitspraak naar de opzet van het onderzoek te vragen?",
-        opties=["de opzet bepaalt wat je mag besluiten", "de opzet bepaalt het gemiddelde", "de opzet bepaalt wie de populatie is", "dat is alleen maar beleefdheid"],
+        opties=["de opzet bepaalt wat je mag besluiten", "de opzet bepaalt het gemiddelde", "de opzet bepaalt wie de populatie is", "dat is alleen maar een kwestie van beleefdheid"],
         antwoord=0,
         uitleg="Een proef met controlegroep draagt veel verder dan een bevraging achteraf.",
     ),
@@ -261,7 +261,7 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Wat is de beste houding bij een opvallende statistiek in de krant?",
-        opties=["vragen hoe de gegevens verzameld zijn", "de uitkomst meteen geloven", "de uitkomst meteen afwijzen", "de getallen zelf natellen"],
+        opties=["vragen hoe de gegevens verzameld zijn", "de uitkomst meteen geloven", "de uitkomst meteen afwijzen", "de getallen in het artikel zelf natellen"],
         antwoord=0,
         uitleg="De opzet beslist of de conclusie draagt. De rekenkunde klopt meestal wel.",
     ),
@@ -274,7 +274,7 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Men ziet dat leerlingen die veel huiswerk maken hogere punten halen. Welke verklaring is de voorzichtigste?",
-        opties=["er is samenhang, en de richting is nog onduidelijk", "huiswerk maken veroorzaakt hoge punten", "hoge punten veroorzaken meer huiswerk maken", "er is geen enkel verband tussen beide"],
+        opties=["er is samenhang, de richting is nog onduidelijk", "huiswerk maken veroorzaakt hoge punten", "hoge punten veroorzaken meer huiswerk maken", "er is geen enkel verband tussen beide"],
         antwoord=0,
         uitleg="Misschien maken gemotiveerde leerlingen meer huiswerk én studeren ze meer. Dan is motivatie de verborgen variabele.",
     ),

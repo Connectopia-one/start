@@ -128,9 +128,9 @@ DEEL1 = [
         type="meerkeuze",
         vraag="Een winkel verhoogt de prijs met \\(20\\,\\%\\) en geeft daarna \\(20\\,\\%\\) korting. Wat is het gevolg?",
         opties=[
-            "de prijs ligt lager dan in het begin, de korting geldt op een hoger bedrag",
+            "de prijs ligt lager dan in het begin",
             "de prijs is na die twee stappen weer precies dezelfde als in het begin",
-            "de prijs ligt hoger dan in het begin",
+            "de prijs ligt hoger dan in het begin, want er kwam eerst \\(20\\,\\%\\) bij",
             "dat hangt volledig af van de beginprijs",
         ],
         antwoord=0,

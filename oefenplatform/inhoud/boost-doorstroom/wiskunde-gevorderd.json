@@ -21,7 +21,7 @@
           "type": "meerkeuze",
           "vraag": "Je berekent dat een ladder \\(4{,}7\\) meter lang moet zijn, en je antwoordt dat een ladder van \\(5\\) meter volstaat. Wat doe je in die laatste stap?",
           "opties": [
-            "demathematiseren: je vertaalt de uitkomst terug naar de situatie",
+            "demathematiseren: de uitkomst terugvertalen naar de situatie",
             "mathematiseren: je zet de situatie om in een berekening",
             "afronden: je vervangt het antwoord door een gemakkelijker getal",
             "schatten: je gokt een waarde die ongeveer klopt"
@@ -33,10 +33,10 @@
           "type": "meerkeuze",
           "vraag": "Wat is het verschil tussen een vraagstuk en een probleem?",
           "opties": [
-            "een vraagstuk los je op met de leerstof van één hoofdstuk, bij een probleem combineer je hoofdstukken",
+            "een vraagstuk vraagt leerstof van één hoofdstuk, een probleem combineert hoofdstukken",
             "een vraagstuk staat altijd in gewone woorden, terwijl een probleem altijd in symbolen staat",
             "een vraagstuk heeft één antwoord, een probleem heeft er meerdere",
-            "een vraagstuk komt op het examen, een probleem enkel in de les"
+            "een vraagstuk komt op het examen, een probleem komt enkel in de les aan bod"
           ],
           "antwoord": 0,
           "uitleg": "Een probleem laat zich niet aan één hoofdstuk koppelen: je combineert leerinhouden."
@@ -45,9 +45,9 @@
           "type": "meerkeuze",
           "vraag": "Welke vier stappen doorloop je om een opgave procedureel op te lossen?",
           "opties": [
-            "begrijp het probleem, maak een plan, voer het plan uit, reflecteer",
+            "begrijpen, plannen, uitvoeren, reflecteren",
             "lees de opgave, reken, noteer en controleer met je rekenmachine",
-            "schat, reken, rond af, schrijf op",
+            "schat, reken, rond af en schrijf alles netjes op",
             "teken, meet, bereken, vergelijk"
           ],
           "antwoord": 0,
@@ -69,10 +69,10 @@
           "type": "meerkeuze",
           "vraag": "Wat is een opgave 'zonder context'?",
           "opties": [
-            "een opgave die abstract en zuiver wiskundig is",
+            "een abstracte, zuiver wiskundige opgave",
             "een opgave waarbij de gegevens ontbreken",
             "een opgave zonder tekening erbij",
-            "een opgave waarvan het antwoord niet vastligt"
+            "een opgave waarvan het antwoord nog niet vastligt"
           ],
           "antwoord": 0,
           "uitleg": "Met context vertrekt van een situatie uit de wereld, zonder context is zuivere wiskunde. Allebei komen ze op het examen."
@@ -94,8 +94,8 @@
           "vraag": "Je zoekt hoeveel verschillende broodjes je kan samenstellen en je schrijft eerst alle mogelijkheden onder elkaar. Welke heuristiek gebruik je?",
           "opties": [
             "alle mogelijkheden opschrijven",
-            "variabelen invoeren",
-            "gebruik maken van symmetrie",
+            "variabelen invoeren voor elk onderdeel",
+            "gebruik maken van symmetrie in de vraag",
             "van achter naar voor werken"
           ],
           "antwoord": 0,
@@ -117,9 +117,9 @@
           "type": "meerkeuze",
           "vraag": "Waarom hoort reflecteren bij het oplossen en niet erna?",
           "opties": [
-            "omdat je zo merkt of je uitkomst kan kloppen en of je aanpak elders bruikbaar is",
+            "zo merk je of je uitkomst kan kloppen en of je aanpak elders werkt",
             "omdat je anders punten verliest voor de netheid van je uitwerking en je notatie",
-            "omdat het stappenplan het in die volgorde opsomt",
+            "omdat het stappenplan het toevallig in die volgorde opsomt",
             "omdat je pas na het reflecteren mag afronden"
           ],
           "antwoord": 0,
@@ -142,7 +142,7 @@
           "vraag": "Een opgave geeft een tekening met een ladder tegen een muur. Wat doe je eerst?",
           "opties": [
             "nagaan wat gegeven is en wat gevraagd wordt",
-            "meteen Pythagoras toepassen",
+            "meteen de stelling van Pythagoras toepassen",
             "de tekening zorgvuldig natekenen op schaal",
             "je rekenmachine op graden zetten"
           ],
@@ -224,7 +224,7 @@
           "type": "meerkeuze",
           "vraag": "Je moet weten hoeveel liter verf je nodig hebt voor een muur van \\(4{,}2\\) m op \\(2{,}6\\) m. Welke eerste stap past het best?",
           "opties": [
-            "de oppervlakte berekenen en pas daarna naar het verbruik per liter kijken",
+            "eerst de oppervlakte berekenen, dan het verbruik bekijken",
             "meteen delen door het aantal liters in de bus",
             "de omtrek van de muur berekenen",
             "de afmetingen eerst afronden naar hele meters en daarmee verder rekenen"
@@ -236,8 +236,8 @@
           "type": "meerkeuze",
           "vraag": "Een som geeft als uitkomst dat een vijver \\(0{,}004\\) m\\(^{3}\\) water bevat. Wat doe je bij het reflecteren?",
           "opties": [
-            "nagaan of je de eenheden niet door elkaar haalde, want dat zijn maar \\(4\\) liter",
-            "het antwoord afronden naar nul",
+            "nagaan of je eenheden niet verwisselde: dat is maar \\(4\\) liter",
+            "het antwoord gewoon afronden naar nul liter",
             "de uitkomst overnemen, want de berekening is af",
             "de vraag opnieuw lezen en daarna precies hetzelfde antwoord noteren als eerst"
           ],
@@ -272,7 +272,7 @@
           "type": "meerkeuze",
           "vraag": "Waarom is schatten nuttig vóór je precies rekent?",
           "opties": [
-            "omdat je dan meteen ziet of je uitkomst in de juiste grootteorde ligt",
+            "je ziet meteen of je uitkomst de juiste grootteorde heeft",
             "omdat een schatting altijd sneller gaat dan een volledige berekening",
             "omdat je dan geen rekenmachine meer nodig hebt",
             "omdat een schatting op het examen als antwoord telt"
@@ -286,8 +286,8 @@
           "opties": [
             "opsplitsen in deelproblemen",
             "variabelen invoeren",
-            "patronen ontdekken",
-            "simuleren"
+            "patronen en regelmaat ontdekken",
+            "het probleem simuleren"
           ],
           "antwoord": 0,
           "uitleg": "Drie kleine vragen die je kan beantwoorden, zijn beter dan één grote die je niet aankan."
@@ -308,8 +308,8 @@
           "type": "meerkeuze",
           "vraag": "Wat betekent taalvaardigheid in wiskunde?",
           "opties": [
-            "wiskundige uitdrukkingen, tekeningen, grafieken en diagrammen begrijpen",
-            "een opgave vlot kunnen voorlezen",
+            "uitdrukkingen, tekeningen, grafieken en diagrammen begrijpen",
+            "een opgave vlot en zonder haperen kunnen voorlezen",
             "een verslag schrijven over je oplossing",
             "vaktaal vermijden zodat iedereen je snapt"
           ],
@@ -321,9 +321,9 @@
           "vraag": "Je probeert een getal, ziet dat het te groot uitvalt en probeert een kleiner. Hoe noem je dat?",
           "opties": [
             "schatten, slim gissen, testen en controleren",
-            "het vraagstuk simuleren",
+            "het vraagstuk simuleren met voorwerpen",
             "gegevens ordenen",
-            "logisch redeneren"
+            "logisch redeneren zonder getallen"
           ],
           "antwoord": 0,
           "uitleg": "Slim gissen is geen gokken: elke poging vertelt je in welke richting de volgende moet."
@@ -332,8 +332,8 @@
           "type": "meerkeuze",
           "vraag": "Een opgave geeft een rij \\(2, 6, 12, 20, 30\\). Welke aanpak ligt voor de hand?",
           "opties": [
-            "patronen en regelmaat ontdekken door de verschillen te bekijken",
-            "alle mogelijkheden opschrijven",
+            "de verschillen bekijken en zo een patroon ontdekken",
+            "alle mogelijkheden opschrijven en tellen",
             "een vergelijking van de tweede graad oplossen",
             "de getallen ordenen van groot naar klein"
           ],
@@ -356,7 +356,7 @@
           "type": "meerkeuze",
           "vraag": "Waarom verantwoord je je tussenstappen?",
           "opties": [
-            "omdat een lezer dan kan volgen welke eigenschap je toepast en waar het misloopt",
+            "zo kan een lezer volgen welke eigenschap je toepast",
             "omdat een langere oplossing meer punten oplevert",
             "omdat je anders je rekenmachine niet mag gebruiken",
             "omdat het examen alleen open vragen bevat"
@@ -474,7 +474,7 @@
           "type": "meerkeuze",
           "vraag": "Wat betekent het symbool \\(\\neg\\) voor een uitspraak \\(p\\)?",
           "opties": [
-            "de negatie: de uitspraak die precies de omgekeerde waarheidswaarde heeft",
+            "de negatie: de omgekeerde waarheidswaarde",
             "de implicatie: als \\(p\\) waar is, dan volgt er iets anders uit",
             "de kwantor: \\(p\\) geldt voor alle waarden die je kan invullen",
             "de equivalentie: \\(p\\) en de andere uitspraak zijn altijd samen waar"
@@ -701,7 +701,7 @@
           "type": "meerkeuze",
           "vraag": "Wat doet een EN-poort in een schakeling?",
           "opties": [
-            "ze geeft alleen een signaal door als beide ingangen een signaal krijgen",
+            "ze geeft enkel een signaal als beide ingangen er een krijgen",
             "ze geeft een signaal door zodra één van de ingangen een signaal krijgt",
             "ze keert het signaal om dat op haar ingang binnenkomt",
             "ze geeft alleen een signaal als geen van de ingangen iets krijgt"
@@ -869,7 +869,7 @@
           "type": "meerkeuze",
           "vraag": "Waarom kun je met breuken alleen niet elk punt op de getallenas aanduiden?",
           "opties": [
-            "omdat er lengtes bestaan die geen breuk zijn, zoals \\(\\sqrt{2}\\)",
+            "er bestaan lengtes die geen breuk zijn, zoals \\(\\sqrt{2}\\)",
             "omdat breuken enkel tussen 0 en 1 kunnen liggen",
             "omdat een breuk altijd een begrensde decimale vorm heeft",
             "omdat de negatieve getallen geen plaats hebben bij de breuken"
@@ -1003,7 +1003,7 @@
           "opties": [
             "de schuine zijde van een rechthoekige driehoek met zijden \\(1\\) en \\(1\\)",
             "de oppervlakte van een rechthoek van \\(3\\) op \\(4\\) centimeter",
-            "de helft van een oneven geheel getal",
+            "de helft van een oneven geheel getal, zoals \\(7\\) gedeeld door \\(2\\)",
             "het verschil van twee natuurlijke getallen"
           ],
           "antwoord": 0,
@@ -1013,7 +1013,7 @@
           "type": "meerkeuze",
           "vraag": "Welke uitspraak over \\(\\pi\\) klopt?",
           "opties": [
-            "het is irrationaal, dus geen enkele breuk geeft het exact weer",
+            "het is irrationaal: geen breuk geeft het exact weer",
             "het is gelijk aan \\(\\tfrac{22}{7}\\), maar dan afgerond",
             "het is rationaal, want je kan het tot op elk cijfer berekenen",
             "het is een geheel getal zodra je het afrondt op nul cijfers"
@@ -1206,7 +1206,7 @@
           "type": "meerkeuze",
           "vraag": "Wat is er mis met \\(\\sqrt{9 + 16} = \\sqrt{9} + \\sqrt{16}\\)?",
           "opties": [
-            "een wortel splitst niet over een som: \\(\\sqrt{25} = 5\\), geen \\(7\\)",
+            "een wortel splitst niet over een som: \\(\\sqrt{25} = 5\\)",
             "niets, want \\(9\\) en \\(16\\) zijn allebei volkomen kwadraten",
             "de fout zit in \\(16\\), want \\(\\sqrt{16} \\neq 4\\)",
             "de volgorde klopt niet: eerst worteltrekken, dan optellen"
@@ -1398,9 +1398,9 @@
           "vraag": "Wat betekent het symbool \\(\\leq\\) tussen twee getallen?",
           "opties": [
             "het linkergetal is kleiner dan of gelijk aan het rechter",
-            "het linkergetal is strikt kleiner dan het rechter",
+            "het linkergetal is strikt kleiner dan het rechtergetal",
             "het linkergetal is groter dan of gelijk aan het rechter",
-            "de twee getallen liggen even ver van nul"
+            "de twee getallen liggen precies even ver van nul"
           ],
           "antwoord": 0,
           "uitleg": "Het streepje onder het teken laat gelijkheid toe. Zonder streepje is het strikt."
@@ -1433,7 +1433,7 @@
           "type": "meerkeuze",
           "vraag": "Waarom rond je pas op het einde van een berekening af?",
           "opties": [
-            "omdat afrondingsfouten anders bij elke tussenstap groter worden",
+            "anders worden de afrondingsfouten bij elke stap groter",
             "omdat je anders je rekenmachine niet meer mag gebruiken",
             "omdat een tussenresultaat nooit een komma mag bevatten",
             "omdat je wettelijk maar één keer mag afronden"
@@ -1513,7 +1513,7 @@
           "type": "meerkeuze",
           "vraag": "Wat betekent het interval \\(\\left]2, 5\\right[\\)?",
           "opties": [
-            "alle getallen strikt tussen \\(2\\) en \\(5\\), de grenzen niet meegerekend",
+            "alle getallen strikt tussen \\(2\\) en \\(5\\), zonder de grenzen",
             "alle getallen van \\(2\\) tot en met \\(5\\), de grenzen meegerekend",
             "alleen de gehele getallen \\(3\\) en \\(4\\)",
             "alle getallen kleiner dan \\(2\\) of groter dan \\(5\\)"
@@ -1525,9 +1525,9 @@
           "type": "meerkeuze",
           "vraag": "Wat betekent het interval \\(\\left[0, 1\\right]\\)?",
           "opties": [
-            "alle getallen van \\(0\\) tot en met \\(1\\), allebei de grenzen inbegrepen",
+            "alle getallen van \\(0\\) tot en met \\(1\\), grenzen inbegrepen",
             "alle getallen strikt tussen \\(0\\) en \\(1\\)",
-            "alleen de twee getallen \\(0\\) en \\(1\\)",
+            "alleen de twee getallen \\(0\\) en \\(1\\) zelf, verder niets",
             "alle getallen kleiner dan of gelijk aan \\(1\\)"
           ],
           "antwoord": 0,
@@ -1549,7 +1549,7 @@
           "type": "meerkeuze",
           "vraag": "Waarom staat er bij oneindig altijd een haakje dat naar buiten wijst?",
           "opties": [
-            "omdat oneindig geen getal is en er dus niet bij kan horen",
+            "oneindig is geen getal en kan er dus niet bij horen",
             "omdat oneindig te groot is om op te schrijven",
             "omdat het interval anders leeg zou zijn",
             "omdat dat alleen bij negatieve oneindig zo is"
@@ -1645,7 +1645,7 @@
           "type": "meerkeuze",
           "vraag": "Waarom gebruiken wetenschappers machten van tien?",
           "opties": [
-            "omdat heel grote en heel kleine getallen zo leesbaar en vergelijkbaar blijven",
+            "zo blijven heel grote en heel kleine getallen leesbaar",
             "omdat een rekenmachine anders geen komma kan weergeven",
             "omdat het verplicht is bij elke meting met een toestel",
             "omdat je zo geen afrondingsfouten meer kan maken"
@@ -1774,7 +1774,7 @@
           "type": "meerkeuze",
           "vraag": "Welke ligging is mogelijk tussen een rechte en een vlak?",
           "opties": [
-            "de rechte ligt in het vlak, is er evenwijdig mee, snijdt het of staat er loodrecht op",
+            "ze ligt erin, is evenwijdig, snijdt het of staat er loodrecht op",
             "de rechte kruist het vlak, of valt ermee samen in twee punten",
             "de rechte snijdt het vlak altijd, behalve als ze even lang zijn",
             "de rechte staat altijd loodrecht op het vlak of valt ermee samen"
@@ -1798,7 +1798,7 @@
           "type": "meerkeuze",
           "vraag": "Wat is een ontwikkeling van een ruimtefiguur?",
           "opties": [
-            "het platte patroon dat je krijgt als je de figuur openvouwt",
+            "het platte patroon van de opengevouwen figuur",
             "de tekening van de figuur in cavalièreperspectief",
             "de schaduw die de figuur op een vlak werpt",
             "de doorsnede van de figuur met een horizontaal vlak"
@@ -1822,7 +1822,7 @@
           "type": "meerkeuze",
           "vraag": "Wat kenmerkt het cavalièreperspectief?",
           "opties": [
-            "de zijvlakken lopen schuin weg, maar evenwijdige lijnen blijven evenwijdig",
+            "zijvlakken lopen schuin weg, evenwijdige lijnen blijven evenwijdig",
             "alle lijnen lopen naar één verdwijnpunt aan de horizon",
             "de figuur wordt getekend zoals een fototoestel ze ziet",
             "er wordt enkel met stippellijnen gewerkt, zonder volle lijnen"
@@ -1871,8 +1871,8 @@
           "vraag": "Hoeveel ribben heeft een balk?",
           "opties": [
             "twaalf",
-            "acht",
-            "zes",
+            "acht, want een balk heeft acht hoekpunten",
+            "zes, want een balk heeft zes zijvlakken",
             "vier"
           ],
           "antwoord": 0,
@@ -2085,7 +2085,7 @@
           "type": "meerkeuze",
           "vraag": "Waarom zijn twee gelijkvormige figuren niet noodzakelijk even groot?",
           "opties": [
-            "omdat gelijkvormig enkel over de vorm gaat, niet over de afmetingen",
+            "gelijkvormig gaat over de vorm, niet over de afmetingen",
             "omdat gelijkvormige figuren altijd verschillende hoeken hebben",
             "omdat de factor altijd groter dan één moet zijn",
             "omdat gelijkvormig hetzelfde betekent als gelijk"
@@ -2156,7 +2156,7 @@
           "type": "meerkeuze",
           "vraag": "Wat zegt de stelling van Pythagoras?",
           "opties": [
-            "in een rechthoekige driehoek is \\(a^{2} + b^{2} = c^{2}\\), met \\(c\\) de schuine zijde",
+            "in een rechthoekige driehoek is \\(a^{2} + b^{2} = c^{2}\\), \\(c\\) is de schuine zijde",
             "in elke driehoek is \\(a^{2} + b^{2} = c^{2}\\), met \\(c\\) de langste zijde",
             "in een rechthoekige driehoek is \\(a + b = c\\), met \\(c\\) de schuine zijde",
             "in elke driehoek is \\(c = a + b\\), met \\(c\\) de langste zijde"
@@ -2276,7 +2276,7 @@
           "type": "meerkeuze",
           "vraag": "Waarom pas je bij een ruimtediagonaal Pythagoras twee keer toe?",
           "opties": [
-            "eerst voor de diagonaal van het grondvlak, dan voor de diagonaal met de hoogte erbij",
+            "eerst voor de diagonaal van het grondvlak, dan met de hoogte erbij",
             "omdat een balk twee verschillende diagonalen heeft die je moet optellen",
             "omdat de stelling in de ruimte maar de helft van het resultaat geeft",
             "omdat je anders de eenheden niet kan omzetten naar meter"
@@ -2289,9 +2289,9 @@
           "vraag": "Een televisie van \\(40\\) inch: wat wordt daarmee gemeten?",
           "opties": [
             "de diagonaal van het scherm",
-            "de breedte van het scherm",
+            "de breedte van het scherm, van links naar rechts",
             "de hoogte van het scherm",
-            "de omtrek van het scherm"
+            "de omtrek van het hele scherm"
           ],
           "antwoord": 0,
           "uitleg": "Daarom kan je met Pythagoras en de beeldverhouding de echte breedte en hoogte uitrekenen."
@@ -2592,8 +2592,8 @@
           "type": "meerkeuze",
           "vraag": "Wanneer gebruik je de cosinusregel?",
           "opties": [
-            "als je twee zijden en de ingesloten hoek kent, of alle drie de zijden",
-            "als je twee hoeken en één zijde kent",
+            "bij twee zijden en de ingesloten hoek, of bij drie zijden",
+            "als je twee hoeken en één zijde kent, zonder ingesloten hoek",
             "alleen als de driehoek ergens een rechte hoek bevat, en anders nooit",
             "als je enkel de drie hoeken kent"
           ],
@@ -2628,7 +2628,7 @@
           "type": "meerkeuze",
           "vraag": "Waar moet je bij de sinusregel op letten in een stomphoekige driehoek?",
           "opties": [
-            "je rekenmachine geeft de scherpe hoek terug, terwijl de stompe hoek de juiste kan zijn",
+            "je rekenmachine geeft de scherpe hoek, maar de stompe kan juist zijn",
             "de sinusregel geldt dan niet meer en je moet altijd overschakelen op de cosinusregel",
             "je moet de zijden eerst van groot naar klein ordenen",
             "de som van de hoeken is dan geen \\(180^\\circ\\) meer"
@@ -2938,8 +2938,8 @@
           "type": "meerkeuze",
           "vraag": "Wat betekent een vector ontbinden in zijn componenten?",
           "opties": [
-            "hem schrijven als de som van een horizontale en een verticale vector",
-            "hem in twee even lange stukken verdelen",
+            "hem schrijven als som van een horizontale en een verticale vector",
+            "hem in twee even lange stukken verdelen langs zijn richting",
             "hem delen door zijn norm",
             "hem vervangen door zijn tegengestelde"
           ],
@@ -3006,7 +3006,7 @@
           "type": "meerkeuze",
           "vraag": "Welke eigenschap van gelijkheden gebruik je om bij beide leden hetzelfde getal op te tellen?",
           "opties": [
-            "wat je links doet, moet je rechts ook doen, anders klopt de gelijkheid niet meer",
+            "wat je links doet, doe je rechts ook, anders klopt het niet meer",
             "je mag links iets optellen en rechts iets aftrekken, zolang het evenveel is",
             "je mag bij een gelijkheid alleen vermenigvuldigen, nooit optellen",
             "je mag enkel getallen optellen, nooit een uitdrukking met een letter"
@@ -3114,10 +3114,10 @@
           "type": "meerkeuze",
           "vraag": "Wat betekent het dat een formule lineair is in \\(x\\)?",
           "opties": [
-            "\\(x\\) komt enkel in de eerste macht voor, zonder kwadraat of wortel",
+            "\\(x\\) staat enkel in de eerste macht, zonder kwadraat of wortel",
             "\\(x\\) staat altijd links van het gelijkheidsteken",
             "de grafiek gaat altijd door de oorsprong",
-            "er staat precies één \\(x\\) in de hele formule"
+            "er staat precies één \\(x\\) in de hele formule, nergens meer"
           ],
           "antwoord": 0,
           "uitleg": "De grafiek van een lineair verband is een rechte. Een zuiver kwadratisch verband geeft een parabool."
@@ -3150,7 +3150,7 @@
           "type": "meerkeuze",
           "vraag": "Waarom controleer je na het omvormen best met een getallenvoorbeeld?",
           "opties": [
-            "omdat een tekenfout of een verkeerde bewerking zo meteen opvalt",
+            "zo valt een tekenfout of verkeerde bewerking meteen op",
             "omdat een formule pas geldt als je er getallen in gezet hebt",
             "omdat het examen dat verplicht bij elke omvorming",
             "omdat je anders geen rekenmachine mag gebruiken"
@@ -3294,7 +3294,7 @@
           "opties": [
             "het tekenverloop: waar staat de functie positief?",
             "het verloopschema: waar stijgt de functie?",
-            "de nulwaarde alleen, zonder verder te kijken",
+            "alleen de nulwaarde, zonder verder te kijken naar de rest",
             "het snijpunt met de y-as"
           ],
           "antwoord": 0,
@@ -3317,9 +3317,9 @@
           "vraag": "Een vergelijking geeft \\(0 = 0\\). Wat besluit je?",
           "opties": [
             "elke waarde van \\(x\\) is een oplossing",
-            "er is geen enkele oplossing",
+            "er is geen enkele oplossing voor \\(x\\)",
             "\\(x = 0\\)",
-            "de vergelijking is fout opgeschreven"
+            "de vergelijking is verkeerd opgeschreven"
           ],
           "antwoord": 0,
           "uitleg": "Er blijft een waarheid over, dus elke \\(x\\) voldoet."
@@ -3342,8 +3342,8 @@
           "opties": [
             "vanaf meer dan \\(120\\) minuten",
             "vanaf meer dan \\(60\\) minuten",
-            "vanaf meer dan \\(40\\) minuten",
-            "A is altijd duurder dan B"
+            "vanaf meer dan \\(40\\) minuten bellen",
+            "A is altijd duurder dan B, hoe lang je ook belt"
           ],
           "antwoord": 0,
           "uitleg": "Stel \\(20 + 0{,}1x < 8 + 0{,}2x\\). Dan \\(12 < 0{,}1x\\), dus \\(x > 120\\)."
@@ -3352,7 +3352,7 @@
           "type": "meerkeuze",
           "vraag": "Hoe los je een eerstegraadsvergelijking grafisch op?",
           "opties": [
-            "je tekent links en rechts als een functie en zoekt het snijpunt",
+            "je tekent beide leden als functie en zoekt het snijpunt",
             "je tekent enkel de linkerkant en leest de top af",
             "je berekent de oppervlakte tussen de twee rechten",
             "je zoekt waar de twee grafieken evenwijdig lopen"
@@ -3432,7 +3432,7 @@
           "type": "meerkeuze",
           "vraag": "Wat is een stelsel van twee eerstegraadsvergelijkingen in twee onbekenden?",
           "opties": [
-            "twee vergelijkingen die tegelijk moeten kloppen voor dezelfde \\(x\\) en \\(y\\)",
+            "twee vergelijkingen die samen moeten kloppen voor dezelfde \\(x\\) en \\(y\\)",
             "twee vergelijkingen waarvan je er zelf één mag kiezen",
             "een vergelijking die je in twee stappen moet oplossen",
             "twee vergelijkingen die na elkaar opgelost worden"
@@ -3444,7 +3444,7 @@
           "type": "meerkeuze",
           "vraag": "Met welke drie methodes los je een stelsel algebraïsch op?",
           "opties": [
-            "de combinatiemethode, de substitutiemethode en de gelijkstellingsmethode",
+            "combinatie, substitutie en gelijkstelling",
             "de grafische methode, de tabelmethode en de schattingsmethode",
             "de discriminantmethode, het ontbinden en het afzonderen",
             "de kop-staartmethode, de kruismethode en de balansmethode"
@@ -3456,7 +3456,7 @@
           "type": "meerkeuze",
           "vraag": "Wat doe je bij de substitutiemethode?",
           "opties": [
-            "je drukt één onbekende uit en vult die uitdrukking in de andere vergelijking in",
+            "je drukt één onbekende uit en vult die in de andere in",
             "je telt de twee vergelijkingen op zodat één onbekende wegvalt",
             "je stelt de twee rechterleden aan elkaar gelijk",
             "je tekent de twee rechten en leest het snijpunt af"
@@ -3566,7 +3566,7 @@
           "opties": [
             "het stelsel is onbepaald: elk punt van de rechte is een oplossing",
             "het stelsel is strijdig en heeft geen oplossing",
-            "\\(x\\) en \\(y\\) zijn allebei nul",
+            "\\(x\\) en \\(y\\) zijn allebei gelijk aan nul",
             "de twee rechten staan loodrecht op elkaar"
           ],
           "antwoord": 0,
@@ -3882,7 +3882,7 @@
           "type": "meerkeuze",
           "vraag": "Wat is het domein van een functie?",
           "opties": [
-            "de verzameling van alle \\(x\\)-waarden waarvoor de functie een waarde geeft",
+            "alle \\(x\\)-waarden waarvoor de functie een waarde geeft",
             "de verzameling van alle \\(y\\)-waarden die de functie aanneemt",
             "de verzameling van de nulwaarden van de functie",
             "de verzameling van alle punten op de grafiek"
@@ -3894,7 +3894,7 @@
           "type": "meerkeuze",
           "vraag": "Wat is het bereik van een functie?",
           "opties": [
-            "de verzameling van alle \\(y\\)-waarden die de functie aanneemt",
+            "alle \\(y\\)-waarden die de functie aanneemt",
             "de verzameling van alle \\(x\\)-waarden waarvoor ze bestaat",
             "de afstand tussen de kleinste en de grootste \\(x\\)-waarde",
             "het aantal snijpunten met de \\(x\\)-as"
@@ -3909,7 +3909,7 @@
             "verwoording, tabel, grafiek en voorschrift",
             "formule, tekening, verhaal en schema",
             "grafiek, diagram, tabel en histogram",
-            "voorschrift, nulwaarde, top en domein"
+            "voorschrift, nulwaarde, top en domein van de functie"
           ],
           "antwoord": 0,
           "uitleg": "Je moet van elke vorm naar elke andere kunnen overstappen."
@@ -3966,10 +3966,10 @@
           "type": "meerkeuze",
           "vraag": "Wat is het verschil tussen een lineair en een recht evenredig verband?",
           "opties": [
-            "een recht evenredig verband gaat door de oorsprong, een lineair verband niet noodzakelijk",
+            "recht evenredig gaat door de oorsprong, lineair niet noodzakelijk",
             "een lineair verband gaat door de oorsprong, een recht evenredig verband niet",
             "er is geen verschil tussen de twee",
-            "een lineair verband heeft altijd een negatieve helling"
+            "een lineair verband heeft altijd een negatieve helling, de andere niet"
           ],
           "antwoord": 0,
           "uitleg": "Bij \\(y = 2x + 5\\) is het verband lineair maar niet recht evenredig: bij nul kilometer betaal je al \\(5\\) euro."
@@ -3992,8 +3992,8 @@
           "opties": [
             "niet-lineaire groei, want de verschillen worden groter",
             "lineaire groei, want de waarden stijgen elke stap",
-            "omgekeerd evenredige groei",
-            "constante groei zonder toename"
+            "omgekeerd evenredige groei, want \\(x\\) en \\(y\\) horen bij elkaar",
+            "constante groei zonder toename tussen de stappen"
           ],
           "antwoord": 0,
           "uitleg": "De verschillen zijn \\(3\\) en \\(5\\), dus geen rechte. Dit is het kwadratische verband \\(y = x^{2}\\)."
@@ -4070,7 +4070,7 @@
           "type": "meerkeuze",
           "vraag": "Wat betekent de \\(a\\) in het voorschrift \\(f(x) = ax + b\\)?",
           "opties": [
-            "de richtingscoëfficiënt: hoeveel \\(y\\) stijgt per eenheid \\(x\\)",
+            "de richtingscoëfficiënt: de stijging van \\(y\\) per eenheid \\(x\\)",
             "de hoogte waarop de rechte de \\(y\\)-as snijdt",
             "de \\(x\\)-waarde waar de rechte de \\(x\\)-as snijdt",
             "de hoek die de rechte met de \\(x\\)-as maakt, in graden"
@@ -4083,7 +4083,7 @@
           "vraag": "Wat betekent de \\(b\\) in het voorschrift \\(f(x) = ax + b\\)?",
           "opties": [
             "de \\(y\\)-waarde waar de rechte de verticale as snijdt",
-            "de helling van de rechte",
+            "de helling van de rechte ten opzichte van de horizontale as",
             "de nulwaarde van de functie",
             "het aantal snijpunten met de \\(x\\)-as"
           ],
@@ -4531,7 +4531,7 @@
           "type": "meerkeuze",
           "vraag": "Wat toont het tekenverloop van een functie?",
           "opties": [
-            "voor welke \\(x\\)-waarden de functiewaarde positief, nul of negatief is",
+            "waar de functiewaarde positief, nul of negatief is",
             "voor welke \\(x\\)-waarden de functie stijgt of daalt",
             "hoeveel toppen de grafiek van de functie heeft",
             "welke \\(y\\)-waarden de functie allemaal aanneemt"
@@ -4567,10 +4567,10 @@
           "type": "meerkeuze",
           "vraag": "Wat is een extremum van een functie?",
           "opties": [
-            "een grootste of kleinste functiewaarde op een stuk van de grafiek",
+            "een grootste of kleinste functiewaarde",
             "een \\(x\\)-waarde waarvoor de functie geen waarde heeft",
             "het punt waar de grafiek de verticale as snijdt",
-            "de afstand tussen de twee nulwaarden"
+            "de afstand tussen de twee nulwaarden van de grafiek"
           ],
           "antwoord": 0,
           "uitleg": "Bij een parabool is de top het enige extremum: een minimum of een maximum."
@@ -4627,9 +4627,9 @@
           "type": "meerkeuze",
           "vraag": "Wat is het verband bij \\(f(x) = \\frac{6}{x}\\)?",
           "opties": [
-            "omgekeerd evenredig: verdubbelt \\(x\\), dan halveert \\(y\\)",
+            "omgekeerd evenredig: dubbele \\(x\\), halve \\(y\\)",
             "recht evenredig: verdubbelt \\(x\\), dan verdubbelt \\(y\\)",
-            "lineair, maar niet recht evenredig",
+            "lineair, maar niet recht evenredig met elkaar",
             "kwadratisch, want de grafiek is gebogen"
           ],
           "antwoord": 0,
@@ -4708,7 +4708,7 @@
           "type": "meerkeuze",
           "vraag": "Waarvoor gebruik je een boomdiagram?",
           "opties": [
-            "om alle mogelijke uitkomsten van opeenvolgende keuzes te tonen",
+            "om alle uitkomsten van opeenvolgende keuzes te tonen",
             "om te tonen hoeveel elementen twee groepen gemeen hebben",
             "om gegevens in klassen te verdelen en te tellen",
             "om de spreiding van een reeks getallen te tonen"
@@ -4720,7 +4720,7 @@
           "type": "meerkeuze",
           "vraag": "Wat zegt de productregel?",
           "opties": [
-            "je vermenigvuldigt het aantal keuzes van elke stap met elkaar",
+            "je vermenigvuldigt het aantal keuzes per stap",
             "je telt het aantal keuzes van elke stap bij elkaar op",
             "je trekt de dubbels af van het totaal aantal keuzes",
             "je deelt het totaal door het aantal stappen"
@@ -4744,10 +4744,10 @@
           "type": "meerkeuze",
           "vraag": "Een slot heeft drie cijferschijven met elk de cijfers 0 tot en met 9. Hoeveel codes zijn er?",
           "opties": [
-            "1000",
-            "30",
-            "720",
-            "100"
+            "\\(1000\\)",
+            "\\(30\\), want drie schijven van tien cijfers",
+            "\\(720\\)",
+            "\\(100\\), want twee cijfers volstaan per schijf"
           ],
           "antwoord": 0,
           "uitleg": "\\(10 \\cdot 10 \\cdot 10 = 1000\\). De cijfers mogen zich herhalen."
@@ -4780,7 +4780,7 @@
           "type": "meerkeuze",
           "vraag": "Wat is het verschil tussen trekken met en zonder terugleggen?",
           "opties": [
-            "zonder terugleggen daalt het aantal keuzes bij elke stap",
+            "zonder terugleggen daalt het aantal keuzes per stap",
             "zonder terugleggen blijft het aantal keuzes gelijk",
             "met terugleggen is er maar één uitkomst mogelijk",
             "er is geen verschil in het aantal uitkomsten"
@@ -4852,7 +4852,7 @@
           "type": "meerkeuze",
           "vraag": "Waarom tel je bij een boomdiagram de paden en niet de takken?",
           "opties": [
-            "één pad van boven naar onder is één volledige uitkomst",
+            "één pad van boven naar onder is één uitkomst",
             "takken horen bij tussenstappen en tellen dubbel mee",
             "er zijn altijd evenveel paden als takken",
             "takken kan je niet tellen als er veel stappen zijn"
@@ -4920,7 +4920,7 @@
           "type": "meerkeuze",
           "vraag": "Waarvoor gebruik je een venndiagram?",
           "opties": [
-            "om te tonen welke elementen twee groepen gemeen hebben",
+            "om te tonen wat twee groepen gemeen hebben",
             "om opeenvolgende keuzes in stappen uit te schrijven",
             "om de spreiding van meetwaarden te tonen",
             "om een verband tussen twee variabelen te tekenen"
@@ -4956,7 +4956,7 @@
           "type": "meerkeuze",
           "vraag": "Wat zegt de somregel bij twee groepen die elkaar overlappen?",
           "opties": [
-            "tel de twee groepen op en trek de doorsnede er één keer af",
+            "tel beide groepen op en trek de doorsnede één keer af",
             "tel de twee groepen gewoon bij elkaar op",
             "tel de twee groepen op en tel de doorsnede erbij",
             "vermenigvuldig de twee groepen met elkaar"
@@ -4992,7 +4992,7 @@
           "type": "meerkeuze",
           "vraag": "Wat zegt de complementregel?",
           "opties": [
-            "het aantal dat niet aan de voorwaarde voldoet is het geheel min het aantal dat er wel aan voldoet",
+            "wat niet aan de voorwaarde voldoet, is het geheel min wat er wel aan voldoet",
             "het aantal dat aan twee voorwaarden voldoet is het product van de twee aantallen",
             "het aantal in de doorsnede is de som van de twee groepen",
             "het geheel is altijd gelijk aan de som van de twee groepen"
@@ -5004,7 +5004,7 @@
           "type": "meerkeuze",
           "vraag": "Wanneer is het aantal in de vereniging gewoon de som van de twee groepen?",
           "opties": [
-            "als de groepen disjunct zijn en dus niets gemeen hebben",
+            "als ze disjunct zijn en niets gemeen hebben",
             "als de ene groep volledig in de andere zit",
             "als de twee groepen even groot zijn",
             "als de doorsnede precies de helft is"
@@ -5028,7 +5028,7 @@
           "type": "meerkeuze",
           "vraag": "Waarom is het handig om eerst de doorsnede in te vullen in een venndiagram?",
           "opties": [
-            "dan kan je de andere vakjes eruit afleiden zonder dubbel te tellen",
+            "zo leid je de andere vakjes af zonder dubbel te tellen",
             "dan hoef je het totaal niet meer te kennen",
             "dan valt de complementregel weg",
             "dan zijn de twee groepen automatisch disjunct"
@@ -5064,7 +5064,7 @@
           "type": "meerkeuze",
           "vraag": "Waarom is het soms sneller te tellen wat er niet aan de voorwaarde voldoet?",
           "opties": [
-            "die groep is vaak veel kleiner, en het geheel min die groep geeft het antwoord",
+            "die groep is vaak veel kleiner: geheel min die groep",
             "die groep is altijd precies de helft van het geheel",
             "zo hoef je de productregel niet meer te gebruiken",
             "de doorsnede telt dan niet meer mee"
@@ -5145,7 +5145,7 @@
           "type": "meerkeuze",
           "vraag": "Welke categorische gegevens zijn geordend?",
           "opties": [
-            "de rapportscore als zeer goed, goed of zwak",
+            "de rapportscore zeer goed, goed of zwak",
             "de haarkleur van de leerlingen in de klas",
             "de gemeente waar iemand woont",
             "het merk van de fiets waarmee je komt"
@@ -5217,10 +5217,10 @@
           "type": "meerkeuze",
           "vraag": "Waarvoor gebruik je een cirkeldiagram?",
           "opties": [
-            "om het aandeel van elk deel in een geheel te tonen",
+            "om het aandeel van elk deel in het geheel te tonen",
             "om een verloop over de tijd heen te volgen",
             "om de spreiding rond het gemiddelde te tonen",
-            "om het aantal uitschieters te tellen"
+            "om het aantal uitschieters in de reeks te tellen"
           ],
           "antwoord": 0,
           "uitleg": "Alle sectoren samen zijn \\(100\\,\\%\\). Bij veel categorieën wordt het onleesbaar."
@@ -5229,7 +5229,7 @@
           "type": "meerkeuze",
           "vraag": "Wat lees je af op een boxplot?",
           "opties": [
-            "de kleinste waarde, de drie kwartielen en de grootste waarde",
+            "minimum, de drie kwartielen en maximum",
             "het gemiddelde en de standaardafwijking",
             "de absolute frequentie van elke waarde",
             "het verloop van de gegevens door de tijd"
@@ -5277,9 +5277,9 @@
           "type": "meerkeuze",
           "vraag": "Wat betekent het als een dotplot twee clusters toont?",
           "opties": [
-            "de gegevens vallen uiteen in twee groepen met elk hun eigen niveau",
+            "de gegevens vallen uiteen in twee groepen",
             "de helft van de gegevens is verkeerd gemeten",
-            "de verdeling is perfect symmetrisch",
+            "de verdeling is perfect symmetrisch rond het gemiddelde",
             "er is precies één uitschieter in de reeks"
           ],
           "antwoord": 0,
@@ -5347,7 +5347,7 @@
           "type": "meerkeuze",
           "vraag": "Hoe bereken je het rekenkundig gemiddelde \\(\\bar{x}\\)?",
           "opties": [
-            "de som van alle waarden gedeeld door het aantal waarden",
+            "de som van alle waarden gedeeld door hun aantal",
             "de middelste waarde van de gerangschikte reeks",
             "de waarde die het vaakst voorkomt in de reeks",
             "het verschil tussen de grootste en de kleinste waarde"
@@ -5372,8 +5372,8 @@
           "vraag": "Wat is de mediaan van \\(4,\\ 6,\\ 9,\\ 11\\)?",
           "opties": [
             "\\(7{,}5\\)",
-            "\\(6\\)",
-            "\\(9\\)",
+            "\\(6\\), het tweede getal",
+            "\\(9\\), het derde getal",
             "\\(7\\)"
           ],
           "antwoord": 0,
@@ -5395,7 +5395,7 @@
           "type": "meerkeuze",
           "vraag": "Waarom is de mediaan bij lonen vaak eerlijker dan het gemiddelde?",
           "opties": [
-            "een paar heel hoge lonen trekken het gemiddelde omhoog",
+            "enkele heel hoge lonen trekken het gemiddelde omhoog",
             "de mediaan is altijd groter dan het gemiddelde",
             "het gemiddelde kan je bij lonen niet berekenen",
             "de mediaan houdt rekening met alle uitschieters"
@@ -5407,7 +5407,7 @@
           "type": "meerkeuze",
           "vraag": "Wat is de variatiebreedte van een reeks?",
           "opties": [
-            "het verschil tussen de grootste en de kleinste waarde",
+            "grootste waarde min kleinste waarde",
             "het verschil tussen het derde en het eerste kwartiel",
             "de gemiddelde afstand tot het rekenkundig gemiddelde",
             "de middelste waarde van de gerangschikte reeks"
@@ -5421,7 +5421,7 @@
           "opties": [
             "de waarde waaronder een kwart van de gegevens ligt",
             "de waarde waaronder de helft van de gegevens ligt",
-            "de kleinste waarde uit de hele reeks",
+            "de kleinste waarde uit de hele gerangschikte reeks",
             "het gemiddelde van het eerste kwart van de reeks"
           ],
           "antwoord": 0,
@@ -5679,9 +5679,9 @@
           "type": "meerkeuze",
           "vraag": "Een winkel verhoogt de prijs met \\(20\\,\\%\\) en geeft daarna \\(20\\,\\%\\) korting. Wat is het gevolg?",
           "opties": [
-            "de prijs ligt lager dan in het begin, de korting geldt op een hoger bedrag",
+            "de prijs ligt lager dan in het begin",
             "de prijs is na die twee stappen weer precies dezelfde als in het begin",
-            "de prijs ligt hoger dan in het begin",
+            "de prijs ligt hoger dan in het begin, want er kwam eerst \\(20\\,\\%\\) bij",
             "dat hangt volledig af van de beginprijs"
           ],
           "antwoord": 0,

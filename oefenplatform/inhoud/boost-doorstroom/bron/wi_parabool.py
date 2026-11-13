@@ -213,7 +213,7 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Wat toont het tekenverloop van een functie?",
         opties=[
-            "voor welke \\(x\\)-waarden de functiewaarde positief, nul of negatief is",
+            "waar de functiewaarde positief, nul of negatief is",
             "voor welke \\(x\\)-waarden de functie stijgt of daalt",
             "hoeveel toppen de grafiek van de functie heeft",
             "welke \\(y\\)-waarden de functie allemaal aanneemt",
@@ -249,10 +249,10 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Wat is een extremum van een functie?",
         opties=[
-            "een grootste of kleinste functiewaarde op een stuk van de grafiek",
+            "een grootste of kleinste functiewaarde",
             "een \\(x\\)-waarde waarvoor de functie geen waarde heeft",
             "het punt waar de grafiek de verticale as snijdt",
-            "de afstand tussen de twee nulwaarden",
+            "de afstand tussen de twee nulwaarden van de grafiek",
         ],
         antwoord=0,
         uitleg="Bij een parabool is de top het enige extremum: een minimum of een maximum.",
@@ -309,9 +309,9 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Wat is het verband bij \\(f(x) = \\frac{6}{x}\\)?",
         opties=[
-            "omgekeerd evenredig: verdubbelt \\(x\\), dan halveert \\(y\\)",
+            "omgekeerd evenredig: dubbele \\(x\\), halve \\(y\\)",
             "recht evenredig: verdubbelt \\(x\\), dan verdubbelt \\(y\\)",
-            "lineair, maar niet recht evenredig",
+            "lineair, maar niet recht evenredig met elkaar",
             "kwadratisch, want de grafiek is gebogen",
         ],
         antwoord=0,

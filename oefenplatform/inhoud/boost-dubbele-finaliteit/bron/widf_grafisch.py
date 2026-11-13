@@ -72,7 +72,7 @@ DEEL1 = [
         type="meerkeuze",
         vraag="Hoe ziet het verloopschema van een rechte met een positieve richtingscoëfficiënt eruit?",
         opties=[
-            "één pijl die over de hele getallenas omhoog wijst",
+            "één pijl omhoog over de hele getallenas",
             "een pijl omhoog en daarna een pijl omlaag",
             "een pijl omlaag over de hele getallenas",
             "afwisselend een plus- en een minteken",
@@ -129,7 +129,7 @@ DEEL1 = [
         type="meerkeuze",
         vraag=r"Hoe zet je de oplossing \(x > 2\) op een getallenas?",
         opties=[
-            r"een open bolletje op \(2\) en alles rechts ervan gearceerd",
+            r"open bolletje op \(2\), alles rechts gearceerd",
             r"een vol bolletje op \(2\) en alles rechts ervan gearceerd",
             r"een open bolletje op \(2\) en alles links ervan gearceerd",
             r"een vol bolletje op \(2\) en alles links ervan gearceerd",
@@ -165,7 +165,7 @@ DEEL1 = [
         type="meerkeuze",
         vraag="Waarom hangt het antwoord bij een ongelijkheid af van of de rechte stijgt of daalt?",
         opties=[
-            "omdat een stijgende rechte rechts van zijn nulwaarde positief is",
+            "een stijgende rechte is rechts van haar nulwaarde positief",
             "omdat een dalende rechte geen nulwaarde heeft",
             "omdat je bij een dalende rechte geen intervallen mag gebruiken",
             r"omdat een stijgende rechte overal boven de \(x\)-as ligt",
@@ -179,8 +179,8 @@ DEEL1 = [
         vraag=r"Wat is het verschil tussen het snijpunt met de \(y\)-as en de nulwaarde?",
         opties=[
             r"het ene is \(f(0)\), het andere de \(x\) waarvoor \(f(x) = 0\)",
-            "ze zijn altijd aan elkaar gelijk",
-            "de nulwaarde is altijd nul",
+            "ze zijn bij elke functie altijd aan elkaar gelijk",
+            "de nulwaarde is bij elke functie altijd gelijk aan nul",
             r"het snijpunt met de \(y\)-as ligt altijd in de oorsprong",
         ],
         antwoord=0,
@@ -191,7 +191,7 @@ DEEL1 = [
         type="meerkeuze",
         vraag="Wat lees je van een grafiek af om een tekenverloop op te stellen?",
         opties=[
-            r"de nulwaarden, en aan welke kant de grafiek boven of onder de \(x\)-as ligt",
+            r"de nulwaarden, en waar de grafiek boven of onder de as ligt",
             "de hoogste en de laagste functiewaarde",
             r"het snijpunt met de \(y\)-as en de richtingscoëfficiënt",
             "het domein en het bereik van de functie",
@@ -253,7 +253,7 @@ DEEL2 = [
         type="meerkeuze",
         vraag=r"Hoe lees je uit een grafiek af voor welke \(x\) geldt dat \(f(x) > g(x)\)?",
         opties=[
-            r"je kijkt aan welke kant van het snijpunt \(f\) hoger loopt",
+            r"aan welke kant van het snijpunt \(f\) hoger loopt",
             "je kijkt in welk stuk allebei de grafieken stijgen",
             r"je kijkt waar de grafieken de \(y\)-as snijden",
             r"je telt hoeveel snijpunten er met de \(x\)-as zijn",
@@ -316,7 +316,7 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Waarom controleer je een snijpunt dat je van een grafiek hebt afgelezen liefst met een berekening?",
         opties=[
-            "omdat je bij het aflezen makkelijk een half hokje verkeerd zit",
+            "bij het aflezen zit je makkelijk een half hokje mis",
             "omdat een grafiek geen snijpunten mag tonen",
             "omdat een rekentoestel geen grafieken aanvaardt",
             "omdat een snijpunt altijd een geheel getal moet zijn",
@@ -342,10 +342,10 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Wanneer gebruik je best een hulpmiddel om de grafieken te tekenen?",
         opties=[
-            "bij moeilijkere vraagstukken met lastige getallen",
+            "bij moeilijke vraagstukken met lastige getallen",
             "altijd, ook bij een eenvoudige rechte",
             "nooit, een grafiek teken je altijd zelf",
-            "enkel als er geen snijpunt is",
+            "enkel als er geen enkel snijpunt te vinden is",
         ],
         antwoord=0,
         uitleg="Bij eenvoudige opgaven teken je zelf en lees je af. Bij lastiger getallen laat je "
@@ -362,7 +362,7 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Wat betekent een snijpunt van twee grafieken in een woordprobleem?",
         opties=[
-            "de situatie waarin de twee grootheden even groot zijn",
+            "de situatie waarin beide grootheden even groot zijn",
             "de situatie waarin een van de twee nul wordt",
             "het moment waarop de ene grootheid begint te stijgen",
             "het grootste verschil tussen de twee grootheden",
