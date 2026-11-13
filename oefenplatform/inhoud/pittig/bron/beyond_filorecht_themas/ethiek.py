@@ -1,0 +1,255 @@
+"""Ethiek: basisbegrippen en vier benaderingen — pittig (🌍 Beyond, filosofie en recht)."""
+from .vormen import J, F, mk, inv, tabel, keuze, volgorde, koppel, sorteer, sleep, casus
+
+VRAGEN = [
+    sorteer(
+        "Is dit een waarde of een norm?",
+        ["Waarde", "Norm"],
+        [
+            ("Eerlijkheid", "Waarde"),
+            ("Gezondheid", "Waarde"),
+            ("Respect voor ouderen", "Waarde"),
+            ("Je mag niet spieken op een toets.", "Norm"),
+            ("Je rookt niet in een ziekenhuis.", "Norm"),
+            ("Je staat recht voor een oudere op de bus.", "Norm"),
+        ],
+        "Een waarde is wat je belangrijk vindt. Een norm is de concrete regel die eruit volgt.",
+    ),
+    koppel(
+        "Koppel elke norm aan de waarde waaruit ze volgt.",
+        [
+            ("Je laat iemand uitspreken.", "respect"),
+            ("Je geeft gevonden geld terug.", "eerlijkheid"),
+            ("Je zegt niet aan anderen wat een vriend je toevertrouwde.", "vertrouwen"),
+            ("Je houdt je aan de snelheidsbeperking.", "veiligheid"),
+        ],
+        ["rijkdom"],
+        "De waarde is het algemene dat je belangrijk vindt; de norm het concrete gedrag dat erbij hoort.",
+    ),
+    casus(
+        "In België geef je iemand bij een begroeting vaak een hand of een kus. In Japan buig je. In beide landen wil je de ander tonen dat je hem waardeert.",
+        [
+            mk("Wat toont dit voorbeeld over waarden en normen?",
+               ["Dat de Japanners en de Belgen helemaal andere waarden hebben",
+                "Dat één waarde in twee landen andere normen kan opleveren",
+                "Dat normen belangrijker zijn dan de waarden waaruit ze volgen",
+                "Dat begroeten geen enkele morele betekenis heeft"], 1,
+               "De waarde (respect) is dezelfde, de norm (hand, kus of buiging) verschilt."),
+            mk("Wat zou een cultuurrelativist zeggen over de vraag welke begroeting de juiste is?",
+               ["De Belgische, want die is het oudst",
+                "Elke begroeting hoort bij haar cultuur",
+                "De Japanse, want buigen toont het meeste respect",
+                "Geen van beide, want begroeten is altijd fout"], 1,
+               "Morele opvattingen horen bij een cultuur en zijn niet van buitenaf te beoordelen."),
+        ],
+    ),
+    tabel(
+        "Universalisme of relativisme? Welk standpunt spreekt hieruit?",
+        [
+            ("Folteren is fout, waar en wanneer dan ook.", "Moreel universalisme"),
+            ("Wat goed is, hangt af van de groep waartoe je behoort.", "Moreel relativisme"),
+            ("Mensenrechten gelden voor iedereen, in elk land.", "Moreel universalisme"),
+            ("Er is geen standpunt van waaruit je alle anderen kan beoordelen.", "Moreel relativisme"),
+        ],
+        "Universeel: voor iedereen en overal. Relatief: in verhouding tot een persoon of een groep.",
+        kolommen=["Moreel universalisme", "Moreel relativisme"],
+    ),
+    casus(
+        "Bron: een gesprek in de klas.\n"
+        "Arne: \"In sommige landen mogen meisjes niet naar school. Dat is hun cultuur. Wij hebben daar niets over te zeggen.\"\n"
+        "Selin: \"Als je dat volhoudt, kan je ook geen slavernij of folter afkeuren zolang het ergens gewoonte is.\"",
+        [
+            mk("Welk standpunt verdedigt Arne?",
+               ["Moreel universalisme", "Cultuurrelativisme", "Gevolgenethiek", "Deugdethiek"], 1,
+               "Morele opvattingen horen bij een cultuur en zijn niet van buitenaf te beoordelen."),
+            mk("Welk bezwaar brengt Selin in?",
+               ["Dat Arne de feiten over die landen verkeerd heeft voorgesteld",
+                "Dat je dan geen enkel onrecht in een andere cultuur meer kan afkeuren",
+                "Dat cultuur volgens de descriptieve ethiek helemaal niet bestaat",
+                "Dat meisjes in die landen zelf gekozen hebben om thuis te blijven"], 1,
+               "Het bekendste bezwaar tegen het cultuurrelativisme: het haalt de grond onder elke kritiek op onrecht weg."),
+            mk("Bij welk standpunt staat Selin dichter?",
+               ["Bij het moreel universalisme", "Bij het cultuurrelativisme", "Bij de descriptieve ethiek", "Bij het determinisme van de 17de eeuw"], 0,
+               "Wie sommige dingen overal fout vindt, neemt aan dat er regels zijn die voor iedereen gelden."),
+        ],
+    ),
+    mk(
+        "Kan een universalist erkennen dat culturen verschillende normen hebben?",
+        ["Nee, want hij gelooft dat alle culturen precies dezelfde gewoonten hebben",
+         "Ja, maar volgens hem hangen sommige regels daar niet van af",
+         "Nee, want verschillen vaststellen is altijd relativisme",
+         "Ja, en daarom is hij eigenlijk een relativist"],
+        1,
+        "Een universalist kan de verschillen gerust vaststellen. Hij vindt alleen dat sommige regels overal gelden.",
+    ),
+    keuze(
+        "De vrije wil hoort bij de basisbegrippen van de ethiek: iemand [[*verwijten|belonen voor zijn geluk]] dat hij anders had moeten handelen, heeft alleen zin als hij anders [[*kón|wou]] handelen.",
+        "Zonder keuzevrijheid valt er niemand verantwoordelijk te stellen.",
+    ),
+    casus(
+        "Fatima werkt als verpleegster. Een oude patiënt vraagt haar om zijn familie niet te vertellen hoe ziek hij is. Zijn dochter belt en vraagt rechtstreeks of het slecht gaat.",
+        [
+            mk("Waarom is dit een moreel dilemma?",
+               ["Omdat Fatima niet weet hoe ziek de patiënt precies is",
+                "Omdat elke keuze iets van waarde kost",
+                "Omdat de wet verbiedt dat ze de telefoon opneemt",
+                "Omdat er één duidelijk juist antwoord is dat ze niet kent"], 1,
+               "Vertrouwen van de patiënt tegenover eerlijkheid tegenover de dochter: geen schone uitweg."),
+            sorteer("Welke waarde staat aan welke kant?",
+                    ["Zwijgen", "Vertellen"],
+                    [("Het vertrouwen van de patiënt", "Zwijgen"),
+                     ("De wil van de patiënt respecteren", "Zwijgen"),
+                     ("Eerlijkheid tegenover de dochter", "Vertellen"),
+                     ("De familie de kans geven afscheid te nemen", "Vertellen")],
+                    "Twee kanten met elk hun eigen waarden: dat is de vorm van een dilemma."),
+            mk("Welke vraag is hier géén ethische vraag?",
+               ["Mag Fatima tegen de dochter liegen?",
+                "Weegt het vertrouwen van de patiënt zwaarder dan eerlijkheid?",
+                "Hoeveel verpleegsters krijgen ooit zo'n vraag?",
+                "Wat is Fatima de dochter verschuldigd?"], 2,
+               "Hoeveel verpleegsters zo'n vraag krijgen, is een feitenvraag. De andere vragen gaan over wat zou moeten."),
+        ],
+    ),
+    tabel(
+        "Ethische vraag of feitenvraag?",
+        [
+            ("Hoeveel jongeren spieken minstens één keer per jaar?", "Feitenvraag"),
+            ("Mag je spieken als de toets oneerlijk is?", "Ethische vraag"),
+            ("Moet een dokter altijd de waarheid vertellen?", "Ethische vraag"),
+            ("Hoeveel dokters vertellen een slechte prognose meteen?", "Feitenvraag"),
+        ],
+        "Een ethische vraag gaat over wat je zou moeten doen, een feitenvraag over wat er gebeurt.",
+        kolommen=["Ethische vraag", "Feitenvraag"],
+    ),
+    sorteer(
+        "Is dit descriptieve of normatieve ethiek?",
+        ["Descriptief", "Normatief"],
+        [
+            ("Een bevraging toont dat 70 procent van de Belgen euthanasie aanvaardt.", "Descriptief"),
+            ("Een onderzoek beschrijft hoe opvattingen over trouw veranderd zijn sinds 1950.", "Descriptief"),
+            ("Is euthanasie toelaatbaar bij ondraaglijk lijden?", "Normatief"),
+            ("Moet je trouw blijven aan een belofte die je in een andere tijd deed?", "Normatief"),
+        ],
+        "Descriptieve ethiek beschrijft wat mensen vinden; normatieve ethiek zoekt wat je zou moeten doen.",
+    ),
+    koppel(
+        "Koppel elke richting in de normatieve ethiek aan de vraag die ze stelt.",
+        [
+            ("Gevolgenethiek", "Wat levert deze daad op?"),
+            ("Plichtethiek", "Welke regel bindt mij hier?"),
+            ("Deugdethiek", "Wat voor mens word ik hierdoor?"),
+            ("Zorgethiek", "Wat heeft deze concrete mens van mij nodig?"),
+        ],
+        ["Wat vinden de meeste mensen hiervan?"],
+        "Vier antwoorden op dezelfde vraag, met een ander aanknopingspunt: het gevolg, de plicht, de persoon, de relatie. Wat de meeste mensen vinden, is descriptief.",
+    ),
+    casus(
+        "Lars ziet dat zijn beste vriend op de toets spiekt. De leerkracht vraagt de klas of iemand iets gezien heeft. Vier leerlingen geven Lars raad.\n"
+        "Emma: \"Zwijg. Als je spreekt, krijgt je vriend een nul en ben jij je vriend kwijt. Dat levert meer ellende op dan het waard is.\"\n"
+        "Noor: \"Je mag niet liegen, punt. Ook niet voor een vriend.\"\n"
+        "Kobe: \"Vraag je af wat een eerlijk en moedig mens zou doen.\"\n"
+        "Yara: \"Ga eerst met je vriend praten. Wat heeft hij nodig, en wat betekent jullie vriendschap?\"",
+        [
+            tabel("Welke richting in de ethiek spreekt uit elk advies?",
+                  [("Emma", "Gevolgenethiek"), ("Noor", "Plichtethiek"), ("Kobe", "Deugdethiek"), ("Yara", "Zorgethiek")],
+                  "Emma weegt de uitkomst, Noor volgt een regel, Kobe kijkt naar het karakter, Yara naar de relatie.",
+                  kolommen=["Gevolgenethiek", "Plichtethiek", "Deugdethiek", "Zorgethiek"]),
+            mk("Welk advies kan nog veranderen als blijkt dat de leerkracht het toch al wist?",
+               ["Het advies van Noor", "Dat van Emma", "Geen enkel advies", "Het advies van Kobe"], 1,
+               "De gevolgenethiek kijkt naar de uitkomst. Als de gevolgen anders zijn, kan ook het advies anders uitvallen."),
+        ],
+    ),
+    sleep(
+        "De [[descriptieve]] ethiek beschrijft wat mensen goed vinden. De [[normatieve]] ethiek vraagt wat je zou moeten doen. Daarbinnen kijkt de gevolgenethiek naar de [[uitkomst]], en de plichtethiek naar de [[regel]].",
+        ["persoon", "relatie", "bevraging"],
+        "Beschrijven tegenover voorschrijven; en binnen het voorschrijven vier aanknopingspunten.",
+    ),
+    casus(
+        "Bron: drie redeneringen.\n"
+        "A. \"Mensen eten al duizenden jaren vlees, dus mogen we dat blijven doen.\"\n"
+        "B. \"De meeste jongeren gebruiken sociale media, dus is dat goed voor hen.\"\n"
+        "C. \"Een bevraging toont dat de meeste Belgen orgaandonatie steunen.\"",
+        [
+            mk("Welke filosoof wijst aan wat er mis is met A en B?",
+               ["René Descartes", "Karl Popper", "David Hume", "Jean-Paul Sartre"], 2,
+               "Het is-ought probleem van Hume: uit wat is, volgt niet zonder meer wat zou moeten."),
+            mk("Wat is het probleem met redenering A?",
+               ["Mensen eten helemaal niet al duizenden jaren vlees",
+                "Uit wat is, volgt niet vanzelf wat zou moeten",
+                "Er staat een woord in dat te moeilijk is",
+                "Ze is te kort om te kunnen kloppen"], 1,
+               "Dat iets zo is of zo was, zegt op zich niet dat het zo mag blijven. Het woordje 'dus' doet het werk."),
+            mk("Waarom maakt redenering C die fout niet?",
+               ["Omdat ze enkel beschrijft wat mensen vinden",
+                "Omdat orgaandonatie altijd goed is en daar geen discussie over kan zijn",
+                "Omdat een bevraging altijd een betrouwbaar moreel oordeel geeft",
+                "Omdat ze over de gezondheid gaat en niet over de ethiek"], 0,
+               "C is descriptieve ethiek: ze trekt uit de cijfers geen besluit over wat moet."),
+        ],
+    ),
+    mk(
+        "Een gevolgenethicus zegt: \"Alle mensen streven naar geluk, dus moet geluk de maatstaf zijn.\" Welke kritiek past hier?",
+        ["Streven naar geluk bewijst niet dat geluk de maatstaf moet zijn",
+         "Dat je de gevolgen van een daad nooit vooraf helemaal kan kennen",
+         "Dat een plicht altijd en overal zwaarder weegt dan elk mogelijk gevolg van een daad",
+         "Dat de gevolgenethiek niets beschrijft van wat mensen echt doen"],
+        0,
+        "De gevolgenethiek maakt van een vaststelling over mensen een norm. Precies daar wijst Hume de sprong aan.",
+    ),
+    tabel(
+        "Juist of fout over de basisbegrippen van de ethiek?",
+        [
+            ("Een norm is concreter dan de waarde waaruit ze volgt.", J),
+            ("Het moreel relativisme houdt vast aan regels die overal gelden.", F),
+            ("Bij een moreel dilemma is er altijd één keuze zonder verlies.", F),
+            ("Het cultuurrelativisme is een vorm van moreel relativisme.", J),
+        ],
+        "Norm volgt uit waarde. Overal geldende regels zijn universalisme. Een dilemma kost altijd iets. Cultuurrelativisme is de culturele vorm van relativisme.",
+        kolommen=["Juist", "Fout"],
+    ),
+    volgorde(
+        "Zet van algemeen naar concreet.",
+        ["Een waarde: respect", "Een norm: je laat iemand uitspreken", "Een concrete daad: je onderbreekt je zus niet tijdens het eten"],
+        "De waarde is het algemeenst, de norm is de regel die eruit volgt, en de daad is het gedrag in één situatie.",
+    ),
+    tabel(
+        "Kijkt deze richting naar het gevolg, de plicht, de persoon of de relatie?",
+        [
+            ("Gevolgenethiek", "Gevolg"),
+            ("Plichtethiek", "Plicht"),
+            ("Deugdethiek", "Persoon"),
+            ("Zorgethiek", "Relatie"),
+        ],
+        "Elk van de vier richtingen vertrekt van een ander aanknopingspunt.",
+        kolommen=["Gevolg", "Plicht", "Persoon", "Relatie"],
+    ),
+    keuze(
+        "Het moreel [[*universalisme|relativisme]] neemt regels aan die overal gelden. Het moreel [[*relativisme|universalisme]] maakt kritiek op een andere cultuur [[*lastig|makkelijker]].",
+        "Universalisme: regels voor iedereen. Relativisme: geen standpunt van waaruit je alle anderen kan beoordelen.",
+    ),
+    tabel(
+        "Juist of fout over het is-ought probleem?",
+        [
+            ("Het zegt dat uit wat is, niet zonder meer volgt wat zou moeten.", J),
+            ("Het werd aangewezen door David Hume.", J),
+            ("Het zegt dat feiten voor de ethiek totaal onbelangrijk zijn.", F),
+            ("Het treft elke redenering die een beschrijving zomaar in een voorschrift omzet.", J),
+        ],
+        "Hume zegt niet dat feiten er niet toe doen, wel dat de stap van feit naar norm apart verdedigd moet worden.",
+        kolommen=["Juist", "Fout"],
+    ),
+    mk(
+        "Welke uitspraak maakt de sprong van is naar ought?",
+        ["Veel mensen geven elk jaar geld aan een goed doel.",
+         "Een onderzoek beschrijft hoeveel mensen elk jaar geld aan een goed doel geven.",
+         "De natuur kent geen medelijden, dus hoeven wij dat ook niet te kennen.",
+         "Sommige mensen vinden dat je elk jaar iets aan een goed doel moet geven."],
+        2,
+        "Van hoe de natuur is naar hoe wij moeten zijn: daar zit de sprong. De andere zinnen beschrijven alleen.",
+    ),
+    inv(
+        "Hoe heet het probleem dat Hume aanwijst bij de stap van wat is naar wat zou moeten? Het ... probleem",
+        ["is-ought", "is ought", "is-ought-", "is/ought"],
+        "Een beschrijving en een voorschrift zijn twee soorten uitspraken. De stap ertussen moet je apart verdedigen.",
+    ),
+]
