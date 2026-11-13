@@ -85,6 +85,52 @@ export const tipsTekst = {
         "Zet in Mijn account bij je kind het vinkje voor voorlezen aan. Dan staat er bij elke vraag en bij de uitleg een knopje 🔊 Lees voor. De computer of tablet leest voor met zijn eigen stem. Dit is nog een uitprobeersel: het klinkt het best in Google Chrome op een computer, en bij formules en vreemde woorden kan de uitspraak eens mislopen.",
     },
   ],
+  /* Blok voor gezinnen uit Nederland, onder het bord. Kim, 10 november 2026,
+     na een review van een Nederlandse ouder die zocht welk niveau bij haar
+     zoon paste. Wij blijven een Belgisch platform: Belgische woorden blijven
+     staan, dit blok helpt enkel de weg vinden. Zet op null om het te
+     verbergen: nederland: null, */
+  nederland: {
+    kop: "Kom je uit Nederland?",
+    intro:
+      "Welkom! Wij zijn een Belgisch platform en volgen de Vlaamse leerstof, met Belgische woorden en leerjaren in plaats van groepen. Een Vlaams kind begint in het 1ste leerjaar op zes jaar, net als in groep 3. Zo vind je ongeveer het juiste niveau:",
+    tabelKoppen: ["Bij ons", "Vlaanderen", "Nederland, ongeveer"],
+    tabel: [
+      ["🧱 Basis", "herhaling, voor elk niveau", "herhaling, voor elk niveau"],
+      ["🌱 Start", "5de en 6de leerjaar", "groep 7 en 8"],
+      ["✨ Spark", "1ste en 2de middelbaar", "klas 1 en 2, vooral havo en vwo"],
+      ["🚀 Boost", "3de en 4de middelbaar", "klas 3 en 4 havo of vwo"],
+      ["🌍 Beyond", "5de en 6de middelbaar", "havo 5, vwo 5 en 6"],
+    ],
+    vakken: [
+      {
+        kop: "Past goed",
+        tekst:
+          "Wiskunde, Nederlands, Engels en wetenschap en techniek. Dat is grotendeels dezelfde leerstof, met dezelfde spelling en hetzelfde metrieke stelsel. Engels is in Nederland zelfs een vak op de basisschool.",
+      },
+      {
+        kop: "Typisch Belgisch",
+        tekst:
+          "Frans is bij ons verplicht in het 5de en 6de leerjaar, in Nederland niet. Bij aardrijkskunde en geschiedenis gaat een deel over België; de algemene hoofdstukken, zoals kaartlezen, Europa en de tijdlijn, zijn wel bruikbaar.",
+      },
+      {
+        kop: "In het middelbaar",
+        tekst:
+          "Spark sluit nog vrij goed aan bij de brugklas. Boost en Beyond volgen de Vlaamse studierichtingen en zijn niet gemaakt voor de Nederlandse eindexamens, al kunnen losse hoofdstukken wiskunde of wetenschappen wel helpen.",
+      },
+      {
+        kop: "Twijfel je?",
+        tekst:
+          "Begin dan met Basis of met een paar oefeningen van Start. Na een handvol vragen zie je snel of het te makkelijk of te moeilijk is.",
+      },
+    ],
+  } as {
+    kop: string;
+    intro: string;
+    tabelKoppen: string[];
+    tabel: string[][];
+    vakken: { kop: string; tekst: string }[];
+  } | null,
   /* De knop onderaan. Laat de link leeg om de knop te verbergen. */
   oproepTekst: "Naar de vakken",
   oproepLink: "/",

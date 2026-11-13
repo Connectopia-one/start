@@ -77,6 +77,61 @@ export default async function TipsPage() {
           </div>
         </div>
 
+        {/* Voor gezinnen uit Nederland: welk niveau past ongeveer. Een gewoon
+            vak onder het bord, want een tabel leest niet op een post-it. */}
+        {tipsTekst.nederland && (
+          <section id="nederland" className="mt-10 scroll-mt-6 rounded-[20px] border border-forest/20 bg-white/70 p-6">
+            <h2 className="font-display text-xl font-semibold text-ink">
+              {tipsTekst.nederland.kop}
+            </h2>
+            <p className="mt-2 max-w-2xl text-[15px] leading-relaxed text-ink">
+              {tipsTekst.nederland.intro}
+            </p>
+            <div className="mt-4 overflow-x-auto">
+              <table className="w-full border-collapse text-left text-[14px] sm:text-[15px]">
+                <thead>
+                  <tr>
+                    {tipsTekst.nederland.tabelKoppen.map((kop) => (
+                      <th
+                        key={kop}
+                        className="border-b-2 border-forest/30 py-2 pr-4 font-display font-semibold text-forest"
+                      >
+                        {kop}
+                      </th>
+                    ))}
+                  </tr>
+                </thead>
+                <tbody>
+                  {tipsTekst.nederland.tabel.map((rij) => (
+                    <tr key={rij[0]}>
+                      {rij.map((cel, i) => (
+                        <td
+                          key={i}
+                          className={`border-b border-forest/10 py-2 pr-3 align-top text-ink ${i === 0 ? "whitespace-nowrap font-semibold" : ""}`}
+                        >
+                          {cel}
+                        </td>
+                      ))}
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+            <div className="mt-6 grid grid-cols-1 gap-4 sm:grid-cols-2">
+              {tipsTekst.nederland.vakken.map((vak) => (
+                <div key={vak.kop} className="rounded-xl border border-forest/15 p-4">
+                  <h3 className="font-display text-[16px] font-semibold text-ink">
+                    {vak.kop}
+                  </h3>
+                  <p className="mt-1 text-[15px] leading-relaxed text-ink">
+                    {vak.tekst}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </section>
+        )}
+
         {tipsTekst.oproepLink && (
           <p className="mt-8">
             <Link

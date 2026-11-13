@@ -41,6 +41,20 @@ export const nieuwTekst = {
 export const updates: Update[] = [
   {
     datum: "13 november 2026",
+    titel: "Hulp voor gezinnen uit Nederland",
+    tekst:
+      "Op de tipspagina staat nu een blok \"Kom je uit Nederland?\". Daarin zie je welk niveau ongeveer bij welke groep of klas past (Start is bijvoorbeeld groep 7 en 8), welke vakken goed aansluiten en welke typisch Belgisch zijn.",
+    opVraag: true,
+    link: { tekst: "Naar de tips", href: "/tips#nederland" },
+  },
+  {
+    datum: "13 november 2026",
+    titel: "Kan u telt als juist",
+    tekst:
+      "Bij Nederlands in Basis stond \"Kan u mij even helpen?\" als fout antwoord, terwijl dat in Vlaanderen gewoon goed is. Die keuze is vervangen door een zin die echt fout is.",
+  },
+  {
+    datum: "13 november 2026",
     titel: "Pittige hoofdstukken geschiedenis in Boost",
     tekst:
       "Geschiedenis in Boost heeft nu bij elk van de elf thema's een pittig hoofdstuk met dertig vragen, in de vormen van het examen van de Examencommissie: tabellen, slepen, koppelen, klikken op een kaart of tijdlijn en vragen bij echte prenten en schilderijen. Ook de juiste antwoorden bij wiskunde in Boost en bij wiskunde in Beyond dubbele finaliteit zijn niet langer vaak het langste antwoord.",
