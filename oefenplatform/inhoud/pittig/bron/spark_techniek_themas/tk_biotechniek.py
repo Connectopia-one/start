@@ -110,7 +110,7 @@ VRAGEN = [
         vraag="Je zoekt een bakje voor je boterhammen dat je daarna ook kunt laten recycleren. Welke pictogrammen wil je daarvoor op het bakje zien? (meerdere antwoorden mogelijk)",
         opties=[
             "Een glas en een vork",
-            "Pijlen die een driehoek vormen",
+            "Drie pijlen in een driehoek, zonder cijfer",
             "Het Groenpuntlogo",
             "Een doorstreepte vuilnisbak",
         ],
@@ -140,7 +140,7 @@ VRAGEN = [
         type="waarofniet",
         vraag="Een bakje met het pictogram van een glas en een vork is daardoor ook recycleerbaar.",
         antwoord=False,
-        uitleg="Het glas en de vork zeggen alleen dat het materiaal veilig is voor voedsel. Of het recycleerbaar is, zegt een ander pictogram: de pijlen die een driehoek vormen.",
+        uitleg="Het glas en de vork zeggen alleen dat het materiaal veilig is voor voedsel. Of het recycleerbaar is, zegt een ander pictogram: drie pijlen die een driehoek vormen, zonder cijfer in het midden.",
     ),
     dict(
         type="invultekst",

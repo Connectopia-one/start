@@ -41,6 +41,13 @@ export const nieuwTekst = {
 export const updates: Update[] = [
   {
     datum: "13 november 2026",
+    titel: "Twee vragen duidelijker",
+    tekst:
+      "Bij techniek in Spark ging een vraag over het pictogram met pijlen in een driehoek, maar er bestaan twee zulke pictogrammen. De vraag zegt nu duidelijk welk je bedoelt. Bij geschiedenis in Start telt bij de vraag over de eeuw van de industriële revolutie nu ook \"19de\" of \"negentiende\" als juist.",
+    opVraag: true,
+  },
+  {
+    datum: "13 november 2026",
     titel: "Hulp voor gezinnen uit Nederland",
     tekst:
       "Op de tipspagina staat nu een blok \"Kom je uit Nederland?\". Daarin zie je welk niveau ongeveer bij welke groep of klas past (Start is bijvoorbeeld groep 7 en 8), welke vakken goed aansluiten en welke typisch Belgisch zijn.",

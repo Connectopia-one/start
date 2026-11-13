@@ -877,7 +877,7 @@
         {
           "type": "invultekst",
           "vraag": "In welke eeuw vond de industriële revolutie vooral plaats in onze streken? Antwoord met een getal.",
-          "antwoord": "19",
+          "antwoord": ["19", "19de", "19e", "negentiende"],
           "uitleg": "Vanaf het begin van de 19de eeuw kwamen fabrieken en stoommachines op."
         },
         {

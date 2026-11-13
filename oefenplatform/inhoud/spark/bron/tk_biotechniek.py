@@ -322,9 +322,9 @@ DEEL2 = [
     ),
     dict(
         type="waarofniet",
-        vraag="Het pictogram met de pijlen die een driehoek vormen, betekent dat de verpakking recycleerbaar is.",
+        vraag="Het pictogram met drie pijlen die een driehoek vormen, zonder cijfer in het midden, betekent dat de verpakking recycleerbaar is.",
         antwoord=True,
-        uitleg="Dat is het recyclageteken. Soms staat er een percentage bij: dat zegt hoeveel gerecycleerd materiaal er al in zit.",
+        uitleg="Dat is het recyclageteken. Soms staat er een percentage bij: dat zegt hoeveel gerecycleerd materiaal er al in zit. Staat er een cijfer van 1 tot 7 in het midden van de driehoek, dan zegt het pictogram om welke soort kunststof het gaat.",
     ),
     dict(
         type="meerkeuze",
