@@ -1146,9 +1146,9 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Je koopt twee broden van 3 euro. Hoeveel betaal je? Geef het bedrag in cijfers.",
-          "antwoord": "6",
-          "uitleg": "Twee keer drie is zes euro. In het Frans: six euros."
+          "vraag": "Vul het Franse woord in: Je voudrais deux ... (broden)",
+          "antwoord": "pains",
+          "uitleg": "Le pain is het brood. In het meervoud komt er een s bij: deux pains. Die s hoor je niet."
         }
       ]
     },

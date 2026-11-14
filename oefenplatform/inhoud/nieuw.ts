@@ -40,6 +40,13 @@ export const nieuwTekst = {
 
 export const updates: Update[] = [
   {
+    datum: "14 november 2026",
+    titel: "Duidelijkere vragen in Basis",
+    tekst:
+      "Bij de verleden tijd in Basis Nederlands staat er nu altijd bij wie het doet, bijvoorbeeld 'ik werk', zodat je weet of het werkte of werkten moet zijn. De vraag over 't kofschip vraagt nu naar de medeklinkers. Bij het meervoud staat er een voorbeeldwoord bij woorden op -el en -er, en in plaats van 'losse klinker' staat er nu gewoon welke letters het zijn: a, i, o of u. Bij wiskundewoorden en bij Frans stond telkens een rekenvraag die niet bij het vak hoorde: die zijn vervangen door een vraag over wiskundewoorden en een Franse vraag.",
+    opVraag: true,
+  },
+  {
     datum: "13 november 2026",
     titel: "Twee vragen duidelijker",
     tekst:

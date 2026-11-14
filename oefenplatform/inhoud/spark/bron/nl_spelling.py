@@ -319,7 +319,7 @@ DEEL2 = [
         vraag="Welk verkleinwoord is juist?",
         opties=["baby'tje", "babytje", "baby-tje", "babietje"],
         antwoord=0,
-        uitleg="Eindigt een woord op een losse klinker, dan komt er een apostrof voor het verkleinsuffix: baby'tje, tv'tje.",
+        uitleg="Eindigt een woord op een a, i, o, u of y, zoals baby, of is het een afkorting, zoals tv, dan komt er een apostrof voor het verkleinsuffix: baby'tje, tv'tje.",
     ),
     dict(
         type="waarofniet",

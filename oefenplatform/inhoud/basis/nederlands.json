@@ -775,7 +775,7 @@
       "vragen": [
         {
           "type": "meerkeuze",
-          "vraag": "Wat is de verleden tijd van werken?",
+          "vraag": "Wat is de verleden tijd van ik werk? (werken)",
           "opties": [
             "werkte",
             "werkde",
@@ -786,14 +786,14 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is de verleden tijd van spelen?",
+          "vraag": "Wat is de verleden tijd van ik speel? (spelen)",
           "opties": [
             "speelde",
             "speelte",
             "speelden"
           ],
           "antwoord": 0,
-          "uitleg": "De stam speel eindigt op een l, en die zit niet in 't kofschip. Dus -de: speelde."
+          "uitleg": "De stam speel eindigt op een l, en die zit niet in 't kofschip. Dus -de: ik speelde, wij speelden."
         },
         {
           "type": "meerkeuze",
@@ -808,7 +808,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is de verleden tijd van hopen?",
+          "vraag": "Wat is de verleden tijd van ik hoop? (hopen)",
           "opties": [
             "hoopte",
             "hoopde",
@@ -819,7 +819,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is de verleden tijd van leven?",
+          "vraag": "Wat is de verleden tijd van hij leeft? (leven)",
           "opties": [
             "leefde",
             "leefte",
@@ -830,7 +830,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is de verleden tijd van lopen?",
+          "vraag": "Wat is de verleden tijd van ik loop? (lopen)",
           "opties": [
             "liep",
             "loopte",
@@ -841,7 +841,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is de verleden tijd van zingen?",
+          "vraag": "Wat is de verleden tijd van zij zingt? (zingen)",
           "opties": [
             "zong",
             "zingde",
@@ -863,7 +863,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is de verleden tijd van wij fietsen?",
+          "vraag": "Wat is de verleden tijd van wij fietsen? (fietsen)",
           "opties": [
             "wij fietsten",
             "wij fietsden",
@@ -874,7 +874,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is de verleden tijd van antwoorden?",
+          "vraag": "Wat is de verleden tijd van ik antwoord? (antwoorden)",
           "opties": [
             "antwoordde",
             "antwoorde",
@@ -885,7 +885,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is de verleden tijd van zoeken?",
+          "vraag": "Wat is de verleden tijd van ik zoek? (zoeken)",
           "opties": [
             "zocht",
             "zoekte",
@@ -896,18 +896,18 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke letters zitten in 't kofschip?",
+          "vraag": "Welke medeklinkers uit 't kofschip geven -te in de verleden tijd?",
           "opties": [
             "t, k, f, s, ch, p",
-            "k, o, f, s, ch, p",
+            "k, f, s, h, p",
             "alle medeklinkers behalve d"
           ],
           "antwoord": 0,
-          "uitleg": "De klinkers tellen niet mee, alleen de medeklinkers van het woord: t, k, f, s, ch en p. Soms schrijft men het als 'x-fokschaap'."
+          "uitleg": "Je kijkt alleen naar de medeklinkers van 't kofschip: t, k, f, s, ch en p. De klinkers o en i doen niet mee. Soms schrijft men het als 'x-fokschaap'."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is de verleden tijd van praten?",
+          "vraag": "Wat is de verleden tijd van hij praat? (praten)",
           "opties": [
             "praatte",
             "praate",
@@ -1572,7 +1572,7 @@
             "autoos"
           ],
           "antwoord": 0,
-          "uitleg": "Na een losse klinker komt er een apostrof voor de s, anders zou je autos lezen met een korte o: auto's, foto's, oma's."
+          "uitleg": "Eindigt een woord op een a, i, o of u, dan komt er een apostrof voor de s. Anders zou je autos lezen met een korte o: auto's, foto's, oma's."
         },
         {
           "type": "meerkeuze",
@@ -1686,15 +1686,15 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Woorden die op -el of -er eindigen, krijgen in het meervoud een s.",
+          "vraag": "Woorden die op -el of -er eindigen, zoals tafel en bakker, krijgen in het meervoud een s.",
           "antwoord": true,
-          "uitleg": "Waar: tafels, wandelaars, bakkers, sleutels. Dat scheelt een hoop twijfelen."
+          "uitleg": "Waar: tafels, bakkers, sleutels, emmers. Dat scheelt een hoop twijfelen."
         },
         {
           "type": "waarofniet",
-          "vraag": "Na een losse klinker schrijf je het meervoud met een apostrof: oma's.",
+          "vraag": "Eindigt een woord op een a, i, o of u, zoals oma, dan schrijf je het meervoud met een apostrof: oma's.",
           "antwoord": true,
-          "uitleg": "Waar, anders verandert de klank: omas zou je lezen als o-mas. Hetzelfde bij foto's en menu's."
+          "uitleg": "Waar, anders verandert de klank: omas zou je lezen als o-mas, met een korte a. Hetzelfde bij foto's, menu's en taxi's."
         },
         {
           "type": "waarofniet",
@@ -1718,7 +1718,7 @@
           "type": "invultekst",
           "vraag": "Wat is het meervoud van foto?",
           "antwoord": "foto's",
-          "uitleg": "Na een losse klinker komt een apostrof voor de s: foto's."
+          "uitleg": "Foto eindigt op een o. Dan komt er een apostrof voor de s: foto's."
         },
         {
           "type": "invultekst",

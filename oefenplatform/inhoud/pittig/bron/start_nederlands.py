@@ -584,7 +584,7 @@ TAALSYSTEEM = [
         "vraag": "Hoeveel lettergrepen heeft het woord elektriciteit? Antwoord met een getal.",
         "antwoord": "5",
         "reken": "5",
-        "uitleg": "E-lek-tri-ci-teit: vijf. Let op de eerste, die bestaat uit één losse klinker.",
+        "uitleg": "E-lek-tri-ci-teit: vijf. Let op de eerste lettergreep: die is maar één letter, de e.",
     },
     {
         "type": "meerkeuze",

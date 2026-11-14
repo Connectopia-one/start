@@ -91,6 +91,6 @@ DEEL2 = [
           "Le magasin. Een grote winkel is un grand magasin, een warenhuis.", WOORD),
     invul("Vertaal duur naar het Frans, met één woord.", "cher",
           "Cher. Een duur boek is un livre cher, en C'est cher ! betekent dat is duur.", WOORD),
-    invul("Je koopt twee broden van 3 euro. Hoeveel betaal je? Geef het bedrag in cijfers.", "6",
-          "Twee keer drie is zes euro. In het Frans: six euros.", 6),
+    invul("Vul het Franse woord in: Je voudrais deux ... (broden)", "pains",
+          "Le pain is het brood. In het meervoud komt er een s bij: deux pains. Die s hoor je niet.", WOORD),
 ]

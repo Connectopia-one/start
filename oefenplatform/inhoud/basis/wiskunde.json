@@ -904,14 +904,14 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Je verdeelt \\(13\\) snoepjes over \\(4\\) kinderen. Elk krijgt er \\(3\\). Hoeveel blijven er over?",
+          "vraag": "\\(6 + 9 = 15\\). Hoe heten de \\(6\\) en de \\(9\\)?",
           "opties": [
-            "\\(1\\)",
-            "\\(3\\)",
-            "\\(4\\)"
+            "De termen",
+            "De factoren",
+            "De delers"
           ],
           "antwoord": 0,
-          "uitleg": "\\(4\\,\\text{kinderen} \\cdot 3\\) snoepjes = \\(12\\). Van de \\(13\\) blijft er \\(1\\) over. Dat is de rest."
+          "uitleg": "De getallen die je optelt, heten termen. Factoren zijn de getallen die je vermenigvuldigt, en een deler hoort bij een deling."
         },
         {
           "type": "meerkeuze",
