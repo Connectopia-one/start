@@ -261,6 +261,15 @@ export default async function BeheerPage({
               >
                 Lijsten per kamp &rarr;
               </Link>
+              {/* De wedstrijdquiz voor de iPad op de Dag van de Wetenschap
+                  (15/11/2026). Deelnames komen bij de aanvragen, soort
+                  "wedstrijd". Zie lib/quiz/pagina.ts. */}
+              <a
+                href="/beheer/quiz"
+                className="inline-block rounded-md border border-border px-3 py-2 text-sm font-medium text-ink hover:border-forest hover:text-forest-dark"
+              >
+                Wedstrijdquiz (iPad) &rarr;
+              </a>
             </div>
 
             <h2 className="mt-8 font-display text-lg font-semibold text-ink">
