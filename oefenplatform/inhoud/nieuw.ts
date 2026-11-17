@@ -47,6 +47,12 @@ export const updates: Update[] = [
     opVraag: true,
   },
   {
+    datum: "17 november 2026",
+    titel: "Bedankje bij een melding blijft weg",
+    tekst:
+      "Klik je het bedankje voor je melding weg met het kruisje, dan komt het niet meer terug, ook niet op een andere computer of in een andere browser. Een bedankje dat ouder is dan drie weken verdwijnt ook vanzelf.",
+  },
+  {
     datum: "14 november 2026",
     titel: "Duidelijkere vragen in Basis",
     tekst:

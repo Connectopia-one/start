@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { meldingGezien } from "@/app/melding-actions";
 
 /*
   Het bedankje voor wie op de meldknop duwde.
@@ -10,10 +11,12 @@ import { useEffect, useState } from "react";
   bekeken en behandeld hebben?"
 
   Er vertrekt dus geen mail, net als bij het bericht aan alle ouders: het staat
-  bovenaan het platform, bij die ene persoon. Wegklikken wordt in zijn eigen
-  browser onthouden, per melding. Kan de browser niets bewaren (privévenster),
-  dan staat het er de volgende keer gewoon weer: vervelender dan omgekeerd,
-  maar dan mist niemand zijn antwoord.
+  bovenaan het platform, bij die ene persoon.
+
+  Wegklikken wordt sinds 17 november 2026 in de databank onthouden (Kim: "de
+  meldingen van een maand geleden blijven terug komen"), zodat het op geen
+  enkel toestel of in geen enkele browser terugkomt. De browser onthoudt het
+  daarnaast nog, zodat het meteen weg is, ook als de databank even traag is.
 
   Zie components/BerichtBalk.tsx en supabase/melding-antwoord.sql.
 */
@@ -56,8 +59,11 @@ export function MeldingAntwoorden({
       const nieuw = [...gezien(), id];
       window.localStorage.setItem(SLEUTEL, JSON.stringify(nieuw.slice(-50)));
     } catch {
-      // Geen opslag: dan staat het er de volgende keer weer.
+      // Geen opslag in de browser: de databank onthoudt het wel.
     }
+    meldingGezien(id).catch(() => {
+      // Lukt het niet, dan blijft het in deze browser toch weg.
+    });
   }
 
   const tonen = meldingen.filter((m) => !weg.includes(m.id));

@@ -18,6 +18,11 @@ import {
   hoekjeUitleg,
 } from "@/inhoud/onderwijsdoelen";
 
+/* Een bedankje voor een melding blijft hoogstens zo lang staan. */
+function drieWekenGeleden() {
+  return new Date(Date.now() - 21 * 24 * 60 * 60 * 1000).toISOString();
+}
+
 export default async function HomePage() {
   const basis = vindNiveau("basis")!;
   const hoekje = vindNiveau("hoekje")!;
@@ -40,7 +45,8 @@ export default async function HomePage() {
      ondertussen afgehandeld is. Enkel de eigen meldingen: daar zorgt de
      leesregel in supabase/melding-antwoord.sql voor. Meldingen die al
      afgevinkt waren voor die dag hebben geen moment, en die laten we dus met
-     rust: anders kwam er een bedankje voor iets van weken geleden. */
+     rust: anders kwam er een bedankje voor iets van weken geleden. Wat de
+     melder al wegklikte (gezien_op) komt niet meer terug. */
   let meldingen: MeldingAntwoord[] = [];
 
   if (session) {
@@ -54,14 +60,25 @@ export default async function HomePage() {
       .maybeSingle();
     bericht = (data as Bericht | null) ?? null;
 
-    const { data: eigen } = await supabase
-      .from("meldingen")
-      .select("id, antwoord, afgehandeld_op, hoofdstuk:hoofdstukken(titel)")
-      .eq("profile_id", session.userId)
-      .eq("afgehandeld", true)
-      .not("afgehandeld_op", "is", null)
-      .order("afgehandeld_op", { ascending: false })
-      .limit(3);
+    /* Kim, 17 november 2026: "de meldingen van een maand geleden blijven
+       terug komen." Wegklikken werd enkel in de browser onthouden. Nu ook in
+       de databank (gezien_op, zie supabase/melding-gezien.sql), en een
+       bedankje dat ouder is dan drie weken tonen we sowieso niet meer: dat
+       is geen nieuws meer. Bestaat gezien_op nog niet, dan vragen we het
+       zoals vroeger, met enkel die drie weken erbij. */
+    const sinds = drieWekenGeleden();
+    const vraagEigen = (metGezien: boolean) => {
+      let q = supabase
+        .from("meldingen")
+        .select("id, antwoord, afgehandeld_op, hoofdstuk:hoofdstukken(titel)")
+        .eq("profile_id", session.userId)
+        .eq("afgehandeld", true)
+        .gte("afgehandeld_op", sinds);
+      if (metGezien) q = q.is("gezien_op", null);
+      return q.order("afgehandeld_op", { ascending: false }).limit(3);
+    };
+    const eerste = await vraagEigen(true);
+    const eigen = eerste.error ? (await vraagEigen(false)).data : eerste.data;
 
     meldingen = (eigen ?? []).map((m) => {
       // Supabase geeft een gekoppelde tabel terug als object; de typegenerator
