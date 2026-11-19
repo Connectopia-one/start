@@ -250,7 +250,7 @@ DEEL2 = [
             "de eenheid m is geen SI-eenheid",
         ],
         antwoord=0,
-        uitleg=r"Het aantal beduidende cijfers moet passen bij de nauwkeurigheid van het instrument. Een gewoon meetlint leest tot op de millimeter af, dus \(1{,}253\) m is het meest dat je mag noteren.",
+        uitleg=r"Het aantal beduidende cijfers moet passen bij de nauwkeurigheid van het instrument. Een gewoon meetlint leest tot op de millimeter af, dus \(1{,}253\) m is het meest dat je mag noteren. Wetenschappelijke notatie is niet verplicht: je gebruikt ze vooral bij heel grote of heel kleine getallen. Een lengte als \(1{,}253\) m mag je gewoon zo schrijven.",
     ),
     dict(
         type="meerkeuze",

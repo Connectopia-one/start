@@ -40,6 +40,13 @@ export const nieuwTekst = {
 
 export const updates: Update[] = [
   {
+    datum: "19 november 2026",
+    titel: "Een spatie te veel is geen fout meer",
+    tekst:
+      "Typ je het juiste woord, maar met een spatie te veel of te weinig, zoals 'verbruiks goed' in plaats van 'verbruiksgoed'? Dan telt je antwoord nu als juist, en je ziet eronder hoe je het schrijft. Bij de taalvakken blijft het fout, want daar hoort de spelling bij wat je leert. Bij vier vragen is de uitleg ook duidelijker: over de geografische breedte en lengte, over de wetenschappelijke notatie bij fysica, over 'groter dan' bij een flowchart in techniek, en over het verschil tussen het eerste kwartier en de wassende maan.",
+    opVraag: true,
+  },
+  {
     datum: "14 november 2026",
     titel: "Duidelijkere vragen in Basis",
     tekst:

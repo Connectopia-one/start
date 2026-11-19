@@ -20,7 +20,7 @@ DEEL1 = [
                  "de hoogte boven de zeespiegel in meter",
                  "de afstand tot de dichtste kust in kilometer"],
          antwoord=0,
-         uitleg="De breedte zegt hoe ver je noordelijk of zuidelijk van de evenaar zit, van 0° op de evenaar tot 90° op de polen."),
+         uitleg="De breedte zegt hoe ver je noordelijk of zuidelijk van de evenaar zit, van 0° op de evenaar tot 90° op de polen. De hoek met de nulmeridiaan, oost of west, is de geografische lengte."),
     dict(type="meerkeuze",
          vraag="Door welke plaats loopt de nulmeridiaan?",
          opties=["Greenwich, bij Londen", "Parijs, in Frankrijk",

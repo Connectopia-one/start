@@ -2396,7 +2396,7 @@
           "type": "invultekst",
           "vraag": "Volg deze flowchart. Start. Invoer: een getal. Ruit: is het getal groter dan 10? Bij ja: trek er 10 van af. Bij nee: tel er 5 bij op. Uitvoer: toon het getal. Einde. Welk getal wordt getoond als de invoer 10 is? Antwoord met een getal.",
           "antwoord": "15",
-          "uitleg": "10 is niet groter dan 10, dus volg je de pijl bij nee en tel je er 5 bij op: 15. Wie 0 antwoordt, las 'groter dan' als 'groter dan of gelijk aan'."
+          "uitleg": "'Groter dan 10' betekent 11 of meer. 10 is gelijk aan 10 en dus niet groter, daarom volg je de pijl bij nee en tel je er 5 bij op: 15. Wie 0 antwoordt, las 'groter dan' als 'groter dan of gelijk aan'."
         },
         {
           "type": "invultekst",

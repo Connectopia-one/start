@@ -286,8 +286,16 @@ function zelfdeWoord(
   if (!soepel) return false;
   // Getallen laten we met rust: daar is 3 niet hetzelfde als 3en.
   if (/\d/.test(a) || /\d/.test(b)) return false;
+  // Een spatie te veel of te weinig midden in een woord: "verbruiks goed" voor
+  // "verbruiksgoed" (melding november 2026). Het kind kent het begrip, dus
+  // buiten de taalvakken telt het juist. De juiste schrijfwijze komt eronder.
+  if (zonderSpaties(a) === zonderSpaties(b)) return true;
   if (woordkern(a) === woordkern(b)) return true;
   return vollediger(a, b);
+}
+
+function zonderSpaties(tekst: string): string {
+  return tekst.replace(/ /g, "");
 }
 
 /*
@@ -328,7 +336,10 @@ function schrijfwijzeNota(
   vraag: Vraag,
   gegeven: Gegeven,
   soepel: boolean,
-): { tekst: string; soort: "accent" | "hoofdletter" | "vorm" } | null {
+): {
+  tekst: string;
+  soort: "accent" | "hoofdletter" | "spatie" | "vorm";
+} | null {
   const accent = accentverschil(vraag, gegeven);
   if (accent) return { tekst: accent, soort: "accent" };
   const hoofdletter = hoofdletterverschil(vraag, gegeven);
@@ -341,6 +352,10 @@ function schrijfwijzeNota(
   // Wie "50%" typte waar wij "50" schreven, hoeft geen verbetering te zien.
   if (antwoorden.some((a) => zelfdeGetal(getypt, normaliseerAntwoord(a))))
     return null;
+  const spatie = antwoorden.find(
+    (a) => zonderSpaties(normaliseerAntwoord(a)) === zonderSpaties(getypt),
+  );
+  if (spatie) return { tekst: spatie, soort: "spatie" };
   const anders = antwoorden.find((a) => zelfdeWoord(gegeven, a, true));
   return anders ? { tekst: anders, soort: "vorm" } : null;
 }
@@ -791,7 +806,9 @@ function VraagKaart({
                     ? "Let op de accenten: je schrijft het als "
                     : nota.soort === "hoofdletter"
                       ? "Let op de hoofdletter: je schrijft het als "
-                      : "Wij schreven het als "}
+                      : nota.soort === "spatie"
+                        ? "Let op de spatie: je schrijft het als "
+                        : "Wij schreven het als "}
                   <strong>{nota.tekst}</strong>.
                 </p>
               );
