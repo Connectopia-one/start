@@ -244,7 +244,7 @@ DEEL2 = [
          opties=["met de klok mee", "tegen de klok in",
                  "van noord naar zuid heen en terug", "elke keer in een andere zin"],
          antwoord=0,
-         uitleg="Door het corioliseffect buigt het water naar rechts af. Dat levert een kring met de klok mee, en op het zuidelijk halfrond net omgekeerd."),
+         uitleg="Door het corioliseffect buigt het water af naar rechts, gezien in de richting waarin het stroomt. Volg de kring in de Atlantische Oceaan: bij de evenaar stroomt het water naar het westen, langs Amerika naar het noorden (de Golfstroom), dan naar het oosten richting Europa en langs Afrika terug naar het zuiden. Dat is een kring met de klok mee. Op het zuidelijk halfrond is het net omgekeerd."),
     dict(type="invultekst",
          vraag="Hoe heet de koude zeestroom langs de kust van Peru en Chili?",
          antwoord=["Humboldtstroom", "de Humboldtstroom", "Humboldt"],

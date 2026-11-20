@@ -40,6 +40,13 @@ export const nieuwTekst = {
 
 export const updates: Update[] = [
   {
+    datum: "20 november 2026",
+    titel: "Zeestromen duidelijker uitgelegd",
+    tekst:
+      "Bij aardrijkskunde in Beyond legt de vraag over de grote oceaankringen nu uit wat 'naar rechts afbuigen' betekent: rechts gezien in de richting waarin het water stroomt, niet rechts op de kaart. Wie de kring in de Atlantische Oceaan volgt, ziet zo dat ze met de klok mee draait.",
+    opVraag: true,
+  },
+  {
     datum: "19 november 2026",
     titel: "Een spatie te veel is geen fout meer",
     tekst:
