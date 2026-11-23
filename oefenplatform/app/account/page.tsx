@@ -1,10 +1,11 @@
 import Link from "next/link";
 import { Header } from "@/components/Header";
 import { requireIngelogd } from "@/lib/auth";
-import { heeftVolledigeToegang } from "@/lib/toegang";
+import { gratisTotNogGeldig, heeftVolledigeToegang } from "@/lib/toegang";
 import { huidigSchooljaar, schooljaarEindeLabel } from "@/lib/schooljaar";
 import {
-  PRIJS_NU_EUR,
+  heeftVastePrijs,
+  prijsVoor,
   TIJDELIJKE_PRIJS,
   TIJDELIJKE_PRIJS_KORT,
 } from "@/lib/prijs";
@@ -26,6 +27,19 @@ export default async function AccountPage({
   // Staat er een pincode op dit account, dan eerst die (zie lib/ouderpin.ts).
   const pinAan = await vereisOuderPin(session.userId, "/account");
   const volledigeToegang = heeftVolledigeToegang(profile);
+  // Gratis toegang met een einddatum (testgezinnen): toon die datum, niet het
+  // einde van het schooljaar. Wie ook betaalde, ziet het schooljaar.
+  const betaaldDitJaar = profile?.toegang_schooljaar === huidigSchooljaar();
+  const gratisTot =
+    !betaaldDitJaar && gratisTotNogGeldig(profile?.gratis_tot) ? (profile?.gratis_tot ?? null) : null;
+  const geldigTot = gratisTot
+    ? new Date(gratisTot + "T12:00:00").toLocaleDateString("nl-BE", {
+        day: "numeric",
+        month: "long",
+        year: "numeric",
+        timeZone: "Europe/Brussels",
+      })
+    : schooljaarEindeLabel();
 
   const supabase = await createClient();
   const { data: kinderen } = await supabase
@@ -83,8 +97,8 @@ export default async function AccountPage({
             </p>
           ) : volledigeToegang ? (
             <p className="mt-2 text-sm text-forest-dark">
-              Je hebt volledige toegang tot alle hoofdstukken, geldig tot en met{" "}
-              {schooljaarEindeLabel()}.
+              {gratisTot ? "Je hebt gratis volledige toegang tot alle hoofdstukken" : "Je hebt volledige toegang tot alle hoofdstukken"}, geldig tot en met{" "}
+              {geldigTot}.
             </p>
           ) : (
             <>
@@ -95,10 +109,10 @@ export default async function AccountPage({
                 href="/betalen"
                 className="mt-4 inline-block rounded-md bg-forest px-4 py-2 text-sm font-medium text-white transition hover:bg-forest-dark"
               >
-                Volledige toegang vrijgeven — €{PRIJS_NU_EUR} per schooljaar
+                Volledige toegang vrijgeven — €{prijsVoor(profile)} per schooljaar
                 (tot en met {schooljaarEindeLabel()})
               </Link>
-              {TIJDELIJKE_PRIJS && (
+              {TIJDELIJKE_PRIJS && !heeftVastePrijs(profile) && (
                 <p className="mt-2 text-xs text-ink-dim">
                   {TIJDELIJKE_PRIJS_KORT}
                 </p>

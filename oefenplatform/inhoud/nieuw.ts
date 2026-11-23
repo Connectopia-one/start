@@ -40,6 +40,12 @@ export const nieuwTekst = {
 
 export const updates: Update[] = [
   {
+    datum: "24 november 2026",
+    titel: "Je ziet tot wanneer je toegang loopt",
+    tekst:
+      "Kreeg je gratis toegang als testgezin? Op je accountpagina staat nu de juiste datum tot wanneer die loopt. En wie als dank voor de enquête en een review een vaste prijs van 20 euro kreeg, betaalt die ook echt bij een volgend schooljaar, ook als de gewone prijs stijgt.",
+  },
+  {
     datum: "20 november 2026",
     titel: "Zeestromen duidelijker uitgelegd",
     tekst:

@@ -1,6 +1,12 @@
 import { Header } from "@/components/Header";
 import { requireIngelogd } from "@/lib/auth";
-import { PRIJS_NU_EUR, PRIJS_STRAKS_EUR, TIJDELIJKE_PRIJS, TIJDELIJKE_PRIJS_UITLEG } from "@/lib/prijs";
+import {
+  PRIJS_STRAKS_EUR,
+  TIJDELIJKE_PRIJS,
+  TIJDELIJKE_PRIJS_UITLEG,
+  heeftVastePrijs,
+  prijsVoor,
+} from "@/lib/prijs";
 import { isTestSleutel } from "@/lib/mollie";
 import { huidigSchooljaar, schooljaarEindeLabel } from "@/lib/schooljaar";
 import { gebruikPlusklasCode, startBetaling } from "./actions";
@@ -12,6 +18,8 @@ export default async function BetalenPage({
 }) {
   const session = await requireIngelogd();
   const { fout } = await searchParams;
+  const prijs = prijsVoor(session.profile);
+  const vastePrijs = heeftVastePrijs(session.profile);
 
   return (
     <>
@@ -28,16 +36,22 @@ export default async function BetalenPage({
 
         <div className="mt-6 rounded-xl border border-border bg-surface p-6 text-center">
           <p className="font-display text-3xl font-semibold text-forest-dark">
-            {TIJDELIJKE_PRIJS && (
+            {TIJDELIJKE_PRIJS && !vastePrijs && (
               <span className="mr-2 align-middle text-lg font-normal text-ink-dim line-through">
                 €{PRIJS_STRAKS_EUR}
               </span>
             )}
-            €{PRIJS_NU_EUR}
+            €{prijs}
             <span className="text-base font-normal text-ink-dim"> / schooljaar</span>
           </p>
           <p className="mt-1 text-xs text-ink-dim">geldig tot en met {schooljaarEindeLabel()}</p>
-          {TIJDELIJKE_PRIJS && (
+          {vastePrijs && (
+            <p className="mt-4 rounded-md bg-forest/10 px-4 py-3 text-left text-sm text-ink">
+              Jij betaalt een vaste prijs van €{prijs} per schooljaar, als dank voor je enquête en je
+              review. Die prijs blijft zolang je lid blijft.
+            </p>
+          )}
+          {TIJDELIJKE_PRIJS && !vastePrijs && (
             <p className="mt-4 rounded-md bg-amber/10 px-4 py-3 text-left text-sm text-ink">
               {TIJDELIJKE_PRIJS_UITLEG}
             </p>

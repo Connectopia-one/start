@@ -7,7 +7,7 @@ import { heeftVolledigeToegang } from "@/lib/toegang";
 import { huidigSchooljaar } from "@/lib/schooljaar";
 import { isTestSleutel, mollieClient } from "@/lib/mollie";
 import { zoekPlusklasCode } from "@/lib/plusklas";
-import { PRIJS_NU_EUR } from "@/lib/prijs";
+import { prijsVoor } from "@/lib/prijs";
 import { createAdminClient } from "@/lib/supabase/admin";
 
 export async function startBetaling() {
@@ -26,11 +26,12 @@ export async function startBetaling() {
   }
 
   const schooljaar = huidigSchooljaar();
+  const bedrag = prijsVoor(session.profile);
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL!;
   const admin = createAdminClient();
 
   const payment = await mollieClient().payments.create({
-    amount: { currency: "EUR", value: PRIJS_NU_EUR.toFixed(2) },
+    amount: { currency: "EUR", value: bedrag.toFixed(2) },
     description: `Oefenplatform Connectopia — toegang schooljaar ${schooljaar}`,
     redirectUrl: `${siteUrl}/betalen/voltooid`,
     webhookUrl: `${siteUrl}/api/mollie/webhook`,
@@ -40,7 +41,7 @@ export async function startBetaling() {
   await admin.from("betalingen").insert({
     profile_id: session.userId,
     schooljaar,
-    bedrag: PRIJS_NU_EUR,
+    bedrag,
     mollie_payment_id: payment.id,
     status: "open",
   });

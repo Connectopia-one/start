@@ -2,6 +2,7 @@ import Link from "next/link";
 import { requireBeheerder } from "@/lib/auth";
 import { createClient } from "@/lib/supabase/server";
 import { huidigSchooljaar } from "@/lib/schooljaar";
+import { gratisTotNogGeldig } from "@/lib/toegang";
 import { Header } from "@/components/Header";
 
 export default async function BeheerPage() {
@@ -21,7 +22,7 @@ export default async function BeheerPage() {
     { data: codes },
     { count: meldingenCount },
     { count: weetjesCount },
-    { count: enkelGratisCount },
+    { data: zonderVinkje },
   ] = await Promise.all([
     supabase.from("vakken").select("id", { count: "exact", head: true }),
     /* Betaald = wie voor dit schooljaar betaald heeft (een gezin één keer,
@@ -43,24 +44,30 @@ export default async function BeheerPage() {
     supabase.from("plusklas_codes").select("code, label"),
     supabase.from("meldingen").select("id", { count: "exact", head: true }).eq("afgehandeld", false),
     supabase.from("weetjes").select("id", { count: "exact", head: true }).eq("goedgekeurd", false),
+    /* Zonder vinkje en zonder betaling: enkel de gratis hoofdstukken, tenzij
+       ze nog gratis toegang met een einddatum hebben (testgezinnen, gratis_tot).
+       Die tellen bij "gratis toegang van jou". */
     supabase
       .from("profiles")
-      .select("id", { count: "exact", head: true })
+      .select("*")
       .neq("role", "beheerder")
       .eq("is_plusklas", false)
       .or(`toegang_schooljaar.is.null,toegang_schooljaar.neq.${schooljaar}`),
   ]);
 
+  const metEinddatum = (zonderVinkje ?? []).filter((p) => gratisTotNogGeldig(p.gratis_tot));
+  const enkelGratisCount = (zonderVinkje?.length ?? 0) - metEinddatum.length;
+
   const labelVan = new Map((codes ?? []).map((c) => [c.code, c.label || c.code]));
   const perGroep = new Map<string, number>();
-  for (const p of gratisVanJou ?? []) {
+  for (const p of [...(gratisVanJou ?? []), ...metEinddatum]) {
     const groep = p.plusklas_code ? (labelVan.get(p.plusklas_code) ?? p.plusklas_code) : "zonder code";
     perGroep.set(groep, (perGroep.get(groep) ?? 0) + 1);
   }
   const groepen = [...perGroep.entries()].sort(
     (a, b) => (a[0] === "zonder code" ? 1 : b[0] === "zonder code" ? -1 : b[1] - a[1]),
   );
-  const gratisCount = gratisVanJou?.length ?? 0;
+  const gratisCount = (gratisVanJou?.length ?? 0) + metEinddatum.length;
 
   return (
     <>
@@ -71,7 +78,7 @@ export default async function BeheerPage() {
           {vakkenCount ?? 0} vak{(vakkenCount ?? 0) === 1 ? "" : "ken"} &middot; {betaaldCount ?? 0}{" "}
           betaald &middot; {gratisCount} gratis toegang van jou &middot;{" "}
           <Link href="/beheer/gezinnen?toon=open" className="underline hover:text-ink">
-            {enkelGratisCount ?? 0} enkel de gratis hoofdstukken
+            {enkelGratisCount} enkel de gratis hoofdstukken
           </Link>
         </p>
         {groepen.length > 0 && (

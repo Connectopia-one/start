@@ -14,6 +14,22 @@ export const PRIJS_STRAKS_EUR = 50;
 export const TIJDELIJKE_PRIJS = true;
 
 /*
+  Wat dit gezin betaalt. Betalers die de enquête en een review instuurden,
+  houden als dank hun vaste prijs (20 euro) zolang ze lid blijven, ook als de
+  gewone prijs stijgt (Kim, 5 november 2026). Is de gewone prijs ooit lager,
+  dan betalen ze die.
+*/
+export function prijsVoor(profile: { vaste_prijs_eur?: number | null } | null | undefined): number {
+  const vast = profile?.vaste_prijs_eur;
+  return vast && vast > 0 ? Math.min(vast, PRIJS_NU_EUR) : PRIJS_NU_EUR;
+}
+
+/** Heeft dit gezin een vaste prijs die lager is dan de gewone? */
+export function heeftVastePrijs(profile: { vaste_prijs_eur?: number | null } | null | undefined): boolean {
+  return prijsVoor(profile) < PRIJS_NU_EUR;
+}
+
+/*
   Het zinnetje dat bij de prijs hoort zolang die tijdelijk is.
   Je mag de tekst gerust herschrijven; de bedragen vullen zichzelf in.
 */

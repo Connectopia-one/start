@@ -9,6 +9,8 @@ export type Profile = {
   toegang_schooljaar: string | null;
   /** Gratis volledige toegang tot en met deze dag ("2027-08-31"), los van code of betaling. */
   gratis_tot?: string | null;
+  /** Vaste prijs als dank voor enquête en review (betalers, Kim 5/11/2026), bv. 20. */
+  vaste_prijs_eur?: number | null;
 };
 
 export type Session = {
