@@ -41,6 +41,18 @@ export const nieuwTekst = {
 export const updates: Update[] = [
   {
     datum: "24 november 2026",
+    titel: "Pittige hoofdstukken filosofie en recht in Beyond",
+    tekst:
+      "Filosofie en recht in Beyond doorstroom heeft nu bij elk van de 20 onderwerpen een pittig hoofdstuk van 30 vragen, in examenvorm: situaties uit het echte leven, tabellen, zinnen aanvullen en tekeningen van de rechtbanken en de rechtszaal waarop je moet klikken.",
+  },
+  {
+    datum: "24 november 2026",
+    titel: "Pittige hoofdstukken wiskunde in Boost dubbele finaliteit",
+    tekst:
+      "Wiskunde in Boost dubbele finaliteit heeft nu bij elk van de 13 onderwerpen een pittig hoofdstuk van 30 vragen. De vragen lijken op een echt examen: met grafieken, getallenassen en tekeningen waarop je moet klikken, tabellen invullen en vragen die samen bij één situatie horen.",
+  },
+  {
+    datum: "24 november 2026",
     titel: "Je ziet tot wanneer je toegang loopt",
     tekst:
       "Kreeg je gratis toegang als testgezin? Op je accountpagina staat nu de juiste datum tot wanneer die loopt. En wie als dank voor de enquête en een review een vaste prijs van 20 euro kreeg, betaalt die ook echt bij een volgend schooljaar, ook als de gewone prijs stijgt.",
@@ -71,18 +83,6 @@ export const updates: Update[] = [
     tekst:
       "Bij de verleden tijd in Basis Nederlands staat er nu altijd bij wie het doet, bijvoorbeeld 'ik werk', zodat je weet of het werkte of werkten moet zijn. De vraag over 't kofschip vraagt nu naar de medeklinkers. Bij het meervoud staat er een voorbeeldwoord bij woorden op -el en -er, en in plaats van 'losse klinker' staat er nu gewoon welke letters het zijn: a, i, o of u. Bij wiskundewoorden en bij Frans stond telkens een rekenvraag die niet bij het vak hoorde: die zijn vervangen door een vraag over wiskundewoorden en een Franse vraag.",
     opVraag: true,
-  },
-  {
-    datum: "13 november 2026",
-    titel: "Pittige hoofdstukken filosofie en recht in Beyond",
-    tekst:
-      "Filosofie en recht in Beyond doorstroom heeft nu bij elk van de 20 onderwerpen een pittig hoofdstuk van 30 vragen, in examenvorm: situaties uit het echte leven, tabellen, zinnen aanvullen en tekeningen van de rechtbanken en de rechtszaal waarop je moet klikken.",
-  },
-  {
-    datum: "13 november 2026",
-    titel: "Pittige hoofdstukken wiskunde in Boost dubbele finaliteit",
-    tekst:
-      "Wiskunde in Boost dubbele finaliteit heeft nu bij elk van de 13 onderwerpen een pittig hoofdstuk van 30 vragen. De vragen lijken op een echt examen: met grafieken, getallenassen en tekeningen waarop je moet klikken, tabellen invullen en vragen die samen bij één situatie horen.",
   },
   {
     datum: "13 november 2026",
