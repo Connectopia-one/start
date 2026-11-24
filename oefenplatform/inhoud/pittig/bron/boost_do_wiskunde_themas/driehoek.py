@@ -22,7 +22,7 @@ def _pijl(x1, y1, x2, y2, kleur, naam, dx, dy):
     a, b, c, d = X(x1), Y(y1), X(x2), Y(y2)
     return [f'<line x1="{a}" y1="{b}" x2="{c}" y2="{d}" stroke="{kleur}" stroke-width="5" marker-end="url(#pijl{naam})"/>',
             f'<defs><marker id="pijl{naam}" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="{kleur}"/></marker></defs>',
-            s_tekst((a + c) / 2 + dx, (b + d) / 2 + dy, f'<tspan font-style="italic">{naam}</tspan>', 28, kleur=kleur, vet=True)]
+            s_tekst((a + c) / 2 + dx, (b + d) / 2 + dy, naam, 28, kleur=kleur, vet=True)]
 
 
 def _rooster():

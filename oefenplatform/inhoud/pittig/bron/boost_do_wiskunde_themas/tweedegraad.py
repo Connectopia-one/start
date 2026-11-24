@@ -93,7 +93,7 @@ VRAGEN = [
         r"Zoek twee getallen met product \(-15\) en som \(-2\): \(-5\) en \(3\).",
     ),
     tabel(
-        "Juist of fout?",
+        "Juist of fout over vierkantsvergelijkingen?",
         [(r"\(x^{2} = 2x\) heeft als oplossingen \(0\) en \(2\).", J),
          (r"Uit \(x^{2} = 2x\) volgt door te delen door \(x\) dat \(x = 2\) de enige oplossing is.", F),
          (r"\((x - 1)^{2} = 0\) heeft één oplossing.", J),

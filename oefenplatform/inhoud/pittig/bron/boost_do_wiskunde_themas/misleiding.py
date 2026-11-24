@@ -23,7 +23,7 @@ def _wolken():
             elif letter == "B":    # geen verband
                 u = rnd.random()
             else:                  # zwak positief
-                u = t + rnd.uniform(-0.35, 0.35)
+                u = 0.15 + 0.7 * t + rnd.uniform(-0.25, 0.25)
             u = min(max(u, 0.02), 0.98)
             d.append(f'<circle cx="{x0 + 40 + 200 * t:.1f}" cy="{470 - 340 * u:.1f}" r="7" fill="{GROEN}"/>')
     return d

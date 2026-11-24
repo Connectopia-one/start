@@ -107,7 +107,7 @@ VRAGEN = [
         r"Er zijn \(12\) veelvouden van \(4\) tot \(50\). Complementregel: \(50 - 12 = 38\).",
     ),
     tabel(
-        "Juist of fout?",
+        "Juist of fout over tellen?",
         [("Je gooit vier keer met een munt: er zijn 16 uitkomsten.", J),
          ("Uit 5 truien en 5 broeken kun je 10 combinaties maken.", F),
          ("Een fietsslot met 3 schijven van 0 tot 9 heeft 999 codes.", F),

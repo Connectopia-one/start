@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#fffdf7"/>
+<polygon points="800,520 240,170 240,520" fill="#eef5e6" stroke="#2f4a22" stroke-width="4"/>
+<polyline points="240,486 274,486 274,520" fill="none" stroke="#24331b" stroke-width="2"/>
+<path d="M 730,520 A 70 70 0 0 1 740.6,482.9" fill="none" stroke="#7a4b8c" stroke-width="3"/>
+<text x="700.0" y="506.0" font-size="26" text-anchor="middle" fill="#7a4b8c" font-weight="bold">α</text>
+<path d="M 240,240 A 70 70 0 0 0 299.4,207.1" fill="none" stroke="#7a4b8c" stroke-width="3"/>
+<text x="264.0" y="282.0" font-size="26" text-anchor="middle" fill="#7a4b8c" font-weight="bold">β</text>
+<text x="824.0" y="530.0" font-size="28" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<text x="236.0" y="154.0" font-size="28" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<text x="212.0" y="530.0" font-size="28" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<text x="500.0" y="30.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">Rechthoekige driehoek ABC met rechte hoek in C</text>
+</svg>

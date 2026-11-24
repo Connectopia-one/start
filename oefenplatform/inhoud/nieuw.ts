@@ -41,6 +41,12 @@ export const nieuwTekst = {
 export const updates: Update[] = [
   {
     datum: "24 november 2026",
+    titel: "Pittige hoofdstukken wiskunde in Boost doorstroom",
+    tekst:
+      "Wiskunde in Boost doorstroom heeft nu bij elk van de 14 onderwerpen een pittig hoofdstuk van 30 vragen, in examenvorm: van intervallen en Pythagoras tot vectoren, parabolen en misleidende grafieken. Met zelfgetekende prenten zoals een balk, een boxplot en puntenwolken waarop je moet klikken.",
+  },
+  {
+    datum: "24 november 2026",
     titel: "Pittige hoofdstukken filosofie en recht in Beyond",
     tekst:
       "Filosofie en recht in Beyond doorstroom heeft nu bij elk van de 20 onderwerpen een pittig hoofdstuk van 30 vragen, in examenvorm: situaties uit het echte leven, tabellen, zinnen aanvullen en tekeningen van de rechtbanken en de rechtszaal waarop je moet klikken.",

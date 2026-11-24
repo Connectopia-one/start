@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#fffdf7"/>
+<line x1="50.0" y1="330.0" x2="950.0" y2="330.0" stroke="#24331b" stroke-width="3"/>
+<polygon points="960,330 946,323 946,337" fill="#24331b"/>
+<line x1="80.0" y1="320.0" x2="80.0" y2="340.0" stroke="#24331b" stroke-width="2"/>
+<text x="80.0" y="370.0" font-size="20" text-anchor="middle" fill="#24331b">−3</text>
+<line x1="150.0" y1="320.0" x2="150.0" y2="340.0" stroke="#24331b" stroke-width="2"/>
+<line x1="220.0" y1="320.0" x2="220.0" y2="340.0" stroke="#24331b" stroke-width="2"/>
+<text x="220.0" y="370.0" font-size="20" text-anchor="middle" fill="#24331b">−2</text>
+<line x1="290.0" y1="320.0" x2="290.0" y2="340.0" stroke="#24331b" stroke-width="2"/>
+<line x1="360.0" y1="320.0" x2="360.0" y2="340.0" stroke="#24331b" stroke-width="2"/>
+<text x="360.0" y="370.0" font-size="20" text-anchor="middle" fill="#24331b">−1</text>
+<line x1="430.0" y1="320.0" x2="430.0" y2="340.0" stroke="#24331b" stroke-width="2"/>
+<line x1="500.0" y1="320.0" x2="500.0" y2="340.0" stroke="#24331b" stroke-width="2"/>
+<text x="500.0" y="370.0" font-size="20" text-anchor="middle" fill="#24331b">0</text>
+<line x1="570.0" y1="320.0" x2="570.0" y2="340.0" stroke="#24331b" stroke-width="2"/>
+<line x1="640.0" y1="320.0" x2="640.0" y2="340.0" stroke="#24331b" stroke-width="2"/>
+<text x="640.0" y="370.0" font-size="20" text-anchor="middle" fill="#24331b">1</text>
+<line x1="710.0" y1="320.0" x2="710.0" y2="340.0" stroke="#24331b" stroke-width="2"/>
+<line x1="780.0" y1="320.0" x2="780.0" y2="340.0" stroke="#24331b" stroke-width="2"/>
+<text x="780.0" y="370.0" font-size="20" text-anchor="middle" fill="#24331b">2</text>
+<line x1="850.0" y1="320.0" x2="850.0" y2="340.0" stroke="#24331b" stroke-width="2"/>
+<line x1="920.0" y1="320.0" x2="920.0" y2="340.0" stroke="#24331b" stroke-width="2"/>
+<text x="920.0" y="370.0" font-size="20" text-anchor="middle" fill="#24331b">3</text>
+<circle cx="150.0" cy="330" r="9" fill="#7a4b8c"/>
+<text x="150.0" y="304.0" font-size="24" text-anchor="middle" fill="#7a4b8c" font-weight="bold">P</text>
+<circle cx="416.0" cy="330" r="9" fill="#7a4b8c"/>
+<text x="416.0" y="304.0" font-size="24" text-anchor="middle" fill="#7a4b8c" font-weight="bold">Q</text>
+<circle cx="563.0" cy="330" r="9" fill="#7a4b8c"/>
+<text x="563.0" y="304.0" font-size="24" text-anchor="middle" fill="#7a4b8c" font-weight="bold">R</text>
+<circle cx="745.0" cy="330" r="9" fill="#7a4b8c"/>
+<text x="745.0" y="304.0" font-size="24" text-anchor="middle" fill="#7a4b8c" font-weight="bold">S</text>
+<circle cx="815.0" cy="330" r="9" fill="#7a4b8c"/>
+<text x="815.0" y="304.0" font-size="24" text-anchor="middle" fill="#7a4b8c" font-weight="bold">T</text>
+<text x="500.0" y="30.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">Vijf punten op de getallenas</text>
+</svg>

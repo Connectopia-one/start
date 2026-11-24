@@ -99,7 +99,7 @@ VRAGEN = [
         r"\(\sqrt{6{,}5^{2} - 6^{2}} = \sqrt{42{,}25 - 36} = \sqrt{6{,}25} = 2{,}5\) m.",
     ),
     tabel(
-        "Juist of fout?",
+        "Juist of fout over goniometrische getallen?",
         [
             (r"\(\sin 60^\circ = \cos 30^\circ\)", J),
             (r"\(\sin 45^\circ = \cos 45^\circ\)", J),
@@ -162,7 +162,7 @@ VRAGEN = [
         r"De hoogte deelt de basis in twee stukken van \(1\). \(\sqrt{2^{2} - 1^{2}} = \sqrt{3}\).",
     ),
     volgorde(
-        "Zet van klein naar groot.",
+        "Zet deze goniometrische getallen van klein naar groot.",
         [r"\(\sin 10^\circ\)", r"\(\cos 70^\circ\)", r"\(\sin 50^\circ\)", r"\(\cos 20^\circ\)", r"\(\tan 60^\circ\)"],
         r"\(\cos 70^\circ = \sin 20^\circ\) en \(\cos 20^\circ = \sin 70^\circ\). Een sinus stijgt met de hoek. \(\tan 60^\circ = \sqrt{3} \approx 1{,}73\) is groter dan \(1\).",
     ),

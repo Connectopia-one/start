@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#fffdf7"/>
+<rect x="80.0" y="70.0" width="860.0" height="530.0" rx="16" fill="#fffdf7" stroke="#b9b29c" stroke-width="2"/>
+<text x="130.0" y="110.0" font-size="22" text-anchor="start" fill="#24331b" font-weight="bold">klas: 30</text>
+<circle cx="390" cy="340" r="200" fill="#2f4a22" fill-opacity="0.12" stroke="#2f4a22" stroke-width="4"/>
+<circle cx="610" cy="340" r="200" fill="#7a4b8c" fill-opacity="0.12" stroke="#7a4b8c" stroke-width="4"/>
+<text x="260.0" y="165.0" font-size="24" text-anchor="middle" fill="#2f4a22" font-weight="bold">sportclub (S)</text>
+<text x="740.0" y="165.0" font-size="24" text-anchor="middle" fill="#7a4b8c" font-weight="bold">muziekschool (M)</text>
+<text x="300.0" y="354.0" font-size="44" text-anchor="middle" fill="#24331b" font-weight="bold">9</text>
+<text x="500.0" y="354.0" font-size="44" text-anchor="middle" fill="#24331b" font-weight="bold">6</text>
+<text x="700.0" y="354.0" font-size="44" text-anchor="middle" fill="#24331b" font-weight="bold">8</text>
+<text x="880.0" y="574.0" font-size="44" text-anchor="middle" fill="#24331b" font-weight="bold">7</text>
+<text x="500.0" y="30.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">Wie zit in de sportclub, wie in de muziekschool?</text>
+</svg>

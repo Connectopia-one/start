@@ -39,7 +39,7 @@ VRAGEN = [
         "Tussen x = 2 en x = 4 blijft de functiewaarde 5: een horizontaal stuk.",
     ),
     met_prent(f"{GRAF}.svg", tabel(
-        "Kijk naar de grafiek. Juist of fout?",
+        "Kijk naar de gebroken lijn. Juist of fout?",
         [(r"Het domein is \(\left[0, 8\right]\).", J),
          (r"Het bereik is \(\left[-3, 5\right]\).", J),
          (r"\(f(0) = 0\)", F),
