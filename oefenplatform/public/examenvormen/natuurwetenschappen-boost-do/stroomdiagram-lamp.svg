@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Energiestroom van een lamp per seconde</text>
+<rect x="80" y="220" width="260" height="180" rx="0" fill="#f6e7a6" stroke="#24331b" stroke-width="2"/>
+<text x="210" y="300" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">elektrische</text>
+<text x="210" y="330" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">energie 60 J</text>
+<path d="M340 220 L 760 220 L 760 200 L 805 229 L 760 258 L 760 238 L 340 238 Z" fill="#fff4b0" stroke="#24331b" stroke-width="2"/>
+<path d="M340 238 L 340 400 L 520 400 Q 600 400 600 480 L 600 520 L 580 520 L 640 590 L 700 520 L 680 520 L 680 480 Q 680 238 340 238" fill="#f2b8a0" stroke="#24331b" stroke-width="2"/>
+<text x="870" y="237" font-size="22" text-anchor="middle" fill="#24331b">licht 6 J</text>
+<text x="800" y="560" font-size="22" text-anchor="middle" fill="#24331b">warmte 54 J</text>
+<circle cx="700" cy="190" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="700" y="197" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">P</text>
+<circle cx="470" cy="340" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="470" y="347" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">Q</text>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Een slinger in drie standen</text>
+<rect x="380" y="90" width="240" height="20" rx="4" fill="#c9b48a" stroke="#24331b" stroke-width="2"/>
+<line x1="500" y1="110" x2="255.74070831911507" y2="401.0968883852116" stroke="#d9d4c4" stroke-width="3" stroke-dasharray="8 6"/>
+<circle cx="255.74070831911507" cy="401.0968883852116" r="30" fill="#f3d3b4" stroke="#24331b" stroke-width="2"/>
+<line x1="500" y1="110" x2="500.0" y2="490.0" stroke="#24331b" stroke-width="3"/>
+<circle cx="500.0" cy="490.0" r="30" fill="#b5651d" stroke="#24331b" stroke-width="2"/>
+<line x1="500" y1="110" x2="744.2592916808849" y2="401.0968883852116" stroke="#d9d4c4" stroke-width="3" stroke-dasharray="8 6"/>
+<circle cx="744.2592916808849" cy="401.0968883852116" r="30" fill="#f3d3b4" stroke="#24331b" stroke-width="2"/>
+<path d="M256 401 Q 500 560 744 401" fill="none" stroke="#3b6fa0" stroke-width="2"/>
+<line x1="150" y1="490" x2="850" y2="490" stroke="#d9d4c4" stroke-width="1" stroke-dasharray="8 6"/>
+<circle cx="185.74070831911507" cy="401.0968883852116" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="185.74070831911507" y="408.0968883852116" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<circle cx="500" cy="560" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="500" y="567" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<circle cx="814.2592916808849" cy="401.0968883852116" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="814.2592916808849" y="408.0968883852116" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+</svg>
