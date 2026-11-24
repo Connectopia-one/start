@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<rect x="60" y="20" width="880" height="600" rx="10" fill="#ffffff" stroke="#24331b" stroke-width="3"/>
+<rect x="60" y="20" width="880" height="60" rx="10" fill="#a8c98a" stroke="#24331b" stroke-width="3"/>
+<text x="500" y="60" font-size="24" text-anchor="middle" fill="#24331b" font-weight="bold">Internationale vrachtbrief CMR nr. 2026-0417</text>
+<rect x="60" y="80" width="440" height="150" rx="0" fill="none" stroke="#24331b" stroke-width="2"/>
+<circle cx="96" cy="116" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="96" y="123" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<text x="134" y="124" font-size="21" text-anchor="start" fill="#24331b">Fietsen Trappers bv</text>
+<text x="134" y="158" font-size="21" text-anchor="start" fill="#24331b">Industrieweg 12, Alken (België)</text>
+<rect x="500" y="80" width="440" height="150" rx="0" fill="none" stroke="#24331b" stroke-width="2"/>
+<circle cx="536" cy="116" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="536" y="123" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<text x="574" y="124" font-size="21" text-anchor="start" fill="#24331b">Vélo Plus</text>
+<text x="574" y="158" font-size="21" text-anchor="start" fill="#24331b">Rue du Port 8, Lille (Frankrijk)</text>
+<rect x="60" y="230" width="880" height="120" rx="0" fill="none" stroke="#24331b" stroke-width="2"/>
+<circle cx="96" cy="266" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="96" y="273" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<text x="134" y="274" font-size="21" text-anchor="start" fill="#24331b">Transport Maes nv, Genk</text>
+<text x="134" y="308" font-size="21" text-anchor="start" fill="#24331b">vrachtwagen 1-ABC-123</text>
+<rect x="60" y="350" width="440" height="140" rx="0" fill="none" stroke="#24331b" stroke-width="2"/>
+<circle cx="96" cy="386" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="96" y="393" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">D</text>
+<text x="134" y="394" font-size="21" text-anchor="start" fill="#24331b">40 elektrische fietsen</text>
+<text x="134" y="428" font-size="21" text-anchor="start" fill="#24331b">in 40 dozen</text>
+<rect x="500" y="350" width="440" height="140" rx="0" fill="none" stroke="#24331b" stroke-width="2"/>
+<circle cx="536" cy="386" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="536" y="393" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">E</text>
+<text x="574" y="394" font-size="21" text-anchor="start" fill="#24331b">1 120 kg</text>
+<rect x="60" y="490" width="880" height="130" rx="0" fill="none" stroke="#24331b" stroke-width="2"/>
+<circle cx="96" cy="526" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="96" y="533" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">F</text>
+<text x="134" y="534" font-size="21" text-anchor="start" fill="#24331b">ingeladen in Alken op 12/11/2026</text>
+<text x="134" y="568" font-size="21" text-anchor="start" fill="#24331b">te leveren in Lille op 13/11/2026</text>
+</svg>

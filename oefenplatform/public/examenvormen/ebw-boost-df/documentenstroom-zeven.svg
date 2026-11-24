@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Documentenstroom tussen koper en leverancier</text>
+<rect x="70" y="60" width="220" height="56" rx="12" fill="#a8c98a" stroke="#24331b" stroke-width="2"/>
+<text x="180" y="96" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">koper</text>
+<rect x="710" y="60" width="220" height="56" rx="12" fill="#eef3f8" stroke="#24331b" stroke-width="2"/>
+<text x="820" y="96" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">leverancier</text>
+<line x1="180" y1="116" x2="180" y2="620" stroke="#d9d4c4" stroke-width="3" stroke-dasharray="8 6"/>
+<line x1="820" y1="116" x2="820" y2="620" stroke="#d9d4c4" stroke-width="3" stroke-dasharray="8 6"/>
+<line x1="195" y1="160" x2="805" y2="160" stroke="#3b6fa0" stroke-width="4"/>
+<polygon points="805,160 790.3,166.2 790.3,153.8" fill="#3b6fa0"/>
+<circle cx="500" cy="136" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="500" y="143" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<line x1="805" y1="230" x2="195" y2="230" stroke="#b5651d" stroke-width="4"/>
+<polygon points="195,230 209.7,223.8 209.7,236.2" fill="#b5651d"/>
+<circle cx="500" cy="206" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="500" y="213" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<line x1="195" y1="300" x2="805" y2="300" stroke="#3b6fa0" stroke-width="4"/>
+<polygon points="805,300 790.3,306.2 790.3,293.8" fill="#3b6fa0"/>
+<circle cx="500" cy="276" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="500" y="283" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<line x1="805" y1="370" x2="195" y2="370" stroke="#b5651d" stroke-width="4"/>
+<polygon points="195,370 209.7,363.8 209.7,376.2" fill="#b5651d"/>
+<circle cx="500" cy="346" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="500" y="353" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">D</text>
+<line x1="805" y1="440" x2="195" y2="440" stroke="#b5651d" stroke-width="4"/>
+<polygon points="195,440 209.7,433.8 209.7,446.2" fill="#b5651d"/>
+<circle cx="500" cy="416" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="500" y="423" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">E</text>
+<line x1="805" y1="510" x2="195" y2="510" stroke="#b5651d" stroke-width="4"/>
+<polygon points="195,510 209.7,503.8 209.7,516.2" fill="#b5651d"/>
+<circle cx="500" cy="486" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="500" y="493" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">F</text>
+<line x1="805" y1="580" x2="195" y2="580" stroke="#b5651d" stroke-width="4"/>
+<polygon points="195,580 209.7,573.8 209.7,586.2" fill="#b5651d"/>
+<circle cx="500" cy="556" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="500" y="563" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">G</text>
+<text x="500" y="632" font-size="17" text-anchor="middle" fill="#24331b">tijd loopt van boven naar onder</text>
+</svg>

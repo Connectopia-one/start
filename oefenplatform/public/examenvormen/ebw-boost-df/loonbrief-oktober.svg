@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<rect x="90" y="24" width="820" height="596" rx="14" fill="#ffffff" stroke="#24331b" stroke-width="3"/>
+<rect x="90" y="24" width="820" height="66" rx="14" fill="#a8c98a" stroke="#24331b" stroke-width="3"/>
+<text x="500" y="67" font-size="24" text-anchor="middle" fill="#24331b" font-weight="bold">Loonbrief oktober 2026 — Jonas Claes, magazijnier</text>
+<text x="140" y="130" font-size="18" text-anchor="start" fill="#24331b">werkgever: bv Groen &amp; Fris, Alken</text>
+<text x="860" y="130" font-size="18" text-anchor="end" fill="#24331b">gewerkte dagen: 20</text>
+<line x1="120" y1="150" x2="880" y2="150" stroke="#d9d4c4" stroke-width="2"/>
+<circle cx="140" cy="203" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="140" y="210" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<text x="180" y="210" font-size="22" text-anchor="start" fill="#24331b">brutoloon (152 uur × 15,00 euro)</text>
+<text x="860" y="210" font-size="22" text-anchor="end" fill="#24331b" font-weight="bold">2 280,00 euro</text>
+<circle cx="140" cy="285" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="140" y="292" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<text x="180" y="292" font-size="22" text-anchor="start" fill="#24331b">werknemersbijdrage RSZ (13,07 %)</text>
+<text x="860" y="292" font-size="22" text-anchor="end" fill="#24331b" font-weight="bold">− 298,00 euro</text>
+<line x1="560" y1="318" x2="880" y2="318" stroke="#d9d4c4" stroke-width="2"/>
+<circle cx="140" cy="367" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="140" y="374" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<text x="180" y="374" font-size="22" text-anchor="start" fill="#24331b">belastbaar loon</text>
+<text x="860" y="374" font-size="22" text-anchor="end" fill="#24331b" font-weight="bold">1 982,00 euro</text>
+<circle cx="140" cy="449" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="140" y="456" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">D</text>
+<text x="180" y="456" font-size="22" text-anchor="start" fill="#24331b">bedrijfsvoorheffing</text>
+<text x="860" y="456" font-size="22" text-anchor="end" fill="#24331b" font-weight="bold">− 380,00 euro</text>
+<line x1="560" y1="482" x2="880" y2="482" stroke="#d9d4c4" stroke-width="2"/>
+<circle cx="140" cy="531" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="140" y="538" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">E</text>
+<text x="180" y="538" font-size="22" text-anchor="start" fill="#24331b">nettoloon</text>
+<text x="860" y="538" font-size="22" text-anchor="end" fill="#24331b" font-weight="bold">1 602,00 euro</text>
+</svg>

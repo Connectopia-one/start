@@ -41,6 +41,12 @@ export const nieuwTekst = {
 export const updates: Update[] = [
   {
     datum: "24 november 2026",
+    titel: "Pittige hoofdstukken economie en bedrijfswetenschappen in Boost dubbele finaliteit",
+    tekst:
+      "Economie en bedrijfswetenschappen in Boost dubbele finaliteit heeft nu bij elk van de 16 onderwerpen een pittig hoofdstuk van 30 vragen, in examenvorm: van behoeften, nut, productie, kosten en opbrengsten over ondernemingsvormen, organisatie en afdelingen tot werving, het arbeidscontract, schorsing, het loon, marketing, het verkoopgesprek, de documenten en logistiek. Met casussen, rekenvragen en klikvragen op grafieken en zelfgetekende documenten zoals een organogram, een vacature, een loonbrief en een vrachtbrief.",
+  },
+  {
+    datum: "24 november 2026",
     titel: "Pittige hoofdstukken economie in Boost doorstroom",
     tekst:
       "Economie in Boost doorstroom heeft nu bij elk van de 19 onderwerpen een pittig hoofdstuk van 30 vragen, in examenvorm: van de kringloop, het bbp en groei over nut, budgetlijn, kosten en het optimum tot de markt, de arbeidsmarkt en handel, en verder ondernemingsvormen, balans, boekhouden, facturen, strategie en marketing. Met casussen, rekenvragen en klikvragen op zelfgetekende grafieken, een balans, een factuur en een SWOT.",

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Organogram van bakkerij Gouden Korst</text>
+<rect x="400" y="66" width="200" height="52" rx="10" fill="#a8c98a" stroke="#24331b" stroke-width="2"/>
+<text x="500.0" y="99" font-size="18" text-anchor="middle" fill="#24331b">zaakvoerder</text>
+<rect x="720" y="150" width="220" height="52" rx="10" fill="#eef3f8" stroke="#24331b" stroke-width="2"/>
+<text x="830.0" y="183" font-size="18" text-anchor="middle" fill="#24331b">juridisch adviseur</text>
+<line x1="500" y1="118" x2="500" y2="232" stroke="#24331b" stroke-width="3"/>
+<line x1="500" y1="176" x2="720" y2="176" stroke="#3b6fa0" stroke-width="3" stroke-dasharray="8 6"/>
+<line x1="130" y1="232" x2="870" y2="232" stroke="#24331b" stroke-width="3"/>
+<line x1="130" y1="232" x2="130" y2="262" stroke="#24331b" stroke-width="3"/>
+<rect x="40" y="262" width="180" height="52" rx="10" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="130.0" y="295" font-size="18" text-anchor="middle" fill="#24331b">aankoop</text>
+<line x1="375" y1="232" x2="375" y2="262" stroke="#24331b" stroke-width="3"/>
+<rect x="285" y="262" width="180" height="52" rx="10" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="375.0" y="295" font-size="18" text-anchor="middle" fill="#24331b">productie</text>
+<line x1="625" y1="232" x2="625" y2="262" stroke="#24331b" stroke-width="3"/>
+<rect x="535" y="262" width="180" height="52" rx="10" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="625.0" y="295" font-size="18" text-anchor="middle" fill="#24331b">verkoop</text>
+<line x1="870" y1="232" x2="870" y2="262" stroke="#24331b" stroke-width="3"/>
+<rect x="780" y="262" width="180" height="52" rx="10" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="870.0" y="295" font-size="18" text-anchor="middle" fill="#24331b">boekhouding</text>
+<line x1="375" y1="314" x2="375" y2="362" stroke="#24331b" stroke-width="3"/>
+<rect x="285" y="362" width="180" height="52" rx="10" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="375.0" y="395" font-size="18" text-anchor="middle" fill="#24331b">ploegbaas</text>
+<line x1="625" y1="314" x2="625" y2="362" stroke="#24331b" stroke-width="3"/>
+<rect x="535" y="362" width="180" height="52" rx="10" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="625.0" y="395" font-size="18" text-anchor="middle" fill="#24331b">winkelverkoper</text>
+<line x1="375" y1="414" x2="375" y2="452" stroke="#24331b" stroke-width="3"/>
+<line x1="270" y1="452" x2="480" y2="452" stroke="#24331b" stroke-width="3"/>
+<line x1="270" y1="452" x2="270" y2="482" stroke="#24331b" stroke-width="3"/>
+<rect x="195" y="482" width="150" height="52" rx="10" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="270.0" y="515" font-size="18" text-anchor="middle" fill="#24331b">bakker</text>
+<line x1="480" y1="452" x2="480" y2="482" stroke="#24331b" stroke-width="3"/>
+<rect x="405" y="482" width="150" height="52" rx="10" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="480.0" y="515" font-size="18" text-anchor="middle" fill="#24331b">bakker</text>
+<circle cx="630" cy="92" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="630" y="99" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<circle cx="965" cy="176" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="965" y="183" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<circle cx="258" cy="288" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="258" y="295" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<circle cx="258" cy="388" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="258" y="395" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">D</text>
+<circle cx="172" cy="508" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="172" y="515" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">E</text>
+<circle cx="508" cy="288" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="508" y="295" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">F</text>
+<circle cx="753" cy="288" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="753" y="295" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">G</text>
+</svg>
