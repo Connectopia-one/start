@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Lewisstructuur van een watermolecule</text>
+<text x="500" y="360" font-size="70" text-anchor="middle" fill="#24331b" font-weight="bold">O</text>
+<text x="300" y="360" font-size="70" text-anchor="middle" fill="#24331b" font-weight="bold">H</text>
+<text x="700" y="360" font-size="70" text-anchor="middle" fill="#24331b" font-weight="bold">H</text>
+<line x1="345" y1="336" x2="455" y2="336" stroke="#24331b" stroke-width="6"/>
+<line x1="545" y1="336" x2="655" y2="336" stroke="#24331b" stroke-width="6"/>
+<line x1="470" y1="250" x2="530" y2="250" stroke="#24331b" stroke-width="6"/>
+<line x1="470" y1="400" x2="530" y2="400" stroke="#24331b" stroke-width="6"/>
+</svg>
