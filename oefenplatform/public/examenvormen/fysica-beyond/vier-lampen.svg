@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Vier lampen schijnen op dezelfde metaalplaat</text>
+<rect x="80" y="470" width="840" height="50" rx="6" fill="#c9ccd1" stroke="#24331b" stroke-width="2"/>
+<text x="500" y="552" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">metaalplaat: f₀ = 6,0 · 10¹⁴ Hz</text>
+<rect x="120" y="120" width="120" height="70" rx="14" fill="#b03a2e" stroke="#24331b" stroke-width="2"/>
+<text x="180" y="162" font-size="15" text-anchor="middle" fill="#ffffff" font-weight="bold">4,3 · 10¹⁴ Hz</text>
+<text x="180" y="220" font-size="18" text-anchor="middle" fill="#24331b">fel</text>
+<line x1="136.0" y1="240" x2="92.0" y2="455" stroke="#b03a2e" stroke-width="3" stroke-dasharray="8 6"/>
+<line x1="158.0" y1="240" x2="136.0" y2="455" stroke="#b03a2e" stroke-width="3" stroke-dasharray="8 6"/>
+<line x1="180.0" y1="240" x2="180.0" y2="455" stroke="#b03a2e" stroke-width="3" stroke-dasharray="8 6"/>
+<line x1="202.0" y1="240" x2="224.0" y2="455" stroke="#b03a2e" stroke-width="3" stroke-dasharray="8 6"/>
+<line x1="224.0" y1="240" x2="268.0" y2="455" stroke="#b03a2e" stroke-width="3" stroke-dasharray="8 6"/>
+<circle cx="180" cy="90" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="180" y="97" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<rect x="330" y="120" width="120" height="70" rx="14" fill="#2f4a22" stroke="#24331b" stroke-width="2"/>
+<text x="390" y="162" font-size="15" text-anchor="middle" fill="#ffffff" font-weight="bold">5,7 · 10¹⁴ Hz</text>
+<text x="390" y="220" font-size="18" text-anchor="middle" fill="#24331b">fel</text>
+<line x1="346.0" y1="240" x2="302.0" y2="455" stroke="#2f4a22" stroke-width="3" stroke-dasharray="8 6"/>
+<line x1="368.0" y1="240" x2="346.0" y2="455" stroke="#2f4a22" stroke-width="3" stroke-dasharray="8 6"/>
+<line x1="390.0" y1="240" x2="390.0" y2="455" stroke="#2f4a22" stroke-width="3" stroke-dasharray="8 6"/>
+<line x1="412.0" y1="240" x2="434.0" y2="455" stroke="#2f4a22" stroke-width="3" stroke-dasharray="8 6"/>
+<line x1="434.0" y1="240" x2="478.0" y2="455" stroke="#2f4a22" stroke-width="3" stroke-dasharray="8 6"/>
+<circle cx="390" cy="90" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="390" y="97" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<rect x="550" y="120" width="120" height="70" rx="14" fill="#3b6fa0" stroke="#24331b" stroke-width="2"/>
+<text x="610" y="162" font-size="15" text-anchor="middle" fill="#ffffff" font-weight="bold">6,7 · 10¹⁴ Hz</text>
+<text x="610" y="220" font-size="18" text-anchor="middle" fill="#24331b">zwak</text>
+<line x1="599.0" y1="240" x2="588.0" y2="455" stroke="#3b6fa0" stroke-width="3" stroke-dasharray="8 6"/>
+<line x1="621.0" y1="240" x2="632.0" y2="455" stroke="#3b6fa0" stroke-width="3" stroke-dasharray="8 6"/>
+<circle cx="610" cy="90" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="610" y="97" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<rect x="760" y="120" width="120" height="70" rx="14" fill="#7a4b8c" stroke="#24331b" stroke-width="2"/>
+<text x="820" y="162" font-size="15" text-anchor="middle" fill="#ffffff" font-weight="bold">9,0 · 10¹⁴ Hz</text>
+<text x="820" y="220" font-size="18" text-anchor="middle" fill="#24331b">zwak</text>
+<line x1="809.0" y1="240" x2="798.0" y2="455" stroke="#7a4b8c" stroke-width="3" stroke-dasharray="8 6"/>
+<line x1="831.0" y1="240" x2="842.0" y2="455" stroke="#7a4b8c" stroke-width="3" stroke-dasharray="8 6"/>
+<circle cx="820" cy="90" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="820" y="97" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">D</text>
+</svg>
