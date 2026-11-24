@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">De bewustzijnsniveaus als een ijsberg</text>
+<rect x="60" y="190" width="880" height="430" rx="0" fill="#dde8ef" stroke="none" stroke-width="0"/>
+<line x1="60" y1="190" x2="940" y2="190" stroke="#6d8fa3" stroke-width="3"/>
+<path d="M430 190 L470 90 L520 70 L560 120 L590 190 Z" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<path d="M430 190 L590 190 L660 280 L340 280 Z" fill="#f4f7f9" stroke="#24331b" stroke-width="2"/>
+<path d="M340 280 L660 280 L760 420 L700 580 L300 590 L240 430 Z" fill="#eaf0f4" stroke="#24331b" stroke-width="2"/>
+<circle cx="510" cy="150" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="510" y="157" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<circle cx="500" cy="240" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="500" y="247" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<circle cx="500" cy="440" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="500" y="447" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+</svg>
