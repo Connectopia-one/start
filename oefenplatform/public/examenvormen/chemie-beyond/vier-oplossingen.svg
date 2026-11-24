@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Vier oplossingen van dezelfde stof</text>
+<path d="M 70 200 L 70 430 Q 70 450 90 450 L 190 450 Q 210 450 210 430 L 210 200" fill="none" stroke="#24331b" stroke-width="3"/>
+<rect x="72" y="300" width="136" height="148" rx="8" fill="#dcebf7" stroke="none" stroke-width="0"/>
+<rect x="80" y="330" width="120" height="74" rx="8" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="140" y="362" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">0,2 mol</text>
+<text x="140" y="390" font-size="18" text-anchor="middle" fill="#24331b">in 500 mL</text>
+<circle cx="140" cy="530" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="140" y="537" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">P</text>
+<path d="M 310 200 L 310 430 Q 310 450 330 450 L 430 450 Q 450 450 450 430 L 450 200" fill="none" stroke="#24331b" stroke-width="3"/>
+<rect x="312" y="300" width="136" height="148" rx="8" fill="#dcebf7" stroke="none" stroke-width="0"/>
+<rect x="320" y="330" width="120" height="74" rx="8" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="380" y="362" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">0,1 mol</text>
+<text x="380" y="390" font-size="18" text-anchor="middle" fill="#24331b">in 100 mL</text>
+<circle cx="380" cy="530" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="380" y="537" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">Q</text>
+<path d="M 550 200 L 550 430 Q 550 450 570 450 L 670 450 Q 690 450 690 430 L 690 200" fill="none" stroke="#24331b" stroke-width="3"/>
+<rect x="552" y="300" width="136" height="148" rx="8" fill="#dcebf7" stroke="none" stroke-width="0"/>
+<rect x="560" y="330" width="120" height="74" rx="8" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="620" y="362" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">0,5 mol</text>
+<text x="620" y="390" font-size="18" text-anchor="middle" fill="#24331b">in 2 L</text>
+<circle cx="620" cy="530" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="620" y="537" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">R</text>
+<path d="M 790 200 L 790 430 Q 790 450 810 450 L 910 450 Q 930 450 930 430 L 930 200" fill="none" stroke="#24331b" stroke-width="3"/>
+<rect x="792" y="300" width="136" height="148" rx="8" fill="#dcebf7" stroke="none" stroke-width="0"/>
+<rect x="800" y="330" width="120" height="74" rx="8" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="860" y="362" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">0,3 mol</text>
+<text x="860" y="390" font-size="18" text-anchor="middle" fill="#24331b">in 1 L</text>
+<circle cx="860" cy="530" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="860" y="537" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">S</text>
+</svg>
