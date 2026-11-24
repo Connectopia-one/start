@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<rect x="150" y="14" width="700" height="612" rx="4" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="500" y="60" font-size="26" text-anchor="middle" fill="#24331b" font-weight="bold">Fietsen Trappers: wie doet wat?</text>
+<rect x="190" y="90" width="200" height="140" rx="0" fill="#dfe9f2" stroke="#d9d4c4" stroke-width="2"/>
+<path d="M 200 220 L 260 150 L 300 190 L 330 160 L 380 220 Z" fill="#9fb9cf" stroke="none" stroke-width="0"/>
+<circle cx="350" cy="120" r="14" fill="#e8c547" stroke="none" stroke-width="0"/>
+<line x1="410" y1="100" x2="810" y2="100" stroke="#d9d4c4" stroke-width="6"/>
+<line x1="410" y1="124" x2="810" y2="124" stroke="#d9d4c4" stroke-width="6"/>
+<line x1="410" y1="148" x2="810" y2="148" stroke="#d9d4c4" stroke-width="6"/>
+<line x1="410" y1="172" x2="810" y2="172" stroke="#d9d4c4" stroke-width="6"/>
+<line x1="410" y1="196" x2="810" y2="196" stroke="#d9d4c4" stroke-width="6"/>
+<line x1="410" y1="220" x2="810" y2="220" stroke="#d9d4c4" stroke-width="6"/>
+<circle cx="190" cy="90" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="190" y="97" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<rect x="560" y="250" width="250" height="80" rx="6" fill="#fff8d6" stroke="#24331b" stroke-width="2"/>
+<text x="685" y="282" font-size="18" text-anchor="middle" fill="#24331b">Nieuw: herstelling</text>
+<text x="685" y="308" font-size="18" text-anchor="middle" fill="#24331b">binnen 24 uur!</text>
+<circle cx="820" cy="250" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="820" y="257" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<rect x="270" y="250" width="120" height="36" rx="6" fill="#a8c98a" stroke="#24331b" stroke-width="2"/>
+<text x="330" y="274" font-size="15" text-anchor="middle" fill="#24331b">zaakvoerder</text>
+<line x1="330" y1="286" x2="330" y2="304" stroke="#24331b" stroke-width="2"/>
+<line x1="240" y1="304" x2="420" y2="304" stroke="#24331b" stroke-width="2"/>
+<line x1="240" y1="304" x2="240" y2="318" stroke="#24331b" stroke-width="2"/>
+<rect x="185" y="318" width="110" height="32" rx="6" fill="#a8c98a" stroke="#24331b" stroke-width="2"/>
+<text x="240" y="340" font-size="15" text-anchor="middle" fill="#24331b">verkoop</text>
+<line x1="420" y1="304" x2="420" y2="318" stroke="#24331b" stroke-width="2"/>
+<rect x="365" y="318" width="110" height="32" rx="6" fill="#a8c98a" stroke="#24331b" stroke-width="2"/>
+<text x="420" y="340" font-size="15" text-anchor="middle" fill="#24331b">atelier</text>
+<circle cx="190" cy="268" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="190" y="275" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<rect x="190" y="390" width="205" height="36" rx="0" fill="#a8c98a" stroke="#24331b" stroke-width="1"/>
+<rect x="395" y="390" width="205" height="36" rx="0" fill="#a8c98a" stroke="#24331b" stroke-width="1"/>
+<rect x="600" y="390" width="205" height="36" rx="0" fill="#a8c98a" stroke="#24331b" stroke-width="1"/>
+<rect x="190" y="426" width="205" height="36" rx="0" fill="#ffffff" stroke="#24331b" stroke-width="1"/>
+<rect x="395" y="426" width="205" height="36" rx="0" fill="#ffffff" stroke="#24331b" stroke-width="1"/>
+<rect x="600" y="426" width="205" height="36" rx="0" fill="#ffffff" stroke="#24331b" stroke-width="1"/>
+<rect x="190" y="462" width="205" height="36" rx="0" fill="#ffffff" stroke="#24331b" stroke-width="1"/>
+<rect x="395" y="462" width="205" height="36" rx="0" fill="#ffffff" stroke="#24331b" stroke-width="1"/>
+<rect x="600" y="462" width="205" height="36" rx="0" fill="#ffffff" stroke="#24331b" stroke-width="1"/>
+<rect x="190" y="498" width="205" height="36" rx="0" fill="#ffffff" stroke="#24331b" stroke-width="1"/>
+<rect x="395" y="498" width="205" height="36" rx="0" fill="#ffffff" stroke="#24331b" stroke-width="1"/>
+<rect x="600" y="498" width="205" height="36" rx="0" fill="#ffffff" stroke="#24331b" stroke-width="1"/>
+<text x="292.5" y="414" font-size="16" text-anchor="middle" fill="#24331b" font-weight="bold">dienst</text>
+<text x="497.5" y="414" font-size="16" text-anchor="middle" fill="#24331b" font-weight="bold">prijs</text>
+<text x="702.5" y="414" font-size="16" text-anchor="middle" fill="#24331b" font-weight="bold">duur</text>
+<text x="292.5" y="450" font-size="16" text-anchor="middle" fill="#24331b">band plakken</text>
+<text x="497.5" y="450" font-size="16" text-anchor="middle" fill="#24331b">12 euro</text>
+<text x="702.5" y="450" font-size="16" text-anchor="middle" fill="#24331b">15 min</text>
+<text x="292.5" y="486" font-size="16" text-anchor="middle" fill="#24331b">remmen</text>
+<text x="497.5" y="486" font-size="16" text-anchor="middle" fill="#24331b">25 euro</text>
+<text x="702.5" y="486" font-size="16" text-anchor="middle" fill="#24331b">30 min</text>
+<text x="292.5" y="522" font-size="16" text-anchor="middle" fill="#24331b">grote beurt</text>
+<text x="497.5" y="522" font-size="16" text-anchor="middle" fill="#24331b">79 euro</text>
+<text x="702.5" y="522" font-size="16" text-anchor="middle" fill="#24331b">2 uur</text>
+<circle cx="170" cy="408" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="170" y="415" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">D</text>
+<circle cx="230" cy="580" r="22" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<path d="M 220 570 Q 224 566 228 572 L 226 578 Q 230 586 236 590 L 242 588 Q 248 592 244 596 Q 236 600 226 592 Q 216 582 220 570 Z" fill="#24331b" stroke="none" stroke-width="0"/>
+<text x="270" y="587" font-size="18" text-anchor="start" fill="#24331b">011 12 34 56</text>
+<circle cx="190" cy="556" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="190" y="563" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">E</text>
+<text x="560" y="587" font-size="18" text-anchor="start" fill="#24331b">Wij herstellen alle merken</text>
+<text x="560" y="612" font-size="18" text-anchor="start" fill="#24331b">en modelen.</text>
+<path d="M 590 616 Q 593 620 596 616 Q 599 612 602 616 Q 605 620 608 616 Q 611 612 614 616 Q 617 620 620 616 Q 623 612 626 616 Q 629 620 632 616 Q 635 612 638 616 Q 641 620 644 616 Q 647 612 650 616 Q 653 620 656 616 Q 659 612 662 616" fill="none" stroke="#b03a2e" stroke-width="2"/>
+<circle cx="820" cy="600" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="820" y="607" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">F</text>
+</svg>

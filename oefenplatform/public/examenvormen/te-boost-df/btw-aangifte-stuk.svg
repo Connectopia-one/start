@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Btw-aangifte (vereenvoudigd stuk)</text>
+<rect x="60" y="80" width="420" height="140" rx="10" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<rect x="60" y="80" width="420" height="44" rx="10" fill="#a8c98a" stroke="#24331b" stroke-width="2"/>
+<circle cx="92" cy="102" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="92" y="109" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<text x="126" y="110" font-size="20" text-anchor="start" fill="#24331b" font-weight="bold">rooster 81</text>
+<text x="90" y="160" font-size="19" text-anchor="start" fill="#24331b">aankopen van handelsgoederen,</text>
+<text x="90" y="188" font-size="19" text-anchor="start" fill="#24331b">grond- en hulpstoffen</text>
+<rect x="330" y="168" width="130" height="36" rx="4" fill="#ffffff" stroke="#d9d4c4" stroke-width="2"/>
+<rect x="60" y="240" width="420" height="140" rx="10" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<rect x="60" y="240" width="420" height="44" rx="10" fill="#a8c98a" stroke="#24331b" stroke-width="2"/>
+<circle cx="92" cy="262" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="92" y="269" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<text x="126" y="270" font-size="20" text-anchor="start" fill="#24331b" font-weight="bold">rooster 82</text>
+<text x="90" y="320" font-size="19" text-anchor="start" fill="#24331b">aankopen van diensten</text>
+<text x="90" y="348" font-size="19" text-anchor="start" fill="#24331b">en diverse goederen</text>
+<rect x="330" y="328" width="130" height="36" rx="4" fill="#ffffff" stroke="#d9d4c4" stroke-width="2"/>
+<rect x="60" y="400" width="420" height="140" rx="10" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<rect x="60" y="400" width="420" height="44" rx="10" fill="#a8c98a" stroke="#24331b" stroke-width="2"/>
+<circle cx="92" cy="422" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="92" y="429" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<text x="126" y="430" font-size="20" text-anchor="start" fill="#24331b" font-weight="bold">rooster 83</text>
+<text x="90" y="480" font-size="19" text-anchor="start" fill="#24331b">aankopen van</text>
+<text x="90" y="508" font-size="19" text-anchor="start" fill="#24331b">bedrijfsmiddelen</text>
+<rect x="330" y="488" width="130" height="36" rx="4" fill="#ffffff" stroke="#d9d4c4" stroke-width="2"/>
+<rect x="520" y="80" width="420" height="140" rx="10" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<rect x="520" y="80" width="420" height="44" rx="10" fill="#a8c98a" stroke="#24331b" stroke-width="2"/>
+<circle cx="552" cy="102" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="552" y="109" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">D</text>
+<text x="586" y="110" font-size="20" text-anchor="start" fill="#24331b" font-weight="bold">verschuldigde btw</text>
+<text x="550" y="160" font-size="19" text-anchor="start" fill="#24331b"></text>
+<text x="550" y="188" font-size="19" text-anchor="start" fill="#24331b"></text>
+<rect x="790" y="168" width="130" height="36" rx="4" fill="#ffffff" stroke="#d9d4c4" stroke-width="2"/>
+<rect x="520" y="240" width="420" height="140" rx="10" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<rect x="520" y="240" width="420" height="44" rx="10" fill="#a8c98a" stroke="#24331b" stroke-width="2"/>
+<circle cx="552" cy="262" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="552" y="269" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">E</text>
+<text x="586" y="270" font-size="20" text-anchor="start" fill="#24331b" font-weight="bold">aftrekbare btw</text>
+<text x="550" y="320" font-size="19" text-anchor="start" fill="#24331b"></text>
+<text x="550" y="348" font-size="19" text-anchor="start" fill="#24331b"></text>
+<rect x="790" y="328" width="130" height="36" rx="4" fill="#ffffff" stroke="#d9d4c4" stroke-width="2"/>
+<rect x="520" y="400" width="420" height="140" rx="10" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<rect x="520" y="400" width="420" height="44" rx="10" fill="#a8c98a" stroke="#24331b" stroke-width="2"/>
+<circle cx="552" cy="422" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="552" y="429" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">F</text>
+<text x="586" y="430" font-size="20" text-anchor="start" fill="#24331b" font-weight="bold">saldo</text>
+<text x="550" y="480" font-size="19" text-anchor="start" fill="#24331b"></text>
+<text x="550" y="508" font-size="19" text-anchor="start" fill="#24331b"></text>
+<rect x="790" y="488" width="130" height="36" rx="4" fill="#ffffff" stroke="#d9d4c4" stroke-width="2"/>
+</svg>

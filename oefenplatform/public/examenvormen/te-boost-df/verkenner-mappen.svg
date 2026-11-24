@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<rect x="60" y="40" width="880" height="560" rx="12" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<rect x="60" y="40" width="880" height="54" rx="12" fill="#eceae4" stroke="#24331b" stroke-width="2"/>
+<rect x="150" y="54" width="470" height="28" rx="6" fill="#ffffff" stroke="#d9d4c4" stroke-width="2"/>
+<text x="162" y="74" font-size="16" text-anchor="start" fill="#24331b">Documenten &gt; Boekhouding &gt; 2027 &gt; Aankoop</text>
+<rect x="670" y="54" width="210" height="28" rx="6" fill="#ffffff" stroke="#d9d4c4" stroke-width="2"/>
+<text x="682" y="74" font-size="16" text-anchor="start" fill="#d9d4c4">Zoeken...</text>
+<line x1="300" y1="94" x2="300" y2="600" stroke="#d9d4c4" stroke-width="1"/>
+<rect x="80" y="116" width="18" height="14" rx="2" fill="#e8c66a" stroke="#b8962a" stroke-width="1"/>
+<text x="106" y="130" font-size="17" text-anchor="start" fill="#24331b">Documenten</text>
+<rect x="100" y="151" width="18" height="14" rx="2" fill="#e8c66a" stroke="#b8962a" stroke-width="1"/>
+<text x="126" y="165" font-size="17" text-anchor="start" fill="#24331b">Boekhouding</text>
+<rect x="120" y="186" width="18" height="14" rx="2" fill="#e8c66a" stroke="#b8962a" stroke-width="1"/>
+<text x="146" y="200" font-size="17" text-anchor="start" fill="#24331b">2026</text>
+<rect x="120" y="221" width="18" height="14" rx="2" fill="#e8c66a" stroke="#b8962a" stroke-width="1"/>
+<text x="146" y="235" font-size="17" text-anchor="start" fill="#24331b">2027</text>
+<rect x="140" y="256" width="18" height="14" rx="2" fill="#e8c66a" stroke="#b8962a" stroke-width="1"/>
+<text x="166" y="270" font-size="17" text-anchor="start" fill="#24331b" font-weight="bold">Aankoop</text>
+<rect x="140" y="291" width="18" height="14" rx="2" fill="#e8c66a" stroke="#b8962a" stroke-width="1"/>
+<text x="166" y="305" font-size="17" text-anchor="start" fill="#24331b">Verkoop</text>
+<rect x="100" y="326" width="18" height="14" rx="2" fill="#e8c66a" stroke="#b8962a" stroke-width="1"/>
+<text x="126" y="340" font-size="17" text-anchor="start" fill="#24331b">Personeel</text>
+<rect x="100" y="361" width="18" height="14" rx="2" fill="#e8c66a" stroke="#b8962a" stroke-width="1"/>
+<text x="126" y="375" font-size="17" text-anchor="start" fill="#24331b">Marketing</text>
+<rect x="80" y="516" width="18" height="14" rx="2" fill="#e8c66a" stroke="#b8962a" stroke-width="1"/>
+<text x="106" y="530" font-size="17" text-anchor="start" fill="#24331b">Prullenbak</text>
+<rect x="330" y="122" width="16" height="20" rx="2" fill="#f4f2ec" stroke="#24331b" stroke-width="1"/>
+<text x="360" y="140" font-size="17" text-anchor="start" fill="#24331b">2027-01-factuur-dewolf.pdf</text>
+<rect x="330" y="172" width="16" height="20" rx="2" fill="#f4f2ec" stroke="#24331b" stroke-width="1"/>
+<text x="360" y="190" font-size="17" text-anchor="start" fill="#24331b">2027-02-factuur-vermeulen.pdf</text>
+<rect x="330" y="222" width="16" height="20" rx="2" fill="#f4f2ec" stroke="#24331b" stroke-width="1"/>
+<text x="360" y="240" font-size="17" text-anchor="start" fill="#24331b">2027-02-bestelbon-vermeulen.docx</text>
+<rect x="330" y="272" width="16" height="20" rx="2" fill="#f4f2ec" stroke="#24331b" stroke-width="1"/>
+<text x="360" y="290" font-size="17" text-anchor="start" fill="#24331b">scan 1 (2) - kopie.pdf</text>
+<rect x="330" y="322" width="16" height="20" rx="2" fill="#f4f2ec" stroke="#24331b" stroke-width="1"/>
+<text x="360" y="340" font-size="17" text-anchor="start" fill="#24331b">2027-03-overzicht-aankopen.xlsx</text>
+<circle cx="630" cy="68" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="630" y="75" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<circle cx="912" cy="68" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="912" y="75" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<circle cx="274" cy="270" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="274" y="277" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<circle cx="700" cy="290" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="700" y="297" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">D</text>
+<circle cx="260" cy="530" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="260" y="537" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">E</text>
+<circle cx="900" cy="340" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="900" y="347" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">F</text>
+<line x1="680" y1="290" x2="600" y2="290" stroke="#24331b" stroke-width="2"/>
+<polygon points="600,290 614.7,283.8 614.7,296.2" fill="#24331b"/>
+<line x1="880" y1="340" x2="650" y2="340" stroke="#24331b" stroke-width="2"/>
+<polygon points="650,340 664.7,333.8 664.7,346.2" fill="#24331b"/>
+</svg>

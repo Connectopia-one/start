@@ -41,6 +41,12 @@ export const nieuwTekst = {
 export const updates: Update[] = [
   {
     datum: "24 november 2026",
+    titel: "Pittige hoofdstukken toegepaste economie in Boost dubbele finaliteit",
+    tekst:
+      "Toegepaste economie in Boost dubbele finaliteit heeft nu bij elk van de 16 onderwerpen een pittig hoofdstuk van 30 vragen, in examenvorm: van boekhouden, de balans, het MAR, aankopen, verkopen en de btw tot boeken, de proef- en saldibalans en de eindbalans, en verder tekstverwerking, het rekenblad, functies, grafieken, afdrukken en scannen, bestanden bewaren, presenteren en de databank. Met casussen, rekenvragen en klikvragen op zelfgetekende documenten zoals een verkoopfactuur, een btw-aangifte, een bankuittreksel en een databanktabel.",
+  },
+  {
+    datum: "24 november 2026",
     titel: "Pittige hoofdstukken economie en bedrijfswetenschappen in Boost dubbele finaliteit",
     tekst:
       "Economie en bedrijfswetenschappen in Boost dubbele finaliteit heeft nu bij elk van de 16 onderwerpen een pittig hoofdstuk van 30 vragen, in examenvorm: van behoeften, nut, productie, kosten en opbrengsten over ondernemingsvormen, organisatie en afdelingen tot werving, het arbeidscontract, schorsing, het loon, marketing, het verkoopgesprek, de documenten en logistiek. Met casussen, rekenvragen en klikvragen op grafieken en zelfgetekende documenten zoals een organogram, een vacature, een loonbrief en een vrachtbrief.",

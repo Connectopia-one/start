@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Tabel Klanten</text>
+<rect x="90" y="110" width="120" height="52" rx="0" fill="#e8efe0" stroke="#24331b" stroke-width="1"/>
+<text x="100" y="143" font-size="17" text-anchor="start" fill="#24331b" font-weight="bold">Klantnr</text>
+<rect x="210" y="110" width="190" height="52" rx="0" fill="#e8efe0" stroke="#24331b" stroke-width="1"/>
+<text x="220" y="143" font-size="17" text-anchor="start" fill="#24331b" font-weight="bold">Naam</text>
+<rect x="400" y="110" width="160" height="52" rx="0" fill="#e8efe0" stroke="#24331b" stroke-width="1"/>
+<text x="410" y="143" font-size="17" text-anchor="start" fill="#24331b" font-weight="bold">Gemeente</text>
+<rect x="560" y="110" width="120" height="52" rx="0" fill="#e8efe0" stroke="#24331b" stroke-width="1"/>
+<text x="570" y="143" font-size="17" text-anchor="start" fill="#24331b" font-weight="bold">Postcode</text>
+<rect x="680" y="110" width="170" height="52" rx="0" fill="#e8efe0" stroke="#24331b" stroke-width="1"/>
+<text x="690" y="143" font-size="17" text-anchor="start" fill="#24331b" font-weight="bold">Geboortedatum</text>
+<rect x="90" y="162" width="120" height="52" rx="0" fill="#ffffff" stroke="#24331b" stroke-width="1"/>
+<text x="100" y="195" font-size="17" text-anchor="start" fill="#24331b">1001</text>
+<rect x="210" y="162" width="190" height="52" rx="0" fill="#ffffff" stroke="#24331b" stroke-width="1"/>
+<text x="220" y="195" font-size="17" text-anchor="start" fill="#24331b">Lien Aerts</text>
+<rect x="400" y="162" width="160" height="52" rx="0" fill="#ffffff" stroke="#24331b" stroke-width="1"/>
+<text x="410" y="195" font-size="17" text-anchor="start" fill="#24331b">Hasselt</text>
+<rect x="560" y="162" width="120" height="52" rx="0" fill="#ffffff" stroke="#24331b" stroke-width="1"/>
+<text x="570" y="195" font-size="17" text-anchor="start" fill="#24331b">3500</text>
+<rect x="680" y="162" width="170" height="52" rx="0" fill="#ffffff" stroke="#24331b" stroke-width="1"/>
+<text x="690" y="195" font-size="17" text-anchor="start" fill="#24331b">12/03/1990</text>
+<rect x="90" y="214" width="120" height="52" rx="0" fill="#ffffff" stroke="#24331b" stroke-width="1"/>
+<text x="100" y="247" font-size="17" text-anchor="start" fill="#24331b">1002</text>
+<rect x="210" y="214" width="190" height="52" rx="0" fill="#ffffff" stroke="#24331b" stroke-width="1"/>
+<text x="220" y="247" font-size="17" text-anchor="start" fill="#24331b">Tom Claes</text>
+<rect x="400" y="214" width="160" height="52" rx="0" fill="#ffffff" stroke="#24331b" stroke-width="1"/>
+<text x="410" y="247" font-size="17" text-anchor="start" fill="#24331b">Genk</text>
+<rect x="560" y="214" width="120" height="52" rx="0" fill="#ffffff" stroke="#24331b" stroke-width="1"/>
+<text x="570" y="247" font-size="17" text-anchor="start" fill="#24331b">3600</text>
+<rect x="680" y="214" width="170" height="52" rx="0" fill="#ffffff" stroke="#24331b" stroke-width="1"/>
+<text x="690" y="247" font-size="17" text-anchor="start" fill="#24331b">05/11/1985</text>
+<rect x="90" y="266" width="120" height="52" rx="0" fill="#fff5d6" stroke="#24331b" stroke-width="1"/>
+<text x="100" y="299" font-size="17" text-anchor="start" fill="#24331b">1003</text>
+<rect x="210" y="266" width="190" height="52" rx="0" fill="#fff5d6" stroke="#24331b" stroke-width="1"/>
+<text x="220" y="299" font-size="17" text-anchor="start" fill="#24331b">Sara Peeters</text>
+<rect x="400" y="266" width="160" height="52" rx="0" fill="#fff5d6" stroke="#24331b" stroke-width="1"/>
+<text x="410" y="299" font-size="17" text-anchor="start" fill="#24331b">Hasselt</text>
+<rect x="560" y="266" width="120" height="52" rx="0" fill="#fff5d6" stroke="#24331b" stroke-width="1"/>
+<text x="570" y="299" font-size="17" text-anchor="start" fill="#24331b">3500</text>
+<rect x="680" y="266" width="170" height="52" rx="0" fill="#fff5d6" stroke="#24331b" stroke-width="1"/>
+<text x="690" y="299" font-size="17" text-anchor="start" fill="#24331b">21/07/1979</text>
+<rect x="90" y="318" width="120" height="52" rx="0" fill="#ffffff" stroke="#24331b" stroke-width="1"/>
+<text x="100" y="351" font-size="17" text-anchor="start" fill="#24331b">1004</text>
+<rect x="210" y="318" width="190" height="52" rx="0" fill="#ffffff" stroke="#24331b" stroke-width="1"/>
+<text x="220" y="351" font-size="17" text-anchor="start" fill="#24331b">Tom Claes</text>
+<rect x="400" y="318" width="160" height="52" rx="0" fill="#ffffff" stroke="#24331b" stroke-width="1"/>
+<text x="410" y="351" font-size="17" text-anchor="start" fill="#24331b">Bree</text>
+<rect x="560" y="318" width="120" height="52" rx="0" fill="#ffffff" stroke="#24331b" stroke-width="1"/>
+<text x="570" y="351" font-size="17" text-anchor="start" fill="#24331b">3960</text>
+<rect x="680" y="318" width="170" height="52" rx="0" fill="#ffffff" stroke="#24331b" stroke-width="1"/>
+<text x="690" y="351" font-size="17" text-anchor="start" fill="#24331b">30/01/1992</text>
+<rect x="90" y="370" width="120" height="52" rx="0" fill="#ffffff" stroke="#24331b" stroke-width="1"/>
+<text x="100" y="403" font-size="17" text-anchor="start" fill="#24331b">1005</text>
+<rect x="210" y="370" width="190" height="52" rx="0" fill="#ffffff" stroke="#24331b" stroke-width="1"/>
+<text x="220" y="403" font-size="17" text-anchor="start" fill="#24331b">Mo Jacobs</text>
+<rect x="400" y="370" width="160" height="52" rx="0" fill="#ffffff" stroke="#24331b" stroke-width="1"/>
+<text x="410" y="403" font-size="17" text-anchor="start" fill="#24331b">Alken</text>
+<rect x="560" y="370" width="120" height="52" rx="0" fill="#ffffff" stroke="#24331b" stroke-width="1"/>
+<text x="570" y="403" font-size="17" text-anchor="start" fill="#24331b">3570</text>
+<rect x="680" y="370" width="170" height="52" rx="0" fill="#ffffff" stroke="#24331b" stroke-width="1"/>
+<text x="690" y="403" font-size="17" text-anchor="start" fill="#24331b"></text>
+<circle cx="150" cy="75" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="150" y="82" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<circle cx="890" cy="292" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="890" y="299" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<circle cx="480" cy="75" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="480" y="82" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<circle cx="765" cy="75" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="765" y="82" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">D</text>
+<circle cx="765" cy="462" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="765" y="469" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">E</text>
+<circle cx="375" cy="462" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="375" y="469" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">F</text>
+<line x1="765" y1="440" x2="765" y2="412" stroke="#24331b" stroke-width="2"/>
+<polygon points="765,412 771.2,426.7 758.8,426.7" fill="#24331b"/>
+<line x1="375" y1="440" x2="375" y2="362" stroke="#24331b" stroke-width="2"/>
+<polygon points="375,362 381.2,376.7 368.8,376.7" fill="#24331b"/>
+</svg>

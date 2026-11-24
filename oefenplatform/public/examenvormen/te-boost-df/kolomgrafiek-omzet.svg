@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Omzet Fietsen Trappers per kwartaal</text>
+<line x1="150" y1="540.0" x2="860" y2="540.0" stroke="#e2ded2" stroke-width="1"/>
+<text x="140" y="546.0" font-size="16" text-anchor="end" fill="#24331b">0</text>
+<line x1="150" y1="460.0" x2="860" y2="460.0" stroke="#e2ded2" stroke-width="1"/>
+<text x="140" y="466.0" font-size="16" text-anchor="end" fill="#24331b">20</text>
+<line x1="150" y1="380.0" x2="860" y2="380.0" stroke="#e2ded2" stroke-width="1"/>
+<text x="140" y="386.0" font-size="16" text-anchor="end" fill="#24331b">40</text>
+<line x1="150" y1="300.0" x2="860" y2="300.0" stroke="#e2ded2" stroke-width="1"/>
+<text x="140" y="306.0" font-size="16" text-anchor="end" fill="#24331b">60</text>
+<line x1="150" y1="220.0" x2="860" y2="220.0" stroke="#e2ded2" stroke-width="1"/>
+<text x="140" y="226.0" font-size="16" text-anchor="end" fill="#24331b">80</text>
+<line x1="150" y1="140.0" x2="860" y2="140.0" stroke="#e2ded2" stroke-width="1"/>
+<text x="140" y="146.0" font-size="16" text-anchor="end" fill="#24331b">100</text>
+<line x1="150" y1="540" x2="860" y2="540" stroke="#24331b" stroke-width="2"/>
+<line x1="150" y1="540" x2="150" y2="110" stroke="#24331b" stroke-width="2"/>
+<rect x="190" y="380.0" width="55" height="160.0" rx="0" fill="#3b6fa0" stroke="none" stroke-width="0"/>
+<rect x="250" y="348.0" width="55" height="192.0" rx="0" fill="#b5651d" stroke="none" stroke-width="0"/>
+<text x="247" y="566" font-size="17" text-anchor="middle" fill="#24331b">kw 1</text>
+<rect x="362" y="240.0" width="55" height="300.0" rx="0" fill="#3b6fa0" stroke="none" stroke-width="0"/>
+<rect x="422" y="212.0" width="55" height="328.0" rx="0" fill="#b5651d" stroke="none" stroke-width="0"/>
+<text x="419" y="566" font-size="17" text-anchor="middle" fill="#24331b">kw 2</text>
+<rect x="534" y="180.0" width="55" height="360.0" rx="0" fill="#3b6fa0" stroke="none" stroke-width="0"/>
+<rect x="594" y="260.0" width="55" height="280.0" rx="0" fill="#b5651d" stroke="none" stroke-width="0"/>
+<text x="591" y="566" font-size="17" text-anchor="middle" fill="#24331b">kw 3</text>
+<rect x="706" y="400.0" width="55" height="140.0" rx="0" fill="#3b6fa0" stroke="none" stroke-width="0"/>
+<rect x="766" y="332.0" width="55" height="208.0" rx="0" fill="#b5651d" stroke="none" stroke-width="0"/>
+<text x="763" y="566" font-size="17" text-anchor="middle" fill="#24331b">kw 4</text>
+<text x="621" y="252.0" font-size="16" text-anchor="middle" fill="#24331b" font-weight="bold">70</text>
+<text x="80" y="96" font-size="17" text-anchor="start" fill="#24331b">omzet (duizend euro)</text>
+<rect x="700" y="70" width="22" height="16" rx="0" fill="#3b6fa0" stroke="none" stroke-width="0"/>
+<text x="730" y="84" font-size="16" text-anchor="start" fill="#24331b">2026</text>
+<rect x="790" y="70" width="22" height="16" rx="0" fill="#b5651d" stroke="none" stroke-width="0"/>
+<text x="820" y="84" font-size="16" text-anchor="start" fill="#24331b">2027</text>
+<circle cx="500" cy="60" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="500" y="67" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<circle cx="44" cy="90" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="44" y="97" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<circle cx="900" cy="78" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="900" y="85" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<circle cx="650" cy="220.0" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="650" y="227.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">D</text>
+<circle cx="900" cy="300.0" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="900" y="307.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">E</text>
+<circle cx="500" cy="606" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="500" y="613" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">F</text>
+</svg>

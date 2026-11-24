@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Voorlopige proef- en saldibalans</text>
+<rect x="90" y="60" width="270" height="46" rx="0" fill="#e8efe0" stroke="#24331b" stroke-width="1"/>
+<text x="100" y="90" font-size="16" text-anchor="start" fill="#24331b" font-weight="bold">rekening</text>
+<rect x="360" y="60" width="140" height="46" rx="0" fill="#e8efe0" stroke="#24331b" stroke-width="1"/>
+<text x="490" y="90" font-size="16" text-anchor="end" fill="#24331b" font-weight="bold">totaal debet</text>
+<rect x="500" y="60" width="140" height="46" rx="0" fill="#e8efe0" stroke="#24331b" stroke-width="1"/>
+<text x="630" y="90" font-size="16" text-anchor="end" fill="#24331b" font-weight="bold">totaal credit</text>
+<rect x="640" y="60" width="130" height="46" rx="0" fill="#e8efe0" stroke="#24331b" stroke-width="1"/>
+<text x="760" y="90" font-size="16" text-anchor="end" fill="#24331b" font-weight="bold">saldo debet</text>
+<rect x="770" y="60" width="130" height="46" rx="0" fill="#e8efe0" stroke="#24331b" stroke-width="1"/>
+<text x="890" y="90" font-size="16" text-anchor="end" fill="#24331b" font-weight="bold">saldo credit</text>
+<rect x="90" y="106" width="270" height="46" rx="0" fill="#ffffff" stroke="#24331b" stroke-width="1"/>
+<text x="100" y="136" font-size="16" text-anchor="start" fill="#24331b">230 Machines</text>
+<rect x="360" y="106" width="140" height="46" rx="0" fill="#ffffff" stroke="#24331b" stroke-width="1"/>
+<text x="490" y="136" font-size="16" text-anchor="end" fill="#24331b">20 000</text>
+<rect x="500" y="106" width="140" height="46" rx="0" fill="#ffffff" stroke="#24331b" stroke-width="1"/>
+<text x="630" y="136" font-size="16" text-anchor="end" fill="#24331b"></text>
+<rect x="640" y="106" width="130" height="46" rx="0" fill="#ffffff" stroke="#24331b" stroke-width="1"/>
+<text x="760" y="136" font-size="16" text-anchor="end" fill="#24331b">20 000</text>
+<rect x="770" y="106" width="130" height="46" rx="0" fill="#ffffff" stroke="#24331b" stroke-width="1"/>
+<text x="890" y="136" font-size="16" text-anchor="end" fill="#24331b"></text>
+<rect x="90" y="152" width="270" height="46" rx="0" fill="#ffffff" stroke="#24331b" stroke-width="1"/>
+<text x="100" y="182" font-size="16" text-anchor="start" fill="#24331b">550 Bank</text>
+<rect x="360" y="152" width="140" height="46" rx="0" fill="#ffffff" stroke="#24331b" stroke-width="1"/>
+<text x="490" y="182" font-size="16" text-anchor="end" fill="#24331b">18 000</text>
+<rect x="500" y="152" width="140" height="46" rx="0" fill="#ffffff" stroke="#24331b" stroke-width="1"/>
+<text x="630" y="182" font-size="16" text-anchor="end" fill="#24331b">11 500</text>
+<rect x="640" y="152" width="130" height="46" rx="0" fill="#ffffff" stroke="#24331b" stroke-width="1"/>
+<text x="760" y="182" font-size="16" text-anchor="end" fill="#24331b">6 500</text>
+<rect x="770" y="152" width="130" height="46" rx="0" fill="#ffffff" stroke="#24331b" stroke-width="1"/>
+<text x="890" y="182" font-size="16" text-anchor="end" fill="#24331b"></text>
+<rect x="90" y="198" width="270" height="46" rx="0" fill="#ffffff" stroke="#24331b" stroke-width="1"/>
+<text x="100" y="228" font-size="16" text-anchor="start" fill="#24331b">570 Kas</text>
+<rect x="360" y="198" width="140" height="46" rx="0" fill="#ffffff" stroke="#24331b" stroke-width="1"/>
+<text x="490" y="228" font-size="16" text-anchor="end" fill="#24331b">2 000</text>
+<rect x="500" y="198" width="140" height="46" rx="0" fill="#ffffff" stroke="#24331b" stroke-width="1"/>
+<text x="630" y="228" font-size="16" text-anchor="end" fill="#24331b">1 400</text>
+<rect x="640" y="198" width="130" height="46" rx="0" fill="#ffffff" stroke="#24331b" stroke-width="1"/>
+<text x="760" y="228" font-size="16" text-anchor="end" fill="#24331b">600</text>
+<rect x="770" y="198" width="130" height="46" rx="0" fill="#ffffff" stroke="#24331b" stroke-width="1"/>
+<text x="890" y="228" font-size="16" text-anchor="end" fill="#24331b"></text>
+<rect x="90" y="244" width="270" height="46" rx="0" fill="#ffffff" stroke="#24331b" stroke-width="1"/>
+<text x="100" y="274" font-size="16" text-anchor="start" fill="#24331b">100 Kapitaal</text>
+<rect x="360" y="244" width="140" height="46" rx="0" fill="#ffffff" stroke="#24331b" stroke-width="1"/>
+<text x="490" y="274" font-size="16" text-anchor="end" fill="#24331b"></text>
+<rect x="500" y="244" width="140" height="46" rx="0" fill="#ffffff" stroke="#24331b" stroke-width="1"/>
+<text x="630" y="274" font-size="16" text-anchor="end" fill="#24331b">15 000</text>
+<rect x="640" y="244" width="130" height="46" rx="0" fill="#ffffff" stroke="#24331b" stroke-width="1"/>
+<text x="760" y="274" font-size="16" text-anchor="end" fill="#24331b"></text>
+<rect x="770" y="244" width="130" height="46" rx="0" fill="#ffffff" stroke="#24331b" stroke-width="1"/>
+<text x="890" y="274" font-size="16" text-anchor="end" fill="#24331b">15 000</text>
+<rect x="90" y="290" width="270" height="46" rx="0" fill="#ffffff" stroke="#24331b" stroke-width="1"/>
+<text x="100" y="320" font-size="16" text-anchor="start" fill="#24331b">440 Leveranciers</text>
+<rect x="360" y="290" width="140" height="46" rx="0" fill="#ffffff" stroke="#24331b" stroke-width="1"/>
+<text x="490" y="320" font-size="16" text-anchor="end" fill="#24331b">6 000</text>
+<rect x="500" y="290" width="140" height="46" rx="0" fill="#ffffff" stroke="#24331b" stroke-width="1"/>
+<text x="630" y="320" font-size="16" text-anchor="end" fill="#24331b">9 000</text>
+<rect x="640" y="290" width="130" height="46" rx="0" fill="#ffffff" stroke="#24331b" stroke-width="1"/>
+<text x="760" y="320" font-size="16" text-anchor="end" fill="#24331b"></text>
+<rect x="770" y="290" width="130" height="46" rx="0" fill="#ffffff" stroke="#24331b" stroke-width="1"/>
+<text x="890" y="320" font-size="16" text-anchor="end" fill="#24331b">3 000</text>
+<rect x="90" y="336" width="270" height="46" rx="0" fill="#ffffff" stroke="#24331b" stroke-width="1"/>
+<text x="100" y="366" font-size="16" text-anchor="start" fill="#24331b">604 Aankopen handelsgoederen</text>
+<rect x="360" y="336" width="140" height="46" rx="0" fill="#ffffff" stroke="#24331b" stroke-width="1"/>
+<text x="490" y="366" font-size="16" text-anchor="end" fill="#24331b">9 000</text>
+<rect x="500" y="336" width="140" height="46" rx="0" fill="#ffffff" stroke="#24331b" stroke-width="1"/>
+<text x="630" y="366" font-size="16" text-anchor="end" fill="#24331b"></text>
+<rect x="640" y="336" width="130" height="46" rx="0" fill="#ffffff" stroke="#24331b" stroke-width="1"/>
+<text x="760" y="366" font-size="16" text-anchor="end" fill="#24331b">9 000</text>
+<rect x="770" y="336" width="130" height="46" rx="0" fill="#ffffff" stroke="#24331b" stroke-width="1"/>
+<text x="890" y="366" font-size="16" text-anchor="end" fill="#24331b"></text>
+<rect x="90" y="382" width="270" height="46" rx="0" fill="#ffffff" stroke="#24331b" stroke-width="1"/>
+<text x="100" y="412" font-size="16" text-anchor="start" fill="#24331b">613 Diensten</text>
+<rect x="360" y="382" width="140" height="46" rx="0" fill="#ffffff" stroke="#24331b" stroke-width="1"/>
+<text x="490" y="412" font-size="16" text-anchor="end" fill="#24331b">300</text>
+<rect x="500" y="382" width="140" height="46" rx="0" fill="#ffffff" stroke="#24331b" stroke-width="1"/>
+<text x="630" y="412" font-size="16" text-anchor="end" fill="#24331b">800</text>
+<rect x="640" y="382" width="130" height="46" rx="0" fill="#ffffff" stroke="#24331b" stroke-width="1"/>
+<text x="760" y="412" font-size="16" text-anchor="end" fill="#24331b"></text>
+<rect x="770" y="382" width="130" height="46" rx="0" fill="#ffffff" stroke="#24331b" stroke-width="1"/>
+<text x="890" y="412" font-size="16" text-anchor="end" fill="#24331b">500</text>
+<rect x="90" y="428" width="270" height="46" rx="0" fill="#ffffff" stroke="#24331b" stroke-width="1"/>
+<text x="100" y="458" font-size="16" text-anchor="start" fill="#24331b">700 Verkopen handelsgoederen</text>
+<rect x="360" y="428" width="140" height="46" rx="0" fill="#ffffff" stroke="#24331b" stroke-width="1"/>
+<text x="490" y="458" font-size="16" text-anchor="end" fill="#24331b"></text>
+<rect x="500" y="428" width="140" height="46" rx="0" fill="#ffffff" stroke="#24331b" stroke-width="1"/>
+<text x="630" y="458" font-size="16" text-anchor="end" fill="#24331b">17 600</text>
+<rect x="640" y="428" width="130" height="46" rx="0" fill="#ffffff" stroke="#24331b" stroke-width="1"/>
+<text x="760" y="458" font-size="16" text-anchor="end" fill="#24331b"></text>
+<rect x="770" y="428" width="130" height="46" rx="0" fill="#ffffff" stroke="#24331b" stroke-width="1"/>
+<text x="890" y="458" font-size="16" text-anchor="end" fill="#24331b">17 600</text>
+<rect x="90" y="474" width="270" height="46" rx="0" fill="#f4f2ec" stroke="#24331b" stroke-width="1"/>
+<text x="100" y="504" font-size="16" text-anchor="start" fill="#24331b" font-weight="bold">Totaal</text>
+<rect x="360" y="474" width="140" height="46" rx="0" fill="#f4f2ec" stroke="#24331b" stroke-width="1"/>
+<text x="490" y="504" font-size="16" text-anchor="end" fill="#24331b" font-weight="bold">55 300</text>
+<rect x="500" y="474" width="140" height="46" rx="0" fill="#f4f2ec" stroke="#24331b" stroke-width="1"/>
+<text x="630" y="504" font-size="16" text-anchor="end" fill="#24331b" font-weight="bold">55 300</text>
+<rect x="640" y="474" width="130" height="46" rx="0" fill="#f4f2ec" stroke="#24331b" stroke-width="1"/>
+<text x="760" y="504" font-size="16" text-anchor="end" fill="#24331b" font-weight="bold">36 100</text>
+<rect x="770" y="474" width="130" height="46" rx="0" fill="#f4f2ec" stroke="#24331b" stroke-width="1"/>
+<text x="890" y="504" font-size="16" text-anchor="end" fill="#24331b" font-weight="bold">36 100</text>
+<circle cx="940" cy="129.0" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="940" y="136.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<circle cx="940" cy="175.0" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="940" y="182.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<circle cx="940" cy="267.0" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="940" y="274.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<circle cx="940" cy="313.0" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="940" y="320.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">D</text>
+<circle cx="940" cy="405.0" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="940" y="412.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">E</text>
+<circle cx="940" cy="451.0" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="940" y="458.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">F</text>
+<circle cx="940" cy="497.0" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="940" y="504.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">G</text>
+</svg>

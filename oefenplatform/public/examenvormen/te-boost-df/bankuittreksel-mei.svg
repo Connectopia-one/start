@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<rect x="80" y="40" width="840" height="560" rx="10" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="110" y="82" font-size="22" text-anchor="start" fill="#24331b" font-weight="bold">Bank Limburg · Rekeninguittreksel nr. 5</text>
+<text x="110" y="112" font-size="16" text-anchor="start" fill="#d9d4c4">Rekening van Fietsen Trappers bv · BE00 0000 0000 0000</text>
+<rect x="110" y="135" width="780" height="40" rx="0" fill="#eef1e8" stroke="none" stroke-width="0"/>
+<text x="120" y="162" font-size="17" text-anchor="start" fill="#24331b" font-weight="bold">datum</text>
+<text x="230" y="162" font-size="17" text-anchor="start" fill="#24331b" font-weight="bold">omschrijving</text>
+<text x="870" y="162" font-size="17" text-anchor="end" fill="#24331b" font-weight="bold">bedrag</text>
+<line x1="110" y1="185" x2="890" y2="185" stroke="#d9d4c4" stroke-width="1"/>
+<text x="120" y="215" font-size="17" text-anchor="start" fill="#24331b"></text>
+<text x="230" y="215" font-size="17" text-anchor="start" fill="#24331b" font-weight="bold">Oud saldo</text>
+<text x="870" y="215" font-size="17" text-anchor="end" fill="#24331b" font-weight="bold">3 200,00</text>
+<text x="120" y="271" font-size="17" text-anchor="start" fill="#24331b">02/05</text>
+<text x="230" y="271" font-size="17" text-anchor="start" fill="#24331b">Ontvangst klant Fietshoek, factuur 27/041</text>
+<text x="870" y="271" font-size="17" text-anchor="end" fill="#24331b">+ 1 452,00</text>
+<text x="120" y="327" font-size="17" text-anchor="start" fill="#24331b">06/05</text>
+<text x="230" y="327" font-size="17" text-anchor="start" fill="#24331b">Betaling leverancier Velo Parts, factuur 7781</text>
+<text x="870" y="327" font-size="17" text-anchor="end" fill="#24331b">- 2 420,00</text>
+<text x="120" y="383" font-size="17" text-anchor="start" fill="#24331b">15/05</text>
+<text x="230" y="383" font-size="17" text-anchor="start" fill="#24331b">Storting uit de kas</text>
+<text x="870" y="383" font-size="17" text-anchor="end" fill="#24331b">+ 500,00</text>
+<text x="120" y="439" font-size="17" text-anchor="start" fill="#24331b">31/05</text>
+<text x="230" y="439" font-size="17" text-anchor="start" fill="#24331b">Bankkosten mei</text>
+<text x="870" y="439" font-size="17" text-anchor="end" fill="#24331b">- 6,50</text>
+<line x1="110" y1="465" x2="890" y2="465" stroke="#d9d4c4" stroke-width="1"/>
+<text x="120" y="495" font-size="17" text-anchor="start" fill="#24331b"></text>
+<text x="230" y="495" font-size="17" text-anchor="start" fill="#24331b" font-weight="bold">Nieuw saldo</text>
+<text x="870" y="495" font-size="17" text-anchor="end" fill="#24331b" font-weight="bold">2 725,50</text>
+<circle cx="60" cy="209" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="60" y="216" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<circle cx="60" cy="265" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="60" y="272" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<circle cx="60" cy="321" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="60" y="328" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<circle cx="60" cy="377" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="60" y="384" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">D</text>
+<circle cx="60" cy="433" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="60" y="440" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">E</text>
+<circle cx="60" cy="489" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="60" y="496" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">F</text>
+</svg>
