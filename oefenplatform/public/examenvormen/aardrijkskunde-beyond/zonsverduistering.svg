@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Een zonsverduistering (niet op schaal)</text>
+<path d="M520 296 L 840 230 L 840 410 L 520 344 Z" fill="#d6d6d6" stroke="none" stroke-width="2"/>
+<path d="M520 296 L 758 320 L 520 344 Z" fill="#555555" stroke="none" stroke-width="2"/>
+<circle cx="170" cy="320" r="130" fill="#f4c542" stroke="#24331b" stroke-width="2"/>
+<circle cx="520" cy="320" r="24" fill="#bdbdbd" stroke="#24331b" stroke-width="2"/>
+<circle cx="860" cy="320" r="110" fill="#9bc1df" stroke="#24331b" stroke-width="2"/>
+<text x="170" y="486" font-size="18" text-anchor="middle" fill="#24331b">zon</text>
+<text x="520" y="380" font-size="18" text-anchor="middle" fill="#24331b">maan</text>
+<text x="860" y="466" font-size="18" text-anchor="middle" fill="#24331b">aarde</text>
+<circle cx="754" cy="320" r="7" fill="#b5651d" stroke="#24331b" stroke-width="2"/>
+<circle cx="775" cy="255" r="7" fill="#b5651d" stroke="#24331b" stroke-width="2"/>
+<circle cx="880" cy="216" r="7" fill="#b5651d" stroke="#24331b" stroke-width="2"/>
+<circle cx="700" cy="360" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="700" y="367" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">P</text>
+<circle cx="730" cy="200" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="730" y="207" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">Q</text>
+<circle cx="930" cy="180" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="930" y="187" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">R</text>
+</svg>

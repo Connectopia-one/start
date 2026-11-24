@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">De maan rond de aarde, van boven de noordpool gezien</text>
+<line x1="60" y1="120" x2="180" y2="120" stroke="#e8c547" stroke-width="3"/>
+<polygon points="180,120 165.3,126.2 165.3,113.8" fill="#e8c547"/>
+<line x1="60" y1="190" x2="180" y2="190" stroke="#e8c547" stroke-width="3"/>
+<polygon points="180,190 165.3,196.2 165.3,183.8" fill="#e8c547"/>
+<line x1="60" y1="260" x2="180" y2="260" stroke="#e8c547" stroke-width="3"/>
+<polygon points="180,260 165.3,266.2 165.3,253.8" fill="#e8c547"/>
+<line x1="60" y1="330" x2="180" y2="330" stroke="#e8c547" stroke-width="3"/>
+<polygon points="180,330 165.3,336.2 165.3,323.8" fill="#e8c547"/>
+<line x1="60" y1="400" x2="180" y2="400" stroke="#e8c547" stroke-width="3"/>
+<polygon points="180,400 165.3,406.2 165.3,393.8" fill="#e8c547"/>
+<line x1="60" y1="470" x2="180" y2="470" stroke="#e8c547" stroke-width="3"/>
+<polygon points="180,470 165.3,476.2 165.3,463.8" fill="#e8c547"/>
+<line x1="60" y1="540" x2="180" y2="540" stroke="#e8c547" stroke-width="3"/>
+<polygon points="180,540 165.3,546.2 165.3,533.8" fill="#e8c547"/>
+<text x="120" y="100" font-size="18" text-anchor="middle" fill="#24331b">zonlicht</text>
+<circle cx="560" cy="340" r="200" fill="none" stroke="#d9d4c4" stroke-width="1"/>
+<circle cx="560" cy="340" r="48" fill="#9bc1df" stroke="#24331b" stroke-width="2"/>
+<path d="M560 292 A 48 48 0 0 1 560 388 Z" fill="#2c3e50" stroke="none" stroke-width="2"/>
+<text x="560" y="420" font-size="16" text-anchor="middle" fill="#24331b">aarde</text>
+<circle cx="360" cy="340" r="22" fill="#e6e1d3" stroke="#24331b" stroke-width="2"/>
+<path d="M360 318 A 22 22 0 0 1 360 362 Z" fill="#3a3a3a" stroke="none" stroke-width="2"/>
+<circle cx="560" cy="540" r="22" fill="#e6e1d3" stroke="#24331b" stroke-width="2"/>
+<path d="M560 518 A 22 22 0 0 1 560 562 Z" fill="#3a3a3a" stroke="none" stroke-width="2"/>
+<circle cx="760" cy="340" r="22" fill="#e6e1d3" stroke="#24331b" stroke-width="2"/>
+<path d="M760 318 A 22 22 0 0 1 760 362 Z" fill="#3a3a3a" stroke="none" stroke-width="2"/>
+<circle cx="560" cy="140" r="22" fill="#e6e1d3" stroke="#24331b" stroke-width="2"/>
+<path d="M560 118 A 22 22 0 0 1 560 162 Z" fill="#3a3a3a" stroke="none" stroke-width="2"/>
+<circle cx="350" cy="285" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="350" y="292" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<circle cx="615" cy="550" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="615" y="557" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<circle cx="815" cy="340" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="815" y="347" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<circle cx="615" cy="130" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="615" y="137" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">D</text>
+<path d="M352 460 A 240 240 0 0 0 440 548" fill="none" stroke="#24331b" stroke-width="2"/>
+<line x1="426.00000000000006" y1="539.8460969082653" x2="442.00000000000006" y2="548.8460969082653" stroke="#24331b" stroke-width="2"/>
+<polygon points="442.00000000000006,548.8460969082653 426.1,547.1 432.2,536.2" fill="#24331b"/>
+<text x="340" y="560" font-size="15" text-anchor="middle" fill="#24331b">zin van de omloop</text>
+</svg>
