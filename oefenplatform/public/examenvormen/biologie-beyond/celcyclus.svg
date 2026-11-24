@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">De celcyclus van een lichaamscel</text>
+<path d="M420 340 L420 110 A230 230 0 0 1 535 539 Z" fill="#cfe5f3" stroke="#24331b" stroke-width="2"/>
+<path d="M420 340 L535 539 A230 230 0 0 1 190 340 Z" fill="#f5d9a8" stroke="#24331b" stroke-width="2"/>
+<path d="M420 340 L190 340 A230 230 0 0 1 305 141 Z" fill="#d6ecd2" stroke="#24331b" stroke-width="2"/>
+<path d="M420 340 L305 141 A230 230 0 0 1 420 110 Z" fill="#f3c6d0" stroke="#24331b" stroke-width="2"/>
+<circle cx="564.8888739433603" cy="301.1771432346219" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="564.8888739433603" y="308.1771432346219" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">W</text>
+<circle cx="345.0" cy="469.9038105676658" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="345.0" y="476.9038105676658" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">X</text>
+<circle cx="290.0961894323342" cy="265.0" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="290.0961894323342" y="272.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">Y</text>
+<circle cx="381.1771432346219" cy="195.11112605663976" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="381.1771432346219" y="202.11112605663976" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">Z</text>
+<path d="M509 96 A260 260 0 0 1 664 251" fill="none" stroke="#24331b" stroke-width="3"/>
+<polygon points="672,265 643,257 680,241" fill="#24331b"/>
+<rect x="720" y="180" width="250" height="230" rx="14" fill="#fbf6ea" stroke="#24331b" stroke-width="1.5"/>
+<text x="845" y="215" font-size="15" text-anchor="middle" fill="#24331b" font-weight="bold">wat gebeurt er?</text>
+<text x="845" y="255" font-size="15" text-anchor="middle" fill="#24331b">de cel groeit</text>
+<text x="845" y="295" font-size="15" text-anchor="middle" fill="#24331b">het DNA wordt gekopieerd</text>
+<text x="845" y="335" font-size="15" text-anchor="middle" fill="#24331b">de cel maakt zich klaar</text>
+<text x="845" y="375" font-size="15" text-anchor="middle" fill="#24331b">de cel deelt</text>
+</svg>
