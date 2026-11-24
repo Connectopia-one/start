@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Vier punten in een vat met water</text>
+<rect x="250" y="120" width="500" height="420" rx="0" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<rect x="252" y="170" width="496" height="368" rx="0" fill="#cfe5f5" stroke="none" stroke-width="2"/>
+<line x1="252" y1="170" x2="748" y2="170" stroke="#3b6fa0" stroke-width="3"/>
+<text x="500" y="155" font-size="18" text-anchor="middle" fill="#24331b">wateroppervlak</text>
+<circle cx="340" cy="230" r="9" fill="#24331b" stroke="#24331b" stroke-width="2"/>
+<circle cx="380" cy="230" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="380" y="237" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<circle cx="640" cy="330" r="9" fill="#24331b" stroke="#24331b" stroke-width="2"/>
+<circle cx="680" cy="330" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="680" y="337" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<circle cx="380" cy="470" r="9" fill="#24331b" stroke="#24331b" stroke-width="2"/>
+<circle cx="420" cy="470" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="420" y="477" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<circle cx="620" cy="470" r="9" fill="#24331b" stroke="#24331b" stroke-width="2"/>
+<circle cx="660" cy="470" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="660" y="477" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">D</text>
+<line x1="770" y1="170" x2="770" y2="230" stroke="#d9d4c4" stroke-width="2"/>
+<line x1="760" y1="230" x2="780" y2="230" stroke="#d9d4c4" stroke-width="2"/>
+<text x="830" y="230" font-size="18" text-anchor="middle" fill="#24331b">1 m</text>
+<line x1="770" y1="170" x2="770" y2="330" stroke="#d9d4c4" stroke-width="2"/>
+<line x1="760" y1="330" x2="780" y2="330" stroke="#d9d4c4" stroke-width="2"/>
+<text x="830" y="330" font-size="18" text-anchor="middle" fill="#24331b">2 m</text>
+<line x1="770" y1="170" x2="770" y2="470" stroke="#d9d4c4" stroke-width="2"/>
+<line x1="760" y1="470" x2="780" y2="470" stroke="#d9d4c4" stroke-width="2"/>
+<text x="830" y="470" font-size="18" text-anchor="middle" fill="#24331b">3,5 m</text>
+</svg>

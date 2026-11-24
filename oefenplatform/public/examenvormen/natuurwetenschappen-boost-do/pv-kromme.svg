@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Druk en volume van een gas bij een vaste temperatuur</text>
+<line x1="110.0" y1="90" x2="110.0" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="110.0" y="564" font-size="15" text-anchor="middle" fill="#24331b">0</text>
+<line x1="274.0" y1="90" x2="274.0" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="274.0" y="564" font-size="15" text-anchor="middle" fill="#24331b">1</text>
+<line x1="438.0" y1="90" x2="438.0" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="438.0" y="564" font-size="15" text-anchor="middle" fill="#24331b">2</text>
+<line x1="602.0" y1="90" x2="602.0" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="602.0" y="564" font-size="15" text-anchor="middle" fill="#24331b">3</text>
+<line x1="766.0" y1="90" x2="766.0" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="766.0" y="564" font-size="15" text-anchor="middle" fill="#24331b">4</text>
+<line x1="930.0" y1="90" x2="930.0" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="930.0" y="564" font-size="15" text-anchor="middle" fill="#24331b">5</text>
+<line x1="110" y1="540.0" x2="930" y2="540.0" stroke="#e4e1d6" stroke-width="1"/>
+<text x="100" y="545.0" font-size="15" text-anchor="end" fill="#24331b">0</text>
+<line x1="110" y1="450.0" x2="930" y2="450.0" stroke="#e4e1d6" stroke-width="1"/>
+<text x="100" y="455.0" font-size="15" text-anchor="end" fill="#24331b">1</text>
+<line x1="110" y1="360.0" x2="930" y2="360.0" stroke="#e4e1d6" stroke-width="1"/>
+<text x="100" y="365.0" font-size="15" text-anchor="end" fill="#24331b">2</text>
+<line x1="110" y1="270.0" x2="930" y2="270.0" stroke="#e4e1d6" stroke-width="1"/>
+<text x="100" y="275.0" font-size="15" text-anchor="end" fill="#24331b">3</text>
+<line x1="110" y1="180.0" x2="930" y2="180.0" stroke="#e4e1d6" stroke-width="1"/>
+<text x="100" y="185.0" font-size="15" text-anchor="end" fill="#24331b">4</text>
+<line x1="110" y1="90.0" x2="930" y2="90.0" stroke="#e4e1d6" stroke-width="1"/>
+<text x="100" y="95.0" font-size="15" text-anchor="end" fill="#24331b">5</text>
+<line x1="110" y1="540.0" x2="940" y2="540.0" stroke="#24331b" stroke-width="2"/>
+<line x1="110" y1="540" x2="110" y2="80" stroke="#24331b" stroke-width="2"/>
+<text x="935" y="530.0" font-size="16" text-anchor="end" fill="#24331b">V (liter)</text>
+<text x="102" y="70" font-size="16" text-anchor="start" fill="#24331b">p (bar)</text>
+<path d="M241.2 90.0 L 249.4 116.5 L 257.6 140.0 L 265.8 161.1 L 274.0 180.0 L 282.2 197.1 L 290.4 212.7 L 298.6 227.0 L 306.8 240.0 L 315.0 252.0 L 323.2 263.1 L 331.4 273.3 L 339.6 282.9 L 347.8 291.7 L 356.0 300.0 L 364.2 307.7 L 372.4 315.0 L 380.6 321.8 L 388.8 328.2 L 397.0 334.3 L 405.2 340.0 L 413.4 345.4 L 421.6 350.5 L 429.8 355.4 L 438.0 360.0 L 446.2 364.4 L 454.4 368.6 L 462.6 372.6 L 470.8 376.4 L 479.0 380.0 L 487.2 383.5 L 495.4 386.8 L 503.6 390.0 L 511.8 393.1 L 520.0 396.0 L 528.2 398.8 L 536.4 401.5 L 544.6 404.2 L 552.8 406.7 L 561.0 409.1 L 569.2 411.4 L 577.4 413.7 L 585.6 415.9 L 593.8 418.0 L 602.0 420.0 L 610.2 422.0 L 618.4 423.9 L 626.6 425.7 L 634.8 427.5 L 643.0 429.2 L 651.2 430.9 L 659.4 432.5 L 667.6 434.1 L 675.8 435.7 L 684.0 437.1 L 692.2 438.6 L 700.4 440.0 L 708.6 441.4 L 716.8 442.7 L 725.0 444.0 L 733.2 445.3 L 741.4 446.5 L 749.6 447.7 L 757.8 448.9 L 766.0 450.0 L 774.2 451.1 L 782.4 452.2 L 790.6 453.3 L 798.8 454.3 L 807.0 455.3 L 815.2 456.3 L 823.4 457.2 L 831.6 458.2 L 839.8 459.1 L 848.0 460.0 L 856.2 460.9 L 864.4 461.7 L 872.6 462.6 L 880.8 463.4 L 889.0 464.2 L 897.2 465.0 L 905.4 465.8 L 913.6 466.5 L 921.8 467.3 L 930.0 468.0" fill="none" stroke="#3b6fa0" stroke-width="5"/>
+<circle cx="274.0" cy="180.0" r="9" fill="#b5651d" stroke="#24331b" stroke-width="2"/>
+<circle cx="310.0" cy="150.0" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="310.0" y="157.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">P</text>
+<circle cx="438.0" cy="360.0" r="9" fill="#b5651d" stroke="#24331b" stroke-width="2"/>
+<circle cx="474.0" cy="330.0" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="474.0" y="337.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">Q</text>
+<circle cx="766.0" cy="450.0" r="9" fill="#b5651d" stroke="#24331b" stroke-width="2"/>
+<circle cx="802.0" cy="420.0" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="802.0" y="427.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">R</text>
+</svg>
