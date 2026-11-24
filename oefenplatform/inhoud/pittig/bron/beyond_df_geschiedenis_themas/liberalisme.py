@@ -16,7 +16,7 @@ VRAGEN = [
         "De liberalen wilden een grondwet, een parlement en grondrechten. Stemrecht voor iedereen hoorde er niet bij: dat werd de eis van de arbeidersbeweging.",
     ),
     koppel(
-        "Welk begrip hoort bij elke omschrijving?",
+        "Welk begrip over het liberalisme en nationalisme hoort bij elke omschrijving?",
         [
             ["Wetgeven, besturen en rechtspreken liggen in verschillende handen.", "Machtenscheiding"],
             ["Enkel wie genoeg belasting betaalt, mag kiezen.", "Cijnskiesrecht"],
@@ -266,7 +266,7 @@ VRAGEN = [
         "Bijvoorbeeld de Belgische revolutie van 1830: liberalen wilden grondrechten en een parlement, nationalisten een eigen staat. Ze konden samenwerken omdat ze dezelfde tegenstander hadden: een vorst die alleen besliste en de orde van Wenen.",
     ),
     volgorde(
-        "Zet in chronologische volgorde.",
+        "Zet deze gebeurtenissen over het liberalisme en nationalisme in chronologische volgorde.",
         ["De Verlichting", "De Franse Revolutie", "Het Congres van Wenen", "De Belgische revolutie", "De agressieve vorm van het nationalisme groeit"],
         "Eerst de ideeën van de Verlichting, dan de Revolutie van 1789, Wenen in 1815, België in 1830 en rond 1900 het agressieve nationalisme.",
     ),

@@ -69,7 +69,7 @@ VRAGEN = [
         "Kogels waren duur. Zo werden handen een bewijsstuk, en ook een straf voor wie het quotum niet haalde.",
     ),
     koppel(
-        "Welk begrip hoort bij elke omschrijving?",
+        "Welk begrip over Congo hoort bij elke omschrijving?",
         [
             ["Leger en politie van de Vrijstaat", "Force Publique"],
             ["Zweep van gedroogde huid", "Chicotte"],
@@ -134,7 +134,7 @@ VRAGEN = [
     ),
     # --- overgang
     volgorde(
-        "Zet in de juiste volgorde.",
+        "Zet deze stappen over Congo in de juiste volgorde.",
         ["De Conferentie van Berlijn", "Het rapport van Casement", "De Belgische staat neemt Congo over", "Uranium uit Shinkolobwe voor de atoombom", "De eerste universiteiten in Congo"],
         "1884-1885, 1904, 1908, de Tweede Wereldoorlog en de jaren vijftig.",
     ),

@@ -181,7 +181,7 @@ VRAGEN = [
         "Door het kapitaal te verdelen in aandelen konden bedrijven veel geld verzamelen.",
     ),
     volgorde(
-        "Zet in chronologische volgorde.",
+        "Zet deze gebeurtenissen over de industriële revolutie in chronologische volgorde.",
         ["De eerste industriële revolutie begint in Engeland", "Bauwens brengt een spinmachine naar Gent", "De spoorlijn Brussel-Mechelen opent", "De tweede industriële revolutie begint", "De eerste Belgische wet op kinderarbeid"],
         "Tweede helft 18de eeuw, rond 1800, 1835, rond 1870 en 1889.",
     ),

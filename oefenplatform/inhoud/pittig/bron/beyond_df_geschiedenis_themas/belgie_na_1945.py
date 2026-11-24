@@ -107,7 +107,7 @@ VRAGEN = [
         "De taalwetten bepaalden ook per gebied de taal van bestuur en onderwijs.",
     ),
     volgorde(
-        "Zet in chronologische volgorde.",
+        "Zet deze gebeurtenissen over België na 1945 in chronologische volgorde.",
         ["Het sociaal pact", "De troonsafstand van Leopold III", "Het Schoolpact", "De taalgrens", "Leuven Vlaams", "België een federale staat in de grondwet"],
         "1944, 1951, 1958, 1962-1963, 1968 en 1993.",
     ),

@@ -179,7 +179,7 @@ VRAGEN = [
     ),
     # --- wetten en stemrecht
     volgorde(
-        "Zet in chronologische volgorde.",
+        "Zet deze gebeurtenissen over de sociale strijd in chronologische volgorde.",
         ["Het coalitieverbod wordt opgeheven", "De Belgische Werkliedenpartij wordt opgericht", "Stakingen en onlusten in Wallonië", "Loon moet in geld worden uitbetaald", "Een wet regelt de arbeid van vrouwen en kinderen"],
         "1866, 1885, 1886, 1887 en 1889.",
     ),

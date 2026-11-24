@@ -300,7 +300,7 @@ VRAGEN = [
         "Naast breuken zie je lijnen die over een lange periode doorlopen.",
     ),
     koppel(
-        "Welk begrip hoort bij elke omschrijving?",
+        "Welk begrip over beeldvorming en herinnering hoort bij elke omschrijving?",
         [
             ["Een gebeurtenis vanuit verschillende standpunten bekijken", "Multiperspectiviteit"],
             ["Europa als maatstaf voor het hele verhaal nemen", "Eurocentrisme"],

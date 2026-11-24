@@ -92,7 +92,7 @@ VRAGEN = [
         "Wie voor hervormingen koos, werd sociaaldemocraat. Wie bij de revolutie bleef, werd later communist.",
     ),
     koppel(
-        "Welk begrip hoort bij elke omschrijving?",
+        "Welk begrip over de sociale stromingen hoort bij elke omschrijving?",
         [
             ["Stap voor stap hervormen in plaats van een revolutie", "Reformisme"],
             ["Pensioen, kinderbijslag en ziekteverzekering voor iedereen", "Welvaartsstaat"],

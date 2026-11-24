@@ -212,7 +212,7 @@ VRAGEN = [
         "De vervolging trof veel groepen. De Holocaust gaat over de systematische vernietiging van de Joden van Europa.",
     ),
     koppel(
-        "Welk begrip hoort bij elke omschrijving?",
+        "Welk begrip over de Tweede Wereldoorlog hoort bij elke omschrijving?",
         [
             ["Een afgesloten wijk waar Joden gedwongen moesten wonen", "Getto"],
             ["Het opzettelijk uitroeien van een volk of groep", "Genocide"],

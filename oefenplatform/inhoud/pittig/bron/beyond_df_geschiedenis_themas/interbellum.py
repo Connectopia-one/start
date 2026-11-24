@@ -62,7 +62,7 @@ VRAGEN = [
         "Bekijk de affiche uit de Sovjet-Unie van 1935. Stalin staat in het midden, groter dan de anderen. Rond hem staan lachende arbeiders, piloten en kinderen.",
         [
             met_prent("stalin-affiche.webp", mk(
-                "Hoe lees je deze affiche het best?",
+                "Hoe lees je deze affiche uit het interbellum het best?",
                 [
                     "Als propaganda voor de leider en zijn bewind",
                     "Als een foto van het echte leven in de fabriek",
@@ -85,7 +85,7 @@ VRAGEN = [
         ],
     ),
     koppel(
-        "Welk begrip hoort bij elke omschrijving?",
+        "Welk begrip over het interbellum hoort bij elke omschrijving?",
         [
             ["De staat plant de economie, met zware industrie eerst.", "Vijfjarenplan"],
             ["Boeren brengen grond en vee in grote staatsbedrijven in.", "Collectivisering"],

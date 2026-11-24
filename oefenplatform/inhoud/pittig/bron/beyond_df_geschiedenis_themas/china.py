@@ -58,7 +58,7 @@ VRAGEN = [
         "De taart toont hoe de mogendheden China als buit zagen.",
     ),
     volgorde(
-        "Zet in chronologische volgorde.",
+        "Zet deze gebeurtenissen over China in chronologische volgorde.",
         ["Hongkong wordt Brits", "De opstand van de boxers", "Het keizerrijk valt", "De Lange Mars", "De Volksrepubliek wordt uitgeroepen"],
         "1842, 1900, 1911-1912, 1934-1935 en 1949.",
     ),
@@ -75,7 +75,7 @@ VRAGEN = [
     ),
     # --- republiek en burgeroorlog
     koppel(
-        "Welke persoon hoort bij elke omschrijving?",
+        "Welke persoon uit China hoort bij elke omschrijving?",
         [
             ["Stichter van de republiek en van de Guomindang", "Sun Yat-sen"],
             ["Riep in 1949 de Volksrepubliek uit", "Mao Zedong"],

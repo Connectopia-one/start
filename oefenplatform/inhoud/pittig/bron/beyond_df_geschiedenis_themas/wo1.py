@@ -174,7 +174,7 @@ VRAGEN = [
         "Achter het front leefde men onder de bezetter. Aan de IJzer leefden de soldaten in de loopgraven.",
     ),
     koppel(
-        "Welk begrip hoort bij elke omschrijving?",
+        "Welk begrip over de Eerste Wereldoorlog hoort bij elke omschrijving?",
         [
             ["De bezetter steunt Vlaamse eisen om België te verdelen.", "Flamenpolitik"],
             ["Iemand die met die politiek van de bezetter meewerkte", "Activist"],
@@ -212,7 +212,7 @@ VRAGEN = [
         "In hetzelfde jaar kwam er een sterke bondgenoot bij en viel er een weg. Versailles volgde pas in 1919.",
     ),
     volgorde(
-        "Zet in chronologische volgorde.",
+        "Zet deze gebeurtenissen over de Eerste Wereldoorlog in chronologische volgorde.",
         ["De moord in Sarajevo", "De Duitse inval in België", "Gifgas bij Ieper", "De wapenstilstand", "Het Verdrag van Versailles"],
         "Juni 1914, 4 augustus 1914, april 1915, 11 november 1918 en 1919.",
     ),

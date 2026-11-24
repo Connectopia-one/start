@@ -21,7 +21,7 @@ VRAGEN = [
         "Verzwakking, prestigeverlies, eigen bewegingen en het zelfbeschikkingsrecht speelden mee.",
     ),
     volgorde(
-        "Zet in chronologische volgorde.",
+        "Zet deze gebeurtenissen over de dekolonisatie in chronologische volgorde.",
         ["India wordt onafhankelijk", "Indonesië wordt onafhankelijk", "Het Afrikaanse jaar", "Mobutu neemt de macht", "Het land heet Zaïre", "Mobutu wordt afgezet"],
         "1947, 1949, 1960, 1965, 1971 en 1997.",
     ),
@@ -62,7 +62,7 @@ VRAGEN = [
         ],
     ),
     koppel(
-        "Welke persoon hoort bij elke omschrijving?",
+        "Welke persoon uit de dekolonisatie hoort bij elke omschrijving?",
         [
             ["Eerste premier, sprak op 30 juni over het koloniale onrecht", "Patrice Lumumba"],
             ["Staatshoofd, met zijn beweging in Leopoldstad", "Joseph Kasavubu"],

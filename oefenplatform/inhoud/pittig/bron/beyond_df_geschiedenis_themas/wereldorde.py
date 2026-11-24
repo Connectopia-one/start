@@ -106,7 +106,7 @@ VRAGEN = [
         "Een Amerikaanse affiche uit 1950 toont een rode hand die over de wereldbol grijpt. Onderaan staat: \"Hou het communisme tegen!\"",
         [
             mk(
-                "Hoe lees je deze affiche het best?",
+                "Hoe lees je deze affiche uit de Koude Oorlog het best?",
                 [
                     "Als propaganda voor het eigen kamp",
                     "Als neutrale uitleg over het communisme",
@@ -208,7 +208,7 @@ VRAGEN = [
         "Moskou greep in. Het westen deed niets, uit vrees voor een grote oorlog.",
     ),
     koppel(
-        "Welk begrip hoort bij elke omschrijving?",
+        "Welk begrip over de Koude Oorlog hoort bij elke omschrijving?",
         [
             ["De blokken zoeken afspraken over wapens en handel.", "Détente"],
             ["Landen die bij geen blok horen", "Niet-gebonden landen"],

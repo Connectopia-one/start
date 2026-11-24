@@ -127,7 +127,7 @@ VRAGEN = [
     ),
     # --- orde bewaken
     volgorde(
-        "Zet in de juiste volgorde.",
+        "Zet deze stappen over het Congres van Wenen in de juiste volgorde.",
         ["De nederlaag van Napoleon", "Het Congres van Wenen begint", "De Heilige Alliantie wordt gesloten", "Een bron noemt de Alliantie een verbond tegen de volkeren", "De Belgische revolutie"],
         "Napoleon verslagen, het congres in 1814, de Heilige Alliantie in 1815, de bron uit 1820 en de Belgische revolutie in 1830.",
     ),

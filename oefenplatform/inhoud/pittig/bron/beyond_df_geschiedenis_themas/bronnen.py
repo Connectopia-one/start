@@ -82,7 +82,7 @@ VRAGEN = [
         ],
     ),
     koppel(
-        "Welk begrip hoort bij elke omschrijving?",
+        "Welk begrip over bronnenonderzoek hoort bij elke omschrijving?",
         [
             ["Iets uit een andere tijd in een verkeerde tijd plaatsen", "Anachronisme"],
             ["De vraag of een bron voor een hele groep geldt", "Representativiteit"],

@@ -241,7 +241,7 @@ VRAGEN = [
         "Fashoda en Marokko voedden mee de bondgenootschappen van 1914.",
     ),
     volgorde(
-        "Zet in chronologische volgorde.",
+        "Zet deze gebeurtenissen over het imperialisme in chronologische volgorde.",
         ["Het Suezkanaal opent", "De Conferentie van Berlijn", "Ethiopië verslaat Italië bij Adwa", "Fashoda", "Bijna heel Afrika is verdeeld"],
         "1869, 1884-1885, 1896, 1898 en 1914.",
     ),
