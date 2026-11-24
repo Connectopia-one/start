@@ -41,6 +41,12 @@ export const nieuwTekst = {
 export const updates: Update[] = [
   {
     datum: "24 november 2026",
+    titel: "Pittige hoofdstukken Frans in Beyond dubbele finaliteit",
+    tekst:
+      "Frans in Beyond dubbele finaliteit heeft nu bij elk van de 16 onderwerpen een pittig hoofdstuk van 30 vragen, in examenvorm: lezen en tekstsoorten, schrijven en spreken, de Franstalige wereld, de woordvelden van alledag tot wetenschap, en de grammatica van de lidwoorden, voornaamwoorden, bijvoeglijke naamwoorden, de tijden en de zinsbouw. Elk hoofdstuk begint met een korte Franse tekst met vragen erbij.",
+  },
+  {
+    datum: "24 november 2026",
     titel: "Pittige hoofdstukken Engels in Beyond dubbele finaliteit",
     tekst:
       "Engels in Beyond dubbele finaliteit heeft nu bij elk van de 16 onderwerpen een pittig hoofdstuk van 30 vragen, in examenvorm: lezen en tekstsoorten, schrijven en je mening geven, de Engelstalige wereld, de woordvelden van alledag tot wetenschap, en de grammatica van de tijden, naamwoorden, voornaamwoorden, bijvoeglijke naamwoorden en zinsbouw. Elk hoofdstuk begint met een korte Engelse tekst met vragen erbij.",

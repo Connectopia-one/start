@@ -1,0 +1,5527 @@
+{
+  "hoofdstukken": [
+    {
+      "titel": "Een Franse tekst lezen — pittig",
+      "niveau": "beyond-dubbele-finaliteit",
+      "gratis": false,
+      "vragen": [
+        {
+          "casus": "Lis le texte.\n\n« De plus en plus de jeunes Belges ont un petit job le week-end. La plupart travaillent dans un magasin ou dans un café. Ils gagnent leur propre argent et ils apprennent à parler avec les clients. Par contre, les professeurs sont inquiets : les élèves qui travaillent plus de dix heures par semaine sont souvent fatigués en classe. Donc, un petit job, oui, mais l'école d'abord ! »",
+          "vragen": [
+            {
+              "type": "meerkeuze",
+              "vraag": "Wat is het onderwerp van de tekst?",
+              "opties": [
+                "bijbaantjes van jongeren",
+                "de klanten van Belgische cafés",
+                "de punten van Belgische leerlingen",
+                "het weekend van leraren"
+              ],
+              "antwoord": 0,
+              "uitleg": "De hele tekst gaat over jongeren met een bijbaantje."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Wat is de hoofdgedachte?",
+              "opties": [
+                "Een klein bijbaantje mag, maar school gaat voor.",
+                "Jongeren moeten in het weekend in een winkel werken.",
+                "Leraren willen dat leerlingen meer geld verdienen.",
+                "Wie werkt, is nooit moe in de klas."
+              ],
+              "antwoord": 0,
+              "uitleg": "Het slot vat de boodschap samen."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "« Par contre » kondigt een [[*tegenstelling|opsomming|reden]] aan.",
+              "uitleg": "Na de voordelen komt de zorg."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "« Donc » geeft [[*een gevolg|een voorbeeld]].",
+              "uitleg": "Donc: dus."
+            },
+            {
+              "type": "invultekst",
+              "vraag": "Vanaf hoeveel uur per week zijn leerlingen volgens de tekst vaak moe? Geef het getal.",
+              "antwoord": [
+                "10",
+                "tien"
+              ],
+              "uitleg": "Plus de dix heures par semaine."
+            }
+          ]
+        },
+        {
+          "casus": "Lis le message sur le site de la piscine.\n\n« À partir du lundi 4 mars, la piscine sera fermée pour travaux. La salle de sport et les terrains de tennis restent ouverts. Nos membres peuvent nager gratuitement à la piscine de Jambes pendant cette période. Montrez votre carte à l'accueil. Nous espérons rouvrir le 1er avril. Merci de votre compréhension ! »",
+          "vragen": [
+            {
+              "type": "meerkeuze",
+              "vraag": "Wat is gesloten vanaf 4 maart?",
+              "opties": [
+                "het zwembad",
+                "de sportzaal en het zwembad",
+                "de tennisvelden achter de zaal",
+                "het hele sportcentrum"
+              ],
+              "antwoord": 0,
+              "uitleg": "Enkel la piscine sluit."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "« gratuitement » betekent [[*gratis|tegen betaling]].",
+              "uitleg": "Gratuit: gratis."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Wat moeten leden in Jambes doen?",
+              "opties": [
+                "hun kaart tonen aan het onthaal",
+                "vooraf een plaats reserveren",
+                "een extra bijdrage betalen",
+                "hun eigen handdoek en badmuts meebrengen"
+              ],
+              "antwoord": 0,
+              "uitleg": "Montrez votre carte à l'accueil."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "Het zwembad gaat normaal weer open op [[*1 april|4 maart|1 maart]].",
+              "uitleg": "Rouvrir le 1er avril."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "« pour travaux » : het zwembad wordt [[*hersteld|verkocht|gesloopt]].",
+              "uitleg": "Travaux: werken."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Lees: « Jules a acheté une guitare d'occasion. Elle n'était pas chère, mais elle sonne très bien. » Naar wat verwijst elle?",
+          "opties": [
+            "de gitaar",
+            "het geld dat Jules betaalde",
+            "de winkel waar Jules was",
+            "het lied dat Jules speelt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Elle zoekt een vrouwelijk woord in de zin ervoor: une guitare."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Lees: « Emma et son cousin sont allés au zoo. Leurs animaux préférés étaient les pingouins. » Naar wie verwijst leurs?",
+          "opties": [
+            "Emma en haar neef",
+            "alleen Emma",
+            "de pinguïns in de zoo",
+            "de mensen van de zoo"
+          ],
+          "antwoord": 0,
+          "uitleg": "Leurs is meervoud en verwijst naar de twee personen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Lees: « La route était bloquée, donc nous avons pris un autre chemin. » Wat betekent bloquée?",
+          "opties": [
+            "versperd",
+            "pas aangelegd",
+            "heel erg druk",
+            "goed verlicht"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het gevolg verraadt de betekenis."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Lees: « Entrée : 12 euros pour les adultes. Gratuit pour les enfants de moins de cinq ans. » Hoeveel betaalt een kind van drie?",
+          "opties": [
+            "niets",
+            "12 euro",
+            "de helft van 12 euro",
+            "5 euro"
+          ],
+          "antwoord": 0,
+          "uitleg": "Moins de cinq ans: gratis."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Lees: « Je voulais aller à la plage. Mais finalement, je suis resté à la maison pour ranger ma chambre. » Wat deed de schrijver?",
+          "opties": [
+            "thuisblijven en opruimen",
+            "naar het strand gaan",
+            "eerst opruimen en dan naar het strand",
+            "naar het strand met een vriend"
+          ],
+          "antwoord": 0,
+          "uitleg": "Mais finalement: maar uiteindelijk."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Lees: « Les sacs en plastique sont dangereux pour la mer. Par exemple, les tortues les mangent souvent. » Wat doet de tweede zin?",
+          "opties": [
+            "een voorbeeld geven",
+            "een tegenstelling geven",
+            "het besluit van de tekst geven",
+            "een nieuw onderwerp beginnen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Par exemple kondigt een voorbeeld aan."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Lees: « Notre café est ouvert tous les jours de 8 h à 18 h, sauf le mercredi. Nous vendons du café, du thé et des gâteaux maison. » Klopt dit?",
+          "rijen": [
+            "Het café is op woensdag gesloten.",
+            "Je kan er om 19 uur nog binnen.",
+            "Ze verkopen zelfgemaakte taart.",
+            "Het café is ook op zondag open."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            true
+          ],
+          "uitleg": "Sauf le mercredi; open tot 18 uur."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Lees: « Léo a quinze ans. Il habite à Liège avec sa mère et ses deux sœurs. Son père habite en Espagne. » Klopt dit?",
+          "rijen": [
+            "Léo heeft twee zussen.",
+            "Léo woont bij zijn papa.",
+            "Léo's papa woont in Spanje."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Son père habite en Espagne; Léo woont bij zijn mama."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Lees: « Le festival a récolté 5 000 euros pour l'hôpital. Il faisait beau et beaucoup de gens portaient un chapeau. » Hoofdzaak of bijzaak?",
+          "rijen": [
+            "Het festival bracht geld op voor het ziekenhuis.",
+            "Het was mooi weer.",
+            "Veel mensen droegen een hoed."
+          ],
+          "antwoord": [
+            0,
+            1,
+            1
+          ],
+          "uitleg": "Het geld voor het ziekenhuis is de boodschap.",
+          "kolommen": [
+            "hoofdzaak",
+            "bijzaak"
+          ]
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elk Frans signaalwoord aan wat het aankondigt.",
+          "paren": [
+            [
+              "mais",
+              "een tegenstelling"
+            ],
+            [
+              "donc",
+              "een gevolg"
+            ],
+            [
+              "parce que",
+              "een reden"
+            ],
+            [
+              "enfin",
+              "de laatste stap"
+            ]
+          ],
+          "extra": [
+            "een vraag"
+          ],
+          "uitleg": "Signaalwoorden tonen hoe zinnen samenhangen."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Lees: « Après le déjeuner, nous avons visité le château. Le matin, nous avons pris le train pour Dinant. Le soir, nous avons mangé au bord de la Meuse. » Zet de activiteiten in de juiste volgorde.",
+          "opties": [
+            "de trein naar Dinant nemen",
+            "het kasteel bezoeken",
+            "eten aan de Maas"
+          ],
+          "uitleg": "Le matin, après le déjeuner, le soir."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Lees: « Le bus part à 7 h 45 et le trajet dure vingt minutes. » Hoe laat komt de bus aan? Schrijf als 8.05.",
+          "antwoord": [
+            "8.05",
+            "8:05",
+            "8u05",
+            "8 h 05"
+          ],
+          "uitleg": "7.45 + 20 minuten = 8.05."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Lees: « Ma grand-mère a quatre-vingts ans, mais elle va encore nager deux fois par semaine. » Hoeveel keer per week gaat ze zwemmen? Geef het getal.",
+          "antwoord": [
+            "2",
+            "twee"
+          ],
+          "uitleg": "Deux fois: twee keer."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Lees: « Sam était nerveux avant l'examen. Ses mains tremblaient. » Nerveux betekent [[*zenuwachtig|blij|moe]].",
+          "uitleg": "Trillende handen verraden de betekenis."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Lees: « D'abord, rince les bouteilles. Puis, mets-les dans le sac bleu. » Wat doe je eerst? [[*de flessen uitspoelen|de flessen in de blauwe zak steken]].",
+          "uitleg": "D'abord: eerst."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Lees: « Le match a été annulé à cause de la neige. » À cause de geeft een [[*oorzaak|gevolg]].",
+          "uitleg": "À cause de: wegens."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Lees: « Malgré la pluie, nous sommes sortis. » Malgré betekent [[*ondanks|dankzij|tijdens]].",
+          "uitleg": "Een tegenstelling."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Lees: « Mia est infirmière. Chaque nuit, elle soigne des patients à l'hôpital de la ville. » Welke informatie is een hoofdpunt?",
+          "opties": [
+            "Mia werkt als verpleegster",
+            "het ziekenhuis ligt in de stad",
+            "Mia werkt zowel 's nachts als overdag",
+            "Mia lag zelf ooit in het ziekenhuis"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het beroep is de kern; waar het ziekenhuis ligt is een detail."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Lees: « Elle était malheureuse, mais aujourd'hui elle est contente. » Welk Frans woord in de zin betekent het omgekeerde van malheureuse? Eén woord.",
+          "antwoord": [
+            "contente"
+          ],
+          "uitleg": "Contente: blij, tevreden."
+        },
+        {
+          "type": "open",
+          "vraag": "Lees: « L'année dernière, Tom a oublié son passeport, donc il a raté son avion pour Rome. Cette année, il l'a préparé une semaine avant. » Leg in het Nederlands uit waarom Tom dit jaar zo vroeg was.",
+          "antwoord": "Omdat hij vorig jaar zijn paspoort vergat en daardoor zijn vlucht miste.",
+          "uitleg": "Donc geeft het gevolg; de tweede zin toont wat hij eruit leerde."
+        }
+      ]
+    },
+    {
+      "titel": "Tekstsoorten en de bedoeling van een tekst — pittig",
+      "niveau": "beyond-dubbele-finaliteit",
+      "gratis": false,
+      "vragen": [
+        {
+          "casus": "Lis les trois petits textes.\n\nTexte A : « Ne ratez pas la Fête d'été ! Musique, jeux et les meilleures frites de la ville. Venez avec vos amis ! »\nTexte B : « Prenez un comprimé deux fois par jour après le repas. Ne pas utiliser plus de cinq jours. »\nTexte C : « Je suis allé à la Fête d'été l'année dernière. À mon avis, la musique était trop forte, mais les frites étaient délicieuses. »",
+          "vragen": [
+            {
+              "type": "keuzelijst",
+              "vraag": "Texte A is [[*persuasief|prescriptief|narratief]].",
+              "uitleg": "Een oproep met wervende woorden."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "Texte B is [[*prescriptief|informatief|literair]].",
+              "uitleg": "Une notice zegt wat je moet doen."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "Texte C is [[*opiniërend|persuasief|prescriptief]].",
+              "uitleg": "À mon avis verraadt een mening."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Welke zin uit de teksten is een feit?",
+              "opties": [
+                "Je suis allé à la Fête d'été l'année dernière.",
+                "À mon avis, la musique était trop forte.",
+                "Les frites étaient délicieuses, vraiment très bonnes.",
+                "Les meilleures frites de toute la ville."
+              ],
+              "antwoord": 0,
+              "uitleg": "Dat iemand ging, kan je nakijken; de rest is een oordeel."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Voor wie is Texte B bedoeld?",
+              "opties": [
+                "iemand die het geneesmiddel neemt",
+                "de organisatoren van de Fête d'été",
+                "de vrienden van de schrijver",
+                "iemand die frieten wil bakken"
+              ],
+              "antwoord": 0,
+              "uitleg": "Une notice is voor de gebruiker van het middel."
+            }
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welke tekstsoort is het?",
+          "rijen": [
+            "la météo à la radio",
+            "une affiche : Inscris-toi à notre club de foot !",
+            "les règles d'un jeu de société",
+            "une nouvelle sur un chien perdu"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "uitleg": "Weerbericht informeert, affiche overtuigt, spelregels schrijven voor, een kortverhaal is literair.",
+          "kolommen": [
+            "informatief",
+            "persuasief",
+            "prescriptief",
+            "literair"
+          ]
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Feit of mening?",
+          "kolommen": [
+            "feit",
+            "mening"
+          ],
+          "items": [
+            [
+              "Paris est la capitale de la France.",
+              "feit"
+            ],
+            [
+              "Paris est la ville la plus agréable.",
+              "mening"
+            ],
+            [
+              "Le film dure deux heures.",
+              "feit"
+            ],
+            [
+              "Le film est beaucoup trop long.",
+              "mening"
+            ],
+            [
+              "L'eau bout à 100 °C.",
+              "feit"
+            ],
+            [
+              "L'eau froide est meilleure.",
+              "mening"
+            ]
+          ],
+          "uitleg": "Een feit kan je nakijken; een mening is een oordeel."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Formeel of informeel?",
+          "kolommen": [
+            "formeel",
+            "informeel"
+          ],
+          "items": [
+            [
+              "Madame, Monsieur,",
+              "formeel"
+            ],
+            [
+              "Salut Lucas !",
+              "informeel"
+            ],
+            [
+              "Cordialement,",
+              "formeel"
+            ],
+            [
+              "Bisous !",
+              "informeel"
+            ],
+            [
+              "Je voudrais vous demander",
+              "formeel"
+            ],
+            [
+              "Ça te dit ?",
+              "informeel"
+            ]
+          ],
+          "uitleg": "Formele woorden en vous voor een onbekende, tu en informele woorden voor vrienden."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elke Franse tekst aan zijn bedoeling.",
+          "paren": [
+            [
+              "une recette",
+              "uitleggen hoe iets moet"
+            ],
+            [
+              "une publicité",
+              "overtuigen"
+            ],
+            [
+              "un journal télévisé",
+              "informeren"
+            ],
+            [
+              "un avis sur un hôtel",
+              "een mening geven"
+            ]
+          ],
+          "extra": [
+            "een vriend uitnodigen"
+          ],
+          "uitleg": "Elke tekstsoort heeft zijn eigen bedoeling."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Lees: « Tournez à gauche après l'église et continuez tout droit sur 200 mètres. » Welke tekstsoort is dit?",
+          "opties": [
+            "prescriptief",
+            "opiniërend",
+            "narratief",
+            "persuasief en literair"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een wegbeschrijving zegt wat je moet doen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Lees: « Quand j'ai ouvert la porte, un chat inconnu dormait sur mon lit. » Welke tekstsoort is dit?",
+          "opties": [
+            "narratief",
+            "prescriptief",
+            "informatief",
+            "persuasief en literair"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een verhaal over wat er gebeurde."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Lees: « Franchement, c'est la pire pizza que j'ai mangée. » Welk woord verraadt vooral een mening?",
+          "opties": [
+            "pire",
+            "la pizza",
+            "j'ai mangée",
+            "c'est"
+          ],
+          "antwoord": 0,
+          "uitleg": "La pire is een oordeel."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Lees: « Les élèves doivent porter leur badge en permanence. » Waar vind je deze zin?",
+          "opties": [
+            "in een schoolreglement",
+            "in een kortverhaal over een school",
+            "in een recensie van een school",
+            "in een gedicht over een badge"
+          ],
+          "antwoord": 0,
+          "uitleg": "Doivent: een regel."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Lees: « En forme en 30 jours avec notre nouvelle appli ! Téléchargez-la gratuitement. » Wat is de bedoeling van de schrijver?",
+          "opties": [
+            "je overhalen om de app te downloaden",
+            "je vertellen hoe een app gebouwd wordt",
+            "een verhaal vertellen over sporten",
+            "je mening vragen over de app"
+          ],
+          "antwoord": 0,
+          "uitleg": "Reclame wil je overtuigen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Lees: « Coucou mamie, merci pour le joli pull ! Il est très chaud. Bisous, Lucie » Welk register is dit?",
+          "opties": [
+            "informeel",
+            "formeel",
+            "zeer formeel",
+            "zakelijk en neutraal"
+          ],
+          "antwoord": 0,
+          "uitleg": "Coucou, merci en bisous horen bij familie."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je schrijft een mail aan de directeur van een hotel. Welke slotformule past het best?",
+          "opties": [
+            "Cordialement, Tom Janssens",
+            "Bisous et à plus tard, mon ami !",
+            "Salut, à la prochaine fois au café !",
+            "Réponds-moi vite, d'accord, merci !"
+          ],
+          "antwoord": 0,
+          "uitleg": "Formeel en hoffelijk."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Lees: « La lune était une pièce d'argent dans le ciel noir. » Waarom is dit literair?",
+          "opties": [
+            "het gebruikt een beeld",
+            "het geeft een feit over de maan",
+            "het geeft je een opdracht",
+            "het wil je iets verkopen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Une pièce d'argent is een beeld."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Lees: « Des milliers de touristes visitent Bruges chaque été. La ville a beaucoup de vieux canaux. » Welke tekstsoort is dit?",
+          "opties": [
+            "informatief",
+            "opiniërend, want het noemt een stad",
+            "prescriptief, want het zegt wat je moet bezoeken",
+            "literair, want het gaat over een mooie stad"
+          ],
+          "antwoord": 0,
+          "uitleg": "Twee feiten, geen oordeel en geen opdracht."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je een tekst die je wil doen kopen of stemmen? Eén woord.",
+          "antwoord": [
+            "persuasief",
+            "persuasieve"
+          ],
+          "uitleg": "Persuasief: overtuigend."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul in: « Je ___ que c'est une bonne idée. » Een woord dat een mening aankondigt, van penser. Eén woord.",
+          "antwoord": [
+            "pense"
+          ],
+          "uitleg": "Je pense que."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een krantenartikel over een treinstaking is meestal [[*informatief|literair]].",
+          "uitleg": "Het geeft informatie."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een chanson over liefdesverdriet is [[*literair|prescriptief]].",
+          "uitleg": "Liederen zijn literaire teksten."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een getuigenis over je eerste werkdag is [[*narratief|prescriptief]].",
+          "uitleg": "Je vertelt wat er gebeurde."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "« Je trouve que » kondigt [[*een mening|een feit]] aan.",
+          "uitleg": "Net als à mon avis."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "In een mail aan een onbekende volwassene gebruik je de [[*vous-vorm|tu-vorm]].",
+          "uitleg": "Vous is beleefd."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Lees: « La nouvelle bibliothèque a ouvert en mai. Elle a 20 000 livres et une salle d'étude. Je pense que c'est le meilleur endroit pour étudier. » Feit of mening?",
+          "rijen": [
+            "La bibliothèque a ouvert en mai.",
+            "Elle a 20 000 livres.",
+            "C'est le meilleur endroit pour étudier."
+          ],
+          "antwoord": [
+            0,
+            0,
+            1
+          ],
+          "uitleg": "Je pense que kondigt de mening aan.",
+          "kolommen": [
+            "feit",
+            "mening"
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Hoort dit in een formele Franse mail?",
+          "rijen": [
+            "Je vous remercie de votre aide.",
+            "Salut, ça va ?",
+            "Pourriez-vous m'envoyer",
+            "À plus !"
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Hoffelijke vous-vormen horen in een formele mail."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet de delen van een formele Franse mail in de juiste volgorde.",
+          "opties": [
+            "Madame, Monsieur,",
+            "Je vous écris au sujet du job d'été.",
+            "Merci d'avance pour votre réponse.",
+            "Cordialement,",
+            "Sara Peeters"
+          ],
+          "uitleg": "Aanspreking, inleiding, slotzin, groet, naam."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Lees: « Comment fabriquer un avion en papier : 1. Pliez la feuille en deux. 2. Pliez les coins. » Wat vertelt de titel je al?",
+          "opties": [
+            "dat het om instructies gaat",
+            "dat het een verhaal over vliegen is",
+            "dat de schrijver een mening geeft",
+            "dat het een reclame voor papier is"
+          ],
+          "antwoord": 0,
+          "uitleg": "Comment + infinitief kondigt een handleiding aan."
+        },
+        {
+          "type": "open",
+          "vraag": "Lees: « Notre ville a besoin d'un nouveau skatepark. Les jeunes n'ont nulle part où aller et l'ancien parc est dangereux. Signez notre pétition ! » Leg in het Nederlands uit welke tekstsoort dit is en hoe je dat weet.",
+          "antwoord": "Het is persuasief: de schrijver geeft argumenten en roept je op om de petitie te tekenen.",
+          "uitleg": "Argumenten plus een oproep: overtuigen."
+        }
+      ]
+    },
+    {
+      "titel": "De Franstalige wereld: gewoontes en reizen — pittig",
+      "niveau": "beyond-dubbele-finaliteit",
+      "gratis": false,
+      "vragen": [
+        {
+          "casus": "Lis le message de Lien.\n\n« Coucou maman ! Je suis arrivée à Lyon hier en TGV. Je loge dans une chambre d'hôtes très propre, petit déjeuner compris. Ce matin, j'ai fait une visite guidée de la vieille ville. Ici, tout le monde fait la bise, même pour dire bonjour à des amis d'amis ! Demain, je pars à la campagne pour deux jours. Mon train de retour a un peu de retard à cause d'une grève, mais ce n'est pas grave. Bisous ! »",
+          "vragen": [
+            {
+              "type": "keuzelijst",
+              "vraag": "Lien reisde met [[*de snelle trein|het vliegtuig|de bus]].",
+              "uitleg": "Le TGV."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "Lien slaapt [[*bij mensen thuis|in een jeugdherberg|in een groot hotel]].",
+              "uitleg": "Une chambre d'hôtes."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "« faire la bise » is [[*kussen op de wang geven|handen schudden]].",
+              "uitleg": "La bise."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Waar gaat Lien morgen naartoe?",
+              "opties": [
+                "naar het platteland",
+                "naar het buitenland met de trein",
+                "naar het centrum van Parijs",
+                "naar de kust aan zee"
+              ],
+              "antwoord": 0,
+              "uitleg": "La campagne: het platteland."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "Haar trein terug heeft vertraging door [[*een staking|het weer|een ongeval]].",
+              "uitleg": "Une grève."
+            }
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over de Franstalige wereld?",
+          "rijen": [
+            "In Zwitserland betaal je met de frank.",
+            "Brussel is officieel enkel Franstalig.",
+            "Frankrijk viert zijn nationale feestdag op 14 juli.",
+            "In Afrika spreekt men nergens Frans."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Brussel is tweetalig; in Senegal, Congo en Marokko spreekt men Frans."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Hoort het bij reizen of bij een maaltijd?",
+          "kolommen": [
+            "reizen",
+            "maaltijd"
+          ],
+          "items": [
+            [
+              "un billet",
+              "reizen"
+            ],
+            [
+              "l'entrée",
+              "maaltijd"
+            ],
+            [
+              "une valise",
+              "reizen"
+            ],
+            [
+              "le dessert",
+              "maaltijd"
+            ],
+            [
+              "un aller-retour",
+              "reizen"
+            ],
+            [
+              "l'apéritif",
+              "maaltijd"
+            ]
+          ],
+          "uitleg": "Een ticket en een koffer tegenover voorgerecht, nagerecht en aperitief."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elk Frans reiswoord aan zijn betekenis.",
+          "paren": [
+            [
+              "un retard",
+              "een vertraging"
+            ],
+            [
+              "la frontière",
+              "de grens"
+            ],
+            [
+              "un séjour",
+              "een verblijf"
+            ],
+            [
+              "à l'étranger",
+              "in het buitenland"
+            ]
+          ],
+          "extra": [
+            "een pan"
+          ],
+          "uitleg": "Une poêle is een pan."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elk woord aan zijn betekenis.",
+          "paren": [
+            [
+              "la rentrée",
+              "het begin van het schooljaar"
+            ],
+            [
+              "le bac",
+              "het eindexamen"
+            ],
+            [
+              "les soldes",
+              "de koopjes"
+            ],
+            [
+              "le périphérique",
+              "de ringweg rond Parijs"
+            ]
+          ],
+          "extra": [
+            "het middagmaal"
+          ],
+          "uitleg": "Het middagmaal is le déjeuner."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je wil van Brussel naar Parijs en weer terug. Welk ticket vraag je?",
+          "opties": [
+            "un aller-retour",
+            "un aller simple",
+            "un séjour de trois jours",
+            "une visite guidée de Paris"
+          ],
+          "antwoord": 0,
+          "uitleg": "Heen en terug."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe zeg je « We gaan met de trein naar Parijs »?",
+          "opties": [
+            "Nous allons à Paris en train.",
+            "Nous allons à Paris avec le train.",
+            "Nous allons à Paris par le train.",
+            "Nous allons en Paris à train."
+          ],
+          "antwoord": 0,
+          "uitleg": "En train, zonder lidwoord."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe zeg je « Ik ga te voet »?",
+          "opties": [
+            "Je vais à pied.",
+            "Je vais en pied.",
+            "Je vais avec les pieds.",
+            "Je vais par pied."
+          ],
+          "antwoord": 0,
+          "uitleg": "À pied, niet en."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je komt een bakkerij in Parijs binnen. Wat zeg je eerst?",
+          "opties": [
+            "Bonjour !",
+            "Une baguette, vite !",
+            "Salut, ça va ?",
+            "Donne-moi du pain !"
+          ],
+          "antwoord": 0,
+          "uitleg": "Zonder bonjour klinkt een vraag onbeschoft."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je spreekt een onbekende oudere dame aan op straat. Hoe spreek je haar aan?",
+          "opties": [
+            "met vous",
+            "met tu",
+            "met haar voornaam en tu",
+            "met salut en tu"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een onbekende volwassene: vous."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke stad ligt in Wallonië?",
+          "opties": [
+            "Namen",
+            "Gent",
+            "Antwerpen",
+            "Brugge"
+          ],
+          "antwoord": 0,
+          "uitleg": "Namen is de hoofdstad van het Waalse Gewest."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe zeg je koffer in het Frans? Eén woord.",
+          "antwoord": [
+            "valise",
+            "une valise",
+            "la valise"
+          ],
+          "uitleg": "Une valise."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe zeg je vliegveld in het Frans? Eén woord.",
+          "antwoord": [
+            "aéroport",
+            "l'aéroport",
+            "aeroport"
+          ],
+          "uitleg": "L'aéroport."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe zeg je staking in het Frans? Eén woord.",
+          "antwoord": [
+            "grève",
+            "une grève",
+            "la grève",
+            "greve"
+          ],
+          "uitleg": "Une grève."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Op welke dag viert Frankrijk zijn nationale feestdag? Schrijf als 14 juli.",
+          "antwoord": [
+            "14 juli"
+          ],
+          "uitleg": "Le quatorze juillet."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "« Nous avons [[*réservé|visité]] une chambre pour trois nuits. »",
+          "uitleg": "Réserver: boeken."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "« Cet été, je pars [[*à l'étranger|en étranger]]. »",
+          "uitleg": "À l'étranger."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "« Le [[*paysage|séjour]] est magnifique : des montagnes et des lacs. »",
+          "uitleg": "Un paysage: een landschap."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "« Il habite au Canada, dans la province de [[*Québec|Wallonie]], où on parle surtout français. »",
+          "uitleg": "Québec is Franstalig."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "In Canada zijn het Frans en [[*het Engels|het Duits]] officieel.",
+          "uitleg": "Frans en Engels."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is dit een land waar Frans een officiële taal is?",
+          "rijen": [
+            "Luxemburg",
+            "Portugal",
+            "Senegal",
+            "Zwitserland"
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            true
+          ],
+          "uitleg": "In Portugal spreekt men Portugees."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Hoort dit bij lichaamstaal?",
+          "rijen": [
+            "iemand aankijken als je spreekt",
+            "de woorden die je kiest",
+            "la bise bij een begroeting"
+          ],
+          "antwoord": [
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Lichaamstaal zegt iets zonder woorden."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe heet een vakantiehuisje op het Franse platteland? Eén woord.",
+          "antwoord": [
+            "gîte",
+            "un gîte",
+            "gite"
+          ],
+          "uitleg": "Un gîte."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet de gangen van een Franse maaltijd in de juiste volgorde.",
+          "opties": [
+            "l'apéritif",
+            "l'entrée",
+            "le plat principal",
+            "le dessert"
+          ],
+          "uitleg": "Aperitief, voorgerecht, hoofdgerecht, nagerecht."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Nous avons pris [[le ferry]] pour aller en Corse. À l'arrivée, nous avons pris [[un car]] jusqu'à l'hôtel.",
+          "extra": [
+            "un gîte",
+            "une poêle"
+          ],
+          "uitleg": "Een veerboot en een reisbus."
+        },
+        {
+          "type": "open",
+          "vraag": "Noem in het Nederlands één verschil tussen Frankrijk en Vlaanderen dat je in deze les leerde.",
+          "antwoord": "In Frankrijk geeft men elkaar vaak la bise, ook bij mensen die men nog niet goed kent.",
+          "uitleg": "Bijvoorbeeld la bise, le bac of de vaste soldenperiodes."
+        }
+      ]
+    },
+    {
+      "titel": "Schrijven en spreken in het Frans — pittig",
+      "niveau": "beyond-dubbele-finaliteit",
+      "gratis": false,
+      "vragen": [
+        {
+          "casus": "Lis le mail de Noah.\n\nMadame Dupont,\n\nJ'ai vu votre annonce pour un baby-sitter sur le site de l'école. J'ai dix-sept ans et je m'occupe souvent de mes petits frères. Je suis libre le mercredi après-midi et le week-end. Pourriez-vous me dire combien vous payez par heure ?\n\nMerci d'avance pour votre réponse.\n\nCordialement,\nNoah Peeters",
+          "vragen": [
+            {
+              "type": "keuzelijst",
+              "vraag": "Het register van deze mail is [[*formeel|informeel]].",
+              "uitleg": "Madame Dupont, vous en Cordialement."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "Noah gebruikt de [[*vous-vorm|tu-vorm]] omdat hij Madame Dupont niet goed kent.",
+              "uitleg": "Vous bij een onbekende volwassene."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Wat vraagt Noah aan Madame Dupont?",
+              "opties": [
+                "hoeveel ze per uur betaalt",
+                "of hij op woensdag mag beginnen",
+                "hoe oud haar kinderen zijn",
+                "waar ze precies woont"
+              ],
+              "antwoord": 0,
+              "uitleg": "Combien vous payez par heure."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "« Pourriez-vous me dire » staat in de [[*conditionnel de politesse|futur simple]].",
+              "uitleg": "Hoffelijk vragen."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Welke zin hoort bij het slot van de mail?",
+              "opties": [
+                "Merci d'avance pour votre réponse.",
+                "J'ai vu votre annonce sur le site.",
+                "J'ai dix-sept ans et je garde mes frères.",
+                "Je suis libre le mercredi après-midi."
+              ],
+              "antwoord": 0,
+              "uitleg": "Een slotzin kijkt uit naar een antwoord."
+            }
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is dit een goede strategie bij een Franse schrijfopdracht?",
+          "rijen": [
+            "eerst een lijstje kernwoorden maken",
+            "de opgegeven lengte negeren",
+            "je tekst nalezen voor je hem inlevert",
+            "in een formele mail tu schrijven"
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Plannen, de lengte respecteren, nalezen en vous in een formele mail."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet de stappen van een schrijfopdracht in de juiste volgorde.",
+          "opties": [
+            "nadenken waarom en voor wie je schrijft",
+            "een lijstje kernwoorden maken",
+            "de tekst schrijven",
+            "de tekst nalezen"
+          ],
+          "uitleg": "Eerst het communicatiemodel, dan plannen, schrijven en nalezen."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Hoort het bij een formele of een informele Franse mail?",
+          "kolommen": [
+            "formeel",
+            "informeel"
+          ],
+          "items": [
+            [
+              "Madame, Monsieur,",
+              "formeel"
+            ],
+            [
+              "Salut Tom,",
+              "informeel"
+            ],
+            [
+              "Cordialement,",
+              "formeel"
+            ],
+            [
+              "Bisous,",
+              "informeel"
+            ],
+            [
+              "Merci d'avance.",
+              "formeel"
+            ],
+            [
+              "À plus !",
+              "informeel"
+            ]
+          ],
+          "uitleg": "Formeel tegenover een onbekende, informeel tegenover een vriend."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elke Franse zin aan wat je ermee doet.",
+          "paren": [
+            [
+              "Pourriez-vous m'indiquer la gare ?",
+              "informatie vragen"
+            ],
+            [
+              "Tu devrais essayer, c'est moins cher.",
+              "overtuigen"
+            ],
+            [
+              "Je trouve que c'est injuste.",
+              "een mening geven"
+            ],
+            [
+              "J'ai vu un accident hier soir.",
+              "iets vertellen"
+            ]
+          ],
+          "extra": [
+            "iemand bedanken"
+          ],
+          "uitleg": "Elke zin heeft een eigen doel."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elke uitdrukking aan haar gebruik.",
+          "paren": [
+            [
+              "Je suis désolé.",
+              "je verontschuldigen"
+            ],
+            [
+              "Ce n'est pas grave.",
+              "reageren op een verontschuldiging"
+            ],
+            [
+              "Beau travail !",
+              "iemand feliciteren"
+            ],
+            [
+              "Tu viens samedi ?",
+              "iemand uitnodigen"
+            ]
+          ],
+          "extra": [
+            "afscheid nemen"
+          ],
+          "uitleg": "Sociale contacten in het Frans."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je verstaat je gesprekspartner niet goed. Wat zeg je?",
+          "opties": [
+            "Pouvez-vous répéter, s'il vous plaît ?",
+            "Je ne comprends rien, au revoir et merci !",
+            "Arrête de parler, s'il te plaît, merci.",
+            "Tu parles très mal le français, je trouve."
+          ],
+          "antwoord": 0,
+          "uitleg": "Vraag beleefd om herhaling."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je kent het Franse woord voor « ladder » niet. Wat doe je in je tekst?",
+          "opties": [
+            "het omschrijven met woorden die je wel kent",
+            "het Nederlandse woord gewoon in de zin laten staan",
+            "de hele zin dan maar uit de tekst weglaten",
+            "stoppen met schrijven en iets anders doen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bereik je doel met wat je al kent."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je vriend vraagt of hij met de trein moet gaan. Welke zin overtuigt?",
+          "opties": [
+            "Tu devrais prendre le train, c'est plus rapide.",
+            "Le train part à huit heures et quart du matin.",
+            "Le billet de train coûte vingt euros en tout, aller.",
+            "Est-ce qu'il y a un train demain matin ou pas ?"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een aanbeveling met een argument."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke van deze zinnen legt iets uit?",
+          "opties": [
+            "Prenez le premier chemin à droite.",
+            "J'adore marcher dans la forêt le dimanche.",
+            "Hier, nous avons vu un cerf dans la forêt.",
+            "Tu viens marcher avec nous demain ?"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een uitleg gebruikt vaak de imperatief."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je schrijft een formele mail. Hoe begin je als je de naam niet kent?",
+          "opties": [
+            "Madame, Monsieur,",
+            "Salut tout le monde,",
+            "Coucou à vous deux,",
+            "Cher ami de l'hôtel,"
+          ],
+          "antwoord": 0,
+          "uitleg": "Madame, Monsieur zonder naam."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul de hoffelijke vorm in: « ___ -vous m'aider, s'il vous plaît ? » (pouvoir) Eén woord.",
+          "antwoord": [
+            "pourriez",
+            "Pourriez"
+          ],
+          "uitleg": "Pourriez-vous."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul in: « Je vous ___ de votre aide. » Formeel bedanken, van remercier. Eén woord.",
+          "antwoord": [
+            "remercie"
+          ],
+          "uitleg": "Je vous remercie."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul in: « Je ___ que c'est une bonne idée. » Een mening, van trouver. Eén woord.",
+          "antwoord": [
+            "trouve"
+          ],
+          "uitleg": "Je trouve que."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe zeg je een mail in het Frans van Québec? Eén woord.",
+          "antwoord": [
+            "courriel",
+            "un courriel"
+          ],
+          "uitleg": "Un courriel."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul in: « Pouvez-vous parler plus ___ ? » (trager) Eén woord.",
+          "antwoord": [
+            "lentement"
+          ],
+          "uitleg": "Lentement: traag."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe zeg je in het Frans « alstublieft » bij de vous-vorm? Vier woorden.",
+          "antwoord": [
+            "s'il vous plaît",
+            "s'il vous plait"
+          ],
+          "uitleg": "S'il vous plaît; bij tu: s'il te plaît."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "In een mail aan een vriend schrijf je [[*Salut|Madame, Monsieur]].",
+          "uitleg": "Informeel."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Spelfouten mogen bij het examen [[*het tekstbegrip niet in de weg staan|nooit voorkomen]].",
+          "uitleg": "Foutloos hoeft niet, duidelijk wel."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Bij een spreekopdracht tellen [[*je uitspraak en je lichaamstaal|alleen je woorden]] mee.",
+          "uitleg": "Ook spreektempo en intonatie."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "In een gesprek [[*toon je interesse|zeg je enkel wat jij wil]] in wat de ander zegt.",
+          "uitleg": "Speel in op de ander."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "« Je [[*souhaiterais|souhaiterai]] réserver une table. » Je vraagt hoffelijk.",
+          "uitleg": "Conditionnel: -ais."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is dit een goede zin om een vriend te overtuigen om mee te gaan wandelen?",
+          "rijen": [
+            "C'est gratuit et il fait beau.",
+            "Quelle est ton adresse ?",
+            "Tu devrais venir, ce sera chouette !",
+            "La forêt a un site internet."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Overtuigen: een argument of een aanbeveling geven."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Salut Emma,\n\nMerci [[pour]] ton message ! [[D'abord]], je vais à Paris. [[Ensuite]], je vais à Lyon.\n\nBisous, Mia",
+          "extra": [
+            "de la",
+            "Cependant"
+          ],
+          "uitleg": "Merci pour; d'abord en ensuite zetten de stappen op een rij."
+        },
+        {
+          "type": "open",
+          "vraag": "Je schreef een mail aan een hotel. Leg in het Nederlands uit waarom je « je voudrais » schrijft en niet « je veux ».",
+          "antwoord": "Je voudrais is de conditionnel de politesse en klinkt hoffelijk; je veux klinkt bot.",
+          "uitleg": "Je past je taal aan de ontvanger aan."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Hoort dit bij een goede tekststructuur?",
+          "rijen": [
+            "een inleiding, een midden en een slot",
+            "signaalwoorden zoals d'abord en enfin",
+            "geen titel en geen alinea's"
+          ],
+          "antwoord": [
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Inleiding, midden en slot met duidelijke tekstverbanden."
+        }
+      ]
+    },
+    {
+      "titel": "Woordvelden: dagelijks leven, eten en wonen — pittig",
+      "niveau": "beyond-dubbele-finaliteit",
+      "gratis": false,
+      "vragen": [
+        {
+          "casus": "Lis l'annonce.\n\n« À LOUER – Appartement douillet de deux chambres au rez-de-chaussée d'un immeuble calme. Meublé : meubles neufs, rideaux, frigo et machine à laver. La chaudière a été changée l'année dernière. Petit jardin avec une pelouse et une haie. Loyer : 850 euros par mois. Le propriétaire habite à côté. Pas d'animaux. Le locataire doit tondre la pelouse. »",
+          "vragen": [
+            {
+              "type": "keuzelijst",
+              "vraag": "Het appartement ligt op [[*het gelijkvloers|de eerste verdieping|de zolder]].",
+              "uitleg": "Le rez-de-chaussée."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "« Meublé » betekent dat er al [[*meubels|geen meubels]] in staan.",
+              "uitleg": "Les meubles."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Wie woont er naast het appartement?",
+              "opties": [
+                "de eigenaar",
+                "de vorige huurder",
+                "een gezin met huisdieren",
+                "de buurman die de tuin doet"
+              ],
+              "antwoord": 0,
+              "uitleg": "Le propriétaire habite à côté."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "« le loyer » is [[*de huur|de ketel|het grasveld]].",
+              "uitleg": "Le loyer: het geld dat je elke maand betaalt."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Wat staat er in de tuin?",
+              "opties": [
+                "een grasveld en een haag",
+                "een tuinhuisje en een grote vijver",
+                "een trap naar de kelder",
+                "een vuilnisbak voor de buren"
+              ],
+              "antwoord": 0,
+              "uitleg": "Une pelouse et une haie."
+            }
+          ]
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Hoort het in de keuken of in de tuin?",
+          "kolommen": [
+            "keuken",
+            "tuin"
+          ],
+          "items": [
+            [
+              "une bouilloire",
+              "keuken"
+            ],
+            [
+              "la pelouse",
+              "tuin"
+            ],
+            [
+              "un robinet",
+              "keuken"
+            ],
+            [
+              "la haie",
+              "tuin"
+            ],
+            [
+              "un frigo",
+              "keuken"
+            ],
+            [
+              "la terrasse",
+              "tuin"
+            ]
+          ],
+          "uitleg": "Waterkoker, kraan en koelkast binnen; grasveld, haag en terras buiten."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Familie of geen familie?",
+          "kolommen": [
+            "familie",
+            "geen familie"
+          ],
+          "items": [
+            [
+              "une tante",
+              "familie"
+            ],
+            [
+              "un locataire",
+              "geen familie"
+            ],
+            [
+              "un neveu",
+              "familie"
+            ],
+            [
+              "un voisin",
+              "geen familie"
+            ],
+            [
+              "une nièce",
+              "familie"
+            ],
+            [
+              "un invité",
+              "geen familie"
+            ]
+          ],
+          "uitleg": "Tante, neef en nicht zijn familie; een huurder, buur of gast niet."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elke Franse uitdrukking aan haar betekenis.",
+          "paren": [
+            [
+              "faire la grasse matinée",
+              "uitslapen"
+            ],
+            [
+              "en avoir assez",
+              "er genoeg van hebben"
+            ],
+            [
+              "s'entendre bien avec",
+              "goed overeenkomen met"
+            ],
+            [
+              "déménager",
+              "verhuizen"
+            ]
+          ],
+          "extra": [
+            "afwassen"
+          ],
+          "uitleg": "Afwassen is faire la vaisselle."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elk Frans huishoudwoord aan zijn betekenis.",
+          "paren": [
+            [
+              "un aspirateur",
+              "een stofzuiger"
+            ],
+            [
+              "une poubelle",
+              "een vuilnisbak"
+            ],
+            [
+              "un balai",
+              "een bezem"
+            ],
+            [
+              "un seau",
+              "een emmer"
+            ]
+          ],
+          "extra": [
+            "een gordijn"
+          ],
+          "uitleg": "Een gordijn is un rideau."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "« Je suis fatigué. Samedi, je vais ___. » Wat past?",
+          "opties": [
+            "faire la grasse matinée",
+            "faire la lessive à la main",
+            "déménager",
+            "ranger tout le grenier vite"
+          ],
+          "antwoord": 0,
+          "uitleg": "Uitslapen na een vermoeiende week."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe zeg je « Hij heeft me een goede raad gegeven »?",
+          "opties": [
+            "Il m'a donné un bon conseil.",
+            "Il m'a donné un bon conseiller.",
+            "Il m'a fait un bon conseil.",
+            "Il m'a donné une bonne conseil."
+          ],
+          "antwoord": 0,
+          "uitleg": "Un conseil is de raad zelf."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je bent in een snackbar in Parijs. Welke vraag krijg je?",
+          "opties": [
+            "Sur place ou à emporter ?",
+            "Vous voulez louer un appartement ?",
+            "Vous êtes le nouveau locataire ?",
+            "Vous pouvez faire la vaisselle ?"
+          ],
+          "antwoord": 0,
+          "uitleg": "Hier eten of meenemen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "« Les enfants prennent leur ___ à quatre heures. » Wat past?",
+          "opties": [
+            "goûter",
+            "dîner",
+            "petit déjeuner",
+            "déjeuner"
+          ],
+          "antwoord": 0,
+          "uitleg": "Le goûter: het vieruurtje."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "« Ce curry est très ___. » Het is pikant. Wat past?",
+          "opties": [
+            "épicé",
+            "douillet",
+            "équilibré",
+            "meublé"
+          ],
+          "antwoord": 0,
+          "uitleg": "Épicé: pikant."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waar woon je als je op « le premier étage » woont?",
+          "opties": [
+            "op de eerste verdieping",
+            "op het gelijkvloers",
+            "in de kelder onder het gebouw",
+            "op de zolder van het gebouw"
+          ],
+          "antwoord": 0,
+          "uitleg": "Boven het rez-de-chaussée."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe zeg je vork in het Frans? Eén woord, zonder lidwoord.",
+          "antwoord": [
+            "fourchette"
+          ],
+          "uitleg": "Une fourchette."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe zeg je lift in het Frans? Eén woord, zonder lidwoord.",
+          "antwoord": [
+            "ascenseur"
+          ],
+          "uitleg": "Un ascenseur."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe zeg je gang in het Frans? Eén woord, zonder lidwoord.",
+          "antwoord": [
+            "couloir"
+          ],
+          "uitleg": "Le couloir."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Schrijf het meervoud van « un rideau ». Twee woorden.",
+          "antwoord": [
+            "des rideaux"
+          ],
+          "uitleg": "Met een x."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "« Nous allons au cinéma [[*en bus|avec le bus]]. »",
+          "uitleg": "En bus."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "« Ce soir, je reste [[*à la maison|dans la maison chez]]. »",
+          "uitleg": "À la maison."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "« Mets le papier [[*à la poubelle|dans la bouilloire]]. »",
+          "uitleg": "Une poubelle: een vuilnisbak."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "« Mon frère ne fait jamais les tâches [[*ménagères|ménagers]]. »",
+          "uitleg": "Les tâches ménagères."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "« J'ai fait une [[*erreur|faute de faire]] dans mon devoir. »",
+          "uitleg": "Faire une erreur."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is deze zin juist (dagelijks leven)?",
+          "rijen": [
+            "Je m'entends bien avec mes voisins.",
+            "Il m'a donné un conseiller.",
+            "Les meubles sont neufs.",
+            "J'en ai assez de ce temps."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            true
+          ],
+          "uitleg": "Un conseil, niet un conseiller."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is dit een ruimte in een huis?",
+          "rijen": [
+            "le grenier",
+            "le couloir",
+            "la pelouse",
+            "le balai"
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            false
+          ],
+          "uitleg": "Zolder en gang; een grasveld en een bezem zijn geen ruimtes."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Le dimanche, je [[range]] ma chambre. Puis j'aide mon père à faire [[la vaisselle]] après le dîner.",
+          "extra": [
+            "loue",
+            "le loyer"
+          ],
+          "uitleg": "Ranger: opruimen. La vaisselle: de vaat."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe zeg je de huurder in het Frans? Twee woorden.",
+          "antwoord": [
+            "le locataire"
+          ],
+          "uitleg": "Le locataire."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet de maaltijden van een Franse dag in de juiste volgorde.",
+          "opties": [
+            "le petit déjeuner",
+            "le déjeuner",
+            "le goûter",
+            "le dîner"
+          ],
+          "uitleg": "Ontbijt, middagmaal, vieruurtje, avondmaal."
+        },
+        {
+          "type": "open",
+          "vraag": "Leg in het Nederlands uit wat het verschil is tussen « le propriétaire » en « le locataire ».",
+          "antwoord": "Le propriétaire is de eigenaar die verhuurt, le locataire is de huurder die le loyer betaalt.",
+          "uitleg": "Eigenaar tegenover huurder."
+        }
+      ]
+    },
+    {
+      "titel": "Woordvelden: gezondheid, natuur en milieu — pittig",
+      "niveau": "beyond-dubbele-finaliteit",
+      "gratis": false,
+      "vragen": [
+        {
+          "casus": "Lis le message d'Ella.\n\nMonsieur Martin,\n\nJe suis désolée, mais je ne peux pas venir à l'école aujourd'hui. J'ai mal à la gorge, de la toux et de la fièvre. Ce matin, je suis allée chez mon médecin généraliste. Il m'a donné une ordonnance et il m'a dit de prendre soin de moi pendant trois jours. J'apporterai un certificat médical à mon retour.\n\nCordialement,\nElla",
+          "vragen": [
+            {
+              "type": "keuzelijst",
+              "vraag": "Ella heeft [[*keelpijn|buikpijn|hoofdpijn]], hoest en koorts.",
+              "uitleg": "Mal à la gorge."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "Ella ging naar [[*haar huisarts|het ziekenhuis|de apotheek]].",
+              "uitleg": "Le médecin généraliste."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Wat kreeg Ella van de dokter?",
+              "opties": [
+                "een voorschrift voor medicijnen",
+                "een pleister voor haar zere hand",
+                "een afspraak in het ziekenhuis",
+                "een briefje voor de sportles"
+              ],
+              "antwoord": 0,
+              "uitleg": "Une ordonnance."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "« prendre soin de soi » betekent [[*goed voor jezelf zorgen|veel sporten]].",
+              "uitleg": "Prends soin de toi."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "Ella brengt later [[*een doktersattest|haar huiswerk]] mee naar school.",
+              "uitleg": "Un certificat médical."
+            }
+          ]
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Hoort het bij gezondheid of bij het milieu?",
+          "kolommen": [
+            "gezondheid",
+            "milieu"
+          ],
+          "items": [
+            [
+              "la toux",
+              "gezondheid"
+            ],
+            [
+              "la pollution",
+              "milieu"
+            ],
+            [
+              "un bilan de santé",
+              "gezondheid"
+            ],
+            [
+              "les émissions",
+              "milieu"
+            ],
+            [
+              "une ordonnance",
+              "gezondheid"
+            ],
+            [
+              "le gaspillage",
+              "milieu"
+            ]
+          ],
+          "uitleg": "Klachten en dokterswoorden tegenover vervuiling, uitstoot en verspilling."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Dier of boom?",
+          "kolommen": [
+            "dier",
+            "boom"
+          ],
+          "items": [
+            [
+              "un hérisson",
+              "dier"
+            ],
+            [
+              "un érable",
+              "boom"
+            ],
+            [
+              "un hibou",
+              "dier"
+            ],
+            [
+              "un conifère",
+              "boom"
+            ],
+            [
+              "un écureuil",
+              "dier"
+            ]
+          ],
+          "uitleg": "Egel, uil en eekhoorn zijn dieren; esdoorn en naaldboom bomen."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elk Frans woord over natuurrampen aan zijn betekenis.",
+          "paren": [
+            [
+              "la sécheresse",
+              "de droogte"
+            ],
+            [
+              "une inondation",
+              "een overstroming"
+            ],
+            [
+              "une canicule",
+              "een hittegolf"
+            ],
+            [
+              "un séisme",
+              "een aardbeving"
+            ]
+          ],
+          "extra": [
+            "een briesje"
+          ],
+          "uitleg": "Une brise is een briesje."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elke Franse uitdrukking over gezondheid aan haar betekenis.",
+          "paren": [
+            [
+              "avoir le moral à zéro",
+              "zich slecht voelen"
+            ],
+            [
+              "prendre du poids",
+              "bijkomen"
+            ],
+            [
+              "guérir",
+              "genezen"
+            ],
+            [
+              "être stressé",
+              "gespannen zijn"
+            ]
+          ],
+          "extra": [
+            "verdwijnen"
+          ],
+          "uitleg": "Verdwijnen is disparaître."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe zeg je « Ik heb hoofdpijn » in het Frans?",
+          "opties": [
+            "J'ai mal à la tête.",
+            "J'ai une douleur dans ma tête.",
+            "J'ai la tête malade.",
+            "Ma tête a un mal."
+          ],
+          "antwoord": 0,
+          "uitleg": "Avoir mal à + lichaamsdeel."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "« Après dix kilomètres de course, j'étais complètement ___. » Wat past?",
+          "opties": [
+            "épuisé",
+            "fier et seul",
+            "bondé",
+            "durable"
+          ],
+          "antwoord": 0,
+          "uitleg": "Épuisé: uitgeput."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je snijdt in je vinger. Wat heb je nodig?",
+          "opties": [
+            "un pansement",
+            "une ordonnance pour des pilules",
+            "une empreinte carbone",
+            "une alimentation équilibrée"
+          ],
+          "antwoord": 0,
+          "uitleg": "Un pansement: een pleister."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "« Le dodo a ___ il y a longtemps. » Wat past?",
+          "opties": [
+            "disparu",
+            "guéri",
+            "recyclé",
+            "pris du poids"
+          ],
+          "antwoord": 0,
+          "uitleg": "Disparaître: verdwijnen, uitsterven."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke energie is hernieuwbaar?",
+          "opties": [
+            "le vent",
+            "l'essence de la station",
+            "le charbon d'une mine",
+            "le gaz sous la terre"
+          ],
+          "antwoord": 0,
+          "uitleg": "Wind raakt niet op."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Op een bord in het park staat « Ne jetez pas vos déchets par terre. » Wat mag je niet doen?",
+          "opties": [
+            "afval op de grond gooien",
+            "de dieren in het park voederen",
+            "de bomen omhakken",
+            "op het gras lopen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Les déchets: het afval."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe zeg je ziekenwagen in het Frans? Eén woord, zonder lidwoord.",
+          "antwoord": [
+            "ambulance"
+          ],
+          "uitleg": "Une ambulance."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe zeg je duurzaam in het Frans? Eén woord.",
+          "antwoord": [
+            "durable"
+          ],
+          "uitleg": "Le développement durable."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe zeg je beek in het Frans? Eén woord, zonder lidwoord.",
+          "antwoord": [
+            "ruisseau"
+          ],
+          "uitleg": "Un ruisseau."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe zeg je uil in het Frans? Eén woord, zonder lidwoord.",
+          "antwoord": [
+            "hibou"
+          ],
+          "uitleg": "Un hibou."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "« Il fait beau aujourd'hui, mais le [[*climat|temps]] de l'Espagne est plus chaud que celui de la Belgique sur l'année. »",
+          "uitleg": "Le climat is het gemiddelde over jaren."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "« L'ours polaire est une [[*espèce|espèces]] menacée. »",
+          "uitleg": "Une espèce menacée."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "« Elle est complètement [[*guérie|recyclée]] après son opération. »",
+          "uitleg": "Guérir: genezen."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "« Le sapin est un [[*conifère|arbre qui perd ses feuilles]] : il reste vert toute l'année. »",
+          "uitleg": "Un conifère blijft groen."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "« Cette année, la [[*récolte|toux]] de pommes est très bonne. »",
+          "uitleg": "Une récolte: een oogst."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "« Je paie [[*en espèces|en espèce menacée]]. » Ik betaal contant.",
+          "uitleg": "En espèces: contant."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is deze zin juist (gezondheid en natuur)?",
+          "rijen": [
+            "J'ai de la fièvre et de la toux.",
+            "J'ai mal dans ma ventre douleur.",
+            "Nous devons planter plus d'arbres.",
+            "La pollution est très durable pour la planète."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "J'ai mal au ventre; vervuiling is nooit duurzaam."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is dit goed voor het milieu?",
+          "rijen": [
+            "recycler les bouteilles",
+            "abattre les forêts",
+            "utiliser les énergies renouvelables",
+            "le gaspillage"
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Recyclen en hernieuwbare energie helpen; kappen en verspilling niet."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe zeg je de oogst in het Frans? Twee woorden.",
+          "antwoord": [
+            "la récolte",
+            "la recolte"
+          ],
+          "uitleg": "La récolte."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "La santé [[mentale]] concerne ton esprit, la santé [[physique]] concerne ton corps.",
+          "extra": [
+            "durable",
+            "sauvage"
+          ],
+          "uitleg": "Mentaal tegenover lichamelijk."
+        },
+        {
+          "type": "open",
+          "vraag": "Geef in het Frans twee dingen die je kan doen om je empreinte carbone kleiner te maken.",
+          "antwoord": "Je vais à l'école à vélo et je recycle mes déchets.",
+          "uitleg": "Minder uitstoot: fietsen, recyclen, minder verspillen."
+        }
+      ]
+    },
+    {
+      "titel": "Woordvelden: school, werk, geld en verkeer — pittig",
+      "niveau": "beyond-dubbele-finaliteit",
+      "gratis": false,
+      "vragen": [
+        {
+          "casus": "Lis l'offre d'emploi.\n\n« OFFRE D'EMPLOI – Vendeur ou vendeuse (temps partiel, 20 heures par semaine)\nNotre librairie au centre-ville cherche quelqu'un pour aider les clients, travailler à la caisse et ranger les rayons. Compétences : vous êtes aimable, vous parlez français et néerlandais, et vous aimez travailler en équipe. Pas besoin de diplôme. Salaire : 12 euros de l'heure, et une réduction de 20 % sur tous les livres. Envoyez votre CV et une lettre de motivation avant la date limite du 15 juin. »",
+          "vragen": [
+            {
+              "type": "keuzelijst",
+              "vraag": "Het gaat om een [[*deeltijdse|voltijdse]] job.",
+              "uitleg": "Temps partiel."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "« travailler à la caisse » betekent werken aan [[*de kassa|het rek|de deur]].",
+              "uitleg": "La caisse: de kassa."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Wat moet je hebben om te mogen solliciteren?",
+              "opties": [
+                "geen diploma",
+                "een universitair diploma",
+                "een rijbewijs voor de bestelwagen",
+                "drie jaar ervaring in een boekhandel"
+              ],
+              "antwoord": 0,
+              "uitleg": "Pas besoin de diplôme."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "Personeel krijgt [[*korting|rente|een lening]] op alle boeken.",
+              "uitleg": "Une réduction."
+            },
+            {
+              "type": "invultekst",
+              "vraag": "Tot welke datum kan je solliciteren? Schrijf de dag en de maand in het Nederlands, bv. 3 mei.",
+              "antwoord": [
+                "15 juni"
+              ],
+              "uitleg": "La date limite du 15 juin."
+            }
+          ]
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Hoort het bij school of bij het verkeer?",
+          "kolommen": [
+            "school",
+            "verkeer"
+          ],
+          "items": [
+            [
+              "un horaire",
+              "school"
+            ],
+            [
+              "un rond-point",
+              "verkeer"
+            ],
+            [
+              "un bulletin",
+              "school"
+            ],
+            [
+              "un piéton",
+              "verkeer"
+            ],
+            [
+              "les devoirs",
+              "school"
+            ],
+            [
+              "un embouteillage",
+              "verkeer"
+            ]
+          ],
+          "uitleg": "Rooster, rapport en huiswerk tegenover rotonde, voetganger en file."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elk Frans woord over winkelen aan zijn betekenis.",
+          "paren": [
+            [
+              "un ticket de caisse",
+              "een kassabon"
+            ],
+            [
+              "une recette",
+              "een recept om te koken"
+            ],
+            [
+              "rembourser",
+              "terugbetalen"
+            ],
+            [
+              "une bonne affaire",
+              "een koopje"
+            ]
+          ],
+          "extra": [
+            "de btw"
+          ],
+          "uitleg": "La TVA is de btw."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elk Frans verkeerswoord aan zijn betekenis.",
+          "paren": [
+            [
+              "l'essence",
+              "benzine"
+            ],
+            [
+              "un camion",
+              "een vrachtwagen"
+            ],
+            [
+              "une autoroute",
+              "een snelweg"
+            ],
+            [
+              "le trottoir",
+              "het voetpad"
+            ]
+          ],
+          "extra": [
+            "een bestelwagen"
+          ],
+          "uitleg": "Een bestelwagen is une camionnette."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "« Je ne peux pas me ___ un nouveau téléphone. C'est trop cher. » Wat past?",
+          "opties": [
+            "permettre",
+            "rembourser",
+            "postuler",
+            "licencier"
+          ],
+          "antwoord": 0,
+          "uitleg": "Se permettre: kunnen betalen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "« Elle a ___ son examen, donc elle a son diplôme. » Wat past?",
+          "opties": [
+            "réussi",
+            "passé sans réussir",
+            "échoué",
+            "pris des notes pour"
+          ],
+          "antwoord": 0,
+          "uitleg": "Réussir: slagen. Passer is afleggen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Tom verloor zijn job omdat de fabriek sloot. Hoe zeg je dat?",
+          "opties": [
+            "Il a été licencié.",
+            "Il a eu une promotion.",
+            "Il a postulé pour un emploi.",
+            "Il a respecté la date limite."
+          ],
+          "antwoord": 0,
+          "uitleg": "Licencié: ontslagen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waar steek je veilig over als voetganger?",
+          "opties": [
+            "sur le passage pour piétons",
+            "sur l'autoroute",
+            "midden op le rond-point",
+            "tussen de auto's in un embouteillage"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een zebrapad."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je reed te snel en de politie houdt je tegen. Wat krijg je?",
+          "opties": [
+            "une amende",
+            "une réduction",
+            "un remboursement",
+            "une bonne affaire"
+          ],
+          "antwoord": 0,
+          "uitleg": "Une amende: een boete."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "« Je prends le train pour Bruxelles chaque jour pour travailler. » Wat doet deze persoon?",
+          "opties": [
+            "pendelen",
+            "solliciteren",
+            "vakantiewerk doen",
+            "stage lopen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Faire la navette."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe zeg je klant in het Frans? Eén woord, zonder lidwoord.",
+          "antwoord": [
+            "client",
+            "cliente"
+          ],
+          "uitleg": "Un client."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe zeg je vak op school in het Frans? Eén woord, zonder lidwoord.",
+          "antwoord": [
+            "matière"
+          ],
+          "uitleg": "Une matière."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe zeg je voetganger in het Frans? Eén woord, zonder lidwoord.",
+          "antwoord": [
+            "piéton"
+          ],
+          "uitleg": "Un piéton."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe zeg je file in het verkeer in het Frans? Eén woord, zonder lidwoord.",
+          "antwoord": [
+            "embouteillage",
+            "bouchon"
+          ],
+          "uitleg": "Un embouteillage."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "« Demain, je [[*passe|réussis]] un examen de maths. J'espère réussir ! »",
+          "uitleg": "Passer un examen: afleggen."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "« Mon [[*collègue|camarade de classe]] au bureau m'aide avec l'ordinateur. »",
+          "uitleg": "Een collega op het werk."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "« Je peux payer [[*par carte|en carte par]] ? » « Bien sûr. »",
+          "uitleg": "Payer par carte; contant is en espèces."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "« Nous étions dans un embouteillage à l'heure de [[*pointe|récréation]]. »",
+          "uitleg": "L'heure de pointe: het spitsuur."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "« Les prix sont TVA [[*comprise|remboursée]]. »",
+          "uitleg": "TVA comprise: btw inbegrepen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is deze zin juist (school, werk en geld)?",
+          "rijen": [
+            "Je dois respecter la date limite.",
+            "Il a été licencié, donc il a une promotion.",
+            "Il a payé en espèces.",
+            "Je postule pour un emploi."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            true
+          ],
+          "uitleg": "Licencié is ontslagen, geen promotie."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is dit een beroep?",
+          "rijen": [
+            "un plombier",
+            "une récréation",
+            "un infirmier",
+            "un horaire"
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Loodgieter en verpleger zijn beroepen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul in: « Je cherche un ___ d'été. » (een vakantiejob) Eén woord.",
+          "antwoord": [
+            "job",
+            "emploi",
+            "travail"
+          ],
+          "uitleg": "Un job d'été."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet de stappen om een job te vinden in de juiste volgorde.",
+          "opties": [
+            "une offre d'emploi vinden",
+            "je CV en een lettre de motivation sturen",
+            "un entretien hebben",
+            "de job krijgen"
+          ],
+          "uitleg": "Eerst zoeken, dan solliciteren, dan het gesprek."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "J'ai acheté cette veste pendant [[les soldes]]. C'était une vraie [[bonne affaire]] : seulement dix euros !",
+          "extra": [
+            "une amende",
+            "un prêt"
+          ],
+          "uitleg": "Les soldes: de koopjes; une bonne affaire: een koopje."
+        },
+        {
+          "type": "open",
+          "vraag": "Leg in het Nederlands uit waarom « passer un examen » een valse vriend is.",
+          "antwoord": "Het lijkt op slagen, maar het betekent een examen afleggen. Slagen is réussir.",
+          "uitleg": "Een klassieke valse vriend."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is « un stage »?",
+          "opties": [
+            "een stage",
+            "een vaste job",
+            "een werkloosheidsuitkering",
+            "een collega op het werk"
+          ],
+          "antwoord": 0,
+          "uitleg": "Un stagiaire doet een stage."
+        }
+      ]
+    },
+    {
+      "titel": "Woordvelden: kunst, geschiedenis en de samenleving — pittig",
+      "niveau": "beyond-dubbele-finaliteit",
+      "gratis": false,
+      "vragen": [
+        {
+          "casus": "Lis l'affiche.\n\n« MUSÉE DE LA VILLE – Nouvelle exposition : « L'Empire romain »\nVenez voir des sculptures, des pièces de monnaie et des tableaux du premier siècle. Notre guide vous parle des empereurs, des batailles et de la vie quotidienne à Rome. Prix d'entrée : 8 euros, gratuit pour les enfants de moins de 12 ans. Tout l'argent de la boutique va à une association caritative. Nous cherchons des bénévoles pour le week-end ! »",
+          "vragen": [
+            {
+              "type": "keuzelijst",
+              "vraag": "De tentoonstelling gaat over [[*het Romeinse Rijk|de Franse Revolutie|het oude Griekenland]].",
+              "uitleg": "L'Empire romain."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "« des tableaux » zijn hier [[*schilderijen|borden in de klas]].",
+              "uitleg": "Un tableau in de kunst: een schilderij."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Wat gebeurt er met het geld van de museumwinkel?",
+              "opties": [
+                "Het gaat naar een goed doel.",
+                "Het betaalt de gids van de tentoonstelling.",
+                "Het gaat naar de Romeinse keizer.",
+                "Het betaalt de inkom van de kinderen."
+              ],
+              "antwoord": 0,
+              "uitleg": "Une association caritative."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "Kinderen onder 12 betalen [[*niets|8 euro|de helft]].",
+              "uitleg": "Gratuit."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "Het museum zoekt [[*vrijwilligers|kunstenaars|klanten]] voor het weekend.",
+              "uitleg": "Des bénévoles."
+            }
+          ]
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Hoort het bij geschiedenis of bij de politiek van vandaag?",
+          "kolommen": [
+            "geschiedenis",
+            "politiek vandaag"
+          ],
+          "items": [
+            [
+              "l'Empire romain",
+              "geschiedenis"
+            ],
+            [
+              "une élection",
+              "politiek vandaag"
+            ],
+            [
+              "une ancienne bataille",
+              "geschiedenis"
+            ],
+            [
+              "le premier ministre",
+              "politiek vandaag"
+            ],
+            [
+              "un vieux traité de paix",
+              "geschiedenis"
+            ],
+            [
+              "le conseil communal",
+              "politiek vandaag"
+            ]
+          ],
+          "uitleg": "Oude rijken en veldslagen tegenover verkiezingen en ministers."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elk Frans woord over boeken aan zijn betekenis.",
+          "paren": [
+            [
+              "un roman",
+              "een roman"
+            ],
+            [
+              "un chapitre",
+              "een hoofdstuk"
+            ],
+            [
+              "un auteur",
+              "een schrijver"
+            ],
+            [
+              "une biographie",
+              "een levensverhaal"
+            ]
+          ],
+          "extra": [
+            "een Romein"
+          ],
+          "uitleg": "Un Romain is een Romein."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elk Frans woord uit recht en samenleving aan zijn betekenis.",
+          "paren": [
+            [
+              "un juge",
+              "een rechter"
+            ],
+            [
+              "un réfugié",
+              "een vluchteling"
+            ],
+            [
+              "un syndicat",
+              "een vakbond"
+            ],
+            [
+              "un citoyen",
+              "een burger"
+            ]
+          ],
+          "extra": [
+            "een handelsbeurs"
+          ],
+          "uitleg": "Un salon is een handelsbeurs."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "« Les acteurs ___ la pièce chaque soir avant la première. » Wat past?",
+          "opties": [
+            "répètent",
+            "élisent",
+            "manifestent",
+            "votent"
+          ],
+          "antwoord": 0,
+          "uitleg": "Répéter: repeteren."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wie leidt een orkest?",
+          "opties": [
+            "le chef d'orchestre",
+            "le compositeur de la musique",
+            "l'auteur de la pièce",
+            "le public dans la salle"
+          ],
+          "antwoord": 0,
+          "uitleg": "De dirigent."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "« 51 % des gens ont voté oui. » Hoe noem je die 51 %?",
+          "opties": [
+            "la majorité",
+            "la minorité du groupe",
+            "les médias",
+            "les sondages"
+          ],
+          "antwoord": 0,
+          "uitleg": "Meer dan de helft: de meerderheid."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een schrijver vertelt over zijn eigen leven. Hoe heet dat boek?",
+          "opties": [
+            "une autobiographie",
+            "une biographie",
+            "un roman de fiction",
+            "une nouvelle sur la vie"
+          ],
+          "antwoord": 0,
+          "uitleg": "Over je eigen leven."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "« Le dix-neuvième siècle » zijn de jaren ...",
+          "opties": [
+            "1800 tot 1899",
+            "1900 tot en met 1999",
+            "1700 tot 1799",
+            "1900 tot 1919"
+          ],
+          "antwoord": 0,
+          "uitleg": "De negentiende eeuw."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe zeg je « Wij hebben gestemd bij de verkiezingen »?",
+          "opties": [
+            "Nous avons voté aux élections.",
+            "Nous avons élu aux votes.",
+            "Nous avons manifesté aux élections.",
+            "Nous avons voté les citoyens."
+          ],
+          "antwoord": 0,
+          "uitleg": "Voter: stemmen; une élection: een verkiezing."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe zeg je armoede in het Frans? Twee woorden.",
+          "antwoord": [
+            "la pauvreté",
+            "la pauvrete"
+          ],
+          "uitleg": "La pauvreté."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe zeg je keizer in het Frans? Eén woord, zonder lidwoord.",
+          "antwoord": [
+            "empereur"
+          ],
+          "uitleg": "L'empereur."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe zeg je tentoonstelling in het Frans? Eén woord, zonder lidwoord.",
+          "antwoord": [
+            "exposition"
+          ],
+          "uitleg": "Une exposition."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe zeg je rechtbank in het Frans? Eén woord, zonder lidwoord.",
+          "antwoord": [
+            "tribunal"
+          ],
+          "uitleg": "Un tribunal."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "« Le [[*public|auteur]] a applaudi pendant dix minutes après le concert. »",
+          "uitleg": "Het publiek klapt."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "« La Joconde est un célèbre [[*chef-d'œuvre|répétition]]. »",
+          "uitleg": "Een meesterwerk."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "« Des milliers de personnes ont [[*manifesté|répété]] contre la nouvelle loi. »",
+          "uitleg": "Manifester: betogen."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "« C'est mon [[*ancienne|vieille ancienne]] école : j'y allais quand j'étais petit. »",
+          "uitleg": "Ancien vooraan: vroeger."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "« Il fait du [[*bénévolat|syndicat]] dans une association. »",
+          "uitleg": "Vrijwilligerswerk."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "« L'[[*égalité|inégalité]] entre hommes et femmes est un droit de l'homme. »",
+          "uitleg": "Gelijkheid."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is deze zin juist (kunst en samenleving)?",
+          "rijen": [
+            "Le tableau est dans une salle du musée.",
+            "Un chef d'orchestre écrit la musique.",
+            "Tout le monde a les mêmes droits de l'homme.",
+            "La minorité, c'est plus de la moitié."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Un compositeur schrijft muziek; de minderheid is minder dan de helft."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Hoort dit bij het theater?",
+          "rijen": [
+            "la scène",
+            "le public",
+            "une bouilloire",
+            "un traité"
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            false
+          ],
+          "uitleg": "Podium en publiek; een waterkoker en een verdrag niet."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "L'[[auteur]] a écrit son premier [[roman]] à vingt ans. Il a douze [[chapitres]].",
+          "extra": [
+            "juge",
+            "scène"
+          ],
+          "uitleg": "Auteur, roman, chapitres."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet deze periodes in de juiste volgorde, van oud naar recent.",
+          "opties": [
+            "l'Empire romain",
+            "le seizième siècle",
+            "le dix-neuvième siècle",
+            "le vingt et unième siècle"
+          ],
+          "uitleg": "Van de oudheid naar vandaag."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat doet un bénévole?",
+          "opties": [
+            "helpen zonder loon",
+            "betogen voor een hoger loon",
+            "een wet maken in het parlement",
+            "een boek over iemands leven schrijven"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een vrijwilliger."
+        },
+        {
+          "type": "open",
+          "vraag": "Leg in het Nederlands uit waarom « un roman » een valse vriend kan zijn voor iemand die aan Romeinen denkt.",
+          "antwoord": "Un roman is een boek, een roman; een Romein is un Romain.",
+          "uitleg": "Let op het verschil in schrijfwijze."
+        }
+      ]
+    },
+    {
+      "titel": "Woordvelden: wetenschap, techniek en taal — pittig",
+      "niveau": "beyond-dubbele-finaliteit",
+      "gratis": false,
+      "vragen": [
+        {
+          "casus": "Lis le message du club de l'école.\n\n« Club sciences et sport – cette semaine\nLundi : nous faisons une expérience au labo. Apportez votre ordinateur portable, mais vérifiez que la batterie est rechargée !\nMercredi : match de foot contre l'école Saint-Joseph sur le grand terrain. Notre entraîneur sera là.\nVendredi : jeux de société au local du club. Après, on prend un pot ensemble. »",
+          "vragen": [
+            {
+              "type": "keuzelijst",
+              "vraag": "Op maandag doen ze een [[*proef in het labo|ervaring opdoen op het veld]].",
+              "uitleg": "Une expérience: een proef."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "Je moet nakijken of je batterij [[*opgeladen|uitgeschakeld]] is.",
+              "uitleg": "Rechargée."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "« Notre entraîneur » is [[*onze trainer|onze scheidsrechter|onze doelman]].",
+              "uitleg": "S'entraîner: trainen."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "« prendre un pot » betekent [[*iets gaan drinken|een pot kopen]].",
+              "uitleg": "Prendre un pot."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Wat doen ze op vrijdag?",
+              "opties": [
+                "gezelschapsspellen spelen",
+                "een proef in het labo met hun laptop",
+                "voetballen tegen een andere school",
+                "een wandeltocht maken in het bos"
+              ],
+              "antwoord": 0,
+              "uitleg": "Jeux de société."
+            }
+          ]
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Typisch Belgisch Frans of gewoon Frans uit Frankrijk?",
+          "kolommen": [
+            "België",
+            "Frankrijk"
+          ],
+          "items": [
+            [
+              "septante",
+              "België"
+            ],
+            [
+              "soixante-dix",
+              "Frankrijk"
+            ],
+            [
+              "nonante",
+              "België"
+            ],
+            [
+              "quatre-vingt-dix",
+              "Frankrijk"
+            ],
+            [
+              "le dîner (middagmaal)",
+              "België"
+            ],
+            [
+              "le déjeuner (middagmaal)",
+              "Frankrijk"
+            ]
+          ],
+          "uitleg": "Septante, nonante en le dîner voor het middagmaal zijn Belgisch."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elke Franse valse vriend aan zijn echte betekenis.",
+          "paren": [
+            [
+              "la journée",
+              "de dag"
+            ],
+            [
+              "actuellement",
+              "momenteel"
+            ],
+            [
+              "une pile",
+              "een batterij"
+            ],
+            [
+              "la location",
+              "de huur"
+            ]
+          ],
+          "extra": [
+            "eigenlijk"
+          ],
+          "uitleg": "Eigenlijk is en fait."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elk computerwoord aan zijn betekenis.",
+          "paren": [
+            [
+              "le clavier",
+              "het toetsenbord"
+            ],
+            [
+              "la souris",
+              "de muis"
+            ],
+            [
+              "un logiciel",
+              "software"
+            ],
+            [
+              "un écran tactile",
+              "een aanraakscherm"
+            ]
+          ],
+          "extra": [
+            "een pan"
+          ],
+          "uitleg": "Une casserole is een pan."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe zeg je « Mijn auto is stuk »?",
+          "opties": [
+            "Ma voiture est en panne.",
+            "Ma voiture est en pile.",
+            "Ma voiture est une casserole.",
+            "Ma voiture a une panne de pied."
+          ],
+          "antwoord": 0,
+          "uitleg": "En panne: defect."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "« N'oublie pas d'___ le fichier avant de fermer l'ordinateur ! » Wat past?",
+          "opties": [
+            "enregistrer",
+            "télécharger vers",
+            "s'entraîner",
+            "recharger"
+          ],
+          "antwoord": 0,
+          "uitleg": "Enregistrer: opslaan."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het tegengestelde van « possible »?",
+          "opties": [
+            "impossible",
+            "inpossible",
+            "dépossible",
+            "nonpossible"
+          ],
+          "antwoord": 0,
+          "uitleg": "Voor p wordt in- im-."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent « relire » ?",
+          "opties": [
+            "opnieuw lezen",
+            "niet meer lezen",
+            "voorlezen aan iemand",
+            "slecht lezen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Re-: opnieuw."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Van welk werkwoord komt « la construction »?",
+          "opties": [
+            "construire",
+            "conduire",
+            "constater",
+            "consommation"
+          ],
+          "antwoord": 0,
+          "uitleg": "Construire geeft la construction."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk woord is spreektaal voor « un livre »?",
+          "opties": [
+            "un bouquin",
+            "un roman",
+            "un chapitre",
+            "un logiciel"
+          ],
+          "antwoord": 0,
+          "uitleg": "Un bouquin is familier."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul in: « Un ___ de passe ». (wachtwoord) Eén woord.",
+          "antwoord": [
+            "mot"
+          ],
+          "uitleg": "Un mot de passe."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe zeg je scheidsrechter in het Frans? Eén woord, zonder lidwoord.",
+          "antwoord": [
+            "arbitre"
+          ],
+          "uitleg": "Un arbitre."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe zeg je ploeg in het Frans? Eén woord, zonder lidwoord.",
+          "antwoord": [
+            "équipe"
+          ],
+          "uitleg": "Une équipe."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Maak een woord voor iemand die werkt, met het achtervoegsel -eur. Eén woord.",
+          "antwoord": [
+            "travailleur"
+          ],
+          "uitleg": "Travailler geeft un travailleur."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "« Thé [[*ou|où]] café ? »",
+          "uitleg": "Ou is of; où is waar."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "« [[*Où|Ou]] habites-tu ? »",
+          "uitleg": "Où: waar."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "« Une maisonn[[*ette|asse]] est une petite maison. »",
+          "uitleg": "-ette maakt kleiner."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "« Je fais [[*du|de la]] vélo le samedi. »",
+          "uitleg": "Faire du vélo."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "« Les chercheurs font de la [[*recherche|recherches de pile]] sur le climat. »",
+          "uitleg": "La recherche: onderzoek."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is deze zin juist (taal en techniek)?",
+          "rijen": [
+            "Actuellement, je travaille à Namur.",
+            "Je dois recharger mon téléphone.",
+            "Un arbitre est le gardien de l'équipe.",
+            "Une pile est un grand plat."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            false
+          ],
+          "uitleg": "Un arbitre is de scheidsrechter; une pile is een batterij of een stapel."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is dit een synoniem van « grand »?",
+          "rijen": [
+            "vaste",
+            "petit",
+            "énorme",
+            "minuscule"
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Een synoniem heeft bijna dezelfde betekenis."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Pour te connecter, tu as besoin d'un [[mot de passe]]. Ensuite, tu peux [[télécharger]] le fichier.",
+          "extra": [
+            "arbitre",
+            "terrain"
+          ],
+          "uitleg": "Un mot de passe; télécharger: downloaden."
+        },
+        {
+          "type": "open",
+          "vraag": "Leg in het Nederlands uit waarom « la journée » een valse vriend is.",
+          "antwoord": "Het lijkt op journaal of reis, maar het betekent de dag.",
+          "uitleg": "La journée: de hele dag."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Schrijf 90 zoals men het in België zegt. Eén woord.",
+          "antwoord": [
+            "nonante"
+          ],
+          "uitleg": "In Frankrijk: quatre-vingt-dix."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "« Je vais faire [[*de la|du]] natation. »",
+          "uitleg": "Faire de la natation."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "« vert », « verre » en « vers » zijn [[*homophones|synonymes]].",
+          "uitleg": "Ze klinken gelijk, maar betekenen iets anders."
+        }
+      ]
+    },
+    {
+      "titel": "Lidwoorden, aanwijzers, bezitters en getallen — pittig",
+      "niveau": "beyond-dubbele-finaliteit",
+      "gratis": false,
+      "vragen": [
+        {
+          "casus": "Lis la liste de courses de Léa.\n\n« Pour la fête de samedi : un kilo de tomates, du fromage, de la salade, des chips et beaucoup de jus d'orange. Il n'y a plus de pain à la maison. Mon frère va aux magasins avec ses amis. Cette fête, c'est pour les quatre-vingts ans de notre grand-père ! »",
+          "vragen": [
+            {
+              "type": "keuzelijst",
+              "vraag": "« un kilo de tomates » : na een hoeveelheid komt enkel [[*de|des|du]].",
+              "uitleg": "Un kilo de, beaucoup de."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "« de la salade » is een [[*partitief lidwoord|samengetrokken lidwoord]].",
+              "uitleg": "Een onbepaalde hoeveelheid."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "« Il n'y a plus de pain » : na ne ... plus wordt du [[*de|des]].",
+              "uitleg": "Net als na pas."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "« aux magasins » is à + [[*les|le|la]].",
+              "uitleg": "À + les = aux."
+            },
+            {
+              "type": "invultekst",
+              "vraag": "Hoe oud wordt de grootvader? Geef het getal.",
+              "antwoord": [
+                "80",
+                "tachtig"
+              ],
+              "uitleg": "Quatre-vingts: 80."
+            }
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is het samengetrokken lidwoord juist?",
+          "rijen": [
+            "Je vais au cinéma.",
+            "Je viens de le magasin.",
+            "Je parle aux élèves.",
+            "Je vais à le parc."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "De + le = du; à + le = au."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Ce, cet of cette?",
+          "kolommen": [
+            "ce",
+            "cet",
+            "cette"
+          ],
+          "items": [
+            [
+              "___ jardin",
+              "ce"
+            ],
+            [
+              "___ arbre",
+              "cet"
+            ],
+            [
+              "___ semaine",
+              "cette"
+            ],
+            [
+              "___ livre",
+              "ce"
+            ],
+            [
+              "___ enfant",
+              "cet"
+            ],
+            [
+              "___ maison",
+              "cette"
+            ]
+          ],
+          "uitleg": "Cet voor een mannelijk woord met een klinker."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Mon of ma?",
+          "kolommen": [
+            "mon",
+            "ma"
+          ],
+          "items": [
+            [
+              "___ frère",
+              "mon"
+            ],
+            [
+              "___ sœur",
+              "ma"
+            ],
+            [
+              "___ amie",
+              "mon"
+            ],
+            [
+              "___ école",
+              "mon"
+            ],
+            [
+              "___ voiture",
+              "ma"
+            ],
+            [
+              "___ vélo",
+              "mon"
+            ]
+          ],
+          "uitleg": "Voor een klinker wordt ma altijd mon."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elk getal aan de Franse schrijfwijze (Frankrijk).",
+          "paren": [
+            [
+              "71",
+              "soixante et onze"
+            ],
+            [
+              "80",
+              "quatre-vingts"
+            ],
+            [
+              "81",
+              "quatre-vingt-un"
+            ],
+            [
+              "200",
+              "deux cents"
+            ]
+          ],
+          "extra": [
+            "deux milles"
+          ],
+          "uitleg": "Mille krijgt nooit een s."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elk rangtelwoord aan het getal.",
+          "paren": [
+            [
+              "premier",
+              "1"
+            ],
+            [
+              "cinquième",
+              "5"
+            ],
+            [
+              "neuvième",
+              "9"
+            ],
+            [
+              "vingt et unième",
+              "21"
+            ]
+          ],
+          "extra": [
+            "unième"
+          ],
+          "uitleg": "Unième bestaat niet alleen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "« Je ne bois pas ___ café. » Welk woord past?",
+          "opties": [
+            "de",
+            "du",
+            "le",
+            "des"
+          ],
+          "antwoord": 0,
+          "uitleg": "Na een ontkenning: de."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "« Ce n'est pas ___ pain, c'est du gâteau. » Welk woord past?",
+          "opties": [
+            "du",
+            "de",
+            "le",
+            "d'"
+          ],
+          "antwoord": 0,
+          "uitleg": "Na être blijft het partitief lidwoord."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe zeg je « Ik heb pijn aan mijn hand »?",
+          "opties": [
+            "J'ai mal à la main.",
+            "J'ai mal à ma main.",
+            "J'ai mal de la main.",
+            "J'ai mal au main."
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij een lichaamsdeel: bepaald lidwoord."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe zeg je « Hij is leraar »?",
+          "opties": [
+            "Il est professeur.",
+            "Il est un professeur.",
+            "Il est le professeur.",
+            "Il est du professeur."
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij een beroep na être valt het lidwoord weg."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "« Les enfants jouent avec ___ chiens. » Hun honden, meer dan één. Wat past?",
+          "opties": [
+            "leurs",
+            "leur",
+            "ses",
+            "son"
+          ],
+          "antwoord": 0,
+          "uitleg": "Leurs bij meer dingen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "« ___ heure est-il ? » Welke vorm past?",
+          "opties": [
+            "Quelle",
+            "Quel",
+            "Quels",
+            "Quelles"
+          ],
+          "antwoord": 0,
+          "uitleg": "Heure is vrouwelijk enkelvoud."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het meervoud van « un animal »?",
+          "opties": [
+            "des animaux",
+            "des animals",
+            "des animales",
+            "des animauxs"
+          ],
+          "antwoord": 0,
+          "uitleg": "-al wordt -aux."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul in: « J'aime ___ chocolat. » (in het algemeen) Eén woord.",
+          "antwoord": [
+            "le"
+          ],
+          "uitleg": "Algemene uitspraak: le."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul in: « Elle boit ___ eau. » Twee woorden.",
+          "antwoord": [
+            "de l'",
+            "de l"
+          ],
+          "uitleg": "De l' voor een klinker."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Schrijf « de derde » in het Frans. Eén woord.",
+          "antwoord": [
+            "troisième"
+          ],
+          "uitleg": "Trois + -ième."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul in: « ___ jour, je vais à l'école à pied. » (elke) Eén woord.",
+          "antwoord": [
+            "chaque",
+            "Chaque"
+          ],
+          "uitleg": "Chaque + enkelvoud."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "« Il a [[*quelques|chaque]] amis à Paris. »",
+          "uitleg": "Quelques: enkele."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "« Ils habitent [[*aux|au]] Pays-Bas. »",
+          "uitleg": "Les Pays-Bas: aux."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "« [[*Ces|Cettes]] maisons sont belles. »",
+          "uitleg": "Ces voor mannelijk en vrouwelijk meervoud."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "« C'est [[*votre|vos]] école ? »",
+          "uitleg": "Votre bij één ding."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "« On est le [[*premier|un]] mai. »",
+          "uitleg": "Enkel de eerste krijgt een rangtelwoord."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is het woord mannelijk?",
+          "rijen": [
+            "le voyage",
+            "la table",
+            "le fromage",
+            "l'eau"
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Woorden op -age zijn meestal mannelijk; eau is vrouwelijk."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet de getallen van klein naar groot.",
+          "opties": [
+            "soixante-dix",
+            "soixante et onze",
+            "quatre-vingts",
+            "quatre-vingt-dix"
+          ],
+          "uitleg": "70, 71, 80, 90."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Je voudrais [[un litre de]] lait et [[du]] fromage, s'il vous plaît.",
+          "extra": [
+            "un litre du",
+            "de le"
+          ],
+          "uitleg": "Na een hoeveelheid de; voor een mannelijk woord du."
+        },
+        {
+          "type": "open",
+          "vraag": "Leg in het Nederlands uit waarom je « mon amie » zegt en niet « ma amie ».",
+          "antwoord": "Voor een woord dat met een klinker begint wordt ma mon, om de klank.",
+          "uitleg": "Zo botsen twee klinkers niet."
+        }
+      ]
+    },
+    {
+      "titel": "Voornaamwoorden en betrekkelijke bijzinnen — pittig",
+      "niveau": "beyond-dubbele-finaliteit",
+      "gratis": false,
+      "vragen": [
+        {
+          "casus": "Lis le dialogue.\n\n« — Tu connais la fille qui parle avec Paul ?\n— Oui, je la connais. C'est Emma, l'amie dont je t'ai parlé.\n— Elle habite où ?\n— À Liège, la ville où je suis né. J'y vais souvent.\n— Tu as des photos d'elle ?\n— Oui, j'en ai beaucoup. Regarde, celle-ci est de cet été. »",
+          "vragen": [
+            {
+              "type": "keuzelijst",
+              "vraag": "In « la fille qui parle » is qui het [[*onderwerp|lijdend voorwerp]] van de bijzin.",
+              "uitleg": "Qui doet iets: zij spreekt."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "« je la connais » : la vervangt [[*la fille|Paul|la ville]].",
+              "uitleg": "Lijdend voorwerp, vrouwelijk."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "« l'amie dont je t'ai parlé » : dont staat er omdat het [[*parler de|parler à]] is.",
+              "uitleg": "Dont vervangt de + iets."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "« J'y vais souvent » : y vervangt [[*een plaats|een hoeveelheid]].",
+              "uitleg": "Y = à Liège."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "« j'en ai beaucoup » : en vervangt [[*des photos|Emma|Liège]].",
+              "uitleg": "En vervangt een hoeveelheid."
+            }
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Qui, que, dont of où?",
+          "rijen": [
+            "le garçon ___ chante",
+            "le film ___ j'ai vu",
+            "le livre ___ je parle",
+            "la ville ___ j'habite"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "uitleg": "Qui onderwerp, que lijdend voorwerp, dont na de, où plaats.",
+          "kolommen": [
+            "qui",
+            "que",
+            "dont",
+            "où"
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Le, la, les, lui of leur?",
+          "rijen": [
+            "Je vois Marie. → Je ___ vois.",
+            "Je parle à Marie. → Je ___ parle.",
+            "Je téléphone à mes parents. → Je ___ téléphone.",
+            "Je lis les livres. → Je ___ lis."
+          ],
+          "antwoord": [
+            0,
+            2,
+            3,
+            1
+          ],
+          "uitleg": "Lijdend voorwerp le, la, les; meewerkend voorwerp lui, leur.",
+          "kolommen": [
+            "la",
+            "les",
+            "lui",
+            "leur"
+          ]
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elk onderwerp aan zijn beklemtoonde vorm.",
+          "paren": [
+            [
+              "je",
+              "moi"
+            ],
+            [
+              "tu",
+              "toi"
+            ],
+            [
+              "ils",
+              "eux"
+            ],
+            [
+              "nous",
+              "nous"
+            ]
+          ],
+          "extra": [
+            "eles"
+          ],
+          "uitleg": "Moi, toi, lui, elle, nous, vous, eux, elles."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elk bezittelijk voornaamwoord aan zijn betekenis.",
+          "paren": [
+            [
+              "le mien",
+              "het mijne"
+            ],
+            [
+              "le tien",
+              "het jouwe"
+            ],
+            [
+              "le sien",
+              "het zijne of hare"
+            ],
+            [
+              "les nôtres",
+              "de onze"
+            ]
+          ],
+          "extra": [
+            "de hunne van mij"
+          ],
+          "uitleg": "Les leurs is de hunne."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "« Tu me donnes le stylo ? » « Oui, je ___ donne. » Wat past?",
+          "opties": [
+            "te le",
+            "le te",
+            "lui le",
+            "le toi"
+          ],
+          "antwoord": 0,
+          "uitleg": "Te staat voor le."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "« Tu donnes le cadeau à Marie ? » « Oui, je ___ donne. » Wat past?",
+          "opties": [
+            "le lui",
+            "lui le",
+            "la lui",
+            "le leur"
+          ],
+          "antwoord": 0,
+          "uitleg": "Le voor lui."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe zeg je « Ik zie hem niet »?",
+          "opties": [
+            "Je ne le vois pas.",
+            "Je ne vois le pas.",
+            "Je le ne vois pas.",
+            "Je ne vois pas le lui."
+          ],
+          "antwoord": 0,
+          "uitleg": "Ne, voornaamwoord, werkwoord, pas."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "« Ce n'est pas ma voiture, c'est ___ de mon père. » Wat past?",
+          "opties": [
+            "celle",
+            "celui",
+            "ceux",
+            "cela"
+          ],
+          "antwoord": 0,
+          "uitleg": "Voiture is vrouwelijk: celle."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "« ___ est-ce que tu fais ce soir ? » Wat past?",
+          "opties": [
+            "Qu'",
+            "Qui",
+            "Quoi",
+            "Dont"
+          ],
+          "antwoord": 0,
+          "uitleg": "Qu'est-ce que vraagt naar een ding."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "« Avec ___ tu écris ? » Je vraagt naar het schrijfgerief. Wat past?",
+          "opties": [
+            "quoi",
+            "que",
+            "qui est-ce",
+            "dont"
+          ],
+          "antwoord": 0,
+          "uitleg": "Na een voorzetsel: quoi."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "« Je ne sais pas ___ tu veux. » Wat past?",
+          "opties": [
+            "ce que",
+            "ce qui",
+            "que ce",
+            "dont"
+          ],
+          "antwoord": 0,
+          "uitleg": "Ce que als lijdend voorwerp."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul in: « Tu penses à ton examen ? » « Oui, j'___ pense souvent. » Eén letter.",
+          "antwoord": [
+            "y"
+          ],
+          "uitleg": "Penser à iets: y."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul in: « Tu veux du gâteau ? » « Oui, j'___ veux bien. » Eén woord.",
+          "antwoord": [
+            "en"
+          ],
+          "uitleg": "Partitief: en."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul in: « Elle part avec ___. » (met hen, mannelijk) Eén woord.",
+          "antwoord": [
+            "eux"
+          ],
+          "uitleg": "Na een voorzetsel: eux."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul in: « Regarde-___ ! » (kijk naar mij) Eén woord.",
+          "antwoord": [
+            "moi"
+          ],
+          "uitleg": "Bij een bevel wordt me moi."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "« L'homme [[*qui|qu']] est là est mon oncle. »",
+          "uitleg": "Qui wordt nooit qu'."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "« Ne [[*lui|à lui]] dis pas mon secret ! »",
+          "uitleg": "In een verbod staat het voornaamwoord vooraan."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "« Je ne vois [[*personne|chacun]] dans la rue. »",
+          "uitleg": "Ne ... personne: niemand."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "« [[*Chacun|Personne]] apporte quelque chose à manger. »",
+          "uitleg": "Chacun: ieder."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "« Ce livre-ci est à moi, [[*celui-là|celle-là]] est à toi. »",
+          "uitleg": "Livre is mannelijk."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "« C'est l'amie à [[*qui|que]] j'écris. »",
+          "uitleg": "Na een voorzetsel bij een persoon: qui."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is de zin juist (voornaamwoorden)?",
+          "rijen": [
+            "Je les lui donne.",
+            "Je lui les donne.",
+            "Donne-moi le sel.",
+            "Moi, je pense que oui."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            true
+          ],
+          "uitleg": "Le, la, les voor lui en leur; bij een bevel achteraan."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet de woorden in de juiste volgorde: « pas / le / je / vois / ne »",
+          "opties": [
+            "je",
+            "ne",
+            "le",
+            "vois",
+            "pas"
+          ],
+          "uitleg": "Ne eerst, dan het voornaamwoord, dan het werkwoord."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Le film [[que]] j'ai vu hier est celui [[dont]] tout le monde parle.",
+          "extra": [
+            "qui",
+            "où"
+          ],
+          "uitleg": "Que als lijdend voorwerp; dont bij parler de."
+        },
+        {
+          "type": "open",
+          "vraag": "Leg in het Nederlands uit wanneer je « lui » gebruikt en wanneer « le ».",
+          "antwoord": "Le vervangt een lijdend voorwerp zonder voorzetsel; lui vervangt een persoon na à, een meewerkend voorwerp.",
+          "uitleg": "Je le vois, je lui parle."
+        }
+      ]
+    },
+    {
+      "titel": "Bijvoeglijke naamwoorden, bijwoorden en voorzetsels — pittig",
+      "niveau": "beyond-dubbele-finaliteit",
+      "gratis": false,
+      "vragen": [
+        {
+          "casus": "Lis l'annonce.\n\n« À vendre : une belle petite maison blanche, près de la gare. Le jardin est plus grand que celui des voisins. C'est la maison la moins chère du quartier ! La cuisine est vieille, mais elle fonctionne vraiment bien. Grâce à la gare, vous allez rapidement en ville en train. Visite chez nous, le samedi. »",
+          "vragen": [
+            {
+              "type": "keuzelijst",
+              "vraag": "« une belle petite maison blanche » : blanche staat [[*achter|voor]] het naamwoord omdat het een kleur is.",
+              "uitleg": "Kleuren staan achteraan."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "« plus grand que » is een [[*comparatif|superlatif]].",
+              "uitleg": "Plus ... que."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "« la moins chère du quartier » is een [[*superlatif|comparatif]].",
+              "uitleg": "Lidwoord + moins + de."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "« Grâce à la gare » betekent [[*dankzij het station|ondanks het station]].",
+              "uitleg": "Grâce à iets goeds."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "« rapidement » is een [[*bijwoord|bijvoeglijk naamwoord]].",
+              "uitleg": "Rapide + -ment."
+            }
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is de vrouwelijke vorm juist?",
+          "rijen": [
+            "heureux → heureuse",
+            "blanc → blanque",
+            "sportif → sportive",
+            "vieux → vieuse"
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Blanc → blanche; vieux → vieille."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Staat het bijvoeglijk naamwoord meestal voor of achter het naamwoord?",
+          "kolommen": [
+            "voor",
+            "achter"
+          ],
+          "items": [
+            [
+              "petit",
+              "voor"
+            ],
+            [
+              "rouge",
+              "achter"
+            ],
+            [
+              "jeune",
+              "voor"
+            ],
+            [
+              "intéressant",
+              "achter"
+            ],
+            [
+              "joli",
+              "voor"
+            ],
+            [
+              "français",
+              "achter"
+            ]
+          ],
+          "uitleg": "Korte woorden zoals petit, jeune en joli gaan voorop; kleuren en lange woorden erachter."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elk bijvoeglijk naamwoord aan zijn bijwoord.",
+          "paren": [
+            [
+              "lent",
+              "lentement"
+            ],
+            [
+              "doux",
+              "doucement"
+            ],
+            [
+              "vrai",
+              "vraiment"
+            ],
+            [
+              "bon",
+              "bien"
+            ]
+          ],
+          "extra": [
+            "bonnement"
+          ],
+          "uitleg": "Bon geeft bien."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elk voorzetsel aan zijn betekenis.",
+          "paren": [
+            [
+              "malgré",
+              "ondanks"
+            ],
+            [
+              "sous",
+              "onder"
+            ],
+            [
+              "entre",
+              "tussen"
+            ],
+            [
+              "pendant",
+              "tijdens"
+            ]
+          ],
+          "extra": [
+            "sinds"
+          ],
+          "uitleg": "Sinds is depuis."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "« Ce film est ___ que l'autre. » Hij is beter. Wat past?",
+          "opties": [
+            "meilleur",
+            "plus bon",
+            "mieux",
+            "le meilleur film"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bon wordt meilleur."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "« Elle chante ___ que sa sœur. » Ze zingt beter. Wat past?",
+          "opties": [
+            "mieux",
+            "meilleur",
+            "plus bien",
+            "meilleure"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij een werkwoord: mieux."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "« Mon frère est ___ grand que moi. » Ze zijn even groot. Wat past?",
+          "opties": [
+            "aussi",
+            "autant",
+            "plus",
+            "moins"
+          ],
+          "antwoord": 0,
+          "uitleg": "Aussi ... que bij een bijvoeglijk naamwoord."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "« Il est en retard ___ la neige. » Wat past?",
+          "opties": [
+            "à cause de",
+            "grâce à",
+            "pour que la",
+            "pendant que"
+          ],
+          "antwoord": 0,
+          "uitleg": "Iets slechts: à cause de."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "« Nous allons ___ Portugal cet été. » Wat past?",
+          "opties": [
+            "au",
+            "en",
+            "à",
+            "aux"
+          ],
+          "antwoord": 0,
+          "uitleg": "Le Portugal is mannelijk: au."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe zeg je « Ik ga met de fiets naar school »?",
+          "opties": [
+            "Je vais à l'école à vélo.",
+            "Je vais à l'école en vélo.",
+            "Je vais à l'école par vélo.",
+            "Je vais à l'école sur vélo."
+          ],
+          "antwoord": 0,
+          "uitleg": "Je zit erop: à vélo."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul in: « C'est la ___ belle ville du pays. » Eén woord.",
+          "antwoord": [
+            "plus"
+          ],
+          "uitleg": "La plus belle."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Maak een bijwoord van « heureux ». Eén woord.",
+          "antwoord": [
+            "heureusement"
+          ],
+          "uitleg": "Heureuse + -ment."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul in: « Le chat dort ___ la table. » (onder) Eén woord.",
+          "antwoord": [
+            "sous"
+          ],
+          "uitleg": "Sous: onder."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul in: « J'habite ___ Belgique. » Eén woord.",
+          "antwoord": [
+            "en"
+          ],
+          "uitleg": "La Belgique is vrouwelijk."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "« Des garçons [[*heureux|heureuxs]]. »",
+          "uitleg": "Woorden op -x veranderen niet in het meervoud."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "« Les équipes [[*nationales|nationaux]]. »",
+          "uitleg": "Vrouwelijk meervoud: -ales."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "« Elle a des yeux [[*bleu clair|bleus clairs]]. »",
+          "uitleg": "Een kleur van twee woorden verandert niet."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "« J'ai [[*bien|bon]] dormi. »",
+          "uitleg": "Bijwoord voor het deelwoord."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "« Il mange [[*beaucoup|très]]. »",
+          "uitleg": "Beaucoup bij een werkwoord."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "« Mes amies sont [[*très|beaucoup]] contentes. »",
+          "uitleg": "Très bij een bijvoeglijk naamwoord."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is de zin juist (vergelijking en bijwoorden)?",
+          "rijen": [
+            "Il est moins rapide que moi.",
+            "C'est le plus bon gâteau.",
+            "Elles parlent lentement.",
+            "Le père et la mère sont contentes."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Le meilleur gâteau; een gemengde groep is mannelijk: contents."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is dit een plaatsvoorzetsel?",
+          "rijen": [
+            "derrière",
+            "pendant",
+            "sur",
+            "depuis"
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Achter en op geven een plaats; tijdens en sinds een tijd."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "J'ai [[envie de]] partir en vacances, mais j'ai [[besoin d']] argent.",
+          "extra": [
+            "envie à",
+            "besoin à"
+          ],
+          "uitleg": "Avoir envie de, avoir besoin de."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul in: « Mes clés sont ___ mon lit. » (op) Eén woord.",
+          "antwoord": [
+            "sur"
+          ],
+          "uitleg": "Sur: op; sous: onder."
+        },
+        {
+          "type": "open",
+          "vraag": "Leg in het Nederlands het verschil uit tussen « un ancien élève » en « un meuble ancien ».",
+          "antwoord": "Vooraan betekent ancien vroeger (een oud-leerling), achteraan betekent het oud (een antiek meubel).",
+          "uitleg": "De plaats verandert de betekenis."
+        }
+      ]
+    },
+    {
+      "titel": "De tegenwoordige tijd en de gebiedende wijs — pittig",
+      "niveau": "beyond-dubbele-finaliteit",
+      "gratis": false,
+      "vragen": [
+        {
+          "casus": "Lis le message de Julie.\n\n« Salut Marc ! Le samedi, je me lève tard. Mes parents font les courses et moi, je finis mes devoirs. L'après-midi, nous allons au parc avec le chien, sauf quand il pleut. Ce week-end, il faut fêter l'anniversaire de mamie. Viens avec nous ! Et n'oublie pas ton maillot : on va à la piscine après. »",
+          "vragen": [
+            {
+              "type": "keuzelijst",
+              "vraag": "« je me lève » is een vorm van een [[*wederkerend|onpersoonlijk]] werkwoord.",
+              "uitleg": "Se lever: opstaan."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "« je finis » is de présent van [[*finir|finer|finissir]].",
+              "uitleg": "Je finis, nous finissons."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "« il pleut » is een [[*onpersoonlijk|wederkerend]] werkwoord.",
+              "uitleg": "Pleuvoir bestaat enkel met il."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "« Viens avec nous ! » is een [[*gebiedende wijs|vraag]].",
+              "uitleg": "Een bevel bij tu, zonder voornaamwoord."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Wat moet er dit weekend gebeuren?",
+              "opties": [
+                "oma's verjaardag vieren",
+                "de hond naar de dierenarts brengen",
+                "boodschappen doen voor oma",
+                "huiswerk maken met Marc"
+              ],
+              "antwoord": 0,
+              "uitleg": "Il faut fêter l'anniversaire de mamie."
+            }
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is de vorm juist?",
+          "rijen": [
+            "nous mangons",
+            "ils prennent",
+            "vous faisez",
+            "elles vont"
+          ],
+          "antwoord": [
+            false,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Nous mangeons met e; vous faites."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is de vorm juist (wederkerend en gebiedend)?",
+          "rijen": [
+            "Lève-toi !",
+            "Ne te lève pas !",
+            "Ne lève-toi pas !",
+            "Couche-te !"
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            false
+          ],
+          "uitleg": "Bij een gewoon bevel achteraan met toi; bij een verbod vooraan."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Krijgt het werkwoord bij nous -ons of -issons?",
+          "kolommen": [
+            "-ons",
+            "-issons"
+          ],
+          "items": [
+            [
+              "parler",
+              "-ons"
+            ],
+            [
+              "finir",
+              "-issons"
+            ],
+            [
+              "chanter",
+              "-ons"
+            ],
+            [
+              "choisir",
+              "-issons"
+            ],
+            [
+              "danser",
+              "-ons"
+            ],
+            [
+              "réussir",
+              "-issons"
+            ]
+          ],
+          "uitleg": "Regelmatige -ir-werkwoorden krijgen -iss- in het meervoud."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elk onderwerp aan de juiste vorm van être.",
+          "paren": [
+            [
+              "je",
+              "suis"
+            ],
+            [
+              "nous",
+              "sommes"
+            ],
+            [
+              "vous",
+              "êtes"
+            ],
+            [
+              "ils",
+              "sont"
+            ]
+          ],
+          "extra": [
+            "sommez"
+          ],
+          "uitleg": "Être is onregelmatig."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "« Nous ___ beaucoup d'eau en été. » (boire) Welke vorm past?",
+          "opties": [
+            "buvons",
+            "boivons",
+            "boirons",
+            "bovons"
+          ],
+          "antwoord": 0,
+          "uitleg": "Nous buvons."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "« Ils ___ venir, mais ils n'ont pas le temps. » (vouloir) Welke vorm past?",
+          "opties": [
+            "veulent",
+            "voulent",
+            "veuillent",
+            "vouloient"
+          ],
+          "antwoord": 0,
+          "uitleg": "Ils veulent."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "« Tu ___ où est la gare ? » (savoir) Welke vorm past?",
+          "opties": [
+            "sais",
+            "sait",
+            "savez",
+            "savons"
+          ],
+          "antwoord": 0,
+          "uitleg": "Tu sais."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "« Vous ___ toujours la vérité. » (dire) Welke vorm past?",
+          "opties": [
+            "dites",
+            "disez",
+            "dizez",
+            "disent"
+          ],
+          "antwoord": 0,
+          "uitleg": "Vous dites, net als vous faites."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "« Nous ___ le match à huit heures. » (commencer) Welke vorm past?",
+          "opties": [
+            "commençons",
+            "commencons",
+            "commenceons",
+            "commencions"
+          ],
+          "antwoord": 0,
+          "uitleg": "Cédille voor de o."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "« J'___ un cadeau pour ma sœur. » (acheter) Welke vorm past?",
+          "opties": [
+            "achète",
+            "achete",
+            "achètes",
+            "achèt"
+          ],
+          "antwoord": 0,
+          "uitleg": "J'achète met accent grave."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "« ___ ! On est en retard ! » Je zegt tegen een vriend dat hij zich moet haasten. Welke vorm past?",
+          "opties": [
+            "Dépêche-toi",
+            "Te dépêche",
+            "Dépêche-te",
+            "Toi te dépêche"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bevel bij tu: dépêche-toi."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul in: « Elles ___ la porte. » (ouvrir) Eén woord.",
+          "antwoord": [
+            "ouvrent"
+          ],
+          "uitleg": "Ouvrir volgt de -er-uitgangen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul in: « Ils ___ chez nous ce soir. » (venir) Eén woord.",
+          "antwoord": [
+            "viennent"
+          ],
+          "uitleg": "Ils viennent, met twee n'en."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul in: « Je ___ mon ami. » (payer) Eén woord.",
+          "antwoord": [
+            "paie",
+            "paye"
+          ],
+          "uitleg": "De y wordt i bij je."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Geef de gebiedende wijs van « être » bij vous. Eén woord.",
+          "antwoord": [
+            "soyez",
+            "Soyez"
+          ],
+          "uitleg": "Sois, soyons, soyez."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul in: « ___-vous, s'il vous plaît. » (s'asseoir, bevel bij vous) Eén woord.",
+          "antwoord": [
+            "asseyez",
+            "Asseyez"
+          ],
+          "uitleg": "Asseyez-vous."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "« Nous [[*nous|se]] promenons dans le parc. »",
+          "uitleg": "Bij nous: nous nous."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "« [[*Il|On]] neige depuis ce matin. »",
+          "uitleg": "Neiger bestaat enkel met il."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "« Il [[*y a|est]] trois chaises dans la cuisine. »",
+          "uitleg": "Il y a: er zijn."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "« Ne [[*me|moi]] parle pas comme ça ! »",
+          "uitleg": "In een verbod blijft me vooraan."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is het werkwoord wederkerend in het Frans?",
+          "rijen": [
+            "se promener (wandelen)",
+            "se coucher (gaan slapen)",
+            "manger (eten)",
+            "se souvenir de (zich herinneren)"
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Wandelen en gaan slapen hebben in het Nederlands geen zich."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet de woorden in de juiste volgorde voor een vraag: « tu / est-ce que / ce soir / viens »",
+          "opties": [
+            "est-ce que",
+            "tu",
+            "viens",
+            "ce soir"
+          ],
+          "uitleg": "Est-ce que vooraan, daarna de gewone volgorde."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Le matin, je [[me]] lève à sept heures. Ensuite, nous [[prenons]] le bus.",
+          "extra": [
+            "te",
+            "prennons"
+          ],
+          "uitleg": "Je me lève; nous prenons met één n."
+        },
+        {
+          "type": "open",
+          "vraag": "Leg in het Nederlands uit waarom je « nous mangeons » schrijft met een e na de g.",
+          "antwoord": "Om de zachte g-klank te houden voor de o.",
+          "uitleg": "Zonder e zou de g hard klinken."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent « Il faut étudier pour l'examen »?",
+          "opties": [
+            "We moeten studeren voor het examen.",
+            "Hij wil niet studeren voor het examen.",
+            "Het examen is heel moeilijk om te studeren.",
+            "Hij studeert graag voor elk examen."
+          ],
+          "antwoord": 0,
+          "uitleg": "Il faut + infinitief: het moet."
+        }
+      ]
+    },
+    {
+      "titel": "De verleden tijden — pittig",
+      "niveau": "beyond-dubbele-finaliteit",
+      "gratis": false,
+      "vragen": [
+        {
+          "casus": "Lis le récit de Sarah.\n\n« Samedi dernier, il faisait beau et il y avait beaucoup de monde en ville. Ma sœur et moi, nous sommes allées au marché. J'ai acheté des fraises et ma sœur a pris des photos. Soudain, un chien est tombé dans la fontaine ! Quand nous sommes rentrées, maman venait de préparer le dîner. »",
+          "vragen": [
+            {
+              "type": "keuzelijst",
+              "vraag": "« il faisait beau » staat in de [[*imparfait|passé composé]] omdat het het decor beschrijft.",
+              "uitleg": "Het weer: imparfait."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "« nous sommes allées » krijgt -es omdat het onderwerp [[*vrouwelijk meervoud|mannelijk enkelvoud]] is.",
+              "uitleg": "Twee zussen: allées."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "« Soudain, un chien est tombé » staat in de [[*passé composé|imparfait]].",
+              "uitleg": "Soudain: één gebeurtenis."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "« maman venait de préparer le dîner » betekent dat mama het eten [[*net had klaargemaakt|nog moest klaarmaken]].",
+              "uitleg": "Venir de in de imparfait: net gebeurd, in het verleden."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Wat deed de zus van Sarah op de markt?",
+              "opties": [
+                "foto's nemen",
+                "aardbeien kopen voor het eten",
+                "de hond uit de fontein halen",
+                "het eten voor mama klaarmaken"
+              ],
+              "antwoord": 0,
+              "uitleg": "Ma sœur a pris des photos."
+            }
+          ]
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Avoir of être in de passé composé?",
+          "kolommen": [
+            "avoir",
+            "être"
+          ],
+          "items": [
+            [
+              "manger",
+              "avoir"
+            ],
+            [
+              "arriver",
+              "être"
+            ],
+            [
+              "finir",
+              "avoir"
+            ],
+            [
+              "rester",
+              "être"
+            ],
+            [
+              "prendre",
+              "avoir"
+            ],
+            [
+              "se coucher",
+              "être"
+            ]
+          ],
+          "uitleg": "Beweging, verandering en wederkerende werkwoorden nemen être."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elk werkwoord aan zijn deelwoord.",
+          "paren": [
+            [
+              "lire",
+              "lu"
+            ],
+            [
+              "écrire",
+              "écrit"
+            ],
+            [
+              "prendre",
+              "pris"
+            ],
+            [
+              "devoir",
+              "dû"
+            ]
+          ],
+          "extra": [
+            "prendu"
+          ],
+          "uitleg": "Onregelmatige deelwoorden leer je uit het hoofd."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elk werkwoord aan zijn deelwoord (tweede reeks).",
+          "paren": [
+            [
+              "naître",
+              "né"
+            ],
+            [
+              "mourir",
+              "mort"
+            ],
+            [
+              "ouvrir",
+              "ouvert"
+            ],
+            [
+              "avoir",
+              "eu"
+            ]
+          ],
+          "extra": [
+            "mouru"
+          ],
+          "uitleg": "Naître en mourir nemen être."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is de zin juist (passé composé)?",
+          "rijen": [
+            "Elle est partie hier.",
+            "Ils ont allés au cinéma.",
+            "Je me suis levé tôt.",
+            "Nous avons arrivés à midi."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Aller en arriver nemen être."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Imparfait of passé composé?",
+          "rijen": [
+            "Quand j'étais petit, je ___ (jouer) souvent dehors.",
+            "Hier, j'___ (rencontrer) mon prof en ville.",
+            "Il ___ (faire) froid ce jour-là.",
+            "Soudain, la lumière ___ (s'éteindre)."
+          ],
+          "antwoord": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "uitleg": "Gewoonte en decor in de imparfait, één gebeurtenis in de passé composé.",
+          "kolommen": [
+            "imparfait",
+            "passé composé"
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "« Je lisais quand mon frère ___. » (entrer) Welke vorm past?",
+          "opties": [
+            "est entré",
+            "entrait",
+            "a entré",
+            "était entrer"
+          ],
+          "antwoord": 0,
+          "uitleg": "Wat erin valt: passé composé met être."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "« Elles se sont ___ tard. » (coucher) Welke vorm past?",
+          "opties": [
+            "couchées",
+            "couché",
+            "couchés",
+            "couchaient"
+          ],
+          "antwoord": 0,
+          "uitleg": "Vrouwelijk meervoud: couchées."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe zeg je « Ik heb mijn huiswerk niet gemaakt »?",
+          "opties": [
+            "Je n'ai pas fait mes devoirs.",
+            "Je n'ai fait pas mes devoirs.",
+            "Je ne pas ai fait mes devoirs.",
+            "Je ai ne pas fait mes devoirs."
+          ],
+          "antwoord": 0,
+          "uitleg": "Ne ... pas rond het hulpwerkwoord."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe zeg je « Ik heb hem gezien »?",
+          "opties": [
+            "Je l'ai vu.",
+            "J'ai le vu.",
+            "J'ai vu le.",
+            "Je ai le vu."
+          ],
+          "antwoord": 0,
+          "uitleg": "Het voornaamwoord staat voor het hulpwerkwoord."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "« Il ___ monté l'escalier. » Welke vorm past?",
+          "opties": [
+            "a",
+            "est",
+            "était",
+            "ont"
+          ],
+          "antwoord": 0,
+          "uitleg": "Met een lijdend voorwerp neemt monter avoir."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent « Nous venons de rentrer »?",
+          "opties": [
+            "We zijn net thuisgekomen.",
+            "We gaan zo meteen naar huis.",
+            "We komen elke dag thuis.",
+            "We waren al lang thuis."
+          ],
+          "antwoord": 0,
+          "uitleg": "Venir de: passé récent."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "« Le train ___ quand nous sommes arrivés à la gare. » Welke vorm past?",
+          "opties": [
+            "venait de partir",
+            "vient de partir",
+            "va partir",
+            "est venu de partir"
+          ],
+          "antwoord": 0,
+          "uitleg": "In een verhaal in het verleden: venait de."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul in: « Nous ___ à la mer chaque été. » (aller, imparfait) Eén woord.",
+          "antwoord": [
+            "allions"
+          ],
+          "uitleg": "Nous allions."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul in: « Tu ___ malade hier ? » (être, imparfait) Eén woord.",
+          "antwoord": [
+            "étais"
+          ],
+          "uitleg": "Tu étais."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Geef het deelwoord van « mettre ».",
+          "antwoord": [
+            "mis"
+          ],
+          "uitleg": "J'ai mis."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul in: « Ils ___ beaucoup de devoirs. » (avoir, imparfait) Eén woord.",
+          "antwoord": [
+            "avaient"
+          ],
+          "uitleg": "Ils avaient."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "« Hier, nous [[*avons mangé|mangions]] au restaurant. »",
+          "uitleg": "Hier: één gebeurtenis."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "« Chaque samedi, je [[*faisais|ai fait]] du vélo. »",
+          "uitleg": "Chaque samedi: gewoonte."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "« Elle [[*est née|a né]] en 2009. »",
+          "uitleg": "Naître neemt être."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "« Je [[*mangeais|mangais]] une pomme. »",
+          "uitleg": "De e na de g blijft voor -ais."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "« Il y [[*avait|a eu]] du monde partout : c'était la fête. »",
+          "uitleg": "Beschrijving: imparfait."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Neemt het werkwoord être in de passé composé?",
+          "rijen": [
+            "venir",
+            "tomber",
+            "faire",
+            "se promener"
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Beweging, verandering en wederkerend: être."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet de woorden in de juiste volgorde: « pas / suis / je / ne / allé »",
+          "opties": [
+            "je",
+            "ne",
+            "suis",
+            "pas",
+            "allé"
+          ],
+          "uitleg": "Ne ... pas rond het hulpwerkwoord."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Il [[pleuvait]] quand je [[suis sorti]] de la maison.",
+          "extra": [
+            "a plu",
+            "sortais"
+          ],
+          "uitleg": "Decor in de imparfait, wat erin valt in de passé composé."
+        },
+        {
+          "type": "open",
+          "vraag": "Leg in het Nederlands uit waarom je « elle est allée » schrijft maar « elle a mangé ».",
+          "antwoord": "Aller neemt être, en dan past het deelwoord zich aan het vrouwelijke onderwerp aan. Bij avoir blijft het deelwoord gewoon staan.",
+          "uitleg": "Overeenkomst enkel bij être."
+        }
+      ]
+    },
+    {
+      "titel": "De toekomende tijd en de conditionnel — pittig",
+      "niveau": "beyond-dubbele-finaliteit",
+      "gratis": false,
+      "vragen": [
+        {
+          "casus": "Lis le mail.\n\n« Madame, Monsieur,\n\nNous allons visiter Lyon avec notre classe le mois prochain. Nous arriverons le 12 mai en train et nous resterons trois jours. Pourriez-vous nous envoyer les prix de votre auberge ? Nous voudrions aussi savoir s'il y aura un repas le soir. Si vous avez de la place, nous réserverons tout de suite.\n\nJe vous serais reconnaissant de votre réponse.\n\nTom Janssens »",
+          "vragen": [
+            {
+              "type": "keuzelijst",
+              "vraag": "« Nous allons visiter » is een [[*futur proche|futur simple|conditionnel]].",
+              "uitleg": "Aller + infinitief."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "« Nous arriverons » is een [[*futur simple|conditionnel|futur proche]].",
+              "uitleg": "Infinitief + -ons."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "Tom schrijft « Pourriez-vous » om [[*hoffelijk te vragen|een bevel te geven]].",
+              "uitleg": "Conditionnel de politesse."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "« Si vous avez de la place, nous réserverons » : na si staat de [[*présent|futur]].",
+              "uitleg": "Si + présent, dan futur."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Wat wil de klas weten?",
+              "opties": [
+                "de prijzen en of er 's avonds eten is",
+                "hoe laat de trein in Lyon aankomt",
+                "welke musea ze in Lyon kunnen bezoeken",
+                "of ze vijf dagen mogen blijven"
+              ],
+              "antwoord": 0,
+              "uitleg": "Les prix et s'il y aura un repas le soir."
+            }
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Futur simple of conditionnel?",
+          "rijen": [
+            "je parlerai",
+            "je parlerais",
+            "nous serons",
+            "nous serions",
+            "ils feront",
+            "ils feraient"
+          ],
+          "antwoord": [
+            0,
+            1,
+            0,
+            1,
+            0,
+            1
+          ],
+          "uitleg": "Futur: -ai, -ons, -ont. Conditionnel: -ais, -ions, -aient.",
+          "kolommen": [
+            "futur simple",
+            "conditionnel"
+          ]
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elk werkwoord aan zijn stam in de futur simple.",
+          "paren": [
+            [
+              "aller",
+              "ir-"
+            ],
+            [
+              "faire",
+              "fer-"
+            ],
+            [
+              "avoir",
+              "aur-"
+            ],
+            [
+              "venir",
+              "viendr-"
+            ]
+          ],
+          "extra": [
+            "all-"
+          ],
+          "uitleg": "Onregelmatige stammen leer je uit het hoofd."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elke vorm aan haar betekenis.",
+          "paren": [
+            [
+              "je voudrais",
+              "ik zou graag willen"
+            ],
+            [
+              "tu devrais",
+              "je zou moeten"
+            ],
+            [
+              "on pourrait",
+              "we zouden kunnen"
+            ],
+            [
+              "il y aura",
+              "er zal zijn"
+            ]
+          ],
+          "extra": [
+            "er was"
+          ],
+          "uitleg": "Er was is il y avait."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "« Quand j'___ dix-huit ans, j'apprendrai à conduire. » (avoir) Welke vorm past?",
+          "opties": [
+            "aurai",
+            "ai",
+            "aurais",
+            "avais"
+          ],
+          "antwoord": 0,
+          "uitleg": "Na quand over later: futur simple."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "« Si j'avais plus d'argent, je ___ un vélo. » (acheter) Welke vorm past?",
+          "opties": [
+            "achèterais",
+            "achèterai",
+            "achète",
+            "acheterions"
+          ],
+          "antwoord": 0,
+          "uitleg": "Si + imparfait, dan conditionnel."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "« Demain, il ___ froid. » (faire, futur simple) Welke vorm past?",
+          "opties": [
+            "fera",
+            "ferait",
+            "faira",
+            "fait"
+          ],
+          "antwoord": 0,
+          "uitleg": "Stam fer- + -a."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je bent in een bakkerij. Wat zeg je het beleefdst?",
+          "opties": [
+            "Je voudrais une baguette, s'il vous plaît.",
+            "Je veux une baguette, et tout de suite.",
+            "Donne-moi une baguette maintenant.",
+            "Une baguette, vite, je suis pressé !"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je voudrais is de gewone winkelvorm."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je vriend is heel moe. Welke zin geeft een raad?",
+          "opties": [
+            "Tu devrais dormir plus.",
+            "Tu dormiras plus tard.",
+            "Tu vas dormir maintenant !",
+            "Tu dormais beaucoup trop."
+          ],
+          "antwoord": 0,
+          "uitleg": "Tu devrais: je zou moeten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "« Ce soir, nous ___ regarder un film. » Welke vorm past?",
+          "opties": [
+            "allons",
+            "irons",
+            "allions",
+            "irions"
+          ],
+          "antwoord": 0,
+          "uitleg": "Futur proche: aller in de présent + infinitief."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een krant schrijft: « Il y aurait trois blessés. » Wat betekent dat?",
+          "opties": [
+            "Er zouden drie gewonden zijn.",
+            "Er waren zeker drie gewonden.",
+            "Er zullen morgen drie gewonden zijn.",
+            "Er zijn drie gewonden genezen."
+          ],
+          "antwoord": 0,
+          "uitleg": "De conditionnel voor iets dat nog niet zeker is."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul in: « Nous ___ à la mer l'été prochain. » (aller, futur simple) Eén woord.",
+          "antwoord": [
+            "irons"
+          ],
+          "uitleg": "Nous irons."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul in: « Ils ___ demain. » (venir, futur simple) Eén woord.",
+          "antwoord": [
+            "viendront"
+          ],
+          "uitleg": "Ils viendront."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul in: « Tu ___ m'aider ? » (pouvoir, conditionnel) Eén woord.",
+          "antwoord": [
+            "pourrais"
+          ],
+          "uitleg": "Pourrais-tu, tu pourrais."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul in: « Je ne sais pas encore. Je te le ___ demain. » (dire, futur simple) Eén woord.",
+          "antwoord": [
+            "dirai"
+          ],
+          "uitleg": "Je dirai."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "« Je [[*vais partir|vais pars]] dans cinq minutes. »",
+          "uitleg": "Na aller komt de infinitief."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "« Si tu [[*viens|viendras]], je serai content. »",
+          "uitleg": "Na si: présent."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "« Si j'étais toi, je [[*resterais|resterai]] à la maison. »",
+          "uitleg": "Si + imparfait: conditionnel."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "« J'[[*achèterai|acheterai]] des fleurs pour maman. »",
+          "uitleg": "Het accent blijft."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "« Nous [[*saurons|savrons]] le résultat demain. »",
+          "uitleg": "Savoir: stam saur-."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is de zin juist (futur en conditionnel)?",
+          "rijen": [
+            "Je ne vais pas sortir ce soir.",
+            "Si tu viendras, on jouera.",
+            "Pourriez-vous fermer la fenêtre ?",
+            "Ils parleleront demain."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Na si geen futur; ils parleront."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet de woorden in de juiste volgorde: « pas / je / vais / ne / sortir »",
+          "opties": [
+            "je",
+            "ne",
+            "vais",
+            "pas",
+            "sortir"
+          ],
+          "uitleg": "Ne ... pas rond aller, de infinitief erachter."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Si je gagne le match, je [[serai]] très content. Si j'avais le temps, je [[viendrais]] avec toi.",
+          "extra": [
+            "serais",
+            "viendrai"
+          ],
+          "uitleg": "Si + présent: futur; si + imparfait: conditionnel."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul in: « Demain, il y ___ du soleil. » (avoir, futur simple) Eén woord.",
+          "antwoord": [
+            "aura"
+          ],
+          "uitleg": "Il y aura."
+        },
+        {
+          "type": "open",
+          "vraag": "Leg in het Nederlands uit waarom je in een winkel beter « je voudrais » zegt dan « je veux ».",
+          "antwoord": "Je voudrais is de conditionnel en klinkt hoffelijk; je veux klinkt in het Frans bot.",
+          "uitleg": "Conditionnel de politesse."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin stelt iets voor?",
+          "opties": [
+            "On pourrait aller au parc.",
+            "On est allés au parc.",
+            "On allait au parc.",
+            "On va au parc tous les jours."
+          ],
+          "antwoord": 0,
+          "uitleg": "On pourrait: we zouden kunnen."
+        }
+      ]
+    },
+    {
+      "titel": "Zinsbouw, zinsdelen en congruentie — pittig",
+      "niveau": "beyond-dubbele-finaliteit",
+      "gratis": false,
+      "vragen": [
+        {
+          "casus": "Lis le texte.\n\n« Ma sœur et moi, nous habitons à Namur. Le samedi, nous allons à la piscine parce que nous aimons nager. Ma sœur téléphone souvent à notre grand-mère, mais moi, je ne téléphone jamais : je préfère écrire des lettres. Quelle belle idée, dit mamie ! Les lettres qu'elle reçoit sont toujours longues et drôles. »",
+          "vragen": [
+            {
+              "type": "keuzelijst",
+              "vraag": "« nous allons » volgt het onderwerp « ma sœur et moi », want dat is hetzelfde als [[*nous|vous|ils]].",
+              "uitleg": "Ma sœur et moi = nous."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "« parce que » betekent [[*omdat|maar|dus]].",
+              "uitleg": "Parce que geeft een reden."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "In « Ma sœur téléphone à notre grand-mère » is « à notre grand-mère » een [[*COI|COD]].",
+              "uitleg": "Na à: COI."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "« Quelle belle idée ! » is een [[*uitroepzin|vraagzin|bevelzin]].",
+              "uitleg": "Quel vooraan en een uitroepteken."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "« longues et drôles » krijgen een s omdat « les lettres » [[*meervoud|enkelvoud]] is.",
+              "uitleg": "Het bijvoeglijk naamwoord volgt het naamwoord."
+            }
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welk soort zin is het?",
+          "rijen": [
+            "Tu viens avec nous ?",
+            "Ferme la porte !",
+            "Comme c'est beau !",
+            "Il pleut depuis ce matin."
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "uitleg": "Vraagteken, bevel zonder onderwerp, quel of comme met uitroepteken.",
+          "kolommen": [
+            "vraagzin",
+            "bevelzin",
+            "uitroepzin",
+            "mededelende zin"
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "COD of COI?",
+          "rijen": [
+            "Je regarde la télé.",
+            "Je parle à mon prof.",
+            "Elle mange une pomme.",
+            "Il ressemble à son père."
+          ],
+          "antwoord": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "uitleg": "Zonder voorzetsel COD, met à COI.",
+          "kolommen": [
+            "COD",
+            "COI"
+          ]
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elk voegwoord aan zijn betekenis.",
+          "paren": [
+            [
+              "mais",
+              "maar"
+            ],
+            [
+              "donc",
+              "dus"
+            ],
+            [
+              "parce que",
+              "omdat"
+            ],
+            [
+              "pendant que",
+              "terwijl"
+            ]
+          ],
+          "extra": [
+            "hoewel"
+          ],
+          "uitleg": "Hoewel staat niet in de lijst."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elke ontkenning aan haar betekenis.",
+          "paren": [
+            [
+              "ne ... jamais",
+              "nooit"
+            ],
+            [
+              "ne ... rien",
+              "niets"
+            ],
+            [
+              "ne ... plus",
+              "niet meer"
+            ],
+            [
+              "ne ... personne",
+              "niemand"
+            ]
+          ],
+          "extra": [
+            "altijd"
+          ],
+          "uitleg": "Toujours is altijd."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "« Les élèves et le prof ___ en classe. » (travailler) Welke vorm past?",
+          "opties": [
+            "travaillent",
+            "travaille",
+            "travailles",
+            "travaillerons"
+          ],
+          "antwoord": 0,
+          "uitleg": "Twee onderwerpen samen: meervoud."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "« Beaucoup de touristes ___ à Bruges. » (venir) Welke vorm past?",
+          "opties": [
+            "viennent",
+            "vient",
+            "venons",
+            "venaient-ils"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het werkwoord volgt touristes."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin over mijn vriendinnen klopt?",
+          "opties": [
+            "Mes amies sont contentes.",
+            "Mes amies sont content.",
+            "Mes amies est contentes.",
+            "Mes amies sont contentes, elle."
+          ],
+          "antwoord": 0,
+          "uitleg": "Vrouwelijk meervoud: contentes."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin heeft de juiste woordorde?",
+          "opties": [
+            "Il me donne le livre.",
+            "Il le me donne le livre.",
+            "Il donne me le livre.",
+            "Il donne le livre à me."
+          ],
+          "antwoord": 0,
+          "uitleg": "Me staat voor het werkwoord."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "« Je ne vais pas à la fête ___ je suis malade. » Welk voegwoord past?",
+          "opties": [
+            "parce que",
+            "mais",
+            "donc",
+            "pendant que"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een reden: parce que."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "« Il fait froid, ___ je mets un pull. » Welk voegwoord past?",
+          "opties": [
+            "donc",
+            "parce que",
+            "pendant que",
+            "ou"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een gevolg: donc."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het sujet in « Demain, mes parents partent en vacances »?",
+          "opties": [
+            "mes parents",
+            "demain",
+            "en vacances",
+            "partent en vacances"
+          ],
+          "antwoord": 0,
+          "uitleg": "Wie vertrekt? Mes parents."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul in: « Ma sœur et moi ___ au cinéma. » (aller) Eén woord.",
+          "antwoord": [
+            "allons"
+          ],
+          "uitleg": "Ma sœur et moi = nous."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul in: « On ___ à huit heures. » (manger) Eén woord.",
+          "antwoord": [
+            "mange"
+          ],
+          "uitleg": "On vraagt enkelvoud."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul in: « Ce sont des livres ___. » (intéressant) Eén woord.",
+          "antwoord": [
+            "intéressants"
+          ],
+          "uitleg": "Meervoud: s."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul in: « Je reste ici ___ il pleut. » (omdat) Twee woorden.",
+          "antwoord": [
+            "parce qu'",
+            "parce que",
+            "car"
+          ],
+          "uitleg": "Parce qu' voor een klinker."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "« Je ne mange [[*jamais|toujours]] de viande : je suis végétarien. »",
+          "uitleg": "Ne ... jamais: nooit."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "« Je [[*la|lui]] regarde. » (la télé)",
+          "uitleg": "COD vervangen door la."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "« Je [[*lui|le]] téléphone ce soir. » (à ma mère)",
+          "uitleg": "COI met à vervangen door lui."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "« [[*Est-ce que|Est-ce qu']] tu as faim ? »",
+          "uitleg": "Est-ce que voor een medeklinker."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "« Si seulement il [[*faisait|fait]] beau ! »",
+          "uitleg": "Wenszin: si seulement + imparfait."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is de zin juist (zinsbouw)?",
+          "rijen": [
+            "Demain, je vais à Paris.",
+            "Je ne sais rien pas.",
+            "Les filles sont grandes.",
+            "Nous joue au foot."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Ne ... rien zonder pas; nous jouons."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet de woorden in de juiste volgorde: « une pomme / Marie / à son frère / donne »",
+          "opties": [
+            "Marie",
+            "donne",
+            "une pomme",
+            "à son frère"
+          ],
+          "uitleg": "Sujet, verbe, COD, COI."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Je reste à la maison [[parce qu']]il pleut, [[mais]] demain je sortirai.",
+          "extra": [
+            "donc",
+            "pendant qu'"
+          ],
+          "uitleg": "Een reden en een tegenstelling."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In welke zin zegt een bijzin met qui iets over le garçon?",
+          "opties": [
+            "Le garçon qui joue au foot est mon frère.",
+            "Le garçon joue au foot et il rit.",
+            "Le garçon joue au foot avec son frère.",
+            "Le garçon ne joue jamais au foot le soir, lui."
+          ],
+          "antwoord": 0,
+          "uitleg": "Qui joue au foot zegt iets over le garçon."
+        },
+        {
+          "type": "open",
+          "vraag": "Leg in het Nederlands uit waarom je « les enfants jouent » schrijft met -ent.",
+          "antwoord": "Les enfants is meervoud (ils), dus het werkwoord krijgt de uitgang -ent.",
+          "uitleg": "Het werkwoord volgt het onderwerp."
+        }
+      ]
+    }
+  ]
+}

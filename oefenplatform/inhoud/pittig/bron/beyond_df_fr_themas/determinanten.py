@@ -14,7 +14,7 @@ VRAGEN = [
             inv("Hoe oud wordt de grootvader? Geef het getal.", ["80", "tachtig"], "Quatre-vingts: 80."),
         ],
     ),
-    tabel("Is de vorm juist?", [
+    tabel("Is het samengetrokken lidwoord juist?", [
         ("Je vais au cinéma.", J), ("Je viens de le magasin.", F), ("Je parle aux élèves.", J), ("Je vais à le parc.", F),
     ], "De + le = du; à + le = au."),
     sorteer("Ce, cet of cette?", ["ce", "cet", "cette"], [
