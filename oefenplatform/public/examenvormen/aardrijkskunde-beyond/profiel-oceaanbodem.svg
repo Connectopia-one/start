@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Profiel van een continent tot midden in de oceaan (hoogte overdreven)</text>
+<rect x="40" y="150" width="920" height="4" rx="0" fill="none" stroke="none" stroke-width="0"/>
+<path d="M200 150 L 960 150 L 960 420 L 920 430 L 870 590 L 820 420 L 760 360 L 700 260 L 640 360 L 560 420 L 400 400 L 330 170 Z" fill="#9bc1df" stroke="none" stroke-width="0"/>
+<path d="M40 150 L 200 150 L 330 170 L 400 400 L 560 420 L 640 360 L 700 260 L 760 360 L 820 420 L 870 590 L 920 430 L 960 420 L 960 620 L 40 620 Z" fill="#c9b48a" stroke="#24331b" stroke-width="2"/>
+<line x1="40" y1="150" x2="960" y2="150" stroke="#3b6fa0" stroke-width="2" stroke-dasharray="8 6"/>
+<text x="950" y="140" font-size="14" text-anchor="end" fill="#3b6fa0">zeeniveau</text>
+<text x="110" y="135" font-size="16" text-anchor="middle" fill="#24331b">land</text>
+<circle cx="265" cy="195" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="265" y="202" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<circle cx="365" cy="300" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="365" y="307" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<circle cx="480" cy="445" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="480" y="452" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<circle cx="700" cy="300" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="700" y="307" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">D</text>
+<circle cx="870" cy="560" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="870" y="567" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">E</text>
+</svg>

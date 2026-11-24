@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Een plaat schuift over een hotspot (schematisch)</text>
+<rect x="40" y="200" width="920" height="130" rx="0" fill="#9bc1df" stroke="none" stroke-width="0"/>
+<rect x="40" y="330" width="920" height="70" rx="0" fill="#5d5d5d" stroke="none" stroke-width="0"/>
+<rect x="40" y="400" width="920" height="220" rx="0" fill="#e0a15a" stroke="none" stroke-width="0"/>
+<line x1="600" y1="365" x2="300" y2="365" stroke="#e8c547" stroke-width="5"/>
+<polygon points="300,365 314.7,358.8 314.7,371.2" fill="#e8c547"/>
+<text x="620" y="372" font-size="16" text-anchor="start" fill="#ffffff">beweging van de plaat</text>
+<path d="M760 620 C 740 520 770 460 780 400 L 820 400 C 830 460 860 520 840 620 Z" fill="#b03a2e" stroke="none" stroke-width="0"/>
+<text x="800" y="600" font-size="16" text-anchor="middle" fill="#ffffff" font-weight="bold">mantelpluim</text>
+<path d="M120 330 L 180 180 L 240 330 Z" fill="#7a6a55" stroke="#24331b" stroke-width="2"/>
+<circle cx="180" cy="140" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="180" y="147" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">W</text>
+<path d="M290 330 L 380 140 L 470 330 Z" fill="#7a6a55" stroke="#24331b" stroke-width="2"/>
+<circle cx="380" cy="120" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="380" y="127" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">X</text>
+<path d="M460 330 L 580 100 L 700 330 Z" fill="#7a6a55" stroke="#24331b" stroke-width="2"/>
+<circle cx="580" cy="100" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="580" y="107" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">Y</text>
+<path d="M690 330 L 810 55 L 930 330 Z" fill="#7a6a55" stroke="#24331b" stroke-width="2"/>
+<circle cx="810" cy="60" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="810" y="67" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">Z</text>
+</svg>
