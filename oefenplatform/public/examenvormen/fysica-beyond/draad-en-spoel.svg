@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Een rechte draad met de stroom naar je toe, en een spoel</text>
+<circle cx="230" cy="330" r="110" fill="none" stroke="#9a9a9a" stroke-width="2" stroke-dasharray="7 6"/>
+<circle cx="230" cy="330" r="26" fill="#ffffff" stroke="#24331b" stroke-width="3"/>
+<circle cx="230" cy="330" r="7" fill="#24331b" stroke="#24331b" stroke-width="1"/>
+<text x="230" y="500" font-size="18" text-anchor="middle" fill="#24331b">stroom naar je toe</text>
+<circle cx="230" cy="220" r="7" fill="#24331b" stroke="#24331b" stroke-width="1"/>
+<circle cx="230" cy="178" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="230" y="185" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">P</text>
+<circle cx="340" cy="330" r="7" fill="#24331b" stroke="#24331b" stroke-width="1"/>
+<circle cx="382" cy="330" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="382" y="337" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">Q</text>
+<circle cx="230" cy="440" r="7" fill="#24331b" stroke="#24331b" stroke-width="1"/>
+<circle cx="270" cy="455" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="270" y="462" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">R</text>
+<circle cx="120" cy="330" r="7" fill="#24331b" stroke="#24331b" stroke-width="1"/>
+<circle cx="78" cy="330" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="78" y="337" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">S</text>
+<ellipse cx="580" cy="330" rx="22" ry="90" fill="none" stroke="#b5b5b5" stroke-width="2"/>
+<path d="M 580 240 A 22 90 0 0 1 580 420" fill="none" stroke="#24331b" stroke-width="3"/>
+<ellipse cx="620" cy="330" rx="22" ry="90" fill="none" stroke="#b5b5b5" stroke-width="2"/>
+<path d="M 620 240 A 22 90 0 0 1 620 420" fill="none" stroke="#24331b" stroke-width="3"/>
+<ellipse cx="660" cy="330" rx="22" ry="90" fill="none" stroke="#b5b5b5" stroke-width="2"/>
+<path d="M 660 240 A 22 90 0 0 1 660 420" fill="none" stroke="#24331b" stroke-width="3"/>
+<ellipse cx="700" cy="330" rx="22" ry="90" fill="none" stroke="#b5b5b5" stroke-width="2"/>
+<path d="M 700 240 A 22 90 0 0 1 700 420" fill="none" stroke="#24331b" stroke-width="3"/>
+<ellipse cx="740" cy="330" rx="22" ry="90" fill="none" stroke="#b5b5b5" stroke-width="2"/>
+<path d="M 740 240 A 22 90 0 0 1 740 420" fill="none" stroke="#24331b" stroke-width="3"/>
+<ellipse cx="780" cy="330" rx="22" ry="90" fill="none" stroke="#b5b5b5" stroke-width="2"/>
+<path d="M 780 240 A 22 90 0 0 1 780 420" fill="none" stroke="#24331b" stroke-width="3"/>
+<ellipse cx="820" cy="330" rx="22" ry="90" fill="none" stroke="#b5b5b5" stroke-width="2"/>
+<path d="M 820 240 A 22 90 0 0 1 820 420" fill="none" stroke="#24331b" stroke-width="3"/>
+<ellipse cx="860" cy="330" rx="22" ry="90" fill="none" stroke="#b5b5b5" stroke-width="2"/>
+<path d="M 860 240 A 22 90 0 0 1 860 420" fill="none" stroke="#24331b" stroke-width="3"/>
+<line x1="642" y1="312" x2="642" y2="350" stroke="#b03a2e" stroke-width="3"/>
+<polygon points="642,350 635.8,335.3 648.2,335.3" fill="#b03a2e"/>
+<line x1="762" y1="312" x2="762" y2="350" stroke="#b03a2e" stroke-width="3"/>
+<polygon points="762,350 755.8,335.3 768.2,335.3" fill="#b03a2e"/>
+<line x1="882" y1="312" x2="882" y2="350" stroke="#b03a2e" stroke-width="3"/>
+<polygon points="882,350 875.8,335.3 888.2,335.3" fill="#b03a2e"/>
+<line x1="580" y1="420" x2="580" y2="520" stroke="#24331b" stroke-width="3"/>
+<line x1="860" y1="240" x2="860" y2="160" stroke="#24331b" stroke-width="3"/>
+<text x="720" y="560" font-size="18" text-anchor="middle" fill="#24331b">stroom aan de voorkant naar beneden</text>
+<circle cx="520" cy="330" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="520" y="337" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">X</text>
+<circle cx="930" cy="330" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="930" y="337" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">Y</text>
+</svg>
