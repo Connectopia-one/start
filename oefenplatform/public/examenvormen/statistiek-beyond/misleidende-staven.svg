@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Leerlingen die met de fiets komen</text>
+<line x1="200" y1="520" x2="850" y2="520" stroke="#24331b" stroke-width="3"/>
+<line x1="200" y1="520" x2="200" y2="90" stroke="#24331b" stroke-width="3"/>
+<line x1="192" y1="520.0" x2="200" y2="520.0" stroke="#24331b" stroke-width="2"/>
+<text x="186" y="526.0" font-size="18" text-anchor="end" fill="#24331b">80</text>
+<line x1="192" y1="436.0" x2="200" y2="436.0" stroke="#24331b" stroke-width="2"/>
+<text x="186" y="442.0" font-size="18" text-anchor="end" fill="#24331b">82</text>
+<line x1="192" y1="352.0" x2="200" y2="352.0" stroke="#24331b" stroke-width="2"/>
+<text x="186" y="358.0" font-size="18" text-anchor="end" fill="#24331b">84</text>
+<line x1="192" y1="268.0" x2="200" y2="268.0" stroke="#24331b" stroke-width="2"/>
+<text x="186" y="274.0" font-size="18" text-anchor="end" fill="#24331b">86</text>
+<line x1="192" y1="184.0" x2="200" y2="184.0" stroke="#24331b" stroke-width="2"/>
+<text x="186" y="190.0" font-size="18" text-anchor="end" fill="#24331b">88</text>
+<line x1="192" y1="100.0" x2="200" y2="100.0" stroke="#24331b" stroke-width="2"/>
+<text x="186" y="106.0" font-size="18" text-anchor="end" fill="#24331b">90</text>
+<text x="200" y="75" font-size="18" text-anchor="start" fill="#5c6356">aantal leerlingen</text>
+<rect x="290" y="436.0" width="120" height="84.0" rx="0" fill="#c4d5b5" stroke="#24331b" stroke-width="2"/>
+<text x="350" y="552" font-size="20" text-anchor="middle" fill="#24331b">Noord</text>
+<rect x="500" y="310.0" width="120" height="210.0" rx="0" fill="#c4d5b5" stroke="#24331b" stroke-width="2"/>
+<text x="560" y="552" font-size="20" text-anchor="middle" fill="#24331b">Midden</text>
+<rect x="710" y="184.0" width="120" height="336.0" rx="0" fill="#c4d5b5" stroke="#24331b" stroke-width="2"/>
+<text x="770" y="552" font-size="20" text-anchor="middle" fill="#24331b">Zuid</text>
+</svg>
