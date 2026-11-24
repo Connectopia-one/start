@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Een negatief geladen staaf bij een neutrale metalen bol</text>
+<rect x="40" y="250" width="230" height="60" rx="10" fill="#d9d2c3" stroke="#24331b" stroke-width="2"/>
+<text x="70" y="290" font-size="34" text-anchor="middle" fill="#3b6fa0" font-weight="bold">−</text>
+<text x="110" y="290" font-size="34" text-anchor="middle" fill="#3b6fa0" font-weight="bold">−</text>
+<text x="150" y="290" font-size="34" text-anchor="middle" fill="#3b6fa0" font-weight="bold">−</text>
+<text x="190" y="290" font-size="34" text-anchor="middle" fill="#3b6fa0" font-weight="bold">−</text>
+<text x="230" y="290" font-size="34" text-anchor="middle" fill="#3b6fa0" font-weight="bold">−</text>
+<circle cx="520" cy="280" r="140" fill="#cfd8e3" stroke="#24331b" stroke-width="3"/>
+<rect x="505" y="420" width="30" height="120" rx="4" fill="#f3e3c8" stroke="#24331b" stroke-width="2"/>
+<text x="520" y="575" font-size="18" text-anchor="middle" fill="#24331b">isolerende voet</text>
+<circle cx="420" cy="280" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="420" y="287" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">P</text>
+<circle cx="620" cy="280" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="620" y="287" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">Q</text>
+<line x1="660" y1="280" x2="760" y2="280" stroke="#24331b" stroke-width="3"/>
+<line x1="760" y1="280" x2="800" y2="255" stroke="#24331b" stroke-width="3"/>
+<circle cx="760" cy="280" r="6" fill="#24331b" stroke="#24331b" stroke-width="1"/>
+<circle cx="805" cy="280" r="6" fill="#24331b" stroke="#24331b" stroke-width="1"/>
+<circle cx="782" cy="220" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="782" y="227" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">S</text>
+<line x1="805" y1="280" x2="880" y2="280" stroke="#24331b" stroke-width="3"/>
+<line x1="880" y1="280" x2="880" y2="420" stroke="#24331b" stroke-width="3"/>
+<line x1="845.0" y1="420" x2="915.0" y2="420" stroke="#24331b" stroke-width="3"/>
+<line x1="857.0" y1="434" x2="903.0" y2="434" stroke="#24331b" stroke-width="3"/>
+<line x1="869.0" y1="448" x2="891.0" y2="448" stroke="#24331b" stroke-width="3"/>
+<text x="880" y="490" font-size="18" text-anchor="middle" fill="#24331b">aarde</text>
+</svg>
