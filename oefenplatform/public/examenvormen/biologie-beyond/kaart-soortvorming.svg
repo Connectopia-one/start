@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Een gebied met muizen</text>
+<rect x="60" y="90" width="880" height="480" rx="14" fill="#cfe5f3" stroke="#24331b" stroke-width="2"/>
+<path d="M90 130 L 700 120 C 740 250 720 420 690 540 L 100 540 Z" fill="#e6f0d8" stroke="#24331b" stroke-width="2"/>
+<path d="M380 120 C 420 220 360 330 420 420 C 450 470 430 520 440 540 L 500 540 C 490 500 510 460 480 410 C 430 330 480 220 440 120 Z" fill="#8fc1e3" stroke="#24331b" stroke-width="1.5"/>
+<path d="M800 170 C 860 150 900 200 880 250 C 860 290 790 280 780 240 C 770 210 780 180 800 170 Z" fill="#e6f0d8" stroke="#24331b" stroke-width="2"/>
+<ellipse cx="200" cy="250" rx="14" ry="9" fill="#a08060" stroke="#24331b" stroke-width="1.5"/>
+<ellipse cx="250" cy="330" rx="14" ry="9" fill="#a08060" stroke="#24331b" stroke-width="1.5"/>
+<ellipse cx="180" cy="420" rx="14" ry="9" fill="#a08060" stroke="#24331b" stroke-width="1.5"/>
+<ellipse cx="300" cy="460" rx="14" ry="9" fill="#a08060" stroke="#24331b" stroke-width="1.5"/>
+<ellipse cx="560" cy="220" rx="14" ry="9" fill="#d8c0a0" stroke="#24331b" stroke-width="1.5"/>
+<ellipse cx="600" cy="330" rx="14" ry="9" fill="#d8c0a0" stroke="#24331b" stroke-width="1.5"/>
+<ellipse cx="620" cy="450" rx="14" ry="9" fill="#d8c0a0" stroke="#24331b" stroke-width="1.5"/>
+<ellipse cx="540" cy="400" rx="14" ry="9" fill="#d8c0a0" stroke="#24331b" stroke-width="1.5"/>
+<ellipse cx="830" cy="210" rx="14" ry="9" fill="#f0e6d0" stroke="#24331b" stroke-width="1.5"/>
+<ellipse cx="850" cy="235" rx="14" ry="9" fill="#f0e6d0" stroke="#24331b" stroke-width="1.5"/>
+<line x1="450" y1="578" x2="460" y2="545" stroke="#24331b" stroke-width="1"/>
+<line x1="840" y1="298" x2="840" y2="275" stroke="#24331b" stroke-width="1"/>
+<circle cx="240" cy="180" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="240" y="187" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<circle cx="590" cy="160" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="590" y="167" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<circle cx="450" cy="600" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="450" y="607" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<circle cx="840" cy="320" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="840" y="327" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">D</text>
+</svg>
