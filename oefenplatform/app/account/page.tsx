@@ -6,8 +6,8 @@ import { huidigSchooljaar, schooljaarEindeLabel } from "@/lib/schooljaar";
 import {
   heeftVastePrijs,
   prijsVoor,
-  TIJDELIJKE_PRIJS,
-  TIJDELIJKE_PRIJS_KORT,
+  actieLoopt,
+  tijdelijkePrijsKort,
 } from "@/lib/prijs";
 import { createClient } from "@/lib/supabase/server";
 import { gebruikPlusklasCode } from "@/app/betalen/actions";
@@ -112,9 +112,9 @@ export default async function AccountPage({
                 Volledige toegang vrijgeven — €{prijsVoor(profile)} per schooljaar
                 (tot en met {schooljaarEindeLabel()})
               </Link>
-              {TIJDELIJKE_PRIJS && !heeftVastePrijs(profile) && (
+              {actieLoopt() && !heeftVastePrijs(profile) && (
                 <p className="mt-2 text-xs text-ink-dim">
-                  {TIJDELIJKE_PRIJS_KORT}
+                  {tijdelijkePrijsKort()}
                 </p>
               )}
               {/*

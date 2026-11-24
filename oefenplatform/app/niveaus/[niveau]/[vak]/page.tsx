@@ -11,9 +11,9 @@ import { getSessionProfile } from "@/lib/auth";
 import { heeftVolledigeToegang, hoofdstukToegankelijk } from "@/lib/toegang";
 import { createClient } from "@/lib/supabase/server";
 import {
-  PRIJS_NU_EUR,
-  TIJDELIJKE_PRIJS,
-  TIJDELIJKE_PRIJS_KORT,
+  prijsNu,
+  actieLoopt,
+  tijdelijkePrijsKort,
 } from "@/lib/prijs";
 import { schooljaarEindeLabel } from "@/lib/schooljaar";
 import { vindNiveau } from "@/lib/niveaus";
@@ -284,8 +284,8 @@ export default async function NiveauVakPage({
         {!volledigeToegang && (
           <div className="mt-6 rounded-xl border border-amber/40 bg-amber/10 px-5 py-4 text-sm text-ink">
             Volledige toegang tot alle hoofdstukken kost{" "}
-            <strong>€{PRIJS_NU_EUR} per schooljaar</strong>
-            {TIJDELIJKE_PRIJS && <> ({TIJDELIJKE_PRIJS_KORT})</>}, geldig tot en
+            <strong>€{prijsNu()} per schooljaar</strong>
+            {actieLoopt() && <> ({tijdelijkePrijsKort()})</>}, geldig tot en
             met {schooljaarEindeLabel()} — de opbrengsten gaan volledig naar vzw
             Connectopia.{" "}
             <Link

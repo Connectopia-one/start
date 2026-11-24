@@ -41,6 +41,13 @@ export const nieuwTekst = {
 export const updates: Update[] = [
   {
     datum: "24 november 2026",
+    titel: "Black Friday: nog tot vrijdag 24u €20, daarna €50",
+    tekst:
+      "Het oefenplatform is zo goed als volledig: elk vak van Start tot Beyond, met leerbundels, oefenbundels, pittige hoofdstukken en examens. Daarom gaat de prijs naar €50 per schooljaar voor het hele gezin. Tot vrijdag 27 november om 24u betaal je nog €20 voor een volledig schooljaar. Had je als dank voor de enquête en een review een vaste prijs van €20? Die blijft gewoon.",
+    link: { tekst: "Volledige toegang vrijgeven", href: "/betalen" },
+  },
+  {
+    datum: "24 november 2026",
     titel: "Pittige hoofdstukken wiskunde in Boost doorstroom",
     tekst:
       "Wiskunde in Boost doorstroom heeft nu bij elk van de 14 onderwerpen een pittig hoofdstuk van 30 vragen, in examenvorm: van intervallen en Pythagoras tot vectoren, parabolen en misleidende grafieken. Met zelfgetekende prenten zoals een balk, een boxplot en puntenwolken waarop je moet klikken.",

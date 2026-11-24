@@ -6,9 +6,9 @@ import { getSessionProfile } from "@/lib/auth";
 import { hoofdstukToegankelijk } from "@/lib/toegang";
 import { createClient } from "@/lib/supabase/server";
 import {
-  PRIJS_NU_EUR,
-  TIJDELIJKE_PRIJS,
-  TIJDELIJKE_PRIJS_KORT,
+  prijsNu,
+  actieLoopt,
+  tijdelijkePrijsKort,
 } from "@/lib/prijs";
 import { schooljaarEindeLabel } from "@/lib/schooljaar";
 import { vindNiveau } from "@/lib/niveaus";
@@ -222,8 +222,8 @@ export default async function HoofdstukPage({
             <p className="font-medium">Dit hoofdstuk is nog op slot.</p>
             <p className="mt-2 text-ink-dim">
               Geef volledige toegang tot alle hoofdstukken vrij voor €
-              {PRIJS_NU_EUR} per schooljaar
-              {TIJDELIJKE_PRIJS && <> ({TIJDELIJKE_PRIJS_KORT})</>} (geldig tot
+              {prijsNu()} per schooljaar
+              {actieLoopt() && <> ({tijdelijkePrijsKort()})</>} (geldig tot
               en met {schooljaarEindeLabel()}), of vraag als plusklas-gezin de
               gratis toegangscode aan.
             </p>

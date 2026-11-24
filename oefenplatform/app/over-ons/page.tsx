@@ -4,7 +4,7 @@ import { getSessionProfile } from "@/lib/auth";
 import { createClient } from "@/lib/supabase/server";
 import { NIVEAUS } from "@/lib/niveaus";
 import { overOns } from "@/inhoud/overons";
-import { PRIJS_NU_EUR, TIJDELIJKE_PRIJS, TIJDELIJKE_PRIJS_UITLEG } from "@/lib/prijs";
+import { prijsNu, actieLoopt, tijdelijkePrijsUitleg } from "@/lib/prijs";
 
 /*
   Alle tekst van deze pagina staat in `inhoud/overons.ts`, zodat Kim ze kan
@@ -155,13 +155,13 @@ export default async function OverOnsPage() {
 
           <section>
             <h2 className="font-display text-lg font-semibold text-ink">{overOns.prijs.kop}</h2>
-            {TIJDELIJKE_PRIJS && (
+            {actieLoopt() && (
               <p className="mt-2 rounded-md bg-amber/10 px-4 py-3 text-sm text-ink">
-                {TIJDELIJKE_PRIJS_UITLEG}
+                {tijdelijkePrijsUitleg()}
               </p>
             )}
             <p className="mt-2 text-sm text-ink-dim">
-              We vragen €{PRIJS_NU_EUR} {overOns.prijs.uitleg}
+              We vragen €{prijsNu()} {overOns.prijs.uitleg}
             </p>
             <p className="mt-3 rounded-md bg-amber/10 px-4 py-3 text-sm text-ink">
               ⚠️ <strong>Belangrijk:</strong> {overOns.prijs.waarschuwing}

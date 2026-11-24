@@ -282,16 +282,6 @@ export const trajecten: Traject[] = [
     regels: [
       { label: "Uren", waarde: "Elke dag van 9u tot 15u" },
       {
-        label: "Herfstvakantie, Hasselt",
-        waarde:
-          "Maandag 2 en dinsdag 3 november 2026 bij Level X 28, Vilderstraat 28, thema Young Engineer Held",
-      },
-      {
-        label: "Herfstvakantie, Genk",
-        waarde:
-          "Woensdag 4 en donderdag 5 november 2026 op T2 Campus, thema Creatieve duizendpoot: van techniek tot design",
-      },
-      {
         label: "Kerstvakantie, Hasselt",
         waarde:
           "Maandag 21 tot en met woensdag 23 december 2026 en maandag 28 tot en met woensdag 30 december 2026, in de Vilderstraat 28. Deze kampen gaan door als er genoeg inschrijvingen zijn, dus laat gerust nu al weten welke dagen je zou willen.",
@@ -316,30 +306,6 @@ export const trajecten: Traject[] = [
         "Een kind drukt op een knop bij een proefopstelling met een gele onderzeeër in een waterbak.",
     },
     extraVragen: [
-      {
-        naam: "Herfstvakantie welke dagen",
-        label: "Herfstvakantie — welke dagen wil je erbij zijn?",
-        soort: "keuzes",
-        hulp: "Je mag er zoveel aankruisen als je wil. Elke dag is een volledige dag van 9u tot 15u.",
-        keuzes: [
-          {
-            naam: "Hasselt maandag 2 november",
-            label: "Hasselt, maandag 2 november — Young Engineer Held",
-          },
-          {
-            naam: "Hasselt dinsdag 3 november",
-            label: "Hasselt, dinsdag 3 november — Young Engineer Held",
-          },
-          {
-            naam: "Genk woensdag 4 november",
-            label: "Genk, woensdag 4 november — Creatieve duizendpoot",
-          },
-          {
-            naam: "Genk donderdag 5 november",
-            label: "Genk, donderdag 5 november — Creatieve duizendpoot",
-          },
-        ],
-      },
       {
         naam: "Kerstvakantie welke dagen",
         label: "Kerstvakantie — welke dagen zou je willen?",

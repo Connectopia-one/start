@@ -2,8 +2,8 @@ import { Header } from "@/components/Header";
 import { requireIngelogd } from "@/lib/auth";
 import {
   PRIJS_STRAKS_EUR,
-  TIJDELIJKE_PRIJS,
-  TIJDELIJKE_PRIJS_UITLEG,
+  actieLoopt,
+  tijdelijkePrijsUitleg,
   heeftVastePrijs,
   prijsVoor,
 } from "@/lib/prijs";
@@ -36,7 +36,7 @@ export default async function BetalenPage({
 
         <div className="mt-6 rounded-xl border border-border bg-surface p-6 text-center">
           <p className="font-display text-3xl font-semibold text-forest-dark">
-            {TIJDELIJKE_PRIJS && !vastePrijs && (
+            {actieLoopt() && !vastePrijs && (
               <span className="mr-2 align-middle text-lg font-normal text-ink-dim line-through">
                 €{PRIJS_STRAKS_EUR}
               </span>
@@ -51,9 +51,9 @@ export default async function BetalenPage({
               review. Die prijs blijft zolang je lid blijft.
             </p>
           )}
-          {TIJDELIJKE_PRIJS && !vastePrijs && (
+          {actieLoopt() && !vastePrijs && (
             <p className="mt-4 rounded-md bg-amber/10 px-4 py-3 text-left text-sm text-ink">
-              {TIJDELIJKE_PRIJS_UITLEG}
+              {tijdelijkePrijsUitleg()}
             </p>
           )}
           {isTestSleutel() ? (

@@ -10,9 +10,9 @@ import { getSessionProfile } from "@/lib/auth";
 import { heeftVolledigeToegang } from "@/lib/toegang";
 import { createClient } from "@/lib/supabase/server";
 import {
-  PRIJS_NU_EUR,
-  TIJDELIJKE_PRIJS,
-  TIJDELIJKE_PRIJS_KORT,
+  prijsNu,
+  actieLoopt,
+  tijdelijkePrijsKort,
 } from "@/lib/prijs";
 import { schooljaarEindeLabel } from "@/lib/schooljaar";
 import { vindNiveau } from "@/lib/niveaus";
@@ -178,9 +178,9 @@ export default async function ExamenPage({
           </h1>
           <div className="mt-6 rounded-xl border border-amber/40 bg-amber/10 px-5 py-4 text-sm text-ink">
             Een examen gaat over alle hoofdstukken van dit vak samen, dus het
-            hoort bij de volledige toegang. Die kost €{PRIJS_NU_EUR} per
+            hoort bij de volledige toegang. Die kost €{prijsNu()} per
             schooljaar
-            {TIJDELIJKE_PRIJS && <> ({TIJDELIJKE_PRIJS_KORT})</>}, geldig tot en
+            {actieLoopt() && <> ({tijdelijkePrijsKort()})</>}, geldig tot en
             met {schooljaarEindeLabel()} — de opbrengsten gaan volledig naar vzw
             Connectopia.{" "}
             <Link

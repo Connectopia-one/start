@@ -97,12 +97,12 @@ export const meetesten = {
   /*
     Wie zich opgeeft maar niet gekozen wordt, mag niet met lege handen
     achterblijven. Daarom staan de prijzen er meteen bij.
-    De tijdelijke prijs van 20 euro staat ook in oefenplatform/lib/prijs.ts;
+    De prijzen staan ook in oefenplatform/lib/prijs.ts;
     verandert die, pas dan allebei aan.
   */
   prijzenTitel: "Wil je nu al alles, en meteen voor een jaar?",
   prijzenTekst:
-    "Dan hoef je niet te wachten tot we de testers kiezen. Zolang we volop bouwen, koop je een jaarlicentie voor 20 euro. Je maakt zelf een account aan op het oefenplatform en je kan meteen beginnen.",
+    "Dan hoef je niet te wachten tot we de testers kiezen. Je koopt een jaarlicentie voor het hele gezin. Je maakt zelf een account aan op het oefenplatform en je kan meteen beginnen.",
   prijzenKnop: {
     tekst: "Maak een account aan",
     link: "https://oefenplatform.connectopia.one/registreren",
@@ -114,12 +114,12 @@ export const meetesten = {
   },
   prijzen: [
     {
-      titel: "Nu, zolang we bouwen",
-      tekst: "20 euro voor een heel jaar toegang tot alles.",
+      titel: "Black Friday, tot vrijdag 27 november 24u",
+      tekst: "20 euro voor een volledig schooljaar toegang tot alles.",
     },
     {
-      titel: "Vanaf volgend schooljaar",
-      tekst: "50 euro per gezin, voor 1 tot 5 personen.",
+      titel: "Vanaf zaterdag 28 november",
+      tekst: "50 euro per schooljaar per gezin, voor 1 tot 5 personen.",
     },
     {
       titel: "Geef je tijdelijk onderwijs aan huis?",

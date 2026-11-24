@@ -9,6 +9,8 @@ import { Header } from "@/components/Header";
 import { HelpOnsKaart, HelpOnsStappen } from "@/components/HelpOnsStappen";
 import { VerderWaarJeWas } from "@/components/VerderWaarJeWas";
 import { getSessionProfile } from "@/lib/auth";
+import { actieLoopt } from "@/lib/prijs";
+import { BlackFridayBanner } from "@/components/BlackFridayBanner";
 import { nieuwTekst } from "@/inhoud/nieuw";
 import { createClient } from "@/lib/supabase/server";
 import { NIVEAUS, STARTKNOPPEN, vindNiveau } from "@/lib/niveaus";
@@ -99,6 +101,10 @@ export default async function HomePage() {
       <Header naam={session?.profile?.full_name} rol={session?.profile?.role} />
       <main className="mx-auto w-full max-w-4xl flex-1 px-6 py-10">
         {bericht && <BerichtBalk bericht={bericht} />}
+        {/* Black Friday (Kim, 24 november 2026): tot en met vrijdag 27 november
+            nog de oude prijs. Vanaf zaterdag verdwijnt dit blokje vanzelf,
+            zie lib/prijs.ts. */}
+        {actieLoopt() && <BlackFridayBanner ingelogd={!!session} />}
         <MeldingAntwoorden meldingen={meldingen} />
         {/* Bovenaan, zodat wie vanuit de mail komt de enquête niet hoeft te
             zoeken (Kim, 6 november 2026). */}

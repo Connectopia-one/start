@@ -9,6 +9,16 @@ import {
 import { oefenplatform } from "@/content/oefenplatform";
 import { site } from "@/content/site";
 
+/* Elke tien minuten opnieuw opbouwen, zodat de prijs op zaterdag 28 november
+   vanzelf naar €50 springt (zie actieLoopt hieronder). */
+export const revalidate = 600;
+
+/* Loopt de Black Friday-prijs nog? Tot en met de laatste dag, Belgische tijd. */
+function actieLoopt() {
+  const vandaag = new Intl.DateTimeFormat("sv-SE", { timeZone: "Europe/Brussels" }).format(new Date());
+  return vandaag <= oefenplatform.actieLaatsteDag;
+}
+
 export const metadata: Metadata = {
   title: oefenplatform.titel,
   description: oefenplatform.tekst,
@@ -22,6 +32,7 @@ const knopTweede =
   "inline-block rounded-full border-2 border-green px-6 py-3 text-[16px] font-extrabold text-green transition hover:-translate-y-0.5 hover:bg-sage-soft";
 
 export default function OefenplatformPagina() {
+  const actie = actieLoopt();
   return (
     <>
       <PaginaKop
@@ -36,14 +47,19 @@ export default function OefenplatformPagina() {
       <Sectie className="py-6">
         <div className="rounded-[20px] bg-sage-soft px-6 py-6">
           <p className="text-3xl font-extrabold text-green">
-            €{oefenplatform.prijsNu}
+            {actie && (
+              <span className="mr-2 align-middle text-xl font-normal text-ink-dim line-through">
+                €{oefenplatform.prijsStraks}
+              </span>
+            )}
+            €{actie ? oefenplatform.prijsActie : oefenplatform.prijsStraks}
             <span className="text-base font-normal text-ink-dim">
               {" "}
               per schooljaar, voor het hele gezin
             </span>
           </p>
           <p className="mt-3 max-w-[68ch] text-[16px] text-ink">
-            {oefenplatform.prijsUitleg}
+            {actie ? oefenplatform.prijsUitlegActie : oefenplatform.prijsUitleg}
           </p>
           <div className="mt-5 flex flex-wrap gap-3">
             <NaarLink

@@ -9,9 +9,10 @@
   wat het is, dan pas inloggen of starten.
 
   Wat kan je hier aanpassen zonder code?
-    prijsNu / prijsStraks   de bedragen. LET OP: die moeten gelijk zijn aan
-                            oefenplatform/lib/prijs.ts, want dat bestand bepaalt
-                            wat er écht afgerekend wordt. Pas allebei aan.
+    prijsActie / prijsStraks / actieLaatsteDag   de bedragen en de laatste
+                            dag aan de oude prijs. LET OP: die moeten gelijk zijn
+                            aan oefenplatform/lib/prijs.ts, want dat bestand
+                            bepaalt wat er écht afgerekend wordt. Pas allebei aan.
     niveaus                 de acht categorieën en wat erin zit
     hoortErbij              wat er bij elk hoofdstuk hoort
     extras                  de dingen naast de leerstof
@@ -27,13 +28,21 @@ export const oefenplatform = {
     "Interactieve oefeningen van het 5de leerjaar tot het 6de middelbaar, met bij elk hoofdstuk een leerbundel met de theorie en een oefenbundel om af te drukken. Je kind kiest zelf waar het begint, en je ziet per kind wat het al maakte.",
 
   /*
-    De prijs. Houd deze twee getallen gelijk aan PRIJS_NU_EUR en
-    PRIJS_STRAKS_EUR in oefenplatform/lib/prijs.ts.
+    De prijs. Houd deze getallen gelijk aan PRIJS_ACTIE_EUR, PRIJS_STRAKS_EUR
+    en ACTIE_LAATSTE_DAG in oefenplatform/lib/prijs.ts.
+
+    Black Friday (Kim, 24 november 2026): tot en met vrijdag 27 november nog
+    €20, vanaf zaterdag 28 november vanzelf €50. De pagina kijkt elke tien
+    minuten opnieuw naar de datum (Belgische tijd), dus er hoeft op zaterdag
+    niets aangepast te worden.
   */
-  prijsNu: 20,
+  prijsActie: 20,
   prijsStraks: 50,
+  actieLaatsteDag: "2026-11-27",
+  prijsUitlegActie:
+    "Black Friday: nog tot vrijdag 27 november om 24u betaal je €20 voor een volledig schooljaar, voor het hele gezin, niet per kind. Vanaf zaterdag 28 november wordt dat €50. Wie nu betaalt, heeft toegang tot het einde van dit schooljaar.",
   prijsUitleg:
-    "Zolang het platform nog volop in opbouw is, kost een heel schooljaar €20 in plaats van €50. Dat is voor het hele gezin, niet per kind. Met die bijdrage kunnen we blijven verder ontwikkelen. Zodra het platform volledig is, wordt het €50 per schooljaar per gezin.",
+    "Dat is voor het hele gezin, niet per kind, voor een volledig schooljaar. Met die bijdrage houden we het platform up-to-date en bouwen we verder.",
 
   /* De twee knoppen bovenaan. */
   startKnop: {
