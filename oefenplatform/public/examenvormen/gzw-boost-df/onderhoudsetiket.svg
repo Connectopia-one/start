@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Een onderhoudsetiket</text>
+<rect x="60" y="120" width="880" height="260" rx="18" fill="white" stroke="#24331b" stroke-width="3"/>
+<path d="M 90 200 L 110 300 L 230 300 L 250 200" fill="none" stroke="#24331b" stroke-width="5"/>
+<path d="M 90 200 Q 130 180 170 200 Q 210 220 250 200" fill="none" stroke="#24331b" stroke-width="5"/>
+<text x="170" y="272" font-size="40" text-anchor="middle" fill="#24331b" font-weight="bold">40</text>
+<path d="M 370 180 L 440 300 L 300 300 Z" fill="none" stroke="#24331b" stroke-width="5"/>
+<line x1="300" y1="180" x2="440" y2="310" stroke="#24331b" stroke-width="5"/>
+<line x1="440" y1="180" x2="300" y2="310" stroke="#24331b" stroke-width="5"/>
+<rect x="500" y="180" width="120" height="120" rx="0" fill="none" stroke="#24331b" stroke-width="5"/>
+<circle cx="560" cy="240" r="45" fill="none" stroke="#24331b" stroke-width="5"/>
+<path d="M 680 300 L 820 300 L 820 230 Q 820 190 770 190 L 720 190 Q 690 230 680 300 Z" fill="none" stroke="#24331b" stroke-width="5"/>
+<path d="M 730 190 L 735 160 L 805 160 L 810 190" fill="none" stroke="#24331b" stroke-width="5"/>
+<circle cx="760" cy="255" r="8" fill="#24331b" stroke="#24331b" stroke-width="1"/>
+<circle cx="880" cy="240" r="40" fill="none" stroke="#24331b" stroke-width="5"/>
+<circle cx="170" cy="430" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="170" y="437" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<circle cx="370" cy="430" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="370" y="437" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<circle cx="560" cy="430" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="560" y="437" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<circle cx="750" cy="430" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="750" y="437" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">D</text>
+<circle cx="880" cy="430" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="880" y="437" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">E</text>
+</svg>

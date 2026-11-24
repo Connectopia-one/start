@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Schema van de hersenen en het ruggenmerg</text>
+<ellipse cx="470" cy="230" rx="300" ry="185" fill="#f6d6d0" stroke="#24331b" stroke-width="3"/>
+<path d="M 300 260 Q 470 190 640 260" fill="none" stroke="#b07a70" stroke-width="14"/>
+<ellipse cx="650" cy="420" rx="120" ry="70" fill="#e8c0b8" stroke="#24331b" stroke-width="3"/>
+<rect x="470" y="360" width="70" height="150" rx="12" fill="#dca89e" stroke="#24331b" stroke-width="3"/>
+<rect x="482" y="505" width="46" height="90" rx="8" fill="#f0e0b0" stroke="#24331b" stroke-width="3"/>
+<line x1="528" y1="560" x2="700" y2="590" stroke="#c0763a" stroke-width="5"/>
+<circle cx="250" cy="120" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="250" y="127" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<circle cx="190" cy="320" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="190" y="327" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<circle cx="850" cy="430" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="850" y="437" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<circle cx="330" cy="430" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="330" y="437" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">D</text>
+<circle cx="330" cy="560" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="330" y="567" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">E</text>
+<circle cx="820" cy="590" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="820" y="597" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">F</text>
+<line x1="212" y1="320" x2="320" y2="255" stroke="#24331b" stroke-width="1"/>
+<line x1="828" y1="430" x2="770" y2="425" stroke="#24331b" stroke-width="1"/>
+<line x1="352" y1="430" x2="470" y2="430" stroke="#24331b" stroke-width="1"/>
+<line x1="352" y1="560" x2="482" y2="560" stroke="#24331b" stroke-width="1"/>
+<line x1="798" y1="590" x2="690" y2="588" stroke="#24331b" stroke-width="1"/>
+</svg>

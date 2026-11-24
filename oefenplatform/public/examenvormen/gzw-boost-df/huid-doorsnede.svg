@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Doorsnede van de huid</text>
+<rect x="150" y="120" width="700" height="70" rx="0" fill="#f3d9c4" stroke="#24331b" stroke-width="2"/>
+<rect x="150" y="190" width="700" height="200" rx="0" fill="#eab9a0" stroke="#24331b" stroke-width="2"/>
+<rect x="150" y="390" width="700" height="150" rx="0" fill="#fbeec0" stroke="#24331b" stroke-width="2"/>
+<circle cx="190" cy="430" r="22" fill="#fff6d8" stroke="#d8c27a" stroke-width="1"/>
+<circle cx="210" cy="490" r="22" fill="#fff6d8" stroke="#d8c27a" stroke-width="1"/>
+<circle cx="260" cy="430" r="22" fill="#fff6d8" stroke="#d8c27a" stroke-width="1"/>
+<circle cx="280" cy="490" r="22" fill="#fff6d8" stroke="#d8c27a" stroke-width="1"/>
+<circle cx="330" cy="430" r="22" fill="#fff6d8" stroke="#d8c27a" stroke-width="1"/>
+<circle cx="350" cy="490" r="22" fill="#fff6d8" stroke="#d8c27a" stroke-width="1"/>
+<circle cx="400" cy="430" r="22" fill="#fff6d8" stroke="#d8c27a" stroke-width="1"/>
+<circle cx="420" cy="490" r="22" fill="#fff6d8" stroke="#d8c27a" stroke-width="1"/>
+<circle cx="470" cy="430" r="22" fill="#fff6d8" stroke="#d8c27a" stroke-width="1"/>
+<circle cx="490" cy="490" r="22" fill="#fff6d8" stroke="#d8c27a" stroke-width="1"/>
+<circle cx="540" cy="430" r="22" fill="#fff6d8" stroke="#d8c27a" stroke-width="1"/>
+<circle cx="560" cy="490" r="22" fill="#fff6d8" stroke="#d8c27a" stroke-width="1"/>
+<circle cx="610" cy="430" r="22" fill="#fff6d8" stroke="#d8c27a" stroke-width="1"/>
+<circle cx="630" cy="490" r="22" fill="#fff6d8" stroke="#d8c27a" stroke-width="1"/>
+<circle cx="680" cy="430" r="22" fill="#fff6d8" stroke="#d8c27a" stroke-width="1"/>
+<circle cx="700" cy="490" r="22" fill="#fff6d8" stroke="#d8c27a" stroke-width="1"/>
+<circle cx="750" cy="430" r="22" fill="#fff6d8" stroke="#d8c27a" stroke-width="1"/>
+<circle cx="770" cy="490" r="22" fill="#fff6d8" stroke="#d8c27a" stroke-width="1"/>
+<line x1="330" y1="60" x2="330" y2="330" stroke="#4a3a2a" stroke-width="5"/>
+<ellipse cx="330" cy="320" rx="22" ry="40" fill="#d79a7e" stroke="#24331b" stroke-width="2"/>
+<path d="M 560 120 L 560 300 Q 560 330 585 330 Q 610 330 600 300 Q 590 280 610 290" fill="none" stroke="#3b6fa0" stroke-width="4"/>
+<circle cx="600" cy="320" r="26" fill="#cfe3f5" stroke="#3b6fa0" stroke-width="3"/>
+<path d="M 150 360 Q 400 330 500 365 T 850 350" fill="none" stroke="#b03a2e" stroke-width="6"/>
+<circle cx="730" cy="230" r="16" fill="#e8c547" stroke="#24331b" stroke-width="2"/>
+<line x1="730" y1="246" x2="730" y2="380" stroke="#e8c547" stroke-width="4"/>
+<circle cx="900" cy="155" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="900" y="162" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<circle cx="900" cy="290" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="900" y="297" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<circle cx="900" cy="465" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="900" y="472" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<circle cx="250" cy="80" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="250" y="87" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">D</text>
+<circle cx="660" cy="320" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="660" y="327" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">E</text>
+<circle cx="770" cy="210" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="770" y="217" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">F</text>
+<line x1="272" y1="80" x2="325" y2="80" stroke="#24331b" stroke-width="1"/>
+<line x1="640" y1="320" x2="628" y2="320" stroke="#24331b" stroke-width="1"/>
+<line x1="752" y1="214" x2="744" y2="222" stroke="#24331b" stroke-width="1"/>
+</svg>

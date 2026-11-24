@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Vijf veiligheidstekens</text>
+<circle cx="120" cy="260" r="75" fill="white" stroke="#d22" stroke-width="14"/>
+<line x1="68" y1="208" x2="172" y2="312" stroke="#d22" stroke-width="14"/>
+<circle cx="310" cy="260" r="75" fill="#1f5fbf" stroke="#1f5fbf" stroke-width="2"/>
+<circle cx="310" cy="260" r="30" fill="white" stroke="white" stroke-width="2"/>
+<path d="M 500 180 L 585 330 L 415 330 Z" fill="#f7d417" stroke="#24331b" stroke-width="8"/>
+<rect x="615" y="200" width="170" height="120" rx="10" fill="#1f9a45" stroke="#1f9a45" stroke-width="2"/>
+<rect x="680" y="225" width="40" height="70" rx="4" fill="white" stroke="white" stroke-width="2"/>
+<path d="M 890 175 L 975 260 L 890 345 L 805 260 Z" fill="white" stroke="#d22" stroke-width="10"/>
+<circle cx="890" cy="260" r="18" fill="#24331b" stroke="#24331b" stroke-width="2"/>
+<circle cx="120" cy="400" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="120" y="407" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<circle cx="310" cy="400" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="310" y="407" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<circle cx="500" cy="400" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="500" y="407" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<circle cx="700" cy="400" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="700" y="407" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">D</text>
+<circle cx="890" cy="400" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="890" y="407" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">E</text>
+</svg>

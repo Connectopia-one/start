@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">De voedingsdriehoek zonder woorden</text>
+<path d="M 150 80 L 750 80 L 675 200 L 225 200 Z" fill="#bfe3f5" stroke="#24331b" stroke-width="3"/>
+<path d="M 225 200 L 675 200 L 600 320 L 300 320 Z" fill="#bfe6b0" stroke="#24331b" stroke-width="3"/>
+<path d="M 300 320 L 600 320 L 525 440 L 375 440 Z" fill="#f4dfa0" stroke="#24331b" stroke-width="3"/>
+<path d="M 375 440 L 525 440 L 450 560 L 450 560 Z" fill="#f3c3b0" stroke="#24331b" stroke-width="3"/>
+<circle cx="870" cy="470" r="70" fill="#e0e0e0" stroke="#24331b" stroke-width="3"/>
+<circle cx="450" cy="140" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="450" y="147" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<circle cx="450" cy="260" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="450" y="267" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<circle cx="450" cy="380" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="450" y="387" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<circle cx="450" cy="490" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="450" y="497" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">D</text>
+<circle cx="870" cy="470" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="870" y="477" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">E</text>
+</svg>

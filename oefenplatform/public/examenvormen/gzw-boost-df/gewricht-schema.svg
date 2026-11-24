@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Schema van een gewricht</text>
+<rect x="360" y="225" width="280" height="160" rx="0" fill="#fff1a8" stroke="none" stroke-width="0"/>
+<path d="M 352 205 Q 335 305 352 405" fill="none" stroke="#24331b" stroke-width="4"/>
+<path d="M 648 205 Q 665 305 648 405" fill="none" stroke="#24331b" stroke-width="4"/>
+<line x1="325" y1="160" x2="325" y2="460" stroke="#c0763a" stroke-width="10"/>
+<line x1="675" y1="160" x2="675" y2="460" stroke="#c0763a" stroke-width="10"/>
+<path d="M 390 40 L 610 40 L 610 250 Q 500 360 390 250 Z" fill="#f4ecd8" stroke="#24331b" stroke-width="3"/>
+<path d="M 390 600 L 610 600 L 610 305 Q 500 415 390 305 Z" fill="#f4ecd8" stroke="#24331b" stroke-width="3"/>
+<path d="M 396 256 Q 500 352 604 256" fill="none" stroke="#7fb4d8" stroke-width="12"/>
+<path d="M 396 311 Q 500 407 604 311" fill="none" stroke="#7fb4d8" stroke-width="12"/>
+<circle cx="500" cy="140" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="500" y="147" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<circle cx="500" cy="510" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="500" y="517" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<circle cx="800" cy="240" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="800" y="247" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<circle cx="200" cy="300" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="200" y="307" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">D</text>
+<circle cx="800" cy="450" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="800" y="457" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">E</text>
+<circle cx="800" cy="345" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="800" y="352" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">F</text>
+<line x1="778" y1="240" x2="600" y2="262" stroke="#24331b" stroke-width="1"/>
+<line x1="222" y1="300" x2="342" y2="300" stroke="#24331b" stroke-width="1"/>
+<line x1="778" y1="450" x2="681" y2="450" stroke="#24331b" stroke-width="1"/>
+<line x1="778" y1="345" x2="560" y2="330" stroke="#24331b" stroke-width="1"/>
+</svg>

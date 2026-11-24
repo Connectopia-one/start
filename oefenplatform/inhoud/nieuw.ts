@@ -41,6 +41,12 @@ export const nieuwTekst = {
 export const updates: Update[] = [
   {
     datum: "24 november 2026",
+    titel: "Pittige hoofdstukken gezondheid, zorg en welzijn in Boost dubbele finaliteit",
+    tekst:
+      "Gezondheid, zorg en welzijn in Boost dubbele finaliteit heeft nu bij elk van de 16 onderwerpen een pittig hoofdstuk van 30 vragen, in examenvorm: van de zintuigen, spieren en het zenuwstelsel over Gordon, het ICF, eerste hulp en preventie tot voeding, voedselveiligheid, boodschappen, schoonmaken, de leefomgeving en de was. Je klikt op zelfgetekende prenten, zoals een doorsnede van de huid, een koelkast, een gedekte tafel, veiligheidstekens en een onderhoudsetiket.",
+  },
+  {
+    datum: "24 november 2026",
     titel: "Pittige hoofdstukken Frans in Boost dubbele finaliteit",
     tekst:
       "Frans in Boost dubbele finaliteit heeft nu bij elk van de 16 onderwerpen een pittig hoofdstuk van 30 vragen, in examenvorm: van lezen, tekstsoorten, de Franstalige wereld, schrijven en spreken over de woordvelden mens, dagelijks leven, school en werk, en tijd en reizen, tot lidwoorden, voornaamwoorden, bijvoeglijke naamwoorden, de tijden en de zinsbouw. Met korte Franse teksten zoals een bericht van de school, een menu, een advertentie voor vakantiewerk en een stageverslag.",
