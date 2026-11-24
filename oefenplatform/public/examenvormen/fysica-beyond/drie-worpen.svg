@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Drie ballen worden tegelijk horizontaal weggegooid</text>
+<rect x="80" y="120" width="80" height="440" rx="2" fill="#d8d0c0" stroke="#24331b" stroke-width="2"/>
+<circle cx="172" cy="108" r="12" fill="#b5651d" stroke="#24331b" stroke-width="2"/>
+<line x1="186" y1="108" x2="246" y2="108" stroke="#24331b" stroke-width="3"/>
+<polygon points="246,108 231.3,114.2 231.3,101.8" fill="#24331b"/>
+<text x="220" y="90" font-size="18" text-anchor="middle" fill="#24331b" font-weight="bold">10 m/s</text>
+<text x="120" y="590" font-size="18" text-anchor="middle" fill="#24331b">20 m hoog</text>
+<circle cx="50" cy="140" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="50" y="147" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<rect x="380" y="450" width="80" height="110" rx="2" fill="#d8d0c0" stroke="#24331b" stroke-width="2"/>
+<circle cx="472" cy="438" r="12" fill="#b5651d" stroke="#24331b" stroke-width="2"/>
+<line x1="486" y1="438" x2="576" y2="438" stroke="#24331b" stroke-width="3"/>
+<polygon points="576,438 561.3,444.2 561.3,431.8" fill="#24331b"/>
+<text x="535" y="420" font-size="18" text-anchor="middle" fill="#24331b" font-weight="bold">15 m/s</text>
+<text x="420" y="590" font-size="18" text-anchor="middle" fill="#24331b">5 m hoog</text>
+<circle cx="350" cy="470" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="350" y="477" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<rect x="680" y="120" width="80" height="440" rx="2" fill="#d8d0c0" stroke="#24331b" stroke-width="2"/>
+<circle cx="772" cy="108" r="12" fill="#b5651d" stroke="#24331b" stroke-width="2"/>
+<line x1="786" y1="108" x2="816" y2="108" stroke="#24331b" stroke-width="3"/>
+<polygon points="816,108 801.3,114.2 801.3,101.8" fill="#24331b"/>
+<text x="805" y="90" font-size="18" text-anchor="middle" fill="#24331b" font-weight="bold">5 m/s</text>
+<text x="720" y="590" font-size="18" text-anchor="middle" fill="#24331b">20 m hoog</text>
+<circle cx="650" cy="140" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="650" y="147" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<line x1="40" y1="560" x2="980" y2="560" stroke="#24331b" stroke-width="3"/>
+</svg>
