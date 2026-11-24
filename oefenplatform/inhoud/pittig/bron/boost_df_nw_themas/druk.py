@@ -1,0 +1,73 @@
+"""Druk in het dagelijkse leven — pittig (🚀 Boost dubbele finaliteit, natuurwetenschappen).
+
+Pittige vragen van natuurwetenschappen 🚀 Boost doorstroom zonder hydrostatische
+druk, het beginsel van Pascal en de gaswetten, plus eigen vragen over p = F/A,
+manometer, barometer, overdruk en onderdruk."""
+from ..boost_do_nw_themas import druk as N
+from .vormen import J, F, mk, inv, tabel, keuze, volgorde, koppel, sorteer, sleep, open_, casus
+from ._kies import kies
+
+VRAGEN = kies(N.VRAGEN, [7, 8, 9, 11, 13, 21, 23, 24, 25])
+VRAGEN += [
+    casus("Een graafmachine van 200 000 N staat op twee rupsbanden van elk 2,5 m². Een auto van 12 000 N staat op vier banden die elk 0,015 m² raken.", [
+        inv("Hoe groot is de druk van de graafmachine op de grond, in pascal?", ["40000", "40 000", "40000 Pa"],
+            "200 000 / 5,0 = 40 000 Pa."),
+        inv("Hoe groot is de druk van de auto op de weg, in pascal?", ["200000", "200 000", "200000 Pa"],
+            "12 000 / 0,060 = 200 000 Pa."),
+        mk("Wat besluit je?",
+           ["De auto geeft de grootste druk.", "De graafmachine geeft de grootste druk.", "Ze geven allebei precies dezelfde druk.", "Je kan dat zonder massa niet berekenen."], 0,
+           "De brede rupsbanden spreiden de grote kracht over een groot oppervlak."),
+    ]),
+    tabel("Zet om. Klopt dit?",
+          [("1 bar = 100 000 Pa", J), ("1 kPa = 1000 Pa", J), ("1 hPa = 10 Pa", F), ("1013 hPa = 101 300 Pa", J)],
+          "hecto = 100, kilo = 1000, 1 bar = 100 000 Pa."),
+    sorteer("Zit er in dit voorbeeld overdruk of onderdruk?", ["overdruk", "onderdruk"],
+            [("een opgepompte fietsband", "overdruk"), ("een vacuüm verpakte koffie", "onderdruk"), ("een zuignap op een raam", "onderdruk"), ("een snelkookpan op het vuur", "overdruk"), ("een stofzuiger die zuigt", "onderdruk")],
+            "Overdruk ligt boven, onderdruk onder de druk van de omgeving."),
+    koppel("Welk toestel hoort bij welke meting?",
+           [("manometer", "de druk in een fietsband"), ("barometer", "de luchtdruk voor de weersvoorspelling"), ("dynamometer", "de grootte van een kracht"), ("thermometer", "de temperatuur")],
+           ["ampèremeter"], "Elke meter meet zijn eigen grootheid."),
+    mk("Waarom kan je met een rietje drinken?",
+       ["De luchtdruk duwt de drank omhoog.", "Je mond trekt de drank omhoog met een kracht.", "De drank wordt lichter in het rietje.", "Het rietje maakt overdruk in het glas."], 0,
+       "Je zuigt de lucht weg: in het rietje ontstaat onderdruk en de luchtdruk duwt de drank omhoog."),
+    tabel("Klopt dit over de luchtdruk?",
+          [("Op zeeniveau is ze ongeveer 1013 hPa.", J), ("Ze daalt hoger in de bergen.", J), ("Ze is op elke hoogte even groot.", F), ("Je meet ze met een barometer.", J)],
+          "Hoe hoger, hoe minder lucht er boven je zit."),
+    casus("Je fietsband staat in de winter op 3,0 bar overdruk. Op een hete zomerdag laat je de fiets in de zon staan.", [
+        tabel("Klopt dit over de band in de zon?",
+              [("De druk in de band stijgt.", J), ("De deeltjes in de band bewegen sneller.", J), ("Het volume van de band kan zomaar verdubbelen.", F)],
+              "Warmere deeltjes botsen vaker en harder tegen de wand."),
+        mk("Wat raden wielrijders aan voor de zomer?",
+           ["de banden iets minder hard oppompen", "de banden harder oppompen dan in de winter", "de banden met water vullen", "de fiets altijd in de zon zetten"], 0,
+           "De warmte doet de druk nog verder stijgen."),
+    ]),
+    volgorde("Rangschik van kleinste naar grootste druk.",
+             ["500 Pa", "8 hPa", "2 kPa", "0,3 bar"],
+             "In pascal: 500, 800, 2000 en 30 000."),
+    tabel("Waarvan hangt de druk op een oppervlak af?",
+          [("van de grootte van de kracht", J), ("van de grootte van het oppervlak", J), ("van de kleur van het oppervlak", F)],
+          "p = F / A."),
+    sleep("Om de druk te verkleinen, maak je het oppervlak [[groter]] of de kracht [[kleiner]]. Een mes snijdt goed omdat het oppervlak van de snede heel [[klein]] is.",
+          ["kleiner", "groot"], "Kracht en oppervlak bepalen samen de druk."),
+    tabel("Klopt dit over een drukvat?",
+          [("Een veiligheidsklep gaat open als de druk te hoog wordt.", J), ("Een gasfles in de volle zon kan gevaarlijk worden.", J), ("Een gas duwt enkel op de bodem van het vat.", F)],
+          "Een gas duwt in alle richtingen op de wand."),
+    inv("Je duwt met 30 N op een punaise met een punt van 0,000 001 m². Hoe groot is de druk in pascal?", ["30000000", "30 000 000"],
+        "30 / 0,000 001 = 30 000 000 Pa: daarom gaat de punaise zo makkelijk in het hout."),
+    mk("Je rijdt met de auto snel een hoge berg op en je oren voelen raar. Hoe komt dat?",
+       ["Buiten daalt de luchtdruk sneller dan in je oor.", "De motor maakt bergop veel meer lawaai.", "Je oren krijgen bergop veel te veel zuurstof.", "Buiten stijgt de luchtdruk sterk bergop."], 0,
+       "Het drukverschil duwt je trommelvlies naar buiten tot de druk gelijk wordt."),
+    keuze("Een ballon die je in de koelkast legt, wordt [[*kleiner|groter|zwaarder]].",
+          "Trager bewegende deeltjes geven minder druk."),
+    tabel("Welke voorbeelden gebruiken een groot oppervlak om de druk klein te houden?",
+          [("sneeuwschoenen", J), ("brede banden van een tractor", J), ("een scherpe naald", F), ("een breed bed onder een zware kast", J)],
+          "Een groot contactoppervlak spreidt de kracht."),
+    inv("Een kist geeft 3000 Pa op een oppervlak van 0,4 m². Hoe groot is de kracht in newton?", ["1200", "1200 N"],
+        "F = p · A = 3000 · 0,4 = 1200 N."),
+    tabel("Klopt dit over een manometer en een barometer?",
+          [("Een manometer meet de druk in een band of leiding.", J), ("Een barometer meet de luchtdruk buiten.", J), ("Een manometer meet de luchtdruk voor het weerbericht.", F)],
+          "Mano- voor vaten en leidingen, baro- voor de atmosfeer."),
+    tabel("Klopt dit over de druk van een gas volgens het deeltjesmodel?",
+          [("De deeltjes botsen tegen de wand.", J), ("Persen in een kleinere ruimte doet de druk stijgen.", J), ("Een gas duwt enkel naar beneden.", F)],
+          "Botsingen in alle richtingen geven de druk."),
+]

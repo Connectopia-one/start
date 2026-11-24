@@ -41,6 +41,12 @@ export const nieuwTekst = {
 export const updates: Update[] = [
   {
     datum: "24 november 2026",
+    titel: "Pittige hoofdstukken natuurwetenschappen in Boost dubbele finaliteit",
+    tekst:
+      "Natuurwetenschappen in Boost dubbele finaliteit heeft nu bij elk van de 13 onderwerpen een pittig hoofdstuk van 30 vragen, in examenvorm: van feedback en homeostase, micro-organismen en voortplanting over mengsels, reacties en atomen tot energie, warmte, krachten, druk, elektriciteit, veilig werken en onderzoek. Met casussen, rekenvragen en klikvragen op prenten, zoals een schema van de temperatuurregeling.",
+  },
+  {
+    datum: "24 november 2026",
     titel: "Pittige hoofdstukken aardrijkskunde in Boost",
     tekst:
       "Aardrijkskunde in Boost doorstroom en in Boost dubbele finaliteit heeft nu bij elk van de 10 onderwerpen een pittig hoofdstuk van 30 vragen, in examenvorm: van situeren en bevolking over stad en platteland, grondstoffen, landbouw en mondialisering tot duurzaamheid, het broeikaseffect en geografisch onderzoek. Met casussen, rekenvragen en klikvragen op prenten, zoals een gradennet, leeftijdshistogrammen en een digitale kaart.",
