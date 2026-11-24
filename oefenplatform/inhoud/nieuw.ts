@@ -41,6 +41,12 @@ export const nieuwTekst = {
 export const updates: Update[] = [
   {
     datum: "24 november 2026",
+    titel: "Pittige hoofdstukken aardrijkskunde in Beyond dubbele finaliteit",
+    tekst:
+      "Aardrijkskunde in Beyond dubbele finaliteit heeft nu bij elk van de 16 onderwerpen een pittig hoofdstuk van 30 vragen, in examenvorm: van situeren, het heelal en het zonnestelsel over de bewegingen van de aarde, wind, neerslag en klimaat tot de bouw van de aarde, vulkanen, gesteenten, erosie, de klimaatverandering, verstedelijking en het landschap lezen. Bij veel onderwerpen klik je op een tekening, kaart of grafiek.",
+  },
+  {
+    datum: "24 november 2026",
     titel: "Pittige hoofdstukken statistiek in Beyond doorstroom",
     tekst:
       "Statistiek in Beyond doorstroom heeft nu bij elk van de 18 onderwerpen een pittig hoofdstuk van 30 vragen, in examenvorm: telproblemen en combinaties, de binomiale en de normale verdeling, steekproeven, hypothesetoetsen, p-waarden en betrouwbaarheidsintervallen, correlatie en trendlijnen, frequentietabellen, grafieken, centrum- en spreidingsmaten, en rekenen met ICT. Bij veel onderwerpen klik je op een grafiek, zoals een klokcurve, tien betrouwbaarheidsintervallen, vier puntenwolken, twee boxplots of een rekenblad.",
