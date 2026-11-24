@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">De zes faseovergangen tussen vast, vloeibaar en gas</text>
+<rect x="110" y="460" width="180" height="80" rx="14" fill="#f4f7fb" stroke="#24331b" stroke-width="2"/>
+<text x="200" y="508" font-size="24" text-anchor="middle" fill="#24331b" font-weight="bold">vast</text>
+<rect x="710" y="460" width="180" height="80" rx="14" fill="#f4f7fb" stroke="#24331b" stroke-width="2"/>
+<text x="800" y="508" font-size="24" text-anchor="middle" fill="#24331b" font-weight="bold">vloeibaar</text>
+<rect x="410" y="100" width="180" height="80" rx="14" fill="#f4f7fb" stroke="#24331b" stroke-width="2"/>
+<text x="500" y="148" font-size="24" text-anchor="middle" fill="#24331b" font-weight="bold">gas</text>
+<line x1="320.0" y1="518.0" x2="680.0" y2="518.0" stroke="#b5651d" stroke-width="4"/>
+<polygon points="680.0,518.0 665.3,524.2 665.3,511.8" fill="#b5651d"/>
+<circle cx="500.0" cy="550.0" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="500.0" y="557.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<line x1="680.0" y1="482.0" x2="320.0" y2="482.0" stroke="#b5651d" stroke-width="4"/>
+<polygon points="320.0,482.0 334.7,475.8 334.7,488.2" fill="#b5651d"/>
+<circle cx="500.0" cy="450.0" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="500.0" y="457.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<line x1="737.0058550730151" y1="396.2901272543543" x2="590.6501109924903" y2="220.66323435772446" stroke="#b5651d" stroke-width="4"/>
+<polygon points="590.6501109924903,220.66323435772446 604.9,228.0 595.3,236.0" fill="#b5651d"/>
+<circle cx="688.4110639798688" cy="287.99078001677606" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="688.4110639798688" y="294.99078001677606" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<line x1="562.9941449269849" y1="243.70987274564575" x2="709.3498890075097" y2="419.3367656422755" stroke="#b5651d" stroke-width="4"/>
+<polygon points="709.3498890075097,419.3367656422755 695.1,412.0 704.7,404.0" fill="#b5651d"/>
+<circle cx="611.5889360201312" cy="352.009219983224" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="611.5889360201312" y="359.009219983224" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">D</text>
+<line x1="262.99414492698486" y1="396.2901272543543" x2="409.34988900750966" y2="220.66323435772446" stroke="#b5651d" stroke-width="4"/>
+<polygon points="409.34988900750966,220.66323435772446 404.7,236.0 395.1,228.0" fill="#b5651d"/>
+<circle cx="311.58893602013126" cy="287.99078001677606" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="311.58893602013126" y="294.99078001677606" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">E</text>
+<line x1="437.00585507301514" y1="243.70987274564575" x2="290.65011099249034" y2="419.3367656422755" stroke="#b5651d" stroke-width="4"/>
+<polygon points="290.65011099249034,419.3367656422755 295.3,404.0 304.9,412.0" fill="#b5651d"/>
+<circle cx="388.41106397986874" cy="352.009219983224" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="388.41106397986874" y="359.009219983224" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">F</text>
+</svg>

@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Je voegt gelijkmatig warmte toe aan ijs van −20 °C</text>
+<line x1="130.0" y1="90" x2="130.0" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="130.0" y="464.0" font-size="15" text-anchor="middle" fill="#24331b">0</text>
+<line x1="207.0" y1="90" x2="207.0" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="207.0" y="464.0" font-size="15" text-anchor="middle" fill="#24331b">1</text>
+<line x1="284.0" y1="90" x2="284.0" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="284.0" y="464.0" font-size="15" text-anchor="middle" fill="#24331b">2</text>
+<line x1="361.0" y1="90" x2="361.0" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="361.0" y="464.0" font-size="15" text-anchor="middle" fill="#24331b">3</text>
+<line x1="438.0" y1="90" x2="438.0" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="438.0" y="464.0" font-size="15" text-anchor="middle" fill="#24331b">4</text>
+<line x1="515.0" y1="90" x2="515.0" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="515.0" y="464.0" font-size="15" text-anchor="middle" fill="#24331b">5</text>
+<line x1="592.0" y1="90" x2="592.0" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="592.0" y="464.0" font-size="15" text-anchor="middle" fill="#24331b">6</text>
+<line x1="669.0" y1="90" x2="669.0" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="669.0" y="464.0" font-size="15" text-anchor="middle" fill="#24331b">7</text>
+<line x1="746.0" y1="90" x2="746.0" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="746.0" y="464.0" font-size="15" text-anchor="middle" fill="#24331b">8</text>
+<line x1="823.0" y1="90" x2="823.0" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="823.0" y="464.0" font-size="15" text-anchor="middle" fill="#24331b">9</text>
+<line x1="900.0" y1="90" x2="900.0" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="900.0" y="464.0" font-size="15" text-anchor="middle" fill="#24331b">10</text>
+<line x1="130" y1="540.0" x2="900" y2="540.0" stroke="#e4e1d6" stroke-width="1"/>
+<text x="120" y="545.0" font-size="15" text-anchor="end" fill="#24331b">−40</text>
+<line x1="130" y1="490.0" x2="900" y2="490.0" stroke="#e4e1d6" stroke-width="1"/>
+<text x="120" y="495.0" font-size="15" text-anchor="end" fill="#24331b">−20</text>
+<line x1="130" y1="440.0" x2="900" y2="440.0" stroke="#e4e1d6" stroke-width="1"/>
+<text x="120" y="445.0" font-size="15" text-anchor="end" fill="#24331b">0</text>
+<line x1="130" y1="390.0" x2="900" y2="390.0" stroke="#e4e1d6" stroke-width="1"/>
+<text x="120" y="395.0" font-size="15" text-anchor="end" fill="#24331b">20</text>
+<line x1="130" y1="340.0" x2="900" y2="340.0" stroke="#e4e1d6" stroke-width="1"/>
+<text x="120" y="345.0" font-size="15" text-anchor="end" fill="#24331b">40</text>
+<line x1="130" y1="290.0" x2="900" y2="290.0" stroke="#e4e1d6" stroke-width="1"/>
+<text x="120" y="295.0" font-size="15" text-anchor="end" fill="#24331b">60</text>
+<line x1="130" y1="240.0" x2="900" y2="240.0" stroke="#e4e1d6" stroke-width="1"/>
+<text x="120" y="245.0" font-size="15" text-anchor="end" fill="#24331b">80</text>
+<line x1="130" y1="190.0" x2="900" y2="190.0" stroke="#e4e1d6" stroke-width="1"/>
+<text x="120" y="195.0" font-size="15" text-anchor="end" fill="#24331b">100</text>
+<line x1="130" y1="140.0" x2="900" y2="140.0" stroke="#e4e1d6" stroke-width="1"/>
+<text x="120" y="145.0" font-size="15" text-anchor="end" fill="#24331b">120</text>
+<line x1="130" y1="90.0" x2="900" y2="90.0" stroke="#e4e1d6" stroke-width="1"/>
+<text x="120" y="95.0" font-size="15" text-anchor="end" fill="#24331b">140</text>
+<line x1="130" y1="440.0" x2="910" y2="440.0" stroke="#24331b" stroke-width="2"/>
+<line x1="130" y1="540" x2="130" y2="80" stroke="#24331b" stroke-width="2"/>
+<text x="905" y="430.0" font-size="16" text-anchor="end" fill="#24331b">toegevoegde warmte</text>
+<text x="122" y="70" font-size="16" text-anchor="start" fill="#24331b">θ (°C)</text>
+<path d="M 130.0 490.0 L 191.6 440.0 L 284.0 440.0 L 391.8 190.0 L 807.6 190.0 L 869.2 115.0" fill="none" stroke="#b03a2e" stroke-width="4"/>
+<circle cx="200.8" cy="483.0" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="200.8" y="490.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<circle cx="237.79999999999998" cy="408.0" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="237.79999999999998" y="415.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<circle cx="307.9" cy="309.0" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="307.9" y="316.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<circle cx="599.7" cy="158.0" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="599.7" y="165.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">D</text>
+<circle cx="808.4" cy="146.5" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="808.4" y="153.5" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">E</text>
+</svg>
