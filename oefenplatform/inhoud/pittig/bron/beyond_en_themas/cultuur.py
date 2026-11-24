@@ -29,7 +29,7 @@ VRAGEN = [
                 "The narrator is Tom.",
             ),
             tabel(
-                "Staat dit in de recensie?",
+                "Staat dit in de recensie (over cultuur en politiek)?",
                 [
                     ("Het boek speelt in de jaren 1920.", J),
                     ("Het is het tweede boek van Grace Owen.", F),
@@ -72,7 +72,7 @@ VRAGEN = [
         ],
     ),
     koppel(
-        "Koppel elk Engels woord aan zijn betekenis.",
+        "Koppel elk Engels woord aan zijn betekenis (over cultuur en politiek).",
         [
             ("heritage", "erfgoed"),
             ("a quotation", "een citaat"),
@@ -163,7 +163,7 @@ VRAGEN = [
         "The sixteenth century: de zestiende eeuw.",
     ),
     tabel(
-        "Klopt deze vertaling?",
+        "Klopt deze vertaling (over cultuur en politiek)?",
         [
             ("a bookshop – een boekwinkel", J),
             ("a library – een boekwinkel", F),

@@ -44,7 +44,7 @@ VRAGEN = [
                 "Zin 2 zegt wat voorstanders verwachten, zin 3 zegt dat het niet zo uitdraait.",
             ),
             tabel(
-                "Staat dit in de tekst?",
+                "Staat dit in de tekst (over het lezen)?",
                 [
                     ("De punten van de leerlingen stegen na het verbod.", F),
                     ("Leerlingen praatten meer met elkaar tijdens de pauze.", J),
@@ -161,7 +161,7 @@ VRAGEN = [
         "Might en could laten ruimte; will en een gewone tijd niet.",
     ),
     koppel(
-        "Koppel elk Engels woord aan zijn betekenis.",
+        "Koppel elk Engels woord aan zijn betekenis (over het lezen).",
         [
             ("owing to", "wegens"),
             ("whereas", "terwijl, daarentegen"),

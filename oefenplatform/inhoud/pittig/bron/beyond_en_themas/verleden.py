@@ -158,7 +158,7 @@ VRAGEN = [
         "Spent en forgot zijn onregelmatig; tried en carried krijgen -ied.",
     ),
     tabel(
-        "Is deze zin juist?",
+        "Is deze zin juist (over de verleden tijden)?",
         [
             ("I was born in 2010.", J),
             ("I am born in 2010.", F),

@@ -38,7 +38,7 @@ VRAGEN = [
                 "Data is het meervoud van datum.",
             ),
             tabel(
-                "Staat dit in de tekst?",
+                "Staat dit in de tekst (over wetenschap en taal)?",
                 [
                     ("Het onderzoek gebeurde met een enquête.", J),
                     ("Er deden 2000 jongeren mee.", J),
@@ -64,7 +64,7 @@ VRAGEN = [
         ],
     ),
     koppel(
-        "Koppel elk Engels woord aan zijn betekenis.",
+        "Koppel elk Engels woord aan zijn betekenis (over wetenschap en taal).",
         [
             ("a device", "een toestel"),
             ("a breakthrough", "een doorbraak"),
@@ -200,7 +200,7 @@ VRAGEN = [
         "Vraag, proef, resultaten, besluit.",
     ),
     tabel(
-        "Klopt deze betekenis?",
+        "Klopt deze betekenis (over wetenschap en taal)?",
         [
             ("a sample – een steekproef", J),
             ("a scam – oplichterij", J),

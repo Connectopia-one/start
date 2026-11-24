@@ -23,7 +23,7 @@ VRAGEN = [
         TEKST1,
         [
             tabel(
-                "Staat dit in de advertentie?",
+                "Staat dit in de advertentie (over wonen en vrije tijd)?",
                 [
                     ("De kamer heeft al meubels.", J),
                     ("Elektriciteit en water betaal je apart.", F),
@@ -82,7 +82,7 @@ VRAGEN = [
         ],
     ),
     tabel(
-        "Klopt deze vertaling?",
+        "Klopt deze vertaling (over wonen en vrije tijd)?",
         [
             ("the ground floor – het gelijkvloers", J),
             ("the first floor (Brits) – het gelijkvloers", F),
@@ -179,7 +179,7 @@ VRAGEN = [
         "Cosy betekent knus en gezellig.",
     ),
     tabel(
-        "Klopt deze betekenis?",
+        "Klopt deze betekenis (over wonen en vrije tijd)?",
         [
             ("the referee – de scheidsrechter", J),
             ("to give up running – beginnen met lopen", F),

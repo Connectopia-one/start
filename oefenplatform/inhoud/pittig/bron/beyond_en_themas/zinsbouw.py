@@ -142,7 +142,7 @@ VRAGEN = [
         "Onderwerp, werkwoord, voorwerp; usually voor het werkwoord.",
     ),
     tabel(
-        "Juist of fout?",
+        "Juist of fout (over zinsbouw)?",
         [
             ("He asked me where the station was.", J),
             ("The house was build in 1920.", F),

@@ -78,7 +78,7 @@ VRAGEN = [
         ],
     ),
     koppel(
-        "Koppel elk Engels woord aan zijn vertaling.",
+        "Koppel elk Engels woord aan zijn vertaling (over gezondheid en natuur).",
         [
             ("a side effect", "een bijwerking"),
             ("a prescription", "een voorschrift"),
@@ -101,7 +101,7 @@ VRAGEN = [
         "Fossil fuels raken op; wind, zon en water niet.",
     ),
     tabel(
-        "Klopt deze vertaling?",
+        "Klopt deze vertaling (over gezondheid en natuur)?",
         [
             ("a drought – een overstroming", F),
             ("wildlife – dieren en planten in het wild", J),

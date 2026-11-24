@@ -14,7 +14,7 @@ VRAGEN = [
         TEKST1,
         [
             tabel(
-                "Staat dit in de tekst?",
+                "Staat dit in de tekst (over bijvoeglijke naamwoorden)?",
                 [
                     ("Jack is ouder dan de verteller.", J),
                     ("Jack is groter dan de verteller.", F),

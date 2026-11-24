@@ -140,7 +140,7 @@ VRAGEN = [
         "What betekent hier datgene wat.",
     ),
     tabel(
-        "Is deze zin juist?",
+        "Is deze zin juist (over voornaamwoorden)?",
         [
             ("The book which I lent you is mine.", J),
             ("My father, that is a pilot, travels a lot.", F),

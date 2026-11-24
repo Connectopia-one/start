@@ -28,7 +28,7 @@ VRAGEN = [
                 "Every morning: present simple.",
             ),
             tabel(
-                "Staat dit in de mail?",
+                "Staat dit in de mail (over de tegenwoordige tijden)?",
                 [
                     ("Nora heeft de bibliotheek al bezocht.", F),
                     ("Nora logeert bij een gastgezin.", J),
@@ -102,7 +102,7 @@ VRAGEN = [
         "Last night is een afgesloten tijd: past simple.",
     ),
     tabel(
-        "Juist of fout?",
+        "Juist of fout (over de tegenwoordige tijden)?",
         [
             ("I've known him since we were kids.", J),
             ("She has finished her essay last week.", F),

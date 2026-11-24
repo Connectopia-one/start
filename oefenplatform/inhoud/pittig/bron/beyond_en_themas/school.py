@@ -24,7 +24,7 @@ VRAGEN = [
         TEKST1,
         [
             tabel(
-                "Staat dit in de vacature?",
+                "Staat dit in de vacature (over school, werk en geld)?",
                 [
                     ("Je moet een universitair diploma hebben.", F),
                     ("Je werkt soms ook in het weekend.", J),
@@ -78,7 +78,7 @@ VRAGEN = [
         ],
     ),
     koppel(
-        "Koppel elk Engels woord aan zijn betekenis.",
+        "Koppel elk Engels woord aan zijn betekenis (over school, werk en geld).",
         [
             ("a receipt", "een kasticket"),
             ("a discount", "een korting"),
@@ -101,7 +101,7 @@ VRAGEN = [
         "A term is een trimester, a lecture een hoorcollege.",
     ),
     tabel(
-        "Klopt deze betekenis in het Brits Engels?",
+        "Klopt deze betekenis in het Brits Engels (over school, werk en geld)?",
         [
             ("the pavement – het voetpad", J),
             ("a public school – een gratis overheidsschool", F),
