@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Een grootteschaal van 0,1 nm tot 1 mm</text>
+<rect x="200.0" y="260" width="240.0" height="80" rx="0" fill="#d6ecd2" stroke="none" stroke-width="0"/>
+<text x="320.0" y="245" font-size="18" text-anchor="middle" fill="#2f4a22" font-weight="bold">nanogebied</text>
+<line x1="80" y1="340" x2="920" y2="340" stroke="#24331b" stroke-width="3"/>
+<line x1="80.0" y1="330" x2="80.0" y2="350" stroke="#24331b" stroke-width="2"/>
+<text x="80.0" y="378" font-size="16" text-anchor="middle" fill="#24331b" font-weight="bold">0,1 nm</text>
+<line x1="200.0" y1="330" x2="200.0" y2="350" stroke="#24331b" stroke-width="2"/>
+<text x="200.0" y="378" font-size="16" text-anchor="middle" fill="#24331b" font-weight="bold">1 nm</text>
+<line x1="320.0" y1="330" x2="320.0" y2="350" stroke="#24331b" stroke-width="2"/>
+<text x="320.0" y="378" font-size="16" text-anchor="middle" fill="#24331b" font-weight="bold">10 nm</text>
+<line x1="440.0" y1="330" x2="440.0" y2="350" stroke="#24331b" stroke-width="2"/>
+<text x="440.0" y="378" font-size="16" text-anchor="middle" fill="#24331b" font-weight="bold">100 nm</text>
+<line x1="560.0" y1="330" x2="560.0" y2="350" stroke="#24331b" stroke-width="2"/>
+<text x="560.0" y="378" font-size="16" text-anchor="middle" fill="#24331b" font-weight="bold">1 µm</text>
+<line x1="680.0" y1="330" x2="680.0" y2="350" stroke="#24331b" stroke-width="2"/>
+<text x="680.0" y="378" font-size="16" text-anchor="middle" fill="#24331b" font-weight="bold">10 µm</text>
+<line x1="800.0" y1="330" x2="800.0" y2="350" stroke="#24331b" stroke-width="2"/>
+<text x="800.0" y="378" font-size="16" text-anchor="middle" fill="#24331b" font-weight="bold">100 µm</text>
+<line x1="920.0" y1="330" x2="920.0" y2="350" stroke="#24331b" stroke-width="2"/>
+<text x="920.0" y="378" font-size="16" text-anchor="middle" fill="#24331b" font-weight="bold">1 mm</text>
+<line x1="80.0" y1="190" x2="80.0" y2="330" stroke="#24331b" stroke-width="2"/>
+<polygon points="80.0,330 73.8,315.3 86.2,315.3" fill="#24331b"/>
+<circle cx="80.0" cy="165" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="80.0" y="172" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<line x1="200.0" y1="190" x2="200.0" y2="330" stroke="#24331b" stroke-width="2"/>
+<polygon points="200.0,330 193.8,315.3 206.2,315.3" fill="#24331b"/>
+<circle cx="200.0" cy="165" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="200.0" y="172" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<line x1="440.0" y1="190" x2="440.0" y2="330" stroke="#24331b" stroke-width="2"/>
+<polygon points="440.0,330 433.8,315.3 446.2,315.3" fill="#24331b"/>
+<circle cx="440.0" cy="165" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="440.0" y="172" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<line x1="661.4117648017108" y1="190" x2="661.4117648017108" y2="330" stroke="#24331b" stroke-width="2"/>
+<polygon points="661.4117648017108,330 655.2,315.3 667.6,315.3" fill="#24331b"/>
+<circle cx="661.4117648017108" cy="165" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="661.4117648017108" y="172" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">D</text>
+<line x1="788.3707984390333" y1="190" x2="788.3707984390333" y2="330" stroke="#24331b" stroke-width="2"/>
+<polygon points="788.3707984390333,330 782.1,315.3 794.6,315.3" fill="#24331b"/>
+<circle cx="788.3707984390333" cy="165" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="788.3707984390333" y="172" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">E</text>
+</svg>
