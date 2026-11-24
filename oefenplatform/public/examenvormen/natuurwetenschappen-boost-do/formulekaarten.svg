@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Acht formules</text>
+<rect x="70" y="110" width="190" height="160" rx="16" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="165" y="205" font-size="40" text-anchor="middle" fill="#24331b" font-weight="bold">CaO</text>
+<rect x="295" y="110" width="190" height="160" rx="16" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="390" y="205" font-size="40" text-anchor="middle" fill="#24331b" font-weight="bold">NaOH</text>
+<rect x="520" y="110" width="190" height="160" rx="16" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="615" y="205" font-size="40" text-anchor="middle" fill="#24331b" font-weight="bold">HCl</text>
+<rect x="745" y="110" width="190" height="160" rx="16" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="840" y="205" font-size="40" text-anchor="middle" fill="#24331b" font-weight="bold">NaCl</text>
+<rect x="70" y="330" width="190" height="160" rx="16" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="165" y="425" font-size="40" text-anchor="middle" fill="#24331b" font-weight="bold">H₂SO₄</text>
+<rect x="295" y="330" width="190" height="160" rx="16" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="390" y="425" font-size="40" text-anchor="middle" fill="#24331b" font-weight="bold">CaCO₃</text>
+<rect x="520" y="330" width="190" height="160" rx="16" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="615" y="425" font-size="40" text-anchor="middle" fill="#24331b" font-weight="bold">CO</text>
+<rect x="745" y="330" width="190" height="160" rx="16" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="840" y="425" font-size="40" text-anchor="middle" fill="#24331b" font-weight="bold">NH₄NO₃</text>
+</svg>
