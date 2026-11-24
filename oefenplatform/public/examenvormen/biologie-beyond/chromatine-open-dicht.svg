@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Twee stukken chromatine in dezelfde cel</text>
+<text x="250" y="110" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">stuk X</text>
+<text x="750" y="110" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">stuk Y</text>
+<circle cx="190" cy="220" r="30" fill="#c8a8e0" stroke="#24331b" stroke-width="2"/>
+<circle cx="250" cy="220" r="30" fill="#c8a8e0" stroke="#24331b" stroke-width="2"/>
+<circle cx="310" cy="220" r="30" fill="#c8a8e0" stroke="#24331b" stroke-width="2"/>
+<circle cx="190" cy="295" r="30" fill="#c8a8e0" stroke="#24331b" stroke-width="2"/>
+<circle cx="250" cy="295" r="30" fill="#c8a8e0" stroke="#24331b" stroke-width="2"/>
+<circle cx="310" cy="295" r="30" fill="#c8a8e0" stroke="#24331b" stroke-width="2"/>
+<circle cx="190" cy="370" r="30" fill="#c8a8e0" stroke="#24331b" stroke-width="2"/>
+<circle cx="250" cy="370" r="30" fill="#c8a8e0" stroke="#24331b" stroke-width="2"/>
+<circle cx="310" cy="370" r="30" fill="#c8a8e0" stroke="#24331b" stroke-width="2"/>
+<path d="M150 200 C 260 180 300 260 160 290 C 300 300 300 360 150 370" fill="none" stroke="#3b6fa0" stroke-width="4"/>
+<circle cx="206.72000000000006" cy="198.80000000000004" r="7" fill="#b03a2e" stroke="#24331b" stroke-width="1"/>
+<circle cx="245.95125000000004" cy="220.08125000000004" r="7" fill="#b03a2e" stroke="#24331b" stroke-width="1"/>
+<circle cx="240.37" cy="253.54999999999995" r="7" fill="#b03a2e" stroke="#24331b" stroke-width="1"/>
+<circle cx="190.20031999999998" cy="281.91679999999997" r="7" fill="#b03a2e" stroke="#24331b" stroke-width="1"/>
+<circle cx="227.12000000000006" cy="301.20000000000005" r="7" fill="#b03a2e" stroke="#24331b" stroke-width="1"/>
+<circle cx="263.03875000000005" cy="324.76250000000005" r="7" fill="#b03a2e" stroke="#24331b" stroke-width="1"/>
+<circle cx="244.76999999999998" cy="350.2" r="7" fill="#b03a2e" stroke="#24331b" stroke-width="1"/>
+<circle cx="183.12511999999998" cy="366.6912" r="7" fill="#b03a2e" stroke="#24331b" stroke-width="1"/>
+<path d="M560 300 C 600 220 640 380 700 300 C 760 220 800 380 860 300 C 900 240 930 300 950 280" fill="none" stroke="#3b6fa0" stroke-width="4"/>
+<circle cx="630" cy="300" r="30" fill="#c8a8e0" stroke="#24331b" stroke-width="2"/>
+<line x1="630" y1="270" x2="630" y2="230" stroke="#24331b" stroke-width="2"/>
+<polygon points="630,230 656,238 630,246" fill="#2f4a22" stroke="#24331b"/>
+<circle cx="770" cy="300" r="30" fill="#c8a8e0" stroke="#24331b" stroke-width="2"/>
+<line x1="770" y1="270" x2="770" y2="230" stroke="#24331b" stroke-width="2"/>
+<polygon points="770,230 796,238 770,246" fill="#2f4a22" stroke="#24331b"/>
+<circle cx="900" cy="300" r="30" fill="#c8a8e0" stroke="#24331b" stroke-width="2"/>
+<line x1="900" y1="270" x2="900" y2="230" stroke="#24331b" stroke-width="2"/>
+<polygon points="900,230 926,238 900,246" fill="#2f4a22" stroke="#24331b"/>
+<rect x="120" y="480" width="760" height="90" rx="12" fill="#fbf6ea" stroke="#24331b" stroke-width="1.5"/>
+<circle cx="160" cy="525" r="7" fill="#b03a2e" stroke="#24331b" stroke-width="1"/>
+<text x="180" y="531" font-size="16" text-anchor="start" fill="#24331b">methylgroep op het DNA</text>
+<polygon points="520,515 546,523 520,531" fill="#2f4a22" stroke="#24331b"/>
+<text x="560" y="531" font-size="16" text-anchor="start" fill="#24331b">acetylgroep op een histon</text>
+</svg>
