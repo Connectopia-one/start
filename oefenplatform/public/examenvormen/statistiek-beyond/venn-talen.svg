@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Een klas van 30 leerlingen: wie volgt Spaans, wie Italiaans?</text>
+<rect x="80" y="70" width="840" height="520" rx="8" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="110" y="110" font-size="20" text-anchor="start" fill="#24331b">klas: 30 leerlingen</text>
+<ellipse cx="400" cy="340" rx="220" ry="180" fill="#e2eadb" stroke="#24331b" stroke-width="2"/>
+<ellipse cx="600" cy="340" rx="220" ry="180" fill="#e2eadb" stroke="#24331b" stroke-width="2"/>
+<ellipse cx="400" cy="340" rx="220" ry="180" fill="none" stroke="#24331b" stroke-width="2"/>
+<text x="330" y="150" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Spaans</text>
+<text x="670" y="150" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Italiaans</text>
+<text x="300" y="350" font-size="34" text-anchor="middle" fill="#24331b" font-weight="bold">9</text>
+<text x="500" y="350" font-size="34" text-anchor="middle" fill="#24331b" font-weight="bold">5</text>
+<text x="700" y="350" font-size="34" text-anchor="middle" fill="#24331b" font-weight="bold">7</text>
+<text x="860" y="550" font-size="34" text-anchor="middle" fill="#24331b" font-weight="bold">9</text>
+</svg>
