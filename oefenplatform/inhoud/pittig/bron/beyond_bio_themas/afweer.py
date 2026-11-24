@@ -52,7 +52,7 @@ VRAGEN = [
         "Na het tweede contact: sneller, hoger en langer.",
     ),
     met_prent(IR.bestand, tabel(
-        "Kijk naar de grafiek. Klopt dit?",
+        "Kijk naar de grafiek van de immuunrespons. Klopt dit?",
         [
             ("Na contact 1 duurt het meer dan een week voor de piek komt.", J),
             ("Na contact 2 komen er veel meer antilichamen.", J),
@@ -166,7 +166,7 @@ VRAGEN = [
         "Maar één lymfocyt op miljoenen past op dat ene antigeen.",
     ),
     tabel(
-        "Waar gebeurt het?",
+        "Waar in het lichaam gebeurt dit bij de afweer?",
         [
             ("alle bloedcellen worden aangemaakt", "beenmerg"),
             ("T-lymfocyten rijpen", "thymus"),

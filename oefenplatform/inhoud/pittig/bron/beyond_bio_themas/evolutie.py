@@ -181,7 +181,7 @@ VRAGEN = [
                 "De omgeving bevoordeelt het resistente kenmerk.",
             ),
             tabel(
-                "Klopt dit?",
+                "Klopt dit over de resistente bacteriën?",
                 [
                     ("De allelfrequentie van het resistentie-allel stijgt.", J),
                     ("Bacteriën delen snel, dus gaat dit snel.", J),

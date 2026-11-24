@@ -103,7 +103,7 @@ VRAGEN = [
         "Enkel de glycolyse gebeurt buiten het mitochondrion.",
     ),
     tabel(
-        "Waar gebeurt het?",
+        "Waar in de cel gebeurt dit?",
         [
             ("glycolyse", "cytoplasma"),
             ("Krebscyclus", "matrix"),

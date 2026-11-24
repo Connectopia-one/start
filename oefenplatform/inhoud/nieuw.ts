@@ -41,6 +41,12 @@ export const nieuwTekst = {
 export const updates: Update[] = [
   {
     datum: "24 november 2026",
+    titel: "Pittige hoofdstukken biologie in Beyond doorstroom",
+    tekst:
+      "Biologie in Beyond doorstroom heeft nu bij elk van de 21 onderwerpen een pittig hoofdstuk van 30 vragen, in examenvorm: van de cel, enzymen en fotosynthese over afweer, voortplanting en vruchtbaarheid tot DNA, celdeling, overerving, genexpressie, mutaties, DNA-technologie, evolutie, biomoleculen, veilig werken in het labo en onderzoek. Bij elk onderwerp zijn er tekeningen, stambomen en grafieken waarop je moet klikken.",
+  },
+  {
+    datum: "24 november 2026",
     titel: "Alle bundels nu op een witte achtergrond",
     tekst:
       "De oudste leer- en oefenbundels van Start (Nederlands, Engels, aardrijkskunde, wetenschap en techniek, geschiedenis) en Spark (Nederlands, Frans, geschiedenis) hadden nog een beige achtergrond. Die zijn nu allemaal vervangen door een versie op wit papier. Zo gebruik je veel minder inkt als je ze thuis afdrukt.",

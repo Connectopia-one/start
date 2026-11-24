@@ -42,7 +42,7 @@ VRAGEN = [
         "Bij 30 cm verwacht je ongeveer 19 belletjes, niet 8.",
     ),
     met_prent(GR.bestand, tabel(
-        "Kijk naar de grafiek. Klopt dit?",
+        "Kijk naar de grafiek van de waterpest. Klopt dit?",
         [
             ("De afstand van de lamp is de onafhankelijke variabele.", J),
             ("Het aantal belletjes is de afhankelijke variabele.", J),
