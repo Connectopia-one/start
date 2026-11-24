@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Kansrekenmachine</text>
+<rect x="150" y="70" width="700" height="540" rx="14" fill="#ffffff" stroke="#24331b" stroke-width="3"/>
+<rect x="150" y="70" width="700" height="50" rx="14" fill="#2f4a22" stroke="#24331b" stroke-width="0"/>
+<rect x="150" y="100" width="700" height="20" rx="0" fill="#2f4a22" stroke="none" stroke-width="0"/>
+<text x="180" y="103" font-size="22" text-anchor="start" fill="#ffffff" font-weight="bold">Kansrekenmachine</text>
+<text x="190" y="165" font-size="20" text-anchor="start" fill="#5c6356">Verdeling</text>
+<rect x="330" y="140" width="260" height="40" rx="6" fill="#f4f4f0" stroke="#24331b" stroke-width="2"/>
+<text x="345" y="167" font-size="20" text-anchor="start" fill="#24331b">normaal</text>
+<text x="570" y="167" font-size="20" text-anchor="middle" fill="#24331b">▾</text>
+<text x="190" y="235" font-size="24" text-anchor="start" fill="#24331b" font-weight="bold">μ</text>
+<rect x="230" y="210" width="150" height="40" rx="6" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="245" y="237" font-size="20" text-anchor="start" fill="#24331b">65</text>
+<text x="450" y="235" font-size="24" text-anchor="start" fill="#24331b" font-weight="bold">σ</text>
+<rect x="490" y="210" width="150" height="40" rx="6" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="505" y="237" font-size="20" text-anchor="start" fill="#24331b">10</text>
+<text x="190" y="300" font-size="20" text-anchor="start" fill="#5c6356">Soort kans</text>
+<circle cx="330" cy="330" r="11" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="350" y="337" font-size="20" text-anchor="start" fill="#24331b">P(X &lt; a)</text>
+<circle cx="470" cy="330" r="11" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="490" y="337" font-size="20" text-anchor="start" fill="#24331b">P(a &lt; X &lt; b)</text>
+<circle cx="650" cy="330" r="11" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<circle cx="650" cy="330" r="6" fill="#24331b" stroke="#24331b" stroke-width="1"/>
+<text x="670" y="337" font-size="20" text-anchor="start" fill="#24331b">P(X &gt; a)</text>
+<text x="190" y="405" font-size="24" text-anchor="start" fill="#24331b" font-weight="bold">a</text>
+<rect x="230" y="380" width="150" height="40" rx="6" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="245" y="407" font-size="20" text-anchor="start" fill="#24331b">80</text>
+<text x="450" y="405" font-size="24" text-anchor="start" fill="#5c6356" font-weight="bold">b</text>
+<rect x="490" y="380" width="150" height="40" rx="6" fill="#ecebe6" stroke="#5c6356" stroke-width="2"/>
+<rect x="330" y="460" width="200" height="50" rx="10" fill="#5f7f4a" stroke="#24331b" stroke-width="2"/>
+<text x="430" y="493" font-size="22" text-anchor="middle" fill="#ffffff" font-weight="bold">Bereken</text>
+<text x="190" y="568" font-size="20" text-anchor="start" fill="#5c6356">Resultaat</text>
+<rect x="330" y="540" width="200" height="44" rx="6" fill="#f4f4f0" stroke="#24331b" stroke-width="2"/>
+<text x="345" y="569" font-size="22" text-anchor="start" fill="#24331b" font-weight="bold">0,0668</text>
+</svg>
