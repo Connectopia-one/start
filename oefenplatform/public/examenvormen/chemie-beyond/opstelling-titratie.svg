@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Opstelling voor een titratie</text>
+<rect x="180" y="560" width="260" height="20" rx="4" fill="#d9d4c4" stroke="#24331b" stroke-width="2"/>
+<rect x="200" y="70" width="14" height="490" rx="4" fill="#d9d4c4" stroke="#24331b" stroke-width="2"/>
+<rect x="214" y="160" width="236" height="12" rx="3" fill="#d9d4c4" stroke="#24331b" stroke-width="2"/>
+<rect x="450" y="80" width="36" height="330" rx="6" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<rect x="452" y="150" width="32" height="258" rx="0" fill="#dcebf7" stroke="none" stroke-width="0"/>
+<line x1="450" y1="100" x2="466" y2="100" stroke="#24331b" stroke-width="1"/>
+<line x1="450" y1="125" x2="466" y2="125" stroke="#24331b" stroke-width="1"/>
+<line x1="450" y1="150" x2="466" y2="150" stroke="#24331b" stroke-width="1"/>
+<line x1="450" y1="175" x2="466" y2="175" stroke="#24331b" stroke-width="1"/>
+<line x1="450" y1="200" x2="466" y2="200" stroke="#24331b" stroke-width="1"/>
+<line x1="450" y1="225" x2="466" y2="225" stroke="#24331b" stroke-width="1"/>
+<line x1="450" y1="250" x2="466" y2="250" stroke="#24331b" stroke-width="1"/>
+<line x1="450" y1="275" x2="466" y2="275" stroke="#24331b" stroke-width="1"/>
+<line x1="450" y1="300" x2="466" y2="300" stroke="#24331b" stroke-width="1"/>
+<line x1="450" y1="325" x2="466" y2="325" stroke="#24331b" stroke-width="1"/>
+<line x1="450" y1="350" x2="466" y2="350" stroke="#24331b" stroke-width="1"/>
+<line x1="450" y1="375" x2="466" y2="375" stroke="#24331b" stroke-width="1"/>
+<path d="M 452 150 Q 468 162 484 150" fill="none" stroke="#24331b" stroke-width="2"/>
+<path d="M 450 410 L 462 450 L 474 450 L 486 410 Z" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<rect x="440" y="425" width="56" height="12" rx="3" fill="#7aa35c" stroke="#24331b" stroke-width="2"/>
+<line x1="468" y1="450" x2="468" y2="480" stroke="#24331b" stroke-width="2"/>
+<path d="M 440 480 L 440 500 L 380 560 L 556 560 L 496 500 L 496 480 Z" fill="#f3c6d0" stroke="#24331b" stroke-width="3"/>
+<circle cx="560" cy="280" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="560" y="287" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<circle cx="560" cy="155" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="560" y="162" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<circle cx="560" cy="430" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="560" y="437" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<circle cx="620" cy="535" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="620" y="542" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">D</text>
+<line x1="538" y1="280" x2="488" y2="280" stroke="#d9d4c4" stroke-width="1"/>
+<line x1="538" y1="155" x2="486" y2="155" stroke="#d9d4c4" stroke-width="1"/>
+<line x1="538" y1="430" x2="498" y2="430" stroke="#d9d4c4" stroke-width="1"/>
+<line x1="598" y1="535" x2="530" y2="535" stroke="#d9d4c4" stroke-width="1"/>
+</svg>
