@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Opvoedingsstijlen volgens twee dimensies</text>
+<rect x="260" y="80" width="440" height="440" rx="0" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<line x1="480" y1="80" x2="480" y2="520" stroke="#24331b" stroke-width="2"/>
+<line x1="260" y1="300" x2="700" y2="300" stroke="#24331b" stroke-width="2"/>
+<line x1="260" y1="550" x2="720" y2="550" stroke="#24331b" stroke-width="3"/>
+<polygon points="720,550 705.3,556.2 705.3,543.8" fill="#24331b"/>
+<text x="480" y="585" font-size="20" text-anchor="middle" fill="#24331b">responsiviteit: weinig → veel</text>
+<line x1="230" y1="520" x2="230" y2="70" stroke="#24331b" stroke-width="3"/>
+<polygon points="230,70 236.2,84.7 223.8,84.7" fill="#24331b"/>
+<text x="210" y="300" font-size="20" text-anchor="end" fill="#24331b">controle</text>
+<text x="215" y="95" font-size="18" text-anchor="end" fill="#24331b">veel</text>
+<text x="215" y="520" font-size="18" text-anchor="end" fill="#24331b">weinig</text>
+<circle cx="370" cy="190" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="370" y="197" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<circle cx="590" cy="190" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="590" y="197" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<circle cx="370" cy="410" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="370" y="417" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<circle cx="590" cy="410" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="590" y="417" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">D</text>
+</svg>
