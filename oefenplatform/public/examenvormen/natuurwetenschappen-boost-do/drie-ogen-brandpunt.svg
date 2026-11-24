@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Waar komen de lichtstralen van ver samen?</text>
+<circle cx="200" cy="300" r="110" fill="#ffffff" stroke="#24331b" stroke-width="3"/>
+<path d="M100 250 Q 70 300 100 350" fill="#e6f0f6" stroke="#3b6fa0" stroke-width="3"/>
+<ellipse cx="125" cy="300" rx="14" ry="40" fill="#f7f0c8" stroke="#24331b" stroke-width="2"/>
+<line x1="20" y1="262" x2="125" y2="262" stroke="#e8c547" stroke-width="2"/>
+<line x1="125" y1="262" x2="265" y2="300" stroke="#b5651d" stroke-width="2"/>
+<line x1="20" y1="300" x2="125" y2="300" stroke="#b5651d" stroke-width="2"/>
+<line x1="125" y1="300" x2="265" y2="300" stroke="#b5651d" stroke-width="2"/>
+<line x1="20" y1="338" x2="125" y2="338" stroke="#e8c547" stroke-width="2"/>
+<line x1="125" y1="338" x2="265" y2="300" stroke="#b5651d" stroke-width="2"/>
+<path d="M277 222 A 110 110 0 0 1 277 378" fill="none" stroke="#b03a2e" stroke-width="5"/>
+<circle cx="200" cy="460" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="200" y="467" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<circle cx="500" cy="300" r="110" fill="#ffffff" stroke="#24331b" stroke-width="3"/>
+<path d="M400 250 Q 370 300 400 350" fill="#e6f0f6" stroke="#3b6fa0" stroke-width="3"/>
+<ellipse cx="425" cy="300" rx="14" ry="40" fill="#f7f0c8" stroke="#24331b" stroke-width="2"/>
+<line x1="320" y1="262" x2="425" y2="262" stroke="#e8c547" stroke-width="2"/>
+<line x1="425" y1="262" x2="610" y2="300" stroke="#b5651d" stroke-width="2"/>
+<line x1="320" y1="300" x2="425" y2="300" stroke="#b5651d" stroke-width="2"/>
+<line x1="425" y1="300" x2="610" y2="300" stroke="#b5651d" stroke-width="2"/>
+<line x1="320" y1="338" x2="425" y2="338" stroke="#e8c547" stroke-width="2"/>
+<line x1="425" y1="338" x2="610" y2="300" stroke="#b5651d" stroke-width="2"/>
+<path d="M577 222 A 110 110 0 0 1 577 378" fill="none" stroke="#b03a2e" stroke-width="5"/>
+<circle cx="500" cy="460" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="500" y="467" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<circle cx="800" cy="300" r="110" fill="#ffffff" stroke="#24331b" stroke-width="3"/>
+<path d="M700 250 Q 670 300 700 350" fill="#e6f0f6" stroke="#3b6fa0" stroke-width="3"/>
+<ellipse cx="725" cy="300" rx="14" ry="40" fill="#f7f0c8" stroke="#24331b" stroke-width="2"/>
+<line x1="620" y1="262" x2="725" y2="262" stroke="#e8c547" stroke-width="2"/>
+<line x1="725" y1="262" x2="955" y2="300" stroke="#b5651d" stroke-width="2"/>
+<line x1="620" y1="300" x2="725" y2="300" stroke="#b5651d" stroke-width="2"/>
+<line x1="725" y1="300" x2="955" y2="300" stroke="#b5651d" stroke-width="2"/>
+<line x1="620" y1="338" x2="725" y2="338" stroke="#e8c547" stroke-width="2"/>
+<line x1="725" y1="338" x2="955" y2="300" stroke="#b5651d" stroke-width="2"/>
+<path d="M877 222 A 110 110 0 0 1 877 378" fill="none" stroke="#b03a2e" stroke-width="5"/>
+<circle cx="800" cy="460" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="800" y="467" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+</svg>
