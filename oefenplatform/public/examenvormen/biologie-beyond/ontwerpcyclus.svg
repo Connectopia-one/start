@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">De cyclus van het ontwerpen</text>
+<line x1="568.7664445218705" y1="156.45033635316128" x2="621.4448587371602" y2="241.74626477184927" stroke="#24331b" stroke-width="2"/>
+<polygon points="621.4448587371602,241.74626477184927 608.4,232.5 619.0,225.9" fill="#24331b"/>
+<line x1="663.9448587371602" y1="310.99414435829243" x2="643.8234949803651" y2="449.0058556417076" stroke="#24331b" stroke-width="2"/>
+<polygon points="643.8234949803651,449.0058556417076 639.8,433.5 652.1,435.3" fill="#24331b"/>
+<line x1="532.5570504584946" y1="491.8033988749895" x2="467.4429495415054" y2="491.8033988749895" stroke="#24331b" stroke-width="2"/>
+<polygon points="467.4429495415054,491.8033988749895 482.2,485.6 482.2,498.0" fill="#24331b"/>
+<line x1="356.1765050196349" y1="449.0058556417076" x2="336.0551412628398" y2="310.99414435829243" stroke="#24331b" stroke-width="2"/>
+<polygon points="336.0551412628398,310.99414435829243 344.3,324.7 332.0,326.5" fill="#24331b"/>
+<line x1="378.5551412628398" y1="294.6469374781718" x2="548.790605936624" y2="465.35306252182824" stroke="#24331b" stroke-width="2"/>
+<polygon points="548.790605936624,465.35306252182824 534.0,459.3 542.8,450.5" fill="#24331b"/>
+<rect x="420.0" y="100.0" width="160" height="60" rx="12" fill="#fbf6ea" stroke="#24331b" stroke-width="2"/>
+<text x="500.0" y="136.0" font-size="16" text-anchor="middle" fill="#24331b" font-weight="bold">probleem en eisen</text>
+<circle cx="400.0" cy="92.0" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="400.0" y="99.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<rect x="610.2113032590307" y="238.19660112501055" width="160" height="60" rx="12" fill="#fbf6ea" stroke="#24331b" stroke-width="2"/>
+<text x="690.2113032590307" y="274.19660112501055" font-size="16" text-anchor="middle" fill="#24331b" font-weight="bold">ideeën bedenken</text>
+<circle cx="590.2113032590307" cy="230.19660112501055" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="590.2113032590307" y="237.19660112501055" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<rect x="537.5570504584946" y="461.8033988749895" width="160" height="60" rx="12" fill="#fbf6ea" stroke="#24331b" stroke-width="2"/>
+<text x="617.5570504584946" y="497.8033988749895" font-size="16" text-anchor="middle" fill="#24331b" font-weight="bold">prototype bouwen</text>
+<circle cx="517.5570504584946" cy="453.8033988749895" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="517.5570504584946" y="460.8033988749895" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<rect x="302.4429495415054" y="461.8033988749895" width="160" height="60" rx="12" fill="#fbf6ea" stroke="#24331b" stroke-width="2"/>
+<text x="382.4429495415054" y="497.8033988749895" font-size="16" text-anchor="middle" fill="#24331b" font-weight="bold">testen</text>
+<circle cx="282.4429495415054" cy="453.8033988749895" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="282.4429495415054" y="460.8033988749895" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">D</text>
+<rect x="229.78869674096927" y="238.19660112501055" width="160" height="60" rx="12" fill="#fbf6ea" stroke="#24331b" stroke-width="2"/>
+<text x="309.78869674096927" y="274.19660112501055" font-size="16" text-anchor="middle" fill="#24331b" font-weight="bold">bijsturen</text>
+<circle cx="209.78869674096927" cy="230.19660112501055" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="209.78869674096927" y="237.19660112501055" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">E</text>
+</svg>

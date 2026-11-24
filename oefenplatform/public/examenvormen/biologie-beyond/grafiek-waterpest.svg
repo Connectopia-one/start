@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Zuurstofbelletjes van waterpest bij verschillende lampafstanden</text>
+<line x1="110.0" y1="110" x2="110.0" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="110.0" y="564" font-size="15" text-anchor="middle" fill="#24331b">0</text>
+<line x1="246.66666666666666" y1="110" x2="246.66666666666666" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="246.66666666666666" y="564" font-size="15" text-anchor="middle" fill="#24331b">10</text>
+<line x1="383.3333333333333" y1="110" x2="383.3333333333333" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="383.3333333333333" y="564" font-size="15" text-anchor="middle" fill="#24331b">20</text>
+<line x1="520.0" y1="110" x2="520.0" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="520.0" y="564" font-size="15" text-anchor="middle" fill="#24331b">30</text>
+<line x1="656.6666666666666" y1="110" x2="656.6666666666666" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="656.6666666666666" y="564" font-size="15" text-anchor="middle" fill="#24331b">40</text>
+<line x1="793.3333333333334" y1="110" x2="793.3333333333334" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="793.3333333333334" y="564" font-size="15" text-anchor="middle" fill="#24331b">50</text>
+<line x1="930.0" y1="110" x2="930.0" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="930.0" y="564" font-size="15" text-anchor="middle" fill="#24331b">60</text>
+<line x1="110" y1="540.0" x2="930" y2="540.0" stroke="#e4e1d6" stroke-width="1"/>
+<text x="100" y="545.0" font-size="15" text-anchor="end" fill="#24331b">0</text>
+<line x1="110" y1="432.5" x2="930" y2="432.5" stroke="#e4e1d6" stroke-width="1"/>
+<text x="100" y="437.5" font-size="15" text-anchor="end" fill="#24331b">10</text>
+<line x1="110" y1="325.0" x2="930" y2="325.0" stroke="#e4e1d6" stroke-width="1"/>
+<text x="100" y="330.0" font-size="15" text-anchor="end" fill="#24331b">20</text>
+<line x1="110" y1="217.5" x2="930" y2="217.5" stroke="#e4e1d6" stroke-width="1"/>
+<text x="100" y="222.5" font-size="15" text-anchor="end" fill="#24331b">30</text>
+<line x1="110" y1="110.0" x2="930" y2="110.0" stroke="#e4e1d6" stroke-width="1"/>
+<text x="100" y="115.0" font-size="15" text-anchor="end" fill="#24331b">40</text>
+<line x1="110" y1="540.0" x2="940" y2="540.0" stroke="#24331b" stroke-width="2"/>
+<line x1="110" y1="540" x2="110" y2="100" stroke="#24331b" stroke-width="2"/>
+<text x="935" y="530.0" font-size="16" text-anchor="end" fill="#24331b">afstand lamp (cm)</text>
+<text x="102" y="90" font-size="16" text-anchor="start" fill="#24331b">belletjes per minuut</text>
+<path d="M247 174 L383 260 L520 336 L657 400 L793 443 L930 476" fill="none" stroke="#d9d4c4" stroke-width="2"/>
+<circle cx="246.66666666666666" cy="174.5" r="9" fill="#3b6fa0" stroke="#24331b" stroke-width="1.5"/>
+<circle cx="383.3333333333333" cy="260.5" r="9" fill="#3b6fa0" stroke="#24331b" stroke-width="1.5"/>
+<circle cx="520.0" cy="454.0" r="9" fill="#b5651d" stroke="#24331b" stroke-width="1.5"/>
+<circle cx="656.6666666666666" cy="400.25" r="9" fill="#3b6fa0" stroke="#24331b" stroke-width="1.5"/>
+<circle cx="793.3333333333334" cy="443.25" r="9" fill="#3b6fa0" stroke="#24331b" stroke-width="1.5"/>
+<circle cx="930.0" cy="475.5" r="9" fill="#3b6fa0" stroke="#24331b" stroke-width="1.5"/>
+</svg>
