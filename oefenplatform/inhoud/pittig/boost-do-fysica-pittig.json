@@ -1,0 +1,5209 @@
+{
+  "hoofdstukken": [
+    {
+      "titel": "Grootheden, eenheden en nauwkeurig meten — pittig",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de grafiek waarbij x en y recht evenredig zijn.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/vier-verbanden.svg",
+          "zones": [
+            [
+              9.0,
+              12.5,
+              35.0,
+              34.4
+            ]
+          ],
+          "uitleg": "Een rechte door de oorsprong: de verhouding y : x blijft gelijk."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de grafiek waarbij het product x · y gelijk blijft.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/vier-verbanden.svg",
+          "zones": [
+            [
+              9.0,
+              56.2,
+              35.0,
+              34.4
+            ]
+          ],
+          "uitleg": "Omgekeerd evenredig: een kromme die naar de assen toe buigt."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de grafiek die lineair is, maar niet recht evenredig.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/vier-verbanden.svg",
+          "zones": [
+            [
+              56.0,
+              12.5,
+              35.0,
+              34.4
+            ]
+          ],
+          "uitleg": "Een rechte die niet door de oorsprong gaat."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Kijk naar de grafieken. Welke past bij dit verband?",
+          "rijen": [
+            "de kinetische energie tegenover de snelheid",
+            "de stroomsterkte tegenover de spanning bij een vaste weerstand",
+            "de druk tegenover het volume van een gas bij vaste temperatuur",
+            "de lengte van een veer tegenover de kracht erop"
+          ],
+          "antwoord": [
+            3,
+            0,
+            2,
+            1
+          ],
+          "uitleg": "Een veer heeft al een lengte zonder kracht: lineair, niet door de oorsprong.",
+          "kolommen": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/vier-verbanden.svg"
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Bij grafiek D wordt y [[*vier keer|twee keer|acht keer]] zo groot als je x verdubbelt.",
+          "uitleg": "Een kwadratisch verband: 2² = 4.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/vier-verbanden.svg"
+        },
+        {
+          "type": "tabel",
+          "vraag": "Grootheid of eenheid?",
+          "rijen": [
+            "lengte",
+            "seconde",
+            "massa",
+            "newton",
+            "temperatuur"
+          ],
+          "antwoord": [
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "uitleg": "De grootheid is wat je meet, de eenheid waarin je het uitdrukt.",
+          "kolommen": [
+            "Grootheid",
+            "Eenheid"
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is dit een SI-basiseenheid?",
+          "rijen": [
+            "kilogram",
+            "kilometer per uur",
+            "seconde",
+            "meter",
+            "gram"
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "De SI-eenheid van massa is de kilogram, niet de gram."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elk voorvoegsel aan zijn betekenis.",
+          "paren": [
+            [
+              "mega",
+              "een miljoen"
+            ],
+            [
+              "kilo",
+              "duizend"
+            ],
+            [
+              "milli",
+              "een duizendste"
+            ],
+            [
+              "micro",
+              "een miljoenste"
+            ],
+            [
+              "nano",
+              "een miljardste"
+            ]
+          ],
+          "extra": [
+            "honderd"
+          ],
+          "uitleg": "Centi is een honderdste, hecto honderd."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Reken om naar de SI-eenheid.",
+          "rijen": [
+            "72 cm",
+            "350 g",
+            "3 min",
+            "5 nm"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "uitleg": "SI-eenheden: meter, kilogram en seconde.",
+          "kolommen": [
+            "0,72 m",
+            "0,35 kg",
+            "180 s",
+            "5 · 10⁻⁹ m"
+          ]
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Uit de formule p = F : A wil je F halen. Je kent p = 2000 Pa en A = 0,5 m². Hoeveel newton is F?",
+          "antwoord": [
+            "1000"
+          ],
+          "uitleg": "F = p · A = 2000 · 0,5 = 1000 N."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel meter is 3,5 km plus 250 m?",
+          "antwoord": [
+            "3750"
+          ],
+          "uitleg": "3,5 km = 3500 m. Samen 3750 m."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Een meetresultaat bestaat altijd uit een [[getal]] en een [[eenheid]]. Zonder eenheid kan vijf zowel vijf meter als vijf [[kilometer]] betekenen.",
+          "extra": [
+            "grootheid",
+            "grafiek"
+          ],
+          "uitleg": "Het getal alleen zegt niets."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Een leerling meet de lengte van een tafel met een meetlint tot op een millimeter. Klopt dit?",
+          "rijen": [
+            "Hij kan 1,253 m opschrijven.",
+            "Hij kan 1,25347 m opschrijven.",
+            "Te veel cijfers opschrijven suggereert een te grote nauwkeurigheid.",
+            "Een meting is nooit helemaal exact."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            true
+          ],
+          "uitleg": "Je schrijft enkel de cijfers die je echt gemeten hebt."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Schrijf 0,000045 m als een getal maal 10⁻⁵. Welk getal komt er vooraan?",
+          "antwoord": [
+            "4,5",
+            "4.5"
+          ],
+          "uitleg": "0,000045 = 4,5 · 10⁻⁵."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elk instrument aan wat je ermee meet.",
+          "paren": [
+            [
+              "balans",
+              "massa"
+            ],
+            [
+              "pH-meter",
+              "zuurtegraad"
+            ],
+            [
+              "dynamometer",
+              "kracht"
+            ],
+            [
+              "chronometer",
+              "tijdsduur"
+            ]
+          ],
+          "extra": [
+            "volume"
+          ],
+          "uitleg": "Volume meet je met glaswerk, zoals een maatcilinder."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Reken om met de voorvoegsels.",
+          "rijen": [
+            "3,2 km",
+            "450 mg",
+            "0,005 m",
+            "2 µs"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "uitleg": "Kilo = 1000, milli = een duizendste, micro = een miljoenste.",
+          "kolommen": [
+            "3200 m",
+            "0,45 g",
+            "5 mm",
+            "0,000002 s"
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Schrijf in wetenschappelijke notatie.",
+          "rijen": [
+            "0,00032 m",
+            "45 000 J",
+            "0,032 m"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Een getal tussen 1 en 10 maal een macht van tien.",
+          "kolommen": [
+            "3,2 · 10⁻⁴ m",
+            "4,5 · 10⁴ J",
+            "3,2 · 10⁻² m"
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Hoeveel beduidende cijfers heeft dit meetresultaat?",
+          "rijen": [
+            "4,56 cm",
+            "0,8 kg",
+            "12,0 °C",
+            "25 ml"
+          ],
+          "antwoord": [
+            2,
+            0,
+            2,
+            1
+          ],
+          "uitleg": "Nullen vooraan tellen niet mee, een nul achter de komma wel.",
+          "kolommen": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over het meetbereik?",
+          "rijen": [
+            "Een thermometer tot 50 °C is ongeschikt voor kokend water.",
+            "Buiten het meetbereik kan een toestel stukgaan.",
+            "Een balans tot 200 g is geschikt om een tas van 3 kg te wegen.",
+            "Je kiest een instrument dat bij de te meten waarde past."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Het meetbereik gaat van de kleinste tot de grootste meetbare waarde."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Je meet vijf keer de valtijd van een bal: 0,62 s, 0,60 s, 0,64 s, 0,61 s en 0,63 s. Wat is het gemiddelde, in seconden?",
+          "antwoord": [
+            "0,62",
+            "0.62"
+          ],
+          "uitleg": "3,10 : 5 = 0,62 s. Herhalen verkleint de invloed van toevallige fouten."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Grootte schatten: welke waarde is het meest realistisch?",
+          "rijen": [
+            "de massa van een volwassene",
+            "de massa van een appel",
+            "de massa van een personenwagen"
+          ],
+          "antwoord": [
+            1,
+            0,
+            2
+          ],
+          "uitleg": "Een schatting vooraf helpt je om een onzinnige uitkomst te herkennen.",
+          "kolommen": [
+            "0,2 kg",
+            "70 kg",
+            "1200 kg"
+          ]
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel milliliter is 0,25 liter?",
+          "antwoord": [
+            "250"
+          ],
+          "uitleg": "Milli is een duizendste: 0,25 · 1000 = 250 ml."
+        },
+        {
+          "casus": "Een leerling meet de lengte van een potlood vijf keer met een lat in millimeter: 152 mm, 151 mm, 153 mm, 152 mm en 152 mm.",
+          "vragen": [
+            {
+              "type": "invultekst",
+              "vraag": "Wat is de gemiddelde lengte in mm?",
+              "antwoord": [
+                "152",
+                "152 mm"
+              ],
+              "uitleg": "(152 + 151 + 153 + 152 + 152) : 5 = 760 : 5 = 152 mm."
+            },
+            {
+              "type": "invultekst",
+              "vraag": "Schrijf die lengte in meter.",
+              "antwoord": [
+                "0,152",
+                "0.152",
+                "0,152 m"
+              ],
+              "uitleg": "152 mm = 0,152 m, want 1 m = 1000 mm."
+            },
+            {
+              "type": "tabel",
+              "vraag": "Klopt dit over de meting?",
+              "rijen": [
+                "Meerdere keren meten maakt toevallige fouten kleiner.",
+                "Met een lat in mm kan je tot op een tiende millimeter nauwkeurig meten.",
+                "Het resultaat heeft drie beduidende cijfers."
+              ],
+              "antwoord": [
+                true,
+                false,
+                true
+              ],
+              "uitleg": "De nauwkeurigheid wordt bepaald door de kleinste schaalverdeling."
+            }
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welke SI-eenheid hoort bij de grootheid?",
+          "rijen": [
+            "kracht",
+            "energie",
+            "vermogen",
+            "druk"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "uitleg": "Newton, joule, watt en pascal.",
+          "kolommen": [
+            "N",
+            "J",
+            "W",
+            "Pa"
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een auto rijdt 90 km/h. Hoeveel is dat in m/s?",
+          "opties": [
+            "25 m/s",
+            "90 m/s",
+            "324 m/s",
+            "1,5 m/s"
+          ],
+          "antwoord": 0,
+          "uitleg": "Deel door 3,6: 90 : 3,6 = 25 m/s."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Recht evenredig of omgekeerd evenredig?",
+          "kolommen": [
+            "Recht evenredig",
+            "Omgekeerd evenredig"
+          ],
+          "items": [
+            [
+              "de afgelegde weg en de tijd bij constante snelheid",
+              "Recht evenredig"
+            ],
+            [
+              "de reistijd en de snelheid voor een vaste afstand",
+              "Omgekeerd evenredig"
+            ],
+            [
+              "het gewicht en de massa",
+              "Recht evenredig"
+            ],
+            [
+              "de druk en het volume van een gas bij gelijke temperatuur",
+              "Omgekeerd evenredig"
+            ]
+          ],
+          "uitleg": "Recht evenredig: het quotiënt blijft gelijk; omgekeerd evenredig: het product blijft gelijk."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Schrijf 0,00072 m in wetenschappelijke notatie. Welk getal staat er vooraan, voor de macht van tien?",
+          "antwoord": [
+            "7,2",
+            "7.2"
+          ],
+          "uitleg": "0,00072 m = 7,2 · 10⁻⁴ m."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Hoeveel beduidende cijfers heeft dit resultaat?",
+          "rijen": [
+            "0,0450 m",
+            "2300 kg, gemeten tot op 100 kg",
+            "9,81 m/s²",
+            "1,0 s"
+          ],
+          "antwoord": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "uitleg": "Nullen vooraan tellen niet mee; een nul achter de komma wel.",
+          "kolommen": [
+            "2",
+            "3"
+          ]
+        }
+      ]
+    },
+    {
+      "titel": "Eenparig rechtlijnige beweging — pittig",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het stuk waar de loper stilstaat.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/xt-wandeling.svg",
+          "zones": [
+            [
+              38.7,
+              46.4,
+              12.9,
+              5.6
+            ]
+          ],
+          "uitleg": "Een vlak stuk in een x(t)-grafiek: de positie verandert niet."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het stuk waar de loper het snelst vooruitgaat.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/xt-wandeling.svg",
+          "zones": [
+            [
+              52.4,
+              11.2,
+              12.9,
+              40.8
+            ]
+          ],
+          "uitleg": "De steilste lijn hoort bij de grootste snelheid: 20 m in 2 s is 10 m/s."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het stuk waar de snelheid van de loper negatief is.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/xt-wandeling.svg",
+          "zones": [
+            [
+              66.1,
+              11.2,
+              26.5,
+              75.9
+            ]
+          ],
+          "uitleg": "De positie daalt: de loper beweegt tegengesteld aan de zin van de x-as."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Kijk naar de x(t)-grafiek. Wat is de snelheid van de loper tijdens de eerste 4 seconden, in m/s?",
+          "antwoord": [
+            "5"
+          ],
+          "uitleg": "20 m in 4 s: 20 : 4 = 5 m/s.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/xt-wandeling.svg"
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Kijk naar de x(t)-grafiek. Hoeveel meter legt de loper in totaal af in de 12 seconden?",
+          "antwoord": [
+            "80"
+          ],
+          "uitleg": "40 m vooruit en 40 m terug: de afgelegde weg is 80 m.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/xt-wandeling.svg"
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Kijk naar de x(t)-grafiek. Wat is de verplaatsing van de loper na 12 seconden, in meter?",
+          "antwoord": [
+            "0"
+          ],
+          "uitleg": "Hij eindigt waar hij begon. De verplaatsing gaat enkel van begin naar eind.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/xt-wandeling.svg"
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het stuk waar de auto eenparig rechtlijnig beweegt.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/vt-auto.svg",
+          "zones": [
+            [
+              38.7,
+              25.3,
+              26.5,
+              5.6
+            ]
+          ],
+          "uitleg": "Een vlakke lijn in een v(t)-grafiek: de snelheid blijft gelijk."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Scalair of vectorieel?",
+          "rijen": [
+            "de verplaatsing",
+            "de snelheid",
+            "de versnelling",
+            "de afgelegde weg",
+            "het tijdsverloop"
+          ],
+          "antwoord": [
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          "uitleg": "Een vectoriële grootheid heeft een grootte, een richting en een zin.",
+          "kolommen": [
+            "Scalair",
+            "Vectorieel"
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Reken om. Klopt het?",
+          "rijen": [
+            "36 km/h = 10 m/s",
+            "72 km/h = 20 m/s",
+            "18 km/h = 18 m/s",
+            "25 m/s = 90 km/h"
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Van km/h naar m/s deel je door 3,6. Omgekeerd vermenigvuldig je met 3,6."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een trein rijdt 240 km in 3 uur. Wat is zijn gemiddelde snelheid in km/h?",
+          "antwoord": [
+            "80"
+          ],
+          "uitleg": "240 : 3 = 80 km/h."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een puntmassa start op 15 m en rijdt met 3 m/s in de zin van de x-as. Op welke positie zit ze na 5 s, in meter?",
+          "antwoord": [
+            "30"
+          ],
+          "uitleg": "15 + 3 · 5 = 30 m."
+        },
+        {
+          "casus": "Twee auto's vertrekken op hetzelfde moment vanuit Hasselt naar dezelfde richting. Auto A rijdt 20 m/s, auto B 25 m/s. Beide bewegen eenparig rechtlijnig.",
+          "vragen": [
+            {
+              "type": "meerkeuze",
+              "vraag": "Hoe zien hun x(t)-grafieken eruit?",
+              "opties": [
+                "Twee rechten vanuit hetzelfde punt, B steiler",
+                "Twee vlakke lijnen, elk op een andere hoogte",
+                "Twee krommen die steeds steiler worden",
+                "Twee rechten vanuit hetzelfde punt, waarbij A steiler is"
+              ],
+              "antwoord": 0,
+              "uitleg": "Eenparig betekent rechte lijnen. De grootste snelheid geeft de steilste lijn."
+            },
+            {
+              "type": "invultekst",
+              "vraag": "Hoeveel meter ligt B na 60 s voor op A?",
+              "antwoord": [
+                "300"
+              ],
+              "uitleg": "B legt 1500 m af, A 1200 m: verschil 300 m."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "Hun v(t)-grafieken zijn [[*twee vlakke lijnen|twee stijgende rechten|twee dalende rechten]].",
+              "uitleg": "Bij een ERB blijft de snelheid gelijk."
+            }
+          ]
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elke grafiek aan wat je eraan afleest.",
+          "paren": [
+            [
+              "steilheid van de x(t)-grafiek",
+              "snelheid"
+            ],
+            [
+              "steilheid van de v(t)-grafiek",
+              "versnelling"
+            ],
+            [
+              "oppervlakte onder de v(t)-grafiek",
+              "verplaatsing"
+            ]
+          ],
+          "extra": [
+            "massa"
+          ],
+          "uitleg": "Massa lees je niet af aan een bewegingsgrafiek."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "De vier kenmerken van een vector zijn de [[grootte]], de [[richting]], de [[zin]] en het [[aangrijpingspunt]].",
+          "extra": [
+            "temperatuur",
+            "tijdstip"
+          ],
+          "uitleg": "Daarom stel je een vector voor met een pijl."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het stuk van de x(t)-grafiek waar de loper 5 m/s loopt.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/xt-wandeling.svg",
+          "zones": [
+            [
+              11.4,
+              46.4,
+              26.5,
+              40.8
+            ]
+          ],
+          "uitleg": "20 m in 4 s is 5 m/s."
+        },
+        {
+          "casus": "Twee treinen rijden op hetzelfde spoor naar elkaar toe. Je tekent van beide de x(t)-grafiek in één assenstelsel.",
+          "vragen": [
+            {
+              "type": "meerkeuze",
+              "vraag": "Hoe vind je grafisch wanneer ze elkaar kruisen?",
+              "opties": [
+                "Je zoekt het snijpunt van de twee grafieken",
+                "Je zoekt waar een van de grafieken de tijdas raakt",
+                "Je meet de oppervlakte onder elke grafiek",
+                "Je vergelijkt de steilheid van beide lijnen"
+              ],
+              "antwoord": 0,
+              "uitleg": "Kruisen betekent op hetzelfde tijdstip op dezelfde positie."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "Eén grafiek stijgt en de andere daalt, want hun snelheden hebben [[*een tegengesteld teken|hetzelfde teken|geen teken]].",
+              "uitleg": "Het teken van de snelheid zegt in welke zin de beweging gaat."
+            }
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over de ogenblikkelijke en de gemiddelde snelheid?",
+          "rijen": [
+            "De ogenblikkelijke snelheid geldt voor één tijdstip.",
+            "De gemiddelde snelheid kijkt naar een heel tijdsinterval.",
+            "Bij een ERB zijn ze altijd verschillend."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Bij een ERB is de snelheid op elk ogenblik dezelfde, dus gelijk aan de gemiddelde."
+        },
+        {
+          "type": "open",
+          "vraag": "Leg uit waarom de afgelegde weg en de verplaatsing van een fietser die 5 km naar het werk rijdt en terug naar huis verschillen.",
+          "antwoord": "De afgelegde weg is de hele baan: 5 km heen en 5 km terug, samen 10 km. De verplaatsing kijkt enkel naar begin en eind. Omdat de fietser terug thuis is, is zijn verplaatsing nul."
+        },
+        {
+          "casus": "Een fietser vertrekt om t₀ = 0 s op positie x₀ = 200 m en rijdt met een constante snelheid van 5,0 m/s in de negatieve zin van de x-as.",
+          "vragen": [
+            {
+              "type": "meerkeuze",
+              "vraag": "Welke positiefunctie hoort bij de fietser?",
+              "opties": [
+                "x = 200 − 5,0 · t",
+                "x = 200 + 5,0 · t",
+                "x = 5,0 − 200 · t",
+                "x = −200 + 5,0 · t"
+              ],
+              "antwoord": 0,
+              "uitleg": "x = x₀ + v · (t − t₀) met v = −5,0 m/s."
+            },
+            {
+              "type": "invultekst",
+              "vraag": "Op welke positie, in meter, is de fietser na 30 s?",
+              "antwoord": [
+                "50",
+                "50 m"
+              ],
+              "uitleg": "x = 200 − 5,0 · 30 = 200 − 150 = 50 m."
+            },
+            {
+              "type": "invultekst",
+              "vraag": "Na hoeveel seconden passeert hij de oorsprong?",
+              "antwoord": [
+                "40",
+                "40 s"
+              ],
+              "uitleg": "0 = 200 − 5,0 · t geeft t = 40 s."
+            }
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over een v(t)-grafiek van een ERB?",
+          "rijen": [
+            "Ze is een horizontale rechte.",
+            "De oppervlakte onder de grafiek is de verplaatsing.",
+            "De helling van de grafiek is de snelheid."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Bij een ERB blijft v constant; de helling van een x(t)-grafiek is de snelheid."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een loper loopt 400 m rond een atletiekpiste en komt terug op zijn vertrekpunt. Wat klopt?",
+          "opties": [
+            "De afgelegde weg is 400 m, de verplaatsing 0 m.",
+            "De afgelegde weg en de verplaatsing zijn allebei 400 m.",
+            "De afgelegde weg is 0 m, de verplaatsing 400 m.",
+            "De afgelegde weg en de verplaatsing zijn allebei 0 m."
+          ],
+          "antwoord": 0,
+          "uitleg": "De verplaatsing vergelijkt enkel begin- en eindpositie."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Twee x(t)-grafieken zijn rechten. Rechte A is steiler dan rechte B. Wat besluit je?",
+          "opties": [
+            "Voorwerp A beweegt sneller dan B.",
+            "Voorwerp A is verder van de oorsprong vertrokken.",
+            "Voorwerp A versnelt en B niet.",
+            "Voorwerp A heeft meer massa dan B."
+          ],
+          "antwoord": 0,
+          "uitleg": "De helling van een x(t)-grafiek is de snelheid."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is dit een scalaire of een vectoriële grootheid?",
+          "rijen": [
+            "de afgelegde weg",
+            "de verplaatsing",
+            "de tijd",
+            "de snelheid"
+          ],
+          "antwoord": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "uitleg": "Een vector heeft een grootte, een richting, een zin en een aangrijpingspunt.",
+          "kolommen": [
+            "scalair",
+            "vectorieel"
+          ]
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een trein rijdt eerst 60 km in 1,0 h en dan 90 km in 0,50 h. Wat is zijn gemiddelde snelheid in km/h?",
+          "antwoord": [
+            "100",
+            "100 km/h"
+          ],
+          "uitleg": "150 km in 1,5 h geeft 100 km/h; je deelt de totale weg door de totale tijd."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Bij een ERB is de [[snelheid]] constant. De x(t)-grafiek is een [[schuine rechte]] en de v(t)-grafiek een [[horizontale rechte]].",
+          "extra": [
+            "versnelling",
+            "parabool"
+          ],
+          "uitleg": "Drie kenmerken van een eenparig rechtlijnige beweging."
+        }
+      ]
+    },
+    {
+      "titel": "Versnelde beweging, vrije val en verticale worp — pittig",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het stuk waar de versnelling negatief is.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/vt-auto.svg",
+          "zones": [
+            [
+              66.1,
+              25.3,
+              19.7,
+              61.9
+            ]
+          ],
+          "uitleg": "De snelheid daalt: de auto vertraagt."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het stuk waar de versnelling 3 m/s² is.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/vt-auto.svg",
+          "zones": [
+            [
+              11.4,
+              25.3,
+              26.5,
+              61.9
+            ]
+          ],
+          "uitleg": "Van 0 naar 12 m/s in 4 s: 12 : 4 = 3 m/s²."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Kijk naar de v(t)-grafiek. Hoeveel meter legt de auto af tussen 4 s en 8 s?",
+          "antwoord": [
+            "48"
+          ],
+          "uitleg": "De oppervlakte onder de grafiek is een rechthoek: 12 m/s · 4 s = 48 m.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/vt-auto.svg"
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Kijk naar de v(t)-grafiek. Hoeveel meter legt de auto af tijdens het remmen, van 8 s tot 11 s?",
+          "antwoord": [
+            "18"
+          ],
+          "uitleg": "De oppervlakte is een driehoek: de helft van 12 · 3 = 18 m.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/vt-auto.svg"
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Kijk naar de v(t)-grafiek. Wat is de versnelling tijdens het remmen, in m/s²?",
+          "antwoord": [
+            "-4",
+            "−4"
+          ],
+          "uitleg": "Van 12 naar 0 m/s in 3 s: −12 : 3 = −4 m/s².",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/vt-auto.svg"
+        },
+        {
+          "type": "tabel",
+          "vraag": "Kijk naar de v(t)-grafiek. Klopt dit?",
+          "rijen": [
+            "Tussen 4 s en 8 s is de versnelling nul.",
+            "Na 11 s staat de auto stil.",
+            "Tussen 0 s en 4 s is de x(t)-grafiek een rechte lijn.",
+            "Tussen 8 s en 11 s rijdt de auto achteruit."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            false
+          ],
+          "uitleg": "Bij versnellen is de x(t)-grafiek een kromme. Vertragen is niet achteruitrijden: de snelheid blijft positief.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/vt-auto.svg"
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een fietser start uit stilstand en versnelt met 2 m/s². Hoe snel rijdt hij na 6 s, in m/s?",
+          "antwoord": [
+            "12"
+          ],
+          "uitleg": "v = a · t = 2 · 6 = 12 m/s."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Versnelt of vertraagt het voorwerp?",
+          "rijen": [
+            "v is positief en a is positief",
+            "v is positief en a is negatief",
+            "v is negatief en a is negatief",
+            "v is negatief en a is positief"
+          ],
+          "antwoord": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "uitleg": "Hebben v en a hetzelfde teken, dan neemt de grootte van de snelheid toe.",
+          "kolommen": [
+            "Versnelt",
+            "Vertraagt"
+          ]
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het stuk van de v(t)-grafiek waar de auto stilstaat.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/vt-auto.svg",
+          "zones": [
+            [
+              86.6,
+              81.6,
+              6.0,
+              5.6
+            ]
+          ],
+          "uitleg": "Een snelheid van nul: de auto staat stil."
+        },
+        {
+          "casus": "Lotte gooit een bal recht naar boven. Hij stijgt, staat even stil in het hoogste punt en valt terug. Je verwaarloost de luchtweerstand.",
+          "vragen": [
+            {
+              "type": "tabel",
+              "vraag": "Klopt dit over de bal?",
+              "rijen": [
+                "In het hoogste punt is de snelheid nul.",
+                "In het hoogste punt is de versnelling nul.",
+                "Tijdens het stijgen wijst de versnelling naar beneden.",
+                "Tijdens het vallen is de versnelling groter dan tijdens het stijgen."
+              ],
+              "antwoord": [
+                true,
+                false,
+                true,
+                false
+              ],
+              "uitleg": "De zwaartekracht stopt geen moment. De versnelling is altijd de valversnelling, naar beneden."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "Het stijgen heet een [[*verticale worp|vrije val|krachtenbalans]], het terugvallen een vrije val.",
+              "uitleg": "De versnelling is in beide fasen dezelfde."
+            }
+          ]
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een steen valt uit stilstand. Hoe snel valt hij na 3 s, met g = 10 m/s²? Antwoord in m/s.",
+          "antwoord": [
+            "30"
+          ],
+          "uitleg": "v = g · t = 10 · 3 = 30 m/s."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Je schiet een pijl recht omhoog met 20 m/s. Na hoeveel seconden bereikt hij het hoogste punt, met g = 10 m/s²?",
+          "antwoord": [
+            "2"
+          ],
+          "uitleg": "Elke seconde verliest hij 10 m/s. Na 2 s is de snelheid nul."
+        },
+        {
+          "type": "open",
+          "vraag": "Leg uit waarom een steen en een pluim in een vacuümbuis even snel vallen, maar in de lucht niet.",
+          "antwoord": "In een vacuüm werkt enkel de zwaartekracht. De valversnelling is voor elke massa dezelfde, dus vallen ze even snel. In de lucht werkt ook de luchtweerstand. Die remt de lichte pluim veel meer af dan de steen."
+        },
+        {
+          "casus": "Een auto staat stil aan een verkeerslicht. Bij groen versnelt hij 5,0 s lang met 3,0 m/s². Daarna rijdt hij eenparig verder.",
+          "vragen": [
+            {
+              "type": "invultekst",
+              "vraag": "Hoe snel rijdt de auto na 5,0 s, in m/s?",
+              "antwoord": [
+                "15",
+                "15 m/s"
+              ],
+              "uitleg": "v = a · t = 3,0 · 5,0 = 15 m/s."
+            },
+            {
+              "type": "invultekst",
+              "vraag": "Hoeveel meter legt hij af tijdens het versnellen?",
+              "antwoord": [
+                "37,5",
+                "37.5",
+                "38"
+              ],
+              "uitleg": "Oppervlakte van de driehoek onder de v(t)-grafiek: ½ · 5,0 · 15 = 37,5 m."
+            },
+            {
+              "type": "tabel",
+              "vraag": "Klopt dit over de beweging van de auto?",
+              "rijen": [
+                "Tijdens de eerste 5 s is de v(t)-grafiek een schuine rechte.",
+                "Na 5 s is de versnelling nul.",
+                "Tijdens de eerste 5 s is de x(t)-grafiek een rechte."
+              ],
+              "antwoord": [
+                true,
+                true,
+                false
+              ],
+              "uitleg": "Bij een eenparig versnelde beweging is de x(t)-grafiek een parabool."
+            }
+          ]
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Welke beweging hoort bij de grafiek?",
+          "kolommen": [
+            "ERB",
+            "Eenparig versneld",
+            "Eenparig vertraagd"
+          ],
+          "items": [
+            [
+              "een horizontale v(t)-grafiek, niet op nul",
+              "ERB"
+            ],
+            [
+              "een stijgende rechte in de v(t)-grafiek",
+              "Eenparig versneld"
+            ],
+            [
+              "een dalende rechte in de v(t)-grafiek, naar nul toe",
+              "Eenparig vertraagd"
+            ],
+            [
+              "een a(t)-grafiek die op nul ligt, terwijl het voorwerp beweegt",
+              "ERB"
+            ],
+            [
+              "een positieve versnelling in de zin van de beweging",
+              "Eenparig versneld"
+            ]
+          ],
+          "uitleg": "Lees de helling van v(t) of de waarde van a(t)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een appel valt uit een boom en raakt na 0,80 s de grond. Hoe snel valt hij dan, met g = 9,81 m/s²?",
+          "opties": [
+            "7,8 m/s",
+            "12 m/s",
+            "3,1 m/s",
+            "0,80 m/s"
+          ],
+          "antwoord": 0,
+          "uitleg": "v = g · t = 9,81 · 0,80 = 7,8 m/s."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een steen valt uit stilstand 2,0 s lang. Hoeveel meter valt hij, met g = 10 m/s²?",
+          "antwoord": [
+            "20",
+            "20 m"
+          ],
+          "uitleg": "h = ½ · g · t² = ½ · 10 · 4,0 = 20 m."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Een bal wordt recht omhoog gegooid. Klopt dit, als je de luchtweerstand verwaarloost?",
+          "rijen": [
+            "In het hoogste punt is de snelheid nul.",
+            "In het hoogste punt is de versnelling nul.",
+            "De bal komt met dezelfde snelheid terug als waarmee hij vertrok.",
+            "Tijdens het stijgen is de beweging eenparig vertraagd."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            true
+          ],
+          "uitleg": "De zwaartekracht werkt altijd: de versnelling is overal g, ook bovenaan."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een auto rijdt 20 m/s en remt eenparig tot stilstand in 4,0 s. Wat is de versnelling?",
+          "opties": [
+            "−5,0 m/s²",
+            "5,0 m/s²",
+            "−80 m/s²",
+            "−0,20 m/s²"
+          ],
+          "antwoord": 0,
+          "uitleg": "a = Δv / Δt = (0 − 20) / 4,0 = −5,0 m/s²."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Bij een vrije val zonder luchtweerstand vallen een hamer en een veer [[*even snel|niet even snel|helemaal niet]].",
+          "uitleg": "De valversnelling hangt niet af van de massa."
+        },
+        {
+          "casus": "Twee fietsers vertrekken samen. Fietser A rijdt meteen eenparig 6 m/s. Fietser B vertrekt uit stilstand en versnelt met 1 m/s².",
+          "vragen": [
+            {
+              "type": "invultekst",
+              "vraag": "Na hoeveel seconden rijden ze even snel?",
+              "antwoord": [
+                "6",
+                "6 s"
+              ],
+              "uitleg": "B rijdt 1 m/s sneller per seconde: na 6 s rijdt hij ook 6 m/s."
+            },
+            {
+              "type": "tabel",
+              "vraag": "Klopt dit over het moment waarop ze even snel rijden?",
+              "rijen": [
+                "A is dan verder dan B.",
+                "Ze snijden elkaar dan in de x(t)-grafiek.",
+                "Ze snijden elkaar dan in de v(t)-grafiek."
+              ],
+              "antwoord": [
+                true,
+                false,
+                true
+              ],
+              "uitleg": "Gelijke snelheid is een snijpunt in v(t); B moet daarna nog inhalen."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat stelt de helling van een v(t)-grafiek voor?",
+          "opties": [
+            "de versnelling",
+            "de afgelegde weg",
+            "de positie",
+            "de massa"
+          ],
+          "antwoord": 0,
+          "uitleg": "Helling van v(t) = Δv / Δt = a."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een lift versnelt in 2,0 s van 0 tot 3,0 m/s. Wat is de versnelling in m/s²?",
+          "antwoord": [
+            "1,5",
+            "1.5",
+            "1,5 m/s²"
+          ],
+          "uitleg": "a = 3,0 / 2,0 = 1,5 m/s²."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Bij een vrije val start het voorwerp uit [[stilstand]] en versnelt het met [[g]], ongeveer [[9,81 m/s²]].",
+          "extra": [
+            "constante snelheid",
+            "1 m/s²"
+          ],
+          "uitleg": "De vrije val is een eenparig versnelde beweging."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een parachutist met open valscherm valt na een tijdje met een [[*constante snelheid|steeds grotere snelheid|steeds grotere versnelling]].",
+          "uitleg": "De luchtweerstand wordt even groot als de zwaartekracht: de resulterende kracht is nul."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een bal valt 3,0 s vrij uit stilstand. Hoe snel gaat hij dan, met g = 10 m/s²?",
+          "opties": [
+            "30 m/s",
+            "3,3 m/s",
+            "45 m/s",
+            "90 m/s"
+          ],
+          "antwoord": 0,
+          "uitleg": "v = g · t = 10 · 3,0 = 30 m/s."
+        }
+      ]
+    },
+    {
+      "titel": "Krachten, krachtenbalans en zwaartekracht — pittig",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de normaalkracht.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/krachten-auto.svg",
+          "zones": [
+            [
+              51.4,
+              19.4,
+              5.2,
+              8.1
+            ],
+            [
+              47.0,
+              20.3,
+              6.0,
+              34.4
+            ]
+          ],
+          "uitleg": "De weg duwt loodrecht terug op de auto: naar boven."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de veldkracht, die zonder contact werkt.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/krachten-auto.svg",
+          "zones": [
+            [
+              51.4,
+              83.4,
+              5.2,
+              8.1
+            ],
+            [
+              47.0,
+              74.2,
+              6.0,
+              14.8
+            ]
+          ],
+          "uitleg": "De zwaartekracht grijpt aan in het zwaartepunt en wijst naar beneden."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de wrijvingskracht.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/krachten-auto.svg",
+          "zones": [
+            [
+              9.4,
+              52.2,
+              5.2,
+              8.1
+            ],
+            [
+              11.0,
+              59.4,
+              22.0,
+              6.2
+            ]
+          ],
+          "uitleg": "Wrijving werkt tegengesteld aan de beweging, hier naar achteren."
+        },
+        {
+          "type": "tabel",
+          "vraag": "De auto rijdt met constante snelheid. Klopt dit?",
+          "rijen": [
+            "Pijl C en pijl D zijn even lang.",
+            "Pijl A en pijl B zijn even groot.",
+            "De resulterende kracht is nul.",
+            "Pijl C moet langer zijn dan pijl D om te blijven rijden."
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Bij een constante snelheid in een rechte lijn heffen alle krachten elkaar op: krachtenbalans.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/krachten-auto.svg"
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "De bestuurder remt. Dan wordt pijl [[*D|C|B]] groter dan pijl C, en de auto vertraagt.",
+          "uitleg": "Bij vertragen werkt de resulterende kracht tegengesteld aan de beweging.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/krachten-auto.svg"
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de stugste veer.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/twee-veren.svg",
+          "zones": [
+            [
+              43.8,
+              45.0,
+              38.8,
+              19.7
+            ],
+            [
+              76.8,
+              23.8,
+              5.6,
+              8.8
+            ]
+          ],
+          "uitleg": "Bij dezelfde uitrekking levert veer A meer kracht: grotere veerconstante."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Kijk naar de grafiek. Wat is de veerconstante van veer A, in N/cm?",
+          "antwoord": [
+            "5"
+          ],
+          "uitleg": "40 N bij 8 cm: 40 : 8 = 5 N/cm.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/twee-veren.svg"
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Kijk naar de grafiek. Hoeveel cm rekt veer B uit bij een kracht van 10 N?",
+          "antwoord": [
+            "5"
+          ],
+          "uitleg": "Veer B levert 20 N bij 10 cm, dus 2 N/cm. 10 N geeft 5 cm.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/twee-veren.svg"
+        },
+        {
+          "type": "tabel",
+          "vraag": "Kijk naar de grafiek van de veren. Klopt dit?",
+          "rijen": [
+            "Kracht en uitrekking zijn recht evenredig.",
+            "Veer B rekt bij dezelfde kracht meer uit dan A.",
+            "Veer B heeft de grootste veerconstante.",
+            "Een dynamometer werkt met zo'n veer."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Een slappe veer heeft een kleine veerconstante.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/twee-veren.svg"
+        },
+        {
+          "type": "tabel",
+          "vraag": "Werkt deze kracht met of zonder contact?",
+          "rijen": [
+            "zwaartekracht",
+            "normaalkracht",
+            "wrijvingskracht",
+            "spankracht in een touw"
+          ],
+          "antwoord": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "uitleg": "De zwaartekracht is een veldkracht.",
+          "kolommen": [
+            "Met contact",
+            "Zonder contact"
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Hoe groot is de resultante?",
+          "rijen": [
+            "30 N en 40 N in dezelfde zin",
+            "30 N en 40 N loodrecht op elkaar",
+            "40 N en 40 N in tegengestelde zin",
+            "40 N en 30 N in tegengestelde zin"
+          ],
+          "antwoord": [
+            0,
+            1,
+            3,
+            2
+          ],
+          "uitleg": "Dezelfde zin: optellen. Tegengesteld: aftrekken. Loodrecht: stelling van Pythagoras.",
+          "kolommen": [
+            "70 N",
+            "50 N",
+            "10 N",
+            "0 N"
+          ]
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Twee krachten van 6 N en 8 N werken loodrecht op elkaar in hetzelfde punt. Hoe groot is de resultante, in N?",
+          "antwoord": [
+            "10"
+          ],
+          "uitleg": "√(6² + 8²) = √100 = 10 N."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Massa of gewicht?",
+          "rijen": [
+            "blijft gelijk op de maan",
+            "meet je in newton",
+            "hoeveelheid materie",
+            "is op de maan kleiner",
+            "meet je in kilogram"
+          ],
+          "antwoord": [
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "uitleg": "Gewicht is een kracht. Massa verandert niet van plaats tot plaats.",
+          "kolommen": [
+            "Massa",
+            "Gewicht"
+          ]
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een rugzak van 8 kg. Hoe groot is de zwaartekracht erop, met 10 N/kg? Antwoord in newton.",
+          "antwoord": [
+            "80"
+          ],
+          "uitleg": "F = m · g = 8 · 10 = 80 N."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een veer heeft een veerconstante van 4 N/cm. Hoeveel cm rekt ze uit als er 2 kg aan hangt, met 10 N/kg?",
+          "antwoord": [
+            "5"
+          ],
+          "uitleg": "De zwaartekracht is 20 N. In evenwicht is de veerkracht ook 20 N: 20 : 4 = 5 cm."
+        },
+        {
+          "casus": "Een parachutist springt uit een vliegtuig. Eerst gaat hij steeds sneller, daarna valt hij met een constante snelheid.",
+          "vragen": [
+            {
+              "type": "meerkeuze",
+              "vraag": "Waarom valt hij na een tijd met constante snelheid?",
+              "opties": [
+                "De luchtweerstand is even groot als de zwaartekracht",
+                "De zwaartekracht valt hoog in de lucht helemaal weg",
+                "Zijn massa wordt tijdens de val een heel stuk kleiner",
+                "De luchtweerstand is veel groter dan de zwaartekracht"
+              ],
+              "antwoord": 0,
+              "uitleg": "Krachtenbalans: de resulterende kracht is nul, dus geen versnelling meer."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "In het begin is de zwaartekracht [[*groter dan|even groot als|kleiner dan]] de luchtweerstand.",
+              "uitleg": "Daarom versnelt hij eerst."
+            }
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Kan een resulterende kracht dit veroorzaken?",
+          "rijen": [
+            "een voorwerp versnellen",
+            "een voorwerp van richting doen veranderen",
+            "een voorwerp van vorm doen veranderen",
+            "de massa van een voorwerp groter maken"
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Een kracht verandert de beweging of de vorm, niet de hoeveelheid materie."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elke grootheid aan haar eenheid.",
+          "paren": [
+            [
+              "kracht",
+              "newton"
+            ],
+            [
+              "massa",
+              "kilogram"
+            ],
+            [
+              "zwaarteveldsterkte",
+              "newton per kilogram"
+            ],
+            [
+              "valversnelling",
+              "meter per seconde kwadraat"
+            ]
+          ],
+          "extra": [
+            "meter per seconde"
+          ],
+          "uitleg": "Meter per seconde is de eenheid van snelheid."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Een astronaut zweeft in een ruimtestation. Zijn [[massa]] is dezelfde als op aarde. Op de maan is de [[zwaarteveldsterkte]] veel kleiner, dus ook zijn [[gewicht]].",
+          "extra": [
+            "veerconstante",
+            "snelheid"
+          ],
+          "uitleg": "Gewichtloos zijn is niet massaloos zijn."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een maanrover heeft een massa van 200 kg. Hoe groot is zijn gewicht op de maan, met 1,62 N/kg? Antwoord in newton.",
+          "antwoord": [
+            "324"
+          ],
+          "uitleg": "G = m · g = 200 · 1,62 = 324 N. Op aarde zou dat ongeveer 2000 N zijn."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet in de juiste volgorde: je meet het gewicht van een etui met een dynamometer.",
+          "opties": [
+            "Controleer of de dynamometer op nul staat zonder last",
+            "Hang de etui aan het haakje",
+            "Wacht tot de veer stilhangt",
+            "Lees de kracht af in newton"
+          ],
+          "uitleg": "Eerst nulstand, dan pas meten en aflezen als alles in evenwicht is."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Sorteer: werkt deze kracht naar boven of naar beneden?",
+          "kolommen": [
+            "Naar boven",
+            "Naar beneden"
+          ],
+          "items": [
+            [
+              "de spankracht in het touw van een hangende lamp",
+              "Naar boven"
+            ],
+            [
+              "het gewicht van een boek op een plank",
+              "Naar beneden"
+            ],
+            [
+              "de normaalkracht van een vloer op een kast",
+              "Naar boven"
+            ],
+            [
+              "de zwaartekracht op een vallende appel",
+              "Naar beneden"
+            ],
+            [
+              "de luchtweerstand op een dalende parachutist",
+              "Naar boven"
+            ]
+          ],
+          "uitleg": "Kijk telkens wie op wie duwt of trekt."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Een kist staat stil op een helling. Klopt dit?",
+          "rijen": [
+            "De wrijvingskracht houdt de kist tegen.",
+            "De wrijvingskracht wijst de helling op.",
+            "Er werkt geen zwaartekracht omdat de kist stilstaat.",
+            "De resulterende kracht op de kist is nul."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Zonder wrijving zou de kist naar beneden glijden. Stilstaan betekent krachtenbalans."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Het punt waar je de zwaartekracht op een voorwerp tekent, heet het [[*zwaartepunt|steunpunt|draaipunt]].",
+          "uitleg": "In dat punt kan je je de hele massa geconcentreerd denken."
+        },
+        {
+          "casus": "Lotte hangt gewichtjes aan een veer en meet de uitrekking: 1,0 N geeft 2,0 cm, 2,0 N geeft 4,0 cm en 3,0 N geeft 6,0 cm.",
+          "vragen": [
+            {
+              "type": "invultekst",
+              "vraag": "Wat is de veerconstante van deze veer, in N/m?",
+              "antwoord": [
+                "50",
+                "50 N/m"
+              ],
+              "uitleg": "k = F / Δl = 1,0 N / 0,020 m = 50 N/m."
+            },
+            {
+              "type": "tabel",
+              "vraag": "Klopt dit over haar metingen?",
+              "rijen": [
+                "De uitrekking is recht evenredig met de kracht.",
+                "De grafiek F(Δl) is een rechte door de oorsprong.",
+                "Met 5,0 N rekt de veer 5,0 cm uit."
+              ],
+              "antwoord": [
+                true,
+                true,
+                false
+              ],
+              "uitleg": "Bij 5,0 N verwacht je 10 cm: de uitrekking verdubbelt als de kracht verdubbelt."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een kist van 40 kg staat op een vloer met μ = 0,25. Je duwt horizontaal met 80 N. Wat gebeurt er, met g = 10 N/kg?",
+          "opties": [
+            "Ze blijft staan: de wrijving kan tot 100 N gaan.",
+            "Ze schuift, want elke duw groter dan nul doet ze bewegen.",
+            "Ze schuift, want de wrijvingskracht is hier maar 10 N.",
+            "Ze komt los van de vloer, want de normaalkracht wint."
+          ],
+          "antwoord": 0,
+          "uitleg": "Fw = μ · Fn = 0,25 · 400 = 100 N; je duwt minder hard dan dat."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Een astronaut gaat van de aarde naar de maan. Wat verandert er?",
+          "rijen": [
+            "zijn massa",
+            "de zwaartekracht op hem",
+            "zijn gewicht op de grond",
+            "de hoeveelheid materie in zijn lichaam"
+          ],
+          "antwoord": [
+            0,
+            1,
+            1,
+            0
+          ],
+          "uitleg": "De massa hangt niet af van de plaats; g en dus de zwaartekracht wel.",
+          "kolommen": [
+            "blijft gelijk",
+            "verandert"
+          ]
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Op de maan is g = 1,6 N/kg. Hoe groot is de zwaartekracht op een maanwagentje van 200 kg, in newton?",
+          "antwoord": [
+            "320",
+            "320 N"
+          ],
+          "uitleg": "Fz = m · g = 200 · 1,6 = 320 N."
+        }
+      ]
+    },
+    {
+      "titel": "Archimedeskracht, moment en evenwicht — pittig",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "Het gewicht van 60 N hangt op 0,60 m links van het draaipunt. Klik op de plaats waar je 90 N moet hangen om de lat in evenwicht te brengen.",
+          "afbeelding_url": "/examenvormen/fysica-boost-do/lat-draaipunt.svg",
+          "zones": [
+            [
+              65.5,
+              23.4,
+              9.0,
+              29.7
+            ]
+          ],
+          "uitleg": "60 · 0,60 = 36 Nm, dus d = 36 / 90 = 0,40 m rechts."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de plaats waar je 180 N moet hangen voor evenwicht met het gewicht van 60 N.",
+          "afbeelding_url": "/examenvormen/fysica-boost-do/lat-draaipunt.svg",
+          "zones": [
+            [
+              55.5,
+              23.4,
+              9.0,
+              29.7
+            ]
+          ],
+          "uitleg": "36 Nm / 180 N = 0,20 m rechts van het draaipunt."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de plaats waar een kracht van 45 N naar beneden de lat in evenwicht houdt.",
+          "afbeelding_url": "/examenvormen/fysica-boost-do/lat-draaipunt.svg",
+          "zones": [
+            [
+              85.5,
+              23.4,
+              9.0,
+              29.7
+            ]
+          ],
+          "uitleg": "36 / 45 = 0,80 m: helemaal aan het rechteruiteinde."
+        },
+        {
+          "casus": "Een houten blok van 2,0 kg met een volume van 0,0025 m³ wordt in water gelegd. Neem g = 10 N/kg en ρ water = 1000 kg/m³.",
+          "vragen": [
+            {
+              "type": "invultekst",
+              "vraag": "Hoe groot is de zwaartekracht op het blok, in newton?",
+              "antwoord": [
+                "20",
+                "20 N"
+              ],
+              "uitleg": "Fz = m · g = 2,0 · 10 = 20 N."
+            },
+            {
+              "type": "invultekst",
+              "vraag": "Hoe groot zou de archimedeskracht zijn als het blok helemaal onder water zat, in newton?",
+              "antwoord": [
+                "25",
+                "25 N"
+              ],
+              "uitleg": "FA = 1000 · 10 · 0,0025 = 25 N."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Wat doet het blok als je het loslaat onder water?",
+              "opties": [
+                "het stijgt en gaat drijven",
+                "het zinkt naar de bodem",
+                "het zweeft op dezelfde diepte",
+                "het draait rond zijn zwaartepunt"
+              ],
+              "antwoord": 0,
+              "uitleg": "De archimedeskracht van 25 N is groter dan de zwaartekracht van 20 N."
+            },
+            {
+              "type": "invultekst",
+              "vraag": "Welk volume zit er onder water als het blok drijft, in m³?",
+              "antwoord": [
+                "0,0020",
+                "0,002",
+                "0.002",
+                "0.0020"
+              ],
+              "uitleg": "Bij drijven is FA = Fz = 20 N, dus Vond = 20 / (1000 · 10) = 0,0020 m³."
+            }
+          ]
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Zinkt, zweeft of stijgt het voorwerp in water (1000 kg/m³)?",
+          "kolommen": [
+            "zinkt",
+            "zweeft",
+            "stijgt"
+          ],
+          "items": [
+            [
+              "een blok ijzer van 7900 kg/m³",
+              "zinkt"
+            ],
+            [
+              "een kurk van 240 kg/m³",
+              "stijgt"
+            ],
+            [
+              "een vis met een gemiddelde massadichtheid van 1000 kg/m³",
+              "zweeft"
+            ],
+            [
+              "een steen van 2600 kg/m³",
+              "zinkt"
+            ],
+            [
+              "een stuk hout van 700 kg/m³",
+              "stijgt"
+            ]
+          ],
+          "uitleg": "Vergelijk de massadichtheid van het voorwerp met die van water."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Een ei zinkt in kraantjeswater en drijft in zeer zout water. Klopt dit?",
+          "rijen": [
+            "Zout water heeft een grotere massadichtheid.",
+            "In zout water is de archimedeskracht bij hetzelfde ondergedompelde volume groter.",
+            "Het ei wordt lichter in zout water."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false
+          ],
+          "uitleg": "De zwaartekracht op het ei verandert niet; ρ van de vloeistof wel."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een steen van 30 N wijst in water 18 N aan op een dynamometer. Wat is het volume van de steen in liter, met g = 10 N/kg?",
+          "antwoord": [
+            "1,2",
+            "1.2",
+            "1,2 L"
+          ],
+          "uitleg": "FA = 12 N, dus V = 12 / (1000 · 10) = 0,0012 m³ = 1,2 L."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een ballon met helium stijgt in de lucht. Waarom?",
+          "opties": [
+            "De archimedeskracht van de lucht is groter dan zijn gewicht.",
+            "Helium heeft geen massa en wordt niet aangetrokken.",
+            "De zwaartekracht werkt niet op gassen in een ballon.",
+            "De druk van het helium in de ballon duwt hem van de grond weg."
+          ],
+          "antwoord": 0,
+          "uitleg": "Ook een gas geeft een archimedeskracht: de ballon duwt meer lucht weg dan hij zelf weegt."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over het moment van een kracht?",
+          "rijen": [
+            "Een kracht van 50 N loodrecht op 0,30 m geeft 15 Nm.",
+            "Een kracht langs de arm geeft geen moment.",
+            "Bij 30° is het moment de helft van dat bij 90°.",
+            "Een moment van 15 Nm is 15 J."
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "M = F · d · sin α; sin 30° = 0,5; het moment drukt men uit in Nm, niet in J."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Je duwt met 20 N op een deurklink, 0,80 m van de scharnieren, onder een hoek van 30° met de deur. Hoe groot is het moment in Nm?",
+          "antwoord": [
+            "8",
+            "8,0",
+            "8 Nm"
+          ],
+          "uitleg": "M = 20 · 0,80 · sin 30° = 20 · 0,80 · 0,5 = 8,0 Nm."
+        },
+        {
+          "casus": "Een balk van 4,0 m en 200 N ligt op twee steunpunten aan de uiteinden. In het midden staat een kist van 600 N.",
+          "vragen": [
+            {
+              "type": "invultekst",
+              "vraag": "Hoe groot is de som van de twee steunkrachten, in newton?",
+              "antwoord": [
+                "800",
+                "800 N"
+              ],
+              "uitleg": "Translatie-evenwicht: de steunkrachten dragen samen 200 + 600 = 800 N."
+            },
+            {
+              "type": "invultekst",
+              "vraag": "Hoe groot is elke steunkracht, in newton?",
+              "antwoord": [
+                "400",
+                "400 N"
+              ],
+              "uitleg": "Alles ligt symmetrisch, dus elk steunpunt draagt de helft."
+            },
+            {
+              "type": "tabel",
+              "vraag": "Je schuift de kist naar het linker steunpunt. Klopt dit?",
+              "rijen": [
+                "De linker steunkracht wordt groter.",
+                "De som van de steunkrachten blijft 800 N.",
+                "De rechter steunkracht wordt groter."
+              ],
+              "antwoord": [
+                true,
+                true,
+                false
+              ],
+              "uitleg": "Het totaal verandert niet, maar het steunpunt het dichtst bij de kist draagt meer."
+            }
+          ]
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Je opent een deur het makkelijkst door te duwen [[*ver van de scharnieren|dicht bij de scharnieren|op de scharnieren]].",
+          "uitleg": "Een grotere krachtarm geeft bij dezelfde kracht een groter moment."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Maakt dit een voorwerp stabieler of minder stabiel?",
+          "kolommen": [
+            "stabieler",
+            "minder stabiel"
+          ],
+          "items": [
+            [
+              "een lager zwaartepunt",
+              "stabieler"
+            ],
+            [
+              "een breder steunvlak",
+              "stabieler"
+            ],
+            [
+              "zware bagage bovenop het dak",
+              "minder stabiel"
+            ],
+            [
+              "een smaller steunvlak",
+              "minder stabiel"
+            ]
+          ],
+          "uitleg": "Het zwaartepunt moet boven het steunvlak blijven; laag en breed is het stabielst."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Bij statisch evenwicht is de som van alle [[krachten]] nul, zodat het voorwerp niet verschuift, en de som van alle [[momenten]] nul, zodat het niet [[draait]].",
+          "extra": [
+            "massa's",
+            "versnelt"
+          ],
+          "uitleg": "Translatie- en rotatie-evenwicht samen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een kind van 25 kg zit op 1,6 m van het draaipunt van een wip. Waar moet een volwassene van 80 kg zitten?",
+          "opties": [
+            "op 0,50 m",
+            "op 1,6 m",
+            "op 5,1 m",
+            "op 0,80 m"
+          ],
+          "antwoord": 0,
+          "uitleg": "25 · 1,6 = 80 · d, dus d = 40 / 80 = 0,50 m. De g valt weg aan beide kanten."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over de archimedeskracht?",
+          "rijen": [
+            "Ze werkt ook op een voorwerp in een gas.",
+            "Ze hangt af van de massa van het voorwerp.",
+            "Een half ondergedompeld voorwerp krijgt de helft van de kracht bij volledig onderdompelen."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Enkel ρ van de vloeistof of het gas, g en het ondergedompelde volume tellen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een kracht van 50 N werkt onder 90° op een sleutel en geeft 15 Nm. Hoe lang is de krachtarm in centimeter?",
+          "antwoord": [
+            "30",
+            "30 cm"
+          ],
+          "uitleg": "d = M / F = 15 / 50 = 0,30 m = 30 cm."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Welke situatie hoort bij welke toestand?",
+          "paren": [
+            [
+              "FA > Fz bij volledig onderdompelen",
+              "stijgen"
+            ],
+            [
+              "FA < Fz bij volledig onderdompelen",
+              "zinken"
+            ],
+            [
+              "FA = Fz, volledig onder water",
+              "zweven"
+            ],
+            [
+              "FA = Fz, deels boven water",
+              "drijven"
+            ]
+          ],
+          "extra": [],
+          "uitleg": "De krachtenbalans tussen archimedeskracht en zwaartekracht beslist."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Twee kinderen trekken met 40 N aan elk uiteinde van een lat, in tegengestelde zin en loodrecht op de lat. Wat gebeurt er?",
+          "opties": [
+            "De lat begint te draaien.",
+            "De lat blijft in volledig evenwicht.",
+            "De lat schuift in de zin van één kind.",
+            "De lat versnelt langs haar lengte."
+          ],
+          "antwoord": 0,
+          "uitleg": "De som van de krachten is nul, maar de momenten tellen op: geen rotatie-evenwicht."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe groot is de archimedeskracht op een volledig ondergedompeld blok van 3,0 L in olie met ρ = 800 kg/m³, met g = 10 N/kg, in newton?",
+          "antwoord": [
+            "24",
+            "24 N"
+          ],
+          "uitleg": "FA = 800 · 10 · 0,0030 = 24 N."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Een duikboot stijgt naar de oppervlakte. Klopt dit?",
+          "rijen": [
+            "Ze perst water uit haar tanks.",
+            "Haar volume wordt daarbij veel groter.",
+            "Haar zwaartekracht wordt kleiner dan de archimedeskracht."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Minder water in de tanks betekent minder massa bij hetzelfde volume."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Rangschik de momenten van klein naar groot.",
+          "opties": [
+            "10 N op 0,20 m",
+            "20 N op 0,20 m",
+            "10 N op 0,50 m",
+            "30 N op 0,40 m"
+          ],
+          "uitleg": "Telkens loodrecht: 2, 4, 5 en 12 Nm."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom heeft een kraan op een werf een zwaar tegengewicht?",
+          "opties": [
+            "om het moment van de last op te heffen",
+            "om de last sneller omhoog te trekken",
+            "om de archimedeskracht van de lucht te vergroten",
+            "om de massa van de last kleiner te maken"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het tegengewicht geeft een moment in de andere zin, zodat de kraan niet kantelt."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een kracht die door het draaipunt gaat, geeft een moment van [[*0 Nm|F · d Nm|1 Nm]].",
+          "uitleg": "De krachtarm is dan nul."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een plank van 2,0 m draait rond haar linker uiteinde. Rechts trekt een koord loodrecht omhoog. In het midden werkt de zwaartekracht van 100 N. Hoe groot moet de kracht in het koord zijn, in newton?",
+          "antwoord": [
+            "50",
+            "50 N"
+          ],
+          "uitleg": "100 · 1,0 = F · 2,0, dus F = 50 N."
+        }
+      ]
+    },
+    {
+      "titel": "Druk bij vaste stoffen en in vloeistoffen — pittig",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het punt met de grootste hydrostatische druk dat het dichtst bij de wand links ligt.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/vier-punten-water.svg",
+          "zones": [
+            [
+              35.6,
+              69.7,
+              4.8,
+              7.5
+            ],
+            [
+              39.4,
+              69.4,
+              5.2,
+              8.1
+            ]
+          ],
+          "uitleg": "C en D liggen allebei op 3,5 m, de grootste diepte. C ligt links."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het punt met de kleinste hydrostatische druk.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/vier-punten-water.svg",
+          "zones": [
+            [
+              31.6,
+              32.2,
+              4.8,
+              7.5
+            ],
+            [
+              35.4,
+              31.9,
+              5.2,
+              8.1
+            ]
+          ],
+          "uitleg": "A ligt het minst diep onder het wateroppervlak."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Kijk naar het vat. Klopt dit?",
+          "rijen": [
+            "In C en D is de hydrostatische druk even groot.",
+            "In B is de druk groter dan in A.",
+            "In D is de druk groter dan in C, want D ligt meer naar rechts.",
+            "Een breder vat zou in C een grotere druk geven."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            false
+          ],
+          "uitleg": "Enkel de diepte telt, niet de plaats links of rechts en niet de breedte van het vat.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/vier-punten-water.svg"
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Kijk naar het vat. Elke 10 m water geeft ongeveer 1 bar. Hoeveel bar hydrostatische druk is er ongeveer in B?",
+          "antwoord": [
+            "0,2",
+            "0.2"
+          ],
+          "uitleg": "B ligt op 2 m, dat is een vijfde van 10 m: ongeveer 0,2 bar.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/vier-punten-water.svg"
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een kist van 600 N staat op een vloer met een grondvlak van 0,2 m². Hoe groot is de druk op de vloer, in pascal?",
+          "antwoord": [
+            "3000"
+          ],
+          "uitleg": "p = F : A = 600 : 0,2 = 3000 Pa."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Wordt de druk op de ondergrond groter of kleiner?",
+          "rijen": [
+            "je gaat van platte schoenen naar naaldhakken",
+            "een vrachtwagen krijgt extra wielen",
+            "je slijpt een mes scherp",
+            "je gaat liggen in plaats van te staan op het ijs"
+          ],
+          "antwoord": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "uitleg": "Minder contactoppervlak bij dezelfde kracht geeft meer druk.",
+          "kolommen": [
+            "Groter",
+            "Kleiner"
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Reken om.",
+          "rijen": [
+            "2 bar",
+            "1013 hPa",
+            "0,5 bar"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "1 bar = 100 000 Pa en 1 hPa = 100 Pa.",
+          "kolommen": [
+            "200 000 Pa",
+            "101 300 Pa",
+            "50 000 Pa"
+          ]
+        },
+        {
+          "casus": "Bij een hydraulische lift in een garage duw je met een kleine zuiger op olie. Aan de andere kant tilt een grote zuiger een auto op. De grote zuiger heeft een twintig keer groter oppervlak.",
+          "vragen": [
+            {
+              "type": "keuzelijst",
+              "vraag": "De druk in de olie is bij de grote zuiger [[*even groot als|twintig keer groter dan|twintig keer kleiner dan]] bij de kleine zuiger.",
+              "uitleg": "Beginsel van Pascal: de druk plant zich onverminderd voort."
+            },
+            {
+              "type": "invultekst",
+              "vraag": "Je duwt met 500 N op de kleine zuiger. Hoeveel newton levert de grote zuiger?",
+              "antwoord": [
+                "10000",
+                "10 000"
+              ],
+              "uitleg": "Twintig keer meer oppervlak geeft twintig keer meer kracht: 20 · 500 = 10 000 N."
+            },
+            {
+              "type": "tabel",
+              "vraag": "Klopt dit?",
+              "rijen": [
+                "De grote zuiger beweegt een kortere weg dan de kleine.",
+                "Je wint kracht en je wint ook weg.",
+                "De olie mag je vervangen door lucht zonder verschil."
+              ],
+              "antwoord": [
+                true,
+                false,
+                false
+              ],
+              "uitleg": "Wat je aan kracht wint, verlies je aan weg."
+            }
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Een duikster zwemt van 5 m naar 20 m diepte. Klopt dit?",
+          "rijen": [
+            "De hydrostatische druk op haar wordt groter.",
+            "De luchtdruk boven het water telt ook mee in de totale druk.",
+            "Ze moet haar oren klaren omdat de druk op haar trommelvlies stijgt.",
+            "Op 20 m is de hydrostatische druk kleiner, want het water is daar kouder."
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Hoe dieper, hoe meer water boven je en hoe groter de druk."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een olifant van 40 000 N staat op vier poten van elk 0,1 m². Hoe groot is de druk op de grond, in pascal?",
+          "antwoord": [
+            "100000",
+            "100 000"
+          ],
+          "uitleg": "Het totale oppervlak is 0,4 m². 40 000 : 0,4 = 100 000 Pa, dat is 1 bar."
+        },
+        {
+          "type": "open",
+          "vraag": "Leg uit waarom een duiker op 30 m diepte een veel grotere druk voelt dan aan het oppervlak.",
+          "antwoord": "Op 30 m staat er veel meer water boven hem. Het gewicht van dat water geeft een hydrostatische druk van ongeveer 3 bar. Daarbovenop komt nog de luchtdruk op het wateroppervlak, zodat de totale druk ongeveer 4 bar is."
+        },
+        {
+          "casus": "Een olifant van 4000 kg staat op vier poten, elk met een zool van 0,10 m². Een dame van 50 kg staat op één naaldhak van 1,0 cm² (= 0,00010 m²). Neem g = 10 N/kg.",
+          "vragen": [
+            {
+              "type": "invultekst",
+              "vraag": "Hoe groot is de druk van de olifant op de grond, in kPa?",
+              "antwoord": [
+                "100",
+                "100 kPa"
+              ],
+              "uitleg": "F = 40 000 N over 0,40 m² geeft 100 000 Pa = 100 kPa."
+            },
+            {
+              "type": "invultekst",
+              "vraag": "Hoe groot is de druk onder de naaldhak, in kPa?",
+              "antwoord": [
+                "5000",
+                "5000 kPa"
+              ],
+              "uitleg": "F = 500 N over 0,00010 m² geeft 5 000 000 Pa = 5000 kPa."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Wat besluit je uit die twee drukken?",
+              "opties": [
+                "De naaldhak geeft vijftig keer meer druk.",
+                "De olifant geeft de grootste druk, want hij is het zwaarst.",
+                "Ze geven dezelfde druk, want ze staan allebei stil.",
+                "Je kan druk niet vergelijken bij een verschillende massa."
+              ],
+              "antwoord": 0,
+              "uitleg": "5000 kPa tegenover 100 kPa: het kleine oppervlak wint van de grote kracht."
+            }
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Zet om. Klopt dit?",
+          "rijen": [
+            "1013 hPa = 101 300 Pa",
+            "2,5 bar = 250 000 Pa",
+            "50 kPa = 5000 Pa",
+            "1 mbar = 100 Pa"
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "hecto = 100, kilo = 1000, 1 bar = 100 000 Pa, 1 mbar = 1 hPa."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Rangschik van kleinste naar grootste druk.",
+          "opties": [
+            "800 Pa",
+            "12 hPa",
+            "3 kPa",
+            "0,5 bar"
+          ],
+          "uitleg": "Alles in pascal: 800, 1200, 3000 en 50 000 Pa."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe groot is de hydrostatische druk op 20 m diepte in zeewater met ρ = 1030 kg/m³ en g = 10 N/kg, in kPa?",
+          "antwoord": [
+            "206",
+            "206 kPa"
+          ],
+          "uitleg": "p = ρ · g · h = 1030 · 10 · 20 = 206 000 Pa = 206 kPa."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een duiker zit op 10 m diepte in een meer. Hoe groot is de totale druk ongeveer, met een luchtdruk van 100 kPa en g = 10 N/kg?",
+          "opties": [
+            "200 kPa",
+            "100 kPa",
+            "10 kPa",
+            "1100 kPa"
+          ],
+          "antwoord": 0,
+          "uitleg": "Hydrostatisch 1000 · 10 · 10 = 100 kPa, plus 100 kPa luchtdruk."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Drie vazen met een verschillende vorm zijn tot dezelfde hoogte met water gevuld. Klopt dit?",
+          "rijen": [
+            "De druk op de bodem is in de drie vazen gelijk.",
+            "De vaas met het meeste water heeft de grootste bodemdruk.",
+            "Met olie in plaats van water wordt de bodemdruk kleiner."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Enkel ρ, g en h tellen; olie heeft een kleinere massadichtheid dan water."
+        },
+        {
+          "casus": "Bij een hydraulische lift duw je met 200 N op een zuiger van 0,010 m². De grote zuiger heeft een oppervlakte van 0,50 m².",
+          "vragen": [
+            {
+              "type": "invultekst",
+              "vraag": "Hoe groot is de druk in de olie, in pascal?",
+              "antwoord": [
+                "20000",
+                "20 000",
+                "20000 Pa"
+              ],
+              "uitleg": "p = 200 / 0,010 = 20 000 Pa."
+            },
+            {
+              "type": "invultekst",
+              "vraag": "Hoe groot is de kracht op de grote zuiger, in newton?",
+              "antwoord": [
+                "10000",
+                "10 000",
+                "10000 N"
+              ],
+              "uitleg": "F = p · A = 20 000 · 0,50 = 10 000 N."
+            },
+            {
+              "type": "tabel",
+              "vraag": "Klopt dit over de hydraulische lift?",
+              "rijen": [
+                "De druk is bij beide zuigers even groot.",
+                "De grote zuiger gaat even ver omhoog als de kleine omlaag.",
+                "Je wint kracht, maar verliest afstand."
+              ],
+              "antwoord": [
+                true,
+                false,
+                true
+              ],
+              "uitleg": "De grote zuiger levert vijftig keer meer kracht en komt vijftig keer minder ver."
+            }
+          ]
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Hoe dieper je duikt, hoe [[groter]] de druk. Op dezelfde diepte is de druk in alle [[richtingen]] even groot. Een dam is daarom onderaan [[dikker]] dan bovenaan.",
+          "extra": [
+            "kleiner",
+            "dunner"
+          ],
+          "uitleg": "De hydrostatische druk groeit met de diepte en werkt naar alle kanten."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Welke toepassing hoort bij welk principe?",
+          "paren": [
+            [
+              "sneeuwschoenen",
+              "groot oppervlak, kleine druk"
+            ],
+            [
+              "een punaise",
+              "klein oppervlak, grote druk"
+            ],
+            [
+              "een remsysteem van een auto",
+              "beginsel van Pascal"
+            ],
+            [
+              "oorpijn bij diep duiken",
+              "hydrostatische druk"
+            ]
+          ],
+          "extra": [],
+          "uitleg": "Elke toepassing steunt op p = F/A, p = ρ · g · h of het beginsel van Pascal."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een kracht van 1 N op 1 m² geeft een druk van [[*1 Pa|1 bar|1 hPa]].",
+          "uitleg": "De pascal is per afspraak één newton per vierkante meter."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom heeft een tractor brede banden?",
+          "opties": [
+            "om de druk op de akker te verkleinen",
+            "om de zwaartekracht op de tractor te verkleinen",
+            "om de massa van de tractor beter te verdelen over de as",
+            "om de druk op de akker zo groot mogelijk te maken"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een groter contactoppervlak geeft bij dezelfde kracht een kleinere druk, zodat de tractor minder wegzakt."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een duikbril met een glas van 0,0040 m² zit op een diepte waar de waterdruk 50 kPa is. Hoe groot is de kracht van het water op het glas, in newton?",
+          "antwoord": [
+            "200",
+            "200 N"
+          ],
+          "uitleg": "F = p · A = 50 000 · 0,0040 = 200 N."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over een waterkolom van 10 m hoog?",
+          "rijen": [
+            "Ze geeft ongeveer dezelfde druk als de luchtdruk.",
+            "Haar druk hangt af van de breedte van de kolom.",
+            "In kwik is een veel lagere kolom nodig voor dezelfde druk."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true
+          ],
+          "uitleg": "1000 · 10 · 10 = 100 kPa, ongeveer 1 bar; kwik heeft een veel grotere massadichtheid."
+        }
+      ]
+    },
+    {
+      "titel": "Gassen, temperatuur en de gaswetten — pittig",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het punt waar het gas het kleinste volume heeft.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/pv-kromme.svg",
+          "zones": [
+            [
+              24.8,
+              24.1,
+              5.2,
+              8.1
+            ],
+            [
+              28.4,
+              19.4,
+              5.2,
+              8.1
+            ]
+          ],
+          "uitleg": "P ligt het meest naar links op de volume-as: 1 liter."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Kijk naar de kromme. Klopt dit?",
+          "rijen": [
+            "In P, Q en R is druk maal volume telkens 4.",
+            "Van Q naar R verdubbelt het volume en halveert de druk.",
+            "Druk en volume zijn hier recht evenredig.",
+            "Dit is een isotherm proces."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Bij een vaste temperatuur blijft p · V gelijk: omgekeerd evenredig.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/pv-kromme.svg"
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Kijk naar de kromme. Hoe groot is de druk als het volume 8 liter wordt, in bar?",
+          "antwoord": [
+            "0,5",
+            "0.5"
+          ],
+          "uitleg": "p · V = 4, dus 4 : 8 = 0,5 bar.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/pv-kromme.svg"
+        },
+        {
+          "type": "tabel",
+          "vraag": "Barometer of manometer?",
+          "rijen": [
+            "de luchtdruk in het weerbericht",
+            "de druk in een fietsband",
+            "de druk op een gasfles",
+            "de luchtdruk op een bergtop"
+          ],
+          "antwoord": [
+            0,
+            1,
+            1,
+            0
+          ],
+          "uitleg": "Een barometer is er voor de buitenlucht, een manometer voor een vat of leiding.",
+          "kolommen": [
+            "Barometer",
+            "Manometer"
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Overdruk of onderdruk?",
+          "rijen": [
+            "een zuignap tegen een tegel",
+            "een opgepompte voetbal",
+            "een fles bruiswater die nog dicht is",
+            "lucht uit een rietje zuigen"
+          ],
+          "antwoord": [
+            1,
+            0,
+            0,
+            1
+          ],
+          "uitleg": "Overdruk is hoger dan de omgeving, onderdruk lager.",
+          "kolommen": [
+            "Overdruk",
+            "Onderdruk"
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Reken om naar kelvin.",
+          "rijen": [
+            "0 °C",
+            "100 °C",
+            "-73 °C",
+            "-273 °C"
+          ],
+          "antwoord": [
+            2,
+            3,
+            1,
+            0
+          ],
+          "uitleg": "Tel 273 bij de graden Celsius.",
+          "kolommen": [
+            "0 K",
+            "200 K",
+            "273 K",
+            "373 K"
+          ]
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elk proces aan wat er gelijk blijft.",
+          "paren": [
+            [
+              "isotherm",
+              "de temperatuur"
+            ],
+            [
+              "isobaar",
+              "de druk"
+            ],
+            [
+              "isochoor",
+              "het volume"
+            ]
+          ],
+          "extra": [
+            "de massadichtheid",
+            "de diepte"
+          ],
+          "uitleg": "Iso betekent gelijk: therm, baar en choor zeggen wat."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welk proces is dit?",
+          "rijen": [
+            "een spuitbus warmt op in de zon",
+            "je duwt traag een afgesloten spuit in",
+            "een ballon krimpt in de diepvries"
+          ],
+          "antwoord": [
+            2,
+            0,
+            1
+          ],
+          "uitleg": "Spuitbus: vast volume. Spuit traag: temperatuur blijft. Ballon: druk blijft gelijk aan de buitenlucht.",
+          "kolommen": [
+            "Isotherm",
+            "Isobaar",
+            "Isochoor"
+          ]
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een gas in een gesloten vat heeft 2 bar bij 300 K. Je verwarmt het tot 450 K. Hoe groot is de druk nu, in bar?",
+          "antwoord": [
+            "3"
+          ],
+          "uitleg": "Bij gelijk volume zijn druk en absolute temperatuur recht evenredig: 450 : 300 = 1,5 en 1,5 · 2 = 3 bar."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een gas van 6 liter bij 1 bar wordt bij gelijke temperatuur samengeperst tot 2 liter. Hoe groot is de druk nu, in bar?",
+          "antwoord": [
+            "3"
+          ],
+          "uitleg": "p · V blijft 6. Bij 2 liter is de druk 6 : 2 = 3 bar."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een ballon heeft 3 liter bij 300 K en de druk blijft gelijk. Hoeveel liter is hij bij 200 K?",
+          "antwoord": [
+            "2"
+          ],
+          "uitleg": "Isobaar: volume en absolute temperatuur zijn recht evenredig. 200 : 300 = 2/3 en 2/3 · 3 = 2 liter."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom mag je bij de gaswetten niet met graden Celsius rekenen?",
+          "opties": [
+            "De verhoudingen kloppen enkel vanaf het absolute nulpunt",
+            "Graden Celsius bestaan niet in het lijstje van officiële eenheden",
+            "Kelvin geeft altijd een kleiner en dus veel handiger getal om mee te rekenen",
+            "Een thermometer meet in kelvin en niet in graden"
+          ],
+          "antwoord": 0,
+          "uitleg": "Van 10 °C naar 20 °C is geen verdubbeling van de beweging van de deeltjes. Van 283 K naar 293 K is dat duidelijk."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Volgens het deeltjesmodel ontstaat gasdruk doordat de deeltjes tegen de [[wand]] botsen. Warm je het gas op, dan bewegen de deeltjes [[sneller]] en botsen ze harder. In een kleiner volume botsen ze [[vaker]].",
+          "extra": [
+            "trager",
+            "minder vaak"
+          ],
+          "uitleg": "Meer of hardere botsingen betekent meer druk."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over een reëel gas?",
+          "rijen": [
+            "Bij lage druk gedraagt het zich bijna als een ideaal gas.",
+            "Bij hoge druk nemen de deeltjes zelf merkbaar plaats in.",
+            "Bij lage temperatuur trekken de deeltjes elkaar meer aan.",
+            "Het volgt de gaswet precies bij elke temperatuur."
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Een ideaal gas is een model. Echte gassen wijken af bij hoge druk en lage temperatuur."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet in de juiste volgorde: je fietspomp wordt warm.",
+          "opties": [
+            "Je duwt de zuiger naar beneden",
+            "De lucht in de pomp wordt samengeperst",
+            "De deeltjes krijgen meer energie",
+            "De temperatuur van de lucht stijgt"
+          ],
+          "uitleg": "Samenpersen voert energie aan het gas toe."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Een bergbeklimmer gaat van het dal naar een hoge top. Klopt dit?",
+          "rijen": [
+            "De luchtdruk daalt.",
+            "Er staat minder lucht boven haar.",
+            "Een zakje chips uit het dal bolt op de top op.",
+            "Ze heeft op de top meer zuurstof per ademteug."
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Met de hoogte daalt de luchtdruk. De lucht in het gesloten zakje duwt dan harder naar buiten dan de buitenlucht naar binnen."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Bij het absolute nulpunt zou een gas [[*geen druk|de grootste druk|een druk van 1 bar]] uitoefenen, want de deeltjes botsen niet meer.",
+          "uitleg": "Stilstaande deeltjes raken de wand niet."
+        },
+        {
+          "casus": "Een duiker heeft een fles van 12 L met lucht op 200 bar bij 27 °C. Na een tijd in de zon is de fles 57 °C warm. Het volume van de fles verandert niet.",
+          "vragen": [
+            {
+              "type": "invultekst",
+              "vraag": "Hoeveel kelvin is 27 °C? Rond af op een geheel getal.",
+              "antwoord": [
+                "300",
+                "300 K"
+              ],
+              "uitleg": "27 + 273 = 300 K."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Welke gaswet gebruik je voor de fles?",
+              "opties": [
+                "p / T = constant",
+                "p · V = constant",
+                "V / T = constant",
+                "p · T = constant"
+              ],
+              "antwoord": 0,
+              "uitleg": "Het volume blijft gelijk: een isochoor proces."
+            },
+            {
+              "type": "invultekst",
+              "vraag": "Hoe groot is de druk in de warme fles, in bar?",
+              "antwoord": [
+                "220",
+                "220 bar"
+              ],
+              "uitleg": "200 / 300 = p / 330, dus p = 220 bar."
+            }
+          ]
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Welke wet hoort bij welk proces van een vaste hoeveelheid gas?",
+          "paren": [
+            [
+              "isotherm",
+              "p · V = constant"
+            ],
+            [
+              "isobaar",
+              "V / T = constant"
+            ],
+            [
+              "isochoor",
+              "p / T = constant"
+            ]
+          ],
+          "extra": [
+            "p · T = constant"
+          ],
+          "uitleg": "Iso betekent gelijk: temperatuur, druk of volume blijft gelijk."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Wordt de druk groter of kleiner? Er verandert telkens maar één grootheid.",
+          "kolommen": [
+            "groter",
+            "kleiner"
+          ],
+          "items": [
+            [
+              "het volume halveert bij gelijke temperatuur",
+              "groter"
+            ],
+            [
+              "de temperatuur in kelvin daalt bij vast volume",
+              "kleiner"
+            ],
+            [
+              "er wordt gas bijgepompt in hetzelfde vat",
+              "groter"
+            ],
+            [
+              "het volume verdubbelt bij gelijke temperatuur",
+              "kleiner"
+            ],
+            [
+              "het vat wordt verwarmd",
+              "groter"
+            ]
+          ],
+          "uitleg": "Gebruik p · V = n · R · T en houd de rest gelijk."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel mol gas zit er in 0,0249 m³ bij 100 000 Pa en 300 K, met R = 8,31 J/(mol·K)? Rond af op een geheel getal.",
+          "antwoord": [
+            "1",
+            "1,0",
+            "1 mol"
+          ],
+          "uitleg": "n = p · V / (R · T) = 2490 / 2493 ≈ 1 mol."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Een ballon met helium stijgt hoog in de atmosfeer. Klopt dit?",
+          "rijen": [
+            "De luchtdruk rond de ballon wordt kleiner.",
+            "De ballon zet uit.",
+            "Het aantal heliumdeeltjes in de ballon groeit."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Buiten daalt de druk, dus het gas in de ballon kan verder uitzetten tot hij knapt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een gas van 6,0 L bij 400 K wordt bij gelijke druk afgekoeld tot 200 K. Hoe groot wordt het volume?",
+          "opties": [
+            "3,0 L",
+            "12 L",
+            "6,0 L",
+            "1,5 L"
+          ],
+          "antwoord": 0,
+          "uitleg": "V / T blijft gelijk: de temperatuur in kelvin halveert, dus het volume ook."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over temperatuur in het deeltjesmodel?",
+          "rijen": [
+            "Bij 0 K bewegen de deeltjes niet meer.",
+            "Een temperatuur van −300 °C bestaat.",
+            "Verdubbel je de temperatuur in kelvin, dan verdubbelt de gemiddelde kinetische energie."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true
+          ],
+          "uitleg": "De absolute temperatuur is een maat voor de gemiddelde kinetische energie; lager dan −273,15 °C kan niet."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Een gas oefent druk uit doordat de deeltjes tegen de [[wand]] botsen. Warm je het gas op, dan bewegen de deeltjes [[sneller]] en stijgt de druk. De temperatuur vul je in [[kelvin]] in.",
+          "extra": [
+            "trager",
+            "graden Celsius"
+          ],
+          "uitleg": "Het deeltjesmodel verklaart de gaswetten."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een p(V)-grafiek van een isotherm proces is een [[*hyperbool|rechte door de oorsprong|horizontale rechte]].",
+          "uitleg": "p en V zijn omgekeerd evenredig."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een gas van 1,0 bar, 10 L en 300 K gaat naar 2,0 bar en 600 K. Hoe groot is het nieuwe volume in liter?",
+          "antwoord": [
+            "10",
+            "10 L"
+          ],
+          "uitleg": "p · V / T: 1,0 · 10 / 300 = 2,0 · V / 600, dus V = 10 L."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Rangschik van koudste naar warmste.",
+          "opties": [
+            "0 K",
+            "−100 °C",
+            "200 K",
+            "0 °C",
+            "300 K"
+          ],
+          "uitleg": "Alles in kelvin: 0, 173, 200, 273 en 300 K."
+        }
+      ]
+    },
+    {
+      "titel": "Arbeid, energie, vermogen en rendement — pittig",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de stand waar de kinetische energie het grootst is.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/slinger-drie-standen.svg",
+          "zones": [
+            [
+              46.4,
+              70.9,
+              7.2,
+              11.2
+            ],
+            [
+              47.4,
+              83.4,
+              5.2,
+              8.1
+            ]
+          ],
+          "uitleg": "In het laagste punt is alle hoogte-energie omgezet in bewegingsenergie."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Kijk naar de slinger. Je verwaarloost de wrijving. Klopt dit?",
+          "rijen": [
+            "In A is de snelheid nul.",
+            "In A en C is de hoogte-energie even groot.",
+            "In B is de totale energie het grootst.",
+            "Van B naar C wordt kinetische energie hoogte-energie."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "De som van de twee vormen blijft gelijk. Ze wisselen enkel van plaats.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/slinger-drie-standen.svg"
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "In het echt komt de slinger na een tijd tot stilstand. De energie is dan [[*omgezet in warmte|verdwenen|omgezet in massa]].",
+          "uitleg": "Wrijving met de lucht en in het ophangpunt dissipeert de energie.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/slinger-drie-standen.svg"
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de ongewenste energie.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/stroomdiagram-lamp.svg",
+          "zones": [
+            [
+              40.0,
+              46.9,
+              30.0,
+              45.3
+            ],
+            [
+              44.4,
+              49.1,
+              5.2,
+              8.1
+            ]
+          ],
+          "uitleg": "Een lamp is bedoeld om licht te geven. De warmte is ongewenst."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Kijk naar het stroomdiagram. Hoeveel procent is het rendement van deze lamp?",
+          "antwoord": [
+            "10"
+          ],
+          "uitleg": "6 : 60 = 0,1, dus 10 %.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/stroomdiagram-lamp.svg"
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Kijk naar het stroomdiagram. Wat is het vermogen van deze lamp, in watt?",
+          "antwoord": [
+            "60"
+          ],
+          "uitleg": "Ze zet elke seconde 60 J om: 60 J/s = 60 W.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/stroomdiagram-lamp.svg"
+        },
+        {
+          "type": "tabel",
+          "vraag": "Verricht deze kracht arbeid?",
+          "rijen": [
+            "je draagt een kist horizontaal door de gang",
+            "je tilt een kist van de grond op de tafel",
+            "je houdt een zware boodschappentas stil vast",
+            "een kraan hijst een balk omhoog"
+          ],
+          "antwoord": [
+            false,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Arbeid vraagt een verplaatsing in de richting van de kracht. Horizontaal dragen: de kracht staat loodrecht op de verplaatsing."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is de arbeid van deze kracht positief, negatief of nul?",
+          "rijen": [
+            "de wrijving op een schuivende slee",
+            "de motorkracht van een versnellende auto",
+            "de normaalkracht op een rijdende trein",
+            "de zwaartekracht op een vallende appel"
+          ],
+          "antwoord": [
+            1,
+            0,
+            2,
+            0
+          ],
+          "uitleg": "Mee met de beweging: positief. Tegen de beweging: negatief. Loodrecht: nul.",
+          "kolommen": [
+            "Positief",
+            "Negatief",
+            "Nul"
+          ]
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Je trekt een slee 20 m ver met een kracht van 50 N in de bewegingsrichting. Hoeveel joule arbeid verricht je?",
+          "antwoord": [
+            "1000"
+          ],
+          "uitleg": "W = F · s = 50 · 20 = 1000 J."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elk voorbeeld aan de energievorm die erin opgeslagen zit.",
+          "paren": [
+            [
+              "een opgespannen boog",
+              "elastische potentiële energie"
+            ],
+            [
+              "water hoog in een stuwmeer",
+              "gravitationele potentiële energie"
+            ],
+            [
+              "een rijdende fiets",
+              "kinetische energie"
+            ],
+            [
+              "een boterham",
+              "chemische energie"
+            ]
+          ],
+          "extra": [
+            "stralingsenergie"
+          ],
+          "uitleg": "Stralingsenergie zit in licht."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welke energieomzetting gebeurt hier vooral?",
+          "rijen": [
+            "een zonnepaneel",
+            "een elektrische motor",
+            "een kampvuur",
+            "een dynamo op een fiets"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "uitleg": "Kijk wat erin gaat en wat er nuttig uitkomt.",
+          "kolommen": [
+            "stralingsenergie → elektrische energie",
+            "elektrische energie → kinetische energie",
+            "chemische energie → warmte en licht",
+            "kinetische energie → elektrische energie"
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Open, gesloten of geïsoleerd systeem?",
+          "rijen": [
+            "een kookpot zonder deksel op het vuur",
+            "een dichte blikken frisdrank in de koelkast",
+            "een ideale thermosfles die dicht is"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Open: energie en materie. Gesloten: enkel energie. Geïsoleerd: geen van beide.",
+          "kolommen": [
+            "Open",
+            "Gesloten",
+            "Geïsoleerd"
+          ]
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een rugzak van 5 kg ligt op een kast van 2 m hoog. Hoeveel joule hoogte-energie heeft hij, met 10 N/kg?",
+          "antwoord": [
+            "100"
+          ],
+          "uitleg": "E = m · g · h = 5 · 10 · 2 = 100 J."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een skateboarder van 50 kg rijdt met 4 m/s. Hoeveel joule kinetische energie heeft hij?",
+          "antwoord": [
+            "400"
+          ],
+          "uitleg": "E = m · v² : 2 = 50 · 16 : 2 = 400 J."
+        },
+        {
+          "casus": "Een knikker van 0,2 kg rolt zonder wrijving van een helling van 0,8 m hoog. Je rekent met 10 N/kg.",
+          "vragen": [
+            {
+              "type": "invultekst",
+              "vraag": "Hoeveel joule hoogte-energie heeft de knikker bovenaan?",
+              "antwoord": [
+                "1,6",
+                "1.6"
+              ],
+              "uitleg": "0,2 · 10 · 0,8 = 1,6 J."
+            },
+            {
+              "type": "invultekst",
+              "vraag": "Hoe snel rolt hij onderaan, in m/s?",
+              "antwoord": [
+                "4"
+              ],
+              "uitleg": "Alle 1,6 J wordt kinetische energie: 0,2 · v² : 2 = 1,6, dus v² = 16 en v = 4 m/s."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "Een knikker van 0,4 kg zou onderaan [[*even snel|twee keer zo snel|half zo snel]] rollen.",
+              "uitleg": "De massa staat links en rechts in de energiebalans en valt dus weg."
+            }
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Een auto rijdt eerst 30 km/h en dan 60 km/h. Klopt dit?",
+          "rijen": [
+            "Zijn kinetische energie wordt vier keer zo groot.",
+            "Zijn kinetische energie wordt twee keer zo groot.",
+            "De remmen moeten dan meer energie in warmte omzetten.",
+            "Zijn massa wordt groter door de hogere snelheid."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "De snelheid staat in het kwadraat: 2² = 4."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een veer met k = 200 N/m wordt 0,1 m ingedrukt. Hoeveel joule elastische energie zit erin?",
+          "antwoord": [
+            "1"
+          ],
+          "uitleg": "E = k · u² : 2 = 200 · 0,01 : 2 = 1 J."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Reken uit.",
+          "rijen": [
+            "1200 J in 4 s",
+            "3000 J in 10 s",
+            "600 J in 3 s",
+            "1000 J in 2 s"
+          ],
+          "antwoord": [
+            1,
+            1,
+            0,
+            2
+          ],
+          "uitleg": "Vermogen = energie : tijd.",
+          "kolommen": [
+            "200 W",
+            "300 W",
+            "500 W"
+          ]
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een stofzuiger van 1500 W staat 2 uur aan. Hoeveel kilowattuur verbruikt hij?",
+          "antwoord": [
+            "3"
+          ],
+          "uitleg": "1,5 kW · 2 h = 3 kWh."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Eenheid van energie of van vermogen?",
+          "rijen": [
+            "joule",
+            "watt",
+            "kilowattuur",
+            "kilocalorie",
+            "kilowatt"
+          ],
+          "antwoord": [
+            0,
+            1,
+            0,
+            0,
+            1
+          ],
+          "uitleg": "Kilowattuur is vermogen maal tijd, dus energie.",
+          "kolommen": [
+            "Energie",
+            "Vermogen"
+          ]
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een elektrische motor krijgt 800 J en levert 600 J beweging. Hoeveel procent is zijn rendement?",
+          "antwoord": [
+            "75"
+          ],
+          "uitleg": "600 : 800 = 0,75, dus 75 %."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een uitvinder zegt dat zijn machine een rendement van 110 % haalt. Wat is er mis?",
+          "opties": [
+            "Er kan niet meer nuttige energie uit dan er in gaat",
+            "Een rendement druk je nooit in procent uit, maar altijd in joule",
+            "Een machine heeft altijd een rendement van precies 100 %",
+            "Een hoog rendement kan alleen bij een toestel met weinig vermogen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Dat zou de wet van behoud van energie tegenspreken."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Bij een waterkoker is de [[nuttige]] energie de warmte in het water. De warmte die naar de kamer gaat, is [[ongewenste]] energie. Het [[rendement]] is de verhouding van de nuttige tot de totale energie.",
+          "extra": [
+            "kinetische",
+            "vermogen"
+          ],
+          "uitleg": "Wat nuttig is, hangt af van waarvoor het toestel bedoeld is."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet de energieomzettingen in een waterkrachtcentrale in de juiste volgorde.",
+          "opties": [
+            "Water staat hoog in het stuwmeer",
+            "Het water stroomt snel naar beneden",
+            "Het water doet de turbine draaien",
+            "De generator maakt elektrische energie"
+          ],
+          "uitleg": "Hoogte-energie wordt kinetische energie en dan elektrische energie."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Kijk naar het stroomdiagram. Hoeveel joule warmte geeft de lamp in één minuut?",
+          "antwoord": [
+            "3240"
+          ],
+          "uitleg": "Elke seconde 54 J, en een minuut heeft 60 s: 54 · 60 = 3240 J.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/stroomdiagram-lamp.svg"
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een bloempot van 2 kg valt van een balkon op 10 m hoogte. Hoeveel joule kinetische energie heeft hij net voor de grond? Je verwaarloost de luchtweerstand en rekent met 10 N/kg.",
+          "antwoord": [
+            "200"
+          ],
+          "uitleg": "Alle hoogte-energie wordt kinetische energie: 2 · 10 · 10 = 200 J."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Een waterkoker van 1000 W en een van 2000 W koken elk een liter water. Ze hebben hetzelfde rendement. Klopt dit?",
+          "rijen": [
+            "De waterkoker van 2000 W is ongeveer twee keer zo snel klaar.",
+            "Ze zetten allebei ongeveer evenveel energie om.",
+            "De waterkoker van 2000 W verbruikt dubbel zoveel energie.",
+            "Vermogen zegt hoe snel energie omgezet wordt."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Zelfde energie in de helft van de tijd vraagt dubbel vermogen."
+        },
+        {
+          "type": "open",
+          "vraag": "Leg uit waarom je fietsremmen warm worden als je een lange helling afrijdt en blijft remmen.",
+          "antwoord": "Bij het dalen wordt hoogte-energie kinetische energie. Door te remmen verricht de wrijvingskracht negatieve arbeid. Zo wordt die energie omgezet in warmte in de remmen. De energie verdwijnt niet, ze verandert van vorm."
+        }
+      ]
+    },
+    {
+      "titel": "Warmte, faseovergangen en de warmtebalans — pittig",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het stuk waar het ijs smelt.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/ijs-tot-stoom.svg",
+          "zones": [
+            [
+              20.7,
+              58.4,
+              5.2,
+              8.1
+            ],
+            [
+              16.4,
+              65.9,
+              13.8,
+              5.6
+            ]
+          ],
+          "uitleg": "Het eerste vlakke stuk ligt op 0 °C: daar smelt het ijs."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het stuk waar vloeibaar water opwarmt.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/ijs-tot-stoom.svg",
+          "zones": [
+            [
+              29.8,
+              43.6,
+              5.2,
+              8.1
+            ],
+            [
+              31.2,
+              31.2,
+              10.5,
+              35.9
+            ]
+          ],
+          "uitleg": "Tussen 0 en 100 °C stijgt de temperatuur van het vloeibare water."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Kijk naar de opwarmcurve van water. Klopt dit?",
+          "rijen": [
+            "In stuk D is er latente warmte nodig.",
+            "Stuk D is langer dan stuk B, dus verdampen vraagt meer warmte dan smelten.",
+            "In stuk B stijgt de temperatuur traag.",
+            "In stuk E is alles stoom."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Op de vlakke stukken gaat alle warmte naar de faseovergang.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/ijs-tot-stoom.svg"
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "In stuk A is het water [[*vast|vloeibaar|gasvormig]] en neemt het merkbare warmte op.",
+          "uitleg": "Onder 0 °C is water ijs.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/ijs-tot-stoom.svg"
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de plaats waar warmte zich vooral door convectie verplaatst.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/pot-op-vuur.svg",
+          "zones": [
+            [
+              32.0,
+              46.9,
+              26.0,
+              26.6
+            ]
+          ],
+          "uitleg": "Het warme water stijgt, het koudere zakt: de stof zelf neemt de warmte mee."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de pijl die geleiding toont.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/pot-op-vuur.svg",
+          "zones": [
+            [
+              60.0,
+              40.6,
+              24.0,
+              10.9
+            ]
+          ],
+          "uitleg": "Langs de steel geven de deeltjes hun beweging door aan hun buren."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Je hand naast de hete pot voelt warmte zonder iets aan te raken. Dat is [[*straling|geleiding|convectie]], pijl C.",
+          "uitleg": "Straling heeft geen stof nodig.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/pot-op-vuur.svg"
+        },
+        {
+          "type": "tabel",
+          "vraag": "Geleiding, convectie of straling?",
+          "rijen": [
+            "een lepel in hete soep wordt warm",
+            "warme lucht van een radiator vult de kamer",
+            "je gezicht wordt warm in de zon",
+            "een strijkijzer op een hemd",
+            "water in een pot draait rond tijdens het koken"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            0,
+            1
+          ],
+          "uitleg": "Contact: geleiding. Stromende stof: convectie. Zonder stof: straling.",
+          "kolommen": [
+            "Geleiding",
+            "Convectie",
+            "Straling"
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Warmte of temperatuur?",
+          "rijen": [
+            "meet je in joule",
+            "meet je met een thermometer",
+            "is energie die overgaat",
+            "hangt samen met hoe snel de deeltjes bewegen"
+          ],
+          "antwoord": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "uitleg": "Temperatuur zegt hoe warm iets is, warmte is de energie die overgaat.",
+          "kolommen": [
+            "Warmte",
+            "Temperatuur"
+          ]
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel joule heb je nodig om 0,5 kg water 20 °C op te warmen? Neem 4180 J per kg per °C.",
+          "antwoord": [
+            "41800",
+            "41 800"
+          ],
+          "uitleg": "Q = c · m · ΔT = 4180 · 0,5 · 20 = 41 800 J."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een blok van 2 kg neemt 9000 J op en warmt 5 °C op. Wat is de specifieke warmtecapaciteit, in J per kg per °C?",
+          "antwoord": [
+            "900"
+          ],
+          "uitleg": "c = Q : (m · ΔT) = 9000 : 10 = 900."
+        },
+        {
+          "casus": "Op een zomerdag ligt Noor op het strand. Om twaalf uur is het zand gloeiend heet, maar het zeewater is nog fris. 's Avonds is het zand al afgekoeld, terwijl de zee lauw blijft.",
+          "vragen": [
+            {
+              "type": "meerkeuze",
+              "vraag": "Hoe verklaar je dat?",
+              "opties": [
+                "Water heeft een veel grotere specifieke warmtecapaciteit dan zand",
+                "Het zand krijgt overdag veel meer zonlicht dan het water dat ernaast ligt",
+                "Zeewater geleidt de warmte veel beter dan zand en houdt ze daardoor vast",
+                "Het zout in het zeewater maakt de zee 's avonds warmer dan de lucht erboven"
+              ],
+              "antwoord": 0,
+              "uitleg": "Water moet veel energie opnemen en afgeven voor één graad verschil."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "Het zand heeft een [[*kleine|grote|even grote]] specifieke warmtecapaciteit en warmt dus snel op en af.",
+              "uitleg": "Een kleine warmtecapaciteit geeft snelle temperatuurwissels."
+            }
+          ]
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Je mengt 1 kg water van 90 °C met 2 kg water van 30 °C. Wat wordt de eindtemperatuur, in °C? Er gaat geen warmte verloren.",
+          "antwoord": [
+            "50"
+          ],
+          "uitleg": "Afgegeven = opgenomen: 1 · (90 - T) = 2 · (T - 30). Dat geeft 90 - T = 2T - 60, dus T = 50 °C."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Neemt de stof warmte op of geeft ze warmte af?",
+          "rijen": [
+            "smelten",
+            "condenseren",
+            "verdampen",
+            "stollen",
+            "sublimeren",
+            "desublimeren"
+          ],
+          "antwoord": [
+            0,
+            1,
+            0,
+            1,
+            0,
+            1
+          ],
+          "uitleg": "Naar een toestand met zwakkere cohesiekrachten: warmte opnemen.",
+          "kolommen": [
+            "Neemt op",
+            "Geeft af"
+          ]
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elk voorbeeld aan de faseovergang.",
+          "paren": [
+            [
+              "rijm op het gras op een koude ochtend",
+              "desublimeren"
+            ],
+            [
+              "droogijs dat rookt op tafel",
+              "sublimeren"
+            ],
+            [
+              "een beslagen badkamerspiegel",
+              "condenseren"
+            ],
+            [
+              "een plas die opdroogt in de zon",
+              "verdampen"
+            ]
+          ],
+          "extra": [
+            "stollen"
+          ],
+          "uitleg": "Vast naar gas zonder vloeistof: sublimeren. Gas naar vast: desublimeren."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel joule heb je nodig om 2 kg ijs van 0 °C te smelten? De specifieke smeltwarmte is 334 000 J per kg.",
+          "antwoord": [
+            "668000",
+            "668 000"
+          ],
+          "uitleg": "Q = l · m = 334 000 · 2 = 668 000 J."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Merkbare of latente warmte?",
+          "rijen": [
+            "soep warmt op van 20 °C naar 60 °C",
+            "een ijsblokje smelt bij 0 °C",
+            "water kookt weg bij 100 °C",
+            "een ijzeren staaf koelt af van 300 °C naar 50 °C"
+          ],
+          "antwoord": [
+            0,
+            1,
+            1,
+            0
+          ],
+          "uitleg": "Merkbaar: de temperatuur verandert. Latent: de fase verandert.",
+          "kolommen": [
+            "Merkbare",
+            "Latente"
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over een fruitboer die bij nachtvorst water op zijn bloesems sproeit?",
+          "rijen": [
+            "Het water geeft warmte af terwijl het stolt.",
+            "Zolang er water stolt, blijft de bloesem rond 0 °C.",
+            "Het ijs maakt de bloesem kouder dan de lucht.",
+            "Stollen vraagt warmte uit de bloesem."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            false
+          ],
+          "uitleg": "Bij stollen komt latente warmte vrij."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Als ijs smelt, breken de [[cohesiekrachten]] tussen de deeltjes gedeeltelijk. De deeltjes kunnen dan langs elkaar [[schuiven]]. De temperatuur blijft tijdens het smelten [[gelijk]].",
+          "extra": [
+            "stijgen",
+            "versnellen"
+          ],
+          "uitleg": "De warmte gaat naar het losbreken, niet naar sneller bewegen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je zit na het zwemmen in een natte handdoek in de wind. Waarom heb je het zo koud?",
+          "opties": [
+            "Het water verdampt en haalt daarbij warmte uit je huid",
+            "Het water houdt de warmte van de zon tegen zodat je opwarmt",
+            "De wind blaast koude naar binnen door de natte handdoek",
+            "Het water op je huid condenseert en neemt zo warmte van je op"
+          ],
+          "antwoord": 0,
+          "uitleg": "Verdampen vraagt veel warmte. De wind voert de damp weg, zodat er sneller nieuw water verdampt."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over een calorimeter?",
+          "rijen": [
+            "Hij is goed geïsoleerd.",
+            "Je meet er warmte mee die een stof opneemt of afgeeft.",
+            "Hij laat bewust veel warmte naar buiten.",
+            "Je gebruikt hem om een warmtebalans op te stellen."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Hoe minder warmte ontsnapt, hoe beter de meting."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet in de juiste volgorde: een warmtebalans oplossen.",
+          "opties": [
+            "Bepaal welk deel warmte afgeeft en welk deel opneemt",
+            "Schrijf voor elk deel de warmte met c · m · ΔT",
+            "Stel afgegeven warmte gelijk aan opgenomen warmte",
+            "Los de vergelijking op naar de eindtemperatuur"
+          ],
+          "uitleg": "Behoud van energie: wat het ene deel verliest, wint het andere."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een glas met 0,2 kg water van 25 °C koelt af tot 5 °C. Hoeveel joule geeft het water af? Neem 4180 J per kg per °C.",
+          "antwoord": [
+            "16720",
+            "16 720"
+          ],
+          "uitleg": "Q = 4180 · 0,2 · 20 = 16 720 J."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Een tapijt en een tegelvloer liggen in dezelfde kamer. Klopt dit?",
+          "rijen": [
+            "Een tapijt en een tegelvloer in dezelfde kamer hebben dezelfde temperatuur.",
+            "Een tegel voelt kouder omdat hij warmte sneller wegleidt.",
+            "Een tapijt is een goede warmtegeleider.",
+            "Je huid voelt hoe snel ze warmte verliest."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Je voelt het warmteverlies, niet de temperatuur zelf."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Kijk naar de curve. In welk stuk is het water in deze toestand?",
+          "rijen": [
+            "enkel ijs",
+            "ijs en water samen",
+            "enkel vloeibaar water",
+            "water en stoom samen"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "uitleg": "Op een vlak stuk zijn twee fasen tegelijk aanwezig.",
+          "kolommen": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/ijs-tot-stoom.svg"
+        },
+        {
+          "type": "tabel",
+          "vraag": "Kijk naar de pot. Klopt dit?",
+          "rijen": [
+            "Een houten handvat helpt tegen pijl B.",
+            "Pijl C kan ook door een luchtledige ruimte gaan.",
+            "Bij A blijft het water op zijn plaats en geven de deeltjes enkel een duwtje door.",
+            "Zonder deksel gaat er ook warmte weg met de damp."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Hout is een isolator. Bij convectie stroomt de stof zelf.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/pot-op-vuur.svg"
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Twee voorwerpen raken elkaar tot ze dezelfde temperatuur hebben. Dat heet [[*thermisch evenwicht|latente warmte|warmtecapaciteit]].",
+          "uitleg": "Dan stopt de netto warmtestroom."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel joule komt er vrij als 0,1 kg water van 0 °C helemaal bevriest? De specifieke smeltwarmte is 334 000 J per kg.",
+          "antwoord": [
+            "33400",
+            "33 400"
+          ],
+          "uitleg": "Stollen geeft evenveel warmte af als smelten vraagt: 334 000 · 0,1 = 33 400 J."
+        },
+        {
+          "type": "open",
+          "vraag": "Leg uit waarom een brandwonde door stoom van 100 °C erger is dan een door water van 100 °C.",
+          "antwoord": "Stoom condenseert op je huid. Daarbij geeft hij de grote verdampingswarmte af, als latente warmte. Daarna geeft het water nog merkbare warmte af terwijl het afkoelt. Zo krijgt je huid veel meer energie dan van water dat enkel afkoelt."
+        }
+      ]
+    },
+    {
+      "titel": "Elektrische stroom, spanning en weerstand — pittig",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het toestel dat de stroomsterkte meet.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/schakelschema.svg",
+          "zones": [
+            [
+              46.6,
+              68.1,
+              8.8,
+              13.8
+            ],
+            [
+              48.4,
+              85.0,
+              5.2,
+              8.1
+            ]
+          ],
+          "uitleg": "De ampèremeter staat in serie in de kring: alle stroom gaat erdoor."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het toestel dat parallel over een onderdeel staat.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/schakelschema.svg",
+          "zones": [
+            [
+              87.6,
+              43.1,
+              8.8,
+              13.8
+            ],
+            [
+              89.4,
+              63.1,
+              5.2,
+              8.1
+            ]
+          ],
+          "uitleg": "De voltmeter meet de spanning over de weerstand en staat er daarom parallel over."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het onderdeel dat de kring kan openen.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/schakelschema.svg",
+          "zones": [
+            [
+              32.0,
+              17.2,
+              9.0,
+              9.4
+            ],
+            [
+              33.9,
+              10.0,
+              5.2,
+              8.1
+            ]
+          ],
+          "uitleg": "De schakelaar staat open: er loopt nu geen stroom."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de spanningsbron.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/schakelschema.svg",
+          "zones": [
+            [
+              13.0,
+              42.2,
+              10.0,
+              15.6
+            ],
+            [
+              6.4,
+              45.9,
+              5.2,
+              8.1
+            ]
+          ],
+          "uitleg": "De lange streep is de pluspool, de korte dikke streep de minpool."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Kijk naar het schema. Klopt dit?",
+          "rijen": [
+            "Zolang de schakelaar open staat, brandt de lamp niet.",
+            "De voltmeter meet de spanning over de weerstand.",
+            "De ampèremeter meet enkel de stroom door de lamp, niet door de weerstand.",
+            "Onderdeel 3 is een lamp."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "In één enkele kring is de stroomsterkte overal dezelfde.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/schakelschema.svg"
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de grootste weerstand.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/ui-twee-weerstanden.svg",
+          "zones": [
+            [
+              45.2,
+              57.4,
+              47.8,
+              19.9
+            ],
+            [
+              83.6,
+              52.6,
+              5.2,
+              8.1
+            ]
+          ],
+          "uitleg": "Bij dezelfde spanning loopt door Q de kleinste stroom: grootste weerstand."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Kijk naar de grafiek. Hoeveel ohm is weerstand P?",
+          "antwoord": [
+            "4"
+          ],
+          "uitleg": "Bij 12 V loopt er 3 A: R = 12 : 3 = 4 Ω.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/ui-twee-weerstanden.svg"
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Kijk naar de grafiek. Hoeveel ampère loopt er door Q bij 6 V?",
+          "antwoord": [
+            "0,5",
+            "0.5"
+          ],
+          "uitleg": "Q is 12 Ω (12 V geeft 1 A). 6 : 12 = 0,5 A.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/ui-twee-weerstanden.svg"
+        },
+        {
+          "type": "tabel",
+          "vraag": "Reken uit met de wet van Ohm.",
+          "rijen": [
+            "U = 9 V en R = 3 Ω, dan is I",
+            "I = 0,5 A en R = 20 Ω, dan is U",
+            "U = 230 V en I = 2 A, dan is R",
+            "U = 6 V en R = 2 Ω, dan is I"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            0
+          ],
+          "uitleg": "U = R · I, dus I = U : R en R = U : I.",
+          "kolommen": [
+            "3 A",
+            "10 V",
+            "115 Ω"
+          ]
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elke elektrische grootheid aan haar eenheid.",
+          "paren": [
+            [
+              "stroomsterkte",
+              "ampère"
+            ],
+            [
+              "spanning",
+              "volt"
+            ],
+            [
+              "weerstand",
+              "ohm"
+            ],
+            [
+              "lading",
+              "coulomb"
+            ]
+          ],
+          "extra": [
+            "watt"
+          ],
+          "uitleg": "De watt is de eenheid van vermogen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Geleidt dit de elektrische stroom goed of slecht?",
+          "rijen": [
+            "koperdraad",
+            "rubberen handschoen",
+            "zout water",
+            "droog glas",
+            "aluminiumfolie"
+          ],
+          "antwoord": [
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "uitleg": "Metalen hebben vrije elektronen, een zoutoplossing vrije ionen.",
+          "kolommen": [
+            "Geleider",
+            "Isolator"
+          ]
+        },
+        {
+          "casus": "Jonas meet de stroomsterkte door een weerstand bij verschillende spanningen.\n\n| U (V) | I (A) |\n|---|---|\n| 2 | 0,1 |\n| 4 | 0,2 |\n| 6 | 0,3 |",
+          "vragen": [
+            {
+              "type": "invultekst",
+              "vraag": "Hoeveel ohm is de weerstand?",
+              "antwoord": [
+                "20"
+              ],
+              "uitleg": "2 : 0,1 = 20 Ω, en bij elke meting komt hetzelfde uit."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "Zet Jonas deze waarden in een grafiek, dan krijgt hij een [[*rechte door de oorsprong|dalende kromme|horizontale lijn]].",
+              "uitleg": "Spanning en stroom zijn recht evenredig."
+            },
+            {
+              "type": "invultekst",
+              "vraag": "Welke stroomsterkte verwacht hij bij 10 V, in ampère?",
+              "antwoord": [
+                "0,5",
+                "0.5"
+              ],
+              "uitleg": "10 : 20 = 0,5 A."
+            }
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Wordt de weerstand van een draad groter of kleiner?",
+          "rijen": [
+            "je maakt de draad langer",
+            "je kiest een dikkere draad",
+            "je kiest een dunnere draad",
+            "je maakt de draad korter"
+          ],
+          "antwoord": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "uitleg": "Een langere, nauwere weg geeft meer weerstand.",
+          "kolommen": [
+            "Groter",
+            "Kleiner"
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In een metaaldraad bewegen de elektronen van min naar plus. Waarom tekent men de stroom toch van plus naar min?",
+          "opties": [
+            "Die afspraak dateert van voor men wist dat elektronen negatief zijn",
+            "De elektronen keren halverwege de draad altijd netjes van richting om",
+            "In een metaal bewegen eigenlijk vooral de positieve kernen met de stroom mee",
+            "De pluspool trekt de elektronen weg en zo ontstaat een tegenstroom"
+          ],
+          "antwoord": 0,
+          "uitleg": "Dat is de conventionele stroomzin."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Gewenst of ongewenst Joule-effect?",
+          "rijen": [
+            "de gloeiplaat van een broodrooster",
+            "een warm verlengsnoer",
+            "een elektrisch vuurtje",
+            "een opgewarmde laptoplader"
+          ],
+          "antwoord": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "uitleg": "Waar de warmte de bedoeling is, is het effect gewenst.",
+          "kolommen": [
+            "Gewenst",
+            "Ongewenst"
+          ]
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elke beveiliging aan wat ze doet.",
+          "paren": [
+            [
+              "automatische zekering",
+              "slaat af bij te grote stroom"
+            ],
+            [
+              "verliesstroomschakelaar",
+              "slaat af als stroom langs een andere weg wegloopt"
+            ],
+            [
+              "aarddraad",
+              "leidt stroom van een metalen omhulsel naar de grond"
+            ],
+            [
+              "dubbele isolatie",
+              "houdt het omhulsel altijd spanningsloos"
+            ]
+          ],
+          "extra": [
+            "meet de spanning over een toestel"
+          ],
+          "uitleg": "Meten doet een voltmeter, en die beveiligt niets."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welk risico is dit vooral?",
+          "rijen": [
+            "twee blanke draden raken elkaar",
+            "de oven, de wasmachine en de droogkast op één kring",
+            "met natte handen een kapotte stekker vastnemen"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Bij kortsluiting en overbelasting wordt de stroom te groot. Bij elektrocutie loopt hij door je lichaam.",
+          "kolommen": [
+            "Kortsluiting",
+            "Overbelasting",
+            "Elektrocutie"
+          ]
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een strijkijzer van 2000 W staat anderhalf uur aan. Hoeveel kilowattuur verbruikt het?",
+          "antwoord": [
+            "3"
+          ],
+          "uitleg": "2 kW · 1,5 h = 3 kWh."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Bij een [[kortsluiting]] vindt de stroom een weg met bijna geen [[weerstand]]. De stroomsterkte wordt dan heel groot en de [[zekering]] slaat af.",
+          "extra": [
+            "voltmeter",
+            "spanning"
+          ],
+          "uitleg": "Zo voorkomt de zekering dat de draden te heet worden."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over je lichaam en elektriciteit?",
+          "rijen": [
+            "Met natte handen is je weerstand kleiner.",
+            "Een grotere spanning geeft bij dezelfde weerstand een grotere stroom door je lichaam.",
+            "Het gevaar hangt vooral af van de stroom door je lichaam.",
+            "Droge huid geleidt beter dan natte huid."
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Wet van Ohm: I = U : R. Minder weerstand of meer spanning geeft meer stroom."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een batterij levert [[*gelijkspanning|wisselspanning|netspanning]], met een vaste plus- en minpool.",
+          "uitleg": "Het stopcontact levert wisselspanning."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Een ledlamp van 7 W geeft evenveel licht als een gloeilamp van 60 W. Klopt dit?",
+          "rijen": [
+            "De ledlamp zet per seconde minder energie om.",
+            "De gloeilamp maakt veel meer warmte.",
+            "De ledlamp heeft het grootste rendement.",
+            "Ze verbruiken in een uur evenveel energie."
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Minder vermogen voor dezelfde taak is zuiniger."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet in de juiste volgorde: een verliesstroomschakelaar redt iemand.",
+          "opties": [
+            "Een kapotte draad raakt het metalen omhulsel van een toestel",
+            "Iemand raakt het omhulsel aan",
+            "Er loopt stroom door die persoon naar de grond",
+            "De schakelaar merkt dat er minder stroom terugkomt en slaat af"
+          ],
+          "uitleg": "Hij vergelijkt wat erin gaat met wat terugkomt."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Kijk naar het schema. Welk nummer hoort bij welk onderdeel?",
+          "rijen": [
+            "de weerstand",
+            "de lamp",
+            "de voltmeter",
+            "de schakelaar"
+          ],
+          "antwoord": [
+            2,
+            1,
+            3,
+            0
+          ],
+          "uitleg": "Een weerstand is een rechthoekje, een lamp een rondje met een kruis.",
+          "kolommen": [
+            "2",
+            "3",
+            "4",
+            "6"
+          ],
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/schakelschema.svg"
+        },
+        {
+          "type": "tabel",
+          "vraag": "Kijk naar de grafiek van de weerstanden. Klopt dit?",
+          "rijen": [
+            "Weerstand Q is drie keer zo groot als P.",
+            "Bij beide is de stroom recht evenredig met de spanning.",
+            "Hoe steiler de rechte, hoe groter de weerstand.",
+            "Bij 0 V loopt er door beide geen stroom."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Een steilere rechte betekent meer stroom per volt: een kleinere weerstand.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/ui-twee-weerstanden.svg"
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een lampje heeft 6 Ω en er loopt 0,5 A door. Hoeveel volt staat erover?",
+          "antwoord": [
+            "3"
+          ],
+          "uitleg": "U = R · I = 6 · 0,5 = 3 V."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Verdubbel je de weerstand bij dezelfde spanning, dan wordt de stroomsterkte [[*half zo groot|dubbel zo groot|even groot]].",
+          "uitleg": "Stroom en weerstand zijn omgekeerd evenredig bij gelijke spanning."
+        },
+        {
+          "type": "open",
+          "vraag": "Leg uit waarom een te dun verlengsnoer brandgevaarlijk kan zijn als je er een zware verwarming op aansluit.",
+          "antwoord": "Een zware verwarming trekt een grote stroom. Een dunne draad heeft een grotere weerstand. Door het Joule-effect wordt de draad dan heet, en de isolatie kan smelten of vuur vatten."
+        }
+      ]
+    },
+    {
+      "titel": "Licht: weerkaatsing, breking en lenzen — pittig",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "De gele straal loopt parallel met de optische as naar de lens. B en D liggen even ver van de lens, A en E dubbel zo ver. Klik op het punt waar die straal na de lens door de as gaat.",
+          "afbeelding_url": "/examenvormen/fysica-boost-do/bolle-lens.svg",
+          "zones": [
+            [
+              60.5,
+              46.9,
+              9.0,
+              18.8
+            ]
+          ],
+          "uitleg": "Een straal parallel met de as gaat na de lens door het brandpunt aan de andere kant."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het punt waar een straal rechtdoor gaat zonder van richting te veranderen.",
+          "afbeelding_url": "/examenvormen/fysica-boost-do/bolle-lens.svg",
+          "zones": [
+            [
+              45.5,
+              46.9,
+              9.0,
+              18.8
+            ]
+          ],
+          "uitleg": "Door het optisch middelpunt breekt een straal niet."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Op welk punt moet je het voorwerp zetten om een omgekeerd beeld te krijgen dat even groot is? Klik erop.",
+          "afbeelding_url": "/examenvormen/fysica-boost-do/bolle-lens.svg",
+          "zones": [
+            [
+              15.5,
+              46.9,
+              9.0,
+              18.8
+            ]
+          ],
+          "uitleg": "Op 2F staat het beeld op 2F aan de andere kant, omgekeerd en even groot."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Een straal komt van links door dit punt en loopt na de lens parallel met de as. Klik op het punt.",
+          "afbeelding_url": "/examenvormen/fysica-boost-do/bolle-lens.svg",
+          "zones": [
+            [
+              30.5,
+              46.9,
+              9.0,
+              18.8
+            ]
+          ],
+          "uitleg": "Een straal door het brandpunt voor de lens gaat na de lens parallel met de as."
+        },
+        {
+          "casus": "Een lichtstraal valt onder een hoek van 40° met het spiegeloppervlak op een vlakke spiegel.",
+          "vragen": [
+            {
+              "type": "invultekst",
+              "vraag": "Hoe groot is de invalshoek in graden?",
+              "antwoord": [
+                "50",
+                "50°"
+              ],
+              "uitleg": "De invalshoek meet je tegenover de normaal: 90° − 40° = 50°."
+            },
+            {
+              "type": "invultekst",
+              "vraag": "Hoe groot is de hoek tussen de invallende en de weerkaatste straal, in graden?",
+              "antwoord": [
+                "100",
+                "100°"
+              ],
+              "uitleg": "Invalshoek plus weerkaatsingshoek: 50° + 50° = 100°."
+            }
+          ]
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Is het voorwerp doorzichtig, doorschijnend of ondoorschijnend?",
+          "kolommen": [
+            "doorzichtig",
+            "doorschijnend",
+            "ondoorschijnend"
+          ],
+          "items": [
+            [
+              "een helder raam",
+              "doorzichtig"
+            ],
+            [
+              "matglas in een badkamer",
+              "doorschijnend"
+            ],
+            [
+              "een houten deur",
+              "ondoorschijnend"
+            ],
+            [
+              "bakpapier",
+              "doorschijnend"
+            ],
+            [
+              "een bakstenen muur",
+              "ondoorschijnend"
+            ],
+            [
+              "helder water",
+              "doorzichtig"
+            ]
+          ],
+          "uitleg": "Doorzichtig: scherp beeld; doorschijnend: licht maar geen scherp beeld; ondoorschijnend: geen licht."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Lien staat 1,5 m voor een vlakke spiegel. Klopt dit?",
+          "rijen": [
+            "Haar beeld staat 1,5 m achter de spiegel.",
+            "De afstand tussen Lien en haar beeld is 3,0 m.",
+            "Haar beeld is kleiner dan zijzelf.",
+            "Haar beeld kan je op een scherm opvangen."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            false
+          ],
+          "uitleg": "Het beeld is virtueel en even groot, even ver achter als voor de spiegel."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een straal die van water naar lucht gaat, buigt [[*van de normaal weg|naar de normaal toe|helemaal niet af]].",
+          "uitleg": "Van optisch dicht naar optisch ijl wordt de hoek met de normaal groter."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Een voorwerp van 2,0 cm geeft door een bolle lens een beeld van 6,0 cm. Klopt dit?",
+          "rijen": [
+            "De vergrotingsfactor is 3.",
+            "Het voorwerp staat dichter bij de lens dan 2F.",
+            "De beeldafstand is drie keer de voorwerpsafstand.",
+            "Het voorwerp staat verder dan 2F."
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Een vergroot reëel beeld krijg je tussen F en 2F; verder dan 2F wordt het beeld kleiner."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Bij een maansverduistering staat:",
+          "opties": [
+            "de aarde tussen de zon en de maan",
+            "de maan tussen de zon en de aarde",
+            "de zon tussen de aarde en de maan",
+            "de maan achter de zon"
+          ],
+          "antwoord": 0,
+          "uitleg": "De maan komt in de schaduw van de aarde."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Welk beeld hoort bij welke plaats van het voorwerp voor een bolle lens?",
+          "paren": [
+            [
+              "verder dan 2F",
+              "reëel, omgekeerd, kleiner"
+            ],
+            [
+              "op 2F",
+              "reëel, omgekeerd, even groot"
+            ],
+            [
+              "tussen F en 2F",
+              "reëel, omgekeerd, groter"
+            ],
+            [
+              "tussen F en de lens",
+              "virtueel, rechtop, groter"
+            ]
+          ],
+          "extra": [
+            "virtueel, omgekeerd, kleiner"
+          ],
+          "uitleg": "Hoe dichter bij F, hoe groter en verder het beeld."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Bij weerkaatsing liggen de invallende straal, de weerkaatste straal en de [[normaal]] in één vlak. De [[invalshoek]] is gelijk aan de [[weerkaatsingshoek]].",
+          "extra": [
+            "brandpunt",
+            "brekingshoek"
+          ],
+          "uitleg": "De twee terugkaatsingswetten."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Een lamp schijnt op een bal voor een muur. Klopt dit?",
+          "rijen": [
+            "Met een grote lamp krijg je een bijschaduw rond de kernschaduw.",
+            "Hoe dichter de bal bij de lamp, hoe groter de schaduw op de muur.",
+            "Met een kleine puntbron is er een brede bijschaduw."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Een puntbron geeft bijna enkel kernschaduw; een grote bron ook bijschaduw."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een vis lijkt in het water hoger te zitten dan hij echt zit. Hoe komt dat?",
+          "opties": [
+            "De stralen breken van de normaal weg als ze het water verlaten.",
+            "Het licht kaatst diffuus terug tegen het ruwe wateroppervlak.",
+            "De stralen breken naar de normaal toe als ze uit het water gaan.",
+            "Het wateroppervlak werkt als een vlakke spiegel boven de vis."
+          ],
+          "antwoord": 0,
+          "uitleg": "Je oog volgt de gebroken straal terug in een rechte lijn en ziet de vis hoger."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Rangschik de stappen om het beeld van een voorwerp bij een bolle lens te construeren.",
+          "opties": [
+            "Teken de optische as, de lens en de brandpunten.",
+            "Teken een straal vanuit de top van het voorwerp parallel met de as.",
+            "Laat die straal na de lens door het brandpunt gaan.",
+            "Teken een tweede straal door het optisch middelpunt.",
+            "Het snijpunt van de twee stralen is de top van het beeld."
+          ],
+          "uitleg": "Twee kenmerkende stralen volstaan om het beeldpunt te vinden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom zie je een wit blad papier van op elke plaats in de klas?",
+          "opties": [
+            "Het papier kaatst het licht diffuus terug, in alle richtingen.",
+            "Het papier zendt zelf licht uit, net als een lamp.",
+            "Het papier breekt het licht naar de normaal toe.",
+            "Het papier kaatst het licht regelmatig terug, zoals een spiegel."
+          ],
+          "antwoord": 0,
+          "uitleg": "Een ruw oppervlak verstrooit het licht naar alle kanten."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welke beelden kan je op een scherm opvangen?",
+          "rijen": [
+            "het beeld van een diaprojector",
+            "je spiegelbeeld in de badkamer",
+            "het beeld door een loep",
+            "het beeld van een lens in een fototoestel"
+          ],
+          "antwoord": [
+            true,
+            false,
+            false,
+            true
+          ],
+          "uitleg": "Enkel reële beelden vang je op; een spiegel en een loep geven virtuele beelden."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Het beeld van een kaars door een lens is 4 keer kleiner dan de kaars van 12 cm. Hoe groot is het beeld in cm?",
+          "antwoord": [
+            "3",
+            "3,0",
+            "3 cm"
+          ],
+          "uitleg": "12 / 4 = 3,0 cm; de vergrotingsfactor is 0,25."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over de breking van licht?",
+          "rijen": [
+            "Bij breking verandert de richting van de straal aan het grensvlak.",
+            "Een straal die loodrecht invalt, breekt niet.",
+            "Van lucht naar glas wordt de brekingshoek groter dan de invalshoek."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Naar een optisch dichtere stof buigt de straal naar de normaal toe."
+        },
+        {
+          "casus": "Ruben bekijkt een postzegel door een loep met een brandpuntsafstand van 10 cm.",
+          "vragen": [
+            {
+              "type": "meerkeuze",
+              "vraag": "Waar moet de postzegel liggen om een vergroot, rechtopstaand beeld te zien?",
+              "opties": [
+                "dichter bij de loep dan 10 cm",
+                "tussen 10 cm en 20 cm van de loep",
+                "verder dan 20 cm van de loep",
+                "precies op 20 cm van de loep"
+              ],
+              "antwoord": 0,
+              "uitleg": "Tussen het brandpunt en de lens krijg je een virtueel, rechtopstaand en vergroot beeld."
+            },
+            {
+              "type": "tabel",
+              "vraag": "Klopt dit over het beeld dat Ruben ziet?",
+              "rijen": [
+                "Het beeld is virtueel.",
+                "Hij kan het beeld op een blad opvangen.",
+                "Het beeld staat aan dezelfde kant van de loep als de postzegel."
+              ],
+              "antwoord": [
+                true,
+                false,
+                true
+              ],
+              "uitleg": "Een loep geeft een virtueel beeld aan de kant van het voorwerp."
+            }
+          ]
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een lichtstraal valt in op een spiegel met een invalshoek van 25°. Hoe groot is de hoek tussen de weerkaatste straal en het spiegeloppervlak, in graden?",
+          "antwoord": [
+            "65",
+            "65°"
+          ],
+          "uitleg": "De weerkaatsingshoek is 25°, dus met het oppervlak 90° − 25° = 65°."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Is het een voorbeeld van weerkaatsing of van breking?",
+          "kolommen": [
+            "weerkaatsing",
+            "breking"
+          ],
+          "items": [
+            [
+              "je spiegelbeeld in een vijver",
+              "weerkaatsing"
+            ],
+            [
+              "een stok die geknikt lijkt in het water",
+              "breking"
+            ],
+            [
+              "een vergrootglas dat zonlicht bundelt",
+              "breking"
+            ],
+            [
+              "de achteruitkijkspiegel van een auto",
+              "weerkaatsing"
+            ],
+            [
+              "een zwembad dat ondieper lijkt",
+              "breking"
+            ]
+          ],
+          "uitleg": "Weerkaatsing: het licht keert terug; breking: het gaat door naar een andere stof."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een bolle lens is in het midden [[*dikker|dunner|even dik]] dan aan de rand en bundelt evenwijdige stralen in het [[*brandpunt|optisch middelpunt|invalspunt]].",
+          "uitleg": "Daarom heet een bolle lens ook een convergerende lens."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Een voorwerp staat 30 cm voor een bolle lens met F = 10 cm. Klopt dit?",
+          "rijen": [
+            "Het voorwerp staat verder dan 2F.",
+            "Het beeld is reëel en omgekeerd.",
+            "Het beeld is groter dan het voorwerp."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false
+          ],
+          "uitleg": "2F ligt op 20 cm; verder dan 2F geeft een verkleind, omgekeerd, reëel beeld."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je verschuift het voorwerp van ver weg naar het brandpunt van een bolle lens. Wat gebeurt er met het reële beeld?",
+          "opties": [
+            "Het komt verder van de lens en wordt groter.",
+            "Het komt dichter bij de lens en wordt kleiner.",
+            "Het blijft op dezelfde plaats en wordt groter.",
+            "Het wordt virtueel zodra het voorwerp verschuift."
+          ],
+          "antwoord": 0,
+          "uitleg": "Hoe dichter het voorwerp bij F komt, hoe verder en groter het beeld."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Welk woord hoort bij welke beschrijving?",
+          "paren": [
+            [
+              "normaal",
+              "lijn loodrecht op het oppervlak in het invalspunt"
+            ],
+            [
+              "invalshoek",
+              "hoek tussen invallende straal en normaal"
+            ],
+            [
+              "brekingshoek",
+              "hoek tussen gebroken straal en normaal"
+            ],
+            [
+              "optische as",
+              "lijn loodrecht door het midden van de lens"
+            ]
+          ],
+          "extra": [
+            "brandpuntsafstand"
+          ],
+          "uitleg": "Alle hoeken meet je tegenover de normaal."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een voorwerp van 5,0 cm geeft een beeld met vergrotingsfactor 2,5. Hoe groot is het beeld in cm?",
+          "antwoord": [
+            "12,5",
+            "12.5",
+            "12,5 cm"
+          ],
+          "uitleg": "5,0 · 2,5 = 12,5 cm."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over het stralenmodel?",
+          "rijen": [
+            "Een lichtstraal teken je als een rechte met een pijl.",
+            "De pijl toont de zin waarin het licht gaat.",
+            "Licht gaat in lucht in een boog rond een voorwerp."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false
+          ],
+          "uitleg": "In een doorzichtige stof plant licht zich rechtlijnig voort."
+        }
+      ]
+    },
+    {
+      "titel": "Veilig werken, meten en onderzoek — pittig",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "casus": "Sara wil weten of de temperatuur van water invloed heeft op hoe snel suiker oplost. Ze verwacht dat suiker in warm water sneller oplost.",
+          "vragen": [
+            {
+              "type": "koppelen",
+              "vraag": "Koppel elk onderdeel van haar onderzoek.",
+              "paren": [
+                [
+                  "Lost suiker sneller op in warm water?",
+                  "onderzoeksvraag"
+                ],
+                [
+                  "Ik verwacht dat warm water sneller oplost.",
+                  "hypothese"
+                ],
+                [
+                  "de temperatuur van het water",
+                  "wat Sara verandert"
+                ],
+                [
+                  "de tijd tot de suiker weg is",
+                  "wat Sara meet"
+                ]
+              ],
+              "extra": [
+                "conclusie"
+              ],
+              "uitleg": "De conclusie komt pas na de metingen."
+            },
+            {
+              "type": "tabel",
+              "vraag": "Wat houdt Sara gelijk?",
+              "rijen": [
+                "de hoeveelheid suiker",
+                "de hoeveelheid water",
+                "de temperatuur van het water",
+                "de manier van roeren"
+              ],
+              "antwoord": [
+                true,
+                true,
+                false,
+                true
+              ],
+              "uitleg": "Enkel wat je onderzoekt mag veranderen."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "Na de metingen blijkt dat haar verwachting klopt. Dan is haar hypothese [[*bevestigd|weerlegd|overbodig]].",
+              "uitleg": "Een weerlegde hypothese had ook kennis opgeleverd."
+            }
+          ]
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet de stappen van een onderzoek in de juiste volgorde.",
+          "opties": [
+            "Een onderzoeksvraag opstellen",
+            "Een hypothese formuleren",
+            "Een onderzoeksplan maken",
+            "Metingen uitvoeren en data verzamelen",
+            "Een conclusie formuleren",
+            "Reflecteren en communiceren"
+          ],
+          "uitleg": "Eerst de vraag en de verwachting, dan plannen, meten, besluiten en terugkijken."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over een goede conclusie?",
+          "rijen": [
+            "Ze beantwoordt de onderzoeksvraag.",
+            "Ze steunt op de gemeten gegevens.",
+            "Ze mag dingen bevatten die je niet gemeten hebt.",
+            "Je past de gegevens aan zodat ze bij je hypothese passen."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            false
+          ],
+          "uitleg": "De gegevens beslissen, niet de verwachting."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom herhaal je een meting liefst een paar keer?",
+          "opties": [
+            "Om toevallige meetfouten minder te laten doorwegen",
+            "Om de uitkomst beter te laten passen bij wat je verwachtte",
+            "Omdat één enkele meting volgens de regels nooit mag",
+            "Om zo meer beduidende cijfers te kunnen opschrijven"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het gemiddelde van meer metingen ligt dichter bij de echte waarde."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet de stappen van een ontwerp in de juiste volgorde.",
+          "opties": [
+            "Het probleem scherp omschrijven",
+            "Criteria opstellen",
+            "Het probleem in deelproblemen splitsen",
+            "Een oplossing bouwen",
+            "De oplossing toetsen aan de criteria en bijsturen"
+          ],
+          "uitleg": "Zonder criteria kan je achteraf niet beoordelen of het ontwerp goed is."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welke STEM-discipline speelt hier vooral mee?",
+          "rijen": [
+            "begrijpen hoe een virus zich vermenigvuldigt",
+            "een koelbox voor vaccins ontwerpen en bouwen",
+            "berekenen hoeveel dosissen per week nodig zijn",
+            "een app om afspraken te maken voor een prik"
+          ],
+          "antwoord": [
+            0,
+            2,
+            3,
+            1
+          ],
+          "uitleg": "De vier disciplines werken samen aan één probleem.",
+          "kolommen": [
+            "Wetenschappen",
+            "Technologie",
+            "Engineering",
+            "Wiskunde"
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Tabel of grafiek: wat toont dit het best?",
+          "rijen": [
+            "de precieze waarde van elke meting",
+            "welk verband er tussen twee grootheden is",
+            "de meetwaarden met hun eenheid in de hoofding",
+            "of de punten op een rechte liggen"
+          ],
+          "antwoord": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "uitleg": "Een tabel geeft de waarden, een grafiek het verband.",
+          "kolommen": [
+            "Tabel",
+            "Grafiek"
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over STEM en de maatschappij?",
+          "rijen": [
+            "De energieomslag zet onderzoekers aan tot nieuwe batterijen.",
+            "Een pandemie versnelt onderzoek naar vaccins.",
+            "Technologie ontwikkelt zich los van wat mensen nodig hebben.",
+            "Nieuwe technieken kunnen ook nieuwe vragen in de maatschappij oproepen."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Maatschappij en STEM beïnvloeden elkaar in twee richtingen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Kijk naar de grafieken. Klopt dit?",
+          "rijen": [
+            "Bij A hoort y = 0 bij x = 0.",
+            "Bij B hoort y = 0 bij x = 0.",
+            "Bij C raakt de kromme de x-as nooit.",
+            "Bij D stijgt y steeds sneller."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            true
+          ],
+          "uitleg": "Enkel bij A gaat de rechte door de oorsprong.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/vier-verbanden.svg"
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welk verband zit in deze meetreeks?",
+          "rijen": [
+            "x: 1, 2, 4 en y: 3, 6, 12",
+            "x: 1, 2, 4 en y: 12, 6, 3",
+            "x: 1, 2, 3 en y: 2, 8, 18",
+            "x: 0, 1, 2 en y: 5, 7, 9"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "uitleg": "Kijk naar de verhouding, het product of het kwadraat.",
+          "kolommen": [
+            "Recht evenredig",
+            "Omgekeerd evenredig",
+            "Kwadratisch",
+            "Lineair, niet recht evenredig"
+          ]
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "In de reflectie zeg je onder meer hoe [[*betrouwbaar|duur|lang]] je resultaat is.",
+          "uitleg": "Je kijkt terug op je methode en je resultaten."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over een onderzoeksverslag?",
+          "rijen": [
+            "Je beschrijft je werkwijze zodat iemand anders het kan herhalen.",
+            "Je vermeldt de eenheden bij je meetwaarden.",
+            "Metingen die niet passen, laat je weg zonder iets te zeggen.",
+            "Je vermeldt welk materiaal je gebruikte."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Herhaalbaarheid is een kern van wetenschap."
+        },
+        {
+          "type": "open",
+          "vraag": "Je wil onderzoeken of een bal hoger opbotst als je hem van hoger laat vallen. Beschrijf hoe je dat eerlijk onderzoekt.",
+          "antwoord": "Ik laat dezelfde bal op dezelfde vloer vallen en verander enkel de valhoogte. Bij elke hoogte meet ik de opbotshoogte een paar keer en neem ik het gemiddelde. Ik zet de resultaten in een tabel en een grafiek en kijk welk verband er is. Mijn conclusie steunt op die metingen."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het glaswerk waarmee je één bepaald volume het nauwkeurigst afmeet.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/labo-glaswerk.svg",
+          "zones": [
+            [
+              78.0,
+              12.5,
+              11.0,
+              70.3
+            ],
+            [
+              80.9,
+              86.6,
+              5.2,
+              8.1
+            ]
+          ],
+          "uitleg": "Een volpipet heeft één ijkstreep en meet precies dat ene volume af."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het glaswerk met een schaalverdeling waarop je een volume redelijk nauwkeurig afleest.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/labo-glaswerk.svg",
+          "zones": [
+            [
+              55.0,
+              18.8,
+              14.0,
+              64.1
+            ],
+            [
+              59.4,
+              86.6,
+              5.2,
+              8.1
+            ]
+          ],
+          "uitleg": "Een maatcilinder is smal en heeft een fijne schaal. Een bekerglas is bedoeld om te mengen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Kijk naar het glaswerk. Klopt dit?",
+          "rijen": [
+            "A is een bekerglas, geschikt om te mengen en te verwarmen.",
+            "De streepjes op A geven een ruwe schatting van het volume.",
+            "B is een erlenmeyer, die je goed kan rondzwenken zonder te morsen.",
+            "A is nauwkeuriger dan D om 25 ml af te meten."
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Hoe smaller het glas bij de streep, hoe nauwkeuriger.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/labo-glaswerk.svg"
+        },
+        {
+          "type": "tabel",
+          "vraag": "H-zin of P-zin?",
+          "rijen": [
+            "Ontvlambare vloeistof en damp.",
+            "Draag beschermende handschoenen.",
+            "Giftig bij inslikken.",
+            "Verwijderd houden van open vuur.",
+            "Veroorzaakt ernstige oogirritatie."
+          ],
+          "antwoord": [
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "uitleg": "H: het gevaar. P: de voorzorg.",
+          "kolommen": [
+            "H-zin",
+            "P-zin"
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Veilig of duurzaam werken in het labo, of geen van beide?",
+          "rijen": [
+            "een veiligheidsbril dragen bij het verwarmen",
+            "niet meer stof nemen dan je nodig hebt",
+            "met natte handen een stekker uittrekken",
+            "de multimeter uitzetten na de proef"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            1
+          ],
+          "uitleg": "Veilig beschermt jou en anderen, duurzaam spaart stoffen en energie.",
+          "kolommen": [
+            "Veilig",
+            "Duurzaam",
+            "Geen van beide"
+          ]
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Op een flesje met een sterk zuur staat het pictogram voor [[bijtende]] stoffen. Je draagt dan [[handschoenen]] en een [[veiligheidsbril]].",
+          "extra": [
+            "ontvlambare",
+            "oorbeschermers"
+          ],
+          "uitleg": "Een sterk zuur tast huid en ogen aan."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Waar hoort dit afval?",
+          "rijen": [
+            "een gebroken reageerbuis",
+            "een gebruikte papieren handdoek zonder chemicaliën",
+            "de rest van een organisch oplosmiddel"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Glas en chemicaliën horen nooit bij het gewone afval of in de gootsteen.",
+          "kolommen": [
+            "Bak voor scherp afval",
+            "Gewone vuilbak",
+            "Inzamelfles voor chemisch afval"
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over veilig werken met een bunsenbrander?",
+          "rijen": [
+            "Je houdt ontvlambare stoffen uit de buurt van de vlam.",
+            "Lang haar bind je samen.",
+            "Je verwarmt een reageerbuis met de opening naar je gezicht.",
+            "Je laat een brandende brander niet alleen."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Een vlam en ontvlambare stoffen gaan nooit samen."
+        },
+        {
+          "casus": "Jonas onderzoekt of de lengte van een slinger invloed heeft op de tijd van één slingering. Hij meet bij vier lengtes telkens de tijd voor tien slingeringen en deelt door tien.",
+          "vragen": [
+            {
+              "type": "koppelen",
+              "vraag": "Welke variabele is dit?",
+              "paren": [
+                [
+                  "de lengte van de slinger",
+                  "onafhankelijke variabele"
+                ],
+                [
+                  "de tijd van één slingering",
+                  "afhankelijke variabele"
+                ],
+                [
+                  "de massa van het gewichtje",
+                  "constante variabele"
+                ]
+              ],
+              "extra": [
+                "hypothese",
+                "besluit"
+              ],
+              "uitleg": "Wat je instelt, wat je meet en wat je gelijk houdt."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Waarom meet Jonas tien slingeringen en deelt hij door tien?",
+              "opties": [
+                "Zo weegt de fout bij starten en stoppen minder door.",
+                "Omdat één slingering te snel gaat om ooit te kunnen meten.",
+                "Omdat de slinger na tien keer vanzelf stilvalt.",
+                "Zo hoeft hij de lengte van de slinger niet te meten."
+              ],
+              "antwoord": 0,
+              "uitleg": "De reactietijd telt maar één keer mee, verdeeld over tien slingeringen."
+            },
+            {
+              "type": "tabel",
+              "vraag": "Klopt dit over de proef van Jonas?",
+              "rijen": [
+                "Hij zet de lengte op de horizontale as.",
+                "Hij verandert bij elke meting ook het gewichtje.",
+                "Hij herhaalt elke meting een paar keer."
+              ],
+              "antwoord": [
+                true,
+                false,
+                true
+              ],
+              "uitleg": "Een eerlijke proef verandert één ding tegelijk."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een leerling besluit na één meting: 'Zwaardere voorwerpen vallen sneller.' Wat is het grootste probleem?",
+          "opties": [
+            "Eén meting is te weinig om een besluit op te bouwen.",
+            "Hij heeft het in het verkeerde lokaal gemeten.",
+            "Hij gebruikte geen wetenschappelijke notatie.",
+            "Een besluit mag nooit over vallende voorwerpen gaan."
+          ],
+          "antwoord": 0,
+          "uitleg": "Herhalen en meerdere voorwerpen vergelijken is nodig; in vacuüm vallen ze zelfs even snel."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over een goed onderzoek?",
+          "rijen": [
+            "Een hypothese moet je kunnen toetsen.",
+            "Een resultaat dat je hypothese tegenspreekt, laat je weg.",
+            "Je beschrijft je werkwijze zodat anderen het kunnen herhalen."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Ook een verworpen hypothese is een geldig resultaat."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "In een onderzoek stel je eerst een [[onderzoeksvraag]] en een [[hypothese]] op. Na de metingen trek je een [[besluit]].",
+          "extra": [
+            "grafiek",
+            "eenheid"
+          ],
+          "uitleg": "De stappen van een onderzoek."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Wat hoort in de reflectie van een onderzoeksverslag?",
+          "rijen": [
+            "hoe betrouwbaar je resultaat is",
+            "wat je de volgende keer anders zou doen",
+            "hoeveel het materiaal gekost heeft"
+          ],
+          "antwoord": [
+            true,
+            true,
+            false
+          ],
+          "uitleg": "In de reflectie kijk je kritisch terug op je werkwijze."
+        }
+      ]
+    }
+  ]
+}

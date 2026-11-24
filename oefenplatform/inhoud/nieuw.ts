@@ -41,6 +41,12 @@ export const nieuwTekst = {
 export const updates: Update[] = [
   {
     datum: "24 november 2026",
+    titel: "Pittige hoofdstukken fysica in Boost doorstroom",
+    tekst:
+      "Fysica in Boost doorstroom heeft nu bij elk van de 12 onderwerpen een pittig hoofdstuk van 30 vragen, in examenvorm: van meten en eenheden over beweging, krachten, archimedeskracht en moment tot druk, gaswetten, energie, warmte, elektriciteit, licht en lenzen en onderzoek. Met rekenvragen in stappen, casussen en klikvragen op prenten, zoals een lat met draaipunt en een bolle lens.",
+  },
+  {
+    datum: "24 november 2026",
     titel: "Pittige hoofdstukken chemie in Boost doorstroom",
     tekst:
       "Chemie in Boost doorstroom heeft nu bij elk van de 12 onderwerpen een pittig hoofdstuk van 30 vragen, in examenvorm: van mengsels, atomen en het periodiek systeem over bindingen, naamgeving en organische stoffen tot reacties, pH, rekenen met de mol en veilig werken. Met rekenvragen in stappen, casussen en klikvragen op prenten.",

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Bolle lens met optische as</text>
+<line x1="40" y1="330" x2="960" y2="330" stroke="#24331b" stroke-width="2"/>
+<ellipse cx="500" cy="330" rx="22" ry="220" fill="#dcebf7" stroke="#3b6fa0" stroke-width="3"/>
+<line x1="110" y1="330" x2="110" y2="210" stroke="#b5651d" stroke-width="5"/>
+<polygon points="110,210 116.2,224.7 103.8,224.7" fill="#b5651d"/>
+<text x="110" y="195" font-size="18" text-anchor="middle" fill="#24331b">voorwerp</text>
+<line x1="200" y1="320" x2="200" y2="340" stroke="#24331b" stroke-width="3"/>
+<line x1="350" y1="320" x2="350" y2="340" stroke="#24331b" stroke-width="3"/>
+<line x1="500" y1="320" x2="500" y2="340" stroke="#24331b" stroke-width="3"/>
+<line x1="650" y1="320" x2="650" y2="340" stroke="#24331b" stroke-width="3"/>
+<line x1="800" y1="320" x2="800" y2="340" stroke="#24331b" stroke-width="3"/>
+<line x1="110" y1="210" x2="500" y2="210" stroke="#e8c547" stroke-width="3"/>
+<polygon points="500,210 485.3,216.2 485.3,203.8" fill="#e8c547"/>
+<circle cx="200" cy="390" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="200" y="397" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<circle cx="350" cy="390" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="350" y="397" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<circle cx="500" cy="390" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="500" y="397" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<circle cx="650" cy="390" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="650" y="397" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">D</text>
+<circle cx="800" cy="390" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="800" y="397" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">E</text>
+</svg>
