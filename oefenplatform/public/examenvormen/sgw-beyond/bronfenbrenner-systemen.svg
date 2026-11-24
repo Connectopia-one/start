@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">De systemen rond een kind volgens Bronfenbrenner</text>
+<ellipse cx="470" cy="300" rx="420" ry="250" fill="#eef2e9" stroke="#24331b" stroke-width="2"/>
+<ellipse cx="470" cy="300" rx="320" ry="190" fill="#e2eadb" stroke="#24331b" stroke-width="2"/>
+<ellipse cx="470" cy="300" rx="220" ry="130" fill="#d6e2cb" stroke="#24331b" stroke-width="2"/>
+<ellipse cx="470" cy="300" rx="120" ry="70" fill="#c4d5b5" stroke="#24331b" stroke-width="2"/>
+<circle cx="470" cy="300" r="22" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="470" y="307" font-size="16" text-anchor="middle" fill="#24331b">kind</text>
+<circle cx="470" cy="252" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="470" y="259" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<circle cx="470" cy="196" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="470" y="203" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<circle cx="470" cy="136" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="470" y="143" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<circle cx="470" cy="78" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="470" y="85" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">D</text>
+<line x1="120" y1="600" x2="860" y2="600" stroke="#24331b" stroke-width="4"/>
+<polygon points="860,600 845.3,606.2 845.3,593.8" fill="#24331b"/>
+<circle cx="900" cy="600" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="900" y="607" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">E</text>
+</svg>

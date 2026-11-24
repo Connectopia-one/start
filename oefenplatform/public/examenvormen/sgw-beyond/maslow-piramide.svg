@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">De behoeften volgens Maslow</text>
+<path d="M100.0 570 L900.0 570 L820.0 470 L180.0 470 Z" fill="#e8efe1" stroke="#24331b" stroke-width="2"/>
+<circle cx="500" cy="528.0" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="500" y="535.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<path d="M180.0 470 L820.0 470 L740.0 370 L260.0 370 Z" fill="#dfe9d6" stroke="#24331b" stroke-width="2"/>
+<circle cx="500" cy="428.0" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="500" y="435.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<path d="M260.0 370 L740.0 370 L660.0 270 L340.0 270 Z" fill="#d6e2cb" stroke="#24331b" stroke-width="2"/>
+<circle cx="500" cy="328.0" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="500" y="335.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<path d="M340.0 270 L660.0 270 L580.0 170 L420.0 170 Z" fill="#cddcc0" stroke="#24331b" stroke-width="2"/>
+<circle cx="500" cy="228.0" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="500" y="235.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">D</text>
+<path d="M420.0 170 L580.0 170 L500.0 70 L500.0 70 Z" fill="#c4d5b5" stroke="#24331b" stroke-width="2"/>
+<circle cx="500" cy="128.0" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="500" y="135.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">E</text>
+</svg>
