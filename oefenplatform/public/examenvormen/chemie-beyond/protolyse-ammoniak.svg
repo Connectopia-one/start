@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Een protolysereactie in water</text>
+<rect x="95" y="270" width="150" height="80" rx="16" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="170" y="323" font-size="34" text-anchor="middle" fill="#24331b" font-weight="bold">NH₃</text>
+<circle cx="170" cy="420" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="170" y="427" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<rect x="305" y="270" width="150" height="80" rx="16" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="380" y="323" font-size="34" text-anchor="middle" fill="#24331b" font-weight="bold">H₂O</text>
+<circle cx="380" cy="420" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="380" y="427" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<rect x="565" y="270" width="150" height="80" rx="16" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="640" y="323" font-size="34" text-anchor="middle" fill="#24331b" font-weight="bold">NH₄⁺</text>
+<circle cx="640" cy="420" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="640" y="427" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<rect x="775" y="270" width="150" height="80" rx="16" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="850" y="323" font-size="34" text-anchor="middle" fill="#24331b" font-weight="bold">OH⁻</text>
+<circle cx="850" cy="420" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="850" y="427" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">D</text>
+<text x="275" y="323" font-size="34" text-anchor="middle" fill="#24331b" font-weight="bold">+</text>
+<text x="510" y="323" font-size="40" text-anchor="middle" fill="#24331b" font-weight="bold">⇌</text>
+<text x="745" y="323" font-size="34" text-anchor="middle" fill="#24331b" font-weight="bold">+</text>
+<path d="M 380 262 Q 275 170 180 262" fill="none" stroke="#b03a2e" stroke-width="3"/>
+<line x1="205" y1="238" x2="182" y2="262" stroke="#b03a2e" stroke-width="3"/>
+<polygon points="182,262 187.7,247.0 196.7,255.7" fill="#b03a2e"/>
+<text x="280" y="195" font-size="24" text-anchor="middle" fill="#b03a2e" font-weight="bold">H⁺</text>
+</svg>
