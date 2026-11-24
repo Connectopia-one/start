@@ -216,7 +216,7 @@ export function Briefjeformulier({
         />
       </label>
 
-      <p className="text-[14.5px] text-ink-dim">{prikbord.formulier.privacy}</p>
+      <p className="text-[14.5px] text-ink-dim">{prikbord.formulier.privacy}{" "}<a href="/privacy" className="font-bold text-green underline">Lees onze privacyverklaring.</a></p>
 
       <div>
         <button

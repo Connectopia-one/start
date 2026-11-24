@@ -140,7 +140,7 @@ export function Gidsformulier() {
         </label>
       </div>
 
-      <p className="text-[14.5px] text-ink-dim">{t.privacy}</p>
+      <p className="text-[14.5px] text-ink-dim">{t.privacy}{" "}<a href="/privacy" className="font-bold text-green underline">Lees onze privacyverklaring.</a></p>
 
       <div>
         <button

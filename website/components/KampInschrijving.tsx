@@ -448,7 +448,10 @@ export function KampInschrijving({ kampen }: { kampen: Kamp[] }) {
             <div className="rounded-[16px] bg-purple-soft px-5 py-4">
               <p className="text-[15px] text-ink">
                 We gebruiken deze gegevens enkel om je inschrijving te regelen en
-                je te contacteren over het kamp. We geven ze aan niemand door.
+                je te contacteren over het kamp. We geven ze aan niemand door.{" "}
+                <a href="/privacy" target="_blank" rel="noopener" className="font-bold text-green underline">
+                  Lees onze privacyverklaring.
+                </a>
               </p>
               <label className="mt-3 flex items-start gap-2.5 text-[15px] font-bold text-ink">
                 <input

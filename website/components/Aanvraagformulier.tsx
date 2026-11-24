@@ -199,7 +199,7 @@ export function Aanvraagformulier({
 
       {/* Wat er met de gegevens gebeurt. */}
       <div className="rounded-[16px] bg-purple-soft px-5 py-4">
-        <p className="text-[15px] text-ink">{privacy}</p>
+        <p className="text-[15px] text-ink">{privacy}{" "}<a href="/privacy" className="font-bold text-green underline">Lees onze privacyverklaring.</a></p>
         <label className="mt-3 flex items-start gap-2.5 text-[15px] font-bold text-ink">
           <input
             type="checkbox"

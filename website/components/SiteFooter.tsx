@@ -1,4 +1,6 @@
 import { NaarLink } from "@/components/ui";
+import Link from "next/link";
+import { vzw } from "@/content/privacy";
 import { extraLinks, onderdelen, site, volgOns } from "@/content/site";
 
 /*
@@ -132,6 +134,16 @@ export function SiteFooter() {
 
         <p className="mt-6 text-[15px] text-cream/75">
           {site.naam} {site.vzw} · {site.socials} · {site.email}
+        </p>
+        {/*
+          De wettelijke gegevens die op elke pagina moeten staan. Ze komen
+          uit `vzw` in content/privacy.ts.
+        */}
+        <p className="mt-2 text-[14px] text-cream/65">
+          {vzw.naam} · zetel {vzw.zetel} · ondernemingsnummer {vzw.ondernemingsnummer} · {vzw.rpr} ·{" "}
+          <Link href="/privacy" className="font-bold text-cream/90 underline hover:text-cream">
+            Privacy en wettelijke gegevens
+          </Link>
         </p>
       </div>
     </footer>
