@@ -87,7 +87,7 @@ VRAGEN = [
                 ["Op het rubberregime dat de bevolking verstikte", "Op de missiescholen die overal in Congo kwamen", "Op de spoorlijnen die Stanley aanlegde", "Op de handel in koper uit Katanga"],
                 0,
                 "De slang met het hoofd van de koning staat voor het systeem dat de bevolking in de greep hield.",
-            ), volgt=True),
+            )),
             mk(
                 "Waarom moet je deze Britse bron kritisch lezen?",
                 [

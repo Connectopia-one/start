@@ -127,7 +127,7 @@ VRAGEN = [
             met_prent("remember-belgium.webp", keuze(
                 "Dit is [[*propaganda|een neutraal verslag|een vredesverdrag]]: de affiche stelt de eigen zaak mooi voor en de vijand lelijk. Ze richt zich op [[*jonge Britse mannen|Duitse soldaten|Belgische boeren]].",
                 "Een wervingsaffiche wil mensen overtuigen om dienst te nemen.",
-            ), volgt=True),
+            )),
             mk(
                 "Waarom gebruikte een Britse affiche het lot van België?",
                 [

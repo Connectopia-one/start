@@ -131,7 +131,7 @@ VRAGEN = [
                 ],
                 0,
                 "De jonge staat bestelde het werk. Licht, vlag en vastberaden gezichten maken van de opstand een heldendaad.",
-            ), volgt=True),
+            )),
             tabel(
                 "Mag je op basis van dit schilderij deze besluiten trekken?",
                 [

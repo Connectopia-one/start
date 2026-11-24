@@ -167,7 +167,7 @@ VRAGEN = [
                 ],
                 0,
                 "Uit de Dossinkazerne werden de Joden uit België gedeporteerd.",
-            ), volgt=True),
+            )),
             tabel(
                 "Welke uitspraken over de deportatie uit België kloppen?",
                 [

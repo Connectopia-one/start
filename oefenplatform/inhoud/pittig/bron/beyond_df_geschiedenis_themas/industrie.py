@@ -194,7 +194,7 @@ VRAGEN = [
                 ["Ze waren goedkoop en pasten in kleine ruimtes", "Ze waren sterker dan volwassen mijnwerkers", "De wet verplichtte mijnen om kinderen aan te nemen", "Ze kregen een hoger loon dan hun ouders"],
                 0,
                 "Kinderen kostten weinig en konden door smalle mijngangen.",
-            ), volgt=True),
+            )),
             tabel(
                 "Welke uitspraken over kinderarbeid in België kloppen?",
                 [

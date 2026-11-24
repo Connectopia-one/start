@@ -71,7 +71,7 @@ VRAGEN = [
                 ],
                 0,
                 "De affiche verheerlijkt de leider. Over het echte leven, met honger en terreur, zegt ze niets.",
-            ), volgt=True),
+            )),
             tabel(
                 "Mag je dit besluiten op basis van de affiche?",
                 [
