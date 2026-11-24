@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Waar komt de lucht vandaan?</text>
+<rect x="460" y="305" width="80" height="50" rx="6" fill="#f2e3a0" stroke="#24331b" stroke-width="2"/>
+<text x="500" y="336" font-size="16" text-anchor="middle" fill="#24331b" font-weight="bold">België</text>
+<ellipse cx="160" cy="330" rx="120" ry="200" fill="#cfe3f1" stroke="none" stroke-width="2"/>
+<text x="160" y="330" font-size="18" text-anchor="middle" fill="#24331b">oceaan</text>
+<line x1="500" y1="70" x2="500" y2="295" stroke="#5b7fa6" stroke-width="6"/>
+<polygon points="500,295 493.8,280.3 506.2,280.3" fill="#5b7fa6"/>
+<line x1="880" y1="330" x2="550" y2="330" stroke="#7a8a9a" stroke-width="6"/>
+<polygon points="550,330 564.7,323.8 564.7,336.2" fill="#7a8a9a"/>
+<line x1="500" y1="600" x2="500" y2="365" stroke="#b5651d" stroke-width="6"/>
+<polygon points="500,365 506.2,379.7 493.8,379.7" fill="#b5651d"/>
+<line x1="260" y1="230" x2="450" y2="320" stroke="#3b6fa0" stroke-width="6"/>
+<polygon points="450,320 434.0,319.3 439.3,308.1" fill="#3b6fa0"/>
+<text x="500" y="60" font-size="15" text-anchor="middle" fill="#24331b">uit het poolgebied</text>
+<text x="880" y="310" font-size="15" text-anchor="end" fill="#24331b">uit Rusland</text>
+<text x="500" y="625" font-size="15" text-anchor="middle" fill="#24331b">uit de Sahara</text>
+<circle cx="530" cy="150" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="530" y="157" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">1</text>
+<circle cx="760" cy="300" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="760" y="307" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">2</text>
+<circle cx="530" cy="500" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="530" y="507" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">3</text>
+<circle cx="330" cy="230" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="330" y="237" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">4</text>
+</svg>

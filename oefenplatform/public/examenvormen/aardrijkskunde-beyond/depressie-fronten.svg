@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Een depressie met haar fronten, van bovenaf (noord is boven)</text>
+<ellipse cx="400" cy="240" rx="75.0" ry="50" fill="none" stroke="#9bb4c8" stroke-width="1"/>
+<ellipse cx="400" cy="240" rx="150.0" ry="100" fill="none" stroke="#9bb4c8" stroke-width="1"/>
+<ellipse cx="400" cy="240" rx="225.0" ry="150" fill="none" stroke="#9bb4c8" stroke-width="1"/>
+<text x="360" y="212" font-size="36" text-anchor="middle" fill="#3b6fa0" font-weight="bold">L</text>
+<path d="M390 240 L 520 260 L 640 330 L 760 380" fill="none" stroke="#b03a2e" stroke-width="4"/>
+<path d="M424 245 A 12 12 0 0 1 447 249 Z" fill="#b03a2e" stroke="none" stroke-width="2"/>
+<path d="M476 253 A 12 12 0 0 1 499 257 Z" fill="#b03a2e" stroke="none" stroke-width="2"/>
+<path d="M552 278 A 12 12 0 0 1 572 291 Z" fill="#b03a2e" stroke="none" stroke-width="2"/>
+<path d="M600 306 A 12 12 0 0 1 620 319 Z" fill="#b03a2e" stroke="none" stroke-width="2"/>
+<path d="M671 343 A 12 12 0 0 1 693 352 Z" fill="#b03a2e" stroke="none" stroke-width="2"/>
+<path d="M719 363 A 12 12 0 0 1 741 372 Z" fill="#b03a2e" stroke="none" stroke-width="2"/>
+<path d="M370 250 L 330 300 L 270 420 L 200 540" fill="none" stroke="#3b6fa0" stroke-width="4"/>
+<polygon points="363,258 349,277 370,279" fill="#3b6fa0"/>
+<polygon points="347,278 333,297 354,299" fill="#3b6fa0"/>
+<polygon points="314,331 304,353 325,350" fill="#3b6fa0"/>
+<polygon points="290,379 280,401 301,398" fill="#3b6fa0"/>
+<polygon points="252,452 239,472 261,471" fill="#3b6fa0"/>
+<polygon points="224,500 211,520 233,519" fill="#3b6fa0"/>
+<line x1="560" y1="520" x2="720" y2="520" stroke="#24331b" stroke-width="3"/>
+<polygon points="720,520 705.3,526.2 705.3,513.8" fill="#24331b"/>
+<text x="640" y="505" font-size="15" text-anchor="middle" fill="#24331b">verplaatsing</text>
+<circle cx="720" cy="220" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="720" y="227" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<circle cx="470" cy="420" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="470" y="427" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<circle cx="150" cy="330" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="150" y="337" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+</svg>
