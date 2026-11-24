@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Een stukje uit vier polymeerketens</text>
+<rect x="150" y="98" width="760" height="84" rx="14" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="530" y="150" font-size="28" text-anchor="middle" fill="#24331b" font-weight="bold">–CH₂–CH₂–CH₂–CH₂–CH₂–CH₂–</text>
+<circle cx="95" cy="140" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="95" y="147" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<rect x="150" y="213" width="760" height="84" rx="14" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="530" y="265" font-size="28" text-anchor="middle" fill="#24331b" font-weight="bold">–CH₂–CH(CH₃)–CH₂–CH(CH₃)–</text>
+<circle cx="95" cy="255" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="95" y="262" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<rect x="150" y="328" width="760" height="84" rx="14" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="530" y="380" font-size="28" text-anchor="middle" fill="#24331b" font-weight="bold">–CH₂–CHCl–CH₂–CHCl–CH₂–CHCl–</text>
+<circle cx="95" cy="370" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="95" y="377" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<rect x="150" y="443" width="760" height="84" rx="14" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="530" y="495" font-size="28" text-anchor="middle" fill="#24331b" font-weight="bold">–CF₂–CF₂–CF₂–CF₂–CF₂–CF₂–</text>
+<circle cx="95" cy="485" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="95" y="492" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">D</text>
+</svg>
