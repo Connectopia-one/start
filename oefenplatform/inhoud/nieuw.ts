@@ -41,6 +41,12 @@ export const nieuwTekst = {
 export const updates: Update[] = [
   {
     datum: "24 november 2026",
+    titel: "Pittige hoofdstukken aardrijkskunde in Boost",
+    tekst:
+      "Aardrijkskunde in Boost doorstroom en in Boost dubbele finaliteit heeft nu bij elk van de 10 onderwerpen een pittig hoofdstuk van 30 vragen, in examenvorm: van situeren en bevolking over stad en platteland, grondstoffen, landbouw en mondialisering tot duurzaamheid, het broeikaseffect en geografisch onderzoek. Met casussen, rekenvragen en klikvragen op prenten, zoals een gradennet, leeftijdshistogrammen en een digitale kaart.",
+  },
+  {
+    datum: "24 november 2026",
     titel: "Pittige hoofdstukken fysica in Boost doorstroom",
     tekst:
       "Fysica in Boost doorstroom heeft nu bij elk van de 12 onderwerpen een pittig hoofdstuk van 30 vragen, in examenvorm: van meten en eenheden over beweging, krachten, archimedeskracht en moment tot druk, gaswetten, energie, warmte, elektriciteit, licht en lenzen en onderzoek. Met rekenvragen in stappen, casussen en klikvragen op prenten, zoals een lat met draaipunt en een bolle lens.",

@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Gradennet met punten</text>
+<rect x="140" y="106.0" width="720" height="468" rx="0" fill="#f3f8fc" stroke="#24331b" stroke-width="2"/>
+<line x1="200" y1="106.0" x2="200" y2="574.0" stroke="#c9d6e2" stroke-width="1"/>
+<text x="200" y="596.0" font-size="14" text-anchor="middle" fill="#24331b">150°</text>
+<line x1="260" y1="106.0" x2="260" y2="574.0" stroke="#c9d6e2" stroke-width="1"/>
+<text x="260" y="596.0" font-size="14" text-anchor="middle" fill="#24331b">120°</text>
+<line x1="320" y1="106.0" x2="320" y2="574.0" stroke="#c9d6e2" stroke-width="1"/>
+<text x="320" y="596.0" font-size="14" text-anchor="middle" fill="#24331b">90°</text>
+<line x1="380" y1="106.0" x2="380" y2="574.0" stroke="#c9d6e2" stroke-width="1"/>
+<text x="380" y="596.0" font-size="14" text-anchor="middle" fill="#24331b">60°</text>
+<line x1="440" y1="106.0" x2="440" y2="574.0" stroke="#c9d6e2" stroke-width="1"/>
+<text x="440" y="596.0" font-size="14" text-anchor="middle" fill="#24331b">30°</text>
+<line x1="500" y1="106.0" x2="500" y2="574.0" stroke="#c9d6e2" stroke-width="1"/>
+<text x="500" y="596.0" font-size="14" text-anchor="middle" fill="#24331b">0°</text>
+<line x1="560" y1="106.0" x2="560" y2="574.0" stroke="#c9d6e2" stroke-width="1"/>
+<text x="560" y="596.0" font-size="14" text-anchor="middle" fill="#24331b">30°</text>
+<line x1="620" y1="106.0" x2="620" y2="574.0" stroke="#c9d6e2" stroke-width="1"/>
+<text x="620" y="596.0" font-size="14" text-anchor="middle" fill="#24331b">60°</text>
+<line x1="680" y1="106.0" x2="680" y2="574.0" stroke="#c9d6e2" stroke-width="1"/>
+<text x="680" y="596.0" font-size="14" text-anchor="middle" fill="#24331b">90°</text>
+<line x1="740" y1="106.0" x2="740" y2="574.0" stroke="#c9d6e2" stroke-width="1"/>
+<text x="740" y="596.0" font-size="14" text-anchor="middle" fill="#24331b">120°</text>
+<line x1="800" y1="106.0" x2="800" y2="574.0" stroke="#c9d6e2" stroke-width="1"/>
+<text x="800" y="596.0" font-size="14" text-anchor="middle" fill="#24331b">150°</text>
+<line x1="140" y1="496.0" x2="860" y2="496.0" stroke="#c9d6e2" stroke-width="1"/>
+<text x="132" y="501.0" font-size="14" text-anchor="end" fill="#24331b">60°</text>
+<line x1="140" y1="418.0" x2="860" y2="418.0" stroke="#c9d6e2" stroke-width="1"/>
+<text x="132" y="423.0" font-size="14" text-anchor="end" fill="#24331b">30°</text>
+<line x1="140" y1="340.0" x2="860" y2="340.0" stroke="#c9d6e2" stroke-width="1"/>
+<text x="132" y="345.0" font-size="14" text-anchor="end" fill="#24331b">0°</text>
+<line x1="140" y1="262.0" x2="860" y2="262.0" stroke="#c9d6e2" stroke-width="1"/>
+<text x="132" y="267.0" font-size="14" text-anchor="end" fill="#24331b">30°</text>
+<line x1="140" y1="184.0" x2="860" y2="184.0" stroke="#c9d6e2" stroke-width="1"/>
+<text x="132" y="189.0" font-size="14" text-anchor="end" fill="#24331b">60°</text>
+<line x1="140" y1="340.0" x2="860" y2="340.0" stroke="#b03a2e" stroke-width="3"/>
+<line x1="500" y1="106.0" x2="500" y2="574.0" stroke="#b03a2e" stroke-width="3"/>
+<line x1="140" y1="278.9" x2="860" y2="278.9" stroke="#b5651d" stroke-width="2" stroke-dasharray="8 6"/>
+<line x1="140" y1="401.1" x2="860" y2="401.1" stroke="#b5651d" stroke-width="2" stroke-dasharray="8 6"/>
+<line x1="140" y1="167.1" x2="860" y2="167.1" stroke="#3b6fa0" stroke-width="2" stroke-dasharray="8 6"/>
+<line x1="140" y1="512.9" x2="860" y2="512.9" stroke="#3b6fa0" stroke-width="2" stroke-dasharray="8 6"/>
+<text x="868" y="345.0" font-size="14" text-anchor="start" fill="#24331b">0°</text>
+<text x="500" y="98.0" font-size="14" text-anchor="middle" fill="#24331b">0°</text>
+<circle cx="300" cy="236.0" r="6" fill="#24331b" stroke="#24331b" stroke-width="1"/>
+<circle cx="322" cy="216.0" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="322" y="223.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<circle cx="620" cy="418.0" r="6" fill="#24331b" stroke="#24331b" stroke-width="1"/>
+<circle cx="642" cy="398.0" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="642" y="405.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<circle cx="560" cy="184.0" r="6" fill="#24331b" stroke="#24331b" stroke-width="1"/>
+<circle cx="582" cy="164.0" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="582" y="171.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<circle cx="410" cy="379.0" r="6" fill="#24331b" stroke="#24331b" stroke-width="1"/>
+<circle cx="432" cy="359.0" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="432" y="366.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">D</text>
+<circle cx="740" cy="314.0" r="6" fill="#24331b" stroke="#24331b" stroke-width="1"/>
+<circle cx="762" cy="294.0" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="762" y="301.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">E</text>
+<circle cx="200" cy="158.0" r="6" fill="#24331b" stroke="#24331b" stroke-width="1"/>
+<circle cx="222" cy="138.0" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="222" y="145.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">F</text>
+</svg>

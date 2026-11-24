@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">De vier sferen en de koolstof</text>
+<rect x="0" y="60" width="1000" height="220" rx="0" fill="#e8f1fa" stroke="none" stroke-width="0"/>
+<ellipse cx="150" cy="120" rx="70" ry="26" fill="#ffffff" stroke="#d9d4c4" stroke-width="1"/>
+<ellipse cx="330" cy="120" rx="70" ry="26" fill="#ffffff" stroke="#d9d4c4" stroke-width="1"/>
+<ellipse cx="520" cy="120" rx="70" ry="26" fill="#ffffff" stroke="#d9d4c4" stroke-width="1"/>
+<ellipse cx="760" cy="120" rx="70" ry="26" fill="#ffffff" stroke="#d9d4c4" stroke-width="1"/>
+<rect x="0" y="280" width="1000" height="360" rx="0" fill="#c9b48f" stroke="#24331b" stroke-width="1"/>
+<rect x="600" y="280" width="400" height="140" rx="0" fill="#7fb2d9" stroke="#24331b" stroke-width="1"/>
+<rect x="55" y="230" width="10" height="50" rx="0" fill="#7a5a3a" stroke="#24331b" stroke-width="1"/>
+<circle cx="60" cy="220" r="28" fill="#2f4a22" stroke="#24331b" stroke-width="1"/>
+<rect x="115" y="230" width="10" height="50" rx="0" fill="#7a5a3a" stroke="#24331b" stroke-width="1"/>
+<circle cx="120" cy="220" r="28" fill="#2f4a22" stroke="#24331b" stroke-width="1"/>
+<rect x="175" y="230" width="10" height="50" rx="0" fill="#7a5a3a" stroke="#24331b" stroke-width="1"/>
+<circle cx="180" cy="220" r="28" fill="#2f4a22" stroke="#24331b" stroke-width="1"/>
+<rect x="235" y="230" width="10" height="50" rx="0" fill="#7a5a3a" stroke="#24331b" stroke-width="1"/>
+<circle cx="240" cy="220" r="28" fill="#2f4a22" stroke="#24331b" stroke-width="1"/>
+<rect x="295" y="230" width="10" height="50" rx="0" fill="#7a5a3a" stroke="#24331b" stroke-width="1"/>
+<circle cx="300" cy="220" r="28" fill="#2f4a22" stroke="#24331b" stroke-width="1"/>
+<rect x="355" y="230" width="10" height="50" rx="0" fill="#7a5a3a" stroke="#24331b" stroke-width="1"/>
+<circle cx="360" cy="220" r="28" fill="#2f4a22" stroke="#24331b" stroke-width="1"/>
+<rect x="430" y="210" width="90" height="70" rx="0" fill="#b9a1c9" stroke="#24331b" stroke-width="2"/>
+<rect x="495" y="160" width="16" height="50" rx="0" fill="#d9d4c4" stroke="#24331b" stroke-width="1"/>
+<path d="M 503 160 C 490 130 520 110 505 85" fill="none" stroke="#d9d4c4" stroke-width="6"/>
+<ellipse cx="300" cy="520" rx="180" ry="45" fill="#2b2b2b" stroke="#24331b" stroke-width="1"/>
+<text x="300" y="527" font-size="16" text-anchor="middle" fill="#ffffff">aardolie</text>
+<line x1="130" y1="160" x2="130" y2="195" stroke="#24331b" stroke-width="3"/>
+<polygon points="130,195 123.8,180.3 136.2,180.3" fill="#24331b"/>
+<circle cx="880" cy="110" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="880" y="117" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<circle cx="180" cy="180" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="180" y="187" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<circle cx="800" cy="350" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="800" y="357" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<circle cx="520" cy="520" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="520" y="527" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">D</text>
+<circle cx="475" cy="245" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="475" y="252" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">E</text>
+</svg>

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Scherm van een digitale kaart</text>
+<rect x="20" y="60" width="960" height="560" rx="8" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<rect x="20" y="60" width="960" height="60" rx="8" fill="#eef1f4" stroke="#24331b" stroke-width="1"/>
+<rect x="50" y="75" width="360" height="32" rx="6" fill="#ffffff" stroke="#24331b" stroke-width="1"/>
+<text x="65" y="97" font-size="15" text-anchor="start" fill="#d9d4c4">Zoek een adres of coördinaten ...</text>
+<rect x="440" y="75" width="110" height="32" rx="6" fill="#dde6ee" stroke="#24331b" stroke-width="1"/>
+<text x="495" y="97" font-size="16" text-anchor="middle" fill="#24331b">Lagen</text>
+<rect x="570" y="75" width="50" height="32" rx="6" fill="#dde6ee" stroke="#24331b" stroke-width="1"/>
+<line x1="580" y1="98" x2="610" y2="84" stroke="#24331b" stroke-width="3"/>
+<line x1="583" y1="95" x2="585" y2="99" stroke="#24331b" stroke-width="1"/>
+<line x1="589" y1="92" x2="591" y2="96" stroke="#24331b" stroke-width="1"/>
+<line x1="595" y1="89" x2="597" y2="93" stroke="#24331b" stroke-width="1"/>
+<line x1="601" y1="86" x2="603" y2="90" stroke="#24331b" stroke-width="1"/>
+<line x1="607" y1="83" x2="609" y2="87" stroke="#24331b" stroke-width="1"/>
+<rect x="40" y="140" width="700" height="460" rx="0" fill="#e6efd9" stroke="#24331b" stroke-width="1"/>
+<path d="M 40 400 C 200 360 350 450 520 380 C 620 340 680 380 740 360" fill="none" stroke="#3b6fa0" stroke-width="10"/>
+<path d="M 380 360 L 520 330 L 600 380 L 520 450 L 400 440 Z" fill="#7fb2d9" stroke="#3b6fa0" stroke-width="1"/>
+<rect x="150" y="220" width="26" height="22" rx="2" fill="#c9a27a" stroke="#24331b" stroke-width="1"/>
+<rect x="190" y="250" width="26" height="22" rx="2" fill="#c9a27a" stroke="#24331b" stroke-width="1"/>
+<rect x="230" y="210" width="26" height="22" rx="2" fill="#c9a27a" stroke="#24331b" stroke-width="1"/>
+<rect x="600" y="210" width="26" height="22" rx="2" fill="#c9a27a" stroke="#24331b" stroke-width="1"/>
+<rect x="640" y="240" width="26" height="22" rx="2" fill="#c9a27a" stroke="#24331b" stroke-width="1"/>
+<rect x="760" y="140" width="200" height="120" rx="6" fill="#f6f6f6" stroke="#24331b" stroke-width="1"/>
+<text x="775" y="165" font-size="15" text-anchor="start" fill="#24331b">Transparantie</text>
+<line x1="780" y1="200" x2="940" y2="200" stroke="#d9d4c4" stroke-width="6"/>
+<circle cx="880" cy="200" r="12" fill="#b5651d" stroke="#24331b" stroke-width="1"/>
+<rect x="760" y="290" width="200" height="200" rx="6" fill="#f6f6f6" stroke="#24331b" stroke-width="1"/>
+<text x="775" y="315" font-size="15" text-anchor="start" fill="#24331b" font-weight="bold">Legende</text>
+<rect x="780" y="335" width="26" height="18" rx="0" fill="#7fb2d9" stroke="#24331b" stroke-width="1"/>
+<text x="815" y="350" font-size="14" text-anchor="start" fill="#24331b">overstromings-</text>
+<text x="815" y="368" font-size="14" text-anchor="start" fill="#24331b">gevoelig gebied</text>
+<rect x="780" y="390" width="26" height="18" rx="0" fill="#c9a27a" stroke="#24331b" stroke-width="1"/>
+<text x="815" y="405" font-size="14" text-anchor="start" fill="#24331b">gebouw</text>
+<circle cx="230" cy="140" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="230" y="147" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<circle cx="495" cy="140" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="495" y="147" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<circle cx="595" cy="140" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="595" y="147" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<circle cx="860" cy="240" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="860" y="247" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">D</text>
+<circle cx="930" cy="470" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="930" y="477" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">E</text>
+</svg>

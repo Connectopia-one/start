@@ -1,0 +1,4668 @@
+{
+  "hoofdstukken": [
+    {
+      "titel": "Waar ligt het, en hoe weet je dat? — pittig",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de plaats met coördinaten 40° NB en 100° WL.",
+          "afbeelding_url": "/examenvormen/aardrijkskunde-boost/gradennet.svg",
+          "zones": [
+            [
+              27.0,
+              29.8,
+              7.5,
+              10.2
+            ]
+          ],
+          "uitleg": "Noorderbreedte ligt boven de evenaar, westerlengte links van de nulmeridiaan."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de plaats op 30° ZB en 60° OL.",
+          "afbeelding_url": "/examenvormen/aardrijkskunde-boost/gradennet.svg",
+          "zones": [
+            [
+              59.0,
+              58.3,
+              7.5,
+              10.2
+            ]
+          ],
+          "uitleg": "Zuiderbreedte onder de evenaar, oosterlengte rechts van de nulmeridiaan."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de plaats die tussen de evenaar en de Kreeftskeerkring ligt, ten oosten van de nulmeridiaan.",
+          "afbeelding_url": "/examenvormen/aardrijkskunde-boost/gradennet.svg",
+          "zones": [
+            [
+              71.0,
+              42.0,
+              7.5,
+              10.2
+            ]
+          ],
+          "uitleg": "E ligt op 10° NB en 120° OL: in de tropen van het noordelijk halfrond."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de plaats die ten noorden van de noordpoolcirkel ligt.",
+          "afbeelding_url": "/examenvormen/aardrijkskunde-boost/gradennet.svg",
+          "zones": [
+            [
+              17.0,
+              17.7,
+              7.5,
+              10.2
+            ]
+          ],
+          "uitleg": "F ligt op 70° NB, boven de poolcirkel van 66,5°."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Lees de coördinaten van de punten op het gradennet. Klopt dit?",
+          "rijen": [
+            "C ligt op 60° NB en 30° OL.",
+            "D ligt op het zuidelijk halfrond.",
+            "D ligt ten oosten van de nulmeridiaan.",
+            "A en F liggen allebei op het westelijk halfrond."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "D ligt op 15° ZB en 45° WL: zuid en west."
+        },
+        {
+          "casus": "Mila stuurt drie berichten vanuit haar wereldreis: 'Ik zit op 52° NB en 4° OL.' Daarna: 'Nu sta ik aan de voet van de Andes, in het westen van Zuid-Amerika.' Tot slot: 'Mijn hotel ligt naast de grootste moskee van de stad.'",
+          "vragen": [
+            {
+              "type": "tabel",
+              "vraag": "Hoe situeert Mila in elk bericht?",
+              "rijen": [
+                "het eerste bericht",
+                "het tweede bericht",
+                "het derde bericht"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "Coördinaten zijn absoluut; een gebergte is fysisch; een gebouw of religie is sociaaleconomisch.",
+              "kolommen": [
+                "absoluut",
+                "relatief, fysisch",
+                "relatief, sociaaleconomisch"
+              ]
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Op welk halfrond lag Mila bij haar eerste bericht?",
+              "opties": [
+                "noordelijk en oostelijk",
+                "noordelijk en westelijk",
+                "zuidelijk en oostelijk",
+                "zuidelijk en westelijk"
+              ],
+              "antwoord": 0,
+              "uitleg": "NB is noordelijk, OL is oostelijk."
+            }
+          ]
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Is het element fysischgeografisch of sociaaleconomisch?",
+          "kolommen": [
+            "fysischgeografisch",
+            "sociaaleconomisch"
+          ],
+          "items": [
+            [
+              "een gebergte",
+              "fysischgeografisch"
+            ],
+            [
+              "een wereldstad",
+              "sociaaleconomisch"
+            ],
+            [
+              "een klimaatzone",
+              "fysischgeografisch"
+            ],
+            [
+              "de taal die er gesproken wordt",
+              "sociaaleconomisch"
+            ],
+            [
+              "een rivier",
+              "fysischgeografisch"
+            ],
+            [
+              "een wereldblok als de Europese Unie",
+              "sociaaleconomisch"
+            ]
+          ],
+          "uitleg": "Natuurlijke elementen zijn fysisch; wat de mens maakt of afspreekt, is sociaaleconomisch."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Rangschik de lijnen van noord naar zuid.",
+          "opties": [
+            "noordpoolcirkel",
+            "Kreeftskeerkring",
+            "evenaar",
+            "Steenbokskeerkring",
+            "zuidpoolcirkel"
+          ],
+          "uitleg": "66,5° NB, 23,5° NB, 0°, 23,5° ZB en 66,5° ZB."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Welke breedte hoort bij welke lijn?",
+          "paren": [
+            [
+              "evenaar",
+              "0°"
+            ],
+            [
+              "keerkringen",
+              "23,5°"
+            ],
+            [
+              "poolcirkels",
+              "66,5°"
+            ],
+            [
+              "polen",
+              "90°"
+            ]
+          ],
+          "extra": [
+            "45°"
+          ],
+          "uitleg": "Die vier waarden zijn de vaste ankerpunten van het gradennet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe lang is een breedtecirkel op 60° NB vergeleken met de evenaar?",
+          "opties": [
+            "korter",
+            "even lang",
+            "langer",
+            "dat hangt af van de lengte"
+          ],
+          "antwoord": 0,
+          "uitleg": "Breedtecirkels worden korter naar de polen toe; de evenaar is de langste."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over de datumlijn?",
+          "rijen": [
+            "Ze volgt ongeveer de meridiaan van 180°.",
+            "Ze loopt grotendeels door de Stille Oceaan.",
+            "Ze is een rechte lijn zonder bochten."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false
+          ],
+          "uitleg": "De lijn maakt bochten om eilandengroepen niet in twee data te splitsen."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Meridianen lopen van [[pool]] tot pool en geven de geografische [[lengte]]. Breedtecirkels lopen evenwijdig met de [[evenaar]] en geven de geografische breedte.",
+          "extra": [
+            "breedte",
+            "datumlijn"
+          ],
+          "uitleg": "Lengte en breedte samen geven de absolute ligging."
+        },
+        {
+          "casus": "Een klas moet bepalen in welke vegetatiezone een stad op 64° NB in Rusland ligt.",
+          "vragen": [
+            {
+              "type": "meerkeuze",
+              "vraag": "Welke bron helpt het meest?",
+              "opties": [
+                "een vegetatiekaart in de atlas",
+                "een gedetailleerd stratenplan van de stad",
+                "een wereldkaart met alle wereldblokken",
+                "de mentale kaart van een klasgenoot"
+              ],
+              "antwoord": 0,
+              "uitleg": "Een vegetatiekaart toont de zones rechtstreeks."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Welke vegetatiezone verwacht je daar?",
+              "opties": [
+                "naaldwoud",
+                "tropisch regenwoud",
+                "savanne",
+                "woestijn"
+              ],
+              "antwoord": 0,
+              "uitleg": "Net onder de poolcirkel ligt in Rusland de taiga of het naaldwoud."
+            },
+            {
+              "type": "tabel",
+              "vraag": "Klopt dit over haar redenering?",
+              "rijen": [
+                "De breedte zegt veel over de klimaatzone.",
+                "De lengte alleen volstaat om de klimaatzone te bepalen.",
+                "Een klimatogram van een station in die stad helpt ook."
+              ],
+              "antwoord": [
+                true,
+                false,
+                true
+              ],
+              "uitleg": "Klimaat hangt vooral samen met breedte, hoogte en ligging tegenover de zee."
+            }
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Een kaart met Groenland even groot als Afrika. Klopt dit?",
+          "rijen": [
+            "De kaart vertekent oppervlakten naar de polen toe.",
+            "Groenland is in werkelijkheid veel kleiner dan Afrika.",
+            "Deze kaart toont vormen, oppervlakten en afstanden allemaal juist."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Een bol op een plat vlak brengen geeft altijd vertekening."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Over welke afstand gaat het?",
+          "kolommen": [
+            "werkelijke afstand",
+            "ervaren afstand",
+            "mentale afstand"
+          ],
+          "items": [
+            [
+              "de 120 km die de gps aangeeft",
+              "werkelijke afstand"
+            ],
+            [
+              "een rit die lang lijkt door files",
+              "ervaren afstand"
+            ],
+            [
+              "denken dat Marokko verder ligt dan Griekenland",
+              "mentale afstand"
+            ],
+            [
+              "de kilometerteller na de rit",
+              "werkelijke afstand"
+            ],
+            [
+              "een treinreis die voorbijvliegt met een goed boek",
+              "ervaren afstand"
+            ]
+          ],
+          "uitleg": "Werkelijk is meetbaar; ervaren gaat over de reis; mentaal is wat je denkt."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over mentale kaarten?",
+          "rijen": [
+            "Een mentale kaart zit in je hoofd.",
+            "Ze is voor iedereen dezelfde.",
+            "Plaatsen die je vaak bezoekt, krijgen er meer details in.",
+            "Het kaartbeeld dat je vaak ziet, kleurt je mentale kaart."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            true
+          ],
+          "uitleg": "Een mentale kaart is persoonlijk en onvolledig."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Voor een jongere is een plein vooral een plek om af te spreken; voor een oudere de plaats van de vroegere markt. Wat toont dat?",
+          "opties": [
+            "dat je context de betekenis van een plaats kleurt",
+            "dat het plein in werkelijkheid twee aparte plaatsen is",
+            "dat een van beiden het plein verkeerd situeert",
+            "dat de echte betekenis van elke plaats in de atlas staat"
+          ],
+          "antwoord": 0,
+          "uitleg": "Plaatsen krijgen betekenis door ervaring, leeftijd en cultuur."
+        },
+        {
+          "casus": "Je onderzoekt welke straten in je gemeente bij hevige regen onder water kunnen lopen. Je vindt een digitale kaart op het internet.",
+          "vragen": [
+            {
+              "type": "volgorde",
+              "vraag": "Rangschik je stappen.",
+              "opties": [
+                "Kijk na wie de kaart gemaakt heeft.",
+                "Lees de titel, de legende en het jaartal.",
+                "Zoek de overstromingsgevoelige gebieden op.",
+                "Leg ze naast een stratenplan van je gemeente."
+              ],
+              "uitleg": "Eerst de betrouwbaarheid en de legende, dan pas het eigenlijke werk."
+            },
+            {
+              "type": "tabel",
+              "vraag": "Klopt dit over je bron?",
+              "rijen": [
+                "Een thematische kaart over overstromingen past bij je vraag.",
+                "De maker kiest wat er wel en niet op de kaart staat.",
+                "Een toeristische kaart toont dezelfde informatie."
+              ],
+              "antwoord": [
+                true,
+                true,
+                false
+              ],
+              "uitleg": "Elke kaart kiest een thema en laat de rest weg."
+            }
+          ]
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een plaats ligt op 23,5° ZB. Op welke bijzondere lijn ligt ze? Schrijf de naam.",
+          "antwoord": [
+            "Steenbokskeerkring",
+            "steenbokskeerkring",
+            "de Steenbokskeerkring"
+          ],
+          "uitleg": "De keerkring op het zuidelijk halfrond is de Steenbokskeerkring."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een kaart met het zuiden bovenaan is [[*een keuze van de maker|een fout tegen de regels|onmogelijk te lezen]].",
+          "uitleg": "Het noorden bovenaan is een gewoonte, geen natuurwet."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de plaats die in de keerkringszone van het zuidelijk halfrond ligt, ten westen van de nulmeridiaan.",
+          "afbeelding_url": "/examenvormen/aardrijkskunde-boost/gradennet.svg",
+          "zones": [
+            [
+              38.0,
+              52.2,
+              7.5,
+              10.2
+            ]
+          ],
+          "uitleg": "D ligt op 15° ZB, tussen de evenaar en de Steenbokskeerkring, en op 45° WL."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Twee plaatsen liggen op dezelfde meridiaan. Klopt dit?",
+          "rijen": [
+            "Ze hebben op hetzelfde moment dezelfde zonnetijd.",
+            "Ze hebben dezelfde geografische lengte.",
+            "Ze hebben dezelfde geografische breedte."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Een meridiaan verbindt plaatsen met dezelfde lengte, van pool tot pool."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom vraagt men om absoluut te situeren op 1° nauwkeurig?",
+          "opties": [
+            "omdat je dat met een gewone atlas nog goed kan aflezen",
+            "omdat kleinere eenheden dan een graad niet bestaan",
+            "omdat de coördinaten elk jaar een beetje verschuiven",
+            "omdat elke stad precies één graad groot is"
+          ],
+          "antwoord": 0,
+          "uitleg": "Met een atlas lees je graden goed af; minuten zijn al moeilijk."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Welke kaart kies je voor welke vraag?",
+          "paren": [
+            [
+              "Waar liggen de bergen en dalen?",
+              "reliëfkaart"
+            ],
+            [
+              "Welke gebieden lopen onder bij hoogwater?",
+              "kaart van overstromingsgevoelige gebieden"
+            ],
+            [
+              "Waar ligt het dichtstbijzijnde museum?",
+              "toeristische kaart"
+            ],
+            [
+              "In welke klimaatzone ligt een plaats?",
+              "klimaatkaart"
+            ]
+          ],
+          "extra": [
+            "mentale kaart"
+          ],
+          "uitleg": "Kies de thematische kaart die bij je vraag past."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Waarmee wordt hier gesitueerd?",
+          "rijen": [
+            "'De stad ligt aan de monding van de Schelde.'",
+            "'Het dorp ligt in de Kempense laagvlakte.'",
+            "'De haven is de grootste van de Europese Unie.'"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Een rivier is een fysisch element, een laagvlakte een reliëfeenheid, de EU een wereldblok.",
+          "kolommen": [
+            "fysisch element",
+            "reliëfeenheid",
+            "wereldblok"
+          ]
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel graden liggen de Kreeftskeerkring en de Steenbokskeerkring van elkaar af? Schrijf het getal.",
+          "antwoord": [
+            "47",
+            "47°"
+          ],
+          "uitleg": "23,5° NB tot 23,5° ZB is samen 47°."
+        }
+      ]
+    },
+    {
+      "titel": "Waar wonen de mensen? — pittig",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de streek met de hoogste bevolkingsdichtheid.",
+          "afbeelding_url": "/examenvormen/aardrijkskunde-boost/land-dichtheid.svg",
+          "zones": [
+            [
+              42.0,
+              64.1,
+              14.0,
+              21.9
+            ]
+          ],
+          "uitleg": "F heeft de donkerste kleur: meer dan 300 inwoners per km², rond de riviermonding."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op een dunbevolkte streek in het bergland zonder rivier.",
+          "afbeelding_url": "/examenvormen/aardrijkskunde-boost/land-dichtheid.svg",
+          "zones": [
+            [
+              19.0,
+              14.8,
+              14.0,
+              21.9
+            ]
+          ],
+          "uitleg": "A ligt in de bergen, minder dan 10 inwoners per km², en de rivier stroomt niet door A."
+        },
+        {
+          "casus": "Veldaria telt 4,8 miljoen inwoners op 60 000 km². Streek F telt 1,8 miljoen inwoners op 5000 km².",
+          "vragen": [
+            {
+              "type": "invultekst",
+              "vraag": "Hoe groot is de bevolkingsdichtheid van heel Veldaria, in inwoners per km²?",
+              "antwoord": [
+                "80"
+              ],
+              "uitleg": "4 800 000 / 60 000 = 80 inwoners per km²."
+            },
+            {
+              "type": "invultekst",
+              "vraag": "Hoe groot is de bevolkingsdichtheid van streek F?",
+              "antwoord": [
+                "360"
+              ],
+              "uitleg": "1 800 000 / 5000 = 360 inwoners per km²; dat past bij de klasse 'meer dan 300'."
+            },
+            {
+              "type": "tabel",
+              "vraag": "Klopt dit over Veldaria?",
+              "rijen": [
+                "Het gemiddelde van het land verbergt grote verschillen tussen de streken.",
+                "In elke streek wonen ongeveer 80 mensen per km².",
+                "De delta trekt veel mensen aan door water en vruchtbare grond."
+              ],
+              "antwoord": [
+                true,
+                false,
+                true
+              ],
+              "uitleg": "Een gemiddelde zegt niets over de spreiding."
+            }
+          ]
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Maakt deze factor een gebied eerder dicht- of dunbevolkt?",
+          "kolommen": [
+            "eerder dichtbevolkt",
+            "eerder dunbevolkt"
+          ],
+          "items": [
+            [
+              "een vruchtbare delta",
+              "eerder dichtbevolkt"
+            ],
+            [
+              "een woestijnklimaat",
+              "eerder dunbevolkt"
+            ],
+            [
+              "een hooggebergte",
+              "eerder dunbevolkt"
+            ],
+            [
+              "een vlakke kustvlakte met havens",
+              "eerder dichtbevolkt"
+            ],
+            [
+              "bevroren bodem een groot deel van het jaar",
+              "eerder dunbevolkt"
+            ]
+          ],
+          "uitleg": "Water, vruchtbare grond en vlak reliëf trekken mensen aan; droogte, kou en bergen niet."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over de bevolkingsdichtheid?",
+          "rijen": [
+            "Een land met veel inwoners heeft daarom nog geen hoge dichtheid.",
+            "Een hoge dichtheid betekent dat een gebied rijk is.",
+            "Twee gebieden met dezelfde dichtheid kunnen een heel andere spreiding hebben."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Dichtheid zegt hoeveel mensen per km² wonen, niet hoe rijk of hoe verspreid."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom woont bijna iedereen in Egypte op een smalle strook langs de Nijl?",
+          "opties": [
+            "Daar zijn water en vruchtbare grond.",
+            "Daar is het klimaat kouder en natter.",
+            "Daar liggen de hoogste bergen.",
+            "Daar is de grond het goedkoopst."
+          ],
+          "antwoord": 0,
+          "uitleg": "Rond de rivier is er water en slib; de rest is woestijn."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Welke factor verklaart het best de lage dichtheid?",
+          "paren": [
+            [
+              "de Sahara",
+              "te weinig neerslag"
+            ],
+            [
+              "het noorden van Canada",
+              "lange koude en bevroren bodem"
+            ],
+            [
+              "de Himalaya",
+              "steil en hoog reliëf"
+            ],
+            [
+              "het Amazonewoud",
+              "dicht woud en arme bodem"
+            ]
+          ],
+          "extra": [
+            "te veel steden"
+          ],
+          "uitleg": "Klimaat, reliëf en bodem verklaren veel van het wereldpatroon."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Rangschik van laagste naar hoogste bevolkingsdichtheid.",
+          "opties": [
+            "1 miljoen inwoners op 100 000 km²",
+            "3 miljoen op 60 000 km²",
+            "5 miljoen op 25 000 km²",
+            "2 miljoen op 4000 km²"
+          ],
+          "uitleg": "10, 50, 200 en 500 inwoners per km²."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een provincie telt 1,2 miljoen inwoners en heeft een dichtheid van 400 inwoners per km². Hoe groot is ze, in km²?",
+          "antwoord": [
+            "3000",
+            "3 000"
+          ],
+          "uitleg": "Oppervlakte = inwoners / dichtheid = 1 200 000 / 400 = 3000 km²."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "De bevolkingsdichtheid is het aantal [[inwoners]] per [[vierkante kilometer]]. Je leest ze af van een thematische kaart door eerst de [[legende]] te lezen.",
+          "extra": [
+            "huizen",
+            "titel"
+          ],
+          "uitleg": "Dichtheid altijd per km², en een kaart lees je met de legende."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over de ontwikkelingsgraad?",
+          "rijen": [
+            "Ze gaat over welvaart, gezondheid en onderwijs samen.",
+            "Een land vol grondstoffen is daarom hoog ontwikkeld.",
+            "Binnen één land kan ze sterk verschillen tussen streken.",
+            "Er is een vast verband met de bevolkingsdichtheid."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Wat een land met zijn rijkdom doet, telt meer dan de rijkdom zelf."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Nederland is dichtbevolkt en hoog ontwikkeld. Bangladesh is dichtbevolkt en minder ontwikkeld. Wat besluit je?",
+          "opties": [
+            "Dichtheid en ontwikkeling hangen niet vast samen.",
+            "Een hoge dichtheid zorgt altijd voor ontwikkeling.",
+            "Een hoge dichtheid maakt een land altijd arm.",
+            "Je kan de twee landen helemaal niet vergelijken."
+          ],
+          "antwoord": 0,
+          "uitleg": "Er is geen vast verband tussen die twee."
+        },
+        {
+          "casus": "Je vergelijkt twee provincies met een tabel: provincie P telt 900 000 inwoners op 3000 km², provincie Q telt 600 000 inwoners op 1200 km².",
+          "vragen": [
+            {
+              "type": "meerkeuze",
+              "vraag": "Welke provincie is het dichtst bevolkt?",
+              "opties": [
+                "Q, met 500 inwoners per km²",
+                "P, met 300 inwoners per km²",
+                "P, omdat ze meer inwoners heeft",
+                "Q, omdat ze kleiner is"
+              ],
+              "antwoord": 0,
+              "uitleg": "P: 300 per km²; Q: 500 per km². Je moet delen, niet enkel vergelijken."
+            },
+            {
+              "type": "tabel",
+              "vraag": "Welke gegevens heb je nodig om eerlijk te vergelijken?",
+              "rijen": [
+                "het aantal inwoners van elke provincie",
+                "de oppervlakte van elke provincie",
+                "het aantal steden in elke provincie"
+              ],
+              "antwoord": [
+                true,
+                true,
+                false
+              ],
+              "uitleg": "Dichtheid = inwoners gedeeld door oppervlakte."
+            }
+          ]
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een patroon op een kaart toont [[*hoe iets over een gebied verspreid is|hoeveel iets precies kost|wie de kaart gemaakt heeft]].",
+          "uitleg": "Bij de bevolking zie je zo bijvoorbeeld een lint langs een rivier."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over reliëf en wonen?",
+          "rijen": [
+            "Bouwen op steile hellingen is duur en moeilijk.",
+            "Reliëf speelt vandaag geen enkele rol meer.",
+            "Vlakke gebieden zijn makkelijk voor wegen en landbouw."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Technisch kan veel, maar bergen blijven dunner bevolkt."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je de vruchtbare vlakte die een rivier vormt waar ze in zee uitmondt?",
+          "antwoord": [
+            "delta",
+            "een delta",
+            "de delta"
+          ],
+          "uitleg": "In een delta zet de rivier haar slib af."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op een streek met 10 tot 100 inwoners per km².",
+          "afbeelding_url": "/examenvormen/aardrijkskunde-boost/land-dichtheid.svg",
+          "zones": [
+            [
+              20.0,
+              40.6,
+              14.0,
+              21.9
+            ],
+            [
+              21.0,
+              65.6,
+              14.0,
+              21.9
+            ]
+          ],
+          "uitleg": "C en E hebben de tweede kleur van de legende."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Lees de kaart van Veldaria. Klopt dit?",
+          "rijen": [
+            "De dichtheid neemt toe van de bergen naar de kust.",
+            "Streek B is dichter bevolkt dan streek D.",
+            "Langs de rivier wonen meer mensen dan in de bergen."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Bergen in het noorden zijn dun bevolkt, de delta in het zuiden het dichtst."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom wonen er in Vlaanderen veel mensen per km²?",
+          "opties": [
+            "vlak land, goede grond en een gunstige ligging",
+            "een heel droog klimaat met amper regen",
+            "veel hooggebergte met koele lucht",
+            "een bodem die lang bevroren is"
+          ],
+          "antwoord": 0,
+          "uitleg": "Vlak land, goede grond en een ligging aan zee en rivieren trekken mensen aan."
+        },
+        {
+          "casus": "Een tabel toont drie landen: Noorland met een levensverwachting van 83 jaar, 18 jaar onderwijs en een hoog inkomen; Middenland met 72 jaar, 12 jaar en een middelmatig inkomen; Zuidland met 58 jaar, 6 jaar en een laag inkomen.",
+          "vragen": [
+            {
+              "type": "volgorde",
+              "vraag": "Rangschik de landen van hoogste naar laagste HDI.",
+              "opties": [
+                "Noorland",
+                "Middenland",
+                "Zuidland"
+              ],
+              "uitleg": "De HDI combineert levensverwachting, onderwijs en inkomen."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Welke HDI past het best bij Zuidland?",
+              "opties": [
+                "0,45",
+                "0,95",
+                "1,45",
+                "45"
+              ],
+              "antwoord": 0,
+              "uitleg": "De HDI ligt tussen 0 en 1; een lage score ligt dicht bij 0,4 of 0,5."
+            }
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over de HDI?",
+          "rijen": [
+            "Hij combineert levensverwachting, onderwijs en inkomen.",
+            "Hij ligt tussen 0 en 1.",
+            "Hij meet hoe gelijk de welvaart verdeeld is.",
+            "Hij kan door een oorlog dalen."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "De gewone HDI werkt met gemiddelden en ziet ongelijkheid niet."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Doet dit de HDI eerder stijgen of dalen?",
+          "kolommen": [
+            "eerder stijgen",
+            "eerder dalen"
+          ],
+          "items": [
+            [
+              "een langdurige oorlog",
+              "eerder dalen"
+            ],
+            [
+              "meer kinderen die naar school gaan",
+              "eerder stijgen"
+            ],
+            [
+              "een zware epidemie",
+              "eerder dalen"
+            ],
+            [
+              "betere gezondheidszorg",
+              "eerder stijgen"
+            ],
+            [
+              "scholen die jarenlang dicht zijn",
+              "eerder dalen"
+            ]
+          ],
+          "uitleg": "De HDI volgt gezondheid, onderwijs en inkomen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Twee landen hebben allebei een HDI van 0,75. Wat weet je dan zeker?",
+          "opties": [
+            "Hun samengestelde score is gelijk.",
+            "Ze hebben dezelfde levensverwachting.",
+            "Ze hebben hetzelfde gemiddelde inkomen.",
+            "Hun kinderen gaan even lang naar school."
+          ],
+          "antwoord": 0,
+          "uitleg": "Het ene land kan beter scoren op gezondheid, het andere op inkomen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Een bron over de HDI. Waarop let je kritisch?",
+          "rijen": [
+            "van welk jaar de cijfers zijn",
+            "wie de cijfers verzameld heeft",
+            "de kleur van de kaart"
+          ],
+          "antwoord": [
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Recente cijfers van een betrouwbare instelling, zoals de Verenigde Naties."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "De HDI wordt elk jaar berekend door [[*de Verenigde Naties|de Europese Unie|de NAVO]].",
+          "uitleg": "De VN publiceren de Human Development Index."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom is de HDI een betere maat voor ontwikkeling dan het inkomen alleen?",
+          "opties": [
+            "Hij telt ook gezondheid en onderwijs mee.",
+            "Hij is makkelijker te berekenen dan het inkomen.",
+            "Hij geldt enkel voor de rijkste landen van de wereld.",
+            "Hij telt ook het aantal inwoners per km²."
+          ],
+          "antwoord": 0,
+          "uitleg": "Een rijk land kan slecht scoren op gezondheid of onderwijs."
+        }
+      ]
+    },
+    {
+      "titel": "Hoe een bevolking verandert — pittig",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het histogram van een bevolking met veel kinderen en weinig ouderen.",
+          "afbeelding_url": "/examenvormen/aardrijkskunde-boost/drie-histogrammen.svg",
+          "zones": [
+            [
+              6.0,
+              9.4,
+              22.0,
+              76.6
+            ]
+          ],
+          "uitleg": "Een brede basis die snel smal toeloopt: een jonge, snel groeiende bevolking."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het histogram van een vergrijzende bevolking.",
+          "afbeelding_url": "/examenvormen/aardrijkskunde-boost/drie-histogrammen.svg",
+          "zones": [
+            [
+              39.0,
+              9.4,
+              22.0,
+              76.6
+            ]
+          ],
+          "uitleg": "Smal onderaan en breed bij de ouderen: weinig geboorten, mensen leven lang."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het histogram met een inkeping, bijvoorbeeld door een oorlog of een crisis.",
+          "afbeelding_url": "/examenvormen/aardrijkskunde-boost/drie-histogrammen.svg",
+          "zones": [
+            [
+              72.0,
+              9.4,
+              22.0,
+              76.6
+            ]
+          ],
+          "uitleg": "Eén groep is veel smaller: die mensen werden toen niet geboren of stierven."
+        },
+        {
+          "casus": "Land X heeft een geboortecijfer van 11 ‰ en een sterftecijfer van 13 ‰. Het telt 10 miljoen inwoners.",
+          "vragen": [
+            {
+              "type": "invultekst",
+              "vraag": "Hoe groot is de natuurlijke aangroei in ‰? Schrijf het getal met teken.",
+              "antwoord": [
+                "-2",
+                "−2",
+                "-2 ‰",
+                "−2 ‰"
+              ],
+              "uitleg": "11 − 13 = −2 ‰: er sterven meer mensen dan er geboren worden."
+            },
+            {
+              "type": "invultekst",
+              "vraag": "Met hoeveel mensen daalt de bevolking door die aangroei in één jaar?",
+              "antwoord": [
+                "20000",
+                "20 000"
+              ],
+              "uitleg": "2 per 1000 van 10 miljoen = 20 000 mensen."
+            },
+            {
+              "type": "tabel",
+              "vraag": "Klopt dit over land X?",
+              "rijen": [
+                "De bevolking kan toch groeien door immigratie.",
+                "Het histogram is waarschijnlijk smal onderaan.",
+                "Het land heeft veel jonge kinderen."
+              ],
+              "antwoord": [
+                true,
+                true,
+                false
+              ],
+              "uitleg": "Een negatieve aangroei past bij weinig geboorten en vergrijzing."
+            }
+          ]
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Doet dit het geboortecijfer eerder dalen of stijgen?",
+          "kolommen": [
+            "eerder dalen",
+            "eerder stijgen"
+          ],
+          "items": [
+            [
+              "meisjes die lang naar school gaan",
+              "eerder dalen"
+            ],
+            [
+              "goede toegang tot voorbehoedsmiddelen",
+              "eerder dalen"
+            ],
+            [
+              "kinderen als hulp op de boerderij",
+              "eerder stijgen"
+            ],
+            [
+              "een goed pensioen voor ouderen",
+              "eerder dalen"
+            ],
+            [
+              "hoge kindersterfte",
+              "eerder stijgen"
+            ]
+          ],
+          "uitleg": "Waar kinderen nodig zijn als hulp of oudedagsvoorziening, worden er meer geboren."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over kengetallen?",
+          "rijen": [
+            "Het geboortecijfer telt geboorten per 1000 inwoners per jaar.",
+            "Een land met veel ouderen kan een hoog sterftecijfer hebben, ook met goede zorg.",
+            "Kengetallen in ‰ maken landen eerlijk vergelijkbaar.",
+            "Een negatieve natuurlijke aangroei is onmogelijk."
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Verhoudingsgetallen per duizend maken vergelijken eerlijk."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Welke term hoort bij welke omschrijving?",
+          "paren": [
+            [
+              "immigratie",
+              "mensen komen in een land wonen"
+            ],
+            [
+              "emigratie",
+              "mensen vertrekken uit hun land"
+            ],
+            [
+              "braindrain",
+              "hoogopgeleiden vertrekken"
+            ],
+            [
+              "braingain",
+              "hoogopgeleiden komen aan"
+            ]
+          ],
+          "extra": [
+            "vergrijzing"
+          ],
+          "uitleg": "Im- is binnenkomen, e- is vertrekken."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Is dit een pushfactor of een pullfactor?",
+          "kolommen": [
+            "pushfactor",
+            "pullfactor"
+          ],
+          "items": [
+            [
+              "oorlog in het eigen land",
+              "pushfactor"
+            ],
+            [
+              "werk in het land van aankomst",
+              "pullfactor"
+            ],
+            [
+              "aanhoudende droogte",
+              "pushfactor"
+            ],
+            [
+              "familie die er al woont",
+              "pullfactor"
+            ],
+            [
+              "vervolging om je geloof",
+              "pushfactor"
+            ],
+            [
+              "goede scholen",
+              "pullfactor"
+            ]
+          ],
+          "uitleg": "Push duwt weg, pull trekt aan."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over migratie?",
+          "rijen": [
+            "De meeste migranten blijven in hun eigen wereldregio.",
+            "Wie vlucht voor droogte, steekt meestal meteen een oceaan over.",
+            "Wie migreert, is vaak jongvolwassen."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Vluchten gebeurt meestal naar een buurland."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een land voerde jarenlang een beleid van één kind per gezin. Wat zie je nu in zijn histogram?",
+          "opties": [
+            "smalle balken bij de jongere groepen",
+            "een brede basis die heel snel smal toeloopt",
+            "overal even brede balken",
+            "een inkeping bij de oudste groep van het land"
+          ],
+          "antwoord": 0,
+          "uitleg": "Minder geboorten maakt de onderste balken smal."
+        },
+        {
+          "casus": "In een land daalt het geboortecijfer al twintig jaar en leven mensen steeds langer.",
+          "vragen": [
+            {
+              "type": "meerkeuze",
+              "vraag": "Wat verwacht je over twintig jaar?",
+              "opties": [
+                "een groter aandeel ouderen",
+                "een grotere groep kleine kinderen",
+                "een veel hoger geboortecijfer",
+                "een jongere beroepsbevolking"
+              ],
+              "antwoord": 0,
+              "uitleg": "Minder jongeren en langer leven: de bevolking vergrijst."
+            },
+            {
+              "type": "tabel",
+              "vraag": "Welke gevolgen heeft die vergrijzing?",
+              "rijen": [
+                "meer uitgaven aan pensioenen",
+                "meer vraag naar zorg voor ouderen",
+                "minder nood aan rusthuizen",
+                "minder mensen op de arbeidsmarkt"
+              ],
+              "antwoord": [
+                true,
+                true,
+                false,
+                true
+              ],
+              "uitleg": "Vergrijzing kost geld voor pensioenen en zorg en maakt de beroepsbevolking kleiner."
+            }
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over braindrain?",
+          "rijen": [
+            "Het land van vertrek verliest artsen en ingenieurs.",
+            "Het is vooral een voordeel voor het land van vertrek.",
+            "Het land van aankomst kent dan braingain."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Het land dat hoogopgeleiden verliest, verliest de kennis die het nodig heeft."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Een leeftijdshistogram met een brede [[basis]] wijst op een jonge bevolking. Is de top breed, dan is de bevolking [[vergrijsd]]. Een [[inkeping]] schuift met de jaren mee naar boven.",
+          "extra": [
+            "top",
+            "verjongd"
+          ],
+          "uitleg": "Je leest de vorm van onder naar boven."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een inkeping in een histogram schuift na enkele jaren [[*mee naar boven|vanzelf weer dicht|naar onderen]].",
+          "uitleg": "Wie toen niet geboren werd, komt later ook niet terug."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom zet men een histogram in groepen van vijf of tien jaar?",
+          "opties": [
+            "zo blijft de vorm overzichtelijk",
+            "omdat de gegevens per jaar geheim zijn",
+            "omdat mannen en vrouwen anders tellen",
+            "zo past het histogram op één blad papier"
+          ],
+          "antwoord": 0,
+          "uitleg": "Honderd balken per jaar maken de vorm onleesbaar."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een land heeft een geboortecijfer van 25 ‰ en een natuurlijke aangroei van 18 ‰. Hoe groot is het sterftecijfer in ‰?",
+          "antwoord": [
+            "7",
+            "7 ‰"
+          ],
+          "uitleg": "25 − 18 = 7 ‰."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welke kengetallen heb je samen nodig om de totale bevolkingsgroei te kennen?",
+          "rijen": [
+            "het geboortecijfer",
+            "het sterftecijfer",
+            "hoeveel mensen er inwijken en uitwijken",
+            "de bevolkingsdichtheid"
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Geboorten, sterften en migratie bepalen samen de groei."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een land van 8 miljoen inwoners heeft een geboortecijfer van 15 ‰. Hoeveel kinderen worden er in een jaar geboren?",
+          "antwoord": [
+            "120000",
+            "120 000"
+          ],
+          "uitleg": "15 per 1000 van 8 miljoen = 120 000."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Lees de drie histogrammen. Klopt dit?",
+          "rijen": [
+            "A hoort het best bij een land met veel geboorten.",
+            "B hoort het best bij een land met een lange levensverwachting.",
+            "C toont een land zonder enige verstoring."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false
+          ],
+          "uitleg": "De vorm vertelt het verhaal van geboorten, sterften en gebeurtenissen."
+        },
+        {
+          "casus": "Land Y heeft een geboortecijfer van 36 ‰, een sterftecijfer van 10 ‰ en een vruchtbaarheidscijfer van 4,8.",
+          "vragen": [
+            {
+              "type": "meerkeuze",
+              "vraag": "In welke fase van de demografische transitie zit land Y waarschijnlijk?",
+              "opties": [
+                "de tweede fase",
+                "de eerste fase",
+                "de derde fase",
+                "de vierde fase"
+              ],
+              "antwoord": 0,
+              "uitleg": "De sterfte is al gedaald, de geboorten blijven hoog: de snelste groei."
+            },
+            {
+              "type": "invultekst",
+              "vraag": "Hoeveel kinderen krijgen vrouwen in land Y gemiddeld?",
+              "antwoord": [
+                "4,8",
+                "4.8"
+              ],
+              "uitleg": "Het vruchtbaarheidscijfer is het gemiddeld aantal kinderen per vrouw."
+            }
+          ]
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Rangschik de fasen van de demografische transitie.",
+          "opties": [
+            "geboorte- en sterftecijfer allebei hoog",
+            "sterftecijfer daalt, geboortecijfer blijft hoog",
+            "geboortecijfer daalt ook",
+            "geboorte- en sterftecijfer allebei laag"
+          ],
+          "uitleg": "Eerst daalt de sterfte, pas daarna de geboorten."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over het migratiesaldo?",
+          "rijen": [
+            "Het is de immigratie min de emigratie.",
+            "Voor de hele wereld samen is het nul.",
+            "Een positief saldo kan een negatieve natuurlijke aangroei compenseren.",
+            "Het is altijd positief in een rijk land."
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Wie ergens vertrekt, komt elders aan."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een land telt in een jaar 45 000 immigranten en 30 000 emigranten. Hoe groot is het migratiesaldo?",
+          "antwoord": [
+            "15000",
+            "15 000",
+            "+15000",
+            "+15 000"
+          ],
+          "uitleg": "45 000 − 30 000 = 15 000."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een land heeft een geboortecijfer van 12 ‰ en een sterftecijfer van 11 ‰. In welke fase van de transitie zit het waarschijnlijk?",
+          "opties": [
+            "de vierde fase",
+            "de eerste fase",
+            "de tweede fase",
+            "de derde fase, net begonnen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Allebei laag en dicht bij elkaar: de bevolking groeit nog maar traag."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over het vruchtbaarheidscijfer?",
+          "rijen": [
+            "Een cijfer van 1,4 betekent gemiddeld 1,4 kinderen per vrouw.",
+            "Bij ongeveer 2,1 blijft een bevolking op lange termijn gelijk.",
+            "Het is hetzelfde als het geboortecijfer."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Het geboortecijfer telt per 1000 inwoners; het vruchtbaarheidscijfer per vrouw."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een land in de vierde fase heeft een histogram met een [[*smalle basis|brede basis|inkeping bovenaan]].",
+          "uitleg": "Weinig geboorten geven smalle balken onderaan."
+        }
+      ]
+    },
+    {
+      "titel": "Stad en platteland — pittig",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "Een bedrijf zoekt goedkope grond die vlot bereikbaar is voor vrachtwagens. Klik op de plaats die het kiest.",
+          "afbeelding_url": "/examenvormen/aardrijkskunde-boost/stad-omgeving.svg",
+          "zones": [
+            [
+              74.0,
+              66.4,
+              14.0,
+              21.9
+            ]
+          ],
+          "uitleg": "Bij de snelweg, buiten de stad: ruimte, lage grondprijs en bereikbaarheid."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de nieuwe verkaveling waar gezinnen uit de stad naartoe trekken.",
+          "afbeelding_url": "/examenvormen/aardrijkskunde-boost/stad-omgeving.svg",
+          "zones": [
+            [
+              75.5,
+              14.1,
+              14.0,
+              21.9
+            ]
+          ],
+          "uitleg": "De nieuwe huizen buiten de ring tonen stadsvlucht en verstedelijking van het platteland."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het oude gebouw dat het best in aanmerking komt voor een functiewijziging tot lofts.",
+          "afbeelding_url": "/examenvormen/aardrijkskunde-boost/stad-omgeving.svg",
+          "zones": [
+            [
+              31.0,
+              53.9,
+              14.0,
+              21.9
+            ]
+          ],
+          "uitleg": "Een oude fabriek in de stad krijgt vaak een nieuwe functie, zoals wonen."
+        },
+        {
+          "casus": "Het gezin Peeters woont in een appartement in het centrum. Ze verhuizen naar een nieuwe verkaveling in een dorp twintig kilometer verder, voor een tuin en rust. Beide ouders blijven in de stad werken.",
+          "vragen": [
+            {
+              "type": "invultekst",
+              "vraag": "Hoe noem je zo'n verhuis van de stad naar het platteland? Schrijf het woord.",
+              "antwoord": [
+                "stadsvlucht",
+                "de stadsvlucht"
+              ],
+              "uitleg": "Stadsvlucht: weg uit de stad, op zoek naar ruimte en rust."
+            },
+            {
+              "type": "tabel",
+              "vraag": "Klopt dit over hun nieuwe leven?",
+              "rijen": [
+                "Ze leggen elke dag meer kilometers af.",
+                "Ze pendelen tussen woonplaats en werkplaats.",
+                "Hun verhuis maakt het dorp minder stedelijk."
+              ],
+              "antwoord": [
+                true,
+                true,
+                false
+              ],
+              "uitleg": "Meer verkavelingen en pendelaars verstedelijken het platteland."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Wat kan er gebeuren als veel gezinnen zo doen?",
+              "opties": [
+                "Het dorp wordt een woondorp met veel verkeer.",
+                "Het centrum van de stad wordt drukker bewoond.",
+                "Het dorp krijgt meer akkers en minder huizen.",
+                "De snelweg naar de stad raakt minder vol."
+              ],
+              "antwoord": 0,
+              "uitleg": "Meer huizen, meer auto's, maar niet altijd meer winkels of werk."
+            }
+          ]
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Is dit een reden om in de stad of op het platteland te wonen?",
+          "kolommen": [
+            "stad",
+            "platteland"
+          ],
+          "items": [
+            [
+              "dichtbij werk, scholen en ziekenhuizen",
+              "stad"
+            ],
+            [
+              "meer ruimte voor hetzelfde geld",
+              "platteland"
+            ],
+            [
+              "goed openbaar vervoer",
+              "stad"
+            ],
+            [
+              "rust en groen",
+              "platteland"
+            ],
+            [
+              "veel cultuur en uitgaan",
+              "stad"
+            ]
+          ],
+          "uitleg": "De stad bundelt voorzieningen; het platteland biedt ruimte en rust."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over verstedelijking?",
+          "rijen": [
+            "Steden krijgen meer inwoners.",
+            "Stedelijke kenmerken schuiven op naar het platteland.",
+            "Het gaat enkel over meer inwoners in steden.",
+            "Een luchtfoto van vroeger en nu toont ze goed."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Verstedelijking is ook het platteland dat steeds meer bebouwd raakt."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Welk begrip hoort bij welk voorbeeld?",
+          "paren": [
+            [
+              "functiewijziging",
+              "een kerk wordt een bibliotheek"
+            ],
+            [
+              "sociale segregatie",
+              "rijke en arme gezinnen wonen in aparte wijken"
+            ],
+            [
+              "multiculturaliteit",
+              "mensen van veel culturen wonen in dezelfde stad"
+            ],
+            [
+              "ontvolking",
+              "jongeren trekken weg uit een afgelegen dorp"
+            ]
+          ],
+          "extra": [
+            "hitte-eilandeffect"
+          ],
+          "uitleg": "Elk begrip beschrijft een verandering in stad of platteland."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over sociale segregatie?",
+          "rijen": [
+            "Bevolkingsgroepen wonen in gescheiden wijken.",
+            "De woningprijs is een belangrijke oorzaak.",
+            "Ze is hetzelfde als multiculturaliteit."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Segregatie is een ruimtelijke scheiding; multiculturaliteit gaat over wie er samen woont."
+        },
+        {
+          "casus": "In een stad is het op een zomeravond 5 °C warmer dan in de dorpen eromheen. Na een zware bui lopen de straten onder water.",
+          "vragen": [
+            {
+              "type": "invultekst",
+              "vraag": "Hoe heet het verschijnsel van de hogere temperatuur in de stad?",
+              "antwoord": [
+                "hitte-eilandeffect",
+                "het hitte-eilandeffect",
+                "hitte-eiland"
+              ],
+              "uitleg": "Beton en asfalt houden warmte vast."
+            },
+            {
+              "type": "tabel",
+              "vraag": "Wat helpt tegen beide problemen?",
+              "rijen": [
+                "een betonnen plein openbreken en bomen planten",
+                "groendaken aanleggen",
+                "meer parkings in asfalt"
+              ],
+              "antwoord": [
+                true,
+                true,
+                false
+              ],
+              "uitleg": "Minder verharding laat water in de bodem zakken en koelt de stad."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Waarom lopen de straten zo snel onder water?",
+              "opties": [
+                "Verharding laat het water niet in de bodem.",
+                "De stad ligt altijd lager dan het platteland.",
+                "Er valt in de stad meer regen dan buiten.",
+                "Bomen houden het regenwater tegen."
+              ],
+              "antwoord": 0,
+              "uitleg": "Beton en asfalt laten geen water door, dus loopt alles snel naar de riolen."
+            }
+          ]
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Wie dagelijks heen en weer reist tussen wonen en werken, [[pendelt]]. Het opdelen van de open ruimte in kleine stukken heet [[versnippering]]. Een leegstaande fabriek die woningen wordt, kent een [[functiewijziging]].",
+          "extra": [
+            "segregatie",
+            "stadsvlucht"
+          ],
+          "uitleg": "Drie veranderingen in stad en platteland."
+        },
+        {
+          "type": "tabel",
+          "vraag": "In een winkelstraat staat een derde van de panden leeg. Wat is een geloofwaardige verklaring?",
+          "rijen": [
+            "Mensen kopen meer online.",
+            "Grote winkels verhuizen naar de rand van de stad.",
+            "De huurprijzen in de straat zijn te hoog.",
+            "Er wonen te veel mensen in het centrum."
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Online winkelen en baanwinkels trekken klanten weg uit het centrum."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In welke landen trekken mensen vooral van het platteland naar de stad?",
+          "opties": [
+            "in veel minder ontwikkelde landen",
+            "enkel in de allerrijkste landen van Europa",
+            "nergens meer, want die trek is al voorbij",
+            "enkel in landen zonder grote steden"
+          ],
+          "antwoord": 0,
+          "uitleg": "Werk, onderwijs en zorg zitten daar vooral in de stad."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een stad die inwoners verliest, verliest daarom [[*niet altijd|altijd|nooit]] haar economische functie.",
+          "uitleg": "Kantoren, haven en universiteit kunnen blijven."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Hoort dit bij de verstedelijking van het platteland?",
+          "kolommen": [
+            "ja",
+            "nee"
+          ],
+          "items": [
+            [
+              "nieuwe verkavelingen rond de dorpskern",
+              "ja"
+            ],
+            [
+              "winkels langs een steenweg",
+              "ja"
+            ],
+            [
+              "meer pendelverkeer",
+              "ja"
+            ],
+            [
+              "akkers die er bijkomen",
+              "nee"
+            ]
+          ],
+          "uitleg": "Bebouwing, winkels en verkeer schuiven het platteland op."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over armoede en wonen?",
+          "rijen": [
+            "In de stad is er meer kans op werk.",
+            "Wonen is in de stad vaak duurder.",
+            "Armoede duwt mensen altijd weg uit de stad."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Armoede werkt in twee richtingen."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de hoge woonblokken waar vaak gezinnen met een kleiner budget wonen.",
+          "afbeelding_url": "/examenvormen/aardrijkskunde-boost/stad-omgeving.svg",
+          "zones": [
+            [
+              50.0,
+              20.3,
+              14.0,
+              21.9
+            ]
+          ],
+          "uitleg": "Sociale hoogbouw toont hoe woningprijs en segregatie samenhangen."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het gebied waar versnippering van de open ruimte de landbouw het meest bedreigt.",
+          "afbeelding_url": "/examenvormen/aardrijkskunde-boost/stad-omgeving.svg",
+          "zones": [
+            [
+              12.5,
+              12.5,
+              14.0,
+              21.9
+            ]
+          ],
+          "uitleg": "De akkers buiten de stad raken versnipperd door wegen en verkavelingen."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Rangschik hoe een woondorp ontstaat.",
+          "opties": [
+            "Een snelweg maakt de stad vlot bereikbaar.",
+            "Stedelingen kopen grond in het dorp.",
+            "Er komen verkavelingen rond de dorpskern.",
+            "Veel inwoners pendelen elke dag naar de stad."
+          ],
+          "uitleg": "Bereikbaarheid trekt nieuwe bewoners aan, die blijven pendelen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Lees het schema van de stad. Klopt dit?",
+          "rijen": [
+            "Het bedrijventerrein ligt aan de snelweg.",
+            "De akkers liggen binnen de ring.",
+            "Het centrum ligt in het midden van de ring."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Bedrijven zoeken bereikbaarheid, akkers liggen buiten de bebouwing."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je het verdwijnen van inwoners uit afgelegen dorpen zonder werk of voorzieningen? Schrijf het woord.",
+          "antwoord": [
+            "ontvolking",
+            "de ontvolking",
+            "ontvolking van het platteland"
+          ],
+          "uitleg": "Jongeren trekken weg voor studie en werk; scholen en winkels sluiten."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Op welke grond heeft deze stad belang?",
+          "rijen": [
+            "hoofdkwartieren van grote bedrijven",
+            "universiteiten en grote musea",
+            "de zetel van een regering",
+            "een grote internationale beurs"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            0
+          ],
+          "uitleg": "De hiërarchie van steden kijkt naar economisch, cultureel en politiek belang.",
+          "kolommen": [
+            "economisch",
+            "cultureel",
+            "politiek"
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom staat Brussel hoog in de Europese stedenhiërarchie?",
+          "opties": [
+            "Er zetelen Europese instellingen.",
+            "Het is de grootste stad van Europa.",
+            "Het ligt in het midden van het continent.",
+            "Het heeft de grootste haven van Europa."
+          ],
+          "antwoord": 0,
+          "uitleg": "Niet grootte maar belang telt."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over inbreiding?",
+          "rijen": [
+            "Je bouwt op open plekken binnen de bestaande stad.",
+            "Zo blijft de open ruimte buiten de stad gespaard.",
+            "Het betekent nieuwe verkavelingen op akkers."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Inbreiding vult de stad op in plaats van uit te breiden."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Is dit inbreiding of uitbreiding?",
+          "kolommen": [
+            "inbreiding",
+            "uitbreiding"
+          ],
+          "items": [
+            [
+              "appartementen op een oud bedrijfsterrein in de stad",
+              "inbreiding"
+            ],
+            [
+              "een nieuwe wijk op weilanden buiten de stad",
+              "uitbreiding"
+            ],
+            [
+              "een lege bouwgrond tussen twee huizen in de stad bebouwen",
+              "inbreiding"
+            ],
+            [
+              "een bedrijventerrein op akkers langs de snelweg",
+              "uitbreiding"
+            ]
+          ],
+          "uitleg": "Inbreiding blijft binnen de bebouwde stad."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welke voordelen geeft stadslandbouw?",
+          "rijen": [
+            "kortere afstand tussen teelt en bord",
+            "meer groen in de stad",
+            "genoeg voedsel voor de hele stad"
+          ],
+          "antwoord": [
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Stadslandbouw helpt, maar voedt de stad niet helemaal."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een stad kan [[*tegelijk|nooit|enkel na een oorlog]] economisch, cultureel én politiek belangrijk zijn.",
+          "uitleg": "Parijs, Londen en Tokio combineren de drie."
+        }
+      ]
+    },
+    {
+      "titel": "Grondstoffen, energie en industrie — pittig",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de plaats waar een grondstof in open lucht ontgonnen wordt.",
+          "afbeelding_url": "/examenvormen/aardrijkskunde-boost/landschap-energie.svg",
+          "zones": [
+            [
+              35.0,
+              36.7,
+              13.0,
+              20.3
+            ]
+          ],
+          "uitleg": "Een groeve of dagbouw ligt in open lucht."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de plaats waar men ondergronds naar de steenkoollaag gaat.",
+          "afbeelding_url": "/examenvormen/aardrijkskunde-boost/landschap-energie.svg",
+          "zones": [
+            [
+              50.2,
+              53.9,
+              13.0,
+              20.3
+            ]
+          ],
+          "uitleg": "Een mijn bereikt de laag via een schacht."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de hernieuwbare energiebron die werkt met stromend water.",
+          "afbeelding_url": "/examenvormen/aardrijkskunde-boost/landschap-energie.svg",
+          "zones": [
+            [
+              15.5,
+              18.0,
+              13.0,
+              20.3
+            ]
+          ],
+          "uitleg": "Een stuwdam met een waterkrachtcentrale."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de fabriek die haar grondstoffen per schip ontvangt.",
+          "afbeelding_url": "/examenvormen/aardrijkskunde-boost/landschap-energie.svg",
+          "zones": [
+            [
+              62.0,
+              21.1,
+              13.0,
+              20.3
+            ]
+          ],
+          "uitleg": "Een fabriek aan de haven: grondstoffen en afzetmarkten overzee."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Hernieuwbaar of niet-hernieuwbaar?",
+          "kolommen": [
+            "hernieuwbaar",
+            "niet-hernieuwbaar"
+          ],
+          "items": [
+            [
+              "windenergie",
+              "hernieuwbaar"
+            ],
+            [
+              "aardgas",
+              "niet-hernieuwbaar"
+            ],
+            [
+              "zonne-energie",
+              "hernieuwbaar"
+            ],
+            [
+              "uranium voor kerncentrales",
+              "niet-hernieuwbaar"
+            ],
+            [
+              "waterkracht",
+              "hernieuwbaar"
+            ],
+            [
+              "steenkool",
+              "niet-hernieuwbaar"
+            ]
+          ],
+          "uitleg": "Hernieuwbare bronnen raken niet op; uranium wel, ook al stoot een kerncentrale weinig CO₂ uit."
+        },
+        {
+          "casus": "In een land worden grote voorraden van een zeldzaam metaal voor batterijen ontdekt. Een buitenlands bedrijf opent er een groeve.",
+          "vragen": [
+            {
+              "type": "tabel",
+              "vraag": "Klopt dit over de nieuwe groeve?",
+              "rijen": [
+                "De vraag naar zulke metalen stijgt door elektrische auto's.",
+                "Het land wordt daardoor vanzelf welvarend.",
+                "Als de winst naar het buitenland gaat, blijft er weinig over in het land."
+              ],
+              "antwoord": [
+                true,
+                false,
+                true
+              ],
+              "uitleg": "Een voorraad alleen maakt niet rijk."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Wanneer start het bedrijf de ontginning?",
+              "opties": [
+                "als de opbrengst de kosten overtreft",
+                "meteen nadat de voorraad gevonden is",
+                "pas als de voorraad bijna op is",
+                "enkel als het land in oorlog is"
+              ],
+              "antwoord": 0,
+              "uitleg": "Ontginnen kost veel; het moet renderen."
+            },
+            {
+              "type": "tabel",
+              "vraag": "Welke ruimtelijke gevolgen heeft de groeve?",
+              "rijen": [
+                "het landschap verandert blijvend",
+                "er komen wegen en vrachtverkeer bij",
+                "het bos rond de groeve groeit aan"
+              ],
+              "antwoord": [
+                true,
+                true,
+                false
+              ],
+              "uitleg": "Ontginning laat sporen na in het landschap."
+            }
+          ]
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Welke factor verklaart de plaats?",
+          "paren": [
+            [
+              "windmolens op de Noordzee",
+              "het waait er harder en constanter"
+            ],
+            [
+              "zonneparken in zonnige streken",
+              "meer zonuren geven meer opbrengst"
+            ],
+            [
+              "oude mijnen in de Kempen",
+              "de steenkoollaag zat in de ondergrond"
+            ],
+            [
+              "chemie in de haven van Antwerpen",
+              "grondstoffen komen er per schip binnen"
+            ]
+          ],
+          "extra": [
+            "de lonen zijn er het laagst"
+          ],
+          "uitleg": "Elke plaats heeft een fysische of economische reden."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over recyclage?",
+          "rijen": [
+            "Oud schroot en batterijen zijn een bron van grondstoffen.",
+            "Recyclage van metalen kost meestal veel minder energie.",
+            "Recyclage maakt ontginning helemaal overbodig."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Recyclage vult ontginning aan, maar vervangt ze niet volledig."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een staalfabriek uit 1900 staat naast een steenkoolmijn. Wat verklaart die keuze het best?",
+          "opties": [
+            "Steenkool was zwaar en duur om te vervoeren.",
+            "De arbeiders wilden dicht bij de kust wonen.",
+            "Fabrieken mochten wettelijk nergens anders staan.",
+            "De lonen waren daar het allerhoogst van het land."
+          ],
+          "antwoord": 0,
+          "uitleg": "Voor elke ton staal was veel steenkool nodig."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over moderne industrie?",
+          "rijen": [
+            "Ze kiest haar plaats vrijer dan vroeger.",
+            "Ze heeft geen transport meer nodig.",
+            "Ze zoekt vaak goedkope grond bij snelwegen."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Ze is minder gebonden aan grondstoffen, maar niet aan vervoer."
+        },
+        {
+          "casus": "In een mijnstreek sluiten tussen 1966 en 1992 alle steenkoolmijnen.",
+          "vragen": [
+            {
+              "type": "invultekst",
+              "vraag": "Hoe noem je het verdwijnen van industrie uit een streek die er sterk op draaide?",
+              "antwoord": [
+                "de-industrialisatie",
+                "desindustrialisatie",
+                "deïndustrialisatie"
+              ],
+              "uitleg": "Fabrieken en mijnen sluiten, de streek moet een nieuwe economie zoeken."
+            },
+            {
+              "type": "tabel",
+              "vraag": "Welke gevolgen heeft de sluiting voor de streek?",
+              "rijen": [
+                "de werkloosheid stijgt",
+                "winkels en toeleveranciers verliezen klanten",
+                "de mijnterreinen worden vanzelf natuur"
+              ],
+              "antwoord": [
+                true,
+                true,
+                false
+              ],
+              "uitleg": "Een sluiting raakt veel meer dan de mijn zelf."
+            }
+          ]
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Is dit een fysische of een geopolitieke factor bij energie en industrie?",
+          "kolommen": [
+            "fysisch",
+            "geopolitiek"
+          ],
+          "items": [
+            [
+              "het klimaat",
+              "fysisch"
+            ],
+            [
+              "lidmaatschap van een handelsblok",
+              "geopolitiek"
+            ],
+            [
+              "het reliëf voor een stuwdam",
+              "fysisch"
+            ],
+            [
+              "een oorlog in het land",
+              "geopolitiek"
+            ],
+            [
+              "de staatsvorm",
+              "geopolitiek"
+            ]
+          ],
+          "uitleg": "Fysisch komt uit de natuur, geopolitiek uit de macht tussen staten."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Een grondstof in open lucht ontginnen heet [[dagbouw]]. Werk met de hand is [[traditionele]] ontginning, werk met grote machines [[moderne]] ontginning.",
+          "extra": [
+            "ondergronds",
+            "recyclage"
+          ],
+          "uitleg": "Plaats en manier van ontginnen."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Klimaatverandering kan de opbrengst van een waterkrachtcentrale [[*doen dalen|nooit veranderen|altijd verdubbelen]].",
+          "uitleg": "Minder sneeuw en neerslag betekent minder water in het stuwmeer."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een kledingbedrijf laat naaien in een land met lage lonen en verkoopt in Europa. Wat toont dat?",
+          "opties": [
+            "Productie en afzetmarkt liggen ver uiteen.",
+            "Kleding wordt enkel in Europa gekocht.",
+            "Europese lonen zijn de laagste ter wereld.",
+            "Het bedrijf heeft geen afzetmarkt nodig."
+          ],
+          "antwoord": 0,
+          "uitleg": "Waar iets gemaakt wordt en waar het verkocht wordt, kan verschillen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over de afzetmarkt?",
+          "rijen": [
+            "Het is de plaats waar een product verkocht wordt.",
+            "Bij bederfelijke producten weegt de nabijheid van klanten zwaar.",
+            "Voor elk product weegt de nabijheid van klanten even zwaar."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Zware of bederfelijke producten maak je best dicht bij de klant."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de energiebron die vooral in streken met veel zonuren rendeert.",
+          "afbeelding_url": "/examenvormen/aardrijkskunde-boost/landschap-energie.svg",
+          "zones": [
+            [
+              3.0,
+              27.3,
+              13.0,
+              20.3
+            ]
+          ],
+          "uitleg": "Zonnepanelen brengen meer op waar de zon vaak schijnt."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Rangschik hoe een mijnstreek ontstaat.",
+          "opties": [
+            "Men vindt een steenkoollaag in de ondergrond.",
+            "Er worden schachten gegraven.",
+            "Zware industrie vestigt zich vlak bij de mijn.",
+            "Er komen woonwijken voor de arbeiders."
+          ],
+          "uitleg": "Ontginning trekt industrie en bewoners aan."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Lees de doorsnede van het landschap. Klopt dit?",
+          "rijen": [
+            "De groeve ligt hoger dan de steenkoollaag.",
+            "De windmolens staan op land.",
+            "De fabriek ligt aan het water."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true
+          ],
+          "uitleg": "De windmolens staan in zee, de fabriek aan de haven."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de energiebron die in België vooral op de Noordzee staat.",
+          "afbeelding_url": "/examenvormen/aardrijkskunde-boost/landschap-energie.svg",
+          "zones": [
+            [
+              83.0,
+              3.9,
+              13.0,
+              20.3
+            ]
+          ],
+          "uitleg": "Windmolenparken op zee: daar waait het harder en constanter."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom kiest een bedrijf voor dagbouw als de grondstof dicht bij het oppervlak zit?",
+          "opties": [
+            "Het is goedkoper en veiliger.",
+            "Het levert altijd zuiverder erts op.",
+            "Het laat geen sporen na in het landschap.",
+            "Het mag in België enkel zo."
+          ],
+          "antwoord": 0,
+          "uitleg": "Geen schachten en gangen: minder kosten en minder gevaar."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je energiebronnen zoals wind, zon en waterkracht met één woord? Vul aan: ... energiebronnen.",
+          "antwoord": [
+            "hernieuwbare",
+            "hernieuwbaar"
+          ],
+          "uitleg": "Ze raken niet op."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over outsourcing?",
+          "rijen": [
+            "Werk wordt naar een bedrijf in een ander land verplaatst.",
+            "Lagere lonen zijn de enige reden.",
+            "Ook regels en nabijheid van markten spelen mee."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Lonen wegen mee, maar niet alleen."
+        },
+        {
+          "casus": "De oude mijnsite van een stad wordt omgebouwd tot een bedrijvenpark met een campus.",
+          "vragen": [
+            {
+              "type": "invultekst",
+              "vraag": "Hoe noem je het omvormen van een oud industrieterrein tot iets nieuws?",
+              "antwoord": [
+                "reconversie",
+                "de reconversie"
+              ],
+              "uitleg": "Reconversie geeft een oude site een nieuwe economische functie."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Waarom kiest een stad voor reconversie?",
+              "opties": [
+                "om nieuw werk te maken op oude grond",
+                "om de oude mijnen opnieuw te openen",
+                "om meer steenkool te kunnen invoeren",
+                "om de site voorgoed leeg te laten"
+              ],
+              "antwoord": 0,
+              "uitleg": "De grond en de gebouwen krijgen een nieuw leven."
+            }
+          ]
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een bedrijf dat zijn klantendienst naar een ander land verplaatst, doet aan [[*outsourcing|reconversie|recyclage]].",
+          "uitleg": "Werk uitbesteden aan een bedrijf elders."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Is dit outsourcing of reconversie?",
+          "kolommen": [
+            "outsourcing",
+            "reconversie"
+          ],
+          "items": [
+            [
+              "een fabriek laat onderdelen in Azië maken",
+              "outsourcing"
+            ],
+            [
+              "een oude haven wordt een woonwijk",
+              "reconversie"
+            ],
+            [
+              "een bank laat haar boekhouding in het buitenland doen",
+              "outsourcing"
+            ],
+            [
+              "een mijngebouw wordt een museum",
+              "reconversie"
+            ]
+          ],
+          "uitleg": "Outsourcing verplaatst werk, reconversie geeft een plaats een nieuwe functie."
+        }
+      ]
+    },
+    {
+      "titel": "Landbouw, handel en toerisme — pittig",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "sorteren",
+          "vraag": "Is dit akkerbouw, veeteelt of tuinbouw?",
+          "kolommen": [
+            "akkerbouw",
+            "veeteelt",
+            "tuinbouw"
+          ],
+          "items": [
+            [
+              "tarwe op grote velden",
+              "akkerbouw"
+            ],
+            [
+              "melkkoeien op weiden",
+              "veeteelt"
+            ],
+            [
+              "tomaten in serres",
+              "tuinbouw"
+            ],
+            [
+              "aardappelen",
+              "akkerbouw"
+            ],
+            [
+              "varkens in stallen",
+              "veeteelt"
+            ],
+            [
+              "sierbloemen",
+              "tuinbouw"
+            ]
+          ],
+          "uitleg": "Akkerbouw teelt gewassen, veeteelt houdt dieren, tuinbouw kweekt groenten, fruit en sierplanten."
+        },
+        {
+          "casus": "Boer Van Dijck heeft 20 hectare serres met tomaten, veel personeel en computergestuurde bemesting. Boer Okafor in de Sahel laat geiten grazen op 500 hectare droge grond.",
+          "vragen": [
+            {
+              "type": "tabel",
+              "vraag": "Welke productiewijze past bij elke boer?",
+              "rijen": [
+                "Van Dijck",
+                "Okafor",
+                "een boer met 2 hectare groenten en veel handwerk"
+              ],
+              "antwoord": [
+                0,
+                1,
+                0
+              ],
+              "uitleg": "Intensief: veel arbeid en middelen per hectare; extensief: weinig per hectare, op veel grond.",
+              "kolommen": [
+                "intensief",
+                "extensief"
+              ]
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Wie haalt de grootste opbrengst per hectare?",
+              "opties": [
+                "Van Dijck",
+                "Okafor",
+                "allebei evenveel",
+                "dat kan je niet weten"
+              ],
+              "antwoord": 0,
+              "uitleg": "Intensieve landbouw haalt meer op per hectare."
+            },
+            {
+              "type": "tabel",
+              "vraag": "Klopt dit over Van Dijck?",
+              "rijen": [
+                "Hij werkt modern.",
+                "Veel kunstmest maakt zijn bedrijf vanzelf duurzaam.",
+                "Hij verkoopt waarschijnlijk op een grote afzetmarkt."
+              ],
+              "antwoord": [
+                true,
+                false,
+                true
+              ],
+              "uitleg": "Hoge opbrengsten zijn niet hetzelfde als duurzaam werken."
+            }
+          ]
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Welk gewas hoort bij welke omstandigheden?",
+          "paren": [
+            [
+              "rijst",
+              "warm en veel neerslag in het groeiseizoen"
+            ],
+            [
+              "olijven",
+              "mediterraan klimaat met droge zomers"
+            ],
+            [
+              "koffie",
+              "tropische hooglanden"
+            ],
+            [
+              "graan op zwarte aarde",
+              "zeer vruchtbare grond in Oekraïne"
+            ]
+          ],
+          "extra": [
+            "toendra met bevroren bodem"
+          ],
+          "uitleg": "Klimaat, reliëf en bodem bepalen wat waar groeit."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over schaalvergroting?",
+          "rijen": [
+            "Er blijven minder bedrijven over, die elk meer grond bewerken.",
+            "Percelen worden groter en rechter.",
+            "Er komen meer hagen en houtkanten bij."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Grotere machines vragen grotere, rechte percelen."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Wijst dit op een duurzamer of een minder duurzaam landbouwbedrijf?",
+          "kolommen": [
+            "duurzamer",
+            "minder duurzaam"
+          ],
+          "items": [
+            [
+              "hagen en houtkanten behouden",
+              "duurzamer"
+            ],
+            [
+              "bos kappen voor nieuwe weiden",
+              "minder duurzaam"
+            ],
+            [
+              "gewassen afwisselen",
+              "duurzamer"
+            ],
+            [
+              "veel bestrijdingsmiddelen spuiten",
+              "minder duurzaam"
+            ],
+            [
+              "regenwater opvangen",
+              "duurzamer"
+            ]
+          ],
+          "uitleg": "Duurzaam houdt bodem, water en natuur gezond."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welke factor beïnvloedt hier de landbouw?",
+          "rijen": [
+            "een lange droogte",
+            "een oorlog in het land",
+            "de prijs op de wereldmarkt",
+            "steile hellingen"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            0
+          ],
+          "uitleg": "Fysisch uit de natuur, geopolitiek uit macht en grenzen, sociaaleconomisch uit markt en mensen.",
+          "kolommen": [
+            "fysisch",
+            "geopolitiek",
+            "sociaaleconomisch"
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een boer teelt cacao om ze op de wereldmarkt te verkopen. Waarover gaat dat?",
+          "opties": [
+            "over de afzetmarkt",
+            "over het landbouwsysteem",
+            "over de bodemkwaliteit",
+            "over het reliëf van zijn grond"
+          ],
+          "antwoord": 0,
+          "uitleg": "De afzetmarkt is waar het product verkocht wordt."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je het kappen van bos om er landbouwgrond van te maken?",
+          "antwoord": [
+            "ontbossing",
+            "de ontbossing"
+          ],
+          "uitleg": "Ontbossing voor soja en vee gebeurt vooral in tropische wouden."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over klimaatverandering en landbouw?",
+          "rijen": [
+            "Een gewas kan op een plaats niet meer renderen.",
+            "Droogtes kunnen langer duren.",
+            "Klimaat speelt geen rol meer met moderne serres buiten."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Ook moderne landbouw blijft afhankelijk van water en temperatuur."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Hoort dit bij de primaire landbouw of bij de dienstensector?",
+          "kolommen": [
+            "landbouw",
+            "diensten"
+          ],
+          "items": [
+            [
+              "een melkveebedrijf",
+              "landbouw"
+            ],
+            [
+              "een ziekenhuis",
+              "diensten"
+            ],
+            [
+              "een supermarkt",
+              "diensten"
+            ],
+            [
+              "een fruitplantage",
+              "landbouw"
+            ],
+            [
+              "een reisbureau",
+              "diensten"
+            ]
+          ],
+          "uitleg": "In de dienstensector maakt men geen goederen maar levert men diensten."
+        },
+        {
+          "casus": "Een kustdorp aan de Middellandse Zee groeide in dertig jaar van 2000 naar 40 000 bedden voor toeristen.",
+          "vragen": [
+            {
+              "type": "tabel",
+              "vraag": "Welke gevolgen kan dat massatoerisme hebben?",
+              "rijen": [
+                "bebouwing op de duinen",
+                "te weinig drinkwater in de zomer",
+                "veel seizoenswerk",
+                "minder afval"
+              ],
+              "antwoord": [
+                true,
+                true,
+                true,
+                false
+              ],
+              "uitleg": "Massatoerisme zet druk op ruimte, water en natuur."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Welk risico loopt een dorp dat bijna volledig op toerisme draait?",
+              "opties": [
+                "Bij een crisis valt alles stil.",
+                "Er komen te veel landbouwbedrijven bij.",
+                "De zee wordt er elk jaar warmer van.",
+                "Het dorp verliest zijn strand aan de industrie."
+              ],
+              "antwoord": 0,
+              "uitleg": "Wie op één sector leunt, is kwetsbaar."
+            },
+            {
+              "type": "invultekst",
+              "vraag": "Het dorp telt nu 40 000 bedden tegenover 2000 vroeger. Hoeveel keer zo veel is dat?",
+              "antwoord": [
+                "20",
+                "20 keer"
+              ],
+              "uitleg": "40 000 / 2000 = 20."
+            }
+          ]
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Maakt dit een streek aantrekkelijk voor toerisme of juist niet?",
+          "kolommen": [
+            "aantrekkelijk",
+            "niet aantrekkelijk"
+          ],
+          "items": [
+            [
+              "veel zonuren en een strand",
+              "aantrekkelijk"
+            ],
+            [
+              "politieke onrust",
+              "niet aantrekkelijk"
+            ],
+            [
+              "bekend erfgoed",
+              "aantrekkelijk"
+            ],
+            [
+              "een luchthaven in de buurt",
+              "aantrekkelijk"
+            ],
+            [
+              "geen veilig drinkwater",
+              "niet aantrekkelijk"
+            ]
+          ],
+          "uitleg": "Klimaat, landschap, erfgoed, bereikbaarheid en veiligheid spelen samen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over wintersport?",
+          "rijen": [
+            "Ze ligt vooral in het hooggebergte.",
+            "Klimaatverandering bedreigt lager gelegen skigebieden.",
+            "Ze is onafhankelijk van het weer."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Hoogte betekent kou en sneeuw."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Welk soort handel hoort bij welk voorbeeld?",
+          "paren": [
+            [
+              "groothandel",
+              "levert grote hoeveelheden aan winkels"
+            ],
+            [
+              "kleinhandel",
+              "verkoopt aan de consument"
+            ],
+            [
+              "online handel",
+              "levert vanuit een distributiecentrum aan huis"
+            ]
+          ],
+          "extra": [
+            "veeteelt"
+          ],
+          "uitleg": "Groothandel aan bedrijven, kleinhandel aan de consument."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom liggen grote distributiecentra vaak langs autosnelwegen?",
+          "opties": [
+            "goedkope grond en vlot voor vrachtwagens",
+            "daar wonen de meeste klanten van het land",
+            "de wet verbiedt magazijnen in elke stad",
+            "daar komen de meeste toeristen voorbij"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bereikbaarheid en ruimte wegen het zwaarst."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Een land voert vooral grondstoffen uit en afgewerkte producten in. Klopt dit?",
+          "rijen": [
+            "De bewerking en de winst gebeuren grotendeels elders.",
+            "Het land verdient zo het meeste aan zijn grondstoffen.",
+            "Eigen verwerking zou meer werk opleveren."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Wie enkel grondstoffen uitvoert, laat de toegevoegde waarde liggen."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Handel en diensten [[veranderen]] het landschap: winkelcentra, kantoorparken en [[magazijnen]] nemen ruimte in. Online winkelen verplaatst gebouwen naar [[distributiecentra]].",
+          "extra": [
+            "veranderen nooit",
+            "akkers"
+          ],
+          "uitleg": "Ook wie niets maakt, gebruikt ruimte."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Brugge en Praag trekken toeristen vooral door hun [[*erfgoed|strand|wintersport]].",
+          "uitleg": "Erfgoed alleen kan volstaan."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welke vragen horen bij een onderzoek naar de afzetmarkt van een product?",
+          "rijen": [
+            "Waar wordt het gekocht?",
+            "Door wie wordt het gekocht?",
+            "Hoeveel neerslag valt er op het veld?"
+          ],
+          "antwoord": [
+            true,
+            true,
+            false
+          ],
+          "uitleg": "De afzetmarkt gaat over kopers, niet over teelt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Traditionele landbouw met de hand haalt per werkende minder op. Hoe zit het per hectare?",
+          "opties": [
+            "Dat kan soms meer zijn.",
+            "Dat is altijd veel minder dan modern.",
+            "Dat is altijd precies tien keer minder.",
+            "Dat kan je per hectare nooit meten."
+          ],
+          "antwoord": 0,
+          "uitleg": "Met de hand bewerkt een boer een klein perceel heel intensief."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Rangschik de weg van een tomaat uit de serre tot op je bord.",
+          "opties": [
+            "teelt in de serre",
+            "veiling of groothandel",
+            "supermarkt",
+            "consument"
+          ],
+          "uitleg": "Van producent via groothandel en kleinhandel naar de consument."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over de dienstensector?",
+          "rijen": [
+            "Onderwijs en zorg horen erbij.",
+            "Er worden geen goederen gemaakt.",
+            "Een staalfabriek hoort erbij."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Diensten zijn werk voor mensen, geen productie van goederen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een bedrijf oogst 300 ton tomaten op 5 hectare serre. Hoeveel ton is dat per hectare?",
+          "antwoord": [
+            "60",
+            "60 ton"
+          ],
+          "uitleg": "300 / 5 = 60 ton per hectare: typisch voor intensieve tuinbouw."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over bodemerosie en bodemdegradatie?",
+          "rijen": [
+            "Een kale helling na de oogst spoelt sneller weg.",
+            "Bodemdegradatie betekent dat de bodemkwaliteit achteruitgaat.",
+            "Verzilting is een vorm van bodemdegradatie.",
+            "Erosie gebeurt enkel in woestijnen."
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Zonder begroeiing spoelt regen vruchtbare grond weg."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Helpt dit tegen bodemerosie of maakt het erger?",
+          "kolommen": [
+            "helpt",
+            "maakt erger"
+          ],
+          "items": [
+            [
+              "een helling na de oogst kaal laten",
+              "maakt erger"
+            ],
+            [
+              "hagen op de perceelgrens",
+              "helpt"
+            ],
+            [
+              "een groenbedekker zaaien",
+              "helpt"
+            ],
+            [
+              "ploegen van boven naar onder op een helling",
+              "maakt erger"
+            ]
+          ],
+          "uitleg": "Begroeiing en hagen houden de grond vast."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Te veel bevloeien in een droog gebied kan leiden tot [[*verzilting|ontbossing|schaalvergroting]].",
+          "uitleg": "Verdampend water laat zout achter in de bodem."
+        }
+      ]
+    },
+    {
+      "titel": "Mondialisering — pittig",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "tabel",
+          "vraag": "Welke vorm van mondialisering zie je hier?",
+          "rijen": [
+            "Een gsm met metalen uit Congo, ontworpen in de VS en gemonteerd in Azië",
+            "Jongeren wereldwijd volgen dezelfde series",
+            "Landen maken samen een klimaatakkoord",
+            "Familie houdt contact via sociale media over continenten heen"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "uitleg": "Mondialisering heeft een economische, culturele, politieke en sociale kant.",
+          "kolommen": [
+            "economisch",
+            "cultureel",
+            "politiek",
+            "sociaal"
+          ]
+        },
+        {
+          "casus": "Een T-shirt in een Belgische winkel: het katoen groeit in India, het weven gebeurt in China, het naaien in Bangladesh en het ontwerp komt uit Zweden. Het reist in containers over zee.",
+          "vragen": [
+            {
+              "type": "tabel",
+              "vraag": "Klopt dit over deze productieketen?",
+              "rijen": [
+                "Ze is kwetsbaar als één schakel stilvalt.",
+                "Het product legt duizenden kilometers af.",
+                "Ze maakt landen minder afhankelijk van elkaar."
+              ],
+              "antwoord": [
+                true,
+                true,
+                false
+              ],
+              "uitleg": "Een lange keten verbindt landen, maar maakt ze ook afhankelijk."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Waarom maakte de container dit soort ketens goedkoop?",
+              "opties": [
+                "Vracht wordt niet meer stuk per stuk herladen.",
+                "Containerschepen varen veel sneller dan andere schepen.",
+                "Er is geen haven meer nodig om te laden.",
+                "Containers betalen geen invoerrechten."
+              ],
+              "antwoord": 0,
+              "uitleg": "Eén bak gaat van schip naar trein of vrachtwagen zonder overladen."
+            },
+            {
+              "type": "tabel",
+              "vraag": "Welke ontwikkelingen maakten deze keten mogelijk?",
+              "rijen": [
+                "goedkoper en sneller transport",
+                "internet en snelle communicatie",
+                "minder handelsregels tussen landen",
+                "hogere lonen in alle landen"
+              ],
+              "antwoord": [
+                true,
+                true,
+                true,
+                false
+              ],
+              "uitleg": "Transport, communicatie en open grenzen versnelden de mondialisering."
+            }
+          ]
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Welk samenwerkingsverband hoort bij welke omschrijving?",
+          "paren": [
+            [
+              "EU",
+              "Europese landen met een gemeenschappelijke markt"
+            ],
+            [
+              "VN",
+              "vrede en samenwerking tussen bijna alle landen"
+            ],
+            [
+              "NAVO",
+              "militair bondgenootschap van Europa en Noord-Amerika"
+            ],
+            [
+              "Mercosur",
+              "handelsblok in Zuid-Amerika"
+            ]
+          ],
+          "extra": [
+            "OPEC van de landbouw"
+          ],
+          "uitleg": "Elk verband heeft zijn eigen doel en leden."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over samenwerkingsverbanden?",
+          "rijen": [
+            "Wat de G20 afspreekt, is voor de leden daarna wettelijk verplicht.",
+            "Een handelsblok geeft lagere of geen invoerrechten tussen de leden.",
+            "De NAVO is in de eerste plaats een militair bondgenootschap."
+          ],
+          "antwoord": [
+            false,
+            true,
+            true
+          ],
+          "uitleg": "De G20 overlegt, maar zijn afspraken zijn niet bindend."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Is dit een gevolg van mondialisering?",
+          "kolommen": [
+            "ja",
+            "nee"
+          ],
+          "items": [
+            [
+              "migratie en ontvolking",
+              "ja"
+            ],
+            [
+              "braindrain",
+              "ja"
+            ],
+            [
+              "landgrabbing",
+              "ja"
+            ],
+            [
+              "spanningen tussen landen",
+              "ja"
+            ],
+            [
+              "het verdwijnen van alle handel",
+              "nee"
+            ]
+          ],
+          "uitleg": "Mondialisering heeft winnaars en verliezers."
+        },
+        {
+          "casus": "Een buitenlands bedrijf koopt in een Afrikaans land 50 000 hectare landbouwgrond om er soja voor de export te telen. De boeren die er werkten, hebben geen eigendomspapieren.",
+          "vragen": [
+            {
+              "type": "invultekst",
+              "vraag": "Hoe noemt men het opkopen van grote stukken landbouwgrond door buitenlandse bedrijven of staten?",
+              "antwoord": [
+                "landgrabbing",
+                "land grabbing"
+              ],
+              "uitleg": "Het gebeurt vooral in landen met zwakke eigendomsrechten."
+            },
+            {
+              "type": "tabel",
+              "vraag": "Klopt dit over landgrabbing?",
+              "rijen": [
+                "De lokale bevolking kan grond verliezen die ze zelf bewerkte.",
+                "De soja gaat vooral naar de eigen dorpen.",
+                "Het land krijgt er wel investeringen voor in de plaats."
+              ],
+              "antwoord": [
+                true,
+                false,
+                true
+              ],
+              "uitleg": "Op papier wint het land geld, in de praktijk verliezen boeren hun grond."
+            }
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over braindrain en geld naar huis?",
+          "rijen": [
+            "Wanneer verpleegkundigen naar Europa vertrekken, verliest hun land kennis.",
+            "Europa kent dan braingain.",
+            "Migranten sturen vaak geld naar familie thuis.",
+            "Braindrain is goed voor de zorg in het land van vertrek."
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Het geld helpt families, maar de kennis is weg."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een streek in Zuid-Europa loopt leeg doordat jongeren wegtrekken. Wat verwacht je?",
+          "opties": [
+            "scholen en winkels sluiten",
+            "meer kinderen in de dorpsschool",
+            "nieuwe fabrieken in elk dorp",
+            "een snel stijgend geboortecijfer"
+          ],
+          "antwoord": 0,
+          "uitleg": "Wie blijft, wordt ouder; voorzieningen verdwijnen."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Mondialisering maakt landen [[afhankelijker]] van elkaar. Wie de grondstoffen of chips controleert, heeft [[macht]]. Dat kan [[spanningen]] tussen landen vergroten.",
+          "extra": [
+            "onafhankelijk",
+            "vrede"
+          ],
+          "uitleg": "Verwevenheid geeft voordelen en risico's."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over de gevolgen voor de consument?",
+          "rijen": [
+            "We kopen producten uit de hele wereld.",
+            "Fruit uit het zuiden ligt het hele jaar in de winkel.",
+            "Elk land en elke groep wint evenveel."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Wie kan uitvoeren en investeren, wint meer."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom noemt men de wereld soms een dorp?",
+          "opties": [
+            "Afstanden zijn in tijd en kost gekrompen.",
+            "Alle landen zijn even groot geworden.",
+            "Er wonen nu evenveel mensen als in een dorp.",
+            "Iedereen spreekt nu dezelfde taal."
+          ],
+          "antwoord": 0,
+          "uitleg": "Een vlucht of een bericht naar de andere kant van de wereld kost weinig tijd."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een zeehaven is in de mondialisering een [[*knooppunt|eindpunt|hindernis]] waar wereldstromen samenkomen.",
+          "uitleg": "Containers, schepen en treinen komen er samen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over culturele mondialisering?",
+          "rijen": [
+            "Het wereldwijde aanbod kan eigen tradities verdringen.",
+            "Eigen talen en gewoonten kunnen ook net versterkt worden.",
+            "Ze speelt enkel tussen overheden."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Ook gewone mensen beleven de mondialisering, via muziek, eten en sociale media."
+        },
+        {
+          "casus": "Je onderzoekt de ruimtelijke gevolgen van mondialisering in je eigen streek.",
+          "vragen": [
+            {
+              "type": "tabel",
+              "vraag": "Waar let je op?",
+              "rijen": [
+                "distributiecentra langs de snelweg",
+                "winkels van internationale ketens",
+                "de hoogte van de bergen"
+              ],
+              "antwoord": [
+                true,
+                true,
+                false
+              ],
+              "uitleg": "Mondialisering laat sporen na in het landschap."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Welke bron toont die sporen het best?",
+              "opties": [
+                "een luchtfoto van vroeger en nu",
+                "een mentale kaart van een toerist",
+                "een klimatogram van de streek",
+                "een kaart van de vegetatiezones"
+              ],
+              "antwoord": 0,
+              "uitleg": "Je ziet meteen wat er bijgebouwd werd."
+            }
+          ]
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een land kan zich [[*niet|wel|altijd]] zonder gevolgen aan de mondialisering onttrekken.",
+          "uitleg": "Wie zich afsluit, verliest markten en invoer."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Land A stopt tijdens een conflict de uitvoer van gas naar land B. Waarom werkt dat als drukmiddel?",
+          "opties": [
+            "Land B heeft dat gas nodig.",
+            "Handel heeft niets met politiek of macht te maken.",
+            "Zo krijgen alle landen evenveel.",
+            "Het is verplicht in elk handelsblok."
+          ],
+          "antwoord": 0,
+          "uitleg": "Afhankelijkheid geeft macht."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je met één woord handel zonder invoerrechten en drempels tussen landen?",
+          "antwoord": [
+            "vrijhandel",
+            "de vrijhandel"
+          ],
+          "uitleg": "Vrijhandel haalt drempels weg."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Rangschik de reis van een container met speelgoed van fabriek tot winkel.",
+          "opties": [
+            "fabriek in Azië",
+            "containerhaven in Azië",
+            "zeereis door het Suezkanaal",
+            "haven van Antwerpen",
+            "distributiecentrum langs de snelweg",
+            "winkel"
+          ],
+          "uitleg": "Zee, haven en snelweg zijn de schakels van de wereldhandel."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over politieke mondialisering?",
+          "rijen": [
+            "Landen maken samen afspraken over grensoverschrijdende problemen.",
+            "Het klimaat is daar een voorbeeld van.",
+            "Ze betekent dat er één wereldregering is."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Landen werken samen, maar blijven zelfstandig."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Fabrieken in één land vallen stil door een ramp. Wat kan er gebeuren?",
+          "opties": [
+            "Winkels ver weg raken zonder voorraad.",
+            "Alle andere landen produceren meteen meer.",
+            "De wereldhandel wordt daardoor goedkoper.",
+            "Er verandert nergens anders iets."
+          ],
+          "antwoord": 0,
+          "uitleg": "Een lange keten breekt bij de zwakste schakel."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Wie vrienden heeft over de hele wereld via sociale media, beleeft [[*sociale|militaire|geen]] mondialisering.",
+          "uitleg": "Ook gewone mensen zijn deel van de mondialisering."
+        },
+        {
+          "casus": "Land P legt hoge invoerrechten op buitenlands staal om zijn eigen staalfabrieken te beschermen.",
+          "vragen": [
+            {
+              "type": "invultekst",
+              "vraag": "Hoe noemt men dat beleid?",
+              "antwoord": [
+                "protectionisme",
+                "het protectionisme"
+              ],
+              "uitleg": "Met invoerrechten en quota beschermt een land zijn eigen markt."
+            },
+            {
+              "type": "tabel",
+              "vraag": "Welke gevolgen verwacht je?",
+              "rijen": [
+                "Buitenlands staal wordt duurder in land P.",
+                "De eigen staalfabrieken krijgen minder concurrentie.",
+                "Andere landen kunnen terugslaan met eigen invoerrechten.",
+                "Staal wordt overal ter wereld goedkoper."
+              ],
+              "antwoord": [
+                true,
+                true,
+                true,
+                false
+              ],
+              "uitleg": "Protectionisme beschermt, maar kost de consument en lokt reacties uit."
+            }
+          ]
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Is dit protectionisme of outsourcing?",
+          "kolommen": [
+            "protectionisme",
+            "outsourcing"
+          ],
+          "items": [
+            [
+              "een quotum op ingevoerde auto's",
+              "protectionisme"
+            ],
+            [
+              "een callcenter in een ander land",
+              "outsourcing"
+            ],
+            [
+              "invoerrechten op landbouwproducten",
+              "protectionisme"
+            ],
+            [
+              "boekhouding laten doen door een bedrijf in het buitenland",
+              "outsourcing"
+            ]
+          ],
+          "uitleg": "Protectionisme schermt de eigen markt af; outsourcing verplaatst werk."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over outsourcing door bedrijven?",
+          "rijen": [
+            "Werk wordt uitbesteed aan een bedrijf in een ander land.",
+            "Het gebeurt enkel met fabriekswerk.",
+            "Lonen en regels spelen mee."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Ook diensten zoals callcenters en software worden uitbesteed."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een land kiest [[*niet voorgoed|één keer voorgoed|nooit]] tussen vrijhandel en protectionisme.",
+          "uitleg": "Landen wisselen naargelang de economische en politieke toestand."
+        }
+      ]
+    },
+    {
+      "titel": "Duurzaam omgaan met de ruimte — pittig",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "koppelen",
+          "vraag": "Welke P hoort bij welk thema?",
+          "paren": [
+            [
+              "Planet",
+              "klimaat, natuur en milieu"
+            ],
+            [
+              "People",
+              "onderwijs, gezondheid en geen honger"
+            ],
+            [
+              "Prosperity",
+              "welvaart en goed werk"
+            ],
+            [
+              "Peace",
+              "vrede en veiligheid"
+            ],
+            [
+              "Partnership",
+              "samenwerking tussen landen"
+            ]
+          ],
+          "extra": [
+            "Production"
+          ],
+          "uitleg": "De vijf P's samen vormen het kader van duurzame ontwikkeling."
+        },
+        {
+          "casus": "Een gemeente twijfelt: een nieuwe verkaveling op 20 hectare akkerland, of 300 appartementen op een leegstaande fabriekssite in het centrum.",
+          "vragen": [
+            {
+              "type": "tabel",
+              "vraag": "Welke P is bij de verkaveling op akkerland het moeilijkst te verdedigen?",
+              "rijen": [
+                "Planet",
+                "Partnership",
+                "Peace"
+              ],
+              "antwoord": [
+                true,
+                false,
+                false
+              ],
+              "uitleg": "Open ruimte en landbouwgrond gaan voorgoed verloren."
+            },
+            {
+              "type": "tabel",
+              "vraag": "Klopt dit over het plan op de fabriekssite?",
+              "rijen": [
+                "Er gaat geen nieuwe open ruimte verloren.",
+                "Je moet de bodem eerst nakijken op vervuiling.",
+                "Vervuiling verdwijnt vanzelf uit de bodem."
+              ],
+              "antwoord": [
+                true,
+                true,
+                false
+              ],
+              "uitleg": "Zware metalen en olie blijven in de grond tot men ze saneert."
+            },
+            {
+              "type": "invultekst",
+              "vraag": "Hoe noem je het schoonmaken van een vervuilde bodem voor er opnieuw gebouwd wordt?",
+              "antwoord": [
+                "sanering",
+                "saneren",
+                "bodemsanering"
+              ],
+              "uitleg": "Saneren kost geld, maar maakt de grond weer bruikbaar."
+            }
+          ]
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Bij welke P past deze maatregel het best?",
+          "kolommen": [
+            "Planet",
+            "People",
+            "Prosperity"
+          ],
+          "items": [
+            [
+              "een braakliggend terrein omvormen tot park",
+              "Planet"
+            ],
+            [
+              "gratis onderwijs voor alle kinderen",
+              "People"
+            ],
+            [
+              "nieuwe jobs in hernieuwbare energie",
+              "Prosperity"
+            ],
+            [
+              "bossen beschermen",
+              "Planet"
+            ],
+            [
+              "een ziekenhuis in een arm dorp",
+              "People"
+            ]
+          ],
+          "uitleg": "Planet is de aarde, People de mensen, Prosperity de welvaart."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over duurzame ontwikkeling?",
+          "rijen": [
+            "Ze voorziet in de noden van nu zonder die van later onmogelijk te maken.",
+            "Ze gaat alleen over het milieu.",
+            "Een duurzame keuze is altijd de goedkoopste op korte termijn.",
+            "Een plan kan goed scoren op Prosperity en slecht op Planet."
+          ],
+          "antwoord": [
+            true,
+            false,
+            false,
+            true
+          ],
+          "uitleg": "Duurzaamheid weegt milieu, mensen en welvaart samen af, op lange termijn."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom staat Partnership als aparte P?",
+          "opties": [
+            "geen land lost het alleen op",
+            "omdat bedrijven altijd samen moeten werken",
+            "omdat Partnership het belangrijkste is",
+            "om het aantal P's op vijf te brengen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Grensoverschrijdende problemen vragen samenwerking."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welke gevolgen heeft verstedelijking op het leefmilieu?",
+          "rijen": [
+            "versnippering van de open ruimte",
+            "meer verharding en wateroverlast",
+            "het hitte-eilandeffect",
+            "meer ruimte voor natuur"
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Bouwen neemt ruimte in en verandert water- en warmtehuishouding."
+        },
+        {
+          "casus": "Een stad legt een fietssnelweg aan, plant bomen op een plein en schrapt parkeerplaatsen in het centrum.",
+          "vragen": [
+            {
+              "type": "tabel",
+              "vraag": "Welke problemen pakt ze aan?",
+              "rijen": [
+                "luchtvervuiling door verkeer",
+                "hitte in de stad",
+                "wateroverlast bij hevige regen",
+                "te weinig verharding"
+              ],
+              "antwoord": [
+                true,
+                true,
+                true,
+                false
+              ],
+              "uitleg": "Minder auto's en meer groen helpen voor lucht, hitte en water."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Welke P krijgt hier vooral aandacht?",
+              "opties": [
+                "Planet",
+                "Peace",
+                "Partnership",
+                "Prosperity alleen"
+              ],
+              "antwoord": 0,
+              "uitleg": "Lucht, groen en water gaan over de planeet."
+            }
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Hoe beoordeel je een windmolenpark vanuit de vijf P's?",
+          "rijen": [
+            "Planet: energie zonder uitstoot",
+            "Prosperity: jobs en eigen energie",
+            "People: soms hinder voor buren",
+            "Planet: geen enkele invloed op het landschap"
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Een plan heeft voor- en nadelen op verschillende P's."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Is dit duurzaam ruimtegebruik of niet?",
+          "kolommen": [
+            "duurzaam",
+            "niet duurzaam"
+          ],
+          "items": [
+            [
+              "een oude fabriek ombouwen tot woningen",
+              "duurzaam"
+            ],
+            [
+              "een nieuwe verkaveling in een bos",
+              "niet duurzaam"
+            ],
+            [
+              "meerdere functies in één gebouw",
+              "duurzaam"
+            ],
+            [
+              "een parking op een open weiland",
+              "niet duurzaam"
+            ]
+          ],
+          "uitleg": "Duurzaam is met dezelfde ruimte meer doen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over landbouw en duurzaamheid?",
+          "rijen": [
+            "Ontbossing voor landbouw laat koolstof vrij.",
+            "Elk jaar maïs op dezelfde helling zonder groenbedekker is duurzaam.",
+            "Hagen en houtkanten helpen de natuur."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Afwisselen en begroeiing houden de bodem gezond."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Iemand vliegt veel en eet elke dag vlees. Welke maat voor zijn verbruik van de aarde wordt daardoor groter?",
+          "antwoord": [
+            "ecologische voetafdruk",
+            "voetafdruk",
+            "de ecologische voetafdruk"
+          ],
+          "uitleg": "Wie veel verbruikt, heeft een grote voetafdruk."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom is versnippering een probleem voor de natuur?",
+          "opties": [
+            "Kleine losse stukken werken slechter.",
+            "Ze maakt de bossen groter en wilder.",
+            "Dieren hebben dan te veel ruimte.",
+            "Planten groeien beter in kleine stukjes."
+          ],
+          "antwoord": 0,
+          "uitleg": "Dieren raken geïsoleerd en kunnen niet meer trekken."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Bij elk plan stel je eerst de vraag wat het betekent op [[*lange termijn|korte termijn|morgen]] voor mens en milieu.",
+          "uitleg": "Duurzaam denkt aan later."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Duurzaam ruimtegebruik betekent met dezelfde [[oppervlakte]] meer doen. Dat botst soms met [[welvaart]] op korte termijn, maar levert later [[voordeel]] op.",
+          "extra": [
+            "afval",
+            "verlies"
+          ],
+          "uitleg": "Afwegen tussen nu en later."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over duurzaamheid en economische groei?",
+          "rijen": [
+            "Ze sluiten elkaar altijd uit.",
+            "Isolatie en hergebruik kunnen jobs opleveren.",
+            "Hernieuwbare energie kan winst maken."
+          ],
+          "antwoord": [
+            false,
+            true,
+            true
+          ],
+          "uitleg": "Duurzaam en welvarend kunnen samengaan."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een gemeente plant een bedrijventerrein op akkerland, vlak bij een natuurgebied. Welk argument hoort bij People?",
+          "opties": [
+            "De nieuwe jobs voor de inwoners.",
+            "Het verlies aan open ruimte.",
+            "De invloed op het natuurgebied.",
+            "De samenwerking met andere landen."
+          ],
+          "antwoord": 0,
+          "uitleg": "Werk en inkomen voor mensen."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Rangschik de stappen om een plan te beoordelen op duurzaamheid.",
+          "opties": [
+            "Beschrijf het plan en waar het komt.",
+            "Zoek de gevolgen voor elke P.",
+            "Weeg voor- en nadelen af.",
+            "Kom tot een besluit met argumenten."
+          ],
+          "uitleg": "Eerst kennen, dan gevolgen zoeken, dan afwegen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welke thema's horen bij de P van People?",
+          "rijen": [
+            "onderwijs voor iedereen",
+            "goede gezondheidszorg",
+            "geen honger",
+            "schone oceanen"
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "People gaat over de mensen zelf; oceanen horen bij Planet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een gemeente wil een bos kappen voor een nieuw sportcomplex. Welk argument hoort bij Planet?",
+          "opties": [
+            "het verlies van bomen en leefgebied",
+            "meer sportkansen voor jongeren",
+            "nieuwe jobs in het complex",
+            "samenwerking met de buurgemeente"
+          ],
+          "antwoord": 0,
+          "uitleg": "Planet gaat over natuur, klimaat en milieu."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over industrie en duurzaamheid?",
+          "rijen": [
+            "Industrialisatie brengt werk maar neemt ook ruimte in.",
+            "Een oude fabriekssite kan meteen herbouwd worden zonder onderzoek.",
+            "Fabrieken kunnen lucht en water vervuilen."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Werk en welvaart wegen af tegen ruimte en milieu."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Vrede is [[*een van de vijf P's|geen deel van duurzaamheid|enkel een zaak van het leger]].",
+          "uitleg": "Zonder veiligheid werkt niets anders."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Is dit een voordeel of een nadeel van een nieuwe snelweg?",
+          "kolommen": [
+            "voordeel",
+            "nadeel"
+          ],
+          "items": [
+            [
+              "vlotter vervoer voor bedrijven",
+              "voordeel"
+            ],
+            [
+              "versnippering van een natuurgebied",
+              "nadeel"
+            ],
+            [
+              "meer lawaai voor buren",
+              "nadeel"
+            ],
+            [
+              "nieuwe jobs bij de aanleg",
+              "voordeel"
+            ]
+          ],
+          "uitleg": "Grote infrastructuur scoort vaak goed op Prosperity en slecht op Planet."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een stad vervangt 4000 m² asfalt door gras op een plein van 10 000 m². Hoeveel procent van het plein is nu groen?",
+          "antwoord": [
+            "40",
+            "40 %"
+          ],
+          "uitleg": "4000 / 10 000 = 40 %; het water kan daar weer in de bodem."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over reconversie en bodem?",
+          "rijen": [
+            "Reconversie gebruikt grond die al bebouwd was.",
+            "Bodemdegradatie herstelt in enkele maanden.",
+            "Verlies van bodem gaat snel, herstel duurt tientallen jaren."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Een gezonde bodem is een kostbaar goed."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een land met een hoge HDI. Wat weet je over zijn ecologische voetafdruk?",
+          "opties": [
+            "Die kan groot zijn.",
+            "Die is altijd heel erg klein.",
+            "Die is altijd precies nul.",
+            "Die bestaat niet voor rijke landen."
+          ],
+          "antwoord": 0,
+          "uitleg": "Hoge ontwikkeling gaat vaak samen met veel verbruik."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je het opnieuw inrichten van een oude industriesite voor wonen of onderzoek?",
+          "antwoord": [
+            "reconversie",
+            "de reconversie"
+          ],
+          "uitleg": "Een oude site krijgt een nieuwe functie."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een hogere ontwikkelingsgraad kan een stap naar duurzaamheid zijn, omdat onderwijs mensen [[*meer keuzes|minder keuzes|geen keuzes]] geeft.",
+          "uitleg": "Beter onderwijs en zorg geven ruimte om aan later te denken."
+        }
+      ]
+    },
+    {
+      "titel": "Het versterkte broeikaseffect — pittig",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de sfeer waar koolstof miljoenen jaren als fossiele brandstof opgeslagen zit.",
+          "afbeelding_url": "/examenvormen/aardrijkskunde-boost/vier-sferen.svg",
+          "zones": [
+            [
+              10.0,
+              68.8,
+              50.0,
+              25.0
+            ]
+          ],
+          "uitleg": "Aardolie, steenkool en aardgas zitten in de geosfeer."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de sfeer die bij fotosynthese koolstof uit de lucht opneemt.",
+          "afbeelding_url": "/examenvormen/aardrijkskunde-boost/vier-sferen.svg",
+          "zones": [
+            [
+              3.0,
+              28.1,
+              34.0,
+              15.6
+            ]
+          ],
+          "uitleg": "Planten halen CO₂ uit de atmosfeer: de koolstof gaat naar de biosfeer."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de sfeer die een groot deel van de extra CO₂ en warmte opslorpt en daardoor verzuurt.",
+          "afbeelding_url": "/examenvormen/aardrijkskunde-boost/vier-sferen.svg",
+          "zones": [
+            [
+              60.0,
+              44.5,
+              40.0,
+              21.1
+            ]
+          ],
+          "uitleg": "De oceanen in de hydrosfeer nemen CO₂ op; het water wordt zuurder."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de plaats waar koolstof uit de geosfeer snel naar de atmosfeer gaat.",
+          "afbeelding_url": "/examenvormen/aardrijkskunde-boost/vier-sferen.svg",
+          "zones": [
+            [
+              42.0,
+              23.4,
+              11.0,
+              20.3
+            ]
+          ],
+          "uitleg": "Bij het verbranden van fossiele brandstoffen komt CO₂ vrij."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Welke sfeer hoort bij welke omschrijving?",
+          "paren": [
+            [
+              "geosfeer",
+              "gesteenten en bodem"
+            ],
+            [
+              "biosfeer",
+              "alles wat leeft"
+            ],
+            [
+              "atmosfeer",
+              "de lucht rond de aarde"
+            ],
+            [
+              "hydrosfeer",
+              "oceanen, rivieren en ijs"
+            ]
+          ],
+          "extra": [
+            "stratosfeer van de maan"
+          ],
+          "uitleg": "Koolstof beweegt tussen die vier sferen."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Komt er koolstof in de atmosfeer bij of gaat er uit?",
+          "kolommen": [
+            "komt erbij",
+            "gaat eruit"
+          ],
+          "items": [
+            [
+              "steenkool verbranden",
+              "komt erbij"
+            ],
+            [
+              "een bos groeit",
+              "gaat eruit"
+            ],
+            [
+              "een bos brandt af",
+              "komt erbij"
+            ],
+            [
+              "de oceaan neemt CO₂ op",
+              "gaat eruit"
+            ],
+            [
+              "een vulkaan barst uit",
+              "komt erbij"
+            ]
+          ],
+          "uitleg": "Verbranding en vulkanen voegen toe; fotosynthese en oceanen halen weg."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over broeikasgassen?",
+          "rijen": [
+            "Methaan komt onder meer van herkauwers en rijstvelden.",
+            "Lachgas komt in de landbouw vooral van bemesting.",
+            "Waterdamp is een broeikasgas.",
+            "Zuurstof is het belangrijkste broeikasgas."
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Waterdamp, CO₂, methaan en lachgas zijn de broeikasgassen."
+        },
+        {
+          "casus": "Een grafiek toont de CO₂ in de lucht: 315 ppm in 1960, 370 ppm in 2000 en 420 ppm in 2023.",
+          "vragen": [
+            {
+              "type": "invultekst",
+              "vraag": "Met hoeveel ppm steeg de CO₂ tussen 1960 en 2023?",
+              "antwoord": [
+                "105",
+                "105 ppm"
+              ],
+              "uitleg": "420 − 315 = 105 ppm."
+            },
+            {
+              "type": "tabel",
+              "vraag": "Klopt dit over de grafiek?",
+              "rijen": [
+                "De stijging ging na 2000 sneller dan ervoor.",
+                "Je let eerst op de eenheid en de tijdas.",
+                "De grafiek bewijst dat elke zomer heter wordt."
+              ],
+              "antwoord": [
+                true,
+                true,
+                false
+              ],
+              "uitleg": "50 ppm in 23 jaar tegenover 55 ppm in 40 jaar; een trend is geen bewijs voor elke zomer."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Waar komt het grootste deel van die extra CO₂ vandaan?",
+              "opties": [
+                "fossiele brandstoffen verbranden",
+                "de uitademing van alle mensen samen",
+                "het verdampen van zeewater in de tropen",
+                "de ademhaling van de bomen in het bos"
+              ],
+              "antwoord": 0,
+              "uitleg": "Steenkool, olie en gas verbranden geeft de meeste CO₂."
+            }
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over het broeikaseffect?",
+          "rijen": [
+            "Zonder het natuurlijke broeikaseffect zou het op aarde ongeveer −18 °C zijn.",
+            "Het versterkte broeikaseffect komt van extra gassen door de mens.",
+            "We moeten het broeikaseffect volledig wegwerken."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Het natuurlijke effect maakt leven mogelijk; het versterkte doet de aarde opwarmen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over de zeespiegel?",
+          "rijen": [
+            "Warmer water zet uit.",
+            "Smeltend landijs doet de zeespiegel stijgen.",
+            "Smeltend drijvend zee-ijs doet de zeespiegel stijgen.",
+            "Delta's en lage eilanden lopen het grootste risico."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Drijvend ijs verplaatst al evenveel water als het smeltwater inneemt."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Is dit weer of klimaat?",
+          "kolommen": [
+            "weer",
+            "klimaat"
+          ],
+          "items": [
+            [
+              "een hittegolf vorige week",
+              "weer"
+            ],
+            [
+              "de gemiddelde temperatuur over dertig jaar",
+              "klimaat"
+            ],
+            [
+              "een storm morgen",
+              "weer"
+            ],
+            [
+              "steeds drogere zomers sinds 1990",
+              "klimaat"
+            ]
+          ],
+          "uitleg": "Weer is vandaag, klimaat is het gemiddelde over lange tijd."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In welke richting schuiven klimaatzones door de opwarming?",
+          "opties": [
+            "naar de polen en de bergen op",
+            "naar de evenaar en de bergen af",
+            "ze blijven waar ze altijd lagen",
+            "enkel naar het westen van elk continent"
+          ],
+          "antwoord": 0,
+          "uitleg": "Warmere zones schuiven op naar hogere breedte en hoogte."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welke gevolgen heeft het versterkte broeikaseffect?",
+          "rijen": [
+            "langere droogtes",
+            "hevigere buien",
+            "verlies aan biodiversiteit",
+            "meer zee-ijs in de zomer"
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Soorten schuiven mee of verdwijnen; het weer wordt extremer."
+        },
+        {
+          "casus": "In de toendra van Siberië dooit de bevroren bodem steeds dieper.",
+          "vragen": [
+            {
+              "type": "invultekst",
+              "vraag": "Hoe noem je bodem die het hele jaar bevroren is?",
+              "antwoord": [
+                "permafrost",
+                "de permafrost"
+              ],
+              "uitleg": "Permafrost bevat veel oude koolstof."
+            },
+            {
+              "type": "tabel",
+              "vraag": "Klopt dit over de dooiende permafrost?",
+              "rijen": [
+                "Bij het dooien komen methaan en CO₂ vrij.",
+                "Dat versterkt de opwarming zelf.",
+                "Dat is een terugkoppeling.",
+                "Het verzwakt de opwarming."
+              ],
+              "antwoord": [
+                true,
+                true,
+                true,
+                false
+              ],
+              "uitleg": "Een gevolg dat zijn eigen oorzaak versterkt, is een terugkoppeling."
+            }
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over de verdeling van de gevolgen?",
+          "rijen": [
+            "Ligging, reliëf en welvaart bepalen hoe kwetsbaar een land is.",
+            "Landen met de hoogste uitstoot worden altijd het hardst getroffen.",
+            "Een arm laaggelegen land kan zich moeilijker beschermen."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Wie het minst uitstoot, lijdt soms het meest."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Bij [[fotosynthese]] gaat koolstof van de atmosfeer naar de biosfeer. Bij [[verbranding]] van fossiele brandstoffen gaat ze van de geosfeer naar de atmosfeer. Opgenomen CO₂ maakt de oceaan [[zuurder]].",
+          "extra": [
+            "verdamping",
+            "zouter"
+          ],
+          "uitleg": "De koolstofcyclus verbindt de vier sferen."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Voor Vlaanderen betekent de opwarming [[*zowel meer droogte als meer hevige buien|enkel meer regen|geen enkele verandering]].",
+          "uitleg": "Water wordt zowel te veel als te weinig."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Wat is de scheikundige formule van koolstofdioxide?",
+          "antwoord": [
+            "CO2",
+            "co2",
+            "CO₂"
+          ],
+          "uitleg": "Eén koolstofatoom en twee zuurstofatomen."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de sfeer waar de broeikasgassen de warmte vasthouden.",
+          "afbeelding_url": "/examenvormen/aardrijkskunde-boost/vier-sferen.svg",
+          "zones": [
+            [
+              0.0,
+              9.4,
+              100.0,
+              21.9
+            ]
+          ],
+          "uitleg": "De broeikasgassen zitten in de atmosfeer."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Het aardoppervlak straalt 's nachts warmte uit. Wat doen de broeikasgassen daarmee?",
+          "opties": [
+            "Ze houden een deel ervan vast.",
+            "Ze sturen alle warmte naar de zon terug.",
+            "Ze zetten de warmte om in zuurstof.",
+            "Ze laten alle warmte meteen ontsnappen."
+          ],
+          "antwoord": 0,
+          "uitleg": "Zonlicht komt binnen, maar een deel van de uitgestraalde warmte blijft hangen."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Uit welke bron komt dit broeikasgas vooral?",
+          "kolommen": [
+            "koolstofdioxide",
+            "methaan",
+            "lachgas"
+          ],
+          "items": [
+            [
+              "auto's en centrales",
+              "koolstofdioxide"
+            ],
+            [
+              "koeien en schapen",
+              "methaan"
+            ],
+            [
+              "bemeste akkers",
+              "lachgas"
+            ],
+            [
+              "rijstvelden onder water",
+              "methaan"
+            ],
+            [
+              "ontbossing door brand",
+              "koolstofdioxide"
+            ]
+          ],
+          "uitleg": "Elk gas heeft zijn eigen grote bronnen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Hoe weet men dat de CO₂ in de lucht al decennia stijgt?",
+          "rijen": [
+            "metingen op weerstations zoals op Hawaï",
+            "luchtbelletjes in oud ijs",
+            "één warme dag in juli"
+          ],
+          "antwoord": [
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Lange meetreeksen en ijskernen tonen de trend."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een land stoot 12 ton CO₂ per inwoner uit, een ander 2 ton. Hoeveel keer meer is dat?",
+          "antwoord": [
+            "6",
+            "6 keer",
+            "zes"
+          ],
+          "uitleg": "12 / 2 = 6: per inwoner verschilt de uitstoot sterk."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over albedo en stralingsbalans?",
+          "rijen": [
+            "Verse sneeuw heeft een hoog albedo.",
+            "Een donkere oceaan kaatst veel straling terug.",
+            "De stralingsbalans vergelijkt binnenkomende en uitgaande straling."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Wit kaatst terug, donker slorpt op."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Rangschik van hoogste naar laagste albedo.",
+          "opties": [
+            "verse sneeuw",
+            "zand in de woestijn",
+            "een groen bos",
+            "een donkere oceaan"
+          ],
+          "uitleg": "Hoe lichter het oppervlak, hoe meer het terugkaatst."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Zee-ijs smelt en er komt donker water bloot. Wat gebeurt er?",
+          "opties": [
+            "het albedo daalt en het warmt op",
+            "het albedo stijgt en het wordt daar kouder",
+            "er verandert niets aan de opname van warmte",
+            "het water kaatst nu alle straling terug"
+          ],
+          "antwoord": 0,
+          "uitleg": "Minder ijs betekent een lager albedo en meer opwarming: een terugkoppeling."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Waarom kunnen tropische ziektes zich naar onze streken uitbreiden?",
+          "rijen": [
+            "De muggen die ze overbrengen, overleven hier steeds beter.",
+            "Warmere winters doden minder muggen.",
+            "Ziektes worden door koude verspreid."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Een warmer klimaat verschuift ook het leefgebied van muggen."
+        }
+      ]
+    },
+    {
+      "titel": "Een geografisch onderzoek voeren — pittig",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het gereedschap waarmee je de oppervlakte van een bedrijventerrein meet.",
+          "afbeelding_url": "/examenvormen/aardrijkskunde-boost/digitale-kaart.svg",
+          "zones": [
+            [
+              56.5,
+              10.9,
+              6.0,
+              14.1
+            ]
+          ],
+          "uitleg": "Met het meetgereedschap bepaal je afstanden en oppervlakten."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op wat je gebruikt om een adres in je gemeente op de kaart te vinden.",
+          "afbeelding_url": "/examenvormen/aardrijkskunde-boost/digitale-kaart.svg",
+          "zones": [
+            [
+              4.5,
+              10.9,
+              37.0,
+              14.1
+            ]
+          ],
+          "uitleg": "De zoekbalk brengt je naar een adres of coördinaten."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het onderdeel waarmee je twee lagen tegelijk zichtbaar maakt, zodat je de onderste laag doorheen de bovenste ziet.",
+          "afbeelding_url": "/examenvormen/aardrijkskunde-boost/digitale-kaart.svg",
+          "zones": [
+            [
+              76.0,
+              21.9,
+              20.0,
+              18.8
+            ]
+          ],
+          "uitleg": "Met de transparantie zie je een thematische laag en een luchtfoto samen."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het onderdeel dat uitlegt wat de blauwe vlakken betekenen.",
+          "afbeelding_url": "/examenvormen/aardrijkskunde-boost/digitale-kaart.svg",
+          "zones": [
+            [
+              76.0,
+              45.3,
+              20.0,
+              31.2
+            ]
+          ],
+          "uitleg": "De legende verklaart kleuren en symbolen."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de knop waarmee je een laag met luchtfoto's van 1971 kan aanzetten.",
+          "afbeelding_url": "/examenvormen/aardrijkskunde-boost/digitale-kaart.svg",
+          "zones": [
+            [
+              43.5,
+              10.9,
+              12.0,
+              14.1
+            ]
+          ],
+          "uitleg": "Bij de lagen kies je welke kaarten zichtbaar zijn."
+        },
+        {
+          "casus": "Lotte onderzoekt waarom het in haar gemeente elke ochtend file staat aan de schoolpoort.",
+          "vragen": [
+            {
+              "type": "volgorde",
+              "vraag": "Rangschik de stappen van haar onderzoek.",
+              "opties": [
+                "een onderzoeksvraag en een hypothese opschrijven",
+                "bronnen en terreingegevens verzamelen",
+                "de gegevens verwerken in een schema",
+                "een besluit trekken en de beperkingen noemen"
+              ],
+              "uitleg": "Vraag, gegevens, verwerking, besluit."
+            },
+            {
+              "type": "tabel",
+              "vraag": "Klopt dit over haar hypothese?",
+              "rijen": [
+                "Ze schrijft die op vóór ze meet.",
+                "Haar onderzoek mislukt als de hypothese fout blijkt.",
+                "Een hypothese is een verwachting die je toetst."
+              ],
+              "antwoord": [
+                true,
+                false,
+                true
+              ],
+              "uitleg": "Een weerlegde hypothese leert ook iets."
+            },
+            {
+              "type": "tabel",
+              "vraag": "Welke gegevens passen bij haar vraag?",
+              "rijen": [
+                "het aantal auto's per kwartier",
+                "waar de kinderen wonen",
+                "de luchtkwaliteit aan de poort",
+                "het klimatogram van Brazilië"
+              ],
+              "antwoord": [
+                true,
+                true,
+                true,
+                false
+              ],
+              "uitleg": "Mobiliteit gaat over verkeer, afstand en hinder."
+            }
+          ]
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Over welk onderzoeksthema gaat deze vraag?",
+          "kolommen": [
+            "mobiliteit",
+            "water",
+            "landgebruik",
+            "klimaatverandering"
+          ],
+          "items": [
+            [
+              "Waarom staat het elke ochtend vast op de ring?",
+              "mobiliteit"
+            ],
+            [
+              "Welke straten lopen onder bij hevige regen?",
+              "water"
+            ],
+            [
+              "Hoeveel akkerland werd sinds 1970 bebouwd?",
+              "landgebruik"
+            ],
+            [
+              "Worden de zomers in onze stad heter?",
+              "klimaatverandering"
+            ],
+            [
+              "Is er genoeg grondwater voor de landbouw?",
+              "water"
+            ]
+          ],
+          "uitleg": "Mobiliteit, water, veranderend landgebruik en klimaatverandering zijn de vier thema's."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welke onderzoeksvraag is goed geformuleerd?",
+          "rijen": [
+            "Hoeveel hectare open ruimte verdween in onze gemeente tussen 2000 en 2020?",
+            "Is aardrijkskunde leuk?",
+            "Waarom loopt de Demerstraat bij hevige regen onder water?"
+          ],
+          "antwoord": [
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Een goede vraag is concreet, afgebakend en te onderzoeken."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over terreinwerk?",
+          "rijen": [
+            "Bij terreinkartering noteer je op een kaart wat je waar ziet.",
+            "Terreinwerk verandert je mentale kaart van een gebied.",
+            "Een filmpje van een terreinoefening moet je net zo nauwkeurig bekijken als echt terreinwerk.",
+            "Wat je op het terrein ziet, hoef je niet te noteren."
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Waarnemen, noteren en verwerken."
+        },
+        {
+          "casus": "Je onderzoekt of de open ruimte in je gemeente kleiner werd.",
+          "vragen": [
+            {
+              "type": "meerkeuze",
+              "vraag": "Welke aanpak past het best?",
+              "opties": [
+                "luchtfoto's van vroeger en nu vergelijken",
+                "één luchtfoto van vandaag bekijken",
+                "een hypothese pas achteraf opschrijven",
+                "de inwoners vragen naar hun lievelingskleur"
+              ],
+              "antwoord": 0,
+              "uitleg": "Enkel door jaren te vergelijken zie je wat veranderde."
+            },
+            {
+              "type": "invultekst",
+              "vraag": "Op de foto van 1990 is 600 ha open, nu nog 450 ha. Hoeveel procent ging verloren?",
+              "antwoord": [
+                "25",
+                "25 %"
+              ],
+              "uitleg": "150 / 600 = 25 %."
+            },
+            {
+              "type": "tabel",
+              "vraag": "Wat noteer je bij elke luchtfoto?",
+              "rijen": [
+                "het jaartal",
+                "de bron",
+                "je eigen mening over het landschap"
+              ],
+              "antwoord": [
+                true,
+                true,
+                false
+              ],
+              "uitleg": "Zonder jaartal en bron is de vergelijking niet te controleren."
+            }
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welke beperkingen heeft een digitale kaart?",
+          "rijen": [
+            "Sommige lagen zijn ouder dan ze lijken.",
+            "Wat je ziet, hangt af van de lagen die je aanzet.",
+            "Een luchtfoto toont altijd de toestand van vandaag."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Kijk telkens na wanneer een laag gemaakt werd."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Welke bron gebruik je voor welke vraag?",
+          "paren": [
+            [
+              "de neerslag van de voorbije dertig jaar",
+              "een klimatogram of meetreeks"
+            ],
+            [
+              "de oppervlakte van een bedrijventerrein",
+              "het meetgereedschap van een digitale kaart"
+            ],
+            [
+              "welke huizen in overstromingsgebied liggen",
+              "een overstromingslaag over een luchtfoto"
+            ],
+            [
+              "hoe bewoners hun wijk zien",
+              "een mentale kaart of een bevraging"
+            ]
+          ],
+          "extra": [
+            "een kaart van de wereldblokken"
+          ],
+          "uitleg": "Kies de bron die bij je vraag past."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over een systeemdenkschema?",
+          "rijen": [
+            "Het toont hoe de elementen van je onderzoek samenhangen.",
+            "Pijlen tonen oorzaken en gevolgen.",
+            "Het vervangt je onderzoeksvraag."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Het schema verbindt neerslag, verharding, riolering en bewoners bijvoorbeeld."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Hoort dit element in een schema over wateroverlast?",
+          "kolommen": [
+            "ja",
+            "nee"
+          ],
+          "items": [
+            [
+              "hevige neerslag",
+              "ja"
+            ],
+            [
+              "verharding",
+              "ja"
+            ],
+            [
+              "de capaciteit van de riolering",
+              "ja"
+            ],
+            [
+              "het aantal toeristen in de Alpen",
+              "nee"
+            ],
+            [
+              "de ligging in een vallei",
+              "ja"
+            ]
+          ],
+          "uitleg": "Kies de elementen die het probleem verklaren."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je besluit dat de files toenemen. Waarop moet dat besluit steunen?",
+          "opties": [
+            "op je gegevens en metingen",
+            "op wat je ouders denken",
+            "op je eerste indruk van de straat",
+            "op één foto van een drukke dag"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een besluit volgt uit de gegevens."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een besluit mag ook zeggen dat er [[*te weinig gegevens|te veel lezers|geen hypothese]] waren om de vraag te beantwoorden.",
+          "uitleg": "Eerlijk zijn over de grenzen hoort bij goed onderzoek."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welke hulpmiddelen mag je op het examen aardrijkskunde gebruiken?",
+          "rijen": [
+            "een atlas",
+            "een digitale kaart zoals Geopunt",
+            "een rekenmachine",
+            "je gsm om berichten te sturen"
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "De examencommissie zet de toegelaten hulpmiddelen zelf op een rij."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Leg de laag met [[overstromingsgevoelige]] gebieden over een [[luchtfoto]] en maak ze half [[transparant]]. Zo zie je welke huizen gevaar lopen.",
+          "extra": [
+            "toeristische",
+            "groter"
+          ],
+          "uitleg": "Lagen combineren is de kracht van een digitale kaart."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Op een digitale kaart meet je een fietspad van 2,4 km in 4 stukken van gelijke lengte. Hoe lang is elk stuk in meter?",
+          "antwoord": [
+            "600",
+            "600 m"
+          ],
+          "uitleg": "2400 m / 4 = 600 m."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom noteer je ook welke laag je niet gevonden hebt?",
+          "opties": [
+            "Zo weet de lezer waar je besluit stopt.",
+            "Zo lijkt je onderzoek langer.",
+            "Omdat het examen dat altijd zo verplicht.",
+            "Omdat ontbrekende lagen altijd fout zijn."
+          ],
+          "antwoord": 0,
+          "uitleg": "Je toont eerlijk wat je onderzoek niet kon bewijzen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over bronnen?",
+          "rijen": [
+            "Een verouderde kaart kan de toestand van nu verkeerd voorstellen.",
+            "Bij een meting noteer je wanneer en waar je meet.",
+            "Elke bron op het internet is betrouwbaar."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Jaartal, plaats en maker maken een bron controleerbaar."
+        },
+        {
+          "casus": "Ahmed meet het verkeerslawaai langs een drukke weg: 72 dB om 8 uur, 65 dB om 11 uur en 74 dB om 17 uur.",
+          "vragen": [
+            {
+              "type": "tabel",
+              "vraag": "Klopt dit over zijn metingen?",
+              "rijen": [
+                "Het is het luidst tijdens de spits.",
+                "Het lawaai is de hele dag gelijk.",
+                "Hij moet noteren waar hij precies stond."
+              ],
+              "antwoord": [
+                true,
+                false,
+                true
+              ],
+              "uitleg": "Spitsuren geven meer verkeer en lawaai."
+            },
+            {
+              "type": "invultekst",
+              "vraag": "Hoeveel dB scheelt het tussen de stilste en de luidste meting?",
+              "antwoord": [
+                "9",
+                "9 dB"
+              ],
+              "uitleg": "74 − 65 = 9 dB."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je legt de overstromingslaag over een luchtfoto van je wijk. Wat onderzoek je zo?",
+          "opties": [
+            "welke gebouwen in risicogebied liggen",
+            "hoe oud de bewoners van de wijk zijn",
+            "hoeveel files er elke ochtend staan",
+            "welke vegetatiezone de wijk heeft"
+          ],
+          "antwoord": 0,
+          "uitleg": "Twee lagen samen tonen waar gevaar en bebouwing elkaar raken."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "In het onderzoeksdeel van het examen kan [[*alle leerstof|enkel de kaartleer|geen leerstof]] van aardrijkskunde terugkomen.",
+          "uitleg": "Onderzoek gebruikt kennis uit alle thema's."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Is dit een geografische hulpbron of geen hulpbron?",
+          "kolommen": [
+            "hulpbron",
+            "geen hulpbron"
+          ],
+          "items": [
+            [
+              "een satellietbeeld",
+              "hulpbron"
+            ],
+            [
+              "een statistiek van inwoners",
+              "hulpbron"
+            ],
+            [
+              "een gerucht op sociale media zonder bron",
+              "geen hulpbron"
+            ],
+            [
+              "een topografische kaart",
+              "hulpbron"
+            ]
+          ],
+          "uitleg": "Een hulpbron is controleerbaar en past bij de vraag."
+        }
+      ]
+    }
+  ]
+}

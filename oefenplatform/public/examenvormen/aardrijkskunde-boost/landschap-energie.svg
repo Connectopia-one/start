@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Doorsnede van een landschap</text>
+<rect x="0" y="60" width="1000" height="240" rx="0" fill="#eaf3fb" stroke="none" stroke-width="0"/>
+<path d="M 0 300 L 0 150 L 90 90 L 170 160 L 240 110 L 300 300 Z" fill="#cfc6b0" stroke="#24331b" stroke-width="2"/>
+<rect x="160" y="230" width="120" height="70" rx="0" fill="#3b6fa0" stroke="#24331b" stroke-width="1"/>
+<rect x="270" y="200" width="16" height="100" rx="0" fill="#d9d4c4" stroke="#24331b" stroke-width="2"/>
+<rect x="0" y="300" width="1000" height="300" rx="0" fill="#c9b48f" stroke="#24331b" stroke-width="1"/>
+<rect x="0" y="430" width="1000" height="40" rx="0" fill="#3a3a3a" stroke="none" stroke-width="0"/>
+<text x="500" y="456" font-size="15" text-anchor="middle" fill="#ffffff">steenkoollaag</text>
+<path d="M 330 300 L 360 360 L 470 360 L 500 300 Z" fill="#e6dcc6" stroke="#24331b" stroke-width="2"/>
+<rect x="560" y="230" width="14" height="230" rx="0" fill="#555555" stroke="#24331b" stroke-width="2"/>
+<path d="M 545 230 L 590 230 L 567 190 Z" fill="#d9d4c4" stroke="#24331b" stroke-width="2"/>
+<rect x="640" y="250" width="90" height="50" rx="0" fill="#b9a1c9" stroke="#24331b" stroke-width="2"/>
+<rect x="700" y="210" width="14" height="40" rx="0" fill="#d9d4c4" stroke="#24331b" stroke-width="1"/>
+<rect x="740" y="290" width="260" height="310" rx="0" fill="#7fb2d9" stroke="none" stroke-width="0"/>
+<rect x="740" y="270" width="40" height="30" rx="0" fill="#b5651d" stroke="#24331b" stroke-width="1"/>
+<line x1="860" y1="300" x2="860" y2="170" stroke="#24331b" stroke-width="4"/>
+<path d="M 860 170 L 830 140 M 860 170 L 895 160 M 860 170 L 855 210" fill="none" stroke="#24331b" stroke-width="4"/>
+<line x1="930" y1="300" x2="930" y2="170" stroke="#24331b" stroke-width="4"/>
+<path d="M 930 170 L 900 140 M 930 170 L 965 160 M 930 170 L 925 210" fill="none" stroke="#24331b" stroke-width="4"/>
+<rect x="40" y="280" width="32" height="14" rx="0" fill="#e8c547" stroke="#24331b" stroke-width="1"/>
+<rect x="80" y="280" width="32" height="14" rx="0" fill="#e8c547" stroke="#24331b" stroke-width="1"/>
+<rect x="120" y="280" width="32" height="14" rx="0" fill="#e8c547" stroke="#24331b" stroke-width="1"/>
+<circle cx="220" cy="170" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="220" y="177" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<circle cx="415" cy="290" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="415" y="297" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<circle cx="567" cy="400" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="567" y="407" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<circle cx="685" cy="190" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="685" y="197" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">D</text>
+<circle cx="895" cy="80" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="895" y="87" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">E</text>
+<circle cx="95" cy="230" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="95" y="237" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">F</text>
+</svg>
