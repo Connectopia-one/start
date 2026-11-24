@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Een plantencel (schematisch)</text>
+<rect x="150" y="80" width="700" height="520" rx="30" fill="#cfe3b4" stroke="#4f7a2a" stroke-width="12"/>
+<rect x="170" y="100" width="660" height="480" rx="22" fill="#eef6e2" stroke="#24331b" stroke-width="2"/>
+<ellipse cx="560" cy="340" rx="210" ry="170" fill="#d6e8f5" stroke="#3b6fa0" stroke-width="2"/>
+<circle cx="300" cy="210" r="70" fill="#e8d8ef" stroke="#7a4b8c" stroke-width="3"/>
+<circle cx="310" cy="215" r="22" fill="#b38bc8" stroke="none" stroke-width="0"/>
+<g transform="rotate(0 260 450)"><ellipse cx="260" cy="450" rx="38" ry="18" fill="#6aa84f" stroke="#2f4a22" stroke-width="2"/><line x1="234" y1="450" x2="286" y2="450" stroke="#2f4a22" stroke-width="1.5"/><line x1="242" y1="443" x2="278" y2="443" stroke="#2f4a22" stroke-width="1"/><line x1="242" y1="457" x2="278" y2="457" stroke="#2f4a22" stroke-width="1"/></g>
+<g transform="rotate(20 300 520)"><ellipse cx="300" cy="520" rx="38" ry="18" fill="#6aa84f" stroke="#2f4a22" stroke-width="2"/><line x1="274" y1="520" x2="326" y2="520" stroke="#2f4a22" stroke-width="1.5"/><line x1="282" y1="513" x2="318" y2="513" stroke="#2f4a22" stroke-width="1"/><line x1="282" y1="527" x2="318" y2="527" stroke="#2f4a22" stroke-width="1"/></g>
+<g transform="rotate(-15 760 150)"><ellipse cx="760" cy="150" rx="38" ry="18" fill="#6aa84f" stroke="#2f4a22" stroke-width="2"/><line x1="734" y1="150" x2="786" y2="150" stroke="#2f4a22" stroke-width="1.5"/><line x1="742" y1="143" x2="778" y2="143" stroke="#2f4a22" stroke-width="1"/><line x1="742" y1="157" x2="778" y2="157" stroke="#2f4a22" stroke-width="1"/></g>
+<g transform="rotate(30 780 520)"><ellipse cx="780" cy="520" rx="38" ry="18" fill="#6aa84f" stroke="#2f4a22" stroke-width="2"/><line x1="754" y1="520" x2="806" y2="520" stroke="#2f4a22" stroke-width="1.5"/><line x1="762" y1="513" x2="798" y2="513" stroke="#2f4a22" stroke-width="1"/><line x1="762" y1="527" x2="798" y2="527" stroke="#2f4a22" stroke-width="1"/></g>
+<g><ellipse cx="660" cy="130" rx="40" ry="20" fill="#f2a66a" stroke="#2f4a22" stroke-width="2"/><path d="M630 130 q 7 -14 14 0 q 7 14 14 0 q 7 -14 14 0 q 7 14 14 0" fill="none" stroke="#2f4a22" stroke-width="1.5"/></g>
+<path d="M400 150 q 40 -12 80 0" fill="none" stroke="#b5651d" stroke-width="3"/>
+<path d="M406 166 q 40 -12 80 0" fill="none" stroke="#b5651d" stroke-width="3"/>
+<path d="M412 182 q 40 -12 80 0" fill="none" stroke="#b5651d" stroke-width="3"/>
+<path d="M418 198 q 40 -12 80 0" fill="none" stroke="#b5651d" stroke-width="3"/>
+<circle cx="410" cy="146" r="2.5" fill="#24331b" stroke="none" stroke-width="0"/>
+<circle cx="423" cy="164" r="2.5" fill="#24331b" stroke="none" stroke-width="0"/>
+<circle cx="436" cy="146" r="2.5" fill="#24331b" stroke="none" stroke-width="0"/>
+<circle cx="449" cy="164" r="2.5" fill="#24331b" stroke="none" stroke-width="0"/>
+<circle cx="462" cy="146" r="2.5" fill="#24331b" stroke="none" stroke-width="0"/>
+<circle cx="475" cy="164" r="2.5" fill="#24331b" stroke="none" stroke-width="0"/>
+<circle cx="150" cy="330" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="150" y="337" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<circle cx="560" cy="340" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="560" y="347" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<circle cx="300" cy="140" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="300" y="147" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<circle cx="240" cy="470" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="240" y="477" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">D</text>
+<circle cx="660" cy="175" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="660" y="182" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">E</text>
+<circle cx="460" cy="200" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="460" y="207" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">F</text>
+<circle cx="310" cy="215" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="310" y="222" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">G</text>
+</svg>
