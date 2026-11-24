@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">De poolster boven de horizon</text>
+<line x1="80" y1="470" x2="920" y2="470" stroke="#24331b" stroke-width="3"/>
+<text x="90" y="500" font-size="18" text-anchor="start" fill="#24331b">horizon, kant van het noorden</text>
+<circle cx="500" cy="448" r="12" fill="#2f4a22" stroke="#24331b" stroke-width="2"/>
+<line x1="500" y1="460" x2="500" y2="470" stroke="#24331b" stroke-width="3"/>
+<line x1="500" y1="448" x2="273.4446592220586" y2="190.22745387549043" stroke="#d9d4c4" stroke-width="2" stroke-dasharray="8 6"/>
+<text x="273.4446592220586" y="168.22745387549043" font-size="40" text-anchor="middle" fill="#c9a227">★</text>
+<text x="213.4446592220586" y="195.22745387549043" font-size="18" text-anchor="middle" fill="#24331b">poolster</text>
+<path d="M370 470 A 130 130 0 0 1 418 369" fill="none" stroke="#b5651d" stroke-width="4"/>
+<line x1="500" y1="448" x2="500" y2="70" stroke="#d9d4c4" stroke-width="2" stroke-dasharray="8 6"/>
+<circle cx="330" cy="400" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="330" y="407" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<circle cx="530" cy="90" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="530" y="97" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<circle cx="283.4446592220586" cy="240.22745387549043" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="283.4446592220586" y="247.22745387549043" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+</svg>

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Een stuk gradennet</text>
+<rect x="140" y="80" width="760" height="480" rx="0" fill="#eef5fa" stroke="#24331b" stroke-width="2"/>
+<line x1="140.0" y1="80" x2="140.0" y2="560" stroke="#9bb4c8" stroke-width="1"/>
+<text x="140.0" y="588" font-size="16" text-anchor="middle" fill="#24331b">30° WL</text>
+<line x1="266.66666666666663" y1="80" x2="266.66666666666663" y2="560" stroke="#9bb4c8" stroke-width="1"/>
+<text x="266.66666666666663" y="588" font-size="16" text-anchor="middle" fill="#24331b">20° WL</text>
+<line x1="393.3333333333333" y1="80" x2="393.3333333333333" y2="560" stroke="#9bb4c8" stroke-width="1"/>
+<text x="393.3333333333333" y="588" font-size="16" text-anchor="middle" fill="#24331b">10° WL</text>
+<line x1="520.0" y1="80" x2="520.0" y2="560" stroke="#24331b" stroke-width="3"/>
+<text x="520.0" y="588" font-size="16" text-anchor="middle" fill="#24331b">0°</text>
+<line x1="646.6666666666666" y1="80" x2="646.6666666666666" y2="560" stroke="#9bb4c8" stroke-width="1"/>
+<text x="646.6666666666666" y="588" font-size="16" text-anchor="middle" fill="#24331b">10° OL</text>
+<line x1="773.3333333333334" y1="80" x2="773.3333333333334" y2="560" stroke="#9bb4c8" stroke-width="1"/>
+<text x="773.3333333333334" y="588" font-size="16" text-anchor="middle" fill="#24331b">20° OL</text>
+<line x1="900.0" y1="80" x2="900.0" y2="560" stroke="#9bb4c8" stroke-width="1"/>
+<text x="900.0" y="588" font-size="16" text-anchor="middle" fill="#24331b">30° OL</text>
+<line x1="140" y1="560.0" x2="900" y2="560.0" stroke="#9bb4c8" stroke-width="1"/>
+<text x="128" y="565.0" font-size="16" text-anchor="end" fill="#24331b">30° NB</text>
+<line x1="140" y1="440.0" x2="900" y2="440.0" stroke="#9bb4c8" stroke-width="1"/>
+<text x="128" y="445.0" font-size="16" text-anchor="end" fill="#24331b">40° NB</text>
+<line x1="140" y1="320.0" x2="900" y2="320.0" stroke="#9bb4c8" stroke-width="1"/>
+<text x="128" y="325.0" font-size="16" text-anchor="end" fill="#24331b">50° NB</text>
+<line x1="140" y1="200.0" x2="900" y2="200.0" stroke="#9bb4c8" stroke-width="1"/>
+<text x="128" y="205.0" font-size="16" text-anchor="end" fill="#24331b">60° NB</text>
+<line x1="140" y1="80.0" x2="900" y2="80.0" stroke="#9bb4c8" stroke-width="1"/>
+<text x="128" y="85.0" font-size="16" text-anchor="end" fill="#24331b">70° NB</text>
+<circle cx="583.3333333333334" cy="320.0" r="9" fill="#b5651d" stroke="#24331b" stroke-width="2"/>
+<circle cx="615.3333333333334" cy="294.0" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="615.3333333333334" y="301.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<circle cx="266.66666666666663" cy="440.0" r="9" fill="#b5651d" stroke="#24331b" stroke-width="2"/>
+<circle cx="298.66666666666663" cy="414.0" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="298.66666666666663" y="421.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<circle cx="773.3333333333334" cy="200.0" r="9" fill="#b5651d" stroke="#24331b" stroke-width="2"/>
+<circle cx="805.3333333333334" cy="174.0" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="805.3333333333334" y="181.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<circle cx="456.6666666666667" cy="320.0" r="9" fill="#b5651d" stroke="#24331b" stroke-width="2"/>
+<circle cx="488.6666666666667" cy="294.0" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="488.6666666666667" y="301.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">D</text>
+</svg>
