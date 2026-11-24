@@ -41,6 +41,12 @@ export const nieuwTekst = {
 export const updates: Update[] = [
   {
     datum: "24 november 2026",
+    titel: "Pittige hoofdstukken Frans in Boost dubbele finaliteit",
+    tekst:
+      "Frans in Boost dubbele finaliteit heeft nu bij elk van de 16 onderwerpen een pittig hoofdstuk van 30 vragen, in examenvorm: van lezen, tekstsoorten, de Franstalige wereld, schrijven en spreken over de woordvelden mens, dagelijks leven, school en werk, en tijd en reizen, tot lidwoorden, voornaamwoorden, bijvoeglijke naamwoorden, de tijden en de zinsbouw. Met korte Franse teksten zoals een bericht van de school, een menu, een advertentie voor vakantiewerk en een stageverslag.",
+  },
+  {
+    datum: "24 november 2026",
     titel: "Pittige hoofdstukken toegepaste economie in Boost dubbele finaliteit",
     tekst:
       "Toegepaste economie in Boost dubbele finaliteit heeft nu bij elk van de 16 onderwerpen een pittig hoofdstuk van 30 vragen, in examenvorm: van boekhouden, de balans, het MAR, aankopen, verkopen en de btw tot boeken, de proef- en saldibalans en de eindbalans, en verder tekstverwerking, het rekenblad, functies, grafieken, afdrukken en scannen, bestanden bewaren, presenteren en de databank. Met casussen, rekenvragen en klikvragen op zelfgetekende documenten zoals een verkoopfactuur, een btw-aangifte, een bankuittreksel en een databanktabel.",
