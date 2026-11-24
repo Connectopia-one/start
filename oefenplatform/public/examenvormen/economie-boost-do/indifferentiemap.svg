@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Indifferentiemap</text>
+<line x1="140" y1="560" x2="900" y2="560" stroke="#24331b" stroke-width="3"/>
+<line x1="140" y1="560" x2="140" y2="40" stroke="#24331b" stroke-width="3"/>
+<text x="900" y="594" font-size="20" text-anchor="end" fill="#24331b">goed X (boeken)</text>
+<text x="130" y="30" font-size="20" text-anchor="start" fill="#24331b">goed Y (spellen)</text>
+<path d="M 180.0,80.0 L 190.0,176.0 L 200.0,240.0 L 210.0,285.7 L 220.0,320.0 L 230.0,346.7 L 240.0,368.0 L 250.0,385.5 L 260.0,400.0 L 270.0,412.3 L 280.0,422.9 L 290.0,432.0 L 300.0,440.0 L 310.0,447.1 L 320.0,453.3 L 330.0,458.9 L 340.0,464.0 L 350.0,468.6 L 360.0,472.7 L 370.0,476.5 L 380.0,480.0 L 390.0,483.2 L 400.0,486.2 L 410.0,488.9 L 420.0,491.4 L 430.0,493.8 L 440.0,496.0 L 450.0,498.1 L 460.0,500.0 L 470.0,501.8 L 480.0,503.5 L 490.0,505.1 L 500.0,506.7 L 510.0,508.1 L 520.0,509.5 L 530.0,510.8 L 540.0,512.0 L 550.0,513.2 L 560.0,514.3 L 570.0,515.3 L 580.0,516.4 L 590.0,517.3 L 600.0,518.3 L 610.0,519.1 L 620.0,520.0 L 630.0,520.8 L 640.0,521.6 L 650.0,522.4 L 660.0,523.1 L 670.0,523.8 L 680.0,524.4 L 690.0,525.1 L 700.0,525.7 L 710.0,526.3 L 720.0,526.9 L 730.0,527.5 L 740.0,528.0 L 750.0,528.5 L 760.0,529.0 L 770.0,529.5 L 780.0,530.0 L 790.0,530.5 L 800.0,530.9 L 810.0,531.3 L 820.0,531.8 L 830.0,532.2 L 840.0,532.6" fill="none" stroke="#3b6fa0" stroke-width="3"/>
+<text x="854.0" y="538.7272727272727" font-size="20" text-anchor="start" fill="#3b6fa0" font-weight="bold">I1</text>
+<path d="M 240.0,80.0 L 250.0,123.6 L 260.0,160.0 L 270.0,190.8 L 280.0,217.1 L 290.0,240.0 L 300.0,260.0 L 310.0,277.6 L 320.0,293.3 L 330.0,307.4 L 340.0,320.0 L 350.0,331.4 L 360.0,341.8 L 370.0,351.3 L 380.0,360.0 L 390.0,368.0 L 400.0,375.4 L 410.0,382.2 L 420.0,388.6 L 430.0,394.5 L 440.0,400.0 L 450.0,405.2 L 460.0,410.0 L 470.0,414.5 L 480.0,418.8 L 490.0,422.9 L 500.0,426.7 L 510.0,430.3 L 520.0,433.7 L 530.0,436.9 L 540.0,440.0 L 550.0,442.9 L 560.0,445.7 L 570.0,448.4 L 580.0,450.9 L 590.0,453.3 L 600.0,455.7 L 610.0,457.9 L 620.0,460.0 L 630.0,462.0 L 640.0,464.0 L 650.0,465.9 L 660.0,467.7 L 670.0,469.4 L 680.0,471.1 L 690.0,472.7 L 700.0,474.3 L 710.0,475.8 L 720.0,477.2 L 730.0,478.6 L 740.0,480.0 L 750.0,481.3 L 760.0,482.6 L 770.0,483.8 L 780.0,485.0 L 790.0,486.2 L 800.0,487.3 L 810.0,488.4 L 820.0,489.4 L 830.0,490.4 L 840.0,491.4" fill="none" stroke="#b5651d" stroke-width="3"/>
+<text x="854.0" y="497.8181818181818" font-size="20" text-anchor="start" fill="#b5651d" font-weight="bold">I2</text>
+<path d="M 326.7,80.0 L 336.7,104.4 L 346.7,126.5 L 356.7,146.5 L 366.7,164.7 L 376.7,181.4 L 386.7,196.8 L 396.7,210.9 L 406.7,224.0 L 416.7,236.1 L 426.7,247.4 L 436.7,258.0 L 446.7,267.8 L 456.7,277.1 L 466.7,285.7 L 476.7,293.9 L 486.7,301.5 L 496.7,308.8 L 506.7,315.6 L 516.7,322.1 L 526.7,328.3 L 536.7,334.1 L 546.7,339.7 L 556.7,345.0 L 566.7,350.0 L 576.7,354.8 L 586.7,359.4 L 596.7,363.8 L 606.7,368.0 L 616.7,372.0 L 626.7,375.9 L 636.7,379.6 L 646.7,383.2 L 656.7,386.6 L 666.7,389.9 L 676.7,393.0 L 686.7,396.1 L 696.7,399.0 L 706.7,401.9 L 716.7,404.6 L 726.7,407.3 L 736.7,409.8 L 746.7,412.3 L 756.7,414.7 L 766.7,417.0 L 776.7,419.3 L 786.7,421.4 L 796.7,423.6 L 806.7,425.6 L 816.7,427.6 L 826.7,429.5 L 836.7,431.4" fill="none" stroke="#2f4a22" stroke-width="3"/>
+<text x="854.0" y="438.72727272727275" font-size="20" text-anchor="start" fill="#2f4a22" font-weight="bold">I3</text>
+<circle cx="220" cy="320" r="7" fill="#24331b" stroke="#24331b" stroke-width="1"/>
+<circle cx="244" cy="298" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="244" y="305" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<circle cx="380" cy="480" r="7" fill="#24331b" stroke="#24331b" stroke-width="1"/>
+<circle cx="404" cy="458" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="404" y="465" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<circle cx="340" cy="320" r="7" fill="#24331b" stroke="#24331b" stroke-width="1"/>
+<circle cx="364" cy="298" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="364" y="305" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<circle cx="420" cy="240" r="7" fill="#24331b" stroke="#24331b" stroke-width="1"/>
+<circle cx="444" cy="218" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="444" y="225" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">D</text>
+<circle cx="260" cy="160" r="7" fill="#24331b" stroke="#24331b" stroke-width="1"/>
+<circle cx="284" cy="138" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="284" y="145" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">E</text>
+</svg>

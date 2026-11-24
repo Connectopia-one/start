@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Balans van bv Fietsplus op 31 december</text>
+<rect x="60" y="70" width="880" height="520" rx="8" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<line x1="500" y1="70" x2="500" y2="590" stroke="#24331b" stroke-width="2"/>
+<line x1="60" y1="120" x2="940" y2="120" stroke="#24331b" stroke-width="2"/>
+<line x1="60" y1="530" x2="940" y2="530" stroke="#24331b" stroke-width="2"/>
+<text x="280" y="105" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">ACTIEF</text>
+<text x="720" y="105" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">PASSIEF</text>
+<circle cx="100" cy="164" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="100" y="171" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<text x="135" y="170" font-size="19" text-anchor="start" fill="#24331b">Gebouwen</text>
+<text x="480" y="170" font-size="19" text-anchor="end" fill="#24331b">120 000</text>
+<circle cx="100" cy="239" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="100" y="246" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<text x="135" y="245" font-size="19" text-anchor="start" fill="#24331b">Machines</text>
+<text x="480" y="245" font-size="19" text-anchor="end" fill="#24331b">40 000</text>
+<circle cx="100" cy="314" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="100" y="321" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<text x="135" y="320" font-size="19" text-anchor="start" fill="#24331b">Voorraad handelsgoederen</text>
+<text x="480" y="320" font-size="19" text-anchor="end" fill="#24331b">15 000</text>
+<circle cx="100" cy="389" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="100" y="396" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">D</text>
+<text x="135" y="395" font-size="19" text-anchor="start" fill="#24331b">Handelsvorderingen</text>
+<text x="480" y="395" font-size="19" text-anchor="end" fill="#24331b">10 000</text>
+<circle cx="100" cy="464" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="100" y="471" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">E</text>
+<text x="135" y="470" font-size="19" text-anchor="start" fill="#24331b">Liquide middelen</text>
+<text x="480" y="470" font-size="19" text-anchor="end" fill="#24331b">5 000</text>
+<circle cx="540" cy="164" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="540" y="171" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">F</text>
+<text x="575" y="170" font-size="19" text-anchor="start" fill="#24331b">Kapitaal</text>
+<text x="920" y="170" font-size="19" text-anchor="end" fill="#24331b">80 000</text>
+<circle cx="540" cy="239" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="540" y="246" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">G</text>
+<text x="575" y="245" font-size="19" text-anchor="start" fill="#24331b">Overgedragen winst</text>
+<text x="920" y="245" font-size="19" text-anchor="end" fill="#24331b">20 000</text>
+<circle cx="540" cy="314" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="540" y="321" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">H</text>
+<text x="575" y="320" font-size="19" text-anchor="start" fill="#24331b">Lening op 10 jaar</text>
+<text x="920" y="320" font-size="19" text-anchor="end" fill="#24331b">60 000</text>
+<circle cx="540" cy="389" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="540" y="396" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">I</text>
+<text x="575" y="395" font-size="19" text-anchor="start" fill="#24331b">Te betalen leveranciers</text>
+<text x="920" y="395" font-size="19" text-anchor="end" fill="#24331b">25 000</text>
+<circle cx="540" cy="464" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="540" y="471" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">J</text>
+<text x="575" y="470" font-size="19" text-anchor="start" fill="#24331b">Te betalen btw</text>
+<text x="920" y="470" font-size="19" text-anchor="end" fill="#24331b">5 000</text>
+<text x="135" y="568" font-size="20" text-anchor="start" fill="#24331b" font-weight="bold">Totaal</text>
+<text x="480" y="568" font-size="20" text-anchor="end" fill="#24331b" font-weight="bold">190 000</text>
+<text x="575" y="568" font-size="20" text-anchor="start" fill="#24331b" font-weight="bold">Totaal</text>
+<text x="920" y="568" font-size="20" text-anchor="end" fill="#24331b" font-weight="bold">190 000</text>
+</svg>

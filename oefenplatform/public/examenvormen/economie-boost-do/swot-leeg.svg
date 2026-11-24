@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">SWOT-analyse</text>
+<text x="110" y="250" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">INTERN</text>
+<text x="110" y="470" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">EXTERN</text>
+<rect x="200" y="140" width="340" height="200" rx="10" fill="#e8f0dd" stroke="#24331b" stroke-width="2"/>
+<text x="370" y="250" font-size="28" text-anchor="middle" fill="#24331b" font-weight="bold">Sterktes</text>
+<rect x="560" y="140" width="340" height="200" rx="10" fill="#f6e2dc" stroke="#24331b" stroke-width="2"/>
+<text x="730" y="250" font-size="28" text-anchor="middle" fill="#24331b" font-weight="bold">Zwaktes</text>
+<rect x="200" y="360" width="340" height="200" rx="10" fill="#e3ebf3" stroke="#24331b" stroke-width="2"/>
+<text x="370" y="470" font-size="28" text-anchor="middle" fill="#24331b" font-weight="bold">Kansen</text>
+<rect x="560" y="360" width="340" height="200" rx="10" fill="#f6ead4" stroke="#24331b" stroke-width="2"/>
+<text x="730" y="470" font-size="28" text-anchor="middle" fill="#24331b" font-weight="bold">Bedreigingen</text>
+<text x="370" y="120" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">helpt</text>
+<text x="730" y="120" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">hindert</text>
+</svg>

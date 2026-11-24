@@ -47,7 +47,7 @@ VRAGEN = [
         keuze("Dat het grensnut daalt, heet de wet van het [[*afnemende grensnut|stijgende totaal nut|dalende totaal nut]].",
               "Elke extra eenheid levert minder extra nut."),
     ]),
-    koppel("Welk begrip hoort bij welke omschrijving?",
+    koppel("Welk begrip over nut hoort bij welke omschrijving?",
            [("grensnut", "het nut van de laatste eenheid"), ("totaal nut", "het nut van alle eenheden samen"), ("preferentie", "de ene combinatie liever hebben"), ("indifferentie", "evenveel nut van twee combinaties")],
            ["alternatieve kost"], "De kernbegrippen van het thema."),
     tabel("Klopt dit over het grensnut?",

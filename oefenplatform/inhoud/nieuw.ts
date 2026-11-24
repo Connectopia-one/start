@@ -41,6 +41,12 @@ export const nieuwTekst = {
 export const updates: Update[] = [
   {
     datum: "24 november 2026",
+    titel: "Pittige hoofdstukken economie in Boost doorstroom",
+    tekst:
+      "Economie in Boost doorstroom heeft nu bij elk van de 19 onderwerpen een pittig hoofdstuk van 30 vragen, in examenvorm: van de kringloop, het bbp en groei over nut, budgetlijn, kosten en het optimum tot de markt, de arbeidsmarkt en handel, en verder ondernemingsvormen, balans, boekhouden, facturen, strategie en marketing. Met casussen, rekenvragen en klikvragen op zelfgetekende grafieken, een balans, een factuur en een SWOT.",
+  },
+  {
+    datum: "24 november 2026",
     titel: "Pittige hoofdstukken Engels in Boost",
     tekst:
       "Engels in Boost doorstroom (13 onderwerpen) en in Boost dubbele finaliteit (14 onderwerpen) heeft nu bij elk onderwerp een pittig hoofdstuk van 30 vragen, in examenvorm: van tekstanalyse, tekstsoorten en schrijven over de Engelstalige wereld en woordvelden tot nouns, pronouns, adjectives, de tijden en zinsbouw. In doorstroom ook de modal verbs, in dubbele finaliteit ook spreken en klank en spelling. Met leesteksten, aanvulzinnen, sleepvragen en sorteeroefeningen.",

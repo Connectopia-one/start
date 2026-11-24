@@ -63,7 +63,7 @@ VRAGEN = [
     mk("Waarom verdient een ervaren ICT-specialist meestal meer dan een vakkenvuller?",
        ["Vraag en aanbod verschillen per beroep.", "De overheid legt alle lonen per beroep vast.", "Vakkenvullers werken minder uren per week.", "ICT-bedrijven betalen geen sociale bijdragen."], 0,
        "Een schaars beroep met veel vraag levert een hoger loon op."),
-    koppel("Welk begrip hoort bij welke omschrijving?",
+    koppel("Welk begrip over collectieve afspraken hoort bij welke omschrijving?",
            [("cao", "akkoord over loon en arbeidsvoorwaarden in een sector"), ("ipa", "akkoord over alle sectoren heen"), ("sociale partners", "vakbonden en werkgeversorganisaties"), ("indexering", "lonen stijgen mee met de prijzen")],
            ["minimumprijs"], "De collectieve afspraken in België."),
     tabel("Klopt dit over collectieve afspraken?",

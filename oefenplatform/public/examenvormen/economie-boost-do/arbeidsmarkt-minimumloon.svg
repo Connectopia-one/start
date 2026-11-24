@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Arbeidsmarkt voor magazijniers</text>
+<line x1="140" y1="570" x2="900" y2="570" stroke="#24331b" stroke-width="3"/>
+<line x1="140" y1="570" x2="140" y2="50" stroke="#24331b" stroke-width="3"/>
+<line x1="235.0" y1="570" x2="235.0" y2="578" stroke="#24331b" stroke-width="2"/>
+<text x="235.0" y="598" font-size="16" text-anchor="middle" fill="#24331b">100</text>
+<line x1="330.0" y1="570" x2="330.0" y2="578" stroke="#24331b" stroke-width="2"/>
+<text x="330.0" y="598" font-size="16" text-anchor="middle" fill="#24331b">200</text>
+<line x1="425.0" y1="570" x2="425.0" y2="578" stroke="#24331b" stroke-width="2"/>
+<text x="425.0" y="598" font-size="16" text-anchor="middle" fill="#24331b">300</text>
+<line x1="520.0" y1="570" x2="520.0" y2="578" stroke="#24331b" stroke-width="2"/>
+<text x="520.0" y="598" font-size="16" text-anchor="middle" fill="#24331b">400</text>
+<line x1="615.0" y1="570" x2="615.0" y2="578" stroke="#24331b" stroke-width="2"/>
+<text x="615.0" y="598" font-size="16" text-anchor="middle" fill="#24331b">500</text>
+<line x1="710.0" y1="570" x2="710.0" y2="578" stroke="#24331b" stroke-width="2"/>
+<text x="710.0" y="598" font-size="16" text-anchor="middle" fill="#24331b">600</text>
+<line x1="805.0" y1="570" x2="805.0" y2="578" stroke="#24331b" stroke-width="2"/>
+<text x="805.0" y="598" font-size="16" text-anchor="middle" fill="#24331b">700</text>
+<line x1="132" y1="524" x2="140" y2="524" stroke="#24331b" stroke-width="2"/>
+<text x="126" y="529" font-size="15" text-anchor="end" fill="#24331b">2</text>
+<line x1="132" y1="478" x2="140" y2="478" stroke="#24331b" stroke-width="2"/>
+<text x="126" y="483" font-size="15" text-anchor="end" fill="#24331b">4</text>
+<line x1="132" y1="432" x2="140" y2="432" stroke="#24331b" stroke-width="2"/>
+<text x="126" y="437" font-size="15" text-anchor="end" fill="#24331b">6</text>
+<line x1="132" y1="386" x2="140" y2="386" stroke="#24331b" stroke-width="2"/>
+<text x="126" y="391" font-size="15" text-anchor="end" fill="#24331b">8</text>
+<line x1="132" y1="340" x2="140" y2="340" stroke="#24331b" stroke-width="2"/>
+<text x="126" y="345" font-size="15" text-anchor="end" fill="#24331b">10</text>
+<line x1="132" y1="294" x2="140" y2="294" stroke="#24331b" stroke-width="2"/>
+<text x="126" y="299" font-size="15" text-anchor="end" fill="#24331b">12</text>
+<line x1="132" y1="248" x2="140" y2="248" stroke="#24331b" stroke-width="2"/>
+<text x="126" y="253" font-size="15" text-anchor="end" fill="#24331b">14</text>
+<line x1="132" y1="202" x2="140" y2="202" stroke="#24331b" stroke-width="2"/>
+<text x="126" y="207" font-size="15" text-anchor="end" fill="#24331b">16</text>
+<line x1="132" y1="156" x2="140" y2="156" stroke="#24331b" stroke-width="2"/>
+<text x="126" y="161" font-size="15" text-anchor="end" fill="#24331b">18</text>
+<line x1="132" y1="110" x2="140" y2="110" stroke="#24331b" stroke-width="2"/>
+<text x="126" y="115" font-size="15" text-anchor="end" fill="#24331b">20</text>
+<text x="900" y="626" font-size="18" text-anchor="end" fill="#24331b">aantal werknemers</text>
+<text x="130" y="42" font-size="18" text-anchor="start" fill="#24331b">loon W (euro per uur)</text>
+<line x1="425.0" y1="110" x2="881.0" y2="478" stroke="#3b6fa0" stroke-width="4"/>
+<line x1="482.0" y1="501" x2="805.0" y2="110" stroke="#b5651d" stroke-width="4"/>
+<text x="415.0" y="114" font-size="17" text-anchor="end" fill="#3b6fa0" font-weight="bold">vraag naar arbeid</text>
+<text x="815.0" y="132" font-size="17" text-anchor="start" fill="#b5651d" font-weight="bold">aanbod van arbeid</text>
+<line x1="140" y1="225" x2="880" y2="225" stroke="#7a4b8c" stroke-width="2" stroke-dasharray="8 6"/>
+<text x="150" y="217" font-size="16" text-anchor="start" fill="#7a4b8c" font-weight="bold">minimumloon 15 euro</text>
+<line x1="567.5" y1="219" x2="710.0" y2="219" stroke="#7a4b8c" stroke-width="6"/>
+<circle cx="653.0" cy="294" r="7" fill="#24331b" stroke="#24331b" stroke-width="1"/>
+<circle cx="687.0" cy="302" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="687.0" y="309" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<circle cx="567.5" cy="225" r="7" fill="#24331b" stroke="#24331b" stroke-width="1"/>
+<circle cx="537.5" cy="197" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="537.5" y="204" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<circle cx="710.0" cy="225" r="7" fill="#24331b" stroke="#24331b" stroke-width="1"/>
+<circle cx="740.0" cy="197" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="740.0" y="204" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<circle cx="638.75" cy="183" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="638.75" y="190" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">D</text>
+</svg>

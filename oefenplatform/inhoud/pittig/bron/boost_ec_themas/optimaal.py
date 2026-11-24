@@ -44,7 +44,7 @@ VRAGEN = [
          "In D snijdt MK de GK-curve in haar laagste punt, ongeveer 23 euro."),
     klik("Klik op het sluitingspunt.", U, [Z["E"]],
          "Het sluitingspunt is het laagste punt van GVK: daar snijdt MK de GVK."),
-    tabel("Klopt dit volgens de prent?",
+    tabel("Klopt dit volgens de grafiek met twee prijzen?",
           [("Bij prijs 1 maakt het bedrijf winst, want 30 ligt boven GK.", J), ("Bij prijs 2 maakt het bedrijf verlies, want 8 ligt onder GK.", J), ("Bij prijs 2 moet het bedrijf op korte termijn meteen sluiten.", F), ("A is geen optimum, ook al is daar MK = MO.", J)],
           "Prijs 2 ligt onder GK maar boven het laagste punt van GVK: op korte termijn nog produceren."),
     casus("Lees de tabel van een bedrijf bij volkomen concurrentie. De prijs is 15 euro.\n\nq: 10 · 11 · 12 · 13 · 14\nMK van dat stuk (euro): 9 · 11 · 14 · 15 · 19", [

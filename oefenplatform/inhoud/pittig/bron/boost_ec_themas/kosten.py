@@ -41,7 +41,7 @@ VRAGEN = [
          "MK daalt eerst, stijgt dan steil en snijdt GVK en GK in hun laagste punt."),
     klik("Klik op de letter bij de gemiddelde kost GK.", U, [Z["B"]],
          "GK is de u-vormige curve die het hoogst ligt: GVK plus GCK."),
-    tabel("Klopt dit volgens de prent?",
+    tabel("Klopt dit volgens de kostencurven?",
           [("In punt M is de gemiddelde kost het laagst.", J), ("Links van M ligt MK onder GK, en daar daalt GK.", J), ("Rechts van M ligt MK boven GK, en daar daalt GK.", F), ("Het verschil tussen GK en GVK is GCK.", J)],
           "Ligt MK onder het gemiddelde, dan trekt het het gemiddelde omlaag; erboven trekt het omhoog."),
     casus("Lees de gegevens van een bakkerij.\n\nDe huur is 1 800 euro per maand, de verzekering 200 euro. Per brood kosten de grondstoffen en de energie samen 0,90 euro. De bakkerij verkoopt haar brood aan 2,50 euro. Deze maand bakt ze 2 000 broden.", [

@@ -35,7 +35,7 @@ VRAGEN = [
          "Bij 14 euro ligt de vraag op 150 − 42 = 108 (punt C). Het aanbod is maar 72 (punt B): een tekort van 36."),
     klik("De overheid legt een minimumprijs van 26 euro op. Klik op het punt dat toont hoeveel er dan aangeboden wordt.", U, [Z["E"]],
          "Bij 26 euro is het aanbod 30 + 78 = 108 (punt E) en de vraag 72 (punt D): een overschot van 36."),
-    tabel("Klopt dit volgens de grafiek?",
+    tabel("Klopt dit volgens de grafiek van de huurfietsen?",
           [("Bij een maximumprijs van 14 euro ontstaat er een tekort.", J), ("Bij een minimumprijs van 26 euro ontstaat er een tekort.", F), ("Een maximumprijs van 26 euro zou niets veranderen.", J), ("Een minimumprijs van 14 euro zou niets veranderen.", J)],
           "Een plafond boven het evenwicht en een bodem eronder zijn niet bindend."),
     casus("Lees de functies.\n\nOp de markt voor verse aardbeien geldt: Qv = 900 − 50P en Qa = 100 + 30P (P in euro per kilo, Q in kilo per dag).", [

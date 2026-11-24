@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Factuur van Tegelhandel Verbeke</text>
+<rect x="120" y="60" width="760" height="560" rx="6" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="150" y="100" font-size="20" text-anchor="start" fill="#24331b" font-weight="bold">Tegelhandel Verbeke · Factuur nr. 2026/418</text>
+<text x="150" y="128" font-size="16" text-anchor="start" fill="#24331b">Klant: bv Bouwwerken Peeters · vervaldag: 30 dagen na factuurdatum</text>
+<circle cx="160" cy="174" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="160" y="181" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<text x="195" y="180" font-size="18" text-anchor="start" fill="#24331b">200 m² vloertegels à 12,00 euro (brutoprijs)</text>
+<text x="850" y="180" font-size="18" text-anchor="end" fill="#24331b">2 400,00</text>
+<circle cx="160" cy="228" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="160" y="235" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<text x="195" y="234" font-size="18" text-anchor="start" fill="#24331b">handelskorting 10 %</text>
+<text x="850" y="234" font-size="18" text-anchor="end" fill="#24331b">− 240,00</text>
+<circle cx="160" cy="282" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="160" y="289" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<text x="195" y="288" font-size="18" text-anchor="start" fill="#24331b">financiële korting 2 % bij betaling binnen 8 dagen</text>
+<text x="850" y="288" font-size="18" text-anchor="end" fill="#24331b">− 43,20</text>
+<circle cx="160" cy="336" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="160" y="343" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">D</text>
+<text x="195" y="342" font-size="18" text-anchor="start" fill="#24331b">doorgerekend vervoer</text>
+<text x="850" y="342" font-size="18" text-anchor="end" fill="#24331b">80,00</text>
+<line x1="190" y1="362" x2="860" y2="362" stroke="#c9c3b1" stroke-width="1"/>
+<circle cx="160" cy="390" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="160" y="397" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">E</text>
+<text x="195" y="396" font-size="18" text-anchor="start" fill="#24331b" font-weight="bold">subtotaal</text>
+<text x="850" y="396" font-size="18" text-anchor="end" fill="#24331b" font-weight="bold">2 196,80</text>
+<circle cx="160" cy="444" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="160" y="451" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">F</text>
+<text x="195" y="450" font-size="18" text-anchor="start" fill="#24331b">btw 21 %</text>
+<text x="850" y="450" font-size="18" text-anchor="end" fill="#24331b">461,33</text>
+<circle cx="160" cy="498" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="160" y="505" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">G</text>
+<text x="195" y="504" font-size="18" text-anchor="start" fill="#24331b">terugstuurbare paletten (zonder btw)</text>
+<text x="850" y="504" font-size="18" text-anchor="end" fill="#24331b">50,00</text>
+<line x1="190" y1="524" x2="860" y2="524" stroke="#c9c3b1" stroke-width="1"/>
+<circle cx="160" cy="552" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="160" y="559" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">H</text>
+<text x="195" y="558" font-size="18" text-anchor="start" fill="#24331b" font-weight="bold">TE BETALEN</text>
+<text x="850" y="558" font-size="18" text-anchor="end" fill="#24331b" font-weight="bold">2 708,13</text>
+</svg>

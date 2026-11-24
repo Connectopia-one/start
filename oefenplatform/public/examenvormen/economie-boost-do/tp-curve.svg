@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Totale productie van een werkplaats</text>
+<line x1="140" y1="560" x2="880" y2="560" stroke="#24331b" stroke-width="3"/>
+<line x1="140" y1="560" x2="140" y2="60" stroke="#24331b" stroke-width="3"/>
+<line x1="225" y1="560" x2="225" y2="568" stroke="#24331b" stroke-width="2"/>
+<text x="225" y="588" font-size="16" text-anchor="middle" fill="#24331b">1</text>
+<line x1="310" y1="560" x2="310" y2="568" stroke="#24331b" stroke-width="2"/>
+<text x="310" y="588" font-size="16" text-anchor="middle" fill="#24331b">2</text>
+<line x1="395" y1="560" x2="395" y2="568" stroke="#24331b" stroke-width="2"/>
+<text x="395" y="588" font-size="16" text-anchor="middle" fill="#24331b">3</text>
+<line x1="480" y1="560" x2="480" y2="568" stroke="#24331b" stroke-width="2"/>
+<text x="480" y="588" font-size="16" text-anchor="middle" fill="#24331b">4</text>
+<line x1="565" y1="560" x2="565" y2="568" stroke="#24331b" stroke-width="2"/>
+<text x="565" y="588" font-size="16" text-anchor="middle" fill="#24331b">5</text>
+<line x1="650" y1="560" x2="650" y2="568" stroke="#24331b" stroke-width="2"/>
+<text x="650" y="588" font-size="16" text-anchor="middle" fill="#24331b">6</text>
+<line x1="735" y1="560" x2="735" y2="568" stroke="#24331b" stroke-width="2"/>
+<text x="735" y="588" font-size="16" text-anchor="middle" fill="#24331b">7</text>
+<line x1="820" y1="560" x2="820" y2="568" stroke="#24331b" stroke-width="2"/>
+<text x="820" y="588" font-size="16" text-anchor="middle" fill="#24331b">8</text>
+<line x1="132" y1="504.0" x2="140" y2="504.0" stroke="#24331b" stroke-width="2"/>
+<text x="126" y="509.0" font-size="15" text-anchor="end" fill="#24331b">10</text>
+<line x1="140" y1="504.0" x2="880" y2="504.0" stroke="#ebe7dc" stroke-width="1"/>
+<line x1="132" y1="448.0" x2="140" y2="448.0" stroke="#24331b" stroke-width="2"/>
+<text x="126" y="453.0" font-size="15" text-anchor="end" fill="#24331b">20</text>
+<line x1="140" y1="448.0" x2="880" y2="448.0" stroke="#ebe7dc" stroke-width="1"/>
+<line x1="132" y1="392.0" x2="140" y2="392.0" stroke="#24331b" stroke-width="2"/>
+<text x="126" y="397.0" font-size="15" text-anchor="end" fill="#24331b">30</text>
+<line x1="140" y1="392.0" x2="880" y2="392.0" stroke="#ebe7dc" stroke-width="1"/>
+<line x1="132" y1="336.0" x2="140" y2="336.0" stroke="#24331b" stroke-width="2"/>
+<text x="126" y="341.0" font-size="15" text-anchor="end" fill="#24331b">40</text>
+<line x1="140" y1="336.0" x2="880" y2="336.0" stroke="#ebe7dc" stroke-width="1"/>
+<line x1="132" y1="280.0" x2="140" y2="280.0" stroke="#24331b" stroke-width="2"/>
+<text x="126" y="285.0" font-size="15" text-anchor="end" fill="#24331b">50</text>
+<line x1="140" y1="280.0" x2="880" y2="280.0" stroke="#ebe7dc" stroke-width="1"/>
+<line x1="132" y1="224.0" x2="140" y2="224.0" stroke="#24331b" stroke-width="2"/>
+<text x="126" y="229.0" font-size="15" text-anchor="end" fill="#24331b">60</text>
+<line x1="140" y1="224.0" x2="880" y2="224.0" stroke="#ebe7dc" stroke-width="1"/>
+<line x1="132" y1="168.0" x2="140" y2="168.0" stroke="#24331b" stroke-width="2"/>
+<text x="126" y="173.0" font-size="15" text-anchor="end" fill="#24331b">70</text>
+<line x1="140" y1="168.0" x2="880" y2="168.0" stroke="#ebe7dc" stroke-width="1"/>
+<line x1="132" y1="112.0" x2="140" y2="112.0" stroke="#24331b" stroke-width="2"/>
+<text x="126" y="117.0" font-size="15" text-anchor="end" fill="#24331b">80</text>
+<line x1="140" y1="112.0" x2="880" y2="112.0" stroke="#ebe7dc" stroke-width="1"/>
+<text x="880" y="616" font-size="18" text-anchor="end" fill="#24331b">aantal werknemers</text>
+<text x="130" y="50" font-size="18" text-anchor="start" fill="#24331b">TP (stuks per dag)</text>
+<path d="M 140,560.0 L 225,492.8 L 310,392.0 L 395,257.6 L 480,168.0 L 565,112.0 L 650,89.6 L 735,89.6 L 820,123.2" fill="none" stroke="#3b6fa0" stroke-width="4"/>
+<circle cx="310" cy="392.0" r="7" fill="#24331b" stroke="#24331b" stroke-width="1"/>
+<circle cx="310" cy="356.0" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="310" y="363.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<circle cx="395" cy="257.6" r="7" fill="#24331b" stroke="#24331b" stroke-width="1"/>
+<circle cx="395" cy="221.60000000000002" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="395" y="228.60000000000002" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<circle cx="565" cy="112.0" r="7" fill="#24331b" stroke="#24331b" stroke-width="1"/>
+<circle cx="565" cy="76.0" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="565" y="83.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<circle cx="735" cy="89.60000000000002" r="7" fill="#24331b" stroke="#24331b" stroke-width="1"/>
+<circle cx="735" cy="53.60000000000002" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="735" y="60.60000000000002" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">D</text>
+<circle cx="820" cy="123.20000000000005" r="7" fill="#24331b" stroke="#24331b" stroke-width="1"/>
+<circle cx="820" cy="87.20000000000005" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="820" y="94.20000000000005" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">E</text>
+</svg>
