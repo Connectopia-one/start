@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Doorsnede van een stratovulkaan</text>
+<rect x="40" y="520" width="920" height="100" rx="0" fill="#a0826d" stroke="none" stroke-width="0"/>
+<path d="M120 520 L 455.0 130 L 545.0 130 L 880 520 Z" fill="#8a7a68" stroke="none" stroke-width="0"/>
+<path d="M165 520 L 461.75 175 L 538.25 175 L 835 520 Z" fill="#b8a58a" stroke="none" stroke-width="0"/>
+<path d="M210 520 L 468.5 220 L 531.5 220 L 790 520 Z" fill="#8a7a68" stroke="none" stroke-width="0"/>
+<path d="M255 520 L 475.25 265 L 524.75 265 L 745 520 Z" fill="#b8a58a" stroke="none" stroke-width="0"/>
+<path d="M300 520 L 482.0 310 L 518.0 310 L 700 520 Z" fill="#8a7a68" stroke="none" stroke-width="0"/>
+<path d="M120 520 L 455 130 L 545 130 L 880 520" fill="none" stroke="#24331b" stroke-width="2"/>
+<path d="M455 130 L 480 165 L 520 165 L 545 130" fill="#f3efe6" stroke="#24331b" stroke-width="2"/>
+<ellipse cx="500" cy="570" rx="150" ry="40" fill="#b03a2e" stroke="#24331b" stroke-width="2"/>
+<rect x="488" y="165" width="24" height="370" rx="0" fill="#b03a2e" stroke="none" stroke-width="0"/>
+<path d="M505 380 L 650 300 L 662 318 L 512 400 Z" fill="#b03a2e" stroke="none" stroke-width="0"/>
+<line x1="495" y1="320" x2="435" y2="330" stroke="#24331b" stroke-width="1"/>
+<line x1="650" y1="300" x2="675" y2="280" stroke="#24331b" stroke-width="1"/>
+<circle cx="500" cy="590" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="500" y="597" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<circle cx="420" cy="330" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="420" y="337" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<circle cx="500" cy="100" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="500" y="107" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<circle cx="690" cy="270" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="690" y="277" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">D</text>
+</svg>
