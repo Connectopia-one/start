@@ -43,7 +43,7 @@ export const updates: Update[] = [
     datum: "24 november 2026",
     titel: "Pittige hoofdstukken Engels in Beyond doorstroom",
     tekst:
-      "Engels in Beyond doorstroom heeft nu bij elk van de 14 onderwerpen een pittig hoofdstuk van 30 vragen, in examenvorm: Engelse teksten lezen en ontleden, tekstsoorten, de woordvelden van wonen en vrije tijd tot wetenschap en politiek, en de grammatica van lidwoorden en voornaamwoorden over alle tijden tot de indirecte rede en de passieve vorm. Bij elk onderwerp lees je ook een echte Engelse tekst, zoals een brief, een advertentie of een krantenbericht.",
+      "Engels in Beyond doorstroom heeft nu bij elk van de 14 onderwerpen een pittig hoofdstuk van 30 vragen, in examenvorm: Engelse teksten lezen en ontleden, tekstsoorten, de woordvelden van wonen en vrije tijd tot wetenschap en politiek, en de grammatica van lidwoorden en voornaamwoorden over alle tijden tot de indirecte rede en de passieve vorm. Bij elk onderwerp lees je ook een Engelse tekst, zoals een brief, een advertentie of een krantenbericht.",
   },
   {
     datum: "24 november 2026",
