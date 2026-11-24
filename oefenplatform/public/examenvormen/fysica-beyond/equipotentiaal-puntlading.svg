@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Equipotentiaallijnen rond een positieve puntlading</text>
+<circle cx="480" cy="340" r="80" fill="none" stroke="#7a7a7a" stroke-width="2" stroke-dasharray="8 6"/>
+<text x="480" y="252" font-size="18" text-anchor="middle" fill="#24331b" font-weight="bold">300 V</text>
+<circle cx="480" cy="340" r="120" fill="none" stroke="#7a7a7a" stroke-width="2" stroke-dasharray="8 6"/>
+<text x="480" y="212" font-size="18" text-anchor="middle" fill="#24331b" font-weight="bold">200 V</text>
+<circle cx="480" cy="340" r="240" fill="none" stroke="#7a7a7a" stroke-width="2" stroke-dasharray="8 6"/>
+<text x="480" y="92" font-size="18" text-anchor="middle" fill="#24331b" font-weight="bold">100 V</text>
+<circle cx="480" cy="340" r="20" fill="#b03a2e" stroke="#24331b" stroke-width="2"/>
+<text x="480" y="350" font-size="28" text-anchor="middle" fill="#ffffff" font-weight="bold">+</text>
+<circle cx="592.763114494309" cy="298.95758280091974" r="7" fill="#24331b" stroke="#24331b" stroke-width="1"/>
+<circle cx="622.8332783594581" cy="288.0129382144984" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="622.8332783594581" y="295.0129382144984" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">P</text>
+<circle cx="367.236885505691" cy="381.04241719908026" r="7" fill="#24331b" stroke="#24331b" stroke-width="1"/>
+<circle cx="337.16672164054194" cy="391.9870617855016" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="337.16672164054194" y="398.9870617855016" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">Q</text>
+<circle cx="687.8460969082653" cy="460.0" r="7" fill="#24331b" stroke="#24331b" stroke-width="1"/>
+<circle cx="715.5589098293674" cy="476.0" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="715.5589098293674" y="483.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">R</text>
+<circle cx="452.6383885339465" cy="415.17540966287265" r="7" fill="#24331b" stroke="#24331b" stroke-width="1"/>
+<circle cx="464.9511136936706" cy="381.34647531457995" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="464.9511136936706" y="388.34647531457995" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">S</text>
+</svg>
