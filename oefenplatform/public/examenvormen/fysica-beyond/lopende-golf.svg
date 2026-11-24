@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Een momentopname van een golf die naar rechts loopt over een touw</text>
+<line x1="130.0" y1="90" x2="130.0" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="130.0" y="339.0" font-size="15" text-anchor="middle" fill="#24331b">0</text>
+<line x1="207.0" y1="90" x2="207.0" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="207.0" y="339.0" font-size="15" text-anchor="middle" fill="#24331b">0,2</text>
+<line x1="284.0" y1="90" x2="284.0" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="284.0" y="339.0" font-size="15" text-anchor="middle" fill="#24331b">0,4</text>
+<line x1="361.0" y1="90" x2="361.0" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="361.0" y="339.0" font-size="15" text-anchor="middle" fill="#24331b">0,6</text>
+<line x1="438.0" y1="90" x2="438.0" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="438.0" y="339.0" font-size="15" text-anchor="middle" fill="#24331b">0,8</text>
+<line x1="515.0" y1="90" x2="515.0" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="515.0" y="339.0" font-size="15" text-anchor="middle" fill="#24331b">1</text>
+<line x1="592.0" y1="90" x2="592.0" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="592.0" y="339.0" font-size="15" text-anchor="middle" fill="#24331b">1,2</text>
+<line x1="669.0" y1="90" x2="669.0" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="669.0" y="339.0" font-size="15" text-anchor="middle" fill="#24331b">1,4</text>
+<line x1="746.0" y1="90" x2="746.0" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="746.0" y="339.0" font-size="15" text-anchor="middle" fill="#24331b">1,6</text>
+<line x1="822.9999999999999" y1="90" x2="822.9999999999999" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="822.9999999999999" y="339.0" font-size="15" text-anchor="middle" fill="#24331b">1,8</text>
+<line x1="899.9999999999999" y1="90" x2="899.9999999999999" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="899.9999999999999" y="339.0" font-size="15" text-anchor="middle" fill="#24331b">2</text>
+<line x1="130" y1="540.0" x2="900" y2="540.0" stroke="#e4e1d6" stroke-width="1"/>
+<text x="120" y="545.0" font-size="15" text-anchor="end" fill="#24331b">−4</text>
+<line x1="130" y1="483.75" x2="900" y2="483.75" stroke="#e4e1d6" stroke-width="1"/>
+<text x="120" y="488.75" font-size="15" text-anchor="end" fill="#24331b">−3</text>
+<line x1="130" y1="427.5" x2="900" y2="427.5" stroke="#e4e1d6" stroke-width="1"/>
+<text x="120" y="432.5" font-size="15" text-anchor="end" fill="#24331b">−2</text>
+<line x1="130" y1="371.25" x2="900" y2="371.25" stroke="#e4e1d6" stroke-width="1"/>
+<text x="120" y="376.25" font-size="15" text-anchor="end" fill="#24331b">−1</text>
+<line x1="130" y1="315.0" x2="900" y2="315.0" stroke="#e4e1d6" stroke-width="1"/>
+<text x="120" y="320.0" font-size="15" text-anchor="end" fill="#24331b">0</text>
+<line x1="130" y1="258.75" x2="900" y2="258.75" stroke="#e4e1d6" stroke-width="1"/>
+<text x="120" y="263.75" font-size="15" text-anchor="end" fill="#24331b">1</text>
+<line x1="130" y1="202.5" x2="900" y2="202.5" stroke="#e4e1d6" stroke-width="1"/>
+<text x="120" y="207.5" font-size="15" text-anchor="end" fill="#24331b">2</text>
+<line x1="130" y1="146.25" x2="900" y2="146.25" stroke="#e4e1d6" stroke-width="1"/>
+<text x="120" y="151.25" font-size="15" text-anchor="end" fill="#24331b">3</text>
+<line x1="130" y1="90.0" x2="900" y2="90.0" stroke="#e4e1d6" stroke-width="1"/>
+<text x="120" y="95.0" font-size="15" text-anchor="end" fill="#24331b">4</text>
+<line x1="130" y1="315.0" x2="910" y2="315.0" stroke="#24331b" stroke-width="2"/>
+<line x1="130" y1="540" x2="130" y2="80" stroke="#24331b" stroke-width="2"/>
+<text x="905" y="305.0" font-size="16" text-anchor="end" fill="#24331b">x (m)</text>
+<text x="122" y="70" font-size="16" text-anchor="start" fill="#24331b">y (cm)</text>
+<path d="M 130.0 315.0 L 133.8 301.8 L 137.7 288.6 L 141.6 275.6 L 145.4 262.9 L 149.2 250.4 L 153.1 238.4 L 156.9 226.8 L 160.8 215.8 L 164.7 205.4 L 168.5 195.7 L 172.3 186.7 L 176.2 178.5 L 180.1 171.1 L 183.9 164.6 L 187.8 159.1 L 191.6 154.5 L 195.4 150.9 L 199.3 148.3 L 203.2 146.8 L 207.0 146.2 L 210.8 146.8 L 214.7 148.3 L 218.6 150.9 L 222.4 154.5 L 226.2 159.1 L 230.1 164.6 L 233.9 171.1 L 237.8 178.5 L 241.6 186.7 L 245.5 195.7 L 249.3 205.4 L 253.2 215.8 L 257.1 226.8 L 260.9 238.4 L 264.8 250.4 L 268.6 262.9 L 272.4 275.6 L 276.3 288.6 L 280.1 301.8 L 284.0 315.0 L 287.9 328.2 L 291.7 341.4 L 295.6 354.4 L 299.4 367.1 L 303.2 379.6 L 307.1 391.6 L 310.9 403.2 L 314.8 414.2 L 318.6 424.6 L 322.5 434.3 L 326.4 443.3 L 330.2 451.5 L 334.1 458.9 L 337.9 465.4 L 341.8 470.9 L 345.6 475.5 L 349.4 479.1 L 353.3 481.7 L 357.1 483.2 L 361.0 483.8 L 364.9 483.2 L 368.7 481.7 L 372.6 479.1 L 376.4 475.5 L 380.2 470.9 L 384.1 465.4 L 387.9 458.9 L 391.8 451.5 L 395.6 443.3 L 399.5 434.3 L 403.3 424.6 L 407.2 414.2 L 411.1 403.2 L 414.9 391.6 L 418.8 379.6 L 422.6 367.1 L 426.4 354.4 L 430.3 341.4 L 434.2 328.2 L 438.0 315.0 L 441.9 301.8 L 445.7 288.6 L 449.6 275.6 L 453.4 262.9 L 457.2 250.4 L 461.1 238.4 L 464.9 226.8 L 468.8 215.8 L 472.6 205.4 L 476.5 195.7 L 480.4 186.7 L 484.2 178.5 L 488.1 171.1 L 491.9 164.6 L 495.8 159.1 L 499.6 154.5 L 503.4 150.9 L 507.3 148.3 L 511.1 146.8 L 515.0 146.2 L 518.9 146.8 L 522.7 148.3 L 526.5 150.9 L 530.4 154.5 L 534.2 159.1 L 538.1 164.6 L 542.0 171.1 L 545.8 178.5 L 549.7 186.7 L 553.5 195.7 L 557.4 205.4 L 561.2 215.8 L 565.0 226.8 L 568.9 238.4 L 572.8 250.4 L 576.6 262.9 L 580.5 275.6 L 584.3 288.6 L 588.1 301.8 L 592.0 315.0 L 595.8 328.2 L 599.7 341.4 L 603.5 354.4 L 607.4 367.1 L 611.2 379.6 L 615.1 391.6 L 619.0 403.2 L 622.8 414.2 L 626.7 424.6 L 630.5 434.3 L 634.4 443.3 L 638.2 451.5 L 642.1 458.9 L 645.9 465.4 L 649.8 470.9 L 653.6 475.5 L 657.5 479.1 L 661.3 481.7 L 665.1 483.2 L 669.0 483.8 L 672.9 483.2 L 676.7 481.7 L 680.5 479.1 L 684.4 475.5 L 688.2 470.9 L 692.1 465.4 L 696.0 458.9 L 699.8 451.5 L 703.6 443.3 L 707.5 434.3 L 711.4 424.6 L 715.2 414.2 L 719.0 403.2 L 722.9 391.6 L 726.8 379.6 L 730.6 367.1 L 734.5 354.4 L 738.3 341.4 L 742.1 328.2 L 746.0 315.0 L 749.9 301.8 L 753.7 288.6 L 757.5 275.6 L 761.4 262.9 L 765.2 250.4 L 769.1 238.4 L 772.9 226.8 L 776.8 215.8 L 780.6 205.4 L 784.5 195.7 L 788.4 186.7 L 792.2 178.5 L 796.0 171.1 L 799.9 164.6 L 803.8 159.1 L 807.6 154.5 L 811.5 150.9 L 815.3 148.3 L 819.1 146.8 L 823.0 146.2 L 826.9 146.8 L 830.7 148.3 L 834.6 150.9 L 838.4 154.5 L 842.2 159.1 L 846.1 164.6 L 850.0 171.1 L 853.8 178.5 L 857.6 186.7 L 861.5 195.7 L 865.4 205.4 L 869.2 215.8 L 873.0 226.8 L 876.9 238.4 L 880.8 250.4 L 884.6 262.9 L 888.5 275.6 L 892.3 288.6 L 896.1 301.8 L 900.0 315.0" fill="none" stroke="#3b6fa0" stroke-width="4"/>
+<line x1="669.0" y1="106.875" x2="823.0" y2="106.875" stroke="#24331b" stroke-width="4"/>
+<polygon points="823.0,106.875 808.3,113.1 808.3,100.6" fill="#24331b"/>
+<text x="746.0" y="94.875" font-size="16" text-anchor="middle" fill="#24331b">loopt naar rechts</text>
+<circle cx="207.0" cy="146.25" r="8" fill="#b5651d" stroke="#24331b" stroke-width="2"/>
+<circle cx="237.0" cy="116.25" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="237.0" y="123.25" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">P</text>
+<circle cx="284.0" cy="315.0" r="8" fill="#b5651d" stroke="#24331b" stroke-width="2"/>
+<circle cx="314.0" cy="345.0" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="314.0" y="352.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">Q</text>
+<circle cx="361.0" cy="483.75" r="8" fill="#b5651d" stroke="#24331b" stroke-width="2"/>
+<circle cx="391.0" cy="513.75" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="391.0" y="520.75" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">R</text>
+<circle cx="438.0" cy="315.00000000000006" r="8" fill="#b5651d" stroke="#24331b" stroke-width="2"/>
+<circle cx="468.0" cy="345.00000000000006" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="468.0" y="352.00000000000006" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">S</text>
+</svg>

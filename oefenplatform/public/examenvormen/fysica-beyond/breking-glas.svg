@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Een lichtstraal valt uit de lucht op een glasplaat</text>
+<rect x="40" y="330" width="920" height="260" rx="0" fill="#dfeef4" stroke="#24331b" stroke-width="2"/>
+<text x="80" y="120" font-size="22" text-anchor="start" fill="#24331b" font-weight="bold">lucht</text>
+<text x="80" y="560" font-size="22" text-anchor="start" fill="#24331b" font-weight="bold">glas</text>
+<line x1="500" y1="80" x2="500" y2="590" stroke="#d9d4c4" stroke-width="2" stroke-dasharray="8 6"/>
+<text x="512" y="100" font-size="16" text-anchor="start" fill="#24331b">normaal</text>
+<line x1="323.22330470336317" y1="153.2233047033631" x2="500" y2="330" stroke="#b03a2e" stroke-width="4"/>
+<line x1="402.7728175868497" y1="232.77281758684973" x2="420.4504871165134" y2="250.4504871165134" stroke="#b03a2e" stroke-width="4"/>
+<polygon points="420.4504871165134,250.4504871165134 405.6,244.4 414.4,235.6" fill="#b03a2e"/>
+<line x1="500" y1="330" x2="612.6731750686138" y2="541.9074222861425" stroke="#b5651d" stroke-width="4"/>
+<polygon points="612.6731750686138,541.9074222861425 600.3,531.8 611.3,526.0" fill="#b5651d"/>
+<circle cx="629.10467976612" cy="572.810588036205" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="629.10467976612" y="579.810588036205" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<line x1="500" y1="330" x2="669.7056274847714" y2="499.7056274847714" stroke="#b5651d" stroke-width="4"/>
+<polygon points="669.7056274847714,499.7056274847714 654.9,493.7 663.7,484.9" fill="#b5651d"/>
+<circle cx="694.4543648263005" cy="524.4543648263005" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="694.4543648263005" y="531.4543648263005" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<line x1="500" y1="330" x2="717.513868888796" y2="431.4283828177679" stroke="#b5651d" stroke-width="4"/>
+<polygon points="717.513868888796,431.4283828177679 701.5,430.8 706.8,419.6" fill="#b5651d"/>
+<circle cx="749.2346414350787" cy="446.22002197869233" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="749.2346414350787" y="453.22002197869233" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<line x1="500" y1="330" x2="669.7056274847714" y2="160.2943725152286" stroke="#b5651d" stroke-width="4"/>
+<polygon points="669.7056274847714,160.2943725152286 663.7,175.1 654.9,166.3" fill="#b5651d"/>
+<circle cx="694.4543648263005" cy="135.54563517369942" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="694.4543648263005" y="142.54563517369942" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">D</text>
+</svg>
