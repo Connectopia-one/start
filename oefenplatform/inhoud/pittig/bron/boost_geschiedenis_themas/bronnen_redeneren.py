@@ -18,7 +18,7 @@ VRAGEN = [
     mk(
         "Waarom stelt een historicus eerst een vraag en zoekt hij pas daarna bronnen?",
         [
-            "Zonder vraag weet je niet waarnaar je in een bron moet kijken",
+            "Zonder vraag weet je niet waar je naar zoekt",
             "Archieven laten enkel wie een vraag heeft binnen in de leeszaal",
             "Bronnen veranderen van inhoud naargelang de vraag die je stelt",
             "Een vraag stellen gaat sneller dan bronnen zoeken in een archief",
@@ -63,7 +63,7 @@ VRAGEN = [
     mk(
         "Je vindt een brief zonder datum en zonder bekende maker. Wat doe je?",
         [
-            "Je noteert dat die gegevens ontbreken, de brief kan nog bruikbaar zijn",
+            "Je noteert wat ontbreekt en gebruikt hem voorzichtig",
             "Je gooit de brief meteen weg, want hij is waardeloos",
             "Je vult zelf een datum in die het best past bij je vraag",
             "Je doet alsof de brief van een bekende ooggetuige komt",
@@ -103,7 +103,7 @@ VRAGEN = [
     mk(
         "Waarom zijn archeologische bronnen zo belangrijk voor periodes met weinig geschriften?",
         [
-            "Ze vertellen over het dagelijkse leven van mensen die zelf niet schreven",
+            "Ze tonen het leven van wie zelf niet schreef",
             "Ze zijn altijd ouder en dus betrouwbaarder dan een geschreven tekst",
             "Ze zijn de enige bronnen die een historicus mag aanraken",
             "Ze vertellen precies wat de mensen toen dachten en geloofden",
@@ -114,7 +114,7 @@ VRAGEN = [
     mk(
         "Wat is het verschil tussen een ooggetuige en een tijdgenoot?",
         [
-            "Een ooggetuige zag het zelf, een tijdgenoot leefde enkel in dezelfde tijd",
+            "Een ooggetuige zag het zelf, een tijdgenoot niet per se",
             "Een tijdgenoot zag het zelf, een ooggetuige hoorde het van iemand anders",
             "Er is geen verschil, het zijn twee woorden voor hetzelfde",
             "Een ooggetuige schrijft altijd later dan een tijdgenoot",
@@ -135,7 +135,7 @@ VRAGEN = [
     mk(
         "Met welke regels houd je rekening bij digitale bronnen?",
         [
-            "Herkomst vermelden, auteursrecht respecteren en letten op privacy",
+            "Herkomst, auteursrecht en privacy",
             "Enkel bronnen gebruiken die meer dan honderd jaar oud zijn",
             "Elke foto mag je vrij gebruiken zodra hij op het internet staat",
             "Digitale bronnen hoef je nooit te vermelden",
@@ -162,7 +162,7 @@ VRAGEN = [
     mk(
         "Twee bronnen spreken elkaar tegen. Wat doe je?",
         [
-            "Je vergelijkt hun context, inhoud en betrouwbaarheid: het verschil is informatie",
+            "Je vergelijkt hun context en betrouwbaarheid",
             "Je maakt er zo snel mogelijk één verhaal van en laat de rest weg",
             "Je kiest de bron die het langst is, want die vertelt het meest",
             "Je besluit dat de gebeurtenis waarschijnlijk nooit heeft plaatsgevonden",
@@ -214,7 +214,7 @@ VRAGEN = [
     mk(
         "Wat doe je in de laatste stap, als je een beargumenteerd antwoord formuleert?",
         [
-            "Je kiest informatie uit de bronnen en staaft je antwoord met argumenten",
+            "Je staaft je antwoord met informatie uit de bronnen",
             "Je vat elke bron apart samen, de een na de ander",
             "Je schrijft je eigen mening op, zonder de bronnen te gebruiken",
             "Je kopieert de langste bron, want die is het volledigst",
@@ -225,7 +225,7 @@ VRAGEN = [
     mk(
         "Waarom volstaat één bron niet voor een goed antwoord?",
         [
-            "Elke bron is onvolledig en vanuit één plaats gemaakt, samen dekken ze elkaars blinde vlekken",
+            "Elke bron is onvolledig en eenzijdig",
             "Eén bron is altijd vervalst",
             "Leerkrachten willen nu eenmaal altijd minstens drie bronnen",
             "Eén bron kan nooit over een gebeurtenis gaan",
@@ -249,7 +249,7 @@ VRAGEN = [
     mk(
         "Je onderzoekt hoe bloedig de Slag bij Hastings verliep. Wat weegt het zwaarst?",
         [
-            "De bronnen samen, na vergelijking en weging van hun betrouwbaarheid",
+            "De bronnen samen, na vergelijking",
             "Een lofdicht van een tijdgenoot op de overwinnaar",
             "De oudste bron, wat die ook zegt",
             "Het verslag met de grootste aantallen doden",

@@ -52,7 +52,7 @@ VRAGEN = [
     mk(
         "Waarin verschilde de sultan van Lodewijk XIV?",
         [
-            "De sultan was ook kalief: wereldlijk en godsdienstig hoofd tegelijk",
+            "De sultan was ook godsdienstig hoofd, als kalief",
             "De sultan werd door het volk verkozen, Lodewijk niet",
             "De sultan had geen enkele macht, zijn ministers beslisten alles",
             "De sultan moest elk besluit laten goedkeuren door de paus",
@@ -78,7 +78,7 @@ VRAGEN = [
     mk(
         "Na 1492 vonden joden die uit Spanje verdreven werden een nieuwe thuis in Saloniki en Constantinopel. Wat toont dat?",
         [
-            "Andere godsdiensten mochten er blijven bestaan, ook al was het geen gelijkheid",
+            "Andere godsdiensten werden er verdragen",
             "Joden hadden in het Ottomaanse Rijk precies dezelfde rechten als moslims",
             "Het Ottomaanse Rijk wilde alle joden tot de islam bekeren",
             "Spanje en het Ottomaanse Rijk hadden dat samen zo afgesproken",
@@ -99,7 +99,7 @@ VRAGEN = [
     mk(
         "Wat heeft het Ottomaanse Rijk te maken met de Europese ontdekkingsreizen?",
         [
-            "Het beheerste de landroutes naar Azië, dus zocht Europa een zeeweg",
+            "Het beheerste de landroutes naar Azië",
             "Ottomaanse zeevaarders toonden de Portugezen de weg naar Indië",
             "Het Ottomaanse Rijk betaalde de reis van Columbus",
             "De Ottomanen verboden elke handel met Azië",
@@ -137,7 +137,7 @@ VRAGEN = [
     mk(
         "Wat zijn de capitulaties?",
         [
-            "Handelsvoorrechten die de sultan aan Europese kooplui gaf",
+            "Handelsvoorrechten voor Europese kooplui",
             "De overgave van een Europese stad aan de Ottomanen",
             "De belasting die christenen en joden apart betaalden",
             "De vredesverdragen na het beleg van Wenen",
@@ -239,7 +239,7 @@ VRAGEN = [
     mk(
         "Wat betekent vergelijken?",
         [
-            "Zowel gelijkenissen als verschillen benoemen",
+            "Gelijkenissen én verschillen benoemen",
             "Enkel de gelijkenissen zoeken",
             "Enkel de verschillen opsommen",
             "Beslissen welke samenleving de beste was",

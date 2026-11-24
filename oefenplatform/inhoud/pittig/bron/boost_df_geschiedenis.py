@@ -1,0 +1,36 @@
+"""Pittige hoofdstukken bij geschiedenis 🚀 Boost doorstroom.
+
+Eén hoofdstuk per thema, telkens dertig vragen, meteen in de vormen van het
+examen van de Examencommissie, zoals bij geschiedenis 🌍 Beyond. Kim op 11
+november 2026: elk lege vakje aanvullen, vanaf ✨ Spark in examenvorm; Boost
+geschiedenis als proefvak. Geen extra leerstof: alles staat in de leerbundels
+van geschiedenis Boost (leerbundels/bron/maak_geschiedenis_boost.py).
+
+De vragen staan per thema in boost_df_geschiedenis_themas/. Prenten die Claude
+zelf tekent: maak_prenten_geschiedenis_boost.py.
+"""
+import importlib
+
+NIVEAU = "boost-dubbele-finaliteit"
+VAK = "Geschiedenis"
+BESTAND = "boost-df-geschiedenis-pittig.json"
+AANTAL = 30
+
+THEMAS = [
+    ("referentiekader", "Het historisch referentiekader"),
+    ("rome_franken", "Van Rome naar de Franken"),
+    ("standen_stad", "Standen, domein en stad"),
+    ("geloof_kunst_macht", "Geloof, kunst en macht in de middeleeuwen"),
+    ("nieuwe_wereld", "De 'Nieuwe' Wereld en de driehoekshandel"),
+    ("humanisme_barok", "Humanisme, Reformatie, renaissance en barok"),
+    ("vorsten_verlichting", "Vorsten, opstand en de Verlichting"),
+    ("revoluties", "Amerika, Frankrijk en de industriële omwenteling"),
+    ("ottomanen_vergelijken", "Het Ottomaanse Rijk en samenlevingen vergelijken"),
+    ("bronnen_redeneren", "Redeneren met historische bronnen"),
+    ("beeldvorming", "Beeldvorming en het verleden vandaag"),
+]
+
+HOOFDSTUKKEN = [
+    (titel, importlib.import_module(f"{__package__}.boost_df_geschiedenis_themas.{naam}").VRAGEN)
+    for naam, titel in THEMAS
+]

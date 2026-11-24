@@ -41,6 +41,13 @@ export const nieuwTekst = {
 export const updates: Update[] = [
   {
     datum: "24 november 2026",
+    titel: "Pittige hoofdstukken geschiedenis in Boost dubbele finaliteit",
+    tekst:
+      "Geschiedenis in Boost dubbele finaliteit heeft nu bij elk van de 11 onderwerpen een pittig hoofdstuk van 30 vragen, in examenvorm: van Rome en de middeleeuwse stad tot de driehoekshandel, de Verlichting en het werken met bronnen. Met tijdlijnen, kaarten en kunstwerken waarop je moet klikken.",
+    opVraag: true,
+  },
+  {
+    datum: "24 november 2026",
     titel: "Examen: na verversen ga je verder waar je was",
     tekst:
       "Viel het internet weg tijdens een examen en moest je de pagina verversen? Dan begon je vroeger opnieuw bij vraag 1. Nu krijg je dezelfde vragen terug, met je antwoorden erbij, en ga je verder bij de vraag waar je was. Wil je toch een ander examen, klik dan op Nieuw examen.",

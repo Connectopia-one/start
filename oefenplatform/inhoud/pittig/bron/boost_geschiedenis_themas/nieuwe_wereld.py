@@ -37,7 +37,7 @@ VRAGEN = [
     mk(
         "Wat was voor de Portugezen het grote voordeel van een eigen zeeweg naar Azië?",
         [
-            "Ze hoefden de prijs niet meer te laten bepalen door tussenhandelaars",
+            "Geen tussenhandelaars meer die de prijs bepaalden",
             "De zeeweg was korter dan elke weg over land",
             "De paus verbood christenen om over land naar Azië te reizen",
             "Over land konden schepen de specerijen niet vervoeren",
@@ -58,7 +58,7 @@ VRAGEN = [
     mk(
         "Waarvoor gebruikte een zeevaarder een astrolabium of een jakobsstaf?",
         [
-            "Om de breedtegraad te bepalen uit de hoogte van zon of ster",
+            "Om de breedtegraad te bepalen",
             "Om de diepte van het water onder het schip te meten",
             "Om de snelheid van de wind op open zee te meten",
             "Om de tijd te meten tussen twee havens",
@@ -101,7 +101,7 @@ VRAGEN = [
     mk(
         "Wat was het verschil tussen de koloniën van Portugal en die van Spanje?",
         [
-            "Portugal bouwde handelsposten langs de kust, Spanje veroverde het binnenland",
+            "Portugal: handelsposten aan de kust, Spanje: veroveren",
             "Portugal veroverde grote rijken in het binnenland, Spanje bleef aan de kust",
             "Portugal had enkel koloniën in Amerika, Spanje enkel in Azië",
             "Portugal liet alle handel over aan Spanje in ruil voor bescherming",
@@ -194,7 +194,7 @@ VRAGEN = [
     mk(
         "Een historicus zet het woord 'Nieuwe' in 'Nieuwe' Wereld tussen aanhalingstekens. Wat wil die daarmee zeggen?",
         [
-            "Ze was enkel nieuw voor de Europeanen, er woonden al miljoenen mensen",
+            "Ze was enkel nieuw voor de Europeanen",
             "Het werelddeel was pas kort daarvoor uit de zee opgerezen",
             "De naam werd pas in de 20ste eeuw voor het eerst gebruikt",
             "Columbus noemde het werelddeel zelf nooit zo, maar Cortés wel",
@@ -205,7 +205,7 @@ VRAGEN = [
     mk(
         "Waarom geeft een Spaanse kroniek over de verovering van Mexico geen volledig beeld?",
         [
-            "Ze is door de winnaar geschreven, vaak om zichzelf te verdedigen",
+            "De winnaar schreef ze, om zichzelf te verdedigen",
             "Spaanse kronieken werden altijd pas eeuwen later geschreven",
             "Spanjaarden mochten van hun koning niets over Mexico schrijven",
             "De Azteken hebben alle Spaanse kronieken achteraf veranderd",
@@ -248,7 +248,7 @@ VRAGEN = [
     mk(
         "Waaraan zie je dat de slavenhandel in Europa lang als een gewone handel gold?",
         [
-            "Er werd openlijk in geïnvesteerd, met aandelen en verzekeringen",
+            "Men investeerde er openlijk in",
             "Alleen de koning mocht er geld aan verdienen",
             "Hij gebeurde enkel in het geheim, buiten elke wet",
             "De Kerk betaalde zelf alle schepen en verdeelde de winst",

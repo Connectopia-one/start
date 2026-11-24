@@ -84,7 +84,7 @@ VRAGEN = [
     mk(
         "Waarom lees je een middeleeuwse bron over joden extra kritisch?",
         [
-            "Ze is bijna altijd door een christen geschreven, met zijn beeld van de ander",
+            "Een christen schreef ze, met zijn eigen beeld",
             "Middeleeuwse bronnen zijn altijd vervalsingen van veel later",
             "Joden schreven alleen in een taal die niemand nog kan lezen",
             "De Kerk liet alle bronnen over joden achteraf herschrijven",
@@ -96,7 +96,7 @@ VRAGEN = [
     mk(
         "Waarom noemde men een kerk wel eens de bijbel van de armen?",
         [
-            "Glasramen, beelden en schilderingen vertelden de Bijbel aan wie niet kon lezen",
+            "Beelden vertelden de Bijbel aan wie niet las",
             "Arme mensen kregen er gratis een Bijbel mee naar huis",
             "Alleen arme mensen mochten in de kerk komen, rijken baden thuis",
             "De kerk werd betaald met de giften van de armste boeren",
@@ -125,7 +125,7 @@ VRAGEN = [
     mk(
         "Waarom konden er in een gotische kerk zulke grote glasramen komen?",
         [
-            "Het geraamte droeg het gewicht, dus de muur hoefde dat niet meer",
+            "Het geraamte droeg het gewicht, niet de muur",
             "Glas was in die tijd goedkoper geworden dan steen",
             "De gotische kerken hadden geen dak, alleen een gewelf",
             "De muren werden dikker gemaakt, zodat ze meer glas konden dragen",
@@ -171,7 +171,7 @@ VRAGEN = [
     mk(
         "Wat past bij het middeleeuwse wereldbeeld?",
         [
-            "Alles was door God geordend en elk wezen had zijn vaste plaats",
+            "God had alles geordend, elk op zijn plaats",
             "De zon stond in het midden en de aarde draaide eromheen",
             "Elke mens kon zelf kiezen welke plaats hij in de wereld innam",
             "De wereld was toevallig ontstaan en had geen vaste orde",
@@ -235,7 +235,7 @@ VRAGEN = [
     mk(
         "Waarom was de Guldensporenslag geen taalstrijd?",
         [
-            "Het ging om macht, geld en zeggenschap; de taalkant kwam er pas veel later bij",
+            "Het ging om macht en geld, niet om taal",
             "Iedereen in Vlaanderen sprak toen Frans, ook de stedelingen",
             "De Franse ridders spraken Nederlands, dus was er geen verschil",
             "Taal mocht in de middeleeuwen van de Kerk geen reden voor oorlog zijn",
@@ -273,7 +273,7 @@ VRAGEN = [
     mk(
         "Wat zijn de zijderoutes?",
         [
-            "Een net van handelswegen over land en zee tussen het Westen en China",
+            "Handelswegen tussen het Westen en China",
             "Eén lange weg waarlangs enkel zijde naar Europa werd gebracht",
             "De route die de kruisvaarders volgden naar het Heilige Land",
             "Een rivier in China waarop zijde werd vervoerd",
