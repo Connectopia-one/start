@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Een draad tussen de polen van een magneet, de stroom gaat het blad in</text>
+<rect x="330" y="70" width="340" height="90" rx="6" fill="#b03a2e" stroke="#24331b" stroke-width="2"/>
+<text x="500" y="130" font-size="34" text-anchor="middle" fill="#ffffff" font-weight="bold">N</text>
+<rect x="330" y="520" width="340" height="90" rx="6" fill="#3b6fa0" stroke="#24331b" stroke-width="2"/>
+<text x="500" y="580" font-size="34" text-anchor="middle" fill="#ffffff" font-weight="bold">Z</text>
+<line x1="380" y1="165" x2="380" y2="515" stroke="#b9b9b9" stroke-width="2"/>
+<line x1="380" y1="420" x2="380" y2="440" stroke="#9a9a9a" stroke-width="2"/>
+<polygon points="380,440 373.8,425.3 386.2,425.3" fill="#9a9a9a"/>
+<line x1="440" y1="165" x2="440" y2="515" stroke="#b9b9b9" stroke-width="2"/>
+<line x1="440" y1="420" x2="440" y2="440" stroke="#9a9a9a" stroke-width="2"/>
+<polygon points="440,440 433.8,425.3 446.2,425.3" fill="#9a9a9a"/>
+<line x1="560" y1="165" x2="560" y2="515" stroke="#b9b9b9" stroke-width="2"/>
+<line x1="560" y1="420" x2="560" y2="440" stroke="#9a9a9a" stroke-width="2"/>
+<polygon points="560,440 553.8,425.3 566.2,425.3" fill="#9a9a9a"/>
+<line x1="620" y1="165" x2="620" y2="515" stroke="#b9b9b9" stroke-width="2"/>
+<line x1="620" y1="420" x2="620" y2="440" stroke="#9a9a9a" stroke-width="2"/>
+<polygon points="620,440 613.8,425.3 626.2,425.3" fill="#9a9a9a"/>
+<circle cx="500" cy="340" r="26" fill="#ffffff" stroke="#24331b" stroke-width="3"/>
+<line x1="484" y1="324" x2="516" y2="356" stroke="#24331b" stroke-width="3"/>
+<line x1="516" y1="324" x2="484" y2="356" stroke="#24331b" stroke-width="3"/>
+<line x1="460" y1="340" x2="300" y2="340" stroke="#b5651d" stroke-width="5"/>
+<polygon points="300,340 314.7,333.8 314.7,346.2" fill="#b5651d"/>
+<line x1="540" y1="340" x2="700" y2="340" stroke="#b5651d" stroke-width="5"/>
+<polygon points="700,340 685.3,346.2 685.3,333.8" fill="#b5651d"/>
+<line x1="500" y1="300" x2="500" y2="200" stroke="#b5651d" stroke-width="5"/>
+<polygon points="500,200 506.2,214.7 493.8,214.7" fill="#b5651d"/>
+<line x1="500" y1="380" x2="500" y2="480" stroke="#b5651d" stroke-width="5"/>
+<polygon points="500,480 493.8,465.3 506.2,465.3" fill="#b5651d"/>
+<circle cx="270" cy="340" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="270" y="347" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<circle cx="730" cy="340" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="730" y="347" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<circle cx="550" cy="210" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="550" y="217" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<circle cx="550" cy="470" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="550" y="477" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">D</text>
+</svg>
