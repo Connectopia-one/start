@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">pH van een sterk zuur en een sterke base bij telkens tien keer verdunnen</text>
+<line x1="130.0" y1="90" x2="130.0" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="130.0" y="564" font-size="15" text-anchor="middle" fill="#24331b">0</text>
+<line x1="226.25" y1="90" x2="226.25" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="226.25" y="564" font-size="15" text-anchor="middle" fill="#24331b">1</text>
+<line x1="322.5" y1="90" x2="322.5" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="322.5" y="564" font-size="15" text-anchor="middle" fill="#24331b">2</text>
+<line x1="418.75" y1="90" x2="418.75" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="418.75" y="564" font-size="15" text-anchor="middle" fill="#24331b">3</text>
+<line x1="515.0" y1="90" x2="515.0" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="515.0" y="564" font-size="15" text-anchor="middle" fill="#24331b">4</text>
+<line x1="611.25" y1="90" x2="611.25" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="611.25" y="564" font-size="15" text-anchor="middle" fill="#24331b">5</text>
+<line x1="707.5" y1="90" x2="707.5" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="707.5" y="564" font-size="15" text-anchor="middle" fill="#24331b">6</text>
+<line x1="803.75" y1="90" x2="803.75" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="803.75" y="564" font-size="15" text-anchor="middle" fill="#24331b">7</text>
+<line x1="900.0" y1="90" x2="900.0" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="900.0" y="564" font-size="15" text-anchor="middle" fill="#24331b">8</text>
+<line x1="130" y1="540.0" x2="900" y2="540.0" stroke="#e4e1d6" stroke-width="1"/>
+<text x="120" y="545.0" font-size="15" text-anchor="end" fill="#24331b">0</text>
+<line x1="130" y1="475.7142857142857" x2="900" y2="475.7142857142857" stroke="#e4e1d6" stroke-width="1"/>
+<text x="120" y="480.7142857142857" font-size="15" text-anchor="end" fill="#24331b">2</text>
+<line x1="130" y1="411.42857142857144" x2="900" y2="411.42857142857144" stroke="#e4e1d6" stroke-width="1"/>
+<text x="120" y="416.42857142857144" font-size="15" text-anchor="end" fill="#24331b">4</text>
+<line x1="130" y1="347.14285714285717" x2="900" y2="347.14285714285717" stroke="#e4e1d6" stroke-width="1"/>
+<text x="120" y="352.14285714285717" font-size="15" text-anchor="end" fill="#24331b">6</text>
+<line x1="130" y1="282.8571428571429" x2="900" y2="282.8571428571429" stroke="#e4e1d6" stroke-width="1"/>
+<text x="120" y="287.8571428571429" font-size="15" text-anchor="end" fill="#24331b">8</text>
+<line x1="130" y1="218.57142857142856" x2="900" y2="218.57142857142856" stroke="#e4e1d6" stroke-width="1"/>
+<text x="120" y="223.57142857142856" font-size="15" text-anchor="end" fill="#24331b">10</text>
+<line x1="130" y1="154.28571428571433" x2="900" y2="154.28571428571433" stroke="#e4e1d6" stroke-width="1"/>
+<text x="120" y="159.28571428571433" font-size="15" text-anchor="end" fill="#24331b">12</text>
+<line x1="130" y1="90.0" x2="900" y2="90.0" stroke="#e4e1d6" stroke-width="1"/>
+<text x="120" y="95.0" font-size="15" text-anchor="end" fill="#24331b">14</text>
+<line x1="130" y1="540.0" x2="910" y2="540.0" stroke="#24331b" stroke-width="2"/>
+<line x1="130" y1="540" x2="130" y2="80" stroke="#24331b" stroke-width="2"/>
+<text x="905" y="530.0" font-size="16" text-anchor="end" fill="#24331b">aantal keer ×10 verdund</text>
+<text x="122" y="70" font-size="16" text-anchor="start" fill="#24331b">pH</text>
+<line x1="130.0" y1="315.0" x2="900.0" y2="315.0" stroke="#d9d4c4" stroke-width="1" stroke-dasharray="8 6"/>
+<path d="M 130.0 507.9 L 139.6 504.6 L 149.2 501.4 L 158.9 498.2 L 168.5 495.0 L 178.1 491.8 L 187.8 488.6 L 197.4 485.4 L 207.0 482.1 L 216.6 478.9 L 226.2 475.7 L 235.9 472.5 L 245.5 469.3 L 255.1 466.1 L 264.8 462.9 L 274.4 459.6 L 284.0 456.4 L 293.6 453.2 L 303.2 450.0 L 312.9 446.8 L 322.5 443.6 L 332.1 440.4 L 341.8 437.1 L 351.4 433.9 L 361.0 430.7 L 370.6 427.5 L 380.2 424.3 L 389.9 421.1 L 399.5 417.9 L 409.1 414.6 L 418.8 411.4 L 428.4 408.2 L 438.0 405.0 L 447.6 401.8 L 457.2 398.6 L 466.9 395.4 L 476.5 392.1 L 486.1 388.9 L 495.8 385.7 L 505.4 382.5 L 515.0 379.3 L 524.6 376.1 L 534.2 372.9 L 543.9 369.6 L 553.5 366.4 L 563.1 363.2 L 572.8 360.0 L 582.4 356.8 L 592.0 353.6 L 601.6 350.4 L 611.2 347.3 L 620.9 344.1 L 630.5 341.1 L 640.1 338.0 L 649.8 335.1 L 659.4 332.3 L 669.0 329.7 L 678.6 327.3 L 688.2 325.1 L 697.9 323.3 L 707.5 321.7 L 717.1 320.4 L 726.8 319.3 L 736.4 318.5 L 746.0 317.8 L 755.6 317.2 L 765.2 316.7 L 774.9 316.4 L 784.5 316.1 L 794.1 315.9 L 803.8 315.7 L 813.4 315.6 L 823.0 315.4 L 832.6 315.3 L 842.2 315.3 L 851.9 315.2 L 861.5 315.2 L 871.1 315.1 L 880.8 315.1 L 890.4 315.1 L 900.0 315.1" fill="none" stroke="#b03a2e" stroke-width="4"/>
+<path d="M 130.0 122.1 L 139.6 125.4 L 149.2 128.6 L 158.9 131.8 L 168.5 135.0 L 178.1 138.2 L 187.8 141.4 L 197.4 144.6 L 207.0 147.9 L 216.6 151.1 L 226.2 154.3 L 235.9 157.5 L 245.5 160.7 L 255.1 163.9 L 264.8 167.1 L 274.4 170.4 L 284.0 173.6 L 293.6 176.8 L 303.2 180.0 L 312.9 183.2 L 322.5 186.4 L 332.1 189.6 L 341.8 192.9 L 351.4 196.1 L 361.0 199.3 L 370.6 202.5 L 380.2 205.7 L 389.9 208.9 L 399.5 212.1 L 409.1 215.4 L 418.8 218.6 L 428.4 221.8 L 438.0 225.0 L 447.6 228.2 L 457.2 231.4 L 466.9 234.6 L 476.5 237.9 L 486.1 241.1 L 495.8 244.3 L 505.4 247.5 L 515.0 250.7 L 524.6 253.9 L 534.2 257.1 L 543.9 260.4 L 553.5 263.6 L 563.1 266.8 L 572.8 270.0 L 582.4 273.2 L 592.0 276.4 L 601.6 279.6 L 611.2 282.7 L 620.9 285.9 L 630.5 288.9 L 640.1 292.0 L 649.8 294.9 L 659.4 297.7 L 669.0 300.3 L 678.6 302.7 L 688.2 304.9 L 697.9 306.7 L 707.5 308.3 L 717.1 309.6 L 726.8 310.7 L 736.4 311.5 L 746.0 312.2 L 755.6 312.8 L 765.2 313.3 L 774.9 313.6 L 784.5 313.9 L 794.1 314.1 L 803.8 314.3 L 813.4 314.4 L 823.0 314.6 L 832.6 314.7 L 842.2 314.7 L 851.9 314.8 L 861.5 314.8 L 871.1 314.9 L 880.8 314.9 L 890.4 314.9 L 900.0 314.9" fill="none" stroke="#3b6fa0" stroke-width="4"/>
+<text x="158.875" y="523.9285714285714" font-size="16" text-anchor="start" fill="#b03a2e" font-weight="bold">sterk zuur</text>
+<text x="158.875" y="112.49999999999994" font-size="16" text-anchor="start" fill="#3b6fa0" font-weight="bold">sterke base</text>
+<circle cx="322.5" cy="443.57142871102326" r="7" fill="#e8c547" stroke="#24331b" stroke-width="2"/>
+<circle cx="352.5" cy="413.57142871102326" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="352.5" y="420.57142871102326" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">P</text>
+<circle cx="322.5" cy="186.4285712889768" r="7" fill="#e8c547" stroke="#24331b" stroke-width="2"/>
+<circle cx="352.5" cy="216.4285712889768" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="352.5" y="223.4285712889768" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">Q</text>
+<circle cx="803.75" cy="315.69768277897856" r="7" fill="#e8c547" stroke="#24331b" stroke-width="2"/>
+<circle cx="833.75" cy="285.69768277897856" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="833.75" y="292.69768277897856" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">R</text>
+</svg>

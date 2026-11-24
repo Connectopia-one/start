@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">De pH-schaal met vijf oplossingen</text>
+<rect x="100.0" y="300" width="53.333333333333336" height="70" rx="0" fill="#d9534f" stroke="none" stroke-width="0"/>
+<rect x="153.33333333333334" y="300" width="53.333333333333336" height="70" rx="0" fill="#e4683f" stroke="none" stroke-width="0"/>
+<rect x="206.66666666666669" y="300" width="53.333333333333336" height="70" rx="0" fill="#ec8a3c" stroke="none" stroke-width="0"/>
+<rect x="260.0" y="300" width="53.333333333333336" height="70" rx="0" fill="#f2ab3f" stroke="none" stroke-width="0"/>
+<rect x="313.33333333333337" y="300" width="53.333333333333336" height="70" rx="0" fill="#f4c84a" stroke="none" stroke-width="0"/>
+<rect x="366.6666666666667" y="300" width="53.333333333333336" height="70" rx="0" fill="#e8d950" stroke="none" stroke-width="0"/>
+<rect x="420.0" y="300" width="53.333333333333336" height="70" rx="0" fill="#c8dc5a" stroke="none" stroke-width="0"/>
+<rect x="473.3333333333333" y="300" width="53.333333333333336" height="70" rx="0" fill="#8fcf6a" stroke="none" stroke-width="0"/>
+<rect x="526.6666666666667" y="300" width="53.333333333333336" height="70" rx="0" fill="#5fbf8a" stroke="none" stroke-width="0"/>
+<rect x="580.0" y="300" width="53.333333333333336" height="70" rx="0" fill="#47aeb0" stroke="none" stroke-width="0"/>
+<rect x="633.3333333333334" y="300" width="53.333333333333336" height="70" rx="0" fill="#4597c9" stroke="none" stroke-width="0"/>
+<rect x="686.6666666666666" y="300" width="53.333333333333336" height="70" rx="0" fill="#4b7fcd" stroke="none" stroke-width="0"/>
+<rect x="740.0" y="300" width="53.333333333333336" height="70" rx="0" fill="#5867c4" stroke="none" stroke-width="0"/>
+<rect x="793.3333333333334" y="300" width="53.333333333333336" height="70" rx="0" fill="#6553b5" stroke="none" stroke-width="0"/>
+<rect x="846.6666666666666" y="300" width="53.333333333333336" height="70" rx="0" fill="#6a439f" stroke="none" stroke-width="0"/>
+<rect x="100" y="300" width="800" height="70" rx="0" fill="none" stroke="#24331b" stroke-width="2"/>
+<text x="126.66666666666667" y="400" font-size="17" text-anchor="middle" fill="#24331b" font-weight="bold">0</text>
+<text x="180.0" y="400" font-size="17" text-anchor="middle" fill="#24331b" font-weight="bold">1</text>
+<text x="233.33333333333334" y="400" font-size="17" text-anchor="middle" fill="#24331b" font-weight="bold">2</text>
+<text x="286.66666666666663" y="400" font-size="17" text-anchor="middle" fill="#24331b" font-weight="bold">3</text>
+<text x="340.0" y="400" font-size="17" text-anchor="middle" fill="#24331b" font-weight="bold">4</text>
+<text x="393.3333333333333" y="400" font-size="17" text-anchor="middle" fill="#24331b" font-weight="bold">5</text>
+<text x="446.6666666666667" y="400" font-size="17" text-anchor="middle" fill="#24331b" font-weight="bold">6</text>
+<text x="500.0" y="400" font-size="17" text-anchor="middle" fill="#24331b" font-weight="bold">7</text>
+<text x="553.3333333333333" y="400" font-size="17" text-anchor="middle" fill="#24331b" font-weight="bold">8</text>
+<text x="606.6666666666667" y="400" font-size="17" text-anchor="middle" fill="#24331b" font-weight="bold">9</text>
+<text x="660.0" y="400" font-size="17" text-anchor="middle" fill="#24331b" font-weight="bold">10</text>
+<text x="713.3333333333334" y="400" font-size="17" text-anchor="middle" fill="#24331b" font-weight="bold">11</text>
+<text x="766.6666666666666" y="400" font-size="17" text-anchor="middle" fill="#24331b" font-weight="bold">12</text>
+<text x="820.0" y="400" font-size="17" text-anchor="middle" fill="#24331b" font-weight="bold">13</text>
+<text x="873.3333333333334" y="400" font-size="17" text-anchor="middle" fill="#24331b" font-weight="bold">14</text>
+<text x="100" y="440" font-size="18" text-anchor="start" fill="#24331b" font-weight="bold">zuur</text>
+<text x="900" y="440" font-size="18" text-anchor="end" fill="#24331b" font-weight="bold">basisch</text>
+<line x1="180.0" y1="220" x2="180.0" y2="295" stroke="#24331b" stroke-width="3"/>
+<polygon points="180.0,295 173.8,280.3 186.2,280.3" fill="#24331b"/>
+<circle cx="180.0" cy="195" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="180.0" y="202" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<line x1="340.0" y1="220" x2="340.0" y2="295" stroke="#24331b" stroke-width="3"/>
+<polygon points="340.0,295 333.8,280.3 346.2,280.3" fill="#24331b"/>
+<circle cx="340.0" cy="195" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="340.0" y="202" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<line x1="500.0" y1="220" x2="500.0" y2="295" stroke="#24331b" stroke-width="3"/>
+<polygon points="500.0,295 493.8,280.3 506.2,280.3" fill="#24331b"/>
+<circle cx="500.0" cy="195" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="500.0" y="202" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<line x1="606.6666666666667" y1="220" x2="606.6666666666667" y2="295" stroke="#24331b" stroke-width="3"/>
+<polygon points="606.6666666666667,295 600.4,280.3 612.9,280.3" fill="#24331b"/>
+<circle cx="606.6666666666667" cy="195" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="606.6666666666667" y="202" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">D</text>
+<line x1="820.0" y1="220" x2="820.0" y2="295" stroke="#24331b" stroke-width="3"/>
+<polygon points="820.0,295 813.8,280.3 826.2,280.3" fill="#24331b"/>
+<circle cx="820.0" cy="195" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="820.0" y="202" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">E</text>
+</svg>
