@@ -1,0 +1,63 @@
+"""Enkelvoudige en samengestelde stoffen — pittig (🚀 Boost doorstroom, chemie).
+
+Pittige vragen over symbolen, formules en stofsoorten van natuurwetenschappen Boost doorstroom, plus eigen vragen over triviale namen en eigenschappen van metalen, niet-metalen en edelgassen uit ch_stoffen."""
+from ..boost_do_nw_themas import stoffen as N
+from .vormen import J, F, mk, inv, tabel, keuze, volgorde, koppel, sorteer, sleep, open_, casus
+from ._kies import kies
+
+VRAGEN = kies(N.VRAGEN, [6, 7, 8, 9, 10, 11, 17, 18, 19, 20])
+VRAGEN += [
+    casus("Op een etiket in het labo staan vier formules: Ca(OH)₂, O₃, 2 NH₃ en Fe.", [
+        tabel("Is deze stof van het etiket enkelvoudig of samengesteld?",
+              [("Ca(OH)₂", "samengesteld"), ("O₃", "enkelvoudig"), ("NH₃", "samengesteld"), ("Fe", "enkelvoudig")],
+              "Eén element is enkelvoudig, meerdere elementen samengesteld.", ["enkelvoudig", "samengesteld"]),
+        inv("Hoeveel atomen staan er in totaal in één formule-eenheid Ca(OH)₂?", ["5", "vijf"],
+            "Eén calcium, twee zuurstof en twee waterstof: vijf atomen."),
+        inv("Hoeveel waterstofatomen staan er in totaal in 2 NH₃?", ["6", "zes"],
+            "Twee moleculen met elk drie waterstofatomen."),
+    ]),
+    tabel("Klopt dit symbool?",
+          [("Na is natrium", J), ("Co is koolstof", F), ("Ag is zilver", J), ("Mn is magnesium", F), ("K is kalium", J)],
+          "Koolstof is C (Co is kobalt), magnesium is Mg (Mn is mangaan)."),
+    sorteer("Hoort deze enkelvoudige stof bij de metalen, de niet-metalen of de edelgassen?", ["Metaal", "Niet-metaal", "Edelgas"],
+            [("koper", "Metaal"), ("zwavel", "Niet-metaal"), ("neon", "Edelgas"), ("kwik", "Metaal"), ("chloor", "Niet-metaal"), ("argon", "Edelgas")],
+            "Kwik is het enige metaal dat bij kamertemperatuur vloeibaar is."),
+    koppel("Welke toepassing past bij elke enkelvoudige stof?",
+           [("helium", "weerballon, omdat het licht is en niet reageert"), ("grafiet", "potloodstift, omdat de lagen over elkaar schuiven"), ("argon", "gloeilamp, omdat het met niets reageert"), ("waterstofgas", "brandstof die enkel water geeft")],
+           ["koelvloeistof in een frigo", "zoetstof in frisdrank"], "De toepassing volgt uit de eigenschappen."),
+    mk("Een stof is geelgroen, gasvormig en heeft een scherpe geur. Welke stof is het waarschijnlijk?",
+       ["chloorgas", "stikstofgas", "helium", "koper"], 0,
+       "Cl₂ is een geelgroen gas met een prikkelende geur."),
+    tabel("Klopt dit over metalen en niet-metalen?",
+          [("Metalen geleiden warmte en elektriciteit goed.", J), ("Alle metalen zijn bij kamertemperatuur vast.", F), ("Niet-metalen geleiden meestal slecht.", J), ("Metalen zijn glanzend en plooibaar.", J)],
+          "Kwik is de uitzondering: een vloeibaar metaal."),
+    mk("Waarom gaan edelgassen bijna geen reacties aan?",
+       ["Hun buitenste schil is volledig gevuld.", "Ze hebben geen elektronen in hun atomen.", "Ze bestaan enkel als vaste stof.", "Hun kern heeft geen protonen."], 0,
+       "Een volle buitenste schil maakt een atoom stabiel; het hoeft niets op te nemen of af te staan."),
+    keuze("Stikstofgas heeft de formule [[*N₂|N|N₃]] en vormt bijna vier vijfde van de lucht.",
+          "Stikstofgas bestaat uit moleculen van twee atomen."),
+    mk("In de formule 3 H₂SO₄: hoeveel zuurstofatomen staan er in totaal?",
+       ["12", "4", "7", "3"], 0,
+       "Drie moleculen met elk vier zuurstofatomen: 3 · 4 = 12."),
+    tabel("Is deze uitspraak over ozon en zuurstofgas juist?",
+          [("Ozon is O₃ en zuurstofgas is O₂.", J), ("Ze zijn dezelfde stof, want ze bestaan uit hetzelfde element.", F), ("Ze hebben andere eigenschappen.", J)],
+          "Het aantal atomen per molecule verschilt, dus het zijn twee verschillende stoffen."),
+    sleep("Een stof die uit één element bestaat, is [[enkelvoudig]]. Een stof met meerdere elementen is [[samengesteld]]. Het getal vóór een formule heet de [[coëfficiënt]].",
+          ["index", "mengsel"], "Drie begrippen om formules te lezen."),
+    inv("Hoeveel verschillende atoomsoorten staan er in Ca(NO₃)₂?", ["3", "drie"],
+        "Calcium, stikstof en zuurstof."),
+    mk("Waarom zijn metalen goede geleiders van elektriciteit?",
+       ["Ze hebben vrij beweeglijke elektronen.", "Ze bevatten veel water tussen hun atomen.", "Hun atomen hebben geen kern.", "Ze bestaan uit moleculen met een lading."], 0,
+       "In een metaalrooster bewegen de buitenste elektronen vrij rond."),
+    mk("Welke formule hoort bij een molecule met twee waterstofatomen, één zwavelatoom en vier zuurstofatomen?",
+       ["H₂SO₄", "2 HSO₄", "H₂S₄O", "HSO₂"], 0,
+       "De index staat rechts onder het symbool en geldt enkel voor dat atoom."),
+    tabel("Klopt dit over de schrijfwijze van formules?",
+          [("Het eerste letterteken van een symbool is een hoofdletter.", J), ("Een coëfficiënt 2 voor H₂O betekent twee zuurstofatomen in één molecule.", F), ("NaCl is een formule-eenheid en geen molecule.", J)],
+          "De coëfficiënt telt hele moleculen; een ionverbinding schrijf je als formule-eenheid."),
+    mk("Waarom gebruikt men helium en geen waterstofgas in een feestballon?",
+       ["Helium reageert niet en kan dus niet ontploffen.", "Helium is zwaarder dan lucht en blijft beter hangen.", "Waterstofgas is een metaal en dus te zwaar.", "Helium geleidt elektriciteit en waterstofgas niet."], 0,
+       "Waterstofgas is ook licht, maar brandbaar; helium is een inert edelgas."),
+    inv("Hoeveel atomen staan er in totaal in één molecule C₆H₁₂O₆?", ["24", "vierentwintig"],
+        "Zes koolstof, twaalf waterstof en zes zuurstof: 24 atomen."),
+]

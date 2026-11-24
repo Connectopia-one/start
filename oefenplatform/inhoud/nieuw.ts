@@ -41,6 +41,12 @@ export const nieuwTekst = {
 export const updates: Update[] = [
   {
     datum: "24 november 2026",
+    titel: "Pittige hoofdstukken chemie in Boost doorstroom",
+    tekst:
+      "Chemie in Boost doorstroom heeft nu bij elk van de 12 onderwerpen een pittig hoofdstuk van 30 vragen, in examenvorm: van mengsels, atomen en het periodiek systeem over bindingen, naamgeving en organische stoffen tot reacties, pH, rekenen met de mol en veilig werken. Met rekenvragen in stappen, casussen en klikvragen op prenten.",
+  },
+  {
+    datum: "24 november 2026",
     titel: "Pittige hoofdstukken biologie in Boost doorstroom",
     tekst:
       "Biologie in Boost doorstroom heeft nu bij elk van de 12 onderwerpen een pittig hoofdstuk van 30 vragen, in examenvorm: van planten, zenuwstelsel, oog en oor over spieren, klieren en voortplanting tot micro-organismen, gedrag, ecosystemen, levensreddend handelen en onderzoek. Met klikvragen op prenten, zoals een nieuwe doorsnede van het oor.",

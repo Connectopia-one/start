@@ -1,0 +1,5559 @@
+{
+  "hoofdstukken": [
+    {
+      "titel": "Mengsels, zuivere stoffen en scheidingstechnieken — pittig",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "Klik op een vakje met een mengsel.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/deeltjes-zes-vakjes.svg",
+          "zones": [
+            [
+              6.0,
+              53.1,
+              24.0,
+              29.7
+            ],
+            [
+              38.0,
+              53.1,
+              24.0,
+              29.7
+            ]
+          ],
+          "uitleg": "In een mengsel zitten verschillende soorten deeltjes door elkaar."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het vakje met een zuivere stof die uit moleculen van één enkel element bestaat, zoals zuurstofgas.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/deeltjes-zes-vakjes.svg",
+          "zones": [
+            [
+              38.0,
+              12.5,
+              24.0,
+              29.7
+            ]
+          ],
+          "uitleg": "Zuurstofgas bestaat uit moleculen van twee zuurstofatomen. Een molecule kan uit atomen van één element bestaan."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het vakje met een zuivere stof waarvan elke molecule uit twee verschillende soorten atomen bestaat.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/deeltjes-zes-vakjes.svg",
+          "zones": [
+            [
+              70.0,
+              12.5,
+              24.0,
+              29.7
+            ]
+          ],
+          "uitleg": "Alle deeltjes zijn hetzelfde, dus het is een zuivere stof, ook al bestaan ze uit verschillende atomen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Kijk naar de zes vakjes. Klopt dit?",
+          "rijen": [
+            "A, B, C en F zijn zuivere stoffen.",
+            "In vakje D zie je moleculen.",
+            "Vakje E bevat twee soorten moleculen.",
+            "Vakje C is een mengsel, want er zitten twee soorten atomen in."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Zuiver betekent één soort deeltjes. Een molecule mag uit verschillende atomen bestaan.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/deeltjes-zes-vakjes.svg"
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het stuk van de grafiek dat toont dat A een zuivere stof is.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/opwarmcurven.svg",
+          "zones": [
+            [
+              43.0,
+              33.3,
+              13.0,
+              5.3
+            ],
+            [
+              76.0,
+              33.3,
+              14.0,
+              5.3
+            ]
+          ],
+          "uitleg": "Tijdens het koken blijft de temperatuur van een zuivere stof gelijk: het kookpunt."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het kooktraject van het mengsel.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/opwarmcurven.svg",
+          "zones": [
+            [
+              40.0,
+              39.8,
+              16.0,
+              7.8
+            ],
+            [
+              72.0,
+              23.4,
+              18.0,
+              9.1
+            ]
+          ],
+          "uitleg": "Bij een mengsel blijft de temperatuur tijdens het koken stijgen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Homogeen of heterogeen?",
+          "rijen": [
+            "suiker opgelost in water",
+            "lucht",
+            "messing",
+            "slagroom",
+            "vinaigrette",
+            "modder"
+          ],
+          "antwoord": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          "uitleg": "In een homogeen mengsel zie je de bestanddelen niet meer apart, ook niet met een microscoop.",
+          "kolommen": [
+            "Homogeen",
+            "Heterogeen"
+          ]
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elk mengsel aan zijn soort.",
+          "paren": [
+            [
+              "melk",
+              "emulsie"
+            ],
+            [
+              "opgeschudde modder",
+              "suspensie"
+            ],
+            [
+              "rook",
+              "aerosol"
+            ],
+            [
+              "badschuim",
+              "schuim"
+            ],
+            [
+              "brons",
+              "legering"
+            ]
+          ],
+          "extra": [
+            "zuivere stof"
+          ],
+          "uitleg": "Geen van deze is een zuivere stof: er zitten telkens meerdere stoffen in."
+        },
+        {
+          "casus": "In het labo verwarmt Amir twee heldere, kleurloze vloeistoffen. Bij vloeistof 1 blijft de thermometer tijdens het koken op 100 °C staan. Bij vloeistof 2 stijgt de temperatuur tijdens het koken van 101 °C tot 104 °C.",
+          "vragen": [
+            {
+              "type": "tabel",
+              "vraag": "Wat besluit Amir?",
+              "rijen": [
+                "Vloeistof 1 is waarschijnlijk zuiver water.",
+                "Vloeistof 2 is een mengsel.",
+                "Vloeistof 2 heeft een kookpunt van 101 °C.",
+                "Beide zijn zuivere stoffen, want ze zijn helder."
+              ],
+              "antwoord": [
+                true,
+                true,
+                false,
+                false
+              ],
+              "uitleg": "Helder zegt niets: een oplossing is ook helder. Een mengsel heeft een kooktraject."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Hoe kan Amir uit vloeistof 2 zuiver water halen?",
+              "opties": [
+                "Door te destilleren",
+                "Door te filtreren door papier",
+                "Door voorzichtig te decanteren",
+                "Door te zeven"
+              ],
+              "antwoord": 0,
+              "uitleg": "Bij destilleren vang je de waterdamp op. De opgeloste stof blijft achter."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom strooit men zout op een besneeuwde weg?",
+          "opties": [
+            "Een mengsel smelt bij een lagere temperatuur",
+            "Zout warmt de weg op door een chemische reactie",
+            "Zout maakt het ijs harder en daardoor minder glad",
+            "Zout neemt al het water op uit de sneeuw"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een mengsel heeft een smelttraject in plaats van een vast smeltpunt."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is dit een stofeigenschap?",
+          "rijen": [
+            "het kookpunt",
+            "de massa van een stuk",
+            "de massadichtheid",
+            "het volume van een fles",
+            "de geleidbaarheid"
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Een stofeigenschap hangt niet af van hoeveel je van de stof hebt."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elke scheiding aan de techniek die je gebruikt.",
+          "paren": [
+            [
+              "zand uit water",
+              "filtreren"
+            ],
+            [
+              "zuiver water uit zeewater",
+              "destilleren"
+            ],
+            [
+              "keukenzout uit zout water",
+              "indampen"
+            ],
+            [
+              "kleurstoffen uit stiftinkt",
+              "chromatografie"
+            ],
+            [
+              "ijzervijlsel uit zand",
+              "magneet"
+            ]
+          ],
+          "extra": [
+            "smelten"
+          ],
+          "uitleg": "Elke techniek steunt op een verschil in stofeigenschap."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Op welk verschil steunt deze scheidingstechniek?",
+          "rijen": [
+            "filtreren",
+            "zeven",
+            "destilleren",
+            "centrifugeren",
+            "extraheren"
+          ],
+          "antwoord": [
+            0,
+            0,
+            1,
+            2,
+            3
+          ],
+          "uitleg": "Zonder verschil in stofeigenschap valt er niets te scheiden.",
+          "kolommen": [
+            "Deeltjesgrootte",
+            "Kookpunt",
+            "Massadichtheid",
+            "Oplosbaarheid"
+          ]
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet de stappen van destilleren in de juiste volgorde.",
+          "opties": [
+            "Het mengsel verwarmen",
+            "Het bestanddeel met het laagste kookpunt verdampt",
+            "De damp koelt af in de koeler",
+            "Het destillaat druppelt in de opvangkolf"
+          ],
+          "uitleg": "De stof met het hoogste kookpunt blijft achter."
+        },
+        {
+          "casus": "Lena maakt een vinaigrette van olie en azijn. Na een tijdje drijft de olie bovenop. Ze wil de olie en de azijn weer apart.",
+          "vragen": [
+            {
+              "type": "meerkeuze",
+              "vraag": "Waarom lukt filtreren hier niet?",
+              "opties": [
+                "Beide vloeistoffen lopen door de filter",
+                "De olie verstopt meteen alle filters",
+                "Azijn lost op in het filterpapier zelf",
+                "Filtreren werkt enkel bij mengsels van gassen"
+              ],
+              "antwoord": 0,
+              "uitleg": "Filtreren werkt op deeltjesgrootte. Vloeibare druppeltjes gaan erdoor."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "Lena laat het mengsel uitzakken en giet de olie er voorzichtig af. Dat heet [[*decanteren|centrifugeren|extraheren]].",
+              "uitleg": "Decanteren is voorzichtig afgieten boven een bezinksel of een tweede laag."
+            },
+            {
+              "type": "tabel",
+              "vraag": "Klopt dit over de vinaigrette?",
+              "rijen": [
+                "Het is een emulsie.",
+                "Het is een heterogeen mengsel.",
+                "Olie en azijn verliezen hun eigen eigenschappen."
+              ],
+              "antwoord": [
+                true,
+                true,
+                false
+              ],
+              "uitleg": "Een bestanddeel van een mengsel behoudt zijn eigen stofeigenschappen."
+            }
+          ]
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Na het filtreren blijft het [[residu]] op de filter liggen. Het [[filtraat]] loopt erdoor. Welk van de twee je nodig hebt, hangt af van je [[doel]].",
+          "extra": [
+            "destillaat",
+            "loopmiddel"
+          ],
+          "uitleg": "Allebei kunnen ze het bestanddeel zijn dat je zoekt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe haalt actieve kool geurstoffen uit water?",
+          "opties": [
+            "De stoffen hechten aan haar oppervlak",
+            "Ze lost de geurstoffen chemisch op",
+            "Ze verdampt het water weg",
+            "Ze laat de stoffen bezinken door te draaien"
+          ],
+          "antwoord": 0,
+          "uitleg": "Dat is adsorptie. Actieve kool heeft een enorm inwendig oppervlak."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over zuivere stoffen en mengsels?",
+          "rijen": [
+            "Kraantjeswater is een zuivere stof.",
+            "Een zuivere stof kan uit meer dan één element bestaan.",
+            "Scheiden verandert de stoffen niet chemisch.",
+            "Een legering is een heterogeen mengsel.",
+            "Lucht is een homogeen mengsel."
+          ],
+          "antwoord": [
+            false,
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Kraantjeswater bevat opgeloste zouten en gassen. Een legering is homogeen."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een labo scheidt bloedcellen van bloedplasma door snel rond te draaien met een [[*centrifuge|filter|koeler]].",
+          "uitleg": "De zwaarste deeltjes worden naar buiten geduwd."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Je zet theeblaadjes in heet water om de smaakstoffen eruit te halen. Dat is [[*extraheren|destilleren|zeven]].",
+          "uitleg": "Je gebruikt een oplosmiddel waarin alleen de gezochte stof oplost."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het vakje met losse atomen van één soort.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/deeltjes-zes-vakjes.svg",
+          "zones": [
+            [
+              6.0,
+              12.5,
+              24.0,
+              29.7
+            ],
+            [
+              70.0,
+              53.1,
+              24.0,
+              29.7
+            ]
+          ],
+          "uitleg": "In A en F zitten losse atomen, telkens van één soort. Zo'n stof is zuiver."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Zuurstofgas bestaat uit moleculen, ijzer uit losse atomen. Wat is het verschil?",
+          "opties": [
+            "Een molecule bestaat uit gebonden atomen",
+            "Een molecule is altijd een mengsel van stoffen",
+            "Een atoom bestaat uit verschillende moleculen",
+            "Een molecule bevat nooit atomen van één element"
+          ],
+          "antwoord": 0,
+          "uitleg": "Zuurstofgas bestaat uit moleculen van twee zuurstofatomen."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Zuivere stof of mengsel?",
+          "kolommen": [
+            "Zuivere stof",
+            "Mengsel"
+          ],
+          "items": [
+            [
+              "keukenzout",
+              "Zuivere stof"
+            ],
+            [
+              "gedestilleerd water",
+              "Zuivere stof"
+            ],
+            [
+              "zuurstofgas",
+              "Zuivere stof"
+            ],
+            [
+              "bronwater",
+              "Mengsel"
+            ],
+            [
+              "lucht",
+              "Mengsel"
+            ],
+            [
+              "staal",
+              "Mengsel"
+            ]
+          ],
+          "uitleg": "Zuiver betekent één soort deeltjes, niet schoon of natuurlijk."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Melk en vinaigrette scheiden zich na een tijd weer, omdat het [[*emulsies|oplossingen|legeringen]] zijn.",
+          "uitleg": "In een emulsie lossen de twee vloeistoffen niet in elkaar op."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over de aggregatietoestand?",
+          "rijen": [
+            "Er zijn drie aggregatietoestanden: vast, vloeibaar en gas.",
+            "De toestand hangt af van de temperatuur en de druk.",
+            "Een stof heeft altijd maar één mogelijke toestand."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Water kan ijs, vloeibaar water of waterdamp zijn."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Kan je deze mengsels scheiden met een filter?",
+          "rijen": [
+            "zand in water",
+            "suiker opgelost in water",
+            "olie en water",
+            "krijtpoeder in water"
+          ],
+          "antwoord": [
+            true,
+            false,
+            false,
+            true
+          ],
+          "uitleg": "Een filter houdt enkel vaste deeltjes tegen die groter zijn dan de poriën. Opgeloste stoffen en vloeistoffen gaan erdoor."
+        },
+        {
+          "type": "open",
+          "vraag": "Je krijgt een mengsel van zand, keukenzout en water. Beschrijf in twee stappen hoe je het zand en het zout elk apart terugwint, en zeg op welk verschil in stofeigenschap elke stap steunt.",
+          "antwoord": "Stap 1: filtreren. Het zand blijft als residu op de filter, het zoute water loopt als filtraat door. Dat steunt op een verschil in deeltjesgrootte. Stap 2: het filtraat indampen. Het water verdampt en het zout kristalliseert uit. Dat steunt op een verschil in kookpunt."
+        }
+      ]
+    },
+    {
+      "titel": "Enkelvoudige en samengestelde stoffen — pittig",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "sorteren",
+          "vraag": "Enkelvoudige of samengestelde stof?",
+          "kolommen": [
+            "Enkelvoudig",
+            "Samengesteld"
+          ],
+          "items": [
+            [
+              "zuurstofgas O₂",
+              "Enkelvoudig"
+            ],
+            [
+              "ozon O₃",
+              "Enkelvoudig"
+            ],
+            [
+              "ijzer Fe",
+              "Enkelvoudig"
+            ],
+            [
+              "water H₂O",
+              "Samengesteld"
+            ],
+            [
+              "koolstofdioxide CO₂",
+              "Samengesteld"
+            ],
+            [
+              "natriumchloride NaCl",
+              "Samengesteld"
+            ]
+          ],
+          "uitleg": "Enkelvoudig: één soort atomen. Samengesteld: meer dan één soort."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elk symbool aan zijn element.",
+          "paren": [
+            [
+              "Na",
+              "natrium"
+            ],
+            [
+              "K",
+              "kalium"
+            ],
+            [
+              "Cu",
+              "koper"
+            ],
+            [
+              "Au",
+              "goud"
+            ],
+            [
+              "Ag",
+              "zilver"
+            ],
+            [
+              "Fe",
+              "ijzer"
+            ]
+          ],
+          "extra": [
+            "koolstof"
+          ],
+          "uitleg": "Veel symbolen komen uit het Latijn. Koolstof is C."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Tel de atomen. Klopt het?",
+          "rijen": [
+            "In 3 H₂O staan 9 atomen.",
+            "In 2 H₂SO₄ staan 14 atomen.",
+            "In CO₂ zitten drie elementen.",
+            "In 2 CO₂ staan 4 zuurstofatomen.",
+            "In 4 NH₃ staan 7 waterstofatomen."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Vermenigvuldig het aantal atomen in één molecule met de coëfficiënt. 4 NH₃ geeft 12 waterstofatomen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel atomen staan er in totaal in 3 CH₄?",
+          "antwoord": [
+            "15"
+          ],
+          "uitleg": "Eén molecule telt 1 koolstof- en 4 waterstofatomen, samen 5. Drie moleculen geven 15 atomen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Metaal, niet-metaal of edelgas?",
+          "rijen": [
+            "koper",
+            "kwik",
+            "chloor",
+            "zuurstof",
+            "helium",
+            "neon"
+          ],
+          "antwoord": [
+            0,
+            0,
+            1,
+            1,
+            2,
+            2
+          ],
+          "uitleg": "Metalen geleiden en glanzen, niet-metalen geleiden slecht, edelgassen zijn inert.",
+          "kolommen": [
+            "Metaal",
+            "Niet-metaal",
+            "Edelgas"
+          ]
+        },
+        {
+          "casus": "Een onbekende stof is een glanzende vaste stof. Ze geleidt elektriciteit en warmte goed en laat zich tot dunne draad trekken. Ze heeft een roodbruine kleur.",
+          "vragen": [
+            {
+              "type": "meerkeuze",
+              "vraag": "Welke stof is het?",
+              "opties": [
+                "Koper",
+                "Kwik",
+                "Chloor",
+                "Grafiet"
+              ],
+              "antwoord": 0,
+              "uitleg": "Kwik is vloeibaar, chloor is een geelgroen gas. De roodbruine kleur is typisch voor koper."
+            },
+            {
+              "type": "tabel",
+              "vraag": "Klopt dit over deze stof?",
+              "rijen": [
+                "Het is een metaal.",
+                "Het is een enkelvoudige stof.",
+                "Ze is geschikt voor elektriciteitsdraden.",
+                "Ze is een edelgas."
+              ],
+              "antwoord": [
+                true,
+                true,
+                true,
+                false
+              ],
+              "uitleg": "Koper zit in elektriciteitsdraden en kookpotten."
+            }
+          ]
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elke stof aan een toepassing.",
+          "paren": [
+            [
+              "helium",
+              "ballonnen vullen"
+            ],
+            [
+              "neon",
+              "lichtreclame"
+            ],
+            [
+              "zuurstofgas",
+              "lassen en ademhulp"
+            ],
+            [
+              "kwik",
+              "oude thermometers"
+            ]
+          ],
+          "extra": [
+            "blussen van vuur"
+          ],
+          "uitleg": "Helium is veilig, want het reageert zo goed als nergens mee."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over stoffen?",
+          "rijen": [
+            "Grafiet en diamant bestaan allebei uit koolstof.",
+            "Ozon dicht bij de grond is gezond voor je longen.",
+            "Chloorgas is geelgroen.",
+            "Edelgassen hebben een volle buitenste schil.",
+            "Niet-metalen geleiden elektriciteit goed."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Ozon is hoog in de atmosfeer nuttig, dicht bij de grond schadelijk."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom verschillen grafiet en diamant zo sterk, als ze allebei uit koolstof bestaan?",
+          "opties": [
+            "Hun atomen zitten anders aan elkaar",
+            "Diamant bevat ook zuurstofatomen",
+            "Grafiet is een mengsel van metalen",
+            "Diamant is een edelgas in vaste vorm"
+          ],
+          "antwoord": 0,
+          "uitleg": "Diamant heeft een stevig ruimtelijk rooster, grafiet losse lagen."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Keukenzout is de [[*triviale|IUPAC-|officiële]] naam van natriumchloride.",
+          "uitleg": "De triviale naam is de dagelijkse naam."
+        },
+        {
+          "casus": "Op een etiket in het labo staan vier formules: Ca(OH)₂, O₃, 2 NH₃ en Fe.",
+          "vragen": [
+            {
+              "type": "tabel",
+              "vraag": "Is deze stof van het etiket enkelvoudig of samengesteld?",
+              "rijen": [
+                "Ca(OH)₂",
+                "O₃",
+                "NH₃",
+                "Fe"
+              ],
+              "antwoord": [
+                1,
+                0,
+                1,
+                0
+              ],
+              "uitleg": "Eén element is enkelvoudig, meerdere elementen samengesteld.",
+              "kolommen": [
+                "enkelvoudig",
+                "samengesteld"
+              ]
+            },
+            {
+              "type": "invultekst",
+              "vraag": "Hoeveel atomen staan er in totaal in één formule-eenheid Ca(OH)₂?",
+              "antwoord": [
+                "5",
+                "vijf"
+              ],
+              "uitleg": "Eén calcium, twee zuurstof en twee waterstof: vijf atomen."
+            },
+            {
+              "type": "invultekst",
+              "vraag": "Hoeveel waterstofatomen staan er in totaal in 2 NH₃?",
+              "antwoord": [
+                "6",
+                "zes"
+              ],
+              "uitleg": "Twee moleculen met elk drie waterstofatomen."
+            }
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit symbool?",
+          "rijen": [
+            "Na is natrium",
+            "Co is koolstof",
+            "Ag is zilver",
+            "Mn is magnesium",
+            "K is kalium"
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Koolstof is C (Co is kobalt), magnesium is Mg (Mn is mangaan)."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Hoort deze enkelvoudige stof bij de metalen, de niet-metalen of de edelgassen?",
+          "kolommen": [
+            "Metaal",
+            "Niet-metaal",
+            "Edelgas"
+          ],
+          "items": [
+            [
+              "koper",
+              "Metaal"
+            ],
+            [
+              "zwavel",
+              "Niet-metaal"
+            ],
+            [
+              "neon",
+              "Edelgas"
+            ],
+            [
+              "kwik",
+              "Metaal"
+            ],
+            [
+              "chloor",
+              "Niet-metaal"
+            ],
+            [
+              "argon",
+              "Edelgas"
+            ]
+          ],
+          "uitleg": "Kwik is het enige metaal dat bij kamertemperatuur vloeibaar is."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Welke toepassing past bij elke enkelvoudige stof?",
+          "paren": [
+            [
+              "helium",
+              "weerballon, omdat het licht is en niet reageert"
+            ],
+            [
+              "grafiet",
+              "potloodstift, omdat de lagen over elkaar schuiven"
+            ],
+            [
+              "argon",
+              "gloeilamp, omdat het met niets reageert"
+            ],
+            [
+              "waterstofgas",
+              "brandstof die enkel water geeft"
+            ]
+          ],
+          "extra": [
+            "koelvloeistof in een frigo",
+            "zoetstof in frisdrank"
+          ],
+          "uitleg": "De toepassing volgt uit de eigenschappen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een stof is geelgroen, gasvormig en heeft een scherpe geur. Welke stof is het waarschijnlijk?",
+          "opties": [
+            "chloorgas",
+            "stikstofgas",
+            "helium",
+            "koper"
+          ],
+          "antwoord": 0,
+          "uitleg": "Cl₂ is een geelgroen gas met een prikkelende geur."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over metalen en niet-metalen?",
+          "rijen": [
+            "Metalen geleiden warmte en elektriciteit goed.",
+            "Alle metalen zijn bij kamertemperatuur vast.",
+            "Niet-metalen geleiden meestal slecht.",
+            "Metalen zijn glanzend en plooibaar."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            true
+          ],
+          "uitleg": "Kwik is de uitzondering: een vloeibaar metaal."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom gaan edelgassen bijna geen reacties aan?",
+          "opties": [
+            "Hun buitenste schil is volledig gevuld.",
+            "Ze hebben geen elektronen in hun atomen.",
+            "Ze bestaan enkel als vaste stof.",
+            "Hun kern heeft geen protonen."
+          ],
+          "antwoord": 0,
+          "uitleg": "Een volle buitenste schil maakt een atoom stabiel; het hoeft niets op te nemen of af te staan."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Stikstofgas heeft de formule [[*N₂|N|N₃]] en vormt bijna vier vijfde van de lucht.",
+          "uitleg": "Stikstofgas bestaat uit moleculen van twee atomen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In de formule 3 H₂SO₄: hoeveel zuurstofatomen staan er in totaal?",
+          "opties": [
+            "12",
+            "4",
+            "7",
+            "3"
+          ],
+          "antwoord": 0,
+          "uitleg": "Drie moleculen met elk vier zuurstofatomen: 3 · 4 = 12."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is deze uitspraak over ozon en zuurstofgas juist?",
+          "rijen": [
+            "Ozon is O₃ en zuurstofgas is O₂.",
+            "Ze zijn dezelfde stof, want ze bestaan uit hetzelfde element.",
+            "Ze hebben andere eigenschappen."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Het aantal atomen per molecule verschilt, dus het zijn twee verschillende stoffen."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Een stof die uit één element bestaat, is [[enkelvoudig]]. Een stof met meerdere elementen is [[samengesteld]]. Het getal vóór een formule heet de [[coëfficiënt]].",
+          "extra": [
+            "index",
+            "mengsel"
+          ],
+          "uitleg": "Drie begrippen om formules te lezen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel verschillende atoomsoorten staan er in Ca(NO₃)₂?",
+          "antwoord": [
+            "3",
+            "drie"
+          ],
+          "uitleg": "Calcium, stikstof en zuurstof."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom zijn metalen goede geleiders van elektriciteit?",
+          "opties": [
+            "Ze hebben vrij beweeglijke elektronen.",
+            "Ze bevatten veel water tussen hun atomen.",
+            "Hun atomen hebben geen kern.",
+            "Ze bestaan uit moleculen met een lading."
+          ],
+          "antwoord": 0,
+          "uitleg": "In een metaalrooster bewegen de buitenste elektronen vrij rond."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke formule hoort bij een molecule met twee waterstofatomen, één zwavelatoom en vier zuurstofatomen?",
+          "opties": [
+            "H₂SO₄",
+            "2 HSO₄",
+            "H₂S₄O",
+            "HSO₂"
+          ],
+          "antwoord": 0,
+          "uitleg": "De index staat rechts onder het symbool en geldt enkel voor dat atoom."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over de schrijfwijze van formules?",
+          "rijen": [
+            "Het eerste letterteken van een symbool is een hoofdletter.",
+            "Een coëfficiënt 2 voor H₂O betekent twee zuurstofatomen in één molecule.",
+            "NaCl is een formule-eenheid en geen molecule."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true
+          ],
+          "uitleg": "De coëfficiënt telt hele moleculen; een ionverbinding schrijf je als formule-eenheid."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom gebruikt men helium en geen waterstofgas in een feestballon?",
+          "opties": [
+            "Helium reageert niet en kan dus niet ontploffen.",
+            "Helium is zwaarder dan lucht en blijft beter hangen.",
+            "Waterstofgas is een metaal en dus te zwaar.",
+            "Helium geleidt elektriciteit en waterstofgas niet."
+          ],
+          "antwoord": 0,
+          "uitleg": "Waterstofgas is ook licht, maar brandbaar; helium is een inert edelgas."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel atomen staan er in totaal in één molecule C₆H₁₂O₆?",
+          "antwoord": [
+            "24",
+            "vierentwintig"
+          ],
+          "uitleg": "Zes koolstof, twaalf waterstof en zes zuurstof: 24 atomen."
+        }
+      ]
+    },
+    {
+      "titel": "Chemische reacties en energie — pittig",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het diagram van een reactie waarbij de beker kouder aanvoelt.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/energiediagrammen.svg",
+          "zones": [
+            [
+              53.0,
+              14.1,
+              40.0,
+              84.4
+            ]
+          ],
+          "uitleg": "Bij een endo-energetische reactie liggen de producten hoger: de reactie neemt energie op uit de omgeving."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het diagram dat bij een verbranding past.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/energiediagrammen.svg",
+          "zones": [
+            [
+              6.0,
+              14.1,
+              40.0,
+              84.4
+            ]
+          ],
+          "uitleg": "Een verbranding geeft warmte en licht af. De producten liggen lager dan de reagentia."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik in diagram A op het niveau van de reagentia.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/energiediagrammen.svg",
+          "zones": [
+            [
+              10.0,
+              34.4,
+              12.0,
+              6.2
+            ]
+          ],
+          "uitleg": "De reagentia staan links, aan het begin van het verloop."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik in diagram B op het niveau van de reactieproducten.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/energiediagrammen.svg",
+          "zones": [
+            [
+              78.0,
+              32.8,
+              12.0,
+              6.2
+            ]
+          ],
+          "uitleg": "De reactieproducten staan rechts, aan het einde van het verloop."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik in diagram A op de pijl die de reactie-energie toont.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/energiediagrammen.svg",
+          "zones": [
+            [
+              36.5,
+              36.7,
+              3.0,
+              29.7
+            ]
+          ],
+          "uitleg": "De reactie-energie is het hoogteverschil tussen reagentia en reactieproducten."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Kijk naar de twee diagrammen. Klopt dit?",
+          "rijen": [
+            "Bij A komt er energie vrij.",
+            "Bij B liggen de producten lager dan de reagentia.",
+            "Verticaal staat de energie.",
+            "Een koudekompres werkt zoals reactie B."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            true
+          ],
+          "uitleg": "Een koudekompres haalt energie uit de omgeving: endo-energetisch.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/energiediagrammen.svg"
+        },
+        {
+          "casus": "Je maakt de vergelijking kloppend: H₂ + O₂ → H₂O. Een klasgenoot schrijft H₂ + O₂ → H₂O₂.",
+          "vragen": [
+            {
+              "type": "meerkeuze",
+              "vraag": "Wat is er fout aan de oplossing van je klasgenoot?",
+              "opties": [
+                "Hij veranderde een index",
+                "Hij voegde een coëfficiënt toe",
+                "Hij liet de pijl weg",
+                "Hij veranderde de reagentia"
+              ],
+              "antwoord": 0,
+              "uitleg": "Verander je de index, dan heb je een andere stof. Alleen de coëfficiënten mag je aanpassen."
+            },
+            {
+              "type": "sleepzin",
+              "vraag": "De juiste vergelijking is [[2]] H₂ + O₂ → [[2]] H₂O. Links en rechts staan dan [[4]] waterstofatomen en 2 zuurstofatomen.",
+              "extra": [
+                "3",
+                "6"
+              ],
+              "uitleg": "Een reactie herschikt alleen de atomen."
+            }
+          ]
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Maak kloppend: N₂ + 3 H₂ → … NH₃. Welke coëfficiënt hoort voor NH₃?",
+          "antwoord": [
+            "2"
+          ],
+          "uitleg": "Links staan 2 stikstofatomen en 6 waterstofatomen. Met 2 NH₃ heb je rechts ook 2 stikstof- en 6 waterstofatomen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Synthese of analyse?",
+          "rijen": [
+            "Water valt door stroom uiteen in waterstofgas en zuurstofgas.",
+            "Magnesium en zuurstofgas vormen magnesiumoxide.",
+            "Stikstofgas en waterstofgas vormen ammoniak."
+          ],
+          "antwoord": [
+            1,
+            0,
+            0
+          ],
+          "uitleg": "Bij een synthese ontstaat één nieuwe stof, bij een analyse valt één stof uiteen.",
+          "kolommen": [
+            "Synthese",
+            "Analyse"
+          ]
+        },
+        {
+          "casus": "In een open schaal verbrandt Ruben een stukje hout. Na afloop weegt het overblijvende as veel minder dan het hout ervoor. Hij besluit dat de wet van behoud van massa hier niet geldt.",
+          "vragen": [
+            {
+              "type": "meerkeuze",
+              "vraag": "Wat is er mis met zijn besluit?",
+              "opties": [
+                "Er ontsnapten gassen die hij niet woog",
+                "De weegschaal is door de hitte helemaal stuk",
+                "Bij een verbranding verdwijnen atomen",
+                "Hout is een zuivere stof zonder massa"
+              ],
+              "antwoord": 0,
+              "uitleg": "De wet geldt altijd. Vang je ook de gassen op, dan klopt de balans weer."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "Doet Ruben de proef in een [[*afgesloten vat|open schaal|grotere schaal]], dan blijft de totale massa gelijk.",
+              "uitleg": "In een gesloten vat kan er niets weg."
+            }
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Exo- of endo-energetisch?",
+          "rijen": [
+            "een kaars die brandt",
+            "een koudekompres dat koud wordt",
+            "een reactie die licht uitzendt",
+            "een beker die kouder aanvoelt na het mengen"
+          ],
+          "antwoord": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "uitleg": "Energie afstaan is exo, energie opnemen is endo.",
+          "kolommen": [
+            "Exo",
+            "Endo"
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over de reactievergelijking 2 Mg + O₂ → 2 MgO?",
+          "rijen": [
+            "Links en rechts staan twee magnesiumatomen.",
+            "Magnesium en zuurstofgas zijn de reagentia.",
+            "Rechts staan vier zuurstofatomen.",
+            "Het is een synthese."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Links en rechts staan 2 Mg en 2 O. Uit twee stoffen ontstaat één nieuwe."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom is een chemische reactie iets anders dan mengen?",
+          "opties": [
+            "Er ontstaan nieuwe stoffen",
+            "Er verdwijnen atomen uit het mengsel",
+            "Bij mengen komt altijd licht vrij",
+            "De massa wordt bij een reactie groter"
+          ],
+          "antwoord": 0,
+          "uitleg": "Na mengen heb je dezelfde stoffen, na een reactie nieuwe stoffen met andere eigenschappen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Kan deze vorm van energie vrijkomen bij een chemische reactie?",
+          "rijen": [
+            "warmte",
+            "licht",
+            "elektrische energie",
+            "massa"
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Massa is geen vorm van energie. Een batterij geeft elektrische energie."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "In 3 H₂O is de 2 de [[*index|coëfficiënt|reactie-energie]] en de 3 de coëfficiënt.",
+          "uitleg": "De index staat klein achter een symbool, de coëfficiënt vooraan."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Links van de pijl staan de [[reagentia]], rechts de [[reactieproducten]]. De pijl geeft de [[richting]] van de omzetting aan.",
+          "extra": [
+            "coëfficiënten",
+            "edelgassen"
+          ],
+          "uitleg": "Uit de reagentia worden de reactieproducten gevormd."
+        },
+        {
+          "type": "open",
+          "vraag": "Leg met de wet van behoud van massa uit waarom je bij het kloppend maken van een reactievergelijking enkel de coëfficiënten mag aanpassen.",
+          "antwoord": "Bij een reactie verdwijnen er geen atomen en komen er geen bij; ze worden alleen anders geschikt. Daarom moet links en rechts van elk element evenveel atomen staan. Dat los je op met coëfficiënten. Verander je de index, dan schrijf je een andere stof op en klopt de reactie niet meer."
+        },
+        {
+          "casus": "Bij de verbranding van propaan geldt: … C₃H₈ + … O₂ → … CO₂ + … H₂O.",
+          "vragen": [
+            {
+              "type": "meerkeuze",
+              "vraag": "Welke coëfficiënten maken de vergelijking kloppend?",
+              "opties": [
+                "1, 5, 3, 4",
+                "1, 3, 3, 4",
+                "1, 5, 3, 8",
+                "2, 5, 6, 4"
+              ],
+              "antwoord": 0,
+              "uitleg": "Drie C geven 3 CO₂, acht H geven 4 H₂O; rechts staan dan 6 + 4 = 10 O-atomen, dus 5 O₂."
+            },
+            {
+              "type": "tabel",
+              "vraag": "Klopt dit over deze reactie?",
+              "rijen": [
+                "Het is een exo-energetische reactie.",
+                "Je mag de index van C₃H₈ veranderen om sneller kloppend te maken.",
+                "Links en rechts staan evenveel zuurstofatomen."
+              ],
+              "antwoord": [
+                true,
+                false,
+                true
+              ],
+              "uitleg": "Een index verandert de stof zelf; enkel coëfficiënten mag je aanpassen."
+            }
+          ]
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Twaalf gram magnesium reageert volledig met acht gram zuurstofgas. Hoeveel gram magnesiumoxide ontstaat er?",
+          "antwoord": [
+            "20",
+            "20 g",
+            "twintig"
+          ],
+          "uitleg": "Wet van behoud van massa: 12 g + 8 g = 20 g."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een kaars brandt op en weegt achteraf veel minder. Waarom klopt de wet van behoud van massa toch?",
+          "opties": [
+            "De producten zijn gassen die in de lucht verdwijnen.",
+            "Bij een verbranding wordt massa omgezet in licht.",
+            "De wet geldt enkel voor reacties in vloeistoffen en vaste stoffen.",
+            "Het kaarsvet verdampt zonder te reageren."
+          ],
+          "antwoord": 0,
+          "uitleg": "In een gesloten vat zou je zien dat de massa gelijk blijft."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Waaraan merk je dat er een chemische reactie gebeurd is?",
+          "rijen": [
+            "Er ontstaat een gas dat er eerst niet was.",
+            "De kleur verandert blijvend.",
+            "Suiker lost op in water.",
+            "Er komt warmte of licht vrij."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Oplossen is een vermenging: de suiker blijft suiker."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Welke energieomzetting hoort bij elk voorbeeld?",
+          "paren": [
+            [
+              "een batterij doet een lampje branden",
+              "chemisch naar elektrisch"
+            ],
+            [
+              "water ontleden met een batterij",
+              "elektrisch naar chemisch"
+            ],
+            [
+              "fotosynthese",
+              "licht naar chemisch"
+            ],
+            [
+              "een kaars brandt",
+              "chemisch naar warmte en licht"
+            ]
+          ],
+          "extra": [
+            "kernenergie naar beweging",
+            "geluid naar chemisch"
+          ],
+          "uitleg": "Bij elke reactie verandert energie van vorm."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Tijdens een reactie in een bekerglas stijgt de temperatuur van 20 naar 34 °C. Wat besluit je?",
+          "opties": [
+            "De reactie is exo-energetisch.",
+            "De reactie is endo-energetisch.",
+            "Er gebeurt geen chemische reactie.",
+            "De reactieproducten liggen hoger in het energiediagram."
+          ],
+          "antwoord": 0,
+          "uitleg": "Er komt warmte vrij naar de omgeving: exo-energetisch."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Het energieverschil tussen reagentia en reactieproducten heet de [[*reactie-energie|activeringsenergie|chemische binding]].",
+          "uitleg": "In het energiediagram is dat de pijl tussen beide niveaus."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over de wet van behoud van massa?",
+          "rijen": [
+            "Atomen worden anders geschikt, maar niet gemaakt of vernietigd.",
+            "Als er een gas ontstaat, verdwijnt er massa.",
+            "In een gesloten vat blijft de massa gelijk."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Ook een gas heeft massa; het ontsnapt enkel als het vat open is."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Welke coëfficiënt hoort voor Fe in … Fe + 3 O₂ → 2 Fe₂O₃?",
+          "antwoord": [
+            "4",
+            "vier"
+          ],
+          "uitleg": "Rechts staan 2 · 2 = 4 ijzeratomen, dus links 4 Fe."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een reactie heeft een energiediagram waarin de producten hoger liggen dan de reagentia. Welke reactie kan dat zijn?",
+          "opties": [
+            "de fotosynthese",
+            "de verbranding van hout",
+            "een handwarmer die warm wordt",
+            "een ontploffend vuurwerk"
+          ],
+          "antwoord": 0,
+          "uitleg": "De producten bevatten meer energie: de reactie heeft energie opgenomen, hier lichtenergie."
+        }
+      ]
+    },
+    {
+      "titel": "De bouw van atomen en ionen — pittig",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de plek waar bijna de hele massa van dit atoom zit.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/bohr-atoom.svg",
+          "zones": [
+            [
+              45.8,
+              45.0,
+              8.4,
+              13.1
+            ]
+          ],
+          "uitleg": "De kern bevat de protonen en neutronen en zo goed als alle massa."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het elektron dat dit atoom het makkelijkst afstaat.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/bohr-atoom.svg",
+          "zones": [
+            [
+              62.4,
+              24.6,
+              4.4,
+              6.9
+            ]
+          ],
+          "uitleg": "Het enige elektron in de buitenste schil is het valentie-elektron. Na het afstaan blijft 2, 8 over."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Het atoom op de prent is neutraal. Klopt dit?",
+          "rijen": [
+            "Het heeft 11 elektronen.",
+            "Het is een natriumatoom.",
+            "Het heeft één valentie-elektron.",
+            "Het staat in periode 2.",
+            "Het heeft een edelgasconfiguratie."
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false,
+            false
+          ],
+          "uitleg": "Drie bezette schillen betekent periode 3. Met één elektron buiten is de schil niet vol.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/bohr-atoom.svg"
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over de deeltjes in een atoom?",
+          "rijen": [
+            "Een proton is positief geladen.",
+            "Een neutron is negatief geladen.",
+            "Protonen en neutronen heten samen nucleonen.",
+            "Een elektron weegt ongeveer evenveel als een proton.",
+            "Het atoomnummer telt de protonen."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Een neutron is neutraal. Een elektron weegt bijna tweeduizend keer minder dan een proton."
+        },
+        {
+          "casus": "Een atoom heeft atoomnummer 19 en massagetal 39.",
+          "vragen": [
+            {
+              "type": "invultekst",
+              "vraag": "Hoeveel neutronen zitten er in de kern?",
+              "antwoord": [
+                "20"
+              ],
+              "uitleg": "Massagetal min atoomnummer: 39 min 19 is 20."
+            },
+            {
+              "type": "invultekst",
+              "vraag": "Hoeveel elektronen heeft het neutrale atoom?",
+              "antwoord": [
+                "19"
+              ],
+              "uitleg": "In een neutraal atoom zijn er evenveel elektronen als protonen."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "De elektronenconfiguratie is [[*2, 8, 8, 1|2, 8, 9|2, 8, 8, 2]].",
+              "uitleg": "Na 2 en 8 komen er 8 in de derde schil. Het negentiende elektron komt in de vierde."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Welk ion vormt dit atoom het liefst?",
+              "opties": [
+                "Een ion met lading 1 plus",
+                "Een ion met lading 1 min",
+                "Een ion met lading 7 min",
+                "Geen ion, het is een edelgas"
+              ],
+              "antwoord": 0,
+              "uitleg": "Eén elektron afstaan is veel makkelijker dan er zeven opnemen."
+            }
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welke lading krijgt het ion?",
+          "rijen": [
+            "een atoom dat één elektron verliest",
+            "een atoom uit groep 2 dat zijn valentie-elektronen afstaat",
+            "een atoom dat twee elektronen opneemt",
+            "een chlooratoom dat één elektron opneemt"
+          ],
+          "antwoord": [
+            0,
+            1,
+            3,
+            2
+          ],
+          "uitleg": "Elektronen zijn negatief. Verlies maakt positief, winst maakt negatief.",
+          "kolommen": [
+            "1 plus",
+            "2 plus",
+            "1 min",
+            "2 min"
+          ]
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elk deeltje aan zijn beschrijving.",
+          "paren": [
+            [
+              "12 protonen, 10 elektronen",
+              "positief ion met lading 2 plus"
+            ],
+            [
+              "17 protonen, 18 elektronen",
+              "negatief ion met lading 1 min"
+            ],
+            [
+              "8 protonen, 8 elektronen",
+              "neutraal atoom"
+            ]
+          ],
+          "extra": [
+            "isotoop met 2 protonen meer"
+          ],
+          "uitleg": "Een isotoop verschilt in neutronen, niet in protonen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over isotopen?",
+          "rijen": [
+            "Ze hebben hetzelfde atoomnummer.",
+            "Ze hebben een verschillend massagetal.",
+            "Ze hebben een verschillend aantal protonen.",
+            "Ze gedragen zich chemisch hetzelfde."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Isotopen verschillen enkel in het aantal neutronen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over de relatieve en de absolute atoommassa?",
+          "rijen": [
+            "De relatieve atoommassa heeft geen eenheid.",
+            "Eén u is ongeveer de massa van één proton.",
+            "De absolute massa druk je uit in kilogram.",
+            "De relatieve atoommassa druk je uit in kilogram."
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Relatieve massa maal de waarde van u in kilogram geeft de absolute massa."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "De eerste schil is vol met [[*2|8|18]] elektronen, de tweede met 8.",
+          "uitleg": "Daarom hebben helium en neon een volle buitenste schil."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op een elektron in de schil die al vol is met twee elektronen.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/bohr-atoom.svg",
+          "zones": [
+            [
+              52.7,
+              40.3,
+              4.4,
+              6.9
+            ],
+            [
+              42.9,
+              56.0,
+              4.4,
+              6.9
+            ]
+          ],
+          "uitleg": "De eerste schil, het dichtst bij de kern, is vol met twee elektronen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een atoom heeft 26 protonen en 30 neutronen. Wat is het massagetal?",
+          "antwoord": [
+            "56"
+          ],
+          "uitleg": "Het massagetal telt de nucleonen: 26 plus 30 is 56."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een atoom en zijn ion hebben hetzelfde aantal [[*protonen|elektronen|ladingen]].",
+          "uitleg": "Alleen de elektronen veranderen. Anders had je een ander element."
+        },
+        {
+          "type": "open",
+          "vraag": "Leg uit waarom natrium graag een ion met lading 1 plus vormt. Gebruik de woorden elektronenconfiguratie, valentie-elektron en edelgas.",
+          "antwoord": "Natrium heeft elektronenconfiguratie 2, 8, 1: één valentie-elektron. Staat het dat ene elektron af, dan blijft 2, 8 over, dezelfde configuratie als het edelgas neon. Die volle buitenste schil is stabiel. Omdat er dan één proton meer is dan elektronen, krijgt het ion lading 1 plus."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Vul de tabel aan: hoeveel deeltjes heeft dit atoom of ion?",
+          "rijen": [
+            "³⁵Cl: aantal neutronen",
+            "Mg²⁺: aantal elektronen",
+            "²³Na: aantal protonen",
+            "O²⁻: aantal elektronen"
+          ],
+          "antwoord": [
+            2,
+            0,
+            1,
+            0
+          ],
+          "uitleg": "Neutronen = massagetal − atoomnummer; een positief ion heeft elektronen minder, een negatief ion meer.",
+          "kolommen": [
+            "10",
+            "11",
+            "18"
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een deeltje heeft 16 protonen, 16 neutronen en 18 elektronen. Wat is het?",
+          "opties": [
+            "een ion met lading 2−",
+            "een neutraal atoom",
+            "een ion met lading 2+",
+            "een isotoop met lading 0"
+          ],
+          "antwoord": 0,
+          "uitleg": "Twee elektronen meer dan protonen: lading 2−. Het is het sulfide-ion."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "De elektronenconfiguratie van aluminium (13 elektronen) is [[*2, 8, 3|2, 8, 2, 1|8, 2, 3]].",
+          "uitleg": "De eerste schil 2, de tweede 8, de rest in de derde."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over de massa van een atoom?",
+          "rijen": [
+            "Bijna de hele massa zit in de kern.",
+            "Een elektron is ongeveer even zwaar als een proton.",
+            "De relatieve atoommassa heeft geen eenheid.",
+            "De absolute massa druk je uit in u of in kilogram."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            true
+          ],
+          "uitleg": "Een elektron is bijna tweeduizend keer lichter dan een proton."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel valentie-elektronen heeft fosfor, met 15 elektronen?",
+          "antwoord": [
+            "5",
+            "vijf"
+          ],
+          "uitleg": "Configuratie 2, 8, 5: vijf elektronen in de buitenste schil."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Twee atomen hebben allebei 6 protonen, maar het ene heeft 6 en het andere 8 neutronen. Wat klopt?",
+          "opties": [
+            "Het zijn isotopen van koolstof.",
+            "Het zijn twee verschillende elementen.",
+            "Het tweede atoom is een ion.",
+            "Het eerste atoom heeft een hoger atoomnummer."
+          ],
+          "antwoord": 0,
+          "uitleg": "Zelfde aantal protonen, zelfde element; enkel het massagetal verschilt."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Welk deeltje is dit?",
+          "kolommen": [
+            "Proton",
+            "Neutron",
+            "Elektron"
+          ],
+          "items": [
+            [
+              "positief geladen en in de kern",
+              "Proton"
+            ],
+            [
+              "zonder lading en in de kern",
+              "Neutron"
+            ],
+            [
+              "negatief geladen en rond de kern",
+              "Elektron"
+            ],
+            [
+              "bepaalt het atoomnummer",
+              "Proton"
+            ],
+            [
+              "zorgt voor binding met andere atomen",
+              "Elektron"
+            ]
+          ],
+          "uitleg": "Protonen bepalen welk element het is, elektronen hoe het reageert."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom is een atoom als geheel neutraal?",
+          "opties": [
+            "Het heeft evenveel protonen als elektronen.",
+            "Het heeft evenveel neutronen als protonen.",
+            "De kern van een atoom heeft geen lading.",
+            "De elektronen in de schillen hebben geen lading."
+          ],
+          "antwoord": 0,
+          "uitleg": "De positieve en negatieve ladingen heffen elkaar op."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een atoom heeft massagetal 27 en 14 neutronen. Wat is het atoomnummer?",
+          "antwoord": [
+            "13",
+            "dertien"
+          ],
+          "uitleg": "Atoomnummer = massagetal − neutronen = 27 − 14 = 13: aluminium."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over het atoommodel van Bohr?",
+          "rijen": [
+            "De elektronen bewegen in schillen rond de kern.",
+            "De derde schil kan bij de eerste achttien elementen 8 elektronen bevatten.",
+            "De kern bestaat uit elektronen en neutronen."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false
+          ],
+          "uitleg": "De kern bevat protonen en neutronen; de elektronen zitten in schillen."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Het [[atoomnummer]] geeft het aantal protonen. Het [[massagetal]] is de som van protonen en neutronen. Atomen met evenveel protonen maar een ander aantal neutronen zijn [[isotopen]].",
+          "extra": [
+            "ionen",
+            "valentie-elektronen"
+          ],
+          "uitleg": "Drie begrippen om een atoom te beschrijven."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een ion heeft 10 elektronen en lading 1+. Hoeveel protonen heeft het?",
+          "opties": [
+            "11",
+            "10",
+            "9",
+            "1"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij lading 1+ is er één elektron te weinig: 11 protonen, natrium."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom staat een atoom met configuratie 2, 8, 1 makkelijk een elektron af?",
+          "opties": [
+            "Dan houdt het een volle buitenste schil over.",
+            "Dan krijgt het meer protonen in de kern.",
+            "Dat ene elektron is zwaarder dan de andere.",
+            "Dan wordt het een negatief geladen ion."
+          ],
+          "antwoord": 0,
+          "uitleg": "Na het afgeven blijft 2, 8 over: zoals het edelgas neon."
+        }
+      ]
+    },
+    {
+      "titel": "Het periodiek systeem der elementen — pittig",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het element met elektronenconfiguratie 2, 8, 7.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/pse-hoofdgroepen.svg",
+          "zones": [
+            [
+              76.0,
+              49.2,
+              9.6,
+              15.0
+            ]
+          ],
+          "uitleg": "Twee plus acht plus zeven is 17 elektronen: chloor."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het element met twee valentie-elektronen en vier bezette schillen.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/pse-hoofdgroepen.svg",
+          "zones": [
+            [
+              23.5,
+              66.4,
+              9.6,
+              15.0
+            ]
+          ],
+          "uitleg": "Tweede kolom van de hoofdgroepen en vierde periode: calcium."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het edelgas met twee bezette schillen.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/pse-hoofdgroepen.svg",
+          "zones": [
+            [
+              86.5,
+              32.0,
+              9.6,
+              15.0
+            ]
+          ],
+          "uitleg": "Neon heeft 2, 8: een volle tweede schil."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het element uit periode 2 dat liefst twee elektronen opneemt.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/pse-hoofdgroepen.svg",
+          "zones": [
+            [
+              65.5,
+              32.0,
+              9.6,
+              15.0
+            ]
+          ],
+          "uitleg": "Zuurstof heeft zes valentie-elektronen en neemt er nog twee op."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het element dat een ion vormt met 12 protonen en 10 elektronen.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/pse-hoofdgroepen.svg",
+          "zones": [
+            [
+              23.5,
+              49.2,
+              9.6,
+              15.0
+            ]
+          ],
+          "uitleg": "Twaalf protonen is magnesium. Het staat twee elektronen af en wordt 2 plus."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het element waarvan het atoom maar één schil met elektronen heeft en één elektron.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/pse-hoofdgroepen.svg",
+          "zones": [
+            [
+              13.0,
+              14.8,
+              9.6,
+              15.0
+            ]
+          ],
+          "uitleg": "Waterstof heeft atoomnummer 1: één proton en één elektron in de eerste schil."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Kijk naar het stuk van het periodiek systeem. Klopt dit?",
+          "rijen": [
+            "Na en K hebben evenveel valentie-elektronen.",
+            "Li en Na reageren op een vergelijkbare manier.",
+            "Mg heeft drie bezette schillen.",
+            "He en Ne staan in dezelfde periode.",
+            "De metalen staan rechts."
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false,
+            false
+          ],
+          "uitleg": "Een kolom deelt het aantal valentie-elektronen, een rij het aantal bezette schillen. Metalen staan links.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/pse-hoofdgroepen.svg"
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Een horizontale rij in het periodiek systeem is een [[periode]]. Het nummer ervan geeft het aantal bezette [[schillen]]. Een verticale kolom is een [[groep]].",
+          "extra": [
+            "nucleon",
+            "isotoop"
+          ],
+          "uitleg": "Elementen van één groep lijken sterk op elkaar."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom lijken lithium, natrium en kalium chemisch zo op elkaar?",
+          "opties": [
+            "Ze hebben evenveel valentie-elektronen",
+            "Ze hebben evenveel bezette schillen",
+            "Ze hebben hetzelfde massagetal",
+            "Ze hebben evenveel neutronen in de kern"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het chemische gedrag wordt bepaald door de buitenste schil."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom gaat een edelgas bijna geen bindingen aan?",
+          "opties": [
+            "Zijn buitenste schil is vol",
+            "Het heeft geen elektronen",
+            "Het heeft geen protonen in de kern",
+            "Het is altijd een ion"
+          ],
+          "antwoord": 0,
+          "uitleg": "Dat is de edelgasconfiguratie: niets af te staan of op te nemen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Wat weet je meteen als een element atoomnummer 17 heeft?",
+          "rijen": [
+            "De kern bevat 17 protonen.",
+            "Een neutraal atoom heeft 17 elektronen.",
+            "De kern bevat 17 neutronen.",
+            "Het massagetal is 17."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            false
+          ],
+          "uitleg": "Voor de neutronen en het massagetal heb je meer informatie nodig."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een element staat in de derde kolom van de hoofdgroepen en in periode 3. Wat weet je over zijn atoom?",
+          "opties": [
+            "Drie valentie-elektronen en drie bezette schillen",
+            "Drie valentie-elektronen en twee bezette schillen",
+            "Twee valentie-elektronen en drie bezette schillen",
+            "Acht valentie-elektronen en drie bezette schillen"
+          ],
+          "antwoord": 0,
+          "uitleg": "De kolom geeft de valentie-elektronen, de periode het aantal schillen. Het is aluminium."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Staat dit element bij de metalen of de niet-metalen?",
+          "kolommen": [
+            "Metaal",
+            "Niet-metaal"
+          ],
+          "items": [
+            [
+              "natrium",
+              "Metaal"
+            ],
+            [
+              "magnesium",
+              "Metaal"
+            ],
+            [
+              "kalium",
+              "Metaal"
+            ],
+            [
+              "zuurstof",
+              "Niet-metaal"
+            ],
+            [
+              "chloor",
+              "Niet-metaal"
+            ],
+            [
+              "stikstof",
+              "Niet-metaal"
+            ]
+          ],
+          "uitleg": "Metalen staan links en in het midden, niet-metalen rechtsboven."
+        },
+        {
+          "casus": "Een onbekend element X heeft de elektronenconfiguratie 2, 8, 6.",
+          "vragen": [
+            {
+              "type": "tabel",
+              "vraag": "Wat weet je over element X?",
+              "rijen": [
+                "Het staat in periode 3.",
+                "Het staat in groep VIA.",
+                "Het is een metaal.",
+                "Het vormt een ion met lading 2−."
+              ],
+              "antwoord": [
+                true,
+                true,
+                false,
+                true
+              ],
+              "uitleg": "Drie schillen, zes valentie-elektronen: zwavel, een niet-metaal dat er twee opneemt."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Met welk element lijkt X chemisch het meest?",
+              "opties": [
+                "zuurstof",
+                "chloor",
+                "fosfor",
+                "argon"
+              ],
+              "antwoord": 0,
+              "uitleg": "Zuurstof staat in dezelfde groep VIA en heeft ook zes valentie-elektronen."
+            }
+          ]
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Welke naam hoort bij elke hoofdgroep?",
+          "paren": [
+            [
+              "groep IA (zonder waterstof)",
+              "alkalimetalen"
+            ],
+            [
+              "groep IIA",
+              "aardalkalimetalen"
+            ],
+            [
+              "groep VIIA",
+              "halogenen"
+            ],
+            [
+              "groep VIIIA",
+              "edelgassen"
+            ]
+          ],
+          "extra": [
+            "metalloïden",
+            "zouten"
+          ],
+          "uitleg": "Vier hoofdgroepen met een eigen naam."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welke lading krijgt het ion van dit element?",
+          "rijen": [
+            "kalium (groep IA)",
+            "calcium (groep IIA)",
+            "aluminium (groep IIIA)",
+            "stikstof (groep VA)",
+            "broom (groep VIIA)"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            4,
+            3
+          ],
+          "uitleg": "Metalen geven hun valentie-elektronen af, niet-metalen vullen hun schil aan tot acht.",
+          "kolommen": [
+            "1+",
+            "2+",
+            "3+",
+            "1−",
+            "3−"
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk element heeft de hoogste elektronegativiteit?",
+          "opties": [
+            "fluor",
+            "natrium",
+            "jood",
+            "kalium"
+          ],
+          "antwoord": 0,
+          "uitleg": "Rechtsboven in het systeem (zonder edelgassen) is de elektronegativiteit het hoogst."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over hoe de elektronegativiteit verandert in het periodiek systeem?",
+          "rijen": [
+            "Ze stijgt van links naar rechts in een periode.",
+            "Ze stijgt als je in een groep naar onder gaat.",
+            "Een lage elektronegativiteit hoort bij een sterk metaalkarakter."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Naar onder liggen de buitenste elektronen verder van de kern en worden ze minder sterk aangetrokken."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet van laag naar hoog metaalkarakter.",
+          "opties": [
+            "chloor",
+            "zwavel",
+            "magnesium",
+            "natrium"
+          ],
+          "uitleg": "Het metaalkarakter neemt toe naar links in een periode."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Kalium staat in periode 4. Hoeveel bezette schillen heeft een kaliumatoom?",
+          "antwoord": [
+            "4",
+            "vier"
+          ],
+          "uitleg": "Het periodenummer is het aantal bezette schillen: 2, 8, 8, 1."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een ion heeft 18 elektronen en een lading 2+. In welke groep staat het element?",
+          "opties": [
+            "groep IIA",
+            "groep VIA",
+            "groep VIIIA",
+            "groep IA"
+          ],
+          "antwoord": 0,
+          "uitleg": "Twintig protonen: calcium, dat twee elektronen afgeeft."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Geeft dit atoom eerder elektronen af of neemt het er op?",
+          "kolommen": [
+            "Geeft af",
+            "Neemt op"
+          ],
+          "items": [
+            [
+              "natrium",
+              "Geeft af"
+            ],
+            [
+              "zuurstof",
+              "Neemt op"
+            ],
+            [
+              "magnesium",
+              "Geeft af"
+            ],
+            [
+              "chloor",
+              "Neemt op"
+            ],
+            [
+              "lithium",
+              "Geeft af"
+            ],
+            [
+              "stikstof",
+              "Neemt op"
+            ]
+          ],
+          "uitleg": "Metalen geven af, niet-metalen nemen op tot hun buitenste schil vol is."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over de opbouw van het periodiek systeem?",
+          "rijen": [
+            "Het atoomnummer stijgt van links naar rechts.",
+            "Elke periode telt evenveel elementen.",
+            "Waterstof staat linksboven, niet bij de edelgassen.",
+            "De niet-metalen staan vooral rechtsboven."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            true
+          ],
+          "uitleg": "De eerste periode heeft maar twee elementen, de tweede en derde acht."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Het ion Na⁺ heeft dezelfde elektronenconfiguratie als het edelgas [[*neon|argon|helium]].",
+          "uitleg": "Na⁺ heeft 2, 8: net als neon."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom lijken de halogenen chemisch op elkaar?",
+          "opties": [
+            "Ze hebben allemaal zeven valentie-elektronen.",
+            "Ze hebben allemaal evenveel schillen.",
+            "Ze zijn allemaal gassen bij kamertemperatuur.",
+            "Ze hebben allemaal hetzelfde massagetal."
+          ],
+          "antwoord": 0,
+          "uitleg": "Hetzelfde aantal valentie-elektronen geeft gelijkaardig gedrag; broom is zelfs vloeibaar."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Fosfor staat in groep VA. Hoeveel elektronen neemt een fosforatoom op om een ion te vormen?",
+          "antwoord": [
+            "3",
+            "drie"
+          ],
+          "uitleg": "Vijf valentie-elektronen plus drie maakt acht."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom vormen edelgassen bijna nooit ionen?",
+          "opties": [
+            "Hun buitenste schil is al vol.",
+            "Ze hebben geen protonen in de kern.",
+            "Ze staan helemaal links in het systeem.",
+            "Ze zijn te zwaar om te reageren."
+          ],
+          "antwoord": 0,
+          "uitleg": "Een volle buitenste schil hoeft niets op te nemen of af te geven."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over een atoom links in het periodiek systeem?",
+          "rijen": [
+            "Het heeft weinig valentie-elektronen.",
+            "Het vormt een positief ion.",
+            "Het heeft een hoge elektronegativiteit."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Links staan de metalen: weinig valentie-elektronen, makkelijk afgegeven."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Een verticale kolom heet een [[groep]]. Een horizontale rij heet een [[periode]]. De elektronen in de buitenste schil heten [[valentie-elektronen]].",
+          "extra": [
+            "isotopen",
+            "halogenen"
+          ],
+          "uitleg": "Drie begrippen om het periodiek systeem te lezen."
+        }
+      ]
+    },
+    {
+      "titel": "Chemische bindingen en roosters — pittig",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het rooster van keukenzout.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/vier-roosters.svg",
+          "zones": [
+            [
+              6.0,
+              10.9,
+              42.0,
+              37.5
+            ]
+          ],
+          "uitleg": "Een ionrooster bestaat uit positieve en negatieve ionen die elkaar in alle richtingen aantrekken."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het rooster dat ook in vaste toestand elektriciteit geleidt.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/vier-roosters.svg",
+          "zones": [
+            [
+              52.0,
+              10.9,
+              42.0,
+              37.5
+            ]
+          ],
+          "uitleg": "Een metaalrooster heeft vrije elektronen: de elektronenzee."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het rooster van een stof met een laag smelt- en kookpunt.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/vier-roosters.svg",
+          "zones": [
+            [
+              6.0,
+              54.7,
+              42.0,
+              37.5
+            ]
+          ],
+          "uitleg": "In een molecuulrooster is de aantrekking tussen de moleculen zwak."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het rooster dat bij diamant past.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/vier-roosters.svg",
+          "zones": [
+            [
+              52.0,
+              54.7,
+              42.0,
+              37.5
+            ]
+          ],
+          "uitleg": "Een atoomrooster is één groot netwerk van atoombindingen. Daarom is diamant zo hard."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Kijk naar de vier roosters. Klopt dit?",
+          "rijen": [
+            "Rooster A is breekbaar.",
+            "Rooster B kan je plooien.",
+            "In rooster C zijn de bindingen binnen een molecule zwak.",
+            "In rooster D zitten alle elektronen vast in bindingen."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Binnen de molecule zijn de bindingen sterk, tussen de moleculen zwak.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/vier-roosters.svg"
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op een vrij elektronenpaar.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/lewis-water.svg",
+          "zones": [
+            [
+              45.5,
+              35.2,
+              9.0,
+              7.8
+            ],
+            [
+              45.5,
+              58.6,
+              9.0,
+              7.8
+            ]
+          ],
+          "uitleg": "Een vrij paar staat als streepje bij één atoom, niet tussen twee atomen."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op een bindend elektronenpaar.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/lewis-water.svg",
+          "zones": [
+            [
+              34.5,
+              48.4,
+              11.0,
+              7.8
+            ],
+            [
+              54.5,
+              48.4,
+              11.0,
+              7.8
+            ]
+          ],
+          "uitleg": "Een streepje tussen twee atomen is een gedeeld paar."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Kijk naar de Lewisstructuur. Klopt dit?",
+          "rijen": [
+            "Zuurstof deelt twee elektronenparen.",
+            "Zuurstof heeft twee vrije elektronenparen.",
+            "Er is een dubbele binding tussen O en H.",
+            "Rond zuurstof staan in totaal acht elektronen."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Twee bindende en twee vrije paren: acht elektronen, een volle schil.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/lewis-water.svg"
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welk bindingstype verwacht je?",
+          "rijen": [
+            "natrium en chloor",
+            "waterstof en zuurstof",
+            "koper en zink",
+            "magnesium en zuurstof",
+            "koolstof en waterstof"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            0,
+            1
+          ],
+          "uitleg": "Metaal met niet-metaal: ionbinding. Twee niet-metalen: atoombinding. Twee metalen: metaalbinding.",
+          "kolommen": [
+            "Ionbinding",
+            "Atoombinding",
+            "Metaalbinding"
+          ]
+        },
+        {
+          "casus": "Een onbekende stof smelt pas bij 801 °C. Laat je ze vallen, dan splijt het kristal. Als vast blokje geleidt ze geen stroom, opgelost in water wel.",
+          "vragen": [
+            {
+              "type": "meerkeuze",
+              "vraag": "Welk rooster heeft deze stof?",
+              "opties": [
+                "Een ionrooster",
+                "Een metaalrooster",
+                "Een molecuulrooster",
+                "Een atoomrooster"
+              ],
+              "antwoord": 0,
+              "uitleg": "Hoog smeltpunt, breekbaar en geleiding pas na oplossen: een zout."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Waarom geleidt ze opgelost wel en vast niet?",
+              "opties": [
+                "In water kunnen de ionen bewegen",
+                "In water ontstaan er vrije elektronen",
+                "Water zelf is een goede geleider",
+                "Het kristal is te koud om te geleiden"
+              ],
+              "antwoord": 0,
+              "uitleg": "Stroom vraagt ladingen die zich kunnen verplaatsen."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Waarom splijt het kristal als het valt?",
+              "opties": [
+                "Gelijke ladingen komen tegenover elkaar",
+                "De vrije elektronen lopen uit het rooster weg",
+                "De losse moleculen laten elkaar zomaar los",
+                "De atoombindingen smelten door de klap"
+              ],
+              "antwoord": 0,
+              "uitleg": "Schuiven de lagen op, dan stoten gelijke ladingen elkaar af."
+            }
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Diamant of grafiet?",
+          "rijen": [
+            "geleidt elektriciteit",
+            "heel hard",
+            "lagen die over elkaar glijden",
+            "elk atoom maakt vier bindingen",
+            "elk atoom heeft nog een vrij elektron"
+          ],
+          "antwoord": [
+            1,
+            0,
+            1,
+            0,
+            1
+          ],
+          "uitleg": "Beide bestaan uit koolstof. Het verschil zit in hoe de atomen in het rooster zitten.",
+          "kolommen": [
+            "Diamant",
+            "Grafiet"
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over de elektronegativiteit?",
+          "rijen": [
+            "Ze neemt in een periode toe naar rechts.",
+            "Niet-metalen hebben een hoge elektronegativiteit.",
+            "Chloor trekt elektronen sterker aan dan natrium.",
+            "Een groot verschil wijst op een atoombinding."
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Hoe groter het verschil, hoe meer de binding naar een ionbinding opschuift."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elke molecule aan het soort binding tussen de atomen.",
+          "paren": [
+            [
+              "N₂",
+              "drievoudige binding"
+            ],
+            [
+              "O₂",
+              "dubbele binding"
+            ],
+            [
+              "H₂",
+              "enkelvoudige binding"
+            ]
+          ],
+          "extra": [
+            "ionbinding"
+          ],
+          "uitleg": "Stikstof deelt drie paren, zuurstof twee, waterstof één."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "In methaan CH₄ zit één koolstofatoom. Hoeveel elektronenparen deelt het in totaal?",
+          "antwoord": [
+            "4",
+            "vier"
+          ],
+          "uitleg": "Koolstof heeft vier valentie-elektronen en heeft er nog vier nodig: vier bindingen, één met elk waterstofatoom."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Geleider of isolator?",
+          "kolommen": [
+            "Geleider",
+            "Isolator"
+          ],
+          "items": [
+            [
+              "koper",
+              "Geleider"
+            ],
+            [
+              "zoutoplossing",
+              "Geleider"
+            ],
+            [
+              "gesmolten keukenzout",
+              "Geleider"
+            ],
+            [
+              "suikeroplossing",
+              "Isolator"
+            ],
+            [
+              "rubber",
+              "Isolator"
+            ],
+            [
+              "diamant",
+              "Isolator"
+            ]
+          ],
+          "uitleg": "Geleiden vraagt vrije elektronen of vrije ionen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom geleidt een suikeroplossing geen stroom?",
+          "opties": [
+            "Suiker valt in water niet in ionen uiteen",
+            "Suiker lost eigenlijk helemaal niet op in water",
+            "Suiker heeft een metaalrooster zonder elektronen",
+            "Suiker trekt alle vrije ionen uit het water aan"
+          ],
+          "antwoord": 0,
+          "uitleg": "Suikermoleculen blijven hele moleculen. Er bewegen geen ladingen."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Bij een [[ionbinding]] worden elektronen overgedragen. Bij een [[atoombinding]] worden ze gedeeld. Bij een [[metaalbinding]] vormen ze een elektronenzee.",
+          "extra": [
+            "isolator",
+            "formule-eenheid"
+          ],
+          "uitleg": "Drie bindingstypes, drie manieren om met de buitenste elektronen om te gaan."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "NaCl is geen molecule maar een [[*formule-eenheid|isotoop|vrij elektronenpaar]]: de kleinste verhouding van de ionen in het rooster.",
+          "uitleg": "Een ionrooster bestaat niet uit losse moleculen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Bij de vorming van keukenzout gaat een elektron van natrium naar chloor. Waarom die richting?",
+          "opties": [
+            "Chloor trekt elektronen veel sterker aan",
+            "Natrium heeft een hogere elektronegativiteit",
+            "Chloor heeft geen valentie-elektronen",
+            "Natrium is een niet-metaal zoals chloor"
+          ],
+          "antwoord": 0,
+          "uitleg": "Chloor heeft een veel hogere elektronegativiteit dan natrium."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over een metaalrooster?",
+          "rijen": [
+            "Het geleidt ook in vaste toestand.",
+            "Het is plooibaar in plaats van breekbaar.",
+            "De vrije elektronen voeren ook warmte mee.",
+            "Het bestaat uit positieve en negatieve ionen."
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Een metaalrooster bestaat uit positieve ionen in een zee van elektronen."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een gesmolten zout geleidt stroom, omdat de [[*ionen|moleculen|neutronen]] loskomen van hun plaats.",
+          "uitleg": "Smelten breekt het rooster zonder de ionen te veranderen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welk roostertype past bij elke stof?",
+          "rijen": [
+            "een vaste stof die glanst, stroom geleidt en plooit",
+            "koolstofdioxide, een gas bij kamertemperatuur",
+            "diamant",
+            "keukenzout"
+          ],
+          "antwoord": [
+            1,
+            2,
+            3,
+            0
+          ],
+          "uitleg": "De eigenschappen volgen uit het roostertype.",
+          "kolommen": [
+            "Ionrooster",
+            "Metaalrooster",
+            "Molecuulrooster",
+            "Atoomrooster"
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over de Lewisstructuur?",
+          "rijen": [
+            "Je tekent enkel de valentie-elektronen.",
+            "Een streepje tussen twee atomen is een bindend paar.",
+            "Een dubbele binding is één gedeeld paar."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Een dubbele binding is twee gedeelde paren, dus vier elektronen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je mengt een metaal en een niet-metaal tot een nieuwe stof. Wat voorspel je?",
+          "opties": [
+            "Het is een ionverbinding",
+            "Het is een molecule met een dubbele binding",
+            "Het is een metaal met een elektronenzee",
+            "Het is een edelgas dat niet reageert"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een metaal met een niet-metaal geeft een ionbinding en een ionrooster."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Twee niet-metalen gaan een [[*atoombinding|ionbinding|metaalbinding]] aan, want geen van beide staat graag elektronen af.",
+          "uitleg": "Delen is dan de enige manier om een volle schil te bereiken."
+        },
+        {
+          "type": "open",
+          "vraag": "Leg uit waarom water bij kamertemperatuur vloeibaar is, terwijl keukenzout pas bij 801 °C smelt. Gebruik de woorden molecuulrooster, ionrooster en aantrekking.",
+          "antwoord": "Water heeft een molecuulrooster. Binnen de molecule zijn de bindingen sterk, maar de aantrekking tussen de moleculen is zwak en breekt al bij een lage temperatuur. Keukenzout heeft een ionrooster: de ionen trekken elkaar in alle richtingen sterk aan, en om dat hele rooster los te breken is veel energie nodig."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Ionbinding, atoombinding of metaalbinding?",
+          "kolommen": [
+            "Ionbinding",
+            "Atoombinding",
+            "Metaalbinding"
+          ],
+          "items": [
+            [
+              "MgO",
+              "Ionbinding"
+            ],
+            [
+              "CO₂",
+              "Atoombinding"
+            ],
+            [
+              "Cu",
+              "Metaalbinding"
+            ],
+            [
+              "KCl",
+              "Ionbinding"
+            ],
+            [
+              "NH₃",
+              "Atoombinding"
+            ],
+            [
+              "Al",
+              "Metaalbinding"
+            ]
+          ],
+          "uitleg": "Metaal met niet-metaal geeft een ionbinding, twee niet-metalen een atoombinding, metaalatomen onder elkaar een metaalbinding."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom is koper plooibaar, maar breekt een kristal keukenzout als je erop slaat?",
+          "opties": [
+            "Metaallagen schuiven over elkaar; in een ionrooster stoten gelijke ladingen af.",
+            "Koper heeft een hoger smeltpunt dan keukenzout en wordt nooit bros.",
+            "Keukenzout bevat moleculen die bij een slag uit elkaar vallen.",
+            "In koper zitten geen elektronen, zodat de atomen vrij kunnen bewegen."
+          ],
+          "antwoord": 0,
+          "uitleg": "Schuift een ionrooster een laag op, dan komen plus naast plus te liggen en splijt het."
+        }
+      ]
+    },
+    {
+      "titel": "Anorganische stofklassen en naamgeving — pittig",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de formule van een oxide.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/formulekaarten.svg",
+          "zones": [
+            [
+              7.0,
+              17.2,
+              19.0,
+              25.0
+            ],
+            [
+              52.0,
+              51.6,
+              19.0,
+              25.0
+            ]
+          ],
+          "uitleg": "Een oxide is een binaire verbinding met zuurstof: CaO en CO."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de formule van een hydroxide.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/formulekaarten.svg",
+          "zones": [
+            [
+              29.5,
+              17.2,
+              19.0,
+              25.0
+            ]
+          ],
+          "uitleg": "Een metaal met een OH-groep is een hydroxide."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de formule van een ternair zuur.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/formulekaarten.svg",
+          "zones": [
+            [
+              7.0,
+              51.6,
+              19.0,
+              25.0
+            ]
+          ],
+          "uitleg": "Waterstof vooraan maakt het een zuur. Met zwavel en zuurstof erbij zijn er drie elementen."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de formule van een ammoniumzout.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/formulekaarten.svg",
+          "zones": [
+            [
+              74.5,
+              51.6,
+              19.0,
+              25.0
+            ]
+          ],
+          "uitleg": "In een ammoniumzout vervangt het ammoniumion NH₄ plus het metaalion."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de stof die met zuur opschuimt en in kalkaanslag voorkomt.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/formulekaarten.svg",
+          "zones": [
+            [
+              29.5,
+              51.6,
+              19.0,
+              25.0
+            ]
+          ],
+          "uitleg": "Calciumcarbonaat geeft koolstofdioxide vrij als er zuur bij komt."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Kijk naar de acht formules. Klopt dit?",
+          "rijen": [
+            "HCl is een binair zuur.",
+            "NaCl is een binair zout.",
+            "CaCO₃ is een binair zout.",
+            "CO is een gevaarlijk, geurloos gas.",
+            "NaOH heet in het dagelijks leven keukenzout."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "CaCO₃ bevat drie elementen. NaOH is bijtende soda, NaCl is keukenzout.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/formulekaarten.svg"
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elk ion aan zijn formule.",
+          "paren": [
+            [
+              "nitraation",
+              "NO₃⁻"
+            ],
+            [
+              "sulfaation",
+              "SO₄²⁻"
+            ],
+            [
+              "carbonaation",
+              "CO₃²⁻"
+            ],
+            [
+              "chloride-ion",
+              "Cl⁻"
+            ],
+            [
+              "ammoniumion",
+              "NH₄⁺"
+            ]
+          ],
+          "extra": [
+            "ClO₃⁻"
+          ],
+          "uitleg": "ClO₃⁻ is het chloraation, met zuurstof erin."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elke triviale naam aan de stof.",
+          "paren": [
+            [
+              "keukenzout",
+              "natriumchloride"
+            ],
+            [
+              "zoutzuur",
+              "waterstofchloride in water"
+            ],
+            [
+              "bijtende soda",
+              "natriumhydroxide"
+            ],
+            [
+              "ongebluste kalk",
+              "calciumoxide"
+            ],
+            [
+              "gebluste kalk",
+              "calciumhydroxide"
+            ],
+            [
+              "lachgas",
+              "distikstofoxide"
+            ]
+          ],
+          "extra": [
+            "koolstofmonoxide"
+          ],
+          "uitleg": "Koolstofmonoxide heeft geen gebruikelijke triviale naam in deze lijst."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Oxide, hydroxide, zuur of zout?",
+          "rijen": [
+            "Ca(OH)₂",
+            "H₂S",
+            "CO₂",
+            "NaHCO₃",
+            "HNO₃"
+          ],
+          "antwoord": [
+            1,
+            2,
+            0,
+            3,
+            2
+          ],
+          "uitleg": "Waterstof vooraan wijst op een zuur, OH bij een metaal op een hydroxide.",
+          "kolommen": [
+            "Oxide",
+            "Hydroxide",
+            "Zuur",
+            "Zout"
+          ]
+        },
+        {
+          "casus": "Op een fles ontstopper staat: bevat natriumhydroxide. Op een fles ontkalker staat: bevat zoutzuur.",
+          "vragen": [
+            {
+              "type": "tabel",
+              "vraag": "Klopt dit over de twee flessen?",
+              "rijen": [
+                "De ontstopper bevat een sterke base.",
+                "De ontkalker bevat een zuur.",
+                "Zoutzuur is een ternair zuur.",
+                "Natriumhydroxide heet ook bijtende soda."
+              ],
+              "antwoord": [
+                true,
+                true,
+                false,
+                true
+              ],
+              "uitleg": "Zoutzuur bevat enkel waterstof en chloor: binair."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Waarom werkt de ontkalker tegen kalkaanslag?",
+              "opties": [
+                "Zuur maakt calciumcarbonaat los",
+                "Zuur maakt de kalk harder en gladder",
+                "Zuur verandert kalk in keukenzout",
+                "Zuur koelt de kalk af tot ijs"
+              ],
+              "antwoord": 0,
+              "uitleg": "Calciumcarbonaat schuimt op met zuur en geeft koolstofdioxide vrij."
+            }
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over de stocknotatie?",
+          "rijen": [
+            "Ze zet het oxidatiegetal van het metaal tussen haakjes.",
+            "Ze gebruikt een Romeins cijfer.",
+            "IJzer(III)chloride bevat ijzer met oxidatiegetal drie.",
+            "Ze telt het aantal zuurstofatomen."
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "De stocknotatie toont het oxidatiegetal van het metaal."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Waarvoor gebruiken we deze stof?",
+          "rijen": [
+            "ammoniak",
+            "fosforzuur",
+            "natriumwaterstofcarbonaat",
+            "methaan"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "uitleg": "Ook bij naam genoemde stoffen hebben een toepassing die je moet kennen.",
+          "kolommen": [
+            "Kunstmest en schoonmaken",
+            "Frisdrank van het colatype",
+            "Bakpoeder",
+            "Verwarmen en koken"
+          ]
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Koolstofdioxide heet ook [[koolzuurgas]]. Lost het op in water, dan ontstaat [[koolzuur]], zoals in spuitwater. Koolstofmonoxide heeft maar [[één]] zuurstofatoom.",
+          "extra": [
+            "kalk",
+            "twee",
+            "zoutzuur"
+          ],
+          "uitleg": "Koolzuurgas en koolzuur zijn twee verschillende stoffen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is deze verbinding binair of ternair?",
+          "rijen": [
+            "zoutzuur",
+            "zwavelzuur",
+            "calciumcarbonaat",
+            "waterstofsulfide",
+            "salpeterzuur"
+          ],
+          "antwoord": [
+            0,
+            1,
+            1,
+            0,
+            1
+          ],
+          "uitleg": "Zwavelzuur en salpeterzuur bevatten ook zuurstof.",
+          "kolommen": [
+            "Binair",
+            "Ternair"
+          ]
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Giet je water bij ongebluste kalk, dan ontstaat [[*gebluste kalk|keukenzout|koolzuur]] en komt er veel warmte vrij.",
+          "uitleg": "Calciumoxide wordt calciumhydroxide."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de formule van een binair zout.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/formulekaarten.svg",
+          "zones": [
+            [
+              74.5,
+              17.2,
+              19.0,
+              25.0
+            ]
+          ],
+          "uitleg": "Natriumchloride bestaat uit twee elementen en is een zout."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Water heet systematisch [[*diwaterstofoxide|waterstofperoxide|waterstofchloride]], maar niemand gebruikt die naam aan tafel.",
+          "uitleg": "H₂O₂ is waterstofperoxide, een heel andere stof."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Zit er zuurstof in dit ion?",
+          "rijen": [
+            "chloride-ion",
+            "chloraation",
+            "sulfide-ion",
+            "sulfaation"
+          ],
+          "antwoord": [
+            false,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Het chloraation en het sulfaation bevatten zuurstof, het chloride-ion en het sulfide-ion niet."
+        },
+        {
+          "type": "open",
+          "vraag": "Je krijgt de formule CaCO₃. Leg uit tot welke stofklasse ze hoort, of ze binair of ternair is, en noem een plaats waar je deze stof vindt.",
+          "antwoord": "CaCO₃ is een zout: calcium met het carbonaation CO₃²⁻. Er zitten drie elementen in (calcium, koolstof en zuurstof), dus het is ternair. Je vindt het in kalksteen, krijt, marmer, eierschalen of kalkaanslag."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over het oxidatiegetal?",
+          "rijen": [
+            "In een enkelvoudige stof is het altijd nul.",
+            "Zuurstof heeft in de meeste verbindingen min twee.",
+            "De som in een neutrale stof is nul.",
+            "In zuurstofgas is het oxidatiegetal van zuurstof min twee."
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Zuurstofgas is een enkelvoudige stof, dus nul."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Binair of ternair?",
+          "kolommen": [
+            "Binair",
+            "Ternair"
+          ],
+          "items": [
+            [
+              "water H₂O",
+              "Binair"
+            ],
+            [
+              "keukenzout NaCl",
+              "Binair"
+            ],
+            [
+              "koolstofdioxide CO₂",
+              "Binair"
+            ],
+            [
+              "zwavelzuur H₂SO₄",
+              "Ternair"
+            ],
+            [
+              "natriumhydroxide NaOH",
+              "Ternair"
+            ]
+          ],
+          "uitleg": "Binair: twee elementen. Ternair: drie elementen."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Zuurvormend of basevormend oxide?",
+          "kolommen": [
+            "Zuurvormend",
+            "Basevormend"
+          ],
+          "items": [
+            [
+              "CO₂",
+              "Zuurvormend"
+            ],
+            [
+              "CaO",
+              "Basevormend"
+            ],
+            [
+              "SO₂",
+              "Zuurvormend"
+            ],
+            [
+              "Na₂O",
+              "Basevormend"
+            ],
+            [
+              "P₂O₅",
+              "Zuurvormend"
+            ]
+          ],
+          "uitleg": "Een niet-metaaloxide vormt met water een zuur, een metaaloxide een hydroxide."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke naam hoort bij Fe₂O₃ volgens de stocknotatie?",
+          "opties": [
+            "ijzer(III)oxide",
+            "ijzer(II)oxide",
+            "diijzertrioxide(II)",
+            "ijzeroxide(VI)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Drie oxide-ionen geven 6−, verdeeld over twee ijzerionen: elk 3+."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Welke formule hoort bij elke naam?",
+          "paren": [
+            [
+              "natriumsulfaat",
+              "Na₂SO₄"
+            ],
+            [
+              "calciumcarbonaat",
+              "CaCO₃"
+            ],
+            [
+              "kaliumnitraat",
+              "KNO₃"
+            ],
+            [
+              "ammoniumchloride",
+              "NH₄Cl"
+            ]
+          ],
+          "extra": [
+            "NaSO₃",
+            "CaCO₂"
+          ],
+          "uitleg": "Zuurrest en metaalion samen, zodat de ladingen elkaar opheffen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over zuren?",
+          "rijen": [
+            "Een zuur heeft H vooraan in de formule.",
+            "HCl is een binair zuur.",
+            "H₂SO₄ is een binair zuur."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false
+          ],
+          "uitleg": "H₂SO₄ bevat drie elementen, dus is het ternair."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Welke lading heeft het koperion in CuCl₂?",
+          "antwoord": [
+            "2+",
+            "+2",
+            "2 plus"
+          ],
+          "uitleg": "Twee chloride-ionen geven 2−, dus koper is 2+: koper(II)chloride."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat ontstaat er als je calciumoxide in water brengt?",
+          "opties": [
+            "calciumhydroxide",
+            "calciumcarbonaat",
+            "waterstofchloride",
+            "zuurstofgas en calcium"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een basevormend oxide plus water geeft een hydroxide: gebluste kalk."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "CO₂ lost op in water en vormt [[koolzuur]]. Een oxide van een niet-metaal is dus [[zuurvormend]]. Een oxide van een metaal is [[basevormend]].",
+          "extra": [
+            "zout",
+            "binair"
+          ],
+          "uitleg": "Oxiden reageren met water tot een zuur of een hydroxide."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Tot welke stofklasse hoort de stof?",
+          "rijen": [
+            "KOH",
+            "HNO₃",
+            "MgCl₂",
+            "SO₃"
+          ],
+          "antwoord": [
+            1,
+            2,
+            3,
+            0
+          ],
+          "uitleg": "Kijk naar OH, H vooraan, metaal met zuurrest of enkel zuurstof erbij.",
+          "kolommen": [
+            "oxide",
+            "hydroxide",
+            "zuur",
+            "zout"
+          ]
+        }
+      ]
+    },
+    {
+      "titel": "Organische stoffen en de alkanen — pittig",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de structuurformule van propaan.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/vier-alkanen.svg",
+          "zones": [
+            [
+              52.0,
+              10.9,
+              44.0,
+              37.5
+            ]
+          ],
+          "uitleg": "Prop staat voor drie: drie koolstofatomen."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de structuurformule van het hoofdbestanddeel van aardgas.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/vier-alkanen.svg",
+          "zones": [
+            [
+              4.0,
+              10.9,
+              44.0,
+              37.5
+            ]
+          ],
+          "uitleg": "Aardgas bestaat vooral uit methaan, met één koolstofatoom."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de structuurformule die bij de brutoformule C₂H₆ past.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/vier-alkanen.svg",
+          "zones": [
+            [
+              4.0,
+              56.2,
+              44.0,
+              37.5
+            ]
+          ],
+          "uitleg": "Twee koolstofatomen en zes waterstofatomen: ethaan."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Kijk naar de vier structuurformules. Klopt dit?",
+          "rijen": [
+            "Elk koolstofatoom maakt vier bindingen.",
+            "D is butaan, met brutoformule C₄H₁₀.",
+            "Deze stoffen bevatten ook zuurstof.",
+            "Propaan en butaan zitten in een gasfles voor de barbecue."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Alkanen bestaan enkel uit koolstof en waterstof.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/vier-alkanen.svg"
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet deze alkanen van weinig naar veel koolstofatomen.",
+          "opties": [
+            "methaan",
+            "propaan",
+            "pentaan",
+            "heptaan",
+            "nonaan"
+          ],
+          "uitleg": "Methaan 1, propaan 3, pentaan 5, heptaan 7, nonaan 9."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een alkaan heeft zes koolstofatomen. Hoeveel waterstofatomen heeft het? Elk koolstofatoom maakt vier bindingen.",
+          "antwoord": [
+            "14",
+            "veertien"
+          ],
+          "uitleg": "Hexaan is C₆H₁₄: de vier middelste C dragen elk 2 H, de twee eind-C elk 3 H. Samen 8 plus 6 is 14."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In een slecht verluchte badkamer brandt een geiser onvolledig. Waarom is dat levensgevaarlijk?",
+          "opties": [
+            "Er ontstaat CO, dat in je bloed bindt",
+            "Er ontstaat een gas met een scherpe, prikkelende geur",
+            "Er ontstaat een sterk zuur dat je huid aantast",
+            "Er ontstaat een gas dat ontploft zodra het licht ziet"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het gas is kleurloos en geurloos en ontstaat bij onvolledige verbranding."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de structuurformule van het alkaan met tien waterstofatomen.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/vier-alkanen.svg",
+          "zones": [
+            [
+              52.0,
+              56.2,
+              44.0,
+              37.5
+            ]
+          ],
+          "uitleg": "Butaan C₄H₁₀: tel de H-atomen in D."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het verschil tussen een brutoformule en een structuurformule?",
+          "opties": [
+            "De structuurformule toont ook de bindingen",
+            "De brutoformule toont ook alle bindingen",
+            "De structuurformule telt enkel de koolstofatomen",
+            "De brutoformule geldt enkel voor zouten"
+          ],
+          "antwoord": 0,
+          "uitleg": "C₂H₆ is een brutoformule. De structuurformule tekent er de bindingen bij."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over de alkanen?",
+          "rijen": [
+            "Ze bestaan enkel uit koolstof en waterstof.",
+            "Hun naam eindigt op aan.",
+            "Ammoniak is een alkaan.",
+            "Decaan heeft tien koolstofatomen.",
+            "Octaan heeft zes koolstofatomen."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Oct staat voor acht. Ammoniak bevat stikstof."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Tot welke organische stofklasse hoort de stof?",
+          "kolommen": [
+            "Alkaan",
+            "Alkeen",
+            "Alcohol",
+            "Carbonzuur"
+          ],
+          "items": [
+            [
+              "C₃H₈",
+              "Alkaan"
+            ],
+            [
+              "C₂H₄",
+              "Alkeen"
+            ],
+            [
+              "CH₃OH",
+              "Alcohol"
+            ],
+            [
+              "HCOOH",
+              "Carbonzuur"
+            ],
+            [
+              "C₅H₁₂",
+              "Alkaan"
+            ],
+            [
+              "CH₃COOH",
+              "Carbonzuur"
+            ],
+            [
+              "C₂H₅OH",
+              "Alcohol"
+            ]
+          ],
+          "uitleg": "Enkelvoudige bindingen: alkaan; dubbele binding: alkeen; OH aan koolstof: alcohol; COOH: carbonzuur."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welke formule hoort bij deze naam?",
+          "rijen": [
+            "butaan",
+            "etheen",
+            "ethaan",
+            "pentaan"
+          ],
+          "antwoord": [
+            2,
+            0,
+            1,
+            3
+          ],
+          "uitleg": "Een alkaan volgt CₙH₂ₙ₊₂, een alkeen CₙH₂ₙ.",
+          "kolommen": [
+            "C₂H₄",
+            "C₂H₆",
+            "C₄H₁₀",
+            "C₅H₁₂"
+          ]
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel waterstofatomen heeft octaan, het alkaan met acht koolstofatomen?",
+          "antwoord": [
+            "18",
+            "achttien"
+          ],
+          "uitleg": "2 · 8 + 2 = 18."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom is ethanol (C₂H₅OH) geen base, ook al staat er OH in de formule?",
+          "opties": [
+            "De OH hangt aan koolstof, niet aan een metaal.",
+            "Ethanol bevat geen zuurstof in zijn molecule.",
+            "Bases bevatten altijd stikstof in hun formule.",
+            "De OH-groep laat bij ethanol een H⁺ los."
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij een hydroxide is OH⁻ een ion naast een metaalion; bij een alcohol zit OH vast aan koolstof."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Welk structuuronderdeel hoort bij elke stofklasse?",
+          "paren": [
+            [
+              "alkeen",
+              "een dubbele binding tussen twee koolstofatomen"
+            ],
+            [
+              "alkyn",
+              "een drievoudige binding tussen twee koolstofatomen"
+            ],
+            [
+              "alcohol",
+              "een OH-groep aan een koolstofatoom"
+            ],
+            [
+              "carbonzuur",
+              "een COOH-groep"
+            ]
+          ],
+          "extra": [
+            "een OH⁻-ion naast een metaal",
+            "enkel enkelvoudige bindingen"
+          ],
+          "uitleg": "Het structuuronderdeel bepaalt de stofklasse en de uitgang van de naam."
+        },
+        {
+          "casus": "In een keukenkast staan een fles azijn, een fles brandspiritus en een gasvuurtje met een vulling voor de barbecue.",
+          "vragen": [
+            {
+              "type": "tabel",
+              "vraag": "Welke stof zit erin?",
+              "rijen": [
+                "azijn",
+                "brandspiritus",
+                "gasvulling"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "Azijn is een verdunde oplossing van ethaanzuur; brandspiritus is ethanol met een smaakbederver.",
+              "kolommen": [
+                "ethaanzuur",
+                "ethanol",
+                "propaan en butaan"
+              ]
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Waarvoor dient de fles brandspiritus in de kast?",
+              "opties": [
+                "als brandstof en als oplosmiddel",
+                "als zoetstof in frisdrank en snoep",
+                "als meststof voor de planten in de tuin",
+                "als vulling voor een weerballon"
+              ],
+              "antwoord": 0,
+              "uitleg": "Brandspiritus is ethanol met een bijmiddel, zodat niemand het drinkt."
+            },
+            {
+              "type": "tabel",
+              "vraag": "Klopt dit over de gasvulling?",
+              "rijen": [
+                "Propaan en butaan zijn alkanen.",
+                "Bij volledige verbranding ontstaan koolstofdioxide en water.",
+                "Bij onvolledige verbranding kan giftig koolstofmonoxide ontstaan.",
+                "Alkanen lossen goed op in water."
+              ],
+              "antwoord": [
+                true,
+                true,
+                true,
+                false
+              ],
+              "uitleg": "Alkanen zijn apolair: ze mengen niet met water."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom laat men bananen samen met etheen rijpen in een rijpingscel?",
+          "opties": [
+            "Etheen is een plantenhormoon dat rijpen versnelt.",
+            "Etheen doodt alle schimmels op de schil van de banaan.",
+            "Etheen geeft de bananen hun gele kleurstof.",
+            "Etheen houdt de bananen langer groen."
+          ],
+          "antwoord": 0,
+          "uitleg": "Ook een rijpe appel geeft etheen af en laat andere vruchten sneller rijpen."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een stof met een drievoudige binding tussen twee koolstofatomen heeft in haar naam de uitgang [[*-yn|-aan|-een]].",
+          "uitleg": "Alkanen eindigen op -aan, alkenen op -een, alkynen op -yn."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over organische stoffen?",
+          "rijen": [
+            "Koolstof speelt de hoofdrol.",
+            "Een alkeen heeft de algemene formule CₙH₂ₙ.",
+            "Hoe langer de keten van een alkaan, hoe lager het kookpunt.",
+            "Een carbonzuur kan een H⁺ afgeven."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Langere moleculen trekken elkaar sterker aan: het kookpunt stijgt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom is methanol gevaarlijk, ook al lijkt het op ethanol?",
+          "opties": [
+            "Het lichaam zet het om in giftige stoffen.",
+            "Methanol bevat een COOH-groep, zoals azijnzuur.",
+            "Methanol ontploft al bij gewone kamertemperatuur.",
+            "Methanol is een alkaan zonder zuurstof."
+          ],
+          "antwoord": 0,
+          "uitleg": "Methanol kan blindheid veroorzaken; daarom mag het nooit in drank."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel koolstofatomen heeft propaanzuur?",
+          "antwoord": [
+            "3",
+            "drie"
+          ],
+          "uitleg": "Prop- staat voor drie, inclusief het koolstofatoom van de COOH-groep."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke formule hoort bij hexaan?",
+          "opties": [
+            "C₆H₁₄",
+            "C₆H₁₂",
+            "C₆H₆",
+            "C₅H₁₂"
+          ],
+          "antwoord": 0,
+          "uitleg": "Hex- is zes: 2 · 6 + 2 = 14 waterstofatomen."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Mieren en brandnetels bevatten [[methaanzuur]]. Azijn bevat [[ethaanzuur]]. Drankalcohol heet [[ethanol]].",
+          "extra": [
+            "methaan",
+            "etheen"
+          ],
+          "uitleg": "Drie triviale namen uit het dagelijks leven."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet van laag naar hoog kookpunt.",
+          "opties": [
+            "methaan",
+            "propaan",
+            "hexaan",
+            "decaan"
+          ],
+          "uitleg": "Hoe langer de keten, hoe sterker de moleculen elkaar aantrekken."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over alkanen en alkenen?",
+          "rijen": [
+            "Ethaan is C₂H₆ en etheen is C₂H₄.",
+            "Een alkeen heeft twee waterstofatomen minder dan het alkaan met evenveel koolstof.",
+            "Ethaan en etheen hebben dezelfde formule."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false
+          ],
+          "uitleg": "De dubbele binding neemt de plaats van twee waterstofatomen in."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Welke formule heeft het alkaan met twaalf waterstofatomen? Schrijf zoals C3H8.",
+          "antwoord": [
+            "C5H12",
+            "C₅H₁₂"
+          ],
+          "uitleg": "2n + 2 = 12 geeft n = 5: pentaan."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat ontstaat er bij de volledige verbranding van butaan?",
+          "opties": [
+            "koolstofdioxide en water",
+            "koolstofmonoxide en waterstofgas",
+            "ethaanzuur en zuurstofgas",
+            "methaan en roet"
+          ],
+          "antwoord": 0,
+          "uitleg": "Alle koolstof wordt CO₂, alle waterstof H₂O."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is het een koolwaterstof?",
+          "rijen": [
+            "methaan",
+            "ethanol",
+            "propeen",
+            "ethaanzuur"
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Koolwaterstoffen bevatten enkel koolstof en waterstof; alcoholen en carbonzuren bevatten ook zuurstof."
+        }
+      ]
+    },
+    {
+      "titel": "Stoffen in water: polariteit, oplossen en pH — pittig",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de oplossing die neutraal is.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/ph-schaal.svg",
+          "zones": [
+            [
+              47.0,
+              25.0,
+              6.0,
+              21.9
+            ]
+          ],
+          "uitleg": "Een neutrale oplossing heeft pH 7."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de oplossing die duizend keer zuurder is dan B.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/ph-schaal.svg",
+          "zones": [
+            [
+              17.0,
+              25.0,
+              6.0,
+              21.9
+            ]
+          ],
+          "uitleg": "Elke stap op de schaal is een factor tien. Van pH 5 naar pH 2 is drie stappen: tien maal tien maal tien."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de oplossing die het best past bij natriumhydroxide in water.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/ph-schaal.svg",
+          "zones": [
+            [
+              83.0,
+              25.0,
+              6.0,
+              21.9
+            ]
+          ],
+          "uitleg": "Natriumhydroxide geeft hydroxide-ionen vrij en maakt de oplossing sterk basisch."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de oplossing met de meeste waterstofionen.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/ph-schaal.svg",
+          "zones": [
+            [
+              17.0,
+              25.0,
+              6.0,
+              21.9
+            ]
+          ],
+          "uitleg": "Hoe lager de pH, hoe meer waterstofionen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Kijk naar de pH-schaal. Klopt dit?",
+          "rijen": [
+            "A en B zijn zuur.",
+            "D en E zijn basisch.",
+            "B is twee keer zuurder dan C.",
+            "Meng je A met een gepaste hoeveelheid E, dan schuift de pH naar 7."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Van pH 7 naar pH 5 is twee stappen: honderd keer zuurder. Zuur en base neutraliseren elkaar.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/ph-schaal.svg"
+        },
+        {
+          "type": "tabel",
+          "vraag": "Dissociëren of ioniseren?",
+          "rijen": [
+            "NaCl lost op in water",
+            "HCl-gas lost op in water",
+            "NaOH lost op in water"
+          ],
+          "antwoord": [
+            0,
+            1,
+            0
+          ],
+          "uitleg": "Bij dissociatie komen bestaande ionen los, bij ionisatie valt een molecule uiteen in nieuwe ionen.",
+          "kolommen": [
+            "Dissociëren",
+            "Ioniseren"
+          ]
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Elektrolyt of niet-elektrolyt?",
+          "kolommen": [
+            "Elektrolyt",
+            "Niet-elektrolyt"
+          ],
+          "items": [
+            [
+              "keukenzout",
+              "Elektrolyt"
+            ],
+            [
+              "zoutzuur",
+              "Elektrolyt"
+            ],
+            [
+              "natriumhydroxide",
+              "Elektrolyt"
+            ],
+            [
+              "suiker",
+              "Niet-elektrolyt"
+            ],
+            [
+              "alcohol",
+              "Niet-elektrolyt"
+            ]
+          ],
+          "uitleg": "Zouten, zuren en hydroxiden vormen ionen. Suiker en alcohol lossen op als hele moleculen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Polair of apolair?",
+          "rijen": [
+            "water",
+            "hexaan",
+            "zuurstofgas",
+            "tetrachloormethaan"
+          ],
+          "antwoord": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "uitleg": "Enkelvoudige stoffen en alkanen zijn typisch apolair.",
+          "kolommen": [
+            "Polair",
+            "Apolair"
+          ]
+        },
+        {
+          "casus": "Je hebt vier bekers: een vast blokje keukenzout, een zoutoplossing, een suikeroplossing en gesmolten keukenzout. Je test met een lampje of ze stroom geleiden.",
+          "vragen": [
+            {
+              "type": "tabel",
+              "vraag": "Brandt het lampje?",
+              "rijen": [
+                "vast blokje keukenzout",
+                "zoutoplossing",
+                "suikeroplossing",
+                "gesmolten keukenzout"
+              ],
+              "antwoord": [
+                false,
+                true,
+                false,
+                true
+              ],
+              "uitleg": "Stroom vraagt ladingen die kunnen bewegen: vrije ionen in een oplossing of een smelt."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "In de zoutoplossing zijn de ionen omringd door watermoleculen. Dat heet [[*hydratatie|ionisatie|neutralisatie]].",
+              "uitleg": "De polaire watermoleculen houden de ionen gescheiden."
+            }
+          ]
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "De dissociatievergelijking van keukenzout is NaCl → [[*Na⁺ + Cl⁻|Na + Cl|Na⁻ + Cl⁺]].",
+          "uitleg": "De ionen komen los met de lading die ze in het rooster al hadden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je schudt olie en water samen. Na een minuut liggen ze weer in twee lagen. Hoe komt dat?",
+          "opties": [
+            "Olie is apolair en water polair",
+            "Olie is een elektrolyt die ioniseert",
+            "Water is apolair en olie juist polair",
+            "Olie dissocieert in water tot ionen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Gelijk lost op in gelijk."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe meet je de pH het nauwkeurigst?",
+          "opties": [
+            "Met een pH-meter",
+            "Met een indicator",
+            "Door te proeven",
+            "Door de geur te ruiken"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een pH-meter geeft een getal. Een indicator toont enkel een kleur bij een bepaald gebied."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de oplossing die honderd keer minder zuur is dan B.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/ph-schaal.svg",
+          "zones": [
+            [
+              47.0,
+              25.0,
+              6.0,
+              21.9
+            ]
+          ],
+          "uitleg": "Elke stap is een factor tien. Van pH 5 naar pH 7 is twee stappen: honderd keer minder zuur."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Een indicator wordt rood in deze oplossing. Wat weet je?",
+          "rijen": [
+            "De oplossing is zuur.",
+            "Er zijn veel waterstofionen.",
+            "De pH ligt boven 7."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Welke kleur bij welke pH hoort, lees je af in een tabel van de indicator."
+        },
+        {
+          "type": "open",
+          "vraag": "Leg uit waarom keukenzout dissocieert en waterstofchloride ioniseert als ze in water oplossen.",
+          "antwoord": "Keukenzout heeft een ionrooster: de ionen Na⁺ en Cl⁻ bestaan al en komen in water gewoon los van elkaar. Dat is dissociëren. Waterstofchloride bestaat als gas uit moleculen zonder ionen. In water valt de molecule uiteen in H⁺ en Cl⁻, ionen die er eerst niet waren. Dat is ioniseren."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Welke intermoleculaire kracht werkt vooral tussen deze deeltjes?",
+          "paren": [
+            [
+              "twee methaanmoleculen",
+              "londonkracht"
+            ],
+            [
+              "twee HCl-moleculen",
+              "dipoolkracht"
+            ],
+            [
+              "twee watermoleculen",
+              "waterstofbrug"
+            ],
+            [
+              "een Na⁺-ion en watermoleculen",
+              "ion-dipoolkracht"
+            ]
+          ],
+          "extra": [
+            "ionbinding",
+            "metaalbinding"
+          ],
+          "uitleg": "Apolair: londonkracht; polair: dipoolkracht; H aan O, N of F: waterstofbrug; ion in water: ion-dipoolkracht."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet de intermoleculaire krachten van zwak naar sterk.",
+          "opties": [
+            "londonkracht",
+            "dipoolkracht",
+            "waterstofbrug"
+          ],
+          "uitleg": "De waterstofbrug is de sterkste van de krachten tussen moleculen, maar nog veel zwakker dan een binding."
+        },
+        {
+          "casus": "Een leerling test drie oplossingen met lakmoes en fenolftaleïne. Oplossing A: lakmoes rood, fenolftaleïne kleurloos. Oplossing B: lakmoes blauw, fenolftaleïne paars. Oplossing C: zuiver water.",
+          "vragen": [
+            {
+              "type": "tabel",
+              "vraag": "Zuur, neutraal of basisch?",
+              "rijen": [
+                "oplossing A",
+                "oplossing B",
+                "oplossing C"
+              ],
+              "antwoord": [
+                0,
+                2,
+                1
+              ],
+              "uitleg": "Lakmoes rood in zuur, blauw in base; fenolftaleïne paars in base.",
+              "kolommen": [
+                "zuur",
+                "neutraal",
+                "basisch"
+              ]
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Welke stof kan in oplossing B zitten?",
+              "opties": [
+                "natriumhydroxide",
+                "waterstofchloride",
+                "azijnzuur",
+                "suiker"
+              ],
+              "antwoord": 0,
+              "uitleg": "Een hydroxide geeft OH⁻-ionen en maakt de oplossing basisch."
+            },
+            {
+              "type": "tabel",
+              "vraag": "Klopt dit over de oplossingen?",
+              "rijen": [
+                "Oplossing A bevat meer H⁺ dan zuiver water.",
+                "De pH van oplossing B is lager dan 7.",
+                "Met een pH-meter meet je nauwkeuriger dan met een indicator."
+              ],
+              "antwoord": [
+                true,
+                false,
+                true
+              ],
+              "uitleg": "Basisch betekent een pH boven 7; een indicator zegt enkel aan welke kant je zit."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom is CO₂ apolair, terwijl de bindingen tussen C en O polair zijn?",
+          "opties": [
+            "De molecule is recht en symmetrisch, zodat de polariteiten elkaar opheffen.",
+            "Koolstof en zuurstof hebben dezelfde elektronegativiteit.",
+            "CO₂ is een ionverbinding zonder bindingen.",
+            "Er zitten geen elektronen tussen koolstof en zuurstof."
+          ],
+          "antwoord": 0,
+          "uitleg": "De twee polaire bindingen wijzen in tegengestelde richting."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Lost deze stof goed op in water of in wasbenzine?",
+          "kolommen": [
+            "Water",
+            "Wasbenzine"
+          ],
+          "items": [
+            [
+              "keukenzout",
+              "Water"
+            ],
+            [
+              "vet",
+              "Wasbenzine"
+            ],
+            [
+              "suiker",
+              "Water"
+            ],
+            [
+              "kaarsvet",
+              "Wasbenzine"
+            ],
+            [
+              "ethanol",
+              "Water"
+            ]
+          ],
+          "uitleg": "Gelijk lost op in gelijk: polair in polair, apolair in apolair."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Het omhullen van een opgelost ion door watermoleculen heet [[*hydratatie|ionisatie|neutralisatie]].",
+          "uitleg": "De watermoleculen draaien hun geladen kant naar het ion."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom kookt water bij 100 °C, veel hoger dan je bij zo'n kleine molecule verwacht?",
+          "opties": [
+            "Tussen watermoleculen zitten sterke waterstofbruggen.",
+            "Water is een ionverbinding met een rooster.",
+            "Watermoleculen zijn veel zwaarder dan andere moleculen.",
+            "Water bevat opgeloste zouten die het kookpunt verhogen."
+          ],
+          "antwoord": 0,
+          "uitleg": "Om te koken moeten die bruggen eerst verbroken worden."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over polaire bindingen?",
+          "rijen": [
+            "Een binding met een groot verschil in elektronegativiteit is polair.",
+            "Een molecule met polaire bindingen is altijd polair.",
+            "Londonkrachten werken tussen alle moleculen."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Een symmetrische molecule kan ondanks polaire bindingen apolair zijn."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel chloride-ionen ontstaan er als één formule-eenheid CaCl₂ dissocieert?",
+          "antwoord": [
+            "2",
+            "twee"
+          ],
+          "uitleg": "CaCl₂ → Ca²⁺ + 2 Cl⁻."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een vast blokje zout geleidt geen stroom, gesmolten zout wel. Waarom?",
+          "opties": [
+            "In de vloeistof kunnen de ionen bewegen.",
+            "Bij het smelten ontstaan er vrije elektronen.",
+            "Gesmolten zout bevat water.",
+            "Bij het smelten worden de ionen neutraal."
+          ],
+          "antwoord": 0,
+          "uitleg": "In het rooster zitten de ionen vast; in de smelt kunnen ze lading verplaatsen."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Een stof die in water ionen vormt en stroom geleidt, is een [[elektrolyt]]. Suiker in water vormt geen ionen en is een [[niet-elektrolyt]]. Een zuur geeft in water [[H⁺]]-ionen.",
+          "extra": [
+            "OH⁻",
+            "isolator"
+          ],
+          "uitleg": "Drie begrippen over stoffen in water."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een oplossing heeft pH 2 en een andere pH 4. Wat klopt?",
+          "opties": [
+            "De eerste is honderd keer zuurder.",
+            "De eerste is twee keer zuurder.",
+            "De tweede is zuurder.",
+            "Ze zijn even zuur."
+          ],
+          "antwoord": 0,
+          "uitleg": "Elke stap van één pH-eenheid is een factor tien: twee stappen is honderd keer."
+        }
+      ]
+    },
+    {
+      "titel": "Neerslag-, gas-, neutralisatie- en redoxreacties — pittig",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elke reactie aan haar soort.",
+          "paren": [
+            [
+              "zilverionen + chloride-ionen → witte vaste stof",
+              "neerslagreactie"
+            ],
+            [
+              "H⁺ + OH⁻ → H₂O",
+              "neutralisatie"
+            ],
+            [
+              "een atoom staat elektronen af aan een ander",
+              "redoxreactie"
+            ]
+          ],
+          "extra": [
+            "dissociatie"
+          ],
+          "uitleg": "Dissociatie is het loskomen van ionen bij het oplossen, geen reactie tussen stoffen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over een redoxreactie?",
+          "rijen": [
+            "Oxidatie is elektronen afstaan.",
+            "De oxidator neemt elektronen op.",
+            "De reductor wordt zelf gereduceerd.",
+            "Het oxidatiegetal van minstens twee elementen verandert.",
+            "In ijzer als enkelvoudige stof is het oxidatiegetal min twee."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "De reductor staat elektronen af en wordt zelf geoxideerd. In een enkelvoudige stof is het oxidatiegetal nul."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over een neerslag- en een neutralisatiereactie?",
+          "rijen": [
+            "Bij een neutralisatie ontstaan een zout en water.",
+            "Spectatorionen doen niet mee aan de reactie.",
+            "Twee oplossingen samengieten geeft altijd een neerslag.",
+            "Een oplosbaarheidstabel zegt of er een neerslag ontstaat."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Heel vaak gebeurt er niets, omdat alle combinaties goed oplossen."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Bij een neutralisatie vormen een [[waterstofion]] en een [[hydroxide-ion]] samen water. De andere ionen blijven als [[spectatorionen]] in de oplossing.",
+          "extra": [
+            "neerslag",
+            "reductor"
+          ],
+          "uitleg": "Dat is de essentiële reactievergelijking van een neutralisatie."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over een aflopende reactie?",
+          "rijen": [
+            "Ze gaat door tot een van de stoffen op is.",
+            "De coëfficiënten geven de verhouding in mol.",
+            "De coëfficiënten geven de verhouding in gram."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Wil je grammen, dan reken je met de molaire massa om."
+        },
+        {
+          "casus": "Een leerling giet een oplossing van bariumchloride (BaCl₂) bij een oplossing van natriumsulfaat (Na₂SO₄). Er ontstaat een witte troebeling.",
+          "vragen": [
+            {
+              "type": "meerkeuze",
+              "vraag": "Welke stof is de witte neerslag?",
+              "opties": [
+                "bariumsulfaat",
+                "natriumchloride",
+                "bariumchloride",
+                "natriumsulfaat"
+              ],
+              "antwoord": 0,
+              "uitleg": "Sulfaten zijn goed oplosbaar, behalve dat van barium."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Welke is de essentiële reactievergelijking?",
+              "opties": [
+                "Ba²⁺ + SO₄²⁻ → BaSO₄",
+                "Na⁺ + Cl⁻ → NaCl",
+                "BaCl₂ + Na₂SO₄ → BaSO₄ + 2 NaCl",
+                "Ba²⁺ + 2 Cl⁻ → BaCl₂"
+              ],
+              "antwoord": 0,
+              "uitleg": "In de essentiële vergelijking staan enkel de ionen die echt reageren."
+            },
+            {
+              "type": "tabel",
+              "vraag": "Welke ionen zijn hier tribune-ionen?",
+              "rijen": [
+                "Na⁺",
+                "Cl⁻",
+                "Ba²⁺",
+                "SO₄²⁻"
+              ],
+              "antwoord": [
+                true,
+                true,
+                false,
+                false
+              ],
+              "uitleg": "Natrium- en chloride-ionen blijven gewoon opgelost."
+            }
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Geeft deze combinatie een neerslag? Gebruik de oplosbaarheidstabel.",
+          "rijen": [
+            "Ag⁺ en Cl⁻",
+            "Na⁺ en NO₃⁻",
+            "Ca²⁺ en CO₃²⁻",
+            "K⁺ en SO₄²⁻"
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Natrium-, kalium- en nitraatverbindingen zijn altijd goed oplosbaar."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Welk gas komt vrij?",
+          "paren": [
+            [
+              "zoutzuur op kalksteen",
+              "koolstofdioxide"
+            ],
+            [
+              "een zuur op een sulfide",
+              "waterstofsulfide"
+            ],
+            [
+              "een sterke base op een ammoniumzout",
+              "ammoniak"
+            ],
+            [
+              "azijn op bakpoeder",
+              "koolstofdioxide"
+            ]
+          ],
+          "extra": [
+            "zuurstofgas",
+            "chloorgas"
+          ],
+          "uitleg": "Elke gasontwikkelingsreactie heeft haar eigen gas."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk zout ontstaat er als salpeterzuur (HNO₃) reageert met kaliumhydroxide?",
+          "opties": [
+            "kaliumnitraat",
+            "kaliumnitriet",
+            "kaliumhydroxide",
+            "waterstofnitraat"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het kaliumion van de base en het nitraation van het zuur vormen het zout; daarnaast ontstaat water."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Welk reactietype is dit?",
+          "kolommen": [
+            "Neerslagreactie",
+            "Gasontwikkeling",
+            "Neutralisatie",
+            "Redoxreactie"
+          ],
+          "items": [
+            [
+              "zilvernitraat bij keukenzout geeft een witte vlok",
+              "Neerslagreactie"
+            ],
+            [
+              "zoutzuur op marmer bruist",
+              "Gasontwikkeling"
+            ],
+            [
+              "maagzuur wordt gebonden door een maagtablet met hydroxide",
+              "Neutralisatie"
+            ],
+            [
+              "ijzer roest in vochtige lucht",
+              "Redoxreactie"
+            ],
+            [
+              "aardgas verbrandt",
+              "Redoxreactie"
+            ]
+          ],
+          "uitleg": "Bij neerslag, gas en neutralisatie wisselen ionen; bij redox gaan elektronen over."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over de oxidatiegetallen in 2 Mg + O₂ → 2 MgO?",
+          "rijen": [
+            "Magnesium gaat van 0 naar +II.",
+            "Zuurstof gaat van 0 naar −II.",
+            "Magnesium is de oxidator.",
+            "Zuurstofgas wordt gereduceerd."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Magnesium geeft elektronen af en is de reductor; zuurstof neemt ze op en is de oxidator."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Bij een oxidatie [[*stijgt|daalt|blijft]] het oxidatiegetal van het deeltje.",
+          "uitleg": "Het deeltje geeft elektronen af, dus wordt het positiever."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel moleculen O₂ heb je nodig voor de volledige verbranding van één molecule C₃H₈?",
+          "antwoord": [
+            "5",
+            "vijf"
+          ],
+          "uitleg": "C₃H₈ + 5 O₂ → 3 CO₂ + 4 H₂O."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom ontstaat er bij een slecht afgestelde gasketel koolstofmonoxide?",
+          "opties": [
+            "Er is te weinig zuurstof bij de verbranding.",
+            "Er is te veel zuurstof in de ruimte rond de ketel.",
+            "Aardgas bevat koolstofmonoxide van nature.",
+            "De ketel ontleedt water in waterstof en zuurstof."
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij te weinig zuurstof krijgt de koolstof maar één zuurstofatoom: CO, een kleurloos en giftig gas."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over redoxreacties?",
+          "rijen": [
+            "Oxidatie en reductie gebeuren altijd samen.",
+            "De reductor geeft elektronen af.",
+            "In een enkelvoudige stof is het oxidatiegetal nul.",
+            "Een neerslagreactie is een redoxreactie."
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Bij een neerslag wisselen ionen van partner zonder elektronenoverdracht."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat ontstaat er als zwavel verbrandt?",
+          "opties": [
+            "zwaveldioxide",
+            "zwavelzuur, een ternair zuur",
+            "een metaaloxide met zwavel erin",
+            "waterstofsulfide, een stinkend gas"
+          ],
+          "antwoord": 0,
+          "uitleg": "Niet-metaal plus zuurstof geeft een niet-metaaloxide: S + O₂ → SO₂."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Bij een neutralisatie reageren [[H⁺]] en [[OH⁻]] tot [[water]].",
+          "extra": [
+            "Na⁺",
+            "zuurstofgas"
+          ],
+          "uitleg": "De essentiële reactievergelijking van elke neutralisatie."
+        },
+        {
+          "casus": "Een leerling giet langzaam natronloog bij zoutzuur met een paar druppels fenolftaleïne. Op een bepaald moment kleurt de oplossing licht paars.",
+          "vragen": [
+            {
+              "type": "meerkeuze",
+              "vraag": "Wat betekent de paarse kleur?",
+              "opties": [
+                "De oplossing is net basisch geworden.",
+                "Er ontstaat een neerslag van natriumchloride.",
+                "Het zoutzuur is in een gas veranderd.",
+                "De oplossing is nu sterk zuur geworden."
+              ],
+              "antwoord": 0,
+              "uitleg": "Fenolftaleïne kleurt paars zodra de oplossing basisch wordt: alle zuur is geneutraliseerd."
+            },
+            {
+              "type": "tabel",
+              "vraag": "Welke deeltjes zitten in de oplossing vlak voor ze paars kleurt?",
+              "rijen": [
+                "Na⁺",
+                "Cl⁻",
+                "veel OH⁻",
+                "watermoleculen"
+              ],
+              "antwoord": [
+                true,
+                true,
+                false,
+                true
+              ],
+              "uitleg": "Na de neutralisatie blijft een oplossing van keukenzout over."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom gebruikt men bariumsulfaat als contrastmiddel bij een röntgenfoto van de maag, terwijl bariumionen giftig zijn?",
+          "opties": [
+            "Bariumsulfaat lost bijna niet op in water.",
+            "In de maag wordt het barium meteen geneutraliseerd door de base.",
+            "Bariumsulfaat is een gas dat snel weer uitgeademd wordt.",
+            "De maag zet de giftige bariumionen om in onschuldig natrium."
+          ],
+          "antwoord": 0,
+          "uitleg": "De oplosbaarheidstabel verklaart waarom het veilig is."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is deze verbinding goed oplosbaar in water?",
+          "rijen": [
+            "kaliumcarbonaat",
+            "calciumcarbonaat",
+            "ammoniumnitraat",
+            "zilverchloride"
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Carbonaten zijn slecht oplosbaar, behalve die van natrium, kalium en ammonium."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Welke coëfficiënt hoort voor O₂ in 2 C₂H₆ + … O₂ → 4 CO₂ + 6 H₂O?",
+          "antwoord": [
+            "7",
+            "zeven"
+          ],
+          "uitleg": "Rechts staan 8 + 6 = 14 zuurstofatomen, dus 7 O₂."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In welke reactie gaan elektronen van het ene deeltje naar het andere?",
+          "opties": [
+            "2 Na + Cl₂ → 2 NaCl",
+            "Ag⁺ + Cl⁻ → AgCl",
+            "H⁺ + OH⁻ → H₂O",
+            "CaCO₃ + 2 HCl → CaCl₂ + H₂O + CO₂"
+          ],
+          "antwoord": 0,
+          "uitleg": "Natrium gaat van 0 naar +I en chloor van 0 naar −I: een redoxreactie."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over de oxidator en de reductor?",
+          "rijen": [
+            "De oxidator neemt elektronen op.",
+            "De oxidator wordt zelf gereduceerd.",
+            "De reductor wordt zelf gereduceerd."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Wie elektronen afgeeft, wordt geoxideerd: dat is de reductor."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een metaal reageert met zuurstofgas. Wat ontstaat er volgens het reactiepatroon?",
+          "opties": [
+            "een metaaloxide",
+            "een zuur",
+            "een zout en water",
+            "een alkaan"
+          ],
+          "antwoord": 0,
+          "uitleg": "Metaal + dizuurstof → metaaloxide, zoals roest of magnesiumoxide."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Ontstaat er bij deze reactie een gas?",
+          "rijen": [
+            "zoutzuur op kalksteen",
+            "zoutzuur met natronloog",
+            "natronloog op ammoniumchloride",
+            "zilvernitraat bij keukenzout"
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Neutralisatie en neerslag geven geen gas."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welke stoffen kan je samen gieten om een neutralisatie te krijgen?",
+          "rijen": [
+            "zoutzuur en natriumhydroxide",
+            "zwavelzuur en kaliumhydroxide",
+            "keukenzout en suiker"
+          ],
+          "antwoord": [
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Een zuur en een base geven een zout en water."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk zout ontstaat er als zwavelzuur reageert met natriumhydroxide?",
+          "opties": [
+            "natriumsulfaat",
+            "natriumsulfide",
+            "natriumchloride",
+            "waterstofsulfaat"
+          ],
+          "antwoord": 0,
+          "uitleg": "Na⁺ van de base en SO₄²⁻ van het zuur: Na₂SO₄."
+        }
+      ]
+    },
+    {
+      "titel": "Rekenen met mol, massa en concentratie — pittig",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel gram is 3 mol water? De molaire massa is 18 g/mol.",
+          "antwoord": [
+            "54"
+          ],
+          "uitleg": "Massa is stofhoeveelheid maal molaire massa: 3 · 18 = 54 g."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel mol is 90 g water? De molaire massa is 18 g/mol.",
+          "antwoord": [
+            "5"
+          ],
+          "uitleg": "Deel de massa door de molaire massa: 90 : 18 = 5 mol."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "In 0,25 liter oplossing zit 0,5 mol opgeloste stof. Wat is de molaire concentratie in mol per liter?",
+          "antwoord": [
+            "2"
+          ],
+          "uitleg": "0,5 mol gedeeld door 0,25 liter is 2 mol per liter."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Je wil 2 liter oplossing van 0,1 mol per liter. Hoeveel mol stof los je op?",
+          "antwoord": [
+            "0,2",
+            "0.2"
+          ],
+          "uitleg": "Stofhoeveelheid is concentratie maal volume: 0,1 · 2 = 0,2 mol."
+        },
+        {
+          "casus": "Bij de reactie 2 H₂ + O₂ → 2 H₂O laat je 4 mol waterstofgas volledig reageren.",
+          "vragen": [
+            {
+              "type": "invultekst",
+              "vraag": "Hoeveel mol zuurstofgas heb je daarvoor nodig?",
+              "antwoord": [
+                "2"
+              ],
+              "uitleg": "De coëfficiënten geven de verhouding in mol: 2 tegen 1. Voor 4 mol H₂ heb je 2 mol O₂ nodig."
+            },
+            {
+              "type": "invultekst",
+              "vraag": "Hoeveel mol water ontstaat er?",
+              "antwoord": [
+                "4"
+              ],
+              "uitleg": "H₂ en H₂O staan in de verhouding 2 tegen 2. Uit 4 mol H₂ ontstaat 4 mol H₂O."
+            },
+            {
+              "type": "invultekst",
+              "vraag": "Hoeveel gram water is dat? De molaire massa is 18 g/mol.",
+              "antwoord": [
+                "72"
+              ],
+              "uitleg": "4 · 18 = 72 g."
+            }
+          ]
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Eén mol van een stof bevat altijd ongeveer [[*6 · 10²³|6 · 10³|18]] deeltjes.",
+          "uitleg": "Dat getal heet het getal van Avogadro."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "De molaire massa van een stof druk je uit in [[*gram per mol|mol per liter|kilogram]].",
+          "uitleg": "Je leest ze af uit het periodiek systeem."
+        },
+        {
+          "casus": "Een fles bevat 500 ml van een glucoseoplossing (C₆H₁₂O₆) met 45,0 g glucose. Gebruik C 12,0, H 1,0 en O 16,0.",
+          "vragen": [
+            {
+              "type": "invultekst",
+              "vraag": "Wat is de molaire massa van glucose in g/mol?",
+              "antwoord": [
+                "180",
+                "180,0",
+                "180 g/mol"
+              ],
+              "uitleg": "6 · 12,0 + 12 · 1,0 + 6 · 16,0 = 72 + 12 + 96 = 180,0 g/mol."
+            },
+            {
+              "type": "invultekst",
+              "vraag": "Hoeveel mol glucose zit er in de fles?",
+              "antwoord": [
+                "0,25",
+                "0,250",
+                "0.25"
+              ],
+              "uitleg": "n = m / M = 45,0 / 180 = 0,250 mol."
+            },
+            {
+              "type": "invultekst",
+              "vraag": "Wat is de molaire concentratie in mol/l?",
+              "antwoord": [
+                "0,5",
+                "0,50",
+                "0,500",
+                "0.5"
+              ],
+              "uitleg": "c = n / V = 0,250 mol / 0,500 l = 0,500 mol/l."
+            }
+          ]
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Wat is de molaire massa van CaCO₃ in g/mol? Gebruik Ca 40,1, C 12,0 en O 16,0.",
+          "antwoord": [
+            "100,1",
+            "100.1"
+          ],
+          "uitleg": "40,1 + 12,0 + 3 · 16,0 = 100,1 g/mol."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel moleculen zitten er in 2,00 mol water?",
+          "opties": [
+            "1,20 · 10²⁴",
+            "6,02 · 10²³",
+            "3,01 · 10²³",
+            "36,0"
+          ],
+          "antwoord": 0,
+          "uitleg": "N = n · Nₐ = 2,00 · 6,02 · 10²³ = 1,204 · 10²⁴."
+        },
+        {
+          "casus": "Je hebt 200 ml van een oplossing van 2,0 mol/l keukenzout. Je verdunt ze tot 1,0 l.",
+          "vragen": [
+            {
+              "type": "invultekst",
+              "vraag": "Wat is de nieuwe concentratie in mol/l?",
+              "antwoord": [
+                "0,4",
+                "0,40",
+                "0.4"
+              ],
+              "uitleg": "c₁V₁ = c₂V₂: 2,0 · 0,200 = c₂ · 1,0, dus c₂ = 0,40 mol/l."
+            },
+            {
+              "type": "tabel",
+              "vraag": "Klopt dit over het verdunnen?",
+              "rijen": [
+                "De stofhoeveelheid keukenzout blijft gelijk.",
+                "Het volume wordt vijf keer groter.",
+                "De concentratie wordt vijf keer groter."
+              ],
+              "antwoord": [
+                true,
+                true,
+                false
+              ],
+              "uitleg": "Bij verdunnen voeg je enkel water toe: evenveel mol in meer volume."
+            }
+          ]
+        },
+        {
+          "casus": "Magnesium verbrandt volgens 2 Mg + O₂ → 2 MgO. Je laat 4,86 g magnesium volledig reageren. Gebruik Mg 24,3 en O 16,0.",
+          "vragen": [
+            {
+              "type": "invultekst",
+              "vraag": "Hoeveel mol magnesium is dat?",
+              "antwoord": [
+                "0,2",
+                "0,20",
+                "0,200",
+                "0.2"
+              ],
+              "uitleg": "n = 4,86 / 24,3 = 0,200 mol."
+            },
+            {
+              "type": "invultekst",
+              "vraag": "Hoeveel mol MgO ontstaat er?",
+              "antwoord": [
+                "0,2",
+                "0,20",
+                "0,200",
+                "0.2"
+              ],
+              "uitleg": "Volgens de coëfficiënten geeft 2 mol Mg 2 mol MgO: dezelfde stofhoeveelheid."
+            },
+            {
+              "type": "invultekst",
+              "vraag": "Hoeveel gram MgO ontstaat er?",
+              "antwoord": [
+                "8,06",
+                "8,1",
+                "8.06"
+              ],
+              "uitleg": "M(MgO) = 24,3 + 16,0 = 40,3 g/mol; m = 0,200 · 40,3 = 8,06 g."
+            }
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welke formule gebruik je?",
+          "rijen": [
+            "massa omzetten naar mol",
+            "aantal deeltjes omzetten naar mol",
+            "concentratie berekenen",
+            "verdunnen"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "uitleg": "Vier formules die je moet kunnen kiezen en gebruiken.",
+          "kolommen": [
+            "n = m / M",
+            "n = N / Nₐ",
+            "c = n / V",
+            "c₁V₁ = c₂V₂"
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een leerling berekent de massa van 3,00 mol CO₂ en schrijft 13,2 g op. Hoe weet je zonder narekenen dat dit fout is?",
+          "opties": [
+            "Eén mol weegt al 44 g, dus drie mol veel meer.",
+            "Een massa schrijf je altijd zonder komma.",
+            "Drie mol is minder dan één mol, dus dat klopt niet zomaar.",
+            "De molaire massa van CO₂ is 3 g/mol."
+          ],
+          "antwoord": 0,
+          "uitleg": "Een snelle schatting toont dat de komma verschoven is: het moet 132 g zijn."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel gram NaOH heb je nodig voor 250 ml oplossing van 0,40 mol/l? M(NaOH) = 40,0 g/mol.",
+          "antwoord": [
+            "4",
+            "4,0",
+            "4,00"
+          ],
+          "uitleg": "n = c · V = 0,40 · 0,250 = 0,10 mol; m = 0,10 · 40,0 = 4,0 g."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Groter of kleiner dan één mol?",
+          "kolommen": [
+            "Meer dan 1 mol",
+            "Minder dan 1 mol"
+          ],
+          "items": [
+            [
+              "36 g water (M = 18 g/mol)",
+              "Meer dan 1 mol"
+            ],
+            [
+              "22 g CO₂ (M = 44 g/mol)",
+              "Minder dan 1 mol"
+            ],
+            [
+              "1,2 · 10²⁴ moleculen",
+              "Meer dan 1 mol"
+            ],
+            [
+              "3,0 · 10²³ atomen",
+              "Minder dan 1 mol"
+            ]
+          ],
+          "uitleg": "Vergelijk met de molaire massa of met het getal van Avogadro."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over de mol?",
+          "rijen": [
+            "Eén mol water en één mol CO₂ bevatten evenveel moleculen.",
+            "Eén mol water en één mol CO₂ hebben dezelfde massa.",
+            "De stofhoeveelheid druk je uit in mol, niet in gram."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Evenveel deeltjes, maar elk deeltje heeft zijn eigen massa."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een oplossing van 0,10 mol/l moet tien keer verdund worden. Hoeveel ml water voeg je toe aan 50 ml oplossing?",
+          "antwoord": [
+            "450",
+            "450 ml"
+          ],
+          "uitleg": "Tien keer verdunnen: het eindvolume is 500 ml, dus 450 ml water erbij."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Bij 2 H₂ + O₂ → 2 H₂O reageert 3,0 mol zuurstofgas volledig. Hoeveel mol water ontstaat er?",
+          "opties": [
+            "6,0 mol",
+            "3,0 mol",
+            "1,5 mol",
+            "9,0 mol"
+          ],
+          "antwoord": 0,
+          "uitleg": "Per mol O₂ ontstaan 2 mol water: 2 · 3,0 = 6,0 mol."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "De massa van één mol heet de [[molaire massa]], in [[g/mol]]. Het aantal deeltjes in één mol is het getal van [[Avogadro]].",
+          "extra": [
+            "concentratie",
+            "mol/l"
+          ],
+          "uitleg": "Drie begrippen bij het rekenen met de mol."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel mol zit er in 11,7 g NaCl? M(NaCl) = 58,5 g/mol.",
+          "antwoord": [
+            "0,2",
+            "0,20",
+            "0,200",
+            "0.2"
+          ],
+          "uitleg": "n = 11,7 / 58,5 = 0,200 mol."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke oplossing bevat de meeste mol opgeloste stof?",
+          "opties": [
+            "2,0 l van 0,50 mol/l",
+            "1,0 l van 0,80 mol/l",
+            "0,50 l van 1,0 mol/l",
+            "0,10 l van 5,0 mol/l"
+          ],
+          "antwoord": 0,
+          "uitleg": "n = c · V: 1,0 mol, 0,80 mol, 0,50 mol en 0,50 mol."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel mol waterstofatomen zitten er in 0,50 mol H₂O?",
+          "antwoord": [
+            "1",
+            "1,0",
+            "1,00",
+            "één"
+          ],
+          "uitleg": "Elke watermolecule heeft twee waterstofatomen: 2 · 0,50 = 1,0 mol."
+        }
+      ]
+    },
+    {
+      "titel": "Veilig werken, meten en onderzoek — pittig",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het glaswerk waarmee je één bepaald volume het nauwkeurigst afmeet.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/labo-glaswerk.svg",
+          "zones": [
+            [
+              78.0,
+              12.5,
+              11.0,
+              70.3
+            ],
+            [
+              80.9,
+              86.6,
+              5.2,
+              8.1
+            ]
+          ],
+          "uitleg": "Een volpipet heeft één ijkstreep en meet precies dat ene volume af."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het glaswerk met een schaalverdeling waarop je een volume redelijk nauwkeurig afleest.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/labo-glaswerk.svg",
+          "zones": [
+            [
+              55.0,
+              18.8,
+              14.0,
+              64.1
+            ],
+            [
+              59.4,
+              86.6,
+              5.2,
+              8.1
+            ]
+          ],
+          "uitleg": "Een maatcilinder is smal en heeft een fijne schaal. Een bekerglas is bedoeld om te mengen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Kijk naar het glaswerk. Klopt dit?",
+          "rijen": [
+            "A is een bekerglas, geschikt om te mengen en te verwarmen.",
+            "De streepjes op A geven een ruwe schatting van het volume.",
+            "B is een erlenmeyer, die je goed kan rondzwenken zonder te morsen.",
+            "A is nauwkeuriger dan D om 25 ml af te meten."
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Hoe smaller het glas bij de streep, hoe nauwkeuriger.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/labo-glaswerk.svg"
+        },
+        {
+          "type": "tabel",
+          "vraag": "H-zin of P-zin?",
+          "rijen": [
+            "Ontvlambare vloeistof en damp.",
+            "Draag beschermende handschoenen.",
+            "Giftig bij inslikken.",
+            "Verwijderd houden van open vuur.",
+            "Veroorzaakt ernstige oogirritatie."
+          ],
+          "antwoord": [
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "uitleg": "H: het gevaar. P: de voorzorg.",
+          "kolommen": [
+            "H-zin",
+            "P-zin"
+          ]
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elk instrument aan wat je ermee meet.",
+          "paren": [
+            [
+              "balans",
+              "massa"
+            ],
+            [
+              "pH-meter",
+              "zuurtegraad"
+            ],
+            [
+              "dynamometer",
+              "kracht"
+            ],
+            [
+              "chronometer",
+              "tijdsduur"
+            ]
+          ],
+          "extra": [
+            "volume"
+          ],
+          "uitleg": "Volume meet je met glaswerk, zoals een maatcilinder."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Reken om met de voorvoegsels.",
+          "rijen": [
+            "3,2 km",
+            "450 mg",
+            "0,005 m",
+            "2 µs"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "uitleg": "Kilo = 1000, milli = een duizendste, micro = een miljoenste.",
+          "kolommen": [
+            "3200 m",
+            "0,45 g",
+            "5 mm",
+            "0,000002 s"
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Schrijf in wetenschappelijke notatie.",
+          "rijen": [
+            "0,00032 m",
+            "45 000 J",
+            "0,032 m"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Een getal tussen 1 en 10 maal een macht van tien.",
+          "kolommen": [
+            "3,2 · 10⁻⁴ m",
+            "4,5 · 10⁴ J",
+            "3,2 · 10⁻² m"
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Hoeveel beduidende cijfers heeft dit meetresultaat?",
+          "rijen": [
+            "4,56 cm",
+            "0,8 kg",
+            "12,0 °C",
+            "25 ml"
+          ],
+          "antwoord": [
+            2,
+            0,
+            2,
+            1
+          ],
+          "uitleg": "Nullen vooraan tellen niet mee, een nul achter de komma wel.",
+          "kolommen": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Veilig of duurzaam werken in het labo, of geen van beide?",
+          "rijen": [
+            "een veiligheidsbril dragen bij het verwarmen",
+            "niet meer stof nemen dan je nodig hebt",
+            "met natte handen een stekker uittrekken",
+            "de multimeter uitzetten na de proef"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            1
+          ],
+          "uitleg": "Veilig beschermt jou en anderen, duurzaam spaart stoffen en energie.",
+          "kolommen": [
+            "Veilig",
+            "Duurzaam",
+            "Geen van beide"
+          ]
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Op een flesje met een sterk zuur staat het pictogram voor [[bijtende]] stoffen. Je draagt dan [[handschoenen]] en een [[veiligheidsbril]].",
+          "extra": [
+            "ontvlambare",
+            "oorbeschermers"
+          ],
+          "uitleg": "Een sterk zuur tast huid en ogen aan."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over het meetbereik?",
+          "rijen": [
+            "Een thermometer tot 50 °C is ongeschikt voor kokend water.",
+            "Buiten het meetbereik kan een toestel stukgaan.",
+            "Een balans tot 200 g is geschikt om een tas van 3 kg te wegen.",
+            "Je kiest een instrument dat bij de te meten waarde past."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Het meetbereik gaat van de kleinste tot de grootste meetbare waarde."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Je meet vijf keer de valtijd van een bal: 0,62 s, 0,60 s, 0,64 s, 0,61 s en 0,63 s. Wat is het gemiddelde, in seconden?",
+          "antwoord": [
+            "0,62",
+            "0.62"
+          ],
+          "uitleg": "3,10 : 5 = 0,62 s. Herhalen verkleint de invloed van toevallige fouten."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Waar hoort dit afval?",
+          "rijen": [
+            "een gebroken reageerbuis",
+            "een gebruikte papieren handdoek zonder chemicaliën",
+            "de rest van een organisch oplosmiddel"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Glas en chemicaliën horen nooit bij het gewone afval of in de gootsteen.",
+          "kolommen": [
+            "Bak voor scherp afval",
+            "Gewone vuilbak",
+            "Inzamelfles voor chemisch afval"
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Kijk naar het glaswerk. Welk stuk kies je?",
+          "rijen": [
+            "precies 10,0 ml oplossing overbrengen",
+            "ongeveer 200 ml water opwarmen",
+            "een oplossing rondzwenken bij een proef",
+            "37 ml water afmeten voor een mengsel"
+          ],
+          "antwoord": [
+            3,
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Elk glaswerk heeft zijn eigen doel en nauwkeurigheid.",
+          "kolommen": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-boost-do/labo-glaswerk.svg"
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over veilig werken met een bunsenbrander?",
+          "rijen": [
+            "Je houdt ontvlambare stoffen uit de buurt van de vlam.",
+            "Lang haar bind je samen.",
+            "Je verwarmt een reageerbuis met de opening naar je gezicht.",
+            "Je laat een brandende brander niet alleen."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Een vlam en ontvlambare stoffen gaan nooit samen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Grootte schatten: welke waarde is het meest realistisch?",
+          "rijen": [
+            "de massa van een volwassene",
+            "de massa van een appel",
+            "de massa van een personenwagen"
+          ],
+          "antwoord": [
+            1,
+            0,
+            2
+          ],
+          "uitleg": "Een schatting vooraf helpt je om een onzinnige uitkomst te herkennen.",
+          "kolommen": [
+            "0,2 kg",
+            "70 kg",
+            "1200 kg"
+          ]
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel milliliter is 0,25 liter?",
+          "antwoord": [
+            "250"
+          ],
+          "uitleg": "Milli is een duizendste: 0,25 · 1000 = 250 ml."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over handschoenen in het labo?",
+          "rijen": [
+            "Bij biologisch materiaal draag je handschoenen.",
+            "Na het werk was je toch nog je handen.",
+            "Met handschoenen aan mag je in je ogen wrijven.",
+            "Gebruikte handschoenen leg je terug in de doos voor later."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            false
+          ],
+          "uitleg": "Hygiënisch werken voorkomt dat je micro-organismen of stoffen overbrengt."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Grootheid of eenheid?",
+          "rijen": [
+            "lengte",
+            "seconde",
+            "massa",
+            "newton",
+            "temperatuur"
+          ],
+          "antwoord": [
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "uitleg": "De grootheid is wat je meet, de eenheid waarin je het uitdrukt.",
+          "kolommen": [
+            "Grootheid",
+            "Eenheid"
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is dit een SI-basiseenheid?",
+          "rijen": [
+            "kilogram",
+            "kilometer per uur",
+            "seconde",
+            "meter",
+            "gram"
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "De SI-eenheid van massa is de kilogram, niet de gram."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elk voorvoegsel aan zijn betekenis.",
+          "paren": [
+            [
+              "mega",
+              "een miljoen"
+            ],
+            [
+              "kilo",
+              "duizend"
+            ],
+            [
+              "milli",
+              "een duizendste"
+            ],
+            [
+              "micro",
+              "een miljoenste"
+            ],
+            [
+              "nano",
+              "een miljardste"
+            ]
+          ],
+          "extra": [
+            "honderd"
+          ],
+          "uitleg": "Centi is een honderdste, hecto honderd."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Reken om naar de SI-eenheid.",
+          "rijen": [
+            "72 cm",
+            "350 g",
+            "3 min",
+            "5 nm"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "uitleg": "SI-eenheden: meter, kilogram en seconde.",
+          "kolommen": [
+            "0,72 m",
+            "0,35 kg",
+            "180 s",
+            "5 · 10⁻⁹ m"
+          ]
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet de stappen van een onderzoek in de juiste volgorde.",
+          "opties": [
+            "Een onderzoeksvraag opstellen",
+            "Een hypothese formuleren",
+            "Een onderzoeksplan maken",
+            "Metingen uitvoeren en data verzamelen",
+            "Een conclusie formuleren",
+            "Reflecteren en communiceren"
+          ],
+          "uitleg": "Eerst de vraag en de verwachting, dan plannen, meten, besluiten en terugkijken."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over een goede conclusie?",
+          "rijen": [
+            "Ze beantwoordt de onderzoeksvraag.",
+            "Ze steunt op de gemeten gegevens.",
+            "Ze mag dingen bevatten die je niet gemeten hebt.",
+            "Je past de gegevens aan zodat ze bij je hypothese passen."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            false
+          ],
+          "uitleg": "De gegevens beslissen, niet de verwachting."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom herhaal je een meting liefst een paar keer?",
+          "opties": [
+            "Om toevallige meetfouten minder te laten doorwegen",
+            "Om de uitkomst beter te laten passen bij wat je verwachtte",
+            "Omdat één enkele meting volgens de regels nooit mag",
+            "Om zo meer beduidende cijfers te kunnen opschrijven"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het gemiddelde van meer metingen ligt dichter bij de echte waarde."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Een meetresultaat bestaat altijd uit een [[getal]] en een [[eenheid]]. Zonder eenheid kan vijf zowel vijf meter als vijf [[kilometer]] betekenen.",
+          "extra": [
+            "grootheid",
+            "grafiek"
+          ],
+          "uitleg": "Het getal alleen zegt niets."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Tabel of grafiek: wat toont dit het best?",
+          "rijen": [
+            "de precieze waarde van elke meting",
+            "welk verband er tussen twee grootheden is",
+            "de meetwaarden met hun eenheid in de hoofding",
+            "of de punten op een rechte liggen"
+          ],
+          "antwoord": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "uitleg": "Een tabel geeft de waarden, een grafiek het verband.",
+          "kolommen": [
+            "Tabel",
+            "Grafiek"
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Een leerling meet de lengte van een tafel met een meetlint tot op een millimeter. Klopt dit?",
+          "rijen": [
+            "Hij kan 1,253 m opschrijven.",
+            "Hij kan 1,25347 m opschrijven.",
+            "Te veel cijfers opschrijven suggereert een te grote nauwkeurigheid.",
+            "Een meting is nooit helemaal exact."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            true
+          ],
+          "uitleg": "Je schrijft enkel de cijfers die je echt gemeten hebt."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over een onderzoeksverslag?",
+          "rijen": [
+            "Je beschrijft je werkwijze zodat iemand anders het kan herhalen.",
+            "Je vermeldt de eenheden bij je meetwaarden.",
+            "Metingen die niet passen, laat je weg zonder iets te zeggen.",
+            "Je vermeldt welk materiaal je gebruikte."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Herhaalbaarheid is een kern van wetenschap."
+        },
+        {
+          "type": "open",
+          "vraag": "Je wil onderzoeken of een bal hoger opbotst als je hem van hoger laat vallen. Beschrijf hoe je dat eerlijk onderzoekt.",
+          "antwoord": "Ik laat dezelfde bal op dezelfde vloer vallen en verander enkel de valhoogte. Bij elke hoogte meet ik de opbotshoogte een paar keer en neem ik het gemiddelde. Ik zet de resultaten in een tabel en een grafiek en kijk welk verband er is. Mijn conclusie steunt op die metingen."
+        }
+      ]
+    }
+  ]
+}
