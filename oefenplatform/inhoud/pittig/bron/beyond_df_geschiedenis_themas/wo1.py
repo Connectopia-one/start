@@ -39,7 +39,7 @@ VRAGEN = [
     mk(
         "Waarom heette de Balkan het kruitvat van Europa?",
         [
-            "Staten en mogendheden botsten er over hetzelfde gebied",
+            "Mogendheden botsten er over hetzelfde gebied",
             "Er stonden de grootste wapenfabrieken van Europa",
             "Het was het enige gebied waar buskruit gemaakt werd",
             "De Balkan was een Britse kolonie vol wapenopslag",
@@ -54,7 +54,7 @@ VRAGEN = [
             mk(
                 "Waarom wilde Duitsland door België trekken?",
                 [
-                    "Om Frankrijk langs het noorden snel te verslaan",
+                    "Om Frankrijk snel te verslaan",
                     "Om Congo van België over te nemen",
                     "Om de Belgische havens aan Rusland te geven",
                     "Omdat België Duitsland de oorlog had verklaard",
@@ -131,7 +131,7 @@ VRAGEN = [
             mk(
                 "Waarom gebruikte een Britse affiche het lot van België?",
                 [
-                    "De inval in het neutrale België maakte de oorlog rechtvaardig",
+                    "De inval in het neutrale België wekte woede",
                     "België was in 1915 een Britse kolonie in Europa",
                     "Groot-Brittannië had België in 1914 zelf aangevallen",
                     "Belgische soldaten vochten enkel in Engeland",
