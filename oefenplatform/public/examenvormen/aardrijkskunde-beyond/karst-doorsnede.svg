@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Doorsnede door een kalkplateau</text>
+<rect x="40" y="180" width="920" height="440" rx="0" fill="#ddd6c0" stroke="#24331b" stroke-width="1"/>
+<line x1="40" y1="230" x2="960" y2="230" stroke="#c4bca2" stroke-width="1"/>
+<line x1="40" y1="280" x2="960" y2="280" stroke="#c4bca2" stroke-width="1"/>
+<line x1="40" y1="330" x2="960" y2="330" stroke="#c4bca2" stroke-width="1"/>
+<line x1="40" y1="380" x2="960" y2="380" stroke="#c4bca2" stroke-width="1"/>
+<line x1="40" y1="430" x2="960" y2="430" stroke="#c4bca2" stroke-width="1"/>
+<line x1="40" y1="480" x2="960" y2="480" stroke="#c4bca2" stroke-width="1"/>
+<line x1="40" y1="530" x2="960" y2="530" stroke="#c4bca2" stroke-width="1"/>
+<line x1="40" y1="580" x2="960" y2="580" stroke="#c4bca2" stroke-width="1"/>
+<line x1="180" y1="180" x2="190" y2="330" stroke="#9a917a" stroke-width="2"/>
+<line x1="330" y1="180" x2="340" y2="330" stroke="#9a917a" stroke-width="2"/>
+<line x1="600" y1="180" x2="610" y2="330" stroke="#9a917a" stroke-width="2"/>
+<line x1="760" y1="180" x2="770" y2="330" stroke="#9a917a" stroke-width="2"/>
+<path d="M40 180 L 140 180 L 180 220 L 210 240 L 240 220 L 280 180 L 960 180 L 960 60 L 40 60 Z" fill="#ffffff" stroke="none" stroke-width="0"/>
+<path d="M140 180 L 180 220 L 210 240 L 240 220 L 280 180" fill="none" stroke="#24331b" stroke-width="2"/>
+<path d="M420 170 Q 500 160 560 182" fill="none" stroke="#3b6fa0" stroke-width="5"/>
+<path d="M560 182 L 575 260 L 600 330" fill="none" stroke="#3b6fa0" stroke-width="4"/>
+<path d="M560 330 Q 600 300 700 320 Q 800 330 860 380 L 880 460 Q 800 480 700 470 Q 600 470 560 420 Z" fill="#4a4438" stroke="#24331b" stroke-width="2"/>
+<path d="M632 318 L 640 365 L 648 320 Z" fill="#efe8d2" stroke="none" stroke-width="0"/>
+<path d="M692 318 L 700 365 L 708 320 Z" fill="#efe8d2" stroke="none" stroke-width="0"/>
+<path d="M752 318 L 760 365 L 768 320 Z" fill="#efe8d2" stroke="none" stroke-width="0"/>
+<path d="M608 470 L 620 425 L 632 470 Z" fill="#efe8d2" stroke="none" stroke-width="0"/>
+<path d="M678 470 L 690 425 L 702 470 Z" fill="#efe8d2" stroke="none" stroke-width="0"/>
+<path d="M758 470 L 770 425 L 782 470 Z" fill="#efe8d2" stroke="none" stroke-width="0"/>
+<path d="M860 420 L 960 470 L 960 620 L 880 620 Z" fill="#ffffff" stroke="none" stroke-width="0"/>
+<path d="M860 420 L 960 470" fill="none" stroke="#3b6fa0" stroke-width="6"/>
+<text x="500" y="145" font-size="16" text-anchor="middle" fill="#3b6fa0">beek</text>
+<line x1="700" y1="290" x2="700" y2="330" stroke="#24331b" stroke-width="1"/>
+<line x1="690" y1="500" x2="690" y2="440" stroke="#24331b" stroke-width="1"/>
+<circle cx="210" cy="280" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="210" y="287" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<circle cx="600" cy="200" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="600" y="207" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<circle cx="700" cy="270" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="700" y="277" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<circle cx="690" cy="520" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="690" y="527" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">D</text>
+<circle cx="905" cy="410" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="905" y="417" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">E</text>
+</svg>

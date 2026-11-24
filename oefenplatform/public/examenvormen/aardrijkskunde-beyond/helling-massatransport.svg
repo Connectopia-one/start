@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Een helling in de bergen</text>
+<path d="M40 620 L 40 120 L 220 100 L 250 380 L 960 560 L 960 620 Z" fill="#c9b48a" stroke="#24331b" stroke-width="2"/>
+<path d="M40 120 L 220 100 L 250 380 L 40 380 Z" fill="#9a917a" stroke="#24331b" stroke-width="2"/>
+<path d="M250 380 L 300 330 L 360 395 Z" fill="#7d7466" stroke="#24331b" stroke-width="1"/>
+<line x1="420" y1="423.09859154929575" x2="450" y2="373.09859154929575" stroke="#6b4f2a" stroke-width="5"/>
+<line x1="470" y1="435.77464788732397" x2="500" y2="385.77464788732397" stroke="#6b4f2a" stroke-width="5"/>
+<line x1="520" y1="448.4507042253521" x2="550" y2="398.4507042253521" stroke="#6b4f2a" stroke-width="5"/>
+<path d="M620 480 L 880 540 L 870 590 L 640 560 Z" fill="#8d6e4a" stroke="#24331b" stroke-width="2"/>
+<path d="M600 555 L 958 602" fill="none" stroke="#7aa0c0" stroke-width="7"/>
+<text x="600" y="590" font-size="14" text-anchor="end" fill="#2b5d8a">kleilaag</text>
+<line x1="700" y1="470" x2="800" y2="500" stroke="#b03a2e" stroke-width="3"/>
+<polygon points="800,500 784.1,501.7 787.7,489.8" fill="#b03a2e"/>
+<circle cx="305" cy="300" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="305" y="307" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">P</text>
+<circle cx="500" cy="380" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="500" y="387" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">Q</text>
+<circle cx="740" cy="455" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="740" y="462" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">R</text>
+<circle cx="560" cy="545" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="560" y="552" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">S</text>
+</svg>
