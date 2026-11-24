@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Verval van een radioactieve stof</text>
+<line x1="140.0" y1="90" x2="140.0" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="140.0" y="564" font-size="15" text-anchor="middle" fill="#24331b">0</text>
+<line x1="330.0" y1="90" x2="330.0" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="330.0" y="564" font-size="15" text-anchor="middle" fill="#24331b">1</text>
+<line x1="520.0" y1="90" x2="520.0" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="520.0" y="564" font-size="15" text-anchor="middle" fill="#24331b">2</text>
+<line x1="710.0" y1="90" x2="710.0" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="710.0" y="564" font-size="15" text-anchor="middle" fill="#24331b">3</text>
+<line x1="900.0" y1="90" x2="900.0" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="900.0" y="564" font-size="15" text-anchor="middle" fill="#24331b">4</text>
+<line x1="140" y1="540.0" x2="900" y2="540.0" stroke="#e4e1d6" stroke-width="1"/>
+<text x="130" y="545.0" font-size="15" text-anchor="end" fill="#24331b">0</text>
+<line x1="140" y1="427.5" x2="900" y2="427.5" stroke="#e4e1d6" stroke-width="1"/>
+<text x="130" y="432.5" font-size="15" text-anchor="end" fill="#24331b">25</text>
+<line x1="140" y1="315.0" x2="900" y2="315.0" stroke="#e4e1d6" stroke-width="1"/>
+<text x="130" y="320.0" font-size="15" text-anchor="end" fill="#24331b">50</text>
+<line x1="140" y1="202.5" x2="900" y2="202.5" stroke="#e4e1d6" stroke-width="1"/>
+<text x="130" y="207.5" font-size="15" text-anchor="end" fill="#24331b">75</text>
+<line x1="140" y1="90.0" x2="900" y2="90.0" stroke="#e4e1d6" stroke-width="1"/>
+<text x="130" y="95.0" font-size="15" text-anchor="end" fill="#24331b">100</text>
+<line x1="140" y1="540.0" x2="910" y2="540.0" stroke="#24331b" stroke-width="2"/>
+<line x1="140" y1="540" x2="140" y2="80" stroke="#24331b" stroke-width="2"/>
+<text x="905" y="530.0" font-size="16" text-anchor="end" fill="#24331b">aantal halveringstijden</text>
+<text x="132" y="70" font-size="16" text-anchor="start" fill="#24331b">% van de stof over</text>
+<path d="M140.0 90.0 L 149.5 105.3 L 159.0 120.1 L 168.5 134.4 L 178.0 148.3 L 187.5 161.6 L 197.0 174.5 L 206.5 186.9 L 216.0 199.0 L 225.5 210.6 L 235.0 221.8 L 244.5 232.6 L 254.0 243.1 L 263.5 253.2 L 273.0 263.0 L 282.5 272.4 L 292.0 281.5 L 301.5 290.3 L 311.0 298.9 L 320.5 307.1 L 330.0 315.0 L 339.5 322.7 L 349.0 330.1 L 358.5 337.2 L 368.0 344.1 L 377.5 350.8 L 387.0 357.2 L 396.5 363.5 L 406.0 369.5 L 415.5 375.3 L 425.0 380.9 L 434.5 386.3 L 444.0 391.6 L 453.5 396.6 L 463.0 401.5 L 472.5 406.2 L 482.0 410.8 L 491.5 415.2 L 501.0 419.4 L 510.5 423.5 L 520.0 427.5 L 529.5 431.3 L 539.0 435.0 L 548.5 438.6 L 558.0 442.1 L 567.5 445.4 L 577.0 448.6 L 586.5 451.7 L 596.0 454.7 L 605.5 457.6 L 615.0 460.5 L 624.5 463.2 L 634.0 465.8 L 643.5 468.3 L 653.0 470.7 L 662.5 473.1 L 672.0 475.4 L 681.5 477.6 L 691.0 479.7 L 700.5 481.8 L 710.0 483.8 L 719.5 485.7 L 729.0 487.5 L 738.5 489.3 L 748.0 491.0 L 757.5 492.7 L 767.0 494.3 L 776.5 495.9 L 786.0 497.4 L 795.5 498.8 L 805.0 500.2 L 814.5 501.6 L 824.0 502.9 L 833.5 504.2 L 843.0 505.4 L 852.5 506.6 L 862.0 507.7 L 871.5 508.8 L 881.0 509.9 L 890.5 510.9 L 900.0 511.9" fill="none" stroke="#3b6fa0" stroke-width="4"/>
+<circle cx="140.0" cy="90.0" r="6" fill="#b5651d" stroke="#24331b" stroke-width="1"/>
+<circle cx="330.0" cy="315.0" r="6" fill="#b5651d" stroke="#24331b" stroke-width="1"/>
+<circle cx="520.0" cy="427.5" r="6" fill="#b5651d" stroke="#24331b" stroke-width="1"/>
+<circle cx="710.0" cy="483.75" r="6" fill="#b5651d" stroke="#24331b" stroke-width="1"/>
+<circle cx="900.0" cy="511.875" r="6" fill="#b5651d" stroke="#24331b" stroke-width="1"/>
+</svg>
