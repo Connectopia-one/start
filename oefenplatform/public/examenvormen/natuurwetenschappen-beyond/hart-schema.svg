@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Een hart, schematisch en van voren bekeken</text>
+<text x="120" y="600" font-size="16" text-anchor="middle" fill="#24331b">rechts van de persoon</text>
+<text x="880" y="600" font-size="16" text-anchor="middle" fill="#24331b">links van de persoon</text>
+<rect x="200" y="190" width="250" height="140" rx="14" fill="#f1e4df" stroke="#24331b" stroke-width="3"/>
+<rect x="550" y="190" width="250" height="140" rx="14" fill="#f1e4df" stroke="#24331b" stroke-width="3"/>
+<rect x="200" y="350" width="250" height="220" rx="14" fill="#f1e4df" stroke="#24331b" stroke-width="4"/>
+<rect x="550" y="350" width="250" height="220" rx="14" fill="#f1e4df" stroke="#24331b" stroke-width="14"/>
+<rect x="470" y="190" width="60" height="380" rx="6" fill="#d9d4c4" stroke="#24331b" stroke-width="2"/>
+<polygon points="285,332 365,332 325,350" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<polygon points="635,332 715,332 675,350" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<rect x="380" y="70" width="46" height="290" rx="8" fill="#f1e4df" stroke="#24331b" stroke-width="3"/>
+<rect x="574" y="70" width="46" height="290" rx="8" fill="#f1e4df" stroke="#24331b" stroke-width="3"/>
+<rect x="230" y="60" width="40" height="130" rx="8" fill="#f1e4df" stroke="#24331b" stroke-width="3"/>
+<circle cx="325" cy="260" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="325" y="267" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<circle cx="720" cy="260" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="720" y="267" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<circle cx="325" cy="470" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="325" y="477" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<circle cx="690" cy="470" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="690" y="477" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">D</text>
+<circle cx="597" cy="100" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="597" y="107" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">E</text>
+<circle cx="403" cy="100" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="403" y="107" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">F</text>
+<circle cx="240" cy="340" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="240" y="347" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">G</text>
+<circle cx="760" cy="340" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="760" y="347" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">H</text>
+<line x1="260" y1="340" x2="290" y2="340" stroke="#24331b" stroke-width="2"/>
+<line x1="740" y1="340" x2="710" y2="340" stroke="#24331b" stroke-width="2"/>
+</svg>
