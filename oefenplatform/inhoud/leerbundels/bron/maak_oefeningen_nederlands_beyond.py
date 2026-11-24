@@ -1034,7 +1034,7 @@ OEFENBUNDELS["oefenbundel-woordsoorten-beyond"] = dict(
              opdracht="Noteer het soort voornaamwoord.",
              oefeningen=[
                  ("rij", [("dat is <b>mijn</b> jas", "bezittelijk"),
-                          ("hij wast <b>zich</b>", "wederkerig"),
+                          ("hij wast <b>zich</b>", "wederkerend"),
                           ("de man <b>die</b> daar staat", "betrekkelijk")], "Welk soort?", WW),
                  ("rij", [("hij ziet <b>mij</b>", "persoonlijk"),
                           ("<b>welk</b> boek lees je?", "vragend"),

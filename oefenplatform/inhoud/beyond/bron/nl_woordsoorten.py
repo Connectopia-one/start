@@ -213,7 +213,7 @@ DEEL2 = [
             "het beschrijvend voornaamwoord",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Een beschrijvend voornaamwoord bestaat niet. Naast de genoemde zijn er nog het wederkerig, het aanwijzend en het vragend voornaamwoord.",
+        uitleg="Een beschrijvend voornaamwoord bestaat niet. Naast de genoemde zijn er nog het aanwijzend, het vragend, het onbepaald, het wederkerend en het wederkerig voornaamwoord.",
     ),
     dict(
         type="meerkeuze",
@@ -230,8 +230,8 @@ DEEL2 = [
     dict(
         type="invultekst",
         vraag="Welk soort voornaamwoord is 'zich' in 'hij wast zich'? Antwoord met één woord.",
-        antwoord=["wederkerig"],
-        uitleg="De handeling keert terug op het onderwerp zelf.",
+        antwoord=["wederkerend"],
+        uitleg="Een wederkerend voornaamwoord: de handeling keert terug op het onderwerp zelf. Wederkerig is elkaar, zoals in 'ze helpen elkaar'.",
     ),
     dict(
         type="waarofniet",

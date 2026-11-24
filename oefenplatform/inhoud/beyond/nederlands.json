@@ -6774,7 +6774,7 @@
             1,
             2
           ],
-          "uitleg": "Een beschrijvend voornaamwoord bestaat niet. Naast de genoemde zijn er nog het wederkerig, het aanwijzend en het vragend voornaamwoord."
+          "uitleg": "Een beschrijvend voornaamwoord bestaat niet. Naast de genoemde zijn er nog het aanwijzend, het vragend, het onbepaald, het wederkerend en het wederkerig voornaamwoord."
         },
         {
           "type": "meerkeuze",
@@ -6792,9 +6792,9 @@
           "type": "invultekst",
           "vraag": "Welk soort voornaamwoord is 'zich' in 'hij wast zich'? Antwoord met één woord.",
           "antwoord": [
-            "wederkerig"
+            "wederkerend"
           ],
-          "uitleg": "De handeling keert terug op het onderwerp zelf."
+          "uitleg": "Een wederkerend voornaamwoord: de handeling keert terug op het onderwerp zelf. Wederkerig is elkaar, zoals in 'ze helpen elkaar'."
         },
         {
           "type": "waarofniet",
