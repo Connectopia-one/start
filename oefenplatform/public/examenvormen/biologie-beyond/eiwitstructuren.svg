@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Vier niveaus in de bouw van een eiwit</text>
+<rect x="30" y="110" width="220" height="400" rx="14" fill="#fbf6ea" stroke="#24331b" stroke-width="1.5"/>
+<rect x="270" y="110" width="220" height="400" rx="14" fill="#fbf6ea" stroke="#24331b" stroke-width="1.5"/>
+<rect x="510" y="110" width="220" height="400" rx="14" fill="#fbf6ea" stroke="#24331b" stroke-width="1.5"/>
+<rect x="750" y="110" width="220" height="400" rx="14" fill="#fbf6ea" stroke="#24331b" stroke-width="1.5"/>
+<circle cx="140" cy="150" r="15" fill="#e8a0b0" stroke="#24331b" stroke-width="1.5"/>
+<circle cx="140" cy="188" r="15" fill="#9fd39a" stroke="#24331b" stroke-width="1.5"/>
+<line x1="140" y1="165" x2="140" y2="173" stroke="#24331b" stroke-width="2"/>
+<circle cx="140" cy="226" r="15" fill="#8fc1e3" stroke="#24331b" stroke-width="1.5"/>
+<line x1="140" y1="203" x2="140" y2="211" stroke="#24331b" stroke-width="2"/>
+<circle cx="140" cy="264" r="15" fill="#f2c14e" stroke="#24331b" stroke-width="1.5"/>
+<line x1="140" y1="241" x2="140" y2="249" stroke="#24331b" stroke-width="2"/>
+<circle cx="140" cy="302" r="15" fill="#c8a8e0" stroke="#24331b" stroke-width="1.5"/>
+<line x1="140" y1="279" x2="140" y2="287" stroke="#24331b" stroke-width="2"/>
+<circle cx="140" cy="340" r="15" fill="#e8a0b0" stroke="#24331b" stroke-width="1.5"/>
+<line x1="140" y1="317" x2="140" y2="325" stroke="#24331b" stroke-width="2"/>
+<circle cx="140" cy="378" r="15" fill="#9fd39a" stroke="#24331b" stroke-width="1.5"/>
+<line x1="140" y1="355" x2="140" y2="363" stroke="#24331b" stroke-width="2"/>
+<circle cx="140" cy="416" r="15" fill="#8fc1e3" stroke="#24331b" stroke-width="1.5"/>
+<line x1="140" y1="393" x2="140" y2="401" stroke="#24331b" stroke-width="2"/>
+<circle cx="140" cy="454" r="15" fill="#f2c14e" stroke="#24331b" stroke-width="1.5"/>
+<line x1="140" y1="431" x2="140" y2="439" stroke="#24331b" stroke-width="2"/>
+<path d="M380 150 L391 154 L402 159 L411 164 L418 168 L423 172 L425 177 L424 182 L421 186 L415 190 L407 195 L397 200 L386 204 L375 208 L364 213 L354 218 L346 222 L340 226 L336 231 L335 236 L337 240 L341 244 L348 249 L357 254 L367 258 L379 262 L390 267 L400 272 L410 276 L417 280 L422 285 L425 290 L425 294 L422 298 L416 303 L408 308 L399 312 L388 316 L377 321 L366 326 L356 330 L347 334 L340 339 L336 344 L335 348 L336 352 L341 357 L347 362 L356 366 L366 370 L377 375 L388 380 L399 384 L408 388 L416 393 L422 398 L425 402 L425 406 L422 411 L417 416 L409 420 L400 424 L389 429 L378 434 L367 438 L357 442 L348 447 L341 452 L337 456 L335 460 L336 465 L340 470 L346 474 L355 478 L365 483" fill="none" stroke="#b03a2e" stroke-width="6"/>
+<path d="M560 200 C 700 160 700 260 600 270 C 520 280 540 360 640 340 C 720 320 700 420 610 430 C 540 440 560 380 600 380 C 640 380 650 460 580 470" fill="none" stroke="#b03a2e" stroke-width="6"/>
+<path d="M780 220 C 860 200 860 280 800 290 C 750 300 760 360 820 350 C 870 340 860 420 800 430" fill="none" stroke="#b03a2e" stroke-width="6"/>
+<path d="M870 220 C 950 200 950 280 890 290 C 840 300 850 360 910 350 C 960 340 950 420 890 430" fill="none" stroke="#3b6fa0" stroke-width="6"/>
+<circle cx="140" cy="545" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="140" y="552" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">P</text>
+<circle cx="380" cy="545" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="380" y="552" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">Q</text>
+<circle cx="620" cy="545" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="620" y="552" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">R</text>
+<circle cx="860" cy="545" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="860" y="552" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">S</text>
+</svg>

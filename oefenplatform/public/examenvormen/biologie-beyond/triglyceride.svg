@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Een triglyceride (schematisch)</text>
+<rect x="120" y="150" width="60" height="340" rx="10" fill="#f5d9a8" stroke="#24331b" stroke-width="2"/>
+<circle cx="205" cy="190" r="14" fill="#b03a2e" stroke="#24331b" stroke-width="1.5"/>
+<line x1="180" y1="190" x2="191" y2="190" stroke="#24331b" stroke-width="2"/>
+<path d="M230 180 L272 200 L314 180 L356 200 L398 180 L440 200 L482 180 L524 200 L566 180 L608 200 L650 180 L692 200 L734 180 L776 200 L818 180" fill="none" stroke="#24331b" stroke-width="3"/>
+<circle cx="205" cy="320" r="14" fill="#b03a2e" stroke="#24331b" stroke-width="1.5"/>
+<line x1="180" y1="320" x2="191" y2="320" stroke="#24331b" stroke-width="2"/>
+<path d="M230 310 L272 330 L314 310 L356 330 L398 310 L440 330 L482 310 L524 330 L566 310 L608 330 L650 310 L692 330 L734 310 L776 330 L818 310" fill="none" stroke="#24331b" stroke-width="3"/>
+<circle cx="205" cy="450" r="14" fill="#b03a2e" stroke="#24331b" stroke-width="1.5"/>
+<line x1="180" y1="450" x2="191" y2="450" stroke="#24331b" stroke-width="2"/>
+<path d="M230 440 L272 460 L314 440 L356 460 L398 440 L440 460 L482 440 L524 460 L566 484 L590 490 L638 520 L662 526 L710 556 L734 562 L782 592" fill="none" stroke="#24331b" stroke-width="3"/>
+<line x1="518" y1="442" x2="558" y2="460" stroke="#24331b" stroke-width="3"/>
+<line x1="150" y1="538" x2="150" y2="492" stroke="#24331b" stroke-width="1"/>
+<line x1="550" y1="272" x2="550" y2="300" stroke="#24331b" stroke-width="1"/>
+<line x1="435" y1="540" x2="515" y2="470" stroke="#24331b" stroke-width="1"/>
+<line x1="232" y1="418" x2="210" y2="440" stroke="#24331b" stroke-width="1"/>
+<circle cx="150" cy="560" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="150" y="567" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<circle cx="550" cy="250" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="550" y="257" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<circle cx="420" cy="560" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="420" y="567" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<circle cx="240" cy="400" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="240" y="407" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">D</text>
+</svg>
