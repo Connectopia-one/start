@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Drie manieren waarop warmte zich verplaatst</text>
+<rect x="300" y="260" width="300" height="220" rx="10" fill="#bfc5cc" stroke="#24331b" stroke-width="2"/>
+<rect x="310" y="300" width="280" height="170" rx="6" fill="#cfe5f5" stroke="none" stroke-width="2"/>
+<rect x="600" y="300" width="230" height="24" rx="8" fill="#7a5a3a" stroke="#24331b" stroke-width="2"/>
+<path d="M340 560 Q 315 520 340 490 Q 365 520 340 560 Z" fill="#f4a259" stroke="#b03a2e" stroke-width="2"/>
+<path d="M400 560 Q 375 520 400 490 Q 425 520 400 560 Z" fill="#f4a259" stroke="#b03a2e" stroke-width="2"/>
+<path d="M460 560 Q 435 520 460 490 Q 485 520 460 560 Z" fill="#f4a259" stroke="#b03a2e" stroke-width="2"/>
+<path d="M520 560 Q 495 520 520 490 Q 545 520 520 560 Z" fill="#f4a259" stroke="#b03a2e" stroke-width="2"/>
+<path d="M570 560 Q 545 520 570 490 Q 595 520 570 560 Z" fill="#f4a259" stroke="#b03a2e" stroke-width="2"/>
+<rect x="280" y="560" width="340" height="20" rx="4" fill="#555555" stroke="#24331b" stroke-width="2"/>
+<path d="M380 440 C 340 400 340 340 380 320" fill="none" stroke="#3b6fa0" stroke-width="4"/>
+<line x1="380" y1="330" x2="385" y2="318" stroke="#3b6fa0" stroke-width="4"/>
+<polygon points="385,318 385.1,334.0 373.6,329.2" fill="#3b6fa0"/>
+<path d="M520 320 C 560 340 560 400 520 440" fill="none" stroke="#3b6fa0" stroke-width="4"/>
+<line x1="522" y1="430" x2="515" y2="445" stroke="#3b6fa0" stroke-width="4"/>
+<polygon points="515,445 515.6,429.0 526.9,434.3" fill="#3b6fa0"/>
+<line x1="620" y1="312" x2="800" y2="312" stroke="#b03a2e" stroke-width="4"/>
+<polygon points="800,312 785.3,318.2 785.3,305.8" fill="#b03a2e"/>
+<line x1="230" y1="380" x2="110" y2="380" stroke="#b5651d" stroke-width="5"/>
+<polygon points="110,380 124.7,373.8 124.7,386.2" fill="#b5651d"/>
+<line x1="230" y1="330" x2="120" y2="280" stroke="#b5651d" stroke-width="5"/>
+<polygon points="120,280 136.0,280.4 130.8,291.8" fill="#b5651d"/>
+<line x1="230" y1="430" x2="120" y2="480" stroke="#b5651d" stroke-width="5"/>
+<polygon points="120,480 130.8,468.2 136.0,479.6" fill="#b5651d"/>
+<circle cx="450" cy="380" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="450" y="387" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<circle cx="710" cy="270" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="710" y="277" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<circle cx="170" cy="220" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="170" y="227" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+</svg>
