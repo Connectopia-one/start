@@ -153,7 +153,7 @@ VRAGEN = [
         "Lima in Peru en Rio de Janeiro in Brazilië liggen allebei ongeveer even ver ten zuiden van de evenaar. Lima krijgt bijna geen regen, Rio veel.",
         [
             tabel(
-                "Klopt dit?",
+                "Klopt dit over Lima en Rio?",
                 [
                     ("Langs Lima loopt een koude zeestroom.", J),
                     ("Koud water koelt de onderste lucht af, die dan niet opstijgt.", J),

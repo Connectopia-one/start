@@ -186,7 +186,7 @@ VRAGEN = [
         "Oostende ligt aan zee, Moskou ver landinwaarts. Beide hebben ongeveer dezelfde gemiddelde jaartemperatuur.",
         [
             tabel(
-                "Klopt dit?",
+                "Klopt dit over Oostende en Moskou?",
                 [
                     ("Moskou heeft warmere zomers.", J),
                     ("Moskou heeft koudere winters.", J),

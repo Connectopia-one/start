@@ -191,7 +191,7 @@ VRAGEN = [
                 "Planeten flikkeren nauwelijks en verschuiven tussen de sterren.",
             ),
             tabel(
-                "Klopt dit?",
+                "Klopt dit over wat Ilias ziet?",
                 [
                     ("De twinkelende puntjes zijn sterren buiten ons zonnestelsel.", J),
                     ("Het felle puntje straalt zelf licht uit.", F),

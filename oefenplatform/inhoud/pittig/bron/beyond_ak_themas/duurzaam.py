@@ -213,7 +213,7 @@ VRAGEN = [
         "Zo verdicht je zonder één nieuw gebouw.",
     ),
     koppel(
-        "Koppel elk begrip aan zijn uitleg.",
+        "Koppel elk begrip van duurzaam ruimtegebruik aan zijn uitleg.",
         [
             ("brownfield", "oud industrieterrein dat opnieuw ontwikkeld wordt"),
             ("ontharden", "beton of asfalt weghalen"),

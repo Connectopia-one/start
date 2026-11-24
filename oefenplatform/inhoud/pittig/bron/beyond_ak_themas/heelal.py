@@ -180,7 +180,7 @@ VRAGEN = [
         "Een telescoop fotografeert een sterrenstelsel op 10 miljoen lichtjaar. Op de foto zie je veel jonge, blauwe sterren.",
         [
             tabel(
-                "Klopt dit?",
+                "Klopt dit over die foto?",
                 [
                     ("Het licht was 10 miljoen jaar onderweg.", J),
                     ("Je ziet het stelsel zoals het vandaag is.", F),
@@ -215,7 +215,7 @@ VRAGEN = [
         "2 uur heen en 2 uur terug.",
     ),
     koppel(
-        "Koppel elk begrip aan zijn uitleg.",
+        "Koppel elk begrip over het heelal aan zijn uitleg.",
         [
             ("cluster", "een groep sterrenstelsels die samenhangt door de zwaartekracht"),
             ("supercluster", "een groep van clusters"),

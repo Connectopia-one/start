@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Systeemdenkschema: verharding in een wijk</text>
+<rect x="120" y="130" width="240" height="80" rx="14" fill="#f7f4ea" stroke="#24331b" stroke-width="2"/>
+<text x="240" y="178" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">verharding</text>
+<rect x="120" y="430" width="240" height="80" rx="14" fill="#f7f4ea" stroke="#24331b" stroke-width="2"/>
+<text x="240" y="478" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">groen</text>
+<rect x="520" y="130" width="300" height="80" rx="14" fill="#f7f4ea" stroke="#24331b" stroke-width="2"/>
+<text x="670" y="178" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">afstromend regenwater</text>
+<rect x="520" y="430" width="300" height="80" rx="14" fill="#f7f4ea" stroke="#24331b" stroke-width="2"/>
+<text x="670" y="478" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">wateroverlast</text>
+<line x1="365" y1="170" x2="515" y2="170" stroke="#24331b" stroke-width="3"/>
+<polygon points="515,170 500.3,176.2 500.3,163.8" fill="#24331b"/>
+<line x1="670" y1="215" x2="670" y2="425" stroke="#24331b" stroke-width="3"/>
+<polygon points="670,425 663.8,410.3 676.2,410.3" fill="#24331b"/>
+<line x1="240" y1="425" x2="240" y2="215" stroke="#24331b" stroke-width="3"/>
+<polygon points="240,215 246.2,229.7 233.8,229.7" fill="#24331b"/>
+<text x="440" y="158" font-size="30" text-anchor="middle" fill="#24331b" font-weight="bold">+</text>
+<text x="690" y="330" font-size="30" text-anchor="middle" fill="#24331b" font-weight="bold">+</text>
+<text x="215" y="330" font-size="30" text-anchor="middle" fill="#24331b" font-weight="bold">?</text>
+<circle cx="440" cy="230" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="440" y="237" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">P</text>
+<circle cx="740" cy="320" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="740" y="327" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">Q</text>
+<circle cx="170" cy="320" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="170" y="327" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">R</text>
+</svg>

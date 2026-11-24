@@ -41,6 +41,12 @@ export const nieuwTekst = {
 export const updates: Update[] = [
   {
     datum: "24 november 2026",
+    titel: "Pittige hoofdstukken aardrijkskunde in Beyond doorstroom",
+    tekst:
+      "Aardrijkskunde in Beyond doorstroom heeft nu bij elk van de 21 onderwerpen een pittig hoofdstuk van 30 vragen, in examenvorm: van het heelal, de seizoenen en de maan over luchtdruk, neerslag en het weer in Europa tot platentektoniek, vulkanen, gesteenten, erosie, klimaatverandering, ruimtegebruik en het landschap lezen. Bij elk onderwerp zijn er kaarten, doorsneden en grafieken waarop je moet klikken.",
+  },
+  {
+    datum: "24 november 2026",
     titel: "Pittige hoofdstukken natuurwetenschappen in Boost doorstroom",
     tekst:
       "Natuurwetenschappen in Boost doorstroom heeft nu bij elk van de 21 onderwerpen een pittig hoofdstuk van 30 vragen, in examenvorm: van planten, zenuwstelsel en ecosystemen over atomen, bindingen en zuren tot krachten, druk, energie, warmte en elektriciteit, en ook eerste hulp en onderzoek. Bij elk onderwerp zijn er tekeningen en grafieken waarop je moet klikken.",

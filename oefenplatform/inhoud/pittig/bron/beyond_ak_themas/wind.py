@@ -59,7 +59,7 @@ VRAGEN = [
         "In het centrum van een hogedrukgebied daalt de lucht.",
     ),
     met_prent(IK.bestand, tabel(
-        "Kijk naar de kaart. Klopt dit?",
+        "Kijk naar de kaart met isobaren. Klopt dit?",
         [
             ("Rond L draait de wind tegen de klok in.", J),
             ("Rond H draait de wind met de klok mee.", J),
@@ -192,7 +192,7 @@ VRAGEN = [
         "Een smalle band zeer snelle hoogtewind.",
     ),
     koppel(
-        "Koppel elk begrip aan zijn uitleg.",
+        "Koppel elk begrip over wind aan zijn uitleg.",
         [
             ("isobaar", "lijn van gelijke luchtdruk"),
             ("schaal van Beaufort", "windkracht van 0 tot 12"),

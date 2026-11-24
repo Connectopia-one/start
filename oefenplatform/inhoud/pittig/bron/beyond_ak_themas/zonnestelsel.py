@@ -243,7 +243,7 @@ VRAGEN = [
                 "Een komeet laat stof achter langs haar baan.",
             ),
             tabel(
-                "Klopt dit?",
+                "Klopt dit over de Perseïden?",
                 [
                     ("Elke vallende ster is een meteoor.", J),
                     ("De meeste brokjes verbranden helemaal in de atmosfeer.", J),

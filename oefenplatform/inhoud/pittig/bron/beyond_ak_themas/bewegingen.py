@@ -148,7 +148,7 @@ VRAGEN = [
                 "Oostwaarts over de datumgrens ga je een dag terug.",
             ),
             tabel(
-                "Klopt dit?",
+                "Klopt dit over de reis van Jana?",
                 [
                     ("De datumgrens volgt ruwweg de 180ste meridiaan.", J),
                     ("Westwaarts over de grens sla je een dag over.", J),

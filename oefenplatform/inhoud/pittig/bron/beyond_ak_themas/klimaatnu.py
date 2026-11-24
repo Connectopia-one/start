@@ -253,7 +253,7 @@ VRAGEN = [
         "Vervoer, verwarming en voeding wegen het meest.",
     ),
     tabel(
-        "Is dit een broeikasgas?",
+        "Houdt dit gas warmtestraling tegen?",
         [
             ("waterdamp", J),
             ("methaan", J),

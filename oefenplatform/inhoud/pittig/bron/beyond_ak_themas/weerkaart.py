@@ -229,7 +229,7 @@ VRAGEN = [
         kolommen=["Arctisch", "Polair", "Tropisch"],
     ),
     met_prent(DP.bestand, tabel(
-        "Kijk naar de kaart. Klopt dit?",
+        "Kijk naar de kaart met de fronten. Klopt dit?",
         [
             ("Het warmtefront heeft rode halve cirkels.", J),
             ("Het koufront heeft blauwe driehoekjes.", J),

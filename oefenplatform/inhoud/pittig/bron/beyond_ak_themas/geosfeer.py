@@ -59,7 +59,7 @@ VRAGEN = [
         "De mantel is bijna 2 900 km dik.",
     ),
     met_prent(DA.bestand, tabel(
-        "Kijk naar de doorsnede. Welke letter hoort bij welke laag?",
+        "Kijk naar de doorsnede van de aarde. Welke letter hoort bij welke laag?",
         [
             ("korst", "A"),
             ("mantel", "B"),
@@ -143,7 +143,7 @@ VRAGEN = [
         "Dat dwarsgolven de buitenkern niet halen, bewijst dat die vloeibaar is.",
     ),
     koppel(
-        "Koppel elk begrip aan zijn uitleg.",
+        "Koppel elk begrip over de geosfeer aan zijn uitleg.",
         [
             ("seismograaf", "toestel dat bodembewegingen optekent"),
             ("isostasie", "evenwicht van de korst op de mantel"),
@@ -171,7 +171,7 @@ VRAGEN = [
                 "Die last is weggesmolten.",
             ),
             tabel(
-                "Klopt dit?",
+                "Klopt dit over Scandinavië?",
                 [
                     ("De korst veert langzaam terug omhoog.", J),
                     ("Dat is een gevolg van isostasie.", J),
