@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Zuurstofproductie van een waterplant bij toenemende lichtsterkte</text>
+<line x1="150.0" y1="90" x2="150.0" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="150.0" y="489.0" font-size="15" text-anchor="middle" fill="#24331b">0</text>
+<line x1="225.0" y1="90" x2="225.0" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="225.0" y="489.0" font-size="15" text-anchor="middle" fill="#24331b">10</text>
+<line x1="300.0" y1="90" x2="300.0" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="300.0" y="489.0" font-size="15" text-anchor="middle" fill="#24331b">20</text>
+<line x1="375.0" y1="90" x2="375.0" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="375.0" y="489.0" font-size="15" text-anchor="middle" fill="#24331b">30</text>
+<line x1="450.0" y1="90" x2="450.0" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="450.0" y="489.0" font-size="15" text-anchor="middle" fill="#24331b">40</text>
+<line x1="525.0" y1="90" x2="525.0" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="525.0" y="489.0" font-size="15" text-anchor="middle" fill="#24331b">50</text>
+<line x1="600.0" y1="90" x2="600.0" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="600.0" y="489.0" font-size="15" text-anchor="middle" fill="#24331b">60</text>
+<line x1="675.0" y1="90" x2="675.0" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="675.0" y="489.0" font-size="15" text-anchor="middle" fill="#24331b">70</text>
+<line x1="750.0" y1="90" x2="750.0" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="750.0" y="489.0" font-size="15" text-anchor="middle" fill="#24331b">80</text>
+<line x1="825.0" y1="90" x2="825.0" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="825.0" y="489.0" font-size="15" text-anchor="middle" fill="#24331b">90</text>
+<line x1="900.0" y1="90" x2="900.0" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="900.0" y="489.0" font-size="15" text-anchor="middle" fill="#24331b">100</text>
+<line x1="150" y1="540.0" x2="900" y2="540.0" stroke="#e4e1d6" stroke-width="1"/>
+<text x="140" y="545.0" font-size="15" text-anchor="end" fill="#24331b">−10</text>
+<line x1="150" y1="465.0" x2="900" y2="465.0" stroke="#e4e1d6" stroke-width="1"/>
+<text x="140" y="470.0" font-size="15" text-anchor="end" fill="#24331b">0</text>
+<line x1="150" y1="390.0" x2="900" y2="390.0" stroke="#e4e1d6" stroke-width="1"/>
+<text x="140" y="395.0" font-size="15" text-anchor="end" fill="#24331b">10</text>
+<line x1="150" y1="315.0" x2="900" y2="315.0" stroke="#e4e1d6" stroke-width="1"/>
+<text x="140" y="320.0" font-size="15" text-anchor="end" fill="#24331b">20</text>
+<line x1="150" y1="240.0" x2="900" y2="240.0" stroke="#e4e1d6" stroke-width="1"/>
+<text x="140" y="245.0" font-size="15" text-anchor="end" fill="#24331b">30</text>
+<line x1="150" y1="165.0" x2="900" y2="165.0" stroke="#e4e1d6" stroke-width="1"/>
+<text x="140" y="170.0" font-size="15" text-anchor="end" fill="#24331b">40</text>
+<line x1="150" y1="90.0" x2="900" y2="90.0" stroke="#e4e1d6" stroke-width="1"/>
+<text x="140" y="95.0" font-size="15" text-anchor="end" fill="#24331b">50</text>
+<line x1="150" y1="465.0" x2="910" y2="465.0" stroke="#24331b" stroke-width="2"/>
+<line x1="150" y1="540" x2="150" y2="80" stroke="#24331b" stroke-width="2"/>
+<text x="905" y="455.0" font-size="16" text-anchor="end" fill="#24331b">lichtsterkte</text>
+<text x="142" y="70" font-size="16" text-anchor="start" fill="#24331b">netto zuurstof</text>
+<path d="M150.0 525.0 L 157.5 508.8 L 165.0 493.3 L 172.5 478.4 L 180.0 464.0 L 187.5 450.2 L 195.0 437.0 L 202.5 424.3 L 210.0 412.0 L 217.5 400.3 L 225.0 389.0 L 232.5 378.2 L 240.0 367.7 L 247.5 357.7 L 255.0 348.1 L 262.5 338.9 L 270.0 330.0 L 277.5 321.5 L 285.0 313.3 L 292.5 305.4 L 300.0 297.8 L 307.5 290.6 L 315.0 283.6 L 322.5 276.9 L 330.0 270.4 L 337.5 264.3 L 345.0 258.3 L 352.5 252.6 L 360.0 247.1 L 367.5 241.8 L 375.0 236.7 L 382.5 231.9 L 390.0 227.2 L 397.5 222.7 L 405.0 218.4 L 412.5 214.2 L 420.0 210.2 L 427.5 206.4 L 435.0 202.7 L 442.5 199.2 L 450.0 195.8 L 457.5 192.5 L 465.0 189.4 L 472.5 186.4 L 480.0 183.5 L 487.5 180.7 L 495.0 178.0 L 502.5 175.4 L 510.0 173.0 L 517.5 170.6 L 525.0 168.3 L 532.5 166.1 L 540.0 164.0 L 547.5 162.0 L 555.0 160.1 L 562.5 158.2 L 570.0 156.4 L 577.5 154.7 L 585.0 153.0 L 592.5 151.4 L 600.0 149.9 L 607.5 148.5 L 615.0 147.0 L 622.5 145.7 L 630.0 144.4 L 637.5 143.1 L 645.0 141.9 L 652.5 140.8 L 660.0 139.7 L 667.5 138.6 L 675.0 137.6 L 682.5 136.6 L 690.0 135.7 L 697.5 134.7 L 705.0 133.9 L 712.5 133.0 L 720.0 132.2 L 727.5 131.5 L 735.0 130.7 L 742.5 130.0 L 750.0 129.3 L 757.5 128.7 L 765.0 128.0 L 772.5 127.4 L 780.0 126.8 L 787.5 126.3 L 795.0 125.7 L 802.5 125.2 L 810.0 124.7 L 817.5 124.2 L 825.0 123.8 L 832.5 123.3 L 840.0 122.9 L 847.5 122.5 L 855.0 122.1 L 862.5 121.7 L 870.0 121.4 L 877.5 121.0 L 885.0 120.7 L 892.5 120.4 L 900.0 120.1" fill="none" stroke="#2f4a22" stroke-width="4"/>
+<line x1="150.0" y1="465.0" x2="900.0" y2="465.0" stroke="#24331b" stroke-width="2"/>
+<circle cx="150.0" cy="525.0" r="6" fill="#b5651d" stroke="#24331b" stroke-width="1"/>
+<circle cx="200.0" cy="535.0" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="200.0" y="542.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">P</text>
+<circle cx="183.75" cy="457.0489622071497" r="6" fill="#b5651d" stroke="#24331b" stroke-width="1"/>
+<circle cx="243.75" cy="417.0489622071497" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="243.75" y="424.0489622071497" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">Q</text>
+<circle cx="862.5" cy="121.72794339066837" r="6" fill="#b5651d" stroke="#24331b" stroke-width="1"/>
+<circle cx="862.5" cy="81.72794339066837" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="862.5" y="88.72794339066837" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">R</text>
+</svg>
