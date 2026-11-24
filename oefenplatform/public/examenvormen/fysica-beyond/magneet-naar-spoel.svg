@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Een magneet beweegt met zijn noordpool naar een gesloten spoel</text>
+<rect x="80" y="300" width="120" height="60" rx="4" fill="#3b6fa0" stroke="#24331b" stroke-width="2"/>
+<rect x="200" y="300" width="120" height="60" rx="4" fill="#b03a2e" stroke="#24331b" stroke-width="2"/>
+<text x="140" y="340" font-size="26" text-anchor="middle" fill="#ffffff" font-weight="bold">Z</text>
+<text x="260" y="340" font-size="26" text-anchor="middle" fill="#ffffff" font-weight="bold">N</text>
+<line x1="150" y1="260" x2="290" y2="260" stroke="#24331b" stroke-width="4"/>
+<polygon points="290,260 275.3,266.2 275.3,253.8" fill="#24331b"/>
+<text x="220" y="240" font-size="18" text-anchor="middle" fill="#24331b">beweging</text>
+<ellipse cx="500" cy="330" rx="18" ry="80" fill="none" stroke="#b5b5b5" stroke-width="2"/>
+<path d="M 500 250 A 18 80 0 0 1 500 410" fill="none" stroke="#24331b" stroke-width="3"/>
+<ellipse cx="532" cy="330" rx="18" ry="80" fill="none" stroke="#b5b5b5" stroke-width="2"/>
+<path d="M 532 250 A 18 80 0 0 1 532 410" fill="none" stroke="#24331b" stroke-width="3"/>
+<ellipse cx="564" cy="330" rx="18" ry="80" fill="none" stroke="#b5b5b5" stroke-width="2"/>
+<path d="M 564 250 A 18 80 0 0 1 564 410" fill="none" stroke="#24331b" stroke-width="3"/>
+<ellipse cx="596" cy="330" rx="18" ry="80" fill="none" stroke="#b5b5b5" stroke-width="2"/>
+<path d="M 596 250 A 18 80 0 0 1 596 410" fill="none" stroke="#24331b" stroke-width="3"/>
+<ellipse cx="628" cy="330" rx="18" ry="80" fill="none" stroke="#b5b5b5" stroke-width="2"/>
+<path d="M 628 250 A 18 80 0 0 1 628 410" fill="none" stroke="#24331b" stroke-width="3"/>
+<ellipse cx="660" cy="330" rx="18" ry="80" fill="none" stroke="#b5b5b5" stroke-width="2"/>
+<path d="M 660 250 A 18 80 0 0 1 660 410" fill="none" stroke="#24331b" stroke-width="3"/>
+<ellipse cx="692" cy="330" rx="18" ry="80" fill="none" stroke="#b5b5b5" stroke-width="2"/>
+<path d="M 692 250 A 18 80 0 0 1 692 410" fill="none" stroke="#24331b" stroke-width="3"/>
+<ellipse cx="724" cy="330" rx="18" ry="80" fill="none" stroke="#b5b5b5" stroke-width="2"/>
+<path d="M 724 250 A 18 80 0 0 1 724 410" fill="none" stroke="#24331b" stroke-width="3"/>
+<ellipse cx="756" cy="330" rx="18" ry="80" fill="none" stroke="#b5b5b5" stroke-width="2"/>
+<path d="M 756 250 A 18 80 0 0 1 756 410" fill="none" stroke="#24331b" stroke-width="3"/>
+<line x1="500" y1="410" x2="500" y2="520" stroke="#24331b" stroke-width="3"/>
+<line x1="756" y1="250" x2="756" y2="180" stroke="#24331b" stroke-width="3"/>
+<line x1="756" y1="180" x2="900" y2="180" stroke="#24331b" stroke-width="3"/>
+<line x1="900" y1="180" x2="900" y2="470" stroke="#24331b" stroke-width="3"/>
+<line x1="500" y1="520" x2="900" y2="520" stroke="#24331b" stroke-width="3"/>
+<circle cx="900" cy="470" r="34" fill="#ffffff" stroke="#24331b" stroke-width="3"/>
+<text x="900" y="480" font-size="26" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<line x1="900" y1="504" x2="900" y2="520" stroke="#24331b" stroke-width="3"/>
+<circle cx="440" cy="330" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="440" y="337" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">X</text>
+<circle cx="820" cy="330" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="820" y="337" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">Y</text>
+</svg>
