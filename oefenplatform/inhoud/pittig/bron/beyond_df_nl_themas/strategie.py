@@ -32,7 +32,7 @@ VRAGEN = [
     mk("Je hoort een lezing van twintig minuten. Hoe noteer je het best?",
        ["in steekwoorden, met ruimte om later aan te vullen", "elk woord dat de spreker zegt, in volledige zinnen", "niets, want je onthoudt het achteraf toch wel", "enkel de grappige voorbeelden van de spreker"], 0,
        "Bij luisteren kan je niet terugspoelen, dus noteer je kort."),
-    tabel("Klopt dit over notities?", [
+    tabel("Klopt dit over goede notities bij een les?", [
         ("Eigen afkortingen die je altijd gebruikt, maken notities sneller.", J),
         ("Notities van iemand anders werken even goed als je eigen notities.", F),
         ("Je leest je notities best meteen na de les na en vult ze aan.", J),

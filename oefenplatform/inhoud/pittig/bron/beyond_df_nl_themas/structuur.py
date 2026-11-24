@@ -75,7 +75,7 @@ VRAGEN = kies(D.VRAGEN, [1, 5, 9]) + [
     keuze("In « Mijn broer en zijn vriend gingen vissen. Hij ving niets. » is « hij » [[*dubbelzinnig|duidelijk]].", "Hij kan op de broer en op de vriend slaan."),
     inv("Geef een signaalwoord dat een voorbeeld aankondigt.", ["bijvoorbeeld", "zoals", "zo", "onder andere", "bv."], "Bijvoorbeeld en zoals zijn de bekendste."),
     tabel("Is het verwijswoord correct gebruikt?", [
-        ("« Het team won. Ze vierden het feest. »", J), ("« De leerling vergat zijn boek. Ze moest terug naar huis. »", F),
+        ("« De spelers wonnen. Ze vierden het feest. »", J), ("« De leerling vergat zijn boek. Ze moest terug naar huis. »", F),
         ("« De meisjes kwamen binnen. Ze gingen zitten. »", J),
     ], "Het verwijswoord moet in getal en geslacht passen bij waarnaar het verwijst."),
 ]
