@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Doorsnede van de aarde (dikte van de korst overdreven)</text>
+<path d="M120 600 L 640 600 A 520 520 0 0 0 120 80 Z" fill="#a0826d" stroke="#24331b" stroke-width="1"/>
+<path d="M120 600 L 618 600 A 498 498 0 0 0 120 102 Z" fill="#e0a15a" stroke="#24331b" stroke-width="1"/>
+<path d="M120 600 L 403.265306122449 600 A 283.265306122449 283.265306122449 0 0 0 120 316.734693877551 Z" fill="#f2c14e" stroke="#24331b" stroke-width="1"/>
+<path d="M120 600 L 219.59183673469386 600 A 99.59183673469387 99.59183673469387 0 0 0 120 500.40816326530614 Z" fill="#f6e27a" stroke="#24331b" stroke-width="1"/>
+<text x="409.265306122449" y="624" font-size="14" text-anchor="start" fill="#24331b">2 900 km</text>
+<text x="225.59183673469386" y="624" font-size="14" text-anchor="start" fill="#24331b">5 100 km</text>
+<text x="646" y="624" font-size="14" text-anchor="start" fill="#24331b">0 km</text>
+<line x1="479.9173516239527" y1="240.08264837604736" x2="599.9173516239528" y2="150.08264837604736" stroke="#24331b" stroke-width="1"/>
+<circle cx="619.9173516239528" cy="140.08264837604736" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="619.9173516239528" y="147.08264837604736" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<circle cx="396.2189979324838" cy="323.7810020675162" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="396.2189979324838" y="330.7810020675162" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<circle cx="255.36044096999623" cy="464.63955903000374" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="255.36044096999623" y="471.63955903000374" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<circle cx="155.21103155296277" cy="564.7889684470372" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="155.21103155296277" y="571.7889684470372" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">D</text>
+</svg>
