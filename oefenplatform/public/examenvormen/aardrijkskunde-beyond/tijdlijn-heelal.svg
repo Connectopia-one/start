@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Tijdlijn van het heelal, in miljard jaar na de oerknal</text>
+<line x1="100" y1="330" x2="900" y2="330" stroke="#24331b" stroke-width="4"/>
+<line x1="100.0" y1="322" x2="100.0" y2="338" stroke="#24331b" stroke-width="2"/>
+<text x="100.0" y="364" font-size="16" text-anchor="middle" fill="#24331b">0</text>
+<line x1="215.94202898550725" y1="322" x2="215.94202898550725" y2="338" stroke="#24331b" stroke-width="2"/>
+<text x="215.94202898550725" y="364" font-size="16" text-anchor="middle" fill="#24331b">2</text>
+<line x1="331.8840579710145" y1="322" x2="331.8840579710145" y2="338" stroke="#24331b" stroke-width="2"/>
+<text x="331.8840579710145" y="364" font-size="16" text-anchor="middle" fill="#24331b">4</text>
+<line x1="447.82608695652175" y1="322" x2="447.82608695652175" y2="338" stroke="#24331b" stroke-width="2"/>
+<text x="447.82608695652175" y="364" font-size="16" text-anchor="middle" fill="#24331b">6</text>
+<line x1="563.768115942029" y1="322" x2="563.768115942029" y2="338" stroke="#24331b" stroke-width="2"/>
+<text x="563.768115942029" y="364" font-size="16" text-anchor="middle" fill="#24331b">8</text>
+<line x1="679.7101449275362" y1="322" x2="679.7101449275362" y2="338" stroke="#24331b" stroke-width="2"/>
+<text x="679.7101449275362" y="364" font-size="16" text-anchor="middle" fill="#24331b">10</text>
+<line x1="795.6521739130435" y1="322" x2="795.6521739130435" y2="338" stroke="#24331b" stroke-width="2"/>
+<text x="795.6521739130435" y="364" font-size="16" text-anchor="middle" fill="#24331b">12</text>
+<line x1="900.0" y1="316" x2="900.0" y2="344" stroke="#24331b" stroke-width="3"/>
+<line x1="100.0" y1="330" x2="100.0" y2="240" stroke="#d9d4c4" stroke-width="2" stroke-dasharray="8 6"/>
+<circle cx="100.0" cy="330" r="9" fill="#b5651d" stroke="#24331b" stroke-width="2"/>
+<circle cx="100.0" cy="220" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="100.0" y="227" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<line x1="123.18840579710145" y1="330" x2="123.18840579710145" y2="430" stroke="#d9d4c4" stroke-width="2" stroke-dasharray="8 6"/>
+<circle cx="123.18840579710145" cy="330" r="9" fill="#b5651d" stroke="#24331b" stroke-width="2"/>
+<circle cx="123.18840579710145" cy="450" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="123.18840579710145" y="457" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<line x1="633.3333333333333" y1="330" x2="633.3333333333333" y2="240" stroke="#d9d4c4" stroke-width="2" stroke-dasharray="8 6"/>
+<circle cx="633.3333333333333" cy="330" r="9" fill="#b5651d" stroke="#24331b" stroke-width="2"/>
+<circle cx="633.3333333333333" cy="220" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="633.3333333333333" y="227" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<line x1="900.0" y1="330" x2="900.0" y2="430" stroke="#d9d4c4" stroke-width="2" stroke-dasharray="8 6"/>
+<circle cx="900.0" cy="330" r="9" fill="#b5651d" stroke="#24331b" stroke-width="2"/>
+<circle cx="900.0" cy="450" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="900.0" y="457" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">D</text>
+</svg>

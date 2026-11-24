@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Het Melkwegstelsel van bovenaf gezien (vereenvoudigd)</text>
+<circle cx="500" cy="350" r="250" fill="#f2f0ea" stroke="none" stroke-width="2"/>
+<path d="M530 350 L 533 353 L 535 356 L 537 360 L 539 364 L 540 368 L 540 373 L 540 378 L 539 383 L 538 388 L 536 393 L 533 398 L 530 403 L 526 408 L 521 413 L 516 417 L 510 420 L 503 424 L 496 426 L 488 428 L 480 430 L 472 430 L 464 430 L 455 429 L 446 427 L 437 424 L 428 420 L 420 416 L 412 410 L 404 404 L 397 396 L 390 388 L 384 379 L 379 370 L 375 360 L 372 349 L 370 338 L 369 326 L 369 314 L 370 302 L 373 290 L 376 278 L 381 266 L 388 255 L 395 244 L 404 233 L 414 223 L 425 214 L 437 206 L 450 198 L 464 192 L 479 187 L 494 183 L 510 181 L 527 180 L 543 180 L 560 182 L 577 185 L 594 190 L 610 197 L 626 205 L 641 214 L 655 225 L 669 237 L 681 251 L 692 265 L 702 281 L 711 298 L 717 316 L 723 334 L 726 354 L 727 373 L 727 393 L 725 413 L 721 433 L 714 453 L 706 472 L 696 491 L 684 509 L 670 526" fill="none" stroke="#9aa6c4" stroke-width="26"/>
+<path d="M470 350 L 467 347 L 465 344 L 463 340 L 461 336 L 460 332 L 460 327 L 460 322 L 461 317 L 462 312 L 464 307 L 467 302 L 470 297 L 474 292 L 479 287 L 484 283 L 490 280 L 497 276 L 504 274 L 512 272 L 520 270 L 528 270 L 536 270 L 545 271 L 554 273 L 563 276 L 572 280 L 580 284 L 588 290 L 596 296 L 603 304 L 610 312 L 616 321 L 621 330 L 625 340 L 628 351 L 630 362 L 631 374 L 631 386 L 630 398 L 627 410 L 624 422 L 619 434 L 612 445 L 605 456 L 596 467 L 586 477 L 575 486 L 563 494 L 550 502 L 536 508 L 521 513 L 506 517 L 490 519 L 473 520 L 457 520 L 440 518 L 423 515 L 406 510 L 390 503 L 374 495 L 359 486 L 345 475 L 331 463 L 319 449 L 308 435 L 298 419 L 289 402 L 283 384 L 277 366 L 274 346 L 273 327 L 273 307 L 275 287 L 279 267 L 286 247 L 294 228 L 304 209 L 316 191 L 330 174" fill="none" stroke="#9aa6c4" stroke-width="26"/>
+<ellipse cx="500" cy="350" rx="60" ry="45" fill="#e8d9a8" stroke="#24331b" stroke-width="2"/>
+<circle cx="500" cy="350" r="8" fill="#b5651d" stroke="#24331b" stroke-width="2"/>
+<circle cx="534" cy="324" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="534" y="331" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<circle cx="367.7904922973481" cy="171.2064512324264" r="8" fill="#b5651d" stroke="#24331b" stroke-width="2"/>
+<circle cx="401.7904922973481" cy="145.2064512324264" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="401.7904922973481" y="152.2064512324264" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<circle cx="595.9403707379896" cy="466.85944270596207" r="8" fill="#b03a2e" stroke="#24331b" stroke-width="2"/>
+<circle cx="629.9403707379896" cy="440.85944270596207" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="629.9403707379896" y="447.85944270596207" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<text x="860" y="600" font-size="16" text-anchor="end" fill="#24331b">doorsnede ongeveer 100 000 lichtjaar</text>
+</svg>
