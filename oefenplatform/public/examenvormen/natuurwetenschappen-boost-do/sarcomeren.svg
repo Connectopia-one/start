@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Twee keer hetzelfde stukje spierfibril</text>
+<line x1="150" y1="165" x2="420" y2="165" stroke="#b5651d" stroke-width="4"/>
+<line x1="850" y1="165" x2="580" y2="165" stroke="#b5651d" stroke-width="4"/>
+<line x1="150" y1="215" x2="420" y2="215" stroke="#b5651d" stroke-width="4"/>
+<line x1="850" y1="215" x2="580" y2="215" stroke="#b5651d" stroke-width="4"/>
+<rect x="330" y="132" width="340" height="16" rx="6" fill="#7a4b8c" stroke="#24331b" stroke-width="1"/>
+<rect x="330" y="182" width="340" height="16" rx="6" fill="#7a4b8c" stroke="#24331b" stroke-width="1"/>
+<rect x="330" y="232" width="340" height="16" rx="6" fill="#7a4b8c" stroke="#24331b" stroke-width="1"/>
+<rect x="144" y="110" width="12" height="160" rx="0" fill="#24331b" stroke="#24331b" stroke-width="2"/>
+<rect x="844" y="110" width="12" height="160" rx="0" fill="#24331b" stroke="#24331b" stroke-width="2"/>
+<line x1="250" y1="435" x2="490" y2="435" stroke="#b5651d" stroke-width="4"/>
+<line x1="750" y1="435" x2="510" y2="435" stroke="#b5651d" stroke-width="4"/>
+<line x1="250" y1="485" x2="490" y2="485" stroke="#b5651d" stroke-width="4"/>
+<line x1="750" y1="485" x2="510" y2="485" stroke="#b5651d" stroke-width="4"/>
+<rect x="330" y="402" width="340" height="16" rx="6" fill="#7a4b8c" stroke="#24331b" stroke-width="1"/>
+<rect x="330" y="452" width="340" height="16" rx="6" fill="#7a4b8c" stroke="#24331b" stroke-width="1"/>
+<rect x="330" y="502" width="340" height="16" rx="6" fill="#7a4b8c" stroke="#24331b" stroke-width="1"/>
+<rect x="244" y="380" width="12" height="160" rx="0" fill="#24331b" stroke="#24331b" stroke-width="2"/>
+<rect x="744" y="380" width="12" height="160" rx="0" fill="#24331b" stroke="#24331b" stroke-width="2"/>
+<circle cx="70" cy="190" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="70" y="197" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<circle cx="70" cy="460" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="70" y="467" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+</svg>
