@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Drukgordels en winden aan de grond op het noordelijk halfrond</text>
+<rect x="230" y="70" width="530" height="520" rx="0" fill="#eef5fa" stroke="#24331b" stroke-width="2"/>
+<line x1="230" y1="590.0" x2="760" y2="590.0" stroke="#3b6fa0" stroke-width="3"/>
+<text x="218" y="595.0" font-size="16" text-anchor="end" fill="#24331b">0°</text>
+<text x="772" y="595.0" font-size="16" text-anchor="start" fill="#3b6fa0">equatoriaal minimum</text>
+<line x1="230" y1="416.6666666666667" x2="760" y2="416.6666666666667" stroke="#b03a2e" stroke-width="3"/>
+<text x="218" y="421.6666666666667" font-size="16" text-anchor="end" fill="#24331b">30°</text>
+<text x="772" y="421.6666666666667" font-size="16" text-anchor="start" fill="#b03a2e">subtropisch maximum</text>
+<line x1="230" y1="243.33333333333337" x2="760" y2="243.33333333333337" stroke="#3b6fa0" stroke-width="3"/>
+<text x="218" y="248.33333333333337" font-size="16" text-anchor="end" fill="#24331b">60°</text>
+<text x="772" y="248.33333333333337" font-size="16" text-anchor="start" fill="#3b6fa0">subpolair minimum</text>
+<line x1="230" y1="70.0" x2="760" y2="70.0" stroke="#b03a2e" stroke-width="3"/>
+<text x="218" y="75.0" font-size="16" text-anchor="end" fill="#24331b">90°</text>
+<text x="772" y="75.0" font-size="16" text-anchor="start" fill="#b03a2e">polair maximum</text>
+<line x1="365.0" y1="478.33333333333337" x2="295.0" y2="528.3333333333334" stroke="#24331b" stroke-width="3"/>
+<polygon points="295.0,528.3333333333334 303.4,514.7 310.6,524.8" fill="#24331b"/>
+<line x1="525.0" y1="478.33333333333337" x2="455.0" y2="528.3333333333334" stroke="#24331b" stroke-width="3"/>
+<polygon points="455.0,528.3333333333334 463.4,514.7 470.6,524.8" fill="#24331b"/>
+<line x1="685.0" y1="478.33333333333337" x2="615.0" y2="528.3333333333334" stroke="#24331b" stroke-width="3"/>
+<polygon points="615.0,528.3333333333334 623.4,514.7 630.6,524.8" fill="#24331b"/>
+<line x1="295.0" y1="355.0" x2="365.0" y2="305.0" stroke="#24331b" stroke-width="3"/>
+<polygon points="365.0,305.0 356.6,318.6 349.4,308.5" fill="#24331b"/>
+<line x1="455.0" y1="355.0" x2="525.0" y2="305.0" stroke="#24331b" stroke-width="3"/>
+<polygon points="525.0,305.0 516.6,318.6 509.4,308.5" fill="#24331b"/>
+<line x1="615.0" y1="355.0" x2="685.0" y2="305.0" stroke="#24331b" stroke-width="3"/>
+<polygon points="685.0,305.0 676.6,318.6 669.4,308.5" fill="#24331b"/>
+<line x1="365.0" y1="131.66666666666669" x2="295.0" y2="181.66666666666669" stroke="#24331b" stroke-width="3"/>
+<polygon points="295.0,181.66666666666669 303.4,168.0 310.6,178.2" fill="#24331b"/>
+<line x1="525.0" y1="131.66666666666669" x2="455.0" y2="181.66666666666669" stroke="#24331b" stroke-width="3"/>
+<polygon points="455.0,181.66666666666669 463.4,168.0 470.6,178.2" fill="#24331b"/>
+<line x1="685.0" y1="131.66666666666669" x2="615.0" y2="181.66666666666669" stroke="#24331b" stroke-width="3"/>
+<polygon points="615.0,181.66666666666669 623.4,168.0 630.6,178.2" fill="#24331b"/>
+<circle cx="260" cy="463.33333333333337" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="260" y="470.33333333333337" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">P</text>
+<circle cx="260" cy="290.0" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="260" y="297.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">Q</text>
+<circle cx="260" cy="116.66666666666669" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="260" y="123.66666666666669" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">R</text>
+<text x="760" y="622" font-size="15" text-anchor="end" fill="#24331b">pijlen = windrichting aan de grond, noord is boven</text>
+</svg>
