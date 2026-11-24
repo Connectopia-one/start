@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Zeestromen in het noorden van de Atlantische Oceaan (schematisch)</text>
+<rect x="40" y="70" width="920" height="520" rx="0" fill="#e3f0f7" stroke="none" stroke-width="2"/>
+<path d="M40 70 L 260 70 L 300 200 L 230 330 L 260 450 L 200 590 L 40 590 Z" fill="#d8cfae" stroke="#24331b" stroke-width="2"/>
+<path d="M960 70 L 760 70 L 700 170 L 760 260 L 720 330 L 790 420 L 760 590 L 960 590 Z" fill="#d8cfae" stroke="#24331b" stroke-width="2"/>
+<text x="130" y="330" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">Amerika</text>
+<text x="860" y="180" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">Europa</text>
+<text x="870" y="480" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">Afrika</text>
+<path d="M320 500 C 300 400 320 330 380 260" fill="none" stroke="#b03a2e" stroke-width="7"/>
+<line x1="370" y1="272" x2="382" y2="258" stroke="#b03a2e" stroke-width="7"/>
+<polygon points="382,258 377.1,273.2 367.7,265.1" fill="#b03a2e"/>
+<path d="M400 240 C 500 180 600 150 690 150" fill="none" stroke="#b03a2e" stroke-width="7"/>
+<line x1="675" y1="152" x2="695" y2="150" stroke="#b03a2e" stroke-width="7"/>
+<polygon points="695,150 681.0,157.7 679.7,145.3" fill="#b03a2e"/>
+<path d="M740 340 C 700 420 690 480 640 540" fill="none" stroke="#3b6fa0" stroke-width="7"/>
+<line x1="650" y1="528" x2="636" y2="546" stroke="#3b6fa0" stroke-width="7"/>
+<polygon points="636,546 640.1,530.5 650.0,538.2" fill="#3b6fa0"/>
+<path d="M380 90 C 340 120 320 160 310 200" fill="none" stroke="#3b6fa0" stroke-width="7"/>
+<line x1="313" y1="186" x2="309" y2="206" stroke="#3b6fa0" stroke-width="7"/>
+<polygon points="309,206 305.8,190.3 318.0,192.8" fill="#3b6fa0"/>
+<circle cx="370" cy="420" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="370" y="427" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">P</text>
+<circle cx="540" cy="120" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="540" y="127" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">Q</text>
+<circle cx="640" cy="440" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="640" y="447" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">R</text>
+<circle cx="400" cy="150" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="400" y="157" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">S</text>
+<text x="500" y="615" font-size="15" text-anchor="middle" fill="#24331b">rood = warme stroom, blauw = koude stroom</text>
+</svg>
