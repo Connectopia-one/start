@@ -110,12 +110,19 @@ export async function registreerExamen(
   niveau: string,
   aantal: number,
   juist: number,
+  // Per vraag: v = vraag_id, j = juist, g = wat het kind antwoordde.
+  antwoorden: { v: string; j: boolean; g: string | number | boolean | number[] | null }[] = [],
 ): Promise<number> {
   const admin = await kindEigenaarOfNull(kindId);
   if (!admin) return 0;
-  await admin
+  const rij = { kind_id: kindId, vak_id: vakId, niveau, aantal, juist };
+  const { error } = await admin
     .from("examens")
-    .insert({ kind_id: kindId, vak_id: vakId, niveau, aantal, juist });
+    .insert(antwoorden.length ? ({ ...rij, antwoorden } as typeof rij) : rij);
+  // Zolang supabase/examen-antwoorden.sql nog niet gedraaid is, bestaat de
+  // kolom niet. Dan gaat het examen er zonder antwoorden in: liever de score
+  // dan niets.
+  if (error && antwoorden.length) await admin.from("examens").insert(rij);
   return telFeilloos(admin, kindId, vakId, niveau);
 }
 

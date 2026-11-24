@@ -1101,6 +1101,7 @@ export function Quiz({
   examen = false,
   examenVakId,
   examenNiveau,
+  examenSleutel,
   rekenmachine = false,
   contexten,
 }: {
@@ -1133,6 +1134,11 @@ export function Quiz({
    */
   examenVakId?: string;
   examenNiveau?: string;
+  /**
+   * Bij een examen: de naam waaronder een lopend examen bewaard wordt, zodat
+   * een kind na verversen verder kan waar het was. Zie de examenpagina.
+   */
+  examenSleutel?: string;
   /**
    * Een rekenmachine onder de vraag. Alleen bij het examen van een rekenvak
    * (zie lib/rekenvak.ts), want bij Frans staat ze enkel in de weg.
@@ -1375,16 +1381,84 @@ export function Quiz({
      kind de ster na drie keer dezelfde vragen. Wie een nieuw examen wil, klikt
      op Nieuw examen en krijgt andere vragen. */
   const examenBewaard = useRef(false);
+
+  /*
+    Verder waar je was na verversen. Kim, 24 november 2026: "als het vast
+    hangt door het internet en je moet verversen dat ze hun examen vanaf
+    vraag 1 opnieuw moeten doen. dat zorgde wel voor frustratie."
+    De vragen gaan in een koekje (de examenpagina kiest er dan dezelfde), de
+    antwoorden en de vraag waar het kind stond in de browser zelf. Een dag
+    later, of na een afgewerkt examen, begint het weer vers.
+  */
+  const opslagNaam = examenSleutel ? `examen-${examenSleutel}` : null;
+  const vraagIds = alleVragen.map((v) => v.id).join(".");
+  const hersteld = useRef(false);
+  useEffect(() => {
+    if (!opslagNaam || hersteld.current) return;
+    hersteld.current = true;
+    // Een vers examen via "Nieuw examen": de vlag uit de adresbalk halen,
+    // anders geeft verversen opnieuw een ander examen.
+    const adres = new URL(window.location.href);
+    if (adres.searchParams.has("nieuw")) {
+      adres.searchParams.delete("nieuw");
+      window.history.replaceState(null, "", adres.toString());
+    }
+    document.cookie = `${opslagNaam}=${vraagIds}; path=/; max-age=86400; samesite=lax`;
+    try {
+      const ruw = window.localStorage.getItem(opslagNaam);
+      if (!ruw) return;
+      const bewaard = JSON.parse(ruw) as {
+        ids: string;
+        statussen: Record<string, Status>;
+        huidige: number;
+      };
+      if (bewaard.ids !== vraagIds) return;
+      // Eén keer na het laden: localStorage bestaat pas in de browser.
+      // eslint-disable-next-line react-hooks/set-state-in-effect
+      setStatussen((s) => ({ ...s, ...bewaard.statussen }));
+      setHuidige(Math.min(bewaard.huidige, alleVragen.length - 1));
+    } catch {
+      // Niets terug te zetten: gewoon vanaf het begin.
+    }
+  }, [opslagNaam, vraagIds, alleVragen.length]);
+  useEffect(() => {
+    if (!opslagNaam || !hersteld.current) return;
+    try {
+      if (klaar) {
+        // Afgewerkt: de volgende keer een nieuw examen.
+        window.localStorage.removeItem(opslagNaam);
+        document.cookie = `${opslagNaam}=; path=/; max-age=0`;
+        return;
+      }
+      document.cookie = `${opslagNaam}=${vraagIds}; path=/; max-age=86400; samesite=lax`;
+      window.localStorage.setItem(
+        opslagNaam,
+        JSON.stringify({ ids: vraagIds, statussen, huidige }),
+      );
+    } catch {
+      // Vol of geblokkeerd: dan gewoon niet bewaren.
+    }
+  }, [opslagNaam, vraagIds, statussen, huidige, klaar]);
   useEffect(() => {
     if (!examen || !examenVakId || !examenNiveau || !actiefKindId) return;
     if (!klaar || examenBewaard.current) return;
     examenBewaard.current = true;
+    /* Per vraag: juist of fout en wat het kind antwoordde, zodat de ouder
+       en de begeleiding achteraf zien wat er misliep. Kim, 24 november 2026:
+       "we kunnen niet zien hoeveel ze halen op het examen en wat ze fout
+       doen". */
+    const perVraag = vragen.map(({ vraag: v }) => ({
+      v: v.id,
+      j: Boolean(statussen[v.id]?.correct),
+      g: zoalsOpgeslagen(v, statussen[v.id]?.gegevenAntwoord ?? null),
+    }));
     registreerExamen(
       actiefKindId,
       examenVakId,
       examenNiveau,
       vragen.length,
       aantalCorrect,
+      perVraag,
     )
       .then(setFeilloosExamens)
       .catch(() => {});
@@ -1394,7 +1468,8 @@ export function Quiz({
     examenNiveau,
     actiefKindId,
     klaar,
-    vragen.length,
+    vragen,
+    statussen,
     aantalCorrect,
   ]);
 

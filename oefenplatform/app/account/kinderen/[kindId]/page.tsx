@@ -6,6 +6,7 @@ import { vereisOuderPin } from "@/lib/ouderpin";
 import { createClient } from "@/lib/supabase/server";
 import { genereerTip } from "@/lib/inzicht";
 import { alleRijen } from "@/lib/allerijen";
+import { ExamenLijst, haalExamens } from "@/components/ExamenUitslag";
 
 type Rij = {
   id: string;
@@ -54,7 +55,7 @@ export default async function KindVoortgangPage({
   )
     notFound();
 
-  const [ruwe, { data: stickers }] = await Promise.all([
+  const [ruwe, { data: stickers }, examens] = await Promise.all([
     // Blok per blok. Een kind dat veel oefent heeft meer antwoorden dan de
     // databank in één keer teruggeeft, en dan viel het oudste werk stilletjes
     // uit dit rapport. Zie lib/allerijen.ts.
@@ -74,6 +75,8 @@ export default async function KindVoortgangPage({
       .select("id, verdiend_op, hoofdstukken(titel, vakken(naam))")
       .eq("kind_id", kindId)
       .order("verdiend_op", { ascending: false }),
+    // De examens over een heel vak, met de score en per vraag wat fout was.
+    haalExamens(supabase, kindId),
   ]);
 
   const rijen = ruwe as unknown as Rij[];
@@ -175,6 +178,23 @@ export default async function KindVoortgangPage({
               ))}
             </div>
           </div>
+        )}
+
+        {examens.length > 0 && (
+          <section id="examens" className="mt-6 scroll-mt-4">
+            <h2 className="font-display text-lg font-semibold text-ink">
+              Afgelegde examens ({examens.length})
+            </h2>
+            <p className="mt-1 text-sm text-ink-dim">
+              De examens over een heel vak. Klik op de fouten om te zien welke
+              vragen {kind.naam} fout had, wat het antwoord was en wat het
+              juiste antwoord is.
+            </p>
+            <ExamenLijst
+              examens={examens}
+              link={(id) => `/account/kinderen/${kindId}/examens/${id}`}
+            />
+          </section>
         )}
 
         <div className="mt-6 space-y-6">

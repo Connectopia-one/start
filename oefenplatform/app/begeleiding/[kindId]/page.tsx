@@ -9,6 +9,7 @@ import { WerkForm } from "./WerkForm";
 import { haalCodes } from "@/lib/begeleidingsgroepen";
 import { verwijderNotitie, verwijderWerk, zetGroep } from "./actions";
 import { alleRijen } from "@/lib/allerijen";
+import { ExamenLijst, haalExamens } from "@/components/ExamenUitslag";
 
 type VoortgangRij = {
   correct: boolean;
@@ -38,15 +39,6 @@ type Document = {
   omschrijving: string | null;
   bestandspad: string;
   auteur_naam: string | null;
-};
-
-type ExamenRij = {
-  id: string;
-  niveau: string;
-  aantal: number;
-  juist: number;
-  afgelegd_op: string;
-  vakken: { naam: string } | null;
 };
 
 type HoofdstukStat = {
@@ -159,12 +151,7 @@ export default async function FichePage({
     /* De afgelegde examens. Die staan los van de voortgang hierboven: een
          examen kleurt bewust geen vinkjes in. Bestaat de tabel nog niet, dan
          komt er gewoon niets terug. Zie supabase/examens.sql. */
-    supabase
-      .from("examens")
-      .select("id, niveau, aantal, juist, afgelegd_op, vakken(naam)")
-      .eq("kind_id", kindId)
-      .order("afgelegd_op", { ascending: false })
-      .limit(50),
+    haalExamens(supabase, kindId).then((data) => ({ data })),
   ]);
 
   /* Voortgang samenvatten per vak en per hoofdstuk. */
@@ -406,38 +393,10 @@ export default async function FichePage({
               {t.fiche.examensKop}
             </h2>
             <p className="mt-1 text-sm text-ink-dim">{t.fiche.examensUitleg}</p>
-            <div className="mt-2 overflow-x-auto rounded-lg border border-border">
-              <table className="kaartjes w-full text-sm">
-                <thead className="bg-paper text-left text-xs text-ink-dim">
-                  <tr>
-                    <th className="px-3 py-2">Vak</th>
-                    <th className="px-3 py-2">Score</th>
-                    <th className="px-3 py-2">Wanneer</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {(examens as unknown as ExamenRij[]).map((e) => (
-                    <tr key={e.id} className="border-t border-border">
-                      <td data-label="Vak" className="px-3 py-2 text-ink">
-                        {e.vakken?.naam ?? "—"}
-                      </td>
-                      <td data-label="Score" className="px-3 py-2 text-ink">
-                        {e.juist}/{e.aantal}
-                        {e.aantal > 0 && e.juist === e.aantal
-                          ? " 🏅 feilloos"
-                          : ""}
-                      </td>
-                      <td
-                        data-label="Wanneer"
-                        className="px-3 py-2 text-ink-dim"
-                      >
-                        {datum(e.afgelegd_op)}
-                      </td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
+            <ExamenLijst
+              examens={examens}
+              link={(id) => `/begeleiding/${kindId}/examens/${id}`}
+            />
           </section>
         )}
 

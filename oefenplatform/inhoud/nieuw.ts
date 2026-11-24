@@ -41,6 +41,21 @@ export const nieuwTekst = {
 export const updates: Update[] = [
   {
     datum: "24 november 2026",
+    titel: "Examen: na verversen ga je verder waar je was",
+    tekst:
+      "Viel het internet weg tijdens een examen en moest je de pagina verversen? Dan begon je vroeger opnieuw bij vraag 1. Nu krijg je dezelfde vragen terug, met je antwoorden erbij, en ga je verder bij de vraag waar je was. Wil je toch een ander examen, klik dan op Nieuw examen.",
+    opVraag: true,
+  },
+  {
+    datum: "24 november 2026",
+    titel: "Zien hoe het examen ging en wat er fout was",
+    tekst:
+      "Bij de voortgang van je kind staat nu een lijstje met de afgelegde examens en hun score. Klik op de fouten en je ziet per vraag wat je kind antwoordde, wat het juiste antwoord is en de uitleg. Zo kan je samen gericht verder oefenen. Van examens van voor vandaag is enkel de score bewaard.",
+    opVraag: true,
+    link: { tekst: "Naar mijn account", href: "/account" },
+  },
+  {
+    datum: "24 november 2026",
     titel: "Duidelijker uitleg bij vragen met meer dan één juist antwoord",
     tekst:
       "Bovenaan sommige examens en hoofdstukken stond dat er bij de keuzevragen meer dan één antwoord juist kan zijn. Dat gold niet voor de keuzelijsten in een zin, en dat was verwarrend. Nu staat er dat het gaat over de vragen met vierkante vakjes, en dat er in een keuzelijst altijd maar één antwoord juist is.",

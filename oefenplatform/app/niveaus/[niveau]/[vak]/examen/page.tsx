@@ -1,6 +1,7 @@
 import { leerrichting, valtWeg } from "@/lib/leerrichting";
 import { vindWegwijzer } from "@/inhoud/vaknoten";
 import Link from "next/link";
+import { cookies } from "next/headers";
 import { isWelzijn } from "@/lib/welzijn";
 import { notFound } from "next/navigation";
 import { Header } from "@/components/Header";
@@ -108,7 +109,7 @@ export default async function ExamenPage({
   searchParams,
 }: {
   params: Promise<{ niveau: string; vak: string }>;
-  searchParams: Promise<{ welzijn?: string; dg?: string }>;
+  searchParams: Promise<{ welzijn?: string; dg?: string; nieuw?: string }>;
 }) {
   const { niveau: niveauSlug, vak: vakSlug } = await params;
   // De hoofdstukken die enkel voor welzijnswetenschappen tellen, komen alleen
@@ -216,21 +217,41 @@ export default async function ExamenPage({
     if (!error && zonderDg) nummers = zonderDg;
   }
 
-  const gekozen = kiesExamenvragen(
-    (nummers ?? []) as { id: string; type: string }[],
-  );
+  /*
+    Verder waar je was. Kim, 24 november 2026: "als het vast hangt door het
+    internet en je moet verversen dat ze hun examen vanaf vraag 1 opnieuw
+    moeten doen. dat zorgde wel voor frustratie." De Quiz zet de vragen van
+    een lopend examen in een koekje; staat dat er, dan krijgt het kind na
+    verversen dezelfde veertig vragen in dezelfde volgorde, en zet de Quiz
+    de antwoorden terug (components/Quiz.tsx). Nieuw examen (?nieuw=1) en
+    een afgewerkt examen laten het koekje vallen.
+  */
+  const examenSleutel = `${niveau.slug}-${vak.slug}${metWelzijn ? "-welzijn" : voorDg ? "-dg" : ""}`;
+  const bestaand = new Set(((nummers ?? []) as { id: string }[]).map((v) => v.id));
+  const lopend =
+    (await searchParams).nieuw === "1"
+      ? []
+      : ((await cookies()).get(`examen-${examenSleutel}`)?.value ?? "")
+          .split(".")
+          .filter((id) => bestaand.has(id));
+  const gekozen =
+    lopend.length > 0
+      ? lopend
+      : kiesExamenvragen((nummers ?? []) as { id: string; type: string }[]);
 
   const { data: vragenRuw } = gekozen.length
     ? await supabase.from("vragen").select("*").in("id", gekozen)
     : { data: [] };
 
-  const vragen = casussenSamen(
-    schud(
-      await Promise.all(
-        (vragenRuw ?? []).map((rij) => maakVraag(supabase, rij)),
-      ),
-    ),
+  const gemaakt = await Promise.all(
+    (vragenRuw ?? []).map((rij) => maakVraag(supabase, rij)),
   );
+  const plaats = new Map(lopend.map((id, i) => [id, i]));
+  const vragen =
+    lopend.length > 0
+      ? // Dezelfde volgorde als voor het verversen.
+        gemaakt.sort((a, b) => (plaats.get(a.id) ?? 0) - (plaats.get(b.id) ?? 0))
+      : casussenSamen(schud(gemaakt));
 
   /*
     Een vraag over een leestekst ("in die tekst over de schoolreis vertrekt de
@@ -291,7 +312,7 @@ export default async function ExamenPage({
           <p className="mt-2">
             Elke keer dat je dit examen opnieuw opent, krijg je andere vragen.{" "}
             <Link
-              href={`${terug}/examen${metWelzijn ? "?welzijn=1" : voorDg ? "?dg=1" : ""}`}
+              href={`${terug}/examen?nieuw=1${metWelzijn ? "&welzijn=1" : voorDg ? "&dg=1" : ""}`}
               className="font-medium text-forest-dark underline-offset-2 hover:underline"
             >
               Nieuw examen
@@ -320,6 +341,7 @@ export default async function ExamenPage({
                  supabase/examens.sql. */
               examenVakId={vak.id as string}
               examenNiveau={niveau.slug}
+              examenSleutel={examenSleutel}
               examen
             />
           )}
