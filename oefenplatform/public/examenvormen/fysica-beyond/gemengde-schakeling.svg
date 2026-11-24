@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Een bron van 18 V met drie weerstanden</text>
+<line x1="180" y1="120" x2="800" y2="120" stroke="#24331b" stroke-width="3"/>
+<line x1="180" y1="520" x2="800" y2="520" stroke="#24331b" stroke-width="3"/>
+<line x1="180" y1="120" x2="180" y2="520" stroke="#24331b" stroke-width="3"/>
+<line x1="560" y1="120" x2="560" y2="520" stroke="#24331b" stroke-width="3"/>
+<line x1="800" y1="120" x2="800" y2="520" stroke="#24331b" stroke-width="3"/>
+<rect x="140" y="306" width="80" height="28" rx="0" fill="#ffffff" stroke="#ffffff" stroke-width="0"/>
+<line x1="146" y1="310" x2="214" y2="310" stroke="#24331b" stroke-width="4"/>
+<line x1="164" y1="330" x2="196" y2="330" stroke="#24331b" stroke-width="7"/>
+<text x="120" y="327" font-size="20" text-anchor="end" fill="#24331b" font-weight="bold">18 V</text>
+<text x="224" y="304" font-size="18" text-anchor="middle" fill="#24331b">+</text>
+<rect x="320" y="104" width="100" height="32" rx="2" fill="#ffffff" stroke="#24331b" stroke-width="3"/>
+<text x="370" y="92" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">R₁ = 6 Ω</text>
+<rect x="544" y="270" width="32" height="100" rx="2" fill="#ffffff" stroke="#24331b" stroke-width="3"/>
+<text x="588" y="327" font-size="20" text-anchor="start" fill="#24331b" font-weight="bold">R₂ = 4 Ω</text>
+<rect x="784" y="270" width="32" height="100" rx="2" fill="#ffffff" stroke="#24331b" stroke-width="3"/>
+<text x="828" y="327" font-size="20" text-anchor="start" fill="#24331b" font-weight="bold">R₃ = 12 Ω</text>
+<circle cx="560" cy="120" r="6" fill="#24331b" stroke="#24331b" stroke-width="1"/>
+<circle cx="560" cy="520" r="6" fill="#24331b" stroke="#24331b" stroke-width="1"/>
+</svg>
