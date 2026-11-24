@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Iemand staat op een weegschaal in een lift</text>
+<rect x="45" y="120" width="170" height="330" rx="8" fill="#f4f7fb" stroke="#24331b" stroke-width="3"/>
+<line x1="130" y1="60" x2="130" y2="120" stroke="#24331b" stroke-width="3"/>
+<circle cx="130" cy="230" r="18" fill="#f3e3c8" stroke="#24331b" stroke-width="2"/>
+<line x1="130" y1="248" x2="130" y2="340" stroke="#24331b" stroke-width="4"/>
+<line x1="130" y1="270" x2="100" y2="310" stroke="#24331b" stroke-width="4"/>
+<line x1="130" y1="270" x2="160" y2="310" stroke="#24331b" stroke-width="4"/>
+<line x1="130" y1="340" x2="108" y2="410" stroke="#24331b" stroke-width="4"/>
+<line x1="130" y1="340" x2="152" y2="410" stroke="#24331b" stroke-width="4"/>
+<rect x="85" y="410" width="90" height="22" rx="4" fill="#d9d4c4" stroke="#24331b" stroke-width="2"/>
+<text x="130" y="480" font-size="18" text-anchor="middle" fill="#24331b">staat stil</text>
+<circle cx="130" cy="540" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="130" y="547" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<rect x="290" y="120" width="170" height="330" rx="8" fill="#f4f7fb" stroke="#24331b" stroke-width="3"/>
+<line x1="375" y1="60" x2="375" y2="120" stroke="#24331b" stroke-width="3"/>
+<circle cx="375" cy="230" r="18" fill="#f3e3c8" stroke="#24331b" stroke-width="2"/>
+<line x1="375" y1="248" x2="375" y2="340" stroke="#24331b" stroke-width="4"/>
+<line x1="375" y1="270" x2="345" y2="310" stroke="#24331b" stroke-width="4"/>
+<line x1="375" y1="270" x2="405" y2="310" stroke="#24331b" stroke-width="4"/>
+<line x1="375" y1="340" x2="353" y2="410" stroke="#24331b" stroke-width="4"/>
+<line x1="375" y1="340" x2="397" y2="410" stroke="#24331b" stroke-width="4"/>
+<rect x="330" y="410" width="90" height="22" rx="4" fill="#d9d4c4" stroke="#24331b" stroke-width="2"/>
+<text x="375" y="480" font-size="18" text-anchor="middle" fill="#24331b">versnelt</text>
+<line x1="445" y1="300" x2="445" y2="200" stroke="#2f4a22" stroke-width="4"/>
+<polygon points="445,200 451.2,214.7 438.8,214.7" fill="#2f4a22"/>
+<text x="437" y="330" font-size="18" text-anchor="middle" fill="#24331b" font-weight="bold">v</text>
+<circle cx="375" cy="540" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="375" y="547" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<rect x="535" y="120" width="170" height="330" rx="8" fill="#f4f7fb" stroke="#24331b" stroke-width="3"/>
+<line x1="620" y1="60" x2="620" y2="120" stroke="#24331b" stroke-width="3"/>
+<circle cx="620" cy="230" r="18" fill="#f3e3c8" stroke="#24331b" stroke-width="2"/>
+<line x1="620" y1="248" x2="620" y2="340" stroke="#24331b" stroke-width="4"/>
+<line x1="620" y1="270" x2="590" y2="310" stroke="#24331b" stroke-width="4"/>
+<line x1="620" y1="270" x2="650" y2="310" stroke="#24331b" stroke-width="4"/>
+<line x1="620" y1="340" x2="598" y2="410" stroke="#24331b" stroke-width="4"/>
+<line x1="620" y1="340" x2="642" y2="410" stroke="#24331b" stroke-width="4"/>
+<rect x="575" y="410" width="90" height="22" rx="4" fill="#d9d4c4" stroke="#24331b" stroke-width="2"/>
+<text x="620" y="480" font-size="18" text-anchor="middle" fill="#24331b">constante snelheid</text>
+<line x1="690" y1="300" x2="690" y2="200" stroke="#2f4a22" stroke-width="4"/>
+<polygon points="690,200 696.2,214.7 683.8,214.7" fill="#2f4a22"/>
+<text x="682" y="330" font-size="18" text-anchor="middle" fill="#24331b" font-weight="bold">v</text>
+<circle cx="620" cy="540" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="620" y="547" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<rect x="780" y="120" width="170" height="330" rx="8" fill="#f4f7fb" stroke="#24331b" stroke-width="3"/>
+<line x1="865" y1="60" x2="865" y2="120" stroke="#24331b" stroke-width="3"/>
+<circle cx="865" cy="230" r="18" fill="#f3e3c8" stroke="#24331b" stroke-width="2"/>
+<line x1="865" y1="248" x2="865" y2="340" stroke="#24331b" stroke-width="4"/>
+<line x1="865" y1="270" x2="835" y2="310" stroke="#24331b" stroke-width="4"/>
+<line x1="865" y1="270" x2="895" y2="310" stroke="#24331b" stroke-width="4"/>
+<line x1="865" y1="340" x2="843" y2="410" stroke="#24331b" stroke-width="4"/>
+<line x1="865" y1="340" x2="887" y2="410" stroke="#24331b" stroke-width="4"/>
+<rect x="820" y="410" width="90" height="22" rx="4" fill="#d9d4c4" stroke="#24331b" stroke-width="2"/>
+<text x="865" y="480" font-size="18" text-anchor="middle" fill="#24331b">remt af</text>
+<line x1="935" y1="300" x2="935" y2="200" stroke="#2f4a22" stroke-width="4"/>
+<polygon points="935,200 941.2,214.7 928.8,214.7" fill="#2f4a22"/>
+<text x="927" y="330" font-size="18" text-anchor="middle" fill="#24331b" font-weight="bold">v</text>
+<circle cx="865" cy="540" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="865" y="547" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">D</text>
+</svg>
