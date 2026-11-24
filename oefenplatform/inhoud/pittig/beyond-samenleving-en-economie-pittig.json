@@ -1,0 +1,4627 @@
+{
+  "hoofdstukken": [
+    {
+      "titel": "Identiteit: de lagen, de factoren en het wereldbeeld — pittig",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "casus": "Yara (17) is geboren in Gent. Haar moeder komt uit Marokko, haar vader uit Limburg. Ze is doof aan één oor, erg nieuwsgierig en zit in een metalband. Op school voelt ze zich vooral Gentse, op vakantie in Spanje vooral Europese. Sinds ze vaker op de bus wordt nagewezen, praat ze vooral nog met haar bandleden.",
+          "vragen": [
+            {
+              "type": "tabel",
+              "vraag": "Bij welke laag van haar identiteit hoort dit?",
+              "rijen": [
+                "doof aan één oor",
+                "erg nieuwsgierig",
+                "zich vooral Gentse voelen",
+                "lid van een metalband"
+              ],
+              "antwoord": [
+                0,
+                0,
+                1,
+                1
+              ],
+              "uitleg": "Biologische aspecten, persoonlijkheidstrekken en familiale achtergrond zijn persoonlijk. Regio, natie, Europa en de groepen waar je bij hoort, zijn groepsidentiteit.",
+              "kolommen": [
+                "persoonlijk",
+                "groep"
+              ]
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "Dat ze zich in Spanje vooral Europese voelt, is een [[*supranationaal|regionaal|familiaal]] aspect van haar groepsidentiteit.",
+              "uitleg": "Supranationaal reikt hoger dan één land."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "Dat ze zich anders voelt naargelang de plaats, toont dat identiteit [[*relationeel|biologisch|vastgelegd]] is.",
+              "uitleg": "Identiteit krijgt vorm in de omgang met anderen en de omgeving."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Welke factor speelt mee als ze op de bus wordt nagewezen?",
+              "opties": [
+                "Discriminatie",
+                "Verbondenheid met andere reizigers",
+                "Een supranationaal aspect van haar identiteit",
+                "Een biologisch aspect van haar persoonlijkheid"
+              ],
+              "antwoord": 0,
+              "uitleg": "Ze wordt anders behandeld om een kenmerk van haar identiteit."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Waarom zoekt ze daarna vooral haar bandleden op?",
+              "opties": [
+                "Daar vindt ze verbondenheid",
+                "Ze heeft daar een supranationale identiteit",
+                "Haar familiale achtergrond verplicht haar ertoe",
+                "Discriminatie versterkt altijd de band met de hele samenleving"
+              ],
+              "antwoord": 0,
+              "uitleg": "Wie ergens wordt uitgesloten, zoekt erkenning in een groep waar hij of zij wel bij hoort."
+            }
+          ]
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Is dit een laag van de persoonlijke identiteit of van de groepsidentiteit?",
+          "kolommen": [
+            "Persoonlijke identiteit",
+            "Groepsidentiteit"
+          ],
+          "items": [
+            [
+              "opgegroeid in een groot gezin",
+              "Persoonlijke identiteit"
+            ],
+            [
+              "lid van een jeugdbeweging",
+              "Groepsidentiteit"
+            ],
+            [
+              "een sterk temperament",
+              "Persoonlijke identiteit"
+            ],
+            [
+              "zich Vlaming voelen",
+              "Groepsidentiteit"
+            ],
+            [
+              "een levensbeschouwing delen met anderen",
+              "Groepsidentiteit"
+            ]
+          ],
+          "uitleg": "De familiale achtergrond hoort bij de persoonlijke lagen, ook al gaat het over andere mensen."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elk kenmerk van identiteit aan een voorbeeld.",
+          "paren": [
+            [
+              "relationeel",
+              "Lina gedraagt zich anders bij haar oma dan bij haar vrienden"
+            ],
+            [
+              "dynamisch",
+              "Tom vindt op zijn twintigste andere dingen belangrijk dan op zijn twaalfde"
+            ],
+            [
+              "gelaagd",
+              "Sara is tegelijk dochter, scout, Antwerpse en atlete"
+            ]
+          ],
+          "extra": [
+            "Ben is één meter tachtig groot"
+          ],
+          "uitleg": "Relationeel, dynamisch en gelaagd: die drie woorden horen bij identiteit."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is dit een voorbeeld van wij-zij-denken?",
+          "rijen": [
+            "Supporters van de ene club noemen die van de andere club allemaal hooligans.",
+            "Een klas organiseert een feest waarop iedereen welkom is.",
+            "Een groep jongeren zegt dat 'mensen van daar' toch nooit te vertrouwen zijn.",
+            "Twee vrienden hebben een andere mening over een film."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Wij-zij-denken zet een eigen groep tegenover een andere en plakt op die andere groep één etiket."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over identiteit en wereldbeeld?",
+          "rijen": [
+            "Wij-zij-denken kan ook vanuit de eigen groep komen.",
+            "Een mensbeeld en een wereldbeeld zijn hetzelfde.",
+            "Je wereldbeeld kan in de loop van je leven veranderen.",
+            "Persoonlijke identiteit en groepsidentiteit beïnvloeden elkaar."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            true
+          ],
+          "uitleg": "Het mensbeeld gaat over de mens, het wereldbeeld over de wereld als geheel."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Mehdi is opgevoed met de overtuiging dat mensen van nature goed zijn. Waarover gaat dat?",
+          "opties": [
+            "Over zijn mensbeeld",
+            "Over zijn regionale identiteit",
+            "Over een biologisch aspect van zijn identiteit",
+            "Over een sociaaleconomische groep waar hij bij hoort"
+          ],
+          "antwoord": 0,
+          "uitleg": "Wat je denkt over de aard van de mens, is je mensbeeld."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Na een jaar vrijwilligerswerk in Kenia kijkt Elise anders naar armoede en klimaat. Wat toont dat?",
+          "opties": [
+            "Haar wereldbeeld is veranderd",
+            "Haar biologische aspecten zijn veranderd",
+            "Ze heeft haar familiale achtergrond ingeruild",
+            "Haar groepsidentiteit is weggevallen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een wereldbeeld is dynamisch: nieuwe ervaringen kunnen het bijsturen."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Een kleinere groep met eigen gewoonten binnen een grotere cultuur heet een [[subcultuur]]. Het gevoel ergens bij te horen en erkend te worden heet [[verbondenheid]].",
+          "extra": [
+            "discriminatie",
+            "monocultuur"
+          ],
+          "uitleg": "Denk aan een muziekscene of een groep gamers."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welke factor werkt hier vooral op de identiteit in?",
+          "rijen": [
+            "Jonas krijgt in zijn nieuwe klas meteen een plaats in de voetbalploeg.",
+            "Aïcha krijgt een job niet omdat ze een hoofddoek draagt.",
+            "Een groep zegt: 'wij van het dorp tegen die van de stad'."
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Verbondenheid, discriminatie en wij-zij-denken zijn de drie factoren.",
+          "kolommen": [
+            "verbondenheid",
+            "discriminatie",
+            "wij-zij-denken"
+          ]
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een hartafwijking van bij de geboorte hoort bij de [[*biologische aspecten|persoonlijkheidstrekken|familiale achtergrond]].",
+          "uitleg": "Wat met je lichaam te maken heeft, is biologisch."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom krijg je op het examen enkel situaties met verzonnen personen?",
+          "opties": [
+            "Om neutraal te blijven en echte personen te beschermen",
+            "Omdat echte personen altijd een supranationale identiteit hebben",
+            "Omdat identiteit enkel bij fictieve personen gelaagd is",
+            "Omdat discriminatie in werkelijkheid niet voorkomt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Zo zijn er geen persoonsgegevens in het spel en blijft het examen neutraal."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Kan dit doorheen een leven veranderen of ligt het bij de geboorte vast?",
+          "kolommen": [
+            "Kan veranderen",
+            "Ligt vast bij de geboorte"
+          ],
+          "items": [
+            [
+              "je geboorteplaats",
+              "Ligt vast bij de geboorte"
+            ],
+            [
+              "de groepen waar je bij hoort",
+              "Kan veranderen"
+            ],
+            [
+              "je wereldbeeld",
+              "Kan veranderen"
+            ],
+            [
+              "je geboortedatum",
+              "Ligt vast bij de geboorte"
+            ]
+          ],
+          "uitleg": "Identiteit is dynamisch, al blijven sommige feiten vast."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Bij welke groep hoort dit?",
+          "rijen": [
+            "arbeider of bediende, rijk of arm",
+            "christen, moslim of vrijzinnig",
+            "man, vrouw of non-binair"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Dat zijn groepen waar je bij hoort binnen de groepsidentiteit.",
+          "kolommen": [
+            "sociaaleconomisch",
+            "levensbeschouwelijk",
+            "gendergerelateerd"
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Kobe zegt: 'Mijn identiteit is gewoon wat er in mijn paspoort staat.' Wat is daar fout aan?",
+          "opties": [
+            "Identiteit is veel breder en gelaagd",
+            "Een paspoort toont enkel je supranationale identiteit",
+            "In een paspoort staat ook je mensbeeld",
+            "Een paspoort hoort bij je persoonlijkheidstrekken"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een paspoort toont een paar feiten. Identiteit bestaat uit vele lagen die elkaar beïnvloeden."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Wie ergens wordt uitgesloten, kan het gevoel van [[*verbondenheid|discriminatie|wij-zij-denken]] verliezen.",
+          "uitleg": "Discriminatie breekt verbondenheid af."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Kies het passende woord.",
+          "rijen": [
+            "Europeaan",
+            "Belg",
+            "Kempenaar"
+          ],
+          "antwoord": [
+            2,
+            1,
+            0
+          ],
+          "uitleg": "Van klein naar groot: regionaal, nationaal, supranationaal.",
+          "kolommen": [
+            "regionaal",
+            "nationaal",
+            "supranationaal"
+          ]
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet deze aspecten van de groepsidentiteit van klein naar groot gebied.",
+          "opties": [
+            "Limburger",
+            "Vlaming",
+            "Belg",
+            "Europeaan"
+          ],
+          "uitleg": "Van een streek over een gewest en een land naar een groep landen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Jana zegt dat haar familie haar het meest heeft gevormd, haar zus zegt dat haar vriendinnen dat deden. Wie heeft gelijk?",
+          "opties": [
+            "Allebei: wat het meest bepalend is, verschilt per persoon",
+            "Jana, want de familiale achtergrond weegt altijd het zwaarst",
+            "Haar zus, want groepen wegen altijd zwaarder dan familie",
+            "Geen van beiden, want enkel biologische aspecten tellen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Welke lagen het zwaarst wegen, vraagt reflectie en verschilt van mens tot mens."
+        },
+        {
+          "type": "open",
+          "vraag": "Leg met een eigen, verzonnen voorbeeld uit hoe persoonlijke identiteit en groepsidentiteit elkaar beïnvloeden.",
+          "antwoord": "Bijvoorbeeld: Lars is van nature verlegen (persoonlijk). Hij sluit aan bij een theatergroep (groep). Daar groeit zijn zelfvertrouwen, zodat hij minder verlegen wordt. Omgekeerd kiest hij die groep net omdat hij graag verhalen vertelt."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Identiteit is [[relationeel]], want ze krijgt vorm in contact met anderen, en [[dynamisch]], want ze kan veranderen.",
+          "extra": [
+            "biologisch",
+            "vast"
+          ],
+          "uitleg": "Samen met gelaagd zijn dat de drie kenmerken."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is dit discriminatie?",
+          "rijen": [
+            "Een café weigert iemand omwille van zijn huidskleur.",
+            "Een sportclub selecteert spelers op basis van een testmatch.",
+            "Een verhuurder verhuurt niet aan mensen met een buitenlandse naam."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Discriminatie behandelt mensen anders om een kenmerk van hun identiteit, niet om wat ze kunnen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Hoort dit bij de persoonlijke identiteit? Kies voor elk voorbeeld.",
+          "rijen": [
+            "Emma heeft rood haar.",
+            "Emma is altijd vrolijk en praat graag.",
+            "Emma's ouders zijn gescheiden en ze woont om de week bij elk."
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "De drie lagen van de persoonlijke identiteit.",
+          "kolommen": [
+            "biologisch aspect",
+            "persoonlijkheidstrek",
+            "familiale achtergrond"
+          ]
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Wat je denkt over de wereld als geheel, zoals over vooruitgang of het klimaat, is je [[*wereldbeeld|mensbeeld|subcultuur]].",
+          "uitleg": "Het mensbeeld gaat enkel over de mens en zijn aard."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke actualiteit moet je volgens het leerdoel opvolgen?",
+          "opties": [
+            "Lokaal, regionaal en nationaal nieuws",
+            "Enkel internationaal nieuws over Europa",
+            "Enkel het nieuws over je eigen familie",
+            "Enkel nieuws dat je eigen mening bevestigt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Die drie niveaus horen er samen bij."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Versterkt dit vooral verbondenheid of vooral wij-zij-denken?",
+          "rijen": [
+            "een buurtfeest waar iedereen samen kookt",
+            "een groepschat die spot met een andere klas",
+            "een ploeg die nieuwe spelers meteen opneemt"
+          ],
+          "antwoord": [
+            0,
+            1,
+            0
+          ],
+          "uitleg": "Verbondenheid verbindt, wij-zij-denken trekt een grens.",
+          "kolommen": [
+            "verbondenheid",
+            "wij-zij-denken"
+          ]
+        },
+        {
+          "type": "open",
+          "vraag": "Leg uit hoe wij-zij-denken de identiteit van een jongere kan beïnvloeden.",
+          "antwoord": "Wie vaak in een 'zij'-groep wordt gestopt, kan zich minder verbonden voelen met de samenleving en zich sterker op de eigen groep richten. Wie in een 'wij'-groep zit, kan anderen gaan zien als één blok in plaats van als personen."
+        }
+      ]
+    },
+    {
+      "titel": "Samenleven in diversiteit — pittig",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "casus": "In de wijk Ter Beke wonen mensen van twintig nationaliteiten. Het buurtcomité wil van het lege pleintje iets maken. De oudere bewoners willen parkeerplaatsen, de jonge gezinnen een speeltuin. In de vergadering spreekt niemand de voorzitter nog tegen nadat hij voor parkeerplaatsen gekozen heeft. Een nieuwe bewoonster uit Syrië stelt voor om er ook een moestuin bij te maken, zoals in haar geboortestad.",
+          "vragen": [
+            {
+              "type": "keuzelijst",
+              "vraag": "Dat oud en jong iets anders willen met het pleintje, is een voorbeeld van [[*verschillende belangen|groepsdenken|exclusie]].",
+              "uitleg": "Elk heeft een eigen belang bij hetzelfde pleintje."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "Dat niemand de voorzitter nog tegenspreekt, wijst op [[*groepsdenken|inclusie|culturele verrijking]].",
+              "uitleg": "Bij groepsdenken verdwijnt de kritische stem."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Welk voordeel van diversiteit toont het voorstel van de nieuwe bewoonster?",
+              "opties": [
+                "Uitwisselen van ideeën",
+                "Economische uitwisseling tussen twee landen",
+                "Het risico van uitsluiting in de wijk",
+                "Monoculturalisme in het buurtcomité"
+              ],
+              "antwoord": 0,
+              "uitleg": "Iemand met een ander referentiekader brengt een nieuw idee binnen."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Het comité past de vergaderuren aan zodat ook ploegarbeiders kunnen komen. Welk begrip past?",
+              "opties": [
+                "Inclusie",
+                "Integratie, want de ploegarbeiders passen zich aan",
+                "Exclusie",
+                "Monoculturalisme"
+              ],
+              "antwoord": 0,
+              "uitleg": "Bij inclusie past de groep zelf zich aan zodat iedereen kan meedoen."
+            }
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welke vorm van diversiteit is dit?",
+          "rijen": [
+            "Een klas met leerlingen met en zonder dyslexie en een leerling in een rolstoel.",
+            "Een ploeg met kinderen van werkloze en van rijke ouders.",
+            "Een jeugdhuis met moslims, christenen en vrijzinnigen.",
+            "Een vriendengroep met homo's en hetero's."
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "uitleg": "Er zijn vijf vormen: lichaams-, sociale, culturele, religieuze of levensbeschouwelijke en seksuele diversiteit.",
+          "kolommen": [
+            "lichaam",
+            "sociaal",
+            "religieus of levensbeschouwelijk",
+            "seksueel"
+          ]
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Is dit een voordeel of een uitdaging van samenleven in diversiteit?",
+          "kolommen": [
+            "Voordeel",
+            "Uitdaging"
+          ],
+          "items": [
+            [
+              "een restaurant met gerechten uit vijf landen",
+              "Voordeel"
+            ],
+            [
+              "twee buren die het oneens zijn over lawaai op zondag",
+              "Uitdaging"
+            ],
+            [
+              "een bedrijf dat dankzij een meertalig team kan uitvoeren naar Turkije",
+              "Voordeel"
+            ],
+            [
+              "een groepje dat nieuwe leerlingen links laat liggen",
+              "Uitdaging"
+            ],
+            [
+              "een werkgroep waar iedereen het blindelings met de leider eens is",
+              "Uitdaging"
+            ]
+          ],
+          "uitleg": "Drie voordelen (culturele verrijking, ideeën, economische uitwisseling) en vijf uitdagingen."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elk begrip aan zijn betekenis.",
+          "paren": [
+            [
+              "multiculturalisme",
+              "meerdere culturen bestaan naast elkaar"
+            ],
+            [
+              "monoculturalisme",
+              "één cultuur geldt als de norm"
+            ],
+            [
+              "integratie",
+              "de nieuwkomer past zich aan"
+            ],
+            [
+              "inclusie",
+              "ook de groep past zich aan"
+            ],
+            [
+              "exclusie",
+              "mensen worden buitengesloten"
+            ]
+          ],
+          "extra": [
+            "iedereen heeft dezelfde mening"
+          ],
+          "uitleg": "Inclusie en exclusie zijn elkaars tegendeel."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welk begrip past bij deze situatie?",
+          "rijen": [
+            "Een sportclub zegt: 'wie bij ons wil, past zich maar aan onze gewoonten aan.'",
+            "Een school past het menu aan zodat iedereen kan meeëten.",
+            "Een fuifzaal laat jongeren met een bepaalde achternaam niet binnen."
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Bij integratie verandert enkel de nieuwkomer, bij inclusie ook de groep.",
+          "kolommen": [
+            "integratie",
+            "inclusie",
+            "exclusie"
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Twee collega's beoordelen dezelfde grap heel anders: de ene lacht, de andere is gekwetst. Wat verklaart dat best?",
+          "opties": [
+            "Ze hebben een ander referentiekader",
+            "Ze horen bij dezelfde subcultuur",
+            "Een van beiden doet aan groepsdenken",
+            "Ze hebben allebei een monoculturele opvoeding gehad"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je ervaringen en waarden bepalen hoe je iets beoordeelt."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Levensbeschouwelijke diversiteit gaat [[*ook over mensen die niet geloven|enkel over gelovigen|enkel over godsdiensten uit Europa]].",
+          "uitleg": "Ook atheïsten en vrijzinnigen hebben een levensbeschouwing."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over samenleven in diversiteit?",
+          "rijen": [
+            "Diversiteit is tegelijk verrijkend en uitdagend.",
+            "Uitsluiting is een voordeel van diversiteit.",
+            "Een meningsverschil hoort bij samenleven in diversiteit.",
+            "Groepsdenken versterkt een groep op lange termijn."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Groepsdenken is een risico: wie niets meer tegenspreekt, ziet fouten over het hoofd."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "De drie voordelen van diversiteit zijn culturele [[verrijking]], het uitwisselen van [[ideeën]] en [[economische]] uitwisseling.",
+          "extra": [
+            "uitsluiting",
+            "groepsdenken"
+          ],
+          "uitleg": "Uitsluiting en groepsdenken staan bij de uitdagingen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een bedrijf met werknemers uit acht landen verkoopt sinds kort ook in Polen en Marokko. Welk voordeel van diversiteit speelt?",
+          "opties": [
+            "Economische uitwisseling",
+            "Culturele verrijking van de bedrijfskantine",
+            "Het referentiekader van de directeur",
+            "Groepsdenken binnen het verkoopteam"
+          ],
+          "antwoord": 0,
+          "uitleg": "Mensen met andere talen en netwerken openen nieuwe markten."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel uitdagingen van samenleven in diversiteit zijn er? Antwoord met een cijfer.",
+          "antwoord": [
+            "5",
+            "vijf"
+          ],
+          "uitleg": "Meningsverschillen, verschillende belangen, verschillende referentiekaders, groepsdenken en het risico van uitsluiting."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is dit een vorm van culturele diversiteit?",
+          "rijen": [
+            "Een klas waarin vijf talen thuis gesproken worden.",
+            "Een ploeg met spelers van verschillende lengte.",
+            "Een straat waar Nieuwjaar, Divali en het Suikerfeest gevierd worden."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Lichaamsdiversiteit gaat over het lichaam, culturele over gewoonten, taal en feesten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom is een meningsverschil eerder een uitdaging dan een probleem?",
+          "opties": [
+            "Het kan tot betere oplossingen leiden",
+            "Het verdwijnt vanzelf als één cultuur de norm wordt",
+            "Het komt enkel voor in een multiculturele samenleving",
+            "Het bewijst dat inclusie altijd mislukt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Door verschillende standpunten samen te leggen, kom je soms tot iets beters."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet deze reacties op een nieuwkomer in een vereniging van meest uitsluitend naar meest insluitend.",
+          "opties": [
+            "de nieuwkomer mag niet meedoen",
+            "de nieuwkomer mag meedoen als hij zich volledig aanpast",
+            "de vereniging past ook iets aan zodat iedereen kan meedoen"
+          ],
+          "uitleg": "Exclusie, integratie, inclusie."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elke situatie aan de uitdaging die ze toont.",
+          "paren": [
+            [
+              "Vader en dochter zien een tattoo anders door hun opvoeding.",
+              "verschillende referentiekaders"
+            ],
+            [
+              "Een klas stemt unaniem omdat niemand tegen de populaire leerling in durft te gaan.",
+              "groepsdenken"
+            ],
+            [
+              "Nieuwe leerlingen worden niet uitgenodigd op een feestje.",
+              "het risico van uitsluiting"
+            ]
+          ],
+          "extra": [
+            "economische uitwisseling"
+          ],
+          "uitleg": "Dat zijn drie van de vijf uitdagingen."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Hoort dit begrip eerder bij samen of bij apart?",
+          "kolommen": [
+            "Samen",
+            "Apart"
+          ],
+          "items": [
+            [
+              "inclusie",
+              "Samen"
+            ],
+            [
+              "exclusie",
+              "Apart"
+            ],
+            [
+              "multiculturalisme",
+              "Samen"
+            ],
+            [
+              "monoculturalisme",
+              "Apart"
+            ]
+          ],
+          "uitleg": "Monoculturalisme ziet één cultuur als norm en laat weinig ruimte voor andere."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een vereniging die elk nieuw lid om een idee voor het jaarprogramma vraagt, gebruikt het voordeel van [[*uitwisselen van ideeën|economische uitwisseling|groepsdenken]].",
+          "uitleg": "Nieuwe mensen brengen nieuwe ideeën."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke houding helpt het best bij verschillende referentiekaders?",
+          "opties": [
+            "Eerst vragen hoe de ander de situatie ziet",
+            "Zeggen dat je eigen kader het enige juiste is",
+            "Het gesprek vermijden om geen ruzie te krijgen",
+            "Wachten tot de ander zich volledig aanpast"
+          ],
+          "antwoord": 0,
+          "uitleg": "Begrijpen hoe iemand anders kijkt, is de eerste stap naar een oplossing."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is dit een vorm van diversiteit volgens het leerdoel?",
+          "rijen": [
+            "lichaamsdiversiteit",
+            "seksuele diversiteit",
+            "sociale diversiteit",
+            "diversiteit in schoenmaat bij dezelfde lengte"
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "De vijf vormen: lichaams-, sociale, culturele, religieuze of levensbeschouwelijke en seksuele diversiteit."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een gemeente vertaalt haar folders in vier talen en zet er pictogrammen bij. Welk begrip past?",
+          "opties": [
+            "Inclusie",
+            "Monoculturalisme, want de folders blijven van de gemeente",
+            "Integratie, want de inwoners moeten zich aanpassen",
+            "Exclusie van wie geen Nederlands spreekt"
+          ],
+          "antwoord": 0,
+          "uitleg": "De gemeente past zich zelf aan zodat iedereen de informatie kan lezen."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een school waar enkel de gewoonten van één cultuur gelden en de rest moet volgen, werkt vanuit [[*monoculturalisme|multiculturalisme|inclusie]].",
+          "uitleg": "Mono betekent één: één cultuur is de norm."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Gaat het hier om verschillende belangen of om verschillende referentiekaders?",
+          "rijen": [
+            "Een boer en een wandelaar willen elk iets anders met hetzelfde veld.",
+            "Een grootouder en een kleinkind vinden iets anders beleefd aan tafel.",
+            "Twee winkeliers willen allebei de beste plek op de markt."
+          ],
+          "antwoord": [
+            0,
+            1,
+            0
+          ],
+          "uitleg": "Een belang is wat je wil bereiken; een referentiekader is hoe je iets bekijkt.",
+          "kolommen": [
+            "belangen",
+            "referentiekaders"
+          ]
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Mensen buiten een groep houden heet [[exclusie]]. Mensen erbij halen door ook de groep te laten veranderen heet [[inclusie]].",
+          "extra": [
+            "integratie",
+            "multiculturalisme"
+          ],
+          "uitleg": "Het zijn elkaars tegendelen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een risico als een team uit mensen bestaat die allemaal hetzelfde denken?",
+          "opties": [
+            "Groepsdenken: fouten worden niet opgemerkt",
+            "Economische uitwisseling met andere landen",
+            "Te veel culturele verrijking binnen het team",
+            "Te veel verschillende referentiekaders"
+          ],
+          "antwoord": 0,
+          "uitleg": "Diversiteit in een team helpt net om blinde vlekken te zien."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over integratie?",
+          "rijen": [
+            "Bij integratie past vooral de nieuwkomer zich aan.",
+            "Integratie en exclusie betekenen hetzelfde.",
+            "Inclusie gaat verder dan integratie."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Bij inclusie verandert ook de omgeving."
+        },
+        {
+          "type": "open",
+          "vraag": "Leg met een verzonnen voorbeeld uit hoe diversiteit in een klas tegelijk verrijkend en uitdagend kan zijn.",
+          "antwoord": "In een klas met leerlingen uit zes landen leert iedereen nieuwe feesten en gerechten kennen (verrijkend). Tegelijk lopen meningen over wat beleefd is uiteen, wat tot misverstanden leidt (uitdagend). Door erover te praten vindt de klas samen afspraken."
+        },
+        {
+          "type": "open",
+          "vraag": "Leg het verschil uit tussen integratie en inclusie met een voorbeeld uit een sportclub.",
+          "antwoord": "Bij integratie moet een nieuw lid met een beperking zich aanpassen aan de bestaande trainingen. Bij inclusie past de club ook zelf iets aan, zoals een aangepaste oefening of een toegankelijke kleedkamer, zodat iedereen kan meedoen."
+        }
+      ]
+    },
+    {
+      "titel": "Respectvol samenleven: communicatie, grenzen en samenwerken — pittig",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "casus": "In de klasgroepschat van 5B wordt Noor al drie weken uitgelachen om een filmpje waarin ze zingt. Wout plaatst elke dag een nieuwe meme. De meeste anderen sturen lachende emoji's, Ilias zegt niets. Wanneer Noor vraagt om het filmpje te verwijderen, antwoordt Wout: 'Je zei vorige maand toch dat het grappig was?'",
+          "vragen": [
+            {
+              "type": "keuzelijst",
+              "vraag": "Wat Wout doet, is [[*pestgedrag|een eenmalige ruzie|een constructief meningsverschil]].",
+              "uitleg": "Het gebeurt herhaald, gericht tegen dezelfde persoon en het kwetst."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Welk kenmerk van toestemming negeert Wout?",
+              "opties": [
+                "Actueel",
+                "Bekwaam gegeven",
+                "Specifiek voor een andere handeling",
+                "Geïnformeerd over de zangles"
+              ],
+              "antwoord": 0,
+              "uitleg": "Toestemming van vorige maand geldt niet voor nu. Noor mag ze intrekken."
+            },
+            {
+              "type": "tabel",
+              "vraag": "Klopt dit over Noor en de klasgroep?",
+              "rijen": [
+                "De klasgenoten met emoji's spelen ook een rol.",
+                "Ilias heeft geen rol omdat hij niets zegt.",
+                "Noor steunen en het pesten melden is een goede reactie."
+              ],
+              "antwoord": [
+                true,
+                false,
+                true
+              ],
+              "uitleg": "Omstaanders hebben een rol en dus ook handelingsopties."
+            }
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Constructieve of destructieve communicatie?",
+          "rijen": [
+            "'Ik merk dat ik me ergerde aan je opmerking. Kunnen we erover praten?'",
+            "'Jij snapt ook nooit iets, hé.'",
+            "'Ik zie het anders, maar vertel eens waarom jij dat denkt.'",
+            "Rollen met je ogen en weglopen terwijl de ander praat."
+          ],
+          "antwoord": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "uitleg": "Constructief bouwt het gesprek en de relatie op, destructief breekt af.",
+          "kolommen": [
+            "constructief",
+            "destructief"
+          ]
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elke situatie aan het kenmerk van toestemming dat ontbreekt.",
+          "paren": [
+            [
+              "Emma zegt ja nadat haar vriend een uur blijft aandringen.",
+              "vrijwillig"
+            ],
+            [
+              "Tibo stemt in met een foto, maar die wordt daarna online gezet.",
+              "specifiek"
+            ],
+            [
+              "Iemand tekent een formulier in een taal die hij niet begrijpt.",
+              "geïnformeerd"
+            ],
+            [
+              "Iemand die erg dronken is, zegt ja.",
+              "bekwaam gegeven"
+            ]
+          ],
+          "extra": [
+            "schriftelijk"
+          ],
+          "uitleg": "De zes kenmerken: vrijwillig, duidelijk, geïnformeerd, specifiek, actueel en bekwaam gegeven."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is dit geldige toestemming?",
+          "rijen": [
+            "Iemand zegt duidelijk ja zonder dat er druk was.",
+            "Iemand zwijgt en kijkt weg.",
+            "Iemand zei gisteren ja, maar zegt vandaag nee.",
+            "Iemand weet goed waarvoor ze ja zegt en zegt het vrijuit."
+          ],
+          "antwoord": [
+            true,
+            false,
+            false,
+            true
+          ],
+          "uitleg": "Stilzwijgen is geen toestemming, en toestemming kan ingetrokken worden."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel kenmerken van geldige toestemming zijn er? Antwoord met een cijfer.",
+          "antwoord": [
+            "6",
+            "zes"
+          ],
+          "uitleg": "Vrijwillig, duidelijk, geïnformeerd, specifiek, actueel en bekwaam gegeven."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Formele of informele context?",
+          "kolommen": [
+            "Formeel",
+            "Informeel"
+          ],
+          "items": [
+            [
+              "een sollicitatiegesprek",
+              "Formeel"
+            ],
+            [
+              "een berichtje aan je beste vriend",
+              "Informeel"
+            ],
+            [
+              "een mail naar de directeur",
+              "Formeel"
+            ],
+            [
+              "een spelletjesavond met je familie",
+              "Informeel"
+            ]
+          ],
+          "uitleg": "Formeel betekent vaste regels en verwachtingen. Ook informeel blijft respect gelden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Sander stuurt een mail aan een bedrijf voor een vakantiejob: 'Hey, ik wil wel komen werken, laat iets weten.' Wat loopt er mis?",
+          "opties": [
+            "Hij gebruikt een informele stijl in een formele context",
+            "Hij stuurt de mail in een informele context, dus alles klopt",
+            "Hij geeft geen toestemming voor zijn persoonsgegevens",
+            "Hij doet aan groepsdruk tegenover de werkgever"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij een mogelijke werkgever past een formele stijl met een correcte aanspreking."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welke situatie is dit?",
+          "rijen": [
+            "Een speler mag al maanden nooit mee naar de teamactiviteiten.",
+            "Een verhuurder weigert een huurder met een hoofddoek.",
+            "Iemand wordt uitgescholden om zijn huidskleur."
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Racisme is een vorm van discriminatie op basis van afkomst of huidskleur.",
+          "kolommen": [
+            "uitsluiting",
+            "discriminatie",
+            "racisme"
+          ]
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Wat pesten onderscheidt van een ruzie, is dat het [[*herhaald en gericht|eenmalig en toevallig|altijd online]] is.",
+          "uitleg": "Ook het machtsverschil speelt mee."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom kan pesten lang nawerken bij het slachtoffer?",
+          "opties": [
+            "Het raakt het welzijn en het zelfbeeld",
+            "Het is altijd strafbaar en komt in een strafregister",
+            "Het slachtoffer moet zelf de dader bestraffen",
+            "Het stopt pas als het slachtoffer van school verandert"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je moet de impact op de betrokkenen kunnen verklaren."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "De invloed van een groep die je tot iets brengt wat je alleen niet zou doen, heet [[groepsdruk]]. Wie bij pesten toekijkt, is een [[omstaander]].",
+          "extra": [
+            "toestemming",
+            "slachtoffer"
+          ],
+          "uitleg": "Groepsdruk hoort bij de situaties rond grenzen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Helpt dit de samenwerking in een groepswerk vooruit?",
+          "rijen": [
+            "duidelijke afspraken over wie wat doet",
+            "elkaar op de hoogte houden van de voortgang",
+            "alles op de laatste avond doen zonder overleg",
+            "een probleem meteen bespreken met de groep"
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Duidelijke taken, communicatie en verantwoordelijkheid maken een samenwerking effectief."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hanne en Lucas zijn het grondig oneens over het onderwerp van hun groepswerk, maar ze luisteren naar elkaar en vinden een compromis. Wat is dit?",
+          "opties": [
+            "Een meningsverschil dat constructief eindigt",
+            "Destructieve communicatie, want ze waren het oneens",
+            "Pestgedrag, want er was een conflict",
+            "Groepsdruk, want ze moesten samenwerken"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je kan het oneens zijn en toch respectvol communiceren."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over respectvolle interactie?",
+          "rijen": [
+            "Respect betekent dat je het altijd eens moet zijn.",
+            "Je houdt rekening met de grenzen van de ander.",
+            "Je kan je eigen standpunt rustig uitleggen.",
+            "In een informele context gelden geen omgangsvormen."
+          ],
+          "antwoord": [
+            false,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Respect gaat over de manier waarop je met verschillen omgaat."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Je ziet dat een klasgenoot online gepest wordt. Zet deze stappen in een logische volgorde.",
+          "opties": [
+            "de situatie goed bekijken en niet meelachen",
+            "het slachtoffer laten weten dat je achter haar staat",
+            "het pesten melden bij een leerkracht of vertrouwenspersoon"
+          ],
+          "uitleg": "Eerst niet meedoen, dan steunen, dan hulp halen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Pieter vraagt of hij Lies' laptop mag lenen voor een uur. Lies zegt ja. Hij neemt de laptop een week mee op reis. Welk kenmerk ontbreekt?",
+          "opties": [
+            "Specifiek",
+            "Vrijwillig",
+            "Bekwaam gegeven",
+            "Duidelijk"
+          ],
+          "antwoord": 0,
+          "uitleg": "Ja voor één uur is geen ja voor een week."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Discriminatie is het [[*bredere begrip|smallere begrip|zelfde begrip]]; racisme is er een vorm van.",
+          "uitleg": "Racisme gaat over afkomst of huidskleur."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Kies de passende aanspreking.",
+          "rijen": [
+            "een mail aan een onbekende werkgever",
+            "een sms aan je zus",
+            "een brief aan de gemeente"
+          ],
+          "antwoord": [
+            0,
+            1,
+            0
+          ],
+          "uitleg": "In een formele context gebruik je een beleefde aanspreking.",
+          "kolommen": [
+            "Geachte mevrouw",
+            "Hey"
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom is een eenmalige ruzie geen pesten?",
+          "opties": [
+            "Er is geen herhaling en geen gericht machtsverschil",
+            "Er wordt nooit iets kwetsends gezegd tijdens een ruzie",
+            "Een ruzie gebeurt altijd in een formele context",
+            "Bij een ruzie is er altijd toestemming van beide"
+          ],
+          "antwoord": 0,
+          "uitleg": "Pesten is herhaald, gericht en kwetsend."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welk kenmerk van toestemming hoort bij deze uitleg?",
+          "rijen": [
+            "zonder druk, manipulatie, intimidatie of dwang",
+            "geldt voor het huidige moment",
+            "ja voor het ene is geen ja voor het andere"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Drie van de zes kenmerken.",
+          "kolommen": [
+            "vrijwillig",
+            "actueel",
+            "specifiek"
+          ]
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een vriendengroep zegt: 'Iedereen doet mee, dus jij ook.' Dat is [[*groepsdruk|constructieve communicatie|toestemming]].",
+          "uitleg": "De groep duwt je naar iets wat je alleen misschien niet zou doen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een speler wordt na een fout één keer uitgescholden door een ploegmaat, die zich achteraf excuseert. Hoe beoordeel je dit?",
+          "opties": [
+            "Een kwetsend incident, maar geen pesten",
+            "Racisme, want het gebeurde op het veld",
+            "Uitsluiting, want hij werd uitgescholden",
+            "Toestemming, want er kwamen excuses"
+          ],
+          "antwoord": 0,
+          "uitleg": "Er is geen herhaling. Het blijft wel kwetsend, en excuses zijn constructief."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Hoort dit bij een effectieve samenwerking of niet?",
+          "kolommen": [
+            "Effectief",
+            "Niet effectief"
+          ],
+          "items": [
+            [
+              "elk groepslid kent zijn taak",
+              "Effectief"
+            ],
+            [
+              "één persoon beslist alles zonder overleg",
+              "Niet effectief"
+            ],
+            [
+              "je laat weten als je vastloopt",
+              "Effectief"
+            ],
+            [
+              "je verbergt dat je achterloopt",
+              "Niet effectief"
+            ]
+          ],
+          "uitleg": "Afspraken, overleg en eerlijkheid helpen een groep vooruit."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over toestemming?",
+          "rijen": [
+            "Toestemming kan je achteraf intrekken.",
+            "Toestemming moet altijd schriftelijk zijn.",
+            "Wie niet begrijpt waarvoor hij tekent, geeft geen geldige toestemming."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Schriftelijk is geen kenmerk; duidelijk wel."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke reactie op een discriminerende grap van een collega is het meest constructief?",
+          "opties": [
+            "Rustig zeggen dat je de grap kwetsend vindt en waarom",
+            "Hem voor de hele groep uitlachen om hem terug te pakken",
+            "Meelachen zodat je zelf niet buiten de groep valt",
+            "Niets zeggen en hem voortaan negeren op het werk"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je benoemt het gedrag zonder de persoon af te breken."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Communicatie die afbreekt, heet [[destructief]]. Communicatie die het gesprek vooruithelpt, heet [[constructief]].",
+          "extra": [
+            "formeel",
+            "informeel"
+          ],
+          "uitleg": "Een meningsverschil kan perfect constructief verlopen."
+        },
+        {
+          "type": "open",
+          "vraag": "Je gedrag heeft gevolgen voor jezelf en voor anderen. Leg dat uit met een verzonnen voorbeeld van groepsdruk.",
+          "antwoord": "Bijvoorbeeld: Jens doet onder druk van zijn vrienden mee aan het uitlachen van een klasgenoot. Voor die klasgenoot is dat kwetsend en het tast zijn welzijn aan. Voor Jens zelf kan het tot een sanctie op school leiden en voelt hij zich achteraf slecht."
+        },
+        {
+          "type": "open",
+          "vraag": "Leg met een voorbeeld uit hoe je in een groepswerk verantwoordelijkheid opneemt.",
+          "antwoord": "Ik spreek af welk deel ik doe, lever het op tijd in, laat de groep weten als ik vastloop en help een groepsgenoot die achterop raakt."
+        }
+      ]
+    },
+    {
+      "titel": "Ongevallen herkennen en eerste hulp geven — pittig",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "casus": "Op een zaterdagmiddag fietst Bram (16) tegen een geparkeerde auto in een drukke straat. Hij ligt op de rijweg, is bij bewustzijn, roept dat zijn pols pijn doet en zijn knie bloedt. Zijn vriendin Ella staat erbij en begint te huilen. Er rijden nog auto's voorbij.",
+          "vragen": [
+            {
+              "type": "meerkeuze",
+              "vraag": "Wat doe je eerst?",
+              "opties": [
+                "Zorgen dat de plaats veilig is",
+                "Meteen zijn pols bekijken en betasten",
+                "Ella vragen wat er precies gebeurd is",
+                "Zijn fiets van de weg halen voor de schade"
+              ],
+              "antwoord": 0,
+              "uitleg": "Stap 1 is veiligheid, voor jezelf en het slachtoffer, zeker op een rijweg."
+            },
+            {
+              "type": "tabel",
+              "vraag": "Welk basisprincipe pas je hier toe?",
+              "rijen": [
+                "Je draagt handschoenen voor je de bloedende knie verzorgt.",
+                "Je praat rustig met Bram en blijft bij hem.",
+                "Je denkt ook aan Ella die erg geschrokken is."
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "Zes basisprincipes sturen hoe je helpt.",
+              "kolommen": [
+                "vermijd besmetting",
+                "verleen psychosociale hulp",
+                "houd rekening met emotionele reacties"
+              ]
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "Zijn pols staat in een vreemde stand. Je vermoedt een [[*botbreuk of ontwrichting|kneuzing|brandwonde]].",
+              "uitleg": "Een vreemde stand wijst op een breuk of een bot dat uit het gewricht staat."
+            },
+            {
+              "type": "invultekst",
+              "vraag": "Welk nummer bel je voor een ziekenwagen?",
+              "antwoord": [
+                "112"
+              ],
+              "uitleg": "112 is voor de ziekenwagen en de brandweer."
+            }
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welk nummer bel je?",
+          "rijen": [
+            "Een peuter heeft vaatwastablet ingeslikt en is wakker en alert.",
+            "Je ziet een inbraak in de buurt bezig.",
+            "Er staat rook uit een woning.",
+            "Je kind heeft zaterdagnacht hoge koorts, maar geen levensgevaar."
+          ],
+          "antwoord": [
+            2,
+            0,
+            1,
+            3
+          ],
+          "uitleg": "Antigifcentrum, politie, ziekenwagen en brandweer, huisartsenwachtpost.",
+          "kolommen": [
+            "101",
+            "112",
+            "070 245 245",
+            "1733"
+          ]
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet de vier stappen in eerste hulp in de juiste volgorde.",
+          "opties": [
+            "zorg voor veiligheid",
+            "beoordeel de toestand van het slachtoffer",
+            "raadpleeg gespecialiseerde hulp",
+            "verleen verdere eerste hulp"
+          ],
+          "uitleg": "Veiligheid eerst, dan beoordelen, dan hulp inroepen, dan verder helpen tot de hulpdiensten er zijn."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elk letsel aan zijn omschrijving.",
+          "paren": [
+            [
+              "botbreuk",
+              "het bot is gebroken"
+            ],
+            [
+              "ontwrichting",
+              "het bot staat uit het gewricht"
+            ],
+            [
+              "verstuiking",
+              "de banden rond het gewricht zijn overrekt"
+            ],
+            [
+              "kneuzing",
+              "weefsel is gekwetst door een stoot, zonder breuk"
+            ]
+          ],
+          "extra": [
+            "brandwonde"
+          ],
+          "uitleg": "Vier letsels aan botten, spieren en gewrichten."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Is dit een letsel aan botten, spieren of gewrichten, of een andere noodsituatie?",
+          "kolommen": [
+            "Bot, spier of gewricht",
+            "Andere noodsituatie"
+          ],
+          "items": [
+            [
+              "verstuiking",
+              "Bot, spier of gewricht"
+            ],
+            [
+              "verslikking",
+              "Andere noodsituatie"
+            ],
+            [
+              "kneuzing",
+              "Bot, spier of gewricht"
+            ],
+            [
+              "verdrinking",
+              "Andere noodsituatie"
+            ],
+            [
+              "ontwrichting",
+              "Bot, spier of gewricht"
+            ]
+          ],
+          "uitleg": "Verslikking en verdrinking zijn noodsituaties waarbij je meteen ingrijpt."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over de noodnummers?",
+          "rijen": [
+            "100 is in België nog altijd het nummer van de ziekenwagen.",
+            "112 geldt ook voor de brandweer.",
+            "Bij een vergiftiging met bewustzijnsverlies bel je 112.",
+            "1733 is het nummer van de politie."
+          ],
+          "antwoord": [
+            false,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "1733 brengt je bij de huisarts van wacht. Bij bewustzijnsverlies is het levensbedreigend: 112."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een voorbijganger begint meteen een gewonde op de autosnelweg te verzorgen zonder iets af te bakenen. Wat is het grootste gevaar?",
+          "opties": [
+            "Er kunnen extra slachtoffers vallen",
+            "De gewonde krijgt te weinig psychosociale hulp",
+            "De voorbijganger belt het verkeerde noodnummer",
+            "De gewonde krijgt een besmetting via de handen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Wie de veiligheid overslaat, riskeert dat de helper zelf slachtoffer wordt."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel basisprincipes van eerste hulp zijn er? Antwoord met een cijfer.",
+          "antwoord": [
+            "6",
+            "zes"
+          ],
+          "uitleg": "Zes basisprincipes en vier stappen: verwar die twee niet."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is dit een basisprincipe of een stap van eerste hulp?",
+          "rijen": [
+            "blijf rustig",
+            "zorg voor veiligheid",
+            "zorg voor het comfort van het slachtoffer",
+            "raadpleeg gespecialiseerde hulp"
+          ],
+          "antwoord": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "uitleg": "De principes gelden de hele tijd; de stappen volgen elkaar op.",
+          "kolommen": [
+            "basisprincipe",
+            "stap"
+          ]
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een vrouw in het restaurant grijpt naar haar keel en kan niet praten of hoesten. Dit is een [[*verslikking|verstuiking|kneuzing]].",
+          "uitleg": "Een verslikking is een noodsituatie die meteen hulp vraagt."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "De twee soorten wonden zijn de [[huidwonde]] en de [[brandwonde]].",
+          "extra": [
+            "kneuzing",
+            "verstuiking"
+          ],
+          "uitleg": "Kneuzing en verstuiking zijn letsels, geen wonden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Na het ongeval kan Femke niet slapen en ziet ze de beelden steeds terug. Welk basisprincipe gaat hierover?",
+          "opties": [
+            "Houd rekening met emotionele reacties achteraf",
+            "Vermijd besmetting",
+            "Zorg voor veiligheid op de plaats van het ongeval",
+            "Handel als eerste hulpverlener zonder twijfel"
+          ],
+          "antwoord": 0,
+          "uitleg": "Ook helpers en getuigen kunnen achteraf reageren."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welke stap van eerste hulp zet je hier?",
+          "rijen": [
+            "Je kijkt of het slachtoffer reageert en ademt.",
+            "Je belt 112.",
+            "Je zet de gevarendriehoek en de lichten aan.",
+            "Je blijft bij het slachtoffer tot de ambulance er is."
+          ],
+          "antwoord": [
+            1,
+            2,
+            0,
+            3
+          ],
+          "uitleg": "Veiligheid, beoordelen, hulp inroepen, verder helpen.",
+          "kolommen": [
+            "stap 1",
+            "stap 2",
+            "stap 3",
+            "stap 4"
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom roep je gespecialiseerde hulp in vóór de verdere eerste hulp?",
+          "opties": [
+            "Zo is de ambulance al onderweg terwijl jij helpt",
+            "Omdat je zonder toestemming van 112 niet mag helpen",
+            "Omdat de verdere eerste hulp altijd door de politie gebeurt",
+            "Omdat het slachtoffer dan zelf kan kiezen wie helpt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Hoe vroeger de hulpdiensten weten wat er is, hoe sneller ze er zijn."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is dit een noodsituatie waarbij je meteen eerste hulp moet geven?",
+          "rijen": [
+            "een zware bloeding",
+            "iemand die uit het water gehaald wordt en niet ademt",
+            "iemand die zich verslikt en niet kan hoesten",
+            "een vriend met een lichte hoofdpijn"
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Bloeding, verdrinking, verslikking en hart- en ademhalingsstilstand zijn noodsituaties."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Bij een vergiftiging zonder bewustzijnsverlies bel je het [[*antigifcentrum|politiekantoor|ziekenhuis van je keuze]].",
+          "uitleg": "Het antigifcentrum: 070 245 245."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke houding past bij het basisprincipe 'handel als eerste hulpverlener'?",
+          "opties": [
+            "Binnen je mogelijkheden helpen tot de hulp er is",
+            "Alles zelf doen, ook wat enkel een arts mag doen",
+            "Wachten tot iemand anders het initiatief neemt",
+            "Het slachtoffer zo snel mogelijk zelf naar huis brengen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je helpt met wat je kan en blijft binnen je grenzen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over de letsels?",
+          "rijen": [
+            "Een kneuzing en een botbreuk zijn hetzelfde.",
+            "Bij een verstuiking zit het letsel in de banden.",
+            "Bij een ontwrichting staat het bot uit het gewricht."
+          ],
+          "antwoord": [
+            false,
+            true,
+            true
+          ],
+          "uitleg": "Vier verschillende letsels in hetzelfde rijtje."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Hoort dit bij de zes basisprincipes van eerste hulp?",
+          "kolommen": [
+            "Basisprincipe",
+            "Geen basisprincipe"
+          ],
+          "items": [
+            [
+              "vermijd besmetting",
+              "Basisprincipe"
+            ],
+            [
+              "verleen psychosociale hulp",
+              "Basisprincipe"
+            ],
+            [
+              "geef het slachtoffer meteen iets te drinken",
+              "Geen basisprincipe"
+            ],
+            [
+              "zorg voor het comfort van het slachtoffer",
+              "Basisprincipe"
+            ],
+            [
+              "laat het slachtoffer alleen om hulp te halen van thuis",
+              "Geen basisprincipe"
+            ]
+          ],
+          "uitleg": "Rustig blijven, besmetting vermijden, handelen als eerste hulpverlener, psychosociale hulp, comfort en emotionele reacties achteraf."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel stappen telt eerste hulp? Antwoord met een cijfer.",
+          "antwoord": [
+            "4",
+            "vier"
+          ],
+          "uitleg": "Veiligheid, beoordelen, hulp inroepen, verder helpen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een getuige loopt zonder iets te zeggen weg van een gewonde om thuis 112 te bellen. Wat liep er mis?",
+          "opties": [
+            "Hij liet het slachtoffer alleen zonder steun",
+            "Hij belde het verkeerde nummer, want 101 is juist",
+            "Hij zorgde eerst voor veiligheid in plaats van te bellen",
+            "Hij gaf te veel psychosociale hulp"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bel liefst ter plaatse met je gsm, of laat een ander bellen, en blijf bij het slachtoffer."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Bel je 112 of niet?",
+          "rijen": [
+            "Iemand is bewusteloos na een val van de trap.",
+            "Een collega heeft een kleine snijwonde die stopt met bloeden.",
+            "Er brandt een container naast een huis."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true
+          ],
+          "uitleg": "112 is voor levensbedreigende situaties en brand."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Bij een bloeding draag je handschoenen. Dat is het principe [[*vermijd besmetting|blijf rustig|zorg voor comfort]].",
+          "uitleg": "Zo bescherm je jezelf en het slachtoffer tegen overdracht van ziektes."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elke noodsituatie aan wat je ziet.",
+          "paren": [
+            [
+              "verslikking",
+              "iemand grijpt naar de keel en kan niet hoesten"
+            ],
+            [
+              "verdrinking",
+              "iemand wordt bewusteloos uit het zwembad gehaald"
+            ],
+            [
+              "hart- en ademhalingsstilstand",
+              "iemand reageert niet en ademt niet normaal"
+            ]
+          ],
+          "extra": [
+            "verstuiking"
+          ],
+          "uitleg": "Bij die noodsituaties grijp je meteen in."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom is rustig blijven het eerste basisprincipe?",
+          "opties": [
+            "Wie in paniek is, maakt makkelijker fouten",
+            "Omdat de hulpdiensten pas komen als je rustig bent",
+            "Omdat het slachtoffer anders een ontwrichting krijgt",
+            "Omdat rustig blijven de vier stappen vervangt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Rust helpt jou én het slachtoffer."
+        },
+        {
+          "type": "open",
+          "vraag": "Leg uit waarom 'zorg voor veiligheid' altijd de eerste stap is, met een verzonnen voorbeeld.",
+          "antwoord": "Bijvoorbeeld: bij een stroomkabel die op een gewonde ligt, word je zelf geëlektrocuteerd als je hem meteen aanraakt. Eerst moet de stroom uit. Zonder veiligheid kunnen er extra slachtoffers vallen, en dan kan niemand nog helpen."
+        },
+        {
+          "type": "open",
+          "vraag": "Een klasgenoot zegt: 'Bij een ongeval bel ik gewoon 101.' Leg uit wat er mis is en welk nummer hij moet onthouden.",
+          "antwoord": "101 is de politie. Voor een ziekenwagen of de brandweer bel je 112. Bij een vergiftiging zonder bewustzijnsverlies het antigifcentrum (070 245 245) en voor een huisarts buiten de uren 1733."
+        }
+      ]
+    },
+    {
+      "titel": "Een hartstilstand, reanimatie en de AED — pittig",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "casus": "Tijdens een voetbalmatch zakt een supporter van 60 in elkaar op de tribune. Hij reageert niet als je hem aanspreekt en zachtjes schudt, en hij ademt niet normaal. Rondom staan veel mensen. In de kantine hangt een AED.",
+          "vragen": [
+            {
+              "type": "meerkeuze",
+              "vraag": "Wat doe je meteen nadat je weet dat hij bewusteloos is?",
+              "opties": [
+                "112 bellen",
+                "Starten met borstcompressies",
+                "De AED zelf gaan halen in de kantine",
+                "Hem in de zetel rechtop laten zitten"
+              ],
+              "antwoord": 0,
+              "uitleg": "Stap 2 is bellen, zodat de ambulance zo vroeg mogelijk vertrekt."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Hoe zet je de omstaanders het best in?",
+              "opties": [
+                "Eén belt 112 en één haalt de AED",
+                "Iedereen belt 112 voor de zekerheid",
+                "Iedereen gaat samen de AED halen",
+                "Je stuurt iedereen weg zodat je rust hebt"
+              ],
+              "antwoord": 0,
+              "uitleg": "Taken verdelen bespaart kostbare tijd."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "Je reanimeert op de [[*harde vloer|zachte tribunestoel|schoot van een omstaander]].",
+              "uitleg": "Op een zachte ondergrond zakt het lichaam mee en komen de compressies niet aan."
+            },
+            {
+              "type": "tabel",
+              "vraag": "Klopt dit voor de AED?",
+              "rijen": [
+                "Je zet hem aan en volgt de gesproken instructies.",
+                "Jij beslist of er een stroomstoot nodig is.",
+                "Tijdens de meting raak je de man niet aan."
+              ],
+              "antwoord": [
+                true,
+                false,
+                true
+              ],
+              "uitleg": "De AED meet het hartritme en beslist zelf."
+            }
+          ]
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet de zes stappen bij een hartstilstand in de juiste volgorde.",
+          "opties": [
+            "bepaal of de persoon bewusteloos is",
+            "bel 112",
+            "kijk of er een AED in de buurt is",
+            "start met borstcompressies",
+            "geef beademing",
+            "ga door tot de ambulancier het overneemt"
+          ],
+          "uitleg": "Bewustzijn, bellen, AED, compressies, beademing, doorgaan."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Gaat het hier goed of fout?",
+          "rijen": [
+            "De handen liggen midden op de borstkas.",
+            "De armen zijn geplooid bij het duwen.",
+            "De borstkas komt tussen twee compressies volledig terug.",
+            "De helper stopt zodra het slachtoffer één keer zucht."
+          ],
+          "antwoord": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "uitleg": "Gestrekte armen met de schouders boven de handen; doorgaan tot de ambulancier overneemt.",
+          "kolommen": [
+            "goed",
+            "fout"
+          ]
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elke handeling aan de reden.",
+          "paren": [
+            [
+              "het hoofd achterover kantelen en de kin optillen",
+              "de luchtweg komt vrij"
+            ],
+            [
+              "de neus dichtknijpen",
+              "de lucht ontsnapt niet langs de neus"
+            ],
+            [
+              "de borstkas laten terugkomen",
+              "het hart kan zich opnieuw vullen"
+            ],
+            [
+              "op een harde ondergrond werken",
+              "de compressies komen aan"
+            ]
+          ],
+          "extra": [
+            "het slachtoffer rechtop zetten"
+          ],
+          "uitleg": "Elke handeling maakt de reanimatie doeltreffender."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom moet je zo snel mogelijk beginnen met reanimeren?",
+          "opties": [
+            "De hersenen krijgen anders geen zuurstof",
+            "Omdat de AED anders vanzelf uitvalt na enkele minuten",
+            "Omdat de ambulance pas vertrekt als je begonnen bent",
+            "Omdat de borstkas anders hard wordt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Elke minuut zonder bloedsomloop schaadt de hersenen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Wijst dit op een mogelijke hartstilstand?",
+          "rijen": [
+            "Iemand reageert niet en ademt niet normaal.",
+            "Iemand is duizelig maar praat nog gewoon.",
+            "Iemand ligt stil, reageert niet op aanspreken en hapt af en toe naar adem."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Niet reageren en niet normaal ademen zijn samen het teken."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Bij een hartstilstand [[*pompt het hart niet meer|klopt het hart te snel|blijft de ademhaling normaal]].",
+          "uitleg": "Daardoor gaat het bloed niet meer rond."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je bent alleen, je gsm werkt en je moet reanimeren. Wat doe je met je gsm?",
+          "opties": [
+            "112 bellen op luidspreker",
+            "Eerst een foto nemen voor de hulpdiensten",
+            "Hem wegleggen tot de reanimatie gedaan is",
+            "Een bericht sturen naar de huisarts van het slachtoffer"
+          ],
+          "antwoord": 0,
+          "uitleg": "Zo heb je je handen vrij en kan de centralist je helpen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Uit hoeveel stappen bestaat het stappenplan bij een hartstilstand? Antwoord met een cijfer.",
+          "antwoord": [
+            "6",
+            "zes"
+          ],
+          "uitleg": "Zes stappen, van bewustzijn nagaan tot doorgaan tot de ambulancier overneemt."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "AED staat voor [[automatische]] externe [[defibrillator]]. Het toestel kan met een [[stroomstoot]] het hartritme herstellen.",
+          "extra": [
+            "manuele",
+            "injectie"
+          ],
+          "uitleg": "Automatisch: het toestel beslist zelf."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welke stap van de reanimatie is dit?",
+          "rijen": [
+            "Je roept 'Gaat het?' en schudt zachtjes aan de schouders.",
+            "Je vraagt iemand om de AED uit de inkomhal te halen.",
+            "Je duwt met gestrekte armen midden op de borstkas."
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Stap 2 is bellen, stap 5 beademen, stap 6 doorgaan.",
+          "kolommen": [
+            "stap 1",
+            "stap 3",
+            "stap 4"
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Iemand begint meteen met borstcompressies en belt pas na tien minuten 112. Wat is het probleem?",
+          "opties": [
+            "De ambulance vertrekt veel te laat",
+            "Borstcompressies zijn verboden zonder AED",
+            "De compressies komen pas na de beademing",
+            "112 is het verkeerde nummer bij een hartstilstand"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bellen is stap 2 en komt vóór de compressies."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over hartmassage en de AED?",
+          "rijen": [
+            "Bij hartmassage leg je je handen links op de borstkas.",
+            "Aan de borstkas zie je of een beademing aankomt.",
+            "Tijdens een stroomstoot raak je het slachtoffer niet aan.",
+            "Na het bellen hoef je zelf niets meer te doen."
+          ],
+          "antwoord": [
+            false,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Je blijft doorgaan tot de ambulancier het overneemt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je bent uitgeput na lang reanimeren en de ambulance is er nog niet. Wat doe je?",
+          "opties": [
+            "Je laat iemand anders overnemen",
+            "Je stopt, want je hebt genoeg gedaan",
+            "Je duwt voortaan enkel nog met één hand",
+            "Je zet de AED uit om batterij te sparen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Wisselen zorgt dat de compressies krachtig blijven."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Hoort dit bij borstcompressies of bij beademing?",
+          "kolommen": [
+            "Borstcompressies",
+            "Beademing"
+          ],
+          "items": [
+            [
+              "gestrekte armen",
+              "Borstcompressies"
+            ],
+            [
+              "de neus dichtknijpen",
+              "Beademing"
+            ],
+            [
+              "de schouders recht boven de handen",
+              "Borstcompressies"
+            ],
+            [
+              "de kin optillen",
+              "Beademing"
+            ]
+          ],
+          "uitleg": "Compressies houden het bloed in beweging, beademing brengt zuurstof in de longen."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Bij mond-op-mond beademing is het betrouwbaarste teken dat de lucht aankomt dat [[*de borstkas omhoogkomt|de wangen bol staan|het slachtoffer hoest]].",
+          "uitleg": "Komt de borstkas omhoog, dan gaat de lucht naar de longen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom raak je het slachtoffer niet aan terwijl de AED meet?",
+          "opties": [
+            "Aanraken verstoort de meting",
+            "De AED werkt enkel als iedereen ver weg staat van het toestel",
+            "Het slachtoffer moet dan zelf kunnen ademen",
+            "Zo kan de AED de beademing overnemen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Ook bij een stroomstoot is aanraken gevaarlijk voor jezelf."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Mag je stoppen met reanimeren?",
+          "rijen": [
+            "De ambulancier neemt het over.",
+            "Het slachtoffer zucht één keer.",
+            "Er komt een omstaander die het van je overneemt."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Je stopt niet zelf; je geeft het door of de hulpdiensten nemen over."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is dit een stap uit het stappenplan bij een hartstilstand?",
+          "rijen": [
+            "kijk of er een AED in de buurt is",
+            "geef het slachtoffer water",
+            "start met borstcompressies",
+            "zet het slachtoffer rechtop"
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Water geven of rechtop zetten hoort er niet bij."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom zoek je een AED al vóór je met compressies begint?",
+          "opties": [
+            "Zo is hij er als je hem nodig hebt",
+            "Zonder AED mag je niet reanimeren",
+            "De AED doet de compressies voor jou",
+            "De AED belt zelf 112 als hij aangezet wordt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een stroomstoot kan het hartritme herstellen; hoe sneller, hoe beter."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Je houdt je armen [[*gestrekt|geplooid|achter je rug]] met je schouders recht boven je handen.",
+          "uitleg": "Zo duw je met het gewicht van je bovenlichaam."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elke fout aan wat er dan misgaat.",
+          "paren": [
+            [
+              "handen links op de borstkas",
+              "je duwt niet goed op het hart"
+            ],
+            [
+              "reanimeren op een matras",
+              "de compressies komen niet aan"
+            ],
+            [
+              "de neus niet dichtknijpen",
+              "de lucht ontsnapt"
+            ]
+          ],
+          "extra": [
+            "de AED verliest stroom"
+          ],
+          "uitleg": "Midden op de borstkas, harde ondergrond, neus dicht."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Je kantelt het hoofd [[achterover]] en tilt de [[kin]] op. Zo komt de [[luchtweg]] vrij.",
+          "extra": [
+            "voorover",
+            "neus"
+          ],
+          "uitleg": "Zonder vrije luchtweg komt de beademing niet in de longen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Wat doe je eerst bij iemand die neervalt?",
+          "rijen": [
+            "Iemand zakt in elkaar in de supermarkt.",
+            "Je weet dat de persoon niet reageert en niet normaal ademt.",
+            "Een collega valt neer aan de kopieermachine.",
+            "Je hebt vastgesteld dat de fietser bewusteloos is en niet ademt."
+          ],
+          "antwoord": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "uitleg": "Eerst bewustzijn nagaan, dan meteen bellen.",
+          "kolommen": [
+            "nagaan of hij reageert",
+            "112 bellen"
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een omstaander zegt: 'Ik durf niet te reanimeren, straks doe ik iets fout.' Wat zeg je best?",
+          "opties": [
+            "Niets doen is erger dan iets proberen",
+            "Hij heeft gelijk, enkel artsen mogen reanimeren",
+            "Hij moet eerst een diploma tonen aan de centralist",
+            "Hij mag enkel beademen, nooit compressies geven"
+          ],
+          "antwoord": 0,
+          "uitleg": "Zonder hulp heeft iemand met een hartstilstand weinig kans."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over de AED?",
+          "rijen": [
+            "Een AED is een automatische externe defibrillator.",
+            "De AED meet zelf het hartritme.",
+            "Een AED mag enkel door artsen gebruikt worden."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false
+          ],
+          "uitleg": "De AED praat je door de stappen; iedereen mag hem gebruiken."
+        },
+        {
+          "type": "open",
+          "vraag": "Leg uit waarom je bij een hartstilstand eerst 112 belt en pas daarna met borstcompressies start.",
+          "antwoord": "Hoe vroeger de ambulance vertrekt, hoe sneller er professionele hulp is. Met compressies alleen houd je het bloed in beweging, maar het hart herstart meestal pas met een stroomstoot of verdere zorg. Bellen duurt even en komt daarom vóór de compressies."
+        }
+      ]
+    },
+    {
+      "titel": "De inkomsten en de uitgaven van de overheid — pittig",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "casus": "De gemeente Zonnedaal maakt haar begroting op. Ze ontvangt geld uit de onroerende voorheffing, uit parkeerboetes, uit de verhuur van de feestzaal en uit de verkoop van een oud schoolgebouw. Ze wil uitgeven aan een nieuwe brandweerkazerne, een cultuurfestival, sociale woningen en snel internet op het bedrijventerrein.",
+          "vragen": [
+            {
+              "type": "tabel",
+              "vraag": "Welke soort inkomst is dit voor de gemeente?",
+              "rijen": [
+                "onroerende voorheffing",
+                "parkeerboetes",
+                "verhuur van de feestzaal",
+                "verkoop van het schoolgebouw"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2,
+                2
+              ],
+              "uitleg": "Verkoop of verhuur van eigen bezit is een inkomst uit overheidskapitaal; boetes zijn diverse inkomsten.",
+              "kolommen": [
+                "directe belasting",
+                "diverse inkomst",
+                "overheidskapitaal"
+              ]
+            },
+            {
+              "type": "tabel",
+              "vraag": "Welke soort uitgave is dit?",
+              "rijen": [
+                "brandweerkazerne",
+                "cultuurfestival",
+                "sociale woningen",
+                "snel internet op het bedrijventerrein"
+              ],
+              "antwoord": [
+                0,
+                2,
+                3,
+                1
+              ],
+              "uitleg": "Vier soorten uitgaven: collectieve behoeften, economische groei, maatschappelijk en cultureel leven, sociale uitgaven.",
+              "kolommen": [
+                "collectieve behoeften",
+                "economische groei",
+                "maatschappelijk en cultureel leven",
+                "sociale uitgaven"
+              ]
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "De gemeente heeft niet genoeg geld voor alles. Wat toont dat?",
+              "opties": [
+                "Uitgaven vragen keuzes, want de inkomsten zijn beperkt",
+                "Een gemeente mag geen boetes innen",
+                "Sociale woningen zijn een inkomst uit overheidskapitaal",
+                "Een festival hoort bij de collectieve behoeften"
+              ],
+              "antwoord": 0,
+              "uitleg": "De inkomsten bepalen mee welke uitgaven mogelijk zijn."
+            }
+          ]
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Directe of indirecte belasting?",
+          "kolommen": [
+            "Direct",
+            "Indirect"
+          ],
+          "items": [
+            [
+              "btw op een nieuwe fiets",
+              "Indirect"
+            ],
+            [
+              "bedrijfsvoorheffing op je loon",
+              "Direct"
+            ],
+            [
+              "accijnzen op diesel",
+              "Indirect"
+            ],
+            [
+              "onroerende voorheffing op een appartement",
+              "Direct"
+            ],
+            [
+              "een milieuheffing in de prijs van batterijen",
+              "Indirect"
+            ]
+          ],
+          "uitleg": "Direct gaat rechtstreeks van jou naar de overheid; indirect zit in de prijs en loopt via de verkoper."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom heet de btw een indirecte belasting?",
+          "opties": [
+            "De verkoper int ze en stort ze door",
+            "Ze wordt enkel op luxeproducten geheven",
+            "Ze wordt op je loon ingehouden door je werkgever",
+            "Ze gaat naar een andere overheid dan de federale"
+          ],
+          "antwoord": 0,
+          "uitleg": "Jij betaalt de prijs aan de winkel; de winkel stort de btw door aan de overheid."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elke inkomst aan haar soort.",
+          "paren": [
+            [
+              "personenbelasting",
+              "directe belasting"
+            ],
+            [
+              "accijns op tabak",
+              "indirecte belasting"
+            ],
+            [
+              "retributie voor een identiteitskaart",
+              "diverse inkomst"
+            ],
+            [
+              "huur van een gemeentelijk gebouw",
+              "inkomst uit overheidskapitaal"
+            ]
+          ],
+          "extra": [
+            "sociale uitgave"
+          ],
+          "uitleg": "Vier soorten inkomsten."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel soorten inkomsten heeft de overheid? Antwoord met een cijfer.",
+          "antwoord": [
+            "4",
+            "vier"
+          ],
+          "uitleg": "Directe en indirecte belastingen, diverse inkomsten en inkomsten uit overheidskapitaal."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over inkomsten en uitgaven?",
+          "rijen": [
+            "Een boete is een belasting.",
+            "De verkoop van grond door de overheid is een inkomst uit overheidskapitaal.",
+            "De financiering van de sociale zekerheid is een uitgave.",
+            "Cultuur en sport zijn sociale uitgaven."
+          ],
+          "antwoord": [
+            false,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Boetes zijn diverse inkomsten; cultuur en sport horen bij het maatschappelijk leven."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Veiligheid, onderwijs en openbaar vervoer zijn [[*collectieve behoeften|sociale uitgaven|diverse inkomsten]].",
+          "uitleg": "De hele samenleving maakt er gebruik van."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "De overheid betaalt een campagne tegen roken. Bij welke uitgave hoort dat?",
+          "opties": [
+            "Het maatschappelijk en culturele leven",
+            "Investeren in economische groei van bedrijven",
+            "Een sociale uitkering voor alle rokers",
+            "Een inkomst uit eigen overheidskapitaal"
+          ],
+          "antwoord": 0,
+          "uitleg": "Infocampagnes horen bij het maatschappelijk leven."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Bij welke uitgave hoort dit?",
+          "rijen": [
+            "een nieuwe autosnelweg voor het goederenvervoer",
+            "een politiekorps",
+            "een project tegen armoede"
+          ],
+          "antwoord": [
+            1,
+            0,
+            2
+          ],
+          "uitleg": "Handel en transport zitten bij economische groei.",
+          "kolommen": [
+            "collectieve behoeften",
+            "economische groei",
+            "sociale uitgaven"
+          ]
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Belastingen op je inkomen of bezit zijn [[direct]]. Belastingen die in de prijs zitten, zijn [[indirect]].",
+          "extra": [
+            "collectief",
+            "sociaal"
+          ],
+          "uitleg": "Btw en accijnzen zijn indirect."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom heft de overheid lagere btw op brood dan op een sportwagen?",
+          "opties": [
+            "Noodzakelijke producten worden lichter belast",
+            "Brood is een inkomst uit overheidskapitaal",
+            "Btw op luxegoederen is eigenlijk een directe belasting",
+            "Op brood bestaat er helemaal geen indirecte belasting"
+          ],
+          "antwoord": 0,
+          "uitleg": "Verschillende tarieven verdelen de last eerlijker."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elke uitgave aan haar soort.",
+          "paren": [
+            [
+              "scholen",
+              "collectieve behoeften"
+            ],
+            [
+              "steun voor duurzame energie in bedrijven",
+              "economische groei"
+            ],
+            [
+              "een sporthal",
+              "maatschappelijk en cultureel leven"
+            ],
+            [
+              "huurpremies",
+              "sociale uitgaven"
+            ]
+          ],
+          "extra": [
+            "directe belasting"
+          ],
+          "uitleg": "Vier soorten uitgaven."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is dit een inkomst of een uitgave van de overheid?",
+          "rijen": [
+            "de bedrijfsvoorheffing",
+            "de lonen van leerkrachten",
+            "de verhuur van een stadszaal",
+            "de bouw van sociale woningen"
+          ],
+          "antwoord": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "uitleg": "Wat binnenkomt is een inkomst, wat de overheid betaalt een uitgave.",
+          "kolommen": [
+            "inkomst",
+            "uitgave"
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een stad kiest tussen een nieuwe bibliotheek en een nieuwe industriële haven. Welke soorten uitgaven staan tegenover elkaar?",
+          "opties": [
+            "Maatschappelijk leven en economische groei",
+            "Collectieve behoeften en sociale uitgaven",
+            "Directe en indirecte belastingen van de stad",
+            "Diverse inkomsten en inkomsten uit overheidskapitaal"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een bibliotheek is cultuur, een haven is handel en transport."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een vergoeding die je betaalt om een paspoort aan te vragen, is een [[*diverse inkomst|directe belasting|indirecte belasting]].",
+          "uitleg": "Vergoedingen voor diensten horen bij de diverse inkomsten."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welke belasting is dit?",
+          "rijen": [
+            "op je loon, ingehouden door je werkgever",
+            "op een huis dat je bezit",
+            "in de prijs van bijna alles wat je koopt"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Twee directe en één indirecte belasting.",
+          "kolommen": [
+            "bedrijfsvoorheffing",
+            "onroerende voorheffing",
+            "btw"
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom zijn de inkomsten en de uitgaven van de overheid samen belangrijk voor de ongelijkheid?",
+          "opties": [
+            "Met beide kan de overheid de ongelijkheid beperken",
+            "Omdat enkel de inkomsten iets veranderen aan ongelijkheid",
+            "Omdat uitgaven altijd naar de rijkste inwoners gaan",
+            "Omdat belastingen altijd voor iedereen even hoog zijn"
+          ],
+          "antwoord": 0,
+          "uitleg": "Wie het betaalt en waar het naartoe gaat, bepalen samen het effect."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een gsm kost 605 euro inclusief 21 procent btw. Hoeveel euro btw zit erin?",
+          "antwoord": [
+            "105",
+            "105 euro"
+          ],
+          "uitleg": "Zonder btw is de prijs 605 gedeeld door 1,21 = 500 euro. De btw is dus 105 euro."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Hoort dit bij de inkomsten of bij de uitgaven van de overheid?",
+          "kolommen": [
+            "Inkomsten",
+            "Uitgaven"
+          ],
+          "items": [
+            [
+              "accijnzen",
+              "Inkomsten"
+            ],
+            [
+              "openbaar vervoer",
+              "Uitgaven"
+            ],
+            [
+              "boetes",
+              "Inkomsten"
+            ],
+            [
+              "het groeipakket",
+              "Uitgaven"
+            ]
+          ],
+          "uitleg": "Het groeipakket is een sociale uitgave."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is dit een collectieve behoefte?",
+          "rijen": [
+            "de politie",
+            "de rechtbank",
+            "een nieuwe auto voor één inwoner"
+          ],
+          "antwoord": [
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Collectieve behoeften dienen de hele samenleving."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "De onroerende voorheffing is een [[*directe|indirecte]] belasting.",
+          "uitleg": "Ze wordt rechtstreeks op je bezit geheven."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is dit een indirecte belasting?",
+          "rijen": [
+            "accijnzen op alcohol",
+            "personenbelasting",
+            "btw op een restaurantbezoek"
+          ],
+          "antwoord": [
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Indirecte belastingen zitten in de prijs."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een gemeente verkoopt een oud brandweerkazerne aan een projectontwikkelaar. Wat voor inkomst is dat?",
+          "opties": [
+            "Een inkomst uit overheidskapitaal",
+            "Een directe belasting op het gebouw",
+            "Een indirecte belasting via de projectontwikkelaar",
+            "Een diverse inkomst zoals een boete"
+          ],
+          "antwoord": 0,
+          "uitleg": "De overheid verkoopt eigen bezit."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel soorten uitgaven heeft de overheid? Antwoord met een cijfer.",
+          "antwoord": [
+            "4",
+            "vier"
+          ],
+          "uitleg": "Collectieve behoeften, economische groei, maatschappelijk en cultureel leven, sociale uitgaven."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Een boete hoort bij de [[diverse]] inkomsten. De verhuur van een stadszaal is een inkomst uit [[overheidskapitaal]].",
+          "extra": [
+            "directe",
+            "collectieve"
+          ],
+          "uitleg": "Geen van beide is een belasting."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welke soort overheidsuitgave is dit?",
+          "rijen": [
+            "een museum",
+            "leefloon voor wie geen inkomen heeft",
+            "leger en defensie"
+          ],
+          "antwoord": [
+            1,
+            2,
+            0
+          ],
+          "uitleg": "Drie van de vier soorten uitgaven.",
+          "kolommen": [
+            "collectieve behoeften",
+            "maatschappelijk en cultureel leven",
+            "sociale uitgaven"
+          ]
+        },
+        {
+          "type": "open",
+          "vraag": "Leg met een verzonnen voorbeeld uit hoe een uitgave van de overheid invloed heeft op de samenleving.",
+          "antwoord": "Bijvoorbeeld: een gemeente legt een nieuwe busverbinding aan (collectieve behoefte). Jongeren zonder auto geraken zo naar school en werk, en er rijden minder auto's. Dat helpt vooral wie weinig verdient."
+        },
+        {
+          "type": "open",
+          "vraag": "Leg uit waarom de btw een indirecte belasting is en de bedrijfsvoorheffing een directe.",
+          "antwoord": "De btw zit in de prijs van een product: je betaalt ze aan de winkel, die ze doorstort. De bedrijfsvoorheffing wordt rechtstreeks op je loon ingehouden en gaat naar de overheid zonder tussenstap via een verkoper."
+        }
+      ]
+    },
+    {
+      "titel": "Sociale zekerheid, uitkeringen en herverdeling — pittig",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "casus": "In de familie Peeters gebeurt veel tegelijk. Opa (67) is net gestopt met werken. Mama brak haar been op het werk toen ze van een trap viel. Papa verloor zijn job bij een fabriek die sloot. De drie kinderen gaan naar school, en de oudste krijgt een studiebeurs. Tante Rita is weduwe sinds vorig jaar.",
+          "vragen": [
+            {
+              "type": "tabel",
+              "vraag": "Welke uitkering of steun krijgt dit familielid?",
+              "rijen": [
+                "opa",
+                "mama",
+                "papa",
+                "tante Rita"
+              ],
+              "antwoord": [
+                0,
+                2,
+                3,
+                1
+              ],
+              "uitleg": "Elk risico heeft zijn eigen type uitkering binnen de sociale zekerheid.",
+              "kolommen": [
+                "rustpensioen",
+                "overlevingspensioen",
+                "arbeidsongevallenuitkering",
+                "werkloosheidsuitkering"
+              ]
+            },
+            {
+              "type": "sorteren",
+              "vraag": "Vervangingsinkomen of aanvullend inkomen?",
+              "kolommen": [
+                "Vervangingsinkomen",
+                "Aanvullend inkomen"
+              ],
+              "items": [
+                [
+                  "het pensioen van opa",
+                  "Vervangingsinkomen"
+                ],
+                [
+                  "het groeipakket voor de kinderen",
+                  "Aanvullend inkomen"
+                ],
+                [
+                  "de uitkering van papa",
+                  "Vervangingsinkomen"
+                ],
+                [
+                  "het vakantiegeld van mama",
+                  "Aanvullend inkomen"
+                ]
+              ],
+              "uitleg": "Een vervangingsinkomen neemt de plaats van een weggevallen loon in; een aanvullend inkomen komt erbovenop."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "De studiebeurs is een [[*sociale|fiscale]] herverdelingsmaatregel.",
+              "uitleg": "Ze werkt via een tegemoetkoming, niet via de belastingen."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Op welk principe steunt het geld dat de familie Peeters krijgt?",
+              "opties": [
+                "Solidariteit",
+                "Monoculturalisme",
+                "Een vlakke personenbelasting",
+                "Concurrentie tussen ziekenfondsen"
+              ],
+              "antwoord": 0,
+              "uitleg": "Wie werkt, draagt bij voor wie op dat moment niet kan werken."
+            }
+          ]
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elke situatie aan het juiste type uitkering.",
+          "paren": [
+            [
+              "Een bouwvakker wordt na twintig jaar ziek door asbeststof.",
+              "beroepsziekte"
+            ],
+            [
+              "Een kok snijdt zich zwaar in de keuken en kan een maand niet werken.",
+              "arbeidsongeval"
+            ],
+            [
+              "Een bediende is langdurig ziek door een hernia buiten het werk.",
+              "ziekte en invaliditeit"
+            ],
+            [
+              "Een verkoper verliest zijn job door een faillissement.",
+              "werkloosheid"
+            ]
+          ],
+          "extra": [
+            "groeipakket"
+          ],
+          "uitleg": "Een beroepsziekte groeit langzaam door het werk; een arbeidsongeval is plots."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Wie financiert de sociale zekerheid via de RSZ?",
+          "rijen": [
+            "de werkgevers",
+            "de werknemers",
+            "de overheid",
+            "enkel wie een uitkering krijgt"
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Werkgevers, werknemers en de overheid samen."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Fiscale of sociale herverdelingsmaatregel?",
+          "kolommen": [
+            "Fiscaal",
+            "Sociaal"
+          ],
+          "items": [
+            [
+              "de progressieve personenbelasting",
+              "Fiscaal"
+            ],
+            [
+              "het leefloon",
+              "Sociaal"
+            ],
+            [
+              "een belastingvermindering voor dakisolatie",
+              "Fiscaal"
+            ],
+            [
+              "een huurpremie",
+              "Sociaal"
+            ],
+            [
+              "een kansentarief voor de muziekschool",
+              "Sociaal"
+            ]
+          ],
+          "uitleg": "Fiscaal werkt via belastingen; sociaal via uitkeringen, premies en tarieven."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent progressief bij de personenbelasting?",
+          "opties": [
+            "Het percentage stijgt met het inkomen",
+            "Iedereen betaalt hetzelfde bedrag",
+            "Iedereen betaalt hetzelfde percentage",
+            "Het percentage daalt naarmate je meer verdient"
+          ],
+          "antwoord": 0,
+          "uitleg": "Elk stuk van je inkomen valt in een belastingschijf met een eigen percentage."
+        },
+        {
+          "casus": "Een eenvoudig voorbeeld van belastingschijven: de eerste 10 000 euro van je inkomen wordt belast aan 0 procent, alles daarboven tot 30 000 euro aan 25 procent en alles boven 30 000 euro aan 50 procent.",
+          "vragen": [
+            {
+              "type": "invultekst",
+              "vraag": "Hoeveel belasting betaalt iemand met een inkomen van 20 000 euro?",
+              "antwoord": [
+                "2500",
+                "2 500",
+                "2500 euro"
+              ],
+              "uitleg": "Op de eerste 10 000 euro niets, op de volgende 10 000 euro 25 procent: 2500 euro."
+            },
+            {
+              "type": "invultekst",
+              "vraag": "Hoeveel belasting betaalt iemand met een inkomen van 40 000 euro?",
+              "antwoord": [
+                "10000",
+                "10 000",
+                "10000 euro"
+              ],
+              "uitleg": "0 + 25 procent van 20 000 (5000) + 50 procent van 10 000 (5000) = 10 000 euro."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "De persoon met 40 000 euro betaalt [[*een groter deel|een kleiner deel|hetzelfde deel]] van zijn inkomen dan de persoon met 20 000 euro.",
+              "uitleg": "25 procent tegenover 12,5 procent: de belasting is progressief."
+            }
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over vakantiegeld en uitkeringen?",
+          "rijen": [
+            "Het vakantiegeld staat bij de uitkeringen binnen de sociale zekerheid.",
+            "Het vakantiegeld is een vervangingsinkomen.",
+            "Een arbeidsongeval en een beroepsziekte zijn hetzelfde.",
+            "Pensioenen hebben een herverdelingseffect."
+          ],
+          "antwoord": [
+            true,
+            false,
+            false,
+            true
+          ],
+          "uitleg": "Vakantiegeld komt bovenop het loon en is dus aanvullend."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "De dienst die de bijdragen voor de sociale zekerheid int, is de [[*RSZ|RVA|btw-administratie]].",
+          "uitleg": "Rijksdienst voor Sociale Zekerheid."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Twee gezinnen verdienen hetzelfde. Het ene krijgt een huurpremie en een kansentarief, het andere niet. Waarom kan dat?",
+          "opties": [
+            "Het eerste gezin heeft meer nood",
+            "Het tweede gezin betaalt geen sociale bijdragen",
+            "Huurpremies zijn een directe belasting",
+            "Kansentarieven gelden enkel voor gepensioneerden"
+          ],
+          "antwoord": 0,
+          "uitleg": "Sociale maatregelen kijken ook naar de situatie van het gezin."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is dit een sociale herverdelingsmaatregel?",
+          "rijen": [
+            "de verhoogde tegemoetkoming in de gezondheidszorg",
+            "sociale woningen",
+            "een belasting op vermogen",
+            "een vermindering van het inschrijvingsgeld"
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Een belasting op vermogen is fiscaal."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Herverdeling verschuift middelen van [[sterkere]] naar [[zwakkere]] schouders om de sociale [[ongelijkheid]] te beperken.",
+          "extra": [
+            "solidariteit",
+            "rijkere"
+          ],
+          "uitleg": "Dat gebeurt via fiscale en sociale maatregelen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Iemand zonder enig inkomen en zonder recht op een uitkering krijgt geld van het OCMW. Wat is dat?",
+          "opties": [
+            "Een leefloon",
+            "Een werkloosheidsuitkering via de RVA",
+            "Een rustpensioen",
+            "Een belastingvermindering"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het leefloon is een sociale bijstandsuitkering."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel soorten uitkeringen staan er in het rijtje binnen de sociale zekerheid? Antwoord met een cijfer.",
+          "antwoord": [
+            "6",
+            "zes"
+          ],
+          "uitleg": "Werkloosheid, ziekte en invaliditeit, arbeidsongevallen, beroepsziekte, pensioenen en het jaarlijks vakantiegeld."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Waarom bestaan er verschillende btw-tarieven? Klopt dit?",
+          "rijen": [
+            "Noodzakelijke producten worden lichter belast.",
+            "Zo betalen mensen met weinig geld relatief minder op wat ze echt nodig hebben.",
+            "Op luxeproducten bestaat geen btw."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Ook een indirecte belasting kan herverdelen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom draagt een gezonde werknemer bij aan de ziekteverzekering, ook al is hij nooit ziek?",
+          "opties": [
+            "Door solidariteit helpt hij wie nu ziek is",
+            "Hij krijgt die bijdrage op het einde van het jaar terug",
+            "Hij betaalt enkel voor zijn eigen latere ziekte",
+            "Het is een vrijwillige gift aan het ziekenfonds"
+          ],
+          "antwoord": 0,
+          "uitleg": "Sociale zekerheid werkt als een gemeenschappelijke pot."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elke maatregel aan wie ze vooral helpt.",
+          "paren": [
+            [
+              "groeipakket",
+              "gezinnen met kinderen"
+            ],
+            [
+              "studiebeurs",
+              "studenten uit gezinnen met een laag inkomen"
+            ],
+            [
+              "huurpremie",
+              "huurders met een laag inkomen"
+            ]
+          ],
+          "extra": [
+            "iedereen met een hoog vermogen"
+          ],
+          "uitleg": "Sociale maatregelen gaan naar wie het nodig heeft."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een belastingvermindering voor wie zijn huis isoleert, is een [[*fiscale|sociale]] maatregel.",
+          "uitleg": "Ze werkt via de belastingen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welk type uitkering hoort hierbij?",
+          "rijen": [
+            "een schrijnwerker krijgt na jaren werken een stoflong",
+            "een postbode valt tijdens zijn ronde en breekt zijn pols",
+            "een vrouw blijft na een ziekte langer dan een jaar arbeidsongeschikt"
+          ],
+          "antwoord": [
+            1,
+            0,
+            2
+          ],
+          "uitleg": "Plots ongeval op het werk, langzaam ontstaan door het werk, of ziekte los van het werk.",
+          "kolommen": [
+            "arbeidsongeval",
+            "beroepsziekte",
+            "ziekte en invaliditeit"
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom is het vakantiegeld een aanvullend inkomen?",
+          "opties": [
+            "Het komt bovenop je loon",
+            "Het vervangt je loon tijdens de vakantie volledig",
+            "Het wordt enkel betaald aan werklozen",
+            "Het is een belastingvermindering"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het vervangt niets, het komt erbij."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "De sociale zekerheid steunt op [[solidariteit]]. De bijdragen worden geïnd door de [[RSZ]].",
+          "extra": [
+            "concurrentie",
+            "RVA"
+          ],
+          "uitleg": "De RVA betaalt werkloosheidsuitkeringen uit."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over herverdeling?",
+          "rijen": [
+            "Herverdeling bestaat uit fiscale en sociale maatregelen.",
+            "Een progressieve belasting werkt via belastingschijven.",
+            "Bij een progressieve belasting betaalt iedereen hetzelfde percentage."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Hetzelfde percentage voor iedereen heet een vlakke belasting."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Het pensioen voor de achterblijvende partner na een overlijden heet een [[*overlevingspensioen|rustpensioen|leefloon]].",
+          "uitleg": "Rust- en overlevingspensioenen horen samen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom heeft een pensioen een herverdelingseffect?",
+          "opties": [
+            "Wie nu werkt, betaalt mee voor wie nu gepensioneerd is",
+            "Elke gepensioneerde krijgt precies terug wat hij betaalde",
+            "Pensioenen worden enkel aan rijke mensen uitbetaald",
+            "Pensioenen worden betaald uit boetes"
+          ],
+          "antwoord": 0,
+          "uitleg": "Zo gaat er geld van de ene groep naar de andere."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Voor één werknemer betaalt de werknemer zelf 300 euro sociale bijdrage per maand en de werkgever 750 euro. Hoeveel euro krijgt de RSZ per maand voor deze werknemer?",
+          "antwoord": [
+            "1050",
+            "1 050",
+            "1050 euro"
+          ],
+          "uitleg": "300 + 750 = 1050 euro. Daarbovenop komt nog geld van de overheid."
+        },
+        {
+          "type": "open",
+          "vraag": "Leg uit wat het verschil is tussen een vervangingsinkomen en een aanvullend inkomen, met een voorbeeld van elk.",
+          "antwoord": "Een vervangingsinkomen vervangt een loon dat wegvalt, zoals een werkloosheidsuitkering of een pensioen. Een aanvullend inkomen komt bovenop een inkomen, zoals het groeipakket of het vakantiegeld."
+        }
+      ]
+    },
+    {
+      "titel": "Vraag, aanbod en het marktevenwicht — pittig",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het marktevenwicht.",
+          "afbeelding_url": "/examenvormen/samenleving-beyond/markt-grafiek.svg",
+          "zones": [
+            [
+              39.9,
+              37.1,
+              8.0,
+              12.5
+            ]
+          ],
+          "uitleg": "Waar vraag en aanbod elkaar snijden, is de markt in evenwicht."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "De prijs is 9 euro. Klik op het punt dat toont hoeveel flessen de kopers willen kopen.",
+          "afbeelding_url": "/examenvormen/samenleving-beyond/markt-grafiek.svg",
+          "zones": [
+            [
+              26.8,
+              25.4,
+              8.0,
+              12.5
+            ]
+          ],
+          "uitleg": "K is de dalende vraagcurve. Bij 9 euro willen kopers 75 flessen."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "De prijs is 5 euro. Klik op het punt dat toont hoeveel flessen de verkopers aanbieden.",
+          "afbeelding_url": "/examenvormen/samenleving-beyond/markt-grafiek.svg",
+          "zones": [
+            [
+              26.8,
+              48.8,
+              8.0,
+              12.5
+            ]
+          ],
+          "uitleg": "L is de stijgende aanbodcurve. Bij 5 euro bieden verkopers maar 75 flessen aan."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Curve K is de [[*vraagcurve|aanbodcurve]], want ze [[*daalt|stijgt]] als de prijs stijgt.",
+          "uitleg": "Hoe duurder, hoe minder kopers willen kopen.",
+          "afbeelding_url": "/examenvormen/samenleving-beyond/markt-grafiek.svg"
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Lees de evenwichtsprijs af, in euro.",
+          "antwoord": [
+            "7",
+            "7 euro"
+          ],
+          "uitleg": "Het snijpunt E ligt bij 7 euro.",
+          "afbeelding_url": "/examenvormen/samenleving-beyond/markt-grafiek.svg"
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe groot is de evenwichtshoeveelheid, in flessen?",
+          "antwoord": [
+            "125",
+            "125 flessen"
+          ],
+          "uitleg": "Bij 7 euro wordt 125 flessen verhandeld.",
+          "afbeelding_url": "/examenvormen/samenleving-beyond/markt-grafiek.svg"
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe groot is het overschot bij een prijs van 9 euro, in flessen?",
+          "antwoord": [
+            "100",
+            "100 flessen"
+          ],
+          "uitleg": "Aanbod min vraag: 175 min 75 is 100 flessen.",
+          "afbeelding_url": "/examenvormen/samenleving-beyond/markt-grafiek.svg"
+        },
+        {
+          "type": "tabel",
+          "vraag": "Kijk naar de grafiek. Klopt dit?",
+          "rijen": [
+            "Bij 5 euro is er een tekort.",
+            "Bij 9 euro blijven er flessen onverkocht.",
+            "Bij 7 euro is er een overschot van 50 flessen.",
+            "Als de prijs vrij is, zakt ze van 9 euro naar 7 euro."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Boven het evenwicht een overschot, eronder een tekort. Zonder ingrijpen schuift de prijs naar het evenwicht.",
+          "afbeelding_url": "/examenvormen/samenleving-beyond/markt-grafiek.svg"
+        },
+        {
+          "casus": "Op de wekelijkse markt verkoopt Fatima aardbeien. De tabel geeft vraag en aanbod per prijs: bij 3 euro per bakje vragen de kopers 260 bakjes en bieden de verkopers 140 aan; bij 4 euro 200 en 200; bij 5 euro 150 en 250; bij 6 euro 110 en 290.",
+          "vragen": [
+            {
+              "type": "invultekst",
+              "vraag": "Wat is de evenwichtsprijs, in euro?",
+              "antwoord": [
+                "4",
+                "4 euro"
+              ],
+              "uitleg": "Bij 4 euro zijn vraag en aanbod allebei 200."
+            },
+            {
+              "type": "invultekst",
+              "vraag": "Hoe groot is het tekort bij 3 euro, in bakjes?",
+              "antwoord": [
+                "120",
+                "120 bakjes"
+              ],
+              "uitleg": "Vraag min aanbod: 260 min 140."
+            },
+            {
+              "type": "invultekst",
+              "vraag": "Hoe groot is het overschot bij 6 euro, in bakjes?",
+              "antwoord": [
+                "180",
+                "180 bakjes"
+              ],
+              "uitleg": "Aanbod min vraag: 290 min 110."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Fatima vraagt 5 euro en houdt elke avond bakjes over. Wat doet ze best?",
+              "opties": [
+                "Haar prijs verlagen richting 4 euro",
+                "Haar prijs verhogen naar 6 euro",
+                "Meer bakjes aanbieden aan dezelfde prijs",
+                "Niets, want bij 5 euro is de markt in evenwicht"
+              ],
+              "antwoord": 0,
+              "uitleg": "Een overschot duwt de prijs naar beneden, tot het evenwicht."
+            }
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is er bij deze prijs een overschot, een tekort of evenwicht?",
+          "rijen": [
+            "vraag 120, aanbod 200",
+            "vraag 300, aanbod 180",
+            "vraag 150, aanbod 150",
+            "vraag 90, aanbod 60"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            1
+          ],
+          "uitleg": "Aanbod groter dan vraag: overschot. Vraag groter dan aanbod: tekort.",
+          "kolommen": [
+            "overschot",
+            "tekort",
+            "evenwicht"
+          ]
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Ligt deze prijs boven of onder de evenwichtsprijs?",
+          "kolommen": [
+            "Boven",
+            "Onder"
+          ],
+          "items": [
+            [
+              "een bakker heeft elke avond brood over",
+              "Boven"
+            ],
+            [
+              "concerttickets zijn binnen twee minuten uitverkocht",
+              "Onder"
+            ],
+            [
+              "een winkel stuurt al om tien uur klanten weg",
+              "Onder"
+            ],
+            [
+              "een marktkramer houdt kratten groenten over",
+              "Boven"
+            ]
+          ],
+          "uitleg": "Een overschot wijst op een te hoge prijs, een tekort op een te lage."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elk marktbegrip aan zijn betekenis.",
+          "paren": [
+            [
+              "vrager",
+              "de koper"
+            ],
+            [
+              "aanbieder",
+              "de verkoper"
+            ],
+            [
+              "evenwichtsprijs",
+              "de prijs waarbij vraag en aanbod gelijk zijn"
+            ],
+            [
+              "productmarkt",
+              "de markt van goederen en diensten"
+            ]
+          ],
+          "extra": [
+            "de prijs die de overheid vastlegt"
+          ],
+          "uitleg": "Vrager en aanbieder ontmoeten elkaar op de markt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Bij 6 euro vragen de kopers 100 stuks en bieden de verkopers 180 aan. Wat gebeurt er zonder ingrijpen?",
+          "opties": [
+            "De prijs zakt",
+            "De prijs stijgt tot iedereen gekocht heeft",
+            "De prijs blijft op 6 euro staan",
+            "De verkopers bieden nog meer aan"
+          ],
+          "antwoord": 0,
+          "uitleg": "Er is een overschot van 80 stuks; verkopers laten de prijs zakken."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Op de verticale as van een vraag- en aanbodgrafiek staat de [[*prijs|hoeveelheid|omzet]].",
+          "uitleg": "De hoeveelheid staat op de horizontale as."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over vraag en aanbod?",
+          "rijen": [
+            "Een tekort bereken je als vraag min aanbod.",
+            "Bij één prijs kan er tegelijk een overschot en een tekort zijn.",
+            "Bij een tekort stijgt de prijs.",
+            "De vrager is de verkoper."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Bij één prijs is het één van de twee, of evenwicht."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Als de prijs stijgt, [[daalt]] de gevraagde hoeveelheid en [[stijgt]] de aangeboden hoeveelheid.",
+          "extra": [
+            "blijft",
+            "verdubbelt"
+          ],
+          "uitleg": "Daarom daalt de vraagcurve en stijgt de aanbodcurve."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Een prijs ligt onder het evenwicht. Zet de gevolgen in de juiste volgorde.",
+          "opties": [
+            "veel kopers willen kopen, weinig verkopers bieden aan",
+            "er ontstaat een tekort",
+            "kopers zijn bereid meer te betalen",
+            "de prijs stijgt naar het evenwicht"
+          ],
+          "uitleg": "Zonder ingrijpen herstelt de markt zelf het evenwicht."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Bij 8 euro is de vraag 90 en het aanbod 230. Hoe groot is het overschot?",
+          "antwoord": [
+            "140"
+          ],
+          "uitleg": "230 min 90."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom bieden verkopers meer aan bij een hogere prijs?",
+          "opties": [
+            "Verkopen wordt dan interessanter",
+            "Kopers willen dan meer kopen",
+            "De overheid verplicht hen dat",
+            "De productiekosten dalen altijd mee"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een hogere prijs dekt beter de kosten en levert meer op."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het punt dat toont hoeveel flessen de kopers willen bij een prijs van 5 euro.",
+          "afbeelding_url": "/examenvormen/samenleving-beyond/markt-grafiek.svg",
+          "zones": [
+            [
+              53.1,
+              48.8,
+              8.0,
+              12.5
+            ]
+          ],
+          "uitleg": "Op de vraagcurve K bij 5 euro: 175 flessen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe groot is het tekort bij 5 euro, in flessen?",
+          "antwoord": [
+            "100",
+            "100 flessen"
+          ],
+          "uitleg": "Vraag min aanbod: 175 min 75.",
+          "afbeelding_url": "/examenvormen/samenleving-beyond/markt-grafiek.svg"
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welk punt hoort bij deze uitspraak?",
+          "rijen": [
+            "het aanbod bij 9 euro",
+            "de vraag bij 9 euro",
+            "vraag en aanbod zijn gelijk"
+          ],
+          "antwoord": [
+            1,
+            0,
+            2
+          ],
+          "uitleg": "K is de vraagcurve, L de aanbodcurve.",
+          "kolommen": [
+            "A",
+            "B",
+            "E"
+          ],
+          "afbeelding_url": "/examenvormen/samenleving-beyond/markt-grafiek.svg"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Bij 12 euro vragen de kopers 40 stuks en bieden de verkopers ook 40 stuks aan. Wat besluit je?",
+          "opties": [
+            "Er is geen overschot en geen tekort",
+            "Er is een overschot van 40 stuks",
+            "Er is een tekort van 80 stuks",
+            "Dat kan je niet weten zonder grafiek"
+          ],
+          "antwoord": 0,
+          "uitleg": "Vraag en aanbod zijn gelijk: dat is het evenwicht."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Beweegt de gevraagde of de aangeboden hoeveelheid mee met de prijs, of ertegen in?",
+          "kolommen": [
+            "In dezelfde richting als de prijs",
+            "In de omgekeerde richting"
+          ],
+          "items": [
+            [
+              "de aangeboden hoeveelheid",
+              "In dezelfde richting als de prijs"
+            ],
+            [
+              "de gevraagde hoeveelheid",
+              "In de omgekeerde richting"
+            ],
+            [
+              "het aantal flessen dat producenten willen verkopen",
+              "In dezelfde richting als de prijs"
+            ],
+            [
+              "het aantal flessen dat kopers willen",
+              "In de omgekeerde richting"
+            ]
+          ],
+          "uitleg": "Aanbod stijgt mee met de prijs, vraag daalt."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Als vraag en aanbod gelijk zijn, blijft er [[*geen|veel]] onverkochte voorraad over.",
+          "uitleg": "Bij de evenwichtsprijs is er geen overschot en geen tekort."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welk punt uit de casus van Fatima past?",
+          "rijen": [
+            "3 euro per bakje",
+            "4 euro per bakje",
+            "6 euro per bakje"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Onder 4 euro een tekort, erboven een overschot.",
+          "kolommen": [
+            "tekort",
+            "evenwicht",
+            "overschot"
+          ]
+        },
+        {
+          "type": "open",
+          "vraag": "Leg uit waarom de prijs op een vrije markt naar het evenwicht beweegt, zowel vanuit een te hoge als vanuit een te lage prijs.",
+          "antwoord": "Bij een te hoge prijs is er een overschot: verkopers houden voorraad over en laten de prijs zakken. Bij een te lage prijs is er een tekort: kopers willen meer betalen om toch iets te krijgen, en de prijs stijgt. In beide gevallen eindigt de prijs waar vraag en aanbod gelijk zijn."
+        }
+      ]
+    },
+    {
+      "titel": "Verschuivingen op de markt en de overheid die ingrijpt — pittig",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "De markt staat in E. De lonen van de kopers stijgen. Klik op het nieuwe evenwicht.",
+          "afbeelding_url": "/examenvormen/samenleving-beyond/markt-verschuivingen.svg",
+          "zones": [
+            [
+              42.1,
+              27.6,
+              7.6,
+              11.9
+            ]
+          ],
+          "uitleg": "Meer inkomen: de vraagcurve schuift naar rechts (V2). Nieuw evenwicht op V2 en A1: hogere prijs, meer fietsen."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "De markt staat in E. Staal wordt veel duurder. Klik op het nieuwe evenwicht.",
+          "afbeelding_url": "/examenvormen/samenleving-beyond/markt-verschuivingen.svg",
+          "zones": [
+            [
+              22.8,
+              27.6,
+              7.6,
+              11.9
+            ]
+          ],
+          "uitleg": "Duurdere grondstoffen: het aanbod schuift naar links (A2). Hogere prijs, minder fietsen."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "De markt staat in E. De overheid geeft fietsfabrikanten een subsidie. Klik op het nieuwe evenwicht.",
+          "afbeelding_url": "/examenvormen/samenleving-beyond/markt-verschuivingen.svg",
+          "zones": [
+            [
+              42.1,
+              51.0,
+              7.6,
+              11.9
+            ]
+          ],
+          "uitleg": "Een subsidie maakt produceren goedkoper: het aanbod schuift naar rechts (A3). Lagere prijs, meer fietsen."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "De markt staat in E. De lonen stijgen én staal wordt duurder. Klik op het nieuwe evenwicht.",
+          "afbeelding_url": "/examenvormen/samenleving-beyond/markt-verschuivingen.svg",
+          "zones": [
+            [
+              32.5,
+              15.9,
+              7.6,
+              11.9
+            ]
+          ],
+          "uitleg": "Vraag naar rechts en aanbod naar links: de prijs stijgt sterk, de hoeveelheid blijft hier gelijk."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Van E naar dit punt: wat gebeurt er met de prijs?",
+          "rijen": [
+            "R",
+            "S",
+            "U"
+          ],
+          "antwoord": [
+            0,
+            0,
+            1
+          ],
+          "uitleg": "R en S liggen hoger dan E, U lager.",
+          "kolommen": [
+            "stijgt",
+            "daalt"
+          ],
+          "afbeelding_url": "/examenvormen/samenleving-beyond/markt-verschuivingen.svg"
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Van E naar U: met hoeveel fietsen stijgt de verhandelde hoeveelheid?",
+          "antwoord": [
+            "50",
+            "50 fietsen"
+          ],
+          "uitleg": "Van 125 naar 175 fietsen.",
+          "afbeelding_url": "/examenvormen/samenleving-beyond/markt-verschuivingen.svg"
+        },
+        {
+          "type": "tabel",
+          "vraag": "Verschuift de vraagcurve, de aanbodcurve, of beweeg je op de curve?",
+          "rijen": [
+            "De prijs van het product zelf daalt.",
+            "Een nieuwe machine maakt produceren goedkoper.",
+            "Het product komt in de mode door een influencer.",
+            "Er komen veel nieuwe kopers bij in de stad."
+          ],
+          "antwoord": [
+            2,
+            1,
+            0,
+            0
+          ],
+          "uitleg": "Enkel een verandering van de eigen prijs geeft een beweging op de curve.",
+          "kolommen": [
+            "vraagcurve",
+            "aanbodcurve",
+            "beweging op de curve"
+          ]
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Verschuift de curve naar links of naar rechts?",
+          "kolommen": [
+            "Naar links",
+            "Naar rechts"
+          ],
+          "items": [
+            [
+              "vraag: het inkomen van de kopers daalt",
+              "Naar links"
+            ],
+            [
+              "aanbod: een betere techniek",
+              "Naar rechts"
+            ],
+            [
+              "aanbod: een slechte oogst",
+              "Naar links"
+            ],
+            [
+              "vraag: er komen kopers bij",
+              "Naar rechts"
+            ]
+          ],
+          "uitleg": "Links is minder bij elke prijs, rechts is meer."
+        },
+        {
+          "casus": "Na een zomer met veel regen is de oogst van tomaten mislukt. Tegelijk raden dokters aan meer groenten te eten, waardoor meer mensen tomaten willen.",
+          "vragen": [
+            {
+              "type": "keuzelijst",
+              "vraag": "Door de slechte oogst verschuift de [[*aanbodcurve|vraagcurve]] naar [[*links|rechts]].",
+              "uitleg": "Er komt bij elke prijs minder op de markt."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "Door het advies van de dokters verschuift de [[*vraagcurve|aanbodcurve]] naar [[*rechts|links]].",
+              "uitleg": "Er willen bij elke prijs meer mensen kopen."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Wat gebeurt er zeker met de prijs van tomaten?",
+              "opties": [
+                "Ze stijgt",
+                "Ze daalt",
+                "Ze blijft gelijk",
+                "Dat kan je niet weten"
+              ],
+              "antwoord": 0,
+              "uitleg": "Minder aanbod en meer vraag duwen de prijs allebei omhoog."
+            }
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welke maatregel van de overheid is dit?",
+          "rijen": [
+            "een extra belasting op tabak",
+            "een premie voor een warmtepomp",
+            "een hoogste toegelaten huurprijs",
+            "een bodemprijs voor melk voor boeren"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            2
+          ],
+          "uitleg": "Drie soorten overheidsmaatregelen.",
+          "kolommen": [
+            "btw en accijnzen",
+            "premies en subsidies",
+            "minimum- en maximumprijzen"
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Wat geeft deze vaste prijs?",
+          "rijen": [
+            "een minimumprijs boven het evenwicht",
+            "een maximumprijs onder het evenwicht",
+            "een maximumprijs boven het evenwicht",
+            "een minimumprijs onder het evenwicht"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            2
+          ],
+          "uitleg": "Een vaste prijs werkt enkel als ze de markt belet het evenwicht te bereiken.",
+          "kolommen": [
+            "overschot",
+            "tekort",
+            "geen effect"
+          ]
+        },
+        {
+          "casus": "Op de markt van studentenkamers is de evenwichtshuur 500 euro per maand. Bij 500 euro worden 800 kamers verhuurd. De stad legt een maximumhuur van 400 euro op. Bij 400 euro willen 1000 studenten een kamer, maar bieden de eigenaars maar 650 kamers aan.",
+          "vragen": [
+            {
+              "type": "invultekst",
+              "vraag": "Hoe groot is het tekort aan kamers?",
+              "antwoord": [
+                "350",
+                "350 kamers"
+              ],
+              "uitleg": "1000 min 650."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Waarom voert de stad deze maximumprijs in?",
+              "opties": [
+                "Om kamers betaalbaar te houden",
+                "Om meer eigenaars aan te trekken",
+                "Om een overschot aan kamers weg te werken",
+                "Om de eigenaars een hoger inkomen te geven"
+              ],
+              "antwoord": 0,
+              "uitleg": "Een maximumprijs beschermt de kopers, hier de studenten."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "Door de maximumhuur worden er [[*minder|meer]] kamers verhuurd dan zonder ingrijpen.",
+              "uitleg": "Eigenaars bieden er nog maar 650 aan in plaats van 800."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom legt de overheid accijnzen op alcohol?",
+          "opties": [
+            "Om het gebruik bewust te ontmoedigen",
+            "Om alcohol voor iedereen betaalbaar te houden",
+            "Om een tekort aan alcohol weg te werken",
+            "Om de producenten een minimuminkomen te geven"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een accijns maakt het product duurder, zodat er minder van gekocht wordt."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een belasting op een product doet de aanbodcurve naar [[*links|rechts]] schuiven en de prijs [[*stijgen|dalen]].",
+          "uitleg": "Verkopen wordt duurder voor de aanbieder."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "De overheid geeft een premie aan wie zonnepanelen koopt. Wat verwacht je op die markt?",
+          "opties": [
+            "Meer vraag: een hogere prijs en meer panelen",
+            "Minder vraag: een lagere prijs en minder panelen",
+            "Meer aanbod: een lagere prijs en meer panelen",
+            "Geen verandering, want de prijs blijft gelijk"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een premie voor kopers verschuift de vraag naar rechts."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Een vaste prijs boven het evenwicht heet een [[minimumprijs]] en geeft een [[overschot]].",
+          "extra": [
+            "maximumprijs",
+            "tekort"
+          ],
+          "uitleg": "Een maximumprijs onder het evenwicht geeft een tekort."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over verschuivingen en prijzen?",
+          "rijen": [
+            "Een prijsdaling van het product zelf verschuift de vraagcurve.",
+            "Meer kopers verschuiven de vraagcurve naar rechts.",
+            "Als de vraag naar rechts schuift, daalt de evenwichtsprijs.",
+            "Een subsidie aan producenten verlaagt de prijs voor de koper."
+          ],
+          "antwoord": [
+            false,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Bij meer vraag en hetzelfde aanbod stijgt de prijs."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Een minimumprijs ligt boven het evenwicht. Zet de gevolgen in de juiste volgorde.",
+          "opties": [
+            "de prijs mag niet zakken tot het evenwicht",
+            "verkopers bieden veel aan, kopers kopen minder",
+            "er ontstaat een overschot"
+          ],
+          "uitleg": "Daarom koopt de overheid soms zelf het overschot op."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welke gebeurtenis brengt de markt van E naar dit punt?",
+          "rijen": [
+            "R",
+            "S",
+            "U"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "R ligt op V2 en A1, S op V1 en A2, U op V1 en A3.",
+          "kolommen": [
+            "meer vraag",
+            "minder aanbod",
+            "meer aanbod"
+          ],
+          "afbeelding_url": "/examenvormen/samenleving-beyond/markt-verschuivingen.svg"
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Van E naar S stijgt de prijs en [[*daalt|stijgt]] de verhandelde hoeveelheid.",
+          "uitleg": "S ligt hoger en meer naar links dan E.",
+          "afbeelding_url": "/examenvormen/samenleving-beyond/markt-verschuivingen.svg"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een vergelijkbaar product wordt veel goedkoper. Wat gebeurt er met de vraagcurve van ons product?",
+          "opties": [
+            "Ze schuift naar links",
+            "Ze schuift naar rechts",
+            "Je beweegt langs dezelfde curve",
+            "De aanbodcurve schuift naar links"
+          ],
+          "antwoord": 0,
+          "uitleg": "Kopers stappen over naar het goedkopere alternatief."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elke maatregel aan zijn gevolg op de markt.",
+          "paren": [
+            [
+              "accijns",
+              "aanbod naar links, hogere prijs"
+            ],
+            [
+              "subsidie aan producenten",
+              "aanbod naar rechts, lagere prijs"
+            ],
+            [
+              "maximumprijs onder het evenwicht",
+              "tekort"
+            ],
+            [
+              "minimumprijs boven het evenwicht",
+              "overschot"
+            ]
+          ],
+          "extra": [
+            "vraag naar links, hogere prijs"
+          ],
+          "uitleg": "Drie soorten overheidsmaatregelen met elk hun gevolg."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "De evenwichtsprijs van melk is 30 cent per liter. De overheid legt een minimumprijs van 40 cent op. Bij 40 cent bieden boeren 900 000 liter aan en kopen de klanten 600 000 liter. Hoe groot is het overschot, in liter?",
+          "antwoord": [
+            "300000",
+            "300 000",
+            "300.000"
+          ],
+          "uitleg": "900 000 min 600 000."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Beschermt deze maatregel vooral de kopers of vooral de producenten?",
+          "kolommen": [
+            "Kopers",
+            "Producenten"
+          ],
+          "items": [
+            [
+              "een maximumprijs voor energie",
+              "Kopers"
+            ],
+            [
+              "een bodemprijs voor graan",
+              "Producenten"
+            ],
+            [
+              "een maximumhuur",
+              "Kopers"
+            ],
+            [
+              "een minimumprijs voor melk",
+              "Producenten"
+            ]
+          ],
+          "uitleg": "Een maximumprijs houdt iets betaalbaar, een minimumprijs garandeert een inkomen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is dit een maatregel van de overheid volgens het leerdoel?",
+          "rijen": [
+            "btw en accijnzen heffen",
+            "premies en subsidies geven",
+            "minimum- en maximumprijzen invoeren",
+            "de productie van alle bedrijven overnemen"
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Drie soorten maatregelen."
+        },
+        {
+          "type": "open",
+          "vraag": "Leg uit waarom een maximumprijs voor huur goed bedoeld is, maar toch een probleem kan geven.",
+          "antwoord": "De maximumprijs houdt huren betaalbaar voor wie al een woning vindt. Maar omdat ze onder het evenwicht ligt, willen meer mensen huren dan er woningen aangeboden worden: er ontstaat een tekort, en sommigen vinden niets."
+        }
+      ]
+    },
+    {
+      "titel": "De arbeidsovereenkomst en het arbeidsreglement — pittig",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "casus": "Uittreksel uit een arbeidsovereenkomst. 'Tussen bakkerij De Korenaar en mevrouw Lien Smets wordt het volgende afgesproken. Mevrouw Smets wordt aangeworven als verkoopster in de winkel. Ze werkt 19 uur per week. Het contract vervangt de heer Tom Claes tijdens zijn ziekteverlof en eindigt bij zijn terugkeer. Het brutoloon bedraagt 1 150 euro per maand. Voor het overige verwijzen we naar het arbeidsreglement van de bakkerij.'",
+          "vragen": [
+            {
+              "type": "keuzelijst",
+              "vraag": "Naar de aard van het werk is Lien een [[*bediende|arbeidster]].",
+              "uitleg": "Verkoopwerk in de winkel is geen handenarbeid in de productie; het is werk van een bediende."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "Naar de duur is dit een contract voor een [[*vervangingsduur|bepaalde duur|onbepaalde duur|welomschreven werk]].",
+              "uitleg": "Het loopt tot de vervangen collega terug is."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "Naar de omvang van de prestaties werkt Lien [[*deeltijds|voltijds]].",
+              "uitleg": "19 uur per week is geen volle werkweek."
+            },
+            {
+              "type": "tabel",
+              "vraag": "Waar staat dit voor Lien?",
+              "rijen": [
+                "haar brutoloon",
+                "de openingsuren en het uurrooster van de winkel",
+                "haar functie als verkoopster",
+                "hoe je ziekte meldt in de bakkerij"
+              ],
+              "antwoord": [
+                0,
+                1,
+                0,
+                1
+              ],
+              "uitleg": "Persoonlijke afspraken staan in de overeenkomst, regels voor iedereen in het reglement.",
+              "kolommen": [
+                "arbeidsovereenkomst",
+                "arbeidsreglement"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welke duur heeft dit contract?",
+          "rijen": [
+            "van 1 juli tot en met 31 augustus",
+            "zonder einddatum",
+            "tot de nieuwe keuken in het restaurant gebouwd is",
+            "tot een collega terug is van zwangerschapsverlof"
+          ],
+          "antwoord": [
+            0,
+            1,
+            3,
+            2
+          ],
+          "uitleg": "Vier soorten naar de duur.",
+          "kolommen": [
+            "bepaalde duur",
+            "onbepaalde duur",
+            "vervangingsduur",
+            "welomschreven werk"
+          ]
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elke indeling aan haar soorten.",
+          "paren": [
+            [
+              "de aard van het werk",
+              "arbeiders en bedienden"
+            ],
+            [
+              "de omvang van de prestaties",
+              "deeltijds en voltijds"
+            ],
+            [
+              "de duur",
+              "bepaald, onbepaald, vervanging en welomschreven werk"
+            ]
+          ],
+          "extra": [
+            "proefperiode en schorsing"
+          ],
+          "uitleg": "Drie manieren om arbeidsovereenkomsten in te delen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een metselaar werkt 38 uur per week op werven, zonder einddatum. Hoe noem je zijn contract volledig?",
+          "opties": [
+            "Een voltijdse arbeidersovereenkomst van onbepaalde duur",
+            "Een deeltijdse bediendenovereenkomst van bepaalde duur",
+            "Een voltijdse bediendenovereenkomst voor welomschreven werk",
+            "Een deeltijdse arbeidersovereenkomst voor vervanging"
+          ],
+          "antwoord": 0,
+          "uitleg": "Aard, omvang en duur samen geven de volledige naam."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Hoort dit in de arbeidsovereenkomst of in het arbeidsreglement?",
+          "kolommen": [
+            "Arbeidsovereenkomst",
+            "Arbeidsreglement"
+          ],
+          "items": [
+            [
+              "het loon van Ahmed",
+              "Arbeidsovereenkomst"
+            ],
+            [
+              "de regels over pauzes voor alle werknemers",
+              "Arbeidsreglement"
+            ],
+            [
+              "de functie van Ahmed",
+              "Arbeidsovereenkomst"
+            ],
+            [
+              "de veiligheidsregels in het magazijn",
+              "Arbeidsreglement"
+            ],
+            [
+              "de begindatum van Ahmed",
+              "Arbeidsovereenkomst"
+            ]
+          ],
+          "uitleg": "Wat voor iedereen geldt, staat in het reglement."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is dit een recht of een plicht van de werknemer?",
+          "rijen": [
+            "op tijd zijn loon krijgen",
+            "het werk zorgvuldig uitvoeren",
+            "op tijd komen volgens het uurrooster",
+            "werken in een veilige omgeving"
+          ],
+          "antwoord": [
+            0,
+            1,
+            1,
+            0
+          ],
+          "uitleg": "Rechten en plichten van werknemer en werkgever horen bij elkaar.",
+          "kolommen": [
+            "recht",
+            "plicht"
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over arbeidsovereenkomsten?",
+          "rijen": [
+            "Bij een schorsing blijft het contract bestaan.",
+            "Deeltijds werken kan enkel met een contract van bepaalde duur.",
+            "Overwerk geeft recht op overloon.",
+            "Het arbeidsreglement bevat het persoonlijke loon van elke werknemer."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Omvang en duur staan los van elkaar."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Sofie is zwanger en blijft een tijd thuis. Haar contract loopt door, maar ze werkt niet. Hoe heet dat?",
+          "opties": [
+            "Een schorsing van de arbeidsovereenkomst",
+            "Een beëindiging van de arbeidsovereenkomst",
+            "Een proefperiode van de arbeidsovereenkomst",
+            "Overwerk binnen de arbeidsovereenkomst"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij ziekte of zwangerschap valt het werk tijdelijk stil, maar het contract blijft."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elke arbeidssituatie aan een voorbeeld.",
+          "paren": [
+            [
+              "overwerk",
+              "een kok blijft drie uur langer na een groot feest"
+            ],
+            [
+              "schorsing",
+              "een arbeider is twee weken ziek"
+            ],
+            [
+              "nachtarbeid",
+              "een verpleegkundige werkt van 22 tot 6 uur"
+            ],
+            [
+              "proefperiode",
+              "een student mag eerst twee weken proberen"
+            ]
+          ],
+          "extra": [
+            "een loonfiche lezen"
+          ],
+          "uitleg": "Situaties die het arbeidsrecht regelt."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een werknemer verdient 16 euro per uur en krijgt voor overwerk 50 procent toeslag. Hoeveel verdient hij per overuur, in euro?",
+          "antwoord": [
+            "24",
+            "24 euro"
+          ],
+          "uitleg": "16 plus de helft van 16 is 24 euro."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "De toeslag voor uren buiten je gewone werktijd heet [[*overloon|vakantiegeld|brutoloon]].",
+          "uitleg": "Overwerk en overloon horen samen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom is een geschreven arbeidsovereenkomst ook voor de werkgever belangrijk?",
+          "opties": [
+            "Ze legt vast wat hij mag verwachten",
+            "Ze bepaalt hoeveel belasting de werkgever betaalt",
+            "Ze vervangt het arbeidsreglement voor alle collega's",
+            "Ze maakt de proefperiode altijd overbodig"
+          ],
+          "antwoord": 0,
+          "uitleg": "Taken, uren en loon staan zwart op wit voor beide partijen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is dit een plicht van de werkgever?",
+          "rijen": [
+            "zorgen voor een veilige werkplek",
+            "het loon op tijd betalen",
+            "zelf de werkkleding van de werknemer wassen",
+            "de afspraken uit de arbeidsovereenkomst nakomen"
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "De werkgever moet het loon betalen en zorgen voor veiligheid."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Een arbeidsovereenkomst is de afspraak tussen [[één]] werknemer en zijn werkgever. Het [[arbeidsreglement]] bevat de regels voor iedereen.",
+          "extra": [
+            "alle",
+            "loonfiche"
+          ],
+          "uitleg": "Persoonlijk tegenover collectief."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een dakwerker wordt aangenomen tot het dak van één schoolgebouw vernieuwd is. Welke duur heeft zijn contract?",
+          "opties": [
+            "Welomschreven werk",
+            "Onbepaalde duur tot het pensioen",
+            "Vervangingsduur voor een zieke collega",
+            "Deeltijds werk op een werf"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het contract eindigt als het afgesproken werk klaar is. Deeltijds gaat over de omvang, niet de duur."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een contract zegt '20 uur per week, van 1 september tot 30 juni, als administratief medewerker'. Welke combinatie klopt?",
+          "opties": [
+            "Bediende, deeltijds, bepaalde duur",
+            "Arbeider, voltijds, onbepaalde duur",
+            "Bediende, voltijds, vervangingsduur",
+            "Arbeider, deeltijds, welomschreven werk"
+          ],
+          "antwoord": 0,
+          "uitleg": "Administratief werk, minder dan voltijds en met een einddatum."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Werken tijdens de nacht mag [[*in principe niet, met uitzonderingen|altijd, zonder regels|enkel voor studenten]].",
+          "uitleg": "Het verbod op nachtarbeid kent uitzonderingen, bijvoorbeeld in de zorg."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Gaat deze indeling over de aard, de duur of de omvang?",
+          "rijen": [
+            "arbeider of bediende",
+            "deeltijds of voltijds",
+            "met of zonder einddatum"
+          ],
+          "antwoord": [
+            0,
+            2,
+            1
+          ],
+          "uitleg": "Drie aparte indelingen.",
+          "kolommen": [
+            "aard",
+            "duur",
+            "omvang"
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Na zijn ziekte komt Tom Claes terug in de bakkerij. Wat gebeurt er met het contract van Lien?",
+          "opties": [
+            "Het eindigt, want het was een vervangingscontract",
+            "Het wordt automatisch een contract van onbepaalde duur",
+            "Het wordt geschorst tot Tom opnieuw ziek wordt",
+            "Het gaat over in een contract voor welomschreven werk"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een vervangingsovereenkomst loopt tot de vervangen collega terug is."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Recht of plicht van de werkgever?",
+          "kolommen": [
+            "Recht van de werkgever",
+            "Plicht van de werkgever"
+          ],
+          "items": [
+            [
+              "het afgesproken werk krijgen",
+              "Recht van de werkgever"
+            ],
+            [
+              "het loon op tijd betalen",
+              "Plicht van de werkgever"
+            ],
+            [
+              "verwachten dat het reglement gevolgd wordt",
+              "Recht van de werkgever"
+            ],
+            [
+              "zorgen voor een veilige werkplek",
+              "Plicht van de werkgever"
+            ]
+          ],
+          "uitleg": "Wat voor de ene een plicht is, is vaak voor de andere een recht."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een contract dat loopt tot een van beide partijen het beëindigt, is van [[*onbepaalde|bepaalde]] duur.",
+          "uitleg": "Er staat geen einddatum in."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welke arbeidssituatie is dit?",
+          "rijen": [
+            "Een arbeider breekt zijn been en kan drie maanden niet werken; zijn contract blijft.",
+            "Een bediende werkt op vrijdag vier uur langer om een deadline te halen.",
+            "Een werknemer zegt zijn job op en vertrekt naar een ander bedrijf."
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Situaties uit het arbeidsrecht.",
+          "kolommen": [
+            "schorsing",
+            "overwerk",
+            "beëindiging"
+          ]
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een werknemer werkt 4 overuren aan 20 euro per uur met 50 procent toeslag. Hoeveel overloon krijgt hij in totaal, in euro?",
+          "antwoord": [
+            "120",
+            "120 euro"
+          ],
+          "uitleg": "Per overuur 30 euro, maal 4 is 120 euro."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In het arbeidsreglement staat dat je ziekte vóór 9 uur meldt. Je meldt het pas om 11 uur. Wat is er gebeurd?",
+          "opties": [
+            "Je volgt een regel uit het reglement niet",
+            "Je contract is automatisch geschorst",
+            "Je werkgever moet je overloon betalen",
+            "Je arbeidsovereenkomst is ongeldig geworden"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het reglement bevat de procedure die voor iedereen geldt."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over de proefperiode bij een studentenjob?",
+          "rijen": [
+            "Werkgever en student kunnen in die periode vlot beslissen of ze doorgaan.",
+            "Een proefperiode is een vorm van schorsing.",
+            "Het arbeidsrecht regelt ook de proefperiode."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true
+          ],
+          "uitleg": "De proefperiode is een eigen arbeidssituatie."
+        },
+        {
+          "type": "open",
+          "vraag": "Leg uit waarom het uurrooster in het arbeidsreglement staat en je loon in de arbeidsovereenkomst.",
+          "antwoord": "Het uurrooster geldt voor de hele ploeg of het hele bedrijf, dus hoort het bij de regels voor iedereen. Je loon is een persoonlijke afspraak tussen jou en je werkgever en staat daarom in je eigen overeenkomst."
+        },
+        {
+          "type": "open",
+          "vraag": "Een vriend zegt: 'Een contract van bepaalde duur is altijd deeltijds.' Leg uit wat er fout is.",
+          "antwoord": "Duur en omvang zijn twee aparte indelingen. Een contract met een einddatum kan voltijds of deeltijds zijn, en een contract zonder einddatum ook."
+        }
+      ]
+    },
+    {
+      "titel": "Van brutoloon naar nettoloon — pittig",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het belastbaar loon.",
+          "afbeelding_url": "/examenvormen/samenleving-beyond/loonbrief.svg",
+          "zones": [
+            [
+              18.0,
+              49.2,
+              64.0,
+              10.9
+            ]
+          ],
+          "uitleg": "Het belastbaar loon is wat overblijft na de sociale zekerheidsbijdrage: 2 600,00 min 339,82."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het voorschot op de personenbelasting.",
+          "afbeelding_url": "/examenvormen/samenleving-beyond/loonbrief.svg",
+          "zones": [
+            [
+              18.0,
+              61.7,
+              64.0,
+              10.9
+            ]
+          ],
+          "uitleg": "De bedrijfsvoorheffing wordt berekend op het belastbaar loon en is een voorschot op je personenbelasting."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het bedrag dat naar de RSZ gaat.",
+          "afbeelding_url": "/examenvormen/samenleving-beyond/loonbrief.svg",
+          "zones": [
+            [
+              18.0,
+              36.7,
+              64.0,
+              10.9
+            ]
+          ],
+          "uitleg": "De sociale zekerheidsbijdrage wordt als eerste van het brutoloon afgetrokken."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het bedrag dat op de rekening van de werknemer komt.",
+          "afbeelding_url": "/examenvormen/samenleving-beyond/loonbrief.svg",
+          "zones": [
+            [
+              18.0,
+              74.2,
+              64.0,
+              10.9
+            ]
+          ],
+          "uitleg": "Het nettoloon is het eindpunt van de berekening."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Controleer de loonbrief: hoeveel is C min D, in euro?",
+          "antwoord": [
+            "1830,18",
+            "1 830,18",
+            "1830.18"
+          ],
+          "uitleg": "2 260,18 min 430,00 is 1 830,18: precies het nettoloon E.",
+          "afbeelding_url": "/examenvormen/samenleving-beyond/loonbrief.svg"
+        },
+        {
+          "type": "tabel",
+          "vraag": "Kijk naar de loonbrief. Klopt dit?",
+          "rijen": [
+            "A is het brutoloon.",
+            "De bedrijfsvoorheffing wordt op A berekend.",
+            "Met kinderen ten laste zou D lager zijn.",
+            "Met kinderen ten laste zou B lager zijn."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "De gezinssituatie verandert de bedrijfsvoorheffing, niet de sociale bijdrage.",
+          "afbeelding_url": "/examenvormen/samenleving-beyond/loonbrief.svg"
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet de stappen van brutoloon naar nettoloon in de juiste volgorde.",
+          "opties": [
+            "brutoloon",
+            "sociale zekerheidsbijdrage aftrekken",
+            "belastbaar loon",
+            "bedrijfsvoorheffing aftrekken",
+            "nettoloon"
+          ],
+          "uitleg": "Eerst de sociale bijdrage, dan de bedrijfsvoorheffing."
+        },
+        {
+          "casus": "Jef is arbeider en Nina bediende. Ze verdienen allebei 2 000 euro bruto per maand. Hun werkgever rekent voor de sociale zekerheidsbijdrage met hetzelfde percentage.",
+          "vragen": [
+            {
+              "type": "meerkeuze",
+              "vraag": "Op welk bedrag wordt de sociale bijdrage van Jef berekend?",
+              "opties": [
+                "Op 2 160 euro",
+                "Op 2 000 euro",
+                "Op 1 840 euro",
+                "Op 1 080 euro"
+              ],
+              "antwoord": 0,
+              "uitleg": "Bij een arbeider rekent men op 108 procent van het brutoloon: 2 000 maal 1,08."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "Wie betaalt de hoogste sociale bijdrage? [[*Jef|Nina|Ze betalen evenveel]]",
+              "uitleg": "Hetzelfde percentage op een hoger bedrag."
+            },
+            {
+              "type": "tabel",
+              "vraag": "Klopt dit voor Jef en Nina?",
+              "rijen": [
+                "De regel van 108 procent geldt enkel voor arbeiders.",
+                "Bij Nina wordt de sociale bijdrage op haar brutoloon berekend.",
+                "Jef betaalt minder bedrijfsvoorheffing omdat hij arbeider is."
+              ],
+              "antwoord": [
+                true,
+                true,
+                false
+              ],
+              "uitleg": "De 108-procentregel is een oude regel uit de tijd dat arbeiders per dag betaald werden."
+            }
+          ]
+        },
+        {
+          "casus": "Sam (17) heeft een studentenjob in een supermarkt met een studentencontract. Hij verdient 200 euro bruto voor een weekend. Zijn oudere zus heeft een gewoon contract in dezelfde winkel.",
+          "vragen": [
+            {
+              "type": "tabel",
+              "vraag": "Wat gaat er af van Sams loon binnen zijn studentencontract?",
+              "rijen": [
+                "een solidariteitsbijdrage",
+                "de gewone sociale zekerheidsbijdrage",
+                "bedrijfsvoorheffing"
+              ],
+              "antwoord": [
+                true,
+                false,
+                false
+              ],
+              "uitleg": "Een student betaalt enkel een lagere solidariteitsbijdrage."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Waarom ligt Sams nettoloon dicht bij zijn brutoloon?",
+              "opties": [
+                "Er gaat weinig af",
+                "Zijn werkgever betaalt zijn belastingen",
+                "Studenten hebben recht op overloon",
+                "Zijn loon wordt op 108 procent berekend"
+              ],
+              "antwoord": 0,
+              "uitleg": "Enkel een kleine solidariteitsbijdrage, geen bedrijfsvoorheffing."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "Hoeveel uren Sam dit jaar nog mag werken, kijkt hij na op [[*student@work|de loonbrief van zijn zus|de website van de RVA]].",
+              "uitleg": "Daar volgt een student zijn gewerkte uren op."
+            }
+          ]
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elk bedrag aan zijn betekenis.",
+          "paren": [
+            [
+              "brutoloon",
+              "het loon voor er iets afgaat"
+            ],
+            [
+              "belastbaar loon",
+              "het loon na de sociale bijdrage"
+            ],
+            [
+              "nettoloon",
+              "wat je op je rekening krijgt"
+            ],
+            [
+              "loonkost",
+              "het brutoloon plus de bijdrage van de werkgever"
+            ]
+          ],
+          "extra": [
+            "het loon na de personenbelasting van vorig jaar"
+          ],
+          "uitleg": "Van loonkost voor de werkgever tot nettoloon voor de werknemer."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Iemand verdient 2 400 euro bruto. Na de sociale bijdrage blijft er 2 086 euro over. De bedrijfsvoorheffing is 380 euro. Wat is het nettoloon, in euro?",
+          "antwoord": [
+            "1706",
+            "1 706",
+            "1706 euro"
+          ],
+          "uitleg": "2 086 min 380."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een werkgever betaalt bovenop een brutoloon van 3 000 euro nog 750 euro eigen bijdrage aan de RSZ. Wat is de loonkost, in euro?",
+          "antwoord": [
+            "3750",
+            "3 750",
+            "3750 euro"
+          ],
+          "uitleg": "Brutoloon plus de werkgeversbijdrage."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Hangt dit af van de gezinssituatie van de werknemer?",
+          "rijen": [
+            "de bedrijfsvoorheffing",
+            "de sociale zekerheidsbijdrage",
+            "het nettoloon"
+          ],
+          "antwoord": [
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Kinderen ten laste verlagen de bedrijfsvoorheffing en verhogen dus het nettoloon."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Na de belastingaangifte blijkt dat Nora te veel bedrijfsvoorheffing betaalde. Wat gebeurt er?",
+          "opties": [
+            "Ze krijgt het verschil terug",
+            "Ze moet het verschil nog eens bijbetalen",
+            "Haar werkgever houdt het verschil",
+            "Het verschil gaat naar de RSZ"
+          ],
+          "antwoord": 0,
+          "uitleg": "De bedrijfsvoorheffing is een voorschot; bij de aangifte wordt afgerekend."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Gaat dit naar de sociale zekerheid of naar de belastingen?",
+          "kolommen": [
+            "Sociale zekerheid",
+            "Belastingen"
+          ],
+          "items": [
+            [
+              "de sociale zekerheidsbijdrage",
+              "Sociale zekerheid"
+            ],
+            [
+              "de bedrijfsvoorheffing",
+              "Belastingen"
+            ],
+            [
+              "de bijdrage van de werkgever aan de RSZ",
+              "Sociale zekerheid"
+            ],
+            [
+              "de personenbelasting",
+              "Belastingen"
+            ]
+          ],
+          "uitleg": "Twee inhoudingen met een ander doel."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "De bedrijfsvoorheffing heet zo omdat ze [[*vooraf|achteraf|eenmalig]] geheven wordt.",
+          "uitleg": "Zo moet je na je aangifte niet alles in één keer bijbetalen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over de berekening van het loon?",
+          "rijen": [
+            "Het belastbaar loon is hetzelfde als het nettoloon.",
+            "De bedrijfsvoorheffing wordt na de sociale bijdrage afgetrokken.",
+            "Een werknemer kost zijn werkgever meer dan zijn brutoloon.",
+            "Een student met een studentencontract betaalt bedrijfsvoorheffing."
+          ],
+          "antwoord": [
+            false,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Het belastbaar loon staat tussen bruto en netto."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Twee collega's verdienen evenveel bruto, maar de ene heeft twee kinderen ten laste. Wat verwacht je?",
+          "opties": [
+            "Die met kinderen houdt netto meer over",
+            "Die zonder kinderen houdt netto meer over",
+            "Ze houden netto precies evenveel over",
+            "Die met kinderen betaalt een hogere sociale bijdrage"
+          ],
+          "antwoord": 0,
+          "uitleg": "Kinderen ten laste verlagen de bedrijfsvoorheffing."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Van het [[brutoloon]] gaat eerst de sociale bijdrage af. Wat overblijft is het [[belastbaar]] loon. Na de [[bedrijfsvoorheffing]] blijft het nettoloon over.",
+          "extra": [
+            "nettoloon",
+            "overloon"
+          ],
+          "uitleg": "Twee inhoudingen, in een vaste volgorde."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een arbeider verdient 2 500 euro bruto. Op welk bedrag wordt zijn sociale bijdrage berekend, in euro?",
+          "antwoord": [
+            "2700",
+            "2 700",
+            "2700 euro"
+          ],
+          "uitleg": "108 procent van 2 500 is 2 700 euro."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Bedrag B gaat naar de [[*RSZ|FOD Financiën|werkgever]] en D is een voorschot op de [[*personenbelasting|sociale zekerheid|btw]].",
+          "uitleg": "Eerst de sociale bijdrage, dan de bedrijfsvoorheffing.",
+          "afbeelding_url": "/examenvormen/samenleving-beyond/loonbrief.svg"
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel euro wordt er in totaal ingehouden op deze loonbrief?",
+          "antwoord": [
+            "769,82",
+            "769.82"
+          ],
+          "uitleg": "339,82 + 430,00 = 769,82 euro, of A min E.",
+          "afbeelding_url": "/examenvormen/samenleving-beyond/loonbrief.svg"
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welke instantie hoort bij dit bedrag?",
+          "rijen": [
+            "de sociale zekerheidsbijdrage",
+            "de bedrijfsvoorheffing",
+            "de bijdrage van de werkgever bovenop het brutoloon"
+          ],
+          "antwoord": [
+            0,
+            1,
+            0
+          ],
+          "uitleg": "De RSZ int de sociale bijdragen; de voorheffing gaat naar de belastingen.",
+          "kolommen": [
+            "RSZ",
+            "belastingen"
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom kost een werknemer zijn werkgever meer dan het brutoloon?",
+          "opties": [
+            "De werkgever betaalt een eigen RSZ-bijdrage",
+            "De werkgever betaalt ook de bedrijfsvoorheffing van zijn eigen zak",
+            "Het nettoloon is altijd hoger dan het brutoloon",
+            "De werkgever moet het vakantiegeld elke maand betalen"
+          ],
+          "antwoord": 0,
+          "uitleg": "De werkgeversbijdrage komt bovenop het brutoloon."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Op een loonbrief van een student met een studentencontract staat een [[*solidariteitsbijdrage|gewone sociale bijdrage|bedrijfsvoorheffing]].",
+          "uitleg": "Binnen het studentencontract geldt die lagere bijdrage."
+        },
+        {
+          "type": "open",
+          "vraag": "Leg uit waarom er op een loonbrief zowel een bedrag voor de RSZ als een bedrag voor de bedrijfsvoorheffing staat.",
+          "antwoord": "Het zijn twee verschillende inhoudingen. De sociale zekerheidsbijdrage gaat naar de RSZ en betaalt mee pensioenen, ziekteverzekering en werkloosheid. De bedrijfsvoorheffing is een voorschot op de personenbelasting en gaat naar de belastingen."
+        }
+      ]
+    }
+  ]
+}

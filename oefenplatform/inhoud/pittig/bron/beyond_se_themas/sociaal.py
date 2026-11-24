@@ -70,7 +70,7 @@ VRAGEN = [
                   "25 procent tegenover 12,5 procent: de belasting is progressief."),
         ],
     ),
-    tabel("Klopt dit?", [
+    tabel("Klopt dit over vakantiegeld en uitkeringen?", [
         ("Het vakantiegeld staat bij de uitkeringen binnen de sociale zekerheid.", J),
         ("Het vakantiegeld is een vervangingsinkomen.", F),
         ("Een arbeidsongeval en een beroepsziekte zijn hetzelfde.", F),

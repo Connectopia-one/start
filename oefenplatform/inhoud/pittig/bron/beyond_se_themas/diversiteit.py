@@ -63,7 +63,7 @@ VRAGEN = [
        "Je ervaringen en waarden bepalen hoe je iets beoordeelt."),
     keuze("Levensbeschouwelijke diversiteit gaat [[*ook over mensen die niet geloven|enkel over gelovigen|enkel over godsdiensten uit Europa]].",
           "Ook atheïsten en vrijzinnigen hebben een levensbeschouwing."),
-    tabel("Klopt dit?", [
+    tabel("Klopt dit over samenleven in diversiteit?", [
         ("Diversiteit is tegelijk verrijkend en uitdagend.", J),
         ("Uitsluiting is een voordeel van diversiteit.", F),
         ("Een meningsverschil hoort bij samenleven in diversiteit.", J),

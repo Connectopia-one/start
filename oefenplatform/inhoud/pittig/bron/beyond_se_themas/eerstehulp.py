@@ -52,7 +52,7 @@ VRAGEN = [
         ["verdrinking", "Andere noodsituatie"],
         ["ontwrichting", "Bot, spier of gewricht"],
     ], "Verslikking en verdrinking zijn noodsituaties waarbij je meteen ingrijpt."),
-    tabel("Klopt dit?", [
+    tabel("Klopt dit over de noodnummers?", [
         ("100 is in België nog altijd het nummer van de ziekenwagen.", F),
         ("112 geldt ook voor de brandweer.", J),
         ("Bij een vergiftiging met bewustzijnsverlies bel je 112.", J),

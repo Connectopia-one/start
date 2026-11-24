@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Loonbrief van een bediende, maand oktober</text>
+<rect x="160" y="70" width="680" height="520" rx="10" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="200" y="120" font-size="18" text-anchor="start" fill="#24331b">Werknemer: bediende, voltijds</text>
+<text x="800" y="120" font-size="18" text-anchor="end" fill="#24331b" font-weight="bold">bedrag (euro)</text>
+<circle cx="230" cy="190" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="230" y="197" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<line x1="270" y1="200" x2="600" y2="200" stroke="#d9d4c4" stroke-width="1" stroke-dasharray="8 6"/>
+<text x="800" y="198" font-size="22" text-anchor="end" fill="#24331b">2 600,00</text>
+<circle cx="230" cy="270" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="230" y="277" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<line x1="270" y1="280" x2="600" y2="280" stroke="#d9d4c4" stroke-width="1" stroke-dasharray="8 6"/>
+<text x="800" y="278" font-size="22" text-anchor="end" fill="#24331b">− 339,82</text>
+<rect x="180" y="318" width="640" height="60" rx="6" fill="#f2efe6" stroke="#d9d4c4" stroke-width="1"/>
+<circle cx="230" cy="350" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="230" y="357" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<line x1="270" y1="360" x2="600" y2="360" stroke="#d9d4c4" stroke-width="1" stroke-dasharray="8 6"/>
+<text x="800" y="358" font-size="22" text-anchor="end" fill="#24331b" font-weight="bold">2 260,18</text>
+<circle cx="230" cy="430" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="230" y="437" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">D</text>
+<line x1="270" y1="440" x2="600" y2="440" stroke="#d9d4c4" stroke-width="1" stroke-dasharray="8 6"/>
+<text x="800" y="438" font-size="22" text-anchor="end" fill="#24331b">− 430,00</text>
+<rect x="180" y="478" width="640" height="60" rx="6" fill="#f2efe6" stroke="#d9d4c4" stroke-width="1"/>
+<circle cx="230" cy="510" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="230" y="517" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">E</text>
+<line x1="270" y1="520" x2="600" y2="520" stroke="#d9d4c4" stroke-width="1" stroke-dasharray="8 6"/>
+<text x="800" y="518" font-size="22" text-anchor="end" fill="#24331b" font-weight="bold">1 830,18</text>
+</svg>

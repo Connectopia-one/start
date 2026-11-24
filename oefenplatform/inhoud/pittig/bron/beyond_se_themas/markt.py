@@ -67,7 +67,7 @@ VRAGEN = [
         ["een winkel stuurt al om tien uur klanten weg", "Onder"],
         ["een marktkramer houdt kratten groenten over", "Boven"],
     ], "Een overschot wijst op een te hoge prijs, een tekort op een te lage."),
-    koppel("Koppel elk begrip aan zijn betekenis.", [
+    koppel("Koppel elk marktbegrip aan zijn betekenis.", [
         ["vrager", "de koper"],
         ["aanbieder", "de verkoper"],
         ["evenwichtsprijs", "de prijs waarbij vraag en aanbod gelijk zijn"],
@@ -81,7 +81,7 @@ VRAGEN = [
        "Er is een overschot van 80 stuks; verkopers laten de prijs zakken."),
     keuze("Op de verticale as van een vraag- en aanbodgrafiek staat de [[*prijs|hoeveelheid|omzet]].",
           "De hoeveelheid staat op de horizontale as."),
-    tabel("Klopt dit?", [
+    tabel("Klopt dit over vraag en aanbod?", [
         ("Een tekort bereken je als vraag min aanbod.", J),
         ("Bij één prijs kan er tegelijk een overschot en een tekort zijn.", F),
         ("Bij een tekort stijgt de prijs.", J),

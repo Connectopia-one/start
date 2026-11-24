@@ -53,7 +53,7 @@ VRAGEN = [
     ], ["sociale uitgave"], "Vier soorten inkomsten."),
     inv("Hoeveel soorten inkomsten heeft de overheid? Antwoord met een cijfer.", ["4", "vier"],
         "Directe en indirecte belastingen, diverse inkomsten en inkomsten uit overheidskapitaal."),
-    tabel("Klopt dit?", [
+    tabel("Klopt dit over inkomsten en uitgaven?", [
         ("Een boete is een belasting.", F),
         ("De verkoop van grond door de overheid is een inkomst uit overheidskapitaal.", J),
         ("De financiering van de sociale zekerheid is een uitgave.", J),

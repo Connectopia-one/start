@@ -57,7 +57,7 @@ VRAGEN = [
         ("op tijd komen volgens het uurrooster", "plicht"),
         ("werken in een veilige omgeving", "recht"),
     ], "Rechten en plichten van werknemer en werkgever horen bij elkaar.", kolommen=["recht", "plicht"]),
-    tabel("Klopt dit?", [
+    tabel("Klopt dit over arbeidsovereenkomsten?", [
         ("Bij een schorsing blijft het contract bestaan.", J),
         ("Deeltijds werken kan enkel met een contract van bepaalde duur.", F),
         ("Overwerk geeft recht op overloon.", J),

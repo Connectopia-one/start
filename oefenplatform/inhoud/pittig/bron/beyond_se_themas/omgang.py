@@ -17,7 +17,7 @@ VRAGEN = [
                 "Specifiek voor een andere handeling",
                 "Geïnformeerd over de zangles"], 0,
                "Toestemming van vorige maand geldt niet voor nu. Noor mag ze intrekken."),
-            tabel("Klopt dit?", [
+            tabel("Klopt dit over Noor en de klasgroep?", [
                 ("De klasgenoten met emoji's spelen ook een rol.", J),
                 ("Ilias heeft geen rol omdat hij niets zegt.", F),
                 ("Noor steunen en het pesten melden is een goede reactie.", J),

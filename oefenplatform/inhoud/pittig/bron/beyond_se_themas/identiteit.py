@@ -52,7 +52,7 @@ VRAGEN = [
         ("Een groep jongeren zegt dat 'mensen van daar' toch nooit te vertrouwen zijn.", J),
         ("Twee vrienden hebben een andere mening over een film.", F),
     ], "Wij-zij-denken zet een eigen groep tegenover een andere en plakt op die andere groep één etiket."),
-    tabel("Klopt dit?", [
+    tabel("Klopt dit over identiteit en wereldbeeld?", [
         ("Wij-zij-denken kan ook vanuit de eigen groep komen.", J),
         ("Een mensbeeld en een wereldbeeld zijn hetzelfde.", F),
         ("Je wereldbeeld kan in de loop van je leven veranderen.", J),

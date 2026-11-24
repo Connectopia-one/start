@@ -84,7 +84,7 @@ VRAGEN = [
         "De compressies komen pas na de beademing",
         "112 is het verkeerde nummer bij een hartstilstand"], 0,
        "Bellen is stap 2 en komt vóór de compressies."),
-    tabel("Klopt dit?", [
+    tabel("Klopt dit over hartmassage en de AED?", [
         ("Bij hartmassage leg je je handen links op de borstkas.", F),
         ("Aan de borstkas zie je of een beademing aankomt.", J),
         ("Tijdens een stroomstoot raak je het slachtoffer niet aan.", J),
@@ -136,7 +136,7 @@ VRAGEN = [
     ], ["de AED verliest stroom"], "Midden op de borstkas, harde ondergrond, neus dicht."),
     sleep("Je kantelt het hoofd [[achterover]] en tilt de [[kin]] op. Zo komt de [[luchtweg]] vrij.",
           ["voorover", "neus"], "Zonder vrije luchtweg komt de beademing niet in de longen."),
-    tabel("Wat doe je eerst?", [
+    tabel("Wat doe je eerst bij iemand die neervalt?", [
         ("Iemand zakt in elkaar in de supermarkt.", "nagaan of hij reageert"),
         ("Je weet dat de persoon niet reageert en niet normaal ademt.", "112 bellen"),
         ("Een collega valt neer aan de kopieermachine.", "nagaan of hij reageert"),

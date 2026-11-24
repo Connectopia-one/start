@@ -108,7 +108,7 @@ VRAGEN = [
        "Een premie voor kopers verschuift de vraag naar rechts."),
     sleep("Een vaste prijs boven het evenwicht heet een [[minimumprijs]] en geeft een [[overschot]].",
           ["maximumprijs", "tekort"], "Een maximumprijs onder het evenwicht geeft een tekort."),
-    tabel("Klopt dit?", [
+    tabel("Klopt dit over verschuivingen en prijzen?", [
         ("Een prijsdaling van het product zelf verschuift de vraagcurve.", F),
         ("Meer kopers verschuiven de vraagcurve naar rechts.", J),
         ("Als de vraag naar rechts schuift, daalt de evenwichtsprijs.", F),
