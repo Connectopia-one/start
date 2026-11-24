@@ -41,6 +41,13 @@ export const nieuwTekst = {
 export const updates: Update[] = [
   {
     datum: "24 november 2026",
+    titel: "Duidelijker uitleg bij vragen met meer dan één juist antwoord",
+    tekst:
+      "Bovenaan sommige examens en hoofdstukken stond dat er bij de keuzevragen meer dan één antwoord juist kan zijn. Dat gold niet voor de keuzelijsten in een zin, en dat was verwarrend. Nu staat er dat het gaat over de vragen met vierkante vakjes, en dat er in een keuzelijst altijd maar één antwoord juist is.",
+    opVraag: true,
+  },
+  {
+    datum: "24 november 2026",
     titel: "Black Friday: nog tot vrijdag 24u €20, daarna €50",
     tekst:
       "Het oefenplatform is zo goed als volledig: elk vak van Start tot Beyond, met leerbundels, oefenbundels, pittige hoofdstukken en examens. Daarom gaat de prijs naar €50 per schooljaar voor het hele gezin. Tot vrijdag 27 november om 24u betaal je nog €20 voor een volledig schooljaar. Had je als dank voor de enquête en een review een vaste prijs van €20? Die blijft gewoon.",

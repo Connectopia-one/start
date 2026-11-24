@@ -1724,10 +1724,11 @@ export function Quiz({
 
       {alsVakjes && (
         <p className="rounded-md bg-amber/10 px-3 py-2 text-xs text-ink">
-          Let op: bij de keuzevragen in dit {examen ? "examen" : "hoofdstuk"}{" "}
-          kan er méér dan één antwoord juist zijn. Duid alles aan wat klopt —
-          net als op het examen krijg je de vraag maar goed als je ze allemaal
-          hebt, niet de helft.
+          Let op: bij de vragen met vierkante vakjes in dit{" "}
+          {examen ? "examen" : "hoofdstuk"} kan er méér dan één antwoord juist
+          zijn. Duid alles aan wat klopt. Net als op het examen krijg je de
+          vraag maar goed als je ze allemaal hebt, niet de helft. In een
+          keuzelijst (kies...) is er altijd maar één antwoord juist.
         </p>
       )}
 
