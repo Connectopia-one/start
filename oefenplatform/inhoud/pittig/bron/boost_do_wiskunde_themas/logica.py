@@ -1,0 +1,246 @@
+"""Logica: symbolen, waarheidstabellen en poorten — pittig (🚀 Boost doorstroom)."""
+from .vormen import J, F, mk, inv, tabel, keuze, volgorde, koppel, sorteer, sleep, casus
+
+GRAFIEKEN = []
+PRENTEN = []
+
+VRAGEN = [
+    koppel(
+        "Verbind elk symbool met zijn betekenis.",
+        [
+            (r"\(\land\)", "en (conjunctie)"),
+            (r"\(\lor\)", "of (disjunctie)"),
+            (r"\(\neg\)", "niet (negatie)"),
+            (r"\(\Rightarrow\)", "als ... dan (implicatie)"),
+            (r"\(\Leftrightarrow\)", "als en slechts als (equivalentie)"),
+        ],
+        ["er bestaat"],
+        r"Let op: 'er bestaat' is de kwantor \(\exists\), geen verbindingswoord tussen twee uitspraken.",
+    ),
+    sorteer(
+        "Is dit een logische uitspraak of niet?",
+        ["Logische uitspraak", "Geen logische uitspraak"],
+        [
+            (r"\(7\) is een priemgetal.", "Logische uitspraak"),
+            (r"\(2 + 2 = 5\)", "Logische uitspraak"),
+            ("Hoe laat is het?", "Geen logische uitspraak"),
+            ("Doe de deur dicht!", "Geen logische uitspraak"),
+            ("Elk vierkant is een ruit.", "Logische uitspraak"),
+        ],
+        r"Een logische uitspraak is waar of vals. \(2 + 2 = 5\) is vals, maar wel een uitspraak. Een vraag of een bevel is geen van beide.",
+    ),
+    tabel(
+        r"\(p\) is waar, \(q\) is vals en \(r\) is waar. Is de uitspraak waar of vals?",
+        [
+            (r"\(p \land r\)", "Waar"),
+            (r"\(q \lor \neg r\)", "Vals"),
+            (r"\(p \Rightarrow q\)", "Vals"),
+            (r"\(q \Rightarrow r\)", "Waar"),
+            (r"\(p \Leftrightarrow r\)", "Waar"),
+            (r"\(\neg(p \land q)\)", "Waar"),
+        ],
+        r"\(q \lor \neg r\): vals of vals is vals. \(p \Rightarrow q\): waar naar vals is de enige valse implicatie. \(q \Rightarrow r\): uit iets vals volgt alles. \(p \land q\) is vals, de negatie dus waar.",
+        kolommen=["Waar", "Vals"],
+    ),
+    mk(
+        r"Voor welke waarden van \(p\) en \(q\) is \(p \Rightarrow q\) vals?",
+        [r"\(p\) vals en \(q\) waar", r"\(p\) waar en \(q\) vals", r"\(p\) en \(q\) allebei vals", r"\(p\) en \(q\) allebei waar"],
+        1,
+        "Een implicatie is enkel vals als de voorwaarde waar is en het gevolg vals.",
+    ),
+    tabel(
+        r"Vul de waarheidstabel van \(p \lor q\) aan. Welke waarde hoort in elke rij?",
+        [
+            (r"\(p = 1\), \(q = 1\)", "1"),
+            (r"\(p = 1\), \(q = 0\)", "1"),
+            (r"\(p = 0\), \(q = 1\)", "1"),
+            (r"\(p = 0\), \(q = 0\)", "0"),
+        ],
+        "De logische of is enkel vals als beide uitspraken vals zijn. Ook als beide waar zijn, is ze waar.",
+        kolommen=["1", "0"],
+    ),
+    tabel(
+        r"Vul de waarheidstabel van \(p \Leftrightarrow q\) aan.",
+        [
+            (r"\(p = 1\), \(q = 1\)", "1"),
+            (r"\(p = 1\), \(q = 0\)", "0"),
+            (r"\(p = 0\), \(q = 1\)", "0"),
+            (r"\(p = 0\), \(q = 0\)", "1"),
+        ],
+        "De equivalentie is waar als beide dezelfde waarheidswaarde hebben, ook als ze allebei vals zijn.",
+        kolommen=["1", "0"],
+    ),
+    sorteer(
+        "Is dit een tautologie, een contradictie, of geen van beide?",
+        ["Tautologie", "Contradictie", "Geen van beide"],
+        [
+            (r"\(p \lor \neg p\)", "Tautologie"),
+            (r"\(p \land \neg p\)", "Contradictie"),
+            (r"\(p \land q\)", "Geen van beide"),
+            (r"\(p \Rightarrow p\)", "Tautologie"),
+            (r"\(p \lor q\)", "Geen van beide"),
+        ],
+        r"Een tautologie is altijd waar, een contradictie altijd vals. \(p \land q\) en \(p \lor q\) hangen af van de invulling.",
+    ),
+    inv(
+        "Hoeveel rijen telt de waarheidstabel van een uitspraak met vijf variabelen?",
+        ["32", "tweeëndertig"],
+        r"Elke variabele verdubbelt het aantal rijen: \(2^{5} = 32\).",
+    ),
+    mk(
+        "Welke zin is de negatie van 'er bestaat een even priemgetal'?",
+        ["Er bestaat een oneven priemgetal",
+         "Geen enkel priemgetal is even",
+         "Alle priemgetallen zijn even",
+         "Er bestaat een even getal dat geen priemgetal is"],
+        1,
+        "De negatie van 'er bestaat een ... dat ...' is 'voor alle ... geldt het niet', dus geen enkel. (De oorspronkelijke uitspraak is waar: 2 is een even priemgetal.)",
+    ),
+    mk(
+        "Welke zin is de negatie van 'alle zwanen zijn wit'?",
+        ["Alle zwanen zijn zwart in plaats van wit",
+         "Minstens één zwaan is niet wit",
+         "Geen enkele zwaan is wit",
+         "Sommige zwanen zijn wit"],
+        1,
+        "Om 'alle' te ontkennen volstaat één uitzondering. 'Alle zwanen zijn zwart' gaat veel te ver.",
+    ),
+    casus(
+        "'Als een getal deelbaar is door 6, dan is het deelbaar door 3.'",
+        [
+            mk("Wat is in die zin de voldoende voorwaarde?",
+               ["deelbaar zijn door 3", "deelbaar zijn door 6", "een even getal zijn", "groter zijn dan 6"], 1,
+               "Deelbaar door 6 is genoeg om deelbaar door 3 te zijn."),
+            mk("Wat is de nodige voorwaarde om deelbaar te zijn door 6?",
+               ["deelbaar zijn door 12", "deelbaar zijn door 3", "deelbaar zijn door 9", "eindigen op een 6"], 1,
+               "Wie niet deelbaar is door 3, kan zeker niet deelbaar zijn door 6. Deelbaar door 3 is dus nodig, maar niet voldoende."),
+            mk("Welk getal toont dat de omgekeerde zin ('als deelbaar door 3, dan deelbaar door 6') niet klopt?",
+               ["12", "15", "18", "24"], 1,
+               "15 is deelbaar door 3, maar niet door 6. 12, 18 en 24 kloppen allemaal, die weerleggen niets."),
+        ],
+    ),
+    koppel(
+        "Verbind elke situatie met de poort die past.",
+        [
+            ("Een kluis gaat enkel open met de sleutel en de juiste code.", "EN-poort"),
+            ("De bel gaat als iemand voor- of achteraan drukt.", "OF-poort"),
+            ("Een nachtlampje gaat aan als het niet licht is.", "NIET-poort"),
+        ],
+        ["een poort die altijd 1 geeft"],
+        "EN: beide ingangen nodig. OF: één ingang volstaat. NIET: keert het signaal om.",
+    ),
+    tabel(
+        "Een schakeling: de ingangen A en B gaan in een EN-poort. De uitgang daarvan en de ingang C gaan samen in een OF-poort. Wat geeft de schakeling?",
+        [
+            ("A = 1, B = 1, C = 0", "1"),
+            ("A = 1, B = 0, C = 0", "0"),
+            ("A = 0, B = 0, C = 1", "1"),
+            ("A = 0, B = 1, C = 0", "0"),
+        ],
+        r"De schakeling is \((A \land B) \lor C\). Ze geeft 1 als A en B allebei 1 zijn, of als C 1 is.",
+        kolommen=["1", "0"],
+    ),
+    mk(
+        "Een signaal A gaat door een NIET-poort, en daarna nog eens door een NIET-poort. Wat komt eruit?",
+        ["altijd 0", "altijd 1", "hetzelfde als A", "het omgekeerde van A"],
+        2,
+        r"Twee keer omkeren brengt je terug bij het begin: \(\neg\neg A\) heeft dezelfde waarheidswaarde als \(A\).",
+    ),
+    keuze(
+        r"De uitspraak \(\neg(p \land q)\) heeft dezelfde waarheidstabel als [[*\(\neg p \lor \neg q\)|\(\neg p \land \neg q\)]]. De uitspraak \(\neg(p \lor q)\) heeft dezelfde waarheidstabel als [[*\(\neg p \land \neg q\)|\(\neg p \lor \neg q\)]].",
+        "Controleer met een waarheidstabel: 'niet allebei' betekent 'minstens één niet', en 'geen van beide' betekent 'allebei niet'.",
+    ),
+    mk(
+        "In de omgangstaal zegt iemand: 'Je krijgt een ijsje of een koek.' Hoe verschilt dat van de logische 'of'?",
+        ["Er is geen verschil, beide betekenen precies hetzelfde",
+         "In de omgangstaal is het vaak één van beide; de logische of laat allebei toe",
+         "De logische of laat maar één van beide keuzes toe, nooit allebei samen",
+         "In de logica bestaat het woord 'of' niet, je gebruikt enkel symbolen"],
+        1,
+        "De logische of is ook waar als beide delen waar zijn. In de omgangstaal is 'of' vaak uitsluitend bedoeld.",
+    ),
+    sleep(
+        "Een uitspraak die bij elke invulling waar is, heet een [[tautologie]]. Een uitspraak die altijd vals is, heet een [[contradictie]]. Om een uitspraak met 'voor alle' te weerleggen, volstaat één [[tegenvoorbeeld]].",
+        ["implicatie", "kwantor"],
+        "Tautologie, contradictie, tegenvoorbeeld.",
+    ),
+    tabel(
+        r"Is de uitspraak waar voor de natuurlijke getallen?",
+        [
+            (r"\(\forall n: n + 0 = n\)", J),
+            (r"\(\exists n: n \cdot n = 49\)", J),
+            (r"\(\forall n: n \cdot n > n\)", F),
+            (r"\(\exists n: n + 5 = 2\)", F),
+        ],
+        r"\(n \cdot n > n\) klopt niet voor \(n = 0\) en \(n = 1\). Er is geen natuurlijk getal met \(n + 5 = 2\), want dat zou \(-3\) zijn.",
+        kolommen=["Juist", "Fout"],
+    ),
+    inv(
+        r"Geef het kleinste natuurlijke getal dat de uitspraak \(\forall n: n^{2} > n\) weerlegt.",
+        ["0", "nul"],
+        r"\(0^{2} = 0\), niet groter dan \(0\). Ook \(1\) weerlegt ze, maar \(0\) is kleiner.",
+    ),
+    mk(
+        r"Hoe schrijf je 'als het regent, dan neem ik geen fiets' in symbolen, met \(p\): het regent, en \(q\): ik neem de fiets?",
+        [r"\(p \Rightarrow \neg q\)", r"\(\neg p \Rightarrow q\)", r"\(p \land \neg q\)", r"\(\neg q \Rightarrow p\)"],
+        0,
+        r"'Als ..., dan ...' is een implicatie, en 'geen fiets' is de negatie van \(q\).",
+    ),
+    mk(
+        r"Een schakeling met twee ingangen geeft enkel 0 als beide ingangen 0 zijn. Welke poort is dat?",
+        ["een EN-poort", "een OF-poort", "een NIET-poort", "twee NIET-poorten na elkaar"],
+        1,
+        "Een OF-poort geeft 1 zodra minstens één ingang 1 is, dus enkel 0 bij twee keer 0.",
+    ),
+    inv(
+        r"\(p\) is vals en \(q\) is waar. Is \(\neg p \land q\) waar of vals? Typ waar of vals.",
+        ["waar"],
+        r"\(\neg p\) is waar en \(q\) is waar, dus de conjunctie is waar.",
+    ),
+    mk(
+        r"Welke uitspraak is een tautologie?",
+        [r"\((p \land q) \lor \neg q\)", r"\(p \Rightarrow (p \lor q)\)", r"\(p \Rightarrow (p \land q)\)", r"\(p \land \neg p\)"],
+        1,
+        r"Als \(p\) waar is, is \(p \lor q\) zeker waar. Als \(p\) vals is, is de implicatie sowieso waar. Dus altijd waar.",
+    ),
+    volgorde(
+        r"Je wil weten of \(\neg(p \lor q)\) en \(\neg p \land \neg q\) hetzelfde betekenen. Zet de stappen in de juiste volgorde.",
+        ["Schrijf de vier combinaties van p en q onder elkaar",
+         "Bereken p ∨ q en daarna de negatie ervan",
+         "Bereken ¬p, ¬q en daarna hun conjunctie",
+         "Vergelijk de twee laatste kolommen rij per rij"],
+        "Een waarheidstabel begint altijd met alle combinaties. Pas als alle rijen gelijk zijn, betekenen de uitspraken hetzelfde.",
+    ),
+    tabel(
+        "Een alarm: A is de deur, B het raam, C de schakelaar 'alarm aan'. Het alarm gaat af bij (A of B) en C. Gaat het alarm af?",
+        [
+            ("A = 1, B = 0, C = 1", "Ja"),
+            ("A = 1, B = 1, C = 0", "Nee"),
+            ("A = 0, B = 1, C = 1", "Ja"),
+            ("A = 0, B = 0, C = 1", "Nee"),
+        ],
+        r"\((A \lor B) \land C\): het alarm moet aan staan en minstens één opening moet open zijn.",
+        kolommen=["Ja", "Nee"],
+    ),
+    mk(
+        r"Iemand zegt: 'Voor alle getallen \(x\) geldt \(x^{2} \geq x\).' Welk getal weerlegt dat?",
+        [r"\(2\)", r"\(\frac{1}{2}\)", r"\(-3\)", r"\(\frac{3}{2}\)"],
+        1,
+        r"\(\left(\frac{1}{2}\right)^{2} = \frac{1}{4}\), en dat is kleiner dan \(\frac{1}{2}\). Bij \(2\), \(-3\) en \(\frac{3}{2}\) klopt de ongelijkheid wel.",
+    ),
+    keuze(
+        r"De kwantor [[*\(\forall\)|\(\exists\)]] betekent 'voor elke'. Om een uitspraak met 'er bestaat' te bewijzen, volstaat [[*één voorbeeld|één tegenvoorbeeld]].",
+        "Voor 'er bestaat' toon je één geval dat werkt. Voor 'voor elke' weerleg je met één geval dat niet werkt.",
+    ),
+    tabel(
+        "Klopt deze uitspraak over nodige en voldoende voorwaarden?",
+        [
+            ("Een vierhoek met vier gelijke zijden is altijd een vierkant.", F),
+            ("Vier rechte hoeken hebben is nodig om een vierkant te zijn.", J),
+            ("Een vierkant zijn is voldoende om vier gelijke zijden te hebben.", J),
+            ("Vier gelijke zijden hebben is voldoende om een vierkant te zijn.", F),
+        ],
+        "Een ruit heeft vier gelijke zijden, maar is niet altijd een vierkant. Vier gelijke zijden is dus nodig, niet voldoende.",
+        kolommen=["Juist", "Fout"],
+    ),
+]
