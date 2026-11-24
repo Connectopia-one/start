@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Een gas in een cilinder met zuiger: begintoestand en drie mogelijke eindtoestanden</text>
+<rect x="80" y="230.0" width="120" height="330.0" rx="4" fill="#ffffff" stroke="#24331b" stroke-width="3"/>
+<rect x="83" y="410.0" width="114" height="147.0" rx="0" fill="#dbe8f4" stroke="none" stroke-width="0"/>
+<rect x="82" y="396.0" width="116" height="14" rx="2" fill="#d9d4c4" stroke="#24331b" stroke-width="2"/>
+<line x1="140" y1="396.0" x2="140" y2="200.0" stroke="#24331b" stroke-width="4"/>
+<text x="140" y="600" font-size="16" text-anchor="middle" fill="#24331b" font-weight="bold">begin: 3,0 L, 300 K, 100 kPa</text>
+<rect x="360" y="230.0" width="120" height="330.0" rx="4" fill="#ffffff" stroke="#24331b" stroke-width="3"/>
+<rect x="363" y="485.0" width="114" height="72.0" rx="0" fill="#f6e1c8" stroke="none" stroke-width="0"/>
+<rect x="362" y="471.0" width="116" height="14" rx="2" fill="#d9d4c4" stroke="#24331b" stroke-width="2"/>
+<line x1="420" y1="471.0" x2="420" y2="200.0" stroke="#24331b" stroke-width="4"/>
+<circle cx="420" cy="600" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="420" y="607" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<rect x="560" y="230.0" width="120" height="330.0" rx="4" fill="#ffffff" stroke="#24331b" stroke-width="3"/>
+<rect x="563" y="260.0" width="114" height="297.0" rx="0" fill="#f6e1c8" stroke="none" stroke-width="0"/>
+<rect x="562" y="246.0" width="116" height="14" rx="2" fill="#d9d4c4" stroke="#24331b" stroke-width="2"/>
+<line x1="620" y1="246.0" x2="620" y2="200.0" stroke="#24331b" stroke-width="4"/>
+<circle cx="620" cy="600" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="620" y="607" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<rect x="760" y="230.0" width="120" height="330.0" rx="4" fill="#ffffff" stroke="#24331b" stroke-width="3"/>
+<rect x="763" y="410.0" width="114" height="147.0" rx="0" fill="#f6e1c8" stroke="none" stroke-width="0"/>
+<rect x="762" y="396.0" width="116" height="14" rx="2" fill="#d9d4c4" stroke="#24331b" stroke-width="2"/>
+<line x1="820" y1="396.0" x2="820" y2="200.0" stroke="#24331b" stroke-width="4"/>
+<circle cx="820" cy="600" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="820" y="607" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<line x1="940" y1="560" x2="955" y2="560" stroke="#24331b" stroke-width="2"/>
+<text x="965" y="566" font-size="14" text-anchor="start" fill="#24331b">0 L</text>
+<line x1="940" y1="510" x2="955" y2="510" stroke="#24331b" stroke-width="2"/>
+<text x="965" y="516" font-size="14" text-anchor="start" fill="#24331b">1 L</text>
+<line x1="940" y1="460" x2="955" y2="460" stroke="#24331b" stroke-width="2"/>
+<text x="965" y="466" font-size="14" text-anchor="start" fill="#24331b">2 L</text>
+<line x1="940" y1="410" x2="955" y2="410" stroke="#24331b" stroke-width="2"/>
+<text x="965" y="416" font-size="14" text-anchor="start" fill="#24331b">3 L</text>
+<line x1="940" y1="360" x2="955" y2="360" stroke="#24331b" stroke-width="2"/>
+<text x="965" y="366" font-size="14" text-anchor="start" fill="#24331b">4 L</text>
+<line x1="940" y1="310" x2="955" y2="310" stroke="#24331b" stroke-width="2"/>
+<text x="965" y="316" font-size="14" text-anchor="start" fill="#24331b">5 L</text>
+<line x1="940" y1="260" x2="955" y2="260" stroke="#24331b" stroke-width="2"/>
+<text x="965" y="266" font-size="14" text-anchor="start" fill="#24331b">6 L</text>
+<line x1="940" y1="560" x2="940" y2="260" stroke="#24331b" stroke-width="2"/>
+</svg>

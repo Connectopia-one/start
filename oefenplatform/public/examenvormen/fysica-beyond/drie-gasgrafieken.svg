@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Drie grafieken van een vaste hoeveelheid gas</text>
+<rect x="60" y="90" width="290" height="430" rx="14" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<line x1="100" y1="470" x2="335" y2="470" stroke="#24331b" stroke-width="2"/>
+<line x1="100" y1="470" x2="100" y2="120" stroke="#24331b" stroke-width="2"/>
+<text x="322" y="500" font-size="18" text-anchor="end" fill="#24331b">V</text>
+<text x="90" y="118" font-size="18" text-anchor="end" fill="#24331b">p</text>
+<path d="M 120.0 170.0 L 126.0 239.2 L 132.0 282.5 L 138.0 312.1 L 144.0 333.6 L 150.0 350.0 L 156.0 362.9 L 162.0 373.2 L 168.0 381.8 L 174.0 388.9 L 180.0 395.0 L 186.0 400.2 L 192.0 404.8 L 198.0 408.8 L 204.0 412.3 L 210.0 415.5 L 216.0 418.3 L 222.0 420.8 L 228.0 423.1 L 234.0 425.2 L 240.0 427.1 L 246.0 428.9 L 252.0 430.5 L 258.0 432.0 L 264.0 433.4 L 270.0 434.7 L 276.0 435.9 L 282.0 437.0 L 288.0 438.1 L 294.0 439.1 L 300.0 440.0 L 306.0 440.9 L 312.0 441.7 L 318.0 442.5 L 324.0 443.2 L 330.0 443.9" fill="none" stroke="#3b6fa0" stroke-width="4"/>
+<circle cx="205" cy="580" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="205" y="587" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">P</text>
+<rect x="380" y="90" width="290" height="430" rx="14" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<line x1="420" y1="470" x2="655" y2="470" stroke="#24331b" stroke-width="2"/>
+<line x1="420" y1="470" x2="420" y2="120" stroke="#24331b" stroke-width="2"/>
+<text x="642" y="500" font-size="18" text-anchor="end" fill="#24331b">T (K)</text>
+<text x="410" y="118" font-size="18" text-anchor="end" fill="#24331b">V</text>
+<line x1="420" y1="470" x2="640" y2="170" stroke="#3b6fa0" stroke-width="4"/>
+<circle cx="525" cy="580" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="525" y="587" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">Q</text>
+<rect x="700" y="90" width="290" height="430" rx="14" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<line x1="720" y1="470" x2="975" y2="470" stroke="#24331b" stroke-width="2"/>
+<line x1="850" y1="470" x2="850" y2="120" stroke="#24331b" stroke-width="2"/>
+<text x="962" y="500" font-size="18" text-anchor="end" fill="#24331b">θ (°C)</text>
+<text x="840" y="118" font-size="18" text-anchor="end" fill="#24331b">p</text>
+<line x1="850" y1="310" x2="960" y2="170" stroke="#3b6fa0" stroke-width="4"/>
+<line x1="730" y1="470" x2="850" y2="310" stroke="#3b6fa0" stroke-width="2" stroke-dasharray="8 6"/>
+<text x="730" y="496" font-size="16" text-anchor="middle" fill="#24331b">−273</text>
+<text x="850" y="496" font-size="16" text-anchor="middle" fill="#24331b">0</text>
+<circle cx="845" cy="580" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="845" y="587" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">R</text>
+</svg>
