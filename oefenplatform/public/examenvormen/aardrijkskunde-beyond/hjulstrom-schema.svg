@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Hjülströmdiagram (vereenvoudigd)</text>
+<rect x="140" y="80" width="780" height="460" rx="0" fill="#eef3e4" stroke="none" stroke-width="0"/>
+<path d="M140 120 C 330 300 420 400 480 395 C 560 390 700 260 920 110 L 920 80 L 140 80 Z" fill="#f4c9a8" stroke="none" stroke-width="0"/>
+<path d="M140 535 C 420 530 560 470 920 280 L 920 540 L 140 540 Z" fill="#d8e3f0" stroke="none" stroke-width="0"/>
+<path d="M140 120 C 330 300 420 400 480 395 C 560 390 700 260 920 110" fill="none" stroke="#b03a2e" stroke-width="3"/>
+<path d="M140 535 C 420 530 560 470 920 280" fill="none" stroke="#3b6fa0" stroke-width="3"/>
+<line x1="140" y1="540" x2="920" y2="540" stroke="#24331b" stroke-width="2"/>
+<line x1="140" y1="540" x2="140" y2="80" stroke="#24331b" stroke-width="2"/>
+<text x="200" y="564" font-size="15" text-anchor="middle" fill="#24331b">klei</text>
+<text x="340" y="564" font-size="15" text-anchor="middle" fill="#24331b">silt</text>
+<text x="480" y="564" font-size="15" text-anchor="middle" fill="#24331b">zand</text>
+<text x="650" y="564" font-size="15" text-anchor="middle" fill="#24331b">grind</text>
+<text x="840" y="564" font-size="15" text-anchor="middle" fill="#24331b">keien</text>
+<text x="530" y="592" font-size="16" text-anchor="middle" fill="#24331b">korrelgrootte</text>
+<text x="80" y="310" font-size="16" text-anchor="middle" transform="rotate(-90 80 310)" fill="#2f4a22">stroomsnelheid</text>
+<circle cx="520" cy="170" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="520" y="177" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">X</text>
+<circle cx="360" cy="420" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="360" y="427" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">Y</text>
+<circle cx="760" cy="470" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="760" y="477" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">Z</text>
+</svg>

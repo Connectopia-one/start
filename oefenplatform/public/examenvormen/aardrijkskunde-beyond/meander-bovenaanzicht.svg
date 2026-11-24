@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Een meanderende rivier van bovenaf</text>
+<rect x="40" y="60" width="920" height="560" rx="0" fill="#dfe8c9" stroke="none" stroke-width="0"/>
+<path d="M40 520 C 200 520 220 160 400 160 C 580 160 600 480 760 480 C 860 480 900 300 960 300" fill="none" stroke="#9bc1df" stroke-width="48"/>
+<path d="M40 520 C 200 520 220 160 400 160 C 580 160 600 480 760 480 C 860 480 900 300 960 300" fill="none" stroke="#3b6fa0" stroke-width="2"/>
+<path d="M330 230 C 380 205 430 210 460 240 L 420 270 C 400 250 370 248 350 260 Z" fill="#f0dfa8" stroke="none" stroke-width="0"/>
+<path d="M690 410 C 730 430 770 430 800 410 L 790 380 C 770 395 740 395 710 380 Z" fill="#f0dfa8" stroke="none" stroke-width="0"/>
+<line x1="120" y1="470" x2="200" y2="400" stroke="#24331b" stroke-width="3"/>
+<polygon points="200,400 193.0,414.4 184.8,405.0" fill="#24331b"/>
+<text x="105" y="450" font-size="15" text-anchor="end" fill="#24331b">stroming</text>
+<circle cx="400" cy="105" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="400" y="112" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">K</text>
+<circle cx="760" cy="540" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="760" y="547" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">L</text>
+<circle cx="400" cy="230" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="400" y="237" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">M</text>
+<circle cx="750" cy="405" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="750" y="412" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">N</text>
+</svg>
