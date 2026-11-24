@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Drie alcoholen met vier koolstofatomen</text>
+<rect x="128" y="94" width="84" height="52" rx="10" fill="#fbf6ea" stroke="#24331b" stroke-width="2"/>
+<text x="170" y="129" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">CH₃</text>
+<rect x="128" y="184" width="84" height="52" rx="10" fill="#fbf6ea" stroke="#24331b" stroke-width="2"/>
+<text x="170" y="219" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">CH₂</text>
+<line x1="170" y1="146" x2="170" y2="184" stroke="#24331b" stroke-width="3"/>
+<rect x="128" y="274" width="84" height="52" rx="10" fill="#fbf6ea" stroke="#24331b" stroke-width="2"/>
+<text x="170" y="309" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">CH₂</text>
+<line x1="170" y1="236" x2="170" y2="274" stroke="#24331b" stroke-width="3"/>
+<rect x="128" y="364" width="84" height="52" rx="10" fill="#fbf6ea" stroke="#24331b" stroke-width="2"/>
+<text x="170" y="399" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">CH₂</text>
+<line x1="170" y1="326" x2="170" y2="364" stroke="#24331b" stroke-width="3"/>
+<line x1="212" y1="390" x2="250" y2="390" stroke="#24331b" stroke-width="3"/>
+<rect x="250" y="364" width="84" height="52" rx="10" fill="#f3c6d0" stroke="#24331b" stroke-width="2"/>
+<text x="292" y="399" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">OH</text>
+<rect x="458" y="94" width="84" height="52" rx="10" fill="#fbf6ea" stroke="#24331b" stroke-width="2"/>
+<text x="500" y="129" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">CH₃</text>
+<rect x="458" y="184" width="84" height="52" rx="10" fill="#fbf6ea" stroke="#24331b" stroke-width="2"/>
+<text x="500" y="219" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">CH</text>
+<line x1="500" y1="146" x2="500" y2="184" stroke="#24331b" stroke-width="3"/>
+<rect x="458" y="274" width="84" height="52" rx="10" fill="#fbf6ea" stroke="#24331b" stroke-width="2"/>
+<text x="500" y="309" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">CH₂</text>
+<line x1="500" y1="236" x2="500" y2="274" stroke="#24331b" stroke-width="3"/>
+<rect x="458" y="364" width="84" height="52" rx="10" fill="#fbf6ea" stroke="#24331b" stroke-width="2"/>
+<text x="500" y="399" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">CH₃</text>
+<line x1="500" y1="326" x2="500" y2="364" stroke="#24331b" stroke-width="3"/>
+<line x1="542" y1="210" x2="580" y2="210" stroke="#24331b" stroke-width="3"/>
+<rect x="580" y="184" width="84" height="52" rx="10" fill="#f3c6d0" stroke="#24331b" stroke-width="2"/>
+<text x="622" y="219" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">OH</text>
+<rect x="788" y="224" width="84" height="52" rx="10" fill="#fbf6ea" stroke="#24331b" stroke-width="2"/>
+<text x="830" y="259" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<rect x="788" y="104" width="84" height="52" rx="10" fill="#fbf6ea" stroke="#24331b" stroke-width="2"/>
+<text x="830" y="139" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">CH₃</text>
+<rect x="678" y="224" width="84" height="52" rx="10" fill="#fbf6ea" stroke="#24331b" stroke-width="2"/>
+<text x="720" y="259" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">CH₃</text>
+<rect x="788" y="344" width="84" height="52" rx="10" fill="#fbf6ea" stroke="#24331b" stroke-width="2"/>
+<text x="830" y="379" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">CH₃</text>
+<line x1="830" y1="156" x2="830" y2="224" stroke="#24331b" stroke-width="3"/>
+<line x1="762" y1="250" x2="788" y2="250" stroke="#24331b" stroke-width="3"/>
+<line x1="830" y1="276" x2="830" y2="344" stroke="#24331b" stroke-width="3"/>
+<line x1="872" y1="250" x2="898" y2="250" stroke="#24331b" stroke-width="3"/>
+<rect x="898" y="224" width="84" height="52" rx="10" fill="#f3c6d0" stroke="#24331b" stroke-width="2"/>
+<text x="940" y="259" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">OH</text>
+<circle cx="210" cy="540" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="210" y="547" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">P</text>
+<circle cx="540" cy="540" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="540" y="547" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">Q</text>
+<circle cx="840" cy="540" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="840" y="547" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">R</text>
+</svg>

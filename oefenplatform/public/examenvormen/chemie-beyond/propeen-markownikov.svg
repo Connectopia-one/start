@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Structuurformule van propeen</text>
+<rect x="170" y="280" width="120" height="70" rx="12" fill="#fbf6ea" stroke="#24331b" stroke-width="2"/>
+<text x="230" y="326" font-size="28" text-anchor="middle" fill="#24331b" font-weight="bold">CH₂</text>
+<circle cx="230" cy="430" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="230" y="437" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<rect x="440" y="280" width="120" height="70" rx="12" fill="#fbf6ea" stroke="#24331b" stroke-width="2"/>
+<text x="500" y="326" font-size="28" text-anchor="middle" fill="#24331b" font-weight="bold">CH</text>
+<circle cx="500" cy="430" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="500" y="437" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<rect x="710" y="280" width="120" height="70" rx="12" fill="#fbf6ea" stroke="#24331b" stroke-width="2"/>
+<text x="770" y="326" font-size="28" text-anchor="middle" fill="#24331b" font-weight="bold">CH₃</text>
+<circle cx="770" cy="430" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="770" y="437" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<line x1="290" y1="305" x2="440" y2="305" stroke="#24331b" stroke-width="3"/>
+<line x1="290" y1="325" x2="440" y2="325" stroke="#24331b" stroke-width="3"/>
+<line x1="560" y1="315" x2="710" y2="315" stroke="#24331b" stroke-width="3"/>
+<text x="500" y="200" font-size="28" text-anchor="middle" fill="#b03a2e" font-weight="bold">+ H–Br</text>
+</svg>
