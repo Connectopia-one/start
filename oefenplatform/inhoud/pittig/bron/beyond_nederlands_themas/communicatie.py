@@ -100,7 +100,7 @@ VRAGEN = [
         "Het doel ligt vooraf vast bij de zender. Het effect meet je achteraf bij de ontvanger.",
     ),
     koppel(
-        "Welk begrip hoort bij elke omschrijving?",
+        "Welk communicatiebegrip hoort bij elke omschrijving?",
         [
             ["Wat de zender wil bereiken", "Doel"],
             ["Wat de boodschap werkelijk teweegbrengt", "Effect"],
@@ -126,7 +126,7 @@ VRAGEN = [
                 "De omgeving kleurt hoe iets ontvangen wordt.",
             ),
             tabel(
-                "Klopt dit?",
+                "Klopt dit over deze communicatiesituatie?",
                 [
                     ("Dezelfde boodschap op een andere plek kan anders binnenkomen.", J),
                     ("Dezelfde boodschap kan bij twee kijkers een ander effect hebben.", J),

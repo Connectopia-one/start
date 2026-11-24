@@ -216,7 +216,7 @@ VRAGEN = [
         "Visuele hulpmiddelen wijzen je op de opbouw. De kantlijn zegt niets over de inhoud.",
     ),
     koppel(
-        "Welk begrip hoort bij elke omschrijving?",
+        "Welk begrip over de hoofdgedachte hoort bij elke omschrijving?",
         [
             ["Waarover de tekst gaat, in enkele woorden", "Onderwerp"],
             ["De belangrijkste boodschap, in één zin", "Hoofdgedachte"],

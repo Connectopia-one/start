@@ -88,7 +88,7 @@ VRAGEN = [
                 "Binnen de groep is jargon handig en precies; daarbuiten wordt het een muur.",
             ),
             tabel(
-                "Klopt dit?",
+                "Klopt dit over het taalgebruik?",
                 [
                     ("Vakjargon kan gezag uitstralen.", J),
                     ("Vakjargon is altijd fout.", F),
@@ -164,7 +164,7 @@ VRAGEN = [
         "Een te formeel register tussen vrienden klinkt koel of zelfs spottend.",
     ),
     koppel(
-        "Welk begrip hoort bij elke omschrijving?",
+        "Welk begrip over taalvariëteiten hoort bij elke omschrijving?",
         [
             ["De variëteit die overal in het taalgebied aanvaard is", "Standaardtaal"],
             ["Taal tussen dialect en standaardtaal in", "Tussentaal"],

@@ -155,7 +155,7 @@ VRAGEN = [
         "Op je telefoon kijken doet net het omgekeerde.",
     ),
     koppel(
-        "Welk begrip hoort bij elke omschrijving?",
+        "Welk begrip over taal en identiteit hoort bij elke omschrijving?",
         [
             ["De melodie en toonhoogte van een zin", "Intonatie"],
             ["Het duidelijk uitspreken van de klanken", "Articulatie"],
@@ -198,7 +198,7 @@ VRAGEN = [
         "Een vacature van een ziekenhuis luidt: \"Wij zoeken een verpleegkundige (m/v/x). Je werkt in een warm team waar iedereen welkom is.\" Een andere vacature: \"Wij zoeken een stevige kerel die van aanpakken weet.\"",
         [
             tabel(
-                "Klopt dit?",
+                "Klopt dit over de twee vacatures?",
                 [
                     ("De eerste vacature probeert iedereen aan te spreken.", J),
                     ("De tweede vacature sluit een deel van de lezers uit.", J),

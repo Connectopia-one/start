@@ -34,7 +34,7 @@ VRAGEN = [
                 "Het woord draagt een afkeurende bijklank mee.",
             ),
             tabel(
-                "Klopt dit?",
+                "Klopt dit over de betekenis van deze woorden?",
                 [
                     ("Denotatie is de kale betekenis.", J),
                     ("Connotatie is de bijklank van een woord.", J),

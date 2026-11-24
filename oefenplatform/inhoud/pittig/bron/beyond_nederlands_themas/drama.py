@@ -95,7 +95,7 @@ VRAGEN = [
                 "Het gesprek draait in cirkels en er gebeurt niets. Net die zinloosheid is het onderwerp.",
             ),
             tabel(
-                "Klopt dit over het fragment?",
+                "Klopt dit over het toneelfragment?",
                 [
                     ("Het is een dialoog.", J),
                     ("\"(stilte)\" is een aanwijzing voor de spelers.", J),

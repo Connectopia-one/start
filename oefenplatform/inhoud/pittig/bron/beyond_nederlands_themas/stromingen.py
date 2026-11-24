@@ -97,7 +97,7 @@ VRAGEN = [
                 "Kort, feitelijk en zonder sentiment: de taal van het verslag.",
             ),
             tabel(
-                "Klopt dit over het gedicht?",
+                "Klopt dit over het gedicht uit deze stroming?",
                 [
                     ("De taal is onopgesmukt.", J),
                     ("Er staan veel uitroepen van gevoel in.", F),

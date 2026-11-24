@@ -134,7 +134,7 @@ VRAGEN = [
         "Het verwijst terug naar buurvrouw en leidt de bijzin in.",
     ),
     tabel(
-        "Klopt dit?",
+        "Klopt dit over de woordsoorten?",
         [
             ("Een lidwoord hoort bij een zelfstandig naamwoord.", J),
             ("Een hulpwerkwoord kan alleen staan zonder ander werkwoord.", F),

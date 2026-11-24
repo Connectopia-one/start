@@ -117,7 +117,7 @@ VRAGEN = [
                 "De cijfers kloppen, maar het beeld misleidt. Een afgesneden as is de bekendste truc.",
             ),
             tabel(
-                "Klopt dit?",
+                "Klopt dit over deze bron?",
                 [
                     ("De cijfers in de grafiek kunnen correct zijn.", J),
                     ("De grafiek verandert de boodschap, niet enkel de vorm.", J),
@@ -128,7 +128,7 @@ VRAGEN = [
         ],
     ),
     koppel(
-        "Welk begrip hoort bij elke omschrijving?",
+        "Welk begrip over bronnen hoort bij elke omschrijving?",
         [
             ["Een bericht dat een politieke overtuiging wil opdringen", "Propaganda"],
             ["Een bericht dat je iets wil doen kopen", "Reclame"],

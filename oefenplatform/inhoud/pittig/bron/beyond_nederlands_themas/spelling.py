@@ -155,7 +155,7 @@ VRAGEN = [
         "Zo lees je het getal en niet het lidwoord.",
     ),
     tabel(
-        "Klopt dit?",
+        "Klopt dit over spelling en leestekens?",
         [
             ("Spelling volgt altijd precies de uitspraak.", F),
             ("Een trema en een accent zijn hetzelfde teken.", F),

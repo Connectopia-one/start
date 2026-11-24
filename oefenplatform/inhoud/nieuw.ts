@@ -41,6 +41,12 @@ export const nieuwTekst = {
 export const updates: Update[] = [
   {
     datum: "24 november 2026",
+    titel: "Pittige hoofdstukken Nederlands in Beyond doorstroom",
+    tekst:
+      "Nederlands in Beyond doorstroom heeft nu bij elk van de 21 onderwerpen een pittig hoofdstuk van 30 vragen, in examenvorm: van tekstsoorten en argumentatie tot poëzie, stijlfiguren, zinsbouw, schrijven en spreken. Je werkt met korte teksten, gedichten en toneelfragmenten. We zetten ook een vraag over het woordje 'zich' recht: dat is een wederkerend voornaamwoord, wederkerig is 'elkaar'.",
+  },
+  {
+    datum: "24 november 2026",
     titel: "Pittige hoofdstukken geschiedenis in Boost en Beyond dubbele finaliteit",
     tekst:
       "Geschiedenis in Boost dubbele finaliteit heeft nu bij elk van de 11 onderwerpen een pittig hoofdstuk van 30 vragen, in examenvorm: van Rome en de middeleeuwse stad tot de driehoekshandel, de Verlichting en het werken met bronnen. Ook Beyond dubbele finaliteit heeft er nu een bij elk van de 21 onderwerpen, van het Congres van Wenen en Congo tot China, de Koude Oorlog en beeldvorming. Met tijdlijnen, kaarten en kunstwerken waarop je moet klikken.",
