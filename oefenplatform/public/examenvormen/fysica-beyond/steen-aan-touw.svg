@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Een steen aan een touw draait tegen de wijzers van de klok in, van bovenaf gezien</text>
+<circle cx="420" cy="340" r="200" fill="none" stroke="#9a9a9a" stroke-width="2" stroke-dasharray="8 6"/>
+<circle cx="420" cy="340" r="16" fill="#f3e3c8" stroke="#24331b" stroke-width="2"/>
+<line x1="420" y1="340" x2="620" y2="340" stroke="#24331b" stroke-width="2"/>
+<path d="M 298.8 270.0 A 140 140 0 0 0 298.8 410.0" fill="none" stroke="#2f4a22" stroke-width="3"/>
+<line x1="293.116909814869" y1="399.16655664369796" x2="300.75644347017857" y2="416.0" stroke="#2f4a22" stroke-width="3"/>
+<polygon points="300.75644347017857,416.0 289.0,405.2 300.3,400.0" fill="#2f4a22"/>
+<circle cx="620" cy="340" r="18" fill="#d9d4c4" stroke="#24331b" stroke-width="2"/>
+<line x1="620" y1="318" x2="620" y2="190" stroke="#b5651d" stroke-width="5"/>
+<polygon points="620,190 626.2,204.7 613.8,204.7" fill="#b5651d"/>
+<circle cx="648" cy="160" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="648" y="167" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<line x1="598" y1="340" x2="470" y2="340" stroke="#b5651d" stroke-width="5"/>
+<polygon points="470,340 484.7,333.8 484.7,346.2" fill="#b5651d"/>
+<circle cx="510" cy="376" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="510" y="383" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<line x1="642" y1="340" x2="770" y2="340" stroke="#b5651d" stroke-width="5"/>
+<polygon points="770,340 755.3,346.2 755.3,333.8" fill="#b5651d"/>
+<circle cx="800" cy="312" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="800" y="319" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<line x1="620" y1="362" x2="620" y2="490" stroke="#b5651d" stroke-width="5"/>
+<polygon points="620,490 613.8,475.3 626.2,475.3" fill="#b5651d"/>
+<circle cx="648" cy="520" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="648" y="527" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">D</text>
+</svg>
