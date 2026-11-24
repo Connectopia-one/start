@@ -41,7 +41,7 @@ VRAGEN = kies(D.VRAGEN, [0, 1, 2, 6, 7, 9, 10]) + [
         ("DNA bevat desoxyribose, RNA bevat ribose.", J), ("RNA bestaat uit twee strengen.", F),
         ("In RNA staat uracil in plaats van thymine.", J), ("Het mRNA brengt de code naar het ribosoom.", J),
     ], "RNA heeft maar één streng."),
-    tabel("Erfelijk of niet erfelijk?", [
+    tabel("Is dit kenmerk erfelijk?", [
         ("je bloedgroep", "erfelijk"), ("een litteken van een val", "niet erfelijk"),
         ("mucoviscidose", "erfelijk"), ("gespierde benen door veel te fietsen", "niet erfelijk"),
     ], "Enkel wat in het DNA van de geslachtscellen staat, is erfelijk.", kolommen=["erfelijk", "niet erfelijk"]),
