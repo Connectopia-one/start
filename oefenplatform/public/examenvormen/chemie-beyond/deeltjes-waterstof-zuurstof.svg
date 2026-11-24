@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Een mengsel van waterstofgas en zuurstofgas, voor en na de reactie</text>
+<rect x="30" y="150" width="200" height="260" rx="14" fill="#fbfbf7" stroke="#24331b" stroke-width="2"/>
+<text x="130" y="138" font-size="18" text-anchor="middle" fill="#24331b" font-weight="bold">voor</text>
+<circle cx="71" cy="200" r="10" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<circle cx="89" cy="200" r="10" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<circle cx="161" cy="230" r="10" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<circle cx="179" cy="230" r="10" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<circle cx="81" cy="300" r="10" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<circle cx="99" cy="300" r="10" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<circle cx="171" cy="330" r="10" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<circle cx="189" cy="330" r="10" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<circle cx="118" cy="380" r="14" fill="#e57373" stroke="#24331b" stroke-width="2"/>
+<circle cx="142" cy="380" r="14" fill="#e57373" stroke="#24331b" stroke-width="2"/>
+<circle cx="63" cy="250" r="14" fill="#e57373" stroke="#24331b" stroke-width="2"/>
+<circle cx="87" cy="250" r="14" fill="#e57373" stroke="#24331b" stroke-width="2"/>
+<circle cx="163" cy="285" r="14" fill="#e57373" stroke="#24331b" stroke-width="2"/>
+<circle cx="187" cy="285" r="14" fill="#e57373" stroke="#24331b" stroke-width="2"/>
+<line x1="240" y1="280" x2="290" y2="280" stroke="#24331b" stroke-width="3"/>
+<polygon points="290,280 275.3,286.2 275.3,273.8" fill="#24331b"/>
+<rect x="310" y="150" width="200" height="260" rx="14" fill="#fbfbf7" stroke="#24331b" stroke-width="2"/>
+<text x="410" y="138" font-size="18" text-anchor="middle" fill="#24331b" font-weight="bold">na: P</text>
+<circle cx="354" cy="212" r="9" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<circle cx="386" cy="212" r="9" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<circle cx="370" cy="200" r="14" fill="#e57373" stroke="#24331b" stroke-width="2"/>
+<circle cx="434" cy="222" r="9" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<circle cx="466" cy="222" r="9" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<circle cx="450" cy="210" r="14" fill="#e57373" stroke="#24331b" stroke-width="2"/>
+<circle cx="354" cy="292" r="9" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<circle cx="386" cy="292" r="9" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<circle cx="370" cy="280" r="14" fill="#e57373" stroke="#24331b" stroke-width="2"/>
+<circle cx="434" cy="302" r="9" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<circle cx="466" cy="302" r="9" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<circle cx="450" cy="290" r="14" fill="#e57373" stroke="#24331b" stroke-width="2"/>
+<circle cx="358" cy="365" r="14" fill="#e57373" stroke="#24331b" stroke-width="2"/>
+<circle cx="382" cy="365" r="14" fill="#e57373" stroke="#24331b" stroke-width="2"/>
+<circle cx="410" cy="460" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="410" y="467" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">P</text>
+<rect x="540" y="150" width="200" height="260" rx="14" fill="#fbfbf7" stroke="#24331b" stroke-width="2"/>
+<text x="640" y="138" font-size="18" text-anchor="middle" fill="#24331b" font-weight="bold">na: Q</text>
+<circle cx="584" cy="212" r="9" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<circle cx="616" cy="212" r="9" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<circle cx="600" cy="200" r="14" fill="#e57373" stroke="#24331b" stroke-width="2"/>
+<circle cx="664" cy="222" r="9" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<circle cx="696" cy="222" r="9" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<circle cx="680" cy="210" r="14" fill="#e57373" stroke="#24331b" stroke-width="2"/>
+<circle cx="588" cy="280" r="14" fill="#e57373" stroke="#24331b" stroke-width="2"/>
+<circle cx="612" cy="280" r="14" fill="#e57373" stroke="#24331b" stroke-width="2"/>
+<circle cx="668" cy="290" r="14" fill="#e57373" stroke="#24331b" stroke-width="2"/>
+<circle cx="692" cy="290" r="14" fill="#e57373" stroke="#24331b" stroke-width="2"/>
+<circle cx="591" cy="365" r="10" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<circle cx="609" cy="365" r="10" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<circle cx="671" cy="365" r="10" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<circle cx="689" cy="365" r="10" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<circle cx="640" cy="460" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="640" y="467" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">Q</text>
+<rect x="770" y="150" width="200" height="260" rx="14" fill="#fbfbf7" stroke="#24331b" stroke-width="2"/>
+<text x="870" y="138" font-size="18" text-anchor="middle" fill="#24331b" font-weight="bold">na: R</text>
+<circle cx="814" cy="212" r="9" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<circle cx="846" cy="212" r="9" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<circle cx="830" cy="200" r="14" fill="#e57373" stroke="#24331b" stroke-width="2"/>
+<circle cx="894" cy="222" r="9" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<circle cx="926" cy="222" r="9" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<circle cx="910" cy="210" r="14" fill="#e57373" stroke="#24331b" stroke-width="2"/>
+<circle cx="814" cy="292" r="9" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<circle cx="846" cy="292" r="9" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<circle cx="830" cy="280" r="14" fill="#e57373" stroke="#24331b" stroke-width="2"/>
+<circle cx="894" cy="302" r="9" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<circle cx="926" cy="302" r="9" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<circle cx="910" cy="290" r="14" fill="#e57373" stroke="#24331b" stroke-width="2"/>
+<circle cx="870" cy="460" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="870" y="467" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">R</text>
+<circle cx="560" cy="560" r="10" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="578" y="566" font-size="16" text-anchor="start" fill="#24331b">H</text>
+<circle cx="640" cy="560" r="13" fill="#e57373" stroke="#24331b" stroke-width="2"/>
+<text x="660" y="566" font-size="16" text-anchor="start" fill="#24331b">O</text>
+</svg>
