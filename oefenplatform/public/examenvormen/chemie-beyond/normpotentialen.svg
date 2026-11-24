@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Een stuk uit de tabel van normpotentialen</text>
+<rect x="140" y="80" width="720" height="50" rx="8" fill="#e8f0e0" stroke="#24331b" stroke-width="2"/>
+<text x="260" y="113" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">oxidator</text>
+<text x="500" y="113" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">reductor</text>
+<text x="740" y="113" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">E⁰ (V)</text>
+<rect x="140" y="140" width="720" height="56" rx="6" fill="#fbf6ea" stroke="#d9d4c4" stroke-width="1"/>
+<text x="260" y="177" font-size="24" text-anchor="middle" fill="#24331b" font-weight="bold">Cl₂</text>
+<text x="380" y="177" font-size="18" text-anchor="middle" fill="#24331b">+ ne⁻ ⇌</text>
+<text x="500" y="177" font-size="24" text-anchor="middle" fill="#24331b" font-weight="bold">Cl⁻</text>
+<text x="740" y="177" font-size="22" text-anchor="middle" fill="#24331b">+1,36</text>
+<rect x="140" y="202" width="720" height="56" rx="6" fill="#ffffff" stroke="#d9d4c4" stroke-width="1"/>
+<text x="260" y="239" font-size="24" text-anchor="middle" fill="#24331b" font-weight="bold">Ag⁺</text>
+<text x="380" y="239" font-size="18" text-anchor="middle" fill="#24331b">+ ne⁻ ⇌</text>
+<text x="500" y="239" font-size="24" text-anchor="middle" fill="#24331b" font-weight="bold">Ag</text>
+<text x="740" y="239" font-size="22" text-anchor="middle" fill="#24331b">+0,80</text>
+<rect x="140" y="264" width="720" height="56" rx="6" fill="#fbf6ea" stroke="#d9d4c4" stroke-width="1"/>
+<text x="260" y="301" font-size="24" text-anchor="middle" fill="#24331b" font-weight="bold">Cu²⁺</text>
+<text x="380" y="301" font-size="18" text-anchor="middle" fill="#24331b">+ ne⁻ ⇌</text>
+<text x="500" y="301" font-size="24" text-anchor="middle" fill="#24331b" font-weight="bold">Cu</text>
+<text x="740" y="301" font-size="22" text-anchor="middle" fill="#24331b">+0,34</text>
+<rect x="140" y="326" width="720" height="56" rx="6" fill="#ffffff" stroke="#d9d4c4" stroke-width="1"/>
+<text x="260" y="363" font-size="24" text-anchor="middle" fill="#24331b" font-weight="bold">H₃O⁺</text>
+<text x="380" y="363" font-size="18" text-anchor="middle" fill="#24331b">+ ne⁻ ⇌</text>
+<text x="500" y="363" font-size="24" text-anchor="middle" fill="#24331b" font-weight="bold">H₂</text>
+<text x="740" y="363" font-size="22" text-anchor="middle" fill="#24331b">0,00</text>
+<rect x="140" y="388" width="720" height="56" rx="6" fill="#fbf6ea" stroke="#d9d4c4" stroke-width="1"/>
+<text x="260" y="425" font-size="24" text-anchor="middle" fill="#24331b" font-weight="bold">Fe²⁺</text>
+<text x="380" y="425" font-size="18" text-anchor="middle" fill="#24331b">+ ne⁻ ⇌</text>
+<text x="500" y="425" font-size="24" text-anchor="middle" fill="#24331b" font-weight="bold">Fe</text>
+<text x="740" y="425" font-size="22" text-anchor="middle" fill="#24331b">−0,44</text>
+<rect x="140" y="450" width="720" height="56" rx="6" fill="#ffffff" stroke="#d9d4c4" stroke-width="1"/>
+<text x="260" y="487" font-size="24" text-anchor="middle" fill="#24331b" font-weight="bold">Zn²⁺</text>
+<text x="380" y="487" font-size="18" text-anchor="middle" fill="#24331b">+ ne⁻ ⇌</text>
+<text x="500" y="487" font-size="24" text-anchor="middle" fill="#24331b" font-weight="bold">Zn</text>
+<text x="740" y="487" font-size="22" text-anchor="middle" fill="#24331b">−0,76</text>
+<rect x="140" y="512" width="720" height="56" rx="6" fill="#fbf6ea" stroke="#d9d4c4" stroke-width="1"/>
+<text x="260" y="549" font-size="24" text-anchor="middle" fill="#24331b" font-weight="bold">Mg²⁺</text>
+<text x="380" y="549" font-size="18" text-anchor="middle" fill="#24331b">+ ne⁻ ⇌</text>
+<text x="500" y="549" font-size="24" text-anchor="middle" fill="#24331b" font-weight="bold">Mg</text>
+<text x="740" y="549" font-size="22" text-anchor="middle" fill="#24331b">−2,37</text>
+</svg>

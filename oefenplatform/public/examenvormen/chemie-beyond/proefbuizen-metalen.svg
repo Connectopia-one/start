@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Drie proefbuizen: een metaalstrip in een oplossing</text>
+<path d="M 175 120 L 175 430 Q 175 475 220 475 Q 265 475 265 430 L 265 120" fill="#ffffff" stroke="#24331b" stroke-width="3"/>
+<path d="M 177 260 L 177 430 Q 177 473 220 473 Q 263 473 263 430 L 263 260 Z" fill="#bcd9ee" stroke="none" stroke-width="0"/>
+<rect x="210" y="90" width="20" height="300" rx="3" fill="#b9b6ad" stroke="#24331b" stroke-width="2"/>
+<text x="220" y="515" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">Zn in CuSO₄</text>
+<circle cx="220" cy="570" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="220" y="577" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">P</text>
+<path d="M 455 120 L 455 430 Q 455 475 500 475 Q 545 475 545 430 L 545 120" fill="#ffffff" stroke="#24331b" stroke-width="3"/>
+<path d="M 457 260 L 457 430 Q 457 473 500 473 Q 543 473 543 430 L 543 260 Z" fill="#f4f9fd" stroke="none" stroke-width="0"/>
+<rect x="490" y="90" width="20" height="300" rx="3" fill="#d08a4e" stroke="#24331b" stroke-width="2"/>
+<text x="500" y="515" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">Cu in ZnSO₄</text>
+<circle cx="500" cy="570" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="500" y="577" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">Q</text>
+<path d="M 735 120 L 735 430 Q 735 475 780 475 Q 825 475 825 430 L 825 120" fill="#ffffff" stroke="#24331b" stroke-width="3"/>
+<path d="M 737 260 L 737 430 Q 737 473 780 473 Q 823 473 823 430 L 823 260 Z" fill="#f4f9fd" stroke="none" stroke-width="0"/>
+<rect x="770" y="90" width="20" height="300" rx="3" fill="#b9b6ad" stroke="#24331b" stroke-width="2"/>
+<text x="780" y="515" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">Ag in HCl</text>
+<circle cx="780" cy="570" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="780" y="577" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">R</text>
+</svg>
