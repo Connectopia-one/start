@@ -8,7 +8,7 @@ from ._kies import kies
 VRAGEN = kies(B.VRAGEN, [4, 13]) + [
     casus(
         "Op een doos ontbijtgranen staat per \\(100\\) g: energie \\(1600\\) kJ, vet \\(4\\) g waarvan verzadigd \\(1\\) g, koolhydraten \\(75\\) g waarvan suikers \\(30\\) g, "
-        "vezels \\(5\\) g, eiwit \\(8\\) g, zout \\(0{,}6\\) g. De ingrediëntenlijst begint met: tarwebloem, suiker, maïs, ... (kan sporen van **noten** bevatten). Een kom bevat \\(40\\) g.",
+        "vezels \\(5\\) g, eiwit \\(8\\) g, zout \\(0{,}6\\) g. De ingrediëntenlijst begint met: tarwebloem, suiker, maïs, ... (kan sporen van NOTEN bevatten). Een kom bevat \\(40\\) g.",
         [
             inv("Hoeveel gram suiker eet je met één kom?", ["12", "12 g", "12 gram"], "\\(30 \\cdot 0{,}4 = 12\\) g."),
             inv("Hoeveel kilojoule levert één kom?", ["640", "640 kJ", "640 kilojoule"], "\\(1600 \\cdot 0{,}4 = 640\\) kJ."),
