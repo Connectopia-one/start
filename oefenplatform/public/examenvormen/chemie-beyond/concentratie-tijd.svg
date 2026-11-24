@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Concentratie van een reagens en een product tijdens een reactie</text>
+<line x1="130.0" y1="90" x2="130.0" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="130.0" y="564" font-size="15" text-anchor="middle" fill="#24331b">0</text>
+<line x1="207.0" y1="90" x2="207.0" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="207.0" y="564" font-size="15" text-anchor="middle" fill="#24331b">10</text>
+<line x1="284.0" y1="90" x2="284.0" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="284.0" y="564" font-size="15" text-anchor="middle" fill="#24331b">20</text>
+<line x1="361.0" y1="90" x2="361.0" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="361.0" y="564" font-size="15" text-anchor="middle" fill="#24331b">30</text>
+<line x1="438.0" y1="90" x2="438.0" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="438.0" y="564" font-size="15" text-anchor="middle" fill="#24331b">40</text>
+<line x1="515.0" y1="90" x2="515.0" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="515.0" y="564" font-size="15" text-anchor="middle" fill="#24331b">50</text>
+<line x1="592.0" y1="90" x2="592.0" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="592.0" y="564" font-size="15" text-anchor="middle" fill="#24331b">60</text>
+<line x1="669.0" y1="90" x2="669.0" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="669.0" y="564" font-size="15" text-anchor="middle" fill="#24331b">70</text>
+<line x1="746.0" y1="90" x2="746.0" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="746.0" y="564" font-size="15" text-anchor="middle" fill="#24331b">80</text>
+<line x1="823.0" y1="90" x2="823.0" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="823.0" y="564" font-size="15" text-anchor="middle" fill="#24331b">90</text>
+<line x1="900.0" y1="90" x2="900.0" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="900.0" y="564" font-size="15" text-anchor="middle" fill="#24331b">100</text>
+<line x1="130" y1="540.0" x2="900" y2="540.0" stroke="#e4e1d6" stroke-width="1"/>
+<text x="120" y="545.0" font-size="15" text-anchor="end" fill="#24331b">0</text>
+<line x1="130" y1="450.0" x2="900" y2="450.0" stroke="#e4e1d6" stroke-width="1"/>
+<text x="120" y="455.0" font-size="15" text-anchor="end" fill="#24331b">0,2</text>
+<line x1="130" y1="360.0" x2="900" y2="360.0" stroke="#e4e1d6" stroke-width="1"/>
+<text x="120" y="365.0" font-size="15" text-anchor="end" fill="#24331b">0,4</text>
+<line x1="130" y1="269.99999999999994" x2="900" y2="269.99999999999994" stroke="#e4e1d6" stroke-width="1"/>
+<text x="120" y="274.99999999999994" font-size="15" text-anchor="end" fill="#24331b">0,6</text>
+<line x1="130" y1="180.0" x2="900" y2="180.0" stroke="#e4e1d6" stroke-width="1"/>
+<text x="120" y="185.0" font-size="15" text-anchor="end" fill="#24331b">0,8</text>
+<line x1="130" y1="90.0" x2="900" y2="90.0" stroke="#e4e1d6" stroke-width="1"/>
+<text x="120" y="95.0" font-size="15" text-anchor="end" fill="#24331b">1</text>
+<line x1="130" y1="540.0" x2="910" y2="540.0" stroke="#24331b" stroke-width="2"/>
+<line x1="130" y1="540" x2="130" y2="80" stroke="#24331b" stroke-width="2"/>
+<text x="905" y="530.0" font-size="16" text-anchor="end" fill="#24331b">t (s)</text>
+<text x="122" y="70" font-size="16" text-anchor="start" fill="#24331b">c (mol/L)</text>
+<path d="M 130.0 180.0 L 137.7 194.1 L 145.4 207.7 L 153.1 220.7 L 160.8 233.2 L 168.5 245.3 L 176.2 256.8 L 183.9 267.9 L 191.6 278.6 L 199.3 288.8 L 207.0 298.7 L 214.7 308.1 L 222.4 317.2 L 230.1 326.0 L 237.8 334.4 L 245.5 342.4 L 253.2 350.2 L 260.9 357.6 L 268.6 364.8 L 276.3 371.6 L 284.0 378.2 L 291.7 384.6 L 299.4 390.7 L 307.1 396.5 L 314.8 402.2 L 322.5 407.6 L 330.2 412.8 L 337.9 417.7 L 345.6 422.5 L 353.3 427.1 L 361.0 431.6 L 368.7 435.8 L 376.4 439.9 L 384.1 443.8 L 391.8 447.6 L 399.5 451.2 L 407.2 454.7 L 414.9 458.1 L 422.6 461.3 L 430.3 464.4 L 438.0 467.3 L 445.7 470.2 L 453.4 472.9 L 461.1 475.5 L 468.8 478.1 L 476.5 480.5 L 484.2 482.8 L 491.9 485.1 L 499.6 487.2 L 507.3 489.3 L 515.0 491.3 L 522.7 493.2 L 530.4 495.0 L 538.1 496.8 L 545.8 498.5 L 553.5 500.1 L 561.2 501.7 L 568.9 503.2 L 576.6 504.6 L 584.3 506.0 L 592.0 507.3 L 599.7 508.6 L 607.4 509.9 L 615.1 511.0 L 622.8 512.2 L 630.5 513.3 L 638.2 514.3 L 645.9 515.3 L 653.6 516.3 L 661.3 517.2 L 669.0 518.1 L 676.7 519.0 L 684.4 519.8 L 692.1 520.6 L 699.8 521.3 L 707.5 522.1 L 715.2 522.8 L 722.9 523.5 L 730.6 524.1 L 738.3 524.7 L 746.0 525.3 L 753.7 525.9 L 761.4 526.5 L 769.1 527.0 L 776.8 527.5 L 784.5 528.0 L 792.2 528.5 L 799.9 528.9 L 807.6 529.3 L 815.3 529.8 L 823.0 530.2 L 830.7 530.5 L 838.4 530.9 L 846.1 531.3 L 853.8 531.6 L 861.5 531.9 L 869.2 532.3 L 876.9 532.6 L 884.6 532.9 L 892.3 533.1 L 900.0 533.4" fill="none" stroke="#3b6fa0" stroke-width="4"/>
+<path d="M 130.0 540.0 L 137.7 525.9 L 145.4 512.3 L 153.1 499.3 L 160.8 486.8 L 168.5 474.7 L 176.2 463.2 L 183.9 452.1 L 191.6 441.4 L 199.3 431.2 L 207.0 421.3 L 214.7 411.9 L 222.4 402.8 L 230.1 394.0 L 237.8 385.6 L 245.5 377.6 L 253.2 369.8 L 260.9 362.4 L 268.6 355.2 L 276.3 348.4 L 284.0 341.8 L 291.7 335.4 L 299.4 329.3 L 307.1 323.5 L 314.8 317.8 L 322.5 312.4 L 330.2 307.2 L 337.9 302.3 L 345.6 297.5 L 353.3 292.9 L 361.0 288.4 L 368.7 284.2 L 376.4 280.1 L 384.1 276.2 L 391.8 272.4 L 399.5 268.8 L 407.2 265.3 L 414.9 261.9 L 422.6 258.7 L 430.3 255.6 L 438.0 252.7 L 445.7 249.8 L 453.4 247.1 L 461.1 244.5 L 468.8 241.9 L 476.5 239.5 L 484.2 237.2 L 491.9 234.9 L 499.6 232.8 L 507.3 230.7 L 515.0 228.7 L 522.7 226.8 L 530.4 225.0 L 538.1 223.2 L 545.8 221.5 L 553.5 219.9 L 561.2 218.3 L 568.9 216.8 L 576.6 215.4 L 584.3 214.0 L 592.0 212.7 L 599.7 211.4 L 607.4 210.1 L 615.1 209.0 L 622.8 207.8 L 630.5 206.7 L 638.2 205.7 L 645.9 204.7 L 653.6 203.7 L 661.3 202.8 L 669.0 201.9 L 676.7 201.0 L 684.4 200.2 L 692.1 199.4 L 699.8 198.7 L 707.5 197.9 L 715.2 197.2 L 722.9 196.5 L 730.6 195.9 L 738.3 195.3 L 746.0 194.7 L 753.7 194.1 L 761.4 193.5 L 769.1 193.0 L 776.8 192.5 L 784.5 192.0 L 792.2 191.5 L 799.9 191.1 L 807.6 190.7 L 815.3 190.2 L 823.0 189.8 L 830.7 189.5 L 838.4 189.1 L 846.1 188.7 L 853.8 188.4 L 861.5 188.1 L 869.2 187.7 L 876.9 187.4 L 884.6 187.1 L 892.3 186.9 L 900.0 186.6" fill="none" stroke="#b5651d" stroke-width="4"/>
+<text x="515.0" y="463.5" font-size="17" text-anchor="middle" fill="#3b6fa0" font-weight="bold">reagens</text>
+<text x="669.0" y="171.0" font-size="17" text-anchor="middle" fill="#b5651d" font-weight="bold">product</text>
+<circle cx="145.4" cy="207.6781153008111" r="7" fill="#e8c547" stroke="#24331b" stroke-width="2"/>
+<circle cx="175.4" cy="179.6781153008111" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="175.4" y="186.6781153008111" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">P</text>
+<circle cx="322.5" cy="407.56340117828074" r="7" fill="#e8c547" stroke="#24331b" stroke-width="2"/>
+<circle cx="352.5" cy="379.56340117828074" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="352.5" y="386.56340117828074" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">Q</text>
+<circle cx="707.5" cy="522.076655387569" r="7" fill="#e8c547" stroke="#24331b" stroke-width="2"/>
+<circle cx="737.5" cy="494.07665538756896" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="737.5" y="501.07665538756896" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">R</text>
+</svg>
