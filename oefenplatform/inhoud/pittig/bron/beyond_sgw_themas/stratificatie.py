@@ -58,7 +58,7 @@ VRAGEN = [
         "Dahrendorf en het gezag",
         "Bourdieu en het kapitaal"], 0,
        "Het veronderstelt dat de geschiktste mensen de belangrijkste functies krijgen."),
-    tabel("Klopt dit?", [
+    tabel("Klopt dit over stratificatie?", [
         ("Volgens Bourdieu kan het ene kapitaal in het andere omgezet worden.", J),
         ("De EGP-indeling en de klassen van Marx zijn dezelfde indeling.", F),
         ("De SES van een gezin hangt samen met de schoolresultaten van de kinderen.", J),

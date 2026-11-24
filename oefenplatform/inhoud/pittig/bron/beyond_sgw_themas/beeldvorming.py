@@ -63,7 +63,7 @@ VRAGEN = [
                "Een selectieproces kan niet vermeden worden."),
         ],
     ),
-    tabel("Klopt dit?", [
+    tabel("Klopt dit over beeldvorming?", [
         ("Framing kan gebeuren zonder dat de journalist het bewust doet.", J),
         ("De vijf mediatheorieën spreken elkaar volledig tegen.", F),
         ("De functionalistische mediatheorie gaat uit van een passief publiek.", F),

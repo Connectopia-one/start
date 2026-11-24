@@ -108,7 +108,7 @@ VRAGEN = [
         "bij inwilliging gaat het om een groep",
         "bij conformisme komt de druk van boven"], 0,
        "Bij conformisme vraagt niemand iets."),
-    tabel("Klopt dit?", [
+    tabel("Klopt dit over sociale beïnvloeding?", [
         ("Milgram en Zimbardo tonen dat enkel slechte mensen zo handelen.", F),
         ("Beide experimenten zouden vandaag niet meer zo mogen.", J),
         ("Beïnvloedingstechnieken werken mee omdat mensen hun ja achteraf goedpraten.", J),

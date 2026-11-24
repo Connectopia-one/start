@@ -63,7 +63,7 @@ VRAGEN = [
        "Daarom houd je positie, rol, status en macht apart."),
     keuze("Volgens Mead ontstaat het zelf [[*in de omgang met anderen via symbolen zoals taal|enkel door de genen|door de instellingen van de staat]].",
           "Symbolen en interactie: symbolisch interactionisme."),
-    tabel("Klopt dit?", [
+    tabel("Klopt dit over socialisatie?", [
         ("Een sociale rol wordt bepaald door wat de omgeving verwacht.", J),
         ("Sociale positie en sociale status betekenen hetzelfde.", F),
         ("Een referentiegroep is altijd de groep met de hoogste status.", F),

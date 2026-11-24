@@ -92,7 +92,7 @@ VRAGEN = [
         ["permissief", "weinig controle, veel responsiviteit"],
         ["onverschillig", "weinig controle, weinig responsiviteit"],
     ], ["enkel psychologische controle"], "Een stijl is een combinatie van dimensies."),
-    tabel("Klopt dit?", [
+    tabel("Klopt dit over opvoeden?", [
         ("Het tertiaire milieu heeft geen invloed, want het heeft geen opdracht.", F),
         ("Wat op school gebeurt, werkt thuis door.", J),
         ("Straffen is een van de opvoedingsmiddelen.", J),

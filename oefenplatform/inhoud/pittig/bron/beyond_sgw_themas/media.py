@@ -101,7 +101,7 @@ VRAGEN = [
     ),
     keuze("Dezelfde uitzending kan voor het individu ontspanning zijn en voor de samenleving [[*cultuuroverdracht|een waakhond|persuasie]].",
           "De twee lijsten kijken van een andere kant."),
-    tabel("Klopt dit?", [
+    tabel("Klopt dit over de functies van media?", [
         ("De persuasieve en de commerciële functie zijn hetzelfde.", F),
         ("Mediatisering speelt in verschillende velden, niet alleen in de politiek.", J),
         ("De media hebben als vierde macht een wettelijke bevoegdheid.", F),

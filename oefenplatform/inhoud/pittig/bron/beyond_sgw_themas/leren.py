@@ -108,7 +108,7 @@ VRAGEN = [
         ["de Skinner-box", "Behavioristisch"],
         ["het formeel-operationele stadium", "Cognitief"],
     ], "Het behaviorisme kijkt naar zichtbaar gedrag, de cognitieve benadering naar wat in het hoofd gebeurt."),
-    tabel("Klopt dit over de basisvragen?", [
+    tabel("Klopt dit over de basisvragen bij het behaviorisme en Piaget?", [
         ("Het behaviorisme legt de nadruk op nurture.", J),
         ("Piaget geeft een discontinu antwoord, want hij werkt met stadia.", J),
         ("Bandura en Skinner leggen allebei sterk de nadruk op nature.", F),

@@ -113,7 +113,7 @@ VRAGEN = [
           "Drie zaken bij de situatietypes."),
     sleep("Kwaliteit van bestaan heeft drie grote delen: [[onafhankelijkheid]], sociale participatie en [[welbevinden]].",
           ["draaglast", "responsiviteit"], "Schalock en Verdugo."),
-    tabel("Klopt dit?", [
+    tabel("Klopt dit over pedagogische modellen?", [
         ("Een risicofactor maakt problemen zeker.", F),
         ("Een bijzondere context raakt ook de opvoeders en de omgeving.", J),
         ("Kwaliteit van bestaan kijkt enkel naar de gezondheid.", F),

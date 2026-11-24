@@ -61,7 +61,7 @@ VRAGEN = [
                "Het fysieke domein werkt in op het socio-emotionele: de domeinen staan in wisselwerking."),
         ],
     ),
-    tabel("Klopt dit over de basisvragen?", [
+    tabel("Klopt dit over de drie basisvragen?", [
         ("Een stadiumtheorie ziet ontwikkeling als discontinu.", J),
         ("Wat in elke cultuur in dezelfde orde gebeurt, wijst op een universele factor.", J),
         ("Zelfbepaling betekent dat je genen alles bepalen.", F),
@@ -81,7 +81,7 @@ VRAGEN = [
        "Beetje bij beetje is continu."),
     sleep("Ontwikkeling is een combinatie van groeien, [[rijpen]] en leren. Rijpen komt van [[binnenuit]], leren komt door [[ervaring]].",
           ["buitenaf", "toeval"], "Rijpen volgt een vaste biologische orde."),
-    tabel("Waar of niet waar?", [
+    tabel("Waar of niet waar over fasen en rijpen?", [
         ("Je kan een domein door verschillende levensloopfasen heen volgen.", J),
         ("De prenatale fase is de eerste van de negen fasen.", J),
         ("Een baby leert sneller stappen als je hem elke dag laat oefenen voor zijn benen er klaar voor zijn.", F),

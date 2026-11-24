@@ -103,7 +103,7 @@ VRAGEN = [
         "een as heeft altijd precies vijf punten",
         "iedereen is volledig introvert of extravert"], 0,
        "Niemand is volledig introvert of volledig extravert."),
-    tabel("Klopt dit?", [
+    tabel("Klopt dit over trekken?", [
         ("HEXACO verwerpt de Big Five volledig.", F),
         ("Een hoge score op neuroticisme betekent een ziekte.", F),
         ("Allport begon het denken in trekken, de Big Five verfijnde dat.", J),

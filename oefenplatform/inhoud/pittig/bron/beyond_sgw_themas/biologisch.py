@@ -79,7 +79,7 @@ VRAGEN = [
           "De omgeving zet bij elk van hen andere genen aan of uit."),
     inv("Hoeveel fasen heeft Erikson meer dan Freud? Schrijf het getal.", ["3", "drie"],
         "Erikson heeft er acht, Freud vijf."),
-    tabel("Waar of niet waar?", [
+    tabel("Waar of niet waar bij Freud en Erikson?", [
         ("Bij Freud hangt elke fase aan een lichaamszone.", J),
         ("Bij Erikson heeft elke fase twee mogelijke uitkomsten.", J),
         ("De fasen van Freud lopen door tot in de ouderdom.", F),

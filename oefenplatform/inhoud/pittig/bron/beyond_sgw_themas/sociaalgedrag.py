@@ -67,7 +67,7 @@ VRAGEN = [
        kolommen=["locus van controle", "stabiliteit", "controleerbaarheid"]),
     keuze("Een fixed mindset past bij een attributie die [[*stabiel en oncontroleerbaar|veranderlijk en controleerbaar|extern en tijdelijk]] is.",
           "Wie denkt dat zijn kunnen vastligt, ziet de oorzaak als blijvend en buiten zijn macht."),
-    tabel("Klopt dit?", [
+    tabel("Klopt dit over sociale cognitie?", [
         ("Een attitude kan veranderen.", J),
         ("Een attitude beslist altijd wat je doet.", F),
         ("Iemand kan voor taal een growth en voor wiskunde een fixed mindset hebben.", J),

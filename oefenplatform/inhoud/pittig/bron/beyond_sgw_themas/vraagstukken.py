@@ -63,7 +63,7 @@ VRAGEN = [
         "het aantal oorzaken zo klein mogelijk houden",
         "het vraagstuk zo snel mogelijk afsluiten"], 0,
        "Wie vanuit de economie kijkt, komt bij een andere conclusie dan wie juridisch kijkt."),
-    tabel("Klopt dit?", [
+    tabel("Klopt dit over vraagstukken?", [
         ("Het schema met de redeneeractiviteiten krijg je op het examen.", F),
         ("Eén goede bron volstaat om een uitspraak te onderbouwen.", F),
         ("Bij het evalueren benoem je ook ongewenste gevolgen.", J),

@@ -85,7 +85,7 @@ VRAGEN = [
           "De ingroup krijgt het voordeel van de twijfel."),
     sleep("De Nederlandse naam voor social loafing is sociaal [[parasiteren]]. Het tegendeel, beter presteren door publiek, heet sociale [[facilitatie]].",
           ["belemmering", "consonantie"], "Twee begrippen over presteren in gezelschap."),
-    tabel("Klopt dit?", [
+    tabel("Klopt dit over groepen?", [
         ("Social loafing en sociale belemmering betekenen hetzelfde.", F),
         ("Bij een eenvoudige taak maakt publiek je meestal beter.", J),
         ("De normeringsfase komt na de prestatiefase.", F),

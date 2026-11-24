@@ -98,7 +98,7 @@ VRAGEN = [
                   "Het werk van mama werkt indirect in op Amina."),
         ],
     ),
-    koppel("Koppel elke theorie aan haar naam.", [
+    koppel("Koppel elke humanistische of systemische theorie aan haar naam.", [
         ["motivatietheorie", "Abraham Maslow"],
         ["client centered therapy", "Carl Rogers"],
         ["bio-ecologisch model", "Urie Bronfenbrenner"],
@@ -112,7 +112,7 @@ VRAGEN = [
        kolommen=["comfortzone", "zone van de naaste ontwikkeling", "angstzone"]),
     keuze("Een kind telt eerst hardop met de juf en later stil in zijn hoofd. Vygotsky noemt dat het [[*interiorisatieproces|scaffolding|mesosysteem]].",
           "Wat samen gebeurt, wordt eigen denken."),
-    tabel("Klopt dit?", [
+    tabel("Klopt dit over Maslow, Bronfenbrenner en Vygotsky?", [
         ("Zelfontplooiing betekent beter willen zijn dan de anderen.", F),
         ("De systemen van Bronfenbrenner werken door elkaar.", J),
         ("Vygotsky ziet ontwikkeling eerder als cultureel bepaald.", J),

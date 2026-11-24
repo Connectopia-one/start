@@ -74,7 +74,7 @@ VRAGEN = [
                "Ook aangeboren verschillen spelen mee."),
         ],
     ),
-    tabel("Klopt dit?", [
+    tabel("Klopt dit over persoonlijkheid?", [
         ("Temperament en karakter betekenen hetzelfde.", F),
         ("Persoonlijkheid ligt bij de geboorte helemaal vast.", F),
         ("Iedereen heeft zowel een BIS als een BAS.", J),

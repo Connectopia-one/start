@@ -41,6 +41,12 @@ export const nieuwTekst = {
 export const updates: Update[] = [
   {
     datum: "24 november 2026",
+    titel: "Pittige hoofdstukken sociale en gedragswetenschappen in Beyond doorstroom",
+    tekst:
+      "Sociale en gedragswetenschappen in Beyond doorstroom heeft nu bij elk van de 20 onderwerpen een pittig hoofdstuk van 30 vragen, in examenvorm: ontwikkelingspsychologie van Freud en Erikson over Piaget en Vygotsky tot Bronfenbrenner, sociaal gedrag en groepen, sociale beïnvloeding, persoonlijkheid, opvoeden, communicatie, socialisatie, ongelijkheid en mobiliteit, media, en maatschappelijke vraagstukken en de onderzoekscyclus. Bij veel onderwerpen klik je op een schema of grafiek, zoals de piramide van Maslow, de ringen van Bronfenbrenner, een ijsberg van het bewustzijn of een krantenpagina.",
+  },
+  {
+    datum: "24 november 2026",
     titel: "Pittige hoofdstukken samenleving en economie in Beyond doorstroom",
     tekst:
       "Samenleving en economie in Beyond doorstroom heeft nu bij elk van de 20 onderwerpen een pittig hoofdstuk van 30 vragen, in examenvorm: identiteit, diversiteit en omgaan met elkaar, eerste hulp en reanimatie, de overheid en de sociale zekerheid, de markt, contracten, je loon en je rechten op het werk, aankopen, budget, sparen en verzekeren, en werken met Word, Excel en PowerPoint en veilig online. Bij sommige onderwerpen klik je op een grafiek, een loonbrief, een rekenblad of een verdachte mail.",
