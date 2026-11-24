@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Doorsnede van een klimaatrobuuste straat</text>
+<rect x="40" y="430" width="920" height="190" rx="0" fill="#c9b48a" stroke="none" stroke-width="0"/>
+<rect x="40" y="220" width="120" height="210" rx="0" fill="#c0603a" stroke="#24331b" stroke-width="2"/>
+<rect x="840" y="220" width="120" height="210" rx="0" fill="#c0603a" stroke="#24331b" stroke-width="2"/>
+<rect x="160" y="420" width="160" height="10" rx="0" fill="#bbb" stroke="#24331b" stroke-width="1"/>
+<line x1="165" y1="420" x2="165" y2="430" stroke="#7aa060" stroke-width="3"/>
+<line x1="185" y1="420" x2="185" y2="430" stroke="#7aa060" stroke-width="3"/>
+<line x1="205" y1="420" x2="205" y2="430" stroke="#7aa060" stroke-width="3"/>
+<line x1="225" y1="420" x2="225" y2="430" stroke="#7aa060" stroke-width="3"/>
+<line x1="245" y1="420" x2="245" y2="430" stroke="#7aa060" stroke-width="3"/>
+<line x1="265" y1="420" x2="265" y2="430" stroke="#7aa060" stroke-width="3"/>
+<line x1="285" y1="420" x2="285" y2="430" stroke="#7aa060" stroke-width="3"/>
+<line x1="305" y1="420" x2="305" y2="430" stroke="#7aa060" stroke-width="3"/>
+<rect x="230" y="330" width="14" height="90" rx="0" fill="#6b4f2a" stroke="none" stroke-width="0"/>
+<circle cx="237" cy="290" r="70" fill="#8fb36a" stroke="#24331b" stroke-width="1"/>
+<path d="M330 430 Q 410 500 490 430 Z" fill="#a9c38a" stroke="#24331b" stroke-width="2"/>
+<path d="M350 445 Q 410 485 470 445" fill="none" stroke="#3b6fa0" stroke-width="5"/>
+<rect x="500" y="420" width="200" height="10" rx="0" fill="#555" stroke="#24331b" stroke-width="1"/>
+<rect x="710" y="420" width="120" height="10" rx="0" fill="#ccc" stroke="#24331b" stroke-width="1"/>
+<line x1="715" y1="420" x2="715" y2="430" stroke="#7aa060" stroke-width="3"/>
+<line x1="735" y1="420" x2="735" y2="430" stroke="#7aa060" stroke-width="3"/>
+<line x1="755" y1="420" x2="755" y2="430" stroke="#7aa060" stroke-width="3"/>
+<line x1="775" y1="420" x2="775" y2="430" stroke="#7aa060" stroke-width="3"/>
+<line x1="795" y1="420" x2="795" y2="430" stroke="#7aa060" stroke-width="3"/>
+<line x1="815" y1="420" x2="815" y2="430" stroke="#7aa060" stroke-width="3"/>
+<line x1="380" y1="180" x2="375" y2="230" stroke="#3b6fa0" stroke-width="2"/>
+<polygon points="375,230 370.3,214.7 382.7,216.0" fill="#3b6fa0"/>
+<line x1="420" y1="180" x2="415" y2="230" stroke="#3b6fa0" stroke-width="2"/>
+<polygon points="415,230 410.3,214.7 422.7,216.0" fill="#3b6fa0"/>
+<line x1="460" y1="180" x2="455" y2="230" stroke="#3b6fa0" stroke-width="2"/>
+<polygon points="455,230 450.3,214.7 462.7,216.0" fill="#3b6fa0"/>
+<line x1="740" y1="180" x2="735" y2="230" stroke="#3b6fa0" stroke-width="2"/>
+<polygon points="735,230 730.3,214.7 742.7,216.0" fill="#3b6fa0"/>
+<line x1="780" y1="180" x2="775" y2="230" stroke="#3b6fa0" stroke-width="2"/>
+<polygon points="775,230 770.3,214.7 782.7,216.0" fill="#3b6fa0"/>
+<circle cx="237" cy="170" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="237" y="177" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">W</text>
+<circle cx="410" cy="540" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="410" y="547" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">X</text>
+<circle cx="600" cy="470" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="600" y="477" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">Y</text>
+<circle cx="770" cy="470" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="770" y="477" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">Z</text>
+</svg>
