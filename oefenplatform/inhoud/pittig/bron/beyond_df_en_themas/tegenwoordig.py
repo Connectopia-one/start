@@ -25,7 +25,7 @@ VRAGEN = [
             inv("Hoeveel jaar leert de buurvrouw al Nederlands? Schrijf het getal.", ["2", "twee"], "For two years."),
         ],
     ),
-    tabel("Is deze zin juist?", [
+    tabel("Is deze zin juist (over de tegenwoordige tijden)?", [
         ("She don't like spicy food.", F),
         ("There are a lot of people in the shop.", J),
         ("I have finished my project yesterday.", F),

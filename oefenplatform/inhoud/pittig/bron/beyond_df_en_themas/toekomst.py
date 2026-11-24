@@ -55,7 +55,7 @@ VRAGEN = [
         ["Could you help me, please?", "hoffelijker"], ["Can you help me?", "gewoner"],
         ["May I sit here?", "hoffelijker"], ["Can I sit here?", "gewoner"],
     ], "Could en may klinken beleefder dan can."),
-    tabel("Is deze zin juist?", [
+    tabel("Is deze zin juist (over de toekomst en modale werkwoorden)?", [
         ("He cans swim very well.", F),
         ("I will call you tomorrow.", J),
         ("You must to wear a seatbelt.", F),

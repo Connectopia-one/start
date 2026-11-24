@@ -58,7 +58,7 @@ VRAGEN = [
     volgorde("Zet de zinsdelen in de juiste Engelse volgorde.", [
         "My sister", "bought", "a new phone", "yesterday",
     ], "Onderwerp, werkwoord, lijdend voorwerp, tijd."),
-    tabel("Is deze zin juist?", [
+    tabel("Is deze zin juist (over zinsbouw)?", [
         ("If it will rain, we will stay inside.", F),
         ("The news is very good today.", J),
         ("I don't know nothing about it.", F),

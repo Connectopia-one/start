@@ -25,7 +25,7 @@ VRAGEN = [
     ),
     sleep("Yesterday I [[woke]] up late. I [[ran]] to the bus stop, but the bus [[left]] just before I got there.",
           ["waked", "runned", "leaved"], "Wake, run en leave zijn onregelmatig."),
-    tabel("Is deze zin juist?", [
+    tabel("Is deze zin juist (over de verleden tijden)?", [
         ("She didn't went to school yesterday.", F),
         ("Were they playing when you arrived?", J),
         ("I was know the answer.", F),
