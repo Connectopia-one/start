@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Drie even brede bundels zonlicht op 21 maart</text>
+<circle cx="640" cy="330" r="230" fill="#9bc1df" stroke="#24331b" stroke-width="2"/>
+<line x1="410" y1="330" x2="870" y2="330" stroke="#24331b" stroke-width="1" stroke-dasharray="8 6"/>
+<text x="885" y="335" font-size="16" text-anchor="start" fill="#24331b">evenaar</text>
+<line x1="60" y1="315.0" x2="410.48965164943" y2="315.0" stroke="#e8c547" stroke-width="3"/>
+<polygon points="410.48965164943,315.0 395.8,321.2 395.8,308.8" fill="#e8c547"/>
+<line x1="60" y1="345.0" x2="410.48965164943" y2="345.0" stroke="#e8c547" stroke-width="3"/>
+<polygon points="410.48965164943,345.0 395.8,351.2 395.8,338.8" fill="#e8c547"/>
+<line x1="410.48965164943" y1="315.0" x2="410.48965164943" y2="345.0" stroke="#b03a2e" stroke-width="6"/>
+<circle cx="485.0" cy="330.0" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="485.0" y="337.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<line x1="60" y1="167.15884977209598" x2="477.5722936428234" y2="167.15884977209598" stroke="#e8c547" stroke-width="3"/>
+<polygon points="477.5722936428234,167.15884977209598 462.8,173.4 462.8,160.9" fill="#e8c547"/>
+<line x1="60" y1="197.15884977209598" x2="452.2415679493264" y2="197.15884977209598" stroke="#e8c547" stroke-width="3"/>
+<polygon points="452.2415679493264,197.15884977209598 437.5,203.4 437.5,190.9" fill="#e8c547"/>
+<line x1="477.5722936428234" y1="167.15884977209598" x2="452.2415679493264" y2="197.15884977209598" stroke="#b03a2e" stroke-width="6"/>
+<circle cx="538.809778082635" cy="182.15884977209598" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="538.809778082635" y="189.15884977209598" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<line x1="60" y1="106.5492089815705" x2="585.5046424615991" y2="106.5492089815705" stroke="#e8c547" stroke-width="3"/>
+<polygon points="585.5046424615991,106.5492089815705 570.8,112.8 570.8,100.3" fill="#e8c547"/>
+<line x1="60" y1="136.5492089815705" x2="515.5942466991822" y2="136.5492089815705" stroke="#e8c547" stroke-width="3"/>
+<polygon points="515.5942466991822,136.5492089815705 500.9,142.8 500.9,130.3" fill="#e8c547"/>
+<line x1="585.5046424615991" y1="106.5492089815705" x2="515.5942466991822" y2="136.5492089815705" stroke="#b03a2e" stroke-width="6"/>
+<circle cx="617.7977997996392" cy="121.5492089815705" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="617.7977997996392" y="128.5492089815705" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+</svg>
