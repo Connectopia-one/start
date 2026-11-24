@@ -81,7 +81,7 @@ VRAGEN = [
         "Veer B levert 20 N bij 10 cm, dus 2 N/cm. 10 N geeft 5 cm.",
     )),
     met_prent(VE.bestand, tabel(
-        "Kijk naar de grafiek. Klopt dit?",
+        "Kijk naar de grafiek van de veren. Klopt dit?",
         [
             ("Kracht en uitrekking zijn recht evenredig.", J),
             ("Veer B rekt bij dezelfde kracht meer uit dan A.", J),

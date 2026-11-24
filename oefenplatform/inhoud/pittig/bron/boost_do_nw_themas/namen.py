@@ -208,7 +208,7 @@ VRAGEN = [
         "Koolzuurgas en koolzuur zijn twee verschillende stoffen.",
     ),
     tabel(
-        "Binair of ternair?",
+        "Is deze verbinding binair of ternair?",
         [
             ("zoutzuur", "Binair"),
             ("zwavelzuur", "Ternair"),

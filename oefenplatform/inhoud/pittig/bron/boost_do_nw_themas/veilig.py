@@ -106,7 +106,7 @@ VRAGEN = [
         "Volume meet je met glaswerk, zoals een maatcilinder.",
     ),
     tabel(
-        "Reken om.",
+        "Reken om met de voorvoegsels.",
         [
             ("3,2 km", "3200 m"),
             ("450 mg", "0,45 g"),

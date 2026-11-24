@@ -41,6 +41,12 @@ export const nieuwTekst = {
 export const updates: Update[] = [
   {
     datum: "24 november 2026",
+    titel: "Pittige hoofdstukken natuurwetenschappen in Boost doorstroom",
+    tekst:
+      "Natuurwetenschappen in Boost doorstroom heeft nu bij elk van de 21 onderwerpen een pittig hoofdstuk van 30 vragen, in examenvorm: van planten, zenuwstelsel en ecosystemen over atomen, bindingen en zuren tot krachten, druk, energie, warmte en elektriciteit, en ook eerste hulp en onderzoek. Bij elk onderwerp zijn er tekeningen en grafieken waarop je moet klikken.",
+  },
+  {
+    datum: "24 november 2026",
     titel: "Pittige hoofdstukken Nederlands in Beyond doorstroom",
     tekst:
       "Nederlands in Beyond doorstroom heeft nu bij elk van de 21 onderwerpen een pittig hoofdstuk van 30 vragen, in examenvorm: van tekstsoorten en argumentatie tot poëzie, stijlfiguren, zinsbouw, schrijven en spreken. Je werkt met korte teksten, gedichten en toneelfragmenten. We zetten ook een vraag over het woordje 'zich' recht: dat is een wederkerend voornaamwoord, wederkerig is 'elkaar'.",

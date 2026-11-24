@@ -53,7 +53,7 @@ VRAGEN = [
         "Tussen 0 en 100 °C stijgt de temperatuur van het vloeibare water.",
     ),
     met_prent(OC.bestand, tabel(
-        "Kijk naar de curve. Klopt dit?",
+        "Kijk naar de opwarmcurve van water. Klopt dit?",
         [
             ("In stuk D is er latente warmte nodig.", J),
             ("Stuk D is langer dan stuk B, dus verdampen vraagt meer warmte dan smelten.", J),
@@ -230,7 +230,7 @@ VRAGEN = [
         "Q = 4180 · 0,2 · 20 = 16 720 J.",
     ),
     tabel(
-        "Klopt dit?",
+        "Een tapijt en een tegelvloer liggen in dezelfde kamer. Klopt dit?",
         [
             ("Een tapijt en een tegelvloer in dezelfde kamer hebben dezelfde temperatuur.", J),
             ("Een tegel voelt kouder omdat hij warmte sneller wegleidt.", J),

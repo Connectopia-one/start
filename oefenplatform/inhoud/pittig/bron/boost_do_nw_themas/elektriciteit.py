@@ -111,7 +111,7 @@ VRAGEN = [
         kolommen=["3 A", "10 V", "115 Ω"],
     ),
     koppel(
-        "Koppel elke grootheid aan haar eenheid.",
+        "Koppel elke elektrische grootheid aan haar eenheid.",
         [
             ("stroomsterkte", "ampère"),
             ("spanning", "volt"),
@@ -122,7 +122,7 @@ VRAGEN = [
         "De watt is de eenheid van vermogen.",
     ),
     tabel(
-        "Geleider of isolator?",
+        "Geleidt dit de elektrische stroom goed of slecht?",
         [
             ("koperdraad", "Geleider"),
             ("rubberen handschoen", "Isolator"),
@@ -262,7 +262,7 @@ VRAGEN = [
         kolommen=["2", "3", "4", "6"],
     )),
     met_prent(UI.bestand, tabel(
-        "Kijk naar de grafiek. Klopt dit?",
+        "Kijk naar de grafiek van de weerstanden. Klopt dit?",
         [
             ("Weerstand Q is drie keer zo groot als P.", J),
             ("Bij beide is de stroom recht evenredig met de spanning.", J),

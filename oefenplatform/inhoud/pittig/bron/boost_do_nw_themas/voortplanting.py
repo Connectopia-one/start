@@ -100,7 +100,7 @@ VRAGEN = [
         "FSH, het follikelstimulerend hormoon, zet de rijping in gang.",
     ),
     met_prent(CYC.bestand, tabel(
-        "Kijk naar de grafiek. Klopt dit?",
+        "Kijk naar de grafiek van de hormonen. Klopt dit?",
         [
             ("Op het einde van de cyclus daalt het progesteron.", J),
             ("De temperatuur ligt in de tweede helft hoger.", J),
