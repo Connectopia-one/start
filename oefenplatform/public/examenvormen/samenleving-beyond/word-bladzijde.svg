@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Een bladzijde in Word (verkleind)</text>
+<rect x="300" y="50" width="400" height="580" rx="2" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<line x1="350" y1="58" x2="650" y2="58" stroke="#e4e1d6" stroke-width="1" stroke-dasharray="8 6"/>
+<rect x="350" y="70" width="160" height="10" rx="2" fill="#d9d4c4" stroke="#d9d4c4" stroke-width="0"/>
+<rect x="430" y="120" width="140" height="16" rx="2" fill="#24331b" stroke="#24331b" stroke-width="0"/>
+<rect x="350" y="170" width="300" height="8" rx="2" fill="#d9d4c4" stroke="#d9d4c4" stroke-width="0"/>
+<rect x="350" y="188" width="270" height="8" rx="2" fill="#d9d4c4" stroke="#d9d4c4" stroke-width="0"/>
+<rect x="350" y="206" width="290" height="8" rx="2" fill="#d9d4c4" stroke="#d9d4c4" stroke-width="0"/>
+<rect x="350" y="224" width="230" height="8" rx="2" fill="#d9d4c4" stroke="#d9d4c4" stroke-width="0"/>
+<rect x="350" y="242" width="140" height="8" rx="2" fill="#d9d4c4" stroke="#d9d4c4" stroke-width="0"/>
+<rect x="350" y="290" width="300" height="8" rx="2" fill="#d9d4c4" stroke="#d9d4c4" stroke-width="0"/>
+<rect x="350" y="308" width="300" height="8" rx="2" fill="#d9d4c4" stroke="#d9d4c4" stroke-width="0"/>
+<rect x="350" y="326" width="300" height="8" rx="2" fill="#d9d4c4" stroke="#d9d4c4" stroke-width="0"/>
+<rect x="350" y="344" width="300" height="8" rx="2" fill="#d9d4c4" stroke="#d9d4c4" stroke-width="0"/>
+<rect x="350" y="362" width="120" height="8" rx="2" fill="#d9d4c4" stroke="#d9d4c4" stroke-width="0"/>
+<rect x="390" y="410" width="260" height="8" rx="2" fill="#d9d4c4" stroke="#d9d4c4" stroke-width="0"/>
+<rect x="350" y="428" width="300" height="8" rx="2" fill="#d9d4c4" stroke="#d9d4c4" stroke-width="0"/>
+<rect x="350" y="446" width="285" height="8" rx="2" fill="#d9d4c4" stroke="#d9d4c4" stroke-width="0"/>
+<rect x="350" y="464" width="296" height="8" rx="2" fill="#d9d4c4" stroke="#d9d4c4" stroke-width="0"/>
+<rect x="350" y="482" width="170" height="8" rx="2" fill="#d9d4c4" stroke="#d9d4c4" stroke-width="0"/>
+<line x1="350" y1="590" x2="650" y2="590" stroke="#e4e1d6" stroke-width="1" stroke-dasharray="8 6"/>
+<text x="500" y="612" font-size="14" text-anchor="middle" fill="#24331b">3</text>
+<circle cx="260" cy="75" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="260" y="82" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<circle cx="260" cy="128" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="260" y="135" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<circle cx="260" cy="205" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="260" y="212" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<circle cx="260" cy="325" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="260" y="332" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">D</text>
+<circle cx="260" cy="445" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="260" y="452" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">E</text>
+<circle cx="260" cy="607" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="260" y="614" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">F</text>
+</svg>
