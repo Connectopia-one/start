@@ -106,7 +106,7 @@ VRAGEN = [
         "Het water kan aan twee kanten weggaan: but-1-een of but-2-een.",
     )),
     tabel(
-        "Welk reactietype is dit?",
+        "Is deze omzetting een additie, een eliminatie of een condensatie?",
         [
             ("ethanol → etheen + water", "Eliminatie"),
             ("etheen + water → ethanol", "Additie"),
