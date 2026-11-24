@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Indeling van de anorganische stoffen</text>
+<rect x="390.0" y="82" width="220" height="56" rx="12" fill="#fbf6ea" stroke="#24331b" stroke-width="2"/>
+<text x="500" y="116" font-size="16" text-anchor="middle" fill="#24331b" font-weight="bold">zuivere stoffen</text>
+<rect x="150.0" y="212" width="220" height="56" rx="12" fill="#fbf6ea" stroke="#24331b" stroke-width="2"/>
+<text x="260" y="246" font-size="16" text-anchor="middle" fill="#24331b" font-weight="bold">enkelvoudige stoffen</text>
+<rect x="630.0" y="212" width="220" height="56" rx="12" fill="#fbf6ea" stroke="#24331b" stroke-width="2"/>
+<text x="740" y="246" font-size="16" text-anchor="middle" fill="#24331b" font-weight="bold">samengestelde stoffen</text>
+<line x1="260" y1="268" x2="140" y2="352" stroke="#24331b" stroke-width="2"/>
+<line x1="260" y1="268" x2="380" y2="352" stroke="#24331b" stroke-width="2"/>
+<rect x="60.0" y="352" width="160" height="56" rx="12" fill="#fbf6ea" stroke="#24331b" stroke-width="2"/>
+<text x="140" y="386" font-size="16" text-anchor="middle" fill="#24331b" font-weight="bold">metalen</text>
+<rect x="300.0" y="352" width="160" height="56" rx="12" fill="#fbf6ea" stroke="#24331b" stroke-width="2"/>
+<text x="380" y="386" font-size="16" text-anchor="middle" fill="#24331b" font-weight="bold">niet-metalen</text>
+<line x1="500" y1="138" x2="260" y2="212" stroke="#24331b" stroke-width="2"/>
+<line x1="500" y1="138" x2="740" y2="212" stroke="#24331b" stroke-width="2"/>
+<line x1="740" y1="268" x2="540" y2="482" stroke="#24331b" stroke-width="2"/>
+<line x1="740" y1="268" x2="670" y2="482" stroke="#24331b" stroke-width="2"/>
+<line x1="740" y1="268" x2="800" y2="482" stroke="#24331b" stroke-width="2"/>
+<line x1="740" y1="268" x2="930" y2="482" stroke="#24331b" stroke-width="2"/>
+<rect x="485" y="482" width="110" height="56" rx="12" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="540" y="516" font-size="15" text-anchor="middle" fill="#24331b" font-weight="bold">oxiden</text>
+<circle cx="540" cy="585" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="540" y="592" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<rect x="615" y="482" width="110" height="56" rx="12" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="670" y="516" font-size="15" text-anchor="middle" fill="#24331b" font-weight="bold">hydroxiden</text>
+<circle cx="670" cy="585" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="670" y="592" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<rect x="745" y="482" width="110" height="56" rx="12" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="800" y="516" font-size="15" text-anchor="middle" fill="#24331b" font-weight="bold">zuren</text>
+<circle cx="800" cy="585" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="800" y="592" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<rect x="875" y="482" width="110" height="56" rx="12" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="930" y="516" font-size="15" text-anchor="middle" fill="#24331b" font-weight="bold">zouten</text>
+<circle cx="930" cy="585" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="930" y="592" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">D</text>
+</svg>
