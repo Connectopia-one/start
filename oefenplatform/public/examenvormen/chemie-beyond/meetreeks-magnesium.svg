@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Tijd tot een stukje magnesium in zoutzuur verdwenen is, bij verschillende temperaturen</text>
+<line x1="140.0" y1="90" x2="140.0" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="140.0" y="564" font-size="15" text-anchor="middle" fill="#24331b">10</text>
+<line x1="288.0" y1="90" x2="288.0" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="288.0" y="564" font-size="15" text-anchor="middle" fill="#24331b">20</text>
+<line x1="436.0" y1="90" x2="436.0" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="436.0" y="564" font-size="15" text-anchor="middle" fill="#24331b">30</text>
+<line x1="584.0" y1="90" x2="584.0" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="584.0" y="564" font-size="15" text-anchor="middle" fill="#24331b">40</text>
+<line x1="732.0" y1="90" x2="732.0" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="732.0" y="564" font-size="15" text-anchor="middle" fill="#24331b">50</text>
+<line x1="880.0" y1="90" x2="880.0" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="880.0" y="564" font-size="15" text-anchor="middle" fill="#24331b">60</text>
+<line x1="140" y1="540.0" x2="880" y2="540.0" stroke="#e4e1d6" stroke-width="1"/>
+<text x="130" y="545.0" font-size="15" text-anchor="end" fill="#24331b">0</text>
+<line x1="140" y1="427.5" x2="880" y2="427.5" stroke="#e4e1d6" stroke-width="1"/>
+<text x="130" y="432.5" font-size="15" text-anchor="end" fill="#24331b">50</text>
+<line x1="140" y1="315.0" x2="880" y2="315.0" stroke="#e4e1d6" stroke-width="1"/>
+<text x="130" y="320.0" font-size="15" text-anchor="end" fill="#24331b">100</text>
+<line x1="140" y1="202.5" x2="880" y2="202.5" stroke="#e4e1d6" stroke-width="1"/>
+<text x="130" y="207.5" font-size="15" text-anchor="end" fill="#24331b">150</text>
+<line x1="140" y1="90.0" x2="880" y2="90.0" stroke="#e4e1d6" stroke-width="1"/>
+<text x="130" y="95.0" font-size="15" text-anchor="end" fill="#24331b">200</text>
+<line x1="140" y1="540.0" x2="890" y2="540.0" stroke="#24331b" stroke-width="2"/>
+<line x1="140" y1="540" x2="140" y2="80" stroke="#24331b" stroke-width="2"/>
+<text x="885" y="530.0" font-size="16" text-anchor="end" fill="#24331b">temperatuur (°C)</text>
+<text x="132" y="70" font-size="16" text-anchor="start" fill="#24331b">tijd (s)</text>
+<path d="M 258.4 152.3 L 288.0 180.0 L 317.6 205.7 L 347.2 229.7 L 376.8 251.9 L 406.4 272.5 L 436.0 291.6 L 465.6 309.4 L 495.2 325.9 L 524.8 341.2 L 554.4 355.4 L 584.0 368.6 L 613.6 380.9 L 643.2 392.2 L 672.8 402.8 L 702.4 412.6 L 732.0 421.7 L 761.6 430.2 L 791.2 438.0 L 820.8 445.3 L 850.4 452.1 L 880.0 458.4" fill="none" stroke="#d9d4c4" stroke-width="2"/>
+<circle cx="288.0" cy="180.0" r="8" fill="#3b6fa0" stroke="#24331b" stroke-width="2"/>
+<circle cx="316.0" cy="152.0" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="316.0" y="159.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<circle cx="436.0" cy="292.5" r="8" fill="#3b6fa0" stroke="#24331b" stroke-width="2"/>
+<circle cx="464.0" cy="264.5" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="464.0" y="271.5" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<circle cx="584.0" cy="202.5" r="8" fill="#3b6fa0" stroke="#24331b" stroke-width="2"/>
+<circle cx="612.0" cy="174.5" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="612.0" y="181.5" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<circle cx="732.0" cy="416.25" r="8" fill="#3b6fa0" stroke="#24331b" stroke-width="2"/>
+<circle cx="760.0" cy="388.25" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="760.0" y="395.25" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">D</text>
+<circle cx="880.0" cy="450.0" r="8" fill="#3b6fa0" stroke="#24331b" stroke-width="2"/>
+<circle cx="908.0" cy="422.0" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="908.0" y="429.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">E</text>
+</svg>
