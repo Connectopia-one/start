@@ -6,6 +6,6 @@ prenten), enkel wat binnen de gewone hoofdstukken natuurwetenschappen valt.
 from ..beyond_bio_themas import evolutie as E, selectie as S
 
 VRAGEN = (
-    [E.VRAGEN[i] for i in range(26)]
-    + [S.VRAGEN[i] for i in (5, 9)]
+    [E.VRAGEN[i] for i in range(25)]
+    + [S.VRAGEN[i] for i in (5, 7, 9)]
 )
