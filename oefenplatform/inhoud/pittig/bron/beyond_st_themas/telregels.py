@@ -67,7 +67,7 @@ VRAGEN = [
     mk("Een getal van vier cijfers mag niet met 0 beginnen. Hoeveel zulke getallen zijn er?",
        ["9000", "10000", "9999", "6561"], 0,
        "9 · 10 · 10 · 10 = 9000."),
-    tabel("Klopt dit?", [
+    tabel("Klopt dit over de telregels?", [
         ("Bij de productregel moeten beide keuzes evenveel mogelijkheden hebben.", F),
         ("Bij de somregel mogen de groepen niet overlappen, anders trek je de overlap af.", J),
         ("De complementregel werkt alleen als je het totaal kent.", J),

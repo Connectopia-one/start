@@ -34,7 +34,7 @@ VRAGEN = [
        r"Elk duo werd twee keer geteld: \(C(14, 2) = 91\)."),
     keuze(r"In de formule \(C(n, p) = \dfrac{n!}{p!\,(n-p)!}\) deelt \(p!\) [[*de volgordes van de gekozen elementen weg|het totaal door twee|de herhalingen weg]].",
           "Zonder p! telde je elke groep meerdere keren."),
-    tabel("Klopt dit?", [
+    tabel("Klopt dit over faculteiten en combinaties?", [
         (r"\(0! = 1\)", J),
         (r"\(C(n, n) = 1\)", J),
         (r"\(C(n, 1) = 1\)", F),

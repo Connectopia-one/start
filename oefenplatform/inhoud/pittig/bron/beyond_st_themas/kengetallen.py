@@ -71,7 +71,7 @@ VRAGEN = [
     ], "Bij een even aantal neem je het gemiddelde van de twee middelste."),
     sleep("Bij een verdeling die scheef naar links is, ligt het gemiddelde [[onder]] de mediaan. Bij een symmetrische verdeling liggen ze [[dicht bij elkaar]].",
           ["boven", "ver uit elkaar"], "De staart trekt het gemiddelde mee."),
-    tabel("Klopt dit?", [
+    tabel("Klopt dit over centrummaten?", [
         ("het gemiddelde ligt altijd tussen de kleinste en grootste waarde", J),
         ("de mediaan is altijd een waarde uit de dataset", F),
         ("als je bij elke waarde 5 optelt, stijgt het gemiddelde met 5", J),

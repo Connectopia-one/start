@@ -86,7 +86,7 @@ VRAGEN = [
         "H₀ verwerpen, want 56,8 is groter dan 50",
         "geen besluit, een interval zegt niets over een toets"], 0,
        "Ligt de waarde uit H₀ buiten het interval, dan verwerp je H₀."),
-    koppel("Koppel elk begrip aan de omschrijving.", [
+    koppel("Koppel elk begrip rond een interval aan de omschrijving.", [
         ["foutenmarge", "de helft van de breedte van het interval"],
         ["betrouwbaarheidsniveau", "het percentage intervallen dat de populatiewaarde vangt"],
         ["puntschatting", "het steekproefresultaat in het midden"],
