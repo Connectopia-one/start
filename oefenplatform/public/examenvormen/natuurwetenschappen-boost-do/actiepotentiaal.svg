@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Spanning over het membraan van een neuron</text>
+<line x1="120" y1="560" x2="930" y2="560" stroke="#24331b" stroke-width="2"/>
+<line x1="120" y1="560" x2="120" y2="90" stroke="#24331b" stroke-width="2"/>
+<line x1="112" y1="489.2307692307692" x2="120" y2="489.2307692307692" stroke="#24331b" stroke-width="2"/>
+<text x="105" y="495.2307692307692" font-size="16" text-anchor="end" fill="#24331b">−70</text>
+<line x1="112" y1="241.53846153846155" x2="120" y2="241.53846153846155" stroke="#24331b" stroke-width="2"/>
+<text x="105" y="247.53846153846155" font-size="16" text-anchor="end" fill="#24331b">0</text>
+<line x1="112" y1="135.38461538461542" x2="120" y2="135.38461538461542" stroke="#24331b" stroke-width="2"/>
+<text x="105" y="141.38461538461542" font-size="16" text-anchor="end" fill="#24331b">+30</text>
+<line x1="120" y1="436.1538461538462" x2="930" y2="436.1538461538462" stroke="#999999" stroke-width="2" stroke-dasharray="8 6"/>
+<text x="925" y="428.1538461538462" font-size="16" text-anchor="end" fill="#666666">drempelwaarde</text>
+<text x="60" y="80" font-size="16" text-anchor="start" fill="#24331b">spanning (mV)</text>
+<text x="925" y="595" font-size="16" text-anchor="end" fill="#24331b">tijd (ms)</text>
+<path d="M120.0 489.2 L 320.0 489.2 L 359.9 436.2 L 426.6 135.4 L 519.9 489.2 L 559.9 531.7 L 719.9 489.2 L 919.8 489.2" fill="none" stroke="#3b6fa0" stroke-width="4"/>
+</svg>
