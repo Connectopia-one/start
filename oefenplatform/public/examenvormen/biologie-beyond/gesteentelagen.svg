@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Gesteentelagen in een rotswand</text>
+<rect x="150" y="100" width="700" height="90" rx="0" fill="#f4e3c0" stroke="#24331b" stroke-width="1.5"/>
+<rect x="150" y="190" width="700" height="90" rx="0" fill="#e6cfa0" stroke="#24331b" stroke-width="1.5"/>
+<rect x="150" y="280" width="700" height="90" rx="0" fill="#d8bb85" stroke="#24331b" stroke-width="1.5"/>
+<rect x="150" y="370" width="700" height="90" rx="0" fill="#c9a76c" stroke="#24331b" stroke-width="1.5"/>
+<rect x="150" y="460" width="700" height="90" rx="0" fill="#b79358" stroke="#24331b" stroke-width="1.5"/>
+<path d="M500 125 L 515 170 L 485 170 Z" fill="#fff" stroke="#24331b" stroke-width="2"/>
+<path d="M470 255 C 500 225 540 225 560 250 L 600 235 L 580 260 C 540 285 500 285 470 255 Z" fill="#fff" stroke="#24331b" stroke-width="2"/>
+<ellipse cx="520" cy="350" rx="14" ry="12" fill="#fff" stroke="#24331b" stroke-width="2"/>
+<ellipse cx="502" cy="330" rx="8" ry="12" fill="#fff" stroke="#24331b" stroke-width="2"/>
+<ellipse cx="520" cy="324" rx="8" ry="12" fill="#fff" stroke="#24331b" stroke-width="2"/>
+<ellipse cx="538" cy="330" rx="8" ry="12" fill="#fff" stroke="#24331b" stroke-width="2"/>
+<path d="M460 420 C 490 395 550 395 575 420 L 605 400 L 605 440 L 575 420 C 550 445 490 445 460 420 Z" fill="#fff" stroke="#24331b" stroke-width="2"/>
+<ellipse cx="520" cy="505" rx="40" ry="26" fill="#fff" stroke="#24331b" stroke-width="2"/>
+<line x1="485" y1="487" x2="555" y2="487" stroke="#24331b" stroke-width="1"/>
+<line x1="485" y1="496" x2="555" y2="496" stroke="#24331b" stroke-width="1"/>
+<line x1="485" y1="505" x2="555" y2="505" stroke="#24331b" stroke-width="1"/>
+<line x1="485" y1="514" x2="555" y2="514" stroke="#24331b" stroke-width="1"/>
+<line x1="485" y1="523" x2="555" y2="523" stroke="#24331b" stroke-width="1"/>
+<circle cx="100" cy="145" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="100" y="152" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">P</text>
+<circle cx="100" cy="235" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="100" y="242" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">Q</text>
+<circle cx="100" cy="325" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="100" y="332" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">R</text>
+<circle cx="100" cy="415" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="100" y="422" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">S</text>
+<circle cx="100" cy="505" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="100" y="512" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">T</text>
+</svg>
