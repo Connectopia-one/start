@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Punten op 20 in klas A en klas B</text>
+<line x1="170" y1="540" x2="900" y2="540" stroke="#24331b" stroke-width="3"/>
+<line x1="170.0" y1="540" x2="170.0" y2="550" stroke="#24331b" stroke-width="2"/>
+<text x="170.0" y="574" font-size="18" text-anchor="middle" fill="#24331b">0</text>
+<line x1="243.0" y1="540" x2="243.0" y2="550" stroke="#24331b" stroke-width="2"/>
+<text x="243.0" y="574" font-size="18" text-anchor="middle" fill="#24331b">2</text>
+<line x1="316.0" y1="540" x2="316.0" y2="550" stroke="#24331b" stroke-width="2"/>
+<text x="316.0" y="574" font-size="18" text-anchor="middle" fill="#24331b">4</text>
+<line x1="389.0" y1="540" x2="389.0" y2="550" stroke="#24331b" stroke-width="2"/>
+<text x="389.0" y="574" font-size="18" text-anchor="middle" fill="#24331b">6</text>
+<line x1="462.0" y1="540" x2="462.0" y2="550" stroke="#24331b" stroke-width="2"/>
+<text x="462.0" y="574" font-size="18" text-anchor="middle" fill="#24331b">8</text>
+<line x1="535.0" y1="540" x2="535.0" y2="550" stroke="#24331b" stroke-width="2"/>
+<text x="535.0" y="574" font-size="18" text-anchor="middle" fill="#24331b">10</text>
+<line x1="608.0" y1="540" x2="608.0" y2="550" stroke="#24331b" stroke-width="2"/>
+<text x="608.0" y="574" font-size="18" text-anchor="middle" fill="#24331b">12</text>
+<line x1="681.0" y1="540" x2="681.0" y2="550" stroke="#24331b" stroke-width="2"/>
+<text x="681.0" y="574" font-size="18" text-anchor="middle" fill="#24331b">14</text>
+<line x1="754.0" y1="540" x2="754.0" y2="550" stroke="#24331b" stroke-width="2"/>
+<text x="754.0" y="574" font-size="18" text-anchor="middle" fill="#24331b">16</text>
+<line x1="827.0" y1="540" x2="827.0" y2="550" stroke="#24331b" stroke-width="2"/>
+<text x="827.0" y="574" font-size="18" text-anchor="middle" fill="#24331b">18</text>
+<line x1="900.0" y1="540" x2="900.0" y2="550" stroke="#24331b" stroke-width="2"/>
+<text x="900.0" y="574" font-size="18" text-anchor="middle" fill="#24331b">20</text>
+<text x="535.0" y="615" font-size="18" text-anchor="middle" fill="#5c6356">punt op 20</text>
+<text x="140" y="187" font-size="22" text-anchor="end" fill="#24331b" font-weight="bold">klas A</text>
+<line x1="316.0" y1="180" x2="462.0" y2="180" stroke="#24331b" stroke-width="3"/>
+<line x1="717.5" y1="180" x2="863.5" y2="180" stroke="#24331b" stroke-width="3"/>
+<line x1="316.0" y1="160" x2="316.0" y2="200" stroke="#24331b" stroke-width="3"/>
+<line x1="863.5" y1="160" x2="863.5" y2="200" stroke="#24331b" stroke-width="3"/>
+<rect x="462.0" y="135" width="255.5" height="90" rx="0" fill="#c4d5b5" stroke="#24331b" stroke-width="3"/>
+<line x1="608.0" y1="135" x2="608.0" y2="225" stroke="#24331b" stroke-width="4"/>
+<text x="140" y="397" font-size="22" text-anchor="end" fill="#24331b" font-weight="bold">klas B</text>
+<line x1="425.5" y1="390" x2="535.0" y2="390" stroke="#24331b" stroke-width="3"/>
+<line x1="608.0" y1="390" x2="681.0" y2="390" stroke="#24331b" stroke-width="3"/>
+<line x1="425.5" y1="370" x2="425.5" y2="410" stroke="#24331b" stroke-width="3"/>
+<line x1="681.0" y1="370" x2="681.0" y2="410" stroke="#24331b" stroke-width="3"/>
+<rect x="535.0" y="345" width="73.0" height="90" rx="0" fill="#c4d5b5" stroke="#24331b" stroke-width="3"/>
+<line x1="571.5" y1="345" x2="571.5" y2="435" stroke="#24331b" stroke-width="4"/>
+<circle cx="863.5" cy="390" r="9" fill="#ffffff" stroke="#24331b" stroke-width="3"/>
+</svg>
