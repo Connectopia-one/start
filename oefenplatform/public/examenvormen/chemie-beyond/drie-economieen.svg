@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Drie manieren om met grondstoffen om te gaan</text>
+<rect x="60" y="98" width="140" height="44" rx="10" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="130" y="126" font-size="16" text-anchor="middle" fill="#24331b" font-weight="bold">grondstof</text>
+<rect x="260" y="98" width="140" height="44" rx="10" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="330" y="126" font-size="16" text-anchor="middle" fill="#24331b" font-weight="bold">product</text>
+<line x1="202" y1="120" x2="258" y2="120" stroke="#24331b" stroke-width="2"/>
+<polygon points="258,120 243.3,126.2 243.3,113.8" fill="#24331b"/>
+<rect x="460" y="98" width="140" height="44" rx="10" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="530" y="126" font-size="16" text-anchor="middle" fill="#24331b" font-weight="bold">gebruik</text>
+<line x1="402" y1="120" x2="458" y2="120" stroke="#24331b" stroke-width="2"/>
+<polygon points="458,120 443.3,126.2 443.3,113.8" fill="#24331b"/>
+<rect x="660" y="98" width="140" height="44" rx="10" fill="#f3c6c0" stroke="#24331b" stroke-width="2"/>
+<text x="730" y="126" font-size="16" text-anchor="middle" fill="#24331b" font-weight="bold">afval</text>
+<line x1="602" y1="120" x2="658" y2="120" stroke="#24331b" stroke-width="2"/>
+<polygon points="658,120 643.3,126.2 643.3,113.8" fill="#24331b"/>
+<circle cx="60" cy="60" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="60" y="67" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">P</text>
+<rect x="60" y="278" width="140" height="44" rx="10" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="130" y="306" font-size="16" text-anchor="middle" fill="#24331b" font-weight="bold">grondstof</text>
+<rect x="260" y="278" width="140" height="44" rx="10" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="330" y="306" font-size="16" text-anchor="middle" fill="#24331b" font-weight="bold">product</text>
+<line x1="202" y1="300" x2="258" y2="300" stroke="#24331b" stroke-width="2"/>
+<polygon points="258,300 243.3,306.2 243.3,293.8" fill="#24331b"/>
+<rect x="460" y="278" width="140" height="44" rx="10" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="530" y="306" font-size="16" text-anchor="middle" fill="#24331b" font-weight="bold">gebruik</text>
+<line x1="402" y1="300" x2="458" y2="300" stroke="#24331b" stroke-width="2"/>
+<polygon points="458,300 443.3,306.2 443.3,293.8" fill="#24331b"/>
+<rect x="660" y="278" width="140" height="44" rx="10" fill="#f3c6c0" stroke="#24331b" stroke-width="2"/>
+<text x="730" y="306" font-size="16" text-anchor="middle" fill="#24331b" font-weight="bold">restafval</text>
+<line x1="602" y1="300" x2="658" y2="300" stroke="#24331b" stroke-width="2"/>
+<polygon points="658,300 643.3,306.2 643.3,293.8" fill="#24331b"/>
+<path d="M 530 322 Q 430 390 330 322" fill="none" stroke="#2f4a22" stroke-width="3"/>
+<line x1="345" y1="333" x2="332" y2="323" stroke="#2f4a22" stroke-width="3"/>
+<polygon points="332,323 347.5,327.0 339.9,336.9" fill="#2f4a22"/>
+<text x="430" y="385" font-size="15" text-anchor="middle" fill="#2f4a22">deels hergebruik</text>
+<circle cx="60" cy="240" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="60" y="247" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">Q</text>
+<rect x="60" y="458" width="140" height="44" rx="10" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="130" y="486" font-size="16" text-anchor="middle" fill="#24331b" font-weight="bold">grondstof</text>
+<rect x="260" y="458" width="140" height="44" rx="10" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="330" y="486" font-size="16" text-anchor="middle" fill="#24331b" font-weight="bold">product</text>
+<line x1="202" y1="480" x2="258" y2="480" stroke="#24331b" stroke-width="2"/>
+<polygon points="258,480 243.3,486.2 243.3,473.8" fill="#24331b"/>
+<rect x="460" y="458" width="140" height="44" rx="10" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="530" y="486" font-size="16" text-anchor="middle" fill="#24331b" font-weight="bold">gebruik</text>
+<line x1="402" y1="480" x2="458" y2="480" stroke="#24331b" stroke-width="2"/>
+<polygon points="458,480 443.3,486.2 443.3,473.8" fill="#24331b"/>
+<path d="M 530 502 L 530 560 L 130 560 L 130 512" fill="none" stroke="#2f4a22" stroke-width="3"/>
+<line x1="130" y1="530" x2="130" y2="504" stroke="#2f4a22" stroke-width="3"/>
+<polygon points="130,504 136.2,518.7 123.8,518.7" fill="#2f4a22"/>
+<text x="330" y="585" font-size="15" text-anchor="middle" fill="#2f4a22">alles wordt opnieuw grondstof</text>
+<circle cx="60" cy="420" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="60" y="427" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">R</text>
+</svg>

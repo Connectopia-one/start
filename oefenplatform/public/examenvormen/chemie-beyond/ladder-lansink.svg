@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">De ladder van Lansink, zonder de namen van de treden</text>
+<line x1="380" y1="70" x2="380" y2="560" stroke="#24331b" stroke-width="6"/>
+<line x1="620" y1="70" x2="620" y2="560" stroke="#24331b" stroke-width="6"/>
+<rect x="380" y="92" width="240" height="36" rx="6" fill="#cde8c4" stroke="#24331b" stroke-width="2"/>
+<circle cx="500" cy="110" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="500" y="117" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<rect x="380" y="177" width="240" height="36" rx="6" fill="#d9edcf" stroke="#24331b" stroke-width="2"/>
+<circle cx="500" cy="195" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="500" y="202" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<rect x="380" y="262" width="240" height="36" rx="6" fill="#e6f1d8" stroke="#24331b" stroke-width="2"/>
+<circle cx="500" cy="280" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="500" y="287" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<rect x="380" y="347" width="240" height="36" rx="6" fill="#f4eccd" stroke="#24331b" stroke-width="2"/>
+<circle cx="500" cy="365" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="500" y="372" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">D</text>
+<rect x="380" y="432" width="240" height="36" rx="6" fill="#f6dcc4" stroke="#24331b" stroke-width="2"/>
+<circle cx="500" cy="450" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="500" y="457" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">E</text>
+<rect x="380" y="517" width="240" height="36" rx="6" fill="#f3c6c0" stroke="#24331b" stroke-width="2"/>
+<circle cx="500" cy="535" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="500" y="542" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">F</text>
+<text x="660" y="115" font-size="18" text-anchor="start" fill="#2f4a22" font-weight="bold">beste keuze</text>
+<text x="660" y="540" font-size="18" text-anchor="start" fill="#b03a2e" font-weight="bold">slechtste keuze</text>
+</svg>
