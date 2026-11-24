@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Het broeikaseffect (schematisch)</text>
+<rect x="40" y="460" width="920" height="160" rx="0" fill="#a9c38a" stroke="#24331b" stroke-width="1"/>
+<rect x="40" y="200" width="920" height="40" rx="0" fill="#e8dff0" stroke="none" stroke-width="0"/>
+<text x="50" y="228" font-size="15" text-anchor="start" fill="#7a4b8c">broeikasgassen</text>
+<circle cx="110" cy="110" r="50" fill="#e8c547" stroke="#b5651d" stroke-width="3"/>
+<line x1="170" y1="130" x2="360" y2="455" stroke="#b5651d" stroke-width="6"/>
+<polygon points="360,455 347.2,445.4 357.9,439.1" fill="#b5651d"/>
+<line x1="250" y1="120" x2="440" y2="455" stroke="#b5651d" stroke-width="6"/>
+<polygon points="440,455 427.3,445.3 438.1,439.1" fill="#b5651d"/>
+<line x1="330" y1="120" x2="380" y2="190" stroke="#b5651d" stroke-width="4"/>
+<polygon points="380,190 366.4,181.6 376.5,174.4" fill="#b5651d"/>
+<line x1="390" y1="195" x2="450" y2="80" stroke="#b5651d" stroke-width="4"/>
+<polygon points="450,80 448.7,95.9 437.7,90.2" fill="#b5651d"/>
+<path d="M600 450 q 10 -15 0 -30 q -10 -15 0 -30 q 10 -15 0 -30 q -10 -15 0 -30 q 10 -15 0 -30 q -10 -15 0 -30" fill="none" stroke="#b03a2e" stroke-width="4"/>
+<path d="M720 450 q 10 -15 0 -30 q -10 -15 0 -30 q 10 -15 0 -30 q -10 -15 0 -30 q 10 -15 0 -30 q -10 -15 0 -30" fill="none" stroke="#b03a2e" stroke-width="4"/>
+<path d="M840 450 q 10 -15 0 -30 q -10 -15 0 -30 q 10 -15 0 -30 q -10 -15 0 -30 q 10 -15 0 -30 q -10 -15 0 -30" fill="none" stroke="#b03a2e" stroke-width="4"/>
+<path d="M840 270 q 10 -15 0 -30 q -10 -15 0 -30 q 10 -15 0 -30 q -10 -15 0 -30" fill="none" stroke="#b03a2e" stroke-width="4"/>
+<line x1="840" y1="120" x2="840" y2="70" stroke="#b03a2e" stroke-width="4"/>
+<polygon points="840,70 846.2,84.7 833.8,84.7" fill="#b03a2e"/>
+<path d="M600 250 q 30 20 40 60 q 10 40 40 60 q 20 20 20 70" fill="none" stroke="#b03a2e" stroke-width="4" stroke-dasharray="8 6"/>
+<line x1="720" y1="430" x2="722" y2="450" stroke="#b03a2e" stroke-width="4"/>
+<polygon points="722,450 714.3,436.0 726.7,434.7" fill="#b03a2e"/>
+<circle cx="300" cy="300" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="300" y="307" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<circle cx="470" cy="120" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="470" y="127" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<circle cx="840" cy="160" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="840" y="167" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<circle cx="690" cy="350" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="690" y="357" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">D</text>
+</svg>
