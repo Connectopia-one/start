@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Een plant</text>
+<line x1="0" y1="400" x2="1000" y2="400" stroke="#8a6d3b" stroke-width="3"/>
+<rect x="490" y="140" width="20" height="260" rx="0" fill="#2f4a22" stroke="#2f4a22" stroke-width="2"/>
+<path d="M500 260 C 600 200, 700 220, 760 250 C 700 290, 600 300, 500 270 Z" fill="#a8c98a" stroke="#24331b" stroke-width="2"/>
+<path d="M500 320 C 400 260, 300 280, 240 310 C 300 350, 400 350, 500 330 Z" fill="#a8c98a" stroke="#24331b" stroke-width="2"/>
+<ellipse cx="540.0" cy="110.0" rx="30" ry="18" fill="#e8c547" stroke="#24331b" stroke-width="2"/>
+<ellipse cx="521.6120922347255" cy="143.65883939231585" rx="30" ry="18" fill="#e8c547" stroke="#24331b" stroke-width="2"/>
+<ellipse cx="483.3541265381143" cy="146.37189707302727" rx="30" ry="18" fill="#e8c547" stroke="#24331b" stroke-width="2"/>
+<ellipse cx="460.4003001359822" cy="115.64480032239469" rx="30" ry="18" fill="#e8c547" stroke="#24331b" stroke-width="2"/>
+<ellipse cx="473.8542551654555" cy="79.72790018768288" rx="30" ry="18" fill="#e8c547" stroke="#24331b" stroke-width="2"/>
+<ellipse cx="511.346487418529" cy="71.64302901347446" rx="30" ry="18" fill="#e8c547" stroke="#24331b" stroke-width="2"/>
+<circle cx="500" cy="110" r="22" fill="#b5651d" stroke="#24331b" stroke-width="2"/>
+<path d="M500 400 L 500 520 M500 450 L 430 540 M500 460 L 580 560" fill="none" stroke="#8a6d3b" stroke-width="6"/>
+<path d="M440 520 l -25 10 M440 520 l 22 14 M440 520 l 4 26" fill="none" stroke="#8a6d3b" stroke-width="1"/>
+<path d="M430 545 l -25 10 M430 545 l 22 14 M430 545 l 4 26" fill="none" stroke="#8a6d3b" stroke-width="1"/>
+<path d="M575 540 l -25 10 M575 540 l 22 14 M575 540 l 4 26" fill="none" stroke="#8a6d3b" stroke-width="1"/>
+<path d="M585 565 l -25 10 M585 565 l 22 14 M585 565 l 4 26" fill="none" stroke="#8a6d3b" stroke-width="1"/>
+<path d="M505 515 l -25 10 M505 515 l 22 14 M505 515 l 4 26" fill="none" stroke="#8a6d3b" stroke-width="1"/>
+</svg>
