@@ -41,6 +41,12 @@ export const nieuwTekst = {
 export const updates: Update[] = [
   {
     datum: "24 november 2026",
+    titel: "Pittige hoofdstukken Engels in Beyond dubbele finaliteit",
+    tekst:
+      "Engels in Beyond dubbele finaliteit heeft nu bij elk van de 16 onderwerpen een pittig hoofdstuk van 30 vragen, in examenvorm: lezen en tekstsoorten, schrijven en je mening geven, de Engelstalige wereld, de woordvelden van alledag tot wetenschap, en de grammatica van de tijden, naamwoorden, voornaamwoorden, bijvoeglijke naamwoorden en zinsbouw. Elk hoofdstuk begint met een korte Engelse tekst met vragen erbij.",
+  },
+  {
+    datum: "24 november 2026",
     titel: "Pittige hoofdstukken aardrijkskunde in Beyond dubbele finaliteit",
     tekst:
       "Aardrijkskunde in Beyond dubbele finaliteit heeft nu bij elk van de 16 onderwerpen een pittig hoofdstuk van 30 vragen, in examenvorm: van situeren, het heelal en het zonnestelsel over de bewegingen van de aarde, wind, neerslag en klimaat tot de bouw van de aarde, vulkanen, gesteenten, erosie, de klimaatverandering, verstedelijking en het landschap lezen. Bij veel onderwerpen klik je op een tekening, kaart of grafiek.",
