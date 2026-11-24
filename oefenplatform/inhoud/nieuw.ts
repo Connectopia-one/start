@@ -41,6 +41,12 @@ export const nieuwTekst = {
 export const updates: Update[] = [
   {
     datum: "24 november 2026",
+    titel: "Pittige hoofdstukken samenleving en economie in Beyond doorstroom",
+    tekst:
+      "Samenleving en economie in Beyond doorstroom heeft nu bij elk van de 20 onderwerpen een pittig hoofdstuk van 30 vragen, in examenvorm: identiteit, diversiteit en omgaan met elkaar, eerste hulp en reanimatie, de overheid en de sociale zekerheid, de markt, contracten, je loon en je rechten op het werk, aankopen, budget, sparen en verzekeren, en werken met Word, Excel en PowerPoint en veilig online. Bij sommige onderwerpen klik je op een grafiek, een loonbrief, een rekenblad of een verdachte mail.",
+  },
+  {
+    datum: "24 november 2026",
     titel: "Pittige hoofdstukken natuurwetenschappen in Beyond doorstroom",
     tekst:
       "Natuurwetenschappen in Beyond doorstroom heeft nu bij elk van de 28 onderwerpen een pittig hoofdstuk van 30 vragen, in examenvorm: van de cel, erfelijkheid, evolutie en afweer over reactiesnelheid, evenwicht en organische stoffen tot elektriciteit, magnetisme, bewegingen, golven, straling, veilig werken en onderzoek. Ook de zeven onderwerpen voor welzijnswetenschappen (enzymen, spijsvertering, nieren, bloed, hart, bloeddruk en ademhaling) hebben er een. Bij veel onderwerpen zijn er tekeningen en grafieken waarop je moet klikken, zoals een nefron, een hart of een spirogram.",

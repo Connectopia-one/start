@@ -124,7 +124,7 @@ VRAGEN = [
                "Lenen kost hem 108 euro extra voor iets wat hij binnen vier maanden zelf kan betalen."),
         ],
     ),
-    tabel("Welke soort uitgave is dit?", [
+    tabel("Welke soort uitgave is dit in het gezinsbudget?", [
         ("een jaarlijkse autoverzekering die je al lang kent", "uitzonderlijk"),
         ("je wekelijkse brandstof", "variabel"),
         ("de maandelijkse lening voor je appartement", "vast"),

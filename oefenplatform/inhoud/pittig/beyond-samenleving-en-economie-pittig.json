@@ -4622,6 +4622,3757 @@
           "antwoord": "Het zijn twee verschillende inhoudingen. De sociale zekerheidsbijdrage gaat naar de RSZ en betaalt mee pensioenen, ziekteverzekering en werkloosheid. De bedrijfsvoorheffing is een voorschot op de personenbelasting en gaat naar de belastingen."
         }
       ]
+    },
+    {
+      "titel": "Welzijn op het werk en waar je met vragen terechtkan — pittig",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "casus": "Kenzo (19) werkt sinds een maand in een houtbewerkingsbedrijf. De beschermkap van een zaagmachine zit los. Zijn ploegbaas zegt dat hij 'gewoon wat voorzichtiger moet zijn'. Kenzo kreeg ook geen gehoorbescherming, terwijl het lawaai groot is. Op het einde van de maand ziet hij dat zijn overuren niet betaald zijn.",
+          "vragen": [
+            {
+              "type": "meerkeuze",
+              "vraag": "Wat doet Kenzo best met de losse beschermkap?",
+              "opties": [
+                "Het melden en de machine niet gebruiken",
+                "Gewoon verder werken maar trager zagen",
+                "De kap zelf vastschroeven en niets zeggen",
+                "Wachten tot er een ongeval gebeurt"
+              ],
+              "antwoord": 0,
+              "uitleg": "Gevaren melden is een plicht van de werknemer."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "Wie moet de gehoorbescherming voorzien? [[*De werkgever|Kenzo zelf|De VDAB]]",
+              "uitleg": "De werkgever voorziet persoonlijke beschermingsmiddelen; de werknemer draagt ze."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "Met zijn vraag over de veiligheid van de machines kan hij in het bedrijf terecht bij het [[*CPBW|RVA|student@work]].",
+              "uitleg": "Het Comité voor Preventie en Bescherming op het Werk is het overlegorgaan in het bedrijf."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "Voor advies over zijn niet-betaalde overuren gaat hij eerst naar een [[*vakbond|VDAB-kantoor|antigifcentrum]].",
+              "uitleg": "Een vakbond geeft advies en verdedigt de belangen van werknemers."
+            }
+          ]
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elke instantie aan waarvoor je er terechtkan.",
+          "paren": [
+            [
+              "RVA",
+              "je werkloosheidsuitkering"
+            ],
+            [
+              "VDAB",
+              "werk zoeken en een opleiding volgen"
+            ],
+            [
+              "RSZ",
+              "de bijdragen voor de sociale zekerheid"
+            ],
+            [
+              "student@work",
+              "je gewerkte uren als student opvolgen"
+            ],
+            [
+              "CPBW",
+              "overleg over veiligheid en welzijn in het bedrijf"
+            ]
+          ],
+          "extra": [
+            "je personenbelasting"
+          ],
+          "uitleg": "Zes instanties: CPBW, RSZ, RVA, student@work, vakbonden en VDAB."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Waar ga je naartoe?",
+          "rijen": [
+            "Je bent je job kwijt en zoekt een opleiding tot lasser.",
+            "Je wil weten waarom je werkloosheidsuitkering te laat is.",
+            "Je twijfelt of je werkgever wel bijdragen voor jou betaalt.",
+            "Je wil weten hoeveel studenturen je nog over hebt."
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "uitleg": "De RVA betaalt, de VDAB bemiddelt en leidt op.",
+          "kolommen": [
+            "VDAB",
+            "RVA",
+            "RSZ",
+            "student@work"
+          ]
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Hoort dit bij welzijn op het werk?",
+          "kolommen": [
+            "Welzijn op het werk",
+            "Niet"
+          ],
+          "items": [
+            [
+              "een veilige machine",
+              "Welzijn op het werk"
+            ],
+            [
+              "de werkdruk in de ploeg",
+              "Welzijn op het werk"
+            ],
+            [
+              "pesten op het werk aanpakken",
+              "Welzijn op het werk"
+            ],
+            [
+              "de prijs van de producten die het bedrijf verkoopt",
+              "Niet"
+            ]
+          ],
+          "uitleg": "Welzijn is breder dan ongevallen vermijden."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is dit preventie?",
+          "rijen": [
+            "Een nieuwe werknemer krijgt op dag één uitleg over de nooduitgangen.",
+            "Een gebroken pols laten verzorgen na een val.",
+            "Een pictogram 'helm verplicht' aan de ingang van de werf.",
+            "Een versleten trap vervangen voor er iemand valt."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            true
+          ],
+          "uitleg": "Preventie betekent maatregelen nemen voordat er iets misgaat."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom maakt men eerst de machine veilig en geeft men pas daarna persoonlijke beschermingsmiddelen?",
+          "opties": [
+            "Ze komen bovenop de veiligheid van de machine",
+            "Persoonlijke beschermingsmiddelen zijn verboden op een werf",
+            "Een veilige machine maakt pictogrammen altijd overbodig",
+            "Beschermingsmiddelen moet de werknemer zelf betalen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Eerst het gevaar aan de bron aanpakken, dan pas jezelf beschermen."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Het CPBW is het Comité voor [[Preventie]] en [[Bescherming]] op het Werk. Werkgevers en [[werknemers]] overleggen er samen.",
+          "extra": [
+            "Pensioen",
+            "klanten"
+          ],
+          "uitleg": "Het is een overlegorgaan binnen het bedrijf zelf."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Wie doet wat?",
+          "rijen": [
+            "persoonlijke beschermingsmiddelen voorzien",
+            "persoonlijke beschermingsmiddelen dragen",
+            "een gevaar dat je opmerkt melden",
+            "zorgen voor een veilige werkplek"
+          ],
+          "antwoord": [
+            0,
+            1,
+            1,
+            0
+          ],
+          "uitleg": "De werkgever is verantwoordelijk; de werknemer werkt veilig mee.",
+          "kolommen": [
+            "werkgever",
+            "werknemer"
+          ]
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een vraag over je werkloosheidsuitkering hoort bij de [[*RVA|VDAB|RSZ]].",
+          "uitleg": "Rijksdienst voor Arbeidsvoorziening."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom werken pictogrammen goed op een werkplek met mensen die verschillende talen spreken?",
+          "opties": [
+            "Ze tonen gevaar zonder woorden",
+            "Ze zijn altijd in vier talen geschreven",
+            "Ze vervangen de opleiding van nieuwe werknemers",
+            "Ze worden enkel door het CPBW begrepen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een pictogram waarschuwt in één oogopslag."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Bij hoeveel instanties en organisaties uit het leerdoel kan een werknemer of student terecht? Antwoord met een cijfer.",
+          "antwoord": [
+            "6",
+            "zes"
+          ],
+          "uitleg": "CPBW, RSZ, RVA, student@work, vakbonden en VDAB."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over de instanties?",
+          "rijen": [
+            "De RSZ helpt werklozen aan een nieuwe job.",
+            "De VDAB staat voor Vlaamse Dienst voor Arbeidsbemiddeling en Beroepsopleiding.",
+            "Student@work is een website om studentenjobs te zoeken.",
+            "Vakbonden geven advies aan werknemers."
+          ],
+          "antwoord": [
+            false,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "De VDAB helpt aan werk; student@work volgt je uren op."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een werkneemster wordt elke dag door een collega uitgelachen en voelt zich slecht op het werk. Hoe hoort dat bij dit thema?",
+          "opties": [
+            "Pesten op het werk hoort bij welzijn",
+            "Het hoort er niet bij, want er is geen ongeval",
+            "Enkel de RVA kan daarover beslissen",
+            "Het is een zaak van de RSZ"
+          ],
+          "antwoord": 0,
+          "uitleg": "Welzijn omvat ook de sfeer in de ploeg en pesten."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elke afkorting aan haar volledige naam.",
+          "paren": [
+            [
+              "RVA",
+              "Rijksdienst voor Arbeidsvoorziening"
+            ],
+            [
+              "RSZ",
+              "Rijksdienst voor Sociale Zekerheid"
+            ],
+            [
+              "CPBW",
+              "Comité voor Preventie en Bescherming op het Werk"
+            ]
+          ],
+          "extra": [
+            "Vlaamse Dienst voor Arbeidsbemiddeling"
+          ],
+          "uitleg": "De VDAB is de Vlaamse Dienst voor Arbeidsbemiddeling en Beroepsopleiding."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is dit een persoonlijk beschermingsmiddel?",
+          "rijen": [
+            "een veiligheidshelm",
+            "veiligheidsschoenen",
+            "een afgeschermde zaagmachine",
+            "een veiligheidsbril"
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Persoonlijke beschermingsmiddelen draag je zelf."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een werknemer valt tijdens het werk van een ladder. Welke uitkering komt in beeld?",
+          "opties": [
+            "De arbeidsongevallenuitkering",
+            "De werkloosheidsuitkering van de RVA",
+            "Het overlevingspensioen",
+            "Het groeipakket"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een ongeval tijdens het werk is een arbeidsongeval."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Je merkt een gevaarlijke situatie op het werk. Zet deze stappen in een logische volgorde.",
+          "opties": [
+            "jezelf en anderen uit de gevarenzone houden",
+            "het gevaar melden aan je verantwoordelijke",
+            "als er niets gebeurt, het aankaarten via het CPBW of een vakbond"
+          ],
+          "uitleg": "Eerst veiligheid, dan melden, dan escaleren."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is dit een plicht van de werknemer op het vlak van veiligheid?",
+          "rijen": [
+            "de beschermingsmiddelen dragen die hij krijgt",
+            "gevaren melden",
+            "zelf een preventieadviseur aanwerven"
+          ],
+          "antwoord": [
+            true,
+            true,
+            false
+          ],
+          "uitleg": "De werknemer werkt veilig mee; de werkgever organiseert de preventie."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een student die wil nagaan hoeveel uren hij al gewerkt heeft, kijkt op [[*student@work|de site van de RSZ-inning|zijn arbeidsreglement]].",
+          "uitleg": "Daar volgt hij zijn uren en contingent op."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom staan veiligheidsregels ook in het arbeidsreglement?",
+          "opties": [
+            "Ze gelden voor iedereen in het bedrijf",
+            "Ze gelden enkel voor de werknemer met de hoogste functie",
+            "Ze horen bij het persoonlijke loon van elke werknemer",
+            "Het CPBW mag ze anders niet bespreken"
+          ],
+          "antwoord": 0,
+          "uitleg": "Wat voor iedereen geldt, staat in het reglement."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Overheid of bedrijf?",
+          "kolommen": [
+            "Overheidsdienst",
+            "Binnen het bedrijf"
+          ],
+          "items": [
+            [
+              "RVA",
+              "Overheidsdienst"
+            ],
+            [
+              "CPBW",
+              "Binnen het bedrijf"
+            ],
+            [
+              "VDAB",
+              "Overheidsdienst"
+            ],
+            [
+              "RSZ",
+              "Overheidsdienst"
+            ]
+          ],
+          "uitleg": "Het CPBW is het enige overlegorgaan binnen het bedrijf zelf."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Een vraag over je uitkering stel je aan de [[RVA]]. Een nieuwe job en een opleiding zoek je via de [[VDAB]].",
+          "extra": [
+            "RSZ",
+            "CPBW"
+          ],
+          "uitleg": "Dat is het verschil dat het vaakst verward wordt."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welk pictogram verwacht je hier?",
+          "rijen": [
+            "op een werf waar dingen kunnen vallen",
+            "bij een luide pers",
+            "aan een draaiende slijpschijf"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Gebodsborden tonen welk beschermingsmiddel verplicht is.",
+          "kolommen": [
+            "helm verplicht",
+            "gehoorbescherming verplicht",
+            "oogbescherming verplicht"
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een ploeg moet elke week meer afwerken met minder mensen en raakt uitgeput. Waar hoort dat probleem?",
+          "opties": [
+            "Bij welzijn op het werk: werkdruk",
+            "Bij de RVA, want er dreigt werkloosheid",
+            "Bij student@work, want het gaat om uren",
+            "Nergens, want er is niemand gewond"
+          ],
+          "antwoord": 0,
+          "uitleg": "Werkdruk is een deel van welzijn op het werk."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een student mag 650 uren per jaar werken met een studentencontract. Hij werkte al 420 uren. Hoeveel uren blijven er over?",
+          "antwoord": [
+            "230"
+          ],
+          "uitleg": "650 min 420. Op student@work zie je dat meteen."
+        },
+        {
+          "type": "open",
+          "vraag": "Leg het verschil uit tussen de RVA en de VDAB met een verzonnen voorbeeld.",
+          "antwoord": "Lisa verliest haar job. Haar werkloosheidsuitkering komt van de RVA. Om een nieuwe job te vinden en een opleiding te volgen, gaat ze naar de VDAB."
+        },
+        {
+          "type": "open",
+          "vraag": "Leg uit waarom welzijn op het werk meer is dan ongevallen vermijden.",
+          "antwoord": "Ook werkdruk, de sfeer in de ploeg en pesten bepalen of je je goed voelt op het werk. Wie veel stress heeft of gepest wordt, kan ziek worden, ook zonder ongeval."
+        }
+      ]
+    },
+    {
+      "titel": "De totale aankoopkost en het consumentenkrediet — pittig",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "casus": "Lotte wil een e-bike kopen. Winkel A vraagt 1 600 euro, geeft 10 procent korting en rekent 40 euro leveringskost. Winkel B vraagt 1 500 euro zonder korting, levert gratis, maar je moet er een verplichte verzekering van 6 euro per maand bij nemen, voor twee jaar. Alle prijzen zijn inclusief btw.",
+          "vragen": [
+            {
+              "type": "invultekst",
+              "vraag": "Wat is de totale kostprijs bij winkel A, in euro?",
+              "antwoord": [
+                "1480",
+                "1 480",
+                "1480 euro"
+              ],
+              "uitleg": "1 600 min 160 korting is 1 440, plus 40 euro levering."
+            },
+            {
+              "type": "invultekst",
+              "vraag": "Wat is de totale kostprijs bij winkel B over twee jaar, in euro?",
+              "antwoord": [
+                "1644",
+                "1 644",
+                "1644 euro"
+              ],
+              "uitleg": "1 500 plus 24 maal 6 euro verzekering = 1 644 euro."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "De goedkoopste keuze over twee jaar is winkel [[*A|B]].",
+              "uitleg": "Een lagere etiketprijs zegt niets zonder de bijkomende kosten."
+            },
+            {
+              "type": "sorteren",
+              "vraag": "Is deze kost eenmalig of terugkerend?",
+              "kolommen": [
+                "Eenmalig",
+                "Terugkerend"
+              ],
+              "items": [
+                [
+                  "de leveringskost bij A",
+                  "Eenmalig"
+                ],
+                [
+                  "de verzekering bij B",
+                  "Terugkerend"
+                ],
+                [
+                  "een inschrijvingskost bij een fietsclub",
+                  "Eenmalig"
+                ]
+              ],
+              "uitleg": "Terugkerende kosten tel je op voor de hele looptijd."
+            }
+          ]
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elk consumentenkrediet aan een voorbeeld.",
+          "paren": [
+            [
+              "verkoop op afbetaling",
+              "een wasmachine in de winkel in twaalf schijven betalen"
+            ],
+            [
+              "lening op afbetaling",
+              "geld lenen bij de bank en in vaste schijven terugbetalen"
+            ],
+            [
+              "kredietopening",
+              "tot een bepaald bedrag onder nul mogen gaan op je rekening"
+            ],
+            [
+              "financieringshuur",
+              "een wagen vier jaar huren met een koopoptie op het einde"
+            ]
+          ],
+          "extra": [
+            "een spaarrekening openen"
+          ],
+          "uitleg": "Vier consumentenkredieten."
+        },
+        {
+          "casus": "Milan leent 4 000 euro om een tweedehandsauto te kopen. Hij betaalt 48 maanden lang 95 euro terug.",
+          "vragen": [
+            {
+              "type": "invultekst",
+              "vraag": "Hoeveel betaalt hij in totaal terug, in euro?",
+              "antwoord": [
+                "4560",
+                "4 560",
+                "4560 euro"
+              ],
+              "uitleg": "48 maal 95."
+            },
+            {
+              "type": "invultekst",
+              "vraag": "Hoeveel kost de financiering hem, in euro?",
+              "antwoord": [
+                "560",
+                "560 euro"
+              ],
+              "uitleg": "4 560 min 4 000 is de meerprijs van het krediet."
+            },
+            {
+              "type": "invultekst",
+              "vraag": "Na 20 maanden: hoeveel moet hij nog betalen, in euro?",
+              "antwoord": [
+                "2660",
+                "2 660",
+                "2660 euro"
+              ],
+              "uitleg": "Nog 28 maanden van 95 euro."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "Met een looptijd van 60 maanden zou zijn maandbedrag [[*kleiner|groter]] zijn, maar de totale kost [[*groter|kleiner]].",
+              "uitleg": "Je betaalt langer rente."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Krediet 1 heeft een rentevoet van 4 procent en een JKP van 6,5 procent. Krediet 2 heeft een rentevoet van 4,5 procent en een JKP van 5,2 procent. Welk is goedkoper voor hetzelfde bedrag en dezelfde looptijd?",
+          "opties": [
+            "Krediet 2",
+            "Krediet 1",
+            "Ze zijn even duur",
+            "Dat kan je niet vergelijken"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het JKP telt alle kosten mee; daarop vergelijk je."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom vergelijk je kredieten op het JKP en niet op de rentevoet?",
+          "opties": [
+            "Het JKP telt ook de andere kosten mee",
+            "De rentevoet is altijd hoger dan het JKP",
+            "Het JKP is het maandbedrag dat je betaalt",
+            "De rentevoet geldt enkel voor leasing"
+          ],
+          "antwoord": 0,
+          "uitleg": "Dossierkosten en andere kosten zitten in het JKP, niet in de rentevoet."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Hoort dit bij een consumentenkrediet?",
+          "rijen": [
+            "de looptijd",
+            "het geleende bedrag",
+            "het maandbedrag",
+            "het btw-nummer van de winkel"
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Looptijd, rentevoet, geleend bedrag, JKP en maandbedrag."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Recht of plicht van de koper?",
+          "kolommen": [
+            "Recht van de koper",
+            "Plicht van de koper"
+          ],
+          "items": [
+            [
+              "een product krijgen dat is wat beloofd werd",
+              "Recht van de koper"
+            ],
+            [
+              "de afgesproken prijs betalen",
+              "Plicht van de koper"
+            ],
+            [
+              "het product op de afgesproken plaats afhalen",
+              "Plicht van de koper"
+            ],
+            [
+              "het product krijgen in de afgesproken staat",
+              "Recht van de koper"
+            ]
+          ],
+          "uitleg": "De plichten van de verkoper zijn de rechten van de koper, en omgekeerd."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een jas kost 180 euro met 25 procent korting. Hoeveel betaal je, in euro?",
+          "antwoord": [
+            "135",
+            "135 euro"
+          ],
+          "uitleg": "25 procent van 180 is 45; 180 min 45."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over de totale kostprijs?",
+          "rijen": [
+            "De prijs op het etiket is altijd de totale kostprijs.",
+            "Een abonnement tel je op voor de hele looptijd.",
+            "Een commerciële korting trek je af voor je de rest berekent.",
+            "Alle producten hebben hetzelfde btw-tarief."
+          ],
+          "antwoord": [
+            false,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Bijkomende kosten kunnen de goedkoopste prijs duurder maken."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Bij een leasing van een wagen: wie is eigenaar tijdens de looptijd?",
+          "opties": [
+            "De leasingmaatschappij",
+            "De bestuurder vanaf de eerste dag",
+            "De overheid via de inschrijving",
+            "De garage die de wagen onderhoudt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je huurt het goed, met vaak de mogelijkheid om het op het einde over te kopen."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een verkoop op afbetaling verschilt van een lening op afbetaling omdat je bij de eerste [[*een bepaald product|geld zonder doel]] financiert.",
+          "uitleg": "Bij een lening krijg je een bedrag dat je vrij gebruikt."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welk krediet is dit?",
+          "rijen": [
+            "Je mag op je zichtrekening tot −500 euro gaan.",
+            "Je koopt een gsm bij de winkel in 24 maandelijkse schijven.",
+            "De bank leent je 8 000 euro die je in vaste schijven terugbetaalt."
+          ],
+          "antwoord": [
+            2,
+            0,
+            1
+          ],
+          "uitleg": "Drie van de vier consumentenkredieten.",
+          "kolommen": [
+            "verkoop op afbetaling",
+            "lening op afbetaling",
+            "kredietopening"
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het grootste gevaar van veel kleine kredieten tegelijk?",
+          "opties": [
+            "Je raakt in een schuldenspiraal",
+            "Je JKP wordt automatisch nul",
+            "Je mag geen spaarrekening meer hebben",
+            "Je looptijd wordt korter"
+          ],
+          "antwoord": 0,
+          "uitleg": "Wie zijn aflossingen niet meer betaalt, leent om oude schulden te betalen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Helpt dit om financiële problemen te vermijden?",
+          "rijen": [
+            "een spaarbuffer aanleggen",
+            "je inkomsten en uitgaven opvolgen",
+            "een nieuw krediet nemen om een oud af te betalen",
+            "kredieten vergelijken op het JKP"
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Een krediet om een krediet af te lossen is net een begin van een schuldenspiraal."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een abonnement kost 14 euro per maand voor twee jaar, met 25 euro eenmalige inschrijvingskost. Wat betaal je in totaal, in euro?",
+          "antwoord": [
+            "361",
+            "361 euro"
+          ],
+          "uitleg": "24 maal 14 is 336, plus 25."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Het [[JKP]] is het jaarlijks kostenpercentage. Het ligt nooit [[lager]] dan de rentevoet.",
+          "extra": [
+            "btw",
+            "hoger"
+          ],
+          "uitleg": "Het bevat de rente plus de andere kosten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Twee winkels verkopen dezelfde koelkast. Winkel 1: 520 euro, levering 35 euro. Winkel 2: 560 euro, gratis levering. Wat is goedkoper?",
+          "opties": [
+            "Winkel 1, voor 555 euro",
+            "Winkel 2, met een totaal van 560 euro",
+            "Winkel 1, met een totaal van 520 euro",
+            "Ze kosten allebei precies evenveel"
+          ],
+          "antwoord": 0,
+          "uitleg": "520 + 35 = 555 euro, dus 5 euro goedkoper dan winkel 2."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elk onderdeel van een krediet aan zijn betekenis.",
+          "paren": [
+            [
+              "looptijd",
+              "hoelang je terugbetaalt"
+            ],
+            [
+              "rentevoet",
+              "het percentage rente op het geleende bedrag"
+            ],
+            [
+              "JKP",
+              "alle kosten van het krediet samen, per jaar"
+            ],
+            [
+              "maandbedrag",
+              "wat je elke maand aflost"
+            ]
+          ],
+          "extra": [
+            "de btw op het product"
+          ],
+          "uitleg": "Samen bepalen ze hoeveel het krediet kost."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is deze bijkomende kost eenmalig of terugkerend?",
+          "rijen": [
+            "een inschrijvingskost bij een gsm-abonnement",
+            "het maandelijkse abonnement",
+            "een leveringskost voor een zetel",
+            "een jaarlijkse verzekering op een fiets"
+          ],
+          "antwoord": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "uitleg": "Terugkerende kosten tel je voor de hele looptijd.",
+          "kolommen": [
+            "eenmalig",
+            "terugkerend"
+          ]
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Bij een kredietopening betaal je rente op [[*het bedrag dat je echt gebruikt|het hele toegestane bedrag|niets, want het is gratis]].",
+          "uitleg": "Je mag tot een grens onder nul, en betaalt enkel op wat je opneemt."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Iemand leent 2 400 euro en betaalt 30 maanden lang 90 euro. Hoeveel rente betaalt hij in totaal, in euro?",
+          "antwoord": [
+            "300",
+            "300 euro"
+          ],
+          "uitleg": "30 maal 90 is 2 700; min 2 400 is 300 euro."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom verschilt de btw van product tot product?",
+          "opties": [
+            "Er bestaan verschillende btw-tarieven",
+            "Elke winkel kiest zelf hoeveel btw ze rekent",
+            "Btw hangt af van de korting die je krijgt",
+            "Btw geldt enkel voor producten op afbetaling"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je houdt rekening met het btw-percentage dat bij het product hoort."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Plicht van de verkoper?",
+          "rijen": [
+            "leveren wat is afgesproken",
+            "leveren in de afgesproken staat",
+            "de koper een krediet geven"
+          ],
+          "antwoord": [
+            true,
+            true,
+            false
+          ],
+          "uitleg": "De verkoper moet leveren wat beloofd is."
+        },
+        {
+          "type": "open",
+          "vraag": "Leg uit waarom een lagere maandaflossing niet altijd goedkoper is.",
+          "antwoord": "Een lagere aflossing komt meestal door een langere looptijd. Je betaalt dan langer rente, waardoor de totale terugbetaling en dus de financieringskost groter wordt."
+        }
+      ]
+    },
+    {
+      "titel": "Het persoonlijk budget en je administratie — pittig",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "casus": "Jana (23) woont alleen. Haar maandbudget: nettoloon 1 900 euro, huur 720 euro, energie en water 140 euro, boodschappen ongeveer 300 euro (de ene maand meer dan de andere), gsm-abonnement 20 euro, vrije tijd ongeveer 150 euro. In maart verkoopt ze haar oude fiets voor 120 euro. In april valt haar wasmachine stuk. Ze plant in augustus een reis naar Portugal.",
+          "vragen": [
+            {
+              "type": "tabel",
+              "vraag": "Welke soort uitgave is dit voor Jana?",
+              "rijen": [
+                "de huur",
+                "de boodschappen",
+                "de kapotte wasmachine",
+                "de reis naar Portugal"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "uitleg": "Vier soorten uitgaven: vast, variabel, onvoorzien en uitzonderlijk.",
+              "kolommen": [
+                "vast",
+                "variabel",
+                "onvoorzien",
+                "uitzonderlijk"
+              ]
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "De verkoop van haar fiets is een [[*toevallige|terugkerende]] inkomst.",
+              "uitleg": "Ze komt één keer en je kan er niet op rekenen."
+            },
+            {
+              "type": "invultekst",
+              "vraag": "Hoeveel houdt Jana in een gewone maand over om te sparen, in euro?",
+              "antwoord": [
+                "570",
+                "570 euro"
+              ],
+              "uitleg": "1 900 min (720 + 140 + 300 + 20 + 150 = 1 330) is 570 euro."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Wat helpt Jana het best om de kapotte wasmachine op te vangen zonder te lenen?",
+              "opties": [
+                "Een spaarbuffer",
+                "Een kredietopening",
+                "Een hogere huur",
+                "Een extra abonnement"
+              ],
+              "antwoord": 0,
+              "uitleg": "Zonder buffer wordt elke onvoorziene uitgave een krediet."
+            },
+            {
+              "type": "invultekst",
+              "vraag": "Ze wil 900 euro opzij zetten voor de reis in augustus en begint daarmee in februari (zes maanden). Hoeveel moet ze per maand sparen, in euro?",
+              "antwoord": [
+                "150",
+                "150 euro"
+              ],
+              "uitleg": "900 gedeeld door 6."
+            }
+          ]
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Terugkerende of toevallige inkomst?",
+          "kolommen": [
+            "Terugkerend",
+            "Toevallig"
+          ],
+          "items": [
+            [
+              "je maandloon",
+              "Terugkerend"
+            ],
+            [
+              "een prijs in een wedstrijd",
+              "Toevallig"
+            ],
+            [
+              "het groeipakket",
+              "Terugkerend"
+            ],
+            [
+              "geld van je oma voor je verjaardag",
+              "Toevallig"
+            ]
+          ],
+          "uitleg": "Wat regelmatig terugkomt, is terugkerend."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Onvoorzien of uitzonderlijk?",
+          "rijen": [
+            "een lekke band op weg naar het werk",
+            "een nieuwe laptop voor je hogere studies volgend jaar",
+            "een boete voor te snel rijden",
+            "een trouwfeest dat al een jaar gepland is"
+          ],
+          "antwoord": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "uitleg": "Onvoorzien zie je niet aankomen, uitzonderlijk wel.",
+          "kolommen": [
+            "onvoorzien",
+            "uitzonderlijk"
+          ]
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elke factor bij een aankoopkeuze aan de vraag die je jezelf stelt.",
+          "paren": [
+            [
+              "noodzakelijkheid",
+              "heb ik dit echt nodig?"
+            ],
+            [
+              "duurzaamheid",
+              "hoelang gaat het mee?"
+            ],
+            [
+              "financieringskost",
+              "wat kost het me extra als ik leen?"
+            ],
+            [
+              "terugbetalingscapaciteit",
+              "kan ik de aflossing elke maand betalen?"
+            ],
+            [
+              "inflatie",
+              "wordt het duurder als ik wacht?"
+            ]
+          ],
+          "extra": [
+            "welke kleur heeft het?"
+          ],
+          "uitleg": "Zeven factoren samen: ook de aankoopkost en de spaarbuffer."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel factoren gebruik je om een aankoopkeuze te verantwoorden? Antwoord met een cijfer.",
+          "antwoord": [
+            "7",
+            "zeven"
+          ],
+          "uitleg": "Aankoopkost, duurzaamheid, financieringskost, inflatie, noodzakelijkheid, spaarbuffer en terugbetalingscapaciteit."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een wasmachine van 400 euro gaat zes jaar mee, een van 700 euro vijftien jaar. Welke is per jaar goedkoper?",
+          "opties": [
+            "Die van 700 euro, ongeveer 47 euro per jaar",
+            "Die van 400 euro, ongeveer 67 euro per jaar",
+            "Ze kosten per jaar precies evenveel",
+            "Die van 400 euro, want ze is goedkoper in aankoop"
+          ],
+          "antwoord": 0,
+          "uitleg": "700 gedeeld door 15 is ongeveer 47; 400 gedeeld door 6 is ongeveer 67. Duurzaamheid weegt mee."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is dit een aankoopbewijs?",
+          "rijen": [
+            "de factuur",
+            "het kasticket",
+            "de aankoopovereenkomst",
+            "het rekeninguittreksel van je spaarrekening"
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Drie documenten bewijzen een aankoop."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Hoort dit document bij je persoonlijke administratie?",
+          "kolommen": [
+            "Persoonlijke administratie",
+            "Niet"
+          ],
+          "items": [
+            [
+              "het garantiebewijs van je laptop",
+              "Persoonlijke administratie"
+            ],
+            [
+              "je verzekeringspolis",
+              "Persoonlijke administratie"
+            ],
+            [
+              "de individuele rekening van je werkgever",
+              "Persoonlijke administratie"
+            ],
+            [
+              "het arbeidsreglement van het bedrijf",
+              "Niet"
+            ]
+          ],
+          "uitleg": "Het arbeidsreglement is van het bedrijf, niet van jou."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Iemand rekent in zijn budget enkel met de vaste uitgaven. Waarom komt hij elke maand tekort?",
+          "opties": [
+            "Hij vergeet de andere soorten uitgaven",
+            "Hij telt zijn toevallige inkomsten dubbel",
+            "Vaste uitgaven veranderen elke maand",
+            "Een budgetplan werkt niet met vaste uitgaven"
+          ],
+          "antwoord": 0,
+          "uitleg": "Variabele, onvoorziene en uitzonderlijke uitgaven horen er ook bij."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een uitgave die elke maand terugkomt maar met een ander bedrag, is [[*variabel|vast|toevallig]].",
+          "uitleg": "Zoals boodschappen of brandstof."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over een budgetplan?",
+          "rijen": [
+            "Het toont hoeveel je kan sparen.",
+            "Terugkerend en toevallig zijn soorten uitgaven.",
+            "Je onderscheidt vier soorten uitgaven.",
+            "Een variabele uitgave keert nooit terug."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Terugkerend en toevallig zijn soorten inkomsten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom hou je het garantiebewijs van een nieuwe gsm bij?",
+          "opties": [
+            "Voor een herstelling bij een defect",
+            "Om je belastingaangifte in te vullen",
+            "Omdat het een terugkerende inkomst is",
+            "Om je spaarbuffer elke maand te berekenen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Zonder bewijs kan je moeilijk een beroep doen op de garantie."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Iemand verdient 2 200 euro. Vaste uitgaven 1 050, variabele uitgaven 680. Hoeveel blijft er over, in euro?",
+          "antwoord": [
+            "470",
+            "470 euro"
+          ],
+          "uitleg": "2 200 min 1 730."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welke factor weegt hier het zwaarst?",
+          "rijen": [
+            "Je twijfelt of je wel een tweede spelconsole nodig hebt.",
+            "Je kan de aflossing van een nieuwe auto niet elke maand betalen.",
+            "Als je je laptop met een krediet koopt, kost hij 150 euro meer."
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Drie van de zeven factoren.",
+          "kolommen": [
+            "noodzakelijkheid",
+            "terugbetalingscapaciteit",
+            "financieringskost"
+          ]
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Geld dat je opzij houdt voor onverwachte kosten heet een [[spaarbuffer]]. Hoeveel je maandelijks kan afbetalen zonder problemen heet je [[terugbetalingscapaciteit]].",
+          "extra": [
+            "financieringskost",
+            "kasticket"
+          ],
+          "uitleg": "Twee factoren bij een aankoopkeuze."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom staat de inflatie bij de factoren voor een aankoopkeuze?",
+          "opties": [
+            "Geld wordt na verloop van tijd minder waard",
+            "Inflatie maakt alle kredieten gratis",
+            "Inflatie geldt enkel voor tweedehandsproducten",
+            "Inflatie verlaagt elk jaar de prijzen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Wachten met kopen kan duurder uitvallen."
+        },
+        {
+          "casus": "Arno (19) verdient met een studentenjob 450 euro per maand. Hij wil een gsm van 900 euro. De winkel stelt voor om hem in 24 maanden af te betalen aan 42 euro per maand. Zijn vaste kosten (gsm-abonnement, sportclub, busabonnement) zijn 95 euro per maand. Hij heeft al 300 euro gespaard.",
+          "vragen": [
+            {
+              "type": "invultekst",
+              "vraag": "Hoeveel betaalt hij in totaal als hij afbetaalt, in euro?",
+              "antwoord": [
+                "1008",
+                "1 008",
+                "1008 euro"
+              ],
+              "uitleg": "24 maal 42."
+            },
+            {
+              "type": "invultekst",
+              "vraag": "Hoeveel is de financieringskost, in euro?",
+              "antwoord": [
+                "108",
+                "108 euro"
+              ],
+              "uitleg": "1 008 min 900."
+            },
+            {
+              "type": "invultekst",
+              "vraag": "Hoeveel maanden moet hij nog sparen om de gsm cash te kopen, als hij elke maand 150 euro opzij zet?",
+              "antwoord": [
+                "4",
+                "vier"
+              ],
+              "uitleg": "Hij mist nog 600 euro: 600 gedeeld door 150."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Welke factor pleit het sterkst om te wachten en te sparen?",
+              "opties": [
+                "De financieringskost",
+                "De duurzaamheid van het toestel",
+                "De kleur van de gsm",
+                "Het btw-tarief op gsm's"
+              ],
+              "antwoord": 0,
+              "uitleg": "Lenen kost hem 108 euro extra voor iets wat hij binnen vier maanden zelf kan betalen."
+            }
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welke soort uitgave is dit in het gezinsbudget?",
+          "rijen": [
+            "een jaarlijkse autoverzekering die je al lang kent",
+            "je wekelijkse brandstof",
+            "de maandelijkse lening voor je appartement"
+          ],
+          "antwoord": [
+            2,
+            1,
+            0
+          ],
+          "uitleg": "Een jaarlijkse kost zie je aankomen, maar ze komt zelden: uitzonderlijk.",
+          "kolommen": [
+            "vast",
+            "variabel",
+            "uitzonderlijk"
+          ]
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Het jaaroverzicht van wat je werkgever je betaalde, is de [[*individuele rekening|aankoopovereenkomst|garantiekaart]].",
+          "uitleg": "Ze hoort bij je persoonlijke administratie."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het verschil tussen de aankoopkost en de financieringskost?",
+          "opties": [
+            "De ene is de prijs, de andere de kost van lenen",
+            "Ze betekenen precies hetzelfde in een budgetplan",
+            "De financieringskost is altijd lager dan de btw op het product",
+            "De aankoopkost bevat altijd een lening"
+          ],
+          "antwoord": 0,
+          "uitleg": "Wie cash betaalt, heeft geen financieringskost."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Hoort dit bij inkomsten of bij uitgaven in een budgetplan?",
+          "kolommen": [
+            "Inkomsten",
+            "Uitgaven"
+          ],
+          "items": [
+            [
+              "vakantiegeld",
+              "Inkomsten"
+            ],
+            [
+              "een herstelling aan de verwarming",
+              "Uitgaven"
+            ],
+            [
+              "een terugbetaling van het ziekenfonds",
+              "Inkomsten"
+            ],
+            [
+              "een lidgeld van de sportclub",
+              "Uitgaven"
+            ]
+          ],
+          "uitleg": "Een budgetplan zet alles wat binnenkomt tegenover wat buitengaat."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Geld dat elke maand terugkomt, zoals je loon, is een [[*terugkerende|toevallige|uitzonderlijke]] inkomst.",
+          "uitleg": "Je kan erop rekenen in je budget."
+        },
+        {
+          "type": "open",
+          "vraag": "Leg uit waarom een spaarbuffer belangrijk is, met een verzonnen voorbeeld van een onvoorziene uitgave.",
+          "antwoord": "Als je auto plots een herstelling van 600 euro nodig heeft en je hebt geen buffer, moet je lenen en betaal je extra kosten. Met een spaarbuffer betaal je de herstelling meteen en blijft je budget in evenwicht."
+        }
+      ]
+    },
+    {
+      "titel": "Sparen, beleggen en de invloed van inflatie — pittig",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "casus": "Drie vrienden krijgen elk 3 000 euro van een erfenis. Ines wil binnen twee maanden een rijbewijs en lessen betalen. Lucas wil er over vier jaar een deel van een auto mee kopen en wil zeker geen verlies. Mira (18) wil het pas over twintig jaar gebruiken voor een woning, kan tegen schommelingen en heeft zich goed geïnformeerd.",
+          "vragen": [
+            {
+              "type": "tabel",
+              "vraag": "Wat past het best bij elke vriend?",
+              "rijen": [
+                "Ines",
+                "Lucas",
+                "Mira"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "Hoelang je je geld kan missen, het risico en je doel bepalen de keuze.",
+              "kolommen": [
+                "spaarrekening",
+                "termijnrekening",
+                "deels beleggen"
+              ]
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Waarom past beleggen niet bij Ines?",
+              "opties": [
+                "Ze heeft het geld snel nodig",
+                "Beleggen is verboden voor wie een rijbewijs haalt",
+                "Op een spaarrekening krijg je nooit rente",
+                "Een termijnrekening is altijd risicovoller dan een aandeel"
+              ],
+              "antwoord": 0,
+              "uitleg": "Wie zijn geld snel nodig heeft, kan geen tijdelijk verlies opvangen."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "Dat Mira zich goed informeerde, sluit aan bij de factor [[*kennis over de financiële markt|inflatie|rentevoet]].",
+              "uitleg": "Beleg niet in iets wat je niet begrijpt."
+            }
+          ]
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elke rekening aan haar doel.",
+          "paren": [
+            [
+              "zichtrekening",
+              "loon ontvangen en dagelijkse betalingen doen"
+            ],
+            [
+              "spaarrekening",
+              "geld opzij zetten dat je toch kan opvragen"
+            ],
+            [
+              "termijnrekening",
+              "geld een afgesproken tijd vastzetten tegen een vaste rente"
+            ]
+          ],
+          "extra": [
+            "een stukje eigendom van een bedrijf kopen"
+          ],
+          "uitleg": "Drie rekeningen om te vergelijken."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elke beleggingsvorm aan haar kenmerk.",
+          "paren": [
+            [
+              "obligatie",
+              "een lening aan een bedrijf of overheid"
+            ],
+            [
+              "beursaandeel",
+              "een stukje eigendom van een bedrijf"
+            ],
+            [
+              "beleggingsfonds",
+              "een mand met veel beleggingen samen"
+            ],
+            [
+              "cryptomunt",
+              "een digitale munt zonder centrale bank"
+            ]
+          ],
+          "extra": [
+            "een rekening met vaste termijn"
+          ],
+          "uitleg": "Vier beleggingsvormen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Je zet 4 000 euro op een rekening met 2,5 procent rente per jaar. Hoeveel rente krijg je na één jaar, in euro?",
+          "antwoord": [
+            "100",
+            "100 euro"
+          ],
+          "uitleg": "2,5 procent van 4 000."
+        },
+        {
+          "casus": "Sara zet 1 000 euro op een spaarrekening met 5 procent rente per jaar. Ze laat de rente telkens op de rekening staan.",
+          "vragen": [
+            {
+              "type": "invultekst",
+              "vraag": "Hoeveel staat er na één jaar op de rekening, in euro?",
+              "antwoord": [
+                "1050",
+                "1 050",
+                "1050 euro"
+              ],
+              "uitleg": "1 000 plus 50 euro rente."
+            },
+            {
+              "type": "invultekst",
+              "vraag": "Hoeveel staat er na twee jaar op de rekening, in euro? Rond af op een cent.",
+              "antwoord": [
+                "1102,50",
+                "1 102,50",
+                "1102.50",
+                "1102,5"
+              ],
+              "uitleg": "5 procent van 1 050 is 52,50 euro: ze krijgt rente op de rente."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "Dat ze in het tweede jaar meer rente krijgt dan in het eerste, komt door [[*samengestelde rente|inflatie|een franchise]].",
+              "uitleg": "Rente op eerder verdiende rente laat een spaarpot steeds sneller groeien."
+            }
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Wat gebeurt er met je koopkracht?",
+          "rijen": [
+            "spaarrente 1 procent, inflatie 3 procent",
+            "spaarrente 4 procent, inflatie 2 procent",
+            "spaarrente 2 procent, inflatie 2 procent"
+          ],
+          "antwoord": [
+            1,
+            0,
+            2
+          ],
+          "uitleg": "Stijgen de prijzen sneller dan je rente, dan koop je minder met je spaargeld.",
+          "kolommen": [
+            "stijgt",
+            "daalt",
+            "blijft gelijk"
+          ]
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Sparen of beleggen?",
+          "kolommen": [
+            "Sparen",
+            "Beleggen"
+          ],
+          "items": [
+            [
+              "een termijnrekening",
+              "Sparen"
+            ],
+            [
+              "een obligatie",
+              "Beleggen"
+            ],
+            [
+              "een spaarrekening",
+              "Sparen"
+            ],
+            [
+              "een beleggingsfonds",
+              "Beleggen"
+            ],
+            [
+              "een cryptomunt",
+              "Beleggen"
+            ]
+          ],
+          "uitleg": "Rekeningen zijn sparen; obligaties, fondsen, aandelen en crypto zijn beleggen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over risico en rendement?",
+          "rijen": [
+            "Een hoger risico geeft altijd een hogere opbrengst.",
+            "Meer kans op opbrengst gaat samen met meer kans op verlies.",
+            "Van de vier beleggingsvormen schommelt een cryptomunt het sterkst.",
+            "Een beleggingsfonds spreidt het risico over veel beleggingen."
+          ],
+          "antwoord": [
+            false,
+            true,
+            true,
+            true
+          ],
+          "uitleg": "Let op het woord kans: een hoger risico garandeert niets."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom geeft een termijnrekening meestal meer rente dan een spaarrekening?",
+          "opties": [
+            "Je zet je geld een afgesproken tijd vast",
+            "Je kan er elke dag geld van afhalen",
+            "Ze is een vorm van beleggen in aandelen",
+            "Op een spaarrekening betaal je zelf rente"
+          ],
+          "antwoord": 0,
+          "uitleg": "In ruil voor de afspraak krijg je een hogere rente."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel factoren spelen mee bij de keuze tussen sparen en beleggen? Antwoord met een cijfer.",
+          "antwoord": [
+            "5",
+            "vijf"
+          ],
+          "uitleg": "Duur, rentevoet en inflatie, risico, financieel doel en kennis van de financiële markt."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Bij een obligatie ben je [[*schuldeiser|mede-eigenaar]] van het bedrijf of de overheid.",
+          "uitleg": "Bij een aandeel ben je mede-eigenaar."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "De inflatie is 4 procent. Een fiets kost nu 500 euro. Wat kost hij ongeveer over een jaar als de prijs mee stijgt?",
+          "opties": [
+            "520 euro",
+            "480 euro",
+            "504 euro",
+            "540 euro"
+          ],
+          "antwoord": 0,
+          "uitleg": "4 procent van 500 is 20 euro."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welke factor speelt hier vooral?",
+          "rijen": [
+            "Je hebt het geld over drie maanden nodig.",
+            "Je wil sparen voor je studies.",
+            "Je slaapt slecht als je beleggingen dalen.",
+            "Je begrijpt niet hoe een cryptomunt werkt."
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "uitleg": "Vier van de vijf factoren.",
+          "kolommen": [
+            "duur",
+            "financieel doel",
+            "risico",
+            "kennis"
+          ]
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "De algemene stijging van de prijzen heet [[inflatie]]. Ze doet de [[koopkracht]] van je spaargeld dalen.",
+          "extra": [
+            "rente",
+            "franchise"
+          ],
+          "uitleg": "Het bedrag blijft gelijk, maar je koopt er minder mee."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom spreidt een beleggingsfonds het risico?",
+          "opties": [
+            "Eén slechte belegging weegt dan minder",
+            "Het fonds belegt altijd in één enkel bedrijf",
+            "Een fonds is een spaarrekening met vaste rente",
+            "Een fonds kan nooit in waarde dalen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Door veel beleggingen samen te nemen, vangen goede de slechte op."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over de rekeningen?",
+          "rijen": [
+            "Je loon komt binnen op een zichtrekening.",
+            "Aan een termijnrekening kan je even makkelijk als aan een spaarrekening.",
+            "Op een spaarrekening krijg je rente en kan je toch aan je geld."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Vroeger opvragen van een termijnrekening kan vaak niet of kost geld."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Iemand heeft 2 000 euro op een termijnrekening aan 3 procent per jaar. Hoeveel rente krijgt hij na één jaar, in euro?",
+          "antwoord": [
+            "60",
+            "60 euro"
+          ],
+          "uitleg": "3 procent van 2 000."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welke rekening of belegging past bij deze uitspraak?",
+          "rijen": [
+            "Je bent mede-eigenaar en deelt in winst en verlies van het bedrijf.",
+            "Je leent geld aan de overheid tegen een afgesproken rente.",
+            "Je zet geld vijf jaar vast tegen een vaste rente bij de bank."
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Aandeel en obligatie zijn beleggingen, een termijnrekening is sparen.",
+          "kolommen": [
+            "aandeel",
+            "obligatie",
+            "termijnrekening"
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een bedrijf waarvan je aandelen hebt, maakt een zwaar verlies. Wat gebeurt er waarschijnlijk?",
+          "opties": [
+            "De waarde van je aandeel daalt",
+            "Je krijgt een hogere vaste rente",
+            "Je aandeel wordt een termijnrekening",
+            "De inflatie daalt meteen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Als mede-eigenaar deel je in het verlies."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Rente is de vergoeding die je [[*krijgt als je spaart|betaalt als je spaart|krijgt als je leent]].",
+          "uitleg": "Wie leent, betaalt rente."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Hoort dit bij een laag of een hoog risico?",
+          "kolommen": [
+            "Laag risico",
+            "Hoog risico"
+          ],
+          "items": [
+            [
+              "een termijnrekening",
+              "Laag risico"
+            ],
+            [
+              "een cryptomunt",
+              "Hoog risico"
+            ],
+            [
+              "een spaarrekening",
+              "Laag risico"
+            ],
+            [
+              "één enkel beursaandeel",
+              "Hoog risico"
+            ]
+          ],
+          "uitleg": "Rekeningen zijn veilig maar brengen weinig op."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "De spaarrente is 1,5 procent en de inflatie 3,5 procent. Hoeveel procent verlies je ongeveer aan koopkracht per jaar?",
+          "opties": [
+            "2 procent",
+            "5 procent",
+            "1,5 procent",
+            "0 procent"
+          ],
+          "antwoord": 0,
+          "uitleg": "3,5 min 1,5: je spaargeld groeit trager dan de prijzen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een bedrag van 500 euro groeit met samengestelde rente van 10 procent per jaar. Hoeveel is het na twee jaar, in euro?",
+          "antwoord": [
+            "605",
+            "605 euro"
+          ],
+          "uitleg": "Na één jaar 550, na twee jaar 550 plus 55."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Wie een aandeel koopt, wordt [[mede-eigenaar]]. Wie een obligatie koopt, wordt [[schuldeiser]].",
+          "extra": [
+            "verzekerde",
+            "werkgever"
+          ],
+          "uitleg": "Twee beleggingsvormen met een ander karakter."
+        },
+        {
+          "type": "open",
+          "vraag": "Leg uit waarom geld dat je op een zichtrekening laat staan bij inflatie minder waard wordt.",
+          "antwoord": "Op een zichtrekening krijg je bijna geen rente. Stijgen de prijzen, dan koop je met hetzelfde bedrag minder. Het bedrag op je rekening blijft gelijk, maar de koopkracht daalt."
+        },
+        {
+          "type": "open",
+          "vraag": "Leg met een verzonnen voorbeeld uit waarom iemand die over twintig jaar een woning wil kopen anders kan kiezen dan iemand die volgend jaar een auto koopt.",
+          "antwoord": "Wie twintig jaar tijd heeft, kan tijdelijke dalingen van beleggingen uitzitten en een deel beleggen voor meer kans op rendement. Wie volgend jaar zijn geld nodig heeft, kiest beter voor een spaar- of termijnrekening zonder risico op verlies."
+        }
+      ]
+    },
+    {
+      "titel": "Verzekeringen, een schadegeval en de polis — pittig",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "casus": "Uittreksel uit een polis. 'Verzekeraar: Veilig Thuis nv. Verzekeringsnemer: Karen Wouters. Verzekerden: Karen Wouters en haar zoon Jonas (12), die bij haar inwoont. Soort: familiale verzekering. Verzekerd risico: schade die de verzekerden in het privéleven aan derden toebrengen. Franchise: 300 euro. Jaarpremie: 110 euro.' Jonas trapt bij het voetballen een bal door het raam van de buurvrouw. De schade is 850 euro. De buurman zag het gebeuren.",
+          "vragen": [
+            {
+              "type": "tabel",
+              "vraag": "Wie is wie?",
+              "rijen": [
+                "Karen",
+                "Veilig Thuis nv",
+                "de buurvrouw"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "De nemer sluit af en betaalt; de verzekeraar draagt het risico.",
+              "kolommen": [
+                "verzekeringsnemer",
+                "verzekeraar",
+                "benadeelde"
+              ]
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "Jonas is [[*verantwoordelijk|juridisch aansprakelijk]]; zijn moeder is [[*juridisch aansprakelijk|enkel getuige]].",
+              "uitleg": "Het kind deed het; de ouders moeten volgens de wet de schade vergoeden."
+            },
+            {
+              "type": "invultekst",
+              "vraag": "Hoeveel betaalt de verzekeraar, in euro?",
+              "antwoord": [
+                "550",
+                "550 euro"
+              ],
+              "uitleg": "850 min de franchise van 300."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Welke rol speelt de buurman in de schadeaangifte?",
+              "opties": [
+                "Hij is de getuige",
+                "Hij is de verzekeringsnemer",
+                "Hij is de verzekeraar",
+                "Hij is juridisch aansprakelijk"
+              ],
+              "antwoord": 0,
+              "uitleg": "Een getuige helpt vast te stellen wat er gebeurd is."
+            }
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welke verzekering komt hier in beeld?",
+          "rijen": [
+            "Je rijdt met de auto van je ouders tegen een geparkeerde wagen.",
+            "Je brommer schuift uit en raakt een fietser.",
+            "Een bliksemschicht zet je dak in brand.",
+            "Je hebt een advocaat nodig na een conflict met een aannemer."
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "uitleg": "Vijf verzekeringen: auto, bromfiets, brand, familiale en rechtsbijstand.",
+          "kolommen": [
+            "auto",
+            "bromfiets",
+            "brand",
+            "rechtsbijstand"
+          ]
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elk begrip uit de polis aan zijn betekenis.",
+          "paren": [
+            [
+              "premie",
+              "wat je betaalt om verzekerd te zijn"
+            ],
+            [
+              "franchise",
+              "het deel van de schade dat je zelf draagt"
+            ],
+            [
+              "verzekerd risico",
+              "waartegen je precies verzekerd bent"
+            ],
+            [
+              "begunstigde",
+              "wie de uitbetaling ontvangt"
+            ]
+          ],
+          "extra": [
+            "wie de schade zag gebeuren"
+          ],
+          "uitleg": "De getuige staat in de schadeaangifte, niet in de polis."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Je hebt 2 300 euro schade en een franchise van 175 euro. Hoeveel krijg je uitbetaald, in euro?",
+          "antwoord": [
+            "2125",
+            "2 125",
+            "2125 euro"
+          ],
+          "uitleg": "2 300 min 175."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Je hebt 120 euro schade en een franchise van 250 euro. Hoeveel krijg je uitbetaald, in euro?",
+          "antwoord": [
+            "0",
+            "niets",
+            "0 euro"
+          ],
+          "uitleg": "De schade is kleiner dan de franchise: je draagt alles zelf."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Hoort dit in de polis of in de schadeaangifte?",
+          "kolommen": [
+            "Polis",
+            "Schadeaangifte"
+          ],
+          "items": [
+            [
+              "de franchise",
+              "Polis"
+            ],
+            [
+              "de getuige",
+              "Schadeaangifte"
+            ],
+            [
+              "de verzekeringsnemer",
+              "Polis"
+            ],
+            [
+              "de datum en het uur van het ongeval",
+              "Schadeaangifte"
+            ],
+            [
+              "de aard van de schade",
+              "Schadeaangifte"
+            ]
+          ],
+          "uitleg": "De polis is het contract; de schadeaangifte beschrijft één schadegeval."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom gaat een hogere franchise meestal samen met een lagere premie?",
+          "opties": [
+            "Je draagt zelf meer, dus de verzekeraar minder",
+            "De verzekeraar betaalt dan ook de kleine schades",
+            "De premie hangt enkel af van je leeftijd",
+            "Een hoge franchise is verboden bij een familiale"
+          ],
+          "antwoord": 0,
+          "uitleg": "Kleine schades lopen niet meer via de verzekering."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over verzekeringen?",
+          "rijen": [
+            "De familiale dekt de schade die je met je auto veroorzaakt.",
+            "Verzekeringsnemer en verzekerde kunnen verschillende personen zijn.",
+            "Wat niet in het verzekerd risico staat, wordt niet uitbetaald.",
+            "De premie is het bedrag dat je bij schade ontvangt."
+          ],
+          "antwoord": [
+            false,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "De premie betaal je; de schadevergoeding ontvang je."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een verzekering sluit je af om een schade te kunnen dragen die je [[*zelf niet zou kunnen betalen|altijd zelf kan betalen|nooit zal hebben]].",
+          "uitleg": "Een kleine premie beschermt je tegen een grote kost."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een kind van acht beschadigt met zijn fiets de wagen van een buur. Wie is juridisch aansprakelijk?",
+          "opties": [
+            "De ouders",
+            "Het kind zelf",
+            "De buur",
+            "De school van het kind"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het kind is verantwoordelijk, de ouders aansprakelijk."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Er gebeurt een schadegeval. Zet deze stappen in een logische volgorde.",
+          "opties": [
+            "de gegevens noteren: datum, uur, plaats en getuigen",
+            "de schadeaangifte invullen",
+            "de aangifte aan de verzekeraar bezorgen",
+            "de verzekeraar betaalt de schade min de franchise"
+          ],
+          "uitleg": "Een volledige aangifte versnelt de afhandeling."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welke gegevens vul je in op een schadeaangifte?",
+          "rijen": [
+            "de getuige",
+            "de aard van de schade",
+            "de juridisch aansprakelijke",
+            "je rapportcijfers"
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Datum en uur, aard van de schade, aansprakelijke, getuige, verzekeringsnemer en begunstigde."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Wie het contract afsluit en de premie betaalt, is de [[verzekeringsnemer]]. De maatschappij die het risico draagt, is de [[verzekeraar]].",
+          "extra": [
+            "begunstigde",
+            "getuige"
+          ],
+          "uitleg": "Nemer en verzekerde kunnen verschillen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een vader neemt een autoverzekering voor de wagen die zijn dochter rijdt. Wie is wie?",
+          "opties": [
+            "De vader is nemer, de dochter verzekerde",
+            "De dochter is nemer, de vader verzekeraar",
+            "De vader is verzekeraar, de dochter nemer",
+            "Ze zijn allebei verzekeraar"
+          ],
+          "antwoord": 0,
+          "uitleg": "De verzekeraar is altijd de maatschappij."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is dit verantwoordelijk of juridisch aansprakelijk?",
+          "rijen": [
+            "wie de schade veroorzaakte",
+            "wie volgens de wet de schade moet vergoeden",
+            "de ouders van een kind dat iets brak"
+          ],
+          "antwoord": [
+            0,
+            1,
+            1
+          ],
+          "uitleg": "Bij een kind vallen die twee uit elkaar.",
+          "kolommen": [
+            "verantwoordelijk",
+            "juridisch aansprakelijk"
+          ]
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een hospitalisatieverzekering [[*hoort niet|hoort wel]] bij de vijf verzekeringen van dit hoofdstuk.",
+          "uitleg": "Auto, bromfiets, brand, familiale en rechtsbijstand."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Twee chauffeurs zijn het oneens over wie door het rood reed. Wat helpt de verzekeraars het meest?",
+          "opties": [
+            "Een getuige in de aangifte",
+            "Een hogere premie voor beide chauffeurs",
+            "Een lagere franchise in beide polissen",
+            "Een rechtsbijstandsverzekering van de getuige"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een getuige helpt achteraf vast te stellen wat er gebeurde."
+        },
+        {
+          "casus": "Tijdens een storm waait een boom uit de tuin van Ahmed op de veranda van zijn buren. Ahmed heeft een brandverzekering met een franchise van 280 euro. De schade aan de veranda is 3 400 euro. De buren willen ook een advocaat omdat ze vinden dat de boom al lang gevaarlijk was.",
+          "vragen": [
+            {
+              "type": "invultekst",
+              "vraag": "Hoeveel betaalt de verzekeraar als de schade gedekt is, in euro?",
+              "antwoord": [
+                "3120",
+                "3 120",
+                "3120 euro"
+              ],
+              "uitleg": "3 400 min 280."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "De kosten van een advocaat in dit geschil worden gedekt door een [[*rechtsbijstandsverzekering|bromfietsverzekering|autoverzekering]].",
+              "uitleg": "Rechtsbijstand betaalt de kosten van een juridische procedure."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Wat moet er zeker in de schadeaangifte staan?",
+              "opties": [
+                "Datum, uur en aard van de schade",
+                "Het rijksregisternummer van alle buren",
+                "De jaarpremie van alle buren",
+                "De kleur van de veranda"
+              ],
+              "antwoord": 0,
+              "uitleg": "Datum en uur, aard van de schade, aansprakelijke, getuige en de partijen."
+            }
+          ]
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elke verzekering aan wat ze dekt.",
+          "paren": [
+            [
+              "familiale",
+              "schade die je gezin in het dagelijks leven aan anderen toebrengt"
+            ],
+            [
+              "brandverzekering",
+              "schade aan je woning door brand, storm of water"
+            ],
+            [
+              "rechtsbijstand",
+              "de kosten van een advocaat en een procedure"
+            ],
+            [
+              "autoverzekering",
+              "schade die je met je auto aan anderen toebrengt"
+            ]
+          ],
+          "extra": [
+            "je loon als je werkloos wordt"
+          ],
+          "uitleg": "Vier van de vijf verzekeringen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Bij welke verzekering hoort deze schade?",
+          "rijen": [
+            "Je zoon trapt een bal tegen de fiets van een voorbijganger.",
+            "Een kortsluiting veroorzaakt brand in je keuken.",
+            "Met je brommer rijd je een spiegel van een auto af."
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Elke schade hoort bij een eigen verzekering.",
+          "kolommen": [
+            "familiale",
+            "brand",
+            "bromfiets"
+          ]
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Je betaalt 18 euro premie per maand. Hoeveel is dat per jaar, in euro?",
+          "antwoord": [
+            "216",
+            "216 euro"
+          ],
+          "uitleg": "12 maal 18."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Wat je betaalt om verzekerd te zijn, heet de [[*premie|franchise|schadevergoeding]].",
+          "uitleg": "De franchise is het deel van de schade dat je zelf draagt."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Wat gebeurt er met de premie?",
+          "rijen": [
+            "je kiest een hogere franchise",
+            "je kiest een lagere franchise",
+            "je wil ook kleine schades vergoed krijgen"
+          ],
+          "antwoord": [
+            1,
+            0,
+            0
+          ],
+          "uitleg": "Hoe meer je zelf draagt, hoe minder de verzekeraar loopt.",
+          "kolommen": [
+            "stijgt meestal",
+            "daalt meestal"
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In de polis staat enkel 'schade door brand'. Je fiets wordt gestolen. Wat gebeurt er?",
+          "opties": [
+            "De verzekeraar betaalt niet",
+            "De verzekeraar betaalt de helft",
+            "De verzekeraar betaalt alles min de franchise",
+            "De getuige betaalt de schade"
+          ],
+          "antwoord": 0,
+          "uitleg": "Diefstal staat niet bij het verzekerd risico."
+        },
+        {
+          "type": "open",
+          "vraag": "Leg met het voorbeeld van Jonas uit waarom verantwoordelijk en juridisch aansprakelijk niet hetzelfde zijn.",
+          "antwoord": "Jonas trapte de bal en is dus verantwoordelijk. Omdat hij een kind is, zijn zijn ouders volgens de wet aansprakelijk: zij moeten de schade vergoeden, en hun familiale verzekering betaalt dat (min de franchise)."
+        }
+      ]
+    },
+    {
+      "titel": "Tekstverwerking met Word — pittig",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de alinea die uitgevuld is.",
+          "afbeelding_url": "/examenvormen/samenleving-beyond/word-bladzijde.svg",
+          "zones": [
+            [
+              23.5,
+              43.8,
+              47.0,
+              15.6
+            ]
+          ],
+          "uitleg": "Bij uitvullen sluit de tekst links én rechts recht aan; enkel de laatste regel mag korter zijn."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de alinea waar enkel de eerste regel inspringt.",
+          "afbeelding_url": "/examenvormen/samenleving-beyond/word-bladzijde.svg",
+          "zones": [
+            [
+              23.5,
+              62.5,
+              47.0,
+              15.6
+            ]
+          ],
+          "uitleg": "Inspringen laat de alinea of een deel ervan verder van de marge beginnen."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het deel dat op elke bladzijde automatisch onderaan terugkomt.",
+          "afbeelding_url": "/examenvormen/samenleving-beyond/word-bladzijde.svg",
+          "zones": [
+            [
+              23.5,
+              92.5,
+              47.0,
+              5.6
+            ]
+          ],
+          "uitleg": "De voettekst, hier met een automatisch paginanummer."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de alinea die links uitgelijnd is.",
+          "afbeelding_url": "/examenvormen/samenleving-beyond/word-bladzijde.svg",
+          "zones": [
+            [
+              23.5,
+              25.0,
+              47.0,
+              15.6
+            ]
+          ],
+          "uitleg": "Links recht, rechts rafelig: links uitlijnen."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Titel B is [[*gecentreerd|links uitgelijnd|uitgevuld]].",
+          "uitleg": "Hij staat in het midden tussen de marges.",
+          "afbeelding_url": "/examenvormen/samenleving-beyond/word-bladzijde.svg"
+        },
+        {
+          "type": "tabel",
+          "vraag": "Kijk naar de bladzijde. Klopt dit?",
+          "rijen": [
+            "A staat in de koptekst en komt op elke bladzijde terug.",
+            "Om C uit te vullen, moet je eerst elke letter van C selecteren.",
+            "Het cijfer in F past zich aan als je vooraan een bladzijde toevoegt."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Uitlijning is alineaopmaak: je cursor in de alinea volstaat.",
+          "afbeelding_url": "/examenvormen/samenleving-beyond/word-bladzijde.svg"
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Tekenopmaak of alineaopmaak?",
+          "kolommen": [
+            "Tekenopmaak",
+            "Alineaopmaak"
+          ],
+          "items": [
+            [
+              "vet",
+              "Tekenopmaak"
+            ],
+            [
+              "regelafstand",
+              "Alineaopmaak"
+            ],
+            [
+              "superscript",
+              "Tekenopmaak"
+            ],
+            [
+              "uitlijning",
+              "Alineaopmaak"
+            ],
+            [
+              "markeren",
+              "Tekenopmaak"
+            ],
+            [
+              "inspringen",
+              "Alineaopmaak"
+            ]
+          ],
+          "uitleg": "Tekenopmaak werkt op de geselecteerde letters, alineaopmaak op de hele alinea."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welke opmaak gebruik je?",
+          "rijen": [
+            "de 2 in m² (vierkante meter)",
+            "de 2 in H₂O",
+            "een zin die geschrapt is maar leesbaar moet blijven",
+            "een belangrijk woord met een gele achtergrond"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "uitleg": "Superscript boven de regel, subscript eronder.",
+          "kolommen": [
+            "superscript",
+            "subscript",
+            "doorhalen",
+            "markeren"
+          ]
+        },
+        {
+          "casus": "Femke maakt een verslag van twaalf bladzijden voor haar stage. Haar mentor vraagt: een liggend blad voor de grote tabel op bladzijde 7, de naam van het bedrijf bovenaan elke bladzijde, paginanummers die kloppen als ze nog iets toevoegt, en het verslag doorsturen zodat niemand het per ongeluk wijzigt.",
+          "vragen": [
+            {
+              "type": "keuzelijst",
+              "vraag": "Voor bladzijde 7 wijzigt ze de [[*afdrukstand|marge|regelafstand]] naar liggend.",
+              "uitleg": "Staand of liggend is de afdrukstand."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "De naam van het bedrijf zet ze in de [[*koptekst|voettekst|titel]].",
+              "uitleg": "Wat bovenaan op elke bladzijde terugkomt, is de koptekst."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Waarom kiest ze automatische paginanummering?",
+              "opties": [
+                "De nummers schuiven vanzelf mee",
+                "Zo kan ze de nummers in een andere kleur zetten",
+                "Zelf getypte nummers zijn verboden in een verslag",
+                "Zo wordt het bestand automatisch een PDF"
+              ],
+              "antwoord": 0,
+              "uitleg": "Voeg je een bladzijde toe, dan klopt alles meteen."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "Ze stuurt het verslag door als [[*PDF|Word-document|afbeelding van één bladzijde]].",
+              "uitleg": "Een PDF houdt de opmaak vast en wordt niet zomaar gewijzigd."
+            }
+          ]
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elk onderdeel van de tabelopmaak aan wat het doet.",
+          "paren": [
+            [
+              "randen",
+              "de lijnen rond de cellen"
+            ],
+            [
+              "arcering",
+              "een kleur als achtergrond van een cel"
+            ],
+            [
+              "cellen samenvoegen",
+              "van meerdere cellen één cel maken"
+            ],
+            [
+              "cellen splitsen",
+              "van één cel meerdere cellen maken"
+            ]
+          ],
+          "extra": [
+            "de regelafstand"
+          ],
+          "uitleg": "Tabelontwerp en tabelindeling."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Hoort dit bij de paginaopmaak?",
+          "rijen": [
+            "de marges",
+            "de afdrukstand",
+            "het formaat A4",
+            "de tekstkleur"
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Marges, afdrukstand en formaat samen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je wil dat één woord midden in een zin cursief staat. Wat doe je?",
+          "opties": [
+            "Het woord selecteren en op cursief klikken",
+            "Je cursor in de alinea zetten en op cursief klikken",
+            "De hele alinea selecteren en uitvullen",
+            "De afdrukstand wijzigen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Cursief is tekenopmaak: het werkt op wat geselecteerd is."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "De witruimte tussen twee alinea's regel je met de [[*afstand tussen alinea's|regelafstand|marges]].",
+          "uitleg": "De regelafstand is de ruimte binnen een alinea."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Kan je dit instellen bij het afdrukken?",
+          "rijen": [
+            "enkelzijdig of dubbelzijdig",
+            "in kleur of zwart-wit",
+            "de sortering van de exemplaren",
+            "superscript"
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Superscript is opmaak, geen afdrukinstelling."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Je wil een titel over drie kolommen van een tabel laten lopen. Zet de stappen in volgorde.",
+          "opties": [
+            "de drie bovenste cellen selecteren",
+            "cellen samenvoegen kiezen",
+            "de titel typen en centreren"
+          ],
+          "uitleg": "Samenvoegen maakt één cel van meerdere."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Een kleur achter de tekst, zoals met een fluostift, heet [[markeren]]. Een andere kleur voor de letters zelf heet [[tekstkleur]].",
+          "extra": [
+            "arcering",
+            "doorhalen"
+          ],
+          "uitleg": "Arcering geldt voor een tabelcel."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom is uitvullen handig in een krantenkolom?",
+          "opties": [
+            "Links en rechts lopen recht",
+            "De letters worden groter en beter leesbaar",
+            "De kolom komt automatisch in de koptekst",
+            "Het document wordt automatisch een PDF"
+          ],
+          "antwoord": 0,
+          "uitleg": "Word rekt de spaties zodat beide kanten recht zijn."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Wat doe je als je een vijfde rij onderaan een tabel wil?",
+          "rijen": [
+            "een rij onder de laatste rij invoegen",
+            "de tabel opnieuw tekenen",
+            "de cellen van de laatste rij splitsen"
+          ],
+          "antwoord": [
+            true,
+            false,
+            false
+          ],
+          "uitleg": "Rijen toevoegen hoort bij de tabelindeling."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het deel dat op elke bladzijde automatisch bovenaan terugkomt.",
+          "afbeelding_url": "/examenvormen/samenleving-beyond/word-bladzijde.svg",
+          "zones": [
+            [
+              23.5,
+              8.6,
+              47.0,
+              5.5
+            ]
+          ],
+          "uitleg": "Dat is de koptekst."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je zet je cursor in alinea C en klikt op uitvullen. Wat verandert er?",
+          "opties": [
+            "Alinea C wordt rechts ook recht",
+            "Enkel het woord bij je cursor wordt uitgevuld",
+            "Alle alinea's van het document worden uitgevuld",
+            "Alinea C springt op de eerste regel in"
+          ],
+          "antwoord": 0,
+          "uitleg": "Alineaopmaak geldt voor de hele alinea waar de cursor staat.",
+          "afbeelding_url": "/examenvormen/samenleving-beyond/word-bladzijde.svg"
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is dit tekenopmaak?",
+          "rijen": [
+            "onderstrepen",
+            "tekengrootte",
+            "afstand tussen alinea's",
+            "inspringen"
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            false
+          ],
+          "uitleg": "Inspringen en afstand tussen alinea's zijn alineaopmaak."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Staand heet ook [[*portret|landschap]], liggend heet ook [[*landschap|portret]].",
+          "uitleg": "Dat is de afdrukstand."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je document telt tien bladzijden en je verwijdert bladzijde 2. Wat gebeurt er met automatische paginanummers?",
+          "opties": [
+            "Ze passen zich vanzelf aan",
+            "Je moet alle nummers zelf aanpassen",
+            "De nummering verdwijnt volledig",
+            "Bladzijde 2 blijft leeg met een nummer"
+          ],
+          "antwoord": 0,
+          "uitleg": "Automatische nummering volgt het document."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Marges, afdrukstand en [[formaat]] vormen samen de [[paginaopmaak]].",
+          "extra": [
+            "tekenopmaak",
+            "arcering"
+          ],
+          "uitleg": "A4 en A5 zijn formaten."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Wanneer sla je op als PDF?",
+          "rijen": [
+            "je stuurt een sollicitatiebrief naar een bedrijf",
+            "je collega moet je tekst nog aanvullen in Word",
+            "je wil dat de opmaak op elke computer gelijk blijft"
+          ],
+          "antwoord": [
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Een PDF zet de opmaak vast, maar is niet bedoeld om verder te bewerken."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Tabelontwerp of paginaopmaak?",
+          "kolommen": [
+            "Tabelontwerp en tabelindeling",
+            "Paginaopmaak"
+          ],
+          "items": [
+            [
+              "arcering van een cel",
+              "Tabelontwerp en tabelindeling"
+            ],
+            [
+              "marges van het blad",
+              "Paginaopmaak"
+            ],
+            [
+              "een kolom verwijderen",
+              "Tabelontwerp en tabelindeling"
+            ],
+            [
+              "het formaat A5",
+              "Paginaopmaak"
+            ]
+          ],
+          "uitleg": "Tabelopmaak werkt in de tabel, paginaopmaak op het hele blad."
+        },
+        {
+          "type": "open",
+          "vraag": "Leg uit waarom je voor de regelafstand van een alinea niet alle tekst hoeft te selecteren, maar voor vet wel.",
+          "antwoord": "Regelafstand is alineaopmaak en geldt voor de hele alinea waar je cursor staat. Vet is tekenopmaak en werkt enkel op de letters die je geselecteerd hebt."
+        }
+      ]
+    },
+    {
+      "titel": "Het rekenblad Excel — pittig",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de cel met het resultaat van =MAX(D2:D5).",
+          "afbeelding_url": "/examenvormen/samenleving-beyond/excel-rekenblad.svg",
+          "zones": [
+            [
+              70.0,
+              33.1,
+              18.0,
+              9.7
+            ]
+          ],
+          "uitleg": "De grootste waarde in D2 tot en met D5 is 20, in D2."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de cel met het resultaat van =MIN(B2:B5).",
+          "afbeelding_url": "/examenvormen/samenleving-beyond/excel-rekenblad.svg",
+          "zones": [
+            [
+              34.0,
+              62.2,
+              18.0,
+              9.7
+            ]
+          ],
+          "uitleg": "De kleinste prijs is 1, in B5."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de cel waarvan je de formule in de formulebalk ziet.",
+          "afbeelding_url": "/examenvormen/samenleving-beyond/excel-rekenblad.svg",
+          "zones": [
+            [
+              70.0,
+              42.8,
+              18.0,
+              9.7
+            ]
+          ],
+          "uitleg": "De geselecteerde cel is D3; de formulebalk toont haar formule."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de cel waarin een formule met SOM staat.",
+          "afbeelding_url": "/examenvormen/samenleving-beyond/excel-rekenblad.svg",
+          "zones": [
+            [
+              70.0,
+              71.9,
+              18.0,
+              9.7
+            ]
+          ],
+          "uitleg": "In D6 staat de som van D2:D5, namelijk 48."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Wat geeft =GEMIDDELDE(C2:C5)? Schrijf het getal.",
+          "antwoord": [
+            "5,5",
+            "5.5"
+          ],
+          "uitleg": "(10 + 4 + 2 + 6) gedeeld door 4 is 5,5.",
+          "afbeelding_url": "/examenvormen/samenleving-beyond/excel-rekenblad.svg"
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Welke formule staat er in D6? Schrijf ze zoals Excel.",
+          "antwoord": [
+            "=SOM(D2:D5)",
+            "=som(D2:D5)",
+            "=SOM(d2:d5)"
+          ],
+          "uitleg": "De som van het bereik D2 tot en met D5.",
+          "afbeelding_url": "/examenvormen/samenleving-beyond/excel-rekenblad.svg"
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Je sleept de formule uit D3 met de vulgreep naar D4. Welke formule staat er dan in D4?",
+          "antwoord": [
+            "=B4*C4",
+            "=b4*c4"
+          ],
+          "uitleg": "Relatieve verwijzingen schuiven één rij mee.",
+          "afbeelding_url": "/examenvormen/samenleving-beyond/excel-rekenblad.svg"
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "=ALS(D4>15;\"veel\";\"weinig\") geeft [[*weinig|veel]].",
+          "uitleg": "D4 is 10, en 10 is niet groter dan 15.",
+          "afbeelding_url": "/examenvormen/samenleving-beyond/excel-rekenblad.svg"
+        },
+        {
+          "type": "tabel",
+          "vraag": "Kijk naar het rekenblad. Klopt dit?",
+          "rijen": [
+            "A1:D6 is een bereik.",
+            "C3 bevat het getal 4.",
+            "De formule in D3 begint met een isgelijkteken.",
+            "B5 is de cel in kolom 5, rij B."
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Eerst de kolomletter, dan het rijnummer.",
+          "afbeelding_url": "/examenvormen/samenleving-beyond/excel-rekenblad.svg"
+        },
+        {
+          "casus": "In een rekenblad staat in B1 het btw-percentage 21 %. In A3 tot A10 staan prijzen zonder btw. In B3 typt Mo =A3*B1 en sleept die formule naar B10. Vanaf B4 klopt er niets meer.",
+          "vragen": [
+            {
+              "type": "meerkeuze",
+              "vraag": "Waarom loopt het mis vanaf B4?",
+              "opties": [
+                "B1 schuift mee naar B2, B3 enzovoort",
+                "Een formule mag geen procent bevatten",
+                "De vulgreep werkt enkel horizontaal",
+                "A3 is een absolute verwijzing"
+              ],
+              "antwoord": 0,
+              "uitleg": "Een relatieve verwijzing schuift mee bij het doortrekken."
+            },
+            {
+              "type": "invultekst",
+              "vraag": "Hoe schrijft hij de formule in B3 zodat het doortrekken wel klopt?",
+              "antwoord": [
+                "=A3*$B$1",
+                "=a3*$b$1",
+                "=A3*B$1",
+                "=A3*$B1"
+              ],
+              "uitleg": "Met $B$1 blijft de verwijzing naar het btw-percentage vast staan."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "$B$1 is een [[*absolute|relatieve]] verwijzing.",
+              "uitleg": "Het dollarteken zet kolom en rij vast."
+            }
+          ]
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elke functie aan wat ze doet.",
+          "paren": [
+            [
+              "SOM",
+              "telt alle getallen in een bereik op"
+            ],
+            [
+              "GEMIDDELDE",
+              "telt op en deelt door het aantal"
+            ],
+            [
+              "MAX",
+              "geeft het grootste getal"
+            ],
+            [
+              "ALS",
+              "geeft een ander resultaat naargelang een voorwaarde"
+            ],
+            [
+              "VERT.ZOEKEN",
+              "zoekt in de eerste kolom en geeft iets uit dezelfde rij"
+            ]
+          ],
+          "extra": [
+            "zet de opmaak van een cel vast"
+          ],
+          "uitleg": "Functies uit het leerdoel."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welke grafiek past het best?",
+          "rijen": [
+            "het aandeel van elke afdeling in de totale omzet",
+            "de temperatuur elke dag van de maand",
+            "de verkoop van vier producten naast elkaar"
+          ],
+          "antwoord": [
+            2,
+            1,
+            0
+          ],
+          "uitleg": "Delen van een geheel, evolutie in de tijd, vergelijking.",
+          "kolommen": [
+            "kolomgrafiek",
+            "lijngrafiek",
+            "cirkeldiagram"
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welke getalnotatie toont dit?",
+          "rijen": [
+            "€ 12,50",
+            "25%",
+            "24/11/2026"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Getalnotaties veranderen het uitzicht, niet de waarde.",
+          "kolommen": [
+            "valuta",
+            "percentage",
+            "datum"
+          ]
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Je typt 0,4 in een cel met percentagenotatie. Je ziet [[*40%|0,4%|4%]].",
+          "uitleg": "De percentagenotatie toont het getal maal honderd."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Verandert dit de waarde in de cel of enkel het uitzicht?",
+          "kolommen": [
+            "Enkel het uitzicht",
+            "De waarde"
+          ],
+          "items": [
+            [
+              "voorwaardelijke opmaak",
+              "Enkel het uitzicht"
+            ],
+            [
+              "een nieuwe formule typen",
+              "De waarde"
+            ],
+            [
+              "valutanotatie",
+              "Enkel het uitzicht"
+            ],
+            [
+              "een ander getal intypen",
+              "De waarde"
+            ]
+          ],
+          "uitleg": "Opmaak verandert nooit de inhoud."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over de structuur van een rekenblad?",
+          "rijen": [
+            "Een werkmap is het bestand, een werkblad een tabblad erin.",
+            "Een bereik noteer je met een dubbelpunt, zoals A1:A10.",
+            "Een celadres begint met het rijnummer."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Eerst de kolomletter, dan het rijnummer, zoals B7."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "In B2 staat =SOM(A1:A3). Je sleept die formule naar C2. Welke formule staat er in C2?",
+          "antwoord": [
+            "=SOM(B1:B3)",
+            "=som(B1:B3)"
+          ],
+          "uitleg": "Bij horizontaal doortrekken schuiven de kolomletters mee."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke formule berekent de prijs met 21 procent btw als de prijs zonder btw in A2 staat?",
+          "opties": [
+            "=A2*1,21",
+            "=A2+0,21",
+            "=A2*21/100",
+            "A2*1,21 zonder teken"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een formule begint met =; 21 procent erbij is maal 1,21."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Elke formule begint met een [[isgelijkteken]]. Om een verwijzing vast te zetten gebruik je het [[dollarteken]].",
+          "extra": [
+            "haakje",
+            "puntkomma"
+          ],
+          "uitleg": "Zonder = blijft het tekst."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de cel met het resultaat van =C2*B4.",
+          "afbeelding_url": "/examenvormen/samenleving-beyond/excel-rekenblad.svg",
+          "zones": [
+            [
+              70.0,
+              33.1,
+              18.0,
+              9.7
+            ]
+          ],
+          "uitleg": "C2 is 10 en B4 is 2, samen 20. Dat staat in D2."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Wat geeft =MAX(C2:C5)-MIN(C2:C5)? Schrijf het getal.",
+          "antwoord": [
+            "8"
+          ],
+          "uitleg": "Het grootste aantal is 10, het kleinste 2: 10 min 2 is 8.",
+          "afbeelding_url": "/examenvormen/samenleving-beyond/excel-rekenblad.svg"
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "=ALS(B3>=3;\"duur\";\"goedkoop\") geeft [[*duur|goedkoop]].",
+          "uitleg": "B3 is 3, en 3 is groter dan of gelijk aan 3.",
+          "afbeelding_url": "/examenvormen/samenleving-beyond/excel-rekenblad.svg"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk bereik selecteer je om enkel de aantallen van alle producten op te tellen?",
+          "opties": [
+            "C2:C5",
+            "C1:C6",
+            "A2:D5",
+            "B2:C5"
+          ],
+          "antwoord": 0,
+          "uitleg": "De aantallen staan in kolom C, van rij 2 tot en met rij 5.",
+          "afbeelding_url": "/examenvormen/samenleving-beyond/excel-rekenblad.svg"
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet de stappen om een cirkeldiagram van de totalen te maken in de juiste volgorde.",
+          "opties": [
+            "de cellen met de productnamen en de totalen selecteren",
+            "naar het tabblad Invoegen gaan",
+            "het cirkeldiagram kiezen",
+            "een titel en labels aan de grafiek geven"
+          ],
+          "uitleg": "Eerst de gegevens selecteren, dan de grafiek invoegen en afwerken."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Relatief of absoluut? Kies voor elke verwijzing.",
+          "rijen": [
+            "A1",
+            "$A$1",
+            "D7",
+            "$C$2"
+          ],
+          "antwoord": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "uitleg": "Met dollartekens voor kolom en rij staat de verwijzing vast.",
+          "kolommen": [
+            "relatief",
+            "absoluut"
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een leerkracht wil bij elke punt boven 10 automatisch geslaagd zien en anders niet geslaagd. Welke functie gebruikt ze?",
+          "opties": [
+            "ALS",
+            "SOM",
+            "VERT.ZOEKEN",
+            "GEMIDDELDE"
+          ],
+          "antwoord": 0,
+          "uitleg": "ALS geeft een ander resultaat naargelang de voorwaarde klopt."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Je wil in een lange prijslijst de prijs van een productcode opzoeken. Je gebruikt [[*VERT.ZOEKEN|ALS|MAX]].",
+          "uitleg": "VERT.ZOEKEN zoekt de code in de eerste kolom en geeft de prijs uit dezelfde rij."
+        },
+        {
+          "type": "open",
+          "vraag": "Leg uit wat de vulgreep doet met een formule met relatieve verwijzingen, en wanneer je een absolute verwijzing nodig hebt.",
+          "antwoord": "De vulgreep trekt een formule door naar andere cellen; relatieve verwijzingen schuiven dan mee. Moet de formule altijd naar dezelfde cel kijken, zoals een btw-percentage in één cel, dan zet je die verwijzing vast met dollartekens, bijvoorbeeld $B$1."
+        }
+      ]
+    },
+    {
+      "titel": "Presenteren met PowerPoint — pittig",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het deel waar de spreker typt wat hij wil zeggen, zonder dat het publiek het ziet.",
+          "afbeelding_url": "/examenvormen/samenleving-beyond/powerpoint-venster.svg",
+          "zones": [
+            [
+              26.0,
+              75.0,
+              68.0,
+              15.6
+            ]
+          ],
+          "uitleg": "Dat is het notitievenster. In de presentatorweergave zie jij die notities, het publiek niet."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het deel waar je dia's versleept om hun volgorde te veranderen.",
+          "afbeelding_url": "/examenvormen/samenleving-beyond/powerpoint-venster.svg",
+          "zones": [
+            [
+              6.0,
+              9.4,
+              17.0,
+              81.2
+            ]
+          ],
+          "uitleg": "In de kolom met miniaturen sleep je een dia naar een andere plaats."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de knop die je zelf op de dia zette en die bij een klik naar de volgende dia gaat.",
+          "afbeelding_url": "/examenvormen/samenleving-beyond/powerpoint-venster.svg",
+          "zones": [
+            [
+              86.6,
+              60.3,
+              6.8,
+              10.6
+            ]
+          ],
+          "uitleg": "Dat is een actieknop: het driehoekje betekent verder gaan."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de vorm die iets op de dia aanduidt.",
+          "afbeelding_url": "/examenvormen/samenleving-beyond/powerpoint-venster.svg",
+          "zones": [
+            [
+              59.0,
+              43.8,
+              10.0,
+              14.1
+            ]
+          ],
+          "uitleg": "Met een vorm, zoals een pijl, duid je het belangrijkste aan."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elke letter aan wat je daar ziet.",
+          "paren": [
+            [
+              "A",
+              "de miniaturen van de dia's"
+            ],
+            [
+              "C",
+              "een tekstvak met een opsomming"
+            ],
+            [
+              "E",
+              "een actieknop"
+            ],
+            [
+              "F",
+              "de notities van de spreker"
+            ]
+          ],
+          "extra": [
+            "een hand-out",
+            "een diaovergang"
+          ],
+          "uitleg": "Een hand-out en een overgang zie je niet als vak in het venster.",
+          "afbeelding_url": "/examenvormen/samenleving-beyond/powerpoint-venster.svg"
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Je wil dat de drie regels in C één voor één verschijnen. Daarvoor gebruik je een [[*animatie|diaovergang|hyperlink]].",
+          "uitleg": "Een animatie werkt op iets dat op de dia staat; een overgang werkt tussen twee dia's.",
+          "afbeelding_url": "/examenvormen/samenleving-beyond/powerpoint-venster.svg"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke dia is in de linkerkolom geselecteerd?",
+          "opties": [
+            "dia 2",
+            "dia 1",
+            "dia 3",
+            "geen enkele dia"
+          ],
+          "antwoord": 0,
+          "uitleg": "De tweede miniatuur heeft een dikke rand: die dia staat groot rechts.",
+          "afbeelding_url": "/examenvormen/samenleving-beyond/powerpoint-venster.svg"
+        },
+        {
+          "type": "tabel",
+          "vraag": "Kijk naar het venster. Klopt dit?",
+          "rijen": [
+            "Het publiek ziet de tekst in F tijdens de voorstelling.",
+            "De pijl in D is een vorm.",
+            "Op een notitiepagina komt de dia met de tekst uit F eronder.",
+            "De volgorde van de dia's verander je in vak B."
+          ],
+          "antwoord": [
+            false,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "F is voor de spreker. B is de titel van de dia.",
+          "afbeelding_url": "/examenvormen/samenleving-beyond/powerpoint-venster.svg"
+        },
+        {
+          "casus": "Lina presenteert morgen over afval sorteren. Ze wil haar eigen geheugensteuntjes zien, het publiek moet een blad met alle dia's krijgen om op mee te schrijven, en de presentatie moet op de laptop van de school meteen als voorstelling starten.",
+          "vragen": [
+            {
+              "type": "meerkeuze",
+              "vraag": "Wat gebruikt Lina om haar geheugensteuntjes te zien terwijl het publiek alleen de dia ziet?",
+              "opties": [
+                "de presentatorweergave",
+                "de diasorteerder",
+                "een overzicht als afdruk",
+                "een diaovergang met geluid"
+              ],
+              "antwoord": 0,
+              "uitleg": "In de presentatorweergave zie je je notities op je eigen scherm."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "Voor het publiek drukt ze [[*hand-outs|notitiepagina's|een overzicht]] af.",
+              "uitleg": "Een hand-out zet meerdere dia's op één blad, met plaats om mee te schrijven."
+            },
+            {
+              "type": "invultekst",
+              "vraag": "In welke bestandsindeling bewaart ze, zodat de presentatie meteen als voorstelling start? Schrijf de afkorting.",
+              "antwoord": [
+                "ppsm",
+                "PPSM",
+                ".ppsm"
+              ],
+              "uitleg": "De s staat voor show."
+            }
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Diaovergang of animatie?",
+          "rijen": [
+            "een foto vliegt op de dia binnen",
+            "de hele dia vervaagt naar de volgende",
+            "een opsommingsregel verschijnt pas na een klik",
+            "de volgende dia schuift van rechts binnen"
+          ],
+          "antwoord": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "uitleg": "Een overgang zit tussen twee dia's, een animatie op een onderdeel van de dia.",
+          "kolommen": [
+            "diaovergang",
+            "animatie"
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welke afdruk past?",
+          "rijen": [
+            "een blad per dia met je eigen notities eronder",
+            "zes dia's op één blad voor de klas",
+            "enkel de tekst van alle dia's, zonder beelden"
+          ],
+          "antwoord": [
+            1,
+            0,
+            2
+          ],
+          "uitleg": "Notitiepagina voor de spreker, hand-out voor het publiek, overzicht voor de tekst.",
+          "kolommen": [
+            "hand-out",
+            "notitiepagina",
+            "overzicht"
+          ]
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Werkt dit op de hele presentatie of op één dia of onderdeel?",
+          "kolommen": [
+            "Hele presentatie",
+            "Eén dia of onderdeel"
+          ],
+          "items": [
+            [
+              "een thema kiezen",
+              "Hele presentatie"
+            ],
+            [
+              "een animatie op een foto",
+              "Eén dia of onderdeel"
+            ],
+            [
+              "de indeling van dia 4 aanpassen",
+              "Eén dia of onderdeel"
+            ],
+            [
+              "als ppsm bewaren",
+              "Hele presentatie"
+            ]
+          ],
+          "uitleg": "Een thema en een bestandsindeling gelden voor alles."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Je maakt een dia die bijna hetzelfde is als dia 5. Zet de stappen in de juiste volgorde.",
+          "opties": [
+            "dia 5 selecteren in de miniaturen",
+            "dia 5 dupliceren",
+            "in de kopie de tekst aanpassen",
+            "de kopie naar de juiste plaats slepen"
+          ],
+          "uitleg": "Dupliceren maakt een exacte kopie die je daarna aanpast."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je presentatie heeft twaalf dia's. Je verwijdert dia 7. Welk nummer krijgt de dia die eerst dia 9 was?",
+          "opties": [
+            "8",
+            "9",
+            "7",
+            "10"
+          ],
+          "antwoord": 0,
+          "uitleg": "Alle dia's na de verwijderde schuiven één plaats op."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een hyperlink op een dia kan naar een website of naar [[*een andere dia|een hand-out|de notities]] verwijzen.",
+          "uitleg": "Zo kan je ook binnen je eigen presentatie springen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over bestandsindelingen?",
+          "rijen": [
+            "Een pptx opent om verder te bewerken.",
+            "Een ppsm opent meteen als diavoorstelling.",
+            "Een ppsm kan je nooit meer bewerken."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Je kan een ppsm in PowerPoint zelf nog openen en aanpassen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe heet de weergave waarin alle dia's als miniaturen naast elkaar staan om ze te ordenen?",
+          "antwoord": [
+            "diasorteerder",
+            "de diasorteerder",
+            "diasorteerweergave"
+          ],
+          "uitleg": "In de diasorteerder sleep je dia's naar een andere plaats."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een publiek achteraan in de zaal kan je dia's niet lezen. Wat pas je best aan?",
+          "opties": [
+            "minder tekst per dia, in grotere letters",
+            "een donkerder thema met kleinere letters erop",
+            "meer animaties zodat de tekst opvalt",
+            "de hand-outs pas na afloop uitdelen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Weinig tekst per dia, groot genoeg om te lezen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk vak op de grote dia is de titel?",
+          "opties": [
+            "B",
+            "C",
+            "D",
+            "F"
+          ],
+          "antwoord": 0,
+          "uitleg": "B staat bovenaan in het titelvak, in grote vette letters.",
+          "afbeelding_url": "/examenvormen/samenleving-beyond/powerpoint-venster.svg"
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Je wil dat dia 4 een titel en twee vakken naast elkaar krijgt. Je verandert de [[*indeling|thema|overgang]] van die dia.",
+          "uitleg": "De indeling is het vaste patroon van vakken op één dia."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het tekstvak met de opsomming.",
+          "afbeelding_url": "/examenvormen/samenleving-beyond/powerpoint-venster.svg",
+          "zones": [
+            [
+              28.5,
+              25.0,
+              26.0,
+              25.0
+            ]
+          ],
+          "uitleg": "Het kader met de drie regels en bolletjes is een tekstvak."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Lina wil met de knop in E niet naar de volgende maar naar de laatste dia springen. Wat past ze aan? Vul aan: de ... van de actieknop.",
+          "antwoord": [
+            "actie",
+            "de actie",
+            "koppeling",
+            "hyperlink"
+          ],
+          "uitleg": "Bij een actieknop kies je zelf wat er gebeurt bij een klik.",
+          "afbeelding_url": "/examenvormen/samenleving-beyond/powerpoint-venster.svg"
+        },
+        {
+          "type": "tabel",
+          "vraag": "Voor wie is deze afdruk bedoeld?",
+          "rijen": [
+            "hand-out",
+            "notitiepagina",
+            "overzicht met alleen tekst"
+          ],
+          "antwoord": [
+            0,
+            1,
+            1
+          ],
+          "uitleg": "De hand-out is voor het publiek; notities en overzicht helpen jou voorbereiden.",
+          "kolommen": [
+            "publiek",
+            "spreker"
+          ]
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet de stappen om een presentatie voor te bereiden in een logische volgorde.",
+          "opties": [
+            "een thema voor de hele presentatie kiezen",
+            "de dia's met titels en tekst maken",
+            "animaties en overgangen toevoegen",
+            "de voorstelling vanaf het begin oefenen"
+          ],
+          "uitleg": "Eerst de opmaak en de inhoud, dan de effecten, dan oefenen."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Zie je dit tijdens de voorstelling op het grote scherm?",
+          "kolommen": [
+            "Ja",
+            "Nee"
+          ],
+          "items": [
+            [
+              "een animatie op een tekstvak",
+              "Ja"
+            ],
+            [
+              "de notities van de spreker",
+              "Nee"
+            ],
+            [
+              "de miniaturenkolom",
+              "Nee"
+            ],
+            [
+              "een actieknop",
+              "Ja"
+            ]
+          ],
+          "uitleg": "Notities en miniaturen zijn enkel voor de maker of spreker."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Op elke dia hetzelfde lettertype en dezelfde achtergrond krijg je met een [[thema]]. Het vaste patroon van vakken op één dia heet de [[indeling]].",
+          "extra": [
+            "animatie",
+            "hand-out"
+          ],
+          "uitleg": "Een thema geldt voor de hele presentatie, een indeling per dia."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elk probleem aan de oplossing.",
+          "paren": [
+            [
+              "je wil tijdens het presenteren naar de laatste dia springen",
+              "een actieknop of hyperlink"
+            ],
+            [
+              "je publiek wil meeschrijven",
+              "hand-outs afdrukken"
+            ],
+            [
+              "je wil een dia met dezelfde opmaak",
+              "de dia dupliceren"
+            ],
+            [
+              "je wil starten vanaf de dia waar je staat",
+              "voorstelling vanaf huidige dia"
+            ]
+          ],
+          "extra": [
+            "een overzicht afdrukken"
+          ],
+          "uitleg": "Elk hulpmiddel lost iets anders op."
+        },
+        {
+          "type": "open",
+          "vraag": "Leg aan een klasgenoot uit wat het verschil is tussen een diaovergang en een animatie, met een voorbeeld van elk.",
+          "antwoord": "Een diaovergang is het effect tussen twee dia's, bijvoorbeeld de dia die vervaagt naar de volgende. Een animatie werkt op iets op de dia zelf, bijvoorbeeld een opsommingsregel die pas na een klik verschijnt."
+        }
+      ]
+    },
+    {
+      "titel": "Veilig en correct online: recht, phishing en netiquette — pittig",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het adres dat verraadt dat deze mail niet van de echte bank komt.",
+          "afbeelding_url": "/examenvormen/samenleving-beyond/verdachte-mail.svg",
+          "zones": [
+            [
+              17.0,
+              10.9,
+              56.0,
+              6.2
+            ]
+          ],
+          "uitleg": "Het adres eindigt niet op de gewone naam van de bank, maar op een verzonnen naam met 'veilig-login' erbij."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het deel dat je onder tijdsdruk wil zetten.",
+          "afbeelding_url": "/examenvormen/samenleving-beyond/verdachte-mail.svg",
+          "zones": [
+            [
+              12.5,
+              46.9,
+              43.0,
+              10.9
+            ]
+          ],
+          "uitleg": "'Binnen 24 uur, anders afgesloten': haast is een klassiek trucje bij phishing."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op wat je zeker NIET mag aanklikken.",
+          "afbeelding_url": "/examenvormen/samenleving-beyond/verdachte-mail.svg",
+          "zones": [
+            [
+              13.0,
+              62.5,
+              29.0,
+              9.4
+            ]
+          ],
+          "uitleg": "Die knop leidt naar een nagemaakte site die je gegevens steelt. Ga zelf naar de site of app van je bank."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de aanhef die toont dat de afzender je naam niet kent.",
+          "afbeelding_url": "/examenvormen/samenleving-beyond/verdachte-mail.svg",
+          "zones": [
+            [
+              12.5,
+              31.2,
+              16.0,
+              6.2
+            ]
+          ],
+          "uitleg": "Een echte bank kent je naam; 'Beste klant' is algemeen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Kijk naar de mail. Klopt dit?",
+          "rijen": [
+            "Het logo onderaan bewijst dat de mail echt is.",
+            "De taalfout 'aktiviteit' is een extra waarschuwing.",
+            "Een echte bank vraagt nooit om via een link je gegevens te bevestigen.",
+            "Omdat het onderwerp dringend is, klik je best meteen."
+          ],
+          "antwoord": [
+            false,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Een logo kan iedereen kopiëren. Haast en taalfouten zijn alarmsignalen.",
+          "afbeelding_url": "/examenvormen/samenleving-beyond/verdachte-mail.svg"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat doe je best met deze mail?",
+          "opties": [
+            "niet klikken en zelf in de app van je bank kijken",
+            "op de knop klikken en enkel je naam invullen, niet je code",
+            "antwoorden en vragen of de mail wel echt van de bank komt",
+            "de mail doorsturen naar al je vrienden als waarschuwing"
+          ],
+          "antwoord": 0,
+          "uitleg": "Contact zoek je zelf langs de echte site of app, nooit via de mail.",
+          "afbeelding_url": "/examenvormen/samenleving-beyond/verdachte-mail.svg"
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe heet deze vorm van oplichting? Eén woord.",
+          "antwoord": [
+            "phishing",
+            "phising",
+            "Phishing"
+          ],
+          "uitleg": "Phishing: 'hengelen' naar je gegevens.",
+          "afbeelding_url": "/examenvormen/samenleving-beyond/verdachte-mail.svg"
+        },
+        {
+          "casus": "Jana maakt een affiche voor de schoolfuif. Ze gebruikt een foto die ze online vond zonder vermelding, een tekening onder creative commons met naamsvermelding, en een foto van haar vriend Ruben die op de vorige fuif danste. Ze wil de affiche ook op de schoolpagina zetten.",
+          "vragen": [
+            {
+              "type": "meerkeuze",
+              "vraag": "Wat geldt voor de foto zonder vermelding?",
+              "opties": [
+                "ze is beschermd, ze vraagt toelating",
+                "ze is vrij omdat er geen enkele naam bij staat",
+                "ze mag als Jana de foto wat bijknipt",
+                "ze is vrij omdat ze voor school is"
+              ],
+              "antwoord": 0,
+              "uitleg": "Zonder vermelding ga je ervan uit dat het werk beschermd is."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "Bij de tekening moet Jana [[*de naam van de maker vermelden|niets doen|de maker betalen]].",
+              "uitleg": "Naamsvermelding is de voorwaarde van die licentie."
+            },
+            {
+              "type": "invultekst",
+              "vraag": "Welk recht van Ruben speelt mee als ze zijn foto gebruikt?",
+              "antwoord": [
+                "portretrecht",
+                "het portretrecht"
+              ],
+              "uitleg": "Ruben is herkenbaar, dus beslist hij mee over het gebruik van zijn beeld."
+            }
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welk recht speelt hier?",
+          "rijen": [
+            "een fotograaf beslist wie zijn foto mag afdrukken",
+            "je wil niet dat een foto van jou online staat",
+            "een winkel vraagt meer gegevens dan nodig",
+            "een schrijver beslist over een vertaling van zijn boek"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            0
+          ],
+          "uitleg": "Maker, wie erop staat, of je persoonsgegevens.",
+          "kolommen": [
+            "auteursrecht",
+            "portretrecht",
+            "privacyrecht"
+          ]
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Sterk of zwak wachtwoordgedrag?",
+          "kolommen": [
+            "Sterk",
+            "Zwak"
+          ],
+          "items": [
+            [
+              "een lange zin van vier losse woorden",
+              "Sterk"
+            ],
+            [
+              "je naam met je geboortejaar",
+              "Zwak"
+            ],
+            [
+              "overal hetzelfde wachtwoord",
+              "Zwak"
+            ],
+            [
+              "tweestapsverificatie aanzetten",
+              "Sterk"
+            ]
+          ],
+          "uitleg": "Lang, niet te raden, uniek en met een tweede slot."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Een klasgenoot wordt online gepest. Zet de stappen in een goede volgorde.",
+          "opties": [
+            "schermafbeeldingen van de berichten nemen",
+            "niet terugschelden of meedoen",
+            "het melden aan een leerkracht of vertrouwenspersoon",
+            "het account of bericht melden op het platform"
+          ],
+          "uitleg": "Eerst bewijs bewaren, dan niet meedoen en hulp halen."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elk begrip aan de uitleg.",
+          "paren": [
+            [
+              "netiquette",
+              "omgangsregels voor hoe je je online gedraagt"
+            ],
+            [
+              "creative commons",
+              "toelating vooraf, onder voorwaarden"
+            ],
+            [
+              "tweestapsverificatie",
+              "een tweede slot naast je wachtwoord"
+            ],
+            [
+              "nepnieuws",
+              "met opzet onjuiste berichten als echt nieuws"
+            ]
+          ],
+          "extra": [
+            "een sterk wachtwoord"
+          ],
+          "uitleg": "Elk begrip hoort bij een andere regel online."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Nepnieuws nakijken: helpt dit?",
+          "rijen": [
+            "nakijken of ernstige media het ook brengen",
+            "de foto omgekeerd opzoeken",
+            "kijken hoeveel keer het al gedeeld werd",
+            "nagaan wie het bericht eerst plaatste"
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Veel gedeeld betekent niet dat het klopt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoelang na het overlijden van een schrijver mag je zijn roman vrij gebruiken in ons land?",
+          "opties": [
+            "na zeventig jaar",
+            "na tien jaar",
+            "meteen bij het overlijden",
+            "na honderd jaar"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het auteursrecht loopt nog zeventig jaar na het overlijden."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een kort stukje uit een boek in je werkje overnemen mag, als je [[*de bron vermeldt|het in hoofdletters zet|de auteur een mail stuurt]].",
+          "uitleg": "Kort citeren met bronvermelding mag."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welke rechten heb je over gegevens die een bedrijf over jou bijhoudt?",
+          "rijen": [
+            "ze opvragen en inkijken",
+            "fouten laten verbeteren",
+            "ze in veel gevallen laten wissen",
+            "ze verkopen aan een ander bedrijf"
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Het privacyrecht geeft je controle over je eigen gegevens."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Wie een werk maakt, heeft het [[auteursrecht]]. Wie herkenbaar op een foto staat, heeft het [[portretrecht]].",
+          "extra": [
+            "privacyrecht",
+            "netiquette"
+          ],
+          "uitleg": "Bij een foto van een persoon spelen dus twee rechten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je krijgt een sms: 'Je pakje wacht, betaal 1,99 euro verzendkosten via deze link.' Je verwacht geen pakje. Wat doe je?",
+          "opties": [
+            "niet klikken en het bericht verwijderen",
+            "snel betalen, want het is maar een klein bedrag",
+            "op de link klikken om te zien wat het is",
+            "terugsms'en met je adres zodat het pakje komt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Ook een klein bedrag is een lokmiddel om je kaartgegevens te stelen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Hoort dit bij goede netiquette?",
+          "rijen": [
+            "een bericht helemaal in hoofdletters tikken",
+            "eerst nadenken voor je reageert in een groep",
+            "een privébericht doorsturen zonder te vragen"
+          ],
+          "antwoord": [
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Netiquette vraagt respect, ook online."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Welke afkorting gebruik je voor een licentie waarmee de maker vooraf toelating geeft onder voorwaarden? Twee letters.",
+          "antwoord": [
+            "CC",
+            "cc"
+          ],
+          "uitleg": "CC staat voor creative commons."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Sterk wachtwoord of niet?",
+          "rijen": [
+            "Zomer2026",
+            "fiets-wolk-tafel-regen",
+            "123456"
+          ],
+          "antwoord": [
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Lengte en losse woorden helpen meer dan een woord met een jaartal."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Iemand belt en zegt dat hij van de helpdesk is. Hij vraagt je wachtwoord om een probleem op te lossen. Wat doe je?",
+          "opties": [
+            "je geeft het niet en hangt op",
+            "je geeft het, want hij kent je naam al",
+            "je geeft enkel de eerste helft ervan",
+            "je stuurt het liever veilig via mail door"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een echte helpdesk vraagt nooit je wachtwoord."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Met tweestapsverificatie kan iemand die je wachtwoord kent [[*toch niet zomaar binnen|meteen binnen|enkel 's nachts binnen]].",
+          "uitleg": "Hij heeft ook de tweede code of je vinger nodig."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Mag dit zonder toelating?",
+          "rijen": [
+            "een foto van een herkenbare klasgenoot online zetten",
+            "een werk delen waarvan de maker zeventig jaar geleden stierf, in ons land",
+            "een liedje van een bekende zanger onder je eigen filmpje zetten"
+          ],
+          "antwoord": [
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Portretrecht en auteursrecht, behalve als het werk al vrij is."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elk alarmsignaal aan een voorbeeld.",
+          "paren": [
+            [
+              "vreemd afzenderadres",
+              "info@bpost-pakjes.co"
+            ],
+            [
+              "tijdsdruk",
+              "binnen 2 uur reageren of je verliest alles"
+            ],
+            [
+              "algemene aanhef",
+              "Beste gebruiker"
+            ]
+          ],
+          "extra": [
+            "een bekende vriend die je bij naam noemt"
+          ],
+          "uitleg": "Bij phishing komen zulke signalen vaak samen voor."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Persoonsgegeven of niet?",
+          "kolommen": [
+            "Persoonsgegeven",
+            "Geen persoonsgegeven"
+          ],
+          "items": [
+            [
+              "je thuisadres",
+              "Persoonsgegeven"
+            ],
+            [
+              "een foto van jou",
+              "Persoonsgegeven"
+            ],
+            [
+              "de openingsuren van een winkel",
+              "Geen persoonsgegeven"
+            ],
+            [
+              "je rijksregisternummer",
+              "Persoonsgegeven"
+            ]
+          ],
+          "uitleg": "Alles wat over jou als persoon gaat, valt onder het privacyrecht."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe zoek je na waar een verdachte foto eerder online opdook? Vul aan: de foto ... opzoeken.",
+          "antwoord": [
+            "omgekeerd",
+            "omgekeerd opzoeken"
+          ],
+          "uitleg": "Zo zie je of een oude foto bij een nieuw bericht gezet werd."
+        },
+        {
+          "type": "open",
+          "vraag": "Een vriend wil een grappige foto van een klasgenoot in de klasgroep zetten. Leg uit welke regels meespelen en wat hij best doet.",
+          "antwoord": "Wie herkenbaar op de foto staat heeft portretrecht: hij moet eerst toelating vragen. Doorsturen zonder toelating kan kwetsend zijn en zelfs cyberpesten worden. Zegt de klasgenoot nee, dan zet hij de foto niet online."
+        }
+      ]
     }
   ]
 }

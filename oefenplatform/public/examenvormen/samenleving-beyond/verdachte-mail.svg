@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Een mail in je inbox</text>
+<rect x="90" y="55" width="820" height="540" rx="10" fill="#ffffff" stroke="#d9d4c4" stroke-width="2"/>
+<rect x="90" y="55" width="820" height="120" rx="10" fill="#f4f4f2" stroke="#d9d4c4" stroke-width="1"/>
+<text x="120" y="95" font-size="18" text-anchor="start" fill="#d9d4c4">Van:</text>
+<text x="175" y="95" font-size="20" text-anchor="start" fill="#24331b">Jouw Bank &lt;klantendienst@jouwbank-veilig-login.net&gt;</text>
+<circle cx="860" cy="90" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="860" y="97" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<text x="120" y="145" font-size="18" text-anchor="start" fill="#d9d4c4">Onderwerp:</text>
+<text x="225" y="145" font-size="20" text-anchor="start" fill="#24331b" font-weight="bold">Dringend: je rekening wordt geblokkeerd</text>
+<circle cx="860" cy="140" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="860" y="147" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<text x="130" y="225" font-size="21" text-anchor="start" fill="#24331b">Beste klant,</text>
+<circle cx="330" cy="218" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="330" y="225" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<text x="130" y="285" font-size="20" text-anchor="start" fill="#24331b">Wij hebben ongewone aktiviteit op je rekening gezien.</text>
+<text x="130" y="325" font-size="20" text-anchor="start" fill="#24331b">Bevestig binnen 24 uur je gegevens,</text>
+<text x="130" y="355" font-size="20" text-anchor="start" fill="#24331b">anders wordt je rekening afgesloten.</text>
+<circle cx="560" cy="340" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="560" y="347" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">D</text>
+<rect x="130" y="400" width="290" height="60" rx="10" fill="#3f7a3a" stroke="#3f7a3a" stroke-width="1"/>
+<text x="275" y="438" font-size="21" text-anchor="middle" fill="#ffffff" font-weight="bold">Gegevens bevestigen</text>
+<circle cx="470" cy="430" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="470" y="437" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">E</text>
+<text x="130" y="520" font-size="19" text-anchor="start" fill="#24331b">Met vriendelijke groet,</text>
+<text x="130" y="552" font-size="19" text-anchor="start" fill="#24331b" font-weight="bold">Je bank</text>
+<rect x="240" y="528" width="60" height="34" rx="6" fill="#d9e4ee" stroke="#d9d4c4" stroke-width="1"/>
+<circle cx="360" cy="545" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="360" y="552" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">F</text>
+</svg>
