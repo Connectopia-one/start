@@ -1,0 +1,4710 @@
+{
+  "hoofdstukken": [
+    {
+      "titel": "Problemen oplossen: van situatie naar wiskunde — pittig",
+      "niveau": "beyond-dubbele-finaliteit",
+      "gratis": false,
+      "vragen": [
+        {
+          "casus": "Een schoolreis kost voor de bus in totaal \\(840\\) euro. Er gaan \\(56\\) leerlingen en \\(4\\) begeleiders mee. De begeleiders betalen niets. Een bus heeft \\(50\\) plaatsen, dus de school huurt twee bussen. De \\(840\\) euro is de prijs voor beide bussen samen.",
+          "vragen": [
+            {
+              "type": "volgorde",
+              "vraag": "Zet de vier stappen die je hier doorloopt in volgorde.",
+              "opties": [
+                "begrijpen wat gegeven en gevraagd is",
+                "een plan maken: de prijs verdelen over de betalende leerlingen",
+                "het plan uitvoeren en rekenen",
+                "reflecteren: is het antwoord zinvol?"
+              ],
+              "uitleg": "Begrijp, plan, voer uit, reflecteer."
+            },
+            {
+              "type": "invultekst",
+              "vraag": "Hoeveel euro betaalt elke leerling?",
+              "antwoord": [
+                "15",
+                "15 euro"
+              ],
+              "uitleg": "\\(840 : 56 = 15\\). De begeleiders betalen niets, dus je deelt enkel door de leerlingen."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "Het gegeven dat een bus \\(50\\) plaatsen heeft, heb je voor deze vraag [[*niet|wel]] nodig.",
+              "uitleg": "Niet elk gegeven in een opgave is nodig."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Een leerling deelt \\(840\\) door \\(60\\) en vindt \\(14\\) euro. Welke stap liep fout?",
+              "opties": [
+                "het begrijpen: de begeleiders betalen niet mee",
+                "het rekenen: \\(840 : 60\\) is helemaal geen \\(14\\)",
+                "het reflecteren: \\(14\\) euro is veel te duur voor een bus",
+                "er liep niets fout, \\(14\\) is juist"
+              ],
+              "antwoord": 0,
+              "uitleg": "\\(840 : 60\\) is wel \\(14\\), maar de vraag ging over wie betaalt."
+            }
+          ]
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elke situatie aan de strategie die het best past.",
+          "paren": [
+            [
+              "je weet hoeveel geld er overblijft en zoekt het beginbedrag",
+              "terugrekenen"
+            ],
+            [
+              "een opgave over een tuin met paden en perken",
+              "een schets maken"
+            ],
+            [
+              "je zoekt twee getallen met som \\(20\\) en product \\(96\\)",
+              "slim gissen en testen"
+            ],
+            [
+              "je weet niet hoeveel snoepjes er in een doos zitten",
+              "een variabele invoeren"
+            ]
+          ],
+          "extra": [
+            "een rekentoestel weglaten"
+          ],
+          "uitleg": "Een heuristiek is een hulp, geen vast recept."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Je hebt na het winkelen nog \\(12\\) euro. Je gaf de helft van je geld uit aan kleren en daarna nog \\(8\\) euro aan eten. Hoeveel had je in het begin?",
+          "antwoord": [
+            "40",
+            "40 euro"
+          ],
+          "uitleg": "Terugrekenen: voor het eten had je \\(20\\) euro, dat was de helft, dus \\(40\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je uitkomst is \\(13{,}2\\). De vraag was hoeveel dozen van \\(6\\) eieren je nodig hebt. Wat antwoord je?",
+          "opties": [
+            "\\(14\\) dozen",
+            "\\(13\\) dozen",
+            "\\(13{,}2\\) dozen",
+            "\\(79{,}2\\) dozen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Demathematiseren: met \\(13\\) dozen kom je tekort, dus naar boven afronden."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is dit een vraagstuk of een probleem?",
+          "rijen": [
+            "een opgave die je met de leerstof van één hoofdstuk oplost",
+            "een opgave waarvoor je leerstof uit verschillende hoofdstukken combineert",
+            "een opgave waarbij je zelf moet zoeken welke wiskunde past"
+          ],
+          "antwoord": [
+            0,
+            1,
+            1
+          ],
+          "uitleg": "Bij een probleem ligt de weg niet meteen vast.",
+          "kolommen": [
+            "vraagstuk",
+            "probleem"
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over het examen?",
+          "rijen": [
+            "Je mag ICT gebruiken om grafieken te tekenen en kengetallen te berekenen.",
+            "Je mag een gsm gebruiken als rekentoestel.",
+            "Er is geen giscorrectie.",
+            "Je rondt tussenresultaten best meteen af."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Rond pas af op het einde."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Iemand berekent dat een kind \\(4{,}2\\) meter groot is. Welke stap moet dat opvangen?",
+          "opties": [
+            "reflecteren",
+            "begrijpen",
+            "een plan maken",
+            "mathematiseren"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij het terugkijken zie je dat de uitkomst onmogelijk is."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "In een rij stoelen staat de eerste op \\(2\\) meter van de muur, en elke volgende \\(1{,}5\\) meter verder. Op hoeveel meter van de muur staat de tiende stoel?",
+          "antwoord": [
+            "15,5",
+            "15.5",
+            "15,5 m"
+          ],
+          "uitleg": "Zoek het patroon: \\(2 + 9 \\cdot 1{,}5\\)."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Een concrete situatie omzetten naar wiskundetaal heet [[mathematiseren]]. De uitkomst terugvertalen naar de situatie heet [[demathematiseren]]. Een strategie zoals een schets maken heet een [[heuristiek]].",
+          "extra": [
+            "simuleren",
+            "formule"
+          ],
+          "uitleg": "Van situatie naar wiskunde en terug."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je zoekt hoeveel handdrukken er zijn als \\(6\\) mensen elkaar elk één keer de hand geven. Welke aanpak is het handigst?",
+          "opties": [
+            "eerst met minder mensen proberen en een patroon zoeken",
+            "meteen \\(6 \\cdot 6\\) rekenen, want iedereen geeft een hand",
+            "het antwoord gokken en daarna niet meer nakijken",
+            "alle handdrukken op een rekentoestel optellen"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(1\\), \\(3\\), \\(6\\), \\(10\\), \\(15\\): het antwoord is \\(15\\)."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel handdrukken zijn dat bij \\(6\\) mensen?",
+          "antwoord": [
+            "15",
+            "vijftien"
+          ],
+          "uitleg": "Elke persoon geeft er \\(5\\), maar elke handdruk telt dan dubbel: \\(6 \\cdot 5 : 2\\)."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Is dit een opgave met of zonder context?",
+          "kolommen": [
+            "met context",
+            "zonder context"
+          ],
+          "items": [
+            [
+              "Los op: \\(3x + 5 = 20\\).",
+              "zonder context"
+            ],
+            [
+              "Hoeveel tegels heb je nodig voor een terras van \\(4\\) bij \\(3\\) meter?",
+              "met context"
+            ],
+            [
+              "Bereken \\(\\log_{2} 64\\).",
+              "zonder context"
+            ],
+            [
+              "Na hoeveel jaar is je spaargeld verdubbeld?",
+              "met context"
+            ]
+          ],
+          "uitleg": "Context betekent een situatie uit de werkelijkheid."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een opgave geeft de prijzen van drie telefoonabonnementen bij verschillende verbruiken. Welke voorstelling toont het snelst welk abonnement wanneer het goedkoopst is?",
+          "opties": [
+            "een grafiek met de drie abonnementen samen",
+            "een lange tekst met alle prijzen",
+            "enkel het duurste abonnement uitrekenen",
+            "de prijzen in willekeurige volgorde opschrijven"
+          ],
+          "antwoord": 0,
+          "uitleg": "In een grafiek zie je meteen waar de lijnen elkaar snijden."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een getal verdubbel je, je telt er \\(7\\) bij en je krijgt \\(31\\). Welk getal was het?",
+          "antwoord": [
+            "12",
+            "twaalf"
+          ],
+          "uitleg": "Terugrekenen: \\((31 - 7) : 2\\)."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is dit een goede aanpak om je antwoord te controleren?",
+          "rijen": [
+            "je uitkomst invullen in de oorspronkelijke opgave",
+            "nagaan of de eenheid klopt",
+            "kijken of de grootte van het antwoord realistisch is",
+            "de vraag overslaan als het antwoord een kommagetal is"
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Reflecteren is meer dan nog eens hetzelfde rekenen."
+        },
+        {
+          "type": "open",
+          "vraag": "Leg uit waarom het nuttig is om bij een lange opgave eerst te onderstrepen wat gegeven en wat gevraagd is.",
+          "antwoord": "Zo zie je welke gegevens je echt nodig hebt en wat het doel is. Dat helpt bij het begrijpen van het probleem en voorkomt dat je een andere vraag beantwoordt dan gesteld.",
+          "uitleg": "Begrijpen is de eerste stap."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een spel: je gooit twee dobbelstenen en wint als de som \\(9\\) of meer is. Je speelt het honderd keer na met een rekenblad. Hoe heet die strategie?",
+          "opties": [
+            "simuleren",
+            "terugrekenen",
+            "een variabele invoeren",
+            "symmetrie gebruiken"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je bootst het experiment vaak na."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een rechthoekige tuin is \\(3\\) meter langer dan breed en heeft een omtrek van \\(34\\) meter. Hoe breed is de tuin?",
+          "antwoord": [
+            "7",
+            "7 m",
+            "zeven"
+          ],
+          "uitleg": "Met breedte \\(x\\): \\(2x + 2(x + 3) = 34\\), dus \\(4x = 28\\)."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een heuristiek is [[*een hulp die je op weg zet|een stappenplan dat altijd werkt|een formule uit het formularium]].",
+          "uitleg": "Ze geeft geen garantie, wel een richting."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je rekenapp geeft \\(2{,}6666667\\) en de vraag vraagt twee cijfers na de komma. Wat noteer je?",
+          "opties": [
+            "\\(2{,}67\\)",
+            "\\(2{,}66\\)",
+            "\\(2{,}7\\)",
+            "\\(3\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het derde cijfer is een \\(6\\), dus je rondt naar boven af."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welke strategie gebruik je hier?",
+          "rijen": [
+            "je tekent een boomdiagram van alle mogelijkheden",
+            "je merkt dat een figuur links en rechts gelijk is en rekent maar één helft uit",
+            "je probeert \\(x = 0\\) en \\(x = 1\\) om een formule te controleren"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Elke strategie past bij een ander soort probleem.",
+          "kolommen": [
+            "systematisch opsommen",
+            "symmetrie gebruiken",
+            "een eenvoudig geval proberen"
+          ]
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een bus vertrekt elke \\(12\\) minuten, een tram elke \\(18\\) minuten. Om \\(8\\) uur vertrekken ze samen. Na hoeveel minuten vertrekken ze weer samen?",
+          "antwoord": [
+            "36",
+            "36 minuten"
+          ],
+          "uitleg": "Schrijf de vertrektijden op tot je een gemeenschappelijke vindt: \\(36\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom splits je een groot probleem in deelproblemen?",
+          "opties": [
+            "Kleinere stukken zijn makkelijker apart op te lossen.",
+            "Dan heb je minder gegevens nodig uit de opgave.",
+            "Dan hoef je achteraf niet meer te reflecteren op je antwoord.",
+            "Dan wordt het antwoord altijd een geheel getal."
+          ],
+          "antwoord": 0,
+          "uitleg": "Elk deelprobleem is een stap naar de oplossing."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een fles van \\(1{,}5\\) liter vult \\(6\\) glazen. Hoeveel milliliter gaat er in één glas?",
+          "antwoord": [
+            "250",
+            "250 mL",
+            "250 ml"
+          ],
+          "uitleg": "Eerst omzetten: \\(1500 : 6\\)."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Na het mathematiseren vind je \\(x = -3\\) voor de leeftijd van een kind. Bij het demathematiseren besluit je dat [[*die oplossing niet past bij de situatie|het kind \\(3\\) jaar is|het kind \\(-3\\) jaar is]].",
+          "uitleg": "Een negatieve leeftijd kan niet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een opgave zegt: « Twee getallen verschillen \\(5\\) en hun som is \\(27\\). » Welke getallen zijn het?",
+          "opties": [
+            "\\(11\\) en \\(16\\)",
+            "\\(10\\) en \\(17\\)",
+            "\\(12\\) en \\(15\\)",
+            "\\(5\\) en \\(22\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Gissen en testen of met een variabele: \\(x + (x + 5) = 27\\)."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een klas verkoopt wafels: \\(3\\) euro per stuk. Ze kochten voor \\(90\\) euro ingrediënten en willen \\(150\\) euro winst. Hoeveel wafels moeten ze verkopen?",
+          "antwoord": [
+            "80",
+            "tachtig"
+          ],
+          "uitleg": "Ze moeten \\(240\\) euro ontvangen: \\(240 : 3 = 80\\)."
+        }
+      ]
+    },
+    {
+      "titel": "Machtswortels en machten met rationale exponent — pittig",
+      "niveau": "beyond-dubbele-finaliteit",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel is \\(\\left(\\sqrt[3]{8}\\right)^{2} + 16^{\\frac{3}{4}}\\)?",
+          "opties": [
+            "\\(12\\)",
+            "\\(10\\)",
+            "\\(16\\)",
+            "\\(20\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(\\sqrt[3]{8} = 2\\), dus \\(2^{2} = 4\\). \\(16^{\\frac{3}{4}} = \\left(\\sqrt[4]{16}\\right)^{3} = 2^{3} = 8\\). Samen \\(4 + 8 = 12\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke uitdrukking is gelijk aan \\(\\sqrt[5]{a^{3}}\\) (met \\(a > 0\\))?",
+          "opties": [
+            "\\(a^{\\frac{3}{5}}\\)",
+            "\\(a^{\\frac{5}{3}}\\)",
+            "\\(a^{15}\\)",
+            "\\(a^{-2}\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "De exponent onder de wortel komt in de teller, de wortelexponent in de noemer: \\(\\sqrt[n]{a^{m}} = a^{\\frac{m}{n}}\\)."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Schrijf \\(\\dfrac{\\sqrt{x} \\cdot \\sqrt[3]{x}}{x}\\) als één macht van \\(x\\) (met \\(x > 0\\)). Geef enkel de exponent als breuk, bijvoorbeeld 2/7.",
+          "antwoord": [
+            "-1/6",
+            "−1/6",
+            "-1 / 6"
+          ],
+          "uitleg": "\\(x^{\\frac{1}{2}} \\cdot x^{\\frac{1}{3}} = x^{\\frac{5}{6}}\\). Delen door \\(x^{1}\\) geeft \\(x^{\\frac{5}{6} - 1} = x^{-\\frac{1}{6}}\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een leerling schrijft: \\(\\sqrt{9 + 16} = \\sqrt{9} + \\sqrt{16} = 7\\). Wat klopt?",
+          "opties": [
+            "Fout: \\(\\sqrt{25} = 5\\). Een wortel van een som is niet de som van de wortels.",
+            "Juist: wortels mag je altijd over een som verdelen.",
+            "Fout: het antwoord moet \\(\\pm 7\\) zijn.",
+            "Juist, maar enkel omdat \\(9\\) en \\(16\\) kwadraten zijn."
+          ],
+          "antwoord": 0,
+          "uitleg": "Over een product mag je een wortel verdelen (\\(\\sqrt{ab} = \\sqrt{a}\\sqrt{b}\\)), over een som niet."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Vereenvoudig (met \\(x > 0\\)). Welk resultaat hoort bij welke uitdrukking?",
+          "rijen": [
+            "\\(x^{\\frac{1}{2}} \\cdot x^{\\frac{1}{2}}\\)",
+            "\\(\\left(x^{\\frac{2}{3}}\\right)^{3}\\)",
+            "\\(\\dfrac{x^{\\frac{1}{4}}}{x^{\\frac{1}{4}}}\\)",
+            "\\(\\sqrt{x^{6}}\\)"
+          ],
+          "antwoord": [
+            1,
+            2,
+            0,
+            3
+          ],
+          "uitleg": "Bij een product tel je exponenten op, bij een macht van een macht vermenigvuldig je ze, bij een quotiënt trek je ze af.",
+          "kolommen": [
+            "\\(1\\)",
+            "\\(x\\)",
+            "\\(x^{2}\\)",
+            "\\(x^{3}\\)"
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een leerling zegt: \\(2^{-3}\\) is negatief, want de exponent is negatief. Wat klopt?",
+          "opties": [
+            "Fout: \\(2^{-3} = \\frac{1}{8}\\), en dat is positief.",
+            "Juist: \\(2^{-3} = -8\\).",
+            "Juist: \\(2^{-3} = -6\\).",
+            "Fout: \\(2^{-3} = 8\\)."
+          ],
+          "antwoord": 0,
+          "uitleg": "Een negatieve exponent betekent het omgekeerde nemen, niet het teken veranderen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Schrijf \\(\\sqrt[3]{x^{2}} \\cdot \\sqrt[6]{x^{2}}\\) als één macht van \\(x\\) (met \\(x > 0\\)). Geef enkel de exponent.",
+          "antwoord": "1",
+          "uitleg": "\\(x^{\\frac{2}{3}} \\cdot x^{\\frac{1}{3}} = x^{1}\\). Het resultaat is gewoon \\(x\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke \\(x\\) voldoet aan \\(x^{\\frac{3}{2}} = 27\\)?",
+          "opties": [
+            "\\(9\\)",
+            "\\(18\\)",
+            "\\(3\\)",
+            "\\(\\sqrt{27}\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Verhef beide leden tot de macht \\(\\frac{2}{3}\\): \\(x = 27^{\\frac{2}{3}} = 3^{2} = 9\\). Controle: \\(9^{\\frac{3}{2}} = 3^{3} = 27\\)."
+        },
+        {
+          "casus": "Een kubusvormige waterton heeft een inhoud van \\(216\\) liter, dus \\(216\\) kubieke decimeter. Een tweede, grotere ton heeft een inhoud van \\(512\\) kubieke decimeter.",
+          "vragen": [
+            {
+              "type": "invultekst",
+              "vraag": "Hoe lang is een ribbe van de eerste ton, in dm?",
+              "antwoord": [
+                "6",
+                "6 dm",
+                "zes"
+              ],
+              "uitleg": "\\(\\sqrt[3]{216} = 6\\)."
+            },
+            {
+              "type": "invultekst",
+              "vraag": "Hoe lang is een ribbe van de tweede ton, in dm?",
+              "antwoord": [
+                "8",
+                "8 dm",
+                "acht"
+              ],
+              "uitleg": "\\(\\sqrt[3]{512} = 8\\)."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Hoe schrijf je de ribbe van een kubus met inhoud \\(V\\) als macht?",
+              "opties": [
+                "\\(V^{\\tfrac{1}{3}}\\)",
+                "\\(V^{3}\\)",
+                "\\(V^{-\\tfrac{1}{3}}\\)",
+                "\\(3^{V}\\)"
+              ],
+              "antwoord": 0,
+              "uitleg": "Een derdemachtswortel is een macht met exponent een derde."
+            }
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Hoeveel is dit?",
+          "rijen": [
+            "\\(32^{\\tfrac{2}{5}}\\)",
+            "\\(8^{\\tfrac{2}{3}}\\)",
+            "\\(9^{\\tfrac{3}{2}}\\)",
+            "\\(64^{\\tfrac{1}{3}}\\)",
+            "\\(81^{\\tfrac{3}{4}}\\)"
+          ],
+          "antwoord": [
+            0,
+            0,
+            1,
+            0,
+            1
+          ],
+          "uitleg": "Eerst de wortel, dan de macht: dat houdt de getallen klein.",
+          "kolommen": [
+            "\\(4\\)",
+            "\\(27\\)"
+          ]
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel is \\(4^{-\\tfrac{1}{2}}\\)? Schrijf het als decimaal getal.",
+          "antwoord": [
+            "0,5",
+            "0.5",
+            "1/2"
+          ],
+          "uitleg": "\\(4^{\\tfrac{1}{2}} = 2\\), en de negatieve exponent keert om."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke uitdrukking is gelijk aan \\(a^{\\tfrac{3}{4}} \\cdot a^{\\tfrac{1}{4}}\\)?",
+          "opties": [
+            "\\(a\\)",
+            "\\(a^{\\tfrac{3}{16}}\\)",
+            "\\(a^{\\tfrac{1}{2}}\\)",
+            "\\(a^{3}\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Drie vierde plus een vierde is één."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke uitdrukking is gelijk aan \\(\\left(a^{\\tfrac{2}{3}}\\right)^{6}\\)?",
+          "opties": [
+            "\\(a^{4}\\)",
+            "\\(a^{\\tfrac{20}{3}}\\)",
+            "\\(a^{9}\\)",
+            "\\(a^{\\tfrac{1}{9}}\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Macht van een macht: \\(\\tfrac{2}{3} \\cdot 6 = 4\\)."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit?",
+          "rijen": [
+            "\\(5^{0} = 1\\)",
+            "\\(\\left(2 + 3\\right)^{2} = 2^{2} + 3^{2}\\)",
+            "\\(\\left(2 \\cdot 3\\right)^{2} = 2^{2} \\cdot 3^{2}\\)",
+            "\\(2^{3} \\cdot 3^{2} = 6^{5}\\)"
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Een macht van een product mag je verdelen, een macht van een som niet; verschillende grondtallen mag je niet samennemen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Tussen welke twee gehele getallen ligt \\(\\sqrt[3]{50}\\)? Geef het kleinste.",
+          "antwoord": [
+            "3",
+            "drie"
+          ],
+          "uitleg": "\\(3^{3} = 27\\) en \\(4^{3} = 64\\)."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet van klein naar groot.",
+          "opties": [
+            "\\(2^{-2}\\)",
+            "\\(16^{\\tfrac{1}{4}}\\)",
+            "\\(\\sqrt{9}\\)",
+            "\\(8^{\\tfrac{2}{3}}\\)",
+            "\\(2^{3}\\)"
+          ],
+          "uitleg": "\\(0{,}25\\), \\(2\\), \\(3\\), \\(4\\) en \\(8\\)."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "\\(\\sqrt[4]{-16}\\) [[*bestaat niet|is gelijk aan \\(-2\\)|is gelijk aan \\(2\\)]] binnen de reële getallen, maar \\(\\sqrt[3]{-8}\\) [[*is gelijk aan \\(-2\\)|bestaat niet|is gelijk aan \\(2\\)]].",
+          "uitleg": "Een even wortel uit een negatief getal bestaat niet; een oneven wel."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een leerling rekent \\(\\sqrt{7}\\) eerst af op \\(2{,}6\\) en rekent daarna \\(\\left(\\sqrt{7}\\right)^{2}\\) uit als \\(2{,}6^{2} = 6{,}76\\). Wat is er mis?",
+          "opties": [
+            "Hij rondde te vroeg af; het juiste antwoord is precies \\(7\\).",
+            "Niets, \\(6{,}76\\) is het juiste antwoord, want hij rekende correct.",
+            "Hij moest \\(\\sqrt{7}\\) eerst afronden op \\(3\\), dat is eenvoudiger.",
+            "Een wortel mag je nooit in het kwadraat brengen."
+          ],
+          "antwoord": 0,
+          "uitleg": "Rond pas af op het einde."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe schrijf je \\(\\sqrt[4]{x^{3}}\\) als macht van \\(x\\)? Geef enkel de exponent als breuk.",
+          "antwoord": [
+            "3/4",
+            "3 / 4"
+          ],
+          "uitleg": "De macht onder de wortel komt in de teller, de wortelexponent in de noemer."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elke wortel aan de macht die hetzelfde betekent.",
+          "paren": [
+            [
+              "\\(\\sqrt{a}\\)",
+              "\\(a^{\\tfrac{1}{2}}\\)"
+            ],
+            [
+              "\\(\\sqrt[3]{a}\\)",
+              "\\(a^{\\tfrac{1}{3}}\\)"
+            ],
+            [
+              "\\(\\sqrt[3]{a^{2}}\\)",
+              "\\(a^{\\tfrac{2}{3}}\\)"
+            ],
+            [
+              "\\(\\sqrt{a^{3}}\\)",
+              "\\(a^{\\tfrac{3}{2}}\\)"
+            ]
+          ],
+          "extra": [
+            "\\(a^{3}\\)"
+          ],
+          "uitleg": "Teller: de macht. Noemer: de wortel."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een vierkant tuinhuis heeft een vloer van \\(20\\) vierkante meter. Hoe lang is een zijde, afgerond op een centimeter?",
+          "opties": [
+            "\\(4{,}47\\) m",
+            "\\(5{,}00\\) m",
+            "\\(10{,}00\\) m",
+            "\\(4{,}00\\) m"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(\\sqrt{20} \\approx 4{,}472\\)."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel is \\(\\dfrac{2^{5} \\cdot 2^{-2}}{2^{2}}\\)?",
+          "antwoord": [
+            "2",
+            "twee"
+          ],
+          "uitleg": "\\(2^{5 - 2 - 2} = 2^{1}\\)."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Is het resultaat een geheel getal of niet?",
+          "kolommen": [
+            "geheel getal",
+            "geen geheel getal"
+          ],
+          "items": [
+            [
+              "\\(27^{\\tfrac{1}{3}}\\)",
+              "geheel getal"
+            ],
+            [
+              "\\(2^{-1}\\)",
+              "geen geheel getal"
+            ],
+            [
+              "\\(\\sqrt{12}\\)",
+              "geen geheel getal"
+            ],
+            [
+              "\\(100^{\\tfrac{3}{2}}\\)",
+              "geheel getal"
+            ],
+            [
+              "\\(10^{-2}\\)",
+              "geen geheel getal"
+            ]
+          ],
+          "uitleg": "\\(100^{\\tfrac{3}{2}} = 10^{3} = 1000\\)."
+        },
+        {
+          "type": "open",
+          "vraag": "Leg uit waarom \\(25^{\\tfrac{3}{2}}\\) gelijk is aan \\(125\\).",
+          "antwoord": "De exponent drie halve betekent eerst de vierkantswortel en dan de derde macht. \\(\\sqrt{25} = 5\\) en \\(5^{3} = 125\\).",
+          "uitleg": "Noemer is de wortel, teller is de macht."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "\\(a^{\\tfrac{1}{2}} : a^{\\tfrac{1}{3}} = a^{[[*\\tfrac{1}{6}|\\tfrac{3}{2}|\\tfrac{5}{6}]]}\\)",
+          "uitleg": "Een half min een derde is een zesde."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een bacteriecultuur verdubbelt elk uur. Met welke factor groeit ze in een half uur? Rond af op twee cijfers na de komma.",
+          "antwoord": [
+            "1,41",
+            "1.41"
+          ],
+          "uitleg": "\\(2^{\\tfrac{1}{2}} = \\sqrt{2} \\approx 1{,}41\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke uitdrukking is gelijk aan \\(\\dfrac{1}{\\sqrt[3]{x}}\\) (met \\(x > 0\\))?",
+          "opties": [
+            "\\(x^{-\\tfrac{1}{3}}\\)",
+            "\\(x^{-3}\\)",
+            "\\(x^{\\tfrac{1}{3}}\\)",
+            "\\(-x^{\\tfrac{1}{3}}\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Omkeren geeft een negatieve exponent."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is het resultaat groter of kleiner dan \\(1\\)?",
+          "rijen": [
+            "\\(3^{-2}\\)",
+            "\\(0{,}5^{-1}\\)",
+            "\\(16^{\\tfrac{1}{4}}\\)",
+            "\\(\\left(\\tfrac{1}{4}\\right)^{\\tfrac{1}{2}}\\)"
+          ],
+          "antwoord": [
+            0,
+            1,
+            1,
+            0
+          ],
+          "uitleg": "\\(\\tfrac{1}{9}\\), \\(2\\), \\(2\\) en \\(\\tfrac{1}{2}\\).",
+          "kolommen": [
+            "kleiner",
+            "groter"
+          ]
+        }
+      ]
+    },
+    {
+      "titel": "Logaritmen — pittig",
+      "niveau": "beyond-dubbele-finaliteit",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elke uitdrukking aan haar waarde.",
+          "paren": [
+            [
+              "\\(27^{\\frac{2}{3}}\\)",
+              "\\(9\\)"
+            ],
+            [
+              "\\(32^{-\\frac{1}{5}}\\)",
+              "\\(\\frac{1}{2}\\)"
+            ],
+            [
+              "\\(\\log_{3} 81\\)",
+              "\\(4\\)"
+            ],
+            [
+              "\\(\\log_{2} \\frac{1}{8}\\)",
+              "\\(-3\\)"
+            ]
+          ],
+          "extra": [
+            "\\(-\\frac{1}{2}\\)"
+          ],
+          "uitleg": "\\(\\sqrt[3]{27} = 3\\) en \\(3^{2} = 9\\). \\(\\sqrt[5]{32} = 2\\), negatieve exponent: \\(\\frac{1}{2}\\). \\(3^{4} = 81\\). \\(2^{-3} = \\frac{1}{8}\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Tussen welke twee gehele getallen ligt \\(\\log_{2} 50\\)?",
+          "opties": [
+            "\\(5\\) en \\(6\\)",
+            "\\(4\\) en \\(5\\)",
+            "\\(6\\) en \\(7\\)",
+            "\\(24\\) en \\(26\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(2^{5} = 32\\) en \\(2^{6} = 64\\). Omdat \\(32 < 50 < 64\\), ligt \\(\\log_{2} 50\\) tussen \\(5\\) en \\(6\\)."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Los op: \\(\\log_{x} 125 = 3\\). Geef \\(x\\).",
+          "antwoord": "5",
+          "uitleg": "\\(\\log_{x} 125 = 3\\) betekent \\(x^{3} = 125\\), dus \\(x = 5\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Los op: \\(\\log_{2}(x - 1) = 4\\).",
+          "opties": [
+            "\\(x = 17\\)",
+            "\\(x = 9\\)",
+            "\\(x = 15\\)",
+            "\\(x = 5\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(x - 1 = 2^{4} = 16\\), dus \\(x = 17\\)."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Juist of fout?",
+          "rijen": [
+            "\\(\\log_{a} 1 = 0\\) voor elk toegelaten grondtal \\(a\\)",
+            "\\(\\log_{a} a = a\\)",
+            "\\(\\log_{\\frac{1}{2}} 4 = -2\\)",
+            "\\(\\sqrt[n]{a} = a^{n}\\)"
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "\\(a^{0} = 1\\) en \\(a^{1} = a\\), dus \\(\\log_{a} a = 1\\). \\(\\left(\\frac{1}{2}\\right)^{-2} = 4\\). Een \\(n\\)-de machtswortel is de macht met exponent \\(\\frac{1}{n}\\)."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Het verband tussen macht en logaritme: als a tot de macht y gelijk is aan x, dan is y de [[logaritme]] van x met [[grondtal]] a. De bewerking die bij een macht het grondtal zoekt, is [[worteltrekking]].",
+          "extra": [
+            "exponent",
+            "breuk"
+          ],
+          "uitleg": "Bij een macht zoek je de uitkomst, bij een logaritme de exponent, bij een wortel het grondtal."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel is \\(\\log_{4} 8\\)? Schrijf als kommagetal.",
+          "antwoord": [
+            "1,5",
+            "1.5",
+            "3/2"
+          ],
+          "uitleg": "\\(4^{1{,}5} = \\left(\\sqrt{4}\\right)^{3} = 2^{3} = 8\\). Of: \\(\\log_{4} 8 = \\frac{\\log_{2} 8}{\\log_{2} 4} = \\frac{3}{2}\\)."
+        },
+        {
+          "type": "open",
+          "vraag": "Leg uit waarom \\(\\log_{2} 10\\) geen geheel getal is, en schat de waarde tot op één cijfer na de komma zonder rekenmachine.",
+          "antwoord": "\\(2^{3} = 8\\) en \\(2^{4} = 16\\), en \\(10\\) ligt daartussen, dus de logaritme ligt tussen \\(3\\) en \\(4\\). \\(10\\) ligt dichter bij \\(8\\) dan bij \\(16\\), dus ongeveer \\(3{,}3\\) (exact \\(3{,}32\\ldots\\)).",
+          "uitleg": "Zoek de twee machten van 2 waartussen 10 ligt."
+        },
+        {
+          "casus": "De zuurtegraad van water noteer je met de pH. Voor een oplossing geldt: pH \\(= -\\log_{10} c\\), met \\(c\\) de concentratie waterstofionen. Zuiver water heeft \\(c = 10^{-7}\\), citroensap ongeveer \\(c = 10^{-2}\\).",
+          "vragen": [
+            {
+              "type": "invultekst",
+              "vraag": "Wat is de pH van zuiver water?",
+              "antwoord": [
+                "7",
+                "zeven"
+              ],
+              "uitleg": "\\(-\\log_{10} 10^{-7} = 7\\)."
+            },
+            {
+              "type": "invultekst",
+              "vraag": "Wat is de pH van citroensap?",
+              "antwoord": [
+                "2",
+                "twee"
+              ],
+              "uitleg": "\\(-\\log_{10} 10^{-2} = 2\\)."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Hoeveel keer zo groot is \\(c\\) in citroensap als in zuiver water?",
+              "opties": [
+                "\\(100\\,000\\) keer",
+                "\\(5\\) keer",
+                "\\(3{,}5\\) keer",
+                "\\(1000\\) keer"
+              ],
+              "antwoord": 0,
+              "uitleg": "\\(10^{-2} : 10^{-7} = 10^{5}\\)."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "Eén eenheid lager op de pH-schaal betekent een concentratie die [[*tien keer zo groot|tien keer zo klein|één eenheid groter]] is.",
+              "uitleg": "Elke stap op een logaritmische schaal is een factor tien."
+            }
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Hoeveel is deze logaritme?",
+          "rijen": [
+            "\\(\\log_{10} 10\\,000\\)",
+            "\\(\\log_{2} 16\\)",
+            "\\(\\log_{10} 0{,}001\\)",
+            "\\(\\log_{3} \\tfrac{1}{27}\\)",
+            "\\(\\log_{5} 625\\)"
+          ],
+          "antwoord": [
+            1,
+            1,
+            0,
+            0,
+            1
+          ],
+          "uitleg": "Zoek telkens tot welke macht je het grondtal verheft.",
+          "kolommen": [
+            "\\(-3\\)",
+            "\\(4\\)"
+          ]
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elke logaritme aan de macht die hetzelfde zegt.",
+          "paren": [
+            [
+              "\\(\\log_{2} 32 = 5\\)",
+              "\\(2^{5} = 32\\)"
+            ],
+            [
+              "\\(\\log_{10} 0{,}01 = -2\\)",
+              "\\(10^{-2} = 0{,}01\\)"
+            ],
+            [
+              "\\(\\log_{9} 3 = \\tfrac{1}{2}\\)",
+              "\\(9^{\\tfrac{1}{2}} = 3\\)"
+            ],
+            [
+              "\\(\\log_{4} 1 = 0\\)",
+              "\\(4^{0} = 1\\)"
+            ]
+          ],
+          "extra": [
+            "\\(5^{2} = 32\\)"
+          ],
+          "uitleg": "Een logaritme is een exponent."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel is \\(\\log_{2} \\tfrac{1}{16}\\)?",
+          "antwoord": [
+            "-4",
+            "−4",
+            "min 4"
+          ],
+          "uitleg": "\\(2^{-4} = \\tfrac{1}{16}\\)."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel is \\(\\log_{8} 2\\)? Schrijf het als breuk.",
+          "antwoord": [
+            "1/3",
+            "1 / 3",
+            "een derde"
+          ],
+          "uitleg": "\\(8^{\\tfrac{1}{3}} = 2\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Tussen welke twee gehele getallen ligt \\(\\log_{10} 4500\\)?",
+          "opties": [
+            "tussen \\(3\\) en \\(4\\)",
+            "tussen \\(4\\) en \\(5\\)",
+            "tussen \\(45\\) en \\(46\\)",
+            "tussen \\(2\\) en \\(3\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(10^{3} = 1000\\) en \\(10^{4} = 10\\,000\\)."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Is de logaritme met grondtal \\(10\\) positief, nul, of bestaat ze niet?",
+          "kolommen": [
+            "positief",
+            "nul",
+            "bestaat niet"
+          ],
+          "items": [
+            [
+              "\\(\\log_{10} 25\\)",
+              "positief"
+            ],
+            [
+              "\\(\\log_{10} 1\\)",
+              "nul"
+            ],
+            [
+              "\\(\\log_{10} 0\\)",
+              "bestaat niet"
+            ],
+            [
+              "\\(\\log_{10} (-10)\\)",
+              "bestaat niet"
+            ],
+            [
+              "\\(\\log_{10} 1{,}5\\)",
+              "positief"
+            ]
+          ],
+          "uitleg": "Alleen van een positief getal bestaat de logaritme."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een aardbeving van \\(7\\) op de schaal van Richter is hoeveel keer sterker dan een van \\(4\\), als elke stap een factor \\(10\\) is?",
+          "opties": [
+            "\\(1000\\) keer",
+            "\\(3\\) keer",
+            "\\(30\\) keer",
+            "\\(1{,}75\\) keer"
+          ],
+          "antwoord": 0,
+          "uitleg": "Drie stappen: \\(10^{3}\\)."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Los op: \\(5^{x} = 625\\). Hoeveel is \\(x\\)?",
+          "antwoord": [
+            "4",
+            "vier"
+          ],
+          "uitleg": "\\(\\log_{5} 625 = 4\\)."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Los op: \\(10^{x} = 0{,}0001\\). Hoeveel is \\(x\\)?",
+          "antwoord": [
+            "-4",
+            "−4",
+            "min 4"
+          ],
+          "uitleg": "\\(0{,}0001 = 10^{-4}\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je lost \\(2^{x} = 100\\) op. Wat weet je al zonder rekentoestel?",
+          "opties": [
+            "\\(x\\) ligt tussen \\(6\\) en \\(7\\)",
+            "\\(x\\) ligt tussen \\(1\\) en \\(2\\)",
+            "\\(x = 50\\)",
+            "\\(x\\) ligt tussen \\(9\\) en \\(10\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(2^{6} = 64\\) en \\(2^{7} = 128\\)."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over logaritmen?",
+          "rijen": [
+            "\\(\\log_{10} 2 \\approx 0{,}30\\), dus \\(\\log_{10} 200 \\approx 2{,}30\\).",
+            "\\(\\log_{10} 50\\) ligt tussen \\(5\\) en \\(6\\).",
+            "Een getal tien keer zo groot maken verhoogt de logaritme met grondtal \\(10\\) met \\(1\\).",
+            "De logaritme van \\(100\\) is bij elk grondtal \\(2\\)."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "\\(50\\) ligt tussen \\(10\\) en \\(100\\), dus de logaritme tussen \\(1\\) en \\(2\\)."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een rekentoestel geeft \\(\\log_{10} x = 4{,}2\\). Dan ligt \\(x\\) tussen [[*\\(10\\,000\\) en \\(100\\,000\\)|\\(4\\) en \\(5\\)|\\(100\\) en \\(1000\\)]].",
+          "uitleg": "\\(10^{4}\\) en \\(10^{5}\\)."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet deze logaritmen van klein naar groot.",
+          "opties": [
+            "\\(\\log_{10} 0{,}01\\)",
+            "\\(\\log_{7} 1\\)",
+            "\\(\\log_{4} 2\\)",
+            "\\(\\log_{2} 8\\)",
+            "\\(\\log_{10} 100\\,000\\)"
+          ],
+          "uitleg": "\\(-2\\), \\(0\\), \\(\\tfrac{1}{2}\\), \\(3\\) en \\(5\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een spaarbedrag groeit met \\(4\\) procent per jaar. Welke vergelijking los je op om te weten na hoeveel jaar het verdubbeld is?",
+          "opties": [
+            "\\(1{,}04^{t} = 2\\)",
+            "\\(1{,}04 \\cdot t = 2\\)",
+            "\\(t^{1{,}04} = 2\\)",
+            "\\(0{,}04^{t} = 2\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "De onbekende staat in de exponent: daar heb je een logaritme voor nodig."
+        },
+        {
+          "type": "open",
+          "vraag": "Leg uit waarom \\(\\log_{10} 0\\) niet bestaat.",
+          "antwoord": "Een logaritme zoekt de exponent waarmee \\(10\\) een getal geeft. Hoe je \\(10\\) ook verheft, je krijgt altijd een positief getal en nooit \\(0\\). Er is dus geen exponent die past.",
+          "uitleg": "Elke macht van een positief grondtal is positief."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel is \\(\\log_{10} \\sqrt{10}\\)? Schrijf het als kommagetal.",
+          "antwoord": [
+            "0,5",
+            "0.5",
+            "1/2"
+          ],
+          "uitleg": "\\(\\sqrt{10} = 10^{\\tfrac{1}{2}}\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een geluid van \\(80\\) decibel is honderd keer zo intens als een geluid van hoeveel decibel, als \\(10\\) decibel erbij een factor \\(10\\) is?",
+          "opties": [
+            "\\(60\\) decibel",
+            "\\(70\\) decibel",
+            "\\(0{,}8\\) decibel",
+            "\\(78\\) decibel"
+          ],
+          "antwoord": 0,
+          "uitleg": "Factor honderd is twee stappen van tien decibel."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "In \\(2^{5} = 32\\) heet \\(2\\) het [[grondtal]] en \\(5\\) de [[exponent]]. De vraag « tot welke macht verhef ik \\(2\\) om \\(32\\) te krijgen? » beantwoord je met een [[logaritme]].",
+          "extra": [
+            "wortel",
+            "kwadraat"
+          ],
+          "uitleg": "Logaritme en macht zijn elkaars omgekeerde."
+        }
+      ]
+    },
+    {
+      "titel": "Een functie aflezen van haar grafiek — pittig",
+      "niveau": "beyond-dubbele-finaliteit",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het punt waar f haar maximum bereikt.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/grafisch-f.svg",
+          "zones": [
+            [
+              31.2,
+              15.4,
+              5.6,
+              8.8
+            ],
+            [
+              85.2,
+              15.4,
+              5.6,
+              8.8
+            ]
+          ],
+          "uitleg": "De hoogste functiewaarde is \\(4\\). Die wordt bereikt in \\((-2, 4)\\) en ook in het eindpunt \\((4, 4)\\) van het domein."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het nulpunt van f met de grootste x-coördinaat.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/grafisch-f.svg",
+          "zones": [
+            [
+              80.4,
+              45.6,
+              5.6,
+              8.8
+            ]
+          ],
+          "uitleg": "De grafiek snijdt de \\(x\\)-as in \\(0\\) en in ongeveer \\(\\pm 3{,}5\\). Het nulpunt rechts is ongeveer \\((3{,}5;\\ 0)\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat zijn het domein en het bereik van \\(f\\)?",
+          "opties": [
+            "\\(\\text{dom} f = [-4, 4]\\) en \\(\\text{ber} f = [-4, 4]\\)",
+            "\\(\\text{dom} f = \\mathbb{R}\\) en \\(\\text{ber} f = \\mathbb{R}\\)",
+            "\\(\\text{dom} f = [-4, 4]\\) en \\(\\text{ber} f = [-6, 6]\\)",
+            "\\(\\text{dom} f = [-5, 5]\\) en \\(\\text{ber} f = [-4, 4]\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "De grafiek loopt van \\(x = -4\\) tot \\(x = 4\\), en de functiewaarden blijven tussen \\(-4\\) en \\(4\\). Het venster van de tekening is niet het domein.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/grafisch-f.svg"
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op een stuk van de grafiek van f waar ze daalt.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/grafisch-f.svg",
+          "zones": [
+            [
+              37.6,
+              16.0,
+              28.8,
+              68.0
+            ]
+          ],
+          "uitleg": "\\(f\\) daalt van het maximum in \\(x = -2\\) tot het minimum in \\(x = 2\\)."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Wat is het teken van \\(f(x)\\) op elk interval?",
+          "rijen": [
+            "\\(]-4;\\ -3{,}5[\\)",
+            "\\(]-3{,}5;\\ 0[\\)",
+            "\\(]0;\\ 3{,}5[\\)",
+            "\\(]3{,}5;\\ 4[\\)"
+          ],
+          "antwoord": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "uitleg": "Boven de x-as is f(x) positief, eronder negatief. Het teken wisselt in elke nulwaarde.",
+          "kolommen": [
+            "Positief",
+            "Negatief"
+          ],
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/grafisch-f.svg"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waar stijgt \\(f\\) met afnemende stijging?",
+          "opties": [
+            "Op \\([-4, -2]\\)",
+            "Op \\([2, 4]\\)",
+            "Op \\([-2, 0]\\)",
+            "Op \\([0, 2]\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Op \\([-4, -2]\\) stijgt \\(f\\), maar de grafiek wordt minder steil naar het maximum toe. Op \\([2, 4]\\) stijgt ze juist steeds sneller.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/grafisch-f.svg"
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het moment van de dag waarop het het koudst is.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/grafisch-temperatuur.svg",
+          "zones": [
+            [
+              15.4,
+              63.7,
+              5.6,
+              8.8
+            ]
+          ],
+          "uitleg": "Het minimum ligt om 3 uur 's nachts, met 6 °C."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het praktisch bereik van T?",
+          "opties": [
+            "\\([6, 18]\\)",
+            "\\([0, 24]\\)",
+            "\\([0, 20]\\)",
+            "\\([3, 15]\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het bereik gaat over de functiewaarden: de temperatuur blijft tussen \\(6\\) en \\(18\\) °C. \\([0, 24]\\) is het praktisch domein.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/grafisch-temperatuur.svg"
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op een tijdstip waarop de temperatuur het snelst stijgt.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/grafisch-temperatuur.svg",
+          "zones": [
+            [
+              36.8,
+              34.7,
+              8.0,
+              12.5
+            ]
+          ],
+          "uitleg": "Halfweg tussen het minimum (3 uur) en het maximum (15 uur), om 9 uur, is de grafiek het steilst."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Juist of fout over de temperatuur?",
+          "rijen": [
+            "Tussen 3 en 15 uur stijgt de temperatuur.",
+            "Om 15 uur is het 15 °C.",
+            "Tussen 3 en 9 uur stijgt de temperatuur met toenemende stijging.",
+            "Om 21 uur is het even warm als om 9 uur."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            true
+          ],
+          "uitleg": "Om 15 uur is het maximum 18 °C. Om 9 uur en om 21 uur ligt de temperatuur telkens halfweg tussen minimum en maximum: 12 °C.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/grafisch-temperatuur.svg"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een functie met periode \\(4\\) heeft \\(p(1) = 6\\). Welke waarde ken je dan zeker?",
+          "opties": [
+            "\\(p(13) = 6\\)",
+            "\\(p(4) = 6\\)",
+            "\\(p(5) = 10\\)",
+            "\\(p(-1) = 6\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "De waarden herhalen zich telkens na \\(4\\): \\(p(1) = p(5) = p(9) = p(13)\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "De hoogte van een pijl is \\(h(t) = 40t - 5t^{2}\\) (meter, \\(t\\) in seconden) tot hij de grond raakt. Wat is het praktisch domein?",
+          "opties": [
+            "\\([0, 8]\\)",
+            "\\([0, 4]\\)",
+            "\\([0, 80]\\)",
+            "\\(\\mathbb{R}\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(h(t) = 0\\) voor \\(t = 0\\) en \\(t = 8\\). De pijl vliegt van \\(0\\) tot \\(8\\) seconden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Bij dezelfde pijl, \\(h(t) = 40t - 5t^{2}\\): wat is het praktisch bereik?",
+          "opties": [
+            "\\([0, 80]\\)",
+            "\\([0, 8]\\)",
+            "\\([0, 40]\\)",
+            "\\([0, 160]\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het maximum ligt halverwege, in \\(t = 4\\): \\(h(4) = 160 - 80 = 80\\) meter."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Lees af op de grafiek van f en zet de functiewaarden van klein naar groot.",
+          "opties": [
+            "\\(f(2)\\)",
+            "\\(f(3)\\)",
+            "\\(f(0)\\)",
+            "\\(f(-1)\\)",
+            "\\(f(-2)\\)"
+          ],
+          "uitleg": "\\(f(2) = -4\\) (minimum), \\(f(3) \\approx -2{,}3\\), \\(f(0) = 0\\), \\(f(-1) \\approx 2{,}8\\), \\(f(-2) = 4\\) (maximum).",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/grafisch-f.svg"
+        },
+        {
+          "type": "open",
+          "vraag": "Een ouder zegt: het domein van \\(h(t) = 40t - 5t^{2}\\) is \\([0, 8]\\). Leg uit wat er beter kan.",
+          "antwoord": "Het domein van het voorschrift is \\(\\mathbb{R}\\): je kan elke \\(t\\) invullen. Enkel in de situatie (de vlucht van de pijl) zijn alleen \\(t\\) van \\(0\\) tot \\(8\\) zinvol. Dat is het praktisch domein.",
+          "uitleg": "Domein en praktisch domein zijn niet hetzelfde."
+        },
+        {
+          "casus": "Het aantal bezoekers \\(B(u)\\) in een zwembad, \\(u\\) uur na de opening om 9 uur, stijgt tot 13 uur naar 400, blijft dan een uur constant en daalt daarna tot sluiting om 20 uur, wanneer er niemand meer is.",
+          "vragen": [
+            {
+              "type": "meerkeuze",
+              "vraag": "Wat is het praktisch domein van B?",
+              "opties": [
+                "\\([0, 11]\\)",
+                "\\([9, 20]\\)",
+                "\\([0, 400]\\)",
+                "\\([4, 5]\\)"
+              ],
+              "antwoord": 0,
+              "uitleg": "\\(u\\) telt de uren na de opening: van \\(0\\) (9 uur) tot \\(11\\) (20 uur)."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Op welk interval is B constant?",
+              "opties": [
+                "\\([4, 5]\\)",
+                "\\([13, 14]\\)",
+                "\\([0, 4]\\)",
+                "\\([5, 11]\\)"
+              ],
+              "antwoord": 0,
+              "uitleg": "Van 13 tot 14 uur, dat is \\(u = 4\\) tot \\(u = 5\\)."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Wat is de nulwaarde van B die in de situatie past?",
+              "opties": [
+                "\\(u = 11\\)",
+                "\\(u = 0\\)",
+                "\\(u = 20\\)",
+                "\\(u = 400\\)"
+              ],
+              "antwoord": 0,
+              "uitleg": "Bij sluiting, \\(u = 11\\), is er niemand meer: \\(B(11) = 0\\). Bij de opening waren er misschien al wachtenden, dat staat er niet."
+            }
+          ]
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Gaat het over een \\(x\\)-waarde of over een \\(y\\)-waarde?",
+          "kolommen": [
+            "\\(x\\)-waarde",
+            "\\(y\\)-waarde"
+          ],
+          "items": [
+            [
+              "een nulwaarde",
+              "\\(x\\)-waarde"
+            ],
+            [
+              "het domein",
+              "\\(x\\)-waarde"
+            ],
+            [
+              "een maximum",
+              "\\(y\\)-waarde"
+            ],
+            [
+              "het bereik",
+              "\\(y\\)-waarde"
+            ],
+            [
+              "het snijpunt met de \\(y\\)-as, als getal",
+              "\\(y\\)-waarde"
+            ]
+          ],
+          "uitleg": "Domein en nulwaarden lees je horizontaal af, bereik en extrema verticaal."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elke situatie aan het kenmerk van de grafiek.",
+          "paren": [
+            [
+              "een auto verliest elk jaar waarde, maar steeds minder",
+              "dalend met afnemende daling"
+            ],
+            [
+              "een verkoper maakt pas winst vanaf \\(200\\) stuks",
+              "nulwaarde"
+            ],
+            [
+              "eb en vloed komen telkens na \\(12{,}5\\) uur terug",
+              "periode"
+            ],
+            [
+              "een bal bereikt zijn hoogste punt na \\(2\\) seconden",
+              "maximum"
+            ]
+          ],
+          "extra": [
+            "constante functie"
+          ],
+          "uitleg": "Telkens beschrijft de situatie een kenmerk van de grafiek."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over grafieken?",
+          "rijen": [
+            "Een functie kan meerdere nulwaarden hebben.",
+            "Een functie kan twee snijpunten met de \\(y\\)-as hebben.",
+            "Een dalende functie heeft overal negatieve functiewaarden.",
+            "Het praktisch domein kan kleiner zijn dan het wiskundige domein."
+          ],
+          "antwoord": [
+            true,
+            false,
+            false,
+            true
+          ],
+          "uitleg": "Dalen zegt iets over de richting, het teken zegt iets over boven of onder de \\(x\\)-as."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een verloopschema toont: stijgend tot \\(x = 2\\), daar max \\(5\\), dan dalend tot \\(x = 6\\), daar min \\(-1\\), dan weer stijgend. Hoeveel nulwaarden heeft de functie zeker tussen \\(x = 2\\) en \\(x = 6\\)?",
+          "opties": [
+            "één",
+            "geen",
+            "twee",
+            "dat kan je niet weten"
+          ],
+          "antwoord": 0,
+          "uitleg": "Ze daalt van \\(5\\) naar \\(-1\\) en snijdt de \\(x\\)-as dus precies één keer."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "In een tekenverloop betekent een min tussen \\(x = 1\\) en \\(x = 4\\) dat de grafiek daar [[*onder de \\(x\\)-as|boven de \\(x\\)-as|dalend]] ligt.",
+          "uitleg": "Het teken gaat over de functiewaarde."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een grafiek loopt van \\((-3, 2)\\) omhoog tot \\((1, 7)\\) en dan omlaag tot \\((5, -4)\\), en nergens anders. Wat is de breedte van het bereik, het verschil tussen grootste en kleinste functiewaarde?",
+          "antwoord": [
+            "11",
+            "elf"
+          ],
+          "uitleg": "Het bereik is \\([-4, 7]\\): \\(7 - (-4) = 11\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "De grafiek toont de reistijd in functie van de snelheid en daalt. Wat betekent dat?",
+          "opties": [
+            "Hoe sneller je rijdt, hoe korter de reis duurt.",
+            "Hoe sneller je rijdt, hoe langer de reis duurt.",
+            "De reistijd hangt niet af van de snelheid.",
+            "De snelheid daalt tijdens de reis."
+          ],
+          "antwoord": 0,
+          "uitleg": "Dalend: grotere \\(x\\), kleinere \\(y\\)."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Je maakt een grafiek uit een tabel. Zet de stappen in volgorde.",
+          "opties": [
+            "de assen tekenen en een passende schaal kiezen",
+            "elk koppel uit de tabel als punt uitzetten",
+            "de punten verbinden als dat in de situatie zinvol is",
+            "de assen benoemen met grootheid en eenheid"
+          ],
+          "uitleg": "Benoemen mag ook vroeger, maar mag niet ontbreken."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Hoe stijgt of daalt deze grafiek?",
+          "rijen": [
+            "de hoogte van een plant die eerst snel en daarna steeds trager groeit",
+            "het aantal volgers dat steeds sneller toeneemt",
+            "de temperatuur van een kop thee die afkoelt, eerst snel en dan trager"
+          ],
+          "antwoord": [
+            1,
+            0,
+            2
+          ],
+          "uitleg": "Kijk of de grafiek steiler of minder steil wordt.",
+          "kolommen": [
+            "stijgend met toenemende stijging",
+            "stijgend met afnemende stijging",
+            "dalend met afnemende daling"
+          ]
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een grafiek die links en rechts van de \\(y\\)-as elkaars spiegelbeeld is, hoort bij een [[*even|periodieke|constante]] functie.",
+          "uitleg": "De \\(y\\)-as is de symmetrieas."
+        },
+        {
+          "type": "open",
+          "vraag": "De winstgrafiek van een bedrijf snijdt de \\(x\\)-as bij \\(400\\) stuks en ligt daarna boven de as. Leg uit wat dat betekent.",
+          "antwoord": "Bij \\(400\\) stuks is de winst nul: dat is het break-evenpunt. Vanaf meer dan \\(400\\) stuks is de winst positief, daaronder maakt het bedrijf verlies.",
+          "uitleg": "Een nulwaarde in een situatie is vaak een omslagpunt."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een functie heeft periode \\(24\\) en \\(f(5) = 12\\). Hoeveel is \\(f(53)\\)?",
+          "antwoord": [
+            "12",
+            "twaalf"
+          ],
+          "uitleg": "\\(53 = 5 + 2 \\cdot 24\\)."
+        }
+      ]
+    },
+    {
+      "titel": "Gemiddelde verandering en het differentiequotiënt — pittig",
+      "niveau": "beyond-dubbele-finaliteit",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het teken van het differentiequotiënt van f tussen A en E?",
+          "opties": [
+            "Positief",
+            "Nul",
+            "Negatief",
+            "Dat kan je niet weten zonder voorschrift"
+          ],
+          "antwoord": 2,
+          "uitleg": "Het differentiequotiënt is de richtingscoëfficiënt van de snijlijn AE. E ligt lager dan A, dus die snijlijn daalt.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/afgeleiden-f.svg"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het differentiequotiënt van g op \\([2, 4]\\)?",
+          "opties": [
+            "\\(6\\)",
+            "\\(3\\)",
+            "\\(2\\)",
+            "\\(1{,}5\\)"
+          ],
+          "antwoord": 1,
+          "uitleg": "\\(\\frac{g(4) - g(2)}{4 - 2} = \\frac{8 - 2}{2} = 3\\): de richtingscoëfficiënt van de snijlijn s door P en Q.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/afgeleiden-raaklijn.svg"
+        },
+        {
+          "type": "invultekst",
+          "vraag": "s(t) is de afgelegde weg (km) van een auto na t uur, met \\(s(0) = 40\\) en \\(s(2) = 190\\). Wat is het differentiequotiënt van s op \\([0, 2]\\), in km/h?",
+          "antwoord": "75",
+          "uitleg": "\\(\\frac{190 - 40}{2 - 0} = 75\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Het differentiequotiënt van f op \\([1, 4]\\) is \\(0\\). Wat weet je zeker?",
+          "opties": [
+            "\\(f(1) = f(4)\\)",
+            "f is constant op \\([1, 4]\\)",
+            "\\(f(x) = 0\\) voor elke x in \\([1, 4]\\)",
+            "f heeft een nulwaarde in \\([1, 4]\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(\\frac{f(4) - f(1)}{3} = 0\\) betekent enkel dat begin- en eindwaarde gelijk zijn. Daartussen kan f stijgen en dalen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Om 8 uur is het 12 °C, om 14 uur 21 °C. Wat is de gemiddelde temperatuursverandering?",
+          "opties": [
+            "\\(9\\) °C per uur",
+            "\\(1{,}5\\) °C per uur",
+            "\\(0{,}67\\) °C per uur",
+            "\\(3\\) °C per uur"
+          ],
+          "antwoord": 1,
+          "uitleg": "\\(\\frac{21 - 12}{14 - 8} = \\frac{9}{6} = 1{,}5\\)."
+        },
+        {
+          "casus": "Een fietser houdt bij hoeveel kilometer ze in totaal afgelegd heeft: na \\(0\\) uur \\(0\\) km, na \\(1\\) uur \\(22\\) km, na \\(2\\) uur \\(40\\) km, na \\(3\\) uur \\(40\\) km en na \\(4\\) uur \\(64\\) km.",
+          "vragen": [
+            {
+              "type": "invultekst",
+              "vraag": "Wat is haar gemiddelde snelheid over de hele rit, in km/h?",
+              "antwoord": [
+                "16",
+                "16 km/h"
+              ],
+              "uitleg": "\\(64 : 4 = 16\\)."
+            },
+            {
+              "type": "invultekst",
+              "vraag": "Wat is het differentiequotiënt van \\(0\\) tot \\(2\\) uur, in km/h?",
+              "antwoord": [
+                "20",
+                "20 km/h"
+              ],
+              "uitleg": "\\((40 - 0) : 2 = 20\\)."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "Tussen \\(2\\) en \\(3\\) uur is het differentiequotiënt [[*\\(0\\)|\\(40\\)|\\(20\\)]]: ze nam een pauze.",
+              "uitleg": "De afgelegde weg bleef gelijk."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "In welk uur reed ze het snelst?",
+              "opties": [
+                "tussen \\(3\\) en \\(4\\) uur",
+                "tussen \\(0\\) en \\(1\\) uur",
+                "tussen \\(1\\) en \\(2\\) uur",
+                "tussen \\(2\\) en \\(3\\) uur"
+              ],
+              "antwoord": 0,
+              "uitleg": "\\(24\\) km in dat uur."
+            }
+          ]
+        },
+        {
+          "type": "invultekst",
+          "vraag": "\\(f(-2) = 9\\) en \\(f(1) = -3\\). Hoeveel is het differentiequotiënt over \\([-2, 1]\\)?",
+          "antwoord": [
+            "-4",
+            "−4",
+            "min 4"
+          ],
+          "uitleg": "\\((-3 - 9) : (1 - (-2)) = -12 : 3\\)."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "\\(f(x) = x^{2}\\). Hoeveel is het differentiequotiënt over \\([1, 5]\\)?",
+          "antwoord": [
+            "6",
+            "zes"
+          ],
+          "uitleg": "\\((25 - 1) : 4\\)."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "\\(f(x) = x^{2}\\). Hoeveel is het differentiequotiënt over \\([-3, 3]\\)?",
+          "antwoord": [
+            "0",
+            "nul"
+          ],
+          "uitleg": "\\(f(-3) = f(3) = 9\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "\\(f(x) = -2x + 7\\). Wat is het differentiequotiënt over \\([10, 50]\\)?",
+          "opties": [
+            "\\(-2\\)",
+            "\\(7\\)",
+            "\\(-80\\)",
+            "\\(40\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij een rechte is het differentiequotiënt altijd de richtingscoëfficiënt."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over het differentiequotiënt?",
+          "rijen": [
+            "Een differentiequotiënt zegt wat er op elk moment in het interval gebeurt.",
+            "Bij een rechte is het differentiequotiënt over elk interval hetzelfde.",
+            "Teller en noemer mag je omdraaien zonder dat het resultaat verandert.",
+            "Bij een kromme hangt het differentiequotiënt af van het interval."
+          ],
+          "antwoord": [
+            false,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Het is een gemiddelde over het hele interval."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welke eenheid hoort bij het differentiequotiënt?",
+          "rijen": [
+            "afgelegde weg in km in functie van de tijd in uur",
+            "aantal inwoners in functie van de tijd in jaar",
+            "inhoud van een tank in liter in functie van de tijd in minuut"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "De eenheid van \\(y\\) per eenheid van \\(x\\).",
+          "kolommen": [
+            "km/h",
+            "inwoners per jaar",
+            "liter per minuut"
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een bergpas stijgt \\(450\\) meter over een horizontale afstand van \\(6\\) kilometer. Wat is de gemiddelde helling?",
+          "opties": [
+            "\\(7{,}5\\) procent",
+            "\\(75\\) procent",
+            "\\(0{,}75\\) procent",
+            "\\(13{,}3\\) procent"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(450 : 6000 = 0{,}075\\)."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een stad telde \\(48\\,000\\) inwoners in 2015 en \\(51\\,000\\) in 2025. Hoeveel inwoners kwamen er gemiddeld per jaar bij?",
+          "antwoord": [
+            "300",
+            "300 inwoners"
+          ],
+          "uitleg": "\\(3000 : 10\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een waterton gaat in \\(8\\) minuten van \\(120\\) naar \\(40\\) liter. Wat is het differentiequotiënt?",
+          "opties": [
+            "\\(-10\\) liter per minuut",
+            "\\(10\\) liter per minuut",
+            "\\(-80\\) liter per minuut",
+            "\\(-5\\) liter per minuut"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\((40 - 120) : 8\\)."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een groter differentiequotiënt betekent een [[*steilere|hogere|lagere]] snijlijn, niet noodzakelijk een [[*hogere functiewaarde|steilere snijlijn|langer interval]].",
+          "uitleg": "Het gaat over de verandering, niet over de hoogte."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Het differentiequotiënt is \\(2\\) op de eerste helft van een interval en \\(6\\) op de tweede helft. Wat is het over het hele interval?",
+          "opties": [
+            "\\(4\\)",
+            "\\(8\\)",
+            "\\(12\\)",
+            "\\(3\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Twee even lange helften: het gemiddelde van \\(2\\) en \\(6\\)."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Is het differentiequotiënt positief, nul of negatief?",
+          "kolommen": [
+            "positief",
+            "nul",
+            "negatief"
+          ],
+          "items": [
+            [
+              "de temperatuur gaat van \\(5\\) naar \\(12\\) graden",
+              "positief"
+            ],
+            [
+              "een spaarpot gaat van \\(40\\) naar \\(40\\) euro",
+              "nul"
+            ],
+            [
+              "een kaars gaat van \\(20\\) naar \\(14\\) cm",
+              "negatief"
+            ],
+            [
+              "een plant groeit van \\(8\\) naar \\(15\\) cm",
+              "positief"
+            ]
+          ],
+          "uitleg": "Kijk alleen naar begin en einde."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een rechte gaat door \\((2, -1)\\) en \\((6, 7)\\). Wat is haar richtingscoëfficiënt?",
+          "antwoord": [
+            "2",
+            "twee"
+          ],
+          "uitleg": "\\((7 - (-1)) : (6 - 2) = 8 : 4\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een tank bevat \\(100\\) liter en verliest gemiddeld \\(4\\) liter per minuut. Na hoeveel minuten is hij leeg, als dat tempo blijft?",
+          "opties": [
+            "\\(25\\) minuten",
+            "\\(400\\) minuten",
+            "\\(96\\) minuten",
+            "\\(4\\) minuten"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(100 : 4\\)."
+        },
+        {
+          "type": "open",
+          "vraag": "Leg uit waarom een gemiddelde snelheid van \\(0\\) km/h niet betekent dat je niet bewogen hebt.",
+          "antwoord": "Een gemiddelde snelheid van nul betekent alleen dat je begin- en eindpunt op dezelfde afstand liggen. Je kan intussen heen en terug gereden zijn.",
+          "uitleg": "Het differentiequotiënt kijkt enkel naar begin- en eindwaarde."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet de stappen om een differentiequotiënt uit een grafiek te bepalen in volgorde.",
+          "opties": [
+            "de functiewaarden aan het begin en het einde van het interval aflezen",
+            "het verschil van de functiewaarden berekenen",
+            "het verschil van de \\(x\\)-waarden berekenen",
+            "het eerste verschil delen door het tweede"
+          ],
+          "uitleg": "Verandering van \\(y\\) gedeeld door verandering van \\(x\\)."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Op welk interval is het differentiequotiënt van \\(f(x) = x^{2}\\) het grootst?",
+          "rijen": [
+            "\\([0, 1]\\)",
+            "\\([1, 3]\\)",
+            "\\([2, 4]\\)"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "\\(\\tfrac{1 - 0}{1}\\), \\(\\tfrac{9 - 1}{2}\\) en \\(\\tfrac{16 - 4}{2}\\).",
+          "kolommen": [
+            "\\(1\\)",
+            "\\(4\\)",
+            "\\(6\\)"
+          ]
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een bedrijf telde \\(800\\) klanten in maart en \\(2000\\) in september. Hoeveel klanten kwamen er gemiddeld per maand bij?",
+          "antwoord": [
+            "200",
+            "200 klanten"
+          ],
+          "uitleg": "Zes maanden: \\(1200 : 6\\)."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elke situatie aan haar differentiequotiënt.",
+          "paren": [
+            [
+              "\\(150\\) km in \\(2\\) uur",
+              "\\(75\\) km/h"
+            ],
+            [
+              "van \\(20\\) naar \\(5\\) graden in \\(5\\) uur",
+              "\\(-3\\) graden per uur"
+            ],
+            [
+              "van \\(1000\\) naar \\(1200\\) euro in \\(4\\) jaar",
+              "\\(50\\) euro per jaar"
+            ],
+            [
+              "van \\(12\\) naar \\(30\\) cm in \\(6\\) weken",
+              "\\(3\\) cm per week"
+            ]
+          ],
+          "extra": [
+            "\\(300\\) km/h"
+          ],
+          "uitleg": "Verandering gedeeld door de duur."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Het differentiequotiënt over een interval is de richtingscoëfficiënt van de rechte door [[*het begin- en het eindpunt|de top|de oorsprong]] van dat stuk grafiek.",
+          "uitleg": "Die rechte heet een snijlijn."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een tabel geeft bij \\(x = 3\\) de waarde \\(14\\) en bij \\(x = 11\\) de waarde \\(-2\\). Wat is het differentiequotiënt?",
+          "antwoord": [
+            "-2",
+            "−2",
+            "min 2"
+          ],
+          "uitleg": "\\((-2 - 14) : (11 - 3) = -16 : 8\\)."
+        }
+      ]
+    },
+    {
+      "titel": "Exponentiële functies — pittig",
+      "niveau": "beyond-dubbele-finaliteit",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het punt dat op de grafiek van elke functie y = aˣ ligt, en dus ook op A.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/exponentieel-ab.svg",
+          "zones": [
+            [
+              45.0,
+              62.0,
+              4.0,
+              6.2
+            ]
+          ],
+          "uitleg": "\\(a^{0} = 1\\) voor elk grondtal: elke grafiek \\(y = a^{x}\\) gaat door \\((0, 1)\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een exponentiële functie \\(y = b \\cdot a^{x}\\) gaat door \\((0, 5)\\) en \\((2, 45)\\). Wat is \\(a\\)?",
+          "opties": [
+            "\\(3\\)",
+            "\\(9\\)",
+            "\\(20\\)",
+            "\\(\\sqrt{45}\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\((0, 5)\\) geeft \\(b = 5\\). Dan \\(5a^{2} = 45 \\Rightarrow a^{2} = 9 \\Rightarrow a = 3\\) (een grondtal is positief)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat gebeurt er met \\(y = 4 \\cdot 0{,}6^{x}\\) als \\(x \\to +\\infty\\)?",
+          "opties": [
+            "\\(y\\) nadert \\(0\\)",
+            "\\(y\\) nadert \\(4\\)",
+            "\\(y\\) wordt oneindig groot",
+            "\\(y\\) nadert \\(0{,}6\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Machten van \\(0{,}6\\) worden steeds kleiner: de \\(x\\)-as is de horizontale asymptoot."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "In het model N(t) = N₀ · aᵗ is N₀ de [[beginwaarde]] en a de [[groeifactor]] per tijdseenheid.",
+          "extra": [
+            "asymptoot",
+            "periode"
+          ],
+          "uitleg": "Bij t = 0 is aᵗ = 1, dus N(0) = N₀."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk punt ligt zeker op de grafiek van \\(y = a^{x}\\) (met \\(a > 0\\), \\(a \\neq 1\\))?",
+          "opties": [
+            "\\((1, a)\\)",
+            "\\((a, 1)\\)",
+            "\\((0, a)\\)",
+            "\\((1, 0)\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(a^{1} = a\\), dus \\((1, a)\\) ligt altijd op de grafiek."
+        },
+        {
+          "casus": "Een tabel hoort bij een exponentiële functie \\(f(x) = b \\cdot a^{x}\\). Bij \\(x = 0\\), \\(1\\), \\(2\\) en \\(3\\) horen de waarden \\(80\\), \\(60\\), \\(45\\) en \\(33{,}75\\).",
+          "vragen": [
+            {
+              "type": "invultekst",
+              "vraag": "Wat is de beginwaarde \\(b\\)?",
+              "antwoord": [
+                "80",
+                "tachtig"
+              ],
+              "uitleg": "De waarde bij \\(x = 0\\)."
+            },
+            {
+              "type": "invultekst",
+              "vraag": "Wat is de groeifactor \\(a\\)? Geef een kommagetal.",
+              "antwoord": [
+                "0,75",
+                "0.75",
+                "3/4"
+              ],
+              "uitleg": "\\(60 : 80 = 0{,}75\\), en zo verder."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "De functie is [[*dalend|stijgend|constant]], want de groeifactor ligt tussen \\(0\\) en \\(1\\).",
+              "uitleg": "Elke stap wordt het een vierde minder."
+            },
+            {
+              "type": "invultekst",
+              "vraag": "Wat is \\(f(4)\\)? Rond af op twee cijfers na de komma.",
+              "antwoord": [
+                "25,31",
+                "25.31"
+              ],
+              "uitleg": "\\(33{,}75 \\cdot 0{,}75 = 25{,}3125\\)."
+            }
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is de functie stijgend of dalend?",
+          "rijen": [
+            "\\(f(x) = 3 \\cdot 1{,}2^{x}\\)",
+            "\\(f(x) = 100 \\cdot 0{,}9^{x}\\)",
+            "\\(f(x) = 0{,}5 \\cdot 4^{x}\\)",
+            "\\(f(x) = 7 \\cdot \\left(\\tfrac{2}{3}\\right)^{x}\\)"
+          ],
+          "antwoord": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "uitleg": "Alleen de groeifactor beslist, niet de beginwaarde.",
+          "kolommen": [
+            "stijgend",
+            "dalend"
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een grafiek gaat door \\((0, 4)\\) en \\((1, 10)\\). Welk voorschrift hoort erbij?",
+          "opties": [
+            "\\(f(x) = 4 \\cdot 2{,}5^{x}\\)",
+            "\\(f(x) = 10 \\cdot 4^{x}\\)",
+            "\\(f(x) = 4 \\cdot 6^{x}\\)",
+            "\\(f(x) = 2{,}5 \\cdot 4^{x}\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Beginwaarde \\(4\\), groeifactor \\(10 : 4 = 2{,}5\\)."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "\\(f(x) = 3 \\cdot 2^{x}\\). Hoeveel is \\(f(-1)\\)? Geef een kommagetal.",
+          "antwoord": [
+            "1,5",
+            "1.5",
+            "3/2"
+          ],
+          "uitleg": "\\(2^{-1} = \\tfrac{1}{2}\\)."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "\\(f(x) = 2 \\cdot 3^{x}\\). Voor welke \\(x\\) is \\(f(x) = 162\\)?",
+          "antwoord": [
+            "4",
+            "vier"
+          ],
+          "uitleg": "\\(3^{x} = 81 = 3^{4}\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het bereik van \\(f(x) = 5 \\cdot 0{,}5^{x}\\)?",
+          "opties": [
+            "alle positieve getallen",
+            "alle reële getallen",
+            "de getallen van \\(0\\) tot \\(5\\)",
+            "alle getallen groter dan \\(5\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "De functie komt willekeurig dicht bij nul en wordt willekeurig groot naar links."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over \\(f(x) = b \\cdot a^{x}\\) met \\(b > 0\\)?",
+          "rijen": [
+            "De grafiek snijdt de \\(y\\)-as in \\((0, b)\\).",
+            "De grafiek snijdt de \\(x\\)-as.",
+            "Het domein is alle reële getallen.",
+            "Een negatieve groeifactor is toegelaten."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Er is geen nulwaarde, en de groeifactor is positief en verschillend van \\(1\\)."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Hoort deze rij bij lineaire of bij exponentiële groei?",
+          "kolommen": [
+            "lineair",
+            "exponentieel"
+          ],
+          "items": [
+            [
+              "\\(5, 10, 20, 40\\)",
+              "exponentieel"
+            ],
+            [
+              "\\(5, 10, 15, 20\\)",
+              "lineair"
+            ],
+            [
+              "\\(81, 27, 9, 3\\)",
+              "exponentieel"
+            ],
+            [
+              "\\(100, 90, 80, 70\\)",
+              "lineair"
+            ],
+            [
+              "\\(100, 90, 81, 72{,}9\\)",
+              "exponentieel"
+            ]
+          ],
+          "uitleg": "Deel elk getal door het vorige: blijft dat gelijk, dan is het exponentieel."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elk voorschrift aan zijn beschrijving.",
+          "paren": [
+            [
+              "\\(f(x) = 2 \\cdot 3^{x}\\)",
+              "beginwaarde \\(2\\), stijgend"
+            ],
+            [
+              "\\(f(x) = 3 \\cdot 2^{x}\\)",
+              "beginwaarde \\(3\\), stijgend"
+            ],
+            [
+              "\\(f(x) = 3 \\cdot 0{,}2^{x}\\)",
+              "beginwaarde \\(3\\), dalend"
+            ],
+            [
+              "\\(f(x) = 2 \\cdot 0{,}3^{x}\\)",
+              "beginwaarde \\(2\\), dalend"
+            ]
+          ],
+          "extra": [
+            "beginwaarde \\(0\\), stijgend"
+          ],
+          "uitleg": "De beginwaarde staat voor de macht, de groeifactor is het grondtal."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Twee functies hebben beginwaarde \\(10\\). De ene heeft groeifactor \\(1{,}1\\), de andere \\(1{,}5\\). Wat is juist?",
+          "opties": [
+            "Ze snijden in \\((0, 10)\\) en daarna stijgt de tweede sneller.",
+            "De eerste stijgt sneller, want \\(1{,}1\\) is kleiner.",
+            "Ze lopen evenwijdig, want de beginwaarde is gelijk.",
+            "Ze snijden elkaar nergens, ook niet op de \\(y\\)-as."
+          ],
+          "antwoord": 0,
+          "uitleg": "Een grotere groeifactor geeft een steilere grafiek."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Verdubbel je de beginwaarde bij dezelfde groeifactor, dan wordt elke functiewaarde [[*twee keer zo groot|twee hoger|in het kwadraat genomen]].",
+          "uitleg": "\\(2b \\cdot a^{x} = 2 \\cdot (b \\cdot a^{x})\\)."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een grafiek gaat door \\((0, 50)\\) en \\((2, 32)\\). Wat is de groeifactor? Geef een kommagetal.",
+          "antwoord": [
+            "0,8",
+            "0.8"
+          ],
+          "uitleg": "\\(a^{2} = 32 : 50 = 0{,}64\\), dus \\(a = 0{,}8\\)."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet de functiewaarden van \\(f(x) = 4 \\cdot 2^{x}\\) van klein naar groot.",
+          "opties": [
+            "\\(f(-2)\\)",
+            "\\(f(-1)\\)",
+            "\\(f(0)\\)",
+            "\\(f(1)\\)",
+            "\\(f(3)\\)"
+          ],
+          "uitleg": "\\(1\\), \\(2\\), \\(4\\), \\(8\\) en \\(32\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke groeifactor hoort bij een functie die per stap \\(35\\) procent kleiner wordt?",
+          "opties": [
+            "\\(0{,}65\\)",
+            "\\(0{,}35\\)",
+            "\\(1{,}35\\)",
+            "\\(-0{,}35\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Er blijft \\(65\\) procent over."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Hoeveel is \\(f(x) = 64 \\cdot 0{,}5^{x}\\) in dit punt?",
+          "rijen": [
+            "\\(x = 1\\)",
+            "\\(x = 3\\)",
+            "\\(x = -1\\)"
+          ],
+          "antwoord": [
+            1,
+            0,
+            2
+          ],
+          "uitleg": "Elke stap naar rechts halveert, elke stap naar links verdubbelt.",
+          "kolommen": [
+            "\\(8\\)",
+            "\\(32\\)",
+            "\\(128\\)"
+          ]
+        },
+        {
+          "type": "open",
+          "vraag": "Leg uit waarom de grafiek van \\(f(x) = 3 \\cdot 2^{x}\\) de \\(x\\)-as nooit snijdt.",
+          "antwoord": "\\(2^{x}\\) is voor elke \\(x\\) positief, en drie keer een positief getal blijft positief. De functiewaarde wordt dus nooit nul, ook al komt ze er naar links heel dicht bij.",
+          "uitleg": "Een positieve beginwaarde maal een positieve macht blijft positief."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een stijgende exponentiële functie heeft een toenemende stijging. Wat betekent dat?",
+          "opties": [
+            "Per stap komt er telkens meer bij dan de vorige keer.",
+            "Per stap komt er telkens hetzelfde bij.",
+            "De grafiek wordt na een tijd een horizontale rechte.",
+            "De grafiek daalt eerst en stijgt daarna."
+          ],
+          "antwoord": 0,
+          "uitleg": "Je vermenigvuldigt met dezelfde factor, dus de toename groeit mee."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "\\(f(x) = 1000 \\cdot 0{,}9^{x}\\). Hoeveel is \\(f(2)\\)?",
+          "antwoord": [
+            "810",
+            "achthonderdtien"
+          ],
+          "uitleg": "\\(0{,}9^{2} = 0{,}81\\)."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een exponentiële functie met groeifactor \\(1\\) zou [[*constant|stijgend|dalend]] zijn; daarom sluit men die groeifactor uit.",
+          "uitleg": "Met factor één verandert er niets."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Hoort deze grafiekbeschrijving bij een lineaire of een exponentiële functie?",
+          "rijen": [
+            "een rechte die gelijkmatig stijgt",
+            "een kromme die traag begint en daarna steeds steiler wordt",
+            "een kromme die naar rechts steeds dichter bij de \\(x\\)-as kruipt"
+          ],
+          "antwoord": [
+            0,
+            1,
+            1
+          ],
+          "uitleg": "Een exponentiële grafiek is nooit een rechte.",
+          "kolommen": [
+            "lineair",
+            "exponentieel"
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe zie je in een tabel met gelijke stappen in \\(x\\) dat de functie exponentieel is?",
+          "opties": [
+            "Het quotiënt van twee opeenvolgende waarden is constant.",
+            "Het verschil van twee opeenvolgende waarden is constant.",
+            "De waarden worden altijd groter.",
+            "De eerste waarde is altijd \\(1\\)."
+          ],
+          "antwoord": 0,
+          "uitleg": "Een constant verschil wijst op lineaire groei."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "\\(f(x) = b \\cdot 3^{x}\\) gaat door \\((2, 36)\\). Wat is de beginwaarde?",
+          "antwoord": [
+            "4",
+            "vier"
+          ],
+          "uitleg": "\\(b \\cdot 9 = 36\\)."
+        }
+      ]
+    },
+    {
+      "titel": "Lineaire en exponentiële groeimodellen — pittig",
+      "niveau": "beyond-dubbele-finaliteit",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "tabel",
+          "vraag": "Lineair of exponentieel groeimodel?",
+          "rijen": [
+            "Een spaarrekening met 2 % samengestelde intrest per jaar",
+            "Een kaars die elk uur 1,5 cm korter wordt",
+            "Een bacteriekweek die elke 20 minuten verdubbelt",
+            "Een abonnement van 15 euro per maand plus 30 euro instap"
+          ],
+          "antwoord": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "uitleg": "Lineair: elke tijdseenheid komt er hetzelfde bedrag bij. Exponentieel: elke tijdseenheid wordt er met dezelfde factor vermenigvuldigd.",
+          "kolommen": [
+            "Lineair",
+            "Exponentieel"
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een bedrag groeit met 5 % per jaar. Wat is de groeifactor per maand, afgerond op vier decimalen?",
+          "opties": [
+            "\\(1{,}0041\\)",
+            "\\(1{,}0042\\)",
+            "\\(1{,}05\\)",
+            "\\(0{,}4167\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(1{,}05^{\\frac{1}{12}} \\approx 1{,}0041\\). Gewoon \\(5\\,\\% / 12\\) nemen geeft \\(1{,}0042\\): dat is niet hetzelfde."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een stad telt 40 000 inwoners en groeit met 2 % per jaar. Hoeveel inwoners zijn er na 3 jaar? Rond af op een geheel getal.",
+          "antwoord": "42448",
+          "uitleg": "\\(40\\,000 \\cdot 1{,}02^{3} = 40\\,000 \\cdot 1{,}061208 = 42\\,448{,}32\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een radioactieve stof heeft een halveringstijd van 8 dagen. Hoeveel procent is er na 24 dagen nog over?",
+          "opties": [
+            "\\(12{,}5\\,\\%\\)",
+            "\\(25\\,\\%\\)",
+            "\\(33\\,\\%\\)",
+            "\\(0\\,\\%\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(24\\) dagen is \\(3\\) halveringstijden: \\(\\left(\\frac{1}{2}\\right)^{3} = \\frac{1}{8} = 12{,}5\\,\\%\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een hoeveelheid verdubbelt elke 5 jaar. Wat is de groeifactor per jaar?",
+          "opties": [
+            "\\(2^{\\frac{1}{5}} \\approx 1{,}149\\)",
+            "\\(1{,}2\\)",
+            "\\(\\frac{2}{5} = 0{,}4\\)",
+            "\\(2^{5} = 32\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Na \\(5\\) jaar is de factor \\(a^{5} = 2\\), dus \\(a = 2^{\\frac{1}{5}} \\approx 1{,}149\\): ongeveer \\(14{,}9\\,\\%\\) per jaar."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een kapitaal groeit met 3 % per jaar. Na hoeveel jaar is het verdubbeld?",
+          "opties": [
+            "Ongeveer \\(23{,}4\\) jaar",
+            "Ongeveer \\(33{,}3\\) jaar",
+            "Ongeveer \\(6{,}7\\) jaar",
+            "Precies \\(30\\) jaar"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(1{,}03^{t} = 2 \\Rightarrow t = \\frac{\\log 2}{\\log 1{,}03} \\approx 23{,}4\\)."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Bij een groeipercentage van −15 % per jaar is de groeifactor [[*0,85|1,15|−0,15]]. Na twee jaar is er nog [[*72,25 %|70 %|85 %]] over.",
+          "uitleg": "0,85 · 0,85 = 0,7225: je trekt niet gewoon twee keer 15 % af."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een auto kost nieuw 25 000 euro en verliest elk jaar 20 % van zijn waarde. Hoeveel euro is hij na 2 jaar waard?",
+          "antwoord": "16000",
+          "uitleg": "\\(25\\,000 \\cdot 0{,}8^{2} = 25\\,000 \\cdot 0{,}64 = 16\\,000\\) euro."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Juist of fout over exponentiële groei?",
+          "rijen": [
+            "Bij exponentiële groei is de toename per jaar elk jaar even groot.",
+            "Een exponentiële groei met groeifactor groter dan 1 wordt uiteindelijk groter dan elke lineaire groei.",
+            "Een groeifactor van 1 betekent dat de hoeveelheid gelijk blijft."
+          ],
+          "antwoord": [
+            false,
+            true,
+            true
+          ],
+          "uitleg": "Exponentiële groei vermenigvuldigt telkens met dezelfde factor, dus de toename wordt steeds groter."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een medicijn wordt elke 6 uur voor de helft afgebroken. Welk voorschrift geeft de hoeveelheid na t uur, bij een dosis van 400 mg?",
+          "opties": [
+            "\\(400 \\cdot 0{,}5^{\\frac{t}{6}}\\)",
+            "\\(400 \\cdot 0{,}5^{6t}\\)",
+            "\\(400 - 6t\\)",
+            "\\(400 \\cdot 6^{-t}\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Na \\(t\\) uur zijn er \\(\\frac{t}{6}\\) halveringstijden voorbij."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een kapitaal van \\(2000\\) euro staat \\(5\\) jaar op een rekening met \\(3\\,\\%\\) samengestelde intrest per jaar. Hoeveel euro is het dan? Rond af op de cent.",
+          "antwoord": "2318,55",
+          "uitleg": "\\(2000 \\cdot 1{,}03^{5} = 2000 \\cdot 1{,}159274\\ldots \\approx 2318{,}55\\) euro."
+        },
+        {
+          "type": "open",
+          "vraag": "Een bank belooft 4 % intrest per jaar. Een andere bank belooft 0,33 % per maand. Welke is beter? Leg uit.",
+          "antwoord": "Per jaar geeft de tweede bank \\(1{,}0033^{12} \\approx 1{,}0403\\), dus ongeveer \\(4{,}03\\,\\%\\). Dat is iets meer dan \\(4\\,\\%\\), dus de tweede bank is (net) beter.",
+          "uitleg": "Zet beide om naar dezelfde tijdseenheid."
+        },
+        {
+          "casus": "Een algenplaag bedekt op dag 0 een oppervlakte van 3 m² van een vijver van 300 m². Elke dag wordt de bedekte oppervlakte 1,5 keer zo groot.",
+          "vragen": [
+            {
+              "type": "meerkeuze",
+              "vraag": "Welk voorschrift geeft de bedekte oppervlakte A na t dagen?",
+              "opties": [
+                "\\(A(t) = 3 \\cdot 1{,}5^{t}\\)",
+                "\\(A(t) = 3 + 1{,}5t\\)",
+                "\\(A(t) = 1{,}5 \\cdot 3^{t}\\)",
+                "\\(A(t) = 300 \\cdot 1{,}5^{t}\\)"
+              ],
+              "antwoord": 0,
+              "uitleg": "Beginwaarde 3, groeifactor 1,5 per dag."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Na hoeveel dagen is de vijver voor het eerst helemaal bedekt?",
+              "opties": [
+                "Na \\(12\\) dagen",
+                "Na \\(11\\) dagen",
+                "Na \\(100\\) dagen",
+                "Na \\(198\\) dagen"
+              ],
+              "antwoord": 0,
+              "uitleg": "\\(1{,}5^{t} = 100 \\Rightarrow t = \\frac{\\log 100}{\\log 1{,}5} \\approx 11{,}4\\). Na \\(11\\) dagen is het nog niet helemaal, na \\(12\\) dagen wel."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Hoeveel procent groeit de bedekte oppervlakte per dag?",
+              "opties": [
+                "\\(50\\,\\%\\)",
+                "\\(150\\,\\%\\)",
+                "\\(1{,}5\\,\\%\\)",
+                "\\(15\\,\\%\\)"
+              ],
+              "antwoord": 0,
+              "uitleg": "Groeifactor \\(1{,}5 = 1 + 0{,}5\\): een groei van \\(50\\,\\%\\)."
+            }
+          ]
+        },
+        {
+          "casus": "Sam zet \\(2000\\) euro op een spaarrekening met \\(3\\) procent samengestelde intrest per jaar. Zijn zus Lien krijgt elk jaar een vast bedrag van \\(60\\) euro bij op haar \\(2000\\) euro.",
+          "vragen": [
+            {
+              "type": "keuzelijst",
+              "vraag": "Het model van Sam is [[*exponentieel|lineair]], dat van Lien [[*lineair|exponentieel]].",
+              "uitleg": "Sam krijgt een vaste factor, Lien een vast bedrag."
+            },
+            {
+              "type": "invultekst",
+              "vraag": "Hoeveel euro heeft Lien na \\(10\\) jaar?",
+              "antwoord": [
+                "2600",
+                "2 600"
+              ],
+              "uitleg": "\\(2000 + 10 \\cdot 60\\)."
+            },
+            {
+              "type": "invultekst",
+              "vraag": "Hoeveel euro heeft Sam na \\(10\\) jaar? Rond af op een euro.",
+              "antwoord": [
+                "2688",
+                "2 688"
+              ],
+              "uitleg": "\\(2000 \\cdot 1{,}03^{10} \\approx 2687{,}83\\)."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Wie heeft na het eerste jaar het meest?",
+              "opties": [
+                "Ze hebben allebei \\(2060\\) euro.",
+                "Sam, want samengestelde intrest wint altijd.",
+                "Lien, want een vast bedrag is altijd meer.",
+                "Dat kan je niet berekenen zonder logaritme."
+              ],
+              "antwoord": 0,
+              "uitleg": "Drie procent van \\(2000\\) is precies \\(60\\). Pas daarna loopt Sam uit."
+            }
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Wat is de groeifactor per tijdseenheid?",
+          "rijen": [
+            "\\(8\\) procent erbij per jaar",
+            "\\(8\\) procent eraf per jaar",
+            "de helft eraf per dag",
+            "verdubbelen per uur"
+          ],
+          "antwoord": [
+            2,
+            1,
+            0,
+            3
+          ],
+          "uitleg": "Groeifactor is \\(1\\) plus of min het percentage als decimaal getal.",
+          "kolommen": [
+            "\\(0{,}5\\)",
+            "\\(0{,}92\\)",
+            "\\(1{,}08\\)",
+            "\\(2\\)"
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een prijs stijgt eerst \\(10\\) procent en daalt daarna \\(10\\) procent. Waar eindigt de prijs?",
+          "opties": [
+            "\\(1\\) procent lager dan in het begin",
+            "precies op de beginprijs",
+            "\\(1\\) procent hoger dan in het begin",
+            "\\(20\\) procent lager dan in het begin"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(1{,}1 \\cdot 0{,}9 = 0{,}99\\)."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een groeifactor van \\(1{,}44\\) per \\(2\\) jaar. Wat is de groeifactor per jaar?",
+          "antwoord": [
+            "1,2",
+            "1.2"
+          ],
+          "uitleg": "\\(\\sqrt{1{,}44} = 1{,}2\\)."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een populatie verdubbelt elke \\(4\\) jaar. Hoeveel keer zo groot is ze na \\(20\\) jaar?",
+          "antwoord": [
+            "32",
+            "tweeëndertig"
+          ],
+          "uitleg": "Vijf keer verdubbelen: \\(2^{5}\\)."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een groeipercentage van \\(0\\) procent hoort bij een groeifactor van [[*\\(1\\)|\\(0\\)|\\(100\\)]].",
+          "uitleg": "Er verandert dan niets."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Lineair of exponentieel model?",
+          "kolommen": [
+            "lineair",
+            "exponentieel"
+          ],
+          "items": [
+            [
+              "een taxi met een vaste instapprijs en een prijs per kilometer",
+              "lineair"
+            ],
+            [
+              "een virus dat zich elke dag met een kwart uitbreidt",
+              "exponentieel"
+            ],
+            [
+              "een gsm-abonnement van \\(12\\) euro per maand",
+              "lineair"
+            ],
+            [
+              "een auto die elk jaar \\(15\\) procent van zijn waarde verliest",
+              "exponentieel"
+            ],
+            [
+              "enkelvoudige intrest op een spaarboekje",
+              "lineair"
+            ]
+          ],
+          "uitleg": "Vast bedrag erbij: lineair. Vaste factor: exponentieel."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een prijs daalt van \\(250\\) naar \\(200\\) euro. Met hoeveel procent is dat?",
+          "antwoord": [
+            "20",
+            "20 %",
+            "20%"
+          ],
+          "uitleg": "\\(50 : 250 = 0{,}2\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een bedrag is na \\(10\\) jaar \\(1{,}5\\) keer zo groot. Hoe vind je de groeifactor per jaar?",
+          "opties": [
+            "de tiendemachtswortel uit \\(1{,}5\\)",
+            "\\(1{,}5\\) gewoon delen door het aantal jaren",
+            "\\(1{,}5\\) verheffen tot de tiende macht",
+            "\\(1{,}5\\) min tien"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(a^{10} = 1{,}5\\), dus \\(a = \\sqrt[10]{1{,}5}\\)."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over groei?",
+          "rijen": [
+            "Twee keer \\(10\\) procent erbij is samen \\(21\\) procent erbij.",
+            "Bij exponentiële afname bereik je ooit precies nul.",
+            "Verdubbelingstijd hangt niet af van de beginwaarde.",
+            "Een groeifactor per jaar zet je om naar een factor per maand door te delen door twaalf."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Per maand neem je de twaalfdemachtswortel."
+        },
+        {
+          "type": "open",
+          "vraag": "Een bevolking groeit met \\(2\\) procent per jaar. Leg uit waarom er elk jaar meer mensen bijkomen dan het jaar ervoor.",
+          "antwoord": "Twee procent is telkens twee procent van een groter aantal. Omdat de bevolking zelf groeit, worden die twee procent elk jaar meer mensen.",
+          "uitleg": "Bij exponentiële groei groeit de toename mee."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een tabel toont \\(200\\), \\(150\\), \\(112{,}5\\), \\(84{,}375\\). Welk model past?",
+          "opties": [
+            "exponentieel, factor \\(0{,}75\\)",
+            "lineair, telkens \\(50\\) eraf",
+            "exponentieel, factor \\(1{,}25\\)",
+            "lineair, telkens \\(25\\) procent eraf"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het verschil wordt kleiner, het quotiënt blijft \\(0{,}75\\)."
+        }
+      ]
+    },
+    {
+      "titel": "Kansen en de wet van Laplace — pittig",
+      "niveau": "beyond-dubbele-finaliteit",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Je gooit met twee eerlijke dobbelstenen. Hoe groot is de kans dat de som 7 is?",
+          "opties": [
+            "\\(\\dfrac{7}{36}\\)",
+            "\\(\\dfrac{1}{12}\\)",
+            "\\(\\dfrac{1}{11}\\)",
+            "\\(\\dfrac{1}{6}\\)"
+          ],
+          "antwoord": 3,
+          "uitleg": "Er zijn \\(36\\) even waarschijnlijke uitkomsten. Zes geven som 7: (1,6), (2,5), (3,4), (4,3), (5,2), (6,1)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een zak bevat 4 rode, 5 blauwe en 3 groene knikkers. Je trekt er blind één. Hoe groot is de kans dat ze niet blauw is?",
+          "opties": [
+            "\\(\\dfrac{5}{12}\\)",
+            "\\(\\dfrac{7}{12}\\)",
+            "\\(\\dfrac{1}{3}\\)",
+            "\\(\\dfrac{7}{5}\\)"
+          ],
+          "antwoord": 1,
+          "uitleg": "Complementregel: \\(1 - \\frac{5}{12} = \\frac{7}{12}\\). Of rechtstreeks: \\(4 + 3 = 7\\) gunstige knikkers op \\(12\\)."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Mag je hier de wet van Laplace gebruiken?",
+          "kolommen": [
+            "Laplace mag",
+            "Laplace mag niet"
+          ],
+          "items": [
+            [
+              "Een eerlijke dobbelsteen gooien",
+              "Laplace mag"
+            ],
+            [
+              "Een punaise die op de punt of op de kop valt",
+              "Laplace mag niet"
+            ],
+            [
+              "Een kaart trekken uit een goed geschud spel",
+              "Laplace mag"
+            ],
+            [
+              "Morgen regent het of het regent niet",
+              "Laplace mag niet"
+            ],
+            [
+              "Een naam trekken uit een hoed met 30 briefjes",
+              "Laplace mag"
+            ],
+            [
+              "Een voetbalmatch winnen, verliezen of gelijkspelen",
+              "Laplace mag niet"
+            ]
+          ],
+          "uitleg": "Laplace werkt enkel als alle uitkomsten even waarschijnlijk zijn."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Juist of fout over kansen?",
+          "rijen": [
+            "Een kans van 0 betekent dat de gebeurtenis onmogelijk is.",
+            "Een kans kan groter zijn dan 1 als iets heel vaak gebeurt.",
+            "Twee gebeurtenissen die elkaar uitsluiten, kunnen samen gebeuren.",
+            "Bij een eerlijke munt is de kans op kop bij de zesde worp \\(\\frac{1}{2}\\), ook na vijf keer kop."
+          ],
+          "antwoord": [
+            true,
+            false,
+            false,
+            true
+          ],
+          "uitleg": "Een kans ligt altijd tussen 0 en 1. Een munt heeft geen geheugen."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Bij een dobbelsteen is {1, 2, 3, 4, 5, 6} de [[uitkomstenverzameling]]. 'Een even getal gooien' is een [[gebeurtenis]] met drie gunstige [[uitkomsten]].",
+          "extra": [
+            "kans",
+            "frequentie",
+            "kruistabel"
+          ],
+          "uitleg": "Een gebeurtenis is een deel van de uitkomstenverzameling."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Het weerbericht zegt: 'kans op regen 70 %'. Wat betekent dat?",
+          "opties": [
+            "Op dagen met zo'n voorspelling regent het in ongeveer 70 % van de gevallen",
+            "Het zal morgen 70 % van de dag regenen",
+            "Het regent morgen op 70 % van de plaatsen in het land",
+            "Het regent morgen zeker, maar minder hard"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een kans zegt hoe vaak iets gebeurt op lange termijn, bij vergelijkbare omstandigheden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Bij 50 worpen met een dobbelsteen kwam 13 keer een zes. Wat kan je besluiten?",
+          "opties": [
+            "De dobbelsteen is zeker vals",
+            "De kans op een zes is bij deze dobbelsteen 13/50",
+            "Dat kan toeval zijn: 50 worpen is te weinig om te besluiten",
+            "Bij de volgende worpen zal zes minder vaak vallen"
+          ],
+          "antwoord": 2,
+          "uitleg": "Verwacht is ongeveer \\(\\frac{50}{6} \\approx 8\\). Bij weinig worpen schommelt de relatieve frequentie nog sterk rond de kans."
+        },
+        {
+          "casus": "Een schoolfeest heeft een tombola met \\(400\\) loten. Daarvan winnen er \\(20\\) een kleine prijs en \\(4\\) een grote prijs. De rest wint niets. Je koopt één lot.",
+          "vragen": [
+            {
+              "type": "invultekst",
+              "vraag": "Wat is de kans dat je een grote prijs wint? Geef een kommagetal.",
+              "antwoord": [
+                "0,01",
+                "0.01",
+                "1 %",
+                "1%"
+              ],
+              "uitleg": "\\(4\\) gunstige op \\(400\\): \\(0{,}01\\)."
+            },
+            {
+              "type": "invultekst",
+              "vraag": "Wat is de kans dat je iets wint? Geef een kommagetal.",
+              "antwoord": [
+                "0,06",
+                "0.06",
+                "6 %",
+                "6%"
+              ],
+              "uitleg": "\\(24\\) winnende loten op \\(400\\)."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Wat is de kans dat je niets wint?",
+              "opties": [
+                "\\(0{,}94\\)",
+                "\\(0{,}06\\)",
+                "\\(0{,}99\\)",
+                "\\(0{,}376\\)"
+              ],
+              "antwoord": 0,
+              "uitleg": "Met de complementregel: \\(1 - 0{,}06\\)."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "Als iedereen een lot koopt en alle loten even goed gemengd zijn, mag je hier de wet van Laplace [[*wel|niet]] gebruiken.",
+              "uitleg": "Elk lot heeft evenveel kans om getrokken te worden."
+            }
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Hoe groot is de kans bij één worp met een eerlijke dobbelsteen?",
+          "rijen": [
+            "een getal kleiner dan \\(3\\)",
+            "een priemgetal",
+            "een veelvoud van \\(3\\)",
+            "een getal groter dan \\(6\\)"
+          ],
+          "antwoord": [
+            1,
+            2,
+            1,
+            0
+          ],
+          "uitleg": "Priemgetallen op een dobbelsteen: \\(2\\), \\(3\\) en \\(5\\).",
+          "kolommen": [
+            "\\(0\\)",
+            "\\(\\tfrac{1}{3}\\)",
+            "\\(\\tfrac{1}{2}\\)"
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je gooit met twee dobbelstenen. Wat is de kans dat de som \\(10\\) of meer is?",
+          "opties": [
+            "\\(\\tfrac{1}{6}\\)",
+            "\\(\\tfrac{1}{12}\\)",
+            "\\(\\tfrac{3}{36}\\)",
+            "\\(\\tfrac{1}{4}\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Som \\(10\\): drie manieren, som \\(11\\): twee, som \\(12\\): één. Zes op zesendertig."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Je gooit met twee dobbelstenen. Wat is de kans dat je géén dubbel gooit? Schrijf het als breuk.",
+          "antwoord": [
+            "5/6",
+            "30/36",
+            "vijf zesde"
+          ],
+          "uitleg": "Zes dubbels op zesendertig, dus \\(1 - \\tfrac{6}{36} = \\tfrac{30}{36}\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Uit een kaartspel van \\(52\\) trek je één kaart. Wat is de kans op een aas of een harten?",
+          "opties": [
+            "\\(\\tfrac{16}{52}\\)",
+            "\\(\\tfrac{17}{52}\\)",
+            "\\(\\tfrac{4}{52}\\)",
+            "\\(\\tfrac{13}{52}\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Dertien harten en nog drie azen die geen harten zijn: \\(16\\) gunstige."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is dit een uitkomst, een gebeurtenis of de uitkomstenverzameling?",
+          "rijen": [
+            "\\(\\{1, 2, 3, 4, 5, 6\\}\\) bij een dobbelsteen",
+            "je gooit een \\(4\\)",
+            "je gooit een oneven getal",
+            "\\(\\{KK, KM, MK, MM\\}\\) bij twee keer een muntstuk"
+          ],
+          "antwoord": [
+            2,
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Een gebeurtenis is een deel van de uitkomstenverzameling.",
+          "kolommen": [
+            "uitkomst",
+            "gebeurtenis",
+            "uitkomstenverzameling"
+          ]
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een vaas bevat rode en blauwe knikkers. De kans op rood is \\(0{,}35\\). Er zitten \\(13\\) blauwe knikkers in. Hoeveel knikkers zitten er in totaal in de vaas?",
+          "antwoord": [
+            "20",
+            "twintig"
+          ],
+          "uitleg": "Blauw heeft kans \\(0{,}65\\), dus \\(13 : 0{,}65 = 20\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een leerling gooit een munt \\(10\\) keer en krijgt \\(7\\) keer kop. Wat is de beste conclusie?",
+          "opties": [
+            "Tien worpen zijn te weinig om iets over de munt te zeggen.",
+            "De kans op kop is bij deze munt zeker \\(0{,}7\\).",
+            "Bij de volgende worp komt zeker munt, om het goed te maken.",
+            "De munt is vals, want de helft is vijf en niet zeven."
+          ],
+          "antwoord": 0,
+          "uitleg": "Pas bij heel veel worpen komt de relatieve frequentie dicht bij de kans."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een relatieve frequentie [[*meet|berekent]] je met een experiment; een Laplacekans [[*berekent|meet]] je vooraf uit de gelijke uitkomsten.",
+          "uitleg": "Bij veel herhalingen komen ze dicht bij elkaar."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een supermarkt telt op een week \\(2400\\) klanten, waarvan \\(360\\) met de fiets komen. Wat is de relatieve frequentie van fietsers? Geef een kommagetal.",
+          "antwoord": [
+            "0,15",
+            "0.15",
+            "15 %",
+            "15%"
+          ],
+          "uitleg": "\\(360 : 2400 = 0{,}15\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke kans is het grootst?",
+          "opties": [
+            "minstens één kop bij twee worpen met een munt",
+            "een zes bij één worp met een dobbelsteen",
+            "twee keer kop bij twee worpen met een munt",
+            "een harten bij één kaart uit een spel van \\(52\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(0{,}75\\) tegenover \\(\\tfrac{1}{6}\\), \\(0{,}25\\) en \\(0{,}25\\)."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet deze gebeurtenissen van kleine naar grote kans.",
+          "opties": [
+            "met twee dobbelstenen som \\(2\\) gooien",
+            "met één dobbelsteen een \\(6\\) gooien",
+            "met één dobbelsteen een even getal gooien",
+            "met één dobbelsteen geen \\(6\\) gooien"
+          ],
+          "uitleg": "\\(\\tfrac{1}{36}\\), \\(\\tfrac{1}{6}\\), \\(\\tfrac{1}{2}\\), \\(\\tfrac{5}{6}\\)."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Kan dit een kans zijn?",
+          "kolommen": [
+            "kan een kans zijn",
+            "kan geen kans zijn"
+          ],
+          "items": [
+            [
+              "\\(0\\)",
+              "kan een kans zijn"
+            ],
+            [
+              "\\(0{,}75\\)",
+              "kan een kans zijn"
+            ],
+            [
+              "\\(1\\)",
+              "kan een kans zijn"
+            ],
+            [
+              "\\(1{,}2\\)",
+              "kan geen kans zijn"
+            ],
+            [
+              "\\(-0{,}1\\)",
+              "kan geen kans zijn"
+            ],
+            [
+              "\\(120\\,\\%\\)",
+              "kan geen kans zijn"
+            ]
+          ],
+          "uitleg": "Een kans ligt altijd tussen \\(0\\) en \\(1\\), of tussen \\(0\\) en \\(100\\) procent."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een klas telt \\(28\\) leerlingen. De kans dat een willekeurige leerling een broer heeft, is \\(\\tfrac{3}{7}\\). Hoeveel leerlingen hebben een broer?",
+          "opties": [
+            "\\(12\\)",
+            "\\(3\\)",
+            "\\(16\\)",
+            "\\(7\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(\\tfrac{3}{7} \\cdot 28 = 12\\)."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over kansen?",
+          "rijen": [
+            "Bij een loterij met \\(1\\) winnend lot op \\(500\\) win je zeker als je \\(500\\) keer meedoet met nieuwe trekkingen.",
+            "Met \\(10\\) loten van één trekking met \\(500\\) loten is je winkans \\(0{,}02\\).",
+            "Een munt die vaak kop gaf, geeft daarna vaker munt."
+          ],
+          "antwoord": [
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Bij elke nieuwe trekking begint alles opnieuw; een munt heeft geen geheugen."
+        },
+        {
+          "type": "open",
+          "vraag": "Leg uit waarom je de wet van Laplace niet mag gebruiken om de kans te berekenen dat een geroosterde boterham op de beboterde kant valt.",
+          "antwoord": "Laplace mag enkel als alle uitkomsten even waarschijnlijk zijn. De boterham is niet symmetrisch, dus de twee kanten hebben niet zeker dezelfde kans. Je schat de kans beter met een experiment en de relatieve frequentie.",
+          "uitleg": "Twee uitkomsten betekent niet automatisch een kans van één op twee."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Je trekt een kaart uit een spel van \\(52\\). Wat is de kans dat het géén prentkaart is (boer, dame of heer)? Schrijf het als breuk.",
+          "antwoord": [
+            "40/52",
+            "10/13",
+            "tien dertiende"
+          ],
+          "uitleg": "Twaalf prentkaarten, dus \\(40\\) andere."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een draaischijf heeft \\(8\\) gelijke vakken: \\(3\\) rood, \\(4\\) geel, \\(1\\) groen. Wat is de kans op niet-geel?",
+          "opties": [
+            "\\(0{,}5\\)",
+            "\\(0{,}375\\)",
+            "\\(0{,}125\\)",
+            "\\(0{,}625\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Vier van de acht vakken zijn niet geel."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elk begrip uit de kansrekening aan een voorbeeld bij één dobbelsteenworp.",
+          "paren": [
+            [
+              "uitkomst",
+              "je gooit een \\(5\\)"
+            ],
+            [
+              "gebeurtenis",
+              "je gooit meer dan \\(4\\)"
+            ],
+            [
+              "complement van « een \\(6\\) gooien »",
+              "je gooit \\(1\\), \\(2\\), \\(3\\), \\(4\\) of \\(5\\)"
+            ],
+            [
+              "zekere gebeurtenis",
+              "je gooit een getal van \\(1\\) tot \\(6\\)"
+            ]
+          ],
+          "extra": [
+            "je gooit een \\(7\\)"
+          ],
+          "uitleg": "Een \\(7\\) gooien is een onmogelijke gebeurtenis."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Je gooit drie keer met een muntstuk. Hoeveel uitkomsten telt de uitkomstenverzameling?",
+          "antwoord": [
+            "8",
+            "acht"
+          ],
+          "uitleg": "Twee mogelijkheden per worp: \\(2 \\cdot 2 \\cdot 2 = 8\\)."
+        }
+      ]
+    },
+    {
+      "titel": "Kansbomen: product, som en complement — pittig",
+      "niveau": "beyond-dubbele-finaliteit",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de kans dat een leerling die de bus neemt, te laat komt.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/kansen-kansboom-bus.svg",
+          "zones": [
+            [
+              55.5,
+              16.4,
+              11.0,
+              12.5
+            ]
+          ],
+          "uitleg": "Die voorwaardelijke kans \\(P(\\text{te laat} \\mid \\text{bus}) = 0{,}1\\) staat op de tak van 'bus' naar 'te laat'."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het einde van het pad 'neemt de bus niet en komt te laat'.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/kansen-kansboom-bus.svg",
+          "zones": [
+            [
+              74.0,
+              60.8,
+              12.0,
+              8.1
+            ]
+          ],
+          "uitleg": "Eerst de tak 'geen bus', daarna vanuit die knoop de tak 'te laat'."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe groot is de kans dat een willekeurige leerling de bus niet neemt en op tijd komt?",
+          "opties": [
+            "\\(0{,}95\\)",
+            "\\(0{,}665\\)",
+            "\\(0{,}7\\)",
+            "\\(1{,}65\\)"
+          ],
+          "antwoord": 1,
+          "uitleg": "Productregel langs het pad: \\(0{,}7 \\cdot 0{,}95 = 0{,}665\\).",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/kansen-kansboom-bus.svg"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe groot is de kans dat een willekeurige leerling te laat komt?",
+          "opties": [
+            "\\(0{,}15\\)",
+            "\\(0{,}075\\)",
+            "\\(0{,}065\\)",
+            "\\(0{,}035\\)"
+          ],
+          "antwoord": 2,
+          "uitleg": "Twee paden eindigen op 'te laat'. Productregel en somregel: \\(0{,}3 \\cdot 0{,}1 + 0{,}7 \\cdot 0{,}05\\).",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/kansen-kansboom-bus.svg"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je gooit drie keer met een eerlijke munt. Hoe groot is de kans dat je minstens één keer kop gooit?",
+          "opties": [
+            "\\(\\dfrac{3}{8}\\)",
+            "\\(\\dfrac{1}{2}\\)",
+            "\\(\\dfrac{7}{8}\\)",
+            "\\(\\dfrac{3}{4}\\)"
+          ],
+          "antwoord": 2,
+          "uitleg": "Het tegengestelde is 'drie keer munt': \\(\\left(\\frac{1}{2}\\right)^3 = \\frac{1}{8}\\). Dus \\(1 - \\frac{1}{8}\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een test geeft in 95 % van de gevallen het juiste resultaat. Je doet hem twee keer, onafhankelijk van elkaar. Hoe groot is de kans dat hij beide keren juist is?",
+          "opties": [
+            "\\(0{,}95\\)",
+            "\\(0{,}9025\\)",
+            "\\(0{,}0975\\)",
+            "\\(1{,}9\\)"
+          ],
+          "antwoord": 1,
+          "uitleg": "\\(0{,}95 \\cdot 0{,}95 = 0{,}9025\\)."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet de stappen om met een kansboom P(A) te berekenen in de goede volgorde.",
+          "opties": [
+            "Teken de eerste vertakking, met kansen die samen 1 zijn",
+            "Teken bij elke knoop de tweede vertakking met de kansen die daar gelden",
+            "Vermenigvuldig de kansen langs elk pad dat bij A hoort",
+            "Tel de kansen van die paden op"
+          ],
+          "uitleg": "Eerst de boom opbouwen, dan productregel per pad, dan somregel over de paden."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel de regel aan wat je doet.",
+          "paren": [
+            [
+              "Productregel",
+              "Kansen langs één pad vermenigvuldigen"
+            ],
+            [
+              "Somregel",
+              "Kansen van verschillende paden optellen"
+            ],
+            [
+              "Complementregel",
+              "De kans op het tegengestelde van 1 aftrekken"
+            ],
+            [
+              "Wet van Laplace",
+              "Gunstige uitkomsten delen door alle even waarschijnlijke uitkomsten"
+            ]
+          ],
+          "extra": [
+            "Kansen van takken uit één knoop vermenigvuldigen"
+          ],
+          "uitleg": "Langs een pad: maal. Tussen paden: plus. Het tegendeel: 1 min."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "In een vaas staan 3 rode en 2 witte tulpen. Je neemt er blind 2, zonder terugleggen. Hoe groot is de kans op 2 rode tulpen? Geef een kommagetal.",
+          "antwoord": "0,3",
+          "uitleg": "\\(\\frac{3}{5} \\cdot \\frac{2}{4} = \\frac{6}{20} = 0{,}3\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Dezelfde vaas (3 rode, 2 witte tulpen), maar nu zet je de eerste tulp terug voor je de tweede neemt. Hoe groot is de kans op 2 rode?",
+          "opties": [
+            "\\(0{,}6\\)",
+            "\\(0{,}36\\)",
+            "\\(0{,}09\\)",
+            "\\(0{,}5\\)"
+          ],
+          "antwoord": 1,
+          "uitleg": "Met terugleggen blijft de kans telkens \\(\\frac{3}{5}\\): \\(0{,}6 \\cdot 0{,}6\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een quiz heeft 4 meerkeuzevragen met elk 4 opties. Je gokt bij elke vraag. Hoe groot is de kans dat alles fout is?",
+          "opties": [
+            "Ongeveer \\(0{,}75\\)",
+            "Ongeveer \\(0{,}25\\)",
+            "Ongeveer \\(0{,}68\\)",
+            "Ongeveer \\(0{,}32\\)"
+          ],
+          "antwoord": 3,
+          "uitleg": "Per vraag is de kans op fout \\(\\frac{3}{4}\\). Vier keer: \\(\\left(\\frac{3}{4}\\right)^4 \\approx 0{,}316\\)."
+        },
+        {
+          "casus": "Een basketter scoort een vrije worp met kans \\(0{,}7\\). Ze krijgt twee vrije worpen. De worpen hangen niet van elkaar af.",
+          "vragen": [
+            {
+              "type": "invultekst",
+              "vraag": "Wat is de kans dat ze twee keer scoort? Geef een kommagetal.",
+              "antwoord": [
+                "0,49",
+                "0.49"
+              ],
+              "uitleg": "\\(0{,}7 \\cdot 0{,}7\\)."
+            },
+            {
+              "type": "invultekst",
+              "vraag": "Wat is de kans dat ze precies één keer scoort? Geef een kommagetal.",
+              "antwoord": [
+                "0,42",
+                "0.42"
+              ],
+              "uitleg": "Twee paden: \\(0{,}7 \\cdot 0{,}3 + 0{,}3 \\cdot 0{,}7\\)."
+            },
+            {
+              "type": "invultekst",
+              "vraag": "Wat is de kans dat ze minstens één keer scoort? Geef een kommagetal.",
+              "antwoord": [
+                "0,91",
+                "0.91"
+              ],
+              "uitleg": "\\(1 - 0{,}3 \\cdot 0{,}3\\)."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "De drie kansen twee keer, precies één keer en nooit scoren geven samen [[*\\(1\\)|\\(0{,}91\\)|\\(2\\)]].",
+              "uitleg": "\\(0{,}49 + 0{,}42 + 0{,}09 = 1\\)."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In een doos zitten \\(4\\) goede en \\(2\\) kapotte batterijen. Je neemt er twee zonder terugleggen. Wat is de kans dat beide kapot zijn?",
+          "opties": [
+            "\\(\\tfrac{1}{15}\\)",
+            "\\(\\tfrac{1}{9}\\)",
+            "\\(\\tfrac{2}{6}\\)",
+            "\\(\\tfrac{4}{15}\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(\\tfrac{2}{6} \\cdot \\tfrac{1}{5} = \\tfrac{2}{30}\\)."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Uit diezelfde doos neem je twee batterijen zonder terugleggen. Wat is de kans dat er minstens één kapot is? Schrijf het als breuk.",
+          "antwoord": [
+            "9/15",
+            "3/5",
+            "18/30",
+            "drie vijfde"
+          ],
+          "uitleg": "Twee goede: \\(\\tfrac{4}{6} \\cdot \\tfrac{3}{5} = \\tfrac{12}{30}\\). Dus \\(1 - \\tfrac{12}{30} = \\tfrac{18}{30}\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je gooit vier keer met een eerlijke dobbelsteen. Wat is de kans op minstens één zes?",
+          "opties": [
+            "ongeveer \\(0{,}52\\)",
+            "ongeveer \\(0{,}67\\)",
+            "precies \\(\\tfrac{4}{6}\\)",
+            "ongeveer \\(0{,}48\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(1 - \\left(\\tfrac{5}{6}\\right)^4 \\approx 1 - 0{,}48\\)."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Vermenigvuldig of tel je de kansen op?",
+          "rijen": [
+            "twee takken na elkaar op hetzelfde pad",
+            "twee verschillende paden die allebei goed zijn",
+            "eerst kop, dan een zes",
+            "kop-munt of munt-kop"
+          ],
+          "antwoord": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "uitleg": "Langs een pad: maal. Tussen paden: plus.",
+          "kolommen": [
+            "vermenigvuldigen",
+            "optellen"
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een trein is op tijd met kans \\(0{,}9\\). Wat is de kans dat hij op een week van \\(5\\) schooldagen elke dag op tijd is?",
+          "opties": [
+            "ongeveer \\(0{,}59\\)",
+            "\\(0{,}9\\)",
+            "\\(4{,}5\\)",
+            "ongeveer \\(0{,}41\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(0{,}9^5 \\approx 0{,}59\\)."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Bij trekken [[*zonder|met]] terugleggen verandert de kans bij de tweede tak, omdat er één voorwerp minder in zit.",
+          "uitleg": "Met terugleggen blijft alles gelijk."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "In een klas zitten \\(10\\) meisjes en \\(5\\) jongens. Je kiest er willekeurig twee zonder terugleggen. Wat is de kans op twee jongens? Schrijf het als breuk.",
+          "antwoord": [
+            "2/21",
+            "20/210",
+            "4/42"
+          ],
+          "uitleg": "\\(\\tfrac{5}{15} \\cdot \\tfrac{4}{14} = \\tfrac{20}{210}\\)."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over kansbomen?",
+          "rijen": [
+            "Alle paden samen hebben kans \\(1\\).",
+            "Een tak kan een kans groter dan \\(1\\) hebben.",
+            "Paden sluiten elkaar uit, dus je mag hun kansen optellen.",
+            "Binnen een pad tel je de takkansen op."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Binnen een pad vermenigvuldig je."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een spel heeft winkans \\(0{,}2\\). Hoeveel keer moet je minstens spelen om meer dan de helft kans te hebben om minstens één keer te winnen?",
+          "opties": [
+            "\\(4\\) keer",
+            "\\(3\\) keer",
+            "\\(5\\) keer",
+            "\\(2\\) keer"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(1 - 0{,}8^3 \\approx 0{,}49\\) en \\(1 - 0{,}8^4 \\approx 0{,}59\\)."
+        },
+        {
+          "type": "open",
+          "vraag": "Leg uit waarom je bij « minstens één » liever de complementregel gebruikt dan alle paden op te tellen.",
+          "antwoord": "Minstens één omvat veel paden, maar het tegendeel is maar één pad: nooit. Dat ene pad reken je met de productregel uit en je trekt het af van \\(1\\).",
+          "uitleg": "Eén pad uitrekenen gaat sneller en geeft minder kans op fouten."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een fabriek keurt \\(90\\) % van de stukken goed. Je neemt drie stukken. Wat is de kans dat er precies één afgekeurd wordt? Geef een kommagetal.",
+          "antwoord": [
+            "0,243",
+            "0.243"
+          ],
+          "uitleg": "Drie paden van \\(0{,}1 \\cdot 0{,}9 \\cdot 0{,}9 = 0{,}081\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je trekt twee kaarten uit een spel van \\(52\\) zonder terugleggen. Wat is de kans op twee azen?",
+          "opties": [
+            "\\(\\tfrac{1}{221}\\)",
+            "\\(\\tfrac{1}{169}\\)",
+            "\\(\\tfrac{2}{52}\\)",
+            "\\(\\tfrac{1}{13}\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(\\tfrac{4}{52} \\cdot \\tfrac{3}{51} = \\tfrac{12}{2652} = \\tfrac{1}{221}\\)."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Langs één pad gebruik je de [[productregel]]. Voor meerdere paden samen gebruik je de [[somregel]]. Voor « minstens één » werk je het snelst met de [[complementregel]].",
+          "extra": [
+            "wet van Laplace",
+            "relatieve frequentie"
+          ],
+          "uitleg": "Maal, plus en één min."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een bus is te laat met kans \\(0{,}15\\). Wat is de kans dat hij twee dagen na elkaar op tijd is? Geef een kommagetal.",
+          "antwoord": [
+            "0,7225",
+            "0.7225"
+          ],
+          "uitleg": "\\(0{,}85 \\cdot 0{,}85\\)."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Verandert de kans bij de tweede trekking of niet?",
+          "kolommen": [
+            "verandert",
+            "verandert niet"
+          ],
+          "items": [
+            [
+              "twee knikkers trekken zonder terugleggen",
+              "verandert"
+            ],
+            [
+              "twee keer met een dobbelsteen gooien",
+              "verandert niet"
+            ],
+            [
+              "twee leerlingen na elkaar kiezen voor een taak",
+              "verandert"
+            ],
+            [
+              "twee keer een kaart trekken met terugleggen",
+              "verandert niet"
+            ]
+          ],
+          "uitleg": "Zonder terugleggen is er één voorwerp minder."
+        }
+      ]
+    },
+    {
+      "titel": "Populatie, steekproef en representativiteit — pittig",
+      "niveau": "beyond-dubbele-finaliteit",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Een onderzoeker bevraagt 400 Vlaamse 17-jarigen over hoeveel ze slapen. Wat is de populatie?",
+          "opties": [
+            "De 400 bevraagde jongeren",
+            "Alle Vlaamse 17-jarigen",
+            "Alle Vlamingen",
+            "De jongeren die het minst slapen"
+          ],
+          "antwoord": 1,
+          "uitleg": "De populatie is de hele groep waarover je iets wil weten. De 400 zijn de steekproef."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een school meet bij 50 leerlingen hoe lang ze naar school fietsen. Wat is de variabele?",
+          "opties": [
+            "De 50 leerlingen",
+            "Alle leerlingen van de school",
+            "De fietstijd naar school",
+            "Het gemiddelde van de 50 tijden"
+          ],
+          "antwoord": 2,
+          "uitleg": "De variabele is wat je bij elk element meet."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Is de steekproef aselect of niet?",
+          "kolommen": [
+            "Aselect",
+            "Niet aselect"
+          ],
+          "items": [
+            [
+              "Een computer loot 100 nummers uit de leerlingenlijst",
+              "Aselect"
+            ],
+            [
+              "De eerste 100 leerlingen die 's morgens binnenkomen",
+              "Niet aselect"
+            ],
+            [
+              "Een oproep op sociale media: wie wil, vult de enquête in",
+              "Niet aselect"
+            ],
+            [
+              "Elke leerling krijgt een nummer en je trekt 100 nummers uit een trommel",
+              "Aselect"
+            ],
+            [
+              "Je bevraagt je vrienden en hun vrienden",
+              "Niet aselect"
+            ],
+            [
+              "Uit elke klas loot je 4 leerlingen",
+              "Aselect"
+            ]
+          ],
+          "uitleg": "Aselect betekent dat toeval de keuze maakt, niet de onderzoeker of de deelnemer."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een tv-programma vraagt kijkers te sms'en of ze voor een nieuwe wet zijn. 80 % sms't 'ja'. Waarom zegt dat weinig over alle Belgen?",
+          "opties": [
+            "Omdat een percentage van 80 % veel te hoog is om nog geloofwaardig te zijn",
+            "Omdat enkel wie kijkt én een sterke mening heeft, de moeite neemt om te reageren",
+            "Omdat een sms'je geld kost, zodat jongeren die geen beltegoed hebben wegvallen",
+            "Omdat de steekproef te groot is"
+          ],
+          "antwoord": 1,
+          "uitleg": "Wie reageert, kiest zichzelf. Kijkers en mensen met een uitgesproken mening zijn oververtegenwoordigd."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een gemeente bevraagt mensen aan een bushalte over het openbaar vervoer. Waarom is dat geen goede steekproef voor alle inwoners?",
+          "opties": [
+            "Wie aan de halte staat, rijdt vaker met de bus dan gemiddeld",
+            "Aan een bushalte staan te weinig mensen",
+            "Mensen die op een bus wachten, antwoorden nooit eerlijk op vragen van onbekenden",
+            "Een bushalte is geen officiële plaats"
+          ],
+          "antwoord": 0,
+          "uitleg": "Autorijders en fietsers komen bijna niet in de steekproef: ze is vertekend."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet de stappen van een enkelvoudig aselecte steekproef in de goede volgorde.",
+          "opties": [
+            "Maak een lijst van alle elementen van de populatie",
+            "Geef elk element een nummer",
+            "Laat een toevalsgenerator n verschillende nummers kiezen",
+            "Bevraag of meet de gekozen elementen"
+          ],
+          "uitleg": "Zonder volledige lijst kan niet iedereen evenveel kans krijgen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Vijf klassen trekken elk een enkelvoudig aselecte steekproef van 50 leerlingen uit dezelfde school en berekenen hoeveel procent ontbijt. Ze vinden 62 %, 58 %, 66 %, 60 % en 64 %. Wat toont dat?",
+          "opties": [
+            "Vier klassen hebben fout gerekend",
+            "Het echte percentage is zeker 62 %",
+            "Een steekproef van 50 is altijd vertekend",
+            "De variabiliteit van steekproeven: elk resultaat schommelt door toeval"
+          ],
+          "antwoord": 3,
+          "uitleg": "Verschillende aselecte steekproeven geven verschillende uitkomsten rond de echte waarde."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Peiling A bevraagt 100 000 vrijwillige deelnemers via een website. Peiling B is een enkelvoudig aselecte steekproef van 1000 personen. Welke is betrouwbaarder?",
+          "opties": [
+            "Peiling A, want met honderd keer meer deelnemers valt elke vertekening weg",
+            "Ze zijn even betrouwbaar",
+            "Peiling B, want vrijwillige respons blijft vertekend",
+            "Dat kan je niet zeggen zonder de resultaten"
+          ],
+          "antwoord": 2,
+          "uitleg": "Een grotere steekproef verkleint toevalsschommelingen, maar lost een vertekening niet op."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "In een enkelvoudig aselecte steekproef van 200 leerlingen zeggen 58 leerlingen dat ze dagelijks sporten. Welk percentage schat je voor de hele school?",
+          "antwoord": "29",
+          "uitleg": "\\(\\frac{58}{200} = 0{,}29\\), dus ongeveer \\(29\\) %."
+        },
+        {
+          "type": "open",
+          "vraag": "Leg uit waarom vrijwillige respons meestal tot een vertekende steekproef leidt.",
+          "antwoord": "Wie zelf kiest om te reageren, verschilt vaak van wie niet reageert: die mensen hebben meer tijd, meer interesse of een sterkere mening. Zo zijn sommige groepen oververtegenwoordigd en weerspiegelt de steekproef de populatie niet.",
+          "uitleg": "Wie reageert, is geen toevallige groep."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een gemeente wil weten wat alle inwoners van een nieuw park vinden. Welke steekproef is het best?",
+          "opties": [
+            "De bezoekers van het park op zondag",
+            "Een oproep op de website van de gemeente, zodat iedereen kan reageren",
+            "De leden van de gemeenteraad",
+            "Een aselecte steekproef uit het bevolkingsregister"
+          ],
+          "antwoord": 3,
+          "uitleg": "Enkel de lijst van alle inwoners geeft iedereen evenveel kans. Parkbezoekers zijn vooral fans van het park."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Bij een onderzoek naar slaap en schoolresultaten antwoordt 40 % van de gekozen leerlingen niet. Waarom is dat een probleem?",
+          "opties": [
+            "Wie niet antwoordt, kan anders slapen of presteren dan wie wel antwoordt",
+            "Er blijven te weinig antwoorden over om te rekenen",
+            "Het maakt niets uit, want de steekproef was aselect",
+            "Omdat 40 % meer is dan de steekproeffout"
+          ],
+          "antwoord": 0,
+          "uitleg": "Ook bij een aselecte keuze kan non-respons een vertekening geven: een niet-steekproeffout."
+        },
+        {
+          "casus": "Een jeugdhuis wil weten hoeveel jongeren uit de gemeente op zaterdag willen komen. De gemeente telt \\(1200\\) jongeren tussen \\(14\\) en \\(18\\) jaar. Het jeugdhuis bevraagt de \\(60\\) jongeren die op een vrijdagavond in het jeugdhuis zijn. \\(45\\) van hen zeggen ja.",
+          "vragen": [
+            {
+              "type": "invultekst",
+              "vraag": "Hoeveel procent van de bevraagde jongeren zegt ja?",
+              "antwoord": [
+                "75",
+                "75 %",
+                "75%"
+              ],
+              "uitleg": "\\(45 : 60 = 0{,}75\\)."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "De populatie is [[*de \\(1200\\) jongeren van de gemeente|de \\(60\\) bevraagde jongeren|alle jeugdhuizen]].",
+              "uitleg": "De populatie is de hele groep waarover je iets wil weten."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Waarom is deze steekproef vertekend?",
+              "opties": [
+                "Wie al naar het jeugdhuis komt, wil er ook vaker naartoe.",
+                "Zestig jongeren zijn altijd veel te weinig voor eender welk besluit.",
+                "Op een vrijdagavond zijn er nooit genoeg jongeren in een jeugdhuis.",
+                "Jongeren antwoorden nooit eerlijk op een vraag."
+              ],
+              "antwoord": 0,
+              "uitleg": "Jongeren die nooit komen, zitten er niet in."
+            },
+            {
+              "type": "open",
+              "vraag": "Hoe kies je de steekproef beter?",
+              "antwoord": "Ik neem de lijst van alle \\(1200\\) jongeren en trek er aselect bijvoorbeeld \\(100\\) uit, zodat elke jongere evenveel kans heeft.",
+              "uitleg": "Aselect trekken uit de hele populatie maakt de steekproef representatief."
+            }
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Populatie, steekproef of variabele?",
+          "rijen": [
+            "alle klanten van een supermarktketen",
+            "de \\(250\\) klanten die een vragenlijst invulden",
+            "hoeveel euro een klant per week uitgeeft",
+            "de reistijd naar de winkel"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            2
+          ],
+          "uitleg": "De variabele is het kenmerk dat je meet.",
+          "kolommen": [
+            "populatie",
+            "steekproef",
+            "variabele"
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een fabriek test elke vijftigste fles van de band. Wat voor steekproef is dat?",
+          "opties": [
+            "een systematische steekproef",
+            "een vertekende steekproef door vrije keuze",
+            "een steekproef met vrijwillige deelname",
+            "geen steekproef maar de hele populatie"
+          ],
+          "antwoord": 0,
+          "uitleg": "Met vaste tussenstappen uit de hele productie."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een school van \\(650\\) leerlingen bevraagt er \\(130\\). Hoeveel procent van de school is dat?",
+          "antwoord": [
+            "20",
+            "20 %",
+            "20%"
+          ],
+          "uitleg": "\\(130 : 650 = 0{,}2\\)."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over steekproeven?",
+          "rijen": [
+            "Een grotere aselecte steekproef geeft een betrouwbaarder besluit.",
+            "Een vertekende steekproef wordt goed door er meer mensen op dezelfde manier bij te nemen.",
+            "Ook een aselecte steekproef kan door toeval wat scheef uitvallen.",
+            "Statistiek geeft zekerheid over de hele populatie."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Grootte helpt tegen toeval, niet tegen vertekening."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Welke groep ontbreekt of is ondervertegenwoordigd?",
+          "kolommen": [
+            "mensen die overdag werken",
+            "mensen zonder internet",
+            "jonge mensen"
+          ],
+          "items": [
+            [
+              "een telefonische peiling op een werkdag om \\(11\\) uur",
+              "mensen die overdag werken"
+            ],
+            [
+              "een enquête enkel via een website",
+              "mensen zonder internet"
+            ],
+            [
+              "een bevraging in een rusthuis over vrije tijd in de gemeente",
+              "jonge mensen"
+            ],
+            [
+              "een bevraging aan de schoolpoort om \\(14\\) uur over de avondmarkt",
+              "mensen die overdag werken"
+            ]
+          ],
+          "uitleg": "Bekijk telkens wie de methode nooit bereikt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een krant schrijft: « uit een bevraging van \\(40\\) mensen blijkt dat \\(60\\) % van de Belgen tegen het plan is. » Wat is je grootste bezwaar?",
+          "opties": [
+            "Veertig mensen is weinig, en we weten niet hoe ze gekozen zijn.",
+            "Zestig procent kan wiskundig nooit kloppen bij precies veertig mensen.",
+            "Een krant mag eigenlijk geen percentages gebruiken in een artikel.",
+            "Er moeten minstens evenveel mensen voor als tegen zijn."
+          ],
+          "antwoord": 0,
+          "uitleg": "Vraag altijd naar de grootte en de manier van kiezen."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een vraag als « Bent u ook tegen die dure plannen? » is [[*sturend|neutraal]], en dat kan het besluit [[*vertekenen|verbeteren]].",
+          "uitleg": "Hoe je vraagt, beïnvloedt het antwoord."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "In een aselecte steekproef van \\(400\\) inwoners hebben \\(88\\) een elektrische fiets. Hoeveel van de \\(25\\,000\\) inwoners schat je met een elektrische fiets?",
+          "antwoord": [
+            "5500",
+            "5 500"
+          ],
+          "uitleg": "\\(88 : 400 = 0{,}22\\) en \\(0{,}22 \\cdot 25\\,000 = 5500\\)."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elk woord aan zijn betekenis.",
+          "paren": [
+            [
+              "representatief",
+              "lijkt in samenstelling op de populatie"
+            ],
+            [
+              "aselect",
+              "iedereen heeft evenveel kans om gekozen te worden"
+            ],
+            [
+              "vertekend",
+              "bepaalde groepen zijn bevoordeeld"
+            ],
+            [
+              "systematisch",
+              "met een vaste stap uit een lijst gekozen"
+            ]
+          ],
+          "extra": [
+            "meet het hele land"
+          ],
+          "uitleg": "Aselect kiezen helpt om representatief te zijn."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een leerling wil de gemiddelde schermtijd van alle leerlingen van zijn school weten. Welke steekproef is het best?",
+          "opties": [
+            "uit elke klas lukraak twee leerlingen loten",
+            "zijn eigen vriendengroep, na school op het plein",
+            "alle leerlingen van de gamingclub op woensdag",
+            "wie op Smartschool reageert op een oproep"
+          ],
+          "antwoord": 0,
+          "uitleg": "Uit elke klas, en het lot beslist."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is dit een goede reden om met een steekproef te werken?",
+          "rijen": [
+            "De hele populatie bevragen kost te veel tijd en geld.",
+            "Bij een kwaliteitstest gaat het product kapot.",
+            "Met een steekproef ben je zeker van het juiste antwoord."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Een steekproef geeft een onderbouwde schatting, geen zekerheid."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een onderzoek stuurt \\(2000\\) vragenlijsten op en krijgt er \\(160\\) terug. Waar zit het risico?",
+          "opties": [
+            "Wie terugstuurt, verschilt misschien van wie niet terugstuurt.",
+            "\\(160\\) antwoorden zijn veel te veel om nog goed te verwerken.",
+            "Een vragenlijst per post is altijd aselect, dus er is geen probleem.",
+            "Er is geen risico, want \\(2000\\) is groot genoeg."
+          ],
+          "antwoord": 0,
+          "uitleg": "Maar \\(8\\) procent antwoordt; die groep kiest zichzelf."
+        },
+        {
+          "type": "open",
+          "vraag": "Leg uit waarom een steekproef van \\(1000\\) aselect gekozen Belgen meer zegt dan \\(50\\,000\\) reacties op een oproep op sociale media.",
+          "antwoord": "De \\(1000\\) aselect gekozen mensen lijken op de hele bevolking. De \\(50\\,000\\) reacties komen van wie de oproep ziet en zelf wil reageren: dat is een vertekende groep, en die vertekening verdwijnt niet door er meer mensen bij te nemen.",
+          "uitleg": "Hoe je kiest is belangrijker dan hoeveel je kiest."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Het gemiddelde van een steekproef noteer je met [[*een streepje boven de \\(x\\)|de Griekse letter mu]], dat van de populatie met [[*de Griekse letter mu|een streepje boven de \\(x\\)]].",
+          "uitleg": "Zo zie je meteen waarover het getal gaat."
+        }
+      ]
+    },
+    {
+      "titel": "Samenhang en causaliteit — pittig",
+      "niveau": "beyond-dubbele-finaliteit",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de dag die duidelijk niet in het patroon past.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/steekproeven-ijsjes.svg",
+          "zones": [
+            [
+              34.0,
+              17.0,
+              6.0,
+              9.4
+            ]
+          ],
+          "uitleg": "Bij 18 °C werden 260 ijsjes verkocht, veel meer dan op de andere koele dagen. Zo'n uitschieter heeft vaak een eigen verklaring, bijvoorbeeld een feest in de buurt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke samenhang toont het spreidingsdiagram, als je de uitschieter even weglaat?",
+          "opties": [
+            "Geen samenhang: de punten liggen verspreid zonder richting",
+            "Een negatieve samenhang: hoe warmer, hoe minder ijsjes",
+            "Een positieve samenhang: hoe warmer, hoe meer ijsjes",
+            "Een samenhang die enkel geldt boven 25 °C"
+          ],
+          "antwoord": 2,
+          "uitleg": "De punten lopen van linksonder naar rechtsboven.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/steekproeven-ijsjes.svg"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een krant merkt dat er op dezelfde dagen ook meer mensen verdrinken, en kopt: 'IJsjes eten is gevaarlijk bij het zwemmen.' Wat is er aan de hand?",
+          "opties": [
+            "Wie ijs eet, krijgt krampen en verdrinkt daardoor vaker in het water",
+            "Verdrinkingen zorgen voor meer verkochte ijsjes",
+            "De warmte doet allebei stijgen: een derde variabele",
+            "Er is geen samenhang: de krant heeft zich gewoon verteld"
+          ],
+          "antwoord": 2,
+          "uitleg": "Op warme dagen eten mensen meer ijs en gaan ze meer zwemmen. De temperatuur zit achter beide.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/steekproeven-ijsjes.svg"
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Wat verklaart de samenhang het best?",
+          "kolommen": [
+            "Causaliteit",
+            "Omgekeerde causaliteit",
+            "Derde variabele",
+            "Toeval"
+          ],
+          "items": [
+            [
+              "Wie meer uren oefent op de piano, speelt beter",
+              "Causaliteit"
+            ],
+            [
+              "Wie veel sport, voelt zich fitter",
+              "Causaliteit"
+            ],
+            [
+              "Leerlingen die bijles volgen, halen lagere punten",
+              "Omgekeerde causaliteit"
+            ],
+            [
+              "Mensen die pijnstillers nemen, hebben vaker hoofdpijn",
+              "Omgekeerde causaliteit"
+            ],
+            [
+              "Kinderen met grotere voeten lezen beter",
+              "Derde variabele"
+            ],
+            [
+              "In jaren met meer verkochte zonnebrillen zijn er meer bosbranden",
+              "Derde variabele"
+            ],
+            [
+              "Het aantal films van een acteur per jaar loopt gelijk met het aantal verdrinkingen in zwembaden",
+              "Toeval"
+            ],
+            [
+              "Het aantal piraten daalde terwijl de aarde opwarmde",
+              "Toeval"
+            ]
+          ],
+          "uitleg": "Lage punten leiden tot bijles, hoofdpijn tot pijnstillers. Leeftijd zit achter voetmaat en lezen, zonnig droog weer achter zonnebrillen en bosbranden."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Juist of fout over samenhang en causaliteit?",
+          "rijen": [
+            "Een samenhang kan louter toeval zijn.",
+            "Een sterke samenhang in een kleine steekproef is altijd betrouwbaar.",
+            "Ook als de ene variabele de andere echt beïnvloedt, kan er nog een derde variabele meespelen.",
+            "Bij causaliteit maakt het niet uit welke variabele oorzaak is en welke gevolg."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "In een kleine steekproef kan toeval een sterke samenhang geven. Oorzaak en gevolg omdraaien is een andere uitspraak."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "'Wie veel op sociale media zit, voelt zich vaker eenzaam. Sociale media maken dus eenzaam.' Welke andere verklaring is mogelijk?",
+          "opties": [
+            "Sociale media maken iedereen eenzaam",
+            "Er is geen samenhang, want eenzaamheid kan je niet meten met een enquête",
+            "De steekproef was te groot, waardoor kleine verschillen te sterk doorwegen",
+            "Wie zich eenzaam voelt, zoekt meer contact via sociale media"
+          ],
+          "antwoord": 3,
+          "uitleg": "Misschien loopt het pijltje andersom: eenzaamheid leidt tot meer schermtijd."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "In een [[spreidingsdiagram]] zet je per element een punt met twee waarden. Gaan grote waarden van de ene variabele samen met kleine waarden van de andere, dan is de samenhang [[negatief]]. Een punt dat ver van het patroon ligt, heet een [[uitschieter]].",
+          "extra": [
+            "histogram",
+            "positief",
+            "steekproeffout"
+          ],
+          "uitleg": "Elke stip is één element, bijvoorbeeld één dag of één persoon."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "'Kinderen die ontbijten, halen betere punten.' Wat mag je uit zo'n samenhang besluiten?",
+          "opties": [
+            "Ontbijten zorgt zeker voor betere punten, want de samenhang is duidelijk",
+            "Betere punten zorgen voor ontbijt",
+            "Er is samenhang, maar de oorzaak ken je niet",
+            "Er is geen verband, want punten hangen enkel af van studeren"
+          ],
+          "antwoord": 2,
+          "uitleg": "Een derde variabele zoals de thuissituatie kan beide beïnvloeden. Om causaliteit aan te tonen heb je een experiment met randomisatie nodig."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je vindt in een steekproef een samenhang die louter toeval is. Wat gebeurt er meestal als je een nieuwe aselecte steekproef neemt?",
+          "opties": [
+            "De samenhang wordt nog sterker, omdat je nu meer gegevens hebt",
+            "De samenhang verdwijnt of is veel zwakker",
+            "Je vindt precies dezelfde samenhang",
+            "De samenhang draait om"
+          ],
+          "antwoord": 1,
+          "uitleg": "Toeval herhaalt zich niet op dezelfde manier. Een echte samenhang komt wel telkens terug."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een onderzoeker meet bij 30 leerlingen de schermtijd en de slaapduur. Hoeveel variabelen onderzoekt hij?",
+          "opties": [
+            "Eén: de leerlingen",
+            "Twee",
+            "Dertig, één per leerling",
+            "Zestig: twee metingen keer dertig leerlingen"
+          ],
+          "antwoord": 1,
+          "uitleg": "Een variabele is een kenmerk dat je bij elk element meet: hier schermtijd en slaapduur."
+        },
+        {
+          "casus": "Een onderzoeker wil weten of energiedrank de reactiesnelheid verbetert. Van 60 vrijwilligers kiest elk zelf: energiedrank of water. Daarna doen ze een reactietest. De energiedrinkers reageren gemiddeld sneller.",
+          "vragen": [
+            {
+              "type": "meerkeuze",
+              "vraag": "Wat is het grootste probleem van deze opzet?",
+              "opties": [
+                "60 deelnemers zijn er veel te veel om nog een duidelijk verschil te kunnen zien",
+                "Water en energiedrank smaken anders",
+                "De deelnemers kozen zelf hun groep",
+                "Een reactietest meet niets"
+              ],
+              "antwoord": 2,
+              "uitleg": "Zonder toeval bij de verdeling kan je het verschil niet zomaar aan de drank toeschrijven."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Welke verborgen variabele kan het resultaat mee verklaren?",
+              "opties": [
+                "De kleur en de vorm van het blikje waaruit de deelnemers dronken",
+                "Gamers kiezen misschien vaker energiedrank",
+                "Het totale aantal deelnemers dat aan de proef meedeed",
+                "De naam van de test"
+              ],
+              "antwoord": 1,
+              "uitleg": "Een kenmerk dat samenhangt met de keuze én met de reactiesnelheid, vertroebelt de vergelijking."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Hoe pak je dit onderzoek beter aan?",
+              "opties": [
+                "Nog meer vrijwilligers zelf laten kiezen, zodat de groepen groter worden",
+                "Enkel gamers laten meedoen",
+                "Het lot laten bepalen wie wat drinkt",
+                "De snelste deelnemers energiedrank geven om het effect beter te zien"
+              ],
+              "antwoord": 2,
+              "uitleg": "Door randomisatie zijn andere verschillen gemiddeld gelijk verdeeld over beide groepen."
+            }
+          ]
+        },
+        {
+          "casus": "Een gemeente plaatst in vijf straten extra straatlampen. Een jaar later zijn er in die straten minder inbraken. De burgemeester zegt: « Licht houdt inbrekers weg. » In hetzelfde jaar daalde het aantal inbraken in de hele gemeente.",
+          "vragen": [
+            {
+              "type": "meerkeuze",
+              "vraag": "Wat moet je nog nagaan voor je de burgemeester gelijk geeft?",
+              "opties": [
+                "Of de inbraken in straten zonder nieuwe lampen ook daalden.",
+                "Of de nieuwe lampen ook 's nachts genoeg licht geven op de hele stoep.",
+                "Of de inwoners de nieuwe lampen mooi vinden.",
+                "Hoeveel de nieuwe lampen gekost hebben."
+              ],
+              "antwoord": 0,
+              "uitleg": "Je hebt een vergelijkingsgroep nodig."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "De straten zonder nieuwe lampen spelen hier de rol van [[*controlegroep|steekproef|verborgen variabele]].",
+              "uitleg": "Zo zie je of de daling door de lampen komt."
+            },
+            {
+              "type": "open",
+              "vraag": "Welke andere verklaring voor de daling is mogelijk?",
+              "antwoord": "Er kan een andere oorzaak zijn die in de hele gemeente speelde, zoals meer politiecontroles of een buurtwerking. Dan zou de daling ook zonder de lampen gekomen zijn.",
+              "uitleg": "Een daling die overal optreedt, wijst op een factor die overal speelt."
+            }
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welk verband is het meest waarschijnlijk?",
+          "rijen": [
+            "Wie meer oefent met de gitaar, speelt beter.",
+            "Steden met meer ziekenhuizen hebben meer zieken.",
+            "Wie zich slecht voelt, sport minder.",
+            "Het aantal piraten daalde terwijl de aarde opwarmde."
+          ],
+          "antwoord": [
+            0,
+            2,
+            1,
+            3
+          ],
+          "uitleg": "Bij de ziekenhuizen speelt de grootte van de stad mee.",
+          "kolommen": [
+            "causaliteit",
+            "omgekeerde causaliteit",
+            "derde variabele",
+            "toeval"
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Leerlingen met meer boeken thuis halen betere punten voor taal. Welke verborgen variabele ligt voor de hand?",
+          "opties": [
+            "hoeveel er thuis gelezen en voorgelezen wordt",
+            "de kleur en de grootte van de boekenkast in de woonkamer",
+            "het aantal boeken op de schoolbibliotheek",
+            "de afstand van huis tot de school"
+          ],
+          "antwoord": 0,
+          "uitleg": "Thuis lezen beïnvloedt zowel het aantal boeken als de taalpunten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe toon je het best aan dat een nieuwe leermethode betere punten geeft?",
+          "opties": [
+            "Twee groepen lukraak maken: de ene krijgt de methode, de andere niet.",
+            "Na een maand aan alle leerlingen vragen of ze de nieuwe methode goed vinden.",
+            "Kijken of de beste leerlingen de methode al gebruiken.",
+            "De methode een jaar gebruiken en de punten bekijken."
+          ],
+          "antwoord": 0,
+          "uitleg": "Een gecontroleerde proef met een controlegroep."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een onderzoek dat alleen [[*waarneemt|een proef doet]], kan nooit met zekerheid een oorzaak aantonen.",
+          "uitleg": "Er kan altijd een verborgen variabele meespelen."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Is de samenhang positief of negatief?",
+          "kolommen": [
+            "positief",
+            "negatief"
+          ],
+          "items": [
+            [
+              "hoe meer je oefent, hoe minder fouten je maakt",
+              "negatief"
+            ],
+            [
+              "hoe ouder een kind, hoe groter",
+              "positief"
+            ],
+            [
+              "hoe warmer het is, hoe minder soep er verkocht wordt",
+              "negatief"
+            ],
+            [
+              "hoe meer uren je werkt, hoe meer je verdient",
+              "positief"
+            ]
+          ],
+          "uitleg": "Negatief: als de ene stijgt, daalt de andere."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een reclame zegt: « Wie onze vitaminepillen neemt, is minder vaak ziek. » Wat ontbreekt er om dat te geloven?",
+          "opties": [
+            "een vergelijking met een groep die de pillen niet neemt",
+            "een grote foto van een gezonde, lachende persoon op de verpakking",
+            "een duurdere verpakking met meer pillen erin",
+            "een lijst met de prijzen van andere merken"
+          ],
+          "antwoord": 0,
+          "uitleg": "Wie pillen neemt, leeft misschien ook in andere opzichten gezonder."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over samenhang?",
+          "rijen": [
+            "Samenhang is geen bewijs van causaliteit.",
+            "Bij een verborgen variabele beïnvloeden de twee variabelen elkaar niet rechtstreeks.",
+            "Van samenhang spreek je alleen als beide variabelen stijgen.",
+            "Een controlegroep helpt om een oorzakelijk verband aan te tonen."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Ook als de ene stijgt en de andere daalt, is er samenhang."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een studie ziet dat wie meer koffie drinkt, minder slaapt. Welke omgekeerde verklaring is mogelijk?",
+          "opties": [
+            "Wie minder slaapt, drinkt meer koffie om wakker te blijven.",
+            "Koffie zorgt er bij iedereen en altijd voor dat je minder slaapt.",
+            "Er is geen enkel verband tussen koffie en slaap.",
+            "Wie meer koffie drinkt, slaapt juist veel langer."
+          ],
+          "antwoord": 0,
+          "uitleg": "Oorzaak en gevolg kunnen omgewisseld zijn."
+        },
+        {
+          "type": "open",
+          "vraag": "In landen met meer smartphones leven mensen gemiddeld langer. Leg uit waarom smartphones daar waarschijnlijk niet de oorzaak van zijn.",
+          "antwoord": "In rijkere landen hebben meer mensen een smartphone, en in rijkere landen is ook de gezondheidszorg beter. De welvaart is een verborgen variabele die beide verklaart.",
+          "uitleg": "Zoek de factor die beide variabelen tegelijk beïnvloedt."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elk begrip aan zijn betekenis.",
+          "paren": [
+            [
+              "causaliteit",
+              "de ene variabele veroorzaakt de andere"
+            ],
+            [
+              "omgekeerde causaliteit",
+              "het gevolg blijkt de oorzaak te zijn"
+            ],
+            [
+              "verborgen variabele",
+              "een derde factor beïnvloedt beide"
+            ],
+            [
+              "toevallige samenhang",
+              "twee reeksen lopen samen zonder verklaring"
+            ]
+          ],
+          "extra": [
+            "de steekproef is te klein"
+          ],
+          "uitleg": "Vier gevallen bij een statistisch verband."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "In een klas van \\(20\\) leerlingen gaan \\(8\\) leerlingen naar de muziekschool. Van die \\(8\\) halen er \\(6\\) meer dan \\(70\\) % voor wiskunde, van de anderen \\(6\\). Hoeveel procent van de leerlingen zonder muziekschool haalt meer dan \\(70\\) %?",
+          "antwoord": [
+            "50",
+            "50 %",
+            "50%"
+          ],
+          "uitleg": "Twaalf leerlingen gaan niet, en daarvan halen er zes het: de helft."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Uit het vorige voorbeeld mag je [[*niet|wel]] besluiten dat de muziekschool betere wiskundepunten veroorzaakt.",
+          "uitleg": "Twintig leerlingen zijn weinig en er kan een verborgen variabele meespelen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een verzekeraar merkt dat jonge chauffeurs met een sportwagen vaker ongevallen hebben. Wat is de voorzichtigste uitspraak?",
+          "opties": [
+            "Er is samenhang, maar de manier van rijden kan beide verklaren.",
+            "Sportwagens veroorzaken zelf de ongevallen, los van wie er rijdt.",
+            "Ongevallen zorgen ervoor dat mensen een sportwagen kopen.",
+            "Er is geen enkele samenhang tussen de twee, het is allemaal toeval."
+          ],
+          "antwoord": 0,
+          "uitleg": "Wie graag snel rijdt, kiest vaker een sportwagen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is dit een gecontroleerde proef of een waarnemingsonderzoek?",
+          "rijen": [
+            "je vraagt aan mensen hoeveel ze sporten en hoe gezond ze zijn",
+            "je geeft lukraak de helft van de planten meststof en meet de groei",
+            "je vergelijkt de punten van leerlingen die zelf kozen om bijles te volgen"
+          ],
+          "antwoord": [
+            1,
+            0,
+            1
+          ],
+          "uitleg": "In een proef bepaal jij wie wat krijgt.",
+          "kolommen": [
+            "proef",
+            "waarneming"
+          ]
+        }
+      ]
+    },
+    {
+      "titel": "De normale verdeling en de Gausskromme — pittig",
+      "niveau": "beyond-dubbele-finaliteit",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de top van de kromme met de grootste standaardafwijking.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/normaal-drie-krommen.svg",
+          "zones": [
+            [
+              42.6,
+              50.5,
+              6.0,
+              9.4
+            ]
+          ],
+          "uitleg": "Een grotere standaardafwijking geeft een bredere kromme. Omdat de oppervlakte altijd 1 is, ligt de top dan lager: kromme B."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Juist of fout over de krommen A, B en C?",
+          "rijen": [
+            "A en C hebben dezelfde standaardafwijking.",
+            "A en B hebben hetzelfde gemiddelde.",
+            "De oppervlakte onder B is groter dan die onder A.",
+            "Het gemiddelde van C is kleiner dan dat van A."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            false
+          ],
+          "uitleg": "A en C hebben dezelfde vorm, enkel verschoven. A en B hebben hun top boven 60. Onder elke Gausskromme is de oppervlakte 1.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/normaal-drie-krommen.svg"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Kromme C heeft standaardafwijking 5. Hoeveel procent van de waarden ligt ongeveer tussen 70 en 80?",
+          "opties": [
+            "\\(95\\) %",
+            "\\(68\\) %",
+            "\\(50\\) %",
+            "\\(34\\) %"
+          ],
+          "antwoord": 1,
+          "uitleg": "De top van C ligt bij \\(75\\). Van \\(70\\) tot \\(80\\) is \\(\\mu - \\sigma\\) tot \\(\\mu + \\sigma\\).",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/normaal-drie-krommen.svg"
+        },
+        {
+          "type": "hotspot",
+          "vraag": "De testscores hebben \\(\\mu = 90\\) en \\(\\sigma = 15\\). Klik op de horizontale as waar \\(\\mu + \\sigma\\) ligt.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/normaal-oppervlakte.svg",
+          "zones": [
+            [
+              60.2,
+              90.6,
+              6.0,
+              9.4
+            ]
+          ],
+          "uitleg": "\\(90 + 15 = 105\\). Daar ligt ook een buigpunt van de kromme."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "De testscores hebben \\(\\mu = 90\\) en \\(\\sigma = 15\\). Welke kans stelt de gekleurde oppervlakte ongeveer voor?",
+          "opties": [
+            "\\(0{,}68\\)",
+            "\\(0{,}5\\)",
+            "\\(0{,}95\\)",
+            "\\(0{,}997\\)"
+          ],
+          "antwoord": 2,
+          "uitleg": "Gekleurd is van \\(60\\) tot \\(120\\): van \\(\\mu - 2\\sigma\\) tot \\(\\mu + 2\\sigma\\).",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond/normaal-oppervlakte.svg"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "De lengte van volwassenen in een groep is normaal verdeeld met \\(\\mu = 170\\) cm en \\(\\sigma = 8\\) cm. Hoeveel procent is langer dan 178 cm?",
+          "opties": [
+            "\\(32\\) %",
+            "\\(34\\) %",
+            "\\(16\\) %",
+            "\\(50\\) %"
+          ],
+          "antwoord": 2,
+          "uitleg": "\\(178 = \\mu + \\sigma\\). Buiten \\(\\mu \\pm \\sigma\\) ligt ongeveer een derde, de helft daarvan aan de rechterkant."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Juist of fout over de normale verdeling?",
+          "rijen": [
+            "Een normale verdeling is symmetrisch rond \\(\\mu\\).",
+            "Een normale verdeling ligt volledig vast door \\(\\mu\\) en \\(\\sigma\\).",
+            "De Gausskromme raakt de horizontale as in \\(\\mu \\pm 3\\sigma\\).",
+            "De buigpunten van de Gausskromme liggen bij \\(\\mu \\pm 2\\sigma\\)."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            false
+          ],
+          "uitleg": "De kromme nadert de as, maar raakt ze nooit. De buigpunten liggen op één standaardafwijking van het gemiddelde."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke verdeling is waarschijnlijk niet symmetrisch?",
+          "opties": [
+            "De lengtes van volwassen vrouwen in België",
+            "De inkomens van alle inwoners van een land",
+            "Het gewicht van zakjes suiker van één machine",
+            "De meetfouten van een goed afgestelde weegschaal"
+          ],
+          "antwoord": 1,
+          "uitleg": "Inkomens hebben een lange staart naar rechts: weinig mensen verdienen heel veel."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een rekentoestel geeft voor 20 metingen \\(\\bar{x} = 12{,}4\\) en \\(s = 1{,}8\\). Wat zegt \\(s\\)?",
+          "opties": [
+            "Dat \\(1{,}8\\) de kleinste meting is",
+            "Hoe sterk de metingen rond \\(12{,}4\\) spreiden",
+            "Dat \\(1{,}8\\) % van de metingen fout is",
+            "Hoeveel metingen er boven \\(12{,}4\\) liggen"
+          ],
+          "antwoord": 1,
+          "uitleg": "De standaardafwijking meet de spreiding rond het gemiddelde."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Bij een normale verdeling vallen gemiddelde, mediaan en modus [[*samen|uit elkaar|weg]]. Bij een verdeling met een lange staart naar rechts ligt het gemiddelde [[*rechts|links|precies op]] van de mediaan.",
+          "uitleg": "Symmetrie houdt de drie samen. Enkele heel grote waarden trekken het gemiddelde naar rechts, de mediaan niet."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Is deze grootheid ongeveer normaal verdeeld of niet?",
+          "kolommen": [
+            "Ongeveer normaal",
+            "Niet normaal"
+          ],
+          "items": [
+            [
+              "De lengte van 18-jarige jongens",
+              "Ongeveer normaal"
+            ],
+            [
+              "De wachttijd aan een kassa",
+              "Niet normaal"
+            ],
+            [
+              "De ogen bij veel worpen met één dobbelsteen",
+              "Niet normaal"
+            ],
+            [
+              "De schoenmaat van volwassen vrouwen",
+              "Ongeveer normaal"
+            ],
+            [
+              "Het aantal volgers op sociale media",
+              "Niet normaal"
+            ],
+            [
+              "Het gewicht van appels van één boom",
+              "Ongeveer normaal"
+            ]
+          ],
+          "uitleg": "Wachttijden en volgers zijn scheef verdeeld, een dobbelsteen geeft elke uitkomst even vaak."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een histogram is mooi klokvormig met de hoogste staaf bij 50. Wat kan je besluiten?",
+          "opties": [
+            "Alle waarden liggen tussen 40 en 60",
+            "Het gemiddelde ligt ongeveer bij 50",
+            "De standaardafwijking is 50",
+            "Precies de helft van de waarden is 50"
+          ],
+          "antwoord": 1,
+          "uitleg": "Bij een symmetrische klokvorm liggen gemiddelde en top ongeveer op dezelfde plaats."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "X is normaal verdeeld met \\(\\mu = 50\\) en \\(\\sigma = 10\\). Zet deze kansen van klein naar groot.",
+          "opties": [
+            "\\(P(X > 70)\\)",
+            "\\(P(X > 60)\\)",
+            "\\(P(X < 50)\\)",
+            "\\(P(40 < X < 70)\\)"
+          ],
+          "uitleg": "Ongeveer \\(0{,}025\\), \\(0{,}16\\), \\(0{,}5\\) en \\(0{,}815\\)."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel het symbool aan zijn betekenis.",
+          "paren": [
+            [
+              "\\(\\mu\\)",
+              "Het gemiddelde van de populatie"
+            ],
+            [
+              "\\(\\sigma\\)",
+              "De standaardafwijking van de populatie"
+            ],
+            [
+              "\\(\\bar{x}\\)",
+              "Het gemiddelde van een steekproef"
+            ],
+            [
+              "\\(s\\)",
+              "De standaardafwijking van een steekproef"
+            ]
+          ],
+          "extra": [
+            "De mediaan van de populatie"
+          ],
+          "uitleg": "Griekse letters voor de populatie, Latijnse voor de steekproef."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "De grafiek van de dichtheidsfunctie van een normale verdeling heet de [[Gausskromme]]. Een kans is een [[oppervlakte]] onder die kromme, en de totale oppervlakte is [[1]].",
+          "extra": [
+            "histogram",
+            "helling",
+            "100"
+          ],
+          "uitleg": "Kans = oppervlakte, en alles samen is zeker: kans 1."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Twee klassen halen gemiddeld 14 op 20. In klas A is de standaardafwijking 1, in klas B 3. Wat betekent dat?",
+          "opties": [
+            "Klas B heeft betere punten",
+            "In klas B liggen de punten verder uit elkaar",
+            "In klas A haalt iedereen 14",
+            "Klas A heeft drie keer zoveel leerlingen"
+          ],
+          "antwoord": 1,
+          "uitleg": "Hetzelfde gemiddelde, maar in B zijn er meer heel hoge en heel lage punten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "X is normaal verdeeld met \\(\\mu = 170\\) en \\(\\sigma = 8\\). Een rekenapp geeft \\(P(X < 180) = 0{,}8944\\). Hoe groot is \\(P(X > 180)\\)?",
+          "opties": [
+            "\\(0{,}8944\\)",
+            "\\(0{,}3944\\)",
+            "\\(0{,}1056\\)",
+            "\\(0{,}0528\\)"
+          ],
+          "antwoord": 2,
+          "uitleg": "Complement: \\(1 - 0{,}8944\\)."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "X is normaal verdeeld met \\(\\mu = 170\\) en \\(\\sigma = 8\\). Een rekenapp geeft \\(P(160 < X < 180) = 0{,}7887\\). Hoeveel procent ligt buiten dat interval? Rond af op één decimaal.",
+          "antwoord": "21,1",
+          "uitleg": "\\(1 - 0{,}7887 = 0{,}2113\\), dus \\(21{,}1\\) %."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "X is normaal verdeeld met \\(\\mu = 50\\) en \\(\\sigma = 10\\), en \\(P(X < 35) = 0{,}0668\\). Hoe groot is \\(P(X > 65)\\)?",
+          "opties": [
+            "\\(0{,}9332\\)",
+            "\\(0{,}1336\\)",
+            "\\(0{,}5\\)",
+            "\\(0{,}0668\\)"
+          ],
+          "antwoord": 3,
+          "uitleg": "\\(35\\) en \\(65\\) liggen even ver van \\(50\\). Door de symmetrie zijn beide staarten even groot."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "X is normaal verdeeld met \\(\\mu = 20\\) en \\(\\sigma = 2\\). Onder welke waarde ligt ongeveer \\(2{,}5\\) % van de waarden?",
+          "opties": [
+            "\\(18\\)",
+            "\\(14\\)",
+            "\\(16\\)",
+            "\\(22\\)"
+          ],
+          "antwoord": 2,
+          "uitleg": "\\(\\mu - 2\\sigma = 16\\). Onder die grens ligt de helft van \\(5\\) %."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een histogram van wachttijden heeft een lange staart naar rechts. Mag je de vuistregel 68-95-99,7 gebruiken?",
+          "opties": [
+            "Ja, die geldt voor elke verdeling",
+            "Ja, als de steekproef groot genoeg is",
+            "Nee, die geldt enkel bij een ongeveer normale verdeling",
+            "Nee, want wachttijden hebben geen gemiddelde"
+          ],
+          "antwoord": 2,
+          "uitleg": "De vuistregel steunt op de symmetrische klokvorm."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een steekproef bestaat uit de waarden \\(4, 6, 7, 8, 10\\). Hoeveel is \\(\\bar{x}\\)?",
+          "antwoord": "7",
+          "uitleg": "\\(\\frac{4 + 6 + 7 + 8 + 10}{5} = \\frac{35}{5} = 7\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke reeks heeft de grootste standaardafwijking?",
+          "opties": [
+            "\\(5, 5, 5, 5\\)",
+            "\\(4, 5, 6, 5\\)",
+            "\\(3, 5, 7, 5\\)",
+            "\\(1, 5, 9, 5\\)"
+          ],
+          "antwoord": 3,
+          "uitleg": "Alle reeksen hebben gemiddelde \\(5\\). Bij \\(1, 5, 9, 5\\) liggen de waarden het verst van dat gemiddelde."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je meet de lengte van heel veel leerlingen en tekent histogrammen met steeds smallere klassen. Wat zie je?",
+          "opties": [
+            "Het histogram wordt steeds platter",
+            "Het histogram gaat steeds meer op een vloeiende klokvorm lijken",
+            "Het histogram krijgt twee toppen",
+            "Het gemiddelde schuift naar rechts"
+          ],
+          "antwoord": 1,
+          "uitleg": "Zo ontstaat het idee van de Gausskromme als dichtheidsfunctie."
+        },
+        {
+          "casus": "Het gewicht van pakken suiker is normaal verdeeld met \\(\\mu = 1005\\) g en \\(\\sigma = 3\\) g. Op de pakken staat 1000 g. Een rekenapp geeft \\(P(X < 1000) = 0{,}0478\\).",
+          "vragen": [
+            {
+              "type": "meerkeuze",
+              "vraag": "Hoeveel procent van de pakken weegt minder dan op het pak staat?",
+              "opties": [
+                "Ongeveer \\(0{,}05\\) %",
+                "Ongeveer \\(4{,}8\\) %",
+                "Ongeveer \\(47{,}8\\) %",
+                "Ongeveer \\(95\\) %"
+              ],
+              "antwoord": 1,
+              "uitleg": "\\(0{,}0478 = 4{,}78\\) %."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "In een levering zitten 500 pakken. Hoeveel te lichte pakken verwacht je ongeveer?",
+              "opties": [
+                "\\(5\\)",
+                "\\(48\\)",
+                "\\(24\\)",
+                "\\(2\\)"
+              ],
+              "antwoord": 2,
+              "uitleg": "\\(500 \\cdot 0{,}0478 \\approx 24\\)."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "De fabrikant wil minder te lichte pakken. Wat helpt?",
+              "opties": [
+                "Het opschrift veranderen naar 1005 g",
+                "Het gemiddelde verhogen of nauwkeuriger vullen (kleinere σ)",
+                "De standaardafwijking vergroten",
+                "Meer pakken per levering verkopen"
+              ],
+              "antwoord": 1,
+              "uitleg": "Een hoger gemiddelde schuift de kromme weg van 1000 g, een kleinere σ maakt de linkerstaart dunner."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een IQ-test heeft gemiddelde \\(100\\) en standaardafwijking \\(15\\). Welk aandeel scoort tussen \\(85\\) en \\(130\\)?",
+          "opties": [
+            "ongeveer \\(81{,}5\\) %",
+            "ongeveer \\(68\\) %",
+            "ongeveer \\(95\\) %",
+            "ongeveer \\(47{,}5\\) %"
+          ],
+          "antwoord": 0,
+          "uitleg": "Van \\(85\\) tot \\(100\\) is de helft van \\(68\\) %, dus \\(34\\) %. Van \\(100\\) tot \\(130\\) is de helft van \\(95\\) %, dus \\(47{,}5\\) %. Samen \\(81{,}5\\) %."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Een vulmachine werkt normaal verdeeld rond \\(500\\) g. Klopt dit?",
+          "rijen": [
+            "Een kleinere standaardafwijking betekent dat de zakken nauwkeuriger gevuld zijn.",
+            "Ongeveer de helft van de zakken weegt minder dan \\(500\\) g.",
+            "Geen enkele zak kan ooit meer dan \\(520\\) g wegen."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false
+          ],
+          "uitleg": "De kromme raakt de as nooit: heel uitzonderlijke waarden blijven mogelijk."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "De lengte van volwassen mannen is normaal verdeeld met gemiddelde \\(178\\) cm en standaardafwijking \\(7\\) cm. Hoeveel procent is ongeveer korter dan \\(164\\) cm?",
+          "antwoord": [
+            "2,5",
+            "2,5 %",
+            "2.5"
+          ],
+          "uitleg": "\\(164\\) ligt twee standaardafwijkingen onder het gemiddelde. Buiten twee standaardafwijkingen ligt \\(5\\) %, aan elke kant de helft."
+        }
+      ]
+    }
+  ]
+}

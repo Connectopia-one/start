@@ -1,0 +1,90 @@
+"""Problemen oplossen: van situatie naar wiskunde — pittig (Beyond dubbele finaliteit, wiskunde).
+
+Eigen vragen binnen wi_problemen: de vier stappen, mathematiseren en demathematiseren, heuristieken en ICT op het examen, met kleine problemen om de strategieën toe te passen."""
+from ..beyond_wiskunde_basis_themas.vormen import J, F, mk, inv, tabel, keuze, volgorde, koppel, sorteer, sleep, open_, casus
+
+VRAGEN = [
+    casus(
+        "Een schoolreis kost voor de bus in totaal \\(840\\) euro. Er gaan \\(56\\) leerlingen en \\(4\\) begeleiders mee. "
+        "De begeleiders betalen niets. Een bus heeft \\(50\\) plaatsen, dus de school huurt twee bussen. De \\(840\\) euro is de prijs voor beide bussen samen.",
+        [
+            volgorde("Zet de vier stappen die je hier doorloopt in volgorde.", [
+                "begrijpen wat gegeven en gevraagd is", "een plan maken: de prijs verdelen over de betalende leerlingen", "het plan uitvoeren en rekenen", "reflecteren: is het antwoord zinvol?",
+            ], "Begrijp, plan, voer uit, reflecteer."),
+            inv("Hoeveel euro betaalt elke leerling?", ["15", "15 euro"], "\\(840 : 56 = 15\\). De begeleiders betalen niets, dus je deelt enkel door de leerlingen."),
+            keuze("Het gegeven dat een bus \\(50\\) plaatsen heeft, heb je voor deze vraag [[*niet|wel]] nodig.", "Niet elk gegeven in een opgave is nodig."),
+            mk("Een leerling deelt \\(840\\) door \\(60\\) en vindt \\(14\\) euro. Welke stap liep fout?",
+               ["het begrijpen: de begeleiders betalen niet mee", "het rekenen: \\(840 : 60\\) is helemaal geen \\(14\\)", "het reflecteren: \\(14\\) euro is veel te duur voor een bus", "er liep niets fout, \\(14\\) is juist"], 0,
+               "\\(840 : 60\\) is wel \\(14\\), maar de vraag ging over wie betaalt."),
+        ],
+    ),
+    koppel("Koppel elke situatie aan de strategie die het best past.", [
+        ["je weet hoeveel geld er overblijft en zoekt het beginbedrag", "terugrekenen"],
+        ["een opgave over een tuin met paden en perken", "een schets maken"],
+        ["je zoekt twee getallen met som \\(20\\) en product \\(96\\)", "slim gissen en testen"],
+        ["je weet niet hoeveel snoepjes er in een doos zitten", "een variabele invoeren"],
+    ], ["een rekentoestel weglaten"], "Een heuristiek is een hulp, geen vast recept."),
+    inv("Je hebt na het winkelen nog \\(12\\) euro. Je gaf de helft van je geld uit aan kleren en daarna nog \\(8\\) euro aan eten. Hoeveel had je in het begin?", ["40", "40 euro"],
+        "Terugrekenen: voor het eten had je \\(20\\) euro, dat was de helft, dus \\(40\\)."),
+    mk("Je uitkomst is \\(13{,}2\\). De vraag was hoeveel dozen van \\(6\\) eieren je nodig hebt. Wat antwoord je?",
+       ["\\(14\\) dozen", "\\(13\\) dozen", "\\(13{,}2\\) dozen", "\\(79{,}2\\) dozen"], 0, "Demathematiseren: met \\(13\\) dozen kom je tekort, dus naar boven afronden."),
+    tabel("Is dit een vraagstuk of een probleem?", [
+        ("een opgave die je met de leerstof van één hoofdstuk oplost", "vraagstuk"),
+        ("een opgave waarvoor je leerstof uit verschillende hoofdstukken combineert", "probleem"),
+        ("een opgave waarbij je zelf moet zoeken welke wiskunde past", "probleem"),
+    ], "Bij een probleem ligt de weg niet meteen vast.", kolommen=["vraagstuk", "probleem"]),
+    tabel("Klopt dit over het examen?", [
+        ("Je mag ICT gebruiken om grafieken te tekenen en kengetallen te berekenen.", J),
+        ("Je mag een gsm gebruiken als rekentoestel.", F),
+        ("Er is geen giscorrectie.", J),
+        ("Je rondt tussenresultaten best meteen af.", F),
+    ], "Rond pas af op het einde."),
+    mk("Iemand berekent dat een kind \\(4{,}2\\) meter groot is. Welke stap moet dat opvangen?",
+       ["reflecteren", "begrijpen", "een plan maken", "mathematiseren"], 0, "Bij het terugkijken zie je dat de uitkomst onmogelijk is."),
+    inv("In een rij stoelen staat de eerste op \\(2\\) meter van de muur, en elke volgende \\(1{,}5\\) meter verder. Op hoeveel meter van de muur staat de tiende stoel?", ["15,5", "15.5", "15,5 m"],
+        "Zoek het patroon: \\(2 + 9 \\cdot 1{,}5\\)."),
+    sleep("Een concrete situatie omzetten naar wiskundetaal heet [[mathematiseren]]. De uitkomst terugvertalen naar de situatie heet [[demathematiseren]]. Een strategie zoals een schets maken heet een [[heuristiek]].",
+          ["simuleren", "formule"], "Van situatie naar wiskunde en terug."),
+    mk("Je zoekt hoeveel handdrukken er zijn als \\(6\\) mensen elkaar elk één keer de hand geven. Welke aanpak is het handigst?",
+       ["eerst met minder mensen proberen en een patroon zoeken", "meteen \\(6 \\cdot 6\\) rekenen, want iedereen geeft een hand", "het antwoord gokken en daarna niet meer nakijken", "alle handdrukken op een rekentoestel optellen"], 0,
+       "\\(1\\), \\(3\\), \\(6\\), \\(10\\), \\(15\\): het antwoord is \\(15\\)."),
+    inv("Hoeveel handdrukken zijn dat bij \\(6\\) mensen?", ["15", "vijftien"], "Elke persoon geeft er \\(5\\), maar elke handdruk telt dan dubbel: \\(6 \\cdot 5 : 2\\)."),
+    sorteer("Is dit een opgave met of zonder context?", ["met context", "zonder context"], [
+        ["Los op: \\(3x + 5 = 20\\).", "zonder context"], ["Hoeveel tegels heb je nodig voor een terras van \\(4\\) bij \\(3\\) meter?", "met context"],
+        ["Bereken \\(\\log_{2} 64\\).", "zonder context"], ["Na hoeveel jaar is je spaargeld verdubbeld?", "met context"],
+    ], "Context betekent een situatie uit de werkelijkheid."),
+    mk("Een opgave geeft de prijzen van drie telefoonabonnementen bij verschillende verbruiken. Welke voorstelling toont het snelst welk abonnement wanneer het goedkoopst is?",
+       ["een grafiek met de drie abonnementen samen", "een lange tekst met alle prijzen", "enkel het duurste abonnement uitrekenen", "de prijzen in willekeurige volgorde opschrijven"], 0,
+       "In een grafiek zie je meteen waar de lijnen elkaar snijden."),
+    inv("Een getal verdubbel je, je telt er \\(7\\) bij en je krijgt \\(31\\). Welk getal was het?", ["12", "twaalf"], "Terugrekenen: \\((31 - 7) : 2\\)."),
+    tabel("Is dit een goede aanpak om je antwoord te controleren?", [
+        ("je uitkomst invullen in de oorspronkelijke opgave", J), ("nagaan of de eenheid klopt", J),
+        ("kijken of de grootte van het antwoord realistisch is", J), ("de vraag overslaan als het antwoord een kommagetal is", F),
+    ], "Reflecteren is meer dan nog eens hetzelfde rekenen."),
+    open_("Leg uit waarom het nuttig is om bij een lange opgave eerst te onderstrepen wat gegeven en wat gevraagd is.",
+          "Zo zie je welke gegevens je echt nodig hebt en wat het doel is. Dat helpt bij het begrijpen van het probleem en voorkomt dat je een andere vraag beantwoordt dan gesteld.",
+          "Begrijpen is de eerste stap."),
+    mk("Een spel: je gooit twee dobbelstenen en wint als de som \\(9\\) of meer is. Je speelt het honderd keer na met een rekenblad. Hoe heet die strategie?",
+       ["simuleren", "terugrekenen", "een variabele invoeren", "symmetrie gebruiken"], 0, "Je bootst het experiment vaak na."),
+    inv("Een rechthoekige tuin is \\(3\\) meter langer dan breed en heeft een omtrek van \\(34\\) meter. Hoe breed is de tuin?", ["7", "7 m", "zeven"],
+        "Met breedte \\(x\\): \\(2x + 2(x + 3) = 34\\), dus \\(4x = 28\\)."),
+    keuze("Een heuristiek is [[*een hulp die je op weg zet|een stappenplan dat altijd werkt|een formule uit het formularium]].", "Ze geeft geen garantie, wel een richting."),
+    mk("Je rekenapp geeft \\(2{,}6666667\\) en de vraag vraagt twee cijfers na de komma. Wat noteer je?",
+       ["\\(2{,}67\\)", "\\(2{,}66\\)", "\\(2{,}7\\)", "\\(3\\)"], 0, "Het derde cijfer is een \\(6\\), dus je rondt naar boven af."),
+    tabel("Welke strategie gebruik je hier?", [
+        ("je tekent een boomdiagram van alle mogelijkheden", "systematisch opsommen"),
+        ("je merkt dat een figuur links en rechts gelijk is en rekent maar één helft uit", "symmetrie gebruiken"),
+        ("je probeert \\(x = 0\\) en \\(x = 1\\) om een formule te controleren", "een eenvoudig geval proberen"),
+    ], "Elke strategie past bij een ander soort probleem.", kolommen=["systematisch opsommen", "symmetrie gebruiken", "een eenvoudig geval proberen"]),
+    inv("Een bus vertrekt elke \\(12\\) minuten, een tram elke \\(18\\) minuten. Om \\(8\\) uur vertrekken ze samen. Na hoeveel minuten vertrekken ze weer samen?", ["36", "36 minuten"],
+        "Schrijf de vertrektijden op tot je een gemeenschappelijke vindt: \\(36\\)."),
+    mk("Waarom splits je een groot probleem in deelproblemen?",
+       ["Kleinere stukken zijn makkelijker apart op te lossen.", "Dan heb je minder gegevens nodig uit de opgave.", "Dan hoef je achteraf niet meer te reflecteren op je antwoord.", "Dan wordt het antwoord altijd een geheel getal."], 0,
+       "Elk deelprobleem is een stap naar de oplossing."),
+    inv("Een fles van \\(1{,}5\\) liter vult \\(6\\) glazen. Hoeveel milliliter gaat er in één glas?", ["250", "250 mL", "250 ml"], "Eerst omzetten: \\(1500 : 6\\)."),
+    keuze("Na het mathematiseren vind je \\(x = -3\\) voor de leeftijd van een kind. Bij het demathematiseren besluit je dat [[*die oplossing niet past bij de situatie|het kind \\(3\\) jaar is|het kind \\(-3\\) jaar is]].", "Een negatieve leeftijd kan niet."),
+    mk("Een opgave zegt: « Twee getallen verschillen \\(5\\) en hun som is \\(27\\). » Welke getallen zijn het?",
+       ["\\(11\\) en \\(16\\)", "\\(10\\) en \\(17\\)", "\\(12\\) en \\(15\\)", "\\(5\\) en \\(22\\)"], 0, "Gissen en testen of met een variabele: \\(x + (x + 5) = 27\\)."),
+    inv("Een klas verkoopt wafels: \\(3\\) euro per stuk. Ze kochten voor \\(90\\) euro ingrediënten en willen \\(150\\) euro winst. Hoeveel wafels moeten ze verkopen?", ["80", "tachtig"],
+        "Ze moeten \\(240\\) euro ontvangen: \\(240 : 3 = 80\\)."),
+]

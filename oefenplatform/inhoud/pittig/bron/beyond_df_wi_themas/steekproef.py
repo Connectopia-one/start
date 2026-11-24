@@ -28,7 +28,7 @@ VRAGEN = kies(S.VRAGEN, [3, 4, 5, 10, 11, 12, 13, 15, 20, 21, 22, 23]) + [
        ["een systematische steekproef", "een vertekende steekproef door vrije keuze", "een steekproef met vrijwillige deelname", "geen steekproef maar de hele populatie"], 0,
        "Met vaste tussenstappen uit de hele productie."),
     inv("Een school van \\(650\\) leerlingen bevraagt er \\(130\\). Hoeveel procent van de school is dat?", ["20", "20 %", "20%"], "\\(130 : 650 = 0{,}2\\)."),
-    tabel("Klopt dit?", [
+    tabel("Klopt dit over steekproeven?", [
         ("Een grotere aselecte steekproef geeft een betrouwbaarder besluit.", J),
         ("Een vertekende steekproef wordt goed door er meer mensen op dezelfde manier bij te nemen.", F),
         ("Ook een aselecte steekproef kan door toeval wat scheef uitvallen.", J),

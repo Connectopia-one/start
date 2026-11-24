@@ -37,7 +37,7 @@ VRAGEN = kies(E.VRAGEN, [7, 8, 9, 10, 11, 12, 17, 18, 20, 23, 25, 26, 27], {"hal
     mk("Een bedrag is na \\(10\\) jaar \\(1{,}5\\) keer zo groot. Hoe vind je de groeifactor per jaar?",
        ["de tiendemachtswortel uit \\(1{,}5\\)", "\\(1{,}5\\) gewoon delen door het aantal jaren", "\\(1{,}5\\) verheffen tot de tiende macht", "\\(1{,}5\\) min tien"], 0,
        "\\(a^{10} = 1{,}5\\), dus \\(a = \\sqrt[10]{1{,}5}\\)."),
-    tabel("Klopt dit?", [
+    tabel("Klopt dit over groei?", [
         ("Twee keer \\(10\\) procent erbij is samen \\(21\\) procent erbij.", J),
         ("Bij exponentiële afname bereik je ooit precies nul.", F),
         ("Verdubbelingstijd hangt niet af van de beginwaarde.", J),

@@ -22,7 +22,7 @@ VRAGEN = kies(A.VRAGEN, [2, 3, 10, 24, 25], {"\\\\(f'(x) = 0\\\\) voor elke x": 
     inv("\\(f(x) = x^{2}\\). Hoeveel is het differentiequotiënt over \\([-3, 3]\\)?", ["0", "nul"], "\\(f(-3) = f(3) = 9\\)."),
     mk("\\(f(x) = -2x + 7\\). Wat is het differentiequotiënt over \\([10, 50]\\)?",
        ["\\(-2\\)", "\\(7\\)", "\\(-80\\)", "\\(40\\)"], 0, "Bij een rechte is het differentiequotiënt altijd de richtingscoëfficiënt."),
-    tabel("Klopt dit?", [
+    tabel("Klopt dit over het differentiequotiënt?", [
         ("Een differentiequotiënt zegt wat er op elk moment in het interval gebeurt.", F),
         ("Bij een rechte is het differentiequotiënt over elk interval hetzelfde.", J),
         ("Teller en noemer mag je omdraaien zonder dat het resultaat verandert.", F),

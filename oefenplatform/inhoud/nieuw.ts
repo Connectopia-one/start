@@ -41,6 +41,12 @@ export const nieuwTekst = {
 export const updates: Update[] = [
   {
     datum: "24 november 2026",
+    titel: "Pittige hoofdstukken wiskunde in Beyond dubbele finaliteit",
+    tekst:
+      "Wiskunde in Beyond dubbele finaliteit heeft nu bij elk van de 12 onderwerpen een pittig hoofdstuk van 30 vragen, in examenvorm: problemen oplossen, machten en logaritmen, grafieken aflezen, gemiddelde verandering, exponentiële functies en groeimodellen, kansen en kansbomen, steekproeven, samenhang en causaliteit, en de normale verdeling. Er zitten casussen en klikvragen op grafieken bij.",
+  },
+  {
+    datum: "24 november 2026",
     titel: "Pittige hoofdstukken natuurwetenschappen in Beyond dubbele finaliteit",
     tekst:
       "Natuurwetenschappen in Beyond dubbele finaliteit heeft nu bij elk van de 14 onderwerpen een pittig hoofdstuk van 30 vragen, in examenvorm: van embryo, vruchtbaarheid, erfelijkheid en evolutie over voeding, etiketten, dosis en duurzaamheid tot magnetisme, golven, kernfysica en onderzoekend werken. Er zitten rekenvragen, casussen en klikvragen op prenten bij.",

@@ -53,7 +53,7 @@ VRAGEN = kies(K.VRAGEN, [9, 10, 12, 15, 18, 25, 26]) + [
     ], "Een kans ligt altijd tussen \\(0\\) en \\(1\\), of tussen \\(0\\) en \\(100\\) procent."),
     mk("Een klas telt \\(28\\) leerlingen. De kans dat een willekeurige leerling een broer heeft, is \\(\\tfrac{3}{7}\\). Hoeveel leerlingen hebben een broer?",
        ["\\(12\\)", "\\(3\\)", "\\(16\\)", "\\(7\\)"], 0, "\\(\\tfrac{3}{7} \\cdot 28 = 12\\)."),
-    tabel("Klopt dit?", [
+    tabel("Klopt dit over kansen?", [
         ("Bij een loterij met \\(1\\) winnend lot op \\(500\\) win je zeker als je \\(500\\) keer meedoet met nieuwe trekkingen.", F),
         ("Met \\(10\\) loten van één trekking met \\(500\\) loten is je winkans \\(0{,}02\\).", J),
         ("Een munt die vaak kop gaf, geeft daarna vaker munt.", F),

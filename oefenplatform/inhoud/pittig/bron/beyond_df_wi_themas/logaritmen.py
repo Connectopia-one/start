@@ -17,7 +17,7 @@ VRAGEN = kies(M.VRAGEN, [5, 10, 13, 14, 21, 22, 24, 26]) + [
             keuze("Eén eenheid lager op de pH-schaal betekent een concentratie die [[*tien keer zo groot|tien keer zo klein|één eenheid groter]] is.", "Elke stap op een logaritmische schaal is een factor tien."),
         ],
     ),
-    tabel("Hoeveel is dit?", [
+    tabel("Hoeveel is deze logaritme?", [
         ("\\(\\log_{10} 10\\,000\\)", "\\(4\\)"), ("\\(\\log_{2} 16\\)", "\\(4\\)"), ("\\(\\log_{10} 0{,}001\\)", "\\(-3\\)"), ("\\(\\log_{3} \\tfrac{1}{27}\\)", "\\(-3\\)"), ("\\(\\log_{5} 625\\)", "\\(4\\)"),
     ], "Zoek telkens tot welke macht je het grondtal verheft.", kolommen=["\\(-3\\)", "\\(4\\)"]),
     koppel("Koppel elke logaritme aan de macht die hetzelfde zegt.", [
@@ -37,14 +37,14 @@ VRAGEN = kies(M.VRAGEN, [5, 10, 13, 14, 21, 22, 24, 26]) + [
     inv("Los op: \\(10^{x} = 0{,}0001\\). Hoeveel is \\(x\\)?", ["-4", "−4", "min 4"], "\\(0{,}0001 = 10^{-4}\\)."),
     mk("Je lost \\(2^{x} = 100\\) op. Wat weet je al zonder rekentoestel?",
        ["\\(x\\) ligt tussen \\(6\\) en \\(7\\)", "\\(x\\) ligt tussen \\(1\\) en \\(2\\)", "\\(x = 50\\)", "\\(x\\) ligt tussen \\(9\\) en \\(10\\)"], 0, "\\(2^{6} = 64\\) en \\(2^{7} = 128\\)."),
-    tabel("Klopt dit?", [
+    tabel("Klopt dit over logaritmen?", [
         ("\\(\\log_{10} 2 \\approx 0{,}30\\), dus \\(\\log_{10} 200 \\approx 2{,}30\\).", J),
         ("\\(\\log_{10} 50\\) ligt tussen \\(5\\) en \\(6\\).", F),
         ("Een getal tien keer zo groot maken verhoogt de logaritme met grondtal \\(10\\) met \\(1\\).", J),
         ("De logaritme van \\(100\\) is bij elk grondtal \\(2\\).", F),
     ], "\\(50\\) ligt tussen \\(10\\) en \\(100\\), dus de logaritme tussen \\(1\\) en \\(2\\)."),
     keuze("Een rekentoestel geeft \\(\\log_{10} x = 4{,}2\\). Dan ligt \\(x\\) tussen [[*\\(10\\,000\\) en \\(100\\,000\\)|\\(4\\) en \\(5\\)|\\(100\\) en \\(1000\\)]].", "\\(10^{4}\\) en \\(10^{5}\\)."),
-    volgorde("Zet van klein naar groot.", [
+    volgorde("Zet deze logaritmen van klein naar groot.", [
         "\\(\\log_{10} 0{,}01\\)", "\\(\\log_{7} 1\\)", "\\(\\log_{4} 2\\)", "\\(\\log_{2} 8\\)", "\\(\\log_{10} 100\\,000\\)",
     ], "\\(-2\\), \\(0\\), \\(\\tfrac{1}{2}\\), \\(3\\) en \\(5\\)."),
     mk("Een spaarbedrag groeit met \\(4\\) procent per jaar. Welke vergelijking los je op om te weten na hoeveel jaar het verdubbeld is?",

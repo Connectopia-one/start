@@ -39,7 +39,7 @@ VRAGEN = kies(S.VRAGEN, [0, 1, 2, 14, 16, 17, 18, 24, 25, 26, 27]) + [
     mk("Een reclame zegt: « Wie onze vitaminepillen neemt, is minder vaak ziek. » Wat ontbreekt er om dat te geloven?",
        ["een vergelijking met een groep die de pillen niet neemt", "een grote foto van een gezonde, lachende persoon op de verpakking", "een duurdere verpakking met meer pillen erin", "een lijst met de prijzen van andere merken"], 0,
        "Wie pillen neemt, leeft misschien ook in andere opzichten gezonder."),
-    tabel("Klopt dit?", [
+    tabel("Klopt dit over samenhang?", [
         ("Samenhang is geen bewijs van causaliteit.", J),
         ("Bij een verborgen variabele beïnvloeden de twee variabelen elkaar niet rechtstreeks.", J),
         ("Van samenhang spreek je alleen als beide variabelen stijgen.", F),

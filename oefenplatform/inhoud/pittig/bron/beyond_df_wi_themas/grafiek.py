@@ -16,7 +16,7 @@ VRAGEN = kies(G.VRAGEN, [0, 1, 2, 4, 5, 6, 12, 13, 14, 15, 18, 22, 23, 25, 26, 2
         ["eb en vloed komen telkens na \\(12{,}5\\) uur terug", "periode"],
         ["een bal bereikt zijn hoogste punt na \\(2\\) seconden", "maximum"],
     ], ["constante functie"], "Telkens beschrijft de situatie een kenmerk van de grafiek."),
-    tabel("Klopt dit?", [
+    tabel("Klopt dit over grafieken?", [
         ("Een functie kan meerdere nulwaarden hebben.", J),
         ("Een functie kan twee snijpunten met de \\(y\\)-as hebben.", F),
         ("Een dalende functie heeft overal negatieve functiewaarden.", F),
