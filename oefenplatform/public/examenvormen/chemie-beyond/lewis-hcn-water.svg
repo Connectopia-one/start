@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Lewisstructuren van waterstofcyanide en water</text>
+<text x="80" y="268" font-size="34" text-anchor="middle" fill="#24331b" font-weight="bold">H</text>
+<line x1="105" y1="256" x2="175" y2="256" stroke="#24331b" stroke-width="3"/>
+<text x="200" y="268" font-size="34" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<line x1="225" y1="246" x2="305" y2="246" stroke="#24331b" stroke-width="3"/>
+<line x1="225" y1="256" x2="305" y2="256" stroke="#24331b" stroke-width="3"/>
+<line x1="225" y1="266" x2="305" y2="266" stroke="#24331b" stroke-width="3"/>
+<text x="330" y="268" font-size="34" text-anchor="middle" fill="#24331b" font-weight="bold">N</text>
+<circle cx="362" cy="248" r="4" fill="#24331b" stroke="#24331b" stroke-width="1"/>
+<circle cx="362" cy="264" r="4" fill="#24331b" stroke="#24331b" stroke-width="1"/>
+<text x="720" y="268" font-size="34" text-anchor="middle" fill="#24331b" font-weight="bold">O</text>
+<line x1="700" y1="268" x2="640" y2="330" stroke="#24331b" stroke-width="3"/>
+<text x="625" y="360" font-size="34" text-anchor="middle" fill="#24331b" font-weight="bold">H</text>
+<line x1="740" y1="268" x2="800" y2="330" stroke="#24331b" stroke-width="3"/>
+<text x="815" y="360" font-size="34" text-anchor="middle" fill="#24331b" font-weight="bold">H</text>
+<circle cx="712" cy="212" r="4" fill="#24331b" stroke="#24331b" stroke-width="1"/>
+<circle cx="728" cy="212" r="4" fill="#24331b" stroke="#24331b" stroke-width="1"/>
+<circle cx="690" cy="232" r="4" fill="#24331b" stroke="#24331b" stroke-width="1"/>
+<circle cx="690" cy="248" r="4" fill="#24331b" stroke="#24331b" stroke-width="1"/>
+<circle cx="140" cy="170" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="140" y="177" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<circle cx="265" cy="170" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="265" y="177" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<circle cx="400" cy="170" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="400" y="177" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<circle cx="720" cy="150" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="720" y="157" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">D</text>
+<circle cx="640" cy="430" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="640" y="437" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">E</text>
+<line x1="140" y1="192" x2="140" y2="250" stroke="#d9d4c4" stroke-width="1"/>
+<line x1="265" y1="192" x2="265" y2="240" stroke="#d9d4c4" stroke-width="1"/>
+<line x1="400" y1="192" x2="368" y2="245" stroke="#d9d4c4" stroke-width="1"/>
+<line x1="720" y1="172" x2="720" y2="204" stroke="#d9d4c4" stroke-width="1"/>
+<line x1="640" y1="408" x2="668" y2="302" stroke="#d9d4c4" stroke-width="1"/>
+</svg>
