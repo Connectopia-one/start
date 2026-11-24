@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">De middaghoogte van de zon op 51° NB</text>
+<line x1="60" y1="520" x2="940" y2="520" stroke="#24331b" stroke-width="3"/>
+<text x="500" y="552" font-size="18" text-anchor="middle" fill="#24331b">zuid</text>
+<text x="110" y="552" font-size="18" text-anchor="middle" fill="#24331b">oost</text>
+<text x="890" y="552" font-size="18" text-anchor="middle" fill="#24331b">west</text>
+<path d="M80 520 Q 500 -114 920 520" fill="none" stroke="#b5651d" stroke-width="4"/>
+<path d="M170 520 Q 500 253 830 520" fill="none" stroke="#2f4a22" stroke-width="4"/>
+<path d="M280 520 Q 500 428 720 520" fill="none" stroke="#3b6fa0" stroke-width="4"/>
+<circle cx="500" cy="203.03794904975757" r="14" fill="#f4c542" stroke="#24331b" stroke-width="2"/>
+<circle cx="560" cy="193.03794904975757" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="560" y="200.03794904975757" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">P</text>
+<circle cx="500" cy="386.3856345228238" r="14" fill="#f4c542" stroke="#24331b" stroke-width="2"/>
+<circle cx="560" cy="376.3856345228238" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="560" y="383.3856345228238" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">Q</text>
+<circle cx="500" cy="474.24145023012665" r="14" fill="#f4c542" stroke="#24331b" stroke-width="2"/>
+<circle cx="560" cy="464.24145023012665" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="560" y="471.24145023012665" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">R</text>
+</svg>
