@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Een lichte hefboom: links hangt 30 N op 0,4 m van het draaipunt</text>
+<rect x="50.0" y="250" width="900.0" height="24" rx="4" fill="#e8d3a8" stroke="#24331b" stroke-width="2"/>
+<path d="M 500 274 L 470 340 L 530 340 Z" fill="#d9d4c4" stroke="#24331b" stroke-width="2"/>
+<rect x="455" y="340" width="90" height="14" rx="2" fill="#9a9a9a" stroke="#24331b" stroke-width="2"/>
+<line x1="50.0" y1="250" x2="50.0" y2="262" stroke="#24331b" stroke-width="2"/>
+<text x="50.0" y="236" font-size="16" text-anchor="middle" fill="#24331b">0,5</text>
+<line x1="140.0" y1="250" x2="140.0" y2="262" stroke="#24331b" stroke-width="2"/>
+<text x="140.0" y="236" font-size="16" text-anchor="middle" fill="#24331b">0,4</text>
+<line x1="230.0" y1="250" x2="230.0" y2="262" stroke="#24331b" stroke-width="2"/>
+<text x="230.0" y="236" font-size="16" text-anchor="middle" fill="#24331b">0,3</text>
+<line x1="320.0" y1="250" x2="320.0" y2="262" stroke="#24331b" stroke-width="2"/>
+<text x="320.0" y="236" font-size="16" text-anchor="middle" fill="#24331b">0,2</text>
+<line x1="410.0" y1="250" x2="410.0" y2="262" stroke="#24331b" stroke-width="2"/>
+<text x="410.0" y="236" font-size="16" text-anchor="middle" fill="#24331b">0,1</text>
+<line x1="500.0" y1="250" x2="500.0" y2="262" stroke="#24331b" stroke-width="2"/>
+<text x="500.0" y="236" font-size="16" text-anchor="middle" fill="#24331b">0,0</text>
+<line x1="590.0" y1="250" x2="590.0" y2="262" stroke="#24331b" stroke-width="2"/>
+<text x="590.0" y="236" font-size="16" text-anchor="middle" fill="#24331b">0,1</text>
+<line x1="680.0" y1="250" x2="680.0" y2="262" stroke="#24331b" stroke-width="2"/>
+<text x="680.0" y="236" font-size="16" text-anchor="middle" fill="#24331b">0,2</text>
+<line x1="770.0" y1="250" x2="770.0" y2="262" stroke="#24331b" stroke-width="2"/>
+<text x="770.0" y="236" font-size="16" text-anchor="middle" fill="#24331b">0,3</text>
+<line x1="860.0" y1="250" x2="860.0" y2="262" stroke="#24331b" stroke-width="2"/>
+<text x="860.0" y="236" font-size="16" text-anchor="middle" fill="#24331b">0,4</text>
+<line x1="950.0" y1="250" x2="950.0" y2="262" stroke="#24331b" stroke-width="2"/>
+<text x="950.0" y="236" font-size="16" text-anchor="middle" fill="#24331b">0,5</text>
+<text x="500" y="200" font-size="16" text-anchor="middle" fill="#24331b">afstand tot het draaipunt (m)</text>
+<line x1="140.0" y1="274" x2="140.0" y2="380" stroke="#24331b" stroke-width="2"/>
+<rect x="100.0" y="380" width="80" height="70" rx="6" fill="#cfd8e3" stroke="#24331b" stroke-width="2"/>
+<text x="140.0" y="422" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">30 N</text>
+<path d="M 590.0 274 L 590.0 300 A 10 10 0 1 1 580.0 310" fill="none" stroke="#24331b" stroke-width="3"/>
+<circle cx="590.0" cy="350" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="590.0" y="357" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">P</text>
+<path d="M 680.0 274 L 680.0 300 A 10 10 0 1 1 670.0 310" fill="none" stroke="#24331b" stroke-width="3"/>
+<circle cx="680.0" cy="350" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="680.0" y="357" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">Q</text>
+<path d="M 770.0 274 L 770.0 300 A 10 10 0 1 1 760.0 310" fill="none" stroke="#24331b" stroke-width="3"/>
+<circle cx="770.0" cy="350" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="770.0" y="357" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">R</text>
+<path d="M 860.0 274 L 860.0 300 A 10 10 0 1 1 850.0 310" fill="none" stroke="#24331b" stroke-width="3"/>
+<circle cx="860.0" cy="350" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="860.0" y="357" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">S</text>
+</svg>

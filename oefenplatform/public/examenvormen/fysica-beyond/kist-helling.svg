@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Een kist die stil op een helling staat, met vijf krachtpijlen</text>
+<path d="M 120 560 L 900 560 L 900 109.7 Z" fill="#efe6d2" stroke="#24331b" stroke-width="2"/>
+<path d="M 466.4 360.0 L 587.7 290.0 L 532.7 194.7 L 411.4 264.7 Z" fill="#c9a46a" stroke="#24331b" stroke-width="3"/>
+<circle cx="499.53193977868614" cy="277.3686027918559" r="6" fill="#24331b" stroke="#24331b" stroke-width="1"/>
+<line x1="499.53193977868614" y1="277.3686027918559" x2="499.53193977868614" y2="427.3686027918559" stroke="#b5651d" stroke-width="5"/>
+<polygon points="499.53193977868614,427.3686027918559 493.3,412.6 505.8,412.6" fill="#b5651d"/>
+<circle cx="499.53193977868614" cy="459.3686027918559" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="499.53193977868614" y="466.3686027918559" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<line x1="499.53193977868614" y1="277.3686027918559" x2="424.53193977868614" y2="147.4647922241901" stroke="#b5651d" stroke-width="5"/>
+<polygon points="424.53193977868614,147.4647922241901 437.3,157.1 426.5,163.3" fill="#b5651d"/>
+<circle cx="408.53193977868614" cy="119.75197930308804" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="408.53193977868614" y="126.75197930308804" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<line x1="499.53193977868614" y1="277.3686027918559" x2="629.4357503463519" y2="202.3686027918559" stroke="#b5651d" stroke-width="5"/>
+<polygon points="629.4357503463519,202.3686027918559 619.8,215.1 613.6,204.3" fill="#b5651d"/>
+<circle cx="657.1485632674539" cy="186.3686027918559" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="657.1485632674539" y="193.3686027918559" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<line x1="499.53193977868614" y1="277.3686027918559" x2="349.53193977868614" y2="277.3686027918559" stroke="#b5651d" stroke-width="5"/>
+<polygon points="349.53193977868614,277.3686027918559 364.3,271.1 364.3,283.6" fill="#b5651d"/>
+<circle cx="317.53193977868614" cy="277.3686027918559" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="317.53193977868614" y="284.3686027918559" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">D</text>
+<line x1="499.53193977868614" y1="277.3686027918559" x2="369.62812921102034" y2="352.3686027918559" stroke="#b5651d" stroke-width="5"/>
+<polygon points="369.62812921102034,352.3686027918559 379.3,339.6 385.5,350.4" fill="#b5651d"/>
+<circle cx="341.9153162899183" cy="368.3686027918559" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="341.9153162899183" y="375.3686027918559" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">E</text>
+<text x="240" y="544" font-size="20" text-anchor="middle" fill="#24331b">30°</text>
+</svg>
