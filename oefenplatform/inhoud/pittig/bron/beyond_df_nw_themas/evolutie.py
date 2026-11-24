@@ -48,7 +48,7 @@ VRAGEN = kies(E.VRAGEN, [0, 1, 2, 3, 4, 5, 8, 9, 13, 14, 16, 18, 21, 22], _V) + 
     volgorde("Zet deze gebeurtenissen in de juiste volgorde, van oud naar recent.", [
         "de aarde ontstaat", "de eerste cellen", "de eerste vogels zoals Archaeopteryx", "de eerste mensen",
     ], "Van 4,6 miljard jaar geleden tot vandaag."),
-    koppel("Koppel elk begrip aan zijn betekenis.", [
+    koppel("Koppel elk evolutiebegrip aan zijn betekenis.", [
         ["fossiel", "versteende rest of afdruk"], ["overgangsvorm", "fossiel met kenmerken van twee groepen"],
         ["rudimentair orgaan", "orgaan zonder functie meer"], ["oercel", "eerste cel waaruit alle leven ontstond"],
     ], ["groep dieren van één soort in één gebied"], "Dat laatste is een populatie."),

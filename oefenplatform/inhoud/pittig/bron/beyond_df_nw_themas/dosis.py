@@ -75,7 +75,7 @@ VRAGEN = [
     mk("Een mondspoeling bevat \\(0{,}5\\) g werkzame stof per \\(100\\) mL. Wat is de massaconcentratie?",
        ["\\(5\\) g/L", "\\(0{,}5\\) g/L", "\\(50\\) g/L", "\\(0{,}05\\) g/L"], 0,
        "Een liter is tien keer honderd milliliter: \\(10 \\cdot 0{,}5 = 5\\) g/L."),
-    tabel("Klopt dit?", [
+    tabel("Klopt dit over concentratie?", [
         ("Een hogere concentratie betekent meer stof per liter.", J),
         ("Dezelfde stof kan een ander gevarenpictogram krijgen bij een andere concentratie.", J),
         ("Vijf massaprocent is vijf gram per liter.", F),
