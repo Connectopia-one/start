@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Twee bacteriën wisselen DNA uit</text>
+<rect x="90" y="220" width="340" height="180" rx="90" fill="#e6f0d8" stroke="#24331b" stroke-width="2.5"/>
+<rect x="550" y="220" width="340" height="180" rx="90" fill="#e6f0d8" stroke="#24331b" stroke-width="2.5"/>
+<path d="M180 300 C 210 250 280 260 300 300 C 320 340 260 360 230 340 C 200 320 250 290 270 320 C 290 350 200 360 180 330 Z" fill="none" stroke="#3b6fa0" stroke-width="3"/>
+<circle cx="360" cy="260" r="16" fill="none" stroke="#b03a2e" stroke-width="3"/>
+<circle cx="370" cy="340" r="16" fill="none" stroke="#b03a2e" stroke-width="3"/>
+<circle cx="650" cy="340" r="16" fill="none" stroke="#b03a2e" stroke-width="3"/>
+<path d="M690 300 C 720 260 780 270 790 300 C 800 330 740 350 720 330 C 700 310 760 290 770 320" fill="none" stroke="#3b6fa0" stroke-width="3"/>
+<rect x="430" y="302" width="120" height="16" rx="8" fill="#e6f0d8" stroke="#24331b" stroke-width="2"/>
+<line x1="440" y1="290" x2="540" y2="290" stroke="#b03a2e" stroke-width="2"/>
+<polygon points="540,290 525.3,296.2 525.3,283.8" fill="#b03a2e"/>
+<line x1="240" y1="182" x2="240" y2="268" stroke="#24331b" stroke-width="1"/>
+<line x1="385" y1="448" x2="370" y2="358" stroke="#24331b" stroke-width="1"/>
+<line x1="490" y1="242" x2="490" y2="300" stroke="#24331b" stroke-width="1"/>
+<circle cx="240" cy="160" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="240" y="167" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<circle cx="390" cy="470" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="390" y="477" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<circle cx="490" cy="220" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="490" y="227" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+</svg>
