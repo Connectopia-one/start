@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Het aantal kernen van een radioactieve stof in de loop van de tijd</text>
+<line x1="130.0" y1="90" x2="130.0" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="130.0" y="564" font-size="15" text-anchor="middle" fill="#24331b">0</text>
+<line x1="226.25" y1="90" x2="226.25" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="226.25" y="564" font-size="15" text-anchor="middle" fill="#24331b">3</text>
+<line x1="322.5" y1="90" x2="322.5" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="322.5" y="564" font-size="15" text-anchor="middle" fill="#24331b">6</text>
+<line x1="418.75" y1="90" x2="418.75" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="418.75" y="564" font-size="15" text-anchor="middle" fill="#24331b">9</text>
+<line x1="515.0" y1="90" x2="515.0" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="515.0" y="564" font-size="15" text-anchor="middle" fill="#24331b">12</text>
+<line x1="611.25" y1="90" x2="611.25" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="611.25" y="564" font-size="15" text-anchor="middle" fill="#24331b">15</text>
+<line x1="707.5" y1="90" x2="707.5" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="707.5" y="564" font-size="15" text-anchor="middle" fill="#24331b">18</text>
+<line x1="803.75" y1="90" x2="803.75" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="803.75" y="564" font-size="15" text-anchor="middle" fill="#24331b">21</text>
+<line x1="900.0" y1="90" x2="900.0" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="900.0" y="564" font-size="15" text-anchor="middle" fill="#24331b">24</text>
+<line x1="130" y1="540.0" x2="900" y2="540.0" stroke="#e4e1d6" stroke-width="1"/>
+<text x="120" y="545.0" font-size="15" text-anchor="end" fill="#24331b">0</text>
+<line x1="130" y1="490.0" x2="900" y2="490.0" stroke="#e4e1d6" stroke-width="1"/>
+<text x="120" y="495.0" font-size="15" text-anchor="end" fill="#24331b">100</text>
+<line x1="130" y1="440.0" x2="900" y2="440.0" stroke="#e4e1d6" stroke-width="1"/>
+<text x="120" y="445.0" font-size="15" text-anchor="end" fill="#24331b">200</text>
+<line x1="130" y1="390.0" x2="900" y2="390.0" stroke="#e4e1d6" stroke-width="1"/>
+<text x="120" y="395.0" font-size="15" text-anchor="end" fill="#24331b">300</text>
+<line x1="130" y1="340.0" x2="900" y2="340.0" stroke="#e4e1d6" stroke-width="1"/>
+<text x="120" y="345.0" font-size="15" text-anchor="end" fill="#24331b">400</text>
+<line x1="130" y1="290.0" x2="900" y2="290.0" stroke="#e4e1d6" stroke-width="1"/>
+<text x="120" y="295.0" font-size="15" text-anchor="end" fill="#24331b">500</text>
+<line x1="130" y1="240.0" x2="900" y2="240.0" stroke="#e4e1d6" stroke-width="1"/>
+<text x="120" y="245.0" font-size="15" text-anchor="end" fill="#24331b">600</text>
+<line x1="130" y1="190.0" x2="900" y2="190.0" stroke="#e4e1d6" stroke-width="1"/>
+<text x="120" y="195.0" font-size="15" text-anchor="end" fill="#24331b">700</text>
+<line x1="130" y1="140.0" x2="900" y2="140.0" stroke="#e4e1d6" stroke-width="1"/>
+<text x="120" y="145.0" font-size="15" text-anchor="end" fill="#24331b">800</text>
+<line x1="130" y1="90.0" x2="900" y2="90.0" stroke="#e4e1d6" stroke-width="1"/>
+<text x="120" y="95.0" font-size="15" text-anchor="end" fill="#24331b">900</text>
+<line x1="130" y1="540.0" x2="910" y2="540.0" stroke="#24331b" stroke-width="2"/>
+<line x1="130" y1="540" x2="130" y2="80" stroke="#24331b" stroke-width="2"/>
+<text x="905" y="530.0" font-size="16" text-anchor="end" fill="#24331b">t (h)</text>
+<text x="122" y="70" font-size="16" text-anchor="start" fill="#24331b">N (×1000)</text>
+<path d="M 130.0 140.0 L 133.2 144.6 L 136.4 149.1 L 139.6 153.6 L 142.8 158.1 L 146.0 162.5 L 149.2 166.8 L 152.5 171.1 L 155.7 175.3 L 158.9 179.5 L 162.1 183.6 L 165.3 187.7 L 168.5 191.8 L 171.7 195.8 L 174.9 199.7 L 178.1 203.6 L 181.3 207.5 L 184.5 211.3 L 187.8 215.1 L 191.0 218.8 L 194.2 222.5 L 197.4 226.2 L 200.6 229.8 L 203.8 233.3 L 207.0 236.9 L 210.2 240.3 L 213.4 243.8 L 216.6 247.2 L 219.8 250.5 L 223.0 253.9 L 226.2 257.2 L 229.5 260.4 L 232.7 263.6 L 235.9 266.8 L 239.1 269.9 L 242.3 273.0 L 245.5 276.1 L 248.7 279.1 L 251.9 282.1 L 255.1 285.1 L 258.3 288.0 L 261.5 290.9 L 264.8 293.8 L 268.0 296.6 L 271.2 299.4 L 274.4 302.2 L 277.6 304.9 L 280.8 307.6 L 284.0 310.3 L 287.2 312.9 L 290.4 315.5 L 293.6 318.1 L 296.8 320.6 L 300.0 323.2 L 303.2 325.6 L 306.5 328.1 L 309.7 330.5 L 312.9 332.9 L 316.1 335.3 L 319.3 337.7 L 322.5 340.0 L 325.7 342.3 L 328.9 344.6 L 332.1 346.8 L 335.3 349.0 L 338.5 351.2 L 341.8 353.4 L 345.0 355.5 L 348.2 357.7 L 351.4 359.7 L 354.6 361.8 L 357.8 363.9 L 361.0 365.9 L 364.2 367.9 L 367.4 369.9 L 370.6 371.8 L 373.8 373.8 L 377.0 375.7 L 380.2 377.5 L 383.5 379.4 L 386.7 381.3 L 389.9 383.1 L 393.1 384.9 L 396.3 386.7 L 399.5 388.4 L 402.7 390.2 L 405.9 391.9 L 409.1 393.6 L 412.3 395.3 L 415.5 396.9 L 418.8 398.6 L 422.0 400.2 L 425.2 401.8 L 428.4 403.4 L 431.6 405.0 L 434.8 406.5 L 438.0 408.0 L 441.2 409.6 L 444.4 411.1 L 447.6 412.5 L 450.8 414.0 L 454.0 415.5 L 457.2 416.9 L 460.5 418.3 L 463.7 419.7 L 466.9 421.1 L 470.1 422.4 L 473.3 423.8 L 476.5 425.1 L 479.7 426.4 L 482.9 427.8 L 486.1 429.0 L 489.3 430.3 L 492.5 431.6 L 495.8 432.8 L 499.0 434.1 L 502.2 435.3 L 505.4 436.5 L 508.6 437.7 L 511.8 438.8 L 515.0 440.0 L 518.2 441.1 L 521.4 442.3 L 524.6 443.4 L 527.8 444.5 L 531.0 445.6 L 534.2 446.7 L 537.5 447.8 L 540.7 448.8 L 543.9 449.9 L 547.1 450.9 L 550.3 451.9 L 553.5 452.9 L 556.7 453.9 L 559.9 454.9 L 563.1 455.9 L 566.3 456.9 L 569.5 457.8 L 572.8 458.8 L 576.0 459.7 L 579.2 460.6 L 582.4 461.5 L 585.6 462.4 L 588.8 463.3 L 592.0 464.2 L 595.2 465.1 L 598.4 465.9 L 601.6 466.8 L 604.8 467.6 L 608.0 468.5 L 611.2 469.3 L 614.5 470.1 L 617.7 470.9 L 620.9 471.7 L 624.1 472.5 L 627.3 473.3 L 630.5 474.0 L 633.7 474.8 L 636.9 475.5 L 640.1 476.3 L 643.3 477.0 L 646.5 477.7 L 649.8 478.4 L 653.0 479.1 L 656.2 479.8 L 659.4 480.5 L 662.6 481.2 L 665.8 481.9 L 669.0 482.6 L 672.2 483.2 L 675.4 483.9 L 678.6 484.5 L 681.8 485.2 L 685.0 485.8 L 688.2 486.4 L 691.5 487.0 L 694.7 487.6 L 697.9 488.2 L 701.1 488.8 L 704.3 489.4 L 707.5 490.0 L 710.7 490.6 L 713.9 491.1 L 717.1 491.7 L 720.3 492.3 L 723.5 492.8 L 726.8 493.3 L 730.0 493.9 L 733.2 494.4 L 736.4 494.9 L 739.6 495.5 L 742.8 496.0 L 746.0 496.5 L 749.2 497.0 L 752.4 497.5 L 755.6 498.0 L 758.8 498.4 L 762.0 498.9 L 765.2 499.4 L 768.5 499.9 L 771.7 500.3 L 774.9 500.8 L 778.1 501.2 L 781.3 501.7 L 784.5 502.1 L 787.7 502.5 L 790.9 503.0 L 794.1 503.4 L 797.3 503.8 L 800.5 504.2 L 803.8 504.6 L 807.0 505.1 L 810.2 505.5 L 813.4 505.8 L 816.6 506.2 L 819.8 506.6 L 823.0 507.0 L 826.2 507.4 L 829.4 507.8 L 832.6 508.1 L 835.8 508.5 L 839.0 508.9 L 842.2 509.2 L 845.5 509.6 L 848.7 509.9 L 851.9 510.3 L 855.1 510.6 L 858.3 510.9 L 861.5 511.3 L 864.7 511.6 L 867.9 511.9 L 871.1 512.3 L 874.3 512.6 L 877.5 512.9 L 880.8 513.2 L 884.0 513.5 L 887.2 513.8 L 890.4 514.1 L 893.6 514.4 L 896.8 514.7 L 900.0 515.0" fill="none" stroke="#3b6fa0" stroke-width="4"/>
+<circle cx="322.5" cy="340.0" r="8" fill="#b5651d" stroke="#24331b" stroke-width="2"/>
+<circle cx="350.5" cy="310.0" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="350.5" y="317.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<circle cx="515.0" cy="440.0" r="8" fill="#b5651d" stroke="#24331b" stroke-width="2"/>
+<circle cx="543.0" cy="410.0" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="543.0" y="417.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<circle cx="707.5" cy="490.0" r="8" fill="#b5651d" stroke="#24331b" stroke-width="2"/>
+<circle cx="735.5" cy="460.0" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="735.5" y="467.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+</svg>

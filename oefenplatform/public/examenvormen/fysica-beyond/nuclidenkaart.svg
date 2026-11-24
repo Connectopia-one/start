@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Een vereenvoudigde nuclidenkaart</text>
+<line x1="130.0" y1="90" x2="130.0" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="130.0" y="564" font-size="15" text-anchor="middle" fill="#24331b">0</text>
+<line x1="255.0" y1="90" x2="255.0" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="255.0" y="564" font-size="15" text-anchor="middle" fill="#24331b">25</text>
+<line x1="380.0" y1="90" x2="380.0" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="380.0" y="564" font-size="15" text-anchor="middle" fill="#24331b">50</text>
+<line x1="505.0" y1="90" x2="505.0" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="505.0" y="564" font-size="15" text-anchor="middle" fill="#24331b">75</text>
+<line x1="630.0" y1="90" x2="630.0" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="630.0" y="564" font-size="15" text-anchor="middle" fill="#24331b">100</text>
+<line x1="755.0" y1="90" x2="755.0" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="755.0" y="564" font-size="15" text-anchor="middle" fill="#24331b">125</text>
+<line x1="880.0" y1="90" x2="880.0" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="880.0" y="564" font-size="15" text-anchor="middle" fill="#24331b">150</text>
+<line x1="130" y1="540.0" x2="880" y2="540.0" stroke="#e4e1d6" stroke-width="1"/>
+<text x="120" y="545.0" font-size="15" text-anchor="end" fill="#24331b">0</text>
+<line x1="130" y1="450.0" x2="880" y2="450.0" stroke="#e4e1d6" stroke-width="1"/>
+<text x="120" y="455.0" font-size="15" text-anchor="end" fill="#24331b">20</text>
+<line x1="130" y1="360.0" x2="880" y2="360.0" stroke="#e4e1d6" stroke-width="1"/>
+<text x="120" y="365.0" font-size="15" text-anchor="end" fill="#24331b">40</text>
+<line x1="130" y1="270.0" x2="880" y2="270.0" stroke="#e4e1d6" stroke-width="1"/>
+<text x="120" y="275.0" font-size="15" text-anchor="end" fill="#24331b">60</text>
+<line x1="130" y1="180.0" x2="880" y2="180.0" stroke="#e4e1d6" stroke-width="1"/>
+<text x="120" y="185.0" font-size="15" text-anchor="end" fill="#24331b">80</text>
+<line x1="130" y1="90.0" x2="880" y2="90.0" stroke="#e4e1d6" stroke-width="1"/>
+<text x="120" y="95.0" font-size="15" text-anchor="end" fill="#24331b">100</text>
+<line x1="130" y1="540.0" x2="890" y2="540.0" stroke="#24331b" stroke-width="2"/>
+<line x1="130" y1="540" x2="130" y2="80" stroke="#24331b" stroke-width="2"/>
+<text x="885" y="530.0" font-size="16" text-anchor="end" fill="#24331b">N</text>
+<text x="122" y="70" font-size="16" text-anchor="start" fill="#24331b">Z</text>
+<line x1="130.0" y1="540.0" x2="630.0" y2="90.0" stroke="#d9d4c4" stroke-width="2" stroke-dasharray="8 6"/>
+<text x="590.0" y="98.0" font-size="16" text-anchor="end" fill="#24331b">N = Z</text>
+<path d="M 130.0 513.0 L 140.0 504.0 L 150.0 495.0 L 160.0 486.0 L 170.0 477.0 L 180.0 468.0 L 190.0 459.0 L 200.0 450.0 L 210.0 441.0 L 220.0 432.0 L 230.0 423.0 L 240.0 417.4 L 250.0 411.8 L 260.0 406.3 L 270.0 400.7 L 280.0 395.1 L 290.0 389.5 L 300.0 383.9 L 310.0 378.4 L 320.0 372.8 L 330.0 367.2 L 340.0 361.6 L 350.0 356.0 L 360.0 350.5 L 370.0 344.9 L 380.0 339.3 L 390.0 333.7 L 400.0 328.1 L 410.0 322.6 L 420.0 317.0 L 430.0 311.4 L 440.0 305.8 L 450.0 300.2 L 460.0 294.7 L 470.0 289.1 L 480.0 283.5 L 490.0 277.9 L 500.0 272.3 L 510.0 266.8 L 520.0 261.2 L 530.0 255.6 L 540.0 250.0 L 550.0 244.4 L 560.0 238.9 L 570.0 233.3 L 580.0 227.7 L 590.0 222.1 L 600.0 216.5 L 610.0 211.0 L 620.0 205.4 L 630.0 199.8 L 640.0 194.2 L 650.0 188.6 L 660.0 183.1 L 670.0 177.5 L 680.0 171.9 L 690.0 166.3 L 700.0 160.7 L 710.0 155.2 L 720.0 149.6 L 730.0 144.0 L 740.0 138.4 L 750.0 132.8 L 760.0 127.3 L 760.0 181.3 L 750.0 186.8 L 740.0 192.4 L 730.0 198.0 L 720.0 203.6 L 710.0 209.2 L 700.0 214.7 L 690.0 220.3 L 680.0 225.9 L 670.0 231.5 L 660.0 237.1 L 650.0 242.6 L 640.0 248.2 L 630.0 253.8 L 620.0 259.4 L 610.0 265.0 L 600.0 270.5 L 590.0 276.1 L 580.0 281.7 L 570.0 287.3 L 560.0 292.9 L 550.0 298.4 L 540.0 304.0 L 530.0 309.6 L 520.0 315.2 L 510.0 320.8 L 500.0 326.3 L 490.0 331.9 L 480.0 337.5 L 470.0 343.1 L 460.0 348.7 L 450.0 354.2 L 440.0 359.8 L 430.0 365.4 L 420.0 371.0 L 410.0 376.6 L 400.0 382.1 L 390.0 387.7 L 380.0 393.3 L 370.0 398.9 L 360.0 404.5 L 350.0 410.0 L 340.0 415.6 L 330.0 421.2 L 320.0 426.8 L 310.0 432.4 L 300.0 437.9 L 290.0 443.5 L 280.0 449.1 L 270.0 454.7 L 260.0 460.3 L 250.0 465.8 L 240.0 471.4 L 230.0 477.0 L 220.0 486.0 L 210.0 495.0 L 200.0 504.0 L 190.0 513.0 L 180.0 522.0 L 170.0 531.0 L 160.0 540.0 L 150.0 540.0 L 140.0 540.0 L 130.0 540.0 Z" fill="#bfe0b0" stroke="#2f4a22" stroke-width="2"/>
+<circle cx="530.0" cy="363.6" r="9" fill="#b5651d" stroke="#24331b" stroke-width="2"/>
+<circle cx="560.0" cy="391.6" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="560.0" y="398.6" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<circle cx="330.0" cy="304.2" r="9" fill="#b5651d" stroke="#24331b" stroke-width="2"/>
+<circle cx="300.0" cy="276.2" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="300.0" y="283.2" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<circle cx="405.0" cy="352.35" r="9" fill="#b5651d" stroke="#24331b" stroke-width="2"/>
+<circle cx="435.0" cy="380.35" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="435.0" y="387.35" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<circle cx="760.0" cy="154.26" r="9" fill="#b5651d" stroke="#24331b" stroke-width="2"/>
+<circle cx="790.0" cy="182.26" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="790.0" y="189.26" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">D</text>
+</svg>
