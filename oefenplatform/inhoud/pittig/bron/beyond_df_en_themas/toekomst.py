@@ -1,0 +1,92 @@
+"""De toekomende tijd en de modale hulpwerkwoorden — pittig (Engels, Beyond dubbele finaliteit), A2+."""
+from ..beyond_en_themas.vormen import J, F, mk, inv, tabel, keuze, volgorde, koppel, sorteer, sleep, open_, casus
+
+VRAGEN = [
+    casus(
+        "Read the notice.\n\nSWIMMING POOL RULES\nYou must take a shower before you swim. You mustn't run near the pool. "
+        "Children under eight must be with an adult. You don't have to bring a towel: you can rent one at the desk. "
+        "The pool closes at 9 p.m. on Fridays. Next month we are going to open a new slide!",
+        [
+            tabel("Moet het, mag het niet, of hoeft het niet?", [
+                ("een douche nemen voor je zwemt", "het moet"),
+                ("lopen naast het zwembad", "het mag niet"),
+                ("een handdoek meebrengen", "het hoeft niet"),
+            ], "Must: verplicht. Mustn't: verboden. Don't have to: niet nodig.",
+               kolommen=["het moet", "het mag niet", "het hoeft niet"]),
+            keuze("« The pool closes at 9 p.m. » staat in de present simple omdat het om [[*een vast uurrooster|een belofte|iets dat nu bezig is]] gaat.",
+                  "Openingsuren en uurroosters staan in de present simple."),
+            keuze("« We are going to open a new slide » drukt [[*een plan dat al vastligt|een beslissing van dit moment|een verbod]] uit.",
+                  "Going to voor een plan."),
+            mk("Een kind van zes wil alleen gaan zwemmen. Mag dat?",
+               ["nee, het moet met een volwassene komen", "ja, als het aan de balie een handdoek huurt",
+                "ja, maar het mag niet lopen", "nee, kinderen mogen er nooit zwemmen"], 0,
+               "Children under eight must be with an adult."),
+            inv("Welk woord in de tekst betekent « huren »?", ["rent"], "You can rent one at the desk."),
+        ],
+    ),
+    tabel("Will of going to?", [
+        ("een beslissing die je op dit moment neemt: « The phone is ringing. I ___ answer it. »", "will"),
+        ("een plan dat al vastligt: « We ___ visit Grandma on Sunday. »", "going to"),
+        ("een belofte: « I ___ never tell anyone. »", "will"),
+        ("iets dat je ziet aankomen: « Look at that sky! It ___ rain. »", "going to"),
+    ], "Will: belofte, aanbod, beslissing nu. Going to: plan of iets dat je ziet aankomen.",
+       kolommen=["will", "going to"]),
+    mk("« I'm cold. » — « I ___ close the window. » Welke vorm past?",
+       ["'ll", "am going to", "close", "will to"], 0, "Een aanbod dat je op dat ogenblik beslist: will."),
+    mk("« You ___ pay for the museum: it's free on Sundays. » Welke vorm past?",
+       ["don't have to", "mustn't", "can't", "shouldn't have to"], 0, "Het is niet nodig, niet verboden."),
+    mk("« You ___ use your phone during the test. » Het is verboden. Welke vorm past?",
+       ["mustn't", "don't have to", "needn't", "might not"], 0, "Mustn't is een verbod."),
+    mk("« ___ I open the window? » Je biedt iets aan. Welke vorm past?",
+       ["Shall", "Will", "Must", "Would"], 0, "Met shall I doe je een voorstel of aanbod."),
+    keuze("« She [[*can't|mustn't]] come to the party, because she is ill. »", "Ze is niet in staat te komen: can't."),
+    keuze("« You look tired. You [[*should|must not]] go to bed early. »", "Een raad: should."),
+    keuze("« Let's [[*meet|to meet|meeting]] at the station. »", "Na let's de infinitief zonder to."),
+    keuze("« I [[*might|must]] go to the cinema tonight, but I'm not sure yet. »", "Might: een kleine kans."),
+    keuze("« Did you enjoy [[*yourself|you|yourselves]] at the party, Tom? »", "Eén persoon, you: yourself."),
+    inv("Vul de going to-vorm in: « Sarah ___ study medicine. » Drie woorden.", ["is going to"], "Bij Sarah hoort is."),
+    inv("Schrijf de verkorte vorm van « will not ».", ["won't"], "Won't, met een apostrof."),
+    inv("Zet in de ontkenning met « will »: « We will win the match. »", ["We won't win the match.", "We will not win the match.", "We won't win the match", "We will not win the match"],
+        "Not komt na will."),
+    koppel("Koppel elk modaal werkwoord aan zijn betekenis.", [
+        ["can", "kunnen"], ["must", "moeten"], ["may", "mogen"], ["should", "zou moeten"],
+    ], ["willen"], "Willen is to want, geen modaal hulpwerkwoord."),
+    sorteer("Hoffelijke vraag of gewone vraag?", ["hoffelijker", "gewoner"], [
+        ["Could you help me, please?", "hoffelijker"], ["Can you help me?", "gewoner"],
+        ["May I sit here?", "hoffelijker"], ["Can I sit here?", "gewoner"],
+    ], "Could en may klinken beleefder dan can."),
+    tabel("Is deze zin juist?", [
+        ("He cans swim very well.", F),
+        ("I will call you tomorrow.", J),
+        ("You must to wear a seatbelt.", F),
+        ("Don't touch the hot plate!", J),
+    ], "Een modaal werkwoord krijgt geen s en geen to erna."),
+    mk("« I'm meeting Lisa at six tomorrow. » Wat drukt de present continuous hier uit?",
+       ["een afspraak in de toekomst", "iets dat nu bezig is",
+        "een gewoonte die elke dag terugkomt", "iets wat gisteren gebeurd is"], 0,
+       "Een vaste afspraak kan in de present continuous."),
+    volgorde("Zet de woorden in de juiste volgorde: « going / are / what / to / you / do »", [
+        "What", "are", "you", "going", "to", "do",
+    ], "Vraagwoord, vorm van to be, onderwerp, going to, infinitief."),
+    sleep("Hurry up, or you [[will miss]] the bus! It [[leaves]] at 7.45.",
+          ["are missing", "will leave at"], "Een waarschuwing met will; een uurrooster in de present simple."),
+    tabel("Wederkerend of niet?", [
+        ("He cut himself while cooking.", J),
+        ("She called him yesterday.", F),
+        ("We taught ourselves to play the guitar.", J),
+    ], "Een wederkerend voornaamwoord eindigt op -self of -selves."),
+    mk("« You needn't wait for me. » Wat betekent dat?",
+       ["je hoeft niet op mij te wachten", "je mag absoluut niet op mij wachten",
+        "je moet op mij wachten", "je kan niet op mij wachten"], 0,
+       "Needn't is hetzelfde als don't have to."),
+    keuze("« When I was six, I [[*could|can]] already read. »", "Could is de verleden tijd van can."),
+    inv("Vul de juiste vorm in: « If it is sunny tomorrow, we ___ (to go) to the beach. » Twee woorden.", ["will go"],
+        "Na if de present simple, in de hoofdzin will."),
+    tabel("Kan je deze toekomst zo zeggen?", [
+        ("The train leaves at 8.15 tomorrow.", J),
+        ("I'm seeing the dentist on Monday.", J),
+        ("She will to visit us next week.", F),
+    ], "Uurrooster, afspraak en will zonder to."),
+    open_("Leg in het Nederlands het verschil uit tussen « You mustn't come » en « You don't have to come ».",
+          "« You mustn't come » betekent dat je niet mag komen: het is verboden. « You don't have to come » betekent dat je niet hoeft te komen: het mag, maar het is niet nodig."),
+]

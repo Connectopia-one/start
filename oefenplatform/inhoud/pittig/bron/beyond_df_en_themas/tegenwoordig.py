@@ -1,0 +1,92 @@
+"""De tegenwoordige tijden en de present perfect — pittig (Engels, Beyond dubbele finaliteit), A2+."""
+from ..beyond_en_themas.vormen import J, F, mk, inv, tabel, keuze, volgorde, koppel, sorteer, sleep, open_, casus
+
+VRAGEN = [
+    casus(
+        "Read the message.\n\nHi Sam! I'm writing to you from my new flat in Leeds. I have lived here since September and I really like it. "
+        "Every morning I take the bus to college. Right now it is raining, so I'm staying inside and studying. "
+        "I haven't made many friends yet, but my neighbour is very nice. She has been learning Dutch for two years! Write soon, Lien",
+        [
+            keuze("« I have lived here since September » betekent dat Lien er [[*nog altijd woont|vroeger woonde, maar nu niet meer]].",
+                  "Present perfect met since: het begon in het verleden en duurt nog."),
+            tabel("Welke tijd staat in deze zin?", [
+                ("Every morning I take the bus to college.", "present simple"),
+                ("I'm staying inside.", "present continuous"),
+                ("I haven't made many friends yet.", "present perfect simple"),
+                ("She has been learning Dutch for two years.", "present perfect continuous"),
+            ], "Kijk naar de vorm van het werkwoord.",
+               kolommen=["present simple", "present continuous", "present perfect simple", "present perfect continuous"]),
+            mk("Waarom staat « take » in de present simple?",
+               ["het is een gewoonte", "het gebeurt nu op dit moment",
+                "het is al lang voorbij", "het is een plan voor later"], 0,
+               "Every morning wijst op iets dat telkens terugkomt."),
+            keuze("Het woord « yet » staat in een [[*ontkennende|bevestigende]] zin en betekent hier « nog niet ».",
+                  "Yet hoort bij vragen en ontkenningen in de present perfect."),
+            inv("Hoeveel jaar leert de buurvrouw al Nederlands? Schrijf het getal.", ["2", "twee"], "For two years."),
+        ],
+    ),
+    tabel("Is deze zin juist?", [
+        ("She don't like spicy food.", F),
+        ("There are a lot of people in the shop.", J),
+        ("I have finished my project yesterday.", F),
+        ("He has worked here for ten years.", J),
+    ], "He doesn't; bij yesterday hoort de past simple."),
+    mk("« Look! The bus ___ . We're too late! » Welke vorm past?",
+       ["is leaving", "leaves", "has been leave", "leave"], 0, "Look! wijst op iets dat nu gebeurt."),
+    mk("« The museum ___ at 10 a.m. every day. » Welke vorm past?",
+       ["opens", "is opening", "has been opening", "open"], 0, "Een vast uurrooster: present simple."),
+    mk("« I ___ this film three times. I love it! » Welke vorm past?",
+       ["have seen", "saw", "am seeing", "see"], 0, "Ervaring tot nu, zonder tijdstip: present perfect."),
+    mk("« We ___ for the bus for twenty minutes. Where is it? » Welke vorm past?",
+       ["have been waiting", "are wait", "waited", "have being waiting there"], 0, "Een duur die nu nog loopt: present perfect continuous bij we."),
+    keuze("« I have known her [[*since|for]] primary school. »", "Since met een beginpunt."),
+    keuze("« They have been friends [[*for|since]] eight years. »", "For met een duur."),
+    keuze("« [[*Does|Do]] your sister play an instrument? »", "Bij she: does."),
+    keuze("« There [[*is|are]] some milk in the fridge. »", "Milk is ontelbaar: there is."),
+    keuze("« I [[*do|am]] want to come, but I can't. »", "Emphatic do benadrukt dat je het echt wil."),
+    inv("Vul de present simple in van « to fly »: « A pilot ___ planes. »", ["flies"], "Een y na een consonant wordt ies."),
+    inv("Vul het voltooid deelwoord in van « to break »: « Oh no, I have ___ my glasses! »", ["broken"], "Break, broke, broken."),
+    inv("Vul de present continuous in van « to sit »: « Why ___ you ___ on the floor? » Geef de twee woorden zonder « you », gescheiden door een spatie.", ["are sitting"],
+        "Are ... sitting: de t verdubbelt."),
+    koppel("Koppel elk werkwoord aan zijn voltooid deelwoord.", [
+        ["to eat", "eaten"], ["to buy", "bought"], ["to forget", "forgotten"], ["to do", "done"],
+    ], ["did"], "Did is de past simple, geen voltooid deelwoord."),
+    sorteer("Hoort dit signaalwoord vooral bij de present simple of bij de present continuous?", ["present simple", "present continuous"], [
+        ["usually", "present simple"], ["right now", "present continuous"], ["every week", "present simple"],
+        ["at the moment", "present continuous"], ["never", "present simple"], ["Listen!", "present continuous"],
+    ], "Gewoonte of nu bezig?"),
+    sorteer("Present perfect of past simple?", ["present perfect", "past simple"], [
+        ["I ___ (to lose) my phone, so I can't call you now.", "present perfect"],
+        ["I ___ (to lose) my phone last week.", "past simple"],
+        ["___ you ever ___ (to be) to London?", "present perfect"],
+        ["We ___ (to move) here in 2019.", "past simple"],
+    ], "Een tijdstip in het verleden: past simple. Gevolg nu of ervaring: present perfect."),
+    tabel("Kan dit werkwoord hier in de present continuous?", [
+        ("I ___ (to believe) you.", F),
+        ("She ___ (to talk) on the phone right now.", J),
+        ("This bag ___ (to belong) to me.", F),
+    ], "Werkwoorden van weten, geloven en bezitten staan zelden in de continuous."),
+    mk("« She has gone to Spain. » Wat betekent dat?",
+       ["ze is nu in Spanje", "ze is in Spanje geweest en terug",
+        "ze gaat volgende week naar Spanje", "ze gaat elk jaar naar Spanje"], 0,
+       "Has gone: ze is vertrokken en nog niet terug. Has been: ze was er en is terug."),
+    mk("« How long have you lived in Genk? » Wat wil de vraagsteller weten?",
+       ["sinds wanneer je er woont", "wanneer je er verhuisd bent naar elders",
+        "hoe lang je er vroeger gewoond hebt", "of je er ooit zult wonen"], 0,
+       "How long plus present perfect: een duur tot nu."),
+    keuze("« I have [[*already|yet]] done my homework, so I can go out. »", "Already in een bevestigende zin, voor het hoofdwerkwoord."),
+    volgorde("Zet de woorden in de juiste volgorde voor een vraag: « ever / you / have / Paris / visited »", [
+        "Have", "you", "ever", "visited", "Paris",
+    ], "Have komt vooraan, ever staat voor het voltooid deelwoord."),
+    sleep("My brother [[plays]] football every Saturday, but today he [[is watching]] a match on TV.",
+          ["is playing", "watches"], "Gewoonte tegenover nu bezig."),
+    inv("Zet in de ontkenning: « He watches the news every evening. »", ["He doesn't watch the news every evening.", "He does not watch the news every evening.", "He doesn't watch the news every evening", "He does not watch the news every evening"],
+        "Doesn't plus infinitief: de s verdwijnt van watch."),
+    tabel("Klopt dit over de present perfect?", [
+        ("je maakt hem met have of has plus het voltooid deelwoord", J),
+        ("je gebruikt hem met een afgesloten tijdstip zoals last year", F),
+        ("hij kan een gevolg tonen dat nu nog geldt", J),
+    ], "Bij een afgesloten tijdstip gebruik je de past simple."),
+    open_("Leg in het Nederlands uit waarom je zegt « I have been studying all day » en niet « I study all day » als je moe bent van het leren.",
+          "De present perfect continuous toont dat het leren al de hele dag bezig is tot nu, en dat je moe bent als gevolg. De present simple drukt een gewoonte uit, niet iets dat tot nu duurt."),
+]
