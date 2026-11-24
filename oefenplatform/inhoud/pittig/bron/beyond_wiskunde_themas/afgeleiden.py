@@ -91,7 +91,7 @@ VRAGEN = [
         r"\(2^{x}\) is geen macht van x: \(x\,2^{x - 1}\) is een veelgemaakte fout.",
     ),
     tabel(
-        "Juist of fout?",
+        "Over afgeleiden: juist of fout?",
         [(r"Als \(f'(a) = 0\), heeft f een extremum in a.", F), (r"\(f(x) = x^{3}\) heeft een buigpunt in 0.", J), (r"\(f(x) = |x|\) is afleidbaar in 0.", F), (r"Als f stijgt en \(f'' < 0\), stijgt f steeds trager.", J), (r"De afgeleide van \(e^{2x}\) is \(e^{2x}\).", F)],
         r"Bij \(x^{3}\) is \(f'(0) = 0\) maar er is geen extremum. \(|x|\) heeft een knik. \((e^{2x})' = 2e^{2x}\).",
         kolommen=["Juist", "Fout"],

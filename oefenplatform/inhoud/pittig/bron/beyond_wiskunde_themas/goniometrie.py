@@ -54,7 +54,7 @@ VRAGEN = [
         kolommen=[r"\(\tfrac{3\pi}{4}\)", r"\(150^\circ\)", r"\(\tfrac{7\pi}{6}\)", r"\(15^\circ\)"],
     ),
     tabel(
-        "Juist of fout?",
+        "Over goniometrie: juist of fout?",
         [(r"\(\sin 150^\circ = \sin 30^\circ\)", J), (r"\(\cos 120^\circ = \cos 60^\circ\)", F), (r"\(\sin(-45^\circ) = -\sin 45^\circ\)", J), (r"\(\cos(-60^\circ) = -\tfrac{1}{2}\)", F), (r"\(\tan 225^\circ = 1\)", J)],
         r"Supplementaire hoeken: zelfde sinus, tegengestelde cosinus. Tegengestelde hoeken: zelfde cosinus. \(\tan\) heeft periode \(180^\circ\).",
         kolommen=["Juist", "Fout"],
@@ -149,7 +149,7 @@ VRAGEN = [
         kolommen=["I", "II", "III", "IV"],
     ),
     volgorde(
-        "Zet van klein naar groot.",
+        "Zet de goniometrische waarden van klein naar groot.",
         [r"\(\cos\pi\)", r"\(\sin\tfrac{5\pi}{4}\)", r"\(\cos\tfrac{\pi}{2}\)", r"\(\sin\tfrac{\pi}{6}\)", r"\(\tan\tfrac{\pi}{3}\)"],
         r"\(-1\), \(-\tfrac{\sqrt{2}}{2}\), \(0\), \(\tfrac{1}{2}\), \(\sqrt{3}\).",
     ),

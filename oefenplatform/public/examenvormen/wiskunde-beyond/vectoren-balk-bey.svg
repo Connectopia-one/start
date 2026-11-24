@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#fffdf7"/>
+<line x1="430.0" y1="420.0" x2="122.0" y2="632.8" stroke="#9a9a9a" stroke-width="2"/>
+<text x="108.0" y="638.8" font-size="24" text-anchor="middle" fill="#7a7a6a" font-weight="bold">x</text>
+<line x1="430.0" y1="420.0" x2="980.0" y2="420.0" stroke="#9a9a9a" stroke-width="2"/>
+<text x="994.0" y="426.0" font-size="24" text-anchor="middle" fill="#7a7a6a" font-weight="bold">y</text>
+<line x1="430.0" y1="420.0" x2="430.0" y2="96.0" stroke="#9a9a9a" stroke-width="2"/>
+<text x="444.0" y="88.0" font-size="24" text-anchor="middle" fill="#7a7a6a" font-weight="bold">z</text>
+<line x1="430.0" y1="420.0" x2="210.0" y2="572.0" stroke="#2f4a22" stroke-width="3" stroke-dasharray="10 8"/>
+<line x1="210.0" y1="572.0" x2="585.0" y2="572.0" stroke="#2f4a22" stroke-width="3"/>
+<line x1="585.0" y1="572.0" x2="805.0" y2="420.0" stroke="#2f4a22" stroke-width="3"/>
+<line x1="805.0" y1="420.0" x2="430.0" y2="420.0" stroke="#2f4a22" stroke-width="3" stroke-dasharray="10 8"/>
+<line x1="430.0" y1="180.0" x2="210.0" y2="332.0" stroke="#2f4a22" stroke-width="3"/>
+<line x1="210.0" y1="332.0" x2="585.0" y2="332.0" stroke="#2f4a22" stroke-width="3"/>
+<line x1="585.0" y1="332.0" x2="805.0" y2="180.0" stroke="#2f4a22" stroke-width="3"/>
+<line x1="805.0" y1="180.0" x2="430.0" y2="180.0" stroke="#2f4a22" stroke-width="3"/>
+<line x1="430.0" y1="420.0" x2="430.0" y2="180.0" stroke="#2f4a22" stroke-width="3" stroke-dasharray="10 8"/>
+<line x1="210.0" y1="572.0" x2="210.0" y2="332.0" stroke="#2f4a22" stroke-width="3"/>
+<line x1="585.0" y1="572.0" x2="585.0" y2="332.0" stroke="#2f4a22" stroke-width="3"/>
+<line x1="805.0" y1="420.0" x2="805.0" y2="180.0" stroke="#2f4a22" stroke-width="3"/>
+<circle cx="430.0" cy="420.0" r="7" fill="#24331b"/>
+<text x="406.0" y="410.0" font-size="26" text-anchor="middle" fill="#24331b" font-weight="bold">O</text>
+<circle cx="210.0" cy="572.0" r="7" fill="#24331b"/>
+<text x="184.0" y="594.0" font-size="26" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<circle cx="585.0" cy="572.0" r="7" fill="#24331b"/>
+<text x="601.0" y="598.0" font-size="26" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<circle cx="805.0" cy="420.0" r="7" fill="#24331b"/>
+<text x="825.0" y="442.0" font-size="26" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<circle cx="430.0" cy="180.0" r="7" fill="#24331b"/>
+<text x="404.0" y="172.0" font-size="26" text-anchor="middle" fill="#24331b" font-weight="bold">D</text>
+<circle cx="210.0" cy="332.0" r="7" fill="#24331b"/>
+<text x="184.0" y="326.0" font-size="26" text-anchor="middle" fill="#24331b" font-weight="bold">E</text>
+<circle cx="585.0" cy="332.0" r="7" fill="#24331b"/>
+<text x="611.0" y="362.0" font-size="26" text-anchor="middle" fill="#24331b" font-weight="bold">F</text>
+<circle cx="805.0" cy="180.0" r="7" fill="#24331b"/>
+<text x="821.0" y="168.0" font-size="26" text-anchor="middle" fill="#24331b" font-weight="bold">G</text>
+<text x="500.0" y="30.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">Een balk van 4 bij 3 bij 2 in een orthonormaal assenstelsel</text>
+</svg>

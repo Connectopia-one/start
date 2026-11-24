@@ -73,7 +73,7 @@ VRAGEN = [
         r"De afgeleide van \(\cos x\) is \(-\sin x\), dus \(\int \sin x\,dx = -\cos x + C\).",
     ),
     tabel(
-        "Juist of fout?",
+        "Over rekenregels voor integralen: juist of fout?",
         [(r"\(\int f(x)g(x)\,dx = \int f(x)\,dx \cdot \int g(x)\,dx\)", F), (r"\(\int (f + g)\,dx = \int f\,dx + \int g\,dx\)", J), (r"\(\int \dfrac{1}{x^{2}}\,dx = \ln x^{2} + C\)", F), (r"Twee primitieven van dezelfde functie verschillen een constante.", J), (r"\(\int 0\,dx = C\)", J)],
         r"Er is geen productregel voor integralen. \(\int x^{-2}\,dx = -\tfrac{1}{x} + C\).",
         kolommen=["Juist", "Fout"],

@@ -79,7 +79,7 @@ VRAGEN = [
         ],
     ),
     tabel(
-        "Juist of fout?",
+        "Over eigenschappen van de bepaalde integraal: juist of fout?",
         [(r"\(\int_{a}^{b}f(x)\,dx + \int_{b}^{c}f(x)\,dx = \int_{a}^{c}f(x)\,dx\)", J), (r"\(\int_{a}^{b}k\,f(x)\,dx = k\int_{a}^{b}f(x)\,dx\)", J), (r"\(\int_{a}^{b}f(x)^{2}\,dx = \left(\int_{a}^{b}f(x)\,dx\right)^{2}\)", F), (r"\(\int_{-a}^{a}x^{5}\,dx = 0\)", J), (r"\(\int_{a}^{b}f(x)\,dx \geq 0\) zodra \(b > a\)", F)],
         r"Kwadrateren en integreren mag je niet van plaats wisselen. Of de integraal positief is, hangt ook van het teken van \(f\) af.",
         kolommen=["Juist", "Fout"],

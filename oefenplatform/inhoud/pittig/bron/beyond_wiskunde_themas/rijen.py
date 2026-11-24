@@ -80,7 +80,7 @@ VRAGEN = [
         ],
     ),
     tabel(
-        "Bereken de limiet.",
+        "Bereken de limiet van de rij.",
         [(r"\(\lim\dfrac{5n^{2} - 1}{2n^{2} + n}\)", r"\(\tfrac{5}{2}\)"), (r"\(\lim\left(\tfrac{2}{3}\right)^{n}\)", r"\(0\)"), (r"\(\lim\dfrac{n}{n^{2} + 1}\)", r"\(0\)"), (r"\(\lim\dfrac{3^{n}}{3^{n} + 1}\)", r"\(1\)")],
         "Deel door de snelst groeiende term.",
         kolommen=[r"\(\tfrac{5}{2}\)", r"\(0\)", r"\(1\)"],
@@ -113,7 +113,7 @@ VRAGEN = [
         r"Jaarloon 24 000, meetkundig met \(q = 1{,}02\): \(24\,000 \cdot \dfrac{1{,}02^{10} - 1}{0{,}02} \approx 262\,793\).",
     ),
     tabel(
-        "Juist of fout?",
+        "Over rijen: juist of fout?",
         [("Elke stijgende rij is divergent.", F), ("Een rekenkundige rij met d ≠ 0 divergeert.", J), ("Als de som van een reeks bestaat, gaan de termen naar 0.", J), ("Als de termen naar 0 gaan, bestaat de som van de reeks altijd.", F)],
         r"\(1 - \tfrac{1}{n}\) stijgt en convergeert. De harmonische reeks \(1 + \tfrac{1}{2} + \tfrac{1}{3} + \ldots\) heeft termen die naar 0 gaan, maar geen eindige som.",
         kolommen=["Juist", "Fout"],
@@ -129,7 +129,7 @@ VRAGEN = [
         r"\(n > \dfrac{\ln 0{,}01}{\ln 0{,}8} \approx 20{,}6\).",
     ),
     volgorde(
-        "Zet van klein naar groot.",
+        "Zet de termen van klein naar groot.",
         [r"\(\lim\left(1 - \tfrac{1}{n}\right)\)", r"\(\sum_{k=0}^{\infty}\left(\tfrac{1}{3}\right)^{k}\)", r"\(\sum_{k=0}^{\infty}\left(\tfrac{1}{2}\right)^{k}\)", r"\(\lim\dfrac{3n}{n + 1}\)"],
         r"\(1\), \(\tfrac{3}{2}\), \(2\), \(3\).",
     ),

@@ -30,13 +30,13 @@ VRAGEN = [
         r"\(f(0) = \tfrac{-1}{-2} = \tfrac{1}{2}\).",
     ),
     klik(
-        "Klik op de grootste nulwaarde van f.",
+        "Klik op de grootste nulwaarde van de rationale functie f.",
         f"{GRAF}.svg",
         [punt_zone(GRAF, 1, 0)],
         r"\(x^{2} - 1 = 0\) geeft \(x = \pm 1\). Beide liggen links van de asymptoot.",
     ),
     met_prent(f"{GRAF}.svg", tabel(
-        "Kijk naar de grafiek. Juist of fout?",
+        "Kijk naar de grafiek van de rationale functie. Juist of fout?",
         [(r"\(\lim\limits_{x \to 2^{+}} f(x) = +\infty\)", J), (r"\(\lim\limits_{x \to 2^{-}} f(x) = +\infty\)", F), ("De grijze rechte y = x + 2 is een schuine asymptoot.", J), ("f heeft een horizontale asymptoot.", F), ("f is continu in x = 2.", F)],
         r"Links van 2 is de noemer negatief en de teller positief: \(-\infty\). Een schuine asymptoot sluit een horizontale aan dezelfde kant uit.",
         kolommen=["Juist", "Fout"],
@@ -48,7 +48,7 @@ VRAGEN = [
         r"\(x^{2} - 1 = (x - 2)(x + 2) + 3\), dus \(f(x) = x + 2 + \tfrac{3}{x - 2}\). De breuk gaat naar 0 op oneindig.",
     )),
     tabel(
-        "Bereken de limiet.",
+        "Bereken de limiet van de functie.",
         [(r"\(\lim\limits_{x \to 3}\dfrac{x^{2} - 9}{x - 3}\)", r"\(6\)"), (r"\(\lim\limits_{x \to +\infty}\dfrac{5x^{3} - x}{2x^{3} + 4}\)", r"\(\tfrac{5}{2}\)"), (r"\(\lim\limits_{x \to +\infty}\dfrac{x + 1}{x^{2}}\)", r"\(0\)"), (r"\(\lim\limits_{x \to 0}\dfrac{\sin x}{x}\)", r"\(1\)")],
         "Ontbinden bij 0/0, hoogste machten op oneindig, en de standaardlimiet van sin x / x.",
         kolommen=[r"\(6\)", r"\(\tfrac{5}{2}\)", r"\(0\)", r"\(1\)"],
@@ -98,7 +98,7 @@ VRAGEN = [
         ],
     ),
     tabel(
-        "Juist of fout?",
+        "Over limieten en asymptoten: juist of fout?",
         [("Een functie kan haar horizontale asymptoot snijden.", J), ("Een functie kan haar verticale asymptoot snijden.", F), ("Elke rationale functie heeft een verticale asymptoot.", F), ("Een continue functie op [a, b] die van teken wisselt, heeft een nulwaarde in ]a, b[.", J), ("Elke afleidbare functie is continu.", J)],
         r"Bij een verticale asymptoot bestaat \(f\) niet. \(\tfrac{1}{x^{2} + 1}\) heeft geen pool. De laatste twee zijn stellingen uit de leerstof.",
         kolommen=["Juist", "Fout"],

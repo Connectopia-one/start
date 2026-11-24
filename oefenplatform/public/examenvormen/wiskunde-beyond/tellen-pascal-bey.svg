@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#fffdf7"/>
+<text x="60.0" y="87.0" font-size="20" text-anchor="start" fill="#7a7a6a">n = 0</text>
+<text x="500.0" y="89.0" font-size="28" text-anchor="middle" fill="#24331b" font-weight="bold">1</text>
+<text x="60.0" y="169.0" font-size="20" text-anchor="start" fill="#7a7a6a">n = 1</text>
+<text x="440.0" y="171.0" font-size="28" text-anchor="middle" fill="#24331b" font-weight="bold">1</text>
+<text x="560.0" y="171.0" font-size="28" text-anchor="middle" fill="#24331b" font-weight="bold">1</text>
+<text x="60.0" y="251.0" font-size="20" text-anchor="start" fill="#7a7a6a">n = 2</text>
+<text x="380.0" y="253.0" font-size="28" text-anchor="middle" fill="#24331b" font-weight="bold">1</text>
+<text x="500.0" y="253.0" font-size="28" text-anchor="middle" fill="#24331b" font-weight="bold">2</text>
+<text x="620.0" y="253.0" font-size="28" text-anchor="middle" fill="#24331b" font-weight="bold">1</text>
+<text x="60.0" y="333.0" font-size="20" text-anchor="start" fill="#7a7a6a">n = 3</text>
+<text x="320.0" y="335.0" font-size="28" text-anchor="middle" fill="#24331b" font-weight="bold">1</text>
+<text x="440.0" y="335.0" font-size="28" text-anchor="middle" fill="#24331b" font-weight="bold">3</text>
+<text x="560.0" y="335.0" font-size="28" text-anchor="middle" fill="#24331b" font-weight="bold">3</text>
+<text x="680.0" y="335.0" font-size="28" text-anchor="middle" fill="#24331b" font-weight="bold">1</text>
+<text x="60.0" y="415.0" font-size="20" text-anchor="start" fill="#7a7a6a">n = 4</text>
+<text x="260.0" y="417.0" font-size="28" text-anchor="middle" fill="#24331b" font-weight="bold">1</text>
+<text x="380.0" y="417.0" font-size="28" text-anchor="middle" fill="#24331b" font-weight="bold">4</text>
+<text x="500.0" y="417.0" font-size="28" text-anchor="middle" fill="#24331b" font-weight="bold">6</text>
+<text x="620.0" y="417.0" font-size="28" text-anchor="middle" fill="#24331b" font-weight="bold">4</text>
+<text x="740.0" y="417.0" font-size="28" text-anchor="middle" fill="#24331b" font-weight="bold">1</text>
+<text x="60.0" y="497.0" font-size="20" text-anchor="start" fill="#7a7a6a">n = 5</text>
+<text x="200.0" y="499.0" font-size="28" text-anchor="middle" fill="#24331b" font-weight="bold">1</text>
+<text x="320.0" y="499.0" font-size="28" text-anchor="middle" fill="#24331b" font-weight="bold">5</text>
+<text x="440.0" y="499.0" font-size="28" text-anchor="middle" fill="#24331b" font-weight="bold">10</text>
+<text x="560.0" y="499.0" font-size="28" text-anchor="middle" fill="#24331b" font-weight="bold">10</text>
+<text x="680.0" y="499.0" font-size="28" text-anchor="middle" fill="#24331b" font-weight="bold">5</text>
+<text x="800.0" y="499.0" font-size="28" text-anchor="middle" fill="#24331b" font-weight="bold">1</text>
+<text x="60.0" y="579.0" font-size="20" text-anchor="start" fill="#7a7a6a">n = 6</text>
+<text x="140.0" y="581.0" font-size="28" text-anchor="middle" fill="#24331b" font-weight="bold">1</text>
+<text x="260.0" y="581.0" font-size="28" text-anchor="middle" fill="#24331b" font-weight="bold">6</text>
+<text x="380.0" y="581.0" font-size="28" text-anchor="middle" fill="#24331b" font-weight="bold">15</text>
+<text x="500.0" y="581.0" font-size="28" text-anchor="middle" fill="#24331b" font-weight="bold">20</text>
+<text x="620.0" y="581.0" font-size="28" text-anchor="middle" fill="#24331b" font-weight="bold">15</text>
+<text x="740.0" y="581.0" font-size="28" text-anchor="middle" fill="#24331b" font-weight="bold">6</text>
+<text x="860.0" y="581.0" font-size="28" text-anchor="middle" fill="#24331b" font-weight="bold">1</text>
+<text x="500.0" y="30.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">De driehoek van Pascal, rij 0 tot rij 6</text>
+</svg>

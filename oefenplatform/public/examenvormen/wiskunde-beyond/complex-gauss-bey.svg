@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<defs><clipPath id="venster"><rect x="70" y="30" width="900" height="580"/></clipPath></defs>
+<rect width="1000" height="640" fill="#fffdf7"/>
+<line x1="70.0" y1="30" x2="70.0" y2="610" stroke="#e7e2d2" stroke-width="1"/>
+<line x1="182.5" y1="30" x2="182.5" y2="610" stroke="#e7e2d2" stroke-width="1"/>
+<line x1="295.0" y1="30" x2="295.0" y2="610" stroke="#e7e2d2" stroke-width="1"/>
+<line x1="407.5" y1="30" x2="407.5" y2="610" stroke="#e7e2d2" stroke-width="1"/>
+<line x1="520.0" y1="30" x2="520.0" y2="610" stroke="#e7e2d2" stroke-width="1"/>
+<line x1="632.5" y1="30" x2="632.5" y2="610" stroke="#e7e2d2" stroke-width="1"/>
+<line x1="745.0" y1="30" x2="745.0" y2="610" stroke="#e7e2d2" stroke-width="1"/>
+<line x1="857.5" y1="30" x2="857.5" y2="610" stroke="#e7e2d2" stroke-width="1"/>
+<line x1="970.0" y1="30" x2="970.0" y2="610" stroke="#e7e2d2" stroke-width="1"/>
+<line x1="70" y1="610.0" x2="970" y2="610.0" stroke="#e7e2d2" stroke-width="1"/>
+<line x1="70" y1="537.5" x2="970" y2="537.5" stroke="#e7e2d2" stroke-width="1"/>
+<line x1="70" y1="465.0" x2="970" y2="465.0" stroke="#e7e2d2" stroke-width="1"/>
+<line x1="70" y1="392.5" x2="970" y2="392.5" stroke="#e7e2d2" stroke-width="1"/>
+<line x1="70" y1="320.0" x2="970" y2="320.0" stroke="#e7e2d2" stroke-width="1"/>
+<line x1="70" y1="247.5" x2="970" y2="247.5" stroke="#e7e2d2" stroke-width="1"/>
+<line x1="70" y1="175.0" x2="970" y2="175.0" stroke="#e7e2d2" stroke-width="1"/>
+<line x1="70" y1="102.5" x2="970" y2="102.5" stroke="#e7e2d2" stroke-width="1"/>
+<line x1="70" y1="30.0" x2="970" y2="30.0" stroke="#e7e2d2" stroke-width="1"/>
+<line x1="70" y1="320.0" x2="970" y2="320.0" stroke="#24331b" stroke-width="2.5"/>
+<line x1="520.0" y1="30" x2="520.0" y2="610" stroke="#24331b" stroke-width="2.5"/>
+<polygon points="970,320.0 958,314.0 958,326.0" fill="#24331b"/>
+<polygon points="520.0,30 514.0,42 526.0,42" fill="#24331b"/>
+<text x="966.0" y="310.0" font-size="18" text-anchor="end" fill="#24331b" font-weight="bold">Re</text>
+<text x="530.0" y="46.0" font-size="18" text-anchor="start" fill="#24331b" font-weight="bold">Im</text>
+<line x1="182.5" y1="315.0" x2="182.5" y2="325.0" stroke="#24331b" stroke-width="2"/>
+<text x="182.5" y="344.0" font-size="16" text-anchor="middle" fill="#24331b">−3</text>
+<line x1="295.0" y1="315.0" x2="295.0" y2="325.0" stroke="#24331b" stroke-width="2"/>
+<text x="295.0" y="344.0" font-size="16" text-anchor="middle" fill="#24331b">−2</text>
+<line x1="407.5" y1="315.0" x2="407.5" y2="325.0" stroke="#24331b" stroke-width="2"/>
+<text x="407.5" y="344.0" font-size="16" text-anchor="middle" fill="#24331b">−1</text>
+<line x1="632.5" y1="315.0" x2="632.5" y2="325.0" stroke="#24331b" stroke-width="2"/>
+<text x="632.5" y="344.0" font-size="16" text-anchor="middle" fill="#24331b">1</text>
+<line x1="745.0" y1="315.0" x2="745.0" y2="325.0" stroke="#24331b" stroke-width="2"/>
+<text x="745.0" y="344.0" font-size="16" text-anchor="middle" fill="#24331b">2</text>
+<line x1="857.5" y1="315.0" x2="857.5" y2="325.0" stroke="#24331b" stroke-width="2"/>
+<text x="857.5" y="344.0" font-size="16" text-anchor="middle" fill="#24331b">3</text>
+<line x1="515.0" y1="537.5" x2="525.0" y2="537.5" stroke="#24331b" stroke-width="2"/>
+<text x="510.0" y="543.5" font-size="16" text-anchor="end" fill="#24331b">−3</text>
+<line x1="515.0" y1="465.0" x2="525.0" y2="465.0" stroke="#24331b" stroke-width="2"/>
+<text x="510.0" y="471.0" font-size="16" text-anchor="end" fill="#24331b">−2</text>
+<line x1="515.0" y1="392.5" x2="525.0" y2="392.5" stroke="#24331b" stroke-width="2"/>
+<text x="510.0" y="398.5" font-size="16" text-anchor="end" fill="#24331b">−1</text>
+<line x1="515.0" y1="247.5" x2="525.0" y2="247.5" stroke="#24331b" stroke-width="2"/>
+<text x="510.0" y="253.5" font-size="16" text-anchor="end" fill="#24331b">1</text>
+<line x1="515.0" y1="175.0" x2="525.0" y2="175.0" stroke="#24331b" stroke-width="2"/>
+<text x="510.0" y="181.0" font-size="16" text-anchor="end" fill="#24331b">2</text>
+<line x1="515.0" y1="102.5" x2="525.0" y2="102.5" stroke="#24331b" stroke-width="2"/>
+<text x="510.0" y="108.5" font-size="16" text-anchor="end" fill="#24331b">3</text>
+<text x="510.0" y="342.0" font-size="16" text-anchor="end" fill="#24331b">0</text>
+<circle cx="857.5" cy="175.0" r="7" fill="#24331b"/>
+<text x="869.5" y="163.0" font-size="18" text-anchor="start" fill="#24331b" font-weight="bold">z</text>
+<text x="500.0" y="22.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">Het vlak van Gauss met het getal z = 3 + 2i</text>
+</svg>

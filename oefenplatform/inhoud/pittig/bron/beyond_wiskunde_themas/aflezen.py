@@ -140,7 +140,7 @@ VRAGEN = [
         r"\(x^{3} + 1 = 28\) geeft \(x = 3\).",
     ),
     tabel(
-        "Juist of fout?",
+        "Over het aflezen van grafieken: juist of fout?",
         [("Een even functie is nooit inverteerbaar op een domein dat een getal én zijn tegengestelde bevat.", J),
          ("Een oneven functie gaat door de oorsprong als 0 in het domein zit.", J),
          ("Elke strikt dalende functie is inverteerbaar.", J),

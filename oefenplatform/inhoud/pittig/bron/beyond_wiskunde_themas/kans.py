@@ -138,7 +138,7 @@ VRAGEN = [
         r"Uitsluitend betekent: als A gebeurt, kan B niet meer. Dan verandert B wel degelijk.",
     ),
     tabel(
-        "Juist of fout?",
+        "Over voorwaardelijke kansen en verwachting: juist of fout?",
         [(r"\(P(A \mid B) = P(B \mid A)\) geldt altijd.", F), (r"Als \(A\) en \(B\) onafhankelijk zijn, dan is \(P(A \mid B) = P(A)\).", J), (r"\(E(X)\) kan een getal zijn dat \(X\) nooit aanneemt.", J), (r"\(P(\overline{A} \cap \overline{B}) = 1 - P(A \cup B)\)", J)],
         r"Bij een eerlijke dobbelsteen is \(E(X) = 3{,}5\), en dat gooi je nooit.",
         kolommen=["Juist", "Fout"],

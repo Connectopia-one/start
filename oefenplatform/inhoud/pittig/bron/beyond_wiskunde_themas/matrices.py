@@ -7,13 +7,13 @@ _M = [[2, -1, 0, 5], [4, 3, 7, -2], [1, 6, -3, 8]]
 
 
 def _plek(i, j):
-    return 340 + j * 130, 200 + i * 110
+    return 330 + j * 130, 200 + i * 110
 
 
 def _matrix():
-    d = [s_tekst(170, 322, "M =", 40, vet=True)]
+    d = [s_tekst(160, 322, "M =", 40, vet=True)]
     # haken
-    for x, r in ((265, 1), (735, -1)):
+    for x, r in ((250, 1), (800, -1)):
         d.append(s_lijn(x, 130, x, 490, kleur=DONKER, dikte=4))
         d.append(s_lijn(x, 130, x + 22 * r, 130, kleur=DONKER, dikte=4))
         d.append(s_lijn(x, 490, x + 22 * r, 490, kleur=DONKER, dikte=4))
@@ -147,7 +147,7 @@ VRAGEN = [
         r"Bij een bovendriehoeksmatrix is de determinant het product van de diagonaal: \(3 \cdot 2 \cdot 4\).",
     ),
     tabel(
-        "Juist of fout?",
+        "Over rijoperaties en determinanten: juist of fout?",
         [(r"Twee rijen van plaats wisselen verandert het teken van de determinant.", J), (r"Een veelvoud van een rij bij een andere optellen verandert de determinant niet.", J), (r"Een rij met 3 vermenigvuldigen maakt de determinant 3 keer zo groot.", J), (r"Een matrix met een rij nullen kan determinant 1 hebben.", F)],
         "Ontwikkel naar de rij met nullen: dan is de determinant 0.",
         kolommen=["Juist", "Fout"],

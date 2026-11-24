@@ -35,7 +35,7 @@ VRAGEN = [
         "200 mg is een kwart van 800: na twee halveringen, dus na 6 uur. Daarvoor is er meer.",
     ),
     met_prent(f"{GRAF}.svg", tabel(
-        "Kijk naar de grafiek. Juist of fout?",
+        "Kijk naar de grafiek van de exponentiële functie. Juist of fout?",
         [("Elk uur verdwijnt evenveel mg.", F), ("De grafiek heeft de horizontale asymptoot y = 0.", J), ("Na 15 uur is er 25 mg over.", J), ("De groeifactor per uur is 0,5.", F)],
         r"Per 3 uur is de factor \(0{,}5\), per uur \(0{,}5^{1/3} \approx 0{,}79\). Na 15 uur: \(800 \cdot 0{,}5^{5} = 25\).",
         kolommen=["Juist", "Fout"],
@@ -70,7 +70,7 @@ VRAGEN = [
         "Een exponentiële functie heeft een horizontale, een logaritmische een verticale asymptoot.",
     ),
     tabel(
-        "Juist of fout?",
+        "Over exponentiële en logaritmische functies: juist of fout?",
         [(r"De grafiek van \(\left(\tfrac{1}{3}\right)^{x}\) is het spiegelbeeld van \(3^{x}\) om de y-as.", J),
          (r"\(\log_{1/2}x\) is stijgend.", F),
          (r"\(e^{x}\) en \(\ln x\) snijden elkaar.", F),

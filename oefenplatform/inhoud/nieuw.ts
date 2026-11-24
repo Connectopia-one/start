@@ -70,6 +70,12 @@ export const updates: Update[] = [
   },
   {
     datum: "24 november 2026",
+    titel: "Pittige hoofdstukken wiskunde gevorderd in Beyond",
+    tekst:
+      "Wiskunde in Beyond doorstroom heeft nu bij elk van de 22 onderwerpen een pittig hoofdstuk van 30 vragen, in examenvorm: van logaritmen en afgeleiden tot integralen, complexe getallen, matrices, groepen, vectoren in de ruimte en Python. Met zelfgetekende prenten zoals grafieken, een kansboom, de driehoek van Pascal, een kubus en een stukje code waarop je moet klikken.",
+  },
+  {
+    datum: "24 november 2026",
     titel: "Pittige hoofdstukken wiskunde in Boost doorstroom",
     tekst:
       "Wiskunde in Boost doorstroom heeft nu bij elk van de 14 onderwerpen een pittig hoofdstuk van 30 vragen, in examenvorm: van intervallen en Pythagoras tot vectoren, parabolen en misleidende grafieken. Met zelfgetekende prenten zoals een balk, een boxplot en puntenwolken waarop je moet klikken.",

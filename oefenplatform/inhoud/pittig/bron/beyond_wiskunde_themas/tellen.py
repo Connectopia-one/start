@@ -109,7 +109,7 @@ VRAGEN = [
         r"Kies welke 3 van de 7 stappen naar boven gaan: \(\binom{7}{3}\).",
     ),
     tabel(
-        "Juist of fout?",
+        "Over binomiaalcoëfficiënten: juist of fout?",
         [(r"\(\binom{6}{2} + \binom{6}{3} = \binom{7}{3}\)", J), (r"\(\binom{10}{7} = \binom{10}{3}\)", J), (r"\(\binom{n}{2} = \dfrac{n(n - 1)}{2}\)", J), (r"\((a - b)^{4}\) heeft 5 termen die allemaal positief zijn.", F), (r"\(\binom{8}{4} = 2 \cdot \binom{4}{2}\)", F)],
         r"Bij \((a - b)^{n}\) wisselen de tekens. \(\binom{8}{4} = 70\).",
         kolommen=["Juist", "Fout"],

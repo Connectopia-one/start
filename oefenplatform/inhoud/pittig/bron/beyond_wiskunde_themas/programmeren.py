@@ -133,7 +133,7 @@ VRAGEN = [
         "Eerst denken, dan typen.",
     ),
     tabel(
-        "Juist of fout?",
+        "Over Python: juist of fout?",
         [(r"\(\texttt{3 > 2 and 1 > 2}\) is \(\texttt{True}\).", F), (r"\(\texttt{range(5)}\) loopt van 0 tot en met 4.", J), (r"\(\texttt{x = x + 1}\) is in Python een vergelijking zonder oplossing.", F), (r"Een functie zonder \(\texttt{return}\) geeft \(\texttt{None}\) terug.", J)],
         r"\(\texttt{=}\) is een toekenning, geen gelijkheid. \(\texttt{and}\) vraagt dat beide delen waar zijn.",
         kolommen=["Juist", "Fout"],

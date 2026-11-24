@@ -129,7 +129,7 @@ VRAGEN = [
         "Kwadraatafsplitsen: tel de helft van de coëfficiënt van x in het kwadraat op en trek het weer af.",
     ),
     tabel(
-        "Juist of fout?",
+        "Over tweedegraadsfuncties: juist of fout?",
         [("Elke parabool heeft precies één top.", J), ("Een parabool met a < 0 heeft een minimum.", F), ("Twee parabolen met dezelfde top zijn gelijk.", F), ("Een parabool snijdt de y-as precies één keer.", J)],
         r"Met dezelfde top kan \(a\) nog verschillen. Elke parabool \(y = ax^{2} + bx + c\) snijdt de y-as in \((0, c)\).",
         kolommen=["Juist", "Fout"],

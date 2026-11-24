@@ -69,7 +69,7 @@ VRAGEN = [
         r"130 ligt \(2\sigma\) boven \(\mu\).",
     ),
     tabel(
-        "Juist of fout?",
+        "Over de normale verdeling: juist of fout?",
         [(r"Bij \(N(\mu, \sigma^{2})\) is \(P(X \leq \mu) = 0{,}5\).", J), (r"Bij een normale verdeling is \(P(X = \mu)\) de grootste kans.", F), (r"\(P(X < a) = P(X \leq a)\) bij een continue verdeling.", J), (r"Een grotere \(\sigma\) maakt de klok hoger.", F)],
         r"Een afzonderlijke waarde heeft kans 0; een grotere \(\sigma\) maakt de klok breder en lager.",
         kolommen=["Juist", "Fout"],

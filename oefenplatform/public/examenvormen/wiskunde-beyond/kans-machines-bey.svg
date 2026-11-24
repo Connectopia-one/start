@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#fffdf7"/>
+<circle cx="90" cy="320" r="9" fill="#2f4a22"/>
+<line x1="99.0" y1="320.0" x2="275.0" y2="170.0" stroke="#2f4a22" stroke-width="3"/>
+<text x="179.0" y="231.0" font-size="20" text-anchor="middle" fill="#7a4b8c" font-weight="bold">0,6</text>
+<line x1="385.0" y1="170.0" x2="665.0" y2="90.0" stroke="#2f4a22" stroke-width="3"/>
+<text x="517.0" y="116.0" font-size="20" text-anchor="middle" fill="#7a4b8c" font-weight="bold">0,05</text>
+<line x1="385.0" y1="170.0" x2="665.0" y2="250.0" stroke="#2f4a22" stroke-width="3"/>
+<text x="517.0" y="240.0" font-size="20" text-anchor="middle" fill="#7a4b8c" font-weight="bold">0,95</text>
+<line x1="99.0" y1="320.0" x2="275.0" y2="470.0" stroke="#2f4a22" stroke-width="3"/>
+<text x="179.0" y="425.0" font-size="20" text-anchor="middle" fill="#7a4b8c" font-weight="bold">0,4</text>
+<line x1="385.0" y1="470.0" x2="665.0" y2="390.0" stroke="#2f4a22" stroke-width="3"/>
+<text x="517.0" y="416.0" font-size="20" text-anchor="middle" fill="#7a4b8c" font-weight="bold">0,10</text>
+<line x1="385.0" y1="470.0" x2="665.0" y2="550.0" stroke="#2f4a22" stroke-width="3"/>
+<text x="517.0" y="540.0" font-size="20" text-anchor="middle" fill="#7a4b8c" font-weight="bold">0,90</text>
+<rect x="275.0" y="148.0" width="110.0" height="44.0" rx="12" fill="#eef3e6" stroke="#2f4a22" stroke-width="2"/><text x="330.0" y="177.0" font-size="19" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<rect x="665.0" y="68.0" width="110.0" height="44.0" rx="12" fill="#eef3e6" stroke="#2f4a22" stroke-width="2"/><text x="720.0" y="97.0" font-size="19" text-anchor="middle" fill="#24331b" font-weight="bold">fout</text>
+<rect x="665.0" y="228.0" width="110.0" height="44.0" rx="12" fill="#eef3e6" stroke="#2f4a22" stroke-width="2"/><text x="720.0" y="257.0" font-size="19" text-anchor="middle" fill="#24331b" font-weight="bold">goed</text>
+<rect x="275.0" y="448.0" width="110.0" height="44.0" rx="12" fill="#eef3e6" stroke="#2f4a22" stroke-width="2"/><text x="330.0" y="477.0" font-size="19" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<rect x="665.0" y="368.0" width="110.0" height="44.0" rx="12" fill="#eef3e6" stroke="#2f4a22" stroke-width="2"/><text x="720.0" y="397.0" font-size="19" text-anchor="middle" fill="#24331b" font-weight="bold">fout</text>
+<rect x="665.0" y="528.0" width="110.0" height="44.0" rx="12" fill="#eef3e6" stroke="#2f4a22" stroke-width="2"/><text x="720.0" y="557.0" font-size="19" text-anchor="middle" fill="#24331b" font-weight="bold">goed</text>
+<text x="90.0" y="290.0" font-size="18" text-anchor="middle" fill="#7a7a6a">start</text>
+<text x="500.0" y="30.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">Kansboom: machine A of B, stuk goed of fout</text>
+</svg>

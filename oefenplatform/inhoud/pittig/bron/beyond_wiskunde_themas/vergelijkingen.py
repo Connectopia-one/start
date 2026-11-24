@@ -102,7 +102,7 @@ VRAGEN = [
         ],
     ),
     tabel(
-        "Juist of fout?",
+        "Over vergelijkingen en ongelijkheden: juist of fout?",
         [(r"\(x^{2} > x\) geldt voor elke \(x > 0\).", F),
          (r"Uit \(x^{2} > 4\) volgt \(x > 2\).", F),
          (r"\(x^{2} - 6x + 9 > 0\) geldt voor elke \(x \neq 3\).", J),

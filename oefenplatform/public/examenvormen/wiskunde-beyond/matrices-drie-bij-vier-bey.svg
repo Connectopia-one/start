@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#fffdf7"/>
+<text x="160.0" y="322.0" font-size="40" text-anchor="middle" fill="#24331b" font-weight="bold">M =</text>
+<line x1="250.0" y1="130.0" x2="250.0" y2="490.0" stroke="#24331b" stroke-width="4"/>
+<line x1="250.0" y1="130.0" x2="272.0" y2="130.0" stroke="#24331b" stroke-width="4"/>
+<line x1="250.0" y1="490.0" x2="272.0" y2="490.0" stroke="#24331b" stroke-width="4"/>
+<line x1="800.0" y1="130.0" x2="800.0" y2="490.0" stroke="#24331b" stroke-width="4"/>
+<line x1="800.0" y1="130.0" x2="778.0" y2="130.0" stroke="#24331b" stroke-width="4"/>
+<line x1="800.0" y1="490.0" x2="778.0" y2="490.0" stroke="#24331b" stroke-width="4"/>
+<text x="330.0" y="213.0" font-size="38" text-anchor="middle" fill="#24331b" font-weight="bold">2</text>
+<text x="460.0" y="213.0" font-size="38" text-anchor="middle" fill="#24331b" font-weight="bold">−1</text>
+<text x="590.0" y="213.0" font-size="38" text-anchor="middle" fill="#24331b" font-weight="bold">0</text>
+<text x="720.0" y="213.0" font-size="38" text-anchor="middle" fill="#24331b" font-weight="bold">5</text>
+<text x="330.0" y="323.0" font-size="38" text-anchor="middle" fill="#24331b" font-weight="bold">4</text>
+<text x="460.0" y="323.0" font-size="38" text-anchor="middle" fill="#24331b" font-weight="bold">3</text>
+<text x="590.0" y="323.0" font-size="38" text-anchor="middle" fill="#24331b" font-weight="bold">7</text>
+<text x="720.0" y="323.0" font-size="38" text-anchor="middle" fill="#24331b" font-weight="bold">−2</text>
+<text x="330.0" y="433.0" font-size="38" text-anchor="middle" fill="#24331b" font-weight="bold">1</text>
+<text x="460.0" y="433.0" font-size="38" text-anchor="middle" fill="#24331b" font-weight="bold">6</text>
+<text x="590.0" y="433.0" font-size="38" text-anchor="middle" fill="#24331b" font-weight="bold">−3</text>
+<text x="720.0" y="433.0" font-size="38" text-anchor="middle" fill="#24331b" font-weight="bold">8</text>
+<text x="500.0" y="30.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">Een matrix M met 3 rijen en 4 kolommen</text>
+</svg>

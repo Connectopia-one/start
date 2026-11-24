@@ -10,7 +10,7 @@ _VERBORGEN = {"OA", "CO", "OD"}
 
 def _xy(p):
     x, y, z = p
-    return 430 + y * 125 - x * 55, 400 - z * 120 + x * 42
+    return 430 + y * 125 - x * 55, 420 - z * 120 + x * 38
 
 
 def _plek(n):
@@ -20,7 +20,7 @@ def _plek(n):
 def _balk():
     d = []
     # assen
-    for eind, naam in (((5.6, 0, 0), "x"), ((0, 4.4, 0), "y"), ((0, 0, 3.0), "z")):
+    for eind, naam in (((5.6, 0, 0), "x"), ((0, 4.4, 0), "y"), ((0, 0, 2.7), "z")):
         x2, y2 = _xy(eind)
         d.append(s_lijn(*_xy((0, 0, 0)), x2, y2, kleur="#9a9a9a", dikte=2))
         d.append(s_tekst(x2 + (14 if naam != "x" else -14), y2 + (6 if naam != "z" else -8), naam, 24, kleur="#7a7a6a", vet=True))
@@ -29,7 +29,7 @@ def _balk():
         x2, y2 = _plek(r[1])
         streep = ' stroke-dasharray="10 8"' if r in _VERBORGEN else ""
         d.append(f'<line x1="{x1:.1f}" y1="{y1:.1f}" x2="{x2:.1f}" y2="{y2:.1f}" stroke="{GROEN}" stroke-width="3"{streep}/>')
-    verschuif = {"O": (-24, -10), "A": (-26, 22), "B": (16, 26), "C": (20, 22), "D": (-26, -8), "E": (-26, -6), "F": (20, -8), "G": (16, -12)}
+    verschuif = {"O": (-24, -10), "A": (-26, 22), "B": (16, 26), "C": (20, 22), "D": (-26, -8), "E": (-26, -6), "F": (26, 30), "G": (16, -12)}
     for n in _P:
         x, y = _plek(n)
         d.append(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="7" fill="{DONKER}"/>')

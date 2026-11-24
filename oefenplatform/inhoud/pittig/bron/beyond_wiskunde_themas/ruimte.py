@@ -10,7 +10,7 @@ _VERBORGEN = {"CD", "DA", "DH"}
 
 def _xy(p):
     x, y, z = p
-    return 290 + x * 170 + y * 85, 540 - z * 170 - y * 70
+    return 290 + x * 165 + y * 85, 585 - z * 165 - y * 70
 
 
 def _kubus():
@@ -118,7 +118,7 @@ VRAGEN = [
         "Vergelijk eerst de normaalvectoren, daarna de hele vergelijking.",
     ),
     tabel(
-        "Juist of fout?",
+        "Over rechten en vlakken: juist of fout?",
         [("Twee rechten die loodrecht op hetzelfde vlak staan, zijn evenwijdig.", J), ("Twee vlakken die loodrecht op hetzelfde vlak staan, zijn evenwijdig.", F), ("Twee kruisende rechten hebben afstand nul.", F), ("Door een punt buiten een vlak gaat precies één vlak evenwijdig met dat vlak.", J)],
         "Twee muren staan allebei loodrecht op de vloer en snijden elkaar toch in een hoek van de kamer.",
         kolommen=["Juist", "Fout"],

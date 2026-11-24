@@ -124,7 +124,7 @@ VRAGEN = [
         "Vrijheidsgraden = aantal onbekenden min de rang.",
     ),
     tabel(
-        "Juist of fout?",
+        "Over het aantal oplossingen van stelsels: juist of fout?",
         [(r"Een stelsel met 2 vergelijkingen en 3 onbekenden kan strijdig zijn.", J), (r"Een stelsel waarvan alle rechterleden 0 zijn, heeft altijd minstens één oplossing.", J), (r"Als \(\det A \neq 0\), heeft \(AX = B\) precies één oplossing.", J), (r"Een stelsel met 3 vergelijkingen en 2 onbekenden is altijd strijdig.", F)],
         r"Een homogeen stelsel heeft altijd de nuloplossing. Drie rechten door één punt geven drie vergelijkingen met één oplossing.",
         kolommen=["Juist", "Fout"],

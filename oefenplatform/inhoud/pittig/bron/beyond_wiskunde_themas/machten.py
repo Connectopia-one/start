@@ -111,7 +111,7 @@ VRAGEN = [
         r"\(x(x + 15) = 100\) geeft \(x^{2} + 15x - 100 = 0\): \(x = 5\) of \(x = -20\). Enkel \(5\) ligt in het domein.",
     ),
     tabel(
-        r"Juist of fout?",
+        "Over machten en logaritmen: juist of fout?",
         [(r"\(\ln(e^{3}) = 3\)", J), (r"\(e^{\ln 5} = 5\)", J), (r"\(\ln(-e) = -1\)", F), (r"\(\ln e^{2} = (\ln e)^{2}\)", F), (r"\(\log_{10}0{,}001 = -3\)", J)],
         r"\(\ln\) en \(e^{x}\) heffen elkaar op. \(\ln(-e)\) bestaat niet. \(\ln e^{2} = 2\), \((\ln e)^{2} = 1\).",
         kolommen=["Juist", "Fout"],

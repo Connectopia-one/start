@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#fffdf7"/>
+<line x1="230.0" y1="170.0" x2="230.0" y2="470.0" stroke="#2f4a22" stroke-width="4"/>
+<line x1="230.0" y1="170.0" x2="520.0" y2="320.0" stroke="#2f4a22" stroke-width="4"/>
+<line x1="230.0" y1="470.0" x2="520.0" y2="320.0" stroke="#2f4a22" stroke-width="4"/>
+<line x1="520.0" y1="320.0" x2="820.0" y2="320.0" stroke="#2f4a22" stroke-width="4"/>
+<circle cx="230" cy="170" r="44" fill="#eef3e6" stroke="#2f4a22" stroke-width="4"/>
+<text x="230.0" y="183.0" font-size="36" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<circle cx="230" cy="470" r="44" fill="#eef3e6" stroke="#2f4a22" stroke-width="4"/>
+<text x="230.0" y="483.0" font-size="36" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<circle cx="520" cy="320" r="44" fill="#eef3e6" stroke="#2f4a22" stroke-width="4"/>
+<text x="520.0" y="333.0" font-size="36" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<circle cx="820" cy="320" r="44" fill="#eef3e6" stroke="#2f4a22" stroke-width="4"/>
+<text x="820.0" y="333.0" font-size="36" text-anchor="middle" fill="#24331b" font-weight="bold">D</text>
+<text x="500.0" y="30.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">Een graaf met vier knopen</text>
+</svg>

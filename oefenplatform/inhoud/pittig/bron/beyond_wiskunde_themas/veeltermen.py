@@ -53,7 +53,7 @@ VRAGEN = [
         r"Som van derdemachten: \(a^{3} + b^{3} = (a + b)(a^{2} - ab + b^{2})\). \(x^{2} + 1\) ontbindt niet in \(\mathbb{R}\).",
     ),
     tabel(
-        "Juist of fout?",
+        "Over veeltermen: juist of fout?",
         [("Een veelterm van graad 4 heeft altijd 4 reële nulwaarden.", F),
          ("Een veelterm van graad 3 heeft minstens één reële nulwaarde.", J),
          (r"Als \(P(1) = P(-1) = 0\), dan is \(x^{2} - 1\) een deler van \(P\).", J),

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#fffdf7"/>
+<rect x="60.0" y="30.0" width="880.0" height="570.0" rx="14" fill="#fffdf7" stroke="#b9b29c" stroke-width="2"/>
+<text x="120" y="92" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="24" fill="#9a9a8a" text-anchor="end">1</text>
+<text x="150" y="92" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="27" fill="#24331b">def faculteit(n):</text>
+<text x="120" y="146" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="24" fill="#9a9a8a" text-anchor="end">2</text>
+<text x="150" y="146" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="27" fill="#24331b">    if n == 0:</text>
+<text x="120" y="200" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="24" fill="#9a9a8a" text-anchor="end">3</text>
+<text x="150" y="200" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="27" fill="#24331b">        return 1</text>
+<text x="120" y="254" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="24" fill="#9a9a8a" text-anchor="end">4</text>
+<text x="150" y="254" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="27" fill="#24331b">    return n * faculteit(n - 1)</text>
+<text x="120" y="308" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="24" fill="#9a9a8a" text-anchor="end">5</text>
+<text x="150" y="308" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="27" fill="#24331b"></text>
+<text x="120" y="362" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="24" fill="#9a9a8a" text-anchor="end">6</text>
+<text x="150" y="362" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="27" fill="#24331b">def som_lijst(getallen):</text>
+<text x="120" y="416" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="24" fill="#9a9a8a" text-anchor="end">7</text>
+<text x="150" y="416" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="27" fill="#24331b">    totaal = 0</text>
+<text x="120" y="470" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="24" fill="#9a9a8a" text-anchor="end">8</text>
+<text x="150" y="470" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="27" fill="#24331b">    for g in getallen:</text>
+<text x="120" y="524" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="24" fill="#9a9a8a" text-anchor="end">9</text>
+<text x="150" y="524" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="27" fill="#24331b">        totaal = g</text>
+<text x="120" y="578" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="24" fill="#9a9a8a" text-anchor="end">10</text>
+<text x="150" y="578" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="27" fill="#24331b">    return totaal</text>
+<text x="500.0" y="30.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">Twee functies in Python, met regelnummers</text>
+</svg>
