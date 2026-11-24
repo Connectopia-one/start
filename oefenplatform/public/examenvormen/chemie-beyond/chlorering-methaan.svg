@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Stappen bij de reactie van methaan met chloorgas onder uv-licht</text>
+<rect x="170" y="68" width="700" height="84" rx="14" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="520" y="120" font-size="28" text-anchor="middle" fill="#24331b" font-weight="bold">Cl₂   →   2 Cl•</text>
+<circle cx="110" cy="110" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="110" y="117" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<rect x="170" y="188" width="700" height="84" rx="14" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="520" y="240" font-size="28" text-anchor="middle" fill="#24331b" font-weight="bold">Cl•  +  CH₄   →   HCl  +  •CH₃</text>
+<circle cx="110" cy="230" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="110" y="237" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<rect x="170" y="308" width="700" height="84" rx="14" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="520" y="360" font-size="28" text-anchor="middle" fill="#24331b" font-weight="bold">•CH₃  +  Cl₂   →   CH₃Cl  +  Cl•</text>
+<circle cx="110" cy="350" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="110" y="357" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<rect x="170" y="428" width="700" height="84" rx="14" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="520" y="480" font-size="28" text-anchor="middle" fill="#24331b" font-weight="bold">•CH₃  +  •CH₃   →   C₂H₆</text>
+<circle cx="110" cy="470" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="110" y="477" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">D</text>
+</svg>
