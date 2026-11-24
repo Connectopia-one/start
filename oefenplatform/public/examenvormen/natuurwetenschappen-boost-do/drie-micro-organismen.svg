@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Drie micro-organismen, niet op schaal</text>
+<rect x="90" y="230" width="220" height="120" rx="60" fill="#d9ecc8" stroke="#24331b" stroke-width="5"/>
+<rect x="102" y="242" width="196" height="96" rx="48" fill="#eef6e6" stroke="#24331b" stroke-width="1"/>
+<path d="M140 290 C 170 260, 200 320, 230 285 S 270 300, 260 280" fill="none" stroke="#7a4b8c" stroke-width="3"/>
+<line x1="310" y1="290" x2="360" y2="270" stroke="#24331b" stroke-width="2"/>
+<polygon points="570.0,290.0 535.0,350.6 465.0,350.6 430.0,290.0 465.0,229.4 535.0,229.4" fill="#f7e2b0" stroke="#24331b" stroke-width="4"/>
+<path d="M470 290 C 485 260, 505 320, 520 285 S 535 300, 530 280" fill="none" stroke="#7a4b8c" stroke-width="3"/>
+<line x1="570.0" y1="290.0" x2="590.0" y2="290.0" stroke="#24331b" stroke-width="3"/>
+<line x1="535.0" y1="350.6217782649107" x2="545.0" y2="367.9422863405995" stroke="#24331b" stroke-width="3"/>
+<line x1="465.0" y1="350.6217782649107" x2="455.0" y2="367.9422863405995" stroke="#24331b" stroke-width="3"/>
+<line x1="430.0" y1="290.0" x2="410.0" y2="290.0" stroke="#24331b" stroke-width="3"/>
+<line x1="465.0" y1="229.3782217350893" x2="455.0" y2="212.05771365940055" stroke="#24331b" stroke-width="3"/>
+<line x1="535.0" y1="229.3782217350893" x2="545.0" y2="212.05771365940055" stroke="#24331b" stroke-width="3"/>
+<ellipse cx="780" cy="300" rx="90" ry="70" fill="#fbe7c6" stroke="#24331b" stroke-width="3"/>
+<ellipse cx="880" cy="240" rx="36" ry="30" fill="#fbe7c6" stroke="#24331b" stroke-width="3"/>
+<circle cx="770" cy="305" r="26" fill="#e7c3d6" stroke="#7a4b8c" stroke-width="3"/>
+<ellipse cx="820" cy="330" rx="18" ry="12" fill="#cfe3f0" stroke="#3b6fa0" stroke-width="2"/>
+<circle cx="200" cy="460" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="200" y="467" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<circle cx="500" cy="460" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="500" y="467" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<circle cx="800" cy="460" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="800" y="467" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+</svg>

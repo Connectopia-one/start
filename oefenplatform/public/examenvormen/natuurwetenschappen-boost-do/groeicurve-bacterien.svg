@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Aantal bacteriën in een kweek</text>
+<line x1="110" y1="560" x2="930" y2="560" stroke="#24331b" stroke-width="2"/>
+<line x1="110" y1="560" x2="110" y2="80" stroke="#24331b" stroke-width="2"/>
+<text x="102" y="70" font-size="16" text-anchor="start" fill="#24331b">aantal levende bacteriën</text>
+<text x="925" y="595" font-size="16" text-anchor="end" fill="#24331b">tijd</text>
+<path d="M110 500 L 260 492 C 300 480, 330 440, 350 410 L 520 160 C 540 135, 560 130, 600 128 L 740 130 C 780 140, 820 200, 900 300" fill="none" stroke="#3b6fa0" stroke-width="4"/>
+<line x1="260" y1="90" x2="260" y2="560" stroke="#bbbbbb" stroke-width="1" stroke-dasharray="8 6"/>
+<line x1="530" y1="90" x2="530" y2="560" stroke="#bbbbbb" stroke-width="1" stroke-dasharray="8 6"/>
+<line x1="740" y1="90" x2="740" y2="560" stroke="#bbbbbb" stroke-width="1" stroke-dasharray="8 6"/>
+</svg>
