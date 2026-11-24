@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">De replicatievork (schematisch)</text>
+<line x1="620" y1="300" x2="940" y2="300" stroke="#24331b" stroke-width="4"/>
+<line x1="620" y1="330" x2="940" y2="330" stroke="#24331b" stroke-width="4"/>
+<path d="M620 300 C 560 280 480 200 80 200" fill="none" stroke="#24331b" stroke-width="4"/>
+<path d="M620 330 C 560 350 480 430 80 430" fill="none" stroke="#24331b" stroke-width="4"/>
+<path d="M110 215 L145 215 L178 216 L209 217 L239 218 L266 219 L292 221 L317 223 L340 225 L361 228 L381 230 L400 233 L417 236 L433 239 L448 243 L462 246 L476 250 L488 253 L499 257 L509 261 L519 265 L528 268 L536 272 L544 276 L552 280 L559 283 L565 287 L572 290 L578 294" fill="none" stroke="#3b6fa0" stroke-width="4"/>
+<polygon points="578,294 555,271 565,293" fill="#3b6fa0"/>
+<path d="M542 348 L538 350 L533 352 L528 354 L523 356 L518 358 L513 360 L507 362 L501 364 L495 367 L489 369" fill="none" stroke="#b03a2e" stroke-width="4"/>
+<polygon points="489,369 501,354 501,374" fill="#b03a2e"/>
+<path d="M551 345 L542 348" fill="none" stroke="#b5651d" stroke-width="9"/>
+<path d="M443 382 L435 384 L426 386 L417 388 L408 390 L398 392 L388 394 L378 396 L367 398 L356 400 L344 401" fill="none" stroke="#b03a2e" stroke-width="4"/>
+<polygon points="344,401 367,388 367,408" fill="#b03a2e"/>
+<path d="M459 378 L443 382" fill="none" stroke="#b5651d" stroke-width="9"/>
+<path d="M266 410 L254 410 L241 411 L229 412 L216 413 L202 413 L189 414 L175 414 L160 414 L146 415 L131 415" fill="none" stroke="#b03a2e" stroke-width="4"/>
+<polygon points="131,415 160,404 160,424" fill="#b03a2e"/>
+<path d="M289 408 L266 410" fill="none" stroke="#b5651d" stroke-width="9"/>
+<ellipse cx="620" cy="315" rx="34" ry="40" fill="#c8a8e0" stroke="#24331b" stroke-width="2"/>
+<ellipse cx="571.7000000000002" cy="290.33" rx="24" ry="18" fill="#9fd39a" stroke="#24331b" stroke-width="1.5"/>
+<line x1="620" y1="252" x2="620" y2="275" stroke="#24331b" stroke-width="1"/>
+<line x1="300" y1="172" x2="300" y2="208" stroke="#24331b" stroke-width="1"/>
+<line x1="300" y1="478" x2="407.75213" y2="396.47387499999996" stroke="#24331b" stroke-width="1"/>
+<line x1="105" y1="480" x2="277.21053874999996" y2="414.604203125" stroke="#24331b" stroke-width="1"/>
+<line x1="522" y1="182" x2="563.7000000000002" y2="274.33" stroke="#24331b" stroke-width="1"/>
+<circle cx="620" cy="230" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="620" y="237" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">P</text>
+<circle cx="300" cy="150" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="300" y="157" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">Q</text>
+<circle cx="300" cy="500" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="300" y="507" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">R</text>
+<circle cx="90" cy="500" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="90" y="507" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">S</text>
+<circle cx="520" cy="160" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="520" y="167" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">T</text>
+<text x="780" y="280" font-size="15" text-anchor="middle" fill="#24331b">ouderlijk DNA</text>
+<text x="500" y="560" font-size="15" text-anchor="middle" fill="#24331b">de vork beweegt naar rechts  →</text>
+</svg>
