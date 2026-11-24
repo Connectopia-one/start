@@ -1,0 +1,66 @@
+"""Biodiversiteit en micro-organismen — pittig (🚀 Boost doorstroom, biologie).
+
+Pittige vragen over micro-organismen van natuurwetenschappen Boost doorstroom (met hun prenten), zonder groeicurve en indeling in domeinen, plus eigen vragen over biodiversiteit, classificatie en afweer uit bi_micro."""
+from ..boost_do_nw_themas import micro as N, ecosysteem as E
+from .vormen import J, F, mk, inv, tabel, keuze, volgorde, koppel, sorteer, sleep, open_, casus
+from ._kies import kies
+
+VRAGEN = kies(N.VRAGEN, [0, 1, 11, 12, 16, 20, 23, 24, 26, 27]) + kies(E.VRAGEN, [19])
+VRAGEN += [
+    casus("Een gemeente wil een oud bos doorsnijden met een nieuwe weg. Het bos blijft even groot, maar ligt dan in twee helften. Een natuurvereniging vraagt om een ecoduct.", [
+        mk("Waarom is het doorsnijden schadelijk, ook al blijft de oppervlakte gelijk?",
+           ["Kleine groepen dieren kunnen elkaar niet meer bereiken.", "Bomen groeien helemaal niet meer als er een weg naast ligt.", "Het bos krijgt door de weg meteen minder zonlicht.", "Alle dieren van het bos sterven door het verkeerslawaai."], 0,
+           "Versnippering maakt populaties klein en kwetsbaar."),
+        mk("Wat doet een ecoduct?",
+           ["Het verbindt de twee helften weer voor dieren.", "Het zuivert het regenwater dat van de weg loopt.", "Het houdt het verkeer weg van de bomen.", "Het geeft wandelaars een uitzicht over het bos."], 0,
+           "Een natuurbrug laat dieren veilig oversteken."),
+        tabel("Welke van deze oorzaken bedreigen de biodiversiteit?",
+              [("versnippering van leefgebieden", J), ("invasieve soorten", J), ("vervuiling", J), ("een ecoduct", F)],
+              "Het ecoduct is net een oplossing voor versnippering."),
+    ]),
+    tabel("Op welke niveaus kan je biodiversiteit bekijken?",
+          [("de variatie binnen één soort", J), ("het aantal soorten in een gebied", J), ("de verscheidenheid aan ecosystemen", J), ("het aantal mensen in een stad", F)],
+          "Biodiversiteit gaat van genen tot ecosystemen."),
+    mk("Een paard en een ezel krijgen samen een muilezel, maar die kan zelf geen jongen krijgen. Wat besluit je?",
+       ["Paard en ezel zijn twee verschillende soorten.", "Paard en ezel horen tot dezelfde soort.", "De muilezel is zelf een nieuwe, aparte soort.", "Soorten bestaan bij zoogdieren eigenlijk niet."], 0,
+       "Tot dezelfde soort hoort wie samen vruchtbare nakomelingen krijgt."),
+    keuze("Een soort die van elders komt en hier het inheemse leven verdringt, heet een [[*invasieve soort|inheemse soort|ecosysteemdienst]].",
+          "Zoals de Japanse duizendknoop of de Amerikaanse rivierkreeft."),
+    tabel("Klopt dit over wetenschappelijke namen?",
+          [("Ze bestaan uit twee delen.", J), ("Ze zijn in elk land dezelfde.", J), ("Een volkse naam kan per streek verschillen.", J), ("Een wetenschappelijke naam is een gewone Nederlandse naam.", F)],
+          "Twee delen in het Latijn, overal ter wereld hetzelfde."),
+    sorteer("Verhoogt of verlaagt dit de biodiversiteit in een tuin?", ["Verhoogt", "Verlaagt"],
+            [("inheemse bloemen planten", "Verhoogt"), ("een vijver aanleggen", "Verhoogt"), ("alles met kunstgras bedekken", "Verlaagt"), ("een hoopje dood hout laten liggen", "Verhoogt"), ("elke week sproeien met onkruidverdelger", "Verlaagt")],
+            "Meer verschillende plekken en planten geven meer soorten een thuis."),
+    mk("Waarom gebruik je een determinatietabel om een onbekende plant een naam te geven?",
+       ["Je volgt stap voor stap haar kenmerken tot aan de naam.", "Je kiest de naam die het best klinkt bij de plant.", "Je zoekt de plant op volgens haar volkse naam in de streek.", "Je meet hoeveel water de plant elke dag van het jaar nodig heeft."], 0,
+       "Determineren: kenmerk na kenmerk naar de juiste soort."),
+    tabel("Klopt dit over virussen?",
+          [("Een virus heeft een gastheercel nodig om zich te vermeerderen.", J), ("Een virus heeft een eigen stofwisseling.", F), ("Antibiotica werken niet tegen virussen.", J)],
+          "Een virus laat de cel van de gastheer het werk doen."),
+    casus("Na de mazelen wordt Elias nooit meer ziek van die ziekte. Zijn zusje krijgt een vaccin tegen mazelen en wordt ook nooit ziek.", [
+        mk("Waarom wordt Elias niet opnieuw ziek?",
+           ["Zijn lichaam onthoudt hoe het die indringer moet bestrijden.", "Het mazelenvirus bestaat na zijn ziekte niet meer in de wereld.", "Zijn huid laat sindsdien helemaal geen virussen meer door.", "Hij heeft na zijn ziekte een hele tijd genoeg antibiotica gekregen."], 0,
+           "Het afweersysteem herkent de ziekteverwekker en reageert sneller."),
+        mk("Hoe beschermt het vaccin zijn zusje?",
+           ["Het laat haar afweer opbouwen zonder dat ze ziek wordt.", "Het doodt elk virus dat in haar lichaam komt meteen.", "Het maakt haar huid dikker zodat virussen niet binnen kunnen.", "Het werkt als een antibioticum tegen de mazelen."], 0,
+           "Een vaccin toont het afweersysteem een onschuldige versie van de indringer."),
+        tabel("Klopt dit over de afweer?",
+              [("Witte bloedcellen kunnen indringers opeten.", J), ("Een antistof past precies op één indringer.", J), ("De huid is een barrière tegen micro-organismen.", J), ("Na een ziekte ben je even onbeschermd als voordien.", F)],
+              "Huid, witte bloedcellen en antistoffen werken samen; het afweersysteem onthoudt."),
+    ]),
+    mk("Waarom is een lappendeken van één soort gewas kwetsbaarder dan een gebied met veel soorten?",
+       ["Een ziekte kan zich er in één keer over alles verspreiden.", "Eén gewas haalt altijd veel meer water uit de bodem dan andere.", "Een gebied met veel soorten krijgt altijd meer zonlicht.", "Gewassen kunnen niet tegen bijen en vlinders."], 0,
+       "Met veel soorten blijven er na een plaag nog soorten over die het ecosysteem dragen."),
+    tabel("Klopt dit over het uitsterven van soorten?",
+          [("Soorten sterven vandaag veel sneller uit dan je van nature zou verwachten.", J), ("Een gebied met weinig soorten herstelt sneller na een verstoring.", F), ("Het verdwijnen van leefgebied is een belangrijke oorzaak.", J)],
+          "Rijke ecosystemen zijn veerkrachtiger; de mens versnelt het uitsterven."),
+    mk("Waarom kan een bacterie zich in een restje soep op het aanrecht zo snel vermeerderen?",
+       ["Ze deelt zich in twee, en bij kamertemperatuur gaat dat snel.", "Ze maakt bij kamertemperatuur sporen die meteen open gaan.", "De soep bevat al miljoenen virussen die bacteriën worden.", "De koude van de nacht laat bacteriën sneller groeien."], 0,
+       "Bij kamertemperatuur delen bacteriën zich om het half uur: na een nacht zijn het er miljoenen."),
+    koppel("Welke rol speelt het micro-organisme hier?",
+           [("gist in brooddeeg", "laat het deeg rijzen"), ("bacteriën in de bodem", "breken dood materiaal af"), ("een virus in een cel", "laat de cel nieuwe virussen maken"), ("bacteriën in melk", "maken er yoghurt van")],
+           ["maakt antistoffen", "doet planten bloeien"], "Micro-organismen kunnen nuttig of schadelijk zijn."),
+    keuze("Zonder bacteriën en schimmels zouden de [[*mineralen|vitaminen|antistoffen]] in dood materiaal opgesloten blijven.",
+          "Reducenten maken mineralen weer vrij voor de planten."),
+]
