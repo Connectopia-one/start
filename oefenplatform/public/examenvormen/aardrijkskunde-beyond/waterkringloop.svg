@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">De kringloop van het water</text>
+<rect x="40" y="450" width="380" height="130" rx="0" fill="#9bc1df" stroke="none" stroke-width="2"/>
+<path d="M420 580 L 420 450 Q 600 420 760 330 L 960 300 L 960 580 Z" fill="#c9b48a" stroke="#24331b" stroke-width="2"/>
+<path d="M420 520 Q 650 500 960 480" fill="none" stroke="#3b6fa0" stroke-width="3"/>
+<rect x="420" y="540" width="540" height="40" rx="0" fill="#8fb3cf" stroke="none" stroke-width="2"/>
+<text x="700" y="568" font-size="16" text-anchor="middle" fill="#24331b">grondwater</text>
+<line x1="800" y1="320" x2="800" y2="290" stroke="#6b4f2a" stroke-width="5"/>
+<circle cx="800" cy="275" r="22" fill="#6aa84f" stroke="#24331b" stroke-width="1"/>
+<line x1="850" y1="320" x2="850" y2="290" stroke="#6b4f2a" stroke-width="5"/>
+<circle cx="850" cy="275" r="22" fill="#6aa84f" stroke="#24331b" stroke-width="1"/>
+<line x1="900" y1="320" x2="900" y2="290" stroke="#6b4f2a" stroke-width="5"/>
+<circle cx="900" cy="275" r="22" fill="#6aa84f" stroke="#24331b" stroke-width="1"/>
+<ellipse cx="420" cy="120" rx="120" ry="45" fill="#d9dde2" stroke="#24331b" stroke-width="1"/>
+<ellipse cx="640" cy="110" rx="110" ry="40" fill="#d9dde2" stroke="#24331b" stroke-width="1"/>
+<line x1="200" y1="430" x2="330" y2="170" stroke="#24331b" stroke-width="3"/>
+<polygon points="330,170 329.0,186.0 317.8,180.4" fill="#24331b"/>
+<line x1="470" y1="110" x2="580" y2="110" stroke="#24331b" stroke-width="3"/>
+<polygon points="580,110 565.3,116.2 565.3,103.8" fill="#24331b"/>
+<line x1="660" y1="160" x2="700" y2="330" stroke="#24331b" stroke-width="3"/>
+<polygon points="700,330 690.6,317.1 702.7,314.2" fill="#24331b"/>
+<line x1="720" y1="360" x2="720" y2="520" stroke="#24331b" stroke-width="3"/>
+<polygon points="720,520 713.8,505.3 726.2,505.3" fill="#24331b"/>
+<line x1="650" y1="362" x2="480" y2="428" stroke="#24331b" stroke-width="3"/>
+<polygon points="480,428 491.5,416.9 496.0,428.5" fill="#24331b"/>
+<line x1="860" y1="250" x2="720" y2="160" stroke="#24331b" stroke-width="3"/>
+<polygon points="720,160 735.8,162.7 729.0,173.2" fill="#24331b"/>
+<circle cx="235" cy="300" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="235" y="307" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">1</text>
+<circle cx="525" cy="70" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="525" y="77" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">2</text>
+<circle cx="725" cy="230" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="725" y="237" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">3</text>
+<circle cx="755" cy="450" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="755" y="457" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">4</text>
+<circle cx="560" cy="340" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="560" y="347" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">5</text>
+<circle cx="815" cy="195" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="815" y="202" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">6</text>
+</svg>
