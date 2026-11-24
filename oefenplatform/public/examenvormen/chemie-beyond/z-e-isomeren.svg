@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Drie alkenen met vier koolstofatomen</text>
+<line x1="120" y1="300" x2="220" y2="300" stroke="#24331b" stroke-width="3"/>
+<line x1="120" y1="310" x2="220" y2="310" stroke="#24331b" stroke-width="3"/>
+<text x="108" y="313" font-size="24" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<text x="232" y="313" font-size="24" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<line x1="98" y1="290" x2="75" y2="230" stroke="#24331b" stroke-width="3"/>
+<text x="65" y="215" font-size="22" text-anchor="middle" fill="#3b6fa0" font-weight="bold">CH₃</text>
+<line x1="98" y1="320" x2="75" y2="385" stroke="#24331b" stroke-width="3"/>
+<text x="65" y="405" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">H</text>
+<line x1="242" y1="290" x2="265" y2="230" stroke="#24331b" stroke-width="3"/>
+<text x="275" y="215" font-size="22" text-anchor="middle" fill="#3b6fa0" font-weight="bold">CH₃</text>
+<line x1="242" y1="320" x2="265" y2="385" stroke="#24331b" stroke-width="3"/>
+<text x="275" y="405" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">H</text>
+<line x1="450" y1="300" x2="550" y2="300" stroke="#24331b" stroke-width="3"/>
+<line x1="450" y1="310" x2="550" y2="310" stroke="#24331b" stroke-width="3"/>
+<text x="438" y="313" font-size="24" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<text x="562" y="313" font-size="24" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<line x1="428" y1="290" x2="405" y2="230" stroke="#24331b" stroke-width="3"/>
+<text x="395" y="215" font-size="22" text-anchor="middle" fill="#3b6fa0" font-weight="bold">CH₃</text>
+<line x1="428" y1="320" x2="405" y2="385" stroke="#24331b" stroke-width="3"/>
+<text x="395" y="405" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">H</text>
+<line x1="572" y1="290" x2="595" y2="230" stroke="#24331b" stroke-width="3"/>
+<text x="605" y="215" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">H</text>
+<line x1="572" y1="320" x2="595" y2="385" stroke="#24331b" stroke-width="3"/>
+<text x="605" y="405" font-size="22" text-anchor="middle" fill="#3b6fa0" font-weight="bold">CH₃</text>
+<line x1="760" y1="300" x2="860" y2="300" stroke="#24331b" stroke-width="3"/>
+<line x1="760" y1="310" x2="860" y2="310" stroke="#24331b" stroke-width="3"/>
+<text x="748" y="313" font-size="24" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<text x="872" y="313" font-size="24" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<line x1="738" y1="290" x2="715" y2="230" stroke="#24331b" stroke-width="3"/>
+<text x="705" y="215" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">H</text>
+<line x1="738" y1="320" x2="715" y2="385" stroke="#24331b" stroke-width="3"/>
+<text x="705" y="405" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">H</text>
+<line x1="882" y1="290" x2="905" y2="230" stroke="#24331b" stroke-width="3"/>
+<text x="915" y="215" font-size="22" text-anchor="middle" fill="#3b6fa0" font-weight="bold">CH₂CH₃</text>
+<line x1="882" y1="320" x2="905" y2="385" stroke="#24331b" stroke-width="3"/>
+<text x="915" y="405" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">H</text>
+<circle cx="170" cy="520" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="170" y="527" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">P</text>
+<circle cx="500" cy="520" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="500" y="527" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">Q</text>
+<circle cx="810" cy="520" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="810" y="527" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">R</text>
+</svg>
