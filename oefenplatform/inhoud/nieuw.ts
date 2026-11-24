@@ -41,6 +41,12 @@ export const nieuwTekst = {
 export const updates: Update[] = [
   {
     datum: "24 november 2026",
+    titel: "Pittige hoofdstukken fysica in Beyond doorstroom",
+    tekst:
+      "Fysica in Beyond doorstroom heeft nu bij elk van de 23 onderwerpen een pittig hoofdstuk van 30 vragen, in examenvorm: van lading, elektrische velden, stroom en magnetisme over krachten, bewegingen, energie, gassen en warmte tot trillingen, golven, licht en geluid, kwantumfysica, kernfysica en straling, meten en onderzoek. Bij elk onderwerp zijn er tekeningen, schakelingen en grafieken waarop je moet klikken.",
+  },
+  {
+    datum: "24 november 2026",
     titel: "Pittige hoofdstukken chemie in Beyond doorstroom",
     tekst:
       "Chemie in Beyond doorstroom heeft nu bij elk van de 23 onderwerpen een pittig hoofdstuk van 30 vragen, in examenvorm: van stofklassen, organische stoffen en atoombouw over chemisch rekenen, reactiesnelheid en evenwicht tot zuren en basen, pH, buffers, redox, batterijen, kunststoffen, nanotechnologie, duurzame chemie, veilig werken in het labo en onderzoek. Bij elk onderwerp zijn er tekeningen en grafieken waarop je moet klikken.",

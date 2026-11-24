@@ -189,7 +189,7 @@ VRAGEN = [
         kolommen=["Isotherm", "Isobaar", "Isochoor"],
     ),
     tabel(
-        "Klopt deze uitspraak?",
+        "Klopt deze uitspraak over gassen?",
         [
             ("In de gaswetten mag je de temperatuur in °C invullen.", F),
             ("Een reëel gas gedraagt zich het meest ideaal bij hoge druk en lage temperatuur.", F),

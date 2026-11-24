@@ -257,7 +257,7 @@ VRAGEN = [
         ],
     ),
     tabel(
-        "Klopt deze uitspraak?",
+        "Klopt deze uitspraak over magneten?",
         [
             ("Magnetische veldlijnen zijn gesloten kringen.", J),
             ("Je kan een losse noordpool maken door een magneet te breken.", F),

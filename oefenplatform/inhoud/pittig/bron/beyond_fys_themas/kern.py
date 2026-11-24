@@ -150,7 +150,7 @@ VRAGEN = [
         kolommen=["A en Z", "Alleen Z", "Geen van beide"],
     ),
     tabel(
-        "Klopt deze uitspraak?",
+        "Klopt deze uitspraak over atoomkernen en verval?",
         [
             ("Een radioactieve stof in de vriezer vervalt trager.", F),
             ("Na drie halveringstijden is nog een achtste over.", J),

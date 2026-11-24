@@ -195,7 +195,7 @@ VRAGEN = [
         "Inductie vraagt altijd een veranderende flux.",
     ),
     tabel(
-        "Klopt deze uitspraak?",
+        "Klopt deze uitspraak over inductie?",
         [
             ("Een transformator werkt ook op een batterij.", F),
             ("De kern van een transformator bestaat uit geïsoleerde plaatjes tegen wervelstromen.", J),

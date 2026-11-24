@@ -187,7 +187,7 @@ VRAGEN = [
         ],
     ),
     tabel(
-        "Klopt deze uitspraak?",
+        "Klopt deze uitspraak over gravitatie en cirkelbewegingen?",
         [
             ("De middelpuntzoekende kracht is een extra kracht naast de andere krachten.", F),
             ("Bij een eenparig cirkelvormige beweging is de versnelling nul.", F),

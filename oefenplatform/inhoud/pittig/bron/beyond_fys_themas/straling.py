@@ -137,7 +137,7 @@ VRAGEN = [
         ],
     ),
     tabel(
-        "Klopt deze uitspraak?",
+        "Klopt deze uitspraak over kernenergie en straling?",
         [
             ("Doorstraald voedsel wordt zelf radioactief.", F),
             ("Bij besmetting zit de radioactieve stof op of in je lichaam.", J),
@@ -158,7 +158,7 @@ VRAGEN = [
         "Zware kernen splijten, lichte kernen versmelten.",
     ),
     koppel(
-        "Koppel elke grootheid aan haar eenheid.",
+        "Koppel elke stralingsgrootheid aan haar eenheid.",
         [
             ("activiteit", "becquerel"),
             ("geabsorbeerde dosis", "gray"),

@@ -171,7 +171,7 @@ VRAGEN = [
         "In de kwantumfysica bestaat geen vaste baan.",
     ),
     tabel(
-        "Klopt deze uitspraak?",
+        "Klopt deze uitspraak over de kwantumfysica?",
         [
             ("Feller rood licht maakt uiteindelijk toch elektronen los.", F),
             ("Een elektron kan buigen rond kleine obstakels.", J),

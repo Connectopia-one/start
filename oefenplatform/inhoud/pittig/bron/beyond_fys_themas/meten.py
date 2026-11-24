@@ -163,7 +163,7 @@ VRAGEN = [
         ],
     ),
     tabel(
-        "Klopt deze uitspraak?",
+        "Klopt deze uitspraak over veilig werken en meten?",
         [
             ("Batterijen van meetmateriaal gooi je bij het restafval.", F),
             ("Een spanningsbron zet je op de laagste stand voor je hem aansluit.", J),

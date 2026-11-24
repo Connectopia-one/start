@@ -159,7 +159,7 @@ VRAGEN = [
         ],
     ),
     tabel(
-        "Klopt deze uitspraak?",
+        "Klopt deze uitspraak over de rechtlijnige beweging?",
         [
             ("Een negatieve versnelling betekent altijd dat het lichaam vertraagt.", F),
             ("Zonder luchtweerstand vallen een zware en een lichte steen even snel.", J),

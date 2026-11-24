@@ -165,7 +165,7 @@ VRAGEN = [
         "E_p = q · V = 4,0 · 10⁻⁶ · 250 = 1,0 · 10⁻³ J = 1,0 mJ.",
     ),
     tabel(
-        "Klopt deze uitspraak?",
+        "Klopt deze uitspraak over potentiaal en spanning?",
         [
             ("Een positieve lading beweegt vanzelf naar een lagere potentiaal.", J),
             ("Een elektron beweegt vanzelf naar een hogere potentiaal.", J),

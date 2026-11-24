@@ -173,7 +173,7 @@ VRAGEN = [
         ],
     ),
     tabel(
-        "Klopt deze uitspraak?",
+        "Klopt deze uitspraak over warmte en temperatuur?",
         [
             ("Zolang zuiver water kookt, stijgt zijn temperatuur niet.", J),
             ("Een stijging van 15 K is een stijging van 15 °C.", J),

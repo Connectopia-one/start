@@ -116,7 +116,7 @@ VRAGEN = [
         "Een golf volgt y = 0,02 · sin(20π · t − 4π · x), met y en x in meter en t in seconde.",
         [
             inv(
-                "Hoe groot is de frequentie, in Hz?",
+                "Hoe groot is de frequentie van deze golf, in Hz?",
                 ["10", "10 Hz"],
                 "ω = 20π = 2π · f, dus f = 10 Hz.",
             ),
@@ -183,7 +183,7 @@ VRAGEN = [
         "Licht is elektromagnetisch en heeft geen stof nodig.",
     ),
     tabel(
-        "Klopt deze uitspraak?",
+        "Klopt deze uitspraak over golven?",
         [
             ("Een golf neemt materie mee in haar richting.", F),
             ("Twee opeenvolgende knopen liggen een halve golflengte uit elkaar.", J),

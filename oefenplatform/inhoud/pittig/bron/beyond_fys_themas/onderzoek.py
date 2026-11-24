@@ -169,7 +169,7 @@ VRAGEN = [
         "Een conclusie blijft binnen wat je gemeten hebt.",
     ),
     tabel(
-        "Klopt deze uitspraak?",
+        "Klopt deze uitspraak over onderzoeken en ontwerpen?",
         [
             ("Een hypothese die niet klopt, maakt je onderzoek waardeloos.", F),
             ("Een ander moet met jouw plan hetzelfde kunnen vinden.", J),

@@ -131,7 +131,7 @@ VRAGEN = [
         "De intensiteit daalt met het kwadraat van de afstand: (6/2)² = 9.",
     ),
     tabel(
-        "Klopt deze uitspraak?",
+        "Klopt deze uitspraak over licht en geluid?",
         [
             ("Een ambulance die nadert klinkt hoger dan wanneer ze stilstaat.", J),
             ("Geluid gaat in koude lucht sneller dan in warme.", F),

@@ -217,7 +217,7 @@ VRAGEN = [
         "Gelijke zin trekt aan, tegengestelde zin stoot af.",
     ),
     tabel(
-        "Klopt deze uitspraak?",
+        "Klopt deze uitspraak over de magnetische kracht?",
         [
             ("Een magnetisch veld kan een lading niet sneller maken.", J),
             ("Een stilstaand elektron voelt een lorentzkracht.", F),

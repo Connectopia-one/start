@@ -213,7 +213,7 @@ VRAGEN = [
         "a = F / m.",
     ),
     tabel(
-        "Klopt deze uitspraak?",
+        "Klopt deze uitspraak over de wetten van Newton?",
         [
             ("Om met constante snelheid te blijven bewegen, is een resulterende kracht nodig.", F),
             ("Een astronaut in het ruimtestation voelt geen zwaartekracht meer.", F),

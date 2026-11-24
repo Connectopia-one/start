@@ -180,7 +180,7 @@ VRAGEN = [
         ],
     ),
     tabel(
-        "Klopt deze uitspraak?",
+        "Klopt deze uitspraak over arbeid en energie?",
         [
             ("Wie een doos sneller optilt, levert een groter vermogen.", J),
             ("De kilowattuur is een eenheid van vermogen.", F),

@@ -216,7 +216,7 @@ VRAGEN = [
         "Een veldkracht werkt op afstand, zonder aanraking.",
     ),
     tabel(
-        "Klopt deze uitspraak?",
+        "Klopt deze uitspraak over evenwicht en moment?",
         [
             ("Een auto met constante snelheid rechtdoor is in translatie-evenwicht.", J),
             ("Een breed, laag lichaam kantelt minder snel dan een smal, hoog lichaam.", J),

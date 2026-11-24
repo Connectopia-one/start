@@ -191,7 +191,7 @@ VRAGEN = [
         ],
     ),
     tabel(
-        "Klopt deze uitspraak?",
+        "Klopt deze uitspraak over elektrische lading?",
         [
             ("Bij wrijven ontstaat er nieuwe lading.", F),
             ("Een neutraal voorwerp bevat evenveel protonen als elektronen.", J),

@@ -155,7 +155,7 @@ VRAGEN = [
         ],
     ),
     tabel(
-        "Klopt deze uitspraak?",
+        "Klopt deze uitspraak over trillingen?",
         [
             ("Bij een slinger met kleine uitslag hangt de periode niet af van de massa.", J),
             ("Een trilling met een grotere frequentie heeft een grotere periode.", F),

@@ -265,7 +265,7 @@ VRAGEN = [
         "E = F / q, dus newton per coulomb.",
     ),
     tabel(
-        "Klopt deze uitspraak?",
+        "Klopt deze uitspraak over het elektrisch veld?",
         [
             ("De coulombkracht tussen twee ladingen is in water kleiner dan in lucht.", J),
             ("E in een punt hangt af van de proeflading die je er zet.", F),

@@ -235,7 +235,7 @@ VRAGEN = [
         "Serie: één weg. Parallel: elke tak een eigen weg.",
     ),
     tabel(
-        "Klopt deze uitspraak?",
+        "Klopt deze uitspraak over stroom en schakelingen?",
         [
             ("De elektronen in een draad bewegen van min naar plus.", J),
             ("Bij wisselstroom keert de zin van de stroom steeds om.", J),
@@ -245,7 +245,7 @@ VRAGEN = [
         "Elke extra tak is een extra weg voor de stroom, dus R_v daalt.",
     ),
     koppel(
-        "Koppel elke grootheid aan haar eenheid.",
+        "Koppel elke grootheid uit de elektrische kring aan haar eenheid.",
         [
             ("stroomsterkte I", "A"),
             ("spanning U", "V"),
