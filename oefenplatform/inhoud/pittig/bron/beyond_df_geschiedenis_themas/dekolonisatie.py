@@ -75,13 +75,13 @@ VRAGEN = [
     mk(
         "Uit welke groep kwamen de eerste eisen voor zelfbestuur?",
         [
-            "De évolués, Congolezen met een opleiding",
+            "De évolués",
             "De Belgische ambtenaren in Leopoldstad",
             "De missionarissen van de grote kerken",
             "De directie van de Union Minière",
         ],
         0,
-        "Het manifest van Conscience africaine uit 1956 is een voorbeeld.",
+        "De évolués waren Congolezen met een opleiding. Het manifest van Conscience africaine uit 1956 is een voorbeeld.",
     ),
     klik(
         "Klik op de tijdlijn op het jaar waarin Congo onafhankelijk werd.",
@@ -101,7 +101,7 @@ VRAGEN = [
     mk(
         "Waarom stond Congo er in 1960 zwak voor om zichzelf te besturen?",
         [
-            "Er waren amper Congolezen met een universitair diploma",
+            "Er waren amper universitair opgeleiden",
             "Er waren in Congo helemaal geen scholen",
             "Er waren geen grondstoffen meer in de mijnen",
             "Alle Congolezen spraken enkel Nederlands",
@@ -249,7 +249,7 @@ VRAGEN = [
     mk(
         "Vergelijk Belgisch Congo van 1950 met Congo van 1965. Wat valt op?",
         [
-            "De macht lag eerst in Brussel, daarna bij één man",
+            "Eerst Brussel, daarna één man aan de macht",
             "In beide jaren waren er vrije verkiezingen",
             "In beide jaren was Lumumba premier",
             "In 1965 was Congo opnieuw een kolonie",
