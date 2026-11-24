@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Twee energiediagrammen</text>
+<line x1="80" y1="540" x2="460" y2="540" stroke="#24331b" stroke-width="2"/>
+<line x1="80" y1="540" x2="80" y2="110" stroke="#24331b" stroke-width="2"/>
+<text x="74" y="100" font-size="16" text-anchor="start" fill="#24331b">energie</text>
+<text x="455" y="572" font-size="16" text-anchor="end" fill="#24331b">verloop van de reactie</text>
+<line x1="110" y1="240" x2="210" y2="240" stroke="#3b6fa0" stroke-width="6"/>
+<line x1="330" y1="420" x2="430" y2="420" stroke="#b5651d" stroke-width="6"/>
+<path d="M210 240 C 250 120, 290 120, 330 420" fill="none" stroke="#24331b" stroke-width="2"/>
+<line x1="380" y1="240" x2="380" y2="420" stroke="#999999" stroke-width="2" stroke-dasharray="8 6"/>
+<line x1="380" y1="240" x2="380" y2="420" stroke="#b03a2e" stroke-width="3"/>
+<polygon points="380,420 373.8,405.3 386.2,405.3" fill="#b03a2e"/>
+<circle cx="270" cy="600" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="270" y="607" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<line x1="540" y1="540" x2="920" y2="540" stroke="#24331b" stroke-width="2"/>
+<line x1="540" y1="540" x2="540" y2="110" stroke="#24331b" stroke-width="2"/>
+<text x="534" y="100" font-size="16" text-anchor="start" fill="#24331b">energie</text>
+<text x="915" y="572" font-size="16" text-anchor="end" fill="#24331b">verloop van de reactie</text>
+<line x1="570" y1="410" x2="670" y2="410" stroke="#3b6fa0" stroke-width="6"/>
+<line x1="790" y1="230" x2="890" y2="230" stroke="#b5651d" stroke-width="6"/>
+<path d="M670 410 C 710 110, 750 110, 790 230" fill="none" stroke="#24331b" stroke-width="2"/>
+<line x1="840" y1="410" x2="840" y2="230" stroke="#999999" stroke-width="2" stroke-dasharray="8 6"/>
+<line x1="840" y1="410" x2="840" y2="230" stroke="#b03a2e" stroke-width="3"/>
+<polygon points="840,230 846.2,244.7 833.8,244.7" fill="#b03a2e"/>
+<circle cx="730" cy="600" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="730" y="607" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+</svg>
