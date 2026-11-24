@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">De lijnen bij een groepsproef</text>
+<text x="180" y="120" font-size="22" text-anchor="middle" fill="#24331b">voorbeeld</text>
+<line x1="180" y1="160" x2="180" y2="460" stroke="#24331b" stroke-width="8"/>
+<line x1="480" y1="360" x2="480" y2="560" stroke="#24331b" stroke-width="8"/>
+<circle cx="480" cy="600" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="480" y="607" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<line x1="640" y1="260" x2="640" y2="560" stroke="#24331b" stroke-width="8"/>
+<circle cx="640" cy="600" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="640" y="607" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<line x1="800" y1="160" x2="800" y2="560" stroke="#24331b" stroke-width="8"/>
+<circle cx="800" cy="600" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="800" y="607" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Sociale druk als glijdende schaal</text>
+<path d="M80 280 L820 240 L820 210 L920 300 L820 390 L820 360 L80 320 Z" fill="#e2eadb" stroke="#24331b" stroke-width="2"/>
+<text x="90" y="230" font-size="22" text-anchor="start" fill="#24331b">lichte druk</text>
+<text x="910" y="450" font-size="22" text-anchor="end" fill="#24331b">zware druk</text>
+<rect x="170" y="260" width="120" height="80" rx="10" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<circle cx="230" cy="300" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="230" y="307" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<rect x="410" y="260" width="120" height="80" rx="10" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<circle cx="470" cy="300" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="470" y="307" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<rect x="650" y="260" width="120" height="80" rx="10" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<circle cx="710" cy="300" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="710" y="307" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+</svg>
