@@ -1,0 +1,85 @@
+"""Tekstsoorten en de bedoeling van een tekst — pittig (Engels, Beyond dubbele finaliteit), A2+."""
+from ..beyond_en_themas.vormen import J, F, mk, inv, tabel, keuze, volgorde, koppel, sorteer, sleep, open_, casus
+
+VRAGEN = [
+    casus(
+        "Read the three short texts.\n\nText A: « Don't miss the Summer Fair! Live music, games and the best burgers in town. Bring your friends! »\n"
+        "Text B: « Take one tablet twice a day after a meal. Do not use for more than five days. »\n"
+        "Text C: « I went to the Summer Fair last year. In my opinion the music was too loud, but the burgers were delicious. »",
+        [
+            keuze("Text A is [[*persuasief|prescriptief|narratief]].", "Een oproep met wervende woorden."),
+            keuze("Text B is [[*prescriptief|informatief|literair]].", "Een bijsluiter zegt wat je moet doen."),
+            keuze("Text C is [[*opiniërend|persuasief|prescriptief]].", "In my opinion verraadt een mening."),
+            mk("Welke zin uit de teksten is een feit?",
+               ["I went to the Summer Fair last year.", "In my opinion the music was too loud.", "The burgers at the fair were delicious.", "The best burgers in the whole town."], 0,
+               "Dat iemand ging, kan je nakijken; de rest is een oordeel."),
+            mk("Voor wie is Text B bedoeld?",
+               ["iemand die het geneesmiddel neemt", "de organisatoren van de Summer Fair", "de vrienden van de schrijver", "iemand die burgers wil bakken"], 0,
+               "Een bijsluiter is voor de gebruiker van het middel."),
+        ],
+    ),
+    tabel("Welke tekstsoort is het?", [
+        ("a weather forecast on the radio", "informatief"), ("a poster: Join our football club today!", "persuasief"),
+        ("the rules of a board game", "prescriptief"), ("a short story about a lost dog", "literair"),
+    ], "Weerbericht informeert, poster overtuigt, spelregels schrijven voor, een kortverhaal is literair.",
+        kolommen=["informatief", "persuasief", "prescriptief", "literair"]),
+    sorteer("Feit of mening?", ["feit", "mening"], [
+        ["Paris is the capital of France.", "feit"], ["Paris is the nicest city to visit.", "mening"],
+        ["The film lasts two hours.", "feit"], ["The film is far too long.", "mening"],
+        ["Water boils at 100 °C.", "feit"], ["Cold water tastes better.", "mening"],
+    ], "Een feit kan je nakijken; een mening is een oordeel."),
+    sorteer("Formeel of informeel?", ["formeel", "informeel"], [
+        ["Dear Ms Brown,", "formeel"], ["Hey Jess!", "informeel"], ["Kind regards,", "formeel"],
+        ["See ya!", "informeel"], ["I would like to ask", "formeel"], ["Wanna come?", "informeel"],
+    ], "Formele woorden voor een onbekende, informele voor vrienden."),
+    koppel("Koppel elke tekst aan zijn bedoeling.", [
+        ["a recipe", "uitleggen hoe iets moet"], ["an advert", "overtuigen"], ["a news report", "informeren"], ["a hotel review", "een mening geven"],
+    ], ["een vriend uitnodigen"], "Elke tekstsoort heeft zijn eigen bedoeling."),
+    mk("Lees: « Turn left at the church and walk straight on for 200 metres. » Welke tekstsoort is dit?",
+       ["prescriptief", "opiniërend", "narratief", "persuasief en literair"], 0, "Een wegbeschrijving zegt wat je moet doen."),
+    mk("Lees: « When I opened the door, a strange cat was sitting on my bed. » Welke tekstsoort is dit?",
+       ["narratief", "prescriptief", "informatief", "persuasief"], 0, "Een verhaal over wat er gebeurde."),
+    mk("Lees: « Honestly, this is the worst pizza I have ever eaten. » Welk woord verraadt vooral een mening?",
+       ["worst", "the pizza", "ever eaten", "I have"], 0, "The worst is een oordeel."),
+    mk("Lees: « Students must wear their badge at all times. » Waar vind je deze zin?",
+       ["in een schoolreglement", "in een kortverhaal over een school", "in een recensie van een school", "in een gedicht over een badge"], 0,
+       "Must: een regel. Dat hoort in een reglement."),
+    mk("Lees: « Get fit in 30 days with our new app! Download it now for free. » Wat is de bedoeling van de schrijver?",
+       ["je overhalen om de app te downloaden", "je vertellen hoe een app gebouwd wordt", "een verhaal vertellen over sporten", "je mening vragen over de app"], 0,
+       "Reclame wil je overtuigen."),
+    mk("Lees: « Hi Grandma, thanks for the lovely jumper! It's really warm. Love, Lucy » Welk register is dit?",
+       ["informeel", "formeel", "zeer formeel", "zakelijk"], 0, "Hi, thanks en Love horen bij familie en vrienden."),
+    mk("Je schrijft een mail aan de directeur van een hotel. Welke slotzin past het best?",
+       ["I look forward to hearing from you.", "Talk soon, mate, and have a nice day!", "Bye bye, see ya later at the hotel!", "Text me back as soon as you can, OK?"], 0,
+       "Formeel en hoffelijk."),
+    mk("Lees: « The moon was a silver coin in the black sky. » Waarom is dit literair?",
+       ["het gebruikt een beeld", "het geeft een feit over de maan", "het geeft je een opdracht", "het wil je iets verkopen"], 0,
+       "A silver coin is een beeld, geen feit."),
+    inv("Lees: « Read the instructions carefully before you start. » Welk Engels woord in die zin geeft aan dat het een prescriptieve tekst is? Eén woord.",
+        ["instructions", "Read", "read"], "Read is een bevel; instructions noemt de tekstsoort zelf."),
+    inv("Hoe noem je een tekst die je wil doen kopen of stemmen? Eén woord.", ["persuasief", "persuasieve"],
+        "Persuasief: overtuigend."),
+    keuze("Een krantenartikel over een treinstaking is meestal [[*informatief|literair]].", "Het geeft informatie."),
+    keuze("Een lied dat over liefdesverdriet zingt is [[*literair|prescriptief]].", "Liederen zijn literaire teksten."),
+    keuze("Een getuigenis over je eerste werkdag is [[*narratief|prescriptief]].", "Je vertelt wat er gebeurde."),
+    keuze("« If you ask me, » kondigt [[*een mening|een feit]] aan.", "Net als I think."),
+    keuze("Een mail die begint met « Dear Sir or Madam, » is [[*formeel|informeel]].", "Voor een onbekende lezer."),
+    tabel("Lees: « The new library opened in May. It has 20,000 books and a quiet study room. I think it's the best place in town to study. » Feit of mening?", [
+        ("The library opened in May.", "feit"), ("It has 20,000 books.", "feit"), ("It's the best place in town to study.", "mening"),
+    ], "I think kondigt de mening aan.", kolommen=["feit", "mening"]),
+    volgorde("Zet de delen van een formele mail in de juiste volgorde.", [
+        "Dear Mr Jones,", "I am writing to ask about the summer job.", "I look forward to your reply.", "Kind regards,", "Sara Peeters",
+    ], "Aanspreking, inleiding, slotzin, groet, naam."),
+    mk("Lees: « Thousands of people visit Bruges every summer. The city has many old canals. » Welke tekstsoort is dit?",
+       ["informatief", "opiniërend, want het noemt een stad", "prescriptief, want het zegt wat je moet bezoeken", "literair, want het gaat over een mooie stad"], 0,
+       "Twee feiten, geen oordeel en geen opdracht."),
+    tabel("Is dit woord een teken van een formele tekst?", [
+        ("Yours faithfully,", J), ("Cheers!", F), ("Could you please send me", J), ("Gonna be late, sorry", F),
+    ], "Hoffelijke, volledige woorden horen bij een formele tekst."),
+    open_("Lees: « Our town needs a new skate park. Young people have nowhere to go and the old park is dangerous. Sign our petition today! » Leg in het Nederlands uit welke tekstsoort dit is en hoe je dat weet.",
+          "Het is persuasief: de schrijver geeft argumenten en roept je op om de petitie te tekenen.",
+          "Argumenten plus een oproep: dat is overtuigen."),
+    mk("Lees: « How to make a paper plane: 1. Fold the paper in half. 2. Fold the corners down. » Wat vertelt de titel je al?",
+       ["dat het om instructies gaat", "dat het een verhaal over vliegen is", "dat de schrijver een mening geeft", "dat het een reclame voor papier is"], 0,
+       "How to kondigt een handleiding aan."),
+]
