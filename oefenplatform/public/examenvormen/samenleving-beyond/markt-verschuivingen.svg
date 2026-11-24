@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">De markt voor fietsen (per maand)</text>
+<line x1="110.0" y1="90" x2="110.0" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="110.0" y="564" font-size="15" text-anchor="middle" fill="#24331b">0</text>
+<line x1="206.25" y1="90" x2="206.25" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="206.25" y="564" font-size="15" text-anchor="middle" fill="#24331b">50</text>
+<line x1="302.5" y1="90" x2="302.5" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="302.5" y="564" font-size="15" text-anchor="middle" fill="#24331b">100</text>
+<line x1="398.75" y1="90" x2="398.75" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="398.75" y="564" font-size="15" text-anchor="middle" fill="#24331b">150</text>
+<line x1="495.0" y1="90" x2="495.0" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="495.0" y="564" font-size="15" text-anchor="middle" fill="#24331b">200</text>
+<line x1="591.25" y1="90" x2="591.25" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="591.25" y="564" font-size="15" text-anchor="middle" fill="#24331b">250</text>
+<line x1="687.5" y1="90" x2="687.5" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="687.5" y="564" font-size="15" text-anchor="middle" fill="#24331b">300</text>
+<line x1="783.75" y1="90" x2="783.75" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="783.75" y="564" font-size="15" text-anchor="middle" fill="#24331b">350</text>
+<line x1="880.0" y1="90" x2="880.0" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="880.0" y="564" font-size="15" text-anchor="middle" fill="#24331b">400</text>
+<line x1="110" y1="540.0" x2="880" y2="540.0" stroke="#e4e1d6" stroke-width="1"/>
+<text x="100" y="545.0" font-size="15" text-anchor="end" fill="#24331b">0</text>
+<line x1="110" y1="502.5" x2="880" y2="502.5" stroke="#e4e1d6" stroke-width="1"/>
+<text x="100" y="507.5" font-size="15" text-anchor="end" fill="#24331b">1</text>
+<line x1="110" y1="465.0" x2="880" y2="465.0" stroke="#e4e1d6" stroke-width="1"/>
+<text x="100" y="470.0" font-size="15" text-anchor="end" fill="#24331b">2</text>
+<line x1="110" y1="427.5" x2="880" y2="427.5" stroke="#e4e1d6" stroke-width="1"/>
+<text x="100" y="432.5" font-size="15" text-anchor="end" fill="#24331b">3</text>
+<line x1="110" y1="390.0" x2="880" y2="390.0" stroke="#e4e1d6" stroke-width="1"/>
+<text x="100" y="395.0" font-size="15" text-anchor="end" fill="#24331b">4</text>
+<line x1="110" y1="352.5" x2="880" y2="352.5" stroke="#e4e1d6" stroke-width="1"/>
+<text x="100" y="357.5" font-size="15" text-anchor="end" fill="#24331b">5</text>
+<line x1="110" y1="315.0" x2="880" y2="315.0" stroke="#e4e1d6" stroke-width="1"/>
+<text x="100" y="320.0" font-size="15" text-anchor="end" fill="#24331b">6</text>
+<line x1="110" y1="277.5" x2="880" y2="277.5" stroke="#e4e1d6" stroke-width="1"/>
+<text x="100" y="282.5" font-size="15" text-anchor="end" fill="#24331b">7</text>
+<line x1="110" y1="240.0" x2="880" y2="240.0" stroke="#e4e1d6" stroke-width="1"/>
+<text x="100" y="245.0" font-size="15" text-anchor="end" fill="#24331b">8</text>
+<line x1="110" y1="202.5" x2="880" y2="202.5" stroke="#e4e1d6" stroke-width="1"/>
+<text x="100" y="207.5" font-size="15" text-anchor="end" fill="#24331b">9</text>
+<line x1="110" y1="165.0" x2="880" y2="165.0" stroke="#e4e1d6" stroke-width="1"/>
+<text x="100" y="170.0" font-size="15" text-anchor="end" fill="#24331b">10</text>
+<line x1="110" y1="127.5" x2="880" y2="127.5" stroke="#e4e1d6" stroke-width="1"/>
+<text x="100" y="132.5" font-size="15" text-anchor="end" fill="#24331b">11</text>
+<line x1="110" y1="90.0" x2="880" y2="90.0" stroke="#e4e1d6" stroke-width="1"/>
+<text x="100" y="95.0" font-size="15" text-anchor="end" fill="#24331b">12</text>
+<line x1="110" y1="540.0" x2="890" y2="540.0" stroke="#24331b" stroke-width="2"/>
+<line x1="110" y1="540" x2="110" y2="80" stroke="#24331b" stroke-width="2"/>
+<text x="885" y="530.0" font-size="16" text-anchor="end" fill="#24331b">hoeveelheid (fietsen)</text>
+<text x="102" y="70" font-size="16" text-anchor="start" fill="#24331b">prijs (honderd euro)</text>
+<line x1="110.0" y1="90.0" x2="687.5" y2="540.0" stroke="#3b6fa0" stroke-width="4"/>
+<line x1="302.5" y1="90.0" x2="880.0" y2="540.0" stroke="#3b6fa0" stroke-width="3"/>
+<line x1="110.0" y1="465.0" x2="591.25" y2="90.0" stroke="#b5651d" stroke-width="4"/>
+<line x1="110.0" y1="315.0" x2="398.75" y2="90.0" stroke="#b5651d" stroke-width="3"/>
+<line x1="206.25" y1="540.0" x2="783.75" y2="90.0" stroke="#b5651d" stroke-width="3"/>
+<text x="125.4" y="105.0" font-size="18" text-anchor="start" fill="#3b6fa0" font-weight="bold">V1</text>
+<text x="317.9" y="105.0" font-size="18" text-anchor="start" fill="#3b6fa0" font-weight="bold">V2</text>
+<text x="600.875" y="105.0" font-size="18" text-anchor="start" fill="#b5651d" font-weight="bold">A1</text>
+<text x="408.375" y="105.0" font-size="18" text-anchor="start" fill="#b5651d" font-weight="bold">A2</text>
+<text x="793.375" y="105.0" font-size="18" text-anchor="start" fill="#b5651d" font-weight="bold">A3</text>
+<circle cx="350.625" cy="277.5" r="7" fill="#24331b" stroke="#24331b" stroke-width="1"/>
+<circle cx="378.625" cy="303.5" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="378.625" y="310.5" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">E</text>
+<circle cx="446.875" cy="202.5" r="7" fill="#24331b" stroke="#24331b" stroke-width="1"/>
+<circle cx="474.875" cy="228.5" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="474.875" y="235.5" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">R</text>
+<circle cx="254.375" cy="202.5" r="7" fill="#24331b" stroke="#24331b" stroke-width="1"/>
+<circle cx="282.375" cy="228.5" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="282.375" y="235.5" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">S</text>
+<circle cx="350.625" cy="127.5" r="7" fill="#24331b" stroke="#24331b" stroke-width="1"/>
+<circle cx="378.625" cy="153.5" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="378.625" y="160.5" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">T</text>
+<circle cx="446.875" cy="352.5" r="7" fill="#24331b" stroke="#24331b" stroke-width="1"/>
+<circle cx="474.875" cy="378.5" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="474.875" y="385.5" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">U</text>
+</svg>
