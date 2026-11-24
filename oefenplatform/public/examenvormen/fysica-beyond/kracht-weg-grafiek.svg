@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">De kracht op een wagentje in functie van de verplaatsing</text>
+<line x1="130.0" y1="90" x2="130.0" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="130.0" y="564" font-size="15" text-anchor="middle" fill="#24331b">0</text>
+<line x1="240.0" y1="90" x2="240.0" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="240.0" y="564" font-size="15" text-anchor="middle" fill="#24331b">1</text>
+<line x1="350.0" y1="90" x2="350.0" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="350.0" y="564" font-size="15" text-anchor="middle" fill="#24331b">2</text>
+<line x1="460.0" y1="90" x2="460.0" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="460.0" y="564" font-size="15" text-anchor="middle" fill="#24331b">3</text>
+<line x1="570.0" y1="90" x2="570.0" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="570.0" y="564" font-size="15" text-anchor="middle" fill="#24331b">4</text>
+<line x1="680.0" y1="90" x2="680.0" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="680.0" y="564" font-size="15" text-anchor="middle" fill="#24331b">5</text>
+<line x1="790.0" y1="90" x2="790.0" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="790.0" y="564" font-size="15" text-anchor="middle" fill="#24331b">6</text>
+<line x1="900.0" y1="90" x2="900.0" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="900.0" y="564" font-size="15" text-anchor="middle" fill="#24331b">7</text>
+<line x1="130" y1="540.0" x2="900" y2="540.0" stroke="#e4e1d6" stroke-width="1"/>
+<text x="120" y="545.0" font-size="15" text-anchor="end" fill="#24331b">0</text>
+<line x1="130" y1="427.5" x2="900" y2="427.5" stroke="#e4e1d6" stroke-width="1"/>
+<text x="120" y="432.5" font-size="15" text-anchor="end" fill="#24331b">10</text>
+<line x1="130" y1="315.0" x2="900" y2="315.0" stroke="#e4e1d6" stroke-width="1"/>
+<text x="120" y="320.0" font-size="15" text-anchor="end" fill="#24331b">20</text>
+<line x1="130" y1="202.5" x2="900" y2="202.5" stroke="#e4e1d6" stroke-width="1"/>
+<text x="120" y="207.5" font-size="15" text-anchor="end" fill="#24331b">30</text>
+<line x1="130" y1="90.0" x2="900" y2="90.0" stroke="#e4e1d6" stroke-width="1"/>
+<text x="120" y="95.0" font-size="15" text-anchor="end" fill="#24331b">40</text>
+<line x1="130" y1="540.0" x2="910" y2="540.0" stroke="#24331b" stroke-width="2"/>
+<line x1="130" y1="540" x2="130" y2="80" stroke="#24331b" stroke-width="2"/>
+<text x="905" y="530.0" font-size="16" text-anchor="end" fill="#24331b">x (m)</text>
+<text x="122" y="70" font-size="16" text-anchor="start" fill="#24331b">F (N)</text>
+<path d="M 130.0 540.0 L 350.0 202.5 L 350.0 540.0 Z" fill="#f6c89f" fill-opacity="0.6"/>
+<path d="M 350.0 540.0 L 350.0 202.5 L 680.0 202.5 L 680.0 540.0 Z" fill="#bcd6ec" fill-opacity="0.6"/>
+<path d="M 680.0 540.0 L 680.0 202.5 L 790.0 540.0 Z" fill="#c7e3bf" fill-opacity="0.6"/>
+<path d="M 130.0 540.0 L 350.0 202.5 L 680.0 202.5 L 790.0 540.0" fill="none" stroke="#24331b" stroke-width="4"/>
+<circle cx="284.0" cy="427.5" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="284.0" y="434.5" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<circle cx="515.0" cy="371.25" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="515.0" y="378.25" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<circle cx="713.0" cy="450.0" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="713.0" y="457.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+</svg>

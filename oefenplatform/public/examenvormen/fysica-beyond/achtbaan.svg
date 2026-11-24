@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Een karretje vertrekt uit rust in P en rijdt zonder wrijving over de baan</text>
+<line x1="100" y1="570" x2="100" y2="95" stroke="#24331b" stroke-width="2"/>
+<line x1="94" y1="570" x2="106" y2="570" stroke="#24331b" stroke-width="2"/>
+<text x="86" y="576" font-size="15" text-anchor="end" fill="#24331b">0 m</text>
+<line x1="94" y1="475" x2="106" y2="475" stroke="#24331b" stroke-width="2"/>
+<text x="86" y="481" font-size="15" text-anchor="end" fill="#24331b">5 m</text>
+<line x1="94" y1="380" x2="106" y2="380" stroke="#24331b" stroke-width="2"/>
+<text x="86" y="386" font-size="15" text-anchor="end" fill="#24331b">10 m</text>
+<line x1="94" y1="285" x2="106" y2="285" stroke="#24331b" stroke-width="2"/>
+<text x="86" y="291" font-size="15" text-anchor="end" fill="#24331b">15 m</text>
+<line x1="94" y1="190" x2="106" y2="190" stroke="#24331b" stroke-width="2"/>
+<text x="86" y="196" font-size="15" text-anchor="end" fill="#24331b">20 m</text>
+<line x1="94" y1="95" x2="106" y2="95" stroke="#24331b" stroke-width="2"/>
+<text x="86" y="101" font-size="15" text-anchor="end" fill="#24331b">25 m</text>
+<path d="M 140 190 C 260 190 300 570 400 570 C 500 570 520 380 600 380 C 680 380 690 513 760 513 C 830 513 840 285 900 285 L 960 285" fill="none" stroke="#24331b" stroke-width="5"/>
+<line x1="100" y1="590" x2="980" y2="590" stroke="#b9b9b9" stroke-width="2"/>
+<circle cx="140" cy="190" r="9" fill="#b5651d" stroke="#24331b" stroke-width="2"/>
+<circle cx="140" cy="152" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="140" y="159" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">P</text>
+<circle cx="400" cy="570" r="9" fill="#b5651d" stroke="#24331b" stroke-width="2"/>
+<circle cx="400" cy="532" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="400" y="539" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">Q</text>
+<circle cx="600" cy="380" r="9" fill="#b5651d" stroke="#24331b" stroke-width="2"/>
+<circle cx="600" cy="342" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="600" y="349" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">R</text>
+<circle cx="900" cy="285" r="9" fill="#b5651d" stroke="#24331b" stroke-width="2"/>
+<circle cx="900" cy="247" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="900" y="254" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">S</text>
+</svg>
