@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Bouw van een zaadcel (sterk vergroot)</text>
+<ellipse cx="230" cy="320" rx="90" ry="60" fill="#cfe3f0" stroke="#24331b" stroke-width="2"/>
+<path d="M150 290 Q 120 320 150 350 Q 175 320 150 290 Z" fill="#f2c14e" stroke="#24331b" stroke-width="2"/>
+<ellipse cx="240" cy="320" rx="45" ry="32" fill="#8a6db0" stroke="none" stroke-width="0"/>
+<rect x="318" y="300" width="130" height="40" rx="10" fill="#f2a66a" stroke="#24331b" stroke-width="2"/>
+<path d="M330 305 q 6 15 0 30" fill="none" stroke="#24331b" stroke-width="1.5"/>
+<path d="M348 305 q 6 15 0 30" fill="none" stroke="#24331b" stroke-width="1.5"/>
+<path d="M366 305 q 6 15 0 30" fill="none" stroke="#24331b" stroke-width="1.5"/>
+<path d="M384 305 q 6 15 0 30" fill="none" stroke="#24331b" stroke-width="1.5"/>
+<path d="M402 305 q 6 15 0 30" fill="none" stroke="#24331b" stroke-width="1.5"/>
+<path d="M420 305 q 6 15 0 30" fill="none" stroke="#24331b" stroke-width="1.5"/>
+<path d="M438 305 q 6 15 0 30" fill="none" stroke="#24331b" stroke-width="1.5"/>
+<path d="M448 320 C 540 260 600 380 690 320 C 780 260 840 380 940 320" fill="none" stroke="#24331b" stroke-width="4"/>
+<line x1="140" y1="250" x2="150" y2="290" stroke="#24331b" stroke-width="1"/>
+<line x1="240" y1="400" x2="240" y2="352" stroke="#24331b" stroke-width="1"/>
+<line x1="383" y1="380" x2="383" y2="340" stroke="#24331b" stroke-width="1"/>
+<circle cx="130" cy="230" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="130" y="237" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<circle cx="240" cy="420" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="240" y="427" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<circle cx="383" cy="400" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="383" y="407" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<circle cx="800" cy="410" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="800" y="417" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">D</text>
+</svg>
