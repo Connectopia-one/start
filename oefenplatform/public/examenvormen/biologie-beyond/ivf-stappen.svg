@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Een IVF-behandeling in vier stappen (schematisch)</text>
+<rect x="30" y="110" width="220" height="420" rx="16" fill="#fbf6ea" stroke="#24331b" stroke-width="2"/>
+<line x1="255" y1="320" x2="275" y2="320" stroke="#24331b" stroke-width="2"/>
+<polygon points="275,320 260.3,326.2 260.3,313.8" fill="#24331b"/>
+<rect x="270" y="110" width="220" height="420" rx="16" fill="#fbf6ea" stroke="#24331b" stroke-width="2"/>
+<line x1="495" y1="320" x2="515" y2="320" stroke="#24331b" stroke-width="2"/>
+<polygon points="515,320 500.3,326.2 500.3,313.8" fill="#24331b"/>
+<rect x="510" y="110" width="220" height="420" rx="16" fill="#fbf6ea" stroke="#24331b" stroke-width="2"/>
+<line x1="735" y1="320" x2="755" y2="320" stroke="#24331b" stroke-width="2"/>
+<polygon points="755,320 740.3,326.2 740.3,313.8" fill="#24331b"/>
+<rect x="750" y="110" width="220" height="420" rx="16" fill="#fbf6ea" stroke="#24331b" stroke-width="2"/>
+<ellipse cx="140" cy="330" rx="80" ry="55" fill="#f3c6d0" stroke="#24331b" stroke-width="2"/>
+<circle cx="100" cy="315" r="13" fill="#fff3d6" stroke="#24331b" stroke-width="1"/>
+<circle cx="130" cy="305" r="13" fill="#fff3d6" stroke="#24331b" stroke-width="1"/>
+<circle cx="165" cy="315" r="13" fill="#fff3d6" stroke="#24331b" stroke-width="1"/>
+<circle cx="110" cy="350" r="13" fill="#fff3d6" stroke="#24331b" stroke-width="1"/>
+<circle cx="145" cy="345" r="13" fill="#fff3d6" stroke="#24331b" stroke-width="1"/>
+<circle cx="180" cy="348" r="13" fill="#fff3d6" stroke="#24331b" stroke-width="1"/>
+<text x="140" y="450" font-size="14" text-anchor="middle" fill="#24331b">hormonen</text>
+<ellipse cx="380" cy="380" rx="60" ry="40" fill="#f3c6d0" stroke="#24331b" stroke-width="2"/>
+<circle cx="370" cy="375" r="12" fill="#fff3d6" stroke="#24331b" stroke-width="1"/>
+<line x1="300" y1="180" x2="365" y2="365" stroke="#d9d4c4" stroke-width="4"/>
+<rect x="285" y="150" width="30" height="40" rx="4" fill="#dde6ee" stroke="#24331b" stroke-width="1.5"/>
+<ellipse cx="620" cy="340" rx="85" ry="30" fill="#e6f0f7" stroke="#24331b" stroke-width="2"/>
+<circle cx="620" cy="335" r="16" fill="#fff3d6" stroke="#24331b" stroke-width="1.5"/>
+<circle cx="565" cy="340" r="4" fill="#3b6fa0" stroke="none" stroke-width="0"/>
+<line x1="565" y1="340" x2="557" y2="330" stroke="#3b6fa0" stroke-width="1.5"/>
+<circle cx="580" cy="340" r="4" fill="#3b6fa0" stroke="none" stroke-width="0"/>
+<line x1="580" y1="340" x2="572" y2="330" stroke="#3b6fa0" stroke-width="1.5"/>
+<circle cx="660" cy="340" r="4" fill="#3b6fa0" stroke="none" stroke-width="0"/>
+<line x1="660" y1="340" x2="668" y2="330" stroke="#3b6fa0" stroke-width="1.5"/>
+<circle cx="672" cy="340" r="4" fill="#3b6fa0" stroke="none" stroke-width="0"/>
+<line x1="672" y1="340" x2="680" y2="330" stroke="#3b6fa0" stroke-width="1.5"/>
+<path d="M790 220 C 820 205 900 205 930 220 C 940 300 900 380 875 400 L 845 400 C 820 380 780 300 790 220 Z" fill="#f3c6d0" stroke="#24331b" stroke-width="2"/>
+<circle cx="860" cy="280" r="12" fill="#fff3d6" stroke="#24331b" stroke-width="1.5"/>
+<line x1="860" y1="500" x2="860" y2="300" stroke="#d9d4c4" stroke-width="4"/>
+<circle cx="140" cy="145" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="140" y="152" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">P</text>
+<circle cx="380" cy="145" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="380" y="152" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">Q</text>
+<circle cx="620" cy="145" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="620" y="152" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">R</text>
+<circle cx="860" cy="145" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="860" y="152" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">S</text>
+</svg>
