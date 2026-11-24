@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Het profiel van Lies op de Big Five</text>
+<text x="420" y="90" font-size="18" text-anchor="start" fill="#d9d4c4">laag</text>
+<text x="900" y="90" font-size="18" text-anchor="end" fill="#d9d4c4">hoog</text>
+<text x="400" y="162" font-size="21" text-anchor="end" fill="#24331b">openheid voor ervaringen</text>
+<rect x="420" y="130" width="480" height="50" rx="6" fill="#f4f4f2" stroke="#d9d4c4" stroke-width="1"/>
+<rect x="420" y="130" width="432.0" height="50" rx="6" fill="#c4d5b5" stroke="#24331b" stroke-width="2"/>
+<text x="400" y="257" font-size="21" text-anchor="end" fill="#24331b">zorgvuldigheid</text>
+<rect x="420" y="225" width="480" height="50" rx="6" fill="#f4f4f2" stroke="#d9d4c4" stroke-width="1"/>
+<rect x="420" y="225" width="96.0" height="50" rx="6" fill="#c4d5b5" stroke="#24331b" stroke-width="2"/>
+<text x="400" y="352" font-size="21" text-anchor="end" fill="#24331b">extraversie</text>
+<rect x="420" y="320" width="480" height="50" rx="6" fill="#f4f4f2" stroke="#d9d4c4" stroke-width="1"/>
+<rect x="420" y="320" width="408.0" height="50" rx="6" fill="#c4d5b5" stroke="#24331b" stroke-width="2"/>
+<text x="400" y="447" font-size="21" text-anchor="end" fill="#24331b">vriendelijkheid</text>
+<rect x="420" y="415" width="480" height="50" rx="6" fill="#f4f4f2" stroke="#d9d4c4" stroke-width="1"/>
+<rect x="420" y="415" width="240.0" height="50" rx="6" fill="#c4d5b5" stroke="#24331b" stroke-width="2"/>
+<text x="400" y="542" font-size="21" text-anchor="end" fill="#24331b">neuroticisme</text>
+<rect x="420" y="510" width="480" height="50" rx="6" fill="#f4f4f2" stroke="#d9d4c4" stroke-width="1"/>
+<rect x="420" y="510" width="72.0" height="50" rx="6" fill="#c4d5b5" stroke="#24331b" stroke-width="2"/>
+</svg>
