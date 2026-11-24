@@ -1,0 +1,152 @@
+"""Verzekeringen, een schadegeval en de polis — pittig
+(🌍 Beyond doorstroom, samenleving en economie). Eigen vragen met fictieve situaties."""
+from .vormen import J, F, mk, inv, tabel, keuze, volgorde, koppel, sorteer, sleep, open_, casus
+
+VRAGEN = [
+    casus(
+        "Uittreksel uit een polis. 'Verzekeraar: Veilig Thuis nv. Verzekeringsnemer: "
+        "Karen Wouters. Verzekerden: Karen Wouters en haar zoon Jonas (12), die bij haar "
+        "inwoont. Soort: familiale verzekering. Verzekerd risico: schade die de verzekerden "
+        "in het privéleven aan derden toebrengen. Franchise: 300 euro. Jaarpremie: 110 euro.' "
+        "Jonas trapt bij het voetballen een bal door het raam van de buurvrouw. De schade is "
+        "850 euro. De buurman zag het gebeuren.",
+        [
+            tabel("Wie is wie?", [
+                ("Karen", "verzekeringsnemer"),
+                ("Veilig Thuis nv", "verzekeraar"),
+                ("de buurvrouw", "benadeelde"),
+            ], "De nemer sluit af en betaalt; de verzekeraar draagt het risico.",
+               kolommen=["verzekeringsnemer", "verzekeraar", "benadeelde"]),
+            keuze("Jonas is [[*verantwoordelijk|juridisch aansprakelijk]]; zijn moeder is [[*juridisch aansprakelijk|enkel getuige]].",
+                  "Het kind deed het; de ouders moeten volgens de wet de schade vergoeden."),
+            inv("Hoeveel betaalt de verzekeraar, in euro?", ["550", "550 euro"], "850 min de franchise van 300."),
+            mk("Welke rol speelt de buurman in de schadeaangifte?",
+               ["Hij is de getuige",
+                "Hij is de verzekeringsnemer",
+                "Hij is de verzekeraar",
+                "Hij is juridisch aansprakelijk"], 0,
+               "Een getuige helpt vast te stellen wat er gebeurd is."),
+        ],
+    ),
+    tabel("Welke verzekering komt hier in beeld?", [
+        ("Je rijdt met de auto van je ouders tegen een geparkeerde wagen.", "auto"),
+        ("Je brommer schuift uit en raakt een fietser.", "bromfiets"),
+        ("Een bliksemschicht zet je dak in brand.", "brand"),
+        ("Je hebt een advocaat nodig na een conflict met een aannemer.", "rechtsbijstand"),
+    ], "Vijf verzekeringen: auto, bromfiets, brand, familiale en rechtsbijstand.",
+       kolommen=["auto", "bromfiets", "brand", "rechtsbijstand"]),
+    koppel("Koppel elk begrip uit de polis aan zijn betekenis.", [
+        ["premie", "wat je betaalt om verzekerd te zijn"],
+        ["franchise", "het deel van de schade dat je zelf draagt"],
+        ["verzekerd risico", "waartegen je precies verzekerd bent"],
+        ["begunstigde", "wie de uitbetaling ontvangt"],
+    ], ["wie de schade zag gebeuren"], "De getuige staat in de schadeaangifte, niet in de polis."),
+    inv("Je hebt 2 300 euro schade en een franchise van 175 euro. Hoeveel krijg je uitbetaald, in euro?",
+        ["2125", "2 125", "2125 euro"], "2 300 min 175."),
+    inv("Je hebt 120 euro schade en een franchise van 250 euro. Hoeveel krijg je uitbetaald, in euro?",
+        ["0", "niets", "0 euro"], "De schade is kleiner dan de franchise: je draagt alles zelf."),
+    sorteer("Hoort dit in de polis of in de schadeaangifte?", ["Polis", "Schadeaangifte"], [
+        ["de franchise", "Polis"],
+        ["de getuige", "Schadeaangifte"],
+        ["de verzekeringsnemer", "Polis"],
+        ["de datum en het uur van het ongeval", "Schadeaangifte"],
+        ["de aard van de schade", "Schadeaangifte"],
+    ], "De polis is het contract; de schadeaangifte beschrijft één schadegeval."),
+    mk("Waarom gaat een hogere franchise meestal samen met een lagere premie?",
+       ["Je draagt zelf meer, dus de verzekeraar minder",
+        "De verzekeraar betaalt dan ook de kleine schades",
+        "De premie hangt enkel af van je leeftijd",
+        "Een hoge franchise is verboden bij een familiale"], 0,
+       "Kleine schades lopen niet meer via de verzekering."),
+    tabel("Klopt dit over verzekeringen?", [
+        ("De familiale dekt de schade die je met je auto veroorzaakt.", F),
+        ("Verzekeringsnemer en verzekerde kunnen verschillende personen zijn.", J),
+        ("Wat niet in het verzekerd risico staat, wordt niet uitbetaald.", J),
+        ("De premie is het bedrag dat je bij schade ontvangt.", F),
+    ], "De premie betaal je; de schadevergoeding ontvang je."),
+    keuze("Een verzekering sluit je af om een schade te kunnen dragen die je [[*zelf niet zou kunnen betalen|altijd zelf kan betalen|nooit zal hebben]].",
+          "Een kleine premie beschermt je tegen een grote kost."),
+    mk("Een kind van acht beschadigt met zijn fiets de wagen van een buur. Wie is juridisch aansprakelijk?",
+       ["De ouders",
+        "Het kind zelf",
+        "De buur",
+        "De school van het kind"], 0,
+       "Het kind is verantwoordelijk, de ouders aansprakelijk."),
+    volgorde("Er gebeurt een schadegeval. Zet deze stappen in een logische volgorde.", [
+        "de gegevens noteren: datum, uur, plaats en getuigen",
+        "de schadeaangifte invullen",
+        "de aangifte aan de verzekeraar bezorgen",
+        "de verzekeraar betaalt de schade min de franchise",
+    ], "Een volledige aangifte versnelt de afhandeling."),
+    tabel("Welke gegevens vul je in op een schadeaangifte?", [
+        ("de getuige", J),
+        ("de aard van de schade", J),
+        ("de juridisch aansprakelijke", J),
+        ("je rapportcijfers", F),
+    ], "Datum en uur, aard van de schade, aansprakelijke, getuige, verzekeringsnemer en begunstigde."),
+    sleep("Wie het contract afsluit en de premie betaalt, is de [[verzekeringsnemer]]. De maatschappij die het risico draagt, is de [[verzekeraar]].",
+          ["begunstigde", "getuige"], "Nemer en verzekerde kunnen verschillen."),
+    mk("Een vader neemt een autoverzekering voor de wagen die zijn dochter rijdt. Wie is wie?",
+       ["De vader is nemer, de dochter verzekerde",
+        "De dochter is nemer, de vader verzekeraar",
+        "De vader is verzekeraar, de dochter nemer",
+        "Ze zijn allebei verzekeraar"], 0,
+       "De verzekeraar is altijd de maatschappij."),
+    tabel("Is dit verantwoordelijk of juridisch aansprakelijk?", [
+        ("wie de schade veroorzaakte", "verantwoordelijk"),
+        ("wie volgens de wet de schade moet vergoeden", "juridisch aansprakelijk"),
+        ("de ouders van een kind dat iets brak", "juridisch aansprakelijk"),
+    ], "Bij een kind vallen die twee uit elkaar.", kolommen=["verantwoordelijk", "juridisch aansprakelijk"]),
+    keuze("Een hospitalisatieverzekering [[*hoort niet|hoort wel]] bij de vijf verzekeringen van dit hoofdstuk.",
+          "Auto, bromfiets, brand, familiale en rechtsbijstand."),
+    mk("Twee chauffeurs zijn het oneens over wie door het rood reed. Wat helpt de verzekeraars het meest?",
+       ["Een getuige in de aangifte",
+        "Een hogere premie voor beide chauffeurs",
+        "Een lagere franchise in beide polissen",
+        "Een rechtsbijstandsverzekering van de getuige"], 0,
+       "Een getuige helpt achteraf vast te stellen wat er gebeurde."),
+    casus(
+        "Tijdens een storm waait een boom uit de tuin van Ahmed op de veranda van zijn buren. "
+        "Ahmed heeft een brandverzekering met een franchise van 280 euro. De schade aan de "
+        "veranda is 3 400 euro. De buren willen ook een advocaat omdat ze vinden dat de boom "
+        "al lang gevaarlijk was.",
+        [
+            inv("Hoeveel betaalt de verzekeraar als de schade gedekt is, in euro?", ["3120", "3 120", "3120 euro"], "3 400 min 280."),
+            keuze("De kosten van een advocaat in dit geschil worden gedekt door een [[*rechtsbijstandsverzekering|bromfietsverzekering|autoverzekering]].",
+                  "Rechtsbijstand betaalt de kosten van een juridische procedure."),
+            mk("Wat moet er zeker in de schadeaangifte staan?",
+               ["Datum, uur en aard van de schade",
+                "Het rijksregisternummer van alle buren",
+                "De jaarpremie van alle buren",
+                "De kleur van de veranda"], 0,
+               "Datum en uur, aard van de schade, aansprakelijke, getuige en de partijen."),
+        ],
+    ),
+    koppel("Koppel elke verzekering aan wat ze dekt.", [
+        ["familiale", "schade die je gezin in het dagelijks leven aan anderen toebrengt"],
+        ["brandverzekering", "schade aan je woning door brand, storm of water"],
+        ["rechtsbijstand", "de kosten van een advocaat en een procedure"],
+        ["autoverzekering", "schade die je met je auto aan anderen toebrengt"],
+    ], ["je loon als je werkloos wordt"], "Vier van de vijf verzekeringen."),
+    tabel("Bij welke verzekering hoort deze schade?", [
+        ("Je zoon trapt een bal tegen de fiets van een voorbijganger.", "familiale"),
+        ("Een kortsluiting veroorzaakt brand in je keuken.", "brand"),
+        ("Met je brommer rijd je een spiegel van een auto af.", "bromfiets"),
+    ], "Elke schade hoort bij een eigen verzekering.", kolommen=["familiale", "brand", "bromfiets"]),
+    inv("Je betaalt 18 euro premie per maand. Hoeveel is dat per jaar, in euro?", ["216", "216 euro"], "12 maal 18."),
+    keuze("Wat je betaalt om verzekerd te zijn, heet de [[*premie|franchise|schadevergoeding]].",
+          "De franchise is het deel van de schade dat je zelf draagt."),
+    tabel("Wat gebeurt er met de premie?", [
+        ("je kiest een hogere franchise", "daalt meestal"),
+        ("je kiest een lagere franchise", "stijgt meestal"),
+        ("je wil ook kleine schades vergoed krijgen", "stijgt meestal"),
+    ], "Hoe meer je zelf draagt, hoe minder de verzekeraar loopt.", kolommen=["stijgt meestal", "daalt meestal"]),
+    mk("In de polis staat enkel 'schade door brand'. Je fiets wordt gestolen. Wat gebeurt er?",
+       ["De verzekeraar betaalt niet",
+        "De verzekeraar betaalt de helft",
+        "De verzekeraar betaalt alles min de franchise",
+        "De getuige betaalt de schade"], 0,
+       "Diefstal staat niet bij het verzekerd risico."),
+    open_("Leg met het voorbeeld van Jonas uit waarom verantwoordelijk en juridisch aansprakelijk niet hetzelfde zijn.",
+          "Jonas trapte de bal en is dus verantwoordelijk. Omdat hij een kind is, zijn zijn ouders volgens de wet aansprakelijk: zij moeten de schade vergoeden, en hun familiale verzekering betaalt dat (min de franchise)."),
+]
