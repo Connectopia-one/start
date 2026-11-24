@@ -51,7 +51,7 @@ EIGEN = [
                 "Haar witte bloedcellen werden groter door de kou",
                 "Haar bloedplaatjes hielden extra zuurstof vast"], 0,
                "Bij zuurstoftekort maken de nieren meer EPO en het rode beenmerg meer rode bloedcellen."),
-            tabel("Klopt dit?", [
+            tabel("Klopt dit over de hematocriet van Amira?", [
                 ("De hematocriet is het percentage rode bloedcellen in het bloed.", J),
                 ("Een te hoge hematocriet maakt het bloed dikker.", J),
                 ("Meer rode bloedcellen is altijd beter.", F),

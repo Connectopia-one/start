@@ -123,7 +123,7 @@ EIGEN = [
           "Het hart klopt ook zonder zenuw, maar het zenuwstelsel versnelt of vertraagt."),
     klik("Klik op het bloedvat waarin de druk het hoogst is.", HT.bestand, ZH["E"],
          "De aorta krijgt het bloed rechtstreeks uit de linkerkamer, de sterkste pomp."),
-    met_prent(HT.bestand, tabel("Kijk naar de letters. Klopt dit?", [
+    met_prent(HT.bestand, tabel("Kijk naar de letters in het hart. Klopt dit?", [
         ("G en H zijn atrioventriculaire kleppen.", J),
         ("E is een ader, want het bloed gaat naar het lichaam.", F),
         ("C pompt het bloed door de kleine bloedsomloop.", J),

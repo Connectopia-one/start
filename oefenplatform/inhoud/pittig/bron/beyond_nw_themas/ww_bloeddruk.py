@@ -30,7 +30,7 @@ EIGEN = [
          "Aan het einde is de bloeddruk gezakt. De plasma-eiwitten trekken dan water terug in het bloed."),
     klik("Klik op het vaatje dat het overtollige weefselvocht afvoert.", HV.bestand, ZV["S"],
          "Een lymfecapillair begint blind tussen de cellen en neemt het overschot op. Daarin heet het lymfe."),
-    met_prent(HV.bestand, tabel("Kijk naar de letters. Klopt dit?", [
+    met_prent(HV.bestand, tabel("Kijk naar het haarvat en het vaatje S. Klopt dit?", [
         ("In S zitten kleppen verderop, zodat de lymfe één kant op stroomt.", J),
         ("De bloeddruk is in R hoger dan in P.", F),
         ("De vloeistof in S komt via de borstbuis uiteindelijk terug in het bloed.", J),

@@ -41,6 +41,12 @@ export const nieuwTekst = {
 export const updates: Update[] = [
   {
     datum: "24 november 2026",
+    titel: "Pittige hoofdstukken natuurwetenschappen in Beyond doorstroom",
+    tekst:
+      "Natuurwetenschappen in Beyond doorstroom heeft nu bij elk van de 28 onderwerpen een pittig hoofdstuk van 30 vragen, in examenvorm: van de cel, erfelijkheid, evolutie en afweer over reactiesnelheid, evenwicht en organische stoffen tot elektriciteit, magnetisme, bewegingen, golven, straling, veilig werken en onderzoek. Ook de zeven onderwerpen voor welzijnswetenschappen (enzymen, spijsvertering, nieren, bloed, hart, bloeddruk en ademhaling) hebben er een. Bij veel onderwerpen zijn er tekeningen en grafieken waarop je moet klikken, zoals een nefron, een hart of een spirogram.",
+  },
+  {
+    datum: "24 november 2026",
     titel: "Pittige hoofdstukken Frans in Beyond doorstroom",
     tekst:
       "Frans in Beyond doorstroom heeft nu bij elk van de 13 onderwerpen een pittig hoofdstuk van 30 vragen, in examenvorm: Franse teksten lezen, tekstsoorten, cultuur en literatuur, formele en gewone mails schrijven, de woordvelden van gezondheid en wonen tot werk, reizen en milieu, en de grammatica van lidwoorden en voornaamwoorden over de verleden tijden en de subjonctif tot de indirecte rede en de passieve vorm. Bij elk onderwerp lees je ook een Franse tekst, zoals een mail, een advertentie of een krantenbericht.",
