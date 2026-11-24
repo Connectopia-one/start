@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Rode bloedcellen in drie oplossingen</text>
+<path d="M60 160 L 70 520 L 290 520 L 300 160" fill="#e7f1fa" stroke="#24331b" stroke-width="3"/>
+<circle cx="180" cy="570" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="180" y="577" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">K</text>
+<path d="M380 160 L 390 520 L 610 520 L 620 160" fill="#e7f1fa" stroke="#24331b" stroke-width="3"/>
+<circle cx="500" cy="570" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="500" y="577" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">L</text>
+<path d="M700 160 L 710 520 L 930 520 L 940 160" fill="#e7f1fa" stroke="#24331b" stroke-width="3"/>
+<circle cx="820" cy="570" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="820" y="577" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">M</text>
+<path d="M150 330 q 15 -30 30 -10 q 20 -25 30 5 q 25 10 5 30 q 10 30 -25 20 q -20 25 -35 0 q -30 0 -15 -25 q -20 -15 10 -20 Z" fill="#d9534f" stroke="#24331b" stroke-width="2"/>
+<ellipse cx="500" cy="340" rx="60" ry="40" fill="#d9534f" stroke="#24331b" stroke-width="2"/>
+<ellipse cx="500" cy="340" rx="24" ry="14" fill="#e88a87" stroke="none" stroke-width="0"/>
+<circle cx="820" cy="340" r="70" fill="#e88a87" stroke="#24331b" stroke-width="2"/>
+<circle cx="120" cy="220" r="4" fill="#5b8bc0" stroke="none" stroke-width="0"/>
+<circle cx="220" cy="200" r="4" fill="#5b8bc0" stroke="none" stroke-width="0"/>
+<circle cx="130" cy="460" r="4" fill="#5b8bc0" stroke="none" stroke-width="0"/>
+<circle cx="240" cy="450" r="4" fill="#5b8bc0" stroke="none" stroke-width="0"/>
+<circle cx="440" cy="220" r="4" fill="#5b8bc0" stroke="none" stroke-width="0"/>
+<circle cx="540" cy="200" r="4" fill="#5b8bc0" stroke="none" stroke-width="0"/>
+<circle cx="450" cy="460" r="4" fill="#5b8bc0" stroke="none" stroke-width="0"/>
+<circle cx="560" cy="450" r="4" fill="#5b8bc0" stroke="none" stroke-width="0"/>
+<circle cx="760" cy="220" r="4" fill="#5b8bc0" stroke="none" stroke-width="0"/>
+<circle cx="860" cy="200" r="4" fill="#5b8bc0" stroke="none" stroke-width="0"/>
+<circle cx="770" cy="460" r="4" fill="#5b8bc0" stroke="none" stroke-width="0"/>
+<circle cx="880" cy="450" r="4" fill="#5b8bc0" stroke="none" stroke-width="0"/>
+</svg>
