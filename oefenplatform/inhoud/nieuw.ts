@@ -41,6 +41,12 @@ export const nieuwTekst = {
 export const updates: Update[] = [
   {
     datum: "24 november 2026",
+    titel: "Pittige hoofdstukken Engels in Boost",
+    tekst:
+      "Engels in Boost doorstroom (13 onderwerpen) en in Boost dubbele finaliteit (14 onderwerpen) heeft nu bij elk onderwerp een pittig hoofdstuk van 30 vragen, in examenvorm: van tekstanalyse, tekstsoorten en schrijven over de Engelstalige wereld en woordvelden tot nouns, pronouns, adjectives, de tijden en zinsbouw. In doorstroom ook de modal verbs, in dubbele finaliteit ook spreken en klank en spelling. Met leesteksten, aanvulzinnen, sleepvragen en sorteeroefeningen.",
+  },
+  {
+    datum: "24 november 2026",
     titel: "Pittige hoofdstukken natuurwetenschappen in Boost dubbele finaliteit",
     tekst:
       "Natuurwetenschappen in Boost dubbele finaliteit heeft nu bij elk van de 13 onderwerpen een pittig hoofdstuk van 30 vragen, in examenvorm: van feedback en homeostase, micro-organismen en voortplanting over mengsels, reacties en atomen tot energie, warmte, krachten, druk, elektriciteit, veilig werken en onderzoek. Met casussen, rekenvragen en klikvragen op prenten, zoals een schema van de temperatuurregeling.",

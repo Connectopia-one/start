@@ -1,0 +1,5242 @@
+{
+  "hoofdstukken": [
+    {
+      "titel": "Een Engelse tekst analyseren — pittig",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "casus": "Read the text.\n\n(1) Last summer, the town of Kingsford closed its main street to cars every Saturday. (2) The council hoped that more people would walk and cycle to the shops. (3) At first, many shop owners were worried. They thought customers would stay away. (4) After three months, however, most shops sold more than before. (5) Only the hardware store lost customers, because people could not carry heavy things to their cars. (6) The council has now decided to keep the car-free Saturdays, but it will open a small car park near the hardware store.",
+          "vragen": [
+            {
+              "type": "meerkeuze",
+              "vraag": "Wat is de hoofdgedachte van de tekst?",
+              "opties": [
+                "De autovrije zaterdag is een succes.",
+                "Winkeliers willen absoluut geen autovrije straat.",
+                "De ijzerwinkel moet verhuizen naar een parking.",
+                "Fietsen is veel gezonder dan autorijden."
+              ],
+              "antwoord": 0,
+              "uitleg": "Zin 4 en 6: de meeste winkels verkopen meer, en het plan blijft."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Welk verband legt however in zin 4?",
+              "opties": [
+                "een tegenstelling",
+                "een voorbeeld bij zin 3",
+                "een oorzaak van zin 3",
+                "een opsomming na zin 3"
+              ],
+              "antwoord": 0,
+              "uitleg": "De winkeliers waren bang, maar het liep anders af."
+            },
+            {
+              "type": "tabel",
+              "vraag": "Staat dit in de tekst?",
+              "rijen": [
+                "De straat is elke dag autovrij.",
+                "De ijzerwinkel verloor klanten.",
+                "Er komt een kleine parking bij de ijzerwinkel.",
+                "Alle winkeliers waren van in het begin tevreden."
+              ],
+              "antwoord": [
+                false,
+                true,
+                true,
+                false
+              ],
+              "uitleg": "Lees nauwkeurig: every Saturday, at first many were worried."
+            },
+            {
+              "type": "invultekst",
+              "vraag": "Naar welk woord verwijst They in zin 3? Schrijf het Engelse woord of de woordgroep.",
+              "antwoord": [
+                "shop owners",
+                "many shop owners",
+                "the shop owners"
+              ],
+              "uitleg": "They verwijst naar de shop owners uit de zin ervoor."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Waarom komt er een parking bij de ijzerwinkel?",
+              "opties": [
+                "Klanten kunnen zware spullen niet ver dragen.",
+                "De gemeente wil weer auto's in de straat.",
+                "De ijzerwinkel verkoopt meer dan andere winkels.",
+                "Er is te weinig plaats voor fietsen."
+              ],
+              "antwoord": 0,
+              "uitleg": "Zin 5 geeft de reden, zin 6 de oplossing."
+            }
+          ]
+        },
+        {
+          "casus": "Read the advertisement.\n\nSUMMER JOBS AT GREENWAY ZOO\nAre you 16 or older? Do you love animals? We are looking for students to help in our café and gift shop from 1 July to 31 August. You will work four days a week, from 10 a.m. to 4 p.m. Weekend work is paid extra. You don't need any experience, but you must speak English and one other language. Free entrance for your family during the summer!\nSend your CV and a short letter to jobs@greenwayzoo.co.uk before 15 May.",
+          "vragen": [
+            {
+              "type": "tabel",
+              "vraag": "Kan deze persoon solliciteren?",
+              "rijen": [
+                "Sara, 15 jaar, spreekt Engels en Frans.",
+                "Milan, 17 jaar, spreekt Engels en Nederlands, nog nooit gewerkt.",
+                "Jonas, 18 jaar, spreekt enkel Engels."
+              ],
+              "antwoord": [
+                false,
+                true,
+                false
+              ],
+              "uitleg": "Je moet 16 zijn en twee talen spreken; ervaring is niet nodig."
+            },
+            {
+              "type": "invultekst",
+              "vraag": "Hoeveel uur werk je per dag? Schrijf het getal.",
+              "antwoord": [
+                "6",
+                "zes",
+                "6 uur"
+              ],
+              "uitleg": "From 10 a.m. to 4 p.m. is zes uur."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Wat krijgt je familie?",
+              "opties": [
+                "gratis toegang in de zomer",
+                "korting in het café van de zoo",
+                "een gratis jaarabonnement voor de zoo",
+                "extra loon voor elk weekend"
+              ],
+              "antwoord": 0,
+              "uitleg": "Free entrance for your family during the summer."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Wat moet je opsturen?",
+              "opties": [
+                "een cv en een korte brief",
+                "enkel een foto van jezelf",
+                "een diploma en een rapport",
+                "een brief van je ouders"
+              ],
+              "antwoord": 0,
+              "uitleg": "Send your CV and a short letter."
+            },
+            {
+              "type": "invultekst",
+              "vraag": "Tot wanneer kan je solliciteren? Schrijf de datum zoals in de tekst.",
+              "antwoord": [
+                "15 May",
+                "15 may",
+                "before 15 May"
+              ],
+              "uitleg": "Before 15 May: daarna is het te laat."
+            }
+          ]
+        },
+        {
+          "casus": "Read the two messages.\n\nMessage A – from Lily: Hi Tom! Are you still coming to the cinema on Friday? The film starts at 8, so let's meet at the station at 7.30. My sister is coming too, I hope that's OK.\n\nMessage B – from Tom: Hi Lily, sorry, I can't make it on Friday. My grandma is visiting us. What about Saturday afternoon? There's a show at 3. Say hi to your sister!",
+          "vragen": [
+            {
+              "type": "tabel",
+              "vraag": "Klopt dit?",
+              "rijen": [
+                "Tom gaat op vrijdag mee naar de film.",
+                "Lily's zus gaat ook mee.",
+                "Tom stelt zaterdagnamiddag voor."
+              ],
+              "antwoord": [
+                false,
+                true,
+                true
+              ],
+              "uitleg": "Tom kan vrijdag niet en stelt zelf een ander moment voor."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Waarom kan Tom vrijdag niet?",
+              "opties": [
+                "Zijn oma komt op bezoek.",
+                "Hij moet die avond werken in de zoo.",
+                "Hij vindt de film helemaal niet goed.",
+                "Hij is ziek en moet thuisblijven."
+              ],
+              "antwoord": 0,
+              "uitleg": "My grandma is visiting us."
+            },
+            {
+              "type": "invultekst",
+              "vraag": "Om hoe laat begint de film op zaterdag? Schrijf het uur als getal.",
+              "antwoord": [
+                "3",
+                "15",
+                "3 uur",
+                "15 uur",
+                "3 p.m."
+              ],
+              "uitleg": "There's a show at 3."
+            }
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welk soort lezen past bij deze opdracht?",
+          "rijen": [
+            "Je zoekt in een treinregeling hoe laat de trein vertrekt.",
+            "Je wil weten waar een artikel ongeveer over gaat.",
+            "Je moet een handleiding stap voor stap volgen."
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Je leesstrategie hangt af van je doel.",
+          "kolommen": [
+            "zoekend lezen",
+            "globaal lezen",
+            "intensief lezen"
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In een tekst staat: 'The museum is closed on Mondays. It opens at 9 on all other days.' Je wil op maandag om 10 uur gaan. Wat besluit je?",
+          "opties": [
+            "Je kan niet binnen.",
+            "Je kan om 9 uur al binnen.",
+            "Je kan binnen vanaf 10 uur.",
+            "Je moet om 9 uur bellen."
+          ],
+          "antwoord": 0,
+          "uitleg": "De info staat niet letterlijk bij jouw vraag: je moet ze combineren."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Een reclame zegt: 'Buy two pizzas, get the third one free!' Klopt dit?",
+          "rijen": [
+            "Wie drie pizza's neemt, betaalt er twee.",
+            "Wie één pizza neemt, krijgt er een gratis.",
+            "De tekst wil je overtuigen om meer te kopen."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Een reclame is een overtuigende tekst."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "'Despite the rain, the match went on.' De wedstrijd werd [[*toch gespeeld|afgelast|uitgesteld]].",
+          "uitleg": "Despite betekent ondanks."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Bij een leestekst lees je eerst de [[titel]] en de vragen. Dan zoek je de [[sleutelwoorden]] in de tekst. Wat niet letterlijk staat, leid je af uit het [[verband]] tussen zinnen.",
+          "extra": [
+            "einde",
+            "vertaling"
+          ],
+          "uitleg": "Een goede leesstrategie bespaart tijd."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "'Tickets are £12 for adults and half price for children under 12.' Hoeveel betaalt een kind van 10?",
+          "opties": [
+            "£6",
+            "£12",
+            "£24",
+            "niets"
+          ],
+          "antwoord": 0,
+          "uitleg": "Half price van £12 is £6."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Lees de zin: 'Although she was tired, Maya finished her homework before dinner.' Klopt dit?",
+          "rijen": [
+            "Maya was moe.",
+            "Maya maakte haar huiswerk na het eten.",
+            "Although drukt een tegenstelling uit."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Although = hoewel."
+        },
+        {
+          "casus": "Read the review.\n\nI visited the new climbing centre in Leeds with two friends last weekend. The walls are great for beginners, and the staff explained everything very clearly. The café, on the other hand, was a disappointment: the sandwiches were dry and very expensive. We paid £15 each for two hours, which I think is fair. I will definitely go back, but next time I'll bring my own lunch. ★★★★☆",
+          "vragen": [
+            {
+              "type": "tabel",
+              "vraag": "Wat vindt de schrijver goed en wat niet?",
+              "rijen": [
+                "de klimmuren",
+                "het personeel",
+                "het café",
+                "de prijs"
+              ],
+              "antwoord": [
+                0,
+                0,
+                1,
+                0
+              ],
+              "uitleg": "Lees de bijvoeglijke woorden: great, clearly, disappointment, fair.",
+              "kolommen": [
+                "goed",
+                "niet goed"
+              ]
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Wat zal de schrijver de volgende keer anders doen?",
+              "opties": [
+                "eigen eten meebrengen",
+                "alleen gaan klimmen",
+                "langer dan twee uur blijven",
+                "in het café eten"
+              ],
+              "antwoord": 0,
+              "uitleg": "Next time I'll bring my own lunch."
+            },
+            {
+              "type": "invultekst",
+              "vraag": "Hoeveel betaalden de drie vrienden samen, in pond? Schrijf het getal.",
+              "antwoord": [
+                "45",
+                "£45",
+                "45 pond"
+              ],
+              "uitleg": "£15 each, drie personen: 45 pond."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "De schrijver geeft het klimcentrum [[*vier|vijf|drie]] sterren.",
+              "uitleg": "Vier volle sterren en een lege."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Voor wie is het klimcentrum vooral geschikt, volgens de tekst?",
+              "opties": [
+                "beginners",
+                "profklimmers",
+                "kleine kinderen",
+                "ouderen"
+              ],
+              "antwoord": 0,
+              "uitleg": "The walls are great for beginners."
+            }
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Lees: 'The library is open from Monday to Friday. On Saturdays it closes at noon.' Klopt dit?",
+          "rijen": [
+            "Op zaterdagnamiddag is de bib dicht.",
+            "Op zondag is de bib open.",
+            "Op woensdag is de bib open."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Noon is 12 uur 's middags; zondag wordt niet vermeld bij de open dagen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "'Please do not feed the animals.' Waar lees je dit waarschijnlijk?",
+          "opties": [
+            "in een dierentuin",
+            "in een bibliotheek",
+            "in een zwembad",
+            "in een klaslokaal"
+          ],
+          "antwoord": 0,
+          "uitleg": "Feed the animals: dieren voederen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "In een e-mail staat: 'I'm afraid I won't be able to attend the meeting.' Klopt dit?",
+          "rijen": [
+            "De schrijver komt niet naar de vergadering.",
+            "De schrijver is echt bang.",
+            "I'm afraid maakt het bericht beleefder."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true
+          ],
+          "uitleg": "I'm afraid betekent hier 'helaas'."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Feit of mening?",
+          "kolommen": [
+            "feit",
+            "mening"
+          ],
+          "items": [
+            [
+              "The film lasts two hours.",
+              "feit"
+            ],
+            [
+              "The film is boring.",
+              "mening"
+            ],
+            [
+              "The shop opens at 9.",
+              "feit"
+            ],
+            [
+              "This is the best pizza in town.",
+              "mening"
+            ]
+          ],
+          "uitleg": "Een feit kan je controleren, een mening niet."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "'Unless it rains, we will play outside.' Ze spelen binnen [[*als het regent|als de zon schijnt|altijd]].",
+          "uitleg": "Unless = tenzij."
+        }
+      ]
+    },
+    {
+      "titel": "Tekstsoorten, tekstverbanden en verwijswoorden — pittig",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "casus": "Read the text.\n\n(1) Every year, millions of plastic bottles end up in the sea. (2) They break into tiny pieces, which fish and birds eat. (3) As a result, many animals become ill. (4) For example, a dead whale on a Scottish beach had 100 kilos of plastic in its stomach. (5) So, the next time you buy a drink, take your own bottle. (6) It is cheaper, and it helps the animals too.",
+          "vragen": [
+            {
+              "type": "meerkeuze",
+              "vraag": "Welke tekstsoort is dit vooral?",
+              "opties": [
+                "een betogende tekst",
+                "een verhalende tekst",
+                "een beschrijvende tekst",
+                "een prescriptieve tekst"
+              ],
+              "antwoord": 0,
+              "uitleg": "De schrijver wil je overtuigen om je eigen fles mee te nemen."
+            },
+            {
+              "type": "koppelen",
+              "vraag": "Welk verband leggen de signaalwoorden in deze tekst?",
+              "paren": [
+                [
+                  "As a result (zin 3)",
+                  "gevolg"
+                ],
+                [
+                  "For example (zin 4)",
+                  "voorbeeld"
+                ],
+                [
+                  "So (zin 5)",
+                  "conclusie"
+                ]
+              ],
+              "extra": [
+                "tegenstelling"
+              ],
+              "uitleg": "Signaalwoorden tonen hoe zinnen samenhangen."
+            },
+            {
+              "type": "invultekst",
+              "vraag": "Naar welk woord verwijst They in zin 2? Schrijf het Engelse woord.",
+              "antwoord": [
+                "bottles",
+                "plastic bottles",
+                "the bottles"
+              ],
+              "uitleg": "They verwijst naar de plastic bottles uit zin 1."
+            },
+            {
+              "type": "invultekst",
+              "vraag": "Naar welk woord verwijst its in zin 4?",
+              "antwoord": [
+                "whale",
+                "a dead whale",
+                "the whale",
+                "dead whale"
+              ],
+              "uitleg": "Its stomach: de maag van de walvis."
+            },
+            {
+              "type": "tabel",
+              "vraag": "Klopt dit over de opbouw?",
+              "rijen": [
+                "Zin 1 tot 3 tonen een probleem en zijn gevolg.",
+                "Zin 4 geeft een voorbeeld.",
+                "Zin 5 en 6 geven een oplossing.",
+                "De tekst eindigt met een vraag."
+              ],
+              "antwoord": [
+                true,
+                true,
+                true,
+                false
+              ],
+              "uitleg": "Probleem, gevolg, voorbeeld, oplossing."
+            }
+          ]
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Welke tekstsoort is dit?",
+          "kolommen": [
+            "informatief",
+            "prescriptief",
+            "narratief",
+            "argumentatief"
+          ],
+          "items": [
+            [
+              "a recipe for pancakes",
+              "prescriptief"
+            ],
+            [
+              "a news report about a fire",
+              "informatief"
+            ],
+            [
+              "a short story about a lost dog",
+              "narratief"
+            ],
+            [
+              "a letter asking the mayor to build a skatepark",
+              "argumentatief"
+            ],
+            [
+              "the rules of a board game",
+              "prescriptief"
+            ],
+            [
+              "a fairy tale",
+              "narratief"
+            ]
+          ],
+          "uitleg": "Prescriptief: zegt wat je moet doen; narratief: vertelt; argumentatief: overtuigt; informatief: informeert."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Welk signaalwoord hoort bij welk verband?",
+          "paren": [
+            [
+              "however",
+              "tegenstelling"
+            ],
+            [
+              "because",
+              "oorzaak"
+            ],
+            [
+              "therefore",
+              "gevolg"
+            ],
+            [
+              "first",
+              "opsomming of volgorde"
+            ],
+            [
+              "for instance",
+              "voorbeeld"
+            ]
+          ],
+          "extra": [
+            "vergelijking"
+          ],
+          "uitleg": "Signaalwoorden helpen je de opbouw te volgen."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "'I love summer. [[*However|Because|For example]], I hate the heat.'",
+          "uitleg": "De tweede zin zegt iets tegengestelds."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "'The roads were icy. [[*Therefore|Although|Then]], the school bus was late.'",
+          "uitleg": "Het gladde wegdek is de oorzaak, de vertraging het gevolg."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "'We went to the beach [[*because|but|so]] it was a sunny day.'",
+          "uitleg": "Het mooie weer is de reden."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Naar wie of wat verwijst het vetgedrukte woord? 'Tom gave his sister a book. She loved it.'",
+          "rijen": [
+            "She",
+            "it",
+            "his"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Volg de verwijswoorden terug naar de vorige zin.",
+          "kolommen": [
+            "the sister",
+            "the book",
+            "Tom"
+          ]
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet de zinnen van dit verhaaltje in de juiste volgorde.",
+          "opties": [
+            "First, Emma woke up late.",
+            "Then she missed the bus.",
+            "After that, she ran to school.",
+            "Finally, she arrived just in time."
+          ],
+          "uitleg": "First, then, after that, finally: signaalwoorden van tijd."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "'Mix the flour and the eggs. Add some milk. Bake for 20 minutes.' Welke tekstsoort is dit?",
+          "opties": [
+            "prescriptief",
+            "narratief",
+            "argumentatief",
+            "beschrijvend"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een recept zegt stap voor stap wat je moet doen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Lees: 'Smartphones are useful. On the other hand, they can be addictive.' Klopt dit?",
+          "rijen": [
+            "De tweede zin geeft een tegenstelling.",
+            "On the other hand betekent 'daarnaast nog'.",
+            "De schrijver weegt voor- en nadelen af."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true
+          ],
+          "uitleg": "On the other hand = anderzijds."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "In een betoog geeft de schrijver zijn [[mening]] en ondersteunt hij die met [[argumenten]]. Aan het einde volgt vaak een [[conclusie]].",
+          "extra": [
+            "recept",
+            "dialoog"
+          ],
+          "uitleg": "De opbouw van een argumentatieve tekst."
+        },
+        {
+          "casus": "Read the text.\n\n(1) My grandfather grew up on a small farm in Ireland. (2) He had six brothers, and they all had to help with the cows. (3) In 1965, he moved to London to work in a factory. (4) There, he met my grandmother. (5) They still tell this story every Christmas.",
+          "vragen": [
+            {
+              "type": "meerkeuze",
+              "vraag": "Tot welke tekstsoort hoort dit levensverhaal?",
+              "opties": [
+                "een verhalende tekst",
+                "een betogende tekst",
+                "een prescriptieve tekst",
+                "een reclametekst"
+              ],
+              "antwoord": 0,
+              "uitleg": "De tekst vertelt een levensverhaal in de verleden tijd."
+            },
+            {
+              "type": "invultekst",
+              "vraag": "Naar welke plaats verwijst There in zin 4?",
+              "antwoord": [
+                "London",
+                "london",
+                "in London"
+              ],
+              "uitleg": "There verwijst naar London in zin 3."
+            },
+            {
+              "type": "invultekst",
+              "vraag": "Naar wie verwijst They in zin 5? Schrijf het in het Engels, twee woorden met and.",
+              "antwoord": [
+                "my grandfather and my grandmother",
+                "grandfather and grandmother",
+                "my grandparents",
+                "grandparents"
+              ],
+              "uitleg": "They = de grootvader en de grootmoeder."
+            }
+          ]
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Welk signaalwoord drukt een tegenstelling uit en welk een gevolg?",
+          "kolommen": [
+            "tegenstelling",
+            "gevolg"
+          ],
+          "items": [
+            [
+              "but",
+              "tegenstelling"
+            ],
+            [
+              "so",
+              "gevolg"
+            ],
+            [
+              "although",
+              "tegenstelling"
+            ],
+            [
+              "as a result",
+              "gevolg"
+            ],
+            [
+              "however",
+              "tegenstelling"
+            ]
+          ],
+          "uitleg": "Tegenstelling: but, although, however; gevolg: so, as a result, therefore."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een tekst begint met: 'Did you know that cats sleep for 16 hours a day?' Waarom begint de schrijver zo?",
+          "opties": [
+            "om je te boeien",
+            "om je een bevel te geven",
+            "om een recept uit te leggen",
+            "om een gedicht te beginnen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een vraag of een verrassend feit trekt de aandacht."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Lees: 'Ben and Sam play football. He is the goalkeeper.' Wat is het probleem?",
+          "rijen": [
+            "Je weet niet naar wie He verwijst.",
+            "Met 'Sam is the goalkeeper' is het duidelijk.",
+            "He verwijst altijd naar de eerste naam."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Een verwijswoord moet duidelijk naar één persoon wijzen."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "'Firstly, it is cheap. [[*Secondly|Finally|However]], it is good for the environment.'",
+          "uitleg": "Een opsomming van argumenten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke tekstsoort is een weerbericht?",
+          "opties": [
+            "informatief",
+            "narratief",
+            "argumentatief",
+            "prescriptief"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het geeft informatie over het weer."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Lees: 'In conclusion, school uniforms should be allowed.' Klopt dit?",
+          "rijen": [
+            "Dit staat waarschijnlijk aan het einde van de tekst.",
+            "Het is een mening.",
+            "Het is het eerste argument."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false
+          ],
+          "uitleg": "In conclusion kondigt het besluit aan."
+        },
+        {
+          "casus": "Read the text.\n\n(1) Should pupils have homework at the weekend? (2) Some teachers say yes, because it helps pupils remember what they learnt. (3) However, many parents disagree. (4) They want their children to have time for sport and family. (5) In my opinion, a little homework is fine, but not more than one hour.",
+          "vragen": [
+            {
+              "type": "meerkeuze",
+              "vraag": "Wat doet zin 3 ten opzichte van zin 2?",
+              "opties": [
+                "Ze geeft een tegengestelde mening.",
+                "Ze geeft een voorbeeld bij zin 2.",
+                "Ze herhaalt zin 2 in andere woorden.",
+                "Ze geeft het gevolg van zin 2."
+              ],
+              "antwoord": 0,
+              "uitleg": "However kondigt de andere kant aan."
+            },
+            {
+              "type": "invultekst",
+              "vraag": "Naar wie verwijst They in zin 4? Schrijf het Engelse woord.",
+              "antwoord": [
+                "parents",
+                "many parents",
+                "the parents"
+              ],
+              "uitleg": "They verwijst naar many parents in zin 3."
+            },
+            {
+              "type": "tabel",
+              "vraag": "Klopt dit over de tekst?",
+              "rijen": [
+                "De schrijver geeft zijn eigen mening in zin 5.",
+                "De tekst begint met een vraag.",
+                "De schrijver wil helemaal geen huiswerk."
+              ],
+              "antwoord": [
+                true,
+                true,
+                false
+              ],
+              "uitleg": "In my opinion: een beetje huiswerk mag."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "Deze tekst is vooral [[*argumentatief|narratief|prescriptief]].",
+              "uitleg": "Hij weegt meningen af en geeft een eigen standpunt."
+            }
+          ]
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "'She was hungry, [[*so|but|because]] she made a sandwich.'",
+          "uitleg": "Honger is de oorzaak, de sandwich het gevolg."
+        },
+        {
+          "type": "tabel",
+          "vraag": "'My brother has a dog. My brother walks the dog every day. My brother's dog is old.' Welk verwijswoord vervangt het herhaalde deel?",
+          "rijen": [
+            "My brother (tweede keer)",
+            "the dog (tweede keer)",
+            "My brother's (derde zin)"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Verwijswoorden voorkomen herhaling.",
+          "kolommen": [
+            "He",
+            "it",
+            "His"
+          ]
+        }
+      ]
+    },
+    {
+      "titel": "De Engelstalige wereld: gewoontes en conventies — pittig",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "sorteren",
+          "vraag": "Brits of Amerikaans Engels?",
+          "kolommen": [
+            "Brits",
+            "Amerikaans"
+          ],
+          "items": [
+            [
+              "flat",
+              "Brits"
+            ],
+            [
+              "apartment",
+              "Amerikaans"
+            ],
+            [
+              "holiday",
+              "Brits"
+            ],
+            [
+              "vacation",
+              "Amerikaans"
+            ],
+            [
+              "biscuit",
+              "Brits"
+            ],
+            [
+              "cookie",
+              "Amerikaans"
+            ]
+          ],
+          "uitleg": "Veel dagelijkse woorden verschillen tussen het Verenigd Koninkrijk en de VS."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Welk Amerikaans woord hoort bij welk Brits woord?",
+          "paren": [
+            [
+              "lift",
+              "elevator"
+            ],
+            [
+              "trousers",
+              "pants"
+            ],
+            [
+              "underground",
+              "subway"
+            ],
+            [
+              "autumn",
+              "fall"
+            ],
+            [
+              "mobile phone",
+              "cell phone"
+            ]
+          ],
+          "extra": [
+            "truck"
+          ],
+          "uitleg": "Hetzelfde ding, een ander woord."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Britse of Amerikaanse spelling?",
+          "kolommen": [
+            "Brits",
+            "Amerikaans"
+          ],
+          "items": [
+            [
+              "colour",
+              "Brits"
+            ],
+            [
+              "color",
+              "Amerikaans"
+            ],
+            [
+              "centre",
+              "Brits"
+            ],
+            [
+              "center",
+              "Amerikaans"
+            ],
+            [
+              "theatre",
+              "Brits"
+            ]
+          ],
+          "uitleg": "Brits -our en -re, Amerikaans -or en -er."
+        },
+        {
+          "casus": "Een brief uit New York heeft als datum 04/07/2027. Een brief uit Londen heeft als datum 04/07/2027.",
+          "vragen": [
+            {
+              "type": "tabel",
+              "vraag": "Welke datum bedoelt elke schrijver?",
+              "rijen": [
+                "de brief uit New York",
+                "de brief uit Londen",
+                "een brief uit Dublin met dezelfde datum"
+              ],
+              "antwoord": [
+                0,
+                1,
+                1
+              ],
+              "uitleg": "In de VS staat de maand eerst: 04/07 is 7 april. In het VK en Ierland staat de dag eerst: 4 juli.",
+              "kolommen": [
+                "7 april",
+                "4 juli"
+              ]
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Welke feestdag valt in de VS op 4 juli?",
+              "opties": [
+                "Independence Day",
+                "Thanksgiving Day",
+                "Boxing Day",
+                "Halloween night"
+              ],
+              "antwoord": 0,
+              "uitleg": "Op 4 juli vieren de Amerikanen hun onafhankelijkheid."
+            }
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over maten?",
+          "rijen": [
+            "In de VS meet men de temperatuur vaak in graden Fahrenheit.",
+            "In het VK geven verkeersborden de afstand in mijlen.",
+            "Een mijl is korter dan een kilometer.",
+            "Een pint is een maat voor vloeistof."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Een mijl is ongeveer 1,6 km."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Welke feestdag hoort bij welke omschrijving?",
+          "paren": [
+            [
+              "Thanksgiving",
+              "Amerikaanse familiefeest in november met kalkoen"
+            ],
+            [
+              "Bonfire Night",
+              "Brits feest op 5 november met vuurwerk"
+            ],
+            [
+              "Boxing Day",
+              "dag na Kerstmis in het VK"
+            ],
+            [
+              "Halloween",
+              "verkleden op 31 oktober"
+            ]
+          ],
+          "extra": [
+            "Pancake Day in augustus"
+          ],
+          "uitleg": "Elk land heeft zijn eigen feesten."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Is Engels er de voertaal of een belangrijke officiële taal?",
+          "kolommen": [
+            "ja",
+            "nee"
+          ],
+          "items": [
+            [
+              "Ierland",
+              "ja"
+            ],
+            [
+              "Australië",
+              "ja"
+            ],
+            [
+              "Canada",
+              "ja"
+            ],
+            [
+              "Portugal",
+              "nee"
+            ],
+            [
+              "Nieuw-Zeeland",
+              "ja"
+            ],
+            [
+              "Brazilië",
+              "nee"
+            ]
+          ],
+          "uitleg": "Engels is de voertaal in veel landen buiten het VK en de VS."
+        },
+        {
+          "casus": "Je bent op uitwisseling bij een gastgezin in Manchester. Je wil 's avonds iets vragen aan de vader van het gezin.",
+          "vragen": [
+            {
+              "type": "meerkeuze",
+              "vraag": "Welke zin is het beleefdst?",
+              "opties": [
+                "Could you help me, please?",
+                "Help me with this, now.",
+                "You must help me right now.",
+                "Give me some help, quickly."
+              ],
+              "antwoord": 0,
+              "uitleg": "Could you ... please? is een beleefd verzoek."
+            },
+            {
+              "type": "tabel",
+              "vraag": "Klopt dit over beleefdheid in het VK?",
+              "rijen": [
+                "Je zegt vaak please en thank you.",
+                "Sorry hoor je heel vaak, ook bij kleine dingen.",
+                "Je dringt voor in een wachtrij als je haast hebt."
+              ],
+              "antwoord": [
+                true,
+                true,
+                false
+              ],
+              "uitleg": "Aanschuiven in een queue is een sterke gewoonte."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "De moeder zegt: 'Help yourself!' bij het eten. Wat bedoelt ze?",
+              "opties": [
+                "Neem gerust zelf.",
+                "Help mee afwassen.",
+                "Je moet zelf koken.",
+                "Bel om hulp."
+              ],
+              "antwoord": 0,
+              "uitleg": "Help yourself = bedien jezelf."
+            }
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over aanspreken?",
+          "rijen": [
+            "In de VS spreekt men elkaar vaak meteen met de voornaam aan.",
+            "Mr staat voor een man, Ms voor een vrouw.",
+            "In een formele brief begin je met 'Hi mate'."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Formeel: Dear Mr Smith / Dear Ms Jones."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "In het VK rijdt men aan de [[*linkerkant|rechterkant|middenkant]] van de weg.",
+          "uitleg": "Net als in Ierland en Australië."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je bestelt in een Londense pub 'a pint'. Wat krijg je?",
+          "opties": [
+            "een groot glas bier",
+            "een klein flesje water",
+            "een kop thee met melk",
+            "een bord fish and chips"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een pint is een maat van ongeveer een halve liter."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe zeg je 'tot ziens' informeel in het Engels? Schrijf twee woorden.",
+          "antwoord": [
+            "see you",
+            "See you",
+            "see ya",
+            "bye bye"
+          ],
+          "uitleg": "See you (later) is informeel; goodbye formeler."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Welke hoofdstad hoort bij welk land?",
+          "paren": [
+            [
+              "Ierland",
+              "Dublin"
+            ],
+            [
+              "Schotland",
+              "Edinburgh"
+            ],
+            [
+              "Australië",
+              "Canberra"
+            ],
+            [
+              "Canada",
+              "Ottawa"
+            ]
+          ],
+          "extra": [
+            "Sydney"
+          ],
+          "uitleg": "Sydney is de grootste stad van Australië, maar niet de hoofdstad."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over geld?",
+          "rijen": [
+            "In het VK betaal je met pound sterling.",
+            "In de VS betaal je met dollars.",
+            "In Ierland betaal je met pounds."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Ierland gebruikt de euro."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Het Verenigd Koninkrijk bestaat uit [[Engeland]], Schotland, Wales en [[Noord-Ierland]]. De hoofdstad is [[Londen]].",
+          "extra": [
+            "Ierland",
+            "Dublin"
+          ],
+          "uitleg": "Ierland is een apart land."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over lichaamstaal en omgangsvormen?",
+          "rijen": [
+            "Een stevige handdruk is gewoon bij een sollicitatie.",
+            "Iemand bij een eerste ontmoeting drie kussen geven is in het VK gebruikelijk.",
+            "Small talk over het weer is heel gewoon."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Small talk opent een gesprek."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een Amerikaanse vriend zegt: 'It's 77 degrees outside!' Wat bedoelt hij?",
+          "opties": [
+            "Het is warm, ongeveer 25 °C.",
+            "Het is ijskoud.",
+            "Het is 77 °C en gevaarlijk heet.",
+            "Het regent hard."
+          ],
+          "antwoord": 0,
+          "uitleg": "77 °F is ongeveer 25 °C."
+        },
+        {
+          "type": "tabel",
+          "vraag": "In welk land wordt dit Engelse woord gebruikt?",
+          "rijen": [
+            "rubbish",
+            "garbage",
+            "petrol",
+            "gas"
+          ],
+          "antwoord": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "uitleg": "Afval en benzine hebben verschillende woorden.",
+          "kolommen": [
+            "VK",
+            "VS"
+          ]
+        },
+        {
+          "casus": "Een Britse vriendin nodigt je uit: 'Come round for tea at six!'",
+          "vragen": [
+            {
+              "type": "meerkeuze",
+              "vraag": "Wat bedoelt ze waarschijnlijk?",
+              "opties": [
+                "een avondmaal rond zes uur",
+                "enkel een kopje thee",
+                "een ontbijt",
+                "een feest na middernacht"
+              ],
+              "antwoord": 0,
+              "uitleg": "In veel Britse gezinnen betekent tea ook het avondeten."
+            },
+            {
+              "type": "tabel",
+              "vraag": "Klopt dit over eten in het VK?",
+              "rijen": [
+                "Fish and chips is een bekend Brits gerecht.",
+                "Een full English breakfast is een stevig ontbijt.",
+                "Lunch is in het VK meestal de grootste warme maaltijd."
+              ],
+              "antwoord": [
+                true,
+                true,
+                false
+              ],
+              "uitleg": "Eetgewoonten verschillen van land tot land."
+            }
+          ]
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Formeel of informeel?",
+          "kolommen": [
+            "formeel",
+            "informeel"
+          ],
+          "items": [
+            [
+              "Dear Sir or Madam,",
+              "formeel"
+            ],
+            [
+              "Hi Jake!",
+              "informeel"
+            ],
+            [
+              "Yours faithfully,",
+              "formeel"
+            ],
+            [
+              "Cheers,",
+              "informeel"
+            ],
+            [
+              "I look forward to hearing from you.",
+              "formeel"
+            ]
+          ],
+          "uitleg": "Formeel voor onbekenden en instanties, informeel voor vrienden."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Welk Engels woord gebruikt een Brit voor 'voetbal'? En een Amerikaan zegt soccer.",
+          "antwoord": [
+            "football"
+          ],
+          "uitleg": "In de VS is football American football."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een Amerikaanse schooltijd heet een [[*semester|term|half]] en een Britse vaak een term.",
+          "uitleg": "Ook in het onderwijs verschillen de woorden."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over tijd?",
+          "rijen": [
+            "In het VK en de VS zegt men vaak 3 p.m. in plaats van 15 uur.",
+            "a.m. staat voor de voormiddag.",
+            "p.m. staat voor de nacht na middernacht."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false
+          ],
+          "uitleg": "a.m. tot 12 uur 's middags, p.m. daarna."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je schuift in Londen aan bij de bushalte. Wat doe je?",
+          "opties": [
+            "Je wacht netjes in de rij.",
+            "Je gaat helemaal vooraan staan.",
+            "Je duwt om eerst binnen te zijn.",
+            "Je roept naar de chauffeur."
+          ],
+          "antwoord": 0,
+          "uitleg": "Netjes aanschuiven is een sterke sociale conventie."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe heet de lange Amerikaanse feestdag in november met kalkoen? Schrijf het Engelse woord.",
+          "antwoord": [
+            "Thanksgiving",
+            "thanksgiving",
+            "Thanksgiving Day"
+          ],
+          "uitleg": "Thanksgiving valt op de vierde donderdag van november."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over Engels als wereldtaal?",
+          "rijen": [
+            "Engels is een officiële taal in India.",
+            "In Zuid-Afrika is Engels een van de officiële talen.",
+            "In Duitsland is Engels de voertaal."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Engels wordt op alle continenten gesproken."
+        }
+      ]
+    },
+    {
+      "titel": "Schrijven, schriftelijke interactie en literatuurbeleving — pittig",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "casus": "Je schrijft een e-mail aan het hotel Seaview in Brighton. Je wil een kamer reserveren voor twee nachten in juli en vragen of er een parking is.",
+          "vragen": [
+            {
+              "type": "meerkeuze",
+              "vraag": "Hoe begin je de e-mail?",
+              "opties": [
+                "Dear Sir or Madam,",
+                "Hey guys, what's up!",
+                "Hello there, mate,",
+                "Yo Seaview people,"
+              ],
+              "antwoord": 0,
+              "uitleg": "Je kent de naam van de ontvanger niet: formeel beginnen."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Welke zin vraagt beleefd naar de parking?",
+              "opties": [
+                "Could you tell me if you have a car park?",
+                "Is there a car park at your hotel or not?",
+                "Tell me everything about your car park.",
+                "I want a place in your car park now."
+              ],
+              "antwoord": 0,
+              "uitleg": "Could you tell me ... is een beleefde vraag."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Hoe sluit je af?",
+              "opties": [
+                "I look forward to hearing from you.",
+                "Bye bye, see you very soon, guys!",
+                "That's all for now, thanks a lot!",
+                "Write back to me really quickly."
+              ],
+              "antwoord": 0,
+              "uitleg": "Een vaste formele slotzin."
+            },
+            {
+              "type": "volgorde",
+              "vraag": "Zet de delen van je e-mail in de juiste volgorde.",
+              "opties": [
+                "Dear Sir or Madam,",
+                "I would like to book a double room for two nights.",
+                "Could you tell me if there is a car park?",
+                "I look forward to hearing from you.",
+                "Yours faithfully, Lisa Peeters"
+              ],
+              "uitleg": "Aanhef, reden, vraag, slotzin, groet en naam."
+            }
+          ]
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Hoort deze zin bij een formele of een informele tekst?",
+          "kolommen": [
+            "formeel",
+            "informeel"
+          ],
+          "items": [
+            [
+              "I am writing to complain about ...",
+              "formeel"
+            ],
+            [
+              "Guess what happened yesterday!",
+              "informeel"
+            ],
+            [
+              "I would be grateful if you could ...",
+              "formeel"
+            ],
+            [
+              "Can't wait to see you!",
+              "informeel"
+            ],
+            [
+              "Please find attached my CV.",
+              "formeel"
+            ]
+          ],
+          "uitleg": "Formeel: volledige zinnen, beleefde vormen; informeel: korte vormen en uitroepen."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Welke uitdrukking past bij welke schrijfopdracht?",
+          "paren": [
+            [
+              "je mening geven",
+              "In my opinion, ..."
+            ],
+            [
+              "iemand overtuigen",
+              "You should really try it, because ..."
+            ],
+            [
+              "informatie vragen",
+              "Could you tell me ...?"
+            ],
+            [
+              "iets vertellen",
+              "Last weekend, I ..."
+            ],
+            [
+              "iets uitleggen",
+              "First, you ... Then ..."
+            ]
+          ],
+          "extra": [
+            "Yours faithfully"
+          ],
+          "uitleg": "Elke schrijfopdracht heeft haar vaste uitdrukkingen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over een goede tekst?",
+          "rijen": [
+            "Je tekst past bij het doel en de lezer.",
+            "Je gebruikt alinea's om je tekst te ordenen.",
+            "Je herleest je tekst op spelling en grammatica.",
+            "Hoe langer de tekst, hoe beter."
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Een tekst moet correct, duidelijk en aangepast zijn."
+        },
+        {
+          "casus": "Je vriend Max schreef dit berichtje:\n\n'hi emma, im going to the cinema tomorow, do you want to come. Its a funny film'",
+          "vragen": [
+            {
+              "type": "tabel",
+              "vraag": "Welke fouten zie je?",
+              "rijen": [
+                "emma moet met een hoofdletter.",
+                "im moet I'm zijn.",
+                "tomorow moet tomorrow zijn.",
+                "cinema is fout gespeld."
+              ],
+              "antwoord": [
+                true,
+                true,
+                true,
+                false
+              ],
+              "uitleg": "Hoofdletters, apostrof en dubbele letters."
+            },
+            {
+              "type": "invultekst",
+              "vraag": "Hoe schrijf je 'Its' correct in 'Its a funny film'?",
+              "antwoord": [
+                "It's",
+                "it's",
+                "It is",
+                "it is"
+              ],
+              "uitleg": "It's = it is; its zonder apostrof is bezittelijk."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "Na 'do you want to come' hoort een [[*vraagteken|punt|uitroepteken]].",
+              "uitleg": "Het is een vraag."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je schrijft een recensie over een boek. Wat hoort er zeker in?",
+          "opties": [
+            "je mening met argumenten",
+            "het telefoonnummer van de schrijver",
+            "een recept",
+            "de prijs van de bus"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij literatuurbeleving verwoord je wat je ervan vond en waarom."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "In een informele e-mail begin je met [[Hi]] of Hello. Je sluit af met [[Love]], Cheers of See you. In een formele brief eindig je met [[Yours sincerely]] als je de naam van de ontvanger kent.",
+          "extra": [
+            "Dear Sir",
+            "Bye"
+          ],
+          "uitleg": "Aanhef en groet volgen de toon."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welke zin is beter in een formele klachtbrief?",
+          "rijen": [
+            "I am disappointed with the service.",
+            "Your shop is rubbish!!!",
+            "I would like a refund."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Blijf beleefd, ook als je boos bent."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "'I am writing [[*to ask|for asking|ask]] about your summer camp.'",
+          "uitleg": "Na I am writing volgt to + werkwoord."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin vertelt iets in de verleden tijd?",
+          "opties": [
+            "Last summer, we visited Scotland.",
+            "We visit Scotland every single summer.",
+            "We are visiting Scotland right now.",
+            "Visit Scotland with us next summer!"
+          ],
+          "antwoord": 0,
+          "uitleg": "Last summer + past simple."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Welke strategie gebruik je vóór en welke na het schrijven?",
+          "kolommen": [
+            "vóór het schrijven",
+            "na het schrijven"
+          ],
+          "items": [
+            [
+              "ideeën verzamelen",
+              "vóór het schrijven"
+            ],
+            [
+              "je tekst herlezen",
+              "na het schrijven"
+            ],
+            [
+              "een plan maken",
+              "vóór het schrijven"
+            ],
+            [
+              "spelling nakijken",
+              "na het schrijven"
+            ],
+            [
+              "het doel en de lezer bepalen",
+              "vóór het schrijven"
+            ]
+          ],
+          "uitleg": "Plannen, schrijven, nalezen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Je schrijft over een gedicht dat je las. Welke zin verwoordt je leeservaring?",
+          "rijen": [
+            "The poem made me think about my grandmother.",
+            "I liked the poem because the words sound like music.",
+            "The poem has 14 lines and was printed in 1998."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Leeservaring gaat over wat de tekst met jou doet."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "'Thank you [[*for|to|of]] your quick reply.'",
+          "uitleg": "Thank you for + iets."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je wil een vriend overtuigen om mee te gaan zwemmen. Welke zin overtuigt het best?",
+          "opties": [
+            "Come along, it's free on Sundays!",
+            "Swimming is a sport that exists.",
+            "I swim every week at the pool.",
+            "Do you swim or not, tell me now?"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een overtuigende zin geeft een reden."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe schrijf je de groet onder een formele brief aan 'Dear Mr Brown'? Twee woorden.",
+          "antwoord": [
+            "Yours sincerely",
+            "yours sincerely",
+            "Yours sincerely,"
+          ],
+          "uitleg": "Ken je de naam: Yours sincerely. Ken je die niet: Yours faithfully."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over alinea's?",
+          "rijen": [
+            "Elke alinea draait rond één idee.",
+            "Een witregel tussen alinea's maakt je tekst leesbaar.",
+            "Je zet al je zinnen best in één lange alinea."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Structuur maakt je tekst duidelijk."
+        },
+        {
+          "casus": "Je krijgt deze opdracht: 'Write a message to your English pen friend. Tell him about your new school and ask two questions about his.'",
+          "vragen": [
+            {
+              "type": "tabel",
+              "vraag": "Wat moet zeker in je bericht?",
+              "rijen": [
+                "iets over je nieuwe school",
+                "twee vragen aan je penvriend",
+                "een formele aanhef zoals Dear Sir",
+                "je adres en je rekeningnummer"
+              ],
+              "antwoord": [
+                true,
+                true,
+                false,
+                false
+              ],
+              "uitleg": "Lees de opdracht nauwkeurig: wat, voor wie, hoeveel vragen."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "Je begint je bericht het best met [[*Hi Jack,|Dear Sir,|To whom it may concern,]]",
+              "uitleg": "Een penvriend is iemand die je kent: informeel."
+            },
+            {
+              "type": "volgorde",
+              "vraag": "Zet de stappen van je schrijfproces in volgorde.",
+              "opties": [
+                "de opdracht goed lezen",
+                "ideeën noteren",
+                "het bericht schrijven",
+                "nalezen op fouten"
+              ],
+              "uitleg": "Eerst plannen, dan schrijven, dan nalezen."
+            }
+          ]
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Welk Engels woord gebruik je in een e-mail voor 'bijlage'? Vul aan: Please find the ... attached.",
+          "antwoord": [
+            "file",
+            "document",
+            "CV",
+            "form"
+          ],
+          "uitleg": "Attached = als bijlage; je vult het ding in dat je meestuurt."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "'Sorry [[*for|of|to]] the late reply.'",
+          "uitleg": "Sorry for + iets."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over de toon?",
+          "rijen": [
+            "In een sms aan een vriend mag je afkortingen als 'btw' gebruiken.",
+            "In een sollicitatiebrief gebruik je emoji's.",
+            "In een formele brief schrijf je I do not in plaats van I don't."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Pas je stijl aan aan de lezer."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin geeft een mening?",
+          "opties": [
+            "I think the book is too long.",
+            "The book has 320 pages in total.",
+            "The writer was born in 1980.",
+            "The book costs £8 in that shop."
+          ],
+          "antwoord": 0,
+          "uitleg": "I think kondigt een mening aan."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Een verhaal begin je vaak met een tijdsaanduiding zoals [[Last week]]. Daarna gebruik je woorden als [[then]] en [[finally]] om de volgorde te tonen.",
+          "extra": [
+            "Tomorrow",
+            "because"
+          ],
+          "uitleg": "Een verhaal vertellen."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "In een informele e-mail aan je tante sluit je af met [[*Love, Emma|Yours faithfully, Emma|Kind regards from the company]]",
+          "uitleg": "Love is een warme, informele afsluiter voor familie."
+        }
+      ]
+    },
+    {
+      "titel": "Woordvelden: mensen, gezondheid en het dagelijkse leven — pittig",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "casus": "Read the text.\n\nMy name is Aisha and I'm 15. I live with my mum, my stepdad and my little half-brother Sam. My grandparents live next door. On Sundays, my aunt and my cousins often come for lunch. Mum cooks rice with chicken, and my stepdad makes a chocolate cake for dessert.",
+          "vragen": [
+            {
+              "type": "tabel",
+              "vraag": "Klopt dit over de afspraak bij de dokter?",
+              "rijen": [
+                "Aisha woont samen met haar grootouders in één huis.",
+                "Sam is de zoon van haar stiefvader en haar moeder.",
+                "Op zondag komen haar tante en neven of nichten eten."
+              ],
+              "antwoord": [
+                false,
+                true,
+                true
+              ],
+              "uitleg": "Next door is het huis ernaast; half-brother: dezelfde moeder."
+            },
+            {
+              "type": "invultekst",
+              "vraag": "Wat is het Engelse woord voor 'tante'?",
+              "antwoord": [
+                "aunt",
+                "Aunt"
+              ],
+              "uitleg": "Aunt; oom is uncle."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Wat eet de familie als dessert?",
+              "opties": [
+                "chocoladecake",
+                "rijst met kip",
+                "vers fruit uit de tuin",
+                "ijs met slagroom"
+              ],
+              "antwoord": 0,
+              "uitleg": "My stepdad makes a chocolate cake for dessert."
+            }
+          ]
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Welk familielid is dit?",
+          "paren": [
+            [
+              "your mother's sister",
+              "aunt"
+            ],
+            [
+              "your father's father",
+              "grandfather"
+            ],
+            [
+              "your aunt's son",
+              "cousin"
+            ],
+            [
+              "your brother's daughter",
+              "niece"
+            ]
+          ],
+          "extra": [
+            "nephew"
+          ],
+          "uitleg": "Een nephew is de zoon van je broer of zus."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Hoe voelt deze persoon zich?",
+          "kolommen": [
+            "positief",
+            "negatief"
+          ],
+          "items": [
+            [
+              "cheerful",
+              "positief"
+            ],
+            [
+              "worried",
+              "negatief"
+            ],
+            [
+              "proud",
+              "positief"
+            ],
+            [
+              "upset",
+              "negatief"
+            ],
+            [
+              "relieved",
+              "positief"
+            ],
+            [
+              "lonely",
+              "negatief"
+            ]
+          ],
+          "uitleg": "Gevoelens benoemen helpt in een gesprek of een brief."
+        },
+        {
+          "casus": "Bij de dokter zegt Leo: 'I've got a sore throat and a high temperature. My nose is running and I feel tired.'",
+          "vragen": [
+            {
+              "type": "tabel",
+              "vraag": "Welke klachten heeft Leo?",
+              "rijen": [
+                "keelpijn",
+                "koorts",
+                "een loopneus",
+                "buikpijn"
+              ],
+              "antwoord": [
+                true,
+                true,
+                true,
+                false
+              ],
+              "uitleg": "Sore throat, high temperature, running nose."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Wat zegt de dokter waarschijnlijk?",
+              "opties": [
+                "You've got the flu.",
+                "You've broken your left leg.",
+                "You need some new glasses.",
+                "Your teeth need a check-up."
+              ],
+              "antwoord": 0,
+              "uitleg": "Die klachten passen bij griep."
+            }
+          ]
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Welk lichaamsdeel is dit?",
+          "paren": [
+            [
+              "knee",
+              "knie"
+            ],
+            [
+              "shoulder",
+              "schouder"
+            ],
+            [
+              "ankle",
+              "enkel"
+            ],
+            [
+              "elbow",
+              "elleboog"
+            ],
+            [
+              "wrist",
+              "pols"
+            ]
+          ],
+          "extra": [
+            "heup"
+          ],
+          "uitleg": "Lichaamsdelen heb je nodig bij de dokter of bij sport."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Waar vind je dit in huis?",
+          "kolommen": [
+            "kitchen",
+            "bathroom",
+            "bedroom"
+          ],
+          "items": [
+            [
+              "fridge",
+              "kitchen"
+            ],
+            [
+              "shower",
+              "bathroom"
+            ],
+            [
+              "wardrobe",
+              "bedroom"
+            ],
+            [
+              "oven",
+              "kitchen"
+            ],
+            [
+              "towel",
+              "bathroom"
+            ],
+            [
+              "pillow",
+              "bedroom"
+            ]
+          ],
+          "uitleg": "Woning en meubels: een vast woordveld."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Mijn trui is van wol: it's made of [[*wool|wood|wheel]].",
+          "uitleg": "Wool = wol, wood = hout."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Is dit kleding of een accessoire?",
+          "kolommen": [
+            "kleding",
+            "accessoire"
+          ],
+          "items": [
+            [
+              "jeans",
+              "kleding"
+            ],
+            [
+              "necklace",
+              "accessoire"
+            ],
+            [
+              "sweater",
+              "kleding"
+            ],
+            [
+              "belt",
+              "accessoire"
+            ],
+            [
+              "skirt",
+              "kleding"
+            ],
+            [
+              "watch",
+              "accessoire"
+            ]
+          ],
+          "uitleg": "Kleding en accessoires zijn een apart woordveld."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe zeg je 'ik heb hoofdpijn' in het Engels? Vul aan: I've got a ...",
+          "antwoord": [
+            "headache",
+            "Headache"
+          ],
+          "uitleg": "Headache; buikpijn is stomachache."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Lees het lijstje van Tom: 'Every morning I get up at 7, have a shower, get dressed, have breakfast and brush my teeth.' Klopt dit?",
+          "rijen": [
+            "Tom staat om 7 uur op.",
+            "Hij poetst zijn tanden voor het ontbijt.",
+            "Hij kleedt zich aan na het douchen."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Volg de volgorde van de zin."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Welke vorm hoort bij welk woord?",
+          "paren": [
+            [
+              "round",
+              "rond"
+            ],
+            [
+              "square",
+              "vierkant"
+            ],
+            [
+              "triangle",
+              "driehoek"
+            ],
+            [
+              "striped",
+              "gestreept"
+            ]
+          ],
+          "extra": [
+            "bloemetjes"
+          ],
+          "uitleg": "Kleuren, vormen en materialen horen bij het dagelijkse leven."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "For breakfast I usually have [[cereal]] with milk and a glass of orange [[juice]]. At lunch I eat a [[sandwich]].",
+          "extra": [
+            "soup",
+            "fork"
+          ],
+          "uitleg": "Eten en drinken."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "'Could you pass me the salt, please?' Waar zeg je dit?",
+          "opties": [
+            "aan tafel",
+            "op de bus",
+            "bij de dokter",
+            "in de klas tijdens een toets"
+          ],
+          "antwoord": 0,
+          "uitleg": "Pass me = geef me eens door."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Een formulier vraagt je gegevens. Wat vul je waar in?",
+          "rijen": [
+            "Surname",
+            "First name",
+            "Date of birth"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Persoonlijke gegevens in het Engels.",
+          "kolommen": [
+            "achternaam",
+            "voornaam",
+            "geboortedatum"
+          ]
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Is dit een dagelijkse bezigheid of een dagelijks voorwerp?",
+          "kolommen": [
+            "bezigheid",
+            "voorwerp"
+          ],
+          "items": [
+            [
+              "do the washing-up",
+              "bezigheid"
+            ],
+            [
+              "key",
+              "voorwerp"
+            ],
+            [
+              "take out the rubbish",
+              "bezigheid"
+            ],
+            [
+              "umbrella",
+              "voorwerp"
+            ],
+            [
+              "make the bed",
+              "bezigheid"
+            ]
+          ],
+          "uitleg": "Werkwoordgroepen tegenover dingen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin beschrijft iemand?",
+          "opties": [
+            "She has long hair and blue eyes.",
+            "She goes to school by bike every day.",
+            "She lives in a big house in the city.",
+            "She likes pizza a lot, with cheese."
+          ],
+          "antwoord": 0,
+          "uitleg": "Een uiterlijke beschrijving."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe heet het meubel waarop je 's avonds tv kijkt met het hele gezin? (sofa of ...)",
+          "antwoord": [
+            "couch",
+            "settee",
+            "sofa"
+          ],
+          "uitleg": "Couch, sofa of settee: alle drie juist."
+        },
+        {
+          "casus": "Read the shopping list.\n\n2 loaves of bread · a carton of milk · 6 eggs · a bottle of olive oil · a bag of apples · a jar of jam",
+          "vragen": [
+            {
+              "type": "koppelen",
+              "vraag": "Welke verpakking hoort bij welk product?",
+              "paren": [
+                [
+                  "loaf",
+                  "bread"
+                ],
+                [
+                  "carton",
+                  "milk"
+                ],
+                [
+                  "jar",
+                  "jam"
+                ],
+                [
+                  "bottle",
+                  "olive oil"
+                ]
+              ],
+              "extra": [
+                "tin"
+              ],
+              "uitleg": "Verpakkingen zijn handige woorden bij boodschappen."
+            },
+            {
+              "type": "invultekst",
+              "vraag": "Hoeveel eieren staan er op het lijstje? Schrijf het getal.",
+              "antwoord": [
+                "6",
+                "six",
+                "zes"
+              ],
+              "uitleg": "6 eggs."
+            }
+          ]
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Is dit een gezonde of een ongezonde gewoonte?",
+          "kolommen": [
+            "gezond",
+            "ongezond"
+          ],
+          "items": [
+            [
+              "drinking enough water",
+              "gezond"
+            ],
+            [
+              "skipping breakfast",
+              "ongezond"
+            ],
+            [
+              "getting eight hours of sleep",
+              "gezond"
+            ],
+            [
+              "eating crisps every day",
+              "ongezond"
+            ]
+          ],
+          "uitleg": "Gezondheid is een woordveld van het dagelijkse leven."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Als je je enkel verstuikt, zeg je: I've [[*sprained|spread|spent]] my ankle.",
+          "uitleg": "Sprain = verstuiken."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt de vertaling van deze huishoudwoorden?",
+          "rijen": [
+            "scissors = schaar",
+            "spoon = lepel",
+            "knife = vork",
+            "mirror = spiegel"
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Knife is een mes; fork is een vork."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe zeg je 'zenuwachtig' in het Engels? Begin met n.",
+          "antwoord": [
+            "nervous",
+            "Nervous"
+          ],
+          "uitleg": "Nervous voor een toets of een optreden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "'I'm starving!' Hoe voelt deze persoon zich?",
+          "opties": [
+            "Hij heeft veel honger.",
+            "Hij is erg moe van het werk.",
+            "Hij heeft het heel koud buiten.",
+            "Hij is boos op zijn vrienden."
+          ],
+          "antwoord": 0,
+          "uitleg": "Starving = uitgehongerd, in de spreektaal 'veel honger'."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "I live in a small [[flat]] on the third [[floor]]. From my [[window]] I can see the park.",
+          "extra": [
+            "garden",
+            "roof"
+          ],
+          "uitleg": "Woning en huis."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Welk materiaal hoort bij welk voorwerp?",
+          "paren": [
+            [
+              "a wooden table",
+              "hout"
+            ],
+            [
+              "a leather bag",
+              "leer"
+            ],
+            [
+              "a glass bottle",
+              "glas"
+            ],
+            [
+              "a cotton T-shirt",
+              "katoen"
+            ]
+          ],
+          "extra": [
+            "zijde"
+          ],
+          "uitleg": "Materialen beschrijven voorwerpen."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Mijn broer is zes jaar jonger: he's my [[*younger|older|youngest]] brother.",
+          "uitleg": "Younger = jonger, met twee personen vergelijk je."
+        }
+      ]
+    },
+    {
+      "titel": "Woordvelden: school, werk, reizen en de samenleving — pittig",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "casus": "Read the notice at the station.\n\nPlatform 3: the 08.45 service to Brighton is cancelled. Passengers for Brighton, please take the 09.05 from platform 6. The 09.10 to Oxford is delayed by 20 minutes. We apologise for any inconvenience.",
+          "vragen": [
+            {
+              "type": "tabel",
+              "vraag": "Klopt dit volgens het bord?",
+              "rijen": [
+                "De trein van 08.45 naar Brighton rijdt vandaag niet.",
+                "Reizigers naar Brighton nemen de trein van 09.05 op perron 3.",
+                "De trein naar Oxford vertrekt rond 09.30."
+              ],
+              "antwoord": [
+                true,
+                false,
+                true
+              ],
+              "uitleg": "Cancelled is afgeschaft, delayed by 20 minutes is twintig minuten vertraging."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Wat betekent 'We apologise for any inconvenience'?",
+              "opties": [
+                "Excuses voor het ongemak.",
+                "Bedankt dat u met ons reist.",
+                "Let op, de deuren sluiten nu.",
+                "Stap niet in zonder een ticket."
+              ],
+              "antwoord": 0,
+              "uitleg": "To apologise is zich verontschuldigen, inconvenience is ongemak."
+            },
+            {
+              "type": "invultekst",
+              "vraag": "Om hoe laat vertrekt de trein die je naar Brighton brengt? Schrijf het uur zoals op het bord.",
+              "antwoord": [
+                "09.05",
+                "9.05",
+                "09:05",
+                "9:05"
+              ],
+              "uitleg": "De vervangtrein vertrekt om 09.05 van perron 6."
+            }
+          ]
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Hoort dit woord bij de school of bij het werk?",
+          "kolommen": [
+            "school",
+            "werk"
+          ],
+          "items": [
+            [
+              "pupil",
+              "school"
+            ],
+            [
+              "timetable",
+              "school"
+            ],
+            [
+              "salary",
+              "werk"
+            ],
+            [
+              "colleague",
+              "werk"
+            ],
+            [
+              "homework",
+              "school"
+            ],
+            [
+              "employer",
+              "werk"
+            ]
+          ],
+          "uitleg": "Een salary is een loon, een employer een werkgever."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Welke winkel hoort bij welk product?",
+          "paren": [
+            [
+              "the baker's",
+              "bread"
+            ],
+            [
+              "the chemist's",
+              "medicine"
+            ],
+            [
+              "the butcher's",
+              "sausages"
+            ],
+            [
+              "the greengrocer's",
+              "carrots"
+            ]
+          ],
+          "extra": [
+            "stamps"
+          ],
+          "uitleg": "Bij Britse winkelnamen staat vaak een apostrof met s."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Je wil iets kopen maar het is te duur. Je vraagt: Is there a [[*discount|receipt|refund]] for students?",
+          "uitleg": "A discount is een korting."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Iemand zegt: 'I'm a firefighter.' Wat doet die persoon?",
+          "opties": [
+            "Branden blussen.",
+            "Vuurwerk verkopen op de markt.",
+            "Kachels herstellen bij mensen thuis.",
+            "Schilderijen maken in een atelier."
+          ],
+          "antwoord": 0,
+          "uitleg": "A firefighter is een brandweerman of brandweervrouw."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over Engelse beroepsnamen?",
+          "rijen": [
+            "A waiter brengt het eten naar je tafel in een restaurant.",
+            "A lawyer geeft les in een lagere school.",
+            "A mechanic herstelt auto's.",
+            "A pilot bestuurt een vliegtuig."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            true
+          ],
+          "uitleg": "A lawyer is een advocaat of jurist."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Je wil met de bus van Londen naar Edinburgh, een lange rit. Welk Brits woord gebruik je voor zo'n reisbus? Begin met c.",
+          "antwoord": [
+            "coach",
+            "a coach",
+            "Coach"
+          ],
+          "uitleg": "Een coach rijdt lange afstanden; een bus rijdt in de stad."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet deze stappen op de luchthaven in de juiste volgorde.",
+          "opties": [
+            "check in your luggage",
+            "go through security",
+            "wait at the gate",
+            "board the plane"
+          ],
+          "uitleg": "Eerst inchecken, dan de veiligheidscontrole, dan aan de gate wachten en instappen."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "I'd like a [[return]] ticket to York, please. Which [[platform]] does the train leave from?",
+          "extra": [
+            "luggage",
+            "passport"
+          ],
+          "uitleg": "Een kaartje vragen aan het loket."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Bij welk weer neem je een paraplu mee? When it's [[*pouring|sunny|freezing]].",
+          "uitleg": "Pouring is gieten van de regen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Op de weerkaart staat 'scattered showers'. Wat verwacht je?",
+          "opties": [
+            "Hier en daar een bui.",
+            "De hele dag zon zonder wolken.",
+            "Heel dichte mist in de ochtend.",
+            "Een zware storm met veel wind."
+          ],
+          "antwoord": 0,
+          "uitleg": "Scattered is verspreid, a shower een regenbui."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welk uur hoort bij welke Engelse uitdrukking?",
+          "rijen": [
+            "twenty past six",
+            "quarter past eleven",
+            "ten to four"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Past = over, to = voor.",
+          "kolommen": [
+            "6.20",
+            "11.15",
+            "3.50"
+          ]
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe zeg je '20.30' met 'half past'? Gebruik de klok van twaalf uur, in woorden.",
+          "antwoord": [
+            "half past eight",
+            "Half past eight",
+            "half past eight in the evening",
+            "half past eight pm"
+          ],
+          "uitleg": "20.30 is half past eight in the evening of 8.30 pm."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Het museum ligt recht tegenover het station: the museum is [[*opposite|behind|between]] the station.",
+          "uitleg": "Opposite = tegenover."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Welk Engels werkwoord hoort bij welke handeling op je computer of gsm?",
+          "paren": [
+            [
+              "to download",
+              "iets van het internet halen"
+            ],
+            [
+              "to delete",
+              "iets wissen"
+            ],
+            [
+              "to share",
+              "iets doorsturen naar anderen"
+            ],
+            [
+              "to charge",
+              "je batterij opladen"
+            ]
+          ],
+          "extra": [
+            "iets printen"
+          ],
+          "uitleg": "Woorden uit communicatie en multimedia."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Zeg je play, go of do?",
+          "kolommen": [
+            "play",
+            "go",
+            "do"
+          ],
+          "items": [
+            [
+              "basketball",
+              "play"
+            ],
+            [
+              "cycling",
+              "go"
+            ],
+            [
+              "karate",
+              "do"
+            ],
+            [
+              "chess",
+              "play"
+            ],
+            [
+              "skiing",
+              "go"
+            ],
+            [
+              "gymnastics",
+              "do"
+            ]
+          ],
+          "uitleg": "Play bij balspelen en spelletjes, go bij -ing, do bij de andere."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin past bij een sollicitatiegesprek?",
+          "opties": [
+            "I'm very interested in this job.",
+            "Give me the money right now.",
+            "I don't care about the hours.",
+            "Who are you and why am I here?"
+          ],
+          "antwoord": 0,
+          "uitleg": "In een sollicitatiegesprek toon je interesse en ben je beleefd."
+        },
+        {
+          "casus": "Read the job advert.\n\nPart-time shop assistant wanted. Saturdays and Sundays, 10 am to 4 pm. You must be friendly and good with numbers. Experience is not necessary. Apply with your CV to jobs@sunnyshop.co.uk.",
+          "vragen": [
+            {
+              "type": "tabel",
+              "vraag": "Klopt dit over de vacature?",
+              "rijen": [
+                "Het is een voltijdse baan.",
+                "Je werkt in het weekend.",
+                "Je moet al ervaring hebben.",
+                "Je stuurt je cv via e-mail."
+              ],
+              "antwoord": [
+                false,
+                true,
+                false,
+                true
+              ],
+              "uitleg": "Part-time is deeltijds; not necessary is niet nodig."
+            },
+            {
+              "type": "invultekst",
+              "vraag": "Hoeveel uur werk je op één dag? Schrijf het getal.",
+              "antwoord": [
+                "6",
+                "six",
+                "zes"
+              ],
+              "uitleg": "Van 10 am tot 4 pm zijn zes uren."
+            }
+          ]
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Het examen is mislukt, je moet het in september [[*resit|resign|retire]].",
+          "uitleg": "To resit is een examen opnieuw doen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over de Engelse instructietaal?",
+          "rijen": [
+            "'Underline the verbs' vraagt dat je de werkwoorden onderstreept.",
+            "'Translate into Dutch' vraagt dat je naar het Engels vertaalt.",
+            "'Work in pairs' betekent per twee werken."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Lees de opdrachtwoorden nauwkeurig."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je wil in een winkel iets passen. Wat vraag je?",
+          "opties": [
+            "Where are the fitting rooms?",
+            "Where is the car park, please?",
+            "Can I pay with a cheque here?",
+            "Do you sell any kind of fruit?"
+          ],
+          "antwoord": 0,
+          "uitleg": "Fitting rooms zijn de pashokjes."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe heet in het Engels een hotelkamer voor twee personen met één groot bed? Twee woorden, begin met d.",
+          "antwoord": [
+            "double room",
+            "a double room",
+            "Double room"
+          ],
+          "uitleg": "Een single room is voor één persoon, a twin room heeft twee aparte bedden."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "It's very [[foggy]] this morning: I can't see the end of the street. Tomorrow it will be [[sunny]] again.",
+          "extra": [
+            "crowded",
+            "hungry"
+          ],
+          "uitleg": "Weerwoorden in een zin."
+        },
+        {
+          "type": "open",
+          "vraag": "Schrijf in één Engelse zin hoe je naar school gaat en hoe lang je onderweg bent.",
+          "antwoord": "I go to school by bus and it takes about twenty minutes.",
+          "uitleg": "By + vervoermiddel; it takes … om de duur te zeggen."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Je komt te laat op je werk: I'm sorry, I [[*missed|lost|forgot]] the bus.",
+          "uitleg": "To miss the bus = de bus missen."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Welk Brits woord hoort bij welk Amerikaans woord?",
+          "paren": [
+            [
+              "timetable",
+              "schedule"
+            ],
+            [
+              "return ticket",
+              "round trip"
+            ],
+            [
+              "petrol",
+              "gas"
+            ],
+            [
+              "motorway",
+              "highway"
+            ]
+          ],
+          "extra": [
+            "sidewalk"
+          ],
+          "uitleg": "Reiswoorden verschillen tussen het VK en de VS."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Wat is het Engelse woord voor 'collega'?",
+          "antwoord": [
+            "colleague",
+            "a colleague",
+            "Colleague"
+          ],
+          "uitleg": "Colleague, met -gue op het einde."
+        }
+      ]
+    },
+    {
+      "titel": "Nouns, articles, quantifiers en numerals — pittig",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "casus": "Read the text.\n\nLast week our class visited a farm. We saw three sheep, two geese and a lot of mice in the barn. The farmer's wife gave us some advice about animals. Then we had lunch: a few sandwiches and a little juice. It was the best trip of the year!",
+          "vragen": [
+            {
+              "type": "tabel",
+              "vraag": "Is dit meervoud juist gevormd?",
+              "rijen": [
+                "sheep (één schaap, drie schapen)",
+                "geese (meervoud van goose)",
+                "mice (meervoud van mouse)",
+                "advices (meervoud van advice)"
+              ],
+              "antwoord": [
+                true,
+                true,
+                true,
+                false
+              ],
+              "uitleg": "Advice is ontelbaar en krijgt geen meervoud. In de tekst staat terecht some advice."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "In de tekst staat 'the farmer's wife'. De apostrof met s toont [[*bij wie iemand hoort|dat het meervoud is|dat iets ontbreekt]].",
+              "uitleg": "Dat is de bezitsvorm: de vrouw van de boer."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Waarom staat er 'a little juice' en 'a few sandwiches'?",
+              "opties": [
+                "Juice is ontelbaar, sandwiches telbaar.",
+                "Juice is meervoud, sandwiches enkelvoud.",
+                "Beide woorden zijn telbaar in het Engels.",
+                "A little staat altijd voor een drankje."
+              ],
+              "antwoord": 0,
+              "uitleg": "A little bij ontelbare, a few bij telbare woorden."
+            }
+          ]
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Telbaar of ontelbaar?",
+          "kolommen": [
+            "telbaar",
+            "ontelbaar"
+          ],
+          "items": [
+            [
+              "chair",
+              "telbaar"
+            ],
+            [
+              "furniture",
+              "ontelbaar"
+            ],
+            [
+              "suitcase",
+              "telbaar"
+            ],
+            [
+              "luggage",
+              "ontelbaar"
+            ],
+            [
+              "job",
+              "telbaar"
+            ],
+            [
+              "homework",
+              "ontelbaar"
+            ]
+          ],
+          "uitleg": "Een ontelbaar woord krijgt geen a of an en geen meervouds-s."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Welk meervoud hoort bij welk enkelvoud?",
+          "paren": [
+            [
+              "leaf",
+              "leaves"
+            ],
+            [
+              "baby",
+              "babies"
+            ],
+            [
+              "potato",
+              "potatoes"
+            ],
+            [
+              "ox",
+              "oxen"
+            ],
+            [
+              "day",
+              "days"
+            ]
+          ],
+          "extra": [
+            "dayes"
+          ],
+          "uitleg": "Let op f, y na medeklinker of klinker, o en de onregelmatige vormen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Schrijf het meervoud van 'wife'.",
+          "antwoord": [
+            "wives"
+          ],
+          "uitleg": "Fe wordt ves: wife, wives."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Schrijf het meervoud van 'church'.",
+          "antwoord": [
+            "churches"
+          ],
+          "uitleg": "Na ch, sh, s, x en z komt -es."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Kies het juiste lidwoord: it was [[*a|an]] unique experience.",
+          "uitleg": "Unique begint met de klank 'you', dus a."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Kies het juiste lidwoord: she waited for [[*an|a]] honest answer.",
+          "uitleg": "De h van honest zwijgt: an."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Staat het lidwoord goed?",
+          "rijen": [
+            "I play the piano every evening.",
+            "The life is beautiful.",
+            "He is an artist.",
+            "We go to school by the bus."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Algemene begrippen krijgen geen the; by bus zonder lidwoord. Bij een muziekinstrument hoort wel the."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke vraag naar het aantal leerlingen is juist?",
+          "opties": [
+            "How many students are there?",
+            "How much students are there?",
+            "How many student is there?",
+            "How much student are there?"
+          ],
+          "antwoord": 0,
+          "uitleg": "Students is telbaar meervoud: how many … are there."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "There isn't [[much]] milk in the fridge, but there are [[a lot of]] eggs.",
+          "extra": [
+            "many",
+            "a few"
+          ],
+          "uitleg": "Much bij ontelbaar in een ontkenning, a lot of in een bevestigende zin."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "We have [[*some|any]] bread, so we can make sandwiches.",
+          "uitleg": "Some in een bevestigende zin."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Have you got [[*any|some]] brothers or sisters?",
+          "uitleg": "Any in een gewone vraag."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over hoeveelheidswoorden?",
+          "rijen": [
+            "'Both' gebruik je voor precies twee personen of dingen.",
+            "'Several' betekent enkele, meer dan twee.",
+            "'Much' past bij 'friends'.",
+            "'Few' klinkt negatiever dan 'a few'."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Both = allebei; several = verscheidene; much enkel bij ontelbare woorden."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Schrijf het rangtelwoord bij 5 voluit in het Engels.",
+          "antwoord": [
+            "fifth"
+          ],
+          "uitleg": "Five wordt fifth: de ve wordt f."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Schrijf het rangtelwoord bij 20 voluit in het Engels.",
+          "antwoord": [
+            "twentieth"
+          ],
+          "uitleg": "Twenty wordt twentieth: de y wordt ie."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Welke schrijfwijze hoort bij welk getal?",
+          "paren": [
+            [
+              "1st",
+              "first"
+            ],
+            [
+              "2nd",
+              "second"
+            ],
+            [
+              "3rd",
+              "third"
+            ],
+            [
+              "8th",
+              "eighth"
+            ]
+          ],
+          "extra": [
+            "eightth"
+          ],
+          "uitleg": "Na het cijfer komen de laatste twee letters van het woord."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe lees je 2.75 in het Engels?",
+          "opties": [
+            "two point seventy-five",
+            "two comma seventy-five",
+            "two and seventy-five",
+            "two thousand seventy-five"
+          ],
+          "antwoord": 0,
+          "uitleg": "Point voor het decimaalteken. Je mag ook two point seven five zeggen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Hoe lees je dit jaartal?",
+          "rijen": [
+            "1990",
+            "2008",
+            "1805"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Jaartallen lees je meestal in groepjes van twee.",
+          "kolommen": [
+            "nineteen ninety",
+            "two thousand and eight",
+            "eighteen oh five"
+          ]
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Het concert is op 14 juli. Je schrijft in een Britse brief: on the [[*14th|14nd|14rd]] of July.",
+          "uitleg": "Fourteenth, dus th."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "It's my [[brother's]] bike. My [[parents']] car is red.",
+          "extra": [
+            "brothers",
+            "parent's"
+          ],
+          "uitleg": "Eén broer: brother's. Twee ouders: parents'."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin gebruikt de bezitsvorm juist?",
+          "opties": [
+            "James's phone is new.",
+            "The phone's of James is new.",
+            "James phone's is new now.",
+            "The James' phone is new."
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij een naam op s mag James's of James'."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over meervouden?",
+          "rijen": [
+            "Het meervoud van 'photo' is 'photos'.",
+            "Het meervoud van 'hero' is 'heros'.",
+            "Het meervoud van 'tooth' is 'teeth'."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Hero krijgt -es: heroes."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een paar handschoenen: a [[*pair|piece|couple]] of gloves.",
+          "uitleg": "A pair of bij dingen die uit twee delen bestaan."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Eén meubelstuk: a [[*piece|pair|lot]] of furniture.",
+          "uitleg": "Ontelbare woorden tel je met a piece of."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul het lidwoord in: she lives in … Netherlands. Schrijf enkel het lidwoord.",
+          "antwoord": [
+            "the",
+            "The"
+          ],
+          "uitleg": "Landnamen in het meervoud krijgen the: the Netherlands, the United States."
+        },
+        {
+          "type": "open",
+          "vraag": "Schrijf een Engelse zin met 'a few' en een zin met 'a little'.",
+          "antwoord": "I have a few friends in London. Can I have a little sugar, please?",
+          "uitleg": "A few bij telbare, a little bij ontelbare woorden."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "De wiskundeles is moeilijk: mathematics [[*is|are]] difficult for me.",
+          "uitleg": "Mathematics eindigt op s maar is enkelvoud."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Krijgt dit woord a of an?",
+          "kolommen": [
+            "a",
+            "an"
+          ],
+          "items": [
+            [
+              "European city",
+              "a"
+            ],
+            [
+              "old house",
+              "an"
+            ],
+            [
+              "uniform",
+              "a"
+            ],
+            [
+              "hour",
+              "an"
+            ],
+            [
+              "horse",
+              "a"
+            ],
+            [
+              "umbrella",
+              "an"
+            ]
+          ],
+          "uitleg": "Je kiest op de eerste klank, niet op de letter."
+        }
+      ]
+    },
+    {
+      "titel": "Pronouns: de zeven soorten — pittig",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "casus": "Read the message.\n\nHi Lena! My brother and I are going to the lake on Saturday. Do you want to come with us? Bring your bike, ours are in the garage. Mum says she'll drive us there herself. Text me!",
+          "vragen": [
+            {
+              "type": "tabel",
+              "vraag": "Naar wie of wat verwijst het voornaamwoord?",
+              "rijen": [
+                "us (in 'come with us')",
+                "ours",
+                "herself"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "Een voornaamwoord verwijst naar iets dat eerder genoemd is.",
+              "kolommen": [
+                "de schrijver en haar broer",
+                "de fietsen van de schrijver en haar broer",
+                "mama"
+              ]
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "In 'Text me!' is me een [[*voorwerpsvorm|onderwerpsvorm|bezittelijke vorm]].",
+              "uitleg": "Me staat na het werkwoord: de voorwerpsvorm."
+            }
+          ]
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Onderwerpsvorm of voorwerpsvorm?",
+          "kolommen": [
+            "onderwerpsvorm",
+            "voorwerpsvorm"
+          ],
+          "items": [
+            [
+              "we",
+              "onderwerpsvorm"
+            ],
+            [
+              "us",
+              "voorwerpsvorm"
+            ],
+            [
+              "they",
+              "onderwerpsvorm"
+            ],
+            [
+              "them",
+              "voorwerpsvorm"
+            ],
+            [
+              "he",
+              "onderwerpsvorm"
+            ],
+            [
+              "him",
+              "voorwerpsvorm"
+            ]
+          ],
+          "uitleg": "Het onderwerp doet de handeling; na een werkwoord of voorzetsel staat de voorwerpsvorm."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Kies: the teacher gave [[*us|we|our]] a lot of homework.",
+          "uitleg": "Na gave staat de voorwerpsvorm."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Kies: [[*He|Him|His]] and his sister live in Dublin.",
+          "uitleg": "Laat 'and his sister' weg: he lives in Dublin."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Welk zelfstandig bezittelijk voornaamwoord hoort bij welk bijvoeglijk?",
+          "paren": [
+            [
+              "my",
+              "mine"
+            ],
+            [
+              "your",
+              "yours"
+            ],
+            [
+              "our",
+              "ours"
+            ],
+            [
+              "their",
+              "theirs"
+            ]
+          ],
+          "extra": [
+            "their's"
+          ],
+          "uitleg": "De zelfstandige vorm staat alleen, nooit met een apostrof."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is deze zin met een bezittelijk voornaamwoord juist?",
+          "rijen": [
+            "This pen is mine.",
+            "Is this coat your's?",
+            "The dog is eating its food.",
+            "The house is their."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Yours zonder apostrof; alleenstaand is het theirs."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Kies: it's raining and the bird is cleaning [[*its|it's]] feathers.",
+          "uitleg": "Its zonder apostrof is bezittelijk."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul het wederkerend voornaamwoord in: we enjoyed … at the party.",
+          "antwoord": [
+            "ourselves"
+          ],
+          "uitleg": "We hoort bij ourselves."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul het wederkerend voornaamwoord in: the children made the cake … .",
+          "antwoord": [
+            "themselves"
+          ],
+          "uitleg": "The children = they, dus themselves."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin bevat een wederkerend voornaamwoord?",
+          "opties": [
+            "She taught herself to swim.",
+            "She taught her friend a song.",
+            "Her friend taught her to sing.",
+            "She is teaching at a school."
+          ],
+          "antwoord": 0,
+          "uitleg": "Herself slaat terug op she."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Kies: did you cut [[*yourself|you|yours]] with the knife?",
+          "uitleg": "De handeling slaat terug op you."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welk aanwijzend voornaamwoord past?",
+          "rijen": [
+            "… book in my hand",
+            "… mountains far away",
+            "… cookies on my plate",
+            "… car at the end of the street"
+          ],
+          "antwoord": [
+            0,
+            3,
+            1,
+            2
+          ],
+          "uitleg": "Dichtbij: this, these. Veraf: that, those.",
+          "kolommen": [
+            "this",
+            "these",
+            "that",
+            "those"
+          ]
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Je wijst naar sterren aan de hemel: look at [[*those|these|this]] stars!",
+          "uitleg": "Ver weg en meervoud: those."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin over Mia en Sara verwijst duidelijk?",
+          "opties": [
+            "When Mia met Sara, Mia smiled.",
+            "When Mia met Sara, she smiled.",
+            "Mia met Sara and she smiled.",
+            "She smiled when she met her."
+          ],
+          "antwoord": 0,
+          "uitleg": "Met twee vrouwen is she onduidelijk; herhaal de naam."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Welk vraagwoord hoort bij welke vraag?",
+          "paren": [
+            [
+              "Who",
+              "… is your best friend?"
+            ],
+            [
+              "Whose",
+              "… jacket is this?"
+            ],
+            [
+              "Which",
+              "… do you prefer, tea or coffee?"
+            ],
+            [
+              "What",
+              "… is your favourite food?"
+            ]
+          ],
+          "extra": [
+            "Why"
+          ],
+          "uitleg": "Who naar een persoon, whose naar de eigenaar, which bij een beperkte keuze."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Kies: [[*Whose|Who's]] phone is ringing?",
+          "uitleg": "Je vraagt naar de eigenaar: whose."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is deze vraag met who of which juist?",
+          "rijen": [
+            "Who wants some cake?",
+            "Who does want some cake?",
+            "Which bus goes to the centre?"
+          ],
+          "antwoord": [
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Vraagt who naar het onderwerp, dan geen do."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Persoon of ding?",
+          "kolommen": [
+            "persoon",
+            "ding"
+          ],
+          "items": [
+            [
+              "somebody",
+              "persoon"
+            ],
+            [
+              "something",
+              "ding"
+            ],
+            [
+              "no one",
+              "persoon"
+            ],
+            [
+              "nothing",
+              "ding"
+            ],
+            [
+              "everyone",
+              "persoon"
+            ],
+            [
+              "anything",
+              "ding"
+            ]
+          ],
+          "uitleg": "-body en -one gaan over personen, -thing over dingen."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Kies: everybody [[*knows|know]] the answer.",
+          "uitleg": "Everybody is enkelvoud."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Kies: I haven't got [[*anything|nothing]] to wear.",
+          "uitleg": "Haven't is al een ontkenning, dus anything."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Kies: would you like [[*something|anything]] to drink?",
+          "uitleg": "Bij een aanbod mag something."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent 'Each of them got a present'?",
+          "opties": [
+            "Iedereen van hen kreeg een cadeau.",
+            "Niemand van hen kreeg een cadeautje.",
+            "Enkelen van hen kregen een cadeau.",
+            "Eén van hen kreeg een groot cadeau."
+          ],
+          "antwoord": 0,
+          "uitleg": "Each = elk afzonderlijk."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "I looked everywhere but I couldn't find my keys. [[Somebody]] must have taken them. There's [[nothing]] in my bag.",
+          "extra": [
+            "Anybody",
+            "anything"
+          ],
+          "uitleg": "Some- in een bevestigende zin; nothing betekent 'niets'."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welk betrekkelijk voornaamwoord past?",
+          "rijen": [
+            "the girl … won the race",
+            "the film … we watched",
+            "the place … we met",
+            "the year … I was born"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "uitleg": "Who bij personen, which bij dingen, where bij plaatsen, when bij tijd.",
+          "kolommen": [
+            "who",
+            "which",
+            "where",
+            "when"
+          ]
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Kies: the man [[*whose|who's|who]] car was stolen called the police.",
+          "uitleg": "Whose als betrekkelijk voornaamwoord toont bezit: de man wiens auto…"
+        },
+        {
+          "type": "tabel",
+          "vraag": "Mag het betrekkelijk voornaamwoord hier weg?",
+          "rijen": [
+            "The cake that she made was delicious.",
+            "The boy who lives next door is ill.",
+            "The song which I heard was old."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Staat er meteen een nieuw onderwerp na, dan mag het weg. Is het zelf het onderwerp, dan niet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin over de kapotte telefoon is juist?",
+          "opties": [
+            "The phone that I bought broke.",
+            "The phone what I bought broke.",
+            "The phone who I bought broke.",
+            "The phone where I bought broke."
+          ],
+          "antwoord": 0,
+          "uitleg": "That of which bij dingen; what is hier fout."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan met één betrekkelijk voornaamwoord voor een persoon: the nurse … helped me was very kind.",
+          "antwoord": [
+            "who",
+            "that"
+          ],
+          "uitleg": "Who (of that) bij een persoon die het onderwerp is."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Kies: that's the reason [[*why|where|which]] I'm late.",
+          "uitleg": "Why verwijst naar een reden."
+        }
+      ]
+    },
+    {
+      "titel": "Adjectives, adverbs, comparatives en voorzetsels — pittig",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "casus": "Read the review.\n\nThe new pizza place in town is great. The staff are friendly and they work quickly. My pizza was bigger than my plate and it tasted delicious! It's more expensive than the snack bar next door, but it's the best pizza I have ever eaten. We'll definitely go back in June.",
+          "vragen": [
+            {
+              "type": "sorteren",
+              "vraag": "Bijvoeglijk naamwoord of bijwoord?",
+              "kolommen": [
+                "bijvoeglijk naamwoord",
+                "bijwoord"
+              ],
+              "items": [
+                [
+                  "friendly",
+                  "bijvoeglijk naamwoord"
+                ],
+                [
+                  "quickly",
+                  "bijwoord"
+                ],
+                [
+                  "delicious",
+                  "bijvoeglijk naamwoord"
+                ],
+                [
+                  "definitely",
+                  "bijwoord"
+                ]
+              ],
+              "uitleg": "Friendly eindigt op -ly maar is een bijvoeglijk naamwoord."
+            },
+            {
+              "type": "tabel",
+              "vraag": "Welke trap staat in de tekst?",
+              "rijen": [
+                "bigger",
+                "more expensive",
+                "the best"
+              ],
+              "antwoord": [
+                0,
+                0,
+                1
+              ],
+              "uitleg": "Vergrotend: -er of more. Overtreffend: the + -est, most of een onregelmatige vorm.",
+              "kolommen": [
+                "vergrotende trap",
+                "overtreffende trap"
+              ]
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "In 'it tasted delicious' staat een bijvoeglijk naamwoord omdat taste hier een [[*koppelwerkwoord|hulpwerkwoord|bijwoord]] is.",
+              "uitleg": "Na een koppelwerkwoord zegt het woord iets over het onderwerp."
+            }
+          ]
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Welke vergrotende trap hoort bij welk woord?",
+          "paren": [
+            [
+              "hot",
+              "hotter"
+            ],
+            [
+              "happy",
+              "happier"
+            ],
+            [
+              "far",
+              "further"
+            ],
+            [
+              "modern",
+              "more modern"
+            ],
+            [
+              "bad",
+              "worse"
+            ]
+          ],
+          "extra": [
+            "badder"
+          ],
+          "uitleg": "Verdubbeling, y wordt i, onregelmatig of more."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Schrijf de overtreffende trap van 'thin', met the.",
+          "antwoord": [
+            "the thinnest"
+          ],
+          "uitleg": "Korte klinker + één medeklinker: verdubbelen. Thin, thinner, the thinnest."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Schrijf de overtreffende trap van 'little', met the.",
+          "antwoord": [
+            "the least"
+          ],
+          "uitleg": "Little, less, the least: onregelmatig."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Kies: London is [[*bigger than|more big than|bigger then]] Brighton.",
+          "uitleg": "Big wordt bigger; na de vergrotende trap volgt than."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Kies: this is the [[*most difficult|difficultest|more difficult]] exercise of all.",
+          "uitleg": "Lange woorden: the most."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is de vergelijking juist?",
+          "rijen": [
+            "My bag is as heavy as yours.",
+            "He is more taller than me.",
+            "This film is less exciting than the book.",
+            "She is the better player of the team."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Niet more + -er samen; bij een hele groep gebruik je de overtreffende trap: the best."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Kies: the test was [[*much|very]] easier than I thought.",
+          "uitleg": "Voor een vergrotende trap: much, far of a lot."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is het eerste woord hier een bijvoeglijk naamwoord of een bijwoord?",
+          "rijen": [
+            "slowly in: She speaks slowly.",
+            "tired in: He looks tired.",
+            "well in: They played well.",
+            "quiet in: It's a quiet street."
+          ],
+          "antwoord": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "uitleg": "Zegt het iets over de handeling, dan is het een bijwoord.",
+          "kolommen": [
+            "bijvoeglijk naamwoord",
+            "bijwoord"
+          ]
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Kies: he answered the question [[*correctly|correct]].",
+          "uitleg": "Het zegt hoe hij antwoordde: bijwoord."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Kies: you look [[*sad|sadly]]. What's wrong?",
+          "uitleg": "Look is hier een koppelwerkwoord."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Maak het bijwoord bij 'gentle'.",
+          "antwoord": [
+            "gently"
+          ],
+          "uitleg": "Op -le: de e valt weg en er komt y bij."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Maak het bijwoord bij 'heavy'.",
+          "antwoord": [
+            "heavily"
+          ],
+          "uitleg": "Y wordt i, dan -ly."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent 'She hardly ever eats meat'?",
+          "opties": [
+            "Ze eet bijna nooit vlees.",
+            "Ze eet heel graag veel vlees.",
+            "Ze eet elke dag een stuk vlees.",
+            "Ze eet haar vlees altijd te hard."
+          ],
+          "antwoord": 0,
+          "uitleg": "Hardly ever = bijna nooit."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet deze bijwoorden van vaak naar zelden.",
+          "opties": [
+            "always",
+            "usually",
+            "sometimes",
+            "never"
+          ],
+          "uitleg": "Van honderd procent naar nul procent."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Staat het bijwoord op de juiste plaats?",
+          "rijen": [
+            "She is never late.",
+            "He goes often to the cinema.",
+            "We usually have lunch at noon."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Voor het hoofdwerkwoord, maar na to be: he often goes."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "At, on of in?",
+          "kolommen": [
+            "at",
+            "on",
+            "in"
+          ],
+          "items": [
+            [
+              "midnight",
+              "at"
+            ],
+            [
+              "Friday",
+              "on"
+            ],
+            [
+              "2025",
+              "in"
+            ],
+            [
+              "the weekend",
+              "at"
+            ],
+            [
+              "my birthday",
+              "on"
+            ],
+            [
+              "winter",
+              "in"
+            ]
+          ],
+          "uitleg": "At bij een tijdstip, on bij een dag, in bij een langere periode. Brits: at the weekend."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Kies: the cat is hiding [[*under|on|at]] the bed.",
+          "uitleg": "Under = onder."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Welk voorzetsel hoort bij welk woord?",
+          "paren": [
+            [
+              "afraid",
+              "of"
+            ],
+            [
+              "interested",
+              "in"
+            ],
+            [
+              "good",
+              "at"
+            ],
+            [
+              "proud",
+              "of"
+            ],
+            [
+              "different",
+              "from"
+            ]
+          ],
+          "extra": [
+            "on"
+          ],
+          "uitleg": "Leer het woord en het voorzetsel samen."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Kies: we arrived [[*in|at]] Paris late in the evening.",
+          "uitleg": "Bij een stad of land: arrive in."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Our flat is [[on]] the second floor, [[next to]] the lift and [[opposite]] the stairs.",
+          "extra": [
+            "at",
+            "under"
+          ],
+          "uitleg": "Voorzetsels van plaats."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin zegt dat iemand bijna niet geslapen heeft?",
+          "opties": [
+            "I hardly slept.",
+            "I slept very hard.",
+            "I slept really well.",
+            "I slept a hard sleep."
+          ],
+          "antwoord": 0,
+          "uitleg": "Hardly = nauwelijks."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Kies: she has a [[*beautiful old|old beautiful]] house.",
+          "uitleg": "Eerst de mening, dan de leeftijd."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over woorden op -ly en hun bijwoord?",
+          "rijen": [
+            "'Lonely' is een bijvoeglijk naamwoord.",
+            "'Fast' heeft als bijwoord 'fastly'.",
+            "'Good' heeft als bijwoord 'well'."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Fast blijft fast."
+        },
+        {
+          "type": "open",
+          "vraag": "Vergelijk in één Engelse zin twee sporten die je kent. Gebruik een vergrotende trap.",
+          "antwoord": "Football is more popular than rugby in Belgium.",
+          "uitleg": "Gebruik -er of more, gevolgd door than."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Kies: I'll see you [[*on|in|at]] Monday morning.",
+          "uitleg": "De dag wint: on Monday morning."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin vergelijkt juist drie of meer dingen?",
+          "opties": [
+            "It's the cheapest of the three.",
+            "It's cheaper of all the three.",
+            "It's the more cheap of the three.",
+            "It's most cheaper of the three."
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij drie of meer: de overtreffende trap met the."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Kies: please talk more [[*quietly|quiet]], the baby is sleeping.",
+          "uitleg": "Het zegt hoe je praat: bijwoord, en more bij een bijwoord op -ly."
+        }
+      ]
+    },
+    {
+      "titel": "De tegenwoordige tijden — pittig",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "casus": "Read the e-mail.\n\nHi Tom,\nI'm writing to you from my grandma's house. I usually stay here for a week every summer. Right now, my cousins are playing football in the garden and grandma is baking a cake. I have lived in Leeds since 2021, so I don't see her often. I have been reading a great book all morning. There are two more chapters left!\nBye, Sophie",
+          "vragen": [
+            {
+              "type": "tabel",
+              "vraag": "Welke tijd staat in de tekst?",
+              "rijen": [
+                "I usually stay",
+                "my cousins are playing",
+                "I have lived",
+                "I have been reading"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "uitleg": "Gewoonte, bezig nu, sinds een moment tot nu, duur tot nu.",
+              "kolommen": [
+                "present simple",
+                "present continuous",
+                "present perfect simple",
+                "present perfect continuous"
+              ]
+            },
+            {
+              "type": "tabel",
+              "vraag": "Klopt dit volgens de tekst?",
+              "rijen": [
+                "Sophie woont al sinds 2021 in Leeds.",
+                "Sophie gaat elke week naar haar oma.",
+                "Het boek is nog niet uit."
+              ],
+              "antwoord": [
+                true,
+                false,
+                true
+              ],
+              "uitleg": "Every summer is één keer per jaar; er zijn nog twee hoofdstukken."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "'There are two more chapters left' gebruikt are omdat chapters [[*meervoud|ontelbaar|enkelvoud]] is.",
+              "uitleg": "There are bij meervoud."
+            }
+          ]
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Gewoonte of nu bezig?",
+          "kolommen": [
+            "gewoonte (present simple)",
+            "nu bezig (present continuous)"
+          ],
+          "items": [
+            [
+              "every Monday",
+              "gewoonte (present simple)"
+            ],
+            [
+              "at the moment",
+              "nu bezig (present continuous)"
+            ],
+            [
+              "usually",
+              "gewoonte (present simple)"
+            ],
+            [
+              "right now",
+              "nu bezig (present continuous)"
+            ],
+            [
+              "twice a week",
+              "gewoonte (present simple)"
+            ],
+            [
+              "Look!",
+              "nu bezig (present continuous)"
+            ]
+          ],
+          "uitleg": "Signaalwoorden helpen je de tijd te kiezen."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Kies: my dad [[*washes|washs|wash]] the car every Sunday.",
+          "uitleg": "Na een sisklank komt -es."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Kies: [[*Do|Does]] your parents work in Brussels?",
+          "uitleg": "Your parents = they: do."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Kies: she [[*doesn't like|don't like|doesn't likes]] spiders.",
+          "uitleg": "Doesn't + basisvorm."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Schrijf de derde persoon enkelvoud van 'to carry'.",
+          "antwoord": [
+            "carries"
+          ],
+          "uitleg": "Medeklinker + y: -ies."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Schrijf de -ing-vorm van 'to swim'.",
+          "antwoord": [
+            "swimming"
+          ],
+          "uitleg": "Korte klinker + één medeklinker: verdubbelen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Schrijf de -ing-vorm van 'to make'.",
+          "antwoord": [
+            "making"
+          ],
+          "uitleg": "De stomme e valt weg."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Kies: be quiet, the baby [[*is sleeping|sleeps|sleep]].",
+          "uitleg": "Het gebeurt nu: present continuous."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Kies: I [[*don't understand|am not understanding]] this exercise.",
+          "uitleg": "Understand gaat niet in de -ing-vorm."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is deze zin in de tegenwoordige tijd juist?",
+          "rijen": [
+            "Water boils at 100 degrees.",
+            "She is wanting a new phone.",
+            "We're having dinner at the moment.",
+            "He go to school by bike."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Feiten in de present simple; want niet in de -ing-vorm; he goes."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Kies: there [[*is|are]] a lot of traffic today.",
+          "uitleg": "Traffic is ontelbaar: there is."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Kies: there [[*are|is]] some apples in the bowl.",
+          "uitleg": "Apples is meervoud: there are."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "I have known Emma [[for]] ten years. We have been friends [[since]] primary school.",
+          "extra": [
+            "ago",
+            "during"
+          ],
+          "uitleg": "For bij een duur, since bij een beginmoment."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "For of since?",
+          "kolommen": [
+            "for",
+            "since"
+          ],
+          "items": [
+            [
+              "three weeks",
+              "for"
+            ],
+            [
+              "2019",
+              "since"
+            ],
+            [
+              "a long time",
+              "for"
+            ],
+            [
+              "last summer",
+              "since"
+            ],
+            [
+              "ten minutes",
+              "for"
+            ],
+            [
+              "I was six",
+              "since"
+            ]
+          ],
+          "uitleg": "For = hoe lang, since = vanaf wanneer."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Welk voltooid deelwoord hoort bij welk werkwoord?",
+          "paren": [
+            [
+              "go",
+              "gone"
+            ],
+            [
+              "write",
+              "written"
+            ],
+            [
+              "buy",
+              "bought"
+            ],
+            [
+              "see",
+              "seen"
+            ],
+            [
+              "take",
+              "taken"
+            ]
+          ],
+          "extra": [
+            "saw"
+          ],
+          "uitleg": "Het voltooid deelwoord is de derde vorm."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Kies: have you [[*ever|yet|since]] been to Scotland?",
+          "uitleg": "Ever = ooit, bij een vraag naar ervaring."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Kies: I haven't done my homework [[*yet|already|just]].",
+          "uitleg": "Yet in een ontkenning, achteraan."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Kies: we [[*went|have gone]] to the zoo last Saturday.",
+          "uitleg": "Last Saturday is een afgelopen moment: past simple."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke vertaling van 'Hij werkt hier al vijf jaar' is juist?",
+          "opties": [
+            "He has worked here for five years.",
+            "He works here since five years.",
+            "He is working here for five years.",
+            "He worked here since five years ago."
+          ],
+          "antwoord": 0,
+          "uitleg": "Iets dat begon en nog duurt: present perfect + for."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom zeg je 'She has been crying'?",
+          "opties": [
+            "Haar ogen zijn nog rood.",
+            "Ze huilt elke dag om niets.",
+            "Ze zal straks gaan huilen.",
+            "Ze huilde lang geleden een keer."
+          ],
+          "antwoord": 0,
+          "uitleg": "Je ziet de sporen van een bezigheid die net bezig was."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Kies: how long [[*have you been waiting|are you waiting|do you wait]]?",
+          "uitleg": "Duur tot nu: present perfect continuous."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Simple of continuous in de present perfect?",
+          "rijen": [
+            "I have read three books this month.",
+            "I have been reading since breakfast.",
+            "She has broken her arm.",
+            "They have been playing games all day."
+          ],
+          "antwoord": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "uitleg": "Simple toont een resultaat of een aantal, continuous de duur van een bezigheid.",
+          "kolommen": [
+            "simple",
+            "continuous"
+          ]
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Kies: we [[*are meeting|meet]] Lisa at the station at six tomorrow, it's all arranged.",
+          "uitleg": "Een vaste afspraak: present continuous."
+        },
+        {
+          "type": "open",
+          "vraag": "Schrijf in het Engels twee zinnen over jezelf: één over een gewoonte en één over iets dat je sinds lang doet.",
+          "antwoord": "I play the guitar every Wednesday. I have lived in Genk since 2015.",
+          "uitleg": "Present simple voor een gewoonte, present perfect met since of for voor iets dat nog duurt."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Kies: she has [[*just|yet|ever]] left, you missed her by one minute.",
+          "uitleg": "Just = nog maar net."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke vraag naar een gewoonte is juist?",
+          "opties": [
+            "How often do you go swimming?",
+            "How often are you going to swim?",
+            "How often you go swimming?",
+            "How often does you go swimming?"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een gewoonte: present simple met do."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan met één woord: there … any milk left. Gebruik de korte ontkennende vorm.",
+          "antwoord": [
+            "isn't",
+            "is not"
+          ],
+          "uitleg": "Milk is ontelbaar: there isn't any milk."
+        }
+      ]
+    },
+    {
+      "titel": "De verleden en de toekomende tijden — pittig",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "casus": "Read the story.\n\nLast Saturday I was walking home from the cinema. It was raining and the streets were empty. Suddenly I heard a strange noise. A little dog was sitting under a car. It looked cold and hungry. I took it home and gave it some food. The next day we found its owner.",
+          "vragen": [
+            {
+              "type": "tabel",
+              "vraag": "Welke tijd staat er?",
+              "rijen": [
+                "I was walking",
+                "I heard",
+                "It was raining",
+                "we found"
+              ],
+              "antwoord": [
+                1,
+                0,
+                1,
+                0
+              ],
+              "uitleg": "De past continuous schildert het decor, de past simple vertelt wat er gebeurde.",
+              "kolommen": [
+                "past simple",
+                "past continuous"
+              ]
+            },
+            {
+              "type": "volgorde",
+              "vraag": "Zet de gebeurtenissen in de volgorde van het verhaal.",
+              "opties": [
+                "ik hoorde een vreemd geluid",
+                "ik zag een hondje onder een auto",
+                "ik gaf het hondje eten",
+                "we vonden de eigenaar"
+              ],
+              "uitleg": "Volg de past simple-vormen in de tekst."
+            },
+            {
+              "type": "invultekst",
+              "vraag": "Schrijf de basisvorm van 'took'.",
+              "antwoord": [
+                "take",
+                "to take"
+              ],
+              "uitleg": "Take, took, taken."
+            }
+          ]
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Welke past simple hoort bij welk werkwoord?",
+          "paren": [
+            [
+              "catch",
+              "caught"
+            ],
+            [
+              "teach",
+              "taught"
+            ],
+            [
+              "fall",
+              "fell"
+            ],
+            [
+              "leave",
+              "left"
+            ],
+            [
+              "speak",
+              "spoke"
+            ]
+          ],
+          "extra": [
+            "catched"
+          ],
+          "uitleg": "Frequente onregelmatige werkwoorden leer je uit het hoofd."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Regelmatig of onregelmatig?",
+          "kolommen": [
+            "regelmatig",
+            "onregelmatig"
+          ],
+          "items": [
+            [
+              "play",
+              "regelmatig"
+            ],
+            [
+              "sing",
+              "onregelmatig"
+            ],
+            [
+              "visit",
+              "regelmatig"
+            ],
+            [
+              "forget",
+              "onregelmatig"
+            ],
+            [
+              "open",
+              "regelmatig"
+            ],
+            [
+              "break",
+              "onregelmatig"
+            ]
+          ],
+          "uitleg": "Regelmatige werkwoorden krijgen -ed."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Schrijf de past simple van 'to plan'.",
+          "antwoord": [
+            "planned"
+          ],
+          "uitleg": "Korte klinker + één medeklinker: verdubbelen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Schrijf de past simple van 'to cry'.",
+          "antwoord": [
+            "cried"
+          ],
+          "uitleg": "Medeklinker + y: -ied."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Kies: [[*Did you see|Did you saw|Saw you]] the match last night?",
+          "uitleg": "Did + basisvorm."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Kies: we [[*weren't|wasn't|didn't]] at home yesterday.",
+          "uitleg": "We + were; to be heeft geen did nodig."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Kies: he [[*didn't call|didn't called|not called]] me.",
+          "uitleg": "Didn't + basisvorm."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is deze zin in de verleden tijd juist?",
+          "rijen": [
+            "She bought a new jacket last week.",
+            "Did they went to the beach?",
+            "I was tired after the trip.",
+            "We was playing outside."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Did + basisvorm; we were."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Kies: while I [[*was doing|did]] my homework, my phone rang.",
+          "uitleg": "Na while: de lange handeling in de past continuous."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Kies: when the teacher [[*came|was coming]] in, everybody stopped talking.",
+          "uitleg": "Een korte handeling na when: past simple."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat beschrijft 'At 9 pm we were watching TV'?",
+          "opties": [
+            "Waar we mee bezig waren om 21 uur.",
+            "Wat we elke avond om 21 uur doen.",
+            "Wat we morgen om 21 uur gaan doen.",
+            "Dat we om 21 uur de tv uitzetten."
+          ],
+          "antwoord": 0,
+          "uitleg": "De past continuous toont een bezigheid op een moment in het verleden."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Kies: I [[*used to|use to]] have long hair when I was little.",
+          "uitleg": "Used to voor een vroegere gewoonte."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Kies: did you [[*use to|used to]] live in a flat?",
+          "uitleg": "Na did: use to, zonder d."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Hoort dit signaalwoord bij het verleden of bij de toekomst?",
+          "kolommen": [
+            "verleden",
+            "toekomst"
+          ],
+          "items": [
+            [
+              "two days ago",
+              "verleden"
+            ],
+            [
+              "next week",
+              "toekomst"
+            ],
+            [
+              "in 2015",
+              "verleden"
+            ],
+            [
+              "tomorrow",
+              "toekomst"
+            ],
+            [
+              "last night",
+              "verleden"
+            ],
+            [
+              "in ten years",
+              "toekomst"
+            ]
+          ],
+          "uitleg": "Ago en last wijzen naar het verleden, next en tomorrow naar de toekomst."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Kies: the phone is ringing. I [[*'ll answer|answered]] it!",
+          "uitleg": "Een beslissing op het moment zelf: will."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Kies: I think Belgium [[*will win|wins|win]] the match.",
+          "uitleg": "Een voorspelling met I think: will."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is deze zin met will juist?",
+          "rijen": [
+            "She will be fifteen next month.",
+            "They will comes later.",
+            "Will you help me, please?",
+            "I will to call you."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Na will staat de kale basisvorm."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan met de korte vorm: don't worry, I … be late. (ik zal niet te laat zijn)",
+          "antwoord": [
+            "won't",
+            "will not"
+          ],
+          "uitleg": "Won't = will not."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Yesterday I [[forgot]] my keys, so I [[waited]] outside until my mum came home.",
+          "extra": [
+            "forget",
+            "will wait"
+          ],
+          "uitleg": "Twee afgesloten handelingen in het verleden."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Kies: when we got to the cinema, the film [[*had already started|already starts|has already started]].",
+          "uitleg": "Wat vroeger gebeurde dan het andere verleden: past perfect."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan met twee woorden: she was tired because she … (not sleep) well. Gebruik de past perfect.",
+          "antwoord": [
+            "hadn't slept",
+            "had not slept"
+          ],
+          "uitleg": "Had not + voltooid deelwoord."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Wat gebeurde eerst?",
+          "rijen": [
+            "When I arrived, she had left.",
+            "He had eaten before we came.",
+            "They had lost the key, so they called us."
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "De past perfect toont wat het eerst gebeurde.",
+          "kolommen": [
+            "zij vertrok",
+            "hij at",
+            "ze verloren de sleutel"
+          ]
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Kies: I've bought the tickets. We [[*are going to|will]] see the show on Friday.",
+          "uitleg": "Een plan dat al vastligt: going to."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Kies: look at that man on the ladder! He [[*is going to fall|will be falling]].",
+          "uitleg": "Een voorspelling met bewijs dat je nu ziet: going to."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin staat in de future continuous?",
+          "opties": [
+            "At noon tomorrow I'll be lying on the beach.",
+            "Tomorrow at noon I will lie on the warm beach.",
+            "I'm going to lie on the beach tomorrow at noon.",
+            "I lay on the beach yesterday all afternoon."
+          ],
+          "antwoord": 0,
+          "uitleg": "Will be + -ing: bezig op een moment in de toekomst."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Het is warm in de klas. Je vraagt beleefd: [[*Shall|Will]] I open the window?",
+          "uitleg": "Shall I biedt iets aan."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "By the time the police [[arrived]], the thieves [[had escaped]].",
+          "extra": [
+            "have escaped",
+            "arrive"
+          ],
+          "uitleg": "Het oudste moment krijgt de past perfect."
+        }
+      ]
+    },
+    {
+      "titel": "Modal auxiliaries, imperative en infinitive — pittig",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "casus": "Read the swimming pool rules.\n\nYou must take a shower before you swim. You mustn't run near the pool. You don't have to bring a towel: you can rent one at the desk. Children under eight should swim with an adult. Please don't eat in the water!",
+          "vragen": [
+            {
+              "type": "tabel",
+              "vraag": "Wat zegt de regel?",
+              "rijen": [
+                "douchen voor het zwemmen",
+                "lopen aan het zwembad",
+                "een eigen handdoek meebrengen",
+                "met een volwassene zwemmen voor kinderen onder acht"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "uitleg": "Must = moet, mustn't = mag niet, don't have to = hoeft niet, should = best wel.",
+              "kolommen": [
+                "verplicht",
+                "verboden",
+                "niet nodig",
+                "aangeraden"
+              ]
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "'Please don't eat in the water!' is een [[*ontkennende imperatief|vraag|mededeling]].",
+              "uitleg": "Don't + basisvorm, zonder onderwerp."
+            },
+            {
+              "type": "invultekst",
+              "vraag": "Welk modaal werkwoord in de tekst drukt uit dat iets mag of mogelijk is?",
+              "antwoord": [
+                "can"
+              ],
+              "uitleg": "You can rent one: dat kan je huren."
+            }
+          ]
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Welke betekenis hoort bij welk modaal werkwoord?",
+          "paren": [
+            [
+              "You should rest.",
+              "een raad"
+            ],
+            [
+              "You must stop.",
+              "een verplichting"
+            ],
+            [
+              "It might snow.",
+              "een mogelijkheid"
+            ],
+            [
+              "Can you ski?",
+              "een vaardigheid"
+            ]
+          ],
+          "extra": [
+            "een belofte"
+          ],
+          "uitleg": "Hetzelfde onderwerp, telkens een andere betekenis."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Mustn't of don't have to?",
+          "kolommen": [
+            "mustn't (verboden)",
+            "don't have to (hoeft niet)"
+          ],
+          "items": [
+            [
+              "use your phone during the test",
+              "mustn't (verboden)"
+            ],
+            [
+              "wear a uniform on Saturday",
+              "don't have to (hoeft niet)"
+            ],
+            [
+              "swim after the red flag",
+              "mustn't (verboden)"
+            ],
+            [
+              "pay, it's free",
+              "don't have to (hoeft niet)"
+            ]
+          ],
+          "uitleg": "Mustn't verbiedt, don't have to laat je vrij."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Kies: she [[*can|cans|can to]] play the violin.",
+          "uitleg": "Geen s en geen to na een modaal werkwoord."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Kies: yesterday I [[*had to|must]] stay late at school.",
+          "uitleg": "Must heeft geen verleden tijd: had to."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Kies: you look ill. You [[*should|mustn't]] go to bed early.",
+          "uitleg": "Een raad: should."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Het licht brandt en de auto staat er. Ze [[*must|can't]] be at home.",
+          "uitleg": "Een logische conclusie: must be."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Hij is in Spanje op vakantie. Dat [[*can't|must]] be him at the door.",
+          "uitleg": "Onmogelijk: can't be."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is deze zin met een modaal werkwoord juist?",
+          "rijen": [
+            "He might come later.",
+            "She musts leave now.",
+            "You ought to be careful.",
+            "We can to help you."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Geen s, en enkel ought heeft to."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke vraag is de beleefdste?",
+          "opties": [
+            "Would you mind closing the window?",
+            "Can you close the window for me now?",
+            "Close that window right now, will you!",
+            "You close the window, I'm too busy."
+          ],
+          "antwoord": 0,
+          "uitleg": "Would you mind + -ing is erg beleefd."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan met drie woorden: I can't swim now, but I hope I … swim next summer. (zal kunnen)",
+          "antwoord": [
+            "will be able to",
+            "'ll be able to"
+          ],
+          "uitleg": "Will + be able to: twee modale werkwoorden kunnen niet na elkaar."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Kies: I'd rather [[*walk|to walk|walking]] than take the bus.",
+          "uitleg": "Would rather + basisvorm."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Je bent te laat en hebt de bus gemist. Je zegt: I [[*should have left|should leave|must leave]] earlier.",
+          "uitleg": "Should have + deelwoord: spijt over iets in het verleden."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "[[May]] I use your phone? — Of course, but you [[mustn't]] call abroad.",
+          "extra": [
+            "Must",
+            "should"
+          ],
+          "uitleg": "Formele toestemming en een verbod."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Infinitief met to of -ing-vorm?",
+          "kolommen": [
+            "met to",
+            "-ing"
+          ],
+          "items": [
+            [
+              "I want …",
+              "met to"
+            ],
+            [
+              "I enjoy …",
+              "-ing"
+            ],
+            [
+              "She decided …",
+              "met to"
+            ],
+            [
+              "He finished …",
+              "-ing"
+            ],
+            [
+              "We hope …",
+              "met to"
+            ],
+            [
+              "They avoid …",
+              "-ing"
+            ]
+          ],
+          "uitleg": "Na want, decide en hope komt to; na enjoy, finish en avoid de -ing-vorm."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Kies: thank you for [[*helping|to help|help]] me.",
+          "uitleg": "Na een voorzetsel: -ing."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Kies: my parents let me [[*stay|to stay|staying]] up late.",
+          "uitleg": "Na let: de kale infinitief."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Kies: the teacher made us [[*rewrite|to rewrite]] the text.",
+          "uitleg": "Na make: de kale infinitief."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt deze imperatief?",
+          "rijen": [
+            "Turn off the lights.",
+            "Please to wait here.",
+            "Don't forget your keys.",
+            "Let's go home."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            true
+          ],
+          "uitleg": "Geen to in een imperatief; let's om iets voor te stellen."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Je bent het niet eens. Je zegt met nadruk: I [[*did|do]] lock the door, I'm sure!",
+          "uitleg": "Nadrukkelijke do in de verleden tijd: did + basisvorm."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Bij een feestje zeg je: please, help [[*yourselves|you|yours]] to some food!",
+          "uitleg": "Help yourselves: wederkerend tegen meerdere personen."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Kies: [[*It|There]] takes twenty minutes to walk to school.",
+          "uitleg": "Onpersoonlijk onderwerp: it takes."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan met één woord: … seems that the shop is closed.",
+          "antwoord": [
+            "It",
+            "it"
+          ],
+          "uitleg": "It seems: een onpersoonlijk onderwerp."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent 'You needn't hurry'?",
+          "opties": [
+            "Je hoeft je niet te haasten.",
+            "Je mag je absoluut niet haasten.",
+            "Je moet je echt heel erg haasten.",
+            "Je kan je niet meer haasten nu."
+          ],
+          "antwoord": 0,
+          "uitleg": "Needn't = hoeft niet, net als don't have to."
+        },
+        {
+          "type": "open",
+          "vraag": "Geef in het Engels twee tips aan een nieuwe leerling. Gebruik should en mustn't.",
+          "antwoord": "You should bring a pencil case every day. You mustn't be late for class.",
+          "uitleg": "Should geeft raad, mustn't verbiedt."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Kies: [[*Shall we|Must we]] go for a pizza tonight? Het is een voorstel.",
+          "uitleg": "Shall we stelt iets voor."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan met één woord: I'm looking forward to … you. (see)",
+          "antwoord": [
+            "seeing"
+          ],
+          "uitleg": "Look forward to: to is een voorzetsel, dus -ing."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Kies: you [[*could|must]] try the new café, it's quite nice.",
+          "uitleg": "Could geeft hier een vrijblijvend voorstel."
+        }
+      ]
+    },
+    {
+      "titel": "Zinsdelen, soorten zinnen en bijzinnen — pittig",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "casus": "Read the sentence.\n\nYesterday my grandfather showed us his old photos.",
+          "vragen": [
+            {
+              "type": "tabel",
+              "vraag": "Welk zinsdeel is dit?",
+              "rijen": [
+                "my grandfather",
+                "showed",
+                "us",
+                "his old photos"
+              ],
+              "antwoord": [
+                0,
+                1,
+                3,
+                2
+              ],
+              "uitleg": "Wie toont? Wat toont hij? Aan wie?",
+              "kolommen": [
+                "onderwerp",
+                "persoonsvorm",
+                "lijdend voorwerp",
+                "meewerkend voorwerp"
+              ]
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Hoe schrijf je dezelfde zin met 'to'?",
+              "opties": [
+                "He showed his old photos to us.",
+                "He showed to us all his old photos.",
+                "He to us showed his old photos.",
+                "He showed us to his old photos."
+              ],
+              "antwoord": 0,
+              "uitleg": "Staat het meewerkend voorwerp achteraan, dan komt er to voor."
+            }
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welk soort zin is dit?",
+          "rijen": [
+            "Close the door, please.",
+            "Where do you live?",
+            "How tall you are!",
+            "We don't have a car.",
+            "The shop opens at nine."
+          ],
+          "antwoord": [
+            2,
+            1,
+            3,
+            4,
+            0
+          ],
+          "uitleg": "Let op het werkwoord vooraan, het vraagwoord, what of how, en not.",
+          "kolommen": [
+            "mededelend",
+            "vragend",
+            "bevelend",
+            "uitroepend",
+            "ontkennend"
+          ]
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet de woorden in de juiste Engelse volgorde.",
+          "opties": [
+            "We",
+            "watched",
+            "a film",
+            "at home",
+            "last night"
+          ],
+          "uitleg": "Onderwerp, persoonsvorm, lijdend voorwerp, waar, wanneer."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Kies de juiste zin: [[*Yesterday I went to the dentist.|Yesterday went I to the dentist.|I went yesterday to the dentist to.]]",
+          "uitleg": "Geen omkering na een bepaling vooraan."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Kies: [[*Does|Do]] your sister speak French?",
+          "uitleg": "Your sister = she: does."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is deze vraag met of zonder do juist?",
+          "rijen": [
+            "Can you swim?",
+            "Do you can swim?",
+            "Did she call you?",
+            "Have you do your homework?"
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Een hulpwerkwoord in de zin: geen do. Have + voltooid deelwoord."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Welke aanhangvraag hoort bij welke zin?",
+          "paren": [
+            [
+              "It's cold today,",
+              "isn't it?"
+            ],
+            [
+              "You don't eat meat,",
+              "do you?"
+            ],
+            [
+              "She can drive,",
+              "can't she?"
+            ],
+            [
+              "They were late,",
+              "weren't they?"
+            ]
+          ],
+          "extra": [
+            "didn't they?"
+          ],
+          "uitleg": "Bevestigend wordt ontkennend en omgekeerd, met hetzelfde hulpwerkwoord."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Kies: my friends and I [[*are|is|am]] going to the concert.",
+          "uitleg": "Twee onderwerpen samen: meervoud."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Kies: everyone in my class [[*has|have]] a laptop.",
+          "uitleg": "Everyone is enkelvoud."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Kies: the box of chocolates [[*is|are]] on the table.",
+          "uitleg": "Het onderwerp is the box: enkelvoud."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Maak de zin ontkennend met de korte vorm: He likes horror films. Schrijf de hele zin.",
+          "antwoord": [
+            "He doesn't like horror films.",
+            "He doesn't like horror films",
+            "he doesn't like horror films."
+          ],
+          "uitleg": "Doesn't + basisvorm, de s valt weg."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Kies: [[*What a|How a|What]] great idea!",
+          "uitleg": "What a + telbaar naamwoord."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Kies: [[*How|What]] beautiful!",
+          "uitleg": "How + bijvoeglijk naamwoord."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Nevenschikkend of onderschikkend voegwoord?",
+          "kolommen": [
+            "nevenschikkend",
+            "onderschikkend"
+          ],
+          "items": [
+            [
+              "and",
+              "nevenschikkend"
+            ],
+            [
+              "because",
+              "onderschikkend"
+            ],
+            [
+              "or",
+              "nevenschikkend"
+            ],
+            [
+              "when",
+              "onderschikkend"
+            ],
+            [
+              "so",
+              "nevenschikkend"
+            ],
+            [
+              "although",
+              "onderschikkend"
+            ]
+          ],
+          "uitleg": "Onderschikkende voegwoorden beginnen een bijzin die niet alleen kan staan."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Kies: it was late, [[*so|because]] we took a taxi.",
+          "uitleg": "So geeft het gevolg."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Kies: [[*Although|But]] it was raining, we went for a walk.",
+          "uitleg": "Although vooraan, zonder but erbij."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "I'll wait here [[until]] you come back. Call me [[when]] you are ready.",
+          "extra": [
+            "but",
+            "or"
+          ],
+          "uitleg": "Onderschikkende voegwoorden van tijd."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Staat de komma goed?",
+          "rijen": [
+            "When it got dark, we went inside.",
+            "We went inside, when it got dark.",
+            "Because I was ill, I stayed in bed."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Een komma na een bijzin vooraan; achteraan meestal niet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin is een samengestelde zin met nevenschikking?",
+          "opties": [
+            "I called her, but she didn't answer.",
+            "I called her because I missed her a lot.",
+            "I called her when I got home very late.",
+            "I called her yesterday at six o'clock."
+          ],
+          "antwoord": 0,
+          "uitleg": "Twee hoofdzinnen verbonden met but."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Kies: [[*Turn|Turns|Turning]] left at the traffic lights.",
+          "uitleg": "Een bevelende zin begint met de basisvorm."
+        },
+        {
+          "type": "open",
+          "vraag": "Verbind deze twee zinnen met een passend voegwoord: 'I was hungry.' 'I made a sandwich.'",
+          "antwoord": "I was hungry, so I made a sandwich.",
+          "uitleg": "So geeft het gevolg; because kan ook als je de zinnen omdraait."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Kies: the girl [[*who|which]] sits next to me is from Spain.",
+          "uitleg": "Who bij een persoon."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Kies: my uncle, [[*who|that]] lives in Canada, is visiting us.",
+          "uitleg": "Tussen komma's gebruik je who of which, niet that."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is dit een conditional zero of first?",
+          "rijen": [
+            "If you freeze water, it turns into ice.",
+            "If it's sunny tomorrow, we will go to the beach.",
+            "If you don't water plants, they die.",
+            "If you hurry, you will catch the bus."
+          ],
+          "antwoord": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "uitleg": "Zero: twee keer present simple voor iets dat altijd waar is. First: if + present, will in de hoofdzin.",
+          "kolommen": [
+            "zero",
+            "first"
+          ]
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Kies: if she [[*studies|will study]] hard, she will pass.",
+          "uitleg": "Na if geen will."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent 'Unless it stops raining, the match will be cancelled'?",
+          "opties": [
+            "De match gaat niet door als het blijft regenen.",
+            "De match gaat door, ook als het regent.",
+            "De match is al afgelast door de regen.",
+            "Het regent niet, dus de match gaat door."
+          ],
+          "antwoord": 1,
+          "uitleg": "Unless = if not: als het niet stopt met regenen, wordt de match afgelast."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan met één woord: I remember the day … we first met.",
+          "antwoord": [
+            "when"
+          ],
+          "uitleg": "When na een tijd."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "The book [[which]] I'm reading is great. The writer, [[whose]] parents are Irish, lives in London.",
+          "extra": [
+            "who",
+            "where"
+          ],
+          "uitleg": "Which bij een ding, whose voor bezit."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Kies: if you [[*heat|will heat]] ice, it melts.",
+          "uitleg": "Conditional zero: twee keer present simple."
+        }
+      ]
+    }
+  ]
+}
