@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Drie soorten straling vliegen op drie schermen af</text>
+<circle cx="100" cy="330" r="30" fill="#e8c547" stroke="#24331b" stroke-width="2"/>
+<text x="100" y="390" font-size="18" text-anchor="middle" fill="#24331b">bron</text>
+<rect x="360" y="110" width="6" height="440" rx="2" fill="#f4efe0" stroke="#24331b" stroke-width="2"/>
+<text x="363.0" y="585" font-size="18" text-anchor="middle" fill="#24331b" font-weight="bold">papier</text>
+<rect x="560" y="110" width="24" height="440" rx="2" fill="#c9ccd1" stroke="#24331b" stroke-width="2"/>
+<text x="572.0" y="585" font-size="18" text-anchor="middle" fill="#24331b" font-weight="bold">aluminium</text>
+<rect x="770" y="110" width="70" height="440" rx="2" fill="#6b6f76" stroke="#24331b" stroke-width="2"/>
+<text x="805.0" y="585" font-size="18" text-anchor="middle" fill="#24331b" font-weight="bold">lood</text>
+<line x1="130" y1="320.0" x2="130" y2="320.0" stroke="#b03a2e" stroke-width="1"/>
+<line x1="160" y1="230" x2="770" y2="230" stroke="#b03a2e" stroke-width="5"/>
+<polygon points="770,230 755.3,236.2 755.3,223.8" fill="#b03a2e"/>
+<line x1="840" y1="230" x2="940" y2="230" stroke="#b03a2e" stroke-width="2" stroke-dasharray="8 6"/>
+<circle cx="190" cy="202" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="190" y="209" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<line x1="130" y1="330.0" x2="130" y2="330.0" stroke="#3b6fa0" stroke-width="1"/>
+<line x1="160" y1="330" x2="560" y2="330" stroke="#3b6fa0" stroke-width="5"/>
+<polygon points="560,330 545.3,336.2 545.3,323.8" fill="#3b6fa0"/>
+<circle cx="190" cy="302" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="190" y="309" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<line x1="130" y1="340.0" x2="130" y2="340.0" stroke="#b5651d" stroke-width="1"/>
+<line x1="160" y1="430" x2="360" y2="430" stroke="#b5651d" stroke-width="5"/>
+<polygon points="360,430 345.3,436.2 345.3,423.8" fill="#b5651d"/>
+<circle cx="190" cy="402" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="190" y="409" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+</svg>
