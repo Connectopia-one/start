@@ -77,8 +77,8 @@ DEEL1 = [
         vraag="Wat is kapitaalvorming?",
         opties=[
             "Het aanleggen van kapitaalgoederen waarmee je later kan produceren",
-            "Het sparen van geld op een rekening bij een bank",
-            "Het uitgeven van aandelen door een vennootschap",
+            "Het sparen van geld op een rekening bij een bank, zonder dat er iets mee gebeurt",
+            "Het uitgeven van nieuwe aandelen door een vennootschap aan de beurs",
             "Het betalen van intrest op een lening bij een bank",
         ],
         antwoord=0,
@@ -155,8 +155,8 @@ DEEL1 = [
         vraag="Waarom kan groei niet eindeloos uit bevolkingsgroei alleen komen?",
         opties=[
             "Omdat de productie per inwoner dan niet stijgt en de natuurlijke grenzen in zicht komen",
-            "Omdat er na een tijd geen scholen meer zijn voor al die kinderen",
-            "Omdat de overheid de bevolkingsgroei wettelijk kan tegenhouden",
+            "Omdat er na een tijd niet genoeg scholen en leerkrachten meer zijn voor al die kinderen",
+            "Omdat de overheid de bevolkingsgroei altijd met een wet kan tegenhouden of afremmen",
             "Omdat de prijzen dan vanzelf beginnen te dalen in dat land",
         ],
         antwoord=0,

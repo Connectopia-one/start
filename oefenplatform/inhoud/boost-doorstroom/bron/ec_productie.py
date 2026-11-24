@@ -151,8 +151,8 @@ DEEL1 = [
         vraag="Wat is het verschil tussen een kapitaalgoed en een intermediair goed?",
         opties=[
             "Een kapitaalgoed blijft bestaan, een intermediair goed gaat op in het product",
-            "Een kapitaalgoed is duur, een intermediair goed is goedkoop",
-            "Een kapitaalgoed koop je, een intermediair goed huur je",
+            "Een kapitaalgoed is altijd duur, een intermediair goed is altijd goedkoop",
+            "Een kapitaalgoed koop je zelf, een intermediair goed huur je van een ander",
             "Een kapitaalgoed is tastbaar, een intermediair goed niet",
         ],
         antwoord=0,
@@ -200,8 +200,8 @@ DEEL1 = [
         vraag="Waarom staat de ondernemer apart van de andere drie factoren?",
         opties=[
             "Omdat hij de andere drie combineert en als enige het risico draagt",
-            "Omdat hij als enige een vergoeding krijgt",
-            "Omdat hij altijd ook eigenaar van het gebouw is",
+            "Omdat hij als enige van de vier een vergoeding krijgt voor zijn werk",
+            "Omdat hij altijd ook de eigenaar is van het gebouw en de grond",
             "Omdat hij zelf niet meewerkt in het bedrijf",
         ],
         antwoord=0,

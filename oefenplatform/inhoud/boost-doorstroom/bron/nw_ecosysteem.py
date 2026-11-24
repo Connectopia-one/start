@@ -195,8 +195,8 @@ DEEL2 = [
         vraag="Wat is een ecosysteem?",
         opties=[
             "alle organismen in een gebied samen met hun niet-levende omgeving",
-            "alle dieren van één soort die in hetzelfde gebied leven",
-            "alle planten die in een gebied dezelfde bodem gebruiken",
+            "alle dieren van één en dezelfde soort die samen in hetzelfde gebied leven",
+            "alle planten die in een gebied groeien en dezelfde bodem en hetzelfde water gebruiken",
             "alle organismen op aarde die van elkaar afhankelijk zijn",
         ],
         antwoord=0,
@@ -360,8 +360,8 @@ DEEL2 = [
         opties=[
             "bij elke stap in de keten gaat het grootste deel van de energie verloren",
             "planten planten zich altijd sneller voort dan dieren dat kunnen",
-            "toproofdieren hebben veel minder voedsel nodig dan planteneters",
-            "planten hebben geen vijanden en kunnen dus ongestoord groeien",
+            "toproofdieren hebben per dag veel minder voedsel nodig dan de planteneters die ze eten",
+            "planten hebben geen natuurlijke vijanden en kunnen dus overal ongestoord blijven groeien",
         ],
         antwoord=0,
         uitleg="Van de energie in een schakel komt maar een klein deel in de volgende terecht. Daardoor kan de top van de piramide maar weinig dieren dragen.",
