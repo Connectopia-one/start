@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Een bericht op sociale media</text>
+<rect x="200" y="55" width="600" height="545" rx="22" fill="white" stroke="#24331b" stroke-width="3"/>
+<circle cx="250" cy="95" r="26" fill="#ccc" stroke="#24331b" stroke-width="2"/>
+<text x="290" y="90" font-size="22" text-anchor="start" fill="#d9d4c4">Iemand deelde dit</text>
+<text x="290" y="116" font-size="18" text-anchor="start" fill="#d9d4c4">Gedeeld bericht</text>
+<text x="500" y="175" font-size="30" text-anchor="middle" fill="#b03a2e" font-weight="bold">SCHANDALIG!!! SCHOLEN</text>
+<text x="500" y="212" font-size="30" text-anchor="middle" fill="#b03a2e" font-weight="bold">VERBIEDEN BROODDOZEN</text>
+<rect x="240" y="235" width="520" height="170" rx="10" fill="#dde7ef" stroke="#24331b" stroke-width="2"/>
+<text x="500" y="328" font-size="20" text-anchor="middle" fill="#d9d4c4">(foto van een lege refter)</text>
+<text x="500" y="440" font-size="22" text-anchor="middle" fill="#24331b">Vanaf volgende week moet elk kind</text>
+<text x="500" y="468" font-size="22" text-anchor="middle" fill="#24331b">dure warme maaltijden kopen.</text>
+<text x="500" y="500" font-size="22" text-anchor="middle" fill="#24331b">De media zwijgen erover!</text>
+<rect x="240" y="525" width="520" height="50" rx="12" fill="#ffe8e8" stroke="#b03a2e" stroke-width="2"/>
+<text x="500" y="558" font-size="19" text-anchor="middle" fill="#b03a2e" font-weight="bold">DEEL DIT VOOR HET VERWIJDERD WORDT!</text>
+<circle cx="150" cy="100" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="150" y="107" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<circle cx="150" cy="195" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="150" y="202" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<circle cx="850" cy="320" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="850" y="327" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<circle cx="150" cy="500" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="150" y="507" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">D</text>
+<circle cx="850" cy="550" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="850" y="557" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">E</text>
+<line x1="172" y1="100" x2="222" y2="100" stroke="#24331b" stroke-width="1"/>
+<line x1="172" y1="195" x2="260" y2="190" stroke="#24331b" stroke-width="1"/>
+<line x1="828" y1="320" x2="762" y2="320" stroke="#24331b" stroke-width="1"/>
+<line x1="172" y1="500" x2="300" y2="495" stroke="#24331b" stroke-width="1"/>
+<line x1="828" y1="550" x2="762" y2="550" stroke="#24331b" stroke-width="1"/>
+</svg>
