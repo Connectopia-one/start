@@ -1,0 +1,297 @@
+# -*- coding: utf-8 -*-
+"""Uitdaging Economie en bedrijfswetenschappen 🚀 Boost dubbele finaliteit
+(25 november 2026), in de vormen van het examen van de Examencommissie: 40
+vragen die economie en de werking van een onderneming door elkaar halen.
+Casussen, tabellen, keuzelijsten, slepen, koppelen, sorteren, volgorde,
+rekenvragen, vijf klikvragen op twee zelf getekende prenten (een organogram
+en een factuur) en een open vraag. Geen nieuwe leerstof: alles staat in de
+hoofdstukken van dit vak. Alle namen en nummers zijn verzonnen.
+De prenten tekent inhoud/uitdaging/maak_prenten_boost_df_ebw.py.
+"""
+from ._ex import J, F, mk, inv, tabel, keuze, volgorde, koppel, sorteer, sleep, open_, casus
+from ._ex import klik as _klik, met_prent as _met_prent
+
+NIVEAU = "boost-dubbele-finaliteit"
+VAK = "Economie en bedrijfswetenschappen"
+BESTAND = "boost-df-ebw-uitdaging.json"
+AANTAL = 40
+MAP = "/examenvormen/ebw-boost-df-uitdaging"
+ORGANOGRAM = "organogram-fabriek.svg"
+FACTUUR = "factuur-helmen.svg"
+# klikvakken: zie maak_prenten_boost_df_ebw.py
+JURIDISCH = [69.0, 33.9, 22.0, 11.4]
+HR = [76.5, 53.6, 19.0, 11.4]
+VERKOOP = [52.5, 53.6, 19.0, 11.4]
+TE_BETALEN = [47.0, 74.5, 48.0, 6.3]
+VERVALDAG = [47.0, 21.3, 48.0, 6.3]
+
+
+def klik(vraag, prent, zones, uitleg):
+    return _klik(MAP, vraag, prent, zones, uitleg)
+
+
+def met_prent(prent, vraag):
+    return _met_prent(MAP, prent, vraag)
+
+
+VRAGEN = [
+    # Het organogram (prent)
+    klik("Bekijk het organogram. Klik op de stafafdeling.",
+         ORGANOGRAM, [JURIDISCH],
+         "Een stafafdeling geeft advies, maar heeft zelf geen bevel over de andere afdelingen. In een organogram staat ze naast de lijn, vaak met een stippellijn: hier is dat Juridisch advies."),
+    klik("Klik op de afdeling die nieuwe werknemers zoekt en de loonadministratie doet.",
+         ORGANOGRAM, [HR],
+         "De personeelsdienst (HR) werft aan, selecteert en volgt het personeel en de lonen op."),
+    klik("De binnendienst en de buitendienst hebben samen één chef. Klik op de afdeling van die chef.",
+         ORGANOGRAM, [VERKOOP],
+         "In het organogram hangen binnendienst en buitendienst onder Verkoop. Elke medewerker heeft zo precies één rechtstreekse chef."),
+    met_prent(ORGANOGRAM, keuze(
+        "Dit organogram toont een [[*lijnstaforganisatie|functionele organisatie|projectorganisatie]]. Een verkoper van de buitendienst krijgt zijn opdrachten van [[*één chef|meerdere chefs]].",
+        "Er is een lijn van bevel van boven naar beneden, aangevuld met een stafafdeling die adviseert. Dat is een lijnstaforganisatie. Elke werknemer heeft één rechtstreekse chef.")),
+
+    # De factuur (prent)
+    klik("Bekijk de factuur. Klik op het bedrag dat de jeugdclub moet overschrijven.",
+         FACTUUR, [TE_BETALEN],
+         "Het bedrag te betalen staat onderaan: het totaal na korting, met de btw erbij. Dat is 275,88 euro."),
+    klik("Klik op de regel die zegt tegen wanneer de klant moet betalen.",
+         FACTUUR, [VERVALDAG],
+         "De vervaldag staat rechts bovenaan: te betalen vóór 25 december 2026, een maand na de factuurdatum."),
+    met_prent(FACTUUR, tabel(
+        "Klopt dit over de factuur?",
+        [
+            ("De btw wordt berekend op het bedrag na de korting.", J),
+            ("De klant betaalt 240 euro plus 21 procent btw.", F),
+            ("Het nummer van de bestelbon helpt om de documenten met elkaar te vergelijken.", J),
+            ("De factuur is het eerste document in de documentenstroom van deze aankoop.", F),
+        ],
+        "Eerst gaat de korting eraf: 240 min 12 is 228 euro. Daarop komt 21 procent btw, 47,88 euro. Met het bestelbonnummer kan de koper nagaan of de factuur klopt met wat hij bestelde. De factuur komt pas na de prijsaanvraag, de offerte, de bestelbon en de levering.")),
+    met_prent(FACTUUR, inv(
+        "Stel dat de leverancier geen korting had gegeven. Hoeveel euro btw had er dan op de factuur gestaan? Geef enkel het getal.",
+        ["50,40", "50,4", "50.40", "50.4"],
+        "21 procent van 240 euro is \\(0{,}21 \\cdot 240 = 50{,}40\\) euro.")),
+    volgorde(
+        "Zet de documenten van deze aankoop in de juiste volgorde.",
+        ["de prijsaanvraag van de jeugdclub", "de offerte van de leverancier", "de bestelbon", "de leveringsbon", "de factuur"],
+        "De koper vraagt een prijs, de leverancier antwoordt met een offerte, de koper bestelt, de goederen worden geleverd en daarna volgt de factuur."),
+
+    # Behoeften en goederen
+    sorteer(
+        "Is dit een verbruiksgoed, een investeringsgoed of een dienst?",
+        ["Verbruiksgoed", "Investeringsgoed", "Dienst"],
+        [
+            ["een brood dat een gezin koopt", "Verbruiksgoed"],
+            ["een oven die een bakker koopt", "Investeringsgoed"],
+            ["een knipbeurt", "Dienst"],
+            ["een vrachtwagen van een transportbedrijf", "Investeringsgoed"],
+            ["een treinrit naar school", "Dienst"],
+            ["een tube tandpasta", "Verbruiksgoed"],
+        ],
+        "Een verbruiksgoed gebruik je zelf op. Een investeringsgoed gebruikt een onderneming om mee te produceren. Een dienst is niet tastbaar."),
+    keuze(
+        "Omdat er meer [[*behoeften|middelen]] zijn dan [[*middelen|behoeften]], is er schaarste. Lucht om in te ademen kost niets: het is een [[*vrij|economisch]] goed.",
+        "Schaarste betekent dat de middelen te beperkt zijn voor alle behoeften. Een vrij goed is er in overvloed en kost niets."),
+
+    # Nut en vraag
+    casus(
+        "Na de training drinkt Jonas het ene glas water na het andere. Het eerste glas vindt hij heerlijk, het vierde laat hij half staan.",
+        [
+            mk("Wat gebeurt er met het marginaal nut van elk extra glas?",
+               ["Het daalt.", "Het stijgt.", "Het blijft gelijk.", "Het wordt meteen nul."],
+               0,
+               "Elk extra glas geeft minder voldoening dan het vorige: het marginaal nut daalt."),
+            tabel(
+                "Bereken het totaal nut. Het marginaal nut van het eerste tot het vierde glas is 10, 6, 3 en 1.",
+                [
+                    ("totaal nut na twee glazen", "16"),
+                    ("totaal nut na drie glazen", "19"),
+                    ("totaal nut na vier glazen", "20"),
+                ],
+                "Het totaal nut is de som van alle marginale nutten: 10 plus 6 is 16, plus 3 is 19, plus 1 is 20. Het totaal nut stijgt nog, maar steeds trager.",
+                kolommen=["16", "19", "20"]),
+        ],
+    ),
+    tabel(
+        "Klopt dit over de keuze van de consument?",
+        [
+            ("Elk punt op een indifferentiecurve geeft dezelfde voldoening.", J),
+            ("Als je budget stijgt, schuift de budgetlijn naar links.", F),
+            ("De beste keuze ligt waar de budgetlijn de hoogst bereikbare indifferentiecurve raakt.", J),
+            ("Als een goed duurder wordt, kan je er met hetzelfde budget meer van kopen.", F),
+        ],
+        "Een indifferentiecurve verbindt combinaties met hetzelfde nut. Met meer budget schuift de budgetlijn naar rechts. Je kiest het punt waar de budgetlijn de hoogste curve nog net raakt. Duurder betekent minder kopen."),
+
+    # Productie
+    casus(
+        "Een boer verkoopt tarwe aan een molenaar voor \\(100\\) euro. De molenaar maakt er bloem van en verkoopt die voor \\(160\\) euro aan een bakker. De bakker verkoopt het brood voor \\(300\\) euro.",
+        [
+            inv("Hoeveel euro toegevoegde waarde levert de bakker? Geef enkel het getal.",
+                "140",
+                "De toegevoegde waarde is de verkoopprijs min wat de schakel aankocht: 300 min 160 is 140 euro."),
+            inv("Hoeveel euro toegevoegde waarde leveren de drie schakels samen? Geef enkel het getal.",
+                "300",
+                "100 plus 60 plus 140 is 300 euro: samen is dat precies de prijs die de klant betaalt."),
+            mk("Hoe noem je de reeks van boer tot bakker?",
+               ["een bedrijfskolom", "een organogram", "een marketingmix", "een productiecurve"],
+               0,
+               "Een bedrijfskolom toont alle schakels die een product doorloopt, van grondstof tot klant."),
+        ],
+    ),
+    koppel(
+        "Bij welke productiefactor hoort elk voorbeeld?",
+        [
+            ["de grond waarop een fabriek staat", "natuur"],
+            ["de lasser die aan de fietsframes werkt", "arbeid"],
+            ["de machines in de werkplaats", "kapitaal"],
+            ["de zaakvoerder die het risico neemt", "ondernemerschap"],
+        ],
+        ["consumptie"],
+        "De vier productiefactoren zijn natuur, arbeid, kapitaal en ondernemerschap. De ondernemer brengt de andere samen."),
+
+    # Kosten en opbrengsten
+    casus(
+        "Een atelier maakt houten speelgoedtreinen. De totale constante kosten zijn \\(2000\\) euro per maand. Per trein komen er \\(15\\) euro variabele kosten bij. Een trein wordt verkocht voor \\(50\\) euro.",
+        [
+            inv("Hoeveel euro zijn de totale kosten als het atelier \\(100\\) treinen maakt? Geef enkel het getal.",
+                ["3500", "3 500", "3.500"],
+                "Totale kosten zijn constante plus variabele kosten: \\(2000 + 15 \\cdot 100 = 3500\\) euro."),
+            inv("Hoeveel euro zijn de gemiddelde kosten per trein bij \\(100\\) treinen? Geef enkel het getal.",
+                "35",
+                "Gemiddelde kosten zijn de totale kosten gedeeld door het aantal: 3500 gedeeld door 100 is 35 euro."),
+            inv("Hoeveel euro winst maakt het atelier bij \\(100\\) treinen? Geef enkel het getal.",
+                ["1500", "1 500", "1.500"],
+                "Winst is totale opbrengst min totale kosten: \\(50 \\cdot 100 - 3500 = 1500\\) euro."),
+            mk("Wat gebeurt er met de gemiddelde constante kosten als het atelier meer treinen maakt?",
+               ["Ze dalen, omdat de vaste kosten over meer treinen verdeeld worden.", "Ze stijgen, omdat elke extra trein ook extra huur en verzekering kost.", "Ze blijven gelijk, omdat constante kosten nooit veranderen per stuk.", "Ze worden nul zodra het atelier meer dan honderd treinen maakt."],
+               0,
+               "De totale constante kosten blijven 2000 euro. Hoe meer treinen, hoe kleiner het deel per trein."),
+        ],
+    ),
+    tabel(
+        "Bereken de marginale kosten. De totale kosten bij 0, 1, 2 en 3 stuks zijn 100, 140, 170 en 210 euro.",
+        [
+            ("de marginale kosten van het eerste stuk", "40"),
+            ("de marginale kosten van het tweede stuk", "30"),
+            ("de marginale kosten van het derde stuk", "40"),
+        ],
+        "De marginale kosten zijn de extra kosten van één stuk meer: 140 min 100, 170 min 140 en 210 min 170.",
+        kolommen=["30", "40", "70"]),
+    keuze(
+        "Zolang de marginale opbrengst [[*groter|kleiner]] is dan de marginale kosten, levert een extra stuk winst op. De optimale productiegrootte ligt waar ze [[*gelijk|het verst uit elkaar]] zijn.",
+        "Een extra stuk is interessant zolang het meer opbrengt dan het kost. Waar marginale opbrengst en marginale kosten gelijk zijn, is de winst het grootst."),
+
+    keuze(
+        "Als de marktprijs van speelgoedtreinen stijgt, wil het atelier [[*meer|minder]] treinen maken. Daarom loopt een aanbodcurve [[*stijgend|dalend]].",
+        "Bij een hogere prijs schuift de optimale productiegrootte op: meer produceren levert dan meer winst op. Zo hoort bij een hogere prijs een grotere aangeboden hoeveelheid."),
+
+    # Ondernemingsvormen
+    tabel(
+        "Geldt dit voor een eenmanszaak of voor een bv?",
+        [
+            ("heeft geen eigen rechtspersoonlijkheid", "Eenmanszaak"),
+            ("de eigenaar is met zijn hele privévermogen aansprakelijk", "Eenmanszaak"),
+            ("de aandeelhouder verliest hoogstens zijn inbreng", "Bv"),
+            ("moet bij een notaris opgericht worden", "Bv"),
+        ],
+        "Een eenmanszaak valt samen met de ondernemer zelf. Een bv is een rechtspersoon: wat de vennootschap verliest, staat los van het privévermogen van de aandeelhouders. Een bv richt je op met een notariële akte.",
+        kolommen=["Eenmanszaak", "Bv"]),
+
+    # Afdelingen en MVO
+    koppel(
+        "Welke afdeling doet dit?",
+        [
+            ["een nieuw model fiets ontwerpen en testen", "research and development"],
+            ["onderdelen bestellen bij leveranciers", "aankoop"],
+            ["een reclamecampagne voorbereiden", "marketing"],
+            ["de bestellingen inpakken en verzenden", "expeditie"],
+        ],
+        ["boekhouding", "personeel"],
+        "Elke afdeling heeft haar eigen taak, maar ze hebben elkaar nodig: R&D luistert naar marketing, aankoop naar productie, expeditie naar verkoop."),
+    mk("Een fabriek plaatst zonnepanelen, betaalt eerlijke lonen en blijft winst maken. Hoe noem je dat?",
+       ["maatschappelijk verantwoord ondernemen", "een functionele organisatiestructuur", "de toegevoegde waarde van de bedrijfskolom", "volkomen concurrentie op de markt"],
+       0,
+       "Bij maatschappelijk verantwoord ondernemen houdt een onderneming samen rekening met mens, milieu en winst."),
+
+    # Personeel
+    volgorde(
+        "Zet de stappen van een aanwerving in de juiste volgorde.",
+        ["de functie omschrijven", "de vacature bekendmaken", "de cv's en brieven bekijken", "sollicitatiegesprekken voeren", "de arbeidsovereenkomst ondertekenen", "de DIMONA-aangifte vóór de eerste werkdag"],
+        "Eerst weet je wie je zoekt, dan maak je dat bekend en selecteer je. Na de keuze teken je de overeenkomst. De DIMONA gebeurt ten laatste voor de werknemer begint."),
+    tabel(
+        "Is dit een schorsing van de arbeidsovereenkomst of een einde?",
+        [
+            ("een werknemer is drie weken ziek", "Schorsing"),
+            ("de werkgever zegt op met een opzegtermijn", "Einde"),
+            ("een werknemer neemt klein verlet voor een huwelijk", "Schorsing"),
+            ("een overeenkomst van bepaalde duur loopt af", "Einde"),
+            ("een werknemer neemt zijn jaarlijkse vakantie", "Schorsing"),
+        ],
+        "Bij een schorsing blijft de overeenkomst bestaan, ze loopt even niet. Bij een einde stopt de overeenkomst echt.",
+        kolommen=["Schorsing", "Einde"]),
+    sleep(
+        "Een werknemer werkt onder het [[gezag]] van de werkgever en krijgt daarvoor [[loon]]. Een zelfstandige werkt voor eigen [[rekening]].",
+        ["vakbond", "factuur"],
+        "Het gezag van de werkgever is wat een werknemer van een zelfstandige onderscheidt."),
+
+    # Loonberekening
+    casus(
+        "Elif heeft een brutoloon van \\(2500\\) euro. De persoonlijke RSZ-bijdrage is \\(13{,}07\\) procent. Op haar belastbaar loon wordt \\(420\\) euro bedrijfsvoorheffing ingehouden.",
+        [
+            inv("Hoeveel euro RSZ-bijdrage wordt er ingehouden? Geef enkel het getal.",
+                ["326,75", "326.75"],
+                "\\(0{,}1307 \\cdot 2500 = 326{,}75\\) euro."),
+            inv("Hoeveel euro is haar belastbaar loon? Geef enkel het getal.",
+                ["2173,25", "2 173,25", "2.173,25", "2173.25"],
+                "Belastbaar loon is brutoloon min RSZ: \\(2500 - 326{,}75 = 2173{,}25\\) euro."),
+            inv("Hoeveel euro nettoloon krijgt Elif? Geef enkel het getal.",
+                ["1753,25", "1 753,25", "1.753,25", "1753.25"],
+                "Nettoloon is belastbaar loon min bedrijfsvoorheffing: \\(2173{,}25 - 420 = 1753{,}25\\) euro."),
+        ],
+    ),
+
+    # Marketing en verkoop
+    tabel(
+        "Bij welke P van de marketingmix hoort deze keuze?",
+        [
+            ("een fiets in drie kleuren en met twee jaar garantie", "Product"),
+            ("tien procent korting in de eerste week", "Prijs"),
+            ("enkel te koop in eigen winkels en de webshop", "Plaats"),
+            ("een filmpje op sociale media", "Promotie"),
+        ],
+        "Product gaat over wat je verkoopt, prijs over wat het kost, plaats over waar de klant het kan kopen en promotie over hoe je het bekendmaakt.",
+        kolommen=["Product", "Prijs", "Plaats", "Promotie"]),
+    sorteer(
+        "Is dit een rationeel of een emotioneel koopmotief?",
+        ["Rationeel", "Emotioneel"],
+        [
+            ["de fiets vraagt weinig onderhoud", "Rationeel"],
+            ["mijn vrienden hebben er ook een", "Emotioneel"],
+            ["hij is tien euro goedkoper dan elders", "Rationeel"],
+            ["ik voel me er stoer mee", "Emotioneel"],
+        ],
+        "Een rationeel motief kan je met argumenten uitleggen: prijs, kwaliteit, gemak. Een emotioneel motief gaat over gevoel, erbij horen of status."),
+    volgorde(
+        "Een verkoper in een fietsenwinkel helpt een klant. Zet de fasen van zijn gesprek in de juiste volgorde.",
+        ["de klant begroeten en zijn aandacht krijgen", "vragen stellen naar wat de klant nodig heeft", "het product voorstellen", "bezwaren beantwoorden", "de verkoop afsluiten"],
+        "Je bouwt het gesprek op: contact, behoeften kennen, voorstellen, twijfels wegnemen en afsluiten zodra je een koopsignaal ziet."),
+
+    # Transport en logistiek
+    tabel(
+        "Welke transportmodus kies je voor deze zending?",
+        [
+            ("duizenden containers van China naar Antwerpen", "Maritiem"),
+            ("dringende medicijnen naar een ander continent", "Lucht"),
+            ("zand van een groeve naar een bouwbedrijf langs een kanaal", "Binnenvaart"),
+            ("een pakje van een webshop tot aan je voordeur", "Weg"),
+        ],
+        "Maritiem vervoer heeft de grootste capaciteit. Luchtvervoer is snel maar duur. Binnenvaart is goedkoop voor zware bulk. Enkel de weg komt tot aan elke deur.",
+        kolommen=["Weg", "Binnenvaart", "Maritiem", "Lucht"]),
+    mk("Een vrachtwagen rijdt met fietsen van Gent naar Lyon. Welk document gaat mee als vrachtbrief?",
+       ["een CMR", "een loonfiche", "een offerte", "een organogram"],
+       0,
+       "Een CMR is de vrachtbrief voor internationaal wegvervoer. Hij vermeldt onder meer de afzender, de ontvanger, de vervoerder en de goederen."),
+
+    # Open vraag
+    open_("Een kleine fietsenwinkel wil meer jongeren als klant. Kies twee P's van de marketingmix en schrijf bij elk een concreet voorstel. Leg kort uit waarom dat jongeren zou aanspreken.",
+          "Promotie: korte filmpjes op sociale media met jongeren die met de fiets naar school rijden, omdat jongeren daar veel tijd doorbrengen. Prijs: een studentenkorting van tien procent op vertoon van de studentenkaart, omdat jongeren een kleiner budget hebben.",
+          "Een goed antwoord noemt twee verschillende P's, geeft bij elk een voorstel dat je echt kan uitvoeren en verbindt het met wat de doelgroep wil of nodig heeft."),
+]

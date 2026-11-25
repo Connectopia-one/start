@@ -1,0 +1,23 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1000 560' width='1000' height='560'>
+<rect width='1000' height='560' fill='#ffffff'/>
+<text x='40' y='50' font-family='Nunito, Arial, sans-serif' font-size='28' font-weight='800' fill='#2f4a22'>Organogram van een fietsenfabriek</text>
+<path d='M500,154 L500,260 M140,260 L860,260 M140,260 L140,300 M380,260 L380,300 M620,260 L620,300 M860,260 L860,300' stroke='#2b2b2b' stroke-width='2.5' fill='none'/>
+<path d='M500,222 L690,222' stroke='#2b2b2b' stroke-width='2.5' stroke-dasharray='8 6'/>
+<path d='M620,364 L620,400 M520,400 L720,400 M520,400 L520,430 M720,400 L720,430' stroke='#2b2b2b' stroke-width='2.5' fill='none'/>
+<rect x='380.0' y='90' width='240' height='64' rx='16' fill='#f7f4ec' stroke='#2f4a22' stroke-width='2.5'/>
+<text x='500' y='130.0' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='22' font-weight='700' fill='#2b2b2b'>Zaakvoerder</text>
+<rect x='690.0' y='190' width='220' height='64' rx='16' fill='#f7f4ec' stroke='#2f4a22' stroke-width='2.5' stroke-dasharray='10 7'/>
+<text x='800' y='230.0' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='22' font-weight='700' fill='#2b2b2b'>Juridisch advies</text>
+<rect x='45.0' y='300' width='190' height='64' rx='16' fill='#f7f4ec' stroke='#2f4a22' stroke-width='2.5'/>
+<text x='140' y='340.0' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='22' font-weight='700' fill='#2b2b2b'>Aankoop</text>
+<rect x='285.0' y='300' width='190' height='64' rx='16' fill='#f7f4ec' stroke='#2f4a22' stroke-width='2.5'/>
+<text x='380' y='340.0' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='22' font-weight='700' fill='#2b2b2b'>Productie</text>
+<rect x='525.0' y='300' width='190' height='64' rx='16' fill='#f7f4ec' stroke='#2f4a22' stroke-width='2.5'/>
+<text x='620' y='340.0' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='22' font-weight='700' fill='#2b2b2b'>Verkoop</text>
+<rect x='765.0' y='300' width='190' height='64' rx='16' fill='#f7f4ec' stroke='#2f4a22' stroke-width='2.5'/>
+<text x='860' y='340.0' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='22' font-weight='700' fill='#2b2b2b'>Personeel (HR)</text>
+<rect x='435.0' y='430' width='170' height='64' rx='16' fill='#f7f4ec' stroke='#2f4a22' stroke-width='2.5'/>
+<text x='520' y='470.0' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='22' font-weight='700' fill='#2b2b2b'>Binnendienst</text>
+<rect x='635.0' y='430' width='170' height='64' rx='16' fill='#f7f4ec' stroke='#2f4a22' stroke-width='2.5'/>
+<text x='720' y='470.0' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='22' font-weight='700' fill='#2b2b2b'>Buitendienst</text>
+</svg>
