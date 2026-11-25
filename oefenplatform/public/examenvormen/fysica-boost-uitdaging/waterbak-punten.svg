@@ -1,0 +1,27 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1000 600' width='1000' height='600'>
+<rect width='1000' height='600' fill='#ffffff'/>
+<text x='40' y='50' font-family='Nunito, Arial, sans-serif' font-size='28' font-weight='800' fill='#2f4a22'>Een waterbak van 4 meter diep</text>
+<rect x='200' y='130' width='600' height='400' fill='#dcecf5'/>
+<path d='M190,100 L190,540 L810,540 L810,100' fill='none' stroke='#2b2b2b' stroke-width='8'/>
+<line x1='200' y1='130' x2='800' y2='130' stroke='#4a90b8' stroke-width='3'/>
+<text x='790' y='120' text-anchor='end' font-family='Nunito, Arial, sans-serif' font-size='18' fill='#4a90b8'>wateroppervlak</text>
+<line x1='160' y1='130' x2='182' y2='130' stroke='#2b2b2b' stroke-width='2'/>
+<text x='152' y='137' text-anchor='end' font-family='Nunito, Arial, sans-serif' font-size='19' fill='#2b2b2b'>0 m</text>
+<line x1='160' y1='230' x2='182' y2='230' stroke='#2b2b2b' stroke-width='2'/>
+<text x='152' y='237' text-anchor='end' font-family='Nunito, Arial, sans-serif' font-size='19' fill='#2b2b2b'>1 m</text>
+<line x1='160' y1='330' x2='182' y2='330' stroke='#2b2b2b' stroke-width='2'/>
+<text x='152' y='337' text-anchor='end' font-family='Nunito, Arial, sans-serif' font-size='19' fill='#2b2b2b'>2 m</text>
+<line x1='160' y1='430' x2='182' y2='430' stroke='#2b2b2b' stroke-width='2'/>
+<text x='152' y='437' text-anchor='end' font-family='Nunito, Arial, sans-serif' font-size='19' fill='#2b2b2b'>3 m</text>
+<line x1='160' y1='530' x2='182' y2='530' stroke='#2b2b2b' stroke-width='2'/>
+<text x='152' y='537' text-anchor='end' font-family='Nunito, Arial, sans-serif' font-size='19' fill='#2b2b2b'>4 m</text>
+<text x='80' y='100' font-family='Nunito, Arial, sans-serif' font-size='19' fill='#2b2b2b'>diepte</text>
+<circle cx='300' cy='180.0' r='9' fill='#2f4a22'/>
+<text x='318' y='189.0' font-family='Nunito, Arial, sans-serif' font-size='26' font-weight='800' fill='#2f4a22'>P</text>
+<circle cx='380' cy='330.0' r='9' fill='#2f4a22'/>
+<text x='398' y='339.0' font-family='Nunito, Arial, sans-serif' font-size='26' font-weight='800' fill='#2f4a22'>Q</text>
+<circle cx='520' cy='480.0' r='9' fill='#2f4a22'/>
+<text x='538' y='489.0' font-family='Nunito, Arial, sans-serif' font-size='26' font-weight='800' fill='#2f4a22'>R</text>
+<circle cx='680' cy='330.0' r='9' fill='#2f4a22'/>
+<text x='698' y='339.0' font-family='Nunito, Arial, sans-serif' font-size='26' font-weight='800' fill='#2f4a22'>S</text>
+</svg>

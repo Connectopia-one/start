@@ -1,0 +1,521 @@
+{
+  "hoofdstukken": [
+    {
+      "titel": "Uitdaging — alles door elkaar",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "Bekijk de x(t)-grafiek. Klik op het punt waar de twee lopers elkaar kruisen.",
+          "afbeelding_url": "/examenvormen/fysica-boost-uitdaging/twee-lopers-x-t.svg",
+          "zones": [
+            [
+              46.5,
+              44.4,
+              8.0,
+              12.9
+            ]
+          ],
+          "uitleg": "Waar de twee rechten elkaar snijden, staan de lopers op hetzelfde tijdstip op dezelfde plaats: na 10 seconden, op 40 meter."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de lijn van de loper met de grootste snelheid, in grootte.",
+          "afbeelding_url": "/examenvormen/fysica-boost-uitdaging/twee-lopers-x-t.svg",
+          "zones": [
+            [
+              18.9,
+              67.5,
+              8.0,
+              12.9
+            ],
+            [
+              34.6,
+              54.3,
+              8.0,
+              12.9
+            ],
+            [
+              58.4,
+              34.4,
+              8.0,
+              12.9
+            ],
+            [
+              74.2,
+              21.2,
+              8.0,
+              12.9
+            ]
+          ],
+          "uitleg": "De steilheid van een x(t)-grafiek is de snelheid. A legt 80 meter af in 20 seconden (4 meter per seconde). B legt 40 meter af in 20 seconden (2 meter per seconde). A is dus sneller."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Wat is de snelheid van loper B, in meter per seconde? Let op het teken en geef enkel het getal.",
+          "antwoord": [
+            "-2",
+            "−2"
+          ],
+          "uitleg": "B gaat van 60 naar 20 meter in 20 seconden: een verplaatsing van min 40 meter. Min 40 gedeeld door 20 is min 2 meter per seconde. Het minteken zegt dat B tegen de zin van de x-as in loopt.",
+          "afbeelding_url": "/examenvormen/fysica-boost-uitdaging/twee-lopers-x-t.svg"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke positiefunctie hoort bij loper B?",
+          "opties": [
+            "\\(x = 60 - 2 \\cdot t\\)",
+            "\\(x = 20 + 2 \\cdot t\\)",
+            "\\(x = 60 + 2 \\cdot t\\)",
+            "\\(x = 2 - 60 \\cdot t\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "In \\(x = x_{0} + v \\cdot t\\) is de beginpositie 60 meter en de snelheid min 2 meter per seconde.",
+          "afbeelding_url": "/examenvormen/fysica-boost-uitdaging/twee-lopers-x-t.svg"
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel meter liggen de twee lopers uit elkaar na 20 seconden? Geef enkel het getal.",
+          "antwoord": "60",
+          "uitleg": "Na 20 seconden staat A op 80 meter en B op 20 meter. Het verschil is 60 meter.",
+          "afbeelding_url": "/examenvormen/fysica-boost-uitdaging/twee-lopers-x-t.svg"
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Bekijk de waterbak. Klik op het punt met de grootste hydrostatische druk.",
+          "afbeelding_url": "/examenvormen/fysica-boost-uitdaging/waterbak-punten.svg",
+          "zones": [
+            [
+              48.5,
+              74.2,
+              8.5,
+              11.7
+            ]
+          ],
+          "uitleg": "De hydrostatische druk hangt enkel af van de diepte onder het wateroppervlak. R ligt het diepst, op 3,5 meter."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het punt waar de druk even groot is als in punt Q.",
+          "afbeelding_url": "/examenvormen/fysica-boost-uitdaging/waterbak-punten.svg",
+          "zones": [
+            [
+              64.5,
+              49.2,
+              8.5,
+              11.7
+            ]
+          ],
+          "uitleg": "S ligt op dezelfde diepte als Q, 2 meter. In een vloeistof in rust is de druk op dezelfde diepte overal gelijk."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe groot is de hydrostatische druk in punt R, in kilopascal? Rond af op een geheel getal en geef enkel het getal.",
+          "antwoord": "34",
+          "uitleg": "\\(p = \\rho \\cdot g \\cdot h = 1000 \\cdot 9{,}81 \\cdot 3{,}5 = 34\\,335\\) pascal, afgerond 34 kilopascal.",
+          "afbeelding_url": "/examenvormen/fysica-boost-uitdaging/waterbak-punten.svg"
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over de waterbak?",
+          "rijen": [
+            "De druk in R is zeven keer zo groot als de hydrostatische druk in P.",
+            "Als de bak breder was, zou de druk in R groter zijn.",
+            "Een manometer in Q meet ook de luchtdruk boven het water mee.",
+            "In zout water zou de druk in Q kleiner zijn."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "R ligt op 3,5 meter en P op 0,5 meter: zeven keer zo diep, dus zeven keer zoveel hydrostatische druk. De breedte speelt geen rol, enkel de diepte en de dichtheid. Zout water is dichter en geeft dus een grotere druk.",
+          "afbeelding_url": "/examenvormen/fysica-boost-uitdaging/waterbak-punten.svg"
+        },
+        {
+          "type": "tabel",
+          "vraag": "Zet om naar de SI-eenheid.",
+          "rijen": [
+            "\\(54\\) km/h",
+            "\\(2{,}5\\) L",
+            "\\(27\\) °C",
+            "\\(450\\) g"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "uitleg": "Delen door 3,6 geeft meter per seconde. Een liter is een duizendste kubieke meter. Bij graden Celsius tel je 273 op voor kelvin. Duizend gram is een kilogram.",
+          "kolommen": [
+            "15 m/s",
+            "0,0025 m³",
+            "300 K",
+            "0,45 kg"
+          ]
+        },
+        {
+          "casus": "Een auto staat stil aan een verkeerslicht. Als het groen wordt, versnelt hij eenparig tot \\(30\\) m/s in \\(6{,}0\\) s.",
+          "vragen": [
+            {
+              "type": "invultekst",
+              "vraag": "Hoe groot is de versnelling van de auto, in meter per seconde kwadraat? Geef enkel het getal.",
+              "antwoord": "5",
+              "uitleg": "\\(a = \\Delta v / \\Delta t = 30 / 6{,}0 = 5{,}0\\) meter per seconde kwadraat."
+            },
+            {
+              "type": "invultekst",
+              "vraag": "Hoeveel meter legt de auto af in die zes seconden? Geef enkel het getal.",
+              "antwoord": "90",
+              "uitleg": "Vanuit rust is \\(x = \\frac{1}{2} \\cdot a \\cdot t^{2} = 0{,}5 \\cdot 5 \\cdot 36 = 90\\) meter. Je kan ook de oppervlakte onder de v(t)-grafiek nemen: een driehoek van 6 bij 30, gedeeld door 2."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Hoe ziet de x(t)-grafiek van de auto er in die zes seconden uit?",
+              "opties": [
+                "een parabool die steeds steiler wordt",
+                "een horizontale rechte op hoogte nul",
+                "een rechte door de oorsprong die niet buigt",
+                "een parabool die steeds vlakker wordt"
+              ],
+              "antwoord": 0,
+              "uitleg": "Bij een eenparig versnelde beweging vanuit rust neemt de snelheid toe. De steilheid van de x(t)-grafiek is de snelheid, dus de grafiek wordt steeds steiler."
+            }
+          ]
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Je laat een steen vallen vanuit rust. Hoe groot is zijn snelheid na \\(2{,}0\\) seconden, zonder luchtweerstand, in meter per seconde? Rond af op één decimaal.",
+          "antwoord": [
+            "19,6",
+            "19.6"
+          ],
+          "uitleg": "Bij een vrije val is \\(v = g \\cdot t = 9{,}81 \\cdot 2{,}0 = 19{,}62\\) meter per seconde, afgerond 19,6."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Je gooit een bal recht omhoog. Op het hoogste punt is de snelheid [[*nul|het grootst]] en de versnelling [[*9,81 m/s² naar beneden|nul]].",
+          "uitleg": "Op het hoogste punt keert de bal om: zijn snelheid is daar even nul. De zwaartekracht blijft werken, dus de versnelling is ook daar de valversnelling naar beneden."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Reken de kracht uit, in newton.",
+          "rijen": [
+            "de zwaartekracht op een kind van \\(50\\) kg",
+            "de veerkracht van een veer met \\(k = 200\\) N/m die \\(0{,}05\\) m uitgerekt is",
+            "de wrijvingskracht op een kist van \\(40\\) kg met \\(\\mu = 0{,}25\\) op een vlakke vloer"
+          ],
+          "antwoord": [
+            2,
+            0,
+            1
+          ],
+          "uitleg": "\\(F_{z} = m \\cdot g = 50 \\cdot 9{,}81\\). \\(F_{v} = k \\cdot \\Delta l = 200 \\cdot 0{,}05\\). \\(F_{w} = \\mu \\cdot F_{N} = 0{,}25 \\cdot 40 \\cdot 9{,}81\\).",
+          "kolommen": [
+            "10",
+            "98,1",
+            "490,5"
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een parachutist valt met een constante snelheid. Welke uitspraak klopt?",
+          "opties": [
+            "De luchtweerstand is even groot als zijn gewicht.",
+            "Zijn gewicht is groter dan de luchtweerstand op hem.",
+            "Er werkt op dat moment geen zwaartekracht op hem.",
+            "De luchtweerstand is groter dan zijn gewicht samen."
+          ],
+          "antwoord": 0,
+          "uitleg": "Een constante snelheid betekent dat de resulterende kracht nul is. De luchtweerstand naar boven en de zwaartekracht naar beneden zijn dus even groot."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Een kracht is een [[vectoriële]] grootheid: ze heeft een grootte, een richting, een zin en een [[aangrijpingspunt]]. Je meet een kracht met een [[dynamometer]].",
+          "extra": [
+            "scalaire",
+            "manometer"
+          ],
+          "uitleg": "Een vector heeft vier kenmerken. Een dynamometer meet krachten, een manometer meet de druk van een gas."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een blok met een volume van \\(0{,}002\\) m³ zit helemaal onder water. Hoe groot is de archimedeskracht, in newton? Geef enkel het getal, met twee decimalen.",
+          "antwoord": [
+            "19,62",
+            "19.62"
+          ],
+          "uitleg": "\\(F_{A} = \\rho \\cdot V \\cdot g = 1000 \\cdot 0{,}002 \\cdot 9{,}81 = 19{,}62\\) newton."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Zinkt, zweeft of drijft dit voorwerp in water?",
+          "rijen": [
+            "een blok met een dichtheid van \\(800\\) kg/m³",
+            "een steen met een dichtheid van \\(2600\\) kg/m³",
+            "een voorwerp met een dichtheid van \\(1000\\) kg/m³"
+          ],
+          "antwoord": [
+            2,
+            0,
+            1
+          ],
+          "uitleg": "Vergelijk de dichtheid met die van water, 1000 kilogram per kubieke meter. Kleiner: het voorwerp drijft. Groter: het zinkt. Even groot: het zweeft.",
+          "kolommen": [
+            "Zinkt",
+            "Zweeft",
+            "Drijft"
+          ]
+        },
+        {
+          "casus": "Op een wip zit Noor (\\(30\\) kg) op \\(2{,}0\\) m van het draaipunt. Aan de andere kant gaat Milan (\\(40\\) kg) zitten.",
+          "vragen": [
+            {
+              "type": "invultekst",
+              "vraag": "Op hoeveel meter van het draaipunt moet Milan zitten om de wip in evenwicht te brengen? Geef enkel het getal.",
+              "antwoord": [
+                "1,5",
+                "1.5"
+              ],
+              "uitleg": "Bij evenwicht zijn de momenten links en rechts gelijk: \\(30 \\cdot 2{,}0 = 40 \\cdot d\\), dus \\(d = 1{,}5\\) meter. De massa's mag je gebruiken omdat g aan beide kanten wegvalt."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Milan schuift nu naar het uiteinde van de wip. Wat gebeurt er?",
+              "opties": [
+                "Zijn kant zakt naar beneden.",
+                "De wip blijft in evenwicht.",
+                "Noors kant zakt naar beneden.",
+                "Het draaipunt schuift mee op."
+              ],
+              "antwoord": 0,
+              "uitleg": "Een langere arm geeft een groter moment. Milans moment wordt groter dan dat van Noor, dus zijn kant zakt."
+            }
+          ]
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Bij een hydraulische pers duw je met \\(200\\) N op een zuiger van \\(0{,}01\\) m². De grote zuiger heeft een oppervlakte van \\(0{,}5\\) m². Hoe groot is de kracht op de grote zuiger, in newton? Geef enkel het getal.",
+          "antwoord": [
+            "10000",
+            "10 000",
+            "10.000"
+          ],
+          "uitleg": "De druk is overal gelijk: \\(200 / 0{,}01 = 20\\,000\\) pascal. Op de grote zuiger is de kracht \\(20\\,000 \\cdot 0{,}5 = 10\\,000\\) newton."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welke grootheid blijft gelijk bij dit proces van een vaste hoeveelheid gas?",
+          "rijen": [
+            "isotherm",
+            "isobaar",
+            "isochoor"
+          ],
+          "antwoord": [
+            2,
+            0,
+            1
+          ],
+          "uitleg": "Iso betekent gelijk. Therm gaat over temperatuur, baar over druk en choor over volume (ruimte).",
+          "kolommen": [
+            "Druk",
+            "Volume",
+            "Temperatuur"
+          ]
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een gas van \\(6{,}0\\) L bij \\(1{,}0\\) bar wordt bij gelijke temperatuur samengedrukt tot \\(3{,}0\\) bar. Hoeveel liter is het nieuwe volume? Geef enkel het getal.",
+          "antwoord": [
+            "2",
+            "2,0",
+            "2.0"
+          ],
+          "uitleg": "Bij een isotherm proces is \\(p \\cdot V\\) constant: \\(1{,}0 \\cdot 6{,}0 = 3{,}0 \\cdot V\\), dus \\(V = 2{,}0\\) liter."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een gesloten fles gas staat op \\(2{,}0\\) bar bij \\(300\\) K. Je verwarmt ze tot \\(360\\) K. Hoeveel bar wordt de druk? Geef enkel het getal.",
+          "antwoord": [
+            "2,4",
+            "2.4"
+          ],
+          "uitleg": "Bij een constant volume is \\(p / T\\) constant: \\(2{,}0 / 300 = p / 360\\), dus \\(p = 2{,}4\\) bar. Reken altijd met kelvin."
+        },
+        {
+          "casus": "Een lift van \\(600\\) kg gaat in \\(30\\) s eenparig \\(20\\) m omhoog.",
+          "vragen": [
+            {
+              "type": "invultekst",
+              "vraag": "Hoeveel joule potentiële energie wint de lift? Geef enkel het getal.",
+              "antwoord": [
+                "117720",
+                "117 720",
+                "117.720"
+              ],
+              "uitleg": "\\(E_{p} = m \\cdot g \\cdot h = 600 \\cdot 9{,}81 \\cdot 20 = 117\\,720\\) joule."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Hoe groot is het nuttig vermogen van de lift, ongeveer?",
+              "opties": [
+                "\\(3{,}9\\) kW",
+                "\\(39\\) kW",
+                "\\(0{,}39\\) kW",
+                "\\(118\\) kW"
+              ],
+              "antwoord": 0,
+              "uitleg": "Vermogen is energie gedeeld door tijd: \\(117\\,720 / 30 = 3924\\) watt, ongeveer 3,9 kilowatt."
+            },
+            {
+              "type": "invultekst",
+              "vraag": "De motor neemt in die tijd \\(150\\,000\\) J elektrische energie op. Wat is het rendement, in procent? Rond af op een geheel getal.",
+              "antwoord": "78",
+              "uitleg": "\\(\\eta = 117\\,720 / 150\\,000 = 0{,}78\\), dus 78 procent."
+            }
+          ]
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een fietser rijdt een helling af zonder te trappen. Zijn [[*potentiële|kinetische]] energie neemt af en zijn [[*kinetische|potentiële]] energie neemt toe. Door de wrijving wordt een deel [[*warmte|chemische energie]].",
+          "uitleg": "Bij het dalen wordt potentiële energie omgezet in kinetische energie. De wrijving zet een deel om in warmte, die niet verdwijnt maar wel minder bruikbaar is."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel joule warmte heb je nodig om \\(2{,}0\\) kg water van \\(20\\) °C tot \\(70\\) °C op te warmen? Gebruik \\(c = 4186\\) J/(kg.K). Geef enkel het getal.",
+          "antwoord": [
+            "418600",
+            "418 600",
+            "418.600"
+          ],
+          "uitleg": "\\(Q = m \\cdot c \\cdot \\Delta T = 2{,}0 \\cdot 4186 \\cdot 50 = 418\\,600\\) joule."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Hoe gebeurt het warmtetransport hier vooral?",
+          "paren": [
+            [
+              "een metalen lepel in hete soep wordt warm",
+              "geleiding"
+            ],
+            [
+              "warme lucht stijgt op boven een radiator",
+              "convectie"
+            ],
+            [
+              "je voelt de warmte van de zon op je gezicht",
+              "straling"
+            ]
+          ],
+          "extra": [
+            "condensatie",
+            "verdamping"
+          ],
+          "uitleg": "Bij geleiding geven deeltjes de energie aan elkaar door. Bij convectie stroomt de warme stof zelf mee. Straling heeft geen stof nodig."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet de faseovergangen van ijs tot stoom in de juiste volgorde, als je ijs van \\(-10\\) °C blijft verwarmen.",
+          "opties": [
+            "het ijs warmt op tot 0 °C",
+            "het ijs smelt",
+            "het water warmt op tot 100 °C",
+            "het water verdampt",
+            "de stoom warmt verder op"
+          ],
+          "uitleg": "Een opwarmingscurve wisselt schuine en horizontale stukken af. Bij elk horizontaal stuk gebeurt er een faseovergang."
+        },
+        {
+          "casus": "Twee weerstanden van \\(30\\,\\Omega\\) en \\(60\\,\\Omega\\) worden op een spanning van \\(12\\) V aangesloten.",
+          "vragen": [
+            {
+              "type": "invultekst",
+              "vraag": "Ze staan in serie. Hoe groot is de stroomsterkte, in ampère? Geef enkel het getal.",
+              "antwoord": [
+                "0,13",
+                "0.13",
+                "0,133",
+                "0.133"
+              ],
+              "uitleg": "In serie tel je de weerstanden op: 90 ohm. \\(I = U / R = 12 / 90 \\approx 0{,}13\\) ampère."
+            },
+            {
+              "type": "invultekst",
+              "vraag": "Ze staan nu parallel. Hoe groot is de substitutieweerstand, in ohm? Geef enkel het getal.",
+              "antwoord": "20",
+              "uitleg": "\\(1/R = 1/30 + 1/60 = 3/60\\), dus \\(R = 20\\) ohm."
+            },
+            {
+              "type": "tabel",
+              "vraag": "Klopt dit over de parallelschakeling?",
+              "rijen": [
+                "Over elke weerstand staat \\(12\\) V.",
+                "Door de weerstand van \\(30\\,\\Omega\\) loopt de grootste stroom.",
+                "De totale stroom is kleiner dan in de serieschakeling."
+              ],
+              "antwoord": [
+                true,
+                true,
+                false
+              ],
+              "uitleg": "Bij een parallelschakeling staat de volle spanning over elke tak. De kleinste weerstand laat de grootste stroom door. De substitutieweerstand is kleiner, dus de totale stroom is groter dan in serie."
+            }
+          ]
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Welk beeld geeft een bolle lens?",
+          "kolommen": [
+            "Reëel en omgekeerd",
+            "Virtueel en rechtop"
+          ],
+          "items": [
+            [
+              "het voorwerp staat verder dan het dubbele van de brandpuntsafstand",
+              "Reëel en omgekeerd"
+            ],
+            [
+              "het voorwerp staat tussen het brandpunt en de lens",
+              "Virtueel en rechtop"
+            ],
+            [
+              "het voorwerp staat tussen het brandpunt en het dubbele ervan",
+              "Reëel en omgekeerd"
+            ],
+            [
+              "je gebruikt de lens als vergrootglas",
+              "Virtueel en rechtop"
+            ]
+          ],
+          "uitleg": "Staat het voorwerp verder dan het brandpunt, dan krijg je een reëel, omgekeerd beeld op een scherm. Dichter dan het brandpunt krijg je een virtueel, rechtopstaand beeld: zo werkt een vergrootglas."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een lichtstraal gaat schuin van lucht naar water. Hij breekt [[*naar de normaal toe|van de normaal weg]], omdat licht in water [[*trager|sneller]] gaat.",
+          "uitleg": "Gaat licht naar een middenstof waar het trager gaat, dan breekt het naar de normaal toe."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom zie je jezelf wel in een spiegel en niet in een wit blad papier?",
+          "opties": [
+            "De spiegel kaatst regelmatig terug, het papier kaatst diffuus.",
+            "Wit papier slorpt al het licht op dat erop valt en kaatst niets terug.",
+            "Een spiegel maakt zelf licht en een blad papier doet dat helemaal niet.",
+            "Een spiegel breekt het licht naar de normaal toe en papier niet."
+          ],
+          "antwoord": 0,
+          "uitleg": "Beide kaatsen licht terug. De spiegel doet dat regelmatig, zodat de stralen geordend blijven en je een beeld ziet. Papier is ruw en kaatst het licht in alle richtingen."
+        },
+        {
+          "type": "open",
+          "vraag": "Je wil onderzoeken hoe de valtijd van een papieren muffinvormpje afhangt van het aantal vormpjes dat je in elkaar stapelt. Schrijf een onderzoeksvraag en een hypothese, en zeg wat je verandert, wat je meet en wat je gelijk houdt.",
+          "antwoord": "Onderzoeksvraag: hoe hangt de valtijd af van het aantal gestapelde vormpjes? Hypothese: hoe meer vormpjes, hoe korter de valtijd. Ik verander het aantal vormpjes (1 tot 5). Ik meet de valtijd met een chronometer, drie keer per aantal. Ik houd de valhoogte, het soort vormpje en de plaats (geen tocht) gelijk.",
+          "uitleg": "Een goede onderzoeksvraag is open, onderzoekbaar en haalbaar. Verander maar één grootheid tegelijk en herhaal je metingen om toevallige fouten te verkleinen."
+        }
+      ]
+    }
+  ]
+}
