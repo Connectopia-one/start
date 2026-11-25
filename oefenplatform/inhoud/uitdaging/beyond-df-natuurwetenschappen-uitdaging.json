@@ -1,0 +1,554 @@
+{
+  "hoofdstukken": [
+    {
+      "titel": "Uitdaging — alles door elkaar",
+      "niveau": "beyond-dubbele-finaliteit",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "Bekijk het etiket. Klik op de regel die toont hoeveel toegevoegde en natuurlijke suikers erin zitten.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-beyond-df-uitdaging/etiket-granen.svg",
+          "zones": [
+            [
+              2,
+              40.8,
+              96,
+              13.7
+            ]
+          ],
+          "uitleg": "Bij koolhydraten staat 'waarvan suikers': 22 g per 100 g."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de regel die het belangrijkst is voor iemand die minder vet voor hart en bloedvaten wil eten.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-beyond-df-uitdaging/etiket-granen.svg",
+          "zones": [
+            [
+              2,
+              27.1,
+              96,
+              13.7
+            ]
+          ],
+          "uitleg": "Verzadigde vetzuren verhogen de cholesterol. Het etiket vermeldt ze apart bij de vetten."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de voedingsstof die je lichaam vooral nodig heeft om spieren op te bouwen.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-beyond-df-uitdaging/etiket-granen.svg",
+          "zones": [
+            [
+              2,
+              68.2,
+              96,
+              13.7
+            ]
+          ],
+          "uitleg": "Eiwitten zijn bouwstoffen voor spieren en andere weefsels."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Reken met het etiket. Je eet een kom van 40 g.",
+          "rijen": [
+            "Suikers in die kom (g)",
+            "Energie in die kom (kJ)",
+            "Zout in die kom (g)"
+          ],
+          "antwoord": [
+            1,
+            2,
+            0
+          ],
+          "uitleg": "40 g is 0,4 keer 100 g: 22 · 0,4 = 8,8 g suiker, 1600 · 0,4 = 640 kJ en 0,9 · 0,4 = 0,36 g zout.",
+          "kolommen": [
+            "0,36",
+            "8,8",
+            "640"
+          ],
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-beyond-df-uitdaging/etiket-granen.svg"
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit volgens het etiket?",
+          "rijen": [
+            "Koolhydraten leveren het grootste deel van de massa.",
+            "Meer dan een kwart van de massa bestaat uit suikers.",
+            "Het product bevat voedingsvezels die de darmwerking helpen.",
+            "Het product bevat meer eiwitten dan koolhydraten."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "75 g op 100 g is koolhydraat. Suikers zijn 22 g, minder dan een kwart. Er zijn 8 g eiwitten tegen 75 g koolhydraten.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-beyond-df-uitdaging/etiket-granen.svg"
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Bekijk de golf. Klik op het cijfer bij de pijl die de golflengte aangeeft.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-beyond-df-uitdaging/golf-pijlen.svg",
+          "zones": [
+            [
+              37.3,
+              15.0,
+              6.4,
+              12.3
+            ]
+          ],
+          "uitleg": "De golflengte is de afstand tussen twee opeenvolgende toppen: pijl 2."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het cijfer bij de pijl die de amplitude aangeeft.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-beyond-df-uitdaging/golf-pijlen.svg",
+          "zones": [
+            [
+              12.9,
+              38.1,
+              6.4,
+              12.3
+            ]
+          ],
+          "uitleg": "De amplitude is de grootste uitwijking ten opzichte van de evenwichtsstand: van de stippellijn tot de top."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Pijl 3 gaat van een top tot een dal: dat is [[*een halve golflengte|twee golflengtes|de amplitude]]. Bij een transversale golf trillen de deeltjes [[*loodrecht op|evenwijdig met]] de voortplantingsrichting.",
+          "uitleg": "Van top tot dal is een halve golflengte. Bij een transversale golf bewegen de deeltjes op en neer terwijl de golf vooruitgaat.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-beyond-df-uitdaging/golf-pijlen.svg"
+        },
+        {
+          "type": "invultekst",
+          "vraag": "De golflengte van deze golf is 2,0 m en de frequentie 5,0 Hz. Hoe groot is de golfsnelheid in m/s?",
+          "antwoord": [
+            "10",
+            "10,0"
+          ],
+          "uitleg": "v = λ · f = 2,0 · 5,0 = 10 m/s.",
+          "afbeelding_url": "/examenvormen/natuurwetenschappen-beyond-df-uitdaging/golf-pijlen.svg"
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet de stappen in de juiste volgorde.",
+          "opties": [
+            "Eisprong",
+            "Bevruchting in de eileider",
+            "Klievingsdelingen",
+            "Innesteling in de baarmoeder",
+            "Ontwikkeling van de foetus"
+          ],
+          "uitleg": "Na de eisprong kan een zaadcel de eicel in de eileider bevruchten. Het embryo deelt, nestelt zich in en groeit verder als foetus."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welke vorm van anticonceptie is het?",
+          "rijen": [
+            "Condoom",
+            "De pil",
+            "Sterilisatie"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Een condoom houdt zaadcellen tegen en beschermt ook tegen soa's. De pil werkt met hormonen. Sterilisatie is (bijna) onomkeerbaar.",
+          "kolommen": [
+            "Barrièremethode",
+            "Hormonaal",
+            "Definitief"
+          ]
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een eeneiige tweeling ontstaat uit [[*één bevruchte eicel die splitst|twee eicellen met twee zaadcellen]] en heeft [[*hetzelfde|verschillend]] DNA.",
+          "uitleg": "Eeneiige tweelingen komen uit één zygote en zijn genetisch identiek. Twee-eiige tweelingen zijn zoals gewone broers en zussen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een stukje DNA heeft de volgorde TACGGA. Welke mRNA-volgorde wordt ervan afgeschreven? Zes letters.",
+          "antwoord": [
+            "AUGCCU"
+          ],
+          "uitleg": "In RNA staat U in plaats van T. T → A, A → U, C → G, G → C: AUGCCU."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Twee ouders zijn allebei Bb (B = bruine ogen dominant, b = blauw). Hoeveel procent kans heeft een kind op",
+          "rijen": [
+            "genotype BB",
+            "genotype Bb",
+            "blauwe ogen",
+            "bruine ogen"
+          ],
+          "antwoord": [
+            0,
+            1,
+            0,
+            2
+          ],
+          "uitleg": "Kruising Bb × Bb geeft BB, Bb, Bb en bb. Bruin: BB of Bb (3 op 4). Blauw: enkel bb (1 op 4).",
+          "kolommen": [
+            "25 %",
+            "50 %",
+            "75 %"
+          ]
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een gen is een stukje [[*DNA|eiwit|vet]] met de code voor een [[*eiwit|chromosoom|cel]].",
+          "uitleg": "Bij genexpressie wordt de code van een gen via mRNA vertaald naar een eiwit."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Past dit bij de theorie van Darwin of bij een misvatting over evolutie?",
+          "kolommen": [
+            "Darwin",
+            "Misvatting"
+          ],
+          "items": [
+            [
+              "In een populatie bestaat variatie tussen individuen.",
+              "Darwin"
+            ],
+            [
+              "Een giraf kreeg een lange nek omdat ze haar nek uitrekte.",
+              "Misvatting"
+            ],
+            [
+              "Wie beter aangepast is, krijgt meer nakomelingen.",
+              "Darwin"
+            ],
+            [
+              "Dieren veranderen bewust om te overleven.",
+              "Misvatting"
+            ]
+          ],
+          "uitleg": "Darwin: variatie bestaat al, de omgeving selecteert. Eigenschappen die je tijdens je leven verwerft, geef je niet door."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom worden bacteriën resistent tegen een antibioticum?",
+          "opties": [
+            "Toevallig resistente bacteriën overleven en vermenigvuldigen zich.",
+            "Bacteriën beslissen samen om zich tegen het middel te verdedigen.",
+            "Het antibioticum verandert vanzelf in voedsel voor de bacteriën.",
+            "De patiënt wordt resistent, waardoor de bacteriën ook mee veranderen."
+          ],
+          "antwoord": 0,
+          "uitleg": "Dat is natuurlijke selectie: het antibioticum doodt de gevoelige bacteriën, de resistente blijven over."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Als twee populaties lang gescheiden leven, bijvoorbeeld door een gebergte, kunnen ze uitgroeien tot [[*twee soorten|één soort|een kruising]] die zich [[*niet meer|nog altijd]] onderling vruchtbaar kunnen voortplanten.",
+          "uitleg": "Door isolatie en verschillende selectie groeien populaties uit elkaar. Zo ontstaan nieuwe soorten."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel het gevarenpictogram aan zijn betekenis.",
+          "paren": [
+            [
+              "vlam",
+              "ontvlambaar"
+            ],
+            [
+              "uitroepteken",
+              "schadelijk of irriterend"
+            ],
+            [
+              "dode vis en boom",
+              "gevaarlijk voor het milieu"
+            ],
+            [
+              "corrosie (bijtende druppels)",
+              "bijtend"
+            ]
+          ],
+          "extra": [
+            "radioactief"
+          ],
+          "uitleg": "GHS-pictogrammen staan in een rode ruit en tonen het soort gevaar."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Wat betekent dit op een etiket?",
+          "rijen": [
+            "Ten minste houdbaar tot (THT)",
+            "Te gebruiken tot (TGT)",
+            "TGT op verse kip of gehakt",
+            "THT op een pak droge pasta"
+          ],
+          "antwoord": [
+            0,
+            1,
+            1,
+            0
+          ],
+          "uitleg": "THT gaat over kwaliteit: vaak is het product nog goed. TGT gaat over veiligheid bij bederfbare producten.",
+          "kolommen": [
+            "Kwaliteit kan daarna wat minder zijn",
+            "Daarna niet meer opeten"
+          ]
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Je lost 5 g suiker op in 250 mL water. Wat is de massaconcentratie in g/L?",
+          "antwoord": [
+            "20"
+          ],
+          "uitleg": "250 mL = 0,25 L. 5 g / 0,25 L = 20 g/L."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een kind van 20 kg mag 10 mg per kg lichaamsgewicht van een geneesmiddel krijgen. Hoeveel mg is dat?",
+          "opties": [
+            "200 mg",
+            "20 mg",
+            "2 mg",
+            "2000 mg"
+          ],
+          "antwoord": 0,
+          "uitleg": "10 mg · 20 kg = 200 mg."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "'De dosis maakt het gif' betekent dat [[*elke stof giftig kan zijn bij een te grote hoeveelheid|enkel kunstmatige stoffen giftig zijn]]. Zelfs [[*water|lucht in een ballon]] is gevaarlijk als je er extreem veel van drinkt.",
+          "uitleg": "Paracelsus stelde dat de hoeveelheid bepaalt of iets schadelijk is."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is dit een principe van duurzame (groene) chemie?",
+          "rijen": [
+            "Hernieuwbare grondstoffen gebruiken",
+            "Afval vermijden in plaats van opruimen",
+            "Zo veel mogelijk giftige oplosmiddelen gebruiken",
+            "Producten maken die in de natuur afbreekbaar zijn"
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Groene chemie wil gevaarlijke stoffen en afval beperken en zuinig omgaan met grondstoffen en energie."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Rond een draad waar stroom door loopt, ontstaat een [[*magnetisch veld|zwaartekrachtveld]]. Een elektromagneet wordt sterker als je [[*meer windingen gebruikt|de stroom uitschakelt]].",
+          "uitleg": "Elektrische stroom maakt magnetisme. Meer windingen of een grotere stroom maken de elektromagneet sterker."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Wat gebeurt er met een elektromagneet (een spoel met stroom)?",
+          "rijen": [
+            "Je wikkelt meer windingen.",
+            "Je steekt er een ijzeren kern in.",
+            "Je draait de stroomrichting om.",
+            "Je schakelt de stroom uit."
+          ],
+          "antwoord": [
+            0,
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Meer windingen of een ijzeren kern versterken het veld. De stroomrichting bepaalt waar de noordpool ligt, en zonder stroom is er geen magnetisme.",
+          "kolommen": [
+            "Sterker",
+            "Polen wisselen",
+            "Geen magnetisme"
+          ]
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Is dit een mechanische golf of een elektromagnetische golf?",
+          "kolommen": [
+            "Mechanisch",
+            "Elektromagnetisch"
+          ],
+          "items": [
+            [
+              "geluid",
+              "Mechanisch"
+            ],
+            [
+              "licht",
+              "Elektromagnetisch"
+            ],
+            [
+              "een golf op het water",
+              "Mechanisch"
+            ],
+            [
+              "röntgenstraling",
+              "Elektromagnetisch"
+            ]
+          ],
+          "uitleg": "Mechanische golven hebben een middenstof nodig. Elektromagnetische golven gaan ook door het luchtledige."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welke straling wordt hiervoor gebruikt?",
+          "rijen": [
+            "Eten opwarmen",
+            "Een botbreuk zien",
+            "Een tv-afstandsbediening",
+            "Zonnebrand op je huid"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "uitleg": "Elk deel van het elektromagnetisch spectrum heeft zijn eigen toepassingen en gevaren.",
+          "kolommen": [
+            "Microgolven",
+            "Röntgenstraling",
+            "Infrarood",
+            "Ultraviolet"
+          ]
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Geluid gaat [[*niet|wel]] door het luchtledige. Het gehoor raakt beschadigd bij langdurig geluid boven ongeveer [[*80 dB|20 dB|5 dB]].",
+          "uitleg": "Geluid heeft deeltjes nodig om te trillen. Lang luid geluid beschadigt de haarcellen in je oor."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Alfa, bèta of gamma?",
+          "rijen": [
+            "Wordt al tegengehouden door een blad papier",
+            "Gaat door papier, maar niet door enkele mm aluminium",
+            "Heeft dik lood of beton nodig om af te schermen"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Alfadeeltjes zijn groot en zwaar, bètadeeltjes zijn elektronen en gammastraling is energierijke elektromagnetische straling.",
+          "kolommen": [
+            "Alfa",
+            "Bèta",
+            "Gamma"
+          ]
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een stof heeft een halveringstijd van 6 uur. Hoeveel gram blijft er na 18 uur over van 80 g?",
+          "antwoord": [
+            "10"
+          ],
+          "uitleg": "18 uur = 3 halveringstijden: 80 → 40 → 20 → 10 g."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat gebeurt er bij kernsplijting in een kerncentrale?",
+          "opties": [
+            "Een zware kern splitst in lichtere kernen en er komt energie vrij.",
+            "Twee lichte kernen smelten samen tot één zware kern, zoals in de zon.",
+            "Elektronen springen van atoom naar atoom en er ontstaat stroom.",
+            "Steenkool verbrandt met zuurstof en de warmte drijft een turbine."
+          ],
+          "antwoord": 0,
+          "uitleg": "Uraniumkernen splitsen na het opvangen van een neutron. De vrijgekomen warmte maakt stoom die een turbine aandrijft."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een voordeel van kernenergie is dat ze [[*weinig CO₂|veel CO₂]] uitstoot. Een nadeel is het [[*radioactief afval|gebrek aan brandstof]] dat lang gevaarlijk blijft.",
+          "uitleg": "Kerncentrales stoten tijdens de werking nauwelijks CO₂ uit, maar het afval moet duizenden jaren veilig opgeslagen worden."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Zet om.",
+          "rijen": [
+            "0,5 L in mL",
+            "2 kg in g",
+            "3,5 cm in mm"
+          ],
+          "antwoord": [
+            1,
+            2,
+            0
+          ],
+          "uitleg": "1 L = 1000 mL, 1 kg = 1000 g, 1 cm = 10 mm.",
+          "kolommen": [
+            "35",
+            "500",
+            "2000"
+          ]
+        },
+        {
+          "type": "volgorde",
+          "vraag": "In welke volgorde verloopt een natuurwetenschappelijk onderzoek?",
+          "opties": [
+            "Onderzoeksvraag",
+            "Hypothese",
+            "Experiment uitvoeren",
+            "Resultaten verwerken",
+            "Besluit"
+          ],
+          "uitleg": "Je stelt een vraag, formuleert een vermoeden, test het, verwerkt de metingen en trekt een besluit."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom draag je een veiligheidsbril bij een proef met zuren?",
+          "opties": [
+            "Om je ogen te beschermen tegen spatten.",
+            "Om de kleuren in de proef beter te zien.",
+            "Om je handen te beschermen tegen het zuur.",
+            "Om te verhinderen dat de dampen ontsnappen."
+          ],
+          "antwoord": 0,
+          "uitleg": "Zuren zijn bijtend. Een spat in het oog kan blijvende schade geven."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is dit een geval van bestraling of van besmetting?",
+          "rijen": [
+            "Je krijgt een röntgenfoto en straalt daarna zelf niet.",
+            "Radioactief stof komt op je huid of in je lichaam.",
+            "Je eet groenten met radioactieve deeltjes."
+          ],
+          "antwoord": [
+            0,
+            1,
+            1
+          ],
+          "uitleg": "Bij bestraling word je van buitenaf getroffen door straling. Bij besmetting draag je de radioactieve stof zelf mee.",
+          "kolommen": [
+            "Bestraling",
+            "Besmetting"
+          ]
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een toon met een frequentie van 25 000 Hz is [[*ultrasoon|infrasoon|hoorbaar]] geluid. Mensen horen ongeveer van [[*20 Hz tot 20 000 Hz|0 Hz tot 200 Hz|1000 Hz tot 100 000 Hz]].",
+          "uitleg": "Boven 20 000 Hz spreek je van ultrasoon geluid; vleermuizen en echografie gebruiken het."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom is een prenatale test zoals de NIPT soms zinvol?",
+          "opties": [
+            "Hij kan wijzen op chromosoomafwijkingen bij de foetus.",
+            "Hij bepaalt de oogkleur van het kind met volledige zekerheid.",
+            "Hij voorkomt dat de baby ooit ziek kan worden na de geboorte.",
+            "Hij verandert het DNA van de foetus als dat nodig is."
+          ],
+          "antwoord": 0,
+          "uitleg": "De NIPT onderzoekt DNA-stukjes van de foetus in het bloed van de moeder en kan bv. op trisomie 21 wijzen."
+        },
+        {
+          "type": "open",
+          "vraag": "Leg in 3 à 5 zinnen uit hoe je met een voedingsetiket twee soorten ontbijtgranen kan vergelijken om de gezondste te kiezen.",
+          "antwoord": "Ik vergelijk de waarden per 100 g, zodat het eerlijk is. Ik kijk naar de suikers: hoe minder, hoe beter. Ik kijk ook naar de verzadigde vetten en het zout, die liefst laag zijn. Veel voedingsvezels en eiwitten zijn een pluspunt. Zo kies ik de granen met minder suiker en zout en meer vezels.",
+          "uitleg": "Een goed antwoord vergelijkt per 100 g en noemt minstens drie waarden (suikers, verzadigde vetten, zout, vezels, eiwitten) met wat gezond is."
+        }
+      ]
+    }
+  ]
+}
