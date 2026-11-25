@@ -1,0 +1,510 @@
+{
+  "hoofdstukken": [
+    {
+      "titel": "Uitdaging — alles door elkaar",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "Bekijk de grafiek van de trilling. Klik op een punt waar de massa haar grootste snelheid heeft.",
+          "afbeelding_url": "/examenvormen/fysica-beyond-uitdaging/trilling-u-t.svg",
+          "zones": [
+            [
+              24.0,
+              44.7,
+              6.4,
+              10.7
+            ],
+            [
+              40.2,
+              44.7,
+              6.4,
+              10.7
+            ],
+            [
+              56.4,
+              44.7,
+              6.4,
+              10.7
+            ],
+            [
+              72.6,
+              44.7,
+              6.4,
+              10.7
+            ]
+          ],
+          "uitleg": "De snelheid is het grootst bij de doorgang door de evenwichtsstand, waar de uitwijking nul is. Daar loopt de grafiek het steilst."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op een punt waar de uitwijking maximaal negatief is.",
+          "afbeelding_url": "/examenvormen/fysica-beyond-uitdaging/trilling-u-t.svg",
+          "zones": [
+            [
+              32.1,
+              71.3,
+              6.4,
+              10.7
+            ],
+            [
+              64.5,
+              71.3,
+              6.4,
+              10.7
+            ]
+          ],
+          "uitleg": "Op 0,6 s en op 1,4 s bereikt de massa \\(-4\\) cm: het laagste punt. Daar is de snelheid even nul."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Lees af en reken uit.",
+          "rijen": [
+            "de amplitude",
+            "de periode",
+            "de frequentie"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "De amplitude is de grootste uitwijking. Eén volledige trilling duurt van 0 tot 0,8 s. \\(f = 1 / T = 1 / 0{,}8 = 1{,}25\\) Hz.",
+          "kolommen": [
+            "\\(4\\) cm",
+            "\\(0{,}8\\) s",
+            "\\(1{,}25\\) Hz"
+          ],
+          "afbeelding_url": "/examenvormen/fysica-beyond-uitdaging/trilling-u-t.svg"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke vergelijking hoort bij deze trilling, met u in cm en t in s?",
+          "opties": [
+            "\\(u = 4\\sin(2{,}5\\pi t)\\)",
+            "\\(u = 4\\sin(0{,}8\\pi t)\\)",
+            "\\(u = 8\\sin(2{,}5\\pi t)\\)",
+            "\\(u = 4\\cos(2{,}5\\pi t)\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(\\omega = 2\\pi / T = 2\\pi / 0{,}8 = 2{,}5\\pi\\) rad/s. De trilling start in de evenwichtsstand en gaat omhoog: een sinus met amplitude 4.",
+          "afbeelding_url": "/examenvormen/fysica-beyond-uitdaging/trilling-u-t.svg"
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Bekijk de vervalcurve. Klik op het punt waar de activiteit gedaald is tot een kwart van de beginwaarde.",
+          "afbeelding_url": "/examenvormen/fysica-beyond-uitdaging/vervalcurve-activiteit.svg",
+          "zones": [
+            [
+              40.0,
+              64.1,
+              6.8,
+              11.3
+            ]
+          ],
+          "uitleg": "De beginactiviteit is 800 Bq. Een kwart is 200 Bq, en die waarde bereikt de bron na 12 uur."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel uur bedraagt de halveringstijd van deze stof? Geef enkel het getal.",
+          "antwoord": "6",
+          "uitleg": "Na 6 uur is de activiteit gedaald van 800 naar 400 Bq: de helft.",
+          "afbeelding_url": "/examenvormen/fysica-beyond-uitdaging/vervalcurve-activiteit.svg"
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe groot is de activiteit na 18 uur, in becquerel? Geef enkel het getal.",
+          "antwoord": "100",
+          "uitleg": "18 uur is drie halveringstijden: \\(800 \\cdot \\left(\\tfrac{1}{2}\\right)^{3} = 100\\) Bq.",
+          "afbeelding_url": "/examenvormen/fysica-beyond-uitdaging/vervalcurve-activiteit.svg"
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over radioactief verval?",
+          "rijen": [
+            "Na twee halveringstijden is er niets meer van de stof over.",
+            "Je kan niet voorspellen wanneer één bepaalde kern vervalt.",
+            "De halveringstijd hangt af van de temperatuur van de bron.",
+            "Elke halveringstijd daalt de activiteit met dezelfde factor."
+          ],
+          "antwoord": [
+            false,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Na twee halveringstijden blijft er een kwart over. Verval is een toevalsproces per kern, maar voor veel kernen samen volgt het een vaste exponentiële wet. Temperatuur heeft er geen invloed op.",
+          "afbeelding_url": "/examenvormen/fysica-beyond-uitdaging/vervalcurve-activiteit.svg"
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Twee puntladingen van elk \\(2{,}0\\ \\mu\\text{C}\\) liggen \\(0{,}30\\) m van elkaar. Hoe groot is de kracht tussen hen, in newton? Neem \\(k = 8{,}99 \\cdot 10^{9}\\ \\text{N\\,m}^{2}/\\text{C}^{2}\\) en rond af op twee decimalen.",
+          "antwoord": [
+            "0,40",
+            "0,4",
+            "0.40",
+            "0.4"
+          ],
+          "uitleg": "\\(F = k\\dfrac{q_1 q_2}{r^{2}} = 8{,}99 \\cdot 10^{9} \\cdot \\dfrac{(2{,}0 \\cdot 10^{-6})^{2}}{0{,}30^{2}} \\approx 0{,}40\\) N."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Als je de afstand tussen twee ladingen verdubbelt, wordt de kracht [[*vier keer kleiner|twee keer kleiner|twee keer groter]]. Elektrische veldlijnen vertrekken bij een [[*positieve|negatieve]] lading.",
+          "uitleg": "De wet van Coulomb is omgekeerd evenredig met het kwadraat van de afstand. Veldlijnen wijzen in de zin van de kracht op een positieve proeflading: van plus naar min."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een elektron doorloopt een spanning van \\(100\\) V. Hoeveel kinetische energie wint het?",
+          "opties": [
+            "\\(100\\) eV",
+            "\\(1\\) eV",
+            "\\(100\\) J",
+            "\\(1{,}6\\) J"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(W = q \\cdot U\\). Voor een elektron is dat \\(e \\cdot 100\\) V, dus 100 elektronvolt, of \\(1{,}6 \\cdot 10^{-17}\\) J."
+        },
+        {
+          "casus": "Een weerstand van \\(6\\,\\Omega\\) staat in serie met twee parallelle weerstanden van \\(6\\,\\Omega\\) en \\(3\\,\\Omega\\). Het geheel hangt aan een bron van \\(24\\) V.",
+          "vragen": [
+            {
+              "type": "tabel",
+              "vraag": "Reken uit.",
+              "rijen": [
+                "de vervangingsweerstand van het parallelle deel, in Ω",
+                "de vervangingsweerstand van de hele kring, in Ω",
+                "de stroom uit de bron, in A",
+                "de spanning over het parallelle deel, in V"
+              ],
+              "antwoord": [
+                0,
+                3,
+                1,
+                2
+              ],
+              "uitleg": "\\(1/R = 1/6 + 1/3 = 1/2\\), dus \\(2\\,\\Omega\\). In serie: \\(6 + 2 = 8\\,\\Omega\\). \\(I = 24/8 = 3\\) A. Over het parallelle deel: \\(U = 3 \\cdot 2 = 6\\) V.",
+              "kolommen": [
+                "\\(2\\)",
+                "\\(3\\)",
+                "\\(6\\)",
+                "\\(8\\)"
+              ]
+            },
+            {
+              "type": "invultekst",
+              "vraag": "Hoeveel ampère loopt er door de weerstand van \\(3\\,\\Omega\\)? Geef enkel het getal.",
+              "antwoord": "2",
+              "uitleg": "Over het parallelle deel staat 6 V. \\(I = 6 / 3 = 2\\) A. Door de weerstand van \\(6\\,\\Omega\\) loopt de overige 1 A."
+            }
+          ]
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een rechte geleider van \\(0{,}20\\) m voert een stroom van \\(4{,}0\\) A loodrecht door een magnetisch veld van \\(0{,}50\\) T. Hoe groot is de kracht erop, in newton? Geef enkel het getal.",
+          "antwoord": [
+            "0,4",
+            "0,40",
+            "0.4",
+            "0.40"
+          ],
+          "uitleg": "\\(F = B \\cdot I \\cdot L = 0{,}50 \\cdot 4{,}0 \\cdot 0{,}20 = 0{,}40\\) N."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "De flux door een spoel met \\(100\\) windingen verandert in \\(0{,}020\\) s gelijkmatig met \\(0{,}060\\) Wb. Hoe groot is de inductiespanning, in volt? Geef enkel het getal.",
+          "antwoord": "300",
+          "uitleg": "Volgens Faraday is \\(U = N \\dfrac{\\Delta\\Phi}{\\Delta t} = 100 \\cdot \\dfrac{0{,}060}{0{,}020} = 300\\) V."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een transformator heeft \\(1200\\) windingen primair en \\(60\\) windingen secundair. Hij hangt aan \\(230\\) V. Hoeveel volt geeft hij secundair? Geef enkel het getal.",
+          "antwoord": [
+            "11,5",
+            "11.5"
+          ],
+          "uitleg": "\\(U_s / U_p = N_s / N_p\\), dus \\(U_s = 230 \\cdot 60 / 1200 = 11{,}5\\) V."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Volgens de wet van [[*Lenz|Coulomb|Ohm]] werkt de inductiestroom de oorzaak van haar ontstaan [[*tegen|in de hand]]. Een generator met een draaiende winding levert [[*wisselspanning|gelijkspanning]].",
+          "uitleg": "Een magneet die je in een spoel duwt, krijgt een tegenwerkende kracht. Een draaiende winding ziet de flux periodiek veranderen: dat geeft een wisselspanning."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een auto van \\(1200\\) kg remt gelijkmatig van \\(20\\) m/s tot stilstand in \\(4{,}0\\) s. Hoe groot is de remkracht, in newton? Geef enkel het getal.",
+          "antwoord": [
+            "6000",
+            "6 000",
+            "6.000"
+          ],
+          "uitleg": "\\(a = \\Delta v / \\Delta t = -20 / 4{,}0 = -5{,}0\\) m/s². \\(F = m \\cdot a = 1200 \\cdot 5{,}0 = 6000\\) N, tegen de beweging in."
+        },
+        {
+          "casus": "Een bal rolt met \\(12\\) m/s horizontaal van een rots van \\(45\\) m hoog. Neem \\(g = 10\\) m/s² en verwaarloos de luchtweerstand.",
+          "vragen": [
+            {
+              "type": "invultekst",
+              "vraag": "Hoeveel seconden duurt de val? Geef enkel het getal.",
+              "antwoord": "3",
+              "uitleg": "Verticaal is het een vrije val: \\(45 = \\tfrac{1}{2} \\cdot 10 \\cdot t^{2}\\), dus \\(t^{2} = 9\\) en \\(t = 3\\) s."
+            },
+            {
+              "type": "invultekst",
+              "vraag": "Hoeveel meter van de voet van de rots komt de bal neer? Geef enkel het getal.",
+              "antwoord": "36",
+              "uitleg": "Horizontaal blijft de snelheid constant: \\(x = 12 \\cdot 3 = 36\\) m."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Hoe groot is de verticale snelheid bij de landing?",
+              "opties": [
+                "\\(30\\) m/s",
+                "\\(12\\) m/s",
+                "\\(45\\) m/s",
+                "\\(15\\) m/s"
+              ],
+              "antwoord": 0,
+              "uitleg": "\\(v_y = g \\cdot t = 10 \\cdot 3 = 30\\) m/s. De horizontale snelheid blijft 12 m/s."
+            }
+          ]
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een auto van \\(1000\\) kg rijdt met \\(20\\) m/s door een bocht met een straal van \\(50\\) m. Hoe groot is de middelpuntzoekende kracht, in newton? Geef enkel het getal.",
+          "antwoord": [
+            "8000",
+            "8 000",
+            "8.000"
+          ],
+          "uitleg": "\\(F_c = m \\dfrac{v^{2}}{r} = 1000 \\cdot \\dfrac{400}{50} = 8000\\) N."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welke wet van Newton verklaart dit het best?",
+          "rijen": [
+            "Een passagier schiet naar voren als de bus plots remt.",
+            "Een zwaardere kar heeft meer kracht nodig voor dezelfde versnelling.",
+            "Een roeier duwt water naar achter en de boot gaat vooruit."
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Traagheid is de eerste wet. \\(F = m \\cdot a\\) is de tweede. Actie en reactie zijn de derde wet.",
+          "kolommen": [
+            "Eerste wet",
+            "Tweede wet",
+            "Derde wet"
+          ]
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een steen valt vanuit rust \\(5{,}0\\) m naar beneden. Met welke snelheid raakt hij de grond, in m/s? Neem \\(g = 9{,}81\\) m/s², verwaarloos de luchtweerstand en rond af op één decimaal.",
+          "antwoord": [
+            "9,9",
+            "9.9"
+          ],
+          "uitleg": "Behoud van energie: \\(mgh = \\tfrac{1}{2}mv^{2}\\), dus \\(v = \\sqrt{2gh} = \\sqrt{2 \\cdot 9{,}81 \\cdot 5{,}0} \\approx 9{,}9\\) m/s."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat gebeurt er met de gravitatiekracht tussen twee hemellichamen als de afstand drie keer zo groot wordt?",
+          "opties": [
+            "Ze wordt negen keer kleiner.",
+            "Ze wordt maar drie keer kleiner.",
+            "Ze wordt negen keer groter.",
+            "Ze blijft gewoon even groot."
+          ],
+          "antwoord": 0,
+          "uitleg": "De gravitatiekracht is omgekeerd evenredig met het kwadraat van de afstand: \\(3^{2} = 9\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een proton beweegt met een constante snelheid loodrecht op een homogeen magnetisch veld. Welke baan beschrijft het?",
+          "opties": [
+            "een cirkel",
+            "een rechte lijn",
+            "een parabool",
+            "een spiraal naar buiten"
+          ],
+          "antwoord": 0,
+          "uitleg": "De lorentzkracht staat altijd loodrecht op de snelheid. Ze verandert enkel de richting, niet de grootte van de snelheid: het proton beschrijft een cirkel."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Je trekt een slee \\(10\\) m vooruit met een kracht van \\(50\\) N onder een hoek van \\(60^{\\circ}\\) met de grond. Hoeveel arbeid verricht je, in joule? Geef enkel het getal.",
+          "antwoord": "250",
+          "uitleg": "Enkel de component in de zin van de verplaatsing verricht arbeid: \\(W = F \\cdot s \\cdot \\cos\\alpha = 50 \\cdot 10 \\cdot 0{,}5 = 250\\) J."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over een lichaam in evenwicht?",
+          "rijen": [
+            "De resulterende kracht op het lichaam is nul.",
+            "De som van de momenten om elk punt is nul.",
+            "Een lichaam in evenwicht staat altijd stil."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Voor evenwicht moeten zowel de krachten als de momenten elkaar opheffen. Een lichaam dat eenparig rechtlijnig beweegt, is ook in evenwicht."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "\\(2{,}0\\) mol gas zit bij \\(300\\) K in een vat van \\(0{,}050\\) m³. Hoe groot is de druk, in kPa? Neem \\(R = 8{,}31\\) J/(mol·K) en rond af op één decimaal.",
+          "antwoord": [
+            "99,7",
+            "99.7"
+          ],
+          "uitleg": "\\(p = \\dfrac{nRT}{V} = \\dfrac{2{,}0 \\cdot 8{,}31 \\cdot 300}{0{,}050} = 99\\,720\\) Pa, of 99,7 kPa."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Je mengt \\(1{,}0\\) kg water van \\(80\\) °C met \\(3{,}0\\) kg water van \\(20\\) °C. Wat is de eindtemperatuur, in °C, als er geen warmte verloren gaat? Geef enkel het getal.",
+          "antwoord": "35",
+          "uitleg": "Warmtebalans: \\(1{,}0 \\cdot (80 - T) = 3{,}0 \\cdot (T - 20)\\), dus \\(80 - T = 3T - 60\\) en \\(T = 35\\) °C."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een geluidsgolf van \\(680\\) Hz loopt met \\(340\\) m/s door de lucht. Hoe groot is de golflengte, in meter? Geef enkel het getal.",
+          "antwoord": [
+            "0,5",
+            "0,50",
+            "0.5",
+            "0.50"
+          ],
+          "uitleg": "\\(\\lambda = v / f = 340 / 680 = 0{,}50\\) m."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet deze soorten elektromagnetische straling van kleine naar grote frequentie.",
+          "opties": [
+            "radiogolven",
+            "microgolven",
+            "infrarood",
+            "zichtbaar licht",
+            "ultraviolet",
+            "röntgenstraling",
+            "gammastraling"
+          ],
+          "uitleg": "Hoe groter de frequentie, hoe kleiner de golflengte en hoe groter de energie per foton."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over het foto-elektrisch effect?",
+          "rijen": [
+            "Onder de grensfrequentie komen er geen elektronen vrij, ook niet bij fel licht.",
+            "Feller licht met dezelfde frequentie maakt meer elektronen vrij.",
+            "Feller licht geeft de vrijgekomen elektronen meer kinetische energie.",
+            "Licht gedraagt zich hier als een stroom van deeltjes, fotonen."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "De energie van één foton is \\(E = hf\\) en hangt enkel van de frequentie af. Meer intensiteit betekent meer fotonen, dus meer elektronen, maar niet sneller. Dat toont het deeltjeskarakter van licht."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Bij [[*interferentie|breking|polarisatie]] versterken of verzwakken twee golven elkaar. Op een gespannen snaar ontstaat zo een [[*staande golf|lopende golf]] met knopen en buiken.",
+          "uitleg": "Golven tellen op waar ze elkaar ontmoeten. Een golf die heen en weer weerkaatst, kan een staande golf vormen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Wat gebeurt er met de kern bij dit verval?",
+          "rijen": [
+            "alfaverval",
+            "bèta-minverval",
+            "gammaverval"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Een alfadeeltje is een heliumkern: 2 protonen en 2 neutronen. Bij bèta-min wordt een neutron een proton en komt er een elektron vrij. Gammastraling voert enkel energie af.",
+          "kolommen": [
+            "Massagetal min 4, atoomnummer min 2",
+            "Atoomnummer plus 1, massagetal gelijk",
+            "Beide getallen blijven gelijk"
+          ]
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Uranium-238 vervalt met een alfaverval. Welk massagetal heeft de kern die ontstaat? Geef enkel het getal.",
+          "antwoord": "234",
+          "uitleg": "Bij alfaverval verliest de kern 4 nucleonen: \\(238 - 4 = 234\\). Het wordt thorium-234."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Hoort dit bij kernsplijting of bij kernfusie?",
+          "kolommen": [
+            "Kernsplijting",
+            "Kernfusie"
+          ],
+          "items": [
+            [
+              "een zware kern valt uiteen in twee lichtere kernen",
+              "Kernsplijting"
+            ],
+            [
+              "de energiebron van de zon",
+              "Kernfusie"
+            ],
+            [
+              "een kettingreactie met neutronen",
+              "Kernsplijting"
+            ],
+            [
+              "lichte kernen smelten samen tot een zwaardere",
+              "Kernfusie"
+            ],
+            [
+              "de werking van een kerncentrale vandaag",
+              "Kernsplijting"
+            ]
+          ],
+          "uitleg": "Bij splijting breekt een zware kern zoals uranium, bij fusie versmelten lichte kernen zoals waterstof. In beide gevallen komt energie vrij door het massadefect."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Je beschermt je tegen straling door de [[afstand]] tot de bron groot te maken, de [[tijd]] in de buurt kort te houden en voor [[afscherming]] te zorgen, zoals een loden wand.",
+          "extra": [
+            "temperatuur",
+            "frequentie"
+          ],
+          "uitleg": "Afstand, tijd en afscherming zijn de drie basisregels van stralingsbescherming."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over meten?",
+          "rijen": [
+            "Een meetresultaat geef je met een onzekerheid en een eenheid.",
+            "Door een meting te herhalen, verklein je toevallige fouten.",
+            "Een systematische fout verdwijnt als je het gemiddelde neemt.",
+            "Een digitaal toestel meet altijd exact."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            false
+          ],
+          "uitleg": "Toevallige fouten middelen uit, een systematische fout (een verkeerd geijkt toestel) niet. Ook een digitaal toestel heeft een beperkte nauwkeurigheid."
+        },
+        {
+          "type": "open",
+          "vraag": "Je wil onderzoeken of de periode van een slinger afhangt van de massa die eraan hangt. Beschrijf je proefopzet: wat verander je, wat meet je, wat houd je constant en hoe maak je je meting nauwkeurig?",
+          "antwoord": "Ik verander de massa (bijvoorbeeld 50, 100, 150 en 200 g). Ik meet de periode. Ik houd de lengte van de slinger en de beginuitwijking (klein, minder dan tien graden) constant. Om nauwkeurig te meten, meet ik de tijd van tien slingeringen en deel ik door tien, en herhaal ik elke meting drie keer. Daarna zet ik de periode uit tegen de massa in een grafiek.",
+          "uitleg": "Een goed antwoord verandert één grootheid, houdt de andere constant, meet meerdere perioden tegelijk om de reactietijd te verkleinen en herhaalt de metingen."
+        }
+      ]
+    }
+  ]
+}
