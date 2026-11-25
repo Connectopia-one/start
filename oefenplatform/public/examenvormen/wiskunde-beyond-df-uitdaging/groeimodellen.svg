@@ -1,0 +1,42 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1000 600' width='1000' height='600'>
+<rect width='1000' height='600' fill='#ffffff'/>
+<text x='40' y='50' font-family='Nunito, Arial, sans-serif' font-size='28' font-weight='800' fill='#2f4a22'>Twee groeimodellen voor een aantal volgers</text>
+<line x1='110' y1='500.0' x2='920' y2='500.0' stroke='#ebe6d8' stroke-width='1.5'/>
+<text x='98' y='507.0' text-anchor='end' font-family='Nunito, Arial, sans-serif' font-size='19' fill='#2b2b2b'>0</text>
+<line x1='110' y1='422.0' x2='920' y2='422.0' stroke='#ebe6d8' stroke-width='1.5'/>
+<text x='98' y='429.0' text-anchor='end' font-family='Nunito, Arial, sans-serif' font-size='19' fill='#2b2b2b'>100</text>
+<line x1='110' y1='344.0' x2='920' y2='344.0' stroke='#ebe6d8' stroke-width='1.5'/>
+<text x='98' y='351.0' text-anchor='end' font-family='Nunito, Arial, sans-serif' font-size='19' fill='#2b2b2b'>200</text>
+<line x1='110' y1='266.0' x2='920' y2='266.0' stroke='#ebe6d8' stroke-width='1.5'/>
+<text x='98' y='273.0' text-anchor='end' font-family='Nunito, Arial, sans-serif' font-size='19' fill='#2b2b2b'>300</text>
+<line x1='110' y1='188.0' x2='920' y2='188.0' stroke='#ebe6d8' stroke-width='1.5'/>
+<text x='98' y='195.0' text-anchor='end' font-family='Nunito, Arial, sans-serif' font-size='19' fill='#2b2b2b'>400</text>
+<line x1='110' y1='110.0' x2='920' y2='110.0' stroke='#ebe6d8' stroke-width='1.5'/>
+<text x='98' y='117.0' text-anchor='end' font-family='Nunito, Arial, sans-serif' font-size='19' fill='#2b2b2b'>500</text>
+<line x1='110.0' y1='110' x2='110.0' y2='500' stroke='#ebe6d8' stroke-width='1.5'/>
+<text x='110.0' y='530' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='19' fill='#2b2b2b'>0</text>
+<line x1='211.2' y1='110' x2='211.2' y2='500' stroke='#ebe6d8' stroke-width='1.5'/>
+<text x='211.2' y='530' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='19' fill='#2b2b2b'>1</text>
+<line x1='312.5' y1='110' x2='312.5' y2='500' stroke='#ebe6d8' stroke-width='1.5'/>
+<text x='312.5' y='530' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='19' fill='#2b2b2b'>2</text>
+<line x1='413.8' y1='110' x2='413.8' y2='500' stroke='#ebe6d8' stroke-width='1.5'/>
+<text x='413.8' y='530' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='19' fill='#2b2b2b'>3</text>
+<line x1='515.0' y1='110' x2='515.0' y2='500' stroke='#ebe6d8' stroke-width='1.5'/>
+<text x='515.0' y='530' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='19' fill='#2b2b2b'>4</text>
+<line x1='616.2' y1='110' x2='616.2' y2='500' stroke='#ebe6d8' stroke-width='1.5'/>
+<text x='616.2' y='530' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='19' fill='#2b2b2b'>5</text>
+<line x1='717.5' y1='110' x2='717.5' y2='500' stroke='#ebe6d8' stroke-width='1.5'/>
+<text x='717.5' y='530' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='19' fill='#2b2b2b'>6</text>
+<line x1='818.8' y1='110' x2='818.8' y2='500' stroke='#ebe6d8' stroke-width='1.5'/>
+<text x='818.8' y='530' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='19' fill='#2b2b2b'>7</text>
+<line x1='920.0' y1='110' x2='920.0' y2='500' stroke='#ebe6d8' stroke-width='1.5'/>
+<text x='920.0' y='530' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='19' fill='#2b2b2b'>8</text>
+<line x1='110' y1='500' x2='935' y2='500' stroke='#2b2b2b' stroke-width='2.5'/>
+<line x1='110' y1='500' x2='110' y2='95' stroke='#2b2b2b' stroke-width='2.5'/>
+<text x='930' y='564' text-anchor='end' font-family='Nunito, Arial, sans-serif' font-size='21' fill='#2b2b2b'>tijd (maanden)</text>
+<text x='122' y='86' font-family='Nunito, Arial, sans-serif' font-size='21' fill='#2b2b2b'>aantal volgers</text>
+<polyline points='110.0,422.0 120.1,420.4 130.2,418.9 140.4,417.3 150.5,415.8 160.6,414.2 170.8,412.6 180.9,411.1 191.0,409.5 201.1,408.0 211.2,406.4 221.4,404.8 231.5,403.3 241.6,401.7 251.8,400.2 261.9,398.6 272.0,397.0 282.1,395.5 292.2,393.9 302.4,392.4 312.5,390.8 322.6,389.2 332.8,387.7 342.9,386.1 353.0,384.6 363.1,383.0 373.2,381.4 383.4,379.9 393.5,378.3 403.6,376.8 413.8,375.2 423.9,373.6 434.0,372.1 444.1,370.5 454.2,369.0 464.4,367.4 474.5,365.8 484.6,364.3 494.8,362.7 504.9,361.2 515.0,359.6 525.1,358.0 535.2,356.5 545.4,354.9 555.5,353.4 565.6,351.8 575.8,350.2 585.9,348.7 596.0,347.1 606.1,345.6 616.2,344.0 626.4,342.4 636.5,340.9 646.6,339.3 656.8,337.8 666.9,336.2 677.0,334.6 687.1,333.1 697.2,331.5 707.4,330.0 717.5,328.4 727.6,326.8 737.8,325.3 747.9,323.7 758.0,322.2 768.1,320.6 778.2,319.0 788.4,317.5 798.5,315.9 808.6,314.4 818.8,312.8 828.9,311.2 839.0,309.7 849.1,308.1 859.2,306.6 869.4,305.0 879.5,303.4 889.6,301.9 899.8,300.3 909.9,298.8 920.0,297.2' fill='none' stroke='#3b6ea5' stroke-width='5'/>
+<polyline points='110.0,422.0 120.1,420.6 130.2,419.1 140.4,417.6 150.5,416.1 160.6,414.6 170.8,413.0 180.9,411.4 191.0,409.8 201.1,408.1 211.2,406.4 221.4,404.7 231.5,402.9 241.6,401.1 251.8,399.3 261.9,397.5 272.0,395.6 282.1,393.7 292.2,391.7 302.4,389.7 312.5,387.7 322.6,385.6 332.8,383.5 342.9,381.4 353.0,379.2 363.1,377.0 373.2,374.7 383.4,372.4 393.5,370.0 403.6,367.7 413.8,365.2 423.9,362.7 434.0,360.2 444.1,357.6 454.2,355.0 464.4,352.4 474.5,349.6 484.6,346.9 494.8,344.1 504.9,341.2 515.0,338.3 525.1,335.3 535.2,332.3 545.4,329.2 555.5,326.0 565.6,322.8 575.8,319.6 585.9,316.2 596.0,312.9 606.1,309.4 616.2,305.9 626.4,302.3 636.5,298.7 646.6,295.0 656.8,291.2 666.9,287.4 677.0,283.5 687.1,279.5 697.2,275.4 707.4,271.3 717.5,267.1 727.6,262.8 737.8,258.4 747.9,254.0 758.0,249.5 768.1,244.9 778.2,240.2 788.4,235.4 798.5,230.5 808.6,225.6 818.8,220.5 828.9,215.4 839.0,210.1 849.1,204.8 859.2,199.4 869.4,193.8 879.5,188.2 889.6,182.5 899.8,176.6 909.9,170.7 920.0,164.6' fill='none' stroke='#c0622b' stroke-width='5'/>
+<text x='934.0' y='305.2' font-family='Nunito, Arial, sans-serif' font-size='26' font-weight='800' fill='#3b6ea5'>A</text>
+<text x='934.0' y='172.6' font-family='Nunito, Arial, sans-serif' font-size='26' font-weight='800' fill='#c0622b'>B</text>
+</svg>

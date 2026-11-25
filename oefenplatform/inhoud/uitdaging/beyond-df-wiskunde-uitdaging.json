@@ -1,0 +1,536 @@
+{
+  "hoofdstukken": [
+    {
+      "titel": "Uitdaging — alles door elkaar",
+      "niveau": "beyond-dubbele-finaliteit",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "Bekijk de grafiek. Klik op het punt waar de temperatuur het hoogst is.",
+          "afbeelding_url": "/examenvormen/wiskunde-beyond-df-uitdaging/temperatuur-dag.svg",
+          "zones": [
+            [
+              55.2,
+              19.8,
+              6.0,
+              10.0
+            ]
+          ],
+          "uitleg": "Om 14 uur bereikt de temperatuur haar maximum: 18 °C."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het punt waar de temperatuur het laagst is.",
+          "afbeelding_url": "/examenvormen/wiskunde-beyond-df-uitdaging/temperatuur-dag.svg",
+          "zones": [
+            [
+              14.8,
+              58.8,
+              6.0,
+              10.0
+            ]
+          ],
+          "uitleg": "Om 2 uur 's nachts is het het koudst: 6 °C."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Lees af op de grafiek.",
+          "rijen": [
+            "Temperatuur om 6 uur (°C)",
+            "Maximum (°C)",
+            "Minimum (°C)",
+            "Verschil tussen maximum en minimum (°C)"
+          ],
+          "antwoord": [
+            1,
+            3,
+            0,
+            2
+          ],
+          "uitleg": "Om 6 uur is het 9 °C. Het maximum is 18 °C en het minimum 6 °C, een verschil van 12 °C.",
+          "kolommen": [
+            "6",
+            "9",
+            "12",
+            "18"
+          ],
+          "afbeelding_url": "/examenvormen/wiskunde-beyond-df-uitdaging/temperatuur-dag.svg"
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Bereken de gemiddelde verandering van de temperatuur tussen 6 uur en 14 uur, in °C per uur.",
+          "antwoord": [
+            "1,125",
+            "1.125"
+          ],
+          "uitleg": "Differentiequotiënt: (18 − 9) / (14 − 6) = 9 / 8 = 1,125 °C per uur.",
+          "afbeelding_url": "/examenvormen/wiskunde-beyond-df-uitdaging/temperatuur-dag.svg"
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Tussen 2 uur en 14 uur is de functie [[*stijgend|dalend|constant]]. Het differentiequotiënt op [14, 22] is [[*negatief|positief|nul]].",
+          "uitleg": "Van het minimum naar het maximum stijgt de grafiek. Van 14 uur tot 22 uur daalt de temperatuur, dus de gemiddelde verandering is negatief.",
+          "afbeelding_url": "/examenvormen/wiskunde-beyond-df-uitdaging/temperatuur-dag.svg"
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Bekijk de twee modellen. Klik op de letter van het exponentiële model.",
+          "afbeelding_url": "/examenvormen/wiskunde-beyond-df-uitdaging/groeimodellen.svg",
+          "zones": [
+            [
+              81.0,
+              22.4,
+              15.0,
+              15.0
+            ]
+          ],
+          "uitleg": "Model B buigt steeds steiler omhoog: elke maand komt er een vast percentage bij. Model A is een rechte: elke maand evenveel erbij."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de letter van het model waarbij er elke maand evenveel volgers bijkomen.",
+          "afbeelding_url": "/examenvormen/wiskunde-beyond-df-uitdaging/groeimodellen.svg",
+          "zones": [
+            [
+              78.0,
+              42.9,
+              18.0,
+              11.7
+            ]
+          ],
+          "uitleg": "Een lineair model is een rechte: elke maand komen er 20 volgers bij."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Model A is \\(N = 100 + 20t\\) en model B is \\(N = 100 \\cdot 1{,}2^{t}\\). Bereken.",
+          "rijen": [
+            "Model A na 5 maanden",
+            "Model B na 1 maand",
+            "Model B na 2 maanden"
+          ],
+          "antwoord": [
+            2,
+            0,
+            1
+          ],
+          "uitleg": "A: 100 + 20 · 5 = 200. B: 100 · 1,2 = 120 en 100 · 1,2² = 144.",
+          "kolommen": [
+            "120",
+            "144",
+            "200"
+          ],
+          "afbeelding_url": "/examenvormen/wiskunde-beyond-df-uitdaging/groeimodellen.svg"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Met hoeveel procent per maand groeit model B?",
+          "opties": [
+            "20 %",
+            "1,2 %",
+            "120 %",
+            "2 %"
+          ],
+          "antwoord": 0,
+          "uitleg": "Groeifactor 1,2 betekent 1 + 0,20: een groei van 20 % per maand.",
+          "afbeelding_url": "/examenvormen/wiskunde-beyond-df-uitdaging/groeimodellen.svg"
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet de stappen van het oplossen van een probleem in de juiste volgorde.",
+          "opties": [
+            "Het probleem begrijpen",
+            "Een plan maken",
+            "Het plan uitvoeren",
+            "Terugblikken en controleren"
+          ],
+          "uitleg": "Je begrijpt eerst wat er gevraagd wordt, kiest een aanpak, rekent en controleert dan of je antwoord zinvol is."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een gsm-abonnement kost 15 euro per maand plus 0,10 euro per MB boven de bundel. Iemand betaalt 21 euro. Hoeveel MB ging hij boven de bundel?",
+          "antwoord": [
+            "60"
+          ],
+          "uitleg": "21 − 15 = 6 euro extra. 6 / 0,10 = 60 MB."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Bereken zonder rekenmachine.",
+          "rijen": [
+            "\\(27^{\\frac{1}{3}}\\)",
+            "\\(16^{\\frac{3}{4}}\\)",
+            "\\(4^{-\\frac{1}{2}}\\)",
+            "\\(\\sqrt[4]{81}\\)"
+          ],
+          "antwoord": [
+            1,
+            2,
+            0,
+            1
+          ],
+          "uitleg": "\\(27^{\\frac{1}{3}} = \\sqrt[3]{27} = 3\\), \\(16^{\\frac{3}{4}} = (\\sqrt[4]{16})^{3} = 2^{3} = 8\\), \\(4^{-\\frac{1}{2}} = \\dfrac{1}{\\sqrt{4}} = 0{,}5\\) en \\(3^{4} = 81\\).",
+          "kolommen": [
+            "0,5",
+            "3",
+            "8"
+          ]
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "\\(a^{3} \\cdot a^{4}\\) is gelijk aan [[*\\(a^{7}\\)|\\(a^{12}\\)|\\(2a^{7}\\)]]. \\((a^{2})^{3}\\) is gelijk aan [[*\\(a^{6}\\)|\\(a^{5}\\)|\\(a^{8}\\)]].",
+          "uitleg": "Bij een product van machten met hetzelfde grondtal tel je de exponenten op. Bij een macht van een macht vermenigvuldig je ze."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke uitdrukking is gelijk aan \\(\\sqrt[3]{x^{2}}\\)?",
+          "opties": [
+            "\\(x^{\\frac{2}{3}}\\)",
+            "\\(x^{\\frac{3}{2}}\\)",
+            "\\(x^{6}\\)",
+            "\\(x^{-\\frac{2}{3}}\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(\\sqrt[n]{x^{m}} = x^{\\frac{m}{n}}\\), dus \\(\\sqrt[3]{x^{2}} = x^{\\frac{2}{3}}\\)."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Bereken.",
+          "rijen": [
+            "\\(\\log_{2} 64\\)",
+            "\\(\\log 0{,}01\\)",
+            "\\(\\log_{3} 1\\)",
+            "\\(\\log_{5} 125\\)"
+          ],
+          "antwoord": [
+            3,
+            0,
+            1,
+            2
+          ],
+          "uitleg": "\\(2^{6} = 64\\), \\(10^{-2} = 0{,}01\\), \\(3^{0} = 1\\) en \\(5^{3} = 125\\).",
+          "kolommen": [
+            "-2",
+            "0",
+            "3",
+            "6"
+          ]
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Los op: \\(2^{x} = 32\\). Geef x.",
+          "antwoord": [
+            "5"
+          ],
+          "uitleg": "\\(32 = 2^{5}\\), dus \\(x = 5\\). Of: \\(x = \\log_{2} 32 = 5\\)."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "\\(\\log 1000 = 3\\) omdat [[*\\(10^{3} = 1000\\)|\\(3^{10} = 1000\\)|\\(1000 / 3 = 10\\)]]. \\(\\log\\) van een negatief getal [[*bestaat niet|is negatief|is nul]].",
+          "uitleg": "De logaritme is de exponent die je aan het grondtal moet geven. Een macht van 10 is altijd positief, dus van een negatief getal bestaat geen logaritme."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Is de groei lineair of exponentieel?",
+          "kolommen": [
+            "Lineair",
+            "Exponentieel"
+          ],
+          "items": [
+            [
+              "Elk jaar komt er 500 euro bij op de rekening.",
+              "Lineair"
+            ],
+            [
+              "Een bevolking groeit 2 % per jaar.",
+              "Exponentieel"
+            ],
+            [
+              "Een kaars wordt elk uur 1 cm korter.",
+              "Lineair"
+            ],
+            [
+              "Een auto verliest elk jaar 15 % van zijn waarde.",
+              "Exponentieel"
+            ]
+          ],
+          "uitleg": "Elke periode hetzelfde bedrag erbij of eraf: lineair. Elke periode hetzelfde percentage: exponentieel."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een auto kost nieuw 20 000 euro en verliest elk jaar 15 % van zijn waarde. Wat is hij na 2 jaar waard? Enkel het getal in euro.",
+          "antwoord": [
+            "14450",
+            "14 450",
+            "14.450"
+          ],
+          "uitleg": "\\(20\\,000 \\cdot 0{,}85^{2} = 20\\,000 \\cdot 0{,}7225 = 14\\,450\\) euro."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Bij \\(f(x) = 5 \\cdot 3^{x}\\) is de beginwaarde [[*5|3|15]] en de groeifactor [[*3|5|15]].",
+          "uitleg": "Een exponentiële functie \\(b \\cdot a^{x}\\) heeft beginwaarde b (bij \\(x = 0\\)) en groeifactor a."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een bacteriekolonie verdubbelt elk uur. Er zijn nu 300 bacteriën. Hoeveel zijn er over 4 uur?",
+          "opties": [
+            "4800",
+            "1200",
+            "2400",
+            "600"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(300 \\cdot 2^{4} = 300 \\cdot 16 = 4800\\)."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Je gooit één eerlijke dobbelsteen. Bereken de kans volgens Laplace.",
+          "rijen": [
+            "Een even getal",
+            "Meer dan 4",
+            "Een 7",
+            "Een getal kleiner dan 7"
+          ],
+          "antwoord": [
+            2,
+            1,
+            0,
+            3
+          ],
+          "uitleg": "Even: 2, 4, 6 → 3/6. Meer dan 4: 5, 6 → 2/6. Een 7 kan niet. Alle uitkomsten zijn kleiner dan 7.",
+          "kolommen": [
+            "0",
+            "1/3",
+            "1/2",
+            "1"
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Een basketbalspeler scoort een vrije worp met kans 0,7. Hij gooit twee keer. Bereken.",
+          "rijen": [
+            "Twee keer raak",
+            "Precies één keer raak",
+            "Minstens één keer raak"
+          ],
+          "antwoord": [
+            1,
+            0,
+            2
+          ],
+          "uitleg": "Raak-raak: 0,7 · 0,7 = 0,49. Precies één: 0,7 · 0,3 + 0,3 · 0,7 = 0,42. Minstens één: 1 − 0,3 · 0,3 = 0,91.",
+          "kolommen": [
+            "0,42",
+            "0,49",
+            "0,91"
+          ]
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Bij een kansboom [[*vermenigvuldig|tel]] je de kansen langs één tak. Kansen van verschillende takken die bij dezelfde gebeurtenis horen, [[*tel je op|vermenigvuldig je]].",
+          "uitleg": "Productregel langs een pad, somregel voor verschillende paden."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "In een zak zitten 3 rode en 5 blauwe knikkers. Je trekt er één. Wat is de kans op rood? Schrijf als breuk.",
+          "antwoord": [
+            "3/8"
+          ],
+          "uitleg": "3 gunstige uitkomsten op 8 mogelijke: 3/8."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Is deze steekproef representatief voor alle Vlaamse jongeren?",
+          "kolommen": [
+            "Representatief",
+            "Niet representatief"
+          ],
+          "items": [
+            [
+              "1000 willekeurig gekozen jongeren uit heel Vlaanderen",
+              "Representatief"
+            ],
+            [
+              "Enkel de leerlingen van één sportschool",
+              "Niet representatief"
+            ],
+            [
+              "Wie zelf reageert op een oproep op sociale media",
+              "Niet representatief"
+            ],
+            [
+              "Een loting uit alle Vlaamse scholen",
+              "Representatief"
+            ]
+          ],
+          "uitleg": "Een representatieve steekproef lijkt op de hele populatie. Toevallig kiezen uit de hele groep helpt; één groep of vrijwillige deelname geeft vertekening."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Mensen die meer ijs eten, hebben vaker zonnebrand. Wat is de beste verklaring?",
+          "opties": [
+            "Warm, zonnig weer zorgt voor allebei.",
+            "IJs eten maakt je huid gevoeliger voor de zon.",
+            "Zonnebrand geeft je zin in ijs, dus eet je meer.",
+            "Het is toeval, want er is geen enkele samenhang."
+          ],
+          "antwoord": 0,
+          "uitleg": "Samenhang is geen oorzakelijk verband. Het weer verklaart zowel het ijs eten als de zonnebrand."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "De populatie is [[*de hele groep die je wil onderzoeken|het deel dat je bevraagt]]. De steekproef is [[*het deel dat je bevraagt|de hele groep die je wil onderzoeken]].",
+          "uitleg": "Je trekt besluiten over de populatie op basis van een steekproef."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Pakken koffie wegen normaal verdeeld met \\(\\mu = 500\\) g en \\(\\sigma = 10\\) g. Hoeveel procent ligt ongeveer",
+          "rijen": [
+            "tussen 490 g en 510 g",
+            "tussen 480 g en 520 g",
+            "boven 510 g",
+            "onder 480 g"
+          ],
+          "antwoord": [
+            2,
+            3,
+            1,
+            0
+          ],
+          "uitleg": "Binnen één σ ligt 68 %, binnen twee σ 95 %. Boven \\(\\mu + \\sigma\\): (100 − 68) / 2 = 16 %. Onder \\(\\mu - 2\\sigma\\): (100 − 95) / 2 = 2,5 %.",
+          "kolommen": [
+            "2,5 %",
+            "16 %",
+            "68 %",
+            "95 %"
+          ]
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "De Gausskromme is [[*symmetrisch rond het gemiddelde|scheef naar rechts]]. Hoe groter σ, hoe [[*breder en lager|smaller en hoger]] de klok.",
+          "uitleg": "Een normale verdeling is klokvormig en symmetrisch. Meer spreiding maakt de klok breder; de totale oppervlakte blijft 1."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Bij welke gegevens verwacht je een normale verdeling?",
+          "opties": [
+            "De lengte van alle 18-jarigen in België",
+            "Het aantal ogen bij één worp met een dobbelsteen",
+            "De huisnummers in een lange straat",
+            "De uitkomst van kop of munt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Natuurlijke metingen zoals lengte zijn vaak klokvormig verdeeld. Een dobbelsteen geeft een uniforme verdeling."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel het voorschrift aan het soort functie.",
+          "paren": [
+            [
+              "\\(f(x) = 3x + 2\\)",
+              "lineaire functie"
+            ],
+            [
+              "\\(f(x) = 2 \\cdot 1{,}5^{x}\\)",
+              "exponentiële functie"
+            ],
+            [
+              "\\(f(x) = \\log x\\)",
+              "logaritmische functie"
+            ]
+          ],
+          "extra": [
+            "kwadratische functie"
+          ],
+          "uitleg": "Een rechte heeft een eerstegraads voorschrift, bij een exponentiële functie staat x in de exponent en log x is logaritmisch."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Rangschik deze getallen van klein naar groot.",
+          "opties": [
+            "\\(\\log 0{,}1\\)",
+            "\\(2^{0}\\)",
+            "\\(\\sqrt{9}\\)",
+            "\\(\\log_{2} 16\\)",
+            "\\(8^{\\frac{2}{3}} \\cdot 2\\)"
+          ],
+          "uitleg": "\\(\\log 0{,}1 = -1\\), \\(2^{0} = 1\\), \\(\\sqrt{9} = 3\\), \\(\\log_{2} 16 = 4\\) en \\(8^{\\frac{2}{3}} \\cdot 2 = 4 \\cdot 2 = 8\\)."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Bij exponentiële groei met 5 % per jaar is de groeifactor [[1,05]]. Bij een daling van 5 % per jaar is de groeifactor [[0,95]].",
+          "extra": [
+            "0,05",
+            "1,5"
+          ],
+          "uitleg": "Groei: 1 + 0,05. Daling: 1 − 0,05."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een bedrag van 1000 euro groeit 4 % per jaar. Na hoeveel volle jaren is het voor het eerst meer dan 1200 euro?",
+          "antwoord": [
+            "5"
+          ],
+          "uitleg": "\\(1000 \\cdot 1{,}04^{4} \\approx 1169{,}86\\) en \\(1000 \\cdot 1{,}04^{5} \\approx 1216{,}65\\). Dus na 5 jaar."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt deze rekenregel voor machten en logaritmen?",
+          "rijen": [
+            "\\(\\log(a \\cdot b) = \\log a + \\log b\\)",
+            "\\(\\log(a + b) = \\log a + \\log b\\)",
+            "\\(a^{0} = 1\\) voor elke \\(a \\neq 0\\)",
+            "\\(a^{-1} = -a\\)"
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "De logaritme van een product is de som van de logaritmen, niet bij een som. \\(a^{-1} = \\dfrac{1}{a}\\)."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Bereken: \\(\\log 50 + \\log 2\\).",
+          "antwoord": [
+            "2"
+          ],
+          "uitleg": "\\(\\log 50 + \\log 2 = \\log 100 = 2\\)."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Je trekt één kaart uit een spel van 52 kaarten. Bereken de kans.",
+          "rijen": [
+            "Een harten",
+            "Een aas",
+            "Een rode kaart"
+          ],
+          "antwoord": [
+            1,
+            0,
+            2
+          ],
+          "uitleg": "13 harten op 52 = 1/4, 4 azen op 52 = 1/13, 26 rode kaarten op 52 = 1/2.",
+          "kolommen": [
+            "1/13",
+            "1/4",
+            "1/2"
+          ]
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een lineaire functie \\(f(x) = 4x - 3\\) heeft richtingscoëfficiënt [[*4|−3|1]] en snijdt de y-as in [[*−3|4|0]].",
+          "uitleg": "In \\(f(x) = mx + q\\) is m de richtingscoëfficiënt en q het snijpunt met de y-as."
+        },
+        {
+          "type": "open",
+          "vraag": "Leg in 3 à 5 zinnen uit wat het verschil is tussen lineaire en exponentiële groei, en geef van elk een voorbeeld.",
+          "antwoord": "Bij lineaire groei komt er elke periode evenveel bij, bijvoorbeeld elke maand 20 euro sparen. De grafiek is een rechte. Bij exponentiële groei komt er elke periode hetzelfde percentage bij, bijvoorbeeld een bevolking die 2 % per jaar groeit. De grafiek wordt steeds steiler, omdat het percentage telkens op een groter bedrag berekend wordt.",
+          "uitleg": "Een goed antwoord zegt dat lineair telkens hetzelfde bedrag en exponentieel telkens hetzelfde percentage of dezelfde factor is, met een passend voorbeeld van elk."
+        }
+      ]
+    }
+  ]
+}
