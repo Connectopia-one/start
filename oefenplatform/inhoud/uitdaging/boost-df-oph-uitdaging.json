@@ -1,0 +1,557 @@
+{
+  "hoofdstukken": [
+    {
+      "titel": "Uitdaging — alles door elkaar",
+      "niveau": "boost-dubbele-finaliteit",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "Bekijk de zes observatienotities. Klik op de notitie met een veralgemening over één kind.",
+          "afbeelding_url": "/examenvormen/oph-boost-df-uitdaging/zes-notities.svg",
+          "zones": [
+            [
+              2,
+              27.1,
+              96,
+              13.7
+            ]
+          ],
+          "uitleg": "'Altijd lui' is een besluit over al het gedrag van Mehdi. Een goede notitie beschrijft wat je op één moment ziet."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de notitie met een vooroordeel over een hele groep.",
+          "afbeelding_url": "/examenvormen/oph-boost-df-uitdaging/zes-notities.svg",
+          "zones": [
+            [
+              2,
+              54.5,
+              96,
+              13.7
+            ]
+          ],
+          "uitleg": "Een vooroordeel is een mening over een groep zonder dat je de mensen kent. Een observatie moet objectief zijn."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de notitie die toekijkend spel beschrijft.",
+          "afbeelding_url": "/examenvormen/oph-boost-df-uitdaging/zes-notities.svg",
+          "zones": [
+            [
+              2,
+              68.2,
+              96,
+              13.7
+            ]
+          ],
+          "uitleg": "Bij toekijkend spel kijkt het kind hoe anderen spelen, zonder zelf mee te doen."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de notitie waarin de begeleider zijn eigen gevoel en een gok opschrijft in plaats van wat hij ziet.",
+          "afbeelding_url": "/examenvormen/oph-boost-df-uitdaging/zes-notities.svg",
+          "zones": [
+            [
+              2,
+              81.8,
+              96,
+              13.7
+            ]
+          ],
+          "uitleg": "'Ik denk' en 'vast moe' zijn geen waarneming. Een objectieve observatie beschrijft wat je ziet en hoort."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Voldoet deze notitie aan de criteria van een goede observatie?",
+          "rijen": [
+            "notitie 1",
+            "notitie 3",
+            "notitie 2"
+          ],
+          "antwoord": [
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Notities 1 en 3 beschrijven nauwkeurig en objectief wat er gebeurt. Notitie 2 is een veralgemening.",
+          "afbeelding_url": "/examenvormen/oph-boost-df-uitdaging/zes-notities.svg"
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Bekijk de zes uitspraken. Klik op de uitspraak met animisme.",
+          "afbeelding_url": "/examenvormen/oph-boost-df-uitdaging/zes-uitspraken.svg",
+          "zones": [
+            [
+              2,
+              13.4,
+              96,
+              13.7
+            ]
+          ],
+          "uitleg": "Bij animisme geeft een kleuter levenloze dingen gevoelens of een wil: de zon is moe."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de uitspraak die past bij het pre-conventionele stadium van Kohlberg.",
+          "afbeelding_url": "/examenvormen/oph-boost-df-uitdaging/zes-uitspraken.svg",
+          "zones": [
+            [
+              2,
+              27.1,
+              96,
+              13.7
+            ]
+          ],
+          "uitleg": "In het pre-conventionele stadium tellen straf en beloning: ik doe het niet, want dan krijg ik straf."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de uitspraak die hypothetisch denken toont.",
+          "afbeelding_url": "/examenvormen/oph-boost-df-uitdaging/zes-uitspraken.svg",
+          "zones": [
+            [
+              2,
+              54.5,
+              96,
+              13.7
+            ]
+          ],
+          "uitleg": "Hypothetisch denken is redeneren over wat zou kunnen: 'wat als ...?'. Dat hoort bij het formeel-operationele stadium."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de uitspraak die egocentrisme toont.",
+          "afbeelding_url": "/examenvormen/oph-boost-df-uitdaging/zes-uitspraken.svg",
+          "zones": [
+            [
+              2,
+              81.8,
+              96,
+              13.7
+            ]
+          ],
+          "uitleg": "Een kleuter kent alleen zijn eigen kijk: wat hij niet ziet, ziet een ander volgens hem ook niet."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Uitspraak 3 toont dat het kind de [[*conservatie|objectpermanentie|animisme]] begrijpt. Uitspraak 5 past bij het [[*conventionele|post-conventionele]] stadium.",
+          "uitleg": "Een hoeveelheid blijft gelijk als de vorm verandert: dat is conservatie. Je houden aan de regels omdat het zo hoort, is conventioneel.",
+          "afbeelding_url": "/examenvormen/oph-boost-df-uitdaging/zes-uitspraken.svg"
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Bij welke determinant van Lalonde hoort dit?",
+          "kolommen": [
+            "biologische factoren",
+            "omgeving",
+            "leefstijl",
+            "voorzieningen"
+          ],
+          "items": [
+            [
+              "erfelijke aanleg voor diabetes",
+              "biologische factoren"
+            ],
+            [
+              "een woning in een buurt met veel fijn stof",
+              "omgeving"
+            ],
+            [
+              "elke dag roken",
+              "leefstijl"
+            ],
+            [
+              "een huisarts in de buurt",
+              "voorzieningen"
+            ]
+          ],
+          "uitleg": "Lalonde onderscheidt vier determinanten. Alleen de leefstijl kan je zelf het meest veranderen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Iemand kan koken en heeft alles in huis, maar heeft geen zin. Wat ontbreekt volgens het gedragswiel?",
+          "opties": [
+            "De drijfveren, zoals motivatie en gewoonten",
+            "De competenties, want die persoon kan niet koken",
+            "De context, want er is niets in huis om te koken",
+            "De biologische factoren, zoals erfelijke aanleg"
+          ],
+          "antwoord": 0,
+          "uitleg": "Wie het kan (competenties) en alles heeft (context), maar niet wil, mist drijfveren."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "De geluksdriehoek heeft [[*drie|vier|vijf]] bouwstenen. Wie zonder opleiding voor een ziek familielid zorgt, is een [[*mantelzorger|beroepskracht]].",
+          "uitleg": "Goed omringd zijn, je goed voelen en jezelf kunnen zijn. Een mantelzorger zorgt onbetaald voor iemand uit zijn omgeving."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet de levensloopfasen van een kind in de juiste volgorde.",
+          "opties": [
+            "baby",
+            "peuter",
+            "kleuter",
+            "midden-kindertijd",
+            "adolescentie"
+          ],
+          "uitleg": "Na de kleuter komt de midden-kindertijd (lagere school), daarna de adolescentie."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel de levensfase aan het conflict van Erikson.",
+          "paren": [
+            [
+              "baby",
+              "vertrouwen tegenover wantrouwen"
+            ],
+            [
+              "peuter",
+              "autonomie tegenover twijfel en schaamte"
+            ],
+            [
+              "adolescent",
+              "identiteit tegenover identiteitsverwarring"
+            ]
+          ],
+          "extra": [
+            "generativiteit tegenover stagnatie"
+          ],
+          "uitleg": "Erikson koppelt elke fase aan een conflict. Generativiteit hoort bij de volwassenheid."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Hoort deze beweging van een jong kind bij de grove of bij de fijne motoriek?",
+          "rijen": [
+            "leren lopen",
+            "de pincetgreep",
+            "een bal wegtrappen",
+            "met een schaar knippen"
+          ],
+          "antwoord": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "uitleg": "Grove motoriek zijn grote bewegingen van armen, benen en romp. Fijne motoriek zijn precieze bewegingen van hand en vingers.",
+          "kolommen": [
+            "grof",
+            "fijn"
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over de ontwikkeling?",
+          "rijen": [
+            "De ontwikkeling gaat van grof naar fijn.",
+            "Babyreflexen blijven je hele leven bestaan.",
+            "Een groeispurt kan voor een tiener moeilijk zijn."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true
+          ],
+          "uitleg": "De meeste babyreflexen verdwijnen na enkele maanden. Een groeispurt kan onhandig en onzeker maken."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een baby die weet dat een verstopt speeltje nog bestaat, heeft [[*objectpermanentie|conservatie]]. Een kind dat stokjes op lengte legt, doet aan [[*seriatie|classificatie]].",
+          "uitleg": "Objectpermanentie ontstaat in het sensomotorische stadium. Ordenen op grootte heet seriatie."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een kind is veilig gehecht. Wat zie je meestal?",
+          "opties": [
+            "Het verkent de wereld en zoekt troost bij zijn zorgfiguur",
+            "Het kind negeert zijn zorgfiguur als die vertrekt en terugkomt",
+            "Het kind klampt zich vast en durft nooit van zijn zorgfiguur weg",
+            "Het kind is bang voor iedereen, ook voor zijn eigen zorgfiguur"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een veilig gehecht kind gebruikt zijn zorgfiguur als veilige basis: het gaat op ontdekking en keert terug als het troost nodig heeft."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Ouders die zorgen voor hun kinderen én voor hun eigen ouders, horen bij de [[*sandwichgeneratie|peergroep]]. Verouderen door roken en weinig beweging is [[*secundair|primair]] verouderen.",
+          "uitleg": "De sandwichgeneratie zit tussen twee generaties in. Secundair verouderen hangt samen met leefstijl en omgeving."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over waarnemen en observeren in de kinderopvang?",
+          "rijen": [
+            "Bij een bedekte observatie weet de persoon niet dat hij bekeken wordt.",
+            "Een observatieschema gebruik je als je nog geen doel hebt.",
+            "Door gewenning merk je een prikkel na een tijd minder op."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Een schema vraagt een doel vooraf: dan weet je waarop je let. Gewenning maakt dat je een blijvende prikkel minder opmerkt."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Wat je op het werk te weten komt, valt onder het [[beroepsgeheim]]. Regels die uit waarden volgen, heten [[normen]].",
+          "extra": [
+            "vooroordeel",
+            "behoeften"
+          ],
+          "uitleg": "Over wat je op het werk hoort, zwijg je tegenover buitenstaanders. Normen zijn de regels die uit waarden komen."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet de behoeften van Maslow in volgorde, van onderaan de piramide naar boven.",
+          "opties": [
+            "fysieke behoeften",
+            "zekerheid",
+            "sociaal contact",
+            "erkenning",
+            "zelfactualisatie"
+          ],
+          "uitleg": "Onderaan staan eten, drinken en slapen. Pas als de lagere behoeften vervuld zijn, komen de hogere aan de beurt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een kind komt zonder ontbijt naar school en kan zich niet concentreren. Hoe verklaar je dat met Maslow?",
+          "opties": [
+            "Een fysieke behoefte gaat voor op leren",
+            "Het kind heeft vooral nood aan meer erkenning",
+            "Het kind zit al op het niveau van zelfactualisatie",
+            "Leren hoort bij de onderste laag van de piramide"
+          ],
+          "antwoord": 0,
+          "uitleg": "De onderste laag eist eerst aandacht. Met honger lukt leren niet goed."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel de letter van de LSD-methode aan wat je doet.",
+          "paren": [
+            [
+              "L",
+              "actief luisteren met je houding en kleine aanmoedigingen"
+            ],
+            [
+              "S",
+              "in je eigen woorden herhalen wat je begrepen hebt"
+            ],
+            [
+              "D",
+              "open vragen en gevoelsvragen stellen"
+            ]
+          ],
+          "extra": [
+            "een oplossing opleggen"
+          ],
+          "uitleg": "Luisteren, Samenvatten, Doorvragen."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet de vier G's van het 4G-model in de juiste volgorde.",
+          "opties": [
+            "gedrag",
+            "gevoel",
+            "gevolg",
+            "gewenst gedrag"
+          ],
+          "uitleg": "Je benoemt eerst het gedrag, dan je gevoel en het gevolg, en tot slot het gewenste gedrag."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Welke stap van verbindend communiceren is dit?",
+          "kolommen": [
+            "waarneming",
+            "gevoel",
+            "behoefte",
+            "verzoek"
+          ],
+          "items": [
+            [
+              "'Ik zie dat de blokken over de vloer liggen.'",
+              "waarneming"
+            ],
+            [
+              "'Ik word daar zenuwachtig van.'",
+              "gevoel"
+            ],
+            [
+              "'Ik wil dat niemand erover valt.'",
+              "behoefte"
+            ],
+            [
+              "'Wil je ze in de bak leggen?'",
+              "verzoek"
+            ]
+          ],
+          "uitleg": "Verbindend communiceren begint bij wat je waarneemt, en eindigt met een verzoek waarop de ander ook nee mag zeggen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin is een ik-boodschap?",
+          "opties": [
+            "'Ik schrik als je zo hard roept.'",
+            "'Jij roept altijd veel te hard.'",
+            "'Waarom moet jij weer zo roepen?'",
+            "'Iedereen vindt je roepen vervelend.'"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een ik-boodschap vertelt wat het gedrag met jou doet, zonder de ander aan te vallen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welke soort spel is dit?",
+          "rijen": [
+            "Twee peuters bouwen naast elkaar elk hun eigen toren.",
+            "Kinderen verdelen rollen en bouwen samen één kamp.",
+            "Een kleuter doet alsof de stoel een auto is."
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Parallel spel is naast elkaar, coöperatief spel is samen naar één doel. Doen-alsof-spel komt uit het symbolisch denken.",
+          "kolommen": [
+            "parallel",
+            "coöperatief",
+            "doen-alsof"
+          ]
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een lied zingen hoort bij [[*muzikale|manuele]] expressie. Een rol spelen hoort bij [[*dramatische|muzikale]] expressie.",
+          "uitleg": "Bij muzikale expressie gebruik je klank en ritme. Bij dramatische expressie speel je een rol."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Is dit een ADL-activiteit of een vrijetijdsactiviteit voor een bewoner?",
+          "kolommen": [
+            "ADL",
+            "vrije tijd"
+          ],
+          "items": [
+            [
+              "zich wassen",
+              "ADL"
+            ],
+            [
+              "een kaartspel spelen",
+              "vrije tijd"
+            ],
+            [
+              "zich aankleden",
+              "ADL"
+            ],
+            [
+              "samen naar muziek luisteren",
+              "vrije tijd"
+            ]
+          ],
+          "uitleg": "ADL zijn de activiteiten van het dagelijks leven, zoals wassen, aankleden en eten."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel stadia onderscheidt Piaget? Een getal.",
+          "antwoord": [
+            "4",
+            "vier"
+          ],
+          "uitleg": "Sensomotorisch, pre-operationeel, concreet-operationeel en formeel-operationeel."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarin verschilt ouderdomsvergeetachtigheid van dementie?",
+          "opties": [
+            "Bij vergeetachtigheid leid je je leven gewoon verder",
+            "Vergeetachtigheid komt alleen voor bij jonge volwassenen",
+            "Dementie gaat na enkele weken vanzelf weer helemaal over",
+            "Er is geen verschil, het zijn twee woorden voor hetzelfde"
+          ],
+          "antwoord": 0,
+          "uitleg": "Wie vergeetachtig is, vergeet soms iets maar functioneert verder. Dementie is een ziekte die het dagelijks leven steeds meer verstoort."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over respectvol omgaan en rapporteren?",
+          "rijen": [
+            "Interne rapportering blijft binnen de eigen werking.",
+            "Informatie over een kind deel je met iedereen die ernaar vraagt.",
+            "Gevoelige onderwerpen vermijd je het best helemaal."
+          ],
+          "antwoord": [
+            true,
+            false,
+            false
+          ],
+          "uitleg": "Informatie deel je alleen met wie ze nodig heeft voor de zorg. Een gevoelig onderwerp benader je met respect, je vermijdt het niet."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een peergroep bestaat uit [[*leeftijdsgenoten|familieleden]]. Als vrienden je aanzetten om meer te studeren, is dat [[*positieve|negatieve]] groepsdruk.",
+          "uitleg": "Een peergroep is een groep leeftijdsgenoten. Groepsdruk kan ook goede gevolgen hebben."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Snel en juist reageren op de signalen van een baby heet [[sensitieve responsiviteit]]. Angst voor vreemden begint meestal rond [[acht maanden]].",
+          "extra": [
+            "drie jaar",
+            "gewenning"
+          ],
+          "uitleg": "Sensitieve responsiviteit legt de basis voor een veilige gehechtheid. Rond acht maanden herkent een baby wie vreemd is."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom bied je in een kinderopvang verschillende soorten activiteiten aan?",
+          "opties": [
+            "Zo spreek je meer ervaringsgebieden en interesses aan",
+            "Zo hoeven de kinderen nooit meer zelf te kiezen wat ze doen",
+            "Zo is er helemaal geen tijd meer over voor vrij spel tussendoor",
+            "Zo leren alle kinderen precies hetzelfde op hetzelfde moment"
+          ],
+          "antwoord": 0,
+          "uitleg": "Elk kind is anders. Met een gevarieerd aanbod komen beweging, expressie, taal en samenspel allemaal aan bod."
+        },
+        {
+          "casus": "In een woonzorgcentrum heeft mevrouw Peeters (82) last van haar handen. Ze knoopt haar bloes niet meer zelf dicht. Ze zit vaak alleen op haar kamer en zegt: 'Ik doe er toch niet meer toe.' Haar dochter komt elke dag na het werk langs en zorgt ook nog voor haar eigen kinderen.",
+          "vragen": [
+            {
+              "type": "meerkeuze",
+              "vraag": "Welke activiteit past het best om de handen van mevrouw Peeters soepel te houden?",
+              "opties": [
+                "Een functiebehoudende activiteit met haar handen",
+                "Een activiteit die iets volledig nieuws aanleert",
+                "Een activiteit waar ze enkel naar kijkt, zonder doen",
+                "Geen activiteit, zodat haar handen rusten"
+              ],
+              "antwoord": 0,
+              "uitleg": "Een functiebehoudende activiteit houdt in stand wat iemand nog kan."
+            },
+            {
+              "type": "tabel",
+              "vraag": "Klopt dit over de casus?",
+              "rijen": [
+                "De dochter hoort bij de sandwichgeneratie.",
+                "Mevrouw Peeters heeft nood aan sociaal contact en erkenning.",
+                "Haar bloes zelf dichtknopen is een vrijetijdsactiviteit."
+              ],
+              "antwoord": [
+                true,
+                true,
+                false
+              ],
+              "uitleg": "De dochter zorgt voor haar moeder en haar kinderen. 'Ik doe er niet meer toe' wijst op een tekort aan contact en erkenning. Aankleden is een ADL-activiteit."
+            }
+          ]
+        },
+        {
+          "type": "open",
+          "vraag": "Beschrijf een activiteit die je met mevrouw Peeters en twee andere bewoners kan doen. Leg uit aan welke behoefte ze tegemoetkomt en hoe je zorgt dat het veilig en haalbaar blijft.",
+          "antwoord": "Ik bak samen met mevrouw Peeters en twee andere bewoners koekjes. Ze werkt het deeg met haar handen, wat die soepel houdt, en ze praat met de anderen. Zo kom ik tegemoet aan haar behoefte aan sociaal contact en erkenning, want het resultaat delen we in de leefruimte. Ik kies een stevige tafel, zet het materiaal binnen handbereik en neem zelf de oven voor mijn rekening.",
+          "uitleg": "Een goed antwoord beschrijft een concrete activiteit, koppelt die aan een behoefte (sociaal contact, erkenning, functiebehoud) en noemt een maatregel voor veiligheid of haalbaarheid."
+        }
+      ]
+    }
+  ]
+}
