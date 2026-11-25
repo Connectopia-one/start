@@ -43,7 +43,7 @@ export const updates: Update[] = [
     datum: "25 november 2026",
     titel: "Uitdaging van 40 vragen in Boost en Beyond",
     tekst:
-      "Elk vak in Boost en Beyond krijgt een uitdaging: 40 vragen die alle hoofdstukken door elkaar halen, net als op een echt examen. Je leest teksten en grafieken, klikt op prenten, vult tabellen in, sleept woorden op hun plaats en schrijft af en toe zelf een kort antwoord. Klaar: Nederlands, Wiskunde, Chemie, Fysica, Filosofie en recht, Aardrijkskunde, Biologie, Sociale en gedragswetenschappen, Engels, Frans, Economie, Statistiek, Wiskunde basis, Geschiedenis, Bedrijfswetenschappen en recht, Samenleving en economie en Natuurwetenschappen in Beyond doorstroom, Aardrijkskunde, Engels, Frans, Geschiedenis, Natuurwetenschappen, Nederlands en Wiskunde in Beyond dubbele finaliteit, Wiskunde, Natuurwetenschappen, Fysica, Geschiedenis, Aardrijkskunde, Biologie, Chemie, Economie, Engels, Frans, Kunstbeschouwing en filosofie, Nederlands, Sociale en gedragswetenschappen en Wiskunde basis in Boost doorstroom en Nederlands, Wiskunde, Natuurwetenschappen, Geschiedenis, Economie en bedrijfswetenschappen, Aardrijkskunde, Engels, Frans, Gezondheid, zorg en welzijn en Ontwikkeling en pedagogisch handelen in Boost dubbele finaliteit. De andere vakken volgen.",
+      "Elk vak in Boost en Beyond, zowel doorstroom als dubbele finaliteit, heeft nu een extra hoofdstuk Uitdaging: 40 vragen die alle hoofdstukken van dat vak door elkaar halen, net als op een echt examen. Je leest teksten, tabellen en grafieken, klikt op prenten, vult tabellen in, sleept woorden op hun plaats en schrijft af en toe zelf een kort antwoord. Zo oefen je of je de hele leerstof echt beheerst.",
   },
   {
     datum: "25 november 2026",

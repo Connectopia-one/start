@@ -1,0 +1,548 @@
+{
+  "hoofdstukken": [
+    {
+      "titel": "Uitdaging — alles door elkaar",
+      "niveau": "boost-dubbele-finaliteit",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "Bekijk het rekenblad. Klik op de cel waarin het btw-tarief staat.",
+          "afbeelding_url": "/examenvormen/te-boost-df-uitdaging/rekenblad-bestelling.svg",
+          "zones": [
+            [
+              75.0,
+              35.8,
+              15.0,
+              8.4
+            ]
+          ],
+          "uitleg": "Het btw-tarief staat in cel F2: 21%."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de cel waarin de formule =SOM(D2:D4) staat.",
+          "afbeelding_url": "/examenvormen/te-boost-df-uitdaging/rekenblad-bestelling.svg",
+          "zones": [
+            [
+              55.0,
+              61.0,
+              15.0,
+              8.4
+            ]
+          ],
+          "uitleg": "De som van de totalen van de drie artikels staat in D5: 20 + 20 + 10 = 50."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de plaats waar je ziet welke cel geselecteerd is.",
+          "afbeelding_url": "/examenvormen/te-boost-df-uitdaging/rekenblad-bestelling.svg",
+          "zones": [
+            [
+              4.0,
+              13.5,
+              12.0,
+              7.7
+            ]
+          ],
+          "uitleg": "Het naamvak links van de formulebalk toont het adres van de geselecteerde cel: D2."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de plaats waar je de formule van de geselecteerde cel leest.",
+          "afbeelding_url": "/examenvormen/te-boost-df-uitdaging/rekenblad-bestelling.svg",
+          "zones": [
+            [
+              22.0,
+              13.5,
+              74.0,
+              7.7
+            ]
+          ],
+          "uitleg": "In de formulebalk staat de formule: =B2*C2. In de cel zelf zie je alleen de uitkomst."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de cel waarin een absolute verwijzing nodig is in de formule, omdat ze naar het btw-tarief verwijst.",
+          "afbeelding_url": "/examenvormen/te-boost-df-uitdaging/rekenblad-bestelling.svg",
+          "zones": [
+            [
+              55.0,
+              69.4,
+              15.0,
+              8.4
+            ]
+          ],
+          "uitleg": "In D6 bereken je de btw: =D5*$F$2. Het btw-tarief staat in één vaste cel, daarom zet je die vast."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Als je de formule van D2 met de vulgreep naar D3 sleept, verwijst ze naar [[*B3 en C3|B2 en C2|B4 en C4]]. Dat komt doordat B2 en C2 [[*relatieve|absolute]] verwijzingen zijn.",
+          "uitleg": "Een relatieve verwijzing schuift mee bij het kopiëren. Een absolute verwijzing met dollartekens blijft staan.",
+          "afbeelding_url": "/examenvormen/te-boost-df-uitdaging/rekenblad-bestelling.svg"
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Bereken het totaal inclusief btw in euro als de prijs van de mappen 10,00 wordt in plaats van 5,00. Een getal.",
+          "antwoord": [
+            "72,60",
+            "72,6"
+          ],
+          "uitleg": "D4 wordt 2 × 10 = 20. Totaal excl. btw = 20 + 20 + 20 = 60. Btw = 60 × 0,21 = 12,60. Totaal = 72,60.",
+          "afbeelding_url": "/examenvormen/te-boost-df-uitdaging/rekenblad-bestelling.svg"
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Bekijk de zes verrichtingen. Klik op de verrichting waarbij 604 Aankopen handelsgoederen in debet komt.",
+          "afbeelding_url": "/examenvormen/te-boost-df-uitdaging/zes-verrichtingen.svg",
+          "zones": [
+            [
+              2,
+              13.4,
+              96,
+              13.7
+            ]
+          ],
+          "uitleg": "Bij een aankoop van handelsgoederen stijgt de kost 604 in debet. De schuld bij 440 Leveranciers stijgt in credit."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de verrichting waarbij 400 Handelsdebiteuren in debet komt.",
+          "afbeelding_url": "/examenvormen/te-boost-df-uitdaging/zes-verrichtingen.svg",
+          "zones": [
+            [
+              2,
+              40.8,
+              96,
+              13.7
+            ]
+          ],
+          "uitleg": "Bij een verkoop op krediet krijg je een vordering op de klant: 400 Handelsdebiteuren stijgt in debet."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de eindejaarsverrichting.",
+          "afbeelding_url": "/examenvormen/te-boost-df-uitdaging/zes-verrichtingen.svg",
+          "zones": [
+            [
+              2,
+              68.2,
+              96,
+              13.7
+            ]
+          ],
+          "uitleg": "De afschrijving van een vast actief boek je op het einde van het boekjaar."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de verrichting waarbij de omzet niet verandert, maar 550 Kredietinstellingen in debet komt.",
+          "afbeelding_url": "/examenvormen/te-boost-df-uitdaging/zes-verrichtingen.svg",
+          "zones": [
+            [
+              2,
+              27.1,
+              96,
+              13.7
+            ]
+          ],
+          "uitleg": "Als een klant betaalt, stijgt de bank in debet en daalt de vordering 400 in credit. De verkoop was al geboekt."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Bij verrichting 6 komt [[*570 Kassen|550 Kredietinstellingen]] in debet. Verrichting 4 boek je [[*omgekeerd aan|op dezelfde manier als]] de factuur.",
+          "uitleg": "Het geld gaat naar de kas: 570 stijgt in debet, 550 daalt in credit. Een creditnota boek je omgekeerd aan de factuur.",
+          "afbeelding_url": "/examenvormen/te-boost-df-uitdaging/zes-verrichtingen.svg"
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Hoort deze post bij het actief of bij het passief van de balans?",
+          "kolommen": [
+            "actief",
+            "passief"
+          ],
+          "items": [
+            [
+              "een machine",
+              "actief"
+            ],
+            [
+              "het eigen vermogen",
+              "passief"
+            ],
+            [
+              "het tegoed op de bank",
+              "actief"
+            ],
+            [
+              "een schuld bij een leverancier",
+              "passief"
+            ],
+            [
+              "een vordering op een klant",
+              "actief"
+            ]
+          ],
+          "uitleg": "Het actief toont wat de onderneming bezit en tegoed heeft. Het passief toont waar het geld vandaan komt: eigen vermogen en schulden."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over de balans en de resultatenrekening?",
+          "rijen": [
+            "De aankoop van een machine is een kost in de resultatenrekening.",
+            "De winst van het boekjaar staat bij het eigen vermogen.",
+            "Een opbrengst stijgt in credit.",
+            "Het bedrag in debet mag verschillen van het bedrag in credit."
+          ],
+          "antwoord": [
+            false,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Een machine is een vast actief; ze wordt over meerdere jaren afgeschreven. Bij elke boeking zijn debet en credit even groot."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een machine van 20 000 euro wordt vijf jaar lang aan 4 000 euro per jaar afgeschreven. Wat is de boekwaarde na twee jaar, in euro? Een getal.",
+          "antwoord": [
+            "12000",
+            "12 000",
+            "12.000"
+          ],
+          "uitleg": "Na twee jaar is er 2 × 4 000 = 8 000 afgeschreven. Boekwaarde = 20 000 − 8 000 = 12 000."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Grond wordt [[*niet|wel]] afgeschreven. Een rekening met een debetsaldo heeft meer in [[*debet|credit]] dan in credit.",
+          "uitleg": "Grond verliest geen waarde door gebruik. Een debetsaldo betekent dat de debetkant groter is."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel het rekeningnummer aan de naam.",
+          "paren": [
+            [
+              "604",
+              "Aankopen handelsgoederen"
+            ],
+            [
+              "700",
+              "Verkopen handelsgoederen"
+            ],
+            [
+              "440",
+              "Leveranciers"
+            ],
+            [
+              "550",
+              "Kredietinstellingen"
+            ]
+          ],
+          "extra": [
+            "Personeelskosten"
+          ],
+          "uitleg": "Klasse 6 zijn kosten, klasse 7 opbrengsten, klasse 4 vorderingen en schulden op korte termijn, klasse 5 geldmiddelen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Een aankoopfactuur: handelsgoederen 1 000 euro plus 210 euro btw, op krediet. Klopt deze boeking?",
+          "rijen": [
+            "604 Aankopen handelsgoederen in debet: 1 000",
+            "De aftrekbare btw in debet: 210",
+            "440 Leveranciers in credit: 1 210",
+            "700 Verkopen handelsgoederen in credit: 1 000"
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Bij een aankoop staan de kost en de aftrekbare btw in debet, de schuld bij de leverancier in credit. Rekening 700 hoort bij een verkoop."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een factuur van 800 euro krijgt 10 procent handelskorting. Daarna komt er 21 procent btw bij. Hoeveel btw is dat, in euro? Een getal.",
+          "antwoord": [
+            "151,20",
+            "151,2"
+          ],
+          "uitleg": "800 − 80 = 720. De btw wordt berekend op het bedrag na korting: 720 × 0,21 = 151,20."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet de documenten van een aankoop in de gewone volgorde.",
+          "opties": [
+            "offerte",
+            "bestelbon",
+            "leverbon",
+            "aankoopfactuur"
+          ],
+          "uitleg": "Je vraagt een prijs (offerte), bestelt, ontvangt de goederen met een leverbon en krijgt daarna de factuur."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een bakker betaalt 6 euro btw op bloem en rekent 18 euro btw aan op brood. Hoeveel euro btw stort hij door aan de staat? Een getal.",
+          "antwoord": [
+            "12"
+          ],
+          "uitleg": "Verschuldigde btw min aftrekbare btw: 18 − 6 = 12 euro."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over btw?",
+          "rijen": [
+            "Btw is een belasting op de winst van een onderneming.",
+            "Het standaardtarief in België is 21 procent.",
+            "De handelskorting wordt na de btw afgetrokken."
+          ],
+          "antwoord": [
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Btw is een belasting op het verbruik, geïnd door de onderneming voor de staat. De korting gaat eraf vóór de btw berekend wordt."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een uitgaande creditnota stuurt de [[*verkoper|klant]]. Op een creditnota staat [[*ook|geen]] btw.",
+          "uitleg": "De verkoper corrigeert met een creditnota een factuur. De btw wordt mee verminderd."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een klant betaalt zijn factuur van 605 euro via de bank. Wat gebeurt er met de omzet?",
+          "opties": [
+            "Niets, de verkoop was al geboekt bij de factuur",
+            "De omzet stijgt opnieuw met 605 euro bij de betaling",
+            "De omzet daalt met 605 euro, want de vordering verdwijnt",
+            "De omzet stijgt met de btw, want die is nu betaald"
+          ],
+          "antwoord": 0,
+          "uitleg": "De opbrengst boek je bij de factuur. Bij de betaling stijgt de bank en daalt de vordering op de klant."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "De jaarrekening bestaat onder meer uit de balans en de [[*resultatenrekening|proefbalans]]. Als de kosten groter zijn dan de opbrengsten, maakt de onderneming [[*verlies|winst]].",
+          "uitleg": "De jaarrekening toont de toestand (balans) en het resultaat van het boekjaar. Kosten groter dan opbrengsten geeft verlies."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over afdrukken en scannen?",
+          "rijen": [
+            "Dubbelzijdig afdrukken halveert het aantal bladen.",
+            "Afdrukken naar pdf gebruikt inkt.",
+            "In de afdrukwachtrij zie je welke opdrachten nog wachten."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Afdrukken naar pdf maakt een bestand, er komt geen papier of inkt aan te pas."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel de sneltoets aan wat hij doet.",
+          "paren": [
+            [
+              "ctrl + c",
+              "kopiëren"
+            ],
+            [
+              "ctrl + v",
+              "plakken"
+            ],
+            [
+              "ctrl + x",
+              "knippen"
+            ],
+            [
+              "ctrl + a",
+              "alles selecteren"
+            ]
+          ],
+          "extra": [
+            "afdrukken op beide zijden"
+          ],
+          "uitleg": "Sneltoetsen laten je sneller werken zonder de muis."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over tekstverwerking?",
+          "rijen": [
+            "Een kop- en voettekst herhaalt zich op elke bladzijde van de sectie.",
+            "Een sjabloon en een stijl zijn hetzelfde.",
+            "Een tab is iets anders dan een reeks spaties."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Een stijl geeft opmaak aan tekst. Een sjabloon is een volledig basisdocument."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk schema toont de structuur van een onderneming, met wie onder wie werkt?",
+          "opties": [
+            "Een organogram",
+            "Een cirkeldiagram",
+            "Een storyboard",
+            "Een kolomgrafiek"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een organogram toont de afdelingen en de lijnen van wie verantwoordelijk is voor wie."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel de functie aan wat ze doet.",
+          "paren": [
+            [
+              "SOM",
+              "telt de getallen op"
+            ],
+            [
+              "GEMIDDELDE",
+              "berekent het gemiddelde"
+            ],
+            [
+              "MIN",
+              "geeft het kleinste getal"
+            ],
+            [
+              "ALS",
+              "kiest een uitkomst volgens een voorwaarde"
+            ]
+          ],
+          "extra": [
+            "sorteert de kolom"
+          ],
+          "uitleg": "Functies schrijf je met de argumenten tussen haakjes, bijvoorbeeld =SOM(B2:B10)."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een cel vol hekjes betekent dat de kolom te [[*smal|breed]] is. Een formule begint altijd met een [[*isgelijkteken|dollarteken]].",
+          "uitleg": "Hekjes verschijnen als het getal niet in de cel past. Elke formule start met =."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je wil tonen hoe de omzet van een winkel elke maand evolueerde. Welke grafiek kies je?",
+          "opties": [
+            "Een lijngrafiek",
+            "Een cirkeldiagram",
+            "Een organogram",
+            "Een tabel met randen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een lijngrafiek toont een evolutie in de tijd. Een cirkeldiagram toont de verdeling van een geheel."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over grafieken?",
+          "rijen": [
+            "Een grafiek zonder titel laat de lezer gissen.",
+            "Een cirkeldiagram past bij twintig categorieën.",
+            "Een grafiek volgt de cijfers in het blad."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Met te veel categorieën wordt een cirkeldiagram onleesbaar. Verander je de cijfers in het blad, dan past de grafiek zich aan."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Bij welk soort bestand hoort deze extensie?",
+          "kolommen": [
+            "tekstdocument",
+            "rekenblad",
+            "pdf"
+          ],
+          "items": [
+            [
+              ".docx",
+              "tekstdocument"
+            ],
+            [
+              ".xlsx",
+              "rekenblad"
+            ],
+            [
+              ".pdf",
+              "pdf"
+            ]
+          ],
+          "uitleg": "De extensie zegt welk soort bestand het is."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een scan zonder [[*tekenherkenning|kleur]] is een afbeelding waarin je niet kan zoeken. Een kopie van je bestanden op een andere plaats heet een [[*back-up|sjabloon]].",
+          "uitleg": "Met tekenherkenning (OCR) wordt de tekst doorzoekbaar. Een back-up beschermt tegen verlies."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over een databank?",
+          "rijen": [
+            "Twee records mogen dezelfde primaire sleutel hebben.",
+            "Een veld bevat één soort gegeven, zoals de postcode.",
+            "Met een query zoek je gegevens op die aan voorwaarden voldoen."
+          ],
+          "antwoord": [
+            false,
+            true,
+            true
+          ],
+          "uitleg": "De primaire sleutel maakt elk record uniek. Een query vraagt gegevens op."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Bij een presentatie volg je het [[KISS]]-principe: houd het kort en eenvoudig. Voor je dia's maakt, teken je een [[storyboard]].",
+          "extra": [
+            "organogram",
+            "MAR"
+          ],
+          "uitleg": "KISS betekent: keep it short and simple. Een storyboard plant de volgorde van je dia's."
+        },
+        {
+          "casus": "Handelszaak Pluim verkoopt op 3 maart op krediet 50 dozen pennen aan 8 euro per doos aan klant Schoolshop. Er is 10 procent handelskorting en 21 procent btw.",
+          "vragen": [
+            {
+              "type": "invultekst",
+              "vraag": "Wat is het bedrag van de factuur inclusief btw, in euro? Een getal.",
+              "antwoord": [
+                "435,60",
+                "435,6"
+              ],
+              "uitleg": "50 × 8 = 400. Korting 40, dus 360. Btw = 360 × 0,21 = 75,60. Totaal = 435,60."
+            },
+            {
+              "type": "tabel",
+              "vraag": "Hoe boekt Pluim deze verkoopfactuur?",
+              "rijen": [
+                "400 Handelsdebiteuren",
+                "700 Verkopen handelsgoederen",
+                "de te betalen btw"
+              ],
+              "antwoord": [
+                0,
+                1,
+                1
+              ],
+              "uitleg": "De klant moet het totaal betalen: 400 in debet. De verkoop (360) en de te betalen btw (75,60) staan in credit.",
+              "kolommen": [
+                "debet",
+                "credit"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "open",
+          "vraag": "Pluim wil de verkopen van elke maand opvolgen in een rekenblad. Beschrijf hoe je dat blad opbouwt: welke kolommen, welke formules en welke grafiek je kiest. Leg kort uit waarom.",
+          "antwoord": "Kolom A: de maand, kolom B: de omzet zonder btw, kolom C: de btw met =B2*$F$1 (het btw-tarief in F1), kolom D: het totaal met =B2+C2. Onderaan zet ik =SOM(B2:B13) en =GEMIDDELDE(B2:B13). Ik kies een lijngrafiek van kolom B, met een titel en asbenamingen, want zo zie je de evolutie over het jaar.",
+          "uitleg": "Een goed antwoord noemt duidelijke kolommen, gebruikt passende formules (SOM, GEMIDDELDE, een absolute verwijzing naar het btw-tarief) en kiest een lijngrafiek voor een evolutie."
+        }
+      ]
+    }
+  ]
+}
