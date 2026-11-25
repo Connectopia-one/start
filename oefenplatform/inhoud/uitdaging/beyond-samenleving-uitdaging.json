@@ -1,0 +1,577 @@
+{
+  "hoofdstukken": [
+    {
+      "titel": "Uitdaging — alles door elkaar",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "Bekijk de loonbrief. Klik op het bedrag dat Sara echt op haar rekening krijgt.",
+          "afbeelding_url": "/examenvormen/samenleving-beyond-uitdaging/loonbrief.svg",
+          "zones": [
+            [
+              2,
+              68.2,
+              96,
+              13.7
+            ]
+          ],
+          "uitleg": "Het nettoloon is wat overblijft na de RSZ-bijdrage en de bedrijfsvoorheffing: 2067,90 euro."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de inhouding die de sociale zekerheid financiert.",
+          "afbeelding_url": "/examenvormen/samenleving-beyond-uitdaging/loonbrief.svg",
+          "zones": [
+            [
+              2,
+              27.1,
+              96,
+              13.7
+            ]
+          ],
+          "uitleg": "De persoonlijke RSZ-bijdrage van 13,07 % gaat naar de sociale zekerheid: pensioenen, ziekteverzekering, werkloosheid, ..."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de regel die Sara later verrekent bij haar jaarlijkse belastingaangifte.",
+          "afbeelding_url": "/examenvormen/samenleving-beyond-uitdaging/loonbrief.svg",
+          "zones": [
+            [
+              2,
+              54.5,
+              96,
+              13.7
+            ]
+          ],
+          "uitleg": "De bedrijfsvoorheffing is een voorschot op de personenbelasting. Bij de belastingaangifte wordt afgerekend."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over de loonbrief?",
+          "rijen": [
+            "Belastbaar loon = brutoloon − RSZ-bijdrage",
+            "Maaltijdcheques zijn een extralegaal voordeel.",
+            "De werkgever betaalt geen eigen RSZ-bijdragen bovenop het brutoloon.",
+            "Het nettoloon is meestal hoger dan het brutoloon."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            false
+          ],
+          "uitleg": "3000 − 392,10 = 2607,90. Maaltijdcheques krijg je bovenop het loon. De werkgever betaalt ook nog werkgeversbijdragen; die staan niet op deze vereenvoudigde brief.",
+          "afbeelding_url": "/examenvormen/samenleving-beyond-uitdaging/loonbrief.svg"
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel procent van haar brutoloon houdt Sara netto over? Rond af op een geheel getal.",
+          "antwoord": [
+            "69"
+          ],
+          "uitleg": "2067,90 / 3000 · 100 ≈ 68,9, afgerond 69 %.",
+          "afbeelding_url": "/examenvormen/samenleving-beyond-uitdaging/loonbrief.svg"
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Bekijk de mail. Klik op de regel die het duidelijkst verraadt dat de mail niet van je bank komt.",
+          "afbeelding_url": "/examenvormen/samenleving-beyond-uitdaging/mail-bank.svg",
+          "zones": [
+            [
+              2,
+              13.4,
+              96,
+              13.7
+            ]
+          ],
+          "uitleg": "Het adres 'bankk-be-veilig.com' is vreemd gespeld en is niet het officiële adres van een bank. Dat is een typisch kenmerk van phishing."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de regel die je onder druk wil zetten.",
+          "afbeelding_url": "/examenvormen/samenleving-beyond-uitdaging/mail-bank.svg",
+          "zones": [
+            [
+              2,
+              40.8,
+              96,
+              13.7
+            ]
+          ],
+          "uitleg": "Oplichters jagen je op met een dreiging en een korte termijn, zodat je zonder nadenken klikt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe reageer je het veiligst op deze mail van je zogenaamde bank?",
+          "opties": [
+            "Niet klikken, de mail melden en verwijderen.",
+            "Op de link klikken en enkel je kaartnummer invullen.",
+            "Antwoorden met de vraag of de mail echt is.",
+            "De mail doorsturen naar al je vrienden als test."
+          ],
+          "antwoord": 0,
+          "uitleg": "Een bank vraagt nooit je pincode per mail. Klik niet, meld de mail (bv. bij verdacht@safeonweb.be) en verwijder ze.",
+          "afbeelding_url": "/examenvormen/samenleving-beyond-uitdaging/mail-bank.svg"
+        },
+        {
+          "type": "tabel",
+          "vraag": "Hoort deze factor bij je persoonlijke of bij je sociale identiteit?",
+          "rijen": [
+            "Je karakter en je interesses",
+            "Lid zijn van een voetbalclub",
+            "Je nationaliteit",
+            "Je eigen waarden en dromen"
+          ],
+          "antwoord": [
+            0,
+            1,
+            1,
+            0
+          ],
+          "uitleg": "Je persoonlijke identiteit is wat jou uniek maakt. Je sociale identiteit komt van de groepen waartoe je behoort.",
+          "kolommen": [
+            "Persoonlijke identiteit",
+            "Sociale identiteit"
+          ]
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Iemand beoordelen enkel op basis van een groep waartoe die hoort, is een [[*vooroordeel|ik-boodschap|compromis]]. Iemand daardoor anders behandelen, heet [[*discriminatie|integratie|empathie]].",
+          "uitleg": "Een vooroordeel is een mening zonder kennis van de persoon. Discriminatie is ongelijke behandeling op basis van zo'n kenmerk."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin is een ik-boodschap?",
+          "opties": [
+            "Ik word onrustig als je laat komt, want dan mis ik de bus.",
+            "Jij komt altijd te laat en je denkt nooit eens aan een ander.",
+            "Iedereen hier ergert zich eraan dat jij nooit op tijd bent.",
+            "Waarom kan jij nu eens nooit gewoon op tijd komen, zeg?"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een ik-boodschap beschrijft je eigen gevoel, het gedrag en het gevolg, zonder de ander te beschuldigen."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet de stappen van eerste hulp bij een bewusteloos slachtoffer in de juiste volgorde.",
+          "opties": [
+            "Zorg voor je eigen veiligheid",
+            "Spreek het slachtoffer aan en schud zacht",
+            "Roep om hulp",
+            "Controleer de ademhaling",
+            "Bel 112"
+          ],
+          "uitleg": "Eerst veiligheid, dan bewustzijn en ademhaling controleren, en hulp laten komen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Wat doe je?",
+          "rijen": [
+            "Slachtoffer is bewusteloos maar ademt normaal",
+            "Slachtoffer is bewusteloos en ademt niet normaal",
+            "Slachtoffer heeft een kleine schaafwonde"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Wie normaal ademt, leg je in stabiele zijligging. Zonder normale ademhaling start je reanimatie. Een schaafwonde spoel je met water.",
+          "kolommen": [
+            "Stabiele zijligging",
+            "Reanimeren en AED laten halen",
+            "Wonde spoelen en ontsmetten"
+          ]
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Bij reanimatie van een volwassene geef je [[*30|15|5]] borstcompressies en daarna [[*2|5|10]] beademingen.",
+          "uitleg": "Het ritme is 30 compressies en 2 beademingen, aan ongeveer 100 tot 120 compressies per minuut."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat doet een AED?",
+          "opties": [
+            "Het analyseert het hartritme en geeft zo nodig een schok.",
+            "Het meet de bloeddruk en geeft een pijnstiller via de huid.",
+            "Het neemt de beademing volledig over tot de ambulance er is.",
+            "Het verwittigt automatisch de huisarts van het slachtoffer."
+          ],
+          "antwoord": 0,
+          "uitleg": "Een automatische externe defibrillator geeft spraakinstructies, analyseert het ritme en geeft enkel een schok als dat nodig is."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Brengt dit geld op voor de overheid of kost het de overheid geld?",
+          "kolommen": [
+            "Brengt op",
+            "Kost geld"
+          ],
+          "items": [
+            [
+              "Btw op aankopen",
+              "Brengt op"
+            ],
+            [
+              "Pensioenen",
+              "Kost geld"
+            ],
+            [
+              "Personenbelasting",
+              "Brengt op"
+            ],
+            [
+              "Onderwijs",
+              "Kost geld"
+            ],
+            [
+              "Accijnzen op brandstof",
+              "Brengt op"
+            ],
+            [
+              "Rente op de staatsschuld",
+              "Kost geld"
+            ]
+          ],
+          "uitleg": "De overheid haalt geld op via directe en indirecte belastingen en geeft het uit aan diensten, uitkeringen en rente."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is dit een directe of een indirecte belasting?",
+          "rijen": [
+            "Personenbelasting",
+            "Btw",
+            "Onroerende voorheffing",
+            "Accijns op alcohol"
+          ],
+          "antwoord": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "uitleg": "Directe belastingen hangen af van je inkomen of bezit. Indirecte belastingen betaal je via de prijs van wat je koopt.",
+          "kolommen": [
+            "Directe belasting",
+            "Indirecte belasting"
+          ]
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel de tak van de sociale zekerheid aan de situatie.",
+          "paren": [
+            [
+              "werkloosheid",
+              "uitkering na ontslag"
+            ],
+            [
+              "ziekte- en invaliditeitsverzekering",
+              "terugbetaling van doktersbezoek"
+            ],
+            [
+              "pensioenen",
+              "inkomen na de loopbaan"
+            ],
+            [
+              "gezinsbijslag",
+              "Groeipakket voor kinderen"
+            ]
+          ],
+          "extra": [
+            "leefloon van het OCMW"
+          ],
+          "uitleg": "Het leefloon is sociale bijstand van het OCMW, geen tak van de sociale zekerheid die gefinancierd wordt met bijdragen."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Als de vraag naar fietsen stijgt bij een gelijk aanbod, dan [[*stijgt|daalt]] de prijs. Als het aanbod stijgt bij een gelijke vraag, dan [[*daalt|stijgt]] de prijs.",
+          "uitleg": "Meer vraag duwt de evenwichtsprijs omhoog; meer aanbod duwt ze omlaag."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Verschuift de vraagcurve of de aanbodcurve van elektrische fietsen?",
+          "rijen": [
+            "De overheid geeft een premie aan kopers.",
+            "Batterijen worden veel goedkoper om te maken.",
+            "Een nieuwe fabriek opent in Europa.",
+            "Fietsen wordt erg populair bij jongeren."
+          ],
+          "antwoord": [
+            0,
+            1,
+            1,
+            0
+          ],
+          "uitleg": "Wat kopers beïnvloedt (premie, mode) verschuift de vraag. Wat producenten beïnvloedt (kosten, fabrieken) verschuift het aanbod.",
+          "kolommen": [
+            "Vraagcurve",
+            "Aanbodcurve"
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over werken?",
+          "rijen": [
+            "Het arbeidsreglement bevat onder meer de werkuren.",
+            "De preventieadviseur helpt bij veiligheid en welzijn op het werk.",
+            "Een vertrouwenspersoon mag alles wat je vertelt meteen aan je baas doorgeven.",
+            "Een studentenjob is altijd vrijgesteld van alle bijdragen, hoeveel uur je ook werkt."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            false
+          ],
+          "uitleg": "Het arbeidsreglement legt de regels op het werk vast. Een vertrouwenspersoon werkt vertrouwelijk. Voor studenten geldt een maximum aantal uren met verminderde bijdragen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een werknemer verdient 2500 euro bruto. De persoonlijke RSZ-bijdrage is 13,07 %. Hoeveel bedraagt het belastbaar loon? Enkel het getal in euro.",
+          "antwoord": [
+            "2173,25",
+            "2173.25"
+          ],
+          "uitleg": "RSZ = 2500 · 0,1307 = 326,75 euro. Belastbaar loon = 2500 − 326,75 = 2173,25 euro."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je vergelijkt twee leningen voor een auto. Welk cijfer vergelijk je best?",
+          "opties": [
+            "Het jaarlijkse kostenpercentage (JKP)",
+            "Het bedrag van de allereerste aflossing",
+            "De naam en het logo van de kredietgever",
+            "Hoe mooi de reclamefolder eruitziet"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het JKP bevat de rente en alle kosten van het krediet. Zo kan je leningen eerlijk vergelijken."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een smartphone kost 600 euro contant. Op afbetaling betaal je 24 maanden 28 euro. Hoeveel betaal je meer dan contant? Enkel het getal.",
+          "antwoord": [
+            "72"
+          ],
+          "uitleg": "24 · 28 = 672 euro. Dat is 672 − 600 = 72 euro meer."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Is dit een vaste of een variabele uitgave in een gezinsbudget?",
+          "kolommen": [
+            "Vaste uitgave",
+            "Variabele uitgave"
+          ],
+          "items": [
+            [
+              "Huur",
+              "Vaste uitgave"
+            ],
+            [
+              "Uit eten gaan",
+              "Variabele uitgave"
+            ],
+            [
+              "Verzekeringspremie",
+              "Vaste uitgave"
+            ],
+            [
+              "Kleding",
+              "Variabele uitgave"
+            ]
+          ],
+          "uitleg": "Vaste uitgaven komen regelmatig terug met een vast bedrag. Variabele uitgaven kan je zelf meer sturen."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een spaarrekening geeft 2 % rente en de inflatie is 3 %. Je koopkracht [[*daalt|stijgt|blijft gelijk]] dan, want de reële rente is ongeveer [[*−1 %|5 %|1 %]].",
+          "uitleg": "Reële rente ≈ nominale rente − inflatie = 2 − 3 = −1 %. Je geld wordt minder waard."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is dit sparen of beleggen?",
+          "rijen": [
+            "Geld op een gereglementeerde spaarrekening",
+            "Aandelen kopen van een bedrijf",
+            "Een termijnrekening met vaste rente",
+            "Instappen in een beleggingsfonds"
+          ],
+          "antwoord": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "uitleg": "Sparen is veilig met een lage opbrengst. Beleggen geeft kans op meer opbrengst, maar met risico op verlies.",
+          "kolommen": [
+            "Sparen",
+            "Beleggen"
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welke verzekering komt tussen?",
+          "rijen": [
+            "Je zoon breekt per ongeluk de ruit van de buren.",
+            "Door een kortsluiting brandt je keuken af.",
+            "Je rijdt met de auto een geparkeerde wagen aan."
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "De familiale dekt schade die je gezin per ongeluk aan anderen toebrengt, de brandverzekering je woning en de BA auto schade met je auto aan anderen.",
+          "kolommen": [
+            "Familiale verzekering (BA privéleven)",
+            "Brandverzekering",
+            "Autoverzekering (BA auto)"
+          ]
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Het bedrag dat je bij een schadegeval zelf moet betalen, heet de [[*vrijstelling|premie|polis]]. Het contract met de verzekeraar heet de [[*polis|premie|vrijstelling]].",
+          "uitleg": "De premie betaal je om verzekerd te zijn, de vrijstelling (franchise) betaal je zelf bij schade, en de polis is het contract."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke formule in Excel telt de waarden in B2 tot B10 op?",
+          "opties": [
+            "=SOM(B2:B10)",
+            "=GEMIDDELDE(B2:B10)",
+            "=AANTAL(B2:B10)",
+            "=MAX(B2:B10)"
+          ],
+          "antwoord": 0,
+          "uitleg": "SOM telt op, GEMIDDELDE berekent het gemiddelde, AANTAL telt hoeveel cellen een getal bevatten en MAX geeft de grootste waarde."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "In Excel blijft een celverwijzing als [[*$A$1|A1]] vast staan als je de formule kopieert. Dat heet een [[*absolute|relatieve]] celverwijzing.",
+          "uitleg": "Met dollartekens zet je de kolom en de rij vast."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welke tip past bij een goede presentatie in PowerPoint?",
+          "rijen": [
+            "Weinig tekst per dia, liefst kernwoorden",
+            "Zo veel mogelijk animaties op elke dia",
+            "Een duidelijk lettertype dat groot genoeg is",
+            "Alle tekst van je verhaal letterlijk op de dia"
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Een dia ondersteunt wat je zegt. Te veel tekst of animaties leiden af."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "In Word maak je een inhoudstafel automatisch als je de titels opmaakt met [[*kopstijlen|vette letters|een groter lettertype]].",
+          "uitleg": "Word herkent titels via de stijlen Kop 1, Kop 2, ... en bouwt daarmee de inhoudstafel op."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Mag dit volgens het recht online?",
+          "rijen": [
+            "Een foto van een vriend online zetten zonder zijn toestemming",
+            "Een eigen gemaakte tekening op je blog posten",
+            "Een volledige film doorsturen die je niet zelf maakte",
+            "Een kort citaat gebruiken met bronvermelding in een werkstuk"
+          ],
+          "antwoord": [
+            false,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Iedereen heeft recht op zijn eigen beeld. Werk van anderen is beschermd door auteursrecht; een kort citaat met bron mag wel."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een gevolg van een vergrijzende bevolking voor de sociale zekerheid?",
+          "opties": [
+            "Meer geld voor pensioenen en zorg, met minder werkenden die bijdragen.",
+            "Er zijn veel meer jongeren die een kinderbijslag nodig hebben dan vroeger.",
+            "De sociale zekerheid heeft vanzelf elk jaar meer geld over.",
+            "Werkloosheidsuitkeringen worden overbodig omdat iedereen werkt."
+          ],
+          "antwoord": 0,
+          "uitleg": "Meer ouderen betekent meer uitgaven voor pensioenen en gezondheidszorg, terwijl relatief minder actieven bijdragen betalen."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Als de overheid een minimumprijs boven de evenwichtsprijs vastlegt, ontstaat er een [[*overschot|tekort]]. Bij een maximumprijs onder het evenwicht ontstaat een [[*tekort|overschot]].",
+          "uitleg": "Boven het evenwicht willen verkopers meer aanbieden dan kopers vragen. Onder het evenwicht is het omgekeerd."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is dit een sterk of een zwak wachtwoord?",
+          "rijen": [
+            "Sara2008",
+            "fiets-Tomaat!lamp-71",
+            "123456",
+            "Mijn$hond+Bobby_eet*rijst"
+          ],
+          "antwoord": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "uitleg": "Een sterk wachtwoord is lang, onvoorspelbaar en mengt tekens. Namen, geboortejaren en reeksen zijn makkelijk te raden.",
+          "kolommen": [
+            "Sterk",
+            "Zwak"
+          ]
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Het jaarlijkse budget van een gezin: inkomen 36 000 euro, vaste uitgaven 22 000 euro, variabele uitgaven 11 000 euro. Hoeveel kan het gezin sparen? Enkel het getal.",
+          "antwoord": [
+            "3000",
+            "3 000",
+            "3.000"
+          ],
+          "uitleg": "36 000 − 22 000 − 11 000 = 3000 euro."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Is dit verbale of non-verbale communicatie?",
+          "kolommen": [
+            "Verbaal",
+            "Non-verbaal"
+          ],
+          "items": [
+            [
+              "De woorden die je kiest",
+              "Verbaal"
+            ],
+            [
+              "Oogcontact",
+              "Non-verbaal"
+            ],
+            [
+              "Je lichaamshouding",
+              "Non-verbaal"
+            ],
+            [
+              "Een geschreven bericht",
+              "Verbaal"
+            ]
+          ],
+          "uitleg": "Verbale communicatie gebruikt woorden, gesproken of geschreven. Non-verbale communicatie gebeurt via lichaamstaal, blik en stem."
+        },
+        {
+          "type": "open",
+          "vraag": "Een vriend van 18 wil een tweedehandsauto kopen met een lening. Geef hem in 4 à 6 zinnen raad: waar moet hij op letten bij de lening, en welke kosten komen er na de aankoop nog bij?",
+          "antwoord": "Vergelijk de leningen op het JKP, want dat bevat de rente en alle kosten. Kijk hoeveel je in totaal terugbetaalt en of de maandelijkse aflossing in je budget past. Leen niet langer dan de auto meegaat. Na de aankoop komen er nog kosten bij: de verplichte autoverzekering, de verkeersbelasting, brandstof, onderhoud en de keuring. Hou ook een buffer opzij voor onverwachte herstellingen.",
+          "uitleg": "Een goed antwoord vermeldt het JKP of de totale kost van de lening, de aflossing in het budget, en minstens twee kosten na de aankoop zoals verzekering, verkeersbelasting, brandstof, onderhoud of keuring."
+        }
+      ]
+    }
+  ]
+}
