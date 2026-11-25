@@ -1,0 +1,573 @@
+{
+  "hoofdstukken": [
+    {
+      "titel": "Uitdaging — alles door elkaar",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "Bekijk de grafiek. Klik op het break-evenpunt.",
+          "afbeelding_url": "/examenvormen/bwr-beyond-uitdaging/breakeven-fietsen.svg",
+          "zones": [
+            [
+              55.8,
+              38.8,
+              6.8,
+              10.6
+            ]
+          ],
+          "uitleg": "Het break-evenpunt ligt waar de totale opbrengst (TO) gelijk is aan de totale kosten (TK): bij 600 herstellingen en 15 000 euro."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het cijfer in de zone waar de fietsenmaker winst maakt.",
+          "afbeelding_url": "/examenvormen/bwr-beyond-uitdaging/breakeven-fietsen.svg",
+          "zones": [
+            [
+              75.2,
+              25.6,
+              6.4,
+              10.0
+            ]
+          ],
+          "uitleg": "Rechts van het break-evenpunt ligt de opbrengstlijn boven de kostenlijn: daar is er winst."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Lees af en reken na. De vaste kosten zijn 6000 euro, de variabele kost is 15 euro per herstelling en de prijs 25 euro.",
+          "rijen": [
+            "Dekkingsbijdrage per herstelling (euro)",
+            "Break-evenafzet (herstellingen)",
+            "Break-evenomzet (euro)"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Dekkingsbijdrage = 25 − 15 = 10 euro. Break-evenafzet = 6000 / 10 = 600. Omzet = 600 · 25 = 15 000 euro.",
+          "kolommen": [
+            "10",
+            "600",
+            "15000"
+          ],
+          "afbeelding_url": "/examenvormen/bwr-beyond-uitdaging/breakeven-fietsen.svg"
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel winst maakt de fietsenmaker bij 900 herstellingen? Enkel het getal in euro.",
+          "antwoord": [
+            "3000",
+            "3 000",
+            "3.000"
+          ],
+          "uitleg": "Winst = 900 · 10 − 6000 = 9000 − 6000 = 3000 euro.",
+          "afbeelding_url": "/examenvormen/bwr-beyond-uitdaging/breakeven-fietsen.svg"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de veiligheidsmarge als hij 800 herstellingen verwacht?",
+          "opties": [
+            "200 herstellingen of 25 %",
+            "600 herstellingen of 75 %",
+            "800 herstellingen of 100 %",
+            "200 herstellingen of 33 %"
+          ],
+          "antwoord": 0,
+          "uitleg": "Veiligheidsmarge = verwachte afzet − break-evenafzet = 800 − 600 = 200. Dat is 200 / 800 = 25 % van de verwachte afzet.",
+          "afbeelding_url": "/examenvormen/bwr-beyond-uitdaging/breakeven-fietsen.svg"
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Bekijk de BCG-matrix. Klik op de melkkoe.",
+          "afbeelding_url": "/examenvormen/bwr-beyond-uitdaging/bcg-snoep.svg",
+          "zones": [
+            [
+              23.9,
+              65.0,
+              26.7,
+              9.7
+            ]
+          ],
+          "uitleg": "Een melkkoe heeft een hoog marktaandeel in een markt die weinig groeit. Ze brengt veel geld op en vraagt weinig investeringen."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het vraagteken.",
+          "afbeelding_url": "/examenvormen/bwr-beyond-uitdaging/bcg-snoep.svg",
+          "zones": [
+            [
+              60.6,
+              29.7,
+              26.7,
+              9.7
+            ]
+          ],
+          "uitleg": "Een vraagteken heeft een laag marktaandeel in een snelgroeiende markt. Het bedrijf moet kiezen: fors investeren of stoppen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welke strategie past volgens de BCG-matrix?",
+          "rijen": [
+            "Proteïnerepen",
+            "Chocoladerepen",
+            "Zuurstokken"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Een ster (proteïnerepen) verdient investeringen, een melkkoe (chocoladerepen) levert geld, een hond (zuurstokken) bouw je af.",
+          "kolommen": [
+            "Investeren om de positie te houden",
+            "Geld afromen voor andere producten",
+            "Afbouwen of afstoten"
+          ],
+          "afbeelding_url": "/examenvormen/bwr-beyond-uitdaging/bcg-snoep.svg"
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welke ondernemingsvorm past?",
+          "rijen": [
+            "Eén persoon, geen rechtspersoonlijkheid, privévermogen niet beschermd",
+            "Rechtspersoon, geen minimumkapitaal, aandeelhouders beperkt aansprakelijk",
+            "Geschikt voor grote bedrijven met aandelen op de beurs"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "In een eenmanszaak zijn ondernemer en zaak één. De BV is de gewone vennootschap voor kmo's, de NV voor grote bedrijven en beursnoteringen.",
+          "kolommen": [
+            "Eenmanszaak",
+            "BV",
+            "NV"
+          ]
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "De personenbelasting is [[*progressief|vast|degressief]]: hoe hoger het inkomen, hoe [[*hoger|lager]] het tarief voor de hogere schijven.",
+          "uitleg": "Het belastbaar inkomen wordt in schijven verdeeld met stijgende tarieven."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom doet een vennootschap voorafbetalingen voor de vennootschapsbelasting?",
+          "opties": [
+            "Om een belastingvermeerdering te vermijden.",
+            "Om haar winst kunstmatig kleiner te maken.",
+            "Omdat ze anders geen btw mag aanrekenen.",
+            "Omdat ze anders haar boekhouding niet mag afsluiten."
+          ],
+          "antwoord": 0,
+          "uitleg": "Wie te weinig vooraf betaalt, krijgt een belastingvermeerdering. Wie vooraf betaalt, kan zelfs een voordeel krijgen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een vennootschap heeft een belastbare winst van 400 000 euro en valt onder het gewone tarief van 25 %. Hoeveel vennootschapsbelasting is dat? Enkel het getal.",
+          "antwoord": [
+            "100000",
+            "100 000",
+            "100.000"
+          ],
+          "uitleg": "25 % van 400 000 = 100 000 euro."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Op welke rekening boek je dit bij een aankoop van handelsgoederen op krediet?",
+          "rijen": [
+            "De waarde van de goederen exclusief btw",
+            "De btw op de aankoop",
+            "Het totaalbedrag dat je nog moet betalen"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "De kost staat in klasse 6, de aftrekbare btw op 411 en de schuld aan de leverancier op 440.",
+          "kolommen": [
+            "604 Aankopen handelsgoederen",
+            "411 Terug te vorderen btw",
+            "440 Leveranciers"
+          ]
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Bij een verkoopfactuur boek je de klant op 400 in het [[*debet|credit]]. De te betalen btw komt op 451 in het [[*credit|debet]].",
+          "uitleg": "De klant is een vordering (actief): die vermeerdert in het debet. De btw die je aan de staat verschuldigd bent, is een schuld: vermeerdering in het credit."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een factuur vermeldt 2000 euro handelsgoederen, 2 % korting en 21 % btw. Hoeveel bedraagt het te betalen bedrag? Enkel het getal in euro.",
+          "antwoord": [
+            "2371,6",
+            "2371,60",
+            "2371.6",
+            "2371.60"
+          ],
+          "uitleg": "Na korting: 2000 · 0,98 = 1960 euro. Btw: 1960 · 0,21 = 411,60. Totaal: 2371,60 euro."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Is dit een balansrekening of een resultatenrekening?",
+          "kolommen": [
+            "Balans",
+            "Resultatenrekening"
+          ],
+          "items": [
+            [
+              "550 Bank",
+              "Balans"
+            ],
+            [
+              "700 Omzet",
+              "Resultatenrekening"
+            ],
+            [
+              "440 Leveranciers",
+              "Balans"
+            ],
+            [
+              "620 Bezoldigingen",
+              "Resultatenrekening"
+            ],
+            [
+              "221 Gebouwen",
+              "Balans"
+            ],
+            [
+              "650 Rentelasten",
+              "Resultatenrekening"
+            ]
+          ],
+          "uitleg": "Klassen 1 tot 5 staan op de balans, klassen 6 en 7 (kosten en opbrengsten) op de resultatenrekening."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom boekt een bedrijf aan het einde van het jaar afschrijvingen?",
+          "opties": [
+            "Om de waardedaling van vaste activa over de jaren te spreiden.",
+            "Om de schulden aan de leveranciers definitief te schrappen.",
+            "Om de omzet van het volgende boekjaar nu al mee te tellen.",
+            "Om het geld op de bankrekening opnieuw sneller te laten groeien."
+          ],
+          "antwoord": 0,
+          "uitleg": "Een machine gaat meerdere jaren mee. Met afschrijvingen verdeel je de aankoopprijs als kost over die jaren."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Een bedrijf heeft: vlottende activa 300 000, schulden op korte termijn 200 000, eigen vermogen 400 000, totaal vermogen 1 000 000, nettowinst 40 000. Bereken.",
+          "rijen": [
+            "Current ratio",
+            "Solvabiliteit (in %)",
+            "Rendabiliteit van het eigen vermogen (in %)"
+          ],
+          "antwoord": [
+            0,
+            2,
+            1
+          ],
+          "uitleg": "Current ratio = 300 000 / 200 000 = 1,5. Solvabiliteit = 400 000 / 1 000 000 = 40 %. REV = 40 000 / 400 000 = 10 %.",
+          "kolommen": [
+            "1,5",
+            "10",
+            "40"
+          ]
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een current ratio onder 1 wijst op [[*liquiditeitsproblemen|een hoge winst|een sterke solvabiliteit]]: het bedrijf kan zijn [[*kortetermijnschulden|aandeelhouders]] moeilijk betalen.",
+          "uitleg": "Als de vlottende activa kleiner zijn dan de schulden op korte termijn, dreigen betalingsproblemen."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Is dit eigen of vreemd vermogen?",
+          "kolommen": [
+            "Eigen vermogen",
+            "Vreemd vermogen"
+          ],
+          "items": [
+            [
+              "Kapitaal ingebracht door de aandeelhouders",
+              "Eigen vermogen"
+            ],
+            [
+              "Een banklening op vijf jaar",
+              "Vreemd vermogen"
+            ],
+            [
+              "Overgedragen winst",
+              "Eigen vermogen"
+            ],
+            [
+              "Schulden aan leveranciers",
+              "Vreemd vermogen"
+            ]
+          ],
+          "uitleg": "Eigen vermogen komt van de eigenaars (kapitaal, reserves, overgedragen winst). Vreemd vermogen zijn schulden aan derden."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een investering kost 50 000 euro en levert elk jaar 12 500 euro netto kasstroom op. Wat is de terugverdientijd in jaren?",
+          "antwoord": [
+            "4"
+          ],
+          "uitleg": "50 000 / 12 500 = 4 jaar."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke financieringsvorm is meestal het best voor een nieuwe bedrijfshal?",
+          "opties": [
+            "Een lening op lange termijn",
+            "Een kaskrediet op korte termijn",
+            "Leverancierskrediet van 30 dagen",
+            "Een voorschot van een klant"
+          ],
+          "antwoord": 0,
+          "uitleg": "Vaste activa financier je met lang vermogen (gouden balansregel). Kortlopend krediet past bij vlottende activa."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Hoort dit bij de interne of de externe analyse van SWOT?",
+          "kolommen": [
+            "Intern (sterktes en zwaktes)",
+            "Extern (kansen en bedreigingen)"
+          ],
+          "items": [
+            [
+              "Ervaren en gemotiveerd personeel",
+              "Intern (sterktes en zwaktes)"
+            ],
+            [
+              "Een nieuwe concurrent opent in de buurt",
+              "Extern (kansen en bedreigingen)"
+            ],
+            [
+              "Verouderde machines",
+              "Intern (sterktes en zwaktes)"
+            ],
+            [
+              "Stijgende vraag naar duurzame producten",
+              "Extern (kansen en bedreigingen)"
+            ]
+          ],
+          "uitleg": "Sterktes en zwaktes gaan over het bedrijf zelf. Kansen en bedreigingen komen van buiten."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Bij welke P van de marketingmix hoort dit?",
+          "rijen": [
+            "Een kortingsactie van 20 %",
+            "Een reclamecampagne op sociale media",
+            "Verkopen via een webshop en in supermarkten",
+            "Een nieuwe smaak en verpakking"
+          ],
+          "antwoord": [
+            1,
+            3,
+            2,
+            0
+          ],
+          "uitleg": "De marketingmix bestaat uit product, prijs, plaats (distributie) en promotie.",
+          "kolommen": [
+            "Product",
+            "Prijs",
+            "Plaats",
+            "Promotie"
+          ]
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel het bouwblok van het Business Model Canvas aan het voorbeeld.",
+          "paren": [
+            [
+              "klantsegmenten",
+              "sportieve jongeren tussen 16 en 25"
+            ],
+            [
+              "waardepropositie",
+              "gezonde snack met veel eiwitten"
+            ],
+            [
+              "kanalen",
+              "webshop en fitnesscentra"
+            ],
+            [
+              "inkomstenstromen",
+              "verkoop per doos en abonnementen"
+            ]
+          ],
+          "extra": [
+            "een hogere vennootschapsbelasting"
+          ],
+          "uitleg": "Het canvas beschrijft voor wie je waarde maakt, welke, hoe je de klant bereikt en hoe je geld verdient."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke stakeholder is een interne belanghebbende?",
+          "opties": [
+            "De werknemers",
+            "De overheid",
+            "De banken",
+            "De buurtbewoners"
+          ],
+          "antwoord": 0,
+          "uitleg": "Interne stakeholders werken in of bezitten het bedrijf: werknemers, management en eigenaars."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over de arbeidsovereenkomst?",
+          "rijen": [
+            "Een arbeidsovereenkomst bevat arbeid, loon en gezag.",
+            "Tijdens ziekte wordt de overeenkomst geschorst.",
+            "Een werkgever mag zonder opzeg ontslaan bij elke kleine fout.",
+            "Een overeenkomst van bepaalde duur eindigt vanzelf op de einddatum."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "De drie kenmerken zijn arbeid, loon en een gezagsverhouding. Ontslag zonder opzeg kan enkel bij een dringende reden: een zware fout."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet de stappen van het aanwervingsproces in de juiste volgorde.",
+          "opties": [
+            "Functieomschrijving opstellen",
+            "Vacature bekendmaken",
+            "Kandidaten selecteren",
+            "Arbeidsovereenkomst ondertekenen",
+            "Nieuwe medewerker onthalen"
+          ],
+          "uitleg": "Eerst weet je wie je zoekt, dan maak je de vacature bekend, selecteer je, teken je het contract en verwelkom je de nieuwe collega."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Bij just-in-time leveren leveranciers [[*precies wanneer het nodig is|zo vroeg mogelijk]], zodat de voorraad [[*klein|groot]] blijft.",
+          "uitleg": "Just-in-time beperkt opslagkosten, maar maakt het bedrijf afhankelijk van stipte leveringen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is dit een vaste of een variabele kost voor een fietsenmaker?",
+          "rijen": [
+            "Huur van het atelier",
+            "Binnenbanden voor elke herstelling",
+            "Verzekering van het atelier",
+            "Smeerolie per herstelling"
+          ],
+          "antwoord": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "uitleg": "Vaste kosten blijven gelijk, wat de productie ook is. Variabele kosten stijgen mee met het aantal herstellingen.",
+          "kolommen": [
+            "Vaste kost",
+            "Variabele kost"
+          ]
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een product kost 8 euro aan grondstoffen, 5 euro aan loon en 3 euro aan toegerekende vaste kosten per stuk. Het bedrijf wil 25 % winstopslag op de kostprijs. Wat is de verkoopprijs exclusief btw? Enkel het getal.",
+          "antwoord": [
+            "20",
+            "20,00"
+          ],
+          "uitleg": "Kostprijs = 8 + 5 + 3 = 16 euro. Met 25 % opslag: 16 · 1,25 = 20 euro."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "In een relationele databank identificeert de [[*primaire sleutel|vreemde sleutel]] elk record uniek. De [[*vreemde sleutel|primaire sleutel]] verwijst naar een record in een andere tabel.",
+          "uitleg": "Een primaire sleutel (bv. klantnummer) is uniek per rij. Een vreemde sleutel legt de relatie met een andere tabel."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een tabel Bestellingen bevat het veld klantnummer, dat verwijst naar de tabel Klanten. Welke relatie is dat meestal?",
+          "opties": [
+            "Eén klant heeft meerdere bestellingen.",
+            "Elke bestelling heeft meerdere klanten.",
+            "Eén klant heeft precies één bestelling.",
+            "Er is geen relatie tussen beide tabellen."
+          ],
+          "antwoord": 0,
+          "uitleg": "Een klant kan vaak bestellen, maar elke bestelling hoort bij één klant: een een-op-veelrelatie."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een vennootschap is een [[*rechtspersoon|natuurlijk persoon]]: ze kan zelf contracten sluiten en [[*eigen schulden|geen bezittingen]] hebben.",
+          "uitleg": "Een rechtspersoon heeft een eigen vermogen los van dat van de aandeelhouders."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een klant betaalt een factuur van 1210 euro (incl. 21 % btw) via overschrijving. Welke boeking hoort daarbij?",
+          "opties": [
+            "550 Bank debet en 400 Klanten credit, elk 1210 euro.",
+            "400 Klanten debet en 550 Bank credit, elk 1210 euro.",
+            "550 Bank debet 1000 euro en 451 Btw credit 210 euro.",
+            "700 Omzet debet en 550 Bank credit, elk voor 1210 euro."
+          ],
+          "antwoord": 0,
+          "uitleg": "Het geld komt binnen op de bank (debet) en de vordering op de klant verdwijnt (credit). De btw werd al bij de verkoopfactuur geboekt."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is dit een kenmerk van de arbeidsovereenkomst voor bepaalde of onbepaalde duur?",
+          "rijen": [
+            "Er staat een vaste einddatum in het contract.",
+            "Het contract loopt tot iemand opzegt.",
+            "Hij eindigt vanzelf als het afgesproken werk af is."
+          ],
+          "antwoord": [
+            0,
+            1,
+            0
+          ],
+          "uitleg": "Een contract van bepaalde duur of voor een duidelijk omschreven werk eindigt vanzelf. Een contract van onbepaalde duur loopt door tot opzeg.",
+          "kolommen": [
+            "Bepaalde duur",
+            "Onbepaalde duur"
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het hoofddoel van supply chain management?",
+          "opties": [
+            "De hele keten van leverancier tot klant op elkaar afstemmen.",
+            "Zo veel mogelijk voorraad aanleggen voor elk product in elk magazijn.",
+            "Alle leveranciers vervangen door één enkele buitenlandse leverancier.",
+            "De verkoopprijzen verhogen zodra de vraag van de klanten stijgt."
+          ],
+          "antwoord": 0,
+          "uitleg": "Supply chain management stemt aankoop, productie, opslag en levering op elkaar af, zodat de klant op tijd krijgt wat hij wil tegen zo laag mogelijke kosten."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "In de saldibalans moet het totaal van de debetsaldi [[*gelijk zijn aan|groter zijn dan]] het totaal van de creditsaldi. Dat controleert of je [[*dubbel|enkel]] boekhoudt zonder fouten.",
+          "uitleg": "Elke boeking heeft evenveel debet als credit. Daarom moeten de totalen in de saldibalans altijd gelijk zijn."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een bedrijf koopt een machine van 30 000 euro die 5 jaar meegaat, zonder restwaarde. Hoeveel bedraagt de jaarlijkse lineaire afschrijving? Enkel het getal.",
+          "antwoord": [
+            "6000",
+            "6 000",
+            "6.000"
+          ],
+          "uitleg": "30 000 / 5 = 6000 euro per jaar."
+        },
+        {
+          "type": "open",
+          "vraag": "Een vriendin wil een koffiebar starten. Leg in 4 à 6 zinnen uit welke ondernemingsvorm je haar aanraadt en waarom, en noem twee onderdelen die zeker in haar ondernemingsplan moeten staan.",
+          "antwoord": "Ik raad een BV aan, omdat ze dan beperkt aansprakelijk is: als het misloopt, blijft haar privévermogen beschermd. Een BV heeft geen minimumkapitaal, maar wel een financieel plan. Een eenmanszaak is eenvoudiger, maar dan staat haar huis op het spel. In het ondernemingsplan moet zeker een marktanalyse staan met klanten en concurrenten, en een financieel plan met de investeringen, kosten en verwachte omzet.",
+          "uitleg": "Een goed antwoord kiest een ondernemingsvorm met een argument (aansprakelijkheid, belastingen, eenvoud) en noemt twee onderdelen van het ondernemingsplan, zoals marktanalyse, marketingplan of financieel plan."
+        }
+      ]
+    }
+  ]
+}

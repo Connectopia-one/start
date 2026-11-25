@@ -1,0 +1,21 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 900 680' width='900' height='680'>
+<rect width='900' height='680' fill='#ffffff'/>
+<text x='40' y='50' font-family='Nunito, Arial, sans-serif' font-size='28' font-weight='800' fill='#2f4a22'>BCG-matrix van een snoepfabrikant</text>
+<rect x='170' y='110' width='650' height='490' fill='#fbfaf6' stroke='#2b2b2b' stroke-width='2.5'/>
+<line x1='495.0' y1='110' x2='495.0' y2='600' stroke='#2b2b2b' stroke-width='2'/>
+<line x1='170' y1='355.0' x2='820' y2='355.0' stroke='#2b2b2b' stroke-width='2'/>
+<text x='170' y='634' font-family='Nunito, Arial, sans-serif' font-size='19' fill='#2b2b2b'>hoog</text>
+<text x='820' y='634' text-anchor='end' font-family='Nunito, Arial, sans-serif' font-size='19' fill='#2b2b2b'>laag</text>
+<text x='495.0' y='662' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='21' fill='#2b2b2b'>relatief marktaandeel</text>
+<text x='156' y='130' text-anchor='end' font-family='Nunito, Arial, sans-serif' font-size='19' fill='#2b2b2b'>hoog</text>
+<text x='156' y='600' text-anchor='end' font-family='Nunito, Arial, sans-serif' font-size='19' fill='#2b2b2b'>laag</text>
+<text x='60' y='355.0' text-anchor='middle' transform='rotate(-90 60 355.0)' font-family='Nunito, Arial, sans-serif' font-size='21' fill='#2b2b2b'>marktgroei</text>
+<rect x='550.0' y='447.0' width='230' height='56' rx='16' fill='#ffffff' stroke='#2f4a22' stroke-width='3'/>
+<text x='665.0' y='483.0' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='21' font-weight='700' fill='#2b2b2b'>Zuurstokken</text>
+<rect x='220.0' y='207.0' width='230' height='56' rx='16' fill='#ffffff' stroke='#2f4a22' stroke-width='3'/>
+<text x='335.0' y='243.0' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='21' font-weight='700' fill='#2b2b2b'>Proteïnerepen</text>
+<rect x='220.0' y='447.0' width='230' height='56' rx='16' fill='#ffffff' stroke='#2f4a22' stroke-width='3'/>
+<text x='335.0' y='483.0' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='21' font-weight='700' fill='#2b2b2b'>Chocoladerepen</text>
+<rect x='550.0' y='207.0' width='230' height='56' rx='16' fill='#ffffff' stroke='#2f4a22' stroke-width='3'/>
+<text x='665.0' y='243.0' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='21' font-weight='700' fill='#2b2b2b'>Vegan gummies</text>
+</svg>
