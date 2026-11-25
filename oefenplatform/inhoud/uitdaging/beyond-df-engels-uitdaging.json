@@ -1,0 +1,567 @@
+{
+  "hoofdstukken": [
+    {
+      "titel": "Uitdaging — alles door elkaar",
+      "niveau": "beyond-dubbele-finaliteit",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "Lees de review. Klik op de zin met een nadeel van de jeugdherberg.",
+          "afbeelding_url": "/examenvormen/engels-beyond-df-uitdaging/review-hostel.svg",
+          "zones": [
+            [
+              2,
+              54.5,
+              96,
+              13.7
+            ]
+          ],
+          "uitleg": "'Unfortunately' (jammer genoeg) kondigt iets negatiefs aan: de douches waren vaak koud."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de zin waarin de schrijver de jeugdherberg aanraadt.",
+          "afbeelding_url": "/examenvormen/engels-beyond-df-uitdaging/review-hostel.svg",
+          "zones": [
+            [
+              2,
+              81.8,
+              96,
+              13.7
+            ]
+          ],
+          "uitleg": "'I would definitely recommend it' betekent: ik zou ze zeker aanraden."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de zin die zegt hoe ver de jeugdherberg van een bezienswaardigheid ligt.",
+          "afbeelding_url": "/examenvormen/engels-beyond-df-uitdaging/review-hostel.svg",
+          "zones": [
+            [
+              2,
+              27.1,
+              96,
+              13.7
+            ]
+          ],
+          "uitleg": "'Five minutes' walk from the castle' betekent vijf minuten te voet van het kasteel."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit volgens de review?",
+          "rijen": [
+            "De schrijver bleef drie nachten.",
+            "Het ontbijt is duur voor Edinburgh.",
+            "Het personeel hielp bij het plannen van uitstappen.",
+            "De douches waren altijd warm."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Zin 1 noemt drie nachten, zin 3 het behulpzame personeel. Het ontbijt is 'quite cheap' en de douches waren vaak koud.",
+          "afbeelding_url": "/examenvormen/engels-beyond-df-uitdaging/review-hostel.svg"
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een review is vooral een [[*beschouwende|prescriptieve|narratieve]] tekst: de schrijver geeft zijn [[*mening en ervaring|instructies|definitie]].",
+          "uitleg": "Een review beschrijft en beoordeelt een ervaring. Ze helpt anderen kiezen.",
+          "afbeelding_url": "/examenvormen/engels-beyond-df-uitdaging/review-hostel.svg"
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Lees het bericht van Mia. Klik op de zin waarin ze een voorstel doet.",
+          "afbeelding_url": "/examenvormen/engels-beyond-df-uitdaging/bericht-mia.svg",
+          "zones": [
+            [
+              2,
+              54.5,
+              96,
+              13.7
+            ]
+          ],
+          "uitleg": "'Shall we ...?' is een manier om iets voor te stellen: zullen we naar het strand rijden?"
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de zin die zegt tegen wanneer Jess moet antwoorden.",
+          "afbeelding_url": "/examenvormen/engels-beyond-df-uitdaging/bericht-mia.svg",
+          "zones": [
+            [
+              2,
+              81.8,
+              96,
+              13.7
+            ]
+          ],
+          "uitleg": "'Let me know by Thursday' betekent: laat het me weten tegen donderdag."
+        },
+        {
+          "type": "tabel",
+          "vraag": "In welke tijd staat het werkwoord in het bericht?",
+          "rijen": [
+            "I've just got my driving licence",
+            "I passed the test this morning",
+            "My dad is going to lend me his car"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Have + voltooid deelwoord met 'just' is present perfect. Een afgelopen moment (this morning) vraagt past simple. Going to drukt een plan uit.",
+          "kolommen": [
+            "Present perfect",
+            "Past simple",
+            "Future (going to)"
+          ],
+          "afbeelding_url": "/examenvormen/engels-beyond-df-uitdaging/bericht-mia.svg"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk antwoord van Jess past het best bij het bericht?",
+          "opties": [
+            "Congrats! Saturday sounds great, see you at ten!",
+            "Dear Madam, thank you for your kind letter of 3 May.",
+            "I am writing to complain about your driving lessons.",
+            "Yours faithfully, Jess, from the driving school."
+          ],
+          "antwoord": 0,
+          "uitleg": "Het bericht is informeel en vraagt of Jess zaterdag mee wil. Een kort, vriendelijk antwoord past; formele briefzinnen niet.",
+          "afbeelding_url": "/examenvormen/engels-beyond-df-uitdaging/bericht-mia.svg"
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welk soort tekst is dit?",
+          "rijen": [
+            "Turn left at the second traffic lights.",
+            "Once upon a time there lived a poor fisherman.",
+            "Big summer sale: everything half price!",
+            "The Thames is 346 km long."
+          ],
+          "antwoord": [
+            1,
+            2,
+            3,
+            0
+          ],
+          "uitleg": "Een wegbeschrijving geeft instructies, een sprookje vertelt, een uitverkoop wil je overhalen te kopen en een feit informeert.",
+          "kolommen": [
+            "Informatie",
+            "Instructie",
+            "Verhaal",
+            "Reclame"
+          ]
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "In Groot-Brittannië betaal je met [[*pounds|euros|dollars]] en rijdt het verkeer [[*links|rechts]].",
+          "uitleg": "De munt is het Britse pond (£) en men rijdt links."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Brits of Amerikaans Engels?",
+          "rijen": [
+            "flat",
+            "apartment",
+            "lorry",
+            "truck"
+          ],
+          "antwoord": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "uitleg": "Britten zeggen flat en lorry, Amerikanen apartment en truck.",
+          "kolommen": [
+            "Brits",
+            "Amerikaans"
+          ]
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel het Engelse woord aan de vertaling.",
+          "paren": [
+            [
+              "a ticket office",
+              "een loket"
+            ],
+            [
+              "a pharmacy",
+              "een apotheek"
+            ],
+            [
+              "a rent",
+              "een huur"
+            ],
+            [
+              "a wage",
+              "een loon"
+            ],
+            [
+              "a canteen",
+              "een refter"
+            ]
+          ],
+          "extra": [
+            "een zakdoek",
+            "een rekening"
+          ],
+          "uitleg": "Deze woorden komen uit de woordvelden reizen, gezondheid, wonen, werk en school."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Bij welk woordveld hoort het woord?",
+          "kolommen": [
+            "Eten",
+            "Verkeer",
+            "Natuur"
+          ],
+          "items": [
+            [
+              "a recipe",
+              "Eten"
+            ],
+            [
+              "a roundabout",
+              "Verkeer"
+            ],
+            [
+              "a forest",
+              "Natuur"
+            ],
+            [
+              "a starter",
+              "Eten"
+            ],
+            [
+              "a speed bump",
+              "Verkeer"
+            ],
+            [
+              "pollution",
+              "Natuur"
+            ]
+          ],
+          "uitleg": "Een recept en een voorgerecht horen bij eten, een rotonde en een verkeersdrempel bij verkeer, een bos en vervuiling bij natuur en milieu."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe zeg je 'een sollicitatiegesprek' in het Engels? Drie woorden, met lidwoord.",
+          "antwoord": [
+            "a job interview",
+            "an interview"
+          ],
+          "uitleg": "A job interview is een sollicitatiegesprek."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Ik heb hoofdpijn: I have a [[*headache|headpain|headsick]]. Ik ben verkouden: I have a [[*cold|cool|chill]].",
+          "uitleg": "Pijn in een lichaamsdeel krijgt vaak -ache: headache, toothache, stomachache. Verkouden zijn is 'to have a cold'."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "How [[*much|many]] money do you have? How [[*many|much]] tickets did you buy? I've got [[*a few|a little]] friends in London.",
+          "uitleg": "Much en a little bij ontelbare woorden (money), many en a few bij telbare (tickets, friends)."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Wat is het meervoud?",
+          "rijen": [
+            "a woman",
+            "a foot",
+            "a city",
+            "a box"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "uitleg": "Woman en foot zijn onregelmatig. Medeklinker + y wordt -ies, en na x komt -es.",
+          "kolommen": [
+            "women",
+            "feet",
+            "cities",
+            "boxes"
+          ]
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "This is my brother, [[*who|which]] works in a hotel. That's the phone [[*which|who]] I bought last week. Is this bag [[*yours|your]]?",
+          "uitleg": "Who verwijst naar personen, which naar dingen. Yours staat zelfstandig, zonder zelfstandig naamwoord erna."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Vul het juiste voornaamwoord in.",
+          "rijen": [
+            "Tom and Lisa talked to ___ (elkaar) for hours.",
+            "Be careful, you might cut ___ !",
+            "Give the keys to ___ , I'll open the door."
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Each other is wederkerig, yourself wederkerend, en na een voorzetsel staat de voorwerpsvorm me.",
+          "kolommen": [
+            "each other",
+            "yourself",
+            "me"
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Wat is de vergrotende trap?",
+          "rijen": [
+            "cheap",
+            "expensive",
+            "bad",
+            "happy"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "uitleg": "Korte woorden krijgen -er, lange woorden more. Bad is onregelmatig, en bij happy wordt de y een i.",
+          "kolommen": [
+            "cheaper",
+            "more expensive",
+            "worse",
+            "happier"
+          ]
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "She sings [[*beautifully|beautiful]]. The soup smells [[*good|well]]. He arrived [[*late|lately]] for work.",
+          "uitleg": "Bij een handelingswerkwoord hoort een bijwoord: beautifully. Na smell (koppelwerkwoord) volgt een bijvoeglijk naamwoord. Late is ook een bijwoord; lately betekent onlangs."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Kies het juiste voorzetsel.",
+          "rijen": [
+            "My birthday is ___ May.",
+            "The meeting is ___ Monday.",
+            "The film starts ___ eight o'clock."
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "In bij maanden en jaren, on bij dagen en datums, at bij een uur.",
+          "kolommen": [
+            "in",
+            "on",
+            "at"
+          ]
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "I usually [[*walk|am walking]] to school, but today I [[*am taking|take]] the bus. We [[*have known|know]] each other for ten years.",
+          "uitleg": "Een gewoonte: present simple. Iets wat vandaag anders is: present continuous. For + periode tot nu: present perfect."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Wat is het voltooid deelwoord (past participle)?",
+          "rijen": [
+            "to write",
+            "to drive",
+            "to forget",
+            "to choose"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "uitleg": "Deze onregelmatige werkwoorden eindigen op -en in het voltooid deelwoord.",
+          "kolommen": [
+            "written",
+            "driven",
+            "forgotten",
+            "chosen"
+          ]
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul de juiste vorm in: « While I ___ (to cook), the phone rang. » Twee woorden.",
+          "antwoord": [
+            "was cooking"
+          ],
+          "uitleg": "Een handeling die bezig was toen iets anders gebeurde, staat in de past continuous: was cooking."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke Engelse zin over een film van vorige week is juist?",
+          "opties": [
+            "I saw that film last week.",
+            "I have seen that film last week.",
+            "I have saw that film last week.",
+            "I seen that film last week."
+          ],
+          "antwoord": 0,
+          "uitleg": "Met een afgesloten tijdstip (last week) gebruik je de past simple: I saw."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "It's cold. I [[*will|am going to]] close the window. Next year we [[*are going to|will]] move to Ghent: we've already bought a house.",
+          "uitleg": "Will voor een beslissing op het moment zelf, going to voor een plan dat al vastligt."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welk modaal werkwoord past?",
+          "rijen": [
+            "Je bent verplicht: You ___ wear a helmet.",
+            "Het is een goede raad: You ___ see a doctor.",
+            "Je hebt de toestemming: You ___ leave early today."
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Must drukt een verplichting uit, should een raad, may een toelating.",
+          "kolommen": [
+            "must",
+            "should",
+            "may"
+          ]
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet de woorden in de juiste volgorde.",
+          "opties": [
+            "We",
+            "never",
+            "eat",
+            "meat",
+            "at home",
+            "during the week"
+          ],
+          "uitleg": "Onderwerp, frequentiebijwoord, werkwoord, voorwerp, plaats, tijd."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "If you [[heat]] water to 100 degrees, it boils. If it [[snows]] tomorrow, we will build a snowman.",
+          "extra": [
+            "will heat",
+            "snowed"
+          ],
+          "uitleg": "In de if-zin van een algemene waarheid of reële voorwaarde staat de present simple."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe vraag je beleefd de weg?",
+          "opties": [
+            "Excuse me, could you tell me the way to the station?",
+            "Hey you, where is the station, tell me right now!",
+            "Station? Where? Quick, quick, I'm in a hurry, mate.",
+            "You must tell me where the train station is located."
+          ],
+          "antwoord": 0,
+          "uitleg": "Excuse me en could you ... maken de vraag beleefd. De andere zinnen zijn bot of bevelend."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul de vraagstaart in: « It's a nice day, ___ ? » Twee woorden.",
+          "antwoord": [
+            "isn't it",
+            "is it not"
+          ],
+          "uitleg": "Na een bevestigende zin met is volgt een ontkennende vraagstaart: isn't it?"
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Ik ben goed in tekenen: I'm good [[*at|in|on]] drawing. Ik ben bang voor spinnen: I'm afraid [[*of|for|from]] spiders.",
+          "uitleg": "Vaste combinaties: good at, afraid of."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Past deze Engelse zin in een formele of in een informele tekst?",
+          "rijen": [
+            "Dear Mr Smith,",
+            "Hiya!",
+            "I look forward to hearing from you.",
+            "See ya soon!"
+          ],
+          "antwoord": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "uitleg": "In een formele brief gebruik je een beleefde aanspreking en vaste zinnen. Bij vrienden mag het kort en los.",
+          "kolommen": [
+            "Formeel",
+            "Informeel"
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent: « I'm looking forward to the holidays »?",
+          "opties": [
+            "Ik kijk uit naar de vakantie.",
+            "Ik kijk terug op de vakantie.",
+            "Ik zoek een plek voor de vakantie.",
+            "Ik heb geen zin in de vakantie."
+          ],
+          "antwoord": 0,
+          "uitleg": "To look forward to something betekent ernaar uitkijken."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welk woord past bij het reizen?",
+          "rijen": [
+            "De plek waar je je bagage afgeeft op de luchthaven",
+            "Een biljet heen en terug",
+            "De plaats waar je trein vertrekt"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Op de luchthaven geef je je bagage af aan de check-in desk. Een return ticket is heen en terug. Een trein vertrekt van een platform (perron).",
+          "kolommen": [
+            "check-in desk",
+            "return ticket",
+            "platform"
+          ]
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een tekst die je wil overtuigen om iets te doen, heeft vaak een [[*gebiedende wijs|verleden tijd]], zoals in « [[*Join our club today!|We joined a club last year.]] »",
+          "uitleg": "Overtuigende teksten spreken de lezer rechtstreeks aan met een gebiedende wijs."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent: « The train was delayed because of the snow »?",
+          "opties": [
+            "De trein had vertraging door de sneeuw.",
+            "De trein werd afgeschaft na de sneeuw.",
+            "De trein reed sneller door de sneeuw.",
+            "De trein vertrok vroeger door de sneeuw."
+          ],
+          "antwoord": 0,
+          "uitleg": "To be delayed betekent vertraging hebben. Because of betekent door of wegens."
+        },
+        {
+          "type": "open",
+          "vraag": "Write a short message (4 to 6 sentences) to a friend. Invite him or her to your birthday party: say when and where it is, what you are going to do and ask for an answer.",
+          "antwoord": "Hi Sam! I'm having a birthday party next Saturday at my place. It starts at seven o'clock. We're going to have a barbecue and play some games in the garden. Can you come? Let me know by Thursday! See you, Lies",
+          "uitleg": "Een goed antwoord heeft een informele begroeting en afsluiting, vermeldt wanneer en waar het feest is, wat jullie gaan doen (going to), en vraagt om een antwoord."
+        }
+      ]
+    }
+  ]
+}
