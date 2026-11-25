@@ -1,0 +1,38 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1000 420' width='1000' height='420'>
+<rect width='1000' height='420' fill='#ffffff'/>
+<text x='40' y='52' font-family='Nunito, Arial, sans-serif' font-size='28' font-weight='800' fill='#2f4a22'>Een tijdlijn van het jaar 0 tot 1900</text>
+<rect x='50.0' y='170' width='225.47368421052636' height='110' fill='#e9efe2' stroke='#b9b29c' stroke-width='2'/>
+<text x='162.73684210526318' y='154' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='18' font-weight='700' fill='#2b2b2b'></text>
+<rect x='275.47368421052636' y='170' width='481.26315789473676' height='110' fill='#f6ecd9' stroke='#b9b29c' stroke-width='2'/>
+<text x='516.1052631578948' y='154' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='18' font-weight='700' fill='#2b2b2b'></text>
+<rect x='756.7368421052631' y='170' width='140.68421052631584' height='110' fill='#e3ecf2' stroke='#b9b29c' stroke-width='2'/>
+<text x='827.078947368421' y='154' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='18' font-weight='700' fill='#2b2b2b'></text>
+<rect x='897.421052631579' y='170' width='52.57894736842104' height='110' fill='#f3e3e3' stroke='#b9b29c' stroke-width='2'/>
+<text x='923.7105263157895' y='154' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='18' font-weight='700' fill='#2b2b2b'></text>
+<line x1='50.0' y1='280' x2='50.0' y2='296' stroke='#2b2b2b' stroke-width='2'/>
+<text x='50.0' y='320' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='19' fill='#2b2b2b'>0</text>
+<line x1='97.36842105263159' y1='280' x2='97.36842105263159' y2='288' stroke='#2b2b2b' stroke-width='2'/>
+<line x1='144.73684210526318' y1='280' x2='144.73684210526318' y2='288' stroke='#2b2b2b' stroke-width='2'/>
+<line x1='192.10526315789474' y1='280' x2='192.10526315789474' y2='288' stroke='#2b2b2b' stroke-width='2'/>
+<line x1='239.47368421052633' y1='280' x2='239.47368421052633' y2='288' stroke='#2b2b2b' stroke-width='2'/>
+<line x1='286.8421052631579' y1='280' x2='286.8421052631579' y2='296' stroke='#2b2b2b' stroke-width='2'/>
+<text x='286.8421052631579' y='320' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='19' fill='#2b2b2b'>500</text>
+<line x1='334.2105263157895' y1='280' x2='334.2105263157895' y2='288' stroke='#2b2b2b' stroke-width='2'/>
+<line x1='381.57894736842104' y1='280' x2='381.57894736842104' y2='288' stroke='#2b2b2b' stroke-width='2'/>
+<line x1='428.94736842105266' y1='280' x2='428.94736842105266' y2='288' stroke='#2b2b2b' stroke-width='2'/>
+<line x1='476.3157894736842' y1='280' x2='476.3157894736842' y2='288' stroke='#2b2b2b' stroke-width='2'/>
+<line x1='523.6842105263158' y1='280' x2='523.6842105263158' y2='296' stroke='#2b2b2b' stroke-width='2'/>
+<text x='523.6842105263158' y='320' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='19' fill='#2b2b2b'>1000</text>
+<line x1='571.0526315789474' y1='280' x2='571.0526315789474' y2='288' stroke='#2b2b2b' stroke-width='2'/>
+<line x1='618.421052631579' y1='280' x2='618.421052631579' y2='288' stroke='#2b2b2b' stroke-width='2'/>
+<line x1='665.7894736842105' y1='280' x2='665.7894736842105' y2='288' stroke='#2b2b2b' stroke-width='2'/>
+<line x1='713.1578947368421' y1='280' x2='713.1578947368421' y2='288' stroke='#2b2b2b' stroke-width='2'/>
+<line x1='760.5263157894736' y1='280' x2='760.5263157894736' y2='296' stroke='#2b2b2b' stroke-width='2'/>
+<text x='760.5263157894736' y='320' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='19' fill='#2b2b2b'>1500</text>
+<line x1='807.8947368421053' y1='280' x2='807.8947368421053' y2='288' stroke='#2b2b2b' stroke-width='2'/>
+<line x1='855.2631578947369' y1='280' x2='855.2631578947369' y2='288' stroke='#2b2b2b' stroke-width='2'/>
+<line x1='902.6315789473684' y1='280' x2='902.6315789473684' y2='288' stroke='#2b2b2b' stroke-width='2'/>
+<line x1='950.0' y1='280' x2='950.0' y2='288' stroke='#2b2b2b' stroke-width='2'/>
+<line x1='50' y1='280' x2='950' y2='280' stroke='#2b2b2b' stroke-width='2.5'/>
+<text x='50' y='370' font-family='Nunito, Arial, sans-serif' font-size='18' fill='#6b6b6b'>Elke kleur is één periode. De namen van de periodes staan er met opzet niet bij.</text>
+</svg>

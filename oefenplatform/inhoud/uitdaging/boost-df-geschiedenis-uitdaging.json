@@ -1,0 +1,601 @@
+{
+  "hoofdstukken": [
+    {
+      "titel": "Uitdaging — alles door elkaar",
+      "niveau": "boost-dubbele-finaliteit",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "Bekijk de tijdlijn. Klik op de periode waarin de Guldensporenslag plaatsvond.",
+          "afbeelding_url": "/examenvormen/geschiedenis-boost-df-uitdaging/tijdlijn-periodes.svg",
+          "zones": [
+            [
+              27.5,
+              40.5,
+              48.1,
+              26.2
+            ]
+          ],
+          "uitleg": "De Guldensporenslag was in 1302. Dat valt in de middeleeuwen, die lopen van 476 tot ongeveer 1492."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de periode waarin de driehoekshandel tussen Europa, Afrika en Amerika op gang kwam.",
+          "afbeelding_url": "/examenvormen/geschiedenis-boost-df-uitdaging/tijdlijn-periodes.svg",
+          "zones": [
+            [
+              75.7,
+              40.5,
+              14.1,
+              26.2
+            ]
+          ],
+          "uitleg": "Na de ontdekkingsreizen vanaf 1492 ontstonden kolonies in Amerika. De driehoekshandel hoort bij de Nieuwe Tijd."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de periode waarin de Romeinen over onze gewesten heersten.",
+          "afbeelding_url": "/examenvormen/geschiedenis-boost-df-uitdaging/tijdlijn-periodes.svg",
+          "zones": [
+            [
+              5.0,
+              40.5,
+              22.5,
+              26.2
+            ]
+          ],
+          "uitleg": "Het Romeinse Rijk hoort bij de oudheid. Het West-Romeinse Rijk viel symbolisch in 476."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welke gebeurtenis gebruikt men als grens bij dit jaartal?",
+          "rijen": [
+            "476",
+            "1492",
+            "1789"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Historici kiezen een symbolische gebeurtenis als grens tussen twee periodes: de val van Rome, de reis van Columbus en de Franse Revolutie.",
+          "kolommen": [
+            "Val van het West-Romeinse Rijk",
+            "Columbus bereikt Amerika",
+            "Franse Revolutie"
+          ],
+          "afbeelding_url": "/examenvormen/geschiedenis-boost-df-uitdaging/tijdlijn-periodes.svg"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom zijn de grenzen op deze tijdlijn eerder afspraken dan harde breuken?",
+          "opties": [
+            "De samenleving verandert niet overal tegelijk.",
+            "Historici weten niet in welk jaar de gebeurtenissen plaatsvonden.",
+            "Elke grens werd door één vorst gekozen en daarna overal ingevoerd.",
+            "Na elke grens begon de tijdrekening opnieuw bij het jaar nul."
+          ],
+          "antwoord": 0,
+          "uitleg": "Een periodegrens is een symbolische datum. Veranderingen in economie, cultuur en politiek lopen niet gelijk en verschillen van plaats tot plaats.",
+          "afbeelding_url": "/examenvormen/geschiedenis-boost-df-uitdaging/tijdlijn-periodes.svg"
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Lees de verzonnen brief. Klik op de zin waarin de schrijver zegt dat hij iets met eigen ogen gezien heeft.",
+          "afbeelding_url": "/examenvormen/geschiedenis-boost-df-uitdaging/brief-pest-1349.svg",
+          "zones": [
+            [
+              2,
+              40.8,
+              96,
+              13.7
+            ]
+          ],
+          "uitleg": "In zin 3 is de schrijver ooggetuige: hij heeft de kar zelf zien rijden. In zin 4 geeft hij door wat anderen zeggen."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de zin waarin de schrijver uit een gerucht iets besluit over een hele groep mensen.",
+          "afbeelding_url": "/examenvormen/geschiedenis-boost-df-uitdaging/brief-pest-1349.svg",
+          "zones": [
+            [
+              2,
+              68.2,
+              96,
+              13.7
+            ]
+          ],
+          "uitleg": "Uit een gerucht over enkele kooplui besluit de schrijver iets over alle vreemdelingen. Dat is een veralgemening."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over de brief?",
+          "rijen": [
+            "Zin 1 geeft de plaats en de datum van de bron.",
+            "De brief is een bron uit de Nieuwe Tijd.",
+            "Zin 4 bewijst dat de kooplui de pest meebrachten.",
+            "Zin 6 toont hoe veel mensen toen de ramp verklaarden."
+          ],
+          "antwoord": [
+            true,
+            false,
+            false,
+            true
+          ],
+          "uitleg": "1349 valt in de middeleeuwen. Zin 4 geeft een gerucht weer, geen bewijs. Zin 6 toont een opvatting uit die tijd: de pest als straf van God.",
+          "afbeelding_url": "/examenvormen/geschiedenis-boost-df-uitdaging/brief-pest-1349.svg"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat voor bron zou deze brief zijn, als hij echt was?",
+          "opties": [
+            "een primaire bron, want hij komt uit de tijd zelf",
+            "een secundaire bron, want hij is met de hand geschreven",
+            "een secundaire bron, want de schrijver is een koopman",
+            "geen bron, want er staan meningen in die niet kloppen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een primaire bron komt uit de tijd die je onderzoekt. Ook een bron met meningen of fouten is bruikbaar: ze toont hoe mensen toen dachten.",
+          "afbeelding_url": "/examenvormen/geschiedenis-boost-df-uitdaging/brief-pest-1349.svg"
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Zin 6 hoort vooral bij het [[*culturele|economische|politieke]] domein. De pest liet de bevolking sterk [[*dalen|stijgen]].",
+          "uitleg": "Geloof en verklaringen van de wereld horen bij het culturele domein. De zwarte dood doodde een groot deel van de bevolking van Europa.",
+          "afbeelding_url": "/examenvormen/geschiedenis-boost-df-uitdaging/brief-pest-1349.svg"
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet deze gebeurtenissen in de juiste volgorde.",
+          "opties": [
+            "de val van het West-Romeinse Rijk",
+            "de doop van Clovis",
+            "de keizerskroning van Karel de Grote",
+            "het verdrag van Verdun",
+            "de Guldensporenslag",
+            "de zwarte dood in Europa"
+          ],
+          "uitleg": "476, rond 500, 800, 843, 1302 en vanaf 1347."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom viel het Frankische Rijk telkens weer uiteen in kleinere delen?",
+          "opties": [
+            "Bij de dood van een koning kreeg elke zoon een deel.",
+            "De paus verdeelde na elke kroning het land onder de bisschoppen.",
+            "De Romeinen veroverden telkens een deel van het rijk terug.",
+            "De graven kozen bij elke nieuwe koning een eigen hoofdstad."
+          ],
+          "antwoord": 0,
+          "uitleg": "Het Frankische erfrecht verdeelde het rijk onder de zonen. Zo viel het na Karel de Grote uiteen, onder meer bij het verdrag van Verdun."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Bij welke stand hoort deze taak in de middeleeuwse driedeling?",
+          "rijen": [
+            "bidden voor het zielenheil van iedereen",
+            "het land verdedigen met de wapens",
+            "het land bewerken en voedsel voortbrengen"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "De middeleeuwse samenleving zag drie standen: wie bidt, wie vecht en wie werkt.",
+          "kolommen": [
+            "Geestelijkheid",
+            "Adel",
+            "Derde stand"
+          ]
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elk begrip aan zijn betekenis.",
+          "paren": [
+            [
+              "horige",
+              "onvrije boer die gebonden is aan het domein van zijn heer"
+            ],
+            [
+              "ambacht",
+              "vereniging van ambachtslui met hetzelfde beroep"
+            ],
+            [
+              "keure",
+              "document met de rechten van een stad"
+            ],
+            [
+              "leenman",
+              "edelman die land krijgt in ruil voor trouw en hulp"
+            ]
+          ],
+          "extra": [
+            "vrije boer die zijn eigen land in eigendom heeft"
+          ],
+          "uitleg": "Op het domein werkten horigen voor de heer. In de steden verenigden ambachtslui zich in ambachten, en een keure legde de stadsrechten vast. Een leenman kreeg een leen van een leenheer."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Is dit kenmerk romaans of gotisch?",
+          "kolommen": [
+            "Romaans",
+            "Gotisch"
+          ],
+          "items": [
+            [
+              "ronde bogen",
+              "Romaans"
+            ],
+            [
+              "spitsbogen",
+              "Gotisch"
+            ],
+            [
+              "dikke muren met kleine vensters",
+              "Romaans"
+            ],
+            [
+              "grote glasramen met veel licht",
+              "Gotisch"
+            ],
+            [
+              "luchtbogen en steunberen aan de buitenkant",
+              "Gotisch"
+            ]
+          ],
+          "uitleg": "Romaanse kerken hebben dikke muren die het dak dragen, en dus weinig vensters. Gotische bouwers leidden het gewicht af via spitsbogen, steunberen en luchtbogen, zodat er grote ramen konden komen."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "In 1302 versloeg een Vlaams leger met veel [[*stedelingen|ridders]] het leger van de Franse koning. Vlaamsgezinden vieren die slag later op [[*11 juli|21 juli]].",
+          "uitleg": "Bij de Guldensporenslag vochten veel ambachtslui uit de steden. De Vlaamse Gemeenschap viert haar feestdag op 11 juli. Op 21 juli is de nationale feestdag van België."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "In welk jaar werd de Bastille in Parijs bestormd? Geef enkel het jaartal.",
+          "antwoord": "1789",
+          "uitleg": "Op 14 juli 1789 bestormde een menigte de Bastille. Die dag geldt als het begin van de Franse Revolutie."
+        },
+        {
+          "type": "tabel",
+          "vraag": "In welk maatschappelijk domein hoort dit vooral thuis?",
+          "rijen": [
+            "de handel in specerijen met Azië",
+            "de kroning van een koning",
+            "de verering van heiligen",
+            "de verhouding tussen heer en horige"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "uitleg": "Economisch gaat over geld, handel en productie. Politiek over macht en bestuur. Cultureel over geloof, kunst en kennis. Sociaal over hoe groepen mensen samenleven.",
+          "kolommen": [
+            "Economisch",
+            "Politiek",
+            "Cultureel",
+            "Sociaal"
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom zochten Portugezen en Spanjaarden in de 15de eeuw een zeeroute naar Azië?",
+          "opties": [
+            "Om de specerijen zonder dure tussenhandelaars te kopen.",
+            "Om nieuwe kloosters te stichten in de Romeinse provincies.",
+            "Omdat het Frankische Rijk de landroutes had afgesloten.",
+            "Omdat de pest in Azië al lang verdwenen was en daar niet."
+          ],
+          "antwoord": 0,
+          "uitleg": "Specerijen kwamen over land via Arabische, Ottomaanse en Venetiaanse tussenhandelaars en werden onderweg steeds duurder. Een eigen zeeroute moest dat omzeilen."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Hoort dit bij de Reformatie of bij de Contrareformatie?",
+          "kolommen": [
+            "Reformatie",
+            "Contrareformatie"
+          ],
+          "items": [
+            [
+              "de Bijbel als enige bron van het geloof",
+              "Reformatie"
+            ],
+            [
+              "het concilie van Trente",
+              "Contrareformatie"
+            ],
+            [
+              "Luther en zijn kritiek op de aflaten",
+              "Reformatie"
+            ],
+            [
+              "prachtige barokkerken die de gelovigen moeten raken",
+              "Contrareformatie"
+            ]
+          ],
+          "uitleg": "De Reformatie van Luther brak met Rome. De katholieke Kerk antwoordde met de Contrareformatie: Trente legde de leer vast en de barokkunst moest de gelovigen opnieuw aanspreken."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Na de dood van Karel de Grote werd zijn rijk in 843 bij het verdrag van [[*Verdun|Trente|Wenen]] verdeeld. Daaruit groeiden later de koninkrijken [[*Frankrijk en Duitsland|Spanje en Portugal]].",
+          "uitleg": "Het verdrag van Verdun verdeelde het rijk onder de kleinzonen van Karel de Grote. Het westelijke deel werd later Frankrijk, het oostelijke Duitsland."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over de middeleeuwse stad?",
+          "rijen": [
+            "Een stad kreeg haar rechten vaak van de vorst in een keure.",
+            "Ambachtslui met hetzelfde beroep verenigden zich in een ambacht.",
+            "In de stad waren alle inwoners horigen van een heer.",
+            "De stadsbevolking groeide mee met de handel."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Stadslucht maakt vrij, zei men: wie in de stad woonde, was geen horige meer. Steden groeiden door handel en nijverheid en kregen eigen rechten."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Wat werd er vervoerd op elk traject van de driehoekshandel?",
+          "rijen": [
+            "van Europa naar West-Afrika",
+            "van West-Afrika naar Amerika",
+            "van Amerika naar Europa"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Europese handelaars ruilden goederen in Afrika voor mensen, die als slaven naar de plantages in Amerika gingen. De producten van die plantages gingen naar Europa.",
+          "kolommen": [
+            "Wapens, textiel en drank",
+            "Tot slaaf gemaakte mensen",
+            "Suiker, katoen en tabak"
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Was dit een gevolg van de Europese kolonisatie van Amerika?",
+          "rijen": [
+            "Een groot deel van de inheemse bevolking stierf aan ziekten uit Europa.",
+            "Grote gebieden werden met één gewas beplant voor de uitvoer.",
+            "De inheemse volken kregen meer politieke macht in Europa.",
+            "Er kwamen nieuwe gewassen zoals de aardappel naar Europa."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "De kolonisatie bracht ziekten, monocultuur en uitbuiting. De uitwisseling van gewassen veranderde ook de Europese landbouw. Politieke macht kregen de inheemse volken er niet bij."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elke persoon aan wat bij hem past.",
+          "paren": [
+            [
+              "Luther",
+              "redding door het geloof alleen"
+            ],
+            [
+              "Erasmus",
+              "humanist die de klassieke teksten bestudeerde"
+            ],
+            [
+              "Michelangelo",
+              "beeldhouwer van de renaissance"
+            ],
+            [
+              "Rubens",
+              "schilder van de barok"
+            ]
+          ],
+          "extra": [
+            "absolute vorst die zei: de staat ben ik",
+            "filosoof van de scheiding der machten"
+          ],
+          "uitleg": "Luther begon de Reformatie, Erasmus was een humanist, Michelangelo maakte onder meer de David en Rubens is de grote barokschilder uit Antwerpen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is dit kenmerk renaissance of barok?",
+          "rijen": [
+            "rust, evenwicht en klassieke verhoudingen",
+            "veel beweging, drama en sterke lichtcontrasten",
+            "kunst die de pracht van Kerk en vorst moet tonen",
+            "de mens zelf in het middelpunt, naar het voorbeeld van de oudheid"
+          ],
+          "antwoord": [
+            0,
+            1,
+            1,
+            0
+          ],
+          "uitleg": "De renaissance zocht harmonie en het menselijke, naar het voorbeeld van Grieken en Romeinen. De barok wil indruk maken: beweging, emotie, licht en donker.",
+          "kolommen": [
+            "Renaissance",
+            "Barok"
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat wilde de Kerk met het concilie van Trente?",
+          "opties": [
+            "De katholieke leer opnieuw vastleggen na de Reformatie.",
+            "De protestantse leer van Luther overal officieel goedkeuren.",
+            "De paus vervangen door een raad van verkozen vorsten uit Europa.",
+            "Het Latijn als taal van de mis voorgoed laten verdwijnen."
+          ],
+          "antwoord": 0,
+          "uitleg": "Met het concilie van Trente zette de katholieke Kerk haar leer op een rij en voerde ze hervormingen door. Dat heet de Contrareformatie."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Lodewijk XIV regeerde als [[*absoluut|parlementair]] vorst: alle macht lag bij hem. Locke vond dat elke mens [[*natuurrechten|geen rechten]] heeft, zoals leven, vrijheid en bezit. Montesquieu pleitte voor de [[*scheiding der machten|macht van één vorst]].",
+          "uitleg": "Het absolutisme legt alle macht bij één vorst. Verlichtingsdenkers als Locke en Montesquieu wilden die macht beperken met rechten en een verdeling van de macht."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet de gebeurtenissen in de Nederlanden in de juiste volgorde.",
+          "opties": [
+            "Karel V regeert over de Nederlanden",
+            "de Beeldenstorm",
+            "de Opstand tegen Filips II",
+            "de scheiding tussen Noord en Zuid"
+          ],
+          "uitleg": "Karel V werd opgevolgd door zijn zoon Filips II. Na de Beeldenstorm van 1566 brak de Opstand uit. Op het einde van de 16de eeuw scheidden de Noordelijke en de Zuidelijke Nederlanden."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over de revoluties op het einde van de 18de eeuw?",
+          "rijen": [
+            "De Amerikaanse Onafhankelijkheidsverklaring dateert van 1776.",
+            "De Franse Revolutie begon met de bestorming van de Bastille.",
+            "Na de Franse Revolutie kreeg de adel er nieuwe voorrechten bij.",
+            "Beide revoluties steunden op ideeën van de Verlichting."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "De Amerikanen verklaarden zich in 1776 onafhankelijk. Op 14 juli 1789 werd de Bastille bestormd. De Franse Revolutie schafte de voorrechten van adel en geestelijkheid af."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "De industriële revolutie begon in [[*Groot-Brittannië|Frankrijk|de Nederlanden]]. Watt maakte de [[*stoommachine|spinmachine|drukpers]] zuiniger en bruikbaar voor allerlei fabrieken.",
+          "uitleg": "Groot-Brittannië had steenkool, kapitaal, arbeidskrachten en een grote markt. De verbeterde stoommachine dreef fabrieken, treinen en schepen aan."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe verschilt een fabriek van een vroegere manufactuur?",
+          "opties": [
+            "In een fabriek doen machines het zware werk.",
+            "In een manufactuur werkt men enkel thuis.",
+            "Een fabriek maakt enkel voedsel voor de stad.",
+            "Een manufactuur hoort bij de oudheid en niet later."
+          ],
+          "antwoord": 0,
+          "uitleg": "In een manufactuur werkten veel arbeiders samen met de hand. In een fabriek draaien machines, aangedreven door bijvoorbeeld stoom."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is dit een aanbodfactor voor de industriële revolutie?",
+          "rijen": [
+            "veel steenkool en ijzererts in de grond",
+            "kapitaal van rijke handelaars",
+            "arbeidskrachten die van het platteland naar de stad trokken",
+            "een daling van de bevolking"
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Aanbodfactoren maken de productie mogelijk: grondstoffen, kapitaal en arbeid. De bevolking groeide net, waardoor er meer arbeiders en meer kopers waren."
+        },
+        {
+          "casus": "In 1453 veroverden de Ottomanen Constantinopel. Onder Suleyman I groeide het rijk verder en in 1529 belegerde het Ottomaanse leger Wenen.",
+          "vragen": [
+            {
+              "type": "meerkeuze",
+              "vraag": "Welke naam kreeg Constantinopel later?",
+              "opties": [
+                "Istanboel",
+                "Ankara",
+                "Jeruzalem",
+                "Alexandrië"
+              ],
+              "antwoord": 0,
+              "uitleg": "De Ottomanen maakten van Constantinopel hun hoofdstad. Die stad heet vandaag Istanboel."
+            },
+            {
+              "type": "tabel",
+              "vraag": "Klopt dit over het Ottomaanse Rijk?",
+              "rijen": [
+                "De sultan regeerde als absoluut heerser, net als Lodewijk XIV in Frankrijk.",
+                "Het beleg van Wenen in 1529 was een Ottomaanse overwinning.",
+                "Het rijk lag op het kruispunt van handelsroutes tussen Europa en Azië."
+              ],
+              "antwoord": [
+                true,
+                false,
+                true
+              ],
+              "uitleg": "Ook de sultan had alle macht en hoefde aan niemand verantwoording af te leggen. Wenen hield in 1529 stand. Het rijk controleerde belangrijke handelswegen."
+            }
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is dit een goede, onderzoekbare historische vraag?",
+          "rijen": [
+            "Waarom kwamen de Vlaamse steden in 1302 in opstand tegen de Franse koning?",
+            "Was Karel de Grote een sympathieke man?",
+            "Hoe veranderde de zwarte dood de bevolking van Brugge tussen 1340 en 1360?",
+            "Wat zou er gebeurd zijn als Columbus nooit vertrokken was?"
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Een onderzoekbare vraag kan je met bronnen beantwoorden en is afgebakend in tijd en ruimte. Persoonlijke smaak en wat-als-vragen kan je niet met bronnen onderzoeken."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom vergelijk je best verschillende bronnen over dezelfde gebeurtenis?",
+          "opties": [
+            "Elke bron is gemaakt door iemand met een eigen blik en doel.",
+            "Hoe meer bronnen je leest, hoe minder werk je nadien hebt.",
+            "Oudere bronnen zijn altijd juister dan nieuwere bronnen erover.",
+            "Een historicus mag maar één bron gebruiken per vraag die hij stelt."
+          ],
+          "antwoord": 0,
+          "uitleg": "Wie een bron maakt, kiest wat hij vertelt en verzwijgt. Door bronnen naast elkaar te leggen, zie je verschillen en kom je dichter bij wat er gebeurde."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Een historicus [[situeert]] een gebeurtenis in tijd en ruimte. Als twee dingen in hetzelfde jaar gebeuren op plaatsen die niets van elkaar weten, spreekt hij van [[gelijktijdigheid]]. Hoe lang een toestand duurt, noemt hij de [[duur]].",
+          "extra": [
+            "veralgemening",
+            "chronologie"
+          ],
+          "uitleg": "Dat zijn begrippen van het historisch referentiekader: situeren, gelijktijdigheid en duur."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom kan het beeld van een gebeurtenis zoals de Guldensporenslag in de loop van de tijd veranderen?",
+          "opties": [
+            "Er komen nieuwe bronnen en nieuwe vragen, en elke tijd kijkt anders.",
+            "De gebeurtenis zelf verandert telkens als er een boek over verschijnt.",
+            "Historici mogen na honderd jaar zelf beslissen wat er gebeurd is.",
+            "Oude bronnen worden na een tijd onleesbaar en dus onbruikbaar."
+          ],
+          "antwoord": 0,
+          "uitleg": "Het verleden zelf verandert niet, het beeld ervan wel. In de 19de eeuw maakten Vlaamsgezinden van 1302 een symbool van Vlaamse trots, terwijl het toen vooral om de steden en de graaf ging."
+        },
+        {
+          "type": "open",
+          "vraag": "Vergelijk het absolutisme van Lodewijk XIV met de ideeën van de Verlichting. Noem een verschil en leg uit waarom de Verlichting voor vorsten gevaarlijk kon zijn.",
+          "antwoord": "Bij Lodewijk XIV lag alle macht bij de koning, die aan niemand verantwoording aflegde. Verlichtingsdenkers zoals Montesquieu wilden de macht verdelen over wetgevende, uitvoerende en rechterlijke macht, en Locke vond dat elke mens natuurrechten heeft. Dat was gevaarlijk voor vorsten, omdat het volk zo kon eisen dat de macht van de koning beperkt werd, zoals later in de Amerikaanse en Franse Revolutie gebeurde.",
+          "uitleg": "Een goed antwoord noemt een concreet verschil, bijvoorbeeld alle macht bij één persoon tegenover de scheiding der machten, en legt het verband met de revoluties."
+        }
+      ]
+    }
+  ]
+}

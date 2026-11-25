@@ -43,7 +43,7 @@ export const updates: Update[] = [
     datum: "25 november 2026",
     titel: "Uitdaging van 40 vragen in Boost en Beyond",
     tekst:
-      "Elk vak in Boost en Beyond krijgt een uitdaging: 40 vragen die alle hoofdstukken door elkaar halen, net als op een echt examen. Je leest teksten en grafieken, klikt op prenten, vult tabellen in, sleept woorden op hun plaats en schrijft af en toe zelf een kort antwoord. Klaar: Nederlands, Wiskunde, Filosofie en recht, Aardrijkskunde, Biologie en Sociale en gedragswetenschappen in Beyond, Wiskunde, Natuurwetenschappen en Fysica in Boost doorstroom en Nederlands, Wiskunde, Natuurwetenschappen en Economie en bedrijfswetenschappen in Boost dubbele finaliteit. De andere vakken volgen.",
+      "Elk vak in Boost en Beyond krijgt een uitdaging: 40 vragen die alle hoofdstukken door elkaar halen, net als op een echt examen. Je leest teksten en grafieken, klikt op prenten, vult tabellen in, sleept woorden op hun plaats en schrijft af en toe zelf een kort antwoord. Klaar: Nederlands, Wiskunde, Filosofie en recht, Aardrijkskunde, Biologie en Sociale en gedragswetenschappen in Beyond, Wiskunde, Natuurwetenschappen en Fysica in Boost doorstroom en Nederlands, Wiskunde, Natuurwetenschappen, Geschiedenis en Economie en bedrijfswetenschappen in Boost dubbele finaliteit. De andere vakken volgen.",
   },
   {
     datum: "25 november 2026",
