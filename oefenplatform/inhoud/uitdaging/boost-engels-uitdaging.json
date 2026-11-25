@@ -1,0 +1,525 @@
+{
+  "hoofdstukken": [
+    {
+      "titel": "Uitdaging — alles door elkaar",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "Lees het verhaal 'A rainy Saturday'. Klik op de zin met een past perfect.",
+          "afbeelding_url": "/examenvormen/engels-boost-uitdaging/verhaal-trein.svg",
+          "zones": [
+            [
+              2,
+              40.8,
+              96,
+              13.7
+            ]
+          ],
+          "uitleg": "'The train had already left' is een past perfect (had + voltooid deelwoord). Het vertrek van de trein gebeurde vóór ze op het perron kwamen."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de zin die een achtergrond schetst met de past continuous.",
+          "afbeelding_url": "/examenvormen/engels-boost-uitdaging/verhaal-trein.svg",
+          "zones": [
+            [
+              2,
+              27.1,
+              96,
+              13.7
+            ]
+          ],
+          "uitleg": "'They were cycling' (was/were + -ing) beschrijft wat er aan de gang was. Dat is de typische achtergrond in een verhaal."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de zin die naar de toekomst kijkt.",
+          "afbeelding_url": "/examenvormen/engels-boost-uitdaging/verhaal-trein.svg",
+          "zones": [
+            [
+              2,
+              81.8,
+              96,
+              13.7
+            ]
+          ],
+          "uitleg": "'They will never forget' gebruikt will + infinitief en kijkt vooruit."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Lees het verhaal opnieuw. Klopt dit?",
+          "rijen": [
+            "Tom en zijn zus gingen met de fiets naar het station.",
+            "Ze kwamen te laat voor de trein.",
+            "Tom was boos op zijn zus.",
+            "De volgende trein kwam pas een uur later."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            false
+          ],
+          "uitleg": "Ze fietsten naar het station (by bike) en de trein was al weg. De zus was boos, Tom lachte. Er kwam een trein in twintig minuten.",
+          "afbeelding_url": "/examenvormen/engels-boost-uitdaging/verhaal-trein.svg"
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "In zin 4 legt 'but' een [[*tegenstelling|oorzaak|opsomming]]. In zin 5 verwijst 'he' naar [[*Tom|de trein|Toms zus]].",
+          "uitleg": "'But' kondigt een tegenstelling aan: de zus was boos, Tom lachte. 'He' verwijst naar de enige man in het verhaal, Tom.",
+          "afbeelding_url": "/examenvormen/engels-boost-uitdaging/verhaal-trein.svg"
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Lees de mail aan Lisa. Klik op de zin waarmee Sara haar uitnodigt.",
+          "afbeelding_url": "/examenvormen/engels-boost-uitdaging/mail-feestje.svg",
+          "zones": [
+            [
+              2,
+              40.8,
+              96,
+              13.7
+            ]
+          ],
+          "uitleg": "'Would you like to come …?' is een beleefde uitnodiging."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de zin waarin Sara een advies geeft.",
+          "afbeelding_url": "/examenvormen/engels-boost-uitdaging/mail-feestje.svg",
+          "zones": [
+            [
+              2,
+              68.2,
+              96,
+              13.7
+            ]
+          ],
+          "uitleg": "'You should …' geeft een advies."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom past 'Love, Sara' hier als afsluiter?",
+          "opties": [
+            "Het is een informele mail aan een vriendin.",
+            "Het is een formele brief aan een onbekende.",
+            "Sara kent de naam van de ontvanger niet goed.",
+            "In elke Engelse mail sluit je altijd zo af."
+          ],
+          "antwoord": 0,
+          "uitleg": "'Love' en 'Hi' passen bij een informele mail. In een formele brief aan een onbekende gebruik je 'Dear Sir or Madam' en 'Yours faithfully'.",
+          "afbeelding_url": "/examenvormen/engels-boost-uitdaging/mail-feestje.svg"
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "In zin 4 betekent 'you don't have to bring anything' dat Lisa [[*niets hoeft mee te brengen|niets mag meebrengen]]. Je gebruikt 'anything' omdat de zin [[*ontkennend|bevestigend]] is.",
+          "uitleg": "'Don't have to' betekent 'hoeft niet'. 'Mustn't' betekent 'mag niet'. In vragen en ontkenningen gebruik je anything.",
+          "afbeelding_url": "/examenvormen/engels-boost-uitdaging/mail-feestje.svg"
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welke tijd past het best?",
+          "rijen": [
+            "She usually ___ (walk) to school.",
+            "Look! It ___ (snow).",
+            "I ___ (live) here since 2020.",
+            "Water ___ (boil) at 100 °C."
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            0
+          ],
+          "uitleg": "Gewoontes en feiten: present simple. Iets wat nu bezig is: present continuous. Iets wat in het verleden begon en nog duurt, met since: present perfect.",
+          "kolommen": [
+            "Present simple",
+            "Present continuous",
+            "Present perfect"
+          ]
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul de juiste vorm in: My brother ___ (study) every evening. Schrijf één woord.",
+          "antwoord": [
+            "studies"
+          ],
+          "uitleg": "Derde persoon enkelvoud: -s. Na medeklinker + y wordt het -ies: studies."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "I have lived in Ghent [[*for|since]] ten years. She has been waiting [[*since|for]] nine o'clock.",
+          "uitleg": "For gebruik je bij een duur (ten years). Since gebruik je bij een beginmoment (nine o'clock)."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is de past simple juist geschreven?",
+          "rijen": [
+            "buy → bought",
+            "stop → stoped",
+            "go → went",
+            "try → tried"
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            true
+          ],
+          "uitleg": "Stop verdubbelt de medeklinker: stopped. Buy en go zijn onregelmatig, try wordt tried."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Kijk naar die donkere wolken: it [[*is going to|will]] rain. Wacht, ik help je met die zware tas: I [[*will|am going to]] carry it.",
+          "uitleg": "Going to gebruik je als je iets al ziet aankomen. Will gebruik je bij een plotse beslissing of aanbod."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan met één woord: ___ you see the match yesterday? Gebruik de juiste hulpwerkwoordvorm.",
+          "antwoord": [
+            "Did",
+            "did"
+          ],
+          "uitleg": "In een vraag in de past simple gebruik je did, en het werkwoord blijft in de basisvorm: Did you see …?"
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel de zin aan de betekenis.",
+          "paren": [
+            [
+              "You mustn't smoke here.",
+              "Het is verboden."
+            ],
+            [
+              "You don't have to come.",
+              "Het is niet nodig."
+            ],
+            [
+              "You should rest.",
+              "Het is een goed advies."
+            ],
+            [
+              "You can swim.",
+              "Je bent het in staat."
+            ]
+          ],
+          "extra": [],
+          "uitleg": "Mustn't is een verbod, don't have to betekent dat het niet nodig is, should geeft een advies en can drukt een vermogen uit."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin vraagt het meest beleefd om toestemming?",
+          "opties": [
+            "May I open the window, please?",
+            "Open the window now, it is too warm!",
+            "I open the window and that is it.",
+            "You must open the window for me."
+          ],
+          "antwoord": 0,
+          "uitleg": "Met 'May I …?' vraag je op een formele manier om toestemming."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Welke vorm volgt na dit werkwoord?",
+          "kolommen": [
+            "-ing-vorm",
+            "to + infinitief"
+          ],
+          "items": [
+            [
+              "enjoy",
+              "-ing-vorm"
+            ],
+            [
+              "want",
+              "to + infinitief"
+            ],
+            [
+              "finish",
+              "-ing-vorm"
+            ],
+            [
+              "decide",
+              "to + infinitief"
+            ]
+          ],
+          "uitleg": "Na enjoy en finish komt de -ing-vorm: I enjoy reading. Na want en decide komt to + infinitief: I want to go."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "This is the girl [[*whose|who|which]] bike was stolen. The phone [[*that|who]] I bought last week is broken.",
+          "uitleg": "Whose geeft een bezit aan. Bij een ding gebruik je that of which, niet who."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is deze Engelse zin met een voornaamwoord juist?",
+          "rijen": [
+            "She hurt herself when she fell.",
+            "This bag is my.",
+            "Everybody is here.",
+            "These books are for they."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Wederkerend: herself. Een zelfstandig bezittelijk voornaamwoord: mine. Everybody neemt een enkelvoud. Na een voorzetsel: them."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "He sings very [[*well|good]]. This soup smells [[*good|well]].",
+          "uitleg": "Bij een werkwoord als zingen hoort het bijwoord well. Na een koppelwerkwoord als smell komt een bijvoeglijk naamwoord: good."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is de vergrotende of overtreffende trap juist?",
+          "rijen": [
+            "big → bigger",
+            "good → goodest",
+            "expensive → more expensive",
+            "bad → worst"
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            true
+          ],
+          "uitleg": "Big verdubbelt de medeklinker. Good wordt better en best. Lange woorden krijgen more en most. Bad wordt worse en worst."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "I was born [[*on|in|at]] 14 March. We arrived [[*at|to]] the station at six.",
+          "uitleg": "Bij een datum gebruik je on. Je komt aan at een station (een punt) en in een stad of land."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Wat is het meervoud?",
+          "rijen": [
+            "child → children",
+            "city → citys",
+            "sheep → sheep",
+            "knife → knives"
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            true
+          ],
+          "uitleg": "City wordt cities. Child en sheep zijn onregelmatig, knife wordt knives."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "How [[*much|many]] water do you need? There are only a [[*few|little]] students in the classroom.",
+          "uitleg": "Much en a little bij ontelbare woorden zoals water. Many en a few bij telbare woorden zoals students."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Schrijf het rangtelwoord bij 3 voluit in het Engels.",
+          "antwoord": [
+            "third"
+          ],
+          "uitleg": "One, two, three → first, second, third."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet de woorden in de juiste volgorde: een vraag naar een gewoonte.",
+          "opties": [
+            "Does",
+            "your sister",
+            "play",
+            "tennis",
+            "on Sundays?"
+          ],
+          "uitleg": "Een vraag in de present simple: does + onderwerp + basisvorm van het werkwoord."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Unless you hurry, you will miss the bus. Dat betekent: [[*als je je niet haast|als je je haast]], mis je de bus. If it rains tomorrow, we [[*will stay|would stay|stayed]] at home.",
+          "uitleg": "Unless betekent 'als … niet'. In een voorwaardelijke zin over iets wat echt kan gebeuren: if + present simple, will + infinitief."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Welk verband legt dit signaalwoord?",
+          "kolommen": [
+            "Tegenstelling",
+            "Oorzaak",
+            "Gevolg"
+          ],
+          "items": [
+            [
+              "although",
+              "Tegenstelling"
+            ],
+            [
+              "because",
+              "Oorzaak"
+            ],
+            [
+              "so",
+              "Gevolg"
+            ],
+            [
+              "despite",
+              "Tegenstelling"
+            ],
+            [
+              "therefore",
+              "Gevolg"
+            ]
+          ],
+          "uitleg": "Although en despite: tegenstelling. Because: oorzaak. So en therefore: gevolg."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "'The library will be closed from 3 to 10 August for building work.' Welke tekstsoort is dit vooral?",
+          "opties": [
+            "informatief",
+            "verhalend",
+            "overtuigend",
+            "literair en poëtisch"
+          ],
+          "antwoord": 0,
+          "uitleg": "De tekst deelt een feit mee zonder mening of verhaal: informatief."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel het Britse woord aan het Amerikaanse woord.",
+          "paren": [
+            [
+              "lift",
+              "elevator"
+            ],
+            [
+              "autumn",
+              "fall"
+            ],
+            [
+              "flat",
+              "apartment"
+            ],
+            [
+              "biscuit",
+              "cookie"
+            ]
+          ],
+          "extra": [
+            "platform"
+          ],
+          "uitleg": "Britten en Amerikanen gebruiken soms een ander woord voor hetzelfde."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Mijn zus heeft een zoon. Die jongen is mijn [[nephew]]. Haar dochter is mijn [[niece]].",
+          "extra": [
+            "cousin",
+            "uncle"
+          ],
+          "uitleg": "Nephew is neef (zoon van je broer of zus), niece is nicht. Cousin is het kind van je oom of tante."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over de Engelstalige wereld?",
+          "rijen": [
+            "Een Britse datum 5/3/2027 is 5 maart 2027.",
+            "Football betekent in de Verenigde Staten hetzelfde als bij ons.",
+            "Het Verenigd Koninkrijk bestaat uit vier landsdelen."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Britten schrijven eerst de dag. In de VS is football American football; ons voetbal heet daar soccer."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe begin je een mail aan een onbekende medewerker van een school?",
+          "opties": [
+            "Dear Sir or Madam,",
+            "Hi mate, how are you doing?",
+            "Hey there, what's up?",
+            "Love, see you soon,"
+          ],
+          "antwoord": 0,
+          "uitleg": "In een formele mail aan iemand van wie je de naam niet kent, begin je met 'Dear Sir or Madam,'."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Hoort deze Engelse zin of afsluiter in een formele of een informele mail?",
+          "kolommen": [
+            "Formeel",
+            "Informeel"
+          ],
+          "items": [
+            [
+              "Yours faithfully",
+              "Formeel"
+            ],
+            [
+              "See you soon!",
+              "Informeel"
+            ],
+            [
+              "I am writing to ask about …",
+              "Formeel"
+            ],
+            [
+              "Thanks a lot for your message!",
+              "Informeel"
+            ]
+          ],
+          "uitleg": "Een formele mail is beleefd en volledig. Een informele mail aan een vriend mag kort en hartelijk zijn."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de past simple van 'to think'?",
+          "opties": [
+            "thought",
+            "thinked",
+            "thank",
+            "thinking"
+          ],
+          "antwoord": 0,
+          "uitleg": "Think is onregelmatig: think – thought – thought."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan met één woord: Look, the children are ___ (swim) in the lake.",
+          "antwoord": [
+            "swimming"
+          ],
+          "uitleg": "Kort woord met één klinker en één medeklinker op het einde: de medeklinker verdubbelt. Swim wordt swimming."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je bent in Londen en hebt hoofdpijn. Waar koop je pijnstillers?",
+          "opties": [
+            "at the chemist's",
+            "at the butcher's",
+            "at the estate agent's",
+            "at the platform"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een chemist's is in het Verenigd Koninkrijk een apotheek. Een butcher's is een slagerij, een estate agent verkoopt huizen."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "'Quarter to nine' is [[*8.45|9.15|9.45]]. 'Half past seven' is [[*7.30|6.30]].",
+          "uitleg": "Quarter to = kwart voor. Half past seven = half acht in het Nederlands, dus 7.30."
+        },
+        {
+          "type": "open",
+          "vraag": "Schrijf een korte mail van 60 à 80 woorden aan een Engelse vriend. Vertel wat je vorig weekend deed en nodig hem uit voor iets volgend weekend.",
+          "antwoord": "Hi James,\nThanks for your last message! Last weekend I went to the seaside with my family. We walked on the beach and ate fish and chips. On Sunday it rained, so we watched a film at home. Would you like to come to the cinema with me next Saturday? The film starts at 3 pm. Let me know if you can come!\nBest,\nLotte",
+          "uitleg": "Een goed antwoord heeft een aanspreking en afsluiter, gebruikt de past simple voor het weekend, nodigt uit met een vaste formule (Would you like to …?) en blijft binnen het aantal woorden."
+        }
+      ]
+    }
+  ]
+}
