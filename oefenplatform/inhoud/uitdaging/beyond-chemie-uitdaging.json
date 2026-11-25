@@ -1,0 +1,600 @@
+{
+  "hoofdstukken": [
+    {
+      "titel": "Uitdaging — alles door elkaar",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "Bekijk het energiediagram. Klik op het geactiveerd complex van de reactie zonder katalysator.",
+          "afbeelding_url": "/examenvormen/chemie-beyond-uitdaging/energiediagram-katalysator.svg",
+          "zones": [
+            [
+              48.0,
+              17.5,
+              8.0,
+              13.3
+            ]
+          ],
+          "uitleg": "Het geactiveerd complex is de toestand met de hoogste energie, bovenaan de bult. Zonder katalysator ligt die op ongeveer 125 kJ."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het energieniveau van de reactieproducten.",
+          "afbeelding_url": "/examenvormen/chemie-beyond-uitdaging/energiediagram-katalysator.svg",
+          "zones": [
+            [
+              80.0,
+              70.0,
+              8.0,
+              13.3
+            ]
+          ],
+          "uitleg": "Rechts, na de bult, eindigt de reactie op het niveau van de producten: 20 kJ."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Lees af en reken uit, in kJ.",
+          "rijen": [
+            "de activeringsenergie zonder katalysator",
+            "de activeringsenergie met katalysator",
+            "de reactie-energie \\(\\Delta E\\)"
+          ],
+          "antwoord": [
+            2,
+            1,
+            0
+          ],
+          "uitleg": "Activeringsenergie is de top min het niveau van de reagentia: \\(125 - 60\\) en \\(90 - 60\\). De reactie-energie is producten min reagentia: \\(20 - 60 = -40\\) kJ.",
+          "kolommen": [
+            "\\(-40\\)",
+            "\\(30\\)",
+            "\\(65\\)"
+          ],
+          "afbeelding_url": "/examenvormen/chemie-beyond-uitdaging/energiediagram-katalysator.svg"
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Deze reactie is [[*exo-energetisch|endo-energetisch]]. Een katalysator verlaagt de [[*activeringsenergie|reactie-energie]], zodat meer botsingen [[*effectief|onmogelijk]] worden.",
+          "uitleg": "De producten liggen lager dan de reagentia: er komt energie vrij. Een katalysator biedt een andere weg met een lagere top, maar verandert de begin- en eindtoestand niet.",
+          "afbeelding_url": "/examenvormen/chemie-beyond-uitdaging/energiediagram-katalysator.svg"
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Bekijk de titratiecurve. Klik op het equivalentiepunt.",
+          "afbeelding_url": "/examenvormen/chemie-beyond-uitdaging/titratiecurve-azijnzuur.svg",
+          "zones": [
+            [
+              47.9,
+              36.5,
+              7.2,
+              11.6
+            ]
+          ],
+          "uitleg": "Het equivalentiepunt ligt midden in de steile sprong, bij 20 mL: daar is evenveel base toegevoegd als er zuur was."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het punt van de curve waar de pH gelijk is aan de pKz van azijnzuur.",
+          "afbeelding_url": "/examenvormen/chemie-beyond-uitdaging/titratiecurve-azijnzuur.svg",
+          "zones": [
+            [
+              27.7,
+              56.1,
+              7.2,
+              11.6
+            ]
+          ],
+          "uitleg": "Bij het halfequivalentiepunt, 10 mL, is de helft van het zuur omgezet in acetaat. Dan zijn zuur en geconjugeerde base even groot en is pH gelijk aan pKz."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Lees uit de curve de pKz van azijnzuur af. Rond af op één decimaal.",
+          "antwoord": [
+            "4,8",
+            "4.8",
+            "4,7",
+            "4.7",
+            "4,75",
+            "4.75"
+          ],
+          "uitleg": "Bij 10 mL, de helft van het equivalentievolume, lees je een pH van ongeveer 4,75 af. Dat is de pKz.",
+          "afbeelding_url": "/examenvormen/chemie-beyond-uitdaging/titratiecurve-azijnzuur.svg"
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over deze titratie?",
+          "rijen": [
+            "Bij het equivalentiepunt is de pH groter dan 7.",
+            "Tussen 5 en 15 mL werkt de oplossing als een buffer.",
+            "De beginconcentratie van het azijnzuur is \\(0{,}1\\) mol/L.",
+            "Methyloranje is hier een goede indicator."
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Bij het equivalentiepunt is er enkel acetaat, een zwakke base: de pH is ongeveer 8,7. In het vlakke stuk zijn zuur en base samen aanwezig. 20 mL base van 0,1 mol/L neutraliseert 20 mL zuur, dus ook 0,1 mol/L. Methyloranje slaat te vroeg om; fenolftaleïne past bij een sprong rond pH 9.",
+          "afbeelding_url": "/examenvormen/chemie-beyond-uitdaging/titratiecurve-azijnzuur.svg"
+        },
+        {
+          "type": "tabel",
+          "vraag": "Tot welke stofklasse behoort deze stof?",
+          "rijen": [
+            "\\(\\mathrm{NaCl}\\)",
+            "\\(\\mathrm{H_2SO_4}\\)",
+            "\\(\\mathrm{Ca(OH)_2}\\)",
+            "\\(\\mathrm{CO_2}\\)"
+          ],
+          "antwoord": [
+            3,
+            2,
+            1,
+            0
+          ],
+          "uitleg": "Een zout is een metaalion met een zuurrest. Een zuur heeft waterstof en een zuurrest. Een hydroxide bevat OH⁻. Een oxide is een verbinding van een element met zuurstof.",
+          "kolommen": [
+            "Oxide",
+            "Hydroxide",
+            "Zuur",
+            "Zout"
+          ]
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel de functionele groep aan de stofklasse.",
+          "paren": [
+            [
+              "\\(-\\mathrm{OH}\\) aan een koolstofketen",
+              "alcohol"
+            ],
+            [
+              "\\(-\\mathrm{COOH}\\)",
+              "carbonzuur"
+            ],
+            [
+              "\\(-\\mathrm{CHO}\\) aan het uiteinde",
+              "aldehyde"
+            ],
+            [
+              "\\(\\mathrm{C{=}O}\\) midden in de keten",
+              "keton"
+            ],
+            [
+              "\\(-\\mathrm{NH_2}\\)",
+              "amine"
+            ]
+          ],
+          "extra": [
+            "ester",
+            "ether"
+          ],
+          "uitleg": "Elke stofklasse heeft haar eigen functionele groep. Bij een aldehyde zit de C=O-groep aan het uiteinde, bij een keton tussen twee koolstofatomen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welke soort isomerie is dit?",
+          "rijen": [
+            "butaan en methylpropaan",
+            "propanal en propanon",
+            "but-1-een en but-2-een",
+            "cis- en trans-but-2-een"
+          ],
+          "antwoord": [
+            0,
+            2,
+            1,
+            3
+          ],
+          "uitleg": "Bij ketenisomerie verschilt de vertakking, bij plaatsisomerie de plaats van de functionele groep, bij functie-isomerie de stofklasse. Z/E-isomerie gaat over de ligging rond een dubbele binding.",
+          "kolommen": [
+            "Ketenisomerie",
+            "Plaatsisomerie",
+            "Functie-isomerie",
+            "Z/E-isomerie"
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke elektronenconfiguratie hoort bij natrium (Z = 11)?",
+          "opties": [
+            "\\(1s^{2}\\,2s^{2}\\,2p^{6}\\,3s^{1}\\)",
+            "\\(1s^{2}\\,2s^{2}\\,2p^{7}\\)",
+            "\\(1s^{2}\\,2s^{2}\\,2p^{5}\\,3s^{2}\\)",
+            "\\(1s^{2}\\,2s^{1}\\,2p^{6}\\,3s^{2}\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Eerst wordt 1s gevuld (2), dan 2s (2), dan 2p (6) en het laatste elektron komt in 3s. Een p-subniveau kan hoogstens 6 elektronen bevatten."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welke ruimtelijke vorm heeft de molecule?",
+          "rijen": [
+            "\\(\\mathrm{CH_4}\\)",
+            "\\(\\mathrm{NH_3}\\)",
+            "\\(\\mathrm{H_2O}\\)",
+            "\\(\\mathrm{CO_2}\\)"
+          ],
+          "antwoord": [
+            3,
+            2,
+            1,
+            0
+          ],
+          "uitleg": "Vier bindende paren geven een tetraëder. Bij ammoniak duwt één vrij paar de drie bindingen naar beneden: een piramide. Water heeft twee vrije paren en is gebogen. CO₂ heeft geen vrije paren op het centrale atoom en is lineair.",
+          "kolommen": [
+            "Lineair",
+            "Gebogen",
+            "Piramide",
+            "Tetraëder"
+          ]
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Is deze molecule polair of apolair?",
+          "kolommen": [
+            "Polair",
+            "Apolair"
+          ],
+          "items": [
+            [
+              "\\(\\mathrm{H_2O}\\)",
+              "Polair"
+            ],
+            [
+              "\\(\\mathrm{CO_2}\\)",
+              "Apolair"
+            ],
+            [
+              "\\(\\mathrm{NH_3}\\)",
+              "Polair"
+            ],
+            [
+              "\\(\\mathrm{CH_4}\\)",
+              "Apolair"
+            ],
+            [
+              "\\(\\mathrm{HCl}\\)",
+              "Polair"
+            ]
+          ],
+          "uitleg": "Een molecule is polair als de ladingen niet symmetrisch verdeeld zijn. In CO₂ en CH₄ heffen de polaire bindingen elkaar op door de symmetrie."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel gram natriumhydroxide (\\(M = 40\\) g/mol) heb je nodig voor \\(0{,}5\\) mol? Geef enkel het getal.",
+          "antwoord": "20",
+          "uitleg": "\\(m = n \\cdot M = 0{,}5 \\cdot 40 = 20\\) gram."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Je lost \\(5{,}85\\) g NaCl (\\(M = 58{,}5\\) g/mol) op tot \\(250\\) mL oplossing. Wat is de concentratie in mol/L? Geef enkel het getal.",
+          "antwoord": [
+            "0,4",
+            "0.4",
+            "0,40",
+            "0.40"
+          ],
+          "uitleg": "\\(n = 5{,}85 / 58{,}5 = 0{,}1\\) mol. \\(c = n / V = 0{,}1 / 0{,}250 = 0{,}4\\) mol/L."
+        },
+        {
+          "casus": "Je laat \\(4\\) mol waterstofgas reageren met \\(3\\) mol zuurstofgas volgens \\(2\\,\\mathrm{H_2} + \\mathrm{O_2} \\rightarrow 2\\,\\mathrm{H_2O}\\).",
+          "vragen": [
+            {
+              "type": "keuzelijst",
+              "vraag": "Het limiterend reagens is [[*waterstofgas|zuurstofgas]]. Er blijft [[*1|2|0]] mol zuurstofgas over.",
+              "uitleg": "4 mol H₂ heeft maar 2 mol O₂ nodig. Er is 3 mol O₂, dus H₂ raakt eerst op en 1 mol O₂ blijft over."
+            },
+            {
+              "type": "invultekst",
+              "vraag": "Hoeveel gram water ontstaat er (\\(M = 18\\) g/mol)? Geef enkel het getal.",
+              "antwoord": "72",
+              "uitleg": "Uit 4 mol H₂ ontstaat 4 mol water: \\(4 \\cdot 18 = 72\\) gram."
+            }
+          ]
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Welk volume in liter neemt \\(0{,}5\\) mol van een gas in bij \\(0\\) °C en normale druk? Geef enkel het getal.",
+          "antwoord": [
+            "11,2",
+            "11.2"
+          ],
+          "uitleg": "Het molair volume bij 0 °C en normale druk is 22,4 liter per mol: \\(0{,}5 \\cdot 22{,}4 = 11{,}2\\) liter."
+        },
+        {
+          "type": "tabel",
+          "vraag": "De reactie \\(\\mathrm{N_2} + 3\\,\\mathrm{H_2} \\rightleftharpoons 2\\,\\mathrm{NH_3}\\) is exo-energetisch. In welke richting verschuift het evenwicht?",
+          "rijen": [
+            "je verhoogt de druk",
+            "je verhoogt de temperatuur",
+            "je haalt ammoniak weg",
+            "je voegt een katalysator toe"
+          ],
+          "antwoord": [
+            1,
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Hogere druk bevoordeelt de kant met minder gasdeeltjes (2 tegen 4). Warmte bevoordeelt de endo-energetische terugreactie. Een product wegnemen trekt het evenwicht naar rechts. Een katalysator versnelt beide richtingen evenveel.",
+          "kolommen": [
+            "Naar links",
+            "Naar rechts",
+            "Geen verschuiving"
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de uitdrukking voor de evenwichtsconstante van \\(\\mathrm{N_2} + 3\\,\\mathrm{H_2} \\rightleftharpoons 2\\,\\mathrm{NH_3}\\)?",
+          "opties": [
+            "\\(K = \\dfrac{[\\mathrm{NH_3}]^{2}}{[\\mathrm{N_2}]\\,[\\mathrm{H_2}]^{3}}\\)",
+            "\\(K = \\dfrac{[\\mathrm{N_2}]\\,[\\mathrm{H_2}]^{3}}{[\\mathrm{NH_3}]^{2}}\\)",
+            "\\(K = \\dfrac{2\\,[\\mathrm{NH_3}]}{[\\mathrm{N_2}] + 3\\,[\\mathrm{H_2}]}\\)",
+            "\\(K = \\dfrac{[\\mathrm{NH_3}]}{[\\mathrm{N_2}]\\,[\\mathrm{H_2}]}\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Producten staan in de teller, reagentia in de noemer, met de coëfficiënten als exponent."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een reactie gaat sneller als je de temperatuur [[*verhoogt|verlaagt]], de concentratie [[*verhoogt|verlaagt]] of de stof [[*fijner verdeelt|in één groot stuk gebruikt]].",
+          "uitleg": "Volgens het botsingsmodel botsen deeltjes dan vaker en met meer energie, of is er meer contactoppervlak."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elk zuur aan zijn geconjugeerde base.",
+          "paren": [
+            [
+              "\\(\\mathrm{NH_4^{+}}\\)",
+              "\\(\\mathrm{NH_3}\\)"
+            ],
+            [
+              "\\(\\mathrm{H_2O}\\)",
+              "\\(\\mathrm{OH^{-}}\\)"
+            ],
+            [
+              "\\(\\mathrm{HCl}\\)",
+              "\\(\\mathrm{Cl^{-}}\\)"
+            ],
+            [
+              "\\(\\mathrm{H_3O^{+}}\\)",
+              "\\(\\mathrm{H_2O}\\)"
+            ]
+          ],
+          "extra": [
+            "\\(\\mathrm{NH_2^{-}}\\)",
+            "\\(\\mathrm{H_2}\\)"
+          ],
+          "uitleg": "De geconjugeerde base is wat overblijft als het zuur één proton heeft afgestaan."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Bereken de pH bij \\(25\\) °C.",
+          "rijen": [
+            "\\([\\mathrm{H_3O^{+}}] = 0{,}01\\) mol/L",
+            "een NaOH-oplossing van \\(0{,}001\\) mol/L",
+            "een oplossing met pOH \\(4\\)"
+          ],
+          "antwoord": [
+            0,
+            2,
+            1
+          ],
+          "uitleg": "\\(\\mathrm{pH} = -\\log[\\mathrm{H_3O^{+}}] = 2\\). NaOH is een sterke base: pOH 3, dus pH 11. Bij 25 °C is pH + pOH = 14.",
+          "kolommen": [
+            "\\(2\\)",
+            "\\(10\\)",
+            "\\(11\\)"
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk mengsel vormt een buffer?",
+          "opties": [
+            "azijnzuur met natriumacetaat",
+            "zoutzuur met natriumchloride",
+            "natriumhydroxide met water",
+            "zoutzuur met zwavelzuur"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een buffer bevat een zwak zuur en zijn geconjugeerde base. Zoutzuur is een sterk zuur, en Cl⁻ is geen bruikbare base."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een molecule etheen, \\(\\mathrm{C_2H_4}\\), heeft [[*5|4|6]] sigmabindingen en [[*1|2|0]] pi-binding.",
+          "uitleg": "Vier C-H-bindingen en één van de twee bindingen tussen de koolstofatomen zijn sigmabindingen. De tweede binding van de dubbele binding is een pi-binding."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Bereken de pH van zoutzuur met een concentratie van \\(0{,}001\\) mol/L. Geef enkel het getal.",
+          "antwoord": "3",
+          "uitleg": "Zoutzuur is een sterk zuur en splitst volledig: \\([\\mathrm{H_3O^{+}}] = 10^{-3}\\) mol/L, dus pH 3."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Je titreert \\(25\\) mL zoutzuur met natriumhydroxide van \\(0{,}2\\) mol/L en verbruikt \\(15\\) mL tot het equivalentiepunt. Wat is de concentratie van het zoutzuur, in mol/L? Geef enkel het getal.",
+          "antwoord": [
+            "0,12",
+            "0.12"
+          ],
+          "uitleg": "Bij het equivalentiepunt is \\(n(\\mathrm{HCl}) = n(\\mathrm{NaOH}) = 0{,}2 \\cdot 0{,}015 = 0{,}003\\) mol. \\(c = 0{,}003 / 0{,}025 = 0{,}12\\) mol/L."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welk oxidatiegetal heeft het genoemde element?",
+          "rijen": [
+            "zwavel in \\(\\mathrm{H_2SO_4}\\)",
+            "mangaan in \\(\\mathrm{KMnO_4}\\)",
+            "stikstof in \\(\\mathrm{NH_3}\\)",
+            "zuurstof in \\(\\mathrm{H_2O_2}\\)"
+          ],
+          "antwoord": [
+            2,
+            3,
+            0,
+            1
+          ],
+          "uitleg": "De som van de oxidatiegetallen in een neutrale molecule is nul. H is meestal +1, O meestal −2 (behalve in peroxiden, waar het −1 is) en K is +1.",
+          "kolommen": [
+            "\\(-3\\)",
+            "\\(-1\\)",
+            "\\(+6\\)",
+            "\\(+7\\)"
+          ]
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Bij \\(\\mathrm{Zn} + \\mathrm{Cu^{2+}} \\rightarrow \\mathrm{Zn^{2+}} + \\mathrm{Cu}\\) is zink de [[*reductor|oxidator]]. Het koperion wordt [[*gereduceerd|geoxideerd]].",
+          "uitleg": "Zink staat elektronen af: het is de reductor en wordt zelf geoxideerd. Het koperion neemt elektronen op en wordt gereduceerd."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Wat is de bronspanning van een galvanische cel met een koper- en een zinkhalfcel bij normomstandigheden? Gebruik \\(E^{0}(\\mathrm{Cu^{2+}/Cu}) = 0{,}34\\) V en \\(E^{0}(\\mathrm{Zn^{2+}/Zn}) = -0{,}76\\) V. Geef enkel het getal in volt.",
+          "antwoord": [
+            "1,10",
+            "1,1",
+            "1.10",
+            "1.1"
+          ],
+          "uitleg": "Bronspanning is de normpotentiaal van de kathode min die van de anode: \\(0{,}34 - (-0{,}76) = 1{,}10\\) V."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Geldt dit bij een elektrolyse?",
+          "rijen": [
+            "Aan de anode gebeurt een oxidatie.",
+            "De anode is de positieve pool.",
+            "De elektrolyse levert elektrische energie op.",
+            "Aan de kathode worden deeltjes gereduceerd."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Bij een elektrolyse duwt een stroombron een reactie die niet vanzelf verloopt. Ze kost dus elektrische energie. Oxidatie aan de positieve anode, reductie aan de negatieve kathode."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom bevestigt men blokken zink aan een stalen scheepsromp?",
+          "opties": [
+            "Zink is een sterkere reductor en roest in de plaats van het ijzer.",
+            "Zink maakt het zeewater minder zout, zodat het ijzer niet roest.",
+            "Zink is een sterkere oxidator en neemt de elektronen van ijzer op.",
+            "Zink maakt het schip zwaarder, zodat het stabieler in het water ligt."
+          ],
+          "antwoord": 0,
+          "uitleg": "Zink staat makkelijker elektronen af dan ijzer. Zolang er zink is, wordt dat geoxideerd en blijft het ijzer gespaard."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Tot welk type organische reactie behoort elk voorbeeld?",
+          "rijen": [
+            "methaan reageert met chloor onder licht",
+            "etheen reageert met broom",
+            "ethanol wordt etheen en water",
+            "een zuur en een alcohol vormen een ester en water"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "uitleg": "Bij substitutie wordt een atoom vervangen. Bij additie verdwijnt een dubbele binding en komen er atomen bij. Bij eliminatie ontstaat een dubbele binding en valt er een kleine molecule af. Bij condensatie koppelen twee moleculen met afsplitsing van water.",
+          "kolommen": [
+            "Substitutie",
+            "Additie",
+            "Eliminatie",
+            "Condensatie"
+          ]
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet de stappen van het radicalaire substitutiemechanisme in de juiste volgorde.",
+          "opties": [
+            "initiatie: licht splitst \\(\\mathrm{Cl_2}\\) in twee radicalen",
+            "propagatie: radicalen reageren en maken nieuwe radicalen",
+            "terminatie: twee radicalen vormen samen een stabiele molecule"
+          ],
+          "uitleg": "Eerst ontstaan er radicalen, dan houdt een kettingreactie zichzelf in stand, en ten slotte stopt ze als radicalen met elkaar reageren."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Is dit een thermoplast of een thermoharder?",
+          "kolommen": [
+            "Thermoplast",
+            "Thermoharder"
+          ],
+          "items": [
+            [
+              "wordt zacht bij verwarmen en kan opnieuw gevormd worden",
+              "Thermoplast"
+            ],
+            [
+              "heeft een sterk vernette structuur",
+              "Thermoharder"
+            ],
+            [
+              "een PET-fles die je kan omsmelten",
+              "Thermoplast"
+            ],
+            [
+              "verkoolt bij verwarmen in plaats van te smelten",
+              "Thermoharder"
+            ]
+          ],
+          "uitleg": "Een thermoplast bestaat uit losse ketens die bij verwarming langs elkaar glijden. Een thermoharder is één groot netwerk: verwarmen breekt eerder bindingen dan dat het smelt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom gedragen nanodeeltjes zich vaak anders dan een groot stuk van dezelfde stof?",
+          "opties": [
+            "Ze hebben een veel groter oppervlak ten opzichte van hun volume.",
+            "Ze bestaan uit andere atomen dan het grote stuk van die stof.",
+            "Ze hebben geen massa meer, omdat ze kleiner zijn dan een atoom.",
+            "Ze verliezen al hun elektronen zodra ze kleiner worden dan een millimeter."
+          ],
+          "antwoord": 0,
+          "uitleg": "Hoe kleiner het deeltje, hoe meer atomen aan het oppervlak zitten. Daardoor veranderen eigenschappen zoals reactiviteit, kleur en sterkte."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een reactie heeft een hoge [[*atoomeconomie|activeringsenergie]] als bijna alle atomen van de reagentia in het gewenste product terechtkomen. Dat past bij [[*duurzame|klassieke]] chemie.",
+          "uitleg": "Hoe minder afval, hoe beter. Duurzame chemie probeert reacties zo te kiezen dat zo weinig mogelijk atomen verloren gaan."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Hoeveel beduidende cijfers heeft dit meetresultaat?",
+          "rijen": [
+            "\\(0{,}0045\\) g",
+            "\\(12{,}0\\) mL",
+            "\\(4{,}500\\) g"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Nullen vooraan tellen niet mee, nullen achter de komma op het einde wel: ze zeggen iets over de nauwkeurigheid.",
+          "kolommen": [
+            "2",
+            "3",
+            "4"
+          ]
+        },
+        {
+          "type": "open",
+          "vraag": "Ethanol (\\(\\mathrm{CH_3CH_2OH}\\)) en dimethylether (\\(\\mathrm{CH_3OCH_3}\\)) hebben dezelfde brutoformule. Ethanol kookt bij \\(78\\) °C, dimethylether bij \\(-24\\) °C. Verklaar dat verschil.",
+          "antwoord": "Beide moleculen zijn functie-isomeren met dezelfde massa. Ethanol heeft een OH-groep: een waterstofatoom aan een sterk elektronegatief zuurstofatoom. Daardoor vormen ethanolmoleculen waterstofbruggen met elkaar. Dimethylether heeft geen H aan O en kan dat niet. Om ethanol te laten koken moet je die sterke waterstofbruggen verbreken, en dat vraagt veel meer energie: het kookpunt is hoger.",
+          "uitleg": "Een goed antwoord noemt de waterstofbruggen bij ethanol, legt uit waarom dimethylether ze niet kan vormen en verbindt sterkere intermoleculaire krachten met een hoger kookpunt."
+        }
+      ]
+    }
+  ]
+}
