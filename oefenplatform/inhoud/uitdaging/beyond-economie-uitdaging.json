@@ -1,0 +1,568 @@
+{
+  "hoofdstukken": [
+    {
+      "titel": "Uitdaging — alles door elkaar",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "Bekijk het marktdiagram. Klik op het marktevenwicht.",
+          "afbeelding_url": "/examenvormen/economie-beyond-uitdaging/markt-fietshelmen.svg",
+          "zones": [
+            [
+              39.6,
+              45.6,
+              7.2,
+              10.3
+            ]
+          ],
+          "uitleg": "Het evenwicht ligt waar vraag en aanbod elkaar snijden: bij 800 helmen per week en een prijs van 60 euro."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het cijfer in het vlak dat het consumentensurplus voorstelt.",
+          "afbeelding_url": "/examenvormen/economie-beyond-uitdaging/markt-fietshelmen.svg",
+          "zones": [
+            [
+              17.2,
+              38.3,
+              6.8,
+              9.7
+            ]
+          ],
+          "uitleg": "Het consumentensurplus ligt onder de vraagcurve en boven de marktprijs: kopers die meer wilden betalen, betalen maar 60 euro."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het cijfer in het vlak dat het producentensurplus voorstelt.",
+          "afbeelding_url": "/examenvormen/economie-beyond-uitdaging/markt-fietshelmen.svg",
+          "zones": [
+            [
+              17.2,
+              52.3,
+              6.8,
+              9.7
+            ]
+          ],
+          "uitleg": "Het producentensurplus ligt boven de aanbodcurve en onder de marktprijs: verkopers die ook voor minder wilden verkopen, krijgen 60 euro."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe groot is het consumentensurplus in het evenwicht, in euro per week? Enkel het getal.",
+          "antwoord": [
+            "16000",
+            "16 000",
+            "16.000"
+          ],
+          "uitleg": "Een driehoek met basis 800 helmen en hoogte 100 − 60 = 40 euro: ½ · 800 · 40 = 16 000 euro.",
+          "afbeelding_url": "/examenvormen/economie-beyond-uitdaging/markt-fietshelmen.svg"
+        },
+        {
+          "type": "tabel",
+          "vraag": "De overheid legt de maximumprijs van 40 euro op. Wat gebeurt er?",
+          "rijen": [
+            "Gevraagde hoeveelheid per week",
+            "Aangeboden hoeveelheid per week",
+            "Tekort op de markt per week"
+          ],
+          "antwoord": [
+            2,
+            0,
+            1
+          ],
+          "uitleg": "Bij 40 euro vragen kopers 1200 helmen, maar verkopers bieden er maar 400 aan. Er is een tekort van 800 helmen.",
+          "kolommen": [
+            "400",
+            "800",
+            "1200"
+          ],
+          "afbeelding_url": "/examenvormen/economie-beyond-uitdaging/markt-fietshelmen.svg"
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een maximumprijs onder de evenwichtsprijs zorgt voor een [[*tekort|overschot]]. Een minimumprijs boven de evenwichtsprijs zorgt voor een [[*overschot|tekort]].",
+          "uitleg": "Onder het evenwicht willen kopers meer dan verkopers aanbieden: een tekort. Boven het evenwicht is het omgekeerd: een overschot.",
+          "afbeelding_url": "/examenvormen/economie-beyond-uitdaging/markt-fietshelmen.svg"
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Bekijk de conjunctuurgolf. Klik op een punt waar de economie op haar laagste punt zit: het dal.",
+          "afbeelding_url": "/examenvormen/economie-beyond-uitdaging/conjunctuurgolf.svg",
+          "zones": [
+            [
+              37.3,
+              61.8,
+              7.2,
+              12.9
+            ]
+          ],
+          "uitleg": "Het dal (recessie op haar diepst) is het laagste punt van de golf onder de trendlijn: punt R."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het hoogste punt van de hoogconjunctuur.",
+          "afbeelding_url": "/examenvormen/economie-beyond-uitdaging/conjunctuurgolf.svg",
+          "zones": [
+            [
+              58.5,
+              27.1,
+              7.2,
+              12.9
+            ]
+          ],
+          "uitleg": "Punt S is de hoogste top boven de trend: daar is de hoogconjunctuur het sterkst."
+        },
+        {
+          "type": "tabel",
+          "vraag": "In welke fase zit de economie?",
+          "rijen": [
+            "Tussen P en R",
+            "Tussen R en S",
+            "Net na punt S"
+          ],
+          "antwoord": [
+            1,
+            0,
+            1
+          ],
+          "uitleg": "Van een top naar een dal daalt de groei: de afgaande fase (laagconjunctuur in aantocht). Van een dal naar een top herstelt de economie.",
+          "kolommen": [
+            "Opgaande fase",
+            "Afgaande fase"
+          ],
+          "afbeelding_url": "/examenvormen/economie-beyond-uitdaging/conjunctuurgolf.svg"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat stelt de oranje stippellijn voor?",
+          "opties": [
+            "De groei van het bbp op lange termijn.",
+            "Het bbp van één jaar met de hoogste groei.",
+            "Het begrotingstekort van de overheid per jaar.",
+            "Het verloop van de inflatie gedurende de periode."
+          ],
+          "antwoord": 0,
+          "uitleg": "De trendlijn toont de gemiddelde groei op lange termijn. De conjunctuur schommelt daarrond.",
+          "afbeelding_url": "/examenvormen/economie-beyond-uitdaging/conjunctuurgolf.svg"
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "In de kringloop leveren gezinnen [[*productiefactoren|consumptiegoederen]] aan bedrijven en krijgen ze daarvoor [[*een inkomen|belastingen]].",
+          "uitleg": "Gezinnen stellen arbeid, kapitaal en grond ter beschikking van bedrijven en ontvangen loon, rente, huur en winst."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een land heeft C = 300, I = 80, O = 120, X = 250 en M = 230 (miljard euro). Hoe groot is het bbp in miljard euro? Enkel het getal.",
+          "antwoord": [
+            "520"
+          ],
+          "uitleg": "bbp = C + I + O + (X − M) = 300 + 80 + 120 + 20 = 520 miljard euro."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Telt dit mee in het bbp van België?",
+          "rijen": [
+            "Een nieuwe auto, gebouwd in Gent",
+            "Een tweedehands fiets die je verkoopt aan een buur",
+            "Het loon van een Belgische kapper in Antwerpen",
+            "De kinderbijslag die een gezin ontvangt"
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Het bbp telt de nieuwe goederen en diensten die in een jaar binnen het land gemaakt worden. Tweedehands verkoop en overdrachten zoals kinderbijslag tellen niet mee."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Het nominale bbp stijgt met 5 % en de prijzen stijgen met 3 %. Hoeveel stijgt het reële bbp ongeveer?",
+          "opties": [
+            "Ongeveer 2 %",
+            "Ongeveer 8 %",
+            "Ongeveer 5 %",
+            "Ongeveer 1,7 % daling"
+          ],
+          "antwoord": 0,
+          "uitleg": "Reële groei is ongeveer nominale groei min inflatie: 5 − 3 = 2 %."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Is dit een welvaartsindicator die enkel op geld let, of een bredere welzijnsindicator?",
+          "kolommen": [
+            "Enkel geld",
+            "Breder welzijn"
+          ],
+          "items": [
+            [
+              "bbp per inwoner",
+              "Enkel geld"
+            ],
+            [
+              "Human Development Index (HDI)",
+              "Breder welzijn"
+            ],
+            [
+              "nationaal inkomen",
+              "Enkel geld"
+            ],
+            [
+              "levensverwachting en scholing",
+              "Breder welzijn"
+            ]
+          ],
+          "uitleg": "De HDI combineert inkomen met gezondheid en onderwijs. Bbp en nationaal inkomen meten enkel de productie in geld."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "De prijs van een concertticket stijgt van 50 naar 55 euro. De gevraagde hoeveelheid daalt van 1000 naar 800. Wat is de prijselasticiteit van de vraag? Gebruik de gewone procentformule en geef het getal met minteken.",
+          "antwoord": [
+            "-2",
+            "−2",
+            "-2,0"
+          ],
+          "uitleg": "Hoeveelheid −20 %, prijs +10 %: −20 / 10 = −2. De vraag is elastisch."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is de vraag naar dit goed eerder elastisch of inelastisch?",
+          "rijen": [
+            "Insuline voor een diabetespatiënt",
+            "Een merk frisdrank met veel alternatieven",
+            "Brood",
+            "Een citytrip naar Barcelona"
+          ],
+          "antwoord": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "uitleg": "Noodzakelijke goederen zonder alternatief hebben een inelastische vraag. Luxe of makkelijk te vervangen goederen hebben een elastische vraag.",
+          "kolommen": [
+            "Elastisch",
+            "Inelastisch"
+          ]
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Als het inkomen stijgt en mensen kopen minder van een goed, dan is het een [[*inferieur goed|luxegoed|normaal goed]]. De inkomenselasticiteit is dan [[*negatief|groter dan 1|nul]].",
+          "uitleg": "Bij een inferieur goed daalt de vraag als het inkomen stijgt: de inkomenselasticiteit is negatief."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welke marktvorm past?",
+          "rijen": [
+            "Eén aanbieder, geen vervangers, hoge toetredingsdrempels",
+            "Enkele grote aanbieders die op elkaar letten",
+            "Veel aanbieders met een eigen merk of stijl",
+            "Veel aanbieders van een identiek product"
+          ],
+          "antwoord": [
+            3,
+            2,
+            1,
+            0
+          ],
+          "uitleg": "Het aantal aanbieders en hoe gelijk de producten zijn, bepalen de marktvorm.",
+          "kolommen": [
+            "Volkomen concurrentie",
+            "Monopolistische concurrentie",
+            "Oligopolie",
+            "Monopolie"
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Bij welke hoeveelheid maximaliseert een monopolist zijn winst?",
+          "opties": [
+            "Waar marginale opbrengst gelijk is aan marginale kost.",
+            "Waar de prijs zo hoog mogelijk is, ongeacht de kost.",
+            "Waar de totale opbrengst het grootst is op de markt.",
+            "Waar de gemiddelde kost het laagst is voor het bedrijf."
+          ],
+          "antwoord": 0,
+          "uitleg": "Elk bedrijf maximaliseert de winst waar MO = MK. Een monopolist vraagt daarna de prijs die de vraagcurve bij die hoeveelheid toelaat."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Is dit een positief of een negatief extern effect?",
+          "kolommen": [
+            "Positief extern effect",
+            "Negatief extern effect"
+          ],
+          "items": [
+            [
+              "Een buur die zijn tuin mooi onderhoudt",
+              "Positief extern effect"
+            ],
+            [
+              "Lawaai van een fabriek 's nachts",
+              "Negatief extern effect"
+            ],
+            [
+              "Iemand die zich laat vaccineren",
+              "Positief extern effect"
+            ],
+            [
+              "Uitlaatgassen in een drukke straat",
+              "Negatief extern effect"
+            ]
+          ],
+          "uitleg": "Een extern effect treft iemand die niet bij de ruil betrokken is. Is het voordelig, dan is het positief; schaadt het, dan is het negatief."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een vuurtoren is een [[*publiek goed|privaat goed]]: niemand kan uitgesloten worden en het gebruik door de één [[*vermindert niet|vermindert wel]] het gebruik door een ander.",
+          "uitleg": "Publieke goederen zijn niet-uitsluitbaar en niet-rivaliserend. Daardoor wil niemand ervoor betalen en zorgt de overheid ervoor."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "De overheid legt een accijns op tabak. Wat gebeurt er op die markt?",
+          "opties": [
+            "De prijs stijgt en de verkochte hoeveelheid daalt.",
+            "De prijs daalt en de verkochte hoeveelheid stijgt.",
+            "De prijs en de hoeveelheid blijven gelijk als vroeger.",
+            "De vraagcurve verschuift naar rechts en de prijs stijgt."
+          ],
+          "antwoord": 0,
+          "uitleg": "Een belasting verschuift het aanbod naar links: de prijs voor de koper stijgt en er wordt minder verkocht."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een land heeft 5 miljoen mensen in de beroepsbevolking, waarvan 300 000 werkzoekend. Hoeveel procent bedraagt de werkloosheidsgraad? Enkel het getal.",
+          "antwoord": [
+            "6",
+            "6,0"
+          ],
+          "uitleg": "Werkloosheidsgraad = werklozen / beroepsbevolking · 100 = 300 000 / 5 000 000 · 100 = 6 %."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welk type werkloosheid beschrijft elke situatie?",
+          "rijen": [
+            "Een ijsjesverkoper heeft in de winter geen werk.",
+            "Een drukker verliest zijn job omdat alles digitaal wordt.",
+            "Door een recessie ontslaan veel bedrijven mensen.",
+            "Een afgestudeerde zoekt enkele weken naar een job."
+          ],
+          "antwoord": [
+            1,
+            3,
+            2,
+            0
+          ],
+          "uitleg": "Seizoensgebonden, door een blijvende verandering in de economie, door de conjunctuur, of gewoon tijd tussen twee jobs.",
+          "kolommen": [
+            "Frictiewerkloosheid",
+            "Seizoenswerkloosheid",
+            "Conjuncturele werkloosheid",
+            "Structurele werkloosheid"
+          ]
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Banken scheppen geld door [[*kredieten toe te kennen|biljetten te drukken]]. De Europese Centrale Bank kan de inflatie afremmen door de rente te [[*verhogen|verlagen]].",
+          "uitleg": "Een lening die op een rekening wordt gezet, is nieuw giraal geld. Een hogere rente maakt lenen duurder en remt de bestedingen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is dit een aandeel of een obligatie?",
+          "rijen": [
+            "Je wordt mede-eigenaar van het bedrijf.",
+            "Je leent geld uit tegen een vaste rente.",
+            "Je kan een dividend krijgen.",
+            "Op de vervaldag krijg je je geld terug."
+          ],
+          "antwoord": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "uitleg": "Een aandeel is een stukje eigendom met een onzeker dividend. Een obligatie is een lening met vaste rente en een vervaldag.",
+          "kolommen": [
+            "Aandeel",
+            "Obligatie"
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent een Gini-coëfficiënt die dichter bij 1 ligt?",
+          "opties": [
+            "De inkomens zijn ongelijker verdeeld.",
+            "Iedereen heeft ongeveer hetzelfde inkomen.",
+            "Het gemiddelde inkomen in het land is hoger.",
+            "De armoede is volledig uit het land verdwenen."
+          ],
+          "antwoord": 0,
+          "uitleg": "Een Gini van 0 betekent volledige gelijkheid, een Gini van 1 betekent dat één persoon alles heeft."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel het instrument aan de manier van herverdelen.",
+          "paren": [
+            [
+              "progressieve personenbelasting",
+              "wie meer verdient, betaalt een groter deel"
+            ],
+            [
+              "leefloon",
+              "minimuminkomen voor wie niets heeft"
+            ],
+            [
+              "gratis openbaar onderwijs",
+              "een dienst die voor iedereen toegankelijk is"
+            ]
+          ],
+          "extra": [
+            "een hogere btw op alle voeding"
+          ],
+          "uitleg": "Herverdeling gebeurt via belastingen, uitkeringen en diensten. Een hogere btw op voeding treft juist lage inkomens het hardst."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Als de euro duurder wordt tegenover de dollar, worden Europese producten voor Amerikanen [[*duurder|goedkoper]] en daalt de Europese [[*export|import]] meestal.",
+          "uitleg": "Een sterkere euro betekent dat Amerikanen meer dollars moeten betalen voor dezelfde Europese producten."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Op welke rekening van de betalingsbalans komt dit?",
+          "kolommen": [
+            "Lopende rekening",
+            "Financiële rekening"
+          ],
+          "items": [
+            [
+              "Export van Belgische chocolade",
+              "Lopende rekening"
+            ],
+            [
+              "Een Amerikaans bedrijf koopt een Belgische fabriek",
+              "Financiële rekening"
+            ],
+            [
+              "Toeristen die in Brugge overnachten",
+              "Lopende rekening"
+            ],
+            [
+              "Een Belg koopt Duitse aandelen",
+              "Financiële rekening"
+            ]
+          ],
+          "uitleg": "Goederen en diensten staan op de lopende rekening. Investeringen en beleggingen staan op de financiële rekening."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over internationale samenwerking?",
+          "rijen": [
+            "In de eurozone voeren landen samen één monetair beleid.",
+            "De WTO heeft als doel de handel tussen landen vrijer te maken.",
+            "Een douane-unie heft binnen de groep hogere invoertarieven.",
+            "Protectionisme betekent dat een land alle grenzen opent."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            false
+          ],
+          "uitleg": "In een douane-unie vallen de tarieven binnen de groep weg en is er één gemeenschappelijk buitentarief. Protectionisme beschermt de eigen markt."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "De marginale consumptiequote is 0,8. Hoe groot is de multiplicator? Enkel het getal.",
+          "antwoord": [
+            "5",
+            "5,0"
+          ],
+          "uitleg": "Multiplicator = 1 / (1 − c) = 1 / 0,2 = 5. Elke extra euro bestedingen verhoogt het inkomen met 5 euro."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is dit vraaginflatie of kosteninflatie?",
+          "rijen": [
+            "De olieprijs verdubbelt en bedrijven rekenen dat door.",
+            "Iedereen wil tegelijk meer kopen dan er gemaakt wordt.",
+            "De lonen stijgen sneller dan de productiviteit."
+          ],
+          "antwoord": [
+            1,
+            0,
+            1
+          ],
+          "uitleg": "Stijgende kosten (grondstoffen, lonen) duwen de prijzen omhoog: kosteninflatie. Een te grote vraag trekt de prijzen omhoog: vraaginflatie.",
+          "kolommen": [
+            "Vraaginflatie",
+            "Kosteninflatie"
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het gevolg van deflatie voor iemand met een vaste schuld?",
+          "opties": [
+            "De schuld weegt zwaarder, want geld wordt meer waard.",
+            "De schuld verdwijnt vanzelf, want de prijzen dalen.",
+            "De schuld weegt lichter, want het inkomen stijgt mee.",
+            "Er verandert niets, want de rente blijft altijd gelijk."
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij deflatie stijgt de koopkracht van geld. Een vaste schuld is dan in reële termen meer waard: ze weegt zwaarder."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet de stappen van een economisch onderzoek in de juiste volgorde.",
+          "opties": [
+            "Onderzoeksvraag stellen",
+            "Hypothese formuleren",
+            "Gegevens verzamelen",
+            "Gegevens analyseren",
+            "Besluit trekken"
+          ],
+          "uitleg": "Je start met een vraag en een vermoeden, verzamelt daarna gegevens, verwerkt ze en trekt dan pas een besluit."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke MVO-maatregel past bij de P van 'planet'?",
+          "opties": [
+            "Een bedrijf plaatst zonnepanelen op zijn daken.",
+            "Een bedrijf betaalt een eerlijk loon aan zijn personeel.",
+            "Een bedrijf verhoogt zijn winst met tien procent.",
+            "Een bedrijf sponsort de lokale voetbalploeg ruim."
+          ],
+          "antwoord": 0,
+          "uitleg": "Maatschappelijk verantwoord ondernemen let op people, planet en profit. Planet gaat over het milieu."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een korf kost 400 euro in het basisjaar en 424 euro dit jaar. Hoeveel procent bedraagt de inflatie? Enkel het getal.",
+          "antwoord": [
+            "6",
+            "6,0"
+          ],
+          "uitleg": "Prijsindex = 424 / 400 · 100 = 106. De prijzen stegen dus met 6 %."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Twee oligopolisten zouden samen het meest winnen door een hoge prijs te houden, maar elk afzonderlijk wint meer door de prijs te verlagen. Hoe heet die situatie in de speltheorie?",
+          "opties": [
+            "Het gevangenendilemma",
+            "Het marktevenwicht bij volkomen concurrentie",
+            "De wet van de dalende meeropbrengst",
+            "Een natuurlijk monopolie in de energiesector"
+          ],
+          "antwoord": 0,
+          "uitleg": "In het gevangenendilemma kiest elke speler wat voor zichzelf het best lijkt, waardoor ze samen slechter uitkomen dan als ze zouden samenwerken."
+        },
+        {
+          "type": "open",
+          "vraag": "Een stad wil een maximumhuurprijs invoeren voor studentenkoten. Leg in 4 à 6 zinnen uit wat er volgens de marktwerking gebeurt en geef één voordeel en één nadeel.",
+          "antwoord": "Als de maximumprijs onder de evenwichtsprijs ligt, willen meer studenten een kot huren dan er verhuurd worden: er ontstaat een tekort. Sommige eigenaars verhuren hun kot niet meer of onderhouden het minder. Een voordeel is dat studenten die een kot vinden minder betalen. Een nadeel is dat er wachtlijsten komen en dat sommige studenten geen kot vinden. Er kan ook een zwarte markt ontstaan.",
+          "uitleg": "Een goed antwoord legt uit dat een maximumprijs onder het evenwicht een tekort veroorzaakt, en noemt een voordeel (lagere huur voor wie een kot heeft) en een nadeel (tekort, wachtlijsten, minder onderhoud of zwarte markt)."
+        }
+      ]
+    }
+  ]
+}
