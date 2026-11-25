@@ -1,0 +1,42 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1000 560' width='1000' height='560'>
+<rect width='1000' height='560' fill='#ffffff'/>
+<text x='40' y='50' font-family='Nunito, Arial, sans-serif' font-size='28' font-weight='800' fill='#2f4a22'>Punten op 20 voor dezelfde toets</text>
+<line x1='150.0' y1='110' x2='150.0' y2='450' stroke='#ebe6d8' stroke-width='1.5'/>
+<text x='150.0' y='485' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='19' fill='#2b2b2b'>0</text>
+<line x1='228.0' y1='110' x2='228.0' y2='450' stroke='#ebe6d8' stroke-width='1.5'/>
+<text x='228.0' y='485' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='19' fill='#2b2b2b'>2</text>
+<line x1='306.0' y1='110' x2='306.0' y2='450' stroke='#ebe6d8' stroke-width='1.5'/>
+<text x='306.0' y='485' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='19' fill='#2b2b2b'>4</text>
+<line x1='384.0' y1='110' x2='384.0' y2='450' stroke='#ebe6d8' stroke-width='1.5'/>
+<text x='384.0' y='485' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='19' fill='#2b2b2b'>6</text>
+<line x1='462.0' y1='110' x2='462.0' y2='450' stroke='#ebe6d8' stroke-width='1.5'/>
+<text x='462.0' y='485' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='19' fill='#2b2b2b'>8</text>
+<line x1='540.0' y1='110' x2='540.0' y2='450' stroke='#ebe6d8' stroke-width='1.5'/>
+<text x='540.0' y='485' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='19' fill='#2b2b2b'>10</text>
+<line x1='618.0' y1='110' x2='618.0' y2='450' stroke='#ebe6d8' stroke-width='1.5'/>
+<text x='618.0' y='485' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='19' fill='#2b2b2b'>12</text>
+<line x1='696.0' y1='110' x2='696.0' y2='450' stroke='#ebe6d8' stroke-width='1.5'/>
+<text x='696.0' y='485' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='19' fill='#2b2b2b'>14</text>
+<line x1='774.0' y1='110' x2='774.0' y2='450' stroke='#ebe6d8' stroke-width='1.5'/>
+<text x='774.0' y='485' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='19' fill='#2b2b2b'>16</text>
+<line x1='852.0' y1='110' x2='852.0' y2='450' stroke='#ebe6d8' stroke-width='1.5'/>
+<text x='852.0' y='485' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='19' fill='#2b2b2b'>18</text>
+<line x1='930.0' y1='110' x2='930.0' y2='450' stroke='#ebe6d8' stroke-width='1.5'/>
+<text x='930.0' y='485' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='19' fill='#2b2b2b'>20</text>
+<line x1='150' y1='455' x2='940' y2='455' stroke='#2b2b2b' stroke-width='2.5'/>
+<text x='940' y='525' text-anchor='end' font-family='Nunito, Arial, sans-serif' font-size='21' fill='#2b2b2b'>punten</text>
+<text x='40' y='208' font-family='Nunito, Arial, sans-serif' font-size='22' font-weight='800' fill='#3b6ea5'>Klas A</text>
+<line x1='306.0' y1='200' x2='462.0' y2='200' stroke='#3b6ea5' stroke-width='4'/>
+<line x1='696.0' y1='200' x2='891.0' y2='200' stroke='#3b6ea5' stroke-width='4'/>
+<line x1='306.0' y1='178' x2='306.0' y2='222' stroke='#3b6ea5' stroke-width='4'/>
+<line x1='891.0' y1='178' x2='891.0' y2='222' stroke='#3b6ea5' stroke-width='4'/>
+<rect x='462.0' y='155' width='234.0' height='90' fill='#ffffff' stroke='#3b6ea5' stroke-width='4'/>
+<line x1='579.0' y1='155' x2='579.0' y2='245' stroke='#3b6ea5' stroke-width='6'/>
+<text x='40' y='368' font-family='Nunito, Arial, sans-serif' font-size='22' font-weight='800' fill='#c0622b'>Klas B</text>
+<line x1='384.0' y1='360' x2='540.0' y2='360' stroke='#c0622b' stroke-width='4'/>
+<line x1='657.0' y1='360' x2='813.0' y2='360' stroke='#c0622b' stroke-width='4'/>
+<line x1='384.0' y1='338' x2='384.0' y2='382' stroke='#c0622b' stroke-width='4'/>
+<line x1='813.0' y1='338' x2='813.0' y2='382' stroke='#c0622b' stroke-width='4'/>
+<rect x='540.0' y='315' width='117.0' height='90' fill='#ffffff' stroke='#c0622b' stroke-width='4'/>
+<line x1='618.0' y1='315' x2='618.0' y2='405' stroke='#c0622b' stroke-width='6'/>
+</svg>

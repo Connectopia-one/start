@@ -1,0 +1,534 @@
+{
+  "hoofdstukken": [
+    {
+      "titel": "Uitdaging — alles door elkaar",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "Bekijk de boxplots. Klik op de mediaan van klas A.",
+          "afbeelding_url": "/examenvormen/statistiek-beyond-uitdaging/boxplots-klassen.svg",
+          "zones": [
+            [
+              56.3,
+              25.9,
+              3.2,
+              19.6
+            ]
+          ],
+          "uitleg": "De mediaan is de dikke streep in de doos. Bij klas A ligt die op 11 punten."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de doos van de klas waarvan de middelste helft van de punten het dichtst bij elkaar ligt.",
+          "afbeelding_url": "/examenvormen/statistiek-beyond-uitdaging/boxplots-klassen.svg",
+          "zones": [
+            [
+              53.6,
+              54.5,
+              12.5,
+              19.6
+            ]
+          ],
+          "uitleg": "De doos toont de middelste 50 %. Bij klas B loopt ze van 10 tot 13: een interkwartielafstand van 3. Bij klas A is dat 14 − 8 = 6."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de hoogste score die in klas A behaald werd.",
+          "afbeelding_url": "/examenvormen/statistiek-beyond-uitdaging/boxplots-klassen.svg",
+          "zones": [
+            [
+              87.3,
+              30.0,
+              3.6,
+              11.4
+            ]
+          ],
+          "uitleg": "Het einde van de rechtse snorhaar is het maximum: 19 op 20."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Lees af op de boxplots.",
+          "rijen": [
+            "Interkwartielafstand van klas A",
+            "Variatiebreedte van klas A",
+            "Variatiebreedte van klas B"
+          ],
+          "antwoord": [
+            0,
+            2,
+            1
+          ],
+          "uitleg": "IKA = Q3 − Q1 = 14 − 8 = 6. Variatiebreedte = max − min: 19 − 4 = 15 voor A en 17 − 6 = 11 voor B.",
+          "kolommen": [
+            "6",
+            "11",
+            "15"
+          ],
+          "afbeelding_url": "/examenvormen/statistiek-beyond-uitdaging/boxplots-klassen.svg"
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit volgens de boxplots?",
+          "rijen": [
+            "Minstens de helft van klas B haalde 12 of meer.",
+            "In klas A haalde ongeveer een kwart 14 of meer.",
+            "Het gemiddelde van klas A is zeker 11.",
+            "Klas A heeft een kleinere spreiding dan klas B."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            false
+          ],
+          "uitleg": "De mediaan en de kwartielen verdelen de groep in vier stukken. Een boxplot toont het gemiddelde niet, en klas A heeft de grotere spreiding.",
+          "afbeelding_url": "/examenvormen/statistiek-beyond-uitdaging/boxplots-klassen.svg"
+        },
+        {
+          "type": "hotspot",
+          "vraag": "X is het aantal treffers bij 5 worpen met kans 0,4 per worp. Klik op de staaf van de meest waarschijnlijke waarde.",
+          "afbeelding_url": "/examenvormen/statistiek-beyond-uitdaging/binomiaal-worpen.svg",
+          "zones": [
+            [
+              42.1,
+              25.5,
+              10.9,
+              59.5
+            ]
+          ],
+          "uitleg": "De hoogste staaf hoort bij x = 2, met kans 0,3456."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de staaf die hoort bij P(X = 5): vijf keer raak.",
+          "afbeelding_url": "/examenvormen/statistiek-beyond-uitdaging/binomiaal-worpen.svg",
+          "zones": [
+            [
+              83.2,
+              75.0,
+              10.9,
+              10.0
+            ]
+          ],
+          "uitleg": "P(X = 5) = 0,4⁵ ≈ 0,01. Die staaf is bijna onzichtbaar klein."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Bereken P(X = 2) voor X ~ B(5; 0,4). Rond af op vier decimalen.",
+          "antwoord": [
+            "0,3456",
+            "0.3456"
+          ],
+          "uitleg": "P(X = 2) = C(5,2) · 0,4² · 0,6³ = 10 · 0,16 · 0,216 = 0,3456.",
+          "afbeelding_url": "/examenvormen/statistiek-beyond-uitdaging/binomiaal-worpen.svg"
+        },
+        {
+          "type": "tabel",
+          "vraag": "Bereken voor X ~ B(5; 0,4).",
+          "rijen": [
+            "Verwachtingswaarde E(X)",
+            "Variantie Var(X)",
+            "Aantal mogelijke waarden van X"
+          ],
+          "antwoord": [
+            1,
+            0,
+            2
+          ],
+          "uitleg": "E(X) = n · p = 5 · 0,4 = 2. Var(X) = n · p · (1 − p) = 5 · 0,4 · 0,6 = 1,2. X kan 0, 1, 2, 3, 4 of 5 zijn.",
+          "kolommen": [
+            "1,2",
+            "2",
+            "6"
+          ],
+          "afbeelding_url": "/examenvormen/statistiek-beyond-uitdaging/binomiaal-worpen.svg"
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Wat is de kans op minstens één treffer, P(X ≥ 1)? Rond af op vier decimalen.",
+          "antwoord": [
+            "0,9222",
+            "0.9222"
+          ],
+          "uitleg": "Gebruik het complement: P(X ≥ 1) = 1 − P(X = 0) = 1 − 0,6⁵ = 1 − 0,07776 ≈ 0,9222.",
+          "afbeelding_url": "/examenvormen/statistiek-beyond-uitdaging/binomiaal-worpen.svg"
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een fietsslot heeft een code van 4 cijfers (0 tot 9). Hoeveel codes zijn er als geen enkel cijfer twee keer mag voorkomen?",
+          "antwoord": [
+            "5040"
+          ],
+          "uitleg": "Productregel zonder herhaling: 10 · 9 · 8 · 7 = 5040."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Herhaling of niet, volgorde of niet: hoeveel mogelijkheden?",
+          "rijen": [
+            "3 leerlingen uit 8 kiezen voor een werkgroep",
+            "Een voorzitter, secretaris en penningmeester kiezen uit 8",
+            "Een code van 3 tekens uit 8 letters, herhaling mag"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Zonder volgorde: C(8,3) = 56. Met volgorde, zonder herhaling: 8 · 7 · 6 = 336. Met herhaling: 8³ = 512.",
+          "kolommen": [
+            "56",
+            "336",
+            "512"
+          ]
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Bij een combinatie speelt de volgorde [[*geen rol|wel een rol]]. Daarom is C(n, k) [[*kleiner dan of gelijk aan|groter dan]] het aantal variaties van k uit n.",
+          "uitleg": "Bij een combinatie tel je elke groep één keer, in welke volgorde ook. Daardoor zijn er nooit meer combinaties dan variaties."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een klas van 20 leerlingen telt 12 meisjes. Je kiest willekeurig één leerling. Wat is de kans dat het géén meisje is?",
+          "opties": [
+            "0,4",
+            "0,6",
+            "0,8",
+            "0,12"
+          ],
+          "antwoord": 0,
+          "uitleg": "Complementregel: 1 − 12/20 = 1 − 0,6 = 0,4."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel is 7! / 5! ?",
+          "antwoord": [
+            "42"
+          ],
+          "uitleg": "7! / 5! = 7 · 6 = 42. De factoren 5 · 4 · 3 · 2 · 1 vallen weg."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "De lengte van volwassen mannen is normaal verdeeld met μ = 178 cm en σ = 8 cm. Wat is de z-score van 190 cm?",
+          "antwoord": [
+            "1,5",
+            "1.5"
+          ],
+          "uitleg": "z = (190 − 178) / 8 = 12 / 8 = 1,5."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Gebruik de 68-95-99,7-regel bij μ = 178 cm en σ = 8 cm. Hoeveel procent ligt ongeveer in dit interval?",
+          "rijen": [
+            "Tussen 170 en 186 cm",
+            "Tussen 162 en 194 cm",
+            "Tussen 154 en 202 cm"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Eén, twee en drie standaardafwijkingen rond het gemiddelde bevatten ongeveer 68 %, 95 % en 99,7 %.",
+          "kolommen": [
+            "68 %",
+            "95 %",
+            "99,7 %"
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Ongeveer hoeveel procent van de mannen is langer dan 186 cm (μ = 178, σ = 8)?",
+          "opties": [
+            "16 %",
+            "34 %",
+            "32 %",
+            "2,5 %"
+          ],
+          "antwoord": 0,
+          "uitleg": "Tussen 170 en 186 ligt 68 %. Buiten dat interval ligt 32 %, de helft daarvan rechts: 16 %."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Als je de steekproefgrootte vier keer zo groot maakt, wordt de standaardfout van het steekproefgemiddelde [[*twee keer zo klein|vier keer zo klein|twee keer zo groot]].",
+          "uitleg": "De standaardfout is σ/√n. Vier keer n geeft √4 = 2 keer kleiner."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een populatie heeft σ = 12. Je neemt steekproeven van n = 36. Hoe groot is de standaardfout van het gemiddelde?",
+          "antwoord": [
+            "2"
+          ],
+          "uitleg": "σ / √n = 12 / 6 = 2."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Is dit een aselecte steekproef of niet?",
+          "kolommen": [
+            "Aselect",
+            "Niet aselect"
+          ],
+          "items": [
+            [
+              "Elke tiende naam uit de leerlingenlijst, met een toevallig startpunt",
+              "Aselect"
+            ],
+            [
+              "Alleen de vrienden van de onderzoeker bevragen",
+              "Niet aselect"
+            ],
+            [
+              "Namen trekken uit een bak met alle namen",
+              "Aselect"
+            ],
+            [
+              "Een online poll waar wie wil op klikt",
+              "Niet aselect"
+            ]
+          ],
+          "uitleg": "Bij een aselecte steekproef heeft elk lid van de populatie een gekende kans om gekozen te worden. Vrijwillige deelname of bekenden kiezen geeft vertekening."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een fabrikant beweert dat een batterij gemiddeld 20 uur werkt. Een consumentenorganisatie denkt dat het minder is. Dan is H0: μ [[*= 20|< 20|> 20]] en H1: μ [[*< 20|> 20|≠ 20]].",
+          "uitleg": "H0 is de bewering die je wil toetsen (gelijkheid). H1 drukt het vermoeden uit: minder, dus een linkszijdige toets."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Wat besluit je bij een significantieniveau α = 0,05?",
+          "rijen": [
+            "p-waarde = 0,03",
+            "p-waarde = 0,12",
+            "p-waarde = 0,001",
+            "p-waarde = 0,40"
+          ],
+          "antwoord": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "uitleg": "Is de p-waarde kleiner dan α, dan is het resultaat significant en verwerp je H0. Anders heb je onvoldoende bewijs.",
+          "kolommen": [
+            "H0 verwerpen",
+            "H0 niet verwerpen"
+          ]
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel de fout aan de beschrijving.",
+          "paren": [
+            [
+              "fout van de eerste soort",
+              "H0 verwerpen terwijl ze waar is"
+            ],
+            [
+              "fout van de tweede soort",
+              "H0 niet verwerpen terwijl ze vals is"
+            ]
+          ],
+          "extra": [
+            "H1 aannemen terwijl ze waar is",
+            "de steekproef te klein kiezen"
+          ],
+          "uitleg": "De kans op een fout van de eerste soort is α. Een fout van de tweede soort betekent dat je een echt effect mist."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent een p-waarde van 0,02?",
+          "opties": [
+            "Als H0 klopt, is zo'n resultaat of extremer maar 2 % waarschijnlijk.",
+            "De kans dat H0 waar is, bedraagt precies 2 % in dit hele onderzoek.",
+            "De kans dat H1 waar is, bedraagt precies 98 % in dit hele onderzoek.",
+            "Er is 2 % kans dat de steekproef op een verkeerde manier getrokken werd."
+          ],
+          "antwoord": 0,
+          "uitleg": "De p-waarde is de kans op dit resultaat of iets extremer, als H0 waar zou zijn. Ze zegt niet hoe waarschijnlijk H0 zelf is."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In een steekproef van 400 jongeren sport 60 %. Wat is ongeveer het 95 %-betrouwbaarheidsinterval voor het echte percentage?",
+          "opties": [
+            "Van 55,2 % tot 64,8 %",
+            "Van 59,0 % tot 61,0 %",
+            "Van 50,0 % tot 70,0 %",
+            "Van 57,55 % tot 62,45 %"
+          ],
+          "antwoord": 0,
+          "uitleg": "Foutenmarge = 1,96 · √(0,6 · 0,4 / 400) = 1,96 · 0,0245 ≈ 0,048. Het interval loopt van 55,2 % tot 64,8 %."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een 99 %-betrouwbaarheidsinterval is [[*breder|smaller]] dan een 95 %-interval met dezelfde gegevens. Een grotere steekproef maakt de foutenmarge [[*kleiner|groter]].",
+          "uitleg": "Meer zekerheid vraagt een breder interval. Meer gegevens maken de schatting nauwkeuriger."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welke beschrijving past bij de correlatiecoëfficiënt r?",
+          "rijen": [
+            "r = 0,92",
+            "r = −0,85",
+            "r = 0,05"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Hoe dichter r bij 1 of −1 ligt, hoe sterker het lineaire verband. Het teken geeft de richting.",
+          "kolommen": [
+            "Sterk positief verband",
+            "Sterk negatief verband",
+            "Nauwelijks lineair verband"
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In zomers worden meer ijsjes verkocht en zijn er meer verdrinkingen. De correlatie is sterk. Wat besluit je?",
+          "opties": [
+            "Er is een verband, maar ijsjes veroorzaken geen verdrinkingen.",
+            "IJsjes eten vergroot echt de kans dat je verdrinkt in zee.",
+            "Verdrinkingen zorgen ervoor dat er meer ijs verkocht wordt.",
+            "De correlatie moet een rekenfout zijn, want er is geen oorzaak."
+          ],
+          "antwoord": 0,
+          "uitleg": "Correlatie is geen causaliteit. Een derde factor, het warme weer, verklaart allebei."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Bereken voor de dataset 2, 4, 4, 5, 10.",
+          "rijen": [
+            "Gemiddelde",
+            "Mediaan",
+            "Variatiebreedte"
+          ],
+          "antwoord": [
+            1,
+            0,
+            2
+          ],
+          "uitleg": "Gemiddelde = 25 / 5 = 5. De middelste waarde is 4. Variatiebreedte = 10 − 2 = 8.",
+          "kolommen": [
+            "4",
+            "5",
+            "8"
+          ]
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "In de dataset 2, 4, 4, 5, 10 is de modus [[*4|5|10]]. Als je 10 vervangt door 100, verandert [[*het gemiddelde|de mediaan|de modus]] het sterkst.",
+          "uitleg": "De modus is de waarde die het vaakst voorkomt. Het gemiddelde is gevoelig voor uitschieters; de mediaan en de modus niet."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Welke grafiek kies je best?",
+          "kolommen": [
+            "Staafdiagram",
+            "Histogram",
+            "Spreidingsdiagram"
+          ],
+          "items": [
+            [
+              "Lievelingssport van de leerlingen",
+              "Staafdiagram"
+            ],
+            [
+              "Lengtes van 200 leerlingen in klassen van 5 cm",
+              "Histogram"
+            ],
+            [
+              "Verband tussen studietijd en punten",
+              "Spreidingsdiagram"
+            ],
+            [
+              "Aantal broers en zussen per leerling",
+              "Staafdiagram"
+            ]
+          ],
+          "uitleg": "Een staafdiagram voor categorieën of weinig discrete waarden, een histogram voor gegroepeerde continue gegevens, een spreidingsdiagram voor een verband tussen twee variabelen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "In een frequentietabel komt de waarde 7 twaalf keer voor op 48 waarnemingen. Wat is de relatieve frequentie in procent? Enkel het getal.",
+          "antwoord": [
+            "25"
+          ],
+          "uitleg": "12 / 48 = 0,25 = 25 %."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke formule in een rekenblad geeft de mediaan van de cellen A1 tot A20?",
+          "opties": [
+            "=MEDIAAN(A1:A20)",
+            "=GEMIDDELDE(A1:A20)",
+            "=MODUS(A1:A20)",
+            "=KWARTIEL(A1:A20;3)"
+          ],
+          "antwoord": 0,
+          "uitleg": "MEDIAAN geeft de middelste waarde. GEMIDDELDE, MODUS en KWARTIEL geven andere maten."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "In welke volgorde verloopt een statistisch onderzoek bij jongeren?",
+          "opties": [
+            "Onderzoeksvraag formuleren",
+            "Steekproef trekken",
+            "Gegevens verzamelen",
+            "Gegevens verwerken en voorstellen",
+            "Besluit trekken en kritisch bekijken"
+          ],
+          "uitleg": "Eerst weet je wat je wil weten, dan kies je wie je bevraagt, verzamel en verwerk je de gegevens, en pas daarna besluit je."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Leeftijd in jaren is een [[*kwantitatieve|kwalitatieve]] variabele. Haarkleur is een [[*kwalitatieve|kwantitatieve]] variabele.",
+          "uitleg": "Kwantitatieve variabelen zijn getallen waarmee je kan rekenen. Kwalitatieve variabelen zijn categorieën."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Van een normaal verdeelde toets is μ = 60 en σ = 10. Wie zit bij de beste 2,5 %?",
+          "opties": [
+            "Iedereen met meer dan 80 punten",
+            "Iedereen met meer dan 70 punten",
+            "Iedereen met meer dan 90 punten",
+            "Iedereen met meer dan 62,5 punten"
+          ],
+          "antwoord": 0,
+          "uitleg": "95 % ligt tussen μ − 2σ en μ + 2σ, dus tussen 40 en 80. Boven 80 ligt de helft van de overige 5 %: 2,5 %."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een dobbelsteen wordt 3 keer gegooid. Hoeveel uitkomsten (geordende rijtjes) zijn er in totaal?",
+          "antwoord": [
+            "216"
+          ],
+          "uitleg": "Productregel met herhaling: 6 · 6 · 6 = 216."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over de binomiale verdeling?",
+          "rijen": [
+            "De pogingen moeten onafhankelijk van elkaar zijn.",
+            "De kans op succes blijft bij elke poging gelijk.",
+            "Er mogen bij elke poging drie uitkomsten zijn.",
+            "Het aantal pogingen ligt niet vast."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            false
+          ],
+          "uitleg": "Een binomiaal experiment heeft een vast aantal onafhankelijke pogingen met telkens twee uitkomsten (succes of niet) en een vaste succeskans."
+        },
+        {
+          "type": "open",
+          "vraag": "Een school beweert dat haar leerlingen gemiddeld 7 uur per nacht slapen. Jij vermoedt dat het minder is. Beschrijf in 4 à 6 zinnen hoe je dat met een hypothesetoets onderzoekt: hypothesen, steekproef, significantieniveau en besluit.",
+          "antwoord": "H0: μ = 7 uur en H1: μ < 7 uur, een linkszijdige toets. Ik trek een aselecte steekproef van bijvoorbeeld 50 leerlingen en vraag hoeveel ze slapen. Ik kies α = 0,05. Met de rekenapp bereken ik de p-waarde bij het steekproefgemiddelde. Is p kleiner dan 0,05, dan verwerp ik H0 en besluit ik dat de leerlingen minder dan 7 uur slapen. Anders heb ik onvoldoende bewijs.",
+          "uitleg": "Een goed antwoord noemt H0 en een linkszijdige H1, een aselecte steekproef, een gekozen α, en vergelijkt de p-waarde met α om H0 al dan niet te verwerpen."
+        }
+      ]
+    }
+  ]
+}
