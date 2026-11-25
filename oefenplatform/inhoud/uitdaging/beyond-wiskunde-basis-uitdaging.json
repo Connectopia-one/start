@@ -1,0 +1,564 @@
+{
+  "hoofdstukken": [
+    {
+      "titel": "Uitdaging — alles door elkaar",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het punt waar de grafiek van \\(f(x) = 2\\sin x + 1\\) haar grootste waarde bereikt.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond-uitdaging/sinus-grafiek.svg",
+          "zones": [
+            [
+              24.9,
+              25.2,
+              6.8,
+              11.0
+            ]
+          ],
+          "uitleg": "\\(\\sin x\\) is maximaal 1 bij \\(x = \\tfrac{\\pi}{2}\\). Dan is \\(f(x) = 2 \\cdot 1 + 1 = 3\\)."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de nulwaarde van f die tussen \\(\\pi\\) en \\(\\tfrac{3\\pi}{2}\\) ligt.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond-uitdaging/sinus-grafiek.svg",
+          "zones": [
+            [
+              47.9,
+              59.0,
+              6.8,
+              11.0
+            ]
+          ],
+          "uitleg": "\\(2\\sin x + 1 = 0\\) geeft \\(\\sin x = -\\tfrac{1}{2}\\). Tussen \\(\\pi\\) en \\(\\tfrac{3\\pi}{2}\\) is dat \\(x = \\tfrac{7\\pi}{6}\\)."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het punt waar de sinusgrafiek de verticale as snijdt.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond-uitdaging/sinus-grafiek.svg",
+          "zones": [
+            [
+              7.6,
+              47.7,
+              6.8,
+              11.0
+            ]
+          ],
+          "uitleg": "Bij \\(x = 0\\) is \\(f(0) = 2 \\cdot 0 + 1 = 1\\): het punt \\((0, 1)\\)."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Lees af en reken na voor \\(f(x) = 2\\sin x + 1\\).",
+          "rijen": [
+            "Amplitude",
+            "Evenwichtslijn y =",
+            "Minimum van f",
+            "Maximum van f"
+          ],
+          "antwoord": [
+            2,
+            1,
+            0,
+            3
+          ],
+          "uitleg": "De amplitude is de factor voor de sinus: 2. De grafiek schommelt rond \\(y = 1\\), van \\(1 - 2 = -1\\) tot \\(1 + 2 = 3\\).",
+          "kolommen": [
+            "-1",
+            "1",
+            "2",
+            "3"
+          ],
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond-uitdaging/sinus-grafiek.svg"
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "De periode van f is [[*\\(2\\pi\\)|\\(\\pi\\)|\\(4\\pi\\)]]. Op het interval \\(\\left(\\tfrac{\\pi}{2}, \\tfrac{3\\pi}{2}\\right)\\) is f [[*dalend|stijgend|constant]].",
+          "uitleg": "Een factor voor x ontbreekt, dus de periode blijft \\(2\\pi\\). Van de top bij \\(\\tfrac{\\pi}{2}\\) tot het dal bij \\(\\tfrac{3\\pi}{2}\\) daalt de grafiek.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond-uitdaging/sinus-grafiek.svg"
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Bekijk de kansboom. Klik op de uitkomst 'de bus was te laat, maar je was toch op tijd op school'.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond-uitdaging/kansboom-bus.svg",
+          "zones": [
+            [
+              71.2,
+              37.0,
+              25.6,
+              10.7
+            ]
+          ],
+          "uitleg": "Volg de tak 'bus te laat' en daarna 'op tijd op school'. Die kans is \\(0{,}2 \\cdot 0{,}1 = 0{,}02\\)."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de uitkomst met de grootste kans.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond-uitdaging/kansboom-bus.svg",
+          "zones": [
+            [
+              71.2,
+              83.4,
+              25.6,
+              10.7
+            ]
+          ],
+          "uitleg": "Bus op tijd en op tijd op school: \\(0{,}8 \\cdot 0{,}9 = 0{,}72\\). Dat is veel groter dan de andere drie uitkomsten."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe groot is de kans dat je te laat op school komt? Geef een decimaal getal.",
+          "antwoord": [
+            "0,26",
+            "0.26"
+          ],
+          "uitleg": "Tel de twee takken op: \\(0{,}2 \\cdot 0{,}9 + 0{,}8 \\cdot 0{,}1 = 0{,}18 + 0{,}08 = 0{,}26\\).",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond-uitdaging/kansboom-bus.svg"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je komt te laat op school. Hoe groot is de kans dat de bus te laat was? Rond af op twee decimalen.",
+          "opties": [
+            "0,69",
+            "0,18",
+            "0,9",
+            "0,26"
+          ],
+          "antwoord": 0,
+          "uitleg": "Voorwaardelijke kans: \\(\\dfrac{0{,}18}{0{,}26} \\approx 0{,}69\\).",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-beyond-uitdaging/kansboom-bus.svg"
+        },
+        {
+          "type": "tabel",
+          "vraag": "Bereken zonder rekenmachine.",
+          "rijen": [
+            "\\(\\log_{2} 32\\)",
+            "\\(8^{\\frac{2}{3}}\\)",
+            "\\(\\log 1000\\)",
+            "\\(\\sqrt[3]{-8}\\)"
+          ],
+          "antwoord": [
+            3,
+            2,
+            1,
+            0
+          ],
+          "uitleg": "\\(2^{5} = 32\\), \\(8^{\\frac{2}{3}} = (\\sqrt[3]{8})^{2} = 2^{2} = 4\\), \\(10^{3} = 1000\\) en \\((-2)^{3} = -8\\).",
+          "kolommen": [
+            "-2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Los op: \\(3^{x} = 81\\). Geef x.",
+          "antwoord": [
+            "4"
+          ],
+          "uitleg": "\\(81 = 3^{4}\\), dus \\(x = 4\\)."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "\\(\\log a + \\log b\\) is gelijk aan [[*\\(\\log(ab)\\)|\\(\\log(a+b)\\)|\\(\\log a \\cdot \\log b\\)]]. Het domein van \\(f(x) = \\log x\\) is [[*\\(x > 0\\)|\\(x \\geq 0\\)|alle reële getallen]].",
+          "uitleg": "De som van twee logaritmen is de logaritme van het product. Je kan enkel de logaritme nemen van een strikt positief getal."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Bekijk \\(f(x) = -2(x - 1)^{2} + 8\\).",
+          "rijen": [
+            "x-coördinaat van de top",
+            "y-coördinaat van de top",
+            "Grootste nulwaarde",
+            "Kleinste nulwaarde"
+          ],
+          "antwoord": [
+            1,
+            3,
+            2,
+            0
+          ],
+          "uitleg": "De top staat in de vorm: \\((1, 8)\\). Nulwaarden: \\((x - 1)^{2} = 4\\), dus \\(x - 1 = \\pm 2\\): \\(x = 3\\) of \\(x = -1\\).",
+          "kolommen": [
+            "-1",
+            "1",
+            "3",
+            "8"
+          ]
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Hoeveel reële oplossingen heeft elke tweedegraadsvergelijking?",
+          "kolommen": [
+            "Twee",
+            "Eén",
+            "Geen"
+          ],
+          "items": [
+            [
+              "\\(x^{2} - 5x + 6 = 0\\)",
+              "Twee"
+            ],
+            [
+              "\\(x^{2} + 2x + 5 = 0\\)",
+              "Geen"
+            ],
+            [
+              "\\(x^{2} - 6x + 9 = 0\\)",
+              "Eén"
+            ],
+            [
+              "\\(2x^{2} - 8 = 0\\)",
+              "Twee"
+            ],
+            [
+              "\\(x^{2} + 4 = 0\\)",
+              "Geen"
+            ]
+          ],
+          "uitleg": "Bekijk de discriminant \\(D = b^{2} - 4ac\\): positief geeft twee oplossingen, nul één, negatief geen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Los op: \\(x^{2} - 5x + 6 = 0\\). Geef de grootste oplossing.",
+          "antwoord": [
+            "3"
+          ],
+          "uitleg": "\\(x^{2} - 5x + 6 = (x - 2)(x - 3)\\), dus \\(x = 2\\) of \\(x = 3\\)."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Bij \\(f(x) = ax^{2} + bx + c\\) met \\(a < 0\\) is de parabool een [[*bergparabool|dalparabool]] en heeft f een [[*maximum|minimum]].",
+          "uitleg": "Een negatieve a draait de parabool om: de top is het hoogste punt."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit voor \\(f(x) = x^{2} - 4\\)?",
+          "rijen": [
+            "f is even: de grafiek is symmetrisch t.o.v. de y-as.",
+            "f is stijgend op \\(\\left]-\\infty, 0\\right]\\).",
+            "Het bereik van f is \\(\\left[-4, +\\infty\\right[\\).",
+            "f heeft een maximum in \\(x = 0\\)."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "\\(f(-x) = f(x)\\), dus f is even. Links van 0 daalt f, rechts stijgt f. De kleinste waarde is \\(-4\\): een minimum."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "De grafieken van \\(f(x) = x^{2}\\) en \\(g(x) = x + 2\\) snijden elkaar. Wat zijn de x-waarden van de snijpunten?",
+          "opties": [
+            "\\(x = -1\\) en \\(x = 2\\)",
+            "\\(x = 1\\) en \\(x = -2\\)",
+            "\\(x = -1\\) en \\(x = -2\\)",
+            "\\(x = -2\\) en \\(x = 2\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(x^{2} = x + 2\\) geeft \\(x^{2} - x - 2 = 0\\), dus \\((x - 2)(x + 1) = 0\\)."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welke groeifactor per jaar hoort erbij?",
+          "rijen": [
+            "Een bedrag groeit met 3 % per jaar.",
+            "Een auto verliest 20 % van zijn waarde per jaar.",
+            "Een bevolking verdubbelt elk jaar."
+          ],
+          "antwoord": [
+            1,
+            0,
+            2
+          ],
+          "uitleg": "Groei met p % geeft factor \\(1 + \\tfrac{p}{100}\\), afname met p % geeft \\(1 - \\tfrac{p}{100}\\).",
+          "kolommen": [
+            "0,8",
+            "1,03",
+            "2"
+          ]
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Je zet 500 euro op een rekening met 3 % rente per jaar (samengestelde intrest). Hoeveel staat er na 2 jaar op? Rond af op de cent, enkel het getal.",
+          "antwoord": [
+            "530,45",
+            "530.45"
+          ],
+          "uitleg": "\\(500 \\cdot 1{,}03^{2} = 500 \\cdot 1{,}0609 = 530{,}45\\) euro."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een hoeveelheid groeit met 5 % per jaar. Na ongeveer hoeveel jaar is ze verdubbeld?",
+          "opties": [
+            "Ongeveer 14 jaar",
+            "Ongeveer 20 jaar",
+            "Ongeveer 10 jaar",
+            "Ongeveer 100 jaar"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(1{,}05^{t} = 2\\) geeft \\(t = \\dfrac{\\log 2}{\\log 1{,}05} \\approx 14{,}2\\) jaar."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "De grafiek van \\(f(x) = 3 \\cdot 0{,}5^{x}\\) is [[*dalend|stijgend]] en snijdt de y-as in [[*\\(y = 3\\)|\\(y = 0{,}5\\)|\\(y = 1\\)]].",
+          "uitleg": "Een groeifactor tussen 0 en 1 geeft een dalende functie. Bij \\(x = 0\\) is \\(f(0) = 3 \\cdot 1 = 3\\)."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe steil is de grafiek van \\(f(x) = x^{3} - 4x\\) in \\(x = 2\\)? Geef de richtingscoëfficiënt van de raaklijn.",
+          "antwoord": [
+            "8"
+          ],
+          "uitleg": "\\(f'(x) = 3x^{2} - 4\\), dus \\(f'(2) = 12 - 4 = 8\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de vergelijking van de raaklijn aan de grafiek van \\(f(x) = x^{3} - 4x\\) in \\(x = 2\\)?",
+          "opties": [
+            "\\(y = 8x - 16\\)",
+            "\\(y = 8x\\)",
+            "\\(y = 8x + 16\\)",
+            "\\(y = 12x - 24\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(f(2) = 8 - 8 = 0\\) en \\(f'(2) = 8\\). De raaklijn door \\((2, 0)\\) is \\(y = 8(x - 2) = 8x - 16\\)."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Wat zegt de afgeleide over de grafiek van f?",
+          "rijen": [
+            "\\(f'(a) > 0\\)",
+            "\\(f'(a) < 0\\)",
+            "\\(f'(a) = 0\\) en f' wisselt van + naar −"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Het teken van de afgeleide geeft aan of de functie stijgt of daalt. Waar de afgeleide van plus naar min gaat, ligt een maximum.",
+          "kolommen": [
+            "f stijgt in a",
+            "f daalt in a",
+            "f heeft een maximum in a"
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Een rekenkundige rij heeft \\(u_{1} = 3\\) en verschil \\(v = 4\\).",
+          "rijen": [
+            "\\(u_{5}\\)",
+            "\\(u_{10}\\)",
+            "Som van de eerste 10 termen"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "\\(u_{5} = 3 + 4 \\cdot 4 = 19\\) en \\(u_{10} = 3 + 9 \\cdot 4 = 39\\). De som is \\(\\tfrac{10}{2}(3 + 39) = 210\\).",
+          "kolommen": [
+            "19",
+            "39",
+            "210"
+          ]
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een meetkundige rij heeft \\(u_{1} = 2\\) en reden \\(q = 3\\). Bereken \\(u_{5}\\).",
+          "antwoord": [
+            "162"
+          ],
+          "uitleg": "\\(u_{5} = 2 \\cdot 3^{4} = 2 \\cdot 81 = 162\\)."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Is de rij rekenkundig of meetkundig?",
+          "kolommen": [
+            "Rekenkundig",
+            "Meetkundig"
+          ],
+          "items": [
+            [
+              "5, 8, 11, 14, ...",
+              "Rekenkundig"
+            ],
+            [
+              "3, 6, 12, 24, ...",
+              "Meetkundig"
+            ],
+            [
+              "100, 90, 80, 70, ...",
+              "Rekenkundig"
+            ],
+            [
+              "81, 27, 9, 3, ...",
+              "Meetkundig"
+            ]
+          ],
+          "uitleg": "Telkens hetzelfde getal erbij of eraf: rekenkundig. Telkens met hetzelfde getal vermenigvuldigen: meetkundig."
+        },
+        {
+          "type": "tabel",
+          "vraag": "In een klas van 25: 15 doen aan sport, 10 spelen een instrument, 6 doen allebei. Bereken.",
+          "rijen": [
+            "Aantal leerlingen dat sport of een instrument speelt (of beide)",
+            "Aantal leerlingen dat geen van beide doet",
+            "Aantal leerlingen dat enkel sport"
+          ],
+          "antwoord": [
+            2,
+            0,
+            1
+          ],
+          "uitleg": "Somregel: \\(15 + 10 - 6 = 19\\). Dan doen \\(25 - 19 = 6\\) leerlingen geen van beide. Enkel sport: \\(15 - 6 = 9\\).",
+          "kolommen": [
+            "6",
+            "9",
+            "19"
+          ]
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Twee gebeurtenissen A en B zijn onafhankelijk als \\(P(A \\cap B)\\) [[*gelijk is aan|groter is dan]] \\(P(A) \\cdot P(B)\\).",
+          "uitleg": "Onafhankelijk betekent dat het optreden van de ene de kans op de andere niet verandert: \\(P(A \\cap B) = P(A) \\cdot P(B)\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een onderzoek stelt vast: leerlingen die meer ontbijten, halen betere punten. Welk besluit mag je trekken?",
+          "opties": [
+            "Er is samenhang, maar ontbijt is daarom nog niet de oorzaak.",
+            "Ontbijten zorgt er altijd en zeker voor dat je betere punten haalt.",
+            "Betere punten zorgen ervoor dat leerlingen meer ontbijten.",
+            "De steekproef moet fout zijn, want er is geen echt verband."
+          ],
+          "antwoord": 0,
+          "uitleg": "Samenhang is geen oorzakelijk verband. Een derde factor, zoals een regelmatig leven, kan allebei verklaren."
+        },
+        {
+          "type": "tabel",
+          "vraag": "IQ-scores zijn normaal verdeeld met \\(\\mu = 100\\) en \\(\\sigma = 15\\). Hoeveel procent ligt ongeveer in het interval?",
+          "rijen": [
+            "Tussen 85 en 115",
+            "Tussen 70 en 130",
+            "Boven 130"
+          ],
+          "antwoord": [
+            1,
+            2,
+            0
+          ],
+          "uitleg": "Eén en twee standaardafwijkingen rond het gemiddelde bevatten 68 % en 95 %. Boven \\(\\mu + 2\\sigma\\) ligt de helft van de overige 5 %.",
+          "kolommen": [
+            "2,5 %",
+            "68 %",
+            "95 %"
+          ]
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een IQ van 121 met \\(\\mu = 100\\) en \\(\\sigma = 15\\): bereken de z-score.",
+          "antwoord": [
+            "1,4",
+            "1.4"
+          ],
+          "uitleg": "\\(z = \\dfrac{121 - 100}{15} = \\dfrac{21}{15} = 1{,}4\\)."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel de functie aan haar soort.",
+          "paren": [
+            [
+              "\\(f(x) = 2^{x}\\)",
+              "exponentiële functie"
+            ],
+            [
+              "\\(f(x) = x^{2} - 1\\)",
+              "tweedegraadsfunctie"
+            ],
+            [
+              "\\(f(x) = \\sin x\\)",
+              "goniometrische functie"
+            ],
+            [
+              "\\(f(x) = \\log x\\)",
+              "logaritmische functie"
+            ]
+          ],
+          "extra": [
+            "eerstegraadsfunctie"
+          ],
+          "uitleg": "Een variabele in de exponent is exponentieel, een kwadraat tweedegraads, sinus goniometrisch en log logaritmisch."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Rangschik van klein naar groot.",
+          "opties": [
+            "\\(\\log 0{,}1\\)",
+            "\\(\\sin 0\\)",
+            "\\(2^{-1}\\)",
+            "\\(\\sqrt{2}\\)",
+            "\\(\\log_{2} 8\\)"
+          ],
+          "uitleg": "\\(\\log 0{,}1 = -1\\), \\(\\sin 0 = 0\\), \\(2^{-1} = 0{,}5\\), \\(\\sqrt{2} \\approx 1{,}41\\) en \\(\\log_{2} 8 = 3\\)."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "De afgeleide van \\(x^{n}\\) is [[\\(nx^{n-1}\\)]]. De afgeleide van een constante is [[0]].",
+          "extra": [
+            "\\(x^{n+1}\\)",
+            "1"
+          ],
+          "uitleg": "Machtsregel: exponent naar voren, exponent min één. Een constante verandert niet, dus haar afgeleide is 0."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Voor welke x is \\(\\sin x = 1\\) op het interval \\(\\left[0, 2\\pi\\right]\\)?",
+          "opties": [
+            "\\(x = \\tfrac{\\pi}{2}\\)",
+            "\\(x = \\pi\\)",
+            "\\(x = 0\\)",
+            "\\(x = \\tfrac{3\\pi}{2}\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Op de goniometrische cirkel is de sinus de y-coördinaat. Die is 1 bovenaan, bij \\(\\tfrac{\\pi}{2}\\)."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Los op: \\(\\log_{2}(x + 1) = 3\\). Geef x.",
+          "antwoord": [
+            "7"
+          ],
+          "uitleg": "\\(x + 1 = 2^{3} = 8\\), dus \\(x = 7\\)."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over de goniometrische cirkel?",
+          "rijen": [
+            "\\(\\cos 0 = 1\\)",
+            "\\(\\sin \\pi = 1\\)",
+            "\\(\\sin^{2} x + \\cos^{2} x = 1\\) voor elke x",
+            "\\(\\pi\\) radialen is hetzelfde als 90 graden."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Op de eenheidscirkel is \\(\\cos 0 = 1\\) en \\(\\sin \\pi = 0\\). De grondformule geldt altijd. \\(\\pi\\) radialen is 180 graden."
+        },
+        {
+          "type": "open",
+          "vraag": "Leg in 3 à 5 zinnen uit hoe je met de discriminant kan zien hoeveel nulwaarden een tweedegraadsfunctie heeft, en wat dat betekent voor de grafiek.",
+          "antwoord": "Je berekent \\(D = b^{2} - 4ac\\). Is D positief, dan zijn er twee nulwaarden en snijdt de parabool de x-as in twee punten. Is D nul, dan is er één nulwaarde en raakt de top de x-as. Is D negatief, dan zijn er geen reële nulwaarden en ligt de parabool volledig boven of onder de x-as.",
+          "uitleg": "Een goed antwoord geeft de formule van de discriminant en koppelt elk teken (positief, nul, negatief) aan het aantal snijpunten met de x-as."
+        }
+      ]
+    }
+  ]
+}
