@@ -1,0 +1,582 @@
+{
+  "hoofdstukken": [
+    {
+      "titel": "Uitdaging — alles door elkaar",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "Bekijk het schema. Klik op de laag van de ridders.",
+          "afbeelding_url": "/examenvormen/geschiedenis-boost-uitdaging/piramide-leenstelsel.svg",
+          "zones": [
+            [
+              12.0,
+              53.3,
+              76.0,
+              17.5
+            ]
+          ],
+          "uitleg": "Ridders kregen een klein leen en vochten te paard voor hun leenheer. Onder hen stonden enkel nog de boeren."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de laag van de hertogen en de graven.",
+          "afbeelding_url": "/examenvormen/geschiedenis-boost-uitdaging/piramide-leenstelsel.svg",
+          "zones": [
+            [
+              22.0,
+              35.8,
+              56.0,
+              17.5
+            ]
+          ],
+          "uitleg": "Hertogen en graven kregen een groot leen van de koning en gaven zelf kleinere lenen door aan ridders."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Bovenaan staat de [[*koning|paus|graaf]]. Wie een leen kreeg, werd [[*leenman|horige|stedeling]] en beloofde in ruil [[*trouw en hulp|een vaste huur in geld]].",
+          "uitleg": "De koning gaf lenen aan zijn leenmannen. Een leenman beloofde trouw en militaire hulp aan zijn leenheer.",
+          "afbeelding_url": "/examenvormen/geschiedenis-boost-uitdaging/piramide-leenstelsel.svg"
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over het leenstelsel?",
+          "rijen": [
+            "Laag 4 telde de meeste mensen.",
+            "Een leenman kon zelf ook leenheer zijn van iemand anders.",
+            "De boeren in laag 4 gaven lenen aan de ridders.",
+            "De graven bleven altijd trouw aan de wil van de koning."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            false
+          ],
+          "uitleg": "Het overgrote deel van de bevolking was boer. Een graaf was leenman van de koning en leenheer van zijn ridders. Graven werden vaak zo machtig dat ze hun eigen gang gingen.",
+          "afbeelding_url": "/examenvormen/geschiedenis-boost-uitdaging/piramide-leenstelsel.svg"
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Lees het verzonnen pamflet. Klik op de zin die een idee van de Verlichting verwoordt over de rechten van elke mens.",
+          "afbeelding_url": "/examenvormen/geschiedenis-boost-uitdaging/pamflet-1789.svg",
+          "zones": [
+            [
+              2,
+              54.5,
+              96,
+              13.7
+            ]
+          ],
+          "uitleg": "Dat elke mens vrij en gelijk in rechten geboren wordt, is een idee van de Verlichting, onder meer van Locke over natuurrechten."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de zin waarin de schrijver tegenstanders zwartmaakt in plaats van te argumenteren.",
+          "afbeelding_url": "/examenvormen/geschiedenis-boost-uitdaging/pamflet-1789.svg",
+          "zones": [
+            [
+              2,
+              81.8,
+              96,
+              13.7
+            ]
+          ],
+          "uitleg": "Wie iemand een vijand van het vaderland noemt omdat hij een andere mening heeft, geeft geen argument. Dat is een kenmerk van propaganda."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over het pamflet?",
+          "rijen": [
+            "Zin 2 klaagt over de voorrechten van adel en geestelijkheid.",
+            "Zin 5 verdedigt het absolutisme van de koning.",
+            "De schrijver hoort vermoedelijk bij de derde stand.",
+            "Het pamflet geeft een evenwichtig beeld van alle standen."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Zin 2 en 3 klagen de ongelijkheid aan, zin 5 wil de macht van de koning net beperken. De schrijver kiest duidelijk de kant van de derde stand: de bron is eenzijdig.",
+          "afbeelding_url": "/examenvormen/geschiedenis-boost-uitdaging/pamflet-1789.svg"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Voor wie werd dit pamflet vooral gemaakt?",
+          "opties": [
+            "voor de gewone burgers, om hen tegen de voorrechten op te zetten",
+            "voor de koning, om hem raad te geven over nieuwe belastingen",
+            "voor historici van later, om de revolutie precies te beschrijven",
+            "voor de adel, om haar te bedanken voor haar steun aan het volk"
+          ],
+          "antwoord": 0,
+          "uitleg": "Zin 1 spreekt alle burgers aan. Het pamflet wil overtuigen en mensen in beweging brengen. Wie het publiek is, bepaalt mee wat er verteld en verzwegen wordt.",
+          "afbeelding_url": "/examenvormen/geschiedenis-boost-uitdaging/pamflet-1789.svg"
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Zin 2 gaat vooral over het [[*economische|culturele]] domein, zin 5 over het [[*politieke|sociale]] domein.",
+          "uitleg": "Belastingen horen bij het economische domein. Wie de wetten maakt, is een politieke kwestie.",
+          "afbeelding_url": "/examenvormen/geschiedenis-boost-uitdaging/pamflet-1789.svg"
+        },
+        {
+          "type": "tabel",
+          "vraag": "Waarom gebruikten deze Frankische koningen de Kerk?",
+          "rijen": [
+            "Clovis liet zich dopen.",
+            "Pepijn de Korte liet zich door de paus zalven.",
+            "Karel de Grote liet zich in Rome tot keizer kronen.",
+            "De Frankische koningen hielden de Kerk buiten de politiek."
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Clovis, Pepijn en Karel gebruikten de Kerk om hun macht te onderbouwen, en de Kerk gebruikte hen om zich te beschermen. Politiek en godsdienst liepen bij de Franken door elkaar."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe verspreidde het christendom zich meestal over West-Europa?",
+          "opties": [
+            "Missionarissen bekeerden eerst de vorst, daarna volgde zijn volk.",
+            "De Romeinse keizers dwongen elke boer persoonlijk tot de doop.",
+            "Het christendom kwam pas na de kruistochten naar West-Europa.",
+            "Elke stad koos zelf haar godsdienst bij een stemming op de markt."
+          ],
+          "antwoord": 0,
+          "uitleg": "Bekeerde de vorst zich, dan volgden zijn volgelingen en uiteindelijk het volk. Zo ging het bij Clovis."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Hoort dit bij het platteland of bij de middeleeuwse stad?",
+          "kolommen": [
+            "Platteland",
+            "Stad"
+          ],
+          "items": [
+            [
+              "horigen op een domein",
+              "Platteland"
+            ],
+            [
+              "een ambacht van bakkers",
+              "Stad"
+            ],
+            [
+              "een keure met rechten en vrijheden",
+              "Stad"
+            ],
+            [
+              "het drieslagstelsel op de akkers",
+              "Platteland"
+            ],
+            [
+              "een lakenhalle voor de handel",
+              "Stad"
+            ]
+          ],
+          "uitleg": "Op het platteland werkten horigen op het domein van hun heer, met het drieslagstelsel. In de stad verenigden ambachtslui zich, regelde een keure de rechten en bloeide de handel."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een geloofsopvatting die afweek van de leer van de Kerk, noemde men [[*ketterij|humanisme|absolutisme]]. In de middeleeuwen ontstonden ook de eerste [[*universiteiten|fabrieken|kolonies]].",
+          "uitleg": "Ketters weken af van de officiële leer. Het hoger onderwijs bestond al: universiteiten ontstonden vanaf de 12de en 13de eeuw."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom mag je de kruistochten niet enkel via westerse bronnen bestuderen?",
+          "opties": [
+            "Ook de Arabische kant liet bronnen na, met een andere blik.",
+            "Westerse bronnen over de kruistochten zijn allemaal verloren gegaan.",
+            "De kruistochten vonden enkel plaats in West-Europa zelf, niet elders.",
+            "Arabische bronnen zijn altijd betrouwbaarder dan westerse bronnen."
+          ],
+          "antwoord": 0,
+          "uitleg": "Elke bron toont het standpunt van wie ze maakte. Door ook Arabische bronnen te lezen, krijg je een vollediger beeld."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "In welk jaar liet Pepijn de Korte zich tot koning van de Franken kronen? Geef enkel het jaartal.",
+          "antwoord": "751",
+          "uitleg": "In 751 werd Pepijn de Korte, zoon van Karel Martel, koning. Met hem begon de dynastie van de Karolingers."
+        },
+        {
+          "type": "tabel",
+          "vraag": "In welke eeuw valt dit jaartal?",
+          "rijen": [
+            "476",
+            "1302",
+            "1566",
+            "1789"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "uitleg": "De eeuw is altijd één meer dan de honderdtallen: de jaren 1301 tot 1400 vormen de 14de eeuw, de jaren 1701 tot 1800 de 18de eeuw.",
+          "kolommen": [
+            "5de eeuw",
+            "14de eeuw",
+            "16de eeuw",
+            "18de eeuw"
+          ]
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "In 1453 veroverden de [[*Ottomanen|Franken|Spanjaarden]] Constantinopel. De sultan die men in het Westen 'de Prachtlievende' noemde, was [[*Suleyman I|Karel V|Lodewijk XIV]].",
+          "uitleg": "Met de verovering van Constantinopel werd het Ottomaanse Rijk een grootmacht. Onder Suleyman I bereikte het zijn grootste bloei."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Is dit een oorzaak of een gevolg van de Franse Revolutie?",
+          "kolommen": [
+            "Oorzaak",
+            "Gevolg"
+          ],
+          "items": [
+            [
+              "de ongelijkheid tussen de drie standen",
+              "Oorzaak"
+            ],
+            [
+              "de ideeën van de Verlichting",
+              "Oorzaak"
+            ],
+            [
+              "de afschaffing van de voorrechten van adel en geestelijkheid",
+              "Gevolg"
+            ],
+            [
+              "het einde van het absolutisme in Frankrijk",
+              "Gevolg"
+            ],
+            [
+              "een lege staatskas en duur brood",
+              "Oorzaak"
+            ]
+          ],
+          "uitleg": "Ongelijkheid, nieuwe ideeën en een financiële crisis zetten de revolutie in gang. Ze maakte een einde aan de voorrechten en aan de absolute macht van de koning."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat veranderde er door de boekdrukkunst?",
+          "opties": [
+            "Boeken werden goedkoper en ideeën verspreidden zich sneller.",
+            "Alleen kloosters mochten nog boeken maken en lezen.",
+            "Boeken werden duurder, want elke letter was met de hand gesneden.",
+            "Het Latijn verdween meteen helemaal als taal van de geleerden."
+          ],
+          "antwoord": 0,
+          "uitleg": "Met de drukpers kon je snel veel exemplaren maken. Zo verspreidden de ideeën van humanisten en hervormers zich over heel Europa."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom groeide de bevolking in de 18de eeuw sterk?",
+          "opties": [
+            "Een betere landbouw leverde meer voedsel op.",
+            "De pest doodde in die eeuw vooral de ouderen.",
+            "Er kwamen veel kolonisten uit Amerika naar Europa.",
+            "Elke stad gaf gratis brood aan alle inwoners."
+          ],
+          "antwoord": 0,
+          "uitleg": "Nieuwe methodes zoals het vruchtwisselstelsel en nieuwe gewassen zoals de aardappel zorgden voor meer voedsel. Daardoor stierven minder mensen aan honger."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noemt men de beweging die Luther in gang zette en die tot nieuwe, protestantse kerken leidde?",
+          "antwoord": [
+            "Reformatie",
+            "de Reformatie",
+            "reformatie",
+            "de reformatie"
+          ],
+          "uitleg": "Luther wilde de Kerk hervormen. Zijn beweging heet de Reformatie; de katholieke reactie erop heet de Contrareformatie."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elk begrip aan zijn uitleg.",
+          "paren": [
+            [
+              "mercantilisme",
+              "meer uitvoeren dan invoeren om edelmetaal binnen te halen"
+            ],
+            [
+              "monocultuur",
+              "een heel gebied beplant met één gewas voor de uitvoer"
+            ],
+            [
+              "vruchtwisselstelsel",
+              "elk jaar een ander gewas op hetzelfde veld, zonder braakland"
+            ],
+            [
+              "astrolabium",
+              "instrument om op zee de breedtegraad te bepalen"
+            ]
+          ],
+          "extra": [
+            "een kerkvergadering die de leer vastlegt"
+          ],
+          "uitleg": "Mercantilisme is een economisch beleid van de vorsten. Monocultuur hoort bij de plantages in de kolonies. Het vruchtwisselstelsel vernieuwde de landbouw. Het astrolabium hielp de zeevaarders."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over de verovering van Amerika?",
+          "rijen": [
+            "Het Aztekenrijk lag in het huidige Mexico.",
+            "De Spanjaarden versloegen de Azteken en de Inca's met kleine legers en bondgenoten.",
+            "Ziekten uit Europa doodden een groot deel van de inheemse bevolking.",
+            "China werd in dezelfde periode door Spanje veroverd."
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Met paarden, vuurwapens, bondgenoten en vooral ziekten vielen de grote rijken van Amerika. China en het Ottomaanse Rijk bleven buiten het bereik van de Europeanen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het verschil tussen kolonialisme en imperialisme?",
+          "opties": [
+            "Imperialisme is breder: macht over andere gebieden.",
+            "Kolonialisme gaat enkel over handel, imperialisme enkel over godsdienst.",
+            "Er is geen verschil: de twee woorden betekenen precies hetzelfde.",
+            "Imperialisme bestond alleen in de oudheid en niet meer daarna."
+          ],
+          "antwoord": 0,
+          "uitleg": "Kolonialisme is het stichten en uitbuiten van kolonies. Imperialisme is breder: het streven van een staat naar macht en invloed over andere gebieden, ook zonder ze rechtstreeks te besturen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over de nieuwe manier van denken in de 15de en 16de eeuw?",
+          "rijen": [
+            "Humanisten bestudeerden opnieuw de teksten van de Grieken en Romeinen.",
+            "Vesalius ontleedde zelf lichamen en verbeterde zo oude teksten.",
+            "Dankzij de drukpers raakten ideeën veel sneller verspreid.",
+            "Wetenschappers bleven alles uit oude boeken overnemen zonder zelf te kijken."
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Men ging zelf waarnemen en proeven doen in plaats van oude teksten blind te volgen. De drukpers maakte boeken goedkoper en ideeën sneller bekend."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarin verschilden de Vlaamse primitieven, zoals Van Eyck, van de Italiaanse renaissanceschilders?",
+          "opties": [
+            "Zij schilderden met olieverf elk detail haarfijn uit.",
+            "Zij schilderden enkel landschappen zonder mensen erin.",
+            "Zij gebruikten nooit kleur en werkten in zwart en wit.",
+            "Zij maakten alleen beelden in marmer en geen schilderijen."
+          ],
+          "antwoord": 0,
+          "uitleg": "Van Eyck schilderde elke haar en elke weerspiegeling met olieverf. Een Italiaan zocht eerst de bouw van het geheel en de juiste verhoudingen."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet deze stappen van de Reformatie en de reactie erop in de juiste volgorde.",
+          "opties": [
+            "Luther uit kritiek op de aflaathandel",
+            "de Reformatie verspreidt zich met de drukpers",
+            "het concilie van Trente legt de katholieke leer vast",
+            "de barokkunst moet de gelovigen opnieuw raken"
+          ],
+          "uitleg": "Luthers kritiek verspreidde zich snel dankzij gedrukte teksten. De Kerk antwoordde met het concilie van Trente en de Contrareformatie, waarin ook de barokkunst een rol speelde."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Waar of niet waar?",
+          "rijen": [
+            "De Glorious Revolution van 1688 verliep zonder grote veldslag.",
+            "Na de Glorious Revolution kreeg het Engelse parlement meer macht.",
+            "Lodewijk XIV deelde zijn macht met een verkozen parlement.",
+            "Een grondwet legt de grondregels en de macht van een staat vast."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "In Engeland werd de macht van de koning beperkt door het parlement. Lodewijk XIV regeerde absoluut. Een grondwet legt vast wie welke macht heeft."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welk bestuursniveau beslist hierover in België vooral?",
+          "rijen": [
+            "de vuilnisophaling in je straat",
+            "het onderwijs in Vlaanderen",
+            "het leger en de rechtbanken"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "In België verdelen verschillende niveaus de macht: de gemeente regelt lokale zaken, de gemeenschappen onder meer onderwijs, en het federale niveau onder meer defensie en justitie. Ook dat is een vorm van verdeelde macht.",
+          "kolommen": [
+            "Gemeente",
+            "Gemeenschap",
+            "Federaal"
+          ]
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet deze gebeurtenissen in de juiste volgorde.",
+          "opties": [
+            "de Beeldenstorm",
+            "de Glorious Revolution",
+            "de Amerikaanse Onafhankelijkheidsverklaring",
+            "de bestorming van de Bastille"
+          ],
+          "uitleg": "1566, 1688, 1776 en 1789."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over de industriële revolutie op het vasteland?",
+          "rijen": [
+            "De eerste fabrieken op het vasteland kwamen er onder meer rond Luik en Gent.",
+            "Cockerill bouwde in Seraing een bedrijf dat zijn eigen machines maakte.",
+            "De industriële revolutie begon op het vasteland en sloeg dan over naar Groot-Brittannië."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false
+          ],
+          "uitleg": "De industriële revolutie begon in Groot-Brittannië. Daarna volgde het vasteland, met onze gewesten bij de eersten: steenkool, ijzer en textiel."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Rond 1800 veranderde er veel tegelijk: de [[industriële]] revolutie veranderde de economie, de Franse Revolutie de [[politiek]] en de bevolking groeide door betere [[landbouw]].",
+          "extra": [
+            "godsdienst",
+            "kruistochten"
+          ],
+          "uitleg": "De revoluties van die tijd raakten elk een ander maatschappelijk domein, maar ze beïnvloedden elkaar."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Droeg dit bij tot het latere verval van het Ottomaanse Rijk?",
+          "rijen": [
+            "de nieuwe zeeroutes die de landhandel via het rijk minder belangrijk maakten",
+            "de nederlaag bij het beleg van Wenen",
+            "de verovering van Constantinopel in 1453"
+          ],
+          "antwoord": [
+            true,
+            true,
+            false
+          ],
+          "uitleg": "De verovering van Constantinopel was net een hoogtepunt. Later verloor het rijk handel door de zeeroutes rond Afrika en raakte het in Europa terrein kwijt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je vergelijkt het Ottomaanse Rijk en Frankrijk onder Lodewijk XIV. Welke gelijkenis vind je?",
+          "opties": [
+            "In beide lag alle macht bij één heerser.",
+            "In beide was de godsdienst het christendom.",
+            "Beide hadden een verkozen parlement.",
+            "Beide waren republieken zonder vorst."
+          ],
+          "antwoord": 0,
+          "uitleg": "De sultan en Lodewijk XIV regeerden allebei absoluut. De Ottomanen waren moslims, Frankrijk katholiek, en geen van beide had een verkozen parlement."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Welke historische redeneerwijze gebruik je?",
+          "paren": [
+            [
+              "Waarom brak de Franse Revolutie uit?",
+              "oorzaak en gevolg"
+            ],
+            [
+              "Wat bleef hetzelfde en wat veranderde na de Reformatie?",
+              "continuïteit en verandering"
+            ],
+            [
+              "Hoe verschilt een Ottomaanse stad van een Vlaamse stad rond 1550?",
+              "vergelijken"
+            ]
+          ],
+          "extra": [
+            "veralgemenen"
+          ],
+          "uitleg": "Historici zoeken oorzaken en gevolgen, kijken naar wat blijft en wat verandert, en vergelijken samenlevingen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over historische bronnen?",
+          "rijen": [
+            "Een tijdgenoot is altijd ook een ooggetuige.",
+            "Een schilderij kan een historische bron zijn.",
+            "Een geschiedenisboek van vorig jaar over 1789 is een secundaire bron.",
+            "Een bron met een duidelijke mening is waardeloos voor een historicus."
+          ],
+          "antwoord": [
+            false,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Wie in dezelfde tijd leefde, was er niet altijd zelf bij. Elk spoor uit het verleden kan een bron zijn. Ook een gekleurde bron is nuttig: ze toont hoe iemand dacht."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet de stappen om een historische vraag te beantwoorden in de juiste volgorde.",
+          "opties": [
+            "een onderzoekbare vraag stellen",
+            "bronnen zoeken en selecteren",
+            "de bronnen kritisch bekijken",
+            "een antwoord formuleren en staven met de bronnen"
+          ],
+          "uitleg": "Je begint met een goede vraag, zoekt bruikbare bronnen, weegt hun betrouwbaarheid en formuleert dan een onderbouwd antwoord."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het gevolg als je enkel de bronnen van één kant van een conflict leest?",
+          "opties": [
+            "Je neemt hun blik over zonder het te merken.",
+            "Je kent dan meteen de volledige waarheid erover.",
+            "Je kan dan geen enkele vraag meer stellen.",
+            "Je bron wordt dan automatisch een secundaire."
+          ],
+          "antwoord": 0,
+          "uitleg": "Elke partij vertelt het verhaal vanuit haar eigen standpunt. Wie maar één kant leest, neemt die blik over."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Gaat dit over beeldvorming van het verleden?",
+          "rijen": [
+            "Een standbeeld uit de 19de eeuw maakt van een middeleeuwse graaf een volksheld.",
+            "Een film over de kruistochten toont enkel dappere ridders en wrede vijanden.",
+            "Een historicus telt de belastingrollen van een stad uit 1350."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Beeldvorming gaat over hoe later naar het verleden gekeken wordt, met keuzes en blinde vlekken. Het tellen van belastingrollen is onderzoek naar het verleden zelf."
+        },
+        {
+          "type": "open",
+          "vraag": "Leg met een voorbeeld uit hoe de economische en de sociale domeinen in de driehoekshandel met elkaar verbonden waren.",
+          "antwoord": "Economisch: Europese handelaars verdienden veel aan suiker, katoen en tabak van de plantages. Sociaal: daarvoor werden miljoenen Afrikanen tot slaaf gemaakt en weggerukt uit hun samenleving, en in Amerika ontstond een samenleving met een kleine groep rijke planters en een grote groep slaven zonder rechten. De winst in het ene domein steunde dus rechtstreeks op het onrecht in het andere.",
+          "uitleg": "Een goed antwoord noemt een concreet economisch element (winst, handel, producten) en een concreet sociaal gevolg (slavernij, ongelijkheid) en legt uit hoe het ene het andere veroorzaakte."
+        }
+      ]
+    }
+  ]
+}
