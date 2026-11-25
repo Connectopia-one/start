@@ -1,0 +1,570 @@
+{
+  "hoofdstukken": [
+    {
+      "titel": "Uitdaging — alles door elkaar",
+      "niveau": "beyond-dubbele-finaliteit",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "Lees de brief. Klik op de zin die een vooroordeel bevat.",
+          "afbeelding_url": "/examenvormen/geschiedenis-beyond-df-uitdaging/brief-ijzer-1916.svg",
+          "zones": [
+            [
+              2,
+              68.2,
+              96,
+              13.7
+            ]
+          ],
+          "uitleg": "'Allemaal laffe barbaren' is een veralgemening over een hele groep. Dat is een mening, beïnvloed door de oorlogspropaganda."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de zin die verwijst naar de onderwaterzetting van de IJzervlakte.",
+          "afbeelding_url": "/examenvormen/geschiedenis-beyond-df-uitdaging/brief-ijzer-1916.svg",
+          "zones": [
+            [
+              2,
+              27.1,
+              96,
+              13.7
+            ]
+          ],
+          "uitleg": "In oktober 1914 werden de sluizen bij Nieuwpoort geopend. Het water hield de Duitse opmars aan de IJzer tegen."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de zin die past bij de taalgrieven van Vlaamse soldaten.",
+          "afbeelding_url": "/examenvormen/geschiedenis-beyond-df-uitdaging/brief-ijzer-1916.svg",
+          "zones": [
+            [
+              2,
+              54.5,
+              96,
+              13.7
+            ]
+          ],
+          "uitleg": "Veel Vlaamse soldaten begrepen de Franse bevelen slecht. Die frustratie voedde de Frontbeweging."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over de brief?",
+          "rijen": [
+            "De brief toont hoe een soldaat de oorlog zelf beleefde.",
+            "Zin 6 toont dat de soldaat een lange oorlog verwachtte.",
+            "Een brief uit 1916 zou een primaire bron zijn.",
+            "De brief bewijst hoe alle Belgische soldaten dachten."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Een brief is een persoonlijke getuigenis uit de tijd zelf. Hij hoopt juist op een snel einde. Eén brief zegt niets over alle soldaten.",
+          "afbeelding_url": "/examenvormen/geschiedenis-beyond-df-uitdaging/brief-ijzer-1916.svg"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom moet je voorzichtig zijn met wat soldaten in brieven naar huis schreven?",
+          "opties": [
+            "Brieven werden gecensureerd en ze wilden hun familie geruststellen.",
+            "Soldaten mochten van het leger enkel over het weer en het eten schrijven.",
+            "Brieven uit de oorlog werden pas na 1950 opgeschreven door historici.",
+            "Soldaten schreven altijd in het Duits, waardoor veel verloren ging."
+          ],
+          "antwoord": 0,
+          "uitleg": "Het leger las brieven na en schrapte gevoelige informatie. Veel soldaten verzwegen ook de ergste dingen voor hun familie.",
+          "afbeelding_url": "/examenvormen/geschiedenis-beyond-df-uitdaging/brief-ijzer-1916.svg"
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de oudste gebeurtenis.",
+          "afbeelding_url": "/examenvormen/geschiedenis-beyond-df-uitdaging/gebeurtenissen-belgie.svg",
+          "zones": [
+            [
+              2,
+              27.1,
+              96,
+              13.7
+            ]
+          ],
+          "uitleg": "De Belgische Revolutie vond plaats in 1830. Daarna volgen 1914, 1919, 1950, 1960 en 1993."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de gebeurtenis die volgde op de Eerste Wereldoorlog en de politieke rechten van arbeiders vergrootte.",
+          "afbeelding_url": "/examenvormen/geschiedenis-beyond-df-uitdaging/gebeurtenissen-belgie.svg",
+          "zones": [
+            [
+              2,
+              13.4,
+              96,
+              13.7
+            ]
+          ],
+          "uitleg": "In 1919 kregen alle mannen vanaf 21 jaar één stem. Vóór die tijd hadden rijkere en geschoolde mannen meer stemmen."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de gebeurtenis die het land rond 1950 diep verdeelde.",
+          "afbeelding_url": "/examenvormen/geschiedenis-beyond-df-uitdaging/gebeurtenissen-belgie.svg",
+          "zones": [
+            [
+              2,
+              81.8,
+              96,
+              13.7
+            ]
+          ],
+          "uitleg": "De Koningskwestie draaide rond de terugkeer van Leopold III na de Tweede Wereldoorlog. In 1951 deed hij afstand van de troon."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet de gebeurtenissen van de lijst in chronologische volgorde.",
+          "opties": [
+            "De Belgische Revolutie",
+            "De Duitse inval in België in de Eerste Wereldoorlog",
+            "Algemeen enkelvoudig stemrecht voor mannen",
+            "De Koningskwestie",
+            "De onafhankelijkheid van Congo",
+            "België wordt een federale staat"
+          ],
+          "uitleg": "1830, 1914, 1919, rond 1950, 1960 en 1993.",
+          "afbeelding_url": "/examenvormen/geschiedenis-beyond-df-uitdaging/gebeurtenissen-belgie.svg"
+        },
+        {
+          "type": "tabel",
+          "vraag": "In welk domein van de samenleving hoort dit?",
+          "rijen": [
+            "De invoering van het stemrecht",
+            "De bouw van spoorwegen en fabrieken",
+            "Het ontstaan van de arbeidersklasse",
+            "Nieuwe kunststromingen zoals het impressionisme"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "uitleg": "Historici delen het verleden in domeinen in: politiek, economie, sociaal en cultureel.",
+          "kolommen": [
+            "Politiek",
+            "Economie",
+            "Sociaal",
+            "Cultuur"
+          ]
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Na de nederlaag van Napoleon herstelde het Congres van Wenen in [[*1815|1830|1789]] de macht van de [[*vorsten|arbeiders|kolonies]].",
+          "uitleg": "In 1815 tekenden de grootmachten in Wenen een nieuwe kaart van Europa en herstelden ze de oude vorstenhuizen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Liberalisme of nationalisme?",
+          "rijen": [
+            "Een volk met een eigen taal en cultuur wil een eigen staat.",
+            "Vrijheid van meningsuiting en een grondwet",
+            "De eenmaking van Italië en Duitsland",
+            "Een vrije markt zonder veel overheid"
+          ],
+          "antwoord": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "uitleg": "Liberalen streden voor vrijheid en grondrechten. Nationalisten wilden dat elk volk een eigen staat kreeg.",
+          "kolommen": [
+            "Liberalisme",
+            "Nationalisme"
+          ]
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Na de opstand van [[*1830|1815|1848]] werd België een [[*constitutionele monarchie|republiek|dictatuur]] met Leopold I als eerste koning.",
+          "uitleg": "De grondwet van 1831 beperkte de macht van de koning. Leopold I legde de eed af in 1831."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Eerste of tweede industriële revolutie?",
+          "rijen": [
+            "Stoommachine en steenkool",
+            "Elektriciteit en de verbrandingsmotor",
+            "Mechanische weefgetouwen",
+            "Chemische industrie en staal op grote schaal"
+          ],
+          "antwoord": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "uitleg": "De eerste industriële revolutie draaide op stoom en steenkool. De tweede, vanaf het einde van de 19de eeuw, bracht elektriciteit, olie en chemie.",
+          "kolommen": [
+            "Eerste",
+            "Tweede"
+          ]
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Welke stroming hoort bij deze uitspraak?",
+          "kolommen": [
+            "Marxisme",
+            "Sociaaldemocratie",
+            "Christendemocratie"
+          ],
+          "items": [
+            [
+              "Arbeiders moeten de macht grijpen met een revolutie.",
+              "Marxisme"
+            ],
+            [
+              "We verbeteren de positie van arbeiders via verkiezingen en wetten.",
+              "Sociaaldemocratie"
+            ],
+            [
+              "Werkgevers en werknemers moeten samenwerken volgens de christelijke waarden.",
+              "Christendemocratie"
+            ]
+          ],
+          "uitleg": "Marx wilde een revolutie. Sociaaldemocraten kozen voor hervormingen via het parlement. Christendemocraten volgden de sociale leer van de Kerk (Rerum Novarum)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom kwamen er in de 19de eeuw zo veel arbeiders naar de steden?",
+          "opties": [
+            "Ze zochten werk in de nieuwe fabrieken.",
+            "Ze kregen er gratis een huis van de koning.",
+            "De landbouw verdween volledig uit België.",
+            "Ze wilden er vooral studeren aan de universiteit."
+          ],
+          "antwoord": 0,
+          "uitleg": "Door de industrialisatie was er werk in de fabrieken, terwijl er op het platteland vaak armoede was."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over het imperialisme?",
+          "rijen": [
+            "Europese landen zochten grondstoffen en afzetmarkten.",
+            "Op de Conferentie van Berlijn verdeelden Europeanen Afrika onder elkaar.",
+            "Afrikaanse leiders beslisten mee op de Conferentie van Berlijn."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false
+          ],
+          "uitleg": "In 1884-1885 verdeelden Europese landen Afrika zonder dat Afrikanen er iets over te zeggen hadden."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "De Congo-Vrijstaat was van 1885 tot [[*1908|1960|1830]] het persoonlijke bezit van koning [[*Leopold II|Albert I|Leopold I]].",
+          "uitleg": "Na kritiek op de misbruiken bij de rubberwinning nam de Belgische staat Congo in 1908 over."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel het begrip aan de uitleg.",
+          "paren": [
+            [
+              "loopgravenoorlog",
+              "lange frontlinie waar legers jaren tegenover elkaar lagen"
+            ],
+            [
+              "Verdrag van Versailles",
+              "vrede van 1919 met zware voorwaarden voor Duitsland"
+            ],
+            [
+              "Volkenbond",
+              "internationale organisatie om oorlog te voorkomen na 1918"
+            ]
+          ],
+          "extra": [
+            "de verdeling van Berlijn"
+          ],
+          "uitleg": "De Eerste Wereldoorlog was vooral een loopgravenoorlog. Na de oorlog volgden het Verdrag van Versailles en de Volkenbond."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welk totalitair regime?",
+          "rijen": [
+            "Hitler, rassenleer en de Jodenvervolging",
+            "Stalin, vijfjarenplannen en de goelag",
+            "Mussolini en de zwarthemden"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Totalitaire regimes controleerden alles: politiek, economie, media en het privéleven.",
+          "kolommen": [
+            "Nazi-Duitsland",
+            "Sovjet-Unie",
+            "Fascistisch Italië"
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat was een kenmerk van het totalitarisme?",
+          "opties": [
+            "Eén partij controleert alles en duldt geen kritiek.",
+            "Er zijn veel partijen en vrije verkiezingen.",
+            "De pers mag de regering vrij bekritiseren.",
+            "De macht is verdeeld over drie onafhankelijke machten."
+          ],
+          "antwoord": 0,
+          "uitleg": "In een totalitaire staat is er één partij en één leider. Oppositie, vrije pers en vrije verkiezingen bestaan niet."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet in de juiste volgorde.",
+          "opties": [
+            "Beurskrach van Wall Street",
+            "Hitler komt aan de macht",
+            "Duitsland valt Polen binnen",
+            "De Holocaust in de vernietigingskampen",
+            "Bevrijding van de kampen"
+          ],
+          "uitleg": "1929, 1933, 1939, vooral 1942-1944, 1945."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "In 1949 riep [[*Mao Zedong|Deng Xiaoping|Sun Yat-sen]] de Volksrepubliek China uit. Vanaf 1978 opende [[*Deng Xiaoping|Mao Zedong]] de economie voor buitenlandse bedrijven.",
+          "uitleg": "Mao maakte China communistisch. Deng hervormde de economie, wat China tot een wereldmacht maakte."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Hoort dit bij het Westen of bij het Oostblok tijdens de Koude Oorlog?",
+          "kolommen": [
+            "Westen",
+            "Oostblok"
+          ],
+          "items": [
+            [
+              "Verenigde Staten",
+              "Westen"
+            ],
+            [
+              "Sovjet-Unie",
+              "Oostblok"
+            ],
+            [
+              "NAVO",
+              "Westen"
+            ],
+            [
+              "Warschaupact",
+              "Oostblok"
+            ]
+          ],
+          "uitleg": "Het kapitalistische Westen onder leiding van de VS stond tegenover het communistische Oostblok onder de Sovjet-Unie."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over de Europese eenmaking?",
+          "rijen": [
+            "België was een van de zes stichtende landen van de EEG.",
+            "De euro werd ingevoerd als munt in 2002.",
+            "Alle landen van Europa zijn lid van de Europese Unie."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false
+          ],
+          "uitleg": "In 1957 stichtten zes landen de EEG. De euromunten en -biljetten kwamen er in 2002. Landen zoals Noorwegen en Zwitserland zijn geen lid."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom startte de Europese samenwerking na 1945?",
+          "opties": [
+            "Om oorlog te voorkomen en de economie te versterken.",
+            "Om samen kolonies in Afrika te veroveren en te besturen.",
+            "Om de Verenigde Staten economisch te verslaan en in te halen.",
+            "Om één Europese koning aan te stellen voor alle landen."
+          ],
+          "antwoord": 0,
+          "uitleg": "Landen die economisch van elkaar afhangen, voeren minder snel oorlog. De EGKS (1951) bracht kolen en staal samen."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Congo werd onafhankelijk op 30 juni [[*1960|1945|1975]]. De eerste premier was [[*Patrice Lumumba|Mobutu|Leopold II]].",
+          "uitleg": "Lumumba hield bij de onafhankelijkheid een scherpe toespraak. Hij werd in 1961 vermoord."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welke breuklijn in de Belgische politiek?",
+          "rijen": [
+            "Ruzie over de financiering van katholieke en officiële scholen",
+            "Ruzie tussen werkgevers en vakbonden over lonen",
+            "Ruzie tussen Vlamingen en Franstaligen over taal"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "De drie klassieke breuklijnen zijn levensbeschouwelijk, sociaaleconomisch en communautair.",
+          "kolommen": [
+            "Levensbeschouwelijk",
+            "Sociaaleconomisch",
+            "Communautair"
+          ]
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "In België kregen vrouwen in 1948 [[*stemrecht|het recht om te werken]] bij nationale verkiezingen. De tweede feministische golf in de jaren 1960-1970 streed onder meer voor [[*gelijk loon|het recht op stemmen]].",
+          "uitleg": "Na het stemrecht ging de strijd verder over gelijk loon, anticonceptie en gelijke kansen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welke stap van een kunstanalyse is dit?",
+          "rijen": [
+            "Wat zie je? Kleuren, vormen, personages.",
+            "Wat betekent het werk en wat wil de kunstenaar zeggen?",
+            "In welke tijd en stroming past het werk?"
+          ],
+          "antwoord": [
+            0,
+            2,
+            1
+          ],
+          "uitleg": "Je beschrijft eerst wat je ziet, situeert het werk in zijn tijd en interpreteert dan de betekenis.",
+          "kolommen": [
+            "Beschrijven",
+            "Situeren",
+            "Interpreteren"
+          ]
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Is deze bron eerder betrouwbaar of minder betrouwbaar over de slag aan de IJzer?",
+          "kolommen": [
+            "Eerder betrouwbaar",
+            "Minder betrouwbaar"
+          ],
+          "items": [
+            [
+              "Een legerrapport van de dag zelf, met plaatsen en uren",
+              "Eerder betrouwbaar"
+            ],
+            [
+              "Een propagandaaffiche die de vijand belachelijk maakt",
+              "Minder betrouwbaar"
+            ],
+            [
+              "Verschillende dagboeken die hetzelfde vertellen",
+              "Eerder betrouwbaar"
+            ],
+            [
+              "Een verhaal dat een opa vijftig jaar later navertelt",
+              "Minder betrouwbaar"
+            ]
+          ],
+          "uitleg": "Een bron is betrouwbaarder als ze dicht bij de gebeurtenis staat, weinig belang heeft om te overdrijven en bevestigd wordt door andere bronnen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat bedoel je met standplaatsgebondenheid?",
+          "opties": [
+            "Je tijd, land en opvoeding kleuren hoe je het verleden ziet.",
+            "Een historicus moet altijd op dezelfde plaats blijven wonen.",
+            "Een bron is pas geldig als ze op de plaats zelf gevonden werd.",
+            "Een standbeeld mag niet van zijn plaats worden weggehaald."
+          ],
+          "antwoord": 0,
+          "uitleg": "Iedereen kijkt vanuit zijn eigen achtergrond. Daarom vergelijk je verschillende standpunten."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "In welk jaar eindigde de Tweede Wereldoorlog in Europa?",
+          "antwoord": [
+            "1945"
+          ],
+          "uitleg": "Duitsland capituleerde op 8 mei 1945."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "De Berlijnse Muur viel in [[*1989|1961|1945]]. Twee jaar later viel ook de [[*Sovjet-Unie|Europese Unie|NAVO]] uiteen.",
+          "uitleg": "De val van de Muur in 1989 luidde het einde van de Koude Oorlog in. In 1991 hield de Sovjet-Unie op te bestaan."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat was de Rerum Novarum (1891)?",
+          "opties": [
+            "Een tekst van de paus over de sociale kwestie en de rechten van arbeiders.",
+            "Een vredesverdrag tussen België en Nederland na de Belgische Revolutie.",
+            "De eerste Belgische wet die kinderarbeid volledig verbood in alle sectoren.",
+            "Een manifest van Karl Marx dat opriep tot een wereldwijde revolutie."
+          ],
+          "antwoord": 0,
+          "uitleg": "Paus Leo XIII vroeg rechtvaardige lonen en erkende het recht van arbeiders om zich te verenigen. Het werd de basis van de christelijke arbeidersbeweging."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Waar of niet waar over de Holocaust?",
+          "rijen": [
+            "De nazi's vermoordden ongeveer zes miljoen Joden.",
+            "Ook Roma en mensen met een handicap werden vervolgd.",
+            "De Holocaust gebeurde vooral in West-Europa, in Frankrijk en België."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false
+          ],
+          "uitleg": "De meeste vernietigingskampen lagen in bezet Polen. Joden uit heel Europa, ook uit België via de Dossinkazerne in Mechelen, werden erheen gedeporteerd."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat was het doel van de Verenigde Naties bij de oprichting in 1945?",
+          "opties": [
+            "De vrede en de veiligheid in de wereld bewaren.",
+            "Een Europese munt invoeren voor alle lidstaten.",
+            "De kolonies in Afrika samen besturen en uitbreiden.",
+            "Een militair bondgenootschap tegen de Sovjet-Unie."
+          ],
+          "antwoord": 0,
+          "uitleg": "De VN wilden een nieuwe wereldoorlog voorkomen, samenwerking bevorderen en de mensenrechten beschermen."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Kinderarbeid onder de [[*12|16|6]] jaar werd in België verboden door de wet van 1889. Die wet kwam er na de [[*arbeidersopstanden van 1886|Belgische Revolutie van 1830]].",
+          "uitleg": "Na de zware stakingen en rellen van 1886 kwamen de eerste sociale wetten, zoals het verbod op kinderarbeid onder 12 jaar."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel de persoon aan wat hij deed.",
+          "paren": [
+            [
+              "Leopold II",
+              "bezat de Congo-Vrijstaat"
+            ],
+            [
+              "Karl Marx",
+              "schreef het Communistisch Manifest"
+            ],
+            [
+              "Winston Churchill",
+              "Britse premier tijdens de Tweede Wereldoorlog"
+            ]
+          ],
+          "extra": [
+            "riep de Volksrepubliek China uit"
+          ],
+          "uitleg": "Leopold II bezat Congo, Marx schreef in 1848 het Communistisch Manifest en Churchill leidde Groot-Brittannië in de Tweede Wereldoorlog. Mao riep de Volksrepubliek uit."
+        },
+        {
+          "type": "open",
+          "vraag": "Leg in 4 à 6 zinnen uit waarom België na 1970 stap voor stap een federale staat werd. Gebruik minstens twee begrippen uit de les.",
+          "antwoord": "Na 1945 groeiden de spanningen tussen Vlamingen en Franstaligen, de communautaire breuklijn. Vlaanderen wilde meer zelfbestuur over taal en cultuur, Wallonië wilde zelf zijn economie in handen nemen omdat de oude industrie er in crisis was. Daarom volgden vanaf 1970 staatshervormingen. Er kwamen gemeenschappen voor taal en cultuur en gewesten voor economie en ruimte. Sinds 1993 staat in de grondwet dat België een federale staat is.",
+          "uitleg": "Een goed antwoord noemt de communautaire spanningen, de verschillende wensen van Vlaanderen en Wallonië, de staatshervormingen vanaf 1970 met gemeenschappen en gewesten, en 1993 als federale staat."
+        }
+      ]
+    }
+  ]
+}
