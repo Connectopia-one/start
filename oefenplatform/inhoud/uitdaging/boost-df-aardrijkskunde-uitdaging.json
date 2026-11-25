@@ -1,0 +1,578 @@
+{
+  "hoofdstukken": [
+    {
+      "titel": "Uitdaging — alles door elkaar",
+      "niveau": "boost-dubbele-finaliteit",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "Bekijk de kaart van de gemeente. Na een week zware regen treedt de rivier buiten haar oevers. Klik op het gebied dat het eerst onder water loopt.",
+          "afbeelding_url": "/examenvormen/aardrijkskunde-boost-df-uitdaging/kaart-gemeente.svg",
+          "zones": [
+            [
+              36.0,
+              59.9,
+              30.0,
+              10.5
+            ]
+          ],
+          "uitleg": "Gebied 3 is laag weiland vlak langs de rivier. Bij hoog water loopt dat het eerst onder. Daarom bouw je daar beter niet."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Een webwinkel zoekt in deze gemeente een plaats voor een groot distributiecentrum. Klik op het gebied dat het best past.",
+          "afbeelding_url": "/examenvormen/aardrijkskunde-boost-df-uitdaging/kaart-gemeente.svg",
+          "zones": [
+            [
+              77.0,
+              39.5,
+              17.0,
+              18.4
+            ]
+          ],
+          "uitleg": "Een distributiecentrum zoekt goedkope grond en een goede aansluiting op het wegennet. Gebied 4 ligt naast de afrit van de snelweg en buiten het centrum."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Op welk gebied moet de bodem waarschijnlijk eerst gesaneerd worden voor er woningen kunnen komen? Klik erop.",
+          "afbeelding_url": "/examenvormen/aardrijkskunde-boost-df-uitdaging/kaart-gemeente.svg",
+          "zones": [
+            [
+              9.0,
+              52.6,
+              19.0,
+              14.5
+            ]
+          ],
+          "uitleg": "Op een oude fabriekssite zit vaak vervuiling in de bodem. Die verdwijnt niet vanzelf: eerst saneren, dan pas opnieuw bouwen."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het gebied waar de open ruimte het laatst verloren ging aan bebouwing.",
+          "afbeelding_url": "/examenvormen/aardrijkskunde-boost-df-uitdaging/kaart-gemeente.svg",
+          "zones": [
+            [
+              9.0,
+              14.5,
+              25.0,
+              19.7
+            ]
+          ],
+          "uitleg": "Gebied 2 is een nieuwe verkaveling op vroeger akkerland. Zo groeit de bebouwing het platteland in en verdwijnt open ruimte."
+        },
+        {
+          "type": "tabel",
+          "vraag": "De gemeente wil 200 nieuwe woningen. Welke keuze is het duurzaamst? Kijk naar de kaart.",
+          "rijen": [
+            "Woningen bouwen op de gesaneerde fabriekssite 5 spaart open ruimte.",
+            "Woningen bouwen in gebied 3 is veilig, want het ligt dicht bij de rivier.",
+            "Het bos in gebied 6 kappen voor woningen helpt de biodiversiteit."
+          ],
+          "antwoord": [
+            true,
+            false,
+            false
+          ],
+          "uitleg": "Een oude site hergebruiken spaart akkerland en natuur. Het weiland langs de rivier loopt onder bij hoog water, en een bos kappen schaadt de biodiversiteit.",
+          "afbeelding_url": "/examenvormen/aardrijkskunde-boost-df-uitdaging/kaart-gemeente.svg"
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Bekijk de zes krantenkoppen. Klik op de kop die over de-industrialisatie gaat.",
+          "afbeelding_url": "/examenvormen/aardrijkskunde-boost-df-uitdaging/zes-krantenkoppen.svg",
+          "zones": [
+            [
+              2,
+              13.4,
+              96,
+              13.7
+            ]
+          ],
+          "uitleg": "De-industrialisatie is het verdwijnen van de industrie uit een streek: de mijnen sluiten, daarna de fabrieken, en de banen gaan verloren."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de kop die een voorbeeld van landgrabbing geeft.",
+          "afbeelding_url": "/examenvormen/aardrijkskunde-boost-df-uitdaging/zes-krantenkoppen.svg",
+          "zones": [
+            [
+              2,
+              27.1,
+              96,
+              13.7
+            ]
+          ],
+          "uitleg": "Landgrabbing is het opkopen of langdurig huren van grote stukken landbouwgrond in een ander land."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de kop die braindrain beschrijft.",
+          "afbeelding_url": "/examenvormen/aardrijkskunde-boost-df-uitdaging/zes-krantenkoppen.svg",
+          "zones": [
+            [
+              2,
+              54.5,
+              96,
+              13.7
+            ]
+          ],
+          "uitleg": "Bij braindrain trekken hoogopgeleide mensen weg uit hun land. Het land van vertrek verliest kennis en vakmensen, zoals hier artsen."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de kop die over ontvolking gaat.",
+          "afbeelding_url": "/examenvormen/aardrijkskunde-boost-df-uitdaging/zes-krantenkoppen.svg",
+          "zones": [
+            [
+              2,
+              68.2,
+              96,
+              13.7
+            ]
+          ],
+          "uitleg": "Ontvolking is het leeglopen van een streek: werk en voorzieningen verdwijnen en de inwoners trekken weg."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Kop 3 toont de [[*versnippering|verharding|ontvolking]] van de open ruimte. Kop 6 hoort bij de [[*mondialisering|de-industrialisatie]], want de container maakt zeetransport goedkoop.",
+          "uitleg": "Een weg die een bos in twee stukken snijdt, versnippert de open ruimte. Containers uit Azië tonen de wereldwijde handel.",
+          "afbeelding_url": "/examenvormen/aardrijkskunde-boost-df-uitdaging/zes-krantenkoppen.svg"
+        },
+        {
+          "type": "tabel",
+          "vraag": "Absoluut of relatief gesitueerd?",
+          "rijen": [
+            "Antwerpen ligt op 51° NB en 4° OL.",
+            "De haven ligt ten noorden van de stad.",
+            "Het dorp ligt aan de kust, vlak bij de grens."
+          ],
+          "antwoord": [
+            0,
+            1,
+            1
+          ],
+          "uitleg": "Absoluut situeren doe je met geografische coördinaten. Relatief situeren doe je ten opzichte van iets anders.",
+          "kolommen": [
+            "absoluut",
+            "relatief"
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Twee vrienden tekenen elk uit het hoofd hun weg naar school. De kaarten verschillen sterk. Wat hebben ze getekend?",
+          "opties": [
+            "Elk een mentale kaart, gekleurd door wat ze zelf beleven",
+            "Elk een thematische kaart met een eigen legende en schaal",
+            "Elk een topografische kaart met de juiste afstanden erop",
+            "Elk een digitale kaart met andere lagen die ze hebben aangezet"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een mentale kaart is het beeld van een gebied in je hoofd. Ze hangt af van je persoonlijke context en klopt dus niet precies."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "De nulmeridiaan loopt door [[*Greenwich|Parijs|Brussel]]. Plaatsen op dezelfde meridiaan hebben op hetzelfde moment dezelfde [[*zonnetijd|breedteligging]].",
+          "uitleg": "De meridiaan van 0° loopt door Greenwich bij Londen. Op één meridiaan staat de zon op hetzelfde moment even hoog."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een land heeft een geboortecijfer van 21 ‰ en een sterftecijfer van 8 ‰. Hoe groot is de natuurlijke aangroei in ‰? Een getal.",
+          "antwoord": [
+            "13"
+          ],
+          "uitleg": "Natuurlijke aangroei = geboortecijfer min sterftecijfer: \\(21 - 8 = 13\\) ‰."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een provincie van 2 500 km² telt 1 000 000 inwoners. Hoeveel inwoners per km² is de bevolkingsdichtheid? Een getal.",
+          "antwoord": [
+            "400"
+          ],
+          "uitleg": "Bevolkingsdichtheid = aantal inwoners gedeeld door de oppervlakte: \\(1\\,000\\,000 : 2\\,500 = 400\\) inwoners per km²."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Is dit een pushfactor of een pullfactor voor iemand die migreert?",
+          "kolommen": [
+            "pushfactor",
+            "pullfactor"
+          ],
+          "items": [
+            [
+              "oorlog in het eigen land",
+              "pushfactor"
+            ],
+            [
+              "werk en hogere lonen in het nieuwe land",
+              "pullfactor"
+            ],
+            [
+              "langdurige droogte die de oogst vernielt",
+              "pushfactor"
+            ],
+            [
+              "familie die al in het nieuwe land woont",
+              "pullfactor"
+            ]
+          ],
+          "uitleg": "Een pushfactor duwt mensen weg uit hun streek. Een pullfactor trekt hen aan naar een nieuwe plaats."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Een land vergrijst sterk. Klopt dit gevolg?",
+          "rijen": [
+            "Er zijn meer pensioenen te betalen.",
+            "Er is meer nood aan zorg voor ouderen.",
+            "Er komen vanzelf meer jonge werkkrachten bij."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Bij vergrijzing stijgt het aandeel ouderen. De kosten voor pensioenen en zorg stijgen, terwijl er relatief minder mensen werken."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In een land daalt het sterftecijfer snel door betere zorg, maar het geboortecijfer blijft hoog. Wat gebeurt er?",
+          "opties": [
+            "De bevolking groeit snel aan",
+            "De bevolking blijft ongeveer even groot als voordien",
+            "De bevolking krimpt, want er sterven nog altijd te veel mensen",
+            "De bevolking vergrijst snel, want ouderen leven langer"
+          ],
+          "antwoord": 0,
+          "uitleg": "Als er veel meer mensen geboren worden dan er sterven, is de natuurlijke aangroei groot en groeit de bevolking snel."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is dit een fysische of een sociaaleconomische factor bij de keuze waar mensen wonen?",
+          "rijen": [
+            "het klimaat",
+            "werkgelegenheid",
+            "de vruchtbaarheid van de bodem",
+            "scholen en ziekenhuizen in de buurt"
+          ],
+          "antwoord": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "uitleg": "Fysische factoren komen uit de natuur: klimaat, bodem, reliëf, water. Sociaaleconomische factoren komen van de mens: werk, voorzieningen, welvaart.",
+          "kolommen": [
+            "fysisch",
+            "sociaaleconomisch"
+          ]
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Als de welvaart in een land stijgt, daalt het geboortecijfer meestal. Kinderen gaan langer naar [[*school|het werk]] en ouders hebben voor hun oude dag minder kinderen [[*nodig|over]].",
+          "uitleg": "Met meer welvaart gaan kinderen langer naar school en zorgt het pensioen voor de oude dag. Gezinnen worden kleiner."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Planten halen bij [[fotosynthese]] koolstof uit de lucht. Steenkool, aardolie en aardgas zijn [[fossiele]] brandstoffen: koolstof die miljoenen jaren geleden uit de lucht werd gehaald.",
+          "extra": [
+            "verbranding",
+            "hernieuwbare"
+          ],
+          "uitleg": "Fotosynthese slaat koolstof op in planten. Bij het verbranden van fossiele brandstoffen komt die koolstof als CO₂ terug in de atmosfeer."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel het begrip aan de juiste omschrijving.",
+          "paren": [
+            [
+              "sociale segregatie",
+              "groepen wonen gescheiden in andere wijken van de stad"
+            ],
+            [
+              "verharding",
+              "de bodem wordt bedekt met beton, asfalt en daken"
+            ],
+            [
+              "functiewijziging",
+              "een gebouw of wijk krijgt een ander gebruik"
+            ]
+          ],
+          "extra": [
+            "de open ruimte valt uiteen in kleine stukken"
+          ],
+          "uitleg": "Segregatie gaat over wie waar woont. Verharding houdt regenwater tegen. Bij een functiewijziging wordt bijvoorbeeld een fabriek een woonblok."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een gemeente breekt een betonnen plein open en plant er bomen. Wat lost ze daarmee niet op?",
+          "opties": [
+            "Het tekort aan woningen in het centrum",
+            "Regenwater dat niet meer in de bodem kan dringen",
+            "De hitte die blijft hangen tussen beton en steen",
+            "Het gebrek aan groen en aan schaduw op het plein"
+          ],
+          "antwoord": 0,
+          "uitleg": "Ontharden laat water weer in de bodem lopen en geeft groen, schaduw en verkoeling. Woningen bouwt het niet."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Is dit een hernieuwbare of een niet-hernieuwbare energiebron?",
+          "kolommen": [
+            "hernieuwbaar",
+            "niet-hernieuwbaar"
+          ],
+          "items": [
+            [
+              "windenergie",
+              "hernieuwbaar"
+            ],
+            [
+              "aardgas",
+              "niet-hernieuwbaar"
+            ],
+            [
+              "zonne-energie",
+              "hernieuwbaar"
+            ],
+            [
+              "steenkool",
+              "niet-hernieuwbaar"
+            ],
+            [
+              "waterkracht",
+              "hernieuwbaar"
+            ]
+          ],
+          "uitleg": "Wind, zon en water raken niet op. Steenkool en aardgas zijn fossiele brandstoffen die miljoenen jaren nodig hadden om te ontstaan."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Vroeger lag de zware industrie vlak bij de [[*steenkoolmijnen|toeristische kusten]]. Vandaag zoekt industrie vooral goedkope grond en een goede aansluiting op het [[*wegennet|platteland]].",
+          "uitleg": "Steenkool was zwaar en duur om te vervoeren, dus bouwde men de fabrieken ernaast. Nu telt vooral de bereikbaarheid."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Intensieve of extensieve landbouw?",
+          "rijen": [
+            "Veel kunstmest en machines op een klein stuk grond",
+            "Grote kudde die vrij graast op uitgestrekte weiden",
+            "Serres met verwarming en bewatering"
+          ],
+          "antwoord": [
+            0,
+            1,
+            0
+          ],
+          "uitleg": "Intensieve landbouw haalt met veel middelen veel op per hectare. Extensieve landbouw gebruikt veel grond met weinig middelen.",
+          "kolommen": [
+            "intensief",
+            "extensief"
+          ]
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Een winkel die rechtstreeks aan de consument verkoopt, hoort bij de [[kleinhandel]]. Wie in grote hoeveelheden aan winkels levert, doet aan [[groothandel]]. Handel en toerisme horen samen bij de [[dienstensector]].",
+          "extra": [
+            "landbouwsector",
+            "industrie"
+          ],
+          "uitleg": "Kleinhandel verkoopt aan de consument, groothandel aan andere bedrijven. Handel, toerisme en vervoer maken niets, ze verlenen diensten."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel de organisatie aan wat ze vooral doet.",
+          "paren": [
+            [
+              "NAVO",
+              "militair bondgenootschap"
+            ],
+            [
+              "Verenigde Naties",
+              "vrede en samenwerking tussen bijna alle landen"
+            ],
+            [
+              "Mercosur",
+              "handelsblok van landen in Zuid-Amerika"
+            ]
+          ],
+          "extra": [
+            "munt van de Europese landen"
+          ],
+          "uitleg": "De NAVO is militair, de VN werkt aan vrede en samenwerking, Mercosur is een handelsblok in Zuid-Amerika."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over mondialisering?",
+          "rijen": [
+            "Landen worden er meer afhankelijk van elkaar door.",
+            "Ze heeft voor elk land dezelfde gevolgen.",
+            "Ook gewone mensen doen eraan mee, via reizen en sociale media.",
+            "De container maakte zeetransport veel duurder."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Mondialisering verbindt landen, bedrijven en mensen. De gevolgen verschillen per land en groep. De container maakte transport juist goedkoper."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel de P van duurzame ontwikkeling aan een voorbeeld.",
+          "paren": [
+            [
+              "Planet",
+              "een bos beschermen tegen bebouwing"
+            ],
+            [
+              "People",
+              "iedereen toegang geven tot onderwijs en zorg"
+            ],
+            [
+              "Prosperity",
+              "eerlijk werk met een goed loon"
+            ],
+            [
+              "Partnership",
+              "landen werken samen aan de doelen"
+            ]
+          ],
+          "extra": [],
+          "uitleg": "De vijf P's zijn People, Planet, Prosperity, Peace en Partnership. Samen vormen ze de basis van de duurzame ontwikkelingsdoelen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Iemand rijdt elke dag ver met de auto, vliegt vaak en eet veel vlees. Wat zegt dat over die persoon?",
+          "opties": [
+            "Die heeft een grote ecologische voetafdruk",
+            "Die heeft een kleine ecologische voetafdruk, want vlees is natuurlijk",
+            "Die heeft geen invloed op het milieu, want het is maar één persoon",
+            "Die haalt de duurzame ontwikkelingsdoelen al in zijn eentje"
+          ],
+          "antwoord": 0,
+          "uitleg": "De ecologische voetafdruk is de oppervlakte aarde die nodig is voor iemands verbruik en afval. Veel rijden, vliegen en vlees vergroten die."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet de stappen in de juiste volgorde: hoe draagt een gekapt en verbrand bos bij aan de opwarming?",
+          "opties": [
+            "Het bos wordt gekapt en verbrand.",
+            "De koolstof uit het hout komt als CO₂ in de atmosfeer.",
+            "Er zit meer broeikasgas in de lucht.",
+            "De atmosfeer houdt meer warmte vast."
+          ],
+          "uitleg": "Bij verbranding gaat de opgeslagen koolstof naar de atmosfeer. Meer CO₂ versterkt het broeikaseffect."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "In welke sfeer zit dit?",
+          "kolommen": [
+            "atmosfeer",
+            "hydrosfeer",
+            "biosfeer"
+          ],
+          "items": [
+            [
+              "CO₂ in de lucht",
+              "atmosfeer"
+            ],
+            [
+              "water in de oceanen",
+              "hydrosfeer"
+            ],
+            [
+              "een bos",
+              "biosfeer"
+            ],
+            [
+              "ijs op de polen",
+              "hydrosfeer"
+            ]
+          ],
+          "uitleg": "De atmosfeer is de lucht, de hydrosfeer al het water en ijs, de biosfeer alles wat leeft."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Gevolg van het versterkte broeikaseffect?",
+          "rijen": [
+            "De zeespiegel stijgt.",
+            "De klimaatzones schuiven naar de polen.",
+            "Het natuurlijke broeikaseffect verdwijnt.",
+            "Er komen vaker hittegolven en droogte."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Door de opwarming smelt ijs en zet zeewater uit. Klimaatzones schuiven poolwaarts. Het natuurlijke broeikaseffect blijft bestaan: zonder zou het ijskoud zijn."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Smeltend ijs laat de aarde nog sneller opwarmen, waardoor nog meer ijs smelt. Hoe noem je dat?",
+          "opties": [
+            "Een terugkoppeling in het klimaatsysteem",
+            "Het natuurlijke broeikaseffect van de aarde",
+            "De koolstofkringloop tussen de vier sferen",
+            "Een verschuiving van de klimaatzones naar de evenaar"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij een terugkoppeling versterkt een gevolg zijn eigen oorzaak. Zo gaat de opwarming steeds sneller."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet de stappen van een geografisch onderzoek in de juiste volgorde.",
+          "opties": [
+            "Een onderzoeksvraag stellen",
+            "Een hypothese opschrijven",
+            "Gegevens verzamelen met kaarten en terreinwerk",
+            "Een besluit trekken en de hypothese toetsen"
+          ],
+          "uitleg": "Je begint met een vraag en een verwachting, verzamelt gegevens en toetst daarna je hypothese."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "In Geopunt bepaal je wat je ziet door [[*lagen|kleuren]] aan of uit te zetten. Welke kleur of welk symbool wat betekent, lees je in de [[*legende|schaal]].",
+          "uitleg": "Op een digitale kaart kies je zelf de lagen. De legende verklaart de kleuren en symbolen."
+        },
+        {
+          "casus": "Een gemeente aan een rivier groeit snel. Op twintig jaar tijd verdween een derde van het akkerland onder nieuwe verkavelingen en parkings. Bij elke zware onweersbui lopen nu kelders onder in de lage wijken.",
+          "vragen": [
+            {
+              "type": "meerkeuze",
+              "vraag": "Wat is de belangrijkste oorzaak van de wateroverlast?",
+              "opties": [
+                "Door de verharding kan regenwater niet meer in de bodem dringen",
+                "De rivier is door de opwarming in twintig jaar veel breder geworden",
+                "Akkerland houdt minder water vast dan beton en asfalt doen",
+                "Er wonen meer mensen, en die gebruiken samen meer water in huis"
+              ],
+              "antwoord": 0,
+              "uitleg": "Beton, asfalt en daken laten geen water door. Het regenwater stroomt meteen naar de lage delen en de riolen."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Welke maatregel helpt het meest?",
+              "opties": [
+                "Verharde stukken ontharden en ruimte geven aan water",
+                "Nog meer parkings bouwen zodat auto's hoger kunnen staan",
+                "Alle akkers die overblijven ook verkavelen en volbouwen",
+                "De riolen dichtmaken zodat het water niet kan terugkomen"
+              ],
+              "antwoord": 0,
+              "uitleg": "Ontharden en ruimte voor water laat regen weer in de bodem lopen en vermindert de overlast."
+            }
+          ]
+        },
+        {
+          "type": "open",
+          "vraag": "Kies uit de kaart van de gemeente één plaats voor een nieuw zwembad. Leg uit waarom die plaats past, met minstens twee argumenten: één over de ligging en één over duurzaamheid.",
+          "antwoord": "Ik kies gebied 5, de oude fabriekssite. De plaats ligt dicht bij het centrum, zodat veel mensen te voet of met de fiets kunnen komen. Na sanering hergebruik je een oude site, zodat je geen akkerland of bos opoffert.",
+          "uitleg": "Een goed antwoord kiest een plaats op de kaart, geeft een argument over de ligging (bereikbaarheid, overstromingsgevaar) en een over duurzaamheid (open ruimte sparen, hergebruik)."
+        }
+      ]
+    }
+  ]
+}

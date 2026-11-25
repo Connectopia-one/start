@@ -1,0 +1,47 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1000 760' width='1000' height='760'>
+<rect width='1000' height='760' fill='#ffffff'/>
+<text x='40' y='52' font-family='Nunito, Arial, sans-serif' font-size='28' font-weight='800' fill='#2f4a22'>Kaart van een verzonnen gemeente</text>
+<rect x='40' y='80' width='920' height='490' fill='#fbfbf7' stroke='#b9b29c' stroke-width='2'/>
+<path d='M40 530 C 200 560, 300 500, 450 545 S 750 590, 960 540' fill='none' stroke='#3b6ea5' stroke-width='26' opacity='0.8'/>
+<text x='870' y='522' font-family='Nunito, Arial, sans-serif' font-size='19' font-style='italic' fill='#3b6ea5'>rivier</text>
+<line x1='735' y1='80' x2='735' y2='570' stroke='#7a7a7a' stroke-width='18'/>
+<line x1='735' y1='80' x2='735' y2='570' stroke='#ffffff' stroke-width='2' stroke-dasharray='14 12'/>
+<path d='M735 330 C 755 340, 760 360, 770 370' fill='none' stroke='#7a7a7a' stroke-width='9'/>
+<text x='755' y='110' font-family='Nunito, Arial, sans-serif' font-size='19' font-style='italic' fill='#555'>snelweg</text>
+<rect x='400' y='262' width='210' height='140' rx='18' fill='#f3d9c4' stroke='#2b2b2b' stroke-width='2'/>
+<circle cx='505.0' cy='332.0' r='24' fill='#2f4a22'/>
+<text x='505.0' y='341.0' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='25' font-weight='800' fill='#ffffff'>1</text>
+<rect x='90' y='110' width='250' height='150' rx='18' fill='#f6efcf' stroke='#2b2b2b' stroke-width='2'/>
+<circle cx='215.0' cy='185.0' r='24' fill='#2f4a22'/>
+<text x='215.0' y='194.0' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='25' font-weight='800' fill='#ffffff'>2</text>
+<rect x='360' y='455' width='300' height='80' rx='18' fill='#d6ead0' stroke='#2b2b2b' stroke-width='2'/>
+<circle cx='510.0' cy='495.0' r='24' fill='#2f4a22'/>
+<text x='510.0' y='504.0' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='25' font-weight='800' fill='#ffffff'>3</text>
+<rect x='770' y='300' width='170' height='140' rx='18' fill='#e2e2e2' stroke='#2b2b2b' stroke-width='2'/>
+<circle cx='855.0' cy='370.0' r='24' fill='#2f4a22'/>
+<text x='855.0' y='379.0' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='25' font-weight='800' fill='#ffffff'>4</text>
+<rect x='90' y='400' width='190' height='110' rx='18' fill='#dccbb8' stroke='#2b2b2b' stroke-width='2'/>
+<circle cx='185.0' cy='455.0' r='24' fill='#2f4a22'/>
+<text x='185.0' y='464.0' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='25' font-weight='800' fill='#ffffff'>5</text>
+<rect x='430' y='100' width='250' height='120' rx='18' fill='#b7d3a8' stroke='#2b2b2b' stroke-width='2'/>
+<circle cx='555.0' cy='160.0' r='24' fill='#2f4a22'/>
+<text x='555.0' y='169.0' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='25' font-weight='800' fill='#ffffff'>6</text>
+<circle cx='64' cy='615' r='15' fill='#2f4a22'/>
+<text x='64' y='621' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='17' font-weight='800' fill='#ffffff'>1</text>
+<text x='90' y='622' font-family='Nunito, Arial, sans-serif' font-size='19' fill='#2b2b2b'>centrum met winkelstraat en stadhuis</text>
+<circle cx='534' cy='615' r='15' fill='#2f4a22'/>
+<text x='534' y='621' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='17' font-weight='800' fill='#ffffff'>2</text>
+<text x='560' y='622' font-family='Nunito, Arial, sans-serif' font-size='19' fill='#2b2b2b'>nieuwe verkaveling op vroeger akkerland</text>
+<circle cx='64' cy='661' r='15' fill='#2f4a22'/>
+<text x='64' y='667' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='17' font-weight='800' fill='#ffffff'>3</text>
+<text x='90' y='668' font-family='Nunito, Arial, sans-serif' font-size='19' fill='#2b2b2b'>laag weiland vlak langs de rivier</text>
+<circle cx='534' cy='661' r='15' fill='#2f4a22'/>
+<text x='534' y='667' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='17' font-weight='800' fill='#ffffff'>4</text>
+<text x='560' y='668' font-family='Nunito, Arial, sans-serif' font-size='19' fill='#2b2b2b'>open terrein naast de afrit van de snelweg</text>
+<circle cx='64' cy='707' r='15' fill='#2f4a22'/>
+<text x='64' y='713' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='17' font-weight='800' fill='#ffffff'>5</text>
+<text x='90' y='714' font-family='Nunito, Arial, sans-serif' font-size='19' fill='#2b2b2b'>leegstaande fabriekssite aan de rivier</text>
+<circle cx='534' cy='707' r='15' fill='#2f4a22'/>
+<text x='534' y='713' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='17' font-weight='800' fill='#ffffff'>6</text>
+<text x='560' y='714' font-family='Nunito, Arial, sans-serif' font-size='19' fill='#2b2b2b'>bos op een heuvel</text>
+</svg>
