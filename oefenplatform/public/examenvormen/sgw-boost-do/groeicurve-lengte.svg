@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">De lengte van Tom van 0 tot 18 jaar</text>
+<line x1="110.0" y1="90" x2="110.0" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="110.0" y="564" font-size="15" text-anchor="middle" fill="#24331b">0</text>
+<line x1="201.1111111111111" y1="90" x2="201.1111111111111" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="201.1111111111111" y="564" font-size="15" text-anchor="middle" fill="#24331b">2</text>
+<line x1="292.2222222222222" y1="90" x2="292.2222222222222" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="292.2222222222222" y="564" font-size="15" text-anchor="middle" fill="#24331b">4</text>
+<line x1="383.3333333333333" y1="90" x2="383.3333333333333" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="383.3333333333333" y="564" font-size="15" text-anchor="middle" fill="#24331b">6</text>
+<line x1="474.4444444444444" y1="90" x2="474.4444444444444" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="474.4444444444444" y="564" font-size="15" text-anchor="middle" fill="#24331b">8</text>
+<line x1="565.5555555555557" y1="90" x2="565.5555555555557" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="565.5555555555557" y="564" font-size="15" text-anchor="middle" fill="#24331b">10</text>
+<line x1="656.6666666666666" y1="90" x2="656.6666666666666" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="656.6666666666666" y="564" font-size="15" text-anchor="middle" fill="#24331b">12</text>
+<line x1="747.7777777777778" y1="90" x2="747.7777777777778" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="747.7777777777778" y="564" font-size="15" text-anchor="middle" fill="#24331b">14</text>
+<line x1="838.8888888888888" y1="90" x2="838.8888888888888" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="838.8888888888888" y="564" font-size="15" text-anchor="middle" fill="#24331b">16</text>
+<line x1="930.0" y1="90" x2="930.0" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="930.0" y="564" font-size="15" text-anchor="middle" fill="#24331b">18</text>
+<line x1="110" y1="540.0" x2="930" y2="540.0" stroke="#e4e1d6" stroke-width="1"/>
+<text x="100" y="545.0" font-size="15" text-anchor="end" fill="#24331b">40</text>
+<line x1="110" y1="483.75" x2="930" y2="483.75" stroke="#e4e1d6" stroke-width="1"/>
+<text x="100" y="488.75" font-size="15" text-anchor="end" fill="#24331b">60</text>
+<line x1="110" y1="427.5" x2="930" y2="427.5" stroke="#e4e1d6" stroke-width="1"/>
+<text x="100" y="432.5" font-size="15" text-anchor="end" fill="#24331b">80</text>
+<line x1="110" y1="371.25" x2="930" y2="371.25" stroke="#e4e1d6" stroke-width="1"/>
+<text x="100" y="376.25" font-size="15" text-anchor="end" fill="#24331b">100</text>
+<line x1="110" y1="315.0" x2="930" y2="315.0" stroke="#e4e1d6" stroke-width="1"/>
+<text x="100" y="320.0" font-size="15" text-anchor="end" fill="#24331b">120</text>
+<line x1="110" y1="258.75" x2="930" y2="258.75" stroke="#e4e1d6" stroke-width="1"/>
+<text x="100" y="263.75" font-size="15" text-anchor="end" fill="#24331b">140</text>
+<line x1="110" y1="202.5" x2="930" y2="202.5" stroke="#e4e1d6" stroke-width="1"/>
+<text x="100" y="207.5" font-size="15" text-anchor="end" fill="#24331b">160</text>
+<line x1="110" y1="146.25" x2="930" y2="146.25" stroke="#e4e1d6" stroke-width="1"/>
+<text x="100" y="151.25" font-size="15" text-anchor="end" fill="#24331b">180</text>
+<line x1="110" y1="90.0" x2="930" y2="90.0" stroke="#e4e1d6" stroke-width="1"/>
+<text x="100" y="95.0" font-size="15" text-anchor="end" fill="#24331b">200</text>
+<line x1="110" y1="540" x2="940" y2="540" stroke="#24331b" stroke-width="2"/>
+<line x1="110" y1="540" x2="110" y2="80" stroke="#24331b" stroke-width="2"/>
+<text x="935" y="530" font-size="16" text-anchor="end" fill="#24331b">leeftijd (jaar)</text>
+<text x="102" y="70" font-size="16" text-anchor="start" fill="#24331b">lengte (cm)</text>
+<path d="M 110.0 511.9 L 155.6 441.6 L 201.1 407.8 L 292.2 365.6 L 383.3 329.1 L 474.4 295.3 L 565.6 264.4 L 611.1 250.3 L 656.7 233.4 L 702.2 210.9 L 747.8 185.6 L 793.3 168.8 L 838.9 157.5 L 884.4 151.9 L 930.0 149.1" fill="none" stroke="#3b6fa0" stroke-width="5"/>
+<circle cx="163.33333333333334" cy="442.875" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="163.33333333333334" y="449.875" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<circle cx="454.8888888888889" cy="288.1875" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="454.8888888888889" y="295.1875" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<circle cx="705.4444444444445" cy="198.1875" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="705.4444444444445" y="205.1875" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<circle cx="933.2222222222222" cy="126.46875" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="933.2222222222222" y="133.46875" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">D</text>
+</svg>

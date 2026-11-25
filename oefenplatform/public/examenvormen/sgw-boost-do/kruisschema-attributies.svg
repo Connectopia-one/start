@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Een kruisschema voor attributies</text>
+<text x="470" y="100" font-size="24" text-anchor="middle" fill="#24331b" font-weight="bold">controleerbaar</text>
+<text x="770" y="100" font-size="24" text-anchor="middle" fill="#24331b" font-weight="bold">niet controleerbaar</text>
+<text x="200" y="245" font-size="24" text-anchor="end" fill="#24331b" font-weight="bold">intern</text>
+<text x="200" y="485" font-size="24" text-anchor="end" fill="#24331b" font-weight="bold">extern</text>
+<rect x="320" y="130" width="300" height="240" rx="0" fill="#eef3e6" stroke="#24331b" stroke-width="3"/>
+<circle cx="470" cy="250" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="470" y="257" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<rect x="620" y="130" width="300" height="240" rx="0" fill="#ffffff" stroke="#24331b" stroke-width="3"/>
+<circle cx="770" cy="250" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="770" y="257" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<rect x="320" y="370" width="300" height="240" rx="0" fill="#ffffff" stroke="#24331b" stroke-width="3"/>
+<circle cx="470" cy="490" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="470" y="497" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<rect x="620" y="370" width="300" height="240" rx="0" fill="#eef3e6" stroke="#24331b" stroke-width="3"/>
+<circle cx="770" cy="490" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="770" y="497" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">D</text>
+</svg>

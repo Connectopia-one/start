@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Een levenslijn van 0 tot 90 jaar</text>
+<rect x="60" y="300" width="880" height="40" rx="20" fill="#eef3e6" stroke="#24331b" stroke-width="2"/>
+<rect x="60" y="300" width="60.0" height="40" rx="20" fill="#f6e3c4" stroke="#24331b" stroke-width="2"/>
+<line x1="120.0" y1="340" x2="120.0" y2="360" stroke="#24331b" stroke-width="2"/>
+<text x="120.0" y="385" font-size="18" text-anchor="middle" fill="#24331b">0</text>
+<line x1="206.66666666666666" y1="340" x2="206.66666666666666" y2="360" stroke="#24331b" stroke-width="2"/>
+<text x="206.66666666666666" y="385" font-size="18" text-anchor="middle" fill="#24331b">10</text>
+<line x1="293.3333333333333" y1="340" x2="293.3333333333333" y2="360" stroke="#24331b" stroke-width="2"/>
+<text x="293.3333333333333" y="385" font-size="18" text-anchor="middle" fill="#24331b">20</text>
+<line x1="380.0" y1="340" x2="380.0" y2="360" stroke="#24331b" stroke-width="2"/>
+<text x="380.0" y="385" font-size="18" text-anchor="middle" fill="#24331b">30</text>
+<line x1="466.66666666666663" y1="340" x2="466.66666666666663" y2="360" stroke="#24331b" stroke-width="2"/>
+<text x="466.66666666666663" y="385" font-size="18" text-anchor="middle" fill="#24331b">40</text>
+<line x1="553.3333333333334" y1="340" x2="553.3333333333334" y2="360" stroke="#24331b" stroke-width="2"/>
+<text x="553.3333333333334" y="385" font-size="18" text-anchor="middle" fill="#24331b">50</text>
+<line x1="640.0" y1="340" x2="640.0" y2="360" stroke="#24331b" stroke-width="2"/>
+<text x="640.0" y="385" font-size="18" text-anchor="middle" fill="#24331b">60</text>
+<line x1="726.6666666666666" y1="340" x2="726.6666666666666" y2="360" stroke="#24331b" stroke-width="2"/>
+<text x="726.6666666666666" y="385" font-size="18" text-anchor="middle" fill="#24331b">70</text>
+<line x1="813.3333333333333" y1="340" x2="813.3333333333333" y2="360" stroke="#24331b" stroke-width="2"/>
+<text x="813.3333333333333" y="385" font-size="18" text-anchor="middle" fill="#24331b">80</text>
+<line x1="900.0" y1="340" x2="900.0" y2="360" stroke="#24331b" stroke-width="2"/>
+<text x="900.0" y="385" font-size="18" text-anchor="middle" fill="#24331b">90</text>
+<text x="500" y="430" font-size="20" text-anchor="middle" fill="#24331b">leeftijd in jaren</text>
+<circle cx="88" cy="320" r="9" fill="#b03a2e" stroke="#24331b" stroke-width="2"/>
+<line x1="88" y1="310" x2="88" y2="250" stroke="#24331b" stroke-width="1"/>
+<circle cx="88" cy="230" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="88" y="237" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<circle cx="137.33333333333334" cy="320" r="9" fill="#b03a2e" stroke="#24331b" stroke-width="2"/>
+<line x1="137.33333333333334" y1="310" x2="137.33333333333334" y2="200" stroke="#24331b" stroke-width="1"/>
+<circle cx="137.33333333333334" cy="180" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="137.33333333333334" y="187" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<circle cx="163.33333333333331" cy="320" r="9" fill="#b03a2e" stroke="#24331b" stroke-width="2"/>
+<line x1="163.33333333333331" y1="310" x2="163.33333333333331" y2="250" stroke="#24331b" stroke-width="1"/>
+<circle cx="163.33333333333331" cy="230" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="163.33333333333331" y="237" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<circle cx="198.0" cy="320" r="9" fill="#b03a2e" stroke="#24331b" stroke-width="2"/>
+<line x1="198.0" y1="310" x2="198.0" y2="200" stroke="#24331b" stroke-width="1"/>
+<circle cx="198.0" cy="180" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="198.0" y="187" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">D</text>
+<circle cx="250.0" cy="320" r="9" fill="#b03a2e" stroke="#24331b" stroke-width="2"/>
+<line x1="250.0" y1="310" x2="250.0" y2="250" stroke="#24331b" stroke-width="1"/>
+<circle cx="250.0" cy="230" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="250.0" y="237" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">E</text>
+<circle cx="510.0" cy="320" r="9" fill="#b03a2e" stroke="#24331b" stroke-width="2"/>
+<line x1="510.0" y1="310" x2="510.0" y2="200" stroke="#24331b" stroke-width="1"/>
+<circle cx="510.0" cy="180" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="510.0" y="187" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">F</text>
+<circle cx="796.0" cy="320" r="9" fill="#b03a2e" stroke="#24331b" stroke-width="2"/>
+<line x1="796.0" y1="310" x2="796.0" y2="250" stroke="#24331b" stroke-width="1"/>
+<circle cx="796.0" cy="230" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="796.0" y="237" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">G</text>
+</svg>

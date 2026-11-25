@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Vier gezinnen op de maatschappelijke ladder</text>
+<text x="30" y="120" font-size="20" text-anchor="start" fill="#24331b">hoog</text>
+<text x="30" y="500" font-size="20" text-anchor="start" fill="#24331b">laag</text>
+<line x1="150" y1="90" x2="150" y2="520" stroke="#24331b" stroke-width="4"/>
+<line x1="240" y1="90" x2="240" y2="520" stroke="#24331b" stroke-width="4"/>
+<line x1="150" y1="110" x2="240" y2="110" stroke="#24331b" stroke-width="3"/>
+<line x1="150" y1="210" x2="240" y2="210" stroke="#24331b" stroke-width="3"/>
+<line x1="150" y1="310" x2="240" y2="310" stroke="#24331b" stroke-width="3"/>
+<line x1="150" y1="410" x2="240" y2="410" stroke="#24331b" stroke-width="3"/>
+<line x1="150" y1="510" x2="240" y2="510" stroke="#24331b" stroke-width="3"/>
+<circle cx="125" cy="470" r="13" fill="#d9d4c4" stroke="#24331b" stroke-width="2"/>
+<rect x="114" y="484" width="22" height="30" rx="5" fill="#d9d4c4" stroke="#24331b" stroke-width="2"/>
+<circle cx="265" cy="80" r="13" fill="#3b6fa0" stroke="#24331b" stroke-width="2"/>
+<rect x="254" y="94" width="22" height="30" rx="5" fill="#3b6fa0" stroke="#24331b" stroke-width="2"/>
+<circle cx="195" cy="575" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="195" y="582" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<line x1="365" y1="90" x2="365" y2="520" stroke="#24331b" stroke-width="4"/>
+<line x1="455" y1="90" x2="455" y2="520" stroke="#24331b" stroke-width="4"/>
+<line x1="365" y1="110" x2="455" y2="110" stroke="#24331b" stroke-width="3"/>
+<line x1="365" y1="210" x2="455" y2="210" stroke="#24331b" stroke-width="3"/>
+<line x1="365" y1="310" x2="455" y2="310" stroke="#24331b" stroke-width="3"/>
+<line x1="365" y1="410" x2="455" y2="410" stroke="#24331b" stroke-width="3"/>
+<line x1="365" y1="510" x2="455" y2="510" stroke="#24331b" stroke-width="3"/>
+<circle cx="340" cy="80" r="13" fill="#d9d4c4" stroke="#24331b" stroke-width="2"/>
+<rect x="329" y="94" width="22" height="30" rx="5" fill="#d9d4c4" stroke="#24331b" stroke-width="2"/>
+<circle cx="480" cy="80" r="13" fill="#3b6fa0" stroke="#24331b" stroke-width="2"/>
+<rect x="469" y="94" width="22" height="30" rx="5" fill="#3b6fa0" stroke="#24331b" stroke-width="2"/>
+<circle cx="410" cy="575" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="410" y="582" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<line x1="580" y1="90" x2="580" y2="520" stroke="#24331b" stroke-width="4"/>
+<line x1="670" y1="90" x2="670" y2="520" stroke="#24331b" stroke-width="4"/>
+<line x1="580" y1="110" x2="670" y2="110" stroke="#24331b" stroke-width="3"/>
+<line x1="580" y1="210" x2="670" y2="210" stroke="#24331b" stroke-width="3"/>
+<line x1="580" y1="310" x2="670" y2="310" stroke="#24331b" stroke-width="3"/>
+<line x1="580" y1="410" x2="670" y2="410" stroke="#24331b" stroke-width="3"/>
+<line x1="580" y1="510" x2="670" y2="510" stroke="#24331b" stroke-width="3"/>
+<circle cx="555" cy="80" r="13" fill="#d9d4c4" stroke="#24331b" stroke-width="2"/>
+<rect x="544" y="94" width="22" height="30" rx="5" fill="#d9d4c4" stroke="#24331b" stroke-width="2"/>
+<circle cx="695" cy="470" r="13" fill="#3b6fa0" stroke="#24331b" stroke-width="2"/>
+<rect x="684" y="484" width="22" height="30" rx="5" fill="#3b6fa0" stroke="#24331b" stroke-width="2"/>
+<circle cx="625" cy="575" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="625" y="582" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<line x1="795" y1="90" x2="795" y2="520" stroke="#24331b" stroke-width="4"/>
+<line x1="885" y1="90" x2="885" y2="520" stroke="#24331b" stroke-width="4"/>
+<line x1="795" y1="110" x2="885" y2="110" stroke="#24331b" stroke-width="3"/>
+<line x1="795" y1="210" x2="885" y2="210" stroke="#24331b" stroke-width="3"/>
+<line x1="795" y1="310" x2="885" y2="310" stroke="#24331b" stroke-width="3"/>
+<line x1="795" y1="410" x2="885" y2="410" stroke="#24331b" stroke-width="3"/>
+<line x1="795" y1="510" x2="885" y2="510" stroke="#24331b" stroke-width="3"/>
+<circle cx="770" cy="470" r="13" fill="#d9d4c4" stroke="#24331b" stroke-width="2"/>
+<rect x="759" y="484" width="22" height="30" rx="5" fill="#d9d4c4" stroke="#24331b" stroke-width="2"/>
+<circle cx="910" cy="470" r="13" fill="#3b6fa0" stroke="#24331b" stroke-width="2"/>
+<rect x="899" y="484" width="22" height="30" rx="5" fill="#3b6fa0" stroke="#24331b" stroke-width="2"/>
+<circle cx="840" cy="575" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="840" y="582" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">D</text>
+</svg>

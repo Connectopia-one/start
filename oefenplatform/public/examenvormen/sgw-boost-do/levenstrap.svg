@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Een levenstrap met acht treden</text>
+<rect x="50" y="502" width="112" height="58" rx="0" fill="#eef3e6" stroke="#24331b" stroke-width="2"/>
+<text x="106" y="528" font-size="15" text-anchor="middle" fill="#24331b">babytijd</text>
+<circle cx="106" cy="472" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="106" y="479" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<rect x="162" y="444" width="112" height="116" rx="0" fill="#dfe9d2" stroke="#24331b" stroke-width="2"/>
+<text x="218" y="470" font-size="15" text-anchor="middle" fill="#24331b">peutertijd</text>
+<circle cx="218" cy="414" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="218" y="421" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<rect x="274" y="386" width="112" height="174" rx="0" fill="#eef3e6" stroke="#24331b" stroke-width="2"/>
+<text x="330" y="412" font-size="15" text-anchor="middle" fill="#24331b">kleutertijd</text>
+<circle cx="330" cy="356" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="330" y="363" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<rect x="386" y="328" width="112" height="232" rx="0" fill="#dfe9d2" stroke="#24331b" stroke-width="2"/>
+<text x="442" y="354" font-size="15" text-anchor="middle" fill="#24331b">lagere school</text>
+<circle cx="442" cy="298" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="442" y="305" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">D</text>
+<rect x="498" y="270" width="112" height="290" rx="0" fill="#eef3e6" stroke="#24331b" stroke-width="2"/>
+<text x="554" y="296" font-size="15" text-anchor="middle" fill="#24331b">adolescentie</text>
+<circle cx="554" cy="240" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="554" y="247" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">E</text>
+<rect x="610" y="212" width="112" height="348" rx="0" fill="#dfe9d2" stroke="#24331b" stroke-width="2"/>
+<text x="666" y="238" font-size="15" text-anchor="middle" fill="#24331b">vroege volw.</text>
+<circle cx="666" cy="182" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="666" y="189" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">F</text>
+<rect x="722" y="154" width="112" height="406" rx="0" fill="#eef3e6" stroke="#24331b" stroke-width="2"/>
+<text x="778" y="180" font-size="15" text-anchor="middle" fill="#24331b">midden volw.</text>
+<circle cx="778" cy="124" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="778" y="131" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">G</text>
+<rect x="834" y="96" width="112" height="464" rx="0" fill="#dfe9d2" stroke="#24331b" stroke-width="2"/>
+<text x="890" y="122" font-size="15" text-anchor="middle" fill="#24331b">late volw.</text>
+<circle cx="890" cy="66" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="890" y="73" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">H</text>
+<line x1="30" y1="560" x2="970" y2="560" stroke="#24331b" stroke-width="3"/>
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Wat ze zeggen en wat er werkelijk is</text>
+<rect x="50" y="70" width="440" height="240" rx="10" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="270" y="130" font-size="21" text-anchor="middle" fill="#24331b">« Ik ben slecht in wiskunde. »</text>
+<rect x="90" y="210" width="300" height="50" rx="8" fill="#eef3e6" stroke="#8a8470" stroke-width="2"/>
+<text x="240" y="242" font-size="19" text-anchor="middle" fill="#24331b">rapport wiskunde: 16 op 20</text>
+<circle cx="450" cy="275" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="450" y="282" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<rect x="510" y="70" width="440" height="240" rx="10" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="730" y="130" font-size="21" text-anchor="middle" fill="#24331b">« Ik ben de beste in taal,</text>
+<text x="730" y="162" font-size="21" text-anchor="middle" fill="#24331b">ik hoef niet te leren. »</text>
+<rect x="550" y="210" width="300" height="50" rx="8" fill="#eef3e6" stroke="#8a8470" stroke-width="2"/>
+<text x="700" y="242" font-size="19" text-anchor="middle" fill="#24331b">rapport taal: 8 op 20</text>
+<circle cx="910" cy="275" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="910" y="282" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<rect x="50" y="345" width="440" height="240" rx="10" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="270" y="405" font-size="21" text-anchor="middle" fill="#24331b">« Ik ben goed in Frans,</text>
+<text x="270" y="437" font-size="21" text-anchor="middle" fill="#24331b">maar spelling is mijn zwakke punt. »</text>
+<rect x="90" y="485" width="300" height="50" rx="8" fill="#eef3e6" stroke="#8a8470" stroke-width="2"/>
+<text x="240" y="517" font-size="19" text-anchor="middle" fill="#24331b">Frans 15 op 20, spelling 9 op 20</text>
+<circle cx="450" cy="550" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="450" y="557" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<rect x="510" y="345" width="440" height="240" rx="10" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="730" y="405" font-size="21" text-anchor="middle" fill="#24331b">« Ik ben veel te dik. »</text>
+<rect x="550" y="485" width="300" height="50" rx="8" fill="#eef3e6" stroke="#8a8470" stroke-width="2"/>
+<text x="700" y="517" font-size="19" text-anchor="middle" fill="#24331b">arts: gezond gewicht</text>
+<circle cx="910" cy="550" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="910" y="557" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">D</text>
+</svg>

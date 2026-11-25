@@ -40,6 +40,12 @@ export const nieuwTekst = {
 
 export const updates: Update[] = [
   {
+    datum: "25 november 2026",
+    titel: "Pittige hoofdstukken sociale en gedragswetenschappen in Boost doorstroom",
+    tekst:
+      "Sociale en gedragswetenschappen in Boost doorstroom heeft nu bij elk van de 16 onderwerpen een pittig hoofdstuk van 30 vragen, in examenvorm: van de fysieke, cognitieve, morele en sociale ontwikkeling, Piaget, Kohlberg, Erikson en gehechtheid tot persoonlijkheid, zelfbeeld, emoties en motivatie, en van cultuur, socialisatie en sociale instituties tot groepen, sociale rollen en kansen in de samenleving. Er zijn ook klikvragen op prenten, zoals een levenstrap, een proefje met stokjes, een weekagenda vol rollen en een maatschappelijke ladder over twee generaties.",
+  },
+  {
     datum: "24 november 2026",
     titel: "Pittige hoofdstukken kunstbeschouwing en filosofie in Boost doorstroom",
     tekst:
