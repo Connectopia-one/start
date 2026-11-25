@@ -1,0 +1,549 @@
+{
+  "hoofdstukken": [
+    {
+      "titel": "Uitdaging — alles door elkaar",
+      "niveau": "boost-dubbele-finaliteit",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "Lees de mededeling van het zwembad. Klik op de zin die zegt waarom het zwembad dichtgaat.",
+          "afbeelding_url": "/examenvormen/engels-boost-df-uitdaging/mededeling-zwembad.svg",
+          "zones": [
+            [
+              2,
+              27.1,
+              96,
+              13.7
+            ]
+          ],
+          "uitleg": "'Because' kondigt een oorzaak aan: de oude verwarming is kapot en moet vervangen worden."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de zin met een tegenstelling.",
+          "afbeelding_url": "/examenvormen/engels-boost-df-uitdaging/mededeling-zwembad.svg",
+          "zones": [
+            [
+              2,
+              68.2,
+              96,
+              13.7
+            ]
+          ],
+          "uitleg": "'However' kondigt een tegenstelling aan: je kan in het andere zwembad zwemmen, maar er is geen duikplank."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de zin die zegt wat je moet meebrengen.",
+          "afbeelding_url": "/examenvormen/engels-boost-df-uitdaging/mededeling-zwembad.svg",
+          "zones": [
+            [
+              2,
+              54.5,
+              96,
+              13.7
+            ]
+          ],
+          "uitleg": "'Please bring your Parkside card' vraagt je om je kaart mee te nemen, anders betaal je twee keer."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Je wil tijdens de sluiting toch zwemmen. Klik op de zin die zegt waar dat kan.",
+          "afbeelding_url": "/examenvormen/engels-boost-df-uitdaging/mededeling-zwembad.svg",
+          "zones": [
+            [
+              2,
+              40.8,
+              96,
+              13.7
+            ]
+          ],
+          "uitleg": "Tijdens de twee weken kan je in het Lakeview Centre zwemmen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit volgens de mededeling?",
+          "rijen": [
+            "Het zwembad is twee weken dicht.",
+            "In het Lakeview Centre kan je ook duiken van een plank.",
+            "Het zwembad gaat dicht door een lek in het dak."
+          ],
+          "antwoord": [
+            true,
+            false,
+            false
+          ],
+          "uitleg": "Van 6 tot 19 april is twee weken. Het Lakeview Centre heeft geen duikplank. De oorzaak is de kapotte verwarming, niet het dak.",
+          "afbeelding_url": "/examenvormen/engels-boost-df-uitdaging/mededeling-zwembad.svg"
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Deze tekst is vooral een [[*informatieve|narratieve|persuasieve]] tekst. Het woord 'it' in zin 2 verwijst naar [[*the old heating system|the pool]].",
+          "uitleg": "De tekst geeft informatie over een sluiting. 'It' verwijst naar het laatst genoemde ding dat vervangen moet worden: de verwarming.",
+          "afbeelding_url": "/examenvormen/engels-boost-df-uitdaging/mededeling-zwembad.svg"
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Bekijk de zes zinnen. Klik op de zin die fout is door 'since' en 'for'.",
+          "afbeelding_url": "/examenvormen/engels-boost-df-uitdaging/zes-zinnen.svg",
+          "zones": [
+            [
+              2,
+              13.4,
+              96,
+              13.7
+            ]
+          ],
+          "uitleg": "Bij een duur gebruik je 'for': She has lived in Leeds for three years. 'Since' staat bij een beginpunt, zoals since 2020."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de zin met een fout meervoud.",
+          "afbeelding_url": "/examenvormen/engels-boost-df-uitdaging/zes-zinnen.svg",
+          "zones": [
+            [
+              2,
+              54.5,
+              96,
+              13.7
+            ]
+          ],
+          "uitleg": "Het meervoud van 'child' is onregelmatig: children."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de zin met een fout in de overtreffende trap.",
+          "afbeelding_url": "/examenvormen/engels-boost-df-uitdaging/zes-zinnen.svg",
+          "zones": [
+            [
+              2,
+              68.2,
+              96,
+              13.7
+            ]
+          ],
+          "uitleg": "Bij een kort woord als 'tall' gebruik je -est: the tallest boy. 'Most' gebruik je bij lange woorden."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welke tijd staat er in deze zin?",
+          "rijen": [
+            "zin 2",
+            "zin 3",
+            "zin 6"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "'Doesn't like' is present simple, 'went' is de past simple van 'go' en 'will call' is de toekomst met will.",
+          "kolommen": [
+            "present simple",
+            "past simple",
+            "will-toekomst"
+          ],
+          "afbeelding_url": "/examenvormen/engels-boost-df-uitdaging/zes-zinnen.svg"
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welke tekstsoort hoort bij elk van deze vier korte Engelse zinnen?",
+          "rijen": [
+            "'Mix the flour and the eggs, then bake for twenty minutes.'",
+            "'Save water: take a shower instead of a bath!'",
+            "'Last summer I got lost in the woods with my dog.'",
+            "'The museum is open from Tuesday to Sunday.'"
+          ],
+          "antwoord": [
+            2,
+            1,
+            3,
+            0
+          ],
+          "uitleg": "Een recept zegt wat je moet doen. Een campagne wil je overtuigen. Een verhaal vertelt wat er gebeurde. Openingsuren geven informatie.",
+          "kolommen": [
+            "informatief",
+            "persuasief",
+            "prescriptief",
+            "narratief"
+          ]
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel het signaalwoord aan het verband dat het aankondigt.",
+          "paren": [
+            [
+              "because",
+              "oorzaak"
+            ],
+            [
+              "so",
+              "gevolg"
+            ],
+            [
+              "however",
+              "tegenstelling"
+            ],
+            [
+              "for example",
+              "voorbeeld"
+            ]
+          ],
+          "extra": [
+            "tijd"
+          ],
+          "uitleg": "Signaalwoorden maken het verband tussen zinnen zichtbaar."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "'Although it was raining, we went for a walk.' Wat doet 'although' in deze zin?",
+          "opties": [
+            "Het geeft een tegenstelling aan: de regen hield ons niet tegen",
+            "Het geeft de oorzaak aan waarom we gingen wandelen in de regen",
+            "Het geeft een gevolg aan van het slechte weer van die middag",
+            "Het geeft de tijd aan waarop we die dag vertrokken voor de wandeling"
+          ],
+          "antwoord": 0,
+          "uitleg": "'Although' betekent 'hoewel'. Je verwacht dat regen je binnen houdt, maar toch ga je wandelen."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel het Britse woord aan het Amerikaanse.",
+          "paren": [
+            [
+              "lift",
+              "elevator"
+            ],
+            [
+              "flat",
+              "apartment"
+            ],
+            [
+              "holiday",
+              "vacation"
+            ],
+            [
+              "autumn",
+              "fall"
+            ]
+          ],
+          "extra": [
+            "subway"
+          ],
+          "uitleg": "Brits en Amerikaans Engels hebben soms andere woorden voor hetzelfde ding."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Bij welk woordveld hoort dit woord?",
+          "kolommen": [
+            "gezondheid",
+            "reizen",
+            "school"
+          ],
+          "items": [
+            [
+              "sore throat",
+              "gezondheid"
+            ],
+            [
+              "return ticket",
+              "reizen"
+            ],
+            [
+              "primary school",
+              "school"
+            ],
+            [
+              "delayed",
+              "reizen"
+            ],
+            [
+              "headache",
+              "gezondheid"
+            ]
+          ],
+          "uitleg": "Woorden leer je best per woordveld: wat bij de dokter hoort, wat bij een treinreis hoort, wat op school hoort."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "De zoon van je zus is je [[*nephew|niece|cousin]]. 'A fortnight' duurt [[*two weeks|four weeks]].",
+          "uitleg": "Een nephew is een neef (zoon van je broer of zus), een niece een nicht. Een fortnight is veertien dagen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In een Britse winkel hangt het bordje 'Please queue here.' Wat doe je?",
+          "opties": [
+            "Je gaat netjes in de rij staan en wacht op je beurt",
+            "Je vraagt hier om hulp aan een medewerker van de winkel",
+            "Je betaalt hier meteen aan de kassa zonder te wachten",
+            "Je laat hier je tas achter tot je klaar bent met winkelen"
+          ],
+          "antwoord": 0,
+          "uitleg": "'Queue' betekent een rij. In het Verenigd Koninkrijk wacht je netjes je beurt af."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul de past simple in: Yesterday I … (write) a letter to my aunt.",
+          "antwoord": [
+            "wrote"
+          ],
+          "uitleg": "'Write' is onregelmatig: write, wrote, written."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "I have known her [[*for|since]] ten years. We have lived here [[*since|for]] 2019.",
+          "uitleg": "'For' staat bij een duur, 'since' bij een beginpunt."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is deze Engelse zin grammaticaal juist?",
+          "rijen": [
+            "Who wants a cup of tea?",
+            "Did you was at home yesterday?",
+            "She doesn't play the piano.",
+            "I am knowing the answer."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Vraag je met 'who' naar het onderwerp, dan komt er geen 'do'. Bij 'to be' gebruik je geen 'did': Were you at home? 'Know' zet je niet in de -ing-vorm."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "While we [[were]] waiting for the bus, it [[started]] to rain.",
+          "extra": [
+            "was",
+            "starts"
+          ],
+          "uitleg": "De langere handeling staat in de past continuous (were waiting), de korte handeling die ze onderbreekt in de past simple (started)."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet de woorden in de juiste volgorde voor een vraag.",
+          "opties": [
+            "Does",
+            "your brother",
+            "play",
+            "tennis",
+            "on Saturdays?"
+          ],
+          "uitleg": "Een vraag in de present simple: does + onderwerp + werkwoord + de rest."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk woord vul je in? I don't have … money left.",
+          "opties": [
+            "much",
+            "many",
+            "a few",
+            "few of"
+          ],
+          "antwoord": 0,
+          "uitleg": "'Money' is ontelbaar, dus gebruik je 'much'. 'Many' en 'a few' staan bij telbare woorden."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Voor 'hour' zet je [[*an|a]], want de h hoor je niet. 'The cat licked [[*its|it's]] paw.'",
+          "uitleg": "'An' staat voor een klinkerklank. 'Its' is bezittelijk, 'it's' is de korte vorm van 'it is'."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Schrijf het bijwoord bij 'careful'. Eén woord.",
+          "antwoord": [
+            "carefully"
+          ],
+          "uitleg": "Het bijwoord maak je met -ly: careful wordt carefully."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waar staat de komma? Kies de juiste zin.",
+          "opties": [
+            "When the film ended, we went home.",
+            "When the film ended we, went straight home.",
+            "When, the film ended we went home.",
+            "When the film, ended we went home."
+          ],
+          "antwoord": 0,
+          "uitleg": "Staat de bijzin vooraan, dan komt de komma tussen de bijzin en de hoofdzin."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Schrijf het meervoud van 'woman'. Eén woord.",
+          "antwoord": [
+            "women"
+          ],
+          "uitleg": "'Woman' heeft een onregelmatig meervoud: women."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "This is the girl [[*whose|who]] bike was stolen. The man [[*who|which]] lives next door is a doctor.",
+          "uitleg": "'Whose' wijst op bezit. Bij personen gebruik je 'who', bij dingen 'which'."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Kijkt deze zin vooruit naar de toekomst?",
+          "rijen": [
+            "I think it will rain tomorrow.",
+            "We went to Paris last year.",
+            "I'll help you with your homework later."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true
+          ],
+          "uitleg": "'Will' en de korte vorm 'll' maken de toekomende tijd. 'Went' is verleden tijd."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "'He has hardly slept.' Wat betekent dat?",
+          "opties": [
+            "Hij heeft bijna niet geslapen",
+            "Hij heeft heel hard en diep geslapen",
+            "Hij heeft veel te lang en te laat geslapen",
+            "Hij heeft eindelijk een hele nacht geslapen"
+          ],
+          "antwoord": 0,
+          "uitleg": "'Hardly' betekent bijna niet. Het heeft niets met 'hard' te maken."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "In the United Kingdom, 'the [[ground floor]]' is the floor at street level. You buy newspapers and sweets at the [[newsagent]].",
+          "extra": [
+            "first floor",
+            "estate agent"
+          ],
+          "uitleg": "De ground floor is het gelijkvloers. Bij de newsagent koop je kranten en snoep; een estate agent verkoopt huizen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over uitspraak en spelling?",
+          "rijen": [
+            "In 'island' spreek je de s niet uit.",
+            "De dagen van de week schrijf je met een kleine letter.",
+            "Het meervoud van 'leaf' is 'leaves'."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true
+          ],
+          "uitleg": "De s in island is stom. Dagen van de week krijgen in het Engels een hoofdletter. Sommige woorden op -f krijgen -ves."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "In 'computer' ligt de klemtoon op de [[*tweede|eerste|derde]] lettergreep. 'They're' is de korte vorm van [[*they are|there is]].",
+          "uitleg": "com-PU-ter. 'Their', 'there' en 'they're' klinken gelijk, maar betekenen iets anders."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel de situatie aan de gepaste reactie.",
+          "paren": [
+            [
+              "Iemand zegt: 'I'm sorry I'm late.'",
+              "Don't worry, we've only just started."
+            ],
+            [
+              "Je volgt je gesprekspartner niet.",
+              "Could you speak a bit more slowly, please?"
+            ],
+            [
+              "Je wil iemand uitnodigen.",
+              "Would you like to come to my party?"
+            ]
+          ],
+          "extra": [
+            "Yours faithfully."
+          ],
+          "uitleg": "Een gepaste reactie past bij de situatie en bij het register."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Je begint een mail aan iemand die je niet kent met [[*Dear Sir or Madam|Hi mate]]. Je sluit die mail af met [[*Yours faithfully|Yours sincerely]].",
+          "uitleg": "Ken je de naam niet, dan schrijf je Dear Sir or Madam en Yours faithfully. Ken je de naam wel, dan Yours sincerely."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Is dit een landsdeel van het Verenigd Koninkrijk?",
+          "kolommen": [
+            "wel",
+            "niet"
+          ],
+          "items": [
+            [
+              "Wales",
+              "wel"
+            ],
+            [
+              "Scotland",
+              "wel"
+            ],
+            [
+              "Northern Ireland",
+              "wel"
+            ],
+            [
+              "the Republic of Ireland",
+              "niet"
+            ]
+          ],
+          "uitleg": "Het Verenigd Koninkrijk bestaat uit Engeland, Schotland, Wales en Noord-Ierland. De Republiek Ierland is een apart land."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je krijgt punten voor taakvoltooiing bij een mondelinge opdracht in het Engels. Waarop let de examinator dan?",
+          "opties": [
+            "Of je doet wat de opdracht vraagt, met alle gevraagde info",
+            "Je spreekt zonder één fout in de grammatica of in de uitspraak",
+            "Je gebruikt zo veel mogelijk moeilijke woorden in je antwoord",
+            "Je spreekt zo lang mogelijk, ook over andere onderwerpen erbij"
+          ],
+          "antwoord": 0,
+          "uitleg": "Taakvoltooiing kijkt of je de opdracht echt uitvoert: alles wat gevraagd is, staat in je antwoord."
+        },
+        {
+          "casus": "Lees deze mail: 'Hi Sam, thanks for the photos of your trip to Scotland! They're great. I've never been there, but I'd love to go. Could you tell me which city you liked best and how long the train journey took? Speak soon, Jo'",
+          "vragen": [
+            {
+              "type": "meerkeuze",
+              "vraag": "Welke soort tekst schreef Jo aan Sam?",
+              "opties": [
+                "Een informele mail aan een vriend",
+                "Een zakelijke brief aan een bedrijf",
+                "Een persuasieve campagnetekst over reizen",
+                "Een prescriptieve tekst met een stappenplan"
+              ],
+              "antwoord": 0,
+              "uitleg": "'Hi', 'thanks' en 'Speak soon' tonen een informeel register tussen vrienden."
+            },
+            {
+              "type": "tabel",
+              "vraag": "Klopt dit volgens de mail van Jo aan Sam?",
+              "rijen": [
+                "Jo is al eens in Schotland geweest.",
+                "Jo stelt Sam twee vragen.",
+                "Sam reisde met de trein."
+              ],
+              "antwoord": [
+                false,
+                true,
+                true
+              ],
+              "uitleg": "'I've never been there' zegt dat Jo er nooit was. Jo vraagt welke stad Sam het mooist vond en hoe lang de treinreis duurde."
+            }
+          ]
+        },
+        {
+          "type": "open",
+          "vraag": "Schrijf een kort antwoord van Sam aan Jo (drie à vier zinnen in het Engels). Beantwoord beide vragen uit de mail en sluit gepast af.",
+          "antwoord": "Hi Jo, thanks for your message! I liked Edinburgh best, because the old town is beautiful. The train journey from London took about four and a half hours. You should go there next summer! Bye, Sam",
+          "uitleg": "Een goed antwoord beantwoordt beide vragen (welke stad en hoe lang de reis duurde), gebruikt een informeel register en sluit gepast af."
+        }
+      ]
+    }
+  ]
+}
