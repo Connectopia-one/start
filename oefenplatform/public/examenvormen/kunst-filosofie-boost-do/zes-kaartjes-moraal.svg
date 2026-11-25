@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Zes kaartjes op het prikbord</text>
+<rect x="30" y="60" width="940" height="560" rx="10" fill="#e8dcc0" stroke="#8a8470" stroke-width="3"/>
+<rect x="70" y="100" width="240" height="200" rx="6" fill="#fff6c8" stroke="#24331b" stroke-width="2"/>
+<circle cx="190" cy="112" r="8" fill="#b03a2e" stroke="#24331b" stroke-width="1"/>
+<text x="190" y="200" font-size="22" text-anchor="middle" fill="#24331b">eerlijkheid</text>
+<circle cx="280" cy="270" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="280" y="277" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<rect x="380" y="100" width="240" height="200" rx="6" fill="#fff6c8" stroke="#24331b" stroke-width="2"/>
+<circle cx="500" cy="112" r="8" fill="#b03a2e" stroke="#24331b" stroke-width="1"/>
+<text x="500" y="185" font-size="22" text-anchor="middle" fill="#24331b">Je laat anderen</text>
+<text x="500" y="215" font-size="22" text-anchor="middle" fill="#24331b">uitspreken.</text>
+<circle cx="590" cy="270" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="590" y="277" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<rect x="690" y="100" width="240" height="200" rx="6" fill="#fff6c8" stroke="#24331b" stroke-width="2"/>
+<circle cx="810" cy="112" r="8" fill="#b03a2e" stroke="#24331b" stroke-width="1"/>
+<text x="810" y="200" font-size="22" text-anchor="middle" fill="#24331b">vrijheid</text>
+<circle cx="900" cy="270" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="900" y="277" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<rect x="70" y="360" width="240" height="200" rx="6" fill="#fff6c8" stroke="#24331b" stroke-width="2"/>
+<circle cx="190" cy="372" r="8" fill="#b03a2e" stroke="#24331b" stroke-width="1"/>
+<text x="190" y="445" font-size="22" text-anchor="middle" fill="#24331b">Je spiekt niet</text>
+<text x="190" y="475" font-size="22" text-anchor="middle" fill="#24331b">op een examen.</text>
+<circle cx="280" cy="530" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="280" y="537" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">D</text>
+<rect x="380" y="360" width="240" height="200" rx="6" fill="#fff6c8" stroke="#24331b" stroke-width="2"/>
+<circle cx="500" cy="372" r="8" fill="#b03a2e" stroke="#24331b" stroke-width="1"/>
+<text x="500" y="460" font-size="22" text-anchor="middle" fill="#24331b">respect</text>
+<circle cx="590" cy="530" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="590" y="537" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">E</text>
+<rect x="690" y="360" width="240" height="200" rx="6" fill="#fff6c8" stroke="#24331b" stroke-width="2"/>
+<circle cx="810" cy="372" r="8" fill="#b03a2e" stroke="#24331b" stroke-width="1"/>
+<text x="810" y="445" font-size="22" text-anchor="middle" fill="#24331b">Je kiest zelf</text>
+<text x="810" y="475" font-size="22" text-anchor="middle" fill="#24331b">welke kleren je draagt.</text>
+<circle cx="900" cy="530" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="900" y="537" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">F</text>
+</svg>

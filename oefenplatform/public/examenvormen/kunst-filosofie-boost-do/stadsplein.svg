@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Een zaterdag op het plein</text>
+<rect x="0" y="470" width="1000" height="170" rx="0" fill="#e9e4d4" stroke="#d9d4c4" stroke-width="0"/>
+<path d="M 560 260 A 170 150 0 0 1 900 260" fill="none" stroke="#b03a2e" stroke-width="10"/>
+<path d="M 572 260 A 158 138 0 0 1 888 260" fill="none" stroke="#b5651d" stroke-width="10"/>
+<path d="M 584 260 A 146 126 0 0 1 876 260" fill="none" stroke="#e8c547" stroke-width="10"/>
+<path d="M 596 260 A 134 114 0 0 1 864 260" fill="none" stroke="#a8c98a" stroke-width="10"/>
+<path d="M 608 260 A 122 102 0 0 1 852 260" fill="none" stroke="#3b6fa0" stroke-width="10"/>
+<rect x="60" y="230" width="170" height="240" rx="0" fill="#d9d4c4" stroke="#24331b" stroke-width="3"/>
+<path d="M 60 230 L 145 120 L 230 230 Z" fill="#d9d4c4" stroke="#24331b" stroke-width="3"/>
+<line x1="145" y1="70" x2="145" y2="120" stroke="#24331b" stroke-width="4"/>
+<line x1="130" y1="88" x2="160" y2="88" stroke="#24331b" stroke-width="4"/>
+<rect x="120" y="380" width="50" height="90" rx="20" fill="#8a6a4a" stroke="#24331b" stroke-width="2"/>
+<rect x="300" y="400" width="120" height="70" rx="2" fill="#d9d4c4" stroke="#24331b" stroke-width="3"/>
+<circle cx="360" cy="290" r="18" fill="#6b7f5a" stroke="#24331b" stroke-width="3"/>
+<rect x="340" y="310" width="40" height="60" rx="6" fill="#6b7f5a" stroke="#24331b" stroke-width="3"/>
+<line x1="340" y1="320" x2="318" y2="280" stroke="#6b7f5a" stroke-width="8"/>
+<line x1="380" y1="320" x2="395" y2="360" stroke="#6b7f5a" stroke-width="8"/>
+<line x1="350" y1="370" x2="348" y2="400" stroke="#6b7f5a" stroke-width="9"/>
+<line x1="370" y1="370" x2="372" y2="400" stroke="#6b7f5a" stroke-width="9"/>
+<rect x="480" y="380" width="180" height="90" rx="2" fill="#ffffff" stroke="#24331b" stroke-width="3"/>
+<rect x="480" y="340" width="30" height="40" rx="0" fill="#b03a2e" stroke="#24331b" stroke-width="2"/>
+<rect x="510" y="340" width="30" height="40" rx="0" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<rect x="540" y="340" width="30" height="40" rx="0" fill="#b03a2e" stroke="#24331b" stroke-width="2"/>
+<rect x="570" y="340" width="30" height="40" rx="0" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<rect x="600" y="340" width="30" height="40" rx="0" fill="#b03a2e" stroke="#24331b" stroke-width="2"/>
+<rect x="630" y="340" width="30" height="40" rx="0" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<circle cx="530" cy="410" r="20" fill="#e8c547" stroke="#24331b" stroke-width="2"/>
+<circle cx="600" cy="410" r="20" fill="#e8c547" stroke="#24331b" stroke-width="2"/>
+<rect x="760" y="330" width="190" height="140" rx="4" fill="#dff0f7" stroke="#24331b" stroke-width="3"/>
+<rect x="750" y="315" width="210" height="20" rx="2" fill="#24331b" stroke="#24331b" stroke-width="2"/>
+<rect x="790" y="420" width="120" height="14" rx="2" fill="#8a6a4a" stroke="#24331b" stroke-width="2"/>
+<circle cx="145" cy="300" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="145" y="307" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<circle cx="360" cy="440" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="360" y="447" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<circle cx="570" cy="450" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="570" y="457" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<circle cx="855" cy="380" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="855" y="387" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">D</text>
+<circle cx="730" cy="140" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="730" y="147" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">E</text>
+</svg>

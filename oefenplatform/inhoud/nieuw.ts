@@ -41,6 +41,12 @@ export const nieuwTekst = {
 export const updates: Update[] = [
   {
     datum: "24 november 2026",
+    titel: "Pittige hoofdstukken kunstbeschouwing en filosofie in Boost doorstroom",
+    tekst:
+      "Kunstbeschouwing en filosofie in Boost doorstroom heeft nu bij elk van de 16 onderwerpen een pittig hoofdstuk van 30 vragen, in examenvorm: van kunstvormen, kunst van de prehistorie tot vandaag en de middelen van vormgeving tot de eerste Griekse filosofen, de soorten vragen, de filosofische domeinen, de AUB-methode, lichaam en geest, mens en dier, de ethische stromingen en ethische vraagstukken. Er zijn ook klikvragen op prenten, zoals een tijdlijn met filosofen, zes kaartjes met waarden en normen en een discussieblad met argumenten.",
+  },
+  {
+    datum: "24 november 2026",
     titel: "Pittige hoofdstukken Frans in Boost doorstroom",
     tekst:
       "Frans in Boost doorstroom heeft nu bij elk van de 13 onderwerpen een pittig hoofdstuk van 30 vragen, in examenvorm: van Franse teksten lezen, tekstverbanden en schrijven over de Franstalige wereld en de woordvelden tot lidwoorden, voornaamwoorden, de trappen van vergelijking, alle tijden en de si-zinnen. Er zijn ook klikvragen op prenten, zoals een affiche, een mail aan een camping, een weerkaart, een zwembadreglement en een zin in blokjes.",

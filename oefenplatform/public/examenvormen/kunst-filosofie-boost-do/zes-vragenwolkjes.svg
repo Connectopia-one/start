@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Zes vragen in de klas</text>
+<rect x="60" y="80" width="260" height="160" rx="30" fill="#ffffff" stroke="#24331b" stroke-width="3"/>
+<path d="M 120 240 L 110 280 L 160 240" fill="#ffffff" stroke="#24331b" stroke-width="3"/>
+<line x1="122" y1="240" x2="158" y2="240" stroke="#ffffff" stroke-width="4"/>
+<text x="190" y="150" font-size="22" text-anchor="middle" fill="#24331b">Hoe laat is het?</text>
+<circle cx="280" cy="280" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="280" y="287" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<rect x="370" y="80" width="260" height="160" rx="30" fill="#ffffff" stroke="#24331b" stroke-width="3"/>
+<path d="M 430 240 L 420 280 L 470 240" fill="#ffffff" stroke="#24331b" stroke-width="3"/>
+<line x1="432" y1="240" x2="468" y2="240" stroke="#ffffff" stroke-width="4"/>
+<text x="500" y="150" font-size="22" text-anchor="middle" fill="#24331b">Wat is tijd?</text>
+<circle cx="590" cy="280" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="590" y="287" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<rect x="680" y="80" width="260" height="160" rx="30" fill="#ffffff" stroke="#24331b" stroke-width="3"/>
+<path d="M 740 240 L 730 280 L 780 240" fill="#ffffff" stroke="#24331b" stroke-width="3"/>
+<line x1="742" y1="240" x2="778" y2="240" stroke="#ffffff" stroke-width="4"/>
+<text x="810" y="135" font-size="22" text-anchor="middle" fill="#24331b">Welke kleur vind</text>
+<text x="810" y="165" font-size="22" text-anchor="middle" fill="#24331b">jij het mooist?</text>
+<circle cx="900" cy="280" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="900" y="287" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<rect x="60" y="340" width="260" height="160" rx="30" fill="#ffffff" stroke="#24331b" stroke-width="3"/>
+<path d="M 120 500 L 110 540 L 160 500" fill="#ffffff" stroke="#24331b" stroke-width="3"/>
+<line x1="122" y1="500" x2="158" y2="500" stroke="#ffffff" stroke-width="4"/>
+<text x="190" y="380" font-size="22" text-anchor="middle" fill="#24331b">Hoe ver staat de</text>
+<text x="190" y="410" font-size="22" text-anchor="middle" fill="#24331b">maan van de</text>
+<text x="190" y="440" font-size="22" text-anchor="middle" fill="#24331b">aarde?</text>
+<circle cx="280" cy="540" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="280" y="547" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">D</text>
+<rect x="370" y="340" width="260" height="160" rx="30" fill="#ffffff" stroke="#24331b" stroke-width="3"/>
+<path d="M 430 500 L 420 540 L 470 500" fill="#ffffff" stroke="#24331b" stroke-width="3"/>
+<line x1="432" y1="500" x2="468" y2="500" stroke="#ffffff" stroke-width="4"/>
+<text x="500" y="395" font-size="22" text-anchor="middle" fill="#24331b">Wat is</text>
+<text x="500" y="425" font-size="22" text-anchor="middle" fill="#24331b">vriendschap?</text>
+<circle cx="590" cy="540" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="590" y="547" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">E</text>
+<rect x="680" y="340" width="260" height="160" rx="30" fill="#ffffff" stroke="#24331b" stroke-width="3"/>
+<path d="M 740 500 L 730 540 L 780 500" fill="#ffffff" stroke="#24331b" stroke-width="3"/>
+<line x1="742" y1="500" x2="778" y2="500" stroke="#ffffff" stroke-width="4"/>
+<text x="810" y="380" font-size="22" text-anchor="middle" fill="#24331b">Welke pizza</text>
+<text x="810" y="410" font-size="22" text-anchor="middle" fill="#24331b">bestel jij</text>
+<text x="810" y="440" font-size="22" text-anchor="middle" fill="#24331b">vanavond?</text>
+<circle cx="900" cy="540" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="900" y="547" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">F</text>
+</svg>

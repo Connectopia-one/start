@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">De wetenschappen</text>
+<line x1="500" y1="150" x2="240" y2="230" stroke="#24331b" stroke-width="3"/>
+<line x1="500" y1="150" x2="760" y2="230" stroke="#24331b" stroke-width="3"/>
+<line x1="760" y1="300" x2="570" y2="400" stroke="#24331b" stroke-width="3"/>
+<line x1="760" y1="300" x2="850" y2="400" stroke="#24331b" stroke-width="3"/>
+<rect x="400" y="80" width="200" height="70" rx="10" fill="#e8c547" stroke="#24331b" stroke-width="3"/>
+<circle cx="500.0" cy="115.0" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="500.0" y="122.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<rect x="130" y="230" width="220" height="70" rx="10" fill="#a8c98a" stroke="#24331b" stroke-width="3"/>
+<circle cx="240.0" cy="265.0" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="240.0" y="272.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<rect x="650" y="230" width="220" height="70" rx="10" fill="#9ec7e6" stroke="#24331b" stroke-width="3"/>
+<circle cx="760.0" cy="265.0" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="760.0" y="272.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<rect x="440" y="400" width="260" height="70" rx="10" fill="#ffffff" stroke="#24331b" stroke-width="3"/>
+<circle cx="470" cy="435.0" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="470" y="442.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">D</text>
+<text x="592" y="441.0" font-size="17" text-anchor="middle" fill="#24331b" font-weight="bold">gedragswetenschappen</text>
+<rect x="720" y="400" width="260" height="70" rx="10" fill="#ffffff" stroke="#24331b" stroke-width="3"/>
+<circle cx="750" cy="435.0" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="750" y="442.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">E</text>
+<text x="872" y="441.0" font-size="17" text-anchor="middle" fill="#24331b" font-weight="bold">cultuurwetenschappen</text>
+<text x="500" y="590" font-size="20" text-anchor="middle" fill="#24331b">Elk vak is een groep wetenschappen. A, B en C zijn leeg gelaten.</text>
+</svg>
