@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#fffdf7"/>
+<line x1="140.0" y1="540.0" x2="920.0" y2="540.0" stroke="#24331b" stroke-width="2"/>
+<line x1="140.0" y1="534.0" x2="140.0" y2="546.0" stroke="#24331b" stroke-width="2"/>
+<text x="140.0" y="572.0" font-size="18" text-anchor="middle" fill="#24331b">0</text>
+<line x1="218.0" y1="534.0" x2="218.0" y2="546.0" stroke="#24331b" stroke-width="2"/>
+<text x="218.0" y="572.0" font-size="18" text-anchor="middle" fill="#24331b">10</text>
+<line x1="296.0" y1="534.0" x2="296.0" y2="546.0" stroke="#24331b" stroke-width="2"/>
+<text x="296.0" y="572.0" font-size="18" text-anchor="middle" fill="#24331b">20</text>
+<line x1="374.0" y1="534.0" x2="374.0" y2="546.0" stroke="#24331b" stroke-width="2"/>
+<text x="374.0" y="572.0" font-size="18" text-anchor="middle" fill="#24331b">30</text>
+<line x1="452.0" y1="534.0" x2="452.0" y2="546.0" stroke="#24331b" stroke-width="2"/>
+<text x="452.0" y="572.0" font-size="18" text-anchor="middle" fill="#24331b">40</text>
+<line x1="530.0" y1="534.0" x2="530.0" y2="546.0" stroke="#24331b" stroke-width="2"/>
+<text x="530.0" y="572.0" font-size="18" text-anchor="middle" fill="#24331b">50</text>
+<line x1="608.0" y1="534.0" x2="608.0" y2="546.0" stroke="#24331b" stroke-width="2"/>
+<text x="608.0" y="572.0" font-size="18" text-anchor="middle" fill="#24331b">60</text>
+<line x1="686.0" y1="534.0" x2="686.0" y2="546.0" stroke="#24331b" stroke-width="2"/>
+<text x="686.0" y="572.0" font-size="18" text-anchor="middle" fill="#24331b">70</text>
+<line x1="764.0" y1="534.0" x2="764.0" y2="546.0" stroke="#24331b" stroke-width="2"/>
+<text x="764.0" y="572.0" font-size="18" text-anchor="middle" fill="#24331b">80</text>
+<line x1="842.0" y1="534.0" x2="842.0" y2="546.0" stroke="#24331b" stroke-width="2"/>
+<text x="842.0" y="572.0" font-size="18" text-anchor="middle" fill="#24331b">90</text>
+<line x1="920.0" y1="534.0" x2="920.0" y2="546.0" stroke="#24331b" stroke-width="2"/>
+<text x="920.0" y="572.0" font-size="18" text-anchor="middle" fill="#24331b">100</text>
+<text x="530.0" y="610.0" font-size="18" text-anchor="middle" fill="#24331b">punten op 100</text>
+<text x="70.0" y="218.0" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">klas A</text>
+<line x1="296.0" y1="210.0" x2="491.0" y2="210.0" stroke="#24331b" stroke-width="3"/>
+<line x1="686.0" y1="210.0" x2="881.0" y2="210.0" stroke="#24331b" stroke-width="3"/>
+<line x1="296.0" y1="190.0" x2="296.0" y2="230.0" stroke="#24331b" stroke-width="3"/>
+<line x1="881.0" y1="190.0" x2="881.0" y2="230.0" stroke="#24331b" stroke-width="3"/>
+<rect x="491.0" y="165.0" width="195.0" height="90.0" rx="0" fill="#e6efdc" stroke="#2f4a22" stroke-width="3"/>
+<line x1="608.0" y1="165.0" x2="608.0" y2="255.0" stroke="#b5651d" stroke-width="5"/>
+<text x="70.0" y="408.0" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">klas B</text>
+<line x1="413.0" y1="400.0" x2="530.0" y2="400.0" stroke="#24331b" stroke-width="3"/>
+<line x1="608.0" y1="400.0" x2="764.0" y2="400.0" stroke="#24331b" stroke-width="3"/>
+<line x1="413.0" y1="380.0" x2="413.0" y2="420.0" stroke="#24331b" stroke-width="3"/>
+<line x1="764.0" y1="380.0" x2="764.0" y2="420.0" stroke="#24331b" stroke-width="3"/>
+<rect x="530.0" y="355.0" width="78.0" height="90.0" rx="0" fill="#e6efdc" stroke="#2f4a22" stroke-width="3"/>
+<line x1="569.0" y1="355.0" x2="569.0" y2="445.0" stroke="#b5651d" stroke-width="5"/>
+<text x="500.0" y="30.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">De punten van twee klassen op dezelfde toets</text>
+</svg>

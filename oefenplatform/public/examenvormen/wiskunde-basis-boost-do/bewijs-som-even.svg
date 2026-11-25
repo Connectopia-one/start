@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#fffdf7"/>
+<text x="500.0" y="80.0" font-size="22" text-anchor="middle" fill="#24331b">Te bewijzen: de som van twee even getallen is even.</text>
+<rect x="80.0" y="130.0" width="840.0" height="90.0" rx="14" fill="#f6f3ea" stroke="#b9b29c" stroke-width="2"/>
+<circle cx="130" cy="175" r="22" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="130.0" y="183.0" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<text x="180.0" y="184.0" font-size="24" text-anchor="start" fill="#24331b">Gegeven: a en b zijn even gehele getallen.</text>
+<rect x="80.0" y="245.0" width="840.0" height="90.0" rx="14" fill="#ffffff" stroke="#b9b29c" stroke-width="2"/>
+<circle cx="130" cy="290" r="22" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="130.0" y="298.0" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<text x="180.0" y="299.0" font-size="24" text-anchor="start" fill="#24331b">Dan is a = 2m en b = 2n, met m en n geheel.</text>
+<rect x="80.0" y="360.0" width="840.0" height="90.0" rx="14" fill="#f6f3ea" stroke="#b9b29c" stroke-width="2"/>
+<circle cx="130" cy="405" r="22" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="130.0" y="413.0" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<text x="180.0" y="414.0" font-size="24" text-anchor="start" fill="#24331b">a + b = 2m + 2n = 2(m + n)</text>
+<rect x="80.0" y="475.0" width="840.0" height="90.0" rx="14" fill="#ffffff" stroke="#b9b29c" stroke-width="2"/>
+<circle cx="130" cy="520" r="22" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="130.0" y="528.0" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">D</text>
+<text x="180.0" y="529.0" font-size="24" text-anchor="start" fill="#24331b">m + n is geheel, dus a + b is even.</text>
+<text x="500.0" y="30.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">Een bewijs in vier stappen</text>
+</svg>

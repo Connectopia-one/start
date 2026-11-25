@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#fffdf7"/>
+<defs><clipPath id="pD"><rect x="530" y="360" width="410" height="260"/></clipPath></defs>
+<defs><clipPath id="pC"><rect x="60" y="360" width="410" height="260"/></clipPath></defs>
+<defs><clipPath id="pB"><rect x="530" y="70" width="410" height="260"/></clipPath></defs>
+<defs><clipPath id="pA"><rect x="60" y="70" width="410" height="260"/></clipPath></defs>
+<rect x="60.0" y="70.0" width="410.0" height="260.0" rx="10" fill="#ffffff" stroke="#b9b29c" stroke-width="2"/>
+<line x1="75.0" y1="200.0" x2="455.0" y2="200.0" stroke="#24331b" stroke-width="2"/>
+<line x1="265.0" y1="82.0" x2="265.0" y2="318.0" stroke="#24331b" stroke-width="2"/>
+<line x1="85.0" y1="-30.0" x2="445.0" y2="150.0" stroke="#3b6fa0" stroke-width="5" clip-path="url(#pA)"/>
+<line x1="85.0" y1="456.0" x2="445.0" y2="24.0" stroke="#b5651d" stroke-width="5" clip-path="url(#pA)"/>
+<circle cx="90" cy="100" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="90.0" y="107.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<rect x="530.0" y="70.0" width="410.0" height="260.0" rx="10" fill="#ffffff" stroke="#b9b29c" stroke-width="2"/>
+<line x1="545.0" y1="200.0" x2="925.0" y2="200.0" stroke="#24331b" stroke-width="2"/>
+<line x1="735.0" y1="82.0" x2="735.0" y2="318.0" stroke="#24331b" stroke-width="2"/>
+<line x1="555.0" y1="284.0" x2="915.0" y2="-4.0" stroke="#3b6fa0" stroke-width="5" clip-path="url(#pB)"/>
+<line x1="555.0" y1="392.0" x2="915.0" y2="104.0" stroke="#b5651d" stroke-width="5" clip-path="url(#pB)"/>
+<circle cx="560" cy="100" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="560.0" y="107.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<rect x="60.0" y="360.0" width="410.0" height="260.0" rx="10" fill="#ffffff" stroke="#b9b29c" stroke-width="2"/>
+<line x1="75.0" y1="490.0" x2="455.0" y2="490.0" stroke="#24331b" stroke-width="2"/>
+<line x1="265.0" y1="372.0" x2="265.0" y2="608.0" stroke="#24331b" stroke-width="2"/>
+<line x1="85.0" y1="264.0" x2="445.0" y2="516.0" stroke="#3b6fa0" stroke-width="5" clip-path="url(#pC)"/>
+<line x1="85.0" y1="264.0" x2="445.0" y2="516.0" stroke="#b5651d" stroke-width="5" clip-path="url(#pC)" stroke-dasharray="14 10"/>
+<circle cx="90" cy="390" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="90.0" y="397.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<rect x="530.0" y="360.0" width="410.0" height="260.0" rx="10" fill="#ffffff" stroke="#b9b29c" stroke-width="2"/>
+<line x1="545.0" y1="490.0" x2="925.0" y2="490.0" stroke="#24331b" stroke-width="2"/>
+<line x1="735.0" y1="372.0" x2="735.0" y2="608.0" stroke="#24331b" stroke-width="2"/>
+<line x1="555.0" y1="670.0" x2="915.0" y2="310.0" stroke="#3b6fa0" stroke-width="5" clip-path="url(#pD)"/>
+<line x1="555.0" y1="270.0" x2="915.0" y2="630.0" stroke="#b5651d" stroke-width="5" clip-path="url(#pD)"/>
+<circle cx="560" cy="390" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="560.0" y="397.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">D</text>
+<text x="500.0" y="30.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">Vier stelsels, telkens twee rechten (bij C liggen ze op elkaar)</text>
+</svg>

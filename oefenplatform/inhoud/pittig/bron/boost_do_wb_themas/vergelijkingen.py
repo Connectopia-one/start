@@ -1,0 +1,92 @@
+"""Eerstegraadsvergelijkingen en -ongelijkheden — pittig (🚀 Boost doorstroom, wiskunde basis).
+
+Strikt binnen wb_vergelijkingen: oplossen, oplossingenverzameling (één, geen
+of oneindig veel), vraagstukken vertalen, ongelijkheden met het teken
+omkeren, intervalnotatie en grafisch oplossen. Met een zelfgetekende grafiek
+van twee rechten."""
+from .vormen import J, F, mk, inv, tabel, keuze, volgorde, koppel, sorteer, sleep, open_, casus, klik
+from .prentmaat import venster, punt_zone, strook_zone
+
+G = venster("twee-rechten-f-g", -4, 6, -3, 6)
+GRAFIEKEN = [dict(naam=G, titel="", krommen=[(lambda x: 0.5 * x + 1, "blauw", "f", (-4, 6)), (lambda x: -x + 4, "oranje", "g", (-2, 6))],
+                  labelplek={"f": (5, 3.5), "g": (-1, 5)})]
+U = f"{G}.svg"
+FG = r"Op de grafiek staan \(f(x) = \frac{1}{2}x + 1\) (blauw) en \(g(x) = -x + 4\) (oranje). "
+
+VRAGEN = [
+    klik(FG + r"Klik op het punt dat de oplossing van \(\frac{1}{2}x + 1 = -x + 4\) toont.", U, [punt_zone(G, 2, 2)],
+         r"Het snijpunt \((2, 2)\): daar zijn beide gelijk, dus \(x = 2\)."),
+    klik(FG + r"Klik op het punt dat de oplossing van \(-x + 4 = 0\) toont.", U, [punt_zone(G, 4, 0)],
+         r"Het nulpunt van \(g\): \(x = 4\)."),
+    klik(FG + r"Klik op het stuk van de grafiek waar \(f(x) < 0\).", U, [strook_zone(G, -4, -2)],
+         r"Links van het nulpunt \(x = -2\) ligt de blauwe rechte onder de \(x\)-as."),
+    klik(FG + r"Klik op het stuk waar \(f(x) > g(x)\).", U, [strook_zone(G, 2, 6)],
+         r"Rechts van het snijpunt ligt blauw boven oranje: \(x > 2\)."),
+    klik(FG + r"Klik op het stuk waar zowel \(f(x) > 0\) als \(g(x) > 0\).", U, [strook_zone(G, -2, 4)],
+         r"Tussen de twee nulpunten \(-2\) en \(4\) liggen beide rechten boven de \(x\)-as."),
+    mk(r"Los op: \(3(x - 2) - 2(x + 1) = 4\).",
+       [r"\(x = 12\)", r"\(x = 4\)", r"\(x = 0\)", r"\(x = \frac{4}{5}\)"], 0,
+       r"\(3x - 6 - 2x - 2 = 4\), dus \(x - 8 = 4\) en \(x = 12\). Let op het minteken voor de tweede haakjes."),
+    inv(r"Los op: \(\frac{x}{3} + \frac{x}{2} = 10\). Een getal.", ["12", "twaalf"],
+        r"Alles maal \(6\): \(2x + 3x = 60\), dus \(x = 12\)."),
+    inv(r"Los op: \(\frac{2x - 1}{3} = x - 2\). Een getal.", ["5", "vijf"],
+        r"Maal \(3\): \(2x - 1 = 3x - 6\), dus \(x = 5\)."),
+    tabel("Hoeveel oplossingen heeft deze vergelijking?",
+          [(r"\(3x + 1 = 3x - 2\)", "geen"), (r"\(4(x + 2) = 4x + 8\)", "oneindig veel"), (r"\(2x + 1 = x - 2\)", "één"),
+           (r"\(5 - x = -(x - 5)\)", "oneindig veel"), (r"\(0 \cdot x = 7\)", "geen")],
+          r"Valt \(x\) weg en blijft er iets waars over, dan is \(V = \mathbb{R}\). Blijft er iets vals over, dan is \(V = \emptyset\).",
+          kolommen=["één", "geen", "oneindig veel"]),
+    casus("Sportschool A vraagt \\(30\\) euro inschrijving en \\(5\\) euro per beurt. Sportschool B vraagt geen inschrijving, maar \\(8\\) euro per beurt.", [
+        mk("Welke vergelijking zegt wanneer ze evenveel kosten?",
+           [r"\(30 + 5x = 8x\)", r"\(30x + 5 = 8x\)", r"\(35x = 8x\)", r"\(30 + 5x + 8x = 0\)"], 0,
+           r"\(x\) is het aantal beurten. A kost \(30 + 5x\), B kost \(8x\)."),
+        inv("Na hoeveel beurten kosten ze evenveel? Een getal.", ["10", "tien"], r"\(30 = 3x\), dus \(x = 10\)."),
+        keuze("Wie 15 keer gaat, kiest best sportschool [[*A|B]].", r"A: \(30 + 75 = 105\). B: \(120\)."),
+        inv("Vanaf hoeveel beurten is A strikt goedkoper? Een geheel getal.", ["11", "elf"],
+            r"\(30 + 5x < 8x\) geeft \(x > 10\): vanaf \(11\) beurten."),
+    ]),
+    mk(r"Los op: \(-2x + 5 \geq 11\).",
+       [r"\(x \leq -3\)", r"\(x \geq -3\)", r"\(x \leq 3\)", r"\(x \geq -\frac{3}{2}\)"], 0,
+       r"\(-2x \geq 6\). Delen door \(-2\) keert het teken om: \(x \leq -3\)."),
+    inv(r"Los op: \(5 - 2x < 1\). Groter dan welk getal? Een getal.", ["2", "twee"], r"\(-2x < -4\), dus \(x > 2\)."),
+    mk(r"Wat is de oplossingenverzameling van \(4 - x \leq 2x + 1\)?",
+       [r"\(\left[1, +\infty\right[\)", r"\(\left]-\infty, 1\right]\)", r"\(\left]1, +\infty\right[\)", r"\(\left[-1, +\infty\right[\)"], 0,
+       r"\(3 \leq 3x\), dus \(x \geq 1\). De grens \(1\) hoort erbij."),
+    sorteer(r"Is dit getal een oplossing van \(3 - 2x > -5\)?", ["ja", "nee"],
+            [(r"\(3\)", "ja"), (r"\(4\)", "nee"), (r"\(-10\)", "ja"), (r"\(4{,}5\)", "nee"), (r"\(3{,}99\)", "ja")],
+            r"\(-2x > -8\) geeft \(x < 4\). \(4\) zelf hoort er niet bij."),
+    keuze(r"Bij \(-\frac{x}{2} < 3\) vermenigvuldig je beide leden met \(-2\). Dan is \(x\) [[*groter dan|kleiner dan]] \(-6\).",
+          "Vermenigvuldigen met een negatief getal keert het teken om."),
+    mk("Een rechthoek is 3 cm langer dan breed. De omtrek is 26 cm. Hoe breed is hij?",
+       [r"\(5\) cm", r"\(8\) cm", r"\(6{,}5\) cm", r"\(11{,}5\) cm"], 0,
+       r"\(2(b + b + 3) = 26\), dus \(4b + 6 = 26\) en \(b = 5\)."),
+    inv("Lisa is nu drie keer zo oud als haar broer. Over 6 jaar is ze dubbel zo oud als hij. Hoe oud is haar broer nu?", ["6", "zes"],
+        r"\(3b + 6 = 2(b + 6)\) geeft \(b = 6\). Controle: \(18 + 6 = 24 = 2 \cdot 12\)."),
+    koppel("Verbind elke zin met haar vergelijking.",
+           [(r"\(x\) min \(3\) is het dubbele van \(x\)", r"\(x - 3 = 2x\)"), (r"het dubbele van \(x\), min \(3\), is \(x\)", r"\(2x - 3 = x\)"),
+            (r"het dubbele van \(x - 3\) is \(x\)", r"\(2(x - 3) = x\)")],
+           [r"\(3 - x = 2x\)"], "Let op waar de haakjes staan: die bepalen wat eerst gebeurt."),
+    mk(r"Hoe lees je de oplossingen van \(f(x) \geq g(x)\) af op een grafiek?",
+       [r"de \(x\)-waarden waar \(f\) op of boven \(g\) ligt", r"de \(y\)-waarden waar \(f\) en \(g\) elkaar snijden", r"de \(x\)-waarden waar \(f\) onder de \(x\)-as ligt", r"de plaatsen waar \(g\) helemaal boven \(f\) ligt"], 0,
+       "Groter dan of gelijk aan: boven, of erop bij het snijpunt."),
+    tabel("Klopt dit over vergelijkingen en ongelijkheden?",
+          [("Als je beide leden van een ongelijkheid met 0 vermenigvuldigt, blijft ze geldig.", F), (r"\(x > 3\) en \(3 < x\) hebben dezelfde oplossingen.", J),
+           ("Bij delen door een positief getal keert het ongelijkheidsteken om.", F), (r"\(V = \{4\}\) betekent: enkel 4 is een oplossing.", J)],
+          r"Maal \(0\) maakt van \(5 > 2\) de valse uitspraak \(0 > 0\).",
+          kolommen=["Juist", "Fout"]),
+    sleep(r"Bij \(2x + 6 = 0\) is de oplossing [[\(-3\)]]. Grafisch is dat het [[nulpunt]] van \(y = 2x + 6\).",
+          [r"\(3\)", "snijpunt met de y-as"], "Waar de rechte de x-as snijdt, is y gelijk aan nul."),
+    inv("Een vat met 24 liter loopt leeg met 3 liter per minuut. Een tweede vat met 18 liter loopt leeg met 1,5 liter per minuut. Na hoeveel minuten zit er in beide evenveel?", ["4", "vier"],
+        r"\(24 - 3t = 18 - 1{,}5t\) geeft \(1{,}5t = 6\) en \(t = 4\). Dan zit er in beide \(12\) liter."),
+    volgorde(r"Zet de stappen om \(2(x - 3) + 4 > 3x - 1\) op te lossen in de juiste volgorde.",
+             [r"\(2x - 6 + 4 > 3x - 1\)", r"\(2x - 2 > 3x - 1\)", r"\(-x > 1\)", r"\(x < -1\)"],
+             r"Haakjes weg, samenvoegen, de onbekenden naar één kant en tot slot delen door \(-1\) met omgekeerd teken."),
+    inv(r"Los op: \(0{,}5x - 1{,}5 = 2\). Een getal.", ["7", "zeven"], r"\(0{,}5x = 3{,}5\), dus \(x = 7\)."),
+    mk(r"Welke vergelijking heeft als oplossing \(x = -2\)?",
+       [r"\(3x + 6 = 0\)", r"\(3x - 6 = 0\)", r"\(x + 2 = 4\)", r"\(\frac{x}{2} = -4\)"], 0,
+       r"\(3 \cdot (-2) + 6 = 0\). Vul in om te controleren."),
+    keuze(r"Een vergelijking \(a \cdot x = b\) met \(a = 0\) en \(b \neq 0\) heeft [[*geen|één|oneindig veel]] oplossingen.",
+          r"Dan staat er \(0 = b\), en dat is vals."),
+    open_(r"Los op en noteer de oplossingen als interval: \(\frac{x + 1}{2} \leq x - 3\). Controleer met een getal.",
+          r"Maal \(2\): \(x + 1 \leq 2x - 6\), dus \(7 \leq x\). \(V = \left[7, +\infty\right[\). Controle met \(x = 9\): \(5 \leq 6\) klopt."),
+]

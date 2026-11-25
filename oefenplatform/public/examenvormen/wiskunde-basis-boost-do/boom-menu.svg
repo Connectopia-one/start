@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#fffdf7"/>
+<circle cx="90" cy="330" r="9" fill="#2f4a22"/>
+<line x1="99.0" y1="330.0" x2="275.0" y2="180.0" stroke="#2f4a22" stroke-width="3"/>
+<text x="179.0" y="241.0" font-size="20" text-anchor="middle" fill="#7a4b8c" font-weight="bold"></text>
+<line x1="385.0" y1="180.0" x2="645.0" y2="90.0" stroke="#2f4a22" stroke-width="3"/>
+<text x="507.0" y="121.0" font-size="20" text-anchor="middle" fill="#7a4b8c" font-weight="bold"></text>
+<line x1="385.0" y1="180.0" x2="645.0" y2="180.0" stroke="#2f4a22" stroke-width="3"/>
+<text x="507.0" y="210.0" font-size="20" text-anchor="middle" fill="#7a4b8c" font-weight="bold"></text>
+<line x1="385.0" y1="180.0" x2="645.0" y2="270.0" stroke="#2f4a22" stroke-width="3"/>
+<text x="507.0" y="255.0" font-size="20" text-anchor="middle" fill="#7a4b8c" font-weight="bold"></text>
+<line x1="99.0" y1="330.0" x2="275.0" y2="480.0" stroke="#2f4a22" stroke-width="3"/>
+<text x="179.0" y="435.0" font-size="20" text-anchor="middle" fill="#7a4b8c" font-weight="bold"></text>
+<line x1="385.0" y1="480.0" x2="645.0" y2="390.0" stroke="#2f4a22" stroke-width="3"/>
+<text x="507.0" y="421.0" font-size="20" text-anchor="middle" fill="#7a4b8c" font-weight="bold"></text>
+<line x1="385.0" y1="480.0" x2="645.0" y2="480.0" stroke="#2f4a22" stroke-width="3"/>
+<text x="507.0" y="510.0" font-size="20" text-anchor="middle" fill="#7a4b8c" font-weight="bold"></text>
+<line x1="385.0" y1="480.0" x2="645.0" y2="570.0" stroke="#2f4a22" stroke-width="3"/>
+<text x="507.0" y="555.0" font-size="20" text-anchor="middle" fill="#7a4b8c" font-weight="bold"></text>
+<rect x="275.0" y="158.0" width="110.0" height="44.0" rx="12" fill="#eef3e6" stroke="#2f4a22" stroke-width="2"/><text x="330.0" y="187.0" font-size="19" text-anchor="middle" fill="#24331b" font-weight="bold">soep</text>
+<rect x="645.0" y="68.0" width="110.0" height="44.0" rx="12" fill="#eef3e6" stroke="#2f4a22" stroke-width="2"/><text x="700.0" y="97.0" font-size="19" text-anchor="middle" fill="#24331b" font-weight="bold">vis</text>
+<rect x="645.0" y="158.0" width="110.0" height="44.0" rx="12" fill="#eef3e6" stroke="#2f4a22" stroke-width="2"/><text x="700.0" y="187.0" font-size="19" text-anchor="middle" fill="#24331b" font-weight="bold">vlees</text>
+<rect x="645.0" y="248.0" width="110.0" height="44.0" rx="12" fill="#eef3e6" stroke="#2f4a22" stroke-width="2"/><text x="700.0" y="277.0" font-size="19" text-anchor="middle" fill="#24331b" font-weight="bold">veggie</text>
+<rect x="275.0" y="458.0" width="110.0" height="44.0" rx="12" fill="#eef3e6" stroke="#2f4a22" stroke-width="2"/><text x="330.0" y="487.0" font-size="19" text-anchor="middle" fill="#24331b" font-weight="bold">salade</text>
+<rect x="645.0" y="368.0" width="110.0" height="44.0" rx="12" fill="#eef3e6" stroke="#2f4a22" stroke-width="2"/><text x="700.0" y="397.0" font-size="19" text-anchor="middle" fill="#24331b" font-weight="bold">vis</text>
+<rect x="645.0" y="458.0" width="110.0" height="44.0" rx="12" fill="#eef3e6" stroke="#2f4a22" stroke-width="2"/><text x="700.0" y="487.0" font-size="19" text-anchor="middle" fill="#24331b" font-weight="bold">vlees</text>
+<rect x="645.0" y="548.0" width="110.0" height="44.0" rx="12" fill="#eef3e6" stroke="#2f4a22" stroke-width="2"/><text x="700.0" y="577.0" font-size="19" text-anchor="middle" fill="#24331b" font-weight="bold">veggie</text>
+<text x="500.0" y="30.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">Een menu: eerst een voorgerecht, dan een hoofdgerecht</text>
+</svg>
