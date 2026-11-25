@@ -1,0 +1,550 @@
+{
+  "hoofdstukken": [
+    {
+      "titel": "Uitdaging — alles door elkaar",
+      "niveau": "boost-dubbele-finaliteit",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "Bekijk de doorsnede van het oog. Klik op het deel waar het licht het eerst op valt.",
+          "afbeelding_url": "/examenvormen/gzw-boost-df-uitdaging/oog-doorsnede.svg",
+          "zones": [
+            [
+              26.0,
+              33.1,
+              11.0,
+              38.7
+            ]
+          ],
+          "uitleg": "Het licht valt eerst op het hoornvlies, de doorzichtige bolling vooraan (3)."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het deel dat de lichtstralen bundelt, zodat er een scherp beeld ontstaat.",
+          "afbeelding_url": "/examenvormen/gzw-boost-df-uitdaging/oog-doorsnede.svg",
+          "zones": [
+            [
+              42.5,
+              30.6,
+              6.5,
+              38.7
+            ]
+          ],
+          "uitleg": "De lens (2) breekt de lichtstralen en zorgt voor een scherp beeld op het netvlies."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het deel waar de staafjes en de kegeltjes zitten.",
+          "afbeelding_url": "/examenvormen/gzw-boost-df-uitdaging/oog-doorsnede.svg",
+          "zones": [
+            [
+              61.0,
+              22.6,
+              15.0,
+              64.5
+            ]
+          ],
+          "uitleg": "Staafjes en kegeltjes zijn de lichtgevoelige cellen in het netvlies (1), achteraan in het oog."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het deel dat de impulsen van het oog naar de hersenen brengt.",
+          "afbeelding_url": "/examenvormen/gzw-boost-df-uitdaging/oog-doorsnede.svg",
+          "zones": [
+            [
+              76.4,
+              40.3,
+              20.0,
+              19.4
+            ]
+          ],
+          "uitleg": "De oogzenuw (4) voert de impulsen van het netvlies naar de hersenen."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Deel 5 is de [[*iris|lens|oogzenuw]]. De opening ertussen heet de [[*pupil|papil]]. In het donker wordt die opening [[*groter|kleiner]].",
+          "uitleg": "De iris regelt hoeveel licht er binnenkomt via de pupil. In het donker gaat de pupil wijder open.",
+          "afbeelding_url": "/examenvormen/gzw-boost-df-uitdaging/oog-doorsnede.svg"
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Bekijk de zes situaties. Klik op de situatie waarbij je meteen 112 belt.",
+          "afbeelding_url": "/examenvormen/gzw-boost-df-uitdaging/zes-situaties.svg",
+          "zones": [
+            [
+              2,
+              40.8,
+              96,
+              13.7
+            ]
+          ],
+          "uitleg": "Iemand die in elkaar zakt en niet normaal ademt, heeft dringend hulp nodig: bel 112 en start de reanimatie."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de situatie waarin je 1733 belt en niet 112.",
+          "afbeelding_url": "/examenvormen/gzw-boost-df-uitdaging/zes-situaties.svg",
+          "zones": [
+            [
+              2,
+              54.5,
+              96,
+              13.7
+            ]
+          ],
+          "uitleg": "1733 is de huisarts of de huisartsenwachtpost, voor klachten die geen 112 vragen."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de situatie met kruisbesmetting.",
+          "afbeelding_url": "/examenvormen/gzw-boost-df-uitdaging/zes-situaties.svg",
+          "zones": [
+            [
+              2,
+              27.1,
+              96,
+              13.7
+            ]
+          ],
+          "uitleg": "Bij kruisbesmetting gaan kiemen van rauw voedsel over naar ander voedsel, hier via de snijplank."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de situatie met secundaire preventie.",
+          "afbeelding_url": "/examenvormen/gzw-boost-df-uitdaging/zes-situaties.svg",
+          "zones": [
+            [
+              2,
+              13.4,
+              96,
+              13.7
+            ]
+          ],
+          "uitleg": "Een bevolkingsonderzoek spoort een ziekte vroeg op. Dat is secundaire preventie."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Bij situatie 6 [[*koel|verwarm|masseer]] je de enkel. Bij situatie 5 lees je het etiket en draag je zo nodig [[*handschoenen|een schort zonder mouwen]].",
+          "uitleg": "Een verstuiking koel je om zwelling en pijn te beperken. Een gevarenpictogram zegt dat je je moet beschermen.",
+          "afbeelding_url": "/examenvormen/gzw-boost-df-uitdaging/zes-situaties.svg"
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet de stappen van een reflex in de juiste volgorde.",
+          "opties": [
+            "Een receptor vangt de prikkel op.",
+            "Een sensibele zenuw brengt de impuls naar het ruggenmerg.",
+            "In het ruggenmerg gaat de impuls naar een motorische zenuw.",
+            "De spier trekt samen."
+          ],
+          "uitleg": "Bij een reflex loopt de impuls via de reflexboog: receptor, sensibele zenuw, ruggenmerg, motorische zenuw, effector."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over het zenuwstelsel?",
+          "rijen": [
+            "Het ruggenmerg hoort bij het centraal zenuwstelsel.",
+            "In de synaps springt de impuls rechtstreeks over.",
+            "Een reflex gebeurt onbewust.",
+            "De kleine hersenen regelen het evenwicht."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            true
+          ],
+          "uitleg": "In de synaps brengt een stof de boodschap over naar de volgende cel. Een reflex verloopt zonder dat je erover nadenkt."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel het zintuig aan zijn receptoren.",
+          "paren": [
+            [
+              "huid",
+              "tast-, druk-, warmte- en pijnreceptoren"
+            ],
+            [
+              "tong",
+              "smaakknoppen in de papillen"
+            ],
+            [
+              "oor",
+              "het orgaan van Corti in het slakkenhuis"
+            ]
+          ],
+          "extra": [
+            "staafjes en kegeltjes"
+          ],
+          "uitleg": "Elk zintuig heeft eigen receptoren. Staafjes en kegeltjes zitten in het oog."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Boven hoeveel decibel kan lang luisteren je gehoor beschadigen? Een getal.",
+          "antwoord": [
+            "80"
+          ],
+          "uitleg": "Boven tachtig decibel kan lang luisteren je gehoor beschadigen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Willekeurig of onwillekeurig spierweefsel?",
+          "rijen": [
+            "skeletspieren",
+            "glad spierweefsel in de darmen",
+            "de hartspier"
+          ],
+          "antwoord": [
+            0,
+            1,
+            1
+          ],
+          "uitleg": "Skeletspieren stuur je zelf. Glad spierweefsel en de hartspier werken vanzelf.",
+          "kolommen": [
+            "willekeurig",
+            "onwillekeurig"
+          ]
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Als je je arm buigt, trekt de [[*biceps|triceps]] samen. Twee botten worden met elkaar verbonden door [[*ligamenten|pezen]].",
+          "uitleg": "De biceps buigt de arm, de triceps strekt hem. Pezen verbinden een spier met een bot, ligamenten een bot met een bot."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Waar hoort dit in het ICF?",
+          "kolommen": [
+            "lichaam",
+            "doen",
+            "samen",
+            "externe factoren"
+          ],
+          "items": [
+            [
+              "zijn longen werken minder goed",
+              "lichaam"
+            ],
+            [
+              "hij kan zich zelf aankleden",
+              "doen"
+            ],
+            [
+              "hij speelt mee in de voetbalploeg",
+              "samen"
+            ],
+            [
+              "de school heeft een lift",
+              "externe factoren"
+            ]
+          ],
+          "uitleg": "Lichaam gaat over de werking van de organen, doen over wat iemand zelf doet, samen over meedoen. De omgeving hoort bij de externe factoren."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over de patronen van Gordon?",
+          "rijen": [
+            "Gordon onderscheidt elf patronen.",
+            "De patronen hangen met elkaar samen.",
+            "Gordon gebruik je om een medische diagnose te stellen."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Met de elf patronen leer je iemand kennen en kijk je naar het geheel. Een diagnose stelt de arts."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel de soort preventie aan een voorbeeld.",
+          "paren": [
+            [
+              "primaire preventie",
+              "een vaccinatie tegen mazelen"
+            ],
+            [
+              "secundaire preventie",
+              "een bevolkingsonderzoek naar kanker"
+            ],
+            [
+              "tertiaire preventie",
+              "een hartpatiënt helpen om herval te voorkomen"
+            ]
+          ],
+          "extra": [
+            "een ziekenwagen bellen"
+          ],
+          "uitleg": "Primair voorkomt ziekte, secundair spoort ze vroeg op, tertiair beperkt de gevolgen."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "AED staat voor automatische externe [[*defibrillator|dokter|diagnose]]. Bij een brandwonde koel je met lauw [[*water|ijs]].",
+          "uitleg": "Een AED geeft een schok bij een hartstilstand. Een brandwonde koel je met lauw stromend water, nooit met ijs."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Eiwitten en vetten zijn er twee. Hoeveel soorten voedingsstoffen zijn er in totaal? Een getal.",
+          "antwoord": [
+            "7"
+          ],
+          "uitleg": "Eiwitten, vetten, koolhydraten, vitaminen, mineralen, voedingsvezels en water: zeven."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Is dit een voedingsmiddel of een voedingsstof?",
+          "kolommen": [
+            "voedingsmiddel",
+            "voedingsstof"
+          ],
+          "items": [
+            [
+              "een appel",
+              "voedingsmiddel"
+            ],
+            [
+              "eiwitten",
+              "voedingsstof"
+            ],
+            [
+              "een boterham",
+              "voedingsmiddel"
+            ],
+            [
+              "vitaminen",
+              "voedingsstof"
+            ]
+          ],
+          "uitleg": "Een voedingsmiddel is wat je eet. Het bevat meerdere voedingsstoffen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een jongere drinkt bij elke maaltijd frisdrank. Hoe pas je dat het best aan?",
+          "opties": [
+            "Water drinken in plaats van frisdrank",
+            "Een extra glas frisdrank bij het ontbijt nemen",
+            "Een groter glas frisdrank, maar alleen 's avonds",
+            "De frisdrank vervangen door een zakje chips"
+          ],
+          "antwoord": 0,
+          "uitleg": "Frisdrank levert lege calorieën. Water is de beste dorstlesser."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een oudere vrouw kan niet meer alleen naar de winkel, maar een buurvrouw gaat samen met haar. Wat is die buurvrouw in het ICF?",
+          "opties": [
+            "Een externe factor die het functioneren helpt",
+            "Een persoonlijke factor van de persoon zelf",
+            "Een deel van de gezondheidstoestand, bij lichaam",
+            "Een stoornis in het onderdeel doen van het ICF"
+          ],
+          "antwoord": 0,
+          "uitleg": "Mensen en dingen rond iemand zijn externe factoren. Ze kunnen helpen of hinderen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over het oor?",
+          "rijen": [
+            "Het orgaan van Corti zit in het slakkenhuis.",
+            "De buis van Eustachius verbindt het middenoor met de keel.",
+            "Geluidssterkte meet je in hertz."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false
+          ],
+          "uitleg": "In het slakkenhuis zetten de zintuigcellen trillingen om in impulsen. Geluidssterkte meet je in decibel."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel de tafeltaak aan de juiste plaats.",
+          "paren": [
+            [
+              "de vork",
+              "links van het bord"
+            ],
+            [
+              "het mes, met de snijkant naar het bord",
+              "rechts van het bord"
+            ],
+            [
+              "het dessertbestek",
+              "boven het bord"
+            ]
+          ],
+          "extra": [
+            "onder het bord"
+          ],
+          "uitleg": "Vork links, mes rechts met de snijkant naar het bord, dessertbestek boven het bord."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel tussendoortjes horen bij een gezond dagmenu? Antwoord met 'twee à drie' of een getal.",
+          "antwoord": [
+            "twee à drie",
+            "twee a drie",
+            "2 à 3",
+            "2 a 3",
+            "twee of drie",
+            "2",
+            "3"
+          ],
+          "uitleg": "Een dagmenu heeft drie hoofdmaaltijden en twee à drie tussendoortjes."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Bij interieurzorg werk je van [[droog]] naar nat. De werkvolgorde is opruimen, schoonmaken en [[nazorg]].",
+          "extra": [
+            "warm",
+            "ontsmetten"
+          ],
+          "uitleg": "Eerst droog werken (stof) en dan nat. Nazorg sluit de werkvolgorde af."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Primaire preventie komt [[*voor|nadat]] de ziekte er is. Iemand die gezonde voeding en beweging stimuleert, doet aan [[*gezondheidsbevordering|tertiaire preventie]].",
+          "uitleg": "Primaire preventie voorkomt ziekte. Gezondheidsbevordering helpt mensen gezonder te leven."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over bewaren?",
+          "rijen": [
+            "Na de TGT-datum gooi je het product weg.",
+            "Na de THT-datum kijk en ruik je eerst.",
+            "Ontdooid vlees mag je opnieuw invriezen.",
+            "Je ontdooit vlees het veiligst in de koelkast."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "TGT is te gebruiken tot: daarna niet meer eten. THT is ten minste houdbaar tot. Ontdooid vlees vries je niet opnieuw in."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een schimmel op confituur mag je er [[*niet|gewoon]] afscheppen. Restjes van gisteren bewaar je in een [[*afgesloten doos|open schaal]].",
+          "uitleg": "Schimmeldraden zitten dieper dan je ziet. Een afgesloten doos houdt kiemen buiten en geur binnen."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Je krijgt een nieuwe opdracht in de zorg en werkt volgens OVUR. Zet de vier stappen in de juiste volgorde.",
+          "opties": [
+            "oriënteren",
+            "voorbereiden",
+            "uitvoeren",
+            "reflecteren"
+          ],
+          "uitleg": "Je oriënteert je eerst, bereidt voor, voert uit en blikt tot slot terug."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Bij de Sinner-cirkel werken chemie, [[temperatuur]], tijd en de [[mechanische handeling]] samen. Minder chemie vul je aan met meer tijd, warmte of wrijving.",
+          "extra": [
+            "kleur",
+            "geur"
+          ],
+          "uitleg": "De vier factoren van de Sinner-cirkel kan je tegen elkaar inruilen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over veilig schoonmaken?",
+          "rijen": [
+            "Bleekwater meng je niet met een ander product.",
+            "Ontsmetten doe je nadat je hebt schoongemaakt.",
+            "Je werkt met een sterk product best met het raam dicht."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Bleekwater met een ander product kan giftige dampen geven. Je ontsmet een proper oppervlak. Met een sterk product zet je het raam open."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In de badkamer groeit schimmel op de muur. Wat helpt het meest?",
+          "opties": [
+            "Na het douchen kort en krachtig verluchten",
+            "De deur van de badkamer altijd goed dicht laten",
+            "Alleen in de zomer het raam eens openzetten",
+            "De verwarming in de badkamer helemaal uitzetten"
+          ],
+          "antwoord": 0,
+          "uitleg": "Schimmel groeit op een muur die vochtig blijft. Door kort en krachtig te verluchten, gaat de vochtige lucht naar buiten."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet de stappen van de was in de juiste volgorde.",
+          "opties": [
+            "verzamelen",
+            "sorteren",
+            "controleren",
+            "wassen",
+            "drogen"
+          ],
+          "uitleg": "Je verzamelt en sorteert de was, controleert zakken, ritsen en vlekken, en wast en droogt daarna. Kastklaar maken en strijken komen als laatste."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een doorstreept symbool op het onderhoudsetiket betekent dat de behandeling [[*niet mag|verplicht is]]. Een overladen trommel wast [[*minder goed|beter]].",
+          "uitleg": "Doorstreept betekent: niet doen. In een te volle trommel kan het wasgoed niet goed bewegen."
+        },
+        {
+          "casus": "Noor (16) voelt zich al weken moe. Ze slaapt slecht door haar gsm in bed, slaat het ontbijt over en eet 's middags vaak chips en een frisdrank. Ze sport niet meer sinds ze van school veranderde, en heeft er nog geen nieuwe vrienden.",
+          "vragen": [
+            {
+              "type": "sorteren",
+              "vraag": "Onder welk patroon van Gordon valt dit?",
+              "kolommen": [
+                "slaap en rust",
+                "voeding",
+                "activiteiten",
+                "rol en relatie"
+              ],
+              "items": [
+                [
+                  "slecht slapen door de gsm",
+                  "slaap en rust"
+                ],
+                [
+                  "ontbijt overslaan",
+                  "voeding"
+                ],
+                [
+                  "niet meer sporten",
+                  "activiteiten"
+                ],
+                [
+                  "nog geen nieuwe vrienden",
+                  "rol en relatie"
+                ]
+              ],
+              "uitleg": "Elke klacht hoort bij een patroon, en de patronen hangen samen: slecht slapen maakt moe en minder actief."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Welk advies past het best bij Noors voeding?",
+              "opties": [
+                "Elke dag ontbijten en chips vervangen door fruit",
+                "Een extra frisdrank om energie te krijgen 's middags",
+                "Het middageten overslaan en 's avonds meer eten",
+                "Alleen nog eiwitten eten en geen koolhydraten meer"
+              ],
+              "antwoord": 0,
+              "uitleg": "Het ontbijt levert een flink deel van de energie voor de dag. Fruit is een gezond tussendoortje, chips en frisdrank leveren lege calorieën."
+            }
+          ]
+        },
+        {
+          "type": "open",
+          "vraag": "Geef Noor twee concrete tips voor een betere slaaphygiëne en leg bij elke tip uit waarom die helpt.",
+          "antwoord": "Tip 1: leg je gsm een uur voor het slapen weg, buiten je slaapkamer. Het licht en de berichten houden je wakker. Tip 2: ga elke dag op hetzelfde uur slapen en verlucht je kamer. Een vast ritme en frisse, koele lucht helpen je sneller in slaap te vallen.",
+          "uitleg": "Een goed antwoord geeft twee haalbare tips (bv. schermen weg, vast slaapritme, frisse kamer) met telkens een reden."
+        }
+      ]
+    }
+  ]
+}
