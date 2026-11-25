@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Een piramide in vijf lagen</text>
+<path d="M 80 560 L 920 560 L 840 464 L 160 464 Z" fill="#a8c98a" stroke="#24331b" stroke-width="3"/>
+<circle cx="500" cy="512.0" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="500" y="519.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<path d="M 160 464 L 840 464 L 760 368 L 240 368 Z" fill="#e8c547" stroke="#24331b" stroke-width="3"/>
+<circle cx="500" cy="416.0" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="500" y="423.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<path d="M 240 368 L 760 368 L 680 272 L 320 272 Z" fill="#a8c98a" stroke="#24331b" stroke-width="3"/>
+<circle cx="500" cy="320.0" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="500" y="327.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<path d="M 320 272 L 680 272 L 600 176 L 400 176 Z" fill="#e8c547" stroke="#24331b" stroke-width="3"/>
+<circle cx="500" cy="224.0" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="500" y="231.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">D</text>
+<path d="M 400 176 L 600 176 L 520 80 L 480 80 Z" fill="#a8c98a" stroke="#24331b" stroke-width="3"/>
+<circle cx="500" cy="128.0" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="500" y="135.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">E</text>
+</svg>

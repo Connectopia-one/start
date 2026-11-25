@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Drie hoeken van een driehoek</text>
+<path d="M 500 175 L 190 520 L 810 520 Z" fill="#a8c98a" stroke="#24331b" stroke-width="4"/>
+<rect x="350" y="90" width="300" height="90" rx="12" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="510" y="128" font-size="19" text-anchor="middle" fill="#24331b">Je vrienden staan klaar</text>
+<text x="510" y="154" font-size="19" text-anchor="middle" fill="#24331b">als het even tegenzit.</text>
+<circle cx="352" cy="92" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="352" y="99" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<rect x="40" y="500" width="300" height="90" rx="12" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="200" y="538" font-size="19" text-anchor="middle" fill="#24331b">Je slaapt goed en voelt</text>
+<text x="200" y="564" font-size="19" text-anchor="middle" fill="#24331b">je fit en rustig.</text>
+<circle cx="42" cy="502" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="42" y="509" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<rect x="660" y="500" width="300" height="90" rx="12" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="820" y="538" font-size="19" text-anchor="middle" fill="#24331b">Je durft te zeggen wat</text>
+<text x="820" y="564" font-size="19" text-anchor="middle" fill="#24331b">je denkt, zonder masker.</text>
+<circle cx="662" cy="502" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="662" y="509" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+</svg>

@@ -41,6 +41,12 @@ export const nieuwTekst = {
 export const updates: Update[] = [
   {
     datum: "24 november 2026",
+    titel: "Pittige hoofdstukken ontwikkeling en pedagogisch handelen in Boost dubbele finaliteit",
+    tekst:
+      "Ontwikkeling en pedagogisch handelen in Boost dubbele finaliteit heeft nu bij elk van de 16 onderwerpen een pittig hoofdstuk van 30 vragen, in examenvorm: van welzijn en gezondheid over de ontwikkeling van baby tot oudere, Piaget, Kohlberg en Erikson, tot observeren, rapporteren, communiceren, feedback, spel en activiteiten voor volwassenen. Er zijn ook klikvragen op prenten, zoals een groeicurve, een speelhoek, een observatieverslag en een dagzaal vol valrisico's.",
+  },
+  {
+    datum: "24 november 2026",
     titel: "Pittige hoofdstukken Nederlands in Boost dubbele finaliteit",
     tekst:
       "Nederlands in Boost dubbele finaliteit heeft nu bij elk van de 12 onderwerpen een pittig hoofdstuk van 30 vragen, in examenvorm: van communicatie, samenhang en bronnen wegen over feit en mening, stelling en argument, woordsoorten, werkwoorden, zinsdelen en spelling tot betekenis, verhalen lezen en goed communiceren. Er zijn ook klikvragen op prenten, zoals een boekenplank met fictie en non-fictie, een presentatie voor de klas en een mail voor een vakantiejob.",

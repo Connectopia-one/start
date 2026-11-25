@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Groeicurve van Noah</text>
+<line x1="110.0" y1="90" x2="110.0" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="110.0" y="564" font-size="15" text-anchor="middle" fill="#24331b">0</text>
+<line x1="201.1111111111111" y1="90" x2="201.1111111111111" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="201.1111111111111" y="564" font-size="15" text-anchor="middle" fill="#24331b">2</text>
+<line x1="292.2222222222222" y1="90" x2="292.2222222222222" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="292.2222222222222" y="564" font-size="15" text-anchor="middle" fill="#24331b">4</text>
+<line x1="383.3333333333333" y1="90" x2="383.3333333333333" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="383.3333333333333" y="564" font-size="15" text-anchor="middle" fill="#24331b">6</text>
+<line x1="474.4444444444444" y1="90" x2="474.4444444444444" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="474.4444444444444" y="564" font-size="15" text-anchor="middle" fill="#24331b">8</text>
+<line x1="565.5555555555557" y1="90" x2="565.5555555555557" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="565.5555555555557" y="564" font-size="15" text-anchor="middle" fill="#24331b">10</text>
+<line x1="656.6666666666666" y1="90" x2="656.6666666666666" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="656.6666666666666" y="564" font-size="15" text-anchor="middle" fill="#24331b">12</text>
+<line x1="747.7777777777778" y1="90" x2="747.7777777777778" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="747.7777777777778" y="564" font-size="15" text-anchor="middle" fill="#24331b">14</text>
+<line x1="838.8888888888888" y1="90" x2="838.8888888888888" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="838.8888888888888" y="564" font-size="15" text-anchor="middle" fill="#24331b">16</text>
+<line x1="930.0" y1="90" x2="930.0" y2="540" stroke="#e4e1d6" stroke-width="1"/>
+<text x="930.0" y="564" font-size="15" text-anchor="middle" fill="#24331b">18</text>
+<line x1="110" y1="540.0" x2="930" y2="540.0" stroke="#e4e1d6" stroke-width="1"/>
+<text x="100" y="545.0" font-size="15" text-anchor="end" fill="#24331b">40</text>
+<line x1="110" y1="483.75" x2="930" y2="483.75" stroke="#e4e1d6" stroke-width="1"/>
+<text x="100" y="488.75" font-size="15" text-anchor="end" fill="#24331b">60</text>
+<line x1="110" y1="427.5" x2="930" y2="427.5" stroke="#e4e1d6" stroke-width="1"/>
+<text x="100" y="432.5" font-size="15" text-anchor="end" fill="#24331b">80</text>
+<line x1="110" y1="371.25" x2="930" y2="371.25" stroke="#e4e1d6" stroke-width="1"/>
+<text x="100" y="376.25" font-size="15" text-anchor="end" fill="#24331b">100</text>
+<line x1="110" y1="315.0" x2="930" y2="315.0" stroke="#e4e1d6" stroke-width="1"/>
+<text x="100" y="320.0" font-size="15" text-anchor="end" fill="#24331b">120</text>
+<line x1="110" y1="258.75" x2="930" y2="258.75" stroke="#e4e1d6" stroke-width="1"/>
+<text x="100" y="263.75" font-size="15" text-anchor="end" fill="#24331b">140</text>
+<line x1="110" y1="202.5" x2="930" y2="202.5" stroke="#e4e1d6" stroke-width="1"/>
+<text x="100" y="207.5" font-size="15" text-anchor="end" fill="#24331b">160</text>
+<line x1="110" y1="146.25" x2="930" y2="146.25" stroke="#e4e1d6" stroke-width="1"/>
+<text x="100" y="151.25" font-size="15" text-anchor="end" fill="#24331b">180</text>
+<line x1="110" y1="90.0" x2="930" y2="90.0" stroke="#e4e1d6" stroke-width="1"/>
+<text x="100" y="95.0" font-size="15" text-anchor="end" fill="#24331b">200</text>
+<line x1="110" y1="540" x2="940" y2="540" stroke="#24331b" stroke-width="2"/>
+<line x1="110" y1="540" x2="110" y2="80" stroke="#24331b" stroke-width="2"/>
+<text x="935" y="530" font-size="16" text-anchor="end" fill="#24331b">leeftijd (jaar)</text>
+<text x="102" y="70" font-size="16" text-anchor="start" fill="#24331b">lengte (cm)</text>
+<path d="M 110 501 L 156 428 L 201 391 L 292 340 L 383 301 L 474 264 L 566 233 L 657 197 L 748 155 L 839 129 L 930 121" fill="none" stroke="#d9d4c4" stroke-width="3"/>
+<text x="938.0" y="125.9375" font-size="15" text-anchor="start" fill="#24331b">P97</text>
+<path d="M 110 512 L 156 442 L 201 408 L 292 363 L 383 326 L 474 292 L 566 264 L 657 233 L 748 194 L 839 166 L 930 155" fill="none" stroke="#9a9480" stroke-width="3"/>
+<text x="938.0" y="159.6875" font-size="15" text-anchor="start" fill="#24331b">P50</text>
+<path d="M 110 523 L 156 456 L 201 425 L 292 385 L 383 352 L 474 321 L 566 295 L 657 270 L 748 233 L 839 202 L 930 188" fill="none" stroke="#d9d4c4" stroke-width="3"/>
+<text x="938.0" y="193.4375" font-size="15" text-anchor="start" fill="#24331b">P3</text>
+<path d="M 110 512 L 156 442 L 201 408 L 292 363 L 383 326 L 474 292 L 520 290 L 566 284 L 611 276 L 657 262 L 702 233 L 748 200 L 793 180 L 839 169" fill="none" stroke="#3b6fa0" stroke-width="4"/>
+<circle cx="110.0" cy="511.875" r="5" fill="#3b6fa0" stroke="#3b6fa0" stroke-width="1"/>
+<circle cx="155.55555555555554" cy="441.5625" r="5" fill="#3b6fa0" stroke="#3b6fa0" stroke-width="1"/>
+<circle cx="201.1111111111111" cy="407.8125" r="5" fill="#3b6fa0" stroke="#3b6fa0" stroke-width="1"/>
+<circle cx="292.2222222222222" cy="362.8125" r="5" fill="#3b6fa0" stroke="#3b6fa0" stroke-width="1"/>
+<circle cx="383.3333333333333" cy="326.25" r="5" fill="#3b6fa0" stroke="#3b6fa0" stroke-width="1"/>
+<circle cx="474.4444444444444" cy="292.5" r="5" fill="#3b6fa0" stroke="#3b6fa0" stroke-width="1"/>
+<circle cx="520.0" cy="289.6875" r="5" fill="#3b6fa0" stroke="#3b6fa0" stroke-width="1"/>
+<circle cx="565.5555555555557" cy="284.0625" r="5" fill="#3b6fa0" stroke="#3b6fa0" stroke-width="1"/>
+<circle cx="611.1111111111111" cy="275.625" r="5" fill="#3b6fa0" stroke="#3b6fa0" stroke-width="1"/>
+<circle cx="656.6666666666666" cy="261.5625" r="5" fill="#3b6fa0" stroke="#3b6fa0" stroke-width="1"/>
+<circle cx="702.2222222222222" cy="233.4375" r="5" fill="#3b6fa0" stroke="#3b6fa0" stroke-width="1"/>
+<circle cx="747.7777777777778" cy="199.6875" r="5" fill="#3b6fa0" stroke="#3b6fa0" stroke-width="1"/>
+<circle cx="793.3333333333334" cy="180.0" r="5" fill="#3b6fa0" stroke="#3b6fa0" stroke-width="1"/>
+<circle cx="838.8888888888888" cy="168.75" r="5" fill="#3b6fa0" stroke="#3b6fa0" stroke-width="1"/>
+<circle cx="252.22222222222217" cy="332.8125" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="252.22222222222217" y="339.8125" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<circle cx="595.5555555555557" cy="319.0625" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="595.5555555555557" y="326.0625" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<circle cx="680.0" cy="206.5625" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="680.0" y="213.5625" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+</svg>

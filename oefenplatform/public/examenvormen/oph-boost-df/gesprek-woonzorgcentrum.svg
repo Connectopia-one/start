@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Stagiair Sara praat met mevrouw Peeters</text>
+<rect x="120" y="70" width="760" height="80" rx="26" fill="#ffffff" stroke="#3b6fa0" stroke-width="3"/>
+<path d="M 150 150 L 135 170 L 180 150" fill="#ffffff" stroke="#3b6fa0" stroke-width="3"/>
+<circle cx="170" cy="110" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="170" y="117" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<text x="210" y="118" font-size="22" text-anchor="start" fill="#24331b">Goedemiddag, mevrouw Peeters.</text>
+<rect x="120" y="178" width="760" height="80" rx="26" fill="#ffffff" stroke="#3b6fa0" stroke-width="3"/>
+<path d="M 150 258 L 135 278 L 180 258" fill="#ffffff" stroke="#3b6fa0" stroke-width="3"/>
+<circle cx="170" cy="218" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="170" y="225" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<text x="210" y="226" font-size="22" text-anchor="start" fill="#24331b">Ik ben Sara, ik loop hier deze maand stage.</text>
+<rect x="120" y="286" width="760" height="80" rx="26" fill="#ffffff" stroke="#3b6fa0" stroke-width="3"/>
+<path d="M 150 366 L 135 386 L 180 366" fill="#ffffff" stroke="#3b6fa0" stroke-width="3"/>
+<circle cx="170" cy="326" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="170" y="333" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<text x="210" y="334" font-size="22" text-anchor="start" fill="#24331b">Als ik het goed begrijp, mist u vooral uw tuin?</text>
+<rect x="120" y="394" width="760" height="80" rx="26" fill="#ffffff" stroke="#3b6fa0" stroke-width="3"/>
+<path d="M 150 474 L 135 494 L 180 474" fill="#ffffff" stroke="#3b6fa0" stroke-width="3"/>
+<circle cx="170" cy="434" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="170" y="441" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">D</text>
+<text x="210" y="442" font-size="22" text-anchor="start" fill="#24331b">Hoe voelde u zich toen u hier pas aankwam?</text>
+<rect x="120" y="502" width="760" height="80" rx="26" fill="#ffffff" stroke="#3b6fa0" stroke-width="3"/>
+<path d="M 150 582 L 135 602 L 180 582" fill="#ffffff" stroke="#3b6fa0" stroke-width="3"/>
+<circle cx="170" cy="542" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="170" y="549" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">E</text>
+<text x="210" y="550" font-size="22" text-anchor="start" fill="#24331b">Dank u voor het babbeltje. Tot morgen!</text>
+</svg>

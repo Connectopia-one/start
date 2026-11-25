@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Vier treden van het denken</text>
+<rect x="90" y="450" width="210" height="110" rx="6" fill="#a8c98a" stroke="#24331b" stroke-width="3"/>
+<circle cx="195" cy="490" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="195" y="497" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<rect x="300" y="340" width="210" height="220" rx="6" fill="#a8c98a" stroke="#24331b" stroke-width="3"/>
+<circle cx="405" cy="380" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="405" y="387" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<rect x="510" y="230" width="210" height="330" rx="6" fill="#a8c98a" stroke="#24331b" stroke-width="3"/>
+<circle cx="615" cy="270" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="615" y="277" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<rect x="720" y="120" width="210" height="440" rx="6" fill="#a8c98a" stroke="#24331b" stroke-width="3"/>
+<circle cx="825" cy="160" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="825" y="167" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">D</text>
+<line x1="90" y1="600" x2="930" y2="600" stroke="#24331b" stroke-width="3"/>
+<polygon points="930,600 915.3,606.2 915.3,593.8" fill="#24331b"/>
+<text x="510" y="630" font-size="18" text-anchor="middle" fill="#24331b">ouder worden</text>
+</svg>

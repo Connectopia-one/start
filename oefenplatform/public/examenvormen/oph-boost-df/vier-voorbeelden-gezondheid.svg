@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Wat speelt mee voor de gezondheid van Ann?</text>
+<circle cx="500" cy="335" r="80" fill="#e8c547" stroke="#24331b" stroke-width="3"/>
+<text x="500" y="330" font-size="18" text-anchor="middle" fill="#24331b" font-weight="bold">de gezondheid</text>
+<text x="500" y="354" font-size="18" text-anchor="middle" fill="#24331b" font-weight="bold">van Ann</text>
+<rect x="60" y="80" width="360" height="120" rx="14" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="255" y="135" font-size="20" text-anchor="middle" fill="#24331b">Haar ouders hadden allebei</text>
+<text x="255" y="165" font-size="20" text-anchor="middle" fill="#24331b">een hoge bloeddruk.</text>
+<circle cx="88" cy="110" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="88" y="117" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<line x1="240" y1="200" x2="440" y2="285" stroke="#24331b" stroke-width="2"/>
+<rect x="580" y="80" width="360" height="120" rx="14" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="775" y="135" font-size="20" text-anchor="middle" fill="#24331b">Ann woont naast een</text>
+<text x="775" y="165" font-size="20" text-anchor="middle" fill="#24331b">drukke autosnelweg.</text>
+<circle cx="608" cy="110" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="608" y="117" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<line x1="760" y1="200" x2="560" y2="285" stroke="#24331b" stroke-width="2"/>
+<rect x="60" y="450" width="360" height="120" rx="14" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="255" y="505" font-size="20" text-anchor="middle" fill="#24331b">Ann rookt elke dag</text>
+<text x="255" y="535" font-size="20" text-anchor="middle" fill="#24331b">een pakje sigaretten.</text>
+<circle cx="88" cy="480" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="88" y="487" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<line x1="240" y1="450" x2="440" y2="385" stroke="#24331b" stroke-width="2"/>
+<rect x="580" y="450" width="360" height="120" rx="14" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="775" y="505" font-size="20" text-anchor="middle" fill="#24331b">De dichtstbijzijnde huisarts</text>
+<text x="775" y="535" font-size="20" text-anchor="middle" fill="#24331b">is dertig kilometer ver.</text>
+<circle cx="608" cy="480" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="608" y="487" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">D</text>
+<line x1="760" y1="450" x2="560" y2="385" stroke="#24331b" stroke-width="2"/>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Twee begeleiders tillen een doos</text>
+<circle cx="170" cy="240" r="30" fill="#f3dcc2" stroke="#24331b" stroke-width="3"/>
+<path d="M 195 255 Q 260 250 300 330" fill="none" stroke="#24331b" stroke-width="8"/>
+<line x1="300" y1="330" x2="290" y2="540" stroke="#24331b" stroke-width="8"/>
+<line x1="300" y1="330" x2="330" y2="540" stroke="#24331b" stroke-width="8"/>
+<line x1="200" y1="265" x2="150" y2="450" stroke="#24331b" stroke-width="6"/>
+<rect x="60" y="450" width="130" height="90" rx="4" fill="#b5651d" stroke="#24331b" stroke-width="3"/>
+<circle cx="700" cy="230" r="30" fill="#f3dcc2" stroke="#24331b" stroke-width="3"/>
+<line x1="700" y1="260" x2="700" y2="400" stroke="#24331b" stroke-width="8"/>
+<line x1="700" y1="400" x2="640" y2="460" stroke="#24331b" stroke-width="8"/>
+<line x1="640" y1="460" x2="680" y2="540" stroke="#24331b" stroke-width="8"/>
+<line x1="700" y1="400" x2="770" y2="460" stroke="#24331b" stroke-width="8"/>
+<line x1="770" y1="460" x2="740" y2="540" stroke="#24331b" stroke-width="8"/>
+<line x1="700" y1="290" x2="740" y2="380" stroke="#24331b" stroke-width="6"/>
+<rect x="715" y="360" width="120" height="90" rx="4" fill="#b5651d" stroke="#24331b" stroke-width="3"/>
+<line x1="40" y1="545" x2="960" y2="545" stroke="#24331b" stroke-width="3"/>
+<circle cx="110" cy="120" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="110" y="127" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<circle cx="620" cy="120" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="620" y="127" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+</svg>
