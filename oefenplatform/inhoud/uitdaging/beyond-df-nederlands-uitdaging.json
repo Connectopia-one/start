@@ -1,0 +1,608 @@
+{
+  "hoofdstukken": [
+    {
+      "titel": "Uitdaging — alles door elkaar",
+      "niveau": "beyond-dubbele-finaliteit",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "Lees de lezersbrief. Klik op de zin met een drogreden: de schrijver valt de persoon aan in plaats van zijn argument.",
+          "afbeelding_url": "/examenvormen/nederlands-beyond-df-uitdaging/lezersbrief-zwembad.svg",
+          "zones": [
+            [
+              2,
+              68.2,
+              96,
+              13.7
+            ]
+          ],
+          "uitleg": "Of de schepen kan zwemmen, zegt niets over de vraag of het zwembad open moet blijven. Dat is een persoonlijke aanval (op de man spelen)."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de zin met het standpunt van de schrijver.",
+          "afbeelding_url": "/examenvormen/nederlands-beyond-df-uitdaging/lezersbrief-zwembad.svg",
+          "zones": [
+            [
+              2,
+              81.8,
+              96,
+              13.7
+            ]
+          ],
+          "uitleg": "Met 'daarom' trekt de schrijver zijn conclusie: het zwembad moet openblijven."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de zin die een controleerbaar feit geeft over de kosten.",
+          "afbeelding_url": "/examenvormen/nederlands-beyond-df-uitdaging/lezersbrief-zwembad.svg",
+          "zones": [
+            [
+              2,
+              27.1,
+              96,
+              13.7
+            ]
+          ],
+          "uitleg": "Een bedrag van 400 000 euro per jaar kan je nakijken in de begroting. Het is een feit, geen mening."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welke functie heeft het signaalwoord?",
+          "rijen": [
+            "Toch (zin 3)",
+            "want (zin 3)",
+            "Bovendien (zin 4)",
+            "Daarom (zin 6)"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "uitleg": "Toch zet iets tegenover het vorige, want geeft een reden, bovendien voegt een argument toe en daarom leidt een besluit in.",
+          "kolommen": [
+            "Tegenstelling",
+            "Reden",
+            "Opsomming",
+            "Conclusie"
+          ],
+          "afbeelding_url": "/examenvormen/nederlands-beyond-df-uitdaging/lezersbrief-zwembad.svg"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het doel van deze lezersbrief?",
+          "opties": [
+            "Overtuigen",
+            "Informeren",
+            "Vermaken",
+            "Instrueren"
+          ],
+          "antwoord": 0,
+          "uitleg": "De schrijver geeft argumenten en vraagt de gemeenteraad iets te doen: hij wil overtuigen.",
+          "afbeelding_url": "/examenvormen/nederlands-beyond-df-uitdaging/lezersbrief-zwembad.svg"
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Lees het fragment. Klik op de zin met een flashback.",
+          "afbeelding_url": "/examenvormen/nederlands-beyond-df-uitdaging/verhaal-noor.svg",
+          "zones": [
+            [
+              2,
+              68.2,
+              96,
+              13.7
+            ]
+          ],
+          "uitleg": "'Twee jaar eerder' springt terug in de tijd: een terugblik of flashback."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de zin die de ruimte (de omgeving) beschrijft.",
+          "afbeelding_url": "/examenvormen/nederlands-beyond-df-uitdaging/verhaal-noor.svg",
+          "zones": [
+            [
+              2,
+              54.5,
+              96,
+              13.7
+            ]
+          ],
+          "uitleg": "Het stormweer en de buigende bomen schetsen de omgeving en versterken de onrustige sfeer."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de zin met directe rede.",
+          "afbeelding_url": "/examenvormen/nederlands-beyond-df-uitdaging/verhaal-noor.svg",
+          "zones": [
+            [
+              2,
+              40.8,
+              96,
+              13.7
+            ]
+          ],
+          "uitleg": "De letterlijke woorden van Amir staan tussen aanhalingstekens."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Het verhaal wordt verteld door een [[*hij- of zij-verteller|ik-verteller]] die de gevoelens van [[*Noor|Amir]] kent. Dat zie je in zin [[*2|3|4]].",
+          "uitleg": "De verteller spreekt over 'ze' en kent wat Noor voelt: haar hart bonst. Dat is een personale hij-verteller.",
+          "afbeelding_url": "/examenvormen/nederlands-beyond-df-uitdaging/verhaal-noor.svg"
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welk teksttype is dit?",
+          "rijen": [
+            "Een handleiding bij een wasmachine",
+            "Een nieuwsbericht over een brand",
+            "Een opiniestuk over het klimaat",
+            "Een kortverhaal"
+          ],
+          "antwoord": [
+            1,
+            0,
+            2,
+            3
+          ],
+          "uitleg": "Prescriptieve teksten geven instructies, informatieve teksten feiten, argumentatieve teksten meningen met argumenten en narratieve teksten vertellen een verhaal.",
+          "kolommen": [
+            "Informatief",
+            "Prescriptief",
+            "Argumentatief",
+            "Narratief"
+          ]
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Is dit een teken dat een bron betrouwbaar is of eerder onbetrouwbaar?",
+          "kolommen": [
+            "Betrouwbaar",
+            "Onbetrouwbaar"
+          ],
+          "items": [
+            [
+              "De auteur en de datum staan erbij.",
+              "Betrouwbaar"
+            ],
+            [
+              "De titel schreeuwt in hoofdletters: SCHANDAAL!!!",
+              "Onbetrouwbaar"
+            ],
+            [
+              "Andere nieuwsmedia brengen hetzelfde.",
+              "Betrouwbaar"
+            ],
+            [
+              "De website is onbekend en heeft geen contactgegevens.",
+              "Onbetrouwbaar"
+            ]
+          ],
+          "uitleg": "Check de auteur, de datum, de bron en of andere betrouwbare media hetzelfde melden."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Als een krant schrijft 'betogers' en een andere 'relschoppers' over dezelfde groep, dan is dat [[*framing|een hyperbool|een verkleinwoord]]: de woordkeuze stuurt hoe je erover denkt.",
+          "uitleg": "Framing is een bewuste keuze van woorden of beelden die een bepaald beeld oproept."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel het element van het communicatiemodel aan het voorbeeld. Een leerkracht stuurt een mail naar de ouders.",
+          "paren": [
+            [
+              "zender",
+              "de leerkracht"
+            ],
+            [
+              "ontvanger",
+              "de ouders"
+            ],
+            [
+              "kanaal",
+              "de mail"
+            ],
+            [
+              "ruis",
+              "de mail belandt in de spam"
+            ]
+          ],
+          "extra": [
+            "de schooldirecteur"
+          ],
+          "uitleg": "De zender stuurt een boodschap via een kanaal naar een ontvanger. Ruis verstoort de communicatie."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet de alinea's van een betoog in de juiste volgorde.",
+          "opties": [
+            "Inleiding met het onderwerp",
+            "Standpunt",
+            "Argument 1",
+            "Argument 2",
+            "Slot met conclusie"
+          ],
+          "uitleg": "Een betoog leidt het onderwerp in, geeft het standpunt, onderbouwt het met argumenten en sluit af met een conclusie."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Waar verwijst elk verwijswoord naar? « Mijn zus kocht een fiets bij een winkel in Gent. Ze is er erg blij mee, want die winkel gaf haar korting. »",
+          "rijen": [
+            "Ze",
+            "er (mee)",
+            "die winkel"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Verwijswoorden verwijzen terug naar iets wat eerder in de tekst staat.",
+          "kolommen": [
+            "mijn zus",
+            "de fiets",
+            "een winkel in Gent"
+          ]
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een tekst die eerst een probleem beschrijft, daarna de oorzaken en ten slotte oplossingen, heeft een [[*probleemstructuur|verhaalstructuur|chronologische structuur]].",
+          "uitleg": "De vaste tekststructuren helpen je een tekst sneller te begrijpen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is deze uitspraak een feit of een mening?",
+          "rijen": [
+            "België telt meer dan elf miljoen inwoners.",
+            "Ons land heeft de lekkerste frieten ter wereld.",
+            "Water kookt op zeeniveau bij 100 °C.",
+            "Huiswerk is volledig zinloos."
+          ],
+          "antwoord": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "uitleg": "Een feit kan je controleren. Een mening is een persoonlijk oordeel.",
+          "kolommen": [
+            "Feit",
+            "Mening"
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke drogreden zit in: « Iedereen in de klas heeft die schoenen, dus ze moeten wel goed zijn »?",
+          "opties": [
+            "Beroep op de massa",
+            "Persoonlijke aanval",
+            "Cirkelredenering",
+            "Vals dilemma"
+          ],
+          "antwoord": 0,
+          "uitleg": "Dat veel mensen iets doen of vinden, bewijst niet dat het juist of goed is."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Als je een tekst snel doorloopt om te zien waarover hij gaat, dan [[*oriënteer|bestudeer|memoriseer]] je. Als je één bepaalde info zoekt, zoals een datum, dan [[*scan|bestudeer]] je.",
+          "uitleg": "Oriënterend lezen geeft een eerste indruk. Zoekend lezen of scannen richt zich op één stukje informatie."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Verbaal of non-verbaal?",
+          "rijen": [
+            "Een glimlach",
+            "Een geschreven uitnodiging",
+            "Armen kruisen tijdens een gesprek"
+          ],
+          "antwoord": [
+            1,
+            0,
+            1
+          ],
+          "uitleg": "Verbale communicatie gebruikt woorden. Non-verbale communicatie gebeurt met gezicht, houding en gebaren.",
+          "kolommen": [
+            "Verbaal",
+            "Non-verbaal"
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welk literair begrip past?",
+          "rijen": [
+            "Het hoogste punt van spanning in een verhaal",
+            "De boodschap of het centrale idee",
+            "Een verhaal dat begint midden in de actie"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "De climax is het spannendste moment, het thema is waar het verhaal eigenlijk over gaat, en in medias res betekent midden in de zaak.",
+          "kolommen": [
+            "Climax",
+            "Thema",
+            "In medias res"
+          ]
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Fictie of non-fictie?",
+          "kolommen": [
+            "Fictie",
+            "Non-fictie"
+          ],
+          "items": [
+            [
+              "een sciencefictionroman",
+              "Fictie"
+            ],
+            [
+              "een biografie van een sporter",
+              "Non-fictie"
+            ],
+            [
+              "een sprookje",
+              "Fictie"
+            ],
+            [
+              "een reportage in de krant",
+              "Non-fictie"
+            ]
+          ],
+          "uitleg": "Fictie is verzonnen, non-fictie gaat over echte mensen en gebeurtenissen."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Op een sollicitatiegesprek gebruik je best [[*standaardtaal|tussentaal|een dialect]] en spreek je de werkgever aan met [[*u|jij]].",
+          "uitleg": "In een formele situatie past standaardtaal en de beleefde vorm."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat bedoelen we met een stereotype in taal en beeldvorming?",
+          "opties": [
+            "Een vereenvoudigd beeld van een hele groep mensen.",
+            "Een uitdrukking die je enkel in je eigen dialect gebruikt.",
+            "Een woord dat uit een andere taal ontleend is.",
+            "Een zin die zowel een feit als een mening bevat."
+          ],
+          "antwoord": 0,
+          "uitleg": "Een stereotype schept één beeld voor een hele groep, zonder rekening te houden met de verschillen tussen mensen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Juist gespeld of niet?",
+          "rijen": [
+            "Hij antwoordt meteen.",
+            "Wordt jij morgen vijftien?",
+            "De beinvloede kiezers",
+            "Gisteren fietste ik naar school."
+          ],
+          "antwoord": [
+            true,
+            false,
+            false,
+            true
+          ],
+          "uitleg": "Antwoordt: stam + t. Bij inversie met jij valt de t weg: word jij. Beïnvloed krijgt een trema. Fietste: 't kofschip."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Ik [[*vind|vindt]] het boek spannend. Gisteren [[*verhuisden|verhuisde]] we naar Gent. Het [[*geschopte|geschopde]] blik lag op straat.",
+          "uitleg": "Ik + stam zonder t. Bij we in het verleden komt er -den of -ten: verhuisden. Schoppen heeft stam schop: 't kofschip geeft -te."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Waar komt het leesteken?",
+          "rijen": [
+            "Kom je mee naar de film ___",
+            "Ik heb drie huisdieren ___ een hond, een kat en een konijn.",
+            "Wat een prachtige dag ___"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Een vraag krijgt een vraagteken, een dubbelpunt kondigt een opsomming aan, en een uitroep krijgt een uitroepteken.",
+          "kolommen": [
+            "?",
+            ":",
+            "!"
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welke woordsoort heeft elk woord uit « De snelle hond rent vrolijk naar huis »?",
+          "rijen": [
+            "snelle",
+            "rent",
+            "vrolijk",
+            "naar"
+          ],
+          "antwoord": [
+            1,
+            0,
+            2,
+            3
+          ],
+          "uitleg": "Snelle zegt iets over de hond, rent is de handeling, vrolijk zegt hoe hij rent, naar is een voorzetsel.",
+          "kolommen": [
+            "Werkwoord",
+            "Bijvoeglijk naamwoord",
+            "Bijwoord",
+            "Voorzetsel"
+          ]
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Is het woord een samenstelling of een afleiding?",
+          "kolommen": [
+            "Samenstelling",
+            "Afleiding"
+          ],
+          "items": [
+            [
+              "voetbalveld",
+              "Samenstelling"
+            ],
+            [
+              "vriendelijk",
+              "Afleiding"
+            ],
+            [
+              "zonnebril",
+              "Samenstelling"
+            ],
+            [
+              "onduidelijk",
+              "Afleiding"
+            ]
+          ],
+          "uitleg": "Een samenstelling bestaat uit twee zelfstandige woorden. Een afleiding heeft een voor- of achtervoegsel zoals -lijk of on-."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welk zinsdeel is elk deel uit « Mijn broer gaf zijn vriendin gisteren een boek »?",
+          "rijen": [
+            "Mijn broer",
+            "een boek",
+            "zijn vriendin",
+            "gisteren"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "uitleg": "Wie gaf? Mijn broer. Wat gaf hij? Een boek. Aan wie? Zijn vriendin. Wanneer? Gisteren.",
+          "kolommen": [
+            "Onderwerp",
+            "Lijdend voorwerp",
+            "Meewerkend voorwerp",
+            "Bijwoordelijke bepaling"
+          ]
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Wat is het voltooid deelwoord van 'verhuizen'?",
+          "antwoord": [
+            "verhuisd"
+          ],
+          "uitleg": "Stam verhuis, eindigt op s: niet in 't kofschip, dus -d: verhuisd."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel het begrip aan het voorbeeld.",
+          "paren": [
+            [
+              "synoniem",
+              "beginnen en starten"
+            ],
+            [
+              "antoniem",
+              "warm en koud"
+            ],
+            [
+              "homoniem",
+              "bank (zitbank of geldbank)"
+            ]
+          ],
+          "extra": [
+            "fiets en fietsen"
+          ],
+          "uitleg": "Synoniemen betekenen hetzelfde, antoniemen het tegengestelde, homoniemen klinken hetzelfde maar hebben een andere betekenis."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "« Dat kost een fortuin! » voor een broodje van 5 euro is een [[*hyperbool|eufemisme|metafoor]]. « Hij is heengegaan » voor 'hij is gestorven' is een [[*eufemisme|hyperbool|cliché]].",
+          "uitleg": "Een hyperbool overdrijft, een eufemisme verzacht iets."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke slotzin past in een formele mail aan een bedrijf?",
+          "opties": [
+            "Alvast bedankt voor uw reactie.",
+            "Laters, en doe de groetjes!",
+            "Oké, ciao, tot de volgende!",
+            "Stuur maar snel iets terug, hè."
+          ],
+          "antwoord": 0,
+          "uitleg": "In een formele mail blijf je beleefd en zakelijk en gebruik je u."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is dit een goede gewoonte in een gesprek?",
+          "rijen": [
+            "Laten uitspreken",
+            "Doorvragen als iets niet duidelijk is",
+            "Ondertussen op je gsm kijken",
+            "Samenvatten wat de ander zei"
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Actief luisteren betekent aandacht geven, laten uitspreken, doorvragen en samenvatten."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "In « De leerlingen die te laat kwamen, moesten nablijven » is « die te laat kwamen » een [[*betrekkelijke bijzin|hoofdzin|bijwoordelijke bijzin]]. De persoonsvorm van de hoofdzin is [[*moesten|kwamen|nablijven]].",
+          "uitleg": "De bijzin begint met het betrekkelijk voornaamwoord die en zegt iets over de leerlingen. In de hoofdzin is moesten de persoonsvorm."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Hoort deze aanspreking of groet bij een formeel of een informeel register?",
+          "rijen": [
+            "Geachte mevrouw",
+            "Hoi allemaal!",
+            "Met vriendelijke groeten",
+            "Tot straks, xx"
+          ],
+          "antwoord": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "uitleg": "Het register past zich aan aan de situatie en de ontvanger.",
+          "kolommen": [
+            "Formeel",
+            "Informeel"
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke titel past het best bij de lezersbrief over het zwembad?",
+          "opties": [
+            "Houd ons zwembad open",
+            "Zwemmen is gezond voor iedereen",
+            "De schepen en zijn zwemles",
+            "Hoe duur is water in België?"
+          ],
+          "antwoord": 0,
+          "uitleg": "De titel vat het standpunt samen: het zwembad moet openblijven."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Welk woord in de zin « De eigenwijze kat sprong behendig op de tafel » is een bijwoord?",
+          "antwoord": [
+            "behendig"
+          ],
+          "uitleg": "Behendig zegt hoe de kat sprong: het hoort bij het werkwoord en is een bijwoord."
+        },
+        {
+          "type": "open",
+          "vraag": "Schrijf een korte lezersbrief (5 à 7 zinnen) aan je gemeente. Je wil dat er een veilig fietspad komt naar je school. Geef je standpunt, twee argumenten en een slotzin.",
+          "antwoord": "Geacht college van burgemeester en schepenen, Ik vraag u om een veilig fietspad aan te leggen naar onze school. Elke dag fietsen meer dan tweehonderd leerlingen langs een drukke weg zonder fietspad. Er gebeurden het voorbije jaar al drie ongevallen. Bovendien zullen meer ouders hun kinderen met de fiets laten gaan als het veilig is, wat minder autoverkeer geeft. Ik hoop dat u dit voorstel ernstig wil bekijken. Met vriendelijke groeten, Lies Janssens",
+          "uitleg": "Een goed antwoord heeft een formele aanspreking, een duidelijk standpunt, minstens twee argumenten met signaalwoorden, een slotzin en een beleefde afsluiting."
+        }
+      ]
+    }
+  ]
+}
