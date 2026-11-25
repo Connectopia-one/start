@@ -1,0 +1,24 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1000 620' width='1000' height='620'>
+<rect width='1000' height='620' fill='#ffffff'/>
+<text x='40' y='46' font-family='Nunito, Arial, sans-serif' font-size='28' font-weight='800' fill='#2f4a22'>Twee kerkgevels (schema)</text>
+<path d='M80,540 v-260 l170,-110 l170,110 v260 z' fill='#efe6d2' stroke='#2b2b2b' stroke-width='4'/>
+<path d='M130,360 v-50.0 a20.0,20.0 0 0 1 40,0 v50.0 z' fill='#6d7f99' stroke='#2b2b2b' stroke-width='3'/>
+<path d='M230,360 v-50.0 a20.0,20.0 0 0 1 40,0 v50.0 z' fill='#6d7f99' stroke='#2b2b2b' stroke-width='3'/>
+<path d='M330,360 v-50.0 a20.0,20.0 0 0 1 40,0 v50.0 z' fill='#6d7f99' stroke='#2b2b2b' stroke-width='3'/>
+<path d='M205,540 v-85.0 a45.0,45.0 0 0 1 90,0 v85.0 z' fill='#7a5a3a' stroke='#2b2b2b' stroke-width='3'/>
+<text x='250' y='590' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='30' font-weight='800' fill='#2f4a22'>A</text>
+<path d='M580,540 v-330 l170,-130 l170,130 v330 z' fill='#efe6d2' stroke='#2b2b2b' stroke-width='4'/>
+<circle cx='750' cy='250' r='48' fill='#6d7f99' stroke='#2b2b2b' stroke-width='3'/>
+<line x1='750' y1='250' x2='798.0' y2='250.0' stroke='#2b2b2b' stroke-width='2'/>
+<line x1='750' y1='250' x2='783.9' y2='283.9' stroke='#2b2b2b' stroke-width='2'/>
+<line x1='750' y1='250' x2='750.0' y2='298.0' stroke='#2b2b2b' stroke-width='2'/>
+<line x1='750' y1='250' x2='716.1' y2='283.9' stroke='#2b2b2b' stroke-width='2'/>
+<line x1='750' y1='250' x2='702.0' y2='250.0' stroke='#2b2b2b' stroke-width='2'/>
+<line x1='750' y1='250' x2='716.1' y2='216.1' stroke='#2b2b2b' stroke-width='2'/>
+<line x1='750' y1='250' x2='750.0' y2='202.0' stroke='#2b2b2b' stroke-width='2'/>
+<line x1='750' y1='250' x2='783.9' y2='216.1' stroke='#2b2b2b' stroke-width='2'/>
+<path d='M615,470 V354.6 A40,40 0 0 1 635.0,320 A40,40 0 0 1 655,354.6 V470 z' fill='#6d7f99' stroke='#2b2b2b' stroke-width='3'/>
+<path d='M845,470 V354.6 A40,40 0 0 1 865.0,320 A40,40 0 0 1 885,354.6 V470 z' fill='#6d7f99' stroke='#2b2b2b' stroke-width='3'/>
+<path d='M705,540 V427.9 A90,90 0 0 1 750.0,350 A90,90 0 0 1 795,427.9 V540 z' fill='#7a5a3a' stroke='#2b2b2b' stroke-width='3'/>
+<text x='750' y='590' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='30' font-weight='800' fill='#2f4a22'>B</text>
+</svg>

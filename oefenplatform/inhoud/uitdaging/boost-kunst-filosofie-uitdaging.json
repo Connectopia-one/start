@@ -1,0 +1,597 @@
+{
+  "hoofdstukken": [
+    {
+      "titel": "Uitdaging — alles door elkaar",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "Bekijk de twee kerkgevels. Klik op de gevel in gotische stijl.",
+          "afbeelding_url": "/examenvormen/kunst-filosofie-boost-uitdaging/twee-kerkgevels.svg",
+          "zones": [
+            [
+              57.0,
+              11.0,
+              36.0,
+              85.0
+            ]
+          ],
+          "uitleg": "Gevel B is hoog en slank, met spitsbogen en grote vensters. Dat zijn kenmerken van de gotiek."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de gevel in romaanse stijl.",
+          "afbeelding_url": "/examenvormen/kunst-filosofie-boost-uitdaging/twee-kerkgevels.svg",
+          "zones": [
+            [
+              7.0,
+              26.0,
+              36.0,
+              70.0
+            ]
+          ],
+          "uitleg": "Gevel A is laag en zwaar, met kleine vensters en rondbogen: typisch romaans."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Gevel A heeft [[*rondbogen|spitsbogen]] en kleine vensters, omdat de [[*dikke muren|dunne glaswanden]] het gewicht moeten dragen. De stijl van gevel B kwam [[*na|voor]] die van gevel A.",
+          "uitleg": "Een romaanse kerk heeft dikke muren en kleine vensters. De gotiek volgde op de romaanse stijl en kon met spitsbogen en steunberen hoger bouwen.",
+          "afbeelding_url": "/examenvormen/kunst-filosofie-boost-uitdaging/twee-kerkgevels.svg"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom kon de bouwmeester van gevel B hoger bouwen en grotere vensters maken?",
+          "opties": [
+            "Spitsbogen leiden het gewicht steiler naar beneden.",
+            "Hij gebruikte enkel licht hout in plaats van zware steen.",
+            "De kerk was in het echt veel kleiner dan ze op de prent lijkt.",
+            "Grote vensters maken een muur vanzelf veel sterker en steviger."
+          ],
+          "antwoord": 0,
+          "uitleg": "De spitsboog duwt minder zijwaarts dan een rondboog. Samen met steunberen kon de gotiek zo hoger bouwen met meer glas.",
+          "afbeelding_url": "/examenvormen/kunst-filosofie-boost-uitdaging/twee-kerkgevels.svg"
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Lees de zes vragen. Klik op de filosofische vraag over de mens.",
+          "afbeelding_url": "/examenvormen/kunst-filosofie-boost-uitdaging/zes-vragen.svg",
+          "zones": [
+            [
+              2,
+              40.8,
+              96,
+              13.7
+            ]
+          ],
+          "uitleg": "'Wat maakt een mens tot een mens?' is fundamenteel, open en universeel, en je kan ze niet met een meting beslechten. Ze hoort bij de antropologie."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de vraag die bij de ethiek hoort.",
+          "afbeelding_url": "/examenvormen/kunst-filosofie-boost-uitdaging/zes-vragen.svg",
+          "zones": [
+            [
+              2,
+              68.2,
+              96,
+              13.7
+            ]
+          ],
+          "uitleg": "'Is het ooit goed om te liegen?' gaat over goed handelen. Dat is het domein van de ethiek."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welk soort vraag is dit?",
+          "rijen": [
+            "Vraag 1: Hoeveel inwoners telt België vandaag?",
+            "Vraag 2: Vind jij voetbal leuker dan tennis?",
+            "Vraag 4: In welk jaar schilderde Rubens zijn bekendste werk?",
+            "Vraag 6: Welke pizza bestel jij het liefst?"
+          ],
+          "antwoord": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "uitleg": "Een weetvraag heeft één juist antwoord dat je kan opzoeken. Een meningsvraag vraagt naar wat iemand persoonlijk vindt.",
+          "kolommen": [
+            "Weetvraag",
+            "Meningsvraag",
+            "Filosofische vraag"
+          ],
+          "afbeelding_url": "/examenvormen/kunst-filosofie-boost-uitdaging/zes-vragen.svg"
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Koken hoort bij cultuur in de [[*brede|enge]] betekenis. Een uiting die mensen maakten maar geen kunst is, heet een [[*cultuuruiting|kunstuiting]].",
+          "uitleg": "In de brede betekenis is cultuur alles wat mensen maken. Elke kunstuiting is een cultuuruiting, maar niet omgekeerd."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Een urinoir in een museum is vooral kunst door zijn [[originaliteit]]. Een duur schilderij scoort hoog op [[economische waarde]].",
+          "extra": [
+            "vakmanschap",
+            "esthetische waarde"
+          ],
+          "uitleg": "Bij een urinoir telt het nieuwe idee, niet het handwerk of de schoonheid. De prijs hoort bij de economische waarde."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Bij welke kunstvorm hoort dit?",
+          "rijen": [
+            "Een roman",
+            "Een bronzen ruiterbeeld op een plein",
+            "Een balletvoorstelling",
+            "Een stoel van een ontwerper"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "uitleg": "De vijf kunstvormen zijn architectuur en design, audiovisuele kunsten, beeldende kunsten, literatuur en podiumkunsten.",
+          "kolommen": [
+            "Literatuur",
+            "Beeldende kunsten",
+            "Podiumkunsten",
+            "Architectuur en design"
+          ]
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet deze periodes en stromingen in de juiste volgorde, van oud naar recent.",
+          "opties": [
+            "prehistorie",
+            "Egyptische kunst",
+            "Griekse kunst",
+            "romaanse kunst",
+            "gotiek",
+            "renaissance"
+          ],
+          "uitleg": "Van de grotschilderingen via Egypte en de klassieke oudheid naar de middeleeuwen (romaans, dan gotiek) en de renaissance."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet deze stromingen in de juiste volgorde, van oud naar recent.",
+          "opties": [
+            "barok",
+            "realisme",
+            "impressionisme",
+            "popart"
+          ],
+          "uitleg": "De barok volgt op de renaissance. Realisme en impressionisme horen bij de moderne tijd, popart bij de hedendaagse tijd."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel de stroming aan haar kenmerk.",
+          "paren": [
+            [
+              "renaissance",
+              "rust, symmetrie en perspectief"
+            ],
+            [
+              "barok",
+              "beweging, contrast en sterke emotie"
+            ],
+            [
+              "impressionisme",
+              "de indruk van één ogenblik"
+            ],
+            [
+              "popart",
+              "beelden uit reclame en strips"
+            ]
+          ],
+          "extra": [
+            "piramides als koningsgraf"
+          ],
+          "uitleg": "Piramides horen bij de Egyptische kunst, niet bij een van deze stromingen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over de Egyptische kunst?",
+          "rijen": [
+            "Een mens wordt vaak met het hoofd en de benen van opzij getoond.",
+            "De piramides waren koningsgraven.",
+            "Egyptische kunst is jonger dan de renaissance."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Egyptische kunst volgt vaste regels en is duizenden jaren ouder dan de renaissance."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welke functie heeft deze kunstuiting vooral?",
+          "rijen": [
+            "Een standbeeld dat de macht van een koning toont",
+            "Een strip die een avontuur vertelt",
+            "Een behangpatroon met bloemetjes",
+            "Een spotprent die onrecht aanklaagt"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "uitleg": "Een kunstuiting kan zeven functies hebben: decoratief, economisch, filosofisch, maatschappijkritisch, narratief, ontspannend en politiek.",
+          "kolommen": [
+            "Politiek",
+            "Narratief",
+            "Decoratief",
+            "Maatschappijkritisch"
+          ]
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Bij de context vraag je onder meer [[*wanneer en waar|hoe duur en hoe groot]] een werk gemaakt werd. Een Afrikaans masker in een Europees museum heeft zijn [[*oorspronkelijke context|vormgeving]] verloren.",
+          "uitleg": "De context is de tijd, de plaats en de persoonlijke situatie van de maker. Uit zijn omgeving gehaald, verandert de betekenis van een werk."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Rood, geel en blauw zijn de [[*primaire|secundaire]] kleuren. Een gebouw in één kleur heet [[*monochroom|symmetrisch]]. Bij [[*skeletbouw|een gotische gevel]] draagt een geraamte het gebouw in plaats van de muren.",
+          "uitleg": "Door primaire kleuren te mengen krijg je de secundaire. Skeletbouw maakt glazen wanden mogelijk."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Is dit een middel van vormgeving of een element van de inhoud?",
+          "kolommen": [
+            "Middel van vormgeving",
+            "Inhoud"
+          ],
+          "items": [
+            [
+              "kleurgebruik",
+              "Middel van vormgeving"
+            ],
+            [
+              "het onderwerp",
+              "Inhoud"
+            ],
+            [
+              "compositie",
+              "Middel van vormgeving"
+            ],
+            [
+              "de functie",
+              "Inhoud"
+            ],
+            [
+              "licht en schaduw",
+              "Middel van vormgeving"
+            ]
+          ],
+          "uitleg": "Middelen van vormgeving gaan over hoe het werk gemaakt is. Onderwerp en functie gaan over wat het toont en waarvoor het dient."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Welk soort kennis is dit?",
+          "kolommen": [
+            "Dagdagelijkse kennis",
+            "Wetenschappelijke kennis"
+          ],
+          "items": [
+            [
+              "Mijn oma zegt dat kamillethee helpt tegen buikpijn.",
+              "Dagdagelijkse kennis"
+            ],
+            [
+              "Een studie met 2 000 deelnemers meet het effect van slaap op leren.",
+              "Wetenschappelijke kennis"
+            ],
+            [
+              "Iedereen weet dat je niet moet zwemmen na het eten.",
+              "Dagdagelijkse kennis"
+            ],
+            [
+              "Een bioloog toetst met een proef hoe snel bacteriën groeien.",
+              "Wetenschappelijke kennis"
+            ]
+          ],
+          "uitleg": "Wetenschappelijke kennis komt uit methodisch onderzoek. Dagdagelijkse kennis neem je over zonder ze te controleren."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel de natuurfilosoof aan zijn idee.",
+          "paren": [
+            [
+              "Thales",
+              "water is de oerstof"
+            ],
+            [
+              "Heraclitus",
+              "alles stroomt"
+            ],
+            [
+              "Parmenides",
+              "verandering is schijn"
+            ],
+            [
+              "Pythagoras",
+              "alles is getal"
+            ]
+          ],
+          "extra": [
+            "de ziel is de vorm van het lichaam"
+          ],
+          "uitleg": "Dat de ziel de vorm van het lichaam is, zei Aristoteles, die na de natuurfilosofen leefde."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een mythe verklaart de wereld met [[*goden|de natuur zelf]]. De eerste filosofen zochten een verklaring [[*in de natuur|bij de goden]].",
+          "uitleg": "De stap van mythe naar filosofie is de stap van bovennatuurlijke verhalen naar redeneringen over de natuur."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welk kenmerk van een filosofische vraag wordt hier beschreven?",
+          "rijen": [
+            "Ze geldt voor iedereen, overal.",
+            "Er is geen definitief eindantwoord.",
+            "Ze gaat over de grond van de dingen."
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Een filosofische vraag is fundamenteel, meerduidig, niet-empirisch op te lossen, open en universeel.",
+          "kolommen": [
+            "Universeel",
+            "Open",
+            "Fundamenteel"
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Bij welk filosofisch domein hoort deze vraag?",
+          "rijen": [
+            "Wat maakt een kunstwerk mooi?",
+            "Bestaat er een leven na de dood?",
+            "Mag je een dier opofferen voor een medicijn?",
+            "Kunnen we iets met zekerheid weten?"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "uitleg": "Esthetica gaat over schoonheid, metafysica over wat er bestaat voorbij het waarneembare, ethiek over goed handelen en kennisleer over waarheid en kennis.",
+          "kolommen": [
+            "Esthetica",
+            "Metafysica",
+            "Ethiek",
+            "Kennisleer"
+          ]
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet de drie stappen van de AUB-methode in de juiste volgorde.",
+          "opties": [
+            "argument",
+            "uitleg",
+            "bijvoorbeeld"
+          ],
+          "uitleg": "Eerst noem je je argument, dan leg je het uit en tot slot maak je het concreet met een voorbeeld."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Iemand zegt: 'Dat is gewoon zo.' Er ontbreekt een [[*argument met uitleg|weetvraag]]. Bij stap 3 van het stappenplan voor een filosofische tekst [[*reflecteer je|lees je globaal]].",
+          "uitleg": "Een standpunt zonder argument overtuigt niet. Het stappenplan is: globaal lezen, grondig lezen, reflecteren."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel de filosoof aan zijn visie op lichaam en geest.",
+          "paren": [
+            [
+              "Plato",
+              "de ziel is onsterfelijk en zit gevangen in het lichaam"
+            ],
+            [
+              "Aristoteles",
+              "de ziel is de vorm van het lichaam"
+            ],
+            [
+              "Descartes",
+              "ik denk, dus ik ben: de geest staat los van het lichaam"
+            ]
+          ],
+          "extra": [
+            "alles stroomt"
+          ],
+          "uitleg": "'Alles stroomt' is van Heraclitus, een natuurfilosoof. Het hoort niet bij het debat over lichaam en geest."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Past deze uitspraak bij het monisme of bij het dualisme?",
+          "rijen": [
+            "Zonder lichaam kan er geen geest bestaan.",
+            "Mijn ziel leeft verder na de dood.",
+            "Denken is niets anders dan hersenactiviteit."
+          ],
+          "antwoord": [
+            0,
+            1,
+            0
+          ],
+          "uitleg": "Het monisme ziet lichaam en geest als één. Het dualisme ziet twee aparte delen die los van elkaar kunnen bestaan.",
+          "kolommen": [
+            "Monisme",
+            "Dualisme"
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Iemand zegt: 'Een dier voelt niets, het is een soort machine.' Bij wie sluit die persoon aan?",
+          "opties": [
+            "Descartes",
+            "Peter Singer",
+            "Darwin",
+            "Pythagoras"
+          ],
+          "antwoord": 0,
+          "uitleg": "Descartes zag dieren als machines zonder geest. Singer en Darwin verkleinen net de kloof tussen mens en dier."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Plichtethiek of gevolgenethiek?",
+          "kolommen": [
+            "Plichtethiek",
+            "Gevolgenethiek"
+          ],
+          "items": [
+            [
+              "Liegen blijft fout, ook als het iemand beschermt.",
+              "Plichtethiek"
+            ],
+            [
+              "Een daad is goed als ze het meeste geluk oplevert.",
+              "Gevolgenethiek"
+            ],
+            [
+              "Je mag een mens nooit louter als middel gebruiken.",
+              "Plichtethiek"
+            ],
+            [
+              "We moeten dierenleed meetellen omdat dieren ook lijden.",
+              "Gevolgenethiek"
+            ]
+          ],
+          "uitleg": "De plichtethiek (Kant) kijkt naar de regel zelf. De gevolgenethiek of het utilisme (Mill, Singer) kijkt naar het resultaat."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel de filosoof aan de ethische stroming.",
+          "paren": [
+            [
+              "Immanuel Kant",
+              "plichtethiek"
+            ],
+            [
+              "John Stuart Mill",
+              "gevolgenethiek"
+            ]
+          ],
+          "extra": [
+            "natuurfilosofie"
+          ],
+          "uitleg": "Kant is de bekendste plichtethicus. Mill verdedigde het utilisme, een vorm van gevolgenethiek."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Eerlijkheid is een [[*waarde|norm]]. 'Je mag niet spieken' is een [[*norm|waarde]]. Een keuze waarbij elke optie iets waardevols schendt, is een [[*dilemma|weetvraag]].",
+          "uitleg": "Een waarde is een doel dat je belangrijk vindt, een norm is de concrete regel die eruit volgt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Iemand zegt: 'Wat goed is, verschilt van cultuur tot cultuur.' Welke visie verdedigt die persoon?",
+          "opties": [
+            "het moreel relativisme",
+            "de plichtethiek van Kant",
+            "het dualisme van Descartes",
+            "de natuurfilosofie van Thales"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het moreel relativisme zegt dat goed en kwaad relatief zijn. Een bezwaar is dat je dan geen enkele daad nog echt kan veroordelen."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Verantwoordelijkheid veronderstelt [[*vrijheid|gehoorzaamheid]]. Een wet die roken in cafés verbiedt, laat [[*gezondheid en vrijheid|kunst en schoonheid]] botsen.",
+          "uitleg": "Je kan maar verantwoordelijk zijn als je echt kon kiezen. Bij een rookverbod botst de gezondheid van anderen met de vrijheid van de roker."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Hoort dit argument over dierenproeven bij de plichtethiek of de gevolgenethiek?",
+          "rijen": [
+            "Dierenproeven redden later veel mensenlevens.",
+            "Een dier mag je nooit gebruiken als louter middel.",
+            "Het leed van de dieren weegt zwaarder dan de winst."
+          ],
+          "antwoord": [
+            1,
+            0,
+            1
+          ],
+          "uitleg": "Wie gevolgen afweegt, redeneert als gevolgenethicus. Wie een onvoorwaardelijke regel inroept, redeneert als plichtethicus.",
+          "kolommen": [
+            "Plichtethiek",
+            "Gevolgenethiek"
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is paternalisme in het debat over risicogedrag bij jongeren?",
+          "opties": [
+            "Anderen beslissen voor je eigen bestwil.",
+            "Jongeren beslissen alles volledig zelf, altijd.",
+            "Ouders mogen hun kinderen nooit iets verbieden.",
+            "De overheid houdt zich overal helemaal buiten."
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij paternalisme beperkt iemand je keuze om je te beschermen, zoals een leeftijdsgrens voor alcohol."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom ontstond de westerse filosofie juist in Griekse havensteden zoals Milete?",
+          "opties": [
+            "Daar kwamen mensen en ideeën uit veel culturen samen.",
+            "Daar waren de goden het sterkst aanwezig in de tempels.",
+            "Daar woonden de rijkste koningen van de toenmalige wereld.",
+            "Daar verboden de priesters alle oude mythes en verhalen."
+          ],
+          "antwoord": 0,
+          "uitleg": "In een havenstad ontmoetten handelaars elkaar met verschillende verhalen. Dat zette mensen aan het denken over wat echt waar is."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Filosofie heet soms 'de moeder van de wetenschappen'. Wat bedoelt men daarmee?",
+          "opties": [
+            "Veel wetenschappen groeiden uit de filosofie.",
+            "Filosofen deden als eersten proeven in een labo.",
+            "Filosofie geeft op elke vraag één vast antwoord.",
+            "Wetenschappers moeten eerst filosofie studeren."
+          ],
+          "antwoord": 0,
+          "uitleg": "Vragen over de natuur, de mens en de samenleving begonnen in de filosofie. Later werden het aparte wetenschappen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welke kunst hoort bij welke samenleving of periode?",
+          "rijen": [
+            "Patronen en kalligrafie in plaats van mensfiguren",
+            "Tempels met zuilen en beelden van ideale lichamen",
+            "Dieren geschilderd op de wand van een grot"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Arabische kunst werkt vaak met patronen en kalligrafie. De Griekse kunst zocht de ideale schoonheid. Grotschilderingen horen bij de prehistorie.",
+          "kolommen": [
+            "Arabische kunst",
+            "Griekse kunst",
+            "Prehistorische kunst"
+          ]
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Gelijke kansen voor iedereen, los van geslacht, heet [[*gendergelijkheid|genderidentiteit]]. Wie zelf over zijn lichaam beslist, beroept zich op de waarde [[*autonomie|gehoorzaamheid]].",
+          "uitleg": "Gendergelijkheid gaat over gelijke kansen. Autonomie betekent zelfbeschikking."
+        },
+        {
+          "type": "open",
+          "vraag": "Moet de overheid energiedrankjes verbieden voor jongeren onder 16? Geef je standpunt en bouw één argument op met de AUB-methode.",
+          "antwoord": "Ik vind dat de overheid energiedrankjes mag verbieden onder 16 jaar. Argument: de drankjes schaden de gezondheid van jongeren. Uitleg: ze bevatten veel cafeïne en suiker, en een jong lichaam reageert daar sterker op met hartkloppingen en slaapproblemen. Bijvoorbeeld: een leerling die 's avonds twee blikjes drinkt, slaapt slecht en kan zich de volgende dag niet concentreren in de klas.",
+          "uitleg": "Een goed antwoord geeft een duidelijk standpunt en een volledig AUB-argument: een argument, een uitleg en een concreet voorbeeld."
+        }
+      ]
+    }
+  ]
+}
