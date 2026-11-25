@@ -1,0 +1,29 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1000 620' width='1000' height='620'>
+<rect width='1000' height='620' fill='#ffffff'/>
+<text x='40' y='44' font-family='Nunito, Arial, sans-serif' font-size='28' font-weight='800' fill='#2f4a22'>Weerkaart boven de Atlantische Oceaan en West-Europa</text>
+<ellipse cx='420' cy='340' rx='75.0' ry='60' fill='none' stroke='#9a9a9a' stroke-width='2'/>
+<text x='412' y='274' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='16' fill='#6b6b6b'>980</text>
+<ellipse cx='420' cy='340' rx='150.0' ry='120' fill='none' stroke='#9a9a9a' stroke-width='2'/>
+<text x='412' y='214' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='16' fill='#6b6b6b'>990</text>
+<ellipse cx='420' cy='340' rx='225.0' ry='180' fill='none' stroke='#9a9a9a' stroke-width='2'/>
+<text x='412' y='154' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='16' fill='#6b6b6b'>1000</text>
+<ellipse cx='420' cy='340' rx='300.0' ry='240' fill='none' stroke='#9a9a9a' stroke-width='2'/>
+<text x='412' y='94' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='16' fill='#6b6b6b'>1010</text>
+<ellipse cx='870' cy='190' rx='60.0' ry='50' fill='none' stroke='#9a9a9a' stroke-width='2'/>
+<ellipse cx='870' cy='190' rx='120.0' ry='100' fill='none' stroke='#9a9a9a' stroke-width='2'/>
+<text x='420' y='356' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='48' font-weight='800' fill='#2f6f9f'>L</text>
+<text x='870' y='206' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='48' font-weight='800' fill='#c8553d'>H</text>
+<line x1='440' y1='350' x2='700' y2='440' stroke='#c8553d' stroke-width='6'/>
+<circle cx='489.3333333333333' cy='349.0' r='12' fill='#c8553d'/>
+<circle cx='532.6666666666666' cy='364.0' r='12' fill='#c8553d'/>
+<circle cx='576.0' cy='379.0' r='12' fill='#c8553d'/>
+<circle cx='619.3333333333333' cy='394.0' r='12' fill='#c8553d'/>
+<circle cx='662.6666666666667' cy='409.0' r='12' fill='#c8553d'/>
+<line x1='410' y1='360' x2='230' y2='600' stroke='#2f6f9f' stroke-width='6'/>
+<polygon points='380.0,400.0 406.0,406.0 390.0,426.0' fill='#2f6f9f'/>
+<polygon points='350.0,440.0 376.0,446.0 360.0,466.0' fill='#2f6f9f'/>
+<polygon points='320.0,480.0 346.0,486.0 330.0,506.0' fill='#2f6f9f'/>
+<polygon points='290.0,520.0 316.0,526.0 300.0,546.0' fill='#2f6f9f'/>
+<polygon points='260.0,560.0 286.0,566.0 270.0,586.0' fill='#2f6f9f'/>
+<text x='960' y='596' text-anchor='end' font-family='Nunito, Arial, sans-serif' font-size='18' fill='#6b6b6b'>isobaren in hectopascal</text>
+</svg>
