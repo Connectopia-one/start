@@ -1,0 +1,502 @@
+{
+  "hoofdstukken": [
+    {
+      "titel": "Uitdaging — alles door elkaar",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "Lees het verhaal 'Au marché'. Klik op de zin met een plus-que-parfait.",
+          "afbeelding_url": "/examenvormen/frans-boost-uitdaging/verhaal-marche.svg",
+          "zones": [
+            [
+              2,
+              40.8,
+              96,
+              13.7
+            ]
+          ],
+          "uitleg": "'Elles avaient oublié' is een plus-que-parfait (imparfait van avoir + voltooid deelwoord). Het vergeten gebeurde vóór het kopen."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de zin die alleen de achtergrond beschrijft, in de imparfait.",
+          "afbeelding_url": "/examenvormen/frans-boost-uitdaging/verhaal-marche.svg",
+          "zones": [
+            [
+              2,
+              27.1,
+              96,
+              13.7
+            ]
+          ],
+          "uitleg": "'Il faisait beau' en 'la place était pleine' beschrijven de toestand: dat is de imparfait."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de zin met een futur simple.",
+          "afbeelding_url": "/examenvormen/frans-boost-uitdaging/verhaal-marche.svg",
+          "zones": [
+            [
+              2,
+              81.8,
+              96,
+              13.7
+            ]
+          ],
+          "uitleg": "'Léa reviendra' is de futur simple van revenir: ze zal terugkomen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Wat vertelt het verhaal over Léa? Duid aan wat klopt.",
+          "rijen": [
+            "Léa ging met haar grootmoeder naar de markt.",
+            "Het regende die zaterdag.",
+            "Een hond stal een stokbrood.",
+            "De bakker werd boos."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Het was mooi weer (il faisait beau). Iedereen lachte, ook de bakker (même le boulanger).",
+          "afbeelding_url": "/examenvormen/frans-boost-uitdaging/verhaal-marche.svg"
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "In zin 3 vervangt 'en' [[*un sac|la place|le marché]]. In zin 4 staat 'payaient' in de imparfait omdat het betalen [[*aan de gang was|plots gebeurde]] toen de hond toesloeg.",
+          "uitleg": "En vervangt een hoeveelheid of een naamwoord met un/des: elles en ont acheté un = een zak. De imparfait toont wat bezig was, de passé composé wat plots gebeurde.",
+          "afbeelding_url": "/examenvormen/frans-boost-uitdaging/verhaal-marche.svg"
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Lees de mail aan de bibliotheek. Klik op de zin waarin Emma beleefd een vraag stelt met de conditionnel.",
+          "afbeelding_url": "/examenvormen/frans-boost-uitdaging/mail-benevole.svg",
+          "zones": [
+            [
+              2,
+              54.5,
+              96,
+              13.7
+            ]
+          ],
+          "uitleg": "'Pourriez-vous …?' is de conditionnel van pouvoir: zo maak je een vraag beleefd."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de zin waarin Emma zegt wat ze wil doen.",
+          "afbeelding_url": "/examenvormen/frans-boost-uitdaging/mail-benevole.svg",
+          "zones": [
+            [
+              2,
+              40.8,
+              96,
+              13.7
+            ]
+          ],
+          "uitleg": "'Je voudrais travailler comme bénévole': Emma wil vrijwilliger worden in de bibliotheek."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom begint Emma met 'Madame, Monsieur,'?",
+          "opties": [
+            "Ze kent de naam van de ontvanger niet.",
+            "Ze schrijft een informele mail aan een vriend.",
+            "Zo begin je elke Franse mail, ook aan vrienden.",
+            "Ze schrijft aan twee mensen die ze goed kent."
+          ],
+          "antwoord": 0,
+          "uitleg": "In een formele mail aan iemand van wie je de naam niet kent, begin je met 'Madame, Monsieur,'.",
+          "afbeelding_url": "/examenvormen/frans-boost-uitdaging/mail-benevole.svg"
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Emma gebruikt in de hele mail de [[*vous|tu]]-vorm, omdat de mail [[*formeel|informeel]] is.",
+          "uitleg": "In een formele Franse mail hou je de vous-vorm aan, ook in de werkwoorden.",
+          "afbeelding_url": "/examenvormen/frans-boost-uitdaging/mail-benevole.svg"
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is deze présentvorm juist?",
+          "rijen": [
+            "vous faites",
+            "vous disez",
+            "ils vont",
+            "nous mangons"
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Faire en dire krijgen bij vous -tes: vous faites, vous dites. Bij manger blijft de e voor -ons: nous mangeons."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Zet in de bevelende vorm voor vous: (venir) avec moi ! Eén woord.",
+          "antwoord": [
+            "venez",
+            "Venez"
+          ],
+          "uitleg": "De impératif voor vous is de présentvorm zonder vous: venez."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Je vais partir betekent [[*ik ga zo meteen vertrekken|ik ben net vertrokken]]. Je viens de manger betekent [[*ik heb net gegeten|ik ga eten]].",
+          "uitleg": "Aller + infinitief is de futur proche. Venir de + infinitief is de passé récent."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Welk hulpwerkwoord krijgt dit werkwoord in de passé composé?",
+          "kolommen": [
+            "avoir",
+            "être"
+          ],
+          "items": [
+            [
+              "manger",
+              "avoir"
+            ],
+            [
+              "aller",
+              "être"
+            ],
+            [
+              "finir",
+              "avoir"
+            ],
+            [
+              "arriver",
+              "être"
+            ],
+            [
+              "prendre",
+              "avoir"
+            ],
+            [
+              "partir",
+              "être"
+            ]
+          ],
+          "uitleg": "Werkwoorden van beweging en verandering zoals aller, arriver en partir nemen être. De meeste andere nemen avoir."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt het voltooid deelwoord?",
+          "rijen": [
+            "prendre → pris",
+            "faire → fait",
+            "venir → venu",
+            "voir → voyé"
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Voir is onregelmatig: vu. Prendre, faire en venir hebben ook onregelmatige deelwoorden: pris, fait, venu."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Elles sont [[*parties|parti|partis]] à huit heures. Hier, nous [[*avons|sommes]] mangé au restaurant.",
+          "uitleg": "Bij être past het deelwoord zich aan het onderwerp aan: elles → parties. Manger neemt avoir."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Zet in de futur simple: demain, nous (finir) le travail. Eén werkwoordsvorm.",
+          "antwoord": [
+            "finirons"
+          ],
+          "uitleg": "Futur simple = infinitief + uitgang. Finir + -ons = finirons."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Si tu travailles bien, tu [[*réussiras|réussirais|réussis]] ton examen. Pour être beleefd zeg je: je [[*voudrais|veux]] un café, s'il vous plaît.",
+          "uitleg": "Een si-zin over een echte mogelijkheid: si + présent, futur in de hoofdzin. De conditionnel maakt een vraag beleefder."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin heeft terecht een subjonctif?",
+          "opties": [
+            "Il faut que tu viennes demain.",
+            "Je pense que tu viens demain.",
+            "Je sais que tu viens demain.",
+            "Il dit que tu viens demain matin."
+          ],
+          "antwoord": 0,
+          "uitleg": "Na 'il faut que' volgt de subjonctif. Na 'je pense que', 'je sais que' en 'il dit que' staat de indicatif."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel de zin aan de juiste vervanging.",
+          "paren": [
+            [
+              "Je vois Paul.",
+              "Je le vois."
+            ],
+            [
+              "Je téléphone à mes parents.",
+              "Je leur téléphone."
+            ],
+            [
+              "Je vais à Paris.",
+              "J'y vais."
+            ],
+            [
+              "Je mange des pommes.",
+              "J'en mange."
+            ]
+          ],
+          "extra": [],
+          "uitleg": "Le vervangt een lijdend voorwerp, leur een meewerkend voorwerp in het meervoud, y een plaats met à en en een hoeveelheid met de/des."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Le livre [[*que|qui]] je lis est passionnant. La fille [[*qui|que]] chante est ma sœur. La ville [[*où|que]] j'habite est petite.",
+          "uitleg": "Que is lijdend voorwerp, qui is onderwerp, où verwijst naar een plaats."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul de tonische vorm in: c'est pour … , het is voor hem. Eén woord.",
+          "antwoord": [
+            "lui"
+          ],
+          "uitleg": "Na een voorzetsel gebruik je de tonische vorm: moi, toi, lui, elle, nous, vous, eux, elles."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Je mange du pain. Ontkennend: je ne mange pas [[*de|du]] pain. J'achète [[*des|les]] pommes au marché (een paar appels, niet bepaald).",
+          "uitleg": "Na een ontkenning wordt du, de la en des gewoon de. Des is het onbepaald lidwoord in het meervoud."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welk bezittelijk determinant past?",
+          "rijen": [
+            "Paul cherche … clés.",
+            "Nous aimons … école.",
+            "Les élèves oublient … cahiers."
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Ses: meerdere dingen van één bezitter. Notre: één ding van ons. Leurs: meerdere dingen van meerdere bezitters.",
+          "kolommen": [
+            "ses",
+            "notre",
+            "leurs"
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is de vrouwelijke vorm juist?",
+          "rijen": [
+            "grand → grande",
+            "sportif → sportive",
+            "beau → beaue",
+            "heureux → heureuse"
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Beau wordt belle. -if wordt -ive, -eux wordt -euse."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Elle chante [[*bien|bon]]. C'est le [[*meilleur|plus bon]] restaurant de la ville. Rapide wordt als bijwoord [[*rapidement|rapide]].",
+          "uitleg": "Bien is het bijwoord bij bon. De vergrotende trap van bon is meilleur. Een bijwoord maak je meestal met -ment."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Zet in de imparfait: quand j'étais petit, nous (avoir) un chien. Eén werkwoordsvorm.",
+          "antwoord": [
+            "avions"
+          ],
+          "uitleg": "De imparfait vertrekt van de stam van nous in de présent (av-ons) + -ions: nous avions."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je botst per ongeluk tegen iemand op in de metro. Wat zeg je?",
+          "opties": [
+            "Oh, je suis désolé !",
+            "Je vous prie d'agréer mes salutations.",
+            "Bon appétit et bonne journée !",
+            "Je voudrais un café, s'il vous plaît."
+          ],
+          "antwoord": 0,
+          "uitleg": "Om je te verontschuldigen zeg je bijvoorbeeld 'je suis désolé'."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Schrijf het getal 70 voluit zoals men het in België zegt.",
+          "antwoord": [
+            "septante"
+          ],
+          "uitleg": "In België zegt men septante, in Frankrijk soixante-dix."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over de Franstalige wereld?",
+          "rijen": [
+            "Frankrijk viert zijn nationale feestdag op 14 juli.",
+            "In Québec betekent 'une fin de semaine' het weekend.",
+            "Een Fransman die 'quinze jours' zegt, bedoelt vijftien weken.",
+            "In een Franse bakkerij zeg je eerst 'Bonjour'."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Quinze jours betekent twee weken. Begroeten bij het binnenkomen hoort bij de Franse omgangsvormen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe sluit je een formele Franse mail af?",
+          "opties": [
+            "Je vous prie d'agréer mes salutations distinguées.",
+            "Bisous et à bientôt, ma belle, je t'embrasse fort !",
+            "Salut, à plus tard, mon pote, on s'appelle demain !",
+            "Ciao, on se voit samedi soir au café du coin, hein ?"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een formele mail sluit je af met een vaste beleefde formule. De andere afsluiters passen bij vrienden."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Wat betekent dit Franse woord? Koppel.",
+          "paren": [
+            [
+              "une ordonnance",
+              "een voorschrift van de dokter"
+            ],
+            [
+              "une entrée",
+              "een voorgerecht"
+            ],
+            [
+              "un car",
+              "een autobus voor lange afstand"
+            ],
+            [
+              "une matière",
+              "een schoolvak"
+            ]
+          ],
+          "extra": [
+            "een personenwagen"
+          ],
+          "uitleg": "Un car is een bus, geen personenwagen (une voiture)."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Ik ben bang voor spinnen: j'ai [[peur]] des araignées. Ik heb dorst: j'ai [[soif]].",
+          "extra": [
+            "faim",
+            "froid"
+          ],
+          "uitleg": "Avoir peur = bang zijn, avoir soif = dorst hebben. Avoir faim = honger hebben, avoir froid = het koud hebben."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Quatorze heures trente is [[*half drie in de namiddag|half twee in de namiddag]]. Il fait [[*froid|chaud]] en hiver.",
+          "uitleg": "Quatorze heures = 14 uur, trente = dertig minuten: 14.30. In de winter is het koud."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Sorteer deze Franse signaalwoorden volgens het verband dat ze leggen.",
+          "kolommen": [
+            "Tegenstelling",
+            "Oorzaak",
+            "Gevolg"
+          ],
+          "items": [
+            [
+              "mais",
+              "Tegenstelling"
+            ],
+            [
+              "parce que",
+              "Oorzaak"
+            ],
+            [
+              "donc",
+              "Gevolg"
+            ],
+            [
+              "cependant",
+              "Tegenstelling"
+            ],
+            [
+              "à cause de",
+              "Oorzaak"
+            ]
+          ],
+          "uitleg": "Mais en cependant: tegenstelling. Parce que en à cause de: oorzaak. Donc: gevolg."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet de signaalwoorden van een recept in de juiste volgorde.",
+          "opties": [
+            "d'abord",
+            "ensuite",
+            "puis",
+            "enfin"
+          ],
+          "uitleg": "D'abord = eerst, ensuite en puis = daarna, enfin = ten slotte."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "'Épluchez quatre pommes de terre et coupez-les en morceaux.' Welke tekstsoort is dit?",
+          "opties": [
+            "prescriptief",
+            "verhalend",
+            "opiniërend",
+            "literair en poëtisch"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een recept geeft instructies in de impératif: het is een prescriptieve tekst."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Il ne voit [[*personne|pas personne]]. Een vraag met omkering van 'tu viens' is [[*viens-tu|tu-viens]] ?",
+          "uitleg": "Je zegt ne … personne, zonder pas. Bij omkering komt het werkwoord voor het onderwerp, met een streepje."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet de woorden in de juiste volgorde.",
+          "opties": [
+            "Je",
+            "ne",
+            "le",
+            "lui",
+            "donne",
+            "pas."
+          ],
+          "uitleg": "Ne komt na het onderwerp, dan de voornaamwoorden (le voor lui), dan het werkwoord en pas."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Ils voyagent [[*au|en]] Portugal et [[*en|au]] France.",
+          "uitleg": "Voor een mannelijk land gebruik je au (au Portugal), voor een vrouwelijk land en (en France)."
+        },
+        {
+          "type": "open",
+          "vraag": "Schrijf een korte mail van 60 à 80 woorden aan een Franse vriend. Vertel wat je vorig weekend deed en vraag of hij volgende zaterdag mee naar de film gaat.",
+          "antwoord": "Salut Lucas,\nMerci pour ton message ! Le week-end dernier, je suis allé à la mer avec ma famille. Il faisait froid, mais nous avons fait une longue promenade sur la plage. Le soir, nous avons mangé des frites. Samedi prochain, je vais au cinéma. Tu veux venir avec moi ? Le film commence à quinze heures.\nÀ bientôt,\nThomas",
+          "uitleg": "Een goed antwoord heeft een aanspreking en afsluiter, gebruikt de passé composé en de imparfait voor het weekend, stelt een duidelijke vraag en blijft binnen het aantal woorden."
+        }
+      ]
+    }
+  ]
+}
