@@ -1,0 +1,23 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1000 380' width='1000' height='380'>
+<rect width='1000' height='380' fill='#ffffff'/>
+<text x='40' y='50' font-family='Nunito, Arial, sans-serif' font-size='28' font-weight='800' fill='#2f4a22'>Het elektromagnetisch spectrum</text>
+<rect x='30.0' y='120' width='134.3' height='200' fill='#e3ecf5' stroke='#2b2b2b' stroke-width='2'/>
+<text x='97.1' y='214.0' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='20' font-weight='700' fill='#2b2b2b'>radio-</text>
+<text x='97.1' y='242.0' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='20' font-weight='700' fill='#2b2b2b'>golven</text>
+<rect x='164.3' y='120' width='134.3' height='200' fill='#dbe7f3' stroke='#2b2b2b' stroke-width='2'/>
+<text x='231.4' y='214.0' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='20' font-weight='700' fill='#2b2b2b'>micro-</text>
+<text x='231.4' y='242.0' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='20' font-weight='700' fill='#2b2b2b'>golven</text>
+<rect x='298.6' y='120' width='134.3' height='200' fill='#f6e1d3' stroke='#2b2b2b' stroke-width='2'/>
+<text x='365.7' y='228.0' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='20' font-weight='700' fill='#2b2b2b'>infrarood</text>
+<rect x='432.9' y='120' width='134.3' height='200' fill='#fff3c4' stroke='#2b2b2b' stroke-width='2'/>
+<text x='500.0' y='214.0' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='20' font-weight='700' fill='#2b2b2b'>zichtbaar</text>
+<text x='500.0' y='242.0' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='20' font-weight='700' fill='#2b2b2b'>licht</text>
+<rect x='567.1' y='120' width='134.3' height='200' fill='#e7dcf3' stroke='#2b2b2b' stroke-width='2'/>
+<text x='634.3' y='228.0' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='20' font-weight='700' fill='#2b2b2b'>ultraviolet</text>
+<rect x='701.4' y='120' width='134.3' height='200' fill='#dfe9da' stroke='#2b2b2b' stroke-width='2'/>
+<text x='768.6' y='214.0' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='20' font-weight='700' fill='#2b2b2b'>röntgen-</text>
+<text x='768.6' y='242.0' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='20' font-weight='700' fill='#2b2b2b'>straling</text>
+<rect x='835.7' y='120' width='134.3' height='200' fill='#f3dada' stroke='#2b2b2b' stroke-width='2'/>
+<text x='902.9' y='214.0' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='20' font-weight='700' fill='#2b2b2b'>gamma-</text>
+<text x='902.9' y='242.0' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='20' font-weight='700' fill='#2b2b2b'>straling</text>
+</svg>
