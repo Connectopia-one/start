@@ -1,0 +1,583 @@
+{
+  "hoofdstukken": [
+    {
+      "titel": "Uitdaging — alles door elkaar",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "Bekijk de gerechtelijke piramide. Klik op het rechtscollege dat enkel nagaat of het recht juist is toegepast, en niet opnieuw naar de feiten kijkt.",
+          "afbeelding_url": "/examenvormen/filosofie-beyond-uitdaging/gerechtelijke-piramide.svg",
+          "zones": [
+            [
+              33.5,
+              14.3,
+              33.0,
+              17.1
+            ]
+          ],
+          "uitleg": "Het Hof van Cassatie staat bovenaan. Het oordeelt niet opnieuw over de feiten, maar kijkt na of de rechters de wet juist hebben toegepast."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Je huisbaas houdt je huurwaarborg onterecht in. Klik op het rechtscollege waar je met dit huurgeschil terechtkunt.",
+          "afbeelding_url": "/examenvormen/filosofie-beyond-uitdaging/gerechtelijke-piramide.svg",
+          "zones": [
+            [
+              2.0,
+              73.2,
+              47.3,
+              17.1
+            ]
+          ],
+          "uitleg": "Het vredegerecht behandelt huurgeschillen, burenhinder en kleine geldsommen."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "De uitspraak van een rechtbank heet een [[*vonnis|arrest|dagvaarding]]. De uitspraak van een hof heet een [[*arrest|vonnis|proces-verbaal]].",
+          "uitleg": "Rechtbanken spreken vonnissen uit, hoven arresten. Een dagvaarding roept iemand voor de rechter, ze is geen uitspraak.",
+          "afbeelding_url": "/examenvormen/filosofie-beyond-uitdaging/gerechtelijke-piramide.svg"
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over de piramide?",
+          "rijen": [
+            "Tegen een uitspraak van het hof van assisen bestaat geen gewoon hoger beroep.",
+            "Wanbedrijven komen voor het vredegerecht.",
+            "De materiële bevoegdheid gaat over de aard van de zaak.",
+            "Een hof van beroep behandelt een zaak opnieuw."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            true
+          ],
+          "uitleg": "Bij assisen oordeelde een jury al over de feiten, dus blijft enkel cassatie over. Wanbedrijven gaan naar de correctionele rechtbank. De territoriale bevoegdheid gaat over de plaats.",
+          "afbeelding_url": "/examenvormen/filosofie-beyond-uitdaging/gerechtelijke-piramide.svg"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een werknemer wordt ontslagen en vindt de reden onterecht. Bij welke rechtbank begint zijn zaak?",
+          "opties": [
+            "bij de politierechtbank",
+            "bij de arbeidsrechtbank",
+            "bij het Hof van Cassatie",
+            "bij het hof van assisen"
+          ],
+          "antwoord": 1,
+          "uitleg": "Geschillen over werk, ontslag en sociale zekerheid horen bij de arbeidsrechtbank.",
+          "afbeelding_url": "/examenvormen/filosofie-beyond-uitdaging/gerechtelijke-piramide.svg"
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Bekijk de vier redeneringen. Klik op de geldige redenering die het consequens ontkent.",
+          "afbeelding_url": "/examenvormen/filosofie-beyond-uitdaging/vier-redeneringen.svg",
+          "zones": [
+            [
+              51.0,
+              57.1,
+              46.0,
+              39.3
+            ]
+          ],
+          "uitleg": "D zegt: het ijs is niet dik, dus het vriest niet. Je ontkent het consequens en besluit tot de ontkenning van het antecedens: een modus tollens. Die is geldig."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de ongeldige redenering die het antecedens ontkent.",
+          "afbeelding_url": "/examenvormen/filosofie-beyond-uitdaging/vier-redeneringen.svg",
+          "zones": [
+            [
+              3.0,
+              57.1,
+              46.0,
+              39.3
+            ]
+          ],
+          "uitleg": "C zegt: het vriest niet, dus het ijs is niet dik. Maar het ijs kan ook dik zijn om een andere reden, bijvoorbeeld na een vorstperiode die net voorbij is. Een ontkenning van het antecedens is ongeldig."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is elke redenering over de vijver geldig of ongeldig?",
+          "rijen": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "antwoord": [
+            0,
+            1,
+            1,
+            0
+          ],
+          "uitleg": "Geldig zijn de modus ponens (A) en de modus tollens (D). De bevestiging van het consequens (B) en de ontkenning van het antecedens (C) zijn ongeldig.",
+          "kolommen": [
+            "Geldig",
+            "Ongeldig"
+          ],
+          "afbeelding_url": "/examenvormen/filosofie-beyond-uitdaging/vier-redeneringen.svg"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe heet de redeneervorm van B?",
+          "opties": [
+            "de modus ponens",
+            "de bevestiging van het consequens",
+            "de ontkenning van het antecedens",
+            "de modus tollens"
+          ],
+          "antwoord": 1,
+          "uitleg": "B bevestigt het consequens (het ijs is dik) en besluit tot het antecedens (het vriest). Dat is ongeldig: het ijs kan ook om een andere reden dik zijn.",
+          "afbeelding_url": "/examenvormen/filosofie-beyond-uitdaging/vier-redeneringen.svg"
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "In de eerste zin van elke kaart is 'het vriest' het [[*antecedens|consequens|besluit]].",
+          "uitleg": "Het antecedens gaat vooraf: het staat na 'als'. Het consequens is wat volgt als het antecedens waar is.",
+          "afbeelding_url": "/examenvormen/filosofie-beyond-uitdaging/vier-redeneringen.svg"
+        },
+        {
+          "casus": "Een arts heeft vijf patiënten die elk dringend een ander orgaan nodig hebben. In de wachtzaal zit een gezonde bezoeker. Met zijn organen zou de arts de vijf kunnen redden.",
+          "vragen": [
+            {
+              "type": "meerkeuze",
+              "vraag": "Waarom is dit voor de gevolgenethiek een lastig voorbeeld?",
+              "opties": [
+                "Omdat de gevolgenethiek enkel naar regels kijkt en nooit naar gevolgen.",
+                "Omdat een optelsom de ene kan opofferen voor de vijf.",
+                "Omdat de gevolgenethiek zegt dat de arts eerst voor zichzelf moet zorgen.",
+                "Omdat de gevolgenethiek niet over leven en dood wil oordelen."
+              ],
+              "antwoord": 1,
+              "uitleg": "Wie enkel het totale geluk telt, komt uit bij vijf levens tegen één. Dat een minderheid zo geofferd kan worden, is een bekend bezwaar tegen de gevolgenethiek."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "Volgens Kant mag de arts de bezoeker [[*niet|wel]] gebruiken, want je mag een mens nooit louter als [[*middel|doel]] behandelen.",
+              "uitleg": "De plichtethiek van Kant kijkt niet naar de afweging van gevolgen. Een mens heeft een waardigheid die je niet mag inruilen."
+            },
+            {
+              "type": "koppelen",
+              "vraag": "Welke ethische vraag hoort bij elke benadering?",
+              "paren": [
+                [
+                  "Wat levert het meeste geluk op voor zoveel mogelijk mensen?",
+                  "gevolgenethiek"
+                ],
+                [
+                  "Welke plicht geldt hier, wat de gevolgen ook zijn?",
+                  "plichtethiek"
+                ],
+                [
+                  "Wat zou een goede, rechtvaardige arts doen?",
+                  "deugdethiek"
+                ],
+                [
+                  "Wat heeft de concrete mens die voor me staat nodig?",
+                  "zorgethiek"
+                ]
+              ],
+              "extra": [
+                "moreel relativisme",
+                "determinisme"
+              ],
+              "uitleg": "Elke normatieve benadering stelt een andere kernvraag: gevolgen, plicht, karakter of de concrete relatie."
+            },
+            {
+              "type": "tabel",
+              "vraag": "Klopt dit over dit dilemma?",
+              "rijen": [
+                "Elke mogelijke keuze kost hier iets van waarde.",
+                "Een moreel universalist vindt dat het antwoord van land tot land mag verschillen.",
+                "Zonder vrije wil kan je de arts moeilijk verantwoordelijk stellen."
+              ],
+              "antwoord": [
+                true,
+                false,
+                true
+              ],
+              "uitleg": "Bij een moreel dilemma verlies je altijd iets. Een universalist gelooft net in regels die overal gelden. De vrije wil is een basisbegrip van de ethiek."
+            }
+          ]
+        },
+        {
+          "casus": "Tom wordt door de politie betrapt terwijl hij een fiets steelt aan het station. De eigenaar wil zijn schade vergoed zien.",
+          "vragen": [
+            {
+              "type": "volgorde",
+              "vraag": "Zet de stappen van een mogelijke strafprocedure in de juiste volgorde.",
+              "opties": [
+                "De politie maakt een proces-verbaal op.",
+                "De procureur leidt het opsporingsonderzoek.",
+                "Tom wordt gedagvaard.",
+                "Het onderzoek ter terechtzitting vindt plaats.",
+                "De rechter spreekt een vonnis uit."
+              ],
+              "uitleg": "Het proces-verbaal gaat naar het parket. De procureur onderzoekt de zaak en kan Tom dagvaarden. Daarna volgt het proces in de rechtszaal en tot slot het vonnis."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Diefstal is een wanbedrijf. Voor welke rechtbank komt Tom?",
+              "opties": [
+                "voor de correctionele rechtbank",
+                "voor het vredegerecht van zijn gemeente",
+                "voor het hof van assisen",
+                "voor de arbeidsrechtbank"
+              ],
+              "antwoord": 0,
+              "uitleg": "Wanbedrijven, de middelzware misdrijven, gaan naar de correctionele rechtbank."
+            },
+            {
+              "type": "invultekst",
+              "vraag": "Hoe heet de eigenaar van de fiets als hij zich bij het strafproces aansluit om zijn schade terug te krijgen? De ... partij",
+              "antwoord": [
+                "burgerlijke"
+              ],
+              "uitleg": "Het slachtoffer dat zich aansluit bij een strafproces om zijn schade vergoed te zien, is de burgerlijke partij."
+            },
+            {
+              "type": "tabel",
+              "vraag": "Klopt dit over de zaak van Tom?",
+              "rijen": [
+                "Het parket kan beslissen om de zaak te seponeren.",
+                "Een krant mag Tom al een dief noemen voor het vonnis valt.",
+                "Tom heeft recht op een advocaat die hem bijstaat."
+              ],
+              "antwoord": [
+                true,
+                false,
+                true
+              ],
+              "uitleg": "Seponeren betekent dat het parket niet verder vervolgt. Het vermoeden van onschuld geldt tot het vonnis. Iedereen heeft recht op een eerlijk proces, met een advocaat."
+            }
+          ]
+        },
+        {
+          "casus": "Een leerling vertelt aan een medewerker van het CLB dat zijn oom hem geregeld slaat en dat het vanavond weer dreigt te gebeuren.",
+          "vragen": [
+            {
+              "type": "meerkeuze",
+              "vraag": "Wat moet de medewerker hier doen?",
+              "opties": [
+                "Zwijgen, want het beroepsgeheim gaat altijd voor alles.",
+                "Het gevaar melden, want hier geldt de meldingsplicht.",
+                "Het verhaal doorvertellen aan de hele klas.",
+                "Wachten tot de leerling zelf naar de politie stapt."
+              ],
+              "antwoord": 1,
+              "uitleg": "Het beroepsgeheim beschermt wie hulp zoekt. Maar als iemand in ernstig en dreigend gevaar is, weegt de meldingsplicht zwaarder."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "De regels voor het gedrag van een beroepsgroep heten samen de [[*deontologie|grondwet|deugdethiek]]. Wie ze schendt, kan gesanctioneerd worden door zijn [[*beroepsorde of werkgever|vrederechter|parlement]].",
+              "uitleg": "Een deontologische code legt vast hoe iemand in een beroep moet handelen, zoals de plicht tot geheimhouding."
+            }
+          ]
+        },
+        {
+          "casus": "Twee buren maken al maanden ruzie over een haag die te hoog is. Ze willen geen dure rechtszaak.",
+          "vragen": [
+            {
+              "type": "tabel",
+              "vraag": "Bemiddeling of arbitrage?",
+              "rijen": [
+                "Een neutrale derde helpt de buren zelf tot een akkoord te komen.",
+                "Een neutrale derde hakt de knoop door en beslist.",
+                "De buren houden de beslissing helemaal in eigen hand."
+              ],
+              "antwoord": [
+                0,
+                1,
+                0
+              ],
+              "uitleg": "Bij bemiddeling beslissen de partijen zelf. Bij arbitrage beslist de arbiter.",
+              "kolommen": [
+                "Bemiddeling",
+                "Arbitrage"
+              ]
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Een van de buren wil eerst gratis kort advies over zijn rechten. Waar kan hij terecht?",
+              "opties": [
+                "bij het Hof van Cassatie",
+                "bij een wetswinkel",
+                "bij de correctionele rechtbank",
+                "bij de gerechtsdeurwaarder"
+              ],
+              "antwoord": 1,
+              "uitleg": "In een wetswinkel en bij de juridische eerstelijnsbijstand krijg je gratis een eerste uitleg over je rechten."
+            }
+          ]
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Welke filosoof hoort bij elke stelling?",
+          "paren": [
+            [
+              "Het lichaam en de denkende geest zijn twee aparte substanties.",
+              "Descartes"
+            ],
+            [
+              "De mens is een machine; voor zijn denken is geen aparte ziel nodig.",
+              "La Mettrie"
+            ],
+            [
+              "Het zijnde is één en onveranderlijk, verandering is schijn.",
+              "Parmenides"
+            ],
+            [
+              "Een uitspraak is wetenschappelijk als ze weerlegd kan worden.",
+              "Popper"
+            ]
+          ],
+          "extra": [
+            "Bentham",
+            "Tronto"
+          ],
+          "uitleg": "Descartes is dualist, La Mettrie materialist, Parmenides monist, Popper bedacht het falsificatiecriterium."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Wijst deze manier van kennen eerder naar het rationalisme of naar het empirisme?",
+          "kolommen": [
+            "Rationalisme",
+            "Empirisme"
+          ],
+          "items": [
+            [
+              "Je twijfelt aan alles tot je één zekerheid vindt en bouwt van daaruit verder.",
+              "Rationalisme"
+            ],
+            [
+              "Je herhaalt een proef twintig keer en noteert wat je ziet.",
+              "Empirisme"
+            ],
+            [
+              "Je leidt uit een algemene regel af wat er in één geval moet gebeuren.",
+              "Rationalisme"
+            ],
+            [
+              "Je trekt uit veel losse waarnemingen een algemene regel.",
+              "Empirisme"
+            ]
+          ],
+          "uitleg": "Rationalisten vertrouwen op het verstand en de deductie. Empiristen laten alle kennis bij de ervaring beginnen en werken inductief."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke uitspraak is volgens Popper wetenschappelijk?",
+          "opties": [
+            "Alle metalen zetten uit als je ze verwarmt.",
+            "Er komt binnenkort iets belangrijks op je pad.",
+            "Alles wat gebeurt, heeft een diepere zin.",
+            "Sommige mensen hebben soms een beetje geluk."
+          ],
+          "antwoord": 0,
+          "uitleg": "Een wetenschappelijke uitspraak sluit iets uit, zodat een waarneming ze kan weerleggen. Eén metaal dat niet uitzet, zou de eerste uitspraak falsifiëren. De andere sluiten niets uit."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over wetenschap en pseudowetenschap?",
+          "rijen": [
+            "Een theorie bijstellen na nieuw onderzoek is een teken van wetenschap.",
+            "Falsifieerbaar betekent dat een theorie fout is.",
+            "Bevestigingen vind je ook voor een theorie die niet klopt."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Falsifieerbaar betekent dat een theorie fout zou kúnnen blijken. Daarom zoekt een goede wetenschapper net naar tegenspraak."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet deze denkers over vrijheid en determinisme in de tijd, van oud naar nieuw.",
+          "opties": [
+            "Democritus",
+            "de Stoïcijnen",
+            "Schopenhauer",
+            "Sartre"
+          ],
+          "uitleg": "Democritus en de Stoïcijnen leefden in de oudheid (Democritus eerst). Schopenhauer schreef in de 19de eeuw, Sartre in de 20ste eeuw."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe laat Frankfurt vrijheid en een wereld vol oorzaken samengaan?",
+          "opties": [
+            "Je handelt vrij als je je verlangen ook wíl hebben.",
+            "Hij noemt de vrije wil een bedenksel om schuld toe te wijzen.",
+            "Hij legt de vrijheid in je houding tegenover het lot.",
+            "Hij zegt dat alles vastligt en vrijheid dus schijn is."
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij Frankfurt handel je vrij als je je verlangen ook wíl hebben, ook al heeft dat verlangen oorzaken. Zo verzoent hij vrijheid en determinisme. Nietzsche noemt de vrije wil een bedenksel, de Stoïcijnen leggen vrijheid in je houding."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Voor Aristoteles is moed een deugd die in het midden ligt tussen [[*lafheid|vriendelijkheid|rechtvaardigheid]] en [[*overmoed|gierigheid|bescheidenheid]].",
+          "uitleg": "Een deugd ligt tussen een tekort en een overdaad. Te weinig moed is lafheid, te veel is overmoed."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Welke drogreden herken je in elke uitspraak van een leerling?",
+          "paren": [
+            [
+              "Iedereen in mijn klas spiekt, dus zo erg is het niet.",
+              "beroep op de massa"
+            ],
+            [
+              "Jij wil een strengere verkeerswet? Dus jij wil dat niemand nog met de auto mag rijden.",
+              "stroman"
+            ],
+            [
+              "Ofwel stop je met gamen, ofwel slaag je nooit.",
+              "valse tweedeling"
+            ],
+            [
+              "Deze krant liegt nooit, want dat schrijft de krant zelf.",
+              "cirkelredenering"
+            ]
+          ],
+          "extra": [
+            "modus ponens",
+            "hellend vlak"
+          ],
+          "uitleg": "Wat veel mensen doen, is daarom niet juist. Een stroman vervormt het standpunt van de ander. Een valse tweedeling laat maar twee mogelijkheden over. Een cirkelredenering veronderstelt wat ze moet bewijzen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welke macht is het?",
+          "rijen": [
+            "het parlement dat een wet stemt",
+            "de regering die de wet uitvoert",
+            "de rechter die de wet toepast op een geschil"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "De scheiding der machten voorkomt dat alle macht bij één instantie ligt. De drie machten houden elkaar in evenwicht.",
+          "kolommen": [
+            "Wetgevend",
+            "Uitvoerend",
+            "Rechterlijk"
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom staat de grondwet boven de gewone wetten?",
+          "opties": [
+            "Omdat ze ouder is dan elke andere wet in het land.",
+            "Omdat ook de wetgever eraan gebonden is.",
+            "Omdat de koning ze alleen kan veranderen.",
+            "Omdat de rechter haar mag negeren als hij dat wil."
+          ],
+          "antwoord": 1,
+          "uitleg": "In een rechtsstaat is ook de overheid aan het recht gebonden. De grondwet legt de regels vast die zelfs de wetgever moet volgen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "'Mensen streven naar geluk, dus geluk is de maatstaf van goed handelen.' Welke kritiek geeft Hume op zo'n redenering?",
+          "opties": [
+            "Uit hoe iets is, volgt niet zomaar hoe het moet zijn.",
+            "Geluk kan je niet meten en dus nooit als maatstaf gebruiken.",
+            "Enkel plichten tellen, geluk niet.",
+            "Dieren streven ook naar geluk."
+          ],
+          "antwoord": 0,
+          "uitleg": "Hume wijst op de sprong van 'is' naar 'ought': een feit over wat mensen doen, bewijst nog niet wat ze moeten doen."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Bij Tronto hoort bij de fase zorgen om de morele kwaliteit [[*betrokkenheid|bekwaamheid|verantwoordelijkheid]] en bij de fase zorg verlenen de kwaliteit [[*bekwaamheid|betrokkenheid|verantwoordelijkheid]].",
+          "uitleg": "Eerst merk je dat iemand zorg nodig heeft (betrokkenheid). Daarna neem je de zorg op je (verantwoordelijkheid) en verleen je ze met kennis van zaken (bekwaamheid)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarin verschilt Schopenhauer van Epicurus als het over geluk gaat?",
+          "opties": [
+            "Voor Schopenhauer is geluk hoogstens een tijdelijk ontbreken van gemis.",
+            "Voor Schopenhauer is geluk een blijvende toestand die je met oefening kan leren.",
+            "Epicurus zoekt geluk in zoveel mogelijk verlangens tegelijk.",
+            "Epicurus ziet geluk enkel als een beloning na de dood."
+          ],
+          "antwoord": 0,
+          "uitleg": "Epicurus zoekt geluk in rust en eenvoud: beperk je verlangens. Schopenhauer is somberder: geluk is enkel even geen gemis."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Universalisme of relativisme?",
+          "rijen": [
+            "Martelen is overal en altijd verkeerd.",
+            "Wat goed is, hangt af van de cultuur waarin je leeft.",
+            "Mensenrechten gelden voor elke mens, waar ook ter wereld."
+          ],
+          "antwoord": [
+            0,
+            1,
+            0
+          ],
+          "uitleg": "Een universalist gelooft in morele regels die voor iedereen gelden. Een relativist laat het oordeel afhangen van de cultuur of de tijd.",
+          "kolommen": [
+            "Universalisme",
+            "Relativisme"
+          ]
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Je ziet honderd keer dat water bij 100 graden kookt en besluit dat water altijd bij 100 graden kookt. Hoe heet die redenering, van losse gevallen naar een algemene regel? Antwoord met één woord.",
+          "antwoord": [
+            "inductie",
+            "een inductie"
+          ],
+          "uitleg": "Inductie gaat van losse waarnemingen naar een algemene regel. Deductie gaat de andere kant op."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat maakt een verklaring van de natuurfilosofen anders dan een mythe?",
+          "opties": [
+            "Ze gebruikt argumenten die anderen kunnen betwisten.",
+            "Ze vertelt over helden en hun avonturen op zee.",
+            "Ze verklaart alles met de wil van de oppergod.",
+            "Ze wordt enkel mondeling van generatie op generatie doorgegeven."
+          ],
+          "antwoord": 0,
+          "uitleg": "Mythen verklaren met goden en bovennatuurlijke krachten. De natuurfilosofen zochten een verklaring die je met argumenten kon verdedigen en betwisten. Daarom zie je hen als het begin van de westerse filosofie."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Hoort deze zaak bij het burgerlijk recht of bij het strafrecht?",
+          "rijen": [
+            "Twee buren eisen van elkaar een schadevergoeding voor een omgevallen muur.",
+            "Iemand pleegt een inbraak in een winkel.",
+            "Een huurder en een verhuurder zijn het oneens over de huurprijs.",
+            "Een bestuurder rijdt dronken een fietser aan."
+          ],
+          "antwoord": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "uitleg": "Burgerlijk recht regelt geschillen tussen burgers: de eiser neemt het initiatief. Strafrecht vervolgt misdrijven namens de samenleving, via het openbaar ministerie. Bij de dronken bestuurder kan het slachtoffer daarnaast ook burgerlijke partij worden.",
+          "kolommen": [
+            "Burgerlijk recht",
+            "Strafrecht"
+          ]
+        },
+        {
+          "type": "open",
+          "vraag": "Heeft de mens een vrije wil? Neem een standpunt in en steun het op één filosoof uit de lessen. Geef ook een tegenargument.",
+          "antwoord": "Ik denk dat we vrij zijn in de zin van Frankfurt: ik handel vrij als ik mijn verlangen ook wil hebben, ook al heeft het oorzaken. Een tegenargument komt van Schopenhauer: achter elke keuze zit een wil die je niet zelf koos.",
+          "uitleg": "Een goed antwoord kiest een standpunt, verwijst juist naar een filosoof en neemt een tegenargument ernstig."
+        }
+      ]
+    }
+  ]
+}
