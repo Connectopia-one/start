@@ -1,0 +1,476 @@
+{
+  "hoofdstukken": [
+    {
+      "titel": "Uitdaging — alles door elkaar",
+      "niveau": "boost-dubbele-finaliteit",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "Een klas maakt kaarsjes voor de kerstmarkt. Klik op het punt waar de klas precies geen winst en geen verlies maakt.",
+          "afbeelding_url": "/examenvormen/wiskunde-boost-df-uitdaging/kosten-opbrengst.svg",
+          "zones": [
+            [
+              48.5,
+              45.5,
+              9.0,
+              13.6
+            ]
+          ],
+          "uitleg": "Waar de kosten en de opbrengst even groot zijn, snijden de twee rechten elkaar: bij \\(5\\) kaarsjes, \\(30\\) euro. Dat is het break-evenpunt."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het punt dat de vaste kosten toont: wat de klas al betaalt nog voor er één kaarsje gemaakt is.",
+          "afbeelding_url": "/examenvormen/wiskunde-boost-df-uitdaging/kosten-opbrengst.svg",
+          "zones": [
+            [
+              8.5,
+              57.3,
+              9.0,
+              13.6
+            ]
+          ],
+          "uitleg": "Bij \\(0\\) kaarsjes zijn de kosten \\(20\\) euro. Dat is het snijpunt van de kostenrechte met de verticale as, de \\(b\\) in \\(ax + b\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk voorschrift hoort bij de kosten \\(K\\) voor \\(x\\) kaarsjes?",
+          "opties": [
+            "\\(K = 20x + 2\\)",
+            "\\(K = 2x + 20\\)",
+            "\\(K = 6x\\)",
+            "\\(K = 4x + 20\\)"
+          ],
+          "antwoord": 1,
+          "uitleg": "De rechte start bij \\(20\\) euro en stijgt \\(2\\) euro per kaarsje (van \\(20\\) naar \\(40\\) over \\(10\\) kaarsjes). Dus \\(K = 2x + 20\\).",
+          "afbeelding_url": "/examenvormen/wiskunde-boost-df-uitdaging/kosten-opbrengst.svg"
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel euro winst maakt de klas als ze 10 kaarsjes verkoopt? Geef enkel het getal.",
+          "antwoord": "20",
+          "uitleg": "Bij \\(10\\) kaarsjes is de opbrengst \\(60\\) euro en zijn de kosten \\(40\\) euro. Winst is opbrengst min kosten: \\(20\\) euro.",
+          "afbeelding_url": "/examenvormen/wiskunde-boost-df-uitdaging/kosten-opbrengst.svg"
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "De klas maakt verlies zolang ze [[*minder dan 5|meer dan 5|precies 5]] kaarsjes verkoopt. Eén kaarsje brengt [[*6|2|20]] euro op.",
+          "uitleg": "Links van het snijpunt ligt de opbrengst onder de kosten: verlies. De opbrengstrechte gaat door \\((0, 0)\\) en \\((10, 60)\\), dus \\(6\\) euro per kaarsje.",
+          "afbeelding_url": "/examenvormen/wiskunde-boost-df-uitdaging/kosten-opbrengst.svg"
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over de grafiek van de kaarsjes?",
+          "rijen": [
+            "De opbrengst is recht evenredig met het aantal kaarsjes.",
+            "De kosten zijn recht evenredig met het aantal kaarsjes.",
+            "De richtingscoëfficiënt van de opbrengst is groter dan die van de kosten."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true
+          ],
+          "uitleg": "De opbrengstrechte gaat door de oorsprong, de kostenrechte niet: die start bij \\(20\\). De opbrengst stijgt \\(6\\) per kaarsje, de kosten maar \\(2\\).",
+          "afbeelding_url": "/examenvormen/wiskunde-boost-df-uitdaging/kosten-opbrengst.svg"
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Bekijk de boxplot van de toets. Klik op de mediaan.",
+          "afbeelding_url": "/examenvormen/wiskunde-boost-df-uitdaging/boxplot-toets.svg",
+          "zones": [
+            [
+              56.6,
+              26.3,
+              3.6,
+              36.8
+            ]
+          ],
+          "uitleg": "De lijn in de doos is de mediaan, hier \\(12\\): de helft van de klas scoorde \\(12\\) of minder, de andere helft \\(12\\) of meer."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het deel van de boxplot dat de middelste helft van de scores bevat.",
+          "afbeelding_url": "/examenvormen/wiskunde-boost-df-uitdaging/boxplot-toets.svg",
+          "zones": [
+            [
+              45.8,
+              26.3,
+              21.0,
+              36.8
+            ]
+          ],
+          "uitleg": "De doos loopt van het eerste kwartiel (\\(9\\)) tot het derde kwartiel (\\(14\\)). Daartussen ligt de middelste helft van de gegevens."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe groot is de interkwartielafstand? Geef enkel het getal.",
+          "antwoord": "5",
+          "uitleg": "Interkwartielafstand is het derde kwartiel min het eerste: \\(14 - 9 = 5\\).",
+          "afbeelding_url": "/examenvormen/wiskunde-boost-df-uitdaging/boxplot-toets.svg"
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe groot is de variatiebreedte van de scores? Geef enkel het getal.",
+          "antwoord": "15",
+          "uitleg": "Variatiebreedte is de grootste min de kleinste waarde: \\(19 - 4 = 15\\).",
+          "afbeelding_url": "/examenvormen/wiskunde-boost-df-uitdaging/boxplot-toets.svg"
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over de toets?",
+          "rijen": [
+            "Ongeveer een kwart van de klas haalde 9 of minder.",
+            "Het gemiddelde is zeker 12.",
+            "De scores tussen 9 en 12 liggen dichter bij elkaar dan die tussen 12 en 14."
+          ],
+          "antwoord": [
+            true,
+            false,
+            false
+          ],
+          "uitleg": "Onder het eerste kwartiel zit een kwart van de klas. Een boxplot toont de mediaan, niet het gemiddelde. Tussen \\(9\\) en \\(12\\) zitten evenveel leerlingen als tussen \\(12\\) en \\(14\\), maar over een bredere strook: die scores liggen dus verder uit elkaar.",
+          "afbeelding_url": "/examenvormen/wiskunde-boost-df-uitdaging/boxplot-toets.svg"
+        },
+        {
+          "casus": "Tijdens de koopjes krijgt een jas van 80 euro eerst 25 % korting. Aan de kassa gaat er nog eens 10 % af op die nieuwe prijs.",
+          "vragen": [
+            {
+              "type": "invultekst",
+              "vraag": "Hoeveel euro betaal je uiteindelijk? Geef enkel het getal.",
+              "antwoord": "54",
+              "uitleg": "Na \\(25\\,\\%\\) korting blijft \\(75\\,\\%\\): \\(0{,}75 \\cdot 80 = 60\\) euro. Daarna blijft \\(90\\,\\%\\): \\(0{,}9 \\cdot 60 = 54\\) euro."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Hoeveel procent korting is dat samen?",
+              "opties": [
+                "\\(35\\,\\%\\)",
+                "\\(32{,}5\\,\\%\\)",
+                "\\(30\\,\\%\\)",
+                "\\(27{,}5\\,\\%\\)"
+              ],
+              "antwoord": 1,
+              "uitleg": "Je betaalt \\(0{,}75 \\cdot 0{,}9 = 0{,}675\\) of \\(67{,}5\\,\\%\\) van de prijs. De korting is dus \\(32{,}5\\,\\%\\), niet \\(25 + 10 = 35\\,\\%\\)."
+            },
+            {
+              "type": "invultekst",
+              "vraag": "Een vriendin betaalde voor een andere jas 56 euro na 30 % korting. Wat was de prijs vóór de korting, in euro? Geef enkel het getal.",
+              "antwoord": "80",
+              "uitleg": "\\(56\\) euro is \\(70\\,\\%\\) van de oude prijs. Terugrekenen: \\(56 : 0{,}7 = 80\\) euro."
+            }
+          ]
+        },
+        {
+          "casus": "Een ladder van 5 meter staat tegen een muur. De voet van de ladder staat 1,4 meter van de muur.",
+          "vragen": [
+            {
+              "type": "invultekst",
+              "vraag": "Hoe hoog reikt de ladder tegen de muur, in meter? Geef enkel het getal.",
+              "antwoord": [
+                "4,8",
+                "4.8"
+              ],
+              "uitleg": "De ladder is de schuine zijde. Pythagoras: \\(\\sqrt{5^{2} - 1{,}4^{2}} = \\sqrt{25 - 1{,}96} = \\sqrt{23{,}04} = 4{,}8\\) meter."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "Om de hoek tussen de ladder en de grond te vinden, ken je de aanliggende zijde en de schuine zijde. Je gebruikt dus de [[*cosinus|sinus|tangens]].",
+              "uitleg": "Cosinus is aanliggende zijde gedeeld door schuine zijde."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Hoe groot is de hoek tussen de ladder en de grond ongeveer?",
+              "opties": [
+                "\\(16^{\\circ}\\)",
+                "\\(52^{\\circ}\\)",
+                "\\(74^{\\circ}\\)",
+                "\\(84^{\\circ}\\)"
+              ],
+              "antwoord": 2,
+              "uitleg": "\\(\\cos\\alpha = \\tfrac{1{,}4}{5} = 0{,}28\\), dus \\(\\alpha \\approx 74^{\\circ}\\). Een steile ladder, dat klopt met het beeld."
+            }
+          ]
+        },
+        {
+          "casus": "Het restaurant van de school biedt 3 voorgerechten, 4 hoofdgerechten en 2 desserts aan. In de klas van 30 leerlingen spelen er 18 voetbal, 12 tennis en 5 allebei.",
+          "vragen": [
+            {
+              "type": "invultekst",
+              "vraag": "Hoeveel verschillende menu's met één voorgerecht, één hoofdgerecht en één dessert kan je kiezen? Geef enkel het getal.",
+              "antwoord": "24",
+              "uitleg": "Elke keuze vermenigvuldigt het aantal mogelijkheden: \\(3 \\cdot 4 \\cdot 2 = 24\\)."
+            },
+            {
+              "type": "invultekst",
+              "vraag": "Hoeveel leerlingen van de klas spelen geen van beide sporten? Geef enkel het getal.",
+              "antwoord": "5",
+              "uitleg": "Voetbal of tennis: \\(18 + 12 - 5 = 25\\) leerlingen, want de \\(5\\) die allebei spelen tel je anders dubbel. Geen van beide: \\(30 - 25 = 5\\)."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Welk hulpmiddel past het best bij de vraag over de sporten?",
+              "opties": [
+                "een boomdiagram met alle paden",
+                "een venndiagram",
+                "een lijndiagram in de tijd",
+                "een tabel met klassenmiddens"
+              ],
+              "antwoord": 1,
+              "uitleg": "Twee groepen die elkaar overlappen, teken je het handigst als twee kringen. Begin bij de doorsnede."
+            }
+          ]
+        },
+        {
+          "casus": "Een gsm-merk toont in een reclame een staafdiagram. De verticale as begint bij 95 %. De staaf van het eigen merk (98 %) is vier keer zo hoog als die van de concurrent (96 %). Eronder staat: 'Het aandeel klanten dat meteen een tweede toestel koopt, steeg van 4 % naar 6 %!'",
+          "vragen": [
+            {
+              "type": "tabel",
+              "vraag": "Klopt dit over de reclame?",
+              "rijen": [
+                "Het verschil tussen de staven lijkt veel groter dan het is.",
+                "Het echte verschil is 2 procentpunt.",
+                "Een as die bij 95 % begint, is altijd fout."
+              ],
+              "antwoord": [
+                true,
+                true,
+                false
+              ],
+              "uitleg": "Het echte verschil is 98 min 96, dus 2 procentpunt. Een as mag ergens anders beginnen, maar dan moet dat duidelijk aangegeven zijn, anders misleidt het beeld."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Van 4 % naar 6 %: met hoeveel procent is dat aandeel gestegen?",
+              "opties": [
+                "\\(2\\,\\%\\)",
+                "\\(20\\,\\%\\)",
+                "\\(50\\,\\%\\)",
+                "\\(150\\,\\%\\)"
+              ],
+              "antwoord": 2,
+              "uitleg": "De stijging is \\(2\\) procentpunt. Ten opzichte van de \\(4\\) van het begin is dat \\(\\tfrac{2}{4} = 50\\,\\%\\) meer."
+            },
+            {
+              "type": "open",
+              "vraag": "Welke twee vragen stel je best bij deze reclame voor je ze gelooft?",
+              "antwoord": "Hoeveel mensen werden er bevraagd en door wie? Waar begint de schaal van de as, en hoe groot is het echte verschil?",
+              "uitleg": "Kijk altijd naar de bron, de grootte van de groep en de assen van de grafiek."
+            }
+          ]
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Is het getal rationaal of irrationaal?",
+          "kolommen": [
+            "Rationaal",
+            "Irrationaal"
+          ],
+          "items": [
+            [
+              "\\(\\sqrt{2}\\)",
+              "Irrationaal"
+            ],
+            [
+              "\\(\\pi\\)",
+              "Irrationaal"
+            ],
+            [
+              "\\(0{,}75\\)",
+              "Rationaal"
+            ],
+            [
+              "\\(\\sqrt{16}\\)",
+              "Rationaal"
+            ],
+            [
+              "\\(\\tfrac{1}{3}\\)",
+              "Rationaal"
+            ]
+          ],
+          "uitleg": "\\(\\sqrt{16} = 4\\) en \\(0{,}75 = \\tfrac{3}{4}\\) zijn breuken. \\(\\tfrac{1}{3}\\) is repeterend en dus ook rationaal. \\(\\sqrt{2}\\) en \\(\\pi\\) zijn onbegrensd en niet-repeterend."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Rangschik deze vijf getallen van klein naar groot.",
+          "opties": [
+            "\\(-2\\)",
+            "\\(-\\sqrt{3}\\)",
+            "\\(-1{,}5\\)",
+            "\\(\\tfrac{1}{4}\\)",
+            "\\(\\sqrt{2}\\)"
+          ],
+          "uitleg": "\\(-\\sqrt{3} \\approx -1{,}73\\) ligt tussen \\(-2\\) en \\(-1{,}5\\). \\(\\sqrt{2} \\approx 1{,}41\\) is groter dan \\(0{,}25\\)."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vereenvoudig \\(\\sqrt{50}\\). Typ bijvoorbeeld 2√5 of 2 wortel 5.",
+          "antwoord": [
+            "5√2",
+            "5 √2",
+            "5 wortel 2",
+            "5wortel2",
+            "5 wortel2"
+          ],
+          "uitleg": "\\(\\sqrt{50} = \\sqrt{25 \\cdot 2} = 5\\sqrt{2}\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel is \\(\\left(2a^{2}\\right)^{3}\\)?",
+          "opties": [
+            "\\(6a^{5}\\)",
+            "\\(8a^{6}\\)",
+            "\\(2a^{6}\\)",
+            "\\(8a^{5}\\)"
+          ],
+          "antwoord": 1,
+          "uitleg": "Elke factor gaat tot de derde: \\(2^{3} = 8\\) en \\(\\left(a^{2}\\right)^{3} = a^{6}\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk interval hoort bij alle \\(x\\) met \\(-1 < x \\leq 3\\)?",
+          "opties": [
+            "\\(\\left[-1, 3\\right[\\)",
+            "\\(\\left]-1, 3\\right]\\)",
+            "\\(\\left[-1, 3\\right]\\)",
+            "\\(\\left]-1, 3\\right[\\)"
+          ],
+          "antwoord": 1,
+          "uitleg": "\\(-1\\) hoort er niet bij: haakje naar buiten. \\(3\\) hoort er wel bij: haakje naar binnen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Schrijf \\(0{,}00042\\) als \\(4{,}2 \\cdot 10^{n}\\). Hoeveel is \\(n\\)? Geef enkel het getal.",
+          "antwoord": "-4",
+          "uitleg": "De komma schuift vier plaatsen naar rechts, dus \\(0{,}00042 = 4{,}2 \\cdot 10^{-4}\\)."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Los op: \\(3(x - 2) = x + 8\\). Hoeveel is \\(x\\)? Geef enkel het getal.",
+          "antwoord": "7",
+          "uitleg": "Haakjes uitwerken: \\(3x - 6 = x + 8\\). Dan \\(2x = 14\\), dus \\(x = 7\\). Controle: \\(3 \\cdot 5 = 15\\) en \\(7 + 8 = 15\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de oplossing van \\(-2x + 6 \\geq 0\\)?",
+          "opties": [
+            "alle \\(x \\geq 3\\)",
+            "alle \\(x \\leq 3\\)",
+            "alle \\(x \\leq -3\\)",
+            "alle \\(x \\geq -3\\)"
+          ],
+          "antwoord": 1,
+          "uitleg": "\\(-2x \\geq -6\\). Delen door \\(-2\\) draait het teken om: \\(x \\leq 3\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Het vermogen van een toestel is \\(P = U \\cdot I\\). Hoe druk je de stroomsterkte \\(I\\) uit?",
+          "opties": [
+            "\\(I = P \\cdot U\\)",
+            "\\(I = \\dfrac{U}{P}\\)",
+            "\\(I = \\dfrac{P}{U}\\)",
+            "\\(I = P - U\\)"
+          ],
+          "antwoord": 2,
+          "uitleg": "Deel beide leden door \\(U\\): \\(\\dfrac{P}{U} = I\\)."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Drie volwassenen en twee kinderen betalen samen 39 euro voor de zwemkaart. Eén volwassene en één kind betalen samen 15 euro. Hoeveel euro kost een kaart voor een volwassene? Geef enkel het getal.",
+          "antwoord": "9",
+          "uitleg": "Stelsel: \\(3v + 2k = 39\\) en \\(v + k = 15\\). Uit de tweede: \\(k = 15 - v\\). Invullen: \\(3v + 30 - 2v = 39\\), dus \\(v = 9\\) en \\(k = 6\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de richtingscoëfficiënt van de rechte door \\((-2, 7)\\) en \\((2, -1)\\)?",
+          "opties": [
+            "\\(2\\)",
+            "\\(-\\tfrac{1}{2}\\)",
+            "\\(-2\\)",
+            "\\(4\\)"
+          ],
+          "antwoord": 2,
+          "uitleg": "\\(\\dfrac{-1 - 7}{2 - (-2)} = \\dfrac{-8}{4} = -2\\). De rechte daalt, dus de richtingscoëfficiënt is negatief."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over de functie \\(f(x) = 2x - 6\\)?",
+          "rijen": [
+            "De nulwaarde is \\(3\\).",
+            "\\(f(0)\\) is negatief.",
+            "De functie is positief voor alle \\(x < 3\\).",
+            "De functie stijgt."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "\\(2x - 6 = 0\\) geeft \\(x = 3\\). \\(f(0) = -6\\). Omdat de functie stijgt, is ze positief rechts van \\(3\\), niet links."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Twee driehoeken zijn gelijkvormig met factor 3. De kleine heeft een oppervlakte van 4 cm². Hoeveel cm² is de grote? Geef enkel het getal.",
+          "antwoord": "36",
+          "uitleg": "Bij factor \\(3\\) wordt de oppervlakte \\(3^{2} = 9\\) keer zo groot: \\(9 \\cdot 4 = 36\\) cm²."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over rechten en vlakken in een balk?",
+          "rijen": [
+            "Twee ribben die elkaar niet snijden en niet in één vlak liggen, zijn kruisend.",
+            "Een balk heeft acht ribben.",
+            "Twee overstaande zijvlakken van een balk zijn evenwijdig."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Een balk heeft twaalf ribben en zes zijvlakken. Overstaande zijvlakken snijden elkaar nooit."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Na vier toetsen heeft Noor gemiddeld 12 op 20. Hoeveel moet ze op de vijfde toets halen om gemiddeld 13 te hebben? Geef enkel het getal.",
+          "antwoord": "17",
+          "uitleg": "Nu heeft ze samen \\(4 \\cdot 12 = 48\\) punten. Voor gemiddeld \\(13\\) over vijf toetsen heeft ze \\(5 \\cdot 13 = 65\\) nodig: \\(65 - 48 = 17\\)."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Welk diagram past het best bij elke vraag?",
+          "paren": [
+            [
+              "Hoe veranderde de temperatuur elke dag van de maand?",
+              "lijndiagram"
+            ],
+            [
+              "Welk deel van het budget gaat naar huur, eten en vrije tijd?",
+              "cirkeldiagram"
+            ],
+            [
+              "Hoe zijn de lengtes van 200 leerlingen over klassen verdeeld?",
+              "histogram"
+            ],
+            [
+              "Hoe ver liggen de scores van twee klassen uit elkaar?",
+              "boxplot"
+            ]
+          ],
+          "extra": [
+            "venndiagram",
+            "boomdiagram"
+          ],
+          "uitleg": "Een lijndiagram toont een verloop in de tijd, een cirkeldiagram delen van een geheel, een histogram klassen van numerieke gegevens en een boxplot de spreiding."
+        },
+        {
+          "type": "open",
+          "vraag": "In een bedrijf verdienen vier mensen 2000 euro per maand en de baas 12 000 euro. Leg uit waarom het gemiddelde loon hier een misleidend beeld geeft en welk getal beter past.",
+          "antwoord": "Het gemiddelde is 4000 euro, maar niemand behalve de baas verdient zoveel. De uitschieter trekt het gemiddelde omhoog. De mediaan, 2000 euro, toont beter wat een gewone werknemer verdient.",
+          "uitleg": "Het gemiddelde is gevoelig voor uitschieters, de mediaan niet."
+        }
+      ]
+    }
+  ]
+}
