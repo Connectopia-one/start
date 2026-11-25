@@ -1,0 +1,62 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1000 470' width='1000' height='470'>
+<rect width='1000' height='470' fill='#ffffff'/>
+<text x='40' y='46' font-family='Nunito, Arial, sans-serif' font-size='28' font-weight='800' fill='#2f4a22'>Vijf oplossingen op de pH-schaal</text>
+<defs><linearGradient id='g' x1='0' x2='1'><stop offset='0' stop-color='#e7a3a3'/><stop offset='0.5' stop-color='#eef2e6'/><stop offset='1' stop-color='#a9c0e0'/></linearGradient></defs>
+<rect x='60' y='300' width='880' height='40' rx='8' fill='url(#g)' stroke='#2b2b2b' stroke-width='2'/>
+<line x1='60.0' y1='340' x2='60.0' y2='352' stroke='#2b2b2b' stroke-width='2'/>
+<text x='60.0' y='376' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='20' fill='#2b2b2b'>0</text>
+<line x1='122.85714285714286' y1='340' x2='122.85714285714286' y2='352' stroke='#2b2b2b' stroke-width='2'/>
+<text x='122.85714285714286' y='376' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='20' fill='#2b2b2b'>1</text>
+<line x1='185.71428571428572' y1='340' x2='185.71428571428572' y2='352' stroke='#2b2b2b' stroke-width='2'/>
+<text x='185.71428571428572' y='376' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='20' fill='#2b2b2b'>2</text>
+<line x1='248.57142857142856' y1='340' x2='248.57142857142856' y2='352' stroke='#2b2b2b' stroke-width='2'/>
+<text x='248.57142857142856' y='376' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='20' fill='#2b2b2b'>3</text>
+<line x1='311.42857142857144' y1='340' x2='311.42857142857144' y2='352' stroke='#2b2b2b' stroke-width='2'/>
+<text x='311.42857142857144' y='376' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='20' fill='#2b2b2b'>4</text>
+<line x1='374.2857142857143' y1='340' x2='374.2857142857143' y2='352' stroke='#2b2b2b' stroke-width='2'/>
+<text x='374.2857142857143' y='376' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='20' fill='#2b2b2b'>5</text>
+<line x1='437.1428571428571' y1='340' x2='437.1428571428571' y2='352' stroke='#2b2b2b' stroke-width='2'/>
+<text x='437.1428571428571' y='376' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='20' fill='#2b2b2b'>6</text>
+<line x1='500.0' y1='340' x2='500.0' y2='352' stroke='#2b2b2b' stroke-width='2'/>
+<text x='500.0' y='376' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='20' fill='#2b2b2b'>7</text>
+<line x1='562.8571428571429' y1='340' x2='562.8571428571429' y2='352' stroke='#2b2b2b' stroke-width='2'/>
+<text x='562.8571428571429' y='376' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='20' fill='#2b2b2b'>8</text>
+<line x1='625.7142857142857' y1='340' x2='625.7142857142857' y2='352' stroke='#2b2b2b' stroke-width='2'/>
+<text x='625.7142857142857' y='376' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='20' fill='#2b2b2b'>9</text>
+<line x1='688.5714285714286' y1='340' x2='688.5714285714286' y2='352' stroke='#2b2b2b' stroke-width='2'/>
+<text x='688.5714285714286' y='376' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='20' fill='#2b2b2b'>10</text>
+<line x1='751.4285714285714' y1='340' x2='751.4285714285714' y2='352' stroke='#2b2b2b' stroke-width='2'/>
+<text x='751.4285714285714' y='376' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='20' fill='#2b2b2b'>11</text>
+<line x1='814.2857142857142' y1='340' x2='814.2857142857142' y2='352' stroke='#2b2b2b' stroke-width='2'/>
+<text x='814.2857142857142' y='376' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='20' fill='#2b2b2b'>12</text>
+<line x1='877.1428571428571' y1='340' x2='877.1428571428571' y2='352' stroke='#2b2b2b' stroke-width='2'/>
+<text x='877.1428571428571' y='376' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='20' fill='#2b2b2b'>13</text>
+<line x1='940.0' y1='340' x2='940.0' y2='352' stroke='#2b2b2b' stroke-width='2'/>
+<text x='940.0' y='376' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='20' fill='#2b2b2b'>14</text>
+<text x='500.0' y='410' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='20' font-weight='700' fill='#2b2b2b'>pH</text>
+<rect x='30' y='110' width='150' height='120' rx='14' fill='#f7f4ec' stroke='#b9b29c' stroke-width='2'/>
+<circle cx='105.0' cy='144' r='20' fill='#2f4a22'/>
+<text x='105.0' y='152' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='22' font-weight='800' fill='#ffffff'>1</text>
+<text x='105.0' y='202' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='21' fill='#2b2b2b'>maagsap</text>
+<line x1='105.0' y1='230' x2='154.28571428571428' y2='300' stroke='#c0622b' stroke-width='3'/>
+<rect x='224' y='110' width='150' height='120' rx='14' fill='#f7f4ec' stroke='#b9b29c' stroke-width='2'/>
+<circle cx='299.0' cy='144' r='20' fill='#2f4a22'/>
+<text x='299.0' y='152' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='22' font-weight='800' fill='#ffffff'>2</text>
+<text x='299.0' y='202' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='21' fill='#2b2b2b'>azijn</text>
+<line x1='299.0' y1='230' x2='248.57142857142856' y2='300' stroke='#c0622b' stroke-width='3'/>
+<rect x='418' y='110' width='150' height='120' rx='14' fill='#f7f4ec' stroke='#b9b29c' stroke-width='2'/>
+<circle cx='493.0' cy='144' r='20' fill='#2f4a22'/>
+<text x='493.0' y='152' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='22' font-weight='800' fill='#ffffff'>3</text>
+<text x='493.0' y='202' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='21' fill='#2b2b2b'>zuiver water</text>
+<line x1='493.0' y1='230' x2='500.0' y2='300' stroke='#c0622b' stroke-width='3'/>
+<rect x='612' y='110' width='150' height='120' rx='14' fill='#f7f4ec' stroke='#b9b29c' stroke-width='2'/>
+<circle cx='687.0' cy='144' r='20' fill='#2f4a22'/>
+<text x='687.0' y='152' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='22' font-weight='800' fill='#ffffff'>4</text>
+<text x='687.0' y='202' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='21' fill='#2b2b2b'>zeepsop</text>
+<line x1='687.0' y1='230' x2='688.5714285714286' y2='300' stroke='#c0622b' stroke-width='3'/>
+<rect x='806' y='110' width='150' height='120' rx='14' fill='#f7f4ec' stroke='#b9b29c' stroke-width='2'/>
+<circle cx='881.0' cy='144' r='20' fill='#2f4a22'/>
+<text x='881.0' y='152' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='22' font-weight='800' fill='#ffffff'>5</text>
+<text x='881.0' y='202' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='21' fill='#2b2b2b'>ontstopper</text>
+<line x1='881.0' y1='230' x2='877.1428571428571' y2='300' stroke='#c0622b' stroke-width='3'/>
+</svg>
