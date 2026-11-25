@@ -41,6 +41,12 @@ export const nieuwTekst = {
 export const updates: Update[] = [
   {
     datum: "24 november 2026",
+    titel: "Pittige hoofdstukken Nederlands in Boost dubbele finaliteit",
+    tekst:
+      "Nederlands in Boost dubbele finaliteit heeft nu bij elk van de 12 onderwerpen een pittig hoofdstuk van 30 vragen, in examenvorm: van communicatie, samenhang en bronnen wegen over feit en mening, stelling en argument, woordsoorten, werkwoorden, zinsdelen en spelling tot betekenis, verhalen lezen en goed communiceren. Er zijn ook klikvragen op prenten, zoals een boekenplank met fictie en non-fictie, een presentatie voor de klas en een mail voor een vakantiejob.",
+  },
+  {
+    datum: "24 november 2026",
     titel: "Pittige hoofdstukken Nederlands in Boost doorstroom",
     tekst:
       "Nederlands in Boost doorstroom heeft nu bij elk van de 12 onderwerpen een pittig hoofdstuk van 30 vragen, in examenvorm: van communicatie, samenhang, argumenteren en bronnen wegen over taalvariatie, woordsoorten, werkwoorden, zinsdelen en spelling tot betekenis, verhalen en poëzie. Er zijn ook klikvragen op prenten, zoals een communicatiemodel, een verdacht bericht op sociale media, zinnen in blokjes en de spanningsboog van een verhaal.",

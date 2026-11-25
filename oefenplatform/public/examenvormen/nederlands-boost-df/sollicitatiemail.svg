@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Een mail voor een vakantiejob</text>
+<rect x="60" y="60" width="880" height="540" rx="10" fill="#ffffff" stroke="#24331b" stroke-width="3"/>
+<rect x="60" y="60" width="880" height="50" rx="10" fill="#d9d4c4" stroke="#24331b" stroke-width="3"/>
+<text x="90" y="93" font-size="18" text-anchor="start" fill="#24331b">Aan: winkel De Kaasstolp</text>
+<text x="90" y="140" font-size="18" text-anchor="start" fill="#24331b">Onderwerp: sollicitatie vakantiejob juli</text>
+<line x1="60" y1="160" x2="940" y2="160" stroke="#d9d4c4" stroke-width="2"/>
+<circle cx="110" cy="203" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="110" y="210" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<text x="150" y="210" font-size="21" text-anchor="start" fill="#24331b">Hey meneer Peeters!!</text>
+<circle cx="110" cy="283" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="110" y="290" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<text x="150" y="290" font-size="21" text-anchor="start" fill="#24331b">Ik wil graag solliciteren voor de vakantiejob in uw winkel.</text>
+<circle cx="110" cy="363" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="110" y="370" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<text x="150" y="370" font-size="21" text-anchor="start" fill="#24331b">Ik ben vlot, eerlijk en ik werk graag met mensen.</text>
+<circle cx="110" cy="443" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="110" y="450" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">D</text>
+<text x="150" y="450" font-size="21" text-anchor="start" fill="#24331b">Laat ff weten of da ok is ;-)</text>
+<circle cx="110" cy="523" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="110" y="530" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">E</text>
+<text x="150" y="530" font-size="21" text-anchor="start" fill="#24331b">Met vriendelijke groeten, Sam Janssens</text>
+</svg>

@@ -1,0 +1,5033 @@
+{
+  "hoofdstukken": [
+    {
+      "titel": "Zender, ruis en de zeven tekstsoorten — pittig",
+      "niveau": "boost-dubbele-finaliteit",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de letter bij de zender.",
+          "afbeelding_url": "/examenvormen/nederlands-boost-do/communicatiemodel-leeg.svg",
+          "zones": [
+            [
+              13.6,
+              69.7,
+              6.8,
+              10.6
+            ]
+          ],
+          "uitleg": "De pijl vertrekt bij de zender en gaat naar de ontvanger."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de letter bij de ontvanger.",
+          "afbeelding_url": "/examenvormen/nederlands-boost-do/communicatiemodel-leeg.svg",
+          "zones": [
+            [
+              79.6,
+              69.7,
+              6.8,
+              10.6
+            ]
+          ],
+          "uitleg": "De boodschap komt aan bij de ontvanger."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de letter bij wat de boodschap onderweg stoort.",
+          "afbeelding_url": "/examenvormen/nederlands-boost-do/communicatiemodel-leeg.svg",
+          "zones": [
+            [
+              60.6,
+              24.4,
+              6.8,
+              10.6
+            ]
+          ],
+          "uitleg": "Ruis is elke storing die maakt dat de boodschap niet of verkeerd aankomt."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Het grote kader rond alles staat voor de situatie: de plaats, het moment, de relatie. Klik op de letter bij dat element.",
+          "afbeelding_url": "/examenvormen/nederlands-boost-do/communicatiemodel-leeg.svg",
+          "zones": [
+            [
+              7.6,
+              11.9,
+              6.8,
+              10.6
+            ]
+          ],
+          "uitleg": "Dat is de context."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel het element van het communicatiemodel aan het voorbeeld. Situatie: de directeur mailt alle ouders dat de school morgen dicht is door een storm.",
+          "paren": [
+            [
+              "zender",
+              "de directeur"
+            ],
+            [
+              "ontvanger",
+              "de ouders"
+            ],
+            [
+              "kanaal",
+              "de mail"
+            ],
+            [
+              "context",
+              "de storm die eraan komt"
+            ]
+          ],
+          "extra": [
+            "het rijmschema"
+          ],
+          "uitleg": "Een rijmschema hoort bij poëzie."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Interne of externe ruis?",
+          "kolommen": [
+            "interne ruis",
+            "externe ruis"
+          ],
+          "items": [
+            [
+              "je bent met je gedachten bij je voetbalmatch",
+              "interne ruis"
+            ],
+            [
+              "de bouwwerf naast de klas",
+              "externe ruis"
+            ],
+            [
+              "je kent het onderwerp helemaal niet",
+              "interne ruis"
+            ],
+            [
+              "het beeld van je videogesprek bevriest",
+              "externe ruis"
+            ],
+            [
+              "je hebt hoofdpijn",
+              "interne ruis"
+            ]
+          ],
+          "uitleg": "Interne ruis zit in de zender of de ontvanger zelf."
+        },
+        {
+          "casus": "De stad hangt overal affiches op: 'Fiets veilig: draag een helm!' Een maand later blijkt dat jongeren de affiche vooral delen omdat de foto er grappig uitziet. Bijna niemand draagt meer een helm.",
+          "vragen": [
+            {
+              "type": "keuzelijst",
+              "vraag": "Wat de stad wou bereiken, een helm laten dragen, is het [[*doel|effect|kanaal]].",
+              "uitleg": "Het doel is wat de zender wil bereiken."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "Dat jongeren de affiche vooral grappig vinden, is het [[*effect|doel|context]].",
+              "uitleg": "Het effect is wat er werkelijk gebeurt."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Wat besluit je?",
+              "opties": [
+                "het effect wijkt af van het doel",
+                "doel en effect vallen hier netjes samen",
+                "de affiche heeft eigenlijk geen zender",
+                "het kanaal is hier de helm zelf"
+              ],
+              "antwoord": 0,
+              "uitleg": "Doel en effect lopen uit elkaar."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "Naar het doel is deze affiche een [[*persuasieve|narratieve|literaire]] tekst.",
+              "uitleg": "Ze wil je gedrag beïnvloeden."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je vertelt een vriend over je nieuwe job via een spraakbericht en daarna nog eens in een mail. Wat blijft gelijk?",
+          "opties": [
+            "zender, boodschap en ontvanger",
+            "enkel het kanaal blijft hetzelfde",
+            "het kanaal en de ontvanger samen",
+            "niets, want alles verandert mee"
+          ],
+          "antwoord": 0,
+          "uitleg": "Enkel de weg, het kanaal, verandert."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "'Doe de deur dicht.' Waarom klinkt die zin anders van je vriend dan van de directeur?",
+          "opties": [
+            "de context is anders",
+            "het kanaal is anders",
+            "de boodschap is langer",
+            "er is meer externe ruis"
+          ],
+          "antwoord": 0,
+          "uitleg": "De relatie tussen zender en ontvanger hoort bij de context."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over het communicatiemodel?",
+          "rijen": [
+            "Ruis kan ook in de ontvanger zelf zitten.",
+            "Doel en effect zijn altijd hetzelfde.",
+            "Een bericht zonder zender is minder betrouwbaar.",
+            "Bij reclame zijn de acteurs de zender."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Bij reclame is de adverteerder de zender."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Welke tekstsoort is deze tekst: informatief, prescriptief of narratief?",
+          "kolommen": [
+            "informatief",
+            "prescriptief",
+            "narratief"
+          ],
+          "items": [
+            [
+              "een krantenartikel over de nieuwe tramlijn",
+              "informatief"
+            ],
+            [
+              "een handleiding van een printer",
+              "prescriptief"
+            ],
+            [
+              "een vlog over een reis door Portugal",
+              "narratief"
+            ],
+            [
+              "het schoolreglement",
+              "prescriptief"
+            ],
+            [
+              "een interview met een dokter",
+              "informatief"
+            ]
+          ],
+          "uitleg": "Prescriptief schrijft voor hoe je iets doet."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Welke tekstsoort is deze tekst: persuasief, opiniërend of argumentatief?",
+          "kolommen": [
+            "persuasief",
+            "opiniërend",
+            "argumentatief"
+          ],
+          "items": [
+            [
+              "een reclamespot voor een energiedrank",
+              "persuasief"
+            ],
+            [
+              "een filmrecensie met vier sterren",
+              "opiniërend"
+            ],
+            [
+              "een betoog over gratis openbaar vervoer",
+              "argumentatief"
+            ],
+            [
+              "een folder van een partij voor de verkiezingen",
+              "persuasief"
+            ],
+            [
+              "een productreview van een gsm",
+              "opiniërend"
+            ]
+          ],
+          "uitleg": "Een argumentatieve tekst bouwt het standpunt op met argumenten."
+        },
+        {
+          "casus": "Lees de tekst.\n\n'Ben jij die jongere die elke ochtend moe opstaat? Dan heb je Vitaboost nodig! Eén blikje en je knalt de dag door. Alle toppers drinken het. Nu in promo: twee halen, één betalen!'",
+          "vragen": [
+            {
+              "type": "meerkeuze",
+              "vraag": "Wat is het hoofddoel van de zender?",
+              "opties": [
+                "je het drankje laten kopen",
+                "je uitleggen hoe energie werkt",
+                "je een spannend verhaal vertellen",
+                "zijn eerlijke oordeel over drankjes geven"
+              ],
+              "antwoord": 0,
+              "uitleg": "Het is reclame."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "Deze tekst is [[*persuasief|argumentatief|prescriptief]].",
+              "uitleg": "Hij wil beïnvloeden, zonder sterke argumenten."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Waarom is dit geen argumentatieve tekst?",
+              "opties": [
+                "hij beïnvloedt zonder redenering",
+                "er staat geen enkel woord in hoofdletters in",
+                "hij is veel te kort om een betoog te zijn",
+                "er staat geen datum of plaats bij de reclame"
+              ],
+              "antwoord": 0,
+              "uitleg": "Argumentatieve teksten leunen op de redenering zelf."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een artikel in een tijdschrift prijst een nieuwe sportdrank en onderaan staat klein 'in samenwerking met Hydrafit'. Wat is dit?",
+          "opties": [
+            "een publireportage",
+            "een informatief artikel",
+            "een recensie",
+            "een narratieve tekst"
+          ],
+          "antwoord": 0,
+          "uitleg": "Betaalde reclame in de vorm van een artikel."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een satirische nieuwssite schrijft dat de minister op Mars gaat wonen. Waarom is dat geen informatieve tekst?",
+          "opties": [
+            "het doel is je te laten lachen",
+            "er staat helemaal geen auteur bij",
+            "het gaat over de ruimte en Mars",
+            "satire is altijd een prescriptieve tekst"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je kijkt naar het doel van de zender."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over de tekstsoorten?",
+          "rijen": [
+            "Een strip kan literair zijn.",
+            "Eén tekst hoort altijd bij maar één tekstsoort.",
+            "Een recept is prescriptief.",
+            "Een pleidooi is narratief."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Een pleidooi is argumentatief. Bij gemengde teksten kijk je naar het hoofddoel."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel het woord aan zijn oorsprong.",
+          "paren": [
+            [
+              "persuasief",
+              "overtuigen"
+            ],
+            [
+              "narratief",
+              "vertellen"
+            ],
+            [
+              "prescriptief",
+              "voorschrijven"
+            ]
+          ],
+          "extra": [
+            "oordelen in de krant"
+          ],
+          "uitleg": "Persuadere is overtuigen, narrare is vertellen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Twee leerlingen schrijven over de nieuwe schoolbel. Lena schrijft: 'Die bel is vreselijk, echt niet om aan te horen.' Aya schrijft: 'De bel moet weg: ze stoort de lessen ernaast, ze schrikt jonge kinderen af en een zachtere bel kost maar twintig euro.' Wat klopt?",
+          "opties": [
+            "Aya bouwt haar oordeel op met argumenten",
+            "Lena's tekst heeft helemaal geen standpunt",
+            "Aya's tekst geeft helemaal geen mening",
+            "Lena's tekst is een literaire tekst"
+          ],
+          "antwoord": 0,
+          "uitleg": "Allebei hebben ze een standpunt."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Literaire teksten hebben een [[*esthetische|voorschrijvende|zakelijke]] waarde en spelen in op emoties.",
+          "uitleg": "Een gedicht of een kortverhaal is literair."
+        },
+        {
+          "casus": "Lees de tekst.\n\n'Zet de bloem, het zout en de gist in een kom. Voeg langzaam 300 ml lauw water toe. Kneed tien minuten. Laat het deeg een uur rijzen.'",
+          "vragen": [
+            {
+              "type": "keuzelijst",
+              "vraag": "Deze tekst is [[*prescriptief|narratief|opiniërend]].",
+              "uitleg": "Hij schrijft voor wat je in welke volgorde doet."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Wat is het doel van de zender?",
+              "opties": [
+                "je stap voor stap iets leren doen",
+                "je overtuigen om brood te kopen",
+                "je oordeel over brood vragen",
+                "je vertellen wat hij gisteren deed"
+              ],
+              "antwoord": 0,
+              "uitleg": "Wie instructies geeft, wil dat je daarna zelf iets kan."
+            }
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welke vragen stel je als je het communicatiemodel op een tekst toepast?",
+          "rijen": [
+            "Wie is de zender?",
+            "Voor wie is de tekst bedoeld?",
+            "Hoeveel strofen telt de tekst?",
+            "Wat wil de zender bereiken?"
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Het aantal strofen hoort bij de vorm."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je met één woord de drager waarlangs een boodschap gaat, zoals een mail of een telefoon?",
+          "antwoord": [
+            "kanaal",
+            "het kanaal"
+          ],
+          "uitleg": "Het kanaal."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een bericht op een forum helemaal in hoofdletters komt meestal over als [[*schreeuwerig|vriendelijk|zakelijk]].",
+          "uitleg": "Hoofdletters worden gelezen als roepen."
+        },
+        {
+          "type": "open",
+          "vraag": "Leg met een eigen voorbeeld uit wat het verschil is tussen interne en externe ruis.",
+          "antwoord": "Interne ruis zit in de zender of de ontvanger zelf, bijvoorbeeld als je moe bent en maar de helft hoort. Externe ruis komt van buitenaf, zoals lawaai van een bouwwerf tijdens een gesprek."
+        }
+      ]
+    },
+    {
+      "titel": "Hoofdgedachte, alinea en structuuraanduiders — pittig",
+      "niveau": "boost-dubbele-finaliteit",
+      "gratis": false,
+      "vragen": [
+        {
+          "casus": "Lees de tekst.\n\nSlapen is geen tijdverlies\n\n(1) Veel jongeren zitten 's avonds nog lang op hun gsm. Ze gaan pas na middernacht slapen, terwijl de school om half negen begint.\n\n(2) Dat slaaptekort heeft gevolgen. Wie te weinig slaapt, onthoudt minder van de les. Bovendien raak je sneller geïrriteerd en maak je meer ruzie.\n\n(3) Toch is het niet moeilijk om daar iets aan te doen. Leg je gsm bijvoorbeeld een uur voor het slapen in een andere kamer.\n\n(4) Kortom: wie zijn slaap serieus neemt, presteert beter en voelt zich beter.",
+          "vragen": [
+            {
+              "type": "invultekst",
+              "vraag": "Wat is het onderwerp van deze tekst? Hoogstens twee woorden.",
+              "antwoord": [
+                "slaap",
+                "slapen",
+                "slaaptekort",
+                "slaap bij jongeren"
+              ],
+              "uitleg": "Het onderwerp vat je in een paar woorden."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Wat is de hoofdgedachte?",
+              "opties": [
+                "goed slapen doet beter presteren",
+                "jongeren zitten 's avonds veel te lang op hun gsm",
+                "de school begint 's ochtends al om half negen",
+                "een gsm hoort 's nachts niet in de slaapkamer"
+              ],
+              "antwoord": 0,
+              "uitleg": "De hoofdgedachte staat hier in het slot, na 'kortom'."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "Alinea 1 is de [[*inleiding|midden|slot]] van de tekst.",
+              "uitleg": "In de inleiding zet de schrijver het onderwerp neer."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "Het signaalwoord 'bovendien' in alinea 2 kondigt [[*een opsomming|een tegenstelling|een besluit]] aan.",
+              "uitleg": "Het voegt iets toe in dezelfde richting."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "'Toch' in alinea 3 legt een [[*tegenstelling|reden|opsomming]].",
+              "uitleg": "Het draait de richting om."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "'Bijvoorbeeld' in alinea 3 kondigt [[*een voorbeeld|een gevolg|een besluit]] aan.",
+              "uitleg": "Na zo'n woord komt geen nieuw argument."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "'Dat' in het begin van alinea 2 verwijst naar [[*het te laat gaan slapen|de school|de gsm]].",
+              "uitleg": "Een verwijswoord kan naar een hele vorige zin verwijzen."
+            },
+            {
+              "type": "tabel",
+              "vraag": "Hoofdzaak of bijzaak in deze tekst?",
+              "rijen": [
+                "slaaptekort maakt dat je minder onthoudt",
+                "de school begint om half negen",
+                "wie goed slaapt, presteert beter"
+              ],
+              "antwoord": [
+                0,
+                1,
+                0
+              ],
+              "uitleg": "Bijzaken komen er alleen maar bij.",
+              "kolommen": [
+                "hoofdzaak",
+                "bijzaak"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel het begrip aan het voorbeeld bij een tekst over sport.",
+          "paren": [
+            [
+              "onderwerp",
+              "sport"
+            ],
+            [
+              "hoofdgedachte",
+              "jongeren moeten meer sporten"
+            ],
+            [
+              "hoofdpunt",
+              "sport is goed voor je lichaam"
+            ]
+          ],
+          "extra": [
+            "een tussentitel in het vet"
+          ],
+          "uitleg": "Het onderwerp is één of enkele woorden, de hoofdgedachte een zin."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet de delen van de IMS-structuur in de juiste volgorde.",
+          "opties": [
+            "inleiding",
+            "midden",
+            "slot"
+          ],
+          "uitleg": "Het besluit staat meestal in het slot."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over alinea's en lay-out?",
+          "rijen": [
+            "In één alinea behandel je in principe één deelonderwerp.",
+            "De titel en het onderwerp zijn altijd hetzelfde.",
+            "Tussentitels laten de structuur zien nog voor je alles leest.",
+            "De hoofdgedachte hoort bij de lay-out."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Een titel wil vaak vooral je aandacht trekken."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een artikel heet 'Het einde van de stilte'. Het gaat over lawaai van vliegtuigen boven een dorp. Wat is het onderwerp?",
+          "opties": [
+            "vliegtuiglawaai",
+            "het einde van de stilte",
+            "een dorp waar het altijd stil is",
+            "vliegtuigen die vaak te laat zijn"
+          ],
+          "antwoord": 0,
+          "uitleg": "De titel trekt de aandacht, het onderwerp is waarover de tekst gaat."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is dit verstandig bij notities nemen tijdens een luistertekst?",
+          "rijen": [
+            "afkortingen gebruiken",
+            "in telegramstijl schrijven",
+            "alles in volledige zinnen schrijven",
+            "symbolen gebruiken"
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Je moet mee kunnen met het tempo."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Kan je notities zo ordenen?",
+          "rijen": [
+            "in een mindmap",
+            "in een tijdlijn",
+            "in een rijmschema",
+            "in een tabel"
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Een rijmschema hoort bij een gedicht."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Reden, gevolg, tegenstelling of voorwaarde?",
+          "kolommen": [
+            "reden",
+            "gevolg",
+            "tegenstelling",
+            "voorwaarde"
+          ],
+          "items": [
+            [
+              "want",
+              "reden"
+            ],
+            [
+              "daardoor",
+              "gevolg"
+            ],
+            [
+              "echter",
+              "tegenstelling"
+            ],
+            [
+              "mits",
+              "voorwaarde"
+            ],
+            [
+              "immers",
+              "reden"
+            ],
+            [
+              "dus",
+              "gevolg"
+            ],
+            [
+              "tenzij",
+              "voorwaarde"
+            ]
+          ],
+          "uitleg": "Want en immers geven een reden, dus en daardoor een gevolg."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Toegeving, doel, samenvatting of voorbeeld?",
+          "kolommen": [
+            "toegeving",
+            "doel",
+            "samenvatting",
+            "voorbeeld"
+          ],
+          "items": [
+            [
+              "hoewel",
+              "toegeving"
+            ],
+            [
+              "opdat",
+              "doel"
+            ],
+            [
+              "kortom",
+              "samenvatting"
+            ],
+            [
+              "zoals",
+              "voorbeeld"
+            ],
+            [
+              "ondanks",
+              "toegeving"
+            ],
+            [
+              "al met al",
+              "samenvatting"
+            ]
+          ],
+          "uitleg": "Bij een toegeving gebeurt iets toch."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Het regende de hele dag. [[Daarom]] bleven we binnen. [[Hoewel]] we ons verveelden, wilde niemand naar buiten. [[Bovendien]] was het koud. [[Kortom]], een saaie zondag.",
+          "extra": [
+            "Mits",
+            "Opdat"
+          ],
+          "uitleg": "Daarom geeft een gevolg, hoewel een toegeving."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "'Het vroor. Daardoor waren de wegen glad.' Je vervangt 'daardoor' door 'want'. Wat verandert er?",
+          "opties": [
+            "de tweede zin wordt een reden",
+            "er verandert niets aan het verband tussen de zinnen",
+            "de eerste zin wordt nu een toegeving bij de tweede",
+            "de twee zinnen leggen nu samen een tegenstelling"
+          ],
+          "antwoord": 0,
+          "uitleg": "Met 'want' zou de tweede zin uitleggen waarom het vroor, en dat klopt niet meer."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "'Naarmate de film vorderde, werd het publiek stiller.' Welk verband legt 'naarmate'?",
+          "opties": [
+            "hoe meer het ene, hoe meer het andere",
+            "een tegenstelling tussen twee verschillende zaken",
+            "een voorwaarde die eerst moet gebeuren",
+            "een voorbeeld bij een algemene regel"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je kan het vervangen door 'hoe later, hoe stiller'."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "'De spelers kregen hun nieuwe truitjes. Ze waren er heel blij mee.' Naar wie verwijst 'ze'?",
+          "opties": [
+            "de spelers",
+            "de truitjes",
+            "de supporters",
+            "de trainers"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een verwijswoord zoekt zijn plaats in de vorige zin."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Verwijswoord of signaalwoord?",
+          "rijen": [
+            "hun",
+            "hoewel",
+            "deze",
+            "daarentegen"
+          ],
+          "antwoord": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "uitleg": "Verwijswoorden wijzen terug, signaalwoorden leggen een verband.",
+          "kolommen": [
+            "verwijswoord",
+            "signaalwoord"
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over signaalwoorden?",
+          "rijen": [
+            "Een signaalwoord staat altijd vooraan in de zin.",
+            "Een tekst zonder signaalwoorden kan toch een duidelijke structuur hebben.",
+            "Aan 'dus' zie je dat er een besluit volgt."
+          ],
+          "antwoord": [
+            false,
+            true,
+            true
+          ],
+          "uitleg": "Structuur zit ook in de volgorde en de alinea's."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je zoekt in drie artikels informatie voor de vraag: 'Hoeveel slaap heeft een tiener nodig?' Wat houd je?",
+          "opties": [
+            "wat de vraag helpt beantwoorden",
+            "alles wat je mooi of opvallend vindt in de tekst",
+            "enkel de titels en de tussentitels van elk artikel",
+            "de langste alinea van elk van de drie artikels"
+          ],
+          "antwoord": 0,
+          "uitleg": "Relevant betekent: dienstig voor jouw doel."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Helpt dit om snel te zien waarover een tekst gaat?",
+          "rijen": [
+            "de titel",
+            "de tussentitels",
+            "de vetgedrukte woorden",
+            "de breedte van de marges"
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Ook beeldmateriaal stuurt je lezen."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "'Ten eerste, ten tweede, ten slotte' zijn signaalwoorden voor [[*een opsomming|een toegeving|een voorwaarde]].",
+          "uitleg": "Je komt ze vaak tegen in een instructie."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "'Opdat iedereen het kon horen, sprak ze in een micro.' 'Opdat' legt [[*een doel|een reden|een gevolg]].",
+          "uitleg": "Opdat zegt waarvóór je iets doet."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je met één woord een tekstdeel over één deelonderwerp, dat begint met een witregel of insprong?",
+          "antwoord": [
+            "alinea",
+            "een alinea"
+          ],
+          "uitleg": "Een alinea."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Hoofd- en bijzaken scheiden is de eerste stap naar een goede [[*samenvatting|titel|inleiding]].",
+          "uitleg": "Je houdt enkel wat echt telt."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Signaalwoorden helpen je om de [[*gedachtegang|lay-out|lengte]] van de schrijver te volgen.",
+          "uitleg": "Aan 'maar' zie je dat er een bocht komt."
+        },
+        {
+          "type": "open",
+          "vraag": "Leg uit wat het verschil is tussen het onderwerp en de hoofdgedachte van een tekst. Geef een voorbeeld.",
+          "antwoord": "Het onderwerp is waarover de tekst gaat, in één of enkele woorden, zoals 'slaap'. De hoofdgedachte is de belangrijkste boodschap in één zin, zoals 'wie goed slaapt, presteert beter'."
+        }
+      ]
+    },
+    {
+      "titel": "Feit en mening, stelling, argument en conclusie — pittig",
+      "niveau": "boost-dubbele-finaliteit",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "sorteren",
+          "vraag": "Feit of mening?",
+          "kolommen": [
+            "feit",
+            "mening"
+          ],
+          "items": [
+            [
+              "De nieuwe sporthal telt drie zalen.",
+              "feit"
+            ],
+            [
+              "Die sporthal is veel te klein.",
+              "mening"
+            ],
+            [
+              "De film duurde twee uur.",
+              "feit"
+            ],
+            [
+              "Die film is saai.",
+              "mening"
+            ],
+            [
+              "Volgens mij moet de bib langer open.",
+              "mening"
+            ],
+            [
+              "De bib sluit om 18 uur.",
+              "feit"
+            ]
+          ],
+          "uitleg": "Een feit kan je nagaan, een mening niet."
+        },
+        {
+          "casus": "Lees de tekst.\n\nGeef ons een fietsenstalling!\n\nOnze school moet een overdekte fietsenstalling krijgen. Nu staan meer dan tweehonderd fietsen elke dag in de regen. Natte zadels en roestige kettingen zijn het gevolg. Bovendien kiezen leerlingen vaker de auto van hun ouders als het regent, en dat zorgt voor files aan de schoolpoort. Sommigen zeggen dat zo'n stalling te duur is. Maar de stad geeft dit jaar subsidies voor fietsvoorzieningen, waardoor de school maar een klein deel zelf betaalt. Een overdekte stalling is dus een slimme keuze.",
+          "vragen": [
+            {
+              "type": "invultekst",
+              "vraag": "Hoe noem je de zin 'Onze school moet een overdekte fietsenstalling krijgen'? Eén woord.",
+              "antwoord": [
+                "stelling",
+                "de stelling"
+              ],
+              "uitleg": "De bewering waarover de discussie gaat."
+            },
+            {
+              "type": "tabel",
+              "vraag": "Wat is de rol van deze zin in het betoog?",
+              "rijen": [
+                "Nu staan meer dan tweehonderd fietsen elke dag in de regen.",
+                "Sommigen zeggen dat zo'n stalling te duur is.",
+                "Een overdekte stalling is dus een slimme keuze."
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "Het tegenargument wordt daarna weerlegd.",
+              "kolommen": [
+                "argument",
+                "tegenargument",
+                "conclusie"
+              ]
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Hoe weerlegt de schrijver het tegenargument?",
+              "opties": [
+                "met de subsidie van de stad",
+                "door het tegenargument te verzwijgen",
+                "door de tegenstanders uit te lachen",
+                "met het aantal fietsen op school"
+              ],
+              "antwoord": 0,
+              "uitleg": "Hij noemt het tegenargument eerlijk en zet er een reden tegenover."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "Het signaalwoord dat de conclusie aankondigt, is [[*dus|bovendien|maar]].",
+              "uitleg": "'Dus' kondigt het besluit aan."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Stelling: 'Gsm's horen niet thuis in de klas.' Welke zin is een standpunt?",
+          "opties": [
+            "Daar ben ik het helemaal mee eens.",
+            "Bijna elke leerling heeft een gsm.",
+            "Gsm's bestaan al meer dan dertig jaar.",
+            "Sommige scholen hebben er een regel over."
+          ],
+          "antwoord": 0,
+          "uitleg": "Een standpunt is de kant die je kiest."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Kan deze zin dienen als stelling voor een debat?",
+          "rijen": [
+            "Schooluniformen moeten verplicht worden.",
+            "België heeft tien provincies.",
+            "Fastfood moet duurder worden.",
+            "Water kookt op honderd graden."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Een goede stelling is discutabel."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over feiten, meningen en betogen?",
+          "rijen": [
+            "Een mening wordt een feit als veel mensen het ermee eens zijn.",
+            "Een goed betoog noemt ook tegenargumenten.",
+            "De conclusie mag meer beweren dan de argumenten dragen."
+          ],
+          "antwoord": [
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Dat veel mensen iets vinden, is zelf wel een feit, maar maakt de mening geen feit."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Verraadt dit woord of deze woordgroep een mening?",
+          "kolommen": [
+            "mening",
+            "gegeven"
+          ],
+          "items": [
+            [
+              "prachtig",
+              "mening"
+            ],
+            [
+              "in 2024",
+              "gegeven"
+            ],
+            [
+              "het is onaanvaardbaar dat",
+              "mening"
+            ],
+            [
+              "zou moeten",
+              "mening"
+            ],
+            [
+              "vijf kilometer",
+              "gegeven"
+            ]
+          ],
+          "uitleg": "Waardewoorden en wensen verraden een oordeel."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Aan waardewoorden zoals 'schitterend' of 'belachelijk' merk je dat de schrijver [[*subjectief|objectief|neutraal]] wordt.",
+          "uitleg": "Ook uitroeptekens verraden een oordeel."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Maakt dit een argument sterker?",
+          "rijen": [
+            "je bron noemen",
+            "je cijfers controleerbaar maken",
+            "het argument drie keer herhalen",
+            "een groter lettertype"
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            false
+          ],
+          "uitleg": "Herhaling en lettertype veranderen niets aan de redenering."
+        },
+        {
+          "casus": "Lees de brief.\n\nGeachte schepen van jeugd\n\nIk schrijf u omdat het jeugdhuis in onze gemeente op vrijdag om 22 uur sluit. Volgens mij moet het tot middernacht open blijven. Ten eerste hebben jongeren dan een veilige plek om af te spreken. Uit een bevraging van de jeugdraad blijkt bovendien dat 140 jongeren dat willen. Sommige buren vrezen lawaai. Daarom stellen wij voor dat de muziek na 22 uur binnen blijft. Kortom: een langere openingstijd is goed voor de jongeren en haalbaar voor de buurt.\n\nMet vriendelijke groeten\nLina, leerlingenraad",
+          "vragen": [
+            {
+              "type": "tabel",
+              "vraag": "Feit of mening in deze brief?",
+              "rijen": [
+                "Het jeugdhuis sluit op vrijdag om 22 uur.",
+                "Volgens mij moet het tot middernacht open blijven.",
+                "Volgens de bevraging willen 140 jongeren dat.",
+                "Een langere openingstijd is goed voor de jongeren."
+              ],
+              "antwoord": [
+                0,
+                1,
+                0,
+                1
+              ],
+              "uitleg": "Het uur en de uitkomst van de bevraging kan je nagaan.",
+              "kolommen": [
+                "feit",
+                "mening"
+              ]
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "Het standpunt van Lina is [[*voor een langere openingstijd|tegen een langere openingstijd|nog niet bepaald]].",
+              "uitleg": "Ze kiest duidelijk een kant."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "'Sommige buren vrezen lawaai' is een [[*tegenargument|conclusie|stelling]].",
+              "uitleg": "Lina noemt het bezwaar en geeft er meteen een antwoord op."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "'Kortom' kondigt [[*de conclusie|een nieuw argument|een tegenargument]] aan.",
+              "uitleg": "Het slot vat samen wat uit de argumenten volgt."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Welk register gebruikt Lina in haar brief?",
+              "opties": [
+                "formeel, met u en een nette groet",
+                "informeel, met jij en een paar emoji's",
+                "spreektaal, zoals in een chat met vrienden",
+                "dialect, omdat de schepen uit dezelfde gemeente komt"
+              ],
+              "antwoord": 0,
+              "uitleg": "Aan een onbekende volwassene schrijf je formeel."
+            }
+          ]
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Stelling, argument of conclusie?",
+          "kolommen": [
+            "stelling",
+            "argument",
+            "conclusie"
+          ],
+          "items": [
+            [
+              "De school moet elke middag soep aanbieden.",
+              "stelling"
+            ],
+            [
+              "want warme soep is gezond",
+              "argument"
+            ],
+            [
+              "omdat leerlingen na een warme maaltijd beter opletten",
+              "argument"
+            ],
+            [
+              "Soep op school is dus een goed idee.",
+              "conclusie"
+            ]
+          ],
+          "uitleg": "Na 'want' en 'omdat' komt een reden, na 'dus' het besluit."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is dit een echt argument bij de stelling 'De speelplaats moet meer groen krijgen'?",
+          "rijen": [
+            "want bomen geven schaduw op warme dagen",
+            "want ik vind dat er meer groen moet komen",
+            "want planten houden de lucht frisser",
+            "want de directeur rijdt met een blauwe auto"
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Een argument geeft een reden die echt met de stelling te maken heeft, en herhaalt het standpunt niet."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet de zinnen van dit opiniestuk in een logische volgorde.",
+          "opties": [
+            "Ik vind dat de bib ook op zondag open moet.",
+            "Ten eerste hebben veel leerlingen dan tijd om te studeren.",
+            "Ten tweede is het thuis vaak te druk om te leren.",
+            "Een zondagsopening is dus een goede zaak."
+          ],
+          "uitleg": "Eerst de stelling, dan de argumenten, dan de conclusie."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "In een gesprek over een maatschappelijk thema reageer je best [[*respectvol en oplossingsgericht|zo luid mogelijk|enkel met je eigen ervaring]].",
+          "uitleg": "Het doel is samen verder raken, niet winnen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Hoort dit bij een goed gesprek over een maatschappelijk thema?",
+          "rijen": [
+            "ingaan op wat de ander zegt",
+            "de ander onderbreken als je het oneens bent",
+            "je standpunt bijstellen als een argument klopt",
+            "enkel je eigen argumenten blijven herhalen"
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Luisteren en erop ingaan maken een gesprek sterker."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Iemand zegt: 'Een autovrije zondag is slecht voor de winkels.' Welke reactie is oplossingsgericht?",
+          "opties": [
+            "Mogen de winkels die dag dan buiten een markt houden?",
+            "Dat is onzin, want winkels zijn helemaal niet belangrijk voor een stad.",
+            "Jij denkt ook altijd alleen maar aan geld, dat weet toch iedereen.",
+            "Dan houden we dit gesprek beter meteen op, want zo komen we nergens."
+          ],
+          "antwoord": 0,
+          "uitleg": "Je erkent het bezwaar en zoekt iets waar allebei mee verder kunnen."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Wie in een gesprek eerst kort herhaalt wat de ander zei, toont dat hij [[*goed geluisterd heeft|het met alles eens is|het gesprek wil afronden]].",
+          "uitleg": "Herhalen is geen toegeven; het toont respect en voorkomt misverstanden."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Welk signaalwoord past op de puntjes? 'De speelplaats moet groener, ... bomen geven schaduw.' Eén woord.",
+          "antwoord": [
+            "want",
+            "omdat"
+          ],
+          "uitleg": "Want of omdat kondigt een reden aan."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Stelling: 'Jongeren moeten gratis met de bus kunnen.' Welk argument kan je nagaan?",
+          "opties": [
+            "in onze klas komen twaalf van de twintig leerlingen met de bus",
+            "bussen zijn gewoon superleuk",
+            "ik vind dat iedereen dat eigenlijk zou moeten verdienen, zeker jongeren",
+            "het zou echt geweldig zijn voor de hele wereld en voor iedereen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een aantal in je eigen klas kan je tellen; de andere zinnen zijn meningen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over een conclusie?",
+          "rijen": [
+            "Een conclusie volgt uit de argumenten.",
+            "Een conclusie is hetzelfde als een samenvatting.",
+            "Signaalwoorden als 'dus' en 'kortom' kondigen vaak de conclusie aan.",
+            "In de conclusie zet je je sterkste nieuwe argument."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Een conclusie trekt de lijn door en brengt niets nieuws meer aan."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "'Ik heb zelf al twee keer bijna een ongeval gehad op dat kruispunt.' Dat argument komt uit [[*eigen ervaring|een onderzoek|een krantenbericht]].",
+          "uitleg": "Het mag, en het maakt je tekst levendig."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom is één eigen ervaring alleen een zwak argument?",
+          "opties": [
+            "ze zegt nog niets over de meeste mensen",
+            "eigen ervaringen zijn eigenlijk altijd gelogen",
+            "je mag nooit 'ik' schrijven in een opiniestuk aan de gemeente",
+            "een ervaring telt in een tekst altijd als tegenargument"
+          ],
+          "antwoord": 0,
+          "uitleg": "Eén geval is geen regel; een cijfer of een bron erbij maakt het sterker."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "De gemeente moet meer fietspaden aanleggen, [[want]] veel leerlingen fietsen naar school. [[Bovendien]] is fietsen goed voor het milieu. Sommigen vinden fietspaden te duur. [[Maar]] een fietspad kost veel minder dan een nieuwe weg. [[Kortom]], fietspaden zijn een goede keuze.",
+          "extra": [
+            "Hoewel",
+            "Tenzij"
+          ],
+          "uitleg": "Want geeft een reden, bovendien voegt iets toe, maar draait de richting om en kortom besluit."
+        },
+        {
+          "type": "open",
+          "vraag": "Je praat met een klasgenoot over de stelling 'Huiswerk moet afgeschaft worden.' Hij zegt dat hij 's avonds te moe is om nog te leren. Jij bent het oneens. Schrijf in twee zinnen hoe je respectvol en oplossingsgericht reageert.",
+          "antwoord": "Ik snap dat je 's avonds moe bent, dat herken ik. Misschien kunnen we voorstellen dat er minder huiswerk komt, maar dat je een deel op school in een studie-uur mag maken?"
+        }
+      ]
+    },
+    {
+      "titel": "Bronnen wegen: objectief, gekleurd of nep — pittig",
+      "niveau": "boost-dubbele-finaliteit",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "Bekijk het bericht. Klik op de letter bij het deel waaruit blijkt dat je de zender niet kent.",
+          "afbeelding_url": "/examenvormen/nederlands-boost-do/verdacht-bericht.svg",
+          "zones": [
+            [
+              11.8,
+              10.6,
+              6.4,
+              10.0
+            ]
+          ],
+          "uitleg": "Zonder zender kan je deskundigheid, bedoeling en belang niet wegen."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de letter bij de kop met een waardewoord en uitroeptekens.",
+          "afbeelding_url": "/examenvormen/nederlands-boost-do/verdacht-bericht.svg",
+          "zones": [
+            [
+              11.8,
+              25.5,
+              6.4,
+              10.0
+            ]
+          ],
+          "uitleg": "Waardewoorden en uitroeptekens verraden een oordeel."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de letter bij de oproep die het bericht snel wil laten verspreiden.",
+          "afbeelding_url": "/examenvormen/nederlands-boost-do/verdacht-bericht.svg",
+          "zones": [
+            [
+              81.8,
+              80.9,
+              6.4,
+              10.0
+            ]
+          ],
+          "uitleg": "Nepnieuws leunt op snelle verspreiding via sociale media."
+        },
+        {
+          "casus": "Hetzelfde bericht als op de prent: 'SCHANDALIG!!! Scholen verbieden brooddozen. Vanaf volgende week moet elk kind dure warme maaltijden kopen. De media zwijgen erover! Deel dit voor het verwijderd wordt!'",
+          "vragen": [
+            {
+              "type": "tabel",
+              "vraag": "Is dit een signaal dat het bericht nepnieuws kan zijn?",
+              "rijen": [
+                "er staat geen auteur bij",
+                "er staat geen datum of bron bij",
+                "het circuleert enkel via sociale media",
+                "de kop is in hoofdletters",
+                "er staat een foto bij"
+              ],
+              "antwoord": [
+                true,
+                true,
+                true,
+                true,
+                false
+              ],
+              "uitleg": "Een foto bewijst niets: hij kan overal vandaan komen."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Wat doe je best voor je dit bericht deelt?",
+              "opties": [
+                "nagaan of een betrouwbare bron het meldt",
+                "het meteen delen, want het is erg dringend",
+                "de foto groter maken om beter te kunnen kijken",
+                "tellen hoeveel mensen het al deelden"
+              ],
+              "antwoord": 0,
+              "uitleg": "Kijk of andere, betrouwbare bronnen het melden."
+            }
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Helpt deze vraag je de betrouwbaarheid van een tekst te beoordelen?",
+          "rijen": [
+            "Wie is de zender?",
+            "Is de zender deskundig in dit onderwerp?",
+            "Hoeveel tussentitels heeft de tekst?",
+            "Is de informatie nog actueel?"
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Het aantal tussentitels zegt niets over betrouwbaarheid."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over betrouwbaarheid?",
+          "rijen": [
+            "Een tekst van een deskundige is altijd objectief.",
+            "Zodra een tekst bronnen vermeldt, is hij betrouwbaar.",
+            "Veel spelfouten zijn een waarschuwingslicht.",
+            "Een deskundige kan ook een belang hebben."
+          ],
+          "antwoord": [
+            false,
+            false,
+            true,
+            true
+          ],
+          "uitleg": "Bronnen moet je ook zelf wegen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een onderzoek over de gezondheid van energiedranken werd betaald door een fabrikant van energiedranken. Wat doe je?",
+          "opties": [
+            "extra kritisch lezen",
+            "het onderzoek meteen weggooien",
+            "het blindelings geloven",
+            "enkel de titel lezen"
+          ],
+          "antwoord": 0,
+          "uitleg": "De opdrachtgever kan belang hebben bij de uitkomst. Dat maakt het niet meteen waardeloos."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een artikel over de regels voor bromfietsen dateert van 2012. Waarom ben je voorzichtig?",
+          "opties": [
+            "de regels kunnen intussen veranderd zijn",
+            "artikels uit 2012 zijn altijd nepnieuws",
+            "er staan te weinig foto's bij",
+            "het is te lang geleden geschreven om te lezen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Wetgeving verouderd snel."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom weegt een krantenartikel meestal zwaarder dan een doorgestuurd bericht in een groepschat?",
+          "opties": [
+            "het passeerde een redactie",
+            "het is altijd langer",
+            "het staat op papier",
+            "kranten schrijven nooit fouten"
+          ],
+          "antwoord": 0,
+          "uitleg": "Sommige kanalen hebben redactionele controle, andere niet."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Hoe doet deze tekst zich voor?",
+          "kolommen": [
+            "publireportage",
+            "satire",
+            "nepnieuws"
+          ],
+          "items": [
+            [
+              "een 'artikel' over een nieuwe gsm, betaald door het merk",
+              "publireportage"
+            ],
+            [
+              "een grappig verzonnen nieuwsbericht op een bekende humorsite",
+              "satire"
+            ],
+            [
+              "een verzonnen bericht zonder bron dat via sociale media rondgaat",
+              "nepnieuws"
+            ]
+          ],
+          "uitleg": "Ze lenen allemaal de vorm van iets anders."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over satire en propaganda?",
+          "rijen": [
+            "Satire wil je misleiden.",
+            "Propaganda toont met opzet maar één kant.",
+            "Satire wil iets aan de kaak stellen."
+          ],
+          "antwoord": [
+            false,
+            true,
+            true
+          ],
+          "uitleg": "Het misverstand ontstaat als je satire los van zijn bron leest."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een influencer prijst een shampoo zonder te zeggen dat hij ervoor betaald wordt. Welk criterium kan je niet toepassen?",
+          "opties": [
+            "de bedoeling van de zender",
+            "de actualiteit van de tekst",
+            "de spelling van de tekst",
+            "het aantal volgers van de zender"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je denkt een eerlijke mening te lezen terwijl het reclame is."
+        },
+        {
+          "casus": "Twee krantenkoppen over dezelfde betoging:\n\nKrant 1: 'Vijfduizend jongeren eisen betere fietspaden'\nKrant 2: 'Betoging legt spitsverkeer urenlang lam'",
+          "vragen": [
+            {
+              "type": "tabel",
+              "vraag": "Klopt dit over de twee krantenkoppen?",
+              "rijen": [
+                "Allebei kunnen ze kloppen.",
+                "Eén van de twee kranten moet liegen.",
+                "Ze kiezen een andere invalshoek."
+              ],
+              "antwoord": [
+                true,
+                false,
+                true
+              ],
+              "uitleg": "Framing werkt net omdat alles waar kan zijn."
+            },
+            {
+              "type": "invultekst",
+              "vraag": "Hoe noem je het kiezen van een invalshoek die de lezer in een richting duwt? Eén woord.",
+              "antwoord": [
+                "framing"
+              ],
+              "uitleg": "Framing."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "Krant 2 zet vooral [[*de hinder|de eisen|het aantal jongeren]] in de kijker.",
+              "uitleg": "Dezelfde feiten, een ander kader."
+            }
+          ]
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel het eufemisme aan wat er eigenlijk bedoeld wordt.",
+          "paren": [
+            [
+              "prijsaanpassing",
+              "prijsverhoging"
+            ],
+            [
+              "herstructurering",
+              "ontslagen"
+            ],
+            [
+              "heengaan",
+              "sterven"
+            ]
+          ],
+          "extra": [
+            "korting"
+          ],
+          "uitleg": "Een eufemisme is een verzachtend woord voor iets onaangenaams."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Welke gevoelswaarde heeft het woord?",
+          "kolommen": [
+            "positiever",
+            "negatiever"
+          ],
+          "items": [
+            [
+              "voordelig",
+              "positiever"
+            ],
+            [
+              "goedkoop",
+              "negatiever"
+            ],
+            [
+              "overheidsuitgaven",
+              "positiever"
+            ],
+            [
+              "belastinggeld verkwisten",
+              "negatiever"
+            ]
+          ],
+          "uitleg": "Die gevoelswaarde heet de connotatie."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is dit een talig middel om subjectiviteit uit te drukken?",
+          "rijen": [
+            "beeldspraak",
+            "overdrijving",
+            "modaliteit",
+            "de bladspiegel"
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "De bladspiegel is vormgeving."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "In 'Zwijg eens even!' maakt het woordje 'eens' het bevel [[*zachter|harder|langer]].",
+          "uitleg": "Zulke woordjes heten modale partikels."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "'Een golf van klachten overspoelde de dienst.' Wat doet die beeldspraak?",
+          "opties": [
+            "ze laat de klachten voelen als een ramp",
+            "ze geeft het precieze aantal klachten weer",
+            "ze maakt de tekst een stuk objectiever",
+            "ze noemt de bron van alle klachten"
+          ],
+          "antwoord": 0,
+          "uitleg": "Beeldspraak brengt subjectiviteit binnen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Twee betrouwbare bronnen geven een ander cijfer over hetzelfde onderwerp. Wat doe je?",
+          "opties": [
+            "vergelijken hoe ze aan hun cijfers komen",
+            "het hoogste cijfer kiezen",
+            "allebei negeren",
+            "het cijfer kiezen dat jou het best uitkomt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Vaak meten ze iets anders of over een andere periode."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een recensie eindigt met: 'Een meesterwerk, als je van drie uur stilstaande beelden houdt.' De schrijver is [[*ironisch|objectief|deskundig]].",
+          "uitleg": "Hij bedoelt het omgekeerde: een dubbele bodem."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Betrouwbaar, correct of bruikbaar?",
+          "rijen": [
+            "de tekst geeft een antwoord op jouw vraag",
+            "de feiten in de tekst kloppen",
+            "de zender is deskundig en eerlijk over zijn belang"
+          ],
+          "antwoord": [
+            2,
+            1,
+            0
+          ],
+          "uitleg": "Drie verschillende dingen.",
+          "kolommen": [
+            "betrouwbaar",
+            "correct",
+            "bruikbaar"
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een frisdrankmerk schrijft een lange tekst over 'bewust bewegen'. Waarop let je vooral?",
+          "opties": [
+            "wat er niet in staat over suiker",
+            "hoe lang de tekst precies is",
+            "of er mooie foto's bij de tekst staan",
+            "of de tekst duidelijke tussentitels heeft"
+          ],
+          "antwoord": 0,
+          "uitleg": "Wat de zender weglaat, verraadt zijn doel."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je een verzachtend woord voor iets onaangenaams? Eén woord.",
+          "antwoord": [
+            "eufemisme",
+            "een eufemisme"
+          ],
+          "uitleg": "Een eufemisme, zoals heengaan voor sterven."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een eenzijdige, meestal politieke tekst die met opzet één kant toont, heet [[*propaganda|satire|een recensie]].",
+          "uitleg": "Propaganda wil beïnvloeden, niet informeren."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een verborgen betekenis onder de letterlijke tekst noem je een [[*dubbele bodem|eufemisme|connotatie]].",
+          "uitleg": "Wie hem mist, leest ironie letterlijk."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Kleurt dit woord een krantenkop?",
+          "rijen": [
+            "eindelijk",
+            "zogenaamd",
+            "dinsdag",
+            "dramatisch"
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "'Dinsdag' is een gegeven."
+        },
+        {
+          "type": "open",
+          "vraag": "Leg uit waarom framing geen liegen is, maar je toch kan sturen. Geef een voorbeeld.",
+          "antwoord": "Bij framing kan alles wat er staat waar zijn. De schrijver kiest wel welke feiten hij belicht en met welke woorden. Een betoging kan 'duizenden op straat voor het klimaat' of 'verkeerschaos in het centrum' heten."
+        }
+      ]
+    },
+    {
+      "titel": "Standaardtaal, tussentaal en register — pittig",
+      "niveau": "boost-dubbele-finaliteit",
+      "gratis": false,
+      "vragen": [
+        {
+          "casus": "Lees de mail.\n\nOnderwerp: vakantiejob\n\nDag mevrouw!!\n\nIk heb gezien da ge nog iemand zoekt voor in de zomer. Ik ben 16 jaar en ik ben echt nen harde werker. Ik kan beginnen vanaf 1 juli. Laat ff iets weten aub 😊\n\nGroetjes,\nJasper",
+          "vragen": [
+            {
+              "type": "keuzelijst",
+              "vraag": "Voor deze mail past het [[*formele|informele]] register.",
+              "uitleg": "Je kent de ontvanger niet en er staat iets op het spel."
+            },
+            {
+              "type": "tabel",
+              "vraag": "Past dit in Jaspers mail?",
+              "rijen": [
+                "'ge' in plaats van 'u'",
+                "'ff' en 'aub'",
+                "de datum waarop hij kan beginnen",
+                "'Groetjes' als afsluiting"
+              ],
+              "antwoord": [
+                1,
+                1,
+                0,
+                1
+              ],
+              "uitleg": "Hij moet de ontvanger met u aanspreken en volledige woorden gebruiken.",
+              "kolommen": [
+                "past",
+                "past niet"
+              ]
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "'Da ge' en 'nen harde werker' zijn [[*tussentaal|vakjargon|standaardtaal]].",
+              "uitleg": "Tussentaal zit tussen dialect en standaardtaal in."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Welke afsluiting kiest Jasper beter?",
+              "opties": [
+                "Met vriendelijke groeten",
+                "Tot gauw en een fijne dag!",
+                "Ciao en tot heel snel",
+                "Doei en tot in de zomer, Jasper"
+              ],
+              "antwoord": 0,
+              "uitleg": "De andere horen in een bericht aan iemand die je goed kent."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Waarom let Jasper beter op zijn taal in deze mail dan in een appje aan een vriend?",
+              "opties": [
+                "de ontvanger vormt er een beeld mee",
+                "de mail wordt anders helemaal niet verstuurd",
+                "een werkgever leest enkel zeer korte mails",
+                "in een appje mag je nooit fouten maken"
+              ],
+              "antwoord": 0,
+              "uitleg": "Je taalgebruik maakt deel uit van de indruk die je geeft."
+            }
+          ]
+        },
+        {
+          "type": "sorteren",
+          "vraag": "In welk register staat deze zin?",
+          "kolommen": [
+            "formeel",
+            "neutraal",
+            "informeel"
+          ],
+          "items": [
+            [
+              "Gelieve mij zo spoedig mogelijk te contacteren.",
+              "formeel"
+            ],
+            [
+              "Kan je me laten weten wanneer de les begint?",
+              "neutraal"
+            ],
+            [
+              "Hey, stuur ff wanneer we afspreken 😉",
+              "informeel"
+            ],
+            [
+              "Geachte heer, mevrouw",
+              "formeel"
+            ],
+            [
+              "Zie je morgen!",
+              "informeel"
+            ]
+          ],
+          "uitleg": "Het neutrale register kan overal."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over register?",
+          "rijen": [
+            "Informeel taalgebruik is altijd fout.",
+            "Het register hangt af van ontvanger en situatie.",
+            "Een bericht blijft best in één register.",
+            "Een formele brief sluit je af met 'groetjes'."
+          ],
+          "antwoord": [
+            false,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Informele taal is pas ongepast in een formele situatie."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je mailt een jeugdhuis, maar je kent de naam van de contactpersoon niet. Welke aanspreking kies je?",
+          "opties": [
+            "Geachte heer of mevrouw",
+            "Hallo daar, alles goed?",
+            "Beste vriend van het jeugdhuis",
+            "Dag allemaal daar"
+          ],
+          "antwoord": 0,
+          "uitleg": "Als je de naam niet kent, gebruik je de neutrale formele aanspreking."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom schrijf je in een klachtenmail beter geen rij uitroeptekens?",
+          "opties": [
+            "ze komen boos over",
+            "ze tellen als spelfouten",
+            "de ontvanger kan ze niet lezen",
+            "ze maken de mail te lang"
+          ],
+          "antwoord": 0,
+          "uitleg": "Wie zakelijk en concreet blijft, krijgt sneller een antwoord."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Spreek je deze persoon in het Nederlands meestal met 'u' aan?",
+          "rijen": [
+            "de directeur van een bedrijf waar je solliciteert",
+            "je beste vriendin",
+            "een onbekende oudere vrouw op de bus",
+            "je broer"
+          ],
+          "antwoord": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "uitleg": "Het gaat om de afstand in de relatie.",
+          "kolommen": [
+            "u",
+            "je"
+          ]
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel de eis aan haar betekenis.",
+          "paren": [
+            [
+              "gepast",
+              "past bij de ontvanger en de situatie"
+            ],
+            [
+              "correct",
+              "zonder spel- en taalfouten"
+            ],
+            [
+              "helder",
+              "duidelijk en begrijpelijk"
+            ]
+          ],
+          "extra": [
+            "zo lang mogelijk"
+          ],
+          "uitleg": "Helder, gepast, correct en vlot zijn vier aparte eisen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je de ongeschreven omgangsregels die bepalen wat beleefd is in een gesprek? Eén woord.",
+          "antwoord": [
+            "beleefdheidsconventies",
+            "beleefdheidsconventie",
+            "de beleefdheidsconventies"
+          ],
+          "uitleg": "Beleefdheidsconventies, zoals iemand laten uitspreken."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Welke taalvariëteit is dit?",
+          "kolommen": [
+            "nationale",
+            "regionale",
+            "sociale",
+            "situationele"
+          ],
+          "items": [
+            [
+              "'pinpas' in Nederland, 'bankkaart' in Vlaanderen",
+              "nationale"
+            ],
+            [
+              "een West-Vlaams dialect",
+              "regionale"
+            ],
+            [
+              "jongerentaal op de speelplaats",
+              "sociale"
+            ],
+            [
+              "anders praten op een begrafenis dan op café",
+              "situationele"
+            ]
+          ],
+          "uitleg": "Situationele variatie hangt af van het moment en de gelegenheid."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Standaardtaal, tussentaal, dialect of jargon?",
+          "kolommen": [
+            "standaardtaal",
+            "tussentaal",
+            "dialect",
+            "jargon"
+          ],
+          "items": [
+            [
+              "'De patiënt vertoont dyspneu.'",
+              "jargon"
+            ],
+            [
+              "'Hebde gij dat gezien?'",
+              "tussentaal"
+            ],
+            [
+              "'Heb jij dat gezien?'",
+              "standaardtaal"
+            ],
+            [
+              "'De server crasht door een memory leak.'",
+              "jargon"
+            ]
+          ],
+          "uitleg": "Jargon is de vaktaal van een beroepsgroep."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over taalvariëteiten?",
+          "rijen": [
+            "Tussentaal en dialect zijn hetzelfde.",
+            "Een dialect hoort bij een streek.",
+            "Standaardtaal is de enige correcte vorm; al de rest is fout.",
+            "Jongerentaal wordt beïnvloed door andere talen."
+          ],
+          "antwoord": [
+            false,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Variëteiten zijn niet fout, ze zijn gebonden aan een situatie."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een West-Vlaming en een Limburger verstaan elkaars dialect nauwelijks. Waarvoor is de standaardtaal dan handig?",
+          "opties": [
+            "om elkaar overal te verstaan",
+            "om het dialect helemaal te laten verdwijnen",
+            "om veel sneller te kunnen spreken",
+            "om elk vakjargon te vermijden"
+          ],
+          "antwoord": 0,
+          "uitleg": "Standaardtaal is bruikbaar over heel het taalgebied heen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een dokter zegt tegen een patiënt: 'U hebt een fractuur van de radius.' Wat is het probleem?",
+          "opties": [
+            "het jargon sluit de patiënt uit",
+            "de dokter spreekt een streekdialect",
+            "de dokter gebruikt jongerentaal",
+            "de zin is veel te informeel"
+          ],
+          "antwoord": 0,
+          "uitleg": "Binnen de groep is jargon efficiënt, erbuiten werkt het als een drempel."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is dit non-verbale communicatie?",
+          "rijen": [
+            "mimiek en gebaren",
+            "oogcontact",
+            "de spelling van je mail",
+            "je houding en afstand",
+            "het tempo van je spreken"
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true,
+            true
+          ],
+          "uitleg": "Spelling is verbaal en schriftelijk."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een leerling kijkt de leerkracht tijdens een gesprek niet aan. In zijn cultuur is dat respectvol. Wat leer je daaruit?",
+          "opties": [
+            "oogcontact is cultuurgebonden",
+            "de leerling is onbeleefd",
+            "oogcontact betekent overal hetzelfde",
+            "de leerling luistert niet"
+          ],
+          "antwoord": 0,
+          "uitleg": "Non-verbale signalen krijgen hun betekenis van de cultuur."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Je taalgebruik is een deel van je [[*identiteit|register|jargon]]: anderen leiden er een beeld van jou uit af.",
+          "uitleg": "En jij oordeelt ook over anderen op basis van hoe ze praten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een folder staat vol jongerentaal. Wat vertelt die keuze je?",
+          "opties": [
+            "voor wie de folder bedoeld is",
+            "hoeveel fouten in de tekst staan",
+            "hoe lang de tekst precies is",
+            "of de tekst over sport gaat"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een tekst vol jongerentaal mikt op een ander publiek."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "De drie registers zijn formeel, [[*neutraal|regionaal|situationeel]] en informeel.",
+          "uitleg": "Het neutrale register is het veilige midden."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Wie 'je' zegt waar iemand 'u' verwacht, kan [[*onbeleefd|vriendelijker|formeler]] overkomen zonder dat te willen.",
+          "uitleg": "Het gaat vaak om hoe je iets zegt."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je de taalvorm tussen dialect en standaardtaal, die je over heel Vlaanderen hoort? Eén woord.",
+          "antwoord": [
+            "tussentaal",
+            "de tussentaal"
+          ],
+          "uitleg": "Tussentaal."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Jongerentaal is [[*niet fout, maar hoort in een andere context|altijd fout Nederlands|enkel geschreven taal]].",
+          "uitleg": "In een sollicitatiegesprek is ze ongepast."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Hoe noem je de toon en woordkeuze die je aan de situatie aanpast? Het [[*register|dialect|jargon]].",
+          "uitleg": "Formeel, neutraal of informeel."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Hoort dit bij een formele mail?",
+          "rijen": [
+            "de ontvanger aanspreken met u",
+            "smileys",
+            "volledige zinnen zonder afkortingen"
+          ],
+          "antwoord": [
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Smileys horen bij informele communicatie."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Dezelfde boodschap schrijf je anders aan je beste vriendin dan aan [[*de directeur|je broer|een klasgenoot]].",
+          "uitleg": "Het register hangt af van de ontvanger."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je de vaktaal van een beroepsgroep? Eén woord.",
+          "antwoord": [
+            "jargon",
+            "vakjargon",
+            "het jargon"
+          ],
+          "uitleg": "Jargon."
+        },
+        {
+          "type": "open",
+          "vraag": "Herschrijf deze zin in het formele register: 'Hey, kan ik ff langskomen voor die job?'",
+          "antwoord": "Geachte mevrouw, graag zou ik eens langskomen om meer te horen over de vakantiejob."
+        }
+      ]
+    },
+    {
+      "titel": "De woordsoorten op een rij — pittig",
+      "niveau": "boost-dubbele-finaliteit",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het tussenwerpsel.",
+          "afbeelding_url": "/examenvormen/nederlands-boost-do/zin-in-blokjes.svg",
+          "zones": [
+            [
+              19.6,
+              20.3,
+              10.2,
+              10.9
+            ]
+          ],
+          "uitleg": "Een tussenwerpsel drukt een gevoel uit en staat los van de zinsbouw."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op een voorzetsel.",
+          "afbeelding_url": "/examenvormen/nederlands-boost-do/zin-in-blokjes.svg",
+          "zones": [
+            [
+              53.1,
+              40.6,
+              11.9,
+              10.9
+            ],
+            [
+              56.9,
+              60.9,
+              8.5,
+              10.9
+            ]
+          ],
+          "uitleg": "Onder en aan geven een verhouding aan."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het bepaalde telwoord.",
+          "afbeelding_url": "/examenvormen/nederlands-boost-do/zin-in-blokjes.svg",
+          "zones": [
+            [
+              15.6,
+              40.6,
+              10.2,
+              10.9
+            ]
+          ],
+          "uitleg": "Drie noemt een precies aantal."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het bijvoeglijk naamwoord.",
+          "afbeelding_url": "/examenvormen/nederlands-boost-do/zin-in-blokjes.svg",
+          "zones": [
+            [
+              27.0,
+              40.6,
+              10.2,
+              10.9
+            ]
+          ],
+          "uitleg": "'Oude' zegt iets over 'munten'."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het voegwoord.",
+          "afbeelding_url": "/examenvormen/nederlands-boost-do/zin-in-blokjes.svg",
+          "zones": [
+            [
+              18.1,
+              60.9,
+              6.8,
+              10.9
+            ]
+          ],
+          "uitleg": "'En' verbindt twee zinnen."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het bezittelijk voornaamwoord.",
+          "afbeelding_url": "/examenvormen/nederlands-boost-do/zin-in-blokjes.svg",
+          "zones": [
+            [
+              60.6,
+              20.3,
+              10.2,
+              10.9
+            ]
+          ],
+          "uitleg": "'Mijn' zegt bij wie de zus hoort."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het onbepaald voornaamwoord.",
+          "afbeelding_url": "/examenvormen/nederlands-boost-do/zin-in-blokjes.svg",
+          "zones": [
+            [
+              66.6,
+              60.9,
+              15.3,
+              10.9
+            ]
+          ],
+          "uitleg": "Iemand noemt geen bepaalde persoon."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het bijwoord van tijd.",
+          "afbeelding_url": "/examenvormen/nederlands-boost-do/zin-in-blokjes.svg",
+          "zones": [
+            [
+              30.9,
+              20.3,
+              17.0,
+              10.9
+            ]
+          ],
+          "uitleg": "Bijwoorden zeggen iets over tijd, plaats, mate of manier."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Welk soort lidwoord?",
+          "kolommen": [
+            "bepaald",
+            "onbepaald",
+            "ontkennend"
+          ],
+          "items": [
+            [
+              "de",
+              "bepaald"
+            ],
+            [
+              "een",
+              "onbepaald"
+            ],
+            [
+              "geen",
+              "ontkennend"
+            ],
+            [
+              "het",
+              "bepaald"
+            ]
+          ],
+          "uitleg": "Geen is de ontkenning van een."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Bijvoeglijk naamwoord of bijwoord?",
+          "rijen": [
+            "snel in 'Hij loopt snel'",
+            "snelle in 'de snelle loper'",
+            "gelukkig in 'Gelukkig regende het niet'",
+            "gelukkig in 'een gelukkig kind'"
+          ],
+          "antwoord": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "uitleg": "Zegt het iets over een naamwoord, dan is het bijvoeglijk.",
+          "kolommen": [
+            "bijvoeglijk naamwoord",
+            "bijwoord"
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over woordsoorten?",
+          "rijen": [
+            "'Veel' is een onbepaald telwoord.",
+            "Een bijvoeglijk naamwoord zegt iets over een werkwoord.",
+            "Een tussenwerpsel kan je weglaten zonder dat de zin breekt."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Een woord dat iets over een werkwoord zegt, is een bijwoord."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "'over' in 'Welke woordsoort is het vetgedrukte woord? 'De kat sprong over de muur, maar ze viel bijna.''",
+          "kolommen": [
+            "voorzetsel",
+            "voegwoord",
+            "bijwoord"
+          ],
+          "items": [
+            [
+              "over",
+              "voorzetsel"
+            ],
+            [
+              "maar",
+              "voegwoord"
+            ],
+            [
+              "bijna",
+              "bijwoord"
+            ]
+          ],
+          "uitleg": "Bijna zegt iets over de mate."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je twijfelt tussen 'de gekleurde muur' en 'de muur is gekleurd'. Wat helpt je kiezen?",
+          "opties": [
+            "de woordsoort",
+            "het aantal lettergrepen",
+            "de hoofdgedachte van de tekst",
+            "het register van de tekst"
+          ],
+          "antwoord": 0,
+          "uitleg": "Of je 'gekleurde' of 'gekleurd' schrijft, hangt af van de woordsoort."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Welk soort voornaamwoord is het?",
+          "kolommen": [
+            "persoonlijk",
+            "bezittelijk",
+            "aanwijzend",
+            "onbepaald"
+          ],
+          "items": [
+            [
+              "hem",
+              "persoonlijk"
+            ],
+            [
+              "jouw",
+              "bezittelijk"
+            ],
+            [
+              "deze",
+              "aanwijzend"
+            ],
+            [
+              "niemand",
+              "onbepaald"
+            ],
+            [
+              "men",
+              "onbepaald"
+            ],
+            [
+              "ik",
+              "persoonlijk"
+            ]
+          ],
+          "uitleg": "'Men' is onbepaald, geen persoonlijk voornaamwoord."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welk soort voornaamwoord is het eerste woord tussen aanhalingstekens?",
+          "rijen": [
+            "'zich' in 'Hij wast zich elke ochtend.'",
+            "'elkaar' in 'De zussen helpen elkaar.'",
+            "'dat' in 'Het boek dat ik las, was spannend.'",
+            "'Wie' in 'Wie heeft dat gedaan?'"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "uitleg": "Een betrekkelijk voornaamwoord begint een bijzin.",
+          "kolommen": [
+            "wederkerend",
+            "wederkerig",
+            "betrekkelijk",
+            "vragend"
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "'Ze wasten zich' en 'Ze wasten elkaar'. Wat is het verschil?",
+          "opties": [
+            "'zich': elk zichzelf; 'elkaar': over en weer",
+            "er is helemaal geen verschil in betekenis tussen de twee",
+            "'zich' is bezittelijk en 'elkaar' is een aanwijzend woord",
+            "bij 'elkaar' wast er telkens maar één persoon"
+          ],
+          "antwoord": 0,
+          "uitleg": "Wederkerend keert terug naar het onderwerp, wederkerig gaat over en weer."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Zelfstandig of bijvoeglijk gebruikt?",
+          "rijen": [
+            "'Mijn' in 'Mijn fiets staat buiten.'",
+            "'mijne' in 'De mijne staat buiten.'",
+            "'Die' in 'Die van mij is groter.'",
+            "'Dat' in 'Dat huis is te koop.'"
+          ],
+          "antwoord": [
+            1,
+            0,
+            0,
+            1
+          ],
+          "uitleg": "Bijvoeglijk staat het voor een naamwoord, zelfstandig vervangt het een naamwoord.",
+          "kolommen": [
+            "zelfstandig",
+            "bijvoeglijk"
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom schrijf je 'Ik zag hem' en niet 'Ik zag hij'?",
+          "opties": [
+            "het is hier geen onderwerp",
+            "'hij' is een bezittelijk voornaamwoord",
+            "'hem' is altijd een stuk beleefder dan 'hij'",
+            "na 'zag' komt altijd eerst een lidwoord"
+          ],
+          "antwoord": 0,
+          "uitleg": "Persoonlijke voornaamwoorden hebben een onderwerpsvorm en een andere vorm."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "In 'De man die belde, was boos' is 'die' een [[*betrekkelijk|aanwijzend|vragend]] voornaamwoord.",
+          "uitleg": "Het verwijst terug en begint een bijzin."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Verwijswoorden in een tekst zijn meestal [[*voornaamwoorden|voorzetsels|telwoorden]].",
+          "uitleg": "Een voornaamwoord vervangt een naamwoord dat eerder stond."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "In 'De [[twee]] kinderen speelden [[op]] het strand [[en]] bouwden een [[groot]] zandkasteel' staan een telwoord, een voorzetsel, een voegwoord en een bijvoeglijk naamwoord.",
+          "extra": [
+            "elkaar",
+            "oei"
+          ],
+          "uitleg": "Twee is een telwoord, op een voorzetsel, en een voegwoord, groot een bijvoeglijk naamwoord."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je met twee woorden het woord dat een persoon, dier, ding of begrip benoemt?",
+          "antwoord": [
+            "zelfstandig naamwoord",
+            "een zelfstandig naamwoord",
+            "substantief"
+          ],
+          "uitleg": "Een zelfstandig naamwoord."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "'Kat sliep op mat' klinkt vreemd omdat de [[*lidwoorden|voorzetsels|werkwoorden]] ontbreken.",
+          "uitleg": "'De kat sliep op de mat.'"
+        },
+        {
+          "type": "tabel",
+          "vraag": "Bestaat dit als soort voornaamwoord?",
+          "rijen": [
+            "wederkerend",
+            "betrekkelijk",
+            "bijwoordelijk",
+            "onbepaald"
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Er zijn acht soorten voornaamwoorden."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "'Hun' in 'hun fietsen' is een [[*bezittelijk|persoonlijk|vragend]] voornaamwoord.",
+          "uitleg": "Het zegt bij wie de fietsen horen."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "In 'Er staat iemand aan de deur' is 'iemand' een [[*onbepaald|aanwijzend|wederkerig]] voornaamwoord.",
+          "uitleg": "Net als niemand, iedereen en alles."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "'Deze' en 'dit' wijzen naar iets wat [[*dichtbij|ver weg|onbekend]] is.",
+          "uitleg": "Die en dat voor wat verder weg staat."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Bijwoorden zeggen iets over tijd, plaats, mate of [[*manier|bezit|aantal]].",
+          "uitleg": "Gisteren, daar, nauwelijks, snel."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je een woord als 'en', 'maar' of 'omdat'? Eén woord.",
+          "antwoord": [
+            "voegwoord",
+            "een voegwoord"
+          ],
+          "uitleg": "Een voegwoord."
+        },
+        {
+          "type": "open",
+          "vraag": "Leg met twee voorbeeldzinnen uit wanneer 'mooi' een bijvoeglijk naamwoord is en wanneer een bijwoord.",
+          "antwoord": "In 'een mooi lied' zegt 'mooi' iets over het zelfstandig naamwoord 'lied': bijvoeglijk naamwoord. In 'Ze zingt mooi' zegt het iets over het werkwoord 'zingt': bijwoord."
+        }
+      ]
+    },
+    {
+      "titel": "Werkwoorden, tijden en woordvorming — pittig",
+      "niveau": "boost-dubbele-finaliteit",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "tabel",
+          "vraag": "In welke tijd staat de zin?",
+          "rijen": [
+            "Wij fietsten naar zee.",
+            "Wij hebben naar zee gefietst.",
+            "Wij hadden naar zee gefietst.",
+            "Wij fietsen naar zee.",
+            "Wij zullen naar zee fietsen."
+          ],
+          "antwoord": [
+            1,
+            2,
+            3,
+            0,
+            4
+          ],
+          "uitleg": "Er zijn zes tijden; ook de voltooid toekomende tijd hoort erbij.",
+          "kolommen": [
+            "onvoltooid tegenwoordig",
+            "onvoltooid verleden",
+            "voltooid tegenwoordig",
+            "voltooid verleden",
+            "onvoltooid toekomend"
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In welke tijd staat 'Zij zal het werk morgen afgemaakt hebben'?",
+          "opties": [
+            "voltooid toekomende tijd",
+            "onvoltooid toekomende tijd",
+            "voltooid verleden tijd",
+            "voltooid tegenwoordige tijd"
+          ],
+          "antwoord": 0,
+          "uitleg": "'Zullen' maakt de toekomende tijd, het deelwoord maakt hem voltooid."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Welk soort werkwoord is het eerste woord tussen aanhalingstekens?",
+          "kolommen": [
+            "zelfstandig",
+            "hulpwerkwoord",
+            "koppelwerkwoord"
+          ],
+          "items": [
+            [
+              "'heeft' in 'Hij heeft een nieuwe fiets.'",
+              "zelfstandig"
+            ],
+            [
+              "'heeft' in 'Hij heeft hard gewerkt.'",
+              "hulpwerkwoord"
+            ],
+            [
+              "'lijkt' in 'Zij lijkt moe.'",
+              "koppelwerkwoord"
+            ],
+            [
+              "'blijft' in 'Het blijft koud.'",
+              "koppelwerkwoord"
+            ],
+            [
+              "'zal' in 'Ik zal komen.'",
+              "hulpwerkwoord"
+            ]
+          ],
+          "uitleg": "Hetzelfde woord kan zelfstandig of hulpwerkwoord zijn."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Kan dit werkwoord een koppelwerkwoord zijn?",
+          "rijen": [
+            "worden",
+            "schijnen",
+            "lopen",
+            "blijken"
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Zijn, worden, blijven, blijken, lijken, schijnen, heten, dunken."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe vind je de persoonsvorm in 'Mijn broer heeft de hele nacht gewerkt'?",
+          "opties": [
+            "zet de zin in een andere tijd",
+            "zoek het langste werkwoord",
+            "neem altijd het laatste woord",
+            "kijk welk woord met ge- begint"
+          ],
+          "antwoord": 0,
+          "uitleg": "'Heeft' wordt 'had': dat is de persoonsvorm."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "In 'Mijn broer heeft de hele nacht gewerkt' is de persoonsvorm [[*heeft|gewerkt|broer]].",
+          "uitleg": "Alleen 'heeft' verandert als je de tijd verandert."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is de zin juist gespeld?",
+          "rijen": [
+            "Hij wordt morgen zestien.",
+            "Word jij ook zestien?",
+            "Wordt jij ook zestien?",
+            "Jij wordt ook zestien.",
+            "De doos met boeken staan in de gang."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Bij jij of je achter de persoonsvorm valt de -t weg."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom is 'De doos met oude spelletjes staan op zolder' fout?",
+          "opties": [
+            "het onderwerp 'de doos' is enkelvoud",
+            "'spelletjes' moet 'spellen' zijn",
+            "'staan' moet in de verleden tijd staan",
+            "er hoort een komma na 'doos'"
+          ],
+          "antwoord": 0,
+          "uitleg": "Onderwerp en persoonsvorm moeten overeenkomen: congruentie."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Voltooid deelwoord, infinitief of stam?",
+          "kolommen": [
+            "voltooid deelwoord",
+            "infinitief",
+            "stam"
+          ],
+          "items": [
+            [
+              "gelopen",
+              "voltooid deelwoord"
+            ],
+            [
+              "wandelen",
+              "infinitief"
+            ],
+            [
+              "wandel",
+              "stam"
+            ],
+            [
+              "gewerkt",
+              "voltooid deelwoord"
+            ],
+            [
+              "zingen",
+              "infinitief"
+            ]
+          ],
+          "uitleg": "De stam krijg je door -en van de infinitief te halen."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "'Let op!' staat in de [[*gebiedende wijs|aanvoegende wijs|voltooide tijd]].",
+          "uitleg": "De imperatief heeft geen onderwerp bij zich."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "In 'Ik heb het boek uitgelezen' is het zelfstandig werkwoord [[*uitgelezen|heb|boek]].",
+          "uitleg": "De betekenis zit in 'uitgelezen'."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over werkwoorden?",
+          "rijen": [
+            "In elke deelzin staat precies één persoonsvorm.",
+            "De stam is hetzelfde als de infinitief.",
+            "Een zwak werkwoord krijgt een deelwoord op -d of -t.",
+            "Sterke werkwoorden veranderen van klinker."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            true
+          ],
+          "uitleg": "Gelopen, gezongen, gevonden zijn sterk."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Samenstelling of afleiding?",
+          "kolommen": [
+            "samenstelling",
+            "afleiding"
+          ],
+          "items": [
+            [
+              "regenjas",
+              "samenstelling"
+            ],
+            [
+              "onduidelijk",
+              "afleiding"
+            ],
+            [
+              "keukendeur",
+              "samenstelling"
+            ],
+            [
+              "leesbaar",
+              "afleiding"
+            ],
+            [
+              "schoonmaakbedrijf",
+              "samenstelling"
+            ],
+            [
+              "vriendelijkheid",
+              "afleiding"
+            ]
+          ],
+          "uitleg": "Bij een samenstelling kunnen beide delen los bestaan."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel het woord aan zijn voor- of achtervoegsel.",
+          "paren": [
+            [
+              "herlezen",
+              "her-"
+            ],
+            [
+              "schoonheid",
+              "-heid"
+            ],
+            [
+              "leesbaar",
+              "-baar"
+            ],
+            [
+              "verdwalen",
+              "ver-"
+            ]
+          ],
+          "extra": [
+            "-kast"
+          ],
+          "uitleg": "Kast is een zelfstandig woord, geen voegsel."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Uit hoeveel woorden is 'voetbalkleedkamer' samengesteld?",
+          "opties": [
+            "vier",
+            "twee",
+            "drie",
+            "vijf"
+          ],
+          "antwoord": 0,
+          "uitleg": "Voet, bal, kleed en kamer."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Zit er een tussenklank in dit woord?",
+          "rijen": [
+            "pannenkoek",
+            "boekenkast",
+            "tafelpoot",
+            "regenjas"
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            false
+          ],
+          "uitleg": "De tussenklank lijmt de twee delen aan elkaar."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Welk meervoud is juist?",
+          "kolommen": [
+            "juist",
+            "fout"
+          ],
+          "items": [
+            [
+              "leden",
+              "juist"
+            ],
+            [
+              "schepen",
+              "juist"
+            ],
+            [
+              "kinders",
+              "fout"
+            ],
+            [
+              "musea",
+              "juist"
+            ],
+            [
+              "stoelens",
+              "fout"
+            ]
+          ],
+          "uitleg": "Een meervoud op -s krijgt nooit nog -en erbij."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welk verkleinwoord is juist?",
+          "rijen": [
+            "koninkje",
+            "woninkje",
+            "koningje",
+            "leerlinkje"
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Na -ing wordt de g een k en volgt -je."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel het begrip aan het voorbeeld.",
+          "paren": [
+            [
+              "vervoeging",
+              "ik werk, jij werkt, wij werkten"
+            ],
+            [
+              "verbuiging",
+              "een mooi huis, het mooie huis"
+            ],
+            [
+              "uitgang",
+              "de -t in 'hij werkt'"
+            ]
+          ],
+          "extra": [
+            "de tussenklank in 'pannenkoek'"
+          ],
+          "uitleg": "Vervoeging is voor werkwoorden, verbuiging voor naamwoorden en bijvoeglijke naamwoorden."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "'Het mooie huis' maar 'een mooi huis': het bijvoeglijk naamwoord wordt [[*verbogen|vervoegd|afgeleid]].",
+          "uitleg": "Verbuiging is de vormverandering van bijvoeglijke naamwoorden."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je de werkwoordsvorm die in persoon en getal met het onderwerp meegaat? Eén woord.",
+          "antwoord": [
+            "persoonsvorm",
+            "de persoonsvorm"
+          ],
+          "uitleg": "De persoonsvorm."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Wat is het meervoud van 'stad'? Eén woord.",
+          "antwoord": [
+            "steden"
+          ],
+          "uitleg": "Steden: de klinker verandert, net als bij lid en schip."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "In 'Ze [[werd]] verpleegkundige' is het werkwoord een koppelwerkwoord. In 'Ze [[heeft]] gewerkt' is het een hulpwerkwoord. In 'Ze [[eet]] een appel' is het een zelfstandig werkwoord.",
+          "extra": [
+            "gelopen",
+            "wandel"
+          ],
+          "uitleg": "Een koppelwerkwoord koppelt het onderwerp aan een naamwoord."
+        },
+        {
+          "casus": "Lees het bericht van Kobe.\n\n'Hoi Sam, wordt jij morgen ook om acht uur verwacht? Ik had gisteren al mijn huiswerk gemaakt, maar mijn lijsten met woorden ligt nog thuis. Vind jij het handig als ik ze meebreng?'",
+          "vragen": [
+            {
+              "type": "tabel",
+              "vraag": "Is dit stukje juist gespeld?",
+              "rijen": [
+                "wordt jij",
+                "had gemaakt",
+                "lijsten met woorden ligt",
+                "Vind jij"
+              ],
+              "antwoord": [
+                false,
+                true,
+                false,
+                true
+              ],
+              "uitleg": "Word jij, zonder t; en 'mijn lijsten ... liggen', want het onderwerp is meervoud."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "'Ik had gisteren al mijn huiswerk gemaakt' staat in de [[*voltooid verleden tijd|onvoltooid verleden tijd|voltooid tegenwoordige tijd]].",
+              "uitleg": "Hulpwerkwoord in de verleden tijd plus deelwoord."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "'Meebreng' is een vorm van een werkwoord met het voorvoegsel [[*mee-|-breng|ge-]].",
+              "uitleg": "Mee plus brengen."
+            }
+          ]
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Wat is het voorvoegsel in 'onmogelijk'?",
+          "antwoord": [
+            "on",
+            "on-"
+          ],
+          "uitleg": "On- kan niet alleen staan."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Hoe noem je de vorm 'lopen', zonder persoon en zonder tijd? De [[*infinitief|persoonsvorm|stam]].",
+          "uitleg": "Die vorm staat in het woordenboek."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Bestaat deze werkwoordstijd?",
+          "rijen": [
+            "voltooid toekomende tijd",
+            "onvoltooid verleden tijd",
+            "half voltooide tijd"
+          ],
+          "antwoord": [
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Er zijn zes tijden."
+        },
+        {
+          "type": "open",
+          "vraag": "Leg uit hoe je het verschil ziet tussen een samenstelling en een afleiding. Geef van elk een voorbeeld.",
+          "antwoord": "Bij een samenstelling bestaan beide delen als los woord, zoals deurklink (deur en klink). Bij een afleiding komt er een voor- of achtervoegsel bij dat niet los bestaat, zoals onduidelijk (on- en duidelijk)."
+        }
+      ]
+    },
+    {
+      "titel": "Zinsdelen en samengestelde zinnen — pittig",
+      "niveau": "boost-dubbele-finaliteit",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het onderwerp.",
+          "afbeelding_url": "/examenvormen/nederlands-boost-do/zin-in-zinsdelen.svg",
+          "zones": [
+            [
+              44.4,
+              31.2,
+              38.5,
+              12.5
+            ]
+          ],
+          "uitleg": "Wie of wat gaf? De trainer van ons team: het hele stuk."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het lijdend voorwerp.",
+          "afbeelding_url": "/examenvormen/nederlands-boost-do/zin-in-zinsdelen.svg",
+          "zones": [
+            [
+              47.7,
+              51.6,
+              26.5,
+              12.5
+            ]
+          ],
+          "uitleg": "Wie of wat gaf de trainer? Een nieuw shirt."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het meewerkend voorwerp.",
+          "afbeelding_url": "/examenvormen/nederlands-boost-do/zin-in-zinsdelen.svg",
+          "zones": [
+            [
+              25.8,
+              51.6,
+              20.5,
+              12.5
+            ]
+          ],
+          "uitleg": "Je kan er 'aan' voor zetten: aan elke speler."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de bijwoordelijke bepaling.",
+          "afbeelding_url": "/examenvormen/nederlands-boost-do/zin-in-zinsdelen.svg",
+          "zones": [
+            [
+              17.1,
+              31.2,
+              16.0,
+              12.5
+            ]
+          ],
+          "uitleg": "Gisteren zegt iets over de tijd en is weglaatbaar."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de persoonsvorm.",
+          "afbeelding_url": "/examenvormen/nederlands-boost-do/zin-in-zinsdelen.svg",
+          "zones": [
+            [
+              34.5,
+              31.2,
+              8.5,
+              12.5
+            ]
+          ],
+          "uitleg": "De persoonsvorm staat in een hoofdzin op de tweede plaats."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welk zinsdeel is de woordgroep in 'Mijn zus wacht al een uur op de bus'?",
+          "rijen": [
+            "mijn zus",
+            "op de bus",
+            "al een uur"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Het voorzetsel ligt vast bij het werkwoord: je wacht óp iets.",
+          "kolommen": [
+            "onderwerp",
+            "voorzetselvoorwerp",
+            "bijwoordelijke bepaling"
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat onderscheidt 'op de bus' in 'Ze wacht op de bus' van 'op de bank' in 'Ze zit op de bank'?",
+          "opties": [
+            "bij 'wachten' ligt het voorzetsel vast",
+            "'op de bank' is het lijdend voorwerp",
+            "'op de bus' is het onderwerp van de zin",
+            "er is geen verschil tussen de twee zinsdelen"
+          ],
+          "antwoord": 0,
+          "uitleg": "'Op de bus' is een voorzetselvoorwerp, 'op de bank' een bijwoordelijke bepaling."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Werkwoordelijk of naamwoordelijk gezegde?",
+          "kolommen": [
+            "werkwoordelijk",
+            "naamwoordelijk"
+          ],
+          "items": [
+            [
+              "De kinderen zijn moe.",
+              "naamwoordelijk"
+            ],
+            [
+              "De kinderen lopen naar huis.",
+              "werkwoordelijk"
+            ],
+            [
+              "Zij wordt verpleegkundige.",
+              "naamwoordelijk"
+            ],
+            [
+              "Hij heeft gelachen.",
+              "werkwoordelijk"
+            ],
+            [
+              "Het blijft stil.",
+              "naamwoordelijk"
+            ]
+          ],
+          "uitleg": "Bij een koppelwerkwoord hoort een naamwoordelijk gezegde."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel bijwoordelijke bepalingen staan er in 'Vanochtend liep hij met zijn hond door het park'? Een getal.",
+          "antwoord": [
+            "3",
+            "drie"
+          ],
+          "uitleg": "Vanochtend, met zijn hond en door het park."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over zinsdelen?",
+          "rijen": [
+            "Een zinsdeel bestaat altijd uit één woord.",
+            "Een bijwoordelijke bepaling is meestal weglaatbaar.",
+            "De persoonsvorm ontbreekt nooit in een mededelende zin.",
+            "Je verplaatst een zinsdeel altijd in zijn geheel."
+          ],
+          "antwoord": [
+            false,
+            true,
+            true,
+            true
+          ],
+          "uitleg": "'De hond van de buren' is één zinsdeel."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe vind je het lijdend voorwerp?",
+          "opties": [
+            "wie of wat + pv + onderwerp?",
+            "aan wie + persoonsvorm + onderwerp?",
+            "wanneer of waar gebeurt het in de zin?",
+            "wie of wat + de persoonsvorm?"
+          ],
+          "antwoord": 0,
+          "uitleg": "Wie of wat + persoonsvorm geeft het onderwerp."
+        },
+        {
+          "casus": "Een bericht van de gemeente: 'Uw aanvraag voor een parkeerkaart werd afgewezen. Het dossier wordt door de dienst mobiliteit verder behandeld.'",
+          "vragen": [
+            {
+              "type": "keuzelijst",
+              "vraag": "De zinnen staan in de [[*lijdende vorm|bedrijvende vorm|gebiedende wijs]].",
+              "uitleg": "Het lijdend voorwerp is onderwerp geworden."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "In de tweede zin is 'door de dienst mobiliteit' het [[*handelend voorwerp|meewerkend voorwerp|onderwerp]].",
+              "uitleg": "Wie de handeling écht uitvoert, staat in de door-groep."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Waarom zegt de eerste zin niet wie de aanvraag afwees?",
+              "opties": [
+                "de lijdende vorm laat dat weg",
+                "de gemeente kent de naam niet",
+                "een parkeerkaart heeft geen naam",
+                "het handelend voorwerp is verplicht"
+              ],
+              "antwoord": 0,
+              "uitleg": "Zo verzwijg je wie besliste."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "Het onderwerp van de eerste zin is [[*uw aanvraag voor een parkeerkaart|werd|afgewezen]].",
+              "uitleg": "Wie of wat werd afgewezen?"
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de lijdende vorm van 'De leerlingen versieren de klas'?",
+          "opties": [
+            "De klas wordt door de leerlingen versierd.",
+            "De leerlingen worden door de klas versierd.",
+            "De klas versiert de leerlingen.",
+            "De leerlingen hebben de klas versierd."
+          ],
+          "antwoord": 0,
+          "uitleg": "Het lijdend voorwerp wordt onderwerp."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Enkelvoudig of samengesteld?",
+          "kolommen": [
+            "enkelvoudig",
+            "samengesteld"
+          ],
+          "items": [
+            [
+              "Hij belde aan en zij deed open.",
+              "samengesteld"
+            ],
+            [
+              "Gisteren fietste ze naar school.",
+              "enkelvoudig"
+            ],
+            [
+              "Ik blijf thuis omdat het regent.",
+              "samengesteld"
+            ],
+            [
+              "De hond van de buren blaft.",
+              "enkelvoudig"
+            ]
+          ],
+          "uitleg": "Tel de persoonsvormen."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Nevenschikking of onderschikking?",
+          "kolommen": [
+            "nevenschikking",
+            "onderschikking"
+          ],
+          "items": [
+            [
+              "Ik was moe, maar ik ging toch.",
+              "nevenschikking"
+            ],
+            [
+              "Ik ging toch, hoewel ik moe was.",
+              "onderschikking"
+            ],
+            [
+              "Het regent, dus we blijven binnen.",
+              "nevenschikking"
+            ],
+            [
+              "We blijven binnen omdat het regent.",
+              "onderschikking"
+            ]
+          ],
+          "uitleg": "En, maar, of, want en dus zijn nevenschikkend."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welke zinssoort is het?",
+          "rijen": [
+            "Kom onmiddellijk hier!",
+            "Wat is dat mooi!",
+            "Ga jij mee?",
+            "Het is koud."
+          ],
+          "antwoord": [
+            2,
+            3,
+            1,
+            0
+          ],
+          "uitleg": "Een uitroepteken maakt een zin nog niet uitroepend.",
+          "kolommen": [
+            "mededelend",
+            "vragend",
+            "bevelend",
+            "uitroepend"
+          ]
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "In 'Morgen ga ik naar de markt' staat het onderwerp achter de persoonsvorm. Dat heet [[*inversie|congruentie|onderschikking]].",
+          "uitleg": "Zodra iets anders vooraan staat, draait de volgorde om."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "In 'omdat het de hele dag regende' staat de persoonsvorm [[*achteraan|op de tweede plaats|vooraan]].",
+          "uitleg": "In een bijzin schuift de persoonsvorm naar achteren."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In 'Hoewel ze ziek was, speelde ze de match uit', welk deel is de bijzin?",
+          "opties": [
+            "Hoewel ze ziek was",
+            "speelde ze de match uit",
+            "de match",
+            "ze speelde"
+          ],
+          "antwoord": 0,
+          "uitleg": "Onderschikkend voegwoord vooraan en de persoonsvorm achteraan."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "In een hoofdzin staat de [[persoonsvorm]] op de tweede plaats. Staat er iets anders dan het [[onderwerp]] vooraan, dan krijg je [[inversie]].",
+          "extra": [
+            "bijzin",
+            "lijdend voorwerp"
+          ],
+          "uitleg": "'Morgen ga ik', niet 'Morgen ik ga'."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je het zinsdeel waarop de handeling van het werkwoord overgaat? Hoogstens twee woorden.",
+          "antwoord": [
+            "lijdend voorwerp",
+            "het lijdend voorwerp"
+          ],
+          "uitleg": "Het lijdend voorwerp."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is dit een nevenschikkend voegwoord?",
+          "rijen": [
+            "want",
+            "omdat",
+            "dus",
+            "hoewel"
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "En, maar, of, want, dus."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een zin met meer dan één persoonsvorm is [[*samengesteld|enkelvoudig|lijdend]].",
+          "uitleg": "Hij bestaat uit meerdere deelzinnen."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "In 'Wie heeft het raam gebroken?' begint de vraag met een vraagwoord, maar in 'Ga jij mee?' met de [[*persoonsvorm|bijzin|bijwoordelijke bepaling]].",
+          "uitleg": "Niet elke vragende zin begint met een vragend voornaamwoord."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een lijdende zin kan het handelend voorwerp weglaten, want het onderwerp is al bezet door het vroegere [[*lijdend voorwerp|meewerkend voorwerp|gezegde]].",
+          "uitleg": "'De ramen werden gelapt' is een volledige zin."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je het koppelen van twee gelijkwaardige hoofdzinnen? Eén woord.",
+          "antwoord": [
+            "nevenschikking",
+            "de nevenschikking"
+          ],
+          "uitleg": "Nevenschikking."
+        },
+        {
+          "type": "open",
+          "vraag": "Ontleed de zin 'De buurvrouw gaf mijn broer gisteren een taart' in zinsdelen.",
+          "antwoord": "De buurvrouw: onderwerp. Gaf: persoonsvorm en werkwoordelijk gezegde. Mijn broer: meewerkend voorwerp. Gisteren: bijwoordelijke bepaling. Een taart: lijdend voorwerp."
+        }
+      ]
+    },
+    {
+      "titel": "Spelling, leestekens en klanken — pittig",
+      "niveau": "boost-dubbele-finaliteit",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "tabel",
+          "vraag": "Is de werkwoordsvorm juist gespeld?",
+          "rijen": [
+            "Hij wordt morgen zestien.",
+            "Er is iets gebeurt.",
+            "Ik bereidde de soep.",
+            "Zij verhuisde naar Gent.",
+            "Ik heb me verheugt.",
+            "Wordt jij ook moe?"
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            true,
+            false,
+            false
+          ],
+          "uitleg": "Na 'is' of 'heb' staat een voltooid deelwoord: gebeurd, verheugd."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Er [[*gebeurt|gebeurd]] elke dag wel iets op de speelplaats.",
+          "uitleg": "Hier is het een persoonsvorm: stam plus t."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Gisteren is er iets vreemds [[*gebeurd|gebeurt]].",
+          "uitleg": "Na 'is' volgt een voltooid deelwoord, dat de regel van het hele werkwoord volgt."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "De kok [[*bereidde|bereide|bereidden]] gisteren een stoofpot.",
+          "uitleg": "Stam 'bereid' plus -de: twee d's."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Mijn tante [[*verhuisde|verhuiste]] vorig jaar.",
+          "uitleg": "De stam eindigt op een z, die niet bij 't kofschip hoort."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom schrijf je 'hij wordt' met dt?",
+          "opties": [
+            "stam 'word' plus t",
+            "omdat het hier een voltooid deelwoord is",
+            "omdat 'worden' een sterk werkwoord is",
+            "omdat er na 'wordt' altijd een bijzin volgt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij 'ik word' komt er geen t bij."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Hoofdletter of niet?",
+          "kolommen": [
+            "hoofdletter",
+            "kleine letter"
+          ],
+          "items": [
+            [
+              "Frans",
+              "hoofdletter"
+            ],
+            [
+              "januari",
+              "kleine letter"
+            ],
+            [
+              "Pasen",
+              "hoofdletter"
+            ],
+            [
+              "maandag",
+              "kleine letter"
+            ],
+            [
+              "de Ardennen",
+              "hoofdletter"
+            ],
+            [
+              "zomer",
+              "kleine letter"
+            ]
+          ],
+          "uitleg": "Talen, feestdagen en aardrijkskundige namen krijgen een hoofdletter."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt het diakritisch teken?",
+          "rijen": [
+            "ruïne",
+            "zee-eend",
+            "Anna's fiets",
+            "zeeën",
+            "auto-ongeval",
+            "geeerd"
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Geëerd krijgt een trema, anders lees je 'gee' als één klank."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel het teken aan zijn taak.",
+          "paren": [
+            [
+              "trema",
+              "begin hier een nieuwe klank"
+            ],
+            [
+              "koppelteken",
+              "vermijdt een klinkerbotsing in een samenstelling"
+            ],
+            [
+              "apostrof",
+              "houdt de klank in 'Anna's' open"
+            ],
+            [
+              "accentteken",
+              "legt nadruk, zoals in 'één'"
+            ]
+          ],
+          "extra": [
+            "sluit een zin af"
+          ],
+          "uitleg": "Een punt sluit een zin af, dat is geen diakritisch teken."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is dit een interpunctieteken?",
+          "rijen": [
+            "het beletselteken",
+            "het gedachtestreepje",
+            "het accentteken",
+            "de spatie"
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Een accentteken is een uitspraakteken."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "'We eten, oma!' en 'We eten oma!' Wat toont dat?",
+          "opties": [
+            "een komma verandert de betekenis",
+            "een komma staat altijd voor een naam",
+            "de uitroeptekens zijn hier allebei fout",
+            "beide zinnen betekenen precies hetzelfde"
+          ],
+          "antwoord": 0,
+          "uitleg": "Leestekens horen bij de betekenis."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Staat de komma goed?",
+          "rijen": [
+            "Toen de bel ging, stond iedereen op.",
+            "Hoewel het goot, gingen we buiten.",
+            "De jongen, met de rode jas loopt weg."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Binnen een zinsdeel hoort er geen komma."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Welk leesteken past?",
+          "kolommen": [
+            "dubbele punt",
+            "beletselteken",
+            "aanhalingstekens",
+            "gedachtestreepje"
+          ],
+          "items": [
+            [
+              "om een opsomming aan te kondigen",
+              "dubbele punt"
+            ],
+            [
+              "om een zin onaf te laten",
+              "beletselteken"
+            ],
+            [
+              "rond de letterlijke woorden van iemand",
+              "aanhalingstekens"
+            ],
+            [
+              "om een tussenzin aan te geven",
+              "gedachtestreepje"
+            ]
+          ],
+          "uitleg": "Na de dubbele punt komt wat je aankondigde."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is deze zin juist?",
+          "rijen": [
+            "Hij vroeg of ik meekwam?",
+            "Hij zei: “Ik kom morgen.”",
+            "Kom je mee?"
+          ],
+          "antwoord": [
+            false,
+            true,
+            true
+          ],
+          "uitleg": "Een indirecte vraag krijgt een punt."
+        },
+        {
+          "casus": "Lees het bericht van Lina en zoek de fouten.\n\n'Op Maandag 3 Mei ga ik met mijn klas naar de ardennen. We leren daar ook wat frans. Mama vroeg of ik mijn regenjas had ingepakt? Ik heb me echt verheugt op deze reis!'",
+          "vragen": [
+            {
+              "type": "tabel",
+              "vraag": "Is dit stukje fout?",
+              "rijen": [
+                "Maandag met een hoofdletter",
+                "Mei met een hoofdletter",
+                "ardennen met een kleine letter",
+                "frans met een kleine letter",
+                "'met mijn klas'"
+              ],
+              "antwoord": [
+                true,
+                true,
+                true,
+                true,
+                false
+              ],
+              "uitleg": "Dagen en maanden klein, aardrijkskundige namen en talen groot."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "Na 'had ingepakt' hoort een [[*punt|vraagteken]].",
+              "uitleg": "Het is een indirecte vraag."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "'Ik heb me echt [[*verheugd|verheugt]].'",
+              "uitleg": "Het voltooid deelwoord volgt het hele werkwoord: verheugen."
+            }
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klinker of medeklinker?",
+          "rijen": [
+            "y",
+            "r",
+            "u",
+            "w"
+          ],
+          "antwoord": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "uitleg": "Er zijn zes klinkerletters: a, e, i, o, u en y.",
+          "kolommen": [
+            "klinker",
+            "medeklinker"
+          ]
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Lange, korte of doffe klank?",
+          "kolommen": [
+            "lang",
+            "kort",
+            "dof"
+          ],
+          "items": [
+            [
+              "de oo in 'boot'",
+              "lang"
+            ],
+            [
+              "de o in 'bot'",
+              "kort"
+            ],
+            [
+              "de e in 'de'",
+              "dof"
+            ],
+            [
+              "de aa in 'maan'",
+              "lang"
+            ],
+            [
+              "de laatste e in 'lopen'",
+              "dof"
+            ],
+            [
+              "de a in 'man'",
+              "kort"
+            ]
+          ],
+          "uitleg": "De doffe e is nooit beklemtoond."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In 'maan' hoor je drie klanken maar zie je vier letters. Wat toont dat?",
+          "opties": [
+            "klank- en schriftbeeld verschillen",
+            "het woord is eigenlijk fout gespeld",
+            "de aa is in dit woord een doffe klank",
+            "het woord heeft eigenlijk twee lettergrepen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Klankbeeld is hoe het klinkt, schriftbeeld hoe je het schrijft."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe maak je van 'Je komt mee' hoorbaar een vraag, zonder andere woorden?",
+          "opties": [
+            "de toon op het einde omhoog",
+            "het woord 'mee' gewoon weglaten",
+            "veel luider spreken bij het eerste woord",
+            "de hele zin heel snel uitspreken"
+          ],
+          "antwoord": 0,
+          "uitleg": "Dat is intonatie."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een woord als 'brief' heeft een veranderlijk woordbeeld, want het meervoud is [[*brieven|briefen|briefs]].",
+          "uitleg": "De f wordt een v."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Je schrijft [[*'s morgens|smorgens|s'morgens]].",
+          "uitleg": "De apostrof vervangt de weggelaten letters van 'des'."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je de twee puntjes op de e in 'reünie'? Eén woord.",
+          "antwoord": [
+            "trema",
+            "een trema",
+            "het trema"
+          ],
+          "uitleg": "Een trema."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je met twee woorden tekens als het trema, het koppelteken en de apostrof samen?",
+          "antwoord": [
+            "diakritische tekens",
+            "de diakritische tekens"
+          ],
+          "uitleg": "Diakritische tekens."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Hij riep[[:]] [[“]]Kijk uit[[!]][[”]] Daarna bleef het stil[[...]]",
+          "extra": [
+            "?",
+            ";"
+          ],
+          "uitleg": "Dubbele punt, aanhalingstekens, uitroepteken en een beletselteken."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Accenttekens zoals in 'één' zijn [[*uitspraaktekens|leestekens|hoofdletters]].",
+          "uitleg": "Ze leggen nadruk."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een spatie te veel of te weinig kan de betekenis veranderen, want ook de spatie is een [[*interpunctieteken|klinker|accentteken]].",
+          "uitleg": "Ze hoort in het rijtje leestekens."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Je schrijft 'maan' met twee a's omdat de lange klank in een [[*gesloten|open]] lettergreep staat.",
+          "uitleg": "In een gesloten lettergreep schrijf je de lange klank met twee letters."
+        },
+        {
+          "type": "open",
+          "vraag": "Leg uit waarom je 'Er is iets gebeurd' met een d schrijft, maar 'Er gebeurt iets' met een t.",
+          "antwoord": "In 'er is iets gebeurd' is 'gebeurd' een voltooid deelwoord. Dat volgt het hele werkwoord 'gebeuren' en krijgt een d. In 'er gebeurt iets' is 'gebeurt' de persoonsvorm in de derde persoon: stam 'gebeur' plus t."
+        }
+      ]
+    },
+    {
+      "titel": "Betekenis, beeldspraak en gevoelswaarde — pittig",
+      "niveau": "boost-dubbele-finaliteit",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "sorteren",
+          "vraag": "Synoniem of antoniem van 'snel'?",
+          "kolommen": [
+            "synoniem",
+            "antoniem"
+          ],
+          "items": [
+            [
+              "vlug",
+              "synoniem"
+            ],
+            [
+              "traag",
+              "antoniem"
+            ],
+            [
+              "rap",
+              "synoniem"
+            ],
+            [
+              "langzaam",
+              "antoniem"
+            ]
+          ],
+          "uitleg": "Synoniemen betekenen ongeveer hetzelfde, antoniemen het tegengestelde."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is dit woord een homoniem?",
+          "rijen": [
+            "bank",
+            "slot",
+            "tafel",
+            "kussen"
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Kussen: een ding of een zoen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "'Ik ging naar de bank.' Waarom is die zin zonder meer niet duidelijk?",
+          "opties": [
+            "'bank' is een homoniem",
+            "'bank' is een antoniem",
+            "de zin bevat een eufemisme",
+            "de zin is ironisch bedoeld"
+          ],
+          "antwoord": 0,
+          "uitleg": "De context bepaalt welke betekenis geldt."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Letterlijk of figuurlijk?",
+          "kolommen": [
+            "letterlijk",
+            "figuurlijk"
+          ],
+          "items": [
+            [
+              "Ik verloor de sleutel van mijn fiets.",
+              "letterlijk"
+            ],
+            [
+              "Geduld is de sleutel tot succes.",
+              "figuurlijk"
+            ],
+            [
+              "Het regent pijpenstelen.",
+              "figuurlijk"
+            ],
+            [
+              "Het regent al de hele dag.",
+              "letterlijk"
+            ]
+          ],
+          "uitleg": "Figuurlijk staat een woord als beeld voor iets anders."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Welke vorm van beeldspraak?",
+          "kolommen": [
+            "metafoor",
+            "vergelijking",
+            "personificatie"
+          ],
+          "items": [
+            [
+              "Zij is een engel.",
+              "metafoor"
+            ],
+            [
+              "Hij is zo sterk als een beer.",
+              "vergelijking"
+            ],
+            [
+              "De wind fluisterde door de bomen.",
+              "personificatie"
+            ],
+            [
+              "Mijn kamer is een zwijnenstal.",
+              "metafoor"
+            ],
+            [
+              "Ze rent als een haas.",
+              "vergelijking"
+            ],
+            [
+              "De zon lachte ons toe.",
+              "personificatie"
+            ]
+          ],
+          "uitleg": "Bij een vergelijking staat 'als' of 'zoals'."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat doet de metafoor in 'Ik heb een berg huiswerk'?",
+          "opties": [
+            "het huiswerk voelt enorm",
+            "ze geeft het precieze aantal taken weer",
+            "ze vergelijkt huiswerk met een echte rots",
+            "ze maakt de zin een stuk objectiever"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een beeld doet iets met je gevoel wat een cijfer niet doet."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel de uitdrukking aan haar betekenis.",
+          "paren": [
+            [
+              "de kat uit de boom kijken",
+              "eerst afwachten"
+            ],
+            [
+              "de pijp aan Maarten geven",
+              "opgeven"
+            ],
+            [
+              "tranen met tuiten huilen",
+              "heel hard huilen"
+            ]
+          ],
+          "extra": [
+            "heel snel rijden"
+          ],
+          "uitleg": "Een uitdrukking betekent iets anders dan de som van haar woorden."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Uitdrukking of spreekwoord?",
+          "rijen": [
+            "Hoge bomen vangen veel wind.",
+            "de kat uit de boom kijken",
+            "Wie het kleine niet eert, is het grote niet weerd.",
+            "iemand een hart onder de riem steken"
+          ],
+          "antwoord": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "uitleg": "Een spreekwoord is een hele zin met een wijsheid.",
+          "kolommen": [
+            "uitdrukking",
+            "spreekwoord"
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom kan je 'it's raining cats and dogs' niet woord voor woord vertalen?",
+          "opties": [
+            "de betekenis volgt niet uit de losse woorden",
+            "Engelse woorden bestaan niet in het Nederlands",
+            "katten en honden zijn homoniemen",
+            "het is een spreekwoord met een levensles"
+          ],
+          "antwoord": 0,
+          "uitleg": "Uitdrukkingen leer je als geheel."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Welke vorm van humor?",
+          "kolommen": [
+            "ironie",
+            "overdrijving",
+            "woordspeling"
+          ],
+          "items": [
+            [
+              "Het giet en iemand zegt: 'Wat een heerlijk weertje.'",
+              "ironie"
+            ],
+            [
+              "'Ik heb al een miljoen keer gewacht!'",
+              "overdrijving"
+            ],
+            [
+              "Een bakker noemt zijn winkel 'Brood-nodig'.",
+              "woordspeling"
+            ],
+            [
+              "Een kapper heet 'Hair we go'.",
+              "woordspeling"
+            ],
+            [
+              "'Die tas weegt wel duizend kilo!'",
+              "overdrijving"
+            ]
+          ],
+          "uitleg": "Bij ironie zeg je het omgekeerde van wat je bedoelt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe herken je ironie in een geschreven tekst?",
+          "opties": [
+            "wat er staat botst met wat je weet",
+            "aan de vele uitroeptekens",
+            "aan het gebruik van 'als' of 'zoals'",
+            "aan de leenwoorden in de tekst"
+          ],
+          "antwoord": 0,
+          "uitleg": "Wie de situatie niet kent, leest het tegendeel."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over humor?",
+          "rijen": [
+            "Een woordspeling werkt in elke taal even goed.",
+            "Ironie werkt pas als de lezer de situatie kent.",
+            "Een overdrijving maakt een tekst subjectiever.",
+            "Een woordspeling speelt met de dubbele betekenis van een woord."
+          ],
+          "antwoord": [
+            false,
+            true,
+            true,
+            true
+          ],
+          "uitleg": "Een woordspeling werkt vaak maar in één taal."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Eufemisme of dysfemisme?",
+          "kolommen": [
+            "eufemisme",
+            "dysfemisme"
+          ],
+          "items": [
+            [
+              "herstructurering voor ontslagen",
+              "eufemisme"
+            ],
+            [
+              "een gedrocht voor een nieuwe wet",
+              "dysfemisme"
+            ],
+            [
+              "heengaan voor sterven",
+              "eufemisme"
+            ],
+            [
+              "graaicultuur voor hoge lonen",
+              "dysfemisme"
+            ]
+          ],
+          "uitleg": "Een eufemisme verzacht, een dysfemisme maakt het erger."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Klinkt dit woord eerder neutraal of positief, of eerder negatief?",
+          "kolommen": [
+            "neutraal of positief",
+            "negatief"
+          ],
+          "items": [
+            [
+              "volhardend",
+              "neutraal of positief"
+            ],
+            [
+              "koppig",
+              "negatief"
+            ],
+            [
+              "gul",
+              "neutraal of positief"
+            ],
+            [
+              "spilzuchtig",
+              "negatief"
+            ],
+            [
+              "voordelig",
+              "neutraal of positief"
+            ],
+            [
+              "goedkoop",
+              "negatief"
+            ]
+          ],
+          "uitleg": "De betekenis is ongeveer gelijk, de gevoelswaarde niet."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Leenwoord of inheems woord?",
+          "kolommen": [
+            "leenwoord",
+            "inheems woord"
+          ],
+          "items": [
+            [
+              "computer",
+              "leenwoord"
+            ],
+            [
+              "water",
+              "inheems woord"
+            ],
+            [
+              "paraplu",
+              "leenwoord"
+            ],
+            [
+              "moeder",
+              "inheems woord"
+            ],
+            [
+              "sowieso",
+              "leenwoord"
+            ]
+          ],
+          "uitleg": "Een inheems woord hoort van oudsher bij de taal."
+        },
+        {
+          "casus": "Lees de column.\n\n'Gisteren opende ons stadsbestuur het nieuwe parkeergebouw. Een gedrocht van beton, maar dat is natuurlijk een detail. Wat een geniaal idee om het pal naast de school te zetten: zo kunnen de kinderen elke dag van de uitlaatgassen genieten. Een miljoen auto's per dag, schat ik.'",
+          "vragen": [
+            {
+              "type": "keuzelijst",
+              "vraag": "'Een gedrocht van beton' is een [[*dysfemisme|eufemisme|synoniem]].",
+              "uitleg": "Het woord klinkt net erger."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "'Wat een geniaal idee' is [[*ironie|een vergelijking|een leenwoord]].",
+              "uitleg": "De schrijver bedoelt het omgekeerde."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "'Een miljoen auto's per dag' is een [[*overdrijving|personificatie|woordspeling]].",
+              "uitleg": "Niemand telt echt tot een miljoen."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Wat is het effect van die stijlmiddelen samen?",
+              "opties": [
+                "de column wordt kritisch",
+                "de column wordt neutraal en heel zakelijk",
+                "de column geeft precies de juiste cijfers",
+                "de column wordt eigenlijk een handleiding"
+              ],
+              "antwoord": 0,
+              "uitleg": "Overdrijving en ironie versterken het gevoel."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest 'onontkoombaar' en kent het woord niet. Hoe leid je de betekenis af?",
+          "opties": [
+            "uit context, voorkennis en woordbouw",
+            "je slaat de hele zin gewoon over",
+            "je kiest de betekenis die het mooist klinkt",
+            "je vervangt het door een willekeurig synoniem"
+          ],
+          "antwoord": 0,
+          "uitleg": "On- vooraan en -baar achteraan helpen al een eind."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een woord dat uit een andere taal is overgenomen, heet een [[*leenwoord|homoniem|antoniem]].",
+          "uitleg": "Uit het Frans, het Latijn, het Duits of het Engels."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je beeldspraak waarbij een ding menselijke eigenschappen krijgt? Eén woord.",
+          "antwoord": [
+            "personificatie",
+            "een personificatie"
+          ],
+          "uitleg": "Een personificatie, zoals de zon die lacht."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Het antoniem van 'tijdelijk' is [[*blijvend|voorlopig|kortstondig]].",
+          "uitleg": "De andere betekenen ongeveer hetzelfde."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "'Wat een prachtig rapport', zegt papa bij een rapport vol buisjes. Papa is [[*ironisch|eerlijk enthousiast|letterlijk]].",
+          "uitleg": "Hij zegt het omgekeerde van wat hij bedoelt."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "'Goedkoop' en 'voordelig' betekenen ongeveer hetzelfde, maar 'goedkoop' suggereert ook [[*slechte kwaliteit|een hoge prijs|een leenwoord]].",
+          "uitleg": "Dat is gevoelswaarde."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je het omgekeerde van een eufemisme, een woord dat iets erger doet klinken? Eén woord.",
+          "antwoord": [
+            "dysfemisme",
+            "een dysfemisme"
+          ],
+          "uitleg": "Een dysfemisme."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een woordspeling leunt vaak op [[*homoniemen|antoniemen|leenwoorden]].",
+          "uitleg": "Ze speelt met de dubbele betekenis van een woord."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Synoniemen betekenen ongeveer hetzelfde, maar verschillen vaak in [[*register of gevoelswaarde|aantal letters|woordsoort]].",
+          "uitleg": "'Aanvangen' klinkt formeler dan 'beginnen'."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is dit een vorm van humor?",
+          "rijen": [
+            "ironie",
+            "een woordspeling",
+            "overdrijving",
+            "personificatie",
+            "een metafoor"
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false,
+            false
+          ],
+          "uitleg": "Een metafoor en een personificatie zijn beeldspraak, geen humor."
+        },
+        {
+          "type": "open",
+          "vraag": "Leg met een eigen voorbeeld uit wat het verschil is tussen een metafoor en een vergelijking.",
+          "antwoord": "Bij een vergelijking staat 'als' of 'zoals': 'Hij is zo sterk als een beer.' Bij een metafoor valt dat woordje weg en vervangt het beeld de zaak: 'Hij is een beer.'"
+        }
+      ]
+    },
+    {
+      "titel": "Fictie, personages, verhaallijn, tijd en ruimte — pittig",
+      "niveau": "boost-dubbele-finaliteit",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "Bekijk de boekenplank. Klik op alle boeken met non-fictie.",
+          "afbeelding_url": "/examenvormen/nederlands-boost-df/boekenplank.svg",
+          "zones": [
+            [
+              20.2,
+              17.2,
+              14.0,
+              70.3
+            ],
+            [
+              35.4,
+              17.2,
+              14.0,
+              70.3
+            ],
+            [
+              65.8,
+              17.2,
+              14.0,
+              70.3
+            ]
+          ],
+          "uitleg": "Een biografie, een reisgids en een kookboek gaan over wat echt bestaat of gebeurd is. Een roman, een strip en sprookjes zijn verzonnen."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het boek dat vooral instructies geeft en dus geen literaire tekst is.",
+          "afbeelding_url": "/examenvormen/nederlands-boost-df/boekenplank.svg",
+          "zones": [
+            [
+              65.8,
+              17.2,
+              14.0,
+              70.3
+            ]
+          ],
+          "uitleg": "Een kookboek zegt je wat je moet doen, net als een bijsluiter."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het boek dat met tekeningen en taal samen een verzonnen verhaal vertelt.",
+          "afbeelding_url": "/examenvormen/nederlands-boost-df/boekenplank.svg",
+          "zones": [
+            [
+              50.6,
+              17.2,
+              14.0,
+              70.3
+            ]
+          ],
+          "uitleg": "Een strip vertelt met beeld en taal, en kan net zo goed literair zijn."
+        },
+        {
+          "casus": "Lees het fragment.\n\nIn het kleine vissersdorp wist iedereen alles van iedereen. Toch had niemand gezien dat Noor elke avond naar de oude vuurtoren liep. Daar, boven aan de wenteltrap, las ze de brieven van haar grootvader, die veertig jaar eerder op zee verdwenen was.\n\n'Waarom vertel je het niet aan je mama?' vroeg haar vriend Ilias, die haar op een avond gevolgd was.\nNoor zweeg. Ze dacht aan de winter van haar achtste verjaardag, toen ze haar moeder had horen huilen bij een oude foto.\n\nDe volgende ochtend legde ze de brieven op de keukentafel.",
+          "vragen": [
+            {
+              "type": "invultekst",
+              "vraag": "Wie is het hoofdpersonage? Eén naam.",
+              "antwoord": [
+                "Noor"
+              ],
+              "uitleg": "Het verhaal draait rond haar en haar geheim."
+            },
+            {
+              "type": "tabel",
+              "vraag": "Hoort dit bij de ruimte of bij de tijd van het verhaal?",
+              "rijen": [
+                "het vissersdorp",
+                "elke avond",
+                "de oude vuurtoren",
+                "de volgende ochtend"
+              ],
+              "antwoord": [
+                0,
+                1,
+                0,
+                1
+              ],
+              "uitleg": "De ruimte is waar het speelt, de tijd is wanneer en hoe lang.",
+              "kolommen": [
+                "ruimte",
+                "tijd"
+              ]
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "Door de herinnering aan haar achtste verjaardag wordt het verhaal [[*niet chronologisch|helemaal chronologisch|zonder tijd]] verteld.",
+              "uitleg": "Het verhaal springt even terug naar vroeger."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Waarom is het opvallend dat niemand Noor naar de vuurtoren ziet lopen?",
+              "opties": [
+                "in zo'n klein dorp blijft bijna niets geheim",
+                "omdat de vuurtoren eigenlijk op een andere planeet staat",
+                "omdat het hele verhaal ver in de toekomst speelt",
+                "omdat Noor in dit fragment maar een bijpersonage is"
+              ],
+              "antwoord": 0,
+              "uitleg": "De ruimte is geen decor: in een dorp waar iedereen alles weet, valt een geheim extra op."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "Ilias is in dit fragment een [[*bijpersonage|hoofdpersonage|schrijver]].",
+              "uitleg": "Hij speelt mee, maar het verhaal draait niet rond hem."
+            },
+            {
+              "type": "tabel",
+              "vraag": "Staat dit letterlijk in de tekst, of is het een interpretatie?",
+              "rijen": [
+                "Noor leest de brieven van haar grootvader.",
+                "Noor wil haar moeder geen verdriet doen.",
+                "Ilias volgde Noor op een avond.",
+                "Het verhaal toont dat zwijgen een familie kan verdelen."
+              ],
+              "antwoord": [
+                0,
+                1,
+                0,
+                1
+              ],
+              "uitleg": "Een interpretatie leid je af; je moet ze kunnen staven met wat er staat.",
+              "kolommen": [
+                "staat in de tekst",
+                "interpretatie"
+              ]
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Welke zin verwoordt het best je eigen beleving bij het fragment?",
+              "opties": [
+                "Ik voelde mee met Noor, omdat ik ook eens iets verzweeg om iemand te sparen.",
+                "Het fragment telt drie alinea's en er komen twee personages in voor, plus een moeder.",
+                "Noor loopt elke avond naar de vuurtoren en leest daar de brieven van haar opa.",
+                "Het is een goed fragment, want het is gewoon heel goed geschreven en dus mooi."
+              ],
+              "antwoord": 0,
+              "uitleg": "Beleving is wat het fragment met jou deed, met een waarom erbij. Navertellen of tellen is geen beleving."
+            },
+            {
+              "type": "open",
+              "vraag": "Wat zou de boodschap van dit fragment kunnen zijn? Leg uit met een detail uit de tekst.",
+              "antwoord": "Misschien dat een geheim zwaarder wordt hoe langer je het bewaart. Noor draagt de brieven alleen, maar op het einde legt ze ze toch op de keukentafel."
+            }
+          ]
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Fictie of non-fictie?",
+          "kolommen": [
+            "fictie",
+            "non-fictie"
+          ],
+          "items": [
+            [
+              "een sprookje over een pratende vos",
+              "fictie"
+            ],
+            [
+              "het dagboek van een echte bergbeklimmer",
+              "non-fictie"
+            ],
+            [
+              "een sciencefictionverhaal op Mars",
+              "fictie"
+            ],
+            [
+              "een krantenartikel over de verkiezingen",
+              "non-fictie"
+            ],
+            [
+              "een jeugdroman over een meisje dat een paard redt",
+              "fictie"
+            ]
+          ],
+          "uitleg": "Fictie is verzonnen, ook als het heel echt lijkt."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is dit een literaire tekst?",
+          "rijen": [
+            "een gedicht over de zee",
+            "een strip over een oorlog",
+            "de bijsluiter van een pijnstiller",
+            "een liedtekst over heimwee",
+            "een treinregeling"
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Literaire teksten hebben een esthetische waarde en spelen in op emoties."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het verschil tussen een hoofdpersonage en een bijpersonage?",
+          "opties": [
+            "het verhaal draait vooral rond het hoofdpersonage",
+            "een hoofdpersonage is altijd aardig en dapper",
+            "een bijpersonage komt in het hele boek maar in één enkele zin voor",
+            "het hoofdpersonage is altijd de schrijver zelf"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een hoofdpersonage hoeft niet sympathiek te zijn: het is degene wiens verhaal je volgt."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel het begrip aan het voorbeeld uit een jeugdboek.",
+          "paren": [
+            [
+              "ruimte",
+              "een verlaten pretpark"
+            ],
+            [
+              "tijd",
+              "één zomer in 1985"
+            ],
+            [
+              "personage",
+              "een jongen die zijn hond zoekt"
+            ],
+            [
+              "verhaallijn",
+              "hij zoekt, vindt een spoor en vindt de hond terug"
+            ]
+          ],
+          "extra": [
+            "de prijs van het boek"
+          ],
+          "uitleg": "Waar, wanneer, wie en wat er gebeurt."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Een verhaal begint met: 'Ik stond voor de poort van mijn nieuwe school.' Daarna springt het terug naar de dag dat het gezin besliste te verhuizen. Zet de gebeurtenissen in de volgorde waarin ze echt gebeurden.",
+          "opties": [
+            "het gezin beslist te verhuizen",
+            "de verhuiswagen rijdt weg",
+            "de ik staat voor de poort van de nieuwe school",
+            "de ik zit voor het eerst in de nieuwe klas"
+          ],
+          "uitleg": "Het verhaal vertelt niet chronologisch, maar de gebeurtenissen zelf hebben wel een volgorde."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Twee personages die elk om de beurt een hoofdstuk krijgen, geven een boek [[*twee verhaallijnen|twee schrijvers|twee ruimtes]].",
+          "uitleg": "Die lijnen komen vaak op het einde samen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over personages?",
+          "rijen": [
+            "Een hoofdpersonage moet sympathiek zijn.",
+            "Een personage dat niet verandert, kan toch interessant zijn.",
+            "De schrijver is altijd ook een personage in zijn roman.",
+            "Personages kunnen tegenover elkaar staan."
+          ],
+          "antwoord": [
+            false,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "De schrijver staat buiten het verhaal, de personages staan erin."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je praat over je boek. Wat toont het best dat je erover nagedacht hebt?",
+          "opties": [
+            "je zegt welk personage je raakte en waarom",
+            "je vertelt de volledige verhaallijn van begin tot einde na",
+            "je zegt hoeveel bladzijden het boek telt en wanneer het verscheen",
+            "je zegt dat het boek mooi was en dat iedereen het moet lezen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Er wordt gevraagd wat je ervan vond en waarom, niet enkel wat er gebeurt."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je het personage rond wie een verhaal vooral draait? Eén woord.",
+          "antwoord": [
+            "hoofdpersonage",
+            "het hoofdpersonage"
+          ],
+          "uitleg": "Het hoofdpersonage."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een verhaal dat zich op één avond afspeelt, beslaat [[*een korte tijd|een lange tijd|geen tijd]].",
+          "uitleg": "Tijd gaat ook over hoeveel tijd het verhaal beslaat."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Gaat deze vraag over de personages, de ruimte of de tijd?",
+          "kolommen": [
+            "personages",
+            "ruimte",
+            "tijd"
+          ],
+          "items": [
+            [
+              "Wie helpt het hoofdpersonage?",
+              "personages"
+            ],
+            [
+              "In welke eeuw speelt het verhaal?",
+              "tijd"
+            ],
+            [
+              "Hoe ziet het huis eruit waar alles gebeurt?",
+              "ruimte"
+            ],
+            [
+              "Wie verandert er het meest?",
+              "personages"
+            ],
+            [
+              "Speelt het in een stad of op het platteland?",
+              "ruimte"
+            ],
+            [
+              "Hoeveel jaren beslaat het verhaal?",
+              "tijd"
+            ]
+          ],
+          "uitleg": "Wie, waar en wanneer."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is dit een onderbouwde mening over een boek?",
+          "rijen": [
+            "Het boek sprak me niet aan, omdat de personages vlak bleven.",
+            "Het boek is slecht.",
+            "Het einde vond ik sterk, want het liet me lang nadenken.",
+            "Iedereen vindt het een topboek."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Een mening over een boek mag negatief zijn, zolang je zegt waarom."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom is de tijd waarin een verhaal speelt belangrijk?",
+          "opties": [
+            "ze bepaalt wat de personages kunnen en mogen doen",
+            "ze zegt hoe lang de schrijver aan het boek gewerkt heeft",
+            "ze is enkel belangrijk bij non-fictie zoals geschiedenisboeken",
+            "ze vertelt in welk jaar je het boek moet lezen voor school"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een verhaal in de middeleeuwen kent geen gsm's; de tijd zet grenzen."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Zeggen wat een boek met jou deed, noem je je [[*beleving|samenvatting|verhaallijn]].",
+          "uitleg": "Dat kan niemand nakijken, maar je moet het wel uitleggen."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Het verhaal speelt in een berghut in de Alpen: dat is de [[ruimte]]. Het beslaat één sneeuwstorm van drie dagen: dat is de [[tijd]]. Drie vrienden zitten er vast: dat zijn de [[personages]]. Ze maken ruzie, verzoenen zich en worden gered: dat is de [[verhaallijn]].",
+          "extra": [
+            "boodschap",
+            "bijsluiter"
+          ],
+          "uitleg": "Ruimte en tijd zetten het verhaal ergens neer; de verhaallijn is wat er gebeurt."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een reisverslag over een tocht door IJsland waarin de schrijver ook vertelt wat hij voelde, blijft [[*non-fictie|fictie|een gedicht]].",
+          "uitleg": "De reis is echt gebeurd; gevoelens maken het nog niet verzonnen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke vraag helpt je om de boodschap van een verhaal te vinden?",
+          "opties": [
+            "wat wil de tekst me laten inzien over mensen?",
+            "hoeveel hoofdstukken en bladzijden telt het boek in totaal?",
+            "in welk jaar werd de schrijver geboren?",
+            "welke kleur heeft de kaft van het boek?"
+          ],
+          "antwoord": 0,
+          "uitleg": "De boodschap staat er zelden letterlijk; je leidt ze af uit wat er gebeurt."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Je herkent jezelf in een personage. Dat wordt pas interessant als je zegt [[*in welke situatie en waarom|hoe oud de schrijver is|hoeveel het boek kostte]].",
+          "uitleg": "Herkenning met een voorbeeld erbij zegt iets over jou en over het boek."
+        },
+        {
+          "type": "open",
+          "vraag": "Kies een boek, film of strip die je kent. Beschrijf in drie zinnen het hoofdpersonage, de ruimte en de tijd.",
+          "antwoord": "Het hoofdpersonage is een meisje van twaalf dat haar broer zoekt. Het verhaal speelt in een grote stad aan de kust. Het beslaat één week in de zomervakantie."
+        }
+      ]
+    },
+    {
+      "titel": "Lichaamstaal, beleefdheid en een tekst die werkt — pittig",
+      "niveau": "boost-dubbele-finaliteit",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "Bekijk de presentatie. Klik op wat de spreker beter vervangt door een spreekplan met kernwoorden.",
+          "afbeelding_url": "/examenvormen/nederlands-boost-df/spreker-en-luisteraars.svg",
+          "zones": [
+            [
+              32.5,
+              46.1,
+              10.0,
+              20.3
+            ],
+            [
+              34.7,
+              65.9,
+              5.6,
+              8.8
+            ]
+          ],
+          "uitleg": "Wie een volledige tekst afleest, kijkt naar zijn blad en niet naar zijn publiek."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op wat de vlotheid van de spreker in het gedrang brengt.",
+          "afbeelding_url": "/examenvormen/nederlands-boost-df/spreker-en-luisteraars.svg",
+          "zones": [
+            [
+              31.5,
+              8.6,
+              24.0,
+              17.2
+            ],
+            [
+              55.2,
+              10.5,
+              5.6,
+              8.8
+            ]
+          ],
+          "uitleg": "Veel stopwoordjes maken een presentatie minder vlot."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de luisteraar die met zijn lichaamstaal toont dat de boodschap niet goed aankomt.",
+          "afbeelding_url": "/examenvormen/nederlands-boost-df/spreker-en-luisteraars.svg",
+          "zones": [
+            [
+              81.0,
+              20.3,
+              12.0,
+              62.5
+            ],
+            [
+              84.2,
+              83.1,
+              5.6,
+              8.8
+            ]
+          ],
+          "uitleg": "Fronsen en gekruiste armen zijn signalen; de spreker kan dan iets trager gaan of een voorbeeld geven."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het gebaar van de spreker, een vorm van non-verbale communicatie.",
+          "afbeelding_url": "/examenvormen/nederlands-boost-df/spreker-en-luisteraars.svg",
+          "zones": [
+            [
+              10.0,
+              48.4,
+              7.0,
+              9.4
+            ],
+            [
+              6.2,
+              55.0,
+              5.6,
+              8.8
+            ]
+          ],
+          "uitleg": "Een open hand ondersteunt wat je zegt, zonder woorden."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Bekijk de mail. Klik op alle delen die niet passen in een formele mail.",
+          "afbeelding_url": "/examenvormen/nederlands-boost-df/sollicitatiemail.svg",
+          "zones": [
+            [
+              8.5,
+              26.6,
+              82.0,
+              10.0
+            ],
+            [
+              8.5,
+              64.1,
+              82.0,
+              10.0
+            ]
+          ],
+          "uitleg": "Een aanhef met 'Hey' en twee uitroeptekens, afkortingen, tussentaal en een knipoog horen niet in een sollicitatie."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het deel dat het tekstdoel van de mail het duidelijkst zegt.",
+          "afbeelding_url": "/examenvormen/nederlands-boost-df/sollicitatiemail.svg",
+          "zones": [
+            [
+              8.5,
+              39.1,
+              82.0,
+              10.0
+            ]
+          ],
+          "uitleg": "Sam wil solliciteren: dat moet de lezer meteen weten."
+        },
+        {
+          "casus": "Lees de situatie.\n\nSam heeft een gesprek met de verantwoordelijke van een jeugdkamp, want hij wil er vrijwilliger worden. Hij komt binnen met zijn handen in de zakken, zegt 'Yo' en kijkt intussen naar zijn gsm. Tijdens het gesprek onderbreekt hij de verantwoordelijke twee keer. Op het einde staat hij op en loopt weg zonder iets te zeggen.",
+          "vragen": [
+            {
+              "type": "keuzelijst",
+              "vraag": "Handen in de zakken en naar je gsm kijken is [[*non-verbale|verbale]] communicatie.",
+              "uitleg": "Je zegt er niets mee, en toch komt het over."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "'Yo' als begroeting is hier het verkeerde [[*register|kanaal|tekstdoel]].",
+              "uitleg": "Bij een volwassene die je niet kent, groet je formeler."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "Sam onderbreekt de verantwoordelijke. Dat botst met de [[*beleefdheidsconventies|spellingregels|tekststructuur]].",
+              "uitleg": "Iemand laten uitspreken hoort bij een beleefd gesprek."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Wat ontbreekt er op het einde van het gesprek?",
+              "opties": [
+                "bedanken en groeten",
+                "nog een laatste blik op zijn gsm voor hij vertrekt",
+                "een grap om de sfeer wat losser te maken",
+                "een tweede keer 'Yo' zeggen bij het buitengaan"
+              ],
+              "antwoord": 0,
+              "uitleg": "Een gesprek correct voeren betekent het ook netjes beëindigen."
+            },
+            {
+              "type": "open",
+              "vraag": "Schrijf in één of twee zinnen hoe Sam het gesprek beter kan beginnen.",
+              "antwoord": "Goedemiddag, ik ben Sam Janssens. Dank u dat ik even mag langskomen; ik wil graag vrijwilliger worden op uw kamp."
+            }
+          ]
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Verbaal of non-verbaal?",
+          "kolommen": [
+            "verbaal",
+            "non-verbaal"
+          ],
+          "items": [
+            [
+              "de woorden die je kiest",
+              "verbaal"
+            ],
+            [
+              "je intonatie",
+              "non-verbaal"
+            ],
+            [
+              "een emoji in een bericht",
+              "non-verbaal"
+            ],
+            [
+              "de zinnen in je mail",
+              "verbaal"
+            ],
+            [
+              "de afstand tot je gesprekspartner",
+              "non-verbaal"
+            ],
+            [
+              "je kleding op een sollicitatie",
+              "non-verbaal"
+            ]
+          ],
+          "uitleg": "Non-verbaal is alles wat je overbrengt zonder woorden."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel het begrip aan de uitleg.",
+          "paren": [
+            [
+              "articulatie",
+              "hoe duidelijk je de klanken vormt"
+            ],
+            [
+              "intonatie",
+              "hoe je stem stijgt en daalt"
+            ],
+            [
+              "volume",
+              "hoe luid je spreekt"
+            ],
+            [
+              "tempo",
+              "hoe snel je spreekt"
+            ]
+          ],
+          "extra": [
+            "hoe goed je spelt"
+          ],
+          "uitleg": "Spelling hoort bij schrijven, niet bij je stem."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Geldt dit criterium voor spreken, voor schrijven of voor allebei?",
+          "rijen": [
+            "spelling en leestekens",
+            "uitspraak en intonatie",
+            "woordenschat",
+            "lay-out",
+            "taakvoltooiing"
+          ],
+          "antwoord": [
+            1,
+            0,
+            2,
+            1,
+            2
+          ],
+          "uitleg": "Bij elke opdracht telt of je doel bereikt is.",
+          "kolommen": [
+            "spreken",
+            "schrijven",
+            "allebei"
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je presenteert voor de klas en ziet veel luisteraars fronsen. Wat doe je best?",
+          "opties": [
+            "iets trager gaan en een voorbeeld geven",
+            "gewoon sneller praten, zodat je sneller klaar bent",
+            "luider spreken en niet meer naar de klas kijken",
+            "je blad nemen en alles letterlijk voorlezen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je reageert op de lichaamstaal van je publiek."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Spreek je deze persoon aan met u of met jij?",
+          "rijen": [
+            "de directeur van een bedrijf waar je solliciteert",
+            "je beste vriend",
+            "een onbekende oudere dame op de bus",
+            "je neef van twintig"
+          ],
+          "antwoord": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "uitleg": "Het gaat om afstand, niet enkel om leeftijd.",
+          "kolommen": [
+            "u",
+            "jij"
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het tekstdoel van een sollicitatiebrief?",
+          "opties": [
+            "iemand overtuigen om jou te kiezen",
+            "iemand stap voor stap iets uitleggen",
+            "iemand ontspannen met een grappig verhaal",
+            "iemand informeren over het nieuws van de dag"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je wil de lezer overtuigen dat jij de juiste persoon bent."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Hoort dit in een goed spreekplan?",
+          "rijen": [
+            "kernwoorden in de juiste volgorde",
+            "de volledige tekst, woord voor woord",
+            "een inleiding, een midden en een slot",
+            "zo veel mogelijk moeilijke woorden"
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Met kernwoorden hou je je lijn vast en blijf je vrij spreken."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Je laat niet elke zin met hetzelfde woord beginnen. Dat heet [[*variatie in zinsbouw|taakvoltooiing|articulatie]].",
+          "uitleg": "Variatie houdt je lezer of luisteraar bij de les."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je mail is foutloos, maar de ontvanger weet na het lezen nog altijd niet wat je vraagt. Welk criterium haal je niet?",
+          "opties": [
+            "taakvoltooiing",
+            "spelling en leestekens",
+            "lay-out en alinea's",
+            "woordenschat"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een tekst zonder fouten die zijn doel mist, voldoet niet."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Hoort dit bij het begin, het midden of het einde van een gesprek?",
+          "kolommen": [
+            "beginnen",
+            "gaande houden",
+            "beëindigen"
+          ],
+          "items": [
+            [
+              "jezelf voorstellen en groeten",
+              "beginnen"
+            ],
+            [
+              "een vraag stellen over wat de ander zei",
+              "gaande houden"
+            ],
+            [
+              "bedanken voor het gesprek",
+              "beëindigen"
+            ],
+            [
+              "knikken terwijl de ander spreekt",
+              "gaande houden"
+            ],
+            [
+              "zeggen waarom je komt",
+              "beginnen"
+            ],
+            [
+              "afspreken wat er nu volgt",
+              "beëindigen"
+            ]
+          ],
+          "uitleg": "Drie aparte vaardigheden."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over non-verbale communicatie?",
+          "rijen": [
+            "Wie met gekruiste armen luistert, kan afwijzend overkomen.",
+            "Intonatie hoort bij wat je schrijft.",
+            "Non-verbale signalen kunnen je woorden tegenspreken.",
+            "De afstand tot je gesprekspartner zegt niets."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Intonatie hoor je enkel als iemand spreekt."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je de uitdrukking op je gezicht terwijl je spreekt? Eén woord.",
+          "antwoord": [
+            "mimiek",
+            "de mimiek"
+          ],
+          "uitleg": "Mimiek."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "'Ja hoor, super leuk', zegt je vriend met een zucht en rollende ogen. Wat geloof je?",
+          "opties": [
+            "de lichaamstaal: hij vindt het niet leuk",
+            "de woorden: hij vindt het echt super leuk",
+            "geen van beide, want zuchten betekent niets",
+            "allebei evenveel, want ze zeggen hetzelfde"
+          ],
+          "antwoord": 0,
+          "uitleg": "Als woorden en lichaamstaal botsen, zegt de lichaamstaal vaak meer."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Wie tijdens een presentatie te stil spreekt, moet letten op zijn [[*volume|articulatie|spelling]].",
+          "uitleg": "Volume gaat over hoe luid je spreekt."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Een mail aan een onbekende volwassene begint met een nette [[aanhef]], spreekt de ontvanger aan met [[u]] en sluit af met een [[slotgroet]] zoals 'Met vriendelijke groeten'.",
+          "extra": [
+            "jij",
+            "emoji"
+          ],
+          "uitleg": "Zo kies je een formeel register."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Past dit in een chatbericht aan een goede vriend?",
+          "rijen": [
+            "een smiley",
+            "'Geachte heer'",
+            "een korte zin zonder aanhef",
+            "'Hoogachtend'"
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Een chat met een vriend is informeel."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin past het best in een mail aan een leerkracht die je niet goed kent?",
+          "opties": [
+            "Zou u mij de opdracht nog eens kunnen bezorgen?",
+            "Hey, stuur jij die opdracht ff opnieuw?",
+            "Ik heb die opdracht niet, dus stuur maar door!",
+            "Yo, waar staat die opdracht nu weer ergens online?"
+          ],
+          "antwoord": 0,
+          "uitleg": "Met u en een beleefde vraag kies je het juiste register."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een emoji in een bericht doet wat je [[*gezicht|spelling|alinea]] doet als je spreekt.",
+          "uitleg": "Hij geeft de toon aan bij de woorden."
+        },
+        {
+          "type": "open",
+          "vraag": "Je geeft morgen een korte presentatie over je hobby. Geef drie tips voor je non-verbale communicatie.",
+          "antwoord": "Kijk je publiek aan in plaats van je blad. Sta rechtop en gebruik je handen om iets aan te wijzen. Spreek luid genoeg en niet te snel."
+        }
+      ]
+    }
+  ]
+}

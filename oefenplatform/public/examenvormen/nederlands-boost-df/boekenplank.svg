@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Zes boeken op een plank</text>
+<rect x="40" y="560" width="920" height="18" rx="2" fill="#d9d4c4" stroke="#24331b" stroke-width="2"/>
+<rect x="50" y="110" width="140" height="450" rx="8" fill="#3b6fa0" stroke="#24331b" stroke-width="3"/>
+<rect x="56" y="150" width="128" height="90" rx="4" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="120" y="188" font-size="16" text-anchor="middle" fill="#24331b" font-weight="bold">Het geheim van</text>
+<text x="120" y="214" font-size="16" text-anchor="middle" fill="#24331b" font-weight="bold">de vuurtoren</text>
+<rect x="56" y="300" width="128" height="110" rx="4" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="120" y="350" font-size="16" text-anchor="middle" fill="#24331b">roman</text>
+<circle cx="120" cy="510" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="120" y="517" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<rect x="202" y="110" width="140" height="450" rx="8" fill="#b5651d" stroke="#24331b" stroke-width="3"/>
+<rect x="208" y="150" width="128" height="90" rx="4" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="272" y="188" font-size="16" text-anchor="middle" fill="#24331b" font-weight="bold">Mijn leven</text>
+<text x="272" y="214" font-size="16" text-anchor="middle" fill="#24331b" font-weight="bold">op de fiets</text>
+<rect x="208" y="300" width="128" height="110" rx="4" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="272" y="350" font-size="16" text-anchor="middle" fill="#24331b">biografie van</text>
+<text x="272" y="376" font-size="16" text-anchor="middle" fill="#24331b">een wielrenner</text>
+<circle cx="272" cy="510" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="272" y="517" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<rect x="354" y="110" width="140" height="450" rx="8" fill="#a8c98a" stroke="#24331b" stroke-width="3"/>
+<rect x="360" y="150" width="128" height="90" rx="4" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="424" y="188" font-size="16" text-anchor="middle" fill="#24331b" font-weight="bold">Reisgids</text>
+<text x="424" y="214" font-size="16" text-anchor="middle" fill="#24331b" font-weight="bold">Portugal</text>
+<rect x="360" y="300" width="128" height="110" rx="4" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="424" y="350" font-size="16" text-anchor="middle" fill="#24331b">reisgids</text>
+<circle cx="424" cy="510" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="424" y="517" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<rect x="506" y="110" width="140" height="450" rx="8" fill="#7a4b8c" stroke="#24331b" stroke-width="3"/>
+<rect x="512" y="150" width="128" height="90" rx="4" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="576" y="188" font-size="16" text-anchor="middle" fill="#24331b" font-weight="bold">De draak van</text>
+<text x="576" y="214" font-size="16" text-anchor="middle" fill="#24331b" font-weight="bold">Dommelstein</text>
+<rect x="512" y="300" width="128" height="110" rx="4" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="576" y="350" font-size="16" text-anchor="middle" fill="#24331b">strip</text>
+<circle cx="576" cy="510" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="576" y="517" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">D</text>
+<rect x="658" y="110" width="140" height="450" rx="8" fill="#e8c547" stroke="#24331b" stroke-width="3"/>
+<rect x="664" y="150" width="128" height="90" rx="4" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="728" y="188" font-size="16" text-anchor="middle" fill="#24331b" font-weight="bold">Koken voor</text>
+<text x="728" y="214" font-size="16" text-anchor="middle" fill="#24331b" font-weight="bold">beginners</text>
+<rect x="664" y="300" width="128" height="110" rx="4" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="728" y="350" font-size="16" text-anchor="middle" fill="#24331b">kookboek</text>
+<circle cx="728" cy="510" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="728" y="517" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">E</text>
+<rect x="810" y="110" width="140" height="450" rx="8" fill="#b03a2e" stroke="#24331b" stroke-width="3"/>
+<rect x="816" y="150" width="128" height="90" rx="4" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="880" y="188" font-size="16" text-anchor="middle" fill="#24331b" font-weight="bold">Sprookjes</text>
+<text x="880" y="214" font-size="16" text-anchor="middle" fill="#24331b" font-weight="bold">van overal</text>
+<rect x="816" y="300" width="128" height="110" rx="4" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="880" y="350" font-size="16" text-anchor="middle" fill="#24331b">sprookjesboek</text>
+<circle cx="880" cy="510" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="880" y="517" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">F</text>
+</svg>
