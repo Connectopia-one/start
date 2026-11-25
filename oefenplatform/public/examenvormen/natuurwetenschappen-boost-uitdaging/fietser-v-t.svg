@@ -1,0 +1,41 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1000 600' width='1000' height='600'>
+<rect width='1000' height='600' fill='#ffffff'/>
+<text x='40' y='44' font-family='Nunito, Arial, sans-serif' font-size='28' font-weight='800' fill='#2f4a22'>Een fietser vertrekt aan het verkeerslicht</text>
+<line x1='100' y1='500.0' x2='900' y2='500.0' stroke='#e6e1d3' stroke-width='1.5'/>
+<text x='86' y='507.0' text-anchor='end' font-family='Nunito, Arial, sans-serif' font-size='20' fill='#2b2b2b'>0</text>
+<line x1='100' y1='420.0' x2='900' y2='420.0' stroke='#e6e1d3' stroke-width='1.5'/>
+<text x='86' y='427.0' text-anchor='end' font-family='Nunito, Arial, sans-serif' font-size='20' fill='#2b2b2b'>2</text>
+<line x1='100' y1='340.0' x2='900' y2='340.0' stroke='#e6e1d3' stroke-width='1.5'/>
+<text x='86' y='347.0' text-anchor='end' font-family='Nunito, Arial, sans-serif' font-size='20' fill='#2b2b2b'>4</text>
+<line x1='100' y1='260.0' x2='900' y2='260.0' stroke='#e6e1d3' stroke-width='1.5'/>
+<text x='86' y='267.0' text-anchor='end' font-family='Nunito, Arial, sans-serif' font-size='20' fill='#2b2b2b'>6</text>
+<line x1='100' y1='180.0' x2='900' y2='180.0' stroke='#e6e1d3' stroke-width='1.5'/>
+<text x='86' y='187.0' text-anchor='end' font-family='Nunito, Arial, sans-serif' font-size='20' fill='#2b2b2b'>8</text>
+<line x1='100' y1='100.0' x2='900' y2='100.0' stroke='#e6e1d3' stroke-width='1.5'/>
+<text x='86' y='107.0' text-anchor='end' font-family='Nunito, Arial, sans-serif' font-size='20' fill='#2b2b2b'>10</text>
+<line x1='100.0' y1='100' x2='100.0' y2='500' stroke='#e6e1d3' stroke-width='1.5'/>
+<text x='100.0' y='530' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='20' fill='#2b2b2b'>0</text>
+<line x1='233.33333333333334' y1='100' x2='233.33333333333334' y2='500' stroke='#e6e1d3' stroke-width='1.5'/>
+<text x='233.33333333333334' y='530' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='20' fill='#2b2b2b'>2</text>
+<line x1='366.6666666666667' y1='100' x2='366.6666666666667' y2='500' stroke='#e6e1d3' stroke-width='1.5'/>
+<text x='366.6666666666667' y='530' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='20' fill='#2b2b2b'>4</text>
+<line x1='500.0' y1='100' x2='500.0' y2='500' stroke='#e6e1d3' stroke-width='1.5'/>
+<text x='500.0' y='530' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='20' fill='#2b2b2b'>6</text>
+<line x1='633.3333333333334' y1='100' x2='633.3333333333334' y2='500' stroke='#e6e1d3' stroke-width='1.5'/>
+<text x='633.3333333333334' y='530' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='20' fill='#2b2b2b'>8</text>
+<line x1='766.6666666666666' y1='100' x2='766.6666666666666' y2='500' stroke='#e6e1d3' stroke-width='1.5'/>
+<text x='766.6666666666666' y='530' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='20' fill='#2b2b2b'>10</text>
+<line x1='900.0' y1='100' x2='900.0' y2='500' stroke='#e6e1d3' stroke-width='1.5'/>
+<text x='900.0' y='530' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='20' fill='#2b2b2b'>12</text>
+<line x1='100' y1='500' x2='920' y2='500' stroke='#2b2b2b' stroke-width='3'/>
+<line x1='100' y1='500' x2='100' y2='80' stroke='#2b2b2b' stroke-width='3'/>
+<text x='910' y='562' text-anchor='end' font-family='Nunito, Arial, sans-serif' font-size='22' fill='#2b2b2b'>t (s)</text>
+<text x='114' y='84' font-family='Nunito, Arial, sans-serif' font-size='22' fill='#2b2b2b'>v (m/s)</text>
+<polyline points='100.0,500.0 366.6666666666667,180.0 766.6666666666666,180.0 900.0,500.0' fill='none' stroke='#2f4a22' stroke-width='6' stroke-linejoin='round'/>
+<circle cx='233.33333333333334' cy='298.0' r='22' fill='#2f4a22'/>
+<text x='233.33333333333334' y='306.0' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='24' font-weight='800' fill='#ffffff'>A</text>
+<circle cx='566.6666666666667' cy='138.0' r='22' fill='#2f4a22'/>
+<text x='566.6666666666667' y='146.0' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='24' font-weight='800' fill='#ffffff'>B</text>
+<circle cx='877.3333333333334' cy='338.0' r='22' fill='#2f4a22'/>
+<text x='877.3333333333334' y='346.0' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='24' font-weight='800' fill='#ffffff'>C</text>
+</svg>

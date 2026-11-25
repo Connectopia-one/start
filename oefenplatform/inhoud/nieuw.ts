@@ -43,7 +43,7 @@ export const updates: Update[] = [
     datum: "25 november 2026",
     titel: "Uitdaging van 40 vragen in Boost en Beyond",
     tekst:
-      "Nederlands in Beyond doorstroom heeft nu een uitdaging: 40 vragen die alle hoofdstukken door elkaar halen, net als op een echt examen. Je leest een lezersbrief en zoekt de drogredenen, klikt in een gedicht op de stijlfiguren, ontmaskert een nepbericht, herschrijft een te losse mail aan een leerkracht en ontleedt een zin. Ook de andere vakken in Boost en Beyond krijgen er een.",
+      "Nederlands in Beyond doorstroom en Natuurwetenschappen in Boost doorstroom hebben nu een uitdaging: 40 vragen die alle hoofdstukken door elkaar halen, net als op een echt examen. Je leest een lezersbrief en zoekt de drogredenen, klikt in een gedicht op de stijlfiguren, ontmaskert een nepbericht, herschrijft een te losse mail aan een leerkracht en ontleedt een zin. Bij natuurwetenschappen lees je de grafiek van een fietser, klik je in het periodiek systeem en volg je een reflex, een vijver vol algen en een proef met ijs. Ook de andere vakken in Boost en Beyond krijgen er een.",
   },
   {
     datum: "25 november 2026",
