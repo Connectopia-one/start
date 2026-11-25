@@ -1,0 +1,17 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1000 520' width='1000' height='520'>
+<rect width='1000' height='520' fill='#ffffff'/>
+<text x='40' y='44' font-family='Nunito, Arial, sans-serif' font-size='28' font-weight='800' fill='#2f4a22'>Een lijnenproef</text>
+<rect x='60' y='80' width='300' height='400' rx='16' fill='#f7f4ec' stroke='#b9b29c' stroke-width='2'/>
+<rect x='460' y='80' width='500' height='400' rx='16' fill='#f7f4ec' stroke='#b9b29c' stroke-width='2'/>
+<line x1='210' y1='440' x2='210' y2='200' stroke='#2b2b2b' stroke-width='10'/>
+<text x='210' y='118' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='22' font-weight='700' fill='#2b2b2b'>standaardlijn</text>
+<line x1='520' y1='440' x2='520' y2='250' stroke='#2b2b2b' stroke-width='10'/>
+<circle cx='520' cy='440' r='0' fill='none'/>
+<text x='556' y='436' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='30' font-weight='800' fill='#2f4a22'>A</text>
+<line x1='680' y1='440' x2='680' y2='140' stroke='#2b2b2b' stroke-width='10'/>
+<circle cx='680' cy='440' r='0' fill='none'/>
+<text x='716' y='436' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='30' font-weight='800' fill='#2f4a22'>B</text>
+<line x1='840' y1='440' x2='840' y2='200' stroke='#2b2b2b' stroke-width='10'/>
+<circle cx='840' cy='440' r='0' fill='none'/>
+<text x='876' y='436' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='30' font-weight='800' fill='#2f4a22'>C</text>
+</svg>
