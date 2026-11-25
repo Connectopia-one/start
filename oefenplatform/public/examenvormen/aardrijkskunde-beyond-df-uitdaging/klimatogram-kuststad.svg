@@ -1,0 +1,53 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1000 600' width='1000' height='600'>
+<rect width='1000' height='600' fill='#ffffff'/>
+<text x='40' y='50' font-family='Nunito, Arial, sans-serif' font-size='28' font-weight='800' fill='#2f4a22'>Klimatogram van een kuststad (verzonnen)</text>
+<line x1='120' y1='500.0' x2='880' y2='500.0' stroke='#ebe6d8' stroke-width='1.5'/>
+<text x='108' y='507.0' text-anchor='end' font-family='Nunito, Arial, sans-serif' font-size='18' fill='#c0622b'>0</text>
+<text x='892' y='507.0' font-family='Nunito, Arial, sans-serif' font-size='18' fill='#3b6ea5'>0</text>
+<line x1='120' y1='435.0' x2='880' y2='435.0' stroke='#ebe6d8' stroke-width='1.5'/>
+<text x='108' y='442.0' text-anchor='end' font-family='Nunito, Arial, sans-serif' font-size='18' fill='#c0622b'>5</text>
+<text x='892' y='442.0' font-family='Nunito, Arial, sans-serif' font-size='18' fill='#3b6ea5'>20</text>
+<line x1='120' y1='370.0' x2='880' y2='370.0' stroke='#ebe6d8' stroke-width='1.5'/>
+<text x='108' y='377.0' text-anchor='end' font-family='Nunito, Arial, sans-serif' font-size='18' fill='#c0622b'>10</text>
+<text x='892' y='377.0' font-family='Nunito, Arial, sans-serif' font-size='18' fill='#3b6ea5'>40</text>
+<line x1='120' y1='305.0' x2='880' y2='305.0' stroke='#ebe6d8' stroke-width='1.5'/>
+<text x='108' y='312.0' text-anchor='end' font-family='Nunito, Arial, sans-serif' font-size='18' fill='#c0622b'>15</text>
+<text x='892' y='312.0' font-family='Nunito, Arial, sans-serif' font-size='18' fill='#3b6ea5'>60</text>
+<line x1='120' y1='240.0' x2='880' y2='240.0' stroke='#ebe6d8' stroke-width='1.5'/>
+<text x='108' y='247.0' text-anchor='end' font-family='Nunito, Arial, sans-serif' font-size='18' fill='#c0622b'>20</text>
+<text x='892' y='247.0' font-family='Nunito, Arial, sans-serif' font-size='18' fill='#3b6ea5'>80</text>
+<line x1='120' y1='175.0' x2='880' y2='175.0' stroke='#ebe6d8' stroke-width='1.5'/>
+<text x='108' y='182.0' text-anchor='end' font-family='Nunito, Arial, sans-serif' font-size='18' fill='#c0622b'>25</text>
+<text x='892' y='182.0' font-family='Nunito, Arial, sans-serif' font-size='18' fill='#3b6ea5'>100</text>
+<line x1='120' y1='110.0' x2='880' y2='110.0' stroke='#ebe6d8' stroke-width='1.5'/>
+<text x='108' y='117.0' text-anchor='end' font-family='Nunito, Arial, sans-serif' font-size='18' fill='#c0622b'>30</text>
+<text x='892' y='117.0' font-family='Nunito, Arial, sans-serif' font-size='18' fill='#3b6ea5'>120</text>
+<text x='108' y='86' text-anchor='end' font-family='Nunito, Arial, sans-serif' font-size='19' fill='#c0622b'>T (°C)</text>
+<text x='888' y='86' font-family='Nunito, Arial, sans-serif' font-size='19' fill='#3b6ea5'>N (mm)</text>
+<rect x='129.5' y='240.0' width='44.3' height='260.0' fill='#3b6ea5' opacity='0.75'/>
+<text x='151.7' y='530' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='19' fill='#2b2b2b'>J</text>
+<rect x='192.8' y='272.5' width='44.3' height='227.5' fill='#3b6ea5' opacity='0.75'/>
+<text x='215.0' y='530' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='19' fill='#2b2b2b'>F</text>
+<rect x='256.2' y='305.0' width='44.3' height='195.0' fill='#3b6ea5' opacity='0.75'/>
+<text x='278.3' y='530' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='19' fill='#2b2b2b'>M</text>
+<rect x='319.5' y='321.2' width='44.3' height='178.8' fill='#3b6ea5' opacity='0.75'/>
+<text x='341.7' y='530' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='19' fill='#2b2b2b'>A</text>
+<rect x='382.8' y='386.2' width='44.3' height='113.8' fill='#3b6ea5' opacity='0.75'/>
+<text x='405.0' y='530' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='19' fill='#2b2b2b'>M</text>
+<rect x='446.2' y='451.2' width='44.3' height='48.8' fill='#3b6ea5' opacity='0.75'/>
+<text x='468.3' y='530' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='19' fill='#2b2b2b'>J</text>
+<rect x='509.5' y='483.8' width='44.3' height='16.2' fill='#3b6ea5' opacity='0.75'/>
+<text x='531.7' y='530' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='19' fill='#2b2b2b'>J</text>
+<rect x='572.8' y='467.5' width='44.3' height='32.5' fill='#3b6ea5' opacity='0.75'/>
+<text x='595.0' y='530' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='19' fill='#2b2b2b'>A</text>
+<rect x='636.2' y='353.8' width='44.3' height='146.2' fill='#3b6ea5' opacity='0.75'/>
+<text x='658.3' y='530' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='19' fill='#2b2b2b'>S</text>
+<rect x='699.5' y='191.2' width='44.3' height='308.8' fill='#3b6ea5' opacity='0.75'/>
+<text x='721.7' y='530' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='19' fill='#2b2b2b'>O</text>
+<rect x='762.8' y='142.5' width='44.3' height='357.5' fill='#3b6ea5' opacity='0.75'/>
+<text x='785.0' y='530' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='19' fill='#2b2b2b'>N</text>
+<rect x='826.2' y='191.2' width='44.3' height='308.8' fill='#3b6ea5' opacity='0.75'/>
+<text x='848.3' y='530' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='19' fill='#2b2b2b'>D</text>
+<polyline points='151.7,383.0 215.0,370.0 278.3,344.0 341.7,305.0 405.0,253.0 468.3,201.0 531.7,162.0 595.0,162.0 658.3,214.0 721.7,266.0 785.0,331.0 848.3,370.0' fill='none' stroke='#c0622b' stroke-width='5'/>
+<line x1='120' y1='500' x2='880' y2='500' stroke='#2b2b2b' stroke-width='2.5'/>
+</svg>

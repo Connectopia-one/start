@@ -1,0 +1,23 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1000 620' width='1000' height='620'>
+<rect width='1000' height='620' fill='#ffffff'/>
+<text x='40' y='50' font-family='Nunito, Arial, sans-serif' font-size='28' font-weight='800' fill='#2f4a22'>De aarde op vier plaatsen in haar baan</text>
+<ellipse cx='500' cy='340' rx='360' ry='190' fill='none' stroke='#b9b29c' stroke-width='3' stroke-dasharray='10 8'/>
+<circle cx='500' cy='340' r='48' fill='#f6c945' stroke='#c0622b' stroke-width='3'/>
+<text x='500' y='348' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='21' font-weight='800' fill='#2b2b2b'>zon</text>
+<circle cx='140' cy='340' r='34' fill='#dbe7f3' stroke='#3b6ea5' stroke-width='3'/>
+<line x1='119.3' y1='387.7' x2='160.7' y2='292.3' stroke='#2b2b2b' stroke-width='3'/>
+<text x='164.7' y='286.3' font-family='Nunito, Arial, sans-serif' font-size='18' font-weight='700' fill='#2b2b2b'>N</text>
+<text x='78' y='348' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='26' font-weight='800' fill='#2f4a22'>A</text>
+<circle cx='500' cy='530' r='34' fill='#dbe7f3' stroke='#3b6ea5' stroke-width='3'/>
+<line x1='479.3' y1='577.7' x2='520.7' y2='482.3' stroke='#2b2b2b' stroke-width='3'/>
+<text x='524.7' y='476.3' font-family='Nunito, Arial, sans-serif' font-size='18' font-weight='700' fill='#2b2b2b'>N</text>
+<text x='500' y='600' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='26' font-weight='800' fill='#2f4a22'>B</text>
+<circle cx='860' cy='340' r='34' fill='#dbe7f3' stroke='#3b6ea5' stroke-width='3'/>
+<line x1='839.3' y1='387.7' x2='880.7' y2='292.3' stroke='#2b2b2b' stroke-width='3'/>
+<text x='884.7' y='286.3' font-family='Nunito, Arial, sans-serif' font-size='18' font-weight='700' fill='#2b2b2b'>N</text>
+<text x='922' y='348' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='26' font-weight='800' fill='#2f4a22'>C</text>
+<circle cx='500' cy='150' r='34' fill='#dbe7f3' stroke='#3b6ea5' stroke-width='3'/>
+<line x1='479.3' y1='197.7' x2='520.7' y2='102.3' stroke='#2b2b2b' stroke-width='3'/>
+<text x='524.7' y='96.3' font-family='Nunito, Arial, sans-serif' font-size='18' font-weight='700' fill='#2b2b2b'>N</text>
+<text x='500' y='100' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='26' font-weight='800' fill='#2f4a22'>D</text>
+</svg>
