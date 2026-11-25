@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">La liste de courses de Chloé</text>
+<rect x="240" y="55" width="520" height="570" rx="8" fill="#fffbe6" stroke="#24331b" stroke-width="3"/>
+<line x1="260" y1="165" x2="740" y2="165" stroke="#e4e1d6" stroke-width="2"/>
+<line x1="260" y1="235" x2="740" y2="235" stroke="#e4e1d6" stroke-width="2"/>
+<line x1="260" y1="305" x2="740" y2="305" stroke="#e4e1d6" stroke-width="2"/>
+<line x1="260" y1="375" x2="740" y2="375" stroke="#e4e1d6" stroke-width="2"/>
+<line x1="260" y1="445" x2="740" y2="445" stroke="#e4e1d6" stroke-width="2"/>
+<line x1="260" y1="515" x2="740" y2="515" stroke="#e4e1d6" stroke-width="2"/>
+<line x1="260" y1="585" x2="740" y2="585" stroke="#e4e1d6" stroke-width="2"/>
+<circle cx="290" cy="143" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="290" y="150" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<text x="330" y="150" font-size="26" text-anchor="start" fill="#24331b">un kilo de pommes</text>
+<circle cx="290" cy="213" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="290" y="220" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<text x="330" y="220" font-size="26" text-anchor="start" fill="#24331b">trois bouteilles d'eau</text>
+<circle cx="290" cy="283" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="290" y="290" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<text x="330" y="290" font-size="26" text-anchor="start" fill="#24331b">beaucoup des tomates</text>
+<circle cx="290" cy="353" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="290" y="360" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">D</text>
+<text x="330" y="360" font-size="26" text-anchor="start" fill="#24331b">du fromage de chèvre</text>
+<circle cx="290" cy="423" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="290" y="430" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">E</text>
+<text x="330" y="430" font-size="26" text-anchor="start" fill="#24331b">de belles fraises</text>
+<circle cx="290" cy="493" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="290" y="500" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">F</text>
+<text x="330" y="500" font-size="26" text-anchor="start" fill="#24331b">pas de viande cette fois</text>
+<text x="500" y="105" font-size="26" text-anchor="middle" fill="#24331b" font-weight="bold">Courses du samedi</text>
+</svg>

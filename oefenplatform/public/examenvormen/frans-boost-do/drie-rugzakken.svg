@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Trois sacs à dos</text>
+<rect x="150.0" y="170" width="120" height="300" rx="30" fill="#b03a2e" stroke="#24331b" stroke-width="3"/>
+<rect x="170.0" y="305.0" width="80.0" height="105.0" rx="14" fill="#b03a2e" stroke="#24331b" stroke-width="2"/>
+<path d="M 180 170 Q 210 130 240 170" fill="none" stroke="#24331b" stroke-width="5"/>
+<text x="210" y="520" font-size="26" text-anchor="middle" fill="#24331b" font-weight="bold">45 €</text>
+<text x="210" y="555" font-size="22" text-anchor="middle" fill="#24331b">1,2 kg</text>
+<text x="210" y="588" font-size="22" text-anchor="middle" fill="#24331b">20 l</text>
+<circle cx="140.0" cy="160" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="140.0" y="167" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<rect x="457.5" y="250" width="85" height="220" rx="30" fill="#3b6fa0" stroke="#24331b" stroke-width="3"/>
+<rect x="471.6666666666667" y="349.0" width="56.666666666666664" height="77.0" rx="14" fill="#3b6fa0" stroke="#24331b" stroke-width="2"/>
+<path d="M 470 250 Q 500 210 530 250" fill="none" stroke="#24331b" stroke-width="5"/>
+<text x="500" y="520" font-size="26" text-anchor="middle" fill="#24331b" font-weight="bold">60 €</text>
+<text x="500" y="555" font-size="22" text-anchor="middle" fill="#24331b">0,8 kg</text>
+<text x="500" y="588" font-size="22" text-anchor="middle" fill="#24331b">15 l</text>
+<circle cx="447.5" cy="240" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="447.5" y="247" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<rect x="715.0" y="90" width="150" height="380" rx="30" fill="#a8c98a" stroke="#24331b" stroke-width="3"/>
+<rect x="740.0" y="261.0" width="100.0" height="133.0" rx="14" fill="#a8c98a" stroke="#24331b" stroke-width="2"/>
+<path d="M 760 90 Q 790 50 820 90" fill="none" stroke="#24331b" stroke-width="5"/>
+<text x="790" y="520" font-size="26" text-anchor="middle" fill="#24331b" font-weight="bold">45 €</text>
+<text x="790" y="555" font-size="22" text-anchor="middle" fill="#24331b">1,9 kg</text>
+<text x="790" y="588" font-size="22" text-anchor="middle" fill="#24331b">35 l</text>
+<circle cx="705.0" cy="80" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="705.0" y="87" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<text x="60" y="520" font-size="18" text-anchor="start" fill="#24331b">prix</text>
+<text x="60" y="555" font-size="18" text-anchor="start" fill="#24331b">poids</text>
+<text x="60" y="588" font-size="18" text-anchor="start" fill="#24331b">volume</text>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Une affiche dans la rue</text>
+<rect x="200" y="60" width="600" height="560" rx="12" fill="#fff8e1" stroke="#24331b" stroke-width="4"/>
+<text x="500" y="130" font-size="40" text-anchor="middle" fill="#24331b" font-weight="bold">FÊTE DU QUARTIER</text>
+<rect x="240" y="150" width="520" height="4" rx="0" fill="#b5651d" stroke="#b5651d" stroke-width="0"/>
+<circle cx="260" cy="203" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="260" y="210" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<text x="300" y="210" font-size="22" text-anchor="start" fill="#24331b">Samedi 14 juin, de 14 h à 22 h</text>
+<circle cx="260" cy="273" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="260" y="280" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<text x="300" y="280" font-size="22" text-anchor="start" fill="#24331b">Place Saint-Paul (s'il pleut : salle des sports)</text>
+<circle cx="260" cy="343" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="260" y="350" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<text x="300" y="350" font-size="22" text-anchor="start" fill="#24331b">Entrée gratuite – repas : 8 € (enfants : 4 €)</text>
+<circle cx="260" cy="413" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="260" y="420" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">D</text>
+<text x="300" y="420" font-size="22" text-anchor="start" fill="#24331b">Apportez un dessert à partager !</text>
+<circle cx="260" cy="483" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="260" y="490" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">E</text>
+<text x="300" y="490" font-size="22" text-anchor="start" fill="#24331b">Inscription obligatoire avant le 7 juin</text>
+<text x="500" y="580" font-size="18" text-anchor="middle" fill="#24331b">Info : comite.stpaul@exemple.be</text>
+</svg>

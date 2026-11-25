@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Le tableau d'affichage de l'école</text>
+<rect x="40" y="55" width="920" height="570" rx="10" fill="#d9b38c" stroke="#24331b" stroke-width="4"/>
+<rect x="70" y="85" width="410" height="150" rx="4" fill="#e8c547" stroke="#24331b" stroke-width="2"/>
+<circle cx="275" cy="93" r="8" fill="#b03a2e" stroke="#24331b" stroke-width="1"/>
+<circle cx="100" cy="120" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="100" y="127" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<text x="130" y="160" font-size="21" text-anchor="start" fill="#24331b">Le voyage à Paris</text>
+<text x="130" y="192" font-size="21" text-anchor="start" fill="#24331b">aura lieu le 4 mai.</text>
+<rect x="520" y="85" width="410" height="150" rx="4" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<circle cx="725" cy="93" r="8" fill="#b03a2e" stroke="#24331b" stroke-width="1"/>
+<circle cx="550" cy="120" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="550" y="127" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<text x="580" y="160" font-size="21" text-anchor="start" fill="#24331b">Pourriez-vous rendre</text>
+<text x="580" y="192" font-size="21" text-anchor="start" fill="#24331b">vos livres avant vendredi ?</text>
+<rect x="70" y="265" width="410" height="150" rx="4" fill="#9ec7e6" stroke="#24331b" stroke-width="2"/>
+<circle cx="275" cy="273" r="8" fill="#b03a2e" stroke="#24331b" stroke-width="1"/>
+<circle cx="100" cy="300" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="100" y="307" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<text x="130" y="340" font-size="21" text-anchor="start" fill="#24331b">Selon la radio, la grève</text>
+<text x="130" y="372" font-size="21" text-anchor="start" fill="#24331b">durerait encore deux jours.</text>
+<rect x="520" y="265" width="410" height="150" rx="4" fill="#a8c98a" stroke="#24331b" stroke-width="2"/>
+<circle cx="725" cy="273" r="8" fill="#b03a2e" stroke="#24331b" stroke-width="1"/>
+<circle cx="550" cy="300" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="550" y="307" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">D</text>
+<text x="580" y="340" font-size="21" text-anchor="start" fill="#24331b">Il faut que tous les élèves</text>
+<text x="580" y="372" font-size="21" text-anchor="start" fill="#24331b">soient là à 8 h 15.</text>
+<rect x="295" y="445" width="410" height="150" rx="4" fill="#b5651d" stroke="#24331b" stroke-width="2"/>
+<circle cx="500" cy="453" r="8" fill="#b03a2e" stroke="#24331b" stroke-width="1"/>
+<circle cx="325" cy="480" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="325" y="487" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">E</text>
+<text x="355" y="520" font-size="21" text-anchor="start" fill="#24331b">Quand il fera beau, nous</text>
+<text x="355" y="552" font-size="21" text-anchor="start" fill="#24331b">mangerons dans la cour.</text>
+</svg>

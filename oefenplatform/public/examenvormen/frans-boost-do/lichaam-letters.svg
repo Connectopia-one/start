@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Le corps</text>
+<circle cx="500" cy="120" r="50" fill="#f3dcc2" stroke="#24331b" stroke-width="3"/>
+<rect x="475" y="168" width="50" height="30" rx="4" fill="#f3dcc2" stroke="#24331b" stroke-width="3"/>
+<rect x="420" y="195" width="160" height="190" rx="18" fill="#3b6fa0" stroke="#24331b" stroke-width="3"/>
+<line x1="425" y1="210" x2="340" y2="380" stroke="#24331b" stroke-width="16"/>
+<line x1="575" y1="210" x2="660" y2="380" stroke="#24331b" stroke-width="16"/>
+<circle cx="335" cy="395" r="16" fill="#f3dcc2" stroke="#24331b" stroke-width="3"/>
+<circle cx="665" cy="395" r="16" fill="#f3dcc2" stroke="#24331b" stroke-width="3"/>
+<rect x="430" y="380" width="60" height="200" rx="8" fill="#d9d4c4" stroke="#24331b" stroke-width="3"/>
+<rect x="510" y="380" width="60" height="200" rx="8" fill="#d9d4c4" stroke="#24331b" stroke-width="3"/>
+<rect x="415" y="580" width="80" height="25" rx="8" fill="#24331b" stroke="#24331b" stroke-width="2"/>
+<rect x="505" y="580" width="80" height="25" rx="8" fill="#24331b" stroke="#24331b" stroke-width="2"/>
+<line x1="360" y1="190" x2="440" y2="210" stroke="#24331b" stroke-width="2"/>
+<circle cx="360" cy="190" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="360" y="197" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<line x1="260" y1="360" x2="345" y2="370" stroke="#24331b" stroke-width="2"/>
+<circle cx="260" cy="360" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="260" y="367" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<line x1="360" y1="480" x2="460" y2="480" stroke="#24331b" stroke-width="2"/>
+<circle cx="360" cy="480" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="360" y="487" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<line x1="650" y1="560" x2="540" y2="570" stroke="#24331b" stroke-width="2"/>
+<circle cx="650" cy="560" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="650" y="567" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">D</text>
+<line x1="630" y1="170" x2="500" y2="185" stroke="#24331b" stroke-width="2"/>
+<circle cx="630" cy="170" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="630" y="177" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">E</text>
+<line x1="720" y1="290" x2="615" y2="290" stroke="#24331b" stroke-width="2"/>
+<circle cx="720" cy="290" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="720" y="297" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">F</text>
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Une maison</text>
+<path d="M 200 230 L 500 70 L 800 230 Z" fill="#b5651d" stroke="#24331b" stroke-width="3"/>
+<rect x="200" y="230" width="600" height="360" rx="0" fill="#ffffff" stroke="#24331b" stroke-width="4"/>
+<line x1="200" y1="410" x2="800" y2="410" stroke="#24331b" stroke-width="4"/>
+<line x1="500" y1="230" x2="500" y2="590" stroke="#24331b" stroke-width="4"/>
+<line x1="200" y1="590" x2="800" y2="590" stroke="#24331b" stroke-width="4"/>
+<rect x="240" y="330" width="180" height="60" rx="6" fill="#3b6fa0" stroke="#24331b" stroke-width="2"/>
+<rect x="240" y="300" width="40" height="40" rx="6" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<rect x="540" y="340" width="60" height="70" rx="2" fill="#d9d4c4" stroke="#24331b" stroke-width="2"/>
+<circle cx="570" cy="330" r="18" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<rect x="620" y="350" width="150" height="58" rx="20" fill="#9ec7e6" stroke="#24331b" stroke-width="2"/>
+<line x1="760" y1="350" x2="760" y2="300" stroke="#24331b" stroke-width="4"/>
+<line x1="760" y1="300" x2="735" y2="300" stroke="#24331b" stroke-width="4"/>
+<circle cx="730" cy="305" r="9" fill="#d9d4c4" stroke="#24331b" stroke-width="2"/>
+<rect x="240" y="500" width="200" height="90" rx="14" fill="#a8c98a" stroke="#24331b" stroke-width="2"/>
+<rect x="560" y="520" width="200" height="70" rx="2" fill="#d9d4c4" stroke="#24331b" stroke-width="2"/>
+<circle cx="610" cy="515" r="14" fill="#24331b" stroke="#24331b" stroke-width="1"/>
+<circle cx="660" cy="515" r="14" fill="#24331b" stroke="#24331b" stroke-width="1"/>
+<rect x="690" y="440" width="70" height="50" rx="2" fill="#d9d4c4" stroke="#24331b" stroke-width="2"/>
+<circle cx="330" cy="260" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="330" y="267" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<circle cx="650" cy="260" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="650" y="267" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<circle cx="330" cy="440" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="330" y="447" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<circle cx="650" cy="440" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="650" y="447" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">D</text>
+</svg>

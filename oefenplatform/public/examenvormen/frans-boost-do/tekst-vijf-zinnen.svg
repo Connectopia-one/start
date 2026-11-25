@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Un texte sur le télétravail</text>
+<rect x="80" y="60" width="840" height="560" rx="10" fill="#ffffff" stroke="#24331b" stroke-width="3"/>
+<circle cx="125" cy="143" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="125" y="150" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<text x="165" y="150" font-size="23" text-anchor="start" fill="#24331b">Depuis 2020, beaucoup d'employés travaillent à la maison.</text>
+<circle cx="125" cy="233" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="125" y="240" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<text x="165" y="240" font-size="23" text-anchor="start" fill="#24331b">D'abord, ils gagnent du temps : pas de trajets en voiture.</text>
+<circle cx="125" cy="323" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="125" y="330" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<text x="165" y="330" font-size="23" text-anchor="start" fill="#24331b">De plus, ils peuvent mieux organiser leur journée.</text>
+<circle cx="125" cy="413" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="125" y="420" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">D</text>
+<text x="165" y="420" font-size="23" text-anchor="start" fill="#24331b">Pourtant, certains se sentent seuls loin de leurs collègues.</text>
+<circle cx="125" cy="503" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="125" y="510" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">E</text>
+<text x="165" y="510" font-size="23" text-anchor="start" fill="#24331b">Les entreprises proposent donc deux jours au bureau par semaine.</text>
+</svg>

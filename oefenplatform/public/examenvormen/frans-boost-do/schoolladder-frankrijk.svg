@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">L'école en France</text>
+<rect x="100" y="400" width="200" height="160" rx="6" fill="#a8c98a" stroke="#24331b" stroke-width="3"/>
+<text x="200" y="440" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">6 – 11 ans</text>
+<circle cx="200" cy="485" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="200" y="492" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<rect x="310" y="310" width="200" height="250" rx="6" fill="#e8c547" stroke="#24331b" stroke-width="3"/>
+<text x="410" y="350" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">11 – 15 ans</text>
+<circle cx="410" cy="395" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="410" y="402" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<rect x="520" y="220" width="200" height="340" rx="6" fill="#b5651d" stroke="#24331b" stroke-width="3"/>
+<text x="620" y="260" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">15 – 18 ans</text>
+<circle cx="620" cy="305" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="620" y="312" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<rect x="730" y="130" width="200" height="430" rx="6" fill="#9ec7e6" stroke="#24331b" stroke-width="3"/>
+<text x="830" y="170" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">à partir de 18 ans</text>
+<circle cx="830" cy="215" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="830" y="222" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">D</text>
+<line x1="60" y1="560" x2="960" y2="560" stroke="#24331b" stroke-width="3"/>
+</svg>
