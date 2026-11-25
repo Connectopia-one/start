@@ -1,0 +1,56 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1000 620' width='1000' height='620'>
+<rect width='1000' height='620' fill='#ffffff'/>
+<text x='40' y='46' font-family='Nunito, Arial, sans-serif' font-size='28' font-weight='800' fill='#2f4a22'>Studietijd en punten op een toets</text>
+<line x1='110' y1='520.0' x2='920' y2='520.0' stroke='#ebe6d8' stroke-width='1.5'/>
+<text x='96' y='527.0' text-anchor='end' font-family='Nunito, Arial, sans-serif' font-size='19' fill='#2b2b2b'>0</text>
+<line x1='110' y1='436.0' x2='920' y2='436.0' stroke='#ebe6d8' stroke-width='1.5'/>
+<text x='96' y='443.0' text-anchor='end' font-family='Nunito, Arial, sans-serif' font-size='19' fill='#2b2b2b'>4</text>
+<line x1='110' y1='352.0' x2='920' y2='352.0' stroke='#ebe6d8' stroke-width='1.5'/>
+<text x='96' y='359.0' text-anchor='end' font-family='Nunito, Arial, sans-serif' font-size='19' fill='#2b2b2b'>8</text>
+<line x1='110' y1='268.0' x2='920' y2='268.0' stroke='#ebe6d8' stroke-width='1.5'/>
+<text x='96' y='275.0' text-anchor='end' font-family='Nunito, Arial, sans-serif' font-size='19' fill='#2b2b2b'>12</text>
+<line x1='110' y1='184.0' x2='920' y2='184.0' stroke='#ebe6d8' stroke-width='1.5'/>
+<text x='96' y='191.0' text-anchor='end' font-family='Nunito, Arial, sans-serif' font-size='19' fill='#2b2b2b'>16</text>
+<line x1='110' y1='100.0' x2='920' y2='100.0' stroke='#ebe6d8' stroke-width='1.5'/>
+<text x='96' y='107.0' text-anchor='end' font-family='Nunito, Arial, sans-serif' font-size='19' fill='#2b2b2b'>20</text>
+<line x1='110.0' y1='100' x2='110.0' y2='520' stroke='#ebe6d8' stroke-width='1.5'/>
+<text x='110.0' y='550' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='19' fill='#2b2b2b'>0</text>
+<line x1='200.0' y1='100' x2='200.0' y2='520' stroke='#ebe6d8' stroke-width='1.5'/>
+<text x='200.0' y='550' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='19' fill='#2b2b2b'>1</text>
+<line x1='290.0' y1='100' x2='290.0' y2='520' stroke='#ebe6d8' stroke-width='1.5'/>
+<text x='290.0' y='550' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='19' fill='#2b2b2b'>2</text>
+<line x1='380.0' y1='100' x2='380.0' y2='520' stroke='#ebe6d8' stroke-width='1.5'/>
+<text x='380.0' y='550' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='19' fill='#2b2b2b'>3</text>
+<line x1='470.0' y1='100' x2='470.0' y2='520' stroke='#ebe6d8' stroke-width='1.5'/>
+<text x='470.0' y='550' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='19' fill='#2b2b2b'>4</text>
+<line x1='560.0' y1='100' x2='560.0' y2='520' stroke='#ebe6d8' stroke-width='1.5'/>
+<text x='560.0' y='550' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='19' fill='#2b2b2b'>5</text>
+<line x1='650.0' y1='100' x2='650.0' y2='520' stroke='#ebe6d8' stroke-width='1.5'/>
+<text x='650.0' y='550' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='19' fill='#2b2b2b'>6</text>
+<line x1='740.0' y1='100' x2='740.0' y2='520' stroke='#ebe6d8' stroke-width='1.5'/>
+<text x='740.0' y='550' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='19' fill='#2b2b2b'>7</text>
+<line x1='830.0' y1='100' x2='830.0' y2='520' stroke='#ebe6d8' stroke-width='1.5'/>
+<text x='830.0' y='550' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='19' fill='#2b2b2b'>8</text>
+<line x1='920.0' y1='100' x2='920.0' y2='520' stroke='#ebe6d8' stroke-width='1.5'/>
+<text x='920.0' y='550' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='19' fill='#2b2b2b'>9</text>
+<line x1='110' y1='520' x2='935' y2='520' stroke='#2b2b2b' stroke-width='2.5'/>
+<line x1='110' y1='520' x2='110' y2='85' stroke='#2b2b2b' stroke-width='2.5'/>
+<text x='930' y='586' text-anchor='end' font-family='Nunito, Arial, sans-serif' font-size='21' fill='#2b2b2b'>studietijd (uur)</text>
+<text x='122' y='78' font-family='Nunito, Arial, sans-serif' font-size='21' fill='#2b2b2b'>punten op 20</text>
+<circle cx='200.0' cy='373.0' r='9' fill='#2f4a22'/>
+<circle cx='245.0' cy='352.0' r='9' fill='#2f4a22'/>
+<circle cx='290.0' cy='331.0' r='9' fill='#2f4a22'/>
+<circle cx='335.0' cy='331.0' r='9' fill='#2f4a22'/>
+<circle cx='380.0' cy='289.0' r='9' fill='#2f4a22'/>
+<circle cx='425.0' cy='310.0' r='9' fill='#2f4a22'/>
+<circle cx='470.0' cy='268.0' r='9' fill='#2f4a22'/>
+<circle cx='515.0' cy='247.0' r='9' fill='#2f4a22'/>
+<circle cx='560.0' cy='247.0' r='9' fill='#2f4a22'/>
+<circle cx='605.0' cy='226.0' r='9' fill='#2f4a22'/>
+<circle cx='650.0' cy='205.0' r='9' fill='#2f4a22'/>
+<circle cx='695.0' cy='205.0' r='9' fill='#2f4a22'/>
+<circle cx='740.0' cy='163.0' r='9' fill='#2f4a22'/>
+<circle cx='785.0' cy='184.0' r='9' fill='#2f4a22'/>
+<circle cx='830.0' cy='142.0' r='9' fill='#2f4a22'/>
+<circle cx='650.0' cy='415.0' r='9' fill='#2f4a22'/>
+</svg>

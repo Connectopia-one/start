@@ -1,0 +1,532 @@
+{
+  "hoofdstukken": [
+    {
+      "titel": "Uitdaging — alles door elkaar",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "Bekijk de grafieken. Klik op de top van de parabool f.",
+          "afbeelding_url": "/examenvormen/wiskunde-boost-uitdaging/parabool-en-rechte.svg",
+          "zones": [
+            [
+              40.8,
+              18.9,
+              8.4,
+              10.9
+            ]
+          ],
+          "uitleg": "De top is het hoogste punt van deze bergparabool: \\((1, 4)\\). Daar gaat f van stijgen over naar dalen."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het snijpunt van f en g dat niet op de x-as ligt.",
+          "afbeelding_url": "/examenvormen/wiskunde-boost-uitdaging/parabool-en-rechte.svg",
+          "zones": [
+            [
+              49.1,
+              29.6,
+              8.4,
+              10.9
+            ]
+          ],
+          "uitleg": "f en g snijden elkaar in \\((-1, 0)\\) en in \\((2, 3)\\). Het punt \\((2, 3)\\) ligt niet op de x-as."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op een nulwaarde van f.",
+          "afbeelding_url": "/examenvormen/wiskunde-boost-uitdaging/parabool-en-rechte.svg",
+          "zones": [
+            [
+              24.1,
+              61.7,
+              8.4,
+              10.9
+            ],
+            [
+              57.4,
+              61.7,
+              8.4,
+              10.9
+            ]
+          ],
+          "uitleg": "De nulwaarden zijn de x-waarden waar de parabool de x-as snijdt: \\(-1\\) en \\(3\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk voorschrift hoort bij de parabool f?",
+          "opties": [
+            "\\(f(x) = -x^{2} + 2x + 3\\)",
+            "\\(f(x) = x^{2} - 2x - 3\\)",
+            "\\(f(x) = -x^{2} - 2x + 3\\)",
+            "\\(f(x) = -x^{2} + 2x + 4\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het is een bergparabool, dus de coëfficiënt van \\(x^{2}\\) is negatief. Ze snijdt de y-as in 3 en heeft als nulwaarden \\(-1\\) en \\(3\\): \\(-(x + 1)(x - 3) = -x^{2} + 2x + 3\\).",
+          "afbeelding_url": "/examenvormen/wiskunde-boost-uitdaging/parabool-en-rechte.svg"
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over de grafieken?",
+          "rijen": [
+            "De symmetrieas van f is de rechte \\(x = 1\\).",
+            "Het bereik van f is \\(\\left]-\\infty, 4\\right]\\).",
+            "f stijgt voor alle \\(x > 1\\).",
+            "De richtingscoëfficiënt van g is 2."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            false
+          ],
+          "uitleg": "De symmetrieas gaat door de top, \\(x = 1\\). De hoogste functiewaarde is 4, dus het bereik is \\(\\left]-\\infty, 4\\right]\\). Rechts van de top daalt f. g stijgt 1 eenheid per eenheid naar rechts: de richtingscoëfficiënt is 1.",
+          "afbeelding_url": "/examenvormen/wiskunde-boost-uitdaging/parabool-en-rechte.svg"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Voor welke x-waarden ligt de grafiek van f boven die van g?",
+          "opties": [
+            "\\(-1 < x < 2\\)",
+            "\\(-1 < x < 3\\)",
+            "\\(x < -1\\) of \\(x > 2\\)",
+            "\\(0 < x < 2\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "De grafieken snijden elkaar in \\(x = -1\\) en \\(x = 2\\). Daartussen ligt de parabool boven de rechte.",
+          "afbeelding_url": "/examenvormen/wiskunde-boost-uitdaging/parabool-en-rechte.svg"
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Bekijk de puntenwolk. Klik op de uitschieter.",
+          "afbeelding_url": "/examenvormen/wiskunde-boost-uitdaging/puntenwolk-studietijd.svg",
+          "zones": [
+            [
+              62.0,
+              62.1,
+              6.0,
+              9.7
+            ]
+          ],
+          "uitleg": "Eén leerling studeerde 6 uur maar haalde maar 5 op 20. Dat punt ligt ver van de rest van de wolk: het is een uitschieter."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "De puntenwolk toont een [[*positief|negatief]] verband: wie langer studeert, haalt [[*meestal|altijd]] meer punten.",
+          "uitleg": "De wolk loopt van linksonder naar rechtsboven: dat is een positief verband. Het geldt niet voor iedereen, zie de uitschieter, dus meestal en niet altijd.",
+          "afbeelding_url": "/examenvormen/wiskunde-boost-uitdaging/puntenwolk-studietijd.svg"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat mag je besluiten uit deze puntenwolk?",
+          "opties": [
+            "Er is een verband, maar dat bewijst nog geen oorzaak en gevolg.",
+            "Elk extra uur studeren levert precies één punt meer op voor iedereen.",
+            "De leerling met 5 op 20 heeft zeker gelogen over zijn studietijd.",
+            "Studietijd en punten hebben niets met elkaar te maken in deze klas."
+          ],
+          "antwoord": 0,
+          "uitleg": "Een puntenwolk toont dat twee grootheden samen veranderen. Een verband is nog geen bewijs van oorzaak en gevolg, en het geldt niet exact voor iedereen.",
+          "afbeelding_url": "/examenvormen/wiskunde-boost-uitdaging/puntenwolk-studietijd.svg"
+        },
+        {
+          "type": "tabel",
+          "vraag": "Vul de waarheidstabel van \\(p \\Rightarrow q\\) aan.",
+          "rijen": [
+            "p waar, q waar",
+            "p waar, q vals",
+            "p vals, q waar",
+            "p vals, q vals"
+          ],
+          "antwoord": [
+            0,
+            1,
+            0,
+            0
+          ],
+          "uitleg": "Een implicatie is enkel vals als de voorwaarde waar is en het gevolg vals. Is p vals, dan is de implicatie altijd waar.",
+          "kolommen": [
+            "Waar",
+            "Vals"
+          ]
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een alarm gaat af als de deur open is of als het raam open is. Daarvoor gebruik je een [[*OF-poort|EN-poort|NIET-poort]]. Een lamp die enkel brandt als twee schakelaars aan staan, werkt met een [[*EN-poort|OF-poort|NIET-poort]].",
+          "uitleg": "Een OF-poort geeft 1 zodra minstens één ingang 1 is. Een EN-poort geeft enkel 1 als beide ingangen 1 zijn."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Is dit getal rationaal of irrationaal?",
+          "kolommen": [
+            "Rationaal",
+            "Irrationaal"
+          ],
+          "items": [
+            [
+              "\\(\\sqrt{2}\\)",
+              "Irrationaal"
+            ],
+            [
+              "\\(0{,}333\\ldots\\)",
+              "Rationaal"
+            ],
+            [
+              "\\(\\pi\\)",
+              "Irrationaal"
+            ],
+            [
+              "\\(\\sqrt{16}\\)",
+              "Rationaal"
+            ],
+            [
+              "\\(\\tfrac{22}{7}\\)",
+              "Rationaal"
+            ],
+            [
+              "\\(\\sqrt{5}\\)",
+              "Irrationaal"
+            ]
+          ],
+          "uitleg": "Een rationaal getal kan je als breuk schrijven: zijn decimale vorm stopt of herhaalt zich. \\(\\sqrt{16} = 4\\). \\(\\tfrac{22}{7}\\) is een breuk, ook al ligt het dicht bij \\(\\pi\\)."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Reken uit zonder rekenmachine.",
+          "rijen": [
+            "\\(\\sqrt{3} \\cdot \\sqrt{27}\\)",
+            "\\((2^{3})^{2}\\)",
+            "\\(2^{-3}\\)",
+            "\\(\\sqrt{50}\\)"
+          ],
+          "antwoord": [
+            1,
+            2,
+            0,
+            3
+          ],
+          "uitleg": "\\(\\sqrt{3 \\cdot 27} = \\sqrt{81} = 9\\). Macht van een macht: exponenten vermenigvuldigen, \\(2^{6} = 64\\). Een negatieve exponent geeft het omgekeerde. \\(\\sqrt{50} = \\sqrt{25 \\cdot 2} = 5\\sqrt{2}\\).",
+          "kolommen": [
+            "\\(\\tfrac{1}{8}\\)",
+            "\\(9\\)",
+            "\\(64\\)",
+            "\\(5\\sqrt{2}\\)"
+          ]
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Bereken \\(\\dfrac{2^{5} \\cdot 2^{3}}{2^{6}}\\). Geef enkel het getal.",
+          "antwoord": "4",
+          "uitleg": "Bij vermenigvuldigen tel je de exponenten op en bij delen trek je ze af: \\(2^{5 + 3 - 6} = 2^{2} = 4\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe schrijf je \\(0{,}00052\\) in de wetenschappelijke notatie?",
+          "opties": [
+            "\\(5{,}2 \\cdot 10^{-4}\\)",
+            "\\(5{,}2 \\cdot 10^{4}\\)",
+            "\\(52 \\cdot 10^{-5}\\)",
+            "\\(5{,}2 \\cdot 10^{-3}\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Vooraan staat een getal tussen 1 en 10. De komma schuift vier plaatsen naar rechts, dus de exponent is min vier."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk interval hoort bij \\(-2 \\leq x < 5\\)?",
+          "opties": [
+            "\\(\\left[-2, 5\\right[\\)",
+            "\\(\\left]-2, 5\\right]\\)",
+            "\\(\\left[-2, 5\\right]\\)",
+            "\\(\\left]-2, 5\\right[\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(-2\\) hoort erbij, dus de haak staat naar het getal toe. \\(5\\) hoort er niet bij, dus die haak staat van het getal weg."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Twee driehoeken zijn gelijkvormig met factor \\(3\\). De kleine driehoek heeft een oppervlakte van \\(5\\) cm². Hoeveel cm² is de oppervlakte van de grote? Geef enkel het getal.",
+          "antwoord": "45",
+          "uitleg": "Lengtes worden 3 keer zo groot, oppervlaktes \\(3^{2} = 9\\) keer: \\(9 \\cdot 5 = 45\\) cm²."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit in de ruimte?",
+          "rijen": [
+            "Twee rechten die elkaar niet snijden, zijn altijd evenwijdig.",
+            "Drie punten die niet op één rechte liggen, bepalen precies één vlak.",
+            "Twee verschillende vlakken die elkaar snijden, hebben een rechte gemeen.",
+            "Een rechte en een vlak kunnen precies twee punten gemeen hebben."
+          ],
+          "antwoord": [
+            false,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "In de ruimte kunnen rechten ook kruisend zijn: niet evenwijdig en toch zonder snijpunt. Een rechte heeft met een vlak nul, één of oneindig veel punten gemeen, nooit precies twee."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een ladder van \\(5\\) m staat tegen een muur. De voet staat \\(3\\) m van de muur. Hoe hoog reikt de ladder, in meter? Geef enkel het getal.",
+          "antwoord": "4",
+          "uitleg": "Pythagoras: \\(h^{2} + 3^{2} = 5^{2}\\), dus \\(h^{2} = 16\\) en \\(h = 4\\) meter."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een balk is \\(3\\) cm lang, \\(4\\) cm breed en \\(12\\) cm hoog. Hoe lang is de ruimtediagonaal, in cm? Geef enkel het getal.",
+          "antwoord": "13",
+          "uitleg": "Eerst de diagonaal van het grondvlak: \\(\\sqrt{9 + 16} = 5\\). Dan met de hoogte: \\(\\sqrt{25 + 144} = \\sqrt{169} = 13\\) cm."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In een rechthoekige driehoek is de overstaande rechthoekszijde van hoek \\(\\alpha\\) \\(6\\) cm en de schuine zijde \\(12\\) cm. Hoe groot is \\(\\alpha\\)?",
+          "opties": [
+            "\\(30^\\circ\\)",
+            "\\(45^\\circ\\)",
+            "\\(60^\\circ\\)",
+            "\\(27^\\circ\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(\\sin \\alpha = \\tfrac{6}{12} = 0{,}5\\), dus \\(\\alpha = 30^\\circ\\)."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een boom werpt een schaduw van \\(20\\) m. De zonnestralen maken een hoek van \\(35^\\circ\\) met de grond. Hoe hoog is de boom, in meter? Rond af op één decimaal.",
+          "antwoord": [
+            "14,0",
+            "14",
+            "14.0"
+          ],
+          "uitleg": "\\(\\tan 35^\\circ = \\dfrac{h}{20}\\), dus \\(h = 20 \\cdot \\tan 35^\\circ \\approx 14{,}0\\) meter."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "In driehoek ABC is \\(b = 5\\), \\(c = 8\\) en de ingesloten hoek \\(\\hat{A} = 60^\\circ\\). Hoe lang is zijde a? Geef enkel het getal.",
+          "antwoord": "7",
+          "uitleg": "Cosinusregel: \\(a^{2} = 25 + 64 - 2 \\cdot 5 \\cdot 8 \\cdot \\cos 60^\\circ = 89 - 40 = 49\\), dus \\(a = 7\\)."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Reken met vectoren.",
+          "rijen": [
+            "de norm van \\((6, 8)\\)",
+            "\\((1, 2) + (3, -1)\\)",
+            "\\(3 \\cdot (2, -1)\\)"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Norm: \\(\\sqrt{36 + 64} = 10\\). Som: coördinaat per coördinaat optellen. Een veelvoud: elke coördinaat vermenigvuldigen.",
+          "kolommen": [
+            "\\(10\\)",
+            "\\((4, 1)\\)",
+            "\\((6, -3)\\)"
+          ]
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elke formule aan de juiste omvorming.",
+          "paren": [
+            [
+              "\\(v = \\dfrac{s}{t}\\), naar t",
+              "\\(t = \\dfrac{s}{v}\\)"
+            ],
+            [
+              "\\(P = U \\cdot I\\), naar I",
+              "\\(I = \\dfrac{P}{U}\\)"
+            ],
+            [
+              "\\(E = m \\cdot c^{2}\\), naar m",
+              "\\(m = \\dfrac{E}{c^{2}}\\)"
+            ],
+            [
+              "\\(A = l \\cdot b\\), naar b",
+              "\\(b = \\dfrac{A}{l}\\)"
+            ]
+          ],
+          "extra": [
+            "\\(t = s \\cdot v\\)",
+            "\\(m = E - c^{2}\\)"
+          ],
+          "uitleg": "Je doet telkens dezelfde bewerking in beide leden tot de gevraagde grootheid alleen staat."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Los op: \\(5(x - 2) = 3x + 4\\). Geef enkel de waarde van x.",
+          "antwoord": "7",
+          "uitleg": "\\(5x - 10 = 3x + 4\\), dus \\(2x = 14\\) en \\(x = 7\\)."
+        },
+        {
+          "casus": "Drie volwassenen en twee kinderen betalen samen \\(46\\) euro in de bioscoop. Twee volwassenen en vier kinderen betalen samen \\(44\\) euro.",
+          "vragen": [
+            {
+              "type": "invultekst",
+              "vraag": "Hoeveel euro kost een ticket voor een volwassene? Geef enkel het getal.",
+              "antwoord": "12",
+              "uitleg": "Stel a voor een volwassene en k voor een kind: \\(3a + 2k = 46\\) en \\(2a + 4k = 44\\). Uit de tweede: \\(a = 22 - 2k\\). Invullen: \\(66 - 6k + 2k = 46\\), dus \\(k = 5\\) en \\(a = 12\\)."
+            },
+            {
+              "type": "invultekst",
+              "vraag": "Hoeveel euro kost een ticket voor een kind? Geef enkel het getal.",
+              "antwoord": "5",
+              "uitleg": "Met \\(a = 12\\) in \\(3a + 2k = 46\\): \\(36 + 2k = 46\\), dus \\(k = 5\\) euro."
+            }
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Gebruik de discriminant. Hoeveel reële oplossingen heeft elke vergelijking?",
+          "rijen": [
+            "\\(x^{2} - 4x + 4 = 0\\)",
+            "\\(x^{2} + x + 1 = 0\\)",
+            "\\(x^{2} - 5x + 6 = 0\\)"
+          ],
+          "antwoord": [
+            1,
+            0,
+            2
+          ],
+          "uitleg": "Kijk naar de discriminant \\(b^{2} - 4ac\\): \\(16 - 16 = 0\\) geeft één oplossing, \\(1 - 4 < 0\\) geen, \\(25 - 24 > 0\\) twee.",
+          "kolommen": [
+            "Geen",
+            "Eén",
+            "Twee"
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat zijn de oplossingen van \\(x^{2} - 7x + 10 = 0\\)?",
+          "opties": [
+            "\\(2\\) en \\(5\\)",
+            "\\(-2\\) en \\(-5\\)",
+            "\\(1\\) en \\(10\\)",
+            "\\(-2\\) en \\(5\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Zoek twee getallen met product 10 en som 7: 2 en 5. Dus \\((x - 2)(x - 5) = 0\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk voorschrift hoort bij de rechte door \\((1, 3)\\) en \\((3, 7)\\)?",
+          "opties": [
+            "\\(y = 2x + 1\\)",
+            "\\(y = 2x + 3\\)",
+            "\\(y = 4x - 1\\)",
+            "\\(y = x + 2\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "De richtingscoëfficiënt is \\(\\tfrac{7 - 3}{3 - 1} = 2\\). Met \\((1, 3)\\): \\(3 = 2 \\cdot 1 + q\\), dus \\(q = 1\\)."
+        },
+        {
+          "casus": "Een taxi rekent \\(3\\) euro instap en \\(2\\) euro per gereden kilometer.",
+          "vragen": [
+            {
+              "type": "invultekst",
+              "vraag": "Hoeveel euro kost een rit van \\(12\\) km? Geef enkel het getal.",
+              "antwoord": "27",
+              "uitleg": "\\(K(x) = 2x + 3\\), dus \\(K(12) = 24 + 3 = 27\\) euro."
+            },
+            {
+              "type": "invultekst",
+              "vraag": "Hoeveel kilometer kan je rijden met \\(35\\) euro? Geef enkel het getal.",
+              "antwoord": "16",
+              "uitleg": "\\(2x + 3 = 35\\), dus \\(2x = 32\\) en \\(x = 16\\) km."
+            }
+          ]
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een restaurant heeft \\(3\\) voorgerechten, \\(4\\) hoofdgerechten en \\(2\\) desserts. Hoeveel verschillende menu's van drie gangen kan je kiezen? Geef enkel het getal.",
+          "antwoord": "24",
+          "uitleg": "Volgens de productregel: \\(3 \\cdot 4 \\cdot 2 = 24\\) menu's."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel pincodes van vier cijfers bestaan er als geen enkel cijfer twee keer mag voorkomen? Geef enkel het getal.",
+          "antwoord": [
+            "5040",
+            "5 040",
+            "5.040"
+          ],
+          "uitleg": "Voor het eerste cijfer heb je 10 keuzes, dan 9, dan 8, dan 7: \\(10 \\cdot 9 \\cdot 8 \\cdot 7 = 5040\\)."
+        },
+        {
+          "type": "tabel",
+          "vraag": "In een klas van \\(30\\) leerlingen spelen er \\(17\\) voetbal, \\(12\\) tennis en \\(5\\) allebei. Vul aan.",
+          "rijen": [
+            "enkel voetbal",
+            "enkel tennis",
+            "geen van de twee"
+          ],
+          "antwoord": [
+            2,
+            1,
+            0
+          ],
+          "uitleg": "Teken een venndiagram: in de doorsnede 5. Enkel voetbal: \\(17 - 5 = 12\\). Enkel tennis: \\(12 - 5 = 7\\). Samen \\(12 + 5 + 7 = 24\\), dus \\(30 - 24 = 6\\) erbuiten.",
+          "kolommen": [
+            "6",
+            "7",
+            "12"
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Bekijk de reeks 3, 5, 5, 6, 8, 9, 13. Vul aan.",
+          "rijen": [
+            "het gemiddelde",
+            "de mediaan",
+            "de modus",
+            "de variatiebreedte"
+          ],
+          "antwoord": [
+            2,
+            1,
+            0,
+            3
+          ],
+          "uitleg": "Gemiddelde: \\(49 / 7 = 7\\). De mediaan is het middelste van de zeven getallen: 6. De modus komt het vaakst voor: 5. Variatiebreedte: \\(13 - 3 = 10\\).",
+          "kolommen": [
+            "5",
+            "6",
+            "7",
+            "10"
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In dezelfde reeks verandert 13 in 50. Welke centrummaat verandert dan?",
+          "opties": [
+            "het gemiddelde",
+            "de mediaan van de reeks",
+            "de modus van de reeks",
+            "geen enkele centrummaat"
+          ],
+          "antwoord": 0,
+          "uitleg": "De mediaan en de modus blijven 6 en 5. Het gemiddelde springt naar \\(86 / 7 \\approx 12{,}3\\): het is gevoelig voor uitschieters."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet de vier stappen om een wiskundig probleem aan te pakken in de juiste volgorde.",
+          "opties": [
+            "begrijp het probleem",
+            "maak een plan",
+            "voer het plan uit",
+            "kijk terug en controleer"
+          ],
+          "uitleg": "Eerst begrijp je wat er gevraagd is, dan kies je een aanpak, voer je die uit en kijk je na of het antwoord zinvol is."
+        },
+        {
+          "type": "open",
+          "vraag": "Abonnement A kost \\(10\\) euro per maand plus \\(0{,}10\\) euro per gebruikte MB. Abonnement B kost vast \\(20\\) euro per maand. Vanaf hoeveel MB per maand is B voordeliger? Schrijf je redenering op.",
+          "antwoord": "Kost A: \\(10 + 0{,}10x\\). Kost B: \\(20\\). Gelijk als \\(10 + 0{,}10x = 20\\), dus \\(0{,}10x = 10\\) en \\(x = 100\\). Bij meer dan 100 MB is A duurder dan 20 euro, dus vanaf 100 MB (strikt: meer dan 100 MB) is B voordeliger.",
+          "uitleg": "Een goed antwoord stelt de twee kostfuncties op, zoekt waar ze gelijk zijn en besluit wat er gebeurt bij meer gebruik."
+        }
+      ]
+    }
+  ]
+}
