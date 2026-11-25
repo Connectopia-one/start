@@ -1,0 +1,54 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1000 640' width='1000' height='640'>
+<rect width='1000' height='640' fill='#ffffff'/>
+<text x='40' y='50' font-family='Nunito, Arial, sans-serif' font-size='28' font-weight='800' fill='#2f4a22'>Bevolkingspiramide van land X (verzonnen)</text>
+<text x='300' y='92' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='21' font-weight='700' fill='#3b6ea5'>mannen</text>
+<text x='700' y='92' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='21' font-weight='700' fill='#c0622b'>vrouwen</text>
+<rect x='220.0' y='514' width='240.0' height='42' fill='#3b6ea5' opacity='0.8'/>
+<rect x='540' y='514' width='230.4' height='42' fill='#c0622b' opacity='0.8'/>
+<text x='500' y='542.0' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='18' fill='#2b2b2b'>0-9</text>
+<rect x='200.8' y='464' width='259.2' height='42' fill='#3b6ea5' opacity='0.8'/>
+<rect x='540' y='464' width='249.6' height='42' fill='#c0622b' opacity='0.8'/>
+<text x='500' y='492.0' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='18' fill='#2b2b2b'>10-19</text>
+<rect x='172.0' y='414' width='288.0' height='42' fill='#3b6ea5' opacity='0.8'/>
+<rect x='540' y='414' width='278.4' height='42' fill='#c0622b' opacity='0.8'/>
+<text x='500' y='442.0' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='18' fill='#2b2b2b'>20-29</text>
+<rect x='152.8' y='364' width='307.2' height='42' fill='#3b6ea5' opacity='0.8'/>
+<rect x='540' y='364' width='302.4' height='42' fill='#c0622b' opacity='0.8'/>
+<text x='500' y='392.0' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='18' fill='#2b2b2b'>30-39</text>
+<rect x='143.2' y='314' width='316.8' height='42' fill='#3b6ea5' opacity='0.8'/>
+<rect x='540' y='314' width='312.0' height='42' fill='#c0622b' opacity='0.8'/>
+<text x='500' y='342.0' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='18' fill='#2b2b2b'>40-49</text>
+<rect x='114.4' y='264' width='345.6' height='42' fill='#3b6ea5' opacity='0.8'/>
+<rect x='540' y='264' width='340.8' height='42' fill='#c0622b' opacity='0.8'/>
+<text x='500' y='292.0' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='18' fill='#2b2b2b'>50-59</text>
+<rect x='172.0' y='214' width='288.0' height='42' fill='#3b6ea5' opacity='0.8'/>
+<rect x='540' y='214' width='302.4' height='42' fill='#c0622b' opacity='0.8'/>
+<text x='500' y='242.0' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='18' fill='#2b2b2b'>60-69</text>
+<rect x='268.0' y='164' width='192.0' height='42' fill='#3b6ea5' opacity='0.8'/>
+<rect x='540' y='164' width='220.8' height='42' fill='#c0622b' opacity='0.8'/>
+<text x='500' y='192.0' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='18' fill='#2b2b2b'>70-79</text>
+<rect x='364.0' y='114' width='96.0' height='42' fill='#3b6ea5' opacity='0.8'/>
+<rect x='540' y='114' width='153.6' height='42' fill='#c0622b' opacity='0.8'/>
+<text x='500' y='142.0' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='18' fill='#2b2b2b'>80+</text>
+<line x1='460' y1='110' x2='460' y2='560' stroke='#ebe6d8' stroke-width='1.5'/>
+<text x='460' y='592' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='17' fill='#2b2b2b'>0</text>
+<line x1='540' y1='110' x2='540' y2='560' stroke='#ebe6d8' stroke-width='1.5'/>
+<text x='540' y='592' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='17' fill='#2b2b2b'>0</text>
+<line x1='364' y1='110' x2='364' y2='560' stroke='#ebe6d8' stroke-width='1.5'/>
+<text x='364' y='592' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='17' fill='#2b2b2b'>2</text>
+<line x1='636' y1='110' x2='636' y2='560' stroke='#ebe6d8' stroke-width='1.5'/>
+<text x='636' y='592' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='17' fill='#2b2b2b'>2</text>
+<line x1='268' y1='110' x2='268' y2='560' stroke='#ebe6d8' stroke-width='1.5'/>
+<text x='268' y='592' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='17' fill='#2b2b2b'>4</text>
+<line x1='732' y1='110' x2='732' y2='560' stroke='#ebe6d8' stroke-width='1.5'/>
+<text x='732' y='592' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='17' fill='#2b2b2b'>4</text>
+<line x1='172' y1='110' x2='172' y2='560' stroke='#ebe6d8' stroke-width='1.5'/>
+<text x='172' y='592' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='17' fill='#2b2b2b'>6</text>
+<line x1='828' y1='110' x2='828' y2='560' stroke='#ebe6d8' stroke-width='1.5'/>
+<text x='828' y='592' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='17' fill='#2b2b2b'>6</text>
+<line x1='76' y1='110' x2='76' y2='560' stroke='#ebe6d8' stroke-width='1.5'/>
+<text x='76' y='592' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='17' fill='#2b2b2b'>8</text>
+<line x1='924' y1='110' x2='924' y2='560' stroke='#ebe6d8' stroke-width='1.5'/>
+<text x='924' y='592' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='17' fill='#2b2b2b'>8</text>
+<text x='500' y='626' text-anchor='middle' font-family='Nunito, Arial, sans-serif' font-size='19' fill='#2b2b2b'>% van de bevolking</text>
+</svg>

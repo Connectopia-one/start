@@ -1,0 +1,581 @@
+{
+  "hoofdstukken": [
+    {
+      "titel": "Uitdaging — alles door elkaar",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "Bekijk de bevolkingspiramide. Klik op de leeftijdsgroep met het grootste aandeel van de bevolking.",
+          "afbeelding_url": "/examenvormen/aardrijkskunde-boost-uitdaging/piramide-land-x.svg",
+          "zones": [
+            [
+              11.4,
+              40.6,
+              77.1,
+              7.8
+            ]
+          ],
+          "uitleg": "De groep van 50 tot 59 jaar heeft de langste balken: ruim 7 % mannen en 7 % vrouwen. Dat zijn de kinderen van een vroegere geboortegolf."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de leeftijdsgroep waar duidelijk meer vrouwen dan mannen zijn.",
+          "afbeelding_url": "/examenvormen/aardrijkskunde-boost-uitdaging/piramide-land-x.svg",
+          "zones": [
+            [
+              30.6,
+              17.2,
+              38.7,
+              7.8
+            ]
+          ],
+          "uitleg": "Bij de 80-plussers is de vrouwenbalk veel langer: vrouwen leven gemiddeld langer dan mannen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Lees de piramide van land X. Welke uitspraak klopt?",
+          "rijen": [
+            "Er worden minder kinderen geboren dan dertig jaar geleden.",
+            "Het land vergrijst.",
+            "De piramide heeft de vorm van een brede driehoek, typisch voor een jong land.",
+            "Meer dan de helft van de bevolking is jonger dan 20 jaar."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            false
+          ],
+          "uitleg": "De basis is smaller dan de middengroepen en er zijn veel ouderen. Een jong land heeft een brede basis die naar boven smal wordt.",
+          "afbeelding_url": "/examenvormen/aardrijkskunde-boost-uitdaging/piramide-land-x.svg"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk probleem krijgt land X de komende jaren waarschijnlijk?",
+          "opties": [
+            "Meer kosten voor pensioenen en zorg.",
+            "Een tekort aan plaatsen in kleuterscholen.",
+            "Te veel jongeren die werk zoeken.",
+            "Een snelle stijging van het geboortecijfer."
+          ],
+          "antwoord": 0,
+          "uitleg": "Als de grote groep van 50 tot 69 jaar ouder wordt, stijgen de uitgaven voor pensioenen en gezondheidszorg.",
+          "afbeelding_url": "/examenvormen/aardrijkskunde-boost-uitdaging/piramide-land-x.svg"
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Bekijk het model. Klik op de fase waarin het sterftecijfer sterk daalt, terwijl het geboortecijfer hoog blijft.",
+          "afbeelding_url": "/examenvormen/aardrijkskunde-boost-uitdaging/demografische-transitie.svg",
+          "zones": [
+            [
+              30.0,
+              16.7,
+              21.0,
+              70.0
+            ]
+          ],
+          "uitleg": "In fase 2 dalen de sterftecijfers door betere voeding, hygiëne en geneeskunde. De geboortecijfers blijven nog hoog."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de fase waarin vooral het geboortecijfer sterk daalt.",
+          "afbeelding_url": "/examenvormen/aardrijkskunde-boost-uitdaging/demografische-transitie.svg",
+          "zones": [
+            [
+              51.0,
+              16.7,
+              21.0,
+              70.0
+            ]
+          ],
+          "uitleg": "In fase 3 krijgen gezinnen minder kinderen: door verstedelijking, onderwijs voor meisjes en anticonceptie."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de fase waarin beide cijfers laag zijn en dicht bij elkaar liggen.",
+          "afbeelding_url": "/examenvormen/aardrijkskunde-boost-uitdaging/demografische-transitie.svg",
+          "zones": [
+            [
+              72.0,
+              16.7,
+              21.0,
+              70.0
+            ]
+          ],
+          "uitleg": "In fase 4 zijn geboorte- en sterftecijfer laag. De bevolking groeit nog nauwelijks, zoals in België."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "De natuurlijke aangroei is het verschil tussen [[*geboortecijfer en sterftecijfer|immigratie en emigratie]]. In fase 1 is de natuurlijke aangroei [[*klein|zeer groot]] omdat beide cijfers hoog zijn.",
+          "uitleg": "Natuurlijke aangroei = geboortecijfer − sterftecijfer. Als beide hoog en ongeveer gelijk zijn, groeit de bevolking nauwelijks.",
+          "afbeelding_url": "/examenvormen/aardrijkskunde-boost-uitdaging/demografische-transitie.svg"
+        },
+        {
+          "type": "tabel",
+          "vraag": "Op welk continent ligt dit land?",
+          "rijen": [
+            "Nigeria",
+            "Indonesië",
+            "Brazilië",
+            "Canada"
+          ],
+          "antwoord": [
+            0,
+            1,
+            3,
+            2
+          ],
+          "uitleg": "Nigeria ligt in West-Afrika, Indonesië in Zuidoost-Azië, Brazilië in Zuid-Amerika en Canada in Noord-Amerika.",
+          "kolommen": [
+            "Afrika",
+            "Azië",
+            "Noord-Amerika",
+            "Zuid-Amerika"
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Op welk halfrond ligt deze plaats: noordelijk of zuidelijk?",
+          "rijen": [
+            "41° NB en 2° OL",
+            "34° ZB en 18° OL",
+            "23° ZB en 43° WL",
+            "51° NB en 4° OL"
+          ],
+          "antwoord": [
+            0,
+            1,
+            1,
+            0
+          ],
+          "uitleg": "NB staat voor noorderbreedte, ZB voor zuiderbreedte. De lengte (OL of WL) zegt niets over noord of zuid.",
+          "kolommen": [
+            "Noordelijk",
+            "Zuidelijk"
+          ]
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "De afstand die je echt aflegt in kilometer is de [[*werkelijke afstand|mentale afstand]]. Hoe ver je denkt dat iets ligt, is de [[*mentale afstand|werkelijke afstand]].",
+          "uitleg": "Een mentale afstand kan groter of kleiner lijken dan de werkelijke, bijvoorbeeld door hoe goed je een plaats kent."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Is dit een push- of een pullfactor voor migratie?",
+          "kolommen": [
+            "Pushfactor",
+            "Pullfactor"
+          ],
+          "items": [
+            [
+              "Oorlog in het eigen land",
+              "Pushfactor"
+            ],
+            [
+              "Werk in een ander land",
+              "Pullfactor"
+            ],
+            [
+              "Langdurige droogte",
+              "Pushfactor"
+            ],
+            [
+              "Goede scholen en ziekenhuizen",
+              "Pullfactor"
+            ]
+          ],
+          "uitleg": "Pushfactoren duwen mensen weg uit hun land. Pullfactoren trekken ze aan naar een ander land."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een stad heeft 120 000 inwoners. Er worden 1800 kinderen geboren in een jaar. Wat is het geboortecijfer in promille?",
+          "antwoord": [
+            "15"
+          ],
+          "uitleg": "1800 / 120 000 · 1000 = 15 ‰."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Waar wonen de mensen? Dichtbevolkt of dunbevolkt?",
+          "rijen": [
+            "De Gangesvlakte in India",
+            "De Sahara",
+            "Het noorden van Canada",
+            "Nederland en België"
+          ],
+          "antwoord": [
+            0,
+            1,
+            1,
+            0
+          ],
+          "uitleg": "Vruchtbare vlakten en rijke regio's zijn dichtbevolkt. Woestijnen en zeer koude gebieden zijn dunbevolkt.",
+          "kolommen": [
+            "Dichtbevolkt",
+            "Dunbevolkt"
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de bevolkingsdichtheid van een gebied van 500 km² met 150 000 inwoners?",
+          "opties": [
+            "300 inwoners per km²",
+            "3000 inwoners per km²",
+            "30 inwoners per km²",
+            "75 inwoners per km²"
+          ],
+          "antwoord": 0,
+          "uitleg": "150 000 / 500 = 300 inwoners per km²."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Bouwen op open plekken binnen de bestaande stad heet [[*inbreiding|uitbreiding|versnippering]]. Een oude fabriek ombouwen tot appartementen is een [[*functiewijziging|ontvolking]].",
+          "uitleg": "Inbreiding spaart de open ruimte rond de stad. Bij functiewijziging krijgt een gebouw een nieuwe bestemming."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welk stedelijk verschijnsel wordt hier beschreven?",
+          "rijen": [
+            "In de stad is het 's zomers meetbaar warmer dan op het platteland.",
+            "Wegen en bebouwing delen de open ruimte op in kleine stukken.",
+            "Rijke en arme gezinnen wonen in aparte wijken."
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Verharding houdt warmte vast, versnippering knipt de natuur in stukken en segregatie volgt vaak de woningprijzen.",
+          "kolommen": [
+            "Hitte-eiland",
+            "Versnippering",
+            "Sociale segregatie"
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een sloppenwijk?",
+          "opties": [
+            "Een wijk met zelfgebouwde, armoedige woningen zonder goede voorzieningen.",
+            "Een nieuwe villawijk aan de rand van een rijke stad, met grote tuinen en garages.",
+            "Een historische binnenstad met musea, pleinen en elke dag veel toeristen.",
+            "Een industrieterrein langs een kanaal met grote fabrieken en loodsen."
+          ],
+          "antwoord": 0,
+          "uitleg": "In veel steden in het Zuiden bouwen migranten van het platteland zelf woningen, vaak zonder water, riolering of elektriciteit."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Is dit een hernieuwbare of een niet-hernieuwbare energiebron?",
+          "kolommen": [
+            "Hernieuwbaar",
+            "Niet-hernieuwbaar"
+          ],
+          "items": [
+            [
+              "zonne-energie",
+              "Hernieuwbaar"
+            ],
+            [
+              "aardgas",
+              "Niet-hernieuwbaar"
+            ],
+            [
+              "windenergie",
+              "Hernieuwbaar"
+            ],
+            [
+              "steenkool",
+              "Niet-hernieuwbaar"
+            ],
+            [
+              "waterkracht",
+              "Hernieuwbaar"
+            ],
+            [
+              "aardolie",
+              "Niet-hernieuwbaar"
+            ]
+          ],
+          "uitleg": "Fossiele brandstoffen raken op. Zon, wind en water vernieuwen zich voortdurend."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Tot welke economische sector hoort dit?",
+          "rijen": [
+            "Een boer die tarwe teelt",
+            "Een fabriek die auto's maakt",
+            "Een kapper",
+            "Een mijn die koper ontgint"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            0
+          ],
+          "uitleg": "De primaire sector haalt grondstoffen uit de natuur, de secundaire verwerkt ze en de tertiaire levert diensten.",
+          "kolommen": [
+            "Primaire sector",
+            "Secundaire sector",
+            "Tertiaire sector"
+          ]
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een fabriek die zich vestigt dicht bij een haven doet dat vaak om de [[*transportkosten|lonen|belastingen op inkomen]] te beperken. Zo spaart het bedrijf op het vervoer van [[*grondstoffen en goederen|toeristen]].",
+          "uitleg": "Bedrijven kiezen hun plaats onder meer op basis van vervoer, grondstoffen, arbeid en afzetmarkt. Een haven ligt vlak bij de aanvoer over zee."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Intensieve of extensieve landbouw?",
+          "rijen": [
+            "Veel kunstmest en machines op een klein stuk grond",
+            "Grote kuddes vee op uitgestrekte graslanden",
+            "Serres met tomaten in het Westland"
+          ],
+          "antwoord": [
+            0,
+            1,
+            0
+          ],
+          "uitleg": "Intensieve landbouw haalt veel opbrengst uit weinig grond met veel arbeid of kapitaal. Extensieve landbouw gebruikt veel grond met weinig input.",
+          "kolommen": [
+            "Intensief",
+            "Extensief"
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een nadeel van massatoerisme voor een bestemming?",
+          "opties": [
+            "Drukte, afval en stijgende huurprijzen voor de bewoners.",
+            "Er komen nooit nieuwe banen bij voor de lokale bevolking.",
+            "Er komt helemaal geen geld binnen in de regio of het dorp.",
+            "De lokale cultuur wordt vanzelf beter beschermd."
+          ],
+          "antwoord": 0,
+          "uitleg": "Toerisme brengt geld en banen, maar ook drukte, vervuiling en duurdere woningen voor de inwoners."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een smartphone wordt ontworpen in de VS, gemaakt in China en verkocht in Europa. Dat is een voorbeeld van [[*mondialisering|verstedelijking|ontvolking]]. Daardoor hangen landen [[*sterker|minder sterk]] van elkaar af.",
+          "uitleg": "Door goedkoop transport en internet verspreiden bedrijven hun productie over de wereld."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Is dit een voordeel of een nadeel van mondialisering?",
+          "kolommen": [
+            "Voordeel",
+            "Nadeel"
+          ],
+          "items": [
+            [
+              "Goedkopere producten voor consumenten",
+              "Voordeel"
+            ],
+            [
+              "Banen verdwijnen naar lageloonlanden",
+              "Nadeel"
+            ],
+            [
+              "Meer uitwisseling van kennis en cultuur",
+              "Voordeel"
+            ],
+            [
+              "Meer CO₂-uitstoot door transport",
+              "Nadeel"
+            ]
+          ],
+          "uitleg": "Mondialisering brengt kansen en risico's mee, voor mensen en voor het milieu."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over het versterkte broeikaseffect?",
+          "rijen": [
+            "Verbranding van fossiele brandstoffen stoot CO₂ uit.",
+            "Ontbossing versterkt het broeikaseffect.",
+            "Het broeikaseffect is volledig door de mens gemaakt.",
+            "Een stijgende zeespiegel is een gevolg van de opwarming."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Er is een natuurlijk broeikaseffect dat de aarde leefbaar houdt. De mens versterkt het met extra broeikasgassen."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel het broeikasgas aan een belangrijke bron.",
+          "paren": [
+            [
+              "koolstofdioxide (CO₂)",
+              "auto's en fabrieken"
+            ],
+            [
+              "methaan (CH₄)",
+              "veeteelt en rijstvelden"
+            ],
+            [
+              "lachgas (N₂O)",
+              "kunstmest in de landbouw"
+            ]
+          ],
+          "extra": [
+            "zonnepanelen"
+          ],
+          "uitleg": "Elk broeikasgas heeft zijn eigen bronnen. Zonnepanelen stoten tijdens gebruik geen broeikasgassen uit."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Fietsen in plaats van met de auto naar school gaan is een [[*duurzamere manier om je te verplaatsen|vorm van massatoerisme|vorm van versnippering]]. Het verkleint je [[*ecologische voetafdruk|bevolkingsdichtheid]].",
+          "uitleg": "Duurzaam omgaan met de ruimte betekent dat ook toekomstige generaties nog goed kunnen leven."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet de stappen van een geografisch onderzoek in de juiste volgorde.",
+          "opties": [
+            "Onderzoeksvraag stellen",
+            "Hypothese opschrijven",
+            "Informatie verzamelen",
+            "Gegevens verwerken in kaarten en grafieken",
+            "Besluit formuleren",
+            "Rapporteren"
+          ],
+          "uitleg": "Eerst weet je wat je wil weten en wat je verwacht, dan zoek je informatie, verwerk je die, trek je een besluit en rapporteer je."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een land heeft een geboortecijfer van 12 ‰ en een sterftecijfer van 9 ‰. Hoeveel bedraagt de natuurlijke aangroei in ‰?",
+          "antwoord": [
+            "3"
+          ],
+          "uitleg": "12 − 9 = 3 ‰."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom zijn veel steden ontstaan aan rivieren of kusten?",
+          "opties": [
+            "Water zorgde voor drinkwater, vervoer en handel.",
+            "Daar was het altijd warmer dan in het binnenland.",
+            "Er waren daar nooit overstromingen of stormen.",
+            "De grond was daar het goedkoopst om te kopen."
+          ],
+          "antwoord": 0,
+          "uitleg": "Rivieren en havens waren belangrijk voor transport en handel, en ze leverden water."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welk onderdeel van Geopunt gebruik je hiervoor?",
+          "rijen": [
+            "Een adres of gemeente opzoeken",
+            "De oppervlakte van een bedrijventerrein bepalen",
+            "Weten wat een kleur op de kaart betekent"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Met de zoekbalk vind je een plaats, met het meetgereedschap bepaal je afstanden en oppervlakten, en de legende verklaart kleuren en symbolen.",
+          "kolommen": [
+            "Zoekbalk",
+            "Meetgereedschap",
+            "Legende"
+          ]
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een land waar de meeste mensen in de landbouw werken, heeft vaak een [[*brede basis|smalle basis]] in de bevolkingspiramide, omdat er [[*veel|weinig]] kinderen geboren worden.",
+          "uitleg": "In landbouwsamenlevingen helpen kinderen mee en is de kindersterfte vaak hoger: gezinnen zijn groter."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Mensen die een land binnenkomen om er te wonen, heten [[immigranten]]. Mensen die vertrekken, heten [[emigranten]].",
+          "extra": [
+            "toeristen",
+            "pendelaars"
+          ],
+          "uitleg": "Immigratie is inwijking, emigratie is uitwijking."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom verhuizen veel fabrieken uit Europa naar landen in Azië?",
+          "opties": [
+            "Omdat de lonen en andere kosten daar lager liggen.",
+            "Omdat er in Europa geen grondstoffen meer te koop zijn.",
+            "Omdat transport over zee vandaag helemaal gratis is geworden.",
+            "Omdat Europese klanten geen producten uit Europa willen."
+          ],
+          "antwoord": 0,
+          "uitleg": "Bedrijven zoeken plaatsen waar ze goedkoper kunnen produceren. Dat heet delokalisatie en hoort bij mondialisering."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Gevolg van de opwarming van de aarde: waar of niet waar?",
+          "rijen": [
+            "Gletsjers en ijskappen smelten.",
+            "Er komen meer periodes van extreme hitte en droogte.",
+            "Laaggelegen kustgebieden lopen meer risico op overstromingen.",
+            "De hoeveelheid CO₂ in de lucht daalt vanzelf."
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Door de opwarming smelt ijs, stijgt de zeespiegel en komt extreem weer vaker voor. CO₂ daalt niet vanzelf: daar zijn maatregelen voor nodig."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel de vorm van landbouw aan een voorbeeld.",
+          "paren": [
+            [
+              "zelfvoorzieningslandbouw",
+              "een gezin teelt maïs voor eigen gebruik"
+            ],
+            [
+              "akkerbouw",
+              "graan of aardappelen telen op grote velden"
+            ],
+            [
+              "tuinbouw",
+              "groenten, fruit en bloemen, vaak in serres"
+            ]
+          ],
+          "extra": [
+            "een vissersboot op zee"
+          ],
+          "uitleg": "Zelfvoorziening is voor eigen gebruik, akkerbouw teelt gewassen op het veld en tuinbouw richt zich op groenten, fruit en sierteelt. Visserij is geen landbouw."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet de onderdelen van een productieketen van een chocoladereep in volgorde.",
+          "opties": [
+            "Cacaoboer oogst de bonen",
+            "Bonen worden per schip vervoerd",
+            "Fabriek maakt chocolade",
+            "Winkel verkoopt de reep"
+          ],
+          "uitleg": "Eerst de primaire sector (oogst), dan transport, dan de secundaire sector (fabriek) en tot slot de tertiaire sector (winkel)."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "De verwachting die je vooraf opschrijft en met je onderzoek wil toetsen, heet een [[*hypothese|legende|besluit]]. Een onderzoek is ook geslaagd als die verwachting [[*niet blijkt te kloppen|altijd juist blijkt]].",
+          "uitleg": "Een hypothese toets je. Ook een verworpen hypothese levert kennis op, zolang je besluit op je gegevens steunt."
+        },
+        {
+          "type": "open",
+          "vraag": "Je gemeente vergrijst sterk. Schrijf in 4 à 6 zinnen welke gevolgen dat heeft en welke twee maatregelen de gemeente kan nemen.",
+          "antwoord": "Als de bevolking vergrijst, zijn er meer ouderen en minder jongeren. Er is meer nood aan zorg, woonzorgcentra en aangepaste woningen. Er zijn ook minder mensen die werken en belastingen betalen. De gemeente kan meer aangepaste woningen en zorgdiensten voorzien, zodat ouderen langer thuis kunnen wonen. Ze kan ook jonge gezinnen aantrekken met betaalbare woningen en goede scholen.",
+          "uitleg": "Een goed antwoord noemt minstens twee gevolgen (zorg, pensioenen, minder werkenden, andere woningen) en twee passende maatregelen."
+        }
+      ]
+    }
+  ]
+}
