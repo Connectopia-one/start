@@ -1,0 +1,477 @@
+{
+  "hoofdstukken": [
+    {
+      "titel": "Uitdaging — alles door elkaar",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "Bekijk de grafiek van \\(f\\). Klik op het punt dat de nulwaarde van \\(f\\) toont.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-boost-uitdaging/rechte-vijf-punten.svg",
+          "zones": [
+            [
+              40.8,
+              45.2,
+              7.9,
+              7.5
+            ]
+          ],
+          "uitleg": "De nulwaarde is de \\(x\\)-waarde waar de grafiek de \\(x\\)-as snijdt: in punt 2, bij \\(x = 2\\)."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het snijpunt van de grafiek met de \\(y\\)-as.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-boost-uitdaging/rechte-vijf-punten.svg",
+          "zones": [
+            [
+              27.1,
+              71.2,
+              7.9,
+              7.5
+            ]
+          ],
+          "uitleg": "Op de \\(y\\)-as is \\(x = 0\\). De grafiek snijdt de \\(y\\)-as in \\((0, -4)\\), punt 1."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Eén genummerd punt ligt niet op de grafiek van \\(f\\). Klik erop.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-boost-uitdaging/rechte-vijf-punten.svg",
+          "zones": [
+            [
+              61.3,
+              32.2,
+              7.9,
+              7.5
+            ]
+          ],
+          "uitleg": "Punt 5 is \\((5, 2)\\). Maar \\(f(5) = 2 \\cdot 5 - 4 = 6\\), dus het punt ligt niet op de rechte."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Bereken de richtingscoëfficiënt van \\(f\\) met de punten 2 en 3. Een getal.",
+          "antwoord": [
+            "2"
+          ],
+          "uitleg": "Punt 2 is \\((2, 0)\\) en punt 3 is \\((4, 4)\\). \\(a = \\frac{4 - 0}{4 - 2} = 2\\).",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-boost-uitdaging/rechte-vijf-punten.svg"
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Het voorschrift van \\(f\\) is [[*\\(f(x) = 2x - 4\\)|\\(f(x) = -4x + 2\\)|\\(f(x) = 2x + 4\\)]]. De functie is positief voor [[*\\(x > 2\\)|\\(x < 2\\)]].",
+          "uitleg": "De richtingscoëfficiënt is 2 en het snijpunt met de \\(y\\)-as is \\(-4\\). De stijgende rechte ligt boven de \\(x\\)-as rechts van de nulwaarde.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-boost-uitdaging/rechte-vijf-punten.svg"
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Bekijk de rechthoekige driehoek \\(ABC\\). Klik op de schuine zijde.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-boost-uitdaging/rechthoekige-driehoek.svg",
+          "zones": [
+            [
+              17.0,
+              63.0,
+              16.0,
+              18.3
+            ],
+            [
+              37.0,
+              40.8,
+              16.0,
+              18.3
+            ],
+            [
+              57.0,
+              18.7,
+              16.0,
+              18.3
+            ]
+          ],
+          "uitleg": "De schuine zijde ligt tegenover de rechte hoek bij \\(B\\): dat is \\([AC]\\), de langste zijde."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de overstaande rechthoekszijde van hoek \\(\\alpha\\).",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-boost-uitdaging/rechthoekige-driehoek.svg",
+          "zones": [
+            [
+              71.0,
+              16.7,
+              8.0,
+              66.7
+            ]
+          ],
+          "uitleg": "De overstaande zijde ligt tegenover \\(\\alpha\\): dat is \\([BC]\\), met lengte 6 cm."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe lang is de schuine zijde \\([AC]\\) in cm? Een getal.",
+          "antwoord": [
+            "10"
+          ],
+          "uitleg": "Pythagoras: \\(|AC|^{2} = 8^{2} + 6^{2} = 64 + 36 = 100\\), dus \\(|AC| = 10\\) cm.",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-boost-uitdaging/rechthoekige-driehoek.svg"
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit voor hoek \\(\\alpha\\) in de driehoek?",
+          "rijen": [
+            "\\(\\sin \\alpha = 0{,}6\\)",
+            "\\(\\cos \\alpha = 0{,}8\\)",
+            "\\(\\tan \\alpha = \\frac{4}{3}\\)"
+          ],
+          "antwoord": [
+            true,
+            true,
+            false
+          ],
+          "uitleg": "\\(\\sin \\alpha = \\frac{6}{10}\\), \\(\\cos \\alpha = \\frac{8}{10}\\) en \\(\\tan \\alpha = \\frac{6}{8} = \\frac{3}{4}\\).",
+          "afbeelding_url": "/examenvormen/wiskunde-basis-boost-uitdaging/rechthoekige-driehoek.svg"
+        },
+        {
+          "type": "tabel",
+          "vraag": "Tot welke kleinste getallenverzameling hoort dit getal?",
+          "rijen": [
+            "\\(-5\\)",
+            "\\(\\frac{3}{4}\\)",
+            "\\(\\sqrt{2}\\)",
+            "\\(12\\)"
+          ],
+          "antwoord": [
+            1,
+            2,
+            3,
+            0
+          ],
+          "uitleg": "Natuurlijke getallen zitten in \\(\\mathbb{N}\\), negatieve gehele in \\(\\mathbb{Z}\\), breuken in \\(\\mathbb{Q}\\) en \\(\\sqrt{2}\\) is irrationaal, dus enkel reëel.",
+          "kolommen": [
+            "\\(\\mathbb{N}\\)",
+            "\\(\\mathbb{Z}\\)",
+            "\\(\\mathbb{Q}\\)",
+            "\\(\\mathbb{R}\\)"
+          ]
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Bereken \\(\\frac{2^{5} \\cdot 2^{3}}{2^{6}}\\). Een getal.",
+          "antwoord": [
+            "4"
+          ],
+          "uitleg": "\\(2^{5 + 3 - 6} = 2^{2} = 4\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke schrijfwijze is gelijk aan \\(\\sqrt{50}\\)?",
+          "opties": [
+            "\\(5\\sqrt{2}\\)",
+            "\\(25\\sqrt{2}\\)",
+            "\\(2\\sqrt{5}\\)",
+            "\\(10\\sqrt{5}\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(\\sqrt{50} = \\sqrt{25 \\cdot 2} = 5\\sqrt{2}\\)."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel de ongelijkheid aan het interval.",
+          "paren": [
+            [
+              "\\(2 < x < 5\\)",
+              "\\(\\left]2, 5\\right[\\)"
+            ],
+            [
+              "\\(2 \\leq x \\leq 5\\)",
+              "\\(\\left[2, 5\\right]\\)"
+            ],
+            [
+              "\\(x \\geq 2\\)",
+              "\\(\\left[2, +\\infty\\right[\\)"
+            ]
+          ],
+          "extra": [
+            "\\(\\left]-\\infty, 2\\right]\\)"
+          ],
+          "uitleg": "Een grens die erbij hoort, krijgt een gesloten haakje. Aan de kant van oneindig staat het haakje altijd open."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Los op: \\(-2x + 6 > 0\\). Vul in: \\(x < \\) …",
+          "antwoord": [
+            "3"
+          ],
+          "uitleg": "\\(-2x > -6\\). Delen door \\(-2\\) keert het teken om: \\(x < 3\\)."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Neem \\(p\\) waar en \\(q\\) vals. Wat is de waarheidswaarde?",
+          "rijen": [
+            "\\(p \\wedge q\\)",
+            "\\(p \\vee q\\)",
+            "\\(p \\Rightarrow q\\)",
+            "\\(\\neg q\\)"
+          ],
+          "antwoord": [
+            false,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Een conjunctie is enkel waar als beide waar zijn. Een disjunctie is waar als minstens één waar is. Een implicatie is enkel vals als \\(p\\) waar en \\(q\\) vals is."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een waarheidstabel met drie uitspraken heeft [[*8|6|4]] rijen. Een uitspraak die altijd waar is, heet een [[*tautologie|contradictie]].",
+          "uitleg": "Met \\(n\\) uitspraken heeft de tabel \\(2^{n}\\) rijen: \\(2^{3} = 8\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Iemand beweert: voor elk getal \\(a\\) geldt \\(a^{2} > a\\). Welk getal is een tegenvoorbeeld?",
+          "opties": [
+            "\\(\\frac{1}{2}\\)",
+            "\\(\\frac{7}{2}\\)",
+            "\\(-\\frac{5}{2}\\)",
+            "\\(\\sqrt{10}\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(\\left(\\frac{1}{2}\\right)^{2} = \\frac{1}{4}\\) en dat is kleiner dan \\(\\frac{1}{2}\\). Eén tegenvoorbeeld volstaat om de bewering te weerleggen."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Twee rechten in de ruimte die elkaar niet snijden en niet evenwijdig zijn, heten [[*kruisend|snijdend]]. Een vector heeft een richting, een zin en een [[*grootte|kleur]].",
+          "uitleg": "In de ruimte kunnen rechten ook kruisen: ze liggen niet in hetzelfde vlak."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Twee krachten van 5 N en 3 N werken in dezelfde richting en zin. Hoe groot is de som in N?",
+          "antwoord": [
+            "8"
+          ],
+          "uitleg": "Dezelfde richting en zin: de groottes tellen op, \\(5 + 3 = 8\\) N."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Twee gelijkvormige kubussen hebben gelijkvormigheidsfactor \\(k = 2\\). Met welke factor vermenigvuldigt het volume?",
+          "antwoord": [
+            "8"
+          ],
+          "uitleg": "Het volume vermenigvuldigt met \\(k^{3} = 2^{3} = 8\\)."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een stok van 1 m geeft een schaduw van 2 m. Een boom geeft op hetzelfde moment een schaduw van 14 m. Hoe hoog is de boom in m?",
+          "antwoord": [
+            "7"
+          ],
+          "uitleg": "De driehoeken zijn gelijkvormig: \\(\\frac{1}{2} = \\frac{h}{14}\\), dus \\(h = 7\\) m."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel de formule aan de omgevormde vorm.",
+          "paren": [
+            [
+              "\\(\\rho = \\frac{m}{V}\\), druk \\(m\\) uit",
+              "\\(m = \\rho \\cdot V\\)"
+            ],
+            [
+              "\\(U = I \\cdot R\\), druk \\(I\\) uit",
+              "\\(I = \\frac{U}{R}\\)"
+            ],
+            [
+              "\\(P = \\frac{E}{t}\\), druk \\(t\\) uit",
+              "\\(t = \\frac{E}{P}\\)"
+            ]
+          ],
+          "extra": [
+            "\\(t = P \\cdot E\\)"
+          ],
+          "uitleg": "Je doet aan beide kanten dezelfde bewerking tot de gevraagde letter alleen staat."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Los op: \\(3(x - 2) = 2x + 5\\). Een getal.",
+          "antwoord": [
+            "11"
+          ],
+          "uitleg": "\\(3x - 6 = 2x + 5\\), dus \\(x = 11\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de oplossing van het stelsel \\(\\begin{cases} x + y = 12 \\\\ x - y = 4 \\end{cases}\\)?",
+          "opties": [
+            "\\(x = 8\\) en \\(y = 4\\)",
+            "\\(x = 4\\) en \\(y = 8\\)",
+            "\\(x = 6\\) en \\(y = 6\\)",
+            "\\(x = 16\\) en \\(y = 4\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Optellen geeft \\(2x = 16\\), dus \\(x = 8\\) en \\(y = 4\\). Controle: \\(8 - 4 = 4\\)."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Twee rechten met dezelfde richtingscoëfficiënt en een ander snijpunt met de \\(y\\)-as zijn [[*evenwijdig|samenvallend]]. Het stelsel is dan [[*strijdig|onbepaald]].",
+          "uitleg": "Evenwijdige rechten hebben geen snijpunt: er is geen oplossing."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit merkwaardig product?",
+          "rijen": [
+            "\\((x + 3)^{2} = x^{2} + 6x + 9\\)",
+            "\\((x - 5)^{2} = x^{2} - 25\\)",
+            "\\((x + 2)(x - 2) = x^{2} - 4\\)"
+          ],
+          "antwoord": [
+            true,
+            false,
+            true
+          ],
+          "uitleg": "\\((x - 5)^{2} = x^{2} - 10x + 25\\). Het verschil van twee kwadraten komt uit \\((a + b)(a - b)\\)."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Bereken de discriminant van \\(x^{2} - 6x + 5\\). Een getal.",
+          "antwoord": [
+            "16"
+          ],
+          "uitleg": "\\(D = b^{2} - 4ac = 36 - 20 = 16\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat zijn de oplossingen van \\(x^{2} - 6x + 5 = 0\\)?",
+          "opties": [
+            "\\(x = 1\\) of \\(x = 5\\)",
+            "\\(x = -1\\) of \\(x = -5\\)",
+            "\\(x = 2\\) of \\(x = 3\\)",
+            "\\(x = 6\\) of \\(x = 5\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(x = \\frac{6 \\pm 4}{2}\\), dus 5 of 1. Ontbinden kan ook: \\((x - 1)(x - 5) = 0\\)."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "De top van \\(f(x) = (x - 3)^{2} + 2\\) ligt in [[*\\((3, 2)\\)|\\((-3, 2)\\)|\\((2, 3)\\)]]. De parabool heeft een [[*minimum|maximum]].",
+          "uitleg": "Bij \\(f(x) = (x - p)^{2} + q\\) ligt de top in \\((p, q)\\). De parabool opent naar boven, dus de top is een minimum."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Gegeven \\(f(x) = x^{2} - 2x\\). Bereken \\(f(-3)\\). Een getal.",
+          "antwoord": [
+            "15"
+          ],
+          "uitleg": "\\(f(-3) = 9 + 6 = 15\\)."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Opent deze parabool naar boven of naar beneden?",
+          "kolommen": [
+            "Naar boven",
+            "Naar beneden"
+          ],
+          "items": [
+            [
+              "\\(f(x) = 2x^{2} - 1\\)",
+              "Naar boven"
+            ],
+            [
+              "\\(f(x) = -x^{2} + 4\\)",
+              "Naar beneden"
+            ],
+            [
+              "\\(f(x) = (x + 1)^{2}\\)",
+              "Naar boven"
+            ],
+            [
+              "\\(f(x) = -3(x - 2)^{2} + 5\\)",
+              "Naar beneden"
+            ]
+          ],
+          "uitleg": "Het teken van de coëfficiënt van \\(x^{2}\\) bepaalt het: positief opent naar boven, negatief naar beneden."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Je kiest uit 4 voorgerechten, 3 hoofdgerechten en 2 desserts. Hoeveel verschillende menu's zijn er?",
+          "antwoord": [
+            "24"
+          ],
+          "uitleg": "Met een boomdiagram: \\(4 \\cdot 3 \\cdot 2 = 24\\)."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "In een klas doen 14 kinderen aan voetbal, 10 aan zwemmen en 5 aan beide. Hoeveel kinderen doen minstens één van de twee sporten?",
+          "antwoord": [
+            "19"
+          ],
+          "uitleg": "Met een venndiagram: \\(14 + 10 - 5 = 19\\). Wie beide doet, tel je anders dubbel."
+        },
+        {
+          "type": "tabel",
+          "vraag": "De gegevens zijn 3, 5, 5, 7, 10. Klopt dit?",
+          "rijen": [
+            "Het gemiddelde is 6.",
+            "De mediaan is 5.",
+            "De modus is 7.",
+            "Het bereik is 7."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Gemiddelde \\(= \\frac{30}{5} = 6\\). De middelste waarde is 5. De modus is 5, want die komt het vaakst voor. Bereik \\(= 10 - 3 = 7\\)."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een correlatiecoëfficiënt \\(r\\) dicht bij \\(-1\\) wijst op een sterk [[*dalend|stijgend]] lineair verband. Een sterke correlatie bewijst [[*niet|altijd]] dat het ene het andere veroorzaakt.",
+          "uitleg": "Een negatieve \\(r\\) betekent: als de ene grootheid stijgt, daalt de andere. Correlatie is geen oorzakelijk verband."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet deze getallen van klein naar groot.",
+          "opties": [
+            "\\(-\\sqrt{5}\\)",
+            "\\(-\\frac{3}{2}\\)",
+            "\\(0{,}7\\)",
+            "\\(\\frac{3}{4}\\)",
+            "\\(\\sqrt{3}\\)"
+          ],
+          "uitleg": "\\(-\\sqrt{5} \\approx -2{,}24\\), \\(-\\frac{3}{2} = -1{,}5\\), \\(\\frac{3}{4} = 0{,}75\\) en \\(\\sqrt{3} \\approx 1{,}73\\)."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Bij een boxplot ligt de helft van de gegevens tussen het eerste en het derde [[kwartiel]]. De lijn in het doosje toont de [[mediaan]].",
+          "extra": [
+            "modus",
+            "gemiddelde"
+          ],
+          "uitleg": "Het doosje loopt van \\(Q_{1}\\) tot \\(Q_{3}\\) en bevat de middelste helft. De streep in het doosje is \\(Q_{2}\\), de mediaan."
+        },
+        {
+          "casus": "Een bioscoop verkoopt kaartjes voor kinderen en volwassenen. Op een middag zijn er 50 bezoekers. Een kinderkaartje kost 6 euro, een volwassenenkaartje 10 euro. Samen brengen ze 380 euro op.",
+          "vragen": [
+            {
+              "type": "invultekst",
+              "vraag": "Hoeveel kinderen kwamen er naar de film?",
+              "antwoord": [
+                "30"
+              ],
+              "uitleg": "Stel \\(k + v = 50\\) en \\(6k + 10v = 380\\). Uit de eerste: \\(v = 50 - k\\). Invullen: \\(6k + 500 - 10k = 380\\), dus \\(k = 30\\)."
+            },
+            {
+              "type": "invultekst",
+              "vraag": "Hoeveel volwassenen kwamen er naar de film?",
+              "antwoord": [
+                "20"
+              ],
+              "uitleg": "\\(v = 50 - 30 = 20\\). Controle: \\(6 \\cdot 30 + 10 \\cdot 20 = 380\\)."
+            }
+          ]
+        },
+        {
+          "type": "open",
+          "vraag": "Een fietsenverhuur rekent 5 euro vaste kost plus 3 euro per uur. Stel een voorschrift op voor de prijs \\(p\\) in functie van het aantal uren \\(u\\), bereken de prijs voor 4 uur en leg uit wat de richtingscoëfficiënt hier betekent.",
+          "antwoord": "Het voorschrift is \\(p(u) = 3u + 5\\). Voor 4 uur betaal je \\(p(4) = 3 \\cdot 4 + 5 = 17\\) euro. De richtingscoëfficiënt is 3: elk extra uur kost 3 euro meer. Het getal 5 is het snijpunt met de verticale as: wat je betaalt bij 0 uur, de vaste kost.",
+          "uitleg": "Een goed antwoord geeft het voorschrift, de juiste berekening (17 euro) en de betekenis van 3 als prijs per extra uur."
+        }
+      ]
+    }
+  ]
+}
