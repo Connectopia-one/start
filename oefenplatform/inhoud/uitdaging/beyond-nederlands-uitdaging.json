@@ -1,0 +1,569 @@
+{
+  "hoofdstukken": [
+    {
+      "titel": "Uitdaging — alles door elkaar",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "Lees de lezersbrief. Klik op de zin waarin de schrijver de persoon aanvalt in plaats van het standpunt.",
+          "afbeelding_url": "/examenvormen/nederlands-beyond-uitdaging/opiniestuk-deelfietsen.svg",
+          "zones": [
+            [
+              2,
+              54.5,
+              96,
+              13.7
+            ]
+          ],
+          "uitleg": "Zin 4 zegt niets over deelfietsen, maar wel iets over wie tegen is. Dat is een persoonlijke aanval: je maakt de tegenstander verdacht in plaats van zijn argument te weerleggen."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik in dezelfde lezersbrief op de zin die doet alsof er maar twee mogelijkheden bestaan.",
+          "afbeelding_url": "/examenvormen/nederlands-beyond-uitdaging/opiniestuk-deelfietsen.svg",
+          "zones": [
+            [
+              2,
+              81.8,
+              96,
+              13.7
+            ]
+          ],
+          "uitleg": "Zin 6 is een vals dilemma: deelfietsen of een verstopte binnenstad. Er zijn nog andere oplossingen, zoals betere bussen of meer fietsenstallingen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Op welk soort argument steunt zin 3 van de lezersbrief?",
+          "opties": [
+            "een argument op gezag van een deskundige",
+            "een argument met een vergelijking",
+            "een argument uit cijfers van een onderzoek",
+            "een argument dat inspeelt op angst"
+          ],
+          "antwoord": 1,
+          "uitleg": "De schrijver vergelijkt met Gent. Zo'n vergelijking is pas sterk als beide steden echt op elkaar lijken, en dat toont de schrijver niet aan.",
+          "afbeelding_url": "/examenvormen/nederlands-beyond-uitdaging/opiniestuk-deelfietsen.svg"
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "In zin 5 kondigt het woord 'bovendien' een [[*extra argument|tegenargument|besluit]] aan. Het argument zelf steunt op [[*een onderzoek|een vergelijking|een persoonlijke ervaring]].",
+          "uitleg": "Bovendien is een signaalwoord van opsomming: er komt nog een reden bij. Die reden steunt op een studie van de universiteit, een argument uit onderzoek.",
+          "afbeelding_url": "/examenvormen/nederlands-beyond-uitdaging/opiniestuk-deelfietsen.svg"
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over de lezersbrief?",
+          "rijen": [
+            "Zin 2 is het standpunt van de schrijver.",
+            "Zin 1 is een mening en geen feit.",
+            "De brief is een betogende tekst.",
+            "Het woord 'kortom' kondigt een besluit aan."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            true
+          ],
+          "uitleg": "Zin 1 kun je natellen, dus het is een feit. Zin 2 begint met 'daarom' en zegt wat er moet gebeuren: dat is het standpunt. Wie de lezer wil overtuigen van een standpunt, schrijft een betoog.",
+          "afbeelding_url": "/examenvormen/nederlands-beyond-uitdaging/opiniestuk-deelfietsen.svg"
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welke vaste tekststructuur heeft elke tekst?",
+          "rijen": [
+            "een stappenplan om een fietsband te plakken",
+            "een artikel over hoe de gsm in dertig jaar veranderde",
+            "een test van drie laptops op prijs, gewicht en batterij",
+            "een tekst die uitlegt waarom het bliksemt"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "uitleg": "Stappen: handeling. Verandering door de tijd: ontwikkeling. Dingen naast elkaar zetten: vergelijking. Uitleggen hoe of waarom: verklaring.",
+          "kolommen": [
+            "Handelingsstructuur",
+            "Ontwikkelingsstructuur",
+            "Vergelijkingsstructuur",
+            "Verklaringsstructuur"
+          ]
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Lees het gedicht 'Novemberstation'. Klik op het vers waarin twee zintuigen door elkaar lopen.",
+          "afbeelding_url": "/examenvormen/nederlands-beyond-uitdaging/gedicht-novemberstation.svg",
+          "zones": [
+            [
+              2,
+              64.3,
+              96,
+              10.7
+            ]
+          ],
+          "uitleg": "Licht zie je, maar in vers 6 ruikt het licht. Een zintuig wordt met een ander beschreven: dat is synesthesie."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik in hetzelfde gedicht op het vers met een vergelijking.",
+          "afbeelding_url": "/examenvormen/nederlands-beyond-uitdaging/gedicht-novemberstation.svg",
+          "zones": [
+            [
+              2,
+              42.8,
+              96,
+              10.7
+            ]
+          ],
+          "uitleg": "Vers 4 zegt 'zo stil als een koffer'. Door het woord 'als' worden de twee dingen naast elkaar gezet: een vergelijking, geen metafoor."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "De zin van vers 2 loopt door in vers 3, zonder pauze aan het einde van de regel. Hoe heet dat?",
+          "opties": [
+            "een enjambement",
+            "een gekruist rijm",
+            "een alliteratie",
+            "een retorische vraag"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij een enjambement loopt de zin over het einde van het vers heen. Zo blijft de lezer even hangen bij 'de nacht'.",
+          "afbeelding_url": "/examenvormen/nederlands-beyond-uitdaging/gedicht-novemberstation.svg"
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over 'Novemberstation'?",
+          "rijen": [
+            "In vers 1 krijgt de trein iets menselijks.",
+            "Verzen 7 en 8 zetten vertrekken en blijven tegenover elkaar.",
+            "Het gedicht heeft een vast rijmschema.",
+            "Een strofe van acht verzen heet een kwatrijn."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            false
+          ],
+          "uitleg": "Een trein die kreunt is een personificatie. Verzen 7 en 8 vormen een antithese. Rijm is er niet. Acht verzen is een octaaf, vier verzen een kwatrijn.",
+          "afbeelding_url": "/examenvormen/nederlands-beyond-uitdaging/gedicht-novemberstation.svg"
+        },
+        {
+          "casus": "Lees het fragment.\n\n\"Ik was twaalf toen we verhuisden. Achteraf begrijp ik dat mijn moeder die zomer elke avond huilde, maar toen hoorde ik alleen de krekels. De jaren daarna gingen voorbij in een waas van nieuwe scholen. Pas toen ik zelf kinderen had, vond ik op zolder de rode sjaal terug die ze die eerste avond om mijn nek had geknoopt.\"",
+          "vragen": [
+            {
+              "type": "meerkeuze",
+              "vraag": "Welk vertelperspectief heeft dit fragment?",
+              "opties": [
+                "een belevende ik-verteller midden in de gebeurtenissen",
+                "een vertellende ik-verteller die terugkijkt",
+                "een alwetende verteller buiten het verhaal",
+                "een personale verteller in de derde persoon"
+              ],
+              "antwoord": 1,
+              "uitleg": "Woorden als 'achteraf begrijp ik' tonen dat de ik ouder is en terugkijkt. Een belevende ik weet dat nog niet."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "'De jaren daarna gingen voorbij in een waas van nieuwe scholen.' Wat gebeurt er hier met de tijd?",
+              "opties": [
+                "De verteller vertraagt en beschrijft één moment heel lang.",
+                "De verteller springt terug naar een vroeger moment.",
+                "De verteller versnelt en vat jaren samen in één zin.",
+                "De verteller vertelt alles precies zo lang als het duurde."
+              ],
+              "antwoord": 2,
+              "uitleg": "Jaren in één zin: de vertelde tijd is veel langer dan de verteltijd. Dat is een versnelling."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "De rode sjaal komt terug aan het einde en staat voor de band met de moeder. Zo'n voorwerp met een diepere betekenis is een [[*symbool|decor|motto]].",
+              "uitleg": "Een voorwerp dat voor iets groters staat, is een symbool. Komt een element telkens terug, dan spreek je van een motief."
+            }
+          ]
+        },
+        {
+          "casus": "Een bericht van een anoniem account gaat rond op sociale media:\n\n\"SCHANDAAL: school verbiedt smartphones VOLLEDIG!!! Leerlingen worden behandeld als gevangenen. Deel dit voor het te laat is! Lees meer op www.supergoedkope-gsms-nu.be\"",
+          "vragen": [
+            {
+              "type": "tabel",
+              "vraag": "Welke kenmerken van dit bericht wijzen op nepnieuws?",
+              "rijen": [
+                "Er staat geen auteur of bron bij.",
+                "Het gebruikt hoofdletters en veel uitroeptekens.",
+                "Het vraagt je dringend om het te delen.",
+                "Het verschijnt op sociale media."
+              ],
+              "antwoord": [
+                true,
+                true,
+                true,
+                false
+              ],
+              "uitleg": "Sociale media op zich bewijzen niets: ook betrouwbare kranten posten er. Een anoniem account, schreeuwerige opmaak en druk om te delen zijn wel waarschuwingssignalen."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Het bericht noemt leerlingen 'gevangenen'. Wat doet de schrijver daarmee?",
+              "opties": [
+                "Hij brengt neutraal verslag uit van wat er gebeurde.",
+                "Hij geeft een bron die je zelf kunt nakijken.",
+                "Hij geeft een voorbeeld van een cirkelredenering.",
+                "Hij framet het verbod als iets wreeds."
+              ],
+              "antwoord": 3,
+              "uitleg": "Met één beladen woord zie je het verbod als iets wreeds. Dat is framing: het onderwerp zo voorstellen dat je het op een bepaalde manier bekijkt."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Waarom maakt de link onderaan het bericht nog minder betrouwbaar?",
+              "opties": [
+                "Ze leidt naar een winkel die iets wil verkopen.",
+                "Ze is te kort om bij een echte nieuwssite te horen.",
+                "Ze eindigt op .be in plaats van op het betrouwbare .com.",
+                "Ze staat helemaal onderaan, waar niemand ze opmerkt."
+              ],
+              "antwoord": 0,
+              "uitleg": "Wie geld verdient aan je klik, heeft een eigen belang. Dat maakt het bericht verdacht, los van hoe de link eruitziet."
+            }
+          ]
+        },
+        {
+          "casus": "Een leerling stuurt deze mail aan een leerkracht:\n\n\"Hey mevrouw, ik kon gister ni komen want ik was ziek. Kunde de taak nog eens doorsturen? thx\"",
+          "vragen": [
+            {
+              "type": "keuzelijst",
+              "vraag": "Het register van deze mail is [[*te informeel|te formeel|precies goed]] voor een bericht aan een leerkracht.",
+              "uitleg": "Tegen een leerkracht schrijf je in een verzorgd register: een aanspreking, standaardtaal en een beleefde afsluiting."
+            },
+            {
+              "type": "tabel",
+              "vraag": "Is dit woord uit de mail tussentaal of standaardtaal?",
+              "rijen": [
+                "gister",
+                "ni",
+                "Kunde",
+                "doorsturen"
+              ],
+              "antwoord": [
+                0,
+                0,
+                0,
+                1
+              ],
+              "uitleg": "In standaardtaal schrijf je gisteren, niet en kunt u. Doorsturen is gewoon standaardtaal.",
+              "kolommen": [
+                "Tussentaal",
+                "Standaardtaal"
+              ]
+            },
+            {
+              "type": "open",
+              "vraag": "Herschrijf de mail zodat hij past voor een leerkracht. Gebruik een aanspreking, een volledige zin en een afsluiting.",
+              "antwoord": "Beste mevrouw Peeters, gisteren kon ik niet naar school komen omdat ik ziek was. Zou u de taak nog eens willen doorsturen? Alvast bedankt. Met vriendelijke groeten, Lena",
+              "uitleg": "Let op: een beleefde aanspreking, standaardtaal (gisteren, niet, u), een vraag met 'zou u' en een groet met je naam."
+            }
+          ]
+        },
+        {
+          "casus": "Lees de zin.\n\n\"Gisteren heeft de nieuwe directeur de leerlingen van het vijfde jaar een lange brief geschreven.\"",
+          "vragen": [
+            {
+              "type": "sleepzin",
+              "vraag": "In deze zin is [[de nieuwe directeur]] het onderwerp. [[een lange brief]] is het lijdend voorwerp en [[de leerlingen van het vijfde jaar]] is het meewerkend voorwerp.",
+              "extra": [
+                "gisteren",
+                "heeft geschreven"
+              ],
+              "uitleg": "Wie schrijft? De directeur: onderwerp. Wat wordt er geschreven? Een brief: lijdend voorwerp. Aan wie? Aan de leerlingen: meewerkend voorwerp."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Welk zinsdeel is 'gisteren'?",
+              "opties": [
+                "het naamwoordelijk deel van het gezegde",
+                "een bijwoordelijke bepaling van tijd",
+                "het meewerkend voorwerp",
+                "een bijvoeglijke bepaling"
+              ],
+              "antwoord": 1,
+              "uitleg": "Gisteren zegt wanneer iets gebeurt: een bijwoordelijke bepaling van tijd."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Waarom staat de persoonsvorm 'heeft' vóór het onderwerp?",
+              "opties": [
+                "Omdat de zin met een ander zinsdeel begint: inversie.",
+                "Omdat het een vraagzin is waarop iemand moet antwoorden.",
+                "Omdat het onderwerp uit meer dan twee woorden bestaat.",
+                "Omdat het een bijzin is die bij een hoofdzin hoort."
+              ],
+              "antwoord": 0,
+              "uitleg": "Begint een mededelende zin met een ander zinsdeel dan het onderwerp, dan wisselen persoonsvorm en onderwerp van plaats: inversie."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "'Heeft geschreven' staat in de [[*voltooid tegenwoordige tijd|onvoltooid verleden tijd|voltooid verleden tijd]].",
+              "uitleg": "Een vorm van hebben in de tegenwoordige tijd plus een voltooid deelwoord: voltooid tegenwoordige tijd. 'Had geschreven' zou voltooid verleden tijd zijn."
+            }
+          ]
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet deze stromingen in de juiste tijdsvolgorde, van oud naar nieuw.",
+          "opties": [
+            "hoofse literatuur",
+            "renaissance",
+            "verlichting",
+            "romantiek",
+            "naturalisme",
+            "Vijftigers",
+            "postmodernisme"
+          ],
+          "uitleg": "Middeleeuwen (hoofse literatuur), vroegmoderne tijd (renaissance, verlichting), 19de eeuw (romantiek, naturalisme) en de 20ste eeuw (Vijftigers, postmodernisme)."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Welke stroming past bij elke omschrijving?",
+          "paren": [
+            [
+              "gevoel en verbeelding tegenover de rede",
+              "romantiek"
+            ],
+            [
+              "de mens bepaald door erfelijkheid en milieu",
+              "naturalisme"
+            ],
+            [
+              "kunst om de kunst",
+              "Tachtigers"
+            ],
+            [
+              "de vergankelijkheid van alles in rijke beelden",
+              "barok"
+            ]
+          ],
+          "extra": [
+            "verlichting",
+            "rederijkers"
+          ],
+          "uitleg": "De verlichting zet net de rede voorop. De rederijkers waren stedelijke dichtersgilden aan het einde van de middeleeuwen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welke tekstsoort is elke tekst?",
+          "rijen": [
+            "een bijsluiter bij medicijnen",
+            "een recensie van een nieuwe film",
+            "een krantenbericht over een overstroming",
+            "een reclamefolder van een supermarkt"
+          ],
+          "antwoord": [
+            3,
+            1,
+            0,
+            2
+          ],
+          "uitleg": "Een bijsluiter zegt wat je moet doen, een recensie geeft een oordeel, een bericht informeert en reclame wil je overhalen.",
+          "kolommen": [
+            "Informatief",
+            "Opiniërend",
+            "Persuasief",
+            "Prescriptief"
+          ]
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Is dit beeldspraak of een stijlfiguur van herhaling of zinsbouw?",
+          "kolommen": [
+            "Beeldspraak",
+            "Herhaling of zinsbouw"
+          ],
+          "items": [
+            [
+              "Zij is een vulkaan als ze boos wordt.",
+              "Beeldspraak"
+            ],
+            [
+              "Het hele stadion zong mee.",
+              "Beeldspraak"
+            ],
+            [
+              "Veni, vidi, vici: kwam, zag, overwon.",
+              "Herhaling of zinsbouw"
+            ],
+            [
+              "Zwijgend zat hij, zat hij zwijgend.",
+              "Herhaling of zinsbouw"
+            ],
+            [
+              "Wie niet waagt, die niet wint.",
+              "Herhaling of zinsbouw"
+            ]
+          ],
+          "uitleg": "Een metafoor (vulkaan) en een metonymie (stadion voor de mensen) zijn beeldspraak. Een opsomming, een chiasme en parallellisme spelen met herhaling of zinsbouw."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Gisteren [[*antwoordde|antwoorde|antwoordden]] hij niet. Wat [[*vind|vindt]] je van zijn reactie? Het [[*geplande|geplanden|gepland]] uitstapje gaat niet door.",
+          "uitleg": "Antwoorden: stam antwoord + de = antwoordde. Bij inversie met je valt de t weg: vind je. Een voltooid deelwoord als bijvoeglijk naamwoord krijgt -e: het geplande uitstapje."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk woord is een afleiding en geen samenstelling?",
+          "opties": [
+            "voetbalstadion",
+            "schoolbordwisser",
+            "vriendelijkheid",
+            "verjaardagstaart"
+          ],
+          "antwoord": 2,
+          "uitleg": "In een samenstelling zitten twee woorden die ook los bestaan (voetbal + stadion). Vriendelijkheid is vriend met de achtervoegsels -elijk en -heid: een afleiding."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een bedrijf schrijft 'we gaan afscheid nemen van enkele medewerkers' in plaats van 'we ontslaan mensen'. Wat is dat?",
+          "opties": [
+            "een hyperbool die alles groter maakt",
+            "een eufemisme dat iets verzacht",
+            "een paradox die zichzelf tegenspreekt",
+            "een alliteratie met dezelfde beginklank"
+          ],
+          "antwoord": 1,
+          "uitleg": "Een onaangename boodschap mooier verwoorden is een eufemisme."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is dit externe of interne ruis?",
+          "rijen": [
+            "Een bouwwerf naast het klaslokaal",
+            "Je bent heel moe na een slechte nacht",
+            "Het wifi-signaal valt weg tijdens een videogesprek",
+            "Je zit met je hoofd bij een ruzie"
+          ],
+          "antwoord": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "uitleg": "Externe ruis komt van buitenaf. Interne ruis zit in de persoon zelf.",
+          "kolommen": [
+            "Externe ruis",
+            "Interne ruis"
+          ]
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "In het communicatiemodel stuurt de [[zender]] een [[boodschap]] via een [[kanaal]] naar de [[ontvanger]]. Die laat met [[feedback]] weten hoe ze aankwam.",
+          "extra": [
+            "ruis",
+            "register"
+          ],
+          "uitleg": "Zender, boodschap, kanaal, ontvanger en feedback zijn de vaste onderdelen. Ruis is een storing, geen onderdeel dat de boodschap draagt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "'Als we vandaag de gsm toelaten in de klas, zitten leerlingen straks de hele dag te gamen en haalt niemand nog zijn diploma.' Welke drogreden is dit?",
+          "opties": [
+            "een hellend vlak",
+            "een cirkelredenering",
+            "een beroep op een autoriteit",
+            "een persoonlijke aanval"
+          ],
+          "antwoord": 0,
+          "uitleg": "Uit één kleine stap volgt volgens de spreker meteen een hele reeks rampen, zonder bewijs. Dat is een hellend vlak."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "'Dit is de beste smartphone, want geen enkele andere smartphone is beter.' Wat is er mis met die redenering?",
+          "opties": [
+            "Ze valt de persoon aan in plaats van het product.",
+            "Ze maakt een kleine stap groter dan hij is.",
+            "Het argument herhaalt gewoon het standpunt.",
+            "Ze steunt op een deskundige die er niets van kent."
+          ],
+          "antwoord": 2,
+          "uitleg": "Beste en geen andere is beter betekent hetzelfde. Het argument herhaalt het standpunt: een cirkelredenering."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In een toneelstuk staan twee personages die ruzie hebben, steeds verder uit elkaar op het podium. Welk theaterteken wordt hier gebruikt?",
+          "opties": [
+            "de mimiek van de spelers",
+            "het decor achter de spelers",
+            "de proxemiek op het podium",
+            "de rekwisieten in hun handen"
+          ],
+          "antwoord": 2,
+          "uitleg": "Proxemiek gaat over de afstand tussen spelers. Meer afstand toont hier hoe ver ze van elkaar af staan."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een tekst gaat over schermtijd bij jongeren. Welke zin is de hoofdgedachte en niet alleen het onderwerp?",
+          "opties": [
+            "de schermtijd van Belgische jongeren tussen twaalf en achttien jaar",
+            "jongeren en hun smartphone",
+            "veel schermtijd gaat ten koste van de nachtrust van jongeren",
+            "schermtijd"
+          ],
+          "antwoord": 2,
+          "uitleg": "Het onderwerp zegt waarover het gaat. De hoofdgedachte zegt wat de tekst erover beweert, in een volledige zin."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welke relatie hebben de twee woorden?",
+          "rijen": [
+            "bank (om op te zitten) en bank (voor geld)",
+            "snel en vlug",
+            "warm en koud",
+            "beginnen en starten"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            1
+          ],
+          "uitleg": "Homoniemen klinken en schrijf je hetzelfde maar betekenen iets anders. Synoniemen betekenen (bijna) hetzelfde, antoniemen het tegenovergestelde.",
+          "kolommen": [
+            "Homoniemen",
+            "Synoniemen",
+            "Antoniemen"
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "De woorden 'huis' en 'thuis' verwijzen naar hetzelfde gebouw, maar 'thuis' roept warmte en geborgenheid op. Hoe noem je die extra gevoelswaarde?",
+          "opties": [
+            "de denotatie",
+            "de connotatie",
+            "de woordherkomst",
+            "de definitie"
+          ],
+          "antwoord": 1,
+          "uitleg": "De denotatie is de kale betekenis. De connotatie is wat een woord daarbovenop oproept."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een vriend zegt: 'Ik heb wel duizend keer gebeld!' terwijl hij drie keer belde. Welke stijlfiguur is dat? Antwoord met één woord.",
+          "antwoord": [
+            "hyperbool",
+            "overdrijving"
+          ],
+          "uitleg": "Bewust overdrijven om iets kracht bij te zetten heet een hyperbool."
+        },
+        {
+          "type": "open",
+          "vraag": "Bedenk één tegenargument tegen de lezersbrief over deelfietsen en weerleg het daarna in één zin.",
+          "antwoord": "Tegenargument: deelfietsen kosten de stad veel geld. Weerlegging: dat geld komt terug, want er zijn minder auto's en dus minder herstellingen aan de wegen.",
+          "uitleg": "Een goede weerlegging neemt het tegenargument ernstig en toont waarom het standpunt toch overeind blijft."
+        }
+      ]
+    }
+  ]
+}

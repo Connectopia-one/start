@@ -41,6 +41,12 @@ export const nieuwTekst = {
 export const updates: Update[] = [
   {
     datum: "25 november 2026",
+    titel: "Uitdaging van 40 vragen in Boost en Beyond",
+    tekst:
+      "Nederlands in Beyond doorstroom heeft nu een uitdaging: 40 vragen die alle hoofdstukken door elkaar halen, net als op een echt examen. Je leest een lezersbrief en zoekt de drogredenen, klikt in een gedicht op de stijlfiguren, ontmaskert een nepbericht, herschrijft een te losse mail aan een leerkracht en ontleedt een zin. Ook de andere vakken in Boost en Beyond krijgen er een.",
+  },
+  {
+    datum: "25 november 2026",
     titel: "Pittige hoofdstukken wiskunde basis in Boost doorstroom",
     tekst:
       "Wiskunde basis in Boost doorstroom heeft nu bij elk van de 16 onderwerpen een pittig hoofdstuk van 30 vragen, in examenvorm: van reële getallen, intervallen, logica en bewijzen tot ruimtemeetkunde, gelijkvormigheid en Pythagoras, van formules, vergelijkingen en stelsels tot functies en parabolen, en van tellen tot statistiek en verbanden tussen twee grootheden. Er zijn ook klikvragen op prenten, zoals getallen op een as, een kubus, twee boxplots, een boomdiagram en vier puntenwolken.",

@@ -179,7 +179,8 @@ def bouw(naam):
 def main():
     sys.path.insert(0, str(UIT))
     namen = sys.argv[1:] or sorted(
-        p.stem for p in HIER.glob("*.py") if p.stem not in ("bouw_uitdaging", "__init__")
+        p.stem for p in HIER.glob("*.py")
+        if p.stem not in ("bouw_uitdaging", "__init__") and not p.stem.startswith("_")
     )
     for naam in namen:
         bouw(naam)
