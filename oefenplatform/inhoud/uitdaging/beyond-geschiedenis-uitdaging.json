@@ -1,0 +1,570 @@
+{
+  "hoofdstukken": [
+    {
+      "titel": "Uitdaging — alles door elkaar",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "Lees het dagboekfragment. Klik op de zin die een mening is en geen feit.",
+          "afbeelding_url": "/examenvormen/geschiedenis-beyond-uitdaging/dagboek-1846.svg",
+          "zones": [
+            [
+              2,
+              54.5,
+              96,
+              13.7
+            ]
+          ],
+          "uitleg": "'Hardvochtige gierigaards' is een oordeel over alle bazen. De andere zinnen beschrijven wat ze meemaakt, hoort of hoopt."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de zin die over kinderarbeid gaat.",
+          "afbeelding_url": "/examenvormen/geschiedenis-beyond-uitdaging/dagboek-1846.svg",
+          "zones": [
+            [
+              2,
+              27.1,
+              96,
+              13.7
+            ]
+          ],
+          "uitleg": "Een meisje van negen werkt in de spinnerij. Kinderarbeid was in de 19de eeuw gewoon en werd in België pas in 1889 beperkt."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de zin die past bij de crisis van de jaren 1845-1847 in Vlaanderen.",
+          "afbeelding_url": "/examenvormen/geschiedenis-beyond-uitdaging/dagboek-1846.svg",
+          "zones": [
+            [
+              2,
+              40.8,
+              96,
+              13.7
+            ]
+          ],
+          "uitleg": "De aardappelziekte en mislukte graanoogsten veroorzaakten honger in Vlaanderen. Dat verergerde de armoede van de vlasarbeiders."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over het dagboek?",
+          "rijen": [
+            "Het is een primaire bron als het echt in 1846 geschreven zou zijn.",
+            "Zin 5 wijst op de eerste stappen naar arbeidersorganisaties.",
+            "De schrijfster heeft volgens de tekst stemrecht.",
+            "Uit zin 1 blijkt dat er al een wettelijke achturendag was."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            false
+          ],
+          "uitleg": "Een getuigenis uit de tijd zelf is een primaire bron. Vakbonden waren nog verboden, gewone arbeiders hadden geen stemrecht (cijnskiesrecht), en ze werkte vijftien uur per dag.",
+          "afbeelding_url": "/examenvormen/geschiedenis-beyond-uitdaging/dagboek-1846.svg"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe gebruik je dit fragment best als historicus?",
+          "opties": [
+            "Als één getuigenis die je vergelijkt met andere bronnen.",
+            "Als volledig betrouwbaar bewijs over alle arbeiders in België.",
+            "Als waardeloos, omdat de schrijfster een mening geeft.",
+            "Als bewijs dat alle fabrieksbazen echt gierig waren."
+          ],
+          "antwoord": 0,
+          "uitleg": "Een getuigenis is waardevol maar persoonlijk. Je toetst ze aan andere bronnen voor je algemene besluiten trekt.",
+          "afbeelding_url": "/examenvormen/geschiedenis-beyond-uitdaging/dagboek-1846.svg"
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de gebeurtenis die het eerst plaatsvond.",
+          "afbeelding_url": "/examenvormen/geschiedenis-beyond-uitdaging/gebeurtenissen-20ste-eeuw.svg",
+          "zones": [
+            [
+              2,
+              27.1,
+              96,
+              13.7
+            ]
+          ],
+          "uitleg": "De Oktoberrevolutie vond plaats in 1917, de beurskrach in 1929, Jalta in 1945, Rome in 1957, Congo in 1960 en de val van de Muur in 1989."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de gebeurtenis die hoort bij de dekolonisatie.",
+          "afbeelding_url": "/examenvormen/geschiedenis-beyond-uitdaging/gebeurtenissen-20ste-eeuw.svg",
+          "zones": [
+            [
+              2,
+              54.5,
+              96,
+              13.7
+            ]
+          ],
+          "uitleg": "Congo werd op 30 juni 1960 onafhankelijk van België."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de gebeurtenis die het begin is van de Europese Economische Gemeenschap.",
+          "afbeelding_url": "/examenvormen/geschiedenis-beyond-uitdaging/gebeurtenissen-20ste-eeuw.svg",
+          "zones": [
+            [
+              2,
+              81.8,
+              96,
+              13.7
+            ]
+          ],
+          "uitleg": "Het Verdrag van Rome (1957) richtte de EEG op, met België als een van de zes stichtende landen."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet de gebeurtenissen van de lijst in chronologische volgorde.",
+          "opties": [
+            "De Russische Oktoberrevolutie",
+            "De beurskrach van Wall Street",
+            "De conferentie van Jalta",
+            "Het Verdrag van Rome",
+            "De onafhankelijkheid van Congo",
+            "De val van de Berlijnse Muur"
+          ],
+          "uitleg": "1917, 1929, 1945, 1957, 1960, 1989.",
+          "afbeelding_url": "/examenvormen/geschiedenis-beyond-uitdaging/gebeurtenissen-20ste-eeuw.svg"
+        },
+        {
+          "type": "tabel",
+          "vraag": "In welke periode hoort dit?",
+          "rijen": [
+            "Het Congres van Wenen",
+            "De Koude Oorlog",
+            "De Belgische Revolutie",
+            "De Brexit"
+          ],
+          "antwoord": [
+            0,
+            1,
+            0,
+            2
+          ],
+          "uitleg": "Wenen 1815 en de Belgische Revolutie 1830 vallen in de 19de eeuw, de Koude Oorlog 1947-1991 in de 20ste, de Brexit 2020 in de 21ste.",
+          "kolommen": [
+            "19de eeuw",
+            "20ste eeuw",
+            "21ste eeuw"
+          ]
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Na de val van Napoleon bracht het Congres van Wenen de [[*restauratie|revolutie|dekolonisatie]]. De Zuidelijke Nederlanden werden toen samengevoegd met het noorden onder koning [[*Willem I|Leopold I|Napoleon III]].",
+          "uitleg": "De grootmachten herstelden in 1815 de oude vorsten. Het Verenigd Koninkrijk der Nederlanden onder Willem I bestond tot de Belgische Revolutie van 1830."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Hoort dit kenmerk bij het liberalisme of bij het socialisme van de 19de eeuw?",
+          "kolommen": [
+            "Liberalisme",
+            "Socialisme"
+          ],
+          "items": [
+            [
+              "Vrije markt met weinig overheid",
+              "Liberalisme"
+            ],
+            [
+              "Collectief bezit van productiemiddelen",
+              "Socialisme"
+            ],
+            [
+              "Individuele vrijheid en eigendom staan voorop",
+              "Liberalisme"
+            ],
+            [
+              "Klassenstrijd tussen arbeiders en kapitalisten",
+              "Socialisme"
+            ]
+          ],
+          "uitleg": "Liberalen wilden vrijheid en een kleine overheid. Socialisten wilden de positie van de arbeiders verbeteren, desnoods door de productiemiddelen gemeenschappelijk te maken."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom was de sociale kwestie in de 19de eeuw zo dringend?",
+          "opties": [
+            "Industrialisatie bracht lange werkdagen, lage lonen en ellendige woningen.",
+            "Arbeiders hadden al stemrecht maar gebruikten het bijna nooit in de praktijk.",
+            "De fabrieken stonden vooral op het platteland, ver van de steden en havens.",
+            "De adel weigerde nog langer te investeren in nieuwe stoommachines."
+          ],
+          "antwoord": 0,
+          "uitleg": "De snelle industrialisatie trok mensen naar de steden, waar ze onder zware omstandigheden werkten en woonden zonder sociale bescherming."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over Congo?",
+          "rijen": [
+            "Congo was eerst persoonlijk bezit van koning Leopold II.",
+            "België nam Congo in 1908 over als kolonie.",
+            "Onder de Vrijstaat werd rubber gewonnen met dwangarbeid.",
+            "Congo werd na de Eerste Wereldoorlog een Duitse kolonie."
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Leopold II bezat de Onafhankelijke Congostaat van 1885 tot 1908. Na internationale kritiek op misbruiken werd het een Belgische kolonie."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Na de Opiumoorlogen moest China havens openen voor westerse handelaars. Die verdragen noemt men de [[*ongelijke verdragen|vredesverdragen van Versailles]].",
+          "uitleg": "China moest onder dwang handelsvoordelen en grondgebied afstaan, zoals Hongkong aan Groot-Brittannië."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel de oorzaak van de Eerste Wereldoorlog aan het voorbeeld.",
+          "paren": [
+            [
+              "militarisme",
+              "een wapenwedloop tussen Duitsland en Groot-Brittannië"
+            ],
+            [
+              "allianties",
+              "Triple Entente tegenover Centrale Mogendheden"
+            ],
+            [
+              "nationalisme",
+              "Slavische volkeren die los willen van Oostenrijk-Hongarije"
+            ],
+            [
+              "directe aanleiding",
+              "de moord op Franz Ferdinand in Sarajevo"
+            ]
+          ],
+          "extra": [
+            "de beurskrach van 1929"
+          ],
+          "uitleg": "Langetermijnoorzaken bouwden spanning op; de moord in Sarajevo in 1914 deed de oorlog uitbreken. De beurskrach volgde pas later."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat gebeurde er in Rusland in oktober 1917?",
+          "opties": [
+            "De bolsjewieken onder Lenin namen de macht over.",
+            "De tsaar won de oorlog tegen Duitsland en Oostenrijk.",
+            "Rusland werd een parlementaire monarchie zoals Groot-Brittannië.",
+            "Stalin werd verkozen tot president in vrije verkiezingen."
+          ],
+          "antwoord": 0,
+          "uitleg": "Na de val van de tsaar in februari namen de bolsjewieken in oktober de macht. Rusland stapte daarna uit de oorlog."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Kenmerk van welk regime?",
+          "rijen": [
+            "Leiderscultus rond Mussolini en corporatisme",
+            "Rassenleer en het idee van Lebensraum",
+            "Collectivisatie van de landbouw en vijfjarenplannen"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Alle drie waren totalitaire regimes, maar met een andere ideologie: fascistisch Italië, nazi-Duitsland en de Sovjet-Unie onder Stalin.",
+          "kolommen": [
+            "Fascisme",
+            "Nationaalsocialisme",
+            "Stalinisme"
+          ]
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "De crisis van de jaren 1930 begon met de beurskrach in [[*New York|Londen|Berlijn]] in 1929. In Duitsland hielp de massawerkloosheid de [[*nazi's|liberalen|monarchisten]] aan de macht.",
+          "uitleg": "Wall Street stortte in oktober 1929 in. Wanhoop en werkloosheid maakten extreme partijen populair; Hitler werd in 1933 rijkskanselier."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet deze stappen naar en tijdens de Tweede Wereldoorlog in de juiste volgorde.",
+          "opties": [
+            "Hitler wordt rijkskanselier",
+            "Duitsland valt Polen binnen",
+            "Duitsland valt België binnen",
+            "Landing in Normandië",
+            "Capitulatie van Duitsland"
+          ],
+          "uitleg": "1933, september 1939, mei 1940, juni 1944, mei 1945."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat bedoelt men met de Holocaust?",
+          "opties": [
+            "De systematische moord op de Joden door nazi-Duitsland.",
+            "De bombardementen op Duitse steden door de geallieerden.",
+            "De verdrijving van Duitsers uit Oost-Europa na de oorlog.",
+            "Het proces tegen nazileiders in Neurenberg na de oorlog."
+          ],
+          "antwoord": 0,
+          "uitleg": "De Holocaust of Shoah was de industrieel georganiseerde genocide op zes miljoen Joden, naast vervolging van Roma, gehandicapten en anderen."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Hoort dit bij het Westblok of bij het Oostblok?",
+          "kolommen": [
+            "Westblok",
+            "Oostblok"
+          ],
+          "items": [
+            [
+              "NAVO",
+              "Westblok"
+            ],
+            [
+              "Warschaupact",
+              "Oostblok"
+            ],
+            [
+              "Marshallplan",
+              "Westblok"
+            ],
+            [
+              "Comecon",
+              "Oostblok"
+            ]
+          ],
+          "uitleg": "Het Westen onder leiding van de VS had de NAVO en het Marshallplan. Het Oostblok onder de Sovjet-Unie had het Warschaupact en de Comecon."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "De Cubacrisis van [[*1962|1948|1989]] bracht de wereld dicht bij een kernoorlog. De Berlijnse Muur werd gebouwd in [[*1961|1945|1975]].",
+          "uitleg": "In 1962 stonden de VS en de Sovjet-Unie oog in oog over raketten op Cuba. De Muur verdeelde Berlijn van 1961 tot 1989."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over de Verenigde Naties?",
+          "rijen": [
+            "De VN werden opgericht in 1945.",
+            "De Veiligheidsraad heeft vijf permanente leden met vetorecht.",
+            "De VN vervingen de Volkenbond.",
+            "Elke lidstaat heeft vetorecht in de Veiligheidsraad."
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Enkel de VS, Rusland, China, Frankrijk en het Verenigd Koninkrijk hebben een veto."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel het Belgische begrip aan de uitleg.",
+          "paren": [
+            [
+              "Koningskwestie",
+              "conflict over de terugkeer van Leopold III"
+            ],
+            [
+              "Schoolstrijd",
+              "ruzie over geld voor katholieke en officiële scholen"
+            ],
+            [
+              "staatshervorming",
+              "België wordt stap voor stap een federale staat"
+            ]
+          ],
+          "extra": [
+            "de onafhankelijkheid van 1830"
+          ],
+          "uitleg": "Na 1945 verdeelden de Koningskwestie en de Schoolstrijd het land. Vanaf 1970 volgden staatshervormingen naar gemeenschappen en gewesten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Sinds welke staatshervorming is België in de grondwet een federale staat?",
+          "opties": [
+            "Die van 1993",
+            "Die van 1830",
+            "Die van 1970",
+            "Die van 2014"
+          ],
+          "antwoord": 0,
+          "uitleg": "In 1993 staat in artikel 1 van de grondwet dat België een federale staat is, samengesteld uit gemeenschappen en gewesten."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "India werd in [[*1947|1960|1918]] onafhankelijk na een geweldloze strijd onder leiding van [[*Gandhi|Mandela|Lumumba]].",
+          "uitleg": "Gandhi voerde burgerlijke ongehoorzaamheid tegen de Britten. Bij de onafhankelijkheid werd Brits-Indië gesplitst in India en Pakistan."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welke leider hoort bij deze periode in China?",
+          "rijen": [
+            "De Grote Sprong Voorwaarts en de Culturele Revolutie",
+            "Economische hervormingen en openstelling vanaf 1978",
+            "Het project van de Nieuwe Zijderoute"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Mao leidde de Volksrepubliek van 1949 tot 1976, Deng opende de economie, Xi startte het Belt and Road-initiatief.",
+          "kolommen": [
+            "Mao Zedong",
+            "Deng Xiaoping",
+            "Xi Jinping"
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over de Israëlisch-Palestijnse kwestie?",
+          "rijen": [
+            "De staat Israël werd uitgeroepen in 1948.",
+            "In 1967 bezette Israël onder meer de Westelijke Jordaanoever en Gaza.",
+            "De Oslo-akkoorden van de jaren 1990 maakten een definitief einde aan het conflict."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Na de Zesdaagse Oorlog van 1967 bezette Israël nieuwe gebieden. De Oslo-akkoorden zorgden voor Palestijns zelfbestuur, maar het conflict bleef."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welke kunststroming herken je?",
+          "rijen": [
+            "Lichtspel en snelle toetsen, buiten geschilderd",
+            "Droombeelden en onlogische combinaties, zoals bij Magritte",
+            "Objecten opgebouwd uit geometrische vlakken, zoals bij Picasso",
+            "Alledaagse reclamebeelden en strips, zoals bij Warhol"
+          ],
+          "antwoord": [
+            0,
+            2,
+            1,
+            3
+          ],
+          "uitleg": "Elke stroming reageerde op haar tijd: licht en indruk, het onbewuste, nieuwe vormen, en de consumptiemaatschappij.",
+          "kolommen": [
+            "Impressionisme",
+            "Kubisme",
+            "Surrealisme",
+            "Pop-art"
+          ]
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "De feministische golf die vooral stemrecht voor vrouwen eiste, heet de [[*eerste|tweede]] golf. In België kregen vrouwen algemeen stemrecht bij de nationale verkiezingen in [[*1948|1919|1893]].",
+          "uitleg": "De eerste golf streed voor politieke rechten. Belgische vrouwen stemden voor het eerst bij parlementsverkiezingen in 1949, na de wet van 1948."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een kenmerk van de romantiek in de 19de eeuw?",
+          "opties": [
+            "Aandacht voor gevoel, natuur en het nationale verleden.",
+            "Strakke regels en het voorbeeld van de Grieks-Romeinse oudheid.",
+            "Kunst die enkel uit kleurvlakken en rechte lijnen bestaat.",
+            "Massaproductie van kunst met reclamebeelden en strips."
+          ],
+          "antwoord": 0,
+          "uitleg": "De romantiek reageerde op de rede van de Verlichting met gevoel, verbeelding en interesse voor de eigen geschiedenis, zoals in De Leeuw van Vlaanderen."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Is dit een primaire of een secundaire bron over de Eerste Wereldoorlog?",
+          "kolommen": [
+            "Primaire bron",
+            "Secundaire bron"
+          ],
+          "items": [
+            [
+              "Een brief van een soldaat uit de loopgraven in 1916",
+              "Primaire bron"
+            ],
+            [
+              "Een handboek geschiedenis uit 2020",
+              "Secundaire bron"
+            ],
+            [
+              "Een propagandaaffiche uit 1915",
+              "Primaire bron"
+            ],
+            [
+              "Een documentaire uit 2014 over de IJzer",
+              "Secundaire bron"
+            ]
+          ],
+          "uitleg": "Primaire bronnen ontstonden in de tijd zelf. Secundaire bronnen zijn later gemaakt door mensen die over die tijd schrijven."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een affiche uit 1914 toont Duitse soldaten als monsters. Wat zegt dat vooral?",
+          "opties": [
+            "Hoe de maker de vijand wilde voorstellen om steun te krijgen.",
+            "Hoe Duitse soldaten er echt uitzagen in augustus 1914.",
+            "Dat alle Belgen in 1914 dezelfde mening over Duitsland hadden.",
+            "Dat de affiche na de oorlog gemaakt werd door historici."
+          ],
+          "antwoord": 0,
+          "uitleg": "Propaganda vertelt veel over de bedoeling van de maker en het beeld dat hij wilde verspreiden, minder over hoe het echt was."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Als je zegt dat de vrouwen in 1830 'achterlijk' waren omdat ze niet stemden, beoordeel je het verleden met normen van nu. Dat heet [[*anachronistisch denken|bronnenkritiek|periodiseren]].",
+          "uitleg": "Historisch denken vraagt dat je het verleden begrijpt vanuit zijn eigen tijd en normen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "In welk jaar brak in Brussel de opstand uit die tot de Belgische onafhankelijkheid leidde?",
+          "antwoord": [
+            "1830"
+          ],
+          "uitleg": "In augustus en september 1830 kwamen Brusselaars in opstand tegen Willem I. Leopold I werd in 1831 de eerste koning."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom zagen veel Duitsers het Verdrag van Versailles als een vernedering?",
+          "opties": [
+            "Het moest de oorlogsschuld aanvaarden, gebied afstaan en betalen.",
+            "Duitsland kreeg zijn kolonies terug maar mocht geen eigen keizer meer kiezen.",
+            "Duitsland moest samen met Oostenrijk-Hongarije een nieuwe staat vormen.",
+            "Duitsland werd verplicht om meteen lid te worden van het Warschaupact."
+          ],
+          "antwoord": 0,
+          "uitleg": "Artikel 231 legde de oorlogsschuld bij Duitsland. Gebiedsverlies, een klein leger en zware herstelbetalingen voedden later het nationalisme."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Met het Marshallplan gaven de [[*Verenigde Staten|Sovjet-Unie]] na 1945 economische hulp aan [[*West-Europa|Oost-Europa|China]].",
+          "uitleg": "De VS wilden de wederopbouw steunen en zo vermijden dat West-Europese landen communistisch werden."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Was dit een gevolg van de Tweede Wereldoorlog?",
+          "rijen": [
+            "De oprichting van de Verenigde Naties",
+            "De verdeling van Duitsland in bezettingszones",
+            "Het ontstaan van België als onafhankelijk land",
+            "De Russische Revolutie"
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            false
+          ],
+          "uitleg": "De VN en de verdeling van Duitsland volgden op 1945. België bestaat sinds 1830 en de Russische Revolutie was in 1917."
+        },
+        {
+          "type": "open",
+          "vraag": "Vergelijk de situatie van een Belgische arbeider in 1850 met die in 1960. Noem in 4 à 6 zinnen minstens drie veranderingen en verklaar ze.",
+          "antwoord": "In 1850 werkte een arbeider vaak meer dan twaalf uur per dag, ook kinderen werkten mee, en er was geen sociale zekerheid. In 1960 was er de achturendag of minder, kinderarbeid was verboden en er bestond sociale zekerheid met werkloosheidsuitkering, pensioen en ziekteverzekering. Arbeiders hadden ook stemrecht gekregen. Die veranderingen kwamen door de strijd van vakbonden en socialistische en christelijke arbeidersbewegingen, door het algemeen stemrecht en door het sociaal pact van 1944.",
+          "uitleg": "Een goed antwoord noemt minstens drie veranderingen (werkuren, kinderarbeid, sociale zekerheid, stemrecht, lonen) en verklaart ze met arbeidersbewegingen, vakbonden, stemrecht of het sociaal pact."
+        }
+      ]
+    }
+  ]
+}
