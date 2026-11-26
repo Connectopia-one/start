@@ -13,7 +13,9 @@ import bundel, oefenbundel
 tabel = bundel.tabel
 # Ready is voor kinderen van 8 en 9: grotere letters dan in Start.
 GROOT = ("body{font-size:13.5pt;line-height:1.7}table{font-size:12pt}figcaption{font-size:11pt}"
-         ".oef .vraagtekst,.rij .cel{font-size:13pt}.hoe li,.opdracht{font-size:12pt}")
+         ".oef .vraagtekst,.rij .cel{font-size:13pt}.hoe li,.opdracht{font-size:12pt}"
+         # Fijne motoriek is op deze leeftijd nog volop in ontwikkeling: hogere lijnen en grotere vakjes.
+         ".lijn{height:54px}.vakje{height:38px;min-width:120px !important}.rij .cel{line-height:2.8}")
 bundel.CSS += GROOT
 oefenbundel.OEFEN_CSS += GROOT
 READY = "🎒 Ready — 3de en 4de leerjaar"

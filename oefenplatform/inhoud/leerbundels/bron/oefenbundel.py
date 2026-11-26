@@ -88,6 +88,19 @@ def _oefening(o, nr):
         boven = f'<div class="figboven">{o[2]}</div>' if len(o) > 2 and o[2] else ""
         return f'<div class="oef">{bol}<div class="body">{boven}<div class="rij">{cellen}</div></div></div>', antw
 
+    if soort == "invulwoord":
+        # Het kind schrijft de ontbrekende letters in het woord zelf: elke __ in
+        # het woord wordt een hokje. Handig voor jonge kinderen (Ready, Launchpad)
+        # die nog moeite hebben om een heel woord over te schrijven.
+        cellen = "".join(
+            f'<div class="cel"><span class="letter">{LETTERS[i]})</span> '
+            f'<span class="som">{w.replace("__", '<span class="gat"></span>')}</span></div>'
+            for i, (w, _) in enumerate(o[1])
+        )
+        antw = " · ".join(f"{LETTERS[i]}) {a}" for i, (_, a) in enumerate(o[1]))
+        boven = f'<div class="figboven">{o[2]}</div>' if len(o) > 2 and o[2] else ""
+        return f'<div class="oef">{bol}<div class="body">{boven}<div class="rij">{cellen}</div></div></div>', antw
+
     if soort == "fig":
         onderschrift = o[2] if len(o) > 2 and o[2] else ""
         cellen = "".join(

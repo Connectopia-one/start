@@ -13,7 +13,9 @@ import bundel, oefenbundel
 tabel = bundel.tabel
 # Ready is voor kinderen van 8 en 9: grotere letters dan in Start.
 GROOT = ("body{font-size:13.5pt;line-height:1.7}table{font-size:12pt}figcaption{font-size:11pt}"
-         ".oef .vraagtekst,.rij .cel{font-size:13pt}.hoe li,.opdracht{font-size:12pt}")
+         ".oef .vraagtekst,.rij .cel{font-size:13pt}.hoe li,.opdracht{font-size:12pt}"
+         # Fijne motoriek is op deze leeftijd nog volop in ontwikkeling: hogere lijnen en grotere vakjes.
+         ".lijn{height:54px}.vakje{height:38px;min-width:120px !important}.rij .cel{line-height:2.8}")
 bundel.CSS += GROOT
 oefenbundel.OEFEN_CSS += GROOT
 READY = "🎒 Ready — 3de en 4de leerjaar"
@@ -82,20 +84,34 @@ OEFEN = dict(
          "Twijfel je op het einde van een woord? Maak het woord langer en luister.",
          "Het antwoordblad zit achteraan. Scheur het eraf voor je begint."],
     reeksen=[
-        dict(kop="ei of ij", opdracht="Schrijf het hele woord juist op de lijn.", oefeningen=[
-            ("rij", [("kl..n (niet groot)", "klein"), ("r..st (eet je met kip)", "rijst"), ("pl..n (open plaats in de stad)", "plein"),
-                     ("m..n (van mij)", "mijn"), ("r..s (op vakantie)", "reis"), ("z..n (wij ... thuis)", "zijn")], "", "110px"),
+        dict(kop="ei of ij", opdracht="Schrijf ei of ij in het hokje.", oefeningen=[
+            ("invulwoord", [("kl__n (niet groot)", "klein"), ("r__st (eet je met kip)", "rijst"), ("pl__n (open plaats in de stad)", "plein"),
+                     ("m__n (van mij)", "mijn"), ("r__s (op vakantie)", "reis"), ("wij z__n thuis", "zijn")], ""),
         ]),
-        dict(kop="au of ou", opdracht="Schrijf het hele woord juist op de lijn.", oefeningen=[
-            ("rij", [("h..t (van een boom)", "hout"), ("s..s (op je frietjes)", "saus"), ("g..d (een kostbaar metaal)", "goud"),
-                     ("fl..w (niet sterk)", "flauw"), ("m..w (van je trui)", "mouw"), ("t..w (een dik koord)", "touw")], "", "110px"),
+        dict(kop="au of ou", opdracht="Schrijf au of ou in het hokje.", oefeningen=[
+            ("invulwoord", [("h__t (van een boom)", "hout"), ("s__s (op je frietjes)", "saus"), ("g__d (een kostbaar metaal)", "goud"),
+                     ("fl__w (niet sterk)", "flauw"), ("m__w (van je trui)", "mouw"), ("t__w (een dik koord)", "touw")], ""),
         ]),
-        dict(kop="aai, oei, ooi, eeuw of ieuw", opdracht="Vul in.", oefeningen=[
-            ("rij", [("een kr.... (zwarte vogel)", "kraai"), ("de gr.... (groter worden)", "groei"), ("het h.... (droog gras)", "hooi"),
-                     ("een m.... (vogel aan zee)", "meeuw"), ("de k.... (van een vis)", "kieuw")], "", "110px"),
+        dict(kop="aai, oei, ooi, eeuw of ieuw", opdracht="Schrijf aai, oei, ooi, eeuw of ieuw in het hokje.", oefeningen=[
+            ("invulwoord", [("een kr__ (zwarte vogel)", "kraai"), ("de gr__ (groter worden)", "groei"), ("het h__ (droog gras)", "hooi"),
+                     ("een m__ (vogel aan zee)", "meeuw"), ("de k__ (van een vis)", "kieuw")], ""),
         ]),
-        dict(kop="ng of nk", opdracht="Vul ng of nk in.", oefeningen=[
-            ("rij", [("de ri..", "ng"), ("ik de..", "nk"), ("de ba.. (om op te zitten)", "nk"), ("ik zi.. een liedje", "ng")], "", "60px"),
+        dict(kop="ng of nk", opdracht="Schrijf ng of nk in het hokje.", oefeningen=[
+            ("invulwoord", [("de ri__", "ring"), ("ik de__ na", "denk"), ("de ba__ (om op te zitten)", "bank"), ("ik zi__ een liedje", "zing")], ""),
+        ]),
+        dict(kop="Juist of fout?", opdracht="Telkens is één woord juist en één fout geschreven. Streep het foute woord door.", oefeningen=[
+            ("invulwoord", [("trein &nbsp; / &nbsp; trijn", "trein"),
+                     ("blouw &nbsp; / &nbsp; blauw", "blauw"),
+                     ("koei &nbsp; / &nbsp; koeij", "koei"),
+                     ("sneew &nbsp; / &nbsp; sneeuw", "sneeuw"),
+                     ("bank &nbsp; / &nbsp; bangk", "bank"),
+                     ("berch &nbsp; / &nbsp; berg", "berg"),
+                     ("hond &nbsp; / &nbsp; hont", "hond"),
+                     ("webb &nbsp; / &nbsp; web", "web"),
+                     ("bomen &nbsp; / &nbsp; boomen", "bomen"),
+                     ("ballen &nbsp; / &nbsp; balen", "ballen"),
+                     ("stoelje &nbsp; / &nbsp; stoeltje", "stoeltje"),
+                     ("Gent &nbsp; / &nbsp; gent", "Gent")], ""),
         ]),
         dict(kop="Maak het woord langer", opdracht="Schrijf het lange woord en dan het juiste korte woord.", oefeningen=[
             ("tabel", ["Twijfel", "Langer", "Juist"], [["ber? (g of ch)", None, None], ["har? (d of t)", None, None],

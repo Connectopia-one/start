@@ -166,3 +166,6 @@ table.invul td { border: 1px solid var(--border); padding: 9px 12px; }
   border-radius: 10px;
   margin-top: 8px;
 }
+
+/* Hokje in een woord voor de ontbrekende letters (soort "invulwoord"). */
+.gat { display:inline-block; width:2.8em; height:1.6em; border:1.4px solid var(--forest); border-radius:6px; vertical-align:-0.35em; margin:0 2px; background:#fff; }
