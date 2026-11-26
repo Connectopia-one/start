@@ -41,6 +41,13 @@ export const nieuwTekst = {
 export const updates: Update[] = [
   {
     datum: "26 november 2026",
+    titel: "Frans: la chambre duidelijker uitgelegd",
+    tekst:
+      "Bij Spark Frans, woordenschat eten, wonen, kleding en dagelijkse dingen, vragen we nu wat la chambre betekent in een huis: de slaapkamer, voluit la chambre à coucher. In de uitleg staat er nu ook bij dat une chambre in een hotel gewoon je kamer is, en dat een kamer in het algemeen une pièce heet.",
+    opVraag: true,
+  },
+  {
+    datum: "26 november 2026",
     titel: "Nieuw vak: kunstbeschouwing en filosofie in Beyond",
     tekst:
       "Volg je humane wetenschappen in de derde graad? Dan vind je in Beyond nu het vak kunstbeschouwing en filosofie. Het kunstgedeelte gaat over de kunstvormen en hun bouwstenen, inhoud en context, de kunstgeschiedenis van de prehistorie tot de popart, niet-westerse invloeden en hoe je een werk analyseert. Het filosofiegedeelte gaat over mens, vrijheid, ethiek, kennis, de zijnsleer en politieke filosofie. Per onderwerp zijn er twee delen gewone vragen en een pittig hoofdstuk met eigen schema's om op te klikken, leer- en oefenbundels om af te drukken, een uitdaging met veertig vragen die alles door elkaar haalt, en een eigen niveau in de begrippenarena.",

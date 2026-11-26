@@ -2510,7 +2510,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat betekent 'la chambre'?",
+          "vraag": "Wat betekent 'la chambre' in een huis?",
           "opties": [
             "de slaapkamer",
             "de keuken",
@@ -2518,7 +2518,7 @@
             "de zolder"
           ],
           "antwoord": 0,
-          "uitleg": "La chambre = de slaapkamer. La cuisine is de keuken."
+          "uitleg": "In een huis is la chambre de slaapkamer, voluit la chambre à coucher. In een hotel is une chambre gewoon je kamer. Een kamer in het algemeen is une pièce. La cuisine is de keuken."
         },
         {
           "type": "meerkeuze",
