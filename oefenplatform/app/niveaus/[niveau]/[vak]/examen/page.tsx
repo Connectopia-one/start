@@ -1,4 +1,4 @@
-import { leerrichting, valtWeg } from "@/lib/leerrichting";
+import { basisRichting, leerrichting, valtWeg } from "@/lib/leerrichting";
 import { vindWegwijzer } from "@/inhoud/vaknoten";
 import Link from "next/link";
 import { cookies } from "next/headers";
@@ -118,7 +118,7 @@ export default async function ExamenPage({
   // Examen voor bedrijfs- en welzijnswetenschappen (vakfiche 3DDG): zonder de
   // vragen met het label niet_voor_dg (supabase/niet-voor-dg.sql).
   const richting = await leerrichting();
-  const voorDg = (await searchParams).dg === "1" || richting !== "algemeen";
+  const voorDg = (await searchParams).dg === "1" || basisRichting(richting) !== "algemeen";
   // Wie bovenaan welzijnswetenschappen koos, krijgt de blauwe hoofdstukken
   // ook in het examen (natuurwetenschappen, Kim 9 november 2026).
   const metWelzijn = (await searchParams).welzijn === "1" || richting === "welzijn";
@@ -290,6 +290,7 @@ export default async function ExamenPage({
           Examen {vak.naam}
           {metWelzijn && " voor welzijnswetenschappen"}
           {!metWelzijn && richting === "bedrijf" && " voor bedrijfswetenschappen"}
+          {richting === "humane" && weglaten?.humane && " voor humane wetenschappen"}
           {!metWelzijn && (richting === "dg" || (richting === "algemeen" && voorDg)) &&
             " voor bedrijfs- en welzijnswetenschappen"}
         </h1>

@@ -24,7 +24,7 @@ import { isWelzijn } from "@/lib/welzijn";
 import { arenaKnop } from "@/inhoud/arenaPerVak";
 import { Zoekvak } from "@/components/Zoekvak";
 import { RichtingKeuze } from "@/components/RichtingKeuze";
-import { leerrichting, valtWeg } from "@/lib/leerrichting";
+import { basisRichting, leerrichting, valtWeg } from "@/lib/leerrichting";
 import {
   LESBUNDEL_VERVANGT_CURSUS,
   extraSoort,
@@ -135,7 +135,7 @@ export default async function NiveauVakPage({
     alles zoals het was.
   */
   const richting = await leerrichting();
-  const dg = Boolean(wegwijzer?.richtingKeuze) && richting !== "algemeen";
+  const dg = Boolean(wegwijzer?.richtingKeuze) && basisRichting(richting) !== "algemeen";
   const dgTelling = new Map<string, { weg: number; totaal: number }>();
   if (wegwijzer?.richtingKeuze) {
     // Per blok van 1000: Supabase geeft nooit meer dan 1000 rijen tegelijk,
@@ -213,6 +213,7 @@ export default async function NiveauVakPage({
               {dg && richting === "bedrijf" && " (voor bedrijfswetenschappen)"}
               {dg && richting === "welzijn" && " (voor welzijnswetenschappen)"}
               {dg && richting === "dg" && " (voor bedrijfs- en welzijnswetenschappen)"}
+              {richting === "humane" && wegwijzer?.weglaten?.humane && " (voor humane wetenschappen)"}
             </Link>
             {!wegwijzer?.richtingKeuze && hoofdstukken.some((h) => isWelzijn(h.titel)) && (
               <Link
@@ -248,7 +249,11 @@ export default async function NiveauVakPage({
             </p>
             <p className="mt-2 text-sm text-ink">{wegwijzer.tekst}</p>
             {wegwijzer.richtingKeuze && (
-              <RichtingKeuze keuze={richting} uitleg={wegwijzer.keuzeUitleg} />
+              <RichtingKeuze
+                keuze={richting}
+                uitleg={wegwijzer.keuzeUitleg}
+                knoppen={wegwijzer.knoppen}
+              />
             )}
             {wegwijzer.lijst && (
               <details className="mt-3 rounded-lg border border-forest/40 bg-paper px-4 py-2">

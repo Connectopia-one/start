@@ -81,7 +81,10 @@ THEMAS = [
     ("sg_opvoeding", "Opvoeden: milieus, dimensies, stijlen en middelen"),
     ("sg_pedmodellen", "Pedagogische modellen en opvoeden in bijzondere contexten"),
     ("sg_communicatie", "Communicatieve vaardigheden: kaders en gesprekstechnieken"),
-    # sociale wetenschappen (25 %): vijf thema's
+    # sociale wetenschappen (25 %): vijf thema's. Humane wetenschappen
+    # (fiche 3DDO, 45 %) krijgt er de politieke wetenschappen bij; die
+    # titels beginnen met "Humane wetenschappen:" (zie sg_hw_democratie.py).
+    ("sg_hw_democratie", "Humane wetenschappen: politiek, democratie en de rechtstaat"),
     ("sg_socialisatie", "Socialisatie: posities, rollen en vier visies"),
     ("sg_stratificatie", "Sociale stratificatie en de verklaringsmodellen"),
     ("sg_mobiliteit", "Sociale mobiliteit, meritocratie en het matheüseffect"),

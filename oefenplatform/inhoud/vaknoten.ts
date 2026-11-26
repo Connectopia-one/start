@@ -144,9 +144,11 @@ export type Wegwijzer = {
   /* Hoofdstukken die wegvallen bij een keuze, herkend aan het begin van hun
      titel (lib/leerrichting.ts, valtWeg). "algemeen" geldt ook voor wie nog
      niets koos. */
-  weglaten?: Partial<Record<"algemeen" | "bedrijf" | "welzijn", string[]>>;
+  weglaten?: Partial<Record<"algemeen" | "humane" | "bedrijf" | "welzijn", string[]>>;
   /* De zin onder de knoppen, per keuze. Zonder tekst: de standaardzin. */
-  keuzeUitleg?: Partial<Record<"algemeen" | "bedrijf" | "welzijn" | "dg", string>>;
+  keuzeUitleg?: Partial<Record<"algemeen" | "humane" | "bedrijf" | "welzijn" | "dg", string>>;
+  /* Andere knoppen dan de standaard drie (zie components/RichtingKeuze.tsx). */
+  knoppen?: { waarde: "algemeen" | "humane" | "bedrijf" | "welzijn"; label: string }[];
   /* Mag weg: een uitklapbaar lijstje, bv. per hoofdstuk wat er wegvalt. */
   lijstKop?: string;
   lijst?: { kop: string; tekst: string }[];
@@ -227,6 +229,43 @@ const wegwijzers: Record<string, Wegwijzer> = {
       welzijn:
         "Onderaan staan in het blauw de extra hoofdstukken over het menselijk lichaam die jouw examen ook vraagt.",
     },
+  },
+};
+
+/*
+  Kim, 26 november 2026, na een mail van een ouder: humane wetenschappen
+  (fiche 3DDO) en welzijnswetenschappen (fiche 3DDG) leggen elk een ander
+  examen sociale en gedragswetenschappen af. Nagekeken op Kims usb-stick:
+  humane wetenschappen krijgt een groot blok politieke wetenschappen (titels
+  met "Humane wetenschappen:"), en heeft geen opvoeden in bijzondere
+  contexten (deel 2 van de pedagogische modellen) en geen communicatieve
+  vaardigheden. Wie nog niets koos, ziet alles.
+*/
+const SGW_ENKEL_WELZIJN = [
+  "Pedagogische modellen en opvoeden in bijzondere contexten — deel 2",
+  "Pedagogische modellen en opvoeden in bijzondere contexten — pittig",
+  "Communicatieve vaardigheden",
+];
+wegwijzers["beyond-doorstroom/sociale-en-gedragswetenschappen"] = {
+  titel: "Voor welke richting leer je?",
+  tekst: "Kies je richting, dan krijg je enkel wat jouw examen vraagt, ook in het examen hier.",
+  richtingKeuze: true,
+  knoppen: [
+    { waarde: "humane", label: "Humane wetenschappen" },
+    { waarde: "welzijn", label: "Welzijnswetenschappen" },
+  ],
+  weglaten: {
+    algemeen: [],
+    humane: SGW_ENKEL_WELZIJN,
+    welzijn: ["Humane wetenschappen:"],
+    bedrijf: ["Humane wetenschappen:"],
+  },
+  keuzeUitleg: {
+    algemeen: "Je ziet nu alle hoofdstukken. Kies je richting, dan laten we weg wat niet op jouw examen komt.",
+    humane:
+      "Je krijgt de hoofdstukken over politiek erbij. Opvoeden in bijzondere contexten en communicatieve vaardigheden laten we weg: jouw examen vraagt ze niet.",
+    welzijn:
+      "De hoofdstukken over politiek laten we weg: die horen enkel bij humane wetenschappen.",
   },
 };
 

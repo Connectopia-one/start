@@ -29,11 +29,18 @@ const KNOPPEN: { waarde: Keuze; label: string }[] = [
 export function RichtingKeuze({
   keuze,
   uitleg,
+  knoppen = KNOPPEN,
 }: {
   keuze: Leerrichting;
   /* Wat er wegvalt of bijkomt bij elke keuze. Zonder tekst de standaardzin. */
   uitleg?: Partial<Record<Leerrichting, string>>;
+  /* Andere knoppen, zoals humane en welzijnswetenschappen (sociale en
+     gedragswetenschappen Beyond, Kim 26 november 2026). */
+  knoppen?: { waarde: Keuze; label: string }[];
 }) {
+  // Elders telt humane wetenschappen als "een andere richting".
+  const eigen = knoppen.some((k) => k.waarde === keuze);
+  const actief = eigen ? keuze : keuze === "humane" ? "algemeen" : keuze;
   const router = useRouter();
   const [bezig, setBezig] = useState(false);
 
@@ -52,8 +59,8 @@ export function RichtingKeuze({
     }`;
 
   const zin =
-    uitleg?.[keuze] ??
-    (keuze !== "algemeen"
+    uitleg?.[actief] ??
+    (actief !== "algemeen"
       ? "🟠 Je krijgt enkel de vragen die je nodig hebt. Bij hoofdstukken met een oranje bolletje laten we een stuk weg."
       : undefined);
 
@@ -61,11 +68,11 @@ export function RichtingKeuze({
     <div className="mt-3">
       <p className="text-sm font-semibold text-ink">Ik leer voor:</p>
       <div className="mt-2 flex flex-wrap gap-2" aria-busy={bezig}>
-        {KNOPPEN.map((k) => (
+        {knoppen.map((k) => (
           <button
             key={k.waarde}
             type="button"
-            className={knop(keuze === k.waarde)}
+            className={knop(actief === k.waarde)}
             onClick={() => kies(k.waarde)}
           >
             {k.label}

@@ -23,12 +23,24 @@ export const RICHTING_COOKIE = "leerrichting";
   welzijnswetenschappen, bij wiskunde als een andere richting tot de leerling
   opnieuw kiest.
 */
-export type Leerrichting = "algemeen" | "bedrijf" | "welzijn" | "dg";
+/*
+  Kim, 26 november 2026, na een mail van een ouder: sociale en
+  gedragswetenschappen Beyond heeft een andere vakfiche voor humane
+  wetenschappen (3DDO, met een groot blok politiek) dan voor
+  welzijnswetenschappen (3DDG). Daar kies je tussen die twee. "humane" telt
+  overal elders als "algemeen" (een andere richting): zie basisRichting.
+*/
+export type Leerrichting = "algemeen" | "humane" | "bedrijf" | "welzijn" | "dg";
 
 export function leesRichting(waarde: string | undefined): Leerrichting {
-  return waarde === "bedrijf" || waarde === "welzijn" || waarde === "dg"
+  return waarde === "bedrijf" || waarde === "welzijn" || waarde === "dg" || waarde === "humane"
     ? waarde
     : "algemeen";
+}
+
+/** Humane wetenschappen is overal een andere richting, behalve waar een vak ze apart noemt. */
+export function basisRichting(r: Leerrichting): Exclude<Leerrichting, "humane"> {
+  return r === "humane" ? "algemeen" : r;
 }
 
 export async function leerrichting(): Promise<Leerrichting> {
@@ -37,7 +49,7 @@ export async function leerrichting(): Promise<Leerrichting> {
 
 /** Bedrijfs- of welzijnswetenschappen: de lichtere fiche 3DDG (geschiedenis). */
 export async function leertVoorDg(): Promise<boolean> {
-  return (await leerrichting()) !== "algemeen";
+  return basisRichting(await leerrichting()) !== "algemeen";
 }
 
 /*
@@ -50,7 +62,10 @@ export function valtWeg(
   weglaten: Partial<Record<Leerrichting, string[]>> | undefined,
   richting: Leerrichting,
 ): boolean {
-  const begin = weglaten?.[richting === "dg" ? "algemeen" : richting];
+  const begin =
+    richting === "humane"
+      ? (weglaten?.humane ?? weglaten?.algemeen)
+      : weglaten?.[richting === "dg" ? "algemeen" : richting];
   if (!begin) return false;
   const t = titel.trim().toLowerCase();
   return begin.some((b) => t.startsWith(b.toLowerCase()));
