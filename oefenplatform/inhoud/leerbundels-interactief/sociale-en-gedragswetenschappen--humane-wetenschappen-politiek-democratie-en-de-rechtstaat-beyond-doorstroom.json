@@ -1,0 +1,81 @@
+{
+ "vak": "Sociale en gedragswetenschappen",
+ "titel": "Humane wetenschappen: politiek, democratie en de rechtstaat",
+ "onder": "Welke staats- en regeringsvormen er zijn, wat een directe en een indirecte democratie is, en de principes van een democratische rechtstaat.",
+ "secties": [
+  {
+   "kop": "Staats- en regeringsvormen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Wie heeft de macht in een land, en hoe kreeg die persoon of groep ze? Daarop antwoorden de <strong>staats- en regeringsvormen</strong>. Veel namen komen uit het Grieks, en de betekenis van dat Griekse woord helpt je om ze te onthouden."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Vorm</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wie heeft de macht?</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Woord om te onthouden</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">democratie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het volk, rechtstreeks of via gekozen vertegenwoordigers</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">demos = volk, kratos = macht</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dictatuur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">één persoon of één partij, zonder vrije verkiezingen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">oppositie wordt vaak onderdrukt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">monarchie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een vorst als staatshoofd, die zijn plaats meestal erft</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">koning, koningin, vorst</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">republiek</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een staatshoofd dat zijn plaats niet erft, maar verkozen of aangeduid wordt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">meestal een president</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">oligarchie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een kleine groep, zoals rijke families of legerleiders</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">oligos = weinig</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">theocratie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">religieuze leiders, in naam van een god</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">theos = god</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Monarchie en republiek zeggen iets over het staatshoofd, niet over de vrijheid.</strong> Een land kan tegelijk een monarchie en een democratie zijn: België heeft een koning, maar het volk kiest het parlement en de koning heeft geen eigen politieke macht. Omgekeerd is niet elke republiek een democratie: ook een dictatuur kan zich republiek noemen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Herken de vorm in een situatie aan één vraag: <strong>bij wie ligt de macht, en hoe kwam ze daar?</strong> Hogepriesters die wetten maken uit een godsdienst: theocratie. Vijf rijke families zonder verkiezingen: oligarchie. Een president die om de vijf jaar gekozen wordt: republiek."
+    }
+   ]
+  },
+  {
+   "kop": "Directe en indirecte democratie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\"></th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Directe democratie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Indirecte democratie</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">andere naam</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rechtstreekse democratie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">representatieve democratie</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wie beslist?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de burgers zelf</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gekozen vertegenwoordigers, in naam van de burgers</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">voorbeeld</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een volksvergadering op het plein, een volksraadpleging</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het parlement in België</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Representeren</strong> betekent vertegenwoordigen. Bij de verkiezingen kies je een volksvertegenwoordiger, en die stemt de volgende jaren in het parlement over de wetten."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Waarom grote landen bijna altijd indirect werken:</strong> met miljoenen burgers is het niet haalbaar dat iedereen over elke wet meebeslist. Een rechtstreekse stemming blijft wel mogelijk voor één vraag."
+    }
+   ]
+  },
+  {
+   "kop": "De democratische rechtstaat",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>democratische rechtstaat</strong> is een democratie waarin ook de overheid zich aan de wet moet houden. Niemand staat boven de wet, ook de regering niet: een burger kan zelfs naar de rechter stappen tegen een beslissing van de overheid. Vijf principes:"
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Principe</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat het betekent</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">grondwet of constitutie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de hoogste wet, met de grondrechten en de werking van de staat</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">grondrechten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de fundamentele rechten en vrijheden van iedereen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">meerderheidsprincipe</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het voorstel met de meeste stemmen wordt aangenomen, binnen de grenzen van de grondwet</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">scheiding der machten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wetten maken, uitvoeren en erover oordelen gebeurt door verschillende instellingen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">onafhankelijke en onpartijdige rechtspraak</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de rechter staat niet onder druk en kiest geen kant</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Macht</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Instelling</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld bij een rookverbod in de auto</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wetgevende macht</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het parlement</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">keurt de wet goed</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">uitvoerende macht</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de regering</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de minister regelt de controles en een campagne</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rechterlijke macht</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de hoven en rechtbanken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een rechter legt een boete op</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>De machten controleren elkaar</strong>, zodat niemand zijn macht kan misbruiken. Het parlement stelt vragen aan een minister en kan de regering wegsturen. Een president die rechters ontslaat omdat hun oordeel hem niet bevalt, schendt de onafhankelijkheid van de rechterlijke macht. Verkiezingen alleen maken dus nog geen volwaardige rechtstaat."
+    },
+    {
+     "soort": "weetje",
+     "html": "<strong>Onafhankelijk en onpartijdig zijn niet hetzelfde.</strong> Onafhankelijk: de rechter staat niet onder druk van een andere macht. Onpartijdig: hij kiest geen kant en heeft geen belang in de zaak."
+    },
+    {
+     "soort": "tekst",
+     "html": "De meerderheid beslist, maar mag de grondrechten van een minderheid <strong>niet</strong> afschaffen. De grondrechten beschermen net ook wie in de minderheid is."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Democratie, dictatuur, monarchie, republiek, oligarchie, theocratie: vraag telkens bij wie de macht ligt.",
+  "Monarchie en republiek gaan over het staatshoofd; een monarchie kan een democratie zijn.",
+  "Direct: de burgers beslissen zelf. Indirect of representatief: ze kiezen vertegenwoordigers.",
+  "Rechtstaat: grondwet, grondrechten, meerderheidsprincipe, scheiding der machten, onafhankelijke en onpartijdige rechtspraak.",
+  "Parlement maakt, regering voert uit, hoven en rechtbanken oordelen. Ze controleren elkaar."
+ ]
+}

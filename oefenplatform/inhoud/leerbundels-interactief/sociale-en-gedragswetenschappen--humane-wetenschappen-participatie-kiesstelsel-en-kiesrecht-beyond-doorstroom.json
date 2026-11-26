@@ -1,0 +1,74 @@
+{
+ "vak": "Sociale en gedragswetenschappen",
+ "titel": "Humane wetenschappen: participatie, kiesstelsel en kiesrecht",
+ "onder": "Twee kiesstelsels, de evolutie van het kiesrecht in België, vormen van participatie en wat ze beïnvloedt, en het debat over de opkomstplicht.",
+ "secties": [
+  {
+   "kop": "Twee kiesstelsels",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "In een representatieve democratie geven burgers via verkiezingen een <strong>mandaat</strong> aan vertegenwoordigers. Hoe de stemmen in zetels omgezet worden, hangt af van het kiesstelsel."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\"></th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Evenredige vertegenwoordiging</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Meerderheidsstelsel</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hoe?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">procent stemmen ≈ procent zetels</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">per district krijgt enkel de winnaar een zetel</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">voorbeeld</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">België</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Verenigd Koninkrijk</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">voordeel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">meer stromingen krijgen een stem</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vaak een regering van één partij</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nadeel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bijna altijd coalities, moeilijke regeringsvorming</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">stemmen voor verliezers gaan verloren, kleine partijen benadeeld</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Rekenvoorbeeld.</strong> Bij evenredige vertegenwoordiging krijgt een partij met 10 procent van de stemmen ongeveer 15 van de 150 zetels. Bij een meerderheidsstelsel kan een partij met een kwart van de stemmen nul zetels halen als ze nergens de grootste is."
+    }
+   ]
+  },
+  {
+   "kop": "Het kiesrecht in België",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Jaar</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat veranderde</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1831</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">cijnskiesrecht: enkel mannen die genoeg belasting (cijns) betaalden, mochten stemmen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1893</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">algemeen meervoudig stemrecht voor mannen vanaf 25 jaar, extra stemmen voor bezit, diploma of gezin; ook de opkomstplicht</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1919</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">algemeen enkelvoudig stemrecht: elke man één stem</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1948</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vrouwen stemmen ook voor het parlement (voor de gemeenteraad al vanaf 1921)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1981</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de stemleeftijd zakt van 21 naar 18 jaar</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Arbeiders betaalden te weinig belasting om te mogen stemmen. Na stakingen en acties kwam er in 1893 het algemeen meervoudig stemrecht."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Opkomstplicht, geen stemplicht.</strong> Je moet naar het stembureau gaan, maar je mag blanco of ongeldig stemmen. Wat je daar doet, is geheim en vrij."
+    }
+   ]
+  },
+  {
+   "kop": "Vormen van participatie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Soort</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeelden</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">conventioneel (via de gewone kanalen)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">stemmen, kandidaat zijn, lid worden van een partij, een politicus contacteren</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">niet-conventioneel (buiten de gewone kanalen)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">betogingen, boycots, petities</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Begrip</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat het is</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">referendum of volksraadpleging</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">burgers stemmen over één vraag; in België vooral in gemeenten en niet bindend</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">belangengroep</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een organisatie die de belangen van een groep verdedigt, zoals een vakbond; komt niet op bij verkiezingen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sociale beweging</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een losser georganiseerde groep die actie voert, zoals de klimaatbeweging</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">burgerinitiatief</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">burgers nemen zelf het initiatief en brengen een voorstel bij de politiek</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Hoeveel iemand participeert, hangt af van <strong>scholingsgraad</strong>, <strong>leeftijd</strong>, <strong>gezinssituatie</strong>, <strong>urbanisatie</strong> (stad of platteland), het <strong>internet</strong> en de <strong>staatsvorm</strong>: in een dictatuur zijn vrije verkiezingen en acties vaak verboden."
+    }
+   ]
+  },
+  {
+   "kop": "Het debat over de opkomstplicht",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Vóór afschaffen</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Tegen afschaffen</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">stemmen is een recht, geen plicht</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zonder plicht gaan vooral bepaalde groepen stemmen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een stem uit vrije wil is meer waard</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zwakkere groepen worden dan minder gehoord</td></tr></table>"
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Evenredig: procent stemmen ≈ procent zetels (België). Meerderheid: per district enkel de winnaar (VK).",
+  "1831 cijns, 1893 meervoudig + opkomstplicht, 1919 enkelvoudig, 1948 vrouwen, 1981 vanaf 18.",
+  "Conventioneel via de gewone kanalen, niet-conventioneel erbuiten.",
+  "Belangengroep, sociale beweging, burgerinitiatief, volksraadpleging.",
+  "Factoren: scholing, leeftijd, gezin, urbanisatie, internet, staatsvorm."
+ ]
+}

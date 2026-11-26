@@ -41,6 +41,14 @@ export const nieuwTekst = {
 export const updates: Update[] = [
   {
     datum: "26 november 2026",
+    titel: "Sociale en gedragswetenschappen Beyond: kies humane of welzijnswetenschappen",
+    tekst:
+      "Humane wetenschappen en welzijnswetenschappen hebben voor sociale en gedragswetenschappen niet helemaal dezelfde leerstof. Op de vakpagina kies je nu je richting. Voor humane wetenschappen kwam er een volledig deel politiek bij: democratie en de rechtstaat, de Belgische staat, ideologieën, partijen en verkiezingen, participatie en kiesrecht, het recht in de samenleving, en globalisering met de VN en de Europese Unie. Zes onderwerpen met telkens twee delen gewone vragen en een pittig hoofdstuk met eigen schema's om op te klikken, leer- en oefenbundels om af te drukken, en een eigen niveau in de begrippenarena. Kies je welzijnswetenschappen, dan zie je de politiek niet en blijft alles zoals je gewoon bent.",
+    opVraag: true,
+    link: { tekst: "Naar het vak", href: "/niveaus/beyond-doorstroom/sociale-en-gedragswetenschappen" },
+  },
+  {
+    datum: "26 november 2026",
     titel: "Nieuw: Ready voor het 3de en 4de leerjaar",
     tekst:
       "Er is een nieuwe knop 🎒 Ready, voor kinderen van het 3de en 4de leerjaar. Bij wiskunde: getallen tot 10 000, rekenen en cijferen, tafels en delen, breuken en kommagetallen, meten en geld, tijd en temperatuur, meetkunde, en vraagstukken en tabellen. Bij Nederlands: spelling, werkwoorden, woordsoorten en zinnen, lezen en woordenschat, en taal en verhalen. Elk hoofdstuk heeft een korte uitleg, twee keer 20 vragen, een leerbundel en een oefenbundel met grote letters, hoge schrijflijnen en hokjes om letters in het woord zelf in te vullen. De voorleesknop staat bij Ready altijd aan.",

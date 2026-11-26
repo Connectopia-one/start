@@ -1,0 +1,70 @@
+{
+ "vak": "Sociale en gedragswetenschappen",
+ "titel": "Humane wetenschappen: het recht in de samenleving",
+ "onder": "De functies van justitie, de principes van rechtspraak, burgerlijk recht en strafrecht, de gerechtelijke piramide en actuele debatten.",
+ "secties": [
+  {
+   "kop": "Functies en principes",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Functie van justitie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">conflictoplossing</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een rechter beslist in een ruzie tussen buren over een haag</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">preventie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een zware straf voor dronken rijden schrikt anderen af</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ordehandhaving</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de politie houdt een betoging in goede banen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">veiligheid</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een gevaarlijke dader wordt opgesloten om anderen te beschermen</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Principe van rechtspraak</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat het betekent</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hoor en wederhoor</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">elke partij kan haar verhaal doen en op de andere reageren</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vermoeden van onschuld</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je bent onschuldig tot je schuld bewezen is</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">openbaarheid</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zittingen zijn in principe openbaar; soms met gesloten deuren, bv. om minderjarigen te beschermen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">onafhankelijkheid en onpartijdigheid</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geen bevelen van de regering, geen persoonlijk belang in de zaak</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Een rechter die moet oordelen over zijn eigen schoonbroer</strong> laat zich vervangen: hij heeft een persoonlijk belang en is dus niet onpartijdig."
+    }
+   ]
+  },
+  {
+   "kop": "Burgerlijk recht en strafrecht",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\"></th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Burgerlijk recht</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Strafrecht</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">waarover?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">conflicten tussen burgers: contracten, huur, schadevergoeding</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">misdrijven</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wie start?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een burger</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het openbaar ministerie (het parket) vervolgt in naam van de samenleving</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">voorbeeld</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de eigenaar betaalt de huurwaarborg niet terug</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een inbraak en diefstal</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "In een strafzaak <strong>vervolgt</strong> het openbaar ministerie, <strong>verdedigt</strong> de advocaat zijn cliënt, en <strong>beslist</strong> de rechter."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Eén feit, twee zaken.</strong> Wie iemand in elkaar slaat, kan gestraft worden (strafrecht), en het slachtoffer kan daarnaast een schadevergoeding vragen (burgerlijk recht)."
+    }
+   ]
+  },
+  {
+   "kop": "De gerechtelijke piramide",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>materiële bevoegdheid</strong> zegt welke rechtbank een soort zaak behandelt. De <strong>territoriale bevoegdheid</strong> zegt welke rechtbank van die soort, bijvoorbeeld die van Gent of van Hasselt."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Laag</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Rechtbank</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Behandelt bijvoorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">onderaan</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vredegerecht</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kleinere burgerlijke geschillen, burenhinder, huur</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">onderaan</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">politierechtbank</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verkeersovertredingen en schade bij verkeersongevallen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">eerste aanleg</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">burgerlijke rechtbank</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">grotere burgerlijke geschillen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">eerste aanleg</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">correctionele rechtbank</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wanbedrijven zoals diefstal, slagen en verwondingen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">eerste aanleg</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">familierechtbank</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">echtscheiding, verblijf van de kinderen, erfenissen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">eerste aanleg</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">jeugdrechtbank</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">minderjarigen; vooral maatregelen die opvoeden en herstellen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">eerste aanleg</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">strafuitvoeringsrechtbank</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vervroegde vrijlating, enkelband</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">eerste aanleg</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">arbeidsrechtbank</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">conflicten tussen werknemers en werkgevers, sociale zekerheid</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">eerste aanleg</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ondernemingsrechtbank</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geschillen tussen ondernemingen, faillissementen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">beroep</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hof van beroep, arbeidshof</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de zaak opnieuw behandelen na een vonnis in eerste aanleg</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hof van assisen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de zwaarste misdaden, zoals moord, met een volksjury</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bovenaan</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Hof van Cassatie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nagaan of de wet juist werd toegepast, zonder de feiten opnieuw te beoordelen</td></tr></table>"
+    }
+   ]
+  },
+  {
+   "kop": "Actuele debatten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Begrip</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waar het debat over gaat</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">volksjury bij assisen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">burgers krijgen een stem, maar leken kunnen sterker beïnvloed worden; er is debat over afschaffen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">alternatieve straffen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">werkstraf en enkelband buiten de gevangenis: moeten ze vaker?</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verjaring</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">na een bepaalde tijd kan een misdrijf niet meer vervolgd worden, ook als een procedure lang aansleept</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">uithandengeving</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bij zware feiten kan de jeugdrechter een minderjarige vanaf 16 jaar naar een gewone rechtbank sturen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">trial by media</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de media stellen iemand al schuldig voor, en het vermoeden van onschuld komt onder druk</td></tr></table>"
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Functies: conflictoplossing, preventie, ordehandhaving, veiligheid.",
+  "Principes: hoor en wederhoor, vermoeden van onschuld, openbaarheid, onafhankelijkheid en onpartijdigheid.",
+  "Burgerlijk recht: tussen burgers. Strafrecht: misdrijven, vervolgd door het openbaar ministerie.",
+  "Piramide: vredegerecht en politierechtbank, rechtbanken van eerste aanleg, hoven, Hof van Cassatie.",
+  "Debatten: volksjury, alternatieve straffen, verjaring, uithandengeving, trial by media."
+ ]
+}

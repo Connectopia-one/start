@@ -517,6 +517,13 @@ export const spelKaarten: SpelKaart[] = [
   {
     spel: "begrippenarena-mens",
     school: "middelbaar",
+    niveau: "🌍 Beyond · Humane wetenschappen: politiek",
+    niveauInSpel: "sgw_humane",
+    tekst: `Vierenveertig begrippen uit het politieke deel van humane wetenschappen, van rechtstaat en federale staat tot breuklijn, kiesstelsel, hof van assisen en Europese Commissie. ${zevenSpellenMens}`,
+  },
+  {
+    spel: "begrippenarena-mens",
+    school: "middelbaar",
     niveau: "🌍 Beyond · Filosofie en recht",
     niveauInSpel: "filorecht",
     tekst: `Bijna veertig begrippen, van rationalisme en falsificatie tot vrijheid, ethiek, de rechtsstaat en justitie. ${zevenSpellenMens}`,

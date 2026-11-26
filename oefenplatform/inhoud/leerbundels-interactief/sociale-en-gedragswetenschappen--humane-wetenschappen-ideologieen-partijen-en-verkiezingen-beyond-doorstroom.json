@@ -1,0 +1,78 @@
+{
+ "vak": "Sociale en gedragswetenschappen",
+ "titel": "Humane wetenschappen: ideologieën, partijen en verkiezingen",
+ "onder": "Ideologieën en breuklijnen, de Vlaamse partijen en de links-rechtsas, hoe je een verkiezing analyseert, en de regeringsvorming.",
+ "secties": [
+  {
+   "kop": "Ideologieën en breuklijnen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>ideologie</strong> is een samenhangend geheel van ideeën over hoe de samenleving eruit moet zien. Een <strong>breuklijn</strong> is een blijvende tegenstelling in de samenleving waarrond partijen ontstaan. België kent drie klassieke breuklijnen:"
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Breuklijn</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Tegenstelling</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat eruit groeide</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">levensbeschouwelijk</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kerk tegenover staat</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">katholieke en liberale partijen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sociaal-economisch</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">arbeid tegenover kapitaal</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">socialistische partijen en vakbonden</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">communautair</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Nederlandstaligen tegenover Franstaligen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Vlaams-nationale partijen, staatshervormingen, partijen per taalgroep</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Ideologie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Kernidee</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">liberalisme</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vrijheid van het individu, beperkte rol voor de overheid in de economie</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">socialisme en sociaaldemocratie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gelijkheid en solidariteit, sterke overheid, sociale zekerheid, rechten van werknemers</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">christendemocratie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">christelijke waarden, aandacht voor gezin, middenveld en verbondenheid</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ecologisme</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">milieu, klimaat en toekomstige generaties centraal</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nationalisme</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het eigen volk of de eigen natie als belangrijkste gemeenschap, zoveel mogelijk zelf beslissen</td></tr></table>"
+    }
+   ]
+  },
+  {
+   "kop": "De Vlaamse partijen en de links-rechtsas",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Partij</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wordt gewoonlijk gerekend tot</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Open Vld</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">liberalisme</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Vooruit (vroeger sp.a, daarvoor BSP)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sociaaldemocratie</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">cd&v</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">christendemocratie</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Groen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ecologisme</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">N-VA (centrumrechts) en Vlaams Belang (radicaal-rechts)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Vlaams-nationalisme</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">PVDA</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">radicaal-links, met marxistische wortels</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Op de economische <strong>links-rechtsas</strong> gaat het over hoeveel de overheid moet ingrijpen om welvaart te herverdelen. <strong>Links</strong>: meer herverdeling en een sterke overheid. <strong>Rechts</strong>: meer vrije markt en minder belastingen. PVDA staat gewoonlijk het verst links; Vooruit en Groen ook links; cd&v in het centrum; Open Vld, N-VA en Vlaams Belang rechts."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>De as is een vereenvoudiging.</strong> Een partij kan economisch eerder rechts zijn en bij ethische thema's progressief, of omgekeerd."
+    }
+   ]
+  },
+  {
+   "kop": "Een verkiezing analyseren",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Criterium</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Vraag</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeelden</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">identificatie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">over welk bestuursniveau gaat het?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gemeenteraad, provincieraad, Vlaams Parlement, Kamer, Europees Parlement</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">actoren</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wie speelt mee?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">partijen, kiezers, media, belangenorganisaties zoals vakbonden en werkgeversorganisaties</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">informatie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">waarmee vormen kiezers een mening?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">peilingen, campagne, debatten</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mechanismen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">welke regels gelden?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kieswetgeving, stemprocedure, campagnefinanciering</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">resultaat</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wie wint en verliest?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">politieke verschuivingen, regeringsvorming</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>peiling</strong> is een schatting bij een steekproef van kiezers, een momentopname met een foutenmarge. Ze kan kiezers beïnvloeden, maar is nooit de echte uitslag. Regels over <strong>campagnefinanciering</strong> zorgen dat partijen met veel geld de verkiezingen niet kunnen kopen."
+    }
+   ]
+  },
+  {
+   "kop": "Van uitslag naar regering",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Stemmen worden omgezet in <strong>zetels</strong>, en de zetels bepalen hoeveel gewicht een partij heeft. In de Kamer van 150 zetels heb je minstens <strong>76</strong> zetels nodig voor een meerderheid. Na de verkiezingen van 9 juni 2024 werd N-VA de grootste partij met 24 zetels: ze had dus andere partijen nodig (bron: officiële uitslag, FOD Binnenlandse Zaken)."
+    },
+    {
+     "soort": "tekst",
+     "html": "Na de verkiezingen onderhandelen partijen over een <strong>coalitie</strong> en een <strong>regeerakkoord</strong>: de afspraken over wat de regering zal doen. De grootste partij komt niet altijd in de regering; wie samen een meerderheid vindt, regeert."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Waarom duurt dat in België vaak lang?</strong> Een coalitie moet partijen verzoenen die op de breuklijnen tegenover elkaar staan, en volgens de grondwet zitten er in de federale regering Nederlandstalige én Franstalige partijen. Links en rechts samen in een regering leidt vaak tot een compromis of uitstel."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Drie breuklijnen: kerk-staat (levensbeschouwelijk), arbeid-kapitaal (sociaal-economisch), taal (communautair).",
+  "Liberalisme, socialisme, christendemocratie, ecologisme, nationalisme: ken het kernidee en een partij.",
+  "Links: meer herverdeling. Rechts: meer vrije markt. De as is een vereenvoudiging.",
+  "Verkiezing analyseren: identificatie, actoren, informatie, mechanismen, resultaat.",
+  "Meerderheid in de Kamer: 76 van 150. Coalitie, regeerakkoord, oppositie."
+ ]
+}

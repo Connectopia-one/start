@@ -1,0 +1,78 @@
+{
+ "vak": "Sociale en gedragswetenschappen",
+ "titel": "Humane wetenschappen: globalisering, de VN en de Europese Unie",
+ "onder": "Supranationale en internationale organisaties, mondiale thema's, de instellingen van de EU en hoe Europese wetten België raken.",
+ "secties": [
+  {
+   "kop": "Organisaties over de grenzen heen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>supranationale</strong> organisatie staat boven de landen (supra = boven). Landen staan er een deel van hun macht aan af en beslissen samen over sommige zaken. Ze doen dat omdat samenwerken meer slagkracht geeft bij vrede, handel, gezondheid of klimaat."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Organisatie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Opdracht</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Om te onthouden</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Verenigde Naties (VN)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vrede en veiligheid in de wereld bewaren</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">opgericht in 1945, na de Tweede Wereldoorlog; de Veiligheidsraad hoort erbij</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">NAVO</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">militair bondgenootschap: een aanval op één lid is een aanval op allen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">België is lid sinds 1949; hoofdkwartier in Brussel</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">WHO</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de gezondheid wereldwijd bevorderen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">organisatie van de VN; advies tijdens de coronapandemie</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">G7</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">overleg van zeven rijke landen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">VS, Canada, Japan, Duitsland, Frankrijk, Italië, VK; de EU zit mee aan tafel</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Internationaal Strafhof</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">personen berechten voor genocide, misdaden tegen de menselijkheid en oorlogsmisdaden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">in Den Haag</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Europees Hof van de Rechten van de Mens</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">oordelen over staten die mensenrechten schenden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">in Straatsburg; een burger kan er klagen na de eigen rechter</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Twee hoven niet verwarren.</strong> Het Internationaal Strafhof berecht <strong>personen</strong>, het Europees Hof van de Rechten van de Mens oordeelt over <strong>staten</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Mondiale thema's",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Klimaat, pandemieën, migratie en voedselveiligheid vragen een aanpak over de grenzen heen: uitstoot in één land verwarmt de hele aarde, een virus reist mee met reizigers, mensen op de vlucht trekken door verschillende landen en voedsel wordt over heel Europa verhandeld."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Mondiaal en lokaal hangen samen.</strong> Ook een gemeente kan iets doen aan een mondiaal thema, bijvoorbeeld fietspaden aanleggen of gebouwen isoleren."
+    }
+   ]
+  },
+  {
+   "kop": "De instellingen van de Europese Unie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Instelling</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wie zit erin?</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat doet ze?</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Europese Commissie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">één commissaris per lidstaat, die het belang van heel de EU dient</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">stelt wetten voor (initiatiefrecht) en voert het beleid uit</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Europees Parlement</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rechtstreeks gekozen door de burgers, om de vijf jaar; grotere landen hebben meer zetels</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">keurt samen met de Raad de wetten goed</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Raad van de Europese Unie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de vakministers van de lidstaten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">keurt samen met het Parlement de wetten goed</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Europese Raad</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de staatshoofden en regeringsleiders</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bepaalt de grote lijnen; maakt geen wetten</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "De gewone weg van een Europese wet: de <strong>Commissie stelt voor</strong>, het <strong>Parlement en de Raad van de EU beslissen samen</strong>. Zo spreken de burgers (Parlement) en de lidstaten (Raad) allebei mee. De meeste instellingen zetelen in Brussel; het Parlement vergadert in Brussel en Straatsburg."
+    },
+    {
+     "soort": "weetje",
+     "html": "<strong>Europese Raad en Raad van de EU lijken op elkaar</strong> maar zijn niet hetzelfde: regeringsleiders tegenover vakministers."
+    }
+   ]
+  },
+  {
+   "kop": "Europees recht en België",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\"></th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Verordening</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Richtlijn</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wat?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geldt meteen en op dezelfde manier in alle lidstaten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">legt een doel vast; elk land kiest zelf hoe</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">voorbeeld</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">één Europese regel voor heel de EU</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een grens voor fijn stof, waarna Vlaanderen maatregelen neemt</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Europees recht gaat <strong>voor</strong> op nationaal recht. Een Belgische rechter moet een Belgische regel die ermee in strijd is, buiten toepassing laten."
+    },
+    {
+     "soort": "tekst",
+     "html": "Voor de gezamenlijke militaire verdediging van de meeste Europese landen zorgt vooral de <strong>NAVO</strong>, niet de EU."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Supranationaal: boven de landen, die een deel van hun macht afstaan.",
+  "VN: vrede (1945). NAVO: militaire verdediging. WHO: gezondheid. G7: zeven rijke landen.",
+  "Internationaal Strafhof: personen (Den Haag). Europees Hof van de Rechten van de Mens: staten (Straatsburg).",
+  "Commissie stelt voor, Parlement en Raad van de EU beslissen samen, Europese Raad geeft de richting.",
+  "Verordening geldt meteen, richtlijn moet worden omgezet. Europees recht gaat voor."
+ ]
+}
