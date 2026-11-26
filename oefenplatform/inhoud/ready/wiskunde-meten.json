@@ -176,6 +176,47 @@
      "vraag": "Een kilometer is korter dan 900 meter.",
      "antwoord": false,
      "uitleg": "1 km = 1 000 m, en dat is meer dan 900 m."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe lang is het potlood? (in cm)",
+     "antwoord": [
+      "7",
+      "7 cm",
+      "7 centimeter"
+     ],
+     "uitleg": "Het potlood begint bij 0 en eindigt bij 7: 7 cm.",
+     "afbeelding_pad": "/examenvormen/ready/meten-potlood-7.svg"
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoeveel geld zie je samen? (in euro)",
+     "antwoord": [
+      "8,50",
+      "8,50 euro",
+      "€ 8,50",
+      "8,5",
+      "8.50"
+     ],
+     "uitleg": "5 + 2 + 1 = 8 euro, en nog 50 cent: 8 euro 50.",
+     "afbeelding_pad": "/examenvormen/ready/meten-munten-850.svg"
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoeveel ml water zit er in de maatbeker?",
+     "antwoord": [
+      "300",
+      "300 ml"
+     ],
+     "uitleg": "Het water komt tot aan het streepje van 300 ml.",
+     "afbeelding_pad": "/examenvormen/ready/meten-maatbeker-300.svg"
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Het potlood is 10 cm lang.",
+     "antwoord": false,
+     "uitleg": "Het potlood eindigt bij 12. Het is 12 cm lang.",
+     "afbeelding_pad": "/examenvormen/ready/meten-potlood-12.svg"
     }
    ]
   },
@@ -355,6 +396,37 @@
      "vraag": "Een kubus van 2 bij 2 bij 2 kubusjes bestaat uit 8 kubusjes.",
      "antwoord": true,
      "uitleg": "2 × 2 = 4 per laag, en 2 lagen: 8 kubusjes."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Wat is de omtrek van deze rechthoek? (in cm)",
+     "antwoord": [
+      "18",
+      "18 cm"
+     ],
+     "uitleg": "Alle zijden samen: 6 + 3 + 6 + 3 = 18 cm.",
+     "afbeelding_pad": "/examenvormen/ready/meten-rechthoek-6x3.svg"
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoeveel vierkantjes is de oppervlakte van de rechthoek?",
+     "antwoord": "15",
+     "uitleg": "3 rijen van 5 vierkantjes: 3 × 5 = 15.",
+     "afbeelding_pad": "/examenvormen/ready/meten-rooster-5x3.svg"
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Uit hoeveel kubusjes bestaat dit blok?",
+     "antwoord": "12",
+     "uitleg": "Elke laag heeft 3 × 2 = 6 kubusjes. Er zijn 2 lagen: 12 kubusjes.",
+     "afbeelding_pad": "/examenvormen/ready/meten-kubussen-3x2x2.svg"
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De oppervlakte van dit vierkant is 16 vierkantjes.",
+     "antwoord": true,
+     "uitleg": "4 rijen van 4: 4 × 4 = 16.",
+     "afbeelding_pad": "/examenvormen/ready/meten-rooster-4x4.svg"
     }
    ]
   }

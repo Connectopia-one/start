@@ -59,3 +59,19 @@ DEEL_2 = [
     wn("Een titel vertelt vaak waarover een tekst gaat.", True, "Lees eerst de titel. Zo weet je al een beetje wat je gaat lezen."),
     wn("Bij een moeilijk woord stop je best meteen met lezen.", False, "Lees verder: de zinnen errond helpen je vaak om het woord te begrijpen."),
 ]
+
+# Prentvragen (vraag 21 tot 24), Kim 26/11.
+import prent as P
+_ZWEMBAD = P.p_bord("lezen-zwembad", ["ZWEMBAD", "open van 9 tot 17 uur", "op zondag gesloten"])
+PRENT_1 = [
+    inv("Lees het bord. Tot hoe laat is het zwembad open?", ["17", "17 uur", "17.00", "vijf uur"], "Op het bord staat: open van 9 tot 17 uur.", prent=_ZWEMBAD),
+    mk("Lees het bord. Wat mag je hier niet doen?", ["fietsen", "wandelen", "praten", "kijken"], 0, "Op het bord staat dat fietsen verboden is.", prent=P.p_bord("lezen-verboden", ["PARK", "verboden te fietsen", "honden aan de leiband"])),
+    inv("Lees het briefje. Hoeveel euro kost de fiets?", ["40", "40 euro", "€ 40"], "Op het briefje staat: 40 euro.", 40, prent=P.p_bord("lezen-te-koop", ["TE KOOP", "blauwe kinderfiets", "40 euro"])),
+    wn("Lees het bord. Op zondag kan je gaan zwemmen.", False, "Op het bord staat: op zondag gesloten.", prent=_ZWEMBAD),
+]
+PRENT_2 = [
+    mk("Welk woord betekent hetzelfde als wat je op de prent ziet?", ["woning", "tuin", "straat", "dak"], 0, "Een huis is een woning.", prent=P.p_voorwerp("lezen-huis", "huis")),
+    inv("Het is heel heet. Wat is het tegenovergestelde van heet? (k...)", ["koud"], "Heet en koud zijn tegengestelden.", prent=P.p_thermometer("lezen-heet", 35)),
+    mk("Het woord 'bank' heeft meer dan één betekenis. Welke past bij de prent?", ["een zitbank", "een plaats waar je geld bewaart", "een zandbank in zee", "een schoolbank in de klas"], 0, "Op de prent zie je een bank om op te zitten in het park.", prent=P.p_voorwerp("lezen-bank", "bank")),
+    wn("Bij de prent: het tegenovergestelde van warm is heet.", False, "Heet is nog warmer. Het tegenovergestelde van warm is koud.", prent=P.p_voorwerp("lezen-zon", "zon")),
+]

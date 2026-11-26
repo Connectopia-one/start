@@ -52,3 +52,20 @@ DEEL_2 = [
     wn("Elektrisch licht bestond al bij de ridders.", False, "Ridders gebruikten kaarsen en fakkels. Elektrisch licht kwam veel later."),
     mk("Wat toont een oude foto van je straat?", ["hoe je straat er vroeger uitzag", "hoe je straat er later uit zal zien", "het weer van vandaag", "de prijs van een huis"], 0, "Vergelijk de oude foto met nu: wat is er veranderd?"),
 ]
+
+
+# Prentvragen (vraag 21 tot 24), Kim 26/11.
+from vr import mk, inv, wn
+import prent as P
+PRENT_1 = [
+    inv("Welk jaartal hoort bij het vraagteken?", "2020", "De tijdsbalk gaat telkens 10 jaar verder: 2000, 2010, 2020, 2030.", 2020, prent=P.p_tijdsbalk("tijd-balk-2020", [(60, "", "2000"), (180, "", "2010"), (300, "", "?"), (420, "", "2030")])),
+    mk("Wat staat het verst in het verleden?", ["de eerste mensen", "de ridders", "mijn geboorte", "vandaag"], 0, "Op de tijdsbalk staat het verleden links. De eerste mensen staan helemaal links.", prent=P.p_tijdsbalk("tijd-balk-perioden", [(75, "eerste mensen", ""), (200, "Romeinen", ""), (310, "ridders", ""), (435, "nu", "")])),
+    wn("Op deze tijdsbalk komen de Romeinen na de ridders.", False, "De Romeinen staan links van de ridders: zij leefden eerst.", prent=P.p_tijdsbalk("tijd-balk-romeinen", [(75, "eerste mensen", ""), (200, "Romeinen", ""), (310, "ridders", ""), (435, "nu", "")])),
+    mk("Welke eeuw is dit?", ["de 20ste eeuw", "de 19de eeuw", "de 21ste eeuw", "de 10de eeuw"], 0, "De jaren 1900 tot en met 1999 zijn de 20ste eeuw.", prent=P.p_tekst("tijd-eeuw-1900", ["1900 – 1999"])),
+]
+PRENT_2 = [
+    mk("Wat gebruikten mensen vroeger om licht te maken, toen er nog geen elektriciteit was?", ["een kaars", "een lamp", "een gsm", "een zaklamp"], 0, "Vroeger brandde men kaarsen en olielampen.", prent=P.p_dingen("tijd-kaars-lamp", ["kaars", "lamp"], False)),
+    inv("Hoe noem je de mama van je mama?", ["oma", "grootmoeder", "bomma", "meme"], "De mama van je mama of papa is je oma.", prent=P.p_stamboom("tijd-stamboom")),
+    wn("De gsm is ouder dan de telefoon met de draaischijf.", False, "De telefoon met draaischijf is veel ouder. De gsm kwam pas veel later.", prent=P.p_dingen("tijd-telefoons", ["oude-telefoon", "gsm"], False)),
+    inv("Welk voorwerp is het oudste? Schrijf de letter.", ["A"], "Een kaars gebruikt men al heel lang. Een lamp en een gsm zijn uitvindingen van later.", prent=P.p_dingen("tijd-oudste", ["kaars", "gsm", "lamp"])),
+]

@@ -186,6 +186,46 @@
      "vraag": "Gisteren is ook al geschiedenis.",
      "antwoord": true,
      "uitleg": "Alles wat voorbij is, hoort bij het verleden."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welk jaartal hoort bij het vraagteken?",
+     "antwoord": "2020",
+     "uitleg": "De tijdsbalk gaat telkens 10 jaar verder: 2000, 2010, 2020, 2030.",
+     "afbeelding_pad": "/examenvormen/ready/tijd-balk-2020.svg"
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat staat het verst in het verleden?",
+     "opties": [
+      "de eerste mensen",
+      "de ridders",
+      "mijn geboorte",
+      "vandaag"
+     ],
+     "antwoord": 0,
+     "uitleg": "Op de tijdsbalk staat het verleden links. De eerste mensen staan helemaal links.",
+     "afbeelding_pad": "/examenvormen/ready/tijd-balk-perioden.svg"
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Op deze tijdsbalk komen de Romeinen na de ridders.",
+     "antwoord": false,
+     "uitleg": "De Romeinen staan links van de ridders: zij leefden eerst.",
+     "afbeelding_pad": "/examenvormen/ready/tijd-balk-romeinen.svg"
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke eeuw is dit?",
+     "opties": [
+      "de 20ste eeuw",
+      "de 19de eeuw",
+      "de 21ste eeuw",
+      "de 10de eeuw"
+     ],
+     "antwoord": 0,
+     "uitleg": "De jaren 1900 tot en met 1999 zijn de 20ste eeuw.",
+     "afbeelding_pad": "/examenvormen/ready/tijd-eeuw-1900.svg"
     }
    ]
   },
@@ -379,6 +419,47 @@
      ],
      "antwoord": 0,
      "uitleg": "Vergelijk de oude foto met nu: wat is er veranderd?"
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat gebruikten mensen vroeger om licht te maken, toen er nog geen elektriciteit was?",
+     "opties": [
+      "een kaars",
+      "een lamp",
+      "een gsm",
+      "een zaklamp"
+     ],
+     "antwoord": 0,
+     "uitleg": "Vroeger brandde men kaarsen en olielampen.",
+     "afbeelding_pad": "/examenvormen/ready/tijd-kaars-lamp.svg"
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe noem je de mama van je mama?",
+     "antwoord": [
+      "oma",
+      "grootmoeder",
+      "bomma",
+      "meme"
+     ],
+     "uitleg": "De mama van je mama of papa is je oma.",
+     "afbeelding_pad": "/examenvormen/ready/tijd-stamboom.svg"
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De gsm is ouder dan de telefoon met de draaischijf.",
+     "antwoord": false,
+     "uitleg": "De telefoon met draaischijf is veel ouder. De gsm kwam pas veel later.",
+     "afbeelding_pad": "/examenvormen/ready/tijd-telefoons.svg"
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welk voorwerp is het oudste? Schrijf de letter.",
+     "antwoord": [
+      "A"
+     ],
+     "uitleg": "Een kaars gebruikt men al heel lang. Een lamp en een gsm zijn uitvindingen van later.",
+     "afbeelding_pad": "/examenvormen/ready/tijd-oudste.svg"
     }
    ]
   }

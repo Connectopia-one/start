@@ -52,3 +52,20 @@ DEEL_2 = [
     mk("Welke streek ligt in het zuiden van België?", ["de Ardennen", "de Kempen", "de polders", "de kust"], 0, "De Ardennen liggen in het zuiden en zuidoosten."),
     wn("Je kan met de trein van Brussel naar Parijs.", True, "Er rijden snelle treinen tussen Brussel en Parijs."),
 ]
+
+
+# Prentvragen (vraag 21 tot 24), Kim 26/11.
+from vr import mk, inv, wn
+import prent as P
+PRENT_1 = [
+    mk("Van welk land is deze vlag?", ["België", "Duitsland", "Frankrijk", "Nederland"], 0, "Zwart, geel en rood, rechtop naast elkaar: de Belgische vlag.", prent=P.p_vlag("belgie-vlag-be", ["#222", "#f5c400", "#d0453a"])),
+    wn("Het groene land op de kaart is Nederland.", False, "Het groene land is België. Nederland ligt erboven, in het noorden.", prent=P.p_benelux("belgie-kaart-groen")),
+    inv("De rode stip is de hoofdstad van België. Hoe heet die stad?", ["Brussel"], "Brussel is de hoofdstad van België.", prent=P.p_benelux("belgie-kaart-brussel", hoofdstad=True)),
+    mk("Van welk buurland is deze vlag?", ["Duitsland", "België", "Nederland", "Frankrijk"], 0, "Zwart, rood en goud, liggend boven elkaar: de vlag van Duitsland.", prent=P.p_vlag("belgie-vlag-de", ["#222", "#d0453a", "#f5c400"], True)),
+]
+PRENT_2 = [
+    mk("Welk buurland ligt bij de pijl?", ["Nederland", "Frankrijk", "Duitsland", "Luxemburg"], 0, "Nederland ligt ten noorden van België.", prent=P.p_benelux("belgie-pijl-nl", (5.6, 52.4, "rechts"))),
+    inv("Welk klein buurland ligt bij de pijl? L...", ["Luxemburg"], "Luxemburg is een klein land in het zuidoosten van België.", prent=P.p_benelux("belgie-pijl-lu", (6.1, 49.75, "rechts"))),
+    inv("Hoe heet de zee bij de pijl? De N...", ["Noordzee", "de Noordzee"], "Aan de Belgische kust ligt de Noordzee.", prent=P.p_benelux("belgie-pijl-zee", (2.8, 52.0, "links"))),
+    wn("De pijl wijst naar Duitsland.", False, "De pijl wijst naar Frankrijk, ten zuiden van België.", prent=P.p_benelux("belgie-pijl-fr", (3.3, 49.4, "links"))),
+]

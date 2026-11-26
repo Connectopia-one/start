@@ -53,3 +53,20 @@ DEEL_2 = [
     inv("In een tabel staat: 1 pak = 6 flessen, 2 pakken = 12 flessen, 5 pakken = ___ flessen.", "30", "Elk pak heeft 6 flessen: 5 × 6 = 30.", 30),
     wn("Als je in een tabel een getal vergeet, kan de som toch kloppen.", False, "Ontbreekt er een getal, dan wordt je som te klein. Tel alles na."),
 ]
+
+# Prentvragen (vraag 21 tot 24), Kim 26/11.
+import prent as P
+_WINKEL = P.p_prijzen("vraagstukken-winkel", [("appel", "€ 0,40"), ("banaan", "€ 0,30"), ("blikje", "€ 1,20")])
+PRENT_1 = [
+    inv("Je koopt een appel en een banaan. Hoeveel betaal je? (in euro)", ["0,70", "0,70 euro", "€ 0,70", "0,7", "70 cent"], "40 cent + 30 cent = 70 cent, dat is 0,70 euro.", prent=_WINKEL),
+    inv("Hoeveel kosten 3 appels? (in euro)", ["1,20", "1,20 euro", "€ 1,20", "1,2", "120 cent"], "3 × 40 cent = 120 cent = 1,20 euro.", prent=_WINKEL),
+    inv("Je koopt een blikje en betaalt met een muntstuk van 2 euro. Hoeveel krijg je terug? (in euro)", ["0,80", "0,80 euro", "€ 0,80", "0,8", "80 cent"], "2 euro − 1,20 euro = 0,80 euro.", prent=_WINKEL),
+    wn("Twee blikjes kosten samen minder dan 2 euro.", False, "2 × 1,20 = 2,40 euro. Dat is meer dan 2 euro.", prent=_WINKEL),
+]
+_FRUIT = P.p_staaf("vraagstukken-lievelingsfruit", "Lievelingsfruit van de klas", [("appel", 6), ("peer", 8), ("banaan", 3), ("kiwi", 2)])
+PRENT_2 = [
+    mk("Welk fruit kozen de meeste kinderen?", ["peer", "appel", "banaan", "kiwi"], 0, "De staaf van peer is het hoogst: 8 kinderen.", prent=_FRUIT),
+    inv("Hoeveel kinderen kozen appel?", "6", "De staaf van appel komt tot aan 6.", 6, prent=_FRUIT),
+    inv("Hoeveel kinderen meer kozen peer dan kiwi?", "6", "Peer 8, kiwi 2: 8 − 2 = 6.", 6, prent=_FRUIT),
+    wn("Samen kozen 19 kinderen een stuk fruit.", True, "6 + 8 + 3 + 2 = 19.", prent=_FRUIT),
+]

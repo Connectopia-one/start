@@ -53,3 +53,20 @@ DEEL_2 = [
     inv("Toestellen die je niet gebruikt, trek je uit het ___. (s...)", ["stopcontact"], "Zo verbruiken ze geen stroom."),
     wn("Een lampje brandt ook als je maar één draadje gebruikt.", False, "Je hebt een kring nodig: van de ene pool van de batterij naar het lampje en terug naar de andere pool."),
 ]
+
+
+# Prentvragen (vraag 21 tot 24), Kim 26/11.
+from vr import mk, inv, wn
+import prent as P
+PRENT_1 = [
+    mk("Welk werktuig zie je op de prent?", ["een hefboom", "een katrol", "een wiel", "een tandwiel"], 0, "Een wip is een hefboom: een lange plank die op één punt draait.", prent=P.p_wip("techniek-wip")),
+    inv("Met dit wiel en touw trek je iets zwaars omhoog. Hoe heet het? Een k...", ["katrol", "een katrol"], "Een katrol maakt omhoog trekken makkelijker.", prent=P.p_katrol("techniek-katrol")),
+    wn("Wielen maken het makkelijker om iets te verplaatsen.", True, "Een trein, een fiets en een kar rollen op wielen. Dat gaat veel lichter dan schuiven.", prent=P.p_voorwerp("techniek-trein", "trein")),
+    mk("Waarom gaat het makkelijk om met een kruiwagen een zware lading te verplaatsen?", ["door het wiel", "door de groene kleur", "omdat hij nieuw is", "door de bak"], 0, "Het wiel draagt een deel van het gewicht en rolt.", prent=P.p_ding("techniek-kruiwagen", "kruiwagen")),
+]
+PRENT_2 = [
+    wn("Het lampje brandt, want de stroomkring is gesloten.", True, "De draden maken een rondje van de batterij naar het lampje en terug.", prent=P.p_stroomkring("techniek-kring-dicht", True)),
+    mk("Waarom brandt het lampje niet?", ["De kring is open.", "De batterij is te groot.", "Het lampje is te klein.", "Er is te veel draad."], 0, "Er zit een opening in de draad. De stroom kan niet rond.", prent=P.p_stroomkring("techniek-kring-open", False)),
+    inv("Wat geeft de stroom in deze kring? De b...", ["batterij", "de batterij"], "De batterij duwt de stroom door de draden.", prent=P.p_stroomkring("techniek-kring-batterij", True)),
+    wn("Je steekt nooit iets anders dan een stekker in een stopcontact.", True, "Uit een stopcontact komt sterke stroom. Dat is gevaarlijk.", prent=P.p_ding("techniek-stopcontact", "stopcontact")),
+]

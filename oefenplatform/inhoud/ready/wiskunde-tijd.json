@@ -178,6 +178,56 @@
      "vraag": "De kleine wijzer gaat sneller rond dan de grote wijzer.",
      "antwoord": false,
      "uitleg": "De grote wijzer gaat elk uur een keer rond. De kleine doet daar 12 uur over."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Kijk naar de klok. Hoe laat is het?",
+     "antwoord": [
+      "3 uur",
+      "drie uur",
+      "3.00",
+      "3:00",
+      "15 uur",
+      "15.00",
+      "15:00",
+      "3u",
+      "15u"
+     ],
+     "uitleg": "De grote wijzer staat op 12, de kleine op 3: het is 3 uur.",
+     "afbeelding_pad": "/examenvormen/ready/tijd-klok-3-00.svg"
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk uur wijst deze klok aan?",
+     "opties": [
+      "half acht",
+      "half zeven",
+      "zeven uur",
+      "kwart over zeven"
+     ],
+     "antwoord": 0,
+     "uitleg": "De grote wijzer staat op 6 (half). De kleine staat tussen 7 en 8: half acht.",
+     "afbeelding_pad": "/examenvormen/ready/tijd-klok-7-30.svg"
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe laat is het op deze klok?",
+     "opties": [
+      "kwart over twee",
+      "kwart voor twee",
+      "kwart over drie",
+      "half drie"
+     ],
+     "antwoord": 0,
+     "uitleg": "De grote wijzer staat op 3 (kwart over). De kleine staat net voorbij de 2.",
+     "afbeelding_pad": "/examenvormen/ready/tijd-klok-2-15.svg"
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De klok wijst kwart voor tien aan.",
+     "antwoord": true,
+     "uitleg": "De grote wijzer staat op 9 (kwart voor), de kleine staat bijna op 10.",
+     "afbeelding_pad": "/examenvormen/ready/tijd-klok-9-45.svg"
     }
    ]
   },
@@ -357,6 +407,47 @@
      "vraag": "Kerstmis valt op 25 december. Nieuwjaar valt ___ dagen later.",
      "antwoord": "7",
      "uitleg": "Van 25 tot 31 december is 6 dagen, en 1 januari is de 7de dag."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe zeg je dit uur?",
+     "opties": [
+      "half zeven 's avonds",
+      "half zes 's avonds",
+      "zes uur 's morgens",
+      "half negen 's avonds"
+     ],
+     "antwoord": 0,
+     "uitleg": "18.30 is 's avonds. 18 uur is 6 uur, en 30 minuten erbij: half zeven.",
+     "afbeelding_pad": "/examenvormen/ready/tijd-digitaal-1830.svg"
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoeveel graden wijst de thermometer aan?",
+     "antwoord": [
+      "20",
+      "20 °C",
+      "20 graden"
+     ],
+     "uitleg": "Het rood komt tot aan 20 graden.",
+     "afbeelding_pad": "/examenvormen/ready/tijd-thermo-20.svg"
+    },
+    {
+     "type": "invultekst",
+     "vraag": "De film begint en eindigt op deze uren. Hoe lang duurt de film? (in minuten)",
+     "antwoord": [
+      "150",
+      "150 minuten"
+     ],
+     "uitleg": "Van 2 uur tot half vijf is 2 uur en 30 minuten: 60 + 60 + 30 = 150 minuten.",
+     "afbeelding_pad": "/examenvormen/ready/tijd-film.svg"
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Bij deze temperatuur kan water bevriezen.",
+     "antwoord": true,
+     "uitleg": "De thermometer staat op 0 graden. Bij 0 graden begint water te bevriezen.",
+     "afbeelding_pad": "/examenvormen/ready/tijd-thermo-0.svg"
     }
    ]
   }

@@ -160,7 +160,7 @@
      "vraag": "Waarom draag je een fietshelm?",
      "opties": [
       "om je hoofd te beschermen als je valt",
-      "om sneller te fietsen",
+      "om sneller en verder te fietsen dan je vrienden",
       "tegen de regen",
       "omdat het mooi staat"
      ],
@@ -190,6 +190,50 @@
      "vraag": "Botten kunnen niet breken.",
      "antwoord": false,
      "uitleg": "Botten zijn stevig, maar bij een harde val kunnen ze breken. Ze groeien dan weer aan elkaar."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe heet het bot bij de pijl?",
+     "opties": [
+      "de schedel",
+      "de ribben",
+      "de knieschijf",
+      "het bekken"
+     ],
+     "antwoord": 0,
+     "uitleg": "De schedel is een harde doos van bot rond je hersenen.",
+     "afbeelding_pad": "/examenvormen/ready/lichaam-schedel.webp"
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe heten de botten bij de pijl? De r...",
+     "antwoord": [
+      "ribben",
+      "de ribben",
+      "rib"
+     ],
+     "uitleg": "De ribben vormen een kooi rond je hart en longen.",
+     "afbeelding_pad": "/examenvormen/ready/lichaam-ribben.webp"
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De pijl wijst naar je elleboog.",
+     "antwoord": false,
+     "uitleg": "De pijl wijst naar je knie. Je knie en je elleboog zijn allebei gewrichten.",
+     "afbeelding_pad": "/examenvormen/ready/lichaam-knie.webp"
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat doe je met dit zintuig?",
+     "opties": [
+      "zien",
+      "horen",
+      "ruiken",
+      "proeven"
+     ],
+     "antwoord": 0,
+     "uitleg": "Met je ogen zie je kleuren, vormen en licht.",
+     "afbeelding_pad": "/examenvormen/ready/lichaam-oog.svg"
     }
    ]
   },
@@ -379,6 +423,45 @@
      "vraag": "Je bloed blijft altijd op dezelfde plaats in je lichaam.",
      "antwoord": false,
      "uitleg": "Je bloed stroomt de hele tijd rond door je bloedvaten."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waar wijst de pijl naar?",
+     "opties": [
+      "de maag",
+      "de longen",
+      "het hart",
+      "de hersenen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Na het slikken komt je eten in je maag. Daar wordt het fijngemaakt.",
+     "afbeelding_pad": "/examenvormen/ready/lichaam-maag.webp"
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De pijl wijst naar de buis waarlangs je eten naar je maag zakt.",
+     "antwoord": true,
+     "uitleg": "Dat is de slokdarm, van je mond naar je maag.",
+     "afbeelding_pad": "/examenvormen/ready/lichaam-slokdarm.webp"
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Waar wijst de pijl naar? Het ...",
+     "antwoord": [
+      "hart",
+      "het hart"
+     ],
+     "uitleg": "Het hart ligt tussen je longen en pompt je bloed rond.",
+     "afbeelding_pad": "/examenvormen/ready/lichaam-hart.svg"
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welk tussendoortje is het gezondst? Schrijf de letter.",
+     "antwoord": [
+      "C"
+     ],
+     "uitleg": "C is een appel. Fruit is gezond. Chips, snoep en frisdrank eet je beter niet te vaak.",
+     "afbeelding_pad": "/examenvormen/ready/lichaam-tussendoortje.svg"
     }
    ]
   }

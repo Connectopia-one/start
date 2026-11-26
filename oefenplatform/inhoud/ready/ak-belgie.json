@@ -191,6 +191,48 @@
      "vraag": "De koning van België woont in Brussel.",
      "antwoord": true,
      "uitleg": "Het koninklijk paleis staat in Brussel."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Van welk land is deze vlag?",
+     "opties": [
+      "België",
+      "Duitsland",
+      "Frankrijk",
+      "Nederland"
+     ],
+     "antwoord": 0,
+     "uitleg": "Zwart, geel en rood, rechtop naast elkaar: de Belgische vlag.",
+     "afbeelding_pad": "/examenvormen/ready/belgie-vlag-be.svg"
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Het groene land op de kaart is Nederland.",
+     "antwoord": false,
+     "uitleg": "Het groene land is België. Nederland ligt erboven, in het noorden.",
+     "afbeelding_pad": "/examenvormen/ready/belgie-kaart-groen.svg"
+    },
+    {
+     "type": "invultekst",
+     "vraag": "De rode stip is de hoofdstad van België. Hoe heet die stad?",
+     "antwoord": [
+      "Brussel"
+     ],
+     "uitleg": "Brussel is de hoofdstad van België.",
+     "afbeelding_pad": "/examenvormen/ready/belgie-kaart-brussel.svg"
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Van welk buurland is deze vlag?",
+     "opties": [
+      "Duitsland",
+      "België",
+      "Nederland",
+      "Frankrijk"
+     ],
+     "antwoord": 0,
+     "uitleg": "Zwart, rood en goud, liggend boven elkaar: de vlag van Duitsland.",
+     "afbeelding_pad": "/examenvormen/ready/belgie-vlag-de.svg"
     }
    ]
   },
@@ -383,6 +425,45 @@
      "vraag": "Je kan met de trein van Brussel naar Parijs.",
      "antwoord": true,
      "uitleg": "Er rijden snelle treinen tussen Brussel en Parijs."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk buurland ligt bij de pijl?",
+     "opties": [
+      "Nederland",
+      "Frankrijk",
+      "Duitsland",
+      "Luxemburg"
+     ],
+     "antwoord": 0,
+     "uitleg": "Nederland ligt ten noorden van België.",
+     "afbeelding_pad": "/examenvormen/ready/belgie-pijl-nl.svg"
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welk klein buurland ligt bij de pijl? L...",
+     "antwoord": [
+      "Luxemburg"
+     ],
+     "uitleg": "Luxemburg is een klein land in het zuidoosten van België.",
+     "afbeelding_pad": "/examenvormen/ready/belgie-pijl-lu.svg"
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe heet de zee bij de pijl? De N...",
+     "antwoord": [
+      "Noordzee",
+      "de Noordzee"
+     ],
+     "uitleg": "Aan de Belgische kust ligt de Noordzee.",
+     "afbeelding_pad": "/examenvormen/ready/belgie-pijl-zee.svg"
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De pijl wijst naar Duitsland.",
+     "antwoord": false,
+     "uitleg": "De pijl wijst naar Frankrijk, ten zuiden van België.",
+     "afbeelding_pad": "/examenvormen/ready/belgie-pijl-fr.svg"
     }
    ]
   }

@@ -178,6 +178,46 @@
      "vraag": "Een cirkel is een veelhoek.",
      "antwoord": false,
      "uitleg": "Een veelhoek heeft rechte zijden en hoeken. Een cirkel heeft geen van beide."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat voor hoek zie je?",
+     "opties": [
+      "een rechte hoek",
+      "een scherpe hoek",
+      "een stompe hoek",
+      "een gestrekte hoek"
+     ],
+     "antwoord": 0,
+     "uitleg": "Het vierkantje in de hoek toont een rechte hoek, zoals de hoek van een blad papier.",
+     "afbeelding_pad": "/examenvormen/ready/meetkunde-hoek-recht.svg"
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoeveel hoeken heeft deze figuur?",
+     "antwoord": "6",
+     "uitleg": "Tel de punten: het is een zeshoek met 6 hoeken.",
+     "afbeelding_pad": "/examenvormen/ready/meetkunde-zeshoek.svg"
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe heet deze figuur?",
+     "opties": [
+      "ruit",
+      "vierkant",
+      "driehoek",
+      "cirkel"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een ruit heeft 4 even lange zijden, maar geen rechte hoeken.",
+     "afbeelding_pad": "/examenvormen/ready/meetkunde-ruit.svg"
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Dit is een scherpe hoek.",
+     "antwoord": false,
+     "uitleg": "De hoek is groter dan een rechte hoek: het is een stompe hoek.",
+     "afbeelding_pad": "/examenvormen/ready/meetkunde-hoek-stomp.svg"
     }
    ]
   },
@@ -365,6 +405,46 @@
      "vraag": "Een piramide met een vierkant grondvlak heeft 4 driehoekige zijvlakken.",
      "antwoord": true,
      "uitleg": "Vier driehoeken komen samen in de top, en onderaan ligt het vierkant."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe heet deze ruimtefiguur?",
+     "opties": [
+      "cilinder",
+      "piramide",
+      "balk",
+      "kegel"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een cilinder heeft twee ronde vlakken en is rond aan de zijkant, zoals een blikje.",
+     "afbeelding_pad": "/examenvormen/ready/meetkunde-cilinder.svg"
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoeveel vlakken heeft deze ruimtefiguur?",
+     "antwoord": "6",
+     "uitleg": "Een kubus heeft 6 vlakken: boven, onder, voor, achter, links en rechts.",
+     "afbeelding_pad": "/examenvormen/ready/meetkunde-kubus.svg"
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De stippellijn is een symmetrieas: de ene helft is het spiegelbeeld van de andere.",
+     "antwoord": true,
+     "uitleg": "Plooi je de letter A op de stippellijn, dan vallen beide helften op elkaar.",
+     "afbeelding_pad": "/examenvormen/ready/meetkunde-symmetrie-a.svg"
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk voorwerp heeft dezelfde vorm als deze ruimtefiguur?",
+     "opties": [
+      "een voetbal",
+      "een doos",
+      "een blikje",
+      "een ijshoorntje"
+     ],
+     "antwoord": 0,
+     "uitleg": "Dit is een bol. Een voetbal is ook een bol.",
+     "afbeelding_pad": "/examenvormen/ready/meetkunde-bol.svg"
     }
    ]
   }

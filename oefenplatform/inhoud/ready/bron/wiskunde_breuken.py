@@ -53,3 +53,18 @@ DEEL_2 = [
     wn("1/4 van 12 is meer dan 1/2 van 12.", False, "1/4 van 12 = 3 en 1/2 van 12 = 6. Een half is meer."),
     wn("In 6,08 staat de 0 op de plaats van de tienden.", True, "6,08: 0 tienden en 8 honderdsten."),
 ]
+
+# Prentvragen (vraag 21 tot 24), Kim 26/11.
+import prent as P
+PRENT_1 = [
+    inv("Welk deel van de taart is gekleurd? Schrijf als breuk.", ["1/4", "een vierde", "1 / 4", "één vierde"], "De taart is in 4 gelijke stukken verdeeld en 1 stuk is gekleurd: 1/4.", prent=P.p_taart("breuken-taart-1-4", 4, 1)),
+    mk("Welk deel van de strook is gekleurd?", ["3/5", "5/3", "2/5", "3/8"], 0, "5 gelijke stukken, 3 zijn gekleurd: 3/5.", prent=P.p_balk("breuken-balk-3-5", 5, 3)),
+    wn("Van deze taart is 3/8 gekleurd.", True, "8 gelijke stukken en 3 zijn gekleurd.", prent=P.p_taart("breuken-taart-3-8", 8, 3)),
+    inv("Hoeveel stukken van de strook zijn NIET gekleurd?", "4", "6 stukken in totaal, 2 zijn gekleurd, dus 4 niet.", 4, prent=P.p_balk("breuken-balk-2-6", 6, 2)),
+]
+PRENT_2 = [
+    inv("Je kleurt 1/3 van deze 12 stippen. Hoeveel stippen kleur je?", "4", "1/3 van 12 = 12 : 3 = 4.", 4, prent=P.p_stippen("breuken-stippen-12", 3, 4, "#fff")),
+    mk("Hoeveel geld is dat samen?", ["0,75 euro", "7,5 euro", "75 euro", "0,57 euro"], 0, "50 + 20 + 5 = 75 cent. Dat is 0,75 euro.", prent=P.p_munten("breuken-munten-075", [50, 20, 5])),
+    inv("Welk deel van de strook is gekleurd? Schrijf als kommagetal.", ["0,7", "0.7"], "7 van de 10 stukken: 7 tienden, dat is 0,7.", 0.7, prent=P.p_balk("breuken-balk-7-10", 10, 7, P.GROEN)),
+    wn("De helft van deze taart is gekleurd.", True, "2 gelijke stukken en 1 is gekleurd: 1/2, de helft.", prent=P.p_taart("breuken-taart-1-2", 2, 1)),
+]

@@ -53,3 +53,18 @@ DEEL_2 = [
     mk("Welke zin vertelt over iets dat nu gebeurt?", ["Ik zwom in de zee.", "Ik zwem in de zee.", "Ik heb gezwommen.", "Ik zwemde in de zee."], 1, "Ik zwem: dat is nu, de tegenwoordige tijd."),
     wn("'Hij kwam te laat' staat in de verleden tijd.", True, "Kwam is de verleden tijd van komen."),
 ]
+
+# Prentvragen (vraag 21 tot 24), Kim 26/11.
+import prent as P
+PRENT_1 = [
+    inv("Kijk naar de prent. De vogel ___ een liedje. (fluiten)", ["fluit"], "De vogel = hij. Hij fluit: stam + t, maar de stam eindigt al op t.", prent=P.p_voorwerp("werkwoorden-vogel", "vogel")),
+    inv("Kijk naar de prent. De hond ___ in zijn mand. (slapen)", ["slaapt"], "De hond = hij. Hij slaapt: stam slaap + t.", prent=P.p_voorwerp("werkwoorden-hond", "hond")),
+    mk("Kijk naar de prent. Jij ___ de bal ver weg. (trappen)", ["trapt", "trap", "trappen", "trapd"], 0, "Jij trapt: stam trap + t.", prent=P.p_voorwerp("werkwoorden-bal", "bal")),
+    wn("Bij de prent past de zin: 'De vis zwemmen in het water.'", False, "Eén vis: de vis zwemt. 'Zwemmen' is voor meer vissen.", prent=P.p_voorwerp("werkwoorden-vis", "vis")),
+]
+PRENT_2 = [
+    inv("Kijk naar de prent. Gisteren ___ ik een groot ijsje. (eten)", ["at"], "Eten is een sterk werkwoord: ik eet, gisteren at ik.", prent=P.p_voorwerp("werkwoorden-ijs", "ijs")),
+    mk("Kijk naar de prent. Vorige week ___ we met de trein naar zee. (reizen)", ["reisden", "reisten", "reizen", "reisde"], 0, "Reizen: de stam is reis, maar je hoort een z in reizen. Dus reisden, met d.", prent=P.p_voorwerp("werkwoorden-trein", "trein")),
+    inv("Kijk naar de prent. Mijn opa heeft dit huis zelf ___. (bouwen)", ["gebouwd"], "Ge + bouw + d: gebouwd.", prent=P.p_voorwerp("werkwoorden-huis", "huis")),
+    wn("Bij de prent: 'Gisteren vloog de vogel weg.' Het woord 'vloog' staat in de verleden tijd.", True, "Vliegen, vloog, gevlogen: vloog is verleden tijd.", prent=P.p_voorwerp("werkwoorden-vogel-2", "vogel")),
+]

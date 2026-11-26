@@ -53,3 +53,20 @@ DEEL_2 = [
     mk("Waarom betalen volwassenen belastingen?", ["Voor wegen, scholen en ziekenhuizen.", "Om de koning en de koningin rijk te maken.", "Omdat het een spel is.", "Om snoep te kopen."], 0, "Met belastingen betaalt men dingen die we samen gebruiken."),
     wn("Kinderen van 9 jaar mogen stemmen bij de verkiezingen voor de gemeente.", False, "Bij de gemeenteraadsverkiezingen stemmen volwassenen vanaf 18 jaar."),
 ]
+
+
+# Prentvragen (vraag 21 tot 24), Kim 26/11.
+from vr import mk, inv, wn
+import prent as P
+PRENT_1 = [
+    mk("Wat betekent dit verkeersbord?", ["Verboden voor fietsers", "Hier is een fietspad", "Hier kan je je fiets zetten", "Fietsen te koop"], 0, "Een rond bord met een rode rand is een verbod. De fiets erin: geen fietsers.", prent=P.p_verkeersbord("samenleven-geen-fietsers", "geen-fietsers")),
+    mk("Wat zie je op de prent?", ["een zebrapad", "een fietspad", "een parking", "een speelplaats"], 0, "Witte strepen op de weg: een zebrapad. Daar steek je over.", prent=P.p_verkeersbord("samenleven-zebrapad", "zebrapad")),
+    wn("Bij dit bord mag je doorrijden zonder te stoppen.", False, "Bij een stopbord moet je helemaal stoppen en kijken.", prent=P.p_verkeersbord("samenleven-stop", "stop")),
+    inv("Elk kind heeft recht op een veilige t... om te wonen.", ["thuis"], "Elk kind heeft recht op een thuis. Dat staat in de kinderrechten.", prent=P.p_voorwerp("samenleven-huis", "huis")),
+]
+PRENT_2 = [
+    mk("Bij welk feest hoort deze boom?", ["Kerstmis", "Pasen", "Carnaval", "Sinterklaas"], 0, "Met Kerstmis versieren veel mensen een kerstboom.", prent=P.p_ding("samenleven-kerstboom", "kerstboom")),
+    inv("Bij welk feest zoeken kinderen naar deze eieren?", ["Pasen", "pasen"], "Met Pasen zoeken kinderen paaseieren.", prent=P.p_ding("samenleven-paaseieren", "paaseieren")),
+    wn("Dit is de vlag van Nederland.", False, "Zwart, geel en rood, rechtop: dit is de vlag van België.", prent=P.p_vlag("samenleven-vlag-be", ["#222", "#f5c400", "#d0453a"])),
+    mk("Waar vraag je een identiteitskaart aan?", ["in het gemeentehuis", "in de bakkerij", "in de sporthal", "in het zwembad"], 0, "Voor een identiteitskaart ga je naar het gemeentehuis.", prent=P.p_ding("samenleven-gemeentehuis", "gemeentehuis")),
+]

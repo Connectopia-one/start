@@ -190,6 +190,49 @@
      "vraag": "In een verhaal mag de tijd verspringen, bijvoorbeeld 'drie dagen later'.",
      "antwoord": true,
      "uitleg": "Met zinnen zoals 'de volgende ochtend' of 'drie dagen later' springt de schrijver in de tijd."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "De prentjes staan door elkaar. Welke volgorde klopt?",
+     "opties": [
+      "B, C, A",
+      "A, B, C",
+      "C, A, B",
+      "B, A, C"
+     ],
+     "antwoord": 0,
+     "uitleg": "Eerst het zaadje (B), dan het kiemplantje (C), op het einde de bloem (A).",
+     "afbeelding_pad": "/examenvormen/ready/taal-strip-plant.svg"
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welk prentje hoort bij het begin van het verhaal? Schrijf de letter.",
+     "antwoord": [
+      "C",
+      "c"
+     ],
+     "uitleg": "Het verhaal begint met een vol ijsje met drie bolletjes: prentje C.",
+     "afbeelding_pad": "/examenvormen/ready/taal-strip-ijs.svg"
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waar staan de woorden 'Er was eens' meestal in een verhaal?",
+     "opties": [
+      "in het begin",
+      "in het midden",
+      "op het einde",
+      "in de titel"
+     ],
+     "antwoord": 0,
+     "uitleg": "Veel sprookjes beginnen met 'Er was eens'.",
+     "afbeelding_pad": "/examenvormen/ready/taal-er-was-eens.svg"
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "In het slot van dit verhaal is het ijsje op.",
+     "antwoord": true,
+     "uitleg": "Het laatste prentje toont een leeg hoorntje.",
+     "afbeelding_pad": "/examenvormen/ready/taal-strip-ijs.svg"
     }
    ]
   },
@@ -380,6 +423,46 @@
      "vraag": "In een fabel praten dieren soms zoals mensen.",
      "antwoord": true,
      "uitleg": "In een fabel spelen dieren de hoofdrol en vaak leer je er iets uit."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Lees de uitnodiging. Op welke dag is het feest?",
+     "antwoord": [
+      "zaterdag"
+     ],
+     "uitleg": "In de uitnodiging staat: zaterdag om 14 uur.",
+     "afbeelding_pad": "/examenvormen/ready/taal-uitnodiging.svg"
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat staat er NIET in de uitnodiging?",
+     "opties": [
+      "wat je moet meebrengen",
+      "het uur waarop het begint",
+      "de dag van het feest",
+      "de straat en het huisnummer"
+     ],
+     "antwoord": 0,
+     "uitleg": "Dag, uur en adres staan erin. Wat je moet meebrengen, staat er niet in.",
+     "afbeelding_pad": "/examenvormen/ready/taal-uitnodiging.svg"
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Lees het recept. Wat doe je bij stap 3?",
+     "antwoord": [
+      "bakken",
+      "bak",
+      "de pannenkoeken bakken"
+     ],
+     "uitleg": "Stap 3 is bakken in de pan.",
+     "afbeelding_pad": "/examenvormen/ready/taal-recept.svg"
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "In het alfabet komt 'koe' voor 'bal'.",
+     "antwoord": false,
+     "uitleg": "De b komt voor de k. Dus eerst bal, dan koe.",
+     "afbeelding_pad": "/examenvormen/ready/taal-alfabet.svg"
     }
    ]
   }

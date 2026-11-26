@@ -52,3 +52,18 @@ DEEL_2 = [
     wn("Water kookt bij 50 °C.", False, "Water kookt bij 100 °C."),
     inv("Kerstmis valt op 25 december. Nieuwjaar valt ___ dagen later.", "7", "Van 25 tot 31 december is 6 dagen, en 1 januari is de 7de dag.", 7),
 ]
+
+# Prentvragen (vraag 21 tot 24), Kim 26/11.
+import prent as P
+PRENT_1 = [
+    inv("Kijk naar de klok. Hoe laat is het?", ["3 uur", "drie uur", "3.00", "3:00", "15 uur", "15.00", "15:00", "3u", "15u"], "De grote wijzer staat op 12, de kleine op 3: het is 3 uur.", prent=P.p_klok("tijd-klok-3-00", 3, 0)),
+    mk("Welk uur wijst deze klok aan?", ["half acht", "half zeven", "zeven uur", "kwart over zeven"], 0, "De grote wijzer staat op 6 (half). De kleine staat tussen 7 en 8: half acht.", prent=P.p_klok("tijd-klok-7-30", 7, 30)),
+    mk("Hoe laat is het op deze klok?", ["kwart over twee", "kwart voor twee", "kwart over drie", "half drie"], 0, "De grote wijzer staat op 3 (kwart over). De kleine staat net voorbij de 2.", prent=P.p_klok("tijd-klok-2-15", 2, 15)),
+    wn("De klok wijst kwart voor tien aan.", True, "De grote wijzer staat op 9 (kwart voor), de kleine staat bijna op 10.", prent=P.p_klok("tijd-klok-9-45", 9, 45)),
+]
+PRENT_2 = [
+    mk("Hoe zeg je dit uur?", ["half zeven 's avonds", "half zes 's avonds", "zes uur 's morgens", "half negen 's avonds"], 0, "18.30 is 's avonds. 18 uur is 6 uur, en 30 minuten erbij: half zeven.", prent=P.p_digitaal("tijd-digitaal-1830", "18:30")),
+    inv("Hoeveel graden wijst de thermometer aan?", ["20", "20 °C", "20 graden"], "Het rood komt tot aan 20 graden.", 20, prent=P.p_thermometer("tijd-thermo-20", 20)),
+    inv("De film begint en eindigt op deze uren. Hoe lang duurt de film? (in minuten)", ["150", "150 minuten"], "Van 2 uur tot half vijf is 2 uur en 30 minuten: 60 + 60 + 30 = 150 minuten.", 150, prent=P.p_twee_klokken("tijd-film", 2, 0, 4, 30)),
+    wn("Bij deze temperatuur kan water bevriezen.", True, "De thermometer staat op 0 graden. Bij 0 graden begint water te bevriezen.", prent=P.p_thermometer("tijd-thermo-0", 0)),
+]

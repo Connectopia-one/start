@@ -193,6 +193,47 @@
      "vraag": "Gras is geen plant.",
      "antwoord": false,
      "uitleg": "Gras is wel een plant: het heeft wortels, stengels en bladeren, en bloeit ook."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe heet het deel van de plant bij de pijl?",
+     "opties": [
+      "de wortel",
+      "de stengel",
+      "het blad",
+      "de bloem"
+     ],
+     "antwoord": 0,
+     "uitleg": "De wortel zit in de grond. Hij neemt water op en houdt de plant vast.",
+     "afbeelding_pad": "/examenvormen/ready/planten-pijl-wortel.svg"
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe heet het deel van de plant bij de pijl? Het ...",
+     "antwoord": [
+      "blad",
+      "het blad",
+      "bladeren"
+     ],
+     "uitleg": "Met haar bladeren maakt de plant voedsel uit zonlicht.",
+     "afbeelding_pad": "/examenvormen/ready/planten-pijl-blad.svg"
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De pijl wijst naar de wortel van de plant.",
+     "antwoord": false,
+     "uitleg": "De pijl wijst naar de stengel. Die brengt water van de wortel naar de bladeren.",
+     "afbeelding_pad": "/examenvormen/ready/planten-pijl-stengel.svg"
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welk deel van de plant zie je bij de pijl? De ...",
+     "antwoord": [
+      "bloem",
+      "de bloem"
+     ],
+     "uitleg": "In de bloem groeien later de zaadjes.",
+     "afbeelding_pad": "/examenvormen/ready/planten-pijl-bloem.svg"
     }
    ]
   },
@@ -392,6 +433,46 @@
      "vraag": "Je mag wilde dieren in het bos gerust meenemen naar huis.",
      "antwoord": false,
      "uitleg": "Wilde dieren laat je in de natuur. Vind je een gewond dier, vraag dan hulp aan een volwassene of het dierenasiel."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Tel de poten. Wat voor dier is dit?",
+     "opties": [
+      "een insect",
+      "een spin",
+      "een zoogdier",
+      "een vogel"
+     ],
+     "antwoord": 0,
+     "uitleg": "Het dier heeft 6 poten: het is een insect.",
+     "afbeelding_pad": "/examenvormen/ready/planten-insect.svg"
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoeveel poten heeft dit dier?",
+     "antwoord": "8",
+     "uitleg": "Een spin heeft 8 poten. Een insect heeft er 6.",
+     "afbeelding_pad": "/examenvormen/ready/planten-spin.svg"
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Dit dier is een zoogdier: de jongen drinken melk bij hun moeder.",
+     "antwoord": true,
+     "uitleg": "Een koe is een zoogdier. Het kalf drinkt melk bij de koe.",
+     "afbeelding_pad": "/examenvormen/ready/planten-koe.svg"
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe ademt dit dier onder water?",
+     "opties": [
+      "met kieuwen",
+      "met longen",
+      "met zijn vinnen",
+      "het ademt niet"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een vis haalt zuurstof uit het water met zijn kieuwen.",
+     "afbeelding_pad": "/examenvormen/ready/planten-vis.svg"
     }
    ]
   }

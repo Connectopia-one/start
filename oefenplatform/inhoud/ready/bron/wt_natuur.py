@@ -52,3 +52,20 @@ DEEL_2 = [
     mk("Welke bak is voor groenten- en fruitresten?", ["de gft-bak", "de glasbak", "de pmd-zak", "de papierbak"], 0, "Gft staat voor groente-, fruit- en tuinafval."),
     wn("Een drankkarton hoort bij het restafval.", False, "Drankkartons gaan in de blauwe pmd-zak."),
 ]
+
+
+# Prentvragen (vraag 21 tot 24), Kim 26/11.
+from vr import mk, inv, wn
+import prent as P
+PRENT_1 = [
+    mk("Welk seizoen zie je op de prent?", ["de herfst", "de lente", "de zomer", "de winter"], 0, "De blaadjes worden oranje en vallen af: het is herfst.", prent=P.p_seizoenboom("natuur-herfst", "herfst")),
+    inv("Welk seizoen zie je op de prent? De ...", ["winter", "de winter"], "Kale takken en sneeuw: het is winter.", prent=P.p_seizoenboom("natuur-winter", "winter")),
+    wn("Op de prent is het herfst.", False, "De boom krijgt bloesems: het is lente.", prent=P.p_seizoenboom("natuur-lente", "lente")),
+    mk("Welk weer toont het weerbericht?", ["regen", "zon", "sneeuw", "mist"], 0, "Uit de wolk vallen druppels: het regent.", prent=P.p_weer("natuur-regen", "regen")),
+]
+PRENT_2 = [
+    mk("In de blauwe PMD-zak gooi je ...", ["een leeg blikje", "een bananenschil", "een krant", "een kapotte tas"], 0, "PMD is plastic flessen, metalen blikjes en drankkartons.", prent=P.p_afvalbak("natuur-pmd", "pmd")),
+    inv("Wat gooi je bij het groente-, fruit- en tuinafval? Schrijf de letter.", ["C"], "C is een bananenschil: dat is fruitafval (gft).", prent=P.p_eten("natuur-afval-kiezen", ["blikje", "chips", "banaan", "lolly"])),
+    wn("In de groene gft-bak gooi je lege flessen.", False, "In de gft-bak gaat enkel groente-, fruit- en tuinafval.", prent=P.p_afvalbak("natuur-gft", "gft")),
+    inv("Van groente-, fruit- en tuinafval maakt men c... (goede aarde voor de tuin)", ["compost"], "Gft wordt compost: voeding voor planten.", prent=P.p_afvalbak("natuur-gft-2", "gft")),
+]

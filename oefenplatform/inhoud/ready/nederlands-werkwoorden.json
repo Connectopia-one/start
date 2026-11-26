@@ -178,6 +178,44 @@
      "vraag": "Jullie lacht is juist.",
      "antwoord": false,
      "uitleg": "Bij jullie schrijf je het hele werkwoord: jullie lachen."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Kijk naar de prent. De vogel ___ een liedje. (fluiten)",
+     "antwoord": [
+      "fluit"
+     ],
+     "uitleg": "De vogel = hij. Hij fluit: stam + t, maar de stam eindigt al op t.",
+     "afbeelding_pad": "/examenvormen/ready/werkwoorden-vogel.svg"
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Kijk naar de prent. De hond ___ in zijn mand. (slapen)",
+     "antwoord": [
+      "slaapt"
+     ],
+     "uitleg": "De hond = hij. Hij slaapt: stam slaap + t.",
+     "afbeelding_pad": "/examenvormen/ready/werkwoorden-hond.svg"
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Kijk naar de prent. Jij ___ de bal ver weg. (trappen)",
+     "opties": [
+      "trapt",
+      "trap",
+      "trappen",
+      "trapd"
+     ],
+     "antwoord": 0,
+     "uitleg": "Jij trapt: stam trap + t.",
+     "afbeelding_pad": "/examenvormen/ready/werkwoorden-bal.svg"
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Bij de prent past de zin: 'De vis zwemmen in het water.'",
+     "antwoord": false,
+     "uitleg": "Eén vis: de vis zwemt. 'Zwemmen' is voor meer vissen.",
+     "afbeelding_pad": "/examenvormen/ready/werkwoorden-vis.svg"
     }
    ]
   },
@@ -359,6 +397,44 @@
      "vraag": "'Hij kwam te laat' staat in de verleden tijd.",
      "antwoord": true,
      "uitleg": "Kwam is de verleden tijd van komen."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Kijk naar de prent. Gisteren ___ ik een groot ijsje. (eten)",
+     "antwoord": [
+      "at"
+     ],
+     "uitleg": "Eten is een sterk werkwoord: ik eet, gisteren at ik.",
+     "afbeelding_pad": "/examenvormen/ready/werkwoorden-ijs.svg"
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Kijk naar de prent. Vorige week ___ we met de trein naar zee. (reizen)",
+     "opties": [
+      "reisden",
+      "reisten",
+      "reizen",
+      "reisde"
+     ],
+     "antwoord": 0,
+     "uitleg": "Reizen: de stam is reis, maar je hoort een z in reizen. Dus reisden, met d.",
+     "afbeelding_pad": "/examenvormen/ready/werkwoorden-trein.svg"
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Kijk naar de prent. Mijn opa heeft dit huis zelf ___. (bouwen)",
+     "antwoord": [
+      "gebouwd"
+     ],
+     "uitleg": "Ge + bouw + d: gebouwd.",
+     "afbeelding_pad": "/examenvormen/ready/werkwoorden-huis.svg"
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Bij de prent: 'Gisteren vloog de vogel weg.' Het woord 'vloog' staat in de verleden tijd.",
+     "antwoord": true,
+     "uitleg": "Vliegen, vloog, gevlogen: vloog is verleden tijd.",
+     "afbeelding_pad": "/examenvormen/ready/werkwoorden-vogel-2.svg"
     }
    ]
   }

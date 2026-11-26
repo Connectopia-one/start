@@ -116,7 +116,7 @@
       "Zuid-Amerika",
       "Afrika",
       "Europa",
-      "Azië"
+      "Noord-Amerika"
      ],
      "antwoord": 0,
      "uitleg": "Brazilië is het grootste land van Zuid-Amerika."
@@ -171,7 +171,7 @@
      "vraag": "Wat is een continent?",
      "opties": [
       "een werelddeel",
-      "een rivier",
+      "een lange rivier",
       "een stad",
       "een berg"
      ],
@@ -189,6 +189,49 @@
      "vraag": "De evenaar loopt door België.",
      "antwoord": false,
      "uitleg": "De evenaar loopt veel zuidelijker, onder meer door Afrika en Zuid-Amerika."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk werelddeel is oranje gekleurd?",
+     "opties": [
+      "Afrika",
+      "Azië",
+      "Europa",
+      "Zuid-Amerika"
+     ],
+     "antwoord": 0,
+     "uitleg": "Afrika ligt ten zuiden van Europa.",
+     "afbeelding_pad": "/examenvormen/ready/wereld-afrika.svg"
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welk werelddeel is oranje gekleurd? O...",
+     "antwoord": [
+      "Oceanië",
+      "Oceanie"
+     ],
+     "uitleg": "Australië en de eilanden eromheen vormen samen Oceanië.",
+     "afbeelding_pad": "/examenvormen/ready/wereld-oceanie.svg"
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe heet de oceaan bij de pijl?",
+     "opties": [
+      "de Atlantische Oceaan",
+      "de Stille Oceaan",
+      "de Indische Oceaan",
+      "de Noordelijke IJszee"
+     ],
+     "antwoord": 0,
+     "uitleg": "Tussen Amerika en Europa en Afrika ligt de Atlantische Oceaan.",
+     "afbeelding_pad": "/examenvormen/ready/wereld-atlantisch.svg"
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Het oranje werelddeel is Noord-Amerika.",
+     "antwoord": false,
+     "uitleg": "Het oranje werelddeel is Zuid-Amerika.",
+     "afbeelding_pad": "/examenvormen/ready/wereld-zuid-amerika.svg"
     }
    ]
   },
@@ -382,6 +425,49 @@
      "vraag": "Een regenwoud is een goede plek voor veel verschillende dieren en planten.",
      "antwoord": true,
      "uitleg": "In regenwouden leven meer soorten dan waar ook op aarde."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waar zie je zo'n landschap?",
+     "opties": [
+      "aan de pool",
+      "in de woestijn",
+      "in het regenwoud",
+      "in de bergen"
+     ],
+     "antwoord": 0,
+     "uitleg": "IJs, sneeuw en een ijsbeer: het poolgebied.",
+     "afbeelding_pad": "/examenvormen/ready/wereld-pool.svg"
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Heet, droog en veel zand: hoe heet dit landschap? De w...",
+     "antwoord": [
+      "woestijn",
+      "de woestijn"
+     ],
+     "uitleg": "In de woestijn regent het bijna nooit.",
+     "afbeelding_pad": "/examenvormen/ready/wereld-woestijn.svg"
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "In dit landschap regent het bijna nooit.",
+     "antwoord": false,
+     "uitleg": "In het regenwoud is het warm en regent het heel veel.",
+     "afbeelding_pad": "/examenvormen/ready/wereld-regenwoud.svg"
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "In welk landschap meet je overdag zo'n temperatuur?",
+     "opties": [
+      "in de woestijn",
+      "aan de pool",
+      "op een gletsjer",
+      "in de sneeuw"
+     ],
+     "antwoord": 0,
+     "uitleg": "40 graden is heel heet. Dat is het in de woestijn overdag.",
+     "afbeelding_pad": "/examenvormen/ready/wereld-thermo-40.svg"
     }
    ]
   }

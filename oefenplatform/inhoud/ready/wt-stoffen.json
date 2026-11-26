@@ -193,6 +193,46 @@
      ],
      "antwoord": 0,
      "uitleg": "Wind en warmte laten het water verdampen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Is het water op de prent vast, vloeibaar of een gas?",
+     "opties": [
+      "vast",
+      "vloeibaar",
+      "een gas"
+     ],
+     "antwoord": 0,
+     "uitleg": "IJs is water dat vast is geworden.",
+     "afbeelding_pad": "/examenvormen/ready/stoffen-ijsblokjes.svg"
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Is het water in het glas vast, vloeibaar of een gas?",
+     "antwoord": [
+      "vloeibaar"
+     ],
+     "uitleg": "Water in een glas kan stromen en neemt de vorm van het glas aan: het is vloeibaar.",
+     "afbeelding_pad": "/examenvormen/ready/stoffen-glas.svg"
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Wat uit de kokende pot opstijgt, is vast.",
+     "antwoord": false,
+     "uitleg": "Kokend water wordt waterdamp: water als gas.",
+     "afbeelding_pad": "/examenvormen/ready/stoffen-pot.svg"
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Bij hoeveel graden begint water te bevriezen?",
+     "antwoord": [
+      "0",
+      "0 °C",
+      "nul",
+      "0 graden"
+     ],
+     "uitleg": "Bij 0 graden wordt water ijs.",
+     "afbeelding_pad": "/examenvormen/ready/stoffen-thermo-0.svg"
     }
    ]
   },
@@ -382,6 +422,45 @@
      "vraag": "Een schip van ijzer kan drijven.",
      "antwoord": true,
      "uitleg": "Door zijn holle vorm met veel lucht erin drijft een ijzeren schip."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welk voorwerp is gezonken? Schrijf de letter.",
+     "antwoord": [
+      "B"
+     ],
+     "uitleg": "B is een steen. Die ligt op de bodem: hij is gezonken.",
+     "afbeelding_pad": "/examenvormen/ready/stoffen-waterbak.svg"
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat trekt deze magneet aan?",
+     "opties": [
+      "een paperclip",
+      "een gom",
+      "een houten blok",
+      "een plastic beker"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een magneet trekt ijzer aan. Een paperclip is van ijzer.",
+     "afbeelding_pad": "/examenvormen/ready/stoffen-magneet.svg"
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Op de prent drijft de sleutel.",
+     "antwoord": false,
+     "uitleg": "De sleutel is van metaal en ligt op de bodem: hij zinkt.",
+     "afbeelding_pad": "/examenvormen/ready/stoffen-waterbak-2.svg"
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Deze bank is van hout gemaakt. Hout komt van een ...",
+     "antwoord": [
+      "boom",
+      "bomen"
+     ],
+     "uitleg": "Hout is een natuurlijk materiaal: het komt van bomen.",
+     "afbeelding_pad": "/examenvormen/ready/stoffen-bank.svg"
     }
    ]
   }

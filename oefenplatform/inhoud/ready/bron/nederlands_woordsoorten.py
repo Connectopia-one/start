@@ -53,3 +53,18 @@ DEEL_2 = [
     wn("Het onderwerp staat altijd vooraan in de zin.", False, "Niet altijd. In 'In de zomer zwemt Noor in het meer' staat het onderwerp Noor in het midden."),
     wn("'Wat lief van je!' is een uitroep.", True, "Je roept iets uit met gevoel. Daarom het uitroepteken."),
 ]
+
+# Prentvragen (vraag 21 tot 24), Kim 26/11.
+import prent as P
+PRENT_1 = [
+    mk("Bij de prent: 'De koe graast in de wei.' Welk woord is een zelfstandig naamwoord?", ["koe", "graast", "de", "in"], 0, "Koe is een ding (een dier) dat je kan zien: een zelfstandig naamwoord.", prent=P.p_voorwerp("woordsoorten-koe", "koe")),
+    inv("Bij de prent: 'De warme zon schijnt.' Welk woord zegt hoe de zon is?", ["warme"], "Warme zegt hoe de zon is: een bijvoeglijk naamwoord.", prent=P.p_voorwerp("woordsoorten-zon", "zon")),
+    mk("Bij de prent: 'De gele vogel zingt.' Welk woord is het werkwoord?", ["zingt", "gele", "vogel", "de"], 0, "Zingt zegt wat de vogel doet.", prent=P.p_voorwerp("woordsoorten-vogel", "vogel")),
+    wn("Bij de prent: in 'de hoge boom' is 'hoge' een bijvoeglijk naamwoord.", True, "Hoge zegt hoe de boom is.", prent=P.p_voorwerp("woordsoorten-boom", "boom")),
+]
+PRENT_2 = [
+    inv("Bij de prent: 'De hond blaft luid.' Wie doet het?", ["de hond", "hond"], "Wie blaft? De hond. Dat is het onderwerp.", prent=P.p_voorwerp("woordsoorten-hond", "hond")),
+    mk("Welk leesteken hoort op het einde van deze zin?", ["!", "?", ",", ":"], 0, "Je roept iets uit: een uitroepteken.", prent=P.p_tekst("woordsoorten-uitroep", ["Wat een mooie ster"], 34)),
+    mk("Welk leesteken zet je achter deze vraag?", ["een vraagteken", "een punt", "een uitroepteken", "een komma"], 0, "Het is een vraag: een vraagteken.", prent=P.p_tekst("woordsoorten-vraag", ["Hoe laat is het"], 34)),
+    wn("Bij de prent: in 'De koe loopt in de wei.' is 'de wei' het onderwerp.", False, "Wie loopt? De koe. 'De koe' is het onderwerp.", prent=P.p_voorwerp("woordsoorten-koe-2", "koe")),
+]

@@ -53,3 +53,18 @@ DEEL_2 = [
     wn("2 × 3 + 4 en 2 × (3 + 4) geven dezelfde uitkomst.", False, "2 × 3 + 4 = 6 + 4 = 10. 2 × (3 + 4) = 2 × 7 = 14. Haakjes veranderen de volgorde."),
     wn("Bij 5 × 2 + 1 begin je met de vermenigvuldiging.", True, "Eerst × en :, dan + en −. 5 × 2 = 10, daarna + 1 = 11."),
 ]
+
+# Prentvragen (vraag 21 tot 24), Kim 26/11.
+import prent as P
+PRENT_1 = [
+    inv("Tel op onder elkaar. Wat is de uitkomst?", "632", "7 + 5 = 12, schrijf 2 en onthoud 1. 4 + 8 + 1 = 13, schrijf 3 en onthoud 1. 3 + 2 + 1 = 6. Samen 632.", 632, prent=P.p_cijfer("rekenen-347-285", 347, 285, "+")),
+    inv("Trek af onder elkaar. Wat is de uitkomst?", "547", "3 − 6 lukt niet: leen 1 tiental. Zo kom je op 547.", 547, prent=P.p_cijfer("rekenen-803-256", 803, 256, "−")),
+    inv("Hoeveel geld zie je samen? (in euro)", ["3,70", "3,70 euro", "€ 3,70", "3.70", "3,7"], "2 euro + 1 euro + 50 cent + 20 cent = 3 euro 70.", prent=P.p_munten("rekenen-munten-370", [200, 100, 50, 20])),
+    wn("Tim rekende onder elkaar: 456 + 237 = 683. Klopt zijn uitkomst?", False, "6 + 7 = 13: schrijf 3 en onthoud 1. Dan 5 + 3 + 1 = 9. Het juiste antwoord is 693.", prent=P.p_cijfer("rekenen-fout-683", 456, 237, "+", 683)),
+]
+PRENT_2 = [
+    inv("Vermenigvuldig onder elkaar. Wat is de uitkomst?", "72", "3 × 4 = 12: schrijf 2, onthoud 1. 3 × 2 = 6, + 1 = 7. Samen 72.", 72, prent=P.p_cijfer("rekenen-24x3", 24, 3, "×")),
+    mk("Wat is de uitkomst van deze bewerking?", ["11", "14", "10", "9"], 0, "Eerst maal: 4 × 2 = 8. Dan 3 + 8 = 11.", prent=P.p_tekst("rekenen-3plus4x2", ["3 + 4 × 2"])),
+    inv("Reken uit. Let op de haakjes.", "14", "Eerst wat tussen haakjes staat: 3 + 4 = 7. Dan 7 × 2 = 14.", 14, prent=P.p_tekst("rekenen-haakjes", ["(3 + 4) × 2"])),
+    wn("Deze berekening klopt.", True, "Eerst delen: 6 : 2 = 3. Dan 20 − 3 = 17.", prent=P.p_tekst("rekenen-20min6deel2", ["20 − 6 : 2 = 17"])),
+]

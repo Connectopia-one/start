@@ -52,3 +52,20 @@ DEEL_2 = [
     mk("Een appelsien zinkt niet, maar een gepelde appelsien wel. Wat zorgt ervoor dat ze eerst drijft?", ["de schil met luchtbelletjes", "de pitten in het midden", "het sap", "de kleur"], 0, "In de schil zitten veel luchtbelletjes, die haar laten drijven."),
     wn("Een schip van ijzer kan drijven.", True, "Door zijn holle vorm met veel lucht erin drijft een ijzeren schip."),
 ]
+
+
+# Prentvragen (vraag 21 tot 24), Kim 26/11.
+from vr import mk, inv, wn
+import prent as P
+PRENT_1 = [
+    mk("Is het water op de prent vast, vloeibaar of een gas?", ["vast", "vloeibaar", "een gas"], 0, "IJs is water dat vast is geworden.", prent=P.p_ding("stoffen-ijsblokjes", "ijsblokjes")),
+    inv("Is het water in het glas vast, vloeibaar of een gas?", ["vloeibaar"], "Water in een glas kan stromen en neemt de vorm van het glas aan: het is vloeibaar.", prent=P.p_ding("stoffen-glas", "glas")),
+    wn("Wat uit de kokende pot opstijgt, is vast.", False, "Kokend water wordt waterdamp: water als gas.", prent=P.p_ding("stoffen-pot", "pot")),
+    inv("Bij hoeveel graden begint water te bevriezen?", ["0", "0 °C", "nul", "0 graden"], "Bij 0 graden wordt water ijs.", 0, prent=P.p_thermometer("stoffen-thermo-0", 0)),
+]
+PRENT_2 = [
+    inv("Welk voorwerp is gezonken? Schrijf de letter.", ["B"], "B is een steen. Die ligt op de bodem: hij is gezonken.", prent=P.p_waterbak("stoffen-waterbak", [("A", "kurk", True), ("B", "steen", False), ("C", "eend", True)])),
+    mk("Wat trekt deze magneet aan?", ["een paperclip", "een gom", "een houten blok", "een plastic beker"], 0, "Een magneet trekt ijzer aan. Een paperclip is van ijzer.", prent=P.p_ding("stoffen-magneet", "magneet")),
+    wn("Op de prent drijft de sleutel.", False, "De sleutel is van metaal en ligt op de bodem: hij zinkt.", prent=P.p_waterbak("stoffen-waterbak-2", [("A", "eend", True), ("B", "sleutel", False), ("C", "kurk", True)])),
+    inv("Deze bank is van hout gemaakt. Hout komt van een ...", ["boom", "bomen"], "Hout is een natuurlijk materiaal: het komt van bomen.", prent=P.p_voorwerp("stoffen-bank", "bank")),
+]

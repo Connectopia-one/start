@@ -187,6 +187,49 @@
      "vraag": "Hoe korter de hefboom, hoe minder kracht je nodig hebt.",
      "antwoord": false,
      "uitleg": "Net omgekeerd: een langere hefboom vraagt minder kracht."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk werktuig zie je op de prent?",
+     "opties": [
+      "een hefboom",
+      "een katrol",
+      "een wiel",
+      "een tandwiel"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een wip is een hefboom: een lange plank die op één punt draait.",
+     "afbeelding_pad": "/examenvormen/ready/techniek-wip.svg"
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Met dit wiel en touw trek je iets zwaars omhoog. Hoe heet het? Een k...",
+     "antwoord": [
+      "katrol",
+      "een katrol"
+     ],
+     "uitleg": "Een katrol maakt omhoog trekken makkelijker.",
+     "afbeelding_pad": "/examenvormen/ready/techniek-katrol.svg"
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Wielen maken het makkelijker om iets te verplaatsen.",
+     "antwoord": true,
+     "uitleg": "Een trein, een fiets en een kar rollen op wielen. Dat gaat veel lichter dan schuiven.",
+     "afbeelding_pad": "/examenvormen/ready/techniek-trein.svg"
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom gaat het makkelijk om met een kruiwagen een zware lading te verplaatsen?",
+     "opties": [
+      "door het wiel",
+      "door de groene kleur",
+      "omdat hij nieuw is",
+      "door de bak"
+     ],
+     "antwoord": 0,
+     "uitleg": "Het wiel draagt een deel van het gewicht en rolt.",
+     "afbeelding_pad": "/examenvormen/ready/techniek-kruiwagen.svg"
     }
    ]
   },
@@ -372,6 +415,43 @@
      "vraag": "Een lampje brandt ook als je maar één draadje gebruikt.",
      "antwoord": false,
      "uitleg": "Je hebt een kring nodig: van de ene pool van de batterij naar het lampje en terug naar de andere pool."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Het lampje brandt, want de stroomkring is gesloten.",
+     "antwoord": true,
+     "uitleg": "De draden maken een rondje van de batterij naar het lampje en terug.",
+     "afbeelding_pad": "/examenvormen/ready/techniek-kring-dicht.svg"
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom brandt het lampje niet?",
+     "opties": [
+      "De kring is open.",
+      "De batterij is te groot.",
+      "Het lampje is te klein.",
+      "Er is te veel draad."
+     ],
+     "antwoord": 0,
+     "uitleg": "Er zit een opening in de draad. De stroom kan niet rond.",
+     "afbeelding_pad": "/examenvormen/ready/techniek-kring-open.svg"
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Wat geeft de stroom in deze kring? De b...",
+     "antwoord": [
+      "batterij",
+      "de batterij"
+     ],
+     "uitleg": "De batterij duwt de stroom door de draden.",
+     "afbeelding_pad": "/examenvormen/ready/techniek-kring-batterij.svg"
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Je steekt nooit iets anders dan een stekker in een stopcontact.",
+     "antwoord": true,
+     "uitleg": "Uit een stopcontact komt sterke stroom. Dat is gevaarlijk.",
+     "afbeelding_pad": "/examenvormen/ready/techniek-stopcontact.svg"
     }
    ]
   }

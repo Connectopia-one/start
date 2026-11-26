@@ -190,6 +190,40 @@
      ],
      "antwoord": 0,
      "uitleg": "8 450 = 8 D, 4 H, 5 T: achtduizend vierhonderdvijftig."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welk getal tonen de blokken? (grote kubus = 1000, plaat = 100, staaf = 10, blokje = 1)",
+     "antwoord": "1324",
+     "uitleg": "1 duizendtal, 3 honderdtallen, 2 tientallen en 4 eenheden: 1324.",
+     "afbeelding_pad": "/examenvormen/ready/getallen-blokken-1324.svg"
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk getal zie je hier in blokken? (grote kubus = 1000, plaat = 100, staaf = 10, blokje = 1)",
+     "opties": [
+      "2051",
+      "2501",
+      "2015",
+      "251"
+     ],
+     "antwoord": 0,
+     "uitleg": "2 duizendtallen, 0 honderdtallen, 5 tientallen en 1 eenheid: 2051.",
+     "afbeelding_pad": "/examenvormen/ready/getallen-blokken-2051.svg"
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welk getal hoort bij de pijl?",
+     "antwoord": "700",
+     "uitleg": "Elke streep is 100 verder. De pijl staat bij 700.",
+     "afbeelding_pad": "/examenvormen/ready/getallen-lijn-700.svg"
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De blokken tonen het getal 340. (plaat = 100, staaf = 10)",
+     "antwoord": false,
+     "uitleg": "4 platen en 3 staven: dat is 430, niet 340.",
+     "afbeelding_pad": "/examenvormen/ready/getallen-blokken-430.svg"
     }
    ]
   },
@@ -380,6 +414,47 @@
      ],
      "antwoord": 2,
      "uitleg": "2 700 rond je naar boven af naar 3 000. 2 400 wordt 2 000, 3 600 en 3 500 worden 4 000."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoeveel graden wijst de thermometer aan?",
+     "antwoord": [
+      "-5",
+      "−5",
+      "min 5",
+      "-5 °C",
+      "−5 °C",
+      "min 5 graden"
+     ],
+     "uitleg": "Het rood staat onder 0, bij min 5 graden.",
+     "afbeelding_pad": "/examenvormen/ready/getallen-thermo-min5.svg"
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Bij de pijl hoort een getal. Rond het af op het duizendtal.",
+     "antwoord": "2000",
+     "uitleg": "De pijl staat bij 2400. Dat ligt dichter bij 2000 dan bij 3000.",
+     "afbeelding_pad": "/examenvormen/ready/getallen-lijn-2400.svg"
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk getal hoort bij de pijl?",
+     "opties": [
+      "−6",
+      "6",
+      "−4",
+      "−8"
+     ],
+     "antwoord": 0,
+     "uitleg": "De pijl staat links van 0, twee strepen van −10 af: −6.",
+     "afbeelding_pad": "/examenvormen/ready/getallen-lijn-min6.svg"
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De thermometer wijst 25 graden aan.",
+     "antwoord": false,
+     "uitleg": "Het rood staat bij 15 graden.",
+     "afbeelding_pad": "/examenvormen/ready/getallen-thermo-15.svg"
     }
    ]
   }

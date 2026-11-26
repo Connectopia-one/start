@@ -53,3 +53,18 @@ DEEL_2 = [
     wn("Een bol heeft één plat vlak.", False, "Een bol is overal rond en heeft geen enkel plat vlak."),
     wn("Een piramide met een vierkant grondvlak heeft 4 driehoekige zijvlakken.", True, "Vier driehoeken komen samen in de top, en onderaan ligt het vierkant."),
 ]
+
+# Prentvragen (vraag 21 tot 24), Kim 26/11.
+import prent as P
+PRENT_1 = [
+    mk("Wat voor hoek zie je?", ["een rechte hoek", "een scherpe hoek", "een stompe hoek", "een gestrekte hoek"], 0, "Het vierkantje in de hoek toont een rechte hoek, zoals de hoek van een blad papier.", prent=P.p_hoek("meetkunde-hoek-recht", "recht")),
+    inv("Hoeveel hoeken heeft deze figuur?", "6", "Tel de punten: het is een zeshoek met 6 hoeken.", 6, prent=P.p_figuur("meetkunde-zeshoek", "zeshoek")),
+    mk("Hoe heet deze figuur?", ["ruit", "vierkant", "driehoek", "cirkel"], 0, "Een ruit heeft 4 even lange zijden, maar geen rechte hoeken.", prent=P.p_figuur("meetkunde-ruit", "ruit")),
+    wn("Dit is een scherpe hoek.", False, "De hoek is groter dan een rechte hoek: het is een stompe hoek.", prent=P.p_hoek("meetkunde-hoek-stomp", "stomp")),
+]
+PRENT_2 = [
+    mk("Hoe heet deze ruimtefiguur?", ["cilinder", "piramide", "balk", "kegel"], 0, "Een cilinder heeft twee ronde vlakken en is rond aan de zijkant, zoals een blikje.", prent=P.p_ruimte("meetkunde-cilinder", "cilinder")),
+    inv("Hoeveel vlakken heeft deze ruimtefiguur?", "6", "Een kubus heeft 6 vlakken: boven, onder, voor, achter, links en rechts.", 6, prent=P.p_ruimte("meetkunde-kubus", "kubus")),
+    wn("De stippellijn is een symmetrieas: de ene helft is het spiegelbeeld van de andere.", True, "Plooi je de letter A op de stippellijn, dan vallen beide helften op elkaar.", prent=P.p_symmetrie("meetkunde-symmetrie-a", "A")),
+    mk("Welk voorwerp heeft dezelfde vorm als deze ruimtefiguur?", ["een voetbal", "een doos", "een blikje", "een ijshoorntje"], 0, "Dit is een bol. Een voetbal is ook een bol.", prent=P.p_ruimte("meetkunde-bol", "bol")),
+]

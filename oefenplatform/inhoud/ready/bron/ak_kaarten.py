@@ -52,3 +52,21 @@ DEEL_2 = [
     mk("Wat betekent een pijltje met een N op een kaart?", ["Daar is het noorden.", "Daar is een nooduitgang.", "Daar is niets.", "Daar is een nieuwe straat."], 0, "De N wijst naar het noorden."),
     wn("In het zuiden van België liggen de Ardennen.", True, "De Ardennen liggen in het zuiden en zuidoosten van België."),
 ]
+
+
+# Prentvragen (vraag 21 tot 24), Kim 26/11.
+from vr import mk, inv, wn
+import prent as P
+_ROOSTER = P.p_rooster("kaarten-rooster", ["A", "B", "C", "D"], 3, [("C", 2, "★"), ("A", 3, "●"), ("D", 1, "▲")])
+PRENT_1 = [
+    inv("In welk vakje staat de ster? (bijvoorbeeld B1)", ["C2", "c2", "C 2"], "Kijk eerst naar de letter bovenaan (C), dan naar het cijfer links (2).", prent=_ROOSTER),
+    mk("Wat staat er in vakje A3?", ["het bolletje", "de ster", "het driehoekje", "niets"], 0, "Kolom A, rij 3: daar staat het bolletje.", prent=_ROOSTER),
+    wn("Het driehoekje staat in vakje B1.", False, "Het driehoekje staat in kolom D, rij 1: vakje D1.", prent=_ROOSTER),
+    inv("Je kijkt recht van boven op een bal. Welke vorm zie je? Schrijf de letter.", ["B"], "Van bovenaf zie je een bal als een cirkel.", prent=P.p_figuren_letters("kaarten-bovenaanzicht", ["vierkant", "cirkel", "driehoek", "rechthoek"])),
+]
+PRENT_2 = [
+    mk("Welke windrichting hoort bij het vraagteken?", ["oost", "west", "zuid", "noord"], 0, "Met het noorden boven ligt het oosten rechts.", prent=P.p_kompas("kaarten-kompas-o", "O")),
+    inv("Het noorden staat bovenaan. Welke windrichting staat bij het vraagteken?", ["zuid", "het zuiden", "Z", "zuiden"], "Tegenover het noorden ligt het zuiden.", prent=P.p_kompas("kaarten-kompas-z", "Z")),
+    wn("Op de plaats van het vraagteken staat oost.", False, "Met het noorden boven ligt het westen links.", prent=P.p_kompas("kaarten-kompas-w", "W")),
+    inv("In welke windrichting komt de zon 's morgens op?", ["oost", "het oosten", "oosten", "O"], "De zon komt op in het oosten en gaat onder in het westen.", prent=P.p_voorwerp("kaarten-zon", "zon")),
+]

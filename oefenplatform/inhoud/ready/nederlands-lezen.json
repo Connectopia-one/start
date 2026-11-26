@@ -194,6 +194,49 @@
      "vraag": "'Zonnebril' is een samenstelling van 'zon' en 'bril'.",
      "antwoord": true,
      "uitleg": "Zon + bril = zonnebril. Er komt een tussenletter n bij."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Lees het bord. Tot hoe laat is het zwembad open?",
+     "antwoord": [
+      "17",
+      "17 uur",
+      "17.00",
+      "vijf uur"
+     ],
+     "uitleg": "Op het bord staat: open van 9 tot 17 uur.",
+     "afbeelding_pad": "/examenvormen/ready/lezen-zwembad.svg"
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Lees het bord. Wat mag je hier niet doen?",
+     "opties": [
+      "fietsen",
+      "wandelen",
+      "praten",
+      "kijken"
+     ],
+     "antwoord": 0,
+     "uitleg": "Op het bord staat dat fietsen verboden is.",
+     "afbeelding_pad": "/examenvormen/ready/lezen-verboden.svg"
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Lees het briefje. Hoeveel euro kost de fiets?",
+     "antwoord": [
+      "40",
+      "40 euro",
+      "€ 40"
+     ],
+     "uitleg": "Op het briefje staat: 40 euro.",
+     "afbeelding_pad": "/examenvormen/ready/lezen-te-koop.svg"
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Lees het bord. Op zondag kan je gaan zwemmen.",
+     "antwoord": false,
+     "uitleg": "Op het bord staat: op zondag gesloten.",
+     "afbeelding_pad": "/examenvormen/ready/lezen-zwembad.svg"
     }
    ]
   },
@@ -381,6 +424,48 @@
      "vraag": "Bij een moeilijk woord stop je best meteen met lezen.",
      "antwoord": false,
      "uitleg": "Lees verder: de zinnen errond helpen je vaak om het woord te begrijpen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk woord betekent hetzelfde als wat je op de prent ziet?",
+     "opties": [
+      "woning",
+      "tuin",
+      "straat",
+      "dak"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een huis is een woning.",
+     "afbeelding_pad": "/examenvormen/ready/lezen-huis.svg"
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Het is heel heet. Wat is het tegenovergestelde van heet? (k...)",
+     "antwoord": [
+      "koud"
+     ],
+     "uitleg": "Heet en koud zijn tegengestelden.",
+     "afbeelding_pad": "/examenvormen/ready/lezen-heet.svg"
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Het woord 'bank' heeft meer dan één betekenis. Welke past bij de prent?",
+     "opties": [
+      "een zitbank",
+      "een plaats waar je geld bewaart",
+      "een zandbank in zee",
+      "een schoolbank in de klas"
+     ],
+     "antwoord": 0,
+     "uitleg": "Op de prent zie je een bank om op te zitten in het park.",
+     "afbeelding_pad": "/examenvormen/ready/lezen-bank.svg"
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Bij de prent: het tegenovergestelde van warm is heet.",
+     "antwoord": false,
+     "uitleg": "Heet is nog warmer. Het tegenovergestelde van warm is koud.",
+     "afbeelding_pad": "/examenvormen/ready/lezen-zon.svg"
     }
    ]
   }

@@ -53,3 +53,21 @@ DEEL_2 = [
     wn("Een strip, een sprookje en een fabel zijn allemaal verhalen.", True, "Ze vertellen allemaal een verhaal, elk op hun eigen manier."),
     wn("In een fabel praten dieren soms zoals mensen.", True, "In een fabel spelen dieren de hoofdrol en vaak leer je er iets uit."),
 ]
+
+# Prentvragen (vraag 21 tot 24), Kim 26/11.
+import prent as P
+_PLANT = P.p_strip("taal-strip-plant", ["bloem", "zaad", "kiem"])
+_IJS = P.p_strip("taal-strip-ijs", ["ijs1", "ijs0", "ijs3"])
+PRENT_1 = [
+    mk("De prentjes staan door elkaar. Welke volgorde klopt?", ["B, C, A", "A, B, C", "C, A, B", "B, A, C"], 0, "Eerst het zaadje (B), dan het kiemplantje (C), op het einde de bloem (A).", prent=_PLANT),
+    inv("Welk prentje hoort bij het begin van het verhaal? Schrijf de letter.", ["C", "c"], "Het verhaal begint met een vol ijsje met drie bolletjes: prentje C.", prent=_IJS),
+    mk("Waar staan de woorden 'Er was eens' meestal in een verhaal?", ["in het begin", "in het midden", "op het einde", "in de titel"], 0, "Veel sprookjes beginnen met 'Er was eens'.", prent=P.p_tekst("taal-er-was-eens", ["Er was eens ..."], 34)),
+    wn("In het slot van dit verhaal is het ijsje op.", True, "Het laatste prentje toont een leeg hoorntje.", prent=_IJS),
+]
+_FEEST = P.p_bord("taal-uitnodiging", ["UITNODIGING", "Kom naar mijn verjaardagsfeest!", "zaterdag om 14 uur", "Kerkstraat 3"], 380)
+PRENT_2 = [
+    inv("Lees de uitnodiging. Op welke dag is het feest?", ["zaterdag"], "In de uitnodiging staat: zaterdag om 14 uur.", prent=_FEEST),
+    mk("Wat staat er NIET in de uitnodiging?", ["wat je moet meebrengen", "het uur waarop het begint", "de dag van het feest", "de straat en het huisnummer"], 0, "Dag, uur en adres staan erin. Wat je moet meebrengen, staat er niet in.", prent=_FEEST),
+    inv("Lees het recept. Wat doe je bij stap 3?", ["bakken", "bak", "de pannenkoeken bakken"], "Stap 3 is bakken in de pan.", prent=P.p_bord("taal-recept", ["PANNENKOEKEN", "1. bloem en eieren mengen", "2. melk erbij gieten", "3. bakken in de pan"], 380)),
+    wn("In het alfabet komt 'koe' voor 'bal'.", False, "De b komt voor de k. Dus eerst bal, dan koe.", prent=P.p_tekst("taal-alfabet", ["koe   bal   zon"], 34)),
+]

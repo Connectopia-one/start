@@ -182,6 +182,49 @@
      "vraag": "De zon is een planeet.",
      "antwoord": false,
      "uitleg": "De zon is een ster. De aarde is een planeet."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk seizoen zie je op de prent?",
+     "opties": [
+      "de herfst",
+      "de lente",
+      "de zomer",
+      "de winter"
+     ],
+     "antwoord": 0,
+     "uitleg": "De blaadjes worden oranje en vallen af: het is herfst.",
+     "afbeelding_pad": "/examenvormen/ready/natuur-herfst.svg"
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welk seizoen zie je op de prent? De ...",
+     "antwoord": [
+      "winter",
+      "de winter"
+     ],
+     "uitleg": "Kale takken en sneeuw: het is winter.",
+     "afbeelding_pad": "/examenvormen/ready/natuur-winter.svg"
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Op de prent is het herfst.",
+     "antwoord": false,
+     "uitleg": "De boom krijgt bloesems: het is lente.",
+     "afbeelding_pad": "/examenvormen/ready/natuur-lente.svg"
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk weer toont het weerbericht?",
+     "opties": [
+      "regen",
+      "zon",
+      "sneeuw",
+      "mist"
+     ],
+     "antwoord": 0,
+     "uitleg": "Uit de wolk vallen druppels: het regent.",
+     "afbeelding_pad": "/examenvormen/ready/natuur-regen.svg"
     }
    ]
   },
@@ -374,6 +417,44 @@
      "vraag": "Een drankkarton hoort bij het restafval.",
      "antwoord": false,
      "uitleg": "Drankkartons gaan in de blauwe pmd-zak."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "In de blauwe PMD-zak gooi je ...",
+     "opties": [
+      "een leeg blikje",
+      "een bananenschil",
+      "een krant",
+      "een kapotte tas"
+     ],
+     "antwoord": 0,
+     "uitleg": "PMD is plastic flessen, metalen blikjes en drankkartons.",
+     "afbeelding_pad": "/examenvormen/ready/natuur-pmd.svg"
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Wat gooi je bij het groente-, fruit- en tuinafval? Schrijf de letter.",
+     "antwoord": [
+      "C"
+     ],
+     "uitleg": "C is een bananenschil: dat is fruitafval (gft).",
+     "afbeelding_pad": "/examenvormen/ready/natuur-afval-kiezen.svg"
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "In de groene gft-bak gooi je lege flessen.",
+     "antwoord": false,
+     "uitleg": "In de gft-bak gaat enkel groente-, fruit- en tuinafval.",
+     "afbeelding_pad": "/examenvormen/ready/natuur-gft.svg"
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Van groente-, fruit- en tuinafval maakt men c... (goede aarde voor de tuin)",
+     "antwoord": [
+      "compost"
+     ],
+     "uitleg": "Gft wordt compost: voeding voor planten.",
+     "afbeelding_pad": "/examenvormen/ready/natuur-gft-2.svg"
     }
    ]
   }

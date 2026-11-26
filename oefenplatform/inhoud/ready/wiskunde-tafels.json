@@ -172,6 +172,40 @@
      "vraag": "4 × 6 = 24. Hoeveel is dan 8 × 6?",
      "antwoord": "48",
      "uitleg": "8 is het dubbele van 4. Dan is de uitkomst ook het dubbele: 24 + 24 = 48."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke maaltafel past bij de stippen op de prent?",
+     "opties": [
+      "3 × 6",
+      "3 + 6",
+      "6 − 3",
+      "3 × 3"
+     ],
+     "antwoord": 0,
+     "uitleg": "3 rijen van 6 stippen: 3 × 6 = 18.",
+     "afbeelding_pad": "/examenvormen/ready/tafels-stippen-3x6.svg"
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoeveel stippen zie je? 4 × 5 = ___",
+     "antwoord": "20",
+     "uitleg": "4 rijen van 5 stippen: 4 × 5 = 20.",
+     "afbeelding_pad": "/examenvormen/ready/tafels-stippen-4x5.svg"
+    },
+    {
+     "type": "invultekst",
+     "vraag": "De kikker maakt sprongen van 3. Op welk getal komt hij na 4 sprongen?",
+     "antwoord": "12",
+     "uitleg": "4 sprongen van 3: 4 × 3 = 12.",
+     "afbeelding_pad": "/examenvormen/ready/tafels-sprongen-3.svg"
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Op de prent zie je 5 rijen van 2 stippen. Dat zijn samen 10 stippen.",
+     "antwoord": true,
+     "uitleg": "5 × 2 = 10.",
+     "afbeelding_pad": "/examenvormen/ready/tafels-stippen-5x2.svg"
     }
    ]
   },
@@ -374,6 +408,40 @@
      ],
      "antwoord": 0,
      "uitleg": "40 : 6 = 6 rest 4, want 6 × 6 = 36 en 40 − 36 = 4."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke deling past bij de prent?",
+     "opties": [
+      "15 : 3 = 5",
+      "15 + 3 = 18",
+      "12 : 3 = 4",
+      "5 : 3 = 15"
+     ],
+     "antwoord": 0,
+     "uitleg": "15 snoepjes eerlijk verdeeld over 3 borden: 5 per bord.",
+     "afbeelding_pad": "/examenvormen/ready/tafels-borden-3x5.svg"
+    },
+    {
+     "type": "invultekst",
+     "vraag": "14 snoepjes worden eerlijk verdeeld over 4 borden. Hoeveel snoepjes blijven over?",
+     "antwoord": "2",
+     "uitleg": "4 × 3 = 12. Van 14 blijven er 2 over: 14 : 4 = 3 rest 2.",
+     "afbeelding_pad": "/examenvormen/ready/tafels-borden-rest.svg"
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Je verdeelt de 24 stippen eerlijk over 4 rijen. Hoeveel stippen staan er in elke rij?",
+     "antwoord": "6",
+     "uitleg": "24 : 4 = 6.",
+     "afbeelding_pad": "/examenvormen/ready/tafels-stippen-4x6.svg"
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Op de prent zijn 9 snoepjes verdeeld over 2 borden. Er blijft 1 snoepje over.",
+     "antwoord": true,
+     "uitleg": "2 × 4 = 8, en 9 − 8 = 1. Dus 9 : 2 = 4 rest 1.",
+     "afbeelding_pad": "/examenvormen/ready/tafels-borden-rest-1.svg"
     }
    ]
   }

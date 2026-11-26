@@ -146,13 +146,13 @@
      "type": "meerkeuze",
      "vraag": "Hoe noemt men de mensen die hier woonden toen de Romeinen kwamen?",
      "opties": [
-      "de Galliërs (Kelten)",
+      "Keltische stammen",
       "de Vikingen",
       "de Amerikanen",
       "de Chinezen"
      ],
      "antwoord": 0,
-     "uitleg": "Julius Caesar vocht tegen stammen in Gallië, ook in onze streken."
+     "uitleg": "Julius Caesar noemde die stammen hier de Belgen. Ambiorix was koning van de Eburonen."
     },
     {
      "type": "waarofniet",
@@ -183,6 +183,46 @@
      "vraag": "Een archeoloog graaft voorwerpen uit de grond om meer te weten over vroeger.",
      "antwoord": true,
      "uitleg": "Zo vond men in Tongeren veel Romeinse voorwerpen."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welk getal is dit in Romeinse cijfers?",
+     "antwoord": "12",
+     "uitleg": "X = 10 en II = 2. Samen 12.",
+     "afbeelding_pad": "/examenvormen/ready/vroeger-romeins-12.svg"
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk getal schreven de Romeinen zo?",
+     "opties": [
+      "8",
+      "12",
+      "3",
+      "7"
+     ],
+     "antwoord": 0,
+     "uitleg": "V = 5 en III = 3. Samen 8.",
+     "afbeelding_pad": "/examenvormen/ready/vroeger-romeins-8.svg"
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De eerste mensen schilderden dieren op de wanden van grotten.",
+     "antwoord": true,
+     "uitleg": "Zulke grotschilderingen zijn duizenden jaren oud.",
+     "afbeelding_pad": "/examenvormen/ready/vroeger-grot.svg"
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarvoor gebruikten de eerste mensen dit stenen werktuig?",
+     "opties": [
+      "om te snijden en te hakken",
+      "om te schrijven",
+      "om muziek te maken",
+      "om mee te betalen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Met een vuistbijl sneden ze vlees en hakten ze hout.",
+     "afbeelding_pad": "/examenvormen/ready/vroeger-vuistbijl.svg"
     }
    ]
   },
@@ -379,6 +419,49 @@
      "vraag": "Ridders leefden na de Romeinen.",
      "antwoord": true,
      "uitleg": "De middeleeuwen, de tijd van de ridders, kwamen na de Romeinse tijd."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe heet het deel van de burcht bij de pijl?",
+     "opties": [
+      "de slotgracht",
+      "de toren",
+      "de ophaalbrug",
+      "de muur"
+     ],
+     "antwoord": 0,
+     "uitleg": "Rond de burcht lag water: de slotgracht.",
+     "afbeelding_pad": "/examenvormen/ready/vroeger-burcht-gracht.svg"
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe heet het deel van de burcht bij de pijl? De o...",
+     "antwoord": [
+      "ophaalbrug",
+      "de ophaalbrug"
+     ],
+     "uitleg": "De ophaalbrug kon omhoog, zodat vijanden niet binnen konden.",
+     "afbeelding_pad": "/examenvormen/ready/vroeger-burcht-brug.svg"
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Vanop de toren konden de wachters ver kijken of er vijanden kwamen.",
+     "antwoord": true,
+     "uitleg": "Hoge torens gaven een goed uitzicht.",
+     "afbeelding_pad": "/examenvormen/ready/vroeger-burcht-toren.svg"
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom droeg een ridder een schild?",
+     "opties": [
+      "om zich te beschermen",
+      "om mee te koken",
+      "om op te zitten",
+      "om er licht mee te maken"
+     ],
+     "antwoord": 0,
+     "uitleg": "Met het schild hield een ridder slagen en pijlen tegen.",
+     "afbeelding_pad": "/examenvormen/ready/vroeger-schild.svg"
     }
    ]
   }

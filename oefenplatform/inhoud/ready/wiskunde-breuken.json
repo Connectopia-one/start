@@ -178,6 +178,45 @@
      "vraag": "4/4 is één geheel.",
      "antwoord": true,
      "uitleg": "Als je alle 4 stukken neemt, heb je het hele ding."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welk deel van de taart is gekleurd? Schrijf als breuk.",
+     "antwoord": [
+      "1/4",
+      "een vierde",
+      "1 / 4",
+      "één vierde"
+     ],
+     "uitleg": "De taart is in 4 gelijke stukken verdeeld en 1 stuk is gekleurd: 1/4.",
+     "afbeelding_pad": "/examenvormen/ready/breuken-taart-1-4.svg"
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk deel van de strook is gekleurd?",
+     "opties": [
+      "3/5",
+      "5/3",
+      "2/5",
+      "3/8"
+     ],
+     "antwoord": 0,
+     "uitleg": "5 gelijke stukken, 3 zijn gekleurd: 3/5.",
+     "afbeelding_pad": "/examenvormen/ready/breuken-balk-3-5.svg"
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Van deze taart is 3/8 gekleurd.",
+     "antwoord": true,
+     "uitleg": "8 gelijke stukken en 3 zijn gekleurd.",
+     "afbeelding_pad": "/examenvormen/ready/breuken-taart-3-8.svg"
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoeveel stukken van de strook zijn NIET gekleurd?",
+     "antwoord": "4",
+     "uitleg": "6 stukken in totaal, 2 zijn gekleurd, dus 4 niet.",
+     "afbeelding_pad": "/examenvormen/ready/breuken-balk-2-6.svg"
     }
    ]
   },
@@ -364,6 +403,43 @@
      "vraag": "In 6,08 staat de 0 op de plaats van de tienden.",
      "antwoord": true,
      "uitleg": "6,08: 0 tienden en 8 honderdsten."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Je kleurt 1/3 van deze 12 stippen. Hoeveel stippen kleur je?",
+     "antwoord": "4",
+     "uitleg": "1/3 van 12 = 12 : 3 = 4.",
+     "afbeelding_pad": "/examenvormen/ready/breuken-stippen-12.svg"
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoeveel geld is dat samen?",
+     "opties": [
+      "0,75 euro",
+      "7,5 euro",
+      "75 euro",
+      "0,57 euro"
+     ],
+     "antwoord": 0,
+     "uitleg": "50 + 20 + 5 = 75 cent. Dat is 0,75 euro.",
+     "afbeelding_pad": "/examenvormen/ready/breuken-munten-075.svg"
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welk deel van de strook is gekleurd? Schrijf als kommagetal.",
+     "antwoord": [
+      "0,7",
+      "0.7"
+     ],
+     "uitleg": "7 van de 10 stukken: 7 tienden, dat is 0,7.",
+     "afbeelding_pad": "/examenvormen/ready/breuken-balk-7-10.svg"
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De helft van deze taart is gekleurd.",
+     "antwoord": true,
+     "uitleg": "2 gelijke stukken en 1 is gekleurd: 1/2, de helft.",
+     "afbeelding_pad": "/examenvormen/ready/breuken-taart-1-2.svg"
     }
    ]
   }

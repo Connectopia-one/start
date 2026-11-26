@@ -52,3 +52,20 @@ DEEL_2 = [
     wn("Te lang naar een scherm kijken voor het slapengaan kan je slaap verstoren.", True, "Het licht van een scherm houdt je wakker. Leg het een uur voor je gaat slapen weg."),
     wn("Je bloed blijft altijd op dezelfde plaats in je lichaam.", False, "Je bloed stroomt de hele tijd rond door je bloedvaten."),
 ]
+
+
+# Prentvragen (vraag 21 tot 24), Kim 26/11.
+from vr import mk, inv, wn
+import prent as P
+PRENT_1 = [
+    mk("Hoe heet het bot bij de pijl?", ["de schedel", "de ribben", "de knieschijf", "het bekken"], 0, "De schedel is een harde doos van bot rond je hersenen.", prent=P.p_skelet("lichaam-schedel", "schedel")),
+    inv("Hoe heten de botten bij de pijl? De r...", ["ribben", "de ribben", "rib"], "De ribben vormen een kooi rond je hart en longen.", prent=P.p_skelet("lichaam-ribben", "ribben")),
+    wn("De pijl wijst naar je elleboog.", False, "De pijl wijst naar je knie. Je knie en je elleboog zijn allebei gewrichten.", prent=P.p_skelet("lichaam-knie", "knie")),
+    mk("Wat doe je met dit zintuig?", ["zien", "horen", "ruiken", "proeven"], 0, "Met je ogen zie je kleuren, vormen en licht.", prent=P.p_oog("lichaam-oog")),
+]
+PRENT_2 = [
+    mk("Waar wijst de pijl naar?", ["de maag", "de longen", "het hart", "de hersenen"], 0, "Na het slikken komt je eten in je maag. Daar wordt het fijngemaakt.", prent=P.p_vertering("lichaam-maag", "maag")),
+    wn("De pijl wijst naar de buis waarlangs je eten naar je maag zakt.", True, "Dat is de slokdarm, van je mond naar je maag.", prent=P.p_vertering("lichaam-slokdarm", "slokdarm")),
+    inv("Waar wijst de pijl naar? Het ...", ["hart", "het hart"], "Het hart ligt tussen je longen en pompt je bloed rond.", prent=P.p_romp("lichaam-hart", "hart")),
+    inv("Welk tussendoortje is het gezondst? Schrijf de letter.", ["C"], "C is een appel. Fruit is gezond. Chips, snoep en frisdrank eet je beter niet te vaak.", prent=P.p_eten("lichaam-tussendoortje", ["chips", "lolly", "appel", "blikje"])),
+]

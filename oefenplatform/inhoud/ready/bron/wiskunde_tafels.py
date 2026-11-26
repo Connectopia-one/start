@@ -110,3 +110,19 @@ DEEL_2 = [
          opties=["6 stukken, 4 cm over", "7 stukken, 2 cm over", "6 stukken, 2 cm over", "5 stukken, 10 cm over"], antwoord=0,
          uitleg="40 : 6 = 6 rest 4, want 6 × 6 = 36 en 40 − 36 = 4."),
 ]
+
+# Prentvragen (vraag 21 tot 24), Kim 26/11.
+from vr import mk, inv, wn
+import prent as P
+PRENT_1 = [
+    mk("Welke maaltafel past bij de stippen op de prent?", ["3 × 6", "3 + 6", "6 − 3", "3 × 3"], 0, "3 rijen van 6 stippen: 3 × 6 = 18.", prent=P.p_stippen("tafels-stippen-3x6", 3, 6)),
+    inv("Hoeveel stippen zie je? 4 × 5 = ___", "20", "4 rijen van 5 stippen: 4 × 5 = 20.", 20, prent=P.p_stippen("tafels-stippen-4x5", 4, 5)),
+    inv("De kikker maakt sprongen van 3. Op welk getal komt hij na 4 sprongen?", "12", "4 sprongen van 3: 4 × 3 = 12.", 12, prent=P.p_sprongen("tafels-sprongen-3", 3, 4, 15)),
+    wn("Op de prent zie je 5 rijen van 2 stippen. Dat zijn samen 10 stippen.", True, "5 × 2 = 10.", prent=P.p_stippen("tafels-stippen-5x2", 5, 2)),
+]
+PRENT_2 = [
+    mk("Welke deling past bij de prent?", ["15 : 3 = 5", "15 + 3 = 18", "12 : 3 = 4", "5 : 3 = 15"], 0, "15 snoepjes eerlijk verdeeld over 3 borden: 5 per bord.", prent=P.p_borden("tafels-borden-3x5", 3, 5)),
+    inv("14 snoepjes worden eerlijk verdeeld over 4 borden. Hoeveel snoepjes blijven over?", "2", "4 × 3 = 12. Van 14 blijven er 2 over: 14 : 4 = 3 rest 2.", 2, prent=P.p_borden("tafels-borden-rest", 4, 3, 2)),
+    inv("Je verdeelt de 24 stippen eerlijk over 4 rijen. Hoeveel stippen staan er in elke rij?", "6", "24 : 4 = 6.", 6, prent=P.p_stippen("tafels-stippen-4x6", 4, 6)),
+    wn("Op de prent zijn 9 snoepjes verdeeld over 2 borden. Er blijft 1 snoepje over.", True, "2 × 4 = 8, en 9 − 8 = 1. Dus 9 : 2 = 4 rest 1.", prent=P.p_borden("tafels-borden-rest-1", 2, 4, 1)),
+]

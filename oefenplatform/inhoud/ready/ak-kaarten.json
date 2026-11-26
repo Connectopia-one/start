@@ -186,6 +186,46 @@
      "vraag": "Op een kaart worden huizen getekend zoals je ze van voren ziet.",
      "antwoord": false,
      "uitleg": "Op een kaart kijk je van bovenaf."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "In welk vakje staat de ster? (bijvoorbeeld B1)",
+     "antwoord": [
+      "C2",
+      "c2",
+      "C 2"
+     ],
+     "uitleg": "Kijk eerst naar de letter bovenaan (C), dan naar het cijfer links (2).",
+     "afbeelding_pad": "/examenvormen/ready/kaarten-rooster.svg"
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat staat er in vakje A3?",
+     "opties": [
+      "het bolletje",
+      "de ster",
+      "het driehoekje",
+      "niets"
+     ],
+     "antwoord": 0,
+     "uitleg": "Kolom A, rij 3: daar staat het bolletje.",
+     "afbeelding_pad": "/examenvormen/ready/kaarten-rooster.svg"
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Het driehoekje staat in vakje B1.",
+     "antwoord": false,
+     "uitleg": "Het driehoekje staat in kolom D, rij 1: vakje D1.",
+     "afbeelding_pad": "/examenvormen/ready/kaarten-rooster.svg"
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Je kijkt recht van boven op een bal. Welke vorm zie je? Schrijf de letter.",
+     "antwoord": [
+      "B"
+     ],
+     "uitleg": "Van bovenaf zie je een bal als een cirkel.",
+     "afbeelding_pad": "/examenvormen/ready/kaarten-bovenaanzicht.svg"
     }
    ]
   },
@@ -378,6 +418,50 @@
      "vraag": "In het zuiden van België liggen de Ardennen.",
      "antwoord": true,
      "uitleg": "De Ardennen liggen in het zuiden en zuidoosten van België."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke windrichting hoort bij het vraagteken?",
+     "opties": [
+      "oost",
+      "west",
+      "zuid",
+      "noord"
+     ],
+     "antwoord": 0,
+     "uitleg": "Met het noorden boven ligt het oosten rechts.",
+     "afbeelding_pad": "/examenvormen/ready/kaarten-kompas-o.svg"
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Het noorden staat bovenaan. Welke windrichting staat bij het vraagteken?",
+     "antwoord": [
+      "zuid",
+      "het zuiden",
+      "Z",
+      "zuiden"
+     ],
+     "uitleg": "Tegenover het noorden ligt het zuiden.",
+     "afbeelding_pad": "/examenvormen/ready/kaarten-kompas-z.svg"
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Op de plaats van het vraagteken staat oost.",
+     "antwoord": false,
+     "uitleg": "Met het noorden boven ligt het westen links.",
+     "afbeelding_pad": "/examenvormen/ready/kaarten-kompas-w.svg"
+    },
+    {
+     "type": "invultekst",
+     "vraag": "In welke windrichting komt de zon 's morgens op?",
+     "antwoord": [
+      "oost",
+      "het oosten",
+      "oosten",
+      "O"
+     ],
+     "uitleg": "De zon komt op in het oosten en gaat onder in het westen.",
+     "afbeelding_pad": "/examenvormen/ready/kaarten-zon.svg"
     }
    ]
   }

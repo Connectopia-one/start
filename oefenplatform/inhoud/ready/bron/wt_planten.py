@@ -52,3 +52,20 @@ DEEL_2 = [
     mk("Hoe beschermt een egel zich?", ["Hij rolt zich op met zijn stekels naar buiten.", "Hij vliegt weg.", "Hij verandert van kleur.", "Hij zwemt snel weg."], 0, "De stekels houden vijanden op afstand."),
     wn("Je mag wilde dieren in het bos gerust meenemen naar huis.", False, "Wilde dieren laat je in de natuur. Vind je een gewond dier, vraag dan hulp aan een volwassene of het dierenasiel."),
 ]
+
+
+# Prentvragen (vraag 21 tot 24), Kim 26/11.
+from vr import mk, inv, wn
+import prent as P
+PRENT_1 = [
+    mk("Hoe heet het deel van de plant bij de pijl?", ["de wortel", "de stengel", "het blad", "de bloem"], 0, "De wortel zit in de grond. Hij neemt water op en houdt de plant vast.", prent=P.p_plant("planten-pijl-wortel", "wortel")),
+    inv("Hoe heet het deel van de plant bij de pijl? Het ...", ["blad", "het blad", "bladeren"], "Met haar bladeren maakt de plant voedsel uit zonlicht.", prent=P.p_plant("planten-pijl-blad", "blad")),
+    wn("De pijl wijst naar de wortel van de plant.", False, "De pijl wijst naar de stengel. Die brengt water van de wortel naar de bladeren.", prent=P.p_plant("planten-pijl-stengel", "stengel")),
+    inv("Welk deel van de plant zie je bij de pijl? De ...", ["bloem", "de bloem"], "In de bloem groeien later de zaadjes.", prent=P.p_plant("planten-pijl-bloem", "bloem")),
+]
+PRENT_2 = [
+    mk("Tel de poten. Wat voor dier is dit?", ["een insect", "een spin", "een zoogdier", "een vogel"], 0, "Het dier heeft 6 poten: het is een insect.", prent=P.p_insect("planten-insect", 6)),
+    inv("Hoeveel poten heeft dit dier?", "8", "Een spin heeft 8 poten. Een insect heeft er 6.", 8, prent=P.p_insect("planten-spin", 8)),
+    wn("Dit dier is een zoogdier: de jongen drinken melk bij hun moeder.", True, "Een koe is een zoogdier. Het kalf drinkt melk bij de koe.", prent=P.p_voorwerp("planten-koe", "koe")),
+    mk("Hoe ademt dit dier onder water?", ["met kieuwen", "met longen", "met zijn vinnen", "het ademt niet"], 0, "Een vis haalt zuurstof uit het water met zijn kieuwen.", prent=P.p_voorwerp("planten-vis", "vis")),
+]

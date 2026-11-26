@@ -53,3 +53,18 @@ DEEL_2 = [
     inv("Een rechthoek heeft een oppervlakte van 20 cm². Hij is 5 cm lang. Hoe breed is hij? ___ cm", "4", "Lengte × breedte = 20, en 5 × 4 = 20. Dus 4 cm breed.", 4),
     wn("Een kubus van 2 bij 2 bij 2 kubusjes bestaat uit 8 kubusjes.", True, "2 × 2 = 4 per laag, en 2 lagen: 8 kubusjes."),
 ]
+
+# Prentvragen (vraag 21 tot 24), Kim 26/11.
+import prent as P
+PRENT_1 = [
+    inv("Hoe lang is het potlood? (in cm)", ["7", "7 cm", "7 centimeter"], "Het potlood begint bij 0 en eindigt bij 7: 7 cm.", 7, prent=P.p_liniaal("meten-potlood-7", 7)),
+    inv("Hoeveel geld zie je samen? (in euro)", ["8,50", "8,50 euro", "€ 8,50", "8,5", "8.50"], "5 + 2 + 1 = 8 euro, en nog 50 cent: 8 euro 50.", prent=P.p_munten("meten-munten-850", [500, 200, 100, 50])),
+    inv("Hoeveel ml water zit er in de maatbeker?", ["300", "300 ml"], "Het water komt tot aan het streepje van 300 ml.", 300, prent=P.p_maatbeker("meten-maatbeker-300", 300)),
+    wn("Het potlood is 10 cm lang.", False, "Het potlood eindigt bij 12. Het is 12 cm lang.", prent=P.p_liniaal("meten-potlood-12", 12)),
+]
+PRENT_2 = [
+    inv("Wat is de omtrek van deze rechthoek? (in cm)", ["18", "18 cm"], "Alle zijden samen: 6 + 3 + 6 + 3 = 18 cm.", 18, prent=P.p_rechthoek_maten("meten-rechthoek-6x3", 6, 3)),
+    inv("Hoeveel vierkantjes is de oppervlakte van de rechthoek?", "15", "3 rijen van 5 vierkantjes: 3 × 5 = 15.", 15, prent=P.p_rechthoek_maten("meten-rooster-5x3", 5, 3, rooster=True)),
+    inv("Uit hoeveel kubusjes bestaat dit blok?", "12", "Elke laag heeft 3 × 2 = 6 kubusjes. Er zijn 2 lagen: 12 kubusjes.", 12, prent=P.p_kubussen("meten-kubussen-3x2x2", 3, 2, 2)),
+    wn("De oppervlakte van dit vierkant is 16 vierkantjes.", True, "4 rijen van 4: 4 × 4 = 16.", prent=P.p_rechthoek_maten("meten-rooster-4x4", 4, 4, rooster=True)),
+]

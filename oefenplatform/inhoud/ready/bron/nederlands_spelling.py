@@ -104,3 +104,19 @@ DEEL_2 = [
          opties=["sara woont in gent.", "Sara woont in gent.", "Sara woont in Gent.", "sara woont in Gent."], antwoord=2,
          uitleg="Een zin begint met een hoofdletter, en Sara en Gent zijn namen."),
 ]
+
+# Prentvragen (vraag 21 tot 24), Kim 26/11.
+from vr import mk, inv, wn
+import prent as P
+PRENT_1 = [
+    mk("Hoe schrijf je wat je op de prent ziet?", ["een ijsje", "een eisje", "een ijssie", "een eijsje"], 0, "IJs schrijf je met ij: een ijsje.", prent=P.p_voorwerp("spelling-ijsje", "ijs")),
+    inv("Vul de klank aan: tr__n (wat je op de prent ziet)", ["ei"], "Trein schrijf je met ei.", prent=P.p_voorwerp("spelling-trein", "trein")),
+    mk("Wat hoor je op het einde van het woord bij de prent? ri__", ["ng", "nk", "n", "g"], 0, "Ring eindigt op ng.", prent=P.p_voorwerp("spelling-ring", "ring")),
+    wn("Wat je op de prent ziet, schrijf je als 'bang'.", False, "Je ziet een bank: dat schrijf je met nk. Bang betekent dat je schrik hebt.", prent=P.p_voorwerp("spelling-bank", "bank")),
+]
+PRENT_2 = [
+    inv("Schrijf het woord bij de prent: een ho...", ["hond", "een hond"], "Hond schrijf je met d: denk aan honden.", prent=P.p_voorwerp("spelling-hond", "hond")),
+    inv("Je ziet twee dieren. Schrijf het meervoud: twee ...", ["honden", "twee honden"], "Eén hond, twee honden.", prent=P.p_voorwerpen("spelling-honden", ["hond", "hond"])),
+    inv("Schrijf het verkleinwoord van wat je ziet: een ...", ["visje", "een visje"], "Vis wordt visje.", prent=P.p_voorwerp("spelling-vis", "vis")),
+    wn("Het verkleinwoord van wat je ziet, is 'boompje'.", True, "Boom wordt boompje, met een p ertussen.", prent=P.p_voorwerp("spelling-boom", "boom")),
+]

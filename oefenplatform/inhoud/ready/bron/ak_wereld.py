@@ -52,3 +52,20 @@ DEEL_2 = [
     mk("Waarom wonen er weinig mensen in de woestijn?", ["Er is weinig water.", "Er is te veel sneeuw.", "Er zijn te veel bomen.", "Er is te veel regen."], 0, "Zonder water kunnen mensen, dieren en planten moeilijk leven."),
     wn("Een regenwoud is een goede plek voor veel verschillende dieren en planten.", True, "In regenwouden leven meer soorten dan waar ook op aarde."),
 ]
+
+
+# Prentvragen (vraag 21 tot 24), Kim 26/11.
+from vr import mk, inv, wn
+import prent as P
+PRENT_1 = [
+    mk("Welk werelddeel is oranje gekleurd?", ["Afrika", "Azië", "Europa", "Zuid-Amerika"], 0, "Afrika ligt ten zuiden van Europa.", prent=P.p_wereld("wereld-afrika", ("afrika",))),
+    inv("Welk werelddeel is oranje gekleurd? O...", ["Oceanië", "Oceanie"], "Australië en de eilanden eromheen vormen samen Oceanië.", prent=P.p_wereld("wereld-oceanie", ("oceanie",))),
+    mk("Hoe heet de oceaan bij de pijl?", ["de Atlantische Oceaan", "de Stille Oceaan", "de Indische Oceaan", "de Noordelijke IJszee"], 0, "Tussen Amerika en Europa en Afrika ligt de Atlantische Oceaan.", prent=P.p_wereld("wereld-atlantisch", (), (-35, 20, "rechts"))),
+    wn("Het oranje werelddeel is Noord-Amerika.", False, "Het oranje werelddeel is Zuid-Amerika.", prent=P.p_wereld("wereld-zuid-amerika", ("zuid-amerika",))),
+]
+PRENT_2 = [
+    mk("Waar zie je zo'n landschap?", ["aan de pool", "in de woestijn", "in het regenwoud", "in de bergen"], 0, "IJs, sneeuw en een ijsbeer: het poolgebied.", prent=P.p_landschap("wereld-pool", "pool")),
+    inv("Heet, droog en veel zand: hoe heet dit landschap? De w...", ["woestijn", "de woestijn"], "In de woestijn regent het bijna nooit.", prent=P.p_landschap("wereld-woestijn", "woestijn")),
+    wn("In dit landschap regent het bijna nooit.", False, "In het regenwoud is het warm en regent het heel veel.", prent=P.p_landschap("wereld-regenwoud", "regenwoud")),
+    mk("In welk landschap meet je overdag zo'n temperatuur?", ["in de woestijn", "aan de pool", "op een gletsjer", "in de sneeuw"], 0, "40 graden is heel heet. Dat is het in de woestijn overdag.", prent=P.p_thermometer("wereld-thermo-40", 40, -10, 50)),
+]

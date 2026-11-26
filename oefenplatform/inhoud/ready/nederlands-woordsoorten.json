@@ -190,6 +190,48 @@
      "vraag": "Namen zoals 'Emma' en 'Brussel' zijn ook zelfstandige naamwoorden.",
      "antwoord": true,
      "uitleg": "Namen van mensen en plaatsen zijn zelfstandige naamwoorden. Ze krijgen een hoofdletter."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Bij de prent: 'De koe graast in de wei.' Welk woord is een zelfstandig naamwoord?",
+     "opties": [
+      "koe",
+      "graast",
+      "de",
+      "in"
+     ],
+     "antwoord": 0,
+     "uitleg": "Koe is een ding (een dier) dat je kan zien: een zelfstandig naamwoord.",
+     "afbeelding_pad": "/examenvormen/ready/woordsoorten-koe.svg"
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Bij de prent: 'De warme zon schijnt.' Welk woord zegt hoe de zon is?",
+     "antwoord": [
+      "warme"
+     ],
+     "uitleg": "Warme zegt hoe de zon is: een bijvoeglijk naamwoord.",
+     "afbeelding_pad": "/examenvormen/ready/woordsoorten-zon.svg"
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Bij de prent: 'De gele vogel zingt.' Welk woord is het werkwoord?",
+     "opties": [
+      "zingt",
+      "gele",
+      "vogel",
+      "de"
+     ],
+     "antwoord": 0,
+     "uitleg": "Zingt zegt wat de vogel doet.",
+     "afbeelding_pad": "/examenvormen/ready/woordsoorten-vogel.svg"
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Bij de prent: in 'de hoge boom' is 'hoge' een bijvoeglijk naamwoord.",
+     "antwoord": true,
+     "uitleg": "Hoge zegt hoe de boom is.",
+     "afbeelding_pad": "/examenvormen/ready/woordsoorten-boom.svg"
     }
    ]
   },
@@ -371,6 +413,49 @@
      "vraag": "'Wat lief van je!' is een uitroep.",
      "antwoord": true,
      "uitleg": "Je roept iets uit met gevoel. Daarom het uitroepteken."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Bij de prent: 'De hond blaft luid.' Wie doet het?",
+     "antwoord": [
+      "de hond",
+      "hond"
+     ],
+     "uitleg": "Wie blaft? De hond. Dat is het onderwerp.",
+     "afbeelding_pad": "/examenvormen/ready/woordsoorten-hond.svg"
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk leesteken hoort op het einde van deze zin?",
+     "opties": [
+      "!",
+      "?",
+      ",",
+      ":"
+     ],
+     "antwoord": 0,
+     "uitleg": "Je roept iets uit: een uitroepteken.",
+     "afbeelding_pad": "/examenvormen/ready/woordsoorten-uitroep.svg"
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk leesteken zet je achter deze vraag?",
+     "opties": [
+      "een vraagteken",
+      "een punt",
+      "een uitroepteken",
+      "een komma"
+     ],
+     "antwoord": 0,
+     "uitleg": "Het is een vraag: een vraagteken.",
+     "afbeelding_pad": "/examenvormen/ready/woordsoorten-vraag.svg"
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Bij de prent: in 'De koe loopt in de wei.' is 'de wei' het onderwerp.",
+     "antwoord": false,
+     "uitleg": "Wie loopt? De koe. 'De koe' is het onderwerp.",
+     "afbeelding_pad": "/examenvormen/ready/woordsoorten-koe-2.svg"
     }
    ]
   }

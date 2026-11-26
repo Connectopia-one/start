@@ -178,6 +178,48 @@
      "vraag": "Iedereen is anders, en dat is oké.",
      "antwoord": true,
      "uitleg": "Verschillen maken een groep net rijker."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat betekent dit verkeersbord?",
+     "opties": [
+      "Verboden voor fietsers",
+      "Hier is een fietspad",
+      "Hier kan je je fiets zetten",
+      "Fietsen te koop"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een rond bord met een rode rand is een verbod. De fiets erin: geen fietsers.",
+     "afbeelding_pad": "/examenvormen/ready/samenleven-geen-fietsers.svg"
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat zie je op de prent?",
+     "opties": [
+      "een zebrapad",
+      "een fietspad",
+      "een parking",
+      "een speelplaats"
+     ],
+     "antwoord": 0,
+     "uitleg": "Witte strepen op de weg: een zebrapad. Daar steek je over.",
+     "afbeelding_pad": "/examenvormen/ready/samenleven-zebrapad.svg"
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Bij dit bord mag je doorrijden zonder te stoppen.",
+     "antwoord": false,
+     "uitleg": "Bij een stopbord moet je helemaal stoppen en kijken.",
+     "afbeelding_pad": "/examenvormen/ready/samenleven-stop.svg"
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Elk kind heeft recht op een veilige t... om te wonen.",
+     "antwoord": [
+      "thuis"
+     ],
+     "uitleg": "Elk kind heeft recht op een thuis. Dat staat in de kinderrechten.",
+     "afbeelding_pad": "/examenvormen/ready/samenleven-huis.svg"
     }
    ]
   },
@@ -372,6 +414,49 @@
      "vraag": "Kinderen van 9 jaar mogen stemmen bij de verkiezingen voor de gemeente.",
      "antwoord": false,
      "uitleg": "Bij de gemeenteraadsverkiezingen stemmen volwassenen vanaf 18 jaar."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Bij welk feest hoort deze boom?",
+     "opties": [
+      "Kerstmis",
+      "Pasen",
+      "Carnaval",
+      "Sinterklaas"
+     ],
+     "antwoord": 0,
+     "uitleg": "Met Kerstmis versieren veel mensen een kerstboom.",
+     "afbeelding_pad": "/examenvormen/ready/samenleven-kerstboom.svg"
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Bij welk feest zoeken kinderen naar deze eieren?",
+     "antwoord": [
+      "Pasen",
+      "pasen"
+     ],
+     "uitleg": "Met Pasen zoeken kinderen paaseieren.",
+     "afbeelding_pad": "/examenvormen/ready/samenleven-paaseieren.svg"
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Dit is de vlag van Nederland.",
+     "antwoord": false,
+     "uitleg": "Zwart, geel en rood, rechtop: dit is de vlag van België.",
+     "afbeelding_pad": "/examenvormen/ready/samenleven-vlag-be.svg"
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waar vraag je een identiteitskaart aan?",
+     "opties": [
+      "in het gemeentehuis",
+      "in de bakkerij",
+      "in de sporthal",
+      "in het zwembad"
+     ],
+     "antwoord": 0,
+     "uitleg": "Voor een identiteitskaart ga je naar het gemeentehuis.",
+     "afbeelding_pad": "/examenvormen/ready/samenleven-gemeentehuis.svg"
     }
    ]
   }

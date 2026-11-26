@@ -93,3 +93,18 @@ DEEL_2 = [
     mk("Welk getal wordt 3 000 als je het afrondt op een duizendtal?", ["2 400", "3 600", "2 700", "3 500"], 2,
        "2 700 rond je naar boven af naar 3 000. 2 400 wordt 2 000, 3 600 en 3 500 worden 4 000."),
 ]
+
+# Prentvragen (vraag 21 tot 24), Kim 26/11.
+import prent as P
+PRENT_1 = [
+    inv("Welk getal tonen de blokken? (grote kubus = 1000, plaat = 100, staaf = 10, blokje = 1)", "1324", "1 duizendtal, 3 honderdtallen, 2 tientallen en 4 eenheden: 1324.", 1324, prent=P.p_blokken("getallen-blokken-1324", 1, 3, 2, 4)),
+    mk("Welk getal zie je hier in blokken? (grote kubus = 1000, plaat = 100, staaf = 10, blokje = 1)", ["2051", "2501", "2015", "251"], 0, "2 duizendtallen, 0 honderdtallen, 5 tientallen en 1 eenheid: 2051.", prent=P.p_blokken("getallen-blokken-2051", 2, 0, 5, 1)),
+    inv("Welk getal hoort bij de pijl?", "700", "Elke streep is 100 verder. De pijl staat bij 700.", 700, prent=P.p_getallenlijn("getallen-lijn-700", 0, 1000, 100, 700, [0, 500, 1000])),
+    wn("De blokken tonen het getal 340. (plaat = 100, staaf = 10)", False, "4 platen en 3 staven: dat is 430, niet 340.", prent=P.p_blokken("getallen-blokken-430", 0, 4, 3, 0)),
+]
+PRENT_2 = [
+    inv("Hoeveel graden wijst de thermometer aan?", ["-5", "−5", "min 5", "-5 °C", "−5 °C", "min 5 graden"], "Het rood staat onder 0, bij min 5 graden.", prent=P.p_thermometer("getallen-thermo-min5", -5)),
+    inv("Bij de pijl hoort een getal. Rond het af op het duizendtal.", "2000", "De pijl staat bij 2400. Dat ligt dichter bij 2000 dan bij 3000.", 2000, prent=P.p_getallenlijn("getallen-lijn-2400", 2000, 3000, 100, 2400, [2000, 3000])),
+    mk("Welk getal hoort bij de pijl?", ["−6", "6", "−4", "−8"], 0, "De pijl staat links van 0, twee strepen van −10 af: −6.", prent=P.p_getallenlijn("getallen-lijn-min6", -10, 10, 2, -6, [-10, 0, 10])),
+    wn("De thermometer wijst 25 graden aan.", False, "Het rood staat bij 15 graden.", prent=P.p_thermometer("getallen-thermo-15", 15)),
+]

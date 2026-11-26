@@ -53,3 +53,20 @@ DEEL_2 = [
     mk("Welke volgorde gaat van vroeg naar laat?", ["prehistorie, Romeinen, middeleeuwen", "middeleeuwen, Romeinen, prehistorie", "Romeinen, prehistorie, middeleeuwen", "prehistorie, middeleeuwen, Romeinen"], 0, "Eerst de prehistorie, dan de Romeinen en daarna de middeleeuwen."),
     wn("Ridders leefden na de Romeinen.", True, "De middeleeuwen, de tijd van de ridders, kwamen na de Romeinse tijd."),
 ]
+
+
+# Prentvragen (vraag 21 tot 24), Kim 26/11.
+from vr import mk, inv, wn
+import prent as P
+PRENT_1 = [
+    inv("Welk getal is dit in Romeinse cijfers?", "12", "X = 10 en II = 2. Samen 12.", 12, prent=P.p_tekst("vroeger-romeins-12", ["XII"], 60)),
+    mk("Welk getal schreven de Romeinen zo?", ["8", "12", "3", "7"], 0, "V = 5 en III = 3. Samen 8.", prent=P.p_tekst("vroeger-romeins-8", ["VIII"], 60)),
+    wn("De eerste mensen schilderden dieren op de wanden van grotten.", True, "Zulke grotschilderingen zijn duizenden jaren oud.", prent=P.p_grot("vroeger-grot")),
+    mk("Waarvoor gebruikten de eerste mensen dit stenen werktuig?", ["om te snijden en te hakken", "om te schrijven", "om muziek te maken", "om mee te betalen"], 0, "Met een vuistbijl sneden ze vlees en hakten ze hout.", prent=P.p_ding("vroeger-vuistbijl", "vuistbijl")),
+]
+PRENT_2 = [
+    mk("Hoe heet het deel van de burcht bij de pijl?", ["de slotgracht", "de toren", "de ophaalbrug", "de muur"], 0, "Rond de burcht lag water: de slotgracht.", prent=P.p_kasteel("vroeger-burcht-gracht", "gracht")),
+    inv("Hoe heet het deel van de burcht bij de pijl? De o...", ["ophaalbrug", "de ophaalbrug"], "De ophaalbrug kon omhoog, zodat vijanden niet binnen konden.", prent=P.p_kasteel("vroeger-burcht-brug", "ophaalbrug")),
+    wn("Vanop de toren konden de wachters ver kijken of er vijanden kwamen.", True, "Hoge torens gaven een goed uitzicht.", prent=P.p_kasteel("vroeger-burcht-toren", "toren")),
+    mk("Waarom droeg een ridder een schild?", ["om zich te beschermen", "om mee te koken", "om op te zitten", "om er licht mee te maken"], 0, "Met het schild hield een ridder slagen en pijlen tegen.", prent=P.p_ding("vroeger-schild", "schild")),
+]

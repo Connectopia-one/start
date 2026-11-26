@@ -160,6 +160,48 @@
      "vraag": "Je schrijft berch met ch op het einde.",
      "antwoord": false,
      "uitleg": "Maak het woord langer: bergen. Je hoort een g, dus schrijf je berg."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe schrijf je wat je op de prent ziet?",
+     "opties": [
+      "een ijsje",
+      "een eisje",
+      "een ijssie",
+      "een eijsje"
+     ],
+     "antwoord": 0,
+     "uitleg": "IJs schrijf je met ij: een ijsje.",
+     "afbeelding_pad": "/examenvormen/ready/spelling-ijsje.svg"
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Vul de klank aan: tr__n (wat je op de prent ziet)",
+     "antwoord": [
+      "ei"
+     ],
+     "uitleg": "Trein schrijf je met ei.",
+     "afbeelding_pad": "/examenvormen/ready/spelling-trein.svg"
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat hoor je op het einde van het woord bij de prent? ri__",
+     "opties": [
+      "ng",
+      "nk",
+      "n",
+      "g"
+     ],
+     "antwoord": 0,
+     "uitleg": "Ring eindigt op ng.",
+     "afbeelding_pad": "/examenvormen/ready/spelling-ring.svg"
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Wat je op de prent ziet, schrijf je als 'bang'.",
+     "antwoord": false,
+     "uitleg": "Je ziet een bank: dat schrijf je met nk. Bang betekent dat je schrik hebt.",
+     "afbeelding_pad": "/examenvormen/ready/spelling-bank.svg"
     }
    ]
   },
@@ -341,6 +383,43 @@
      ],
      "antwoord": 2,
      "uitleg": "Een zin begint met een hoofdletter, en Sara en Gent zijn namen."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Schrijf het woord bij de prent: een ho...",
+     "antwoord": [
+      "hond",
+      "een hond"
+     ],
+     "uitleg": "Hond schrijf je met d: denk aan honden.",
+     "afbeelding_pad": "/examenvormen/ready/spelling-hond.svg"
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Je ziet twee dieren. Schrijf het meervoud: twee ...",
+     "antwoord": [
+      "honden",
+      "twee honden"
+     ],
+     "uitleg": "Eén hond, twee honden.",
+     "afbeelding_pad": "/examenvormen/ready/spelling-honden.svg"
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Schrijf het verkleinwoord van wat je ziet: een ...",
+     "antwoord": [
+      "visje",
+      "een visje"
+     ],
+     "uitleg": "Vis wordt visje.",
+     "afbeelding_pad": "/examenvormen/ready/spelling-vis.svg"
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Het verkleinwoord van wat je ziet, is 'boompje'.",
+     "antwoord": true,
+     "uitleg": "Boom wordt boompje, met een p ertussen.",
+     "afbeelding_pad": "/examenvormen/ready/spelling-boom.svg"
     }
    ]
   }
