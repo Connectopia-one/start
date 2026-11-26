@@ -327,6 +327,7 @@ thema(
                 ["das Bein", "het been", "das Knie", "de knie"],
                 ["Kopfschmerzen", "hoofdpijn", "das Fieber", "de koorts"],
                 ["der Arzt, der Zahnarzt", "de dokter, de tandarts", "die Apotheke", "de apotheek"],
+                ["die Nase, der Mund", "de neus, de mond", "die Tabletten", "de pillen"],
             ])),
         ]),
         dict(kop="Kleding, kleuren, vormen en materialen", blokken=[
@@ -381,6 +382,8 @@ thema(
                 ["das Badezimmer", "de badkamer", "der Kühlschrank, der Herd", "de koelkast, het fornuis"],
                 ["die Wohnung", "het appartement", "der Staubsauger", "de stofzuiger"],
                 ["im dritten Stock", "op de derde verdieping", "die Treppe, der Aufzug", "de trap, de lift"],
+                ["das Bett", "het bed", "der Kleiderschrank", "de kleerkast"],
+                ["die Dusche", "de douche", "die Badewanne", "het bad"],
             ])),
         ]),
         dict(kop="De dag en de media", blokken=[
@@ -401,6 +404,8 @@ thema(
                 ["das Fleisch, der Fisch", "het vlees, de vis", "der Saft, der Tee", "het sap, de thee"],
                 ["die Tasse", "de kop", "die Speisekarte", "de menukaart"],
                 ["der Kuchen", "de taart", "die Rechnung", "de rekening"],
+                ["die Erdbeere", "de aardbei", "der Löffel", "de lepel"],
+                ["die Nudeln", "de pasta", "die Wurst", "de worst"],
             ])),
         ]),
         dict(kop="Winkels, hoeveelheden en prijzen", blokken=[
@@ -452,13 +457,14 @@ thema(
                 ["die Hausaufgaben", "het huiswerk", "Lies den Text.", "lees de tekst"],
                 ["der Lehrer, die Lehrerin", "de leraar, de lerares", "Unterstreiche ...", "onderstreep"],
                 ["das Zeugnis", "het rapport", "Übersetze ...", "vertaal"],
+                ["Mathe, Erdkunde, Biologie", "wiskunde, aardrijkskunde, biologie", "Beantworte die Fragen.", "beantwoord de vragen"],
             ])),
         ]),
         dict(kop="Beroepen", blokken=[
             ("p", tabel(["Beroep", "Wat doet die persoon?"], [
                 ["der Koch, die Köchin", "kookt"], ["der Kellner, die Kellnerin", "bedient in een restaurant"],
                 ["der Arzt, die Ärztin", "verzorgt zieken"], ["die Krankenpflegerin", "werkt in het ziekenhuis (das Krankenhaus)"],
-                ["der Mechaniker", "herstelt auto's"], ["der Verkäufer, die Verkäuferin", "verkoopt in een winkel"],
+                ["der Mechaniker", "herstelt auto's in de garage (die Werkstatt)"], ["der Verkäufer, die Verkäuferin", "verkoopt in een winkel"],
             ])),
             ("p", "<em>Was willst du werden?</em> Wat wil je worden? <em>Ich möchte Ärztin werden.</em>"),
         ]),
@@ -885,7 +891,7 @@ thema(
         ]),
         dict(kop="Bijwoorden", blokken=[
             ("p", tabel(["Duits", "Nederlands", "Duits", "Nederlands"], [
-                ["heute, morgen, gestern", "vandaag, morgen, gisteren", "immer, oft, manchmal, nie", "altijd, vaak, soms, nooit"],
+                ["heute, morgen, gestern", "vandaag, morgen, gisteren", "immer, oft, manchmal, selten, nie", "altijd, vaak, soms, zelden, nooit"],
                 ["jetzt, bald, später", "nu, binnenkort, later", "leider, gern, sehr", "helaas, graag, heel"],
                 ["hier, dort", "hier, daar", "schon, noch", "al, nog"],
             ])),
