@@ -1,0 +1,389 @@
+{
+ "hoofdstukken": [
+  {
+   "titel": "Stoffen en materialen — deel 1",
+   "niveau": "ready",
+   "korte_uitleg": "Vast, vloeibaar of gas: ijs, water, damp.",
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Ijs is water in welke vorm?",
+     "opties": [
+      "vast",
+      "vloeibaar",
+      "gas",
+      "poeder"
+     ],
+     "antwoord": 0,
+     "uitleg": "IJs is hard en houdt zijn vorm: het is vast."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat gebeurt er met ijs in de zon?",
+     "opties": [
+      "Het smelt.",
+      "Het bevriest.",
+      "Het wordt harder.",
+      "Het wordt zand."
+     ],
+     "antwoord": 0,
+     "uitleg": "Door de warmte smelt ijs en wordt het water."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Water dat heel heet wordt, verandert in ___. (d...)",
+     "antwoord": [
+      "damp",
+      "waterdamp",
+      "stoom"
+     ],
+     "uitleg": "Kokend water wordt waterdamp, een gas."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Water bevriest bij 0 °C.",
+     "antwoord": true,
+     "uitleg": "Bij 0 °C en kouder wordt water ijs."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke stof is vloeibaar?",
+     "opties": [
+      "melk",
+      "steen",
+      "hout",
+      "lucht"
+     ],
+     "antwoord": 0,
+     "uitleg": "Melk kan je gieten. Het neemt de vorm aan van het glas."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke stof is een gas?",
+     "opties": [
+      "boter",
+      "lucht",
+      "zand",
+      "honing"
+     ],
+     "antwoord": 1,
+     "uitleg": "Lucht zie je niet en vult de hele ruimte."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een vloeistof neemt de vorm aan van de beker waarin je ze giet.",
+     "antwoord": true,
+     "uitleg": "Water in een fles heeft de vorm van de fles, in een glas die van het glas."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat gebeurt er met een plas water na een zonnige dag?",
+     "opties": [
+      "Ze verdampt.",
+      "Ze bevriest.",
+      "Ze wordt groter.",
+      "Ze wordt zout."
+     ],
+     "antwoord": 0,
+     "uitleg": "Door de warmte verdampt het water en gaat het de lucht in."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Chocolade smelt als je ze in je warme hand houdt.",
+     "antwoord": true,
+     "uitleg": "Chocolade smelt al bij lichaamswarmte."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Als water ijs wordt, zeg je dat het ___. (b...)",
+     "antwoord": [
+      "bevriest",
+      "bevriezen"
+     ],
+     "uitleg": "Bevriezen: van vloeibaar naar vast."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waar komt het waterdruppeltje op een koud glas vandaan?",
+     "opties": [
+      "uit de lucht",
+      "uit het glas",
+      "uit de tafel",
+      "uit je hand"
+     ],
+     "antwoord": 0,
+     "uitleg": "Waterdamp uit de lucht wordt weer water op het koude glas."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een steen kan je gieten zoals water.",
+     "antwoord": false,
+     "uitleg": "Een steen is vast. Je kan hem niet gieten."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat zie je boven een pot kokend water?",
+     "opties": [
+      "damp",
+      "ijs",
+      "zand",
+      "rook van vuur"
+     ],
+     "antwoord": 0,
+     "uitleg": "De damp boven de pot is waterdamp die afkoelt tot kleine druppeltjes."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke rij bevat alleen vaste stoffen?",
+     "opties": [
+      "hout, steen, ijzer",
+      "water, melk, olie",
+      "lucht, damp, hout",
+      "sap, steen, melk"
+     ],
+     "antwoord": 0,
+     "uitleg": "Hout, steen en ijzer houden hun vorm."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Boter wordt vloeibaar als je ze in een hete pan legt.",
+     "antwoord": true,
+     "uitleg": "Door de warmte smelt de boter."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Een ijsblokje in een glas limonade ___ na een tijdje. (s...)",
+     "antwoord": [
+      "smelt"
+     ],
+     "uitleg": "Het ijs wordt warmer en smelt."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Gas kan je in je hand vasthouden.",
+     "antwoord": false,
+     "uitleg": "Een gas ontsnapt. Je kan het niet vastnemen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe maak je van water ijsblokjes?",
+     "opties": [
+      "in de diepvries leggen",
+      "in de zon leggen",
+      "opkoken",
+      "roeren"
+     ],
+     "antwoord": 0,
+     "uitleg": "In de diepvries is het kouder dan 0 °C."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "In een ballon die je opblaast, zit niets.",
+     "antwoord": false,
+     "uitleg": "Er zit lucht in, en lucht is een gas."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat gebeurt er met de natte was aan de wasdraad?",
+     "opties": [
+      "Het water verdampt en de was droogt.",
+      "Het water bevriest altijd.",
+      "De was wordt natter.",
+      "Het water verandert in zand."
+     ],
+     "antwoord": 0,
+     "uitleg": "Wind en warmte laten het water verdampen."
+    }
+   ]
+  },
+  {
+   "titel": "Stoffen en materialen — deel 2",
+   "niveau": "ready",
+   "korte_uitleg": "Drijven, zinken, magneten en materialen.",
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat drijft op water?",
+     "opties": [
+      "een kurk",
+      "een sleutel",
+      "een knikker",
+      "een steen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een kurk is licht voor zijn grootte en blijft drijven."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een groot houten blok drijft.",
+     "antwoord": true,
+     "uitleg": "Hout drijft, ook al is het blok groot."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Alles wat zwaar is, zinkt.",
+     "antwoord": false,
+     "uitleg": "Een groot schip is zwaar en drijft toch. Het hangt af van de vorm en het materiaal."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat trekt een magneet aan?",
+     "opties": [
+      "een paperclip van ijzer",
+      "een gom",
+      "een houten potlood met een gommetje",
+      "een plastic beker"
+     ],
+     "antwoord": 0,
+     "uitleg": "Magneten trekken ijzer en staal aan."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een magneet trekt ook papier aan.",
+     "antwoord": false,
+     "uitleg": "Papier is geen metaal. Een magneet trekt het niet aan."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Een magneet heeft een noordpool en een ___pool.",
+     "antwoord": [
+      "zuid",
+      "zuidpool"
+     ],
+     "uitleg": "Elke magneet heeft twee polen: noord en zuid."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat gebeurt er als je twee noordpolen van magneten tegen elkaar houdt?",
+     "opties": [
+      "Ze stoten elkaar af.",
+      "Ze kleven aan elkaar.",
+      "Ze smelten.",
+      "Er gebeurt niets."
+     ],
+     "antwoord": 0,
+     "uitleg": "Gelijke polen stoten af, verschillende polen trekken aan."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk materiaal is doorzichtig?",
+     "opties": [
+      "glas",
+      "hout",
+      "steen",
+      "karton"
+     ],
+     "antwoord": 0,
+     "uitleg": "Door glas kan je kijken."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom is een pan van metaal?",
+     "opties": [
+      "Metaal geleidt warmte goed.",
+      "Metaal is zacht.",
+      "Metaal drijft altijd op water.",
+      "Metaal is doorzichtig."
+     ],
+     "antwoord": 0,
+     "uitleg": "Metaal geeft de warmte van het vuur goed door aan het eten."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Het handvat van een pan is vaak van plastic of hout, zodat je je niet verbrandt.",
+     "antwoord": true,
+     "uitleg": "Plastic en hout geleiden warmte slecht."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Van welk materiaal maak je best een regenjas?",
+     "opties": [
+      "plastic of rubber",
+      "papier",
+      "dikke wollen stof",
+      "karton"
+     ],
+     "antwoord": 0,
+     "uitleg": "Plastic en rubber laten geen water door: ze zijn waterdicht."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Een stof die geen water doorlaat, noem je water___. (d...)",
+     "antwoord": [
+      "dicht",
+      "waterdicht"
+     ],
+     "uitleg": "Waterdicht: het water blijft buiten."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een spons zuigt water op.",
+     "antwoord": true,
+     "uitleg": "Een spons heeft veel gaatjes waarin water blijft zitten."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk materiaal kan je recycleren in de glasbak?",
+     "opties": [
+      "een lege glazen fles",
+      "een plastic zak",
+      "een bruine bananenschil",
+      "een batterij"
+     ],
+     "antwoord": 0,
+     "uitleg": "Glazen flessen en bokalen gaan in de glasbak."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk voorwerp is van een natuurlijk materiaal?",
+     "opties": [
+      "een houten stoel",
+      "een plastic emmer",
+      "een nylon touw",
+      "een glazen vaas"
+     ],
+     "antwoord": 0,
+     "uitleg": "Hout komt van bomen. Plastic en nylon worden in een fabriek gemaakt."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Zout lost op in water.",
+     "antwoord": true,
+     "uitleg": "Roer zout in water: je ziet het niet meer, maar het water smaakt zout."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Zand lost op in water.",
+     "antwoord": false,
+     "uitleg": "Zand zakt naar de bodem. Het lost niet op."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Suiker verdwijnt in warme thee: de suiker lost ___.",
+     "antwoord": [
+      "op"
+     ],
+     "uitleg": "Oplossen: de suiker is er nog, maar je ziet ze niet meer."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Een appelsien zinkt niet, maar een gepelde appelsien wel. Wat zorgt ervoor dat ze eerst drijft?",
+     "opties": [
+      "de schil met luchtbelletjes",
+      "de pitten in het midden",
+      "het sap",
+      "de kleur"
+     ],
+     "antwoord": 0,
+     "uitleg": "In de schil zitten veel luchtbelletjes, die haar laten drijven."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een schip van ijzer kan drijven.",
+     "antwoord": true,
+     "uitleg": "Door zijn holle vorm met veel lucht erin drijft een ijzeren schip."
+    }
+   ]
+  }
+ ]
+}

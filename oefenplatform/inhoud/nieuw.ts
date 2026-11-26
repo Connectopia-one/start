@@ -41,6 +41,12 @@ export const nieuwTekst = {
 export const updates: Update[] = [
   {
     datum: "26 november 2026",
+    titel: "Ready: wereldoriëntatie erbij",
+    tekst:
+      "Bij 🎒 Ready staan nu ook wetenschap en techniek (planten en dieren, mijn lichaam, stoffen en materialen, techniek rondom ons, natuur en milieu), aardrijkskunde (kaarten lezen, België, de wereld) en geschiedenis (tijd en vroeger, hoe leefden mensen vroeger, samenleven). Telkens twee keer 20 vragen, met een leerbundel en een oefenbundel vol kleine proefjes en opdrachten om zelf te tekenen.",
+  },
+  {
+    datum: "26 november 2026",
     titel: "Frans: la chambre duidelijker uitgelegd",
     tekst:
       "Bij Spark Frans, woordenschat eten, wonen, kleding en dagelijkse dingen, vragen we nu wat la chambre betekent in een huis: de slaapkamer, voluit la chambre à coucher. In de uitleg staat er nu ook bij dat une chambre in een hotel gewoon je kamer is, en dat een kamer in het algemeen une pièce heet.",

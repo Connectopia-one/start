@@ -1,0 +1,385 @@
+{
+ "hoofdstukken": [
+  {
+   "titel": "Kaarten lezen — deel 1",
+   "niveau": "ready",
+   "korte_uitleg": "Een plattegrond is een kaart van bovenaf.",
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een plattegrond?",
+     "opties": [
+      "een tekening van bovenaf",
+      "een foto van de zijkant van een huis",
+      "een schilderij van een huis",
+      "een lijst met namen van straten"
+     ],
+     "antwoord": 0,
+     "uitleg": "Op een plattegrond kijk je van boven naar beneden, zoals een vogel."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe heet het lijstje dat uitlegt wat de tekentjes op een kaart betekenen?",
+     "opties": [
+      "de legende",
+      "de titel",
+      "het register",
+      "de inhoud"
+     ],
+     "antwoord": 0,
+     "uitleg": "In de legende staat bijvoorbeeld: blauw = water, groen = bos."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Op een kaart is water meestal blauw.",
+     "antwoord": true,
+     "uitleg": "Rivieren, meren en de zee kleur je blauw."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke kleur heeft een bos meestal op een kaart?",
+     "opties": [
+      "groen",
+      "rood",
+      "blauw",
+      "geel"
+     ],
+     "antwoord": 0,
+     "uitleg": "Groen staat vaak voor bos of park."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Een plattegrond van je klas teken je zoals je hem ziet van ___. (b...)",
+     "antwoord": [
+      "boven",
+      "bovenaf"
+     ],
+     "uitleg": "Van bovenaf zie je de tafels als rechthoeken."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Op een plattegrond zie je de daken en niet de muren van de zijkant.",
+     "antwoord": true,
+     "uitleg": "Je kijkt van bovenaf, dus je ziet de bovenkant."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe ziet een ronde tafel eruit op een plattegrond?",
+     "opties": [
+      "als een cirkel",
+      "als een vierkant",
+      "als een driehoek",
+      "als een lijn"
+     ],
+     "antwoord": 0,
+     "uitleg": "Van boven zie je de ronde vorm van het tafelblad."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een kaart is altijd even groot als de echte plaats.",
+     "antwoord": false,
+     "uitleg": "Een kaart is veel kleiner. Alles wordt verkleind getekend."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom zet men op een kaart tekentjes in plaats van foto's?",
+     "opties": [
+      "Zo blijft de kaart duidelijk.",
+      "Omdat foto's op kaarten verboden zijn.",
+      "Omdat tekentjes duurder zijn.",
+      "Omdat niemand foto's kan maken."
+     ],
+     "antwoord": 0,
+     "uitleg": "Kleine tekentjes maken een kaart overzichtelijk."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe heet een boek vol kaarten? Een ___. (a...)",
+     "antwoord": [
+      "atlas"
+     ],
+     "uitleg": "In een atlas vind je kaarten van België en de hele wereld."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat toont een stadsplan?",
+     "opties": [
+      "de straten van een stad",
+      "de sterren aan de hemel",
+      "het weer van morgen",
+      "de bloemen in je tuin"
+     ],
+     "antwoord": 0,
+     "uitleg": "Met een stadsplan vind je je weg in een stad."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een wereldbol is een ronde kaart van de aarde.",
+     "antwoord": true,
+     "uitleg": "Een globe of wereldbol toont de aarde zoals ze echt is: rond."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk tekentje gebruik je vaak voor een kerk op een kaart?",
+     "opties": [
+      "een kruisje",
+      "een vis",
+      "een boom",
+      "een golflijn"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een kruisje staat vaak voor een kerk."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De legende staat altijd in het midden van de kaart.",
+     "antwoord": false,
+     "uitleg": "De legende staat meestal in een hoek of naast de kaart."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat zie je op een kaart als een dikke rode of gele lijn?",
+     "opties": [
+      "een grote weg",
+      "een rivier",
+      "een bos",
+      "een meer"
+     ],
+     "antwoord": 0,
+     "uitleg": "Grote wegen en autosnelwegen tekent men vaak met kleur en dikke lijnen."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Een kaart toont alles kleiner. Dat noem je ver___. (k...)",
+     "antwoord": [
+      "kleind",
+      "verkleind"
+     ],
+     "uitleg": "Alles wordt even veel verkleind, zodat de kaart klopt."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Op een plattegrond van je kamer kan je je bed tekenen als een rechthoek.",
+     "antwoord": true,
+     "uitleg": "Van bovenaf is een bed een rechthoek."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat heb je het best nodig om op een wandeling in het bos je weg te vinden?",
+     "opties": [
+      "een wandelkaart",
+      "een kookboek",
+      "een woordenboek",
+      "een strip"
+     ],
+     "antwoord": 0,
+     "uitleg": "Op een wandelkaart staan de paden."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een gsm kan ook een kaart tonen.",
+     "antwoord": true,
+     "uitleg": "Met een kaartenapp zie je waar je bent."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Op een kaart worden huizen getekend zoals je ze van voren ziet.",
+     "antwoord": false,
+     "uitleg": "Op een kaart kijk je van bovenaf."
+    }
+   ]
+  },
+  {
+   "titel": "Kaarten lezen — deel 2",
+   "niveau": "ready",
+   "korte_uitleg": "Noord, oost, zuid en west, en de weg vinden.",
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat zijn de vier windrichtingen?",
+     "opties": [
+      "noord, oost, zuid, west",
+      "links, rechts, voor, achter",
+      "boven, onder, binnen, buiten",
+      "dag, nacht, ochtend, avond"
+     ],
+     "antwoord": 0,
+     "uitleg": "Noord, oost, zuid en west. Onthoud: Nooit Oost Zonder Wortelen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waar is het noorden meestal op een kaart?",
+     "opties": [
+      "bovenaan",
+      "onderaan",
+      "links",
+      "rechts"
+     ],
+     "antwoord": 0,
+     "uitleg": "Op de meeste kaarten wijst het noorden naar boven."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Op een kaart met het noorden boven is het oosten rechts.",
+     "antwoord": true,
+     "uitleg": "Noord boven, oost rechts, zuid onder, west links."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Als het noorden boven is, dan is het westen ___.",
+     "antwoord": [
+      "links"
+     ],
+     "uitleg": "West staat links, oost rechts."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk toestel wijst altijd naar het noorden?",
+     "opties": [
+      "een kompas",
+      "een thermometer",
+      "een klok",
+      "een weegschaal"
+     ],
+     "antwoord": 0,
+     "uitleg": "De naald van een kompas wijst naar het noorden."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "In welke richting komt de zon 's morgens op?",
+     "opties": [
+      "in het oosten",
+      "in het westen",
+      "in het noorden",
+      "in het zuiden"
+     ],
+     "antwoord": 0,
+     "uitleg": "De zon komt op in het oosten en gaat onder in het westen."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De zon gaat onder in het oosten.",
+     "antwoord": false,
+     "uitleg": "De zon gaat onder in het westen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Brugge ligt links van Brussel op de kaart. In welke richting ligt Brugge dan van Brussel uit?",
+     "opties": [
+      "het westen",
+      "het oosten",
+      "het noorden",
+      "het zuiden"
+     ],
+     "antwoord": 0,
+     "uitleg": "Links op de kaart is het westen."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Tussen noord en oost ligt het ___. (n... o...)",
+     "antwoord": [
+      "noordoosten",
+      "noordoost"
+     ],
+     "uitleg": "Tussen noord en oost: noordoost."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Nederland ligt ten noorden van België.",
+     "antwoord": true,
+     "uitleg": "Op de kaart ligt Nederland boven België."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk land ligt ten zuiden van België?",
+     "opties": [
+      "Frankrijk",
+      "Nederland",
+      "Engeland",
+      "Noorwegen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Frankrijk ligt onder België op de kaart."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je loopt naar het noorden en draait rechtsom. Naar waar loop je nu?",
+     "opties": [
+      "het oosten",
+      "het westen",
+      "het zuiden",
+      "het noorden"
+     ],
+     "antwoord": 0,
+     "uitleg": "Na noord komt rechtsom oost."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een routebeschrijving vertelt hoe je ergens geraakt.",
+     "antwoord": true,
+     "uitleg": "Bijvoorbeeld: ga rechtdoor, dan de tweede straat links."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Op een rooster staat de school in vak C2 en het park in vak C4. Wat is waar?",
+     "opties": [
+      "Ze liggen in dezelfde kolom.",
+      "Ze liggen in dezelfde rij.",
+      "Ze liggen in hetzelfde vak.",
+      "Ze liggen in verschillende landen."
+     ],
+     "antwoord": 0,
+     "uitleg": "Allebei kolom C, maar een andere rij."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Op een kaart met een schaal staat: 1 cm = 1 km. Twee plaatsen liggen 3 cm uit elkaar. In het echt is dat ___ km.",
+     "antwoord": "3",
+     "uitleg": "Elke cm op de kaart is 1 km in het echt: 3 km."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De zee ligt in het oosten van België.",
+     "antwoord": false,
+     "uitleg": "De Belgische kust ligt in het westen, aan de Noordzee."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom wijst de naald van een kompas naar het noorden?",
+     "opties": [
+      "De aarde werkt als een grote magneet.",
+      "De wind duwt ze.",
+      "Ze is zo vastgelijmd.",
+      "Er zit een batterij in."
+     ],
+     "antwoord": 0,
+     "uitleg": "De naald is een kleine magneet die zich richt naar de magnetische noordpool."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Op elke kaart staat het noorden onderaan.",
+     "antwoord": false,
+     "uitleg": "Meestal staat het noorden bovenaan. Soms toont een pijltje met een N waar het noorden is."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat betekent een pijltje met een N op een kaart?",
+     "opties": [
+      "Daar is het noorden.",
+      "Daar is een nooduitgang.",
+      "Daar is niets.",
+      "Daar is een nieuwe straat."
+     ],
+     "antwoord": 0,
+     "uitleg": "De N wijst naar het noorden."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "In het zuiden van België liggen de Ardennen.",
+     "antwoord": true,
+     "uitleg": "De Ardennen liggen in het zuiden en zuidoosten van België."
+    }
+   ]
+  }
+ ]
+}

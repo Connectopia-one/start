@@ -1,0 +1,386 @@
+{
+ "hoofdstukken": [
+  {
+   "titel": "Hoe leefden mensen vroeger? — deel 1",
+   "niveau": "ready",
+   "korte_uitleg": "De eerste mensen en de Romeinen.",
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe kwamen de eerste mensen aan hun eten?",
+     "opties": [
+      "door te jagen en te verzamelen",
+      "in de supermarkt om de hoek",
+      "met een pizzakoerier op de fiets",
+      "uit de diepvries"
+     ],
+     "antwoord": 0,
+     "uitleg": "Ze jaagden op dieren en zochten bessen, noten en wortels."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De eerste mensen maakten werktuigen van steen.",
+     "antwoord": true,
+     "uitleg": "Daarom noemt men die tijd ook de steentijd."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom trokken de eerste jagers rond?",
+     "opties": [
+      "Ze zochten eten.",
+      "Ze waren op reis voor hun plezier.",
+      "Ze moesten naar school.",
+      "Ze zochten een winkel."
+     ],
+     "antwoord": 0,
+     "uitleg": "Als het eten op was, trokken ze verder."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Mensen die op één plaats bleven wonen en graan zaaiden, werden de eerste ___. (b...)",
+     "antwoord": [
+      "boeren",
+      "boer"
+     ],
+     "uitleg": "Ze bouwden huizen, hielden dieren en zaaiden graan."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat ontdekten de eerste mensen dat hen warm hield en waarop ze konden koken?",
+     "opties": [
+      "vuur",
+      "elektriciteit",
+      "gas",
+      "de microgolfoven"
+     ],
+     "antwoord": 0,
+     "uitleg": "Vuur gaf warmte, licht en bescherming."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De eerste mensen maakten nooit tekeningen.",
+     "antwoord": false,
+     "uitleg": "In grotten vond men tekeningen van dieren, zoals paarden en bizons."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "In de prehistorie konden de mensen al lezen en schrijven.",
+     "antwoord": false,
+     "uitleg": "Prehistorie betekent: de tijd vóór het schrift."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waar komen de Romeinen oorspronkelijk vandaan?",
+     "opties": [
+      "uit Rome",
+      "uit Brugge",
+      "uit Amerika",
+      "uit China"
+     ],
+     "antwoord": 0,
+     "uitleg": "Rome ligt in Italië. Van daaruit veroverden ze een groot rijk."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke Belgische stad gaat terug tot de Romeinen en geldt als de oudste stad van België?",
+     "opties": [
+      "Tongeren",
+      "Genk",
+      "Oostende",
+      "Leuven"
+     ],
+     "antwoord": 0,
+     "uitleg": "Tongeren was een Romeinse stad: Atuatuca Tungrorum."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "De Romeinen spraken ___. (L...)",
+     "antwoord": [
+      "Latijn"
+     ],
+     "uitleg": "Veel woorden in onze taal komen uit het Latijn, zoals muur (murus) en straat (strata)."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De Romeinen hadden alleen kronkelige zandpaadjes.",
+     "antwoord": false,
+     "uitleg": "De Romeinen legden lange, rechte wegen aan. Daarover trokken soldaten en handelaars."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke cijfers gebruikten de Romeinen?",
+     "opties": [
+      "I, V, X, L, C",
+      "1, 2, 3, 4, 5",
+      "a, b, c, d",
+      "geen cijfers"
+     ],
+     "antwoord": 0,
+     "uitleg": "Romeinse cijfers zie je nog op sommige klokken: XII is 12."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Het Romeinse cijfer V betekent ___.",
+     "antwoord": "5",
+     "uitleg": "I = 1, V = 5, X = 10."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe heette de leider van het Romeinse Rijk?",
+     "opties": [
+      "de keizer",
+      "de burgemeester",
+      "de juf",
+      "de koning van België"
+     ],
+     "antwoord": 0,
+     "uitleg": "Julius Caesar en Augustus zijn bekende Romeinse leiders."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De Romeinen brachten nieuwe dingen naar onze streken, zoals stenen huizen en badhuizen.",
+     "antwoord": true,
+     "uitleg": "Ze bouwden met steen en hadden openbare badhuizen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe noemt men de mensen die hier woonden toen de Romeinen kwamen?",
+     "opties": [
+      "de Galliërs (Kelten)",
+      "de Vikingen",
+      "de Amerikanen",
+      "de Chinezen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Julius Caesar vocht tegen stammen in Gallië, ook in onze streken."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Ambiorix is een bekende leider die tegen de Romeinen vocht.",
+     "antwoord": true,
+     "uitleg": "Er staat een standbeeld van Ambiorix in Tongeren."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is XI in gewone cijfers?",
+     "opties": [
+      "9",
+      "11",
+      "15",
+      "110"
+     ],
+     "antwoord": 1,
+     "uitleg": "X = 10 en I = 1: 10 + 1 = 11."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De Romeinen hadden al auto's om over hun wegen te rijden.",
+     "antwoord": false,
+     "uitleg": "Ze reden met karren, te paard of liepen."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een archeoloog graaft voorwerpen uit de grond om meer te weten over vroeger.",
+     "antwoord": true,
+     "uitleg": "Zo vond men in Tongeren veel Romeinse voorwerpen."
+    }
+   ]
+  },
+  {
+   "titel": "Hoe leefden mensen vroeger? — deel 2",
+   "niveau": "ready",
+   "korte_uitleg": "Ridders, kastelen en steden.",
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Wie droeg een harnas en vocht te paard in de middeleeuwen?",
+     "opties": [
+      "een ridder",
+      "een boer",
+      "een monnik",
+      "een koopman"
+     ],
+     "antwoord": 0,
+     "uitleg": "Ridders vochten voor hun heer, te paard en met een zwaard."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom stond een kasteel vaak op een heuvel of had het een gracht?",
+     "opties": [
+      "om zich beter te kunnen verdedigen",
+      "voor het mooie uitzicht",
+      "om makkelijk te zwemmen",
+      "om vissen te kweken"
+     ],
+     "antwoord": 0,
+     "uitleg": "Vijanden konden er zo moeilijk binnen."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Een brug die je omhoog kan trekken voor een kasteel, heet een ___brug. (o...)",
+     "antwoord": [
+      "ophaal",
+      "ophaalbrug"
+     ],
+     "uitleg": "Met de ophaalbrug kon het kasteel afgesloten worden."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Het Gravensteen in Gent werd gebouwd door de Romeinen.",
+     "antwoord": false,
+     "uitleg": "Het Gravensteen is een middeleeuwse burcht. De graven van Vlaanderen woonden er."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat deed een schildknaap?",
+     "opties": [
+      "Hij hielp een ridder.",
+      "Hij schilderde schilden in alle kleuren.",
+      "Hij was een soort leraar.",
+      "Hij bakte brood."
+     ],
+     "antwoord": 0,
+     "uitleg": "Een jongen werd eerst page, dan schildknaap en daarna ridder."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waar woonden en werkten de monniken?",
+     "opties": [
+      "in een abdij of klooster",
+      "in een kasteel",
+      "op een schip",
+      "in een fabriek"
+     ],
+     "antwoord": 0,
+     "uitleg": "Monniken baden, werkten en schreven boeken over met de hand."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "In de middeleeuwen werden boeken met de hand overgeschreven.",
+     "antwoord": true,
+     "uitleg": "De drukpers kwam pas op het einde van de middeleeuwen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat was een gilde?",
+     "opties": [
+      "mensen met hetzelfde beroep",
+      "een soort kasteel",
+      "een wapen",
+      "een feestdag"
+     ],
+     "antwoord": 0,
+     "uitleg": "Bakkers, smeden en wevers hadden elk hun eigen gilde."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "In de middeleeuwen werden steden beschermd door hoge ___. (m...)",
+     "antwoord": [
+      "muren",
+      "stadsmuren",
+      "stadsmuur"
+     ],
+     "uitleg": "Een stadsmuur met poorten hield vijanden buiten."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De meeste mensen in de middeleeuwen waren ridders.",
+     "antwoord": false,
+     "uitleg": "De meeste mensen waren boeren die op het land werkten."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk gebouw in een middeleeuwse stad diende als uitkijktoren en bewaarde belangrijke papieren?",
+     "opties": [
+      "het belfort",
+      "de bakkerij",
+      "de stal",
+      "de molen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Belforten staan nog in Brugge, Gent en andere steden."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe kreeg men licht in een kasteel?",
+     "opties": [
+      "met kaarsen en fakkels",
+      "met lampen op batterijen",
+      "met elektrisch licht",
+      "met zaklampen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Elektriciteit bestond nog niet."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een riddertoernooi was een wedstrijd tussen boeren.",
+     "antwoord": false,
+     "uitleg": "Het was een wedstrijd tussen ridders: ze reden met een lans op elkaar af."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Een kasteel met een gracht errond: in de gracht zat ___.",
+     "antwoord": [
+      "water"
+     ],
+     "uitleg": "Een gracht is een brede sloot met water."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat was een markt in een middeleeuwse stad?",
+     "opties": [
+      "een plein om te kopen en verkopen",
+      "een ridderkamp",
+      "een school",
+      "een ziekenhuis voor zieke ridders"
+     ],
+     "antwoord": 0,
+     "uitleg": "Op de Grote Markt kwamen boeren en handelaars samen."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Lakens van wol maakten Vlaamse steden zoals Brugge en Ieper rijk.",
+     "antwoord": true,
+     "uitleg": "Vlaams laken werd tot ver buiten Vlaanderen verkocht."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat at een gewone boer in de middeleeuwen meestal?",
+     "opties": [
+      "brood, pap en groenten",
+      "frietjes met mayonaise en stoofvlees",
+      "pizza",
+      "sushi"
+     ],
+     "antwoord": 0,
+     "uitleg": "Vlees was duur. Boeren aten vooral brood, pap en groenten."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Kinderen van boeren gingen in de middeleeuwen allemaal naar school.",
+     "antwoord": false,
+     "uitleg": "De meeste kinderen hielpen op het land. Weinig kinderen leerden lezen en schrijven."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke volgorde gaat van vroeg naar laat?",
+     "opties": [
+      "prehistorie, Romeinen, middeleeuwen",
+      "middeleeuwen, Romeinen, prehistorie",
+      "Romeinen, prehistorie, middeleeuwen",
+      "prehistorie, middeleeuwen, Romeinen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Eerst de prehistorie, dan de Romeinen en daarna de middeleeuwen."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Ridders leefden na de Romeinen.",
+     "antwoord": true,
+     "uitleg": "De middeleeuwen, de tijd van de ridders, kwamen na de Romeinse tijd."
+    }
+   ]
+  }
+ ]
+}

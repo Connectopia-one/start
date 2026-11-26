@@ -1,0 +1,386 @@
+{
+ "hoofdstukken": [
+  {
+   "titel": "Tijd en vroeger — deel 1",
+   "niveau": "ready",
+   "korte_uitleg": "Jaren, eeuwen en de tijdsbalk.",
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoeveel jaar is een eeuw?",
+     "opties": [
+      "10 jaar",
+      "50 jaar",
+      "100 jaar",
+      "1 000 jaar"
+     ],
+     "antwoord": 2,
+     "uitleg": "Een eeuw duurt 100 jaar."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Een periode van 10 jaar heet een ___. (d...)",
+     "antwoord": [
+      "decennium"
+     ],
+     "uitleg": "Tien jaar is een decennium."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een tijdsbalk?",
+     "opties": [
+      "een lijn waarop je gebeurtenissen in volgorde zet",
+      "een balk om op te turnen",
+      "een klok aan de muur",
+      "een kalender voor één week"
+     ],
+     "antwoord": 0,
+     "uitleg": "Op een tijdsbalk staat wat eerst gebeurde links, wat later gebeurde rechts."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Op een tijdsbalk staat wat het langst geleden is meestal links.",
+     "antwoord": true,
+     "uitleg": "Van links naar rechts ga je van vroeger naar later."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk jaar komt eerst?",
+     "opties": [
+      "1950",
+      "2010",
+      "1990",
+      "2026"
+     ],
+     "antwoord": 0,
+     "uitleg": "1950 is het langst geleden."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "In welke eeuw leven we nu? De ___ste eeuw.",
+     "antwoord": [
+      "21",
+      "21ste",
+      "eenentwintig"
+     ],
+     "uitleg": "De jaren 2001 tot 2100 vormen de 21ste eeuw."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Je oma is later geboren dan jij.",
+     "antwoord": false,
+     "uitleg": "Oma is ouder, dus eerder geboren."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Zet in volgorde, van vroeg naar laat: baby, kleuter, volwassene, kind.",
+     "opties": [
+      "baby, kleuter, kind, volwassene",
+      "kind, baby, kleuter, volwassene",
+      "volwassene, kind, kleuter, baby",
+      "kleuter, baby, kind, volwassene"
+     ],
+     "antwoord": 0,
+     "uitleg": "Eerst ben je baby, dan kleuter, dan kind en later volwassene."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoeveel jaar is het van 2016 tot 2026?",
+     "opties": [
+      "6 jaar",
+      "10 jaar",
+      "16 jaar",
+      "26 jaar"
+     ],
+     "antwoord": 1,
+     "uitleg": "2026 − 2016 = 10 jaar."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Het jaar 1800 ligt dichter bij nu dan het jaar 1900.",
+     "antwoord": false,
+     "uitleg": "1900 ligt dichter bij nu. 1800 is honderd jaar vroeger."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarmee kan je te weten komen hoe het vroeger was?",
+     "opties": [
+      "met oude foto's en verhalen van oma en opa",
+      "met de weersverwachting",
+      "met een rekenmachine",
+      "met een nieuwe gsm"
+     ],
+     "antwoord": 0,
+     "uitleg": "Oude foto's, voorwerpen en verhalen zijn bronnen over vroeger."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Iets waaruit je leert over vroeger, zoals een oude brief, heet een ___. (b...)",
+     "antwoord": [
+      "bron"
+     ],
+     "uitleg": "Een bron vertelt je iets over het verleden."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een oude munt kan een bron zijn.",
+     "antwoord": true,
+     "uitleg": "Ook voorwerpen vertellen iets over vroeger."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat betekent 'eeuwenoud'?",
+     "opties": [
+      "heel erg oud",
+      "een beetje oud",
+      "nieuw",
+      "van vorig jaar"
+     ],
+     "antwoord": 0,
+     "uitleg": "Eeuwenoud is honderden jaren oud."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke gebeurtenis is het langst geleden?",
+     "opties": [
+      "de tijd van de Romeinen",
+      "de eerste mens op de maan",
+      "de uitvinding van de gsm",
+      "jouw geboorte"
+     ],
+     "antwoord": 0,
+     "uitleg": "De Romeinen leefden ongeveer 2 000 jaar geleden."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De eerste mens op de maan was in 1969.",
+     "antwoord": true,
+     "uitleg": "Neil Armstrong zette in 1969 als eerste mens een voet op de maan."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Jan is in 2017 geboren. In 2026 wordt hij ___ jaar.",
+     "antwoord": "9",
+     "uitleg": "2026 − 2017 = 9."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "In het jaar 1500 bestonden er al auto's.",
+     "antwoord": false,
+     "uitleg": "Auto's bestaan pas sinds ongeveer 140 jaar. In 1500 reed men te paard."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat komt na de 20ste eeuw?",
+     "opties": [
+      "de 21ste eeuw",
+      "de 19de eeuw",
+      "de 10de eeuw",
+      "de 30ste eeuw"
+     ],
+     "antwoord": 0,
+     "uitleg": "Na 20 komt 21."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Gisteren is ook al geschiedenis.",
+     "antwoord": true,
+     "uitleg": "Alles wat voorbij is, hoort bij het verleden."
+    }
+   ]
+  },
+  {
+   "titel": "Tijd en vroeger — deel 2",
+   "niveau": "ready",
+   "korte_uitleg": "Vroeger en nu, en je familie.",
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat had een gezin 100 jaar geleden meestal NIET in huis?",
+     "opties": [
+      "een televisie",
+      "een tafel",
+      "een bed",
+      "een kast"
+     ],
+     "antwoord": 0,
+     "uitleg": "De televisie kwam in België pas in de jaren 1950."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe wasten mensen vroeger hun kleren, voor er wasmachines waren?",
+     "opties": [
+      "met de hand",
+      "in de afwasmachine van de buren",
+      "met een stofzuiger",
+      "ze wasten nooit"
+     ],
+     "antwoord": 0,
+     "uitleg": "Ze schrobden de was met de hand op een wasbord."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Je grootouders gingen als kind al naar school.",
+     "antwoord": true,
+     "uitleg": "Ook zij gingen naar school, maar met andere boeken en zonder computers."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe schreven kinderen vroeger vaak op school?",
+     "opties": [
+      "met een griffel op een lei",
+      "op een laptop van de school",
+      "op een tablet met een pennetje",
+      "met een gsm"
+     ],
+     "antwoord": 0,
+     "uitleg": "Ze schreven met een griffel op een leitje dat je kon uitvegen."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Een tekening met je ouders, grootouders en overgrootouders heet een ___. (s...)",
+     "antwoord": [
+      "stamboom"
+     ],
+     "uitleg": "In een stamboom zie je wie bij je familie hoort."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Je overgrootouders zijn de ouders van je grootouders.",
+     "antwoord": true,
+     "uitleg": "Over-groot: nog een generatie verder terug."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wie is de moeder van je vader?",
+     "opties": [
+      "je oma",
+      "je tante",
+      "je zus",
+      "je nicht"
+     ],
+     "antwoord": 0,
+     "uitleg": "De ouders van je ouders zijn je grootouders."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een generatie?",
+     "opties": [
+      "mensen in een familie die ongeveer even oud zijn",
+      "een soort auto",
+      "een feest",
+      "een land"
+     ],
+     "antwoord": 0,
+     "uitleg": "Jij en je broers en zussen zijn één generatie, je ouders een andere."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Vroeger hadden alle mensen een telefoon in hun broekzak.",
+     "antwoord": false,
+     "uitleg": "Gsm's bestaan pas sinds ongeveer 30 jaar."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe gingen veel mensen 150 jaar geleden op reis?",
+     "opties": [
+      "met paard en kar",
+      "met het vliegtuig",
+      "met de elektrische auto",
+      "met de raket naar de maan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Paard en kar en de stoomtrein waren toen de manieren om te reizen."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Een plaats waar je oude voorwerpen kan bekijken, heet een ___. (m...)",
+     "antwoord": [
+      "museum"
+     ],
+     "uitleg": "In een museum leer je over vroeger."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Speelgoed van vroeger was vaak van hout.",
+     "antwoord": true,
+     "uitleg": "Plastic speelgoed bestaat nog niet zo lang."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat hebben kinderen vroeger en nu allebei gedaan?",
+     "opties": [
+      "buiten spelen",
+      "gamen op een computer",
+      "videobellen",
+      "met een tablet tekenen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Buiten spelen deden kinderen altijd al."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom kookten mensen vroeger vaak op een kachel of houtvuur?",
+     "opties": [
+      "Er was nog geen elektrisch fornuis.",
+      "Ze vonden dat gezelliger dan een restaurant.",
+      "Het was verplicht.",
+      "Ze hadden geen honger."
+     ],
+     "antwoord": 0,
+     "uitleg": "Elektrische fornuizen en microgolfovens bestonden nog niet."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Je kan je grootouders interviewen om te weten hoe het vroeger was.",
+     "antwoord": true,
+     "uitleg": "Vragen stellen aan ouderen is een goede manier om over vroeger te leren."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Je mama en papa zijn je ___. (o...)",
+     "antwoord": [
+      "ouders"
+     ],
+     "uitleg": "Je ouders zijn de generatie boven jou."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Vroeger was alles beter.",
+     "antwoord": false,
+     "uitleg": "Sommige dingen waren anders of trager, andere waren moeilijker. Dat is geen kwestie van beter of slechter, maar van anders."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk voorwerp is het nieuwst?",
+     "opties": [
+      "een smartphone",
+      "een kaars",
+      "een stoomtrein",
+      "een ganzenveer om te schrijven"
+     ],
+     "antwoord": 0,
+     "uitleg": "Smartphones bestaan pas sinds een jaar of twintig."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Elektrisch licht bestond al bij de ridders.",
+     "antwoord": false,
+     "uitleg": "Ridders gebruikten kaarsen en fakkels. Elektrisch licht kwam veel later."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat toont een oude foto van je straat?",
+     "opties": [
+      "hoe je straat er vroeger uitzag",
+      "hoe je straat er later uit zal zien",
+      "het weer van vandaag",
+      "de prijs van een huis"
+     ],
+     "antwoord": 0,
+     "uitleg": "Vergelijk de oude foto met nu: wat is er veranderd?"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,386 @@
+{
+ "hoofdstukken": [
+  {
+   "titel": "Mijn lichaam — deel 1",
+   "niveau": "ready",
+   "korte_uitleg": "Je vijf zintuigen, je botten en spieren.",
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Met welk zintuig proef je?",
+     "opties": [
+      "neus",
+      "tong",
+      "oor",
+      "huid"
+     ],
+     "antwoord": 1,
+     "uitleg": "Met je tong proef je zoet, zout, zuur en bitter."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoeveel zintuigen heb je? ___",
+     "antwoord": "5",
+     "uitleg": "Zien, horen, ruiken, proeven en voelen: vijf zintuigen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Met welk zintuig hoor je een vogel fluiten?",
+     "opties": [
+      "ogen",
+      "oren",
+      "neus",
+      "tong"
+     ],
+     "antwoord": 1,
+     "uitleg": "Geluid vang je op met je oren."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk zintuig gebruik je om te voelen of water warm is?",
+     "opties": [
+      "je huid",
+      "je ogen",
+      "je oren",
+      "je neus"
+     ],
+     "antwoord": 0,
+     "uitleg": "Met je huid voel je warm en koud, zacht en ruw."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Als je verkouden bent, proef je minder goed.",
+     "antwoord": true,
+     "uitleg": "Ruiken en proeven werken samen. Met een verstopte neus proef je minder."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Je mag recht in de zon kijken, dat is goed voor je ogen.",
+     "antwoord": false,
+     "uitleg": "Recht in de zon kijken kan je ogen beschadigen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat beschermt je hersenen?",
+     "opties": [
+      "je ribben",
+      "je schedel",
+      "je knie",
+      "je ruggengraat"
+     ],
+     "antwoord": 1,
+     "uitleg": "De schedel is een harde doos van bot rond je hersenen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat beschermen je ribben?",
+     "opties": [
+      "je hart en longen",
+      "je voeten",
+      "je oren",
+      "je tanden"
+     ],
+     "antwoord": 0,
+     "uitleg": "De ribben vormen een kooi rond je hart en longen."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Al je botten samen noem je je ___. (s...)",
+     "antwoord": [
+      "skelet",
+      "geraamte"
+     ],
+     "uitleg": "Het skelet geeft je lichaam stevigheid en vorm."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Spieren zorgen ervoor dat je kan bewegen.",
+     "antwoord": true,
+     "uitleg": "Spieren trekken aan je botten. Zo kan je lopen, springen en zwaaien."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe heet de plaats waar twee botten samenkomen en je kan buigen?",
+     "opties": [
+      "een gewricht",
+      "een spier",
+      "een pees",
+      "een nagel"
+     ],
+     "antwoord": 0,
+     "uitleg": "Je knie, elleboog en schouder zijn gewrichten."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een baby heeft geen botten.",
+     "antwoord": false,
+     "uitleg": "Een baby heeft wel botten. Ze zijn nog zacht en groeien mee."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom is het goed om veel te bewegen?",
+     "opties": [
+      "Je spieren en botten worden sterker.",
+      "Je wordt er moe van en dat is altijd slecht.",
+      "Je hebt dan geen eten meer nodig.",
+      "Je groeit er niet meer van."
+     ],
+     "antwoord": 0,
+     "uitleg": "Bewegen maakt je spieren, botten en hart sterker."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is de ruggengraat?",
+     "opties": [
+      "een rij botjes in je rug",
+      "een spier in je buik",
+      "een bot in je arm",
+      "een deel van je schedel"
+     ],
+     "antwoord": 0,
+     "uitleg": "De ruggengraat bestaat uit veel kleine wervels op elkaar."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Met je ___ zie je kleuren en vormen.",
+     "antwoord": [
+      "ogen",
+      "oog"
+     ],
+     "uitleg": "Je ogen vangen licht op."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Je huid is ook een zintuig.",
+     "antwoord": true,
+     "uitleg": "Met je huid voel je, dus het is een zintuig."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom draag je een fietshelm?",
+     "opties": [
+      "om je hoofd te beschermen als je valt",
+      "om sneller te fietsen",
+      "tegen de regen",
+      "omdat het mooi staat"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een helm beschermt je schedel en hersenen."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Luide muziek kan je oren beschadigen.",
+     "antwoord": true,
+     "uitleg": "Te luid geluid kan je gehoor voor altijd beschadigen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Met welk zintuig merk je dat er iets aanbrandt in de keuken?",
+     "opties": [
+      "je neus",
+      "je tong",
+      "je oren",
+      "je vingers"
+     ],
+     "antwoord": 0,
+     "uitleg": "Je ruikt de brandgeur met je neus."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Botten kunnen niet breken.",
+     "antwoord": false,
+     "uitleg": "Botten zijn stevig, maar bij een harde val kunnen ze breken. Ze groeien dan weer aan elkaar."
+    }
+   ]
+  },
+  {
+   "titel": "Mijn lichaam — deel 2",
+   "niveau": "ready",
+   "korte_uitleg": "Hart, longen en gezond leven.",
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat doet je hart?",
+     "opties": [
+      "Het pompt bloed door je lichaam.",
+      "Het maakt nieuwe lucht voor je longen.",
+      "Het verteert je eten.",
+      "Het laat je denken."
+     ],
+     "antwoord": 0,
+     "uitleg": "Je hart is een spier die bloed rondpompt."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarmee adem je?",
+     "opties": [
+      "maag",
+      "longen",
+      "lever",
+      "hart"
+     ],
+     "antwoord": 1,
+     "uitleg": "Met je longen adem je zuurstof in."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Na het lopen klopt je hart sneller.",
+     "antwoord": true,
+     "uitleg": "Je spieren hebben dan meer zuurstof nodig, dus pompt je hart sneller."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Je voelt je hartslag aan je ___. (p...)",
+     "antwoord": [
+      "pols",
+      "polsen"
+     ],
+     "uitleg": "Leg twee vingers tegen de binnenkant van je pols."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk eten is goed om veel van te eten?",
+     "opties": [
+      "groenten en fruit",
+      "chips met een sausje",
+      "snoep",
+      "frisdrank"
+     ],
+     "antwoord": 0,
+     "uitleg": "Groenten en fruit geven je vitaminen."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Water is de beste dorstlesser.",
+     "antwoord": true,
+     "uitleg": "Water heeft geen suiker en lest je dorst het best."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe lang slaapt een kind van 9 jaar best per nacht?",
+     "opties": [
+      "4 uur",
+      "6 uur",
+      "ongeveer 10 uur",
+      "15 uur"
+     ],
+     "antwoord": 2,
+     "uitleg": "Kinderen hebben ongeveer 9 tot 11 uur slaap nodig."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Je moet je handen wassen voor je eet en na het toiletbezoek.",
+     "antwoord": true,
+     "uitleg": "Zo spoel je bacteriën en virussen weg."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe vaak poets je best je tanden?",
+     "opties": [
+      "één keer per week",
+      "twee keer per dag",
+      "nooit",
+      "enkel bij de tandarts"
+     ],
+     "antwoord": 1,
+     "uitleg": "Poets 's morgens en 's avonds, twee minuten."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Snoep is goed voor je tanden.",
+     "antwoord": false,
+     "uitleg": "Suiker zorgt net voor gaatjes in je tanden."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waar gaat je eten eerst naartoe nadat je het doorgeslikt hebt?",
+     "opties": [
+      "naar je longen",
+      "naar je maag",
+      "naar je hart",
+      "naar je hoofd"
+     ],
+     "antwoord": 1,
+     "uitleg": "Via de slokdarm gaat het naar je maag."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Als je niest, hou je best je ___ voor je mond of nies je in je elleboog. (h...)",
+     "antwoord": [
+      "hand",
+      "handen"
+     ],
+     "uitleg": "Zo verspreid je minder ziektekiemen. In je elleboog is het nog beter."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Frisdrank is gezonder dan water.",
+     "antwoord": false,
+     "uitleg": "Frisdrank bevat veel suiker. Water is gezonder."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat doe je als je je gesneden hebt en het bloedt een beetje?",
+     "opties": [
+      "de wonde schoonmaken en een pleister erop",
+      "er zand op doen",
+      "niets zeggen en gewoon verder spelen met vuile handen",
+      "de wonde openkrabben"
+     ],
+     "antwoord": 0,
+     "uitleg": "Spoel de wonde, ontsmet ze en plak er een pleister op."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom is ontbijten belangrijk?",
+     "opties": [
+      "Je krijgt energie voor de dag.",
+      "Dan hoef je de hele dag niet meer te drinken.",
+      "Dan word je moe.",
+      "Het is niet belangrijk."
+     ],
+     "antwoord": 0,
+     "uitleg": "Na een lange nacht heeft je lichaam energie nodig."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Voor een gezond lichaam heb je enkel goed eten nodig, bewegen hoeft niet.",
+     "antwoord": false,
+     "uitleg": "Gezond leven is gezond eten, veel bewegen én genoeg slapen."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Lucht met zuurstof adem je in via je neus en je ___.",
+     "antwoord": [
+      "mond"
+     ],
+     "uitleg": "Je ademt in via je neus of mond, en de lucht gaat naar je longen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een gezond tussendoortje?",
+     "opties": [
+      "een appel",
+      "een zak chips",
+      "een reep chocolade",
+      "een blikje cola"
+     ],
+     "antwoord": 0,
+     "uitleg": "Fruit is een gezond tussendoortje."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Te lang naar een scherm kijken voor het slapengaan kan je slaap verstoren.",
+     "antwoord": true,
+     "uitleg": "Het licht van een scherm houdt je wakker. Leg het een uur voor je gaat slapen weg."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Je bloed blijft altijd op dezelfde plaats in je lichaam.",
+     "antwoord": false,
+     "uitleg": "Je bloed stroomt de hele tijd rond door je bloedvaten."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,379 @@
+{
+ "hoofdstukken": [
+  {
+   "titel": "Samenleven — deel 1",
+   "niveau": "ready",
+   "korte_uitleg": "Regels, afspraken en kinderrechten.",
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom zijn er regels in de klas?",
+     "opties": [
+      "zodat iedereen veilig kan leren",
+      "om de juf en de meester te plagen",
+      "omdat het moet van de buren",
+      "om de lessen saai te maken"
+     ],
+     "antwoord": 0,
+     "uitleg": "Afspraken zorgen ervoor dat iedereen zich goed voelt."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Kinderen hebben rechten.",
+     "antwoord": true,
+     "uitleg": "In het Kinderrechtenverdrag staan de rechten van alle kinderen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk recht hebben alle kinderen?",
+     "opties": [
+      "het recht om te leren",
+      "het recht om nooit te slapen",
+      "het recht om alles te kopen wat je wil",
+      "het recht om auto te rijden"
+     ],
+     "antwoord": 0,
+     "uitleg": "Elk kind heeft recht op onderwijs."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Kinderen hebben ook het recht om te ___. (s...)",
+     "antwoord": [
+      "spelen"
+     ],
+     "uitleg": "Spelen en rusten is een kinderrecht."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een kind mag gepest worden als het anders is.",
+     "antwoord": false,
+     "uitleg": "Elk kind heeft recht op bescherming. Pesten is nooit oké."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat doe je als je ziet dat iemand gepest wordt?",
+     "opties": [
+      "Je zegt het aan een volwassene.",
+      "Je lacht mee.",
+      "Je kijkt snel de andere kant op.",
+      "Je doet mee."
+     ],
+     "antwoord": 0,
+     "uitleg": "Hulp halen is moedig en juist."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Regels in het verkeer zorgen voor veiligheid.",
+     "antwoord": true,
+     "uitleg": "Door rood licht stoppen en voorrang geven voorkomt ongelukken."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat betekent respect hebben voor iemand?",
+     "opties": [
+      "Je bent vriendelijk en eerlijk.",
+      "Je doet alsof die persoon er niet is.",
+      "Je lacht hem uit.",
+      "Je neemt zijn spullen."
+     ],
+     "antwoord": 0,
+     "uitleg": "Respect is iemand behandelen zoals je zelf behandeld wil worden."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Een afspraak die voor iedereen in een land geldt, heet een ___. (w...)",
+     "antwoord": [
+      "wet"
+     ],
+     "uitleg": "Wetten worden gemaakt door het parlement."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Alle kinderen in de wereld zijn even belangrijk.",
+     "antwoord": true,
+     "uitleg": "Elk kind heeft dezelfde rechten, waar het ook woont."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een klasraad?",
+     "opties": [
+      "een overleg in de klas",
+      "een groep leraren die toetsen maakt",
+      "een feestje op school",
+      "een soort tafel"
+     ],
+     "antwoord": 0,
+     "uitleg": "In de klasraad bespreek je samen wat goed gaat en wat beter kan."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Als je het niet eens bent, mag je slaan.",
+     "antwoord": false,
+     "uitleg": "Praat erover, zoek samen een oplossing of vraag hulp."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat doe je als je een fout gemaakt hebt tegenover iemand?",
+     "opties": [
+      "Je zegt sorry.",
+      "Je doet alsof er niets gebeurd is.",
+      "Je geeft de schuld aan een ander.",
+      "Je loopt weg."
+     ],
+     "antwoord": 0,
+     "uitleg": "Sorry zeggen en het goedmaken is belangrijk."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Vrijheid van ___ betekent dat iedereen zijn mening mag zeggen. (m...)",
+     "antwoord": [
+      "meningsuiting"
+     ],
+     "uitleg": "Vrijheid van meningsuiting is een belangrijk recht, als je anderen respecteert."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Kinderen hebben het recht om gehoord te worden over dingen die over hen gaan.",
+     "antwoord": true,
+     "uitleg": "Ook kinderen mogen hun mening geven."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke afspraak hoort NIET in een klas?",
+     "opties": [
+      "Wie het eerst roept, mag alles beslissen.",
+      "We luisteren naar elkaar.",
+      "We ruimen samen op.",
+      "We helpen elkaar."
+     ],
+     "antwoord": 0,
+     "uitleg": "Samen beslissen en naar elkaar luisteren is eerlijker."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Thuis zijn er nooit afspraken.",
+     "antwoord": false,
+     "uitleg": "Ook thuis zijn er afspraken, bijvoorbeeld over bedtijd."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is Kinderrechtendag?",
+     "opties": [
+      "20 november",
+      "de verjaardag van de koning",
+      "de eerste schooldag",
+      "Nieuwjaar"
+     ],
+     "antwoord": 0,
+     "uitleg": "Op 20 november 1989 werd het Kinderrechtenverdrag goedgekeurd."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Regels kunnen nooit veranderen.",
+     "antwoord": false,
+     "uitleg": "Als een regel niet meer goed werkt, kan je hem samen aanpassen."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Iedereen is anders, en dat is oké.",
+     "antwoord": true,
+     "uitleg": "Verschillen maken een groep net rijker."
+    }
+   ]
+  },
+  {
+   "titel": "Samenleven — deel 2",
+   "niveau": "ready",
+   "korte_uitleg": "Gemeente, België en feesten.",
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Wie is de baas van een gemeente?",
+     "opties": [
+      "de burgemeester",
+      "de koning",
+      "de directeur van de school",
+      "de bakker"
+     ],
+     "antwoord": 0,
+     "uitleg": "De burgemeester leidt de gemeente samen met de schepenen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waar werkt de burgemeester?",
+     "opties": [
+      "in het gemeentehuis",
+      "in het ziekenhuis",
+      "in de bakkerij om de hoek",
+      "op school"
+     ],
+     "antwoord": 0,
+     "uitleg": "In het gemeentehuis of stadhuis regelt men zaken van de gemeente."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "België heeft een koning.",
+     "antwoord": true,
+     "uitleg": "België is een koninkrijk. Koning Filip is het staatshoofd."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe heet de koning van België? Koning ___.",
+     "antwoord": [
+      "Filip",
+      "Philippe"
+     ],
+     "uitleg": "Koning Filip is koning sinds 2013."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wie maakt de wetten in België?",
+     "opties": [
+      "het parlement",
+      "de burgemeester alleen",
+      "de kinderen van het 4de leerjaar",
+      "de politie"
+     ],
+     "antwoord": 0,
+     "uitleg": "Het parlement stemt over de wetten."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wanneer is de nationale feestdag van België?",
+     "opties": [
+      "21 juli",
+      "1 januari",
+      "25 december",
+      "11 november"
+     ],
+     "antwoord": 0,
+     "uitleg": "Op 21 juli 1831 legde de eerste koning, Leopold I, de eed af."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De Belgische vlag is zwart, geel en rood.",
+     "antwoord": true,
+     "uitleg": "Drie verticale banen: zwart, geel en rood."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk feest vieren veel kinderen in België op 6 december?",
+     "opties": [
+      "Sinterklaas",
+      "Pasen",
+      "Halloween",
+      "Kerstmis"
+     ],
+     "antwoord": 0,
+     "uitleg": "Op 6 december brengt Sinterklaas cadeautjes."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Op 25 december vieren veel mensen ___.",
+     "antwoord": [
+      "Kerstmis",
+      "kerst",
+      "Kerst"
+     ],
+     "uitleg": "Kerstmis viert men op 25 december."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Iedereen in België viert precies dezelfde feesten.",
+     "antwoord": false,
+     "uitleg": "Mensen hebben verschillende godsdiensten en gewoonten, zoals het Suikerfeest of Chanoeka."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk feest sluit de vastenmaand ramadan af?",
+     "opties": [
+      "het Suikerfeest",
+      "Pasen",
+      "Carnaval",
+      "Kerstmis"
+     ],
+     "antwoord": 0,
+     "uitleg": "Moslims vieren het Suikerfeest na de ramadan."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat doet de politie?",
+     "opties": [
+      "zorgen voor veiligheid",
+      "brood bakken",
+      "huizen bouwen",
+      "lesgeven in de lagere school"
+     ],
+     "antwoord": 0,
+     "uitleg": "De politie helpt mensen en zorgt dat iedereen zich aan de regels houdt."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De brandweer komt enkel bij brand.",
+     "antwoord": false,
+     "uitleg": "De brandweer helpt ook bij ongevallen, overstromingen en als iemand vastzit."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Het noodnummer voor brandweer en ziekenwagen in België is ___.",
+     "antwoord": "112",
+     "uitleg": "Bel 112 bij een noodgeval."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat betekent stemmen bij verkiezingen?",
+     "opties": [
+      "kiezen wie bestuurt",
+      "zingen in een koor",
+      "een nieuw liedje leren",
+      "een spel spelen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Volwassenen kiezen wie hen vertegenwoordigt."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Op 11 november herdenken we het einde van de Eerste Wereldoorlog.",
+     "antwoord": true,
+     "uitleg": "Op 11 november 1918 eindigde de Eerste Wereldoorlog."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een gewoonte?",
+     "opties": [
+      "iets wat je telkens weer doet",
+      "iets wat je maar één keer in je leven doet",
+      "een soort kleding",
+      "een wet"
+     ],
+     "antwoord": 0,
+     "uitleg": "Bijvoorbeeld: elke zondag bij oma gaan eten."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Carnaval is een feest met verkleden en optochten.",
+     "antwoord": true,
+     "uitleg": "In Aalst en Binche zijn er bekende carnavalsstoeten."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom betalen volwassenen belastingen?",
+     "opties": [
+      "Voor wegen, scholen en ziekenhuizen.",
+      "Om de koning en de koningin rijk te maken.",
+      "Omdat het een spel is.",
+      "Om snoep te kopen."
+     ],
+     "antwoord": 0,
+     "uitleg": "Met belastingen betaalt men dingen die we samen gebruiken."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Kinderen van 9 jaar mogen stemmen bij de verkiezingen voor de gemeente.",
+     "antwoord": false,
+     "uitleg": "Bij de gemeenteraadsverkiezingen stemmen volwassenen vanaf 18 jaar."
+    }
+   ]
+  }
+ ]
+}

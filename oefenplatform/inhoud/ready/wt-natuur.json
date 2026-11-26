@@ -1,0 +1,381 @@
+{
+ "hoofdstukken": [
+  {
+   "titel": "Natuur en milieu — deel 1",
+   "niveau": "ready",
+   "korte_uitleg": "Seizoenen, dag en nacht, en het weer.",
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk seizoen komt na de winter?",
+     "opties": [
+      "de lente",
+      "de zomer",
+      "de herfst",
+      "de winter"
+     ],
+     "antwoord": 0,
+     "uitleg": "Winter, lente, zomer, herfst."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Een jaar heeft ___ seizoenen.",
+     "antwoord": "4",
+     "uitleg": "Lente, zomer, herfst en winter."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "In welk seizoen vallen de bladeren van de bomen?",
+     "opties": [
+      "de lente",
+      "de zomer",
+      "de herfst",
+      "de winter"
+     ],
+     "antwoord": 2,
+     "uitleg": "In de herfst kleuren de bladeren en vallen ze af."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "In de zomer zijn de dagen langer dan in de winter.",
+     "antwoord": true,
+     "uitleg": "In de zomer is het 's avonds lang licht."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom wordt het nacht?",
+     "opties": [
+      "De aarde draait rond zichzelf.",
+      "De zon gaat slapen.",
+      "De maan duwt de zon weg.",
+      "De wolken worden zwart."
+     ],
+     "antwoord": 0,
+     "uitleg": "De kant van de aarde die van de zon wegdraait, krijgt nacht."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De zon draait rond de aarde.",
+     "antwoord": false,
+     "uitleg": "Het is omgekeerd: de aarde draait rond de zon. Dat duurt een jaar."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarmee meet je hoe warm het buiten is?",
+     "opties": [
+      "een thermometer",
+      "een liniaal",
+      "een weegschaal",
+      "een klok"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een thermometer meet de temperatuur."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarmee meet je hoeveel regen er gevallen is?",
+     "opties": [
+      "een regenmeter",
+      "een thermometer",
+      "een kompas",
+      "een windzak"
+     ],
+     "antwoord": 0,
+     "uitleg": "In een regenmeter lees je af hoeveel water erin gevallen is."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een windvaan toont uit welke richting de wind waait.",
+     "antwoord": true,
+     "uitleg": "De pijl van de windvaan draait mee met de wind."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waar komt regen vandaan?",
+     "opties": [
+      "uit de wolken",
+      "uit de zee rechtstreeks",
+      "uit de bomen",
+      "uit de grond"
+     ],
+     "antwoord": 0,
+     "uitleg": "Waterdruppeltjes in de wolken worden groter en vallen naar beneden."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Water uit de zee verdampt, wordt een wolk en valt als regen terug. Dat noem je de water___. (k...)",
+     "antwoord": [
+      "kringloop"
+     ],
+     "uitleg": "Het water gaat altijd rond: verdampen, wolk, regen, rivier, zee."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Sneeuw is bevroren water.",
+     "antwoord": true,
+     "uitleg": "Als het heel koud is in de wolk, vallen er sneeuwvlokjes in plaats van regen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat zie je vaak na een regenbui als de zon schijnt?",
+     "opties": [
+      "een regenboog",
+      "sneeuw",
+      "hagel",
+      "mist"
+     ],
+     "antwoord": 0,
+     "uitleg": "Zonlicht door regendruppels geeft een regenboog."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Bij onweer schuil je best onder een hoge boom.",
+     "antwoord": false,
+     "uitleg": "Bliksem slaat vaak in hoge dingen. Ga liever binnen schuilen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "In welk seizoen bloeien veel bloemen en komen jonge dieren?",
+     "opties": [
+      "de lente",
+      "de herfst",
+      "de winter",
+      "geen enkel seizoen"
+     ],
+     "antwoord": 0,
+     "uitleg": "In de lente wordt het warmer en groeit alles weer."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "De maan draait rond de ___.",
+     "antwoord": [
+      "aarde"
+     ],
+     "uitleg": "De maan draait in ongeveer een maand rond de aarde."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "In België is het in juli meestal warmer dan in januari.",
+     "antwoord": true,
+     "uitleg": "Juli is zomer, januari is winter."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe heet het weerbericht dat zegt wat voor weer het morgen wordt?",
+     "opties": [
+      "de weersverwachting",
+      "het nieuws over sport",
+      "het verkeersbericht",
+      "de reclame"
+     ],
+     "antwoord": 0,
+     "uitleg": "De weerman of weervrouw vertelt de weersverwachting."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Mist is een wolk dicht bij de grond.",
+     "antwoord": true,
+     "uitleg": "In mist zweven heel veel kleine waterdruppeltjes laag bij de grond."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De zon is een planeet.",
+     "antwoord": false,
+     "uitleg": "De zon is een ster. De aarde is een planeet."
+    }
+   ]
+  },
+  {
+   "titel": "Natuur en milieu — deel 2",
+   "niveau": "ready",
+   "korte_uitleg": "Afval sorteren en zorgen voor de natuur.",
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Waar gooi je een lege plastic fles in Vlaanderen?",
+     "opties": [
+      "in de blauwe zak (pmd)",
+      "bij het gft",
+      "in de glasbak",
+      "in de vuilniszak voor restafval"
+     ],
+     "antwoord": 0,
+     "uitleg": "Plastic flessen, metalen blikjes en drankkartons gaan bij het pmd."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waar gaat een bananenschil naartoe?",
+     "opties": [
+      "bij het gft",
+      "in de glasbak bij de flessen",
+      "bij het oud papier",
+      "bij het pmd"
+     ],
+     "antwoord": 0,
+     "uitleg": "Groente-, fruit- en tuinafval kan je composteren."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Oud papier en karton kan je recycleren.",
+     "antwoord": true,
+     "uitleg": "Van oud papier maakt men nieuw papier."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Een glazen bokaal gaat in de ___bak.",
+     "antwoord": [
+      "glas",
+      "glasbak"
+     ],
+     "uitleg": "Glas breng je naar de glasbak."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat betekent recycleren?",
+     "opties": [
+      "Van oud materiaal iets nieuws maken.",
+      "Alles weggooien in de natuur.",
+      "Iets heel snel kapotmaken.",
+      "Iets heel lang bewaren in de kast op zolder."
+     ],
+     "antwoord": 0,
+     "uitleg": "Van oude flessen maakt men bijvoorbeeld nieuwe flessen of fleecetruien."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Zwerfvuil in de natuur is gevaarlijk voor dieren.",
+     "antwoord": true,
+     "uitleg": "Dieren kunnen erin vast raken of het opeten."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe kan je water besparen?",
+     "opties": [
+      "De kraan dichtdraaien tijdens het poetsen.",
+      "Elke avond een uur lang in bad liggen.",
+      "De kraan laten lopen.",
+      "De tuin elke middag sproeien met de tuinslang."
+     ],
+     "antwoord": 0,
+     "uitleg": "Zo stroomt er geen water nutteloos weg."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Met de fiets naar school gaan is beter voor het milieu dan met de auto.",
+     "antwoord": true,
+     "uitleg": "Een fiets maakt geen uitlaatgassen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat kan je doen in plaats van iets weg te gooien?",
+     "opties": [
+      "het herstellen of doorgeven",
+      "het verbranden in de tuin",
+      "het in de beek gooien",
+      "het ergens diep in het bos achterlaten"
+     ],
+     "antwoord": 0,
+     "uitleg": "Herstellen, hergebruiken of doorgeven zorgt voor minder afval."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een boterhamdoos gebruiken is beter dan elke dag aluminiumfolie.",
+     "antwoord": true,
+     "uitleg": "Een doos gebruik je elke dag opnieuw. Folie wordt afval."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom zijn bijen belangrijk?",
+     "opties": [
+      "Ze helpen bloemen om vruchten te maken.",
+      "Ze maken een gezellig zoemend lawaai.",
+      "Ze eten al het afval op.",
+      "Ze maken het water in de vijver schoon."
+     ],
+     "antwoord": 0,
+     "uitleg": "Zonder bijen zouden er veel minder appels, peren en aardbeien zijn."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Een plek waar dieren en planten beschermd worden, heet een natuur___. (g...)",
+     "antwoord": [
+      "gebied",
+      "natuurgebied",
+      "reservaat",
+      "natuurreservaat"
+     ],
+     "uitleg": "In een natuurgebied laat je alles zoals het is."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "In een natuurgebied mag je bloemen plukken zoveel je wil.",
+     "antwoord": false,
+     "uitleg": "In een natuurgebied laat je planten en dieren met rust."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een insectenhotel?",
+     "opties": [
+      "een schuilplaats voor insecten",
+      "een duur hotel voor mensen op reis",
+      "een zwembad voor vissen",
+      "een kooi voor vogels"
+     ],
+     "antwoord": 0,
+     "uitleg": "Bijen en lieveheersbeestjes vinden er een veilig plekje."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Lege batterijen gooi je bij het gft.",
+     "antwoord": false,
+     "uitleg": "Batterijen breng je naar een inzamelpunt. Ze bevatten stoffen die slecht zijn voor de natuur."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat doe je met een goede jas die te klein is?",
+     "opties": [
+      "Je geeft hem door.",
+      "Je gooit hem in de natuur.",
+      "Je verbrandt hem.",
+      "Je stopt hem in de glasbak."
+     ],
+     "antwoord": 0,
+     "uitleg": "Kleren die je niet meer past, kan je doorgeven of naar de kringwinkel brengen."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Een winkel waar je tweedehands spullen koopt, heet een ___winkel. (k...)",
+     "antwoord": [
+      "kring",
+      "kringwinkel"
+     ],
+     "uitleg": "In de kringwinkel krijgen spullen een tweede leven."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Het licht laten branden als niemand in de kamer is, verspilt energie.",
+     "antwoord": true,
+     "uitleg": "Doe het licht uit als je weggaat."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke bak is voor groenten- en fruitresten?",
+     "opties": [
+      "de gft-bak",
+      "de glasbak",
+      "de pmd-zak",
+      "de papierbak"
+     ],
+     "antwoord": 0,
+     "uitleg": "Gft staat voor groente-, fruit- en tuinafval."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een drankkarton hoort bij het restafval.",
+     "antwoord": false,
+     "uitleg": "Drankkartons gaan in de blauwe pmd-zak."
+    }
+   ]
+  }
+ ]
+}

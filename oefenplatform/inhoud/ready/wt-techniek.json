@@ -1,0 +1,379 @@
+{
+ "hoofdstukken": [
+  {
+   "titel": "Techniek rondom ons — deel 1",
+   "niveau": "ready",
+   "korte_uitleg": "Wiel, hefboom en katrol maken werk lichter.",
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom heeft een kruiwagen een wiel?",
+     "opties": [
+      "Zo kan je zware dingen makkelijker duwen.",
+      "Zo ziet hij er veel mooier en sterker uit.",
+      "Zo kan hij een beetje vliegen.",
+      "Zo blijft hij altijd stilstaan."
+     ],
+     "antwoord": 0,
+     "uitleg": "Een wiel rolt en maakt duwen veel lichter."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een wip op de speelplaats?",
+     "opties": [
+      "een hefboom",
+      "een katrol",
+      "een schroef",
+      "een grote magneet"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een wip is een plank die kantelt op een steunpunt: een hefboom."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Met een lange hefboom kan je iets zwaars makkelijker optillen.",
+     "antwoord": true,
+     "uitleg": "Hoe langer de hefboom, hoe minder kracht je nodig hebt."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarmee hijs je een emmer omhoog met een touw over een wiel?",
+     "opties": [
+      "een katrol",
+      "een hamer",
+      "een kleine zaag",
+      "een schaar"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een katrol is een wiel met een touw. Je trekt naar beneden en de emmer gaat omhoog."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Een schaar bestaat uit twee ___s die draaien rond een schroefje. (h...)",
+     "antwoord": [
+      "hefboom",
+      "hefbomen"
+     ],
+     "uitleg": "Elk mes van een schaar werkt als een hefboom."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk werktuig gebruik je om een spijker in hout te slaan?",
+     "opties": [
+      "een hamer",
+      "een tang",
+      "een zaag",
+      "een schroevendraaier"
+     ],
+     "antwoord": 0,
+     "uitleg": "Met een hamer sla je de spijker in."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een fiets heeft tandwielen en een ketting.",
+     "antwoord": true,
+     "uitleg": "Als je trapt, draait de ketting het achterwiel rond."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom zit er een flessenopener aan je keukenlade?",
+     "opties": [
+      "Hij werkt als een hefboom.",
+      "Hij koelt de fles in een paar seconden af.",
+      "Hij maakt de fles groter.",
+      "Hij vult de fles opnieuw."
+     ],
+     "antwoord": 0,
+     "uitleg": "Met een kleine kracht op de lange kant krijg je de dop eraf."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een helling maakt het makkelijker om een zware kar omhoog te duwen dan een trap.",
+     "antwoord": true,
+     "uitleg": "Langs een helling duw je over een langere weg, maar met minder kracht."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is de eerste stap als je iets wil maken, zoals een vogelhuisje?",
+     "opties": [
+      "Bedenken en tekenen wat je wil maken.",
+      "Meteen beginnen zagen in de eerste plank die je vindt.",
+      "Alles verven.",
+      "Het weggooien."
+     ],
+     "antwoord": 0,
+     "uitleg": "Eerst bedenk en teken je een plan. Dan maak je het en test je het."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Na het maken ___ je of het goed werkt. (t...)",
+     "antwoord": [
+      "test",
+      "testen"
+     ],
+     "uitleg": "Testen hoort bij elk techniekproject."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een rolschaats heeft wielen om makkelijk te rollen.",
+     "antwoord": true,
+     "uitleg": "Wielen verkleinen de wrijving met de grond."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk werktuig gebruik je om een schroef in te draaien?",
+     "opties": [
+      "een schroevendraaier",
+      "een hamer",
+      "een lijmpot",
+      "een rol plakband"
+     ],
+     "antwoord": 0,
+     "uitleg": "Met een schroevendraaier draai je de schroef in het hout."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een vlag hijs je zonder katrol, gewoon door te klimmen.",
+     "antwoord": false,
+     "uitleg": "Bovenaan de vlaggenmast zit een katrol: een wieltje waarover het touw loopt."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom heeft een fiets remmen?",
+     "opties": [
+      "om veilig te stoppen",
+      "om sneller te gaan",
+      "om licht te geven",
+      "om de banden op te pompen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Remmen zorgen dat je op tijd stopt."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een deurklink werkt als een katrol.",
+     "antwoord": false,
+     "uitleg": "Je duwt op de lange klink en het slot draait makkelijk open."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat maakt een vergrootglas?",
+     "opties": [
+      "Het laat dingen groter lijken.",
+      "Het maakt dingen zwaarder.",
+      "Het maakt een zacht geluid.",
+      "Het maakt zelf licht in het donker."
+     ],
+     "antwoord": 0,
+     "uitleg": "Met een vergrootglas zie je kleine dingen groter."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een tandenborstel is een machine met wielen.",
+     "antwoord": false,
+     "uitleg": "Een gewone tandenborstel heeft geen wielen. Het is een eenvoudig werktuig."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Een lift gaat omhoog met kabels en ___. (k...)",
+     "antwoord": [
+      "katrollen",
+      "katrol"
+     ],
+     "uitleg": "Liften gebruiken katrollen en een motor."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Hoe korter de hefboom, hoe minder kracht je nodig hebt.",
+     "antwoord": false,
+     "uitleg": "Net omgekeerd: een langere hefboom vraagt minder kracht."
+    }
+   ]
+  },
+  {
+   "titel": "Techniek rondom ons — deel 2",
+   "niveau": "ready",
+   "korte_uitleg": "Een lampje laten branden, en veilig blijven.",
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat heb je nodig om een lampje te laten branden?",
+     "opties": [
+      "een batterij, draadjes en een lampje",
+      "enkel een lampje en een beetje zonlicht",
+      "water en een lampje",
+      "een magneet en papier"
+     ],
+     "antwoord": 0,
+     "uitleg": "De stroom moet van de batterij door de draadjes naar het lampje en terug."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een lampje brandt enkel als de stroomkring gesloten is.",
+     "antwoord": true,
+     "uitleg": "Als de kring ergens open is, kan de stroom niet rondgaan."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat doet een schakelaar?",
+     "opties": [
+      "Hij opent of sluit de kring.",
+      "Hij maakt de batterij weer helemaal vol.",
+      "Hij maakt het lampje groter.",
+      "Hij maakt lawaai."
+     ],
+     "antwoord": 0,
+     "uitleg": "Met de schakelaar zet je het licht aan of uit."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk voorwerp laat stroom door?",
+     "opties": [
+      "een metalen sleutel",
+      "een houten stokje",
+      "een gom",
+      "een lange plastic lat"
+     ],
+     "antwoord": 0,
+     "uitleg": "Metaal is een goede geleider."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Plastic laat stroom goed door.",
+     "antwoord": false,
+     "uitleg": "Plastic is een isolator: het laat geen stroom door. Daarom zit er plastic rond elektrische draden."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Een stof die stroom goed doorlaat, heet een ___. (g...)",
+     "antwoord": [
+      "geleider"
+     ],
+     "uitleg": "Metalen zijn geleiders."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom zit er een plastic laag rond een elektriciteitsdraad?",
+     "opties": [
+      "tegen een schok",
+      "om de draad mooi te maken",
+      "om de draad zwaarder te maken",
+      "om licht te geven"
+     ],
+     "antwoord": 0,
+     "uitleg": "Plastic laat geen stroom door en beschermt je."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Je mag met natte handen aan een stopcontact komen.",
+     "antwoord": false,
+     "uitleg": "Water geleidt stroom. Met natte handen kan je een gevaarlijke schok krijgen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat doe je als een elektrische draad kapot is?",
+     "opties": [
+      "Niet aankomen en het zeggen.",
+      "Erop trappen.",
+      "Hem zelf herstellen met een stukje plakband.",
+      "Erin bijten."
+     ],
+     "antwoord": 0,
+     "uitleg": "Een kapotte draad is gevaarlijk."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een batterij van 1,5 volt is veilig om mee te experimenteren.",
+     "antwoord": true,
+     "uitleg": "Kleine batterijen zijn veilig. Het stopcontact is dat niet."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk toestel werkt op elektriciteit?",
+     "opties": [
+      "een broodrooster",
+      "een fiets",
+      "een hamer",
+      "een papierschaar"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een broodrooster moet je in het stopcontact steken."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een lege batterij mag bij het gewone afval.",
+     "antwoord": false,
+     "uitleg": "Lege batterijen breng je naar een inzamelpunt, bijvoorbeeld in de supermarkt."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Als je het licht uitdoet wanneer je een kamer verlaat, bespaar je energie.",
+     "antwoord": true,
+     "uitleg": "Elektriciteit die je niet gebruikt, hoef je niet te betalen en sparen we voor het milieu."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke energie gebruikt een zonnepaneel?",
+     "opties": [
+      "zonlicht",
+      "wind",
+      "stromend water",
+      "benzine"
+     ],
+     "antwoord": 0,
+     "uitleg": "Zonnepanelen maken stroom uit zonlicht."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat draait er bij een windmolen om stroom te maken?",
+     "opties": [
+      "de wieken",
+      "de deur",
+      "de trap",
+      "de lamp bovenaan"
+     ],
+     "antwoord": 0,
+     "uitleg": "De wind duwt de wieken rond. Zo wordt stroom gemaakt."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Steenkool en benzine raken nooit op.",
+     "antwoord": false,
+     "uitleg": "Die raken ooit op. Zon en wind blijven altijd beschikbaar."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "In een zaklamp zit een batterij. Waarom brandt het lampje niet meer?",
+     "opties": [
+      "De batterij is leeg.",
+      "Het is dag.",
+      "De zaklamp is te zwaar.",
+      "De zaklamp is gloednieuw."
+     ],
+     "antwoord": 0,
+     "uitleg": "Een lege batterij geeft geen stroom meer."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een metalen paperclip kan een open stroomkring weer sluiten.",
+     "antwoord": true,
+     "uitleg": "Metaal geleidt, dus de stroom kan er weer door."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Toestellen die je niet gebruikt, trek je uit het ___. (s...)",
+     "antwoord": [
+      "stopcontact"
+     ],
+     "uitleg": "Zo verbruiken ze geen stroom."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een lampje brandt ook als je maar één draadje gebruikt.",
+     "antwoord": false,
+     "uitleg": "Je hebt een kring nodig: van de ene pool van de batterij naar het lampje en terug naar de andere pool."
+    }
+   ]
+  }
+ ]
+}

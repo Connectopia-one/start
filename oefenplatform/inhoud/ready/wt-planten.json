@@ -1,0 +1,399 @@
+{
+ "hoofdstukken": [
+  {
+   "titel": "Planten en dieren — deel 1",
+   "niveau": "ready",
+   "korte_uitleg": "Wortel, stengel, blad en bloem.",
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk deel van een plant haalt water uit de grond?",
+     "opties": [
+      "het blad",
+      "de wortel",
+      "de bloem",
+      "de vrucht"
+     ],
+     "antwoord": 1,
+     "uitleg": "De wortels zitten in de grond en zuigen water op. Ze houden de plant ook vast."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat doet de stengel van een plant?",
+     "opties": [
+      "Hij maakt zaadjes.",
+      "Hij brengt water naar boven en houdt de plant recht.",
+      "Hij eet insecten.",
+      "Hij maakt de grond nat."
+     ],
+     "antwoord": 1,
+     "uitleg": "Door de stengel gaat het water van de wortels naar de bladeren."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een plant heeft licht nodig om te groeien.",
+     "antwoord": true,
+     "uitleg": "Met zonlicht maken de bladeren voedsel voor de plant."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat heeft een plant NIET nodig om te groeien?",
+     "opties": [
+      "water",
+      "licht",
+      "lucht",
+      "snoep"
+     ],
+     "antwoord": 3,
+     "uitleg": "Een plant heeft water, licht, lucht en voedingsstoffen uit de grond nodig."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Uit een ___ groeit een nieuwe plant. (z...)",
+     "antwoord": [
+      "zaadje",
+      "zaad",
+      "zaadjes"
+     ],
+     "uitleg": "In een zaadje zit een klein plantje dat kan kiemen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat komt eerst bij een boon die groeit?",
+     "opties": [
+      "bloem",
+      "zaadje",
+      "boon aan de plant",
+      "blad"
+     ],
+     "antwoord": 1,
+     "uitleg": "Eerst is er een zaadje. Dat kiemt, groeit, bloeit en maakt nieuwe bonen."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De bloem is het deel waar later de vrucht en de zaadjes uit groeien.",
+     "antwoord": true,
+     "uitleg": "Na de bloei ontstaat er een vrucht met zaadjes, zoals een appel met pitjes."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke dieren helpen bloemen om zaadjes te maken door stuifmeel mee te nemen?",
+     "opties": [
+      "bijen",
+      "wormen",
+      "mollen",
+      "vissen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Bijen vliegen van bloem naar bloem en nemen stuifmeel mee."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een boom is ook een plant.",
+     "antwoord": true,
+     "uitleg": "Een boom heeft wortels, een stam (dikke stengel), bladeren en bloemen of zaden."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Een appel is de ___ van de appelboom. (v...)",
+     "antwoord": [
+      "vrucht"
+     ],
+     "uitleg": "In de vrucht zitten de zaadjes, de pitjes."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom worden de bladeren van veel bomen in de herfst bruin en vallen ze af?",
+     "opties": [
+      "Ze zijn ziek.",
+      "De boom spaart water en rust in de winter.",
+      "De wind trekt ze eraf.",
+      "Dieren eten ze op."
+     ],
+     "antwoord": 1,
+     "uitleg": "In de winter is er weinig licht en is het koud. De boom laat zijn bladeren vallen en rust."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een plant zonder water blijft altijd mooi groen.",
+     "antwoord": false,
+     "uitleg": "Zonder water verwelkt een plant: de bladeren hangen slap en worden bruin."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Van welke groente eet je de wortel?",
+     "opties": [
+      "tomaat",
+      "wortel",
+      "appel",
+      "sla"
+     ],
+     "antwoord": 1,
+     "uitleg": "Een wortel groeit onder de grond: je eet de wortel van de plant."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Van welke plant eet je de bladeren?",
+     "opties": [
+      "aardappel",
+      "sla",
+      "appel",
+      "wortel"
+     ],
+     "antwoord": 1,
+     "uitleg": "Sla zijn bladeren. Van een aardappel eet je een knol onder de grond."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een cactus heeft dikke stengels om water in te bewaren.",
+     "antwoord": true,
+     "uitleg": "Daardoor kan een cactus lang zonder regen, in de woestijn."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Bomen die in de winter groen blijven, zoals de den, heten ___bomen. (n...)",
+     "antwoord": [
+      "naald",
+      "naaldbomen"
+     ],
+     "uitleg": "Naaldbomen hebben naalden in plaats van brede bladeren."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat gebeurt er als je een plantje in een donkere kast zet?",
+     "opties": [
+      "Het groeit sneller.",
+      "Het wordt bleek en zwak.",
+      "Het krijgt meer bloemen.",
+      "Er verandert niets."
+     ],
+     "antwoord": 1,
+     "uitleg": "Zonder licht kan het plantje geen voedsel maken."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Paddenstoelen zijn dieren.",
+     "antwoord": false,
+     "uitleg": "Paddenstoelen zijn geen dieren en ook geen echte planten: ze horen bij de zwammen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe verspreidt een paardenbloem haar zaadjes?",
+     "opties": [
+      "met de wind",
+      "met vissen",
+      "door te springen",
+      "met regenwormen"
+     ],
+     "antwoord": 0,
+     "uitleg": "De pluisjes waaien weg met de wind en landen ergens anders."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Gras is geen plant.",
+     "antwoord": false,
+     "uitleg": "Gras is wel een plant: het heeft wortels, stengels en bladeren, en bloeit ook."
+    }
+   ]
+  },
+  {
+   "titel": "Planten en dieren — deel 2",
+   "niveau": "ready",
+   "korte_uitleg": "Dieren groeperen en wie eet wie?",
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk dier is een zoogdier?",
+     "opties": [
+      "kip",
+      "kikker",
+      "hond",
+      "haai"
+     ],
+     "antwoord": 2,
+     "uitleg": "Een zoogdier drinkt melk bij zijn moeder als het jong is en heeft haar."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waaraan herken je een vogel?",
+     "opties": [
+      "schubben",
+      "veren",
+      "haar",
+      "een schelp"
+     ],
+     "antwoord": 1,
+     "uitleg": "Alle vogels hebben veren en leggen eieren."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een walvis is een vis.",
+     "antwoord": false,
+     "uitleg": "Een walvis is een zoogdier: hij ademt lucht en de jongen drinken melk."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoeveel poten heeft een insect?",
+     "opties": [
+      "4",
+      "6",
+      "8",
+      "10"
+     ],
+     "antwoord": 1,
+     "uitleg": "Insecten zoals mieren en bijen hebben 6 poten."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Een spin heeft ___ poten.",
+     "antwoord": "8",
+     "uitleg": "Een spin heeft 8 poten. Daarom is het geen insect."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe verandert een rups?",
+     "opties": [
+      "Ze wordt een kikker.",
+      "Ze wordt een vlinder.",
+      "Ze wordt een mier.",
+      "Ze wordt een slak."
+     ],
+     "antwoord": 1,
+     "uitleg": "Ei, rups, pop, vlinder: dat is de levenscyclus van een vlinder."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat komt eerst in het leven van een kikker?",
+     "opties": [
+      "kikker",
+      "kikkervisje",
+      "kikkerdril (eitjes)",
+      "kikker met staart"
+     ],
+     "antwoord": 2,
+     "uitleg": "Eerst het kikkerdril, dan het kikkervisje, dan een kikkertje met pootjes."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een kikker kan zowel in het water als op het land leven.",
+     "antwoord": true,
+     "uitleg": "Kikkers zijn amfibieën: jong in het water, later ook op het land."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat eet een planteneter?",
+     "opties": [
+      "vlees",
+      "planten",
+      "stenen",
+      "andere dieren"
+     ],
+     "antwoord": 1,
+     "uitleg": "Een planteneter, zoals een koe of konijn, eet planten."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk dier is een vleeseter?",
+     "opties": [
+      "konijn",
+      "koe",
+      "vos",
+      "schaap"
+     ],
+     "antwoord": 2,
+     "uitleg": "Een vos eet andere dieren, zoals muizen."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Een dier dat planten én vlees eet, heet een ___eter. (a...)",
+     "antwoord": [
+      "alles",
+      "alleseter"
+     ],
+     "uitleg": "Mensen en varkens zijn alleseters."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke voedselketen klopt?",
+     "opties": [
+      "vos → konijn → gras",
+      "gras → konijn → vos",
+      "konijn → gras → vos",
+      "gras → vos → konijn"
+     ],
+     "antwoord": 1,
+     "uitleg": "Het konijn eet gras, en de vos eet het konijn. De pijl betekent: wordt opgegeten door."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een egel slaapt in de winter.",
+     "antwoord": true,
+     "uitleg": "Een egel houdt een winterslaap onder bladeren."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom trekken zwaluwen in de herfst naar het zuiden?",
+     "opties": [
+      "Ze zoeken warmte en insecten om te eten.",
+      "Ze gaan op vakantie.",
+      "Ze vluchten voor de egels.",
+      "Ze willen zwemmen."
+     ],
+     "antwoord": 0,
+     "uitleg": "In de winter zijn er hier geen insecten. In het warme zuiden wel."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een vis ademt met kieuwen.",
+     "antwoord": true,
+     "uitleg": "Kieuwen halen zuurstof uit het water."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk dier heeft schubben?",
+     "opties": [
+      "vis",
+      "kat",
+      "mus",
+      "bij"
+     ],
+     "antwoord": 0,
+     "uitleg": "Vissen en slangen hebben schubben."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Dieren met een ruggengraat heten ___ dieren. (g...)",
+     "antwoord": [
+      "gewervelde",
+      "gewervelde dieren"
+     ],
+     "uitleg": "Zoogdieren, vogels, vissen, reptielen en amfibieën hebben een ruggengraat."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een slak is een gewerveld dier.",
+     "antwoord": false,
+     "uitleg": "Een slak heeft geen ruggengraat. Ze is een ongewerveld dier."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe beschermt een egel zich?",
+     "opties": [
+      "Hij rolt zich op met zijn stekels naar buiten.",
+      "Hij vliegt weg.",
+      "Hij verandert van kleur.",
+      "Hij zwemt snel weg."
+     ],
+     "antwoord": 0,
+     "uitleg": "De stekels houden vijanden op afstand."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Je mag wilde dieren in het bos gerust meenemen naar huis.",
+     "antwoord": false,
+     "uitleg": "Wilde dieren laat je in de natuur. Vind je een gewond dier, vraag dan hulp aan een volwassene of het dierenasiel."
+    }
+   ]
+  }
+ ]
+}

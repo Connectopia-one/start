@@ -1,0 +1,389 @@
+{
+ "hoofdstukken": [
+  {
+   "titel": "De wereld — deel 1",
+   "niveau": "ready",
+   "korte_uitleg": "Werelddelen en oceanen.",
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "In welk werelddeel ligt België?",
+     "opties": [
+      "Europa",
+      "Afrika",
+      "Azië",
+      "Amerika"
+     ],
+     "antwoord": 0,
+     "uitleg": "België ligt in Europa."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoeveel werelddelen zijn er? ___",
+     "antwoord": "6",
+     "uitleg": "Europa, Azië, Afrika, Amerika, Oceanië en Antarctica: zes werelddelen. Soms telt men Noord- en Zuid-Amerika apart."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk werelddeel is het grootst?",
+     "opties": [
+      "Azië",
+      "Europa",
+      "Oceanië",
+      "Antarctica"
+     ],
+     "antwoord": 0,
+     "uitleg": "Azië is het grootste werelddeel, met landen zoals China en India."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is de grootste oceaan?",
+     "opties": [
+      "de Stille Oceaan",
+      "de Atlantische Oceaan",
+      "de Indische Oceaan",
+      "de Noordzee"
+     ],
+     "antwoord": 0,
+     "uitleg": "De Stille Oceaan ligt tussen Amerika en Azië."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De aarde is voor het grootste deel bedekt met water.",
+     "antwoord": true,
+     "uitleg": "Ongeveer 7 van de 10 delen van de aarde zijn water."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk werelddeel ligt rond de zuidpool en is bedekt met ijs?",
+     "opties": [
+      "Antarctica",
+      "Afrika",
+      "Europa",
+      "Azië"
+     ],
+     "antwoord": 0,
+     "uitleg": "Antarctica is het koudste werelddeel."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke oceaan ligt tussen Europa en Amerika?",
+     "opties": [
+      "de Atlantische Oceaan",
+      "de Stille Oceaan",
+      "de Indische Oceaan",
+      "de Noordelijke IJszee"
+     ],
+     "antwoord": 0,
+     "uitleg": "Wie van België naar Amerika vliegt, vliegt over de Atlantische Oceaan."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "De denkbeeldige lijn rond het midden van de aarde heet de ___. (e...)",
+     "antwoord": [
+      "evenaar"
+     ],
+     "uitleg": "De evenaar verdeelt de aarde in een noordelijke en een zuidelijke helft."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Australië ligt in Oceanië.",
+     "antwoord": true,
+     "uitleg": "Australië is het grootste land van Oceanië."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "In welk werelddeel ligt Egypte?",
+     "opties": [
+      "Afrika",
+      "Azië",
+      "Europa",
+      "Amerika"
+     ],
+     "antwoord": 0,
+     "uitleg": "Egypte ligt in het noordoosten van Afrika, aan de Nijl."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "China ligt in Europa.",
+     "antwoord": false,
+     "uitleg": "China ligt in Azië."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "In welk werelddeel ligt Brazilië?",
+     "opties": [
+      "Zuid-Amerika",
+      "Afrika",
+      "Europa",
+      "Azië"
+     ],
+     "antwoord": 0,
+     "uitleg": "Brazilië is het grootste land van Zuid-Amerika."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarop zie je de hele aarde rond?",
+     "opties": [
+      "een wereldbol",
+      "een stadsplan",
+      "een plattegrond van de school",
+      "een thermometer"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een wereldbol is rond, net zoals de aarde."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Op een wereldkaart zie je de hele aarde in één keer, plat.",
+     "antwoord": true,
+     "uitleg": "Een wereldkaart is de aarde plat getekend."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Het koude gebied helemaal boven op de aarde heet de ___pool.",
+     "antwoord": [
+      "noord",
+      "noordpool"
+     ],
+     "uitleg": "De noordpool ligt bovenaan, de zuidpool onderaan."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk land is een buurland van België en ligt ook in Europa?",
+     "opties": [
+      "Frankrijk",
+      "Canada",
+      "Japan",
+      "Kenia"
+     ],
+     "antwoord": 0,
+     "uitleg": "Frankrijk ligt in Europa, naast België."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Afrika is kleiner dan Europa.",
+     "antwoord": false,
+     "uitleg": "Afrika is veel groter dan Europa."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een continent?",
+     "opties": [
+      "een werelddeel",
+      "een rivier",
+      "een stad",
+      "een berg"
+     ],
+     "antwoord": 0,
+     "uitleg": "Continent is een ander woord voor werelddeel."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Er leven pinguïns op Antarctica.",
+     "antwoord": true,
+     "uitleg": "Pinguïns leven in het zuiden, onder andere op Antarctica."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De evenaar loopt door België.",
+     "antwoord": false,
+     "uitleg": "De evenaar loopt veel zuidelijker, onder meer door Afrika en Zuid-Amerika."
+    }
+   ]
+  },
+  {
+   "titel": "De wereld — deel 2",
+   "niveau": "ready",
+   "korte_uitleg": "Warm en koud, nat en droog: leven op aarde.",
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Waar is het het hele jaar warm?",
+     "opties": [
+      "dicht bij de evenaar",
+      "aan de noordpool",
+      "op de zuidpool",
+      "hoog in de bergen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Bij de evenaar staat de zon hoog en is het altijd warm."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe noem je een gebied waar bijna nooit regen valt?",
+     "opties": [
+      "een woestijn",
+      "een regenwoud",
+      "een moeras",
+      "een meer"
+     ],
+     "antwoord": 0,
+     "uitleg": "In een woestijn is het heel droog."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "In een tropisch regenwoud regent het veel en is het warm.",
+     "antwoord": true,
+     "uitleg": "Regenwouden liggen dicht bij de evenaar."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk dier leeft in de woestijn?",
+     "opties": [
+      "een kameel",
+      "een ijsbeer",
+      "een pinguïn",
+      "een walrus"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een kameel kan lang zonder water."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk dier leeft in het koude noordpoolgebied?",
+     "opties": [
+      "een ijsbeer",
+      "een kameel",
+      "een giraf",
+      "een papegaai"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een ijsbeer heeft een dikke vacht tegen de kou."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "De Sahara is de grootste hete ___ van de wereld. (w...)",
+     "antwoord": [
+      "woestijn"
+     ],
+     "uitleg": "De Sahara ligt in het noorden van Afrika."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "In België hebben we vier seizoenen.",
+     "antwoord": true,
+     "uitleg": "Lente, zomer, herfst en winter."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe is het klimaat in België?",
+     "opties": [
+      "gematigd",
+      "het hele jaar door heel heet",
+      "altijd ijskoud",
+      "altijd droog"
+     ],
+     "antwoord": 0,
+     "uitleg": "België heeft een gematigd klimaat met regen in elk seizoen."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Overal op de wereld is het op hetzelfde moment winter.",
+     "antwoord": false,
+     "uitleg": "Als het bij ons winter is, is het in Australië zomer."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom bouwen mensen in warme landen vaak huizen met witte muren?",
+     "opties": [
+      "Wit kaatst de zon terug en houdt het huis koel.",
+      "Wit is goedkoper.",
+      "Wit zie je in het donker.",
+      "Wit is verplicht."
+     ],
+     "antwoord": 0,
+     "uitleg": "Een witte muur wordt minder warm in de zon."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Een hoge berg heeft bovenaan vaak ___, ook in de zomer. (s...)",
+     "antwoord": [
+      "sneeuw"
+     ],
+     "uitleg": "Hoe hoger je komt, hoe kouder het wordt."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Hoe hoger je in de bergen komt, hoe warmer het wordt.",
+     "antwoord": false,
+     "uitleg": "Hoe hoger, hoe kouder."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe heet het hoogste gebergte van de wereld?",
+     "opties": [
+      "de Himalaya",
+      "de Ardennen",
+      "de Alpen",
+      "de Pyreneeën"
+     ],
+     "antwoord": 0,
+     "uitleg": "In de Himalaya ligt de Mount Everest, de hoogste berg op aarde."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe heet een gebergte in Europa waar veel mensen gaan skiën?",
+     "opties": [
+      "de Alpen",
+      "de Sahara",
+      "de Amazone",
+      "de Nijl"
+     ],
+     "antwoord": 0,
+     "uitleg": "De Alpen liggen onder meer in Zwitserland, Oostenrijk, Frankrijk en Italië."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De Amazone is een grote rivier in Zuid-Amerika.",
+     "antwoord": true,
+     "uitleg": "De Amazone stroomt door het grootste regenwoud van de wereld."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat dragen mensen in een heel koud land?",
+     "opties": [
+      "dikke, warme kleren",
+      "korte broeken en T-shirts",
+      "badpakken",
+      "sandalen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Warme kleren houden je lichaamswarmte vast."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "De langste rivier van Afrika heet de ___. (N...)",
+     "antwoord": [
+      "Nijl"
+     ],
+     "uitleg": "De Nijl stroomt door Egypte naar de Middellandse Zee."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Kinderen overal op de wereld gaan op dezelfde manier naar school.",
+     "antwoord": false,
+     "uitleg": "Sommige kinderen gaan te voet, met de boot of zelfs op een ezel. Elk land is anders."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom wonen er weinig mensen in de woestijn?",
+     "opties": [
+      "Er is weinig water.",
+      "Er is te veel sneeuw.",
+      "Er zijn te veel bomen.",
+      "Er is te veel regen."
+     ],
+     "antwoord": 0,
+     "uitleg": "Zonder water kunnen mensen, dieren en planten moeilijk leven."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een regenwoud is een goede plek voor veel verschillende dieren en planten.",
+     "antwoord": true,
+     "uitleg": "In regenwouden leven meer soorten dan waar ook op aarde."
+    }
+   ]
+  }
+ ]
+}

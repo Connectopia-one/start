@@ -23,10 +23,15 @@ def svg(b, h, inhoud, breed=None):
     return f'<svg viewBox="0 0 {b} {h}" width="{breed or b}" xmlns="http://www.w3.org/2000/svg" font-family="Nunito, sans-serif">{inhoud}</svg>'
 
 
-def maak(naam, vakmap, leer, oefen, ruitjes=False):
+# Grotere tekeningen in de oefenbundel (kompasroos, stroomkring, plant): voor de
+# wereldoriëntatie-bundels van Ready, waar de kinderen in de tekening schrijven.
+GROTE_FIGUREN = ".figcel .tekening{height:auto;min-height:96px}.figcel svg{max-height:230px;max-width:320px}"
+
+
+def maak(naam, vakmap, leer, oefen, ruitjes=False, grote_figuren=False):
     import math  # noqa: F401
     bundel.CSS = _basis[0] + GROOT
-    oefenbundel.OEFEN_CSS = _basis[1] + GROOT + (RUITJES if ruitjes else "")
+    oefenbundel.OEFEN_CSS = _basis[1] + GROOT + (RUITJES if ruitjes else "") + (GROTE_FIGUREN if grote_figuren else "")
     for maker, b, basis, n in ((bundel, leer, HIER.parent, naam),
                                (oefenbundel, oefen, HIER.parent.parent / "oefenbundels", "oefenbundel-" + naam)):
         tijdelijk = "ready-" + n
