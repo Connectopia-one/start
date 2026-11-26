@@ -1,0 +1,1933 @@
+{
+  "hoofdstukken": [
+    {
+      "titel": "Caesar: De bello Gallico — pittig",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "casus": "Lees opnieuw: Horum omnium fortissimi sunt Belgae, propterea quod a cultu atque humanitate provinciae longissime absunt, minimeque ad eos mercatores saepe commeant (De bello Gallico I, 1).",
+          "vragen": [
+            {
+              "type": "meerkeuze",
+              "vraag": "Welke vertaling van minimeque ad eos mercatores saepe commeant is het best?",
+              "opties": [
+                "en kooplui komen maar zelden bij hen",
+                "en de kleinste kooplui komen vaak bij hen",
+                "en zij gaan zelden naar de kooplui",
+                "en kooplui komen het minst graag bij hen wonen"
+              ],
+              "antwoord": 0,
+              "uitleg": "Minime (helemaal niet, het minst) hoort bij saepe: zo goed als nooit vaak, dus zelden. Eos zijn de Belgen, mercatores is het onderwerp."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "Longissime is de [[*overtreffende trap van een bijwoord|vergrotende trap van een bijvoeglijk naamwoord|overtreffende trap van een bijvoeglijk naamwoord]] bij absunt.",
+              "uitleg": "Longe (ver) wordt longius en longissime. Het hoort bij het werkwoord absunt: het verst weg."
+            },
+            {
+              "type": "tabel",
+              "vraag": "Klopt deze redenering van Caesar?",
+              "rijen": [
+                "Hoe verder van de provincie, hoe minder luxe binnenkomt.",
+                "Minder luxe maakt een volk dapperder.",
+                "De Belgen zijn dapper omdat ze veel handel drijven."
+              ],
+              "antwoord": [
+                true,
+                true,
+                false
+              ],
+              "uitleg": "Volgens Caesar maken luxeproducten de geest week. Wie weinig handel heeft, blijft strijdlustig."
+            }
+          ]
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Welk deel van Gallië bewoont welk volk volgens I, 1?",
+          "kolommen": [
+            "Belgae",
+            "Aquitani",
+            "Celtae (Galli)"
+          ],
+          "items": [
+            [
+              "grenst aan de Rijn en kijkt naar het noorden en oosten",
+              "Belgae"
+            ],
+            [
+              "reikt van de Garonne tot de Pyreneeën",
+              "Aquitani"
+            ],
+            [
+              "begint bij de Rhône",
+              "Celtae (Galli)"
+            ],
+            [
+              "ligt voorbij de Seine en de Marne",
+              "Belgae"
+            ]
+          ],
+          "uitleg": "Belgae ab extremis Galliae finibus oriuntur ... spectant in septentrionem et orientem solem. Aquitania a Garumna flumine ad Pyrenaeos montes."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In Gallos ab Aquitanis Garumna flumen ... dividit is dividit enkelvoud, maar er staan twee rivieren voor de Belgen. Hoe verklaar je dat?",
+          "opties": [
+            "Het werkwoord sluit aan bij het dichtstbijzijnde onderwerp, Garumna flumen.",
+            "Dividit is in de derde vervoeging een vorm die zowel enkelvoud als meervoud kan zijn.",
+            "Matrona en Sequana vormen samen één rivier en tellen dus als één onderwerp.",
+            "Het eigenlijke onderwerp is Gallos, en dat staat volgens Caesar in het enkelvoud."
+          ],
+          "antwoord": 0,
+          "uitleg": "Garumna flumen staat het dichtst bij het werkwoord. Latijn laat het werkwoord dan vaak in het enkelvoud, ook al volgen er nog onderwerpen."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Qua de causa Helvetii quoque reliquos Gallos virtute praecedunt: qua de causa betekent [[*om die reden|over welke zaak|door welke oorzaak?]] en verwijst [[*terug naar de oorlogen met de Germanen|vooruit naar wat volgt|naar de handel met Rome]].",
+          "uitleg": "Een betrekkelijk aansluitend voornaamwoord: om die reden, namelijk omdat ook zij voortdurend tegen de Germanen vechten."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Welke ablativus absolutus uit II, 25 betekent wat?",
+          "paren": [
+            [
+              "signifero interfecto",
+              "nadat de vaandeldrager gedood was"
+            ],
+            [
+              "signo amisso",
+              "nadat het veldteken verloren was"
+            ],
+            [
+              "scuto militi detracto",
+              "nadat hij een soldaat zijn schild had afgenomen"
+            ],
+            [
+              "centurionibus nominatim appellatis",
+              "nadat hij de centurio's bij naam had aangesproken"
+            ]
+          ],
+          "extra": [
+            "terwijl de vijand vluchtte"
+          ],
+          "uitleg": "Telkens een naamwoord met een participium perfectum passief in de ablativus. Je vertaalt met een bijzin van tijd."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom staan in II, 25 zoveel ablativi absoluti en infinitieven na elkaar voor Caesar eindelijk iets doet?",
+          "opties": [
+            "Ze stapelen de rampen op, zodat Caesars ingreep des te sterker uitkomt.",
+            "Caesar wil tonen dat hij zijn verslag snel en slordig in het veld moest schrijven.",
+            "Zo kan de lezer alle gevechten van die dag in de juiste volgorde onthouden en navertellen.",
+            "Het is de enige manier om in het Latijn een opsomming van gebeurtenissen te maken."
+          ],
+          "antwoord": 0,
+          "uitleg": "Een lange, opgestapelde periode bouwt spanning op. Pas helemaal achteraan komt in primam aciem processit."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Rem esse in angusto vidit: dat is een [[*accusativus met infinitivus|ablativus absolutus|doelzin met ut]]. Letterlijk staat er dat de zaak [[*in de engte|in de oorlog|in de vlakte]] zat.",
+          "uitleg": "Na vidit volgt een AcI. In angusto esse is figuurlijk: in nood zitten, in het nauw zitten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Quo facilius gladiis uti possent. Waarom staat er quo en niet ut?",
+          "opties": [
+            "Quo leidt een doelzin in waarin een vergrotende trap staat.",
+            "Quo betekent hier waar naartoe en geeft de plaats van het gevecht aan.",
+            "Ut kan in een doelzin nooit samen met een coniunctivus staan.",
+            "Quo is een betrekkelijk voornaamwoord dat terugverwijst naar de manipels."
+          ],
+          "antwoord": 0,
+          "uitleg": "Ut wordt quo voor een comparatief in een doelzin: opdat ze des te gemakkelijker hun zwaarden konden gebruiken."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Gladiis uti: welke naamval vraagt uti bij zich? Geef de Latijnse naam.",
+          "antwoord": [
+            "ablativus",
+            "ablatief"
+          ],
+          "uitleg": "Uti (gebruiken) is een deponens met een ablativus, net zoals potiri in castris potitus."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is het een deponens (passieve vorm, actieve betekenis)?",
+          "rijen": [
+            "potitus (castris potitus)",
+            "versaretur",
+            "occisis",
+            "cohortatus",
+            "missi"
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Potiri, versari en cohortari zijn deponentia: potitus is meester geworden, cohortatus heeft aangemoedigd. Occisis en missi zijn gewone passieve participia."
+        },
+        {
+          "casus": "Lees opnieuw: Tandem dat Cotta permotus manus: superat sententia Sabini. Pronuntiatur prima luce ituros (V, 31).",
+          "vragen": [
+            {
+              "type": "keuzelijst",
+              "vraag": "Ituros is een [[*participium futurum|participium perfectum|gerundium]] van ire. Bij ituros moet je [[*esse|fuisse|eos]] aanvullen.",
+              "uitleg": "Ituros (esse) is een infinitivus futurum: men kondigt aan dat ze bij het eerste licht zullen vertrekken."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Waarom schrijft Caesar hier vooral in het praesens (dat, superat, pronuntiatur)?",
+              "opties": [
+                "Het praesens historicum maakt het verhaal levendig, alsof het nu gebeurt.",
+                "De gebeurtenis vindt plaats op hetzelfde moment dat Caesar zijn verslag schrijft.",
+                "In het Latijn bestaat er voor deze drie werkwoorden geen vorm in de verleden tijd.",
+                "Het praesens toont de lezer dat het verhaal verzonnen is en niet echt gebeurd."
+              ],
+              "antwoord": 0,
+              "uitleg": "Een historisch praesens vertelt het verleden alsof het voor je ogen gebeurt."
+            }
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Wie zegt of vindt dit in V, 30-31?",
+          "rijen": [
+            "Hij verzet zich hevig tegen het vertrek.",
+            "Hij spreekt luid zodat de soldaten meeluisteren.",
+            "Onenigheid is gevaarlijker dan de keuze zelf.",
+            "De soldaten zullen je ter verantwoording roepen."
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            1
+          ],
+          "uitleg": "Sabinus speelt in op de soldaten, Cotta en de primi ordines willen blijven, de krijgsraad smeekt om eensgezindheid.",
+          "kolommen": [
+            "Cotta",
+            "Sabinus",
+            "de officieren"
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Facilem esse rem, seu maneant, seu proficiscantur. Waarom staan maneant en proficiscantur in de coniunctivus?",
+          "opties": [
+            "Ze staan in een bijzin binnen de indirecte rede.",
+            "Ze geven een rechtstreeks bevel van de officieren aan de soldaten.",
+            "Het zijn vormen van het futurum, want het vertrek ligt nog in de toekomst.",
+            "Na seu volgt in het Latijn altijd een coniunctivus van wens."
+          ],
+          "antwoord": 0,
+          "uitleg": "Wat de officieren zeggen, staat in de indirecte rede: de hoofdzin als AcI (facilem esse rem), de bijzinnen in de coniunctivus."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Ut quibus esset persuasum non ab hoste, sed ab homine amicissimo Ambiorige consilium datum: amicissimo is [[*ironisch bedoeld|letterlijk bedoeld|een vergissing van de kopiist]], want Ambiorix [[*lokt hen in een val|redt hun leven|vecht met hen mee]].",
+          "uitleg": "Caesar weet bij het schrijven al hoe het afloopt: de beste vriend blijkt de vijand."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet de gebeurtenissen van V, 30-31 in de juiste volgorde.",
+          "opties": [
+            "Sabinus spreekt luid tegen Cotta.",
+            "De krijgsraad staat op en smeekt om eensgezindheid.",
+            "Cotta geeft zich gewonnen.",
+            "De soldaten waken en kiezen wat ze meenemen.",
+            "Bij het eerste licht trekt een lange colonne weg."
+          ],
+          "uitleg": "Discussie, smeekbede, toegeving, slapeloze nacht, vertrek."
+        },
+        {
+          "casus": "Lees opnieuw: Neque fas esse existimant ea litteris mandare, cum in reliquis fere rebus, publicis privatisque rationibus Graecis litteris utantur (VI, 14).",
+          "vragen": [
+            {
+              "type": "keuzelijst",
+              "vraag": "Cum met de coniunctivus utantur is hier [[*toegevend: hoewel|oorzakelijk: omdat|tijdelijk: toen]].",
+              "uitleg": "Ze schrijven hun leer niet op, hoewel ze voor andere zaken wel het Griekse schrift gebruiken."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Wat bewijst deze zin over de druïden volgens Caesar?",
+              "opties": [
+                "Ze konden schrijven, maar kozen ervoor hun leer niet op te schrijven.",
+                "Ze konden niet schrijven en leerden daarom alles uit het hoofd.",
+                "Ze schreven hun leer op in het Grieks.",
+                "Ze verboden het Grieks in heel Gallië."
+              ],
+              "antwoord": 0,
+              "uitleg": "Graecis litteris utantur: ze kennen het schrift. Het niet opschrijven is een keuze."
+            }
+          ]
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Hoort dit volgens Caesar bij de druïden of bij de ridders?",
+          "kolommen": [
+            "druïden",
+            "ridders"
+          ],
+          "items": [
+            [
+              "vrijstelling van legerdienst",
+              "druïden"
+            ],
+            [
+              "een gevolg van dienaars en cliënten",
+              "ridders"
+            ],
+            [
+              "rechtspreken bij een erfenis",
+              "druïden"
+            ],
+            [
+              "bijna jaarlijks oorlog voeren",
+              "ridders"
+            ],
+            [
+              "twintig jaar leren",
+              "druïden"
+            ]
+          ],
+          "uitleg": "Druïden: godsdienst, onderwijs, rechtspraak, geen legerdienst. Ridders: oorlog en een gevolg van ambacti."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Quod fere plerisque accidit, ut praesidio litterarum diligentiam in perdiscendo ac memoriam remittant. Wat bedoelt Caesar?",
+          "opties": [
+            "Wie op het schrift steunt, gaat minder zijn best doen om uit het hoofd te leren.",
+            "De meeste mensen leren beter als ze alles opschrijven.",
+            "De letters beschermen de druïden tegen hun vijanden.",
+            "Alleen wie veel leest, onthoudt veel."
+          ],
+          "antwoord": 0,
+          "uitleg": "Praesidio litterarum: met de steun van het schrift laten ze hun ijver en geheugen verslappen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "In perdiscendo: welke vorm is perdiscendo? Geef de Latijnse naam.",
+          "antwoord": [
+            "gerundium"
+          ],
+          "uitleg": "Perdiscendo is een gerundium in de ablativus na in: bij het grondig leren."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Pro vita hominis nisi hominis vita reddatur, non posse deorum immortalium numen placari. Welke stijlfiguur zit in vita hominis ... hominis vita?",
+          "opties": [
+            "chiasme: de woorden staan in gekruiste volgorde",
+            "alliteratie: dezelfde beginklank",
+            "hyperbool: een sterke overdrijving",
+            "litotes: iets zeggen door het tegendeel te ontkennen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Vita hominis / hominis vita: ABBA. Het kruis benadrukt de ruil leven tegen leven."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Welke Gallische god geeft Caesar welke Romeinse naam, volgens de taak die hij beschrijft?",
+          "paren": [
+            [
+              "de uitvinder van alle kunsten en gids op de wegen",
+              "Mercurius"
+            ],
+            [
+              "de god die ziektes verdrijft",
+              "Apollo"
+            ],
+            [
+              "de godin van ambachten en kunsten",
+              "Minerva"
+            ],
+            [
+              "de god die oorlogen leidt",
+              "Mars"
+            ]
+          ],
+          "extra": [
+            "Neptunus"
+          ],
+          "uitleg": "Caesar vertaalt de Gallische goden naar Romeinse namen: interpretatio Romana."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit als je de vier Caesarteksten vergelijkt?",
+          "rijen": [
+            "In alle vier de teksten spreekt Caesar over zichzelf in de derde persoon.",
+            "In I, 1 en VI, 13-17 onderbreekt Caesar het verhaal om land en volk te beschrijven.",
+            "In II, 24-26 en V, 30-31 hangt het lot van de Romeinen af van de bevelhebber.",
+            "In V, 30-31 is Caesar zelf aanwezig in het winterkamp."
+          ],
+          "antwoord": [
+            false,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "In I, 1 en VI, 13-17 spreekt hij niet over zichzelf: het zijn beschrijvingen. In V, 30-31 is hij ver weg; daar beslissen Sabinus en Cotta."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Caesar zelf redt in II, 25 de slag, en in V, 31 gaat het mis zonder hem. Wat wil hij zijn lezers in Rome zo duidelijk maken?",
+          "opties": [
+            "Dat het leger hem als bevelhebber nodig heeft.",
+            "Dat zijn officieren altijd betere beslissingen nemen.",
+            "Dat de Galliërs geen gevaarlijke tegenstanders zijn.",
+            "Dat oorlog in Gallië geen zin heeft."
+          ],
+          "antwoord": 0,
+          "uitleg": "De Commentarii zijn ook politieke reclame: waar Caesar is, wordt het goed; waar hij ontbreekt, loopt het fout."
+        },
+        {
+          "type": "open",
+          "vraag": "Vertaal: Caesar scuto ab novissimis militi detracto in primam aciem processit.",
+          "antwoord": "Nadat Caesar een soldaat achteraan zijn schild had afgenomen, ging hij naar de eerste linie.",
+          "uitleg": "Scuto ... detracto is een ablativus absolutus; ab novissimis zijn de achtersten, in primam aciem de voorste linie."
+        },
+        {
+          "type": "open",
+          "vraag": "Leg uit waarom Caesar in VI, 14 een eigen verklaring geeft (id mihi ... videntur) en niet gewoon zegt waarom de druïden niets opschrijven.",
+          "antwoord": "Caesar weet het niet zeker, want de druïden schreven hun redenen niet op. Hij geeft daarom zijn eigen vermoeden, met mihi videntur: het lijkt mij.",
+          "uitleg": "Mihi videntur toont dat het om Caesars eigen interpretatie gaat, niet om iets wat de druïden zelf zeiden."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Eodem tempore equites nostri ... adversis hostibus occurrebant: occurrebant is een [[*imperfectum|perfectum|plusquamperfectum]] en beschrijft [[*een handeling die aan de gang was|een eenmalige, afgesloten handeling|iets wat nog moet gebeuren]].",
+          "uitleg": "Het imperfectum schildert de verwarring: ruiters die telkens weer op de vijand botsten."
+        }
+      ]
+    },
+    {
+      "titel": "Ovidius: Pyramus en Thisbe — pittig",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "casus": "Lees opnieuw: Pyramus et Thisbe, iuvenum pulcherrimus alter, / altera, quas oriens habuit, praelata puellis, / contiguas tenuere domos (IV, 55-57).",
+          "vragen": [
+            {
+              "type": "keuzelijst",
+              "vraag": "Pulcherrimus hoort bij [[*Pyramus|Thisbe|iuvenum]], altera bij [[*Thisbe|Pyramus|domos]].",
+              "uitleg": "Alter ... altera: de ene ... de andere. Pulcherrimus is mannelijk, altera vrouwelijk: de volgorde volgt die van de namen."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Wat betekent quas oriens habuit, praelata puellis?",
+              "opties": [
+                "verkozen boven de meisjes die het Oosten had",
+                "de meisjes die het Oosten ooit boven alles verkozen had",
+                "door de meisjes van het Oosten naar hier gebracht",
+                "zij die het hele Oosten boven alle andere meisjes verkoos"
+              ],
+              "antwoord": 0,
+              "uitleg": "Praelata (verkozen boven) hoort bij Thisbe en neemt een dativus: puellis. Quas verwijst naar die meisjes."
+            },
+            {
+              "type": "invultekst",
+              "vraag": "Tenuere is een kortere vorm van welke vorm? Schrijf de gewone derde persoon meervoud perfectum.",
+              "antwoord": [
+                "tenuerunt"
+              ],
+              "uitleg": "Tenuere = tenuerunt, van tenere: ze bewoonden."
+            }
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is het een kortere dichterlijke vorm van het perfectum op -erunt?",
+          "rijen": [
+            "vetuere (sed vetuere patres)",
+            "coiere (ad solitum coiere locum)",
+            "dixere (sub noctem dixere vale)",
+            "venire (nocte venires)"
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Vetuere, coiere en dixere staan voor vetuerunt, coierunt en dixerunt. Venires is een coniunctivus imperfectum van venire."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom zou Ovidius het verhaal in Babylon laten spelen, ver van Rome?",
+          "opties": [
+            "Een exotische oosterse stad maakt het verhaal geheimzinnig en oud.",
+            "Ovidius woonde zelf een tijd in Babylon en kende de stad goed.",
+            "In Rome bestonden er in die tijd nog geen muren tussen twee huizen.",
+            "Babylon was in de tijd van Ovidius de hoofdstad van het Romeinse rijk."
+          ],
+          "antwoord": 0,
+          "uitleg": "Semiramis, bakstenen muren, het graf van Ninus: alles roept een ver, legendarisch Oosten op."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Welk stijlmiddel herken je in het voorbeeld?",
+          "paren": [
+            [
+              "quoque magis tegitur, tectus magis aestuat ignis",
+              "metafoor van vuur voor liefde"
+            ],
+            [
+              "invide paries, quid amantibus obstas?",
+              "personificatie"
+            ],
+            [
+              "una duos nox perdet amantes",
+              "antithese"
+            ],
+            [
+              "vota tamen tetigere deos, tetigere parentes",
+              "anafoor"
+            ]
+          ],
+          "extra": [
+            "hyperbool"
+          ],
+          "uitleg": "Een verborgen vuur, een jaloerse muur, één nacht tegenover twee geliefden, de herhaling van tetigere."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Oscula non pervenientia contra: pervenientia is een [[*participium praesens|participium perfectum|gerundium]] en hoort bij [[*oscula|quisque|contra]].",
+          "uitleg": "Kussen die niet tot aan de overkant geraakten: pervenientia (onzijdig meervoud) hoort bij oscula."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Statuunt, ut nocte silenti fallere custodes ... temptent: ut met de coniunctivus is hier [[*een bijzin die zegt wat ze besluiten|een vergelijking: zoals|een tijdsbepaling: toen]].",
+          "uitleg": "Na statuunt (ze besluiten) volgt met ut de inhoud van hun besluit: dat ze zouden proberen de wachters te misleiden."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Wat is wit, wat is donker in het verhaal?",
+          "kolommen": [
+            "wit of licht",
+            "donker"
+          ],
+          "items": [
+            [
+              "de moerbeien aan het begin (niveis pomis)",
+              "wit of licht"
+            ],
+            [
+              "de grot waarin Thisbe vlucht (obscurum antrum)",
+              "donker"
+            ],
+            [
+              "de moerbeien aan het einde (ater color)",
+              "donker"
+            ],
+            [
+              "het gezicht van Thisbe (buxo pallidiora)",
+              "wit of licht"
+            ],
+            [
+              "de vruchten na het bloed (in atram faciem)",
+              "donker"
+            ]
+          ],
+          "uitleg": "Ovidius speelt met wit en donker: het wit van onschuld en angst wordt het donker van rouw."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Audacem faciebat amor. Waarom valt die zin op?",
+          "opties": [
+            "Een heel korte zin van drie woorden tussen lange verzinnen.",
+            "Het is de enige zin in het verhaal waar een werkwoord in staat.",
+            "Het is de enige plek waar Ovidius het woord amor gebruikt in het verhaal.",
+            "De zin is in het Grieks geschreven, niet in het Latijn."
+          ],
+          "antwoord": 0,
+          "uitleg": "Drie woorden: de liefde maakte haar moedig. De korte zin valt op tussen de lange, rijke verzen."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Tergo velamina lapsa reliquit: lapsa is een [[*participium perfectum van labi, een deponens|participium praesens van labi|gerundivum van linquere]] en betekent [[*afgegleden|glijdend|achter te laten]].",
+          "uitleg": "Labi (glijden, vallen) is een deponens: lapsa heeft een actieve betekenis, afgegleden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Inventos forte sine ipsa ... tenues laniavit amictus. Waarom is sine ipsa zo belangrijk voor het verhaal?",
+          "opties": [
+            "Het zegt dat Thisbe er niet bij was: het bloed op de sluier is niet van haar.",
+            "Het zegt dat de leeuwin op dat moment zelf helemaal geen bloed meer aan haar muil had hangen.",
+            "Het zegt dat Pyramus de sluier helemaal zelf gevonden had, zonder dat iemand hem daarbij hielp.",
+            "Het zegt dat de sluier helemaal alleen in de donkere grot lag te wachten op Thisbe."
+          ],
+          "antwoord": 0,
+          "uitleg": "Het misverstand draait om dat detail: de lezer weet wat Pyramus niet weet."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Weet de lezer dit, en Pyramus niet?",
+          "rijen": [
+            "Het bloed komt van koeien.",
+            "Thisbe zit veilig in een grot.",
+            "Er liggen sporen van een wild dier in het stof.",
+            "De sluier is van Thisbe."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            false
+          ],
+          "uitleg": "Pyramus ziet de sporen en herkent de sluier. Dat het bloed van koeien is en Thisbe leeft, weet enkel de lezer: tragische ironie."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Ego te, miseranda, peremi, / in loca plena metus qui iussi nocte venires: qui verwijst naar [[*ego, Pyramus zelf|te, Thisbe|loca, de plaats]] en venires staat in de coniunctivus omdat het [[*afhangt van iussi|een wens is|een vraag is]].",
+          "uitleg": "Ik die je beval te komen: iussi met een coniunctivus zonder ut, zoals soms bij bevelen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Pyramus noemt zijn eigen ziel nocens en Thisbe dignissima longa vita. Welk stijlmiddel is dat?",
+          "opties": [
+            "een tegenstelling tussen schuld en verdienste",
+            "een uitgewerkte vergelijking met een leeuw in de woestijn",
+            "een opsomming van drie gelijke, steeds langere delen",
+            "een woordspeling met de klank van de naam Thisbe"
+          ],
+          "antwoord": 0,
+          "uitleg": "Illa fuit longa dignissima vita, nostra nocens anima est: zij verdiende een lang leven, ik ben schuldig."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet de stappen in het misverstand in de juiste volgorde.",
+          "opties": [
+            "Thisbe verliest haar sluier tijdens de vlucht.",
+            "De leeuwin verscheurt de sluier met haar bebloede muil.",
+            "Pyramus ziet sporen in het stof.",
+            "Pyramus vindt de bebloede sluier.",
+            "Pyramus doorsteekt zichzelf."
+          ],
+          "uitleg": "Elk detail leidt tot het volgende: een reeks toevalligheden die eindigt in de dood."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Cruor emicat alte, non aliter quam cum vitiato fistula plumbo scinditur: non aliter quam betekent [[*niet anders dan, net zoals|nooit meer dan|niet minder dan]].",
+          "uitleg": "Non aliter quam leidt een vergelijking in: net zoals wanneer een loden buis openscheurt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom komt Thisbe terug uit de grot, al is ze nog bang?",
+          "opties": [
+            "Ze wil haar geliefde niet laten wachten of teleurstellen.",
+            "De leeuwin is in de grot gekropen en zit daar te slapen.",
+            "Ze heeft gehoord dat Pyramus haar naam riep in de nacht.",
+            "Haar vader is haar komen zoeken en dwingt haar mee te gaan."
+          ],
+          "antwoord": 0,
+          "uitleg": "Metu nondum posito, ne fallat amantem: hoewel de angst nog niet weg is, om haar geliefde niet te misleiden."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Metu nondum posito is een [[*ablativus absolutus|ablativus van vergelijking|gerundium]] met een [[*toegevende|oorzakelijke|doel-]]betekenis.",
+          "uitleg": "Terwijl de angst nog niet gelegd was, dus: hoewel ze nog bang was."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Ora [[buxo]] pallidiora gerens exhorruit [[aequoris]] instar.",
+          "extra": [
+            "plumbo",
+            "arboris"
+          ],
+          "uitleg": "Bleker dan buxushout, huiverend zoals het zeeoppervlak."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Quis te mihi casus ademit? Welke naamval is mihi bij ademit?",
+          "opties": [
+            "dativus: van mij weggenomen",
+            "ablativus: met mij weggenomen",
+            "genitivus: mijn ongeluk",
+            "accusativus: mij weggenomen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij adimere (wegnemen) staat de persoon van wie iets wordt afgenomen in de dativus."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Tua te manus amorque perdidit. Waarom staat perdidit in het enkelvoud?",
+          "opties": [
+            "Hand en liefde vormen samen één oorzaak.",
+            "Amor staat in het meervoud en manus in het enkelvoud.",
+            "Het werkwoord hoort enkel bij het voornaamwoord te.",
+            "Perdidit is hier geen persoonsvorm maar een infinitief."
+          ],
+          "antwoord": 0,
+          "uitleg": "Twee onderwerpen die als één geheel gezien worden, krijgen vaak een enkelvoud."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welke wens van Thisbe gaat in vervulling, en hoe?",
+          "rijen": [
+            "De moerbeien worden voorgoed donker als ze rijp zijn.",
+            "Hun as rust samen in één urne.",
+            "De boom draagt rouwkleurige vruchten als herinnering."
+          ],
+          "antwoord": [
+            0,
+            1,
+            0
+          ],
+          "uitleg": "Vota tetigere deos, tetigere parentes: de goden verhoren de wens aan de boom, de ouders die over het graf.",
+          "kolommen": [
+            "aan de boom",
+            "aan de ouders"
+          ]
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Arbor, quae ramis miserabile corpus nunc tegis unius, mox es tectura duorum: tectura es is een [[*futurum met een participium futurum|perfectum passief|gerundivum met esse]] en betekent [[*je zal bedekken|je bent bedekt|je moet bedekt worden]].",
+          "uitleg": "Tectura es: je staat op het punt te bedekken, je zal bedekken. Nunc unius, mox duorum: nu één, straks twee."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat bedoelt de verteller met quodque rogis superest, una requiescit in urna?",
+          "opties": [
+            "Wat van de brandstapels overblijft, rust in één urne.",
+            "Wie de brandstapel overleeft, rust samen in een graf.",
+            "De urne staat boven op de brandstapel.",
+            "Ze worden apart in twee urnen begraven."
+          ],
+          "antwoord": 0,
+          "uitleg": "Rogi zijn de brandstapels: hun as wordt samen bewaard. Zo zijn ze in de dood verenigd."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Welke vorm uit Pyramus en Thisbe is het?",
+          "paren": [
+            [
+              "divellite",
+              "imperativus meervoud"
+            ],
+            [
+              "persequar",
+              "futurum van een deponens"
+            ],
+            [
+              "estote",
+              "imperativus futurum meervoud van esse"
+            ],
+            [
+              "rogati",
+              "participium perfectum passief"
+            ]
+          ],
+          "extra": [
+            "infinitivus praesens"
+          ],
+          "uitleg": "Divellite: verscheur! Persequar: ik zal volgen. Estote rogati: wees gevraagd. Rogati hoort bij parentes."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit als je de dood van Pyramus en Thisbe vergelijkt?",
+          "rijen": [
+            "Ze sterven met hetzelfde zwaard.",
+            "Ze sterven allebei door een misverstand.",
+            "Thisbe kiest bewust om Pyramus te volgen.",
+            "Pyramus ziet Thisbe nog even voor hij sterft."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            true
+          ],
+          "uitleg": "Pyramus sterft door een misverstand, Thisbe weet precies wat er gebeurd is. Visa recondidit illa: hij sluit zijn ogen nadat hij haar gezien heeft."
+        },
+        {
+          "type": "open",
+          "vraag": "Vertaal: Ad nomen Thisbes oculos iam morte gravatos Pyramus erexit.",
+          "antwoord": "Bij de naam van Thisbe sloeg Pyramus zijn ogen, die al zwaar waren van de dood, op.",
+          "uitleg": "Thisbes is een Griekse genitivus. Gravatos hoort bij oculos, morte is een ablativus van oorzaak."
+        },
+        {
+          "type": "open",
+          "vraag": "Waarom is het verhaal van Pyramus en Thisbe een aitiologie? Leg uit met de tekst.",
+          "antwoord": "Het verklaart waarom de moerbeien donker zijn: door het bloed van Pyramus en de wens van Thisbe kregen de witte vruchten voorgoed een donkere kleur.",
+          "uitleg": "Een aitiologie verklaart de oorsprong van iets uit de werkelijkheid, hier de kleur van de moerbei."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Thisbes in ad nomen Thisbes is een Griekse vorm. In welke naamval staat het? Geef de Latijnse naam.",
+          "antwoord": [
+            "genitivus",
+            "genitief"
+          ],
+          "uitleg": "Thisbes is een Griekse genitivus: bij de naam van Thisbe."
+        }
+      ]
+    },
+    {
+      "titel": "Ovidius: goden, kunstenaars en uitvinders — pittig",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "casus": "Lees opnieuw: In nova fert animus mutatas dicere formas / corpora; di, coeptis (nam vos mutastis et illas) / adspirate meis primaque ab origine mundi / ad mea perpetuum deducite tempora carmen (I, 1-4).",
+          "vragen": [
+            {
+              "type": "keuzelijst",
+              "vraag": "In nova ... corpora hoort [[*nova bij corpora|nova bij formas|in bij animus]]: mijn geest drijft me ertoe te spreken over [[*gedaanten veranderd in nieuwe lichamen|nieuwe gedaanten van veranderde lichamen|nieuwe liederen over lichamen]].",
+              "uitleg": "Nova staat ver van corpora, aan het begin en het einde: een hyperbaton. Formae mutatae in nova corpora."
+            },
+            {
+              "type": "invultekst",
+              "vraag": "Mutastis is een kortere vorm. Schrijf de volledige vorm van de tweede persoon meervoud perfectum.",
+              "antwoord": [
+                "mutavistis"
+              ],
+              "uitleg": "Mutastis = mutavistis: jullie hebben ook die (gedaanten) veranderd."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Wat vraagt Ovidius aan de goden?",
+              "opties": [
+                "Dat ze zijn werk steunen en zijn gedicht doorlopend tot zijn eigen tijd voeren.",
+                "Dat ze hem zelf in een nieuwe gedaante zullen veranderen als het werk klaar is.",
+                "Dat ze de wereld opnieuw zouden scheppen zoals die in het begin was.",
+                "Dat ze hem zouden vertellen welke verhalen hij moet weglaten."
+              ],
+              "antwoord": 0,
+              "uitleg": "Adspirate coeptis meis ... deducite perpetuum carmen: een gedicht zonder onderbreking, van het begin van de wereld tot nu."
+            }
+          ]
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Wie wordt met deze omschrijving bedoeld?",
+          "paren": [
+            [
+              "Latonia",
+              "Diana"
+            ],
+            [
+              "Latous",
+              "Apollo"
+            ],
+            [
+              "Lemnius",
+              "Vulcanus"
+            ],
+            [
+              "Tritonia",
+              "Minerva"
+            ],
+            [
+              "Ortygia dea",
+              "Diana"
+            ]
+          ],
+          "extra": [
+            "Mercurius"
+          ],
+          "uitleg": "Ovidius noemt goden graag naar hun moeder (Latona) of naar een plaats (Lemnos, Ortygia, het Tritonmeer)."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Restabat verba referre et precibus spretis fugisse per avia nympham: Ovidius vertelt het verhaal hier in [[*de indirecte rede|een rechtstreeks gesprek|de gebiedende wijs]], want [[*Mercurius stopt met vertellen omdat Argus inslaapt|Pan wil niet dat Diana het hoort|de nimf vertelt het zelf]].",
+          "uitleg": "Restabat: er bleef nog over te vertellen dat ... De infinitieven fugisse, orasse, tenuisse tonen wat Mercurius nog had willen zeggen."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Wat gebeurt er met Syrinx en wat doet Pan?",
+          "kolommen": [
+            "Syrinx",
+            "Pan"
+          ],
+          "items": [
+            [
+              "vlucht door ongebaande plaatsen",
+              "Syrinx"
+            ],
+            [
+              "smeekt haar zusters haar te veranderen",
+              "Syrinx"
+            ],
+            [
+              "houdt rietstengels vast in plaats van een lichaam",
+              "Pan"
+            ],
+            [
+              "bindt rietjes samen met was",
+              "Pan"
+            ]
+          ],
+          "uitleg": "Het verhaal eindigt met een aitiologie: de panfluit heet syrinx, naar het meisje."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Disparibus calamis conpagine cerae inter se iunctis. Waarom zijn de rietjes disparibus, ongelijk?",
+          "opties": [
+            "Rietjes van verschillende lengte geven verschillende tonen.",
+            "Pan had in zijn haast niet genoeg tijd om ze recht te snijden.",
+            "Elk rietje stond voor een andere zuster van de nimf Syrinx.",
+            "Ongelijke rietjes kan je met was beter aan elkaar plakken."
+          ],
+          "antwoord": 0,
+          "uitleg": "Een panfluit bestaat uit rietjes van ongelijke lengte. Ovidius gebruikt hetzelfde beeld bij Daedalus: disparibus avenis."
+        },
+        {
+          "casus": "Lees opnieuw: Primus adulterium Veneris cum Marte putatur / hic vidisse deus: videt hic deus omnia primus (IV, 171-172).",
+          "vragen": [
+            {
+              "type": "keuzelijst",
+              "vraag": "Putatur vidisse is een [[*nominativus met infinitivus|accusativus met infinitivus|ablativus absolutus]]: [[*men denkt dat deze god het als eerste zag|hij denkt dat hij het eerst zag|hij wordt gezien door de god]].",
+              "uitleg": "Bij een passief werkwoord van denken staat het onderwerp in de nominativus: hic deus putatur vidisse."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Non illud opus tenuissima vincant stamina, non summo quae pendet aranea tigno. Wat zegt Ovidius over het net van Vulcanus?",
+          "opties": [
+            "Het is fijner dan de dunste draad of een spinnenweb.",
+            "Het is zo sterk dat zelfs de goden het niet kunnen breken.",
+            "Het hangt aan de hoogste balk van het paleis van de goden.",
+            "Het is gemaakt van draden die een spin voor Vulcanus spon."
+          ],
+          "antwoord": 0,
+          "uitleg": "Vincant is een coniunctivus: de dunste draden zouden het niet overtreffen. Het net is onzichtbaar dun."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over Venus en Mars?",
+          "rijen": [
+            "De zon vertelt Vulcanus over het overspel.",
+            "Vulcanus laat het werk uit zijn handen vallen.",
+            "De goden zijn diep geschokt en willen Venus straffen.",
+            "Een van de goden wenst zelf zo te worden betrapt."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Superi risere: de goden lachen. Aliquis de dis non tristibus optat sic fieri turpis: iemand zou zelf graag zo te schande gemaakt worden."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Illi iacuere ligati turpiter: ligati is een [[*participium perfectum passief|participium praesens|gerundivum]] en turpiter is een [[*bijwoord|bijvoeglijk naamwoord|zelfstandig naamwoord]].",
+          "uitleg": "Ligati: vastgebonden. Turpiter: op schandelijke wijze, het bijwoord van turpis."
+        },
+        {
+          "casus": "Lees opnieuw: Quid me mihi detrahis? inquit: / a piget a non est clamabat tibia tanti (VI, 385-386).",
+          "vragen": [
+            {
+              "type": "meerkeuze",
+              "vraag": "Wat bedoelt Marsyas met quid me mihi detrahis?",
+              "opties": [
+                "Waarom trek je mij van mezelf af? Zijn huid wordt afgestroopt.",
+                "Waarom neem je mijn fluit van mij af en geef je die aan Apollo?",
+                "Waarom trek je me weg van de wedstrijd die ik nog wou winnen?",
+                "Waarom laat je mij niet meer met mezelf spreken in het bos?"
+              ],
+              "antwoord": 0,
+              "uitleg": "Een woordspel: de huid wordt van het lichaam getrokken, alsof hij van zichzelf wordt afgenomen."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "Non est tibia tanti: tanti is een [[*genitivus van waarde|dativus van belang|ablativus van maat]]: de fluit is [[*het niet waard|niet groot genoeg|niet van mij]].",
+              "uitleg": "Tanti esse: zoveel waard zijn. De fluit was zo'n straf niet waard."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom beschrijft Ovidius zo nauwkeurig de aders, ingewanden en vezels van Marsyas?",
+          "opties": [
+            "Om de wreedheid van de straf zichtbaar en voelbaar te maken.",
+            "Omdat hij in die jaren ook een geneeskundig handboek over het menselijk lichaam aan het schrijven was.",
+            "Omdat de lezers in Rome nog nooit van hun leven een echte sater van dichtbij hadden gezien.",
+            "Omdat Apollo als god van de geneeskunde wilde dat iedereen leerde hoe een lichaam eruitziet."
+          ],
+          "antwoord": 0,
+          "uitleg": "Posses numerare: je zou ze kunnen tellen. De lezer wordt zelf toeschouwer van de gruwel."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet de metamorfose van Marsyas in de juiste volgorde.",
+          "opties": [
+            "Faunen, saters, nimfen en herders wenen om Marsyas.",
+            "De vruchtbare aarde wordt nat van de tranen.",
+            "De aarde drinkt de tranen op in haar diepste aders.",
+            "Ze maakt er water van en laat het opborrelen.",
+            "De helderste rivier van Frygië heet Marsyas."
+          ],
+          "uitleg": "Een aitiologie: de rivier Marsyas ontstaat uit de tranen om de sater."
+        },
+        {
+          "casus": "Lees opnieuw: Terras licet et undas obstruat: at caelum certe patet; ibimus illac. / Omnia possideat, non possidet aera Minos (VIII, 185-187).",
+          "vragen": [
+            {
+              "type": "keuzelijst",
+              "vraag": "Obstruat en possideat staan in de [[*coniunctivus, met een toegevende betekenis|indicativus futurum|imperativus]]: [[*hij mag dan wel afsluiten en alles bezitten|hij zal afsluiten en bezitten|sluit af en bezit]].",
+              "uitleg": "Licet met coniunctivus en een losse coniunctivus: al sluit hij af, al bezit hij alles. Maar de lucht niet."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Welke tegenstelling maakt Daedalus?",
+              "opties": [
+                "Minos beheerst land en zee, maar niet de lucht.",
+                "Daedalus zelf heeft de lucht, Minos alleen het water.",
+                "Kreta ligt heel ver van de zee en dus dicht bij de hemel.",
+                "De lucht is open, maar de zee is helemaal bevroren."
+              ],
+              "antwoord": 0,
+              "uitleg": "Terras et undas ... at caelum: de lucht is de enige uitweg."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Ponit in ordine pennas, a minima coeptas, longam breviore sequenti. Hoe legt Daedalus de veren?",
+          "opties": [
+            "van de kleinste naar langere, telkens een korte na een lange",
+            "allemaal even lang, naast elkaar op een rij",
+            "eerst de langste en dan pas de kortste, zonder volgorde",
+            "in twee rijen, de ene van was en de andere van linnen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Ut clivo crevisse putes: zodat je zou denken dat ze als op een helling groeiden, zoals de rietjes van een panfluit."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Hoe hindert Icarus zijn vader?",
+          "rijen": [
+            "Hij grijpt naar veertjes die door de wind wegwaaien.",
+            "Hij kneedt de gele was met zijn duim.",
+            "Hij steekt de vleugels in brand.",
+            "Hij lacht terwijl hij speelt."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Ore renidenti ... captabat plumas ... ceram pollice mollibat: lachend speelt hij met wat zijn dood zal worden."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Medio ut limite curras, Icare, moneo: ut met de coniunctivus curras zegt [[*wat de vader aanraadt|waarom de vader bang is|wanneer ze vertrekken]]. Een te lage vlucht maakt de veren zwaar door [[*het water|de zon|de wind]].",
+          "uitleg": "Moneo ut: ik raad aan dat. Ne si demissior ibis unda gravet pennas: anders maakt het water de veren zwaar."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Si demissior ibis, [[unda]] gravet pennas; si celsior, [[ignis]] adurat.",
+          "extra": [
+            "aura",
+            "cera"
+          ],
+          "uitleg": "Te laag: de golven. Te hoog: het vuur van de zon."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Velut ales, ab alto quae teneram prolem produxit in aera nido. Waarmee vergelijkt Ovidius Daedalus?",
+          "opties": [
+            "met een vogel die haar jongen voor het eerst uit het nest laat vliegen",
+            "met een visser die met een trillende rietstok naar vissen hengelt",
+            "met een herder die op zijn staf leunt en omhoog kijkt naar de lucht",
+            "met een boer die met zijn ploeg over het veld trekt in de zon"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een vogelmoeder met haar jong: de vader die zijn zoon leert vliegen. De visser, herder en boer zijn de toeschouwers."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom denken de visser, de herder en de boer dat ze goden zien?",
+          "opties": [
+            "Alleen goden kunnen volgens hen door de lucht reizen.",
+            "Daedalus en Icarus dragen gouden kleren en een kroon.",
+            "Ze zien Daedalus en Icarus vanaf de hemel naar beneden komen.",
+            "Daedalus roept hun luid toe dat hij een god is."
+          ],
+          "antwoord": 0,
+          "uitleg": "Quique aethera carpere possent credidit esse deos: wie door de lucht kan reizen, moet een god zijn."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "At pater infelix, nec iam pater: Ovidius bedoelt dat Daedalus [[*geen zoon meer heeft|zijn zoon verstoot|geen vader wil zijn]]. Icarus is het onderwerp van [[*een aitiologie: de zee en het eiland dragen zijn naam|een vergelijking met de zon|een gebed aan Minerva]].",
+          "uitleg": "Nec iam pater: niet langer vader. Aqua quae nomen traxit ab illo, tellus a nomine dicta sepulti."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Wie doet wat in het verhaal van Perdix?",
+          "paren": [
+            [
+              "vertrouwt haar zoon toe aan Daedalus",
+              "de zus van Daedalus"
+            ],
+            [
+              "vindt de zaag uit naar de graat van een vis",
+              "de jongen"
+            ],
+            [
+              "duwt de jongen van de Akropolis",
+              "Daedalus"
+            ],
+            [
+              "vangt de jongen op en maakt er een vogel van",
+              "Pallas"
+            ]
+          ],
+          "extra": [
+            "Icarus"
+          ],
+          "uitleg": "Daedalus wordt jaloers op zijn neefje: invidit. Minerva redt het slimme kind."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Bis puerum senis: hoe oud was de jongen? Schrijf het getal.",
+          "antwoord": [
+            "12",
+            "twaalf"
+          ],
+          "uitleg": "Bis seni: twee keer zes, dus twaalf jaar."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Primus et ex uno duo ferrea bracchia nodo vinxit: de jongen vindt [[*de passer|de schaar|de hamer]] uit, waarvan [[*één arm stilstaat en de andere een cirkel trekt|beide armen samen zagen|één arm op het vuur ligt]].",
+          "uitleg": "Altera pars staret, pars altera duceret orbem: zo trek je een cirkel."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom vliegt de patrijs nooit hoog en bouwt ze haar nest dicht bij de grond?",
+          "opties": [
+            "Ze herinnert zich haar val van vroeger.",
+            "Haar vleugels zijn van was en kunnen smelten.",
+            "Minerva heeft haar verboden de hemel in te gaan.",
+            "Ze wil dicht bij het graf van Icarus blijven."
+          ],
+          "antwoord": 0,
+          "uitleg": "Antiquique memor metuit sublimia casus: ze denkt aan haar vroegere val en vreest de hoogte."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit als je de vijf verhalen vergelijkt?",
+          "rijen": [
+            "Syrinx en Marsyas eindigen met iets wat nog bestaat: een instrument en een rivier.",
+            "In elk verhaal straft een god een mens of sater.",
+            "Daedalus komt voor als kunstenaar en als dader.",
+            "Bij Venus en Mars eindigt het verhaal tragisch met een dode."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Bij Syrinx en Icarus straft geen god. Venus en Mars is net een komisch verhaal: de goden lachen."
+        },
+        {
+          "type": "open",
+          "vraag": "Leg uit waarom de patrijs voor Daedalus een longum crimen is, een blijvende beschuldiging.",
+          "antwoord": "De patrijs is zijn neefje dat hij uit jaloezie van de Akropolis duwde. Wanneer Daedalus Icarus begraaft, kijkt die vogel toe en juicht. Zo herinnert ze hem aan zijn eigen misdaad.",
+          "uitleg": "Verbind het juichen van de patrijs bij het graf van Icarus met wat Daedalus vroeger zelf deed."
+        }
+      ]
+    },
+    {
+      "titel": "Natuurfenomenen: Plinius, Gellius, Ammianus, de zondvloed en Galilei — pittig",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "casus": "Lees opnieuw: Nubes ... oriebatur, cuius similitudinem et formam non alia magis arbor quam pinus expresserit. Nam longissimo velut trunco elata in altum quibusdam ramis diffundebatur (Plinius, brief VI, 16, 5-6).",
+          "vragen": [
+            {
+              "type": "meerkeuze",
+              "vraag": "Welk deel van de pijnboom staat voor welk deel van de wolk?",
+              "opties": [
+                "De stam is de hoge zuil, de takken zijn de wolk die zich bovenaan uitspreidt.",
+                "De wortels zijn de lava, de naalden zijn de vallende stenen in de zee.",
+                "De stam is de berg zelf, de takken zijn de rivieren van gloeiende lava.",
+                "De kegels zijn de stenen, de stam is de rook die van links naar rechts drijft."
+              ],
+              "antwoord": 0,
+              "uitleg": "Longissimo velut trunco elata in altum ... ramis diffundebatur: een hoge stam, dan takken in de breedte. Vulkanologen spreken nog altijd van een Pliniaanse uitbarsting."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "Expresserit staat in de [[*coniunctivus, voorzichtig: zou weergeven|indicativus futurum exactum|imperativus]]. Non alia magis arbor quam pinus betekent [[*geen andere boom beter dan de pijnboom|een andere boom meer dan de pijnboom|niet de pijnboom maar een andere boom]].",
+              "uitleg": "Een coniunctivus potentialis: geen boom zou de vorm beter weergeven dan de pijnboom."
+            }
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over Plinius de Jongere in brief VI, 16?",
+          "rijen": [
+            "Hij was zeventien en bleef thuis studeren.",
+            "Zijn oom gaf hem toevallig zelf iets om te schrijven.",
+            "Hij zag zijn oom sterven in Stabiae.",
+            "Hij schrijft de brief op vraag van Tacitus."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Respondi studere me malle, et forte ipse quod scriberem dederat. Het sterven kent hij uit getuigen: ut ego colligo."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Vertit ille consilium et quod studioso animo incohaverat obit maximo. Hoe verandert het plan van de oom?",
+          "opties": [
+            "Wat hij als onderzoeker begon, voert hij uit als held die mensen redt.",
+            "Hij keert halverwege om en vaart met zijn schip terug naar zijn huis in Misenum.",
+            "Hij laat de grote vierriemers in de haven liggen en neemt toch het lichte schip.",
+            "Hij stuurt zijn jonge neef in zijn plaats met een brief naar Rectina."
+          ],
+          "antwoord": 0,
+          "uitleg": "Studioso animo ... maximo (animo): eerst met de geest van een geleerde, nu met een grootse geest. Hij wil niet alleen Rectina maar velen helpen."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Properat illuc unde alii fugiunt: [[*hij haast zich naar de plaats waar anderen vandaan vluchten|hij vlucht samen met de anderen weg|hij haast zich weg van de plek waar anderen naartoe gaan]].",
+          "uitleg": "Illuc unde: naar daar vanwaar. Een scherpe tegenstelling die de moed van de oom toont."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Fortes fortuna iuvat. Waarom zegt de oom dat tegen de stuurman?",
+          "opties": [
+            "De stuurman raadt aan terug te keren, en de oom wil verder.",
+            "De stuurman wil veel sneller varen dan de oom eigenlijk wil.",
+            "De oom wil de stuurman belonen voor zijn moed tijdens de tocht.",
+            "De oom wil de woelige zee kalmeren met een oude spreuk."
+          ],
+          "antwoord": 0,
+          "uitleg": "Gubernatori ut ita faceret monenti: de stuurman raadt aan om te keren. De oom kiest om door te gaan: naar Pomponianus."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Lotus accubat cenat, aut hilaris aut - quod aeque magnum - similis hilari: Plinius vindt het [[*even groot om opgewekt te lijken als het te zijn|groter om echt vrolijk te zijn|dom om vrolijk te doen in gevaar]].",
+          "uitleg": "Quod aeque magnum: wat even groot is. De oom wil Pomponianus geruststellen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Corpus inventum integrum illaesum ... habitus corporis quiescenti quam defuncto similior. Wat wil Plinius met die laatste zin bereiken?",
+          "opties": [
+            "Zijn oom stierf rustig en waardig, alsof hij sliep.",
+            "Zijn oom was niet dood maar lag in een diepe slaap.",
+            "Het lichaam werd pas drie weken later gevonden.",
+            "De oom werd vermoord door zijn twee slaven."
+          ],
+          "antwoord": 0,
+          "uitleg": "Similior quiescenti quam defuncto: meer gelijkend op iemand die rust dan op een dode. Een eervol beeld voor Tacitus' geschiedwerk."
+        },
+        {
+          "casus": "Lees opnieuw: Atque ibi hominem conspicimus pavidum et expallidum, ploratus quidem nullos, sicuti ceteri omnes, nec ullas huiusmodi voces cientem (Gellius XIX, 1, 6).",
+          "vragen": [
+            {
+              "type": "tabel",
+              "vraag": "Wat ziet Gellius bij de stoïcijn?",
+              "rijen": [
+                "Hij is bang en heel bleek.",
+                "Hij huilt en jammert zoals de anderen.",
+                "Zijn kleur en gezicht verschillen weinig van de anderen."
+              ],
+              "antwoord": [
+                true,
+                false,
+                true
+              ],
+              "uitleg": "Pavidum et expallidum, maar ploratus nullos: hij huilt niet. Coloris et voltus turbatione non multum a ceteris differentem."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "Cientem is een [[*participium praesens|participium perfectum|gerundium]] van ciere en hoort bij [[*hominem|ploratus|voces]].",
+              "uitleg": "Hominem ... cientem: de man die geen geroep liet horen."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Non tu istius rei ratione audienda dignus es. Wat bedoelt de filosoof?",
+          "opties": [
+            "Jij bent het niet waard dat ik je de reden uitleg.",
+            "Ik ben het eigenlijk niet waard om jou een antwoord te geven.",
+            "Jij hebt in de storm niet goed gehoord wat ik toen zei.",
+            "Ik had tijdens de storm geen enkele reden om bang te zijn."
+          ],
+          "antwoord": 0,
+          "uitleg": "Dignus met een ablativus: ratione audienda, de uitleg die gehoord moet worden. De rijke spotter verdient geen antwoord."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Hoe beschrijft Gellius de rijke Griek en de filosoof?",
+          "kolommen": [
+            "de rijke Griek",
+            "de filosoof"
+          ],
+          "items": [
+            [
+              "spottend (inludens)",
+              "de rijke Griek"
+            ],
+            [
+              "aarzelt of hij moet antwoorden",
+              "de filosoof"
+            ],
+            [
+              "veel luxe en dienaars",
+              "de rijke Griek"
+            ],
+            [
+              "bekend in Athene, met gezag bij jonge leerlingen",
+              "de filosoof"
+            ]
+          ],
+          "uitleg": "Gellius tekent de Griek als verwend en spottend, de stoïcijn als iemand met gezag."
+        },
+        {
+          "casus": "Lees opnieuw: primo attenuatum in lunae corniculantis effigiem, deinde in speciem auctum semenstrem, posteaque in integrum restitutum (Ammianus XX, 3, 1).",
+          "vragen": [
+            {
+              "type": "volgorde",
+              "vraag": "Zet de fasen van de zonsverduistering in de juiste volgorde, zoals Ammianus ze beschrijft.",
+              "opties": [
+                "De zon wordt een dunne sikkel.",
+                "De zon groeit tot een halve schijf.",
+                "De zon is weer helemaal hersteld."
+              ],
+              "uitleg": "Primo ... deinde ... postea: van sikkel naar halve schijf naar volledig."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "Attenuatum, auctum en restitutum zijn [[*participia perfecta passief|participia praesentia|gerundia]] en horen bij [[*solem|lunae|effigiem]].",
+              "uitleg": "Ze horen bij solem uit de zin ervoor: de zon die verdunde, groeide en hersteld werd."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is volgens Ammianus nodig voor een zonsverduistering?",
+          "opties": [
+            "De maan staat precies tussen de zon en onze blik.",
+            "De zon en de maan zijn samen in het sterrenbeeld van de Weegschaal.",
+            "De zon raakt na een maand uitgeput en dooft even.",
+            "Er hangt een donkere nevel over de oostelijke streken."
+          ],
+          "antwoord": 0,
+          "uitleg": "Cum luna ... orbi et aspectui nostro opponitur media: de maan schuift ertussen. Libramento quodam is een vergelijking, geen sterrenbeeld."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Wat gebeurt er tijdens de tsunami van 365?",
+          "rijen": [
+            "De zee trekt zich eerst terug, zodat de bodem zichtbaar wordt.",
+            "Mensen rapen vissen met de hand.",
+            "De zee komt pas na enkele dagen terug.",
+            "Schepen belanden op daken in Alexandrië."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Mare dispulsum ... abscessit, en dan cum minime speraretur keert de zee terug, dezelfde dag."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Hoc novatore adhuc superstite is een [[*ablativus absolutus|accusativus met infinitivus|dativus]] en geeft de [[*tijd|oorzaak|plaats]]: terwijl de opstandeling nog leefde.",
+          "uitleg": "Ammianus dateert de ramp op twee manieren: met de opstand van Procopius en met de consuls."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Diem duodecimum Kalendas Augustas: welke datum is dat? Schrijf zoals 3 mei.",
+          "antwoord": [
+            "21 juli",
+            "21 Juli"
+          ],
+          "uitleg": "Tel terug vanaf 1 augustus en tel beide dagen mee: de twaalfde dag voor de kalenden van augustus is 21 juli."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom schrijft Ammianus nos transeundo conspeximus over het schip bij Methone?",
+          "opties": [
+            "Om te tonen dat hij het zelf gezien heeft en dus betrouwbaar is.",
+            "Om te tonen dat hij zelf als soldaat op dat schip gestrand was tijdens de vloed.",
+            "Om te zeggen dat iedereen het schip in Methone mocht gaan bezoeken.",
+            "Om eerlijk toe te geven dat hij het hele verhaal van anderen gehoord heeft."
+          ],
+          "antwoord": 0,
+          "uitleg": "Een ooggetuige: wij hebben het gezien toen we voorbijkwamen. Het schip lag er nog, half vergaan."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Welk woord past bij welke tekst?",
+          "kolommen": [
+            "Plinius",
+            "Ammianus",
+            "Vulgata"
+          ],
+          "items": [
+            [
+              "pumices en cinis",
+              "Plinius"
+            ],
+            [
+              "voragine en limo",
+              "Ammianus"
+            ],
+            [
+              "arca en diluvium",
+              "Vulgata"
+            ],
+            [
+              "odor sulpuris",
+              "Plinius"
+            ],
+            [
+              "naufragiis",
+              "Ammianus"
+            ],
+            [
+              "cataractae caeli",
+              "Vulgata"
+            ]
+          ],
+          "uitleg": "Puimsteen, as en zwavel bij de Vesuvius; afgrond, modder en schipbreuk bij de tsunami; ark, vloed en hemelsluizen bij Noach."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Welke vorm uit de Vulgata is dit?",
+          "paren": [
+            [
+              "ingredere",
+              "imperativus van een deponens"
+            ],
+            [
+              "pluam",
+              "futurum, eerste persoon"
+            ],
+            [
+              "delebo",
+              "futurum van de tweede vervoeging"
+            ],
+            [
+              "ingressus est",
+              "perfectum van een deponens"
+            ]
+          ],
+          "extra": [
+            "infinitivus perfectum"
+          ],
+          "uitleg": "Ingredi is een deponens: ingredere, ga binnen; ingressus est, hij ging binnen. Pluam en delebo zijn futura."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom staan in Genesis 7 zoveel zinnen die met et beginnen?",
+          "opties": [
+            "De Vulgata volgt de eenvoudige stijl van het Hebreeuws, met korte zinnen aaneengeregen.",
+            "Hiëronymus had in die tijd nog geen andere voegwoorden geleerd in het Latijn.",
+            "Et betekent in het latere Latijn van de kerk altijd daarom of dus.",
+            "Elke nieuwe zin met et staat telkens voor een nieuwe dag van de vloed."
+          ],
+          "antwoord": 0,
+          "uitleg": "Een nevenschikkende, eenvoudige stijl, heel anders dan de lange perioden van Caesar of Ammianus."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Hoeveel dieren gaan er volgens Genesis 7, 2-3 mee in de ark?",
+          "rijen": [
+            "reine dieren",
+            "onreine dieren",
+            "vogels van de hemel"
+          ],
+          "antwoord": [
+            0,
+            1,
+            0
+          ],
+          "uitleg": "Septena et septena voor de reine dieren en de vogels, duo et duo voor de onreine.",
+          "kolommen": [
+            "zeven paar",
+            "één paar"
+          ]
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Quindecim cubitis altior fuit aqua: hoeveel meter is dat ongeveer, als een el een halve meter is? Schrijf het getal.",
+          "antwoord": [
+            "7,5",
+            "7.5",
+            "ongeveer 7,5",
+            "acht",
+            "8"
+          ],
+          "uitleg": "Vijftien ellen van ongeveer een halve meter: zo'n 7,5 meter boven de hoogste bergen."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Remansit autem solus Noë, et qui cum eo erant in arca: autem drukt hier [[*een tegenstelling uit: maar alleen Noach bleef over|een oorzaak uit: want Noach bleef|een gevolg uit: dus bleef Noach]].",
+          "uitleg": "Na alle vernietiging komt de tegenstelling: alleen Noach en wie bij hem was, bleef over."
+        },
+        {
+          "casus": "Lees opnieuw: Convertuntur insuper in circulis inaequalibus: quod manifeste colligitur ex eo, quia in maioribus a Iove digressionibus nunquam binos Planetas iunctos videre licuit (Galilei, Sidereus Nuncius).",
+          "vragen": [
+            {
+              "type": "meerkeuze",
+              "vraag": "Hoe bewijst Galilei dat de manen in cirkels van verschillende grootte draaien?",
+              "opties": [
+                "Ver van Jupiter ziet hij nooit twee manen samen, dicht bij Jupiter wel.",
+                "Hij heeft hun omlooptijden al tot op de minuut exact berekend en vergeleken.",
+                "Hij ziet ze elke nacht allemaal precies even ver van Jupiter staan.",
+                "Hij meet hun cirkels met een passer na op een tekening op papier."
+              ],
+              "antwoord": 0,
+              "uitleg": "Als ze in dezelfde cirkel draaiden, zou je ze ook ver van Jupiter samen zien. Dat gebeurt nooit."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "Quamvis illorum periodos numeris colligere nondum detur: Galilei geeft toe dat hij [[*de omlooptijden nog niet kan berekenen|de manen nog niet gezien heeft|Jupiter nog niet gevonden heeft]].",
+              "uitleg": "Quamvis met coniunctivus: hoewel het nog niet gegeven is. Een eerlijke wetenschapper zegt wat hij nog niet weet."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk bezwaar tegen Copernicus neemt Galilei weg?",
+          "opties": [
+            "Dat de aarde haar maan zou verliezen als ze rond de zon draait.",
+            "Dat de zon te klein is om alle planeten te dragen.",
+            "Dat Jupiter te ver staat om gezien te worden.",
+            "Dat de maan te snel draait voor een telescoop."
+          ],
+          "antwoord": 0,
+          "uitleg": "Wie dacht dat een maan niet kan meedraaien met een planeet rond de zon, ziet nu bij Jupiter vier manen die dat wel doen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit als je de vijf teksten vergelijkt?",
+          "rijen": [
+            "Ammianus en Galilei vermelden iets wat ze met eigen ogen gezien hebben.",
+            "De Vulgata en Gellius zoeken een natuurwetenschappelijke verklaring.",
+            "Ammianus en Galilei leggen uit hoe een verschijnsel in de hemel werkt.",
+            "De Vulgata is de oudste tekst in het Latijn van deze vijf."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Ammianus zag het schip bij Methone, Galilei de manen door zijn telescoop. Gellius vertelt een anekdote, de Vulgata een Bijbelverhaal. De Vulgata (rond 400) is jonger dan Plinius en Gellius."
+        },
+        {
+          "type": "open",
+          "vraag": "Vergelijk de oom van Plinius met de stoïcijn van Gellius. Wie gedraagt zich het meest volgens de stoïcijnse leer? Steun je antwoord op de teksten.",
+          "antwoord": "De oom van Plinius: hij blijft kalm, dicteert wat hij ziet, gaat in bad en slaapt. De stoïcijn bij Gellius is bang en bleek, al huilt hij niet.",
+          "uitleg": "Noem een detail uit Plinius (bad, slaap, solutus metu) en een uit Gellius (pavidum, expallidum)."
+        }
+      ]
+    },
+    {
+      "titel": "Geloof en bijgeloof: Plinius en Trajanus, Petronius, Erasmus en de Malleus — pittig",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "casus": "Lees opnieuw: Confitentes iterum ac tertio interrogavi supplicium minatus; perseverantes duci iussi. Neque enim dubitabam, qualecumque esset quod faterentur, pertinaciam certe et inflexibilem obstinationem debere puniri (Plinius X, 96, 3).",
+          "vragen": [
+            {
+              "type": "tabel",
+              "vraag": "Wat doet Plinius met wie bekent christen te zijn?",
+              "rijen": [
+                "Hij vraagt het tot drie keer toe.",
+                "Hij dreigt met de doodstraf.",
+                "Wie blijft volhouden, laat hij vrij."
+              ],
+              "antwoord": [
+                true,
+                true,
+                false
+              ],
+              "uitleg": "Perseverantes duci iussi: wie volhield, liet hij wegleiden, naar de terechtstelling."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Waarvoor straft Plinius de christenen eigenlijk?",
+              "opties": [
+                "voor hun koppigheid, wat hun geloof ook mag inhouden",
+                "voor diefstal, roof en moord die ze bij het verhoor zelf bekend hebben",
+                "voor het weigeren van belastingen aan de keizer en aan Rome",
+                "voor het verspreiden van anonieme lijsten met namen van anderen"
+              ],
+              "antwoord": 0,
+              "uitleg": "Qualecumque esset quod faterentur: wat het ook was dat ze bekenden. De halsstarrigheid zelf moest volgens hem gestraft worden."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "Minatus is een participium perfectum van [[*een deponens, met actieve betekenis: na gedreigd te hebben|een gewoon werkwoord, passief: bedreigd|een deponens, passief: bedreigd geworden]].",
+              "uitleg": "Minari is een deponens: minatus, nadat hij gedreigd had."
+            }
+          ]
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Wat moest je volgens Plinius doen om te tonen dat je geen christen was?",
+          "kolommen": [
+            "volstond als bewijs",
+            "hoort er niet bij"
+          ],
+          "items": [
+            [
+              "de goden aanroepen",
+              "volstond als bewijs"
+            ],
+            [
+              "wierook en wijn offeren aan het beeld van de keizer",
+              "volstond als bewijs"
+            ],
+            [
+              "Christus vervloeken",
+              "volstond als bewijs"
+            ],
+            [
+              "naar Rome reizen voor een proces",
+              "hoort er niet bij"
+            ],
+            [
+              "een eed afleggen tegen diefstal",
+              "hoort er niet bij"
+            ]
+          ],
+          "uitleg": "Quorum nihil cogi posse dicuntur qui sunt re vera Christiani: echte christenen zouden daar volgens de geruchten niet toe te dwingen zijn."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Wat vertellen de afvallige christenen over hun samenkomsten?",
+          "rijen": [
+            "Ze kwamen op een vaste dag voor zonsopgang samen.",
+            "Ze zongen een lied voor Christus als voor een god.",
+            "Ze legden een eed af om misdaden te plegen.",
+            "Ze stopten met het gemeenschappelijke maal na het edict van Plinius."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Sacramento non in scelus aliquod obstringere, sed ne furta ... committerent: een eed om net geen misdaden te plegen."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Ne furta ne latrocinia ne adulteria committerent: ne met de coniunctivus is hier [[*een negatieve doelzin of de inhoud van de eed: dat ze geen ... zouden plegen|een vraag: of ze ... pleegden|een voorwaarde: als ze niet ... pleegden]].",
+          "uitleg": "Ze verbonden zich met een eed om géén diefstal, roof of overspel te plegen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom staat er cibum promiscuum tamen et innoxium?",
+          "opties": [
+            "Plinius weerlegt het gerucht dat christenen bij hun maaltijd misdaden zouden plegen.",
+            "Plinius wil aantonen dat de christenen altijd heel ongezond aten op hun bijeenkomsten.",
+            "De christenen mochten volgens Plinius alleen vlees eten dat al aan de goden geofferd was.",
+            "Plinius wil zeggen dat de maaltijd duur was en dat alleen rijke mensen mochten meedoen."
+          ],
+          "antwoord": 0,
+          "uitleg": "Gewoon en onschuldig voedsel: er waren geruchten over gruwelijke maaltijden. Plinius vindt niets van die aard."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom laat Plinius twee slavinnen folteren?",
+          "opties": [
+            "Het verhaal van de afvalligen klinkt zo onschuldig dat hij de waarheid wil kennen.",
+            "De twee slavinnen hadden samen de anonieme lijst met alle namen opgesteld en verspreid.",
+            "De keizer had hem in een eerdere brief opgedragen om alle dienaressen te verhoren.",
+            "Slavinnen mochten volgens de Romeinse wet nooit en te nimmer christen worden."
+          ],
+          "antwoord": 0,
+          "uitleg": "Quo magis necessarium credidi ... quid esset veri, et per tormenta quaerere. Bij slaven was een getuigenis onder foltering toen gewoon."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Wat zegt Trajanus in zijn antwoord?",
+          "kolommen": [
+            "Trajanus vindt het goed",
+            "Trajanus wijst het af"
+          ],
+          "items": [
+            [
+              "christenen actief opsporen",
+              "Trajanus wijst het af"
+            ],
+            [
+              "wie aangeklaagd en schuldig is, straffen",
+              "Trajanus vindt het goed"
+            ],
+            [
+              "wie offert aan de goden, vergeven",
+              "Trajanus vindt het goed"
+            ],
+            [
+              "anonieme lijsten gebruiken",
+              "Trajanus wijst het af"
+            ]
+          ],
+          "uitleg": "Conquirendi non sunt ... sine auctore propositi libelli in nullo crimine locum habere debent."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Conquirendi non sunt; ... puniendi sunt: dat zijn [[*gerundiva met esse: ze moeten (niet) ...|participia futurum: ze zullen ...|gerundia: het opsporen]].",
+          "uitleg": "Een gerundivum met esse drukt een plicht uit: ze moeten niet opgespoord worden, ze moeten gestraft worden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Nam et pessimi exempli nec nostri saeculi est. Wat bedoelt Trajanus?",
+          "opties": [
+            "Anonieme aanklachten zijn een slecht voorbeeld en passen niet bij zijn tijd.",
+            "Christenen zijn het allerslechtste voorbeeld voor het gewone volk van zijn eigen tijd.",
+            "Plinius zelf is met zijn vragen een heel slecht voorbeeld voor de andere gouverneurs.",
+            "De vorige keizers waren voor Trajanus slechte voorbeelden die hij niet wil volgen."
+          ],
+          "antwoord": 0,
+          "uitleg": "Een genitivus van hoedanigheid: van het slechtste voorbeeld, en niet van onze eeuw. Trajanus wil een rechtvaardig keizer lijken."
+        },
+        {
+          "casus": "Lees opnieuw: Itaque hilaria mera sint, etsi timeo istos scholasticos, ne me rideant. Viderint: narrabo tamen: quid enim mihi aufert, qui ridet? Satius est rideri quam derideri (Petronius 61).",
+          "vragen": [
+            {
+              "type": "keuzelijst",
+              "vraag": "Timeo ... ne me rideant: ne na een werkwoord van vrezen vertaal je als [[*dat: ik vrees dat ze me uitlachen|dat niet: ik vrees dat ze me niet uitlachen|opdat niet: om niet uitgelachen te worden]].",
+              "uitleg": "Na timeo betekent ne net dat: ik ben bang dat ze me uitlachen."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Wat is het verschil tussen rideri en derideri?",
+              "opties": [
+                "Rideri is om je verhaal gelachen worden, derideri is bespot worden.",
+                "Rideri staat in de verleden tijd, derideri in de toekomende tijd van hetzelfde werkwoord.",
+                "Rideri is een actieve vorm, derideri is de passieve vorm van hetzelfde woord.",
+                "Er is geen verschil in betekenis, het is gewoon een herhaling voor de klank."
+              ],
+              "antwoord": 0,
+              "uitleg": "Liever dat ze lachen om een grappig verhaal dan dat ze mij uitlachen. Niceros speelt met de twee werkwoorden."
+            }
+          ]
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Welke vorm uit het verhaal van Niceros is spreektaal, en hoe zou het in het klassieke Latijn klinken?",
+          "paren": [
+            [
+              "gaudimonio",
+              "gaudio"
+            ],
+            [
+              "fefellitus sum",
+              "falsus sum"
+            ],
+            [
+              "benemoria",
+              "bene morata"
+            ],
+            [
+              "apoculamus nos",
+              "abimus"
+            ]
+          ],
+          "extra": [
+            "gauditus"
+          ],
+          "uitleg": "Niceros spreekt het Latijn van de straat: zelfgemaakte woorden en vormen. Petronius toont zo wie hij is."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over Niceros en zijn verhaal?",
+          "rijen": [
+            "Niceros was vroeger slaaf.",
+            "Hij zegt dat hij Melissa vooral om haar karakter liefhad.",
+            "De soldaat verandert in een wolf midden in de stad.",
+            "De soldaat heeft de volgende dag een wonde aan zijn hals."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Ze gaan naar buiten, tussen de grafmonumenten. De wonde aan de hals verbindt de wolf met de soldaat: servus lancea collum eius traiecit."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet het weerwolfverhaal in de juiste volgorde.",
+          "opties": [
+            "Niceros vertrekt met de soldaat bij het hanengekraai.",
+            "De soldaat plast rond zijn kleren en wordt een wolf.",
+            "De kleren worden van steen.",
+            "Melissa vertelt dat een wolf het vee aanviel en gewond werd.",
+            "Niceros ziet een dokter de hals van de soldaat verzorgen."
+          ],
+          "uitleg": "Van vertrek tot ontdekking: de wonde maakt duidelijk dat de soldaat een versipellis is."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Luna lucebat tanquam meridie. Waarom is dat detail belangrijk?",
+          "opties": [
+            "Volle maan hoort bij een weerwolf, en Niceros kon alles goed zien.",
+            "Het was in werkelijkheid al middag toen ze bij de graven aankwamen.",
+            "Het toont dat Niceros te veel wijn had gedronken aan tafel.",
+            "De maan scheen zo fel dat de soldaat er blind van werd."
+          ],
+          "antwoord": 0,
+          "uitleg": "Zo helder als op de middag: Niceros kan zeggen dat hij het met eigen ogen zag. En een volle maan hoort bij het verhaal."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Ut mentiar, nullius patrimonium tanti facio: Niceros zegt [[*voor geen enkel fortuin zou ik liegen|ik lieg om geld te krijgen|ik vind het fortuin van niemand belangrijk]].",
+          "uitleg": "Tanti facere: zoveel waard vinden. Geen erfenis is hem een leugen waard: een eed van een verteller die vreest dat men hem niet gelooft."
+        },
+        {
+          "casus": "Lees opnieuw: Primum summam existimant pietatem, si usque adeo nihil attigerint litterarum, ut ne legere quidem possint (Erasmus, Lof der Zotheid 54).",
+          "vragen": [
+            {
+              "type": "meerkeuze",
+              "vraag": "Wat bedoelt Erasmus eigenlijk met deze zin?",
+              "opties": [
+                "Hij spot met monniken die onwetendheid voor vroomheid houden.",
+                "Hij prijst monniken die zich helemaal toeleggen op het gebed.",
+                "Hij vindt dat monniken het lezen moeten verbieden.",
+                "Hij zegt dat alle monniken heel geleerd zijn."
+              ],
+              "antwoord": 0,
+              "uitleg": "De Zotheid prijst, Erasmus spot: ze denken dat het de hoogste vroomheid is als ze zelfs niet kunnen lezen."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "Usque adeo ... ut ne ... quidem possint: ut met de coniunctivus is een [[*gevolgzin|doelzin|vraagzin]] en ne ... quidem betekent [[*zelfs niet|niet eens meer|nog niet]].",
+              "uitleg": "Zo weinig dat ze gevolg: zelfs niet kunnen lezen."
+            }
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Waarover spot Erasmus bij de monniken?",
+          "rijen": [
+            "Ze zingen psalmen die ze niet begrijpen.",
+            "Ze maken ruzie over de kleur van een kleed.",
+            "Ze bedelen luid aan de deuren.",
+            "Ze werken hard om de armen te helpen."
+          ],
+          "antwoord": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Asininis vocibus, ob colorem paulo fusciorem, magno mugitu panem efflagitant. Naastenliefde is net wat ze vergeten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Nec illud studio est, ut Christo similes sint, sed ut inter se dissimiles. Welk stijlmiddel herken je?",
+          "opties": [
+            "een antithese tussen similes en dissimiles",
+            "een vergelijking met de apostelen",
+            "een opsomming van kloosterordes",
+            "een hyperbool over de psalmen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Gelijk aan Christus tegenover ongelijk aan elkaar: dezelfde stam, tegengestelde betekenis."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Alius tantum cerimoniarum acervum proferet, quantum vix septem onerariis navibus vehi possit is een [[*hyperbool|litotes|personificatie]], en proferet staat in het [[*futurum|perfectum|praesens]]: de monniken zullen op de jongste dag hun verdiensten opsommen.",
+          "uitleg": "Zeven vrachtschepen vol ceremonies: een overdrijving. De futura (ostentabit, effundet, proferet) verwijzen naar het laatste oordeel."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Erasmus laat de [[Zotheid]] spreken. Wat zij prijst, bedoelt hij als [[kritiek]].",
+          "extra": [
+            "Wijsheid",
+            "lof"
+          ],
+          "uitleg": "Het hele boek is ironisch: Stultitia prijst wat Erasmus afkeurt."
+        },
+        {
+          "casus": "Lees opnieuw: Malefica quaedam oppidanis cum esset plurimum odiosa, et ad quasdam celebrandas nuptias non fuisset invitata ... Daemonem advocat (Malleus II, 1, 3).",
+          "vragen": [
+            {
+              "type": "keuzelijst",
+              "vraag": "Cum esset en cum non fuisset invitata zijn [[*cum met de coniunctivus: omdat of toen|cum met de indicativus: telkens als|cum als voorzetsel: samen met]].",
+              "uitleg": "Cum met de coniunctivus geeft de omstandigheden: omdat ze gehaat was en niet uitgenodigd."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Wat is volgens de tekst het motief van de vrouw?",
+              "opties": [
+                "Ze is boos omdat ze niet op de bruiloft uitgenodigd werd.",
+                "Ze wil zelf in het geheim met de bruidegom van het feest trouwen.",
+                "Ze heeft al lang grote schulden bij de herders van de berg.",
+                "Ze wil regen voor haar droge akker buiten het stadje."
+              ],
+              "antwoord": 0,
+              "uitleg": "Ipsa indignata, vindicare se aestimans: ze voelt zich gekrenkt en wil zich wreken."
+            }
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is dit volgens de tekst een bewijs, of eerder een gerucht of een bekentenis onder druk?",
+          "rijen": [
+            "Herders zeggen dat ze haar door de lucht zagen vliegen.",
+            "Ze kwam na het onweer het stadje binnen.",
+            "Ze bekende alles nadat ze gevangen was.",
+            "Ze was gehaat bij de inwoners."
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            1
+          ],
+          "uitleg": "Wat de schrijver als bewijs voorstelt, is bij nader inzien roddel, toeval en een bekentenis van een gevangene.",
+          "kolommen": [
+            "getuigenis die je niet kan nagaan",
+            "verdenking",
+            "bekentenis na gevangenneming"
+          ]
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Suspicio vehemens in violentam crevit: [[*een sterke verdenking groeide uit tot een overweldigende|een geweldige verdenking werd zwakker|de verdenking werd een gewelddadige straf]].",
+          "uitleg": "Vehemens wordt violenta: de schrijver toont zelf hoe het vermoeden opzwelt zonder echt bewijs."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit als je Plinius en de Malleus vergelijkt?",
+          "rijen": [
+            "In beide teksten wordt een bekentenis gebruikt om iemand te straffen.",
+            "In beide teksten speelt foltering of gevangenneming een rol.",
+            "Trajanus en Institoris willen allebei anonieme aanklachten weren.",
+            "De vrouw in Waldshut werd verbrand."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Plinius laat slavinnen folteren, Institoris steunt op een bekentenis na gevangenneming. Trajanus wijst anonieme lijsten af; de Malleus bouwt net op roddel."
+        },
+        {
+          "type": "open",
+          "vraag": "Erasmus, Plinius en de schrijver van de Malleus oordelen elk over mensen met een ander geloof of een andere leefwijze. Wie van de drie oordeelt volgens jou het meest kritisch over zichzelf of zijn eigen kring? Leg uit met de teksten.",
+          "antwoord": "Erasmus: hij was zelf priester en kloosterling, en spot met de monniken uit zijn eigen kerk. Plinius en Institoris oordelen over anderen: christenen en een vrouw die als heks wordt gezien.",
+          "uitleg": "Verwijs naar de ironie bij Erasmus en naar wie bij Plinius en in de Malleus beoordeeld wordt."
+        }
+      ]
+    }
+  ]
+}

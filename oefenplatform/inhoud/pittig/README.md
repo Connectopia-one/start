@@ -96,6 +96,8 @@ met het label **Moeilijker**. Geen kolom in de databank, dus **geen SQL**.
 | `beyond-bedrijfswetenschappen-pittig.json` | Bedrijfswetenschappen en recht | 🌍 Beyond doorstroom | **aan** |
 | `beyond-wiskunde-basis-pittig.json` | Wiskunde basis | 🌍 Beyond doorstroom | **aan** |
 | `beyond-economie-pittig.json` | Economie | 🌍 Beyond doorstroom | **aan** |
+| `boost-do-latijn-pittig.json` | Latijn | 🚀 Boost doorstroom | **aan** |
+| `boost-do-duits-pittig.json` | Duits | 🚀 Boost doorstroom | **aan** |
 
 Telkens via **Beheer → Vakken → het vak → vragen importeren**, met het vinkje
 **"Bestaande vragen vervangen" aan**. Een bestand raakt alleen zijn eigen nieuwe
