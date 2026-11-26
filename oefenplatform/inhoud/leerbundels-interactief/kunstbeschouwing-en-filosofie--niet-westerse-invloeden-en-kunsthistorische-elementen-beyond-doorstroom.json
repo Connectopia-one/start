@@ -1,0 +1,40 @@
+{
+ "vak": "Kunstbeschouwing en filosofie",
+ "titel": "Niet-westerse invloeden en kunsthistorische elementen",
+ "onder": "Hoe kunst van buiten Europa westerse kunstenaars beïnvloedde, en elementen die je door de hele kunstgeschiedenis volgt.",
+ "secties": [
+  {
+   "kop": "Invloeden van buiten Europa",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Invloed</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat namen kunstenaars over?</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Bij wie?</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Japanse houtsneden (ukiyo-e)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vlakke kleurvlakken, sterke contouren, afgesneden beelden, ongewone standpunten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Van Gogh, Monet, Degas (japonisme)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Afrikaanse maskers en beelden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vereenvoudigde, hoekige vormen en sterke uitdrukking</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Picasso (Les Demoiselles d'Avignon), het kubisme</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kunst uit Oceanië en Polynesië</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">felle vlakke kleur, het verlangen naar een ongerepte wereld</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Gauguin op Tahiti</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">islamitische kunst</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geometrische patronen en arabesken, geen afbeeldingen van mensen in heilige ruimtes</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Matisse, de hoefijzerboog in Spaanse gebouwen</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Kritisch kijken.</strong> Westerse kunstenaars zagen die kunst vaak als 'primitief' en kenden de betekenis ervan niet. Veel voorwerpen kwamen naar Europa via de koloniale overheersing. Vandaag spreekt men over teruggave en over wie het verhaal mag vertellen."
+    }
+   ]
+  },
+  {
+   "kop": "Kunsthistorische elementen door de tijd",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Sommige elementen keren in veel periodes terug. Als je ze herkent, kan je een werk plaatsen en vergelijken."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Element</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Door de tijd</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het menselijk lichaam</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Egyptisch stijf, Grieks ideaal, middeleeuws verborgen, renaissance anatomisch, expressionisme vervormd</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">perspectief</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Egypte zonder diepte, middeleeuwen gouden achtergrond, renaissance één verdwijnpunt, kubisme meerdere standpunten</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de boog</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Romeinse rondboog, romaans, gotische spitsboog, islamitische hoefijzerboog</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de opdrachtgever</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">farao, kerk, vorst en adel, rijke burgers, de kunstmarkt en musea</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het naakt en het portret</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">telkens ander ideaal en andere rol</td></tr></table>"
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Japonisme: Japanse houtsneden bij Van Gogh en Monet.",
+  "Afrikaanse beelden beïnvloedden Picasso en het kubisme.",
+  "Gauguin trok naar Tahiti en zocht een ongerepte wereld.",
+  "Veel niet-westerse voorwerpen kwamen naar Europa via kolonisatie.",
+  "Volg een element door de tijd: lichaam, perspectief, boog, opdrachtgever."
+ ]
+}

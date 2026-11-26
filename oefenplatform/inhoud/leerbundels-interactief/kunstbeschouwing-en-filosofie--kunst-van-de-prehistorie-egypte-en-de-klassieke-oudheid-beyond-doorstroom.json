@@ -1,0 +1,57 @@
+{
+ "vak": "Kunstbeschouwing en filosofie",
+ "titel": "Kunst van de prehistorie, Egypte en de klassieke oudheid",
+ "onder": "Context, vormelijke kenmerken en bekendste werken van de prehistorie, Egypte en het nabije Oosten, Griekenland en Rome.",
+ "secties": [
+  {
+   "kop": "Prehistorie en Egypte",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\"></th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Prehistorie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Egypte en het nabije Oosten</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">context</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">jagers en verzamelaars, zonder schrift</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">farao als god, geloof in een leven na de dood</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vormelijke kenmerken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">jachtdieren op grotwanden; oker, houtskool en aarde, verf soms geblazen door een buis</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">frontaal, symmetrisch, stijf; hoofd en benen van opzij, oog en schouders van voren; de belangrijkste figuur het grootst</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bekende werken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Lascaux, Altamira, de Venus van Willendorf (zo'n 11 cm, vruchtbaarheid?)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de piramiden van Gizeh (grafmonumenten), hiërogliefen; ziggoerat en Ishtarpoort (blauwe geglazuurde bakstenen) in Mesopotamië</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Waarom grotschilderingen?</strong> Zeker weten we het niet: er zijn geen geschreven bronnen. Men denkt aan rituelen of magie rond de jacht. <strong>Waarom bleef Egyptische kunst duizenden jaren gelijk?</strong> Vaste regels en het streven naar eeuwigheid."
+    }
+   ]
+  },
+  {
+   "kop": "Griekse kunst",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "In stadstaten zoals Athene stonden de mens en de rede centraal. Beeldhouwers zochten een <strong>ideaal, harmonieus lichaam</strong> met perfecte verhoudingen. Vroege Griekse beelden leken nog op Egyptische; in de klassieke periode kwam het <strong>contrapposto</strong>: het gewicht op één been, heupen en schouders tegengesteld gekanteld."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Bouworde</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Kenmerk</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Dorisch</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sober, eenvoudig kapiteel, geen voet (het Parthenon)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Ionisch</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">voluten of krullen aan het kapiteel</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Korinthisch</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kapiteel vol acanthusbladeren</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Bekende namen: <strong>Phidias</strong> (beeldhouwwerk van het Parthenon), <strong>Myron</strong> (de Discuswerper), <strong>Polykleitos</strong> (de Doryphoros of speerdrager, de canon). Griekse beelden waren oorspronkelijk beschilderd; veel bronzen originelen kennen we via Romeinse kopieën."
+    }
+   ]
+  },
+  {
+   "kop": "Romeinse kunst",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De Romeinen namen de bouworden en het beeldhouwen over, maar voegden eigen dingen toe. Hun portretten zijn <strong>realistisch</strong>, met rimpels en eigen trekken. Met de <strong>rondboog</strong>, de <strong>koepel</strong> en <strong>beton</strong> bouwden ze aquaducten, het <strong>Pantheon</strong> (koepel met oculus) en het <strong>Colosseum</strong> (amfitheater). Kunst en bouwkunst dienden het rijk: nuttig en indrukwekkend."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Parthenon of Pantheon?</strong> Het Parthenon is Grieks, op de Akropolis in Athene. Het Pantheon is Romeins, in Rome, met een betonnen koepel."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Prehistorie: jachtdieren, natuurlijke pigmenten, geen schrift.",
+  "Egypte: frontaal, aspectief, hiërarchische grootte, gericht op eeuwigheid.",
+  "Grieks: ideaal lichaam, contrapposto, Dorisch-Ionisch-Korinthisch.",
+  "Romeins: realistisch portret, rondboog, koepel, beton.",
+  "Myron: Discuswerper. Polykleitos: Doryphoros. Phidias: Parthenon."
+ ]
+}

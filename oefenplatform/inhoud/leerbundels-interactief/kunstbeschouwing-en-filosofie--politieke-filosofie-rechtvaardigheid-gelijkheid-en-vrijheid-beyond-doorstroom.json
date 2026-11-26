@@ -1,0 +1,54 @@
+{
+ "vak": "Kunstbeschouwing en filosofie",
+ "titel": "Politieke filosofie: rechtvaardigheid, gelijkheid en vrijheid",
+ "onder": "Rechtvaardigheid bij Aristoteles en Rawls, individuele en culturele gelijkheid, vrijheid bij Mill, Berlin en Arendt, en de kritiek van Tronto.",
+ "secties": [
+  {
+   "kop": "Rechtvaardigheid",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Denker</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Kern</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Aristoteles</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gelijken gelijk behandelen, ongelijken ongelijk; verdelende rechtvaardigheid volgens verdienste en herstellende rechtvaardigheid bij schade</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sociaal contract</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rechtvaardig is wat vrije mensen samen zouden afspreken</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Rawls</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">achter een sluier van onwetendheid, zonder te weten wie je wordt, kies je twee principes: gelijke basisvrijheden voor iedereen, en ongelijkheid enkel als de minstbedeelden erop vooruitgaan (verschilprincipe)</td></tr></table>"
+    }
+   ]
+  },
+  {
+   "kop": "Gelijkheid",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Soort</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Betekenis</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">individuele gelijkheid</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">elke persoon heeft dezelfde rechten en kansen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gelijk stemrecht, gelijk loon voor gelijk werk</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">culturele gelijkheid</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">groepen mogen hun eigen cultuur, taal of geloof beleven en worden gelijk erkend</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">onderwijs in de eigen taal, erkenning van feestdagen</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Spanning:</strong> wat een groep als eigen gewoonte ziet, kan soms botsen met de rechten van een individu binnen die groep."
+    }
+   ]
+  },
+  {
+   "kop": "Vrijheid",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Denker</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Kern</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Mill</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">schadebeginsel: de staat mag je vrijheid enkel beperken om schade aan anderen te voorkomen, niet om je tegen jezelf te beschermen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Berlin</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">negatieve vrijheid = vrij van inmenging; positieve vrijheid = vrij om je eigen leven echt zelf te sturen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Arendt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vrijheid toont zich in samen handelen en spreken in het publieke leven; totalitarisme vernietigt die ruimte</td></tr></table>"
+    }
+   ]
+  },
+  {
+   "kop": "De kritiek van Tronto",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Joan Tronto</strong> verwijt de klassieke politieke filosofie dat ze uitgaat van onafhankelijke, gezonde volwassenen. Iedereen is echter afhankelijk van <strong>zorg</strong>. Wie macht heeft, kan zorg doorschuiven naar anderen (vaak vrouwen, migranten, laagbetaalden) en er niet over nadenken. Dat noemt ze <strong>bevoorrechte onverantwoordelijkheid</strong>. Zorg moet daarom een politieke kwestie zijn."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Aristoteles: verdelende en herstellende rechtvaardigheid.",
+  "Rawls: sluier van onwetendheid, gelijke vrijheden, verschilprincipe.",
+  "Individuele gelijkheid: dezelfde rechten per persoon. Culturele: erkenning van groepen.",
+  "Mill: schadebeginsel. Berlin: negatieve en positieve vrijheid. Arendt: samen handelen.",
+  "Tronto: zorg is politiek; bevoorrechte onverantwoordelijkheid."
+ ]
+}

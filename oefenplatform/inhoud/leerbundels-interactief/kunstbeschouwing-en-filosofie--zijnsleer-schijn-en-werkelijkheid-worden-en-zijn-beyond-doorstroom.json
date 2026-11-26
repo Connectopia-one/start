@@ -1,0 +1,45 @@
+{
+ "vak": "Kunstbeschouwing en filosofie",
+ "titel": "Zijnsleer: schijn en werkelijkheid, worden en zijn",
+ "onder": "Wat is echt? Van Parmenides en Heraclitus via Plato en Aristoteles tot Kant, Spinoza, Hume, Hegel, Sartre en Camus.",
+ "secties": [
+  {
+   "kop": "Worden of zijn?",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Denker</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Standpunt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Heraclitus</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">alles stroomt, alles is worden; je stapt nooit twee keer in dezelfde rivier</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Parmenides</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het zijn is één en onveranderlijk; verandering is schijn van de zintuigen</td></tr></table>"
+    }
+   ]
+  },
+  {
+   "kop": "Schijn en werkelijkheid",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Denker</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Kern</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Plato</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twee werelden: de zichtbare wereld van schaduwen en de wereld van de ideeën, die echt en eeuwig is (allegorie van de grot)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Aristoteles</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de vorm zit in de dingen zelf; een ding is stof en vorm; verandering is van mogelijkheid naar werkelijkheid (de eikel en de eik)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Kant</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">we kennen de dingen enkel zoals ze aan ons verschijnen (fenomeen), niet het ding op zich (noumenon)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Spinoza</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">er is maar één substantie: God of de natuur; geest en lichaam zijn twee kanten ervan</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Hume</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">we zien geen oorzaak, enkel gewoonte: na elkaar is nog geen door elkaar</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Hegel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de werkelijkheid ontwikkelt zich in de geschiedenis: these, antithese, synthese</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Plato tegenover Aristoteles:</strong> Plato zoekt het echte buiten de dingen, in de ideeënwereld. Aristoteles zoekt het in de dingen zelf."
+    }
+   ]
+  },
+  {
+   "kop": "Bestaan en zin: existentialisme en het absurde",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Sartre</strong>: bij de mens gaat het bestaan vooraf aan de essentie. Er is geen vooraf bepaalde natuur: de mens maakt zichzelf door zijn keuzes en is daarvoor verantwoordelijk. <strong>Camus</strong>: de wereld geeft geen antwoord op onze vraag naar zin; dat botsen is het absurde. Toch moeten we ons Sisyphus gelukkig voorstellen: in opstand blijven leven."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Heraclitus: alles stroomt. Parmenides: het zijn verandert niet.",
+  "Plato: ideeënwereld en grot. Aristoteles: stof en vorm, mogelijkheid en werkelijkheid.",
+  "Kant: fenomeen en ding op zich. Spinoza: één substantie, God of natuur.",
+  "Hume: oorzaak is gewoonte. Hegel: these, antithese, synthese.",
+  "Sartre: het bestaan gaat vooraf aan de essentie. Camus: het absurde en Sisyphus."
+ ]
+}

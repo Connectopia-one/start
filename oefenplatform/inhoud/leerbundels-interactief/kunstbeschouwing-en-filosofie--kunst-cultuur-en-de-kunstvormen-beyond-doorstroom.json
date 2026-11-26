@@ -1,0 +1,57 @@
+{
+ "vak": "Kunstbeschouwing en filosofie",
+ "titel": "Kunst, cultuur en de kunstvormen",
+ "onder": "Cultuur in enge en brede betekenis, de kunstvormen, en de middelen van vormgeving met de bouwstenen per kunstvorm.",
+ "secties": [
+  {
+   "kop": "Kunst als deel van een cultuur",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Betekenis van cultuur</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat hoort erbij?</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">eng</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vooral kunst: wat men vroeger de hogere vormen van beschaving noemde</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een symfonie, een roman, een schilderij</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">breed</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">alles wat een groep mensen aanleert en doorgeeft: taal, waarden, gewoonten, kleding, eten en ook kunst</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">drie kussen als begroeting, het zondagse eten</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Kunst groeit uit een cultuur en zegt er iets over.</strong> Ze toont wat een groep belangrijk vindt, en kan die cultuur ook mee vormen of in vraag stellen."
+    }
+   ]
+  },
+  {
+   "kop": "De kunstvormen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Kunstvorm</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat is het?</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeelden</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">architectuur en design</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vorm die ook moet werken en een doel dienen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een gebouw, een stoel</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">audiovisuele kunsten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">met beeld en geluid, of met een camera gemaakt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">film, fotografie, videokunst</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">beeldende kunsten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kunst die je bekijkt als voorwerp</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">schilderkunst, beeldhouwkunst</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">conceptuele kunst</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het idee is het eigenlijke werk, het voorwerp is bijzaak</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een bordje met een opdracht</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">installatiekunst</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de kunstenaar richt een hele ruimte in, de bezoeker staat erin</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een hal vol lichtjes en geluid</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">literatuur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kunst met taal als materiaal</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">romans, gedichten, toneelteksten</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">podiumkunsten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">live uitgevoerd voor een publiek</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dans, theater, muziek</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Let op:</strong> in deze indeling hoort fotografie bij de audiovisuele kunsten, niet bij de beeldende kunsten."
+    }
+   ]
+  },
+  {
+   "kop": "De middelen van vormgeving",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Elk werk wordt gemaakt met drie middelen: de <strong>bouwstenen</strong>, het <strong>materiaal</strong> (waarmee) en de <strong>techniek</strong> (hoe). Brons is een materiaal, gieten in een mal is een techniek. De opdrachtgever is geen middel: die hoort bij de context."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Kunstvorm</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Bouwstenen</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">beeld</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vorm, kleur, licht, textuur, lijn, ruimte, compositie</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dans</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ruimte, tijd, kracht, vorm, relatie</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">drama</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rol, ruimte, tijd, structuur, samenspel</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">media</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kader, licht, geluid, camera, montage</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">muziek</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ritme, melodie, dynamiek, tempo, klankkleur, harmonie, structuur</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Bouwsteen</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waar kijk je naar?</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">licht (beeld)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">heldere of donkere indruk, schaduwen, contrast tussen licht en donker</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">textuur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ruw of glad oppervlak, de drager, het instrument: penseel, paletmes, spons, spuitbus</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ruimte (beeld)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">perspectief, ruimtelijk effect van schaduw, afgesneden figuren aan de rand</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">compositie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">spreiding en rangschikking, denkbeeldige figuren zoals een driehoek of cirkel</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kracht (dans)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">energie: slappe, vloeiende, krachtige of hoekige bewegingen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">relatie (dans)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">synchroon of niet, inspelen op elkaar, interactie met het publiek</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">structuur (drama)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">begin, verloop en einde; makkelijke of moeilijke verhaallijn</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kader (media)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">long shot, medium shot, close-up; vogel-, kikker- of ooghoogteperspectief</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">montage (media)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">cuts of naadloze overgangen (dissolve), fades, slow motion</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">klankkleur (muziek)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">welk instrument of welke stem de melodie brengt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dynamiek (muziek)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sterk of zacht, crescendo of decrescendo</td></tr></table>"
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Enge betekenis van cultuur: vooral kunst. Brede betekenis: alles wat een groep aanleert en doorgeeft.",
+  "Fotografie hoort bij de audiovisuele kunsten; dans, theater en muziek bij de podiumkunsten.",
+  "Installatiekunst: de ruimte is het werk. Conceptuele kunst: het idee is het werk.",
+  "Drie middelen van vormgeving: bouwstenen, materiaal, techniek.",
+  "Tempo hoort bij kunstvormen die in de tijd verlopen: muziek, dans, drama. Compositie hoort bij beeld."
+ ]
+}

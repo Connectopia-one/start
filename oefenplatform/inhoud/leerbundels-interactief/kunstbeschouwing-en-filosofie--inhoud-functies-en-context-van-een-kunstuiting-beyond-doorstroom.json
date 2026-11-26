@@ -1,0 +1,53 @@
+{
+ "vak": "Kunstbeschouwing en filosofie",
+ "titel": "Inhoud, functies en context van een kunstuiting",
+ "onder": "Het onderwerp en de zeven functies van kunst, en de context: tijd, ruimte, politiek, sociaal, cultureel en persoonlijk.",
+ "secties": [
+  {
+   "kop": "De inhoud: onderwerp en functies",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>inhoud</strong> van een kunstuiting bestaat uit twee delen: het <strong>onderwerp</strong> (wat je ziet of hoort) en de <strong>functies</strong> (waarvoor het werk dient)."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Functie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Het werk wil vooral ...</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">decoratief</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">versieren, een ruimte of voorwerp mooier maken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een tapijt in een kasteelzaal, een tegelpatroon</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">economisch</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geld opbrengen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">beeldjes die meteen online verkocht worden</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">filosofisch</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">doen nadenken over grote vragen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een werk over de zin van het leven of de dood</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">maatschappijkritisch</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">iets in de samenleving aanklagen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">graffiti tegen de consumptiemaatschappij</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">narratief</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een verhaal vertellen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een strip, een glasraam met het leven van een heilige</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ontspannend</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">plezier geven</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een popsong om op te dansen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">politiek</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">macht tonen of mensen overtuigen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een ruiterstandbeeld, propaganda-affiche</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Een werk kan meerdere functies tegelijk hebben.</strong> Een glasraam vertelt en versiert, een spotprent ontspant en geeft kritiek."
+    }
+   ]
+  },
+  {
+   "kop": "De context",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Context</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat bedoel je?</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tijd</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de periode waarin het werk ontstond en wat toen gewoon, nieuw of verboden was</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een werk uit de 15de eeuw, toen olieverf nieuw was</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ruimte</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de plaats of streek waar en waarvoor het werk gemaakt werd</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een fresco voor één bepaalde kapel</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">politiek</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">macht, oorlog, censuur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een lied tegen de bezetter</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sociaal</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hoe mensen samenleven: armoede, klassen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">foto's van boerengezinnen in een crisis</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">cultureel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">waarden en gewoonten, wat als kunst geldt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geen mensen afbeelden in heilige gebouwen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">persoonlijk</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wat de kunstenaar zelf meemaakte</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">donkere werken na de dood van een kind</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Valkuilen.</strong> Ruimte gaat niet over de lege plekken op het doek of de zaal waar het werk vandaag hangt. Tijd gaat niet over hoe lang een film duurt. En de persoonlijke context verklaart nooit alles: ook de tijd, de plaats en de samenleving vormen een werk."
+    }
+   ]
+  },
+  {
+   "kop": "Samenhang",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Inhoud, functie, context en vormgeving beïnvloeden elkaar. <strong>De context verklaart de functie, en de functie verklaart de vormgeving.</strong> Een groot schilderij van een leider tussen juichende mensen (inhoud) wil overtuigen (politieke functie) omdat het uit een dictatuur komt (context), en is daarom groots en duidelijk geschilderd (vormgeving)."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Inhoud = onderwerp + functies.",
+  "Zeven functies: decoratief, economisch, filosofisch, maatschappijkritisch, narratief, ontspannend, politiek.",
+  "Context: tijd, ruimte, politiek-sociaal-cultureel, persoonlijk.",
+  "Ruimte is de plaats waarvoor het werk gemaakt werd, niet de lege plekken op het doek.",
+  "De context verklaart de functie, de functie verklaart de vormgeving."
+ ]
+}
