@@ -41,9 +41,15 @@ export const nieuwTekst = {
 export const updates: Update[] = [
   {
     datum: "26 november 2026",
+    titel: "Ready: veel meer prenten",
+    tekst:
+      "Bij elk hoofdstuk van 🎒 Ready komen er vier vragen bij een prent bij, in elk deel: klokken, breuken, munten, een liniaal, kaarten van België en de wereld, een skelet, planten, dieren en nog veel meer. Ook de leerbundels en oefenbundels hebben nu prenten: een stukje Kijk en leer, en oefeningen bij de prent.",
+  },
+  {
+    datum: "26 november 2026",
     titel: "Ready: wereldoriëntatie erbij",
     tekst:
-      "Bij 🎒 Ready staan nu ook wetenschap en techniek (planten en dieren, mijn lichaam, stoffen en materialen, techniek rondom ons, natuur en milieu), aardrijkskunde (kaarten lezen, België, de wereld) en geschiedenis (tijd en vroeger, hoe leefden mensen vroeger, samenleven). Telkens twee keer 20 vragen, met een leerbundel en een oefenbundel vol kleine proefjes en opdrachten om zelf te tekenen.",
+      "Bij 🎒 Ready staan nu ook wetenschap en techniek (planten en dieren, mijn lichaam, stoffen en materialen, techniek rondom ons, natuur en milieu), aardrijkskunde (kaarten lezen, België, de wereld) en geschiedenis (tijd en vroeger, hoe leefden mensen vroeger, samenleven). Telkens twee keer 24 vragen, ook vragen bij een prent, met een leerbundel en een oefenbundel vol kleine proefjes en opdrachten om zelf te tekenen.",
   },
   {
     datum: "26 november 2026",
