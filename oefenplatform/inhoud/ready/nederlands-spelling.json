@@ -1,0 +1,348 @@
+{
+ "hoofdstukken": [
+  {
+   "titel": "Spelling — deel 1",
+   "niveau": "ready",
+   "korte_uitleg": "Sommige klanken klinken hetzelfde, maar schrijf je anders: ei en ij, au en ou. Die woorden moet je goed onthouden. Lees ze vaak en schrijf ze over.\naai, oei en ooi schrijf je altijd met een i op het einde: haai, koei, mooi.\neeuw en ieuw eindigen op een w: sneeuw, nieuw.\nng of nk? Luister goed: bij nk hoor je een k (bank), bij ng niet (ring).\ng of ch op het einde? Maak het woord langer: dagen, dus dag. Lachen, dus lach.",
+   "vragen": [
+    {
+     "type": "waarofniet",
+     "vraag": "Je schrijft trein met ei.",
+     "antwoord": true,
+     "uitleg": "Trein is een ei-woord, net als klein, geit en plein."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Vul ei of ij in: de g__t eet gras.",
+     "antwoord": "ei",
+     "uitleg": "Geit schrijf je met ei."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Vul ei of ij in: ik heb v__f vingers aan elke hand.",
+     "antwoord": "ij",
+     "uitleg": "Vijf schrijf je met ij."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "In welk woord hoort ij?",
+     "opties": [
+      "tr__n",
+      "t__d",
+      "pl__n",
+      "g__t"
+     ],
+     "antwoord": 1,
+     "uitleg": "Tijd schrijf je met ij. Trein, plein en geit zijn ei-woorden."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Je schrijft blauw met ou, net als koud.",
+     "antwoord": false,
+     "uitleg": "Blauw schrijf je met au. Koud schrijf je wel met ou."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk woord is fout geschreven?",
+     "opties": [
+      "koud",
+      "zaut",
+      "pauw",
+      "vrouw"
+     ],
+     "antwoord": 1,
+     "uitleg": "Het is zout, met ou. De andere woorden zijn juist."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Vul au of ou in: de p__w heeft een prachtige staart.",
+     "antwoord": "au",
+     "uitleg": "Pauw schrijf je met au."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Vul au of ou in: in de winter is het k__d.",
+     "antwoord": "ou",
+     "uitleg": "Koud schrijf je met ou, net als oud en goud."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe schrijf je het dier dat melk geeft?",
+     "opties": [
+      "koeij",
+      "koei",
+      "koeie",
+      "kooi"
+     ],
+     "antwoord": 1,
+     "uitleg": "Koei schrijf je met oei. Een kooi is iets anders: daar zit een vogel in."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Mooi schrijf je met ooi, net als kooi en hooi.",
+     "antwoord": true,
+     "uitleg": "Mooi, kooi en hooi eindigen allemaal op ooi."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Vul aai, oei of ooi in: een h__ zwemt in de zee en heeft scherpe tanden.",
+     "antwoord": "aai",
+     "uitleg": "Haai schrijf je met aai, net als kraai."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk woord is juist geschreven?",
+     "opties": [
+      "sneew",
+      "sneuw",
+      "sneeuw",
+      "sneauw"
+     ],
+     "antwoord": 2,
+     "uitleg": "Sneeuw schrijf je met eeuw, net als leeuw en meeuw."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Nieuw schrijf je met eeuw.",
+     "antwoord": false,
+     "uitleg": "Nieuw schrijf je met ieuw."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Vul eeuw of ieuw in: de l___ is de koning van de dieren.",
+     "antwoord": "eeuw",
+     "uitleg": "Leeuw schrijf je met eeuw."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk woord eindigt op nk?",
+     "opties": [
+      "ring",
+      "bank",
+      "koning",
+      "bang"
+     ],
+     "antwoord": 1,
+     "uitleg": "In bank hoor je op het einde een k. In ring, koning en bang niet."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Vul ng of nk in: ik dri__ elke dag water.",
+     "antwoord": "nk",
+     "uitleg": "Drink: je hoort op het einde een k."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Bij nk hoor je op het einde een k, bij ng niet.",
+     "antwoord": true,
+     "uitleg": "Bank, drink en denk hoor je met een k. Ring, bang en koning niet."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Dag of dach? Wat is juist, en waarom?",
+     "opties": [
+      "dach, want je hoort ch",
+      "dag, want je zegt dagen",
+      "dag, want het is een kort woord",
+      "dach, want het meervoud is dachen"
+     ],
+     "antwoord": 1,
+     "uitleg": "Maak het woord langer: dagen. Je hoort een g, dus schrijf je dag."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Vul g of ch in: die mop is grappig, ik la__ hard.",
+     "antwoord": "ch",
+     "uitleg": "Maak het woord langer: lachen. Je hoort ch, dus schrijf je lach."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Je schrijft berch met ch op het einde.",
+     "antwoord": false,
+     "uitleg": "Maak het woord langer: bergen. Je hoort een g, dus schrijf je berg."
+    }
+   ]
+  },
+  {
+   "titel": "Spelling — deel 2",
+   "niveau": "ready",
+   "korte_uitleg": "d of t, b of p op het einde? Maak het woord langer: honden, dus hond. Webben, dus web.\nMeervoud: meestal komt er -en achter (boeken), soms -s (tafels) of 's (auto's). Let op: boom wordt bomen, bal wordt ballen, huis wordt huizen.\nVerkleinwoord: -je (huisje), -tje (stoeltje), -pje (boompje), -etje (balletje) of -kje (koninkje).\nEen hoofdletter schrijf je aan het begin van een zin en bij namen van mensen, steden en landen. Dagen en maanden krijgen geen hoofdletter.",
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Hond of hont? Wat is juist, en waarom?",
+     "opties": [
+      "hont, want je hoort een t",
+      "hond, want het is een dier",
+      "hond, want je zegt honden",
+      "hont, want het meervoud is honten"
+     ],
+     "antwoord": 2,
+     "uitleg": "Maak het woord langer: honden. Je hoort een d, dus schrijf je hond."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Vul d of t in: op mijn b__ ligt een dikke deken.",
+     "antwoord": "d",
+     "uitleg": "Maak het woord langer: bedden. Je hoort een d, dus schrijf je bed."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Vul d of t in: de ka__ jaagt op een muis.",
+     "antwoord": "t",
+     "uitleg": "Maak het woord langer: katten. Je hoort een t, dus schrijf je kat."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Vul b of p in: de spin maakt een we__.",
+     "antwoord": "b",
+     "uitleg": "Maak het woord langer: webben. Je hoort een b, dus schrijf je web."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Je schrijft paart met een t, want je hoort een t.",
+     "antwoord": false,
+     "uitleg": "Maak het woord langer: paarden. Je hoort een d, dus schrijf je paard."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is het meervoud van boom?",
+     "opties": [
+      "boomen",
+      "bomen",
+      "boommen",
+      "booms"
+     ],
+     "antwoord": 1,
+     "uitleg": "Eén boom, twee bomen. In bo-men hoor je de o lang, dus één o is genoeg."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is het meervoud van bal?",
+     "opties": [
+      "balen",
+      "bals",
+      "ballen",
+      "baalen"
+     ],
+     "antwoord": 2,
+     "uitleg": "Eén bal, twee ballen. De a blijft kort, daarom komt er een l bij."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Eén huis, twee ___ .",
+     "antwoord": "huizen",
+     "uitleg": "In het meervoud wordt de s een z: huizen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is het meervoud van tafel?",
+     "opties": [
+      "tafelen",
+      "tafels",
+      "tafel's",
+      "taffels"
+     ],
+     "antwoord": 1,
+     "uitleg": "Bij tafel komt er gewoon een s achter: tafels."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Het meervoud van auto is auto's.",
+     "antwoord": true,
+     "uitleg": "Eindigt een woord op a, o, u of i, dan zet je er 's achter: auto's, oma's."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Eén brief, drie ___ .",
+     "antwoord": "brieven",
+     "uitleg": "In het meervoud wordt de f een v: brieven."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk meervoud is juist geschreven?",
+     "opties": [
+      "kaaten",
+      "kipen",
+      "sloten",
+      "brugen"
+     ],
+     "antwoord": 2,
+     "uitleg": "Slot wordt sloten. Het moet ook katten, kippen en bruggen zijn."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is het verkleinwoord van boom?",
+     "opties": [
+      "boomje",
+      "boompje",
+      "boomtje",
+      "bommetje"
+     ],
+     "antwoord": 1,
+     "uitleg": "Na een m komt er vaak -pje: boompje, raampje."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Een kleine stoel is een ___ .",
+     "antwoord": "stoeltje",
+     "uitleg": "Na een l komt er vaak -tje: stoeltje."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is het verkleinwoord van bal?",
+     "opties": [
+      "baltje",
+      "balje",
+      "ballentje",
+      "balletje"
+     ],
+     "antwoord": 3,
+     "uitleg": "Bij een kort woord met een korte klank komt er -etje en verdubbelt de l: balletje."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Het verkleinwoord van koning is koninkje.",
+     "antwoord": true,
+     "uitleg": "Na ng komt er -kje, en de g wordt een k: koninkje."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Een klein huis is een ___ .",
+     "antwoord": "huisje",
+     "uitleg": "Na een s komt er gewoon -je: huisje."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke woorden krijgen altijd een hoofdletter?",
+     "opties": [
+      "de namen van de dagen en de maanden",
+      "namen van mensen, steden en landen",
+      "alle zelfstandige naamwoorden in een zin",
+      "elk woord dat na een komma staat"
+     ],
+     "antwoord": 1,
+     "uitleg": "Namen van mensen, steden en landen krijgen een hoofdletter. Dagen en maanden niet."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Maandag schrijf je met een hoofdletter.",
+     "antwoord": false,
+     "uitleg": "Dagen van de week schrijf je met een kleine letter: maandag. Alleen aan het begin van een zin krijgen ze een hoofdletter."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke zin is juist geschreven?",
+     "opties": [
+      "sara woont in gent.",
+      "Sara woont in gent.",
+      "Sara woont in Gent.",
+      "sara woont in Gent."
+     ],
+     "antwoord": 2,
+     "uitleg": "Een zin begint met een hoofdletter, en Sara en Gent zijn namen."
+    }
+   ]
+  }
+ ]
+}
