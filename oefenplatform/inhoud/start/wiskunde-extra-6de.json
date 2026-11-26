@@ -1,0 +1,382 @@
+{
+ "hoofdstukken": [
+  {
+   "titel": "Nog meer voor het 6de leerjaar",
+   "niveau": "start",
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is de grootste gemeenschappelijke deler (ggd) van \\(12\\) en \\(18\\)?",
+     "opties": [
+      "\\(3\\)",
+      "\\(6\\)",
+      "\\(2\\)",
+      "\\(36\\)"
+     ],
+     "antwoord": 1,
+     "uitleg": "De delers van \\(12\\) zijn \\(1, 2, 3, 4, 6, 12\\) en die van \\(18\\) zijn \\(1, 2, 3, 6, 9, 18\\). De grootste die in beide rijtjes staat, is \\(6\\)."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is het kleinste gemeenschappelijk veelvoud (kgv) van \\(4\\) en \\(6\\)?",
+     "opties": [
+      "\\(24\\)",
+      "\\(2\\)",
+      "\\(12\\)",
+      "\\(10\\)"
+     ],
+     "antwoord": 2,
+     "uitleg": "De veelvouden van \\(4\\) zijn \\(4, 8, 12, 16, \\dots\\) en die van \\(6\\) zijn \\(6, 12, 18, \\dots\\). Het eerste getal dat in beide rijen staat, is \\(12\\)."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Wat is de ggd van \\(20\\) en \\(30\\)?",
+     "antwoord": "10",
+     "uitleg": "\\(10\\) past zowel in \\(20\\) als in \\(30\\), en een groter getal dat in beide past, is er niet."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Wat is het kgv van \\(3\\) en \\(5\\)?",
+     "antwoord": "15",
+     "uitleg": "\\(3\\) en \\(5\\) hebben buiten \\(1\\) geen gemeenschappelijke deler. Hun kgv is dan gewoon \\(3 \\times 5 = 15\\)."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De ggd van twee getallen is nooit groter dan het kleinste van die twee getallen.",
+     "antwoord": true,
+     "uitleg": "Een deler van een getal kan niet groter zijn dan dat getal zelf. De ggd moet in beide getallen passen, dus ook in het kleinste."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Het kgv van \\(8\\) en \\(16\\) is \\(128\\).",
+     "antwoord": false,
+     "uitleg": "\\(16\\) is zelf al een veelvoud van \\(8\\). Het kgv is dus \\(16\\). Je krijgt \\(128\\) als je \\(8 \\times 16\\) doet, maar dat is niet het kleinste."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Een bus vertrekt elke \\(15\\) minuten, een tram elke \\(20\\) minuten. Om \\(8\\) uur vertrekken ze samen. Na hoeveel minuten vertrekken ze opnieuw samen?",
+     "opties": [
+      "\\(35\\) minuten",
+      "\\(60\\) minuten",
+      "\\(300\\) minuten",
+      "\\(5\\) minuten"
+     ],
+     "antwoord": 1,
+     "uitleg": "Je zoekt het kgv van \\(15\\) en \\(20\\). De veelvouden van \\(20\\) zijn \\(20, 40, 60\\), en \\(60\\) is ook een veelvoud van \\(15\\)."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je hebt \\(24\\) appels en \\(36\\) peren. Je maakt zoveel mogelijk gelijke fruitmanden, zonder fruit over te houden. Hoeveel manden maak je?",
+     "opties": [
+      "\\(6\\)",
+      "\\(12\\)",
+      "\\(60\\)",
+      "\\(4\\)"
+     ],
+     "antwoord": 1,
+     "uitleg": "Je zoekt de ggd van \\(24\\) en \\(36\\), en dat is \\(12\\). Elke mand krijgt dan \\(2\\) appels en \\(3\\) peren."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoeveel is \\(\\tfrac{1}{2}\\) \\(+\\) \\(\\tfrac{1}{3}\\)?",
+     "opties": [
+      "\\(\\tfrac{2}{5}\\)",
+      "\\(\\tfrac{5}{6}\\)",
+      "\\(\\tfrac{2}{6}\\)",
+      "\\(\\tfrac{3}{5}\\)"
+     ],
+     "antwoord": 1,
+     "uitleg": "Maak eerst de noemers gelijk: \\(\\tfrac{1}{2}\\) is \\(\\tfrac{3}{6}\\) en \\(\\tfrac{1}{3}\\) is \\(\\tfrac{2}{6}\\). Samen is dat \\(\\tfrac{5}{6}\\)."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoeveel is \\(\\tfrac{3}{4}\\) \\(-\\) \\(\\tfrac{1}{6}\\)?",
+     "opties": [
+      "\\(\\tfrac{2}{2}\\)",
+      "\\(\\tfrac{7}{12}\\)",
+      "\\(\\tfrac{1}{4}\\)",
+      "\\(\\tfrac{5}{12}\\)"
+     ],
+     "antwoord": 1,
+     "uitleg": "Een noemer die bij allebei past, is \\(12\\). \\(\\tfrac{3}{4}\\) is \\(\\tfrac{9}{12}\\) en \\(\\tfrac{1}{6}\\) is \\(\\tfrac{2}{12}\\). Dan blijft er \\(\\tfrac{7}{12}\\) over."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoeveel is \\(\\tfrac{2}{5}\\) \\(+\\) \\(\\tfrac{3}{10}\\)? Schrijf je antwoord als breuk, bijvoorbeeld \\(\\tfrac{1}{2}\\).",
+     "antwoord": "7/10",
+     "uitleg": "\\(\\tfrac{2}{5}\\) is hetzelfde als \\(\\tfrac{4}{10}\\). Tel daar \\(\\tfrac{3}{10}\\) bij en je krijgt \\(\\tfrac{7}{10}\\)."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Om \\(\\tfrac{1}{4}\\) en \\(\\tfrac{1}{3}\\) op te tellen, tel je de tellers en de noemers gewoon op: dat geeft \\(\\tfrac{2}{7}\\).",
+     "antwoord": false,
+     "uitleg": "Noemers tel je nooit op. Maak ze eerst gelijk: \\(\\tfrac{3}{12}\\) \\(+\\) \\(\\tfrac{4}{12}\\) is \\(\\tfrac{7}{12}\\)."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoeveel is \\(3 :\\) \\(\\tfrac{1}{4}\\)?",
+     "opties": [
+      "\\(\\tfrac{3}{4}\\)",
+      "\\(12\\)",
+      "\\(7\\)",
+      "\\(\\tfrac{1}{12}\\)"
+     ],
+     "antwoord": 1,
+     "uitleg": "Je vraagt je af hoeveel keer een kwart in \\(3\\) past. In één geheel passen \\(4\\) kwarten, in \\(3\\) gehelen dus \\(12\\)."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoeveel is \\(\\tfrac{2}{3}\\) \\(:\\) \\(\\tfrac{1}{6}\\)?",
+     "opties": [
+      "\\(4\\)",
+      "\\(\\tfrac{1}{9}\\)",
+      "\\(\\tfrac{2}{18}\\)",
+      "\\(3\\)"
+     ],
+     "antwoord": 0,
+     "uitleg": "\\(\\tfrac{2}{3}\\) is \\(\\tfrac{4}{6}\\). Daarin past \\(\\tfrac{1}{6}\\) precies \\(4\\) keer. Je kan ook vermenigvuldigen met het omgekeerde: \\(\\tfrac{2}{3}\\) \\(\\times 6 = 4\\)."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Als je een getal deelt door \\(\\tfrac{1}{2}\\), wordt het groter.",
+     "antwoord": true,
+     "uitleg": "Delen door \\(\\tfrac{1}{2}\\) betekent tellen hoeveel helften erin passen. In \\(5\\) passen \\(10\\) helften. Delen door \\(\\tfrac{1}{2}\\) is hetzelfde als maal \\(2\\)."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoeveel is \\(\\tfrac{3}{5}\\) \\(\\times\\) \\(\\tfrac{2}{3}\\)?",
+     "opties": [
+      "\\(\\tfrac{5}{8}\\)",
+      "\\(\\tfrac{2}{5}\\)",
+      "\\(\\tfrac{6}{8}\\)",
+      "\\(\\tfrac{9}{10}\\)"
+     ],
+     "antwoord": 1,
+     "uitleg": "Teller maal teller en noemer maal noemer: \\(\\tfrac{6}{15}\\). Vereenvoudig door \\(3\\) en je krijgt \\(\\tfrac{2}{5}\\)."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Een doos koekjes weegt in totaal \\(450\\) g. De doos zelf weegt \\(50\\) g. Hoeveel is het nettogewicht?",
+     "opties": [
+      "\\(500\\) g",
+      "\\(400\\) g",
+      "\\(50\\) g",
+      "\\(450\\) g"
+     ],
+     "antwoord": 1,
+     "uitleg": "Netto is wat je echt koopt, zonder verpakking: \\(450 - 50 = 400\\) g. De \\(450\\) g is het brutogewicht en de \\(50\\) g van de doos heet de tarra."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe noem je het gewicht van de verpakking?",
+     "opties": [
+      "de tarra",
+      "het netto",
+      "het bruto",
+      "de inhoud"
+     ],
+     "antwoord": 0,
+     "uitleg": "Bruto is alles samen, netto is de inhoud zonder verpakking, en de tarra is de verpakking zelf. Bruto = netto + tarra."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Een pot choco heeft een nettogewicht van \\(400\\) g. De glazen pot weegt \\(250\\) g. Hoeveel gram is het brutogewicht?",
+     "antwoord": "650",
+     "uitleg": "Bruto is netto plus tarra: \\(400 + 250 = 650\\) g."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Het brutogewicht is altijd kleiner dan het nettogewicht.",
+     "antwoord": false,
+     "uitleg": "Omgekeerd: bij het brutogewicht komt de verpakking er nog bij, dus bruto is altijd minstens even groot als netto."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoeveel vierkante meter is \\(1\\) hectare?",
+     "opties": [
+      "\\(100\\) m²",
+      "\\(1\\,000\\) m²",
+      "\\(10\\,000\\) m²",
+      "\\(1\\,000\\,000\\) m²"
+     ],
+     "antwoord": 2,
+     "uitleg": "Een hectare is een vierkant van \\(100\\) m bij \\(100\\) m, dus \\(100 \\times 100 = 10\\,000\\) m². Boeren meten hun velden in hectare."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Een weide is \\(200\\) m lang en \\(150\\) m breed. Hoeveel hectare is dat?",
+     "antwoord": "3",
+     "uitleg": "De oppervlakte is \\(200 \\times 150 = 30\\,000\\) m². Een hectare is \\(10\\,000\\) m², dus dat is \\(3\\) hectare."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoeveel maanden duurt een trimester?",
+     "opties": [
+      "\\(2\\)",
+      "\\(3\\)",
+      "\\(4\\)",
+      "\\(6\\)"
+     ],
+     "antwoord": 1,
+     "uitleg": "Tri betekent drie: een trimester is een periode van \\(3\\) maanden. Een jaar heeft er \\(4\\)."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een semester is een half jaar.",
+     "antwoord": true,
+     "uitleg": "Een semester duurt \\(6\\) maanden. In een jaar passen er dus \\(2\\)."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk meetinstrument gebruik je om een hoek tot op de graad te meten?",
+     "opties": [
+      "een passer",
+      "een geodriehoek",
+      "een rolmeter",
+      "een waterpas en een lat"
+     ],
+     "antwoord": 1,
+     "uitleg": "Op een geodriehoek staat een halve cirkel met graden van \\(0\\) tot \\(180\\). Leg het midden op het hoekpunt en één been op de nullijn."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Een hoek meet \\(135\\) graden. Wat voor hoek is dat?",
+     "opties": [
+      "een scherpe hoek",
+      "een rechte hoek",
+      "een stompe hoek",
+      "een gestrekte hoek"
+     ],
+     "antwoord": 2,
+     "uitleg": "Een stompe hoek ligt tussen \\(90\\) en \\(180\\) graden. Scherp is kleiner dan \\(90\\), recht is precies \\(90\\) en gestrekt is \\(180\\)."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "In een driehoek meten twee hoeken \\(50\\) graden en \\(60\\) graden. Hoeveel graden meet de derde hoek?",
+     "antwoord": "70",
+     "uitleg": "De drie hoeken van een driehoek zijn samen altijd \\(180\\) graden: \\(180 - 50 - 60 = 70\\)."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Uit hoeveel vierkantjes bestaat de ontvouwing van een kubus?",
+     "opties": [
+      "\\(4\\)",
+      "\\(6\\)",
+      "\\(8\\)",
+      "\\(12\\)"
+     ],
+     "antwoord": 1,
+     "uitleg": "Een kubus heeft \\(6\\) vlakken, dus de ontvouwing (de bouwplaat) heeft \\(6\\) gelijke vierkanten. Een kubus heeft wel \\(8\\) hoekpunten en \\(12\\) ribben."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een kruis van zes vierkantjes (vier op een rij, met links en rechts van het tweede vierkantje er nog één) kan je dichtvouwen tot een kubus.",
+     "antwoord": true,
+     "uitleg": "De vier op een rij vouwen rond tot de zijkanten, en de twee losse vierkantjes worden de boven- en onderkant. Zes vierkantjes op één lange rij lukt niet: dan overlappen er twee en blijven boven en onder open."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je vouwt een balk open. Welke vormen zie je in de bouwplaat?",
+     "opties": [
+      "vier driehoeken en twee vierkanten",
+      "enkel rechthoeken",
+      "twee cirkels en een rechthoek",
+      "een vierkant en vier driehoeken"
+     ],
+     "antwoord": 1,
+     "uitleg": "Alle vlakken van een balk zijn rechthoeken (soms zijn er twee vierkant). Cirkels vind je in de bouwplaat van een cilinder."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Uit welke vormen bestaat de bouwplaat van een cilinder?",
+     "opties": [
+      "twee cirkels en een rechthoek",
+      "zes vierkanten van dezelfde grootte",
+      "een cirkel en drie driehoeken",
+      "twee rechthoeken"
+     ],
+     "antwoord": 0,
+     "uitleg": "De boven- en onderkant zijn cirkels. De mantel rol je open tot een rechthoek."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "In een assenstelsel ligt punt A op \\((3, 5)\\). Wat betekent dat?",
+     "opties": [
+      "\\(3\\) naar rechts en \\(5\\) naar boven",
+      "\\(5\\) naar rechts en \\(3\\) naar boven",
+      "\\(3\\) naar boven en \\(5\\) naar links",
+      "\\(8\\) stappen in totaal"
+     ],
+     "antwoord": 0,
+     "uitleg": "Het eerste getal zegt hoever je naar rechts gaat, langs de horizontale as. Het tweede zegt hoever naar boven."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De punten \\((2, 4)\\) en \\((4, 2)\\) liggen op dezelfde plaats in een assenstelsel.",
+     "antwoord": false,
+     "uitleg": "De volgorde telt. \\((2, 4)\\) is \\(2\\) naar rechts en \\(4\\) omhoog. \\((4, 2)\\) is \\(4\\) naar rechts en \\(2\\) omhoog. Dat zijn twee verschillende punten."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Vijf kinderen scoren op een toets \\(6, 9, 7, 10, 8\\). Wat is de mediaan?",
+     "opties": [
+      "\\(7\\)",
+      "\\(8\\)",
+      "\\(9\\)",
+      "\\(10\\)"
+     ],
+     "antwoord": 1,
+     "uitleg": "Zet de getallen eerst op volgorde: \\(6, 7, 8, 9, 10\\). De mediaan is het middelste getal: \\(8\\)."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Wat is de mediaan van \\(3, 12, 5, 4, 20\\)?",
+     "antwoord": "5",
+     "uitleg": "Op volgorde: \\(3, 4, 5, 12, 20\\). Het middelste getal is \\(5\\)."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De mediaan en het gemiddelde van een reeks getallen zijn altijd gelijk.",
+     "antwoord": false,
+     "uitleg": "Bij \\(1, 2, 9\\) is de mediaan \\(2\\), maar het gemiddelde is \\(12 : 3 = 4\\). Eén heel groot getal trekt het gemiddelde omhoog, de mediaan blijft liggen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is de mediaan van \\(2, 4, 6, 10\\)?",
+     "opties": [
+      "\\(4\\)",
+      "\\(5\\)",
+      "\\(6\\)",
+      "\\(5{,}5\\)"
+     ],
+     "antwoord": 1,
+     "uitleg": "Bij een even aantal getallen zijn er twee in het midden: \\(4\\) en \\(6\\). De mediaan ligt daar precies tussen: \\(5\\)."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Bij de getallen \\(4, 4, 7, 9, 11\\) is de mediaan \\(7\\).",
+     "antwoord": true,
+     "uitleg": "De getallen staan al op volgorde. Het middelste van de vijf is het derde: \\(7\\)."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "\\(3\\) schriften kosten \\(4{,}50\\) euro. Wat kosten \\(9\\) schriften? Denk aan een verhoudingstabel.",
+     "opties": [
+      "\\(9\\) euro",
+      "\\(13{,}50\\) euro",
+      "\\(10{,}50\\) euro",
+      "\\(12\\) euro"
+     ],
+     "antwoord": 1,
+     "uitleg": "Van \\(3\\) naar \\(9\\) schriften is maal \\(3\\). Dan gaat de prijs ook maal \\(3\\): \\(4{,}50 \\times 3 = 13{,}50\\) euro."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Voor \\(4\\) pannenkoeken heb je \\(100\\) g bloem nodig. Hoeveel gram bloem heb je nodig voor \\(10\\) pannenkoeken?",
+     "antwoord": "250",
+     "uitleg": "Deel eerst door \\(4\\): \\(1\\) pannenkoek vraagt \\(25\\) g. Dan maal \\(10\\): \\(250\\) g."
+    }
+   ]
+  }
+ ]
+}
