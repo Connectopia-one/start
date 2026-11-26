@@ -1,0 +1,381 @@
+{
+ "hoofdstukken": [
+  {
+   "titel": "Tafels en delen — deel 1",
+   "niveau": "ready",
+   "korte_uitleg": "Vermenigvuldigen is herhaald optellen. 4 × 3 betekent 4 groepjes van 3: 3 + 3 + 3 + 3 = 12.\nJe mag de getallen wisselen: 4 × 3 is evenveel als 3 × 4.\nHandige trucjes: een getal × 1 blijft hetzelfde, een getal × 0 is altijd 0, en × 10 zet een nul achter het getal. Ken je 4 × 6, dan is 8 × 6 het dubbele.",
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoeveel is 7 × 8?",
+     "opties": [
+      "54",
+      "56",
+      "48",
+      "64"
+     ],
+     "antwoord": 1,
+     "uitleg": "7 × 8 = 56. Een ezelsbruggetje: 5, 6, 7, 8, want 56 = 7 × 8."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "6 × 9 = ___",
+     "antwoord": "54",
+     "uitleg": "6 × 10 = 60. Eén groepje van 6 minder: 60 − 6 = 54."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke som hoort bij 4 groepjes van 3 appels?",
+     "opties": [
+      "3 + 4",
+      "4 × 3",
+      "4 + 4 + 4 + 4",
+      "3 × 3"
+     ],
+     "antwoord": 1,
+     "uitleg": "4 groepjes van 3 is 3 + 3 + 3 + 3, en dat schrijf je korter als 4 × 3 = 12."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "3 × 8 is evenveel als 8 × 3.",
+     "antwoord": true,
+     "uitleg": "Bij vermenigvuldigen mag je de getallen wisselen. Allebei geven ze 24."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "9 × 10 = ___",
+     "antwoord": "90",
+     "uitleg": "Maal 10 zet een nul achter het getal: 9 wordt 90."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk getal staat niet in de tafel van 4?",
+     "opties": [
+      "16",
+      "28",
+      "30",
+      "36"
+     ],
+     "antwoord": 2,
+     "uitleg": "De tafel van 4 is 4, 8, 12, 16, 20, 24, 28, 32, 36, 40. Het getal 30 zit daar niet tussen."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Elke uitkomst van de tafel van 5 eindigt op een 5.",
+     "antwoord": false,
+     "uitleg": "De helft eindigt op 0: 10, 20, 30, 40 en 50. De andere helft eindigt op 5."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Een spin heeft 8 poten. Hoeveel poten hebben 6 spinnen samen?",
+     "antwoord": "48",
+     "uitleg": "6 spinnen met elk 8 poten: 6 × 8 = 48."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoeveel is 0 × 9?",
+     "opties": [
+      "9",
+      "0",
+      "1",
+      "90"
+     ],
+     "antwoord": 1,
+     "uitleg": "0 groepjes van 9 is niets. Een getal maal 0 is altijd 0."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De uitkomsten van de tafel van 2 zijn altijd even getallen.",
+     "antwoord": true,
+     "uitleg": "2, 4, 6, 8, 10, ... Iets dat je in twee gelijke delen kan verdelen, is even."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke vermenigvuldiging geeft 36?",
+     "opties": [
+      "4 × 8",
+      "5 × 7",
+      "6 × 6",
+      "3 × 11"
+     ],
+     "antwoord": 2,
+     "uitleg": "6 × 6 = 36. Ook 4 × 9 geeft 36, maar die staat er niet bij."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "7 × ___ = 63",
+     "antwoord": "9",
+     "uitleg": "Zoek in de tafel van 7: 7, 14, 21, 28, 35, 42, 49, 56, 63. Dat is de 9de: 7 × 9 = 63."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "In een doos eieren zitten 2 rijen van 6 eieren. Hoeveel eieren zitten in 3 dozen?",
+     "opties": [
+      "12",
+      "36",
+      "18",
+      "30"
+     ],
+     "antwoord": 1,
+     "uitleg": "Eén doos: 2 × 6 = 12 eieren. Drie dozen: 3 × 12 = 36 eieren."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De tafel van 10 krijg je door een nul achter het getal te zetten.",
+     "antwoord": true,
+     "uitleg": "4 × 10 = 40, 7 × 10 = 70. Er komt telkens een nul achter."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "1 × 57 = ___",
+     "antwoord": "57",
+     "uitleg": "Eén groepje van 57 is gewoon 57. Een getal maal 1 blijft hetzelfde."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Lena koopt 5 stripboeken van 7 euro. Hoeveel betaalt ze?",
+     "opties": [
+      "30 euro",
+      "12 euro",
+      "35 euro",
+      "57 euro"
+     ],
+     "antwoord": 2,
+     "uitleg": "5 boeken van 7 euro: 5 × 7 = 35 euro."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "6 × 8 = 46",
+     "antwoord": false,
+     "uitleg": "6 × 8 = 48. Reken na: 5 × 8 = 40, en nog één keer 8 erbij is 48."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk rijtje is het begin van de tafel van 3?",
+     "opties": [
+      "3, 5, 7, 9",
+      "3, 6, 10, 13",
+      "3, 9, 27, 81",
+      "3, 6, 9, 12"
+     ],
+     "antwoord": 3,
+     "uitleg": "In de tafel van 3 komt er telkens 3 bij: 3, 6, 9, 12, 15, ..."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Als je een getal met 1 vermenigvuldigt, wordt het groter.",
+     "antwoord": false,
+     "uitleg": "Een getal maal 1 blijft precies hetzelfde: 8 × 1 = 8."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "4 × 6 = 24. Hoeveel is dan 8 × 6?",
+     "antwoord": "48",
+     "uitleg": "8 is het dubbele van 4. Dan is de uitkomst ook het dubbele: 24 + 24 = 48."
+    }
+   ]
+  },
+  {
+   "titel": "Tafels en delen — deel 2",
+   "niveau": "ready",
+   "korte_uitleg": "Delen is eerlijk verdelen. 12 : 3 = 4, want 4 × 3 = 12. Bij elke deling hoort een vermenigvuldiging.\nLukt het niet precies, dan blijft er een rest over: 14 : 4 = 3 rest 2. De rest is altijd kleiner dan het getal waardoor je deelt.\nEen deler past precies in een getal: 3 is een deler van 12. Een veelvoud krijg je door te vermenigvuldigen: 12 is een veelvoud van 3.\nDeelbaar door 2: het getal eindigt op 0, 2, 4, 6 of 8. Door 5: het eindigt op 0 of 5. Door 10: het eindigt op 0. Door 100: op 00. Door 1 000: op 000.",
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoeveel is 42 : 6?",
+     "opties": [
+      "6",
+      "7",
+      "8",
+      "36"
+     ],
+     "antwoord": 1,
+     "uitleg": "42 : 6 = 7, want 7 × 6 = 42."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "56 : 8 = ___",
+     "antwoord": "7",
+     "uitleg": "Zoek in de tafel van 8 welk getal 56 geeft: 7 × 8 = 56."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je verdeelt 18 snoepjes eerlijk over 3 kinderen. Hoeveel krijgt elk kind?",
+     "opties": [
+      "9",
+      "15",
+      "6",
+      "21"
+     ],
+     "antwoord": 2,
+     "uitleg": "18 : 3 = 6, want 6 × 3 = 18."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "35 : 5 = 7, want 7 × 5 = 35.",
+     "antwoord": true,
+     "uitleg": "Bij elke deling hoort een vermenigvuldiging. Zo kan je een deling altijd nakijken."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoeveel is 23 : 5?",
+     "opties": [
+      "4 rest 3",
+      "5 rest 2",
+      "4 rest 2",
+      "3 rest 8"
+     ],
+     "antwoord": 0,
+     "uitleg": "4 × 5 = 20 past erin. Van 20 tot 23 blijft er 3 over: 4 rest 3."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoeveel is de rest bij 30 : 7?",
+     "antwoord": "2",
+     "uitleg": "4 × 7 = 28 past erin. 30 − 28 = 2, dus de rest is 2."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Als je deelt door 4, kan de rest 5 zijn.",
+     "antwoord": false,
+     "uitleg": "De rest is altijd kleiner dan het getal waardoor je deelt. Is de rest 4 of meer, dan past er nog een groepje van 4 bij."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "26 kinderen gaan op uitstap. In een auto passen 4 kinderen. Hoeveel auto's zijn er nodig?",
+     "opties": [
+      "6",
+      "7",
+      "5",
+      "8"
+     ],
+     "antwoord": 1,
+     "uitleg": "26 : 4 = 6 rest 2. Ook die 2 kinderen moeten mee, dus je hebt een 7de auto nodig."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk getal is een deler van 24?",
+     "opties": [
+      "5",
+      "7",
+      "9",
+      "8"
+     ],
+     "antwoord": 3,
+     "uitleg": "8 past precies in 24: 3 × 8 = 24. De andere getallen laten een rest over."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Wat is het kleinste veelvoud van 7 dat groter is dan 30?",
+     "antwoord": "35",
+     "uitleg": "De veelvouden van 7 zijn 7, 14, 21, 28, 35, ... Het eerste na 30 is 35."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "1 is een deler van elk getal.",
+     "antwoord": true,
+     "uitleg": "Elk getal kan je delen door 1 zonder rest: 9 : 1 = 9."
+    },
+    {
+     "type": "sorteren",
+     "vraag": "Is het getal deelbaar door 2 of niet?",
+     "opties": [
+      "34",
+      "51",
+      "70",
+      "19",
+      "106",
+      "87"
+     ],
+     "antwoord": {
+      "juist": [
+       0,
+       1,
+       0,
+       1,
+       0,
+       1
+      ],
+      "kolommen": [
+       "deelbaar door 2",
+       "niet deelbaar door 2"
+      ]
+     },
+     "uitleg": "Een getal is deelbaar door 2 als het eindigt op 0, 2, 4, 6 of 8. Dus 34, 70 en 106 wel, en 51, 19 en 87 niet."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk getal is deelbaar door 5?",
+     "opties": [
+      "52",
+      "75",
+      "98",
+      "101"
+     ],
+     "antwoord": 1,
+     "uitleg": "Een getal is deelbaar door 5 als het eindigt op 0 of 5. Alleen 75 doet dat."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een getal dat op 0 eindigt, is deelbaar door 10.",
+     "antwoord": true,
+     "uitleg": "70 : 10 = 7, 430 : 10 = 43. Eindigt een getal op 0, dan gaat de deling door 10 precies op."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk getal is deelbaar door 100?",
+     "opties": [
+      "1 050",
+      "2 010",
+      "7 005",
+      "3 400"
+     ],
+     "antwoord": 3,
+     "uitleg": "Een getal is deelbaar door 100 als het eindigt op 00. Alleen 3 400 doet dat."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "4 500 is deelbaar door 1 000.",
+     "antwoord": false,
+     "uitleg": "Deelbaar door 1 000 betekent eindigen op 000. 4 500 eindigt op 500: 4 000 past erin, maar er blijft 500 over."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "___ : 9 = 8",
+     "antwoord": "72",
+     "uitleg": "Gebruik de vermenigvuldiging: 8 × 9 = 72. Dus 72 : 9 = 8."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk rijtje bevat alle delers van 12?",
+     "opties": [
+      "2, 4, 6, 8, 10, 12",
+      "1, 2, 3, 4, 12",
+      "1, 2, 3, 4, 6, 12",
+      "12, 24, 36, 48"
+     ],
+     "antwoord": 2,
+     "uitleg": "12 kan je precies delen door 1, 2, 3, 4, 6 en 12. Het laatste rijtje zijn veelvouden van 12, geen delers."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Elk veelvoud van 2 is ook een veelvoud van 4.",
+     "antwoord": false,
+     "uitleg": "6 is een veelvoud van 2, maar niet van 4. Omgekeerd klopt het wel: elk veelvoud van 4 is ook een veelvoud van 2."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Mama knipt 40 cm lint in stukken van 6 cm. Hoeveel stukken krijgt ze, en hoeveel lint blijft over?",
+     "opties": [
+      "6 stukken, 4 cm over",
+      "7 stukken, 2 cm over",
+      "6 stukken, 2 cm over",
+      "5 stukken, 10 cm over"
+     ],
+     "antwoord": 0,
+     "uitleg": "40 : 6 = 6 rest 4, want 6 × 6 = 36 en 40 − 36 = 4."
+    }
+   ]
+  }
+ ]
+}
