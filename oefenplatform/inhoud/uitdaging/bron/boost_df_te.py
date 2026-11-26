@@ -13,7 +13,7 @@ from ._ex import J, F, mk, inv, tabel, keuze, volgorde, koppel, sorteer, sleep, 
 from ._ex import klik as _klik, met_prent as _met_prent
 
 NIVEAU = "boost-dubbele-finaliteit"
-VAK = "Toegepaste economie"
+VAK = "Toegepaste Economie"
 BESTAND = "boost-df-te-uitdaging.json"
 AANTAL = 40
 MAP = "/examenvormen/te-boost-df-uitdaging"
