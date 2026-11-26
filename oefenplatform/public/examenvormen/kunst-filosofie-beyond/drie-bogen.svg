@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Drie soorten bogen</text>
+<rect x="70" y="140" width="220" height="400" rx="0" fill="#e9e2cf" stroke="#24331b" stroke-width="3"/>
+<path d="M 110 540 L 110 330 A 70 70 0 0 1 250 330 L 250 540 Z" fill="#ffffff" stroke="#24331b" stroke-width="4"/>
+<circle cx="180" cy="595" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="180" y="602" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<rect x="390" y="140" width="220" height="400" rx="0" fill="#e9e2cf" stroke="#24331b" stroke-width="3"/>
+<path d="M 430 540 L 430 340 Q 435 240 500 190 Q 565 240 570 340 L 570 540 Z" fill="#ffffff" stroke="#24331b" stroke-width="4"/>
+<circle cx="500" cy="595" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="500" y="602" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<rect x="710" y="140" width="220" height="400" rx="0" fill="#e9e2cf" stroke="#24331b" stroke-width="3"/>
+<path d="M 750 540 L 750 380 A 80 80 0 1 1 890 380 L 890 540 Z" fill="#ffffff" stroke="#24331b" stroke-width="4"/>
+<circle cx="820" cy="595" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="820" y="602" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<rect x="715" y="150" width="30" height="30" rx="2" fill="#3b6fa0" stroke="#24331b" stroke-width="1"/>
+<rect x="750" y="150" width="30" height="30" rx="2" fill="#e8c547" stroke="#24331b" stroke-width="1"/>
+<rect x="785" y="150" width="30" height="30" rx="2" fill="#3b6fa0" stroke="#24331b" stroke-width="1"/>
+<rect x="820" y="150" width="30" height="30" rx="2" fill="#e8c547" stroke="#24331b" stroke-width="1"/>
+<rect x="855" y="150" width="30" height="30" rx="2" fill="#3b6fa0" stroke="#24331b" stroke-width="1"/>
+<rect x="890" y="150" width="30" height="30" rx="2" fill="#e8c547" stroke="#24331b" stroke-width="1"/>
+</svg>

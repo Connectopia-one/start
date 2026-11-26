@@ -2088,6 +2088,863 @@
       ]
     },
     {
+      "titel": "Niet-westerse invloeden en kunsthistorische elementen — pittig",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de hoefijzerboog, typisch voor Moorse architectuur.",
+          "afbeelding_url": "/examenvormen/kunst-filosofie-beyond/drie-bogen.svg",
+          "zones": [
+            [
+              70.0,
+              20.3,
+              24.0,
+              65.6
+            ]
+          ],
+          "uitleg": "De hoefijzerboog is breder dan de opening eronder. Je ziet hem in de moskee van Córdoba en in het Alhambra."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de boog die je in Romeinse en romaanse bouwwerken ziet.",
+          "afbeelding_url": "/examenvormen/kunst-filosofie-beyond/drie-bogen.svg",
+          "zones": [
+            [
+              6.0,
+              20.3,
+              24.0,
+              65.6
+            ]
+          ],
+          "uitleg": "De rondboog is een halve cirkel."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Boog B is een [[*spitsboog|rondboog|hoefijzerboog]], typisch voor de [[*gotiek|Romeinse kunst|Moorse kunst]]. Boven poort C zie je [[*tegels met een geometrisch patroon|een fresco met heiligen|een Griekse fries met goden]].",
+          "uitleg": "Moorse kunst gebruikt vaak geometrische patronen en sierlijke tegels.",
+          "afbeelding_url": "/examenvormen/kunst-filosofie-beyond/drie-bogen.svg"
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Welke niet-westerse invloed zie je?",
+          "kolommen": [
+            "Japans",
+            "Afrikaans",
+            "Moors",
+            "Oosters (gamelan)"
+          ],
+          "items": [
+            [
+              "vlakke kleuren, contourlijnen en een waaier bij Van Gogh",
+              "Japans"
+            ],
+            [
+              "hoekige, vereenvoudigde maskergezichten bij Picasso",
+              "Afrikaans"
+            ],
+            [
+              "hoefijzerbogen en binnentuinen met water",
+              "Moors"
+            ],
+            [
+              "andere toonladders en klankkleuren bij Debussy",
+              "Oosters (gamelan)"
+            ],
+            [
+              "een brug over water met een hoge horizon",
+              "Japans"
+            ],
+            [
+              "fijn stucwerk en geometrische tegels in het Alhambra",
+              "Moors"
+            ]
+          ],
+          "uitleg": "Niet-westerse kunst beïnvloedde schilderkunst, architectuur en muziek."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel de kunstvorm aan de niet-westerse invloed.",
+          "paren": [
+            [
+              "schilderkunst",
+              "Afrikaanse en Japanse invloeden"
+            ],
+            [
+              "architectuur",
+              "Moorse en Oosterse invloeden"
+            ],
+            [
+              "muziek",
+              "Oosterse en Afrikaanse invloeden"
+            ],
+            [
+              "beeldhouwkunst",
+              "Egyptische en Griekse invloeden"
+            ]
+          ],
+          "extra": [
+            "Romeinse invloeden in de film"
+          ],
+          "uitleg": "Dit is de indeling van de niet-westerse invloeden per kunstvorm."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over niet-westerse invloeden?",
+          "rijen": [
+            "Blues en jazz hebben sterke Afrikaanse wortels.",
+            "Debussy hoorde gamelan op de wereldtentoonstelling van 1889 in Parijs.",
+            "Afrikaanse maskers zetten Picasso aan tot realistische kopieën.",
+            "Westerse kunstenaars lieten zich nooit door niet-westerse kunst beïnvloeden."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            false
+          ],
+          "uitleg": "De maskers inspireerden net tot vereenvoudiging en vervorming."
+        },
+        {
+          "casus": "Een westers schilderij uit 1887 toont een brug over een rivier in de regen. De kleuren zijn vlak, zonder schaduw. Elke vorm heeft een dikke contourlijn. De horizon ligt hoog, en een boom staat schuin afgesneden aan de rand. Rond het schilderij staan tekens die op een vreemd schrift lijken.",
+          "vragen": [
+            {
+              "type": "meerkeuze",
+              "vraag": "Welke invloed zie je hier het sterkst?",
+              "opties": [
+                "Japanse houtsneden",
+                "Afrikaanse maskers",
+                "Egyptische reliëfs",
+                "Moorse tegels"
+              ],
+              "antwoord": 0,
+              "uitleg": "Vlakke kleuren, contourlijnen, een hoge horizon en ongewone uitsneden komen uit Japanse prenten."
+            },
+            {
+              "type": "invultekst",
+              "vraag": "Hoe heet deze invloed van Japanse prenten op de westerse kunst?",
+              "antwoord": [
+                "japonisme",
+                "japonaiserie"
+              ],
+              "uitleg": "Van Gogh kopieerde zelfs Japanse prenten met olieverf."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Waarom kwamen zulke prenten na 1850 massaal naar Europa?",
+              "opties": [
+                "door handel en wereldtentoonstellingen",
+                "door het internet en de televisie thuis",
+                "door een bevel van de paus in Rome aan alle schilders",
+                "door een verbod op Europese kunst in musea"
+              ],
+              "antwoord": 0,
+              "uitleg": "Handel, wereldtentoonstellingen en ook de koloniale overheersing brachten veel niet-westerse voorwerpen naar Europa."
+            }
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Grieks of Romeins schoonheidsideaal?",
+          "rijen": [
+            "jong, perfect en tijdloos",
+            "oud, met rimpels en eigen trekken",
+            "berekende verhoudingen, zoals in de canon van Polykleitos",
+            "herkenbaar portret van één bepaalde senator"
+          ],
+          "antwoord": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "uitleg": "De Grieken zochten het ideaal, de Romeinen het realisme.",
+          "kolommen": [
+            "Grieks",
+            "Romeins"
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een hedendaagse kunstenaar toont een kapotte, vuile stoel in een witte zaal. Wat zegt dat over het schoonheidsideaal van vandaag?",
+          "opties": [
+            "schoonheid hoeft niet het doel te zijn",
+            "elk werk moet nog altijd de Griekse verhoudingen volgen",
+            "enkel mooie, nieuwe voorwerpen mogen in een museum",
+            "de kunstenaar kon geen mooie stoel betalen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Veel hedendaagse kunst wil vooral doen nadenken. Ze mag ook lelijk of schokkend zijn."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welk kunsthistorisch element speelt hier vooral?",
+          "rijen": [
+            "een stad bouwt een groot museum en krijgt veel meer toeristen",
+            "een vorst laat zich schilderen met kroon en zwaard",
+            "een affiche telt hoe weinig vrouwen in een museum hangen",
+            "een heilige met een stralenkrans boven het hoofd"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "uitleg": "Economische waarde, opdrachtgevers, gender en het bovennatuurlijke zijn kunsthistorische elementen.",
+          "kolommen": [
+            "economische waarde",
+            "opdrachtgever",
+            "genderdimensie",
+            "het bovennatuurlijke"
+          ]
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Verhoogt dit meestal de financiële waarde van een werk, of zegt het er weinig over?",
+          "kolommen": [
+            "verhoogt de waarde",
+            "zegt weinig over de waarde"
+          ],
+          "items": [
+            [
+              "de kunstenaar is wereldberoemd",
+              "verhoogt de waarde"
+            ],
+            [
+              "er bestaan maar een paar werken van",
+              "verhoogt de waarde"
+            ],
+            [
+              "het werk hing in een beroemde verzameling",
+              "verhoogt de waarde"
+            ],
+            [
+              "de kleur van de muur in de veilingzaal",
+              "zegt weinig over de waarde"
+            ],
+            [
+              "het aantal letters in de titel",
+              "zegt weinig over de waarde"
+            ]
+          ],
+          "uitleg": "Bekendheid, zeldzaamheid en herkomst spelen mee, net als de staat van het werk en de vraag van verzamelaars."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een kunstacademie in de 19de eeuw laat vrouwen niet toe bij het tekenen naar naaktmodel. Wat verklaart dit mee?",
+          "opties": [
+            "waarom vrouwen minder in musea hangen",
+            "waarom vrouwen enkel abstracte kunst maakten",
+            "waarom vrouwen nooit model stonden voor schilders",
+            "waarom kunstacademies vandaag niet meer bestaan"
+          ],
+          "antwoord": 0,
+          "uitleg": "Zonder opleiding en opdrachten kregen vrouwen minder kansen. Vrouwen waren wel vaak model of onderwerp."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "De [[*Guerrilla Girls|Medici|Vlaamse primitieven]] maken affiches tegen de ongelijkheid van vrouwen in de kunstwereld. Dat is kunst als middel voor [[*genderactivisme|decoratie|restauratie]].",
+          "uitleg": "Ze dragen gorillamaskers en werken met cijfers en humor."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke kunstenares uit de barok schilderde krachtige vrouwen uit de bijbel?",
+          "opties": [
+            "Artemisia Gentileschi",
+            "Frida Kahlo uit Mexico",
+            "Georgia O'Keeffe",
+            "Berthe Morisot uit Parijs"
+          ],
+          "antwoord": 0,
+          "uitleg": "Artemisia Gentileschi werkte in de 17de eeuw. De andere kunstenaressen zijn later."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over het bovennatuurlijke?",
+          "rijen": [
+            "Een stralenkrans of nimbus duidt aan dat een figuur heilig is.",
+            "Bovennatuurlijke thema's verdwenen volledig uit de moderne kunst.",
+            "Het surrealisme werkt met dromen en bovennatuurlijke beelden."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Ook moderne kunstenaars zoals Kandinsky zochten het spirituele."
+        },
+        {
+          "casus": "Marcel Duchamp zette in 1917 een gewoon urinoir in een tentoonstelling. Hij gaf het de titel Fontein en tekende het met een valse naam. Hij had het niet zelf gemaakt, maar in een winkel gekocht.",
+          "vragen": [
+            {
+              "type": "meerkeuze",
+              "vraag": "Wat stelt Duchamp hiermee vooral in vraag?",
+              "opties": [
+                "of het idee boven het vakmanschap gaat",
+                "of sanitair wel goed genoeg is voor een museum",
+                "of Michelangelo echt beter kon beeldhouwen dan hij",
+                "of een beeld altijd in brons of marmer moet"
+              ],
+              "antwoord": 0,
+              "uitleg": "Bij conceptuele kunst telt het idee meer dan het maken met de hand."
+            },
+            {
+              "type": "invultekst",
+              "vraag": "Hoe heet kunst waarbij het idee belangrijker is dan het maken met de hand? ... kunst",
+              "antwoord": [
+                "conceptuele",
+                "conceptueel",
+                "conceptuele kunst"
+              ],
+              "uitleg": "Bij traditionele kunst staat het vakmanschap net centraal."
+            },
+            {
+              "type": "tabel",
+              "vraag": "Past dit bij traditionele kunst of bij conceptuele kunst?",
+              "rijen": [
+                "jaren oefenen om marmer te leren houwen",
+                "een gewoon voorwerp kiezen en het een nieuwe betekenis geven",
+                "het idee achter het werk is het eigenlijke kunstwerk"
+              ],
+              "antwoord": [
+                0,
+                1,
+                1
+              ],
+              "uitleg": "Vakmanschap heeft een andere betekenis bij traditionele en bij conceptuele kunst.",
+              "kolommen": [
+                "traditioneel",
+                "conceptueel"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom werkt een goede restaurateur liefst met de originele technieken en materialen?",
+          "opties": [
+            "zo blijft het werk dicht bij het origineel",
+            "omdat nieuwe verf altijd veel duurder is dan oude",
+            "omdat musea volgens de wet geen nieuwe verf mogen",
+            "om het werk daarna snel en duur te verkopen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een goede restauratie respecteert het origineel."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Een renaissanceschilderij toont de [[opdrachtgever]] knielend naast de heiligen. Zo toont hij zijn vroomheid en zijn [[status]].",
+          "extra": [
+            "restaurateur",
+            "nimbus"
+          ],
+          "uitleg": "Zo'n schenkersportret zie je ook op het Lam Gods."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een sleutel bij Petrus, een lam voor Christus en een schedel voor de dood: wat zulke figuren en voorwerpen betekenen, bestudeert de [[*iconografie|restauratie|culturele economie]].",
+          "uitleg": "Iconografie helpt om symbolen in kunst te lezen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom beeldt men in islamitische religieuze gebouwen liefst geen mensen af?",
+          "opties": [
+            "dat past niet in de religieuze traditie",
+            "Moorse kunstenaars konden geen mensen tekenen",
+            "geometrische patronen waren veel goedkoper",
+            "de koning hield helemaal niet van kunst"
+          ],
+          "antwoord": 0,
+          "uitleg": "De culturele en religieuze context verklaart hier de vorm: patronen en sierlijke letters."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over opdrachtgevers?",
+          "rijen": [
+            "Een opdrachtgever bepaalde vaak mee wat er op een werk te zien was.",
+            "Kunst kon dienen om de macht van een vorst te tonen.",
+            "Opdrachtgevers hadden vroeger geen enkele invloed op het thema."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Financiering, thema's en het tonen van macht hangen samen met de opdrachtgever."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een museum koopt een werk van een onbekende kunstenaar. Een jaar later zijn zijn werken veel duurder. Welk element zie je?",
+          "opties": [
+            "economische waarde",
+            "het bovennatuurlijke in de kunst",
+            "het schoonheidsideaal van de Grieken",
+            "vakmanschap bij restauratie"
+          ],
+          "antwoord": 0,
+          "uitleg": "Wie een werk koopt of toont, beïnvloedt de financiële waarde."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een rijke familie hangt een duur schilderij in de ontvangstzaal zodat elke bezoeker het ziet. Dat toont het verband tussen kunst en [[*sociale status|restauratie|iconografie]].",
+          "uitleg": "Wie dure kunst bezit of laat maken, toont rijkdom en aanzien."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over de afbeelding van genders in oudere westerse kunst?",
+          "rijen": [
+            "de vrouw vaak als model of naakt onderwerp",
+            "de man vaak als held, krijger of vorst",
+            "vrouwen meestal als bekende kunstenaar met eigen naam in het museum"
+          ],
+          "antwoord": [
+            true,
+            true,
+            false
+          ],
+          "uitleg": "De afbeelding van genders in de kunst is een deel van de genderdimensie."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat bedoelt men met artistieke vernieuwing?",
+          "opties": [
+            "een kunstenaar vindt een nieuwe techniek of vorm",
+            "een kunstenaar kopieert precies zijn leraar",
+            "een kunstenaar geeft een oud werk een nieuwe lijst",
+            "een kunstenaar verkoopt een oud werk opnieuw"
+          ],
+          "antwoord": 0,
+          "uitleg": "Van Eyck met olieverf, Monet met licht en Picasso met het kubisme zijn voorbeelden."
+        },
+        {
+          "type": "open",
+          "vraag": "Leg met een voorbeeld uit hoe niet-westerse kunst een westerse kunstenaar beïnvloedde.",
+          "antwoord": "Picasso zag in een museum in Parijs Afrikaanse maskers. De hoekige, vereenvoudigde gezichten inspireerden hem. In Les Demoiselles d'Avignon schilderde hij gezichten die op maskers lijken. Die vereenvoudiging hielp hem op weg naar het kubisme. De maskers kwamen naar Europa via de koloniale handel."
+        }
+      ]
+    },
+    {
+      "titel": "Kunstanalyse en kunstreflectie — pittig",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "Een recensent schrijft dat het werk technisch sterk is, maar inhoudelijk oppervlakkig. Klik op dat perspectief.",
+          "afbeelding_url": "/examenvormen/kunst-filosofie-beyond/vijf-blikken.svg",
+          "zones": [
+            [
+              77.0,
+              9.4,
+              19.0,
+              23.4
+            ]
+          ],
+          "uitleg": "Kunstcritici analyseren en beoordelen een werk in kranten en tijdschriften."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het economisch perspectief.",
+          "afbeelding_url": "/examenvormen/kunst-filosofie-beyond/vijf-blikken.svg",
+          "zones": [
+            [
+              77.0,
+              67.2,
+              19.0,
+              23.4
+            ]
+          ],
+          "uitleg": "Het economisch perspectief kijkt naar waarde, verkoop en de invloed op de kunstmarkt."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het perspectief dat de subjectieve ervaring van één kijker toont.",
+          "afbeelding_url": "/examenvormen/kunst-filosofie-beyond/vijf-blikken.svg",
+          "zones": [
+            [
+              4.0,
+              9.4,
+              19.0,
+              23.4
+            ]
+          ],
+          "uitleg": "Het persoonlijk perspectief gaat over je eigen gevoel en herinneringen bij een werk."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Vak C staat voor het perspectief van [[*musea en galerieën|de kunstcritici|het grote publiek]]. Vak E staat voor het perspectief van [[*het grote publiek|de musea|de veiling]].",
+          "uitleg": "Musea bepalen mee wat als belangrijk geldt. Het publiek reageert met massa's tegelijk.",
+          "afbeelding_url": "/examenvormen/kunst-filosofie-beyond/vijf-blikken.svg"
+        },
+        {
+          "type": "tabel",
+          "vraag": "Hoort dit vak bij het persoonlijk perspectief of bij het derde persoonsperspectief?",
+          "rijen": [
+            "vak A",
+            "vak B",
+            "vak C",
+            "vak E"
+          ],
+          "antwoord": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "uitleg": "Critici, publiek en musea horen bij het derde persoonsperspectief, de meer objectieve observatie. Het economisch perspectief is een apart perspectief.",
+          "kolommen": [
+            "persoonlijk",
+            "derde persoon"
+          ],
+          "afbeelding_url": "/examenvormen/kunst-filosofie-beyond/vijf-blikken.svg"
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Welke richtvraag beantwoord je?",
+          "kolommen": [
+            "hoe en waarmee?",
+            "wat?",
+            "waarvoor?",
+            "wie, waar en wanneer?"
+          ],
+          "items": [
+            [
+              "olieverf op doek, dikke toetsen",
+              "hoe en waarmee?"
+            ],
+            [
+              "een moeder met een kind in een keuken",
+              "wat?"
+            ],
+            [
+              "om gelovigen het verhaal uit te leggen",
+              "waarvoor?"
+            ],
+            [
+              "geschilderd in 1937 in Parijs",
+              "wie, waar en wanneer?"
+            ],
+            [
+              "trage maat, lage tonen, mineur",
+              "hoe en waarmee?"
+            ],
+            [
+              "om mensen te overtuigen soldaat te worden",
+              "waarvoor?"
+            ]
+          ],
+          "uitleg": "Middelen van vormgeving, inhoud, functie en context: de vier richtvragen."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel de beïnvloedende factor aan het voorbeeld.",
+          "paren": [
+            [
+              "tijd en ruimte",
+              "een werk dat in 1863 schokte, is nu een meesterwerk"
+            ],
+            [
+              "veranderende kennis en technologie",
+              "een röntgenfoto toont een ouder schilderij eronder"
+            ],
+            [
+              "modetrends",
+              "een vergeten stijl wordt plots weer populair"
+            ],
+            [
+              "persoonlijk referentiekader",
+              "een pianist hoort meer in een concert"
+            ]
+          ],
+          "extra": [
+            "het merk van de lamp in het museum"
+          ],
+          "uitleg": "Dat zijn de vier factoren die een interpretatie beïnvloeden."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over de kunstanalyse?",
+          "rijen": [
+            "Je begint best met beschrijven wat je ziet, nog zonder oordeel.",
+            "De richtvragen werken ook voor dans, muziek en film.",
+            "Het materiaal van een beeld heeft geen invloed op hoe je het ervaart.",
+            "In een goede analyse kijk je nooit naar de tijd waarin het werk ontstond."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            false
+          ],
+          "uitleg": "Eerst beschrijven, dan analyseren en interpreteren. De context hoort er altijd bij."
+        },
+        {
+          "casus": "In een museum hangt een groot schilderij uit 1937. Het is enkel in zwart, wit en grijs. Je ziet gebroken lichamen, een schreeuwend paard, een moeder met een dood kind en een lamp die fel brandt. De schilder maakte het na het bombardement op een Spaans stadje, voor een wereldtentoonstelling in Parijs.",
+          "vragen": [
+            {
+              "type": "tabel",
+              "vraag": "Bij welke richtvraag hoort dit?",
+              "rijen": [
+                "enkel zwart, wit en grijs",
+                "een moeder met een dood kind",
+                "de gruwel van een bombardement aanklagen",
+                "1937, Parijs, de Spaanse Burgeroorlog"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "uitleg": "Zo beantwoord je de vier richtvragen bij één werk.",
+              "kolommen": [
+                "hoe en waarmee?",
+                "wat?",
+                "waarvoor?",
+                "wie, waar en wanneer?"
+              ]
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Welke uitspraak toont de samenhang tussen de vier richtvragen?",
+              "opties": [
+                "een oorlog leidt tot een aanklacht in grijze tinten",
+                "de kleuren zijn toevallig gekozen en zeggen niets",
+                "de grootte van het doek bepaalt de prijs op een veiling",
+                "het werk is mooi omdat het in een museum hangt"
+              ],
+              "antwoord": 0,
+              "uitleg": "Context (oorlog), functie (aanklacht) en vormgeving (geen kleur, gebroken vormen) horen samen."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "Een bezoeker die zelf een oorlog meemaakte, voelt bij dit werk iets anders dan een andere bezoeker. Dat komt door het [[*persoonlijk referentiekader|economisch perspectief|perspectief van de critici]].",
+              "uitleg": "Je eigen ervaringen kleuren hoe je een werk ziet."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een werk van Van Gogh verkocht bijna niet tijdens zijn leven. Vandaag staan er lange rijen. Wat toont dit?",
+          "opties": [
+            "waardering verandert met de tijd",
+            "Van Gogh schilderde zijn werken na zijn dood opnieuw",
+            "zijn werken waren vroeger veel kleiner dan nu",
+            "onverkochte kunst blijft altijd onbekend"
+          ],
+          "antwoord": 0,
+          "uitleg": "Critici, musea en publiek veranderen samen hoe een werk gewaardeerd wordt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een bericht over een kunstwerk gaat viraal en duizenden mensen gaan het zien. Welk perspectief speelt hier vooral?",
+          "opties": [
+            "het grote publiek",
+            "de kunstcritici in de krant",
+            "het persoonlijk perspectief van één kijker",
+            "de opdrachtgever van het werk"
+          ],
+          "antwoord": 0,
+          "uitleg": "De reactie van heel veel mensen samen bepaalt hier de aandacht."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over interpretatie?",
+          "rijen": [
+            "Twee mensen kunnen hetzelfde werk heel anders interpreteren.",
+            "De betekenis van een werk ligt voor altijd vast.",
+            "Een hoge veilingprijs bewijst dat een werk het mooiste van zijn tijd is.",
+            "Het publiek kan een werk bekend maken, ook als critici het minder goed vinden."
+          ],
+          "antwoord": [
+            true,
+            false,
+            false,
+            true
+          ],
+          "uitleg": "Interpretatie en waardering zijn niet vast en hangen af van wie kijkt."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Bij een beeld stel je de vraag of het [[gehouwen]], gegoten of geboetseerd is: dat hoort bij de [[techniek]].",
+          "extra": [
+            "onderwerp",
+            "functie"
+          ],
+          "uitleg": "Bij beeldhouwkunst kun je wegnemen, toevoegen, gieten of samenvoegen."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet de stappen van een kunstanalyse in een logische volgorde.",
+          "opties": [
+            "goed kijken en beschrijven wat je ziet",
+            "de middelen van vormgeving analyseren",
+            "de functie en de context zoeken",
+            "de samenhang uitleggen en je eigen oordeel onderbouwen"
+          ],
+          "uitleg": "Van beschrijven naar analyseren, interpreteren en pas op het einde oordelen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een affiche uit 1914 toont een soldaat die naar de kijker wijst: 'Jouw land heeft je nodig'. Welke functie heeft dit werk?",
+          "opties": [
+            "politiek",
+            "decoratief, om een kamer te versieren",
+            "religieus, om het geloof uit te leggen",
+            "ontspannend, om de kijker te laten lachen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Propaganda wil overtuigen. De wijzende vinger spreekt de kijker rechtstreeks aan."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een museum hangt een onbekende kunstenaar in zijn grootste zaal. Daardoor lijkt het werk meteen [[*belangrijker|minder waard|ouder]]. Dat toont de invloed van [[*musea en galerieën|het persoonlijk referentiekader|modetrends]].",
+          "uitleg": "Wat musea tonen of kopen, krijgt meer aandacht en waardering."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe heet alles wat je meebrengt als kijker: je ervaringen, je opvoeding, je kennis en je smaak? Je persoonlijk ...",
+          "antwoord": [
+            "referentiekader"
+          ],
+          "uitleg": "Het referentiekader kleurt hoe je een werk ziet."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welk perspectief spreekt hier?",
+          "rijen": [
+            "'Dit werk maakt me rustig, het doet me denken aan de zee.'",
+            "'De verkoop van deze kunstenaar is in een jaar verdrievoudigd.'",
+            "'De compositie is sterk, maar de kleuren zijn vlak.'"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Persoonlijk gevoel, marktwaarde en een onderbouwd oordeel zijn drie verschillende perspectieven.",
+          "kolommen": [
+            "persoonlijk",
+            "economisch",
+            "criticus"
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom is het nuttig om vanuit meerdere perspectieven over een werk na te denken?",
+          "opties": [
+            "de betekenis hangt niet van één mening af",
+            "zo bewijs je dat jouw mening de enige juiste is",
+            "dan hoef je zelf niet meer naar het werk te kijken",
+            "zo ken je meteen de veilingprijs van het werk"
+          ],
+          "antwoord": 0,
+          "uitleg": "Door perspectieven te vergelijken, onderbouw je je eigen mening beter."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Bij muziek zijn tempo en klankkleur antwoorden op de richtvraag [[*hoe en waarmee?|waarvoor?|wie, waar en wanneer?]]. Of het lied voor een begrafenis geschreven werd, hoort bij [[*waarvoor?|hoe en waarmee?|wat?]].",
+          "uitleg": "Bouwstenen horen bij hoe en waarmee, het doel bij waarvoor."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je noteert bij een beeld: koud, glad wit marmer. Welke richtvraag beantwoord je?",
+          "opties": [
+            "hoe en waarmee?",
+            "wat?",
+            "waarvoor?",
+            "wie, waar en wanneer?"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het materiaal is een middel van vormgeving."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een kunsthistoricus leest in een brief van de schilder wat hij met een werk bedoelde. Welke factor kan de interpretatie dan veranderen?",
+          "opties": [
+            "veranderende kennis",
+            "modetrends in de kunstmarkt",
+            "het persoonlijk referentiekader van de schilder",
+            "de prijs van het ticket"
+          ],
+          "antwoord": 0,
+          "uitleg": "Nieuwe kennis over een werk kan de manier veranderen waarop we het begrijpen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is dit een beschrijving of al een oordeel?",
+          "rijen": [
+            "Op de voorgrond staan drie figuren in een driehoek.",
+            "Dit is het mooiste schilderij van de zaal.",
+            "De achtergrond is donker, het licht valt van links.",
+            "De kleuren zijn lelijk gekozen."
+          ],
+          "antwoord": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "uitleg": "In een analyse beschrijf je eerst, zonder oordeel. Een oordeel onderbouw je op het einde.",
+          "kolommen": [
+            "beschrijving",
+            "oordeel"
+          ]
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een kunstwerk uit Japan wordt in België anders begrepen dan in Japan. Dat komt door de factor [[*tijd en ruimte|modetrends|technologie]]. Een kijker die Japans leerde, begrijpt de tekens op het werk wel, door zijn [[*persoonlijk referentiekader|economisch perspectief|museum]].",
+          "uitleg": "Plaats en eigen kennis beïnvloeden allebei de interpretatie."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke vraag hoort bij de richtvraag wie, waar en wanneer?",
+          "opties": [
+            "in welke stad en eeuw ontstond het werk?",
+            "met welke kleuren is het werk geschilderd?",
+            "wat stelt het werk precies voor?",
+            "waarvoor werd het werk gemaakt?"
+          ],
+          "antwoord": 0,
+          "uitleg": "Wie, waar en wanneer is de context."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over het economisch perspectief?",
+          "rijen": [
+            "Een hoge veilingprijs kan de vraag naar werk van dezelfde kunstenaar doen stijgen.",
+            "Het economisch perspectief kijkt naar waarde, verkoop en marktimpact.",
+            "Het economisch perspectief is hetzelfde als je eigen gevoel bij een werk."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Het economisch perspectief staat naast het persoonlijke en het derde persoonsperspectief."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een dansvoorstelling: dansers bewegen traag en raken elkaar telkens even aan, onder blauw licht. Welke richtvraag beantwoord je met die zin?",
+          "opties": [
+            "hoe en waarmee?",
+            "waarvoor?",
+            "wie, waar en wanneer?",
+            "wat is de prijs?"
+          ],
+          "antwoord": 0,
+          "uitleg": "Tempo, relatie en licht zijn middelen van vormgeving."
+        },
+        {
+          "type": "open",
+          "vraag": "Kies een kunstwerk en leg uit hoe de interpretatie ervan kan veranderen door de tijd en door nieuwe technologie.",
+          "antwoord": "Een schilderij dat vroeger schokkend gevonden werd, zoals een naakt in een gewone omgeving, lijkt vandaag minder vreemd. De tijd veranderde wat mensen gewoon vinden. Nieuwe technologie, zoals röntgenfoto's, kan tonen dat de schilder iets overschilderde. Daardoor begrijpen we beter hoe hij werkte en wat hij bedoelde."
+        }
+      ]
+    },
+    {
       "titel": "De eigenheid van de filosofie — pittig",
       "niveau": "beyond-doorstroom",
       "gratis": false,
@@ -6395,6 +7252,418 @@
       ]
     },
     {
+      "titel": "Zijnsleer: schijn en werkelijkheid, worden en zijn — pittig",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het schema dat past bij Plato.",
+          "afbeelding_url": "/examenvormen/kunst-filosofie-beyond/drie-werkelijkheden.svg",
+          "zones": [
+            [
+              35.5,
+              10.9,
+              29.0,
+              73.4
+            ]
+          ],
+          "uitleg": "Bij Plato bestaat de ware werkelijkheid in een aparte wereld van ideeën. De zichtbare wereld is daar een schaduw van."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het schema dat past bij Parmenides.",
+          "afbeelding_url": "/examenvormen/kunst-filosofie-beyond/drie-werkelijkheden.svg",
+          "zones": [
+            [
+              3.0,
+              10.9,
+              29.0,
+              73.4
+            ]
+          ],
+          "uitleg": "Voor Parmenides is het zijn één en onveranderlijk. Verandering is schijn: daarom zijn de pijlen doorgestreept."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het schema dat past bij Aristoteles.",
+          "afbeelding_url": "/examenvormen/kunst-filosofie-beyond/drie-werkelijkheden.svg",
+          "zones": [
+            [
+              68.0,
+              10.9,
+              29.0,
+              73.4
+            ]
+          ],
+          "uitleg": "Voor Aristoteles zit de vorm in de dingen zelf. Worden is de overgang van mogelijkheid naar werkelijkheid."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Schema B toont een [[*transcendente|immanente]] visie: de ware werkelijkheid ligt buiten de dingen. Schema C toont een [[*immanente|transcendente]] visie.",
+          "uitleg": "Plato plaatst de ideeën los van de dingen, Aristoteles legt de vorm in de dingen.",
+          "afbeelding_url": "/examenvormen/kunst-filosofie-beyond/drie-werkelijkheden.svg"
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Welke denker past bij deze uitspraak?",
+          "kolommen": [
+            "Parmenides",
+            "Plato",
+            "Aristoteles",
+            "Kant"
+          ],
+          "items": [
+            [
+              "Verandering is schijn, het zijn is één.",
+              "Parmenides"
+            ],
+            [
+              "De zichtbare wereld is een afbeelding van de ideeënwereld.",
+              "Plato"
+            ],
+            [
+              "Een eikel is in mogelijkheid een eik.",
+              "Aristoteles"
+            ],
+            [
+              "We kennen enkel de verschijnselen, niet het ding op zich.",
+              "Kant"
+            ],
+            [
+              "Het denken toont dat het zijn niet kan ontstaan of vergaan.",
+              "Parmenides"
+            ],
+            [
+              "Ons verstand ordent de ervaring met ruimte, tijd en oorzaak.",
+              "Kant"
+            ]
+          ],
+          "uitleg": "Vier denkers met vier antwoorden op de vraag wat werkelijk is."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel het begrip aan de denker die het in dit thema vertegenwoordigt.",
+          "paren": [
+            [
+              "noodzakelijkheid",
+              "Spinoza"
+            ],
+            [
+              "toeval in oorzaak en gevolg",
+              "Hume"
+            ],
+            [
+              "doelgerichtheid in de geschiedenis",
+              "Hegel"
+            ],
+            [
+              "het ding op zich",
+              "Kant"
+            ]
+          ],
+          "extra": [
+            "Montesquieu"
+          ],
+          "uitleg": "Montesquieu hoort bij de scheiding der machten, niet bij de zijnsleer."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over de zijnsleer?",
+          "rijen": [
+            "De zijnsleer of ontologie onderzoekt wat de werkelijkheid ten diepste is.",
+            "Transcendent betekent: binnen de wereld van de dingen zelf.",
+            "Voor Spinoza bestaat er echt toeval in de natuur.",
+            "Voor existentialisten heeft het leven niet vanzelf een vaste zin."
+          ],
+          "antwoord": [
+            true,
+            false,
+            false,
+            true
+          ],
+          "uitleg": "Transcendent is wat erboven of erbuiten ligt. Voor Spinoza is toeval onwetendheid over de oorzaken."
+        },
+        {
+          "casus": "Lotte ziet 's avonds op een verlaten weg iets wat op een hond lijkt. Bij nader inzien is het een struik in de wind. Ze vraagt zich af: 'Hoe weet ik ooit of wat ik zie, echt zo is?'",
+          "vragen": [
+            {
+              "type": "meerkeuze",
+              "vraag": "Welk begrippenpaar uit de zijnsleer speelt hier?",
+              "opties": [
+                "schijn en werkelijkheid",
+                "worden en zijn",
+                "noodzaak en doel",
+                "individu en gemeenschap"
+              ],
+              "antwoord": 0,
+              "uitleg": "Wat Lotte waarnam, was niet hoe het echt was."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "Parmenides zou zeggen dat de [[*zintuigen|rede|ideeën]] ons kunnen bedriegen. Kant zou zeggen dat we het [[*ding op zich|idee van de hond|zijn van Parmenides]] nooit rechtstreeks kennen.",
+              "uitleg": "Voor Parmenides leidt het denken, niet de waarneming, naar de waarheid. Kant trekt een grens aan wat we kunnen kennen."
+            },
+            {
+              "type": "tabel",
+              "vraag": "Wie zegt dit?",
+              "rijen": [
+                "De echte hond bestaat in een eeuwige wereld van ideeën.",
+                "Ons verstand ordent alles wat we zien.",
+                "De zichtbare struik is maar een afbeelding van iets volmaakters."
+              ],
+              "antwoord": [
+                0,
+                1,
+                0
+              ],
+              "uitleg": "Plato zoekt de werkelijkheid in de ideeën, Kant in hoe ons verstand de ervaring vormt.",
+              "kolommen": [
+                "Plato",
+                "Kant"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een rups wordt een vlinder. Hoe zou Parmenides dat bekijken?",
+          "opties": [
+            "de verandering is schijn",
+            "de rups verwerkelijkt haar mogelijkheid",
+            "de vlinder is een schaduw van het idee vlinder",
+            "het is puur toeval zonder enige oorzaak"
+          ],
+          "antwoord": 0,
+          "uitleg": "Voor Parmenides kan het zijn niet echt veranderen. Het tweede antwoord past bij Aristoteles, het derde bij Plato."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Hoort dit bij noodzakelijkheid, toeval of doelgerichtheid?",
+          "rijen": [
+            "Alles volgt uit God of de natuur, niets kon anders.",
+            "We zien enkel dat het ene op het andere volgt.",
+            "Elk ding streeft naar de verwerkelijking van zijn aard.",
+            "Mijn bestaan heeft geen vooraf gegeven plan.",
+            "De geschiedenis gaat naar het besef van vrijheid."
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            1,
+            2
+          ],
+          "uitleg": "Spinoza: noodzaak. Hume en Sartre: toeval. Aristoteles en Hegel: doelgerichtheid.",
+          "kolommen": [
+            "noodzakelijkheid",
+            "toeval",
+            "doelgerichtheid"
+          ]
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Voor Spinoza is vrijheid [[*inzicht in de noodzaak|het ontbreken van oorzaken|kiezen zonder reden]]. Wie begrijpt waarom alles gebeurt, wordt minder gedreven door [[*angst en blinde emoties|de rede|kennis]].",
+          "uitleg": "Vrijheid is voor Spinoza inzicht, niet het ontbreken van oorzaken."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom noemt men de noodzaak bij Hume eerder een gewoonte van onze geest?",
+          "opties": [
+            "de noodzakelijke band zien we nooit zelf",
+            "Hume vond dat oorzaken niet bestaan",
+            "Hume geloofde dat God elke oorzaak bepaalt",
+            "de geest bepaalt wat er in de natuur gebeurt"
+          ],
+          "antwoord": 0,
+          "uitleg": "We zien dat vuur en warmte steeds samen gaan, maar de noodzaak zelf nemen we niet waar."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Voor Sartre gaat de [[existentie]] vooraf aan de essentie. Het bestaan van de mens is [[toevallig]] en heeft geen vooraf gegeven doel.",
+          "extra": [
+            "noodzakelijk",
+            "transcendent"
+          ],
+          "uitleg": "De mens moet zelf zin geven aan zijn bestaan."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Camus vergelijkt de mens met Sisyphus, die eindeloos een steen de berg op rolt. Wat wil hij daarmee tonen?",
+          "opties": [
+            "het absurde: zin zoeken in een zwijgende wereld",
+            "dat zwaar werk altijd beloond wordt door de goden",
+            "dat alles in de wereld een vast doel heeft",
+            "dat elke oorzaak noodzakelijk een gevolg heeft"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het absurde is de botsing tussen de mens die naar zin zoekt en een wereld die zwijgt."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe heet de leer dat dingen gericht zijn op een doel?",
+          "antwoord": [
+            "teleologie",
+            "doelgerichtheid"
+          ],
+          "uitleg": "Telos is Grieks voor doel."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe heet bij Kant de werkelijkheid zoals ze in zichzelf is, die we niet kunnen kennen? Het ding op ...",
+          "antwoord": [
+            "zich"
+          ],
+          "uitleg": "Wij kennen enkel de verschijnselen."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet deze denkers in de juiste volgorde in de tijd.",
+          "opties": [
+            "Parmenides",
+            "Plato",
+            "Aristoteles",
+            "Spinoza",
+            "Hume",
+            "Kant",
+            "Hegel",
+            "Sartre"
+          ],
+          "uitleg": "Van de Griekse oudheid via de 17de en 18de eeuw naar de 19de en 20ste eeuw."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Immanent of transcendent?",
+          "rijen": [
+            "de ideeën van Plato, los van de dingen",
+            "de vorm in de dingen bij Aristoteles",
+            "wat bij Kant buiten elke mogelijke ervaring ligt"
+          ],
+          "antwoord": [
+            1,
+            0,
+            1
+          ],
+          "uitleg": "Immanent ligt binnen de wereld, transcendent erbuiten.",
+          "kolommen": [
+            "immanent",
+            "transcendent"
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Iemand zegt: 'Alles in mijn leven moest zo gebeuren, en wie alle oorzaken kent, begrijpt het.' Welke denker spreekt zo?",
+          "opties": [
+            "Spinoza",
+            "Sartre",
+            "Camus",
+            "Aristoteles"
+          ],
+          "antwoord": 0,
+          "uitleg": "Dat is het idee van noodzakelijkheid."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Iemand zegt: 'Er is geen plan voor mij. Ik besta toevallig en moet zelf kiezen wat ik ervan maak.' Bij welke denker past dit?",
+          "opties": [
+            "Sartre",
+            "Spinoza",
+            "Hegel",
+            "Plato"
+          ],
+          "antwoord": 0,
+          "uitleg": "Toeval van het bestaan en eigen keuze zijn typisch voor het existentialisme van Sartre."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over Aristoteles en Hegel?",
+          "rijen": [
+            "Voor Aristoteles is het doel of telos de laatste oorzaak van een ding.",
+            "Hegel ziet de geschiedenis als een kring die zich eindeloos herhaalt.",
+            "Voor Hegel ontwikkelt de geest zich via tegenstellingen."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Hegel ziet de geschiedenis als een proces met een richting: naar het bewustzijn van vrijheid."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Waarom zijn zijnsleer en kenleer verbonden? Als de zintuigen [[*kunnen misleiden|nooit misleiden|enkel kunst tonen]], moet je weten hoe je toch tot ware kennis komt.",
+          "uitleg": "Wat is er, en hoe kunnen we dat weten: twee vragen die samenhangen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke uitspraak past bij het existentialisme?",
+          "opties": [
+            "de mens moet zelf betekenis geven",
+            "alles in het leven ligt vast in de natuur",
+            "de sterren bepalen wie je wordt",
+            "wie niet nadenkt, is het gelukkigst"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij Sartre, Camus en De Beauvoir staan eigen keuze en verantwoordelijkheid centraal."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat bedoelt Aristoteles met worden?",
+          "opties": [
+            "mogelijkheid die werkelijkheid wordt",
+            "schijn die de zintuigen ons voorspiegelen",
+            "het afglijden van ideeën naar schaduwen",
+            "toeval zonder enige richting of oorzaak"
+          ],
+          "antwoord": 0,
+          "uitleg": "Worden is voor Aristoteles echt en begrijpelijk: wat in mogelijkheid is, wordt werkelijk."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Hoort dit bij worden of bij zijn?",
+          "rijen": [
+            "wat blijft en onveranderlijk is",
+            "verandering, groei en vergaan",
+            "de eeuwige ideeën van Plato",
+            "de zichtbare wereld die voortdurend verandert"
+          ],
+          "antwoord": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "uitleg": "Worden staat voor verandering, zijn voor wat blijft.",
+          "kolommen": [
+            "worden",
+            "zijn"
+          ]
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Kant trekt een grens: wat buiten de mogelijke [[*ervaring|rede|kunst]] ligt, zoals God of de ziel, kunnen we niet [[*kennen|denken|geloven]].",
+          "uitleg": "Kennis blijft voor Kant binnen de grenzen van de ervaring."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom past de grotallegorie bij het begrippenpaar schijn en werkelijkheid?",
+          "opties": [
+            "de schaduwen zijn schijn, het zonlicht is werkelijkheid",
+            "de grot is de echte wereld en buiten is schijn",
+            "de gevangenen zien de ideeën rechtstreeks op de wand",
+            "het verhaal gaat vooral over toeval en noodzaak in de grot"
+          ],
+          "antwoord": 0,
+          "uitleg": "Wie de grot verlaat, ziet de dingen zelf in plaats van hun schaduw."
+        },
+        {
+          "type": "open",
+          "vraag": "Formuleer een filosofische vraag over de zijnsleer en geef een argument voor en tegen een antwoord.",
+          "antwoord": "Vraag: bestaat er toeval, of moest alles zo gebeuren? Argument voor noodzaak: elke gebeurtenis heeft een oorzaak, en wie alle oorzaken kent, kan alles verklaren (Spinoza). Argument tegen: we zien nooit de noodzakelijke band zelf, enkel dat dingen op elkaar volgen (Hume). Ook ons eigen bestaan lijkt toevallig en zonder vooraf gegeven doel (Sartre)."
+        }
+      ]
+    },
+    {
       "titel": "Bronnen van kennis, rationalisme en empirisme — pittig",
       "niveau": "beyond-doorstroom",
       "gratis": false,
@@ -7865,6 +9134,832 @@
             "veralgemening"
           ],
           "uitleg": "Te weinig gevallen voor een besluit over een hele groep: dezelfde zwakte als bij een te snelle inductie."
+        }
+      ]
+    },
+    {
+      "titel": "Politieke filosofie: individu, gemeenschap en legitimiteit — pittig",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "Hobbes schreef Leviathan tijdens de Engelse burgeroorlog. Klik op dat jaar.",
+          "afbeelding_url": "/examenvormen/kunst-filosofie-beyond/tijdlijn-politieke-denkers.svg",
+          "zones": [
+            [
+              15.1,
+              30.3,
+              7.2,
+              11.2
+            ]
+          ],
+          "uitleg": "Leviathan verscheen in 1651."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het jaar van het Communistisch Manifest van Marx en Engels.",
+          "afbeelding_url": "/examenvormen/kunst-filosofie-beyond/tijdlijn-politieke-denkers.svg",
+          "zones": [
+            [
+              56.5,
+              19.4,
+              7.2,
+              11.2
+            ]
+          ],
+          "uitleg": "Het Communistisch Manifest verscheen in 1848, in de tijd van de industriële revolutie."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het jaar waarin Rawls A Theory of Justice schreef.",
+          "afbeelding_url": "/examenvormen/kunst-filosofie-beyond/tijdlijn-politieke-denkers.svg",
+          "zones": [
+            [
+              82.3,
+              19.4,
+              7.2,
+              11.2
+            ]
+          ],
+          "uitleg": "Rawls schreef het in 1971 in de Verenigde Staten. Het communitarisme reageerde er in de jaren 1980 op."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Punt B past bij [[*Locke|Schmitt|Rawls]], de grondlegger van het liberalisme. Punt E past bij [[*Schmitt|Rousseau|Hobbes]], een Duitse rechtsgeleerde uit de 20ste eeuw.",
+          "uitleg": "Locke schreef in de 17de eeuw in Engeland, Schmitt in de 20ste eeuw in Duitsland.",
+          "afbeelding_url": "/examenvormen/kunst-filosofie-beyond/tijdlijn-politieke-denkers.svg"
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Rousseau, die schreef over de algemene wil, past bij punt [[*C|A|E]]. Aristoteles staat niet op deze tijdlijn, want hij leefde [[*in de 4de eeuw voor Christus|in de 19de eeuw|na Rawls]].",
+          "uitleg": "Rousseau schreef Het sociaal contract in 1762.",
+          "afbeelding_url": "/examenvormen/kunst-filosofie-beyond/tijdlijn-politieke-denkers.svg"
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Bij welke ideologie past deze uitspraak?",
+          "kolommen": [
+            "liberalisme",
+            "egalitair liberalisme",
+            "socialisme",
+            "communitarisme"
+          ],
+          "items": [
+            [
+              "De staat moet vooral de vrijheid en het eigendom van het individu beschermen.",
+              "liberalisme"
+            ],
+            [
+              "Vrijheid, maar ook eerlijke kansen voor wie arm geboren wordt.",
+              "egalitair liberalisme"
+            ],
+            [
+              "De ongelijkheid tussen klassen moet weg.",
+              "socialisme"
+            ],
+            [
+              "Het individu wordt gevormd door zijn gemeenschap en haar tradities.",
+              "communitarisme"
+            ],
+            [
+              "Een beperkte staat, met natuurlijke rechten op leven, vrijheid en eigendom.",
+              "liberalisme"
+            ],
+            [
+              "Gedeelde waarden geven mensen hun identiteit.",
+              "communitarisme"
+            ]
+          ],
+          "uitleg": "Vier ideologieën met een ander antwoord op de vraag: individu of gemeenschap?"
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel de ideologie aan haar grondlegger of bekende denker.",
+          "paren": [
+            [
+              "liberalisme",
+              "John Locke"
+            ],
+            [
+              "socialisme",
+              "Karl Marx"
+            ],
+            [
+              "egalitair liberalisme",
+              "John Rawls"
+            ],
+            [
+              "communitarisme",
+              "Michael Sandel"
+            ]
+          ],
+          "extra": [
+            "Carl Schmitt"
+          ],
+          "uitleg": "Schmitt hoort bij het thema legitimiteit, niet bij een van deze vier ideologieën."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over Locke en Rousseau?",
+          "rijen": [
+            "Locke ziet de mens in de natuurtoestand als vrij en gelijk.",
+            "Rousseau legt meer nadruk op de gemeenschap dan Locke.",
+            "De algemene wil is bij Rousseau de optelsom van alle eigenbelangen.",
+            "Volgens Locke mag het volk nooit in verzet komen tegen de regering."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            false
+          ],
+          "uitleg": "De algemene wil is gericht op het algemeen belang. Locke aanvaardt verzet als de regering de natuurlijke rechten schendt."
+        },
+        {
+          "casus": "Een gemeente wil een oud park omvormen tot een parking. Een winkelier wil meer klanten en vindt dat elke eigenaar zelf moet kunnen beslissen. Buurtbewoners zeggen dat het park al honderd jaar het hart van de buurt is, waar feesten en markten plaatsvinden.",
+          "vragen": [
+            {
+              "type": "tabel",
+              "vraag": "Wie legt hier de nadruk op het individu en wie op de gemeenschap?",
+              "rijen": [
+                "de winkelier die zelf wil beslissen",
+                "de buurtbewoners met hun feesten en markten",
+                "een eigenaar die zijn grond vrij wil verkopen"
+              ],
+              "antwoord": [
+                0,
+                1,
+                0
+              ],
+              "uitleg": "In het politiek debat botsen eigen belang en gedeeld belang vaak.",
+              "kolommen": [
+                "individu",
+                "gemeenschap"
+              ]
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Bij welke ideologie past de houding van de buurtbewoners het best?",
+              "opties": [
+                "communitarisme",
+                "klassiek liberalisme",
+                "egalitair liberalisme",
+                "absolutisme"
+              ],
+              "antwoord": 0,
+              "uitleg": "Gedeelde tradities en de gemeenschap staan centraal."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "De winkelier zou steun vinden bij [[*Locke|Rousseau|Sandel]], die de rechten van het individu, zoals eigendom, voorop stelt. De buurt zou eerder verwijzen naar de [[*algemene wil|oorlog van allen tegen allen|uitzonderingstoestand]] van Rousseau.",
+              "uitleg": "Locke staat voor het individu, Rousseau voor het algemeen belang."
+            }
+          ]
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Welke denker past bij deze visie op legitimiteit?",
+          "kolommen": [
+            "Aristoteles",
+            "Hobbes",
+            "Schmitt"
+          ],
+          "items": [
+            [
+              "Een bestuur is goed als het het algemeen belang dient.",
+              "Aristoteles"
+            ],
+            [
+              "Mensen staan hun vrijheid af aan een vorst in ruil voor veiligheid.",
+              "Hobbes"
+            ],
+            [
+              "Soeverein is wie beslist over de uitzonderingstoestand.",
+              "Schmitt"
+            ],
+            [
+              "De mens is van nature een politiek dier.",
+              "Aristoteles"
+            ],
+            [
+              "Zonder staat is het leven eenzaam, arm, gemeen, wreed en kort.",
+              "Hobbes"
+            ],
+            [
+              "Het politieke draait om het onderscheid tussen vriend en vijand.",
+              "Schmitt"
+            ]
+          ],
+          "uitleg": "Drie denkers uit drie tijden over wat macht terecht maakt."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Goede of ontaarde vorm van bestuur volgens Aristoteles?",
+          "rijen": [
+            "koningschap",
+            "tirannie",
+            "aristocratie",
+            "oligarchie"
+          ],
+          "antwoord": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "uitleg": "Een goede vorm dient het algemeen belang, een ontaarde vorm het eigenbelang van de heersers.",
+          "kolommen": [
+            "goed",
+            "ontaard"
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een leger neemt de macht over. Burgers gehoorzamen enkel uit angst. Wat ontbreekt hier volgens de meeste filosofen?",
+          "opties": [
+            "legitimiteit",
+            "macht van het leger",
+            "een sterk leger",
+            "geweld op straat"
+          ],
+          "antwoord": 0,
+          "uitleg": "Er is wel macht, maar geen aanvaarding of goede grond: geen legitieme macht."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Hobbes beschrijft de sterke staat in het boek [[*Leviathan|Politica|Het sociaal contract]], genoemd naar een [[*zeemonster|Griekse god|Romeinse keizer]].",
+          "uitleg": "Leviathan verscheen in 1651."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom zeggen communitaristen dat het individu bij Rawls te los staat?",
+          "opties": [
+            "het kiest zonder zijn gemeenschap te kennen",
+            "Rawls wil dat iedereen alleen op een eiland gaat wonen",
+            "Rawls vindt dat mensen geen rechten mogen hebben",
+            "Rawls schreef enkel over dieren en machines"
+          ],
+          "antwoord": 0,
+          "uitleg": "Achter de sluier van onwetendheid ken je je plaats en gemeenschap niet. Communitaristen vinden dat te abstract."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over Hobbes en Schmitt?",
+          "rijen": [
+            "Allebei geven ze een sterke staat veel macht.",
+            "Allebei leggen ze de nadruk op orde en veiligheid.",
+            "Allebei leefden ze in de klassieke oudheid."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Hobbes leefde in de 17de eeuw, Schmitt in de 20ste eeuw."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Voor Hobbes is de macht legitiem omdat ze [[veiligheid]] brengt. Voor Aristoteles is een bestuur goed als het het [[algemeen]] belang dient.",
+          "extra": [
+            "vriend",
+            "eigen"
+          ],
+          "uitleg": "Twee verschillende gronden voor legitimiteit."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een regering roept de noodtoestand uit en schort rechten op. Iemand zegt: 'Nu zie je wie echt de macht heeft.' Bij wie past dit?",
+          "opties": [
+            "Schmitt",
+            "Aristoteles",
+            "Locke",
+            "Sandel"
+          ],
+          "antwoord": 0,
+          "uitleg": "Voor Schmitt toont de uitzonderingstoestand wie de soeverein is."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe heet bij Rousseau de wil van de burgers samen, gericht op het algemeen belang? De ... wil",
+          "antwoord": [
+            "algemene"
+          ],
+          "uitleg": "Die is meer dan de som van de eigenbelangen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe heet bij Aristoteles de mens als wezen dat van nature in een gemeenschap leeft? Zoön ...",
+          "antwoord": [
+            "politikon"
+          ],
+          "uitleg": "Zoön politikon betekent politiek dier."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke ideologie ontstond als reactie op de harde omstandigheden van arbeiders tijdens de industriële revolutie?",
+          "opties": [
+            "socialisme",
+            "communitarisme",
+            "liberalisme",
+            "egalitair liberalisme"
+          ],
+          "antwoord": 0,
+          "uitleg": "Lange werkdagen, kinderarbeid en armoede leidden tot de vraag naar meer gelijkheid."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een macht is legitiem als burgers ze als [[*terecht en aanvaardbaar|sterk en angstaanjagend|rijk en oud]] zien. Dan volgen ze de regels ook zonder [[*dwang|wetten|verkiezingen]].",
+          "uitleg": "Zonder legitimiteit moet een macht steeds meer geweld gebruiken."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet deze ideologieën in de volgorde waarin ze ontstonden.",
+          "opties": [
+            "liberalisme",
+            "socialisme",
+            "egalitair liberalisme",
+            "communitarisme"
+          ],
+          "uitleg": "Locke in de 17de eeuw, Marx in de 19de eeuw, Rawls in 1971, de communitaristen in de jaren 1980."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een partij zegt: 'De sterkste schouders dragen de zwaarste lasten, zodat ook wie arm geboren wordt eerlijke kansen krijgt, maar iedereen blijft vrij.' Welke ideologie?",
+          "opties": [
+            "egalitair liberalisme",
+            "klassiek liberalisme",
+            "communitarisme",
+            "absolutisme van Hobbes"
+          ],
+          "antwoord": 0,
+          "uitleg": "Vrijheid en eerlijke kansen samen passen bij het egalitair liberalisme."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Plaats de denker in tijd en ruimte.",
+          "rijen": [
+            "Aristoteles",
+            "Hobbes",
+            "Schmitt"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Aristoteles in de 4de eeuw voor Christus, Hobbes tijdens de Engelse burgeroorlog, Schmitt in Duitsland in de 20ste eeuw.",
+          "kolommen": [
+            "oud-Griekenland",
+            "Engeland, 17de eeuw",
+            "Duitsland, 20ste eeuw"
+          ]
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Voor Aristoteles is de staat iets [[*natuurlijks|kunstmatigs|toevalligs]], want de mens is een politiek dier. Voor Hobbes is de staat eerder een [[*kunstmatig contract|natuurlijke familie|goddelijk geschenk]].",
+          "uitleg": "Bij Hobbes ontstaat de staat pas door een afspraak om de natuurtoestand te verlaten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke uitspraak past bij het klassieke liberalisme?",
+          "opties": [
+            "een beperkte staat die de vrijheid beschermt",
+            "een staat die zich met alles van de burgers bemoeit",
+            "de gemeenschap beslist over elke vrijheid",
+            "alle fabrieken worden gemeenschappelijk bezit"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het klassieke liberalisme wil het individu beschermen tegen een te sterke staat."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over legitimiteit?",
+          "rijen": [
+            "Een legitieme macht heeft gezag: mensen gehoorzamen niet enkel uit angst.",
+            "Voor Aristoteles is elk bestuur van één persoon automatisch slecht.",
+            "Voor Hobbes is de vorst legitiem zolang hij vrede en veiligheid brengt."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Koningschap is voor Aristoteles een goede vorm, zolang de koning het algemeen belang dient."
+        },
+        {
+          "type": "open",
+          "vraag": "Vergelijk de visie van Locke en Rousseau op de verhouding tussen individu en gemeenschap.",
+          "antwoord": "Locke vertrekt van het individu met natuurlijke rechten op leven, vrijheid en eigendom. De staat bestaat om die rechten te beschermen, en als hij dat niet doet, mag het volk in verzet komen. Rousseau legt meer nadruk op de gemeenschap: via het sociaal contract vormen de burgers samen de algemene wil, gericht op het algemeen belang. Bij Locke staat het individu voorop, bij Rousseau het volk als geheel."
+        }
+      ]
+    },
+    {
+      "titel": "Politieke filosofie: rechtvaardigheid, gelijkheid en vrijheid — pittig",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het beeld dat negatieve vrijheid voorstelt.",
+          "afbeelding_url": "/examenvormen/kunst-filosofie-beyond/twee-vrijheden.svg",
+          "zones": [
+            [
+              4.0,
+              10.9,
+              44.0,
+              71.9
+            ]
+          ],
+          "uitleg": "Negatieve vrijheid is vrij zijn van inmenging: de slagboom gaat open, niemand houdt je nog tegen."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het beeld dat positieve vrijheid voorstelt.",
+          "afbeelding_url": "/examenvormen/kunst-filosofie-beyond/twee-vrijheden.svg",
+          "zones": [
+            [
+              52.0,
+              10.9,
+              44.0,
+              71.9
+            ]
+          ],
+          "uitleg": "Positieve vrijheid is vrij zijn tot iets: je eigen leven sturen, soms met middelen zoals onderwijs."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Gratis onderwijs voor iedereen past het best bij beeld [[*B|A]]. Een verbod op betogen afschaffen past het best bij beeld [[*A|B]].",
+          "uitleg": "Middelen krijgen versterkt de positieve vrijheid. Een belemmering wegnemen versterkt de negatieve vrijheid.",
+          "afbeelding_url": "/examenvormen/kunst-filosofie-beyond/twee-vrijheden.svg"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk gevaar ziet Berlin bij een te sterke nadruk op het idee achter beeld B?",
+          "opties": [
+            "dwang in naam van je 'ware' vrijheid",
+            "mensen krijgen dan te weinig onderwijs en kansen",
+            "de staat verdwijnt dan helemaal en er komen geen wetten",
+            "niemand mag dan nog stemmen of zich verkiesbaar stellen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Wie beweert beter te weten wat je echt wilt, kan zo dwang goedpraten.",
+          "afbeelding_url": "/examenvormen/kunst-filosofie-beyond/twee-vrijheden.svg"
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Verdelende of herstellende rechtvaardigheid bij Aristoteles?",
+          "kolommen": [
+            "verdelend",
+            "herstellend"
+          ],
+          "items": [
+            [
+              "eer en goederen verdelen naar verdienste",
+              "verdelend"
+            ],
+            [
+              "een gebroken fiets vergoeden",
+              "herstellend"
+            ],
+            [
+              "wie meer bijdraagt, krijgt meer",
+              "verdelend"
+            ],
+            [
+              "een schade rechtzetten, wie de dader ook is",
+              "herstellend"
+            ],
+            [
+              "gelijken gelijk, ongelijken ongelijk behandelen",
+              "verdelend"
+            ]
+          ],
+          "uitleg": "Verdelende rechtvaardigheid gaat in verhouding. Herstellende rechtvaardigheid zet een onrecht recht."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel de denker aan zijn idee van het sociaal contract.",
+          "paren": [
+            [
+              "Hobbes",
+              "vrijheid afstaan voor veiligheid"
+            ],
+            [
+              "Locke",
+              "de staat beschermt leven, vrijheid en eigendom"
+            ],
+            [
+              "Rousseau",
+              "het volk bestuurt zichzelf via de algemene wil"
+            ]
+          ],
+          "extra": [
+            "de soeverein beslist over vriend en vijand"
+          ],
+          "uitleg": "Het vriend-vijandonderscheid hoort bij Schmitt, niet bij de contractdenkers."
+        },
+        {
+          "casus": "Stel: je moet de regels kiezen voor een nieuwe samenleving. Je weet niet of je er rijk of arm, gezond of ziek, man of vrouw, gelovig of niet gelovig zult zijn. Pas als de regels vastliggen, hoor je welke plaats je krijgt.",
+          "vragen": [
+            {
+              "type": "invultekst",
+              "vraag": "Hoe heet dit gedachte-experiment van Rawls? De sluier van ...",
+              "antwoord": [
+                "onwetendheid"
+              ],
+              "uitleg": "Wie zijn eigen plaats niet kent, kiest eerlijke regels voor iedereen."
+            },
+            {
+              "type": "tabel",
+              "vraag": "Welke regel zou je volgens Rawls kiezen?",
+              "rijen": [
+                "Iedereen krijgt dezelfde basisvrijheden.",
+                "Ongelijkheid mag als ze ook de minst bevoordeelden helpt.",
+                "Wie het sterkst is, beslist alles alleen."
+              ],
+              "antwoord": [
+                true,
+                true,
+                false
+              ],
+              "uitleg": "Dat zijn het vrijheidsbeginsel en het verschilbeginsel."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Waarom kies je zo voor goede zorg voor wie het slechtst af is?",
+              "opties": [
+                "je kunt zelf bij de zwaksten horen",
+                "je bent van nature heel vrijgevig en altijd goed",
+                "een sterke vorst verplicht je ertoe",
+                "je krijgt er achteraf een beloning voor van de staat"
+              ],
+              "antwoord": 0,
+              "uitleg": "Uit voorzichtigheid kies je regels die ook goed zijn als je het slechtst terechtkomt."
+            }
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Individuele of culturele politieke gelijkheid?",
+          "rijen": [
+            "één persoon, één stem, welke afkomst ook",
+            "onderwijs in de eigen taal voor een minderheid",
+            "dezelfde rechten voor elke burger",
+            "erkenning van de identiteit van een groep"
+          ],
+          "antwoord": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "uitleg": "Het liberalisme kijkt naar het individu, het communitarisme ook naar de groep en haar cultuur.",
+          "kolommen": [
+            "individueel",
+            "cultureel"
+          ]
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Volgens het schadebeginsel van [[*Mill|Rawls|Hobbes]] mag de staat je vrijheid enkel beperken om [[*schade aan anderen|schade aan jezelf|een slechte smaak]] te voorkomen.",
+          "uitleg": "Over wat enkel jezelf aangaat, beslis je zelf. Mill schreef On Liberty in 1859."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Mag de staat dit verbieden volgens het schadebeginsel van Mill?",
+          "rijen": [
+            "dronken autorijden",
+            "alleen thuis heel ongezond eten",
+            "een gevaarlijke sport beoefenen die enkel jezelf kan verwonden",
+            "fabrieksafval in een rivier lozen"
+          ],
+          "antwoord": [
+            true,
+            false,
+            false,
+            true
+          ],
+          "uitleg": "Mill trekt de grens bij schade aan anderen. Wat enkel jezelf aangaat, beslis je zelf."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over Mill?",
+          "rijen": [
+            "Vrije meningsuiting helpt volgens Mill om de waarheid te vinden.",
+            "Volgens Mill mag de staat je verbieden iets te doen wat enkel jezelf schaadt.",
+            "Ook een foute mening kan helpen de waarheid scherper te zien."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Mill verdedigt de vrijheid van denken en spreken."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Jongeren starten samen een actie, spreken op een gemeenteraad en zetten een nieuw jeugdhuis op. Welke denker ziet net dit als politieke vrijheid?",
+          "opties": [
+            "Arendt",
+            "Hobbes",
+            "Schmitt",
+            "Hume"
+          ],
+          "antwoord": 0,
+          "uitleg": "Voor Hannah Arendt toont vrijheid zich als mensen samen handelen en spreken in de publieke ruimte."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over Hannah Arendt?",
+          "rijen": [
+            "Vrijheid is voor haar iets wat je samen met anderen doet.",
+            "Vrijheid betekent voor haar dat je je terugtrekt uit de politiek.",
+            "Iets nieuws beginnen in de publieke ruimte is voor haar een vorm van vrijheid."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Handelen, spreken en samen iets nieuws beginnen staan centraal bij Arendt."
+        },
+        {
+          "casus": "In een land werken vooral vrouwen, migranten en laagbetaalde werknemers in de zorg voor ouderen en kinderen. Hun loon is laag en hun werk krijgt weinig erkenning. Rijke gezinnen huren hulp in en denken zelf nauwelijks na over wie voor hun ouders zorgt.",
+          "vragen": [
+            {
+              "type": "meerkeuze",
+              "vraag": "Welke denker geeft kritiek op deze manier van zorg organiseren?",
+              "opties": [
+                "Tronto",
+                "Hobbes",
+                "Mill",
+                "Schmitt"
+              ],
+              "antwoord": 0,
+              "uitleg": "Joan Tronto vindt dat zorg een publieke, politieke zaak is die eerlijk verdeeld moet worden."
+            },
+            {
+              "type": "invultekst",
+              "vraag": "Hoe noemt Tronto het gedrag van de rijke gezinnen? Bevoorrechte ...",
+              "antwoord": [
+                "onverantwoordelijkheid"
+              ],
+              "uitleg": "Wie macht of geld heeft, schuift zorgtaken door en ontloopt zo de verantwoordelijkheid."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "Tronto zegt dat zorgwerk [[*ondergewaardeerd|overbetaald|overbodig]] is, en dat zorg geen privézaak is maar een [[*politieke|economische|religieuze]] zaak.",
+              "uitleg": "Wie zorgt en wie zorg krijgt, hangt samen met macht en verdeling."
+            }
+          ]
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Rawls noemt het beginsel dat ongelijkheid enkel toelaat als ze de minst bevoordeelden helpt, het [[verschilbeginsel]]. Samen met gelijke [[basisvrijheden]] vormt het zijn grondbeginselen.",
+          "extra": [
+            "schadebeginsel",
+            "algemene wil"
+          ],
+          "uitleg": "Rawls' rechtvaardigheid gaat over de basisstructuur van de samenleving."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een school geeft een leerling met dyslexie extra tijd bij een examen. Welk idee past hier het best?",
+          "opties": [
+            "gelijke kansen, zoals bij Rawls",
+            "herstel van schade, zoals bij een rechtbank",
+            "iedereen exact hetzelfde behandelen",
+            "de sterkste leerling krijgt het meeste tijd"
+          ],
+          "antwoord": 0,
+          "uitleg": "Gelijk behandelen is hier niet eerlijk. Wat extra steun maakt de kansen gelijker."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Rechtvaardigheid in algemene zin is voor Aristoteles [[*de wetten volgen en bijdragen aan het goede leven van allen|iedereen exact hetzelfde geven|het eigen voordeel zoeken]]. In specifieke zin gaat het om [[*verdelen en herstellen|stemmen en betogen|kopen en verkopen]].",
+          "uitleg": "Aristoteles onderscheidt rechtvaardigheid in algemene en in specifieke zin."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Positieve of negatieve vrijheid?",
+          "rijen": [
+            "niemand verbiedt je om te reizen",
+            "je krijgt een beurs zodat je kunt studeren",
+            "de censuur op kranten wordt afgeschaft",
+            "je leert lezen zodat je zelf kunt kiezen wat je leest"
+          ],
+          "antwoord": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "uitleg": "Negatief: geen inmenging. Positief: in staat zijn om je leven zelf te sturen.",
+          "kolommen": [
+            "positief",
+            "negatief"
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een land zegt: 'Iedereen is vrij om naar de universiteit te gaan', maar het inschrijvingsgeld is heel hoog. Welke kritiek past hier?",
+          "opties": [
+            "vrij op papier, maar zonder middelen",
+            "de staat bemoeit zich met elk detail van je leven",
+            "niemand mag er nog een eigen mening uiten",
+            "iedereen krijgt er hetzelfde werk en dezelfde opleiding"
+          ],
+          "antwoord": 0,
+          "uitleg": "Niemand houdt je tegen om te studeren, maar zonder geld of steun lukt het misschien niet."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "In welke volgorde leefden deze denkers over rechtvaardigheid en vrijheid?",
+          "opties": [
+            "Aristoteles",
+            "Hobbes",
+            "Locke",
+            "Rousseau",
+            "Mill",
+            "Rawls"
+          ],
+          "uitleg": "Van de Griekse oudheid via de 17de, 18de en 19de eeuw naar 1971."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom is gelijk niet hetzelfde als identiek bij Aristoteles' verdelende rechtvaardigheid?",
+          "opties": [
+            "wie meer bijdraagt, krijgt in verhouding meer",
+            "iedereen krijgt altijd exact hetzelfde bedrag",
+            "de sterkste in de stad beslist wat eerlijk is",
+            "enkel wie schade aanricht, krijgt iets"
+          ],
+          "antwoord": 0,
+          "uitleg": "Gelijken worden gelijk en ongelijken ongelijk behandeld, naar verdienste."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Bij Rawls gaat social justice over de [[*instellingen|privéwoningen|smaak]] van een samenleving, zoals belastingen, onderwijs en gezondheidszorg. Die moeten rechten, kansen en middelen [[*eerlijk|willekeurig|enkel naar geboorte]] verdelen.",
+          "uitleg": "Het gaat om de basisstructuur van de samenleving."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over het sociaal contract?",
+          "rijen": [
+            "Volgens de contracttheorie ontstaat de staat uit een afspraak tussen mensen.",
+            "Hobbes, Locke en Rousseau zien de natuurtoestand alle drie precies hetzelfde.",
+            "Bij Locke moet de staat de natuurlijke rechten beschermen."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true
+          ],
+          "uitleg": "De drie denkers delen het idee van een contract, maar zien de natuurtoestand anders."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel het begrip aan de denker.",
+          "paren": [
+            [
+              "sluier van onwetendheid",
+              "Rawls"
+            ],
+            [
+              "schadebeginsel",
+              "Mill"
+            ],
+            [
+              "positieve en negatieve vrijheid",
+              "Berlin"
+            ],
+            [
+              "bevoorrechte onverantwoordelijkheid",
+              "Tronto"
+            ]
+          ],
+          "extra": [
+            "Spinoza"
+          ],
+          "uitleg": "Spinoza hoort bij noodzakelijkheid in de zijnsleer."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom vinden communitaristen culturele gelijkheid belangrijk?",
+          "opties": [
+            "cultuur vormt mee wie je bent",
+            "culturen moeten opgaan in één cultuur",
+            "enkel de meerderheid telt in de politiek",
+            "cultuur speelt geen rol in de politiek"
+          ],
+          "antwoord": 0,
+          "uitleg": "Daarom pleiten ze voor erkenning van culturele groepen, zoals Charles Taylor met zijn politiek van erkenning."
+        },
+        {
+          "type": "open",
+          "vraag": "Leg uit wat het verschil is tussen positieve en negatieve vrijheid, en geef bij elk een mogelijk gevolg.",
+          "antwoord": "Negatieve vrijheid is vrij zijn van inmenging: niemand houdt je tegen. Een gevolg kan zijn dat wie geen middelen heeft, op papier vrij is maar er weinig mee kan. Positieve vrijheid is vrij zijn tot iets: je eigen leven sturen, bijvoorbeeld dankzij onderwijs. Berlin waarschuwt dat een staat in naam van je 'ware' vrijheid ook dwang kan goedpraten."
         }
       ]
     }

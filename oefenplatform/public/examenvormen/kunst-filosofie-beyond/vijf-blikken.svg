@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Wie kijkt er naar het kunstwerk?</text>
+<rect x="400" y="230" width="200" height="160" rx="4" fill="#fbfaf5" stroke="#24331b" stroke-width="4"/>
+<rect x="415" y="245" width="170" height="130" rx="0" fill="#a8c98a" stroke="#24331b" stroke-width="2"/>
+<path d="M 415 375 L 470 300 L 510 340 L 545 290 L 585 375 Z" fill="#7fae6b" stroke="#24331b" stroke-width="2"/>
+<circle cx="550" cy="270" r="14" fill="#e8c547" stroke="#24331b" stroke-width="2"/>
+<rect x="40" y="60" width="190" height="150" rx="12" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<circle cx="64" cy="84" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="64" y="91" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<circle cx="135" cy="115" r="22" fill="#f1d9b5" stroke="#24331b" stroke-width="2"/>
+<path d="M 100 190 Q 135 140 170 190 Z" fill="#3b6fa0" stroke="#24331b" stroke-width="2"/>
+<path d="M 185 95 c -6 -12 -24 -6 -16 8 l 16 14 l 16 -14 c 8 -14 -10 -20 -16 -8 Z" fill="#b03a2e" stroke="#b03a2e" stroke-width="1"/>
+<rect x="770" y="60" width="190" height="150" rx="12" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<circle cx="794" cy="84" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="794" y="91" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<rect x="825" y="95" width="120" height="100" rx="2" fill="#f4f1e8" stroke="#24331b" stroke-width="2"/>
+<rect x="833" y="104" width="104" height="16" rx="0" fill="#24331b" stroke="#24331b" stroke-width="0"/>
+<line x1="835" y1="134" x2="935" y2="134" stroke="#d9d4c4" stroke-width="3"/>
+<line x1="835" y1="146" x2="905" y2="146" stroke="#d9d4c4" stroke-width="3"/>
+<line x1="835" y1="158" x2="935" y2="158" stroke="#d9d4c4" stroke-width="3"/>
+<line x1="835" y1="170" x2="905" y2="170" stroke="#d9d4c4" stroke-width="3"/>
+<line x1="835" y1="182" x2="935" y2="182" stroke="#d9d4c4" stroke-width="3"/>
+<text x="885" y="117" font-size="13" text-anchor="middle" fill="#ffffff">★★☆☆☆</text>
+<rect x="40" y="430" width="190" height="150" rx="12" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<circle cx="64" cy="454" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="64" y="461" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<path d="M 75 500 L 135 465 L 195 500 Z" fill="#e9e2cf" stroke="#24331b" stroke-width="2"/>
+<rect x="80" y="505" width="10" height="50" rx="0" fill="#e9e2cf" stroke="#24331b" stroke-width="2"/>
+<rect x="105" y="505" width="10" height="50" rx="0" fill="#e9e2cf" stroke="#24331b" stroke-width="2"/>
+<rect x="130" y="505" width="10" height="50" rx="0" fill="#e9e2cf" stroke="#24331b" stroke-width="2"/>
+<rect x="155" y="505" width="10" height="50" rx="0" fill="#e9e2cf" stroke="#24331b" stroke-width="2"/>
+<rect x="180" y="505" width="10" height="50" rx="0" fill="#e9e2cf" stroke="#24331b" stroke-width="2"/>
+<rect x="72" y="555" width="126" height="10" rx="0" fill="#e9e2cf" stroke="#24331b" stroke-width="2"/>
+<rect x="770" y="430" width="190" height="150" rx="12" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<circle cx="794" cy="454" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="794" y="461" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">D</text>
+<rect x="820" y="515" width="80" height="18" rx="3" fill="#8a6d4b" stroke="#24331b" stroke-width="2"/>
+<path d="M 870 515 L 905 470" fill="none" stroke="#24331b" stroke-width="6"/>
+<rect x="880" y="455" width="50" height="24" rx="3" fill="#8a6d4b" stroke="#24331b" stroke-width="2"/>
+<text x="880" y="565" font-size="18" text-anchor="middle" fill="#24331b" font-weight="bold">€ 2 000 000</text>
+<rect x="405" y="440" width="190" height="160" rx="12" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<circle cx="429" cy="464" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="429" y="471" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">E</text>
+<circle cx="450" cy="500" r="12" fill="#f1d9b5" stroke="#24331b" stroke-width="1"/>
+<rect x="456" y="478" width="9" height="14" rx="2" fill="#24331b" stroke="#24331b" stroke-width="1"/>
+<circle cx="450" cy="545" r="12" fill="#f1d9b5" stroke="#24331b" stroke-width="1"/>
+<rect x="456" y="523" width="9" height="14" rx="2" fill="#24331b" stroke="#24331b" stroke-width="1"/>
+<circle cx="482" cy="500" r="12" fill="#f1d9b5" stroke="#24331b" stroke-width="1"/>
+<rect x="488" y="478" width="9" height="14" rx="2" fill="#24331b" stroke="#24331b" stroke-width="1"/>
+<circle cx="482" cy="545" r="12" fill="#f1d9b5" stroke="#24331b" stroke-width="1"/>
+<rect x="488" y="523" width="9" height="14" rx="2" fill="#24331b" stroke="#24331b" stroke-width="1"/>
+<circle cx="514" cy="500" r="12" fill="#f1d9b5" stroke="#24331b" stroke-width="1"/>
+<rect x="520" y="478" width="9" height="14" rx="2" fill="#24331b" stroke="#24331b" stroke-width="1"/>
+<circle cx="514" cy="545" r="12" fill="#f1d9b5" stroke="#24331b" stroke-width="1"/>
+<rect x="520" y="523" width="9" height="14" rx="2" fill="#24331b" stroke="#24331b" stroke-width="1"/>
+<circle cx="546" cy="500" r="12" fill="#f1d9b5" stroke="#24331b" stroke-width="1"/>
+<rect x="552" y="478" width="9" height="14" rx="2" fill="#24331b" stroke="#24331b" stroke-width="1"/>
+<circle cx="546" cy="545" r="12" fill="#f1d9b5" stroke="#24331b" stroke-width="1"/>
+<rect x="552" y="523" width="9" height="14" rx="2" fill="#24331b" stroke="#24331b" stroke-width="1"/>
+<line x1="230" y1="160" x2="400" y2="260" stroke="#d9d4c4" stroke-width="3"/>
+<polygon points="400,260 384.1,257.9 390.5,247.2" fill="#d9d4c4"/>
+<line x1="770" y1="160" x2="600" y2="260" stroke="#d9d4c4" stroke-width="3"/>
+<polygon points="600,260 609.5,247.2 615.9,257.9" fill="#d9d4c4"/>
+<line x1="230" y1="490" x2="400" y2="370" stroke="#d9d4c4" stroke-width="3"/>
+<polygon points="400,370 391.6,383.6 384.4,373.4" fill="#d9d4c4"/>
+<line x1="770" y1="490" x2="600" y2="370" stroke="#d9d4c4" stroke-width="3"/>
+<polygon points="600,370 615.6,373.4 608.4,383.6" fill="#d9d4c4"/>
+<line x1="500" y1="440" x2="500" y2="395" stroke="#d9d4c4" stroke-width="3"/>
+<polygon points="500,395 506.2,409.7 493.8,409.7" fill="#d9d4c4"/>
+</svg>
