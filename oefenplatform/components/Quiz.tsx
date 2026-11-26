@@ -1104,7 +1104,13 @@ export function Quiz({
   examenSleutel,
   rekenmachine = false,
   contexten,
+  altijdVoorlezen = false,
 }: {
+  /**
+   * De voorleesknop staat altijd aan, ook zonder instelling per kind. Voor
+   * 🎒 Ready (3de en 4de leerjaar): een kind van 8 leest nog niet altijd vlot.
+   */
+  altijdVoorlezen?: boolean;
   vragen: Vraag[];
   kinderen?: Kind[];
   hoofdstukId?: string;
@@ -1848,9 +1854,10 @@ export function Quiz({
             kleuren={Boolean(
               kinderen.find((k) => k.id === actiefKindId)?.toonKleuren,
             )}
-            voorlezen={Boolean(
-              kinderen.find((k) => k.id === actiefKindId)?.toonVoorlezen,
-            )}
+            voorlezen={
+              altijdVoorlezen ||
+              Boolean(kinderen.find((k) => k.id === actiefKindId)?.toonVoorlezen)
+            }
           />
         )}
 

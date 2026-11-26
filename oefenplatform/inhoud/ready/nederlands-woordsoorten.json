@@ -1,0 +1,378 @@
+{
+ "hoofdstukken": [
+  {
+   "titel": "Woordsoorten en zinnen — deel 1",
+   "niveau": "ready",
+   "korte_uitleg": "Zelfstandig naamwoord: een mens, dier of ding (de hond). Lidwoord: de, het, een. Bijvoeglijk naamwoord: zegt hoe iets is (de grote hond). Werkwoord: wat iemand doet.",
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk woord is een zelfstandig naamwoord?",
+     "opties": [
+      "lopen",
+      "fiets",
+      "blauw",
+      "snel"
+     ],
+     "antwoord": 1,
+     "uitleg": "Een fiets is een ding. Je kan er 'de' of 'een' voor zetten."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk lidwoord hoort bij 'huis'?",
+     "opties": [
+      "de",
+      "het",
+      "den",
+      "der"
+     ],
+     "antwoord": 1,
+     "uitleg": "Je zegt: het huis."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "___ boom staat in de tuin. (de of het)",
+     "antwoord": [
+      "De",
+      "de"
+     ],
+     "uitleg": "Je zegt: de boom."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk woord is een bijvoeglijk naamwoord?",
+     "opties": [
+      "kat",
+      "springen",
+      "zacht",
+      "het"
+     ],
+     "antwoord": 2,
+     "uitleg": "Zacht zegt hoe iets is: de zachte kat."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'Een' is een lidwoord.",
+     "antwoord": true,
+     "uitleg": "De, het en een zijn de drie lidwoorden."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk lidwoord hoort bij 'paard'?",
+     "opties": [
+      "de",
+      "het",
+      "die",
+      "dat"
+     ],
+     "antwoord": 1,
+     "uitleg": "Je zegt: het paard."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is het zelfstandig naamwoord in 'De oude man wandelt'?",
+     "opties": [
+      "de",
+      "oude",
+      "man",
+      "wandelt"
+     ],
+     "antwoord": 2,
+     "uitleg": "De man is een mens. Dat is het zelfstandig naamwoord."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "In 'het rode boek' is 'rode' een werkwoord.",
+     "antwoord": false,
+     "uitleg": "Rode zegt hoe het boek is. Het is een bijvoeglijk naamwoord."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "In de zin 'De kleine poes slaapt' is ___ het bijvoeglijk naamwoord.",
+     "antwoord": "kleine",
+     "uitleg": "Kleine zegt hoe de poes is."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is het lidwoord bij een verkleinwoord, zoals 'hondje'?",
+     "opties": [
+      "altijd de",
+      "altijd het",
+      "soms de, soms het",
+      "geen lidwoord"
+     ],
+     "antwoord": 1,
+     "uitleg": "Verkleinwoorden krijgen altijd het: het hondje, het boompje."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Bij meervoud gebruik je altijd 'de': de huizen.",
+     "antwoord": true,
+     "uitleg": "Ook al zeg je het huis, in het meervoud wordt het de huizen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoeveel zelfstandige naamwoorden staan in 'De jongen eet een appel'?",
+     "opties": [
+      "1",
+      "2",
+      "3",
+      "4"
+     ],
+     "antwoord": 1,
+     "uitleg": "Jongen en appel: twee zelfstandige naamwoorden."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Een woord dat zegt wat iemand doet, is een ___.",
+     "antwoord": "werkwoord",
+     "uitleg": "Lopen, eten, lachen: dat zijn werkwoorden."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'Gelukkig' is een lidwoord.",
+     "antwoord": false,
+     "uitleg": "De lidwoorden zijn de, het en een. Gelukkig is een bijvoeglijk naamwoord: een gelukkig kind."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke rij bevat enkel bijvoeglijke naamwoorden?",
+     "opties": [
+      "groot, klein, mooi",
+      "huis, groot, lopen",
+      "de, het, een",
+      "eten, drinken, slapen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Groot, klein en mooi zeggen allemaal hoe iets is."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'Springen' is een zelfstandig naamwoord.",
+     "antwoord": false,
+     "uitleg": "Springen is iets wat je doet. Het is een werkwoord."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is het werkwoord in 'De vogels zingen mooi'?",
+     "opties": [
+      "vogels",
+      "zingen",
+      "mooi",
+      "de"
+     ],
+     "antwoord": 1,
+     "uitleg": "Zingen is wat de vogels doen."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "___ meisje speelt met haar pop. (de of het)",
+     "antwoord": [
+      "Het",
+      "het"
+     ],
+     "uitleg": "Meisje is een verkleinwoord: het meisje."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk woord past: 'Ik zie een ... vogel.'",
+     "opties": [
+      "vliegen",
+      "gele",
+      "boom",
+      "het"
+     ],
+     "antwoord": 1,
+     "uitleg": "Gele zegt hoe de vogel is. Een bijvoeglijk naamwoord past voor het zelfstandig naamwoord."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Namen zoals 'Emma' en 'Brussel' zijn ook zelfstandige naamwoorden.",
+     "antwoord": true,
+     "uitleg": "Namen van mensen en plaatsen zijn zelfstandige naamwoorden. Ze krijgen een hoofdletter."
+    }
+   ]
+  },
+  {
+   "titel": "Woordsoorten en zinnen — deel 2",
+   "niveau": "ready",
+   "korte_uitleg": "De persoonsvorm verandert als je de zin in een andere tijd zet. Het onderwerp is wie of wat iets doet. Een vraagzin eindigt op ?, een uitroep op !, een gewone zin op een punt.",
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Waar zet je een vraagteken?",
+     "opties": [
+      "achter een gewone zin",
+      "achter een vraag",
+      "voor een naam",
+      "in het midden van een woord"
+     ],
+     "antwoord": 1,
+     "uitleg": "Een vraag sluit je af met een vraagteken."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk leesteken hoort achter 'Wat een mooie dag'?",
+     "opties": [
+      ".",
+      "?",
+      "!",
+      ","
+     ],
+     "antwoord": 2,
+     "uitleg": "Het is een uitroep, dus een uitroepteken."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Kom jij morgen spelen___ (schrijf het leesteken)",
+     "antwoord": "?",
+     "uitleg": "Het is een vraag, dus een vraagteken."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een zin begint altijd met een hoofdletter.",
+     "antwoord": true,
+     "uitleg": "Elke zin begint met een hoofdletter en eindigt met een leesteken."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is het onderwerp in 'De hond blaft'?",
+     "opties": [
+      "de hond",
+      "blaft",
+      "de",
+      "hond blaft"
+     ],
+     "antwoord": 0,
+     "uitleg": "Wie blaft? De hond. Dat is het onderwerp."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is de persoonsvorm in 'Lies fietst naar school'?",
+     "opties": [
+      "Lies",
+      "fietst",
+      "naar",
+      "school"
+     ],
+     "antwoord": 1,
+     "uitleg": "Zet de zin in de verleden tijd: Lies fietste. Het woord dat verandert, is de persoonsvorm."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Het onderwerp in 'Mijn broer speelt gitaar' is mijn ___.",
+     "antwoord": "broer",
+     "uitleg": "Wie speelt gitaar? Mijn broer."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Je vindt de persoonsvorm door de zin in een andere tijd te zetten.",
+     "antwoord": true,
+     "uitleg": "Het woord dat verandert van tijd, is de persoonsvorm."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke zin is een vraagzin?",
+     "opties": [
+      "Ik heb honger.",
+      "Heb jij honger?",
+      "Wat een honger!",
+      "Hij heeft honger."
+     ],
+     "antwoord": 1,
+     "uitleg": "Heb jij honger? vraagt iets en eindigt op een vraagteken."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "In 'Morgen gaan we zwemmen' is 'morgen' het onderwerp.",
+     "antwoord": false,
+     "uitleg": "Wie gaat zwemmen? We. Dat is het onderwerp. Morgen zegt wanneer."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is de persoonsvorm in 'De kinderen lachen hard'?",
+     "opties": [
+      "kinderen",
+      "lachen",
+      "hard",
+      "de"
+     ],
+     "antwoord": 1,
+     "uitleg": "Verleden tijd: de kinderen lachten. Lachen verandert, dus dat is de persoonsvorm."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Zet de woorden in de juiste volgorde: 'eet – een – Tim – appel'. ___ eet een appel.",
+     "antwoord": "Tim",
+     "uitleg": "Tim eet een appel. De zin begint met een hoofdletter."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke zin is juist geschreven?",
+     "opties": [
+      "de zon schijnt.",
+      "De zon schijnt.",
+      "De zon schijnt",
+      "de zon schijnt"
+     ],
+     "antwoord": 1,
+     "uitleg": "Hoofdletter vooraan en een punt achteraan."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een komma zet je soms tussen woorden in een opsomming: appels, peren en bananen.",
+     "antwoord": true,
+     "uitleg": "In een opsomming zet je een komma tussen de woorden, behalve voor en."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waar staan de aanhalingstekens juist?",
+     "opties": [
+      "Mama zei: \"Kom eten!\"",
+      "\"Mama zei: Kom eten!\"",
+      "Mama \"zei: Kom eten!\"",
+      "Mama zei: Kom \"eten!\""
+     ],
+     "antwoord": 0,
+     "uitleg": "Aanhalingstekens staan rond de woorden die iemand zegt."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een uitroepteken gebruik je achter een gewone mededeling, zoals 'Ik ben negen jaar!'.",
+     "antwoord": false,
+     "uitleg": "Bij een gewone mededeling zet je een punt: Ik ben negen jaar."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoeveel woorden telt de zin 'Oma bakt een lekkere taart'? ___",
+     "antwoord": "5",
+     "uitleg": "Oma – bakt – een – lekkere – taart: 5 woorden."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is het onderwerp in 'In de zomer zwemt Noor in het meer'?",
+     "opties": [
+      "de zomer",
+      "Noor",
+      "het meer",
+      "zwemt"
+     ],
+     "antwoord": 1,
+     "uitleg": "Wie zwemt? Noor. Dat is het onderwerp, ook al staat het niet vooraan."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Het onderwerp staat altijd vooraan in de zin.",
+     "antwoord": false,
+     "uitleg": "Niet altijd. In 'In de zomer zwemt Noor in het meer' staat het onderwerp Noor in het midden."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'Wat lief van je!' is een uitroep.",
+     "antwoord": true,
+     "uitleg": "Je roept iets uit met gevoel. Daarom het uitroepteken."
+    }
+   ]
+  }
+ ]
+}

@@ -1,5 +1,6 @@
 export type NiveauSlug =
   | "basis"
+  | "ready"
   | "start"
   | "spark"
   | "boost-doorstroom"
@@ -37,6 +38,11 @@ export type Niveau = {
   hoofdstuk "Uitdaging — alles door elkaar", dat bij elk vak staat en wél
   binnen de leerstof van dat vak blijft.
 
+  🎒 Ready (sinds 26 november 2026) is het 3de en 4de leerjaar, vóór 🌱 Start.
+  De leerstof volgt de officiële minimumdoelen voor het einde van het 4de
+  leerjaar. Kortere zinnen, gewone cijfers en de voorleesknop altijd aan.
+  Later komt er Launchpad voor het 1ste en 2de leerjaar vóór Ready.
+
   🚀 Boost is vanaf de tweede graad geen één categorie meer. De examencommissie
   splitst daar in doorstroomfinaliteit en dubbele finaliteit, met eigen
   vakfiches: doorstroom heeft Nederlands 1 en Nederlands 2 en kiest tussen
@@ -60,6 +66,12 @@ export const NIVEAUS: Niveau[] = [
     emoji: "🧱",
     naam: "Basis",
     omschrijving: "De bouwstenen herhalen, voor elk niveau",
+  },
+  {
+    slug: "ready",
+    emoji: "🎒",
+    naam: "Ready",
+    omschrijving: "3de & 4de leerjaar",
   },
   {
     slug: "start",

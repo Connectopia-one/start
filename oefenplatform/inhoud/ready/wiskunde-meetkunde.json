@@ -1,0 +1,372 @@
+{
+ "hoofdstukken": [
+  {
+   "titel": "Meetkunde — deel 1",
+   "niveau": "ready",
+   "korte_uitleg": "Een rechte hoek is zoals de hoek van een blad papier. Een scherpe hoek is kleiner, een stompe hoek groter. Evenwijdige lijnen raken elkaar nooit; loodrechte lijnen maken een rechte hoek.",
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke hoek is even groot als de hoek van een blad papier?",
+     "opties": [
+      "een scherpe hoek",
+      "een rechte hoek",
+      "een stompe hoek",
+      "een gestrekte hoek"
+     ],
+     "antwoord": 1,
+     "uitleg": "De hoek van een blad is een rechte hoek."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe heet een hoek die kleiner is dan een rechte hoek?",
+     "opties": [
+      "een stompe hoek",
+      "een scherpe hoek",
+      "een grote hoek",
+      "een gestrekte hoek"
+     ],
+     "antwoord": 1,
+     "uitleg": "Kleiner dan recht noem je scherp."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een stompe hoek is groter dan een rechte hoek.",
+     "antwoord": true,
+     "uitleg": "Stomp betekent groter dan recht, maar kleiner dan een gestrekte hoek."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoeveel hoeken heeft een driehoek?",
+     "opties": [
+      "2",
+      "3",
+      "4",
+      "6"
+     ],
+     "antwoord": 1,
+     "uitleg": "Drie zijden en drie hoeken: daar komt de naam vandaan."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Een vierkant heeft ___ rechte hoeken.",
+     "antwoord": "4",
+     "uitleg": "Alle vier de hoeken van een vierkant zijn recht."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een rechthoek heeft vier even lange zijden.",
+     "antwoord": false,
+     "uitleg": "Bij een rechthoek zijn telkens de tegenover elkaar liggende zijden even lang. Vier even lange zijden en vier rechte hoeken: dat is een vierkant."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke figuur heeft geen hoeken?",
+     "opties": [
+      "een vierkant",
+      "een driehoek",
+      "een cirkel",
+      "een rechthoek"
+     ],
+     "antwoord": 2,
+     "uitleg": "Een cirkel is rond en heeft geen hoeken."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe noem je twee lijnen die elkaar nooit raken, hoe ver je ze ook doortrekt?",
+     "opties": [
+      "loodrecht",
+      "evenwijdig",
+      "schuin",
+      "gebogen"
+     ],
+     "antwoord": 1,
+     "uitleg": "Evenwijdige lijnen lopen altijd even ver van elkaar, zoals de rails van een trein."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Loodrechte lijnen maken samen een rechte hoek.",
+     "antwoord": true,
+     "uitleg": "Zoals de rand van een tafel en de tafelpoot."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Een zeshoek heeft ___ zijden.",
+     "antwoord": "6",
+     "uitleg": "Zes hoeken en zes zijden."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke lijnen zijn evenwijdig?",
+     "opties": [
+      "de twee lange zijden van een rechthoek",
+      "twee zijden van een driehoek",
+      "de wijzers om drie uur",
+      "de lijnen van een kruis"
+     ],
+     "antwoord": 0,
+     "uitleg": "De twee lange zijden van een rechthoek lopen naast elkaar en raken elkaar nooit."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een driehoek kan twee rechte hoeken hebben.",
+     "antwoord": false,
+     "uitleg": "Met twee rechte hoeken sluit de figuur niet. Een driehoek heeft hoogstens één rechte hoek."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Om drie uur maken de wijzers van een klok een ...",
+     "opties": [
+      "scherpe hoek",
+      "rechte hoek",
+      "stompe hoek",
+      "volle hoek"
+     ],
+     "antwoord": 1,
+     "uitleg": "De grote wijzer staat op 12 en de kleine op 3: dat is een rechte hoek."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Een vijfhoek heeft ___ hoeken.",
+     "antwoord": "5",
+     "uitleg": "Vijfhoek: vijf hoeken en vijf zijden."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een ruit heeft vier even lange zijden.",
+     "antwoord": true,
+     "uitleg": "Een ruit heeft vier even lange zijden, maar de hoeken zijn niet altijd recht."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke figuur heeft 4 zijden die even lang zijn en 4 rechte hoeken?",
+     "opties": [
+      "een rechthoek",
+      "een ruit",
+      "een vierkant",
+      "een trapezium"
+     ],
+     "antwoord": 2,
+     "uitleg": "Een vierkant heeft vier even lange zijden en vier rechte hoeken."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Om tien over twaalf maken de wijzers een ...",
+     "opties": [
+      "scherpe hoek",
+      "rechte hoek",
+      "stompe hoek",
+      "gestrekte hoek"
+     ],
+     "antwoord": 0,
+     "uitleg": "De wijzers staan op 12 en op 2. Dat is een kleine, scherpe hoek."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een rechthoek heeft evenwijdige zijden.",
+     "antwoord": true,
+     "uitleg": "De tegenover elkaar liggende zijden van een rechthoek zijn evenwijdig."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoeveel zijden hebben 2 driehoeken samen? ___",
+     "antwoord": "6",
+     "uitleg": "2 × 3 = 6 zijden."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een cirkel is een veelhoek.",
+     "antwoord": false,
+     "uitleg": "Een veelhoek heeft rechte zijden en hoeken. Een cirkel heeft geen van beide."
+    }
+   ]
+  },
+  {
+   "titel": "Meetkunde — deel 2",
+   "niveau": "ready",
+   "korte_uitleg": "Een vlakke figuur is plat (vierkant, driehoek, cirkel). Een ruimtefiguur kan je vastnemen (kubus, bol, cilinder). Een symmetrieas verdeelt een figuur in twee spiegelbeelden.",
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke is een ruimtefiguur?",
+     "opties": [
+      "een cirkel",
+      "een kubus",
+      "een vierkant",
+      "een driehoek"
+     ],
+     "antwoord": 1,
+     "uitleg": "Een kubus kan je vastnemen, zoals een dobbelsteen. De andere figuren zijn plat."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke vorm heeft een voetbal?",
+     "opties": [
+      "een kubus",
+      "een cilinder",
+      "een bol",
+      "een piramide"
+     ],
+     "antwoord": 2,
+     "uitleg": "Een voetbal is rond aan alle kanten: een bol."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Een kubus heeft ___ vlakken.",
+     "antwoord": "6",
+     "uitleg": "Kijk naar een dobbelsteen: 6 vlakken, met 1 tot 6 ogen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke vorm heeft een blikje frisdrank?",
+     "opties": [
+      "een balk",
+      "een cilinder",
+      "een bol",
+      "een kegel"
+     ],
+     "antwoord": 1,
+     "uitleg": "Een blikje is rond met een platte boven- en onderkant: een cilinder."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een balk heeft allemaal vierkante vlakken.",
+     "antwoord": false,
+     "uitleg": "Een balk heeft rechthoekige vlakken, zoals een schoenendoos. Bij een kubus zijn ze allemaal vierkant."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke vorm heeft een ijshoorntje?",
+     "opties": [
+      "een cilinder",
+      "een bol",
+      "een kegel",
+      "een kubus"
+     ],
+     "antwoord": 2,
+     "uitleg": "Een ijshoorntje loopt van rond naar een punt: een kegel."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een symmetrieas verdeelt een figuur in twee gelijke spiegelbeelden.",
+     "antwoord": true,
+     "uitleg": "Als je de figuur op de as plooit, vallen beide helften precies op elkaar."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoeveel symmetrieassen heeft een vierkant?",
+     "opties": [
+      "1",
+      "2",
+      "4",
+      "0"
+     ],
+     "antwoord": 2,
+     "uitleg": "Twee assen van midden naar midden en twee langs de diagonalen: 4."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke hoofdletter heeft een verticale symmetrieas?",
+     "opties": [
+      "F",
+      "A",
+      "R",
+      "G"
+     ],
+     "antwoord": 1,
+     "uitleg": "Plooi je de A van boven naar beneden in het midden, dan vallen de helften op elkaar."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De letter P heeft een symmetrieas.",
+     "antwoord": false,
+     "uitleg": "De P heeft geen as waarbij beide helften op elkaar vallen."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Een rechthoek die geen vierkant is, heeft ___ symmetrieassen.",
+     "antwoord": "2",
+     "uitleg": "Eén van boven naar onder en één van links naar rechts. De diagonalen werken niet."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je kijkt recht van boven op een cilinder. Wat zie je?",
+     "opties": [
+      "een rechthoek",
+      "een cirkel",
+      "een driehoek",
+      "een vierkant"
+     ],
+     "antwoord": 1,
+     "uitleg": "Het bovenaanzicht van een cilinder is een cirkel."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je kijkt van voren naar een cilinder die rechtop staat. Wat zie je?",
+     "opties": [
+      "een cirkel",
+      "een rechthoek",
+      "een driehoek",
+      "een vijfhoek"
+     ],
+     "antwoord": 1,
+     "uitleg": "Het vooraanzicht van een staande cilinder is een rechthoek."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Het bovenaanzicht van een kubus is een vierkant.",
+     "antwoord": true,
+     "uitleg": "Elk vlak van een kubus is een vierkant, dus ook wat je van boven ziet."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "In een rooster staan de letters bovenaan en de cijfers links. Wat betekent C4?",
+     "opties": [
+      "kolom 4, rij C",
+      "kolom C, rij 4",
+      "4 vakjes naar links",
+      "4 keer C"
+     ],
+     "antwoord": 1,
+     "uitleg": "Eerst de letter (kolom), dan het cijfer (rij): kolom C, rij 4."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Je staat op vakje B2 en gaat 2 vakjes naar rechts. Dan sta je op ___2.",
+     "antwoord": "D",
+     "uitleg": "Na B komt C, en dan D. Het cijfer blijft hetzelfde: D2."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een spiegelbeeld is altijd kleiner dan de figuur zelf.",
+     "antwoord": false,
+     "uitleg": "Spiegelen verandert de grootte niet, enkel de richting."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoeveel hoekpunten heeft een kubus?",
+     "opties": [
+      "4",
+      "6",
+      "8",
+      "12"
+     ],
+     "antwoord": 2,
+     "uitleg": "4 hoekpunten boven en 4 onder: 8."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een bol heeft één plat vlak.",
+     "antwoord": false,
+     "uitleg": "Een bol is overal rond en heeft geen enkel plat vlak."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een piramide met een vierkant grondvlak heeft 4 driehoekige zijvlakken.",
+     "antwoord": true,
+     "uitleg": "Vier driehoeken komen samen in de top, en onderaan ligt het vierkant."
+    }
+   ]
+  }
+ ]
+}

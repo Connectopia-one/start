@@ -1,0 +1,388 @@
+{
+ "hoofdstukken": [
+  {
+   "titel": "Lezen en woordenschat — deel 1",
+   "niveau": "ready",
+   "korte_uitleg": "Lees de tekst rustig. Vraag je af: waarover gaat het, wie doet wat, waar en wanneer? Ken je een woord niet, lees dan de zin ervoor en erna: vaak vind je daar de betekenis.",
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Tekst: 'Elke zaterdag gaat Ruben met opa vissen aan de vijver. Opa neemt koffie mee, Ruben warme chocomelk. Vorige week vingen ze niets, maar Ruben vond het toch fijn, want opa vertelde de hele tijd grappige verhalen.' Wanneer gaan Ruben en opa vissen?",
+     "opties": [
+      "elke zondag",
+      "elke zaterdag",
+      "elke dag",
+      "in de vakantie"
+     ],
+     "antwoord": 1,
+     "uitleg": "In de eerste zin staat: elke zaterdag."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Tekst: 'Elke zaterdag gaat Ruben met opa vissen aan de vijver. Opa neemt koffie mee, Ruben warme chocomelk. Vorige week vingen ze niets, maar Ruben vond het toch fijn, want opa vertelde de hele tijd grappige verhalen.' Wat drinkt Ruben?",
+     "opties": [
+      "koffie",
+      "water",
+      "warme chocomelk",
+      "limonade"
+     ],
+     "antwoord": 2,
+     "uitleg": "Opa drinkt koffie, Ruben warme chocomelk."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Tekst: 'Elke zaterdag gaat Ruben met opa vissen aan de vijver. Opa neemt koffie mee, Ruben warme chocomelk. Vorige week vingen ze niets, maar Ruben vond het toch fijn, want opa vertelde de hele tijd grappige verhalen.' Ruben en opa vingen vorige week veel vissen.",
+     "antwoord": false,
+     "uitleg": "In de tekst staat: vorige week vingen ze niets."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Tekst: 'Elke zaterdag gaat Ruben met opa vissen aan de vijver. Opa neemt koffie mee, Ruben warme chocomelk. Vorige week vingen ze niets, maar Ruben vond het toch fijn, want opa vertelde de hele tijd grappige verhalen.' Waarom vond Ruben het toch fijn?",
+     "opties": [
+      "Hij ving een grote vis.",
+      "Opa vertelde grappige verhalen.",
+      "Het was mooi weer.",
+      "Hij kreeg een ijsje."
+     ],
+     "antwoord": 1,
+     "uitleg": "Er staat: 'want opa vertelde de hele tijd grappige verhalen'."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Tekst: 'Elke zaterdag gaat Ruben met opa vissen aan de vijver. Opa neemt koffie mee, Ruben warme chocomelk. Vorige week vingen ze niets, maar Ruben vond het toch fijn, want opa vertelde de hele tijd grappige verhalen.' Ruben vindt het gezellig bij opa.",
+     "antwoord": true,
+     "uitleg": "Ook al vingen ze niets, hij vond het fijn. Dat lees je tussen de regels."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Tekst: 'Egels slapen in de winter. In de herfst eten ze veel slakken, wormen en kevers. Zo maken ze een dikke laag vet. Daarna kruipen ze onder een hoop bladeren. Daar slapen ze tot de lente.' Waarover gaat de tekst vooral?",
+     "opties": [
+      "over slakken",
+      "over de winterslaap van egels",
+      "over de lente",
+      "over bladeren"
+     ],
+     "antwoord": 1,
+     "uitleg": "De hele tekst vertelt hoe egels zich klaarmaken voor de winter en slapen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Tekst: 'Egels slapen in de winter. In de herfst eten ze veel slakken, wormen en kevers. Zo maken ze een dikke laag vet. Daarna kruipen ze onder een hoop bladeren. Daar slapen ze tot de lente.' Waarom eten egels veel in de herfst?",
+     "opties": [
+      "om sneller te lopen",
+      "om een laag vet te maken",
+      "omdat ze dan honger hebben",
+      "om slakken weg te halen"
+     ],
+     "antwoord": 1,
+     "uitleg": "Er staat: zo maken ze een dikke laag vet."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Tekst: 'Egels slapen in de winter. In de herfst eten ze veel slakken, wormen en kevers. Zo maken ze een dikke laag vet. Daarna kruipen ze onder een hoop bladeren. Daar slapen ze tot de lente.' Tot wanneer slapen egels? Tot de ___.",
+     "antwoord": "lente",
+     "uitleg": "In de laatste zin staat: tot de lente."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Tekst: 'Egels slapen in de winter. In de herfst eten ze veel slakken, wormen en kevers. Zo maken ze een dikke laag vet. Daarna kruipen ze onder een hoop bladeren. Daar slapen ze tot de lente.' Egels slapen in de winter in een boom.",
+     "antwoord": false,
+     "uitleg": "Ze kruipen onder een hoop bladeren."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "In de zin 'Na de lange wandeling was Mila uitgeput' betekent uitgeput ...",
+     "opties": [
+      "heel blij",
+      "heel moe",
+      "heel boos",
+      "heel snel"
+     ],
+     "antwoord": 1,
+     "uitleg": "Na een lange wandeling ben je moe. Uitgeput betekent heel moe."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "In de zin 'De taart was verrukkelijk, iedereen wou nog een stuk' betekent verrukkelijk ...",
+     "opties": [
+      "heel lekker",
+      "heel groot",
+      "te zoet",
+      "heel oud"
+     ],
+     "antwoord": 0,
+     "uitleg": "Iedereen wou nog een stuk, dus de taart was heel lekker."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Wat is het tegenovergestelde van 'groot'? ___",
+     "antwoord": "klein",
+     "uitleg": "Groot en klein zijn tegenstellingen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk woord betekent hetzelfde als 'snel'?",
+     "opties": [
+      "traag",
+      "vlug",
+      "luid",
+      "zwaar"
+     ],
+     "antwoord": 1,
+     "uitleg": "Snel en vlug betekenen hetzelfde: het zijn synoniemen."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'Lachen' en 'huilen' zijn synoniemen.",
+     "antwoord": false,
+     "uitleg": "Ze betekenen net het omgekeerde. Het zijn tegenstellingen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke samenstelling maak je met 'tand' en 'borstel'?",
+     "opties": [
+      "borsteltand",
+      "tandborstel",
+      "tandenborstelen",
+      "tandarts"
+     ],
+     "antwoord": 1,
+     "uitleg": "Tand + borstel = tandborstel."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Wat is het tegenovergestelde van 'open'? ___",
+     "antwoord": [
+      "dicht",
+      "toe",
+      "gesloten"
+     ],
+     "uitleg": "Open en dicht (of toe) zijn tegenstellingen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "In de zin 'Het hondje rilde van de kou' betekent rillen ...",
+     "opties": [
+      "blaffen",
+      "beven",
+      "springen",
+      "slapen"
+     ],
+     "antwoord": 1,
+     "uitleg": "Van de kou ga je beven. Rillen betekent beven."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'Mooi' en 'prachtig' betekenen ongeveer hetzelfde.",
+     "antwoord": true,
+     "uitleg": "Prachtig is heel mooi. Het zijn synoniemen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk woord past niet in de rij: appel, peer, wortel, banaan?",
+     "opties": [
+      "appel",
+      "peer",
+      "wortel",
+      "banaan"
+     ],
+     "antwoord": 2,
+     "uitleg": "Een wortel is een groente, de andere zijn fruit."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'Zonnebril' is een samenstelling van 'zon' en 'bril'.",
+     "antwoord": true,
+     "uitleg": "Zon + bril = zonnebril. Er komt een tussenletter n bij."
+    }
+   ]
+  },
+  {
+   "titel": "Lezen en woordenschat — deel 2",
+   "niveau": "ready",
+   "korte_uitleg": "Synoniemen betekenen hetzelfde (blij en vrolijk). Tegenstellingen zijn elkaars omgekeerde (warm en koud). Een samenstelling plakt twee woorden aan elkaar: voet + bal = voetbal.",
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Tekst: 'Vandaag is het de verjaardag van Lotte. Ze wordt negen. Haar vriendin Amira komt als eerste aan, met een cadeautje in roze papier. In het pakje zit een boek over paarden. Lotte springt een gat in de lucht.' Hoe oud wordt Lotte?",
+     "opties": [
+      "acht",
+      "negen",
+      "tien",
+      "zeven"
+     ],
+     "antwoord": 1,
+     "uitleg": "Er staat: ze wordt negen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Tekst: 'Vandaag is het de verjaardag van Lotte. Ze wordt negen. Haar vriendin Amira komt als eerste aan, met een cadeautje in roze papier. In het pakje zit een boek over paarden. Lotte springt een gat in de lucht.' Wat zit er in het pakje?",
+     "opties": [
+      "een pop",
+      "een boek over paarden",
+      "een paard",
+      "roze papier"
+     ],
+     "antwoord": 1,
+     "uitleg": "In het pakje zit een boek over paarden. Het roze papier is de verpakking."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Tekst: 'Vandaag is het de verjaardag van Lotte. Ze wordt negen. Haar vriendin Amira komt als eerste aan, met een cadeautje in roze papier. In het pakje zit een boek over paarden. Lotte springt een gat in de lucht.' Amira komt als laatste aan.",
+     "antwoord": false,
+     "uitleg": "Er staat: ze komt als eerste aan."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Tekst: 'Vandaag is het de verjaardag van Lotte. Ze wordt negen. Haar vriendin Amira komt als eerste aan, met een cadeautje in roze papier. In het pakje zit een boek over paarden. Lotte springt een gat in de lucht.' Wat betekent 'Lotte springt een gat in de lucht'?",
+     "opties": [
+      "Lotte springt op het bed.",
+      "Lotte is heel blij.",
+      "Lotte valt.",
+      "Lotte is bang."
+     ],
+     "antwoord": 1,
+     "uitleg": "Een gat in de lucht springen betekent heel blij zijn."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Tekst: 'Vandaag is het de verjaardag van Lotte. Ze wordt negen. Haar vriendin Amira komt als eerste aan, met een cadeautje in roze papier. In het pakje zit een boek over paarden. Lotte springt een gat in de lucht.' Lotte houdt waarschijnlijk van paarden.",
+     "antwoord": true,
+     "uitleg": "Haar vriendin geeft een boek over paarden en Lotte is heel blij. Dat lees je tussen de regels."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Mededeling op de schoolpoort: 'Op vrijdag 12 maart is er geen school. De juffen en meesters volgen dan een opleiding. De opvang is wel open van 7 tot 18 uur.' Waarom is er geen school?",
+     "opties": [
+      "Het is vakantie.",
+      "De juffen en meesters volgen een opleiding.",
+      "De school is gesloten door sneeuw.",
+      "Het is een feestdag."
+     ],
+     "antwoord": 1,
+     "uitleg": "Dat staat in de tweede zin."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Mededeling op de schoolpoort: 'Op vrijdag 12 maart is er geen school. De juffen en meesters volgen dan een opleiding. De opvang is wel open van 7 tot 18 uur.' Tot hoe laat is de opvang open? Tot ___ uur.",
+     "antwoord": "18",
+     "uitleg": "Er staat: van 7 tot 18 uur."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Mededeling op de schoolpoort: 'Op vrijdag 12 maart is er geen school. De juffen en meesters volgen dan een opleiding. De opvang is wel open van 7 tot 18 uur.' Op 12 maart kunnen kinderen naar de opvang.",
+     "antwoord": true,
+     "uitleg": "De opvang is wel open."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Mededeling op de schoolpoort: 'Op vrijdag 12 maart is er geen school. De juffen en meesters volgen dan een opleiding. De opvang is wel open van 7 tot 18 uur.' Voor wie is deze mededeling vooral bedoeld?",
+     "opties": [
+      "voor de ouders",
+      "voor de buren",
+      "voor de bakker",
+      "voor de postbode"
+     ],
+     "antwoord": 0,
+     "uitleg": "Ouders moeten weten dat er geen school is en dat de opvang open is."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat betekent 'Hij heeft twee linkerhanden'?",
+     "opties": [
+      "Hij heeft twee linkse handen.",
+      "Hij is niet handig.",
+      "Hij is linkshandig.",
+      "Hij is heel sterk."
+     ],
+     "antwoord": 1,
+     "uitleg": "Wie twee linkerhanden heeft, kan niet goed iets maken of herstellen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat betekent 'Ze is zo stil als een muis'?",
+     "opties": [
+      "Ze piept.",
+      "Ze is heel stil.",
+      "Ze is klein.",
+      "Ze eet kaas."
+     ],
+     "antwoord": 1,
+     "uitleg": "Een muis maakt weinig lawaai. Zo stil als een muis betekent heel stil."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'Iemand de les lezen' betekent dat je iemand voorleest uit een boek.",
+     "antwoord": false,
+     "uitleg": "Het betekent dat je iemand streng zegt wat die fout deed."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Wat is het tegenovergestelde van 'vroeg'? ___",
+     "antwoord": "laat",
+     "uitleg": "Vroeg en laat zijn tegenstellingen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk woord is een synoniem van 'beginnen'?",
+     "opties": [
+      "stoppen",
+      "starten",
+      "wachten",
+      "eindigen"
+     ],
+     "antwoord": 1,
+     "uitleg": "Beginnen en starten betekenen hetzelfde."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Maak een samenstelling: regen + jas = ___",
+     "antwoord": "regenjas",
+     "uitleg": "Regen + jas = regenjas."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "In de zin 'De reus was enorm, hij paste niet door de deur' betekent enorm ...",
+     "opties": [
+      "heel groot",
+      "heel klein",
+      "heel lief",
+      "heel snel"
+     ],
+     "antwoord": 0,
+     "uitleg": "Hij paste niet door de deur: dan is hij heel groot."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'Dapper' en 'moedig' zijn synoniemen.",
+     "antwoord": true,
+     "uitleg": "Allebei betekenen ze: niet bang zijn om iets moeilijks te doen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk woord hoort bij de groep: hamer, zaag, schroevendraaier, ...?",
+     "opties": [
+      "vork",
+      "tang",
+      "pan",
+      "lepel"
+     ],
+     "antwoord": 1,
+     "uitleg": "Een tang is ook gereedschap. Vork, pan en lepel gebruik je in de keuken."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een titel vertelt vaak waarover een tekst gaat.",
+     "antwoord": true,
+     "uitleg": "Lees eerst de titel. Zo weet je al een beetje wat je gaat lezen."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Bij een moeilijk woord stop je best meteen met lezen.",
+     "antwoord": false,
+     "uitleg": "Lees verder: de zinnen errond helpen je vaak om het woord te begrijpen."
+    }
+   ]
+  }
+ ]
+}

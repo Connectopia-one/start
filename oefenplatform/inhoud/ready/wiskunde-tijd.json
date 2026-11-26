@@ -1,0 +1,364 @@
+{
+ "hoofdstukken": [
+  {
+   "titel": "Tijd en temperatuur — deel 1",
+   "niveau": "ready",
+   "korte_uitleg": "De kleine wijzer toont het uur, de grote wijzer de minuten. 1 uur = 60 minuten, 1 minuut = 60 seconden. Een digitale klok telt door tot 23.59: 15.00 is drie uur 's middags.",
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "De kleine wijzer staat op 3 en de grote wijzer op 12. Hoe laat is het?",
+     "opties": [
+      "12 uur",
+      "drie uur",
+      "kwart over drie",
+      "half drie"
+     ],
+     "antwoord": 1,
+     "uitleg": "Grote wijzer op 12 betekent een vol uur. De kleine wijzer wijst het uur aan: drie uur."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "De grote wijzer staat op 6. Hoeveel minuten na het uur is dat?",
+     "opties": [
+      "6 minuten",
+      "15 minuten",
+      "30 minuten",
+      "60 minuten"
+     ],
+     "antwoord": 2,
+     "uitleg": "Elk cijfer op de klok is 5 minuten verder: 6 × 5 = 30 minuten. Dat is half."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "1 uur = ___ minuten",
+     "antwoord": "60",
+     "uitleg": "Een uur heeft 60 minuten."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe laat is het als de digitale klok 14.30 toont?",
+     "opties": [
+      "half drie 's middags",
+      "half twee 's middags",
+      "vier uur",
+      "kwart over twee"
+     ],
+     "antwoord": 0,
+     "uitleg": "14.30 is 30 minuten na 14 uur, dus na twee uur 's middags. Dat noem je half drie."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Kwart over vijf is 5.15 uur.",
+     "antwoord": true,
+     "uitleg": "Een kwartier is 15 minuten na het uur."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat toont een digitale klok om kwart voor acht 's avonds?",
+     "opties": [
+      "7.45",
+      "8.15",
+      "19.45",
+      "20.45"
+     ],
+     "antwoord": 2,
+     "uitleg": "Kwart voor acht is 7.45 uur. 's Avonds tel je 12 erbij: 19.45."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Om 13.00 uur is het 1 uur 's nachts.",
+     "antwoord": false,
+     "uitleg": "13.00 uur is 1 uur 's middags. 1 uur 's nachts is 1.00 uur."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Een half uur = ___ minuten",
+     "antwoord": "30",
+     "uitleg": "De helft van 60 minuten is 30 minuten."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "De grote wijzer staat op 9 en de kleine net voor 4. Hoe laat is het?",
+     "opties": [
+      "kwart over vier",
+      "kwart voor vier",
+      "negen uur",
+      "half vier"
+     ],
+     "antwoord": 1,
+     "uitleg": "Grote wijzer op 9 is 45 minuten na het uur, of nog 15 minuten tot het volgende uur: kwart voor vier."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "De grote wijzer staat op 2. Dat is ___ minuten na het uur.",
+     "antwoord": "10",
+     "uitleg": "2 × 5 = 10 minuten."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een minuut heeft 100 seconden.",
+     "antwoord": false,
+     "uitleg": "Een minuut heeft 60 seconden."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe laat is het: 10 minuten na half zes?",
+     "opties": [
+      "5.40",
+      "6.10",
+      "5.20",
+      "6.40"
+     ],
+     "antwoord": 0,
+     "uitleg": "Half zes is 5.30 uur. 10 minuten later is het 5.40."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoeveel minuten zijn 2 uur? ___",
+     "antwoord": "120",
+     "uitleg": "2 × 60 = 120 minuten."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Om 23.59 uur is het bijna middernacht.",
+     "antwoord": true,
+     "uitleg": "Na 23.59 komt 0.00 uur: middernacht."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoeveel uur heeft een dag?",
+     "opties": [
+      "12",
+      "24",
+      "60",
+      "100"
+     ],
+     "antwoord": 1,
+     "uitleg": "Een dag en een nacht samen duren 24 uur."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke tijd is het vroegst?",
+     "opties": [
+      "8.05",
+      "8.50",
+      "7.55",
+      "9.00"
+     ],
+     "antwoord": 2,
+     "uitleg": "7.55 is nog voor acht uur."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoeveel minuten duurt een kwartier? ___",
+     "antwoord": "15",
+     "uitleg": "Een kwart van 60 minuten is 15 minuten."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Vijf voor half drie is 2.25 uur.",
+     "antwoord": true,
+     "uitleg": "Half drie is 2.30. Vijf minuten eerder is 2.25."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe laat is het: 20 over 9 's ochtends?",
+     "opties": [
+      "9.20",
+      "8.40",
+      "21.20",
+      "9.40"
+     ],
+     "antwoord": 0,
+     "uitleg": "20 minuten na 9 uur 's ochtends is 9.20."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De kleine wijzer gaat sneller rond dan de grote wijzer.",
+     "antwoord": false,
+     "uitleg": "De grote wijzer gaat elk uur een keer rond. De kleine doet daar 12 uur over."
+    }
+   ]
+  },
+  {
+   "titel": "Tijd en temperatuur — deel 2",
+   "niveau": "ready",
+   "korte_uitleg": "Een jaar heeft 12 maanden en 365 dagen (366 in een schrikkeljaar). Tijdsduur: tel eerst tot het volle uur en dan verder. Temperatuur meet je in graden Celsius (°C); water bevriest bij 0 °C.",
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoeveel maanden heeft een jaar?",
+     "opties": [
+      "10",
+      "12",
+      "30",
+      "52"
+     ],
+     "antwoord": 1,
+     "uitleg": "Januari tot december: 12 maanden."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoeveel dagen heeft een week? ___",
+     "antwoord": "7",
+     "uitleg": "Maandag tot en met zondag: 7 dagen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke maand komt na april?",
+     "opties": [
+      "maart",
+      "mei",
+      "juni",
+      "juli"
+     ],
+     "antwoord": 1,
+     "uitleg": "Maart, april, mei, juni."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De maand juni heeft 31 dagen.",
+     "antwoord": false,
+     "uitleg": "Juni heeft 30 dagen. Juli heeft er 31."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Vandaag is het dinsdag. Welke dag is het over 3 dagen?",
+     "opties": [
+      "donderdag",
+      "vrijdag",
+      "zaterdag",
+      "woensdag"
+     ],
+     "antwoord": 1,
+     "uitleg": "Woensdag, donderdag, vrijdag."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoeveel dagen hebben 3 weken? ___",
+     "antwoord": "21",
+     "uitleg": "3 × 7 = 21 dagen."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Februari is de kortste maand van het jaar.",
+     "antwoord": true,
+     "uitleg": "Februari heeft 28 dagen, of 29 in een schrikkeljaar."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "De film begint om 14.15 en eindigt om 15.45. Hoe lang duurt de film?",
+     "opties": [
+      "1 uur",
+      "1 uur en 15 minuten",
+      "1 uur en 30 minuten",
+      "2 uur"
+     ],
+     "antwoord": 2,
+     "uitleg": "Van 14.15 tot 15.15 is 1 uur. Van 15.15 tot 15.45 is 30 minuten. Samen 1 uur en 30 minuten."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "De les begint om 8.30 en duurt 50 minuten. Om ___ is de les gedaan.",
+     "antwoord": [
+      "9.20",
+      "9u20",
+      "9:20"
+     ],
+     "uitleg": "Van 8.30 tot 9.00 is 30 minuten. Nog 20 minuten erbij: 9.20."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Tom vertrekt om 9.40 en komt aan om 10.05. Hoe lang was hij onderweg?",
+     "opties": [
+      "25 minuten",
+      "35 minuten",
+      "65 minuten",
+      "45 minuten"
+     ],
+     "antwoord": 0,
+     "uitleg": "Van 9.40 tot 10.00 is 20 minuten. Nog 5 minuten erbij: 25 minuten."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Van 11.50 tot 12.10 duurt 20 minuten.",
+     "antwoord": true,
+     "uitleg": "10 minuten tot 12.00 en dan nog 10 minuten."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Het zwembad gaat open om 13.00 en sluit om 17.30. Hoeveel uur is het open? ___ uur en 30 minuten",
+     "antwoord": "4",
+     "uitleg": "Van 13.00 tot 17.00 is 4 uur, en dan nog 30 minuten."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Bij welke temperatuur bevriest water?",
+     "opties": [
+      "0 °C",
+      "10 °C",
+      "100 °C",
+      "−10 °C"
+     ],
+     "antwoord": 0,
+     "uitleg": "Bij 0 °C wordt water ijs."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke temperatuur past bij een warme zomerdag in België?",
+     "opties": [
+      "−5 °C",
+      "8 °C",
+      "28 °C",
+      "80 °C"
+     ],
+     "antwoord": 2,
+     "uitleg": "Op een warme zomerdag is het rond de 25 tot 30 °C."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "−3 °C is warmer dan 2 °C.",
+     "antwoord": false,
+     "uitleg": "Onder nul is het kouder dan boven nul."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Het is 's morgens 5 °C. 's Middags is het 7 graden warmer. Hoe warm is het 's middags? ___ °C",
+     "antwoord": "12",
+     "uitleg": "5 + 7 = 12 °C."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "De thermometer zakt van 3 °C naar −2 °C. Hoeveel graden is het kouder geworden?",
+     "opties": [
+      "1 graad",
+      "3 graden",
+      "5 graden",
+      "2 graden"
+     ],
+     "antwoord": 2,
+     "uitleg": "Van 3 naar 0 is 3 graden, van 0 naar −2 nog 2 graden. Samen 5 graden."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een gezond mens heeft een lichaamstemperatuur van ongeveer 37 °C.",
+     "antwoord": true,
+     "uitleg": "Ongeveer 37 °C is normaal. Bij koorts is het hoger."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Water kookt bij 50 °C.",
+     "antwoord": false,
+     "uitleg": "Water kookt bij 100 °C."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Kerstmis valt op 25 december. Nieuwjaar valt ___ dagen later.",
+     "antwoord": "7",
+     "uitleg": "Van 25 tot 31 december is 6 dagen, en 1 januari is de 7de dag."
+    }
+   ]
+  }
+ ]
+}

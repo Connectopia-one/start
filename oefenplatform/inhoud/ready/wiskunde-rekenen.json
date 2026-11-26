@@ -1,0 +1,375 @@
+{
+ "hoofdstukken": [
+  {
+   "titel": "Rekenen en cijferen — deel 1",
+   "niveau": "ready",
+   "korte_uitleg": "Optellen en aftrekken: zet de getallen netjes onder elkaar, eenheden onder eenheden. Begin rechts. Heb je meer dan 9, dan schuift er 1 door naar links. Kijk na met de omgekeerde bewerking.",
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoeveel is 2 345 + 1 432?",
+     "opties": [
+      "3 777",
+      "3 767",
+      "4 777",
+      "3 787"
+     ],
+     "antwoord": 0,
+     "uitleg": "Eenheden 5 + 2 = 7, tientallen 4 + 3 = 7, honderdtallen 3 + 4 = 7, duizendtallen 2 + 1 = 3: 3 777."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "4 568 + 1 275 = ___",
+     "antwoord": [
+      "5 843",
+      "5843"
+     ],
+     "uitleg": "8 + 5 = 13: schrijf 3, 1 door. 6 + 7 + 1 = 14: schrijf 4, 1 door. 5 + 2 + 1 = 8. 4 + 1 = 5. Samen 5 843."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoeveel is 6 000 − 2 500?",
+     "opties": [
+      "4 500",
+      "3 500",
+      "3 000",
+      "4 000"
+     ],
+     "antwoord": 1,
+     "uitleg": "6 000 − 2 000 = 4 000, en dan nog 500 eraf: 3 500."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "7 352 − 2 128 = ___",
+     "antwoord": [
+      "5 224",
+      "5224"
+     ],
+     "uitleg": "2 − 8 lukt niet: leen een tiental. 12 − 8 = 4, 4 − 2 = 2, 3 − 1 = 2, 7 − 2 = 5. Samen 5 224."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een aftrekking kijk je na met een optelling.",
+     "antwoord": true,
+     "uitleg": "Is 7 352 − 2 128 = 5 224, dan moet 5 224 + 2 128 weer 7 352 geven."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoeveel is 3 999 + 1?",
+     "opties": [
+      "3 990",
+      "4 000",
+      "3 1000",
+      "4 999"
+     ],
+     "antwoord": 1,
+     "uitleg": "Na 3 999 komt 4 000."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Een school heeft 1 245 boeken. Er komen 380 boeken bij. Hoeveel boeken zijn er nu?",
+     "antwoord": [
+      "1 625",
+      "1625"
+     ],
+     "uitleg": "1 245 + 380 = 1 625."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Mila spaart 2 400 euro voor een reis. Ze heeft al 1 750 euro. Hoeveel moet ze nog sparen?",
+     "opties": [
+      "650 euro",
+      "750 euro",
+      "1 650 euro",
+      "4 150 euro"
+     ],
+     "antwoord": 0,
+     "uitleg": "2 400 − 1 750 = 650 euro."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Bij optellen mag je de getallen van plaats wisselen.",
+     "antwoord": true,
+     "uitleg": "1 200 + 300 is evenveel als 300 + 1 200."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Bij aftrekken mag je de getallen van plaats wisselen.",
+     "antwoord": false,
+     "uitleg": "50 − 20 = 30, maar 20 − 50 is iets helemaal anders."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke schatting past het best bij 3 980 + 2 010?",
+     "opties": [
+      "ongeveer 5 000",
+      "ongeveer 6 000",
+      "ongeveer 7 000",
+      "ongeveer 60 000"
+     ],
+     "antwoord": 1,
+     "uitleg": "3 980 is ongeveer 4 000 en 2 010 ongeveer 2 000. Samen ongeveer 6 000."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "9 000 − 4 ___ = 4 700",
+     "antwoord": "300",
+     "uitleg": "9 000 − 4 700 = 4 300, dus het ontbrekende stuk is 300."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke bewerking geeft 5 000?",
+     "opties": [
+      "2 500 + 2 000",
+      "6 000 − 1 000",
+      "4 000 + 900",
+      "3 500 + 1 400"
+     ],
+     "antwoord": 1,
+     "uitleg": "6 000 − 1 000 = 5 000. De andere geven 4 500, 4 900 en 4 900."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "1 000 − 1 = 999",
+     "antwoord": true,
+     "uitleg": "Eén minder dan 1 000 is 999."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "2 750 + 2 750 = ___",
+     "antwoord": [
+      "5 500",
+      "5500"
+     ],
+     "uitleg": "Het dubbele van 2 750: 2 × 2 000 = 4 000 en 2 × 750 = 1 500. Samen 5 500."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Een boer heeft 1 200 kippen. Hij verkoopt er 450. Hoeveel kippen heeft hij nog?",
+     "opties": [
+      "850",
+      "750",
+      "650",
+      "1 650"
+     ],
+     "antwoord": 1,
+     "uitleg": "1 200 − 400 = 800, en dan nog 50 eraf: 750."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "8 400 + 600 = 8 1000",
+     "antwoord": false,
+     "uitleg": "8 400 + 600 = 9 000. Tien honderdtallen worden één duizendtal."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoeveel is 5 030 − 40?",
+     "opties": [
+      "5 070",
+      "4 990",
+      "5 010",
+      "4 970"
+     ],
+     "antwoord": 1,
+     "uitleg": "5 030 − 30 = 5 000, en dan nog 10 eraf: 4 990."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Een vliegtuig vliegt 3 600 km heen en 3 600 km terug. Hoeveel km is dat samen?",
+     "antwoord": [
+      "7 200",
+      "7200"
+     ],
+     "uitleg": "3 600 + 3 600 = 7 200 km."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Als je 2 000 bij 7 000 optelt, krijg je meer dan 10 000.",
+     "antwoord": false,
+     "uitleg": "7 000 + 2 000 = 9 000. Dat is minder dan 10 000."
+    }
+   ]
+  },
+  {
+   "titel": "Rekenen en cijferen — deel 2",
+   "niveau": "ready",
+   "korte_uitleg": "Vermenigvuldig eerst de eenheden, dan de tientallen: 23 × 4 = 80 + 12 = 92. Rekenvolgorde: eerst wat tussen haakjes staat, dan × en :, dan + en −.",
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoeveel is 23 × 4?",
+     "opties": [
+      "82",
+      "92",
+      "812",
+      "27"
+     ],
+     "antwoord": 1,
+     "uitleg": "20 × 4 = 80 en 3 × 4 = 12. Samen 92."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "15 × 6 = ___",
+     "antwoord": "90",
+     "uitleg": "10 × 6 = 60 en 5 × 6 = 30. Samen 90."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoeveel is 125 × 3?",
+     "opties": [
+      "365",
+      "375",
+      "355",
+      "128"
+     ],
+     "antwoord": 1,
+     "uitleg": "100 × 3 = 300, 20 × 3 = 60, 5 × 3 = 15. Samen 375."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "12 × 11 = ___",
+     "antwoord": "132",
+     "uitleg": "12 × 10 = 120, en nog één keer 12 erbij: 132."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoeveel is 24 × 12?",
+     "opties": [
+      "248",
+      "288",
+      "268",
+      "36"
+     ],
+     "antwoord": 1,
+     "uitleg": "24 × 10 = 240 en 24 × 2 = 48. Samen 288."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "40 × 30 = 1 200",
+     "antwoord": true,
+     "uitleg": "4 × 3 = 12, en er komen twee nullen bij: 1 200."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoeveel is 96 : 4?",
+     "opties": [
+      "24",
+      "22",
+      "26",
+      "34"
+     ],
+     "antwoord": 0,
+     "uitleg": "80 : 4 = 20 en 16 : 4 = 4. Samen 24."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "84 : 7 = ___",
+     "antwoord": "12",
+     "uitleg": "70 : 7 = 10 en 14 : 7 = 2. Samen 12."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoeveel is 156 : 12?",
+     "opties": [
+      "12",
+      "13",
+      "14",
+      "16"
+     ],
+     "antwoord": 1,
+     "uitleg": "12 × 13 = 156. Reken na: 12 × 10 = 120 en 12 × 3 = 36."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "75 : 5 = 14",
+     "antwoord": false,
+     "uitleg": "75 : 5 = 15, want 15 × 5 = 75."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoeveel is 3 + 4 × 2?",
+     "opties": [
+      "14",
+      "11",
+      "10",
+      "9"
+     ],
+     "antwoord": 1,
+     "uitleg": "Eerst vermenigvuldigen: 4 × 2 = 8. Dan optellen: 3 + 8 = 11."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "(3 + 4) × 2 = ___",
+     "antwoord": "14",
+     "uitleg": "Eerst wat tussen haakjes staat: 3 + 4 = 7. Dan 7 × 2 = 14."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoeveel is 20 − 12 : 4?",
+     "opties": [
+      "2",
+      "17",
+      "8",
+      "5"
+     ],
+     "antwoord": 1,
+     "uitleg": "Eerst delen: 12 : 4 = 3. Dan aftrekken: 20 − 3 = 17."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Bij 10 − 2 × 3 reken je eerst 10 − 2.",
+     "antwoord": false,
+     "uitleg": "Eerst vermenigvuldigen: 2 × 3 = 6. Dan 10 − 6 = 4."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "(20 − 5) : 3 = ___",
+     "antwoord": "5",
+     "uitleg": "Eerst tussen haakjes: 20 − 5 = 15. Dan 15 : 3 = 5."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Een klas koopt 28 schriften van 3 euro. Hoeveel betalen ze?",
+     "opties": [
+      "74 euro",
+      "84 euro",
+      "31 euro",
+      "64 euro"
+     ],
+     "antwoord": 1,
+     "uitleg": "28 × 3: 20 × 3 = 60 en 8 × 3 = 24. Samen 84 euro."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Een bus heeft 48 plaatsen. Hoeveel plaatsen hebben 5 bussen samen?",
+     "antwoord": "240",
+     "uitleg": "48 × 5: 40 × 5 = 200 en 8 × 5 = 40. Samen 240."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Oma verdeelt 120 euro eerlijk over 8 kleinkinderen. Hoeveel krijgt elk?",
+     "opties": [
+      "12 euro",
+      "15 euro",
+      "16 euro",
+      "20 euro"
+     ],
+     "antwoord": 1,
+     "uitleg": "120 : 8 = 15, want 15 × 8 = 120."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "2 × 3 + 4 en 2 × (3 + 4) geven dezelfde uitkomst.",
+     "antwoord": false,
+     "uitleg": "2 × 3 + 4 = 6 + 4 = 10. 2 × (3 + 4) = 2 × 7 = 14. Haakjes veranderen de volgorde."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Bij 5 × 2 + 1 begin je met de vermenigvuldiging.",
+     "antwoord": true,
+     "uitleg": "Eerst × en :, dan + en −. 5 × 2 = 10, daarna + 1 = 11."
+    }
+   ]
+  }
+ ]
+}

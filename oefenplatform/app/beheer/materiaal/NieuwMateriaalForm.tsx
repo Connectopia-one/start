@@ -201,7 +201,7 @@ export function NieuwMateriaalForm({ groepen }: { groepen: string[] }) {
           defaultValue="lager"
           className={veld}
         >
-          <option value="lager">Lagere school (Basis en Start)</option>
+          <option value="lager">Lagere school (Basis, Ready en Start)</option>
           <option value="middelbaar">
             Middelbare school (Spark, Boost en Beyond)
           </option>

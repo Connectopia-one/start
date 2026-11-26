@@ -1,0 +1,366 @@
+{
+ "hoofdstukken": [
+  {
+   "titel": "Werkwoorden — deel 1",
+   "niveau": "ready",
+   "korte_uitleg": "Een werkwoord zegt wat iemand doet. Ik: de stam (ik werk). Jij en hij: stam + t (jij werkt, hij werkt). Staat jij achter het werkwoord, dan geen t: werk jij?",
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk woord is een werkwoord?",
+     "opties": [
+      "tafel",
+      "lopen",
+      "groen",
+      "snel"
+     ],
+     "antwoord": 1,
+     "uitleg": "Lopen is iets wat je doet. Dat is een werkwoord."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke vorm is juist: ik ... (werken)",
+     "opties": [
+      "werk",
+      "werkt",
+      "werkd",
+      "werken"
+     ],
+     "antwoord": 0,
+     "uitleg": "Bij ik schrijf je de stam: ik werk."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke vorm is juist: hij ... (werken)",
+     "opties": [
+      "werk",
+      "werkt",
+      "werkd",
+      "werken"
+     ],
+     "antwoord": 1,
+     "uitleg": "Bij hij komt er een t achter de stam: hij werkt."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Jij ___ (spelen) buiten.",
+     "antwoord": "speelt",
+     "uitleg": "Bij jij komt er een t achter de stam: jij speelt."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke vraag is juist geschreven?",
+     "opties": [
+      "Speelt jij mee?",
+      "Speel jij mee?",
+      "Speeld jij mee?",
+      "Spelen jij mee?"
+     ],
+     "antwoord": 1,
+     "uitleg": "Staat jij achter het werkwoord, dan valt de t weg: speel jij?"
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "In de zin 'Loopt jij naar school?' staat het werkwoord juist.",
+     "antwoord": false,
+     "uitleg": "Jij staat achter het werkwoord, dus geen t: Loop jij naar school?"
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Ik ___ (worden) groot.",
+     "antwoord": "word",
+     "uitleg": "Bij ik schrijf je de stam: ik word. De stam van worden eindigt op d."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke vorm is juist: hij ... (worden) negen jaar.",
+     "opties": [
+      "word",
+      "wordt",
+      "wort",
+      "worden"
+     ],
+     "antwoord": 1,
+     "uitleg": "Hij: stam + t. Stam word + t = wordt."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "In 'Ik vind mijn sleutel' is vind juist geschreven.",
+     "antwoord": true,
+     "uitleg": "Bij ik schrijf je de stam: vind. Geen t erachter."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Zij ___ (lezen) een boek.",
+     "antwoord": "leest",
+     "uitleg": "Zij (één persoon): stam + t. Stam lees + t = leest."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke vorm is juist: wij ... (zingen)",
+     "opties": [
+      "zing",
+      "zingt",
+      "zingen",
+      "zingte"
+     ],
+     "antwoord": 2,
+     "uitleg": "Bij wij, jullie en zij (meer personen) schrijf je het hele werkwoord: wij zingen."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Bij 'mama en papa' schrijf je het werkwoord met een t: mama en papa kookt.",
+     "antwoord": false,
+     "uitleg": "Mama en papa zijn twee personen. Je schrijft: mama en papa koken."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe heet de stam van het werkwoord 'fietsen'? ___",
+     "antwoord": "fiets",
+     "uitleg": "Haal -en weg: fiets. Ik fiets."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke vorm is juist: het meisje ... (rijden) op een paard.",
+     "opties": [
+      "rij",
+      "rijd",
+      "rijdt",
+      "rijden"
+     ],
+     "antwoord": 2,
+     "uitleg": "Het meisje is één persoon: stam rijd + t = rijdt."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De stam van 'maken' is 'maak'.",
+     "antwoord": true,
+     "uitleg": "Haal -en weg en luister: mak wordt maak, met twee a's."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hij ___ (houden) van chocolade.",
+     "antwoord": "houdt",
+     "uitleg": "Hij: stam houd + t = houdt."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk woord is geen werkwoord?",
+     "opties": [
+      "springen",
+      "eten",
+      "vrolijk",
+      "slapen"
+     ],
+     "antwoord": 2,
+     "uitleg": "Vrolijk zegt hoe iemand is. Je kan niet 'vrolijken'."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Je hoort de t niet in 'hij vindt', maar je schrijft hem wel.",
+     "antwoord": true,
+     "uitleg": "Hij: stam + t. Je hoort het niet, maar het hoort er wel bij."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke zin is juist?",
+     "opties": [
+      "Word jij morgen negen?",
+      "Wordt jij morgen negen?",
+      "Wort jij morgen negen?",
+      "Worden jij morgen negen?"
+     ],
+     "antwoord": 0,
+     "uitleg": "Jij achter het werkwoord: geen t. Word jij?"
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Jullie lacht is juist.",
+     "antwoord": false,
+     "uitleg": "Bij jullie schrijf je het hele werkwoord: jullie lachen."
+    }
+   ]
+  },
+  {
+   "titel": "Werkwoorden — deel 2",
+   "niveau": "ready",
+   "korte_uitleg": "Verleden tijd: wat al gebeurd is (ik speelde, ik liep). Het voltooid deelwoord hoort bij hebben of zijn en begint vaak met ge: ik heb gespeeld, ik ben gelopen.",
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke zin staat in de verleden tijd?",
+     "opties": [
+      "Ik speel voetbal.",
+      "Ik speelde voetbal.",
+      "Ik ga voetballen.",
+      "Ik zal voetballen."
+     ],
+     "antwoord": 1,
+     "uitleg": "Speelde zegt dat het al gebeurd is."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Gisteren ___ (spelen) ik met mijn zus.",
+     "antwoord": "speelde",
+     "uitleg": "Gisteren is voorbij: verleden tijd. Ik speelde."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is de verleden tijd van 'ik loop'?",
+     "opties": [
+      "ik loopte",
+      "ik liep",
+      "ik lopen",
+      "ik heb loop"
+     ],
+     "antwoord": 1,
+     "uitleg": "Lopen verandert van klank: ik liep."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is de verleden tijd van 'ik ga'?",
+     "opties": [
+      "ik gaade",
+      "ik gong",
+      "ik ging",
+      "ik gade"
+     ],
+     "antwoord": 2,
+     "uitleg": "Gaan is een werkwoord dat helemaal verandert: ik ging."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Vorige week ___ (zijn) we in de zee.",
+     "antwoord": "waren",
+     "uitleg": "Wij en verleden tijd: we waren."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'Ik at een appel' staat in de verleden tijd.",
+     "antwoord": true,
+     "uitleg": "At is de verleden tijd van eten."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is de verleden tijd van 'hij schrijft'?",
+     "opties": [
+      "hij schrijfte",
+      "hij schreef",
+      "hij schrijven",
+      "hij schrijfde"
+     ],
+     "antwoord": 1,
+     "uitleg": "Schrijven verandert van klank: hij schreef."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'Morgen fietste ik naar oma' is een juiste zin.",
+     "antwoord": false,
+     "uitleg": "Morgen moet nog komen. Dan zeg je: Morgen fiets ik naar oma."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Ik heb een tekening ___ (maken).",
+     "antwoord": "gemaakt",
+     "uitleg": "Bij hebben hoort een voltooid deelwoord: ge + maak + t = gemaakt."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk voltooid deelwoord is juist: ik heb ... (spelen)",
+     "opties": [
+      "gespeeld",
+      "gespeelt",
+      "speelde",
+      "gespelen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Maak het langer en luister: de gespeelde match. Je hoort een d, dus gespeeld."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke zin is juist?",
+     "opties": [
+      "Ik ben naar school geloopt.",
+      "Ik ben naar school gelopen.",
+      "Ik heb naar school gelopen.",
+      "Ik ben naar school liep."
+     ],
+     "antwoord": 1,
+     "uitleg": "Bij lopen hoort zijn: ik ben gelopen."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Wij hebben een liedje ___ (zingen).",
+     "antwoord": "gezongen",
+     "uitleg": "Zingen verandert van klank: we hebben gezongen."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Het voltooid deelwoord van 'werken' is 'gewerkt'.",
+     "antwoord": true,
+     "uitleg": "Ge + werk + t = gewerkt."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk woord is een voltooid deelwoord?",
+     "opties": [
+      "fietsen",
+      "fietst",
+      "gefietst",
+      "fietste"
+     ],
+     "antwoord": 2,
+     "uitleg": "Gefietst hoort bij 'ik heb gefietst'."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Het voltooid deelwoord van 'eten' is 'geeet'.",
+     "antwoord": false,
+     "uitleg": "Eten verandert anders: ik heb gegeten."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Gisteren ___ (hebben) ik buikpijn.",
+     "antwoord": "had",
+     "uitleg": "Hebben in de verleden tijd: ik had."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is de verleden tijd van 'wij drinken'?",
+     "opties": [
+      "wij drinkten",
+      "wij dronken",
+      "wij gedronken",
+      "wij drinkden"
+     ],
+     "antwoord": 1,
+     "uitleg": "Drinken verandert van klank: wij dronken."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "In 'Ik heb gelachen' staat het werkwoord in de tegenwoordige tijd.",
+     "antwoord": false,
+     "uitleg": "Ik heb gelachen is al gebeurd. Het voltooid deelwoord gelachen vertelt over iets van daarnet of vroeger."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke zin vertelt over iets dat nu gebeurt?",
+     "opties": [
+      "Ik zwom in de zee.",
+      "Ik zwem in de zee.",
+      "Ik heb gezwommen.",
+      "Ik zwemde in de zee."
+     ],
+     "antwoord": 1,
+     "uitleg": "Ik zwem: dat is nu, de tegenwoordige tijd."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'Hij kwam te laat' staat in de verleden tijd.",
+     "antwoord": true,
+     "uitleg": "Kwam is de verleden tijd van komen."
+    }
+   ]
+  }
+ ]
+}

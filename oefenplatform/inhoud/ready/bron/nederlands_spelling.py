@@ -10,19 +10,9 @@ Bouwen en nakijken: python3 bouw.py nederlands_spelling
 
 TITEL = "Spelling"
 
-UITLEG_1 = ("Sommige klanken klinken hetzelfde, maar schrijf je anders: ei en ij, au en ou. "
-            "Die woorden moet je goed onthouden. Lees ze vaak en schrijf ze over.\n"
-            "aai, oei en ooi schrijf je altijd met een i op het einde: haai, koei, mooi.\n"
-            "eeuw en ieuw eindigen op een w: sneeuw, nieuw.\n"
-            "ng of nk? Luister goed: bij nk hoor je een k (bank), bij ng niet (ring).\n"
-            "g of ch op het einde? Maak het woord langer: dagen, dus dag. Lachen, dus lach.")
+UITLEG_1 = 'ei en ij, au en ou klinken hetzelfde: die woorden onthoud je. aai, oei en ooi eindigen op i. Bij nk hoor je een k. Twijfel je tussen g en ch? Maak het woord langer: dagen, dus dag.'
 
-UITLEG_2 = ("d of t, b of p op het einde? Maak het woord langer: honden, dus hond. Webben, dus web.\n"
-            "Meervoud: meestal komt er -en achter (boeken), soms -s (tafels) of 's (auto's). "
-            "Let op: boom wordt bomen, bal wordt ballen, huis wordt huizen.\n"
-            "Verkleinwoord: -je (huisje), -tje (stoeltje), -pje (boompje), -etje (balletje) of -kje (koninkje).\n"
-            "Een hoofdletter schrijf je aan het begin van een zin en bij namen van mensen, steden en landen. "
-            "Dagen en maanden krijgen geen hoofdletter.")
+UITLEG_2 = "Twijfel je op het einde? Maak het woord langer: honden, dus hond. Meervoud: -en, -s of 's. Verkleinwoord: -je, -tje, -pje of -etje. Hoofdletter bij een nieuwe zin en bij namen."
 
 DEEL_1 = [
     dict(type="waarofniet", vraag="Je schrijft trein met ei.", antwoord=True,

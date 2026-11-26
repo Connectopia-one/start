@@ -97,6 +97,7 @@ export const tipsTekst = {
     tabelKoppen: ["Bij ons", "Vlaanderen", "Nederland, ongeveer"],
     tabel: [
       ["🧱 Basis", "herhaling, voor elk niveau", "herhaling, voor elk niveau"],
+      ["🎒 Ready", "3de en 4de leerjaar", "groep 5 en 6"],
       ["🌱 Start", "5de en 6de leerjaar", "groep 7 en 8"],
       ["✨ Spark", "1ste en 2de middelbaar", "klas 1 en 2, vooral havo en vwo"],
       ["🚀 Boost", "3de en 4de middelbaar", "klas 3 en 4 havo of vwo"],

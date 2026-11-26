@@ -12,16 +12,9 @@ Bouwen en nakijken: python3 bouw.py wiskunde_tafels
 
 TITEL = "Tafels en delen"
 
-UITLEG_1 = ("Vermenigvuldigen is herhaald optellen. 4 × 3 betekent 4 groepjes van 3: 3 + 3 + 3 + 3 = 12.\n"
-            "Je mag de getallen wisselen: 4 × 3 is evenveel als 3 × 4.\n"
-            "Handige trucjes: een getal × 1 blijft hetzelfde, een getal × 0 is altijd 0, "
-            "en × 10 zet een nul achter het getal. Ken je 4 × 6, dan is 8 × 6 het dubbele.")
+UITLEG_1 = 'Vermenigvuldigen is groepjes maken: 4 × 3 is 4 groepjes van 3, samen 12. Wisselen mag: 3 × 4 is ook 12. Trucjes: × 1 blijft hetzelfde, × 0 is 0, × 10 zet een nul achter het getal.'
 
-UITLEG_2 = ("Delen is eerlijk verdelen. 12 : 3 = 4, want 4 × 3 = 12. Bij elke deling hoort een vermenigvuldiging.\n"
-            "Lukt het niet precies, dan blijft er een rest over: 14 : 4 = 3 rest 2. De rest is altijd kleiner dan het getal waardoor je deelt.\n"
-            "Een deler past precies in een getal: 3 is een deler van 12. Een veelvoud krijg je door te vermenigvuldigen: 12 is een veelvoud van 3.\n"
-            "Deelbaar door 2: het getal eindigt op 0, 2, 4, 6 of 8. Door 5: het eindigt op 0 of 5. "
-            "Door 10: het eindigt op 0. Door 100: op 00. Door 1 000: op 000.")
+UITLEG_2 = 'Delen is eerlijk verdelen: 12 : 3 = 4, want 4 × 3 = 12. Gaat het niet precies, dan is er een rest: 14 : 4 = 3 rest 2. Deelbaar door 2: het getal eindigt op 0, 2, 4, 6 of 8.'
 
 DEEL_1 = [
     dict(type="meerkeuze", vraag="Hoeveel is 7 × 8?", opties=["54", "56", "48", "64"], antwoord=1, reken=56,

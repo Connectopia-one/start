@@ -1,0 +1,362 @@
+{
+ "hoofdstukken": [
+  {
+   "titel": "Meten en geld — deel 1",
+   "niveau": "ready",
+   "korte_uitleg": "Lengte: 1 km = 1 000 m, 1 m = 100 cm, 1 cm = 10 mm. Gewicht: 1 kg = 1 000 g. Inhoud: 1 l = 1 000 ml. Geld: 1 euro = 100 cent.",
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoeveel meter is 1 kilometer?",
+     "opties": [
+      "10 m",
+      "100 m",
+      "1 000 m",
+      "10 000 m"
+     ],
+     "antwoord": 2,
+     "uitleg": "Kilo betekent duizend: 1 km = 1 000 m."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "1 m = ___ cm",
+     "antwoord": "100",
+     "uitleg": "Centi betekent honderdste: er gaan 100 cm in 1 m."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "3 cm = ___ mm",
+     "antwoord": "30",
+     "uitleg": "1 cm = 10 mm, dus 3 cm = 30 mm."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoeveel gram is 2 kg?",
+     "opties": [
+      "20 g",
+      "200 g",
+      "2 000 g",
+      "20 000 g"
+     ],
+     "antwoord": 2,
+     "uitleg": "1 kg = 1 000 g, dus 2 kg = 2 000 g."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "1 l = ___ ml",
+     "antwoord": [
+      "1 000",
+      "1000"
+     ],
+     "uitleg": "Milli betekent duizendste: 1 l = 1 000 ml."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een halve liter is 500 ml.",
+     "antwoord": true,
+     "uitleg": "De helft van 1 000 ml is 500 ml."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat meet je best in kilogram?",
+     "opties": [
+      "de lengte van een potlood",
+      "het gewicht van een zak aardappelen",
+      "de inhoud van een glas",
+      "de afstand naar Brussel"
+     ],
+     "antwoord": 1,
+     "uitleg": "Kilogram is een maat voor gewicht."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke lengte past bij de hoogte van een deur?",
+     "opties": [
+      "2 mm",
+      "2 cm",
+      "2 m",
+      "2 km"
+     ],
+     "antwoord": 2,
+     "uitleg": "Een deur is ongeveer 2 meter hoog."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "250 cm is meer dan 2 m.",
+     "antwoord": true,
+     "uitleg": "2 m = 200 cm, en 250 cm is meer."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "1 kg veren is lichter dan 1 kg ijzer.",
+     "antwoord": false,
+     "uitleg": "Allebei wegen ze 1 kg. Het ijzer neemt wel minder plaats in."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "1 m 35 cm = ___ cm",
+     "antwoord": "135",
+     "uitleg": "1 m = 100 cm, en daar komen 35 cm bij: 135 cm."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoeveel kost het samen: een boek van 7,50 euro en een pen van 1,80 euro?",
+     "opties": [
+      "8,30 euro",
+      "9,30 euro",
+      "9,80 euro",
+      "8,80 euro"
+     ],
+     "antwoord": 1,
+     "uitleg": "7,50 + 1,80: 7 + 1 = 8 euro, 50 + 80 = 130 cent = 1,30 euro. Samen 9,30 euro."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Je betaalt 5 euro voor een ijsje van 3,40 euro. Hoeveel krijg je terug? ___ euro",
+     "antwoord": [
+      "1,60",
+      "1.60",
+      "1,6"
+     ],
+     "uitleg": "Van 3,40 naar 4 is 0,60. Van 4 naar 5 is 1. Samen 1,60 euro."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "2 euro is evenveel als 200 cent.",
+     "antwoord": true,
+     "uitleg": "1 euro = 100 cent, dus 2 euro = 200 cent."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke munten maken samen precies 1 euro?",
+     "opties": [
+      "50 cent + 20 cent + 20 cent",
+      "50 cent + 20 cent + 20 cent + 10 cent",
+      "50 cent + 50 cent + 10 cent",
+      "20 cent + 20 cent + 20 cent"
+     ],
+     "antwoord": 1,
+     "uitleg": "50 + 20 + 20 + 10 = 100 cent = 1 euro."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "2 km 500 m = ___ m",
+     "antwoord": [
+      "2 500",
+      "2500"
+     ],
+     "uitleg": "2 km = 2 000 m, en daar komt 500 m bij: 2 500 m."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een fles water van 1,5 l bevat 150 ml.",
+     "antwoord": false,
+     "uitleg": "1,5 l = 1 500 ml."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Een pakje boter weegt 250 g. Hoeveel pakjes zijn samen 1 kg?",
+     "opties": [
+      "2",
+      "4",
+      "5",
+      "10"
+     ],
+     "antwoord": 1,
+     "uitleg": "4 × 250 g = 1 000 g = 1 kg."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoeveel cent is 3,05 euro? ___ cent",
+     "antwoord": "305",
+     "uitleg": "3 euro = 300 cent, en daar komen 5 cent bij: 305 cent."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een kilometer is korter dan 900 meter.",
+     "antwoord": false,
+     "uitleg": "1 km = 1 000 m, en dat is meer dan 900 m."
+    }
+   ]
+  },
+  {
+   "titel": "Meten en geld — deel 2",
+   "niveau": "ready",
+   "korte_uitleg": "Omtrek is de lengte van de rand: tel alle zijden op. Oppervlakte is hoeveel vierkantjes erin passen: lengte × breedte. Volume: tel de kubusjes.",
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Een vierkant heeft zijden van 5 cm. Wat is de omtrek?",
+     "opties": [
+      "10 cm",
+      "20 cm",
+      "25 cm",
+      "15 cm"
+     ],
+     "antwoord": 1,
+     "uitleg": "Een vierkant heeft 4 gelijke zijden: 4 × 5 cm = 20 cm."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Een rechthoek is 6 cm lang en 4 cm breed. De omtrek is ___ cm.",
+     "antwoord": "20",
+     "uitleg": "6 + 4 + 6 + 4 = 20 cm."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Een rechthoek is 6 cm lang en 4 cm breed. Wat is de oppervlakte?",
+     "opties": [
+      "10 cm²",
+      "20 cm²",
+      "24 cm²",
+      "24 cm"
+     ],
+     "antwoord": 2,
+     "uitleg": "Lengte × breedte: 6 × 4 = 24. Oppervlakte schrijf je in cm²."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Een vierkant heeft zijden van 3 m. De oppervlakte is ___ m².",
+     "antwoord": "9",
+     "uitleg": "3 × 3 = 9 m²."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Omtrek en oppervlakte zijn hetzelfde.",
+     "antwoord": false,
+     "uitleg": "Omtrek is de lengte van de rand. Oppervlakte is hoeveel plaats de figuur binnenin inneemt."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke maat past bij de oppervlakte van een klaslokaal?",
+     "opties": [
+      "60 cm²",
+      "60 dm²",
+      "60 m²",
+      "60 km²"
+     ],
+     "antwoord": 2,
+     "uitleg": "Een klaslokaal is ongeveer 8 m bij 7 of 8 m. Dat geeft zo'n 60 m²."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Oppervlakte schrijf je met een kleine 2: bijvoorbeeld cm².",
+     "antwoord": true,
+     "uitleg": "De kleine 2 toont dat het om vierkante centimeters gaat."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoeveel cm² past er in 1 dm²?",
+     "opties": [
+      "10",
+      "100",
+      "1 000",
+      "20"
+     ],
+     "antwoord": 1,
+     "uitleg": "1 dm = 10 cm. Een vierkant van 10 cm bij 10 cm bevat 100 vierkantjes van 1 cm²."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Een blok is gebouwd met 3 rijen van 4 kubusjes, en dat 2 lagen hoog. Hoeveel kubusjes zijn het? ___",
+     "antwoord": "24",
+     "uitleg": "Eén laag: 3 × 4 = 12. Twee lagen: 2 × 12 = 24 kubusjes."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe bereken je de omtrek van een rechthoek van 8 m bij 3 m?",
+     "opties": [
+      "8 × 3",
+      "8 + 3",
+      "8 + 3 + 8 + 3",
+      "8 × 3 × 2"
+     ],
+     "antwoord": 2,
+     "uitleg": "Omtrek is alle zijden samen: 8 + 3 + 8 + 3 = 22 m."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een vierkant van 4 cm bij 4 cm heeft een omtrek van 16 cm en een oppervlakte van 16 cm².",
+     "antwoord": true,
+     "uitleg": "Omtrek 4 × 4 = 16 cm. Oppervlakte 4 × 4 = 16 cm². Toevallig hetzelfde getal, maar een andere maat."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Een tuin is 10 m lang en 5 m breed. Papa zet er een hek rond. Hoeveel meter hek heeft hij nodig?",
+     "opties": [
+      "15 m",
+      "30 m",
+      "50 m",
+      "25 m"
+     ],
+     "antwoord": 1,
+     "uitleg": "Rond de tuin is de omtrek: 10 + 5 + 10 + 5 = 30 m."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Een vloer is 4 m lang en 3 m breed. Hoeveel m² tegels heb je nodig? ___ m²",
+     "antwoord": "12",
+     "uitleg": "Oppervlakte: 4 × 3 = 12 m²."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een rechthoek van 2 cm bij 8 cm heeft een grotere oppervlakte dan een vierkant van 4 cm bij 4 cm.",
+     "antwoord": false,
+     "uitleg": "2 × 8 = 16 cm² en 4 × 4 = 16 cm². Ze zijn even groot."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat meet je in kubusjes?",
+     "opties": [
+      "de omtrek",
+      "de oppervlakte",
+      "het volume",
+      "de lengte"
+     ],
+     "antwoord": 2,
+     "uitleg": "Het volume is hoeveel ruimte iets inneemt. Dat meet je met kubusjes."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Drie schriften van 2,50 euro kosten samen ___ euro.",
+     "antwoord": [
+      "7,50",
+      "7.50",
+      "7,5"
+     ],
+     "uitleg": "3 × 2 euro = 6 euro en 3 × 50 cent = 1,50 euro. Samen 7,50 euro."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Een snoepje kost 15 cent. Hoeveel kosten 10 snoepjes?",
+     "opties": [
+      "1,05 euro",
+      "1,50 euro",
+      "15 euro",
+      "0,25 euro"
+     ],
+     "antwoord": 1,
+     "uitleg": "10 × 15 cent = 150 cent = 1,50 euro."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Met een briefje van 10 euro kan je 3 boeken van 3,50 euro kopen.",
+     "antwoord": false,
+     "uitleg": "3 × 3,50 = 10,50 euro. Dat is meer dan 10 euro."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Een rechthoek heeft een oppervlakte van 20 cm². Hij is 5 cm lang. Hoe breed is hij? ___ cm",
+     "antwoord": "4",
+     "uitleg": "Lengte × breedte = 20, en 5 × 4 = 20. Dus 4 cm breed."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een kubus van 2 bij 2 bij 2 kubusjes bestaat uit 8 kubusjes.",
+     "antwoord": true,
+     "uitleg": "2 × 2 = 4 per laag, en 2 lagen: 8 kubusjes."
+    }
+   ]
+  }
+ ]
+}

@@ -91,10 +91,11 @@ def _oefening(o, nr):
     if soort == "invulwoord":
         # Het kind schrijft de ontbrekende letters in het woord zelf: elke __ in
         # het woord wordt een hokje. Handig voor jonge kinderen (Ready, Launchpad)
-        # die nog moeite hebben om een heel woord over te schrijven.
+        # die nog moeite hebben om een heel woord over te schrijven. ____ (vier
+        # streepjes) geeft een breed hokje voor een heel woord.
         cellen = "".join(
             f'<div class="cel"><span class="letter">{LETTERS[i]})</span> '
-            f'<span class="som">{w.replace("__", '<span class="gat"></span>')}</span></div>'
+            f'<span class="som">{w.replace("____", '<span class="gat breed"></span>').replace("__", '<span class="gat"></span>')}</span></div>'
             for i, (w, _) in enumerate(o[1])
         )
         antw = " · ".join(f"{LETTERS[i]}) {a}" for i, (_, a) in enumerate(o[1]))

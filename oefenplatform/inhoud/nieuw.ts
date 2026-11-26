@@ -41,6 +41,12 @@ export const nieuwTekst = {
 export const updates: Update[] = [
   {
     datum: "26 november 2026",
+    titel: "Nieuw: Ready voor het 3de en 4de leerjaar",
+    tekst:
+      "Er is een nieuwe knop 🎒 Ready, voor kinderen van het 3de en 4de leerjaar. Bij wiskunde: getallen tot 10 000, rekenen en cijferen, tafels en delen, breuken en kommagetallen, meten en geld, tijd en temperatuur, meetkunde, en vraagstukken en tabellen. Bij Nederlands: spelling, werkwoorden, woordsoorten en zinnen, lezen en woordenschat, en taal en verhalen. Elk hoofdstuk heeft een korte uitleg, twee keer 20 vragen, een leerbundel en een oefenbundel met grote letters, hoge schrijflijnen en hokjes om letters in het woord zelf in te vullen. De voorleesknop staat bij Ready altijd aan.",
+  },
+  {
+    datum: "26 november 2026",
     titel: "Lege omzettabellen om af te drukken",
     tekst:
       "Bij Leuke extra's, onder afdrukbare documenten, staan nu zes lege omzettabellen: lengte, inhoud, gewicht, oppervlakte, volume en een tabel voor getallen en kommagetallen. Druk ze af, lamineer ze en schrijf erop met een whiteboardstift, dan kan je ze telkens opnieuw gebruiken. De nieuwe hoofdstukken voor het 6de leerjaar hebben nu ook een leerbundel en een oefenbundel, met plaats om je tussenstappen op te schrijven.",

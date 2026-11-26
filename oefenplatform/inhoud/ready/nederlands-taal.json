@@ -1,0 +1,387 @@
+{
+ "hoofdstukken": [
+  {
+   "titel": "Taal en verhalen — deel 1",
+   "niveau": "ready",
+   "korte_uitleg": "Een verhaal heeft een begin (wie, waar, wanneer), een midden (er gebeurt iets, vaak een probleem) en een slot (hoe het afloopt). De personen in een verhaal heten personages.",
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat vertel je meestal in het begin van een verhaal?",
+     "opties": [
+      "hoe het verhaal helemaal afloopt",
+      "wie er meedoet, waar en wanneer",
+      "de les die je eruit leert",
+      "wat de schrijver graag eet"
+     ],
+     "antwoord": 1,
+     "uitleg": "In het begin leer je de personages kennen en weet je waar en wanneer het gebeurt."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe noem je de personen in een verhaal?",
+     "opties": [
+      "schrijvers",
+      "personages",
+      "lezers",
+      "tekenaars"
+     ],
+     "antwoord": 1,
+     "uitleg": "De mensen of dieren die in het verhaal meedoen, heten personages."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "In het slot van een verhaal lees je hoe het afloopt.",
+     "antwoord": true,
+     "uitleg": "Het slot vertelt hoe het probleem opgelost wordt."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Een verhaal begint met 'Er was eens'. Wat voor verhaal is het waarschijnlijk?",
+     "opties": [
+      "een recept",
+      "een sprookje",
+      "een krantenbericht",
+      "een weerbericht"
+     ],
+     "antwoord": 1,
+     "uitleg": "Sprookjes beginnen vaak met 'Er was eens'."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "In het midden van een verhaal ontstaat er vaak een ___. (Iets wat misloopt)",
+     "antwoord": [
+      "probleem",
+      "probleempje"
+     ],
+     "uitleg": "In het midden gebeurt er iets spannends of loopt er iets mis."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wie schrijft een boek?",
+     "opties": [
+      "de illustrator",
+      "de schrijver",
+      "de lezer",
+      "de bibliothecaris"
+     ],
+     "antwoord": 1,
+     "uitleg": "De schrijver of auteur bedenkt het verhaal. De illustrator maakt de prenten."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een illustrator schrijft het verhaal van een boek.",
+     "antwoord": false,
+     "uitleg": "De illustrator maakt de tekeningen. De schrijver bedenkt het verhaal."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke zin hoort het best bij het slot van een verhaal?",
+     "opties": [
+      "Op een dag kreeg Kato een vreemde brief.",
+      "En zo vond Kato haar kat terug in de schuur.",
+      "Kato woonde met haar ouders in een klein huis bij het donkere bos.",
+      "Plots hoorde Kato een raar geluid."
+     ],
+     "antwoord": 1,
+     "uitleg": "Die zin vertelt hoe het afloopt. De andere zinnen passen bij het begin of het midden."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een verhaal moet altijd echt gebeurd zijn.",
+     "antwoord": false,
+     "uitleg": "Veel verhalen zijn verzonnen, zoals sprookjes en fantasieverhalen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "In 'Op een koude winterdag liep Bas door het bos' lees je ...",
+     "opties": [
+      "enkel wie er in het verhaal meedoet",
+      "wie, wanneer en waar",
+      "hoe het verhaal afloopt",
+      "welk probleem er komt"
+     ],
+     "antwoord": 1,
+     "uitleg": "Wie: Bas. Wanneer: op een koude winterdag. Waar: in het bos."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "In het verhaal 'Roodkapje' is de wolf een ___.",
+     "antwoord": [
+      "personage",
+      "personage."
+     ],
+     "uitleg": "De wolf doet mee in het verhaal. Hij is een personage."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom zet een schrijver een spannend stuk in het midden?",
+     "opties": [
+      "om je te vervelen",
+      "zodat je verder wil lezen",
+      "om het boek dikker te maken",
+      "omdat het moet van de uitgever"
+     ],
+     "antwoord": 1,
+     "uitleg": "Spanning zorgt ervoor dat je wil weten hoe het afloopt."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een gedicht heeft vaak korte regels en soms rijm.",
+     "antwoord": true,
+     "uitleg": "Bij rijm klinken de woorden aan het eind van de regels gelijk, zoals muis en huis."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke woorden rijmen?",
+     "opties": [
+      "boom en bal",
+      "kat en hoed",
+      "muis en huis",
+      "vlinder en hond"
+     ],
+     "antwoord": 2,
+     "uitleg": "Muis en huis eindigen op dezelfde klank."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welk woord rijmt op 'ster'? Ik zie een ster, heel ___. (iets wat niet dichtbij is)",
+     "antwoord": "ver",
+     "uitleg": "Ster en ver rijmen."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "In een strip staan nooit tekstballonnen.",
+     "antwoord": false,
+     "uitleg": "In een strip staan de woorden van de personages net in tekstballonnen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is het hoofdpersonage?",
+     "opties": [
+      "het personage dat het minst zegt in het hele boek",
+      "het personage waarover het verhaal gaat",
+      "de schrijver van het boek",
+      "het dier op de kaft"
+     ],
+     "antwoord": 1,
+     "uitleg": "Het hoofdpersonage is de belangrijkste persoon in het verhaal."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De titel van een boek staat meestal op de achterkant.",
+     "antwoord": false,
+     "uitleg": "De titel staat op de voorkant, de kaft. Op de achterkant staat vaak een korte uitleg."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waar vind je een korte uitleg over waarover een boek gaat?",
+     "opties": [
+      "op de achterflap",
+      "op de laatste bladzijde",
+      "in de inhoudstafel",
+      "op de rug van het boek"
+     ],
+     "antwoord": 0,
+     "uitleg": "Op de achterkant of achterflap lees je een korte uitleg die je nieuwsgierig maakt."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "In een verhaal mag de tijd verspringen, bijvoorbeeld 'drie dagen later'.",
+     "antwoord": true,
+     "uitleg": "Met zinnen zoals 'de volgende ochtend' of 'drie dagen later' springt de schrijver in de tijd."
+    }
+   ]
+  },
+  {
+   "titel": "Taal en verhalen — deel 2",
+   "niveau": "ready",
+   "korte_uitleg": "Er zijn veel soorten teksten: een verhaal, een recept, een brief, een uitnodiging, een gedicht. Elk heeft een eigen doel. Woorden in alfabetische volgorde zet je zoals in het woordenboek.",
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is het doel van een recept?",
+     "opties": [
+      "je laten lachen",
+      "uitleggen hoe je iets klaarmaakt",
+      "vertellen wat er gisteren gebeurde",
+      "iemand uitnodigen"
+     ],
+     "antwoord": 1,
+     "uitleg": "Een recept legt stap voor stap uit hoe je iets kookt of bakt."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat moet zeker op een uitnodiging voor een feestje?",
+     "opties": [
+      "je lievelingskleur en je lievelingseten",
+      "wanneer en waar het feest is",
+      "het weerbericht",
+      "een grap"
+     ],
+     "antwoord": 1,
+     "uitleg": "De gasten moeten weten wanneer en waar ze moeten komen."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een brief begin je vaak met een aanspreking, zoals 'Lieve oma'.",
+     "antwoord": true,
+     "uitleg": "Bovenaan schrijf je aan wie de brief is: Lieve oma, Beste juf."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe eindig je best een brief aan je oma?",
+     "opties": [
+      "Tot ziens, de bakker",
+      "Dikke kus, je kleinzoon Jonas",
+      "Einde",
+      "Met vriendelijke groeten, de directeur"
+     ],
+     "antwoord": 1,
+     "uitleg": "Je sluit af met een groet en je naam."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "In een brief schrijf je bovenaan de plaats en de ___ waarop je schrijft.",
+     "antwoord": "datum",
+     "uitleg": "Bijvoorbeeld: Gent, 3 mei."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke tekst vertelt je wat er gebeurd is in de wereld?",
+     "opties": [
+      "een sprookje",
+      "een krantenbericht",
+      "een verzonnen gedicht",
+      "een recept"
+     ],
+     "antwoord": 1,
+     "uitleg": "Een krant vertelt over echte gebeurtenissen."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een handleiding legt uit hoe iets werkt.",
+     "antwoord": true,
+     "uitleg": "Bijvoorbeeld hoe je een speelgoedrobot in elkaar zet."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk woord komt eerst in het woordenboek?",
+     "opties": [
+      "kat",
+      "appel",
+      "muis",
+      "boomhut"
+     ],
+     "antwoord": 1,
+     "uitleg": "A komt voor b, k en m."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk woord komt eerst in alfabetische volgorde?",
+     "opties": [
+      "bal",
+      "bed",
+      "bos",
+      "bus"
+     ],
+     "antwoord": 0,
+     "uitleg": "Ze beginnen allemaal met b. Kijk dan naar de tweede letter: a komt voor e, o en u."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Zet in alfabetische volgorde: zon, aap, maan. Het eerste woord is ___.",
+     "antwoord": "aap",
+     "uitleg": "a komt voor m en z."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "In alfabetische volgorde komt 'tafel' voor 'stoel'.",
+     "antwoord": false,
+     "uitleg": "De s komt voor de t, dus stoel komt eerst."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat doe je als je goed luistert in een gesprek?",
+     "opties": [
+      "Je onderbreekt de ander telkens met je eigen verhaal.",
+      "Je kijkt de ander aan en laat die uitspreken.",
+      "Je speelt met je gsm.",
+      "Je praat zelf heel luid."
+     ],
+     "antwoord": 1,
+     "uitleg": "Goed luisteren: aankijken, laten uitspreken en dan pas reageren."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Als je een spreekbeurt geeft, spreek je best heel snel.",
+     "antwoord": false,
+     "uitleg": "Spreek rustig en duidelijk, dan kan iedereen je volgen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je vertelt in de klas over je vakantie. Wat doe je best eerst?",
+     "opties": [
+      "meteen het einde vertellen",
+      "zeggen waar en wanneer je weg was",
+      "een grap vertellen over iemand anders",
+      "meteen gaan zitten"
+     ],
+     "antwoord": 1,
+     "uitleg": "Begin met waar en wanneer. Dan weten de anderen waarover je vertelt."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Een kort bericht op een papiertje aan iemand thuis noem je een ___. (b... of briefje)",
+     "antwoord": [
+      "briefje",
+      "berichtje"
+     ],
+     "uitleg": "Bijvoorbeeld: 'Mama, ik ben bij Sam. Tot straks!'"
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat past in een sms aan een vriend om af te spreken?",
+     "opties": [
+      "het hele verhaal van je dag op school",
+      "waar en hoe laat jullie afspreken",
+      "je huiswerk",
+      "een lijst met woorden"
+     ],
+     "antwoord": 1,
+     "uitleg": "Een kort bericht om af te spreken zegt waar en wanneer."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een gedicht moet altijd rijmen.",
+     "antwoord": false,
+     "uitleg": "Veel gedichten rijmen, maar het hoeft niet."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom heeft een informatieve tekst vaak tussenkopjes?",
+     "opties": [
+      "om de tekst mooier en kleuriger te maken",
+      "zodat je snel vindt wat je zoekt",
+      "omdat er geen prenten zijn",
+      "om de lezer te verwarren"
+     ],
+     "antwoord": 1,
+     "uitleg": "Tussenkopjes zeggen kort waarover elk stukje gaat."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een strip, een sprookje en een fabel zijn allemaal verhalen.",
+     "antwoord": true,
+     "uitleg": "Ze vertellen allemaal een verhaal, elk op hun eigen manier."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "In een fabel praten dieren soms zoals mensen.",
+     "antwoord": true,
+     "uitleg": "In een fabel spelen dieren de hoofdrol en vaak leer je er iets uit."
+    }
+   ]
+  }
+ ]
+}
