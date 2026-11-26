@@ -3,7 +3,7 @@
   {
    "titel": "Meten en geld — deel 1",
    "niveau": "ready",
-   "korte_uitleg": "Lengte: 1 km = 1 000 m, 1 m = 100 cm, 1 cm = 10 mm. Gewicht: 1 kg = 1 000 g. Inhoud: 1 l = 1 000 ml. Geld: 1 euro = 100 cent.",
+   "korte_uitleg": "Meter, kilo, liter en euro.",
    "vragen": [
     {
      "type": "meerkeuze",
@@ -182,7 +182,7 @@
   {
    "titel": "Meten en geld — deel 2",
    "niveau": "ready",
-   "korte_uitleg": "Omtrek is de lengte van de rand: tel alle zijden op. Oppervlakte is hoeveel vierkantjes erin passen: lengte × breedte. Volume: tel de kubusjes.",
+   "korte_uitleg": "Omtrek, oppervlakte en kubusjes tellen.",
    "vragen": [
     {
      "type": "meerkeuze",

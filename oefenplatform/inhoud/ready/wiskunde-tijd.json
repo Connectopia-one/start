@@ -3,7 +3,7 @@
   {
    "titel": "Tijd en temperatuur — deel 1",
    "niveau": "ready",
-   "korte_uitleg": "De kleine wijzer toont het uur, de grote wijzer de minuten. 1 uur = 60 minuten, 1 minuut = 60 seconden. Een digitale klok telt door tot 23.59: 15.00 is drie uur 's middags.",
+   "korte_uitleg": "Klok lezen: de kleine en de grote wijzer.",
    "vragen": [
     {
      "type": "meerkeuze",
@@ -184,7 +184,7 @@
   {
    "titel": "Tijd en temperatuur — deel 2",
    "niveau": "ready",
-   "korte_uitleg": "Een jaar heeft 12 maanden en 365 dagen (366 in een schrikkeljaar). Tijdsduur: tel eerst tot het volle uur en dan verder. Temperatuur meet je in graden Celsius (°C); water bevriest bij 0 °C.",
+   "korte_uitleg": "Kalender, hoe lang iets duurt en graden.",
    "vragen": [
     {
      "type": "meerkeuze",

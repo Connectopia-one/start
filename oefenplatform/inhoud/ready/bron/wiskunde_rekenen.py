@@ -5,8 +5,8 @@ rekenvolgorde en haakjes). Doel einde 4de leerjaar, Vlaamse overheid."""
 from vr import mk, inv, wn
 
 TITEL = "Rekenen en cijferen"
-UITLEG_1 = "Optellen en aftrekken: zet de getallen netjes onder elkaar, eenheden onder eenheden. Begin rechts. Heb je meer dan 9, dan schuift er 1 door naar links. Kijk na met de omgekeerde bewerking."
-UITLEG_2 = "Vermenigvuldig eerst de eenheden, dan de tientallen: 23 × 4 = 80 + 12 = 92. Rekenvolgorde: eerst wat tussen haakjes staat, dan × en :, dan + en −."
+UITLEG_1 = 'Optellen en aftrekken onder elkaar.'
+UITLEG_2 = 'Grote getallen maal en delen, en wat eerst?'
 
 DEEL_1 = [
     mk("Hoeveel is 2 345 + 1 432?", ["3 777", "3 767", "4 777", "3 787"], 0, "Eenheden 5 + 2 = 7, tientallen 4 + 3 = 7, honderdtallen 3 + 4 = 7, duizendtallen 2 + 1 = 3: 3 777.", 3777),

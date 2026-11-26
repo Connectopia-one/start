@@ -5,8 +5,8 @@ en leestekens). Doel einde 4de leerjaar, Vlaamse overheid."""
 from vr import mk, inv, wn
 
 TITEL = "Woordsoorten en zinnen"
-UITLEG_1 = "Zelfstandig naamwoord: een mens, dier of ding (de hond). Lidwoord: de, het, een. Bijvoeglijk naamwoord: zegt hoe iets is (de grote hond). Werkwoord: wat iemand doet."
-UITLEG_2 = "De persoonsvorm verandert als je de zin in een andere tijd zet. Het onderwerp is wie of wat iets doet. Een vraagzin eindigt op ?, een uitroep op !, een gewone zin op een punt."
+UITLEG_1 = 'Woorden voor dingen, hoe iets is en wat je doet.'
+UITLEG_2 = 'Wie doet het? En welk leesteken?'
 
 DEEL_1 = [
     mk("Welk woord is een zelfstandig naamwoord?", ["lopen", "fiets", "blauw", "snel"], 1, "Een fiets is een ding. Je kan er 'de' of 'een' voor zetten."),

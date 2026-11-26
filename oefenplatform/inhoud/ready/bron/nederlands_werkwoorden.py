@@ -5,8 +5,8 @@ Doel einde 4de leerjaar, Vlaamse overheid."""
 from vr import mk, inv, wn
 
 TITEL = "Werkwoorden"
-UITLEG_1 = "Een werkwoord zegt wat iemand doet. Ik: de stam (ik werk). Jij en hij: stam + t (jij werkt, hij werkt). Staat jij achter het werkwoord, dan geen t: werk jij?"
-UITLEG_2 = "Verleden tijd: wat al gebeurd is (ik speelde, ik liep). Het voltooid deelwoord hoort bij hebben of zijn en begint vaak met ge: ik heb gespeeld, ik ben gelopen."
+UITLEG_1 = 'Ik werk, jij werkt, werk jij?'
+UITLEG_2 = 'Vroeger: ik speelde, ik heb gespeeld.'
 
 DEEL_1 = [
     mk("Welk woord is een werkwoord?", ["tafel", "lopen", "groen", "snel"], 1, "Lopen is iets wat je doet. Dat is een werkwoord."),

@@ -5,8 +5,8 @@ samenstellingen). Elke vraag brengt haar eigen stukje tekst mee. Eigen teksten."
 from vr import mk, inv, wn
 
 TITEL = "Lezen en woordenschat"
-UITLEG_1 = "Lees de tekst rustig. Vraag je af: waarover gaat het, wie doet wat, waar en wanneer? Ken je een woord niet, lees dan de zin ervoor en erna: vaak vind je daar de betekenis."
-UITLEG_2 = "Synoniemen betekenen hetzelfde (blij en vrolijk). Tegenstellingen zijn elkaars omgekeerde (warm en koud). Een samenstelling plakt twee woorden aan elkaar: voet + bal = voetbal."
+UITLEG_1 = 'Een tekst goed lezen.'
+UITLEG_2 = 'Woorden die hetzelfde of het omgekeerde betekenen.'
 
 T1 = "Tekst: 'Elke zaterdag gaat Ruben met opa vissen aan de vijver. Opa neemt koffie mee, Ruben warme chocomelk. Vorige week vingen ze niets, maar Ruben vond het toch fijn, want opa vertelde de hele tijd grappige verhalen.' "
 T2 = "Tekst: 'Egels slapen in de winter. In de herfst eten ze veel slakken, wormen en kevers. Zo maken ze een dikke laag vet. Daarna kruipen ze onder een hoop bladeren. Daar slapen ze tot de lente.' "

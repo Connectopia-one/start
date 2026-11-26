@@ -4,8 +4,8 @@ digitaal, kalender, tijdsduur berekenen, temperatuur in °C). Doel einde 4de lee
 from vr import mk, inv, wn
 
 TITEL = "Tijd en temperatuur"
-UITLEG_1 = "De kleine wijzer toont het uur, de grote wijzer de minuten. 1 uur = 60 minuten, 1 minuut = 60 seconden. Een digitale klok telt door tot 23.59: 15.00 is drie uur 's middags."
-UITLEG_2 = "Een jaar heeft 12 maanden en 365 dagen (366 in een schrikkeljaar). Tijdsduur: tel eerst tot het volle uur en dan verder. Temperatuur meet je in graden Celsius (°C); water bevriest bij 0 °C."
+UITLEG_1 = 'Klok lezen: de kleine en de grote wijzer.'
+UITLEG_2 = 'Kalender, hoe lang iets duurt en graden.'
 
 DEEL_1 = [
     mk("De kleine wijzer staat op 3 en de grote wijzer op 12. Hoe laat is het?", ["12 uur", "drie uur", "kwart over drie", "half drie"], 1, "Grote wijzer op 12 betekent een vol uur. De kleine wijzer wijst het uur aan: drie uur."),

@@ -5,8 +5,8 @@ volume met kubusjes, rekenen met euro en cent). Doel einde 4de leerjaar."""
 from vr import mk, inv, wn
 
 TITEL = "Meten en geld"
-UITLEG_1 = "Lengte: 1 km = 1 000 m, 1 m = 100 cm, 1 cm = 10 mm. Gewicht: 1 kg = 1 000 g. Inhoud: 1 l = 1 000 ml. Geld: 1 euro = 100 cent."
-UITLEG_2 = "Omtrek is de lengte van de rand: tel alle zijden op. Oppervlakte is hoeveel vierkantjes erin passen: lengte × breedte. Volume: tel de kubusjes."
+UITLEG_1 = 'Meter, kilo, liter en euro.'
+UITLEG_2 = 'Omtrek, oppervlakte en kubusjes tellen.'
 
 DEEL_1 = [
     mk("Hoeveel meter is 1 kilometer?", ["10 m", "100 m", "1 000 m", "10 000 m"], 2, "Kilo betekent duizend: 1 km = 1 000 m."),

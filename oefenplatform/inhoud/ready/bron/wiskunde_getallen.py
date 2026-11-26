@@ -4,8 +4,8 @@ getallenas, terugtellen tot min 10). Doel einde 4de leerjaar, Vlaamse overheid."
 from vr import mk, inv, wn
 
 TITEL = "Getallen tot 10 000"
-UITLEG_1 = "Een getal tot 10 000 heeft duizendtallen, honderdtallen, tientallen en eenheden. In 4 250 zijn dat 4 D, 2 H, 5 T en 0 E. Kijk eerst naar de D om te weten welk getal het grootst is."
-UITLEG_2 = "Afronden: kijk naar het cijfer rechts ervan. Is dat 5 of meer, dan rond je naar boven af. Onder 0 tel je verder met min: 0, −1, −2. Min 5 graden is kouder dan min 2 graden."
+UITLEG_1 = 'Duizendtallen, honderdtallen, tientallen en eenheden.'
+UITLEG_2 = 'Afronden en tellen onder nul.'
 
 DEEL_1 = [
     mk("Hoe schrijf je vierduizend tweehonderdvijftig in cijfers?", ["4 205", "4 250", "40 250", "425"], 1,

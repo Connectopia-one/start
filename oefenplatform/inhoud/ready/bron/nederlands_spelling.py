@@ -10,9 +10,9 @@ Bouwen en nakijken: python3 bouw.py nederlands_spelling
 
 TITEL = "Spelling"
 
-UITLEG_1 = 'ei en ij, au en ou klinken hetzelfde: die woorden onthoud je. aai, oei en ooi eindigen op i. Bij nk hoor je een k. Twijfel je tussen g en ch? Maak het woord langer: dagen, dus dag.'
+UITLEG_1 = 'ei of ij, au of ou, ng of nk.'
 
-UITLEG_2 = "Twijfel je op het einde? Maak het woord langer: honden, dus hond. Meervoud: -en, -s of 's. Verkleinwoord: -je, -tje, -pje of -etje. Hoofdletter bij een nieuwe zin en bij namen."
+UITLEG_2 = 'd of t, meervoud, verkleinwoord en hoofdletters.'
 
 DEEL_1 = [
     dict(type="waarofniet", vraag="Je schrijft trein met ei.", antwoord=True,

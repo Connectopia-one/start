@@ -12,9 +12,9 @@ Bouwen en nakijken: python3 bouw.py wiskunde_tafels
 
 TITEL = "Tafels en delen"
 
-UITLEG_1 = 'Vermenigvuldigen is groepjes maken: 4 × 3 is 4 groepjes van 3, samen 12. Wisselen mag: 3 × 4 is ook 12. Trucjes: × 1 blijft hetzelfde, × 0 is 0, × 10 zet een nul achter het getal.'
+UITLEG_1 = 'Tafels: groepjes maken.'
 
-UITLEG_2 = 'Delen is eerlijk verdelen: 12 : 3 = 4, want 4 × 3 = 12. Gaat het niet precies, dan is er een rest: 14 : 4 = 3 rest 2. Deelbaar door 2: het getal eindigt op 0, 2, 4, 6 of 8.'
+UITLEG_2 = 'Delen: eerlijk verdelen, soms met een rest.'
 
 DEEL_1 = [
     dict(type="meerkeuze", vraag="Hoeveel is 7 × 8?", opties=["54", "56", "48", "64"], antwoord=1, reken=56,

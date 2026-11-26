@@ -5,8 +5,8 @@ luisteren en spreken; alfabetische volgorde). Doel einde 4de leerjaar."""
 from vr import mk, inv, wn
 
 TITEL = "Taal en verhalen"
-UITLEG_1 = "Een verhaal heeft een begin (wie, waar, wanneer), een midden (er gebeurt iets, vaak een probleem) en een slot (hoe het afloopt). De personen in een verhaal heten personages."
-UITLEG_2 = "Er zijn veel soorten teksten: een verhaal, een recept, een brief, een uitnodiging, een gedicht. Elk heeft een eigen doel. Woorden in alfabetische volgorde zet je zoals in het woordenboek."
+UITLEG_1 = 'Begin, midden en slot van een verhaal.'
+UITLEG_2 = 'Brief, recept, uitnodiging en het alfabet.'
 
 DEEL_1 = [
     mk("Wat vertel je meestal in het begin van een verhaal?", ["hoe het verhaal helemaal afloopt", "wie er meedoet, waar en wanneer", "de les die je eruit leert", "wat de schrijver graag eet"], 1, "In het begin leer je de personages kennen en weet je waar en wanneer het gebeurt."),

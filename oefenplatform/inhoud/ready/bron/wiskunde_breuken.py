@@ -5,8 +5,8 @@ Doel einde 4de leerjaar, Vlaamse overheid."""
 from vr import mk, inv, wn
 
 TITEL = "Breuken en kommagetallen"
-UITLEG_1 = "Een breuk zegt in hoeveel gelijke stukken je iets verdeelt (de noemer, onder) en hoeveel stukken je neemt (de teller, boven). Bij dezelfde noemer tel je enkel de tellers op."
-UITLEG_2 = "Een breuk van een getal: deel door de noemer en vermenigvuldig met de teller. 3/4 van 20 = 20 : 4 × 3 = 15. Bij 2,35 staat 3 op de plaats van de tienden en 5 op die van de honderdsten."
+UITLEG_1 = 'Wat is een breuk? Teller boven, noemer onder.'
+UITLEG_2 = 'Een breuk van een getal, en kommagetallen.'
 
 DEEL_1 = [
     mk("Een pizza is in 8 gelijke stukken verdeeld. Je eet er 3. Welk deel heb je gegeten?", ["3/8", "8/3", "3/5", "5/8"], 0, "Het geheel heeft 8 stukken (noemer) en je nam er 3 (teller): 3/8."),

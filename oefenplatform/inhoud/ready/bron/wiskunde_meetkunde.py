@@ -5,8 +5,8 @@ plaats bepalen in een rooster). Doel einde 4de leerjaar."""
 from vr import mk, inv, wn
 
 TITEL = "Meetkunde"
-UITLEG_1 = "Een rechte hoek is zoals de hoek van een blad papier. Een scherpe hoek is kleiner, een stompe hoek groter. Evenwijdige lijnen raken elkaar nooit; loodrechte lijnen maken een rechte hoek."
-UITLEG_2 = "Een vlakke figuur is plat (vierkant, driehoek, cirkel). Een ruimtefiguur kan je vastnemen (kubus, bol, cilinder). Een symmetrieas verdeelt een figuur in twee spiegelbeelden."
+UITLEG_1 = 'Hoeken en platte figuren.'
+UITLEG_2 = 'Kubus, bol, cilinder en spiegelen.'
 
 DEEL_1 = [
     mk("Welke hoek is even groot als de hoek van een blad papier?", ["een scherpe hoek", "een rechte hoek", "een stompe hoek", "een gestrekte hoek"], 1, "De hoek van een blad is een rechte hoek."),

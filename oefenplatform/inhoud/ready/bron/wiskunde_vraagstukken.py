@@ -5,8 +5,8 @@ redeneren met waar en niet waar). Doel einde 4de leerjaar."""
 from vr import mk, inv, wn
 
 TITEL = "Vraagstukken en tabellen"
-UITLEG_1 = "Stappenplan: lees de vraag goed, zoek wat je weet en wat je moet vinden, kies de bewerking, reken uit en kijk of het kan kloppen. Verhoudingstabel: wat je links doet, doe je ook rechts."
-UITLEG_2 = "Bij een tabel of diagram kijk je eerst naar de titel en naar wat bij de rijen en kolommen staat. In een Venndiagram staat wat bij twee groepen tegelijk hoort in het stuk waar de cirkels overlappen."
+UITLEG_1 = 'Vraagstukken: lees goed, dan reken je.'
+UITLEG_2 = 'Tabellen, diagrammen en cirkels lezen.'
 
 DEEL_1 = [
     mk("Wat doe je eerst bij een vraagstuk?", ["meteen rekenen", "de vraag goed lezen", "het antwoord raden", "de getallen optellen"], 1, "Eerst lees je goed wat er gevraagd wordt. Pas dan kies je een bewerking."),
