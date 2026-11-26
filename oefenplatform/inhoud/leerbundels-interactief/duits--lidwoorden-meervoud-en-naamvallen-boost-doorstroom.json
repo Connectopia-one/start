@@ -1,0 +1,79 @@
+{
+ "vak": "Duits",
+ "titel": "Lidwoorden, meervoud en naamvallen",
+ "onder": "Der, die, das, het meervoud, de vier naamvallen, kein en nicht, en samenstellingen.",
+ "secties": [
+  {
+   "kop": "Drie geslachten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\"></th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">mannelijk</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">vrouwelijk</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">onzijdig</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">meervoud</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bepaald</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">der Tisch</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">die Lampe</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">das Buch</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">die Bücher</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">onbepaald</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ein Tisch</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">eine Lampe</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ein Buch</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">(geen lidwoord) Bücher</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ontkennend</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kein Tisch</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">keine Lampe</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kein Buch</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">keine Bücher</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Leer elk woord met zijn lidwoord.</strong> Het Duitse geslacht is vaak anders dan in het Nederlands: <em>der Tisch</em> (de tafel), <em>das Mädchen</em> (het meisje, onzijdig door -chen), <em>die Sonne</em>, <em>der Mond</em>. Woorden op -ung, -heit, -keit zijn vrouwelijk: <em>die Zeitung</em>."
+    }
+   ]
+  },
+  {
+   "kop": "Het meervoud",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Uitgang</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">-e</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">der Hund → die Hunde</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">-e met umlaut</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">die Hand → die Hände</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">-er met umlaut</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">das Buch → die Bücher, das Haus → die Häuser</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">-(e)n</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">die Lampe → die Lampen, die Frau → die Frauen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">-s</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">das Auto → die Autos, das Handy → die Handys</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">niets (soms umlaut)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">der Lehrer → die Lehrer, der Apfel → die Äpfel</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "In het meervoud is het lidwoord altijd <em>die</em>."
+    }
+   ]
+  },
+  {
+   "kop": "Vier naamvallen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Naamval</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Functie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Vraag</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Nominativ</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">onderwerp</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wer? was?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>Der Hund</strong> bellt.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Akkusativ</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">lijdend voorwerp</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wen? was?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Ich sehe <strong>den Hund</strong>.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Dativ</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">meewerkend voorwerp</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wem?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Ich gebe <strong>dem Hund</strong> Wasser.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Genitiv</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bezit</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wessen?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">das Auto <strong>des Lehrers</strong></td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\"></th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">mannelijk</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">vrouwelijk</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">onzijdig</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">meervoud</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Nominativ</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">der / ein</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">die / eine</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">das / ein</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">die</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Akkusativ</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>den / einen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">die / eine</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">das / ein</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">die</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Dativ</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dem / einem</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">der / einer</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dem / einem</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">den (+ -n)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Genitiv</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">des / eines (+ -s)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">der / einer</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">des / eines (+ -s)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">der</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "Alleen bij mannelijke woorden verandert de Akkusativ: <em>der</em> wordt <em>den</em>, <em>ein</em> wordt <em>einen</em>. Na <em>es gibt</em> en <em>haben</em> volgt de Akkusativ: <em>Ich habe einen Bruder.</em>"
+    }
+   ]
+  },
+  {
+   "kop": "Kein of nicht?",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<em>Kein</em> ontkent een zelfstandig naamwoord zonder lidwoord of met <em>ein</em>: <em>Ich habe keinen Hund. Ich trinke keine Milch.</em> <em>Nicht</em> ontkent de rest: een werkwoord, een bijvoeglijk naamwoord of een woord met <em>der/die/das</em>: <em>Ich schwimme nicht. Das ist nicht teuer.</em>"
+    }
+   ]
+  },
+  {
+   "kop": "Samenstellingen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het laatste woord bepaalt het lidwoord en de betekenis: <em>das Haus + die Tür = die Haustür</em> (de voordeur), <em>der Kühlschrank</em>, <em>das Fahrrad</em>. Je schrijft het als één woord."
+    },
+    {
+     "soort": "kader",
+     "html": "<p><strong>Luidop oefenen.</strong> Wijs tien voorwerpen in je kamer aan en zeg ze met het juiste lidwoord.</p>"
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Leer elk woord met der, die of das.",
+  "Meervoud: altijd die.",
+  "Akkusativ mannelijk: den, einen, keinen.",
+  "Kein bij een naamwoord, nicht bij de rest.",
+  "Bij een samenstelling telt het laatste woord."
+ ]
+}

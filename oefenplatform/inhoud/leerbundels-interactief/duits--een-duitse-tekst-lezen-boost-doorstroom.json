@@ -1,0 +1,61 @@
+{
+ "vak": "Duits",
+ "titel": "Een Duitse tekst lezen",
+ "onder": "Onderwerp, hoofdgedachte, hoofdpunten en informatie zoeken, en woorden afleiden uit de context.",
+ "secties": [
+  {
+   "kop": "Vier vragen bij elke tekst",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat zoek je?</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Hoe zeg je het?</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld (rommelmarkt in Aken)</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het onderwerp</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">in één of enkele woorden: waarover gaat het?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een tweedehandsmarkt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de hoofdgedachte</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">in één zin: wat is de belangrijkste boodschap?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">op de rommelmarkt koop je goedkoop en gooi je minder weg</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de hoofdpunten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">alles wat de hoofdgedachte ondersteunt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de spullen zijn goedkoop; men gooit minder weg</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de informatie die je nodig hebt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een los gegeven: een uur, een prijs, een plaats</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de markt eindigt om 14 uur</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Hoofdzaak of bijzaak?</strong> Een voorbeeld of een detail (een kleur, een uur) licht een hoofdpunt toe, maar is zelf geen hoofdzaak."
+    }
+   ]
+  },
+  {
+   "kop": "Lezen met een plan",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<ol><li>Lees de <strong>titel</strong> en kijk naar de foto: waarover zal het gaan? <em>Fünf Tipps für einen gesunden Schlaf</em> gaat over beter slapen.</li><li>Lees de vraag, dan pas de tekst. Zo weet je wat je zoekt.</li><li>Zoek de plaats in de tekst. Let op kleine woorden: <em>nicht ..., sondern ...</em> (niet ..., maar ...), <em>nur</em> (alleen), <em>jeden ersten Samstag im Monat</em> (elke eerste zaterdag van de maand), <em>unter 6 Jahren</em> (jonger dan zes).</li></ol>"
+    }
+   ]
+  },
+  {
+   "kop": "Een woord afleiden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Niet elk woord moet je opzoeken. Bepaal eerst of het woord belangrijk is. Vaak verraadt de zin errond de betekenis:"
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Je leest</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Dus betekent het woord</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Der Kühlschrank ist <strong>leer</strong>. Wir müssen einkaufen.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">leeg</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Meine Oma ist <strong>krank</strong>. Der Arzt kommt heute.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ziek (das Krankenhaus: het ziekenhuis)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Der Zug hat 20 Minuten <strong>Verspätung</strong>.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vertraging (spät: laat)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Die <strong>Bremsen</strong> sind neu (bij een fiets te koop).</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de remmen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Wir bauen eine neue <strong>Rutsche</strong> (in een zwembad).</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de glijbaan</td></tr></table>"
+    }
+   ]
+  },
+  {
+   "kop": "Woorden die je vaak leest",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Duits</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Duits</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">der Flohmarkt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de rommelmarkt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geschlossen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gesloten</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">billig</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">goedkoop</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verboten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verboden</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wegwerfen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">weggooien</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dürfen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mogen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">meistens</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">meestal</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wieder</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">opnieuw</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">das Gleis</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het spoor</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">die Durchsage</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het omroepbericht</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">der Zustand</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de staat (in goede staat)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">abends</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">'s avonds</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "<p><strong>Luidop oefenen.</strong> Lees een kort tekstje van deze bundel hardop voor. Vertel daarna in het Nederlands in twee zinnen waarover het ging.</p>"
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Onderwerp: enkele woorden. Hoofdgedachte: één zin.",
+  "Hoofdpunten ondersteunen de hoofdgedachte; details zijn bijzaken.",
+  "Lees eerst de vraag, zoek dan de plaats in de tekst.",
+  "Leid een woord af uit de context voor je het opzoekt."
+ ]
+}

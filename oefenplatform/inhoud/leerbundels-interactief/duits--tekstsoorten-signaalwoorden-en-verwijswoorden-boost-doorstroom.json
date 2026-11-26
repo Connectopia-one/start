@@ -1,0 +1,62 @@
+{
+ "vak": "Duits",
+ "titel": "Tekstsoorten, signaalwoorden en verwijswoorden",
+ "onder": "De vijf soorten teksten, het communicatiemodel, signaalwoorden en verwijswoorden zoals er en sie.",
+ "secties": [
+  {
+   "kop": "Vijf soorten teksten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Soort</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat doet de tekst?</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeelden</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">informatief</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geeft informatie over een onderwerp</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">krantenartikel, stukje uit een leerboek, mail aan een klant</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">persuasief</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wil je overtuigen of beïnvloeden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">reclame, campagne tegen te snel rijden, flyer van een fitnesscentrum</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">opiniërend</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">iemand geeft zijn mening (<em>Ich finde ..., Meiner Meinung nach ...</em>)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">recensie, hotelbeoordeling, reactie op sociale media</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">prescriptief</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zegt wat of hoe je iets moet doen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">recept, instructiefilmpje, schoolreglement, <em>Bitte nicht rauchen!</em></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">narratief</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vertelt gebeurtenissen als een verhaal</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vlog, reisverslag, podcast, getuigenis over een eerste werkdag</td></tr></table>"
+    }
+   ]
+  },
+  {
+   "kop": "Het communicatiemodel",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Stel drie vragen: <strong>van wie</strong> is de tekst, <strong>voor wie</strong> is hij bedoeld, en <strong>waarom</strong> is hij gemaakt? Een mail die begint met <em>Sehr geehrte Frau Weber</em> is voor een volwassene die de schrijver niet goed kent. Een flyer met <em>Der erste Monat ist gratis!</em> wil nieuwe klanten lokken. Titel, tussentitels, vetgedrukte woorden en beelden helpen je voorspellen waarover een tekst gaat."
+    }
+   ]
+  },
+  {
+   "kop": "Signaalwoorden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Verband</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Signaalwoorden</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Betekenis</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">opsomming en keuze</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">und, auch, oder</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">en, ook, of</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tegenstelling</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">aber, trotzdem, nicht ..., sondern ...</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">maar, toch, niet ..., maar ...</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">reden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">denn, weil</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">want, omdat</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gevolg</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">deshalb, also</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">daarom, dus</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">volgorde</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zuerst, dann, danach, zum Schluss</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">eerst, dan, daarna, tot slot</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">voorbeeld</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zum Beispiel (z.B.)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bijvoorbeeld</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Valse vriend:</strong> <em>also</em> betekent dus, niet ook. Ook is <em>auch</em>."
+    }
+   ]
+  },
+  {
+   "kop": "Verwijswoorden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een voornaamwoord verwijst terug naar een woord uit een vorige zin. Het geslacht van dat woord bepaalt welk voornaamwoord je gebruikt, ook bij dingen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Zin 1</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Zin 2</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Verwijst naar</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Meine Schwester heißt Mia.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>Sie</strong> ist zwölf.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Mia</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Ich habe einen neuen Hund.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>Er</strong> heißt Bello.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">der Hund</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Das ist mein Fahrrad.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>Es</strong> ist ganz neu.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">das Fahrrad</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Die Lehrerin gibt den Schülern ein Buch.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>Sie</strong> lesen es zu Hause.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de leerlingen (meervoud: lesen)</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "<p><strong>Luidop oefenen.</strong> Lees de signaalwoorden uit de tabel hardop en maak met elk een korte zin.</p>"
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Informatief, persuasief, opiniërend, prescriptief, narratief.",
+  "Communicatiemodel: van wie, voor wie, waarom?",
+  "Aber en trotzdem: tegenstelling. Denn en weil: reden. Deshalb: gevolg.",
+  "Also is dus, auch is ook.",
+  "Het geslacht van het woord bepaalt er, sie of es."
+ ]
+}

@@ -1,0 +1,70 @@
+{
+ "vak": "Duits",
+ "titel": "Voorzetsels, telwoorden, bijwoorden en uitspraak",
+ "onder": "Voorzetsels met Akkusativ, Dativ of allebei, getallen en datums, bijwoorden van tijd en de Duitse klanken en spelling.",
+ "secties": [
+  {
+   "kop": "Voorzetsels",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Altijd Akkusativ</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Altijd Dativ</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wechselpräpositionen</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">für (voor), ohne (zonder)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mit (met), bei (bij)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">in, an, auf</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">durch (door), gegen (tegen)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">von (van), zu (naar)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">über, unter, vor</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">um (om)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">aus (uit), nach (naar, na), seit (sinds)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hinter, neben, zwischen</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Wechselpräpositionen: <strong>waar?</strong> (plaats) → Dativ, <strong>waarheen?</strong> (beweging) → Akkusativ. <em>Ich bin in der Schule.</em> — <em>Ich gehe in die Schule.</em>"
+    },
+    {
+     "soort": "kader",
+     "html": "Samentrekkingen: <em>in dem = im, zu dem = zum, zu der = zur, an dem = am, in das = ins</em>. Steden en landen zonder lidwoord: <em>nach Berlin, nach Spanien</em>; maar <em>in die Schweiz</em>."
+    }
+   ]
+  },
+  {
+   "kop": "Getallen en datums",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Getal</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Duits</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Getal</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Duits</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">12</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zwölf</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">21</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">einundzwanzig</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">16</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sechzehn</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">30</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dreißig</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">17</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">siebzehn</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">100</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hundert</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">20</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zwanzig</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1 000</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tausend</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1999</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">neunzehnhundertneunundneunzig</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2026</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zweitausendsechsundzwanzig</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Rangtelwoorden: <em>der erste, zweite, dritte, vierte, siebte</em>, vanaf 20 met -ste: <em>der zwanzigste</em>. Datum: <em>am 3. Mai</em> (am dritten Mai). <em>Ich habe am 12. Juni Geburtstag.</em>"
+    }
+   ]
+  },
+  {
+   "kop": "Bijwoorden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Duits</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Duits</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">heute, morgen, gestern</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vandaag, morgen, gisteren</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">immer, oft, manchmal, nie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">altijd, vaak, soms, nooit</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">jetzt, bald, später</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nu, binnenkort, later</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">leider, gern, sehr</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">helaas, graag, heel</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hier, dort</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hier, daar</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">schon, noch</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">al, nog</td></tr></table>"
+    }
+   ]
+  },
+  {
+   "kop": "Klanken en spelling",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Schrijf je</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Klinkt als</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ei</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">aai</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mein, Eis</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ie (lang)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Liebe, spielen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">eu, äu</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">oi</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">heute, Häuser</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ü</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">uu (Nederlandse u)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Tür, müde</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ö</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">eu</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">schön, hören</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ä</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">è</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Mädchen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sch</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sj</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Schule</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">st, sp aan het begin</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sjt, sjp</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Straße, Sport</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ch na a, o, u</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zachte g-klank</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Buch, acht</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">z</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ts</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Zeit, zehn</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">w</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Nederlandse w als in wat</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Wasser</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">v</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">f</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Vater, viel</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Na een lange klinker of een tweeklank schrijf je <em>ß</em>: <em>die Straße, heißen</em>. Na een korte klinker <em>ss</em>: <em>der Fluss, essen</em>. Alle zelfstandige naamwoorden krijgen een hoofdletter, ook <em>Sie</em> (u)."
+    },
+    {
+     "soort": "kader",
+     "html": "<p><strong>Luidop oefenen.</strong> Lees de voorbeeldwoorden uit de klankentabel hardop. Let vooral op ei en ie.</p>"
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Für, ohne, durch, gegen, um: Akkusativ.",
+  "Mit, bei, von, zu, aus, nach, seit: Dativ.",
+  "In, an, auf ...: waar → Dativ, waarheen → Akkusativ.",
+  "Eerst de eenheden: einundzwanzig.",
+  "Ei klinkt als aai, ie als ie. Hoofdletter bij elk naamwoord."
+ ]
+}

@@ -1,0 +1,74 @@
+{
+ "vak": "Duits",
+ "titel": "Schrijven en schriftelijke interactie",
+ "onder": "Aanspreken en groeten, bedanken, uitnodigen en je verontschuldigen, een mail of zoekertje opbouwen en je mening geven.",
+ "secties": [
+  {
+   "kop": "Du of Sie?",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\"></th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Een vriend(in)</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Een volwassene die je niet goed kent</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">aanspreking</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Lieber Jonas, / Liebe Emma, / Hallo Lisa,</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Sehr geehrter Herr Schulz, / Sehr geehrte Frau Becker,</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vorm</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">du: Kannst du mir helfen?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Sie (hoofdletter): Können Sie mir helfen?</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">slot</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Bis bald! / Liebe Grüße / Tschüss!</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Mit freundlichen Grüßen / Freundliche Grüße</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "Bij <em>Sie</em> staat het werkwoord in het meervoud: <em>können Sie</em>. <em>Herr</em> is mannelijk: <em>sehr geehrter Herr</em>; bij een vrouw: <em>sehr geehrte Frau</em>."
+    }
+   ]
+  },
+  {
+   "kop": "Vaste formules",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Situatie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Duits</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Antwoord</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bedanken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Vielen Dank! / Danke schön!</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Gern geschehen! / Bitte!</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verontschuldigen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Entschuldigung! / Das tut mir leid.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Kein Problem! / Das macht nichts.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">uitnodigen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Ich lade dich zu meiner Party ein.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Ich komme gern! / Leider kann ich nicht kommen.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">voorstellen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Wollen wir ...? / Hast du Lust, ... zu ...?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Gute Idee! / Ich gehe lieber ins Kino.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">groeten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Guten Morgen! / Guten Abend! / Wie geht's?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Danke, gut. Und dir?</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">afscheid</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Tschüss! / Auf Wiedersehen! / Bis nächste Woche!</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wensen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Alles Gute zum Geburtstag! / Gute Besserung! / Gute Reise!</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"></td></tr></table>"
+    }
+   ]
+  },
+  {
+   "kop": "Een mail of zoekertje opbouwen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<ol><li><strong>Aanspreking</strong>: Sehr geehrte Frau ..., / Liebe ...,</li><li><strong>Wie ben je?</strong> Ich heiße Noor und bin 16 Jahre alt.</li><li><strong>Waarom schrijf je?</strong> Ich suche einen Ferienjob im Juli.</li><li><strong>Je vragen</strong>: Wann beginnt die Arbeit? Wie viel verdient man pro Stunde? Wo ...?</li><li><strong>Bedanking</strong>: Vielen Dank im Voraus für Ihre Antwort.</li><li><strong>Groet</strong>: Mit freundlichen Grüßen, Noor</li></ol>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>zoekertje</strong> geeft alles wat de lezer moet weten: wat je verkoopt, de staat, de prijs en hoe ze je bereiken."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Vraagwoord</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Betekenis</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wann</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wanneer</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wo</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">waar</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wer</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wie</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hoe</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">was</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wat</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wie viel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hoeveel</td></tr></table>"
+    }
+   ]
+  },
+  {
+   "kop": "Je mening geven en vertellen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<em>Ich finde, dass Sport wichtig ist. Meiner Meinung nach ... Ich bin der Meinung, dass ...</em> Na <em>dass</em> staat de persoonsvorm achteraan. Een tip geef je met een imperativus: <em>Iss jeden Tag Obst!</em> De weg uitleggen: <em>Gehen Sie geradeaus und dann links.</em>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Vertel je wat gebeurd is, zoals in een verslag over je stage, dan gebruik je het Perfekt: <em>Am ersten Tag habe ich die Kollegen kennengelernt.</em>"
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Op het examen</strong> mag je een online woordenboek en een spellingcontrole gebruiken. Lees je tekst na: is hij duidelijk en gepast, en respecteer je de lengte? Zit je vast, zeg het dan anders met woorden die je wel kent."
+    },
+    {
+     "soort": "kader",
+     "html": "<p><strong>Luidop oefenen.</strong> Speel met iemand thuis een kort gesprek: je nodigt de ander uit, de ander weigert beleefd en stelt iets anders voor.</p>"
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Onbekende volwassene: Sie, Sehr geehrte(r), Mit freundlichen Grüßen.",
+  "Vriend: du, Liebe(r), Liebe Grüße.",
+  "Mail: aanspreking, wie ben je, waarom, vragen, bedanking, groet.",
+  "Wer is wie, wie is hoe, wo is waar.",
+  "Na dass en weil staat de persoonsvorm achteraan."
+ ]
+}

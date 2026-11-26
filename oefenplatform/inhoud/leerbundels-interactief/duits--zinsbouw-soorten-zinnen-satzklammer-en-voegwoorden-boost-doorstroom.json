@@ -1,0 +1,69 @@
+{
+ "vak": "Duits",
+ "titel": "Zinsbouw: soorten zinnen, Satzklammer en voegwoorden",
+ "onder": "De persoonsvorm op plaats 2, inversie, vraagzinnen, de Satzklammer, nevenschikkende en onderschikkende voegwoorden.",
+ "secties": [
+  {
+   "kop": "Plaats 2 en inversie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Plaats 1</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Plaats 2 (persoonsvorm)</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Rest</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Ich</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">spiele</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">morgen Tennis.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Morgen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">spiele</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ich Tennis.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Am Wochenende</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">fahren</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wir ans Meer.</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Begint de zin met iets anders dan het onderwerp, dan komt het onderwerp na de persoonsvorm (inversie)."
+    }
+   ]
+  },
+  {
+   "kop": "Soorten zinnen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Soort</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Persoonsvorm</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mededeling</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">plaats 2</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Ich wohne in Gent.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vraag met vraagwoord</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">plaats 2</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Wo wohnst du?</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ja-neevraag</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">plaats 1</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Wohnst du in Gent?</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gebod</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">plaats 1</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Komm her!</td></tr></table>"
+    }
+   ]
+  },
+  {
+   "kop": "De Satzklammer",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bestaat het gezegde uit twee delen, dan staan die als een klem rond de rest: de persoonsvorm op plaats 2, het andere deel achteraan."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Persoonsvorm</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">...</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Einde</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Ich <strong>kann</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">heute leider nicht</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>kommen</strong>.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Wir <strong>haben</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gestern Pizza</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>gegessen</strong>.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Ich <strong>stehe</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">jeden Tag um sieben Uhr</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>auf</strong>.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Er <strong>wird</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nächstes Jahr in Berlin</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>studieren</strong>.</td></tr></table>"
+    }
+   ]
+  },
+  {
+   "kop": "Voegwoorden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nevenschikkend (gewone volgorde)</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Onderschikkend (persoonsvorm achteraan)</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">und (en), oder (of), aber (maar)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">weil (omdat), dass (dat)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">denn (want)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wenn (als, wanneer), ob (of)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sondern (maar, na een ontkenning)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">als (toen), obwohl (hoewel)</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<em>Ich bleibe zu Hause, denn ich <strong>bin</strong> krank.</em> — <em>Ich bleibe zu Hause, weil ich krank <strong>bin</strong>.</em>"
+    },
+    {
+     "soort": "kader",
+     "html": "<em>Denn</em> en <em>weil</em> betekenen hetzelfde, maar na <em>weil</em> gaat de persoonsvorm naar achteren. <em>Sondern</em> gebruik je na <em>nicht</em> of <em>kein</em>: <em>nicht heute, sondern morgen</em>."
+    },
+    {
+     "soort": "kader",
+     "html": "<p><strong>Luidop oefenen.</strong> Maak drie zinnen met weil over waarom je iets graag doet, en lees ze hardop.</p>"
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Persoonsvorm op plaats 2; ja-neevraag en gebod: plaats 1.",
+  "Begint de zin niet met het onderwerp: inversie.",
+  "Satzklammer: tweede deel van het gezegde achteraan.",
+  "Weil, dass, wenn, ob, obwohl: persoonsvorm achteraan."
+ ]
+}

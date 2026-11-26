@@ -1,0 +1,75 @@
+{
+ "vak": "Duits",
+ "titel": "Präsens en Imperativ",
+ "onder": "De tegenwoordige tijd van regelmatige en onregelmatige werkwoorden, sein en haben, hulpwerkwoorden, scheidbare werkwoorden en de gebiedende wijs.",
+ "secties": [
+  {
+   "kop": "Regelmatige werkwoorden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\"></th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wohnen</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">arbeiten</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">sein</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">haben</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ich</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wohne</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">arbeite</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bin</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">habe</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">du</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wohnst</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">arbeitest</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bist</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hast</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">er / sie / es</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wohnt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">arbeitet</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ist</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hat</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wir</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wohnen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">arbeiten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sind</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">haben</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ihr</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wohnt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">arbeitet</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">seid</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">habt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sie / Sie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wohnen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">arbeiten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sind</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">haben</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Stam op -t of -d krijgt een extra e: <em>du arbeitest, er findet</em>."
+    }
+   ]
+  },
+  {
+   "kop": "Klinkerwissel bij du en er",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wissel</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Infinitief</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">du</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">er / sie / es</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a → ä</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">fahren, schlafen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">fährst, schläfst</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">fährt, schläft</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">e → i</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">essen, sprechen, helfen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">isst, sprichst, hilfst</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">isst, spricht, hilft</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">e → ie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">lesen, sehen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">liest, siehst</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">liest, sieht</td></tr></table>"
+    }
+   ]
+  },
+  {
+   "kop": "Hulpwerkwoorden van modaliteit",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\"></th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">können</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">müssen</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wollen</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">dürfen</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">möchten</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ich</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kann</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">muss</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">will</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">darf</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">möchte</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">du</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kannst</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">musst</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">willst</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">darfst</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">möchtest</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">er / sie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kann</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">muss</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">will</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">darf</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">möchte</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wir</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">können</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">müssen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wollen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dürfen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">möchten</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Het hoofdwerkwoord staat als infinitief achteraan: <em>Ich kann gut schwimmen.</em> <em>Ich muss Hausaufgaben machen.</em> <em>Hier darf man nicht rauchen.</em>"
+    }
+   ]
+  },
+  {
+   "kop": "Scheidbare werkwoorden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij <em>aufstehen, anrufen, einkaufen, fernsehen, mitkommen</em> gaat het voorvoegsel naar het einde: <em>Ich stehe um 7 Uhr auf. Ruf mich morgen an!</em> Met een hulpwerkwoord blijft het werkwoord heel: <em>Ich muss früh aufstehen.</em>"
+    }
+   ]
+  },
+  {
+   "kop": "De gebiedende wijs (Imperativ)",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Tegen wie?</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Vorm</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">één persoon (du)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">stam, zonder du</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Komm! Mach das Fenster zu! Lies den Text! Iss!</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">meer personen (ihr)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ihr-vorm, zonder ihr</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Kommt! Macht das Fenster zu!</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">beleefd (Sie)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">infinitief + Sie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Kommen Sie bitte! Gehen Sie geradeaus!</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sein</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Sei ruhig! Seid ruhig! Seien Sie ruhig!</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "Bij e → i blijft de wissel in de du-imperativus: <em>lesen → Lies!</em>, <em>essen → Iss!</em>. Bij a → ä niet: <em>fahren → Fahr!</em>"
+    },
+    {
+     "soort": "kader",
+     "html": "<p><strong>Luidop oefenen.</strong> Geef iemand thuis vijf korte opdrachten in het Duits, zoals Steh auf! of Mach die Tür zu!</p>"
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Ich -e, du -st, er -t, wir -en, ihr -t, sie -en.",
+  "Fahren: du fährst. Sprechen: du sprichst. Lesen: du liest.",
+  "Hulpwerkwoord op plaats 2, infinitief achteraan.",
+  "Scheidbaar voorvoegsel naar het einde.",
+  "Imperativ: Komm! Kommt! Kommen Sie!"
+ ]
+}

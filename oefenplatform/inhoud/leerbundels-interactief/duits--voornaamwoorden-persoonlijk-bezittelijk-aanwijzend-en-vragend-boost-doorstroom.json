@@ -1,0 +1,60 @@
+{
+ "vak": "Duits",
+ "titel": "Voornaamwoorden: persoonlijk, bezittelijk, aanwijzend en vragend",
+ "onder": "Ich, mich, mir; mein en dein; dieser; wer, wen, wem, was, wo en welcher.",
+ "secties": [
+  {
+   "kop": "Persoonlijke voornaamwoorden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nominativ</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Akkusativ</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Dativ</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ich</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mich</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mir</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ik, mij</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">du</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dich</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dir</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">jij, jou</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">er</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ihn</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ihm</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hij, hem</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ihr</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zij, haar</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">es</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">es</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ihm</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wir</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">uns</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">uns</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wij, ons</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ihr</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">euch</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">euch</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">jullie</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sie / Sie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sie / Sie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ihnen / Ihnen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zij / u</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<em>Ich liebe dich</em> (Akkusativ). <em>Kannst du mir helfen?</em> (helfen + Dativ). <em>Wie geht es dir?</em> <em>Das gefällt mir.</em>"
+    }
+   ]
+  },
+  {
+   "kop": "Bezittelijke voornaamwoorden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Persoon</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Bezit</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ich</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mein</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mein Bruder, meine Schwester</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">du</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dein</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dein Hund</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">er / es</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sein</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sein Fahrrad</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ihr</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ihre Mutter</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wir</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">unser</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">unser Haus</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ihr</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">euer</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">eure Lehrerin</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sie / Sie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ihr / Ihr</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Ihr Name, bitte?</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "Een bezittelijk voornaamwoord krijgt dezelfde uitgangen als <em>ein</em>: <em>meine</em> bij een vrouwelijk woord en in het meervoud, <em>meinen</em> in de Akkusativ mannelijk: <em>Ich besuche meinen Opa.</em>"
+    }
+   ]
+  },
+  {
+   "kop": "Aanwijzend en vragend",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<em>dieser, diese, dieses</em> (deze, dit) volgt de uitgangen van <em>der, die, das</em>: <em>Dieser Pullover ist schön. Ich nehme diesen Pullover.</em>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Vraagwoord</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Betekenis</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wer?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wie? (onderwerp)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Wer kommt mit?</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wen?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wie? (lijdend voorwerp)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Wen besuchst du?</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wem?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">aan wie?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Wem gehört das Buch?</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">was?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wat?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Was machst du?</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wo? woher? wohin?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">waar? waarvandaan? waarheen?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Woher kommst du?</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">welcher, welche, welches?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">welk(e)?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Welche Farbe magst du?</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">warum? wann? wie?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">waarom? wanneer? hoe?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Wie alt bist du?</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Valse vrienden:</strong> <em>wer</em> is wie, <em>wie</em> is hoe, <em>wo</em> is waar."
+    },
+    {
+     "soort": "kader",
+     "html": "<p><strong>Luidop oefenen.</strong> Stel aan iemand thuis vijf vragen met telkens een ander vraagwoord.</p>"
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Mich en dich: Akkusativ. Mir en dir: Dativ.",
+  "Sein bij hij, ihr bij zij.",
+  "Meinen in de Akkusativ mannelijk, meine bij vrouwelijk en meervoud.",
+  "Wer = wie, wie = hoe, wo = waar."
+ ]
+}

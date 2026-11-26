@@ -1,0 +1,61 @@
+{
+ "vak": "Duits",
+ "titel": "Woordvelden: thuis, eten, winkelen en media",
+ "onder": "De woning en de meubels, de dag, voorwerpen, eten en drinken, winkels, hoeveelheden, prijzen en multimedia.",
+ "secties": [
+  {
+   "kop": "De woning",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Kamers</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\"></th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Meubels en toestellen</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\"></th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">die Küche</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de keuken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">der Tisch, der Stuhl</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de tafel, de stoel</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">das Wohnzimmer</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de woonkamer</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">der Schrank</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de kast</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">das Schlafzimmer</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de slaapkamer</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">das Sofa, die Lampe</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de zetel, de lamp</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">das Badezimmer</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de badkamer</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">der Kühlschrank, der Herd</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de koelkast, het fornuis</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">die Wohnung</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het appartement</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">der Staubsauger</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de stofzuiger</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">im dritten Stock</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">op de derde verdieping</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">die Treppe, der Aufzug</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de trap, de lift</td></tr></table>"
+    }
+   ]
+  },
+  {
+   "kop": "De dag en de media",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Duits</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Duits</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">aufstehen (ich stehe auf)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">opstaan</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">das Handy</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de gsm</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">frühstücken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ontbijten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">eine Nachricht schicken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een bericht sturen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sich die Zähne putzen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de tanden poetsen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">anrufen (ich rufe an)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">opbellen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">aufräumen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">opruimen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">herunterladen / hochladen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">downloaden / uploaden</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">fernsehen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">televisie kijken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">der Bildschirm</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het scherm</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">der Schlüssel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de sleutel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">die Tastatur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het toetsenbord</td></tr></table>"
+    }
+   ]
+  },
+  {
+   "kop": "Eten en drinken",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Duits</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Duits</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">das Brot, das Brötchen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het brood, het broodje</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">das Obst</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het fruit (Apfel, Banane)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">die Milch, die Butter</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de melk, de boter</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">das Gemüse</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de groenten (Gurke, Zwiebel, Karotte)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">der Käse, das Ei</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de kaas, het ei</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">die Kartoffel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de aardappel</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">das Fleisch, der Fisch</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het vlees, de vis</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">der Saft, der Tee</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het sap, de thee</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">die Tasse</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de kop</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">die Speisekarte</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de menukaart</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">der Kuchen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de taart</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">die Rechnung</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de rekening</td></tr></table>"
+    }
+   ]
+  },
+  {
+   "kop": "Winkels, hoeveelheden en prijzen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Winkel</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat koop je er?</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">die Bäckerei</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">brood</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">die Metzgerei</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vlees</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">die Apotheke</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">medicijnen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">der Supermarkt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">van alles</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<em>Was kostet das?</em> 3,50 € lees je als <em>drei Euro fünfzig</em>. <em>Ich hätte gern ein Kilo Äpfel.</em> Ein Kilo = 1000 Gramm, ein Liter = 1000 Milliliter, eine Flasche (fles), eine Dose (blik), ein Stück (stuk)."
+    },
+    {
+     "soort": "tekst",
+     "html": "Getallen: eerst de eenheden. <em>siebenundzwanzig</em> = 27, <em>hundertachtzig</em> = 180, <em>dreizehn</em> = 13, <em>dreißig</em> = 30."
+    },
+    {
+     "soort": "kader",
+     "html": "<p><strong>Luidop oefenen.</strong> Speel winkeltje: vraag in het Duits naar de prijs van drie dingen en zeg de prijzen hardop.</p>"
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Der Kühlschrank: de koelkast. Der Tisch is de tafel, der Stuhl de stoel.",
+  "Obst is fruit, Gemüse zijn groenten.",
+  "Die Rechnung, bitte! Was kostet das?",
+  "Eerst de eenheden: siebenundzwanzig = 27."
+ ]
+}

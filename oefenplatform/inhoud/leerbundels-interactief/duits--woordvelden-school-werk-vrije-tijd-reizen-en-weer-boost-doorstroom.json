@@ -1,0 +1,82 @@
+{
+ "vak": "Duits",
+ "titel": "Woordvelden: school, werk, vrije tijd, reizen en weer",
+ "onder": "School en instructietaal, beroepen, sport en hobby's, vervoer en reizen, het weer, de kalender, feesten en het uur.",
+ "secties": [
+  {
+   "kop": "School en instructietaal",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Duits</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Opdracht</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat doe je?</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">das Fach</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het vak</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Kreuze ... an.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kruis aan</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">die Stunde</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het lesuur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Ergänze ...</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vul aan</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">die Pause</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de speeltijd</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Ordne zu.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">koppel wat samen hoort</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">die Hausaufgaben</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het huiswerk</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Lies den Text.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">lees de tekst</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">der Lehrer, die Lehrerin</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de leraar, de lerares</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Unterstreiche ...</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">onderstreep</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">das Zeugnis</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het rapport</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Übersetze ...</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vertaal</td></tr></table>"
+    }
+   ]
+  },
+  {
+   "kop": "Beroepen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Beroep</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat doet die persoon?</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">der Koch, die Köchin</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kookt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">der Kellner, die Kellnerin</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bedient in een restaurant</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">der Arzt, die Ärztin</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verzorgt zieken</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">die Krankenpflegerin</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">werkt in het ziekenhuis (das Krankenhaus)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">der Mechaniker</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">herstelt auto's</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">der Verkäufer, die Verkäuferin</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verkoopt in een winkel</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<em>Was willst du werden?</em> Wat wil je worden? <em>Ich möchte Ärztin werden.</em>"
+    }
+   ]
+  },
+  {
+   "kop": "Vrije tijd en sport",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<em>schwimmen</em> (zwemmen), <em>tauchen</em> (duiken), <em>reiten</em> (paardrijden), <em>klettern</em> (klimmen), <em>wandern</em> (wandelen), <em>ins Kino gehen</em> (naar de film gaan). <em>Ich spiele gern Tennis.</em> Een instrument zonder lidwoord: <em>Ich spiele Klavier, ich spiele Gitarre.</em>"
+    }
+   ]
+  },
+  {
+   "kop": "Vervoer en reizen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Duits</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Duits</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">der Zug</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de trein</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">der Bahnhof</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het station</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">die Straßenbahn</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de tram</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">der Flughafen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de luchthaven</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">das Flugzeug</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het vliegtuig</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">die Fahrkarte</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het vervoerbewijs</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">das (Fahr)rad</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de fiets</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hin und zurück</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">heen en terug</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zu Fuß gehen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">te voet gaan</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">der Reisepass, der Koffer</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het paspoort, de koffer</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">das Zelt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de tent</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">die Jugendherberge</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de jeugdherberg</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<em>Ich fahre mit dem Bus</em> (mit + datief). <em>Die Ferien</em> is de vakantie, <em>die Feiertage</em> de feestdagen."
+    }
+   ]
+  },
+  {
+   "kop": "Weer, kalender en uur",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Weer</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\"></th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Seizoenen en feesten</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\"></th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Es regnet.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Het regent.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">der Frühling, der Sommer</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de lente, de zomer</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Es schneit.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Het sneeuwt.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">der Herbst, der Winter</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de herfst, de winter</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Die Sonne scheint.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">De zon schijnt.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Weihnachten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Kerstmis</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Es ist heiß / kalt.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Het is heet / koud.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Ostern</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Pasen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Es ist windig.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Het waait.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Silvester</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">oudejaarsavond</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Dagen: Montag, Dienstag, Mittwoch, Donnerstag, Freitag, Samstag, Sonntag. Maanden: Januar, Februar, März, April, Mai, Juni, Juli, August, September, Oktober, November, Dezember."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Duits</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Uur</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Es ist halb acht.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">7.30 uur</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Viertel nach drei</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">3.15 uur</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Viertel vor acht</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">7.45 uur</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">um 20 Uhr</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">om 8 uur 's avonds</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Plaats: <em>neben</em> (naast), <em>hinter</em> (achter), <em>gegenüber</em> (tegenover). <em>Zu Hause</em> is thuis, <em>nach Hause</em> naar huis."
+    },
+    {
+     "soort": "kader",
+     "html": "<p><strong>Luidop oefenen.</strong> Vertel hardop wat je gisteren na school deed, met het uur erbij.</p>"
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Instructietaal: ankreuzen, ergänzen, zuordnen, unterstreichen.",
+  "Mit dem Zug, mit dem Rad, zu Fuß.",
+  "Die Ferien: de vakantie. Halb acht: 7.30 uur.",
+  "Zu Hause: thuis. Nach Hause: naar huis."
+ ]
+}

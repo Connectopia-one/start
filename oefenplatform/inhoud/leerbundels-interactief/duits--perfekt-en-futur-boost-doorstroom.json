@@ -1,0 +1,60 @@
+{
+ "vak": "Duits",
+ "titel": "Perfekt en Futur",
+ "onder": "Vertellen wat gebeurd is met haben of sein en het voltooid deelwoord, en de toekomst met werden.",
+ "secties": [
+  {
+   "kop": "Het Perfekt",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Hulpwerkwoord <em>haben</em> of <em>sein</em> op plaats 2, voltooid deelwoord achteraan: <em>Ich habe Pizza gegessen. Wir sind nach Berlin gefahren.</em>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Soort</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Vorm</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">regelmatig</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ge + stam + t</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">machen → gemacht, spielen → gespielt, arbeiten → gearbeitet</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">onregelmatig</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ge + (andere) stam + en</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">essen → gegessen, sehen → gesehen, schreiben → geschrieben, trinken → getrunken</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">scheidbaar</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">voorvoegsel + ge + ...</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">einkaufen → eingekauft, aufstehen → aufgestanden</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zonder ge-</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">op -ieren, be-, ver-, er-</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">telefonieren → telefoniert, besuchen → besucht, verstehen → verstanden</td></tr></table>"
+    }
+   ]
+  },
+  {
+   "kop": "Haben of sein?",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">sein</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">haben</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">beweging van A naar B: gehen, fahren, fliegen, kommen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de meeste andere werkwoorden: machen, essen, lesen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verandering van toestand: aufstehen, einschlafen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ook bij wederkerende werkwoorden</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sein en bleiben: Ich bin zu Hause geblieben.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Ich habe gut geschlafen.</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "<em>Ich bin gewesen</em> (ik ben geweest), <em>ich habe gehabt</em> (ik heb gehad). Vaak gebruikt men ook de korte vormen <em>ich war</em> en <em>ich hatte</em>."
+    }
+   ]
+  },
+  {
+   "kop": "Het Futur",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<em>werden</em> op plaats 2 en de infinitief achteraan: <em>Wir werden nächstes Jahr nach Italien fahren.</em>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\"></th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">werden</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ich</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">werde</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">du</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wirst</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">er / sie / es</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wird</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wir</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">werden</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ihr</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">werdet</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sie / Sie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">werden</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Heel vaak gebruikt men gewoon het Präsens met een tijdsaanduiding: <em>Morgen fahre ich nach Köln.</em>"
+    },
+    {
+     "soort": "kader",
+     "html": "<p><strong>Luidop oefenen.</strong> Vertel in vijf zinnen in het Perfekt wat je vorig weekend gedaan hebt.</p>"
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Perfekt: haben of sein + voltooid deelwoord achteraan.",
+  "Beweging en verandering: sein.",
+  "Regelmatig ge-...-t, onregelmatig ge-...-en.",
+  "Futur: werden + infinitief."
+ ]
+}
