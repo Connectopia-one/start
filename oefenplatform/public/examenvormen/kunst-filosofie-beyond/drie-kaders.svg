@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Drie kaders uit dezelfde film</text>
+<rect x="30" y="110" width="290" height="400" rx="8" fill="#eef3f8" stroke="#24331b" stroke-width="3"/>
+<circle cx="175" cy="555" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="175" y="562" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<rect x="355" y="110" width="290" height="400" rx="8" fill="#eef3f8" stroke="#24331b" stroke-width="3"/>
+<circle cx="500" cy="555" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="500" y="562" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<rect x="680" y="110" width="290" height="400" rx="8" fill="#eef3f8" stroke="#24331b" stroke-width="3"/>
+<circle cx="825" cy="555" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="825" y="562" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<path d="M 30 380 L 110 300 L 170 350 L 240 270 L 320 380 Z" fill="#c9d6c0" stroke="#24331b" stroke-width="2"/>
+<rect x="30" y="380" width="290" height="130" rx="0" fill="#a8c98a" stroke="#24331b" stroke-width="0"/>
+<circle cx="175" cy="395" r="7" fill="#24331b" stroke="#24331b" stroke-width="1"/>
+<line x1="175" y1="402" x2="175" y2="425" stroke="#24331b" stroke-width="3"/>
+<circle cx="500" cy="230" r="55" fill="#f1d9b5" stroke="#24331b" stroke-width="3"/>
+<path d="M 410 510 L 420 360 Q 500 300 580 360 L 590 510 Z" fill="#3b6fa0" stroke="#24331b" stroke-width="3"/>
+<circle cx="825" cy="310" r="138" fill="#f1d9b5" stroke="#24331b" stroke-width="3"/>
+<circle cx="775" cy="280" r="14" fill="#24331b" stroke="#24331b" stroke-width="1"/>
+<circle cx="875" cy="280" r="14" fill="#24331b" stroke="#24331b" stroke-width="1"/>
+<path d="M 775 370 Q 825 400 875 370" fill="none" stroke="#24331b" stroke-width="4"/>
+</svg>

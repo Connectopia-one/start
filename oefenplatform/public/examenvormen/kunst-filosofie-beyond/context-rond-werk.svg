@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">De context van een kunstwerk</text>
+<rect x="380" y="250" width="240" height="140" rx="12" fill="#a8c98a" stroke="#24331b" stroke-width="3"/>
+<text x="500" y="330" font-size="28" text-anchor="middle" fill="#24331b" font-weight="bold">kunstwerk</text>
+<rect x="40" y="70" width="300" height="130" rx="12" fill="#fbfaf5" stroke="#24331b" stroke-width="3"/>
+<circle cx="70" cy="100" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="70" y="107" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<text x="205" y="150" font-size="21" text-anchor="middle" fill="#24331b" font-weight="bold">tijd</text>
+<rect x="660" y="70" width="300" height="130" rx="12" fill="#fbfaf5" stroke="#24331b" stroke-width="3"/>
+<circle cx="690" cy="100" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="690" y="107" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<text x="825" y="150" font-size="21" text-anchor="middle" fill="#24331b" font-weight="bold">ruimte</text>
+<rect x="40" y="450" width="300" height="130" rx="12" fill="#fbfaf5" stroke="#24331b" stroke-width="3"/>
+<circle cx="70" cy="480" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="70" y="487" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<text x="205" y="515" font-size="21" text-anchor="middle" fill="#24331b" font-weight="bold">politieke, sociale</text>
+<text x="205" y="545" font-size="21" text-anchor="middle" fill="#24331b" font-weight="bold">en culturele context</text>
+<rect x="660" y="450" width="300" height="130" rx="12" fill="#fbfaf5" stroke="#24331b" stroke-width="3"/>
+<circle cx="690" cy="480" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="690" y="487" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">D</text>
+<text x="825" y="515" font-size="21" text-anchor="middle" fill="#24331b" font-weight="bold">persoonlijke context</text>
+<text x="825" y="545" font-size="21" text-anchor="middle" fill="#24331b" font-weight="bold">van de kunstenaar</text>
+<line x1="340" y1="150" x2="400" y2="250" stroke="#24331b" stroke-width="3"/>
+<polygon points="400,250 387.1,240.6 397.8,234.2" fill="#24331b"/>
+<line x1="660" y1="150" x2="600" y2="250" stroke="#24331b" stroke-width="3"/>
+<polygon points="600,250 602.2,234.2 612.9,240.6" fill="#24331b"/>
+<line x1="340" y1="500" x2="400" y2="390" stroke="#24331b" stroke-width="3"/>
+<polygon points="400,390 398.4,405.9 387.5,400.0" fill="#24331b"/>
+<line x1="660" y1="500" x2="600" y2="390" stroke="#24331b" stroke-width="3"/>
+<polygon points="600,390 612.5,400.0 601.6,405.9" fill="#24331b"/>
+</svg>
