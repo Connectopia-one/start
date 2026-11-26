@@ -149,6 +149,8 @@ OEFEN = dict(
 
 
 def maak():
+    from ready_gemeen import met_prenten
+    met_prenten(BUNDEL, OEFEN, "wiskunde_tafels")
     for maker, b, basis, naam in ((bundel, BUNDEL, HIER.parent, NAAM),
                                   (oefenbundel, OEFEN, HIER.parent.parent / "oefenbundels", "oefenbundel-" + NAAM)):
         tijdelijk = "ready-" + naam

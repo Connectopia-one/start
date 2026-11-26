@@ -8,7 +8,7 @@ Alle leesteksten zijn eigen teksten.
     python3 ready_nederlands.py werkwoorden  # één hoofdstuk
 """
 import sys
-from ready_gemeen import maak, tabel, READY
+from ready_gemeen import met_prenten, maak, tabel, READY
 
 HOE = ["Schrijf met potlood, dan kan je gerust iets uitgommen.",
        "Lees elke opdracht eerst helemaal voor je begint.",
@@ -260,4 +260,5 @@ H["taal"] = ("taal-en-verhalen-ready", dict(
 if __name__ == "__main__":
     for k in sys.argv[1:] or list(H):
         naam, leer, oefen = H[k]
+        met_prenten(leer, oefen, "nederlands_" + k)
         maak(naam, "nederlands", leer, oefen)

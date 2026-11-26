@@ -7,7 +7,7 @@ scherm staan in ../../ready/bron/wt_*.py, ak_*.py en gs_*.py.
     python3 ready_wo.py planten      # één hoofdstuk
 """
 import math, sys
-from ready_gemeen import maak, tabel, svg, READY, DARK, ORANJE, PAARS, GROEN
+from ready_gemeen import met_prenten, maak, tabel, svg, READY, DARK, ORANJE, PAARS, GROEN
 
 HOE = ["Schrijf met potlood, dan kan je gerust iets uitgommen.",
        "Lees elke opdracht eerst helemaal voor je begint.",
@@ -341,4 +341,5 @@ H["samenleven"] = ("samenleven-ready", "geschiedenis", dict(
 if __name__ == "__main__":
     for k in sys.argv[1:] or list(H):
         naam, vakmap, leer, oefen = H[k]
+        met_prenten(leer, oefen, {"wetenschap-en-techniek": "wt_", "aardrijkskunde": "ak_", "geschiedenis": "gs_"}[vakmap] + k)
         maak(naam, vakmap, leer, oefen, grote_figuren=True)

@@ -7,7 +7,7 @@ behalve Tafels en delen (zie ready_tafels.py). De vragen op het scherm staan in
     python3 ready_wiskunde.py breuken    # één hoofdstuk
 """
 import math, sys
-from ready_gemeen import maak, tabel, svg, READY, DARK, ORANJE, PAARS, GROEN
+from ready_gemeen import met_prenten, maak, tabel, svg, READY, DARK, ORANJE, PAARS, GROEN
 
 HOE = ["Schrijf met potlood, dan kan je gerust iets uitgommen.",
        "Schrijf altijd je tussenstappen op, ook als je het antwoord al in je hoofd weet.",
@@ -505,4 +505,5 @@ if __name__ == "__main__":
     kies = sys.argv[1:] or list(H)
     for k in kies:
         naam, leer, oefen = H[k]
+        met_prenten(leer, oefen, "wiskunde_" + k)
         maak(naam, "wiskunde", leer, oefen, ruitjes=True)
