@@ -404,19 +404,34 @@ HOE = [
 OEFEN = {}
 
 OEFEN["Wiskunde"] = dict(
-    vak="Wiskunde", titel=TITEL, onder="{aantal} oefeningen op papier, met een antwoordblad achteraan.", hoe=HOE,
+    vak="Wiskunde", titel=TITEL, onder="{aantal} oefeningen op papier, met een antwoordblad achteraan.",
+    hoe=HOE + ["Schrijf altijd je tussenstappen op, ook als je het antwoord al in je hoofd weet. Zo zie je waar het misloopt."],
     reeksen=[
-        dict(kop="Ggd en kgv", opdracht="Schrijf eerst de delers of veelvouden op.", oefeningen=[
-            ("rij", [("ggd van 16 en 24", "8"), ("ggd van 9 en 15", "3"), ("ggd van 14 en 21", "7"), ("ggd van 25 en 40", "5")], "Zoek de ggd."),
-            ("rij", [("kgv van 6 en 8", "24"), ("kgv van 5 en 7", "35"), ("kgv van 9 en 12", "36"), ("kgv van 4 en 10", "20")], "Zoek het kgv."),
-            ("open", "Een vuurtoren flitst om de 6 seconden, een andere om de 9 seconden. Nu flitsen ze samen. Na hoeveel seconden flitsen ze weer samen?", "kgv van 6 en 9 = 18 seconden", 2),
-            ("open", "Je hebt 18 rode en 30 blauwe ballonnen. Je maakt zoveel mogelijk gelijke trossen zonder ballonnen over te houden. Hoeveel trossen, en wat zit er in elke tros?", "ggd = 6 trossen, elk 3 rode en 5 blauwe", 2),
+        dict(kop="De ggd", opdracht="Schrijf de delers van allebei op en zoek de grootste die in beide rijen staat.", oefeningen=[
+            ("open", "Zoek de ggd van 16 en 24. Schrijf de delers van allebei op.", "delers 16: 1, 2, 4, 8, 16 — delers 24: 1, 2, 3, 4, 6, 8, 12, 24 → ggd = 8", 3),
+            ("open", "Zoek de ggd van 14 en 21.", "delers 14: 1, 2, 7, 14 — delers 21: 1, 3, 7, 21 → ggd = 7", 3),
+            ("open", "Zoek de ggd van 25 en 40.", "delers 25: 1, 5, 25 — delers 40: 1, 2, 4, 5, 8, 10, 20, 40 → ggd = 5", 3),
+        ]),
+        dict(kop="Het kgv", opdracht="Schrijf de veelvouden op tot je er een vindt die in beide rijen staat.", oefeningen=[
+            ("open", "Zoek het kgv van 6 en 8. Schrijf de veelvouden van allebei op tot je er een vindt die in beide rijen staat.", "6, 12, 18, 24 … en 8, 16, 24 … → kgv = 24", 3),
+            ("open", "Zoek het kgv van 9 en 12.", "9, 18, 27, 36 … en 12, 24, 36 … → kgv = 36", 3),
+            ("open", "Zoek het kgv van 4 en 10.", "4, 8, 12, 16, 20 … en 10, 20 … → kgv = 20", 3),
+        ]),
+        dict(kop="Ggd en kgv in het dagelijkse leven", opdracht="Zoek eerst uit of je de ggd of het kgv nodig hebt.", oefeningen=[
+            ("open", "Een vuurtoren flitst om de 6 seconden, een andere om de 9 seconden. Nu flitsen ze samen. Na hoeveel seconden flitsen ze weer samen?", "kgv van 6 en 9 = 18 seconden", 4),
+            ("open", "Je hebt 18 rode en 30 blauwe ballonnen. Je maakt zoveel mogelijk gelijke trossen zonder ballonnen over te houden. Hoeveel trossen, en wat zit er in elke tros?", "ggd van 18 en 30 = 6 trossen, elk 3 rode en 5 blauwe", 4),
         ]),
         dict(kop="Rekenen met breuken", opdracht="Maak de noemers eerst gelijk. Vereenvoudig je antwoord.", oefeningen=[
-            ("rij", [(r"\(\tfrac{1}{2} + \tfrac{1}{4}\)", "3/4"), (r"\(\tfrac{2}{3} + \tfrac{1}{6}\)", "5/6"), (r"\(\tfrac{3}{5} - \tfrac{1}{10}\)", "5/10 = 1/2"), (r"\(\tfrac{3}{4} - \tfrac{2}{3}\)", "1/12")]),
-            ("rij", [(r"\(\tfrac{1}{2} \times \tfrac{4}{5}\)", "4/10 = 2/5"), (r"\(\tfrac{2}{3} \times \tfrac{3}{8}\)", "6/24 = 1/4"), (r"\(4 : \tfrac{1}{2}\)", "8"), (r"\(\tfrac{3}{4} : \tfrac{1}{8}\)", "6")]),
+            ("open", r"\(\tfrac{1}{2} + \tfrac{1}{4} =\)", r"\(\tfrac{2}{4} + \tfrac{1}{4} = \tfrac{3}{4}\)", 2),
+            ("open", r"\(\tfrac{2}{3} + \tfrac{1}{6} =\)", r"\(\tfrac{4}{6} + \tfrac{1}{6} = \tfrac{5}{6}\)", 2),
+            ("open", r"\(\tfrac{3}{5} - \tfrac{1}{10} =\)", r"\(\tfrac{6}{10} - \tfrac{1}{10} = \tfrac{5}{10} = \tfrac{1}{2}\)", 2),
+            ("open", r"\(\tfrac{3}{4} - \tfrac{2}{3} =\)", r"\(\tfrac{9}{12} - \tfrac{8}{12} = \tfrac{1}{12}\)", 2),
+        ]),
+        dict(kop="Vermenigvuldigen en delen met breuken", opdracht="Vereenvoudig je antwoord.", oefeningen=[
+            ("open", r"\(\tfrac{2}{3} \times \tfrac{3}{8} =\)", r"\(\tfrac{6}{24} = \tfrac{1}{4}\)", 2),
+            ("open", r"\(\tfrac{3}{4} : \tfrac{1}{8} =\)", r"\(\tfrac{3}{4} \times 8 = \tfrac{24}{4} = 6\)", 2),
             ("waar", r"\(\tfrac{1}{3} + \tfrac{1}{3} = \tfrac{2}{6}\)", False),
-            ("open", r"Een fles bevat \(\tfrac{3}{4}\) liter. Hoeveel glaasjes van \(\tfrac{1}{8}\) liter kan je ermee vullen?", r"\(\tfrac{3}{4} : \tfrac{1}{8} = 6\) glaasjes", 2),
+            ("open", r"Een fles bevat \(\tfrac{1}{2}\) liter. Hoeveel glaasjes van \(\tfrac{1}{10}\) liter kan je ermee vullen?", r"\(\tfrac{1}{2} : \tfrac{1}{10} = 5\) glaasjes", 3),
         ]),
         dict(kop="Bruto, netto, tarra en oppervlakte", oefeningen=[
             ("tabel", ["bruto", "tarra", "netto"], [["750 g", "150 g", None], [None, "80 g", "420 g"], ["2 kg", None, "1 750 g"]], "600 g · 500 g · 250 g", "80px"),
@@ -424,14 +439,17 @@ OEFEN["Wiskunde"] = dict(
             ("rij", [("2 trimesters = ... maanden", "6"), ("3 semesters = ... maanden", "18"), ("2 eeuwen = ... jaar", "200")], "", "70px"),
         ]),
         dict(kop="Meetkunde", oefeningen=[
-            ("rij", [("hoek A = 40°, hoek B = 75°, hoek C = ?", "65°"), ("hoek A = 90°, hoek B = 35°, hoek C = ?", "55°")], "Bereken de derde hoek van de driehoek.", "70px"),
+            ("open", "In een driehoek is hoek A = 40° en hoek B = 75°. Hoe groot is hoek C?", "180° − 40° − 75° = 65°", 2),
+            ("open", "In een driehoek is hoek A = 90° en hoek B = 35°. Hoe groot is hoek C?", "180° − 90° − 35° = 55°", 2),
             ("kies", "Welke hoek is stomp?", ["45°", "90°", "120°", "180°"], 2),
             ("teken", "Teken een andere bouwplaat van een kubus dan het kruis uit de leerbundel. Kleur de twee vlakken die tegenover elkaar komen te liggen in dezelfde kleur.", "Er zijn 11 mogelijke bouwplaten; controleer door hem uit te knippen en te vouwen.", 55),
             ("teken", "Teken een assenstelsel van 0 tot 6 en zet de punten P (1, 4), Q (4, 4) en R (4, 1). Verbind ze. Welke figuur krijg je als je er punt S (1, 1) bij zet?", "een vierkant", 60),
         ]),
         dict(kop="Verhoudingen en statistiek", oefeningen=[
             ("tabel", ["liter verf", "2", "4", "10"], [["m² muur", "12", None, None]], "24 · 60", "60px"),
-            ("rij", [("mediaan van 3, 9, 4, 8, 6", "6"), ("mediaan van 10, 2, 7, 5", "6"), ("gemiddelde van 4, 6, 8, 10, 12", "8")], "", "60px"),
+            ("open", "Wat is de mediaan van 3, 9, 4, 8, 6? Zet ze eerst op volgorde.", "3, 4, 6, 8, 9 → mediaan 6", 2),
+            ("open", "Wat is de mediaan van 10, 2, 7, 5?", "2, 5, 7, 10 → midden van 5 en 7 = 6", 2),
+            ("open", "Wat is het gemiddelde van 4, 6, 8, 10, 12?", "4 + 6 + 8 + 10 + 12 = 40, 40 : 5 = 8", 2),
             ("open", "Vijf kinderen sparen 2, 3, 3, 4 en 28 euro. Geeft het gemiddelde of de mediaan het beste beeld van wat een kind meestal spaart? Leg uit.", "Mediaan 3 euro; het gemiddelde (8 euro) wordt omhooggetrokken door de 28 euro.", 3),
         ]),
     ])
@@ -507,7 +525,8 @@ OEFEN["Aardrijkskunde"] = dict(
             ("rij", [("brandstof voor de auto", "aardolie"), ("glas maken", "zand"), ("vroeger uit de Limburgse mijnen", "steenkool")], "Welke delfstof?", WW),
         ]),
         dict(kop="Mensen op aarde", oefeningen=[
-            ("tabel", ["Gebied", "Inwoners", "km²", "Inwoners per km²"], [["A", "6 000", "20", None], ["B", "900", "30", None]], "300 · 30", "70px"),
+            ("open", "Gebied A heeft 6 000 inwoners op 20 km². Hoeveel inwoners per km² is dat?", "6 000 : 20 = 300 inwoners per km²", 2),
+            ("open", "Gebied B heeft 900 inwoners op 30 km². Hoeveel inwoners per km² is dat? Welk gebied is het dichtst bevolkt?", "900 : 30 = 30 inwoners per km²; gebied A is dichter bevolkt", 3),
             ("open", "Noem twee redenen waarom mensen naar een ander land verhuizen.", "bv. werk, familie, studie, oorlog, rampen", 2),
             ("waar", "Welvaart is overal ter wereld even groot.", False),
         ]),
@@ -521,7 +540,8 @@ OEFEN["Aardrijkskunde"] = dict(
             ("open", "Als het in België zomer is, is het in Argentinië winter. Waarom?", "Argentinië ligt op het zuidelijk halfrond; door de schuine aardas zijn de seizoenen er omgekeerd.", 2),
         ]),
         dict(kop="Kaarten", oefeningen=[
-            ("rij", [("schaal 1 : 50 000, 4 cm", "2 km"), ("schaal 1 : 10 000, 7 cm", "700 m"), ("schaal 1 : 200 000, 3 cm", "6 km")], "Hoeveel is dat in het echt?", WW),
+            ("open", "Op een kaart met schaal 1 : 50 000 meet je 4 cm. Hoeveel is dat in het echt?", "4 × 50 000 cm = 200 000 cm = 2 km", 2),
+            ("open", "Op een kaart met schaal 1 : 10 000 meet je 7 cm. Hoeveel is dat in het echt?", "7 × 10 000 cm = 70 000 cm = 700 m", 2),
             ("kies", "Welke kaart toon je om te zien waar in België het meest mensen wonen?", ["een fietskaart", "een thematische kaart", "een stratenplan", "een plattegrond"], 1),
         ]),
     ])
