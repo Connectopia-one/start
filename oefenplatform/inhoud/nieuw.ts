@@ -41,6 +41,12 @@ export const nieuwTekst = {
 export const updates: Update[] = [
   {
     datum: "26 november 2026",
+    titel: "Lege omzettabellen om af te drukken",
+    tekst:
+      "Bij Leuke extra's, onder afdrukbare documenten, staan nu zes lege omzettabellen: lengte, inhoud, gewicht, oppervlakte, volume en een tabel voor getallen en kommagetallen. Druk ze af, lamineer ze en schrijf erop met een whiteboardstift, dan kan je ze telkens opnieuw gebruiken. De nieuwe hoofdstukken voor het 6de leerjaar hebben nu ook een leerbundel en een oefenbundel, met plaats om je tussenstappen op te schrijven.",
+  },
+  {
+    datum: "26 november 2026",
     titel: "Start: extra hoofdstukken voor het 6de leerjaar",
     tekst:
       "We legden Start naast de nieuwe officiële minimumdoelen voor het einde van het 6de leerjaar. Wat nog ontbrak, staat nu in een extra hoofdstuk \"Nog meer voor het 6de leerjaar\" bij wiskunde, Nederlands, wetenschap en techniek, aardrijkskunde, geschiedenis en Frans, telkens 40 vragen. Bijvoorbeeld ggd en kgv, ongelijknamige breuken, bruto en netto, de mediaan, hoofdzin en bijzin, het meewerkend voorwerp, dialect en tussentaal, voortplanting, eerlijke proeven, duurzaamheid, platen en de Ring van Vuur, migratie, maanfasen, de zes periodes, Rosa Parks, de grondwet, erfgoed, de passé composé en de futur proche.",
