@@ -111,12 +111,12 @@ OEFEN = dict(
     reeksen=[
         dict(kop="Groepjes", oefeningen=[
             ("open", "Teken 3 groepjes van 5 bolletjes. Schrijf er de optelling en de vermenigvuldiging bij.", "5 + 5 + 5 = 15 en 3 × 5 = 15", 3),
-            ("rij", [("2 × 6 = 6 × ...", "2"), ("7 × 4 = 4 × ...", "7"), ("9 × 3 = ... × 9", "3")], "Vul aan.", W),
+            ("rij", [("2 × 6 = 6 × ...", "2"), ("7 × 4 = 4 × ...", "7"), ("9 × 3 = ... × 9", "3")], "Welk getal hoort op de puntjes? Schrijf het op de lijn.", W),
         ]),
         dict(kop="Tafels", opdracht="Reken uit.", oefeningen=[
             ("rij", [("3 × 7 =", "21"), ("8 × 6 =", "48"), ("9 × 4 =", "36"), ("5 × 9 =", "45"), ("7 × 7 =", "49"), ("6 × 3 =", "18")], "", W),
             ("rij", [("4 × 8 =", "32"), ("10 × 6 =", "60"), ("0 × 7 =", "0"), ("1 × 9 =", "9"), ("8 × 8 =", "64"), ("9 × 7 =", "63")], "", W),
-            ("rij", [("... × 6 = 42", "7"), ("8 × ... = 72", "9"), ("... × 5 = 40", "8"), ("3 × ... = 27", "9")], "Welk getal ontbreekt?", W),
+            ("rij", [("... × 6 = 42", "7"), ("8 × ... = 72", "9"), ("... × 5 = 40", "8"), ("3 × ... = 27", "9")], "Welk getal hoort op de puntjes? Schrijf het op de lijn.", W),
         ]),
         dict(kop="De tafelkaart", oefeningen=[
             ("open", "Vul de rij van 7 en de rij van 8 volledig in: 7, 14, ... tot 70 en 8, 16, ... tot 80.",
