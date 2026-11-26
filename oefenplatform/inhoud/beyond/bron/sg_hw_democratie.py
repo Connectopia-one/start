@@ -85,7 +85,7 @@ DEEL1 = [
         opties=[
             "het staatshoofd erft zijn plaats niet, maar wordt aangeduid of verkozen",
             "het staatshoofd is een vorst die zijn ambt van zijn ouders erft",
-            "het land wordt bestuurd vanuit de regels van een godsdienst",
+            "het land wordt bestuurd vanuit de regels van één bepaalde godsdienst",
             "de macht ligt bij enkele rijke families die alles beslissen",
         ],
         antwoord=0,
@@ -213,7 +213,7 @@ DEEL1 = [
         vraag="Waarom gebruiken grote landen bijna altijd een indirecte democratie?",
         opties=[
             "met miljoenen burgers is het niet haalbaar dat iedereen over elke wet stemt",
-            "een indirecte democratie is de enige vorm die een grondwet kan hebben",
+            "een indirecte democratie is de enige vorm van bestuur die een grondwet kan hebben",
             "in een directe democratie mogen vrouwen en jongeren niet meestemmen",
             "een indirecte democratie heeft helemaal geen verkiezingen nodig",
         ],
@@ -253,8 +253,8 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Wat is de grondwet of constitutie?",
         opties=[
-            "de hoogste wet, met de grondrechten en de regels over hoe de staat werkt",
-            "een lijst van alle straffen die een rechter mag opleggen",
+            "de hoogste wet, met de grondrechten en de werking van de staat",
+            "een lijst van alle straffen die een rechter in België mag opleggen",
             "het programma waarmee een partij de verkiezingen wil winnen",
             "het jaarlijkse plan van de regering met alle uitgaven",
         ],
@@ -277,10 +277,10 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Wat betekent de scheiding der machten?",
         opties=[
-            "de wetgevende, uitvoerende en rechterlijke macht liggen bij verschillende instellingen",
+            "wetten maken, uitvoeren en erover oordelen gebeurt door verschillende instellingen",
             "het land wordt opgedeeld in deelstaten die elk een eigen regering hebben",
             "de macht wordt elke vier jaar doorgegeven van de ene naar de andere partij",
-            "de kerk en de staat mogen zich niet met elkaars zaken bemoeien",
+            "de kerk en de staat mogen zich nooit met elkaars zaken en beslissingen bemoeien",
         ],
         antwoord=0,
         uitleg="Wie wetten maakt, wie ze uitvoert en wie erover oordeelt, zijn drie verschillende instellingen. Zo kan geen enkele macht alles alleen.",

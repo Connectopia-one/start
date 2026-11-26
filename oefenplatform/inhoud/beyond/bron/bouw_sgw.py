@@ -85,6 +85,11 @@ THEMAS = [
     # (fiche 3DDO, 45 %) krijgt er de politieke wetenschappen bij; die
     # titels beginnen met "Humane wetenschappen:" (zie sg_hw_democratie.py).
     ("sg_hw_democratie", "Humane wetenschappen: politiek, democratie en de rechtstaat"),
+    ("sg_hw_belgie", "Humane wetenschappen: de Belgische staat en zijn bestuursniveaus"),
+    ("sg_hw_partijen", "Humane wetenschappen: ideologieën, partijen en verkiezingen"),
+    ("sg_hw_participatie", "Humane wetenschappen: participatie, kiesstelsel en kiesrecht"),
+    ("sg_hw_recht", "Humane wetenschappen: het recht in de samenleving"),
+    ("sg_hw_globalisering", "Humane wetenschappen: globalisering, de VN en de Europese Unie"),
     ("sg_socialisatie", "Socialisatie: posities, rollen en vier visies"),
     ("sg_stratificatie", "Sociale stratificatie en de verklaringsmodellen"),
     ("sg_mobiliteit", "Sociale mobiliteit, meritocratie en het matheüseffect"),

@@ -5851,7 +5851,7 @@
           "opties": [
             "het staatshoofd erft zijn plaats niet, maar wordt aangeduid of verkozen",
             "het staatshoofd is een vorst die zijn ambt van zijn ouders erft",
-            "het land wordt bestuurd vanuit de regels van een godsdienst",
+            "het land wordt bestuurd vanuit de regels van één bepaalde godsdienst",
             "de macht ligt bij enkele rijke families die alles beslissen"
           ],
           "antwoord": 0,
@@ -5998,7 +5998,7 @@
           "vraag": "Waarom gebruiken grote landen bijna altijd een indirecte democratie?",
           "opties": [
             "met miljoenen burgers is het niet haalbaar dat iedereen over elke wet stemt",
-            "een indirecte democratie is de enige vorm die een grondwet kan hebben",
+            "een indirecte democratie is de enige vorm van bestuur die een grondwet kan hebben",
             "in een directe democratie mogen vrouwen en jongeren niet meestemmen",
             "een indirecte democratie heeft helemaal geen verkiezingen nodig"
           ],
@@ -6047,8 +6047,8 @@
           "type": "meerkeuze",
           "vraag": "Wat is de grondwet of constitutie?",
           "opties": [
-            "de hoogste wet, met de grondrechten en de regels over hoe de staat werkt",
-            "een lijst van alle straffen die een rechter mag opleggen",
+            "de hoogste wet, met de grondrechten en de werking van de staat",
+            "een lijst van alle straffen die een rechter in België mag opleggen",
             "het programma waarmee een partij de verkiezingen wil winnen",
             "het jaarlijkse plan van de regering met alle uitgaven"
           ],
@@ -6071,10 +6071,10 @@
           "type": "meerkeuze",
           "vraag": "Wat betekent de scheiding der machten?",
           "opties": [
-            "de wetgevende, uitvoerende en rechterlijke macht liggen bij verschillende instellingen",
+            "wetten maken, uitvoeren en erover oordelen gebeurt door verschillende instellingen",
             "het land wordt opgedeeld in deelstaten die elk een eigen regering hebben",
             "de macht wordt elke vier jaar doorgegeven van de ene naar de andere partij",
-            "de kerk en de staat mogen zich niet met elkaars zaken bemoeien"
+            "de kerk en de staat mogen zich nooit met elkaars zaken en beslissingen bemoeien"
           ],
           "antwoord": 0,
           "uitleg": "Wie wetten maakt, wie ze uitvoert en wie erover oordeelt, zijn drie verschillende instellingen. Zo kan geen enkele macht alles alleen."
@@ -6230,6 +6230,2251 @@
           "vraag": "Een staat met verkiezingen, maar waar de president zelf de rechters kiest en ontslaat, voldoet niet aan alle principes van een democratische rechtstaat.",
           "antwoord": true,
           "uitleg": "Verkiezingen alleen zijn niet genoeg. Zonder onafhankelijke rechtspraak en scheiding der machten is het geen volwaardige rechtstaat."
+        }
+      ]
+    },
+    {
+      "titel": "Humane wetenschappen: de Belgische staat en zijn bestuursniveaus — deel 1",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een unitaire staat?",
+          "opties": [
+            "een staat waarin één centrale overheid alle belangrijke beslissingen neemt",
+            "een staat waarin deelstaten eigen parlementen en regeringen hebben",
+            "een samenwerking van onafhankelijke staten die zelf bijna alles regelen",
+            "een staat die geen grondwet heeft en geen eigen parlement kiest"
+          ],
+          "antwoord": 0,
+          "uitleg": "In een unitaire staat ligt de macht bij één centrale overheid. België was zo'n staat van 1830 tot de staatshervormingen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een federale staat?",
+          "opties": [
+            "een staat met een centrale overheid en deelstaten die elk eigen bevoegdheden hebben",
+            "een staat waarin enkel de hoofdstad beslist over alles wat in het land gebeurt",
+            "een losse samenwerking van landen die elk volledig onafhankelijk blijven",
+            "een staat die bestuurd wordt door een vorst zonder enig parlement ernaast"
+          ],
+          "antwoord": 0,
+          "uitleg": "In een federale staat is de macht verdeeld tussen het federale niveau en de deelstaten. Elk niveau beslist zelfstandig over zijn eigen bevoegdheden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een confederale staat?",
+          "opties": [
+            "een verbond van zelfstandige staten die enkel enkele taken samen regelen",
+            "een staat met één centrale regering die alle wetten voor het land maakt",
+            "een staat waarin de gemeenten de enige bestuurslaag zijn die er bestaat",
+            "een staat met een koning als staatshoofd en een verkozen parlement"
+          ],
+          "antwoord": 0,
+          "uitleg": "In een confederatie houden de deelstaten de meeste macht. Ze spreken af om enkele zaken samen te doen, zoals defensie of een munt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is België vandaag?",
+          "opties": [
+            "een federale staat",
+            "een unitaire staat",
+            "een confederale staat",
+            "een theocratie"
+          ],
+          "antwoord": 0,
+          "uitleg": "Sinds de staatshervorming van 1993 staat in het eerste artikel van de grondwet dat België een federale staat is, met gemeenschappen en gewesten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe werd België van een unitaire een federale staat?",
+          "opties": [
+            "stap voor stap, via een reeks staatshervormingen sinds 1970",
+            "in één keer, bij de onafhankelijkheid van België in 1830",
+            "door een beslissing van de Europese Unie na de Tweede Wereldoorlog",
+            "door een volksraadpleging waarin de burgers voor federalisme kozen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Sinds 1970 waren er zes staatshervormingen. Elke keer kregen de gemeenschappen en gewesten meer bevoegdheden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke spanningen lagen vooral aan de basis van de staatshervormingen?",
+          "opties": [
+            "de tegenstellingen tussen Nederlandstaligen en Franstaligen, in taal en economie",
+            "de tegenstellingen tussen de kustprovincies en de provincies in het binnenland",
+            "de ruzie tussen België en Nederland over de grenzen van de twee landen",
+            "de wens van de Europese Unie om alle lidstaten federaal te maken"
+          ],
+          "antwoord": 0,
+          "uitleg": "Vlamingen wilden meer zelfbestuur voor hun taal en cultuur, Walen meer economische zelfstandigheid. Die verschillende eisen leidden tot gemeenschappen en gewesten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke van deze zijn bestuursniveaus in België?",
+          "opties": [
+            "de federale overheid",
+            "de gemeenschappen en de gewesten",
+            "de provincies",
+            "de gemeenten",
+            "de Europese Raad",
+            "de vakbonden"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "uitleg": "België heeft vier bestuursniveaus: federaal, regionaal (gemeenschappen en gewesten), provinciaal en gemeentelijk. De Europese Raad is een instelling van de EU en vakbonden zijn belangengroepen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke drie gemeenschappen heeft België?",
+          "opties": [
+            "de Vlaamse, de Franse en de Duitstalige Gemeenschap",
+            "de Vlaamse, de Waalse en de Brusselse Gemeenschap",
+            "de Nederlandse, de Franse en de Europese Gemeenschap",
+            "de Vlaamse, de Waalse en de Duitstalige Gemeenschap"
+          ],
+          "antwoord": 0,
+          "uitleg": "De gemeenschappen zijn gebaseerd op taal: Nederlands, Frans en Duits. Vlaams, Waals en Brussels Hoofdstedelijk zijn de namen van de gewesten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke drie gewesten heeft België?",
+          "opties": [
+            "het Vlaamse, het Waalse en het Brusselse Hoofdstedelijke Gewest",
+            "het Vlaamse, het Franse en het Duitstalige Gewest",
+            "het Nederlandstalige, het Franstalige en het tweetalige Gewest",
+            "het noordelijke, het zuidelijke en het oostelijke Gewest"
+          ],
+          "antwoord": 0,
+          "uitleg": "De gewesten zijn gebaseerd op grondgebied: Vlaanderen, Wallonië en Brussel. Het Duitse taalgebied ligt in het Waals Gewest."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarover beslissen de gemeenschappen vooral?",
+          "opties": [
+            "over zaken die met personen te maken hebben, zoals onderwijs en cultuur",
+            "over zaken die met grondgebied te maken hebben, zoals wegen en ruimtelijke ordening",
+            "over defensie, buitenlandse zaken en de nationale munt van het land",
+            "over de straffen die een rechter mag opleggen bij een misdrijf"
+          ],
+          "antwoord": 0,
+          "uitleg": "Gemeenschappen hebben persoonsgebonden bevoegdheden, zoals onderwijs, cultuur, taalgebruik en een groot deel van welzijn en gezondheid."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarover beslissen de gewesten vooral?",
+          "opties": [
+            "over grondgebonden zaken, zoals milieu en ruimtelijke ordening",
+            "over zaken die met personen te maken hebben, zoals onderwijs en cultuur",
+            "over het leger, de buitenlandse politiek en de sociale zekerheid",
+            "over de benoeming van rechters en de werking van de rechtbanken"
+          ],
+          "antwoord": 0,
+          "uitleg": "Gewesten hebben grondgebonden bevoegdheden, zoals economie, ruimtelijke ordening, milieu, wonen, landbouw en openbare werken."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke bevoegdheid ligt bij de federale overheid?",
+          "opties": [
+            "defensie",
+            "het onderwijs",
+            "de ruimtelijke ordening",
+            "het afvalbeleid van een gemeente"
+          ],
+          "antwoord": 0,
+          "uitleg": "De federale overheid blijft bevoegd voor zaken die het hele land aangaan, zoals defensie, justitie, buitenlandse zaken, financiën en de sociale zekerheid."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een school in Gent wil weten welke eindtermen haar leerlingen moeten halen. Welk bestuursniveau legt die vast?",
+          "opties": [
+            "de Vlaamse Gemeenschap",
+            "de federale overheid",
+            "de provincie Oost-Vlaanderen",
+            "de stad Gent"
+          ],
+          "antwoord": 0,
+          "uitleg": "Onderwijs is een bevoegdheid van de gemeenschappen. Voor een Nederlandstalige school in Vlaanderen is dat de Vlaamse Gemeenschap."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een bedrijf in Namen vraagt een milieuvergunning aan voor een nieuwe fabriekshal. Welke overheid bepaalt de regels voor die milieuvergunning?",
+          "opties": [
+            "het Waals Gewest",
+            "de Franse Gemeenschap",
+            "de federale overheid",
+            "de Europese Commissie"
+          ],
+          "antwoord": 0,
+          "uitleg": "Milieu is een grondgebonden bevoegdheid en dus een zaak van het gewest waar de fabriek staat: het Waals Gewest."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een staat waarin de macht verdeeld is tussen een centrale overheid en deelstaten, heet een ... staat.",
+          "antwoord": [
+            "federale"
+          ],
+          "uitleg": "Federaal komt van foedus, verbond. België is sinds 1993 officieel een federale staat."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Het Duitstalige gebied in het oosten van België heeft een eigen gemeenschap, maar geen eigen gewest.",
+          "antwoord": true,
+          "uitleg": "De Duitstalige Gemeenschap regelt onder meer onderwijs en cultuur. Voor de gewestbevoegdheden hoort het gebied bij het Waals Gewest."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "België is een federale staat sinds de onafhankelijkheid in 1830.",
+          "antwoord": false,
+          "uitleg": "In 1830 begon België als unitaire staat. Pas door de staatshervormingen sinds 1970 werd het een federale staat."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In Vlaanderen werken de Vlaamse Gemeenschap en het Vlaams Gewest met één parlement en één regering.",
+          "antwoord": true,
+          "uitleg": "Vlaanderen heeft de instellingen van gemeenschap en gewest samengevoegd. Er is één Vlaams Parlement en één Vlaamse Regering."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In een confederale staat heeft de centrale overheid meer macht dan in een unitaire staat.",
+          "antwoord": false,
+          "uitleg": "Het omgekeerde klopt: in een unitaire staat heeft de centrale overheid de meeste macht, in een confederatie de deelstaten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Zet deze staatsvormen van de meest naar de minst centrale macht.",
+          "opties": [
+            "unitair, federaal, confederaal",
+            "federaal, unitair, confederaal",
+            "confederaal, federaal, unitair",
+            "unitair, confederaal, federaal"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een unitaire staat heeft één sterk centrum, een federale staat deelt de macht, en in een confederatie houden de deelstaten bijna alles zelf."
+        }
+      ]
+    },
+    {
+      "titel": "Humane wetenschappen: de Belgische staat en zijn bestuursniveaus — deel 2",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke instelling oefent op het federale niveau de wetgevende macht uit?",
+          "opties": [
+            "het federale parlement, met de Kamer en de Senaat",
+            "de federale regering, met de eerste minister",
+            "het Grondwettelijk Hof in Brussel",
+            "de Raad van State in Brussel"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het federale parlement bestaat uit de Kamer van Volksvertegenwoordigers en de Senaat. De Kamer is de belangrijkste en telt 150 leden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke instelling is op het Vlaamse niveau de uitvoerende macht?",
+          "opties": [
+            "de Vlaamse Regering",
+            "het Vlaams Parlement",
+            "de provincieraad",
+            "de Kamer van Volksvertegenwoordigers"
+          ],
+          "antwoord": 0,
+          "uitleg": "De Vlaamse Regering voert de decreten van het Vlaams Parlement uit. Het parlement maakt de regels en controleert de regering."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke organen besturen een gemeente?",
+          "opties": [
+            "de gemeenteraad en het college van burgemeester en schepenen",
+            "de provincieraad en de deputatie met de gouverneur",
+            "de Kamer en de Senaat met hun twee voorzitters",
+            "het vredegerecht en de politierechtbank van de eigen stad"
+          ],
+          "antwoord": 0,
+          "uitleg": "De gemeenteraad is de verkozen raad die beslist over de regels van de gemeente. Het college van burgemeester en schepenen voert ze uit."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke organen besturen een provincie?",
+          "opties": [
+            "de provincieraad en de deputatie, met de gouverneur",
+            "de gemeenteraad en het college van burgemeester en schepenen",
+            "het Vlaams Parlement en de Vlaamse Regering",
+            "de Raad van State en het Grondwettelijk Hof"
+          ],
+          "antwoord": 0,
+          "uitleg": "De provincieraad wordt verkozen. De deputatie voert het beleid uit, en de gouverneur vertegenwoordigt er ook de hogere overheden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een coalitie?",
+          "opties": [
+            "een groep partijen die samen een meerderheid vormen en regeren",
+            "de groep partijen in het parlement die niet in de regering zit",
+            "een vergadering van alle burgemeesters uit één en dezelfde provincie",
+            "een conflict tussen twee bestuursniveaus over een bevoegdheid"
+          ],
+          "antwoord": 0,
+          "uitleg": "In België haalt één partij bijna nooit alleen de meerderheid. Daarom sluiten meerdere partijen een akkoord en vormen ze samen een coalitie."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de oppositie?",
+          "opties": [
+            "de partijen in het parlement die niet in de regering zitten",
+            "de partijen die samen de regering vormen en een akkoord sloten",
+            "de burgers die bij de verkiezingen niet gaan stemmen",
+            "de rechters die een uitspraak van een lagere rechtbank vernietigen"
+          ],
+          "antwoord": 0,
+          "uitleg": "De oppositie controleert de regering kritisch, stelt vragen en doet andere voorstellen. Dat is een belangrijke taak in een democratie."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke van deze zijn taken van een parlement?",
+          "opties": [
+            "wetten of decreten maken en goedkeuren",
+            "de regering controleren",
+            "de begroting goedkeuren",
+            "vonnissen uitspreken in strafzaken",
+            "de burgemeesters van alle gemeenten benoemen"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Een parlement maakt regels, controleert de regering en keurt de begroting goed. Vonnissen zijn werk voor rechters."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In het Vlaams Parlement stelt een parlementslid van de oppositie een kritische vraag aan de minister van Onderwijs over het lerarentekort. Welke functie van het parlement zie je hier?",
+          "opties": [
+            "de controle op de regering",
+            "het maken van een decreet",
+            "het goedkeuren van de begroting",
+            "het uitspreken van een vonnis"
+          ],
+          "antwoord": 0,
+          "uitleg": "Door vragen te stellen, houdt het parlement de regering in het oog. Dat is de controlefunctie."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe heet een regel die het Vlaams Parlement goedkeurt?",
+          "opties": [
+            "een decreet",
+            "een wet",
+            "een ordonnantie",
+            "een vonnis"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het federale parlement maakt wetten, het Vlaams Parlement decreten en het Brussels Parlement ordonnanties."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat doet het Grondwettelijk Hof?",
+          "opties": [
+            "het toetst wetten en decreten aan de grondwet en de bevoegdheidsverdeling",
+            "het behandelt als hoogste rechtbank alle strafzaken met een volksjury",
+            "het maakt nieuwe wetten als het parlement daar zelf niet uit raakt",
+            "het telt alle stemmen na de verkiezingen en maakt de officiële uitslag bekend"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het Grondwettelijk Hof kan een wet, decreet of ordonnantie vernietigen als die de grondrechten schendt of als een overheid buiten haar bevoegdheid ging."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat doet de Raad van State?",
+          "opties": [
+            "advies geven over ontwerpen van wetten en onwettige overheidsbeslissingen vernietigen",
+            "de feiten van een strafzaak opnieuw beoordelen na een uitspraak in beroep",
+            "de regering vormen als de partijen geen akkoord vinden na de verkiezingen",
+            "de koning vervangen als staatshoofd wanneer hij zelf niet meer kan regeren"
+          ],
+          "antwoord": 0,
+          "uitleg": "De Raad van State geeft juridisch advies over ontwerpen van regels. Een burger kan er ook terecht tegen een onwettige beslissing van een overheid, zoals een vergunning."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat doet het Hof van Cassatie?",
+          "opties": [
+            "nagaan of rechters de wet juist toepasten, zonder de feiten te herbekijken",
+            "nagaan of een wet in overeenstemming is met de grondwet van België",
+            "advies geven aan het parlement over een nieuw ontwerp van wet of decreet",
+            "de straf bepalen voor de zwaarste misdaden, met een volksjury"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het Hof van Cassatie is het hoogste hof van de gewone rechtbanken. Het kijkt enkel of het recht juist werd toegepast en de regels van de procedure gevolgd zijn."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een vereniging vindt dat een nieuw Vlaams decreet de vrijheid van onderwijs uit de grondwet schendt. Waar kan ze vragen om het decreet te vernietigen?",
+          "opties": [
+            "bij het Grondwettelijk Hof",
+            "bij het Hof van Cassatie",
+            "bij het vredegerecht",
+            "bij de Europese Raad"
+          ],
+          "antwoord": 0,
+          "uitleg": "Enkel het Grondwettelijk Hof kan een decreet toetsen aan de grondwet en het vernietigen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een buurtcomité vindt dat de gemeente een bouwvergunning gaf zonder de regels te volgen. Bij welk controleorgaan kan het die beslissing aanvechten?",
+          "opties": [
+            "bij de Raad van State",
+            "bij het Grondwettelijk Hof",
+            "bij het Hof van Cassatie",
+            "bij de Kamer van Volksvertegenwoordigers"
+          ],
+          "antwoord": 0,
+          "uitleg": "De Raad van State kan beslissingen van een overheid vernietigen als ze onwettig zijn. Het Grondwettelijk Hof gaat over wetten en decreten, niet over vergunningen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "De partijen in het parlement die niet in de regering zitten, vormen samen de ...",
+          "antwoord": [
+            "oppositie"
+          ],
+          "uitleg": "De oppositie controleert en bekritiseert de regering, en kan zelf voorstellen indienen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Het controleorgaan dat wetten en decreten toetst aan de grondwet, heet het ... Hof.",
+          "antwoord": [
+            "Grondwettelijk",
+            "grondwettelijk"
+          ],
+          "uitleg": "Het Grondwettelijk Hof heette vroeger het Arbitragehof, omdat het vooral bevoegdheidsconflicten tussen de overheden beslechtte."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In België vormt meestal één partij alleen de federale regering.",
+          "antwoord": false,
+          "uitleg": "Door het kiesstelsel van evenredige vertegenwoordiging haalt één partij bijna nooit de meerderheid. Er is dus bijna altijd een coalitie nodig."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Elk bestuursniveau in België heeft een orgaan dat regels maakt en een orgaan dat ze uitvoert.",
+          "antwoord": true,
+          "uitleg": "Federaal zijn dat parlement en regering, in Vlaanderen het Vlaams Parlement en de Vlaamse Regering, in de provincie de provincieraad en de deputatie, en in de gemeente de gemeenteraad en het college."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Het Hof van Cassatie beoordeelt opnieuw of een verdachte de feiten echt gepleegd heeft.",
+          "antwoord": false,
+          "uitleg": "Het Hof van Cassatie oordeelt niet over de feiten. Het kijkt alleen of de wet en de procedure juist werden toegepast."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een parlement kan een regering wegsturen als die het vertrouwen van de meerderheid verliest.",
+          "antwoord": true,
+          "uitleg": "Een regering heeft het vertrouwen van de meerderheid in het parlement nodig. Zonder dat vertrouwen moet ze opstappen."
+        }
+      ]
+    },
+    {
+      "titel": "Humane wetenschappen: ideologieën, partijen en verkiezingen — deel 1",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een ideologie?",
+          "opties": [
+            "een samenhangend geheel van ideeën over hoe de samenleving eruit moet zien",
+            "een wet die het parlement goedkeurt over de werking van alle partijen",
+            "een peiling die voorspelt hoeveel stemmen een partij zal halen",
+            "de plaats waar een partij haar hoofdkwartier en haar kantoren heeft"
+          ],
+          "antwoord": 0,
+          "uitleg": "Liberalisme, socialisme en ecologisme zijn voorbeelden. Een ideologie geeft een visie op mens en samenleving en richting aan politieke keuzes."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een breuklijn in de politiek?",
+          "opties": [
+            "een blijvende tegenstelling in de samenleving waarrond partijen zich vormen",
+            "het moment waarop een regering ontslag neemt en er verkiezingen komen",
+            "de grens tussen twee kieskringen op de kaart van een Belgische provincie",
+            "een ruzie tussen twee politici van dezelfde partij over een voorstel"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een breuklijn deelt de samenleving in twee kampen met tegengestelde belangen of waarden. In België ontstonden veel partijen langs zulke breuklijnen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke breuklijn hoort bij de tegenstelling tussen arbeid en kapitaal?",
+          "opties": [
+            "de sociaal-economische breuklijn",
+            "de levensbeschouwelijke breuklijn",
+            "de communautaire breuklijn",
+            "de breuklijn tussen stad en platteland"
+          ],
+          "antwoord": 0,
+          "uitleg": "Werknemers en werkgevers hebben andere economische belangen. Uit die tegenstelling groeiden onder meer de socialistische partijen en de vakbonden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke breuklijn hoort bij de tegenstelling tussen kerk en staat?",
+          "opties": [
+            "de levensbeschouwelijke breuklijn",
+            "de sociaal-economische breuklijn",
+            "de communautaire breuklijn",
+            "de ecologische breuklijn"
+          ],
+          "antwoord": 0,
+          "uitleg": "Katholieken en vrijzinnigen streden lang over de rol van de kerk, bijvoorbeeld in het onderwijs. Dat is de levensbeschouwelijke of ideologische breuklijn."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke breuklijn hoort bij de tegenstelling tussen Nederlandstaligen en Franstaligen?",
+          "opties": [
+            "de communautaire breuklijn",
+            "de sociaal-economische breuklijn",
+            "de levensbeschouwelijke breuklijn",
+            "de generatiebreuklijn"
+          ],
+          "antwoord": 0,
+          "uitleg": "De communautaire breuklijn gaat over taal en identiteit. Ze leidde tot de staatshervormingen en tot partijen die zich per taalgroep organiseren."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke ideologie legt de nadruk op de vrijheid van het individu en een beperkte rol voor de overheid in de economie?",
+          "opties": [
+            "het liberalisme",
+            "het socialisme",
+            "het ecologisme",
+            "de christendemocratie"
+          ],
+          "antwoord": 0,
+          "uitleg": "Liberalen vinden dat mensen zo vrij mogelijk moeten kunnen kiezen en ondernemen, met een overheid die niet te veel ingrijpt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke ideologie legt de nadruk op gelijkheid en solidariteit, met een sterke rol voor de overheid?",
+          "opties": [
+            "het socialisme",
+            "het liberalisme",
+            "het nationalisme",
+            "het conservatisme"
+          ],
+          "antwoord": 0,
+          "uitleg": "Socialisten willen ongelijkheid verkleinen, onder meer via sociale zekerheid, openbare diensten en de rechten van werknemers."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke ideologie plaatst de zorg voor milieu, klimaat en toekomstige generaties centraal?",
+          "opties": [
+            "het ecologisme",
+            "het liberalisme",
+            "het nationalisme",
+            "de christendemocratie"
+          ],
+          "antwoord": 0,
+          "uitleg": "Ecologisten willen dat de samenleving binnen de grenzen van de natuur blijft en dat ook latere generaties goed kunnen leven."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke ideologie vertrekt van het eigen volk of de eigen natie als belangrijkste gemeenschap?",
+          "opties": [
+            "het nationalisme",
+            "het ecologisme",
+            "het socialisme",
+            "het liberalisme"
+          ],
+          "antwoord": 0,
+          "uitleg": "Nationalisten vinden dat een volk met een eigen taal en cultuur zoveel mogelijk zelf moet beslissen. In Vlaanderen spreekt men van Vlaams-nationalisme."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Tot welke ideologie wordt cd&v gewoonlijk gerekend?",
+          "opties": [
+            "de christendemocratie",
+            "het liberalisme",
+            "het ecologisme",
+            "het Vlaams-nationalisme"
+          ],
+          "antwoord": 0,
+          "uitleg": "cd&v groeide uit de katholieke partij en vertrekt van christelijke waarden, met aandacht voor het gezin, het middenveld en verbondenheid."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke twee Vlaamse partijen worden gewoonlijk tot het Vlaams-nationalisme gerekend?",
+          "opties": [
+            "N-VA en Vlaams Belang",
+            "Vooruit en Groen",
+            "cd&v en Open Vld",
+            "PVDA en Vooruit"
+          ],
+          "antwoord": 0,
+          "uitleg": "Beide partijen willen meer zelfbestuur voor Vlaanderen. N-VA wordt meestal centrumrechts genoemd, Vlaams Belang radicaal-rechts."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke partij wordt op de links-rechtsas gewoonlijk het verst links geplaatst?",
+          "opties": [
+            "PVDA",
+            "Vooruit",
+            "cd&v",
+            "Open Vld"
+          ],
+          "antwoord": 0,
+          "uitleg": "PVDA is een radicaal-linkse partij met marxistische wortels. Vooruit en Groen staan ook links, cd&v in het centrum en Open Vld, N-VA en Vlaams Belang rechts. Die indeling is ruw: per thema kan een partij anders staan."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waar gaat de links-rechtsas vooral over, als je het over economie hebt?",
+          "opties": [
+            "over hoeveel de overheid moet ingrijpen om welvaart te herverdelen",
+            "over de vraag of een partij uit Vlaanderen of uit Wallonië komt",
+            "over het aantal zetels dat een partij in het parlement heeft",
+            "over de leeftijd van de leden en de kiezers van een partij"
+          ],
+          "antwoord": 0,
+          "uitleg": "Links wil meer herverdeling en een sterke overheid, rechts meer vrije markt en minder belastingen. Bij thema's zoals migratie of ethiek spreekt men ook van progressief en conservatief."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een blijvende tegenstelling in de samenleving waarrond partijen ontstaan, noem je een ...",
+          "antwoord": [
+            "breuklijn"
+          ],
+          "uitleg": "De drie klassieke breuklijnen in België zijn levensbeschouwelijk, sociaal-economisch en communautair."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Veel Belgische partijen zijn ontstaan rond een historische breuklijn in de samenleving.",
+          "antwoord": true,
+          "uitleg": "De katholieke en liberale partijen ontstonden rond kerk en staat, de socialistische rond arbeid en kapitaal, en de Vlaams-nationale rond de taalkwestie."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een partij staat bij elk thema altijd op precies dezelfde plaats van de links-rechtsas.",
+          "antwoord": false,
+          "uitleg": "Een partij kan economisch eerder rechts zijn en bij ethische thema's progressief, of omgekeerd. De as is dus een vereenvoudiging."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Groen wordt gewoonlijk tot het ecologisme gerekend.",
+          "antwoord": true,
+          "uitleg": "Groen zet klimaat, milieu en duurzaamheid voorop, samen met sociale rechtvaardigheid."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Open Vld wordt gewoonlijk tot het socialisme gerekend.",
+          "antwoord": false,
+          "uitleg": "Open Vld is een liberale partij. Vooruit is de Vlaamse partij uit de socialistische traditie."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Uit welke ideologische traditie komt Vooruit?",
+          "opties": [
+            "de sociaaldemocratie",
+            "het liberalisme",
+            "de christendemocratie",
+            "het Vlaams-nationalisme"
+          ],
+          "antwoord": 0,
+          "uitleg": "Vooruit heette vroeger sp.a en daarvoor BSP. De partij zet in op sociale zekerheid, werk en gelijke kansen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een partij zegt: \"Iedereen moet zo vrij mogelijk zijn eigen leven kunnen leiden. Lagere belastingen geven ondernemers ademruimte.\" Bij welke ideologie past die uitspraak het best?",
+          "opties": [
+            "het liberalisme",
+            "het socialisme",
+            "het ecologisme",
+            "het communisme"
+          ],
+          "antwoord": 0,
+          "uitleg": "Individuele vrijheid en een overheid die niet te veel neemt of regelt, zijn kernideeën van het liberalisme."
+        }
+      ]
+    },
+    {
+      "titel": "Humane wetenschappen: ideologieën, partijen en verkiezingen — deel 2",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke van deze zijn actoren in een verkiezingsproces?",
+          "opties": [
+            "de politieke partijen",
+            "de kiezers",
+            "de media",
+            "de belangenorganisaties",
+            "het Hof van Cassatie"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "uitleg": "Partijen, kiezers, media en belangenorganisaties spelen allemaal een rol bij verkiezingen. Het Hof van Cassatie heeft daar geen rol in."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een peiling?",
+          "opties": [
+            "een onderzoek bij een groep kiezers om te schatten hoe er gestemd zal worden",
+            "de officiële telling van alle stemmen na de sluiting van de stembureaus",
+            "een debat op televisie tussen de voorzitters van de grote partijen",
+            "de wet die bepaalt hoeveel geld een partij aan campagne mag uitgeven"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een peiling is een momentopname bij een steekproef. Ze kan kiezers beïnvloeden, maar is nooit de echte uitslag."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke van deze zijn mechanismen die het verloop van verkiezingen regelen?",
+          "opties": [
+            "de kieswetgeving",
+            "de stemprocedure",
+            "de regels over campagnefinanciering",
+            "de peilingen in de krant",
+            "de affiches van de partijen"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Kieswetgeving, stemprocedure en campagnefinanciering zijn regels. Peilingen en affiches zijn informatie die tijdens de campagne verspreid wordt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom zijn er regels over campagnefinanciering?",
+          "opties": [
+            "zodat partijen met veel geld de verkiezingen niet kunnen kopen",
+            "zodat kiezers weten op welk uur het stembureau opengaat",
+            "zodat elke partij evenveel zetels krijgt in het parlement",
+            "zodat de media geen verslag mogen uitbrengen van de campagne"
+          ],
+          "antwoord": 0,
+          "uitleg": "Er zijn grenzen aan wat een partij mag uitgeven en ontvangen. Zo blijven de kansen eerlijker en is duidelijker wie een partij steunt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat hoort bij de identificatie van een verkiezing?",
+          "opties": [
+            "nagaan voor welk bestuursniveau er gestemd wordt",
+            "nagaan welke partij de meeste affiches ophing",
+            "nagaan welke peiling het dichtst bij de uitslag zat",
+            "nagaan hoeveel debatten er op televisie waren"
+          ],
+          "antwoord": 0,
+          "uitleg": "Eerst bepaal je welke verkiezing het is: gemeenteraad, provincieraad, Vlaams Parlement, Kamer of Europees Parlement."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In de weken voor de verkiezingen organiseert een televisiezender elke avond een debat tussen de lijsttrekkers. Onder welk criterium valt dat?",
+          "opties": [
+            "informatie",
+            "mechanismen",
+            "identificatie",
+            "verkiezingsresultaat"
+          ],
+          "antwoord": 0,
+          "uitleg": "Peilingen, campagne-uitingen en debatten zijn de informatie waarmee kiezers zich een mening vormen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een werkgeversorganisatie stuurt al haar leden een lijst met de standpunten van alle partijen over belastingen. Welke actor is hier aan het werk?",
+          "opties": [
+            "een belangenorganisatie",
+            "een politieke partij",
+            "de kieswetgever",
+            "een controleorgaan"
+          ],
+          "antwoord": 0,
+          "uitleg": "Werkgeversorganisaties, vakbonden en milieuverenigingen zijn belangenorganisaties. Ze proberen de keuze van kiezers en partijen te beïnvloeden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat gebeurt er meestal na federale verkiezingen in België, voor er een nieuwe regering is?",
+          "opties": [
+            "de partijen onderhandelen over een coalitie en een regeerakkoord",
+            "de grootste partij vormt meteen alleen de nieuwe regering",
+            "de koning kiest zelf de ministers zonder de partijen te horen",
+            "er komt een tweede stemronde tussen de twee grootste partijen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Omdat geen partij alleen een meerderheid heeft, zoeken partijen samen een akkoord. Die regeringsvorming duurt in België soms erg lang."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Partij A gaat van 12 naar 20 zetels, partij B van 18 naar 11. Wat zie je hier?",
+          "opties": [
+            "een politieke verschuiving, met een winnaar en een verliezer",
+            "een coalitie tussen partij A en partij B na de verkiezingen",
+            "een verandering in de kieswetgeving tussen twee verkiezingen",
+            "een bewijs dat de peilingen vooraf helemaal fout waren"
+          ],
+          "antwoord": 0,
+          "uitleg": "Partij A wint acht zetels en partij B verliest er zeven. De machtsverhoudingen veranderen, en dat kan gevolgen hebben voor de regeringsvorming."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Na de verkiezingen van 9 juni 2024 werd N-VA de grootste partij in de Kamer, met 24 van de 150 zetels. Wat volgt daaruit?",
+          "opties": [
+            "N-VA had andere partijen nodig om samen een meerderheid te halen",
+            "N-VA kon alleen een regering vormen, want ze was de grootste partij",
+            "N-VA moest volgens de grondwet in de oppositie gaan zitten",
+            "N-VA kreeg automatisch de helft van de ministers in de regering"
+          ],
+          "antwoord": 0,
+          "uitleg": "Voor een meerderheid in de Kamer heb je minstens 76 van de 150 zetels. Met 24 zetels moest N-VA dus samenwerken met andere partijen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel zetels heb je minstens nodig voor een meerderheid in de Kamer van 150 zetels?",
+          "opties": [
+            "76",
+            "75",
+            "100",
+            "51"
+          ],
+          "antwoord": 0,
+          "uitleg": "De helft van 150 is 75. Een meerderheid is meer dan de helft, dus minstens 76 zetels."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom maken structurele breuklijnen een regeringsvorming in België vaak moeilijk?",
+          "opties": [
+            "partijen moeten akkoorden vinden over tegenstellingen in economie, geloof en taal",
+            "de grondwet verbiedt dat partijen van verschillende ideologieën samenwerken",
+            "de breuklijnen zorgen ervoor dat er in België geen verkiezingen kunnen plaatsvinden",
+            "partijen mogen pas onderhandelen als alle peilingen hetzelfde tonen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een coalitie moet partijen verzoenen die op verschillende breuklijnen tegenover elkaar staan. Bovendien zitten er volgens de grondwet in de federale regering, de eerste minister niet meegerekend, evenveel Nederlandstalige als Franstalige ministers."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een linkse en een rechtse partij zitten samen in de regering. De linkse partij wil een vermogensbelasting, de rechtse wil minder belastingen. Wat is het meest waarschijnlijke gevolg?",
+          "opties": [
+            "lang onderhandelen en een compromis, of de beslissing uitstellen",
+            "de grootste partij beslist alleen en de andere partij volgt",
+            "de rechter beslist welke van de twee partijen gelijk heeft",
+            "de regering vraagt de Europese Commissie om te beslissen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Verschillen tussen links en rechts kunnen tot beleidsconflicten en vertraging leiden. In een coalitie zoekt men dan een compromis."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een onderzoek bij een groep kiezers om te schatten hoe er gestemd zal worden, heet een ...",
+          "antwoord": [
+            "peiling",
+            "opiniepeiling"
+          ],
+          "uitleg": "Een peiling is een momentopname, met een foutenmarge. De echte uitslag kan anders zijn."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De grootste partij na de verkiezingen komt in België altijd in de regering.",
+          "antwoord": false,
+          "uitleg": "De partijen die samen een meerderheid vinden, vormen de regering. Het kan dat de grootste partij in de oppositie belandt."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Media spelen een rol in het verkiezingsproces, onder meer door debatten en berichtgeving over de campagne.",
+          "antwoord": true,
+          "uitleg": "Media zijn een van de actoren. Ze geven informatie, organiseren debatten en bepalen mee welke thema's aandacht krijgen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een peiling is hetzelfde als de officiële verkiezingsuitslag.",
+          "antwoord": false,
+          "uitleg": "Een peiling is een schatting vooraf bij een steekproef. De uitslag is de telling van alle echte stemmen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Als een partij veel zetels wint, kunnen de politieke machtsverhoudingen in het parlement veranderen.",
+          "antwoord": true,
+          "uitleg": "Meer zetels betekent meer gewicht bij stemmingen en bij de regeringsvorming. Dat noem je een politieke verschuiving."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom is het belangrijk om bij een verkiezingsuitslag naar de zetels te kijken en niet enkel naar de stemmen?",
+          "opties": [
+            "de zetels bepalen hoeveel gewicht een partij heeft bij stemmingen",
+            "de stemmen worden na de verkiezingen niet meer bekendgemaakt aan het publiek",
+            "de zetels tonen hoeveel leden een partij heeft betaald voor hun lidkaart",
+            "de stemmen tellen enkel mee voor de verkiezingen van de gemeenteraad"
+          ],
+          "antwoord": 0,
+          "uitleg": "Stemmen worden omgezet in zetels. Het zijn de verkozenen op die zetels die in het parlement stemmen en een meerderheid vormen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een regeerakkoord?",
+          "opties": [
+            "de afspraken die de coalitiepartijen maken over wat de regering zal doen",
+            "de lijst met alle kandidaten die een partij voorstelt bij de verkiezingen",
+            "het vonnis van een rechter over een conflict tussen twee partijen",
+            "de uitslag van de verkiezingen zoals de overheid die bekendmaakt"
+          ],
+          "antwoord": 0,
+          "uitleg": "In het regeerakkoord staan de plannen en compromissen van de partijen die samen regeren. Het is de leidraad voor de nieuwe regering."
+        }
+      ]
+    },
+    {
+      "titel": "Humane wetenschappen: participatie, kiesstelsel en kiesrecht — deel 1",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe nemen burgers in een representatieve democratie vooral deel aan de politiek?",
+          "opties": [
+            "door bij verkiezingen vertegenwoordigers te kiezen die in hun naam beslissen",
+            "door zelf elke week over alle nieuwe wetten te stemmen in het parlement",
+            "door de ministers rechtstreeks te benoemen via een brief aan de koning",
+            "door als rechter te zetelen in een rechtbank van hun eigen gemeente"
+          ],
+          "antwoord": 0,
+          "uitleg": "In een representatieve democratie geven burgers via verkiezingen een mandaat aan vertegenwoordigers. Die beslissen dan in hun naam."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent evenredige vertegenwoordiging?",
+          "opties": [
+            "een partij krijgt ongeveer hetzelfde deel van de zetels als van de stemmen",
+            "de partij met de meeste stemmen in een kieskring krijgt alle zetels van die kieskring",
+            "elke partij krijgt evenveel zetels, hoeveel stemmen ze ook haalt",
+            "de zetels worden verdeeld volgens het aantal leden van elke partij"
+          ],
+          "antwoord": 0,
+          "uitleg": "Wie 20 procent van de stemmen haalt, krijgt ongeveer 20 procent van de zetels. Zo komen ook kleinere partijen in het parlement."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk kiesstelsel gebruikt België voor de verkiezingen van het parlement?",
+          "opties": [
+            "evenredige vertegenwoordiging",
+            "een meerderheidsstelsel met één winnaar per kieskring",
+            "een stelsel waarbij de koning de parlementsleden kiest",
+            "een stelsel waarbij enkel de grootste partij zetels krijgt"
+          ],
+          "antwoord": 0,
+          "uitleg": "België werkt met evenredige vertegenwoordiging. Daardoor zitten er veel partijen in het parlement en zijn er bijna altijd coalities."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In het Verenigd Koninkrijk krijgt per kiesdistrict enkel de kandidaat met de meeste stemmen een zetel. Wat is een gevolg van dat meerderheidsstelsel?",
+          "opties": [
+            "grote partijen krijgen meer zetels dan hun deel van de stemmen",
+            "elke partij krijgt precies zoveel procent van de zetels als van de stemmen",
+            "er zijn na de verkiezingen altijd coalities van vijf of zes partijen nodig",
+            "kleine partijen krijgen meer zetels dan ze stemmen haalden in het land"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij een meerderheidsstelsel gaan de stemmen voor verliezers in een district verloren. Dat bevoordeelt grote partijen en geeft vaak een regering van één partij."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een voordeel van evenredige vertegenwoordiging?",
+          "opties": [
+            "de zetels weerspiegelen goed hoe de kiezers gestemd hebben",
+            "er is na de verkiezingen meestal meteen een regering van één partij",
+            "de grootste partij kan beslissen zonder rekening te houden met anderen",
+            "er hoeven veel minder kiezers te gaan stemmen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Meer stromingen krijgen een stem in het parlement. Het nadeel is dat regeringsvorming moeilijker is, omdat er coalities nodig zijn."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat was het cijnskiesrecht van 1831?",
+          "opties": [
+            "enkel mannen die genoeg belastingen betaalden, mochten stemmen",
+            "alle mannen en vrouwen vanaf 21 jaar mochten één stem uitbrengen",
+            "alle mannen vanaf 25 jaar mochten stemmen, sommigen meer dan één keer",
+            "iedereen mocht stemmen, maar enkel voor de gemeenteraad"
+          ],
+          "antwoord": 0,
+          "uitleg": "Cijns betekent belasting. In 1831 mocht maar een klein deel van de mannen stemmen: wie rijk genoeg was om voldoende belasting te betalen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat veranderde er in 1893 aan het kiesrecht in België?",
+          "opties": [
+            "algemeen meervoudig stemrecht voor mannen, met opkomstplicht",
+            "het stemrecht voor vrouwen bij de verkiezingen van het parlement",
+            "het verlagen van de stemleeftijd naar 18 jaar voor alle Belgen",
+            "het afschaffen van de opkomstplicht voor alle verkiezingen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Vanaf 1893 mochten alle mannen vanaf 25 jaar stemmen, maar wie rijk was, een diploma had of een gezin had, kreeg extra stemmen. Tegelijk kwam de opkomstplicht."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Zet deze stappen in de evolutie van het kiesrecht in de juiste volgorde.",
+          "opties": [
+            "cijnskiesrecht, meervoudig stemrecht, enkelvoudig stemrecht voor mannen, stemrecht voor vrouwen",
+            "meervoudig stemrecht, cijnskiesrecht, stemrecht voor vrouwen, enkelvoudig stemrecht voor mannen",
+            "enkelvoudig stemrecht voor mannen, cijnskiesrecht, stemrecht voor vrouwen, meervoudig stemrecht",
+            "cijnskiesrecht, stemrecht voor vrouwen, meervoudig stemrecht, enkelvoudig stemrecht voor mannen"
+          ],
+          "antwoord": 0,
+          "uitleg": "1831 cijnskiesrecht, 1893 algemeen meervoudig stemrecht, 1919 algemeen enkelvoudig stemrecht voor mannen, 1948 stemrecht voor vrouwen bij de parlementsverkiezingen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Sinds wanneer mogen vrouwen in België stemmen voor het parlement?",
+          "opties": [
+            "sinds 1948",
+            "sinds 1831",
+            "sinds 1893",
+            "sinds 1981"
+          ],
+          "antwoord": 0,
+          "uitleg": "Vrouwen mochten al vanaf 1921 stemmen voor de gemeenteraad, maar pas vanaf 1948 voor het parlement."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat veranderde er in 1981 aan het stemrecht?",
+          "opties": [
+            "de leeftijd om te mogen stemmen werd verlaagd naar 18 jaar",
+            "vrouwen mochten voor het eerst stemmen voor de gemeenteraad",
+            "het cijnskiesrecht werd ingevoerd voor de rijkste mannen",
+            "rijke mannen kregen voortaan twee of drie stemmen in plaats van één"
+          ],
+          "antwoord": 0,
+          "uitleg": "Vroeger moest je 21 jaar zijn om te stemmen. Sinds 1981 is dat 18 jaar."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Het kiesstelsel waarbij partijen ongeveer evenveel procent zetels krijgen als procent stemmen, heet ... vertegenwoordiging.",
+          "antwoord": [
+            "evenredige"
+          ],
+          "uitleg": "Evenredig betekent in verhouding. België gebruikt dit stelsel."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Het kiesrecht van 1831, waarbij enkel wie genoeg belasting betaalde mocht stemmen, heet het ...kiesrecht.",
+          "antwoord": [
+            "cijns",
+            "cijnskiesrecht"
+          ],
+          "uitleg": "Cijns is een oud woord voor belasting."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij het meervoudig stemrecht van 1893 hadden sommige mannen meer stemmen dan andere.",
+          "antwoord": true,
+          "uitleg": "Wie een diploma, eigendom of een gezin had, kreeg één of twee extra stemmen. Pas in 1919 kreeg elke man één stem."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In een meerderheidsstelsel krijgen kleine partijen gewoonlijk meer zetels dan bij evenredige vertegenwoordiging.",
+          "antwoord": false,
+          "uitleg": "Het omgekeerde klopt: een meerderheidsstelsel bevoordeelt grote partijen. Kleine partijen halen zelden een district."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Het kiesstelsel heeft invloed op hoeveel partijen er in het parlement zitten en hoe een regering gevormd wordt.",
+          "antwoord": true,
+          "uitleg": "Evenredige vertegenwoordiging geeft veel partijen en coalities. Een meerderheidsstelsel geeft minder partijen en vaker een regering van één partij."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Vanaf 1831 mochten alle volwassen Belgen stemmen.",
+          "antwoord": false,
+          "uitleg": "In 1831 mocht maar een kleine groep rijke mannen stemmen. Het stemrecht werd daarna in stappen uitgebreid."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In een land met evenredige vertegenwoordiging haalt partij Z 10 procent van de stemmen. Hoeveel van de 150 zetels krijgt ze ongeveer?",
+          "opties": [
+            "ongeveer 15",
+            "ongeveer 10",
+            "geen enkele",
+            "ongeveer 75"
+          ],
+          "antwoord": 0,
+          "uitleg": "10 procent van 150 zetels is 15 zetels. Bij evenredige vertegenwoordiging komen de zetels ongeveer overeen met het deel van de stemmen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk nadeel hoort vaak bij een meerderheidsstelsel?",
+          "opties": [
+            "stemmen voor de verliezers in een district tellen niet mee",
+            "er zijn altijd lange onderhandelingen tussen veel partijen nodig",
+            "kleine partijen krijgen meer macht dan hun aantal kiezers",
+            "er is geen enkele partij die na de verkiezingen kan regeren"
+          ],
+          "antwoord": 0,
+          "uitleg": "Wie op een verliezer stemde, ziet zijn stem niet terug in het parlement. Daardoor kan de verdeling van de zetels ver afwijken van die van de stemmen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Sinds 1893 geldt in België een opkomstplicht. Wat houdt die in?",
+          "opties": [
+            "wie stemrecht heeft, moet naar het stembureau gaan",
+            "wie stemrecht heeft, moet op een bepaalde partij stemmen",
+            "wie kandidaat is, moet in zijn eigen gemeente wonen",
+            "wie kiest, moet een geldig stembiljet invullen voor iemand"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je moet aanwezig zijn, maar je mag blanco of ongeldig stemmen. Daarom spreek je beter van opkomstplicht dan van stemplicht."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom vroegen arbeiders aan het einde van de 19de eeuw om algemeen stemrecht?",
+          "opties": [
+            "omdat ze door het cijnskiesrecht niet mochten stemmen",
+            "omdat ze al meerdere stemmen hadden en er nog meer wilden",
+            "omdat vrouwen toen al mochten stemmen en mannen nog niet",
+            "omdat de koning de verkiezingen wilde afschaffen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Wie weinig verdiende, betaalde te weinig belasting om te mogen stemmen. Na stakingen en acties kwam er in 1893 algemeen meervoudig stemrecht."
+        }
+      ]
+    },
+    {
+      "titel": "Humane wetenschappen: participatie, kiesstelsel en kiesrecht — deel 2",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is conventionele politieke participatie?",
+          "opties": [
+            "deelnemen via de gewone kanalen, zoals stemmen of lid worden van een partij",
+            "deelnemen via acties buiten de gewone kanalen, zoals een betoging of een boycot",
+            "niet gaan stemmen en helemaal geen interesse tonen in de politiek van het land",
+            "de politiek volgen via sociale media zonder er ooit zelf iets aan te doen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Stemmen, kandidaat zijn, lid worden van een partij of een politicus contacteren zijn conventionele vormen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke van deze zijn vormen van niet-conventionele participatie?",
+          "opties": [
+            "deelnemen aan een betoging",
+            "een product boycotten om een boodschap te geven",
+            "een online petitie ondertekenen",
+            "gaan stemmen bij de verkiezingen",
+            "lid worden van een politieke partij"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Betogingen, boycots en petities gaan buiten de gewone politieke kanalen om. Stemmen en lid worden van een partij zijn conventioneel."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een referendum of volksraadpleging?",
+          "opties": [
+            "een stemming waarbij de burgers zelf beslissen over één vraag",
+            "een vergadering van het parlement waarin de begroting besproken wordt",
+            "een peiling bij duizend kiezers over hun voorkeur voor een partij",
+            "een betoging van burgers tegen een beslissing van de regering"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij een referendum of volksraadpleging stemmen de burgers over één vraag. In België gebeurt een volksraadpleging vooral in gemeenten, en het resultaat is niet bindend."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een belangengroep?",
+          "opties": [
+            "een organisatie die de belangen van een groep verdedigt bij de politiek",
+            "een politieke partij die deelneemt aan de verkiezingen van het parlement",
+            "een rechtbank die beslist over conflicten tussen burgers en bedrijven",
+            "een groep ministers die samen een nieuw regeerakkoord schrijven"
+          ],
+          "antwoord": 0,
+          "uitleg": "Vakbonden, werkgeversorganisaties, boerenbonden en consumentenorganisaties zijn belangengroepen. Ze nemen niet deel aan verkiezingen, maar oefenen druk uit."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een sociale beweging?",
+          "opties": [
+            "een brede groep mensen die samen actievoert voor een maatschappelijke zaak",
+            "een partij die na de verkiezingen samen met andere in de regering stapt",
+            "een officieel orgaan dat alle stemmen telt na de verkiezingen",
+            "een afdeling van de federale regering die sociale uitkeringen betaalt"
+          ],
+          "antwoord": 0,
+          "uitleg": "De klimaatbeweging, de vrouwenbeweging en de vredesbeweging zijn voorbeelden. Ze zijn losser georganiseerd dan een belangengroep."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Bewoners van een wijk verzamelen handtekeningen om een speelpleintje te laten heraanleggen en brengen hun voorstel op de gemeenteraad. Welke vorm van participatie is dit?",
+          "opties": [
+            "een burgerinitiatief",
+            "een referendum",
+            "een belangengroep",
+            "een verkiezing"
+          ],
+          "antwoord": 0,
+          "uitleg": "Burgers nemen zelf het initiatief en brengen een voorstel bij de politiek. Dat is een burgerinitiatief."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Duizenden jongeren spijbelen op donderdag om in Brussel te betogen voor een strenger klimaatbeleid. Welke vorm van participatie herken je?",
+          "opties": [
+            "een sociale beweging met niet-conventionele participatie",
+            "een belangengroep met conventionele participatie",
+            "een referendum georganiseerd door de gemeente",
+            "een verkiezing van vertegenwoordigers voor het parlement"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een brede groep voert actie buiten de gewone kanalen om. Dat is een sociale beweging die niet-conventioneel participeert."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een vakbond overlegt met de minister van Werk over een nieuwe regeling voor de pensioenen. Welke vorm van participatie is dit?",
+          "opties": [
+            "een belangengroep die druk uitoefent",
+            "een burgerinitiatief",
+            "een volksraadpleging",
+            "een sociale beweging zonder organisatie"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een vakbond verdedigt de belangen van werknemers. Overleg met de regering is een typische manier waarop belangengroepen invloed uitoefenen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke van deze zijn factoren die de mate van politieke participatie beïnvloeden?",
+          "opties": [
+            "scholingsgraad",
+            "leeftijd",
+            "gender",
+            "digitalisering",
+            "lichaamslengte",
+            "lievelingskleur"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "uitleg": "Ook urbanisatie en gezinssituatie spelen een rol. Lichaamslengte en lievelingskleur hebben er niets mee te maken."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Uit onderzoek blijkt vaak dat hoger opgeleiden meer politiek participeren. Welke factor speelt hier?",
+          "opties": [
+            "de scholingsgraad",
+            "de urbanisatie",
+            "de gezinssituatie",
+            "de gender"
+          ],
+          "antwoord": 0,
+          "uitleg": "Wie langer naar school ging, heeft vaak meer kennis en vertrouwen om aan politiek deel te nemen. Dat is de factor scholingsgraad."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Jongeren tekenen sneller een online petitie of delen een politiek bericht op sociale media dan dat ze lid worden van een partij. Welke twee factoren zie je hier vooral?",
+          "opties": [
+            "leeftijd en digitalisering",
+            "gender en urbanisatie",
+            "gezinssituatie en scholingsgraad",
+            "urbanisatie en gezinssituatie"
+          ],
+          "antwoord": 0,
+          "uitleg": "Jongere mensen participeren vaker op andere manieren, en het internet maakt nieuwe vormen van participatie mogelijk."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een alleenstaande ouder met drie jonge kinderen heeft weinig tijd om naar politieke vergaderingen te gaan. Welke factor speelt hier?",
+          "opties": [
+            "de gezinssituatie",
+            "de scholingsgraad",
+            "de digitalisering",
+            "de urbanisatie"
+          ],
+          "antwoord": 0,
+          "uitleg": "Zorg voor een gezin kost tijd en energie. De gezinssituatie beïnvloedt dus hoeveel iemand politiek kan participeren."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een argument vóór het afschaffen van de opkomstplicht?",
+          "opties": [
+            "wie stemt, doet dat dan uit eigen overtuiging en niet omdat het moet",
+            "zonder opkomstplicht zijn er altijd meer kiezers in elk stembureau van het land",
+            "zonder opkomstplicht krijgt elke kiezer in het land meer dan één stem",
+            "zonder opkomstplicht hoeft er geen grondwet meer te bestaan"
+          ],
+          "antwoord": 0,
+          "uitleg": "Voorstanders vinden stemmen een recht en geen plicht. Ze vinden dat een stem uit vrije wil meer waard is."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een argument tegen het afschaffen van de opkomstplicht?",
+          "opties": [
+            "dan stemmen vooral bepaalde groepen en is de uitslag minder representatief",
+            "dan mogen vrouwen en jongeren niet meer stemmen bij de verkiezingen",
+            "dan verdwijnt het systeem van evenredige vertegenwoordiging voorgoed",
+            "dan moet de koning zelf de regering samenstellen zonder het parlement"
+          ],
+          "antwoord": 0,
+          "uitleg": "Als vooral sommige groepen gaan stemmen, krijgen hun belangen meer gewicht. Tegenstanders van de afschaffing vrezen dat zwakkere groepen minder gehoord worden."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een organisatie zoals een vakbond, die de belangen van een groep verdedigt bij de politiek, heet een ...",
+          "antwoord": [
+            "belangengroep",
+            "drukkingsgroep",
+            "belangenorganisatie"
+          ],
+          "uitleg": "Belangengroepen of drukkingsgroepen nemen niet deel aan verkiezingen, maar proberen beslissingen te beïnvloeden."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een betoging is een vorm van niet-conventionele politieke participatie.",
+          "antwoord": true,
+          "uitleg": "Een betoging gaat buiten de gewone kanalen zoals verkiezingen of partijen om. Daarom is ze niet-conventioneel, ook al is ze wettelijk toegelaten."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Belangengroepen nemen deel aan de verkiezingen met hun eigen kandidatenlijsten.",
+          "antwoord": false,
+          "uitleg": "Dat doen politieke partijen. Belangengroepen oefenen druk uit, maar komen niet op bij verkiezingen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Waar je woont, in een stad of op het platteland, kan invloed hebben op hoe je politiek participeert.",
+          "antwoord": true,
+          "uitleg": "Dat is de factor urbanisatie. In een stad zijn er bijvoorbeeld meer acties en verenigingen, op het platteland kent men de lokale politici vaak beter."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij de opkomstplicht ben je verplicht om op een partij of kandidaat te stemmen.",
+          "antwoord": false,
+          "uitleg": "Je moet enkel naar het stembureau gaan. Wat je daar doet, ook blanco stemmen, is geheim en vrij."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom vergelijk je de mate van politieke participatie in een democratie en in een dictatuur?",
+          "opties": [
+            "omdat burgers in een dictatuur veel minder vrij deelnemen aan de politiek",
+            "omdat burgers in een dictatuur meer referenda hebben dan in een democratie",
+            "omdat er in een democratie geen verkiezingen georganiseerd worden",
+            "omdat in een dictatuur iedereen lid moet zijn van een belangengroep"
+          ],
+          "antwoord": 0,
+          "uitleg": "In een dictatuur zijn verkiezingen niet vrij en worden betogingen of kritische groepen vaak verboden. De staatsvorm bepaalt dus mee hoeveel burgers kunnen participeren."
+        }
+      ]
+    },
+    {
+      "titel": "Humane wetenschappen: het recht in de samenleving — deel 1",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke van deze zijn functies van justitie?",
+          "opties": [
+            "bestraffing",
+            "conflictbeslechting",
+            "ordehandhaving",
+            "preventie",
+            "wetgeving",
+            "belastingen innen"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "uitleg": "Ook veiligheid hoort erbij. Wetten maken is de taak van het parlement en belastingen innen die van de administratie."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Twee buren hebben ruzie over een haag die over de grens groeit. Een rechter hakt de knoop door. Welke functie van justitie zie je hier?",
+          "opties": [
+            "conflictbeslechting",
+            "bestraffing",
+            "preventie",
+            "ordehandhaving"
+          ],
+          "antwoord": 0,
+          "uitleg": "De rechter beslist over een conflict tussen burgers. Er wordt niemand gestraft voor een misdrijf."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een zware straf voor dronken rijden moet anderen ervan weerhouden om dronken achter het stuur te kruipen. Welke functie van justitie staat hier vooral voorop?",
+          "opties": [
+            "preventie",
+            "conflictbeslechting",
+            "ordehandhaving",
+            "veiligheid"
+          ],
+          "antwoord": 0,
+          "uitleg": "Preventie betekent voorkomen. Een straf kan ook anderen afschrikken, zodat er minder misdrijven gebeuren."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent het principe van hoor en wederhoor?",
+          "opties": [
+            "beide partijen mogen hun verhaal doen voor de rechter beslist",
+            "de rechter mag enkel luisteren naar het openbaar ministerie",
+            "de uitspraak wordt na de zitting luidop voorgelezen op de radio",
+            "een getuige moet zijn verhaal twee keer na elkaar vertellen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Niemand mag veroordeeld worden zonder zich te kunnen verdedigen. Elke partij moet de argumenten van de andere kunnen horen en beantwoorden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent het vermoeden van onschuld?",
+          "opties": [
+            "iemand is onschuldig tot een rechter zijn schuld bewezen heeft",
+            "iemand is schuldig tot hij zelf zijn onschuld bewezen heeft",
+            "iemand die zwijgt, wordt altijd schuldig verklaard",
+            "iemand met een advocaat kan nooit veroordeeld worden"
+          ],
+          "antwoord": 0,
+          "uitleg": "De bewijslast ligt bij wie beschuldigt. Zolang er geen veroordeling is, geldt een verdachte als onschuldig."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent het principe van openbaarheid in de rechtspraak?",
+          "opties": [
+            "zittingen en uitspraken zijn in principe voor iedereen toegankelijk",
+            "iedere burger mag zelf meebeslissen over de straf van een verdachte",
+            "de namen van alle verdachten worden verplicht in de krant gezet",
+            "de rechter moet zijn beslissing eerst laten goedkeuren door het parlement"
+          ],
+          "antwoord": 0,
+          "uitleg": "Openbaarheid zorgt voor controle op de rechters. Soms gebeurt een zitting met gesloten deuren, bijvoorbeeld om minderjarigen te beschermen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een rechter moet oordelen over een zaak waarin zijn eigen schoonbroer de verdachte is. Welk principe komt in gevaar?",
+          "opties": [
+            "de onpartijdigheid van de rechter",
+            "de openbaarheid van de zitting",
+            "het principe van hoor en wederhoor",
+            "de scheiding tussen gemeenschap en gewest"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een rechter mag geen persoonlijk belang hebben in een zaak. Daarom moet hij zich hier laten vervangen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het verschil tussen burgerlijk recht en strafrecht?",
+          "opties": [
+            "burgerlijk recht regelt conflicten tussen burgers, strafrecht bestraft misdrijven",
+            "burgerlijk recht geldt in de grote steden, strafrecht op het platteland",
+            "burgerlijk recht gaat over volwassenen, strafrecht enkel over minderjarigen",
+            "burgerlijk recht wordt door het parlement uitgevoerd, strafrecht door de regering"
+          ],
+          "antwoord": 0,
+          "uitleg": "In het burgerlijk recht gaat het om bijvoorbeeld contracten, huur of schadevergoeding. In het strafrecht vervolgt het openbaar ministerie een dader in naam van de samenleving."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Lotte huurt een appartement, maar de eigenaar weigert haar waarborg terug te betalen. Over welk soort recht gaat dit?",
+          "opties": [
+            "burgerlijk recht",
+            "strafrecht",
+            "grondwettelijk recht",
+            "internationaal recht"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het is een conflict tussen twee burgers over een huurcontract. Er is geen misdrijf, dus het gaat om burgerlijk recht."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Jonas breekt in bij een buurman en steelt een laptop. Over welk soort recht gaat dit vooral?",
+          "opties": [
+            "strafrecht",
+            "burgerlijk recht",
+            "arbeidsrecht",
+            "familierecht"
+          ],
+          "antwoord": 0,
+          "uitleg": "Diefstal is een misdrijf. Het openbaar ministerie kan Jonas vervolgen en een rechter kan hem een straf opleggen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wie vervolgt in een strafzaak de verdachte in naam van de samenleving?",
+          "opties": [
+            "het openbaar ministerie",
+            "de advocaat van de verdachte",
+            "de burgemeester",
+            "het parlement"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het openbaar ministerie, ook het parket genoemd, onderzoekt misdrijven en vraagt de rechter om een straf."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Het principe dat iemand onschuldig is tot zijn schuld bewezen is, heet het vermoeden van ...",
+          "antwoord": [
+            "onschuld"
+          ],
+          "uitleg": "Het vermoeden van onschuld staat ook in het Europees Verdrag voor de Rechten van de Mens."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een rechter mag een verdachte veroordelen zonder dat die zich heeft kunnen verdedigen.",
+          "antwoord": false,
+          "uitleg": "Dat zou het principe van hoor en wederhoor schenden. Elke partij moet haar verhaal kunnen doen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een rechter moet onafhankelijk zijn, dus mag hij geen bevelen krijgen van de regering over hoe hij een zaak beslist.",
+          "antwoord": true,
+          "uitleg": "Onafhankelijkheid betekent dat de rechter enkel de wet volgt, zonder druk van de regering, het parlement of andere machten."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij een conflict over een huurcontract tussen twee burgers gaat het om strafrecht.",
+          "antwoord": false,
+          "uitleg": "Een conflict tussen burgers over een contract is burgerlijk recht. Strafrecht gaat over misdrijven."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Eén feit kan zowel een strafzaak als een burgerlijke zaak opleveren.",
+          "antwoord": true,
+          "uitleg": "Wie iemand in elkaar slaat, kan gestraft worden. Het slachtoffer kan daarnaast een schadevergoeding vragen, wat burgerlijk is."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "De politie houdt een stille betoging in goede banen, zodat alles rustig verloopt. Welke functie van justitie zie je hier?",
+          "opties": [
+            "ordehandhaving",
+            "bestraffing",
+            "conflictbeslechting",
+            "preventie"
+          ],
+          "antwoord": 0,
+          "uitleg": "Ordehandhaving betekent zorgen dat de regels gevolgd worden en de openbare orde bewaard blijft."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom is een onafhankelijke rechtspraak belangrijk voor burgers?",
+          "opties": [
+            "zo kunnen burgers ook tegen de overheid gelijk krijgen",
+            "zo hoeven burgers nooit meer een advocaat te betalen",
+            "zo kan de regering sneller nieuwe wetten maken",
+            "zo kunnen rechters zelf beslissen welke wetten er komen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Als rechters los staan van de regering, kan een burger zelfs de overheid voor de rechter brengen en eerlijk behandeld worden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke rol heeft een advocaat in een rechtszaak?",
+          "opties": [
+            "hij verdedigt de belangen van zijn cliënt",
+            "hij spreekt het vonnis uit in de zaak",
+            "hij vervolgt de verdachte in naam van de samenleving",
+            "hij schrijft de wet waarop de rechter zich baseert"
+          ],
+          "antwoord": 0,
+          "uitleg": "De advocaat staat aan de kant van zijn cliënt. Het openbaar ministerie vervolgt en de rechter beslist."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke functie van justitie staat voorop als een rechter een gevaarlijke dader een gevangenisstraf geeft om de samenleving te beschermen?",
+          "opties": [
+            "veiligheid",
+            "conflictbeslechting",
+            "openbaarheid",
+            "hoor en wederhoor"
+          ],
+          "antwoord": 0,
+          "uitleg": "Door een gevaarlijke dader op te sluiten, beschermt justitie de veiligheid van anderen. Openbaarheid en hoor en wederhoor zijn principes, geen functies."
+        }
+      ]
+    },
+    {
+      "titel": "Humane wetenschappen: het recht in de samenleving — deel 2",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat stelt de gerechtelijke piramide voor?",
+          "opties": [
+            "de opbouw van de rechtbanken en hoven, van laag tot hoog",
+            "de verdeling van de zetels in het parlement over de partijen",
+            "de bestuursniveaus van België, van gemeente tot federale overheid",
+            "het aantal misdrijven per jaar, van licht tot zwaar"
+          ],
+          "antwoord": 0,
+          "uitleg": "Onderaan staan het vredegerecht en de politierechtbank, in het midden de rechtbanken van eerste aanleg en de hoven van beroep, en bovenaan het Hof van Cassatie."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het verschil tussen territoriale en materiële bevoegdheid van een rechtbank?",
+          "opties": [
+            "territoriaal gaat over het gebied, materieel over het soort zaak",
+            "territoriaal gaat over het soort zaak, materieel over het gebied",
+            "territoriaal gaat over de straffen, materieel over de schadevergoedingen",
+            "territoriaal gaat over strafzaken, materieel over burgerlijke zaken"
+          ],
+          "antwoord": 0,
+          "uitleg": "De materiële bevoegdheid zegt welke rechtbank een soort zaak behandelt. De territoriale bevoegdheid zegt welke rechtbank van die soort, bijvoorbeeld die van Gent of van Hasselt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke rechtbank behandelt een conflict tussen buren over geluidshinder?",
+          "opties": [
+            "het vredegerecht",
+            "de correctionele rechtbank",
+            "de ondernemingsrechtbank",
+            "het hof van assisen"
+          ],
+          "antwoord": 0,
+          "uitleg": "De vrederechter behandelt kleinere burgerlijke geschillen en zaken zoals burenhinder en huur."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke rechtbank behandelt een overtreding zoals te snel rijden?",
+          "opties": [
+            "de politierechtbank",
+            "het vredegerecht",
+            "de arbeidsrechtbank",
+            "de familierechtbank"
+          ],
+          "antwoord": 0,
+          "uitleg": "De politierechtbank behandelt verkeersovertredingen en de schade bij verkeersongevallen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke rechtbank behandelt een wanbedrijf zoals diefstal of slagen en verwondingen?",
+          "opties": [
+            "de correctionele rechtbank",
+            "de politierechtbank",
+            "het vredegerecht",
+            "de ondernemingsrechtbank"
+          ],
+          "antwoord": 0,
+          "uitleg": "De correctionele rechtbank is een afdeling van de rechtbank van eerste aanleg die wanbedrijven bestraft."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke rechtbank beslist over een echtscheiding en over waar de kinderen daarna wonen?",
+          "opties": [
+            "de familierechtbank",
+            "de jeugdrechtbank",
+            "de burgerlijke rechtbank",
+            "het hof van assisen"
+          ],
+          "antwoord": 0,
+          "uitleg": "De familierechtbank behandelt zaken over gezin en familie, zoals echtscheidingen, verblijfsregelingen en erfenissen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een minderjarige van 15 jaar pleegt een diefstal. Welke rechtbank behandelt de zaak in principe?",
+          "opties": [
+            "de jeugdrechtbank",
+            "de correctionele rechtbank",
+            "de familierechtbank",
+            "de politierechtbank"
+          ],
+          "antwoord": 0,
+          "uitleg": "Minderjarigen komen in principe voor de jeugdrechtbank. Die kiest vooral voor maatregelen die opvoeden en herstellen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke rechtbank beslist of een veroordeelde met een enkelband of onder voorwaarden vroeger vrij mag?",
+          "opties": [
+            "de strafuitvoeringsrechtbank",
+            "de correctionele rechtbank",
+            "het Hof van Cassatie",
+            "de jeugdrechtbank"
+          ],
+          "antwoord": 0,
+          "uitleg": "De strafuitvoeringsrechtbank beslist hoe een langere gevangenisstraf uitgevoerd wordt, bijvoorbeeld over voorwaardelijke invrijheidstelling of elektronisch toezicht."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een werknemer vindt dat hij onterecht ontslagen werd en stapt naar de rechter. Welke rechtbank is bevoegd?",
+          "opties": [
+            "de arbeidsrechtbank",
+            "de ondernemingsrechtbank",
+            "het vredegerecht",
+            "de correctionele rechtbank"
+          ],
+          "antwoord": 0,
+          "uitleg": "De arbeidsrechtbank behandelt conflicten tussen werknemers en werkgevers en zaken over sociale zekerheid."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een bedrijf kan zijn schulden niet meer betalen en vraagt het faillissement aan. Welke rechtbank is bevoegd?",
+          "opties": [
+            "de ondernemingsrechtbank",
+            "de arbeidsrechtbank",
+            "de burgerlijke rechtbank",
+            "het vredegerecht"
+          ],
+          "antwoord": 0,
+          "uitleg": "De ondernemingsrechtbank behandelt geschillen tussen ondernemingen en faillissementen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk hof behandelt de zwaarste misdaden, zoals moord, met een volksjury?",
+          "opties": [
+            "het hof van assisen",
+            "het hof van beroep",
+            "het Hof van Cassatie",
+            "het Grondwettelijk Hof"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij het hof van assisen beslist een jury van burgers mee over de schuld. Er is een maatschappelijk debat over het afschaffen van die volksjury."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Iemand is het niet eens met een vonnis van de correctionele rechtbank. Waar kan hij in beroep gaan?",
+          "opties": [
+            "bij het hof van beroep",
+            "bij het vredegerecht",
+            "bij het hof van assisen",
+            "bij de politierechtbank"
+          ],
+          "antwoord": 0,
+          "uitleg": "Tegen een vonnis van de rechtbank van eerste aanleg ga je in beroep bij het hof van beroep. Daar wordt de zaak opnieuw behandeld."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "De rechtbank die verkeersovertredingen behandelt, heet de ...rechtbank.",
+          "antwoord": [
+            "politie",
+            "politierechtbank"
+          ],
+          "uitleg": "De politierechtbank staat samen met het vredegerecht onderaan de gerechtelijke piramide."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Het Hof van Cassatie staat bovenaan de gerechtelijke piramide.",
+          "antwoord": true,
+          "uitleg": "Het Hof van Cassatie is het hoogste hof. Het kijkt na of de wet juist werd toegepast, maar beoordeelt de feiten niet opnieuw."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een werkstraf en een enkelband zijn straffen die je binnen de muren van de gevangenis uitzit.",
+          "antwoord": false,
+          "uitleg": "Het zijn alternatieve straffen: je voert ze uit buiten de gevangenis. Of ze vaker gebruikt moeten worden, is een actueel debat."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Het vredegerecht behandelt de zwaarste misdaden, zoals moord.",
+          "antwoord": false,
+          "uitleg": "Het vredegerecht staat onderaan de piramide en behandelt kleinere burgerlijke zaken. Moord komt voor het hof van assisen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Verjaring betekent dat iemand na een bepaalde tijd niet meer vervolgd kan worden voor een misdrijf.",
+          "antwoord": true,
+          "uitleg": "Na de verjaringstermijn kan een zaak niet meer vervolgd worden. Daarover is debat, bijvoorbeeld als een procedure lang aansleept."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat bedoelt men met trial by media?",
+          "opties": [
+            "de media stellen iemand al als schuldig voor, nog voor de rechter oordeelt",
+            "de rechter laat de media beslissen welke straf iemand moet krijgen",
+            "een rechtszaak die live op televisie uitgezonden wordt met een jury",
+            "een rechtszaak tegen een journalist die een fout artikel schreef"
+          ],
+          "antwoord": 0,
+          "uitleg": "Als de media iemand al schuldig voorstellen, komt het vermoeden van onschuld onder druk. Dat is een spanning tussen media en justitie."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is uithandengeving bij een minderjarige?",
+          "opties": [
+            "de jeugdrechter beslist dat een oudere minderjarige als volwassene berecht wordt",
+            "een minderjarige wordt aan zijn ouders teruggegeven zonder straf",
+            "een minderjarige mag zelf kiezen voor welke rechtbank hij komt",
+            "de zaak van een minderjarige wordt doorgegeven aan een buitenlandse rechter"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij zware feiten kan de jeugdrechter een minderjarige vanaf 16 jaar uit handen geven. Dan komt hij voor een gewone rechtbank. Of dat vaker moet, is een actueel debat."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zaak komt in eerste aanleg voor de burgerlijke rechtbank?",
+          "opties": [
+            "een conflict over 40 000 euro schadevergoeding na een verbouwing",
+            "een snelheidsovertreding op de autosnelweg bij Brussel",
+            "een moord die gepleegd werd tijdens een gewapende overval",
+            "een conflict tussen twee buren over een blaffende hond"
+          ],
+          "antwoord": 0,
+          "uitleg": "Grotere burgerlijke geschillen gaan naar de burgerlijke rechtbank. Kleinere geschillen en burenhinder gaan naar de vrederechter."
+        }
+      ]
+    },
+    {
+      "titel": "Humane wetenschappen: globalisering, de VN en de Europese Unie — deel 1",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een supranationale organisatie?",
+          "opties": [
+            "een organisatie boven de landen, die een deel van hun macht krijgt",
+            "een organisatie die enkel binnen één gemeente werkt en beslist",
+            "een politieke partij die in meerdere provincies kandidaten heeft",
+            "een bedrijf dat in veel verschillende landen tegelijk producten verkoopt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Supra betekent boven. Landen werken samen in zo'n organisatie en aanvaarden dat ze over sommige zaken samen beslissen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke van deze organisaties werken over de grenzen van landen heen?",
+          "opties": [
+            "de VN",
+            "de NAVO",
+            "de WHO",
+            "de G7",
+            "de Raad van State",
+            "het Vlaams Parlement"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "uitleg": "De VN, de NAVO, de WHO en de G7 zijn internationale organisaties. De Raad van State en het Vlaams Parlement zijn Belgische instellingen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de kernopdracht van de Verenigde Naties (VN)?",
+          "opties": [
+            "de vrede en veiligheid in de wereld bewaren en samenwerking bevorderen",
+            "een gemeenschappelijke munt beheren voor alle landen die lid zijn",
+            "een militair bondgenootschap vormen van Europa en Noord-Amerika",
+            "de economie van de zeven rijkste landen van de wereld op elkaar afstemmen"
+          ],
+          "antwoord": 0,
+          "uitleg": "De VN werden in 1945 opgericht, na de Tweede Wereldoorlog. Bijna alle landen van de wereld zijn lid."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de NAVO?",
+          "opties": [
+            "een militair bondgenootschap waarin de leden elkaar verdedigen bij een aanval",
+            "een organisatie die zorgt voor de gezondheid van alle mensen in de wereld",
+            "een rechtbank voor oorlogsmisdaden en genocide",
+            "een overleg van de zeven grootste economieën"
+          ],
+          "antwoord": 0,
+          "uitleg": "In de NAVO geldt dat een aanval op één lid als een aanval op allemaal geldt. België is lid sinds de oprichting in 1949."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de opdracht van de WHO, de Wereldgezondheidsorganisatie?",
+          "opties": [
+            "de gezondheid wereldwijd bevorderen en landen helpen bij ziektes en pandemieën",
+            "landen verdedigen als ze militair aangevallen worden door een buurland",
+            "oordelen over klachten van burgers over schendingen van hun mensenrechten",
+            "regels maken over de handel in landbouwproducten binnen Europa"
+          ],
+          "antwoord": 0,
+          "uitleg": "De WHO is een organisatie van de VN. Ze gaf onder meer advies en richtlijnen tijdens de coronapandemie."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de G7?",
+          "opties": [
+            "een overleg tussen zeven grote industrielanden",
+            "een militair bondgenootschap van zeven Europese landen",
+            "de zeven belangrijkste instellingen van de Europese Unie",
+            "een rechtbank met zeven rechters in Den Haag"
+          ],
+          "antwoord": 0,
+          "uitleg": "De G7 zijn de Verenigde Staten, Canada, Japan, Duitsland, Frankrijk, Italië en het Verenigd Koninkrijk. De EU zit mee aan tafel."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat doet het Internationaal Strafhof?",
+          "opties": [
+            "personen berechten voor de zwaarste misdaden, zoals genocide",
+            "conflicten tussen buren uit verschillende Europese landen beslechten",
+            "nagaan of Belgische wetten in overeenstemming zijn met de grondwet",
+            "beslissen welke landen lid mogen worden van de Europese Unie"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het Internationaal Strafhof in Den Haag vervolgt personen, ook leiders, voor genocide, misdaden tegen de menselijkheid en oorlogsmisdaden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat doet het Europees Hof van de Rechten van de Mens?",
+          "opties": [
+            "oordelen of een land de mensenrechten van het Europees Verdrag schond",
+            "oorlogsmisdadigers uit de hele wereld berechten en straffen",
+            "de wetten van de Europese Unie samen met het Europees Parlement maken",
+            "de begroting van de Europese Unie elk jaar opnieuw goedkeuren"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het Hof zetelt in Straatsburg. Een burger die in eigen land geen gelijk kreeg, kan er klagen tegen een staat die zijn mensenrechten schond."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een land wordt aangevallen en vraagt de andere leden van zijn bondgenootschap om militaire hulp. Over welke organisatie gaat het hier het meest waarschijnlijk?",
+          "opties": [
+            "de NAVO",
+            "de WHO",
+            "de G7",
+            "het Internationaal Strafhof"
+          ],
+          "antwoord": 0,
+          "uitleg": "De NAVO is een militair bondgenootschap. De leden beloven elkaar te verdedigen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een voormalige legerleider wordt beschuldigd van genocide in zijn land. Welke organisatie kan hem berechten als zijn eigen land dat niet doet?",
+          "opties": [
+            "het Internationaal Strafhof",
+            "het Europees Hof van de Rechten van de Mens",
+            "de Europese Commissie",
+            "de WHO"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het Internationaal Strafhof berecht personen voor de zwaarste misdaden. Het Europees Hof van de Rechten van de Mens oordeelt over staten, niet over personen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een Belgische gedetineerde vindt dat de overvolle gevangenis zijn mensenrechten schendt. Hij kreeg in België geen gelijk. Waar kan hij nog terecht?",
+          "opties": [
+            "bij het Europees Hof van de Rechten van de Mens",
+            "bij het Internationaal Strafhof",
+            "bij de Raad van de Europese Unie",
+            "bij de Verenigde Naties in New York"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het Europees Hof van de Rechten van de Mens kan oordelen dat België het Europees Verdrag voor de Rechten van de Mens schond."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom vragen thema's zoals klimaat en pandemieën een aanpak over de grenzen heen?",
+          "opties": [
+            "omdat vervuiling en ziektes zich niets aantrekken van landsgrenzen",
+            "omdat elk land deze thema's volgens de grondwet alleen mag aanpakken",
+            "omdat gemeenten er niets aan kunnen of mogen doen",
+            "omdat supranationale organisaties de enige zijn die wetten mogen maken"
+          ],
+          "antwoord": 0,
+          "uitleg": "Uitstoot in één land verwarmt de hele aarde en een virus verspreidt zich met reizigers. Eén land alleen kan het niet oplossen. Toch zijn er ook lokale acties nodig."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een organisatie boven de landen, waaraan landen een deel van hun macht afstaan, heet een ... organisatie.",
+          "antwoord": [
+            "supranationale"
+          ],
+          "uitleg": "Supra betekent boven, nationaal slaat op de natie."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "België is lid van de NAVO.",
+          "antwoord": true,
+          "uitleg": "België was een van de stichtende leden in 1949. Het hoofdkwartier van de NAVO ligt zelfs in Brussel."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Het Europees Hof van de Rechten van de Mens is hetzelfde als het Internationaal Strafhof.",
+          "antwoord": false,
+          "uitleg": "Het Europees Hof oordeelt in Straatsburg over staten die mensenrechten schenden. Het Internationaal Strafhof in Den Haag berecht personen voor de zwaarste misdaden."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De WHO is een militaire organisatie.",
+          "antwoord": false,
+          "uitleg": "De WHO is de Wereldgezondheidsorganisatie van de VN. Ze werkt rond gezondheid, niet rond defensie."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Ook een gemeente kan iets doen aan een mondiaal thema zoals klimaat.",
+          "antwoord": true,
+          "uitleg": "Een gemeente kan bijvoorbeeld fietspaden aanleggen of gebouwen isoleren. Zo hangen het mondiale en het lokale niveau samen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk maatschappelijk thema vraagt vooral samenwerking rond grenscontrole, opvang en asiel?",
+          "opties": [
+            "migratie",
+            "voedselveiligheid",
+            "ecologie",
+            "gezondheid"
+          ],
+          "antwoord": 0,
+          "uitleg": "Mensen op de vlucht reizen door verschillende landen. Daarom zoekt de EU naar gemeenschappelijke afspraken over asiel en opvang."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een partij besmet vlees wordt in één Europees land ontdekt, maar werd al naar tien andere landen verkocht. Welk thema vraagt hier een Europese aanpak?",
+          "opties": [
+            "voedselveiligheid",
+            "migratie",
+            "vrede en veiligheid",
+            "klimaat"
+          ],
+          "antwoord": 0,
+          "uitleg": "Voedsel wordt over heel Europa verhandeld. Daarom zijn er Europese regels en een waarschuwingssysteem voor voedselveiligheid."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom staan landen een deel van hun macht af aan supranationale organisaties?",
+          "opties": [
+            "omdat ze samen meer kunnen bereiken bij problemen die geen grenzen kennen",
+            "omdat ze dan geen eigen regering of eigen parlement meer nodig hebben",
+            "omdat de grondwet van elk land dat uitdrukkelijk zo verplicht",
+            "omdat ze dan zelf geen belastingen meer moeten heffen bij hun burgers"
+          ],
+          "antwoord": 0,
+          "uitleg": "Samenwerken geeft meer slagkracht bij vrede, handel, gezondheid of klimaat. In ruil aanvaarden landen gemeenschappelijke regels."
+        }
+      ]
+    },
+    {
+      "titel": "Humane wetenschappen: globalisering, de VN en de Europese Unie — deel 2",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke van deze zijn instellingen van de Europese Unie?",
+          "opties": [
+            "het Europees Parlement",
+            "de Europese Commissie",
+            "de Raad van de Europese Unie",
+            "de Europese Raad",
+            "de Veiligheidsraad",
+            "het Internationaal Strafhof"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "uitleg": "De Veiligheidsraad hoort bij de VN en het Internationaal Strafhof is geen instelling van de EU."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe wordt het Europees Parlement samengesteld?",
+          "opties": [
+            "de burgers kiezen de leden rechtstreeks, om de vijf jaar",
+            "elke regering duidt één minister aan die het land vertegenwoordigt",
+            "de staatshoofden en regeringsleiders van de lidstaten komen samen",
+            "elke lidstaat stuurt één commissaris met een eigen bevoegdheid"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het Europees Parlement is de enige EU-instelling die rechtstreeks door de burgers gekozen wordt. Grotere landen hebben meer zetels."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de rol van de Europese Commissie?",
+          "opties": [
+            "nieuwe Europese wetten voorstellen en nagaan of de lidstaten de regels naleven",
+            "de algemene politieke richting van de EU bepalen als top van regeringsleiders",
+            "rechtstreeks de stem van de Europese burgers vertegenwoordigen",
+            "als enige instelling de Europese wetten goedkeuren zonder anderen"
+          ],
+          "antwoord": 0,
+          "uitleg": "De Commissie heeft het recht om wetten voor te stellen en voert het beleid uit. Ze is de hoedster van de verdragen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wie zit in de Raad van de Europese Unie?",
+          "opties": [
+            "de ministers van de lidstaten, per thema, bijvoorbeeld de ministers van Landbouw",
+            "de staatshoofden en regeringsleiders, onder leiding van een vaste voorzitter",
+            "rechtstreeks verkozen volksvertegenwoordigers uit alle lidstaten",
+            "één commissaris per lidstaat, die niet het eigen land verdedigt"
+          ],
+          "antwoord": 0,
+          "uitleg": "In de Raad van de EU zitten de vakministers van de lidstaten. Samen met het Europees Parlement keurt de Raad de Europese wetten goed."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wie zit in de Europese Raad?",
+          "opties": [
+            "de staatshoofden en regeringsleiders van de lidstaten",
+            "de ministers van de lidstaten die per beleidsdomein samenkomen",
+            "de leden die de burgers om de vijf jaar rechtstreeks kiezen",
+            "de rechters van het Hof van Justitie van de Europese Unie"
+          ],
+          "antwoord": 0,
+          "uitleg": "De Europese Raad bepaalt de grote lijnen en prioriteiten van de EU. Hij maakt zelf geen wetten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke twee instellingen keuren samen de Europese wetten goed?",
+          "opties": [
+            "het Europees Parlement en de Raad van de Europese Unie",
+            "de Europese Commissie en de Europese Raad",
+            "de Europese Raad en het Europees Parlement",
+            "de Europese Commissie en de Raad van de Europese Unie"
+          ],
+          "antwoord": 0,
+          "uitleg": "De Commissie stelt voor, het Parlement en de Raad van de EU beslissen samen. Zo spreken zowel de burgers als de lidstaten mee."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "De regeringsleiders van alle lidstaten komen samen in Brussel en spreken af dat klimaat de komende jaren een topprioriteit wordt. Welke instelling is dit?",
+          "opties": [
+            "de Europese Raad",
+            "de Raad van de Europese Unie",
+            "de Europese Commissie",
+            "het Europees Parlement"
+          ],
+          "antwoord": 0,
+          "uitleg": "De staatshoofden en regeringsleiders vormen de Europese Raad. Die bepaalt de grote politieke richting."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "De Europese Commissie stelt een nieuwe regel voor over de herbruikbaarheid van verpakkingen. Wat gebeurt er daarna meestal?",
+          "opties": [
+            "het Europees Parlement en de Raad van de EU beslissen er samen over",
+            "de Commissie keurt haar eigen voorstel meteen goed en het geldt de volgende dag",
+            "elke gemeente in Europa stemt afzonderlijk over het nieuwe voorstel",
+            "het Europees Hof van de Rechten van de Mens beslist of het voorstel doorgaat"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij de gewone wetgevingsprocedure moeten Parlement en Raad allebei akkoord gaan voor een voorstel een Europese wet wordt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe kan Europese wetgeving invloed hebben op de politiek in België?",
+          "opties": [
+            "België moet Europese richtlijnen omzetten in eigen wetten of decreten",
+            "Europese regels gelden enkel voor de landen buiten de Europese Unie",
+            "België mag zelf kiezen of het een Europese verordening volgt",
+            "Europese wetten gelden enkel in Brussel, waar de instellingen liggen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een richtlijn legt een doel vast dat elk land in eigen regels moet omzetten. Een verordening geldt meteen in alle lidstaten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Europa legt een grens vast voor de hoeveelheid fijn stof in de lucht. Vlaanderen moet daarom maatregelen nemen in de steden. Wat toont dit voorbeeld?",
+          "opties": [
+            "Europese regels werken door tot op het regionale en lokale niveau",
+            "Vlaanderen beslist volledig zelf over de luchtkwaliteit, los van Europa",
+            "de NAVO bepaalt de milieuregels voor België",
+            "milieu is een bevoegdheid van de federale rechtbanken"
+          ],
+          "antwoord": 0,
+          "uitleg": "Europese doelen over klimaat en milieu moeten in België door gewesten en gemeenten worden uitgevoerd. Zo hangen de niveaus samen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waar zetelen de meeste instellingen van de Europese Unie?",
+          "opties": [
+            "in Brussel",
+            "in Genève",
+            "in New York",
+            "in Den Haag"
+          ],
+          "antwoord": 0,
+          "uitleg": "De Commissie, de Raad van de EU en de Europese Raad zitten in Brussel. Het Europees Parlement vergadert in Brussel en Straatsburg."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "De enige instelling van de EU die rechtstreeks door de burgers gekozen wordt, is het Europees ...",
+          "antwoord": [
+            "Parlement",
+            "parlement"
+          ],
+          "uitleg": "De Europese verkiezingen vinden om de vijf jaar plaats, de laatste keer in juni 2024."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De Europese Raad en de Raad van de Europese Unie zijn dezelfde instelling.",
+          "antwoord": false,
+          "uitleg": "De Europese Raad bestaat uit de staatshoofden en regeringsleiders. De Raad van de Europese Unie bestaat uit de vakministers van de lidstaten."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De Europese Commissie heeft het recht om nieuwe Europese wetten voor te stellen.",
+          "antwoord": true,
+          "uitleg": "Dat heet het initiatiefrecht. Parlement en Raad beslissen daarna over het voorstel."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een Belgische rechter moet rekening houden met het Europees recht.",
+          "antwoord": true,
+          "uitleg": "Europees recht gaat voor op nationaal recht. Een Belgische rechter moet een Belgische regel die ermee in strijd is, buiten toepassing laten."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Het Europees Parlement wordt samengesteld door de regeringen van de lidstaten.",
+          "antwoord": false,
+          "uitleg": "De leden van het Europees Parlement worden rechtstreeks door de burgers gekozen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke instelling vertegenwoordigt vooral de belangen van de lidstaten in de Europese wetgeving?",
+          "opties": [
+            "de Raad van de Europese Unie",
+            "het Europees Parlement",
+            "de Europese Commissie",
+            "het Europees Hof van de Rechten van de Mens"
+          ],
+          "antwoord": 0,
+          "uitleg": "In de Raad zitten de ministers van de lidstaten. Het Parlement vertegenwoordigt de burgers en de Commissie het algemeen Europees belang."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat vertegenwoordigt de Europese Commissie?",
+          "opties": [
+            "het algemeen belang van de hele Europese Unie",
+            "de belangen van het land waar elke commissaris vandaan komt",
+            "de standpunten van de grootste partij in het Europees Parlement",
+            "de belangen van de landen buiten de Europese Unie"
+          ],
+          "antwoord": 0,
+          "uitleg": "Elke lidstaat levert één commissaris, maar die moet het belang van heel de EU dienen en niet dat van zijn eigen land."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een Europees land wordt bedreigd door een buurland buiten de EU. Welke organisatie zorgt het meest voor de militaire verdediging?",
+          "opties": [
+            "de NAVO",
+            "de Europese Commissie",
+            "de WHO",
+            "het Europees Parlement"
+          ],
+          "antwoord": 0,
+          "uitleg": "De EU werkt ook rond veiligheid, maar de gezamenlijke militaire verdediging van de meeste Europese landen loopt via de NAVO."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het verschil tussen een Europese verordening en een Europese richtlijn?",
+          "opties": [
+            "een verordening geldt meteen overal, een richtlijn moet elk land eerst in eigen regels omzetten",
+            "een richtlijn geldt meteen overal, een verordening moet elk land eerst in eigen regels omzetten",
+            "een verordening geldt enkel voor Brussel, een richtlijn voor de rest van de Europese Unie",
+            "een verordening is een advies zonder gevolgen, een richtlijn is een straf voor een lidstaat"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een verordening is meteen bindend in alle lidstaten. Een richtlijn legt een doel vast, en elk land kiest zelf hoe het dat in zijn wetten of decreten bereikt."
         }
       ]
     },
