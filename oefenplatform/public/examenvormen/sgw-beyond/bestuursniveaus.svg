@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Vier bestuursniveaus in België</text>
+<rect x="120" y="80" width="760" height="105" rx="14" fill="#e2eadb" stroke="#24331b" stroke-width="2"/>
+<circle cx="155" cy="132" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="155" y="139" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<text x="520.0" y="125" font-size="24" text-anchor="middle" fill="#24331b" font-weight="bold">federale overheid</text>
+<text x="520.0" y="160" font-size="17" text-anchor="middle" fill="#24331b">parlement: Kamer en Senaat · regering</text>
+<rect x="160" y="210" width="680" height="105" rx="14" fill="#eef3e8" stroke="#24331b" stroke-width="2"/>
+<circle cx="195" cy="262" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="195" y="269" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<text x="520.0" y="255" font-size="24" text-anchor="middle" fill="#24331b" font-weight="bold">gemeenschappen en gewesten</text>
+<text x="520.0" y="290" font-size="17" text-anchor="middle" fill="#24331b">bv. Vlaams Parlement · Vlaamse Regering</text>
+<rect x="200" y="340" width="600" height="105" rx="14" fill="#f4f2ea" stroke="#24331b" stroke-width="2"/>
+<circle cx="235" cy="392" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="235" y="399" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<text x="520.0" y="385" font-size="24" text-anchor="middle" fill="#24331b" font-weight="bold">provincies</text>
+<text x="520.0" y="420" font-size="17" text-anchor="middle" fill="#24331b">provincieraad · deputatie en gouverneur</text>
+<rect x="240" y="470" width="520" height="105" rx="14" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<circle cx="275" cy="522" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="275" y="529" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">D</text>
+<text x="520.0" y="515" font-size="24" text-anchor="middle" fill="#24331b" font-weight="bold">gemeenten</text>
+<text x="520.0" y="550" font-size="17" text-anchor="middle" fill="#24331b">gemeenteraad · college van burgemeester en schepenen</text>
+</svg>

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Hoe een Europese wet tot stand komt (vereenvoudigd)</text>
+<rect x="290" y="70" width="420" height="100" rx="14" fill="#a8c98a" stroke="#24331b" stroke-width="2"/>
+<circle cx="326" cy="120.0" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="326" y="127.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<text x="525.0" y="114.0" font-size="18" text-anchor="middle" fill="#24331b">staatshoofden en regeringsleiders</text>
+<text x="525.0" y="138.0" font-size="18" text-anchor="middle" fill="#24331b">bepalen de grote lijnen</text>
+<rect x="330" y="230" width="340" height="100" rx="14" fill="#a8c98a" stroke="#24331b" stroke-width="2"/>
+<circle cx="366" cy="280.0" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="366" y="287.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<text x="525.0" y="274.0" font-size="18" text-anchor="middle" fill="#24331b">stelt nieuwe wetten voor</text>
+<text x="525.0" y="298.0" font-size="18" text-anchor="middle" fill="#24331b">en voert het beleid uit</text>
+<rect x="60" y="390" width="340" height="100" rx="14" fill="#a8c98a" stroke="#24331b" stroke-width="2"/>
+<circle cx="96" cy="440.0" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="96" y="447.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<text x="255.0" y="434.0" font-size="18" text-anchor="middle" fill="#24331b">rechtstreeks gekozen</text>
+<text x="255.0" y="458.0" font-size="18" text-anchor="middle" fill="#24331b">door de burgers</text>
+<rect x="600" y="390" width="340" height="100" rx="14" fill="#a8c98a" stroke="#24331b" stroke-width="2"/>
+<circle cx="636" cy="440.0" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="636" y="447.0" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">D</text>
+<text x="795.0" y="434.0" font-size="18" text-anchor="middle" fill="#24331b">vakministers van</text>
+<text x="795.0" y="458.0" font-size="18" text-anchor="middle" fill="#24331b">de lidstaten</text>
+<line x1="500" y1="170" x2="500" y2="230" stroke="#24331b" stroke-width="2" stroke-dasharray="8 6"/>
+<text x="515" y="205" font-size="15" text-anchor="start" fill="#24331b">richting</text>
+<line x1="420" y1="330" x2="260" y2="390" stroke="#24331b" stroke-width="3"/>
+<polygon points="260,390 271.6,379.0 276.0,390.7" fill="#24331b"/>
+<line x1="580" y1="330" x2="740" y2="390" stroke="#24331b" stroke-width="3"/>
+<polygon points="740,390 724.0,390.7 728.4,379.0" fill="#24331b"/>
+<text x="300" y="350" font-size="16" text-anchor="middle" fill="#24331b">voorstel</text>
+<text x="700" y="350" font-size="16" text-anchor="middle" fill="#24331b">voorstel</text>
+<rect x="390" y="540" width="220" height="70" rx="14" fill="#ffffff" stroke="#24331b" stroke-width="3"/>
+<text x="500" y="583" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Europese wet</text>
+<line x1="230" y1="490" x2="400" y2="560" stroke="#24331b" stroke-width="3"/>
+<polygon points="400,560 384.0,560.2 388.7,548.6" fill="#24331b"/>
+<line x1="770" y1="490" x2="600" y2="560" stroke="#24331b" stroke-width="3"/>
+<polygon points="600,560 611.3,548.6 616.0,560.2" fill="#24331b"/>
+<text x="500" y="520" font-size="16" text-anchor="middle" fill="#24331b">beslissen samen</text>
+</svg>

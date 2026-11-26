@@ -5042,6 +5042,2322 @@
       ]
     },
     {
+      "titel": "Humane wetenschappen: politiek, democratie en de rechtstaat — pittig",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de instelling die de wetgevende macht uitoefent.",
+          "afbeelding_url": "/examenvormen/sgw-beyond/drie-machten.svg",
+          "zones": [
+            [
+              8.0,
+              23.4,
+              24.0,
+              40.6
+            ]
+          ],
+          "uitleg": "Parlementen maken en keuren de wetten goed. Dat is de wetgevende macht."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Een minister zorgt ervoor dat een nieuwe wet in de praktijk wordt toegepast. Klik op de macht waartoe hij behoort.",
+          "afbeelding_url": "/examenvormen/sgw-beyond/drie-machten.svg",
+          "zones": [
+            [
+              38.0,
+              23.4,
+              24.0,
+              40.6
+            ]
+          ],
+          "uitleg": "Ministers vormen samen de regering, de uitvoerende macht."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de macht die volgens de principes van de rechtstaat onafhankelijk en onpartijdig moet zijn bij het beoordelen van een geschil.",
+          "afbeelding_url": "/examenvormen/sgw-beyond/drie-machten.svg",
+          "zones": [
+            [
+              68.0,
+              23.4,
+              24.0,
+              40.6
+            ]
+          ],
+          "uitleg": "Hoven en rechtbanken vormen de rechterlijke macht. Ze mogen geen bevelen krijgen van de regering of het parlement."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "De pijlen tussen de vakken tonen dat de machten elkaar [[*controleren en in evenwicht houden|vervangen als één macht uitvalt|elk jaar van plaats wisselen]].",
+          "uitleg": "Machten die elkaar controleren, voorkomen dat één macht alles alleen kan.",
+          "afbeelding_url": "/examenvormen/sgw-beyond/drie-machten.svg"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een president laat in vak C enkel rechters toe die lid zijn van zijn eigen partij. Wat is daar mis mee?",
+          "opties": [
+            "de rechters zijn dan niet meer onafhankelijk",
+            "de rechters mogen dan geen wetten meer stemmen",
+            "het parlement krijgt dan te weinig leden",
+            "de regering moet dan ook rechters benoemen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Rechters die van de regeringspartij afhangen, kunnen niet vrij oordelen over zaken tegen die regering.",
+          "afbeelding_url": "/examenvormen/sgw-beyond/drie-machten.svg"
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welke staats- of regeringsvorm herken je?",
+          "rijen": [
+            "De wetten komen uit een heilig boek en worden uitgelegd door religieuze leiders.",
+            "Een generaal neemt de macht over, verbiedt alle partijen en schaft de verkiezingen af.",
+            "Drie families delen de macht en duiden zelf de ministers aan.",
+            "Het staatshoofd is een president die om de vijf jaar verkozen wordt."
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "uitleg": "In naam van een god, één persoon met alle macht, een kleine groep, of een verkozen staatshoofd.",
+          "kolommen": [
+            "theocratie",
+            "dictatuur",
+            "oligarchie",
+            "republiek"
+          ]
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een land met een koning als staatshoofd is een [[*monarchie|republiek|oligarchie]]. Als het volk er ook vrij het parlement kiest, is het daarnaast een [[*democratie|dictatuur|theocratie]].",
+          "uitleg": "Monarchie zegt iets over het staatshoofd, democratie over waar de macht ligt. België is beide."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Directe of indirecte democratie?",
+          "kolommen": [
+            "Directe democratie",
+            "Indirecte democratie"
+          ],
+          "items": [
+            [
+              "De inwoners stemmen zelf over de nieuwe begroting van hun kanton.",
+              "Directe democratie"
+            ],
+            [
+              "De burgers kiezen 150 volksvertegenwoordigers voor de Kamer.",
+              "Indirecte democratie"
+            ],
+            [
+              "Bij een volksraadpleging beslissen de kiezers zelf over een nieuwe brug.",
+              "Directe democratie"
+            ],
+            [
+              "De gemeenteraad beslist in naam van de inwoners over een nieuw zwembad.",
+              "Indirecte democratie"
+            ]
+          ],
+          "uitleg": "Zelf beslissen, of iemand kiezen die in jouw naam beslist."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elk principe van de democratische rechtstaat aan een voorbeeld.",
+          "paren": [
+            [
+              "grondwet",
+              "alle wetten moeten passen binnen de hoogste wet van het land"
+            ],
+            [
+              "fundamentele rechten en vrijheden",
+              "iedereen mag zijn mening zeggen en een vereniging oprichten"
+            ],
+            [
+              "meerderheidsprincipe",
+              "een voorstel met 80 van de 150 stemmen wordt aangenomen"
+            ],
+            [
+              "scheiding der machten",
+              "wie wetten maakt, voert ze niet zelf uit"
+            ]
+          ],
+          "extra": [
+            "de grootste partij mag de grondrechten afschaffen"
+          ],
+          "uitleg": "Het extra voorbeeld is net in strijd met de rechtstaat."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit voor een democratische rechtstaat?",
+          "rijen": [
+            "De meerderheid mag beslissen, maar niet de grondrechten van de minderheid afnemen.",
+            "Een minister kan een rechter ontslaan als die tegen de regering beslist.",
+            "Ook de regering moet zich aan de wetten houden.",
+            "Verkiezingen zijn genoeg om een land een rechtstaat te noemen."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Meerderheid binnen grenzen, onafhankelijke rechters, niemand boven de wet, en meer dan enkel verkiezingen."
+        },
+        {
+          "casus": "In het land Nordavia wint de partij van president Varga de verkiezingen met 55 procent. Daarna laat hij een wet goedkeuren waardoor kranten die kritiek geven, gesloten kunnen worden. Het hoogste hof vernietigt die wet. Varga verlaagt daarop de pensioenleeftijd van de rechters, zodat de helft moet vertrekken, en hij benoemt zelf hun opvolgers.",
+          "vragen": [
+            {
+              "type": "keuzelijst",
+              "vraag": "Varga won de verkiezingen met een meerderheid. Dat volgt het [[*meerderheidsprincipe|principe van openbaarheid|principe van hoor en wederhoor]].",
+              "uitleg": "55 procent is een meerderheid. Dat alleen maakt het land nog geen volwaardige rechtstaat."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Welk recht schendt de wet tegen kritische kranten vooral?",
+              "opties": [
+                "de persvrijheid en vrije meningsuiting",
+                "het recht om te stemmen bij verkiezingen",
+                "het recht op een eerlijk loon",
+                "het recht om een eigen bedrijf te starten"
+              ],
+              "antwoord": 0,
+              "uitleg": "Kranten mogen kritiek geven. Persvrijheid hoort bij de fundamentele rechten en vrijheden."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Welk principe schendt Varga met zijn ingreep bij de rechters?",
+              "opties": [
+                "de scheiding der machten",
+                "de directe democratie",
+                "het meerderheidsprincipe",
+                "de monarchie"
+              ],
+              "antwoord": 0,
+              "uitleg": "De uitvoerende macht grijpt in bij de rechterlijke macht om haar eigen wet te redden."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "Nordavia is na deze ingrepen [[*minder|meer]] een democratische rechtstaat dan ervoor.",
+              "uitleg": "Verkiezingen blijven, maar grondrechten en onafhankelijke rechtspraak worden uitgehold."
+            }
+          ]
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "In een [[directe]] democratie beslissen de burgers zelf. In een [[representatieve]] democratie kiezen ze vertegenwoordigers.",
+          "extra": [
+            "theocratische",
+            "oligarchische"
+          ],
+          "uitleg": "Directe of rechtstreekse, en indirecte of representatieve democratie."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke combinatie is mogelijk?",
+          "opties": [
+            "een republiek die geen democratie is",
+            "een monarchie met een verkozen president als staatshoofd",
+            "een directe democratie zonder dat burgers mogen stemmen",
+            "een oligarchie waarin alle burgers evenveel macht hebben"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een dictatuur kan zich republiek noemen. De andere combinaties spreken zichzelf tegen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe heet een staatsvorm waarin geestelijken regeren in naam van een god?",
+          "antwoord": [
+            "theocratie",
+            "een theocratie"
+          ],
+          "uitleg": "Theos betekent god."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welke macht is aan het werk?",
+          "rijen": [
+            "Het parlement keurt een wet goed die gsm-gebruik in de klas regelt.",
+            "Een rechter veroordeelt een man voor fraude.",
+            "De minister van Onderwijs stuurt een omzendbrief naar alle scholen om de wet toe te passen.",
+            "Het parlement stemt over een nieuwe regel voor de jacht."
+          ],
+          "antwoord": [
+            0,
+            2,
+            1,
+            0
+          ],
+          "uitleg": "Regels maken, regels toepassen of regels gebruiken om te oordelen.",
+          "kolommen": [
+            "wetgevend",
+            "uitvoerend",
+            "rechterlijk"
+          ]
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een parlement dat de regering kan wegstemmen, is een voorbeeld van [[*controle tussen de machten|directe democratie|een theocratie]].",
+          "uitleg": "De wetgevende macht controleert de uitvoerende macht."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet van de meeste tot de minste mensen met macht.",
+          "opties": [
+            "democratie: het volk",
+            "oligarchie: een kleine groep",
+            "dictatuur: één persoon of partij"
+          ],
+          "uitleg": "Het volk, een paar mensen of één persoon."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom is een onpartijdige rechter ook belangrijk voor wie een rechtszaak verliest?",
+          "opties": [
+            "hij kan het oordeel als eerlijk aanvaarden",
+            "hij krijgt dan altijd een lagere straf",
+            "hij hoeft dan geen advocaat te betalen",
+            "hij mag de zaak dan zelf herschrijven"
+          ],
+          "antwoord": 0,
+          "uitleg": "Wie weet dat de rechter geen kant koos, kan ook een verlies als rechtvaardig zien. Dat geeft vertrouwen in justitie."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is dit een schending van de scheiding der machten?",
+          "rijen": [
+            "De regering schrijft een vonnis voor in een zaak tegen een minister.",
+            "Het parlement stelt vragen aan de eerste minister.",
+            "Een rechter legt een straf op volgens de wet.",
+            "De president ontbindt het hoogste hof omdat het hem tegenspreekt."
+          ],
+          "antwoord": [
+            true,
+            false,
+            false,
+            true
+          ],
+          "uitleg": "Een macht die het werk of de vrijheid van een andere macht afneemt, schendt de scheiding der machten."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je het principe dat een voorstel met de meeste stemmen wordt aangenomen? Het ...principe.",
+          "antwoord": [
+            "meerderheids",
+            "meerderheidsprincipe",
+            "meerderheid"
+          ],
+          "uitleg": "Het meerderheidsprincipe geldt in een rechtstaat binnen de grenzen van de grondwet."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "De rechtstaat sluit aan bij westerse waarden zoals [[*vrijheid en gelijkheid voor de wet|gehoorzaamheid aan één leider|het erven van macht]].",
+          "uitleg": "Grondrechten en gelijkheid voor de wet zijn kernwaarden van de westerse democratieën."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In Alvoria kan de koning de wetten van het parlement zonder uitleg tegenhouden en zelf rechters ontslaan. Wat is Alvoria zeker niet?",
+          "opties": [
+            "een democratische rechtstaat",
+            "een monarchie",
+            "een land met een staatshoofd",
+            "een land met een parlement"
+          ],
+          "antwoord": 0,
+          "uitleg": "Er is een koning en een parlement, maar de macht is niet gescheiden en de rechters zijn niet onafhankelijk."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Hoort dit bij de principes van een democratische rechtstaat?",
+          "kolommen": [
+            "Principe",
+            "Geen principe"
+          ],
+          "items": [
+            [
+              "scheiding der machten",
+              "Principe"
+            ],
+            [
+              "onafhankelijke en onpartijdige rechtspraak",
+              "Principe"
+            ],
+            [
+              "één partij die alle ministers levert",
+              "Geen principe"
+            ],
+            [
+              "een grondwet",
+              "Principe"
+            ],
+            [
+              "een staatshoofd dat zijn ambt erft",
+              "Geen principe"
+            ]
+          ],
+          "uitleg": "Een erfelijk staatshoofd kan in een rechtstaat, maar is er geen principe van. Eén partij met alle macht past er niet in."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een bestuursvorm waarin enkele rijke families de macht hebben, is een [[*oligarchie|theocratie|directe democratie]].",
+          "uitleg": "Oligos betekent weinig: de heerschappij van enkelen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welke soort democratie wordt hier beschreven?",
+          "rijen": [
+            "Iedere burger kan op een volksvergadering zelf meestemmen over elke wet.",
+            "De burgers kiezen een parlement dat vijf jaar lang de wetten maakt.",
+            "Een gemeente laat haar inwoners zelf stemmen over een nieuw plein."
+          ],
+          "antwoord": [
+            0,
+            1,
+            0
+          ],
+          "uitleg": "Zelf beslissen of via vertegenwoordigers.",
+          "kolommen": [
+            "direct",
+            "indirect"
+          ]
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe heet de hoogste wet van een land, met de grondrechten en de werking van de staat?",
+          "antwoord": [
+            "grondwet",
+            "de grondwet",
+            "constitutie",
+            "de constitutie"
+          ],
+          "uitleg": "De grondwet of constitutie staat boven alle andere wetten."
+        },
+        {
+          "type": "open",
+          "vraag": "Leg uit waarom verkiezingen alleen niet genoeg zijn om een land een democratische rechtstaat te noemen.",
+          "antwoord": "Ook een regering die verkozen is, kan haar macht misbruiken. Een rechtstaat heeft daarom ook een grondwet, grondrechten die ook minderheden beschermen, een scheiding der machten en onafhankelijke en onpartijdige rechters. Zonder die principes kan een verkozen meerderheid kritiek verbieden of rechters aan de kant zetten."
+        }
+      ]
+    },
+    {
+      "titel": "Humane wetenschappen: de Belgische staat en zijn bestuursniveaus — pittig",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het bestuursniveau dat bevoegd is voor defensie en justitie.",
+          "afbeelding_url": "/examenvormen/sgw-beyond/bestuursniveaus.svg",
+          "zones": [
+            [
+              12.0,
+              12.5,
+              76.0,
+              16.4
+            ]
+          ],
+          "uitleg": "Defensie, justitie, buitenlandse zaken en de sociale zekerheid blijven federaal."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het bestuursniveau waar een college van burgemeester en schepenen de beslissingen uitvoert.",
+          "afbeelding_url": "/examenvormen/sgw-beyond/bestuursniveaus.svg",
+          "zones": [
+            [
+              24.0,
+              73.4,
+              52.0,
+              16.4
+            ]
+          ],
+          "uitleg": "Het college van burgemeester en schepenen is het uitvoerend orgaan van de gemeente."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Een leerkracht wil weten wie de eindtermen van het secundair onderwijs in Vlaanderen vastlegt. Klik op het juiste niveau.",
+          "afbeelding_url": "/examenvormen/sgw-beyond/bestuursniveaus.svg",
+          "zones": [
+            [
+              16.0,
+              32.8,
+              68.0,
+              16.4
+            ]
+          ],
+          "uitleg": "Onderwijs is een gemeenschapsbevoegdheid."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Op niveau C voert de [[*deputatie|gemeenteraad|Kamer]] het beleid uit dat de provincieraad goedkeurt.",
+          "uitleg": "De deputatie, met de gouverneur, is het uitvoerend orgaan van de provincie.",
+          "afbeelding_url": "/examenvormen/sgw-beyond/bestuursniveaus.svg"
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het gewest waar zowel de Vlaamse als de Franse Gemeenschap bevoegd is voor onderwijs.",
+          "afbeelding_url": "/examenvormen/sgw-beyond/gewesten-gemeenschappen.svg",
+          "zones": [
+            [
+              38.0,
+              14.1,
+              25.0,
+              75.0
+            ]
+          ],
+          "uitleg": "In Brussel zijn er Nederlandstalige en Franstalige scholen. Voor de eerste is de Vlaamse, voor de tweede de Franse Gemeenschap bevoegd."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het gewest waarin het Duitse taalgebied ligt.",
+          "afbeelding_url": "/examenvormen/sgw-beyond/gewesten-gemeenschappen.svg",
+          "zones": [
+            [
+              67.0,
+              14.1,
+              25.0,
+              75.0
+            ]
+          ],
+          "uitleg": "Het Duitse taalgebied heeft een eigen gemeenschap, maar hoort voor de gewestbevoegdheden bij het Waals Gewest."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom heeft België gewesten én gemeenschappen?",
+          "opties": [
+            "Vlamingen wilden vooral culturele, Walen vooral economische zelfstandigheid",
+            "elke provincie wilde een eigen parlement en een eigen regering om zelf te beslissen",
+            "de Europese Unie verplichtte België tot die verdeling",
+            "de grondwet van 1830 voorzag die verdeling al"
+          ],
+          "antwoord": 0,
+          "uitleg": "Gemeenschappen kwamen er voor taal en cultuur, gewesten voor economie en grondgebied.",
+          "afbeelding_url": "/examenvormen/sgw-beyond/gewesten-gemeenschappen.svg"
+        },
+        {
+          "type": "tabel",
+          "vraag": "Wie is bevoegd?",
+          "rijen": [
+            "de bouw van een nieuwe ringweg rond Antwerpen",
+            "het aantal lesuren Nederlands in het secundair onderwijs",
+            "de aankoop van nieuwe gevechtsvliegtuigen",
+            "een vergunning voor een windmolenpark in Wallonië",
+            "de subsidies voor een Nederlandstalig theater in Brussel"
+          ],
+          "antwoord": [
+            2,
+            1,
+            0,
+            2,
+            1
+          ],
+          "uitleg": "Grondgebonden zaken bij de gewesten, persoonsgebonden bij de gemeenschappen, en wat het hele land aangaat federaal.",
+          "kolommen": [
+            "federaal",
+            "gemeenschap",
+            "gewest"
+          ]
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet van de grootste naar de kleinste bestuurseenheid.",
+          "opties": [
+            "de federale staat",
+            "een gewest",
+            "een provincie",
+            "een gemeente"
+          ],
+          "uitleg": "België, een gewest, een provincie en een gemeente: elk ligt binnen het vorige."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "België werd een federale staat [[*stap voor stap, via staatshervormingen|in één keer, bij de onafhankelijkheid|door een beslissing van de NAVO]].",
+          "uitleg": "Sinds 1970 waren er zes staatshervormingen."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Hoort dit bij een unitaire of een federale staat?",
+          "kolommen": [
+            "Unitair",
+            "Federaal"
+          ],
+          "items": [
+            [
+              "Eén regering beslist over onderwijs in het hele land.",
+              "Unitair"
+            ],
+            [
+              "Deelstaten maken eigen decreten.",
+              "Federaal"
+            ],
+            [
+              "Er is enkel een nationaal parlement.",
+              "Unitair"
+            ],
+            [
+              "De bevoegdheden zijn verdeeld over meerdere regeringen.",
+              "Federaal"
+            ]
+          ],
+          "uitleg": "Eén centrum of een verdeling van de macht over meerdere niveaus."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel elk controleorgaan aan wat het doet.",
+          "paren": [
+            [
+              "Grondwettelijk Hof",
+              "toetst wetten en decreten aan de grondwet"
+            ],
+            [
+              "Raad van State",
+              "vernietigt onwettige beslissingen van een overheid"
+            ],
+            [
+              "Hof van Cassatie",
+              "kijkt na of rechters de wet juist toepasten"
+            ]
+          ],
+          "extra": [
+            "telt de stemmen na de verkiezingen"
+          ],
+          "uitleg": "Drie controleorganen met elk een eigen taak."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welk controleorgaan kan hier tussenkomen?",
+          "rijen": [
+            "Een decreet van de Franse Gemeenschap regelt iets dat federaal is.",
+            "Een provincie weigert een vergunning zonder de regels te volgen.",
+            "Een hof van beroep paste een wetsartikel verkeerd toe in een vonnis."
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Bevoegdheidsconflicten en wetten bij het Grondwettelijk Hof, bestuurshandelingen bij de Raad van State, vonnissen bij het Hof van Cassatie.",
+          "kolommen": [
+            "Grondwettelijk Hof",
+            "Raad van State",
+            "Hof van Cassatie"
+          ]
+        },
+        {
+          "casus": "Na de verkiezingen hebben vier partijen samen 88 van de 150 zetels in de Kamer. Ze schrijven een regeerakkoord en vormen een regering. Drie andere partijen, met samen 45 zetels, zitten niet in de regering. Een van hen vraagt in de Kamer elke week uitleg aan de minister van Justitie over de overvolle gevangenissen.",
+          "vragen": [
+            {
+              "type": "keuzelijst",
+              "vraag": "De vier partijen in de regering vormen samen een [[*coalitie|oppositie|deputatie]].",
+              "uitleg": "Partijen die samen een meerderheid vormen en regeren, vormen een coalitie."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "De partijen die niet in de regering zitten, vormen de [[*oppositie|coalitie|deputatie]].",
+              "uitleg": "De oppositie controleert de regering kritisch."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Welke functie van het parlement zie je bij de wekelijkse vragen?",
+              "opties": [
+                "de controle op de regering",
+                "het goedkeuren van de begroting",
+                "het maken van een decreet",
+                "het benoemen van de rechters"
+              ],
+              "antwoord": 0,
+              "uitleg": "Vragen stellen aan ministers is een middel van controle."
+            },
+            {
+              "type": "invultekst",
+              "vraag": "Hoeveel zetels heeft de coalitie meer dan de minimale meerderheid van 76?",
+              "antwoord": [
+                "12"
+              ],
+              "uitleg": "88 min 76 is 12."
+            }
+          ]
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "De Vlaamse Gemeenschap en het Vlaams Gewest werken met één [[parlement]] en één [[regering]].",
+          "extra": [
+            "provincieraad",
+            "gemeenteraad"
+          ],
+          "uitleg": "Vlaanderen voegde de instellingen van gemeenschap en gewest samen."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een regel van het federale parlement heet een [[*wet|decreet|ordonnantie]], een regel van het Vlaams Parlement een [[*decreet|wet|ordonnantie]].",
+          "uitleg": "Wet, decreet of ordonnantie (Brussel)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk voorbeeld past bij een confederale staat?",
+          "opties": [
+            "deelstaten beslissen bijna alles en spreken af wat ze samen doen",
+            "één hoofdstad beslist over alles wat er in het land en in elke stad gebeurt",
+            "elke gemeente heeft een eigen leger en een eigen munt",
+            "de koning maakt alle wetten zonder een parlement"
+          ],
+          "antwoord": 0,
+          "uitleg": "In een confederatie ligt de meeste macht bij de deelstaten."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over de Belgische staatsstructuur?",
+          "rijen": [
+            "Het Duitse taalgebied heeft een eigen gemeenschap.",
+            "Er zijn drie gewesten en drie gemeenschappen.",
+            "Provincies maken decreten over onderwijs.",
+            "België was bij zijn ontstaan al een federale staat."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            false
+          ],
+          "uitleg": "De provincies zijn geen deelstaten, en België begon als unitaire staat."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vanaf welk jaar staat in de grondwet dat België een federale staat is?",
+          "antwoord": [
+            "1993"
+          ],
+          "uitleg": "De staatshervorming van 1993 maakte België officieel federaal."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Het [[*Grondwettelijk Hof|Hof van Cassatie|vredegerecht]] heette vroeger het Arbitragehof, omdat het conflicten over bevoegdheden tussen de overheden beslechtte.",
+          "uitleg": "Arbitrage betekent bemiddelen in een conflict."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke regering is bevoegd voor het afvalbeleid in Gent?",
+          "opties": [
+            "de Vlaamse Regering",
+            "de federale regering",
+            "de Franse Gemeenschap",
+            "de Europese Raad"
+          ],
+          "antwoord": 0,
+          "uitleg": "Afval en milieu zijn gewestbevoegdheden. Gent ligt in het Vlaams Gewest."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Persoonsgebonden of grondgebonden bevoegdheid?",
+          "kolommen": [
+            "Persoonsgebonden (gemeenschap)",
+            "Grondgebonden (gewest)"
+          ],
+          "items": [
+            [
+              "cultuur",
+              "Persoonsgebonden (gemeenschap)"
+            ],
+            [
+              "ruimtelijke ordening",
+              "Grondgebonden (gewest)"
+            ],
+            [
+              "onderwijs",
+              "Persoonsgebonden (gemeenschap)"
+            ],
+            [
+              "landbouw",
+              "Grondgebonden (gewest)"
+            ],
+            [
+              "openbare werken",
+              "Grondgebonden (gewest)"
+            ]
+          ],
+          "uitleg": "Wat met mensen te maken heeft, of met het grondgebied."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "In een parlementaire democratie heeft de regering het [[*vertrouwen|bevel|vonnis]] van de meerderheid in het parlement nodig.",
+          "uitleg": "Verliest ze dat vertrouwen, dan moet ze opstappen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom duurt een federale regeringsvorming in België vaak lang?",
+          "opties": [
+            "er moeten meerdere partijen uit beide taalgroepen akkoord gaan",
+            "de grondwet verbiedt regeren voor de zomervakantie",
+            "de gemeenten moeten eerst allemaal goedkeuring geven",
+            "de koning moet elke minister apart laten verkiezen door het volk van zijn taalgroep"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een meerderheid vraagt een coalitie, en de federale regering telt evenveel Nederlandstalige als Franstalige ministers."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel staatshervormingen waren er sinds 1970?",
+          "antwoord": [
+            "6",
+            "zes"
+          ],
+          "uitleg": "Zes staatshervormingen maakten van de unitaire staat stap voor stap een federale staat."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Bij welk orgaan hoort dit?",
+          "rijen": [
+            "keurt de decreten van Vlaanderen goed",
+            "voert de decreten van Vlaanderen uit",
+            "beslist in een gemeente over het reglement voor de markt"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Het parlement en de raad maken regels, de regering voert ze uit.",
+          "kolommen": [
+            "Vlaams Parlement",
+            "Vlaamse Regering",
+            "gemeenteraad"
+          ]
+        },
+        {
+          "type": "open",
+          "vraag": "Leg met een voorbeeld uit waarom België zowel gemeenschappen als gewesten heeft.",
+          "antwoord": "Gemeenschappen zijn gebaseerd op taal en regelen persoonsgebonden zaken, zoals onderwijs en cultuur. Gewesten zijn gebaseerd op grondgebied en regelen grondgebonden zaken, zoals milieu of ruimtelijke ordening. In Brussel zie je waarom dat nodig is: het is één gewest, maar zowel de Vlaamse als de Franse Gemeenschap zijn er bevoegd voor de eigen scholen."
+        }
+      ]
+    },
+    {
+      "titel": "Humane wetenschappen: ideologieën, partijen en verkiezingen — pittig",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de grootste partij in de Kamer na de verkiezingen van 9 juni 2024.",
+          "afbeelding_url": "/examenvormen/sgw-beyond/zetels-kamer-2024.svg",
+          "zones": [
+            [
+              6.2,
+              14.5,
+              7.1,
+              78.4
+            ]
+          ],
+          "uitleg": "N-VA haalde 24 zetels. Dat is veel minder dan de 76 die nodig zijn voor een meerderheid."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de grootste Franstalige partij.",
+          "afbeelding_url": "/examenvormen/sgw-beyond/zetels-kamer-2024.svg",
+          "zones": [
+            [
+              21.2,
+              25.8,
+              7.1,
+              67.2
+            ]
+          ],
+          "uitleg": "MR haalde 20 zetels, evenveel als Vlaams Belang, en is de grootste aan Franstalige kant."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de enige partij in de grafiek die zowel in Vlaanderen als in Wallonië en Brussel opkomt onder één naam.",
+          "afbeelding_url": "/examenvormen/sgw-beyond/zetels-kamer-2024.svg",
+          "zones": [
+            [
+              36.2,
+              39.8,
+              7.1,
+              53.1
+            ]
+          ],
+          "uitleg": "PVDA-PTB is een nationale partij. De andere partijen zijn Nederlandstalig of Franstalig."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel zetels halen N-VA, MR, Les Engagés, Vooruit en cd&v samen?",
+          "antwoord": [
+            "82"
+          ],
+          "uitleg": "24 + 20 + 14 + 13 + 11 = 82. Dat is meer dan 76, dus samen een meerderheid.",
+          "afbeelding_url": "/examenvormen/sgw-beyond/zetels-kamer-2024.svg"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat leer je uit deze grafiek over de regeringsvorming?",
+          "opties": [
+            "geen enkele partij kan alleen een meerderheid vormen",
+            "de grootste partij krijgt meteen alle ministers in de regering",
+            "enkel Nederlandstalige partijen mogen de regering vormen",
+            "de kleinste partij beslist wie eerste minister wordt"
+          ],
+          "antwoord": 0,
+          "uitleg": "De grootste partij heeft maar 24 van de 150 zetels. Er is dus een coalitie van meerdere partijen nodig.",
+          "afbeelding_url": "/examenvormen/sgw-beyond/zetels-kamer-2024.svg"
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Dat er zoveel partijen in de Kamer zitten, komt mee door het kiesstelsel van [[*evenredige vertegenwoordiging|het meerderheidsstelsel|de cijnskiezing]].",
+          "uitleg": "Bij evenredige vertegenwoordiging krijgen ook kleinere partijen zetels.",
+          "afbeelding_url": "/examenvormen/sgw-beyond/zetels-kamer-2024.svg"
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het vak waar een partij staat die vooral meer herverdeling en een sterke overheid wil.",
+          "afbeelding_url": "/examenvormen/sgw-beyond/links-rechts-as.svg",
+          "zones": [
+            [
+              20.0,
+              39.1,
+              14.0,
+              15.6
+            ]
+          ],
+          "uitleg": "Links op de sociaal-economische as staan partijen die meer herverdeling willen."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Een partij wil vooral lagere belastingen en minder overheid in de economie. Klik waar ze op de as staat.",
+          "afbeelding_url": "/examenvormen/sgw-beyond/links-rechts-as.svg",
+          "zones": [
+            [
+              66.0,
+              39.1,
+              14.0,
+              15.6
+            ]
+          ],
+          "uitleg": "Rechts op de sociaal-economische as staan partijen die meer vrije markt willen."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "cd&v wordt op deze as gewoonlijk geplaatst in vak [[*B|A|C]], PVDA in vak [[*A|B|C]].",
+          "uitleg": "cd&v staat gewoonlijk in het centrum, PVDA het verst links. Dat is een ruwe indeling.",
+          "afbeelding_url": "/examenvormen/sgw-beyond/links-rechts-as.svg"
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel de Vlaamse partij aan de ideologie waartoe ze gewoonlijk gerekend wordt.",
+          "paren": [
+            [
+              "Open Vld",
+              "liberalisme"
+            ],
+            [
+              "Vooruit",
+              "sociaaldemocratie"
+            ],
+            [
+              "Groen",
+              "ecologisme"
+            ],
+            [
+              "cd&v",
+              "christendemocratie"
+            ],
+            [
+              "N-VA",
+              "Vlaams-nationalisme"
+            ]
+          ],
+          "extra": [
+            "monarchisme"
+          ],
+          "uitleg": "Elke partij met haar ideologische familie."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welke breuklijn zie je in dit conflict?",
+          "rijen": [
+            "Werkgevers en vakbonden zijn het oneens over de loonsverhoging.",
+            "Er is ruzie over subsidies voor katholieke en officiële scholen.",
+            "Nederlandstaligen en Franstaligen zijn het oneens over de taal van de rand rond Brussel."
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Arbeid tegenover kapitaal, kerk tegenover staat, en taal en identiteit.",
+          "kolommen": [
+            "sociaal-economisch",
+            "levensbeschouwelijk",
+            "communautair"
+          ]
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een samenhangend geheel van ideeën over hoe de samenleving moet zijn, is een [[*ideologie|breuklijn|coalitie]].",
+          "uitleg": "Liberalisme, socialisme en ecologisme zijn ideologieën."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Bij welk criterium van het verkiezingsproces hoort dit?",
+          "kolommen": [
+            "Actoren",
+            "Informatie",
+            "Mechanismen"
+          ],
+          "items": [
+            [
+              "een vakbond die haar leden oproept",
+              "Actoren"
+            ],
+            [
+              "een peiling in de krant",
+              "Informatie"
+            ],
+            [
+              "de regels over campagnegeld",
+              "Mechanismen"
+            ],
+            [
+              "een debat op televisie",
+              "Informatie"
+            ],
+            [
+              "de kiezers",
+              "Actoren"
+            ],
+            [
+              "de stemprocedure",
+              "Mechanismen"
+            ]
+          ],
+          "uitleg": "Wie speelt mee, wat hoort of leest de kiezer, en welke regels gelden."
+        },
+        {
+          "casus": "In het land Arvel zijn er 100 zetels. Partij Zon gaat van 30 naar 22 zetels, partij Maan van 18 naar 27, partij Ster blijft op 25 en partij Wolk gaat van 27 naar 26. Zon en Wolk regeerden samen, maar hebben nu geen meerderheid meer.",
+          "vragen": [
+            {
+              "type": "invultekst",
+              "vraag": "Hoeveel zetels hebben Zon en Wolk nu samen?",
+              "antwoord": [
+                "48"
+              ],
+              "uitleg": "22 + 26 = 48. Dat is minder dan 51, dus geen meerderheid meer."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "De grootste winnaar is partij [[*Maan|Ster|Wolk]], de grootste verliezer partij [[*Zon|Wolk|Ster]].",
+              "uitleg": "Maan wint 9 zetels, Zon verliest er 8."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Welke combinatie van twee partijen heeft nu een meerderheid?",
+              "opties": [
+                "Maan en Wolk",
+                "Zon en Ster",
+                "Zon en Wolk opnieuw",
+                "Zon en Maan"
+              ],
+              "antwoord": 0,
+              "uitleg": "27 + 26 = 53. Zon en Ster hebben 47, Zon en Wolk 48 en Zon en Maan 49."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "Dat de machtsverhoudingen zo veranderen, noem je een politieke [[*verschuiving|breuklijn|ideologie]].",
+              "uitleg": "Winst en verlies van zetels verschuift de macht in het parlement."
+            }
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over peilingen?",
+          "rijen": [
+            "Een peiling is een schatting bij een steekproef van kiezers.",
+            "Een peiling heeft dezelfde waarde als de officiële uitslag.",
+            "Een peiling kan het gedrag van kiezers beïnvloeden.",
+            "Een peiling is een regel uit de kieswetgeving."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Een peiling is informatie, geen uitslag en geen regel."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een partij komt op voor een sterke sociale zekerheid, hogere minimumlonen en meer rechten voor werknemers. Welke ideologie past daar het best bij?",
+          "opties": [
+            "de sociaaldemocratie",
+            "het liberalisme",
+            "het Vlaams-nationalisme",
+            "het ecologisme"
+          ],
+          "antwoord": 0,
+          "uitleg": "Gelijkheid en solidariteit via de overheid en de rechten van werknemers zijn kernideeën van het socialisme en de sociaaldemocratie."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een partij wil dat Vlaanderen zoveel mogelijk zelf beslist over belastingen, onderwijs en werk. Welke ideologie past daar het best bij?",
+          "opties": [
+            "het Vlaams-nationalisme",
+            "het internationale socialisme",
+            "het ecologisme",
+            "de sociaaldemocratie"
+          ],
+          "antwoord": 0,
+          "uitleg": "Meer zelfbestuur voor het eigen volk is een kernidee van het nationalisme."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een partij die economisch eerder rechts is, kan bij ethische thema's [[*progressief|altijd conservatief|nooit een standpunt]] zijn.",
+          "uitleg": "Daarom is één links-rechtsas een vereenvoudiging."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet de stappen na de verkiezingen in een logische volgorde.",
+          "opties": [
+            "de stemmen worden geteld en omgezet in zetels",
+            "partijen verkennen welke coalitie mogelijk is",
+            "de coalitiepartijen schrijven een regeerakkoord",
+            "de nieuwe regering legt de eed af"
+          ],
+          "uitleg": "Eerst de uitslag, dan onderhandelen, dan het akkoord en dan de regering."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel zetels heb je minstens nodig voor een meerderheid in een parlement van 124 zetels, zoals het Vlaams Parlement?",
+          "antwoord": [
+            "63"
+          ],
+          "uitleg": "De helft van 124 is 62. Een meerderheid is minstens 63."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Over het arbeidsloon en de winst botsen [[arbeid]] en [[kapitaal]]. Over de rol van de kerk in het onderwijs botsen kerk en [[staat]].",
+          "extra": [
+            "taal",
+            "natie"
+          ],
+          "uitleg": "De sociaal-economische en de levensbeschouwelijke breuklijn."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is dit een identificatie, een actor of een verkiezingsresultaat?",
+          "rijen": [
+            "Het gaat om de verkiezing van het Europees Parlement.",
+            "Partij X verliest vijf zetels en gaat in de oppositie.",
+            "Een milieuorganisatie vergelijkt de klimaatplannen van de partijen."
+          ],
+          "antwoord": [
+            0,
+            2,
+            1
+          ],
+          "uitleg": "Over welk niveau het gaat, wie meespeelt, en wat de uitslag is.",
+          "kolommen": [
+            "identificatie",
+            "actor",
+            "resultaat"
+          ]
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Linkse en rechtse partijen in dezelfde regering kunnen botsen over belastingen. Dat leidt vaak tot [[*een compromis of uitstel|een nieuwe grondwet|de afschaffing van de verkiezingen]].",
+          "uitleg": "Beleidsconflicten tussen links en rechts kunnen beslissingen vertragen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom is een partij die het meeste stemmen haalt, niet altijd de partij met de meeste macht?",
+          "opties": [
+            "macht hangt af van de coalitie die er gevormd kan worden",
+            "de grondwet verbiedt dat de grootste partij een minister levert",
+            "stemmen worden in België niet omgezet in zetels",
+            "de kleinste partij krijgt altijd de eerste minister"
+          ],
+          "antwoord": 0,
+          "uitleg": "Wie samen een meerderheid vindt, regeert. De grootste partij kan zelfs in de oppositie belanden."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over ideologieën?",
+          "rijen": [
+            "Het liberalisme legt de nadruk op de vrijheid van het individu en de vrije markt.",
+            "Het ecologisme stelt de zorg voor het milieu en de toekomstige generaties centraal.",
+            "De christendemocratie wil dat de kerk de wetten maakt.",
+            "Het socialisme wil dat de overheid zich zo weinig mogelijk met de economie bemoeit."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            false
+          ],
+          "uitleg": "De christendemocratie steunt op christelijke waarden, maar de wetten maakt het parlement. Minder overheid in de economie is een liberaal idee."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een groep partijen die samen een meerderheid vormt en de regering levert, noem je de [[*coalitie|oppositie|breuklijn]]. De partijen die niet in de regering zitten, vormen de [[*oppositie|coalitie|kieskring]].",
+          "uitleg": "De coalitie regeert, de oppositie controleert en stelt alternatieven voor."
+        },
+        {
+          "type": "open",
+          "vraag": "Leg uit hoe structurele breuklijnen de regeringsvorming in België moeilijker maken. Gebruik een voorbeeld.",
+          "antwoord": "Partijen zijn ontstaan rond breuklijnen zoals arbeid tegenover kapitaal, kerk tegenover staat en Nederlandstaligen tegenover Franstaligen. Een coalitie moet partijen verzoenen die op die breuklijnen tegenover elkaar staan. Een linkse partij wil bijvoorbeeld meer belastingen op vermogen, een rechtse minder belastingen. Bovendien moeten er partijen uit beide taalgroepen in de federale regering zitten, die ook over de staatsstructuur anders denken. Daarom zijn de onderhandelingen vaak lang en eindigen ze in compromissen."
+        }
+      ]
+    },
+    {
+      "titel": "Humane wetenschappen: participatie, kiesstelsel en kiesrecht — pittig",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het jaar waarin vrouwen voor het eerst mochten stemmen voor het parlement.",
+          "afbeelding_url": "/examenvormen/sgw-beyond/tijdlijn-kiesrecht.svg",
+          "zones": [
+            [
+              59.5,
+              31.2,
+              15.0,
+              35.9
+            ]
+          ],
+          "uitleg": "Vrouwen stemden al vanaf 1921 voor de gemeenteraad, maar pas vanaf 1948 voor het parlement."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het jaar van het cijnskiesrecht.",
+          "afbeelding_url": "/examenvormen/sgw-beyond/tijdlijn-kiesrecht.svg",
+          "zones": [
+            [
+              5.5,
+              31.2,
+              15.0,
+              35.9
+            ]
+          ],
+          "uitleg": "In 1831 mocht enkel wie genoeg belasting betaalde stemmen."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het jaar waarin de stemleeftijd van 21 naar 18 jaar ging.",
+          "afbeelding_url": "/examenvormen/sgw-beyond/tijdlijn-kiesrecht.svg",
+          "zones": [
+            [
+              77.5,
+              31.2,
+              15.0,
+              35.9
+            ]
+          ],
+          "uitleg": "Sinds 1981 mag je stemmen vanaf 18 jaar."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Het algemeen meervoudig stemrecht hoort bij [[*B|C|A]], het algemeen enkelvoudig stemrecht voor mannen bij [[*C|B|D]].",
+          "uitleg": "1893 gaf alle mannen een stem, met extra stemmen voor sommigen. In 1919 kreeg elke man één stem.",
+          "afbeelding_url": "/examenvormen/sgw-beyond/tijdlijn-kiesrecht.svg"
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "De opkomstplicht ontstond tegelijk met stap [[*B|A|E]].",
+          "uitleg": "Sinds 1893 moet je naar het stembureau gaan.",
+          "afbeelding_url": "/examenvormen/sgw-beyond/tijdlijn-kiesrecht.svg"
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het paneel dat evenredige vertegenwoordiging toont.",
+          "afbeelding_url": "/examenvormen/sgw-beyond/twee-kiesstelsels.svg",
+          "zones": [
+            [
+              6.0,
+              20.3,
+              41.0,
+              73.4
+            ]
+          ],
+          "uitleg": "In paneel A komen de zetels overeen met het deel van de stemmen: 40, 35 en 25."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het paneel waar een partij met een kwart van de stemmen geen enkele zetel krijgt.",
+          "afbeelding_url": "/examenvormen/sgw-beyond/twee-kiesstelsels.svg",
+          "zones": [
+            [
+              53.0,
+              20.3,
+              41.0,
+              73.4
+            ]
+          ],
+          "uitleg": "In paneel B krijgt partij Z 0 zetels, ook al haalde ze 25 procent. Dat kan bij een meerderheidsstelsel."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "In paneel B heeft partij [[*X|Y|Z]] alleen een meerderheid. In paneel A is er een [[*coalitie|meerderheidspartij|cijns]] nodig.",
+          "uitleg": "60 van de 100 zetels is een meerderheid. In paneel A heeft geen partij er meer dan 50.",
+          "afbeelding_url": "/examenvormen/sgw-beyond/twee-kiesstelsels.svg"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke uitspraak past bij paneel B?",
+          "opties": [
+            "grote partijen worden bevoordeeld",
+            "elke stem weegt even zwaar door in de zetels",
+            "kleine partijen krijgen er extra zetels bij",
+            "de zetels volgen precies het deel van de stemmen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij een meerderheidsstelsel gaan de stemmen voor verliezers in een district verloren. Dat helpt grote partijen.",
+          "afbeelding_url": "/examenvormen/sgw-beyond/twee-kiesstelsels.svg"
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet de stappen in de evolutie van het kiesrecht in de juiste volgorde.",
+          "opties": [
+            "enkel wie genoeg belasting betaalt, mag stemmen",
+            "alle mannen stemmen, sommigen hebben extra stemmen",
+            "elke man heeft één stem",
+            "vrouwen stemmen ook voor het parlement",
+            "de stemleeftijd zakt naar 18 jaar"
+          ],
+          "uitleg": "1831, 1893, 1919, 1948 en 1981."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over het kiesrecht in België?",
+          "rijen": [
+            "Bij het cijnskiesrecht mocht een klein deel van de mannen stemmen.",
+            "Sinds 1919 heeft elke man drie stemmen.",
+            "Bij de opkomstplicht mag je blanco stemmen.",
+            "Vrouwen stemden al voor 1948 voor het parlement."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "In 1919 kreeg elke man één stem. Vrouwen stemden voor het parlement pas vanaf 1948."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "In een land met evenredige vertegenwoordiging en 150 zetels haalt een partij 20 procent van de stemmen. Hoeveel zetels krijgt ze ongeveer?",
+          "antwoord": [
+            "30"
+          ],
+          "uitleg": "20 procent van 150 is 30."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Is dit conventionele of niet-conventionele participatie?",
+          "kolommen": [
+            "Conventioneel",
+            "Niet-conventioneel"
+          ],
+          "items": [
+            [
+              "stemmen bij de verkiezingen",
+              "Conventioneel"
+            ],
+            [
+              "een boycot van een merk",
+              "Niet-conventioneel"
+            ],
+            [
+              "lid worden van een partij",
+              "Conventioneel"
+            ],
+            [
+              "een petitie tekenen",
+              "Niet-conventioneel"
+            ],
+            [
+              "een betoging",
+              "Niet-conventioneel"
+            ],
+            [
+              "kandidaat zijn op een lijst",
+              "Conventioneel"
+            ]
+          ],
+          "uitleg": "Conventioneel gaat via de gewone politieke kanalen, niet-conventioneel erbuiten."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel het voorbeeld aan de vorm van participatie.",
+          "paren": [
+            [
+              "Een vakbond overlegt met de minister over de pensioenen.",
+              "belangengroep"
+            ],
+            [
+              "Duizenden jongeren betogen voor het klimaat.",
+              "sociale beweging"
+            ],
+            [
+              "Buurtbewoners brengen zelf een plan voor een speelplein op de gemeenteraad.",
+              "burgerinitiatief"
+            ],
+            [
+              "De gemeente laat de inwoners stemmen over één vraag.",
+              "volksraadpleging"
+            ]
+          ],
+          "extra": [
+            "cijnskiesrecht"
+          ],
+          "uitleg": "Elke vorm met een typisch voorbeeld."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welke factor van participatie speelt hier vooral?",
+          "rijen": [
+            "Een hoogopgeleide vrouw stapt sneller naar een politicus met een voorstel.",
+            "Een jongere deelt een politiek filmpje op sociale media in plaats van lid te worden van een partij.",
+            "Een vader met drie jonge kinderen heeft geen tijd voor politieke vergaderingen."
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Opleiding, leeftijd en gezinssituatie beïnvloeden hoe mensen participeren.",
+          "kolommen": [
+            "scholingsgraad",
+            "leeftijd",
+            "gezinssituatie"
+          ]
+        },
+        {
+          "casus": "In de gemeente Ravel wil het bestuur een parking aanleggen op een grasveld. Een groep bewoners verzamelt 800 handtekeningen. Een milieuorganisatie organiseert een betoging. Het bestuur besluit de inwoners via een volksraadpleging naar hun mening te vragen.",
+          "vragen": [
+            {
+              "type": "meerkeuze",
+              "vraag": "Wat doen de bewoners met de handtekeningen?",
+              "opties": [
+                "ze nemen een burgerinitiatief",
+                "ze voeren een verkiezing uit",
+                "ze vormen een partij",
+                "ze stemmen een wet"
+              ],
+              "antwoord": 0,
+              "uitleg": "Burgers nemen zelf het initiatief en brengen het bij de politiek."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "De betoging is een vorm van [[*niet-conventionele|conventionele]] participatie.",
+              "uitleg": "Een betoging gaat buiten de gewone kanalen om, ook al is ze toegelaten."
+            },
+            {
+              "type": "tabel",
+              "vraag": "Klopt dit over de volksraadpleging?",
+              "rijen": [
+                "De inwoners stemmen over één vraag.",
+                "Het resultaat verplicht het gemeentebestuur altijd.",
+                "Het is een vorm van rechtstreekse inspraak van burgers."
+              ],
+              "antwoord": [
+                true,
+                false,
+                true
+              ],
+              "uitleg": "In België is een volksraadpleging niet bindend."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "De milieuorganisatie is geen partij, maar een [[*belangengroep|kieskring|regering]] die druk uitoefent.",
+              "uitleg": "Ze komt niet op bij verkiezingen, maar probeert beslissingen te beïnvloeden."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom spreek je in België beter van opkomstplicht dan van stemplicht?",
+          "opties": [
+            "je moet enkel naar het stembureau gaan, wat je daar stemt is vrij",
+            "je moet verplicht op de grootste partij of haar lijsttrekker stemmen",
+            "je moet een ingevuld formulier van je gemeente kunnen voorleggen",
+            "je moet een cijns betalen voor je in het stembureau binnen mag"
+          ],
+          "antwoord": 0,
+          "uitleg": "Blanco of ongeldig stemmen mag. Enkel aanwezig zijn is verplicht."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is dit een argument vóór of tegen het afschaffen van de opkomstplicht?",
+          "rijen": [
+            "Stemmen is een recht, geen plicht.",
+            "Zonder plicht gaan vooral bepaalde groepen stemmen en worden zwakkere groepen minder gehoord.",
+            "Een stem uit vrije wil is meer waard."
+          ],
+          "antwoord": [
+            0,
+            1,
+            0
+          ],
+          "uitleg": "Voorstanders benadrukken vrijheid, tegenstanders de gelijke vertegenwoordiging.",
+          "kolommen": [
+            "vóór afschaffen",
+            "tegen afschaffen"
+          ]
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een kiesstelsel met evenredige vertegenwoordiging geeft gewoonlijk [[*meer|minder]] partijen in het parlement en [[*vaker|zelden]] een coalitie.",
+          "uitleg": "Ook kleinere partijen krijgen zetels. Daardoor heeft zelden één partij alleen een meerderheid."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "In 1831 gold het [[cijnskiesrecht]]. Arbeiders betaalden te weinig [[belasting]] om te mogen stemmen. Na stakingen kwam in 1893 het algemeen [[meervoudig]] stemrecht.",
+          "extra": [
+            "enkelvoudig",
+            "vrouwen"
+          ],
+          "uitleg": "Cijns betekent belasting. Daarom eisten arbeiders algemeen stemrecht."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom is de mate van politieke participatie in een dictatuur meestal kleiner dan in een democratie?",
+          "opties": [
+            "vrije verkiezingen en acties zijn er vaak verboden",
+            "mensen in een dictatuur hebben minder interesse in politiek",
+            "in een dictatuur bestaat er geen enkele vorm van belasting",
+            "de dictatuur heeft altijd een strenge opkomstplicht"
+          ],
+          "antwoord": 0,
+          "uitleg": "De staatsvorm bepaalt mee hoeveel burgers kunnen participeren."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een partij haalt in een meerderheidsstelsel in 3 van de 10 districten de meeste stemmen. Hoeveel zetels krijgt ze, als elk district één zetel heeft?",
+          "antwoord": [
+            "3"
+          ],
+          "uitleg": "Per district krijgt enkel de winnaar een zetel. Drie gewonnen districten zijn drie zetels."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Wie in een representatieve democratie stemt, geeft een [[*mandaat|cijns|referendum]] aan een vertegenwoordiger.",
+          "uitleg": "De vertegenwoordiger beslist dan in naam van de kiezers."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over belangengroepen en sociale bewegingen?",
+          "rijen": [
+            "Een werkgeversorganisatie is een belangengroep.",
+            "Een sociale beweging is strakker georganiseerd dan een belangengroep.",
+            "Een belangengroep komt op met eigen kandidatenlijsten bij de verkiezingen.",
+            "De vrouwenbeweging is een voorbeeld van een sociale beweging."
+          ],
+          "antwoord": [
+            true,
+            false,
+            false,
+            true
+          ],
+          "uitleg": "Een sociale beweging is losser georganiseerd. Kandidatenlijsten zijn iets van partijen."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Dat iemand in de stad meer acties en verenigingen vindt dan op het platteland, heeft te maken met de factor [[*urbanisatie|scholingsgraad|leeftijd]].",
+          "uitleg": "Waar je woont, in een stad of op het platteland, beïnvloedt hoe je participeert."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom woog de stem van veel arbeiders na 1893 nog steeds minder door?",
+          "opties": [
+            "rijkere en hoger opgeleide mannen kregen extra stemmen",
+            "arbeiders mochten pas vanaf 30 jaar naar het stembureau",
+            "arbeiders moesten van de wet blanco stemmen in elk stembureau",
+            "enkel arbeiders kregen een opkomstplicht en de rest niet"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het meervoudig stemrecht gaf extra stemmen voor eigendom, een diploma of een gezin. Pas in 1919 had elke man één stem."
+        },
+        {
+          "type": "open",
+          "vraag": "Vergelijk evenredige vertegenwoordiging met een meerderheidsstelsel. Geef bij elk een voordeel en een nadeel.",
+          "antwoord": "Bij evenredige vertegenwoordiging krijgt een partij ongeveer evenveel procent zetels als procent stemmen. Voordeel: meer stromingen krijgen een stem in het parlement. Nadeel: er zijn bijna altijd coalities nodig, waardoor regeringsvorming moeilijker is. Bij een meerderheidsstelsel krijgt per district enkel de winnaar een zetel. Voordeel: vaker een regering van één partij, dus duidelijke verantwoordelijkheid. Nadeel: stemmen voor verliezers gaan verloren en kleine partijen worden benadeeld."
+        }
+      ]
+    },
+    {
+      "titel": "Humane wetenschappen: het recht in de samenleving — pittig",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de rechtbank die een boete voor te snel rijden behandelt.",
+          "afbeelding_url": "/examenvormen/sgw-beyond/gerechtelijke-piramide.svg",
+          "zones": [
+            [
+              53.0,
+              77.3,
+              27.0,
+              14.1
+            ]
+          ],
+          "uitleg": "De politierechtbank behandelt verkeersovertredingen en de schade bij verkeersongevallen."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de plek waar een ruzie tussen buren over geluidshinder behandeld wordt.",
+          "afbeelding_url": "/examenvormen/sgw-beyond/gerechtelijke-piramide.svg",
+          "zones": [
+            [
+              20.0,
+              77.3,
+              27.0,
+              14.1
+            ]
+          ],
+          "uitleg": "De vrederechter behandelt kleinere burgerlijke geschillen, burenhinder en huur."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het hof waar een volksjury mee beslist over een moord.",
+          "afbeelding_url": "/examenvormen/sgw-beyond/gerechtelijke-piramide.svg",
+          "zones": [
+            [
+              58.0,
+              34.4,
+              14.0,
+              14.1
+            ]
+          ],
+          "uitleg": "Bij het hof van assisen beslist een jury van burgers mee over de schuld."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Een bedrijf kan zijn schulden niet meer betalen. Klik op de bevoegde rechtbank.",
+          "afbeelding_url": "/examenvormen/sgw-beyond/gerechtelijke-piramide.svg",
+          "zones": [
+            [
+              61.0,
+              54.7,
+              21.0,
+              16.4
+            ]
+          ],
+          "uitleg": "De ondernemingsrechtbank behandelt faillissementen en geschillen tussen ondernemingen."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het hof dat enkel nakijkt of de wet juist werd toegepast, zonder de feiten opnieuw te beoordelen.",
+          "afbeelding_url": "/examenvormen/sgw-beyond/gerechtelijke-piramide.svg",
+          "zones": [
+            [
+              42.0,
+              18.8,
+              16.0,
+              9.4
+            ]
+          ],
+          "uitleg": "Het Hof van Cassatie is het hoogste hof en beoordeelt de feiten niet opnieuw."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Iemand is het niet eens met een vonnis van de correctionele rechtbank. Klik waar hij in beroep gaat.",
+          "afbeelding_url": "/examenvormen/sgw-beyond/gerechtelijke-piramide.svg",
+          "zones": [
+            [
+              28.0,
+              34.4,
+              14.0,
+              14.1
+            ]
+          ],
+          "uitleg": "Tegen een vonnis van de rechtbank van eerste aanleg ga je in beroep bij het hof van beroep."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Een werknemer vindt dat hij onterecht ontslagen werd. Klik op de rechtbank waar hij in eerste aanleg naartoe gaat.",
+          "afbeelding_url": "/examenvormen/sgw-beyond/gerechtelijke-piramide.svg",
+          "zones": [
+            [
+              44.0,
+              54.7,
+              16.0,
+              16.4
+            ]
+          ],
+          "uitleg": "De arbeidsrechtbank behandelt conflicten tussen werknemers en werkgevers."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een echtscheiding komt voor de [[*familierechtbank|politierechtbank|ondernemingsrechtbank]]. Die is een afdeling van de [[*rechtbank van eerste aanleg|vredegerecht|hof van assisen]].",
+          "uitleg": "De familierechtbank behandelt zaken over gezin en familie.",
+          "afbeelding_url": "/examenvormen/sgw-beyond/gerechtelijke-piramide.svg"
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Welke soort zaak een rechtbank behandelt, is haar [[*materiële|territoriale]] bevoegdheid. Of de rechtbank van Gent of van Hasselt bevoegd is, is de [[*territoriale|materiële]] bevoegdheid.",
+          "uitleg": "Materieel gaat over de soort zaak, territoriaal over de plaats.",
+          "afbeelding_url": "/examenvormen/sgw-beyond/gerechtelijke-piramide.svg"
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is dit burgerlijk recht of strafrecht?",
+          "rijen": [
+            "Een eigenaar betaalt de huurwaarborg niet terug.",
+            "Iemand breekt in en steelt een laptop.",
+            "Twee buren zijn het oneens over een haag op de grens.",
+            "Iemand rijdt dronken en wordt vervolgd."
+          ],
+          "antwoord": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "uitleg": "Burgerlijk recht gaat over conflicten tussen burgers, strafrecht over misdrijven.",
+          "kolommen": [
+            "burgerlijk recht",
+            "strafrecht"
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welke functie van justitie staat hier voorop?",
+          "rijen": [
+            "Een rechter beslist wie gelijk heeft in een ruzie over een contract.",
+            "Een zware straf moet anderen afschrikken.",
+            "De politie zorgt dat een betoging rustig verloopt.",
+            "Een gevaarlijke dader wordt opgesloten om anderen te beschermen."
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "uitleg": "Conflicten oplossen, voorkomen, de orde bewaren en de samenleving beschermen.",
+          "kolommen": [
+            "conflictoplossing",
+            "preventie",
+            "ordehandhaving",
+            "veiligheid"
+          ]
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel het principe van rechtspraak aan wat het betekent.",
+          "paren": [
+            [
+              "hoor en wederhoor",
+              "elke partij kan haar verhaal doen en reageren"
+            ],
+            [
+              "vermoeden van onschuld",
+              "je bent onschuldig tot je schuld bewezen is"
+            ],
+            [
+              "openbaarheid",
+              "zittingen zijn in principe toegankelijk voor iedereen"
+            ],
+            [
+              "onafhankelijkheid",
+              "de rechter krijgt geen bevelen van de regering"
+            ]
+          ],
+          "extra": [
+            "de rechter maakt zelf de wetten"
+          ],
+          "uitleg": "De vier principes van een eerlijke rechtspraak."
+        },
+        {
+          "casus": "Sem (17) slaat bij een ruzie een andere jongen, Jens, zwaar in elkaar. Jens moet een week naar het ziekenhuis. Een krant schrijft al de dag nadien dat Sem 'de dader' is, met zijn foto erbij. Het parket opent een dossier.",
+          "vragen": [
+            {
+              "type": "keuzelijst",
+              "vraag": "Omdat Sem minderjarig is, komt hij in principe voor de [[*jeugdrechtbank|politierechtbank|arbeidsrechtbank]].",
+              "uitleg": "Minderjarigen komen in principe voor de jeugdrechtbank, die vooral kiest voor maatregelen die opvoeden en herstellen."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Bij zware feiten kan de jeugdrechter Sem doorsturen naar een gewone rechtbank. Hoe heet dat?",
+              "opties": [
+                "uithandengeving",
+                "voorwaardelijke invrijheidstelling",
+                "cassatie",
+                "openbaarheid"
+              ],
+              "antwoord": 0,
+              "uitleg": "Uithandengeving kan vanaf 16 jaar bij zware feiten."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "Het krantenartikel zet vooral het [[*vermoeden van onschuld|principe van openbaarheid|recht op een advocaat]] onder druk.",
+              "uitleg": "Dat noem je trial by media: de media stellen iemand al schuldig voor."
+            },
+            {
+              "type": "tabel",
+              "vraag": "Klopt dit over de zaak?",
+              "rijen": [
+                "Jens kan naast de strafzaak een schadevergoeding vragen.",
+                "Het parket beslist zelf over de straf van Sem.",
+                "Eén feit kan zowel een strafzaak als een burgerlijke zaak opleveren."
+              ],
+              "antwoord": [
+                true,
+                false,
+                true
+              ],
+              "uitleg": "Het parket vervolgt, maar de rechter beslist. De schadevergoeding is burgerlijk."
+            }
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit?",
+          "rijen": [
+            "Een werkstraf en een enkelband zijn alternatieve straffen.",
+            "Na de verjaringstermijn kan een misdrijf niet meer vervolgd worden.",
+            "Het vredegerecht behandelt de zwaarste misdaden.",
+            "Het openbaar ministerie verdedigt de verdachte."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            false
+          ],
+          "uitleg": "Het vredegerecht behandelt kleinere burgerlijke zaken. De advocaat verdedigt, het openbaar ministerie vervolgt."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Wie doet wat in een strafzaak?",
+          "kolommen": [
+            "Openbaar ministerie",
+            "Advocaat",
+            "Rechter"
+          ],
+          "items": [
+            [
+              "vervolgt de verdachte in naam van de samenleving",
+              "Openbaar ministerie"
+            ],
+            [
+              "verdedigt de belangen van de cliënt",
+              "Advocaat"
+            ],
+            [
+              "spreekt het vonnis uit",
+              "Rechter"
+            ],
+            [
+              "vraagt een straf",
+              "Openbaar ministerie"
+            ],
+            [
+              "zoekt argumenten voor vrijspraak",
+              "Advocaat"
+            ],
+            [
+              "beslist onafhankelijk volgens de wet",
+              "Rechter"
+            ]
+          ],
+          "uitleg": "Het parket vervolgt, de advocaat verdedigt en de rechter beslist."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een rechter moet oordelen over een zaak van zijn schoonbroer. Wat moet hij doen?",
+          "opties": [
+            "zich laten vervangen door een andere rechter",
+            "de zaak zelf behandelen maar extra streng zijn",
+            "de zaak met gesloten deuren behandelen",
+            "de minister van Justitie om raad vragen over het vonnis"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een rechter mag geen persoonlijk belang hebben in een zaak. Daarom laat hij zich vervangen."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een veroordeelde wil met een enkelband vroeger naar huis. Daarover beslist de [[*strafuitvoeringsrechtbank|vrederechter|ondernemingsrechtbank]].",
+          "uitleg": "De strafuitvoeringsrechtbank beslist hoe een langere straf uitgevoerd wordt."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet de stappen van een strafzaak in een logische volgorde.",
+          "opties": [
+            "de politie stelt een misdrijf vast",
+            "het parket onderzoekt het dossier en vervolgt",
+            "de rechter hoort beide partijen",
+            "de rechter spreekt een vonnis uit",
+            "wie het niet eens is, kan in beroep gaan"
+          ],
+          "uitleg": "Vaststellen, vervolgen, hoor en wederhoor, vonnis en eventueel beroep."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "Een zitting gebeurt soms met [[gesloten]] deuren, bijvoorbeeld om [[minderjarigen]] te beschermen. Normaal geldt het principe van [[openbaarheid]].",
+          "extra": [
+            "verjaring",
+            "cassatie"
+          ],
+          "uitleg": "Openbaarheid zorgt voor controle op de rechters, met uitzonderingen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom is een onafhankelijke rechtspraak belangrijk voor een burger die de overheid aanklaagt?",
+          "opties": [
+            "de rechter staat los van de regering en oordeelt eerlijk",
+            "de rechter moet de regering altijd gelijk geven",
+            "de burger mag dan zelf zijn rechter uitkiezen",
+            "de zaak gaat dan meteen en zonder beroep naar het Hof van Cassatie"
+          ],
+          "antwoord": 0,
+          "uitleg": "Omdat rechters los staan van de regering, kan zelfs de overheid voor de rechter verliezen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is dit een argument in het debat over de volksjury bij het hof van assisen?",
+          "rijen": [
+            "Burgers krijgen zo een stem in de rechtspraak.",
+            "Leken kunnen sterker beïnvloed worden door emoties of de media.",
+            "De volksjury beslist over verkeersboetes."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false
+          ],
+          "uitleg": "Er is een maatschappelijk debat over het afschaffen van de volksjury. Verkeersboetes horen bij de politierechtbank."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel lagen telt de gerechtelijke piramide op deze prent?",
+          "antwoord": [
+            "4",
+            "vier"
+          ],
+          "uitleg": "Onderaan vredegerecht en politierechtbank, dan de rechtbanken van eerste aanleg, dan de hoven, en bovenaan het Hof van Cassatie."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een vijftienjarige pleegt een diefstal. In welk vak van de piramide zit de rechtbank die de zaak in principe behandelt?",
+          "opties": [
+            "rechtbank van eerste aanleg",
+            "politierechtbank",
+            "hof van assisen",
+            "het vredegerecht van de woonplaats"
+          ],
+          "antwoord": 0,
+          "uitleg": "De jeugdrechtbank is een afdeling van de rechtbank van eerste aanleg.",
+          "afbeelding_url": "/examenvormen/sgw-beyond/gerechtelijke-piramide.svg"
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een wanbedrijf zoals diefstal komt voor de [[*correctionele rechtbank|vrederechter|arbeidsrechtbank]]. Wie in beroep gaat tegen een vonnis van de arbeidsrechtbank, gaat naar het [[*arbeidshof|hof van assisen|Hof van Cassatie]].",
+          "uitleg": "De correctionele rechtbank is een afdeling van de rechtbank van eerste aanleg. Boven de arbeidsrechtbank staat het arbeidshof.",
+          "afbeelding_url": "/examenvormen/sgw-beyond/gerechtelijke-piramide.svg"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een verdachte wordt veroordeeld zonder dat hij of zijn advocaat iets mocht zeggen. Welk principe wordt geschonden?",
+          "opties": [
+            "hoor en wederhoor",
+            "verjaring",
+            "openbaarheid van de zitting",
+            "preventie"
+          ],
+          "antwoord": 0,
+          "uitleg": "Elke partij moet de argumenten van de andere kunnen horen en beantwoorden."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een grotere burgerlijke zaak komt in eerste aanleg voor de [[*burgerlijke rechtbank|politierechtbank|strafuitvoeringsrechtbank]]. Kleinere geschillen gaan naar de [[*vrederechter|correctionele rechtbank|jeugdrechtbank]].",
+          "uitleg": "De burgerlijke rechtbank is een afdeling van de rechtbank van eerste aanleg."
+        },
+        {
+          "type": "open",
+          "vraag": "Leg met een voorbeeld uit waarom één feit zowel een strafzaak als een burgerlijke zaak kan opleveren.",
+          "antwoord": "Wie iemand in elkaar slaat, pleegt een misdrijf. Het openbaar ministerie kan de dader vervolgen en de rechter kan een straf opleggen: dat is strafrecht. Het slachtoffer heeft ook schade, zoals ziekenhuiskosten. Daarvoor kan het een schadevergoeding vragen van de dader: dat is burgerlijk recht. Het eerste beschermt de samenleving, het tweede herstelt de schade van het slachtoffer."
+        }
+      ]
+    },
+    {
+      "titel": "Humane wetenschappen: globalisering, de VN en de Europese Unie — pittig",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de Europese Commissie.",
+          "afbeelding_url": "/examenvormen/sgw-beyond/eu-wetgeving.svg",
+          "zones": [
+            [
+              33.0,
+              35.9,
+              34.0,
+              15.6
+            ]
+          ],
+          "uitleg": "De Commissie heeft het initiatiefrecht: ze stelt nieuwe Europese wetten voor en voert het beleid uit."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op het Europees Parlement.",
+          "afbeelding_url": "/examenvormen/sgw-beyond/eu-wetgeving.svg",
+          "zones": [
+            [
+              6.0,
+              60.9,
+              34.0,
+              15.6
+            ]
+          ],
+          "uitleg": "Het Europees Parlement is de enige EU-instelling die rechtstreeks door de burgers gekozen wordt."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de Raad van de Europese Unie.",
+          "afbeelding_url": "/examenvormen/sgw-beyond/eu-wetgeving.svg",
+          "zones": [
+            [
+              60.0,
+              60.9,
+              34.0,
+              15.6
+            ]
+          ],
+          "uitleg": "In de Raad van de EU zitten de vakministers van de lidstaten."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de instelling die geen wetten maakt, maar de prioriteiten van de EU bepaalt.",
+          "afbeelding_url": "/examenvormen/sgw-beyond/eu-wetgeving.svg",
+          "zones": [
+            [
+              29.0,
+              10.9,
+              42.0,
+              15.6
+            ]
+          ],
+          "uitleg": "De Europese Raad met de staatshoofden en regeringsleiders bepaalt de grote lijnen."
+        },
+        {
+          "type": "hotspot",
+          "vraag": "Klik op de instelling die vooral de belangen van de lidstaten vertegenwoordigt bij het goedkeuren van wetten.",
+          "afbeelding_url": "/examenvormen/sgw-beyond/eu-wetgeving.svg",
+          "zones": [
+            [
+              60.0,
+              60.9,
+              34.0,
+              15.6
+            ]
+          ],
+          "uitleg": "In de Raad van de EU zitten de ministers van de lidstaten. Het Parlement vertegenwoordigt de burgers."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een Europese wet komt er pas als [[*C en D|A en B|B en C]] allebei akkoord gaan.",
+          "uitleg": "Bij de gewone wetgevingsprocedure beslissen het Parlement en de Raad van de EU samen.",
+          "afbeelding_url": "/examenvormen/sgw-beyond/eu-wetgeving.svg"
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Vak A is de [[*Europese Raad|Raad van de Europese Unie|Europese Commissie]]. Vak D is de [[*Raad van de Europese Unie|Europese Raad|Europese Commissie]].",
+          "uitleg": "Ze lijken op elkaar qua naam, maar de Europese Raad bestaat uit de regeringsleiders en de Raad van de EU uit de vakministers.",
+          "afbeelding_url": "/examenvormen/sgw-beyond/eu-wetgeving.svg"
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet de stappen van een Europese wet over verpakkingen in een logische volgorde.",
+          "opties": [
+            "de regeringsleiders maken van milieu een prioriteit",
+            "de Commissie stelt een nieuwe regel voor",
+            "het Parlement en de Raad van de EU keuren de regel goed",
+            "de regel geldt in de lidstaten"
+          ],
+          "uitleg": "Eerst de richting, dan het voorstel, dan de beslissing en dan de toepassing.",
+          "afbeelding_url": "/examenvormen/sgw-beyond/eu-wetgeving.svg"
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel de organisatie aan haar opdracht.",
+          "paren": [
+            [
+              "Verenigde Naties",
+              "vrede en veiligheid in de wereld bewaren"
+            ],
+            [
+              "NAVO",
+              "militair bondgenootschap dat de leden samen verdedigt"
+            ],
+            [
+              "WHO",
+              "de gezondheid van mensen wereldwijd bevorderen"
+            ],
+            [
+              "Internationaal Strafhof",
+              "personen berechten voor genocide en oorlogsmisdaden"
+            ],
+            [
+              "Europees Hof van de Rechten van de Mens",
+              "oordelen over staten die mensenrechten schenden"
+            ]
+          ],
+          "extra": [
+            "Europese wetten voorstellen"
+          ],
+          "uitleg": "Elke organisatie met haar kernopdracht."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is dit een instelling van de Europese Unie?",
+          "rijen": [
+            "het Europees Parlement",
+            "de Veiligheidsraad",
+            "de Europese Commissie",
+            "het Internationaal Strafhof"
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "De Veiligheidsraad hoort bij de VN. Het Internationaal Strafhof is geen instelling van de EU."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Is dit een verordening of een richtlijn?",
+          "rijen": [
+            "Een regel geldt meteen en op dezelfde manier in alle lidstaten.",
+            "Europa legt een doel vast en elk land kiest zelf hoe het dat bereikt.",
+            "Vlaanderen moet een Europees doel voor fijn stof omzetten in eigen maatregelen."
+          ],
+          "antwoord": [
+            0,
+            1,
+            1
+          ],
+          "uitleg": "Een verordening is meteen bindend, een richtlijn moet worden omgezet.",
+          "kolommen": [
+            "verordening",
+            "richtlijn"
+          ]
+        },
+        {
+          "casus": "Lena zit in een Belgische gevangenis. Haar cel is zo overvol dat ze op een matras op de grond slaapt. Ze stapte naar de Belgische rechter, maar kreeg geen gelijk. Op het nieuws hoort ze ook over een legerleider die van genocide beschuldigd wordt en die in zijn eigen land niet vervolgd wordt.",
+          "vragen": [
+            {
+              "type": "meerkeuze",
+              "vraag": "Waar kan Lena nog klagen?",
+              "opties": [
+                "bij het Europees Hof van de Rechten van de Mens",
+                "bij de Navo-top in Brussel",
+                "bij het Internationaal Strafhof",
+                "bij de Wereldgezondheidsorganisatie"
+              ],
+              "antwoord": 0,
+              "uitleg": "Een burger die in eigen land geen gelijk kreeg, kan er klagen tegen een staat die zijn mensenrechten schond."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "Dat Europese hof zetelt in [[*Straatsburg|Den Haag|New York]] en oordeelt over [[*staten|personen]].",
+              "uitleg": "Het Europees Hof van de Rechten van de Mens oordeelt in Straatsburg over staten."
+            },
+            {
+              "type": "keuzelijst",
+              "vraag": "De legerleider kan berecht worden door het [[*Internationaal Strafhof|Europees Hof van de Rechten van de Mens|Hof van Cassatie]] in Den Haag.",
+              "uitleg": "Het Internationaal Strafhof berecht personen, ook leiders, voor de zwaarste misdaden."
+            },
+            {
+              "type": "tabel",
+              "vraag": "Klopt dit over de twee hoven?",
+              "rijen": [
+                "Het Europees Hof van de Rechten van de Mens en het Internationaal Strafhof zijn hetzelfde.",
+                "Het Internationaal Strafhof berecht personen.",
+                "Het Europees Hof kan oordelen dat België een verdrag schond."
+              ],
+              "antwoord": [
+                false,
+                true,
+                true
+              ],
+              "uitleg": "Het ene hof oordeelt over staten, het andere berecht personen."
+            }
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over internationale organisaties?",
+          "rijen": [
+            "België is lid van de NAVO sinds de oprichting in 1949.",
+            "De VN werden opgericht na de Eerste Wereldoorlog.",
+            "De WHO is een organisatie van de VN.",
+            "De G7 is een militair bondgenootschap."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "De VN ontstonden in 1945, na de Tweede Wereldoorlog. De G7 is een overleg van zeven rijke landen."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een organisatie boven de landen, waaraan landen een deel van hun macht afstaan, is [[*supranationaal|nationaal|lokaal]].",
+          "uitleg": "Supra betekent boven."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom staan landen een deel van hun macht af aan een supranationale organisatie?",
+          "opties": [
+            "samen hebben ze meer slagkracht bij grensoverschrijdende problemen",
+            "ze willen hun eigen parlement en hun eigen regering helemaal afschaffen",
+            "ze zijn wettelijk verplicht om lid te worden van elke organisatie",
+            "ze moeten dan zelf geen enkele gemeenschappelijke regel meer volgen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Samenwerken helpt bij vrede, handel, gezondheid of klimaat. In ruil aanvaarden landen gemeenschappelijke regels."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Op welk niveau gebeurt deze actie rond klimaat?",
+          "kolommen": [
+            "Mondiaal of Europees",
+            "Lokaal"
+          ],
+          "items": [
+            [
+              "landen maken afspraken over de uitstoot van de hele wereld",
+              "Mondiaal of Europees"
+            ],
+            [
+              "een gemeente legt nieuwe fietspaden aan",
+              "Lokaal"
+            ],
+            [
+              "de EU legt een doel vast voor fijn stof",
+              "Mondiaal of Europees"
+            ],
+            [
+              "een stad isoleert haar scholen",
+              "Lokaal"
+            ]
+          ],
+          "uitleg": "Het mondiale en het lokale niveau hangen samen: een gemeente kan mee een mondiaal probleem aanpakken."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een partij besmet vlees wordt in tien landen verkocht. Waarom is een Europese aanpak hier nodig?",
+          "opties": [
+            "voedsel wordt over heel Europa verhandeld",
+            "enkel de VN mag regels maken over voedsel en over landbouw",
+            "elk land mag zelf kiezen of het de gezondheid van zijn burgers beschermt",
+            "de NAVO moet de grenzen van al die landen militair afsluiten"
+          ],
+          "antwoord": 0,
+          "uitleg": "Daarom zijn er Europese regels en een waarschuwingssysteem voor voedselveiligheid."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Europees recht gaat [[*voor op|achter]] nationaal recht. Een Belgische rechter moet een Belgische regel die ermee in strijd is [[*buiten toepassing laten|altijd strenger toepassen]].",
+          "uitleg": "Daarom heeft Europese wetgeving een grote invloed op de politiek in België."
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "De Europese verkiezingen vinden om de [[vijf]] jaar plaats. Grotere landen hebben [[meer]] zetels. Elke lidstaat levert één [[commissaris]], die het belang van heel de EU moet dienen.",
+          "extra": [
+            "minder",
+            "twee"
+          ],
+          "uitleg": "Het Parlement vertegenwoordigt de burgers, de Commissie het algemeen Europees belang."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welk thema vraagt hier vooral een aanpak over de grenzen heen?",
+          "rijen": [
+            "Een virus verspreidt zich met reizigers over de hele wereld.",
+            "Mensen op de vlucht reizen door verschillende landen.",
+            "Uitstoot in één land verwarmt de hele aarde."
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Eén land alleen kan deze problemen niet oplossen.",
+          "kolommen": [
+            "gezondheid",
+            "migratie",
+            "klimaat"
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een Europees land wordt bedreigd door een buurland buiten de EU. Via welke organisatie loopt de gezamenlijke militaire verdediging vooral?",
+          "opties": [
+            "de NAVO",
+            "de WHO",
+            "de G7",
+            "de Europese Commissie"
+          ],
+          "antwoord": 0,
+          "uitleg": "De EU werkt ook rond veiligheid, maar de gezamenlijke militaire verdediging van de meeste Europese landen loopt via de NAVO."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Tijdens de coronapandemie gaf de [[*WHO|NAVO|G7]] advies en richtlijnen aan de landen.",
+          "uitleg": "De WHO is de Wereldgezondheidsorganisatie van de VN."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Het hoofdkwartier van de NAVO ligt in [[*Brussel|Den Haag|Straatsburg]]. Het Europees Parlement vergadert in Brussel en [[*Straatsburg|Genève|Luxemburg]].",
+          "uitleg": "De meeste EU-instellingen zetelen in Brussel. Het Parlement vergadert ook in Straatsburg."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over het schema?",
+          "rijen": [
+            "Vak A maakt zelf de Europese wetten.",
+            "Vak B heeft het recht om wetten voor te stellen.",
+            "De leden van vak C worden door de regeringen aangeduid.",
+            "Via vak C spreken de burgers mee, via vak D de lidstaten."
+          ],
+          "antwoord": [
+            false,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "De Europese Raad maakt geen wetten. Het Parlement wordt rechtstreeks gekozen.",
+          "afbeelding_url": "/examenvormen/sgw-beyond/eu-wetgeving.svg"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke omschrijving past bij de G7?",
+          "opties": [
+            "een overleg van zeven rijke landen",
+            "een rechtbank voor oorlogsmisdaden",
+            "een afdeling van de NAVO",
+            "een instelling van de Europese Unie"
+          ],
+          "antwoord": 0,
+          "uitleg": "De G7 zijn de Verenigde Staten, Canada, Japan, Duitsland, Frankrijk, Italië en het Verenigd Koninkrijk. De EU zit mee aan tafel."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "In de NAVO geldt dat een aanval op één lid geldt als een aanval op [[*alle leden|enkel de grootste leden|niemand]].",
+          "uitleg": "De leden beloven elkaar te verdedigen."
+        },
+        {
+          "type": "open",
+          "vraag": "Leg uit hoe Europese wetgeving invloed heeft op de politiek in België. Gebruik het verschil tussen een verordening en een richtlijn en geef een voorbeeld.",
+          "antwoord": "Een Europese verordening geldt meteen en op dezelfde manier in alle lidstaten, ook in België. Een richtlijn legt een doel vast, en elk land moet dat zelf in zijn wetten of decreten omzetten. Zo legt Europa bijvoorbeeld een grens vast voor fijn stof, waarna Vlaanderen en de steden maatregelen moeten nemen. Europees recht gaat ook voor op Belgisch recht: een rechter moet een Belgische regel die ermee in strijd is, buiten toepassing laten."
+        }
+      ]
+    },
+    {
       "titel": "Socialisatie: posities, rollen en vier visies — pittig",
       "niveau": "beyond-doorstroom",
       "gratis": false,

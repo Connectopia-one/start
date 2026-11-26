@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">De sociaal-economische links-rechtsas (vereenvoudigd)</text>
+<line x1="80" y1="300" x2="920" y2="300" stroke="#24331b" stroke-width="4"/>
+<polygon points="920,300 905.3,306.2 905.3,293.8" fill="#24331b"/>
+<line x1="920" y1="300" x2="80" y2="300" stroke="#24331b" stroke-width="4"/>
+<polygon points="80,300 94.7,293.8 94.7,306.2" fill="#24331b"/>
+<text x="90" y="250" font-size="24" text-anchor="start" fill="#24331b" font-weight="bold">links</text>
+<text x="910" y="250" font-size="24" text-anchor="end" fill="#24331b" font-weight="bold">rechts</text>
+<text x="90" y="380" font-size="18" text-anchor="start" fill="#24331b">meer herverdeling,</text>
+<text x="90" y="404" font-size="18" text-anchor="start" fill="#24331b">sterke overheid</text>
+<text x="910" y="380" font-size="18" text-anchor="end" fill="#24331b">meer vrije markt,</text>
+<text x="910" y="404" font-size="18" text-anchor="end" fill="#24331b">minder belastingen</text>
+<rect x="200" y="250" width="140" height="100" rx="12" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<circle cx="270" cy="300" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="270" y="307" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">A</text>
+<rect x="430" y="250" width="140" height="100" rx="12" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<circle cx="500" cy="300" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="500" y="307" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">B</text>
+<rect x="660" y="250" width="140" height="100" rx="12" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<circle cx="730" cy="300" r="20" fill="#ffffff" stroke="#24331b" stroke-width="2"/>
+<text x="730" y="307" font-size="20" text-anchor="middle" fill="#24331b" font-weight="bold">C</text>
+<text x="500" y="520" font-size="17" text-anchor="middle" fill="#24331b">Een partij kan per thema anders staan. De as is een vereenvoudiging.</text>
+</svg>

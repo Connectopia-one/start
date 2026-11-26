@@ -30,6 +30,14 @@ THEMAS = [
     ("opvoeding", "Opvoeden: milieus, dimensies, stijlen en middelen"),
     ("pedmodellen", "Pedagogische modellen en opvoeden in bijzondere contexten"),
     ("communicatie", "Communicatieve vaardigheden: kaders en gesprekstechnieken"),
+    # Enkel humane wetenschappen (Kim, 26 november 2026); dezelfde titels als
+    # in beyond/bron/bouw_sgw.py.
+    ("hw_democratie", "Humane wetenschappen: politiek, democratie en de rechtstaat"),
+    ("hw_belgie", "Humane wetenschappen: de Belgische staat en zijn bestuursniveaus"),
+    ("hw_partijen", "Humane wetenschappen: ideologieën, partijen en verkiezingen"),
+    ("hw_participatie", "Humane wetenschappen: participatie, kiesstelsel en kiesrecht"),
+    ("hw_recht", "Humane wetenschappen: het recht in de samenleving"),
+    ("hw_globalisering", "Humane wetenschappen: globalisering, de VN en de Europese Unie"),
     ("socialisatie", "Socialisatie: posities, rollen en vier visies"),
     ("stratificatie", "Sociale stratificatie en de verklaringsmodellen"),
     ("mobiliteit", "Sociale mobiliteit, meritocratie en het matheüseffect"),

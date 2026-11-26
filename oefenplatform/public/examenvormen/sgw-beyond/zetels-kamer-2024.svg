@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">Zetels in de Kamer na de verkiezingen van 9 juni 2024 (150 zetels)</text>
+<rect x="70" y="128" width="55" height="432" rx="4" fill="#a8c98a" stroke="#24331b" stroke-width="2"/>
+<text x="97" y="118" font-size="18" text-anchor="middle" fill="#24331b" font-weight="bold">24</text>
+<text x="100" y="578" font-size="15" text-anchor="end" fill="#24331b" transform="rotate(-35 100 578)">N-VA</text>
+<rect x="145" y="200" width="55" height="360" rx="4" fill="#a8c98a" stroke="#24331b" stroke-width="2"/>
+<text x="172" y="190" font-size="18" text-anchor="middle" fill="#24331b" font-weight="bold">20</text>
+<text x="175" y="578" font-size="15" text-anchor="end" fill="#24331b" transform="rotate(-35 175 578)">Vlaams Belang</text>
+<rect x="220" y="200" width="55" height="360" rx="4" fill="#f1d9b5" stroke="#24331b" stroke-width="2"/>
+<text x="247" y="190" font-size="18" text-anchor="middle" fill="#24331b" font-weight="bold">20</text>
+<text x="250" y="578" font-size="15" text-anchor="end" fill="#24331b" transform="rotate(-35 250 578)">MR</text>
+<rect x="295" y="272" width="55" height="288" rx="4" fill="#f1d9b5" stroke="#24331b" stroke-width="2"/>
+<text x="322" y="262" font-size="18" text-anchor="middle" fill="#24331b" font-weight="bold">16</text>
+<text x="325" y="578" font-size="15" text-anchor="end" fill="#24331b" transform="rotate(-35 325 578)">PS</text>
+<rect x="370" y="290" width="55" height="270" rx="4" fill="#d9d4c4" stroke="#24331b" stroke-width="2"/>
+<text x="397" y="280" font-size="18" text-anchor="middle" fill="#24331b" font-weight="bold">15</text>
+<text x="400" y="578" font-size="15" text-anchor="end" fill="#24331b" transform="rotate(-35 400 578)">PVDA-PTB</text>
+<rect x="445" y="308" width="55" height="252" rx="4" fill="#f1d9b5" stroke="#24331b" stroke-width="2"/>
+<text x="472" y="298" font-size="18" text-anchor="middle" fill="#24331b" font-weight="bold">14</text>
+<text x="475" y="578" font-size="15" text-anchor="end" fill="#24331b" transform="rotate(-35 475 578)">Les Engagés</text>
+<rect x="520" y="326" width="55" height="234" rx="4" fill="#a8c98a" stroke="#24331b" stroke-width="2"/>
+<text x="547" y="316" font-size="18" text-anchor="middle" fill="#24331b" font-weight="bold">13</text>
+<text x="550" y="578" font-size="15" text-anchor="end" fill="#24331b" transform="rotate(-35 550 578)">Vooruit</text>
+<rect x="595" y="362" width="55" height="198" rx="4" fill="#a8c98a" stroke="#24331b" stroke-width="2"/>
+<text x="622" y="352" font-size="18" text-anchor="middle" fill="#24331b" font-weight="bold">11</text>
+<text x="625" y="578" font-size="15" text-anchor="end" fill="#24331b" transform="rotate(-35 625 578)">cd&amp;v</text>
+<rect x="670" y="434" width="55" height="126" rx="4" fill="#a8c98a" stroke="#24331b" stroke-width="2"/>
+<text x="697" y="424" font-size="18" text-anchor="middle" fill="#24331b" font-weight="bold">7</text>
+<text x="700" y="578" font-size="15" text-anchor="end" fill="#24331b" transform="rotate(-35 700 578)">Open Vld</text>
+<rect x="745" y="452" width="55" height="108" rx="4" fill="#a8c98a" stroke="#24331b" stroke-width="2"/>
+<text x="772" y="442" font-size="18" text-anchor="middle" fill="#24331b" font-weight="bold">6</text>
+<text x="775" y="578" font-size="15" text-anchor="end" fill="#24331b" transform="rotate(-35 775 578)">Groen</text>
+<rect x="820" y="506" width="55" height="54" rx="4" fill="#f1d9b5" stroke="#24331b" stroke-width="2"/>
+<text x="847" y="496" font-size="18" text-anchor="middle" fill="#24331b" font-weight="bold">3</text>
+<text x="850" y="578" font-size="15" text-anchor="end" fill="#24331b" transform="rotate(-35 850 578)">Ecolo</text>
+<rect x="895" y="542" width="55" height="18" rx="4" fill="#f1d9b5" stroke="#24331b" stroke-width="2"/>
+<text x="922" y="532" font-size="18" text-anchor="middle" fill="#24331b" font-weight="bold">1</text>
+<text x="925" y="578" font-size="15" text-anchor="end" fill="#24331b" transform="rotate(-35 925 578)">DéFI</text>
+<line x1="60" y1="560" x2="960" y2="560" stroke="#24331b" stroke-width="2"/>
+<rect x="650" y="70" width="24" height="18" rx="3" fill="#a8c98a" stroke="#24331b" stroke-width="1"/>
+<text x="682" y="85" font-size="16" text-anchor="start" fill="#24331b">Nederlandstalig</text>
+<rect x="800" y="70" width="24" height="18" rx="3" fill="#f1d9b5" stroke="#24331b" stroke-width="1"/>
+<text x="832" y="85" font-size="16" text-anchor="start" fill="#24331b">Franstalig</text>
+<rect x="650" y="98" width="24" height="18" rx="3" fill="#d9d4c4" stroke="#24331b" stroke-width="1"/>
+<text x="682" y="113" font-size="16" text-anchor="start" fill="#24331b">nationale partij</text>
+</svg>

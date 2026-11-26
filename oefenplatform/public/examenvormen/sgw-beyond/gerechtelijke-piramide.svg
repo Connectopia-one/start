@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Arial, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#24331b" font-weight="bold">De gerechtelijke piramide (vereenvoudigd)</text>
+<path d="M 500 70 L 950 610 L 50 610 Z" fill="#f6f8f2" stroke="#24331b" stroke-width="3"/>
+<line x1="400.0" y1="190" x2="600.0" y2="190" stroke="#24331b" stroke-width="2"/>
+<line x1="283.33333333333337" y1="330" x2="716.6666666666666" y2="330" stroke="#24331b" stroke-width="2"/>
+<line x1="166.66666666666669" y1="470" x2="833.3333333333333" y2="470" stroke="#24331b" stroke-width="2"/>
+<rect x="420" y="120" width="160" height="60" rx="10" fill="#a8c98a" stroke="#24331b" stroke-width="2"/>
+<text x="500.0" y="145.0" font-size="18" text-anchor="middle" fill="#24331b" font-weight="bold">Hof van</text>
+<text x="500.0" y="167.0" font-size="18" text-anchor="middle" fill="#24331b" font-weight="bold">Cassatie</text>
+<rect x="280" y="220" width="140" height="90" rx="10" fill="#a8c98a" stroke="#24331b" stroke-width="2"/>
+<text x="350.0" y="260.0" font-size="18" text-anchor="middle" fill="#24331b" font-weight="bold">hof van</text>
+<text x="350.0" y="282.0" font-size="18" text-anchor="middle" fill="#24331b" font-weight="bold">beroep</text>
+<rect x="430" y="220" width="140" height="90" rx="10" fill="#a8c98a" stroke="#24331b" stroke-width="2"/>
+<text x="500.0" y="271.0" font-size="18" text-anchor="middle" fill="#24331b" font-weight="bold">arbeidshof</text>
+<rect x="580" y="220" width="140" height="90" rx="10" fill="#a8c98a" stroke="#24331b" stroke-width="2"/>
+<text x="650.0" y="260.0" font-size="18" text-anchor="middle" fill="#24331b" font-weight="bold">hof van</text>
+<text x="650.0" y="282.0" font-size="18" text-anchor="middle" fill="#24331b" font-weight="bold">assisen</text>
+<rect x="170" y="350" width="260" height="105" rx="10" fill="#a8c98a" stroke="#24331b" stroke-width="2"/>
+<text x="300.0" y="389.5" font-size="18" text-anchor="middle" fill="#24331b" font-weight="bold">rechtbank van</text>
+<text x="300.0" y="411.5" font-size="18" text-anchor="middle" fill="#24331b" font-weight="bold">eerste aanleg</text>
+<text x="300.0" y="443" font-size="13" text-anchor="middle" fill="#24331b">burgerlijk · correctioneel · familie · jeugd</text>
+<rect x="440" y="350" width="160" height="105" rx="10" fill="#a8c98a" stroke="#24331b" stroke-width="2"/>
+<text x="520.0" y="397.5" font-size="18" text-anchor="middle" fill="#24331b" font-weight="bold">arbeids-</text>
+<text x="520.0" y="419.5" font-size="18" text-anchor="middle" fill="#24331b" font-weight="bold">rechtbank</text>
+<rect x="610" y="350" width="210" height="105" rx="10" fill="#a8c98a" stroke="#24331b" stroke-width="2"/>
+<text x="715.0" y="397.5" font-size="18" text-anchor="middle" fill="#24331b" font-weight="bold">ondernemings-</text>
+<text x="715.0" y="419.5" font-size="18" text-anchor="middle" fill="#24331b" font-weight="bold">rechtbank</text>
+<rect x="200" y="495" width="270" height="90" rx="10" fill="#a8c98a" stroke="#24331b" stroke-width="2"/>
+<text x="335.0" y="546.0" font-size="18" text-anchor="middle" fill="#24331b" font-weight="bold">vredegerecht</text>
+<rect x="530" y="495" width="270" height="90" rx="10" fill="#a8c98a" stroke="#24331b" stroke-width="2"/>
+<text x="665.0" y="546.0" font-size="18" text-anchor="middle" fill="#24331b" font-weight="bold">politierechtbank</text>
+</svg>
