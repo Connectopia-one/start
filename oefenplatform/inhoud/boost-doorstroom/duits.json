@@ -1,0 +1,5252 @@
+{
+  "hoofdstukken": [
+    {
+      "titel": "Een Duitse tekst lezen — deel 1",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Jeden ersten Samstag im Monat gibt es auf dem Marktplatz in Aachen einen Flohmarkt. Dort kann man alte Kleidung, Bücher und Spielzeug kaufen. Die Sachen sind billig und man wirft weniger weg. Der Markt beginnt um 8 Uhr und endet um 14 Uhr.\n\nWaarover gaat de tekst?",
+          "opties": [
+            "een tweedehandsmarkt",
+            "een nieuwe winkel in Aken",
+            "een kledingwinkel met dure merken",
+            "het weer in Aken"
+          ],
+          "antwoord": 0,
+          "uitleg": "Flohmarkt is een rommelmarkt: je koopt er tweedehandse spullen. Het onderwerp zeg je in een paar woorden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Jeden ersten Samstag im Monat gibt es auf dem Marktplatz in Aachen einen Flohmarkt. Dort kann man alte Kleidung, Bücher und Spielzeug kaufen. Die Sachen sind billig und man wirft weniger weg. Der Markt beginnt um 8 Uhr und endet um 14 Uhr.\n\nWat is de hoofdgedachte?",
+          "opties": [
+            "op de rommelmarkt koop je goedkoop en gooi je minder weg",
+            "de markt begint elke zaterdag al heel vroeg in de ochtend",
+            "in Aken zijn er veel boekenwinkels",
+            "speelgoed is altijd duur"
+          ],
+          "antwoord": 0,
+          "uitleg": "De hoofdgedachte is de belangrijkste boodschap in één zin: Die Sachen sind billig und man wirft weniger weg."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Jeden ersten Samstag im Monat gibt es auf dem Marktplatz in Aachen einen Flohmarkt. Dort kann man alte Kleidung, Bücher und Spielzeug kaufen. Die Sachen sind billig und man wirft weniger weg. Der Markt beginnt um 8 Uhr und endet um 14 Uhr.\n\nOm hoe laat eindigt de markt? Schrijf het uur als getal.",
+          "antwoord": [
+            "14",
+            "14 uur",
+            "14u",
+            "14 Uhr"
+          ],
+          "uitleg": "Der Markt ... endet um 14 Uhr. Enden betekent eindigen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Jeden ersten Samstag im Monat gibt es auf dem Marktplatz in Aachen einen Flohmarkt. Dort kann man alte Kleidung, Bücher und Spielzeug kaufen. Die Sachen sind billig und man wirft weniger weg. Der Markt beginnt um 8 Uhr und endet um 14 Uhr.\n\nDe rommelmarkt is één keer per maand.",
+          "antwoord": true,
+          "uitleg": "Jeden ersten Samstag im Monat: elke eerste zaterdag van de maand."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hallo, ich heiße Lena und ich bin 15 Jahre alt. Ich wohne mit meiner Mutter und meinem kleinen Bruder in Köln. Mein Vater wohnt in Bonn. Ich besuche ihn jedes Wochenende. In meiner Freizeit spiele ich Volleyball und ich lese gern.\n\nBij wie woont Lena?",
+          "opties": [
+            "bij haar moeder en haar broertje",
+            "bij haar vader en zijn nieuwe vrouw in Bonn",
+            "alleen",
+            "bij haar grootouders"
+          ],
+          "antwoord": 0,
+          "uitleg": "Ich wohne mit meiner Mutter und meinem kleinen Bruder in Köln."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Hallo, ich heiße Lena und ich bin 15 Jahre alt. Ich wohne mit meiner Mutter und meinem kleinen Bruder in Köln. Mein Vater wohnt in Bonn. Ich besuche ihn jedes Wochenende. In meiner Freizeit spiele ich Volleyball und ich lese gern.\n\nLena ziet haar vader elk weekend.",
+          "antwoord": true,
+          "uitleg": "Ich besuche ihn jedes Wochenende. Ihn verwijst naar haar vader."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hallo, ich heiße Lena und ich bin 15 Jahre alt. Ich wohne mit meiner Mutter und meinem kleinen Bruder in Köln. Mein Vater wohnt in Bonn. Ich besuche ihn jedes Wochenende. In meiner Freizeit spiele ich Volleyball und ich lese gern.\n\nWat doet Lena graag in haar vrije tijd? Duid alles aan wat klopt.",
+          "opties": [
+            "volleybal spelen",
+            "zwemmen in het meer",
+            "lezen",
+            "voetballen met haar broer"
+          ],
+          "antwoord": [
+            0,
+            2
+          ],
+          "uitleg": "In meiner Freizeit spiele ich Volleyball und ich lese gern. Gern achter het werkwoord: graag doen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hallo, ich heiße Lena und ich bin 15 Jahre alt. Ich wohne mit meiner Mutter und meinem kleinen Bruder in Köln. Mein Vater wohnt in Bonn. Ich besuche ihn jedes Wochenende. In meiner Freizeit spiele ich Volleyball und ich lese gern.\n\nHoe oud is Lena? Schrijf het getal.",
+          "antwoord": [
+            "15",
+            "vijftien",
+            "fünfzehn"
+          ],
+          "uitleg": "Ich bin 15 Jahre alt. In het Duits zeg je fünfzehn."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Das Hallenbad ist vom 1. bis 15. Juli geschlossen. Wir bauen eine neue Rutsche. Ab dem 16. Juli sind wir wieder für Sie da: montags bis freitags von 7 bis 21 Uhr, am Wochenende von 9 bis 18 Uhr. Kinder unter 6 Jahren schwimmen gratis.\n\nWaarom is het zwembad gesloten?",
+          "opties": [
+            "er wordt een nieuwe glijbaan gebouwd",
+            "het water in het bad is veel te koud geworden",
+            "er zijn geen redders",
+            "het is vakantie"
+          ],
+          "antwoord": 0,
+          "uitleg": "Wir bauen eine neue Rutsche. Eine Rutsche is een glijbaan."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Das Hallenbad ist vom 1. bis 15. Juli geschlossen. Wir bauen eine neue Rutsche. Ab dem 16. Juli sind wir wieder für Sie da: montags bis freitags von 7 bis 21 Uhr, am Wochenende von 9 bis 18 Uhr. Kinder unter 6 Jahren schwimmen gratis.\n\nIn het weekend gaat het zwembad later open dan op weekdagen.",
+          "antwoord": true,
+          "uitleg": "Montags bis freitags von 7 Uhr, am Wochenende von 9 Uhr."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Das Hallenbad ist vom 1. bis 15. Juli geschlossen. Wir bauen eine neue Rutsche. Ab dem 16. Juli sind wir wieder für Sie da: montags bis freitags von 7 bis 21 Uhr, am Wochenende von 9 bis 18 Uhr. Kinder unter 6 Jahren schwimmen gratis.\n\nWie mag gratis zwemmen?",
+          "opties": [
+            "kinderen jonger dan zes jaar",
+            "alle kinderen tijdens de hele maand juli",
+            "leerlingen met een kaart",
+            "iedereen op zondag"
+          ],
+          "antwoord": 0,
+          "uitleg": "Kinder unter 6 Jahren schwimmen gratis. Unter betekent onder, dus jonger dan."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Das Hallenbad ist vom 1. bis 15. Juli geschlossen. Wir bauen eine neue Rutsche. Ab dem 16. Juli sind wir wieder für Sie da: montags bis freitags von 7 bis 21 Uhr, am Wochenende von 9 bis 18 Uhr. Kinder unter 6 Jahren schwimmen gratis.\n\nOp 16 juli is het zwembad nog gesloten.",
+          "antwoord": false,
+          "uitleg": "Geschlossen vom 1. bis 15. Juli. Ab dem 16. Juli sind wir wieder für Sie da."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Viele Schüler haben ihr Handy immer bei sich. An unserer Schule ist das Handy im Unterricht jetzt verboten. Die Lehrer sagen: Die Schüler sind ruhiger und lernen besser. Aber in der Pause dürfen sie es benutzen.\n\nWat is het onderwerp van de tekst?",
+          "opties": [
+            "een gsm-verbod op school",
+            "een nieuwe gsm kopen",
+            "leraren die te veel bellen",
+            "een computerles"
+          ],
+          "antwoord": 0,
+          "uitleg": "Das Handy is de gsm. Het verbod in de les is het onderwerp."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Viele Schüler haben ihr Handy immer bei sich. An unserer Schule ist das Handy im Unterricht jetzt verboten. Die Lehrer sagen: Die Schüler sind ruhiger und lernen besser. Aber in der Pause dürfen sie es benutzen.\n\nWat zeggen de leraren? Duid alles aan wat klopt.",
+          "opties": [
+            "de leerlingen zijn rustiger",
+            "de leerlingen zijn boos op de directie",
+            "de leerlingen leren beter",
+            "de pauze is te kort"
+          ],
+          "antwoord": [
+            0,
+            2
+          ],
+          "uitleg": "Die Schüler sind ruhiger und lernen besser."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Viele Schüler haben ihr Handy immer bei sich. An unserer Schule ist das Handy im Unterricht jetzt verboten. Die Lehrer sagen: Die Schüler sind ruhiger und lernen besser. Aber in der Pause dürfen sie es benutzen.\n\nDe leerlingen mogen hun gsm nooit gebruiken op school.",
+          "antwoord": false,
+          "uitleg": "Aber in der Pause dürfen sie es benutzen. Aber leidt een tegenstelling in."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Viele Schüler haben ihr Handy immer bei sich. An unserer Schule ist das Handy im Unterricht jetzt verboten. Die Lehrer sagen: Die Schüler sind ruhiger und lernen besser. Aber in der Pause dürfen sie es benutzen.\n\nWelk Duits woord in de tekst betekent verboden?",
+          "antwoord": [
+            "verboten"
+          ],
+          "uitleg": "Im Unterricht ist das Handy jetzt verboten. Verbieten, verbot, verboten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Achtung, eine Durchsage: Der ICE nach München fährt heute nicht von Gleis 4, sondern von Gleis 7 ab. Der Zug hat etwa 20 Minuten Verspätung. Wir bitten um Entschuldigung.\n\nWaar moet je de trein naar München nemen?",
+          "opties": [
+            "aan spoor 7",
+            "aan spoor 4",
+            "aan spoor 20",
+            "er rijdt geen trein"
+          ],
+          "antwoord": 0,
+          "uitleg": "Nicht von Gleis 4, sondern von Gleis 7. Nicht ..., sondern ...: niet ..., maar ..."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Achtung, eine Durchsage: Der ICE nach München fährt heute nicht von Gleis 4, sondern von Gleis 7 ab. Der Zug hat etwa 20 Minuten Verspätung. Wir bitten um Entschuldigung.\n\nWat betekent Verspätung?",
+          "opties": [
+            "vertraging",
+            "vertrek",
+            "kaartje",
+            "aankomst"
+          ],
+          "antwoord": 0,
+          "uitleg": "Der Zug hat 20 Minuten Verspätung: de trein heeft twintig minuten vertraging. Spät betekent laat."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Achtung, eine Durchsage: Der ICE nach München fährt heute nicht von Gleis 4, sondern von Gleis 7 ab. Der Zug hat etwa 20 Minuten Verspätung. Wir bitten um Entschuldigung.\n\nDe trein naar München rijdt vandaag niet.",
+          "antwoord": false,
+          "uitleg": "Hij vertrekt van een ander spoor en heeft vertraging, maar hij rijdt wel."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Achtung, eine Durchsage: Der ICE nach München fährt heute nicht von Gleis 4, sondern von Gleis 7 ab. Der Zug hat etwa 20 Minuten Verspätung. Wir bitten um Entschuldigung.\n\nWelk soort tekst is dit?",
+          "opties": [
+            "een omroepbericht in een station",
+            "een reclamefolder",
+            "een persoonlijke brief aan een goede vriend",
+            "een recept"
+          ],
+          "antwoord": 0,
+          "uitleg": "Achtung, eine Durchsage: een mededeling die je hoort in het station. Een informatieve tekst."
+        }
+      ]
+    },
+    {
+      "titel": "Een Duitse tekst lezen — deel 2",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Pfannkuchen für vier Personen: Du brauchst 250 Gramm Mehl, drei Eier, einen halben Liter Milch und eine Prise Salz. Zuerst mischst du Mehl und Milch. Dann gibst du die Eier dazu. Danach lässt du den Teig zehn Minuten stehen. Zum Schluss backst du die Pfannkuchen in einer heißen Pfanne.\n\nWat doe je eerst?",
+          "opties": [
+            "meel en melk mengen",
+            "de eieren erbij doen",
+            "het deeg laten rusten",
+            "de pan heet maken"
+          ],
+          "antwoord": 0,
+          "uitleg": "Zuerst mischst du Mehl und Milch. Zuerst, dann, danach, zum Schluss: zo volg je de stappen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Pfannkuchen für vier Personen: Du brauchst 250 Gramm Mehl, drei Eier, einen halben Liter Milch und eine Prise Salz. Zuerst mischst du Mehl und Milch. Dann gibst du die Eier dazu. Danach lässt du den Teig zehn Minuten stehen. Zum Schluss backst du die Pfannkuchen in einer heißen Pfanne.\n\nWelke ingrediënten heb je nodig? Duid alles aan wat klopt.",
+          "opties": [
+            "meel",
+            "melk",
+            "suiker",
+            "eieren",
+            "boter"
+          ],
+          "antwoord": [
+            0,
+            1,
+            3
+          ],
+          "uitleg": "250 Gramm Mehl, drei Eier, einen halben Liter Milch und eine Prise Salz. Suiker en boter staan er niet in."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Pfannkuchen für vier Personen: Du brauchst 250 Gramm Mehl, drei Eier, einen halben Liter Milch und eine Prise Salz. Zuerst mischst du Mehl und Milch. Dann gibst du die Eier dazu. Danach lässt du den Teig zehn Minuten stehen. Zum Schluss backst du die Pfannkuchen in einer heißen Pfanne.\n\nHoeveel minuten moet het deeg rusten? Schrijf het getal.",
+          "antwoord": [
+            "10",
+            "tien",
+            "zehn"
+          ],
+          "uitleg": "Danach lässt du den Teig zehn Minuten stehen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Pfannkuchen für vier Personen: Du brauchst 250 Gramm Mehl, drei Eier, einen halben Liter Milch und eine Prise Salz. Zuerst mischst du Mehl und Milch. Dann gibst du die Eier dazu. Danach lässt du den Teig zehn Minuten stehen. Zum Schluss backst du die Pfannkuchen in einer heißen Pfanne.\n\nDe tekst legt uit hoe je iets moet doen.",
+          "antwoord": true,
+          "uitleg": "Een recept is een prescriptieve tekst: het zegt wat je moet doen, stap voor stap."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Pfannkuchen für vier Personen: Du brauchst 250 Gramm Mehl, drei Eier, einen halben Liter Milch und eine Prise Salz. Zuerst mischst du Mehl und Milch. Dann gibst du die Eier dazu. Danach lässt du den Teig zehn Minuten stehen. Zum Schluss backst du die Pfannkuchen in einer heißen Pfanne.\n\nWelk woord geeft de laatste stap aan?",
+          "opties": [
+            "zum Schluss",
+            "zuerst",
+            "dann",
+            "danach"
+          ],
+          "antwoord": 0,
+          "uitleg": "Zum Schluss betekent tot slot. Zulke signaalwoorden helpen je de volgorde te volgen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Letzten Sommer war ich mit meiner Familie zwei Wochen in Österreich. Wir haben in einem kleinen Hotel in den Bergen gewohnt. Jeden Tag sind wir gewandert. Das Wetter war meistens schön, nur am letzten Tag hat es geregnet. Nächstes Jahr wollen wir wieder hinfahren.\n\nWat klopt over de vakantie? Duid alles aan wat klopt.",
+          "opties": [
+            "ze logeerden in een klein hotel",
+            "ze waren aan zee",
+            "ze waren in de bergen",
+            "ze waren drie weken weg"
+          ],
+          "antwoord": [
+            0,
+            2
+          ],
+          "uitleg": "In einem kleinen Hotel in den Bergen, zwei Wochen lang. Niet aan zee en geen drie weken."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Letzten Sommer war ich mit meiner Familie zwei Wochen in Österreich. Wir haben in einem kleinen Hotel in den Bergen gewohnt. Jeden Tag sind wir gewandert. Das Wetter war meistens schön, nur am letzten Tag hat es geregnet. Nächstes Jahr wollen wir wieder hinfahren.\n\nHet heeft de hele vakantie geregend.",
+          "antwoord": false,
+          "uitleg": "Das Wetter war meistens schön, nur am letzten Tag hat es geregnet. Meistens is meestal."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Letzten Sommer war ich mit meiner Familie zwei Wochen in Österreich. Wir haben in einem kleinen Hotel in den Bergen gewohnt. Jeden Tag sind wir gewandert. Das Wetter war meistens schön, nur am letzten Tag hat es geregnet. Nächstes Jahr wollen wir wieder hinfahren.\n\nWat deed de familie elke dag?",
+          "opties": [
+            "wandelen",
+            "zwemmen",
+            "fietsen",
+            "skiën"
+          ],
+          "antwoord": 0,
+          "uitleg": "Jeden Tag sind wir gewandert. Gewandert is het voltooid deelwoord van wandern."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Letzten Sommer war ich mit meiner Familie zwei Wochen in Österreich. Wir haben in einem kleinen Hotel in den Bergen gewohnt. Jeden Tag sind wir gewandert. Das Wetter war meistens schön, nur am letzten Tag hat es geregnet. Nächstes Jahr wollen wir wieder hinfahren.\n\nWat is het plan voor volgend jaar?",
+          "opties": [
+            "opnieuw naar daar gaan",
+            "de hele zomer gewoon thuis blijven",
+            "naar zee gaan",
+            "met de trein reizen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Nächstes Jahr wollen wir wieder hinfahren. Wieder betekent opnieuw."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Letzten Sommer war ich mit meiner Familie zwei Wochen in Österreich. Wir haben in einem kleinen Hotel in den Bergen gewohnt. Jeden Tag sind wir gewandert. Das Wetter war meistens schön, nur am letzten Tag hat es geregnet. Nächstes Jahr wollen wir wieder hinfahren.\n\nDe vakantie duurde twee weken.",
+          "antwoord": true,
+          "uitleg": "Zwei Wochen: twee weken. Eine Woche, zwei Wochen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Ich verkaufe mein Fahrrad. Es ist blau, drei Jahre alt und in gutem Zustand. Die Bremsen sind neu. Preis: 120 Euro. Bei Interesse ruf mich an: 0176 123 45 67. Bitte nur abends nach 18 Uhr!\n\nWat voor tekst is dit?",
+          "opties": [
+            "een zoekertje om iets te verkopen",
+            "een verslag van een fietstocht",
+            "een reclame voor een fietsenwinkel",
+            "een klacht over een fiets"
+          ],
+          "antwoord": 0,
+          "uitleg": "Ich verkaufe mein Fahrrad: een zoekertje. Een typisch voorbeeld van een tekst die informatie geeft en vraagt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Ich verkaufe mein Fahrrad. Es ist blau, drei Jahre alt und in gutem Zustand. Die Bremsen sind neu. Preis: 120 Euro. Bei Interesse ruf mich an: 0176 123 45 67. Bitte nur abends nach 18 Uhr!\n\nWelke informatie staat in de tekst? Duid alles aan wat klopt.",
+          "opties": [
+            "de kleur van de fiets",
+            "waar de fiets gekocht is",
+            "de prijs",
+            "het merk van de fiets",
+            "wanneer je mag bellen"
+          ],
+          "antwoord": [
+            0,
+            2,
+            4
+          ],
+          "uitleg": "Kleur (blau), prijs (120 Euro) en het uur (abends nach 18 Uhr) staan er. Waar hij gekocht is en het merk, niet."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Ich verkaufe mein Fahrrad. Es ist blau, drei Jahre alt und in gutem Zustand. Die Bremsen sind neu. Preis: 120 Euro. Bei Interesse ruf mich an: 0176 123 45 67. Bitte nur abends nach 18 Uhr!\n\nJe mag de verkoper 's morgens bellen.",
+          "antwoord": false,
+          "uitleg": "Bitte nur abends nach 18 Uhr: alleen 's avonds na zes uur."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Ich verkaufe mein Fahrrad. Es ist blau, drei Jahre alt und in gutem Zustand. Die Bremsen sind neu. Preis: 120 Euro. Bei Interesse ruf mich an: 0176 123 45 67. Bitte nur abends nach 18 Uhr!\n\nHoeveel jaar is de fiets? Schrijf het getal.",
+          "antwoord": [
+            "3",
+            "drie",
+            "drei"
+          ],
+          "uitleg": "Es ist drei Jahre alt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Ich verkaufe mein Fahrrad. Es ist blau, drei Jahre alt und in gutem Zustand. Die Bremsen sind neu. Preis: 120 Euro. Bei Interesse ruf mich an: 0176 123 45 67. Bitte nur abends nach 18 Uhr!\n\nWat betekent Bremsen?",
+          "opties": [
+            "remmen",
+            "banden",
+            "lichten",
+            "pedalen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Die Bremsen sind neu: de remmen zijn nieuw. Je kan het afleiden: een fiets in goede staat met nieuwe ..."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: Der Kühlschrank ist leer. Wir müssen einkaufen.\n\nWat betekent leer, als je let op de tweede zin?",
+          "opties": [
+            "leeg",
+            "vol",
+            "kapot",
+            "koud"
+          ],
+          "antwoord": 0,
+          "uitleg": "Als je moet gaan winkelen, is de koelkast leeg. Zo leid je een woord af uit de context."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: Meine Oma ist krank. Sie muss im Bett bleiben und der Arzt kommt heute.\n\nWat betekent krank?",
+          "opties": [
+            "ziek",
+            "oud",
+            "boos",
+            "moe"
+          ],
+          "antwoord": 0,
+          "uitleg": "In bed blijven en een dokter die komt: krank is ziek. Das Krankenhaus is het ziekenhuis."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij een leestekst zoek je best elk onbekend woord meteen op in het woordenboek.",
+          "antwoord": false,
+          "uitleg": "Bepaal eerst of het woord belangrijk is om de tekst te begrijpen. Vaak kan je het afleiden uit de context."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een tekst heeft als titel: Fünf Tipps für einen gesunden Schlaf. Waar gaat de tekst waarschijnlijk over?",
+          "opties": [
+            "hoe je beter slaapt",
+            "hoe je gezond kookt",
+            "hoe je vijf talen leert",
+            "hoe je sneller loopt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Schlaf is slaap, gesund is gezond. De titel helpt je voorspellen waarover een tekst gaat."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke informatie is een hoofdpunt in een tekst over de voordelen van fietsen naar school?",
+          "opties": [
+            "fietsen is gezond",
+            "de fiets van Tom is rood",
+            "de school begint om 8.30 uur",
+            "het regende gisteren"
+          ],
+          "antwoord": 0,
+          "uitleg": "Hoofdpunten ondersteunen de hoofdgedachte. Details zoals een kleur of een uur zijn bijzaken."
+        }
+      ]
+    },
+    {
+      "titel": "Tekstsoorten, signaalwoorden en verwijswoorden — deel 1",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Een tekst legt uit hoe je een tent opzet: Zuerst legst du das Zelt auf den Boden. Welke tekstsoort is dat?",
+          "opties": [
+            "prescriptief",
+            "narratief",
+            "opiniërend",
+            "persuasief"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een prescriptieve tekst zegt wat of hoe je iets moet doen: een recept, een handleiding, een reglement."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Ich finde den Film langweilig. Die Schauspieler sind schlecht. Welke tekstsoort is dat?",
+          "opties": [
+            "opiniërend",
+            "informatief",
+            "prescriptief",
+            "narratief"
+          ],
+          "antwoord": 0,
+          "uitleg": "Ich finde ... : de schrijver geeft zijn mening. Een recensie is een opiniërende tekst."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Kauf jetzt die neue Zahnpasta! Weiße Zähne in nur einer Woche! Welke tekstsoort is dat?",
+          "opties": [
+            "persuasief",
+            "informatief",
+            "narratief",
+            "opiniërend"
+          ],
+          "antwoord": 0,
+          "uitleg": "Reclame wil je overtuigen om iets te doen of te kopen: een persuasieve tekst."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Gestern bin ich zum ersten Mal allein mit dem Zug gefahren. Zuerst war ich nervös ... Welke tekstsoort is dat?",
+          "opties": [
+            "narratief",
+            "prescriptief",
+            "persuasief",
+            "informatief"
+          ],
+          "antwoord": 0,
+          "uitleg": "Iemand vertelt wat hij beleefd heeft: een narratieve tekst, zoals een reisverslag of een vlog."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Der Rhein ist 1 233 Kilometer lang. Er fließt durch die Schweiz, Deutschland und die Niederlande. Welke tekstsoort is dat?",
+          "opties": [
+            "informatief",
+            "opiniërend",
+            "persuasief",
+            "narratief"
+          ],
+          "antwoord": 0,
+          "uitleg": "Feiten over een onderwerp, zonder mening of oproep: een informatieve tekst."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een hotelbeoordeling op een website is een opiniërende tekst.",
+          "antwoord": true,
+          "uitleg": "De schrijver zegt wat hij van het hotel vond. Een typisch voorbeeld van een opiniërende tekst."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een schoolreglement is een narratieve tekst.",
+          "antwoord": false,
+          "uitleg": "Een reglement zegt wat je moet doen of niet mag doen: een prescriptieve tekst."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een campagne tegen te snel rijden is een persuasieve tekst.",
+          "antwoord": true,
+          "uitleg": "Ze wil je gedrag veranderen: ze probeert je te overtuigen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een krantenartikel over een nieuwe brug is meestal een informatieve tekst.",
+          "antwoord": true,
+          "uitleg": "Het geeft informatie over een onderwerp. Een lezersbrief over die brug zou opiniërend zijn."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een recept is een opiniërende tekst.",
+          "antwoord": false,
+          "uitleg": "Een recept legt uit hoe je iets klaarmaakt: prescriptief."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke vragen horen bij het communicatiemodel? Duid alles aan wat klopt.",
+          "opties": [
+            "van wie is de tekst?",
+            "voor wie is de tekst?",
+            "waarom is de tekst gemaakt?",
+            "hoeveel woorden telt de tekst?"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Zender, ontvanger en bedoeling: daarmee begrijp je beter wat een tekst wil zeggen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je ziet een flyer met de titel Fitnessstudio FitPlus: Der erste Monat ist gratis! Wat wil de zender?",
+          "opties": [
+            "nieuwe klanten lokken",
+            "een sportwedstrijd uitleggen",
+            "een klacht indienen",
+            "over zijn vakantie vertellen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een gratis eerste maand moet je overtuigen om lid te worden. Een flyer van een fitnesscentrum is een typische persuasieve tekst."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat helpt je om te voorspellen waarover een tekst gaat, nog voor je hem leest?",
+          "opties": [
+            "de titel en de foto",
+            "het aantal zinnen",
+            "het laatste woord",
+            "de kleur van de letters"
+          ],
+          "antwoord": 0,
+          "uitleg": "Titel, tussentitels, vetgedrukte woorden en beelden zijn visuele hulpmiddelen die je helpen bij het lezen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een mail begint met Sehr geehrte Frau Weber. Voor wie is de tekst waarschijnlijk?",
+          "opties": [
+            "een volwassene die de schrijver niet goed kent",
+            "een goede vriendin",
+            "de zus van de schrijver, die bij hem woont",
+            "een klein kind"
+          ],
+          "antwoord": 0,
+          "uitleg": "Sehr geehrte Frau + familienaam is de beleefde aanspreking. Bij een vriendin schrijf je Liebe Anna of Hallo Anna."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij een tekst stel je jezelf best eerst de vraag wat je al weet over het onderwerp.",
+          "antwoord": true,
+          "uitleg": "Je voorkennis activeren is een van de leesstrategieën: zo begrijp je sneller wat er staat."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een tekst begint met: Liebe Oma, vielen Dank für das schöne Geschenk! Wat voor tekst is dit?",
+          "opties": [
+            "een bedankbriefje",
+            "een uitnodiging",
+            "een klacht",
+            "een advertentie"
+          ],
+          "antwoord": 0,
+          "uitleg": "Vielen Dank für ...: bedankt voor ... Geschenk is cadeau."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe heet een tekst die feiten en gebeurtenissen vertelt zoals in een verhaal? Vul het vakwoord aan: een ... tekst.",
+          "antwoord": [
+            "narratieve",
+            "verhalende",
+            "narratief"
+          ],
+          "uitleg": "Narratieve teksten geven feiten en gebeurtenissen weer op een verhalende manier: een reisverslag, een getuigenis, een vlog."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke teksten zijn prescriptief? Duid alles aan wat klopt.",
+          "opties": [
+            "Bitte nicht rauchen!",
+            "Ich rauche nicht gern.",
+            "Nehmen Sie zweimal am Tag eine Tablette.",
+            "Mein Opa hat früher geraucht."
+          ],
+          "antwoord": [
+            0,
+            2
+          ],
+          "uitleg": "Een verbod en een voorschrift zeggen wat je moet doen. De andere zinnen geven een mening of een verhaal."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zinnen geven een mening? Duid alles aan wat klopt.",
+          "opties": [
+            "Meiner Meinung nach ist Berlin die schönste Stadt.",
+            "Berlin hat 3,7 Millionen Einwohner.",
+            "Ich finde Berlin zu laut.",
+            "Fahren Sie mit der U2 bis zum Alexanderplatz in Berlin."
+          ],
+          "antwoord": [
+            0,
+            2
+          ],
+          "uitleg": "Meiner Meinung nach en ich finde kondigen een mening aan."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een instructiefilmpje op YouTube is een informatieve, geen prescriptieve tekst.",
+          "antwoord": false,
+          "uitleg": "Een instructiefilmpje legt uit hoe je iets doet. Het is een typisch voorbeeld van een prescriptieve tekst."
+        }
+      ]
+    },
+    {
+      "titel": "Tekstsoorten, signaalwoorden en verwijswoorden — deel 2",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke woorden geven een tegenstelling aan? Duid alles aan wat klopt.",
+          "opties": [
+            "aber",
+            "und",
+            "trotzdem",
+            "zuerst"
+          ],
+          "antwoord": [
+            0,
+            2
+          ],
+          "uitleg": "Aber betekent maar, trotzdem betekent toch. Und is en, zuerst is eerst."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Zet de signaalwoorden in de juiste volgorde voor een stappenplan.",
+          "opties": [
+            "zuerst, dann, danach, zum Schluss",
+            "zum Schluss, zuerst, dann, danach",
+            "danach, zuerst, zum Schluss, dann",
+            "dann, zum Schluss, zuerst, danach"
+          ],
+          "antwoord": 0,
+          "uitleg": "Eerst, dan, daarna, tot slot."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Ich bleibe heute zu Hause, denn ich bin krank. Wat geeft denn aan?",
+          "opties": [
+            "een reden",
+            "een tegenstelling",
+            "een tijd",
+            "een voorwaarde"
+          ],
+          "antwoord": 0,
+          "uitleg": "Denn betekent want: een reden. Na denn blijft de gewone woordvolgorde."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wir gehen ins Kino oder wir spielen Fußball. Wat betekent oder?",
+          "opties": [
+            "of",
+            "en",
+            "maar",
+            "omdat"
+          ],
+          "antwoord": 0,
+          "uitleg": "Oder geeft een keuze: of het ene, of het andere."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan met het Duitse woord voor daarna: Wir essen zu Abend. ... sehen wir fern.",
+          "antwoord": [
+            "Danach",
+            "danach",
+            "Dann",
+            "dann"
+          ],
+          "uitleg": "Danach of dann: daarna, dan. Na het signaalwoord komt de persoonsvorm: Danach sehen wir fern."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Meine Schwester heißt Mia. Sie ist zwölf Jahre alt. Naar wie verwijst sie?",
+          "opties": [
+            "Mia",
+            "de schrijver",
+            "een vriendin van Mia",
+            "de moeder"
+          ],
+          "antwoord": 0,
+          "uitleg": "Sie verwijst terug naar het vrouwelijke woord in de zin ervoor: Mia."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Ich habe einen neuen Hund. Er heißt Bello. Naar wat verwijst er?",
+          "opties": [
+            "de hond",
+            "de schrijver",
+            "de vader",
+            "het huis"
+          ],
+          "antwoord": 0,
+          "uitleg": "Der Hund is mannelijk, dus verwijs je ernaar met er."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Das ist mein Fahrrad. Es ist ganz neu. Naar wat verwijst es?",
+          "opties": [
+            "de fiets",
+            "de schrijver",
+            "de straat",
+            "het weer"
+          ],
+          "antwoord": 0,
+          "uitleg": "Das Fahrrad is onzijdig: es."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Die Lehrerin gibt den Schülern ein Buch. Sie lesen es zu Hause. Naar wie verwijst sie hier?",
+          "opties": [
+            "de leerlingen",
+            "de lerares",
+            "het boek",
+            "de ouders"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het werkwoord lesen eindigt op -en: sie is hier meervoud, dus de leerlingen. Bij de lerares zou het sie liest zijn."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Signaalwoorden helpen je om de gedachtegang van een tekst te volgen.",
+          "antwoord": true,
+          "uitleg": "Ze tonen of er een tegenstelling, een reden, een volgorde of een voorbeeld komt."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Zum Beispiel betekent tot slot.",
+          "antwoord": false,
+          "uitleg": "Zum Beispiel betekent bijvoorbeeld. Tot slot is zum Schluss."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke signaalwoorden geven een volgorde aan? Duid alles aan wat klopt.",
+          "opties": [
+            "zuerst",
+            "deshalb",
+            "danach",
+            "zum Beispiel",
+            "zum Schluss"
+          ],
+          "antwoord": [
+            0,
+            2,
+            4
+          ],
+          "uitleg": "Zuerst, danach, zum Schluss: eerst, daarna, tot slot. Deshalb geeft een gevolg, zum Beispiel een voorbeeld."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Es regnet. Deshalb nehme ich den Bus. Wat betekent deshalb?",
+          "opties": [
+            "daarom",
+            "toch",
+            "maar",
+            "eerst"
+          ],
+          "antwoord": 0,
+          "uitleg": "Deshalb geeft een gevolg aan: daarom. Na deshalb staat de persoonsvorm meteen: deshalb nehme ich."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Es regnet. Trotzdem gehe ich zu Fuß. Wat betekent trotzdem?",
+          "opties": [
+            "toch",
+            "daarom",
+            "want",
+            "dan"
+          ],
+          "antwoord": 0,
+          "uitleg": "Trotzdem: toch, ondanks dat. Een tegenstelling met wat je zou verwachten."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In Ich esse gern Pizza, aber ich esse nicht gern Pasta staat een tegenstelling.",
+          "antwoord": true,
+          "uitleg": "Aber zet twee dingen tegenover elkaar: pizza wel, pasta niet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk woord betekent ook?",
+          "opties": [
+            "auch",
+            "aber",
+            "also",
+            "immer"
+          ],
+          "antwoord": 0,
+          "uitleg": "Auch is ook. Also betekent dus, niet ook: een valse vriend voor wie Engels kent."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Also betekent in het Duits hetzelfde als also in het Engels.",
+          "antwoord": false,
+          "uitleg": "Also is dus. Ook is auch. Dat is een valse vriend."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul het Duitse signaalwoord in dat eerst betekent: ... öffnest du die Packung.",
+          "antwoord": [
+            "Zuerst",
+            "zuerst",
+            "Erst",
+            "erst"
+          ],
+          "uitleg": "Zuerst of erst: eerst. Daarna komt de persoonsvorm: Zuerst öffnest du."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is in een tekst een bijzaak?",
+          "opties": [
+            "een voorbeeld dat een hoofdpunt toelicht",
+            "de hoofdgedachte",
+            "het onderwerp",
+            "het belangrijkste argument van de schrijver"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een voorbeeld ondersteunt een hoofdpunt, maar is zelf geen hoofdzaak. Hoofd- en bijzaken onderscheiden is een goede leesstrategie."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Ich kann heute nicht kommen, weil ich arbeiten muss. Wat drukt weil uit?",
+          "opties": [
+            "een reden",
+            "een tijd",
+            "een tegenstelling",
+            "een doel"
+          ],
+          "antwoord": 0,
+          "uitleg": "Weil betekent omdat. Na weil staat de persoonsvorm achteraan: weil ich arbeiten muss."
+        }
+      ]
+    },
+    {
+      "titel": "Schrijven en schriftelijke interactie — deel 1",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Je schrijft een mail aan de directeur van een jeugdherberg, mevrouw Becker. Hoe begin je?",
+          "opties": [
+            "Sehr geehrte Frau Becker,",
+            "Hallo Becker,",
+            "Liebe Frau,",
+            "Hi Frau Becker, wie geht's?"
+          ],
+          "antwoord": 0,
+          "uitleg": "Sehr geehrte Frau + familienaam is de beleefde aanspreking voor een volwassene die je niet goed kent."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je schrijft aan een vriend, Jonas. Hoe begin je?",
+          "opties": [
+            "Lieber Jonas,",
+            "Sehr geehrter Jonas,",
+            "Sehr geehrter Herr Jonas,",
+            "Liebe Jonas,"
+          ],
+          "antwoord": 0,
+          "uitleg": "Lieber voor een jongen, liebe voor een meisje: Lieber Jonas, liebe Emma."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke slotformules passen bij een beleefde mail aan een onbekende? Duid alles aan wat klopt.",
+          "opties": [
+            "Mit freundlichen Grüßen",
+            "Tschüss!",
+            "Freundliche Grüße",
+            "Bis bald und liebe Grüße, dein Tim"
+          ],
+          "antwoord": [
+            0,
+            2
+          ],
+          "uitleg": "Mit freundlichen Grüßen en Freundliche Grüße zijn beleefd. Tschüss en liebe Grüße zijn voor vrienden."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In een mail aan een volwassene die je niet goed kent, gebruik je du.",
+          "antwoord": false,
+          "uitleg": "Je gebruikt Sie, met een hoofdletter: Können Sie mir helfen?"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin gebruikt correct de beleefde vorm?",
+          "opties": [
+            "Können Sie mir bitte helfen?",
+            "Kannst du mir bitte helfen, Herr Müller?",
+            "Können sie mir bitte helfen? (met kleine letter)",
+            "Kann Sie mir bitte helfen?"
+          ],
+          "antwoord": 0,
+          "uitleg": "De beleefde vorm is Sie met hoofdletter en het werkwoord in het meervoud: können Sie."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: Vielen ... für deine Hilfe! (bedankt voor je hulp)",
+          "antwoord": [
+            "Dank"
+          ],
+          "uitleg": "Vielen Dank: hartelijk bedankt. Danke schön kan ook."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Met welke zinnen verontschuldig je je? Duid alles aan wat klopt.",
+          "opties": [
+            "Entschuldigung!",
+            "Kein Problem, das ist gern geschehen.",
+            "Das tut mir leid.",
+            "Herzlichen Glückwunsch!"
+          ],
+          "antwoord": [
+            0,
+            2
+          ],
+          "uitleg": "Entschuldigung en Das tut mir leid. Kein Problem is een reactie op een verontschuldiging, Herzlichen Glückwunsch is gefeliciteerd."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Iemand zegt: Entschuldigung, ich bin zu spät. Hoe reageer je vriendelijk?",
+          "opties": [
+            "Kein Problem!",
+            "Danke schön!",
+            "Guten Appetit!",
+            "Viel Glück!"
+          ],
+          "antwoord": 0,
+          "uitleg": "Kein Problem of Das macht nichts: geen probleem. Zo reageer je op een verontschuldiging."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe nodig je een vriendin uit voor je verjaardag?",
+          "opties": [
+            "Ich lade dich zu meiner Geburtstagsparty ein.",
+            "Ich danke dir sehr für deinen schönen Geburtstag.",
+            "Ich entschuldige mich für meine Party.",
+            "Ich gratuliere dir zu meiner Party."
+          ],
+          "antwoord": 0,
+          "uitleg": "Einladen: uitnodigen. Het is een scheidbaar werkwoord: ich lade dich ein."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Gern geschehen is een antwoord op een bedankje.",
+          "antwoord": true,
+          "uitleg": "Gern geschehen of bitte: graag gedaan."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Met welke uitdrukkingen neem je afscheid? Duid alles aan wat klopt.",
+          "opties": [
+            "Bis nächste Woche!",
+            "Guten Morgen!",
+            "Tschüss!",
+            "Wie geht's?",
+            "Auf Wiedersehen!"
+          ],
+          "antwoord": [
+            0,
+            2,
+            4
+          ],
+          "uitleg": "Bis nächste Woche, Tschüss en Auf Wiedersehen. Guten Morgen en Wie geht's zeg je bij het begin."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat zeg je tegen iemand die jarig is?",
+          "opties": [
+            "Alles Gute zum Geburtstag!",
+            "Gute Besserung!",
+            "Gute Reise!",
+            "Frohe Ostern!"
+          ],
+          "antwoord": 0,
+          "uitleg": "Alles Gute zum Geburtstag of Herzlichen Glückwunsch zum Geburtstag."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat wens je iemand die ziek is?",
+          "opties": [
+            "Gute Besserung!",
+            "Guten Appetit!",
+            "Viel Spaß!",
+            "Gute Nacht!"
+          ],
+          "antwoord": 0,
+          "uitleg": "Gute Besserung: beterschap."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: Hallo Lisa, wie ... es dir? (hoe gaat het met je?)",
+          "antwoord": [
+            "geht"
+          ],
+          "uitleg": "Wie geht es dir? of kort: Wie geht's? Tegen een onbekende: Wie geht es Ihnen?"
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Je antwoordt op Wie geht's? met Danke, gut. Und dir?",
+          "antwoord": true,
+          "uitleg": "Je bedankt, zegt hoe het gaat en vraagt het terug: zo houd je een gesprek gaande."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je wil een uitnodiging beleefd weigeren. Welke zin past?",
+          "opties": [
+            "Leider kann ich nicht kommen.",
+            "Ich komme sehr gern zu deiner Party!",
+            "Komm doch auch!",
+            "Wann ist die Party?"
+          ],
+          "antwoord": 0,
+          "uitleg": "Leider: helaas. Leider kann ich nicht kommen, ich muss arbeiten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke begroeting gebruik je 's avonds?",
+          "opties": [
+            "Guten Abend!",
+            "Guten Morgen!",
+            "Gute Nacht!",
+            "Mahlzeit!"
+          ],
+          "antwoord": 0,
+          "uitleg": "Guten Abend bij het binnenkomen. Gute Nacht zeg je bij het slapengaan."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Herzlich willkommen! zeg je als iemand vertrekt.",
+          "antwoord": false,
+          "uitleg": "Herzlich willkommen: hartelijk welkom. Bij afscheid zeg je Auf Wiedersehen of Tschüss."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je schrijft aan je leraar, meneer Schulz. Welke aanspreking is juist?",
+          "opties": [
+            "Sehr geehrter Herr Schulz,",
+            "Sehr geehrte Herr Schulz,",
+            "Lieber Schulz,",
+            "Hallo Herr,"
+          ],
+          "antwoord": 0,
+          "uitleg": "Herr is mannelijk: sehr geehrter Herr. Bij een vrouw: sehr geehrte Frau."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat schrijf je best als laatste zin van een mail waarin je iets vraagt?",
+          "opties": [
+            "Vielen Dank im Voraus für Ihre Antwort.",
+            "Das ist alles, was ich wissen wollte, tschüss.",
+            "Ich habe keine Zeit mehr.",
+            "Antworten Sie sofort!"
+          ],
+          "antwoord": 0,
+          "uitleg": "Im Voraus: op voorhand. Zo bedank je beleefd voor een antwoord dat nog moet komen."
+        }
+      ]
+    },
+    {
+      "titel": "Schrijven en schriftelijke interactie — deel 2",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Je schrijft een mail om informatie te vragen over een vakantiejob. Welke volgorde is het best?",
+          "opties": [
+            "aanspreking, wie je bent, je vraag, bedanking, groet",
+            "groet, je vraag, aanspreking, wie je bent, bedanking",
+            "je vraag, groet, wie je bent, aanspreking",
+            "bedanking, aanspreking, groet, je vraag"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een duidelijke opbouw: inleiding (wie ben ik), midden (wat wil ik weten), slot (bedanking en groet)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe stel je jezelf voor in een mail?",
+          "opties": [
+            "Ich heiße Noor und bin 16 Jahre alt.",
+            "Du heißt Noor und bist 16.",
+            "Ich habe Noor und ich habe 16 Jahre.",
+            "Mein Name sind Noor."
+          ],
+          "antwoord": 0,
+          "uitleg": "Ich heiße ... of Mein Name ist ... En voor de leeftijd: Ich bin 16 Jahre alt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe vraag je beleefd naar het loon?",
+          "opties": [
+            "Wie viel verdient man pro Stunde?",
+            "Wie viel Geld kostest du pro Tag?",
+            "Was ist dein Geld?",
+            "Wo ist das Geld?"
+          ],
+          "antwoord": 0,
+          "uitleg": "Verdienen: verdienen. Pro Stunde: per uur."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul het vraagwoord in: ... beginnt die Arbeit? (Wanneer begint het werk?)",
+          "antwoord": [
+            "Wann"
+          ],
+          "uitleg": "Wann: wanneer. Wo is waar, wie is hoe, was is wat."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul het vraagwoord in: ... wohnst du? (Waar woon je?)",
+          "antwoord": [
+            "Wo"
+          ],
+          "uitleg": "Wo: waar. Let op: wo is niet wie. Wie in het Duits betekent hoe."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Wer betekent in het Duits waar.",
+          "antwoord": false,
+          "uitleg": "Wer betekent wie. Waar is wo."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je schrijft een zoekertje. Welke informatie hoort er zeker in?",
+          "opties": [
+            "wat je verkoopt, de prijs en hoe ze je kunnen bereiken",
+            "je lievelingskleur en die van je beste vriend",
+            "het weer van gisteren",
+            "de naam van je school"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een zoekertje moet de lezer alles geven wat hij nodig heeft: het voorwerp, de staat, de prijs en je contact."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe geef je je mening?",
+          "opties": [
+            "Ich finde, dass Sport wichtig ist.",
+            "Ich finde Sport, dass wichtig ist.",
+            "Ich finde, dass Sport ist wichtig.",
+            "Finde ich, Sport wichtig."
+          ],
+          "antwoord": 0,
+          "uitleg": "Na dass staat de persoonsvorm achteraan: dass Sport wichtig ist."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Met welke uitdrukkingen geef je je mening? Duid alles aan wat klopt.",
+          "opties": [
+            "Meiner Meinung nach ...",
+            "Zum Schluss ...",
+            "Ich finde, ...",
+            "Guten Appetit ...",
+            "Ich denke, ..."
+          ],
+          "antwoord": [
+            0,
+            2,
+            4
+          ],
+          "uitleg": "Meiner Meinung nach, ich finde en ich denke kondigen je mening aan."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Ich bin der Meinung, dass ... betekent ik ben van plan dat ...",
+          "antwoord": false,
+          "uitleg": "Der Meinung sein: van mening zijn. Ich bin der Meinung, dass ...: ik ben van mening dat ..."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een vriend stelt voor om naar het zwembad te gaan. Je wil liever naar de film. Wat zeg je?",
+          "opties": [
+            "Ich gehe lieber ins Kino.",
+            "Ich gehe gern ins Schwimmbad.",
+            "Ich gehe nie ins Kino.",
+            "Ich gehe ins Kino nicht."
+          ],
+          "antwoord": 0,
+          "uitleg": "Lieber: liever. Zo stel je iets anders voor in een overleg."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Met welke zinnen stel je iets voor? Duid alles aan wat klopt.",
+          "opties": [
+            "Wollen wir am Samstag Fußball spielen?",
+            "Wir haben letzten Samstag Fußball gespielt.",
+            "Hast du Lust, Fußball zu spielen?",
+            "Fußball ist ein Sport."
+          ],
+          "antwoord": [
+            0,
+            2
+          ],
+          "uitleg": "Wollen wir ...? en Hast du Lust ...? zijn voorstellen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: Hast du ..., mit mir ins Kino zu gehen? (Heb je zin om ...)",
+          "antwoord": [
+            "Lust"
+          ],
+          "uitleg": "Lust haben: zin hebben. Hast du Lust? Heb je zin?"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je legt de weg uit. Wat betekent Gehen Sie geradeaus und dann links?",
+          "opties": [
+            "Ga rechtdoor en dan naar links.",
+            "Ga naar links en dan rechtdoor.",
+            "Ga terug en dan naar rechts.",
+            "Blijf staan en kijk naar links."
+          ],
+          "antwoord": 0,
+          "uitleg": "Geradeaus: rechtdoor. Links: links, rechts: rechts."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je geeft een tip om gezonder te eten. Welke zin past?",
+          "opties": [
+            "Iss jeden Tag Obst und Gemüse!",
+            "Ich habe gestern Pizza gegessen.",
+            "Obst ist teuer.",
+            "Mein Bruder isst gern Chips."
+          ],
+          "antwoord": 0,
+          "uitleg": "Een tip geef je vaak met een imperativus: Iss! (eet!), Trink! (drink!)."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In een verslag over je stage gebruik je vooral het Perfekt om te vertellen wat je gedaan hebt.",
+          "antwoord": true,
+          "uitleg": "Ich habe viel gelernt. Ich bin früh aufgestanden. In het gesproken en informele Duits vertel je het verleden met het Perfekt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin past in een verslag van je eerste werkdag?",
+          "opties": [
+            "Am ersten Tag habe ich die Kollegen kennengelernt.",
+            "Morgen lerne ich alle neuen Kollegen kennen.",
+            "Lerne die Kollegen kennen!",
+            "Kennst du die Kollegen?"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een verslag vertelt wat gebeurd is: Perfekt met haben en het voltooid deelwoord achteraan."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Tijdens het examen mag je een online woordenboek en een spellingcontrole gebruiken.",
+          "antwoord": true,
+          "uitleg": "Dat staat zo in de examenregels. Oefen er thuis al mee, want tijd om elk woord op te zoeken heb je niet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je herleest je tekst. Waarop let je?",
+          "opties": [
+            "of je boodschap duidelijk en gepast is",
+            "of je tekst zo lang mogelijk is geworden",
+            "of je moeilijke woorden gebruikt",
+            "of je overal du schreef"
+          ],
+          "antwoord": 0,
+          "uitleg": "Lees je tekst na: is de communicatie helder, gepast en vlot? Respecteer ook de gevraagde lengte."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je zit vast en vindt een woord niet. Wat doe je best?",
+          "opties": [
+            "het anders zeggen met woorden die je wel kent",
+            "stoppen met schrijven",
+            "gewoon het Nederlandse woord ertussen schrijven",
+            "een lege plek laten"
+          ],
+          "antwoord": 0,
+          "uitleg": "Probeer je doel te bereiken met de woorden en structuren die je wel kent. Dat is een strategie uit het examen."
+        }
+      ]
+    },
+    {
+      "titel": "Woordvelden: ik, mijn familie, mijn lichaam en kleding — deel 1",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Op een formulier staat Wohnort. Wat vul je in?",
+          "opties": [
+            "de plaats waar je woont",
+            "de datum waarop je geboren bent",
+            "je telefoonnummer",
+            "je beroep"
+          ],
+          "antwoord": 0,
+          "uitleg": "Wohnort: woonplaats. Geburtsdatum is geboortedatum, Beruf is beroep."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Op een formulier staat Vorname. Wat vul je in?",
+          "opties": [
+            "je voornaam",
+            "je familienaam",
+            "je adres",
+            "je leeftijd"
+          ],
+          "antwoord": 0,
+          "uitleg": "Vorname: voornaam. Nachname of Familienname: familienaam."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: Ich ... 16 Jahre alt.",
+          "antwoord": [
+            "bin"
+          ],
+          "uitleg": "Je leeftijd zeg je met sein: ich bin 16 Jahre alt. Niet met haben, zoals in het Frans."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wie is de Schwester van je moeder?",
+          "opties": [
+            "je tante",
+            "je nicht",
+            "je grootmoeder",
+            "je zus"
+          ],
+          "antwoord": 0,
+          "uitleg": "Die Tante: de tante. Die Schwester is de zus, die Großmutter of Oma de grootmoeder."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent die Eltern?",
+          "opties": [
+            "de ouders",
+            "de grootouders",
+            "de broers en zussen",
+            "de ouderen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Die Eltern: de ouders. Die Großeltern: de grootouders. Die Geschwister: de broers en zussen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Der Sohn betekent de dochter.",
+          "antwoord": false,
+          "uitleg": "Der Sohn is de zoon. De dochter is die Tochter."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke woorden horen bij de familie? Duid alles aan wat klopt.",
+          "opties": [
+            "der Onkel",
+            "der Nachbar",
+            "die Tante",
+            "der Kollege",
+            "der Cousin"
+          ],
+          "antwoord": [
+            0,
+            2,
+            4
+          ],
+          "uitleg": "Onkel (oom), Tante (tante) en Cousin (neef) zijn familie. Der Nachbar is de buur, der Kollege de collega."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Mijn broer en ik hebben dezelfde ouders. Hoe noem je broers en zussen samen in het Duits? (één woord)",
+          "antwoord": [
+            "Geschwister",
+            "die Geschwister"
+          ],
+          "uitleg": "Die Geschwister: broers en zussen. Hast du Geschwister?"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke nationaliteit hoort bij Österreich?",
+          "opties": [
+            "Österreicher",
+            "Österreichisch",
+            "Austrianer",
+            "Ostländer"
+          ],
+          "antwoord": 0,
+          "uitleg": "Ich komme aus Österreich, ich bin Österreicher (of Österreicherin voor een vrouw)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent Ich komme aus Belgien?",
+          "opties": [
+            "Ik kom uit België.",
+            "Ik ga naar België.",
+            "Ik woon in België.",
+            "Ik spreek Belgisch."
+          ],
+          "antwoord": 0,
+          "uitleg": "Kommen aus: komen uit. Wohnen in: wonen in."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke woorden zijn talen? Duid alles aan wat klopt.",
+          "opties": [
+            "Französisch",
+            "Frankreich",
+            "Deutsch",
+            "Deutschland"
+          ],
+          "antwoord": [
+            0,
+            2
+          ],
+          "uitleg": "Französisch en Deutsch zijn talen. Frankreich en Deutschland zijn landen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In de Schweiz spreekt men onder andere Duits.",
+          "antwoord": true,
+          "uitleg": "Zwitserland heeft vier landstalen: Duits, Frans, Italiaans en Reto-Romaans."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul het Duitse woord in voor Nederland: Amsterdam liegt in den ...",
+          "antwoord": [
+            "Niederlanden"
+          ],
+          "uitleg": "Die Niederlande is meervoud: in den Niederlanden. Een Nederlander is ein Niederländer."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Iemand zegt: Ich bin heute so traurig. Hoe voelt hij zich?",
+          "opties": [
+            "verdrietig",
+            "blij",
+            "moe",
+            "boos"
+          ],
+          "antwoord": 0,
+          "uitleg": "Traurig: verdrietig. Froh of glücklich is blij, müde is moe, böse of wütend is boos."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke gevoelens passen bij: Ich habe morgen eine Prüfung und kann nicht schlafen. Duid alles aan wat klopt.",
+          "opties": [
+            "nervös",
+            "glücklich",
+            "ängstlich",
+            "satt"
+          ],
+          "antwoord": [
+            0,
+            2
+          ],
+          "uitleg": "Nervös: zenuwachtig. Ängstlich: angstig. Glücklich is gelukkig, satt is verzadigd."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Ich habe Angst betekent ik heb honger.",
+          "antwoord": false,
+          "uitleg": "Angst haben: bang zijn. Honger hebben is Hunger haben."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent Ich freue mich auf die Ferien?",
+          "opties": [
+            "Ik kijk uit naar de vakantie.",
+            "Ik ben blij dat de vakantie voorbij is.",
+            "Ik heb geen zin in vakantie.",
+            "Ik ben op vakantie."
+          ],
+          "antwoord": 0,
+          "uitleg": "Sich freuen auf: uitkijken naar iets dat nog komt. Sich freuen über: blij zijn met iets."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Verheiratet betekent getrouwd.",
+          "antwoord": true,
+          "uitleg": "Verheiratet: getrouwd. Geschieden: gescheiden. Ledig: ongehuwd."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan met het juiste woord voor achternaam: Mein ... ist Peeters.",
+          "antwoord": [
+            "Nachname",
+            "Familienname"
+          ],
+          "uitleg": "Der Nachname of der Familienname. Mein Vorname ist Lotte, mein Nachname ist Peeters."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke vraag stel je om iemands telefoonnummer te weten?",
+          "opties": [
+            "Wie ist deine Telefonnummer?",
+            "Wo ist dein Telefon jetzt?",
+            "Wer ist dein Telefon?",
+            "Was telefonierst du?"
+          ],
+          "antwoord": 0,
+          "uitleg": "Wie ist deine Telefonnummer? Of beleefd: Wie ist Ihre Telefonnummer?"
+        }
+      ]
+    },
+    {
+      "titel": "Woordvelden: ik, mijn familie, mijn lichaam en kleding — deel 2",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Ich habe Kopfschmerzen. Waar heb je pijn?",
+          "opties": [
+            "aan je hoofd",
+            "aan je buik",
+            "aan je rug",
+            "aan je tand"
+          ],
+          "antwoord": 0,
+          "uitleg": "Der Kopf is het hoofd, Schmerzen zijn pijn. Bauchschmerzen: buikpijn, Zahnschmerzen: tandpijn."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is der Bauch?",
+          "opties": [
+            "de buik",
+            "het been",
+            "de borst",
+            "de rug"
+          ],
+          "antwoord": 0,
+          "uitleg": "Der Bauch: de buik. Das Bein: het been, der Rücken: de rug."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Wat is het Duitse woord voor de hand? Schrijf het met lidwoord.",
+          "antwoord": [
+            "die Hand"
+          ],
+          "uitleg": "Die Hand, meervoud die Hände. Der Arm, der Finger: die lijken op het Nederlands."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Das Auge betekent het oor.",
+          "antwoord": false,
+          "uitleg": "Das Auge is het oog. Het oor is das Ohr."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Bij wie ga je met tandpijn?",
+          "opties": [
+            "zum Zahnarzt",
+            "zum Bäcker",
+            "zum Friseur",
+            "zur Apotheke"
+          ],
+          "antwoord": 0,
+          "uitleg": "Der Zahnarzt: de tandarts. Der Arzt is de dokter."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent Ich habe Fieber?",
+          "opties": [
+            "Ik heb koorts.",
+            "Ik heb het koud.",
+            "Ik ben gevallen.",
+            "Ik heb dorst."
+          ],
+          "antwoord": 0,
+          "uitleg": "Fieber: koorts. Mir ist kalt: ik heb het koud."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waar koop je medicijnen?",
+          "opties": [
+            "in der Apotheke",
+            "in der Bäckerei",
+            "in der Metzgerei",
+            "im Kiosk"
+          ],
+          "antwoord": 0,
+          "uitleg": "Die Apotheke: de apotheek. Die Bäckerei is de bakkerij, die Metzgerei de slagerij."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Das Knie betekent de knie.",
+          "antwoord": true,
+          "uitleg": "Das Knie. Een woord dat in het Duits bijna hetzelfde is."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat draag je aan je voeten? Duid alles aan wat klopt.",
+          "opties": [
+            "Schuhe",
+            "Handschuhe",
+            "Socken",
+            "eine Mütze"
+          ],
+          "antwoord": [
+            0,
+            2
+          ],
+          "uitleg": "Die Schuhe en die Socken: schoenen en kousen. Handschuhe zijn handschoenen, eine Mütze een muts."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is die Hose?",
+          "opties": [
+            "de broek",
+            "de kous",
+            "de hoed",
+            "de jas"
+          ],
+          "antwoord": 0,
+          "uitleg": "Die Hose: de broek. Kous is die Socke, hoed der Hut, jas die Jacke."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Wat is het Duitse woord voor het hemd? Schrijf het met lidwoord.",
+          "antwoord": [
+            "das Hemd"
+          ],
+          "uitleg": "Das Hemd. Een T-shirt heet ook in het Duits das T-Shirt."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Der Rock is een rok.",
+          "antwoord": true,
+          "uitleg": "Der Rock: de rok. Een kleed of jurk is das Kleid."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke woorden zijn accessoires? Duid alles aan wat klopt.",
+          "opties": [
+            "die Brille",
+            "die Hose",
+            "die Tasche",
+            "der Pullover",
+            "der Gürtel"
+          ],
+          "antwoord": [
+            0,
+            2,
+            4
+          ],
+          "uitleg": "Die Brille (bril), die Tasche (tas) en der Gürtel (riem). Hose en Pullover zijn kleding."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke kleur is grün?",
+          "opties": [
+            "groen",
+            "grijs",
+            "geel",
+            "rood"
+          ],
+          "antwoord": 0,
+          "uitleg": "Grün: groen. Grau is grijs, gelb is geel, rot is rood."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Wat is het Duitse woord voor wit?",
+          "antwoord": [
+            "weiß",
+            "weiss"
+          ],
+          "uitleg": "Weiß, met een ß. Zwart is schwarz."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Braun betekent blauw.",
+          "antwoord": false,
+          "uitleg": "Braun is bruin. Blauw is blau."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een tafel is aus Holz. Waarvan is hij gemaakt?",
+          "opties": [
+            "van hout",
+            "van metaal",
+            "van plastic",
+            "van glas"
+          ],
+          "antwoord": 0,
+          "uitleg": "Das Holz: het hout. Metall, Kunststoff (plastic) en Glas zijn andere materialen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke vorm heeft ein Kreis?",
+          "opties": [
+            "rond",
+            "vierkant",
+            "driehoekig",
+            "rechthoekig"
+          ],
+          "antwoord": 0,
+          "uitleg": "Der Kreis: de cirkel. Das Quadrat: het vierkant, das Dreieck: de driehoek."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent Die Jacke ist aus Leder?",
+          "opties": [
+            "De jas is van leder.",
+            "De jas is te licht.",
+            "De jas is van katoen.",
+            "De jas is leeg."
+          ],
+          "antwoord": 0,
+          "uitleg": "Das Leder: het leder. Katoen is die Baumwolle."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In een winkel vraag je: Haben Sie die Schuhe auch in Größe 39? Wat vraag je?",
+          "opties": [
+            "of ze de schoenen ook in maat 39 hebben",
+            "hoeveel de schoenen kosten",
+            "of de schoenen groot genoeg zijn voor jou",
+            "waar de schoenen gemaakt zijn"
+          ],
+          "antwoord": 0,
+          "uitleg": "Die Größe: de maat. Was kosten die Schuhe? zou de prijs zijn."
+        }
+      ]
+    },
+    {
+      "titel": "Woordvelden: thuis, eten, winkelen en media — deel 1",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke woorden zijn kamers in een huis? Duid alles aan wat klopt.",
+          "opties": [
+            "das Schlafzimmer",
+            "der Schrank",
+            "die Küche",
+            "der Stuhl",
+            "das Badezimmer"
+          ],
+          "antwoord": [
+            0,
+            2,
+            4
+          ],
+          "uitleg": "Schlafzimmer, Küche en Badezimmer zijn kamers. Schrank (kast) en Stuhl (stoel) zijn meubels."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is der Schrank?",
+          "opties": [
+            "de kast",
+            "de stoel",
+            "de lamp",
+            "de zetel"
+          ],
+          "antwoord": 0,
+          "uitleg": "Der Schrank: de kast. Der Stuhl is de stoel, die Lampe de lamp, das Sofa de zetel."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Waar kook je? Vul aan: in der ...",
+          "antwoord": [
+            "Küche",
+            "Kueche"
+          ],
+          "uitleg": "Die Küche: de keuken. Daar staan der Herd (fornuis) en der Kühlschrank (koelkast)."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Der Kühlschrank is de koelkast.",
+          "antwoord": true,
+          "uitleg": "Kühl betekent koel. Der Schrank is de kast."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Der Tisch is de stoel.",
+          "antwoord": false,
+          "uitleg": "Der Tisch is de tafel. De stoel is der Stuhl."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent Ich wohne in einer Wohnung im dritten Stock?",
+          "opties": [
+            "Ik woon in een appartement op de derde verdieping.",
+            "Ik woon in een huis met drie kamers.",
+            "Ik woon in de derde straat.",
+            "Ik woon al drie jaar in een huis met een tuin."
+          ],
+          "antwoord": 0,
+          "uitleg": "Die Wohnung: het appartement. Der Stock: de verdieping. Im dritten Stock: op de derde."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat doe je met Ich putze mir die Zähne?",
+          "opties": [
+            "je tanden poetsen",
+            "je haren wassen",
+            "je aankleden",
+            "je gezicht wassen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Die Zähne putzen: de tanden poetsen. Sich anziehen is zich aankleden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Ich stehe um sieben Uhr auf. Wat doe je om zeven uur?",
+          "opties": [
+            "opstaan",
+            "slapen gaan",
+            "ontbijten",
+            "vertrekken"
+          ],
+          "antwoord": 0,
+          "uitleg": "Aufstehen is scheidbaar: ich stehe ... auf. Slapen gaan is ins Bett gehen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul het werkwoord in voor ontbijten: Ich ... um halb acht.",
+          "antwoord": [
+            "frühstücke",
+            "fruehstuecke"
+          ],
+          "uitleg": "Frühstücken: ontbijten. Das Frühstück: het ontbijt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent Ich räume mein Zimmer auf?",
+          "opties": [
+            "Ik ruim mijn kamer op.",
+            "Ik verf mijn kamer.",
+            "Ik verlaat mijn kamer.",
+            "Ik zoek mijn kamer."
+          ],
+          "antwoord": 0,
+          "uitleg": "Aufräumen: opruimen. Scheidbaar: ich räume auf."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke voorwerpen steek je meestal in je tas als je naar school gaat? Duid alles aan wat klopt.",
+          "opties": [
+            "der Schlüssel",
+            "der Staubsauger",
+            "das Handy",
+            "der Kühlschrank"
+          ],
+          "antwoord": [
+            0,
+            2
+          ],
+          "uitleg": "Der Schlüssel (sleutel) en das Handy (gsm). Een stofzuiger en een koelkast neem je niet mee."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Das Handy is een gsm.",
+          "antwoord": true,
+          "uitleg": "In Duitsland zegt men das Handy. Ook das Smartphone."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat doe je als je eine Nachricht schickst?",
+          "opties": [
+            "een bericht sturen",
+            "een pakje ophalen",
+            "een film kijken",
+            "een liedje zingen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Die Nachricht: het bericht. Schicken: sturen. Ook: eine SMS schreiben."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent herunterladen?",
+          "opties": [
+            "downloaden",
+            "uploaden",
+            "afdrukken",
+            "wissen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Herunterladen: downloaden. Hochladen: uploaden. Drucken: afdrukken."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: Ich ... meine Oma an. (ik bel mijn oma op)",
+          "antwoord": [
+            "rufe"
+          ],
+          "uitleg": "Anrufen is scheidbaar: ich rufe dich an, ik bel je op."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Der Bildschirm is het scherm.",
+          "antwoord": true,
+          "uitleg": "Das Bild is het beeld, der Schirm het scherm."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is die Tastatur?",
+          "opties": [
+            "het toetsenbord",
+            "de muis",
+            "de printer",
+            "de luidspreker"
+          ],
+          "antwoord": 0,
+          "uitleg": "Die Taste is de toets. De muis is die Maus, de printer der Drucker."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat doe je met der Staubsauger?",
+          "opties": [
+            "stofzuigen",
+            "koken",
+            "wassen",
+            "strijken"
+          ],
+          "antwoord": 0,
+          "uitleg": "Der Staub: het stof. Saugen: zuigen. Staubsaugen: stofzuigen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Die Treppe is de lift.",
+          "antwoord": false,
+          "uitleg": "Die Treppe is de trap. De lift is der Aufzug of der Lift."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat doet iemand die abends fernsieht?",
+          "opties": [
+            "televisie kijken",
+            "ver weg kijken",
+            "naar de radio luisteren",
+            "boeken lezen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Fernsehen: televisie kijken. Der Fernseher: de televisie."
+        }
+      ]
+    },
+    {
+      "titel": "Woordvelden: thuis, eten, winkelen en media — deel 2",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat drink je uit een Tasse?",
+          "opties": [
+            "koffie of thee",
+            "soep",
+            "wijn",
+            "water uit de kraan"
+          ],
+          "antwoord": 0,
+          "uitleg": "Eine Tasse Kaffee, eine Tasse Tee: een kop. Ein Glas Wasser: een glas."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is das Brötchen?",
+          "opties": [
+            "een broodje",
+            "een koekje",
+            "een taart",
+            "een boterham met kaas"
+          ],
+          "antwoord": 0,
+          "uitleg": "Das Brötchen: het (ronde) broodje. Das Brot: het brood."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Wat is het Duitse woord voor de melk? Schrijf het met lidwoord.",
+          "antwoord": [
+            "die Milch"
+          ],
+          "uitleg": "Die Milch. Ook die Butter, der Käse (kaas), das Ei (ei)."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Das Fleisch is vlees.",
+          "antwoord": true,
+          "uitleg": "Das Fleisch: vlees. Der Fisch: vis. Vegetarier eten geen vlees."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Die Kartoffel is de wortel.",
+          "antwoord": false,
+          "uitleg": "Die Kartoffel is de aardappel. De wortel is die Karotte of die Möhre."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke woorden zijn groenten? Duid alles aan wat klopt.",
+          "opties": [
+            "die Gurke",
+            "der Apfel",
+            "die Zwiebel",
+            "die Banane",
+            "die Karotte"
+          ],
+          "antwoord": [
+            0,
+            2,
+            4
+          ],
+          "uitleg": "Gurke (komkommer), Zwiebel (ui) en Karotte (wortel) zijn Gemüse. Apfel en Banane zijn Obst."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je zit op restaurant. Hoe vraag je de rekening?",
+          "opties": [
+            "Die Rechnung, bitte!",
+            "Die Speisekarte, bitte!",
+            "Guten Appetit!",
+            "Ich habe Hunger!"
+          ],
+          "antwoord": 0,
+          "uitleg": "Die Rechnung: de rekening. Of: Zahlen, bitte! Die Speisekarte is de menukaart."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waar kan je brood kopen? Duid alles aan wat klopt.",
+          "opties": [
+            "in der Bäckerei",
+            "in der Apotheke",
+            "im Supermarkt",
+            "in der Post"
+          ],
+          "antwoord": [
+            0,
+            2
+          ],
+          "uitleg": "Bij de bakker en in de supermarkt. In der Apotheke koop je medicijnen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is der Supermarkt?",
+          "opties": [
+            "de supermarkt",
+            "de markt op het plein",
+            "de bank",
+            "het postkantoor"
+          ],
+          "antwoord": 0,
+          "uitleg": "Der Supermarkt. Op de markt zeg je auf dem Markt."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: Was ... das? (Hoeveel kost dat?)",
+          "antwoord": [
+            "kostet"
+          ],
+          "uitleg": "Was kostet das? of Wie viel kostet das? Kosten, es kostet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een prijs: 3,50 €. Hoe zeg je dat?",
+          "opties": [
+            "drei Euro fünfzig",
+            "dreißig Euro fünf",
+            "drei Euro fünfzehn",
+            "drei fünfzig Cent"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je leest het als drie euro en vijftig cent: drei Euro fünfzig."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel is ein Kilo?",
+          "opties": [
+            "duizend gram",
+            "honderd gram",
+            "vijfhonderd gram",
+            "tien gram"
+          ],
+          "antwoord": 0,
+          "uitleg": "Ein Kilo(gramm): 1000 Gramm. Ein Pfund: een pond, 500 gram."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is eine Flasche?",
+          "opties": [
+            "een fles",
+            "een blik",
+            "een doos",
+            "een zak"
+          ],
+          "antwoord": 0,
+          "uitleg": "Eine Flasche Wasser: een fles water. Eine Dose: een blik, eine Packung: een pak."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Ein Liter is honderd milliliter.",
+          "antwoord": false,
+          "uitleg": "Ein Liter is 1000 Milliliter. Ein halber Liter: een halve liter."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Schrijf het getal in cijfers: siebenundzwanzig",
+          "antwoord": [
+            "27"
+          ],
+          "uitleg": "In het Duits zeg je eerst de eenheden: sieben-und-zwanzig, zoals zevenentwintig in het Nederlands."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Schrijf het getal in cijfers: hundertachtzig",
+          "antwoord": [
+            "180"
+          ],
+          "uitleg": "Hundert (100) en achtzig (80)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk getal is dreizehn?",
+          "opties": [
+            "13",
+            "30",
+            "3",
+            "33"
+          ],
+          "antwoord": 0,
+          "uitleg": "Dreizehn: dertien. Dreißig is dertig, met ß."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Ein Stück Kuchen betekent een stuk taart.",
+          "antwoord": true,
+          "uitleg": "Das Stück: het stuk. Der Kuchen: de taart, de cake."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent Ich hätte gern ein Kilo Äpfel?",
+          "opties": [
+            "Ik had graag een kilo appels.",
+            "Ik heb een kilo appels gegeten.",
+            "Ik verkoop een kilo appels.",
+            "Ik hou niet van appels."
+          ],
+          "antwoord": 0,
+          "uitleg": "Ich hätte gern ...: ik had graag ... Een beleefde manier om iets te vragen in een winkel."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke dranken bevatten geen alcohol? Duid alles aan wat klopt.",
+          "opties": [
+            "Saft",
+            "Bier",
+            "Wasser",
+            "Wein",
+            "Tee"
+          ],
+          "antwoord": [
+            0,
+            2,
+            4
+          ],
+          "uitleg": "Der Saft (sap), das Wasser en der Tee. Bier en Wein bevatten alcohol."
+        }
+      ]
+    },
+    {
+      "titel": "Woordvelden: school, werk, vrije tijd, reizen en weer — deel 1",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is das Fach op school?",
+          "opties": [
+            "het vak",
+            "de les",
+            "de klas",
+            "het bord"
+          ],
+          "antwoord": 0,
+          "uitleg": "Das Fach: het vak. Mein Lieblingsfach ist Mathe. Die Stunde is het lesuur."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Op een toets staat: Kreuze die richtige Antwort an. Wat moet je doen?",
+          "opties": [
+            "het juiste antwoord aankruisen",
+            "het antwoord onderstrepen",
+            "het antwoord uitleggen",
+            "een kruis door de vraag zetten"
+          ],
+          "antwoord": 0,
+          "uitleg": "Ankreuzen: aankruisen. Unterstreichen: onderstrepen. Instructietaal herken je beter als je ze vooraf kent."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Ergänze die Sätze. Wat moet je doen?",
+          "opties": [
+            "de zinnen aanvullen",
+            "de zinnen vertalen",
+            "de zinnen voorlezen",
+            "de zinnen verbeteren"
+          ],
+          "antwoord": 0,
+          "uitleg": "Ergänzen: aanvullen. Übersetzen: vertalen. Korrigieren: verbeteren."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Ordne zu. Wat moet je doen?",
+          "opties": [
+            "verbinden wat bij elkaar hoort",
+            "alles in volgorde zetten van klein naar groot",
+            "de fouten zoeken",
+            "een tekst schrijven"
+          ],
+          "antwoord": 0,
+          "uitleg": "Zuordnen: koppelen, verbinden wat samen hoort. Ordnen alleen is rangschikken."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Lies den Text betekent lees de tekst.",
+          "antwoord": true,
+          "uitleg": "Lesen, du liest: lies! is de imperativus. Hör zu! is luister."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Die Hausaufgaben zijn de huishoudelijke taken.",
+          "antwoord": false,
+          "uitleg": "Die Hausaufgaben zijn het huiswerk. Huishoudelijke taken zijn die Hausarbeit."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Wat is het Duitse woord voor de leraar (een man)? Schrijf het met lidwoord.",
+          "antwoord": [
+            "der Lehrer"
+          ],
+          "uitleg": "Der Lehrer, die Lehrerin. Der Schüler, die Schülerin: de leerling."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat doet ein Koch?",
+          "opties": [
+            "koken",
+            "schilderen",
+            "auto's herstellen",
+            "lesgeven"
+          ],
+          "antwoord": 0,
+          "uitleg": "Der Koch: de kok. Een koekje is ein Keks."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wie werkt meestal in een ziekenhuis? Duid alles aan wat klopt.",
+          "opties": [
+            "die Krankenpflegerin",
+            "die Supermarktverkäuferin",
+            "der Arzt",
+            "der Bäcker"
+          ],
+          "antwoord": [
+            0,
+            2
+          ],
+          "uitleg": "Die Krankenpflegerin (verpleegster) en der Arzt (dokter). Das Krankenhaus: het ziekenhuis."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is der Beruf van iemand die zegt: Ich repariere Autos?",
+          "opties": [
+            "Mechaniker",
+            "Lehrer",
+            "Arzt",
+            "Kellner"
+          ],
+          "antwoord": 0,
+          "uitleg": "Der Mechaniker herstelt auto's. Der Kellner is de ober."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Der Kellner werkt in een restaurant.",
+          "antwoord": true,
+          "uitleg": "Der Kellner, die Kellnerin: de ober, de dienster."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: Ich möchte später Ärztin ... (worden)",
+          "antwoord": [
+            "werden"
+          ],
+          "uitleg": "Werden: worden. Was willst du werden? Wat wil je worden?"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke sporten doe je in het water? Duid alles aan wat klopt.",
+          "opties": [
+            "schwimmen",
+            "reiten",
+            "tauchen",
+            "klettern"
+          ],
+          "antwoord": [
+            0,
+            2
+          ],
+          "uitleg": "Schwimmen (zwemmen) en tauchen (duiken). Reiten is paardrijden, klettern is klimmen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent Ich spiele gern Tennis?",
+          "opties": [
+            "Ik speel graag tennis.",
+            "Ik kijk graag naar tennis.",
+            "Ik speel nooit tennis.",
+            "Ik zou tennis willen leren."
+          ],
+          "antwoord": 0,
+          "uitleg": "Gern: graag. Spielen: spelen. Nicht gern: niet graag."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is ein Hobby?",
+          "opties": [
+            "iets wat je in je vrije tijd doet",
+            "een soort sport die je met een bal speelt",
+            "een beroep",
+            "een schoolvak"
+          ],
+          "antwoord": 0,
+          "uitleg": "Das Hobby. Was sind deine Hobbys? Ook die Freizeit: de vrije tijd."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Wandern betekent zwemmen.",
+          "antwoord": false,
+          "uitleg": "Wandern: (een trektocht) wandelen. Zwemmen is schwimmen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke vrijetijdsbesteding past bij: Ich gehe ins Kino?",
+          "opties": [
+            "een film bekijken",
+            "een concert spelen",
+            "gaan zwemmen",
+            "gaan shoppen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Das Kino: de bioscoop. Ins Kino gehen: naar de film gaan."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Op welke dagen is er bij ons meestal geen school? Duid alles aan wat klopt.",
+          "opties": [
+            "Sonntag",
+            "Montag",
+            "Samstag",
+            "Donnerstag"
+          ],
+          "antwoord": [
+            0,
+            2
+          ],
+          "uitleg": "Samstag en Sonntag: zaterdag en zondag."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul het werkwoord aan: Ich ... Klavier. (ik speel piano)",
+          "antwoord": [
+            "spiele"
+          ],
+          "uitleg": "Spielen, ich spiele. Een instrument zonder lidwoord: ich spiele Gitarre, ich spiele Klavier."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent die Pause op school?",
+          "opties": [
+            "de speeltijd",
+            "de lesdag",
+            "de les",
+            "het rapport"
+          ],
+          "antwoord": 0,
+          "uitleg": "Die Pause: de pauze, de speeltijd. Das Zeugnis: het rapport."
+        }
+      ]
+    },
+    {
+      "titel": "Woordvelden: school, werk, vrije tijd, reizen en weer — deel 2",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe ga je naar school als je zegt: Ich fahre mit dem Rad?",
+          "opties": [
+            "met de fiets",
+            "met de auto",
+            "te voet",
+            "met de bus"
+          ],
+          "antwoord": 0,
+          "uitleg": "Das Rad of das Fahrrad: de fiets. Zu Fuß gehen: te voet gaan."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke woorden zijn vervoermiddelen? Duid alles aan wat klopt.",
+          "opties": [
+            "der Zug",
+            "der Bahnhof",
+            "die Straßenbahn",
+            "die Fahrkarte",
+            "das Flugzeug"
+          ],
+          "antwoord": [
+            0,
+            2,
+            4
+          ],
+          "uitleg": "Zug (trein), Straßenbahn (tram) en Flugzeug (vliegtuig). Bahnhof is het station, Fahrkarte het kaartje."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan met het juiste voorzetsel: Ich fahre ... dem Bus. (met de bus)",
+          "antwoord": [
+            "mit"
+          ],
+          "uitleg": "Mit + datief: mit dem Bus, mit der Bahn, mit dem Auto."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Der Bahnhof is het station.",
+          "antwoord": true,
+          "uitleg": "Der Bahnhof: het treinstation. Der Flughafen: de luchthaven."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent Ich möchte eine Fahrkarte nach Berlin?",
+          "opties": [
+            "Ik wil een treinkaartje naar Berlijn.",
+            "Ik wil met de auto naar Berlijn rijden.",
+            "Ik wil een kaart van Berlijn.",
+            "Ik woon in Berlijn."
+          ],
+          "antwoord": 0,
+          "uitleg": "Die Fahrkarte: het vervoerbewijs. Hin und zurück: heen en terug."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waar slaap je op een kampeervakantie?",
+          "opties": [
+            "im Zelt",
+            "im Hotel",
+            "in der Jugendherberge",
+            "in der Ferienwohnung"
+          ],
+          "antwoord": 0,
+          "uitleg": "Das Zelt: de tent. Der Campingplatz: de camping. Die Jugendherberge: de jeugdherberg."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat neem je mee als je naar het buitenland reist?",
+          "opties": [
+            "den Reisepass",
+            "die Hausaufgaben",
+            "die Speisekarte",
+            "den Stundenplan"
+          ],
+          "antwoord": 0,
+          "uitleg": "Der Reisepass: het paspoort. Ook der Koffer (de koffer)."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Die Ferien betekent de feestdagen.",
+          "antwoord": false,
+          "uitleg": "Die Ferien: de (school)vakantie. Ook der Urlaub, voor wie werkt. Feestdagen zijn die Feiertage."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Es regnet. Wat voor weer is het?",
+          "opties": [
+            "het regent",
+            "het sneeuwt",
+            "de zon schijnt",
+            "het waait"
+          ],
+          "antwoord": 0,
+          "uitleg": "Regnen: regenen. Schneien: sneeuwen. Die Sonne scheint: de zon schijnt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Die Blätter fallen von den Bäumen. Welk seizoen is het?",
+          "opties": [
+            "Herbst",
+            "Sommer",
+            "Frühling",
+            "Winter"
+          ],
+          "antwoord": 0,
+          "uitleg": "Der Herbst: de herfst. Der Frühling: de lente, der Sommer, der Winter."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Wat is het Duitse woord voor de zon? Schrijf het met lidwoord.",
+          "antwoord": [
+            "die Sonne"
+          ],
+          "uitleg": "Die Sonne. Let op: in het Duits is de zon vrouwelijk, de maan (der Mond) mannelijk."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Es ist heiß betekent het is koud.",
+          "antwoord": false,
+          "uitleg": "Heiß: heet. Kalt: koud. Warm: warm."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke maand komt na Juni?",
+          "opties": [
+            "Juli",
+            "Mai",
+            "August",
+            "April"
+          ],
+          "antwoord": 0,
+          "uitleg": "Januar, Februar, März, April, Mai, Juni, Juli, August, September, Oktober, November, Dezember."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke woorden zijn feesten? Duid alles aan wat klopt.",
+          "opties": [
+            "Weihnachten",
+            "Herbst",
+            "Ostern",
+            "Mittwoch",
+            "Silvester"
+          ],
+          "antwoord": [
+            0,
+            2,
+            4
+          ],
+          "uitleg": "Weihnachten (Kerstmis), Ostern (Pasen) en Silvester (oudejaarsavond). Herbst is een seizoen, Mittwoch een dag."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan met het Duitse woord voor woensdag: Am ... habe ich Sport.",
+          "antwoord": [
+            "Mittwoch"
+          ],
+          "uitleg": "Der Mittwoch: woensdag, letterlijk het midden van de week."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Es ist halb acht. Hoe laat is het?",
+          "opties": [
+            "half acht",
+            "half negen",
+            "acht uur dertig",
+            "zeven uur dertig, 's avonds"
+          ],
+          "antwoord": 0,
+          "uitleg": "Halb acht is half acht, net zoals in het Nederlands: 7.30 uur."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Es ist Viertel nach drei. Hoe laat is het?",
+          "opties": [
+            "kwart over drie",
+            "kwart voor drie",
+            "drie uur",
+            "half vier"
+          ],
+          "antwoord": 0,
+          "uitleg": "Viertel nach: kwart over. Viertel vor: kwart voor."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Um 20 Uhr betekent om acht uur 's avonds.",
+          "antwoord": true,
+          "uitleg": "In het Duits gebruikt men vaak de 24-uursnotatie: 20 Uhr is acht uur 's avonds."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent Die Post ist neben der Bank?",
+          "opties": [
+            "De post is naast de bank.",
+            "De post is achter de bank.",
+            "De post is tegenover de bank.",
+            "De post is in de bank."
+          ],
+          "antwoord": 0,
+          "uitleg": "Neben: naast. Hinter: achter. Gegenüber: tegenover. In: in."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent Ich bin am Wochenende zu Hause?",
+          "opties": [
+            "Ik ben in het weekend thuis.",
+            "Ik ga in het weekend naar huis.",
+            "Ik heb in het weekend een huis.",
+            "Ik werk in het weekend thuis."
+          ],
+          "antwoord": 0,
+          "uitleg": "Zu Hause: thuis. Nach Hause: naar huis."
+        }
+      ]
+    },
+    {
+      "titel": "Lidwoorden, meervoud en naamvallen — deel 1",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk lidwoord hoort bij Tisch?",
+          "opties": [
+            "der",
+            "die",
+            "das",
+            "den"
+          ],
+          "antwoord": 0,
+          "uitleg": "Der Tisch is mannelijk. Leer een zelfstandig naamwoord altijd samen met zijn lidwoord."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke woorden zijn onzijdig (das)? Duid alles aan wat klopt.",
+          "opties": [
+            "Mädchen",
+            "Montag",
+            "Brötchen",
+            "Sonne"
+          ],
+          "antwoord": [
+            0,
+            2
+          ],
+          "uitleg": "Woorden op -chen en -lein zijn altijd onzijdig: das Mädchen, das Brötchen. Der Montag, die Sonne."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke woorden zijn vrouwelijk (die)? Duid alles aan wat klopt.",
+          "opties": [
+            "Zeitung",
+            "Mädchen",
+            "Freiheit",
+            "Tisch",
+            "Station"
+          ],
+          "antwoord": [
+            0,
+            2,
+            4
+          ],
+          "uitleg": "Woorden op -ung, -heit, -keit en -ion zijn vrouwelijk. Das Mädchen is onzijdig (-chen), der Tisch mannelijk."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In het Duits schrijf je elk zelfstandig naamwoord met een hoofdletter.",
+          "antwoord": true,
+          "uitleg": "Der Hund, die Schule, das Buch. Zo herken je in een tekst meteen de zelfstandige naamwoorden."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Het meervoud van het bepaald lidwoord is voor de drie geslachten die.",
+          "antwoord": true,
+          "uitleg": "Der Mann, die Männer; die Frau, die Frauen; das Kind, die Kinder."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het meervoud van das Kind?",
+          "opties": [
+            "die Kinder",
+            "die Kinds",
+            "die Kinden",
+            "das Kinder"
+          ],
+          "antwoord": 0,
+          "uitleg": "Das Kind, die Kinder. Duitse meervouden moet je vaak samen met het woord leren."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke meervouden zijn juist? Duid alles aan wat klopt.",
+          "opties": [
+            "die Äpfel",
+            "die Kinds",
+            "die Katzen",
+            "die Autoen"
+          ],
+          "antwoord": [
+            0,
+            2
+          ],
+          "uitleg": "Der Apfel, die Äpfel; die Katze, die Katzen. Das Kind wordt die Kinder, das Auto die Autos."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Geef het meervoud van die Katze, met lidwoord.",
+          "antwoord": [
+            "die Katzen"
+          ],
+          "uitleg": "Veel vrouwelijke woorden op -e krijgen -n: die Katze, die Katzen; die Lampe, die Lampen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Geef het meervoud van das Auto, met lidwoord.",
+          "antwoord": [
+            "die Autos"
+          ],
+          "uitleg": "Leenwoorden en woorden op -o of -a krijgen vaak -s: das Auto, die Autos; das Kino, die Kinos."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk onbepaald lidwoord hoort bij Hund (nominatief)?",
+          "opties": [
+            "ein",
+            "eine",
+            "einen",
+            "einem"
+          ],
+          "antwoord": 0,
+          "uitleg": "Der Hund, ein Hund. Bij een mannelijk en onzijdig woord is het in de nominatief ein."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk onbepaald lidwoord hoort bij Lampe (nominatief)?",
+          "opties": [
+            "eine",
+            "ein",
+            "einen",
+            "einer"
+          ],
+          "antwoord": 0,
+          "uitleg": "Die Lampe, eine Lampe."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Het onbepaald lidwoord ein heeft een meervoud: eine.",
+          "antwoord": false,
+          "uitleg": "Ein heeft geen meervoud: ein Kind, Kinder. Eine is de vrouwelijke vorm."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe zeg je: ik heb geen auto?",
+          "opties": [
+            "Ich habe kein Auto.",
+            "Ich habe nicht ein Auto.",
+            "Ich habe nicht Auto.",
+            "Ich habe keinen Auto."
+          ],
+          "antwoord": 0,
+          "uitleg": "Kein ontkent een zelfstandig naamwoord met een of zonder lidwoord. Das Auto is onzijdig: kein Auto."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke woorden zijn mannelijk (der)? Duid alles aan wat klopt.",
+          "opties": [
+            "Montag",
+            "Sonne",
+            "Winter",
+            "Haus",
+            "Mai"
+          ],
+          "antwoord": [
+            0,
+            2,
+            4
+          ],
+          "uitleg": "Dagen, maanden en seizoenen zijn mannelijk: der Montag, der Mai, der Winter."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Das Wetter is onzijdig.",
+          "antwoord": true,
+          "uitleg": "Das Wetter. In het Nederlands het weer: hier zijn de twee talen gelijk."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Die Sonne is mannelijk.",
+          "antwoord": false,
+          "uitleg": "Die Sonne is vrouwelijk, der Mond mannelijk. Het geslacht verschilt soms van het Nederlands."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk lidwoord hoort bij Schwimmbad, en waarom?",
+          "opties": [
+            "das, want het laatste deel Bad is onzijdig",
+            "der, want schwimmen is een werkwoord",
+            "die, want het eindigt op een medeklinker",
+            "den, want het is een plaats"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij een samengesteld woord bepaalt het laatste deel het geslacht: das Bad, dus das Schwimmbad."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul het juiste lidwoord in (nominatief): ... Buch ist spannend.",
+          "antwoord": [
+            "Das",
+            "das"
+          ],
+          "uitleg": "Das Buch: het boek. Spannend: spannend."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul het juiste lidwoord in (nominatief): ... Lehrerin ist nett.",
+          "antwoord": [
+            "Die",
+            "die"
+          ],
+          "uitleg": "Die Lehrerin. De vrouwelijke vorm op -in is altijd vrouwelijk."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke rij is juist?",
+          "opties": [
+            "der Vater, die Mutter, das Kind",
+            "die Vater, der Mutter, das Kind",
+            "das Vater, die Mutter, der Kind",
+            "der Vater, das Mutter, die Kind"
+          ],
+          "antwoord": 0,
+          "uitleg": "Mannen en jongens zijn meestal mannelijk, vrouwen en meisjes vrouwelijk, met das Mädchen als uitzondering."
+        }
+      ]
+    },
+    {
+      "titel": "Lidwoorden, meervoud en naamvallen — deel 2",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Ich sehe ... Hund. Welk lidwoord past?",
+          "opties": [
+            "den",
+            "der",
+            "dem",
+            "des"
+          ],
+          "antwoord": 0,
+          "uitleg": "Der Hund is lijdend voorwerp: accusatief. Alleen bij mannelijk verandert der in den."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Ich kaufe ... Tasche. Welk lidwoord past?",
+          "opties": [
+            "die",
+            "der",
+            "den",
+            "dem"
+          ],
+          "antwoord": 0,
+          "uitleg": "Vrouwelijk blijft in de accusatief die. Alleen het mannelijk verandert."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Ich habe ... Bruder. Welk lidwoord past?",
+          "opties": [
+            "einen",
+            "ein",
+            "eine",
+            "einem"
+          ],
+          "antwoord": 0,
+          "uitleg": "Haben neemt een accusatief: einen Bruder. Ein wordt einen bij een mannelijk woord."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In de accusatief verandert alleen het mannelijk lidwoord.",
+          "antwoord": true,
+          "uitleg": "Der wordt den, ein wordt einen. Die, das en het meervoud die blijven gelijk."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul het lidwoord in: Ich trinke ... Kaffee. (der Kaffee)",
+          "antwoord": [
+            "den"
+          ],
+          "uitleg": "Kaffee is lijdend voorwerp, dus accusatief: den Kaffee."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Ich gebe ... Mann das Buch. Welk lidwoord past?",
+          "opties": [
+            "dem",
+            "den",
+            "der",
+            "des"
+          ],
+          "antwoord": 0,
+          "uitleg": "Aan wie geef ik het? De man is meewerkend voorwerp: datief. Der wordt dem."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke werkwoorden nemen een datief? Duid alles aan wat klopt.",
+          "opties": [
+            "helfen",
+            "sehen",
+            "danken",
+            "kaufen",
+            "gehören"
+          ],
+          "antwoord": [
+            0,
+            2,
+            4
+          ],
+          "uitleg": "Helfen, danken en gehören nemen een datief: ich helfe der Frau. Sehen en kaufen nemen een accusatief."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke vormen zijn datief? Duid alles aan wat klopt.",
+          "opties": [
+            "dem",
+            "den Hund (enkelvoud)",
+            "der Frau",
+            "die Frau",
+            "den Kindern"
+          ],
+          "antwoord": [
+            0,
+            2,
+            4
+          ],
+          "uitleg": "Datief: dem (m en o), der (v), den + -n (meervoud). Den Hund in het enkelvoud is accusatief."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In de datief meervoud krijgt het zelfstandig naamwoord meestal een -n: mit den Kindern.",
+          "antwoord": true,
+          "uitleg": "Den Kindern, den Freunden. Behalve als het al op -n of -s eindigt: den Autos."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul het lidwoord in: Ich schreibe ... Oma eine Karte. (die Oma)",
+          "antwoord": [
+            "der"
+          ],
+          "uitleg": "De oma krijgt de kaart: meewerkend voorwerp, datief. Die wordt der."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In Der Lehrer gibt dem Schüler einen Tipp: wat is het onderwerp?",
+          "opties": [
+            "der Lehrer",
+            "dem Schüler",
+            "einen Tipp",
+            "gibt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het onderwerp staat in de nominatief: der Lehrer. Wie geeft? De leraar."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In Der Lehrer gibt dem Schüler einen Tipp: wat is het lijdend voorwerp?",
+          "opties": [
+            "einen Tipp",
+            "dem Schüler",
+            "der Lehrer",
+            "gibt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Wat geeft hij? Een tip: accusatief, einen Tipp."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In Der Lehrer gibt dem Schüler einen Tipp: wat is het meewerkend voorwerp?",
+          "opties": [
+            "dem Schüler",
+            "einen Tipp",
+            "der Lehrer",
+            "gibt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Aan wie? Aan de leerling: datief, dem Schüler."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Den Hund beißt der Mann betekent: de hond bijt de man.",
+          "antwoord": false,
+          "uitleg": "Den Hund is accusatief, dus lijdend voorwerp. Der Mann is het onderwerp: de man bijt de hond. De naamval zegt wie wat doet, niet de plaats in de zin."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin is juist? (ik heb geen hond)",
+          "opties": [
+            "Ich habe keinen Hund.",
+            "Ich habe kein Hund.",
+            "Ich habe keine Hund.",
+            "Ich habe keinem Hund."
+          ],
+          "antwoord": 0,
+          "uitleg": "Kein volgt ein: in de accusatief mannelijk keinen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul het lidwoord in: Das gehört ... Kind. (das Kind)",
+          "antwoord": [
+            "dem"
+          ],
+          "uitleg": "Gehören neemt een datief: het hoort bij het kind. Onzijdig datief: dem."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In Ich frage den Lehrer: welke naamval is den Lehrer?",
+          "opties": [
+            "accusatief",
+            "nominatief",
+            "datief",
+            "genitief"
+          ],
+          "antwoord": 0,
+          "uitleg": "Den is de accusatief mannelijk. Fragen neemt een accusatief: ich frage den Lehrer."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin is juist? (ik dank je)",
+          "opties": [
+            "Ich danke dir.",
+            "Ich danke dich.",
+            "Ich danke du.",
+            "Ich danke deinen."
+          ],
+          "antwoord": 0,
+          "uitleg": "Danken neemt een datief, net als helfen en gehören: ich danke dir."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Na es gibt staat een datief: Es gibt einem Park.",
+          "antwoord": false,
+          "uitleg": "Es gibt: er is, er zijn. Daarna volgt altijd de accusatief: Es gibt einen Park."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Ich zeige ... Freunden die Stadt. Welk lidwoord past?",
+          "opties": [
+            "meinen",
+            "meine",
+            "meiner",
+            "mein"
+          ],
+          "antwoord": 0,
+          "uitleg": "Datief meervoud: meinen Freunden, met -n achter het naamwoord."
+        }
+      ]
+    },
+    {
+      "titel": "Voornaamwoorden: persoonlijk, bezittelijk, aanwijzend en vragend — deel 1",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk voornaamwoord gebruik je voor wij?",
+          "opties": [
+            "wir",
+            "ihr",
+            "sie",
+            "uns"
+          ],
+          "antwoord": 0,
+          "uitleg": "Ich, du, er, sie, es, wir, ihr, sie, Sie. Ihr is jullie."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent ihr in Kommt ihr morgen?",
+          "opties": [
+            "jullie",
+            "haar",
+            "zij",
+            "u"
+          ],
+          "antwoord": 0,
+          "uitleg": "Ihr als onderwerp is jullie. Ihr kan ook haar betekenen, maar dan in de datief: ich helfe ihr."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Sie met een hoofdletter is de beleefde vorm: u.",
+          "antwoord": true,
+          "uitleg": "Kommen Sie morgen? Komt u morgen? Het werkwoord staat dan in het meervoud."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Ich sehe ... (hem). Welke vorm past?",
+          "opties": [
+            "ihn",
+            "er",
+            "ihm",
+            "sein"
+          ],
+          "antwoord": 0,
+          "uitleg": "Accusatief van er is ihn. Ihm is de datief."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zinnen zijn juist? Duid alles aan wat klopt.",
+          "opties": [
+            "Ich helfe ihm.",
+            "Ich helfe ihn.",
+            "Ich sehe ihn.",
+            "Ich sehe ihm."
+          ],
+          "antwoord": [
+            0,
+            2
+          ],
+          "uitleg": "Helfen neemt een datief (ihm), sehen een accusatief (ihn)."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: Kannst du ... helfen? (mij)",
+          "antwoord": [
+            "mir"
+          ],
+          "uitleg": "Helfen + datief: mir. De accusatief is mich."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: Ich liebe ... (jou)",
+          "antwoord": [
+            "dich"
+          ],
+          "uitleg": "Lieben + accusatief: dich. De datief is dir."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke persoonlijke voornaamwoorden zijn accusatief? Duid alles aan wat klopt.",
+          "opties": [
+            "mich",
+            "mir",
+            "ihn",
+            "ihm",
+            "dich"
+          ],
+          "antwoord": [
+            0,
+            2,
+            4
+          ],
+          "uitleg": "Accusatief: mich, dich, ihn. Mir en ihm zijn datief."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke persoonlijke voornaamwoorden zijn datief? Duid alles aan wat klopt.",
+          "opties": [
+            "mir",
+            "dich",
+            "ihm",
+            "ihn",
+            "Ihnen"
+          ],
+          "antwoord": [
+            0,
+            2,
+            4
+          ],
+          "uitleg": "Datief: mir, dir, ihm, ihr, ihm, uns, euch, ihnen, Ihnen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Uns is zowel de accusatief als de datief van wir.",
+          "antwoord": true,
+          "uitleg": "Er sieht uns. Er hilft uns. Ook euch is in beide naamvallen gelijk."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Das Buch ist gut. Ich lese ... jeden Abend. Welke vorm past?",
+          "opties": [
+            "es",
+            "ihn",
+            "sie",
+            "er"
+          ],
+          "antwoord": 0,
+          "uitleg": "Das Buch is onzijdig: es. Bij der Roman zou het ihn zijn."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Die Jacke ist schön. Ich kaufe ... Welke vorm past?",
+          "opties": [
+            "sie",
+            "ihn",
+            "es",
+            "ihr"
+          ],
+          "antwoord": 0,
+          "uitleg": "Die Jacke is vrouwelijk, in de accusatief blijft dat sie."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Der Rock ist zu kurz. Ich nehme ... nicht. Welke vorm past?",
+          "opties": [
+            "ihn",
+            "er",
+            "es",
+            "sie"
+          ],
+          "antwoord": 0,
+          "uitleg": "Der Rock is mannelijk: in de accusatief ihn. Ook voor dingen, niet alleen voor personen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In het Duits verwijs je naar der Tisch met es, omdat het een ding is.",
+          "antwoord": false,
+          "uitleg": "Der Tisch ist groß. Er steht in der Küche. Het geslacht van het woord bepaalt het voornaamwoord, ook bij dingen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: Wie geht es ...? (u, beleefd)",
+          "antwoord": [
+            "Ihnen"
+          ],
+          "uitleg": "Gehen + datief: Wie geht es Ihnen? Het beleefde Sie wordt in de datief Ihnen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Meine Eltern kommen. Ich rufe ... an. Welke vorm past?",
+          "opties": [
+            "sie",
+            "ihnen",
+            "ihr",
+            "euch"
+          ],
+          "antwoord": 0,
+          "uitleg": "Anrufen + accusatief, meervoud: sie. Ich rufe sie an."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wir schenken ... ein Buch. (aan hen) Welke vorm past?",
+          "opties": [
+            "ihnen",
+            "sie",
+            "ihr",
+            "euch"
+          ],
+          "antwoord": 0,
+          "uitleg": "Schenken: geven als cadeau. Aan wie? Datief meervoud: ihnen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Mir is de accusatief van ich.",
+          "antwoord": false,
+          "uitleg": "Mir is de datief. De accusatief is mich."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Tom hat Hunger. ... isst einen Apfel. Welk voornaamwoord past?",
+          "opties": [
+            "Er",
+            "Es",
+            "Sie",
+            "Ihn"
+          ],
+          "antwoord": 0,
+          "uitleg": "Tom is het onderwerp: nominatief, mannelijk: er."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: Ich habe ein Geschenk für ... (jou)",
+          "antwoord": [
+            "dich"
+          ],
+          "uitleg": "Für neemt altijd een accusatief: für dich, für mich, für ihn."
+        }
+      ]
+    },
+    {
+      "titel": "Voornaamwoorden: persoonlijk, bezittelijk, aanwijzend en vragend — deel 2",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe zeg je mijn broer (nominatief)?",
+          "opties": [
+            "mein Bruder",
+            "meine Bruder",
+            "meinen Bruder",
+            "meiner Bruder"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bezittelijk voornaamwoord volgt ein: mein Bruder, meine Schwester, mein Kind."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe zeg je mijn zus (nominatief)?",
+          "opties": [
+            "meine Schwester",
+            "mein Schwester",
+            "meinen Schwester",
+            "meinem Schwester"
+          ],
+          "antwoord": 0,
+          "uitleg": "Vrouwelijk: meine, zoals eine."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke bezittelijke voornaamwoorden zijn juist gekoppeld? Duid alles aan wat klopt.",
+          "opties": [
+            "er: sein",
+            "sie (zij, enkelvoud): sein",
+            "wir: unser",
+            "du: euer"
+          ],
+          "antwoord": [
+            0,
+            2
+          ],
+          "uitleg": "Er: sein, sie: ihr, wir: unser, du: dein, ihr: euer."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Lisa und ... Bruder. (haar broer) Welke vorm past?",
+          "opties": [
+            "ihr",
+            "sein",
+            "sie",
+            "ihre"
+          ],
+          "antwoord": 0,
+          "uitleg": "Van een vrouw of meisje: ihr. Der Bruder is mannelijk, dus ihr zonder uitgang."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: Ich besuche ... Oma. (mijn, accusatief)",
+          "antwoord": [
+            "meine"
+          ],
+          "uitleg": "Die Oma is vrouwelijk, accusatief blijft meine."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: Ich sehe ... Vater. (mijn, accusatief)",
+          "antwoord": [
+            "meinen"
+          ],
+          "uitleg": "Der Vater is mannelijk, accusatief: meinen, zoals einen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Ich spiele mit ... Hund. (mijn, datief) Welke vorm past?",
+          "opties": [
+            "meinem",
+            "meinen",
+            "meiner",
+            "mein"
+          ],
+          "antwoord": 0,
+          "uitleg": "Mit + datief. Mannelijk datief: meinem, zoals einem."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Unser betekent jullie.",
+          "antwoord": false,
+          "uitleg": "Unser betekent onze of ons: unser Haus, unsere Schule. Jullie (bezittelijk) is euer."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Ist das Ihr Koffer? Wat betekent Ihr hier?",
+          "opties": [
+            "uw",
+            "haar",
+            "jullie",
+            "hun"
+          ],
+          "antwoord": 0,
+          "uitleg": "Met een hoofdletter is Ihr het beleefde bezittelijk voornaamwoord: uw."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke woorden zijn aanwijzende voornaamwoorden? Duid alles aan wat klopt.",
+          "opties": [
+            "dieser",
+            "welcher",
+            "diese",
+            "mein"
+          ],
+          "antwoord": [
+            0,
+            2
+          ],
+          "uitleg": "Dieser, diese, dieses: deze, dit. Welcher is vragend, mein bezittelijk."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Diese ... gefällt mir. Welk woord past?",
+          "opties": [
+            "Jacke",
+            "Pullover",
+            "Hemd",
+            "Schuh"
+          ],
+          "antwoord": 0,
+          "uitleg": "Diese past bij een vrouwelijk woord: die Jacke. Dieser Pullover, dieses Hemd, dieser Schuh."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: Ich nehme ... Rock. (deze, accusatief, der Rock)",
+          "antwoord": [
+            "diesen"
+          ],
+          "uitleg": "Dieser volgt der: in de accusatief mannelijk diesen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Das in Das ist mein Freund betekent dat of dit.",
+          "antwoord": true,
+          "uitleg": "Das is hier een aanwijzend voornaamwoord: dat is mijn vriend."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent Welches T-Shirt nimmst du?",
+          "opties": [
+            "Welk T-shirt neem je?",
+            "Wiens T-shirt neem je?",
+            "Waarom neem je een T-shirt?",
+            "Wanneer neem je het T-shirt?"
+          ],
+          "antwoord": 0,
+          "uitleg": "Welcher, welche, welches: welk(e). Het past zich aan het woord aan: das T-Shirt, welches."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke vragen zijn juist? Duid alles aan wat klopt.",
+          "opties": [
+            "Wer kommt?",
+            "Wie kommt? (wie komt er?)",
+            "Wen siehst du?",
+            "Wer siehst du?"
+          ],
+          "antwoord": [
+            0,
+            2
+          ],
+          "uitleg": "Wer als onderwerp, wen als lijdend voorwerp. Wie betekent hoe."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe vraag je wie je ziet?",
+          "opties": [
+            "Wen siehst du?",
+            "Wer siehst du?",
+            "Wem siehst du?",
+            "Wie siehst du?"
+          ],
+          "antwoord": 0,
+          "uitleg": "Wer heeft naamvallen: wer (nominatief), wen (accusatief), wem (datief)."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul het vraagwoord in: ... hilfst du? (wie help je?)",
+          "antwoord": [
+            "Wem"
+          ],
+          "uitleg": "Helfen neemt een datief, dus vraag je wem."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Het vraagwoord was betekent wie.",
+          "antwoord": false,
+          "uitleg": "Was betekent wat: Was machst du? Wie is wer, waar is wo, wanneer is wann."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Euer Haus betekent jullie huis.",
+          "antwoord": true,
+          "uitleg": "Euer: jullie (bezittelijk). Habt ihr euer Haus verkauft? Hebben jullie jullie huis verkocht?"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Unsere Lehrerin ist krank. Welk woord is het bezittelijk voornaamwoord?",
+          "opties": [
+            "Unsere",
+            "Lehrerin",
+            "ist",
+            "krank"
+          ],
+          "antwoord": 0,
+          "uitleg": "Unsere: onze. Vrouwelijk, dus met -e."
+        }
+      ]
+    },
+    {
+      "titel": "Präsens en Imperativ — deel 1",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "invultekst",
+          "vraag": "Vervoeg wohnen: ich ...",
+          "antwoord": [
+            "wohne"
+          ],
+          "uitleg": "De stam is wohn-. Ich krijgt -e: ich wohne."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vervoeg wohnen: du ...",
+          "antwoord": [
+            "wohnst"
+          ],
+          "uitleg": "Du krijgt -st: du wohnst."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vervoeg wohnen: er ...",
+          "antwoord": [
+            "wohnt"
+          ],
+          "uitleg": "Er, sie, es krijgen -t: er wohnt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke vorm is juist: wir ... (spielen)?",
+          "opties": [
+            "spielen",
+            "spielt",
+            "spiele",
+            "spielst"
+          ],
+          "antwoord": 0,
+          "uitleg": "Wir en sie (meervoud) en Sie hebben dezelfde vorm als de infinitief: wir spielen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke vormen van machen zijn juist? Duid alles aan wat klopt.",
+          "opties": [
+            "ihr macht",
+            "du machen",
+            "wir machen",
+            "er machst"
+          ],
+          "antwoord": [
+            0,
+            2
+          ],
+          "uitleg": "Ich mache, du machst, er macht, wir machen, ihr macht, sie machen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke rij geeft sein in het Präsens?",
+          "opties": [
+            "ich bin, du bist, er ist",
+            "ich bin, du ist, er bist",
+            "ich sei, du seist, er sei",
+            "ich habe, du hast, er hat"
+          ],
+          "antwoord": 0,
+          "uitleg": "Sein: ich bin, du bist, er ist, wir sind, ihr seid, sie sind."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan met haben: Er ... einen Hund.",
+          "antwoord": [
+            "hat"
+          ],
+          "uitleg": "Haben: ich habe, du hast, er hat, wir haben, ihr habt, sie haben."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan met sein: Wir ... müde.",
+          "antwoord": [
+            "sind"
+          ],
+          "uitleg": "Wir sind. Let op het verschil met ihr seid."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Ihr seid betekent jullie zijn.",
+          "antwoord": true,
+          "uitleg": "Seid met een d, niet te verwarren met seit (sinds)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke vorm is juist: er ... (arbeiten)?",
+          "opties": [
+            "arbeitet",
+            "arbeit",
+            "arbeitt",
+            "arbeitst"
+          ],
+          "antwoord": 0,
+          "uitleg": "Eindigt de stam op -t of -d, dan komt er een -e- tussen: er arbeitet, du findest."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke vormen zijn juist? Duid alles aan wat klopt.",
+          "opties": [
+            "du fährst",
+            "wir fähren",
+            "er fährt",
+            "ihr fährt"
+          ],
+          "antwoord": [
+            0,
+            2
+          ],
+          "uitleg": "De umlaut komt alleen bij du en er, sie, es: du fährst, er fährt. Wir fahren, ihr fahrt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke werkwoorden hebben een klinkerwissel bij du en er? Duid alles aan wat klopt.",
+          "opties": [
+            "lesen",
+            "wohnen",
+            "sprechen",
+            "spielen",
+            "nehmen"
+          ],
+          "antwoord": [
+            0,
+            2,
+            4
+          ],
+          "uitleg": "Er liest, er spricht, er nimmt. Wohnen en spielen zijn regelmatig: er wohnt, er spielt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke vorm is juist: du ... (essen)?",
+          "opties": [
+            "isst",
+            "esst",
+            "ist",
+            "eßt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Klinkerwissel e naar i: ich esse, du isst, er isst."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vervoeg sprechen: er ...",
+          "antwoord": [
+            "spricht"
+          ],
+          "uitleg": "Klinkerwissel e naar i: ich spreche, du sprichst, er spricht."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vervoeg schlafen: du ...",
+          "antwoord": [
+            "schläfst",
+            "schlaefst"
+          ],
+          "uitleg": "a wordt ä: ich schlafe, du schläfst, er schläft."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De klinkerwissel bij fahren geldt ook voor wir: wir fähren.",
+          "antwoord": false,
+          "uitleg": "Alleen bij du en er, sie, es. Wir fahren, ihr fahrt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke vorm is de persoonsvorm in Er geht nach Hause?",
+          "opties": [
+            "geht",
+            "gehen",
+            "gegangen",
+            "Hause"
+          ],
+          "antwoord": 0,
+          "uitleg": "Gehen is de infinitief, geht de persoonsvorm, gegangen het voltooid deelwoord."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent Ich heiße Ben?",
+          "opties": [
+            "Ik heet Ben.",
+            "Ik haat Ben.",
+            "Ik ken Ben.",
+            "Ik roep Ben."
+          ],
+          "antwoord": 0,
+          "uitleg": "Heißen: heten. Wie heißt du?"
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vervoeg nehmen: du ...",
+          "antwoord": [
+            "nimmst"
+          ],
+          "uitleg": "Nehmen is onregelmatig: ich nehme, du nimmst, er nimmt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke vorm is juist: Sie ... (kommen), beleefd?",
+          "opties": [
+            "kommen",
+            "kommt",
+            "kommst",
+            "komme"
+          ],
+          "antwoord": 0,
+          "uitleg": "De beleefdheidsvorm Sie heeft dezelfde vorm als de infinitief: Kommen Sie aus Deutschland?"
+        }
+      ]
+    },
+    {
+      "titel": "Präsens en Imperativ — deel 2",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "invultekst",
+          "vraag": "Vervoeg werden: er ...",
+          "antwoord": [
+            "wird"
+          ],
+          "uitleg": "Werden: ich werde, du wirst, er wird, wir werden, ihr werdet, sie werden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke vorm is juist: ich ... (wissen)?",
+          "opties": [
+            "weiß",
+            "wisse",
+            "weißt",
+            "wiss"
+          ],
+          "antwoord": 0,
+          "uitleg": "Wissen: ich weiß, du weißt, er weiß. Bij ich en er geen uitgang."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke vorm is juist: ich ... (mögen)?",
+          "opties": [
+            "mag",
+            "möge",
+            "mage",
+            "mögt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Mögen: ich mag, du magst, er mag. Ich mag Schokolade: ik hou van chocolade."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Ich ... heute nicht kommen. (können)",
+          "opties": [
+            "kann",
+            "könne",
+            "kannt",
+            "können"
+          ],
+          "antwoord": 0,
+          "uitleg": "Können: ich kann, du kannst, er kann. De infinitief komt achteraan: ich kann nicht kommen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Na müssen staat de infinitief achteraan in de zin: Ich muss heute lernen.",
+          "antwoord": true,
+          "uitleg": "Modale werkwoorden (können, müssen, wollen, dürfen, sollen, mögen) sturen de infinitief naar het einde."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke werkwoorden zijn modale werkwoorden? Duid alles aan wat klopt.",
+          "opties": [
+            "dürfen",
+            "rauchen",
+            "müssen",
+            "lesen",
+            "können"
+          ],
+          "antwoord": [
+            0,
+            2,
+            4
+          ],
+          "uitleg": "Dürfen, müssen, können, wollen, sollen en mögen. Ze sturen de infinitief naar het einde."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke werkwoorden zijn scheidbaar? Duid alles aan wat klopt.",
+          "opties": [
+            "aufstehen",
+            "bekommen",
+            "anrufen",
+            "verstehen",
+            "einkaufen"
+          ],
+          "antwoord": [
+            0,
+            2,
+            4
+          ],
+          "uitleg": "Auf-, an- en ein- zijn scheidbaar: ich stehe auf, ich rufe an, ich kaufe ein. Be- en ver- zijn onscheidbaar."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Zet het scheidbare werkwoord in de zin: Der Zug ... um 9 Uhr ... (abfahren). Schrijf beide delen, gescheiden door een spatie.",
+          "antwoord": [
+            "fährt ab"
+          ],
+          "uitleg": "Der Zug fährt um 9 Uhr ab. Het voorvoegsel ab staat achteraan, de persoonsvorm op de tweede plaats."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin is juist? (ik bel je morgen op)",
+          "opties": [
+            "Ich rufe dich morgen an.",
+            "Ich anrufe dich morgen.",
+            "Ich rufe an dich morgen.",
+            "Ich rufe dich an morgen."
+          ],
+          "antwoord": 0,
+          "uitleg": "Het voorvoegsel an komt helemaal achteraan, na alle andere zinsdelen: Satzklammer."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bekommen is een scheidbaar werkwoord: ich komme ... be.",
+          "antwoord": false,
+          "uitleg": "Be-, ver-, er-, ent-, ge- en zer- zijn onscheidbaar: ich bekomme. Bekommen betekent krijgen, niet bekomen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke imperativi zijn juist? Duid alles aan wat klopt.",
+          "opties": [
+            "Komm!",
+            "Kommst!",
+            "Kommt! (tegen twee vrienden)",
+            "Kommen Sie! (tegen je buurvrouw, beleefd)"
+          ],
+          "antwoord": [
+            0,
+            2,
+            3
+          ],
+          "uitleg": "Du: komm! Ihr: kommt! Sie: kommen Sie! Kommst is geen imperativus."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke imperativus is juist (ihr, kommen)?",
+          "opties": [
+            "Kommt!",
+            "Komm!",
+            "Kommen ihr!",
+            "Kommst!"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij ihr is de imperativus gelijk aan de gewone vorm zonder ihr: Kommt! Macht!"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke imperativus is juist (Sie, kommen)?",
+          "opties": [
+            "Kommen Sie!",
+            "Komm Sie!",
+            "Kommt Sie!",
+            "Sie kommen!"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij Sie blijft Sie staan, na het werkwoord: Kommen Sie bitte herein!"
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Geef de imperativus voor du van lesen: ... den Text!",
+          "antwoord": [
+            "Lies",
+            "lies"
+          ],
+          "uitleg": "Werkwoorden met de klinkerwissel e naar ie of i houden die: du liest, lies! du gibst, gib!"
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Geef de imperativus voor du van nehmen: ... einen Stift!",
+          "antwoord": [
+            "Nimm",
+            "nimm"
+          ],
+          "uitleg": "Du nimmst, dus nimm!"
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De imperativus van fahren bij du is fähr!",
+          "antwoord": false,
+          "uitleg": "A naar ä houdt de imperativus niet: fahr! of fahre! Alleen e naar i of ie blijft: gib!, lies!"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin is een bevel?",
+          "opties": [
+            "Mach das Fenster zu!",
+            "Machst du das Fenster zu?",
+            "Ich mache das Fenster zu.",
+            "Das Fenster ist zu."
+          ],
+          "antwoord": 0,
+          "uitleg": "De persoonsvorm staat vooraan, zonder onderwerp: dat is een imperativus."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vervoeg sein in de imperativus voor du: ... ruhig!",
+          "antwoord": [
+            "Sei",
+            "sei"
+          ],
+          "uitleg": "Sein is onregelmatig: sei ruhig! (du), seid ruhig! (ihr), seien Sie ruhig! (Sie)."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij er is de vorm van wollen: er will.",
+          "antwoord": true,
+          "uitleg": "Wollen: ich will, du willst, er will. Zonder uitgang bij ich en er."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Ich ... jeden Tag eine Stunde Klavier. (üben)",
+          "opties": [
+            "übe",
+            "übt",
+            "übst",
+            "üben"
+          ],
+          "antwoord": 0,
+          "uitleg": "Ich krijgt -e: ich übe. Üben: oefenen."
+        }
+      ]
+    },
+    {
+      "titel": "Perfekt en Futur — deel 1",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "invultekst",
+          "vraag": "Geef het voltooid deelwoord van machen.",
+          "antwoord": [
+            "gemacht"
+          ],
+          "uitleg": "Regelmatig: ge- + stam + -t. Machen, gemacht."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Geef het voltooid deelwoord van spielen.",
+          "antwoord": [
+            "gespielt"
+          ],
+          "uitleg": "Ge-spiel-t."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Geef het voltooid deelwoord van arbeiten.",
+          "antwoord": [
+            "gearbeitet"
+          ],
+          "uitleg": "Eindigt de stam op -t of -d, dan komt er -et achter: gearbeitet, geredet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het voltooid deelwoord van gehen?",
+          "opties": [
+            "gegangen",
+            "gegeht",
+            "gegehen",
+            "gingt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Gehen is onregelmatig: ging, gegangen. Infinitief, persoonsvorm en voltooid deelwoord: gehen, geht, gegangen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke voltooide deelwoorden zijn juist? Duid alles aan wat klopt.",
+          "opties": [
+            "gegessen",
+            "gegeht",
+            "geschrieben",
+            "geeinkauft"
+          ],
+          "antwoord": [
+            0,
+            2
+          ],
+          "uitleg": "Essen, gegessen; schreiben, geschrieben. Gehen wordt gegangen, einkaufen eingekauft."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het voltooid deelwoord van schreiben?",
+          "opties": [
+            "geschrieben",
+            "geschreibt",
+            "geschreiben",
+            "schrieb"
+          ],
+          "antwoord": 0,
+          "uitleg": "Schreiben, schrieb, geschrieben: onregelmatig deelwoord op -en."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Geef het voltooid deelwoord van fahren.",
+          "antwoord": [
+            "gefahren"
+          ],
+          "uitleg": "Fahren, gefahren."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke voltooide deelwoorden krijgen geen ge-? Duid alles aan wat klopt.",
+          "opties": [
+            "telefoniert",
+            "gespielt",
+            "besucht",
+            "gemacht",
+            "verkauft"
+          ],
+          "antwoord": [
+            0,
+            2,
+            4
+          ],
+          "uitleg": "Werkwoorden op -ieren en onscheidbare werkwoorden (be-, ver-) krijgen geen ge-."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het voltooid deelwoord van besuchen?",
+          "opties": [
+            "besucht",
+            "gebesucht",
+            "besuchen",
+            "begesucht"
+          ],
+          "antwoord": 0,
+          "uitleg": "Onscheidbare werkwoorden met be-, ver-, er-, ent- krijgen geen ge-: besucht, verkauft."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het voltooid deelwoord van einkaufen?",
+          "opties": [
+            "eingekauft",
+            "geeinkauft",
+            "einkauft",
+            "eingekaufen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij een scheidbaar werkwoord staat ge- tussen het voorvoegsel en de stam: ein-ge-kauft, auf-ge-standen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Geef het voltooid deelwoord van aufstehen.",
+          "antwoord": [
+            "aufgestanden"
+          ],
+          "uitleg": "Auf-ge-standen: scheidbaar en onregelmatig."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Het Perfekt maak je met een vorm van haben of sein en een voltooid deelwoord.",
+          "antwoord": true,
+          "uitleg": "Ich habe gespielt. Ich bin gefahren."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Ich ... nach Berlin gefahren. Welk hulpwerkwoord past?",
+          "opties": [
+            "bin",
+            "habe",
+            "hat",
+            "werde"
+          ],
+          "antwoord": 0,
+          "uitleg": "Werkwoorden van beweging van plaats naar plaats nemen sein: ich bin gefahren, gegangen, geflogen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Ich ... einen Kuchen gebacken. Welk hulpwerkwoord past?",
+          "opties": [
+            "habe",
+            "bin",
+            "ist",
+            "werde"
+          ],
+          "antwoord": 0,
+          "uitleg": "De meeste werkwoorden, zeker met een lijdend voorwerp, nemen haben."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wir ... zu Hause geblieben. Welk hulpwerkwoord past?",
+          "opties": [
+            "sind",
+            "haben",
+            "hat",
+            "seid"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bleiben en sein nemen sein: wir sind geblieben, ich bin gewesen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In het Duits zeg je Ich habe gegangen.",
+          "antwoord": false,
+          "uitleg": "Gehen is een beweging: ich bin gegangen. In het Nederlands ook: ik ben gegaan."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul het hulpwerkwoord aan: Er ... um 7 Uhr aufgestanden.",
+          "antwoord": [
+            "ist"
+          ],
+          "uitleg": "Aufstehen is een verandering van toestand: sein. Er ist aufgestanden."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul het hulpwerkwoord aan: Wir ... gestern Fußball gespielt.",
+          "antwoord": [
+            "haben"
+          ],
+          "uitleg": "Spielen neemt haben: wir haben gespielt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke werkwoorden nemen sein in het Perfekt? Duid alles aan wat klopt.",
+          "opties": [
+            "kommen",
+            "kaufen",
+            "fliegen",
+            "lesen",
+            "bleiben"
+          ],
+          "antwoord": [
+            0,
+            2,
+            4
+          ],
+          "uitleg": "Kommen en fliegen zijn bewegingen, bleiben neemt altijd sein. Kaufen en lesen nemen haben."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het verschil tussen gehen, geht en gegangen?",
+          "opties": [
+            "infinitief, persoonsvorm, voltooid deelwoord",
+            "persoonsvorm, infinitief, voltooid deelwoord",
+            "voltooid deelwoord, persoonsvorm, infinitief",
+            "drie vormen van de imperativus"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het examen wijst daar uitdrukkelijk op: je moet weten welke vorm je leest of schrijft."
+        }
+      ]
+    },
+    {
+      "titel": "Perfekt en Futur — deel 2",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Waar staat het voltooid deelwoord in de zin?",
+          "opties": [
+            "achteraan",
+            "op de tweede plaats",
+            "vooraan",
+            "na het onderwerp"
+          ],
+          "antwoord": 0,
+          "uitleg": "Satzklammer: het hulpwerkwoord staat op de tweede plaats, het deelwoord helemaal achteraan. Er ist gestern in Berlin angekommen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin is juist? (ik heb gisteren een film gezien)",
+          "opties": [
+            "Ich habe gestern einen Film gesehen.",
+            "Ich habe gesehen gestern einen Film.",
+            "Ich gesehen habe gestern einen Film.",
+            "Gestern ich habe einen Film gesehen."
+          ],
+          "antwoord": 0,
+          "uitleg": "Hulpwerkwoord op twee, deelwoord achteraan."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin is juist? (in het weekend zijn we naar de film gegaan)",
+          "opties": [
+            "Am Wochenende sind wir ins Kino gegangen.",
+            "Am Wochenende wir sind ins Kino gegangen.",
+            "Am Wochenende sind gegangen wir ins Kino.",
+            "Am Wochenende sind wir gegangen ins Kino."
+          ],
+          "antwoord": 0,
+          "uitleg": "Begint de zin met een ander zinsdeel, dan komt het onderwerp na de persoonsvorm: inversie."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Zet in het Perfekt: Ich kaufe ein Buch. → Ich habe ein Buch ...",
+          "antwoord": [
+            "gekauft"
+          ],
+          "uitleg": "Kaufen, gekauft: regelmatig."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Zet in het Perfekt: Er trinkt Wasser. → Er hat Wasser ...",
+          "antwoord": [
+            "getrunken"
+          ],
+          "uitleg": "Trinken, getrunken: onregelmatig."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Zet in het Perfekt: Wir fliegen nach Spanien. → Wir sind nach Spanien ...",
+          "antwoord": [
+            "geflogen"
+          ],
+          "uitleg": "Fliegen, geflogen, met sein omdat het een beweging is."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Gestern habe ich meine Oma besucht vertelt over iets uit het verleden.",
+          "antwoord": true,
+          "uitleg": "Gestern (gisteren) en het Perfekt: het gebeurde al."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent Ich habe mein Handy vergessen?",
+          "opties": [
+            "Ik ben mijn gsm vergeten.",
+            "Ik vergeet mijn gsm altijd.",
+            "Ik zal mijn gsm vergeten.",
+            "Ik heb mijn gsm verkocht."
+          ],
+          "antwoord": 0,
+          "uitleg": "Vergessen: vergeten. Het deelwoord is ook vergessen. In het Duits met haben, in het Nederlands met zijn."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Het Futur drukt uit wat al gebeurd is.",
+          "antwoord": false,
+          "uitleg": "Het Futur gaat over wat nog komt: werden + infinitief. Ich werde morgen arbeiten."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: Ich ... morgen meine Tante besuchen. (zal)",
+          "antwoord": [
+            "werde"
+          ],
+          "uitleg": "Werden: ich werde, du wirst, er wird. De infinitief staat achteraan."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zinnen gaan over de toekomst? Duid alles aan wat klopt.",
+          "opties": [
+            "Wir werden nächstes Jahr nach Italien fahren.",
+            "Wir sind letztes Jahr nach Italien gefahren.",
+            "Morgen fahren wir nach Italien.",
+            "Fahrt nach Italien!"
+          ],
+          "antwoord": [
+            0,
+            2
+          ],
+          "uitleg": "Werden + infinitief is het Futur. Morgen fahren wir: Präsens met een tijdsaanduiding voor de toekomst."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In Er wird Arzt betekent wird zal.",
+          "antwoord": false,
+          "uitleg": "Zonder infinitief betekent werden worden: hij wordt dokter. Er wird Arzt werden: hij zal dokter worden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent Es wird morgen regnen?",
+          "opties": [
+            "Het zal morgen regenen.",
+            "Het regende gisteren.",
+            "Het regent nu.",
+            "Het moet morgen regenen."
+          ],
+          "antwoord": 0,
+          "uitleg": "Wird ... regnen: Futur."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In het Duits gebruik je voor de nabije toekomst vaak het Präsens met een tijdsaanduiding. Welke zin doet dat?",
+          "opties": [
+            "Morgen fahre ich nach Köln.",
+            "Gestern bin ich nach Köln gefahren.",
+            "Ich fahre jeden Tag nach Köln.",
+            "Fahr nach Köln!"
+          ],
+          "antwoord": 0,
+          "uitleg": "Morgen fahre ich: met morgen erbij weet je dat het toekomst is. Net zoals in het Nederlands."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: Du ... das bestimmt schaffen! (zult)",
+          "antwoord": [
+            "wirst"
+          ],
+          "uitleg": "Du wirst ... schaffen: je zult het zeker halen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin is juist? (ik zal je morgen helpen)",
+          "opties": [
+            "Ich werde dir morgen helfen.",
+            "Ich werde helfen dir morgen.",
+            "Ich wird dir morgen helfen.",
+            "Ich werde dir morgen geholfen."
+          ],
+          "antwoord": 0,
+          "uitleg": "Werde bij ich, de infinitief helfen achteraan. Geholfen is een deelwoord, dat hoort bij het Perfekt."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Het voltooid deelwoord van sein is gewesen, met sein als hulpwerkwoord: ich bin gewesen.",
+          "antwoord": true,
+          "uitleg": "Ich bin in Paris gewesen: ik ben in Parijs geweest."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In een verslag over je stage schrijf je: Ich habe viel ... (lernen)",
+          "opties": [
+            "gelernt",
+            "lernte",
+            "gelernen",
+            "lernen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Lernen is regelmatig: gelernt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zinnen vertellen over het verleden? Duid alles aan wat klopt.",
+          "opties": [
+            "Wir haben im Garten gegrillt.",
+            "Wir grillen im Garten.",
+            "Ich bin in Paris gewesen.",
+            "Wir werden im Garten grillen."
+          ],
+          "antwoord": [
+            0,
+            2
+          ],
+          "uitleg": "Haben + gegrillt en bin + gewesen: Perfekt."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Zet in het Perfekt: Sie kommt spät. → Sie ist spät ...",
+          "antwoord": [
+            "gekommen"
+          ],
+          "uitleg": "Kommen, gekommen, met sein."
+        }
+      ]
+    },
+    {
+      "titel": "Zinsbouw: soorten zinnen, Satzklammer en voegwoorden — deel 1",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Waar staat de persoonsvorm in een gewone mededelende zin?",
+          "opties": [
+            "op de tweede plaats",
+            "helemaal vooraan",
+            "helemaal achteraan",
+            "na het lijdend voorwerp"
+          ],
+          "antwoord": 0,
+          "uitleg": "Ich spiele heute Fußball. Heute spiele ich Fußball. De persoonsvorm blijft op plaats twee."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin is juist? (vandaag ga ik naar de film)",
+          "opties": [
+            "Heute gehe ich ins Kino.",
+            "Heute ich gehe ins Kino.",
+            "Heute ins Kino ich gehe.",
+            "Ich heute gehe ins Kino."
+          ],
+          "antwoord": 0,
+          "uitleg": "Begin je met een ander zinsdeel, dan wisselen onderwerp en persoonsvorm van plaats: inversie."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zinnen zijn ja-neevragen? Duid alles aan wat klopt.",
+          "opties": [
+            "Hast du Zeit?",
+            "Wann hast du Zeit?",
+            "Kommst du mit?",
+            "Wo wohnst du?"
+          ],
+          "antwoord": [
+            0,
+            2
+          ],
+          "uitleg": "Bij een ja-neevraag staat de persoonsvorm vooraan. Wann en wo zijn vraagwoorden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin is een vraag met een vraagwoord?",
+          "opties": [
+            "Woher kommst du?",
+            "Kommst du?",
+            "Du kommst aus Gent.",
+            "Komm!"
+          ],
+          "antwoord": 0,
+          "uitleg": "Vraagwoord vooraan, dan de persoonsvorm: Woher kommst du? Waar kom je vandaan?"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zinnen zijn uitroepen? Duid alles aan wat klopt.",
+          "opties": [
+            "Wie schön ist das!",
+            "Ist das schön?",
+            "Was für ein Tag!",
+            "Das ist nicht schön."
+          ],
+          "antwoord": [
+            0,
+            2
+          ],
+          "uitleg": "Wie schön! Was für ein Tag! Een uitroepende zin drukt verwondering of bewondering uit."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe ontken je Ich komme morgen?",
+          "opties": [
+            "Ich komme morgen nicht.",
+            "Ich komme nicht morgen nicht.",
+            "Ich nicht komme morgen.",
+            "Ich komme kein morgen."
+          ],
+          "antwoord": 0,
+          "uitleg": "Nicht ontkent het werkwoord en staat meestal achteraan of voor het woord dat je ontkent."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe ontken je Ich habe Zeit?",
+          "opties": [
+            "Ich habe keine Zeit.",
+            "Ich habe nicht Zeit.",
+            "Ich habe nein Zeit.",
+            "Ich habe Zeit nicht."
+          ],
+          "antwoord": 0,
+          "uitleg": "Een zelfstandig naamwoord zonder lidwoord ontken je met kein: keine Zeit, kein Geld."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Nein is het antwoord op een vraag, nicht ontkent in een zin.",
+          "antwoord": true,
+          "uitleg": "Kommst du? Nein, ich komme nicht."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je antwoordt ja op een ontkennende vraag: Hast du keinen Hunger? Ja, ik heb wel honger. Wat zeg je?",
+          "opties": [
+            "Doch!",
+            "Ja!",
+            "Nein!",
+            "Nicht!"
+          ],
+          "antwoord": 0,
+          "uitleg": "Doch gebruik je om een ontkennende vraag positief te beantwoorden."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In een bevelende zin staat de persoonsvorm vooraan.",
+          "antwoord": true,
+          "uitleg": "Komm her! Öffnen Sie das Fenster!"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin is mededelend?",
+          "opties": [
+            "Meine Schwester spielt Klavier.",
+            "Spielt deine Schwester Klavier?",
+            "Spiel Klavier!",
+            "Wie toll sie spielt!"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een mededelende zin deelt iets mee, met de persoonsvorm op de tweede plaats."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Zet de woorden in de juiste volgorde: morgen / ich / arbeite. Begin met Morgen.",
+          "antwoord": [
+            "Morgen arbeite ich",
+            "Morgen arbeite ich."
+          ],
+          "uitleg": "Morgen staat op plaats één, de persoonsvorm arbeite op plaats twee, dan het onderwerp."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is in Am Montag schreibt Paul einen Test het onderwerp?",
+          "opties": [
+            "Paul",
+            "Am Montag",
+            "einen Test",
+            "schreibt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Wie schrijft? Paul. Het onderwerp staat hier na de persoonsvorm, door de inversie."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het gezegde in Mein Bruder ist Lehrer?",
+          "opties": [
+            "ist Lehrer",
+            "Mein Bruder",
+            "Lehrer",
+            "Bruder ist"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een naamwoordelijk gezegde: een koppelwerkwoord (sein) met een naamwoordelijk deel."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is in Ich esse um 12 Uhr eine Pizza de bijwoordelijke bepaling?",
+          "opties": [
+            "um 12 Uhr",
+            "eine Pizza",
+            "Ich",
+            "esse"
+          ],
+          "antwoord": 0,
+          "uitleg": "Um 12 Uhr zegt wanneer: een bijwoordelijke bepaling van tijd."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Ich nicht verstehe dich is een juiste zin.",
+          "antwoord": false,
+          "uitleg": "Ich verstehe dich nicht. De persoonsvorm op plaats twee, nicht na het voorwerp."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Nein, ich mag keine Hunde is een bevestigende zin.",
+          "antwoord": false,
+          "uitleg": "Dat is een ontkennende zin. Ja, ich mag Hunde is bevestigend."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul het vraagwoord in: ... alt bist du?",
+          "antwoord": [
+            "Wie"
+          ],
+          "uitleg": "Wie alt bist du? Hoe oud ben je? Wie is hoe."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul het vraagwoord in: ... kommst du? (Waar kom je vandaan?)",
+          "antwoord": [
+            "Woher"
+          ],
+          "uitleg": "Woher: waarvandaan. Wohin: waarheen. Wo: waar."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke vraagwoorden vragen naar een plaats? Duid alles aan wat klopt.",
+          "opties": [
+            "wo",
+            "wann",
+            "woher",
+            "warum",
+            "wohin"
+          ],
+          "antwoord": [
+            0,
+            2,
+            4
+          ],
+          "uitleg": "Wo (waar), woher (waarvandaan), wohin (waarheen). Wann is wanneer, warum is waarom."
+        }
+      ]
+    },
+    {
+      "titel": "Zinsbouw: soorten zinnen, Satzklammer en voegwoorden — deel 2",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin toont de Satzklammer juist? (ik sta om 6 uur op)",
+          "opties": [
+            "Ich stehe um 6 Uhr auf.",
+            "Ich aufstehe um 6 Uhr.",
+            "Ich stehe auf um 6 Uhr.",
+            "Ich um 6 Uhr stehe auf."
+          ],
+          "antwoord": 0,
+          "uitleg": "De persoonsvorm op plaats twee en het voorvoegsel achteraan: zo omklemmen ze de rest van de zin."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin toont de Satzklammer juist? (hij is gisteren in Berlijn aangekomen)",
+          "opties": [
+            "Er ist gestern in Berlin angekommen.",
+            "Er ist angekommen gestern in Berlin.",
+            "Er angekommen ist gestern in Berlin.",
+            "Er ist gestern angekommen in Berlin."
+          ],
+          "antwoord": 0,
+          "uitleg": "Hulpwerkwoord op twee, voltooid deelwoord achteraan."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin is juist? (ik wil morgen naar de film gaan)",
+          "opties": [
+            "Ich will morgen ins Kino gehen.",
+            "Ich will gehen morgen ins Kino.",
+            "Ich gehen will morgen ins Kino.",
+            "Ich will morgen gehen ins Kino."
+          ],
+          "antwoord": 0,
+          "uitleg": "Modaal werkwoord op twee, infinitief achteraan."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Na und blijft de woordvolgorde gewoon: Ich lese und du schreibst.",
+          "antwoord": true,
+          "uitleg": "Und, aber, oder, denn en sondern zijn nevenschikkend: ze veranderen de woordvolgorde niet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Ich bleibe zu Hause, ... ich bin krank. Welke voegwoorden passen hier, met deze woordvolgorde? Duid alles aan wat klopt.",
+          "opties": [
+            "denn",
+            "weil",
+            "dass",
+            "und"
+          ],
+          "antwoord": [
+            0,
+            3
+          ],
+          "uitleg": "Na denn en und blijft de persoonsvorm op plaats twee. Na weil zou het weil ich krank bin zijn."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Ich bleibe zu Hause, weil ich ... Welk slot is juist?",
+          "opties": [
+            "krank bin",
+            "bin krank",
+            "krank sein",
+            "bin ich krank"
+          ],
+          "antwoord": 0,
+          "uitleg": "Weil is onderschikkend: de persoonsvorm gaat helemaal naar achteren."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Ich glaube, dass ... Welk slot is juist?",
+          "opties": [
+            "er heute kommt",
+            "er kommt heute",
+            "kommt er heute",
+            "heute er kommt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Na dass staat de persoonsvorm achteraan: dass er heute kommt."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul het voegwoord in dat dat betekent: Ich weiß, ... du recht hast.",
+          "antwoord": [
+            "dass"
+          ],
+          "uitleg": "Dass (met dubbele s): dat, als voegwoord. Das met één s is een lidwoord of aanwijzend voornaamwoord."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Nicht ich, ... mein Bruder hat das gemacht. Welk woord past?",
+          "opties": [
+            "sondern",
+            "aber",
+            "oder",
+            "denn"
+          ],
+          "antwoord": 0,
+          "uitleg": "Na een ontkenning gebruik je sondern: niet ..., maar ..."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wenn es regnet, ... Welk slot is juist?",
+          "opties": [
+            "bleibe ich zu Hause.",
+            "ich bleibe zu Hause.",
+            "ich zu Hause bleibe.",
+            "zu Hause ich bleibe."
+          ],
+          "antwoord": 0,
+          "uitleg": "De wenn-zin staat op plaats één. Dan volgt meteen de persoonsvorm van de hoofdzin: bleibe ich."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Na weil staat de persoonsvorm achteraan in de bijzin.",
+          "antwoord": true,
+          "uitleg": "Weil ich keine Zeit habe."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In Wenn ich Zeit habe, helfe ich dir betekent wenn omdat.",
+          "antwoord": false,
+          "uitleg": "Wenn betekent als, wanneer: een voorwaarde of een tijd. Omdat is weil."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul het nevenschikkend voegwoord in dat of betekent: Möchtest du Tee ... Kaffee?",
+          "antwoord": [
+            "oder"
+          ],
+          "uitleg": "Oder: of. Een keuze."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin is juist? (ik kom niet, omdat ik moet werken)",
+          "opties": [
+            "Ich komme nicht, weil ich arbeiten muss.",
+            "Ich komme nicht, weil ich muss arbeiten.",
+            "Ich komme nicht, weil muss ich arbeiten.",
+            "Ich komme nicht, weil arbeiten ich muss."
+          ],
+          "antwoord": 0,
+          "uitleg": "In de bijzin met weil staat de persoonsvorm muss helemaal achteraan, na de infinitief."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het verschil tussen weil en denn?",
+          "opties": [
+            "ze betekenen hetzelfde, maar na weil gaat de persoonsvorm naar achteren",
+            "weil gebruik je voor het verleden en denn voor de tegenwoordige tijd",
+            "denn is beleefder dan weil",
+            "weil betekent maar, denn betekent omdat"
+          ],
+          "antwoord": 0,
+          "uitleg": "Allebei geven ze een reden. Denn: gewone volgorde. Weil: persoonsvorm achteraan."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Ich esse gern Obst, aber ich esse nicht gern Gemüse heeft een fout in de woordvolgorde.",
+          "antwoord": false,
+          "uitleg": "Na aber blijft de gewone volgorde: aber ich esse. De zin is juist."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul het voegwoord in dat omdat betekent en de persoonsvorm naar achteren stuurt: Sie lernt Deutsch, ... sie in Berlin wohnen will.",
+          "antwoord": [
+            "weil"
+          ],
+          "uitleg": "Weil: omdat. Wohnen will staat achteraan."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin is juist? (of hij komt, weet ik niet)",
+          "opties": [
+            "Ob er kommt, weiß ich nicht.",
+            "Ob er kommt, ich weiß nicht.",
+            "Ob kommt er, weiß ich nicht.",
+            "Ob er kommt, ich nicht weiß."
+          ],
+          "antwoord": 0,
+          "uitleg": "De bijzin staat op plaats één, dus volgt meteen de persoonsvorm weiß. Ob: of (bij een indirecte vraag)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de functie van zuerst ... dann ... in een tekst?",
+          "opties": [
+            "een volgorde aangeven",
+            "een tegenstelling geven",
+            "een reden geven",
+            "een voorwaarde geven"
+          ],
+          "antwoord": 0,
+          "uitleg": "Signaalwoorden van tijd en volgorde. Na zuerst en dann komt de persoonsvorm meteen: Dann gehe ich."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zinnen zijn fout? Duid alles aan wat klopt.",
+          "opties": [
+            "Dann ich gehe nach Hause.",
+            "Dann gehe ich nach Hause.",
+            "Heute ich habe keine Zeit.",
+            "Ich gehe nach Hause, und dann schlafe ich."
+          ],
+          "antwoord": [
+            0,
+            2
+          ],
+          "uitleg": "Na dann of heute op plaats één komt meteen de persoonsvorm: Dann gehe ich, heute habe ich."
+        }
+      ]
+    },
+    {
+      "titel": "Voorzetsels, telwoorden, bijwoorden en uitspraak — deel 1",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke voorzetsels nemen altijd een accusatief? Duid alles aan wat klopt.",
+          "opties": [
+            "für",
+            "mit",
+            "ohne",
+            "bei",
+            "durch"
+          ],
+          "antwoord": [
+            0,
+            2,
+            4
+          ],
+          "uitleg": "Durch, für, gegen, ohne, um: altijd accusatief. Mit en bei nemen een datief."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke voorzetsels nemen altijd een datief? Duid alles aan wat klopt.",
+          "opties": [
+            "mit",
+            "für",
+            "aus",
+            "ohne",
+            "seit"
+          ],
+          "antwoord": [
+            0,
+            2,
+            4
+          ],
+          "uitleg": "Aus, bei, mit, nach, seit, von, zu: altijd datief."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul het lidwoord in: Das Geschenk ist für ... Vater. (mijn)",
+          "antwoord": [
+            "meinen"
+          ],
+          "uitleg": "Für + accusatief: für meinen Vater."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul het lidwoord in: Ich fahre mit ... Bus. (der Bus)",
+          "antwoord": [
+            "dem"
+          ],
+          "uitleg": "Mit + datief: mit dem Bus."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Ich gehe ohne ... Jacke. Welke vorm past?",
+          "opties": [
+            "meine",
+            "meiner",
+            "meinem",
+            "meinen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Ohne + accusatief. Die Jacke is vrouwelijk: meine."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Er kommt aus ... Schweiz. Welke vorm past?",
+          "opties": [
+            "der",
+            "die",
+            "dem",
+            "den"
+          ],
+          "antwoord": 0,
+          "uitleg": "Aus + datief, die Schweiz is vrouwelijk: aus der Schweiz."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Ich wohne seit ... Jahr in Gent. Welke vorm past?",
+          "opties": [
+            "einem",
+            "ein",
+            "einen",
+            "eine"
+          ],
+          "antwoord": 0,
+          "uitleg": "Seit + datief: seit einem Jahr, sinds een jaar."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Zu dem wordt vaak samengetrokken tot zum, en zu der tot zur.",
+          "antwoord": true,
+          "uitleg": "Ich gehe zum Arzt, zur Schule."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Na nach staat een accusatief.",
+          "antwoord": false,
+          "uitleg": "Nach neemt een datief: nach dem Essen. Voor landen en steden zonder lidwoord: nach Berlin."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wo ist die Katze? Die Katze ist ... Tisch. (onder de tafel)",
+          "opties": [
+            "unter dem",
+            "unter den",
+            "unter der",
+            "unter das"
+          ],
+          "antwoord": 0,
+          "uitleg": "Wisselvoorzetsels met een plaats waar iets is (wo?): datief. Der Tisch: unter dem Tisch."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wohin legst du das Buch? Ich lege es ... Tisch. (op de tafel)",
+          "opties": [
+            "auf den",
+            "auf dem",
+            "auf der",
+            "auf die"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een richting (wohin?): accusatief. Auf den Tisch."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zinnen geven een plaats aan waar je bent (wo)? Duid alles aan wat klopt.",
+          "opties": [
+            "Ich bin in der Schule.",
+            "Ich gehe in die Schule.",
+            "Das Bild hängt an der Wand.",
+            "Ich fahre in die Stadt."
+          ],
+          "antwoord": [
+            0,
+            2
+          ],
+          "uitleg": "In der Schule, an der Wand: datief, je bent er. In die Schule, in die Stadt: accusatief, je gaat erheen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul het lidwoord in: Das Bild hängt an ... Wand. (die Wand, plaats)",
+          "antwoord": [
+            "der"
+          ],
+          "uitleg": "Wo hängt es? Datief: an der Wand."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul het lidwoord in: Ich hänge das Bild an ... Wand. (richting)",
+          "antwoord": [
+            "die"
+          ],
+          "uitleg": "Wohin hänge ich es? Accusatief: an die Wand."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke voorzetsels zijn wisselvoorzetsels (accusatief of datief)?",
+          "opties": [
+            "in",
+            "auf",
+            "neben",
+            "mit"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "An, auf, hinter, in, neben, über, unter, vor, zwischen. Mit neemt altijd een datief."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Ich gehe zu Fuß betekent ik ga met de fiets.",
+          "antwoord": false,
+          "uitleg": "Zu Fuß: te voet. Met de fiets is mit dem Rad."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Ich wohne bei meiner Oma betekent ik woon bij mijn oma.",
+          "antwoord": true,
+          "uitleg": "Bei + datief: bei meiner Oma."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wir treffen uns um 8 Uhr ... Bahnhof. (aan het station)",
+          "opties": [
+            "am",
+            "im",
+            "zum",
+            "beim"
+          ],
+          "antwoord": 0,
+          "uitleg": "Am = an dem: aan het station. Am Bahnhof."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Was machst du ... Wochenende?",
+          "opties": [
+            "am",
+            "im",
+            "um",
+            "in"
+          ],
+          "antwoord": 0,
+          "uitleg": "Am Wochenende, am Montag, am Abend. Im Sommer, im Mai. Um 8 Uhr."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul het voorzetsel in: Der Film beginnt ... 20 Uhr.",
+          "antwoord": [
+            "um"
+          ],
+          "uitleg": "Um voor een uur: um 20 Uhr."
+        }
+      ]
+    },
+    {
+      "titel": "Voorzetsels, telwoorden, bijwoorden en uitspraak — deel 2",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "invultekst",
+          "vraag": "Schrijf het rangtelwoord: der ... Tag (3de)",
+          "antwoord": [
+            "dritte"
+          ],
+          "uitleg": "Eins, zwei, drei: der erste, der zweite, der dritte. Onregelmatig: erste, dritte, siebte."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent am dritten Mai?",
+          "opties": [
+            "op 3 mei",
+            "op 13 mei",
+            "op 30 mei",
+            "drie keer in mei"
+          ],
+          "antwoord": 0,
+          "uitleg": "Am dritten Mai: op de derde mei. Am + rangtelwoord op -en."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Schrijf het rangtelwoord: am ... Oktober (1ste)",
+          "antwoord": [
+            "ersten"
+          ],
+          "uitleg": "Der erste, am ersten Oktober."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe lees je 2026 als jaartal?",
+          "opties": [
+            "zweitausendsechsundzwanzig",
+            "zwanzigsechsundzwanzigtausend",
+            "zweitausendzwanzigsechs",
+            "zwei null zwei sechs"
+          ],
+          "antwoord": 0,
+          "uitleg": "Na 2000 lees je het jaartal als een getal: zweitausendsechsundzwanzig."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Im zweiten Stock betekent op de twintigste verdieping.",
+          "antwoord": false,
+          "uitleg": "Zwei, der zweite, im zweiten Stock: op de tweede verdieping. Twintigste is zwanzigste."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke bijwoorden zeggen hoe vaak iets gebeurt? Duid alles aan wat klopt.",
+          "opties": [
+            "nie",
+            "leider",
+            "oft",
+            "schon",
+            "manchmal"
+          ],
+          "antwoord": [
+            0,
+            2,
+            4
+          ],
+          "uitleg": "Nie (nooit), oft (vaak), manchmal (soms). Leider is helaas, schon is al."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke rij gaat van altijd naar nooit?",
+          "opties": [
+            "immer, oft, manchmal, selten, nie",
+            "nie, oft, immer, manchmal, selten",
+            "oft, immer, nie, selten, manchmal",
+            "manchmal, nie, immer, oft, selten"
+          ],
+          "antwoord": 0,
+          "uitleg": "Immer (altijd), oft (vaak), manchmal (soms), selten (zelden), nie (nooit)."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul het bijwoord in dat veel betekent: Ich lese ...",
+          "antwoord": [
+            "viel"
+          ],
+          "uitleg": "Viel: veel. Sehr: zeer. Ich lese viel, ich lese sehr gern."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Schon betekent al, noch betekent nog.",
+          "antwoord": true,
+          "uitleg": "Bist du schon fertig? Nein, noch nicht."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent Ich habe heute leider keine Zeit?",
+          "opties": [
+            "Ik heb vandaag helaas geen tijd.",
+            "Ik heb vandaag gelukkig wel wat tijd.",
+            "Ik heb vandaag veel tijd.",
+            "Ik heb vandaag nog tijd."
+          ],
+          "antwoord": 0,
+          "uitleg": "Leider: helaas. Zum Glück: gelukkig."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe spreek je ei uit in mein?",
+          "opties": [
+            "zoals ij in mijn",
+            "zoals ie in mien",
+            "zoals ee in meen",
+            "zoals ai in het Engelse said"
+          ],
+          "antwoord": 0,
+          "uitleg": "Ei klinkt als de Nederlandse ij: mein, Ei, Zeit."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe spreek je ie uit in Liebe?",
+          "opties": [
+            "zoals ie in lief",
+            "zoals ij in lijf",
+            "zoals ee in leef",
+            "zoals i in lip"
+          ],
+          "antwoord": 0,
+          "uitleg": "Ie is een lange ie: Liebe, viel, Brief. Zo onderscheid je ei en ie."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe spreek je de w uit in Wasser?",
+          "opties": [
+            "als een v, zoals in vis",
+            "zoals de Engelse w in water",
+            "niet, de w is stom",
+            "als een f, zoals in fiets"
+          ],
+          "antwoord": 0,
+          "uitleg": "De Duitse w klinkt als een v: Wasser. De Duitse v klinkt meestal als een f: Vater."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De z in Zeit spreek je uit als ts.",
+          "antwoord": true,
+          "uitleg": "Zeit, zehn, Zug: ts. Net zoals in Zwitserse plaatsnamen als Zürich."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe schrijf je het Duitse woord voor straat?",
+          "opties": [
+            "Straße",
+            "Strase",
+            "Strasze",
+            "Straaße"
+          ],
+          "antwoord": 0,
+          "uitleg": "Na een lange klinker of een tweeklank schrijf je ß: Straße, groß, heiß. Na een korte klinker ss: Wasser, dass."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Na een korte klinker schrijf je ss en niet ß: dass, muss, Wasser.",
+          "antwoord": true,
+          "uitleg": "De korte klinker vraagt ss; de lange klinker of tweeklank ß."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In welke woorden spreek je een sj-klank uit? Duid alles aan wat klopt.",
+          "opties": [
+            "Schule",
+            "Sonne",
+            "Tisch",
+            "Zeit"
+          ],
+          "antwoord": [
+            0,
+            2
+          ],
+          "uitleg": "Sch klinkt als sj: Schule, Tisch. De s in Sonne klinkt als een z, de z in Zeit als ts."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waar ligt de klemtoon in het woord Familie?",
+          "opties": [
+            "op mi: fa-MI-lie",
+            "op fa: FA-mi-lie",
+            "op lie: fa-mi-LIE",
+            "het woord heeft geen klemtoon"
+          ],
+          "antwoord": 0,
+          "uitleg": "Familie spreek je uit als fa-MIE-lje, met de klemtoon op de tweede lettergreep."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een umlaut?",
+          "opties": [
+            "de twee puntjes op a, o of u",
+            "een lange klinker",
+            "het lidwoord van een woord",
+            "een stille letter"
+          ],
+          "antwoord": 0,
+          "uitleg": "Ä, ö, ü: de umlaut verandert de klank. Schon (al) en schön (mooi) zijn twee verschillende woorden."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In het Duits schrijf je je met een kleine letter, ook de beleefdheidsvorm Sie.",
+          "antwoord": false,
+          "uitleg": "Du en ihr met een kleine letter, maar de beleefde Sie, Ihnen en Ihr altijd met een hoofdletter."
+        }
+      ]
+    }
+  ]
+}
