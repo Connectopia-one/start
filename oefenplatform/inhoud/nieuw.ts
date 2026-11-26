@@ -40,6 +40,12 @@ export const nieuwTekst = {
 
 export const updates: Update[] = [
   {
+    datum: "26 november 2026",
+    titel: "Start: extra hoofdstukken voor het 6de leerjaar",
+    tekst:
+      "We legden Start naast de nieuwe officiële minimumdoelen voor het einde van het 6de leerjaar. Wat nog ontbrak, staat nu in een extra hoofdstuk \"Nog meer voor het 6de leerjaar\" bij wiskunde, Nederlands, wetenschap en techniek, aardrijkskunde, geschiedenis en Frans, telkens 40 vragen. Bijvoorbeeld ggd en kgv, ongelijknamige breuken, bruto en netto, de mediaan, hoofdzin en bijzin, het meewerkend voorwerp, dialect en tussentaal, voortplanting, eerlijke proeven, duurzaamheid, platen en de Ring van Vuur, migratie, maanfasen, de zes periodes, Rosa Parks, de grondwet, erfgoed, de passé composé en de futur proche.",
+  },
+  {
     datum: "25 november 2026",
     titel: "Uitdaging van 40 vragen in Boost en Beyond",
     tekst:

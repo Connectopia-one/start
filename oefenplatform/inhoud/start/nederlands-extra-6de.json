@@ -1,0 +1,406 @@
+{
+ "hoofdstukken": [
+  {
+   "titel": "Nog meer voor het 6de leerjaar",
+   "niveau": "start",
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk woord is een overkoepelend woord voor tulp, roos en madeliefje?",
+     "opties": [
+      "tuin",
+      "bloem",
+      "plant met doornen",
+      "boeket"
+     ],
+     "antwoord": 1,
+     "uitleg": "Een tulp, een roos en een madeliefje zijn allemaal soorten bloemen. Bloem is het overkoepelende woord."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk woord valt onder het overkoepelende woord meubel?",
+     "opties": [
+      "kast",
+      "lamp",
+      "tapijt",
+      "gordijn"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een kast is een meubel. Een lamp, een tapijt en een gordijn horen wel in huis, maar het zijn geen meubels."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Mus is een woord dat onder het overkoepelende woord vogel valt.",
+     "antwoord": true,
+     "uitleg": "Een mus is een soort vogel. Vogel is het ruimere woord, mus het meer precieze."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk rijtje past NIET bij het overkoepelende woord voertuig?",
+     "opties": [
+      "fiets, bus, tram",
+      "auto, vrachtwagen, trein",
+      "hamer, zaag, schroevendraaier",
+      "step, brommer, taxi"
+     ],
+     "antwoord": 2,
+     "uitleg": "Een hamer, een zaag en een schroevendraaier zijn gereedschap, geen voertuigen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is het lijdend voorwerp in de zin: Lotte eet een appel?",
+     "opties": [
+      "Lotte",
+      "eet",
+      "een appel",
+      "Lotte eet"
+     ],
+     "antwoord": 2,
+     "uitleg": "Vraag: wie of wat + gezegde + onderwerp? Wat eet Lotte? Een appel. Dat is het lijdend voorwerp."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is het meewerkend voorwerp in de zin: Oma geeft haar kleinzoon een cadeau?",
+     "opties": [
+      "Oma",
+      "haar kleinzoon",
+      "een cadeau",
+      "geeft"
+     ],
+     "antwoord": 1,
+     "uitleg": "Vraag: aan wie geeft oma iets? Aan haar kleinzoon. Je kan er 'aan' voor zetten zonder dat de betekenis verandert."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "In de zin 'Ik stuur mijn tante een kaartje' is 'mijn tante' het meewerkend voorwerp.",
+     "antwoord": true,
+     "uitleg": "Aan wie stuur ik een kaartje? Aan mijn tante. Het kaartje is wat ik stuur."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Schrijf het lijdend voorwerp over uit deze zin: De juf leest het verhaal voor.",
+     "antwoord": [
+      "het verhaal"
+     ],
+     "uitleg": "Wat leest de juf voor? Het verhaal."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "In welke zin staat een naamwoordelijk gezegde?",
+     "opties": [
+      "Mijn broer is ziek.",
+      "Mijn broer fietst naar school.",
+      "Mijn broer heeft een boek gekocht.",
+      "Mijn broer belt zijn vriend op."
+     ],
+     "antwoord": 0,
+     "uitleg": "Bij een naamwoordelijk gezegde zegt de zin niet wat iemand doet, maar hoe iemand of iets is: ziek."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "In de zin 'Het weer wordt koud' staat een werkwoordelijk gezegde.",
+     "antwoord": false,
+     "uitleg": "'Wordt' is een koppelwerkwoord. Samen met 'koud' vormt het een naamwoordelijk gezegde: het zegt hoe het weer is, niet wat het doet."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk werkwoord is een koppelwerkwoord?",
+     "opties": [
+      "lopen",
+      "zijn",
+      "schrijven",
+      "eten"
+     ],
+     "antwoord": 1,
+     "uitleg": "Zijn, worden, blijven, lijken, schijnen, heten en blijken zijn koppelwerkwoorden. Ze koppelen het onderwerp aan een eigenschap."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is het werkwoordelijk gezegde in de zin: Wij hebben gisteren pannenkoeken gebakken?",
+     "opties": [
+      "hebben",
+      "hebben gebakken",
+      "pannenkoeken gebakken",
+      "gisteren gebakken"
+     ],
+     "antwoord": 1,
+     "uitleg": "Het werkwoordelijk gezegde bestaat uit alle werkwoorden in de zin: hebben en gebakken."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk deel van de zin is de bijzin? Ik blijf binnen, omdat het regent.",
+     "opties": [
+      "Ik blijf binnen",
+      "omdat het regent",
+      "Ik blijf",
+      "binnen, omdat"
+     ],
+     "antwoord": 1,
+     "uitleg": "Een bijzin begint vaak met een woord als omdat, als, dat of terwijl."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een bijzin kan op zichzelf staan als een volledige zin.",
+     "antwoord": false,
+     "uitleg": "'Omdat het regent.' is geen volledige zin: je wacht op meer. Een hoofdzin kan wel alleen staan."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke zin is een samengestelde zin?",
+     "opties": [
+      "De kat slaapt.",
+      "De kat slaapt, want ze is moe.",
+      "De grijze kat slaapt op de zetel.",
+      "Slaapt de kat?"
+     ],
+     "antwoord": 1,
+     "uitleg": "Een samengestelde zin bestaat uit twee of meer zinnen die aan elkaar gekoppeld zijn, hier met 'want'."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waar staat de persoonsvorm in een bijzin meestal?",
+     "opties": [
+      "helemaal vooraan",
+      "op de tweede plaats",
+      "achteraan",
+      "er staat nooit een persoonsvorm in"
+     ],
+     "antwoord": 2,
+     "uitleg": "Vergelijk: 'Het regent.' en '... omdat het regent.' In de bijzin schuift de persoonsvorm naar achteren."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke zin staat in de gebiedende wijs?",
+     "opties": [
+      "Ik ruim mijn kamer op.",
+      "Ruim je kamer op!",
+      "Heb jij je kamer opgeruimd?",
+      "Hij ruimde zijn kamer op."
+     ],
+     "antwoord": 1,
+     "uitleg": "In de gebiedende wijs geef je een opdracht. Het werkwoord staat vooraan en er is geen onderwerp."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Zet in de gebiedende wijs: (komen) hier eens kijken!",
+     "antwoord": [
+      "kom"
+     ],
+     "uitleg": "De gebiedende wijs is de stam van het werkwoord: kom. Er komt geen t achter."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "In de gebiedende wijs schrijf je 'Wordt stil!'.",
+     "antwoord": false,
+     "uitleg": "De gebiedende wijs is de stam, zonder t: 'Word stil!'."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke zin staat in de onvoltooid toekomende tijd?",
+     "opties": [
+      "Ik speel morgen voetbal.",
+      "Ik zal voetballen.",
+      "Ik heb gevoetbald.",
+      "Ik speelde voetbal."
+     ],
+     "antwoord": 1,
+     "uitleg": "De toekomende tijd maak je met 'zullen' + een heel werkwoord: ik zal voetballen."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Vul aan in de toekomende tijd: Volgend jaar ___ wij naar Spanje gaan.",
+     "antwoord": [
+      "zullen"
+     ],
+     "uitleg": "Bij wij hoort de vorm 'zullen': wij zullen gaan."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke zin staat in de voltooid toekomende tijd?",
+     "opties": [
+      "Ik zal morgen het boek lezen.",
+      "Ik zal het boek gelezen hebben.",
+      "Ik heb het boek gisteren gelezen.",
+      "Ik las het boek vorige week."
+     ],
+     "antwoord": 1,
+     "uitleg": "Voltooid toekomend: zullen + voltooid deelwoord + hebben of zijn. Het is dan in de toekomst al gebeurd."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je stuurt een berichtje naar je vriend. Wie is de ontvanger?",
+     "opties": [
+      "jij",
+      "je vriend",
+      "je gsm",
+      "het berichtje"
+     ],
+     "antwoord": 1,
+     "uitleg": "De zender stuurt de boodschap, de ontvanger krijgt ze."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Een radiopresentator vertelt het nieuws. Wat is het kanaal?",
+     "opties": [
+      "de presentator",
+      "de luisteraars",
+      "de radio",
+      "het nieuws"
+     ],
+     "antwoord": 2,
+     "uitleg": "Het kanaal is de weg waarlangs de boodschap gaat: hier de radio."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Ruis is alles wat de boodschap moeilijker maakt om te begrijpen, zoals lawaai of een slechte verbinding.",
+     "antwoord": true,
+     "uitleg": "Ruis stoort de communicatie tussen zender en ontvanger."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je schrijft een mail naar de directeur van de school. Welke aanspreking past het best?",
+     "opties": [
+      "Hey!",
+      "Geachte directeur,",
+      "Yo, beste directeur!",
+      "Hallo daar, maatje,"
+     ],
+     "antwoord": 1,
+     "uitleg": "Naar iemand die je niet goed kent of die een belangrijke functie heeft, schrijf je formeel."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke zin is Standaardnederlands?",
+     "opties": [
+      "Ge moet da nie doen.",
+      "Je moet dat niet doen.",
+      "Gij moet da ni doen.",
+      "Ge moogt da nie doen."
+     ],
+     "antwoord": 1,
+     "uitleg": "'Je moet dat niet doen.' is de vorm die je overal in Vlaanderen en Nederland begrijpt en in een boek of op het nieuws hoort."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe noem je de taal die in één streek gesproken wordt, met eigen woorden en klanken?",
+     "opties": [
+      "een dialect",
+      "een vreemde taal",
+      "een spreekwoord",
+      "een register"
+     ],
+     "antwoord": 0,
+     "uitleg": "Elke streek heeft zijn eigen dialect. Een Limburger en een West-Vlaming spreken elk een ander dialect."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Tussentaal is de taal die tussen dialect en Standaardnederlands in zit, zoals 'Hedde gij da gezien?'.",
+     "antwoord": true,
+     "uitleg": "Tussentaal hoor je veel in Vlaanderen. Het is geen dialect meer, maar ook nog geen Standaardnederlands."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke taal is familie van het Nederlands?",
+     "opties": [
+      "Duits",
+      "Frans",
+      "Hongaars",
+      "Fins"
+     ],
+     "antwoord": 0,
+     "uitleg": "Nederlands en Duits zijn allebei Germaanse talen. Daarom lijken veel woorden op elkaar, zoals Haus en huis."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Frans en Italiaans horen bij dezelfde taalfamilie.",
+     "antwoord": true,
+     "uitleg": "Allebei stammen ze af van het Latijn, de taal van de Romeinen. Daarom heten ze Romaanse talen."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Engels is familie van het Frans en niet van het Nederlands.",
+     "antwoord": false,
+     "uitleg": "Engels hoort bij dezelfde taalfamilie als het Nederlands. Het heeft wel veel woorden uit het Frans overgenomen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je wil snel weten op welke bladzijde het hoofdstuk over vulkanen begint. Waar kijk je?",
+     "opties": [
+      "in de inhoudsopgave",
+      "op de achterflap",
+      "in het colofon",
+      "in het voorwoord"
+     ],
+     "antwoord": 0,
+     "uitleg": "De inhoudsopgave vooraan toont de hoofdstukken met hun bladzijde."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Achteraan in een boek staat een lijst met woorden in alfabetische volgorde en de bladzijden waar ze voorkomen. Hoe heet die lijst?",
+     "opties": [
+      "de inhoudsopgave",
+      "het register",
+      "de legende",
+      "de inleiding"
+     ],
+     "antwoord": 1,
+     "uitleg": "Een register (of index) helpt je om één woord snel terug te vinden."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De legende bij een kaart of grafiek legt uit wat de kleuren en tekens betekenen.",
+     "antwoord": true,
+     "uitleg": "Zonder legende weet je niet wat een blauwe lijn of een sterretje op de kaart betekent."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Alles wat op een website staat, is altijd waar.",
+     "antwoord": false,
+     "uitleg": "Iedereen kan iets op internet zetten. Kijk wie de tekst schreef, wanneer, en of andere bronnen hetzelfde zeggen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "'Ik keek om en zag de hond achter me aan rennen.' Wie vertelt dit verhaal?",
+     "opties": [
+      "een ik-verteller",
+      "een verteller die buiten het verhaal staat",
+      "de hond",
+      "de schrijver van de krant"
+     ],
+     "antwoord": 0,
+     "uitleg": "De verteller zegt 'ik' en maakt het verhaal zelf mee."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Bij een hij- of zij-verteller weet de lezer altijd minder dan de personages.",
+     "antwoord": false,
+     "uitleg": "Een verteller die buiten het verhaal staat, kan net meer weten dan de personages, bijvoorbeeld wat iedereen denkt."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je leest het begin van een verhaal en wil weten wat de hoofdpersoon wil bereiken. Waar let je op?",
+     "opties": [
+      "wat het personage wil",
+      "hoeveel bladzijden het boek telt",
+      "waar en wanneer de schrijver leefde",
+      "de prenten op de kaft"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een verhaal draait bijna altijd om iemand die iets wil of een probleem moet oplossen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat schrijf je in een goede samenvatting?",
+     "opties": [
+      "de hoofdzaken, in je eigen woorden",
+      "elke zin uit de tekst, alleen een beetje korter",
+      "wat jij van de schrijver en de tekst vindt",
+      "de grappigste en spannendste stukjes"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een samenvatting is kort en geeft de hoofdzaken weer, zonder details en zonder je eigen mening."
+    }
+   ]
+  }
+ ]
+}

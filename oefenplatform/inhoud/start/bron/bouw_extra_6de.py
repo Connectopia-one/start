@@ -1,17 +1,20 @@
 # -*- coding: utf-8 -*-
-"""Schrijft ../wiskunde-extra-6de.json uit wiskunde_extra_6de.py en rekent na.
+"""Bouwt een extra Start-hoofdstuk "Nog meer voor het 6de leerjaar" en kijkt het na.
 
-    python3 inhoud/start/bron/bouw_wiskunde_extra_6de.py
-Importeren in vak Wiskunde (Start), nieuw hoofdstuk, zonder 'vervangen'.
+    python3 bouw_extra_6de.py wiskunde_extra_6de wiskunde-extra-6de.json
+Importeren in het vak (Start) als nieuw hoofdstuk, zonder 'vervangen'.
 """
 import json, pathlib, sys, collections
 from fractions import Fraction as F
 HIER = pathlib.Path(__file__).parent
 sys.path.insert(0, str(HIER)); sys.path.insert(0, str(HIER.parent.parent / "basis" / "bron"))
-import reken, wiskunde_extra_6de as bron
+import importlib
+import reken
+MODULE, UIT = sys.argv[1], sys.argv[2]
+bron = importlib.import_module(MODULE)
 
 TITEL = "Nog meer voor het 6de leerjaar"
-DOEL = HIER.parent / "wiskunde-extra-6de.json"
+DOEL = HIER.parent / UIT
 
 def main():
     fouten, gezien = [], set()
