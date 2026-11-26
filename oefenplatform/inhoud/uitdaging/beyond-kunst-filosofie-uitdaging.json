@@ -1,0 +1,654 @@
+{
+  "hoofdstukken": [
+    {
+      "titel": "Uitdaging — alles door elkaar",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "tabel",
+          "vraag": "Een museum plant een tentoonstelling. Bij welke kunstvorm hoort elk onderdeel?",
+          "rijen": [
+            "Een zaal vol zwart-witfoto's van havenarbeiders",
+            "Een kamer waarin bezoekers tussen hangende spiegels en geluid lopen",
+            "Een kaartje met de zin: stel je een blauwe zaal voor",
+            "Een bronzen beeld van een danser"
+          ],
+          "antwoord": [
+            0,
+            2,
+            3,
+            1
+          ],
+          "uitleg": "Fotografie hoort bij de audiovisuele kunsten. Bij installatiekunst is de ruimte het werk, bij conceptuele kunst het idee.",
+          "kolommen": [
+            "Audiovisuele kunsten",
+            "Beeldende kunsten",
+            "Installatiekunst",
+            "Conceptuele kunst"
+          ]
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Een recensent schrijft over een voorstelling. Bij welke kunstvorm hoort de bouwsteen die hij beschrijft?",
+          "kolommen": [
+            "Dans",
+            "Muziek",
+            "Media"
+          ],
+          "items": [
+            [
+              "De dansers bewegen eerst slap, dan hoekig en krachtig.",
+              "Dans"
+            ],
+            [
+              "Twee dansers bewegen exact gelijk, de derde net niet.",
+              "Dans"
+            ],
+            [
+              "De cello neemt de melodie over van de viool.",
+              "Muziek"
+            ],
+            [
+              "Het orkest zwelt aan tot een oorverdovend slot.",
+              "Muziek"
+            ],
+            [
+              "De film springt zonder overgang van de straat naar de keuken.",
+              "Media"
+            ],
+            [
+              "We zien het gebouw van onderen, zodat het dreigend lijkt.",
+              "Media"
+            ]
+          ],
+          "uitleg": "Kracht en relatie zijn bouwstenen van dans, klankkleur en dynamiek van muziek, montage en kader van media."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een beeldhouwer giet een beeld in brons. Brons is het [[*materiaal|techniek|bouwsteen]], gieten in een mal is de [[*techniek|materiaal|context]]. Wie het beeld bestelde, hoort bij de [[*context|vormgeving|bouwstenen]].",
+          "uitleg": "Materiaal is waarmee je werkt, techniek is hoe. De opdrachtgever is geen middel van vormgeving, maar hoort bij de context."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een filmmaker wil dat een personage klein en verloren lijkt. Welk kader past daar het best bij?",
+          "opties": [
+            "een close-up vanuit een laag kikkerperspectief",
+            "een long shot vanuit vogelperspectief",
+            "een medium shot op ooghoogte",
+            "een close-up op ooghoogte"
+          ],
+          "antwoord": 1,
+          "uitleg": "In een long shot zie je de figuur klein in een grote ruimte. Vanuit vogelperspectief kijk je op iemand neer, wat hem nog kleiner doet lijken."
+        },
+        {
+          "casus": "Een schilder maakt in 1937 een enorm doek over het bombardement op een Spaans stadje tijdens de burgeroorlog. Hij gebruikt enkel zwart, wit en grijs, en schildert gebroken lichamen en een schreeuwend paard. Het werk hangt eerst in het Spaanse paviljoen op de wereldtentoonstelling in Parijs.",
+          "vragen": [
+            {
+              "type": "meerkeuze",
+              "vraag": "Welke functie staat hier voorop?",
+              "opties": [
+                "decoratief en versierend",
+                "maatschappijkritisch",
+                "economisch, om te verkopen",
+                "ontspannend en vrolijk"
+              ],
+              "antwoord": 1,
+              "uitleg": "Het werk klaagt de gruwel van de oorlog aan."
+            },
+            {
+              "type": "tabel",
+              "vraag": "Over welk deel van de context gaat het?",
+              "rijen": [
+                "geschilderd in 1937",
+                "voor het Spaanse paviljoen in Parijs",
+                "tijdens de Spaanse Burgeroorlog"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "Het jaartal is de tijd, de plaats waarvoor het gemaakt werd de ruimte, de oorlog de politieke context.",
+              "kolommen": [
+                "Tijd",
+                "Ruimte",
+                "Politiek"
+              ]
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Hoe verklaart de functie hier de vormgeving?",
+              "opties": [
+                "vrolijke kleuren zouden de pijn voor de kijker draaglijker maken",
+                "sombere kleuren en gebroken vormen versterken de aanklacht",
+                "het grote formaat moest het werk op de kunstmarkt duurder maken",
+                "het grijs was goedkoper dan andere verf in oorlogstijd"
+              ],
+              "antwoord": 1,
+              "uitleg": "De context verklaart de functie en de functie verklaart de vormgeving: wie gruwel wil aanklagen, kiest voor sombere kleuren en gebroken vormen."
+            }
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welke functie staat voorop bij deze werken?",
+          "rijen": [
+            "Een tapijt dat een kasteelzaal mooier maakt",
+            "Een reeks beeldjes die meteen online verkocht wordt",
+            "Een standbeeld dat de macht van een vorst toont",
+            "Een werk dat doet nadenken over de dood"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "uitleg": "Versieren is decoratief, geld opbrengen economisch, macht tonen politiek, doen nadenken over grote vragen filosofisch.",
+          "kolommen": [
+            "Decoratief",
+            "Economisch",
+            "Politiek",
+            "Filosofisch"
+          ]
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet deze werken of gebouwen in de juiste volgorde, van oud naar recent.",
+          "opties": [
+            "de grotschilderingen van Lascaux",
+            "de piramiden van Gizeh",
+            "het Parthenon",
+            "het Pantheon",
+            "de kathedraal van Chartres",
+            "het Lam Gods"
+          ],
+          "uitleg": "Prehistorie, Egypte, Griekenland, Rome, gotiek en dan de Vlaamse primitieven in de 15de eeuw."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet deze stromingen in de juiste volgorde, van oud naar recent.",
+          "opties": [
+            "neoclassicisme",
+            "romantiek",
+            "impressionisme",
+            "kubisme",
+            "surrealisme",
+            "popart"
+          ],
+          "uitleg": "Het neoclassicisme en de romantiek horen rond 1800, het impressionisme in de tweede helft van de 19de eeuw, het kubisme rond 1907, het surrealisme na de Eerste Wereldoorlog en de popart na 1950."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel de kunstenaar aan het kenmerk dat in zijn werk opvalt.",
+          "paren": [
+            [
+              "Leonardo da Vinci",
+              "sfumato"
+            ],
+            [
+              "Caravaggio",
+              "hard contrast tussen licht en donker"
+            ],
+            [
+              "Van Eyck",
+              "olieverf in dunne lagen"
+            ],
+            [
+              "Polykleitos",
+              "contrapposto"
+            ],
+            [
+              "Pollock",
+              "drip painting"
+            ]
+          ],
+          "extra": [
+            "readymade",
+            "aspectief"
+          ],
+          "uitleg": "Een readymade hoort bij Duchamp, aspectief bij de Egyptische kunst."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Een beeld staat met het gewicht op één been en de heupen schuin: dat is [[*contrapposto|aspectief|sfumato]]. Een Romeins borstbeeld daarentegen toont rimpels en eigen trekken, omdat de Romeinen vooral [[*realistische|geïdealiseerde|abstracte]] portretten maakten.",
+          "uitleg": "Contrapposto is typisch voor klassieke Griekse beelden. Romeinse portretten waren realistisch."
+        },
+        {
+          "casus": "Je bezoekt een kerk. Ze is hoog en licht, met grote glasramen en een roosvenster. Aan de buitenkant zie je bogen die tegen de muren steunen. Binnen hangt een veelluik uit de 15de eeuw met heel fijn geschilderde stoffen en juwelen.",
+          "vragen": [
+            {
+              "type": "keuzelijst",
+              "vraag": "De kerk is [[*gotisch|romaans|barok]]. De bogen buiten heten [[*luchtbogen|rondbogen|hoefijzerbogen]].",
+              "uitleg": "Hoogte, licht en luchtbogen zijn typisch voor de gotiek."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Waarom konden de muren zoveel glas bevatten?",
+              "opties": [
+                "de muren waren veel dikker dan in een romaanse kerk",
+                "de bogen buiten vingen de druk van het gewelf op",
+                "het dak was van licht hout in plaats van zware steen",
+                "er stonden zuilen in het midden van de ramen"
+              ],
+              "antwoord": 1,
+              "uitleg": "Luchtbogen en steunberen dragen een deel van het gewicht. Zo hoeft de muur niet alles te dragen."
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Het veelluik hoort bij de Vlaamse primitieven. Wat betekent primitief hier?",
+              "opties": [
+                "ongeschoold, eenvoudig en nog zonder echte techniek",
+                "de eersten van een nieuwe schilderkunst",
+                "geschilderd met natuurlijke pigmenten",
+                "gemaakt zonder een rijke opdrachtgever"
+              ],
+              "antwoord": 1,
+              "uitleg": "Primitief verwijst naar de eersten, niet naar een gebrek aan kunde."
+            }
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Renaissance of barok?",
+          "rijen": [
+            "Figuren in een rustige, symmetrische opstelling",
+            "Een diagonale compositie vol beweging",
+            "Diepte met één verdwijnpunt",
+            "Gemaakt om gelovigen te ontroeren na de reformatie"
+          ],
+          "antwoord": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "uitleg": "Rust en perspectief horen bij de renaissance. Beweging, emotie en de contrareformatie bij de barok.",
+          "kolommen": [
+            "Renaissance",
+            "Barok"
+          ]
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "De [[romantiek]] reageerde op de rede van het neoclassicisme met gevoel en natuur. Het [[realisme]] toonde daarna het gewone leven zonder mooimakerij. Het [[dadaïsme]] protesteerde tegen de oorlog en tegen de kunst zelf.",
+          "extra": [
+            "surrealisme",
+            "fauvisme"
+          ],
+          "uitleg": "Elke stroming kan je lezen als een reactie op wat eraan voorafging."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welke niet-westerse invloed herken je?",
+          "rijen": [
+            "Vlakke kleurvlakken, sterke contouren, een afgesneden beeld",
+            "Hoekige, maskerachtige gezichten in een kubistisch werk",
+            "Geometrische sterpatronen zonder mensfiguren"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Japanse prenten beïnvloedden Van Gogh en Monet, Afrikaanse beelden Picasso, islamitische patronen o.a. Matisse.",
+          "kolommen": [
+            "Japanse houtsneden",
+            "Afrikaanse beelden",
+            "Islamitische kunst"
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een klasgenoot zegt: een Afrikaans masker in een Europees museum toont gewoon primitieve kunst. Wat is de sterkste kritiek daarop?",
+          "opties": [
+            "het masker is veel te oud om vandaag nog iets te betekenen voor wie het bekijkt",
+            "musea mogen volgens de wet geen religieuze maskers tonen",
+            "het had een eigen betekenis en kwam vaak via kolonisatie hier",
+            "maskers horen bij de podiumkunsten en dus niet in een museum"
+          ],
+          "antwoord": 2,
+          "uitleg": "Westerse kunstenaars en musea kenden de betekenis vaak niet, en veel voorwerpen kwamen via de koloniale overheersing naar Europa."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet de stappen van een kunstanalyse in de goede volgorde.",
+          "opties": [
+            "beschrijven wat je ziet",
+            "de vormgeving bekijken",
+            "de context zoeken",
+            "functie en betekenis bepalen",
+            "je eigen oordeel geven"
+          ],
+          "uitleg": "Eerst kijken en beschrijven, pas op het einde oordelen, en dat oordeel steunen op wat je zag."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Vanuit welk perspectief kijkt deze bezoeker naar het werk?",
+          "rijen": [
+            "Dit was het eerste schilderij met zo'n perspectief.",
+            "De compositie is mooi in evenwicht.",
+            "Het werk doet me aan mijn opa denken.",
+            "Het werk zet ons aan het denken over armoede."
+          ],
+          "antwoord": [
+            1,
+            0,
+            3,
+            2
+          ],
+          "uitleg": "Wat nieuw was voor zijn tijd is historisch, hoe het gemaakt is vormelijk, wat het bij jou oproept persoonlijk, wat het over de samenleving zegt maatschappelijk.",
+          "kolommen": [
+            "Vormelijk",
+            "Historisch",
+            "Maatschappelijk",
+            "Persoonlijk"
+          ]
+        },
+        {
+          "type": "open",
+          "vraag": "Je ziet een ongekend schilderij: een fabriekshal, uitgeputte arbeiders, bruine en grijze tinten, geschilderd rond 1850. Analyseer het kort: stroming, functie en één kenmerk van de vormgeving.",
+          "antwoord": "Het past bij het realisme: het gewone, zware leven zonder mooimakerij. De functie is maatschappijkritisch. De sombere bruine en grijze tinten versterken de uitputting.",
+          "uitleg": "Steun elke bewering op iets wat je in het werk ziet."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel de filosoof aan zijn beeld of uitspraak.",
+          "paren": [
+            [
+              "Heraclitus",
+              "je stapt nooit twee keer in dezelfde rivier"
+            ],
+            [
+              "Plato",
+              "gevangenen in een grot zien enkel schaduwen"
+            ],
+            [
+              "Aristoteles",
+              "een eikel is in mogelijkheid een eik"
+            ],
+            [
+              "Camus",
+              "we moeten ons Sisyphus gelukkig voorstellen"
+            ],
+            [
+              "Sartre",
+              "het bestaan gaat vooraf aan de essentie"
+            ]
+          ],
+          "extra": [
+            "God of de natuur",
+            "these, antithese, synthese"
+          ],
+          "uitleg": "God of de natuur is van Spinoza, these-antithese-synthese van Hegel."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hume ziet de zon elke ochtend opkomen. Wat zegt hij over de verwachting dat ze morgen weer opkomt?",
+          "opties": [
+            "ze is met het verstand logisch en zeker bewezen",
+            "ze steunt op gewoonte, niet op een waargenomen oorzaak",
+            "ze is aangeboren kennis die iedereen al bij de geboorte heeft",
+            "ze is onmogelijk omdat alles stroomt"
+          ],
+          "antwoord": 1,
+          "uitleg": "Volgens Hume zien we enkel dat dingen na elkaar komen. Dat het ene het andere veroorzaakt, is een gewoonte van onze geest."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Kant zegt dat we de dingen enkel kennen zoals ze aan ons [[*verschijnen|zijn|werken]]. Het ding op zich blijft voor ons [[*onkenbaar|zichtbaar|veranderlijk]].",
+          "uitleg": "Kant onderscheidt het fenomeen van het ding op zich."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welke ethische benadering spreekt hier?",
+          "rijen": [
+            "Kies wat het meeste geluk oplevert voor de meeste mensen.",
+            "Liegen mag nooit, ook niet om iemand te sparen.",
+            "Wat zou een moedig en eerlijk mens doen?",
+            "Vertrek van wie kwetsbaar is en van jou afhangt."
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "uitleg": "Gevolgen, plicht, deugd en zorg zijn de vier benaderingen.",
+          "kolommen": [
+            "Gevolgenethiek",
+            "Plichtethiek",
+            "Deugdethiek",
+            "Zorgethiek"
+          ]
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Rationalisme of empirisme?",
+          "kolommen": [
+            "Rationalisme",
+            "Empirisme"
+          ],
+          "items": [
+            [
+              "Descartes",
+              "Rationalisme"
+            ],
+            [
+              "ik denk, dus ik ben",
+              "Rationalisme"
+            ],
+            [
+              "Locke",
+              "Empirisme"
+            ],
+            [
+              "de geest is bij de geboorte een onbeschreven blad",
+              "Empirisme"
+            ],
+            [
+              "Hume",
+              "Empirisme"
+            ]
+          ],
+          "uitleg": "Rationalisten zoeken zekere kennis in het verstand, empiristen in de ervaring."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Iemand zegt: mijn horoscoop klopt altijd, wat er ook gebeurt. Waarom is dat volgens Popper geen wetenschap?",
+          "opties": [
+            "omdat geen enkele waarneming het kan weerleggen",
+            "omdat het nooit in een echt labo getest werd",
+            "omdat te weinig mensen erin geloven",
+            "omdat de sterren veel te ver weg staan om ze te meten"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een wetenschappelijke uitspraak moet falsifieerbaar zijn: je moet kunnen zeggen welke waarneming haar zou weerleggen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Welke drogreden zit hierin?",
+          "rijen": [
+            "Je mag niet over gezond eten praten, je eet zelf chips.",
+            "Het is natuurlijk, dus het is goed.",
+            "Iedereen doet het, dus het mag."
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Een jij-bak valt de persoon aan in plaats van het argument. Natuurlijk of populair is nog niet goed of waar.",
+          "kolommen": [
+            "Jij-bak",
+            "Beroep op de natuur",
+            "Beroep op de massa"
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een robot schrijft een gedicht dat lezers ontroert. Welke vraag hoort het meest bij het thema mens, dier en machine?",
+          "opties": [
+            "is creativiteit exclusief menselijk?",
+            "wie is de opdrachtgever van het gedicht?",
+            "welk rijmschema gebruikte de robot?",
+            "hoeveel kost zo'n robot?"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij mens, dier en machine vraag je wat exclusief menselijk is: denken, voelen, scheppen?"
+        },
+        {
+          "casus": "Een gemeente wil een nieuw zwembad. Er is geld voor één project. Drie inwoners reageren. Inwoner A: de gemeente moet vooral mijn eigendom beschermen en zich niet met vrije tijd bemoeien. Inwoner B: het zwembad mag enkel als ook de armste gezinnen er toegang toe krijgen. Inwoner C: het zwembad is de plek waar onze dorpsgemeenschap samenkomt en tradities doorgeeft.",
+          "vragen": [
+            {
+              "type": "tabel",
+              "vraag": "Bij welke visie past elke inwoner het best?",
+              "rijen": [
+                "Inwoner A",
+                "Inwoner B",
+                "Inwoner C"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "A legt de nadruk op eigen rechten en een beperkte staat, B op het verschilprincipe van Rawls, C op de gemeenschap.",
+              "kolommen": [
+                "Liberalisme",
+                "Egalitair liberalisme",
+                "Communitarisme",
+                "Socialisme"
+              ]
+            },
+            {
+              "type": "meerkeuze",
+              "vraag": "Inwoner B redeneert achter een sluier van onwetendheid. Wat betekent dat?",
+              "opties": [
+                "hij weet niet hoeveel het nieuwe zwembad uiteindelijk zal kosten",
+                "hij kiest zonder te weten waar hij zelf zou staan",
+                "hij verbergt zijn mening voor de anderen",
+                "hij laat de keuze volledig over aan wie het meeste geld betaalt"
+              ],
+              "antwoord": 1,
+              "uitleg": "Wie niet weet of hij rijk of arm wordt, kiest regels die ook de zwaksten beschermen."
+            }
+          ]
+        },
+        {
+          "type": "tabel",
+          "vraag": "Wie zegt het?",
+          "rijen": [
+            "Zonder staat is het leven een oorlog van allen tegen allen.",
+            "Het volk mag een regering die de rechten schendt afzetten.",
+            "Samen worden we vrij door de algemene wil te volgen.",
+            "Soeverein is wie beslist over de uitzonderingstoestand."
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "uitleg": "Hobbes: Leviathan. Locke: natuurlijke rechten. Rousseau: algemene wil. Schmitt: uitzonderingstoestand.",
+          "kolommen": [
+            "Hobbes",
+            "Locke",
+            "Rousseau",
+            "Schmitt"
+          ]
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Volgens Mill mag de staat een volwassene niet verbieden om te [[*roken in zijn eigen tuin|rijden zonder rijbewijs|lawaai te maken 's nachts]], want dat schaadt enkel hemzelf. Dat heet het [[*schadebeginsel|verschilprincipe|sociaal contract]].",
+          "uitleg": "De staat mag vrijheid enkel beperken om schade aan anderen te voorkomen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Negatieve of positieve vrijheid volgens Berlin?",
+          "rijen": [
+            "Niemand verbiedt je om te studeren.",
+            "Je hebt genoeg geld en steun om echt te kunnen studeren.",
+            "De overheid censureert geen kranten."
+          ],
+          "antwoord": [
+            0,
+            1,
+            0
+          ],
+          "uitleg": "Vrij van inmenging is negatief, vrij om je leven echt zelf te sturen is positief.",
+          "kolommen": [
+            "Negatieve vrijheid",
+            "Positieve vrijheid"
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een topmanager laat de zorg voor zijn kinderen en zijn huis volledig over aan slecht betaalde krachten en denkt er nooit over na. Hoe noemt Tronto dat?",
+          "opties": [
+            "de algemene wil van de gemeenschap",
+            "bevoorrechte onverantwoordelijkheid",
+            "kwade trouw zoals Sartre ze beschrijft",
+            "herstellende rechtvaardigheid"
+          ],
+          "antwoord": 1,
+          "uitleg": "Wie macht heeft, kan zorg doorschuiven naar anderen en er niet over nadenken. Daarom wil Tronto zorg politiek maken."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waar toont vrijheid zich volgens Arendt het sterkst?",
+          "opties": [
+            "in het bezit van zoveel mogelijk eigendom en geld",
+            "in samen spreken en handelen in het publieke leven",
+            "in je volledig terugtrekken uit de politiek en het openbare leven",
+            "in het gehoorzamen aan een sterke leider"
+          ],
+          "antwoord": 1,
+          "uitleg": "Voor Arendt is vrijheid iets wat je samen met anderen doet, in het openbaar. Totalitarisme vernietigt net die ruimte."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een schilder uit de romantiek toont een kleine figuur voor een woeste, mistige zee. Welk idee uit de filosofie sluit daar het dichtst bij aan?",
+          "opties": [
+            "de mens die zich klein voelt tegenover een overweldigende natuur",
+            "de staat als Leviathan die vrede brengt",
+            "kennis die enkel uit het verstand komt",
+            "ongelijkheid die de zwaksten moet helpen vooruit"
+          ],
+          "antwoord": 0,
+          "uitleg": "De romantiek zette gevoel en de overweldigende natuur voorop, tegenover de koele rede van het neoclassicisme."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een kunstenaar zet een gewoon fietswiel op een krukje en noemt het kunst. Welke filosofische vraag roept dat het sterkst op?",
+          "opties": [
+            "wie beslist wat kunst is?",
+            "is de mens van nature goed?",
+            "bestaat er een ding op zich?",
+            "mag de staat vrijheid beperken?"
+          ],
+          "antwoord": 0,
+          "uitleg": "Readymades doen nadenken over wat kunst is en wie dat beslist: de kunstenaar, het museum of het publiek."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit?",
+          "rijen": [
+            "Plato zoekt het echte buiten de dingen, Aristoteles in de dingen zelf.",
+            "Parmenides vond verandering echt en het zijn schijn.",
+            "Bij Sartre heeft de mens vooraf een vaste natuur.",
+            "Spinoza zag geest en lichaam als twee kanten van één substantie."
+          ],
+          "antwoord": [
+            true,
+            false,
+            false,
+            true
+          ],
+          "uitleg": "Parmenides vond net het zijn echt en verandering schijn. Sartre zegt dat de mens zichzelf maakt."
+        }
+      ]
+    }
+  ]
+}

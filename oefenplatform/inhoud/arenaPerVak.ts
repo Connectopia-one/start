@@ -93,6 +93,7 @@ export const arenaPerVak: Record<string, Arena> = {
   "beyond-doorstroom/economie": a(ECO, "beyond"),
   "beyond-doorstroom/engels": a(EN, "beyond"),
   "beyond-doorstroom/filosofie-en-recht": a(MENS, "filorecht"),
+  "beyond-doorstroom/kunstbeschouwing-en-filosofie": a(MENS, "kf_beyond"),
   "beyond-doorstroom/frans": a(FR, "beyond"),
   "beyond-doorstroom/fysica": a(NAT, "beyond"),
   "beyond-doorstroom/geschiedenis": a(GES, "beyond"),

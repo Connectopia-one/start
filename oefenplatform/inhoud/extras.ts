@@ -531,6 +531,13 @@ export const spelKaarten: SpelKaart[] = [
   {
     spel: "begrippenarena-mens",
     school: "middelbaar",
+    niveau: "🌍 Beyond · Kunstbeschouwing en filosofie",
+    niveauInSpel: "kf_beyond",
+    tekst: `Vierenvijftig begrippen, van installatiekunst, contrapposto en clair-obscur tot de zijnsleer en politieke filosofie van Locke tot Tronto. ${zevenSpellenMens}`,
+  },
+  {
+    spel: "begrippenarena-mens",
+    school: "middelbaar",
     niveau: "🌍 Beyond · Samenleving en economie",
     niveauInSpel: "se_beyond",
     tekst: `Ruim vijftig begrippen, van identiteit en reanimatie tot belastingen, de markt, je loonfiche, krediet, beleggen en verzekeren. ${zevenSpellenMens}`,

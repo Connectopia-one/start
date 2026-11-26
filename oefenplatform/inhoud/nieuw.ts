@@ -41,6 +41,14 @@ export const nieuwTekst = {
 export const updates: Update[] = [
   {
     datum: "26 november 2026",
+    titel: "Nieuw vak: kunstbeschouwing en filosofie in Beyond",
+    tekst:
+      "Volg je humane wetenschappen in de derde graad? Dan vind je in Beyond nu het vak kunstbeschouwing en filosofie. Het kunstgedeelte gaat over de kunstvormen en hun bouwstenen, inhoud en context, de kunstgeschiedenis van de prehistorie tot de popart, niet-westerse invloeden en hoe je een werk analyseert. Het filosofiegedeelte gaat over mens, vrijheid, ethiek, kennis, de zijnsleer en politieke filosofie. Per onderwerp zijn er twee delen gewone vragen en een pittig hoofdstuk met eigen schema's om op te klikken, leer- en oefenbundels om af te drukken, een uitdaging met veertig vragen die alles door elkaar haalt, en een eigen niveau in de begrippenarena.",
+    opVraag: true,
+    link: { tekst: "Naar het vak", href: "/niveaus/beyond-doorstroom/kunstbeschouwing-en-filosofie" },
+  },
+  {
+    datum: "26 november 2026",
     titel: "Sociale en gedragswetenschappen Beyond: kies humane of welzijnswetenschappen",
     tekst:
       "Humane wetenschappen en welzijnswetenschappen hebben voor sociale en gedragswetenschappen niet helemaal dezelfde leerstof. Op de vakpagina kies je nu je richting. Voor humane wetenschappen kwam er een volledig deel politiek bij: democratie en de rechtstaat, de Belgische staat, ideologieën, partijen en verkiezingen, participatie en kiesrecht, het recht in de samenleving, en globalisering met de VN en de Europese Unie. Zes onderwerpen met telkens twee delen gewone vragen en een pittig hoofdstuk met eigen schema's om op te klikken, leer- en oefenbundels om af te drukken, en een eigen niveau in de begrippenarena. Kies je welzijnswetenschappen, dan zie je de politiek niet en blijft alles zoals je gewoon bent.",
