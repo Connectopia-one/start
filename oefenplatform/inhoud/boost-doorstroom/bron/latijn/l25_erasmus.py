@@ -3,7 +3,7 @@ from _basis import *
 
 TITEL = "Lectuur: Erasmus, een humanist tussen twee werelden"
 BRON = ("Een eigen tekst van Connectopia over het thema van de lectuuropdracht (het leven van Erasmus). Gebaseerd op: Erasmus, Moriae Encomium (1511) en zijn uitgave van het Nieuwe Testament (1516); de geschiedenis van het Collegium Trilingue in Leuven (1517). "
-        "Wil je meer lezen, dan is de biografie Erasmus van Sandra Langereis uit de vakfiche een goede volgende stap.")
+        "Wil je meer lezen, dan is de biografie Erasmus van Sandra Langereis uit de leeslijst van de Examencommissie een goede volgende stap.")
 INLEIDING = "Deze tekst is geen Latijn. Hij helpt je bij de lectuuropdracht over Erasmus. Lees hem rustig en beantwoord dan de vragen."
 ALINEAS = [
     "Een kind zonder plaats",

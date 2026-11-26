@@ -3,7 +3,7 @@ from _basis import *
 
 TITEL = "Lectuur: de jonge Caesar en de weg naar Gallië"
 BRON = ("Een eigen tekst van Connectopia over het thema van de lectuuropdracht (Caesars jeugd en loopbaan). Gebaseerd op: Suetonius, Divus Iulius 1-24; Plutarchus, Caesar 1-14; Caesar, De bello Gallico I, 1-2. "
-        "Wil je meer lezen, dan is de biografie Caesar van Adrian Goldsworthy uit de vakfiche een goede volgende stap.")
+        "Wil je meer lezen, dan is de biografie Caesar van Adrian Goldsworthy uit de leeslijst van de Examencommissie een goede volgende stap.")
 INLEIDING = "Deze tekst is geen Latijn. Hij helpt je bij de lectuuropdracht over Caesar. Lees hem rustig en beantwoord dan de vragen."
 ALINEAS = [
     "Een jongen uit een oude familie",

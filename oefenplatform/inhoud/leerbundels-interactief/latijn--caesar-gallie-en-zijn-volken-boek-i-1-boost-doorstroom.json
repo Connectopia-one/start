@@ -1,0 +1,49 @@
+{
+ "vak": "Latijn",
+ "titel": "Caesar: Gallië en zijn volken (boek I, 1)",
+ "onder": "De Latijnse tekst met de woorden erbij, en de uitleg bij alles wat je erover moet kunnen.",
+ "secties": [
+  {
+   "kop": "De tekst",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Dit is de beroemde eerste zin van De bello Gallico. Caesar stelt Gallië voor: drie delen, drie volken, met hun grenzen en hun karakter. Lees eerst de tekst. De moeilijke woorden staan in de tabel na de tekst."
+    },
+    {
+     "soort": "tekst",
+     "html": "<span lang=\"la\"><em>(1) Gallia est omnis divisa in partes tres, quarum unam incolunt Belgae, aliam Aquitani, tertiam qui ipsorum lingua Celtae, nostra Galli appellantur. Hi omnes lingua, institutis, legibus inter se differunt. Gallos ab Aquitanis Garumna flumen, a Belgis Matrona et Sequana dividit. Horum omnium fortissimi sunt Belgae, propterea quod a cultu atque humanitate provinciae longissime absunt, minimeque ad eos mercatores saepe commeant atque ea quae ad effeminandos animos pertinent important, proximique sunt Germanis, qui trans Rhenum incolunt, quibuscum continenter bellum gerunt. Qua de causa Helvetii quoque reliquos Gallos virtute praecedunt, quod fere cotidianis proeliis cum Germanis contendunt, cum aut suis finibus eos prohibent aut ipsi in eorum finibus bellum gerunt. [Eorum una pars, quam Gallos obtinere dictum est, initium capit a flumine Rhodano, continetur Garumna flumine, Oceano, finibus Belgarum, attingit etiam ab Sequanis et Helvetiis flumen Rhenum, vergit ad septentriones. Belgae ab extremis Galliae finibus oriuntur, pertinent ad inferiorem partem fluminis Rheni, spectant in septentrionem et orientem solem. Aquitania a Garumna flumine ad Pyrenaeos montes et eam partem Oceani quae est ad Hispaniam pertinet; spectat inter occasum solis et septentriones.]</em></span>"
+    },
+    {
+     "soort": "kader",
+     "html": "<p><strong>Bron.</strong> Caesar, De bello Gallico I, 1. Latijnse tekst: editie T. Rice Holmes (1914), digitaal via Perseus Digital Library.</p>"
+    }
+   ]
+  },
+  {
+   "kop": "Woorden bij de tekst",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Woord</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Betekenis</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><em>incolunt</em></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">van incolere, bewonen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><em>institutis</em></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">van institutum, de instelling, het gebruik</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><em>Garumna</em></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de Garonne</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><em>Matrona</em></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de Marne</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><em>Sequana</em></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de Seine</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><em>humanitate</em></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">van humanitas, de beschaving</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><em>provinciae</em></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de Romeinse provincie in het zuiden van Gallië, de latere Provence</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><em>commeant</em></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">van commeare, komen en gaan</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><em>effeminandos</em></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">van effeminare, verwekelijken</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><em>continenter</em></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">voortdurend, zonder ophouden</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><em>septentriones</em></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het noorden (de zeven sterren van de Grote Beer)</td></tr></table>"
+    }
+   ]
+  },
+  {
+   "kop": "Wat moet je over deze tekst weten?",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<ul><li>Gallia est omnis divisa in partes tres: Gallië is in zijn geheel verdeeld in drie delen.</li><li>Caesar stelt de drie volken voor en zegt van de Helvetii dat ze de andere Galliërs in dapperheid overtreffen.</li><li>Divisa komt van dividere, verdelen, en hoort bij Gallia. Je kan est divisa lezen als een perfectum passief (is verdeeld), of divisa als een naamwoordelijk deel bij est (is verdeeld, toestand). Allebei is goed: de vorm blijft een participium perfectum passief.</li><li>Quarum is een genitivus meervoud vrouwelijk. Het verwijst naar partes: waarvan de Belgen er één bewonen.</li><li>Bij nostra moet je lingua aanvullen uit ipsorum lingua: in hun eigen taal heten ze Kelten, in de onze Galliërs.</li><li>Het is een ablativus van betrekking: ze verschillen van elkaar wat taal, instellingen en wetten betreft.</li><li>Garonne, Marne, Seine en Rhône vormen de grenzen die Caesar noemt. Ook de Rijn (Rhenus) komt in de tekst voor.</li><li>Fortis, dapper. Fortior is de vergrotende trap, fortissimus de overtreffende.</li><li>Caesar zegt net dat er zelden kooplui bij hen komen. Zo komen er ook geen luxeproducten die de geest verwekelijken.</li><li>Propterea quod betekent omdat. Wat volgt, verklaart waarom de Belgen de dappersten zijn.</li><li>Ad met een gerundivum drukt een doel uit. Het gaat om luxe die mensen week en minder strijdlustig maakt.</li><li>De provincia was het zuiden van Gallië dat al Romeins was. De naam leeft voort in de Provence.</li><li>In Latijn plakt cum vaak achter een betrekkelijk voornaamwoord: quibuscum, met wie. De Belgen voeren voortdurend oorlog met de Germanen.</li><li>Quod fere cotidianis proeliis cum Germanis contendunt: omdat ze bijna dagelijks slag leveren met de Germanen.</li><li>Septentriones zijn de zeven ossen, de sterren van de Grote Beer in het noorden. Oriens sol is de opgaande zon, occasus solis de ondergang.</li><li>Veel Franse en Engelse woorden gaan terug op het Latijn. Bij fleuve viel de m weg. Quotidien gaat terug op de latere spelling quotidianus, met qu in plaats van c.</li><li>In met de accusativus duidt een richting of een verdeling aan: in drie delen.</li><li>De Commentarii zijn ook propaganda. Hoe sterker de vijand, hoe groter de verdienste van de overwinnaar.</li><li>Het eerste triumviraat was met Pompeius en Crassus. De bello Gallico is een verslag in proza, een commentarius.</li></ul>"
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Gallia est omnis divisa in partes tres: Gallië is in zijn geheel verdeeld in drie delen.",
+  "Caesar stelt de drie volken voor en zegt van de Helvetii dat ze de andere Galliërs in dapperheid overtreffen.",
+  "Divisa komt van dividere, verdelen, en hoort bij Gallia.",
+  "Quarum is een genitivus meervoud vrouwelijk.",
+  "Bij nostra moet je lingua aanvullen uit ipsorum lingua: in hun eigen taal heten ze Kelten, in de onze Galliërs."
+ ]
+}

@@ -4,7 +4,7 @@ import _proef
 TITEL = "Lectuur: de Belgen in de ogen van Caesar"
 _t = _proef.LEESTEKST_BELGAE.split("\n\n")
 _bron = _t[-1].replace("Bronnen: ", "")
-BRON = "Een eigen tekst van Connectopia over het thema van de lectuuropdracht. Gebaseerd op " + _bron + " Wil je meer lezen, dan is de biografie Caesar van Adrian Goldsworthy uit de vakfiche een goede volgende stap."
+BRON = "Een eigen tekst van Connectopia over het thema van de lectuuropdracht. Gebaseerd op " + _bron + " Wil je meer lezen, dan is de biografie Caesar van Adrian Goldsworthy uit de leeslijst van de Examencommissie een goede volgende stap."
 INLEIDING = "Deze tekst is geen Latijn. Hij helpt je bij de lectuuropdracht over Caesar en de Belgen. Lees hem rustig en beantwoord dan de vragen."
 ALINEAS = _t[:-1]
 WOORDEN = Wl(("proconsul", "een gewezen consul die een provincie bestuurt"), ("Remi", "een Belgisch volk rond het huidige Reims"), ("Eburonen", "een Belgisch volk tussen Maas en Rijn"))

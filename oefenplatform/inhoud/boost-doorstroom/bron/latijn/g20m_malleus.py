@@ -4,7 +4,7 @@ from _basis import *
 TITEL = "Henricus Institoris: een heks verpest een bruiloft (Malleus maleficarum II, 1, 3)"
 BRON = ("Henricus Institoris (Heinrich Kramer) en Jacobus Sprenger, Malleus maleficarum, deel II, quaestio 1, caput 3. Latijnse tekst: druk Frankfurt, Nicolaus Bassaeus, 1580, "
         "digitaal via Latijnse Wikisource (Cornell University, Witchcraft Collection). Spelling aangepast: u en v, ae in plaats van æ, zonder accenten en afkortingen. "
-        "De vakfiche verwijst ook naar de tekst bij de National Library of Medicine en naar Pegasus Novus 3, Bronnenboek, p. 89.")
+        "De Examencommissie verwijst ook naar de tekst bij de National Library of Medicine en naar Pegasus Novus 3, Bronnenboek, p. 89.")
 INLEIDING = ("Waar gaat het over? In 1486 verscheen de Malleus maleficarum, de Heksenhamer. De Duitse dominicaan Henricus Institoris schreef het boek als handleiding om heksen op te sporen en te berechten. "
              "Het boek werd vaak herdrukt en droeg bij aan de grote heksenvervolgingen van de 16de en 17de eeuw. Vandaag weten we dat er geen heksen waren: duizenden onschuldige mensen, vooral vrouwen, zijn verbrand op basis van roddels en bekentenissen onder foltering. "
              "In dit hoofdstuk wil de schrijver bewijzen dat heksen echt door de lucht kunnen vliegen. Als bewijs vertelt hij wat er gebeurd zou zijn in Waldshut, een stadje aan de Rijn. Het Latijn is middeleeuws: let op woorden als Daemon, malefica en grando.")

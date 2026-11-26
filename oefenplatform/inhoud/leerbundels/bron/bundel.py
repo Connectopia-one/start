@@ -74,6 +74,7 @@ def render(bundel):
 .katex-display .katex {{ white-space: normal; }}
 </style>
 <style>{CSS}</style>
+<style>{bundel.get("extra_css", "")}</style>
 </head>
 <body>
 

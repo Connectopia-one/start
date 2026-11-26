@@ -3,7 +3,7 @@ from _basis import *
 
 TITEL = "Lectuur: leven met de goden, godsdienst en tolerantie in Rome"
 BRON = ("Een eigen tekst van Connectopia over het thema van de lectuuropdracht (godsdienst en tolerantie in de Romeinse wereld). Gebaseerd op: Caesar, De bello Gallico VI, 17 (interpretatio Romana); Livius XXXIX, 8-19 (de Bacchanalia); "
-        "Plinius, Epistulae X, 96-97; Tacitus, Annales XV, 44 (Nero en de christenen); het edict van Milaan (313). Wil je meer lezen, dan is Leven met de goden van Inger Kuin uit de vakfiche een goede volgende stap.")
+        "Plinius, Epistulae X, 96-97; Tacitus, Annales XV, 44 (Nero en de christenen); het edict van Milaan (313). Wil je meer lezen, dan is Leven met de goden van Inger Kuin uit de leeslijst van de Examencommissie een goede volgende stap.")
 INLEIDING = "Deze tekst is geen Latijn. Hij helpt je bij de lectuuropdracht over godsdienst en tolerantie. Lees hem rustig en beantwoord dan de vragen."
 ALINEAS = [
     "Een godsdienst van doen, niet van geloven",

@@ -3,7 +3,7 @@ from _basis import *
 
 TITEL = "Lectuur: wonen en werken in Pompeii"
 BRON = ("Een eigen tekst van Connectopia over het thema van de lectuuropdracht (huis en haard, en de economie van Pompeii). Gebaseerd op: Plinius, Epistulae VI, 16 en 20; Vitruvius, De architectura VI; Plinius de Oudere, Naturalis Historia XXXI, 93-95 (garum); "
-        "en de opgravingen in Pompeii, zoals het huis van de bankier Lucius Caecilius Iucundus en de bakkerij van Modestus. Wil je meer lezen, dan is Pompeii van Mary Beard uit de vakfiche een goede volgende stap.")
+        "en de opgravingen in Pompeii, zoals het huis van de bankier Lucius Caecilius Iucundus en de bakkerij van Modestus. Wil je meer lezen, dan is Pompeii van Mary Beard uit de leeslijst van de Examencommissie een goede volgende stap.")
 INLEIDING = "Deze tekst is geen Latijn. Hij helpt je bij de lectuuropdracht over Pompeii. Lees hem rustig en beantwoord dan de vragen."
 ALINEAS = [
     "Een stad die stilstond",
