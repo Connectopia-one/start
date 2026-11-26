@@ -67,12 +67,12 @@ VRAGEN = [
     ], "Burgerlijk recht gaat over conflicten tussen burgers, strafrecht over misdrijven.",
        kolommen=["burgerlijk recht", "strafrecht"]),
     tabel("Welke functie van justitie staat hier voorop?", [
-        ("Een rechter beslist wie gelijk heeft in een ruzie over een contract.", "conflictoplossing"),
+        ("Een rechter beslist wie gelijk heeft in een ruzie over een contract.", "conflictbeslechting"),
         ("Een zware straf moet anderen afschrikken.", "preventie"),
         ("De politie zorgt dat een betoging rustig verloopt.", "ordehandhaving"),
         ("Een gevaarlijke dader wordt opgesloten om anderen te beschermen.", "veiligheid"),
     ], "Conflicten oplossen, voorkomen, de orde bewaren en de samenleving beschermen.",
-       kolommen=["conflictoplossing", "preventie", "ordehandhaving", "veiligheid"]),
+       kolommen=["conflictbeslechting", "preventie", "ordehandhaving", "veiligheid"]),
     koppel("Koppel het principe van rechtspraak aan wat het betekent.", [
         ["hoor en wederhoor", "elke partij kan haar verhaal doen en reageren"],
         ["vermoeden van onschuld", "je bent onschuldig tot je schuld bewezen is"],

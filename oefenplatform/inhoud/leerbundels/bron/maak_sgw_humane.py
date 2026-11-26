@@ -616,7 +616,8 @@ BUNDELS[S5] = dict(
     secties=[
         dict(kop="Functies en principes", blokken=[
             ("p", tabel(["Functie van justitie", "Voorbeeld"], [
-                ["conflictoplossing", "een rechter beslist in een ruzie tussen buren over een haag"],
+                ["bestraffing", "een dader krijgt een straf voor een misdrijf"],
+                ["conflictbeslechting", "een rechter beslist in een ruzie tussen buren over een haag"],
                 ["preventie", "een zware straf voor dronken rijden schrikt anderen af"],
                 ["ordehandhaving", "de politie houdt een betoging in goede banen"],
                 ["veiligheid", "een gevaarlijke dader wordt opgesloten om anderen te beschermen"],
@@ -671,7 +672,7 @@ BUNDELS[S5] = dict(
         ]),
     ],
     onthoud=[
-        "Functies: conflictoplossing, preventie, ordehandhaving, veiligheid.",
+        "Functies: bestraffing, conflictbeslechting, ordehandhaving, preventie, veiligheid.",
         "Principes: hoor en wederhoor, vermoeden van onschuld, openbaarheid, onafhankelijkheid en onpartijdigheid.",
         "Burgerlijk recht: tussen burgers. Strafrecht: misdrijven, vervolgd door het openbaar ministerie.",
         "Piramide: vredegerecht en politierechtbank, rechtbanken van eerste aanleg, hoven, Hof van Cassatie.",
@@ -689,7 +690,7 @@ OEFENBUNDELS["oefenbundel-" + S5] = dict(
              oefeningen=[
                  ("rij", [("een zware straf moet anderen afschrikken", "preventie"),
                           ("de politie houdt een betoging rustig", "ordehandhaving"),
-                          ("een rechter beslist in een ruzie over een contract", "conflictoplossing")],
+                          ("een rechter beslist in een ruzie over een contract", "conflictbeslechting")],
                   "Welke functie?", WW),
                  ("rij", [("een verdachte wordt veroordeeld zonder dat hij iets mocht zeggen", "hoor en wederhoor"),
                           ("een krant noemt iemand al de dader voor het proces", "vermoeden van onschuld"),
