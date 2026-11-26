@@ -16,7 +16,7 @@ GROOT = ("body{font-size:13.5pt;line-height:1.7}table{font-size:12pt}figcaption{
          ".oef .vraagtekst,.rij .cel{font-size:13pt}.hoe li,.opdracht{font-size:12pt}")
 bundel.CSS += GROOT
 oefenbundel.OEFEN_CSS += GROOT
-READY = "🚀 Ready — 3de en 4de leerjaar"
+READY = "🎒 Ready — 3de en 4de leerjaar"
 NAAM = "tafels-en-delen-ready"
 DARK, ORANJE, PAARS = "#2f4a22", "#c4622d", "#7a5aa6"
 
@@ -114,8 +114,8 @@ OEFEN = dict(
             ("rij", [("2 × 6 = 6 × ...", "2"), ("7 × 4 = 4 × ...", "7"), ("9 × 3 = ... × 9", "3")], "Vul aan.", W),
         ]),
         dict(kop="Tafels", opdracht="Reken uit.", oefeningen=[
-            ("rij", [("3 × 7", "21"), ("8 × 6", "48"), ("9 × 4", "36"), ("5 × 9", "45"), ("7 × 7", "49"), ("6 × 3", "18")], "", W),
-            ("rij", [("4 × 8", "32"), ("10 × 6", "60"), ("0 × 7", "0"), ("1 × 9", "9"), ("8 × 8", "64"), ("9 × 7", "63")], "", W),
+            ("rij", [("3 × 7 =", "21"), ("8 × 6 =", "48"), ("9 × 4 =", "36"), ("5 × 9 =", "45"), ("7 × 7 =", "49"), ("6 × 3 =", "18")], "", W),
+            ("rij", [("4 × 8 =", "32"), ("10 × 6 =", "60"), ("0 × 7 =", "0"), ("1 × 9 =", "9"), ("8 × 8 =", "64"), ("9 × 7 =", "63")], "", W),
             ("rij", [("... × 6 = 42", "7"), ("8 × ... = 72", "9"), ("... × 5 = 40", "8"), ("3 × ... = 27", "9")], "Welk getal ontbreekt?", W),
         ]),
         dict(kop="De tafelkaart", oefeningen=[
@@ -123,8 +123,8 @@ OEFEN = dict(
              "7, 14, 21, 28, 35, 42, 49, 56, 63, 70 / 8, 16, 24, 32, 40, 48, 56, 64, 72, 80", 3),
         ]),
         dict(kop="Delen", opdracht="Reken uit en schrijf de vermenigvuldiging erbij om na te kijken.", oefeningen=[
-            ("rij", [("24 : 6", "4 (4 × 6 = 24)"), ("45 : 9", "5 (5 × 9 = 45)"), ("63 : 7", "9 (9 × 7 = 63)"), ("32 : 4", "8 (8 × 4 = 32)")], "", "130px"),
-            ("rij", [("17 : 5", "3 rest 2"), ("29 : 4", "7 rest 1"), ("50 : 8", "6 rest 2"), ("38 : 6", "6 rest 2")], "Deel met rest.", "110px"),
+            ("rij", [("24 : 6 =", "4 (4 × 6 = 24)"), ("45 : 9 =", "5 (5 × 9 = 45)"), ("63 : 7 =", "9 (9 × 7 = 63)"), ("32 : 4 =", "8 (8 × 4 = 32)")], "", "130px"),
+            ("rij", [("17 : 5 =", "3 rest 2"), ("29 : 4 =", "7 rest 1"), ("50 : 8 =", "6 rest 2"), ("38 : 6 =", "6 rest 2")], "Deel met rest.", "110px"),
         ]),
         dict(kop="Delers en deelbaar door", oefeningen=[
             ("open", "Schrijf alle delers van 18 op.", "1, 2, 3, 6, 9, 18", 1),
