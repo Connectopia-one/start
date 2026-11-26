@@ -22,6 +22,8 @@ const ICONEN: Record<string, string> = {
   "samenleving-en-economie": "🤝",
   economie: "📊",
   "bedrijfswetenschappen-en-recht": "💼",
+  latijn: "🏺",
+  duits: "🥨",
   // De vakken van 🔭 de uitdagingshoek.
   "de-ruimte": "🪐",
   "coderen-en-computers": "💻",
