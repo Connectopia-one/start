@@ -1,0 +1,575 @@
+{
+  "hoofdstukken": [
+    {
+      "titel": "Uitdaging — alles door elkaar",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "koppelen",
+          "vraag": "Koppel de schrijver aan zijn werk.",
+          "paren": [
+            [
+              "Caesar",
+              "De bello Gallico"
+            ],
+            [
+              "Ovidius",
+              "Metamorphoses"
+            ],
+            [
+              "Galileo",
+              "Sidereus nuncius"
+            ],
+            [
+              "Erasmus",
+              "Lof der Zotheid"
+            ],
+            [
+              "Petronius",
+              "Satyricon"
+            ]
+          ],
+          "extra": [
+            "Noctes Atticae"
+          ],
+          "uitleg": "Aulus Gellius schreef de Noctes Atticae, met het verhaal van de storm op zee."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Hoort de tekst bij het thema natuurfenomenen of bij geloof en bijgeloof?",
+          "kolommen": [
+            "natuurfenomenen",
+            "geloof en bijgeloof"
+          ],
+          "items": [
+            [
+              "Plinius over de Vesuvius",
+              "natuurfenomenen"
+            ],
+            [
+              "Ammianus over een tsunami",
+              "natuurfenomenen"
+            ],
+            [
+              "Galileo over de manen van Jupiter",
+              "natuurfenomenen"
+            ],
+            [
+              "Plinius en Trajanus over de christenen",
+              "geloof en bijgeloof"
+            ],
+            [
+              "Niceros en de weerwolf",
+              "geloof en bijgeloof"
+            ],
+            [
+              "de heks van Waldshut",
+              "geloof en bijgeloof"
+            ]
+          ],
+          "uitleg": "De zondvloed uit de Vulgata en de storm van Gellius horen ook bij de natuurfenomenen; Erasmus over de monniken bij geloof en bijgeloof."
+        },
+        {
+          "type": "volgorde",
+          "vraag": "Zet de schrijvers in de volgorde waarin ze leefden.",
+          "opties": [
+            "Caesar",
+            "Ovidius",
+            "Plinius de Jongere",
+            "Hieronymus",
+            "Erasmus",
+            "Galileo"
+          ],
+          "uitleg": "Caesar en Ovidius in de 1ste eeuw voor en rond Christus, Plinius rond 100, Hieronymus rond 400, Erasmus rond 1500, Galileo in 1610."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke schrijver vertelt over zichzelf in de derde persoon?",
+          "opties": [
+            "Caesar",
+            "Plinius de Jongere",
+            "Galileo",
+            "Niceros"
+          ],
+          "antwoord": 0,
+          "uitleg": "Caesar schrijft Caesar ... iussit, alsof een ander over hem vertelt. Dat lijkt objectiever."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit volgens Caesar?",
+          "rijen": [
+            "De Belgen zijn de dappersten van alle Galliërs.",
+            "De druïden schrijven hun leer graag op.",
+            "De Helvetiërs vechten bijna dagelijks met de Germanen.",
+            "Caesar noemt de Gallische goden met hun Gallische namen."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "uitleg": "Horum omnium fortissimi sunt Belgae. De druïden leren alles uit het hoofd. Caesar geeft de goden Romeinse namen: de interpretatio Romana."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In de slag tegen de Nerviërs neemt Caesar een schild van een soldaat. Waarom?",
+          "opties": [
+            "hij gaat zelf vooraan in de rij vechten",
+            "zijn eigen schild was in het kamp gebleven",
+            "hij wil het schild aan een centurio geven",
+            "hij wil het schild aan de goden offeren"
+          ],
+          "antwoord": 0,
+          "uitleg": "Scuto ab novissimis militi detracto in primam aciem processit: hij nam een schild van een soldaat achteraan en ging naar de eerste rij."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Scuto detracto is een [[*ablativus absolutus|accusativus met infinitivus|gerundivum]]. Het betekent: [[*nadat hij een schild had weggenomen|om een schild weg te nemen|het schild dat weggenomen wordt]].",
+          "uitleg": "Een zelfstandig naamwoord en een participium perfectum in de ablativus: een handeling die vóór de hoofdzin af is."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarover hebben Sabinus en Cotta ruzie?",
+          "opties": [
+            "of ze het kamp moeten verlaten",
+            "wie het bevel krijgt over het tiende legioen",
+            "of ze de druïden moeten straffen",
+            "wie de buit mag houden"
+          ],
+          "antwoord": 0,
+          "uitleg": "Cotta wil in het kamp blijven, Sabinus wil vertrekken op het woord van Ambiorix. Dat loopt slecht af."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Bij welke mythe hoort het?",
+          "kolommen": [
+            "Pyramus en Thisbe",
+            "Daedalus en Icarus",
+            "Venus en Mars"
+          ],
+          "items": [
+            [
+              "een spleet in de muur",
+              "Pyramus en Thisbe"
+            ],
+            [
+              "de moerbei wordt rood",
+              "Pyramus en Thisbe"
+            ],
+            [
+              "was die smelt",
+              "Daedalus en Icarus"
+            ],
+            [
+              "veren en vleugels",
+              "Daedalus en Icarus"
+            ],
+            [
+              "een fijn net van brons",
+              "Venus en Mars"
+            ],
+            [
+              "Sol ziet alles",
+              "Venus en Mars"
+            ]
+          ],
+          "uitleg": "Elke mythe heeft een eigen voorwerp dat de afloop bepaalt: de muur, de vleugels, het net."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom doodt Pyramus zichzelf?",
+          "opties": [
+            "hij denkt dat een leeuwin Thisbe heeft gedood",
+            "zijn vader verbiedt hem nog langer met Thisbe te trouwen",
+            "Thisbe komt niet naar het graf",
+            "hij wordt door de leeuwin achtervolgd en kan niet meer weg"
+          ],
+          "antwoord": 0,
+          "uitleg": "Hij vindt de bebloede sluier van Thisbe en denkt dat ze dood is. In werkelijkheid had de leeuwin enkel de sluier gegrepen."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Ovidius schrijft in [[*dactylische hexameters|proza|jamben]]. Een dactylus bestaat uit [[*één lange en twee korte lettergrepen|twee lange lettergrepen|drie korte lettergrepen]].",
+          "uitleg": "Zes versvoeten per vers, vooral dactylen. In de laatste voet staan twee lettergrepen."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over de mythen van Ovidius?",
+          "rijen": [
+            "Perdix vindt de zaag uit en wordt een patrijs.",
+            "Marsyas wint de wedstrijd tegen Apollo.",
+            "Syrinx verandert in riet om aan Pan te ontsnappen.",
+            "Daedalus waarschuwt Icarus om niet te laag en niet te hoog te vliegen."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            true
+          ],
+          "uitleg": "Marsyas verliest en wordt gestraft. Daedalus zegt: vlieg in het midden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom duwt Daedalus zijn neef Perdix van de burcht van Athene?",
+          "opties": [
+            "uit jaloezie op zijn uitvindingen",
+            "omdat Perdix Icarus had gedood",
+            "omdat Minerva het hem beval",
+            "omdat Perdix zijn vleugels had gestolen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Perdix vond de zaag en de passer uit. Daedalus kon niet verdragen dat zijn leerling slimmer werd dan hij."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel de figuur aan de gedaante die hij of zij krijgt.",
+          "paren": [
+            [
+              "Syrinx",
+              "riet"
+            ],
+            [
+              "Perdix",
+              "patrijs"
+            ],
+            [
+              "het bloed van Pyramus",
+              "rode moerbeien"
+            ],
+            [
+              "de tranen om Marsyas",
+              "een bron"
+            ]
+          ],
+          "extra": [
+            "een laurierboom"
+          ],
+          "uitleg": "Ovidius vertelt metamorfosen: elke mythe eindigt met een verandering in de natuur."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarmee vergelijkt Plinius de wolk boven de Vesuvius?",
+          "opties": [
+            "met een pijnboom",
+            "met een berg sneeuw",
+            "met een paddenstoel",
+            "met een golf van de zee"
+          ],
+          "antwoord": 0,
+          "uitleg": "Cuius similitudinem et formam non alia magis arbor quam pinus expresserit: geen boom geeft de vorm beter weer dan een pijnboom."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over de oom van Plinius?",
+          "rijen": [
+            "Hij was bevelhebber van de vloot in Misenum.",
+            "Hij vluchtte meteen weg van de Vesuvius.",
+            "Hij ging eerst rustig in bad en at bij Pomponianus.",
+            "Hij sterft in Stabiae."
+          ],
+          "antwoord": [
+            true,
+            false,
+            true,
+            true
+          ],
+          "uitleg": "Hij voer net naar de uitbarsting toe, om te helpen en om te kijken. Bij Pomponianus bleef hij kalm om de anderen gerust te stellen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat ziet Galileo met zijn kijker bij Jupiter?",
+          "opties": [
+            "vier manen die rond de planeet draaien",
+            "een brede ring van stof en ijs rond de planeet",
+            "vlekken op het oppervlak",
+            "een lange lichtende staart zoals bij een komeet"
+          ],
+          "antwoord": 0,
+          "uitleg": "Hij noemt ze de Mediceïsche planeten, naar de familie de' Medici."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat gebeurt er volgens Ammianus na de aardbeving van 365?",
+          "opties": [
+            "de zee trekt terug en komt dan terug als vloedgolf",
+            "een vulkaan in de buurt barst uit en bedekt de stad met as",
+            "het regent veertig dagen lang zonder ophouden",
+            "de zon verdwijnt drie dagen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Eerst wijkt de zee, zodat schepen op het droge liggen. Daarna slaat het water over het land. Dat is een tsunami."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "In de zondvloed van de Vulgata regent het [[*veertig dagen en veertig nachten|zeven dagen|een jaar lang]]. De ark van [[*Noach|Mozes|Abraham]] drijft op het water.",
+          "uitleg": "Genesis 7 vertelt hoe Noach met zijn familie en de dieren gered wordt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom vertelt Gellius over de storm op zee?",
+          "opties": [
+            "een filosoof is bang, en hij legt uit waarom",
+            "hij beschrijft hoe een schip zinkt",
+            "hij wil de zeegod Neptunus eren met een lang gedicht",
+            "hij legt uit hoe je een stevig schip moet bouwen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een stoïcijnse filosoof wordt bleek tijdens de storm. Achteraf legt hij uit dat ook een wijze eerst schrikt, maar zich niet laat meeslepen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat antwoordt Trajanus aan Plinius over de christenen?",
+          "opties": [
+            "ze moeten niet opgespoord worden",
+            "ze moeten allemaal verbannen worden",
+            "ze mogen vrij hun geloof belijden",
+            "Plinius moet ze naar Rome sturen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Conquirendi non sunt: men moet ze niet opsporen. Wie aangeklaagd wordt en weigert te offeren, wordt wel gestraft. Anonieme klachten tellen niet."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over het weerwolfverhaal?",
+          "rijen": [
+            "Niceros vertelt het verhaal op een feestmaal.",
+            "De soldaat verandert in een wolf bij de grafmonumenten.",
+            "Niceros spreekt heel deftig Latijn.",
+            "De wolf wordt in de nek gewond, en de soldaat ook."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Niceros spreekt het Latijn van de straat. De wonde van de wolf zit later bij de soldaat: zo weet Niceros dat het een versipellis was."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat bekritiseert Erasmus bij de monniken?",
+          "opties": [
+            "ze hechten meer aan regels dan aan naastenliefde",
+            "ze lezen te veel klassieke schrijvers",
+            "ze zijn veel te vrijgevig voor de arme mensen in de stad",
+            "ze spreken en schrijven een veel te mooi en deftig Latijn"
+          ],
+          "antwoord": 0,
+          "uitleg": "De Zotheid spot met monniken die kapjes, gordels en vasten belangrijker vinden dan de liefde waar het geloof om draait."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "In de Malleus maleficarum is malefica het woord voor [[*heks|herder|bruid]]. De heks roept een [[*hagelbui|aardbeving|overstroming]] op omdat ze niet [[*uitgenodigd|betaald|gedoopt]] was.",
+          "uitleg": "Het verhaal speelt in Waldshut aan de Rijn. Dat het een bewijs zou zijn, geloven we vandaag niet meer."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom is het verhaal over Waldshut geen sterk bewijs?",
+          "opties": [
+            "alles steunt op een bekentenis en roddels",
+            "het speelt zich af in de oudheid",
+            "de schrijver was er zelf bij en zag alles met eigen ogen",
+            "er waren helemaal geen inwoners van het stadje op het feest"
+          ],
+          "antwoord": 0,
+          "uitleg": "De herders zagen hoogstens iets op de berg. De rest komt uit haar bekentenis, en die werd vaak onder foltering afgedwongen."
+        },
+        {
+          "type": "sorteren",
+          "vraag": "Welke vorm is het?",
+          "kolommen": [
+            "ablativus absolutus",
+            "gerundivum",
+            "accusativus met infinitivus"
+          ],
+          "items": [
+            [
+              "adventu cognito",
+              "ablativus absolutus"
+            ],
+            [
+              "videntibus pastoribus",
+              "ablativus absolutus"
+            ],
+            [
+              "ad nuptias celebrandas",
+              "gerundivum"
+            ],
+            [
+              "conquirendi non sunt",
+              "gerundivum"
+            ],
+            [
+              "dicit Belgas fortissimos esse",
+              "accusativus met infinitivus"
+            ]
+          ],
+          "uitleg": "Een deelwoord met een naamwoord in de ablativus, los van de zin; een -nd- vorm die zich aanpast; een accusativus met een infinitivus na zeggen of denken."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Quod nisi milites essent defessi, omnes hostes deleri potuissent is een [[*irreële voorwaardelijke zin|doelzin|vergelijking]]. Het betekent: [[*als de soldaten niet uitgeput waren geweest|omdat de soldaten uitgeput waren|zodat de soldaten moe werden]].",
+          "uitleg": "Coniunctivus plusquamperfectum in bijzin en hoofdzin: wat had kunnen gebeuren, maar niet gebeurde."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Fortissimi is de overtreffende trap van welk bijvoeglijk naamwoord? Geef de nominativus mannelijk enkelvoud.",
+          "antwoord": [
+            "fortis"
+          ],
+          "uitleg": "Fortis, fortior, fortissimus: dapper, dapperder, dapperst."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke vertaling van Hostes terga vertunt is de beste?",
+          "opties": [
+            "De vijanden slaan op de vlucht.",
+            "De vijanden keren hun schild om.",
+            "De gasten draaien zich om.",
+            "De vijanden draaien de rug van de onzen."
+          ],
+          "antwoord": 0,
+          "uitleg": "Terga vertere is letterlijk de rug keren: vluchten. Hostis is de vijand, hospes de gast."
+        },
+        {
+          "type": "keuzelijst",
+          "vraag": "Desilite, milites! Desilite is een [[*imperativus meervoud|indicativus perfectum|infinitivus]]. Milites staat in de [[*vocativus|genitivus|ablativus]].",
+          "uitleg": "Een bevel aan meer personen en een aanspreking: springt, soldaten!"
+        },
+        {
+          "type": "sleepzin",
+          "vraag": "In iubet castra [[muniri]] staat na iubet een [[infinitivus passief]]: hij beveelt dat het kamp versterkt wordt.",
+          "extra": [
+            "munire",
+            "gerundivum"
+          ],
+          "uitleg": "Iubere met een accusativus en een infinitivus passief: hij beveelt dat het kamp versterkt wordt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een deponens?",
+          "opties": [
+            "een werkwoord met passieve vormen en een actieve betekenis",
+            "een werkwoord dat geen perfectum heeft en alleen in het praesens bestaat",
+            "een zelfstandig naamwoord dat op -us eindigt",
+            "een voornaamwoord dat terugverwijst naar het onderwerp van de zin"
+          ],
+          "antwoord": 0,
+          "uitleg": "Hortari, sequi en fateri zien er passief uit, maar je vertaalt ze actief: aansporen, volgen, bekennen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke vorm is praestitero in ego officium praestitero?",
+          "opties": [
+            "futurum exactum",
+            "perfectum",
+            "plusquamperfectum",
+            "praesens"
+          ],
+          "antwoord": 0,
+          "uitleg": "Praestitero: ik zal gedaan hebben. De vaandeldrager zegt: wat er ook gebeurt, ik heb mijn plicht vervuld."
+        },
+        {
+          "type": "koppelen",
+          "vraag": "Koppel het stijlmiddel aan de uitleg.",
+          "paren": [
+            [
+              "chiasme",
+              "twee woordparen in omgekeerde volgorde"
+            ],
+            [
+              "anafoor",
+              "hetzelfde woord vooraan in opeenvolgende zinsdelen"
+            ],
+            [
+              "asyndeton",
+              "een opsomming zonder voegwoorden"
+            ],
+            [
+              "personificatie",
+              "iets krijgt menselijke eigenschappen"
+            ]
+          ],
+          "extra": [
+            "een overdrijving"
+          ],
+          "uitleg": "Een overdrijving heet een hyperbool; die wordt hier niet gevraagd."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Pyramus en Thisbe spreken tegen de muur: invide paries! Welk stijlmiddel is dat?",
+          "opties": [
+            "personificatie",
+            "chiasme",
+            "alliteratie",
+            "enkel een vergelijking"
+          ],
+          "antwoord": 0,
+          "uitleg": "De geliefden spreken de muur aan alsof hij een mens is die jaloers kan zijn."
+        },
+        {
+          "type": "tabel",
+          "vraag": "Klopt dit over het leven in Pompeii?",
+          "rijen": [
+            "Het impluvium vangt regenwater op in het atrium.",
+            "Garum is een saus van gegiste vis.",
+            "De muren van rijke huizen hadden grote ramen naar de straat.",
+            "Pompeii was in 79 nog aan het herstellen van een aardbeving."
+          ],
+          "antwoord": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "uitleg": "Een Romeins huis was naar binnen gekeerd. In 62 na Christus was er een zware aardbeving."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom waren de Romeinen strenger voor de christenen dan voor de vereerders van Isis?",
+          "opties": [
+            "de christenen weigerden te offeren aan de goden",
+            "de christenen kwamen allemaal uit Egypte en spraken Grieks",
+            "Isis was al eeuwenlang een echte Romeinse godin",
+            "de christenen spraken geen Latijn"
+          ],
+          "antwoord": 0,
+          "uitleg": "Wie niet offerde, bracht volgens de Romeinen de pax deorum in gevaar, de vrede met de goden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent ad fontes voor Erasmus?",
+          "opties": [
+            "de oude teksten in hun eigen taal lezen",
+            "naar de bronnen in de bergen trekken",
+            "de Kerk helemaal afschaffen en zelf een nieuwe stichten",
+            "voortaan alleen nog in het Nederlands schrijven"
+          ],
+          "antwoord": 0,
+          "uitleg": "Daarom gaf hij het Nieuwe Testament in het Grieks uit, met een nieuwe Latijnse vertaling."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je krijgt een ongeziene tekst van Caesar. Wat doe je best eerst?",
+          "opties": [
+            "de tekst lezen en de persoonsvormen zoeken",
+            "elk woord meteen opzoeken",
+            "de laatste zin eerst vertalen",
+            "de tekst overslaan als je een woord niet kent"
+          ],
+          "antwoord": 0,
+          "uitleg": "Lees eerst het geheel, zoek de persoonsvormen en het onderwerp. Zoek enkel woorden op die je echt nodig hebt."
+        },
+        {
+          "type": "open",
+          "vraag": "Vergelijk de vaandeldrager van het tiende legioen met de heks van Waldshut: hoe gebruiken Caesar en Institoris een verhaal om de lezer te overtuigen?",
+          "antwoord": "Caesar vertelt over de dappere vaandeldrager om te tonen hoe moedig zijn soldaten zijn, en dus hoe goed hij zelf leiding geeft. Institoris vertelt over de heks als bewijs dat heksen echt vliegen. Allebei kiezen ze een levendig voorbeeld met getuigen, maar bij Caesar kan het echt gebeurd zijn, terwijl het verhaal van Institoris steunt op roddels en een afgedwongen bekentenis.",
+          "uitleg": "Let op wat elke schrijver wil bewijzen en hoe betrouwbaar zijn bron is."
+        }
+      ]
+    }
+  ]
+}

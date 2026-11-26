@@ -66,6 +66,7 @@ export const arenaPerVak: Record<string, Arena> = {
   "boost-doorstroom/fysica": a(NAT, "boost"),
   "boost-doorstroom/geschiedenis": a(GES, "boost"),
   "boost-doorstroom/kunstbeschouwing-en-filosofie": a(MENS, "kf_boost"),
+  "boost-doorstroom/latijn": a(GES, "latijn_boost"),
   "boost-doorstroom/natuurwetenschappen": a(NAT, "boost"),
   "boost-doorstroom/nederlands": a(NL, "boost"),
   "boost-doorstroom/sociale-en-gedragswetenschappen": a(MENS, "sgw_boost"),

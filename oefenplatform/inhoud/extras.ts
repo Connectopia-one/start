@@ -463,6 +463,13 @@ export const spelKaarten: SpelKaart[] = [
   {
     spel: "begrippenarena",
     school: "middelbaar",
+    niveau: "🚀 Boost · Latijn",
+    niveauInSpel: "latijn_boost",
+    tekst: `Ruim vijftig begrippen bij de Latijnse teksten: de ablativus absolutus en het gerundivum, de hexameter van Ovidius, Caesar en de druïden, de mythen en de Heksenhamer. ${zesSpellen}`,
+  },
+  {
+    spel: "begrippenarena",
+    school: "middelbaar",
     niveau: "🌍 Beyond · ook dubbele finaliteit",
     niveauInSpel: "beyond",
     tekst: `Honderdzestig begrippen, van het referentiekader tot China, Israël-Palestina en de kunststromingen. Ook bruikbaar voor Beyond dubbele finaliteit, dat grotendeels dezelfde hoofdstukken heeft. ${zesSpellen}`,
