@@ -129,6 +129,7 @@ export const spellen: Spel[] = [
   { slug: "begrippenarena-aardrijkskunde", icoon: "🌋", titel: "Begrippenarena Aardrijkskunde" },
   { slug: "begrippenarena-nederlands", icoon: "📚", titel: "Begrippenarena Nederlands" },
   { slug: "woordenarena-frans", icoon: "🥖", titel: "Woordenarena Frans" },
+  { slug: "woordenarena-duits", icoon: "🥨", titel: "Woordenarena Duits" },
   { slug: "begrippenarena-techniek", icoon: "⚙️", titel: "Begrippenarena Techniek" },
   { slug: "begrippenarena-mens", icoon: "🤝", titel: "Begrippenarena Mens en samenleving" },
   { slug: "begrippenarena-uitdagingshoek", icoon: "🔭", titel: "Begrippenarena Uitdagingshoek" },
@@ -169,6 +170,9 @@ const zevenSpellenNl =
 
 const zevenSpellenFr =
   "In zeven spellen: een quiz, memory, raad het woord, Eiffeltorengalgje, flitskaarten, bingo en le of la?, waarin je kiest of een woord mannelijk of vrouwelijk is.";
+
+const zevenSpellenDe =
+  "In zeven spellen: een quiz, memory, raad het woord, torengalgje, flitskaarten, bingo en der, die of das?, waarin je het juiste lidwoord kiest.";
 
 const zevenSpellenTech =
   "In zeven spellen: een quiz, memory, raad het begrip, robotgalgje, flitskaarten, bingo en de sorteerband, waarin je voorwerpen in de juiste bak sorteert, zoals geleider of isolator.";
@@ -506,6 +510,13 @@ export const spelKaarten: SpelKaart[] = [
     niveau: "🌍 Beyond · 3de graad, doorstroom en dubbele finaliteit",
     niveauInSpel: "beyond",
     tekst: `Honderdvijfenvijftig begrippen in negentien hoofdstukken, van drogredenen en stijlfiguren tot literaire stromingen, semantiek en zinsbouw. ${zevenSpellenNl}`,
+  },
+  {
+    spel: "woordenarena-duits",
+    school: "middelbaar",
+    niveau: "🚀 Boost · Duits",
+    niveauInSpel: "boost",
+    tekst: `Vierentachtig Duitse woorden uit alle woordvelden, van familie en kleding tot reizen, het weer en de feesten. ${zevenSpellenDe}`,
   },
   {
     spel: "woordenarena-frans",

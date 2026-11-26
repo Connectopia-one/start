@@ -28,6 +28,7 @@ const MENS = "begrippenarena-mens";
 const TECH = "begrippenarena-techniek";
 const EN = "woordenarena-engels";
 const FR = "woordenarena-frans";
+const DE = "woordenarena-duits";
 const HOEK = "begrippenarena-uitdagingshoek";
 
 export const arenaPerVak: Record<string, Arena> = {
@@ -60,6 +61,7 @@ export const arenaPerVak: Record<string, Arena> = {
   "boost-doorstroom/aardrijkskunde": a(AK, "boost"),
   "boost-doorstroom/biologie": a(NAT, "boost"),
   "boost-doorstroom/chemie": a(NAT, "boost"),
+  "boost-doorstroom/duits": a(DE, "boost"),
   "boost-doorstroom/economie": a(ECO, "boost"),
   "boost-doorstroom/engels": a(EN, "boost"),
   "boost-doorstroom/frans": a(FR, "boost"),
