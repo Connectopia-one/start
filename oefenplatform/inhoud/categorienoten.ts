@@ -80,6 +80,13 @@ export const categorienoten: Record<string, Categorienoot> = {
           "Jouw fiche natuurwetenschappen is de kortere van de twee, dus dat " +
           "vak is hier iets ruimer dan wat jij moet kennen.",
       },
+      {
+        kop: "Latijn en moderne talen",
+        tekst:
+          "De richting Latijn heeft het vak Latijn, moderne talen het vak " +
+          "Duits. Bij Duits oefen je voorlopig lezen, schrijven, woordenschat " +
+          "en grammatica; spreken en luisteren komen er later bij.",
+      },
     ],
     richtingen: {
       klik: "Staat mijn richting hierbij?",
@@ -99,7 +106,6 @@ export const categorienoten: Record<string, Categorienoot> = {
         "De vakfiches van de Examencommissie noemen die richtingen samen " +
         "bovenaan, daarom staan ze hier niet apart.",
     },
-    komtNog: "Nog in de maak: Latijn en Duits.",
   },
 
   // De elf fiches van deze categorie zijn alle elf gebouwd (stand 11 oktober

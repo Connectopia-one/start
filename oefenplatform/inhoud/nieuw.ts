@@ -41,6 +41,13 @@ export const nieuwTekst = {
 export const updates: Update[] = [
   {
     datum: "27 november 2026",
+    titel: "Nieuwe vakken in Boost: Latijn en Duits",
+    tekst:
+      "Volg je Latijn of moderne talen in de tweede graad? Dan vind je in Boost nu twee nieuwe vakken. Bij Latijn lees je echte Latijnse teksten, van Caesar en Ovidius tot Erasmus en Galilei, telkens met de tekst, de woorden erbij en vragen over inhoud, vertaling, grammatica en stijl. Duits gaat over lezen en schrijven: teksten begrijpen, een mail of zoekertje schrijven, woordenschat over jezelf, thuis, school en reizen, en de grammatica van lidwoorden en naamvallen tot het Perfekt en de woordvolgorde. Spreken en luisteren zitten er nog niet in. Bij beide vakken horen leer- en oefenbundels om af te drukken, klikbare bundels, een uitdaging met veertig vragen, en een eigen spel: een niveau Latijn in de begrippenarena en een nieuwe woordenarena Duits, met het spelletje der, die of das.",
+    link: { tekst: "Naar Boost", href: "/niveaus/boost-doorstroom" },
+  },
+  {
+    datum: "27 november 2026",
     titel: "Nieuw: Launchpad voor het 1ste en 2de leerjaar",
     tekst:
       "Er is een nieuwe categorie 🪁 Launchpad, voor kinderen van het 1ste en 2de leerjaar. Wiskunde (getallen tot 20 en tot 100, plus en min, splitsen en verliefde harten, de eerste tafels, meten en geld, de klok, vormen), Nederlands (letters en klanken, lezen, woorden goed schrijven, zinnen maken, verhaaltjes begrijpen) en wereldoriëntatie (mijn lichaam, dieren en planten, seizoenen en weer, verkeer, vroeger en nu, ik en de anderen). Korte zinnen, vooral kiezen in plaats van typen, veel prenten, en de voorleesknop staat altijd aan. Bij elk hoofdstuk hoort een leerbundel en een oefenbundel om af te drukken.",
