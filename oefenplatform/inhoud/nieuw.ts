@@ -41,6 +41,13 @@ export const nieuwTekst = {
 export const updates: Update[] = [
   {
     datum: "27 november 2026",
+    titel: "Juist of fout: geen vast patroon meer, en enkele vragen rechtgezet",
+    tekst:
+      "In de tabellen met juist of fout zat soms een patroon, bijvoorbeeld vaak juist bovenaan, of juist en fout om beurten. In alle vakken staan de uitspraken nu door elkaar, zodat je elke uitspraak echt moet nagaan. Bij geschiedenis Spark verraadde het langste antwoord bij de vraag over het orakel de oplossing, dat is opgelost, en de hele cursus vertelt nu ook over de beschavingen op Kreta en in Mycene. Bij aardrijkskunde Boost staat de kaart met de letters weer bij de vraag over het gradennet, en de vraag over Groenland is duidelijker.",
+    opVraag: true,
+  },
+  {
+    datum: "27 november 2026",
     titel: "Met Enter je antwoord indienen, nu ook bij de vraag van de dag",
     tekst:
       "Je kon in een hoofdstuk al met de Enter-toets je antwoord laten nakijken en naar de volgende vraag gaan. Nu werkt dat ook bij de vraag van de dag, en ook nadat je op Waar of Niet waar klikte.",

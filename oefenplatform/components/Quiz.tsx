@@ -47,7 +47,7 @@ import {
   lijstVolgorde,
   type VraagType,
 } from "@/lib/vraagvorm";
-import { isJuistNieuw, sleepzinAlsTekst, zelfNakijken } from "@/lib/examenvormen";
+import { geschud, isJuistNieuw, sleepzinAlsTekst, zelfNakijken } from "@/lib/examenvormen";
 import {
   Casus,
   HotspotVraag,
@@ -929,6 +929,37 @@ function VraagKaart({
   Na het nakijken krijgt de juiste kolom van elke rij een vinkje, en een rij
   die het kind fout had een rode rand, zodat je ziet wáár het misliep.
 */
+/*
+  Meldingen van ouders, 26 en 27 november 2026: bij juist of fout zat er een
+  patroon in de rijen (vaak juist bovenaan, of juist en fout om beurten). Net
+  als bij de opties van een meerkeuzevraag (lib/optievolgorde.ts) zetten we de
+  rijen daarom bij het tonen door elkaar, vast per vraag, zodat een herladen
+  pagina dezelfde volgorde toont. Het antwoord blijft per rij bewaard zoals in
+  de databank, dus niets hoeft opnieuw ingeladen te worden. Verwijst de vraag
+  of de uitleg naar "de eerste zin" of "de laatste uitspraak", dan blijft de
+  volgorde staan. Een volgorde waarin juist en fout netjes om beurten komen,
+  krijgt nog een kleine wissel.
+*/
+const VERWIJST_NAAR_PLAATS =
+  /\b(eerste|tweede|derde|vierde|vijfde|zesde|laatste|bovenste|onderste)\s+(zin|zinnen|rij|rijen|uitspraak|uitspraken|bewering|stelling)\b/i;
+
+function rijVolgorde(vraag: Vraag, juist: number[]): number[] {
+  const aantal = juist.length;
+  const tekst = `${vraag.vraag ?? ""} ${vraag.uitleg ?? ""}`;
+  if (aantal < 2 || VERWIJST_NAAR_PLAATS.test(tekst)) {
+    return Array.from({ length: aantal }, (_, i) => i);
+  }
+  const volgorde = geschud(vraag.id, 7, aantal);
+  const omBeurten =
+    aantal >= 3 &&
+    volgorde.every((r, i) => i === 0 || juist[r] !== juist[volgorde[i - 1]]);
+  if (omBeurten) {
+    // J F J F wordt J F F J: de laatste twee wisselen van plaats.
+    [volgorde[aantal - 2], volgorde[aantal - 1]] = [volgorde[aantal - 1], volgorde[aantal - 2]];
+  }
+  return volgorde;
+}
+
 function JuistFoutTabel({
   vraag,
   tabel,
@@ -942,6 +973,7 @@ function JuistFoutTabel({
   nagekeken: boolean;
   onKies: (rij: number, kolom: number) => void;
 }) {
+  const volgorde = rijVolgorde(vraag, tabel.juist);
   return (
     <div className="mt-3 overflow-x-auto">
       <table className="w-full border-collapse text-sm">
@@ -961,7 +993,8 @@ function JuistFoutTabel({
           </tr>
         </thead>
         <tbody>
-          {tabel.rijen.map((rij, r) => {
+          {volgorde.map((r) => {
+            const rij = tabel.rijen[r];
             const fout = nagekeken && gekozen[r] !== tabel.juist[r];
             return (
               <tr

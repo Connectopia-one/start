@@ -1,7 +1,7 @@
 """Waar ligt het, en hoe weet je dat? — pittig (🚀 Boost, aardrijkskunde).
 
 Eigen vragen strikt binnen ak_situeren, met een zelfgetekend gradennet om op te klikken."""
-from .vormen import J, F, mk, inv, tabel, keuze, volgorde, koppel, sorteer, sleep, open_, casus, klik
+from .vormen import J, F, mk, inv, tabel, keuze, volgorde, koppel, sorteer, sleep, open_, casus, klik, met_prent
 from .prent import Prent, BLAUW, ORANJE, ROOD, GROEN, DONKER
 
 # Gradennet (equirectangulair): x = 140 + (lengte + 180) * 2, y = 320 − breedte * 2.6
@@ -39,9 +39,10 @@ VRAGEN = [
          "E ligt op 10° NB en 120° OL: in de tropen van het noordelijk halfrond."),
     klik("Klik op de plaats die ten noorden van de noordpoolcirkel ligt.", U, [Z["F"]],
          "F ligt op 70° NB, boven de poolcirkel van 66,5°."),
-    tabel("Lees de coördinaten van de punten op het gradennet. Klopt dit?",
+    # Melding ouder 27 november 2026: de kaart met de letters ontbrak bij deze vraag.
+    met_prent(U, tabel("Lees de coördinaten van de punten op het gradennet. Klopt dit?",
           [("C ligt op 60° NB en 30° OL.", J), ("D ligt op het zuidelijk halfrond.", J), ("D ligt ten oosten van de nulmeridiaan.", F), ("A en F liggen allebei op het westelijk halfrond.", J)],
-          "D ligt op 15° ZB en 45° WL: zuid en west."),
+          "D ligt op 15° ZB en 45° WL: zuid en west.")),
     casus("Mila stuurt drie berichten vanuit haar wereldreis: 'Ik zit op 52° NB en 4° OL.' Daarna: 'Nu sta ik aan de voet van de Andes, in het westen van Zuid-Amerika.' Tot slot: 'Mijn hotel ligt naast de grootste moskee van de stad.'", [
         tabel("Hoe situeert Mila in elk bericht?",
               [("het eerste bericht", "absoluut"), ("het tweede bericht", "relatief, fysisch"), ("het derde bericht", "relatief, sociaaleconomisch")],
@@ -79,7 +80,8 @@ VRAGEN = [
               [("De breedte zegt veel over de klimaatzone.", J), ("De lengte alleen volstaat om de klimaatzone te bepalen.", F), ("Een klimatogram van een station in die stad helpt ook.", J)],
               "Klimaat hangt vooral samen met breedte, hoogte en ligging tegenover de zee."),
     ]),
-    tabel("Een kaart met Groenland even groot als Afrika. Klopt dit?",
+    # Melding ouder 27 november 2026: duidelijker geformuleerd.
+    tabel("Op een kaart zie je Groenland even groot als Afrika. Is elke uitspraak juist of fout?",
           [("De kaart vertekent oppervlakten naar de polen toe.", J), ("Groenland is in werkelijkheid veel kleiner dan Afrika.", J), ("Deze kaart toont vormen, oppervlakten en afstanden allemaal juist.", F)],
           "Een bol op een plat vlak brengen geeft altijd vertekening."),
     sorteer("Over welke afstand gaat het?", ["werkelijke afstand", "ervaren afstand", "mentale afstand"],
