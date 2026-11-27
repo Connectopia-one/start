@@ -41,6 +41,13 @@ export const nieuwTekst = {
 export const updates: Update[] = [
   {
     datum: "27 november 2026",
+    titel: "Met Enter je antwoord indienen, nu ook bij de vraag van de dag",
+    tekst:
+      "Je kon in een hoofdstuk al met de Enter-toets je antwoord laten nakijken en naar de volgende vraag gaan. Nu werkt dat ook bij de vraag van de dag, en ook nadat je op Waar of Niet waar klikte.",
+    opVraag: true,
+  },
+  {
+    datum: "27 november 2026",
     titel: "Frans Boost: meer grammatica en langere leesteksten",
     tekst:
       "Bij Frans in Boost doorstroom staan twee nieuwe onderdelen, telkens in twee delen van twintig vragen. In Grammatica toepassen oefen je de grammatica zoals ze op het examen terugkomt: in een zin of een mailtje kies je zelf de juiste tijd, vorm of het juiste woordje, en je zoekt foutjes zoals bij het nalezen van je eigen tekst. In Begrijpend lezen krijg je een langere Franse tekst die bovenaan blijft staan terwijl je de vragen maakt: een krantenartikel met een lezersbrief erbij, en een kort verhaal. Tik op een gekleurd woord voor de vertaling. Er horen een leerbundel en een oefenbundel bij om af te drukken. Eerlijk is eerlijk: Frans leer je niet alleen op een scherm. Luisteren en spreken oefen je het best door echt Frans te horen en te praten.",

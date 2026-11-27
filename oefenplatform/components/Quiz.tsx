@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { EnterToets } from "@/components/EnterToets";
 import { useEffect, useMemo, useRef, useState } from "react";
 import { MeldingKnop } from "@/components/MeldingKnop";
 import { Leestekst, type Woord } from "@/components/Leestekst";
@@ -619,6 +620,7 @@ function VraagKaart({
             <button
               key={String(optie)}
               type="button"
+              data-keuze
               disabled={status.gecontroleerd}
               onClick={() => onAntwoord(optie)}
               className={`rounded-md border px-4 py-2 text-sm ${
@@ -1045,52 +1047,6 @@ function KeuzeZin({
       )}
     </p>
   );
-}
-
-/*
-  Enter werkt bij élke soort vraag, niet alleen in het invulvakje.
-
-  Febe meldde op 6 oktober 2026: "Fijn dat ik al 1 vraag met een enter kon
-  indienen. Maar helaas kan ik het niet overal doen." Bij een meerkeuzevraag
-  staat er geen invulvakje, dus was er niets dat enter opving.
-
-  Dit onderdeel toont zelf niets; het luistert alleen naar de entertoets en
-  doet dan wat de quiz meegeeft: de vraag nakijken, of naar de volgende gaan.
-
-  Een knop, een link, een invulvakje, een keuzelijst of iets in een formulier
-  (het meldvakje) regelt enter zelf; daar blijven we af. Aankruisvakjes en
-  bolletjes niet: die doen uit zichzelf niets met enter.
-*/
-function EnterToets({ doe }: { doe: () => void }) {
-  const laatste = useRef(doe);
-  useEffect(() => {
-    laatste.current = doe;
-  });
-  useEffect(() => {
-    function opToets(e: KeyboardEvent) {
-      if (e.key !== "Enter" || e.repeat) return;
-      const doel = e.target as HTMLElement | null;
-      const soort = doel?.tagName;
-      const tekstvak =
-        soort === "INPUT" &&
-        !["radio", "checkbox"].includes((doel as HTMLInputElement).type);
-      if (
-        soort === "BUTTON" ||
-        soort === "A" ||
-        soort === "TEXTAREA" ||
-        soort === "SELECT" ||
-        tekstvak ||
-        doel?.closest("form")
-      ) {
-        return;
-      }
-      e.preventDefault();
-      laatste.current();
-    }
-    window.addEventListener("keydown", opToets);
-    return () => window.removeEventListener("keydown", opToets);
-  }, []);
-  return null;
 }
 
 export function Quiz({

@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useCallback, useEffect, useState } from "react";
 import { VraagTekst } from "@/components/Figuren";
+import { EnterToets } from "@/components/EnterToets";
 import { Formule } from "@/components/Formule";
 import {
   haalDagvraag,
@@ -255,6 +256,7 @@ export function Dagvraag() {
                 <button
                   key={String(optie)}
                   type="button"
+                  data-keuze
                   disabled={gecontroleerd}
                   onClick={() => setGegeven(optie)}
                   className={`rounded-md border px-4 py-2 text-sm ${
@@ -268,6 +270,9 @@ export function Dagvraag() {
               ))}
             </div>
           )}
+
+          {/* Enter kijkt de vraag na, net zoals in een hoofdstuk. */}
+          {!gecontroleerd && ingevuld && <EnterToets doe={controleer} />}
 
           {!gecontroleerd ? (
             <button
