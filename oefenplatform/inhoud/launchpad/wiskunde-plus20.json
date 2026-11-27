@@ -1,0 +1,386 @@
+{
+ "hoofdstukken": [
+  {
+   "titel": "Optellen en aftrekken tot 20 — deel 1",
+   "niveau": "launchpad",
+   "korte_uitleg": "Erbij en eraf tot 10.",
+   "vragen": [
+    {
+     "type": "invultekst",
+     "vraag": "3 + 4 = ___",
+     "antwoord": "7",
+     "uitleg": "3 en er komen 4 bij: 7."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "5 + 5 = ___",
+     "antwoord": "10",
+     "uitleg": "5 + 5 = 10."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "8 − 3 = ___",
+     "antwoord": "5",
+     "uitleg": "8 en er gaan 3 af: 5."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "9 − 9 = ___",
+     "antwoord": "0",
+     "uitleg": "Alles eraf: 0."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "6 + 2 = ___",
+     "antwoord": "8",
+     "uitleg": "6, 7, 8."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "7 − 4 = ___",
+     "antwoord": "3",
+     "uitleg": "7 − 4 = 3."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke som is 6?",
+     "opties": [
+      "2 + 4",
+      "3 + 4",
+      "1 + 4",
+      "6 + 1"
+     ],
+     "antwoord": 0,
+     "uitleg": "2 + 4 = 6."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke som is 9?",
+     "opties": [
+      "10 − 2",
+      "10 − 1",
+      "8 − 1",
+      "9 − 1"
+     ],
+     "antwoord": 1,
+     "uitleg": "10 − 1 = 9."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "4 + ... = 10",
+     "opties": [
+      "5",
+      "4",
+      "6",
+      "7"
+     ],
+     "antwoord": 2,
+     "uitleg": "4 + 6 = 10."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "... − 2 = 5",
+     "opties": [
+      "3",
+      "6",
+      "8",
+      "7"
+     ],
+     "antwoord": 3,
+     "uitleg": "7 − 2 = 5."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "3 + 5 = 8",
+     "antwoord": true,
+     "uitleg": "3 + 5 = 8. Juist!"
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "10 − 4 = 5",
+     "antwoord": false,
+     "uitleg": "10 − 4 = 6."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "2 + 7 is hetzelfde als 7 + 2.",
+     "antwoord": true,
+     "uitleg": "Bij optellen mag je wisselen: allebei 9."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "6 − 0 = 0",
+     "antwoord": false,
+     "uitleg": "Er gaat niets af, dus 6 − 0 = 6."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Lien heeft 5 knikkers. Ze krijgt er 3 bij. Hoeveel heeft ze nu? ___",
+     "antwoord": "8",
+     "uitleg": "5 + 3 = 8."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Er zitten 9 vogels op een tak. 4 vliegen weg. Hoeveel blijven er? ___",
+     "antwoord": "5",
+     "uitleg": "9 − 4 = 5."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is het dubbel van 4?",
+     "opties": [
+      "8",
+      "6",
+      "4",
+      "10"
+     ],
+     "antwoord": 0,
+     "uitleg": "4 + 4 = 8."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke som past bij: 7 appels, 2 worden opgegeten?",
+     "opties": [
+      "7 + 2",
+      "7 − 2",
+      "2 − 7",
+      "2 + 7"
+     ],
+     "antwoord": 1,
+     "uitleg": "Er gaan er af, dus min."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "5 + 4 is meer dan 8.",
+     "antwoord": true,
+     "uitleg": "5 + 4 = 9, en 9 is meer dan 8."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "1 + 1 + 1 = 4",
+     "antwoord": false,
+     "uitleg": "1 + 1 + 1 = 3."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoeveel ballonnen zijn het samen?",
+     "antwoord": "7",
+     "uitleg": "4 + 3 = 7.",
+     "afbeelding_pad": "/examenvormen/launchpad/plus20-ballon-4-3.webp"
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoeveel sterren zijn het samen?",
+     "antwoord": "13",
+     "uitleg": "8 + 2 = 10, en nog 3: 13.",
+     "afbeelding_pad": "/examenvormen/launchpad/plus20-ster-8-5.webp"
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hier zwemmen 9 eendjes. Er zwemmen er 3 weg. Hoeveel blijven er?",
+     "antwoord": "6",
+     "uitleg": "9 − 3 = 6.",
+     "afbeelding_pad": "/examenvormen/launchpad/plus20-eendjes-9.webp"
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Bij deze prent past 6 + 6 = 12.",
+     "antwoord": true,
+     "uitleg": "6 snoepjes en 6 snoepjes: 12.",
+     "afbeelding_pad": "/examenvormen/launchpad/plus20-snoep-6-6.webp"
+    }
+   ]
+  },
+  {
+   "titel": "Optellen en aftrekken tot 20 — deel 2",
+   "niveau": "launchpad",
+   "korte_uitleg": "Erbij en eraf tot 20, ook over de 10.",
+   "vragen": [
+    {
+     "type": "invultekst",
+     "vraag": "10 + 6 = ___",
+     "antwoord": "16",
+     "uitleg": "1 tiental en 6 eenheden: 16."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "13 + 4 = ___",
+     "antwoord": "17",
+     "uitleg": "3 + 4 = 7, dus 13 + 4 = 17."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "18 − 5 = ___",
+     "antwoord": "13",
+     "uitleg": "8 − 5 = 3, dus 18 − 5 = 13."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "8 + 5 = ___",
+     "antwoord": "13",
+     "uitleg": "8 + 2 = 10, en nog 3 erbij: 13."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "9 + 7 = ___",
+     "antwoord": "16",
+     "uitleg": "9 + 1 = 10, en nog 6: 16."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "14 − 6 = ___",
+     "antwoord": "8",
+     "uitleg": "14 − 4 = 10, en nog 2 eraf: 8."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "12 − 9 = ___",
+     "antwoord": "3",
+     "uitleg": "12 − 2 = 10, en nog 7 eraf: 3."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "7 + 6 = ...",
+     "opties": [
+      "12",
+      "14",
+      "13",
+      "11"
+     ],
+     "antwoord": 2,
+     "uitleg": "7 + 3 = 10, en nog 3: 13."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "15 − 7 = ...",
+     "opties": [
+      "7",
+      "9",
+      "12",
+      "8"
+     ],
+     "antwoord": 3,
+     "uitleg": "15 − 5 = 10, en nog 2 eraf: 8."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe reken je 8 + 6 slim?",
+     "opties": [
+      "8 + 2 + 4",
+      "8 + 3 + 4",
+      "6 + 6 + 1",
+      "8 + 1 + 6"
+     ],
+     "antwoord": 0,
+     "uitleg": "Eerst naar 10: 8 + 2 = 10, dan nog 4: 14."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "9 + 9 = 18",
+     "antwoord": true,
+     "uitleg": "Het dubbel van 9 is 18."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "16 − 8 = 9",
+     "antwoord": false,
+     "uitleg": "16 − 8 = 8, want 8 + 8 = 16."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "20 − 10 = 10",
+     "antwoord": true,
+     "uitleg": "Twee tientallen min één tiental: 10."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "6 + 7 = 12",
+     "antwoord": false,
+     "uitleg": "6 + 7 = 13."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Mo heeft 12 stickers. Hij geeft er 5 weg. Hoeveel houdt hij? ___",
+     "antwoord": "7",
+     "uitleg": "12 − 5 = 7."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "In de bus zitten 8 kinderen. Er stappen 7 kinderen bij op. Hoeveel zijn er nu? ___",
+     "antwoord": "15",
+     "uitleg": "8 + 7 = 15."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke som is 11?",
+     "opties": [
+      "5 + 5",
+      "5 + 6",
+      "4 + 6",
+      "6 + 6"
+     ],
+     "antwoord": 1,
+     "uitleg": "5 + 6 = 11."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "... + 9 = 17",
+     "opties": [
+      "7",
+      "9",
+      "8",
+      "6"
+     ],
+     "antwoord": 2,
+     "uitleg": "8 + 9 = 17."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Als 7 + 8 = 15, dan is 15 − 8 = 7.",
+     "antwoord": true,
+     "uitleg": "Plus en min horen bij elkaar."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "19 − 9 = 1",
+     "antwoord": false,
+     "uitleg": "19 − 9 = 10."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Je geeft 5 van deze knikkers weg. Hoeveel hou je over?",
+     "antwoord": "9",
+     "uitleg": "14 − 5 = 9.",
+     "afbeelding_pad": "/examenvormen/launchpad/plus20-knikkers-14.webp"
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke som past bij de prent?",
+     "opties": [
+      "7 + 3",
+      "6 + 4",
+      "4 + 4",
+      "7 + 4"
+     ],
+     "antwoord": 3,
+     "uitleg": "Links 7 autootjes, rechts 4.",
+     "afbeelding_pad": "/examenvormen/launchpad/plus20-auto-7-4.webp"
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Als 2 beertjes weggaan, blijven er 7.",
+     "antwoord": false,
+     "uitleg": "Er zijn 10 beertjes. 10 − 2 = 8.",
+     "afbeelding_pad": "/examenvormen/launchpad/plus20-beertjes-10.webp"
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoeveel blokjes zijn het samen?",
+     "antwoord": "18",
+     "uitleg": "Het dubbel van 9 is 18.",
+     "afbeelding_pad": "/examenvormen/launchpad/plus20-blok-9-9.webp"
+    }
+   ]
+  }
+ ]
+}

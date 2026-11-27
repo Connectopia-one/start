@@ -1,0 +1,458 @@
+{
+ "hoofdstukken": [
+  {
+   "titel": "Klok, dagen en maanden — deel 1",
+   "niveau": "launchpad",
+   "korte_uitleg": "De klok lezen: hele uren en halve uren.",
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "De grote wijzer staat op 12, de kleine op 3. Hoe laat is het?",
+     "opties": [
+      "3 uur",
+      "12 uur",
+      "half 3",
+      "half 4"
+     ],
+     "antwoord": 0,
+     "uitleg": "Grote wijzer op 12: een heel uur. De kleine wijst het uur aan."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "De grote wijzer staat op 12, de kleine op 8. Hoe laat is het?",
+     "opties": [
+      "12 uur",
+      "8 uur",
+      "half 8",
+      "half 9"
+     ],
+     "antwoord": 1,
+     "uitleg": "Grote wijzer op 12, kleine op 8: 8 uur."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "De grote wijzer staat op 6, de kleine tussen 4 en 5. Hoe laat is het?",
+     "opties": [
+      "half 4",
+      "6 uur",
+      "half 5",
+      "4 uur"
+     ],
+     "antwoord": 2,
+     "uitleg": "Grote wijzer op 6 is half. De kleine is al halfweg naar 5: half 5."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "De grote wijzer staat op 6, de kleine tussen 9 en 10. Hoe laat is het?",
+     "opties": [
+      "half 9",
+      "9 uur",
+      "6 uur",
+      "half 10"
+     ],
+     "antwoord": 3,
+     "uitleg": "Halfweg naar 10: half 10."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke wijzer toont het uur?",
+     "opties": [
+      "de kleine wijzer",
+      "de grote wijzer",
+      "allebei even veel",
+      "geen van beide"
+     ],
+     "antwoord": 0,
+     "uitleg": "De kleine wijzer toont het uur, de grote de minuten."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Het is 7 uur. Hoe laat is het 1 uur later?",
+     "opties": [
+      "6 uur",
+      "8 uur",
+      "half 8",
+      "9 uur"
+     ],
+     "antwoord": 1,
+     "uitleg": "7 + 1 = 8."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Het is half 3. Hoe laat is het een half uur later?",
+     "opties": [
+      "half 4",
+      "2 uur",
+      "3 uur",
+      "4 uur"
+     ],
+     "antwoord": 2,
+     "uitleg": "Na half 3 komt 3 uur."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Het is 10 uur. Hoe laat was het 2 uur geleden?",
+     "opties": [
+      "12 uur",
+      "9 uur",
+      "half 10",
+      "8 uur"
+     ],
+     "antwoord": 3,
+     "uitleg": "10 − 2 = 8."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Bij een heel uur staat de grote wijzer op 12.",
+     "antwoord": true,
+     "uitleg": "Grote wijzer op 12: precies een uur."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Bij half staat de grote wijzer op 3.",
+     "antwoord": false,
+     "uitleg": "Bij half staat de grote wijzer op 6, onderaan."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Half 6 is een half uur voor 6 uur.",
+     "antwoord": true,
+     "uitleg": "Half 6 komt net voor 6 uur."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Half 4 is hetzelfde als 4 uur.",
+     "antwoord": false,
+     "uitleg": "Half 4 is een half uur vroeger dan 4 uur."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een uur duurt langer dan een half uur.",
+     "antwoord": true,
+     "uitleg": "Een uur is twee halve uren."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Op een klok staan de getallen 1 tot en met 20.",
+     "antwoord": false,
+     "uitleg": "Op een klok staan 1 tot en met 12."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Een film begint om 2 uur en duurt 2 uur. Om hoeveel uur is hij gedaan? ___",
+     "antwoord": "4",
+     "uitleg": "2 + 2 = 4: om 4 uur."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Je slaapt van 8 uur 's avonds tot 7 uur 's morgens. Hoeveel uur is dat? ___",
+     "antwoord": "11",
+     "uitleg": "8 tot 12 is 4 uur, 12 tot 7 is 7 uur: 11 uur."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoeveel halve uren zitten in 1 uur? ___",
+     "antwoord": "2",
+     "uitleg": "Een half uur en nog een half uur."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoeveel uren heeft één dag en nacht? ___",
+     "antwoord": "24",
+     "uitleg": "Een dag en een nacht samen zijn 24 uur."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Op school begin je meestal 's morgens.",
+     "antwoord": true,
+     "uitleg": "De meeste scholen beginnen tussen 8 en 9 uur 's morgens."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Middageten is om 12 uur 's nachts.",
+     "antwoord": false,
+     "uitleg": "Middageten is rond 12 uur 's middags."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk uur toont de klok?",
+     "opties": [
+      "half 3",
+      "12 uur",
+      "3 uur",
+      "9 uur"
+     ],
+     "antwoord": 2,
+     "uitleg": "De grote wijzer staat op 12, de kleine op 3.",
+     "afbeelding_pad": "/examenvormen/launchpad/klok-3-00.webp"
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe laat is het? Schrijf het uur.",
+     "antwoord": [
+      "8 uur",
+      "acht uur",
+      "8",
+      "8u",
+      "20 uur"
+     ],
+     "uitleg": "De grote wijzer staat op 12, de kleine op 8: 8 uur.",
+     "afbeelding_pad": "/examenvormen/launchpad/klok-8-00.webp"
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe laat is het op deze klok?",
+     "opties": [
+      "half 5",
+      "6 uur",
+      "5 uur",
+      "half 6"
+     ],
+     "antwoord": 3,
+     "uitleg": "De grote wijzer staat op 6. De kleine staat tussen 5 en 6: half 6.",
+     "afbeelding_pad": "/examenvormen/launchpad/klok-5-30.webp"
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Het is 10 uur.",
+     "antwoord": true,
+     "uitleg": "Grote wijzer op 12, kleine op 10.",
+     "afbeelding_pad": "/examenvormen/launchpad/klok-10-00.webp"
+    }
+   ]
+  },
+  {
+   "titel": "Klok, dagen en maanden — deel 2",
+   "niveau": "launchpad",
+   "korte_uitleg": "De dagen van de week en de maanden van het jaar.",
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke dag komt na maandag?",
+     "opties": [
+      "dinsdag",
+      "zondag",
+      "woensdag",
+      "vrijdag"
+     ],
+     "antwoord": 0,
+     "uitleg": "Maandag, dinsdag, woensdag, ..."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke dag komt voor vrijdag?",
+     "opties": [
+      "zaterdag",
+      "donderdag",
+      "woensdag",
+      "maandag"
+     ],
+     "antwoord": 1,
+     "uitleg": "Donderdag, vrijdag."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke dagen zijn het weekend?",
+     "opties": [
+      "vrijdag en zaterdag",
+      "maandag en dinsdag",
+      "zaterdag en zondag",
+      "zondag en maandag"
+     ],
+     "antwoord": 2,
+     "uitleg": "Zaterdag en zondag zijn weekend."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke maand komt na januari?",
+     "opties": [
+      "maart",
+      "december",
+      "juni",
+      "februari"
+     ],
+     "antwoord": 3,
+     "uitleg": "Januari, februari, maart."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "In welke maand vieren we Kerstmis?",
+     "opties": [
+      "december",
+      "november",
+      "januari",
+      "april"
+     ],
+     "antwoord": 0,
+     "uitleg": "Kerstmis is op 25 december."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke maand is de eerste van het jaar?",
+     "opties": [
+      "februari",
+      "januari",
+      "september",
+      "december"
+     ],
+     "antwoord": 1,
+     "uitleg": "Het jaar begint op 1 januari."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke maand komt voor mei?",
+     "opties": [
+      "juni",
+      "maart",
+      "april",
+      "juli"
+     ],
+     "antwoord": 2,
+     "uitleg": "April, mei, juni."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "In welke maand begint het nieuwe schooljaar?",
+     "opties": [
+      "augustus",
+      "oktober",
+      "januari",
+      "september"
+     ],
+     "antwoord": 3,
+     "uitleg": "Het schooljaar start op 1 september."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoeveel dagen heeft een week? ___",
+     "antwoord": "7",
+     "uitleg": "Maandag tot en met zondag: 7 dagen."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoeveel maanden heeft een jaar? ___",
+     "antwoord": "12",
+     "uitleg": "Januari tot en met december: 12 maanden."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoeveel seizoenen heeft een jaar? ___",
+     "antwoord": "4",
+     "uitleg": "Lente, zomer, herfst en winter."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Vandaag is het woensdag. Over hoeveel dagen is het zaterdag? ___",
+     "antwoord": "3",
+     "uitleg": "Donderdag, vrijdag, zaterdag: 3 dagen."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Na zondag komt maandag.",
+     "antwoord": true,
+     "uitleg": "Na zondag begint een nieuwe week."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Woensdag komt na donderdag.",
+     "antwoord": false,
+     "uitleg": "Woensdag komt voor donderdag."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "December is de laatste maand van het jaar.",
+     "antwoord": true,
+     "uitleg": "Na december begint een nieuw jaar."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een jaar heeft 10 maanden.",
+     "antwoord": false,
+     "uitleg": "Een jaar heeft 12 maanden."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Gisteren is de dag voor vandaag.",
+     "antwoord": true,
+     "uitleg": "Gisteren, vandaag, morgen."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Morgen is de dag voor vandaag.",
+     "antwoord": false,
+     "uitleg": "Morgen is de dag na vandaag."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Vandaag is het dinsdag. Welke dag was het gisteren?",
+     "opties": [
+      "maandag",
+      "woensdag",
+      "zondag",
+      "donderdag"
+     ],
+     "antwoord": 0,
+     "uitleg": "De dag voor dinsdag is maandag."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "In welk seizoen vallen de blaadjes van de bomen?",
+     "opties": [
+      "de lente",
+      "de herfst",
+      "de zomer",
+      "de winter"
+     ],
+     "antwoord": 1,
+     "uitleg": "In de herfst kleuren de blaadjes en vallen ze."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Het is half 12.",
+     "antwoord": false,
+     "uitleg": "De grote wijzer staat op 12: het is 12 uur.",
+     "afbeelding_pad": "/examenvormen/launchpad/klok-12-00.webp"
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Lees de klok. Hoe laat is het?",
+     "opties": [
+      "half 2",
+      "half 1",
+      "1 uur",
+      "6 uur"
+     ],
+     "antwoord": 0,
+     "uitleg": "Grote wijzer op 6, de kleine tussen 1 en 2: half 2.",
+     "afbeelding_pad": "/examenvormen/launchpad/klok-1-30.webp"
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Kijk naar de klok. Hoe laat is het één uur later?",
+     "opties": [
+      "6 uur",
+      "8 uur",
+      "half 8",
+      "7 uur"
+     ],
+     "antwoord": 1,
+     "uitleg": "Nu is het 7 uur. Een uur later is het 8 uur.",
+     "afbeelding_pad": "/examenvormen/launchpad/klok-7-00.webp"
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoe laat is het? Schrijf het op.",
+     "antwoord": [
+      "half 10",
+      "half tien",
+      "9.30",
+      "9:30",
+      "9u30"
+     ],
+     "uitleg": "Grote wijzer op 6, de kleine tussen 9 en 10: half 10.",
+     "afbeelding_pad": "/examenvormen/launchpad/klok-9-30.webp"
+    }
+   ]
+  }
+ ]
+}

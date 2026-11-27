@@ -1,0 +1,488 @@
+{
+ "hoofdstukken": [
+  {
+   "titel": "Korte woorden lezen — deel 1",
+   "niveau": "launchpad",
+   "korte_uitleg": "Korte woorden lezen en weten wat ze betekenen.",
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat kan je eten?",
+     "opties": [
+      "een peer",
+      "een pen",
+      "een pet",
+      "een pop"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een peer is fruit."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat kan je aandoen?",
+     "opties": [
+      "een tas",
+      "een jas",
+      "een glas",
+      "een vaas"
+     ],
+     "antwoord": 1,
+     "uitleg": "Een jas trek je aan."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk woord is een dier?",
+     "opties": [
+      "kop",
+      "kap",
+      "kip",
+      "kus"
+     ],
+     "antwoord": 2,
+     "uitleg": "Een kip is een dier."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk woord is een kleur?",
+     "opties": [
+      "brood",
+      "boot",
+      "rok",
+      "rood"
+     ],
+     "antwoord": 3,
+     "uitleg": "Rood is een kleur."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waar zit je op?",
+     "opties": [
+      "een stoel",
+      "een stoep",
+      "een steen",
+      "een staart"
+     ],
+     "antwoord": 0,
+     "uitleg": "Op een stoel zit je."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat groeit in de tuin?",
+     "opties": [
+      "een rok",
+      "een roos",
+      "een raam",
+      "een riem"
+     ],
+     "antwoord": 1,
+     "uitleg": "Een roos is een bloem."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat vliegt?",
+     "opties": [
+      "een ui",
+      "een uur",
+      "een uil",
+      "een uier"
+     ],
+     "antwoord": 2,
+     "uitleg": "Een uil is een vogel."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waar woon je in?",
+     "opties": [
+      "een muis",
+      "een buis",
+      "een luis",
+      "een huis"
+     ],
+     "antwoord": 3,
+     "uitleg": "In een huis woon je."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk woord hoort niet bij het fruit?",
+     "opties": [
+      "fiets",
+      "appel",
+      "peer",
+      "banaan"
+     ],
+     "antwoord": 0,
+     "uitleg": "Appel, peer en banaan zijn fruit. Een fiets niet."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk woord hoort niet bij de dieren?",
+     "opties": [
+      "hond",
+      "boek",
+      "kat",
+      "koe"
+     ],
+     "antwoord": 1,
+     "uitleg": "Hond, kat en koe zijn dieren."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een kat kan miauwen.",
+     "antwoord": true,
+     "uitleg": "Een kat zegt miauw."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een boom kan lopen.",
+     "antwoord": false,
+     "uitleg": "Een boom staat stil en groeit."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Met een pen kan je schrijven.",
+     "antwoord": true,
+     "uitleg": "Een pen is om te schrijven."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een vis woont in de lucht.",
+     "antwoord": false,
+     "uitleg": "Een vis woont in het water."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Je poetst je tanden met een tandenborstel.",
+     "antwoord": true,
+     "uitleg": "Tandenborstel en tandpasta."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een ei is vierkant.",
+     "antwoord": false,
+     "uitleg": "Een ei is ovaal."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'Hek' en 'bek' verschillen maar in één letter.",
+     "antwoord": true,
+     "uitleg": "h-ek en b-ek."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'Mes' en 'vos' zijn hetzelfde woord.",
+     "antwoord": false,
+     "uitleg": "Het zijn twee andere woorden."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk woord lees je hier: k-oe",
+     "opties": [
+      "kou",
+      "koek",
+      "koe",
+      "kei"
+     ],
+     "antwoord": 2,
+     "uitleg": "k + oe = koe."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk woord lees je hier: b-oe-k",
+     "opties": [
+      "boer",
+      "boom",
+      "beek",
+      "boek"
+     ],
+     "antwoord": 3,
+     "uitleg": "b + oe + k = boek."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk woord past bij de prent?",
+     "opties": [
+      "kat",
+      "kar",
+      "rat",
+      "kast"
+     ],
+     "antwoord": 0,
+     "uitleg": "Je ziet een kat.",
+     "afbeelding_pad": "/examenvormen/launchpad/lezen-kat.webp"
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk woord hoort bij dit dier?",
+     "opties": [
+      "kou",
+      "koe",
+      "koek",
+      "kei"
+     ],
+     "antwoord": 1,
+     "uitleg": "Je ziet een koe in de wei.",
+     "afbeelding_pad": "/examenvormen/launchpad/lezen-koe.webp"
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Op de prent zie je een muis.",
+     "antwoord": false,
+     "uitleg": "Je ziet een huis.",
+     "afbeelding_pad": "/examenvormen/launchpad/lezen-huis.webp"
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Lees en kies: wat zie je?",
+     "opties": [
+      "een bel",
+      "een bol",
+      "een bal",
+      "een bak"
+     ],
+     "antwoord": 2,
+     "uitleg": "Je ziet een strandbal.",
+     "afbeelding_pad": "/examenvormen/launchpad/lezen-bal.webp"
+    }
+   ]
+  },
+  {
+   "titel": "Korte woorden lezen — deel 2",
+   "niveau": "launchpad",
+   "korte_uitleg": "Kleine zinnen lezen en begrijpen.",
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "'De hond rent in de tuin.' Waar rent de hond?",
+     "opties": [
+      "in de tuin",
+      "in het huis",
+      "op straat",
+      "in het bos"
+     ],
+     "antwoord": 0,
+     "uitleg": "Er staat: in de tuin."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "'Mia eet een rode appel.' Welke kleur heeft de appel?",
+     "opties": [
+      "groen",
+      "rood",
+      "geel",
+      "blauw"
+     ],
+     "antwoord": 1,
+     "uitleg": "Er staat: een rode appel."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "'Tom heeft een bal.' Wie heeft een bal?",
+     "opties": [
+      "Mia",
+      "de hond",
+      "Tom",
+      "mama"
+     ],
+     "antwoord": 2,
+     "uitleg": "Tom heeft de bal."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "'De kat slaapt op de bank.' Wat doet de kat?",
+     "opties": [
+      "eten",
+      "spelen",
+      "lopen",
+      "slapen"
+     ],
+     "antwoord": 3,
+     "uitleg": "Er staat: de kat slaapt."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "'Papa bakt een taart.' Wat bakt papa?",
+     "opties": [
+      "een taart",
+      "brood",
+      "koekjes",
+      "frietjes"
+     ],
+     "antwoord": 0,
+     "uitleg": "Papa bakt een taart."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "'Het regent. Sem neemt zijn paraplu.' Waarom neemt Sem een paraplu?",
+     "opties": [
+      "omdat het warm is",
+      "omdat het regent",
+      "omdat het sneeuwt",
+      "omdat de zon schijnt"
+     ],
+     "antwoord": 1,
+     "uitleg": "Bij regen neem je een paraplu."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "'Lies is jarig. Ze wordt 7.' Hoe oud is Lies nu?",
+     "opties": [
+      "6 jaar",
+      "8 jaar",
+      "7 jaar",
+      "5 jaar"
+     ],
+     "antwoord": 2,
+     "uitleg": "Ze wordt 7."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "'De vogel zit in de boom.' Waar zit de vogel?",
+     "opties": [
+      "op het dak",
+      "in de kooi",
+      "op de grond",
+      "in de boom"
+     ],
+     "antwoord": 3,
+     "uitleg": "Er staat: in de boom."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'De vis zwemt in de kom.' De vis zwemt in de zee.",
+     "antwoord": false,
+     "uitleg": "Er staat: in de kom."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'Ik heb een rode fiets.' Mijn fiets is rood.",
+     "antwoord": true,
+     "uitleg": "Een rode fiets is een fiets die rood is."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'Oma drinkt thee.' Oma drinkt koffie.",
+     "antwoord": false,
+     "uitleg": "Oma drinkt thee."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'Bram speelt met zijn zus.' Bram speelt niet alleen.",
+     "antwoord": true,
+     "uitleg": "Hij speelt samen met zijn zus."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'Het is nacht. De maan schijnt.' Het is donker buiten.",
+     "antwoord": true,
+     "uitleg": "'s Nachts is het donker."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'Ella heeft twee katten.' Ella heeft één kat.",
+     "antwoord": false,
+     "uitleg": "Ella heeft er twee."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke zin past bij een prent van een kind dat zwemt?",
+     "opties": [
+      "Het kind zwemt in het zwembad.",
+      "Het kind slaapt in bed.",
+      "Het kind eet een ijsje.",
+      "Het kind leest een boek."
+     ],
+     "antwoord": 0,
+     "uitleg": "Zwemmen doe je in het water."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk woord ontbreekt? 'De ... blaft.'",
+     "opties": [
+      "kat",
+      "hond",
+      "vis",
+      "koe"
+     ],
+     "antwoord": 1,
+     "uitleg": "Een hond blaft."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk woord ontbreekt? 'Ik ... een boek.'",
+     "opties": [
+      "eet",
+      "slaap",
+      "lees",
+      "drink"
+     ],
+     "antwoord": 2,
+     "uitleg": "Een boek lees je."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk woord ontbreekt? 'De zon is ...'",
+     "opties": [
+      "blauw",
+      "paars",
+      "zwart",
+      "geel"
+     ],
+     "antwoord": 3,
+     "uitleg": "De zon tekenen we geel."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'Ik ga naar school.' Dit is een zin.",
+     "antwoord": true,
+     "uitleg": "Er staat een hoofdletter vooraan en een punt achteraan."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'boom kat rood' is een goede zin.",
+     "antwoord": false,
+     "uitleg": "Losse woorden vormen nog geen zin."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke zin past bij de prent?",
+     "opties": [
+      "De hond eet.",
+      "De hond zwemt.",
+      "De hond fietst.",
+      "De hond slaapt."
+     ],
+     "antwoord": 3,
+     "uitleg": "De hond ligt te slapen in zijn mand.",
+     "afbeelding_pad": "/examenvormen/launchpad/lezen-hond-slaapt.webp"
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De vogel zingt.",
+     "antwoord": true,
+     "uitleg": "De vogel heeft zijn snavel open en zingt.",
+     "afbeelding_pad": "/examenvormen/launchpad/lezen-vogel.webp"
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke zin hoort bij deze prent?",
+     "opties": [
+      "De kat zit.",
+      "De kat vliegt.",
+      "De kat leest.",
+      "De kat rijdt."
+     ],
+     "antwoord": 0,
+     "uitleg": "De kat zit rechtop.",
+     "afbeelding_pad": "/examenvormen/launchpad/lezen-kat-zit.webp"
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De bus rijdt.",
+     "antwoord": false,
+     "uitleg": "Op de prent zie je een trein.",
+     "afbeelding_pad": "/examenvormen/launchpad/lezen-trein.webp"
+    }
+   ]
+  }
+ ]
+}

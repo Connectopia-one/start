@@ -1,0 +1,482 @@
+{
+ "hoofdstukken": [
+  {
+   "titel": "Verhaaltjes begrijpen — deel 1",
+   "niveau": "launchpad",
+   "korte_uitleg": "Een kort verhaaltje lezen of laten voorlezen.",
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "'Sara gaat naar het park met haar hond Max. Max rent achter een bal. Daarna drinken ze water.' Wie gaat naar het park?",
+     "opties": [
+      "Sara",
+      "Ben",
+      "mama",
+      "Max alleen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Sara gaat met haar hond."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "'Sara gaat naar het park met haar hond Max. Max rent achter een bal. Daarna drinken ze water.' Hoe heet de hond?",
+     "opties": [
+      "Sara",
+      "Max",
+      "Bobby",
+      "Rex"
+     ],
+     "antwoord": 1,
+     "uitleg": "De hond heet Max."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "'Sara gaat naar het park met haar hond Max. Max rent achter een bal. Daarna drinken ze water.' Waar rent Max achter?",
+     "opties": [
+      "een kat",
+      "een fiets",
+      "een bal",
+      "een vogel"
+     ],
+     "antwoord": 2,
+     "uitleg": "Max rent achter een bal."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "'Sara gaat naar het park met haar hond Max. Max rent achter een bal. Daarna drinken ze water.' Wat doen ze op het einde?",
+     "opties": [
+      "slapen",
+      "eten",
+      "zwemmen",
+      "water drinken"
+     ],
+     "antwoord": 3,
+     "uitleg": "Daarna drinken ze water."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'Sara gaat naar het park met haar hond Max. Max rent achter een bal. Daarna drinken ze water.' Sara gaat naar de zee.",
+     "antwoord": false,
+     "uitleg": "Sara gaat naar het park."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'Sara gaat naar het park met haar hond Max. Max rent achter een bal. Daarna drinken ze water.' Max is een hond.",
+     "antwoord": true,
+     "uitleg": "Haar hond Max."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "'Het sneeuwt. Ben maakt een sneeuwman. Hij zet er een wortel op als neus.' Welk weer is het?",
+     "opties": [
+      "het sneeuwt",
+      "het regent",
+      "de zon schijnt",
+      "het waait"
+     ],
+     "antwoord": 0,
+     "uitleg": "Er staat: het sneeuwt."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "'Het sneeuwt. Ben maakt een sneeuwman. Hij zet er een wortel op als neus.' Wat maakt Ben?",
+     "opties": [
+      "een zandkasteel",
+      "een sneeuwman",
+      "een tekening",
+      "een taart"
+     ],
+     "antwoord": 1,
+     "uitleg": "Ben maakt een sneeuwman."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "'Het sneeuwt. Ben maakt een sneeuwman. Hij zet er een wortel op als neus.' Wat gebruikt Ben als neus?",
+     "opties": [
+      "een appel",
+      "een steen",
+      "een wortel",
+      "een tak"
+     ],
+     "antwoord": 2,
+     "uitleg": "Een wortel als neus."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'Het sneeuwt. Ben maakt een sneeuwman. Hij zet er een wortel op als neus.' Het is zomer.",
+     "antwoord": false,
+     "uitleg": "Het sneeuwt, dus het is winter."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'Het sneeuwt. Ben maakt een sneeuwman. Hij zet er een wortel op als neus.' De sneeuwman krijgt een neus.",
+     "antwoord": true,
+     "uitleg": "Een wortel als neus."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Lies valt van haar fiets. Ze heeft pijn aan haar knie. Hoe voelt Lies zich?",
+     "opties": [
+      "blij",
+      "boos op de fiets",
+      "moe",
+      "verdrietig"
+     ],
+     "antwoord": 3,
+     "uitleg": "Als je valt en pijn hebt, ben je verdrietig."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Tim krijgt een cadeau voor zijn verjaardag. Hoe voelt Tim zich?",
+     "opties": [
+      "blij",
+      "bang",
+      "verdrietig",
+      "boos"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een cadeau maakt je blij."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Het onweert. Mila kruipt onder haar deken. Hoe voelt Mila zich?",
+     "opties": [
+      "blij",
+      "bang",
+      "moe",
+      "trots"
+     ],
+     "antwoord": 1,
+     "uitleg": "Onder de deken kruipen doe je als je bang bent."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Als iemand huilt, is die vaak verdrietig.",
+     "antwoord": true,
+     "uitleg": "Huilen doe je vaak als je verdrietig bent."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Als iemand lacht, is die boos.",
+     "antwoord": false,
+     "uitleg": "Lachen doe je als je blij bent."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Luisteren doe je met je oren.",
+     "antwoord": true,
+     "uitleg": "Je oren horen wat iemand vertelt."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Als iemand iets vertelt, praat je er het best door.",
+     "antwoord": false,
+     "uitleg": "Je luistert eerst, dan mag jij iets zeggen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waar gaat een verhaal over een kasteel en een draak meestal over?",
+     "opties": [
+      "een recept",
+      "het weerbericht",
+      "een sprookje",
+      "een boodschappenlijstje"
+     ],
+     "antwoord": 2,
+     "uitleg": "Kastelen en draken vind je in sprookjes."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat staat op de voorkant van een boek?",
+     "opties": [
+      "het einde",
+      "de laatste bladzijde",
+      "het nummer van de bladzijde",
+      "de titel"
+     ],
+     "antwoord": 3,
+     "uitleg": "Op de voorkant staat de titel."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat gebeurt er op het einde van dit verhaal?",
+     "opties": [
+      "Het kind rolt een sneeuwbal.",
+      "Het sneeuwt nog niet.",
+      "Het kind gaat zwemmen.",
+      "De sneeuwman is af."
+     ],
+     "antwoord": 3,
+     "uitleg": "Eerst rolt het kind een bal, dan zet het er een tweede op, en op het einde is de sneeuwman af.",
+     "afbeelding_pad": "/examenvormen/launchpad/verhaal-sneeuwman.webp"
+    },
+    {
+     "type": "invultekst",
+     "vraag": "De prentjes staan door elkaar. Welk prentje komt eerst? Schrijf de letter.",
+     "antwoord": [
+      "C",
+      "c"
+     ],
+     "uitleg": "Eerst rolt het kind een grote sneeuwbal: prentje C.",
+     "afbeelding_pad": "/examenvormen/launchpad/verhaal-sneeuwman-door-elkaar.webp"
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe voelt het kind zich?",
+     "opties": [
+      "blij",
+      "bang",
+      "verdrietig",
+      "boos"
+     ],
+     "antwoord": 0,
+     "uitleg": "Het kind lacht en springt in de plas: het is blij.",
+     "afbeelding_pad": "/examenvormen/launchpad/verhaal-plas.webp"
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Op de prent troost een kind een ander kind dat gevallen is.",
+     "antwoord": true,
+     "uitleg": "De jongen zit bij het meisje dat gevallen is en troost haar.",
+     "afbeelding_pad": "/examenvormen/launchpad/verhaal-troosten.webp"
+    }
+   ]
+  },
+  {
+   "titel": "Verhaaltjes begrijpen — deel 2",
+   "niveau": "launchpad",
+   "korte_uitleg": "Wat gebeurt eerst, wat daarna en wat op het einde?",
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Je gaat buiten spelen. Wat gebeurt eerst?",
+     "opties": [
+      "Je trekt je jas aan.",
+      "Je gaat naar buiten.",
+      "Je speelt in de tuin.",
+      "Je komt terug binnen."
+     ],
+     "antwoord": 0,
+     "uitleg": "Eerst je jas aan, dan naar buiten."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Er groeit een bloem. Wat gebeurt eerst?",
+     "opties": [
+      "Er komt een bloem.",
+      "Je plant een zaadje.",
+      "Er groeit een plantje.",
+      "Je plukt de bloem."
+     ],
+     "antwoord": 1,
+     "uitleg": "Eerst het zaadje, dan het plantje, dan de bloem."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Het is avond. Wat gebeurt eerst?",
+     "opties": [
+      "Je slaapt.",
+      "Je wordt wakker.",
+      "Je doet je pyjama aan.",
+      "Je ontbijt."
+     ],
+     "antwoord": 2,
+     "uitleg": "Pyjama aan, slapen, wakker worden, ontbijten."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je bakt een taart. Wat gebeurt op het einde?",
+     "opties": [
+      "Je mengt bloem en eieren.",
+      "Je bakt de taart.",
+      "Je zet de taart in de oven.",
+      "Je eet de taart op."
+     ],
+     "antwoord": 3,
+     "uitleg": "Eerst maken en bakken, op het einde opeten."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Een kip legt een ei. Wat gebeurt op het einde?",
+     "opties": [
+      "Uit het ei komt een kuiken.",
+      "De kip legt een ei.",
+      "De kip zit op het ei.",
+      "Het ei wordt warm gehouden."
+     ],
+     "antwoord": 0,
+     "uitleg": "Eerst het ei, op het einde het kuiken."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat gebeurt in het midden? Eerst: je vult het bad. Op het einde: je droogt je af.",
+     "opties": [
+      "Je gaat slapen.",
+      "Je neemt een bad.",
+      "Je kleedt je aan.",
+      "Je eet."
+     ],
+     "antwoord": 1,
+     "uitleg": "Bad vullen, in bad gaan, afdrogen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat gebeurt in het midden? Eerst: het sneeuwt. Op het einde: de sneeuwman smelt.",
+     "opties": [
+      "De zon gaat onder.",
+      "Het regent.",
+      "Je maakt een sneeuwman.",
+      "Je gaat zwemmen."
+     ],
+     "antwoord": 2,
+     "uitleg": "Sneeuw, sneeuwman maken, smelten."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk woord gebruik je voor wat eerst gebeurt?",
+     "opties": [
+      "daarna",
+      "op het einde",
+      "toen pas",
+      "eerst"
+     ],
+     "antwoord": 3,
+     "uitleg": "Eerst, daarna, op het einde."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Eerst doe je je schoenen aan, daarna je sokken.",
+     "antwoord": false,
+     "uitleg": "Eerst je sokken, daarna je schoenen."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Eerst was je je handen, daarna eet je.",
+     "antwoord": true,
+     "uitleg": "Voor het eten was je je handen."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een kuiken komt uit een ei.",
+     "antwoord": true,
+     "uitleg": "Een kip legt een ei en daaruit komt een kuiken."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een bloem komt voor het zaadje.",
+     "antwoord": false,
+     "uitleg": "Eerst is er een zaadje, dan groeit de bloem."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'Op het einde' vertelt wat als laatste gebeurt.",
+     "antwoord": true,
+     "uitleg": "Bijvoorbeeld: op het einde gaat iedereen naar huis."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'Daarna' vertelt wat eerst gebeurt.",
+     "antwoord": false,
+     "uitleg": "Daarna vertelt wat erna komt."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Een verhaal heeft een begin, een midden en een einde. Hoeveel delen is dat? ___",
+     "antwoord": "3",
+     "uitleg": "Begin, midden en einde."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Mama zegt: 'Ruim eerst je speelgoed op, dan mag je tv kijken.' Wat doe je eerst?",
+     "opties": [
+      "speelgoed opruimen",
+      "tv kijken",
+      "slapen",
+      "buiten spelen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Eerst opruimen, dan tv."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "De juf zegt: 'Neem je schrift en schrijf je naam.' Wat neem je eerst?",
+     "opties": [
+      "je jas",
+      "je schrift",
+      "je boterhammen",
+      "je fiets"
+     ],
+     "antwoord": 1,
+     "uitleg": "Eerst het schrift, dan je naam schrijven."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat doet iemand die goed luistert?",
+     "opties": [
+      "Die praat er door.",
+      "Die speelt met iets anders.",
+      "Die kijkt naar wie praat.",
+      "Die loopt weg."
+     ],
+     "antwoord": 2,
+     "uitleg": "Goed luisteren: stil zijn en kijken naar wie praat."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Je kan een verhaal navertellen in de goede volgorde.",
+     "antwoord": true,
+     "uitleg": "Eerst het begin, dan het midden, dan het einde."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Bij een verhaal maakt de volgorde niets uit.",
+     "antwoord": false,
+     "uitleg": "Als je de volgorde verandert, klopt het verhaal niet meer."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat zie je op het laatste prentje?",
+     "opties": [
+      "een ei",
+      "een kuiken",
+      "een kip",
+      "een leeg nest"
+     ],
+     "antwoord": 1,
+     "uitleg": "Eerst een ei, dan een barst, en op het einde een kuiken.",
+     "afbeelding_pad": "/examenvormen/launchpad/verhaal-kuiken.webp"
+    },
+    {
+     "type": "invultekst",
+     "vraag": "De prentjes staan door elkaar. Welk prentje toont het begin van het verhaal? Schrijf de letter.",
+     "antwoord": [
+      "B",
+      "b"
+     ],
+     "uitleg": "Het verhaal begint met een heel ei: prentje B.",
+     "afbeelding_pad": "/examenvormen/launchpad/verhaal-kuiken-door-elkaar.webp"
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Het kind op de prent slaapt.",
+     "antwoord": false,
+     "uitleg": "Het kind leest een boek in de zetel.",
+     "afbeelding_pad": "/examenvormen/launchpad/verhaal-lezen.webp"
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat doet de mama?",
+     "opties": [
+      "Ze leest een boek.",
+      "Ze fietst.",
+      "Ze kookt soep.",
+      "Ze slaapt."
+     ],
+     "antwoord": 2,
+     "uitleg": "Ze roert in een pot soep.",
+     "afbeelding_pad": "/examenvormen/launchpad/verhaal-koken.webp"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,469 @@
+{
+ "hoofdstukken": [
+  {
+   "titel": "Dieren en planten — deel 1",
+   "niveau": "launchpad",
+   "korte_uitleg": "Huisdieren, boerderijdieren en wilde dieren.",
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk dier geeft melk?",
+     "opties": [
+      "de koe",
+      "de kip",
+      "het varken",
+      "de eend"
+     ],
+     "antwoord": 0,
+     "uitleg": "Koeien geven melk."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk dier legt eieren?",
+     "opties": [
+      "de koe",
+      "de kip",
+      "het paard",
+      "de hond"
+     ],
+     "antwoord": 1,
+     "uitleg": "Kippen leggen eieren."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk dier geeft wol?",
+     "opties": [
+      "de koe",
+      "de kip",
+      "het schaap",
+      "de geit"
+     ],
+     "antwoord": 2,
+     "uitleg": "Van de wol van een schaap maak je truien."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk dier is een huisdier?",
+     "opties": [
+      "een leeuw",
+      "een olifant",
+      "een wolf",
+      "een kat"
+     ],
+     "antwoord": 3,
+     "uitleg": "Een kat woont bij mensen thuis."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waar woont een vis?",
+     "opties": [
+      "in het water",
+      "in de lucht",
+      "in een nest in de boom",
+      "onder de grond"
+     ],
+     "antwoord": 0,
+     "uitleg": "Vissen zwemmen in het water."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waar woont een vogel vaak?",
+     "opties": [
+      "in een hol in het water",
+      "in een nest",
+      "in een kooi op de bodem van de zee",
+      "in een stal met koeien"
+     ],
+     "antwoord": 1,
+     "uitleg": "Veel vogels bouwen een nest."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat eet een konijn graag?",
+     "opties": [
+      "vlees",
+      "vis",
+      "wortels en sla",
+      "chocolade"
+     ],
+     "antwoord": 2,
+     "uitleg": "Konijnen eten planten."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk dier woont in het bos?",
+     "opties": [
+      "een koe",
+      "een kip",
+      "een goudvis",
+      "een vos"
+     ],
+     "antwoord": 3,
+     "uitleg": "Vossen leven in het wild, in het bos."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk dier heeft veren?",
+     "opties": [
+      "een eend",
+      "een hond",
+      "een vis",
+      "een koe"
+     ],
+     "antwoord": 0,
+     "uitleg": "Vogels hebben veren."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk dier heeft schubben?",
+     "opties": [
+      "een kat",
+      "een vis",
+      "een kip",
+      "een paard"
+     ],
+     "antwoord": 1,
+     "uitleg": "Een vis heeft schubben."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een hond is een huisdier.",
+     "antwoord": true,
+     "uitleg": "Veel mensen hebben een hond thuis."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een vis kan vliegen.",
+     "antwoord": false,
+     "uitleg": "Een vis zwemt in het water."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een koe woont op de boerderij.",
+     "antwoord": true,
+     "uitleg": "Koeien leven op de boerderij en in de wei."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een leeuw is een huisdier.",
+     "antwoord": false,
+     "uitleg": "Een leeuw is een wild dier."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een jong van een kip heet een kuiken.",
+     "antwoord": true,
+     "uitleg": "Uit het ei komt een kuiken."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een jong van een koe heet een veulen.",
+     "antwoord": false,
+     "uitleg": "Een jong van een koe is een kalf. Een veulen is een jong paard."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoeveel poten heeft een hond? ___",
+     "antwoord": "4",
+     "uitleg": "Een hond heeft 4 poten."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoeveel poten heeft een vogel? ___",
+     "antwoord": "2",
+     "uitleg": "Een vogel heeft 2 poten."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoeveel poten heeft een spin? ___",
+     "antwoord": "8",
+     "uitleg": "Een spin heeft 8 poten."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat moet je doen voor je huisdier?",
+     "opties": [
+      "het alleen laten",
+      "het nooit eten geven",
+      "eten, water en aandacht geven",
+      "het hard knuffelen tot het pijn doet"
+     ],
+     "antwoord": 2,
+     "uitleg": "Een huisdier heeft zorg nodig."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoeveel kuikens zie je bij de kip?",
+     "antwoord": "3",
+     "uitleg": "Er lopen 3 kuikens bij de kip.",
+     "afbeelding_pad": "/examenvormen/launchpad/dieren-kip-kuikens.webp"
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk dier zie je?",
+     "opties": [
+      "een muis",
+      "een vos",
+      "een egel",
+      "een eekhoorn"
+     ],
+     "antwoord": 2,
+     "uitleg": "Een egel heeft stekels.",
+     "afbeelding_pad": "/examenvormen/launchpad/dieren-egel.webp"
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Dit dier woont bij het water.",
+     "antwoord": true,
+     "uitleg": "Een kikker woont in en bij het water.",
+     "afbeelding_pad": "/examenvormen/launchpad/dieren-kikker.webp"
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe heet het jonge dier naast de koe?",
+     "opties": [
+      "een veulen",
+      "een lam",
+      "een kuiken",
+      "een kalf"
+     ],
+     "antwoord": 3,
+     "uitleg": "Het jong van een koe is een kalf.",
+     "afbeelding_pad": "/examenvormen/launchpad/dieren-koe-kalf.webp"
+    }
+   ]
+  },
+  {
+   "titel": "Dieren en planten — deel 2",
+   "niveau": "launchpad",
+   "korte_uitleg": "Wat een plant nodig heeft om te groeien.",
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat heeft een plant nodig om te groeien?",
+     "opties": [
+      "snoep en zand",
+      "enkel een donkere plek",
+      "een laagje plastic",
+      "water en licht"
+     ],
+     "antwoord": 3,
+     "uitleg": "Planten hebben water, licht en lucht nodig."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk deel van de plant zit onder de grond?",
+     "opties": [
+      "de wortel",
+      "de bloem",
+      "het blad",
+      "de stengel"
+     ],
+     "antwoord": 0,
+     "uitleg": "De wortel zit in de grond en drinkt water."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk deel van de plant is vaak gekleurd en ruikt lekker?",
+     "opties": [
+      "de wortel",
+      "de bloem",
+      "de stengel",
+      "het zaadje"
+     ],
+     "antwoord": 1,
+     "uitleg": "Bloemen hebben mooie kleuren."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waaruit groeit een nieuwe plant?",
+     "opties": [
+      "een steentje",
+      "een blaadje plastic",
+      "een zaadje",
+      "een druppel melk"
+     ],
+     "antwoord": 2,
+     "uitleg": "Uit een zaadje groeit een plantje."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk deel van de plant houdt de bloem omhoog?",
+     "opties": [
+      "de wortel",
+      "de grond",
+      "de pot",
+      "de stengel"
+     ],
+     "antwoord": 3,
+     "uitleg": "De stengel is als een rietje en houdt de bloem recht."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke kleur hebben de meeste blaadjes in de zomer?",
+     "opties": [
+      "groen",
+      "blauw",
+      "zwart",
+      "paars"
+     ],
+     "antwoord": 0,
+     "uitleg": "In de zomer zijn bladeren groen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat groeit aan een appelboom?",
+     "opties": [
+      "peren",
+      "appels",
+      "bananen",
+      "aardappelen"
+     ],
+     "antwoord": 1,
+     "uitleg": "Aan een appelboom groeien appels."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk dier helpt bloemen door van bloem naar bloem te vliegen?",
+     "opties": [
+      "de vis",
+      "de koe",
+      "de bij",
+      "de slak"
+     ],
+     "antwoord": 2,
+     "uitleg": "Bijen brengen stuifmeel van bloem naar bloem."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een plant zonder water verdort.",
+     "antwoord": true,
+     "uitleg": "Zonder water gaat een plant dood."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een plant groeit het best in een donkere kast.",
+     "antwoord": false,
+     "uitleg": "Een plant heeft licht nodig."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De wortel drinkt water uit de grond.",
+     "antwoord": true,
+     "uitleg": "De wortels zuigen water op."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een boom is geen plant.",
+     "antwoord": false,
+     "uitleg": "Een boom is een grote plant."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Uit een zaadje kan een bloem groeien.",
+     "antwoord": true,
+     "uitleg": "Zaadje, plantje, bloem."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Bloemen groeien uit stenen.",
+     "antwoord": false,
+     "uitleg": "Bloemen groeien uit zaadjes."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Bijen maken honing.",
+     "antwoord": true,
+     "uitleg": "Bijen maken honing van wat ze uit bloemen halen."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Alle planten hebben bloemen.",
+     "antwoord": false,
+     "uitleg": "Gras en varens hebben geen gewone bloemen."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoeveel delen van een plant kennen we: wortel, stengel, blad en bloem? ___",
+     "antwoord": "4",
+     "uitleg": "Wortel, stengel, blad en bloem."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat doe je om een plant in de klas te laten groeien?",
+     "opties": [
+      "in een donkere kast zetten en vergeten",
+      "nooit water geven",
+      "alle blaadjes eraf knippen",
+      "water geven en bij het raam zetten"
+     ],
+     "antwoord": 3,
+     "uitleg": "Water en licht."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat eet een rups?",
+     "opties": [
+      "blaadjes",
+      "vlees",
+      "brood met kaas",
+      "zand"
+     ],
+     "antwoord": 0,
+     "uitleg": "Rupsen eten bladeren."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat wordt een rups later?",
+     "opties": [
+      "een bij",
+      "een vlinder",
+      "een spin",
+      "een vogel"
+     ],
+     "antwoord": 1,
+     "uitleg": "Een rups wordt een pop en dan een vlinder."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat wordt een kikkervisje later?",
+     "opties": [
+      "een kikker",
+      "een vis",
+      "een eend",
+      "een slak"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een kikkervisje krijgt pootjes en wordt een kikker.",
+     "afbeelding_pad": "/examenvormen/launchpad/dieren-kikkervisje.webp"
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk deel van deze plant is geel?",
+     "opties": [
+      "de wortel",
+      "de bloem",
+      "de stengel"
+     ],
+     "antwoord": 1,
+     "uitleg": "De grote gele bloem van de zonnebloem.",
+     "afbeelding_pad": "/examenvormen/launchpad/dieren-zonnebloem.webp"
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De pijl wijst naar de bloem.",
+     "antwoord": false,
+     "uitleg": "De pijl wijst naar de wortel, onder de grond.",
+     "afbeelding_pad": "/examenvormen/ready/planten-pijl-wortel.webp"
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een vlinder was eerst een rups.",
+     "antwoord": true,
+     "uitleg": "Een rups wordt een pop en dan een vlinder.",
+     "afbeelding_pad": "/examenvormen/launchpad/dieren-rups-vlinder.webp"
+    }
+   ]
+  }
+ ]
+}

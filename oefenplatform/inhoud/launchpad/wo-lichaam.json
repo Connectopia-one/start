@@ -1,0 +1,461 @@
+{
+ "hoofdstukken": [
+  {
+   "titel": "Mijn lichaam en gezond leven — deel 1",
+   "niveau": "launchpad",
+   "korte_uitleg": "De delen van je lichaam en je vijf zintuigen.",
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarmee kijk je?",
+     "opties": [
+      "met je ogen",
+      "met je oren",
+      "met je neus",
+      "met je tong"
+     ],
+     "antwoord": 0,
+     "uitleg": "Je ogen zien."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarmee hoor je?",
+     "opties": [
+      "met je ogen",
+      "met je oren",
+      "met je handen",
+      "met je mond"
+     ],
+     "antwoord": 1,
+     "uitleg": "Je oren horen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarmee ruik je?",
+     "opties": [
+      "met je oren",
+      "met je voeten",
+      "met je neus",
+      "met je ogen"
+     ],
+     "antwoord": 2,
+     "uitleg": "Je neus ruikt."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarmee proef je?",
+     "opties": [
+      "met je neus",
+      "met je oren",
+      "met je knie",
+      "met je tong"
+     ],
+     "antwoord": 3,
+     "uitleg": "Je tong proeft zoet, zout en zuur."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarmee voel je of iets zacht is?",
+     "opties": [
+      "met je huid",
+      "met je oren",
+      "met je haren",
+      "met je tanden"
+     ],
+     "antwoord": 0,
+     "uitleg": "Met je huid voel je, vooral met je vingers."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waar zit je knie?",
+     "opties": [
+      "in je arm",
+      "in je been",
+      "in je hoofd",
+      "in je buik"
+     ],
+     "antwoord": 1,
+     "uitleg": "Je knie zit in het midden van je been."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waar zit je elleboog?",
+     "opties": [
+      "in je been",
+      "in je nek",
+      "in je arm",
+      "in je voet"
+     ],
+     "antwoord": 2,
+     "uitleg": "Je elleboog zit in het midden van je arm."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat zit in je mond?",
+     "opties": [
+      "je tenen",
+      "je ogen",
+      "je nagels van je voeten",
+      "je tanden"
+     ],
+     "antwoord": 3,
+     "uitleg": "In je mond zitten tanden en je tong."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoeveel zintuigen heb je? ___",
+     "antwoord": "5",
+     "uitleg": "Zien, horen, ruiken, proeven en voelen."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoeveel vingers heb je aan één hand? ___",
+     "antwoord": "5",
+     "uitleg": "Duim, wijsvinger, middelvinger, ringvinger en pink."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoeveel tenen heb je samen aan je twee voeten? ___",
+     "antwoord": "10",
+     "uitleg": "5 + 5 = 10."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Je hart klopt in je borst.",
+     "antwoord": true,
+     "uitleg": "Je hart zit in je borst en pompt je bloed rond."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Met je oren kan je zien.",
+     "antwoord": false,
+     "uitleg": "Met je oren hoor je. Zien doe je met je ogen."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Je duim is een vinger.",
+     "antwoord": true,
+     "uitleg": "De duim is je dikste vinger."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Je enkel zit in je arm.",
+     "antwoord": false,
+     "uitleg": "Je enkel zit tussen je been en je voet."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Je longen helpen je ademen.",
+     "antwoord": true,
+     "uitleg": "Lucht gaat je longen in en uit."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Je tong proeft of iets zoet is.",
+     "antwoord": true,
+     "uitleg": "Je tong proeft zoet, zuur en zout."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Je neus gebruik je om te praten.",
+     "antwoord": false,
+     "uitleg": "Praten doe je met je mond. Je neus ruikt."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk zintuig gebruik je als je naar muziek luistert?",
+     "opties": [
+      "horen",
+      "ruiken",
+      "proeven",
+      "zien"
+     ],
+     "antwoord": 0,
+     "uitleg": "Muziek hoor je met je oren."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk zintuig gebruik je bij een bloem die lekker ruikt?",
+     "opties": [
+      "horen",
+      "ruiken",
+      "proeven",
+      "voelen"
+     ],
+     "antwoord": 1,
+     "uitleg": "Een geur ruik je met je neus."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoeveel vingers zie je?",
+     "antwoord": "5",
+     "uitleg": "Duim, wijsvinger, middelvinger, ringvinger en pink: 5.",
+     "afbeelding_pad": "/examenvormen/launchpad/lichaam-hand.webp"
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat doet het kind?",
+     "opties": [
+      "haren kammen",
+      "tanden poetsen",
+      "handen wassen",
+      "eten"
+     ],
+     "antwoord": 1,
+     "uitleg": "Het kind poetst zijn tanden voor de spiegel.",
+     "afbeelding_pad": "/examenvormen/launchpad/lichaam-tanden.webp"
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Hier worden handen gewassen met zeep.",
+     "antwoord": true,
+     "uitleg": "Handen wassen met zeep onder de kraan.",
+     "afbeelding_pad": "/examenvormen/launchpad/lichaam-handen.webp"
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk zintuig hoort bij dit lichaamsdeel?",
+     "opties": [
+      "horen",
+      "ruiken",
+      "zien",
+      "proeven"
+     ],
+     "antwoord": 2,
+     "uitleg": "Met je ogen zie je.",
+     "afbeelding_pad": "/examenvormen/launchpad/lichaam-oog.webp"
+    }
+   ]
+  },
+  {
+   "titel": "Mijn lichaam en gezond leven — deel 2",
+   "niveau": "launchpad",
+   "korte_uitleg": "Gezond eten, bewegen, slapen en proper blijven.",
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is een gezond tussendoortje?",
+     "opties": [
+      "chips",
+      "een snoepje",
+      "een appel",
+      "frisdrank"
+     ],
+     "antwoord": 2,
+     "uitleg": "Fruit is gezond."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat drink je het best als je dorst hebt?",
+     "opties": [
+      "frisdrank",
+      "limonade",
+      "chocolademelk",
+      "water"
+     ],
+     "antwoord": 3,
+     "uitleg": "Water is het gezondst."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wanneer was je je handen?",
+     "opties": [
+      "voor het eten en na het toilet",
+      "enkel op zondag",
+      "nooit",
+      "enkel als ze zwart zijn"
+     ],
+     "antwoord": 0,
+     "uitleg": "Zo blijven je handen proper en word je minder ziek."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe vaak poets je je tanden?",
+     "opties": [
+      "één keer per week",
+      "'s morgens en 's avonds",
+      "nooit",
+      "enkel als ze pijn doen"
+     ],
+     "antwoord": 1,
+     "uitleg": "Twee keer per dag poetsen houdt je tanden gezond."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom ga je op tijd slapen?",
+     "opties": [
+      "zodat je honger krijgt",
+      "zodat je ziek wordt",
+      "zodat je uitgerust bent",
+      "omdat het moet van de tv"
+     ],
+     "antwoord": 2,
+     "uitleg": "Slaap geeft je lichaam rust."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is goed bewegen?",
+     "opties": [
+      "de hele dag tv kijken",
+      "lang op de bank liggen",
+      "de hele dag gamen",
+      "buiten spelen"
+     ],
+     "antwoord": 3,
+     "uitleg": "Lopen, fietsen en spelen houden je fit."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke groente is oranje?",
+     "opties": [
+      "een wortel",
+      "een tomaat",
+      "een komkommer",
+      "een bloemkool"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een wortel is oranje."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat doe je als je hoest?",
+     "opties": [
+      "recht naar iemand hoesten",
+      "je hand of elleboog voor je mond",
+      "niets doen",
+      "hard roepen"
+     ],
+     "antwoord": 1,
+     "uitleg": "Zo geef je je bacteriën niet door."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Groenten en fruit zijn gezond.",
+     "antwoord": true,
+     "uitleg": "Ze zitten vol goede stoffen voor je lichaam."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Elke dag veel snoep eten is gezond.",
+     "antwoord": false,
+     "uitleg": "Snoep is lekker, maar niet gezond. Af en toe mag."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Na het spelen met zand was je best je handen.",
+     "antwoord": true,
+     "uitleg": "Zo komt er geen vuil in je mond."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Je hoeft je tanden niet te poetsen als je geen snoep eet.",
+     "antwoord": false,
+     "uitleg": "Je poetst altijd, 's morgens en 's avonds."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Bewegen maakt je spieren sterk.",
+     "antwoord": true,
+     "uitleg": "Door te bewegen worden je spieren sterker."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Kinderen hebben maar een paar uur slaap nodig.",
+     "antwoord": false,
+     "uitleg": "Kinderen hebben ongeveer 10 tot 12 uur slaap nodig."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Water drinken is goed voor je lichaam.",
+     "antwoord": true,
+     "uitleg": "Je lichaam heeft elke dag water nodig."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Je mag je tandenborstel delen met een vriendje.",
+     "antwoord": false,
+     "uitleg": "Je tandenborstel is enkel van jou."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoeveel keer per dag poets je je tanden? ___",
+     "antwoord": "2",
+     "uitleg": "'s Morgens en 's avonds."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat eet je het best als ontbijt?",
+     "opties": [
+      "een zak chips",
+      "een stuk taart",
+      "een boterham met kaas",
+      "een lolly"
+     ],
+     "antwoord": 2,
+     "uitleg": "Brood geeft je energie voor de hele ochtend."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat neem je mee naar school als gezond drankje?",
+     "opties": [
+      "een blikje cola",
+      "een energiedrankje",
+      "een flesje limonade",
+      "een fles water"
+     ],
+     "antwoord": 3,
+     "uitleg": "Water is het beste drankje."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom draag je een muts in de winter?",
+     "opties": [
+      "om warm te blijven",
+      "om beter te horen",
+      "om sneller te lopen",
+      "om je haar te wassen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een muts houdt je hoofd warm."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "In het mandje zitten snoepjes.",
+     "antwoord": false,
+     "uitleg": "In het mandje zitten groenten: wortels, tomaten, broccoli en komkommer.",
+     "afbeelding_pad": "/examenvormen/launchpad/lichaam-groenten.webp"
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat zie je op de prent?",
+     "opties": [
+      "een kind dat eet",
+      "een kind dat zwemt",
+      "een kind dat fietst",
+      "een kind dat slaapt"
+     ],
+     "antwoord": 3,
+     "uitleg": "Het kind slaapt in bed met zijn knuffel.",
+     "afbeelding_pad": "/examenvormen/launchpad/lichaam-slapen.webp"
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welk tussendoortje is gezond? Schrijf de letter.",
+     "antwoord": [
+      "C",
+      "c"
+     ],
+     "uitleg": "De appel (C) is gezond. Chips, een lolly en frisdrank niet.",
+     "afbeelding_pad": "/examenvormen/ready/lichaam-tussendoortje.webp"
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Het kind draagt een fietshelm.",
+     "antwoord": true,
+     "uitleg": "Een fietshelm beschermt je hoofd.",
+     "afbeelding_pad": "/examenvormen/launchpad/lichaam-fietshelm.webp"
+    }
+   ]
+  }
+ ]
+}

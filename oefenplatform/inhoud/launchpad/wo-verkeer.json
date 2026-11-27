@@ -1,0 +1,464 @@
+{
+ "hoofdstukken": [
+  {
+   "titel": "Verkeer en veilig zijn — deel 1",
+   "niveau": "launchpad",
+   "korte_uitleg": "Veilig stappen en oversteken.",
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Waar stap je als voetganger?",
+     "opties": [
+      "op het voetpad",
+      "op de rijbaan",
+      "op het fietspad",
+      "midden op de straat"
+     ],
+     "antwoord": 0,
+     "uitleg": "Het voetpad is voor voetgangers."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waar steek je het best over?",
+     "opties": [
+      "tussen geparkeerde auto's",
+      "op het zebrapad",
+      "in een bocht",
+      "achter een bus"
+     ],
+     "antwoord": 1,
+     "uitleg": "Op het zebrapad zien de chauffeurs je."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat doe je voor je oversteekt?",
+     "opties": [
+      "snel lopen zonder kijken",
+      "je ogen sluiten",
+      "links, rechts en nog eens links kijken",
+      "op je gsm kijken"
+     ],
+     "antwoord": 2,
+     "uitleg": "Kijk goed of er niets aankomt."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Het voetgangerslicht is rood. Wat doe je?",
+     "opties": [
+      "oversteken",
+      "lopen",
+      "rennen",
+      "wachten"
+     ],
+     "antwoord": 3,
+     "uitleg": "Bij rood wacht je."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Het voetgangerslicht is groen. Wat doe je?",
+     "opties": [
+      "goed kijken en dan oversteken",
+      "blijven staan",
+      "terug naar huis gaan",
+      "gaan zitten"
+     ],
+     "antwoord": 0,
+     "uitleg": "Ook bij groen kijk je eerst."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarom draag je een fluohesje?",
+     "opties": [
+      "omdat het warm is",
+      "zodat je goed gezien wordt",
+      "omdat het mooi is bij regen",
+      "om sneller te gaan"
+     ],
+     "antwoord": 1,
+     "uitleg": "Fluo valt op, ook in het donker."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wie helpt kinderen oversteken aan school?",
+     "opties": [
+      "de bakker",
+      "de postbode",
+      "de gemachtigde opzichter",
+      "de dokter"
+     ],
+     "antwoord": 2,
+     "uitleg": "Een gemachtigde opzichter houdt het verkeer tegen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat betekent een rood verkeerslicht voor auto's?",
+     "opties": [
+      "sneller rijden",
+      "toeteren",
+      "draaien",
+      "stoppen"
+     ],
+     "antwoord": 3,
+     "uitleg": "Rood betekent stop."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Je steekt over tussen geparkeerde auto's.",
+     "antwoord": false,
+     "uitleg": "Daar zien de chauffeurs je niet. Steek over op het zebrapad."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Bij een rood licht wacht je.",
+     "antwoord": true,
+     "uitleg": "Rood = wachten."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "In het donker zie je een fluohesje goed.",
+     "antwoord": true,
+     "uitleg": "Fluo en reflecterende strepen vallen op."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Je speelt best met een bal op de straat.",
+     "antwoord": false,
+     "uitleg": "Op straat rijden auto's. Speel in de tuin of op een speelplein."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een zebrapad heeft witte strepen.",
+     "antwoord": true,
+     "uitleg": "Witte strepen op de weg, zoals een zebra."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Je kijkt alleen naar links voor je oversteekt.",
+     "antwoord": false,
+     "uitleg": "Je kijkt links, rechts en nog eens links."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Met een volwassene aan de hand stappen is veiliger.",
+     "antwoord": true,
+     "uitleg": "Kleine kinderen geven een volwassene een hand in het verkeer."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Oranje licht betekent: snel nog oversteken.",
+     "antwoord": false,
+     "uitleg": "Oranje betekent: opletten, het licht wordt rood."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoeveel kleuren heeft een verkeerslicht voor auto's? ___",
+     "antwoord": "3",
+     "uitleg": "Rood, oranje en groen."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoeveel kleuren heeft het voetgangerslicht? ___",
+     "antwoord": "2",
+     "uitleg": "Rood en groen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke kleur heeft een fluohesje vaak?",
+     "opties": [
+      "fluogeel",
+      "zwart",
+      "donkerblauw",
+      "bruin"
+     ],
+     "antwoord": 0,
+     "uitleg": "Fluogeel of fluo-oranje valt op."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat zie je bij een zebrapad?",
+     "opties": [
+      "een rode muur",
+      "witte strepen op de weg",
+      "een groen gazon",
+      "een zandbak"
+     ],
+     "antwoord": 1,
+     "uitleg": "Witte strepen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waar steken ze over?",
+     "opties": [
+      "tussen de auto's",
+      "op het zebrapad",
+      "in een bocht",
+      "op het fietspad"
+     ],
+     "antwoord": 1,
+     "uitleg": "Op het zebrapad met de witte strepen.",
+     "afbeelding_pad": "/examenvormen/launchpad/verkeer-zebrapad.webp"
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Het groene mannetje brandt. Wat doe je?",
+     "opties": [
+      "blijven wachten",
+      "rennen zonder kijken",
+      "kijken en oversteken",
+      "terug naar huis"
+     ],
+     "antwoord": 2,
+     "uitleg": "Bij groen mag je oversteken, maar je kijkt toch eerst goed.",
+     "afbeelding_pad": "/examenvormen/launchpad/verkeer-licht.webp"
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Het meisje draagt een fluohesje, zodat ze goed gezien wordt.",
+     "antwoord": true,
+     "uitleg": "Fluo valt op in het verkeer.",
+     "afbeelding_pad": "/examenvormen/launchpad/verkeer-fluohesje.webp"
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoeveel wielen zie je aan deze kant van de bus?",
+     "antwoord": "2",
+     "uitleg": "Aan één kant zie je 2 wielen.",
+     "afbeelding_pad": "/examenvormen/launchpad/verkeer-schoolbus.webp"
+    }
+   ]
+  },
+  {
+   "titel": "Verkeer en veilig zijn — deel 2",
+   "niveau": "launchpad",
+   "korte_uitleg": "Veilig in de auto, op de fiets en thuis.",
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat doe je meteen als je in de auto zit?",
+     "opties": [
+      "je raam open doen",
+      "je schoenen uitdoen",
+      "je gordel vastmaken",
+      "op de stoel staan"
+     ],
+     "antwoord": 2,
+     "uitleg": "De gordel houdt je veilig."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waar zitten kleine kinderen in de auto?",
+     "opties": [
+      "op de schoot van de chauffeur",
+      "in de koffer",
+      "voorin zonder gordel",
+      "in een kinderzitje achteraan"
+     ],
+     "antwoord": 3,
+     "uitleg": "Een kinderzitje achteraan is het veiligst."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat zet je op als je fietst?",
+     "opties": [
+      "een fietshelm",
+      "een pet",
+      "een koptelefoon",
+      "een feesthoed"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een fietshelm beschermt je hoofd."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat moet aan een fiets zitten als het donker is?",
+     "opties": [
+      "een bel alleen",
+      "lichtjes",
+      "een mand",
+      "een sticker"
+     ],
+     "antwoord": 1,
+     "uitleg": "Voor en achter een lichtje, zodat je gezien wordt."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarmee laat je horen dat je eraan komt op de fiets?",
+     "opties": [
+      "met je rem",
+      "met je lamp",
+      "met je bel",
+      "met je helm"
+     ],
+     "antwoord": 2,
+     "uitleg": "Tring tring!"
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat raak je thuis NIET aan?",
+     "opties": [
+      "een knuffel",
+      "een boek",
+      "een kussen",
+      "een hete kookplaat"
+     ],
+     "antwoord": 3,
+     "uitleg": "Een kookplaat kan je hand verbranden."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat doe je als je medicijnen vindt?",
+     "opties": [
+      "ze aan een volwassene geven",
+      "ze opeten",
+      "ze verstoppen",
+      "ze proeven"
+     ],
+     "antwoord": 0,
+     "uitleg": "Medicijnen zijn geen snoep."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk nummer bel je als er brand of een ongeval is?",
+     "opties": [
+      "123",
+      "112",
+      "100 000",
+      "911"
+     ],
+     "antwoord": 1,
+     "uitleg": "In België en Europa bel je 112."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een fietshelm beschermt je hoofd.",
+     "antwoord": true,
+     "uitleg": "Als je valt, vangt de helm de klap op."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "In de auto mag je je gordel losmaken als het een korte rit is.",
+     "antwoord": false,
+     "uitleg": "Altijd vast, ook voor een korte rit."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een kind gaat het best achteraan in de auto.",
+     "antwoord": true,
+     "uitleg": "Achteraan in een kinderzitje is het veiligst."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Met een stekker of stopcontact spelen is leuk en veilig.",
+     "antwoord": false,
+     "uitleg": "Elektriciteit is gevaarlijk."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Lucifers zijn geen speelgoed.",
+     "antwoord": true,
+     "uitleg": "Met vuur spelen is gevaarlijk."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Je fietst 's avonds best zonder licht.",
+     "antwoord": false,
+     "uitleg": "In het donker heb je licht nodig, anders zien ze je niet."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "112 bel je enkel als er echt iets ergs gebeurd is.",
+     "antwoord": true,
+     "uitleg": "112 is voor noodgevallen."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Schoonmaakmiddel mag je proeven.",
+     "antwoord": false,
+     "uitleg": "Schoonmaakmiddel is gif. Niet aankomen."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoeveel wielen heeft een fiets? ___",
+     "antwoord": "2",
+     "uitleg": "Een fiets heeft 2 wielen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wie roep je als je je pijn doet op de speelplaats?",
+     "opties": [
+      "niemand",
+      "een onbekende op straat",
+      "de juf of meester",
+      "de kat"
+     ],
+     "antwoord": 2,
+     "uitleg": "Een volwassene die je kent helpt je."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Een onbekende vraagt of je meegaat. Wat doe je?",
+     "opties": [
+      "meegaan",
+      "snoep vragen",
+      "niets zeggen tegen iemand",
+      "nee zeggen en het aan een volwassene vertellen"
+     ],
+     "antwoord": 3,
+     "uitleg": "Ga nooit mee met iemand die je niet kent."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is veilig spelen?",
+     "opties": [
+      "spelen in de tuin",
+      "spelen op de straat",
+      "spelen bij het spoor",
+      "spelen bij de rivier zonder volwassene"
+     ],
+     "antwoord": 0,
+     "uitleg": "In de tuin of op een speelplein is het veilig."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat draagt het kind op zijn hoofd?",
+     "opties": [
+      "een pet",
+      "een muts",
+      "niets",
+      "een fietshelm"
+     ],
+     "antwoord": 3,
+     "uitleg": "Een fietshelm beschermt je hoofd.",
+     "afbeelding_pad": "/examenvormen/launchpad/verkeer-fietser.webp"
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Het licht voor de voetgangers staat op rood.",
+     "antwoord": false,
+     "uitleg": "Het groene mannetje brandt.",
+     "afbeelding_pad": "/examenvormen/launchpad/verkeer-licht-groen.webp"
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Het kind geeft een volwassene een hand.",
+     "antwoord": true,
+     "uitleg": "Kleine kinderen steken over aan de hand van een volwassene.",
+     "afbeelding_pad": "/examenvormen/launchpad/verkeer-hand.webp"
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waar gaat het kind naartoe?",
+     "opties": [
+      "naar school",
+      "naar het zwembad",
+      "naar bed",
+      "naar de dokter"
+     ],
+     "antwoord": 0,
+     "uitleg": "Het kind heeft een boekentas en stapt naar de school.",
+     "afbeelding_pad": "/examenvormen/launchpad/verkeer-school.webp"
+    }
+   ]
+  }
+ ]
+}

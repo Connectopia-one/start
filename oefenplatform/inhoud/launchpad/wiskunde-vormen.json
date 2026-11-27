@@ -1,0 +1,446 @@
+{
+ "hoofdstukken": [
+  {
+   "titel": "Vormen en ruimte — deel 1",
+   "niveau": "launchpad",
+   "korte_uitleg": "Cirkel, vierkant, rechthoek en driehoek herkennen.",
+   "vragen": [
+    {
+     "type": "invultekst",
+     "vraag": "Hoeveel hoeken heeft een driehoek? ___",
+     "antwoord": "3",
+     "uitleg": "Drie hoeken: daarom heet het een driehoek."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoeveel hoeken heeft een vierkant? ___",
+     "antwoord": "4",
+     "uitleg": "Een vierkant heeft 4 hoeken."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoeveel hoeken heeft een cirkel? ___",
+     "antwoord": "0",
+     "uitleg": "Een cirkel is helemaal rond: geen hoeken."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoeveel zijden heeft een rechthoek? ___",
+     "antwoord": "4",
+     "uitleg": "Een rechthoek heeft 4 zijden."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke vorm is helemaal rond?",
+     "opties": [
+      "een cirkel",
+      "een vierkant",
+      "een driehoek",
+      "een rechthoek"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een cirkel heeft geen hoeken."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke vorm heeft 4 even lange zijden?",
+     "opties": [
+      "een rechthoek",
+      "een vierkant",
+      "een driehoek",
+      "een cirkel"
+     ],
+     "antwoord": 1,
+     "uitleg": "Bij een vierkant zijn alle zijden even lang."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke vorm heeft 3 zijden?",
+     "opties": [
+      "een vierkant",
+      "een cirkel",
+      "een driehoek",
+      "een rechthoek"
+     ],
+     "antwoord": 2,
+     "uitleg": "Drie zijden en drie hoeken."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke vorm heeft een deur?",
+     "opties": [
+      "een cirkel",
+      "een driehoek",
+      "een vierkant",
+      "een rechthoek"
+     ],
+     "antwoord": 3,
+     "uitleg": "Een deur is langer dan breed: een rechthoek."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke vorm heeft een wiel?",
+     "opties": [
+      "een cirkel",
+      "een driehoek",
+      "een vierkant",
+      "een rechthoek"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een wiel is rond."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke vorm heeft een stuk pizza meestal?",
+     "opties": [
+      "een cirkel",
+      "een driehoek",
+      "een vierkant",
+      "een rechthoek"
+     ],
+     "antwoord": 1,
+     "uitleg": "Een punt pizza lijkt op een driehoek."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een vierkant heeft 4 hoeken.",
+     "antwoord": true,
+     "uitleg": "Een vierkant heeft 4 hoeken en 4 zijden."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een driehoek heeft 4 zijden.",
+     "antwoord": false,
+     "uitleg": "Een driehoek heeft 3 zijden."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een cirkel heeft geen hoeken.",
+     "antwoord": true,
+     "uitleg": "Een cirkel is helemaal rond."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een rechthoek heeft 3 hoeken.",
+     "antwoord": false,
+     "uitleg": "Een rechthoek heeft 4 hoeken."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Bij een rechthoek zijn twee zijden langer dan de andere twee.",
+     "antwoord": true,
+     "uitleg": "Twee lange en twee korte zijden."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een munt is een driehoek.",
+     "antwoord": false,
+     "uitleg": "Een munt is rond: een cirkel."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoeveel hoeken hebben 2 driehoeken samen? ___",
+     "antwoord": "6",
+     "uitleg": "3 + 3 = 6."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoeveel hoeken hebben een vierkant en een driehoek samen? ___",
+     "antwoord": "7",
+     "uitleg": "4 + 3 = 7."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een vierkant is ook een soort rechthoek.",
+     "antwoord": true,
+     "uitleg": "Een vierkant heeft 4 rechte hoeken, net zoals een rechthoek. Alleen zijn alle zijden even lang."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een schoolbord is meestal een cirkel.",
+     "antwoord": false,
+     "uitleg": "Een schoolbord is meestal een rechthoek."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Op welk blok lijkt deze bal?",
+     "opties": [
+      "een bol",
+      "een kubus",
+      "een kegel",
+      "een cilinder"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een bal is helemaal rond: een bol.",
+     "afbeelding_pad": "/examenvormen/launchpad/vormen-bal.webp"
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Op welk blok lijkt deze dobbelsteen?",
+     "opties": [
+      "een bol",
+      "een kubus",
+      "een balk",
+      "een piramide"
+     ],
+     "antwoord": 1,
+     "uitleg": "Een dobbelsteen heeft 6 vierkante vlakken: een kubus.",
+     "afbeelding_pad": "/examenvormen/launchpad/vormen-dobbelsteen.webp"
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Op welk blok lijkt dit feesthoedje?",
+     "opties": [
+      "een cilinder",
+      "een kubus",
+      "een kegel",
+      "een bol"
+     ],
+     "antwoord": 2,
+     "uitleg": "Rond onderaan en een punt bovenaan: een kegel.",
+     "afbeelding_pad": "/examenvormen/launchpad/vormen-feesthoedje.webp"
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Dit stuk pizza heeft de vorm van een driehoek.",
+     "antwoord": true,
+     "uitleg": "Het heeft drie hoeken: een driehoek.",
+     "afbeelding_pad": "/examenvormen/launchpad/vormen-pizza.webp"
+    }
+   ]
+  },
+  {
+   "titel": "Vormen en ruimte — deel 2",
+   "niveau": "launchpad",
+   "korte_uitleg": "Links, rechts, boven, onder en blokken.",
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Met welke hand schrijven de meeste mensen?",
+     "opties": [
+      "links",
+      "boven",
+      "rechts",
+      "onder"
+     ],
+     "antwoord": 2,
+     "uitleg": "De meeste mensen schrijven met hun rechterhand."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "De lamp hangt ... de tafel.",
+     "opties": [
+      "onder",
+      "naast",
+      "in",
+      "boven"
+     ],
+     "antwoord": 3,
+     "uitleg": "Een lamp hangt hoog, boven de tafel."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "De kat slaapt ... het bed, op de grond.",
+     "opties": [
+      "onder",
+      "boven",
+      "op",
+      "achter"
+     ],
+     "antwoord": 0,
+     "uitleg": "Op de grond onder het bed."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk blok kan rollen?",
+     "opties": [
+      "een kubus",
+      "een bol",
+      "een balk",
+      "een piramide"
+     ],
+     "antwoord": 1,
+     "uitleg": "Een bol is helemaal rond."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk blok heeft de vorm van een dobbelsteen?",
+     "opties": [
+      "een bol",
+      "een cilinder",
+      "een kubus",
+      "een kegel"
+     ],
+     "antwoord": 2,
+     "uitleg": "Een dobbelsteen is een kubus: 6 vierkante vlakken."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk blok lijkt op een blikje?",
+     "opties": [
+      "een kubus",
+      "een bol",
+      "een piramide",
+      "een cilinder"
+     ],
+     "antwoord": 3,
+     "uitleg": "Een blikje is een cilinder: rond, met een plat vlak boven en onder."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk blok lijkt op een schoendoos?",
+     "opties": [
+      "een balk",
+      "een bol",
+      "een kegel",
+      "een cilinder"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een schoendoos is een balk."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk blok lijkt op een ijshoorntje?",
+     "opties": [
+      "een kubus",
+      "een kegel",
+      "een balk",
+      "een bol"
+     ],
+     "antwoord": 1,
+     "uitleg": "Een ijshoorntje is een kegel: rond onderaan en een punt."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een bal is een bol.",
+     "antwoord": true,
+     "uitleg": "Een bal is helemaal rond: een bol."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een kubus kan goed rollen.",
+     "antwoord": false,
+     "uitleg": "Een kubus heeft platte vlakken en hoeken. Hij rolt niet."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een dobbelsteen heeft 6 vlakken.",
+     "antwoord": true,
+     "uitleg": "Een kubus heeft 6 vlakken."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Je voeten staan boven je hoofd.",
+     "antwoord": false,
+     "uitleg": "Je voeten staan onder, je hoofd boven."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Als je in de spiegel je rechterhand opsteekt, lijkt het in de spiegel je linkerhand.",
+     "antwoord": true,
+     "uitleg": "Een spiegel draait links en rechts om."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een cilinder heeft geen enkel plat vlak.",
+     "antwoord": false,
+     "uitleg": "Een cilinder heeft twee platte vlakken: boven en onder."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoeveel vlakken heeft een kubus? ___",
+     "antwoord": "6",
+     "uitleg": "Boven, onder, voor, achter, links en rechts: 6."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Je zet 3 blokken op elkaar en dan nog 2. Hoe hoog is de toren in blokken? ___",
+     "antwoord": "5",
+     "uitleg": "3 + 2 = 5."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Tim staat voor Sara in de rij. Wie staat achteraan?",
+     "opties": [
+      "Tim",
+      "allebei",
+      "Sara",
+      "niemand"
+     ],
+     "antwoord": 2,
+     "uitleg": "Tim staat vooraan, Sara achter hem."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "De bal ligt tussen de stoel en de tafel. Waar ligt hij?",
+     "opties": [
+      "op de tafel",
+      "onder de stoel",
+      "ver weg",
+      "in het midden"
+     ],
+     "antwoord": 3,
+     "uitleg": "Tussen is in het midden."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een piramide heeft een punt bovenaan.",
+     "antwoord": true,
+     "uitleg": "Alle schuine vlakken komen bovenaan samen in een punt."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Boven en onder betekenen hetzelfde.",
+     "antwoord": false,
+     "uitleg": "Boven is hoog, onder is laag."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke vorm heeft deze deur?",
+     "opties": [
+      "een cirkel",
+      "een driehoek",
+      "een ruit",
+      "een rechthoek"
+     ],
+     "antwoord": 3,
+     "uitleg": "Een deur is langer dan breed: een rechthoek.",
+     "afbeelding_pad": "/examenvormen/launchpad/vormen-deur.webp"
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke vorm heeft deze klok?",
+     "opties": [
+      "een cirkel",
+      "een vierkant",
+      "een driehoek",
+      "een rechthoek"
+     ],
+     "antwoord": 0,
+     "uitleg": "De klok is rond: een cirkel.",
+     "afbeelding_pad": "/examenvormen/launchpad/vormen-klok.webp"
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Dit boek heeft de vorm van een cirkel.",
+     "antwoord": false,
+     "uitleg": "Het boek heeft 4 hoeken: een rechthoek.",
+     "afbeelding_pad": "/examenvormen/launchpad/vormen-boek.webp"
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Op welk blok lijkt dit glas?",
+     "opties": [
+      "een bol",
+      "een cilinder",
+      "een kubus",
+      "een kegel"
+     ],
+     "antwoord": 1,
+     "uitleg": "Rond, met een plat vlak onderaan: een cilinder.",
+     "afbeelding_pad": "/examenvormen/launchpad/vormen-glas.webp"
+    }
+   ]
+  }
+ ]
+}

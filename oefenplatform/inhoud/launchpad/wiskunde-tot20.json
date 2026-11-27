@@ -1,0 +1,430 @@
+{
+ "hoofdstukken": [
+  {
+   "titel": "Getallen tot 20 — deel 1",
+   "niveau": "launchpad",
+   "korte_uitleg": "Tellen tot 20 en de buren van een getal.",
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk getal komt na 7?",
+     "opties": [
+      "8",
+      "6",
+      "9",
+      "5"
+     ],
+     "antwoord": 0,
+     "uitleg": "Na 7 komt 8."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk getal komt voor 10?",
+     "opties": [
+      "11",
+      "9",
+      "8",
+      "12"
+     ],
+     "antwoord": 1,
+     "uitleg": "Voor 10 komt 9."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Tel verder: 3, 4, 5, ___",
+     "antwoord": "6",
+     "uitleg": "Na 5 komt 6."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Tel verder: 12, 13, 14, ___",
+     "antwoord": "15",
+     "uitleg": "Na 14 komt 15."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is de kleine buur van 15?",
+     "opties": [
+      "16",
+      "13",
+      "14",
+      "5"
+     ],
+     "antwoord": 2,
+     "uitleg": "De kleine buur is 1 minder: 14."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is de grote buur van 11?",
+     "opties": [
+      "10",
+      "13",
+      "21",
+      "12"
+     ],
+     "antwoord": 3,
+     "uitleg": "De grote buur is 1 meer: 12."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Na 19 komt 20.",
+     "antwoord": true,
+     "uitleg": "19, 20. Klopt!"
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Voor 6 komt 7.",
+     "antwoord": false,
+     "uitleg": "Voor 6 komt 5. Na 6 komt 7."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Tel terug: 10, 9, 8, ___",
+     "antwoord": "7",
+     "uitleg": "Terugtellen: na 8 komt 7."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Tel terug: 18, 17, 16, ___",
+     "antwoord": "15",
+     "uitleg": "Na 16 komt bij terugtellen 15."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk getal ligt tussen 12 en 14?",
+     "opties": [
+      "13",
+      "11",
+      "15",
+      "16"
+     ],
+     "antwoord": 0,
+     "uitleg": "12, 13, 14."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk getal ligt tussen 4 en 6?",
+     "opties": [
+      "3",
+      "5",
+      "7",
+      "8"
+     ],
+     "antwoord": 1,
+     "uitleg": "4, 5, 6."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Tussen 8 en 10 ligt 9.",
+     "antwoord": true,
+     "uitleg": "8, 9, 10."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "17 is de kleine buur van 16.",
+     "antwoord": false,
+     "uitleg": "De kleine buur van 16 is 15. 17 is de grote buur."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk getal is het kleinste?",
+     "opties": [
+      "13",
+      "8",
+      "3",
+      "10"
+     ],
+     "antwoord": 2,
+     "uitleg": "3 is het kleinste getal."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk getal is het grootste?",
+     "opties": [
+      "8",
+      "11",
+      "15",
+      "18"
+     ],
+     "antwoord": 3,
+     "uitleg": "18 is het grootste getal."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Tel met sprongen van 2: 2, 4, 6, ___",
+     "antwoord": "8",
+     "uitleg": "Telkens 2 erbij: 6 + 2 = 8."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Tel met sprongen van 2: 10, 12, 14, ___",
+     "antwoord": "16",
+     "uitleg": "14 + 2 = 16."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "0 is minder dan 1.",
+     "antwoord": true,
+     "uitleg": "Nul is niets, dat is minder dan 1."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Je zegt twintig voor het getal 12.",
+     "antwoord": false,
+     "uitleg": "12 zeg je twaalf. Twintig is 20."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoeveel ballonnen zie je?",
+     "antwoord": "7",
+     "uitleg": "Een rij van 5 en nog 2: 7.",
+     "afbeelding_pad": "/examenvormen/launchpad/tot20-ballonnen-7.webp"
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoeveel eendjes zie je?",
+     "antwoord": "12",
+     "uitleg": "Twee rijen van 5 is 10, en nog 2: 12.",
+     "afbeelding_pad": "/examenvormen/launchpad/tot20-eendjes-12.webp"
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoeveel sterren zie je?",
+     "opties": [
+      "8",
+      "10",
+      "9",
+      "6"
+     ],
+     "antwoord": 2,
+     "uitleg": "Een rij van 5 en nog 4: 9.",
+     "afbeelding_pad": "/examenvormen/launchpad/tot20-sterren-9.webp"
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Er liggen 15 knikkers.",
+     "antwoord": true,
+     "uitleg": "Drie rijen van 5: 15.",
+     "afbeelding_pad": "/examenvormen/launchpad/tot20-knikkers-15.webp"
+    }
+   ]
+  },
+  {
+   "titel": "Getallen tot 20 — deel 2",
+   "niveau": "launchpad",
+   "korte_uitleg": "Meer of minder, en 1 tiental en eenheden.",
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "13 is 1 tiental en ... eenheden.",
+     "opties": [
+      "3",
+      "1",
+      "13",
+      "30"
+     ],
+     "antwoord": 0,
+     "uitleg": "13 = 10 + 3: 1 tiental en 3 eenheden."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "1 tiental en 7 eenheden is ...",
+     "opties": [
+      "71",
+      "17",
+      "8",
+      "70"
+     ],
+     "antwoord": 1,
+     "uitleg": "10 + 7 = 17."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "10 + 5 = ___",
+     "antwoord": "15",
+     "uitleg": "1 tiental en 5 eenheden is 15."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "10 + 9 = ___",
+     "antwoord": "19",
+     "uitleg": "1 tiental en 9 eenheden is 19."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoeveel eenheden heeft 20?",
+     "opties": [
+      "2",
+      "20",
+      "0",
+      "10"
+     ],
+     "antwoord": 2,
+     "uitleg": "20 = 2 tientallen en 0 eenheden."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk getal is meer dan 14?",
+     "opties": [
+      "12",
+      "9",
+      "14",
+      "16"
+     ],
+     "antwoord": 3,
+     "uitleg": "16 komt na 14, dus 16 is meer."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "11 is meer dan 9.",
+     "antwoord": true,
+     "uitleg": "11 komt na 9, dus 11 is meer."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "15 is minder dan 12.",
+     "antwoord": false,
+     "uitleg": "15 is meer dan 12."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk teken past? 8 ... 5",
+     "opties": [
+      ">",
+      "<",
+      "="
+     ],
+     "antwoord": 0,
+     "uitleg": "8 is meer dan 5, dus 8 > 5. De open kant wijst naar het grootste getal."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk teken past? 7 ... 7",
+     "opties": [
+      "<",
+      "=",
+      ">"
+     ],
+     "antwoord": 1,
+     "uitleg": "7 is evenveel als 7."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk teken past? 4 ... 9",
+     "opties": [
+      ">",
+      "=",
+      "<"
+     ],
+     "antwoord": 2,
+     "uitleg": "4 is minder dan 9, dus 4 < 9."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welk getal is 2 meer dan 10? ___",
+     "antwoord": "12",
+     "uitleg": "10 + 2 = 12."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welk getal is 3 minder dan 20? ___",
+     "antwoord": "17",
+     "uitleg": "20 − 3 = 17."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "1 tiental is evenveel als 10 eenheden.",
+     "antwoord": true,
+     "uitleg": "Een tiental zijn tien eenheden samen."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "16 heeft 6 tientallen.",
+     "antwoord": false,
+     "uitleg": "16 heeft 1 tiental en 6 eenheden."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Zet in volgorde van klein naar groot.",
+     "opties": [
+      "19, 14, 9, 4",
+      "9, 4, 19, 14",
+      "4, 14, 9, 19",
+      "4, 9, 14, 19"
+     ],
+     "antwoord": 3,
+     "uitleg": "4 is het kleinste en 19 het grootste."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk getal is even?",
+     "opties": [
+      "12",
+      "7",
+      "15",
+      "9"
+     ],
+     "antwoord": 0,
+     "uitleg": "Even getallen kan je eerlijk in 2 verdelen: 12 = 6 + 6."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk getal is oneven?",
+     "opties": [
+      "10",
+      "11",
+      "14",
+      "8"
+     ],
+     "antwoord": 1,
+     "uitleg": "11 kan je niet eerlijk in 2 verdelen: er blijft 1 over."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Het dubbel van 6 is 12.",
+     "antwoord": true,
+     "uitleg": "6 + 6 = 12."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De helft van 10 is 4.",
+     "antwoord": false,
+     "uitleg": "De helft van 10 is 5: 5 + 5 = 10."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoeveel blokjes zie je?",
+     "antwoord": "13",
+     "uitleg": "Twee rijen van 5 is 10, en nog 3: 13.",
+     "afbeelding_pad": "/examenvormen/launchpad/tot20-blokjes-13.webp"
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Er zitten 8 beertjes.",
+     "antwoord": false,
+     "uitleg": "Een rij van 5 en nog 1: 6 beertjes.",
+     "afbeelding_pad": "/examenvormen/launchpad/tot20-beertjes-6.webp"
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoeveel snoepjes zie je?",
+     "antwoord": "18",
+     "uitleg": "Drie rijen van 5 is 15, en nog 3: 18.",
+     "afbeelding_pad": "/examenvormen/launchpad/tot20-snoepjes-18.webp"
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarvan zijn er meer?",
+     "opties": [
+      "autootjes",
+      "eendjes",
+      "evenveel"
+     ],
+     "antwoord": 1,
+     "uitleg": "5 eendjes en 3 autootjes: meer eendjes.",
+     "afbeelding_pad": "/examenvormen/launchpad/tot20-eend-auto.webp"
+    }
+   ]
+  }
+ ]
+}

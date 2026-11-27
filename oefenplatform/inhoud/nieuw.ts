@@ -40,6 +40,12 @@ export const nieuwTekst = {
 
 export const updates: Update[] = [
   {
+    datum: "27 november 2026",
+    titel: "Nieuw: Launchpad voor het 1ste en 2de leerjaar",
+    tekst:
+      "Er is een nieuwe categorie 🪁 Launchpad, voor kinderen van het 1ste en 2de leerjaar. Wiskunde (getallen tot 20 en tot 100, plus en min, splitsen en verliefde harten, de eerste tafels, meten en geld, de klok, vormen), Nederlands (letters en klanken, lezen, woorden goed schrijven, zinnen maken, verhaaltjes begrijpen) en wereldoriëntatie (mijn lichaam, dieren en planten, seizoenen en weer, verkeer, vroeger en nu, ik en de anderen). Korte zinnen, vooral kiezen in plaats van typen, veel prenten, en de voorleesknop staat altijd aan. Bij elk hoofdstuk hoort een leerbundel en een oefenbundel om af te drukken.",
+  },
+  {
     datum: "26 november 2026",
     titel: "Ready: veel meer prenten",
     tekst:

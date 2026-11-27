@@ -1,0 +1,495 @@
+{
+ "hoofdstukken": [
+  {
+   "titel": "Woorden goed schrijven — deel 1",
+   "niveau": "launchpad",
+   "korte_uitleg": "Schrijf wat je hoort: maan, kip, boom.",
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe schrijf je het dier dat 'miauw' zegt?",
+     "opties": [
+      "kat",
+      "kad",
+      "kaat",
+      "katt"
+     ],
+     "antwoord": 0,
+     "uitleg": "k-a-t: je hoort een korte a."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe schrijf je wat 's nachts aan de hemel staat?",
+     "opties": [
+      "man",
+      "maan",
+      "maam",
+      "mahn"
+     ],
+     "antwoord": 1,
+     "uitleg": "m-aa-n: een lange aa."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe schrijf je het dier dat eieren legt?",
+     "opties": [
+      "kiep",
+      "kipp",
+      "kip",
+      "kib"
+     ],
+     "antwoord": 2,
+     "uitleg": "k-i-p: een korte i."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe schrijf je wat in het bos groeit en blaadjes heeft?",
+     "opties": [
+      "bom",
+      "boon",
+      "bomm",
+      "boom"
+     ],
+     "antwoord": 3,
+     "uitleg": "b-oo-m: een lange oo."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe schrijf je wat je aan je voet doet?",
+     "opties": [
+      "sok",
+      "sook",
+      "zok",
+      "sokk"
+     ],
+     "antwoord": 0,
+     "uitleg": "s-o-k: een korte o."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe schrijf je waarmee je snijdt?",
+     "opties": [
+      "mees",
+      "mes",
+      "mez",
+      "mess"
+     ],
+     "antwoord": 1,
+     "uitleg": "m-e-s: een korte e."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe schrijf je waarop je loopt?",
+     "opties": [
+      "voed",
+      "foet",
+      "voet",
+      "vut"
+     ],
+     "antwoord": 2,
+     "uitleg": "v-oe-t: aan het einde schrijf je t."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe schrijf je het dier dat kaas lust?",
+     "opties": [
+      "mujs",
+      "mous",
+      "muus",
+      "muis"
+     ],
+     "antwoord": 3,
+     "uitleg": "m-ui-s."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'Pen' schrijf je met één e.",
+     "antwoord": true,
+     "uitleg": "p-e-n: een korte e."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'Raam' schrijf je met één a.",
+     "antwoord": false,
+     "uitleg": "r-aa-m: een lange aa, dus twee a's."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'Boom' schrijf je met twee o's.",
+     "antwoord": true,
+     "uitleg": "Een lange oo in het midden."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'Bus' schrijf je met uu.",
+     "antwoord": false,
+     "uitleg": "b-u-s: een korte u."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'Neus' schrijf je met eu.",
+     "antwoord": true,
+     "uitleg": "n-eu-s."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'Kip' schrijf je als 'kiep'.",
+     "antwoord": false,
+     "uitleg": "k-i-p: een korte i, dus één i."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk woord heeft een lange klank?",
+     "opties": [
+      "maan",
+      "man",
+      "pen",
+      "kip"
+     ],
+     "antwoord": 0,
+     "uitleg": "In maan hoor je een lange aa."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk woord heeft een korte klank?",
+     "opties": [
+      "taak",
+      "tak",
+      "boom",
+      "roos"
+     ],
+     "antwoord": 1,
+     "uitleg": "In tak hoor je een korte a."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke letter mis je? b_s (je rijdt ermee naar school)",
+     "opties": [
+      "o",
+      "a",
+      "u",
+      "e"
+     ],
+     "antwoord": 2,
+     "uitleg": "bus."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke letter mis je? p_p (je speelt ermee)",
+     "opties": [
+      "a",
+      "i",
+      "u",
+      "o"
+     ],
+     "antwoord": 3,
+     "uitleg": "pop."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke letters mis je? v__t (je loopt erop)",
+     "opties": [
+      "oe",
+      "oo",
+      "ee",
+      "uu"
+     ],
+     "antwoord": 0,
+     "uitleg": "voet."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke letters mis je? r__s (een bloem)",
+     "opties": [
+      "o",
+      "oo",
+      "oe",
+      "ou"
+     ],
+     "antwoord": 1,
+     "uitleg": "roos."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe schrijf je wat je ziet?",
+     "opties": [
+      "vies",
+      "fis",
+      "vis",
+      "viss"
+     ],
+     "antwoord": 2,
+     "uitleg": "v-i-s: een korte i.",
+     "afbeelding_pad": "/examenvormen/launchpad/spel-vis.webp"
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk woord is goed geschreven?",
+     "opties": [
+      "poop",
+      "bop",
+      "popp",
+      "pop"
+     ],
+     "antwoord": 3,
+     "uitleg": "p-o-p: een korte o.",
+     "afbeelding_pad": "/examenvormen/launchpad/spel-pop.webp"
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Het woord bij de prent schrijf je met twee o's.",
+     "antwoord": true,
+     "uitleg": "boom: een lange oo.",
+     "afbeelding_pad": "/examenvormen/launchpad/spel-boom.webp"
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welke letter mis je? t _ k",
+     "antwoord": "a",
+     "uitleg": "tak: een korte a.",
+     "afbeelding_pad": "/examenvormen/launchpad/spel-tak.webp"
+    }
+   ]
+  },
+  {
+   "titel": "Woorden goed schrijven — deel 2",
+   "niveau": "launchpad",
+   "korte_uitleg": "Lastige klanken: ei of ij, au of ou.",
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe schrijf je wat een kip legt?",
+     "opties": [
+      "ij",
+      "eij",
+      "ei",
+      "aai"
+     ],
+     "antwoord": 2,
+     "uitleg": "Het woord ei schrijf je met ei."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe schrijf je wat je eet als het warm is en dat koud is?",
+     "opties": [
+      "eis",
+      "ijss",
+      "eijs",
+      "ijs"
+     ],
+     "antwoord": 3,
+     "uitleg": "IJs schrijf je met ij."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe schrijf je de dag na woensdag?",
+     "opties": [
+      "donderdag",
+      "donderdach",
+      "donnerdag",
+      "donderdaag"
+     ],
+     "antwoord": 0,
+     "uitleg": "don-der-dag."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe schrijf je wat aan een vlieger hangt?",
+     "opties": [
+      "tauw",
+      "touw",
+      "tou",
+      "toew"
+     ],
+     "antwoord": 1,
+     "uitleg": "Touw schrijf je met ouw."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe schrijf je het rijdende ding met vier wielen?",
+     "opties": [
+      "outo",
+      "awto",
+      "auto",
+      "oto"
+     ],
+     "antwoord": 2,
+     "uitleg": "Auto schrijf je met au."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe schrijf je het mooie dier met een grote staart vol veren?",
+     "opties": [
+      "pouw",
+      "pau",
+      "pouwe",
+      "pauw"
+     ],
+     "antwoord": 3,
+     "uitleg": "Pauw schrijf je met auw."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe schrijf je het gele, dure metaal?",
+     "opties": [
+      "goud",
+      "gaud",
+      "gout",
+      "gouwd"
+     ],
+     "antwoord": 0,
+     "uitleg": "Goud schrijf je met ou en een d.",
+     "afbeelding_pad": "/examenvormen/launchpad/spel-goud.webp"
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe schrijf je waar een trein op rijdt?",
+     "opties": [
+      "spor",
+      "spoor",
+      "spoar",
+      "sbour"
+     ],
+     "antwoord": 1,
+     "uitleg": "sp-oo-r."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'Ei' schrijf je met ei.",
+     "antwoord": true,
+     "uitleg": "Het woord ei schrijf je met ei."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'IJs' schrijf je met ei.",
+     "antwoord": false,
+     "uitleg": "IJs schrijf je met ij."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'Trein' schrijf je met ei.",
+     "antwoord": true,
+     "uitleg": "Trein schrijf je met ei."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'Touw' schrijf je met au.",
+     "antwoord": false,
+     "uitleg": "Touw schrijf je met ou."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'Pauw' schrijf je met au.",
+     "antwoord": true,
+     "uitleg": "Pauw schrijf je met au."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'Fijn' schrijf je met ei.",
+     "antwoord": false,
+     "uitleg": "Fijn schrijf je met ij."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke letters mis je? tr__n (rijdt op het spoor)",
+     "opties": [
+      "ij",
+      "ie",
+      "ei",
+      "ee"
+     ],
+     "antwoord": 2,
+     "uitleg": "trein."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke letters mis je? r__st (wit en klein, je eet het)",
+     "opties": [
+      "ei",
+      "ie",
+      "ee",
+      "ij"
+     ],
+     "antwoord": 3,
+     "uitleg": "rijst."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke letters mis je? h__t (op je hoofd)",
+     "opties": [
+      "oe",
+      "ou",
+      "au",
+      "ui"
+     ],
+     "antwoord": 0,
+     "uitleg": "hoed."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke letters mis je? k__d (niet warm)",
+     "opties": [
+      "au",
+      "ou",
+      "oe",
+      "ui"
+     ],
+     "antwoord": 1,
+     "uitleg": "koud."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'Hond' schrijf je met een d, al hoor je een t.",
+     "antwoord": true,
+     "uitleg": "Bij honden hoor je de d: hond."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'Paard' schrijf je met een t aan het einde.",
+     "antwoord": false,
+     "uitleg": "Paard schrijf je met een d: paarden."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Kies het goede woord bij de prent.",
+     "opties": [
+      "ijsje",
+      "eisje",
+      "ijssje",
+      "ijsie"
+     ],
+     "antwoord": 0,
+     "uitleg": "IJsje schrijf je met ij.",
+     "afbeelding_pad": "/examenvormen/launchpad/spel-ijsje.webp"
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Het woord bij de prent schrijf je met ij.",
+     "antwoord": false,
+     "uitleg": "Trein schrijf je met ei.",
+     "afbeelding_pad": "/examenvormen/launchpad/spel-trein.webp"
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welke letter mis je? r _ ng",
+     "antwoord": "i",
+     "uitleg": "ring.",
+     "afbeelding_pad": "/examenvormen/launchpad/spel-ring.webp"
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe schrijf je dit?",
+     "opties": [
+      "hius",
+      "huis",
+      "huiz",
+      "hujs"
+     ],
+     "antwoord": 1,
+     "uitleg": "h-ui-s.",
+     "afbeelding_pad": "/examenvormen/launchpad/spel-huis.webp"
+    }
+   ]
+  }
+ ]
+}

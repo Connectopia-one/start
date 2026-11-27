@@ -277,7 +277,7 @@ export default async function HoofdstukPage({
                   }))}
                   hoofdstukId={hoofdstuk.id}
                   taalvak={isTaalvak(vak.slug)}
-                  altijdVoorlezen={hoofdstuk.niveau === "ready"}
+                  altijdVoorlezen={hoofdstuk.niveau === "ready" || hoofdstuk.niveau === "launchpad"}
                 />
                 )}
               </>

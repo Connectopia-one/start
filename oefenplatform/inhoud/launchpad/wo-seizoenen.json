@@ -1,0 +1,476 @@
+{
+ "hoofdstukken": [
+  {
+   "titel": "Seizoenen en weer — deel 1",
+   "niveau": "launchpad",
+   "korte_uitleg": "Lente, zomer, herfst en winter.",
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "In welk seizoen komen de eerste bloemen en blaadjes?",
+     "opties": [
+      "de lente",
+      "de zomer",
+      "de herfst",
+      "de winter"
+     ],
+     "antwoord": 0,
+     "uitleg": "In de lente komt alles weer tot leven."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "In welk seizoen is het meestal het warmst?",
+     "opties": [
+      "de lente",
+      "de zomer",
+      "de herfst",
+      "de winter"
+     ],
+     "antwoord": 1,
+     "uitleg": "In de zomer is het het warmst."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "In welk seizoen vallen de blaadjes?",
+     "opties": [
+      "de lente",
+      "de zomer",
+      "de herfst",
+      "de winter"
+     ],
+     "antwoord": 2,
+     "uitleg": "In de herfst kleuren en vallen de bladeren."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "In welk seizoen kan het sneeuwen?",
+     "opties": [
+      "de zomer",
+      "de lente",
+      "de herfst",
+      "de winter"
+     ],
+     "antwoord": 3,
+     "uitleg": "In de winter is het koud en kan het sneeuwen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk seizoen komt na de lente?",
+     "opties": [
+      "de zomer",
+      "de winter",
+      "de herfst",
+      "nog eens de lente"
+     ],
+     "antwoord": 0,
+     "uitleg": "Lente, zomer, herfst, winter."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk seizoen komt na de herfst?",
+     "opties": [
+      "de lente",
+      "de winter",
+      "de zomer",
+      "nog eens de herfst"
+     ],
+     "antwoord": 1,
+     "uitleg": "Na de herfst komt de winter."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wanneer heb je de lange zomervakantie?",
+     "opties": [
+      "in de winter",
+      "in de herfst",
+      "in de zomer",
+      "in de lente"
+     ],
+     "antwoord": 2,
+     "uitleg": "Juli en augustus: zomervakantie."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat raap je in de herfst in het bos?",
+     "opties": [
+      "sneeuwballen",
+      "paaseieren",
+      "aardbeien",
+      "kastanjes"
+     ],
+     "antwoord": 3,
+     "uitleg": "In de herfst vallen kastanjes en eikels."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "In welk seizoen is Kerstmis?",
+     "opties": [
+      "de winter",
+      "de zomer",
+      "de lente",
+      "de herfst"
+     ],
+     "antwoord": 0,
+     "uitleg": "Kerstmis is op 25 december, in de winter."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "In welk seizoen komen de lammetjes?",
+     "opties": [
+      "de herfst",
+      "de lente",
+      "de winter",
+      "de zomer"
+     ],
+     "antwoord": 1,
+     "uitleg": "In de lente worden veel jonge dieren geboren."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoeveel seizoenen zijn er? ___",
+     "antwoord": "4",
+     "uitleg": "Lente, zomer, herfst en winter."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "In de winter zijn de dagen kort.",
+     "antwoord": true,
+     "uitleg": "In de winter wordt het vroeg donker."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "In de zomer sneeuwt het vaak.",
+     "antwoord": false,
+     "uitleg": "In de zomer is het warm. Sneeuw zie je in de winter."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Na de winter komt de lente.",
+     "antwoord": true,
+     "uitleg": "Winter, lente, zomer, herfst."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "In de herfst krijgen de bomen nieuwe blaadjes.",
+     "antwoord": false,
+     "uitleg": "In de herfst vallen ze. Nieuwe blaadjes komen in de lente."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Sommige vogels vliegen in de herfst naar het warme zuiden.",
+     "antwoord": true,
+     "uitleg": "Zwaluwen vliegen naar Afrika."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De egel slaapt in de zomer een winterslaap.",
+     "antwoord": false,
+     "uitleg": "De egel slaapt in de winter."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "In de zomer zijn de dagen lang.",
+     "antwoord": true,
+     "uitleg": "In de zomer blijft het lang licht."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De lente begint in december.",
+     "antwoord": false,
+     "uitleg": "De lente begint in maart."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat zie je in de winter vaak op het water van een vijver?",
+     "opties": [
+      "bloemen",
+      "zand",
+      "ijs",
+      "blaadjes die groeien"
+     ],
+     "antwoord": 2,
+     "uitleg": "Als het vriest, wordt water ijs."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk seizoen zie je?",
+     "opties": [
+      "de zomer",
+      "de lente",
+      "de winter",
+      "de herfst"
+     ],
+     "antwoord": 2,
+     "uitleg": "Sneeuw, mutsen en sjaals: het is winter.",
+     "afbeelding_pad": "/examenvormen/launchpad/seizoen-sneeuw.webp"
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat smeert het meisje op haar huid?",
+     "opties": [
+      "boter",
+      "tandpasta",
+      "zeep",
+      "zonnecrème"
+     ],
+     "antwoord": 3,
+     "uitleg": "Zonnecrème beschermt je huid tegen de zon.",
+     "afbeelding_pad": "/examenvormen/launchpad/seizoen-zomer.webp"
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Op de prent is het herfst.",
+     "antwoord": true,
+     "uitleg": "De bladeren zijn geel en oranje en vallen.",
+     "afbeelding_pad": "/examenvormen/launchpad/seizoen-herfst.webp"
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk weer is het?",
+     "opties": [
+      "het waait",
+      "het sneeuwt",
+      "het is mistig",
+      "het onweert"
+     ],
+     "antwoord": 0,
+     "uitleg": "De vlieger vliegt hoog en de blaadjes waaien weg.",
+     "afbeelding_pad": "/examenvormen/launchpad/seizoen-wind.webp"
+    }
+   ]
+  },
+  {
+   "titel": "Seizoenen en weer — deel 2",
+   "niveau": "launchpad",
+   "korte_uitleg": "Zon, regen, wind en sneeuw: wat trek je aan?",
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Het regent. Wat neem je mee?",
+     "opties": [
+      "een zonnebril",
+      "een zwempak",
+      "een slee",
+      "een paraplu"
+     ],
+     "antwoord": 3,
+     "uitleg": "Een paraplu houdt je droog."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Het sneeuwt. Wat trek je aan?",
+     "opties": [
+      "een warme jas en handschoenen",
+      "een korte broek en een T-shirt",
+      "slippers",
+      "een zwempak"
+     ],
+     "antwoord": 0,
+     "uitleg": "In de sneeuw is het koud."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "De zon schijnt fel. Wat smeer je op je huid?",
+     "opties": [
+      "boter",
+      "zonnecrème",
+      "tandpasta",
+      "zeep"
+     ],
+     "antwoord": 1,
+     "uitleg": "Zonnecrème beschermt tegen verbranden."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat trek je aan als het regent?",
+     "opties": [
+      "sandalen en een dun T-shirt",
+      "een badmuts",
+      "laarzen en een regenjas",
+      "pantoffels"
+     ],
+     "antwoord": 2,
+     "uitleg": "Zo blijf je droog."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarmee meet je hoe warm het is?",
+     "opties": [
+      "een meetlat",
+      "een weegschaal",
+      "een klok",
+      "een thermometer"
+     ],
+     "antwoord": 3,
+     "uitleg": "Een thermometer toont de temperatuur."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat zie je soms als de zon schijnt terwijl het regent?",
+     "opties": [
+      "een regenboog",
+      "sneeuw",
+      "de volle maan",
+      "sterren"
+     ],
+     "antwoord": 0,
+     "uitleg": "Zon en regen samen geven een regenboog."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat kan je doen als het hard waait?",
+     "opties": [
+      "sneeuwballen gooien",
+      "vliegeren",
+      "een zandkasteel bouwen in de regen",
+      "schaatsen op het gras"
+     ],
+     "antwoord": 1,
+     "uitleg": "De wind duwt de vlieger omhoog."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat valt uit de wolken als het regent?",
+     "opties": [
+      "zand",
+      "blaadjes",
+      "waterdruppels",
+      "kleine steentjes"
+     ],
+     "antwoord": 2,
+     "uitleg": "Regen is water uit de wolken."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Bij onweer zie je bliksem en hoor je donder.",
+     "antwoord": true,
+     "uitleg": "Eerst zie je de flits, dan hoor je de knal."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Als het vriest, wordt water warm.",
+     "antwoord": false,
+     "uitleg": "Als het vriest, wordt water ijs."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Sneeuw is koud.",
+     "antwoord": true,
+     "uitleg": "Sneeuw is bevroren water."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Met een zonnebril blijf je droog in de regen.",
+     "antwoord": false,
+     "uitleg": "Een zonnebril beschermt je ogen tegen fel licht."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Wolken kunnen regen brengen.",
+     "antwoord": true,
+     "uitleg": "Uit grijze wolken komt vaak regen."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Bij mist kan je heel ver kijken.",
+     "antwoord": false,
+     "uitleg": "Bij mist zie je maar een klein stukje."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Het weerbericht vertelt welk weer het wordt.",
+     "antwoord": true,
+     "uitleg": "Op tv, radio of gsm."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een regenboog heeft maar één kleur.",
+     "antwoord": false,
+     "uitleg": "Een regenboog heeft veel kleuren."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Het is 5 graden. Morgen is het 3 graden warmer. Hoeveel graden is het morgen? ___",
+     "antwoord": "8",
+     "uitleg": "5 + 3 = 8."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk weer is goed om een sneeuwman te maken?",
+     "opties": [
+      "als het heel warm is",
+      "als het regent",
+      "als het waait zonder sneeuw",
+      "als er sneeuw ligt"
+     ],
+     "antwoord": 3,
+     "uitleg": "Zonder sneeuw geen sneeuwman."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waar schuil je best bij onweer?",
+     "opties": [
+      "binnen in huis",
+      "onder een hoge boom",
+      "op een open veld",
+      "in het water"
+     ],
+     "antwoord": 0,
+     "uitleg": "Binnen ben je veilig."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk weer hoort bij een strandvakantie?",
+     "opties": [
+      "sneeuw",
+      "zon",
+      "hagel",
+      "storm"
+     ],
+     "antwoord": 1,
+     "uitleg": "Op het strand wil je zon."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat heeft het kind aan zijn voeten?",
+     "opties": [
+      "sandalen",
+      "laarzen",
+      "pantoffels",
+      "slippers"
+     ],
+     "antwoord": 1,
+     "uitleg": "Met regenlaarzen kan je in een plas springen.",
+     "afbeelding_pad": "/examenvormen/launchpad/seizoen-plas.webp"
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De boom op de prent staat in de winter.",
+     "antwoord": false,
+     "uitleg": "De boom bloeit: het is lente.",
+     "afbeelding_pad": "/examenvormen/launchpad/seizoen-lente.webp"
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Het regent op de prent.",
+     "antwoord": true,
+     "uitleg": "Je ziet regendruppels.",
+     "afbeelding_pad": "/examenvormen/launchpad/seizoen-regen.webp"
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "In welk seizoen zie je de egel tussen de gevallen bladeren?",
+     "opties": [
+      "de zomer",
+      "de lente",
+      "de herfst",
+      "de winter"
+     ],
+     "antwoord": 2,
+     "uitleg": "Gevallen bruine en oranje bladeren: herfst.",
+     "afbeelding_pad": "/examenvormen/launchpad/seizoen-egel.webp"
+    }
+   ]
+  }
+ ]
+}

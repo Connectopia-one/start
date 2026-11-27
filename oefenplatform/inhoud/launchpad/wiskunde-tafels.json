@@ -1,0 +1,392 @@
+{
+ "hoofdstukken": [
+  {
+   "titel": "Tafels van 2, 5 en 10 — deel 1",
+   "niveau": "launchpad",
+   "korte_uitleg": "Sprongen van 2, 5 en 10 maken.",
+   "vragen": [
+    {
+     "type": "invultekst",
+     "vraag": "2, 4, 6, 8, ___",
+     "antwoord": "10",
+     "uitleg": "Telkens 2 erbij: 8 + 2 = 10."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "5, 10, 15, 20, ___",
+     "antwoord": "25",
+     "uitleg": "Telkens 5 erbij: 20 + 5 = 25."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "10, 20, 30, 40, ___",
+     "antwoord": "50",
+     "uitleg": "Telkens 10 erbij: 40 + 10 = 50."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "12, 14, 16, ___",
+     "antwoord": "18",
+     "uitleg": "Telkens 2 erbij: 16 + 2 = 18."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "35, 40, 45, ___",
+     "antwoord": "50",
+     "uitleg": "Telkens 5 erbij: 45 + 5 = 50."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "60, 70, 80, ___",
+     "antwoord": "90",
+     "uitleg": "Telkens 10 erbij: 80 + 10 = 90."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk getal hoort NIET in de rij van 2?",
+     "opties": [
+      "7",
+      "6",
+      "8",
+      "4"
+     ],
+     "antwoord": 0,
+     "uitleg": "7 is oneven. De rij van 2 heeft enkel even getallen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk getal hoort in de rij van 5?",
+     "opties": [
+      "32",
+      "30",
+      "27",
+      "18"
+     ],
+     "antwoord": 1,
+     "uitleg": "5, 10, 15, 20, 25, 30."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk getal hoort in de rij van 10?",
+     "opties": [
+      "75",
+      "17",
+      "70",
+      "71"
+     ],
+     "antwoord": 2,
+     "uitleg": "Getallen van de rij van 10 eindigen op 0."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoeveel ogen hebben 3 kinderen samen?",
+     "opties": [
+      "5",
+      "3",
+      "9",
+      "6"
+     ],
+     "antwoord": 3,
+     "uitleg": "2 + 2 + 2 = 6."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "In de rij van 10 eindigt elk getal op 0.",
+     "antwoord": true,
+     "uitleg": "10, 20, 30, 40, ... eindigen allemaal op 0."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "15 hoort in de rij van 2.",
+     "antwoord": false,
+     "uitleg": "15 is oneven. Het hoort wel in de rij van 5."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "In de rij van 5 eindigt elk getal op 0 of 5.",
+     "antwoord": true,
+     "uitleg": "5, 10, 15, 20, ... eindigen op 5 of 0."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "20, 18, 16, 14 is de rij van 2 terug.",
+     "antwoord": true,
+     "uitleg": "Telkens 2 eraf."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "40 hoort niet in de rij van 10.",
+     "antwoord": false,
+     "uitleg": "40 hoort er wel in: 10, 20, 30, 40."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De rij van 5 gaat 5, 10, 20, 25.",
+     "antwoord": false,
+     "uitleg": "15 ontbreekt: 5, 10, 15, 20, 25."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoeveel vingers hebben 4 handen samen? ___",
+     "antwoord": "20",
+     "uitleg": "5 + 5 + 5 + 5 = 20."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoeveel schoenen hebben 5 kinderen samen? ___",
+     "antwoord": "10",
+     "uitleg": "2 + 2 + 2 + 2 + 2 = 10."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Je hebt 3 briefjes van 10 euro. Hoeveel euro is dat? ___",
+     "antwoord": "30",
+     "uitleg": "10 + 10 + 10 = 30."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke rij gaat telkens 5 terug?",
+     "opties": [
+      "25, 20, 15",
+      "25, 23, 21",
+      "25, 15, 5",
+      "25, 24, 23"
+     ],
+     "antwoord": 0,
+     "uitleg": "Telkens 5 eraf: 25, 20, 15."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Tel per 2. Hoeveel eendjes zie je?",
+     "antwoord": "8",
+     "uitleg": "2, 4, 6, 8.",
+     "afbeelding_pad": "/examenvormen/launchpad/tafels-eendjes-8.webp"
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Tel per 5. Hoeveel sterren zie je?",
+     "antwoord": "15",
+     "uitleg": "5, 10, 15.",
+     "afbeelding_pad": "/examenvormen/launchpad/tafels-sterren-15.webp"
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Hier zijn 2 rijen van 10 snoepjes. Dat zijn 20 snoepjes.",
+     "antwoord": true,
+     "uitleg": "2 × 10 = 20.",
+     "afbeelding_pad": "/examenvormen/launchpad/tafels-snoepjes-20.webp"
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke som past bij de prent?",
+     "opties": [
+      "2 × 2",
+      "5 × 5",
+      "10 × 2",
+      "5 × 2"
+     ],
+     "antwoord": 3,
+     "uitleg": "5 rijen van 2 ballonnen.",
+     "afbeelding_pad": "/examenvormen/launchpad/tafels-ballonnen-10.webp"
+    }
+   ]
+  },
+  {
+   "titel": "Tafels van 2, 5 en 10 — deel 2",
+   "niveau": "launchpad",
+   "korte_uitleg": "Tafels gebruiken en eerlijk verdelen.",
+   "vragen": [
+    {
+     "type": "invultekst",
+     "vraag": "3 × 2 = ___",
+     "antwoord": "6",
+     "uitleg": "3 keer 2: 2 + 2 + 2 = 6."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "4 × 5 = ___",
+     "antwoord": "20",
+     "uitleg": "4 keer 5: 5 + 5 + 5 + 5 = 20."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "6 × 10 = ___",
+     "antwoord": "60",
+     "uitleg": "6 keer 10 = 60."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "5 × 2 = ___",
+     "antwoord": "10",
+     "uitleg": "5 keer 2 = 10."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "7 × 5 = ___",
+     "antwoord": "35",
+     "uitleg": "5, 10, 15, 20, 25, 30, 35."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "9 × 10 = ___",
+     "antwoord": "90",
+     "uitleg": "9 keer 10 = 90."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "8 × 2 = ...",
+     "opties": [
+      "10",
+      "16",
+      "14",
+      "18"
+     ],
+     "antwoord": 1,
+     "uitleg": "8 keer 2: 2, 4, 6, 8, 10, 12, 14, 16."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "2 × 5 = ...",
+     "opties": [
+      "7",
+      "25",
+      "10",
+      "12"
+     ],
+     "antwoord": 2,
+     "uitleg": "2 keer 5: 5 + 5 = 10."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke som hoort bij 4 × 2?",
+     "opties": [
+      "4 + 2",
+      "4 + 4 + 4 + 4",
+      "2 + 2 + 2",
+      "2 + 2 + 2 + 2"
+     ],
+     "antwoord": 3,
+     "uitleg": "4 keer 2 is 4 keer de 2."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je verdeelt 10 koekjes eerlijk over 2 kinderen. Hoeveel krijgt elk kind?",
+     "opties": [
+      "5",
+      "4",
+      "2",
+      "8"
+     ],
+     "antwoord": 0,
+     "uitleg": "5 + 5 = 10."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "3 × 10 = 30",
+     "antwoord": true,
+     "uitleg": "10 + 10 + 10 = 30."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "6 × 2 = 14",
+     "antwoord": false,
+     "uitleg": "6 × 2 = 12."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "5 × 5 = 25",
+     "antwoord": true,
+     "uitleg": "5 + 5 + 5 + 5 + 5 = 25."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "10 × 2 = 12",
+     "antwoord": false,
+     "uitleg": "10 × 2 = 20."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Je verdeelt 20 knikkers eerlijk over 2 zakjes. Hoeveel per zakje? ___",
+     "antwoord": "10",
+     "uitleg": "10 + 10 = 20."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Je verdeelt 15 stickers eerlijk over 3 kinderen. Hoeveel krijgt elk kind? ___",
+     "antwoord": "5",
+     "uitleg": "5 + 5 + 5 = 15."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "In 1 doos zitten 10 eieren. Hoeveel eieren zitten in 4 dozen?",
+     "opties": [
+      "14",
+      "40",
+      "44",
+      "30"
+     ],
+     "antwoord": 1,
+     "uitleg": "4 × 10 = 40."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Een fiets heeft 2 wielen. Hoeveel wielen hebben 7 fietsen?",
+     "opties": [
+      "9",
+      "12",
+      "14",
+      "16"
+     ],
+     "antwoord": 2,
+     "uitleg": "7 × 2 = 14."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "4 × 5 is evenveel als 5 × 4.",
+     "antwoord": true,
+     "uitleg": "Allebei 20."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Eerlijk verdelen betekent dat iedereen evenveel krijgt.",
+     "antwoord": true,
+     "uitleg": "Bij eerlijk verdelen krijgt iedereen hetzelfde."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "In elke rij liggen 2 blokjes. Hoeveel rijen zijn er?",
+     "antwoord": "6",
+     "uitleg": "12 blokjes, 2 per rij: 6 rijen.",
+     "afbeelding_pad": "/examenvormen/launchpad/tafels-blokjes-12.webp"
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke som past bij de prent?",
+     "opties": [
+      "5 × 5",
+      "5 × 2",
+      "2 × 5",
+      "10 × 5"
+     ],
+     "antwoord": 0,
+     "uitleg": "5 rijen van 5 knikkers: 25.",
+     "afbeelding_pad": "/examenvormen/launchpad/tafels-knikkers-25.webp"
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Je verdeelt deze beertjes eerlijk over 2 kinderen. Hoeveel krijgt elk kind?",
+     "antwoord": "5",
+     "uitleg": "10 beertjes over 2: elk 5.",
+     "afbeelding_pad": "/examenvormen/launchpad/tafels-beertjes-10.webp"
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Bij deze prent past 3 × 5 = 15.",
+     "antwoord": false,
+     "uitleg": "3 rijen van 10 bloemen: 3 × 10 = 30.",
+     "afbeelding_pad": "/examenvormen/launchpad/tafels-bloemen-30.webp"
+    }
+   ]
+  }
+ ]
+}

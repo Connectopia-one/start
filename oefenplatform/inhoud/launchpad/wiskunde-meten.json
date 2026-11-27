@@ -1,0 +1,419 @@
+{
+ "hoofdstukken": [
+  {
+   "titel": "Meten en geld — deel 1",
+   "niveau": "launchpad",
+   "korte_uitleg": "Langer, zwaarder, meer: meten met meter, kilogram en liter.",
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is het langst?",
+     "opties": [
+      "een bus",
+      "een fiets",
+      "een potlood",
+      "een schoen"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een bus is veel langer dan een fiets."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is het zwaarst?",
+     "opties": [
+      "een hond",
+      "een olifant",
+      "een kat",
+      "een muis"
+     ],
+     "antwoord": 1,
+     "uitleg": "Een olifant weegt het meest."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waar kan het meeste water in?",
+     "opties": [
+      "een glas",
+      "een tas",
+      "een bad",
+      "een emmer"
+     ],
+     "antwoord": 2,
+     "uitleg": "In een bad past veel meer water dan in een emmer."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarmee meet je hoe lang iets is?",
+     "opties": [
+      "een weegschaal",
+      "een klok",
+      "een maatbeker",
+      "een meetlat"
+     ],
+     "antwoord": 3,
+     "uitleg": "Met een meetlat of lintmeter meet je lengte."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarmee meet je hoe zwaar iets is?",
+     "opties": [
+      "een weegschaal",
+      "een meetlat",
+      "een thermometer",
+      "een klok"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een weegschaal toont het gewicht."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat meet je in liter?",
+     "opties": [
+      "de lengte van een tafel",
+      "melk in een fles",
+      "het gewicht van een appel",
+      "hoe laat het is"
+     ],
+     "antwoord": 1,
+     "uitleg": "Liter gebruik je voor wat je kan gieten."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat meet je in kilogram?",
+     "opties": [
+      "een fles water gieten",
+      "de lengte van een gang",
+      "een zak aardappelen",
+      "de tijd van een film"
+     ],
+     "antwoord": 2,
+     "uitleg": "Kilogram gaat over hoe zwaar iets is."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe lang is een deur ongeveer?",
+     "opties": [
+      "2 centimeter",
+      "20 meter",
+      "200 meter",
+      "2 meter"
+     ],
+     "antwoord": 3,
+     "uitleg": "Een volwassene past er net onder: ongeveer 2 meter."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een meter is langer dan een centimeter.",
+     "antwoord": true,
+     "uitleg": "In 1 meter passen 100 centimeter."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een veer is zwaarder dan een steen.",
+     "antwoord": false,
+     "uitleg": "Een steen is zwaarder."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een emmer water kan je meten in liter.",
+     "antwoord": true,
+     "uitleg": "Water giet je, dus meet je in liter."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een meetlat gebruik je om te wegen.",
+     "antwoord": false,
+     "uitleg": "Een meetlat gebruik je om lengte te meten. Wegen doe je met een weegschaal."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een pak melk is vaak 1 liter.",
+     "antwoord": true,
+     "uitleg": "De meeste pakken melk zijn 1 liter."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een appel weegt ongeveer 10 kilogram.",
+     "antwoord": false,
+     "uitleg": "Een appel weegt veel minder: ongeveer 200 gram."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Een plank is 8 meter. Je zaagt er 3 meter af. Hoeveel meter blijft er over? ___",
+     "antwoord": "5",
+     "uitleg": "8 − 3 = 5."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Een lint is 6 cm. Een ander lint is 9 cm. Hoeveel cm samen? ___",
+     "antwoord": "15",
+     "uitleg": "6 + 9 = 15."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "In een kan zit 4 liter. Je giet er 2 liter bij. Hoeveel liter nu? ___",
+     "antwoord": "6",
+     "uitleg": "4 + 2 = 6."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Jan weegt 25 kg. Zijn zus weegt 30 kg. Hoeveel kg weegt zijn zus meer? ___",
+     "antwoord": "5",
+     "uitleg": "30 − 25 = 5."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Hoe langer de streep, hoe meer centimeter.",
+     "antwoord": true,
+     "uitleg": "Een langere streep meet meer centimeter."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een zwaar ding is altijd groot.",
+     "antwoord": false,
+     "uitleg": "Een kleine steen kan zwaarder zijn dan een groot kussen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk dier is het zwaarst?",
+     "opties": [
+      "de muis",
+      "ze wegen evenveel",
+      "de olifant"
+     ],
+     "antwoord": 2,
+     "uitleg": "Een olifant weegt veel meer dan een muis.",
+     "afbeelding_pad": "/examenvormen/launchpad/meten-olifant-muis.webp"
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk ding is in het echt het langst?",
+     "opties": [
+      "de deur",
+      "het potlood",
+      "het mes"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een deur is ongeveer 2 meter. Een potlood en een mes zijn veel korter.",
+     "afbeelding_pad": "/examenvormen/launchpad/meten-deur-potlood-mes.webp"
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Het glas is vol water.",
+     "antwoord": false,
+     "uitleg": "Het glas is leeg.",
+     "afbeelding_pad": "/examenvormen/launchpad/meten-glas-leeg.webp"
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoeveel euro is dit samen?",
+     "antwoord": "5",
+     "uitleg": "2 + 2 + 1 = 5.",
+     "afbeelding_pad": "/examenvormen/launchpad/meten-geld-5.webp"
+    }
+   ]
+  },
+  {
+   "titel": "Meten en geld — deel 2",
+   "niveau": "launchpad",
+   "korte_uitleg": "Betalen met munten en briefjes in euro.",
+   "vragen": [
+    {
+     "type": "invultekst",
+     "vraag": "Een munt van 2 euro en een munt van 1 euro. Hoeveel euro is dat? ___",
+     "antwoord": "3",
+     "uitleg": "2 + 1 = 3."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Een briefje van 10 euro en een briefje van 5 euro. Hoeveel euro? ___",
+     "antwoord": "15",
+     "uitleg": "10 + 5 = 15."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Twee briefjes van 20 euro. Hoeveel euro? ___",
+     "antwoord": "40",
+     "uitleg": "20 + 20 = 40."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Een briefje van 50 euro en een briefje van 10 euro. Hoeveel euro? ___",
+     "antwoord": "60",
+     "uitleg": "50 + 10 = 60."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Een boek kost 8 euro. Je betaalt met 10 euro. Hoeveel krijg je terug? ___",
+     "antwoord": "2",
+     "uitleg": "10 − 8 = 2."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Een bal kost 15 euro. Je betaalt met 20 euro. Hoeveel krijg je terug? ___",
+     "antwoord": "5",
+     "uitleg": "20 − 15 = 5."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk geld is het meest waard?",
+     "opties": [
+      "een briefje van 20 euro",
+      "een munt van 2 euro",
+      "een briefje van 10 euro",
+      "een briefje van 5 euro"
+     ],
+     "antwoord": 0,
+     "uitleg": "20 euro is het meest."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke munt is er GEEN?",
+     "opties": [
+      "een munt van 1 euro",
+      "een munt van 3 euro",
+      "een munt van 2 euro",
+      "een munt van 50 cent"
+     ],
+     "antwoord": 1,
+     "uitleg": "Munten van 3 euro bestaan niet."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe betaal je 7 euro met munten?",
+     "opties": [
+      "2 + 2 + 2 + 2",
+      "2 + 2 + 1",
+      "2 + 2 + 2 + 1",
+      "1 + 1 + 2 + 2"
+     ],
+     "antwoord": 2,
+     "uitleg": "2 + 2 + 2 + 1 = 7."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe betaal je 25 euro?",
+     "opties": [
+      "20 + 10",
+      "10 + 10",
+      "10 + 5 + 5",
+      "20 + 5"
+     ],
+     "antwoord": 3,
+     "uitleg": "20 + 5 = 25."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een briefje van 10 euro is evenveel als 5 munten van 2 euro.",
+     "antwoord": true,
+     "uitleg": "2 + 2 + 2 + 2 + 2 = 10."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een munt van 1 euro is meer waard dan een briefje van 5 euro.",
+     "antwoord": false,
+     "uitleg": "5 euro is meer dan 1 euro."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Twee briefjes van 50 euro is samen 100 euro.",
+     "antwoord": true,
+     "uitleg": "50 + 50 = 100."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Met 10 euro kan je een fiets van 100 euro betalen.",
+     "antwoord": false,
+     "uitleg": "Je hebt dan 90 euro te weinig."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Een ijsje kost 3 euro. Hoeveel kosten 2 ijsjes? ___",
+     "antwoord": "6",
+     "uitleg": "3 + 3 = 6."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Je hebt 12 euro. Je koopt een strip van 7 euro. Hoeveel hou je over? ___",
+     "antwoord": "5",
+     "uitleg": "12 − 7 = 5."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Een appel kost 1 euro, een peer kost 2 euro. Hoeveel betaal je voor de twee samen?",
+     "opties": [
+      "3 euro",
+      "2 euro",
+      "4 euro",
+      "1 euro"
+     ],
+     "antwoord": 0,
+     "uitleg": "1 + 2 = 3."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Lisa heeft 5 euro. Wat kan ze kopen?",
+     "opties": [
+      "een spel van 9 euro",
+      "een schrift van 4 euro",
+      "een pet van 6 euro",
+      "een bal van 12 euro"
+     ],
+     "antwoord": 1,
+     "uitleg": "4 euro is minder dan 5 euro."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Op een kassabon staat hoeveel je betaald hebt.",
+     "antwoord": true,
+     "uitleg": "Op een kassabon zie je wat je kocht en wat het kostte."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Hoe duurder iets is, hoe minder geld je ervoor nodig hebt.",
+     "antwoord": false,
+     "uitleg": "Hoe duurder, hoe meer geld je nodig hebt."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoeveel euro is dit samen?",
+     "antwoord": "8",
+     "uitleg": "5 + 2 + 1 = 8.",
+     "afbeelding_pad": "/examenvormen/launchpad/meten-geld-8.webp"
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Een boek kost 12 euro. Je betaalt met dit geld. Hoeveel krijg je terug?",
+     "opties": [
+      "3 euro",
+      "2 euro",
+      "5 euro",
+      "13 euro"
+     ],
+     "antwoord": 0,
+     "uitleg": "10 + 5 = 15. 15 − 12 = 3.",
+     "afbeelding_pad": "/examenvormen/launchpad/meten-geld-15.webp"
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Dit is evenveel als een briefje van 10 euro.",
+     "antwoord": true,
+     "uitleg": "5 munten van 2 euro: 10 euro.",
+     "afbeelding_pad": "/examenvormen/launchpad/meten-geld-10.webp"
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is het lichtst?",
+     "opties": [
+      "de olifant",
+      "ze wegen evenveel",
+      "de ballon"
+     ],
+     "antwoord": 2,
+     "uitleg": "Een ballon is heel licht.",
+     "afbeelding_pad": "/examenvormen/launchpad/meten-ballon-olifant.webp"
+    }
+   ]
+  }
+ ]
+}

@@ -99,7 +99,7 @@ export const scholen: { slug: School; titel: string; tekst: string }[] = [
   {
     slug: "lager",
     titel: "Lagere school",
-    tekst: "🧱 Basis, 🎒 Ready en 🌱 Start, van het 3de tot het 6de leerjaar",
+    tekst: "🧱 Basis, 🪁 Launchpad, 🎒 Ready en 🌱 Start, van het 1ste tot het 6de leerjaar",
   },
   {
     slug: "middelbaar",

@@ -1,0 +1,458 @@
+{
+ "hoofdstukken": [
+  {
+   "titel": "Zinnen maken — deel 1",
+   "niveau": "launchpad",
+   "korte_uitleg": "Een zin begint met een hoofdletter en eindigt met een punt.",
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke zin is goed geschreven?",
+     "opties": [
+      "Ik eet een appel.",
+      "ik eet een appel.",
+      "Ik eet een appel",
+      "ik eet een appel"
+     ],
+     "antwoord": 0,
+     "uitleg": "Hoofdletter vooraan, punt achteraan."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke zin over de kat is goed geschreven?",
+     "opties": [
+      "de kat slaapt.",
+      "De kat slaapt.",
+      "De kat slaapt",
+      "de Kat slaapt"
+     ],
+     "antwoord": 1,
+     "uitleg": "Hoofdletter vooraan, punt achteraan."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk teken komt achter een vraag?",
+     "opties": [
+      ".",
+      "!",
+      "?",
+      ","
+     ],
+     "antwoord": 2,
+     "uitleg": "Achter een vraag zet je een vraagteken."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk teken komt achter een gewone zin?",
+     "opties": [
+      "?",
+      "!",
+      ",",
+      "."
+     ],
+     "antwoord": 3,
+     "uitleg": "Achter een gewone zin zet je een punt."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke zin is een vraag?",
+     "opties": [
+      "Ga je mee?",
+      "Ik ga mee.",
+      "Ga mee!",
+      "Wij gaan mee."
+     ],
+     "antwoord": 0,
+     "uitleg": "Een vraag eindigt met een vraagteken."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk woord krijgt altijd een hoofdletter?",
+     "opties": [
+      "fiets",
+      "Lotte",
+      "school",
+      "boek"
+     ],
+     "antwoord": 1,
+     "uitleg": "Een naam krijgt een hoofdletter."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke naam van een stad schrijf je goed?",
+     "opties": [
+      "gent",
+      "gEnt",
+      "Gent",
+      "GENt"
+     ],
+     "antwoord": 2,
+     "uitleg": "De naam van een stad begint met een hoofdletter, de rest zijn kleine letters."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe begint een zin?",
+     "opties": [
+      "met een punt",
+      "met een vraagteken",
+      "met een kleine letter",
+      "met een hoofdletter"
+     ],
+     "antwoord": 3,
+     "uitleg": "Elke zin begint met een hoofdletter."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'de zon schijnt.' is goed geschreven.",
+     "antwoord": false,
+     "uitleg": "De eerste letter moet een hoofdletter zijn: De zon schijnt."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'Waar woon jij?' is een vraag.",
+     "antwoord": true,
+     "uitleg": "Er staat een vraagteken achter."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een naam schrijf je met een hoofdletter.",
+     "antwoord": true,
+     "uitleg": "Mia, Tom, Brussel: allemaal met een hoofdletter."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Achter een vraag zet je een punt.",
+     "antwoord": false,
+     "uitleg": "Achter een vraag zet je een vraagteken."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'Ik heb honger.' is een goede zin.",
+     "antwoord": true,
+     "uitleg": "Hoofdletter vooraan, punt achteraan."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'Hoe heet jij.' is goed geschreven.",
+     "antwoord": false,
+     "uitleg": "Het is een vraag, dus: Hoe heet jij?"
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoeveel woorden staan in de zin 'Ik lees een boek.'? ___",
+     "antwoord": "4",
+     "uitleg": "Ik - lees - een - boek: 4 woorden."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoeveel woorden staan in de zin 'De hond rent.'? ___",
+     "antwoord": "3",
+     "uitleg": "De - hond - rent: 3 woorden."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoeveel woorden staan in de zin 'Mama drinkt een kop thee.'? ___",
+     "antwoord": "5",
+     "uitleg": "Mama - drinkt - een - kop - thee: 5 woorden."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'Mag ik mee spelen?' eindigt met een vraagteken.",
+     "antwoord": true,
+     "uitleg": "Het is een vraag."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Tussen twee woorden laat je geen ruimte.",
+     "antwoord": false,
+     "uitleg": "Tussen woorden laat je een kleine ruimte."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een zin kan uit twee woorden bestaan.",
+     "antwoord": true,
+     "uitleg": "Bijvoorbeeld: Tom lacht."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke zin past bij de prent en is goed geschreven?",
+     "opties": [
+      "De hond blaft.",
+      "de hond blaft.",
+      "De hond blaft",
+      "de Hond blaft"
+     ],
+     "antwoord": 0,
+     "uitleg": "Hoofdletter vooraan, punt achteraan.",
+     "afbeelding_pad": "/examenvormen/launchpad/zin-hond-blaft.webp"
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Zet in de goede volgorde: trapt / Het kind / de bal",
+     "opties": [
+      "De bal trapt het kind.",
+      "Het kind trapt de bal.",
+      "Trapt het kind de bal.",
+      "Het kind de bal trapt."
+     ],
+     "antwoord": 1,
+     "uitleg": "Eerst wie, dan wat het doet.",
+     "afbeelding_pad": "/examenvormen/launchpad/zin-bal.webp"
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De zin 'De koe staat in de wei.' past bij de prent.",
+     "antwoord": true,
+     "uitleg": "Je ziet een koe in de wei.",
+     "afbeelding_pad": "/examenvormen/launchpad/zin-koe.webp"
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoeveel woorden staan in de zin 'De kat zit.'?",
+     "antwoord": "3",
+     "uitleg": "De - kat - zit: 3 woorden.",
+     "afbeelding_pad": "/examenvormen/launchpad/zin-kat.webp"
+    }
+   ]
+  },
+  {
+   "titel": "Zinnen maken — deel 2",
+   "niveau": "launchpad",
+   "korte_uitleg": "Woorden in de goede volgorde zetten.",
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Zet in de goede volgorde: kat / De / slaapt",
+     "opties": [
+      "De kat slaapt.",
+      "Slaapt de kat.",
+      "Kat de slaapt.",
+      "De slaapt kat."
+     ],
+     "antwoord": 0,
+     "uitleg": "Eerst wie, dan wat hij doet."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Zet in de goede volgorde: speelt / Tom / buiten",
+     "opties": [
+      "Buiten Tom speelt.",
+      "Tom speelt buiten.",
+      "Speelt Tom buiten.",
+      "Tom buiten speelt."
+     ],
+     "antwoord": 1,
+     "uitleg": "Tom speelt buiten."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Zet in de goede volgorde: eet / Ik / brood",
+     "opties": [
+      "Brood ik eet.",
+      "Eet ik brood.",
+      "Ik eet brood.",
+      "Ik brood eet."
+     ],
+     "antwoord": 2,
+     "uitleg": "Ik eet brood."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Zet in de goede volgorde: is / De / groot / boom",
+     "opties": [
+      "De groot is boom.",
+      "Boom de is groot.",
+      "Groot de boom is.",
+      "De boom is groot."
+     ],
+     "antwoord": 3,
+     "uitleg": "De boom is groot."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Maak er een vraag van: Jij komt mee.",
+     "opties": [
+      "Kom jij mee?",
+      "Jij komt mee.",
+      "Kom jij mee.",
+      "jij komt mee?"
+     ],
+     "antwoord": 0,
+     "uitleg": "Bij een vraag zet je het werkwoord vooraan en een vraagteken achteraan."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Maak er een vraag van: Hij is ziek.",
+     "opties": [
+      "Hij is ziek.",
+      "Is hij ziek?",
+      "Is hij ziek.",
+      "hij is ziek?"
+     ],
+     "antwoord": 1,
+     "uitleg": "Is hij ziek?"
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk woord past? 'Ik ... naar school.'",
+     "opties": [
+      "fietsen",
+      "fietst",
+      "fiets",
+      "fiets je"
+     ],
+     "antwoord": 2,
+     "uitleg": "Ik fiets."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk woord past? 'Wij ... samen.'",
+     "opties": [
+      "speel",
+      "speelt",
+      "spelend",
+      "spelen"
+     ],
+     "antwoord": 3,
+     "uitleg": "Wij spelen."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'Rent de hond.' is een goede zin.",
+     "antwoord": false,
+     "uitleg": "Beter: De hond rent."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'De bal is rond.' is een goede zin.",
+     "antwoord": true,
+     "uitleg": "Alle woorden staan goed."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'Ik heb een fiets nieuwe.' klopt.",
+     "antwoord": false,
+     "uitleg": "Goed is: Ik heb een nieuwe fiets."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'Wil jij een koekje?' is een vraag.",
+     "antwoord": true,
+     "uitleg": "Het werkwoord staat vooraan en er staat een vraagteken."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'Ik ben zeven jaar.' is een goede zin.",
+     "antwoord": true,
+     "uitleg": "Alles staat goed."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'boek een lees ik' is een goede zin.",
+     "antwoord": false,
+     "uitleg": "Goed is: Ik lees een boek."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke zin past bij een kind dat lacht?",
+     "opties": [
+      "Het meisje lacht.",
+      "Het meisje huilt.",
+      "Het meisje slaapt.",
+      "Het meisje is boos."
+     ],
+     "antwoord": 0,
+     "uitleg": "Lachen = blij zijn."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk woord vertelt wat iemand doet? 'De vogel zingt.'",
+     "opties": [
+      "De",
+      "zingt",
+      "vogel",
+      "geen enkel woord"
+     ],
+     "antwoord": 1,
+     "uitleg": "Zingen is iets wat je doet."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk woord vertelt wie iets doet? 'Papa kookt.'",
+     "opties": [
+      "kookt",
+      "geen enkel woord",
+      "Papa",
+      "allebei"
+     ],
+     "antwoord": 2,
+     "uitleg": "Papa is degene die kookt."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke zin maakt 'De kat slaapt.' langer?",
+     "opties": [
+      "De kat.",
+      "Slaapt.",
+      "Kat slaapt.",
+      "De kat slaapt in de zon."
+     ],
+     "antwoord": 3,
+     "uitleg": "'in de zon' vertelt er meer bij."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Je kan een zin langer maken met woorden zoals 'in de tuin'.",
+     "antwoord": true,
+     "uitleg": "De hond rent in de tuin."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een zin zonder punt is ook af.",
+     "antwoord": false,
+     "uitleg": "Een zin is pas af met een punt, vraagteken of uitroepteken."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke zin is een vraag over de prent?",
+     "opties": [
+      "De vogel vliegt weg.",
+      "De vogel vliegt.",
+      "Waar vliegt de vogel naartoe?",
+      "Weg vliegt de vogel."
+     ],
+     "antwoord": 2,
+     "uitleg": "Een vraag eindigt met een vraagteken.",
+     "afbeelding_pad": "/examenvormen/launchpad/zin-vogel.webp"
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'Wie is er jarig?' is een vraag.",
+     "antwoord": true,
+     "uitleg": "Er staat een vraagteken achter.",
+     "afbeelding_pad": "/examenvormen/launchpad/zin-feesthoedje.webp"
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk woord ontbreekt? 'Ik eet een ...'",
+     "opties": [
+      "boek",
+      "bal",
+      "fiets",
+      "ijsje"
+     ],
+     "antwoord": 3,
+     "uitleg": "Je ziet een ijsje. Dat kan je eten.",
+     "afbeelding_pad": "/examenvormen/launchpad/zin-ijsje.webp"
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De zin 'De trein rijdt.' eindigt met een vraagteken.",
+     "antwoord": false,
+     "uitleg": "Het is een gewone zin: hij eindigt met een punt.",
+     "afbeelding_pad": "/examenvormen/launchpad/zin-trein.webp"
+    }
+   ]
+  }
+ ]
+}

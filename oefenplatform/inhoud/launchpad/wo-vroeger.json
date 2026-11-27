@@ -1,0 +1,463 @@
+{
+ "hoofdstukken": [
+  {
+   "titel": "Vroeger en nu — deel 1",
+   "niveau": "launchpad",
+   "korte_uitleg": "Baby, kind, volwassene: zo word je ouder.",
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Wie is het jongst?",
+     "opties": [
+      "een baby",
+      "een kleuter",
+      "een tiener",
+      "een opa"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een baby is pas geboren."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wie is het oudst?",
+     "opties": [
+      "een mama",
+      "een overgrootmoeder",
+      "een kind",
+      "een baby"
+     ],
+     "antwoord": 1,
+     "uitleg": "De mama van je opa of oma is je overgrootmoeder."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat kon je als baby nog niet?",
+     "opties": [
+      "huilen",
+      "slapen",
+      "lopen",
+      "drinken"
+     ],
+     "antwoord": 2,
+     "uitleg": "Een baby leert pas lopen rond 1 jaar."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wie is de mama van je mama?",
+     "opties": [
+      "je tante",
+      "je zus",
+      "je nicht",
+      "je oma"
+     ],
+     "antwoord": 3,
+     "uitleg": "De mama van je mama of papa is je oma."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wie is de papa van je papa?",
+     "opties": [
+      "je opa",
+      "je oom",
+      "je broer",
+      "je neef"
+     ],
+     "antwoord": 0,
+     "uitleg": "De papa van je papa of mama is je opa."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat gebeurt er elk jaar op je verjaardag?",
+     "opties": [
+      "je wordt jonger",
+      "je wordt een jaar ouder",
+      "je wordt een baby",
+      "er gebeurt niets"
+     ],
+     "antwoord": 1,
+     "uitleg": "Op je verjaardag word je een jaar ouder."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat gebeurde eerst?",
+     "opties": [
+      "je ging naar het 1ste leerjaar",
+      "je leerde fietsen",
+      "je was een baby",
+      "je leerde lezen"
+     ],
+     "antwoord": 2,
+     "uitleg": "Eerst baby, dan kleuter, dan school."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waar zie je foto's van toen je klein was?",
+     "opties": [
+      "in de koelkast",
+      "in een kookboek",
+      "op de stoep",
+      "in een fotoalbum"
+     ],
+     "antwoord": 3,
+     "uitleg": "Oude foto's zitten in een album of op de computer."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Je bent nu groter dan toen je een baby was.",
+     "antwoord": true,
+     "uitleg": "Elk jaar groei je een beetje."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een baby kan al lezen.",
+     "antwoord": false,
+     "uitleg": "Lezen leer je in het 1ste leerjaar."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Je oma was vroeger ook een kind.",
+     "antwoord": true,
+     "uitleg": "Iedereen was ooit een kind."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Gisteren is in de toekomst.",
+     "antwoord": false,
+     "uitleg": "Gisteren is voorbij: het verleden."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Morgen is in de toekomst.",
+     "antwoord": true,
+     "uitleg": "Morgen moet nog komen."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Je opa is jonger dan jij.",
+     "antwoord": false,
+     "uitleg": "Je opa is ouder dan je mama of papa, en dus ook ouder dan jij."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "In een fotoalbum kan je zien hoe je vroeger was.",
+     "antwoord": true,
+     "uitleg": "Foto's tonen vroeger."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Volwassenen worden elk jaar jonger.",
+     "antwoord": false,
+     "uitleg": "Iedereen wordt elk jaar ouder."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Je bent 6 jaar. Hoe oud ben je over 1 jaar? ___",
+     "antwoord": "7",
+     "uitleg": "6 + 1 = 7."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Je zus is 3 jaar ouder dan jij. Jij bent 7. Hoe oud is ze? ___",
+     "antwoord": "10",
+     "uitleg": "7 + 3 = 10."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk woord past bij iets dat al voorbij is?",
+     "opties": [
+      "vroeger",
+      "morgen",
+      "straks",
+      "later"
+     ],
+     "antwoord": 0,
+     "uitleg": "Vroeger is voorbij."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk woord past bij iets dat nog moet komen?",
+     "opties": [
+      "gisteren",
+      "later",
+      "vroeger",
+      "vorig jaar"
+     ],
+     "antwoord": 1,
+     "uitleg": "Later is in de toekomst."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat gebruikte men vroeger om licht te maken?",
+     "opties": [
+      "de kaars",
+      "de lamp",
+      "allebei even oud"
+     ],
+     "antwoord": 0,
+     "uitleg": "Kaarsen bestaan al veel langer dan lampen.",
+     "afbeelding_pad": "/examenvormen/launchpad/vroeger-kaars-lamp.webp"
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De telefoon met draad is ouder dan de gsm.",
+     "antwoord": true,
+     "uitleg": "Eerst had men telefoons met een draad, later kwam de gsm.",
+     "afbeelding_pad": "/examenvormen/launchpad/vroeger-telefoons.webp"
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoeveel kaarsjes staan op de taart?",
+     "antwoord": "4",
+     "uitleg": "Tel de kaarsjes: 4.",
+     "afbeelding_pad": "/examenvormen/launchpad/vroeger-taart.webp"
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wanneer werd deze tekening gemaakt?",
+     "opties": [
+      "gisteren na school",
+      "heel lang geleden",
+      "vorige week"
+     ],
+     "antwoord": 1,
+     "uitleg": "Mensen van heel vroeger tekenden dieren op de muur van een grot.",
+     "afbeelding_pad": "/examenvormen/launchpad/vroeger-grot.webp"
+    }
+   ]
+  },
+  {
+   "titel": "Vroeger en nu — deel 2",
+   "niveau": "launchpad",
+   "korte_uitleg": "Hoe leefden opa en oma toen ze klein waren?",
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarmee belden mensen vroeger?",
+     "opties": [
+      "een gsm",
+      "een tablet",
+      "een telefoon met een draad",
+      "een slimme horloge"
+     ],
+     "antwoord": 2,
+     "uitleg": "Vroeger hing de telefoon met een draad aan de muur."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarmee gaf men licht voor er elektriciteit was?",
+     "opties": [
+      "een lamp met batterij",
+      "een gsm-lampje",
+      "een ledlamp",
+      "een kaars"
+     ],
+     "antwoord": 3,
+     "uitleg": "Vroeger gebruikte men kaarsen en olielampen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe reisden mensen heel vroeger?",
+     "opties": [
+      "te voet of met paard en kar",
+      "met het vliegtuig",
+      "met de elektrische auto",
+      "met de metro onder de grond"
+     ],
+     "antwoord": 0,
+     "uitleg": "Auto's bestonden nog niet."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe wasten mensen vroeger hun kleren?",
+     "opties": [
+      "met een moderne wasmachine",
+      "met de hand in een kuip",
+      "met een droogkast",
+      "in de vaatwasmachine"
+     ],
+     "antwoord": 1,
+     "uitleg": "Vroeger waste men met de hand."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is nieuw, dat er vroeger niet was?",
+     "opties": [
+      "een boek",
+      "een stoel",
+      "een tablet",
+      "een lepel"
+     ],
+     "antwoord": 2,
+     "uitleg": "Tablets bestaan nog niet zo lang."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is oud, dat er vroeger ook al was?",
+     "opties": [
+      "een gsm",
+      "een tablet",
+      "een spelconsole",
+      "een fiets"
+     ],
+     "antwoord": 3,
+     "uitleg": "Fietsen bestaan al heel lang."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waarop schreven kinderen vroeger op school?",
+     "opties": [
+      "een lei met een griffel",
+      "een tablet",
+      "een laptop",
+      "een groot digitaal schoolbord"
+     ],
+     "antwoord": 0,
+     "uitleg": "Vroeger schreven kinderen op een leitje."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wie kan je vragen hoe het vroeger was?",
+     "opties": [
+      "je kleine broer",
+      "je opa of oma",
+      "de baby",
+      "je knuffel"
+     ],
+     "antwoord": 1,
+     "uitleg": "Opa en oma weten hoe het vroeger was."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Vroeger had iedereen een gsm.",
+     "antwoord": false,
+     "uitleg": "Gsm's bestaan pas ongeveer 30 jaar."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Vroeger gebruikten mensen kaarsen voor licht.",
+     "antwoord": true,
+     "uitleg": "Voor er elektriciteit was."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Je opa speelde als kind met een tablet.",
+     "antwoord": false,
+     "uitleg": "Tablets bestonden toen nog niet."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een paard en kar is een oud vervoermiddel.",
+     "antwoord": true,
+     "uitleg": "Voor de auto reden mensen met paard en kar."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Vroeger waren er al vliegtuigen voor iedereen.",
+     "antwoord": false,
+     "uitleg": "Lang geleden bestonden er nog geen vliegtuigen."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Kinderen speelden vroeger ook met een bal.",
+     "antwoord": true,
+     "uitleg": "Ballen bestaan al heel lang."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een oude telefoon had vaak een draad.",
+     "antwoord": true,
+     "uitleg": "Die hing aan de muur of stond op een kastje."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een gsm is ouder dan een kaars.",
+     "antwoord": false,
+     "uitleg": "Kaarsen bestaan al veel langer."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoeveel jaar zitten in 10 jaar plus 10 jaar? ___",
+     "antwoord": "20",
+     "uitleg": "10 + 10 = 20."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat zet je op een tijdlijn eerst?",
+     "opties": [
+      "het nieuwste",
+      "het mooiste",
+      "het oudste",
+      "het grootste"
+     ],
+     "antwoord": 2,
+     "uitleg": "Op een tijdlijn zet je het oudste vooraan."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is het oudst?",
+     "opties": [
+      "een gloeilamp",
+      "een ledlamp",
+      "een gsm-lampje",
+      "een kaars"
+     ],
+     "antwoord": 3,
+     "uitleg": "Kaarsen bestaan al het langst."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is het nieuwst?",
+     "opties": [
+      "een gsm",
+      "een oude telefoon met draad",
+      "een brief",
+      "een postduif"
+     ],
+     "antwoord": 0,
+     "uitleg": "De gsm is het nieuwst."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Bestond dit al toen je overgrootouders kind waren?",
+     "opties": [
+      "ja",
+      "nee"
+     ],
+     "antwoord": 1,
+     "uitleg": "Gsm's bestaan nog niet zo lang.",
+     "afbeelding_pad": "/examenvormen/launchpad/vroeger-gsm.webp"
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Mensen gebruiken al heel lang kaarsen.",
+     "antwoord": true,
+     "uitleg": "Kaarsen bestaan al heel lang.",
+     "afbeelding_pad": "/examenvormen/launchpad/vroeger-kaars.webp"
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat vier je met deze taart?",
+     "opties": [
+      "een verjaardag",
+      "Kerstmis",
+      "Pasen",
+      "Halloween"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een taart met kaarsjes hoort bij een verjaardag.",
+     "afbeelding_pad": "/examenvormen/launchpad/vroeger-verjaardag.webp"
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Wat is het oudst? Schrijf de letter.",
+     "antwoord": [
+      "A",
+      "a"
+     ],
+     "uitleg": "De kaars (A) is het oudst. Daarna kwam de lamp, en het laatst de gsm.",
+     "afbeelding_pad": "/examenvormen/ready/tijd-oudste.webp"
+    }
+   ]
+  }
+ ]
+}

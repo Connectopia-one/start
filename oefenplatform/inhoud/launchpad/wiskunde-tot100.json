@@ -1,0 +1,432 @@
+{
+ "hoofdstukken": [
+  {
+   "titel": "Getallen tot 100 — deel 1",
+   "niveau": "launchpad",
+   "korte_uitleg": "Tientallen en eenheden tot 100.",
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "4 tientallen en 6 eenheden is ...",
+     "opties": [
+      "46",
+      "64",
+      "10",
+      "406"
+     ],
+     "antwoord": 0,
+     "uitleg": "4 T = 40, plus 6 E: 46."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoeveel tientallen heeft 73?",
+     "opties": [
+      "3",
+      "7",
+      "73",
+      "10"
+     ],
+     "antwoord": 1,
+     "uitleg": "73 = 7 tientallen en 3 eenheden."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoeveel eenheden heeft 58?",
+     "opties": [
+      "5",
+      "58",
+      "8",
+      "13"
+     ],
+     "antwoord": 2,
+     "uitleg": "58 = 5 tientallen en 8 eenheden."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "30 + 4 = ___",
+     "antwoord": "34",
+     "uitleg": "3 tientallen en 4 eenheden: 34."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "60 + 9 = ___",
+     "antwoord": "69",
+     "uitleg": "6 tientallen en 9 eenheden: 69."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "80 + 0 = ___",
+     "antwoord": "80",
+     "uitleg": "8 tientallen en 0 eenheden: 80."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "10 tientallen is 100.",
+     "antwoord": true,
+     "uitleg": "10 × 10 = 100: honderd."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "In 25 zitten 5 tientallen.",
+     "antwoord": false,
+     "uitleg": "25 = 2 tientallen en 5 eenheden."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe schrijf je vijfenveertig?",
+     "opties": [
+      "54",
+      "405",
+      "40",
+      "45"
+     ],
+     "antwoord": 3,
+     "uitleg": "Vijfenveertig: eerst hoor je de 5, maar je schrijft 4 tientallen en 5 eenheden: 45."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe schrijf je achtendertig?",
+     "opties": [
+      "38",
+      "83",
+      "308",
+      "48"
+     ],
+     "antwoord": 0,
+     "uitleg": "Achtendertig = 3 tientallen en 8 eenheden: 38."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe zeg je 92?",
+     "opties": [
+      "negenentwintig",
+      "tweeënnegentig",
+      "negentig",
+      "twaalf"
+     ],
+     "antwoord": 1,
+     "uitleg": "92 = 9 tientallen en 2 eenheden: tweeënnegentig."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoeveel tientallen heeft 100? ___",
+     "antwoord": "10",
+     "uitleg": "100 = 10 tientallen."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "In 61 zitten 6 tientallen en 1 eenheid.",
+     "antwoord": true,
+     "uitleg": "60 + 1 = 61."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Zesenzeventig schrijf je als 67.",
+     "antwoord": false,
+     "uitleg": "Zesenzeventig schrijf je als 76."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk getal heeft 2 tientallen en 9 eenheden?",
+     "opties": [
+      "92",
+      "11",
+      "29",
+      "27"
+     ],
+     "antwoord": 2,
+     "uitleg": "20 + 9 = 29."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "50 + 7 = ...",
+     "opties": [
+      "75",
+      "12",
+      "507",
+      "57"
+     ],
+     "antwoord": 3,
+     "uitleg": "5 tientallen en 7 eenheden."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoeveel eenheden zijn 3 tientallen? ___",
+     "antwoord": "30",
+     "uitleg": "1 tiental is 10 eenheden, dus 3 tientallen zijn 30 eenheden."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "7 tientallen en 7 eenheden = ___",
+     "antwoord": "77",
+     "uitleg": "70 + 7 = 77."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Het getal 40 heeft 0 eenheden.",
+     "antwoord": true,
+     "uitleg": "40 = 4 tientallen en 0 eenheden."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Negenennegentig is het grootste getal met twee cijfers.",
+     "antwoord": true,
+     "uitleg": "99 is het grootste. Daarna komt 100, met drie cijfers."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Elke volle rij heeft 10 knikkers. Hoeveel knikkers zie je?",
+     "antwoord": "23",
+     "uitleg": "2 volle rijen is 20, en nog 3: 23.",
+     "afbeelding_pad": "/examenvormen/launchpad/tot100-knikkers-23.webp"
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Hier liggen 3 rijen van 10 sterren. Dat zijn 13 sterren.",
+     "antwoord": false,
+     "uitleg": "3 rijen van 10 is 30, niet 13.",
+     "afbeelding_pad": "/examenvormen/launchpad/tot100-sterren-30.webp"
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Elke volle rij heeft 10 snoepjes. Hoeveel zijn het er?",
+     "opties": [
+      "14",
+      "40",
+      "41",
+      "42"
+     ],
+     "antwoord": 2,
+     "uitleg": "4 tientallen en 1 eenheid: 41.",
+     "afbeelding_pad": "/examenvormen/launchpad/tot100-snoepjes-41.webp"
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Elke volle rij heeft 10 ballonnen. Hoeveel ballonnen zie je?",
+     "antwoord": "25",
+     "uitleg": "2 tientallen en 5 eenheden: 25.",
+     "afbeelding_pad": "/examenvormen/launchpad/tot100-ballonnen-25.webp"
+    }
+   ]
+  },
+  {
+   "titel": "Getallen tot 100 — deel 2",
+   "niveau": "launchpad",
+   "korte_uitleg": "Buren, volgorde en sprongen van 10.",
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is de grote buur van 39?",
+     "opties": [
+      "40",
+      "38",
+      "49",
+      "30"
+     ],
+     "antwoord": 0,
+     "uitleg": "39 + 1 = 40."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat is de kleine buur van 70?",
+     "opties": [
+      "71",
+      "69",
+      "60",
+      "79"
+     ],
+     "antwoord": 1,
+     "uitleg": "70 − 1 = 69."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Tel verder met sprongen van 10: 15, 25, 35, ___",
+     "antwoord": "45",
+     "uitleg": "Telkens 10 erbij: 35 + 10 = 45."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Tel terug met sprongen van 10: 90, 80, 70, ___",
+     "antwoord": "60",
+     "uitleg": "Telkens 10 eraf: 70 − 10 = 60."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk getal ligt tussen 56 en 58?",
+     "opties": [
+      "55",
+      "59",
+      "57",
+      "67"
+     ],
+     "antwoord": 2,
+     "uitleg": "56, 57, 58."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk getal is het grootste?",
+     "opties": [
+      "18",
+      "79",
+      "80",
+      "81"
+     ],
+     "antwoord": 3,
+     "uitleg": "81 heeft 8 tientallen en 1 eenheid, meer dan 80 en 79."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk getal is het kleinste?",
+     "opties": [
+      "19",
+      "91",
+      "29",
+      "21"
+     ],
+     "antwoord": 0,
+     "uitleg": "19 heeft maar 1 tiental."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "64 is meer dan 46.",
+     "antwoord": true,
+     "uitleg": "64 heeft 6 tientallen, 46 maar 4."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Na 59 komt 70.",
+     "antwoord": false,
+     "uitleg": "Na 59 komt 60."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk teken past? 37 ... 73",
+     "opties": [
+      ">",
+      "<",
+      "="
+     ],
+     "antwoord": 1,
+     "uitleg": "37 is minder dan 73."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk teken past? 90 ... 89",
+     "opties": [
+      "<",
+      "=",
+      ">"
+     ],
+     "antwoord": 2,
+     "uitleg": "90 is meer dan 89."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Tel met sprongen van 5: 20, 25, 30, ___",
+     "antwoord": "35",
+     "uitleg": "30 + 5 = 35."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Welk getal is 10 meer dan 47? ___",
+     "antwoord": "57",
+     "uitleg": "Een tiental erbij: 47 + 10 = 57."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Na 99 komt 100.",
+     "antwoord": true,
+     "uitleg": "99 + 1 = 100."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "De kleine buur van 50 is 51.",
+     "antwoord": false,
+     "uitleg": "De kleine buur van 50 is 49."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Zet van klein naar groot.",
+     "opties": [
+      "65, 50, 21, 12",
+      "21, 12, 50, 65",
+      "12, 50, 21, 65",
+      "12, 21, 50, 65"
+     ],
+     "antwoord": 3,
+     "uitleg": "Kijk eerst naar de tientallen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk getal ligt het dichtst bij 50?",
+     "opties": [
+      "48",
+      "40",
+      "60",
+      "35"
+     ],
+     "antwoord": 0,
+     "uitleg": "48 ligt maar 2 van 50."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk getal is 10 minder dan 63?",
+     "opties": [
+      "73",
+      "53",
+      "62",
+      "43"
+     ],
+     "antwoord": 1,
+     "uitleg": "63 − 10 = 53."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Tussen 30 en 40 liggen 9 getallen.",
+     "antwoord": true,
+     "uitleg": "31, 32, 33, 34, 35, 36, 37, 38, 39: dat zijn er 9."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Tel je met sprongen van 10 vanaf 4, dan kom je op 14, 24, 34.",
+     "antwoord": true,
+     "uitleg": "Telkens komt er een tiental bij, de eenheden blijven 4."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoeveel euro is dit samen?",
+     "antwoord": "35",
+     "uitleg": "10 + 10 + 10 = 30, en nog 5: 35.",
+     "afbeelding_pad": "/examenvormen/launchpad/tot100-geld-35.webp"
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoeveel geld zie je, in euro?",
+     "opties": [
+      "24",
+      "40",
+      "22",
+      "42"
+     ],
+     "antwoord": 3,
+     "uitleg": "20 + 20 = 40, en nog 2: 42.",
+     "afbeelding_pad": "/examenvormen/launchpad/tot100-geld-42.webp"
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Dit is samen 30 euro.",
+     "antwoord": false,
+     "uitleg": "4 briefjes van 10: 40 euro.",
+     "afbeelding_pad": "/examenvormen/launchpad/tot100-geld-40.webp"
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Elke rij heeft 10 blokjes. Hoeveel blokjes zie je?",
+     "antwoord": "50",
+     "uitleg": "5 rijen van 10: 50.",
+     "afbeelding_pad": "/examenvormen/launchpad/tot100-blokjes-50.webp"
+    }
+   ]
+  }
+ ]
+}

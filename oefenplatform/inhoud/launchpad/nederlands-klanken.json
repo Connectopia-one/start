@@ -1,0 +1,476 @@
+{
+ "hoofdstukken": [
+  {
+   "titel": "Letters en klanken — deel 1",
+   "niveau": "launchpad",
+   "korte_uitleg": "Welke klank hoor je eerst? Welke hoor je laatst?",
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Met welke klank begint 'maan'?",
+     "opties": [
+      "m",
+      "n",
+      "a",
+      "p"
+     ],
+     "antwoord": 0,
+     "uitleg": "m-aa-n: eerst hoor je m."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Met welke klank begint 'kip'?",
+     "opties": [
+      "p",
+      "k",
+      "i",
+      "t"
+     ],
+     "antwoord": 1,
+     "uitleg": "k-i-p: eerst hoor je k."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Met welke klank begint 'sok'?",
+     "opties": [
+      "k",
+      "o",
+      "s",
+      "z"
+     ],
+     "antwoord": 2,
+     "uitleg": "s-o-k: eerst hoor je s."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Met welke klank begint 'raam'?",
+     "opties": [
+      "m",
+      "aa",
+      "l",
+      "r"
+     ],
+     "antwoord": 3,
+     "uitleg": "r-aa-m: eerst hoor je r."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Met welke klank eindigt 'pen'?",
+     "opties": [
+      "n",
+      "p",
+      "e",
+      "m"
+     ],
+     "antwoord": 0,
+     "uitleg": "p-e-n: laatst hoor je n."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Met welke klank eindigt 'tak'?",
+     "opties": [
+      "t",
+      "k",
+      "a",
+      "p"
+     ],
+     "antwoord": 1,
+     "uitleg": "t-a-k: laatst hoor je k."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Met welke klank eindigt 'bus'?",
+     "opties": [
+      "b",
+      "u",
+      "s",
+      "t"
+     ],
+     "antwoord": 2,
+     "uitleg": "b-u-s: laatst hoor je s."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Met welke klank eindigt 'jas'?",
+     "opties": [
+      "j",
+      "a",
+      "z",
+      "s"
+     ],
+     "antwoord": 3,
+     "uitleg": "j-a-s: laatst hoor je s."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk woord begint met de klank v?",
+     "opties": [
+      "voet",
+      "boot",
+      "noot",
+      "hoed"
+     ],
+     "antwoord": 0,
+     "uitleg": "v-oe-t begint met v."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk woord begint met de klank h?",
+     "opties": [
+      "bek",
+      "hek",
+      "nek",
+      "mes"
+     ],
+     "antwoord": 1,
+     "uitleg": "h-e-k begint met h."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke klank hoor je in het midden van 'pop'?",
+     "opties": [
+      "p",
+      "a",
+      "o",
+      "oo"
+     ],
+     "antwoord": 2,
+     "uitleg": "p-o-p: in het midden hoor je o."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke klank hoor je in het midden van 'muis'?",
+     "opties": [
+      "m",
+      "s",
+      "ij",
+      "ui"
+     ],
+     "antwoord": 3,
+     "uitleg": "m-ui-s: in het midden hoor je ui."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'Mes' begint met de klank m.",
+     "antwoord": true,
+     "uitleg": "m-e-s."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'Kat' eindigt met de klank k.",
+     "antwoord": false,
+     "uitleg": "k-a-t eindigt met t."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'Aap' en 'aan' beginnen met dezelfde klank.",
+     "antwoord": true,
+     "uitleg": "Allebei beginnen ze met aa."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'Bus' en 'pen' beginnen met dezelfde klank.",
+     "antwoord": false,
+     "uitleg": "Bus begint met b, pen met p."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'Neus' begint met de klank n.",
+     "antwoord": true,
+     "uitleg": "n-eu-s."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'Uil' eindigt met de klank u.",
+     "antwoord": false,
+     "uitleg": "ui-l eindigt met l."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke twee woorden rijmen?",
+     "opties": [
+      "kat en mat",
+      "kat en kip",
+      "kat en bus",
+      "kat en pen"
+     ],
+     "antwoord": 0,
+     "uitleg": "kat en mat eindigen allebei op -at."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk woord rijmt op 'pop'?",
+     "opties": [
+      "pen",
+      "top",
+      "pit",
+      "pak"
+     ],
+     "antwoord": 1,
+     "uitleg": "pop en top eindigen allebei op -op."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Met welke klank begint dit dier?",
+     "opties": [
+      "k",
+      "m",
+      "p",
+      "s"
+     ],
+     "antwoord": 0,
+     "uitleg": "k-a-t: eerst hoor je k.",
+     "afbeelding_pad": "/examenvormen/launchpad/klank-kat.webp"
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Met welke klank eindigt het woord bij de prent?",
+     "antwoord": "s",
+     "uitleg": "m-e-s: laatst hoor je s.",
+     "afbeelding_pad": "/examenvormen/launchpad/klank-mes.webp"
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Het woord bij de prent begint met de klank v.",
+     "antwoord": true,
+     "uitleg": "v-i-s.",
+     "afbeelding_pad": "/examenvormen/launchpad/klank-vis.webp"
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk woord rijmt op wat je ziet?",
+     "opties": [
+      "dik",
+      "dak",
+      "tas",
+      "kip"
+     ],
+     "antwoord": 1,
+     "uitleg": "tak en dak eindigen allebei op -ak.",
+     "afbeelding_pad": "/examenvormen/launchpad/klank-tak.webp"
+    }
+   ]
+  },
+  {
+   "titel": "Letters en klanken — deel 2",
+   "niveau": "launchpad",
+   "korte_uitleg": "Woorden hakken in klanken en weer plakken.",
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Hak 'roos' in klanken.",
+     "opties": [
+      "r - o - s",
+      "ro - os",
+      "r - oo - s",
+      "r - oo - z"
+     ],
+     "antwoord": 2,
+     "uitleg": "r-oo-s: drie klanken."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hak 'kip' in klanken.",
+     "opties": [
+      "ki - p",
+      "k - ie - p",
+      "k - i - b",
+      "k - i - p"
+     ],
+     "antwoord": 3,
+     "uitleg": "k-i-p: drie klanken."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hak 'vis' in klanken.",
+     "opties": [
+      "v - i - s",
+      "v - ie - s",
+      "vi - s",
+      "f - i - s"
+     ],
+     "antwoord": 0,
+     "uitleg": "v-i-s: drie klanken."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Plak de klanken: b - oo - m",
+     "opties": [
+      "bom",
+      "boom",
+      "boon",
+      "room"
+     ],
+     "antwoord": 1,
+     "uitleg": "b-oo-m wordt boom."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Plak de klanken: m - ui - s",
+     "opties": [
+      "mus",
+      "huis",
+      "muis",
+      "mis"
+     ],
+     "antwoord": 2,
+     "uitleg": "m-ui-s wordt muis."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Plak de klanken: s - o - k",
+     "opties": [
+      "zak",
+      "sik",
+      "kos",
+      "sok"
+     ],
+     "antwoord": 3,
+     "uitleg": "s-o-k wordt sok."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Plak de klanken: t - a - k",
+     "opties": [
+      "tak",
+      "tas",
+      "kat",
+      "tik"
+     ],
+     "antwoord": 0,
+     "uitleg": "t-a-k wordt tak."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Plak de klanken: p - au - w",
+     "opties": [
+      "pauze",
+      "pauw",
+      "pap",
+      "touw"
+     ],
+     "antwoord": 1,
+     "uitleg": "p-auw wordt pauw."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoeveel klanken hoor je in 'pen'? ___",
+     "antwoord": "3",
+     "uitleg": "p-e-n: 3 klanken."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoeveel klanken hoor je in 'ei'? ___",
+     "antwoord": "1",
+     "uitleg": "ei is één klank."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoeveel klanken hoor je in 'raam'? ___",
+     "antwoord": "3",
+     "uitleg": "r-aa-m: 3 klanken. aa is één klank."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoeveel klanken hoor je in 'touw'? ___",
+     "antwoord": "2",
+     "uitleg": "t-ouw: 2 klanken."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "In 'maan' hoor je 3 klanken.",
+     "antwoord": true,
+     "uitleg": "m-aa-n."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "In 'kat' hoor je 4 klanken.",
+     "antwoord": false,
+     "uitleg": "k-a-t: 3 klanken."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'aa' in 'raam' is één klank.",
+     "antwoord": true,
+     "uitleg": "Twee letters, maar je hoort één klank."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'sok' en 'kos' zijn hetzelfde woord.",
+     "antwoord": false,
+     "uitleg": "Dezelfde klanken, maar in een andere volgorde: ander woord."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'ui' in 'muis' is één klank.",
+     "antwoord": true,
+     "uitleg": "Twee letters, één klank."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "'oe' is twee klanken.",
+     "antwoord": false,
+     "uitleg": "oe is één klank, zoals in voet."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke letters maken samen de klank 'oe'?",
+     "opties": [
+      "o en o",
+      "u en e",
+      "o en e",
+      "o en u"
+     ],
+     "antwoord": 2,
+     "uitleg": "o + e = oe, zoals in boek."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk woord heeft de klank 'eu'?",
+     "opties": [
+      "nees",
+      "nies",
+      "noes",
+      "neus"
+     ],
+     "antwoord": 3,
+     "uitleg": "n-eu-s."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoeveel klanken hoor je in het woord bij de prent?",
+     "opties": [
+      "2",
+      "4",
+      "3",
+      "1"
+     ],
+     "antwoord": 2,
+     "uitleg": "p-o-p: 3 klanken.",
+     "afbeelding_pad": "/examenvormen/launchpad/klank-pop.webp"
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "In het woord bij de prent hoor je de klank ui.",
+     "antwoord": true,
+     "uitleg": "m-ui-s.",
+     "afbeelding_pad": "/examenvormen/launchpad/klank-muis.webp"
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Plak de klanken: z - o - n. Welk woord is het?",
+     "antwoord": "zon",
+     "uitleg": "z-o-n wordt zon.",
+     "afbeelding_pad": "/examenvormen/launchpad/klank-zon.webp"
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Het woord bij de prent eindigt met de klank p.",
+     "antwoord": false,
+     "uitleg": "b-oo-m eindigt met m.",
+     "afbeelding_pad": "/examenvormen/launchpad/klank-boom.webp"
+    }
+   ]
+  }
+ ]
+}

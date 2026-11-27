@@ -1,0 +1,398 @@
+{
+ "hoofdstukken": [
+  {
+   "titel": "Splitsen en verliefde harten — deel 1",
+   "niveau": "launchpad",
+   "korte_uitleg": "Een getal splitsen in twee stukken.",
+   "vragen": [
+    {
+     "type": "invultekst",
+     "vraag": "7 splits je in 3 en ___",
+     "antwoord": "4",
+     "uitleg": "3 + 4 = 7."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "9 splits je in 5 en ___",
+     "antwoord": "4",
+     "uitleg": "5 + 4 = 9."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "6 splits je in 6 en ___",
+     "antwoord": "0",
+     "uitleg": "6 + 0 = 6."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "8 splits je in 2 en ___",
+     "antwoord": "6",
+     "uitleg": "2 + 6 = 8."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "5 splits je in 1 en ___",
+     "antwoord": "4",
+     "uitleg": "1 + 4 = 5."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "10 splits je in 7 en ___",
+     "antwoord": "3",
+     "uitleg": "7 + 3 = 10."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe kan je 8 splitsen?",
+     "opties": [
+      "5 en 3",
+      "5 en 4",
+      "6 en 3",
+      "4 en 3"
+     ],
+     "antwoord": 0,
+     "uitleg": "5 + 3 = 8."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe kan je 6 splitsen?",
+     "opties": [
+      "2 en 5",
+      "2 en 4",
+      "3 en 4",
+      "1 en 4"
+     ],
+     "antwoord": 1,
+     "uitleg": "2 + 4 = 6."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "4 en ... is samen 9.",
+     "opties": [
+      "4",
+      "6",
+      "5",
+      "3"
+     ],
+     "antwoord": 2,
+     "uitleg": "4 + 5 = 9."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "... en 2 is samen 7.",
+     "opties": [
+      "4",
+      "6",
+      "9",
+      "5"
+     ],
+     "antwoord": 3,
+     "uitleg": "5 + 2 = 7."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "7 kan je splitsen in 4 en 3.",
+     "antwoord": true,
+     "uitleg": "4 + 3 = 7."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "9 kan je splitsen in 6 en 4.",
+     "antwoord": false,
+     "uitleg": "6 + 4 = 10, niet 9. Wel 6 en 3."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "5 kan je splitsen in 0 en 5.",
+     "antwoord": true,
+     "uitleg": "0 + 5 = 5."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "8 kan je splitsen in 4 en 5.",
+     "antwoord": false,
+     "uitleg": "4 + 4 = 8. Met 4 en 5 kom je op 9."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Je hebt 7 snoepjes in twee handen. In je linkerhand zitten er 2. Hoeveel in je rechterhand? ___",
+     "antwoord": "5",
+     "uitleg": "2 + 5 = 7."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Op een bord liggen 9 koekjes: 6 rond en de rest vierkant. Hoeveel zijn vierkant? ___",
+     "antwoord": "3",
+     "uitleg": "6 + 3 = 9."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke splitsing hoort NIET bij 6?",
+     "opties": [
+      "3 en 4",
+      "1 en 5",
+      "2 en 4",
+      "6 en 0"
+     ],
+     "antwoord": 0,
+     "uitleg": "3 + 4 = 7, niet 6."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke splitsing hoort bij 10?",
+     "opties": [
+      "4 en 5",
+      "4 en 6",
+      "3 en 6",
+      "2 en 7"
+     ],
+     "antwoord": 1,
+     "uitleg": "4 + 6 = 10."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Op hoeveel manieren je 4 ook splitst, samen blijft het altijd 4.",
+     "antwoord": true,
+     "uitleg": "3 en 1, 2 en 2, 4 en 0: samen altijd 4."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "10 splitsen in 5 en 5 is hetzelfde als het dubbel van 5.",
+     "antwoord": true,
+     "uitleg": "5 + 5 = 10, het dubbel van 5."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "7 eendjes: links 3. Hoeveel staan er rechts?",
+     "antwoord": "4",
+     "uitleg": "3 + 4 = 7.",
+     "afbeelding_pad": "/examenvormen/launchpad/splits-eend-3-4.webp"
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke splitsing zie je?",
+     "opties": [
+      "9 = 5 + 4",
+      "9 = 6 + 3",
+      "9 = 5 + 5",
+      "8 = 5 + 3"
+     ],
+     "antwoord": 0,
+     "uitleg": "Links 5 sterren, rechts 4.",
+     "afbeelding_pad": "/examenvormen/launchpad/splits-ster-5-4.webp"
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Je verstopt 5 van deze knikkers in je hand. Hoeveel zie je er nog?",
+     "antwoord": "3",
+     "uitleg": "8 = 5 + 3.",
+     "afbeelding_pad": "/examenvormen/launchpad/splits-knikkers-8.webp"
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Deze prent toont: 6 is 2 en 3.",
+     "antwoord": false,
+     "uitleg": "Je ziet 2 snoepjes en 4 snoepjes: 6 is 2 en 4.",
+     "afbeelding_pad": "/examenvormen/launchpad/splits-snoep-2-4.webp"
+    }
+   ]
+  },
+  {
+   "titel": "Splitsen en verliefde harten — deel 2",
+   "niveau": "launchpad",
+   "korte_uitleg": "Verliefde harten: twee getallen die samen 10 zijn.",
+   "vragen": [
+    {
+     "type": "invultekst",
+     "vraag": "Verliefde harten: 1 en ___",
+     "antwoord": "9",
+     "uitleg": "1 + 9 = 10."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Verliefde harten: 3 en ___",
+     "antwoord": "7",
+     "uitleg": "3 + 7 = 10."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Verliefde harten: 6 en ___",
+     "antwoord": "4",
+     "uitleg": "6 + 4 = 10."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Verliefde harten: 8 en ___",
+     "antwoord": "2",
+     "uitleg": "8 + 2 = 10."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Verliefde harten: 5 en ___",
+     "antwoord": "5",
+     "uitleg": "5 + 5 = 10."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Verliefde harten: 0 en ___",
+     "antwoord": "10",
+     "uitleg": "0 + 10 = 10."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk getal is het verliefde hart van 2?",
+     "opties": [
+      "7",
+      "9",
+      "8",
+      "2"
+     ],
+     "antwoord": 2,
+     "uitleg": "2 + 8 = 10."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk getal is het verliefde hart van 9?",
+     "opties": [
+      "0",
+      "2",
+      "9",
+      "1"
+     ],
+     "antwoord": 3,
+     "uitleg": "9 + 1 = 10."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke twee getallen zijn verliefde harten?",
+     "opties": [
+      "3 en 7",
+      "3 en 6",
+      "4 en 5",
+      "2 en 9"
+     ],
+     "antwoord": 0,
+     "uitleg": "3 + 7 = 10."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welke twee getallen zijn GEEN verliefde harten?",
+     "opties": [
+      "6 en 4",
+      "6 en 5",
+      "1 en 9",
+      "2 en 8"
+     ],
+     "antwoord": 1,
+     "uitleg": "6 + 5 = 11, niet 10."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "4 en 6 zijn verliefde harten.",
+     "antwoord": true,
+     "uitleg": "4 + 6 = 10."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "7 en 4 zijn verliefde harten.",
+     "antwoord": false,
+     "uitleg": "7 + 4 = 11. Het verliefde hart van 7 is 3."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Het verliefde hart van 10 is 0.",
+     "antwoord": true,
+     "uitleg": "10 + 0 = 10."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "2 en 7 zijn verliefde harten.",
+     "antwoord": false,
+     "uitleg": "2 + 7 = 9. Het verliefde hart van 2 is 8."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "10 − 6 = ___",
+     "antwoord": "4",
+     "uitleg": "6 en 4 zijn verliefde harten: 10 − 6 = 4."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "10 − 3 = ___",
+     "antwoord": "7",
+     "uitleg": "3 en 7 zijn verliefde harten: 10 − 3 = 7."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Je hebt 10 euro. Je koopt iets van 7 euro. Hoeveel krijg je terug?",
+     "opties": [
+      "4 euro",
+      "2 euro",
+      "3 euro",
+      "7 euro"
+     ],
+     "antwoord": 2,
+     "uitleg": "7 en 3 zijn verliefde harten."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe helpt een verliefd hart bij 8 + 5?",
+     "opties": [
+      "8 + 5 = 10, dan nog 3",
+      "8 + 3 = 10, dan nog 2",
+      "5 + 5 = 10, dan nog 8",
+      "8 + 2 = 10, dan nog 3"
+     ],
+     "antwoord": 3,
+     "uitleg": "Het verliefde hart van 8 is 2. Je splitst 5 in 2 en 3."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Verliefde harten helpen je om over 10 te rekenen.",
+     "antwoord": true,
+     "uitleg": "Eerst naar 10, dan de rest erbij."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Het verliefde hart van 5 is 6.",
+     "antwoord": false,
+     "uitleg": "5 + 5 = 10, dus het verliefde hart van 5 is 5."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Je plukt 3 van deze bloemen. Hoeveel blijven er staan?",
+     "antwoord": "7",
+     "uitleg": "3 en 7 zijn verliefde harten: 10 − 3 = 7.",
+     "afbeelding_pad": "/examenvormen/launchpad/splits-bloemen-10.webp"
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Het aantal beertjes links en rechts zijn verliefde harten.",
+     "antwoord": true,
+     "uitleg": "6 + 4 = 10.",
+     "afbeelding_pad": "/examenvormen/launchpad/splits-beer-6-4.webp"
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoeveel blokjes moeten erbij om 10 te hebben?",
+     "opties": [
+      "3",
+      "2",
+      "1",
+      "8"
+     ],
+     "antwoord": 1,
+     "uitleg": "8 en 2 zijn verliefde harten.",
+     "afbeelding_pad": "/examenvormen/launchpad/splits-blokjes-8.webp"
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Dit zijn samen 10 eendjes.",
+     "antwoord": false,
+     "uitleg": "7 + 2 = 9 eendjes.",
+     "afbeelding_pad": "/examenvormen/launchpad/splits-eend-7-2.webp"
+    }
+   ]
+  }
+ ]
+}

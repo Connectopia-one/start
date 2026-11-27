@@ -1,5 +1,6 @@
 export type NiveauSlug =
   | "basis"
+  | "launchpad"
   | "ready"
   | "start"
   | "spark"
@@ -41,7 +42,9 @@ export type Niveau = {
   🎒 Ready (sinds 26 november 2026) is het 3de en 4de leerjaar, vóór 🌱 Start.
   De leerstof volgt de officiële minimumdoelen voor het einde van het 4de
   leerjaar. Kortere zinnen, gewone cijfers en de voorleesknop altijd aan.
-  Later komt er Launchpad voor het 1ste en 2de leerjaar vóór Ready.
+  🪁 Launchpad (sinds 27 november 2026) is het 1ste en 2de leerjaar, vóór Ready.
+  Nog kortere zinnen, vooral kiezen uit drie of vier, weinig typen, veel
+  prenten, en ook hier staat de voorleesknop altijd aan.
 
   🚀 Boost is vanaf de tweede graad geen één categorie meer. De examencommissie
   splitst daar in doorstroomfinaliteit en dubbele finaliteit, met eigen
@@ -66,6 +69,12 @@ export const NIVEAUS: Niveau[] = [
     emoji: "🧱",
     naam: "Basis",
     omschrijving: "De bouwstenen herhalen, voor elk niveau",
+  },
+  {
+    slug: "launchpad",
+    emoji: "🪁",
+    naam: "Launchpad",
+    omschrijving: "1ste & 2de leerjaar",
   },
   {
     slug: "ready",

@@ -1,0 +1,470 @@
+{
+ "hoofdstukken": [
+  {
+   "titel": "Ik en de anderen — deel 1",
+   "niveau": "launchpad",
+   "korte_uitleg": "Gevoelens, familie en vrienden.",
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe voel je je als je een cadeau krijgt?",
+     "opties": [
+      "blij",
+      "bang",
+      "boos",
+      "verdrietig"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een cadeau maakt je blij."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe voel je je als je knuffel kwijt is?",
+     "opties": [
+      "blij",
+      "verdrietig",
+      "trots",
+      "verrast"
+     ],
+     "antwoord": 1,
+     "uitleg": "Iets kwijt zijn maakt je verdrietig."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe voel je je als iemand je speelgoed afpakt?",
+     "opties": [
+      "blij",
+      "moe",
+      "boos",
+      "trots"
+     ],
+     "antwoord": 2,
+     "uitleg": "Dat voelt niet eerlijk: je wordt boos."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Hoe voel je je als je eindelijk kan fietsen zonder zijwieltjes?",
+     "opties": [
+      "bang",
+      "verdrietig",
+      "boos",
+      "trots"
+     ],
+     "antwoord": 3,
+     "uitleg": "Iets nieuws kunnen maakt je trots."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat doe je als een vriendje verdrietig is?",
+     "opties": [
+      "vragen wat er is en troosten",
+      "uitlachen en het aan iedereen vertellen",
+      "weglopen",
+      "doen alsof je het niet ziet"
+     ],
+     "antwoord": 0,
+     "uitleg": "Een goede vriend helpt."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat doe je als je boos bent?",
+     "opties": [
+      "slaan",
+      "zeggen wat er is en rustig ademen",
+      "dingen kapot gooien op de grond",
+      "heel hard roepen naar iedereen"
+     ],
+     "antwoord": 1,
+     "uitleg": "Boos zijn mag, maar je doet niemand pijn."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wie hoort bij je familie?",
+     "opties": [
+      "de buurman",
+      "de juf",
+      "je broer",
+      "de bakker"
+     ],
+     "antwoord": 2,
+     "uitleg": "Je broer is familie."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wie is de broer van je mama?",
+     "opties": [
+      "je opa",
+      "je neef",
+      "je papa",
+      "je oom"
+     ],
+     "antwoord": 3,
+     "uitleg": "De broer van je mama of papa is je oom."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wie is de zus van je papa?",
+     "opties": [
+      "je tante",
+      "je oma",
+      "je nicht",
+      "je mama"
+     ],
+     "antwoord": 0,
+     "uitleg": "De zus van je papa of mama is je tante."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Iedereen voelt zich soms verdrietig.",
+     "antwoord": true,
+     "uitleg": "Verdriet hoort bij het leven."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Boos zijn mag, slaan mag ook.",
+     "antwoord": false,
+     "uitleg": "Boos zijn mag, maar slaan nooit."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Elke familie is anders.",
+     "antwoord": true,
+     "uitleg": "Groot of klein, met één of twee ouders: elke familie is anders."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een vriend lacht je uit als je valt.",
+     "antwoord": false,
+     "uitleg": "Een vriend helpt je recht."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Sorry zeggen helpt om het goed te maken.",
+     "antwoord": true,
+     "uitleg": "Sorry zeggen toont dat je het jammer vindt."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Alleen kinderen kunnen bang zijn.",
+     "antwoord": false,
+     "uitleg": "Ook volwassenen zijn soms bang."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Je mag nee zeggen als iemand je aanraakt en je dat niet wil.",
+     "antwoord": true,
+     "uitleg": "Jouw lichaam is van jou."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een vriend moet altijd op jou lijken.",
+     "antwoord": false,
+     "uitleg": "Vrienden kunnen heel verschillend zijn."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Mama, papa, jij en je zus wonen samen. Met hoeveel zijn jullie thuis? ___",
+     "antwoord": "4",
+     "uitleg": "Mama, papa, jij en je zus: 4."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat zeg je als iemand je helpt?",
+     "opties": [
+      "ga weg",
+      "dank je wel",
+      "niets",
+      "nog eens"
+     ],
+     "antwoord": 1,
+     "uitleg": "Dank je wel zeggen is beleefd."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat zeg je als je iets wil vragen?",
+     "opties": [
+      "geef!",
+      "nu!",
+      "mag ik ... alsjeblieft?",
+      "ik wil het"
+     ],
+     "antwoord": 2,
+     "uitleg": "Alsjeblieft is beleefd."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat doen de kinderen?",
+     "opties": [
+      "ruzie maken om de blokken",
+      "slapen",
+      "samen spelen en delen",
+      "eten"
+     ],
+     "antwoord": 2,
+     "uitleg": "Ze bouwen samen met blokken en geven elkaar iets door.",
+     "afbeelding_pad": "/examenvormen/launchpad/samen-delen.webp"
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat doet de jongen?",
+     "opties": [
+      "hij lacht haar luid uit",
+      "hij loopt weg",
+      "hij duwt haar",
+      "hij troost het meisje"
+     ],
+     "antwoord": 3,
+     "uitleg": "Het meisje is gevallen. De jongen helpt haar.",
+     "afbeelding_pad": "/examenvormen/launchpad/samen-troosten.webp"
+    },
+    {
+     "type": "invultekst",
+     "vraag": "Hoeveel mensen zie je op de prent?",
+     "antwoord": "4",
+     "uitleg": "Papa, mama en twee kinderen: 4. De hond is geen mens.",
+     "afbeelding_pad": "/examenvormen/launchpad/samen-gezin.webp"
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Op een verjaardag word je een jaar ouder.",
+     "antwoord": true,
+     "uitleg": "Elk jaar op je verjaardag.",
+     "afbeelding_pad": "/examenvormen/launchpad/samen-verjaardag.webp"
+    }
+   ]
+  },
+  {
+   "titel": "Ik en de anderen — deel 2",
+   "niveau": "launchpad",
+   "korte_uitleg": "Samen op school en samen feest vieren.",
+   "vragen": [
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat doe je in de klas als je iets wil zeggen?",
+     "opties": [
+      "roepen",
+      "op de bank kloppen",
+      "weglopen",
+      "je vinger opsteken"
+     ],
+     "antwoord": 3,
+     "uitleg": "Dan weet de juf dat je iets wil zeggen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wie helpt je op school als je iets niet weet?",
+     "opties": [
+      "de juf of meester",
+      "de buurman",
+      "niemand",
+      "de bakker"
+     ],
+     "antwoord": 0,
+     "uitleg": "De juf of meester legt het uit."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat doe je na het spelen met de blokken?",
+     "opties": [
+      "laten liggen",
+      "opruimen",
+      "weggooien",
+      "verstoppen"
+     ],
+     "antwoord": 1,
+     "uitleg": "Samen ruimen we op."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat doe je als je samen een spel speelt?",
+     "opties": [
+      "altijd zelf eerst",
+      "de anderen niet laten meedoen",
+      "om de beurt spelen",
+      "vals spelen"
+     ],
+     "antwoord": 2,
+     "uitleg": "Om de beurt is eerlijk."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk feest vieren veel mensen in december met een kerstboom?",
+     "opties": [
+      "Pasen",
+      "Halloween",
+      "carnaval",
+      "Kerstmis"
+     ],
+     "antwoord": 3,
+     "uitleg": "Met Kerstmis zet men een kerstboom."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Bij welk feest zoeken kinderen eieren?",
+     "opties": [
+      "Pasen",
+      "Kerstmis",
+      "Sinterklaas",
+      "Nieuwjaar"
+     ],
+     "antwoord": 0,
+     "uitleg": "Met Pasen zoeken kinderen paaseieren."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wie brengt in België op 6 december cadeautjes?",
+     "opties": [
+      "de paashaas",
+      "Sinterklaas",
+      "de kerstman",
+      "de tandenfee"
+     ],
+     "antwoord": 1,
+     "uitleg": "Sinterklaas komt op 6 december."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Welk feest vieren moslims na de vastenmaand?",
+     "opties": [
+      "Pasen",
+      "Kerstmis",
+      "het Suikerfeest",
+      "Halloween"
+     ],
+     "antwoord": 2,
+     "uitleg": "Na de ramadan vieren moslims het Suikerfeest."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "In de klas wacht je je beurt.",
+     "antwoord": true,
+     "uitleg": "Om de beurt praten is eerlijk."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "In de klas mag iedereen tegelijk roepen.",
+     "antwoord": false,
+     "uitleg": "Dan hoort niemand iets. Je steekt je vinger op."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Mensen vieren niet allemaal dezelfde feesten.",
+     "antwoord": true,
+     "uitleg": "Elke familie heeft eigen feesten."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Met Pasen komt Sinterklaas.",
+     "antwoord": false,
+     "uitleg": "Sinterklaas komt op 6 december."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Regels op school helpen om samen goed te leven.",
+     "antwoord": true,
+     "uitleg": "Zo weet iedereen wat mag."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Je mag de spullen van een ander zomaar nemen.",
+     "antwoord": false,
+     "uitleg": "Je vraagt het eerst."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Een verjaardag vier je elk jaar.",
+     "antwoord": true,
+     "uitleg": "Elk jaar op dezelfde dag."
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Pesten is een grapje.",
+     "antwoord": false,
+     "uitleg": "Pesten doet pijn. Zeg het aan een volwassene."
+    },
+    {
+     "type": "invultekst",
+     "vraag": "In je klas zitten 10 jongens en 10 meisjes. Hoeveel kinderen zijn dat samen? ___",
+     "antwoord": "20",
+     "uitleg": "10 + 10 = 20."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wat doe je als iemand gepest wordt?",
+     "opties": [
+      "meelachen met de anderen",
+      "meedoen",
+      "niets zeggen tegen niemand",
+      "het aan de juf of meester zeggen"
+     ],
+     "antwoord": 3,
+     "uitleg": "Een volwassene kan helpen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Waar woon je samen met heel veel mensen?",
+     "opties": [
+      "in een gemeente of stad",
+      "in een kast",
+      "in een tent helemaal alleen",
+      "op de maan"
+     ],
+     "antwoord": 0,
+     "uitleg": "In je gemeente wonen veel mensen samen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Wie zorgt in je gemeente voor de straten en de school?",
+     "opties": [
+      "de tandarts",
+      "de burgemeester en de gemeente",
+      "de kapper in de winkelstraat",
+      "je knuffel"
+     ],
+     "antwoord": 1,
+     "uitleg": "Het gemeentehuis regelt veel voor iedereen."
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Bij welk feest hoort deze boom?",
+     "opties": [
+      "Kerstmis",
+      "Pasen",
+      "Sinterklaas",
+      "carnaval"
+     ],
+     "antwoord": 0,
+     "uitleg": "Met Kerstmis zet men een kerstboom.",
+     "afbeelding_pad": "/examenvormen/launchpad/samen-kerstboom.webp"
+    },
+    {
+     "type": "meerkeuze",
+     "vraag": "Bij welk feest horen deze eieren?",
+     "opties": [
+      "Kerstmis",
+      "Pasen",
+      "Halloween",
+      "Nieuwjaar"
+     ],
+     "antwoord": 1,
+     "uitleg": "Met Pasen zoeken kinderen paaseieren.",
+     "afbeelding_pad": "/examenvormen/launchpad/samen-paaseieren.webp"
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Op de prent zie je geen huisdier.",
+     "antwoord": false,
+     "uitleg": "Er zit een hond bij het gezin.",
+     "afbeelding_pad": "/examenvormen/launchpad/samen-gezin-hond.webp"
+    },
+    {
+     "type": "waarofniet",
+     "vraag": "Dit is het gemeentehuis, waar de burgemeester werkt.",
+     "antwoord": true,
+     "uitleg": "In het gemeentehuis werkt het bestuur van de gemeente.",
+     "afbeelding_pad": "/examenvormen/launchpad/samen-gemeentehuis.webp"
+    }
+   ]
+  }
+ ]
+}
