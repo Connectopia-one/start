@@ -41,6 +41,14 @@ export const nieuwTekst = {
 export const updates: Update[] = [
   {
     datum: "27 november 2026",
+    titel: "Frans Boost: meer grammatica en langere leesteksten",
+    tekst:
+      "Bij Frans in Boost doorstroom staan twee nieuwe onderdelen, telkens in twee delen van twintig vragen. In Grammatica toepassen oefen je de grammatica zoals ze op het examen terugkomt: in een zin of een mailtje kies je zelf de juiste tijd, vorm of het juiste woordje, en je zoekt foutjes zoals bij het nalezen van je eigen tekst. In Begrijpend lezen krijg je een langere Franse tekst die bovenaan blijft staan terwijl je de vragen maakt: een krantenartikel met een lezersbrief erbij, en een kort verhaal. Tik op een gekleurd woord voor de vertaling. Er horen een leerbundel en een oefenbundel bij om af te drukken. Eerlijk is eerlijk: Frans leer je niet alleen op een scherm. Luisteren en spreken oefen je het best door echt Frans te horen en te praten.",
+    opVraag: true,
+    link: { tekst: "Naar Frans in Boost", href: "/niveaus/boost-doorstroom/frans" },
+  },
+  {
+    datum: "27 november 2026",
     titel: "Nieuwe vakken in Boost: Latijn en Duits",
     tekst:
       "Volg je Latijn of moderne talen in de tweede graad? Dan vind je in Boost nu twee nieuwe vakken. Bij Latijn lees je echte Latijnse teksten, van Caesar en Ovidius tot Erasmus en Galilei, telkens met de tekst, de woorden erbij en vragen over inhoud, vertaling, grammatica en stijl. Duits gaat over lezen en schrijven: teksten begrijpen, een mail of zoekertje schrijven, woordenschat over jezelf, thuis, school en reizen, en de grammatica van lidwoorden en naamvallen tot het Perfekt en de woordvolgorde. Spreken en luisteren zitten er nog niet in. Bij beide vakken horen moeilijkere hoofdstukken voor wie meer wil, leer- en oefenbundels om af te drukken, klikbare bundels, een uitdaging met veertig vragen, en een eigen spel: een niveau Latijn in de begrippenarena en een nieuwe woordenarena Duits, met het spelletje der, die of das.",

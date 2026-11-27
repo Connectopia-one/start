@@ -5768,6 +5768,939 @@
           "uitleg": "Elke persoonsvorm hoort bij een eigen onderwerp. Een zin van vier regels met drie persoonsvormen valt zo in drie leesbare stukken uiteen."
         }
       ]
+    },
+    {
+      "titel": "Grammatica toepassen: zinnen aanvullen en verbeteren — deel 1",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Lees: 'Hier soir, quand je suis rentré, ma sœur … la vaisselle.' Ze was op dat moment nog bezig. Welke vorm past op de stippels?",
+          "opties": [
+            "faisait",
+            "a fait",
+            "fera",
+            "ferait"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een bezigheid die aan de gang was toen iets anders gebeurde, staat in de imparfait: elle faisait. Je suis rentré is de korte gebeurtenis die er middenin valt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "'Pendant les vacances, nous allions tous les jours à la plage.' Welk stukje van de zin toont dat het om een gewoonte gaat, en dus om de imparfait?",
+          "opties": [
+            "tous les jours",
+            "pendant les vacances",
+            "à la plage",
+            "nous allions"
+          ],
+          "antwoord": 0,
+          "uitleg": "Iets dat telkens terugkwam, is een gewoonte. Tous les jours, chaque été en d'habitude zijn de woorden die je daarop wijzen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In welke zinnen staat het voltooid deelwoord in de juiste vorm?",
+          "opties": [
+            "Elles sont parties à huit heures.",
+            "Nous sommes restés à la maison.",
+            "Nous avons mangés une grande pizza.",
+            "Ma mère est allé au marché."
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Met être past het deelwoord zich aan het onderwerp aan: elles sont parties, nous sommes restés, en dus ook ma mère est allée. Met avoir blijft het deelwoord hier gewoon mangé."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Zet in de passé composé: ce matin, Léa et Inès … (venir) à vélo. Twee woorden.",
+          "antwoord": [
+            "sont venues"
+          ],
+          "uitleg": "Venir gaat met être. Het onderwerp is twee meisjes, dus vrouwelijk meervoud: venues, met een e en een s."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In 'Je viens de finir mes devoirs' gaat het over iets dat net gebeurd is.",
+          "antwoord": true,
+          "uitleg": "Venir de met een infinitief is de passé récent: ik heb net mijn huiswerk gemaakt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Lees: 'Attention, le train … partir dans deux minutes !' Welk woord maakt er de futur proche van?",
+          "opties": [
+            "va",
+            "vient de",
+            "allait",
+            "est"
+          ],
+          "antwoord": 0,
+          "uitleg": "De futur proche maak je met aller in de présent en een infinitief: le train va partir, de trein gaat zo vertrekken."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je schrijft aan een vriendin: 'Demain, je … (prendre) le bus de huit heures.' Welke vorm van de futur simple is juist?",
+          "opties": [
+            "prendrai",
+            "prendrais",
+            "prenderai",
+            "prends"
+          ],
+          "antwoord": 0,
+          "uitleg": "De futur vertrekt van de infinitief zonder de e: prendr-, met de uitgang -ai voor je. Prendrais met een s is de conditionnel."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In welke zinnen staat de subjonctif terecht?",
+          "opties": [
+            "Il faut que tu fasses tes devoirs.",
+            "Je suis content que vous veniez.",
+            "Je pense qu'il viendra demain matin.",
+            "Il m'a dit qu'il soit malade."
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Na il faut que en na een gevoel zoals je suis content que komt de subjonctif. Il m'a dit que geeft een feit door en neemt de indicatif: il m'a dit qu'il était malade. In je pense qu'il viendra staat geen subjonctif."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul de subjonctif in: il faut que nous … (partir) avant midi. Eén woord.",
+          "antwoord": [
+            "partions"
+          ],
+          "uitleg": "De subjonctif vertrekt van ils partent: de stam part-. Voor nous komt daar -ions achter, dus que nous partions."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je schrijft een mail aan een hotel. Welke zin is de beleefdste?",
+          "opties": [
+            "Je voudrais réserver une chambre pour deux nuits.",
+            "Je veux réserver une chambre pour deux nuits.",
+            "Réservez-moi tout de suite une chambre pour deux nuits.",
+            "Je vais réserver une chambre pour deux nuits."
+          ],
+          "antwoord": 0,
+          "uitleg": "Je voudrais is de conditionnel van vouloir. Daarmee vraag je iets zacht en beleefd, en dat verwacht een formele mail. Je veux klinkt als een eis."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Kies de juiste vorm: 'Si j'avais plus de temps, je … du sport.'",
+          "opties": [
+            "ferais",
+            "ferai",
+            "fais",
+            "faisais"
+          ],
+          "antwoord": 0,
+          "uitleg": "Si met een imparfait gaat over iets onwerkelijks. In het andere deel van de zin staat dan de conditionnel: je ferais."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "'S'il fera beau demain, nous irons à la mer' is een correcte Franse zin.",
+          "antwoord": false,
+          "uitleg": "Na si staat geen futur. De juiste zin is: s'il fait beau demain, nous irons à la mer. De futur hoort in het andere deel."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je nodigt vrienden uit en geeft hen een raad: '… votre maillot, il y a une piscine !' Welke vorm past?",
+          "opties": [
+            "Apportez",
+            "Apportes",
+            "Vous apportez",
+            "Apporter"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een raad of een bevel aan meerdere mensen staat in de impératif met de vous-vorm, zonder vous ervoor: apportez."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe schrijf je 'wij staan om zeven uur op' met het werkwoord se lever?",
+          "opties": [
+            "Nous nous levons à sept heures.",
+            "Nous levons à sept heures.",
+            "Nous se levons à sept heures.",
+            "Nous nous lèvent à sept heures."
+          ],
+          "antwoord": 0,
+          "uitleg": "Een wederkerend werkwoord heeft een voornaamwoord dat bij het onderwerp past: je me lève, nous nous levons. Se blijft enkel bij il, elle en ils."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul de imparfait in: quand j'étais petit, nous … (habiter) à Liège. Eén woord.",
+          "antwoord": [
+            "habitions"
+          ],
+          "uitleg": "De imparfait neemt de stam van de nous-vorm (nous habitons geeft habit-) met de uitgang -ions voor nous."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Lees: 'Quand Paul est arrivé à la gare, le train était déjà parti.' Wat gebeurde er eerst?",
+          "opties": [
+            "De trein vertrok.",
+            "Paul kwam aan in het station.",
+            "Allebei tegelijk.",
+            "Dat zegt de zin niet."
+          ],
+          "antwoord": 0,
+          "uitleg": "Était parti is een plus-que-parfait: iets dat al gebeurd was vóór een ander moment in het verleden. De trein was dus al weg toen Paul aankwam."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke van deze werkwoorden worden onpersoonlijk gebruikt, met een il dat naar niemand verwijst?",
+          "opties": [
+            "il pleut",
+            "il faut",
+            "il neige",
+            "il chante"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "In il pleut, il faut en il neige is il niemand in het bijzonder. In il chante zingt er wel iemand: een jongen, een man."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In 'Ils allaient au cinéma chaque samedi' gaat het over één bepaald bezoek aan de cinema.",
+          "antwoord": false,
+          "uitleg": "Allaient is een imparfait en chaque samedi zegt dat het elke week gebeurde. Het gaat dus over een gewoonte, niet over één keer."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In een verhaal staat: 'Il a ouvert la porte, il a regardé dehors et il est sorti.' Waarom staan die werkwoorden in de passé composé?",
+          "opties": [
+            "het zijn afgeronde handelingen die na elkaar gebeuren",
+            "het is een gewoonte die elke dag terugkomt",
+            "het is een beschrijving van hoe de straat er toen uitzag",
+            "het gebeurde vóór een ander moment in het verleden"
+          ],
+          "antwoord": 0,
+          "uitleg": "Korte handelingen die elkaar opvolgen en af zijn, vertellen het verhaal verder. Daarvoor dient de passé composé. Een beschrijving of een gewoonte zou in de imparfait staan."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In de zin 'Il faut que tu viennes' is viennes een vorm van het werkwoord venir.",
+          "antwoord": true,
+          "uitleg": "Viennes is de subjonctif van venir. Hij vertrekt van ils viennent."
+        }
+      ]
+    },
+    {
+      "titel": "Grammatica toepassen: zinnen aanvullen en verbeteren — deel 2",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Lees: 'Je n'ai pas … argent sur moi.' Wat komt er op de stippels?",
+          "opties": [
+            "d'",
+            "de l'",
+            "l'",
+            "un"
+          ],
+          "antwoord": 0,
+          "uitleg": "Na een ontkenning worden du, de la, de l', des, un en une één woordje: de, en voor een klinker d'. Je n'ai pas d'argent."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zinnen zijn juist?",
+          "opties": [
+            "Elle boit du café le matin.",
+            "Il mange beaucoup de légumes.",
+            "Nous achetons des pain.",
+            "Je voudrais un peu du sucre."
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Na een hoeveelheid zoals beaucoup of un peu staat gewoon de: beaucoup de légumes, un peu de sucre. Pain is hier enkelvoud, dus du pain."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul het samengetrokken lidwoord in: je vais … marché tous les samedis. Eén woord.",
+          "antwoord": [
+            "au"
+          ],
+          "uitleg": "À en le smelten samen tot au. À en les worden aux."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke vorm van 'blanc' past? 'Ma grand-mère porte une robe … .'",
+          "opties": [
+            "blanche",
+            "blanc",
+            "blance",
+            "blanches"
+          ],
+          "antwoord": 0,
+          "uitleg": "Robe is vrouwelijk enkelvoud, dus het bijvoeglijk naamwoord ook. Blanc heeft een onregelmatige vrouwelijke vorm: blanche."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin heeft de bijvoeglijke naamwoorden op de juiste plaats?",
+          "opties": [
+            "J'habite dans une petite maison rouge.",
+            "J'habite dans une rouge petite maison.",
+            "J'habite dans une maison petite rouge.",
+            "J'habite dans une rouge maison petite."
+          ],
+          "antwoord": 0,
+          "uitleg": "Korte, veelgebruikte bijvoeglijke naamwoorden zoals petit, grand, beau en jeune staan vóór het naamwoord. Een kleur staat erachter."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In 'Ces chaussures sont trop chères' staat chères in het vrouwelijk meervoud omdat chaussures vrouwelijk meervoud is.",
+          "antwoord": true,
+          "uitleg": "Het bijvoeglijk naamwoord neemt geslacht en getal over van het woord waar het bij hoort, ook als er een werkwoord tussen staat."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Lees: 'Tu as vu le nouveau film ? — Oui, je … ai vu hier.' Wat komt er op de stippels?",
+          "opties": [
+            "l'",
+            "lui",
+            "le",
+            "en"
+          ],
+          "antwoord": 0,
+          "uitleg": "Le film is het lijdend voorwerp, dus le. Voor de klinker van ai wordt dat l': je l'ai vu."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Lees: 'Tu as écrit à ta grand-mère ? — Oui, je … ai écrit une carte.' Welk woord past?",
+          "opties": [
+            "lui",
+            "l'",
+            "la",
+            "y"
+          ],
+          "antwoord": 0,
+          "uitleg": "Écrire à quelqu'un heeft à bij zich: ta grand-mère is het meewerkend voorwerp. Voor één persoon is dat lui, voor meerdere leur."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vervang de plaats door één woord: 'Tu vas à Bruges demain ? — Oui, j'… vais avec ma classe.' Eén woord.",
+          "antwoord": [
+            "y"
+          ],
+          "uitleg": "Y vervangt een plaats met à, en, chez of dans ervoor: à Bruges wordt y, dus j'y vais."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In 'Des cerises ? Oui, j'en veux bien' vervangt en het woord cerises.",
+          "antwoord": true,
+          "uitleg": "En vervangt een naamwoord met de, du of des ervoor, en ook een hoeveelheid: des cerises wordt en."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zinnen gebruiken het betrekkelijk voornaamwoord correct?",
+          "opties": [
+            "C'est la fille qui habite à côté.",
+            "C'est le livre dont je t'ai parlé.",
+            "Voilà le film qui j'ai vu hier soir au cinéma.",
+            "C'est la ville que je suis née il y a quinze ans."
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Qui is het onderwerp van de bijzin (la fille habite), dont hoort bij parler de. Bij le film is het lijdend voorwerp, dus que j'ai vu, en bij een plaats gebruik je où: la ville où je suis née."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul het betrekkelijk voornaamwoord in: 'La ville … je préfère, c'est Namur.' Eén woord.",
+          "antwoord": [
+            "que"
+          ],
+          "uitleg": "Je is het onderwerp van préfère. La ville is wat je verkiest, dus het lijdend voorwerp: que."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Kies het juiste voorzetsel: 'Cet été, ma famille part … Espagne.'",
+          "opties": [
+            "en",
+            "au",
+            "à",
+            "aux"
+          ],
+          "antwoord": 0,
+          "uitleg": "Espagne is een vrouwelijk land, en dan staat er en. Bij een mannelijk land komt au, bij een land in het meervoud aux."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "'J'habite au Bruxelles' is juist, want bij een stad zet je au.",
+          "antwoord": false,
+          "uitleg": "Bij een stad staat altijd à: j'habite à Bruxelles. Au en en horen bij landen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe zeg je 'ik heb niets gekocht' in het Frans?",
+          "opties": [
+            "Je n'ai rien acheté.",
+            "Je n'ai acheté rien.",
+            "Je ne rien ai acheté.",
+            "Je n'ai pas rien acheté."
+          ],
+          "antwoord": 0,
+          "uitleg": "In een samengestelde tijd staan ne en rien rond het hulpwerkwoord: je n'ai rien acheté. Rien vervangt pas, dus pas valt weg."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een zin uit een mail: 'Chère Madame, je vous écris pour demandé des informations sur le stage.' Welk woord is fout geschreven?",
+          "opties": [
+            "demandé",
+            "écris",
+            "Chère",
+            "informations"
+          ],
+          "antwoord": 0,
+          "uitleg": "Na pour staat een infinitief: pour demander. Demandé is een voltooid deelwoord. Je hoort het verschil niet, dus bij het nalezen moet je het zien."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In welke zinnen staat het bezittelijk woordje juist?",
+          "opties": [
+            "Il a oublié son clé.",
+            "Elle cherche son portefeuille.",
+            "Nous attendons notre bus.",
+            "Ils ont vendu leurs vieille voiture hier."
+          ],
+          "antwoord": [
+            1,
+            2
+          ],
+          "uitleg": "Het bezittelijk woordje past zich aan het naamwoord aan: son portefeuille, notre bus. Clé is vrouwelijk, dus sa clé, en voiture is enkelvoud, dus leur voiture."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "'Ma amie Sophie' is juist, want amie is een vrouwelijk woord.",
+          "antwoord": false,
+          "uitleg": "Voor een vrouwelijk woord dat met een klinker begint, wordt ma mon. Je schrijft dus mon amie Sophie, en zo blijft het vlot uit te spreken."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin betekent 'Mijn broer is groter dan ik'?",
+          "opties": [
+            "Mon frère est plus grand que moi.",
+            "Mon frère est plus grand de moi.",
+            "Mon frère est le plus grand que moi.",
+            "Mon frère est aussi grand que moi."
+          ],
+          "antwoord": 0,
+          "uitleg": "De vergrotende trap is plus … que. Le plus grand is de overtreffende trap, de grootste, en aussi … que betekent even groot als."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Maak een bijwoord van 'lent': il parle … pour que tout le monde comprenne. Eén woord.",
+          "antwoord": [
+            "lentement"
+          ],
+          "uitleg": "Een bijwoord op -ment maak je van de vrouwelijke vorm: lente geeft lentement."
+        }
+      ]
+    },
+    {
+      "titel": "Begrijpend lezen: langere Franse teksten — deel 1",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "leestekst": "Texte A — un article\n\nLe premier samedi du mois, la salle des fêtes de Marche-en-Famenne ressemble à un grand atelier. Sur de longues tables, on voit des grille-pain, des lampes, des vélos d'enfant et même une machine à café qui ne fait plus de café. Bienvenue au Repair Café, où des bénévoles aident les habitants à réparer leurs objets cassés, gratuitement.\n\nL'idée est née aux Pays-Bas en 2009. Aujourd'hui, il existe des Repair Cafés dans des dizaines de pays, et la Belgique en compte plus d'une centaine.\n\n« Nous ne sommes pas un magasin », explique Marc Dufour, 67 ans, ancien électricien et bénévole depuis quatre ans. « Le visiteur reste à côté de nous pendant la réparation. Il regarde, il pose des questions, et souvent, il apprend à le faire lui-même la fois suivante. »\n\nLes chiffres de l'année passée montrent que le système fonctionne : sur 412 objets apportés, 287 ont été réparés. Pour les autres, il manquait souvent une pièce, ou bien la réparation était trop dangereuse. « Un appareil qui chauffe, comme un sèche-cheveux, on l'ouvre avec beaucoup de prudence », précise Marc.\n\nPourtant, l'organisation a un problème : les bénévoles vieillissent. La plupart ont plus de soixante ans, et peu de jeunes viennent les rejoindre. C'est pourquoi le Repair Café a contacté l'école secondaire de la ville. Depuis janvier, six élèves de quatrième viennent chaque mois. Ils réparent surtout des téléphones et des ordinateurs, des objets que les bénévoles plus âgés connaissent moins bien.\n\nTexte B — le courrier des lecteurs\n\nBravo pour votre article sur le Repair Café. J'y suis allée le mois dernier avec ma vieille machine à coudre, et je suis repartie avec une machine qui marche… et avec un nouvel ami ! Je ne suis cependant pas d'accord avec la dernière phrase de votre article, qui présente les jeunes comme les seuls qui connaissent la technologie. Ma voisine a 72 ans et elle répare des ordinateurs depuis trente ans.\n\nLe vrai problème, à mon avis, ce n'est pas l'âge : c'est que trop peu de gens savent que ces ateliers existent. Il faudrait que la commune en parle davantage, par exemple dans son bulletin mensuel.\n\nNadia, Marche-en-Famenne",
+      "woordenlijst": [
+        {
+          "woord": "grille-pain",
+          "uitleg": "een broodrooster"
+        },
+        {
+          "woord": "bénévoles",
+          "uitleg": "vrijwilligers, mensen die helpen zonder ervoor betaald te worden"
+        },
+        {
+          "woord": "pièce",
+          "uitleg": "hier: een onderdeel van een toestel"
+        },
+        {
+          "woord": "vieillissent",
+          "uitleg": "worden ouder, van het werkwoord vieillir"
+        },
+        {
+          "woord": "machine à coudre",
+          "uitleg": "een naaimachine"
+        },
+        {
+          "woord": "davantage",
+          "uitleg": "meer, vaker"
+        }
+      ],
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarover gaat tekst A?",
+          "opties": [
+            "over een plek waar mensen samen kapotte spullen herstellen",
+            "over een winkel die tweedehandstoestellen verkoopt",
+            "over een school die leerlingen een technisch beroep laat leren",
+            "over de geschiedenis van de elektriciteit in België"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het onderwerp zeg je in enkele woorden. De eerste alinea zegt het al: in het Repair Café helpen vrijwilligers de inwoners hun kapotte voorwerpen te herstellen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de hoofdgedachte van tekst A?",
+          "opties": [
+            "Het Repair Café werkt goed, maar heeft jonge vrijwilligers nodig.",
+            "Wie een kapot toestel heeft, gooit het beter meteen weg en koopt een nieuw.",
+            "Alleen oudere mensen kunnen nog een toestel herstellen.",
+            "Het Repair Café is in 2009 in Marche-en-Famenne zelf begonnen."
+          ],
+          "antwoord": 0,
+          "uitleg": "De hoofdgedachte is de boodschap van de hele tekst in één zin. Het artikel toont met cijfers dat het systeem werkt (le système fonctionne) en zegt daarna dat er te weinig jonge vrijwilligers zijn."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel voorwerpen werden vorig jaar hersteld? Schrijf het getal in cijfers.",
+          "antwoord": [
+            "287"
+          ],
+          "uitleg": "Sur 412 objets apportés, 287 ont été réparés: van de 412 binnengebrachte voorwerpen werden er 287 hersteld."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In welk land ontstond het idee van het Repair Café?",
+          "opties": [
+            "in Nederland",
+            "in België",
+            "in Frankrijk",
+            "in Luxemburg"
+          ],
+          "antwoord": 0,
+          "uitleg": "L'idée est née aux Pays-Bas: les Pays-Bas is Nederland."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In het Repair Café betaal je een kleine prijs voor elke herstelling.",
+          "antwoord": false,
+          "uitleg": "De eerste alinea eindigt met gratuitement: de herstelling is gratis."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat bedoelt Marc met 'Nous ne sommes pas un magasin'?",
+          "opties": [
+            "De bezoeker kijkt mee en leert zelf iets bij.",
+            "Ze verkopen geen nieuwe toestellen, alleen oude.",
+            "Het café is enkel op zaterdag open.",
+            "Je kan er niets te drinken kopen."
+          ],
+          "antwoord": 0,
+          "uitleg": "Hij legt het zelf uit in de zinnen die volgen: de bezoeker blijft ernaast, kijkt, stelt vragen en kan het de volgende keer vaak zelf."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom lukt een herstelling soms niet, volgens tekst A?",
+          "opties": [
+            "er ontbreekt een onderdeel",
+            "de herstelling is te gevaarlijk",
+            "de bezoeker heeft geen tijd om te wachten",
+            "de vrijwilligers kennen het merk van het toestel niet"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Il manquait souvent une pièce, ou bien la réparation était trop dangereuse: twee redenen, verbonden door ou bien, of ook."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "'On l'ouvre avec beaucoup de prudence.' Waarnaar verwijst l' in die zin?",
+          "opties": [
+            "naar een toestel dat warm wordt, zoals een haardroger",
+            "naar de grote zaal waar het Repair Café elke maand plaatsvindt",
+            "naar de deur van het atelier",
+            "naar de doos met gereedschap van Marc"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een verwijswoord verwijst terug naar iets van daarvoor. Vlak ervoor staat un appareil qui chauffe, comme un sèche-cheveux: een toestel dat warm wordt, zoals een haardroger."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent 'Pourtant' aan het begin van de alinea over het probleem?",
+          "opties": [
+            "toch",
+            "daarom",
+            "bovendien",
+            "bijvoorbeeld"
+          ],
+          "antwoord": 0,
+          "uitleg": "Pourtant kondigt een tegenstelling aan: het systeem werkt, en toch is er een probleem."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "'Les bénévoles vieillissent … C'est pourquoi le Repair Café a contacté l'école.' Welk verband leggen de woorden 'C'est pourquoi'?",
+          "opties": [
+            "oorzaak en gevolg",
+            "een tegenstelling tussen twee feiten",
+            "een opsomming van gelijke dingen",
+            "een voorbeeld bij een regel"
+          ],
+          "antwoord": 0,
+          "uitleg": "C'est pourquoi betekent daarom. De vrijwilligers worden ouder (de oorzaak), dus vraagt het Repair Café hulp aan de school (het gevolg)."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De leerlingen herstellen vooral toestellen die de oudere vrijwilligers minder goed kennen.",
+          "antwoord": true,
+          "uitleg": "Ils réparent surtout des téléphones et des ordinateurs, des objets que les bénévoles plus âgés connaissent moins bien."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel leerlingen komen elke maand helpen? Eén getal.",
+          "antwoord": [
+            "6",
+            "zes",
+            "six"
+          ],
+          "uitleg": "Depuis janvier, six élèves de quatrième viennent chaque mois: zes leerlingen van het vierde jaar."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat voor soort tekst is tekst B?",
+          "opties": [
+            "een lezersbrief",
+            "een nieuwsartikel",
+            "een gebruiksaanwijzing",
+            "een verhaal"
+          ],
+          "antwoord": 0,
+          "uitleg": "Le courrier des lecteurs is de rubriek met brieven van lezers. Nadia reageert op het artikel en ondertekent met haar naam."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat bracht Nadia mee naar het Repair Café?",
+          "opties": [
+            "een oude naaimachine",
+            "een computer van haar buurvrouw",
+            "een broodrooster",
+            "een kinderfiets"
+          ],
+          "antwoord": 0,
+          "uitleg": "J'y suis allée le mois dernier avec ma vieille machine à coudre."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarmee is Nadia het niet eens?",
+          "opties": [
+            "dat alleen jongeren iets van technologie zouden kennen",
+            "dat het Repair Café zijn herstellingen helemaal gratis doet",
+            "dat de vrijwilligers vriendelijk zijn",
+            "dat er te weinig tafels in de zaal staan"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je ne suis cependant pas d'accord avec la dernière phrase: die zin stelt de jongeren voor als de enigen die de technologie kennen. Haar buurvrouw van 72 bewijst het tegendeel."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is volgens Nadia het echte probleem?",
+          "opties": [
+            "Te weinig mensen weten dat de ateliers bestaan.",
+            "De vrijwilligers worden te oud om nog veilig te herstellen.",
+            "Er zijn te weinig onderdelen.",
+            "De gemeente geeft geen geld."
+          ],
+          "antwoord": 0,
+          "uitleg": "Le vrai problème, ce n'est pas l'âge : c'est que trop peu de gens savent que ces ateliers existent. Ze spreekt het artikel dus tegen: niet de leeftijd is het probleem."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat stelt Nadia voor?",
+          "opties": [
+            "dat de gemeente er meer over vertelt",
+            "dat de school meer leerlingen stuurt",
+            "dat het Repair Café elke week opengaat",
+            "dat bezoekers voortaan een kleine bijdrage betalen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Il faudrait que la commune en parle davantage, par exemple dans son bulletin mensuel: in het maandblad van de gemeente."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Tekst A en tekst B gaan over hetzelfde onderwerp, maar in tekst B geeft de schrijfster ook haar mening.",
+          "antwoord": true,
+          "uitleg": "Allebei gaan ze over het Repair Café. Tekst A brengt vooral feiten en cijfers; tekst B zegt à mon avis en je ne suis pas d'accord: dat is een opiniërende tekst."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De buurvrouw van Nadia is een van de leerlingen die in het Repair Café helpen.",
+          "antwoord": false,
+          "uitleg": "Ma voisine a 72 ans: de buurvrouw is 72 jaar en dus geen leerling van het vierde jaar."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarover hebben allebei de teksten het?",
+          "opties": [
+            "het Repair Café in Marche-en-Famenne",
+            "jongeren en technologie",
+            "de cijfers van vorig jaar",
+            "het land waar het idee begon"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "De cijfers en het begin in Nederland staan alleen in tekst A. Het Repair Café zelf en de vraag wie de technologie kent, komen in allebei terug."
+        }
+      ]
+    },
+    {
+      "titel": "Begrijpend lezen: langere Franse teksten — deel 2",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "leestekst": "Le dernier bus\n\nIl était presque dix heures du soir quand Lucas est sorti de la salle de sport. Il pleuvait, et la rue était vide. Il a regardé sa montre et il a commencé à courir : le dernier bus pour son village passait à 21 h 52.\n\nQuand il est arrivé à l'arrêt, le bus était déjà parti. Lucas a vu ses feux rouges disparaître au bout de la rue. Il a sorti son téléphone pour appeler sa mère, mais l'écran est resté noir. La batterie était vide.\n\n« Génial », a-t-il dit à voix haute, et il s'est assis sous l'abri. Il avait froid, il avait faim, et il commençait à avoir un peu peur. Son village était à douze kilomètres. À pied, il lui faudrait presque trois heures.\n\nUne petite voiture s'est arrêtée devant l'abri. Une vieille dame a baissé la vitre.\n\n« Tu as raté le bus, toi aussi ? Ça m'arrivait tout le temps quand j'avais ton âge. »\n\nLucas a hésité. Sa mère lui répétait toujours qu'il ne fallait jamais monter dans la voiture d'un inconnu.\n\n« Je ne veux pas vous déranger, madame. Est-ce que je pourrais seulement utiliser votre téléphone ? »\n\nLa dame a souri et lui a tendu un vieux téléphone à clapet. « Bien sûr. Il est plus vieux que toi, mais il marche. »\n\nSa mère a répondu tout de suite. Elle n'était pas fâchée ; elle était surtout soulagée. « Reste où tu es, j'arrive dans vingt minutes. »\n\nLa dame n'est pas repartie. Elle a attendu dans sa voiture, le moteur allumé, jusqu'à ce que la voiture de la mère de Lucas apparaisse au coin de la rue. Puis elle a fait un petit signe de la main et elle est partie.\n\nDans la voiture, Lucas a raconté toute l'histoire. Sa mère a écouté sans rien dire. À la fin, elle a seulement demandé : « Et tu sais comment elle s'appelle ? »\n\nLucas a secoué la tête. Il ne lui avait même pas demandé son nom. Ce soir-là, avant de s'endormir, il s'est promis une chose : la prochaine fois que quelqu'un aurait besoin d'aide, ce serait lui qui s'arrêterait.",
+      "woordenlijst": [
+        {
+          "woord": "abri",
+          "uitleg": "het bushokje, de schuilplaats aan de halte"
+        },
+        {
+          "woord": "raté",
+          "uitleg": "gemist, van het werkwoord rater"
+        },
+        {
+          "woord": "téléphone à clapet",
+          "uitleg": "een klaptelefoon, een oud gsm-model dat je openklapt"
+        },
+        {
+          "woord": "soulagée",
+          "uitleg": "opgelucht, omdat iets toch goed afloopt"
+        },
+        {
+          "woord": "secoué la tête",
+          "uitleg": "het hoofd geschud, om nee te zeggen"
+        }
+      ],
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom begint Lucas te lopen?",
+          "opties": [
+            "Hij wil de laatste bus nog halen.",
+            "Het begint plots hard te regenen.",
+            "Hij is te laat voor zijn sportles.",
+            "Hij ziet zijn moeder aan de overkant."
+          ],
+          "antwoord": 0,
+          "uitleg": "Hij kijkt op zijn horloge en begint te lopen, want le dernier bus passait à 21 h 52. Het regende al toen hij buitenkwam."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Om hoe laat vertrok de laatste bus naar het dorp van Lucas? Schrijf het uur zoals in de tekst.",
+          "antwoord": [
+            "21 h 52",
+            "21h52",
+            "21:52",
+            "21.52"
+          ],
+          "uitleg": "Le dernier bus pour son village passait à 21 h 52. In het Frans schrijf je het uur vaak met een h tussen de uren en de minuten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe voelt Lucas zich terwijl hij aan de halte zit?",
+          "opties": [
+            "hij heeft het koud",
+            "hij heeft honger",
+            "hij is een beetje bang",
+            "hij is boos op zijn moeder"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Il avait froid, il avait faim, et il commençait à avoir un peu peur. Over boosheid op zijn moeder staat er niets."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom kan Lucas zijn moeder niet met zijn eigen telefoon bellen?",
+          "opties": [
+            "De batterij is leeg.",
+            "Hij kent haar nummer niet vanbuiten.",
+            "Er is geen bereik in de straat.",
+            "Zijn telefoon ligt nog in de sporthal."
+          ],
+          "antwoord": 0,
+          "uitleg": "L'écran est resté noir. La batterie était vide: het scherm bleef zwart, de batterij was leeg."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Het dorp van Lucas ligt zo dichtbij dat hij er in een half uur te voet is.",
+          "antwoord": false,
+          "uitleg": "Son village était à douze kilomètres. À pied, il lui faudrait presque trois heures: bijna drie uur stappen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Lucas zegt 'Génial' als hij alleen aan de halte staat. Wat bedoelt hij?",
+          "opties": [
+            "Hij meent het omgekeerde: het is een ramp.",
+            "Hij is blij dat hij nu rustig in de regen kan wachten.",
+            "Hij vindt de straat mooi in de regen.",
+            "Hij heeft net een goed idee gekregen."
+          ],
+          "antwoord": 0,
+          "uitleg": "Hij heeft de bus gemist en zijn telefoon is leeg. Génial (geweldig) is hier ironisch: hij zegt het omgekeerde van wat hij denkt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "'Tu as raté le bus, toi aussi ?' Wat bedoelt de dame met 'toi aussi'?",
+          "opties": [
+            "Zij heeft vroeger zelf vaak de bus gemist.",
+            "Zij heeft vanavond net zoals Lucas de laatste bus gemist.",
+            "Lucas lijkt op haar kleinzoon.",
+            "Zij woont ook in het dorp van Lucas."
+          ],
+          "antwoord": 0,
+          "uitleg": "Ze zegt erna: ça m'arrivait tout le temps quand j'avais ton âge. De imparfait arrivait toont een gewoonte van vroeger, toen ze zo oud was als hij."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom stapt Lucas niet in de auto van de dame?",
+          "opties": [
+            "Zijn moeder heeft hem geleerd niet bij onbekenden in te stappen.",
+            "Hij wil liever de hele weg naar zijn dorp in de regen te voet gaan.",
+            "De auto van de dame is te klein.",
+            "De dame vraagt het hem niet."
+          ],
+          "antwoord": 0,
+          "uitleg": "Sa mère lui répétait toujours qu'il ne fallait jamais monter dans la voiture d'un inconnu: nooit instappen bij iemand die je niet kent."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat vraagt Lucas aan de dame?",
+          "opties": [
+            "of hij even haar telefoon mag gebruiken",
+            "of ze hem tot aan de deur van zijn huis wil brengen",
+            "hoe laat de volgende bus komt",
+            "of ze zijn moeder kent"
+          ],
+          "antwoord": 0,
+          "uitleg": "Est-ce que je pourrais seulement utiliser votre téléphone ? Met je pourrais, een conditionnel, vraagt hij het beleefd."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Volgens de dame is haar telefoon ouder dan Lucas.",
+          "antwoord": true,
+          "uitleg": "Il est plus vieux que toi, mais il marche: hij is ouder dan jij, maar hij werkt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe reageert de moeder van Lucas aan de telefoon?",
+          "opties": [
+            "Ze is niet boos, ze komt hem halen.",
+            "Ze is erg boos en zegt dat hij moet stappen.",
+            "Ze neemt niet op.",
+            "Ze vraagt hem de bus van morgen te nemen."
+          ],
+          "antwoord": 0,
+          "uitleg": "Elle n'était pas fâchée: ze was niet boos. Ze zegt dat ze er binnen twintig minuten is."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent 'Reste où tu es' in de tekst?",
+          "opties": [
+            "Blijf waar je bent.",
+            "Kom naar huis.",
+            "Bel me later terug.",
+            "Ga terug naar de sporthal."
+          ],
+          "antwoord": 0,
+          "uitleg": "Reste is de impératif van rester, blijven. Où tu es is waar je bent."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De dame rijdt weg zodra Lucas zijn moeder gebeld heeft.",
+          "antwoord": false,
+          "uitleg": "La dame n'est pas repartie. Elle a attendu ... jusqu'à ce que la voiture de la mère de Lucas apparaisse: ze wacht tot de moeder er is."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom wacht de dame tot de moeder er is? De tekst zegt het niet letterlijk. Wat kan je eruit afleiden?",
+          "opties": [
+            "Ze wil zeker zijn dat Lucas niet alleen in het donker blijft.",
+            "Ze wil de moeder van Lucas eens goed de les spellen over dat late uur.",
+            "Haar auto wil niet meer starten.",
+            "Ze wacht tot Lucas haar telefoon teruggeeft."
+          ],
+          "antwoord": 0,
+          "uitleg": "Ze laat de motor draaien, wacht, zwaait en rijdt weg zonder iets te zeggen. Ze wil de moeder niet spreken: ze blijft gewoon tot Lucas veilig is."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wie vertelt dit verhaal?",
+          "opties": [
+            "een verteller die over Lucas vertelt",
+            "Lucas zelf, die alles in de ik-vorm vertelt",
+            "de oude dame",
+            "de moeder van Lucas"
+          ],
+          "antwoord": 0,
+          "uitleg": "Er staat il en Lucas, nooit je voor Lucas. Het is een verteller die van buitenaf over Lucas vertelt en ook weet wat hij denkt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat voor soort tekst is 'Le dernier bus'?",
+          "opties": [
+            "een verhaal",
+            "een betoog",
+            "een nieuwsbericht",
+            "een gebruiksaanwijzing"
+          ],
+          "antwoord": 0,
+          "uitleg": "Er zijn personages, een plaats, een tijd en gebeurtenissen die elkaar opvolgen: dat is een verhalende of narratieve tekst."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Aan het einde weet Lucas niet hoe de dame heet.",
+          "antwoord": true,
+          "uitleg": "Il ne lui avait même pas demandé son nom: hij had haar zelfs haar naam niet gevraagd."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat neemt Lucas zich op het einde voor?",
+          "opties": [
+            "zelf stoppen als iemand anders hulp nodig heeft",
+            "altijd een opgeladen telefoon bij zich hebben",
+            "nooit meer zo laat naar de sporthal gaan",
+            "de dame opzoeken om haar te bedanken"
+          ],
+          "antwoord": 0,
+          "uitleg": "La prochaine fois que quelqu'un aurait besoin d'aide, ce serait lui qui s'arrêterait: de volgende keer zou hij zelf degene zijn die stopt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zinnen passen bij de boodschap van het verhaal?",
+          "opties": [
+            "Een kleine daad van een vreemde kan veel betekenen.",
+            "Wie geholpen wordt, kan later zelf iemand helpen.",
+            "Met onbekenden praat je nooit, ook niet als je in nood zit.",
+            "Een oude klaptelefoon is altijd beter dan een nieuwe smartphone."
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Een onbekende dame helpt Lucas zonder er iets voor terug te vragen, en daardoor besluit hij om zelf ook te helpen. Lucas praat wel met haar: hij stapt alleen niet in."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In de auto luistert de moeder van Lucas naar zijn verhaal zonder iets te zeggen.",
+          "antwoord": true,
+          "uitleg": "Sa mère a écouté sans rien dire. Pas op het einde stelt ze één vraag."
+        }
+      ]
     }
   ]
 }

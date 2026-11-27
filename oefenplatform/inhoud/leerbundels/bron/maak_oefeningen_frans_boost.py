@@ -1751,3 +1751,207 @@ UITLEGBLADEN["oefenbundel-soorten-zinnen-bijzinnen-en-si-zinnen-boost-doorstroom
              ]),
     ],
 )
+
+
+# ============================================================
+# 27 november 2026: meer grammatica en meer leesopdrachten, na de enquête van
+# een tester die zelf Frans geeft. Andere zinnen en teksten dan op het scherm.
+zet("grammatica-toepassen-zinnen-aanvullen-en-verbeteren",
+    titel="Grammatica toepassen: zinnen aanvullen en verbeteren",
+    reeksen=[
+        dict(kop="De juiste tijd kiezen",
+             opdracht="Vul het werkwoord in de juiste tijd in. Kijk eerst naar de tijdswoorden.",
+             oefeningen=[
+                 ("rij", [("Quand le téléphone a sonné, je (dormir) …", "dormais"),
+                          ("L'été passé, nous (aller) … chaque dimanche chez mamie.", "allions"),
+                          ("Hier, elle (perdre) … ses clés dans le bus.", "a perdu"),
+                          ("Demain, vous (recevoir) … un message.", "recevrez"),
+                          ("Quand je suis arrivé, le film (commencer) … déjà.", "avait commencé"),
+                          ("Attends, je (venir) … de rentrer !", "viens"),
+                          ("Ce soir, nous (aller) … regarder un match.", "allons")],
+                  None, WW),
+             ]),
+        dict(kop="Être of avoir, en de overeenkomst",
+             opdracht="Zet in de passé composé. Let op de e en de s.",
+             oefeningen=[
+                 ("rij", [("Mes cousines (arriver) … hier soir.", "sont arrivées"),
+                          ("Nous (finir) … le travail à midi.", "avons fini"),
+                          ("Ma sœur (tomber) … de vélo.", "est tombée"),
+                          ("Les garçons (rester) … à la maison.", "sont restés"),
+                          ("Tu (boire) … ton café ?", "as bu")],
+                  None, WW),
+             ]),
+        dict(kop="Subjonctif of indicatif?",
+             opdracht="Vul het werkwoord in. Kijk naar wat er vóór que staat.",
+             oefeningen=[
+                 ("rij", [("Il faut que tu (lire) … ce livre.", "lises"),
+                          ("Je suis content que vous (être) … là.", "soyez"),
+                          ("Je sais qu'elle (avoir) … raison.", "a"),
+                          ("Il faut que nous (finir) … avant six heures.", "finissions")],
+                  None, WW),
+                 ("open", "Waarom staat er in <em>Je sais qu'elle a raison</em> geen subjonctif?",
+                  "Je sais que geeft een feit door, en daarna volgt de indicatif. De subjonctif komt "
+                  "na il faut que of na een gevoel.", 2),
+             ]),
+        dict(kop="Si-zinnen afmaken",
+             opdracht="Maak de zin af met het werkwoord tussen haakjes.",
+             oefeningen=[
+                 ("rij", [("S'il neige demain, nous (faire) … un bonhomme de neige.", "ferons"),
+                          ("Si j'étais riche, je (voyager) … partout.", "voyagerais"),
+                          ("Si tu (venir) … ce soir, on regardera un film.", "viens"),
+                          ("Si nous (avoir) … une voiture, nous irions à la mer.", "avions")],
+                  None, WW),
+             ]),
+        dict(kop="Lidwoorden en voorzetsels",
+             opdracht="Vul één woord in: du, de la, de, d', des, au, aux, en of à.",
+             oefeningen=[
+                 ("rij", [("Je bois … lait le matin.", "du"),
+                          ("Il n'y a plus … pain.", "de"),
+                          ("Elle a beaucoup … amis.", "d'"),
+                          ("Nous partons … Italie.", "en"),
+                          ("Mon oncle habite … Canada.", "au"),
+                          ("Ils passent une semaine … Pays-Bas.", "aux"),
+                          ("Je travaille … Namur.", "à")],
+                  None, W),
+             ]),
+        dict(kop="Vervang door een voornaamwoord",
+             opdracht="Herschrijf de zin met le, la, l', les, lui, leur, y of en.",
+             oefeningen=[
+                 ("open", "Je regarde <u>la télé</u> le soir.", "Je la regarde le soir.", 1),
+                 ("open", "Elle parle <u>à son prof</u>.", "Elle lui parle.", 1),
+                 ("open", "Nous allons <u>à la piscine</u> samedi.", "Nous y allons samedi.", 1),
+                 ("open", "Il achète <u>des pommes</u>.", "Il en achète.", 1),
+                 ("open", "J'ai téléphoné <u>à mes grands-parents</u>.", "Je leur ai téléphoné.", 1),
+             ]),
+        dict(kop="Qui, que, dont of où?",
+             opdracht="Vul het betrekkelijk voornaamwoord in.",
+             oefeningen=[
+                 ("rij", [("Le garçon … joue au foot est mon frère.", "qui"),
+                          ("La chanson … tu écoutes est belle.", "que"),
+                          ("Le village … j'habite est petit.", "où"),
+                          ("Le prof … je t'ai parlé est malade.", "dont")],
+                  None, W),
+             ]),
+        dict(kop="Overeenkomst en plaats",
+             opdracht="Zet het bijvoeglijk naamwoord in de juiste vorm en op de juiste plaats.",
+             oefeningen=[
+                 ("rij", [("une jupe (vert)", "une jupe verte"),
+                          ("des (beau) maisons", "de belles maisons / des belles maisons"),
+                          ("une (grand) ville (moderne)", "une grande ville moderne"),
+                          ("des chemises (blanc)", "des chemises blanches")],
+                  None, WW),
+                 ("rij", [("facile → …", "facilement"),
+                          ("doux → …", "doucement"),
+                          ("heureux → …", "heureusement")],
+                  "Maak er een bijwoord op -ment van.", W),
+             ]),
+        dict(kop="Zoek de vijf fouten",
+             opdracht="In deze mail staan vijf fouten. Onderstreep ze en schrijf de verbetering.",
+             oefeningen=[
+                 ("tekst",
+                  "<div style='border:1px solid #999;padding:.6em .8em'>"
+                  "<p style='margin:0 0 .3em'>Bonjour Madame,</p>"
+                  "<p style='margin:0 0 .3em'>Je vous écris pour réservé une place pour le stage "
+                  "de cuisine. Ma amie Julie veut aussi venir. Nous sommes allé à votre atelier "
+                  "l'année passée et nous avons beaucoup aimé. Est-ce qu'il faut que nous apportons "
+                  "nos propres couteaux ? Je n'ai pas des couteaux de cuisine.</p>"
+                  "<p style='margin:0'>Merci d'avance, Emma</p></div>"),
+                 ("open", "Schrijf de vijf verbeteringen.",
+                  "pour réserver · mon amie · nous sommes allées · que nous apportions · "
+                  "pas de couteaux", 4),
+             ]),
+    ])
+
+
+zet("begrijpend-lezen-langere-franse-teksten",
+    titel="Begrijpend lezen: langere Franse teksten",
+    onder="Twee langere teksten en {aantal} oefeningen op papier, met een antwoordblad achteraan.",
+    hoe=HOE_LEZEN,
+    reeksen=[
+        dict(kop="Texte 1", opdracht="Lees het artikel helemaal. De vragen erna gaan alleen hierover.",
+             oefeningen=[
+                 ("tekst",
+                  "<h3 style='margin:0 0 .4em'>Un dimanche sans voitures</h3>"
+                  "<p>Une fois par an, le centre de Liège devient silencieux. Pendant le "
+                  "« dimanche sans voitures », les rues sont fermées aux voitures de 9 h 30 à "
+                  "18 h. Les habitants viennent à pied, à vélo ou en trottinette, et les bus sont "
+                  "gratuits toute la journée.</p>"
+                  "<p>L'an dernier, environ 30 000 personnes ont participé. Des familles ont "
+                  "pique-niqué sur le pont, des enfants ont dessiné à la craie sur la route et "
+                  "des musiciens ont joué devant la gare. « C'est la seule journée où j'entends "
+                  "les oiseaux dans ma rue », raconte Léon, 81 ans.</p>"
+                  "<p>Tout le monde n'est cependant pas content. Certains commerçants disent "
+                  "qu'ils vendent moins ce jour-là, parce que leurs clients habituels viennent en "
+                  "voiture. D'autres, au contraire, installent une terrasse sur le trottoir et font "
+                  "leur meilleure journée de l'année.</p>"
+                  "<p>La ville veut aller plus loin. À partir de l'été prochain, elle organisera "
+                  "un dimanche sans voitures chaque mois. C'est pourquoi elle demande l'avis des "
+                  "habitants : jusqu'au 15 mars, chacun peut répondre à une enquête en ligne.</p>"),
+                 ("kort", "Schrijf het onderwerp in enkele woorden.",
+                  "een zondag zonder auto's in Luik", WL),
+                 ("open", "Wat is de hoofdgedachte? Eén zin.",
+                  "De autoloze zondag in Luik is een succes, al zijn niet alle handelaars blij, en de "
+                  "stad wil hem voortaan elke maand organiseren.", 3),
+                 ("kort", "Hoe laat mogen de auto's weer rijden?", "om 18 uur", W),
+                 ("kort", "Hoeveel mensen deden vorig jaar mee?", "ongeveer 30 000", W),
+                 ("waar", "Op de autoloze zondag moet je voor de bus betalen.", False),
+                 ("open", "Waarom zijn sommige handelaars niet tevreden?",
+                  "Ze verkopen minder, omdat hun gewone klanten met de auto komen.", 2),
+                 ("kies", "Welk verband legt <em>au contraire</em> in de derde alinea?",
+                  ["een tegenstelling", "een gevolg", "een voorbeeld", "een volgorde"], 0),
+                 ("kort", "„C'est pourquoi elle demande l'avis des habitants.” Waarnaar verwijst "
+                          "<em>elle</em>?", "naar de stad Luik", WL),
+                 ("kort", "Tot wanneer kan je de online enquête invullen?", "tot 15 maart", W),
+                 ("kies", "Wat voor soort tekst is dit?",
+                  ["een informatief artikel", "een verhaal", "een gebruiksaanwijzing",
+                   "een lezersbrief"], 0),
+             ]),
+        dict(kop="Texte 2", opdracht="Een kort verhaal. Lees het eerst helemaal.",
+             oefeningen=[
+                 ("tekst",
+                  "<h3 style='margin:0 0 .4em'>La clé</h3>"
+                  "<p>Ce matin-là, Yasmine était en retard, comme d'habitude. Elle a pris son sac, "
+                  "elle a claqué la porte et elle a couru jusqu'à l'arrêt. C'est seulement dans le "
+                  "bus qu'elle a compris : sa clé était restée sur la table de la cuisine.</p>"
+                  "<p>Ses parents travaillaient tard le mercredi, et son petit frère dormait chez "
+                  "un ami. Toute la journée, elle a pensé à cette clé. Où allait-elle attendre ? "
+                  "Dans le froid, devant la porte, pendant trois heures ?</p>"
+                  "<p>À quatre heures, elle est rentrée lentement. Devant la maison, monsieur "
+                  "Peeters, le voisin, réparait son vélo. « Tu as oublié quelque chose ? » a-t-il "
+                  "demandé en souriant. Il a sorti une clé de sa poche. « Ta mère m'en a laissé "
+                  "une il y a des années. Je savais qu'un jour, elle servirait. »</p>"
+                  "<p>Ce soir-là, Yasmine a accroché sa propre clé à la fermeture de son sac. Puis "
+                  "elle a fait un gâteau, et elle l'a apporté chez le voisin.</p>"),
+                 ("kort", "Wie is de hoofdpersoon?", "Yasmine", W),
+                 ("open", "Wat had Yasmine vergeten, en waar lag het?",
+                  "Haar sleutel; die lag op de keukentafel.", 2),
+                 ("kies", "„Comme d'habitude” in de eerste zin. Wat leer je daaruit over Yasmine?",
+                  ["ze is vaak te laat", "ze is nooit te laat", "ze neemt nooit de bus",
+                   "ze staat altijd vroeg op"], 0),
+                 ("open", "Waarom kon er niemand anders de deur openen? Geef de twee redenen.",
+                  "Haar ouders werkten laat op woensdag, en haar broertje sliep bij een vriend.", 2),
+                 ("waar", "Yasmine kwam opgewekt en snel naar huis gewandeld.", False),
+                 ("open", "Hoe komt het dat de buurman een sleutel heeft?",
+                  "De moeder van Yasmine heeft hem jaren geleden een sleutel gegeven.", 2),
+                 ("kort", "Welk woord in <em>je savais qu'un jour, elle servirait</em> verwijst "
+                          "naar de sleutel?", "elle", W),
+                 ("open", "Wat doet Yasmine 's avonds, en waarom denk je dat ze dat doet?",
+                  "Ze hangt haar sleutel aan haar boekentas, zodat ze hem niet meer vergeet, en ze "
+                  "bakt een taart voor de buurman om hem te bedanken.", 3),
+                 ("kies", "Wie vertelt dit verhaal?",
+                  ["een verteller die over Yasmine vertelt", "Yasmine zelf, in de ik-vorm",
+                   "de buurman", "de moeder van Yasmine"], 0),
+             ]),
+        dict(kop="Twee teksten, één werkwijze",
+             opdracht="Deze vragen gaan over hoe je leest.",
+             oefeningen=[
+                 ("open", "Bij welke tekst heb je meer moeten afleiden: het artikel of het verhaal? "
+                          "Geef een voorbeeld.",
+                  "Bij het verhaal: dat Yasmine bang of ongerust is, of waarom ze een taart bakt, "
+                  "staat er niet letterlijk.", 3),
+                 ("open", "Je kent in een tekst een woord niet en er is geen woordenlijst. Wat doe "
+                          "je?",
+                  "Raden uit de zin eromheen, kijken of het op een Nederlands, Engels of Frans woord "
+                  "lijkt dat je kent, en verder lezen.", 2),
+             ]),
+    ])

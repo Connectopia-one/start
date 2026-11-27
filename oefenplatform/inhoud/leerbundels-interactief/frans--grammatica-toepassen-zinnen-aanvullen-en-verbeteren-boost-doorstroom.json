@@ -1,0 +1,120 @@
+{
+ "vak": "Frans",
+ "titel": "Grammatica toepassen: zinnen aanvullen en verbeteren",
+ "onder": "De juiste tijd en vorm kiezen in een zin of een mailtje, de kleine woorden goed zetten, en je eigen tekst nalezen.",
+ "secties": [
+  {
+   "kop": "Hoe pak je een grammaticavraag aan?",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Op het examen krijg je grammatica bijna nooit als losse regel. Je ziet ze <strong>in een zin</strong>, <strong>een mailtje</strong> of <strong>een kort verhaal</strong>, en je moet zelf zien welke vorm er hoort. Bij je eigen schrijfopdracht is het net zo: daar zoek je de foutjes zelf."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Vier vragen bij elk gat in een zin.</strong> 1. Wie is het <strong>onderwerp</strong>? 2. Welke <strong>tijdswoorden</strong> staan er (hier, demain, tous les jours, déjà)? 3. Wat staat er <strong>vlak voor</strong> het gat (si, pour, il faut que, ne … pas)? 4. Is het woord dat je zoekt <strong>mannelijk of vrouwelijk, enkelvoud of meervoud</strong>?"
+    }
+   ]
+  },
+  {
+   "kop": "Welke tijd kies je?",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat zegt de zin?</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Tijd</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">iemand was bezig toen iets anders gebeurde</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">imparfait</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Quand je suis rentré, ma sœur faisait la vaisselle.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een gewoonte: tous les jours, chaque samedi, d'habitude</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">imparfait</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Pendant les vacances, nous allions tous les jours à la plage.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">afgeronde handelingen die na elkaar gebeuren</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">passé composé</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Il a ouvert la porte, il a regardé dehors et il est sorti.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">iets gebeurde vóór een ander moment in het verleden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">plus-que-parfait</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Quand Paul est arrivé, le train était déjà parti.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">iets is net gebeurd</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">passé récent: venir de + infinitief</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Je viens de finir mes devoirs.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">iets gaat zo meteen gebeuren</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">futur proche: aller + infinitief</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Le train va partir dans deux minutes.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">iets gebeurt later</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">futur simple</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Demain, je prendrai le bus.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">iets onwerkelijks, of beleefd vragen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">conditionnel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Je ferais du sport. · Je voudrais réserver une chambre.</td></tr></table>",
+     "onderschrift": "Kijk eerst wat de zin wil zeggen, en kies dan pas de tijd."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het Nederlands helpt je hier niet: <em>ik liep</em> kan in het Frans zowel <em>je marchais</em> als <em>j'ai marché</em> zijn. Een korte gebeurtenis die het verhaal vooruit duwt, is een <strong>passé composé</strong>. Een <strong>beschrijving</strong> of een <strong>gewoonte</strong> is een <strong>imparfait</strong>: <em>ils allaient au cinéma chaque samedi</em> gaat dus niet over één bepaald bezoek, maar over elke week."
+    }
+   ]
+  },
+  {
+   "kop": "De vormen goed maken",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Vorm</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Zo maak je hem</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">passé composé met être</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het voltooid deelwoord komt overeen met het onderwerp</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">elles sont parties · nous sommes restés · Léa et Inès sont venues · ma mère est allée</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">passé composé met avoir</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het deelwoord blijft gewoon staan</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nous avons mangé une pizza</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">imparfait</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de stam van de nous-vorm + -ais, -ais, -ait, -ions, -iez, -aient</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nous habitons → nous habitions</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">futur simple</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de infinitief (zonder de e van -re) + -ai, -as, -a, -ons, -ez, -ont</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je prendrai</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">conditionnel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dezelfde stam als de futur + de uitgangen van de imparfait</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je prendrais · je ferais · je voudrais</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">subjonctif</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de stam van de ils-vorm + -e, -es, -e, -ions, -iez, -ent</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ils partent → que nous partions · ils viennent → que tu viennes · que tu fasses</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">impératif</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de tu-, nous- of vous-vorm zonder het voornaamwoord</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Apportez votre maillot ! · Reste où tu es !</td></tr></table>",
+     "onderschrift": "De vormen die je in een zin het vaakst zelf moet maken."
+    },
+    {
+     "soort": "tekst",
+     "html": "Let op het verschil tussen <em>je prendrai</em> (futur, later) en <em>je prendrais</em> (conditionnel, zou nemen). Je hoort het bijna niet, maar je ziet het aan de <strong>s</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Na <em>il faut que</em> en na een gevoel zoals <em>je suis content que</em> komt de <strong>subjonctif</strong>: <em>il faut que tu fasses tes devoirs</em>. Na <em>il m'a dit que</em> en <em>je pense que</em> volgt een feit, en dus de <strong>indicatif</strong>: <em>il m'a dit qu'il était malade</em>, <em>je pense qu'il viendra</em>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>wederkerend werkwoord</strong> krijgt een voornaamwoord dat bij het onderwerp past: <em>je me lève, nous nous levons</em>; <em>se</em> blijft voor il, elle en ils. Een <strong>onpersoonlijk werkwoord</strong> heeft een il dat naar niemand verwijst: <em>il pleut, il neige, il faut</em>. In <em>il chante</em> zingt er wel iemand."
+    }
+   ]
+  },
+  {
+   "kop": "De si-zin",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat bedoel je?</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Patroon</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">iets dat echt kan gebeuren</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">si + présent → futur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">S'il fait beau demain, nous irons à la mer.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">iets onwerkelijks</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">si + imparfait → conditionnel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Si j'avais plus de temps, je ferais du sport.</td></tr></table>",
+     "onderschrift": "Na si staat nooit een futur en nooit een conditionnel."
+    }
+   ]
+  },
+  {
+   "kop": "De kleine woorden",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Regel</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">na een ontkenning wordt du, de la, des, un of une gewoon de (d')</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Je n'ai pas d'argent sur moi.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">na een hoeveelheid staat de</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">beaucoup de légumes · un peu de sucre</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">deelaanduidend lidwoord bij iets wat je niet telt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">du café · du pain</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">à + le = au, à + les = aux</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je vais au marché</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het bijvoeglijk naamwoord past zich aan</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">une robe blanche · ces chaussures sont chères</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">korte, veelgebruikte bijvoeglijke naamwoorden staan vóór, kleuren erachter</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">une petite maison rouge</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een bijwoord op -ment maak je van de vrouwelijke vorm</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">lent → lente → lentement</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vergelijken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">plus grand que moi · aussi grand que moi · le plus grand</td></tr></table>",
+     "onderschrift": "Lidwoorden, bijvoeglijke naamwoorden en bijwoorden."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Woordje</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat het vervangt</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">le, la, l', les</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het lijdend voorwerp</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Le film ? Je l'ai vu hier.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">lui, leur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het meewerkend voorwerp, met à ervoor</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">J'ai écrit à ma grand-mère → je lui ai écrit.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">y</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een plaats met à, en, chez of dans</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Tu vas à Bruges ? → J'y vais.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">en</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een naamwoord met de, du of des, of een hoeveelheid</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Des cerises ? → J'en veux bien.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">qui</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het onderwerp in een betrekkelijke bijzin</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">la fille qui habite à côté</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">que</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het lijdend voorwerp in een betrekkelijke bijzin</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">la ville que je préfère · le film que j'ai vu</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dont</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">iets met de, zoals bij parler de</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">le livre dont je t'ai parlé</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">où</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een plaats of een tijd</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">la ville où je suis née</td></tr></table>",
+     "onderschrift": "Voornaamwoorden in een zin."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>bezittelijk woordje</strong> volgt het naamwoord, niet de bezitter: <em>son portefeuille</em>, <em>sa clé</em>, <em>notre bus</em>, <em>leur voiture</em>, <em>leurs voitures</em>. Voor een vrouwelijk woord met een klinker vooraan wordt <em>ma</em> gewoon <em>mon</em>: <em>mon amie</em>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Voorzetsels bij plaatsen:</strong> <em>en Espagne</em> (vrouwelijk land), <em>au Portugal</em> (mannelijk land), <em>aux Pays-Bas</em> (meervoud), en bij een stad altijd <em>à</em>: <em>j'habite à Bruxelles</em>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De ontkenning in een samengestelde tijd:</strong> ne en het tweede woordje staan rond het hulpwerkwoord: <em>je n'ai rien acheté</em>. <em>Rien</em> neemt de plaats van <em>pas</em> in, dus <em>pas</em> valt weg."
+    }
+   ]
+  },
+  {
+   "kop": "Je eigen tekst nalezen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Veel Franse fouten <strong>hoor je niet</strong>, je moet ze <strong>zien</strong>. <em>Demander</em>, <em>demandé</em> en <em>demandez</em> klinken hetzelfde. Na <em>pour</em> staat altijd een infinitief: <em>je vous écris pour demander des informations</em>."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Lees je tekst drie keer na, telkens op één ding.</strong> 1. De <strong>werkwoorden</strong>: past de uitgang bij het onderwerp, en staat er na pour of na een voorzetsel een infinitief? 2. De <strong>overeenkomst</strong>: krijgt elk bijvoeglijk naamwoord en elk deelwoord met être de juiste e en s? 3. De <strong>kleine woorden</strong>: lidwoord, bezittelijk woordje, voorzetsel."
+    }
+   ]
+  },
+  {
+   "kop": "Oefen dit ook buiten het scherm",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Hier oefen je lezen, schrijven, woordenschat en grammatica. Maar het examen <strong>Frans 1</strong> is voor de helft <strong>luisteren</strong>, en <strong>Frans 2</strong> bestaat naast de twee schrijfopdrachten uit een <strong>spreekopdracht</strong> die je thuis opneemt en een <strong>gesprek van tien minuten</strong>. Die drie leer je niet achter een scherm, maar door Frans te horen en zelf Frans te praten, ook als het hakkelt."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Deze week:</strong> schrijf vijf zinnen over wat je gisteren deed en wat je morgen gaat doen, lees ze luidop aan iemand voor en laat die je vragen stellen. Antwoord in het Frans. Doe het één keer en let daarna op wat je miste of niet gezegd kreeg. Dat is precies je volgende oefening."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

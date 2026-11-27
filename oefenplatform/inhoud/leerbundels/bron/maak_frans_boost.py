@@ -2003,3 +2003,233 @@ BUNDELS["soorten-zinnen-bijzinnen-en-si-zinnen" + NIVEAU] = dict(
                "manier: één met de toon, één met est-ce que en één met omkering."),
     ],
 )
+
+
+# ───────────────────────── 14. Grammatica toepassen (27 november 2026)
+# Na de enquête van een tester die zelf Frans geeft: meer grammatica. Geen
+# nieuwe leerstof, wel dezelfde grammaticalijst toegepast in zinnen en mails.
+BUNDELS["grammatica-toepassen-zinnen-aanvullen-en-verbeteren" + NIVEAU] = dict(
+    vak=VAK, niveau=BOOST, titel="Grammatica toepassen: zinnen aanvullen en verbeteren",
+    onder="De juiste tijd en vorm kiezen in een zin of een mailtje, de kleine woorden goed zetten, en je eigen tekst nalezen.",
+    secties=[
+        dict(kop="Hoe pak je een grammaticavraag aan?", blokken=[
+            ("p", "Op het examen krijg je grammatica bijna nooit als losse regel. Je ziet ze "
+                  "<strong>in een zin</strong>, <strong>een mailtje</strong> of <strong>een kort "
+                  "verhaal</strong>, en je moet zelf zien welke vorm er hoort. Bij je eigen "
+                  "schrijfopdracht is het net zo: daar zoek je de foutjes zelf."),
+            ("kader", "<strong>Vier vragen bij elk gat in een zin.</strong> 1. Wie is het "
+                      "<strong>onderwerp</strong>? 2. Welke <strong>tijdswoorden</strong> staan er "
+                      "(hier, demain, tous les jours, déjà)? 3. Wat staat er <strong>vlak voor</strong> "
+                      "het gat (si, pour, il faut que, ne … pas)? 4. Is het woord dat je zoekt "
+                      "<strong>mannelijk of vrouwelijk, enkelvoud of meervoud</strong>?"),
+        ]),
+        dict(kop="Welke tijd kies je?", blokken=[
+            ("fig", tabel(["Wat zegt de zin?", "Tijd", "Voorbeeld"], [
+                ["iemand was bezig toen iets anders gebeurde", "imparfait",
+                 "Quand je suis rentré, ma sœur faisait la vaisselle."],
+                ["een gewoonte: tous les jours, chaque samedi, d'habitude", "imparfait",
+                 "Pendant les vacances, nous allions tous les jours à la plage."],
+                ["afgeronde handelingen die na elkaar gebeuren", "passé composé",
+                 "Il a ouvert la porte, il a regardé dehors et il est sorti."],
+                ["iets gebeurde vóór een ander moment in het verleden", "plus-que-parfait",
+                 "Quand Paul est arrivé, le train était déjà parti."],
+                ["iets is net gebeurd", "passé récent: venir de + infinitief",
+                 "Je viens de finir mes devoirs."],
+                ["iets gaat zo meteen gebeuren", "futur proche: aller + infinitief",
+                 "Le train va partir dans deux minutes."],
+                ["iets gebeurt later", "futur simple", "Demain, je prendrai le bus."],
+                ["iets onwerkelijks, of beleefd vragen", "conditionnel",
+                 "Je ferais du sport. · Je voudrais réserver une chambre."],
+            ]), "Kijk eerst wat de zin wil zeggen, en kies dan pas de tijd."),
+            ("p", "Het Nederlands helpt je hier niet: <em>ik liep</em> kan in het Frans zowel "
+                  "<em>je marchais</em> als <em>j'ai marché</em> zijn. Een korte gebeurtenis die "
+                  "het verhaal vooruit duwt, is een <strong>passé composé</strong>. Een "
+                  "<strong>beschrijving</strong> of een <strong>gewoonte</strong> is een "
+                  "<strong>imparfait</strong>: <em>ils allaient au cinéma chaque samedi</em> gaat "
+                  "dus niet over één bepaald bezoek, maar over elke week."),
+        ]),
+        dict(kop="De vormen goed maken", blokken=[
+            ("fig", tabel(["Vorm", "Zo maak je hem", "Voorbeeld"], [
+                ["passé composé met être", "het voltooid deelwoord komt overeen met het onderwerp",
+                 "elles sont parties · nous sommes restés · Léa et Inès sont venues · ma mère est allée"],
+                ["passé composé met avoir", "het deelwoord blijft gewoon staan",
+                 "nous avons mangé une pizza"],
+                ["imparfait", "de stam van de nous-vorm + -ais, -ais, -ait, -ions, -iez, -aient",
+                 "nous habitons → nous habitions"],
+                ["futur simple", "de infinitief (zonder de e van -re) + -ai, -as, -a, -ons, -ez, -ont",
+                 "je prendrai"],
+                ["conditionnel", "dezelfde stam als de futur + de uitgangen van de imparfait",
+                 "je prendrais · je ferais · je voudrais"],
+                ["subjonctif", "de stam van de ils-vorm + -e, -es, -e, -ions, -iez, -ent",
+                 "ils partent → que nous partions · ils viennent → que tu viennes · que tu fasses"],
+                ["impératif", "de tu-, nous- of vous-vorm zonder het voornaamwoord",
+                 "Apportez votre maillot ! · Reste où tu es !"],
+            ]), "De vormen die je in een zin het vaakst zelf moet maken."),
+            ("p", "Let op het verschil tussen <em>je prendrai</em> (futur, later) en <em>je "
+                  "prendrais</em> (conditionnel, zou nemen). Je hoort het bijna niet, maar je ziet "
+                  "het aan de <strong>s</strong>."),
+            ("p", "Na <em>il faut que</em> en na een gevoel zoals <em>je suis content que</em> komt "
+                  "de <strong>subjonctif</strong>: <em>il faut que tu fasses tes devoirs</em>. Na "
+                  "<em>il m'a dit que</em> en <em>je pense que</em> volgt een feit, en dus de "
+                  "<strong>indicatif</strong>: <em>il m'a dit qu'il était malade</em>, <em>je pense "
+                  "qu'il viendra</em>."),
+            ("p", "Een <strong>wederkerend werkwoord</strong> krijgt een voornaamwoord dat bij het "
+                  "onderwerp past: <em>je me lève, nous nous levons</em>; <em>se</em> blijft voor "
+                  "il, elle en ils. Een <strong>onpersoonlijk werkwoord</strong> heeft een il dat "
+                  "naar niemand verwijst: <em>il pleut, il neige, il faut</em>. In <em>il chante</em> "
+                  "zingt er wel iemand."),
+        ]),
+        dict(kop="De si-zin", blokken=[
+            ("fig", tabel(["Wat bedoel je?", "Patroon", "Voorbeeld"], [
+                ["iets dat echt kan gebeuren", "si + présent → futur",
+                 "S'il fait beau demain, nous irons à la mer."],
+                ["iets onwerkelijks", "si + imparfait → conditionnel",
+                 "Si j'avais plus de temps, je ferais du sport."],
+            ]), "Na si staat nooit een futur en nooit een conditionnel."),
+        ]),
+        dict(kop="De kleine woorden", blokken=[
+            ("fig", tabel(["Regel", "Voorbeeld"], [
+                ["na een ontkenning wordt du, de la, des, un of une gewoon de (d')",
+                 "Je n'ai pas d'argent sur moi."],
+                ["na een hoeveelheid staat de", "beaucoup de légumes · un peu de sucre"],
+                ["deelaanduidend lidwoord bij iets wat je niet telt", "du café · du pain"],
+                ["à + le = au, à + les = aux", "je vais au marché"],
+                ["het bijvoeglijk naamwoord past zich aan", "une robe blanche · ces chaussures sont chères"],
+                ["korte, veelgebruikte bijvoeglijke naamwoorden staan vóór, kleuren erachter",
+                 "une petite maison rouge"],
+                ["een bijwoord op -ment maak je van de vrouwelijke vorm", "lent → lente → lentement"],
+                ["vergelijken", "plus grand que moi · aussi grand que moi · le plus grand"],
+            ]), "Lidwoorden, bijvoeglijke naamwoorden en bijwoorden."),
+            ("fig", tabel(["Woordje", "Wat het vervangt", "Voorbeeld"], [
+                ["le, la, l', les", "het lijdend voorwerp", "Le film ? Je l'ai vu hier."],
+                ["lui, leur", "het meewerkend voorwerp, met à ervoor", "J'ai écrit à ma grand-mère → je lui ai écrit."],
+                ["y", "een plaats met à, en, chez of dans", "Tu vas à Bruges ? → J'y vais."],
+                ["en", "een naamwoord met de, du of des, of een hoeveelheid", "Des cerises ? → J'en veux bien."],
+                ["qui", "het onderwerp in een betrekkelijke bijzin", "la fille qui habite à côté"],
+                ["que", "het lijdend voorwerp in een betrekkelijke bijzin", "la ville que je préfère · le film que j'ai vu"],
+                ["dont", "iets met de, zoals bij parler de", "le livre dont je t'ai parlé"],
+                ["où", "een plaats of een tijd", "la ville où je suis née"],
+            ]), "Voornaamwoorden in een zin."),
+            ("p", "Het <strong>bezittelijk woordje</strong> volgt het naamwoord, niet de bezitter: "
+                  "<em>son portefeuille</em>, <em>sa clé</em>, <em>notre bus</em>, <em>leur "
+                  "voiture</em>, <em>leurs voitures</em>. Voor een vrouwelijk woord met een klinker "
+                  "vooraan wordt <em>ma</em> gewoon <em>mon</em>: <em>mon amie</em>."),
+            ("p", "<strong>Voorzetsels bij plaatsen:</strong> <em>en Espagne</em> (vrouwelijk "
+                  "land), <em>au Portugal</em> (mannelijk land), <em>aux Pays-Bas</em> (meervoud), "
+                  "en bij een stad altijd <em>à</em>: <em>j'habite à Bruxelles</em>."),
+            ("p", "<strong>De ontkenning in een samengestelde tijd:</strong> ne en het tweede woordje "
+                  "staan rond het hulpwerkwoord: <em>je n'ai rien acheté</em>. <em>Rien</em> neemt "
+                  "de plaats van <em>pas</em> in, dus <em>pas</em> valt weg."),
+        ]),
+        dict(kop="Je eigen tekst nalezen", blokken=[
+            ("p", "Veel Franse fouten <strong>hoor je niet</strong>, je moet ze <strong>zien</strong>. "
+                  "<em>Demander</em>, <em>demandé</em> en <em>demandez</em> klinken hetzelfde. Na "
+                  "<em>pour</em> staat altijd een infinitief: <em>je vous écris pour demander des "
+                  "informations</em>."),
+            ("kader", "<strong>Lees je tekst drie keer na, telkens op één ding.</strong> 1. De "
+                      "<strong>werkwoorden</strong>: past de uitgang bij het onderwerp, en staat er "
+                      "na pour of na een voorzetsel een infinitief? 2. De "
+                      "<strong>overeenkomst</strong>: krijgt elk bijvoeglijk naamwoord en elk "
+                      "deelwoord met être de juiste e en s? 3. De <strong>kleine woorden</strong>: "
+                      "lidwoord, bezittelijk woordje, voorzetsel."),
+        ]),
+        buiten("schrijf vijf zinnen over wat je gisteren deed en wat je morgen gaat doen, lees ze "
+               "luidop aan iemand voor en laat die je vragen stellen. Antwoord in het Frans."),
+    ],
+)
+
+
+# ───────────────────────── 15. Begrijpend lezen: langere teksten (27 november 2026)
+BUNDELS["begrijpend-lezen-langere-franse-teksten" + NIVEAU] = dict(
+    vak=VAK, niveau=BOOST, titel="Begrijpend lezen: langere Franse teksten",
+    onder="Een lange Franse tekst aanpakken: de hoofdgedachte vinden, gegevens terugzoeken, verbanden zien en afleiden wat er niet letterlijk staat.",
+    secties=[
+        dict(kop="Wat vraagt het examen?", blokken=[
+            ("p", "Op het examen <strong>Frans 1</strong> lees je niet alleen korte tekstjes. Je "
+                  "krijgt ook <strong>langere teksten</strong>: een krantenartikel, een brief, een "
+                  "verhaal. Op niveau <strong>B1</strong> moet je dan verbanden leggen tussen "
+                  "alinea's, twee teksten met elkaar vergelijken, en afleiden wat de schrijver "
+                  "bedoelt zonder het letterlijk te zeggen."),
+            ("p", "In dit hoofdstuk staat de tekst <strong>bovenaan</strong> en blijft hij staan "
+                  "terwijl je de vragen maakt. Gekleurde woorden kan je aantikken voor de "
+                  "vertaling. Ga bij elke vraag terug naar de tekst: het antwoord staat er bijna "
+                  "altijd, of je kan het eruit afleiden."),
+        ]),
+        dict(kop="Een lange tekst aanpakken in vijf stappen", blokken=[
+            ("kader", "<strong>1.</strong> Lees de <strong>titel</strong> en kijk wat voor tekst het "
+                      "is: een artikel, een brief, een verhaal. <strong>2.</strong> Lees de tekst "
+                      "één keer helemaal, <strong>zonder te stoppen</strong> bij elk woord dat je niet "
+                      "kent. <strong>3.</strong> Lees de <strong>vraag</strong> en zoek het stukje "
+                      "tekst waar ze over gaat. <strong>4.</strong> Lees dat stukje nog eens "
+                      "<strong>zorgvuldig</strong>, met de zin ervoor en erna. <strong>5.</strong> "
+                      "Kies pas dan je antwoord, en kijk of het echt in de tekst staat en niet alleen "
+                      "logisch klinkt."),
+            ("weetje", "Een onbekend woord lijkt vaak op een Nederlands, Engels of Frans woord dat "
+                       "je wel kent: <em>réparer</em> en repareren, <em>la prudence</em> en "
+                       "voorzichtigheid (prudent). Kijk ook naar de zin eromheen."),
+        ]),
+        dict(kop="Onderwerp, hoofdgedachte en hoofdpunten", blokken=[
+            ("fig", tabel(["Wat?", "Hoe zeg je het?", "Voorbeeld bij een tekst over een fietsenwerkplaats"], [
+                ["het onderwerp", "in enkele woorden: waarover gaat de tekst?",
+                 "over een plek waar mensen hun fiets leren herstellen"],
+                ["de hoofdgedachte", "in één zin: wat is de boodschap van de hele tekst?",
+                 "De werkplaats helpt veel mensen, maar zoekt nieuwe vrijwilligers."],
+                ["de hoofdpunten", "de belangrijkste stappen of argumenten, vaak één per alinea",
+                 "wie er komt, hoe het werkt, wat het oplevert, welk probleem er is"],
+            ]), "Drie dingen die op elkaar lijken en die je uit elkaar moet houden."),
+            ("p", "Gegevens zoals een <strong>getal</strong>, een <strong>uur</strong> of een "
+                  "<strong>naam</strong> zoek je gericht terug. Een Frans uur schrijf je vaak met "
+                  "een h: <em>21 h 52</em> is acht minuten voor tien 's avonds."),
+        ]),
+        dict(kop="De draad van de tekst: verwijswoorden en signaalwoorden", blokken=[
+            ("p", "Een <strong>verwijswoord</strong> verwijst naar iets dat al eerder in de tekst "
+                  "stond. Bij <em>on l'ouvre avec prudence</em> zoek je in de zin ervoor naar wat "
+                  "l' is. Zo ook <em>le, la, les, lui, y, en, il, elle, ce</em>."),
+            ("fig", tabel(["Signaalwoord", "Betekenis", "Verband"], [
+                ["mais, pourtant, cependant, par contre", "maar, toch, nochtans", "tegenstelling"],
+                ["parce que, car, comme", "omdat, want", "oorzaak of reden"],
+                ["c'est pourquoi, donc, alors", "daarom, dus", "gevolg"],
+                ["ou bien", "of ook, of anders", "keuze of opsomming"],
+                ["par exemple, comme", "bijvoorbeeld, zoals", "voorbeeld"],
+                ["d'abord, puis, ensuite, enfin", "eerst, dan, daarna, ten slotte", "volgorde"],
+                ["à mon avis, je pense que", "volgens mij, ik denk dat", "mening"],
+            ]), "Signaalwoorden tonen hoe twee zinnen of alinea's bij elkaar horen."),
+            ("p", "Staat <em>pourtant</em> aan het begin van een alinea, dan weet je al voor je "
+                  "verder leest dat er een tegenstelling komt: alles werkt, en <strong>toch</strong> "
+                  "is er een probleem. Na <em>c'est pourquoi</em> volgt het <strong>gevolg</strong> "
+                  "van wat ervoor stond: oorzaak en gevolg."),
+        ]),
+        dict(kop="Welk soort tekst is het?", blokken=[
+            ("fig", tabel(["Soort", "Waaraan herken je hem?"], [
+                ["een nieuwsartikel (informatief)", "feiten, cijfers, uitspraken van mensen tussen aanhalingstekens"],
+                ["een lezersbrief (opiniërend)", "een lezer reageert op een artikel, met zijn mening: à mon avis, je ne suis pas d'accord; met naam onderaan"],
+                ["een betoog (persuasief)", "de schrijver wil je met argumenten overtuigen"],
+                ["een verhaal (narratief)", "personages, een plaats, een tijd en gebeurtenissen die elkaar opvolgen"],
+                ["een gebruiksaanwijzing (prescriptief)", "stappen en bevelen: épluchez, coupez, appuyez"],
+            ]), "De tekstsoort zegt je wat je mag verwachten."),
+            ("p", "Krijg je <strong>twee teksten</strong> over hetzelfde onderwerp, vergelijk ze dan: "
+                  "wat staat er <strong>in allebei</strong>, wat staat er maar <strong>in één</strong>, "
+                  "en waar zijn ze het <strong>niet met elkaar eens</strong>? Vaak geeft de ene tekst "
+                  "feiten en de andere een mening."),
+        ]),
+        dict(kop="Een verhaal lezen", blokken=[
+            ("p", "Bij een verhaal let je op de <strong>personages</strong>, op <strong>wat er "
+                  "gebeurt en in welke volgorde</strong>, en op <strong>wie er vertelt</strong>: een "
+                  "ik-figuur, of een verteller die over iemand vertelt (il, elle) en soms ook weet "
+                  "wat die denkt."),
+            ("p", "De <strong>tijden</strong> helpen je bij de volgorde. Een plus-que-parfait "
+                  "(<em>le bus était déjà parti</em>) gebeurde vóór de rest. Een imparfait "
+                  "(<em>ça m'arrivait tout le temps</em>) is een gewoonte van vroeger."),
+            ("p", "Niet alles staat er letterlijk. Wat een personage <strong>voelt</strong> of "
+                  "<strong>waarom</strong> het iets doet, <strong>leid je af</strong> uit wat het "
+                  "doet en zegt. Soms zegt iemand het omgekeerde van wat hij bedoelt: dat is "
+                  "<strong>ironie</strong>. Wie in de regen de bus mist en <em>génial</em> zegt, "
+                  "vindt het geen geweldige avond."),
+            ("p", "De <strong>boodschap</strong> van een verhaal is wat je eruit kan leren. Ze "
+                  "staat er zelden in één zin: je haalt ze uit hoe het verhaal afloopt en wat "
+                  "het personage op het einde besluit."),
+        ]),
+        buiten("lees een kort Frans nieuwsbericht op een site voor jongeren, en vertel daarna in "
+               "drie Franse zinnen aan iemand waarover het ging en wat jij ervan vindt."),
+    ],
+)

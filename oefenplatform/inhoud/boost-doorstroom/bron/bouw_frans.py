@@ -31,6 +31,7 @@ en een lijst DEEL2 van twintig vragen, en wordt hier twee hoofdstukken,
 import importlib
 import json
 import pathlib
+import re
 import sys
 
 HIER = pathlib.Path(__file__).parent
@@ -57,6 +58,11 @@ THEMAS = [
     ("fr_verleden", "Passé composé, imparfait en plus-que-parfait"),
     ("fr_toekomst", "Futur, conditionnel en subjonctif"),
     ("fr_zinsbouw", "Soorten zinnen, bijzinnen en si-zinnen"),
+    # 27 november 2026, na de enquête van een tester die Frans geeft: meer
+    # grammatica en meer leesopdrachten. Achteraan, zodat de hoofdstukken die al
+    # in de databank staan hun plaats houden.
+    ("fr_grammatica", "Grammatica toepassen: zinnen aanvullen en verbeteren"),
+    ("fr_leesteksten", "Begrijpend lezen: langere Franse teksten"),
 ]
 
 
@@ -146,10 +152,29 @@ def hoofdstukken_van(modulenaam: str, thema: str) -> list:
             raise SystemExit(f"{titel} heeft {len(vragen)} vragen, verwacht 20")
         for i, vraag in enumerate(vragen, start=1):
             controleer(titel, i, vraag)
-        uit.append(
-            {"titel": titel, "niveau": "boost-doorstroom", "gratis": False, "vragen": vragen}
-        )
+        hoofdstuk = {"titel": titel, "niveau": "boost-doorstroom", "gratis": False}
+        if hasattr(mod, f"TEKST{nummer}"):
+            hoofdstuk.update(leestekst_van(titel, getattr(mod, f"TEKST{nummer}"),
+                                           getattr(mod, f"WOORDEN{nummer}")))
+        hoofdstuk["vragen"] = vragen
+        uit.append(hoofdstuk)
     return uit
+
+
+def leestekst_van(titel: str, bron: str, woorden: list) -> dict:
+    """Een lange tekst die bovenaan het hoofdstuk blijft staan, zoals bij
+    begrijpend lezen in Start en Spark. Woorden tussen sterretjes moeten in de
+    woordenlijst staan, en omgekeerd. Een alinea wordt één regel."""
+    stukken = [re.sub(r"\s+", " ", s).strip() for s in re.split(r"\n\s*\n", bron)]
+    tekst = "\n\n".join(s for s in stukken if s)
+    gemarkeerd = {w.lower() for w in re.findall(r"\*([^*\n]+)\*", tekst)}
+    lijst = {w.lower() for w, _ in woorden}
+    if gemarkeerd != lijst:
+        raise SystemExit(f"{titel}: sterretjes en woordenlijst verschillen: {gemarkeerd ^ lijst}")
+    return {
+        "leestekst": tekst.replace("*", ""),
+        "woordenlijst": [{"woord": w, "uitleg": u} for w, u in woorden],
+    }
 
 
 def main():
