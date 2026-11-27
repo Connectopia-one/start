@@ -436,7 +436,7 @@
      ],
      "antwoord": 0,
      "uitleg": "Een huis is een woning.",
-     "afbeelding_pad": "/examenvormen/ready/lezen-huis.svg"
+     "afbeelding_pad": "/examenvormen/ready/lezen-huis.webp"
     },
     {
      "type": "invultekst",
@@ -458,14 +458,14 @@
      ],
      "antwoord": 0,
      "uitleg": "Op de prent zie je een bank om op te zitten in het park.",
-     "afbeelding_pad": "/examenvormen/ready/lezen-bank.svg"
+     "afbeelding_pad": "/examenvormen/ready/lezen-bank.webp"
     },
     {
      "type": "waarofniet",
      "vraag": "Bij de prent: het tegenovergestelde van warm is heet.",
      "antwoord": false,
      "uitleg": "Heet is nog warmer. Het tegenovergestelde van warm is koud.",
-     "afbeelding_pad": "/examenvormen/ready/lezen-zon.svg"
+     "afbeelding_pad": "/examenvormen/ready/lezen-zon.webp"
     }
    ]
   }

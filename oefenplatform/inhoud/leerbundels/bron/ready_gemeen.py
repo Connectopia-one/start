@@ -64,11 +64,17 @@ def _bronnen():
 
 def prent_html(pad, hoog="52mm"):
     p = PUBLIEK / pad.lstrip("/")
-    mime = "image/svg+xml" if p.suffix == ".svg" else "image/webp"
-    img = (f'<img src="data:{mime};base64,{base64.b64encode(p.read_bytes()).decode()}" '
+    mime, data = "image/svg+xml", None
+    if p.suffix != ".svg":
+        # Kleine jpeg in de pdf: anders wordt elke bundel enkele MB groot (27/11).
+        import io
+        from PIL import Image
+        im = Image.open(p).convert("RGB"); im.thumbnail((520, 520))
+        b = io.BytesIO(); im.save(b, "JPEG", quality=78); mime, data = "image/jpeg", b.getvalue()
+    img = (f'<img src="data:{mime};base64,{base64.b64encode(data or p.read_bytes()).decode()}" '
            f'style="max-height:{hoog};max-width:100%;display:block;margin:4px auto" alt="">')
     bron = _bronnen().get(p.name)
-    if bron:
+    if bron and "eigen beeld" not in bron:
         kort = bron.split(", http")[0]
         img += f'<span style="display:block;font-size:8pt;color:#6b7260;text-align:center">Prent: {kort} (Wikimedia Commons)</span>' if "commons" in bron else \
                f'<span style="display:block;font-size:8pt;color:#6b7260;text-align:center">Kaart: Natural Earth (publiek domein)</span>'

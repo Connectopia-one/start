@@ -205,7 +205,7 @@
      ],
      "antwoord": 0,
      "uitleg": "De wortel zit in de grond. Hij neemt water op en houdt de plant vast.",
-     "afbeelding_pad": "/examenvormen/ready/planten-pijl-wortel.svg"
+     "afbeelding_pad": "/examenvormen/ready/planten-pijl-wortel.webp"
     },
     {
      "type": "invultekst",
@@ -216,14 +216,14 @@
       "bladeren"
      ],
      "uitleg": "Met haar bladeren maakt de plant voedsel uit zonlicht.",
-     "afbeelding_pad": "/examenvormen/ready/planten-pijl-blad.svg"
+     "afbeelding_pad": "/examenvormen/ready/planten-pijl-blad.webp"
     },
     {
      "type": "waarofniet",
      "vraag": "De pijl wijst naar de wortel van de plant.",
      "antwoord": false,
      "uitleg": "De pijl wijst naar de stengel. Die brengt water van de wortel naar de bladeren.",
-     "afbeelding_pad": "/examenvormen/ready/planten-pijl-stengel.svg"
+     "afbeelding_pad": "/examenvormen/ready/planten-pijl-stengel.webp"
     },
     {
      "type": "invultekst",
@@ -233,7 +233,7 @@
       "de bloem"
      ],
      "uitleg": "In de bloem groeien later de zaadjes.",
-     "afbeelding_pad": "/examenvormen/ready/planten-pijl-bloem.svg"
+     "afbeelding_pad": "/examenvormen/ready/planten-pijl-bloem.webp"
     }
    ]
   },
@@ -445,21 +445,21 @@
      ],
      "antwoord": 0,
      "uitleg": "Het dier heeft 6 poten: het is een insect.",
-     "afbeelding_pad": "/examenvormen/ready/planten-insect.svg"
+     "afbeelding_pad": "/examenvormen/ready/planten-insect.webp"
     },
     {
      "type": "invultekst",
      "vraag": "Hoeveel poten heeft dit dier?",
      "antwoord": "8",
      "uitleg": "Een spin heeft 8 poten. Een insect heeft er 6.",
-     "afbeelding_pad": "/examenvormen/ready/planten-spin.svg"
+     "afbeelding_pad": "/examenvormen/ready/planten-spin.webp"
     },
     {
      "type": "waarofniet",
      "vraag": "Dit dier is een zoogdier: de jongen drinken melk bij hun moeder.",
      "antwoord": true,
      "uitleg": "Een koe is een zoogdier. Het kalf drinkt melk bij de koe.",
-     "afbeelding_pad": "/examenvormen/ready/planten-koe.svg"
+     "afbeelding_pad": "/examenvormen/ready/planten-koe.webp"
     },
     {
      "type": "meerkeuze",
@@ -472,7 +472,7 @@
      ],
      "antwoord": 0,
      "uitleg": "Een vis haalt zuurstof uit het water met zijn kieuwen.",
-     "afbeelding_pad": "/examenvormen/ready/planten-vis.svg"
+     "afbeelding_pad": "/examenvormen/ready/planten-vis.webp"
     }
    ]
   }

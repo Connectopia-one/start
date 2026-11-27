@@ -17,6 +17,10 @@ def svg(b, h, inhoud):
 
 
 def bewaar(naam, s):
+    import foto  # Kim 27/11: gedetailleerde prenten i.p.v. eenvoudige tekening
+    if naam in foto.FOTO:
+        GEMAAKT[naam] = "foto"
+        return foto.maak(naam, MAP, bron)
     GEMAAKT[naam] = s
     MAP.mkdir(parents=True, exist_ok=True)
     (MAP / f"{naam}.svg").write_text(s, encoding="utf-8")

@@ -172,7 +172,7 @@
      ],
      "antwoord": 0,
      "uitleg": "IJs schrijf je met ij: een ijsje.",
-     "afbeelding_pad": "/examenvormen/ready/spelling-ijsje.svg"
+     "afbeelding_pad": "/examenvormen/ready/spelling-ijsje.webp"
     },
     {
      "type": "invultekst",
@@ -181,7 +181,7 @@
       "ei"
      ],
      "uitleg": "Trein schrijf je met ei.",
-     "afbeelding_pad": "/examenvormen/ready/spelling-trein.svg"
+     "afbeelding_pad": "/examenvormen/ready/spelling-trein.webp"
     },
     {
      "type": "meerkeuze",
@@ -194,14 +194,14 @@
      ],
      "antwoord": 0,
      "uitleg": "Ring eindigt op ng.",
-     "afbeelding_pad": "/examenvormen/ready/spelling-ring.svg"
+     "afbeelding_pad": "/examenvormen/ready/spelling-ring.webp"
     },
     {
      "type": "waarofniet",
      "vraag": "Wat je op de prent ziet, schrijf je als 'bang'.",
      "antwoord": false,
      "uitleg": "Je ziet een bank: dat schrijf je met nk. Bang betekent dat je schrik hebt.",
-     "afbeelding_pad": "/examenvormen/ready/spelling-bank.svg"
+     "afbeelding_pad": "/examenvormen/ready/spelling-bank.webp"
     }
    ]
   },
@@ -392,7 +392,7 @@
       "een hond"
      ],
      "uitleg": "Hond schrijf je met d: denk aan honden.",
-     "afbeelding_pad": "/examenvormen/ready/spelling-hond.svg"
+     "afbeelding_pad": "/examenvormen/ready/spelling-hond.webp"
     },
     {
      "type": "invultekst",
@@ -402,7 +402,7 @@
       "twee honden"
      ],
      "uitleg": "Eén hond, twee honden.",
-     "afbeelding_pad": "/examenvormen/ready/spelling-honden.svg"
+     "afbeelding_pad": "/examenvormen/ready/spelling-honden.webp"
     },
     {
      "type": "invultekst",
@@ -412,14 +412,14 @@
       "een visje"
      ],
      "uitleg": "Vis wordt visje.",
-     "afbeelding_pad": "/examenvormen/ready/spelling-vis.svg"
+     "afbeelding_pad": "/examenvormen/ready/spelling-vis.webp"
     },
     {
      "type": "waarofniet",
      "vraag": "Het verkleinwoord van wat je ziet, is 'boompje'.",
      "antwoord": true,
      "uitleg": "Boom wordt boompje, met een p ertussen.",
-     "afbeelding_pad": "/examenvormen/ready/spelling-boom.svg"
+     "afbeelding_pad": "/examenvormen/ready/spelling-boom.webp"
     }
    ]
   }
